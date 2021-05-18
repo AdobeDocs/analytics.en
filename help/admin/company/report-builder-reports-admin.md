@@ -11,7 +11,7 @@ Manage license assigned to report builder users.
 
 Every report builder license assigned to a user is automatically allocated ten scheduled tasks. This number of tasks can be adjusted and reallocated. Scheduled tasks cannot exceed the number of available tasks for each user. Any over-scheduled tasks do not run.
 
-You can grant report builder access to any [!DNL Analytics] user by adding them to the report builder access group ( **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
+You can grant report builder access to any [!DNL Analytics] user by adding them to the report builder access group ( **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Groups]**).
 
 The [!UICONTROL Scheduled Task Usage] information table displays all users with report builder access privileges.
 

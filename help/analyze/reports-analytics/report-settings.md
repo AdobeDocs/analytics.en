@@ -11,7 +11,7 @@ Settings that define how all reports appear and information that maps the defaul
 
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All Components]** > **[!UICONTROL Report settings]**
 
 |Element|Description|
 |--- |--- |

@@ -44,7 +44,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 
 [!UICONTROL Data Sources] allow you to share non-clickstream data with Adobe Analytics. In this case we use Adobe Analytics to track paid search metrics. We use the tracking code as our key to tie the two pieces of data - paid search metrics and Adobe Analytics metrics - together.
 
-1. Navigate to **[!UICONTROL Adobe Analytics > Admin > Data Sources]**.
+1. Navigate to **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]**.
 1. Select the **[!UICONTROL Create]** tab to start activating new data sources.
 1. Under **[!UICONTROL Select Category]**, select **[!UICONTROL Ad Campaign]**.
 

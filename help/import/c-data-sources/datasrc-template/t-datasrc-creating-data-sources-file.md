@@ -19,7 +19,7 @@ The Data Source template is a .txt file that you can open with any text editor. 
 See [Import File Reference](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) for additional details.
 
 1. Log in to Analytics.
-1. In the Suite header, select **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+1. In the Suite header, select **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 1. On the **[!UICONTROL Data Sources Create]** tab, select a template category and type.
 1. Review the Activation Instructions/Information, then click **[!UICONTROL Activate]**.
 

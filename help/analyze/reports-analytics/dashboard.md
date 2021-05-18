@@ -36,11 +36,11 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
-**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Local Sites]**
+**[!UICONTROL Components] > [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Local Sites]**
 
 This customizable dashboard provides you a way to drop reportlets into the template provided.
 
-**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Components] > [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Site Operations Dashboard]**
 
 This dashboard provides you an overview of key metrics related to your website operations. Reports on this dashboard include:
 
@@ -181,7 +181,7 @@ t_dashboard_edit.xml
 
 **To edit dashboard and reportlet data** 
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
+1. Click **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
 | To  | Do this  |
@@ -209,7 +209,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Browse to upload the image, then click **[!UICONTROL Save.]**

@@ -101,7 +101,7 @@ In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring 
 
 The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
 
-1. To access the manager, click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
+1. To access the manager, click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Scheduled reports]**.
 
 ## Share a report link {#task_9711DDE9E140451B8C914EC5513E21EC}
 

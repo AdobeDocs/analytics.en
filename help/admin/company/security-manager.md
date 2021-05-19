@@ -11,7 +11,7 @@ The Security Manager lets you control access to reporting data. Options include 
 
 ## Settings
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Security]** 
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Security]** 
 
 | Setting | Description |
 |--- |--- |

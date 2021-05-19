@@ -96,7 +96,7 @@ The Server Call Usage permission is automatically granted to Analytics Admins. I
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Log in to Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigate to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> User Management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> Server Call Usage </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigate to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> Server Call Usage </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 

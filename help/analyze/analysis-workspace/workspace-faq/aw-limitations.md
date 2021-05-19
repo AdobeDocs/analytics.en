@@ -7,7 +7,7 @@ exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 ---
 # Known limitations in Analysis Workspace 
 
-Here is a list of known limitations in Analysis Workspace and its related components: 
+Here is a list of known limitations in Analysis Workspace and its related components:
 
 ## Tables
 
@@ -46,7 +46,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 
 * When report time processing is enabled, certain components are not supported. For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
 
-## Components > Report Settings
+## Components > All components > Report settings
 
 * Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
 

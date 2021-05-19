@@ -11,7 +11,7 @@ The Permanent Traffic sections lets you change expected traffic levels so Adobe 
 
 Please read the information about [Required Lead Time for Traffic Increases](/help/admin/c-traffic-management/traffic-lead-time.md) before you specify a permanent traffic increase.
 
-1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Select a report suite.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Permanent Traffic]**.
 1. In the **[!UICONTROL New Expected Daily Page Views]** field, specify the total expected daily page views for the new traffic level.

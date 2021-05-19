@@ -8,7 +8,7 @@ exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 
 The [!UICONTROL Company Settings] page lets you configure settings that apply to all report suites managed by your organization.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**
 
 + [Feature access levels](feature-access-levels.md)
 + [Web Services](web-services-admin.md)

@@ -39,6 +39,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `j` | None | The JavaScript version installed in the browser. |
 | `k` | None | Used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension. |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | List variables. |
+| `lrt` | None | The "last request timing," which is the roundtrip time for the last request, in milliseconds. It is sent only when more than one request is going out from a page or when the page is a single-page application (SPA). |
 | `mid` | None | Experience Cloud visitor ID. |
 | `ndh` | None | Flag indicating if the image request originated from AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Helps determine where cookies are set. |

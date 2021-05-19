@@ -11,7 +11,7 @@ The data connectors Integration Wizard steps you through the data connectors int
 To configure the integration: 
 
 1. [Generate](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) the Integration Account Key from AppFigures.
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** as an Admin user and click **[!UICONTROL + Add New]** to add a new integration.
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data connectors]** as an Admin user and click **[!UICONTROL + Add New]** to add a new integration.
 1. In the **[!UICONTROL Show]** list, select by name and drag the **appFigures** integration to an empty plug-in slot.
 1. On the AppFigures Integration introduction page, review the text, select the check box to accept the fees associated with the integration, then click **Next**.
 1. Select the Report Suite that you want to use for this integration.

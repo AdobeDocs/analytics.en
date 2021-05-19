@@ -10,7 +10,7 @@ exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 
 >[!IMPORTANT]
 >
->User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>User and product management has moved to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** will be retired.
 
 Descriptions of elements on the Define User Group page.
 

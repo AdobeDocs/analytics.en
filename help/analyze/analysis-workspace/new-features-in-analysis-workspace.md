@@ -429,7 +429,7 @@ New features and enhancements released on March 8, 2018.
    <td colname="col2"> <p>For the recently released custom templates, we have </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Added a template icon to the top of the project (near the title) to help differentiate the edit template mode from using a template as a starting point for a project. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Allow non-admins to create (save-as) and edit Workspace project templates, provided they have been granted the Create/Curate Projects in Analysis Workspace permission. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> User Management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Customize Analytics Tools </span>  &gt; <span class="uicontrol"> Create/Curate Projects in Analysis Workspace </span> </span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Allow non-admins to create (save-as) and edit Workspace project templates, provided they have been granted the Create/Curate Projects in Analysis Workspace permission. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Customize Analytics Tools </span>  &gt; <span class="uicontrol"> Create/Curate Projects in Analysis Workspace </span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -539,7 +539,7 @@ New features and enhancements released on January 18, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contribution Analysis: <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token Notification </a> </p> </td> 
-   <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left.&amp;nbsp; </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> User Management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. )&nbsp; </p> </td> 
+   <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left.&amp;nbsp; </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. )&nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV files with multi-bye characters </p> </td> 
@@ -1243,4 +1243,4 @@ When saving a project, the title on the browser tab will be displayed as "`<Proj
 
 Administrators can transfer [!UICONTROL Analysis Workspace] projects from one user to another.
 
-Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** to transfer projects.
+Navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > **[!UICONTROL Transfer]** to transfer projects.

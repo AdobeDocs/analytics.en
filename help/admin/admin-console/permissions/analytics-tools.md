@@ -15,16 +15,10 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Logs | Grants access to Admin > All admin > Logs. |
 | Logs - Web Services| Grants access to pull logs via the 1.4 API. |
 | Traffic Management | Grants access to Admin > All admin > Traffic management. |
-| Permission Management| No longer used. Grants access to the legacy user management interface under Admin > All admin > User management. |
-| Permissions (Read) - Web Services| No longer used. Allows the user to view legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
-| Permissions (Write) - Web Services | No longer used. Allows the user to edit legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
 | Security | Grants access to Admin > All admin > Company settings > Security Manager. |
 | Support| Grants access to Admin > All admin > Company settings > Support Information. |
 | Web Services | Grants access to Admin > All admin > Company settings > Web Services. |
-| Single Sign-On | No longer used. Grants access to the deprecated Single Sign-On Service. |
 | Pending Actions| Grants access to Admin > All admin > Company settings > Pending Actions. |
-| Co-Branding| No longer used. Grants access to Admin > All admin > Company settings > Co-Branding. |
-| Preferences| Not used. |
 | Hide Report Suites | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
 | Excel License Users| Not used. |
 | Activity Map | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |

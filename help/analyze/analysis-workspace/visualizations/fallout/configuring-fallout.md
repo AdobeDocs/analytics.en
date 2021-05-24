@@ -46,7 +46,7 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eventual Path </p> <p>(Default) </p> </td> 
-   <td colname="col2"> <p>Visitors are counted that will "eventually" land on the next page in the path, but not necessarily on the next hit. </p> </td> 
+   <td colname="col2"> <p>Visitors are counted that will "eventually" land on the next page in the path in that session, but not necessarily on the next hit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Next Hit </p> </td> 

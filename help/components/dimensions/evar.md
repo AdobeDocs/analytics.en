@@ -11,7 +11,7 @@ eVars are custom variables that you can use however you'd like. If you have a [s
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
-eVars are not case-sensitive. If you send the same value in different cases (for example, `"DOG"` and `"Dog"`), Analysis Workspace groups them together into the same dimension item. The case of the first value seen at the beginning of the reporting month is used. Data Warehouse shows the first value encountered during the request period.
+The (upper or lower) case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
 
 ## Populate eVars with data
 

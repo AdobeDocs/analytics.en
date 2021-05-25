@@ -20,7 +20,7 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
     + [Page event lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
     + [Mobile attributes lookup](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-    + [Merchandising eVar instances lookup in post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+    + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md)

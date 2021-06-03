@@ -37,9 +37,19 @@ SFTP support for data feeds is available. Requires an SFTP host, username, and t
 
 ### S3
 
-You can send feeds directly to Amazon S3 buckets. Requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
 
 ![S3 info](assets/dest-s3.jpg)
+
+The user you provide for uploading data feeds must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+  >[!NOTE]
+  >
+  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, whether or not the bucket has a policy that requires it. For more information, see “[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)”
 
 The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 

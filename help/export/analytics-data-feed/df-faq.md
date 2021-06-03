@@ -10,7 +10,7 @@ Frequently asked questions about data feeds.
 
 ## Must feed names be unique?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Data feed file names are made up of the report suite ID and the date. Any two feeds that are configured for the same RSID and date(s) will have the same file name. If those feeds are delivered to the same location, one file would overwrite the other. To prevent a file overwrite, you cannot create a feed that has the potential to overwrite an existing feed in the same location.
+Data feed file names are made up of the report suite ID and the date. Any two feeds that are configured for the same RSID and date(s) have the same file name. If those feeds are delivered to the same location, one file will overwrite the other. To prevent a file overwrite, you cannot create a feed that has the potential to overwrite an existing feed in the same location.
 
 Trying to create a feed when another exists with the same file name results in the following message:
 
@@ -22,7 +22,7 @@ If you receive this error, consider the following workarounds:
 
 ## When is data processed? {#section_6346328F8D8848A7B81474229481D404}
 
-Before processing hourly or daily data, data feeds waits until all the hits that entered data collection within the timeframe (day or hour) have been written out to data warehouse. After that occurs, data feeds collects the data with timestamps that fall within the timeframe, compresses it, and sends it via FTP. For hourly feeds, files are typically written out to data warehouse within 15-30 min after the hour, but there is no set time period. If there was no data with timestamps that fall within the timeframe, then the process tries again the next timeframe. The current data feed process uses the `date_time` field to determine which hits belong to the hour. This field is based on the time zone of the report suite.
+Before processing hourly or daily data, data feeds waits until all the hits that entered data collection within the timeframe (day or hour) have been written out to data warehouse. After that occurs, data feeds collect the data with timestamps that fall within the timeframe, compresses it, and sends it via FTP. For hourly feeds, files are typically written out to data warehouse within 15-30 min after the hour, but there is no set time period. If there was no data with timestamps that fall within the timeframe, then the process tries again the next timeframe. The current data feed process uses the `date_time` field to determine which hits belong to the hour. This field is based on the time zone of the report suite.
 
 ## What is the difference between columns with a `post_` prefix and columns without a `post_` prefix?
 
@@ -34,7 +34,7 @@ If a column does not contain a `post_` version (for example, `visit_num`), then 
 
 In Adobe Analytics, most variables are considered as case-insensitive for reporting purposes. For example, 'snow', 'Snow', 'SNOW', and 'sNow' are all considered the same value. Case sensitivity is preserved in data feeds.
 
-If you see different case variations of the same value between non-post and post columns (for example, 'snow' in the pre column, and 'Snow' in the post column), your implementation uses both uppercase and lowercase values across your site. The case variation in the post column was previously passed in and is stored in the virtual cookie, or was processed around the same time for that report suite.
+If you see different case variations of the same value between non-post and post columns (for example, 'snow' in the pre column and 'Snow' in the post column), your implementation uses both uppercase and lowercase values across your site. The case variation in the post column was previously passed in and is stored in the virtual cookie, or was processed around the same time for that report suite.
 
 ## Are bots filtered by Admin console bot rules included in data feeds?
 
@@ -54,7 +54,7 @@ Some mobile carriers (such as T-Mobile and O1) are no longer providing domain in
 
 For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file. 
 
-Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files prior to March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.
+Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files before March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.
 
 ## What is the impact of Daylight Savings on hourly data feeds? {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -66,7 +66,7 @@ When making DST -> STD transitions, ("Fall Back"), the customer gets 24 files. H
 
 ## How does Analytics handle FTP transfer failures? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-In the event of an FTP transfer failure (login denied, lost connection, out of quota, etc.), Adobe attempts to automatically connect and send the data up to three separate times. If the failures persist, the feed is marked as failed and an email notification is sent.
+If an FTP transfer fails (because of a denied login, lost connection, out of quota error, or other issue), Adobe attempts to automatically connect and send the data up to three separate times. If the failures persist, the feed is marked as failed and an email notification is sent.
 
 If a transfer fails, you can rerun a job until it succeeds.
 
@@ -76,13 +76,19 @@ If you have issues getting a data feed to appear on your FTP site, see [Troubles
 
 Once you have verified/corrected the delivery issue, rerun the job to get the files.
 
-## What is the BucketOwnerFullControl setting for Amazon S3 data feeds? {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## What is the BucketOwnerFullControl setting for Amazon S3 data feeds? {#BucketOwnerFullControl}
 
-The common use case for Amazon S3 is that the Amazon Web Services (AWS) account owner creates a bucket, then creates a user that has permission to create objects in that bucket, and then provides credentials for that user. In this case, the objects of a user belong to the same account, and the account owner implicitly has full control of the object (read, delete, etc.). This process is similar to how FTP delivery works.
+**BucketOwnerFullControl** provides cross-account rights to create objects in other buckets.
 
-AWS also makes it possible for a user to create objects in a bucket that belong to a different user account. For example, if two AWS users, userA and userB, do not belong to the same AWS account but want to create objects in other buckets. If userA creates a bucket, say bucketA, he or she can create a bucket policy that explicitly allows userB to create objects in bucketA even though the user doesn't own the bucket. This policy can be advantageous because it doesn't require that userA and userB to exchange credentials. Instead, userB provides userA with their account number, and userA creates a bucket policy that essentially says "let userB create objects in bucketA".
+The common use case for Amazon S3 is that the Amazon Web Services (AWS) account owner creates a bucket, then creates a user that has permission to create objects in that bucket, and then provides credentials for that user. In this case, the objects of a user belong to the same account, and the account owner implicitly has full control of the object (read, delete, and so on). This process is similar to how FTP delivery works.
 
-**BucketOwnerFullControl** provides cross-account rights to create objects in other buckets. If userB uploads an object to userA's bucket, userB still "owns" that object, and, by default, userA is not granted any permissions to that object even though userA owns the bucket. This is because objects do not inherit permissions from the parent bucket. UserB must explicitly grant userA permissions because userB is still the object's owner. To grant this permission, userB must upload the object with a BucketOwnerFullControl ACL, which specifies that the bucket owner (userA) is granted full permissions to the object (read, write, delete, etc), even though the object is "owned" by userB.
+AWS also makes it possible for a user to create objects in a bucket that belong to a different user account. For example, say two AWS users, userA and userB, do not belong to the same AWS account but want to create objects in other buckets. If userA creates a bucket called "bucketA," they can create a bucket policy that explicitly allows userB to create objects in bucketA even though the user doesn't own the bucket. This policy can be advantageous because it doesn't require userA and userB to exchange credentials. Instead, userB provides userA with their account number, and userA creates a bucket policy that essentially says "let userB create objects in bucketA".
+
+However, objects do not inherit permissions from the parent bucket. Therefore, if userB uploads an object to userA's bucket, userB still "owns" that object, and, by default, userA is not granted any permissions to that object even though userA owns the bucket. UserB must explicitly grant userA permissions because userB is still the object's owner. To grant this permission, userB must upload the object with a BucketOwnerFullControl ACL, which specifies that the bucket owner (userA) is granted full permissions to the object (read, write, delete, and so on), even though the object is "owned" by userB.
+
+>[!NOTE]
+>
+>[!DNL Analytics] doesn't determine if the bucket has a policy that requires giving the bucket owner full control of new objects, or even if the bucket owner is in a different account than the user writing the data. Instead, [!DNL Analytics] automatically adds the bucket owner to the BucketOwnerFullControl ACL with each feed upload.
 
 >[!MORELIKETHIS]
 >

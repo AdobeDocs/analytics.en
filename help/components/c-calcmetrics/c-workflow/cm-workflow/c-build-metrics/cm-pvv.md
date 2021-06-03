@@ -22,7 +22,7 @@ Here's how to build a simple "Page Views per Visits" metric.
 1. For this metric, first drag Page Views into the canvas, then drag Visits underneath (wait until the blue line appears to drop it).
 1. Select the Divide operator. (Divide is the default operator.) 
 1. You can now see a **[!UICONTROL Preview]** of that metric as you are building it, at the top right.
-1. Product compatibility shows you whether the metric is compatible with [Current Data](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html) or only with Fully Processed Data.
+1. Product compatibility shows you whether the metric is compatible with [Current Data](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) or only with Fully Processed Data.
 1. Click **[!UICONTROL Save]**.
 1. Notice that the **[!UICONTROL Summary]** formula updates anytime you make a change to the metric definition.
 1. You are now automatically taken to the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), which is similar to the Segment Manager. It lets you share, approve, (re-)tag, rename, or delete metrics.

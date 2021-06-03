@@ -20,7 +20,7 @@ Before users can report on Activity Map dimensions, you as the Admin need to
 
 ## Analytics Activity Map dimensions {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-You can [customize user access to dimensions](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) at a granular level. Here are the Activity Map dimensions available in Analytics:
+You can [customize user access to dimensions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) at a granular level. Here are the Activity Map dimensions available in Analytics:
 
 |  Dimension  | Description  |
 |---|---|

@@ -47,4 +47,4 @@ Dimension items from different dimensions can be added to the same table. The ro
 Dynamic and static rows behave differently in the freeform total row. By default:
 
 * Dynamic rows are summed server-side and de-duplicate metrics such as visits or visitors
-* Static rows are summed client-side and do **not** de-duplicate metrics. To calculate the total row server-side, change the Row setting to **Show grand total**. [Learn more](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Static rows are summed client-side and do **not** de-duplicate metrics. To calculate the total row server-side, change the Row setting to **Show grand total**. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)

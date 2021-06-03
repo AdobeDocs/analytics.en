@@ -38,4 +38,4 @@ For additional information:
 * [General User Management Info](https://helpx.adobe.com/enterprise/help/users.html) 
 * [User Management APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html) 
 * [User Management API Forum](https://forums.adobe.com/community/umapi/overview) 
-* [Migration of Analytics User Access and Management to Experience Cloud](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+* [Migration of Analytics User Access and Management to Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

@@ -61,4 +61,4 @@ Once you understand the basic workflow of obtaining data feeds, you can work wit
 
 Video navigating the data feed interface:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)

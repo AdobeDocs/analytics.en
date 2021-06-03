@@ -8,7 +8,7 @@ exl-id: a59216f2-047b-429b-8714-a2bdaa271911
 
 The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
 
-After identifying the Event and eVars to use with the emarsys integration, enable them in the [Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html).
+After identifying the Event and eVars to use with the emarsys integration, enable them in the [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html).
 
 **Required Variables** 
 

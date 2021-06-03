@@ -10,7 +10,7 @@ exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
 
 Steps that describe how to configure real-time request dates.
 
-1. Ensure that real-time reporting is enabled in the [Admin Tools](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in marketing reports & analytics.
+1. Ensure that real-time reporting is enabled in the [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) in marketing reports & analytics.
 1. On the [!UICONTROL Request Wizard: Step 1], click **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
    For example, select a Traffic Report. When you select a real-time report type, the [!UICONTROL Select Time Range] options display.

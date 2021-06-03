@@ -20,7 +20,7 @@ Timestamps Optional is the default setting for all new report suites.
 >
 >Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
-See [Timestamps Optional](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
+See [Timestamps Optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
 
 ## Timestamps Optional: Integrating Timestamped and Non-timestamped Data {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ The following are best practices and a few requirements and restrictions to be a
 
   Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
-* Using timestamps when setting a [s.visitorID](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) is not recommended. It can lead to out-of-order data.
+* Using timestamps when setting a [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
 

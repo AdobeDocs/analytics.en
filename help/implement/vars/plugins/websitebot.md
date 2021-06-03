@@ -13,16 +13,19 @@ The `websiteBot` plug-in allows you to dynamically identify if desktop visitors 
 
 This plug-in performs two checks:
 
-* First, it determines whether the device is a desktop or mobile device using the `navigator.UserAgent` variable. Mobile devices are ignored.
-* If it is a desktop device, it adds an event listener for mouse movement.
+* First, in case of a desktop device, it adds an event listener for mouse movement.
+* Next, it determines whether the device is a desktop or mobile device using the `navigator.UserAgent` variable. Mobile devices are ignored.
 
-If the user agent is on a desktop and no mouse movement is detected, the plug-in sets the `websiteBot` variable to `true`. If the user agent is a mobile device, or if mouse movement is detected, the plug-in sets the `websiteBot` variable to `false`.
+If the user agent is on a desktop and no mouse movement is detected, the plug-in can 
+
+* Either make a [!UICONTROL Direct Call] rule call (for Adobe Experience Platform Launch), or 
+* make an `s.tl` call to indicate the visitor is not a bot.
 
 ## Prerequisites
 
 Adobe recommends the following before using this plug-in:
 
-* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** and allocation to **"Original Value (First)"**.
+* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
 * **Collect user agent in a separate variable**: Collect the user agent string in a separate variable to monitor the efficacy of this plug-in. Set an eVar to `navigator.UserAgent` on every hit to collect this data.
 
 ## Install the plug-in using Launch custom code editor

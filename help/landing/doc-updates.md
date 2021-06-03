@@ -8,10 +8,10 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
-* For information on [!UICONTROL Customer Journey Analytics], go [here](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
-* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 * For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
-* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Major Update Details
 
@@ -32,7 +32,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |
-| November 21, 2019 | New documentation set for [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
+| November 21, 2019 | New documentation set for [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) |
 | September 28, 2019 | New articles on [configuration variables for Javascript implementation](/help/implement/vars/config-vars/configuration-variables.md) |
 | September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](/help/components/cda/overview.md) |
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/analyze/pwa/pwa.md) |

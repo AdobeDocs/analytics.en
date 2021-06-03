@@ -22,7 +22,7 @@ Note that to configure a search engine account in 'Auto Mode', you are responsib
 
 >[!IMPORTANT]
 >
->Learn more on whether you should add the `s_kwcid` parameter to your [Content Security Policy](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).
+>Learn more on whether you should add the `s_kwcid` parameter to your [Content Security Policy](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
 
 ## Manual Mode Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

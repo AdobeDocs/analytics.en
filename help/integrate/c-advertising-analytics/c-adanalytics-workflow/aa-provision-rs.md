@@ -8,7 +8,7 @@ exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 
 In order to see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
 
-1. [Map your report suite to an organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+1. [Map your report suite to an organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Select the report suite that is mapped to your Experience Cloud organization.

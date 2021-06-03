@@ -32,7 +32,7 @@ The value for this variable depends on if you use first-party cookies or third-p
 
 ### First-party cookies
 
-If you use a first-party cookie implementation, it is likely that someone in your organization has already completed the first-party cookie process. See [First-party cookies in the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) in the Core Services user guide for more information on the first-party cookie process.
+If you use a first-party cookie implementation, it is likely that someone in your organization has already completed the first-party cookie process. See [First-party cookies in the Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in the Core Services user guide for more information on the first-party cookie process.
 
 The individual who initially configures the first-party cookie implementation also defines the domain and subdomain used. For example:
 

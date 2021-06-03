@@ -65,4 +65,4 @@ There might be recurring and implementation fees associated with this integratio
 
 This integration requires Adobe Analytics variables to track metrics.
 
-After identifying the Event and eVars to use with this integration, they must be enabled in the Adobe Analytics Admin Console (see [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) for instructions).
+After identifying the Event and eVars to use with this integration, they must be enabled in the Adobe Analytics Admin Console (see [Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) for instructions).

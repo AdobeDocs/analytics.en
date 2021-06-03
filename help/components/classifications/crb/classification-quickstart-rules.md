@@ -53,7 +53,7 @@ about_classification_rules.xml
 
 ## Important Information about Rules 
 
-* Specify [group permissions](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/classifications/crb/classification-quickstart-rules.md).
 

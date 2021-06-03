@@ -59,6 +59,6 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
 1. (Optional) You can also go to other Analytics component builders and ensure that they now show a report suite label indicating
 
-    * Where a segment will be created: [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-    * Where a calculated metric will be created: [Calculated Metric Builder](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-    * Where an alert will be built: [Alert Builder](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+    * Where a segment will be created: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+    * Where a calculated metric will be created: [Calculated Metric Builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+    * Where an alert will be built: [Alert Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).

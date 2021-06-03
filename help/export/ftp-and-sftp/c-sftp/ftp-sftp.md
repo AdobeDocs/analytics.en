@@ -13,7 +13,7 @@ SFTP is a secure protocol for transferring data that ensures that nobody can see
 
 This means that Adobe's servers "push" the file to your servers. Essentially, we deliver it to your end point.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) and [Analytics Data Feed](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html) can push data via SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) and [Analytics Data Feed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) can push data via SFTP.
 
 The following Analytics tools **cannot** push data via SFTP:
 

@@ -21,7 +21,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects.
 * Create "stacked" alerts that capture multiple metrics in a single alert.
 
-Components of the new alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [will no longer be available](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
+Components of the new alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [will no longer be available](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 There are four ways get to the Alert Builder:
 
@@ -69,7 +69,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I get a table of the "expected values" that comprise the dotted line, or some sort of output of what those values are? </b> </p> </td> 
-   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval. </p> </td> 
+   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,4 +17,4 @@ Use Data Sources to:
 
 When Data Sources is activated on a report suite, an FTP location is provided so you can upload files to be integrated into reporting. Once uploaded, Adobe servers automatically process the data and integrate it into your report suite.
 
-See [Data Sources Help](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html).
+See [Data Sources Help](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).

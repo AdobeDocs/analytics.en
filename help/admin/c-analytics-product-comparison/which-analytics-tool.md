@@ -24,7 +24,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 * To access unique Video visualizations of Video Daypart and Viewer Drop-off.
 * To leverage Publishing Lists in scheduled reporting .
 
-**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** should be used:
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** should be used:
 
 * As the most flexible Analytics tool option (down to visitor-level, hit-level analysis).
 * To create a multi-channel dataset of online and offline interactions from CRM to POS to Web.
@@ -64,7 +64,7 @@ For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analyti
 
 * Data Insertion API and Bulk Data Insertion API are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. If you are working on a new implementation of server-side collection, we recommend using Bulk Data Insertion API.
 
-**[Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)** should be used:
+**[Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.

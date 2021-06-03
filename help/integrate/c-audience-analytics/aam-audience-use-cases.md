@@ -16,7 +16,7 @@ As a Travel Company, you can quickly overlay destination preferences with purcha
 
 ## Look-Alike Modeling {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-As a Multi-Media Publisher, you can compare your 3rd-party audiences using [Segment IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) to understand key differentiating characteristics. This helps you build high-value 1st-party segments to then use for targeting.
+As a Multi-Media Publisher, you can compare your 3rd-party audiences using [Segment IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) to understand key differentiating characteristics. This helps you build high-value 1st-party segments to then use for targeting.
 
 ## Prospect Analysis {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
@@ -24,4 +24,4 @@ As a B2B Retailer, you can now deeply analyze the behavior of your prospect audi
 
 ## Demographic Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-As a Destination Resort, you can use [Histograms in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.
+As a Destination Resort, you can use [Histograms in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html) to see purchases distributed by age. This helps you find the right audience to target for each of your resort properties.

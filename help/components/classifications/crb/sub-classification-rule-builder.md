@@ -33,7 +33,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 >
 >These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Create classifications and sub-classifications in the [Classification Manager](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
+1. Create classifications and sub-classifications in the [Classification Manager](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Example:
 

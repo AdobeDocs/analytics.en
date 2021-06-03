@@ -25,4 +25,4 @@ Most Adobe Analytics solutions, including Analysis Workspace, are browser-based.
 See the linked solution page for that solution's system requirements.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)

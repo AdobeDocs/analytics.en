@@ -12,12 +12,12 @@ Target currency codes are defined at three levels:
 
 ## Page level
 
-You can set a JavaScript variable for the target currency at the page level. The site owner sets this variable with the appropriate three-letter ISO 4217 currency code (as listed at below in this document). If the [currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html) variable is not set at this level, the default currency will be the same as the one specified in the report suite. If the variable at the page level conflicts with the variable specified in the report suite, the variable in the report suite will take precedence.
+You can set a JavaScript variable for the target currency at the page level. The site owner sets this variable with the appropriate three-letter ISO 4217 currency code (as listed at below in this document). If the [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) variable is not set at this level, the default currency will be the same as the one specified in the report suite. If the variable at the page level conflicts with the variable specified in the report suite, the variable in the report suite will take precedence.
 
 
 ## Report suite level
 
- The **base currency** is specified when [creating report suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). This is the default setting for currency and takes precedence over currency codes set at the page level. Thus, if a report suite has orders that accept U.S. Dollars, Euro, and British Pounds and the report suite has a default currency code set to "US Dollars", then the reporting back-end database translates all transactions to US Dollars.
+ The **base currency** is specified when [creating report suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). This is the default setting for currency and takes precedence over currency codes set at the page level. Thus, if a report suite has orders that accept U.S. Dollars, Euro, and British Pounds and the report suite has a default currency code set to "US Dollars", then the reporting back-end database translates all transactions to US Dollars.
 
  Marketing reports use the exchange rate at the time the image request occurs to translate page-level currency values to the default report-suite currency values. Reports suites use "US Dollars" as the default currency.
 

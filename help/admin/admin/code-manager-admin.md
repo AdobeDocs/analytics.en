@@ -19,5 +19,5 @@ After you download the library, you must configure the code to send data to the 
 |--- |--- |
 | [!UICONTROL Name] | The name matches the platform where you want to enable data collection. Native libraries are provided for each platform listed in this column. |
 | [!UICONTROL Type]|Type of applications that can be measured using each library. |
-| [!UICONTROL Version]|List the latest version of the library. Click the version number to view the [release history](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version]|List the latest version of the library. Click the version number to view the [release history](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
 | [!UICONTROL Documentation] | View the library reference documentation. |

@@ -9,7 +9,7 @@ exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 
 The classifications FTP option provides more flexibility in uploading large classification data sets, including the ability to upload data into multiple report suites and to upload data sets larger than 50,000 rows.
 
-See [classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) for steps on how to download classification data via FTP and how to upload data files via FTP (including the steps to create an FTP account).
+See [classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) for steps on how to download classification data via FTP and how to upload data files via FTP (including the steps to create an FTP account).
 
 The amount of time required for the system to import these files varies, based on a number of factors. If an uploaded file is present on the FTP server more than three days, work with your organization's supported users to contact Adobe Customer Care. 
 

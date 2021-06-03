@@ -8,7 +8,7 @@ exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
 
 The Data Connectors integration for Silverpop uses Analytics variables to track various Silverpop metrics.
 
-After identifying the Event and eVars to use with the Silverpop integration, use the Adobe Analytics Admin Console to enable them (see [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)).
+After identifying the Event and eVars to use with the Silverpop integration, use the Adobe Analytics Admin Console to enable them (see [Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)).
 
 The following table describes the Analytics variables needed for the Silverpop integration.
 

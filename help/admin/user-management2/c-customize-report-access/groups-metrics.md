@@ -23,7 +23,7 @@ The settings on the Customize Metrics page apply to the report suites selected o
 
 ## Solution Events
 
-In addition to [Custom Events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html), this category includes Analytics solution events, including Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video, and Social.). Every custom group with any metrics will have all Analytics solution events added as new metrics.
+In addition to [Custom Events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html), this category includes Analytics solution events, including Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Video, and Social.). Every custom group with any metrics will have all Analytics solution events added as new metrics.
 
 You can set permissions to Custom Events and Analytics solution events (AEM, AMO, Mobile, Video, and Social).
 

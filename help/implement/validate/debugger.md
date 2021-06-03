@@ -7,7 +7,7 @@ exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 
 >[!IMPORTANT]
 >
->This debugging tool is no longer maintained. Adobe recommends instead using the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html).
+>This debugging tool is no longer maintained. Adobe recommends instead using the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 
 The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. Using the debugger lets you see what data is sent to Adobe on any given page on your site. You can use this information to troubleshoot or validate your organization's implementation.
 
@@ -29,7 +29,7 @@ Each browser has different ways of handling bookmarks, but the concept is the sa
 
 #### Chrome
 
-If you insist on not using the [chrome extension](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html), the legacy debugger bookmarklet can be used instead.
+If you insist on not using the [chrome extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), the legacy debugger bookmarklet can be used instead.
 
 1. Click the three dots in the top right, then go to Bookmarks > Bookmark Manager. You can also press `Ctrl` + `Shift` + `O` (Windows) or `Cmd` + `Shift` + `O` (Mac).
 2. In the top right of the bookmark manager, click the three dots, then click 'Add new bookmark'.

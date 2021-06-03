@@ -14,4 +14,4 @@ The Adobe Mobile Services UI combines mobile app data from your Adobe Analytics 
 
 Adobe Mobile Services supports virtual report suites. However, if you plan to create a virtual report suite with multiple apps and you plan to perform a messaging activity, you must specify the individual App-ID as a parameter. If you are creating a Push Message, the App-ID needs to be one of the parameters of the segment you are using. If you are creating an In-App Message, the App-ID needs to be one of the parameters of the Traits you establish for the message. If this is not done, the message will be sent/triggered to all users across all apps who meet the segment/trigger criteria.
 
-For more details, see [Virtual Report Suites](https://experienceleague.adobe.com/docs/ mobile-services/using/manage-apps-ug/c-mob-vrs.html) in the Adobe Mobile Services documentation.
+For more details, see [Virtual Report Suites](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/c-mob-vrs.html) in the Adobe Mobile Services documentation.

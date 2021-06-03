@@ -28,7 +28,7 @@ Global variables are ideal in cases where you want to set variable values on all
 
 ### Set variables in rules
 
-Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/ launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
 1. Click the desired Launch property.

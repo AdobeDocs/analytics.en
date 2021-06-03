@@ -20,7 +20,7 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 
 ## Segment Comparison {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[Segment Comparison](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
+[Segment Comparison](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Segment Comparison]** panel from the left rail.
 
@@ -37,21 +37,21 @@ In Analysis Workspace, the AAM segments appear as two dimensions.
 
 ## Customer Journey (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
+AAM segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Flow]** visualization from the left rail.
 
 1. Drag the [!UICONTROL Audience Name] dimension into the Flow builder.
 1. Click **[!UICONTROL Build]**.
-1. (Optional): Drag any other dimension into the Flow visualization to create an [inter-dimensional Flow](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
+1. (Optional): Drag any other dimension into the Flow visualization to create an [inter-dimensional Flow](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
 
 ![](assets/flow-aamaudiences.png)
 
-Audiences can also be used in [Fallout visualizations](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Audiences can also be used in [Fallout visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
-[Venn visualizations](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/venn.html) show the overlap between up to 3 segments.
+[Venn visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html) show the overlap between up to 3 segments.
 
 1. Go to **[!UICONTROL Workspace]** and select the **[!UICONTROL Venn]** visualization from the left rail.
 

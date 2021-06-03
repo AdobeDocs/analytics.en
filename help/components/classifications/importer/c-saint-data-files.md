@@ -156,7 +156,7 @@ These characters have special meaning in a data file. Where possible, avoid usin
 
 Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
 
-For more information, see [Conversion Classifications](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+For more information, see [Conversion Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >

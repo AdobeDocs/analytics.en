@@ -69,7 +69,7 @@ How can you customize your web page and tagging to differentiate the values of t
 
 ## Customize the Link ID Using s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-By creating a unique object ID, `s_objectID`, for a link or link location on a page, you can either improve Activity Map tracking or use Activity Map to report on a link type or location, rather than the link URL. Click [here](https://experienceleague.adobe.com/docs/ analytics/implementation/vars/page-vars/page-variables.html) for more information on the `s_objectID` variable.
+By creating a unique object ID, `s_objectID`, for a link or link location on a page, you can either improve Activity Map tracking or use Activity Map to report on a link type or location, rather than the link URL. Click [here](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) for more information on the `s_objectID` variable.
 
 >[!IMPORTANT]
 >

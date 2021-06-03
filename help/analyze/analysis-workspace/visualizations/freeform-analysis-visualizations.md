@@ -72,7 +72,7 @@ To edit a legend label:
 1. Enter the new label text.
 1. Press **[!UICONTROL Enter]** to save.
 
-Here is a [link to a video](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) on this topic.
+Here is a [link to a video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) on this topic.
 
 ## Right-click menu {#right-click}
 

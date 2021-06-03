@@ -21,7 +21,7 @@ Audience Manager segment membership is fluid. Users can enter or drop out of a s
 
 An Audience Manager segment is denoted as an audience in Analytics.
 
-For more information, refer to [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/reference/signal-trait-segment.html).
+For more information, refer to [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analytics Segments {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -38,4 +38,4 @@ An&nbsp;Analytics&nbsp;segment is a filtering mechanism for data in your reports
 
   Conversely, in Analytics, visitors will be included or excluded from a segment based on the reporting date range. For example, a single visitor made a purchase last month. In AAM, that visitor would be included in a "purchaser" segment, regardless of the date range. In Analytics, a report based on this month would not include the visitor in the segment. However, a report based on this month & last month would include the visitor in the segment.
 
-See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/ analytics/components/segmentation/seg-home.html) for more information.
+See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) for more information.

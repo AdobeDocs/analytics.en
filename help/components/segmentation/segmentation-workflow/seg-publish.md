@@ -18,10 +18,10 @@ We have also increased the maximum number of publishable Adobe Analytics segment
 
 ## Prerequisites
 
-* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://experienceleague.adobe.com/docs/ core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
-* Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://experienceleague.adobe.com/docs/ core-services/interface/about-core-services/report-suite-mapping.html).
+* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
+* Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Ensure that your organization is using Experience Cloud IDs.
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://experienceleague.adobe.com/docs/ core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## Considerations
@@ -29,7 +29,7 @@ We have also increased the maximum number of publishable Adobe Analytics segment
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
 * **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, go [here](https://experienceleague.adobe.com/docs/ analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, go [here](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Segment publishing timeline
 
@@ -90,7 +90,7 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 **Method 1: Use Adobe Experience CLoud Debugger**
 
-1. Download and install [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/ analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
+1. Download and install [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
 (`50814298273775797762943354787774730612` in the example below)
@@ -101,14 +101,14 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 1. Launch Chrome Developer Tools before loading a page
 1. Load the page and check Applications > Cookies. The AAM UUID should be set in the 3rd-party
-Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
+Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
 on the browser (`50814298273775797762943354787774730612` in the example below).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
+The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
 
 ![](assets/aam-vpv.png)
 

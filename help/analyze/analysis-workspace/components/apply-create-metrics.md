@@ -24,7 +24,7 @@ To make it easier to quickly create calculated metrics, **[!UICONTROL Create met
 
 ![](assets/calc_metrics.png)
 
-[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Compare metrics with different attribution models
 

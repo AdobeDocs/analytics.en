@@ -53,7 +53,7 @@ A sequential segment filters data sets based on user actions using the [!UICONTR
 
 ## How-To Video {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-This video give a short overview of what segment containers are and how to use them: [Segment Containers in Adobe Analytics](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/components/segmentation/segment-containers.html)
+This video give a short overview of what segment containers are and how to use them: [Segment Containers in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
 

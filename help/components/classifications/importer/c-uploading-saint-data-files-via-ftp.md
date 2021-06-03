@@ -68,7 +68,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-See [FTP and sFTP](https://experienceleague.adobe.com/docs/ analytics/export/ftp-and-sftp/ftp-overview.html) for additional details on Adobe FTP servers.
+See [FTP and sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) for additional details on Adobe FTP servers.
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.

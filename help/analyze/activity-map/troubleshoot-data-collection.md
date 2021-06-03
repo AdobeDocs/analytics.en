@@ -13,7 +13,7 @@ If you don't see data for Activity Map dimensions, use this page to help determi
 
 First, make sure that AppMeasurement correctly collects Activity Map data.
 
-1. Download and install the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html).
+1. Download and install the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
 2. Navigate to your web page, then click on a link.
 3. When the subsequent page loads, open the debugger. Validate that you see Activity Map context data variables sandwiched between `activitymap.` and `.activitymap`:
 

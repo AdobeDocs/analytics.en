@@ -10,7 +10,7 @@ A comprehensive list and descriptions of the configuration variables, HTTP heade
 
 ## Configuration Variables {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). See also [Supported Attributes for DCS API calls](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). See also [Supported Attributes for DCS API calls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 |Parameter|Description|
 |--- |--- |
@@ -36,7 +36,7 @@ These headers are fields contain information like requests for data and response
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parameters prefixed with `c_` identify customer-defined variables. See also [Supported Attributes for DCS API Calls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
 |--- |--- |

@@ -16,7 +16,7 @@ After the deployment is complete, you can begin using the additional capabilitie
 
 The following are actions to take to get value from this integration from within Adobe Analytics.
 
-1. Create a Segment using survey response data (see [Create a segment](https://experienceleague.adobe.com/docs/ analytics/components/segmentation/seg-home.html)).
+1. Create a Segment using survey response data (see [Create a segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)).
 1. Apply the Segment to key reports.
 
 ## Example {#section-07051d0d60a44408a4e108034586c42f}

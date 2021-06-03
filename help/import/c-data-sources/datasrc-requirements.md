@@ -53,7 +53,7 @@ Data Sources supports multi-byte encoding. Data Sources attempts to detect the f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://experienceleague.adobe.com/docs/ analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > New Report Suite</a> in Help </p> </td> 
+   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > New Report Suite</a> in Help </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 

@@ -8,6 +8,6 @@ exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
 
 Learn about segmentation features in Analysis Workspace.
 
-[Segment Comparison (Segment IQ)](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
+[Segment Comparison (Segment IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
 
 [Apply Segments in Fallout Analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)

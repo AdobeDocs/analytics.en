@@ -67,7 +67,7 @@ Cache-Control: no-cache
 
 ## User/Visitor identification
 
-Adobe Analytics uses the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/ id-service/using/home.html) to tie interactions across time to the same person. Most digital assistants return a `userID` that you can use to keep the activity for different users. In most cases, this value is what you can pass in as a unique identifier. Some platforms return an identifier that is longer than the 100 characters allowed. In these cases, Adobe recommends that you hash the unique identifier to a fixed length value using a standard hashing algorithm, such as MD5 or Sha1.
+Adobe Analytics uses the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) to tie interactions across time to the same person. Most digital assistants return a `userID` that you can use to keep the activity for different users. In most cases, this value is what you can pass in as a unique identifier. Some platforms return an identifier that is longer than the 100 characters allowed. In these cases, Adobe recommends that you hash the unique identifier to a fixed length value using a standard hashing algorithm, such as MD5 or Sha1.
 
 Using the ID Service provides the most value when you map ECIDs across different devices (for example, web to digital assistant). If your app is a mobile app, use the Experience Platform SDKs as-is and send the user ID using the `setCustomerID` method. However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 

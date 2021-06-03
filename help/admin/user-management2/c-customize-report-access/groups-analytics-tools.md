@@ -46,18 +46,18 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |[Security](/help/admin/company/security-manager.md)|Grants permission to the  Security Manager page to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.|
 |Support Information|Grants permission to the  Support Information in  Company Settings.|
 |[Web Services](/help/admin/company/web-services-admin.md)|Allows access to the Web Services page in the Admin Tools interface ([!UICONTROL Company Settings] > [!UICONTROL Web Services]).<br>The Web Services API provides programmatic access to  Adobe Analytics services that let you duplicate and augment functionality available through the user interface.|
-|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools.<br>**Note:** Single sign-on in the Adobe Experience Cloud is implemented using [account linking](https://experienceleague.adobe.com/docs/ core-services/interface/manage-users-and-products/organizations.html) between the Experience Cloud and solutions.|
+|Single Sign-On (Legacy)|Grants access to the single sign-on page in Admin Tools.<br>**Note:** Single sign-on in the Adobe Experience Cloud is implemented using [account linking](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) between the Experience Cloud and solutions.|
 |[Pending Actions](/help/admin/company/pending-actions-admin.md)|Grants permission to manage pending actions in [!UICONTROL Company Settings].|
 |[Co-Branding](/help/admin/company/co-branding-admin.md)|Grants permission to co-brand  Analytics.|
 |[Preferences](/help/admin/admin/preferences-manager.md)|Grants permission to the [!UICONTROL Preference Manager].|
 |[Hide Report Suites](/help/admin/company/c-hide-report-suites.md)|Grants permission to hide report suites in the  Adobe Analytics user interface.|
 |**Tools**|These settings grant access to Analytics tools (interfaces and applications) and advanced capabilities like segmentation and calculated metrics.|
-|[Current Data](https://experienceleague.adobe.com/docs/ analytics/analyze/reports-analytics/current-data.html)|Grants permission to use the Current Data feature in reporting.|
+|[Current Data](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html)|Grants permission to use the Current Data feature in reporting.|
 |Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
-|[Report Builder](https://experienceleague.adobe.com/docs/ analytics/analyze/report-builder/report-builder-setup/t-install-arb.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
-|[Analysis Workspace](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/home.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
-|[Reports & Analytics](https://experienceleague.adobe.com/docs/ analytics/landing/an-key-concepts.html)|Grants users access to  Reports & Analytics.|
-|[Calculated Metric Creation](https://experienceleague.adobe.com/docs/ analytics/components/calculated-metrics/cm-overview.html)|Grants users permission to create calculated metrics.|
-|[Segment Creation](https://experienceleague.adobe.com/docs/ analytics/components/segmentation/seg-home.html)|Grants users permission to create segments.|
+|[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
+|[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
+|[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html)|Grants users access to  Reports & Analytics.|
+|[Calculated Metric Creation](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html)|Grants users permission to create calculated metrics.|
+|[Segment Creation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)|Grants users permission to create segments.|
 |**Data Connectors**||
 |Integrations (Create, Update, or Delete)|Grants permission to create, update, and delete  Data Connector integrations.|

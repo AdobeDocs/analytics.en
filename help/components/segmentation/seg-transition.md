@@ -13,8 +13,8 @@ Answers frequent questions on segmentation features, access, permissions, best p
 
 * Segmentation in Analysis Workspace:
 
-    * You can [compare segments](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-    * Use [segments as dimensions](https://experienceleague.adobe.com/docs/ core-services/interface/audiences/audience-library.html) in a comparison.
+    * You can [compare segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+    * Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
     * Use segments in [fallout analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
@@ -67,7 +67,7 @@ The report suite drop-down has been moved next to the date selector in the top r
 
 **What rights and privileges do I need to use, create, and manage segments?**
 
-By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://experienceleague.adobe.com/docs/ analytics/admin/user-product-management/user-groups/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
+By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
 Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/segmentation/seg-reference/seg-rights.md)
 

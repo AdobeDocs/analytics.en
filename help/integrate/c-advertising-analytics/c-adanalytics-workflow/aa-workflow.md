@@ -7,7 +7,7 @@ exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 
 ![](assets/step1_icon.png) Map any Adobe Analytics report suite in which you want to view Google/Bing search data to your Experience Cloud organization.
 
-See [Map report suites to an organization](https://experienceleague.adobe.com/docs/ core-services/interface/about-core-services/report-suite-mapping.html).
+See [Map report suites to an organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Enable Advertising Analytics reporting per report suite](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 

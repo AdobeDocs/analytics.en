@@ -14,9 +14,9 @@ Visitor migration lets you preserve visitor identification cookies when changing
 
 * Moving from `2o7.net` to `adobedc.net`.
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://experienceleague.adobe.com/docs/ id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
+* You are implementing the [Experience Cloud Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
 
-* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://experienceleague.adobe.com/docs/ core-services/interface/ec-cookies/cookies-first-party.html).
+* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Moving from one CNAME to another (changing domains).
 

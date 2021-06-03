@@ -10,9 +10,9 @@ exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 
 You can view and analyze data anomalies contextually within Analysis Workspace.
 
-[Anomaly Detection video tutorial](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Anomaly Detection video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[Contribution Analysis video tutorial](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[Contribution Analysis video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Examples of anomalies you might investigate include:
 * Spikes in video buffer events
 * Spikes in low video bit-rates
 
-Both Anomaly Detection and [Contribution Analysis](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) are core workflows in Analysis Workspace. You can run Contribution Analysis against any daily anomaly and embed the result in your Analysis Workspace project.
+Both Anomaly Detection and [Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) are core workflows in Analysis Workspace. You can run Contribution Analysis against any daily anomaly and embed the result in your Analysis Workspace project.
 
 Analysis Workspace's anomaly detection algorithm includes
 

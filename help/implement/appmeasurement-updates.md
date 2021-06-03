@@ -302,8 +302,8 @@ Release Date: **June 18, 2015**
 
 Release Date: **May 21, 2015**
 
-* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps. See [iOS extension implementation](https://experienceleague.adobe.com/docs/ mobile-services/ios/ios-ext/ios-ext.html) in the Mobile services user guide.
-* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app. See [Android wearables](https://experienceleague.adobe.com/docs/ mobile-services/android/wearables-android/android-wearable.html) in the Mobile services user guide.
+* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps. See [iOS extension implementation](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in the Mobile services user guide.
+* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app. See [Android wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) in the Mobile services user guide.
 * Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 
@@ -388,7 +388,7 @@ Release Date: **May 22, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [Experience Cloud Visitor ID service](https://experienceleague.adobe.com/docs/ id-service/using/home.html).
+* Support for the [Experience Cloud Visitor ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.2.4
 
@@ -418,8 +418,8 @@ Release Date: **November 15, 2013**
 
 Release Date: **November 14, 2013**
 
-* Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/docs/ media-analytics/using/media-overview.html).
-* `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/docs/ id-service/using/home.html).
+* Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.1.1
 

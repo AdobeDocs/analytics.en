@@ -16,4 +16,4 @@ Here are the Report Suite Tools permissions needed in the [Admin Console](https:
 |Analytics Tools|Analysis Workspace Access|Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports &and  Analytics Access to use the Marketing Channels dimensions in Workspace.|
 |Analytics Tools|Reports and Analytics Access|Grants access to Reports and Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics.|
 
-For more information on product profiles and Adobe Analytics permissions in Admin Console, go [here](https://experienceleague.adobe.com/docs/ analytics/admin/admin-console/permissions/product-profile.html).
+For more information on product profiles and Adobe Analytics permissions in Admin Console, go [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).

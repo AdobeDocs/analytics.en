@@ -26,7 +26,7 @@ If this field is left blank, it defaults to the value in the [`trackingServer`](
 
 The `s.trackingServerSecure` variable is a string that contains the location to send image requests. It is almost always a subdomain of your site. Modern privacy practices in browsers commonly make third-party cookies unreliable. If this variable is blank, it uses the value in the `s.trackingServer` variable.
 
-The value for this variable is almost always a first-party domain, such as `data.example.com`. See [First-party cookies in the Experience Cloud](https://experienceleague.adobe.com/docs/ core-services/interface/ec-cookies/cookies-first-party.html) in the Core Services user guide for more information on the first-party cookie process.
+The value for this variable is almost always a first-party domain, such as `data.example.com`. See [First-party cookies in the Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) in the Core Services user guide for more information on the first-party cookie process.
 
 The individual who initially configures the first-party cookie implementation also defines the domain and subdomain used. For example:
 

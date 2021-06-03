@@ -10,7 +10,7 @@ What you need to know about the Analytics user ID migration to the Admin Console
 
 For general help on Admin Console topics (not related to the Analytics migration), see [Admin Console User Guide](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
-After you migrate, you can [manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/ core-services/interface/manage-users-and-products/admin-getting-started.html) in the Admin Console.
+After you migrate, you can [manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in the Admin Console.
 
 ## What is the Analytics user ID migration? {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -41,7 +41,7 @@ The benefits of using the Admin Console include:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invite new users </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Create product profiles </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Grant users permission to specific products and services </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://experienceleague.adobe.com/docs/ core-services/interface/experience-cloud.html"> cross-solution core services</a> available in the Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> cross-solution core services</a> available in the Adobe Experience Cloud </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/docs/ analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>When does the migration begin? </p> </td> 
@@ -91,7 +91,7 @@ Answers to questions you might have before the migration.
      <li id="li_418476105FE341229CE146E730AAB33D">Your existing permission groups in Analytics will be replicated automatically in the Admin Console as Product Profiles, including their description and granular permissions across report suites, metrics, dimensions, Analytics, and Report Suite Tools. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">If any of your current Analytics users were created in the Admin Console (meaning they have a linked Adobe/Enterprise ID), they will be added to the appropriate Product Profiles in the Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">The User Management section under the Admin tab in Analytics will be set to <span class="term"> read-only</span>. You will no longer be able to create new users or permission groups here and will need to perform both these functions in the Admin Console. See <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Unsupported Analytics features in the Admin Console</a> for more information. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://experienceleague.adobe.com/docs/ analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">You will be granted access to a Permissions tab in the Admin Console that allows you to create Product Profiles with all the granular options you are familiar with in Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -315,7 +315,7 @@ Our company will begin migrating all Adobe Analytics accounts away from [!DNL ht
 
 **Helpful resources:**
 
-[Sign in and manage your profile settings](https://experienceleague.adobe.com/docs/ core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[Sign in and manage your profile settings](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
 
 Please contact your Analytics administrators if you have any questions or concerns.
 

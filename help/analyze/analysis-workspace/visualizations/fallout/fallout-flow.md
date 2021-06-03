@@ -28,7 +28,7 @@ A fallout visualization is useful for analyzing:
 * General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
 
-[Fallout Visualization video tutorial](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[Fallout Visualization video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 

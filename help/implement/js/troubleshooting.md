@@ -79,7 +79,7 @@ These two variable values are considered separate in Adobe Analytics. However, t
 
 Implementations that populate many variables with long values can sometimes run into truncated image requests. Some older browsers, such as Internet Explorer, impose a 2083-character limit on image request URLs. If your organization faces very long image requests, try the following:
 
-* **Use the Experience Cloud ID service**: AppMeasurement libraries 1.4.1 and later automatically send image requests using HTTP POST if they are too long. Data sent using this method is not truncated regardless of length. See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) for more information.
+* **Use the Experience Cloud ID service**: AppMeasurement libraries 1.4.1 and later automatically send image requests using HTTP POST if they are too long. Data sent using this method is not truncated regardless of length. See [Adobe Experience Cloud ID service](https://experienceleague.adobe.com/docs/ id-service/using/home.html) for more information.
 * **Use processing rules**: [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) can copy values from one variable to another. This method saves you from setting the same value in multiple variables. For example:
 
   Always execute:<br>

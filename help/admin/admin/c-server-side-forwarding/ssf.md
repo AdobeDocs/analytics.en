@@ -26,12 +26,12 @@ To understand where your organization is in terms of implementing server-side fo
 
 ## ![step1_icon.png image](assets/step1_icon.png) Verify ECID service implementation
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html).
+Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://experienceleague.adobe.com/docs/ id-service/using/implementation/test-verify.html).
 
 On the Request tab, verify that a ECID value is being set. This tells you that Identity Service is implemented correctly, which is a pre-requisite for server-side forwarding.
 
 * If you see an ECID value, continue to step 2.
-* If you do not see an ECID value, [implement Identity Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) before proceeding to step 2.
+* If you do not see an ECID value, [implement Identity Service](https://experienceleague.adobe.com/docs/ id-service/using/implementation/implementation-guides.html) before proceeding to step 2.
 
 ## ![step2_icon.png image](assets/step2_icon.png) Verify server-side forwarding implementation version
 
@@ -45,10 +45,10 @@ In the "Response" tab, check that the response contains Audience Manager data. I
 
   * **AAM Customers with DIL**: coordinate the following 2 items in close conjunction:
 
-    1. Remove the DIL code and install the [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code.
+    1. Remove the DIL code and install the [Audience Management Module](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code.
     1. Enable server-side forwarding in the Analytics Admin UI as described in step 3. Enabling this setting before removing DIL code will duplicate data and create additional billed server calls to Audience Manager.
 
-  * **New AAM customers** - install the [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code and continue to step 3. Data will not be sent to Audience Manager until server-side forwarding is turned on in step 3.
+  * **New AAM customers** - install the [Audience Management Module](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code and continue to step 3. Data will not be sent to Audience Manager until server-side forwarding is turned on in step 3.
 
 ## ![step3_icon.png image](assets/step3_icon.png) Verify server-side forwarding implementation of report suite
 
@@ -58,10 +58,10 @@ Server-side forwarding at the report-suite level is recommended over the legacy 
 
 Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**) > **Edit Settings** > **General** > **Server Side Forwarding**. If the checkbox is:
 
-* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to your IMS Org. Make sure that your applicable report suites are mapped to the proper Experience Cloud Organization using the [Report Suite Mapping UI](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to your IMS Org. Make sure that your applicable report suites are mapped to the proper Experience Cloud Organization using the [Report Suite Mapping UI](https://experienceleague.adobe.com/docs/ core-services/interface/about-core-services/report-suite-mapping.html).
 * **Disabled**: You do not have the new server-side forwarding turned on. Read the content on the page and then proceed with enabling the feature.
 * **Enabled**: You are provisioned for new server-side forwarding. You are also able to set up this Audience Analytics integration.
 
 >[!NOTE]
 >
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html) or [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
+>Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://experienceleague.adobe.com/docs/ audience-manager/user-guide/aam-home.html) or [Audiences](https://experienceleague.adobe.com/docs/ core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.

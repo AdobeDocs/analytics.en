@@ -14,7 +14,7 @@ You can even add segments within a touchpoint. For example, you might want to co
 
 There is no limitation on the number of steps you can add or the number of dimensions used.
 
-You can do pathing on eVars, including merchandising eVars and [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
+You can do pathing on eVars, including merchandising eVars and [listVars](https://experienceleague.adobe.com/docs/ analytics/implementation/vars/page-vars/page-variables.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
 
 1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 

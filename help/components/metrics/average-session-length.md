@@ -9,4 +9,4 @@ The 'Average session length (mobile)' metric shows the average amount of time a 
 
 ## How this metric is calculated
 
-This metric is calculated using the [mobile metrics](https://docs.adobe.com/content/help/en/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.
+This metric is calculated using the [mobile metrics](https://experienceleague.adobe.com/docs/ mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.

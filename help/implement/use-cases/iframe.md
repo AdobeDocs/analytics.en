@@ -7,7 +7,7 @@ exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 
 You can reference AppMeasurement variables from both child and parent iframes. It is necessary to define all variables in the same location where the AppMeasurement library exists. The following examples explain how to set basic AppMeasurement variables and methods inside and outside an iframe.
 
-If you use Adobe Experience Platform Launch, make sure that the tracker object is globally accessible. See [Adobe Analytics extension overview](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in the Launch user guide.
+If you use Adobe Experience Platform Launch, make sure that the tracker object is globally accessible. See [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/ launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in the Launch user guide.
 
 >[!CAUTION]
 >
@@ -59,5 +59,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * As with other JavaScript code, iframes can only communicate when domains and protocol match. These examples do not work if the iframe content resides on a different domain than the parent.
 * If AppMeasurement resides in an iframe, the [`referrer`](../vars/page-vars/referrer.md) variable is set to the parent URL, not the actual referring URL. You can manually set the `referrer` variable to resolve this issue.
-* The [Adobe Experience Cloud debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) does not recognize image requests triggered within iframes.
+* The [Adobe Experience Cloud debugger](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html) does not recognize image requests triggered within iframes.
 * Activity Map does not display the heatmap over links clicked within iframes. The entire iframe is highlighted instead.

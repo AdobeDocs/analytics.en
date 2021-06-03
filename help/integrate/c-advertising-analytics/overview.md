@@ -26,7 +26,7 @@ This integration is aimed at the following audiences:
 
 * This functionality is available for non-Advertising Cloud and non-AMO customers.
 * You must be an Adobe Analytics Administrator to have access to Advertising Analytics. Subsequently, you can [grant access permissions](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) to non-admins.
-* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
+* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://experienceleague.adobe.com/docs/ core-services/interface/about-core-services/report-suite-mapping.html).
 * For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password.

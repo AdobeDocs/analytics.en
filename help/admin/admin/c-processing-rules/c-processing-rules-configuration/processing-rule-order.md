@@ -30,7 +30,7 @@ The following tables list the data that is typically available before and after 
 |Data added by VISTA|Processing rules are applied before VISTA.|
 |Visit page number|As a general rule, processing rules are aware of the data that is contained in the current hit only. Visit page number is compiled after processing rules are applied.|
 |Clean URL is added as page name if it is not set|After processing rules and VISTA are applied, the clean URL is added as the page name if there is no page name set. Since this occurs after processing rules are applied, we recommend adding a condition to check if the page name is blank.  If you run the  Site Content >  Pages Report and you see  https:// values for page names, it is likely the page name is blank and the URL is being used.  You can set up a condition to test for a blank page name, or to test to see if the page name or the page URL contains a specific value. The page name can then be set as needed.|
-|Marketing Channel Processing Rules|You can use processing rules to prepare data for processing by [Marketing Channel Processing Rules](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html).|
+|Marketing Channel Processing Rules|You can use processing rules to prepare data for processing by [Marketing Channel Processing Rules](https://experienceleague.adobe.com/docs/ analytics/components/marketing-channels/c-rules.html).|
 |GEO lookup|This includes the Visitor State and Visitor ZIP/Postal code values.|
 |eVars persistence|eVars that were contained in a previous hit are not persisted to each hit during rule processing. Only eVars that are set on the current hit being processed are available.|
 

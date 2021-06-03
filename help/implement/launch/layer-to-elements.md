@@ -13,7 +13,7 @@ Once your organization has established and implemented a data layer on your site
 
 ## Use Adobe Experience Platform Launch to create data elements
 
-[Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) are components in Launch that you can use across the tool. You can assign variable values in the Adobe Analytics extension using data elements.
+[Data elements](https://experienceleague.adobe.com/docs/ launch/using/reference/manage-resources/data-elements.html#create-a-data-element) are components in Launch that you can use across the tool. You can assign variable values in the Adobe Analytics extension using data elements.
 
 1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
 1. Click the desired Launch property.

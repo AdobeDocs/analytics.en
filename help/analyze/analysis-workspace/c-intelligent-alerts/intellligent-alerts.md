@@ -10,7 +10,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 
 Intelligent Alerts allows for more granular control over alerts and integrates anomaly detection with the alert system.
 
-Here is a video tutorial on [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Here is a video tutorial on [Intelligent Alerts](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Overview
 

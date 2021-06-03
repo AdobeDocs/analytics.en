@@ -19,11 +19,11 @@ The visitor metrics are:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/ audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment during the lookback period. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/ audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment and reached your properties during the lookback period. </p> </td> 
   </tr> 
   <tr> 

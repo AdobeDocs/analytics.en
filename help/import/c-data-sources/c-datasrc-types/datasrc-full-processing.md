@@ -62,7 +62,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
+   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://experienceleague.adobe.com/docs/ analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -165,7 +165,7 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
+   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://experienceleague.adobe.com/docs/ analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 

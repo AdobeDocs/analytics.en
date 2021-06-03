@@ -65,7 +65,7 @@ Existing legacy dashboards will continue to be run and you can still edit, downl
 
 >[!NOTE]
 >
->Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
+>Moving forward, consider using [Analysis Workspace projects](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
 
 When you copy the legacy dashboard, the system opens the legacy dashboard for edit, where you can add legacy content or new content. When you copy a legacy dashboard, the original is preserved in the list of legacy dashboards.
 

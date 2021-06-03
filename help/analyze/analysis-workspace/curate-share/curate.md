@@ -41,7 +41,7 @@ To remove project curation and restore the full set of components in the left ra
 
 ## Virtual Report Suite (VRS) curation
 
-To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite (VRS)](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html). 
+To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite (VRS)](https://experienceleague.adobe.com/docs/ analytics/components/virtual-report-suites/vrs-components.html). 
 
 >[!NOTE]
 > VRS curation is always applied before project curation. This means that even if your curated project includes certain components, they will be filtered out if the curated VRS does not include them.

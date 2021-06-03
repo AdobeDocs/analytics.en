@@ -115,13 +115,13 @@ For the marketing channel rule, the [!UICONTROL Paid Search] settings are as fol
 
 ![](assets/example_paid_search.png)
 
-See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin for more information.
+See [Paid Search Detection](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in Admin for more information.
 
 ### Natural Search {#natural-search}
 
 A natural search occurs when visitors find your website through a Web search, where the search engine ranked your site without you paying for the listing. 
 
-There is no natural search detection in Analytics. After you set up Paid Search Detection, the system knows that if a search referrer was not a paid search referrer, it must be a natural search referrer. See [Paid Search Detection](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
+There is no natural search detection in Analytics. After you set up Paid Search Detection, the system knows that if a search referrer was not a paid search referrer, it must be a natural search referrer. See [Paid Search Detection](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
 
 For the marketing channel rule, the Natural Search settings are as follows:
 
@@ -163,7 +163,7 @@ This rule visitors where their referring URL matches the Internal URL Filters se
 
 ![](assets/int-channel1.png)
 
-See [Reasons for Internal (Session Refresh)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html#internal) for more information on why this channel occurs.
+See [Reasons for Internal (Session Refresh)](https://experienceleague.adobe.com/docs/ analytics/components/marketing-channels/c-faq.html#internal) for more information on why this channel occurs.
 
 ### Direct {#direct}
 

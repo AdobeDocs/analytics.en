@@ -43,7 +43,7 @@ Marketing Channels Details dives more deeply into each channel to show you speci
 
 ## Apply attribution models
 
-You can use [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) to apply different attribution models instantaneously:
+You can use [Attribution IQ](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) to apply different attribution models instantaneously:
 
 ![](assets/mc-viz5.png)
 
@@ -55,4 +55,4 @@ Using the legacy First-Touch Channel and Last-Touch Channel, you can get a helpf
 
 ![](assets/mc-viz6.png)
 
-Learn more about cross-tab marketing analysis in this video: [Using Cross-tab Analysis to Explore Basic Marketing Attribution in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Learn more about cross-tab marketing analysis in this video: [Using Cross-tab Analysis to Explore Basic Marketing Attribution in Analysis Workspace](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).

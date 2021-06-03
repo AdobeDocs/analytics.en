@@ -83,4 +83,4 @@ This integration is available to [!DNL ~Partner~] customers, however additional 
 
 This integration requires Adobe Analytics variables to track metrics.
 
-After identifying the Event and eVars to use with this integration, they must be enabled in the Analytics Admin Console (see [Report Suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) for instructions).
+After identifying the Event and eVars to use with this integration, they must be enabled in the Analytics Admin Console (see [Report Suites](https://experienceleague.adobe.com/docs/ analytics/admin/manage-report-suites/report-suites-admin.html) for instructions).

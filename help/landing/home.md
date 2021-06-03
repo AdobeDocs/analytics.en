@@ -21,15 +21,15 @@ Welcome to the Adobe Analytics product and technical documentation home page. He
 
 [![Integration](assets/integrate_50px.png)](/help/integrate/home.md)&emsp;[Integration Guide](/help/integrate/home.md) &ndash; Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)&emsp;[Streaming Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) &ndash; Implement Adobe Analytics for Streaming Media. Includes the Media SDK and the Media Collection API.
+[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/ media-analytics/using/media-overview.html)&emsp;[Streaming Media Analytics Guide](https://experienceleague.adobe.com/docs/ media-analytics/using/media-overview.html) &ndash; Implement Adobe Analytics for Streaming Media. Includes the Media SDK and the Media Collection API.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)&emsp;[Data Workbench Guides](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) &ndash; Learn about the highly-flexible, powerful, multi-channel capabilities of [!UICONTROL Data Workbench]. Includes [!UICONTROL Data Workbench Client], Installation, [!UICONTROL Dataset Configuration] guides, and more.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/ data-workbench/using/home.html)&emsp;[Data Workbench Guides](https://experienceleague.adobe.com/docs/ data-workbench/using/home.html) &ndash; Learn about the highly-flexible, powerful, multi-channel capabilities of [!UICONTROL Data Workbench]. Includes [!UICONTROL Data Workbench Client], Installation, [!UICONTROL Dataset Configuration] guides, and more.
 
 [![Technotes](assets/technotes_50px.png)](/help/technotes/home.md)&emsp;[Analytics Tech Notes](/help/technotes/home.md) &ndash; A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 
 | New and Featured Items | Key Analytics Resources |
 | --- | --- |
-| <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
+| <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics Product Comparison](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> See also: [2019 Documentation Updates](doc-updates.md) |<ul><li> [Release Notes](https://experienceleague.adobe.com/docs/ release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics video tutorials](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/overview.html)</li><li>[Analytics Community Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[In-person training and virtual classes](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contact Customer Care](https://helpx.adobe.com/support/analytics.html)</li></ul>|
 
 <!-- Keep around for now
 
@@ -40,8 +40,8 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
-* [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [Mobile Services UI](https://experienceleague.adobe.com/docs/ mobile-services/using/home.html)
+* [Data Workbench](https://experienceleague.adobe.com/docs/ data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 
 ### Analytics feature list
@@ -59,11 +59,11 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)
 *   [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
-*   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
+*   [Mobile App SDK](https://experienceleague.adobe.com/docs/ mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
 *   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-*   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+*   [Video Tracking](https://experienceleague.adobe.com/docs/ media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)
 
 ## Contact options

@@ -19,8 +19,8 @@ To implement Analytics for mobile devices, refer to the following SDK repositori
 >Support for Version 4 Mobile SDKs ends on September 30, 2020. See [Version 4 Mobile SDKs end-of-support FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) for more information.
 
 * [SDK repository](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-* [iOS documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Android documentation](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS documentation](https://experienceleague.adobe.com/docs/ mobile-services/ios/overview.html)
+* [Android documentation](https://experienceleague.adobe.com/docs/ mobile-services/android/overview.html)
 
 ## AppMeasurement 3.x
 

@@ -7,9 +7,9 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 
 The Adobe Experience Platform (AEP) Web SDK includes aids for helping you to manually map data between the Platform and Analytics.
 
-For XDM data that is not automatically mapped to Analytics, you can add [context data](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) to match your [schema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html). Then it can be  used by Analytics [processing rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) to populate Analytics variables. 
+For XDM data that is not automatically mapped to Analytics, you can add [context data](https://experienceleague.adobe.com/docs/ analytics/implementation/vars/page-vars/contextdata.html) to match your [schema](https://experienceleague.adobe.com/docs/ experience-platform/xdm/schema/composition.html). Then it can be  used by Analytics [processing rules](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) to populate Analytics variables. 
  
-Also, you can use a default set of actions and product lists to send or retrieve data with the AEP Web SDK. To do this, see [Products](https://docs.adobe.com/content/help/en/experience-platform/edge/implement/commerce.html).
+Also, you can use a default set of actions and product lists to send or retrieve data with the AEP Web SDK. To do this, see [Products](https://experienceleague.adobe.com/docs/ experience-platform/edge/implement/commerce.html).
 
 ## Context data
 
@@ -40,7 +40,7 @@ Also, you can use a default set of actions and product lists to send or retrieve
 
 ## Processing rules
 
-All data collected by the edge network can be accessed via [processing rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, you can use processing rules to incorporate context data into Analytics variables. 
+All data collected by the edge network can be accessed via [processing rules](https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). In Analytics, you can use processing rules to incorporate context data into Analytics variables. 
 
 For example, in the following rule, Analytics is set to populate **Internal Search terms (eVar2)** with the data associated with **a.x_atag.search.term(Context Data)**.
 
@@ -51,7 +51,7 @@ For example, in the following rule, Analytics is set to populate **Internal Sear
 
 Experience Platform uses schemas to describe the structure of data in a consistent and reusable way. By defining data consistently across systems, it becomes easier to retain meaning and therefore gain value from data. Analytics context data works with the structure defined by schema. 
 
-The following example shows how the [`event` command](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html) can be used with the `xdm` option to send and retrieve data with the AEP Web SDK. In this example, the `event` command matches the [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) so that the productListItems `name` and `SKU` values are tracked:
+The following example shows how the [`event` command](https://experienceleague.adobe.com/docs/ experience-platform/edge/fundamentals/tracking-events.html) can be used with the `xdm` option to send and retrieve data with the AEP Web SDK. In this example, the `event` command matches the [ExperienceEvent Commerce Details Schema](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) so that the productListItems `name` and `SKU` values are tracked:
 
 
 ```
@@ -76,4 +76,4 @@ alloy("event",{
 });
 ```
 
-For more information on tracking events with the AEP Web SDK, see [Tracking events](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).
+For more information on tracking events with the AEP Web SDK, see [Tracking events](https://experienceleague.adobe.com/docs/ experience-platform/edge/fundamentals/tracking-events.html).

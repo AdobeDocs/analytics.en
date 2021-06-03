@@ -13,7 +13,7 @@ The Identity Service assigns a unique, persistent identifier that can be shared 
 
 ## How do I implement heartbeat video tracking?
 
-See [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+See [Measuring audio and video in Adobe Analytics](https://experienceleague.adobe.com/docs/ media-analytics/using/media-overview.html).
 
 ## Can a service interruption at Adobe affect performance?
 

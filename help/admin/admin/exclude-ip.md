@@ -11,7 +11,7 @@ You can exclude data from specific IP addresses, such as internal website activi
 
 >[!NOTE]
 >
->Hits excluded by IP address are billed as [server calls](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html).
+>Hits excluded by IP address are billed as [server calls](https://experienceleague.adobe.com/docs/ analytics/technotes/terms.html).
 
 You can use wildcard indicators (&#42;) to exclude a range of addresses. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. You can exclude up to 50 different IP addresses.
 

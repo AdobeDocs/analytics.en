@@ -32,7 +32,7 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapped</b>: This report suite has already been mapped to the same Experience Cloud organization as the Analytics login company that you are logged in to. Only report suites that have this setting can be labeled. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite</b>: Clicking this link will let you <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"> map a report suite </a> to an Experience Cloud organization. <p>This means you will be redirected to the Experience Cloud Organization - Report Suite Mapping Admin page where you have to find the report suite, and assign it to the appropriate organization. Once that is done, navigate back to this Data Governance UI. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite</b>: Clicking this link will let you <a href="https://experienceleague.adobe.com/docs/ core-services/interface/about-core-services/report-suite-mapping.html"> map a report suite </a> to an Experience Cloud organization. <p>This means you will be redirected to the Experience Cloud Organization - Report Suite Mapping Admin page where you have to find the report suite, and assign it to the appropriate organization. Once that is done, navigate back to this Data Governance UI. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapped to Another Organization</b>: Another Experience Cloud organization has already mapped this report suite to their organization. </li> 
     </ul> </td> 
   </tr> 

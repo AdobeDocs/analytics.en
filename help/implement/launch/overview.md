@@ -26,6 +26,6 @@ See [Create an Analytics property in Adobe Experience Platform Launch](create-an
 
 Launch can be highly customized. Learn more about how you can get the most out of Adobe Analytics by including the right data in your implementation.
 
-* [Launch documentation](https://docs.adobe.com/content/help/en/launch/using/overview.html): Learn how the interface works and what extensions are available.
-* [Adobe Analytics extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Use the Analytics extension to send data to Adobe Analytics.
+* [Launch documentation](https://experienceleague.adobe.com/docs/ launch/using/overview.html): Learn how the interface works and what extensions are available.
+* [Adobe Analytics extension](https://experienceleague.adobe.com/docs/ launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Use the Analytics extension to send data to Adobe Analytics.
 * [Implementation variables](../vars/overview.md): Determine what variables you want to send to data collection servers.

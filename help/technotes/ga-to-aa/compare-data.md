@@ -11,6 +11,6 @@ Because of these wildly differing definitions, data structure, and implementatio
 
 If you see a large discrepancy between Adobe Analytics and a third-party analytics tool, the following resources are available:
 
-* **Self-audit using the debugger**: You can check the pages on your site with [Adobe's debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) or another packet monitor. Using the debugger lets you validate your implementation to make sure image requests are firing correctly with the right variables.
+* **Self-audit using the debugger**: You can check the pages on your site with [Adobe's debugger](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html) or another packet monitor. Using the debugger lets you validate your implementation to make sure image requests are firing correctly with the right variables.
 * **Self-audit using data feeds**: Adobe offers your organization the option of receiving [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) containing all raw data for each day. Your organization can then use this data and compare it with your third-party analytics tools to determine any discrepancies.
 * **Assisted audit and data validation with Adobe Consulting**: If you want an official Adobe representative to perform a full implementation audit on your site, contact your organization's Account Manager. They can arrange a meeting with an implementation consultant who can audit your site based on your company's contract.

@@ -56,7 +56,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
 
-See [Conversion Reports](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html) for a description.
+See [Conversion Reports](https://experienceleague.adobe.com/docs/ analytics/components/variables/dimensions-reports/reports-conversion.html) for a description.
 
 ## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -68,7 +68,7 @@ t_reports_fallout.xml
 
  -->
 
-Check out the new [Fallout Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) panel in Analysis Workspace! 
+Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) panel in Analysis Workspace! 
 
 1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
@@ -82,15 +82,15 @@ Check out the new [Fallout Analysis](https://docs.adobe.com/content/help/en/anal
 
 >[!MORELIKETHIS]
 >
->* [Fallout Report Description](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Fallout Report Description](https://experienceleague.adobe.com/docs/ analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 ## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer
 
-Check out the new [Flow visualization](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
+Check out the new [Flow visualization](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
-Run a [Paths](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) report.
+Run a [Paths](https://experienceleague.adobe.com/docs/ analytics/components/variables/dimensions-reports/reports-paths.html) report.
 
 For example, click **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
 
@@ -116,7 +116,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://experienceleague.adobe.com/docs/ analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -140,15 +140,15 @@ t_anomaly_view.xml
 
  -->
 
-Check out the new [Anomaly Detection and Contribution Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) features in Analysis Workspace!
+Check out the new [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) features in Analysis Workspace!
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
 >[!NOTE]
 >
->You can also run Anomaly Detection from within Analysis Workspace projects. [More...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>You can also run Anomaly Detection from within Analysis Workspace projects. [More...](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-For information on setting up Anomaly Detection, refer to the [Reference Guide](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+For information on setting up Anomaly Detection, refer to the [Reference Guide](https://experienceleague.adobe.com/docs/ analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 Anomaly Detection shows two types of charts: A summary chart and individual metrics charts. Individual metric charts are only shown if at least one anomaly has been detected for that metric.
 
@@ -175,7 +175,7 @@ Anomaly Detection shows two types of charts: A summary chart and individual metr
         <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicking <span class="uicontrol"> Show Segments </span> brings up the segment rail that lets you apply segments to an anomaly detection report. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > More </a> on segmentation. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicking <span class="uicontrol"> Show Segments </span> brings up the segment rail that lets you apply segments to an anomaly detection report. <a href="https://experienceleague.adobe.com/docs/ analytics/components/segmentation/seg-home.html"  > More </a> on segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicking <span class="uicontrol"> Edit Metrics </span>lets you select and unselect metrics for which you want to detect anomalies. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -228,7 +228,7 @@ You set up Anomaly Detection independently for each report suite.
 
    ![](assets/ad_top_menu.png)
 
-   See the [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
+   See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/ analytics/components/segmentation/seg-home.html) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
 1. (Optional) Change the end date of the View Period. The default is yesterday.
 1. You can now start interpreting the report. [Viewing Anomaly Detection charts](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
@@ -246,7 +246,7 @@ reports_realtime.xml
 
 Real-Time reporting offers two main reports - an overview report and a detail report. They each consist of a number of reportlets.
 
-For information on configuring real-time reports, see the [Analytics Reference Guide](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
+For information on configuring real-time reports, see the [Analytics Reference Guide](https://experienceleague.adobe.com/docs/ analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
@@ -257,7 +257,7 @@ For information on configuring real-time reports, see the [Analytics Reference G
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Select Report Suite</strong></td> 
-   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Real-Time Reports Configuration </a>. </td> 
+   <td class="chdesc stentry"> Shows the report suite that this real-time report covers. To change the report suite, see <a href="https://experienceleague.adobe.com/docs/ analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  > Real-Time Reports Configuration </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Switch among reports</strong></td> 

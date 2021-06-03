@@ -56,4 +56,4 @@ Pre-built segments that show up in the table are internal segments and won't sho
 
 ![](assets/prebuilt_segments.png)
 
-To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://experienceleague.adobe.com/docs/ analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).

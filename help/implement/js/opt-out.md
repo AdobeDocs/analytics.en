@@ -7,7 +7,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 
 >[!IMPORTANT]
 >
->Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
+>Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://experienceleague.adobe.com/docs/ id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
 
 Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being collected. All implementation types are accommodated; your organization is responsible for your own privacy policy and for remaining in compliance with your signed terms.
 
@@ -30,7 +30,7 @@ The opt-out page for your organization depends on the [`trackingServer`](../vars
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
   2. Note the `trackingServer` variable value.
 
-* Using the [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html):
+* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/ debugger/using/experience-cloud-debugger.html):
   1. Navigate to your site using the Chrome browser.
   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
   3. Note the [!UICONTROL Request URL - Hostname] value.

@@ -81,7 +81,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Product Compatibility </span> </td> 
-   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p> </td> 
+   <td colname="col3"> <p>Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/ analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Add </span> </td> 
@@ -124,7 +124,7 @@ There are several ways to get to the Calculated Metric Builder:
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Segments </p> </td> 
-   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> </p> </td> 
+   <td colname="col3"> <p>(Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/ analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Functions </p> </td> 

@@ -9,7 +9,7 @@ Adobe uses several different methods to identify visitors on your site. The `vis
 
 >[!IMPORTANT]
 >
->Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) instead.
+>Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/ id-service/using/home.html) instead.
 
 ## Visitor ID in Adobe Experience Platform Launch
 

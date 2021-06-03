@@ -24,10 +24,10 @@ The Workspace project list page contains the following information:
 | [Create New Project](/help/analyze/analysis-workspace/home.md)  | Click this link to start a new project from scratch or from a [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace) created for you.  |
 |  Manage Projects  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
 | Set as Landing Page | Turns this page into your Workspace landing page. |
-|  [View Tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)  |Takes you to the Analysis Workspace video tutorials.  |
+|  [View Tutorials](https://experienceleague.adobe.com/docs/ analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)  |Takes you to the Analysis Workspace video tutorials.  |
 |  Name  | Name of the Workspace project.  |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
-| Type | Indicates whether this is a Workspace Project or a [Mobile Scorecard](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html). |
+| Type | Indicates whether this is a Workspace Project or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/ analytics/analyze/mobapp/home.html). |
 | [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Indicates your role for the project - owners, edit, duplicate, view. |
 |  Tags  |Tags that were applied to the project.  |
 |  Last Modified  | Date and time when the project was last modified.  |

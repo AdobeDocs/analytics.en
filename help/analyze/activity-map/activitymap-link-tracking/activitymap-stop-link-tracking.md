@@ -28,7 +28,7 @@ Steps for stopping link tracking in Activity Map or Legacy ClickMap.
      &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
      &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
      &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
-     &nbsp;https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
+     &nbsp;https://experienceleague.adobe.com/docs/ analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
      */
      function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
@@ -37,7 +37,7 @@ Steps for stopping link tracking in Activity Map or Legacy ClickMap.
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (formerly Visitor ClickMap) </td> 
-   <td colname="col2"> <p>Set the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
+   <td colname="col2"> <p>Set the <a href="https://experienceleague.adobe.com/docs/ analytics/implementation/vars/config-vars/configuration-variables.html"  > trackInlineStats</a> variable to false (this is the default.) The syntax reads as follows: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 

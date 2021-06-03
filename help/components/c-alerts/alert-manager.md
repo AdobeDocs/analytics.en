@@ -8,7 +8,7 @@ exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 
  ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/ analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/ analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 

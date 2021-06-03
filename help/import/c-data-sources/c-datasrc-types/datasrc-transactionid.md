@@ -14,7 +14,7 @@ When you send an online hit that contains a `transactionID` value, Adobe takes a
 Use the following generic workflow to start using Transaction ID data sources:
 
 1. Create a data source ('Generic' category and 'Generic Data Source (Transaction ID)' type).
-1. Follow the data feed setup wizard to get an FTP location to upload data and download a data sources template file.
+1. Follow the data source setup wizard to get an FTP location to upload data and download a data sources template file.
 1. Update your implementation to include the `transactionID` variable.
 1. Upload a data sources file to the FTP site with a `.fin` file.
 

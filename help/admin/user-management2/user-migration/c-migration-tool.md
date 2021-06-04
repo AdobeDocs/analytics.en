@@ -303,7 +303,7 @@ Important information about the migration process and how it impacts current use
 
 You may want to pro-actively communicate this migration plan to your current users. Here is a template you can customize to send all your current Analytics users:
 
-To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Email Users](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html).
+To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Email Users](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
 
 **Subject:** Coming Soon - A new way to login to Adobe Analytics and Adobe Experience Cloud.
 

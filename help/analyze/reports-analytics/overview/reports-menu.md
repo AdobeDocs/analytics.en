@@ -107,7 +107,7 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
   </tr> 
   <tr> 
    <td colname="col1">Report Suite Selector <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Lets you select <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > base report suites</a> or <a href="https://docs.adobe.com/help/en/analytics/components/virtual-report-suites/vrs-about.html"  > virtual report suites</a>. </td> 
+   <td colname="col2">Lets you select <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > base report suites</a> or <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > virtual report suites</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendar <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 

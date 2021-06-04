@@ -25,7 +25,7 @@ If the user agent is on a desktop and no mouse movement is detected, the plug-in
 
 Adobe recommends the following before using this plug-in:
 
-* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
+* **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** or **Visit** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
 * **Collect user agent in a separate variable**: Collect the user agent string in a separate variable to monitor the efficacy of this plug-in. Set an eVar to `navigator.UserAgent` on every hit to collect this data.
 
 ## Install the plug-in using Launch custom code editor

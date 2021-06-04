@@ -56,13 +56,13 @@ Each report suite can be configured as follows:
 
 Three context data variables have been pre-defined to work with the privacy reporting management reserved variables.  It is up to each implementation engineer to determine how to manage and persist the setting of these variables.
 
-See [Context Data Variables](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) for general guidance on implementing context data variables.
+See [Context Data Variables](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) for general guidance on implementing context data variables.
 
 ### SSF
 
 * Context Data: `contextData.['cm.ssf']`
 * Accepted Values:
-   * 1 - When sending the value "1", this indicates that Server Side Forwarding is in an opt-out state. The value "1" paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - When sending the value "1", this indicates that Server Side Forwarding is in an opt-out state. The value "1" paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0 - Optional. Use the value "0" for customers who consented to targeted marketing. Not setting the variable will also produce the same results.
 
 ### DMP

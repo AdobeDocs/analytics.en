@@ -10,4 +10,4 @@ Learn about segmentation features in Analysis Workspace.
 
 [Segment Comparison (Segment IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
 
-[Apply Segments in Fallout Analysis](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+[Apply Segments in Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)

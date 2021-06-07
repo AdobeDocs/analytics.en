@@ -12,6 +12,9 @@ Date Comparison in Analysis Workspace lets you take any column containing a date
 
 ## Compare time periods {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
+>[!NOTE]
+>[!UICONTROL Compare Time Periods] leverages advanced Calculated Metrics. As a result, it is available only to customers with Analytics Select, Prime, and Ultimate SKUs. 
+
 Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better/worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a "difference" column, which shows the percentage change compared to a specified time period.
 
 1. Create a Freeform table, with any dimensions and metrics you want to compare over a time period.

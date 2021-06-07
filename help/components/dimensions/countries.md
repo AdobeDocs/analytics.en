@@ -11,10 +11,6 @@ The 'Countries' dimension reports the country where the hit originated from. Thi
 
 This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with [Digital Element](https://www.digitalelement.com/) to maintain lookups between IP address and country. This dimension works out of the box for all implementations.
 
->[!TIP]
->
->If your organization follows stringent privacy regulations where [obfuscating IP address](/help/admin/admin/general-acct-settings-admin.md) isn't enough, you can request to disable geolocation data entirely. Contact Customer Care with the report suite ID, and request to turn off 'Geography' for the report suite.
-
 ## Dimension items
 
 Dimension items include countries all over the world. Example values include `"United States"`, `"United Kingdom"`, or `"India"`.

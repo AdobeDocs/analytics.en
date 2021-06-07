@@ -11,10 +11,6 @@ The 'US DMA' dimension reports the designated market area (DMA) of the visitor. 
 
 This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with Nielsen to maintain lookups between IP address and DMA. This dimension works out of the box for all implementations.
 
->[!TIP]
->
->If your organization follows stringent privacy regulations where [obfuscating IP address](/help/admin/admin/general-acct-settings-admin.md) isn't enough, you can request to disable geolocation data entirely. Contact Customer Care with the report suite ID, and request to turn off 'Geography' for the report suite.
-
 ## Dimension items
 
 Dimension items include the DMA and DMA code of the visitor. The 3-digit code is not a zip code, but rather the DMA code from Nielsen. Example values include `"Dallas-Ft. Worth (623)"`, `"New York (501)"`, or `"Los Angeles (803)"`. The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.

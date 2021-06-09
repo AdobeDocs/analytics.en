@@ -28,68 +28,18 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 
 Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
 
-<table id="table_E48D50926E6B492183300CA58A886927"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Element </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Name </span> </p> </td> 
-   <td colname="col2"> <p>The friendly name of the conversion variable. This name is how the eVar is referred to in general reporting, and will be the name of the report in the left-hand menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Type</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>The type of variable value: </p> <p> <b>Text String</b>:</span> Captures text values used on your site. This is the most common type of eVar, and the default setting. It acts similar to other variables, where the value within it is a static text string. If you are tracking things such as internal campaigns or internal search keywords, this is the recommended setting. </p> <p> <b>Counter</b>:</span> Counts the number of times an action occurs before the success event. For example, if you use an eVar to track internal searches on your site, set this value to <span class="uicontrol"> Text String</span> to track the use of search terms. Set this value to <span class="uicontrol"> Counter</span> to count the number of searches made, regardless of search terms used. For example, you can use a counter eVar to track the number of times someone used your internal search before making a purchase. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Allocation </span> </p> </td> 
-   <td colname="col2"> <p>Determines how Analytics assigns credit for a success event if a variable receives multiple values before the event. Supported values include: </p> <p> <b>Most Recent</b>: The last eVar value always receives credit for success events until that eVar expires. </p> <p> <b>Original Value</b>: The first eVar always receives credit for success events until that eVar expires. </p> <p> <b> Linear</b>:Allocates success events equally across all eVar values. Since Linear allocation accurately distributes values only within a visit, use Linear allocation with an eVar expiration of Visit. </p> <p>Note:  Switching allocation to or from Linear prevents historical data from displaying. Mixing allocation types in the reporting interface can lead to misstated data in reports. For example, Linear allocation might divide revenue across a number of different eVar values. After changing back to Most Recent allocation, 100% of that revenue would be associated with the most recent single value. This association can lead to incorrect conclusions by users. </p> <p>To avoid the likelihood of confusion in reporting, Analytics makes the historical data unavailable to the interface. It can be viewed if you decide to change the given eVar back to the initial allocation setting, although you should not change eVar allocation settings simply to access the historical data. Adobe recommends using a new eVar when new allocation settings are desired for data already being recorded, rather than changing allocation settings on an eVar that already has a significant amount of historical data built up. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Expire After</span> </p> </td> 
-   <td colname="col2"> <p>Specifies a time period, or event, after which the eVar value expires (no longer receives credit for success events). If a success event occurs after eVar expiration, the None value receives credit for the event (no eVar was active). </p> <p>If you select an event as an expiration value, the variable expires only if the event occurs. If the event does not occur, the variable never expires. </p> <p>The available expiration options can be classified under four main categories: </p> 
-    <ul id="ul_810A37C9B6624F429F2FB45C18F7B43F"> 
-     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b>At a page view or visit level.</b> Conversion events beyond the page view or visit do not associate with the eVar. </li> 
-     <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b>Based on a time period, such as day, week, month, or year.</b> Conversion events beyond the specified time period do not associate with the eVar. The expiration period starts when the variable is set. eVars expire based on the time they were set, to the second (minute, hour, day, month, etc): 
-      <ul id="ul_80C7E3182B6B4356B8A3CA920B81C6D5"> 
-       <li id="li_F16F60319CCE406D9EDEFEC0A200BC4D">MINUTE=60 seconds </li> 
-       <li id="li_45F47F3F5691415B84052B235DF3BB54">HOUR=3600 seconds (60 minutes) </li> 
-       <li id="li_5288CE7D168E4C85B3D9BB67A44D32EC">DAY=86400 seconds (24 hours) </li> 
-       <li id="li_60FC8BCD657745EE87B4E458CBA69583">WEEK=604800 seconds (7 days) </li> 
-       <li id="li_7A05A66613C84F929F030310B9567CF5">MONTH=2678400 seconds (31 days) </li> 
-       <li id="li_DCD3CABF59E34D5999B03E606B08AD85">QUARTER=8035200 seconds (93 days - 3 months of 31 days) </li> 
-       <li id="li_54351D2899454D39A8BA205910D2CCB1">YEAR=31536000 seconds (365 days) </li> 
-      </ul> <p> </p> <p>If a visit starts at 7:00 AM on Monday and an eVar is set within that visit at 7:15 AM, expiration is as shown below: </p> 
-      <ul id="ul_72B311006BE6428698313D251C0940DB"> 
-       <li id="li_50925D4A40AD4ACA88704A523138C5B9">Day expiration: eVar expires at 7:15 AM on Tuesday. </li> 
-       <li id="li_25846328766D4B4BAF407236C65C956C">Week expiration: eVar expires on the following Monday at 7:15 AM. </li> 
-       <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Month expiration: eVar expires 31 days from Monday at 7:15 AM. </li> 
-      </ul> </li> 
-     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Specific conversion events.</b> Any other conversion events that fire after the specific event designated associate with the eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Never.</b> As long as the <span class="varname"> visitorID</span> cookie is intact, any amount of time can pass between eVar and event. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Status</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>Defines the eVar status: </p> <p><b>Disabled</b>:</span> Disables the eVar. Removes the eVar from the conversion variable list. </p> <p> <b>No Subrelations</b>:</span> Prevents you from breaking down the eVar with a subrelation. </p> <p> <b>Basic Subrelations</b>: </span>Lets you break down an eVar by any report with full subrelations (for example, Products or Campaign). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Reset</span> </p> </td> 
-   <td colname="col2"> <p>Resets any existing value in the eVar. </p> <p>Use this setting when repurposing an eVar so you do mix an old value into a new report. Resetting does not erase historical data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Merchandising</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>Merchandising variables can follow one of two syntaxes: </p> <p> <b>Products Syntax</b>:</span> Associates the eVar value to a product. Note:  If Products Syntax is selected, the Merchandising Binding Event section is disabled and not selectable for edit. For this syntax, Binding Events are not applicable. </p> </p> <p> <b>Conversion Variable Syntax</b>:</span> Associates the eVar with a product only if a Binding Event occurs. In this case, you select the events that act as Binding Events. </p> <p>Changing this setting without updating your JavaScript code accordingly causes lost data. See <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html"> Merchandising Variables</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Merchandising Binding Event</span> </p> <p>(eVar only) </p> </td> 
-   <td colname="col2"> <p>If Merchandising is set to <span class="uicontrol"> Conversion Variable Syntax</span>, the selected events bind the current eVar value with a product. </p> <p>To use a Binding Event, set <span class="uicontrol"> Allocation to Most Recent</span>. If <span class="uicontrol"> Allocation is Original Value</span>, the first eVar product binding remains until the eVar expires. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. You can select an event only when the "Conversion Variable Syntax" is selected.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+
+| Element | Description |
+| --- | --- |
+| [!UICONTROL Name] | The friendly name of the conversion variable. This name is how the eVar is referred to in general reporting, and will be the name of the report/dimension in the left-hand menu. |
+| [!UICONTROL Type]  (eVar only) | The type of variable value:<ul><li>**[!UICONTROL Text String]**: Captures text values used on your site. This is the most common type of eVar, and the default setting. It acts similar to other variables, where the value within it is a static text string. If you are tracking things such as internal campaigns or internal search keywords, this is the recommended setting.</li><li>**[!UICONTROL Counter]**: Counts the number of times an action occurs before the success event. For example, if you use an eVar to track internal searches on your site, set this value to [!UICONTROL Text String] to track the use of search terms. Set this value to [!UICONTROL Counter] to count the number of searches made, regardless of search terms used. For example, you can use a counter eVar to track the number of times someone used your internal search before making a purchase.</li></ul> |
+| [!UICONTROL Allocation] | Determines how Analytics assigns credit for a success event if a variable receives multiple values before the event. Supported values include:<ul><li>**[!UICONTROL Most Recent]**: The last eVar value always receives credit for success events until that eVar expires.</li><li>**[!UICONTROL Original Value]**: The first eVar always receives credit for success events until that eVar expires.</li><li>**[!UICONTROL Linear]**: Allocates success events equally across all eVar values. Since Linear allocation accurately distributes values only within a visit, use Linear allocation with an eVar expiration of Visit.</li></ul> **Note**:  Switching allocation to or from Linear prevents historical data from displaying. Mixing allocation types in the reporting interface can lead to misstated data in reports. For example, Linear allocation might divide revenue across a number of different eVar values. After changing back to Most Recent allocation, 100% of that revenue would be associated with the most recent single value. This association can lead to incorrect conclusions by users.<br><br>To avoid the likelihood of confusion in reporting, Adobe Analytics makes the historical data unavailable to the interface. It can be viewed if you decide to change the given eVar back to the initial allocation setting, although you should not change eVar allocation settings simply to access the historical data. Adobe recommends using a new eVar when new allocation settings are desired for data already being recorded, rather than changing allocation settings on an eVar that already has a significant amount of historical data built up. |
+| [!UICONTROL Expire After] | Specifies a time period, or event, after which the eVar value expires (no longer receives credit for success events). If a success event occurs after eVar expiration, the None value receives credit for the event (no eVar was active).  If you select an event as an expiration value, the variable expires only if the event occurs. If the event does not occur, the variable never expires.  The available expiration options can be classified under four main categories:<ul><li>**At a page view or visit level.** Conversion events beyond the page view or visit do not associate with the eVar.</li><li>**Based on a time period, such as day, week, month, or year.** Conversion events beyond the specified time period do not associate with the eVar. The expiration period starts when the variable is set. eVars expire based on the time they were set, to the second (minute, hour, day, month, etc): <ul><li>MINUTE=60 seconds</li><li>HOUR=3600 seconds (60 minutes)</li><li>DAY=86400 seconds (24 hours)</li><li>WEEK=604800 seconds (7 days)</li><li>MONTH=2678400 seconds (31 days)</li><li>QUARTER=8035200 seconds (93 days - 3 months of 31 days)</li><li>YEAR=31536000 seconds (365 days)</li><br>If a visit starts at 7:00 AM on Monday and an eVar is set within that visit at 7:15 AM, expiration is as shown below:<li>Day expiration: eVar expires at 7:15 AM on Tuesday.</li><li>Week expiration: eVar expires on the following Monday at 7:15 AM.</li><li>Month expiration: eVar expires 31 days from Monday at 7:15 AM.</li></ul><li>**Specific conversion events.** Any other conversion events that fire after the specific event designated associate with the eVar.</li><li>**Never.** As long as the  visitorID cookie is intact, any amount of time can pass between eVar and event.</li></ul>|
+| [!UICONTROL Status]  (eVar only) | Defines the [!UICONTROL eVar] status:<ul><li>**Disabled**: Disables the [!UICONTROL eVar]. Removes the [!UICONTROL eVar] from the conversion variable list.</li><li>**No Subrelations**: Prevents you from breaking down the [!UICONTROL eVar] by a dimension.</li><li>**Basic Subrelations**: Lets you break down an eVar by any full dimension (for example, Products or Campaign).</li></ul> |
+| [!UICONTROL Reset] | Resets any existing value in the eVar. Use this setting when repurposing an eVar so you do mix an old value into a new report. Resetting does not erase historical data. |
+| [!UICONTROL Merchandising]  (eVar only) | Merchandising variables can follow one of two syntaxes:<ul><li>**[!UICONTROL Products Syntax]**: Associates the eVar value to a product. **Note**: If [!UICONTROL Products Syntax] is selected, the [!UICONTROL Merchandising Binding Event] section is disabled and not selectable for edit. For this syntax, [!UICONTROL Binding Events] are not applicable.</li><li>**[!UICONTROL Conversion Variable Syntax]**: Associates the eVar with a product only if a [!UICONTROL Binding Event] occurs. In this case, you select the events that act as [!UICONTROL Binding Events].  Changing this setting without updating your JavaScript code accordingly causes lost data. See [Merchandising Variables](https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html).</li></ul>|
+| [!UICONTROL Merchandising Binding Event] (eVar only) | If Merchandising is set to [!UICONTROL Conversion Variable Syntax], the selected events bind the current eVar value with a product. To use a [!UICONTROL Binding Event], set [!UICONTROL Allocation] to [!UICONTROL Most Recent]. If [!UICONTROL Allocation] is set to [!UICONTROL Original Value], the first eVar product binding remains until the eVar expires. Multiple events can be selected by holding down ctrl (Windows) or cmd (Mac) and clicking on multiple items in the list. You can select an event only when [!UICONTROL Conversion Variable Syntax] is selected. |
 
 **Expiration**
 
@@ -106,7 +56,7 @@ Another example: If an eVar is used in May to reflect internal promotions and ex
 
 **Case Sensitivity**
 
-eVars are case insensitive, but they are displayed in the capitalization of the first occurrence. For example, if the first instance of eVar1 is set to "Logged In," but all subsequent instances are passed as "logged in," reports always show "Logged In" as the value of the eVar.
+The upper or lower case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
 
 **Counters**
 

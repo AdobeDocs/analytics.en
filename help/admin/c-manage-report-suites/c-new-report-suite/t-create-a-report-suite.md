@@ -8,7 +8,7 @@ exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 
 A report suite is a silo of data that Adobe Analytics uses to pull reports. An organization can have many report suites, each containing different data sets. While separate report suites were important in the past, having a single report suite has become more advantageous. The introduction of [virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) and report time processing allows admins to create your own subsets of data, allowing the flexibility to obtain both global and site-specific data.
 
-This article is designed for system-level administrators or analytics admins to prepare for data collection.
+This article is designed for system-level administrators or Adobe Analytics admins to prepare for data collection.
 
 ## Prerequisites
 
@@ -37,8 +37,8 @@ This means that your account has not been granted the correct permissions to Ana
 
 **After logging in to Adobe Analytics, the 'Welcome to Adobe Analytics' popup and dropdown is missing.**
 
-Ensure that you've logged in through the Experience Cloud, and not through my.omniture.com. User who log in through my.omniture.com do not have the report suite setup wizard available.
+Ensure that you've logged in through the [Experience Cloud](https://experience.adobe.com), and not through my.omniture.com. User who log in through my.omniture.com do not have the report suite setup wizard available.
 
 ## Next steps
 
-[Create and configure a property for Adobe Analytics in Launch](/help/implement/launch/create-analytics-property.md): Create an area to manage your Analytics implementation
+[Create and configure a property for Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Create an area to manage your Analytics implementation

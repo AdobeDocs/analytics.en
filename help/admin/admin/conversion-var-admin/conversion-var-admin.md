@@ -56,7 +56,7 @@ Another example: If an eVar is used in May to reflect internal promotions and ex
 
 **Case Sensitivity**
 
-The upper or lower case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
+eVars are not case sensitive. The upper or lower case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
 
 **Counters**
 

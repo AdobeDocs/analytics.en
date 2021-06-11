@@ -15,7 +15,7 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
    The JavaScript code sends an image request Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
 
 4. Adobe returns a transparent pixel image.
-5. Adobe servers store collected data in a *report suite*.
+5. Adobe servers store collected data in one or more *report suites*.
 6. Report suite data populates the reports that you can access in a web browser.
 
    The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache.

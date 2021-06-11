@@ -120,6 +120,7 @@ user-guide-description: Customize what data is collected to get more out of Adob
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)
   + [Global report suite considerations](prepare/global-rs.md)
+  + [Implementing multi-suite tagging](prepare/multi-suite-tagging.md)
   + [Implementation modal](prepare/implementation-modal.md)
   + [Create a solution design document](prepare/solution-design.md)
   + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)

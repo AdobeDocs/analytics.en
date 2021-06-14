@@ -49,7 +49,7 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
       },
       "vars": {
         "host": "example.data.adobedc.net",
-        "reportSuites": "reportSuiteID",
+        "reportSuites": "reportSuiteID1,reportSuiteID2",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
       "triggers": {
@@ -125,7 +125,7 @@ An HTML page hosted on your web servers is also required:
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;

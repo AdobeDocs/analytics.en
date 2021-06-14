@@ -32,7 +32,7 @@ The sample HTML below can be used to capture stats from the instant articles. Th
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;

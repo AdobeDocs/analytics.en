@@ -19,7 +19,7 @@ We recommend using [Attribution IQ](https://experienceleague.adobe.com/docs/anal
 
 ![](assets/attribution.png)
 
-* Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresonding to each Marketing Channel Instance.
+* Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresponding to each Marketing Channel Instance.
 * For metric analysis, your organization should align on one or more attribution model/s. Save custom metrics with this model for easy reuse.
 * By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution IQ metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
 
@@ -27,7 +27,7 @@ We recommend using [Attribution IQ](https://experienceleague.adobe.com/docs/anal
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models (Attribution IQ).
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you create a classification for your Marketing Channels and leave those two channels unclassified. The classified dimension will yield the same Attribution IQ results as if those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution IQ results as if those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
 

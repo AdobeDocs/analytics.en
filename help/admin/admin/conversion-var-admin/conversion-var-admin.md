@@ -28,8 +28,6 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 
 Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
 
-
-
 | Element | Description |
 | --- | --- |
 | [!UICONTROL Name] | The friendly name of the conversion variable. This name is how the eVar is referred to in general reporting, and will be the name of the report/dimension in the left-hand menu. |

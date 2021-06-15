@@ -62,7 +62,7 @@ The following are best practices and a few requirements and restrictions to be a
 
   Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
-* Using timestamps when setting a [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) is not recommended. It can lead to out-of-order data.
+* Using timestamps when setting a [s.visitorID](/help/implement/vars/config-vars/visitorid.md) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
 

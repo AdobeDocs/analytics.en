@@ -1,10 +1,10 @@
 ---
 description: Shows examples on how to label data for hit data, access requests, delete requests
-title: Labeling Example
+title: Labeling Examples
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 ---
-# Labeling Example
+# Labeling Examples
 
 ## Sample Hit Data
 
@@ -283,7 +283,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 >[!NOTE]
 >
->Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice the variable containing A_ID would probably be a prop or eVar and its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+>Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice, the variable containing A_ID would probably be a prop or an eVar. Its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 <table>
   <tr>
@@ -358,6 +358,6 @@ Note the following:
 
 * Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID (AAID) that occurred on a row containing `user=Mary`. 
 * The expandIDs setting does not expand to the call to include values present in MyEvar3, which has an ID-DEVICE label, when `user=Mary`. ExpandIDs only expands to include Visitor IDs (AAIDs in this example, but also the ECID) on rows where `user=Mary`.
-* `MyEvar2` in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows, so ID expansion includes them for device-level deletes.
-* The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request.
-* `MyEvar3` behaves very differently than it did without ID expansion, because without ID expansion, no `ID-DEVICES` matched. Now `AAID` matches on the first five rows.
+* `MyEvar2` in the fourth and fifth rows is updated because these rows contain the same Visitor ID values as those on the first and second rows. As a result, ID expansion includes them for device-level deletes.
+* The values of `MyEvar2` in rows two and five match both before and after the delete. However, after the delete they no longer match the value N that occurs in the last row, because that row was not updated as part of the delete request.
+* `MyEvar3` behaves very differently than it did without ID expansion, because without ID expansion, no `ID-DEVICES` matched. Now, `AAID` matches on the first five rows.

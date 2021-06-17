@@ -62,7 +62,7 @@ See [Context Data Variables](https://experienceleague.adobe.com/docs/analytics/i
 
 * Context Data: `contextData.['cm.ssf']`
 * Accepted Values:
-   * 1 - When sending the value "1", this indicates that Server Side Forwarding is in an opt-out state. The value "1" paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - When sending the value "1", this indicates that Server Side Forwarding is in an opt-out state. The value "1" paired with this variable will block the sharing of this hit with Adobe Audience Manager. See [AAM ePrivacy Compliance](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
    * 0 - Optional. Use the value "0" for customers who consented to targeted marketing. Not setting the variable will also produce the same results.
 
 ### DMP

@@ -101,11 +101,6 @@ deprecated_alerts.xml
    <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Alerts using participation metrics </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  > Participation metrics </a> are available in Reports &amp; Analytics, but aren't currently available in the new alerts system in Analysis Workspace. </p> <p> </p> </td> 
-   <td colname="col3"> <p>Not available in the new Alert Manager. </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Monthly alerts for custom calendar report suites </p> </td> 
    <td colname="col2"> <p>This only affects customers with alerts set up for report suites that have <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > custom month start dates </a> (National Retail Federation/NRF and Custom Calendar types). </p> <p>It does not affect alerts on Gregorian or Modified Gregorian calendar report suites. Previously these alerts were sent on the first day of the Gregorian month (e.g. January 1st, February 1st etc). This will not work with the new Anomaly Detection feature of alerts, which takes previous months' data into account when detecting anomalies. In the future, we will add support to our scheduling system for custom calendars so that both Alerts and Scheduled Projects can be scheduled to send on the first day of the custom calendar month instead of just the first day of the Gregorian month. </p> <p> </p> </td> 
    <td colname="col3"> <p>Not yet available in the new Alert Manager. </p> </td> 

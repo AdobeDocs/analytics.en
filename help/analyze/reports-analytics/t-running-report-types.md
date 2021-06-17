@@ -47,10 +47,6 @@ Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 
    ![Step Result](assets/fallout_report.png)
 
->[!MORELIKETHIS]
->
->* [Fallout Report Description](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 ## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer

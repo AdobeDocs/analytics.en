@@ -43,7 +43,7 @@ Marketing Channels Details dives more deeply into each channel to show you speci
 
 ## Apply attribution models
 
-You can use [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) to apply different attribution models instantaneously:
+You can use [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) to apply different attribution models instantaneously:
 
 ![](assets/mc-viz5.png)
 

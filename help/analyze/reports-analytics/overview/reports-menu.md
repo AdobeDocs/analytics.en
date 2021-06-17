@@ -25,7 +25,7 @@ Reports are navigated using a hierarchical column view. Click **[!UICONTROL View
 
 ![](assets/reports-landing.png){width="672px"}
 
-For details on individual reports, see [Report Descriptions](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
+For details on individual reports, see [Dimensions](/help/components/dimensions/overview.md).
 
 ## Search for Reports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 

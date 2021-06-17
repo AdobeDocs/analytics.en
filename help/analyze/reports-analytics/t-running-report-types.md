@@ -51,23 +51,9 @@ Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 
 Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer
 
-Check out the new [Flow visualization](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
-
-Run a [Paths](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html) report.
+Check out the [Flow visualization](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
 
 For example, click **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
-
-![](assets/page_flow.png)
-
-You read this report from left to right, beginning with the selected page. The pages that were viewed after the selected page are illustrated as a branch extending to the right.
-
-The percentage that each subsequent page was viewed is displayed beside the name of the page. The width of the line connected to each next-page depicts this relative percentage.
-
-**[!UICONTROL Path Views]**: Indicates the number of times a page was viewed, when constrained to the displayed paths.
-
-For example, the Privacy Policy page could have 10,000 total page views, but only 500 of those page views occurred immediately following the Home Page. Thus, the term path view is used.
-
-The relative percentage is depicted by the relative width of the line. By default, this report displays five 2nd-level branches and five 3rd-level branches. You can expand the number of branches to view up to ten 2nd-level branches and five 3rd-level branches. Doing so increases the height of the report and most likely requires scrolling to view the entire graph.
 
 ## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -77,109 +63,11 @@ See the [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md)
 
 ## Run an Anomaly Detection report {#task_4808C96327354D789C075823F5C3A049}
 
-Describes how to interpret the Summary and Individual Metric charts in Anomaly Detection.
-
-Check out the new [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) features in Analysis Workspace!
-
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
-
->[!NOTE]
->
->You can also run Anomaly Detection from within Analysis Workspace projects. [More...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-For information on setting up Anomaly Detection, refer to the [Reference Guide](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
-
-Anomaly Detection shows two types of charts: A summary chart and individual metrics charts. Individual metric charts are only shown if at least one anomaly has been detected for that metric.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Type of chart </p> </th> 
-   <th colname="col2" class="entry"> <p>What is does </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Summary chart </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Each box represents one anomaly, tracked per day, that corresponds to a metric below. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">Green indicates anomalies above the trend line, blue below the trend line. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Indicates the strength of the anomaly: The greater the anomaly, the darker the color of the data point and the farther away from the trend line. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Clicking on individual anomalies brings that anomaly's individual metric chart (underneath the summary chart) to the top. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">The deviation percentage values (left of chart) are calculated as follows: 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">If the upper bounds and the expected value are the same, the deviation % is 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Otherwise the deviation % is ((actual value - upper bound value) / (upper bound value - expected value)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Otherwise the deviation % is ((lower bound value - actual value) / (expected value - lower bound value)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Clicking <span class="uicontrol"> Show Segments </span> brings up the segment rail that lets you apply segments to an anomaly detection report. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > More </a> on segmentation. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Clicking <span class="uicontrol"> Edit Metrics </span>lets you select and unselect metrics for which you want to detect anomalies. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Individual metric chart </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Displays anomalous data points for individual trended metrics (including calculated metrics) as dots. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Shows the most recent anomaly on top, and secondarily ranks by number of anomalies. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Displays a solid line to indicate actual data currently collected. This is compared to the forecast and margin of error to derive whether data points are anomalous. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Displays a dotted line that represents a forecast based on historical data (i.e., the training period). </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Displays upper and lower 95% confidence intervals/bounds in a gray shade. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Lets you collapse and expand individual reports by clicking the double up or down arrows next to the metric name. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Changes the order in which the metric charts appear by reacting to drill-downs in the overview report (see above) </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Lets you filter charts by using search terms, such as "page" for all page-related metrics. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Lets you display all metrics you defined or only those with anomalies. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Setting up Anomaly Detection {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Steps to select report suites, metrics, and training/view periods for anomaly detection.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-You set up Anomaly Detection independently for each report suite.
-
-1. Navigate to  **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
-1. Select the report suite for which you want to track daily anomaly detection. To display a list of report suites, click the Report Suite selector drop-down menu.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
-
-   You can pick metrics from the list (including calculated metrics) of all metrics or from a list of tracked metrics. You can also filter on specific terms to narrow down the list. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Think of the training period as the "learning period" for the algorithm.)
-
-   ![](assets/view_training_periods.png)
-
-   Keep in mind that:
-
-* The training period ends right before the view period starts.
-* The default for both is 30 days, and you can extend them to 60 or 90 days.
-* Extending the training period puts your data in a larger context and may reduce the size of an anomaly.
-
-   The Anomaly Detection metrics report refreshes every time you change a parameter.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
-
-   ![](assets/ad_top_menu.png)
-
-   See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) for more information on creating and managing segments. 1. (Optional) Favorite or bookmark the report.
-1. (Optional) Change the end date of the View Period. The default is yesterday.
-1. You can now start interpreting the report. [Viewing Anomaly Detection charts](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+You can run [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) only in Analysis Workspace.
 
 ## Run a Real-Time report {#task_5D25929C918E40B18965222FA94176B0}
 
 Describes how to view and interpret real-time reports.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Reports > Site Metrics > Real-Time]** .
 

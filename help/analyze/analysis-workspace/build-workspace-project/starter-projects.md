@@ -128,7 +128,7 @@ This template is based on the People metric, which is a de-duplicated version of
 
 <!--This content is mirrored in the CDA doc.-->
 
-This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA). 
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA). 
 
 * **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
 * **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.

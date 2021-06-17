@@ -315,7 +315,7 @@ Our company will begin migrating all Adobe Analytics accounts away from [!DNL ht
 
 **Helpful resources:**
 
-[Sign in and manage your profile settings](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html).
+[Sign in and manage your profile settings](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html).
 
 Please contact your Analytics administrators if you have any questions or concerns.
 

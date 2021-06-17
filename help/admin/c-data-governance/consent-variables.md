@@ -56,7 +56,7 @@ Each report suite can be configured as follows:
 
 Three context data variables have been pre-defined to work with the privacy reporting management reserved variables.  It is up to each implementation engineer to determine how to manage and persist the setting of these variables.
 
-See [Context Data Variables](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) for general guidance on implementing context data variables.
+See [Context Data Variables](/help/implement/vars/page-vars/contextdata.md) for general guidance on implementing context data variables.
 
 ### SSF
 

@@ -9,7 +9,7 @@ The Adobe Experience Platform (AEP) Web SDK includes aids for helping you to man
 
 For XDM data that is not automatically mapped to Analytics, you can add [context data](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) to match your [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). Then it can be  used by Analytics [processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) to populate Analytics variables. 
  
-Also, you can use a default set of actions and product lists to send or retrieve data with the AEP Web SDK. To do this, see [Products](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html).
+Also, you can use a default set of actions and product lists to send or retrieve data with the [AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 ## Context data
 

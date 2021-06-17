@@ -21,7 +21,7 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
+>[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
 >
 >* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) documentation.
 >* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models will be migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" will not be deprecated - only the two allocation models that appear in calculated metrics will be).
@@ -63,9 +63,9 @@ For the first touch eVar above, all $10 would be given to A. For the prop: A = 1
 |  PROMO C  | $1.67  | $0  | $2.50  |
 |  Total  | $10.00  | $10.00  | $10.00  |
 
-**Summary of how linear allocation works as of July 19, 2018**
+**Summary of how linear allocation works now**
 
-After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50.
+Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50.
 
 |  Values  | New Last Touch eVar  | New First Touch eVar  | New Prop  |
 |---|---|---|---|

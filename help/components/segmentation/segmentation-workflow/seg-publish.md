@@ -90,7 +90,7 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 **Method 1: Use Adobe Experience CLoud Debugger**
 
-1. Download and install [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
+1. Download and install [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
 (`50814298273775797762943354787774730612` in the example below)

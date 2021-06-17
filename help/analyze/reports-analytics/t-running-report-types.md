@@ -10,16 +10,9 @@ exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 
 Steps on running the different report types.
 
-
 ## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
 1. In the report header, click **[!UICONTROL Ranked.]**
@@ -31,12 +24,6 @@ t_reports_ranked.xml
 
 Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
 
 **To run a trended report** 
@@ -44,29 +31,9 @@ Most Conversion and Traffic reports have a Trended view available. Using the [!U
 1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
 
-## Run a Conversion Funnel report {#task_B926A74AA6A641138C2986C1635120CB}
-
-Conversion Funnel reports display the percentage of visitors who progressed through a set of events in order to perform a desired action. For example, you can see how many visitors progressed from visiting your web page, through adding items to a cart, and then to purchasing an item. This report also shows the number who fell out along the way.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
-
-See [Conversion Reports](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) for a description.
-
 ## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. It also shows conversion and fallout rates between each step.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) panel in Analysis Workspace! 
 
@@ -79,10 +46,6 @@ Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 1. Click **[!UICONTROL Run Report]**.
 
    ![Step Result](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Fallout Report Description](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 ## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -106,39 +69,15 @@ For example, the Privacy Policy page could have 10,000 total page views, but onl
 
 The relative percentage is depicted by the relative width of the line. By default, this report displays five 2nd-level branches and five 3rd-level branches. You can expand the number of branches to view up to ten 2nd-level branches and five 3rd-level branches. Doing so increases the height of the report and most likely requires scrolling to view the entire graph.
 
-## Run a Funnel report {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-You can select success events and add them to a [!UICONTROL Purchase Conversion Funnel] report or a [!UICONTROL Product Conversion Funnel] report.
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 
 Marketing Channel reporting provides an overview report of the first and last-touch channel allocation, with standard reporting metrics like revenue, orders, and cost. These reports enable you to analyze how much revenue each channel generates.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 See the [Marketing Channel](/help/components/c-marketing-channels/analyze-mc.md) help system for more information.
 
 ## Run an Anomaly Detection report {#task_4808C96327354D789C075823F5C3A049}
 
 Describes how to interpret the Summary and Individual Metric charts in Anomaly Detection.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Check out the new [Anomaly Detection and Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) features in Analysis Workspace!
 

@@ -121,9 +121,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | India | `65.0.114.116` |
 | India | `65.0.115.179` |
 | India | `65.0.25.111` |
-| India | `13.233.180.137` |
-| India | `65.0.111.130` |
-| India | `52.66.172.181` |
+| India | `3.7.24.204` |
+| India | `3.108.50.194` |
+| India | `3.108.177.136` |
 | Ireland | `18.202.158.78` |
 | Ireland | `54.72.205.114` |
 | Ireland | `54.78.36.71` |

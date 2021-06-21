@@ -88,7 +88,7 @@ There are two ways to capture the AAM UUID currently associated with the browser
 
 The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait & segment membership.
 
-**Method 1: Use Adobe Experience CLoud Debugger**
+**Method 1: Use Adobe Experience Cloud Debugger**
 
 1. Download and install [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in the Chrome Web Store.
 1. Launch the debugger when loading a page.

@@ -5,7 +5,11 @@ exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 ---
 # writeSecureCookies
 
-The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) for Analytics. This setting applies to both visitor ID cookies set by AppMeasurement, and cookies you set using the `Util.CookieWrite()` method. It requires AppMeasurement 2.18.0 or higher.
+The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](https://en.wikipedia.org/wiki/Secure_cookie) for Analytics. This setting applies to both visitor ID cookies set by AppMeasurement, and cookies you set using the `Util.CookieWrite()` method. It requires AppMeasurement 2.18.0 or higher. 
+
+`writeSecureCookies` applies only to cookies set by AppMeasurement JavaScript (`s_fid`, `s_cc` and `s_sq`). Cookies set by `https` response (`s_vi` and `s_ecid`) can be set to secure by contacting Adobe Customer Care. 
+
+Learn more about Analytics cookies [here](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
 
 >[!IMPORTANT]
 >

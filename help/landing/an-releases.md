@@ -31,7 +31,7 @@ Phased releases enable Adobe to better scale the software deployment process and
 
 ## FAQs
 
-|Question|Answer|
-|---|---|
-|Can I request early access to a feature?|No. Early access will not be granted.<br>If you want to test early Analytics concepts, we encourage you to try [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) to provide feedback on our industry-leading innovations.|
-|Does this release strategy affect my access to features?|No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under [!UICONTROL Admin] > [!UICONTROL All admin] > [!UICONTROL Company settings] > [Feature Access Levels](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html).|
+| Question | Answer |
+| --- | --- |
+| Can I request early access to a feature? | No. Early access will not be granted.<br>If you want to test early Analytics concepts, we encourage you to try [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) to provide feedback on our industry-leading innovations. |
+| Does this release strategy affect my access to features? | No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under [!UICONTROL Admin] > [!UICONTROL All admin] > [!UICONTROL Company settings] > [Feature Access Levels](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |

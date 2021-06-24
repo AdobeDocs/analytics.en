@@ -9,7 +9,7 @@ The new landing page for Adobe Analysis brings together both Analysis Workspace 
 
 The new page improves discoverablity and guides Reports & Analytics users to an improved reporting experience in Workspace.
 
-> [!NOTE]
+>[!NOTE]
 >
 >This landing page is currently in Public Beta - it is an optional starting point. If you prefer, you may use your existing landing page, whether that is Workspace or Reports. If you decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter.
 

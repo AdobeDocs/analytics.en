@@ -65,7 +65,7 @@ Settings include:
 |  Last Modified  | Date of last modification to the project.  |
 |  Tags  |Lists any tags applied to a project for easier categorization.  |
 |  Description  | A description is useful for clarifying the purpose of a project. You can double-click the description to edit it.  |
-|  Count repeat instances in project  | Specifies whether repeat instances are counted in reports. Note: this setting does not apply to Flow or Fallout visualizations.  |
+|  Count repeat instances in project  | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive pages views to the same page as multiple page views. With it off, they count as a single page view (this only affects certain metrics, such as Single Page Visits). **Note**: This setting does not apply to Flow or Fallout visualizations.  |
 |  [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)  | You can change the categorical color palette used in Workspace, by choosing from out-of-the-box palettes that have been optimized for color blindness, or by specifying your custom palette. This feature affects many things in Workspace, including most visualizations.  |
 | [View Density](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. |
 

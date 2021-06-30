@@ -1,6 +1,7 @@
 ---
 description: Explains the new continuous feature release strategy for Adobe Analytics
 title: New Adobe Analytics landing page
+
 hide-in-toc: yes
 ---
 # New Adobe Analytics landing page
@@ -15,7 +16,7 @@ The new page improves discoverability and guides Reports & Analytics users to an
 
 ## Access the new landing page {#access-landing}
 
-After you log in to Adobe Experience CLoud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Note that access to the toggle button is user specific, not company specific.
+After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Note that access to the toggle button is user specific, not company specific.
 
 ![](assets/new-landing.png)
 
@@ -26,9 +27,9 @@ The top menu and the left rail have changed.
 ![](assets/top-menus.png)
 
 * Top Analytics menu changes: The **[!UICONTROL Reports]** top menu is no longer there. Most of the reports are now in the [!UICONTROL Reports] menu in the left rail, but more on that later. 
-* The left rail has three tabs: [!UICONTROL Projects], [!UICONTROL Reports], and [!UICONTROL Learning]. We will discuss each of them in more detail in the following sections.
+* The left rail has three tabs: [!UICONTROL Projects]({#navigate-projects}), [!UICONTROL Reports]({#navigate-reports}), and [!UICONTROL Learning]({#navigate-learning}). We will discuss each of them in more detail in the following sections.
 
-## Terminology
+### Terminology
 
 Note some changes to terminology:
 
@@ -50,8 +51,8 @@ Note some changes to terminology:
 | Show less/more | Toggles between not showing/showing the top banner: ![](assets/top-banner.png) |
 | Blank project | Creates a blank [Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) for you to populate. |
 | Blank mobile scorecard | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) for you to populate. |
-| Open Training Tutorial |  |
-| Open release notes |  |
+| Open Training Tutorial | Opens a training tutorial that guides new users through building a project in a step-by-step fashion.|
+| Open release notes | Opens the Adobe Analytics section of the latest Experience Cloud release notes. |
 | Filter icon |  |
 | Search bar |  |
 | Selection box |  |
@@ -63,7 +64,7 @@ Note some changes to terminology:
 | Tags |  |
 | Project Role |  |
 | Report Suite |  |
-| Owner |  |
+| Owner | The person who created the project. |
 | Last opened |  |
 | Column selector |
 
@@ -77,9 +78,22 @@ The [!UICONTROL Reports] tab consolidates three sets of reports:
 
 ![](assets/reports-tab.png)
 
-As previously mentioned, only the most commonly used reports that were formerly grouped in Reports & Analytics are available here. A handful of rarely used or no-longer-relevant reports were not carried over. These are:
+As previously mentioned, only the most commonly used reports that were formerly grouped in Reports & Analytics are available here. A handful of rarely used or no-longer-relevant reports were not migrated over. These are:
 
-* 
+* My Recommended Reports
+* Hourly Unique Visitors
+* Daily Unique Visitors
+* Weekly Unique Visitors
+* Monthly Unique Visitors
+* Quarterly Unique Visitors
+* Yearly Unique Visitors
+
+Here are the new menus and their submenus:
+
+| Menu item | Reports under this menu item | 
+| --- | --- |
+| Most Popular | <ul><li>Training Tutorial (Pre-existing Workspace template)</li><li>Pages (What are my top pages?)</li><li>Page Views (How many page views am I generating?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Key Metrics (How are my most important metrics performing?)</li><li>Site sections (Which sections of my site generated the most interest?</li><li>Next Page (What are the next pages my visitors go to?)</li><li>Previous Page (What are the previous pages my visitors went to?)</li><li>Campaigns (What campaigns are driving my key metrics?)</li><li>Products (What products are driving my key metrics?)</li><li>
+
 
 ## Navigate the Learning tab {#navigate-learning}
 

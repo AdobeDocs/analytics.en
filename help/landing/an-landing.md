@@ -27,7 +27,7 @@ The top menu and the left rail have changed.
 ![](assets/top-menus.png)
 
 * Top Analytics menu changes: The **[!UICONTROL Reports]** top menu is no longer there. Most of the reports are now in the [!UICONTROL Reports] menu in the left rail, but more on that later. 
-* The left rail has three tabs: [!UICONTROL Projects]({#navigate-projects}), [!UICONTROL Reports]({#navigate-reports}), and [!UICONTROL Learning]({#navigate-learning}). We will discuss each of them in more detail in the following sections.
+* The left rail has three tabs: [!UICONTROL Projects], [!UICONTROL Reports], and [!UICONTROL Learning]. We will discuss each of them in more detail in the following sections.
 
 ### Terminology
 
@@ -92,7 +92,7 @@ Here are the new menus and their submenus:
 
 | Menu item | Reports under this menu item | 
 | --- | --- |
-| Most Popular | <ul><li>Training Tutorial (Pre-existing Workspace template)</li><li>Pages (What are my top pages?)</li><li>Page Views (How many page views am I generating?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Key Metrics (How are my most important metrics performing?)</li><li>Site sections (Which sections of my site generated the most interest?</li><li>Next Page (What are the next pages my visitors go to?)</li><li>Previous Page (What are the previous pages my visitors went to?)</li><li>Campaigns (What campaigns are driving my key metrics?)</li><li>Products (What products are driving my key metrics?)</li><li>
+| Most Popular | <ul><li>Training Tutorial (Pre-existing Workspace template)</li><li>Pages (What are my top pages?)</li><li>Page Views (How many page views am I generating?)</li><li>Visits (How many visits am I getting?)</li><li>Visitors (How many visitors am I getting?)</li><li>Key Metrics (How are my most important metrics performing?)</li><li>Site sections (Which sections of my site generated the most interest?</li><li>Next Page (What are the next pages my visitors go to?)</li><li>Previous Page (What are the previous pages my visitors went to?)</li><li>Campaigns (What campaigns are driving my key metrics?)</li><li>Products (What products are driving my key metrics?)</li></ul> |
 
 
 ## Navigate the Learning tab {#navigate-learning}

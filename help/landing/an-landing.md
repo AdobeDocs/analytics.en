@@ -45,35 +45,35 @@ Note some changes to terminology:
 
 | UI element | Definition |
 | --- | --- |
-| **Projects** tab |   |
 | ... More | Lets you [!UICONTROL View Tutorials], [!UICONTROL Manage projects], and [!UICONTROL Edit user preferences]. |
-| Create new | The drop-down menu lets you create a [!UICONTROL Workspace project] or a [!UICONTROL Mobile project]. |
+| Create project | The drop-down menu lets you create a [!UICONTROL Workspace project] or a [!UICONTROL Mobile project]. |
 | Show less/more | Toggles between not showing/showing the top banner: ![](assets/top-banner.png) |
 | Blank project | Creates a blank [Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) for you to populate. |
 | Blank mobile scorecard | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) for you to populate. |
 | Open Training Tutorial | Opens a training tutorial that guides new users through building a project in a step-by-step fashion.|
 | Open release notes | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
-| Filter icon |  |
-| Search bar |  |
-| Selection box |  |
-| Favorites |  |
-| Name |  |
-| Info (i) icon |  |
-| Ellipsis (...) |  |
-| Type |  |
-| Tags |  |
-| Project Role |  |
-| Report Suite |  |
+| Filter icon | You can filter on tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
+| Search bar | The search now includes all columns in the table. |
+| Selection box | Clicking this box next to one or more projects displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. You may not have permissions to perform all of these actions. |
+| Favorites | Favoriting a project puts a star by it and tags it as a favorite that you can filter on.  |
+| Name | The name of the project. |
+| Pin icon | **New** You can now pin items and they will *always* appear at the top of your list. |
+| Info (i) icon | Clicking the info icon shows the following info about this project: Type, Project Role, Owner, Description, and who it is shared with. It also indicates who can edit or duplicate this project.  |
+| Ellipsis (...) | Clicking the ellipsis next to one or more projects displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. You may not have permissions to perform all of these actions. |
+| Type | Indicates whether this is a Workspace project or a Mobile scorecard. |
+| Tags | You can tag reports to organize them into groups. |
+| Project Role | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project. [Learn more]() |
+| Report Suite | Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
 | Owner | The person who created the project. |
-| Last opened |  |
-| Column selector |
+| Last opened | When this project was last opened. |
+| Column selector | If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
 
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports}
 
 The [!UICONTROL Reports] tab consolidates three sets of reports:
 
 * The pre-built [!UICONTROL Workspace] templates that were previously located under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL New]. We will no longer use the word "template" in this context.
-* Most of the pre-built reports under the previous Adobe Analytics [!UICONTROL Reports] menu located at the top.
+* Most of the pre-built reports under the previous Adobe Analytics [!UICONTROL Reports] menu located at the top. These reports are now displayed in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en).
 * Anything your company has built for you.
 
 ![](assets/reports-tab.png)

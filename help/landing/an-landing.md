@@ -62,7 +62,7 @@ Note some changes to terminology:
 | Ellipsis (...) | Clicking the ellipsis next to one or more projects displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. You may not have permissions to perform all of these actions. |
 | Type | Indicates whether this is a Workspace project or a Mobile scorecard. |
 | Tags | You can tag reports to organize them into groups. |
-| Project Role | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project. [Learn more]() |
+| Project Role | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project.  |
 | Report Suite | Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
 | Owner | The person who created the project. |
 | Last opened | When this project was last opened. |

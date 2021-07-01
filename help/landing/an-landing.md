@@ -34,7 +34,7 @@ Note some changes to terminology:
 
 * **[!UICONTROL Projects]** are things that you have built or that someone else has built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 * **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics and templates in Workspace. [!UICONTROL Reports] are also report templates that your company has built for you.
-* **[!UICONTROL Templates]** is no longer used as a term for Adobe-built Workspace projects. They are now under [!UICONTROL Reports].
+* **[!UICONTROL Templates]** is no longer used as a term for Adobe's pre-built Workspace projects. They are now under [!UICONTROL Reports].
 
 ## Navigate the [!UICONTROL Projects] tab {#navigate-projects}
 
@@ -97,10 +97,11 @@ Here are the new menus and their submenus. If you cannot find a specific report,
 
 ### Use the Reports tab
 
-For current users of Reports & Analytics, here is a short intro on how to use the reports you are used to within Workspace.
+For current users of Reports & Analytics, here is a short intro on how to use the reports you are used to and that now display within Workspace.
 
-1. Click the report you want to view, for example, under [!UICONTROL Most popular], click the [!UICONTROL Pages] report.
-1. To the right, click Open report.
+1. Go to the [!UICONTROL Reports] tab.
+1. Select the report you want to view, for example, under [!UICONTROL Most popular], select the [!UICONTROL Pages] report.
+1. To the right, click **[!UICONTROL Open report]**.
 
    ![](assets/pages-report.png)
 
@@ -110,13 +111,14 @@ For current users of Reports & Analytics, here is a short intro on how to use th
    * You can use the report as is.
    * You can drag one or more segments into the Segment drop zone at the top. For example, drag the segment [!UICONTROL Mobile Customers] and watch the results change. 
    * You can change the date range by going to the calendar at the top right.
-   * YOu can 
+   * You can add dimension breakdowns, drag in other metrics, and generally customize the report in any way you wish.
 
 More learning options:
 
-* Notice that you have access to a 20-minute video overview of Analysis Workspace at the top left.
-* Here is a link to the complete Analysis Workspace 
-
+* Notice that you have access to a 20-minute video overview of Analysis Workspace at the top left of any report you open.
+* For new users, we recommend the [Training Tutorial](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) video that walks you through building a new project.
+* Here is a link to the [complete Analysis Workspace documentation](/help/analyze/analysis-workspace/home.md).
+* Here is the complete [YouTube playlist for Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
 ## Navigate the Learning tab {#navigate-learning}
 

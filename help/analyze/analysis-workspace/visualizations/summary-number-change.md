@@ -26,17 +26,6 @@ Click the **Visualization settings** gear in to the top right to configure the S
 | Abbreviate value | Choose to abbreviate values and show up to 3 decimal places.|
 | Summarize value by | Choose to display the max, min, mean, median, or sum for a selection of data.|
 
-
-Click the **Visualization settings** gear in to the top right to configure the Summary Number settings: 
-
-| Setting | Definition |
-|--- |--- |
-| Percentages | Display percentages instead of raw numbers.|
-| Legend visible | Display information about the metric displayed.|
-| Abbreviate value | Choose to abbreviate values and show up to 3 decimal places.|
-| Summarize value by | Choose to display the max, min, mean, median, or sum for a selection of data.|
-
-
 ## Summary Change visualization {#summary-change}
 
 Use the Summary Change visualization to show the delta (change) between two numbers. The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.

@@ -21,4 +21,4 @@ Following are some best practices for data feed processing and delivery.
 
 * If you automate your feed ingestion process, consider the possibility that hits and files can be transferred more than once. Your feed ingestion process needs to handle duplicate hits and duplicate files without erroring out or duplicating data. We recommend using the combination of the `hitid_high` and `hitid_low` columns to uniquely identify a hit.
 
-  In rare cases, you may see duplicate `hitid_high` and `hitid_low` values. If this happens, confirm the file was not previously sent and processed. If only some of the rows in a file are duplicate, consider adding `visit_num` and visit_page_num` to help determine uniqueness.
+  In rare cases, you may see duplicate `hitid_high` and `hitid_low` values. If this happens, confirm the file was not previously sent and processed. If only some of the rows in a file are duplicate, consider adding `visit_num` and `visit_page_num` to help determine uniqueness.

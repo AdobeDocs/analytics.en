@@ -7,6 +7,7 @@ user-guide-title: Adobe Analytics Documentation
 # Adobe Analytics Documentation {#landing}
 
 * [Home](home.md)
+* [New Analytics landing page](an-landing.md)
 * [Adobe Analytics key concepts](an-key-concepts.md)
 * [Tools guide](https://experienceleague.adobe.com/docs/analytics/analyze/home.html)
 * [Admin guide](https://experienceleague.adobe.com/docs/analytics/admin/home.html)

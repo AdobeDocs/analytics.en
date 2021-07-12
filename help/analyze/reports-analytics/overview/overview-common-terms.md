@@ -1,5 +1,5 @@
 ---
-description: An introduction to commonly used web analytics terms used in marketing reports.
+description: An introduction to commonly used marketing analytics terms used in Reports & Analytics.
 title: Common Terms
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Reports & Analytics Basics,Reports and analytics
@@ -40,7 +40,7 @@ An introduction to commonly used Adobe Analytics terms used.
   </tr> 
   <tr> 
    <td> <p>Visit </p> </td> 
-   <td> <p>A sequence of page views in a sitting. The visit ends only after 30 minutes of inactivity or after 12 hours of continuous activity. (This time measurement is the web analytics industry standard.) Visits are tracked by cookies. A visit begins when a viewer accesses a page. A visit is sometimes referred to as a <span class="term"> session</span>, but it is not a browser session. Going to a different site, closing the browser, or even rebooting the computer does not end a visit. </p> <p> If the inactivity time-out occurs while a visitor is reading a page, the visit closes and is processed. A new visit starts when the visitor clicks through to another page. </p> <p>If the date changes during a visit, such as when visiting a site at midnight, the visit is attributed to the day on which the visit began. </p> </td> 
+   <td> <p>A sequence of page views in a sitting. The visit ends only after 30 minutes of inactivity or after 12 hours of continuous activity. (This time measurement is the marketing analytics industry standard.) Visits are tracked by cookies. A visit begins when a viewer accesses a page. A visit is sometimes referred to as a <span class="term"> session</span>, but it is not a browser session. Going to a different site, closing the browser, or even rebooting the computer does not end a visit. </p> <p> If the inactivity time-out occurs while a visitor is reading a page, the visit closes and is processed. A new visit starts when the visitor clicks through to another page. </p> <p>If the date changes during a visit, such as when visiting a site at midnight, the visit is attributed to the day on which the visit began. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Unique Visitor </p> </td> 
@@ -56,7 +56,7 @@ An introduction to commonly used Adobe Analytics terms used.
   </tr> 
   <tr> 
    <td> <p>Conversion (Success) Events </p> </td> 
-   <td> <p>Conversion events are the activities on your site that you want people to do (key performance indicators). For an e-commerce site, conversion events might be a detailed product view, a checkout, or a purchase. For a lead generation site, the event might be a form completion. Conversion events are counted on the site and have their own reports that show how many of them happened. These events also become metrics to put in other reports and can show why the conversion events happened, or what contributed to their happening. </p> <p>The exception to the rule of one event becoming one metric is the Purchase event, which spawns three metrics: Revenue, Orders and Units. </p> <p>More conversion metrics exist that are not defined here, but conversion metrics form the foundation of your Web analytics, upon which other metrics and reports are built. </p> </td> 
+   <td> <p>Conversion events are the activities on your site that you want people to do (key performance indicators). For an e-commerce site, conversion events might be a detailed product view, a checkout, or a purchase. For a lead generation site, the event might be a form completion. Conversion events are counted on the site and have their own reports that show how many of them happened. These events also become metrics to put in other reports and can show why the conversion events happened, or what contributed to their happening. </p> <p>The exception to the rule of one event becoming one metric is the Purchase event, which spawns three metrics: Revenue, Orders and Units. </p> <p>More conversion metrics exist that are not defined here, but conversion metrics form the foundation of your marketing analytics, upon which other metrics and reports are built. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Channel </p> </td> 

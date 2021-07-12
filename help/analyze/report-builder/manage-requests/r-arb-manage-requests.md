@@ -3,7 +3,7 @@ description: Field descriptions for Manage Requests in Report Builder.
 title: Manage requests - definitions
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 ---
 # Manage requests - definitions

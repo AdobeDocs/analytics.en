@@ -3,7 +3,7 @@ description: You can specify a date range by selecting cells from a worksheet th
 title: Dates from a cell
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
 ---
 # Dates from a cell

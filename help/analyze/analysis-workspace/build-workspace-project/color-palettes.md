@@ -2,7 +2,7 @@
 description: How to use the visualization color palette in Analysis Workspace
 title: What are Visualization Color Palettes and How do they Work?
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 ---
 # Visualization Color Palettes

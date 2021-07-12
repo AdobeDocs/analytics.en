@@ -3,7 +3,7 @@ description: After running a report, you can customize the report to view and an
 title: Customize reports overview
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 ---
 # Customize reports overview

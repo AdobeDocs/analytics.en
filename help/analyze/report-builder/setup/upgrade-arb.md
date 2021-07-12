@@ -3,7 +3,7 @@ description: Steps for and considerations regarding upgrading Report Builder.
 title: Upgrade Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 ---
 # Upgrade Report Builder

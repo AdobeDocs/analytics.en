@@ -3,7 +3,7 @@ description: Video discussing pagination, filtering and sorting.
 title: Pagination, filtering and sorting tables
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: Freeform Tables
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 ---
 # Pagination, filtering and sorting tables

@@ -3,7 +3,7 @@ description: You can schedule report requests, specify advanced delivery options
 title: Schedule report requests
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: bbc1137d-5549-4f2f-9d67-7165a9970c77
 ---
 # Schedule a report request

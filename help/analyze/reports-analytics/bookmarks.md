@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Bookmark Manager
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 ---
 # Bookmark Manager

@@ -3,7 +3,7 @@ description: Conversion ratios usually measure conversion between the starting, 
 title: Conversion Funnel
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 ---
 # Conversion Funnel

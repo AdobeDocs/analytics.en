@@ -3,7 +3,7 @@ description: Steps to help you select a report suite from the existing request.
 title: Select a report suite from an existing request in Excel
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e53f96d2-57e3-4d32-bc08-8e941250297b
 ---
 # Select a report suite from an existing request in Excel

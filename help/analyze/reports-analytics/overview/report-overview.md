@@ -3,7 +3,7 @@ description: An introduction to the features of a report, including the toolbar,
 title: Report Features
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 ---
 # Report Features

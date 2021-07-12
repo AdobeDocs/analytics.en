@@ -2,7 +2,7 @@
 description: Data inconsistencies can cause big problems. Learn how to identify statistical anomalies with anomaly detection techniques from Adobe. Get started today.
 title: Statistical techniques used in anomaly detection
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 ---
 # Statistical techniques used in anomaly detection

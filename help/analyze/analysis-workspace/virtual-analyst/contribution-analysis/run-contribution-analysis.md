@@ -3,7 +3,7 @@ description: Run a Contribution Analysis report in a Workspace project.
 title: Run Contribution Analysis
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 ---
 # Run Contribution Analysis

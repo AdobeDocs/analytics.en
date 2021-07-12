@@ -2,7 +2,7 @@
 description: List of error messages in Adobe Analysis Workspace and its related components
 title: Common error messages in Analysis Workspace
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 ---
 # Common error messages

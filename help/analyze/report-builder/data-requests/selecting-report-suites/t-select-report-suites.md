@@ -3,7 +3,7 @@ description: Steps to help you select a report suite in Excel.
 title: Select a report suite
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f9fd18a6-2c03-468a-a022-9f4d263f166d
 ---
 # Select a report suite

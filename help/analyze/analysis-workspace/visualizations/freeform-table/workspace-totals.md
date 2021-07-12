@@ -2,7 +2,7 @@
 description: How Workspace totals are calculated.
 title: Workspace totals
 feature: Freeform Tables
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 ---
 # Workspace totals

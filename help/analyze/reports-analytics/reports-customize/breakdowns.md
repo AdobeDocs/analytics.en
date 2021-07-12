@@ -3,7 +3,7 @@ description: Use breakdowns when you want to know more about how a report item o
 title: Breakdowns
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 ---
 # Breakdowns

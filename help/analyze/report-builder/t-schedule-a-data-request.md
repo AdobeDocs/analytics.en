@@ -3,7 +3,7 @@ description: You can schedule reports to send according to the time and file for
 title: Schedule a data request
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 ---
 # Schedule workbooks

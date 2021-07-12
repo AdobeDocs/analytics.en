@@ -2,7 +2,7 @@
 description: Learn about freeform panels
 title: Freeform panel
 feature: Panels
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
 ---
 # Freeform panel

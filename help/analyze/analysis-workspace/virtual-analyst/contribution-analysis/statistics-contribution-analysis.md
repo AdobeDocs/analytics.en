@@ -3,7 +3,7 @@ description: Contribution Analysis is an intensive machine learning process desi
 title: Statistical techniques used in Contribution Analysis
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 ---
 # Statistical techniques used in Contribution Analysis

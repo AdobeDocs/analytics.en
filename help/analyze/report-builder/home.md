@@ -2,7 +2,7 @@
 title: Report Builder for Adobe Analytics
 description: Use Report Builder to bring Adobe Analytics data directly into Microsoft Excel. Find out how installing and using Report Builder can boost your business.
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 ---
 # What is Report Builder?

@@ -3,7 +3,7 @@ description: Keyboard interactions, shortcut keys and point-and-click behaviors 
 keywords: Analysis Workspace
 title: Hotkeys (shortcuts)
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 ---
 # Hotkeys (shortcuts)

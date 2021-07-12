@@ -2,7 +2,7 @@
 title: Attribution models and lookback windows
 description: How different types of attribution divide credit between dimension items.
 feature: Attribution
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 ---
 # Attribution models and lookback windows

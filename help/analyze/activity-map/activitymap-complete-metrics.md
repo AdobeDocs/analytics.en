@@ -3,7 +3,7 @@ description: Allows you to access a complete set of metrics from Adobe Analytics
 title: Complete set of metrics
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6de4ef4d-913d-4c66-916e-56cc81f1e6c7
 ---
 # Complete set of metrics

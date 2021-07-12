@@ -3,7 +3,7 @@ description: Filters allow you to narrow the report to include or exclude line i
 title: Filtering Report Data
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 ---
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}

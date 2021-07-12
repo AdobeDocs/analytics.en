@@ -3,7 +3,7 @@ description: This Workspace visualization is like a line graph, but with a color
 title: Area and area stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 ---
 # Area and area stacked

@@ -3,7 +3,7 @@ description: In the same way that you copy and paste requests, you can also relo
 title: Copy adjacent requests
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 ---
 # Copy adjacent requests

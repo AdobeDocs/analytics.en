@@ -3,7 +3,7 @@ description: This ability further integrates Report Builder usage within the nat
 title: Invoke Report Builder functionality from Microsoft Excel functions
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 ---
 # Invoke Report Builder functionality from Microsoft Excel functions

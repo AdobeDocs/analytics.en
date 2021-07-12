@@ -2,7 +2,7 @@
 description: Learn about the different save options, including autosave, save as, save as template, and open previous versions.
 title: Save projects
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 ---
 # Save projects

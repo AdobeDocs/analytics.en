@@ -3,7 +3,7 @@ description: You can filter on dimensions that you add to the Row Labels grid. F
 title: Filter dimensions overview
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 ---
 # Filter dimensions overview

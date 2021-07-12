@@ -3,7 +3,7 @@ description: Factors that will impact Workspace performance and optimizations yo
 title: Analysis Workspace performance factors and optimization
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
 ---
 # Optimize [!UICONTROL Analysis Workspace performance]

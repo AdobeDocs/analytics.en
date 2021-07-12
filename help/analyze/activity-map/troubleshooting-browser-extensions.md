@@ -3,7 +3,7 @@ description: Lists the browser parameters that are not compatible with the use o
 title: Troubleshooting browser extensions
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0d91180c-a53b-4ee8-b441-43d936c98133
 ---
 # Troubleshoot browser extensions

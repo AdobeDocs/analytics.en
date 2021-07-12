@@ -3,7 +3,7 @@ description: Send an Analysis Workspace project via email or schedule it for del
 keywords: Analysis Workspace
 title: Schedule projects
 feature: Curate and Share
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
 # Schedule projects

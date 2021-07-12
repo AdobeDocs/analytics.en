@@ -3,7 +3,7 @@ description: How to add, edit, apply, and filter Adobe Analytics segments in Rep
 title: Manage segments
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 ---
 # Manage segments

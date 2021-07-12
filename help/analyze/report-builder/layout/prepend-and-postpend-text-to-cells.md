@@ -3,7 +3,7 @@ description: In Pivot and Custom Layout requests, for numeric or string values, 
 title: Prepend and postpend text to cells
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 ---
 # Prepend and postpend text to cells

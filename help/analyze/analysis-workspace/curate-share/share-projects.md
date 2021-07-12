@@ -3,7 +3,7 @@ description: Project sharing and project roles in Workspace
 keywords: Analysis Workspace sharing
 title: Share projects
 feature: Curate and Share
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
 # Share projects

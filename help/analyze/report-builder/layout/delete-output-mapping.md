@@ -3,7 +3,7 @@ description: If you are editing your workbook and want to make room for new requ
 title: Delete output mapping
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
 ---
 # Delete output mapping

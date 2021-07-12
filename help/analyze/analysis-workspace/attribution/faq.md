@@ -2,7 +2,7 @@
 title: Attribution FAQ
 description: Get answers to commonly asked questions around attribution.
 feature: Attribution
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 ---
 # Attribution FAQ

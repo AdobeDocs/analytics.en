@@ -3,7 +3,7 @@ description: Create workspace projects based on standard or custom templates.
 title: Templates
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 ---
 # Templates

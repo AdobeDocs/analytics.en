@@ -2,7 +2,7 @@
 title: Report Builder FAQ
 description: Frequently asked questions for Report Builder.
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 ---
 # Report Builder FAQ

@@ -2,7 +2,7 @@
 title: Labs User Guide
 description: Preview prototype projects for Adobe Analytics
 feature: Labs
-role: Administrator
+role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 ---
 # [!UICONTROL Labs] User Guide

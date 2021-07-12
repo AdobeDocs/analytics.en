@@ -3,7 +3,7 @@ description: The Page Details tab displays the Page Report as a table and the Pa
 title: Page details
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
 ---
 # Page details

@@ -2,7 +2,7 @@
 title: Troubleshoot Activity Map data collection
 description: Determine why you cannot see Activity Map data in image requests
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 ---
 # Troubleshoot Activity Map data collection

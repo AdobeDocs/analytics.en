@@ -2,7 +2,7 @@
 description: Implement Activity Map using Launch
 title: Implement Activity Map
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
 ---
 # Implement Activity Map

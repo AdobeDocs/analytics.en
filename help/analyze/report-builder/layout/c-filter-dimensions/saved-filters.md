@@ -3,7 +3,7 @@ description: You can save filters or other parameters in report builder and use 
 title: Saved filters
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
 ---
 # Saved filters

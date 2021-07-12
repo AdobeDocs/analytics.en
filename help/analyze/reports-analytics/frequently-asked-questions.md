@@ -3,7 +3,7 @@ description: Provides answers and troubleshooting suggestions to some of the mos
 keywords: Troubleshooting Analytics
 title: Frequently Asked Questions
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 ---
 # Frequently Asked Questions

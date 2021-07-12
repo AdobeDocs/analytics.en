@@ -3,7 +3,7 @@ description: In the calendar, you can specify dates and date ranges, or select a
 title: Calendar and date ranges overview
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 ---
 # Calendar and date ranges overview

@@ -3,7 +3,7 @@ description: The Venn visualization lets you drag in up to 3 segments (from Comp
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 ---
 # Venn

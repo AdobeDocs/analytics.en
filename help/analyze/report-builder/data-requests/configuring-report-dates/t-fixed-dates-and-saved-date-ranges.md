@@ -3,7 +3,7 @@ description: When you specify a fixed date or date range, report builder display
 title: Fixed dates and saved date ranges
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b850197e-b3bd-4318-a827-61faa41b2db3
 ---
 # Fixed dates and saved date ranges

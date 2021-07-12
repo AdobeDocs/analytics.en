@@ -62,7 +62,7 @@ Note some changes to terminology:
 | Name | The name of the project. |
 | Pin icon | **New** You can now pin items and they will *always* appear at the top of your list. |
 | Info (i) icon | Clicking the info icon shows the following info about this project: Type, Project Role, Owner, Description, and who it is shared with. It also indicates who can [edit or duplicate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) this project. |
-| Ellipsis (...) | Clicking the ellipsis next to a project displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. You may not have permissions to perform all of these actions. |
+| Ellipsis (...) | Clicking the ellipsis next to a project displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. Note that you may not have permissions to perform all of these actions. |
 | Type | Indicates whether this is a Workspace project or a Mobile scorecard. |
 | Tags | You can tag reports to organize them into groups. |
 | Project Role | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project.  |

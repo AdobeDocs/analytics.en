@@ -1,7 +1,7 @@
 ---
-description: Explains the new continuous feature release strategy for Adobe Analytics
+description: Explains how the new landing page brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella.
 title: New Adobe Analytics landing page
-hide-in-toc: yes
+role: User, Admin
 ---
 # New Adobe Analytics landing page
 

@@ -7,7 +7,7 @@ hide-in-toc: yes
 
 The new landing page for Adobe Analysis brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella. It features a new project manager home page, an updated reports menu and modernized reports, as well as a new learning section to help you with getting started more effectively.
 
-The new page improves discoverablity and guides Reports & Analytics users to an improved reporting experience in Workspace.
+The new page improves discoverability and guides Reports & Analytics users to an improved reporting experience in Workspace.
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ description: A histogram is a new visualization type in Analysis Workspace.
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
 # Histogram

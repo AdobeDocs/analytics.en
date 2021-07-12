@@ -3,7 +3,7 @@ description: Copy a simple request rather than a referential request. A simple r
 title: Copy simple requests
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 ---
 # Copy simple requests

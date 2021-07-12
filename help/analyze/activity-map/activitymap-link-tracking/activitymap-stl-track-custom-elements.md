@@ -2,7 +2,7 @@
 title: Use the tl() method with Activity Map
 description: You can use the tl() method to track custom elements and to configure overlay rendering for dynamic content.
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e4e32de7-0e46-413a-abc9-9707e273903d
 ---
 # Use the `tl()` method with Activity Map

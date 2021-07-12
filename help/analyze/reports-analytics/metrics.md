@@ -3,7 +3,7 @@ description: Metrics are the foundation of reports and help you view and underst
 title: Metrics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 ---
 # Metrics

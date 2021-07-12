@@ -3,7 +3,7 @@ description: Targets let you measure your website performance and track progress
 title: Targets
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 ---
 # [!UICONTROL Targets] {#concept_6516E81923E845198B7FC5D8F81DC35C}

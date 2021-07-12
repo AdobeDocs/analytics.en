@@ -3,7 +3,7 @@ description: Classification breakdowns are used to map analytics reporting data 
 title: Classification
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
 ---
 # Classifications

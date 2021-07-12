@@ -3,7 +3,7 @@ description: Lets you apply a multiple-segment filter within Activity Map.
 title: Customer segmentation
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
 ---
 # Customer segmentation

@@ -3,7 +3,7 @@ description: Learn how to create shareable links to projects or visualizations
 keywords: Analysis Workspace sharing
 title: Create shareable links
 feature: Curate and Share
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 ---
 # Create shareable links

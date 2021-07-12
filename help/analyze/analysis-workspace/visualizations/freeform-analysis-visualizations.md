@@ -3,7 +3,7 @@ description: Visually represent your data with visualizations.
 keywords: Analysis Workspace
 title: Visualizations overview
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 ---
 # Visualizations overview

@@ -2,7 +2,7 @@
 title: Algorithmic attribution
 description: Details on the algorithmic attribution model.
 feature: Attribution
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 ---
 # Algorithmic attribution

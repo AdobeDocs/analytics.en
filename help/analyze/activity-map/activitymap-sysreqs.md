@@ -3,7 +3,7 @@ description: Activity Map is supported on the following web browsers.
 title: Supported systems and requirements
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
 ---
 # Supported systems and requirements

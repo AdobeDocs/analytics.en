@@ -3,7 +3,7 @@ description: You can protect all requests in a workbook against adding and editi
 title: Lock/unlock workbooks
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 ---
 # Lock/unlock workbooks

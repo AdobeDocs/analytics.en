@@ -2,7 +2,7 @@
 description: Instructions for setting up the dashboards scorecards.
 title: Adobe Analytics dashboards curator guide
 feature: Analytics Dashboards
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
 ---
 # Curator’s guide for Adobe Analytics dashboards

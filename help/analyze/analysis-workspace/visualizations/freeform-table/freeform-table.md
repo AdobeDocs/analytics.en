@@ -2,7 +2,7 @@
 title: Freeform table
 description: Freeform tables are the foundation for data analysis in Workspace
 feature: Freeform Tables
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 ---
 # Freeform table

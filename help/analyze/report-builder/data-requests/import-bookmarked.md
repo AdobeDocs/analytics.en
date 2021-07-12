@@ -3,7 +3,7 @@ description: All bookmarked reports and dashboard reports are now listed as dime
 title: Import bookmarked reports and dashboard reportlets
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
 ---
 # Import bookmarked reports and dashboard reportlets

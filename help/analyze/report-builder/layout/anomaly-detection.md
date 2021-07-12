@@ -3,7 +3,7 @@ description: Anomaly detection uses statistical modeling to automatically find u
 title: Anomaly Detection
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 ---
 # Anomaly Detection{#anomaly-detection}

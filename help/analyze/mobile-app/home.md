@@ -2,7 +2,7 @@
 title: Adobe Analytics dashboards - Overview
 description: Product documentation and self-help for Adobe Analytics dashboards
 feature: Analytics Dashboards
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 ---
 # Adobe Analytics [!UICONTROL dashboards] - Overview

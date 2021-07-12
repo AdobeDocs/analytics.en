@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Administration requirements
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 feature: Workspace Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
 ---
 # Administration requirements

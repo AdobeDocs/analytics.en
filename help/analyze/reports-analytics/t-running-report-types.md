@@ -3,7 +3,7 @@ description: Steps on running the different report types.
 title: Run different report types
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 ---
 # Run different report types

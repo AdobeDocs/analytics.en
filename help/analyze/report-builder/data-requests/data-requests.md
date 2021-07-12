@@ -2,7 +2,7 @@
 description: The first step when creating a request in Report Builder.
 title: Data requests - Request Wizard Step 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 ---
 # Data requests - Request Wizard Step 1

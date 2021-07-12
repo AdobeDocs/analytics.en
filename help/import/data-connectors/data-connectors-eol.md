@@ -38,12 +38,12 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Apteligent | Deprecating| 
 | BlueHornet eMarketing Suite | Deprecating | 
 | Branch | Migrating to Exchange |
-| BrightEdge 2.0 | Deprecating |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Deprecating |
 | Bronto Software | Deprecating| 
 | CheetahMail by Experian | Migrating to Exchange |
 | ClickTale | Deprecating |
 | Clicktale CA | Deprecating |
-| Conductor 2.0 | Deprecating |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | Deprecating |
 | ContactLab 2.0 (Contact Send Connector) | Deprecating |
 | Coradiant TrueSight | Deprecating |
 | D&B Visitor Intelligence | Deprecating |
@@ -56,7 +56,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | DialogTech | Available on Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Deprecating |
 | DREAM | Deprecating |
-| DREAMmail 2.0 | Deprecating | 
+| DREAMmail 1.0, DREAMmail 2.0 | Deprecating | 
 | Dynamic Signal (Nital Vora) | Migrating to Exchange |
 | eDialog Precision Central | Deprecating |
 | eC-messenger | Deprecating |
@@ -64,10 +64,11 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | emarsys xpress | Deprecating |
 | Epsilon Harmony | Migrating to Exchange |
 | EveryoneSocial for Adobe Analytics | Deprecating |
+| ExactTarget, ExactTarget 2.0 | Deprecating |
 | Fiksu | Deprecating |
-| Foresee (v2.0) | Deprecating |
-| Foresee Feedback | Deprecating |
+| Foresee (v2.0), Foresee Feedback, Foresee Results | Deprecating |
 | Gigya | Deprecating |
+| Hootsuite | Deprecating |
 | hybris | Deprecating |
 | Kampyle (now Medallia) Feedback Analytics (1.1) | Deprecating |
 | Listrak | Migrating to Exchange |
@@ -77,11 +78,13 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Official Oracle Eloqua Integration | Migrating to Exchange |
 | optivo broadmail (Episerver) | Deprecating |
 | Qualtrics v2 | Migrating to Exchange |
-| Responsys 2.0 | Deprecating |
+| Responsys 1.0, Responsys 2.0 | Deprecating |
+| Salesforce.com | Deprecating |
 | Selligent | Deprecating |
-| seoClarity 2.0 | Deprecating |
+| seoClarity, seoClarity 2.0 | Deprecating |
 | Silverpop Engage (v2.0) | Deprecating |
 | Sizmek | Deprecating |
+| SmartFOCUS Digital | Deprecating |
 | SpotEffects | Deprecating |
 | StrongMail Systems, Inc | Deprecating |
 | Syngergy!360 | Deprecating |
@@ -92,9 +95,10 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | WhatCounts Email | Deprecating |
 | wywy | Deprecating |
 | Yesmail Enterprise | Deprecating |
+| Zeta Interactive | Deprecating |
 
 ## Exception: Adobe Campaign Classic
 
 The ONE exception to the August 1, 2021 date is the Adobe Campaign Classic integration. This integration will officially be deprecated on March 1, 2022. 
 
-On August 1, 2021, Adobe Campaign Classic will be removed from the Data Connectors UI along with all other integrations; however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. Adobe Campaign is building a new integration on Adobe Exchange to replace the current Data Connectors Integration. Adobe Campaign anticipates finishing this new integration in time to give customers to migrate to the new integration before the deprecation date in March 2022.
+On August 1, 2021, Adobe Campaign Classic will be removed from the Data Connectors UI along with all other integrations; however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. If you are using this integration, you need to move to the new Campaign-Analytics connector before March 1, 2022. Learn more in [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).

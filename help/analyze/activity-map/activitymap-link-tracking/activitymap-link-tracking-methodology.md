@@ -3,7 +3,7 @@ description: This section is intended for Adobe Analytics Administrators. It foc
 title: Link tracking methodology
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 ---
 # Link tracking methodology

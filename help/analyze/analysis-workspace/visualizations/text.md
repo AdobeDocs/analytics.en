@@ -3,7 +3,7 @@ description: Lets you add user-defined text to your Workspace.
 title: Text
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 ---
 # Text

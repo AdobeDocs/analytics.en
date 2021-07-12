@@ -3,7 +3,7 @@ description: In the Custom Layout, you can turn a metric column into a bar chart
 title: Create a microchart
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a53f0d22-9edf-4040-a40b-bdd920a670f5
 ---
 # Create a microchart

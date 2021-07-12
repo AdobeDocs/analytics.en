@@ -2,7 +2,7 @@
 title: Attribution panel
 description: How to use and interpret the attribution panel in Analysis Workspace.
 feature: Attribution
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 ---
 # Attribution panel

@@ -2,7 +2,7 @@
 title: Intelligent Data Smoothing
 description: Learn how Intelligent Data Smoothing analyzes historical trends to predict the value of any metric within an affected time period.
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 ---
 # Intelligent Data Smoothing
 

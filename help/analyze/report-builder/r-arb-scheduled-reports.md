@@ -3,7 +3,7 @@ description: Field descriptions for the Scheduled Task Manager.
 title: Scheduled Task Manager
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 ---
 # Scheduled Task Manager

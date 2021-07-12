@@ -3,7 +3,7 @@ description: View-only projects in Workspace
 keywords: View-only projects
 title: View-only projects
 feature: Curate and Share
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 ---
 # View-only projects

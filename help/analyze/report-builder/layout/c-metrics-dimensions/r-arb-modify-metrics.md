@@ -3,7 +3,7 @@ description: Field descriptions for configuring metrics in Report Builder.
 title: Modify metrics - field definitions
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3d2ebd3f-9090-4de6-8da9-50a2640ffaf2
 ---
 # Modify metrics - field definitions

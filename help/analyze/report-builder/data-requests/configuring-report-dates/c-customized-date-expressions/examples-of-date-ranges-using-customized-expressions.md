@@ -3,7 +3,7 @@ description: Examples, notes, and syntax notes about using date ranges in custom
 title: Examples of date ranges using customized expressions
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 ---
 # Examples of date ranges using customized expressions

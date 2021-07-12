@@ -3,7 +3,7 @@ description: You can curate, share and schedule PDF/CSV projects to recipients i
 title: Share menu
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 feature: Curate and Share
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 ---
 # Share menu

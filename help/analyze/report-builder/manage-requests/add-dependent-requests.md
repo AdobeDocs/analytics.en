@@ -3,7 +3,7 @@ description: A dependent request is a request that is dependent upon an existing
 title: Add dependent requests
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
 ---
 # Add dependent requests

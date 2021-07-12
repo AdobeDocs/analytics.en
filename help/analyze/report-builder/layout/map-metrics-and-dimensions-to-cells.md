@@ -3,7 +3,7 @@ description: Before you begin to map items to the spreadsheet, ensure that your 
 title: Map metrics and dimensions to cells
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 ---
 # Map metrics and dimensions to cells

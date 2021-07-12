@@ -2,7 +2,7 @@
 description: Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
 title: Getting started with Reports and Analytics
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
 # Get started with Reports & Analytics

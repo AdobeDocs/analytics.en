@@ -3,7 +3,7 @@ description: Data extracts let you choose the parameters you will view on both t
 subtopic: Schedule
 title: Data extract
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 ---
 # Data extract

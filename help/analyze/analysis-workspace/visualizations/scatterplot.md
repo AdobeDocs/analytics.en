@@ -2,7 +2,7 @@
 title: Scatterplot
 description: A visualization that shows the relationship between up to three metrics.
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 ---
 # Scatterplot

@@ -3,7 +3,7 @@ description: Learn how to sign in to Report Builder using your Experience Cloud 
 title: How to Sign In to Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 ---
 # Report Builder Sign-In

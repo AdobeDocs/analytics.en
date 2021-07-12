@@ -3,7 +3,7 @@ description: Activity Map provides two basic modes to provide complementary repo
 title: Standard Mode vs. Live Mode
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
 ---
 # Standard Mode vs. Live Mode

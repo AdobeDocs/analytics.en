@@ -3,7 +3,7 @@ description: Use the map visualization in a Workspace project.
 title: Map
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 ---
 # Map

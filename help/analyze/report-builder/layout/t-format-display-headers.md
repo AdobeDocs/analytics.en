@@ -3,7 +3,7 @@ description: You can name your report and configure how to display row and colum
 title: Format display headers
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 ---
 # Format display headers

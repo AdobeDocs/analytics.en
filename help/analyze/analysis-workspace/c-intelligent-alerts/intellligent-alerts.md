@@ -3,7 +3,7 @@ description: The new Intelligent Alerts system allows for more granular control 
 title: Intelligent Alerts overview
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 ---
 # Intelligent Alerts overview

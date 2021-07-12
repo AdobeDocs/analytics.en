@@ -2,7 +2,7 @@
 title: Dynamic vs static dimension items in freeform tables
 description: How to interact with dynamic and static dimension items in tables.
 feature: Freeform Tables
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 ---
 # Dynamic vs static dimension items in freeform tables

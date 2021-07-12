@@ -2,7 +2,7 @@
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
 title: Report display settings and navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
 # Report display settings and navigation

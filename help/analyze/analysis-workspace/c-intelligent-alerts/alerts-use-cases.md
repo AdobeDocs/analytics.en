@@ -3,7 +3,7 @@ description: Use cases for intelligent alerts.
 title: Intelligent Alerts - use cases
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
 ---
 # Intelligent Alerts - use cases

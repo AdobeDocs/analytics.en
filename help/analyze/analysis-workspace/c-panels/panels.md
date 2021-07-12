@@ -2,7 +2,7 @@
 description: A panel is a collection of tables and visualizations
 title: Panels overview
 feature: Panels
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 ---
 # Panels overview

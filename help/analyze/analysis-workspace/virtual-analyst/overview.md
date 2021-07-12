@@ -2,7 +2,7 @@
 title: Virtual Analyst
 description: Learn what features in Adobe Analytics contribute to the Virtual Analyst.
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
 ---
 # Virtual Analyst

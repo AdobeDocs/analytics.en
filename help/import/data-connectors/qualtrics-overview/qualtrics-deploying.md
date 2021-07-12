@@ -26,6 +26,7 @@ To activate the integration you must complete the Qualtrics integration wizard w
    |  Adobe SiteCatalyst Token  | [Generating your Qualtrics Adobe Analytics Token](../qualtrics-overview/qualtrics-token.md)  |
 
 1. **Wizard Step 2 - Variable Mappings**
+
    |  Qualtrics Response List  | Select an available list variable from your report suite. (You may need to enable a new listVar within the Report Suite Manager.)  |
    |---|---|
    |  Qualtrics Response ID  | Select an available eVar or prop from your report suite. (You may need to enable a new listVar within the Report Suite Manager.)  |

@@ -3,7 +3,7 @@ description: You can view and analyze data anomalies contextually, within Analys
 title: Anomaly Detection overview
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 feature: AI Tools
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 ---
 # Anomaly Detection overview

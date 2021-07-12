@@ -4,7 +4,7 @@ subtopic: Current Data
 title: Current Data
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 ---
 # Current Data

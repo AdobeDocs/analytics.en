@@ -3,7 +3,7 @@ description: Describes how to set permissions and which dimensions are available
 title: Activity Map reporting in Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 ---
 # Activity Map reporting in Analytics

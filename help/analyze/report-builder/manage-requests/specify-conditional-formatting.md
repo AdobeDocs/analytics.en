@@ -3,7 +3,7 @@ description: After creating reports with embedded requests, you can apply condit
 title: Specify conditional formatting
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
 ---
 # Specify conditional formatting

@@ -3,7 +3,7 @@ description: The Request Wizard  Step 2 window lets you configure the report lay
 title: Layout - Request Wizard Step 2
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 92894877-4fa8-4ea6-b5cd-9d1c50c3e250
 ---
 # Layout - Request Wizard Step 2

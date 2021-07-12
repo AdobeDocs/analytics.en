@@ -2,7 +2,7 @@
 description: Create a blank panel as a starting point for any visualization.
 title: Blank panel
 feature: Panels
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
 ---
 # Blank panel

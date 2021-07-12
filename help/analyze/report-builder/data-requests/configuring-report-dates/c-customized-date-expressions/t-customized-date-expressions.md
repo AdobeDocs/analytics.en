@@ -3,7 +3,7 @@ description: You can specify a complex date range by building a custom expressio
 title: Customized date expressions - overview
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 ---
 # Customized date expressions - overview

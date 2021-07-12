@@ -3,7 +3,7 @@ description: The installation process varies depending on which browser you are 
 title: Install Activity Map browser plug-ins
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 ---
 # Install Activity Map browser plug-ins{#install-activity-map-browser-plug-ins}

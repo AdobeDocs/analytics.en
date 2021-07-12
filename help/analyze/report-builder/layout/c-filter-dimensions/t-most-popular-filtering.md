@@ -3,7 +3,7 @@ description: Ranking and conditional filters that you configure using Boolean lo
 title: Most popular filtering
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 ---
 # Most popular filtering

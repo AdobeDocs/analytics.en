@@ -3,7 +3,7 @@ description: Assuming that the correct browser plug-in is installed, you can lau
 title: Launch Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 ---
 # Launch Activity Map{#launch-activity-map}

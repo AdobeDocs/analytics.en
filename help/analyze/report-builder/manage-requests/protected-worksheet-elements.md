@@ -3,7 +3,7 @@ description: If you protect your worksheet (by locking cells), you cannot create
 title: Protected worksheet elements
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8783b6e9-82f5-4bee-a73f-31ea64d7e955
 ---
 # Protected worksheet elements

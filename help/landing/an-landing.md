@@ -123,11 +123,10 @@ More learning options:
 * For new users, we recommend the [Training Tutorial](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) video that walks you through building a new project.
 * Here is a link to the [complete Analysis Workspace documentation](/help/analyze/analysis-workspace/home.md).
 * Here is the complete [YouTube playlist for Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
->>>>>>> Stashed changes
 
-## Access the new landing page
+## Navigate the Learning tab {#navigate-learning}
 
-After you log in to Adobe Experience CLoud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Note that access to the toggle button is user specific, not company specific.
+The Learning page contains hands-on video tours and tutorials, plus links to documentation.
 
 ## Navigate the new page
 
@@ -137,7 +136,7 @@ After you log in to Adobe Experience CLoud and Analytics, enable the [!UICONTROL
 
 * The **[!UICONTROL Learn more]** button on the video modal takes you to an Adobe Experience League documentation page with more help content related to the video you just watched.  **[!UICONTROL View more videos]** takes you to the full Analysis Workspace YouTube playlist.
 
-## New landing page FAQ
+## New landing page FAQ {#landing-faq}
 
 | Question | Answer |
 | --- | --- |

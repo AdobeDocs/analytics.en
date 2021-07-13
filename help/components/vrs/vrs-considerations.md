@@ -78,7 +78,9 @@ For example, only one Google DCM is allowed per report suite. Many companies hav
 
 ### Summary data sources
 
-Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics, they cannot be segmented. Since VRS operates using segmentation, all data imported using summary data sources are not available in virtual report suites. Summary data sources are only visible in the source report suite.
+Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics *without a visitor ID*, they cannot be segmented in [!UICONTROL Visit] and [!UICONTROL Visitor] containers. Since VRS operates using segmentation, data imported using summary data sources will not be not available in virtual report suites if the segment is built using a Visit or Visitor container.
+
+Summary data sources show up in the virtual report suite if a Hit container is used and if that Hit container has rules conditioned to include the data source information.
 
 >[!TIP]
 >

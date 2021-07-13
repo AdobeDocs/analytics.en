@@ -268,7 +268,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `visit_referrer` | The first referrer of the visit. | varchar(255) |
 | `visit_search_engine` | Numeric ID of the first search engine of the visit. Uses `search_engines.tsv` lookup. | smallint unsigned|
 | `visit_start_page_url` | The first URL of the visit. | varchar(255) |
-| `visit_start_pagename` | The first Page Name of the visit. | varchar(100) |
+| `visit_start_pagename` | The Page Name value in the first hit of the visit. | varchar(100) |
 | `visit_start_time_gmt` | Timestamp (in Unix time) of the first hit of the visit. | int |
 | `weekly_visitor` | Flag to determine if the hit is a new weekly visitor. | tinyint unsigned |
 | `yearly_visitor` | Flag to determine if the hit is a new yearly visitor. | tinyint unsigned |

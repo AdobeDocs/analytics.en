@@ -28,6 +28,7 @@ user-guide-description: Learn about managing users and products in the Experienc
     + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
     + [Classification hierarchies](admin/conversion-var-admin/classification-hierarchies.md)
     + [List variables](admin/conversion-var-admin/list-var-admin.md)
+    + [Merchandising eVars](admin/conversion-var-admin/merchandising-evars.md)
   + [Currency codes](admin/currency.md)
   + [Custom report descriptions](admin/custom-desc-admin.md)
   + [Customize calendar](admin/custom-calendar.md)

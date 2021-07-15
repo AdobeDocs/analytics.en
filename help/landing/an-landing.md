@@ -5,13 +5,13 @@ role: User, Admin
 ---
 # New Adobe Analytics landing page
 
-The new landing page for Adobe Analysis brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella. It features a new project manager home page, an updated reports menu, modernized reports, and a new learning section to help you with getting started more effectively.
+The new landing page for Adobe Analytics brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella. It features a new project manager home page, an updated reports menu, modernized reports, and a new learning section to help you with getting started more effectively.
 
 The new page improves discoverability and guides Reports & Analytics users to an improved reporting experience in Workspace.
 
 >[!IMPORTANT]
 >
->This landing page will be in Public Beta soon. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is Workspace or Reports. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current Workspace experience.
+>This landing page will be in Open Beta starting on July 21, 2021. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is Workspace or Reports. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current Workspace experience.
 
 ## Access the new landing page {#access-landing}
 

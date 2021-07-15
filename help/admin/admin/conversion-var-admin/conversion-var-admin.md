@@ -39,7 +39,7 @@ Descriptions of fields used when [editing conversion variables](/help/admin/admi
 | [!UICONTROL Merchandising]  (eVar only) | Merchandising variables can follow one of two syntaxes:<ul><li>**[!UICONTROL Products Syntax]**: Associates the eVar value to a product. **Note**: If [!UICONTROL Products Syntax] is selected, the [!UICONTROL Merchandising Binding Event] section is disabled and not selectable for edit. For this syntax, [!UICONTROL Binding Events] are not applicable.</li><li>**[!UICONTROL Conversion Variable Syntax]**: Associates the eVar with a product only if a [!UICONTROL Binding Event] occurs. In this case, you select the events that act as [!UICONTROL Binding Events].  Changing this setting without updating your JavaScript code accordingly causes lost data. See [Merchandising Variables](/help/components/dimensions/evar-merchandising.md).</li></ul>|
 | [!UICONTROL Merchandising Binding Event] (eVar only) | If Merchandising is set to [!UICONTROL Conversion Variable Syntax], the selected events bind the current eVar value with a product. To use a [!UICONTROL Binding Event], set [!UICONTROL Allocation] to [!UICONTROL Most Recent]. If [!UICONTROL Allocation] is set to [!UICONTROL Original Value], the first eVar product binding remains until the eVar expires. Multiple events can be selected by holding down ctrl (Windows) or cmd (Mac) and clicking on multiple items in the list. You can select an event only when [!UICONTROL Conversion Variable Syntax] is selected. |
 
-**Expiration**
+### Expiration
 
 `eVars` expire after a time period you specify. After the eVar expires, it no longer receives credit for success events. eVars can also be configured to expire on success events. For example, if you have an internal promotion that expires at the end of a visit, the internal promotion receives credit only for purchases or registrations that occur during the visit in which they were activated.
 
@@ -52,10 +52,10 @@ For example, if you change the expiration of an eVar from 30 to 90 days, eVar va
 
 Another example: If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. Doing so will help keep internal promotion values out of June's reports.
 
-**Case Sensitivity**
+### Case Sensitivity
 
 eVars are not case sensitive. The upper or lower case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
 
-**Counters**
+### Counters
 
 While eVars are most often used to hold string values, they may also be configured to act as counters. eVars are useful as counters when you are trying to count the number of actions a user takes before an event. For example, you may use an eVar to capture the number of internal searches before purchase. Each time a visitor searches, the eVar should contain a value of '+1.' If a visitor searches four times before a purchase, you will see an instance for each total count: 1.00, 2.00, 3.00, and 4.00. However, only the 4.00 receives credit for the purchase event (Orders and Revenue Metrics). Only positive numbers are allowed as values of an eVar counter.

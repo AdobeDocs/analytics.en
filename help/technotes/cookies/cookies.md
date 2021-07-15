@@ -14,7 +14,7 @@ This document explains how major browsers' tracking prevention measures affect t
 
 ### Third-party cookie limitations
 
-Cookies used in a third-party context are being widely deprecated. Firefox and Safari started blocking third-party cookies by default starting in 2019 and 2020, respectively. Chrome has announced plans to stop supporting third-party cookies sometime in 2022. When they do, third-party cookies will effectively be unusable.
+Cookies used in a third-party context are being widely deprecated. Firefox and Safari started blocking third-party cookies by default starting in 2019 and 2020, respectively. Chrome has announced plans to stop supporting third-party cookies sometime in 2023. When they do, third-party cookies will effectively be unusable.
 
 Additionally, Chrome currently only allows cookies to function in a third-party context if they have the "SameSite" attribute set to None and the are labelled as secure, meaning they can only be used over HTTPS. More information is available in the section "[What is the SameSite cookie attribute, and how does it affect Analytics?](#samesite-effect)"
 

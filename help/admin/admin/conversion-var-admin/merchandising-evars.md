@@ -47,7 +47,7 @@ For example, when a user searches for products using the keyword "sandals", the 
 
 ## Merchandising eVars settings
 
-Here are the different settings that you can use with your merchandising eVars.  The following screenshot comes from the Report Suite Manager. Access it by going to Analytics > Admin > Report Suites > Edit Settings > Conversion > Conversion Variables > Add new > Enable Merchandising.
+Here are the different settings that you can use with your merchandising eVars. The following screenshot comes from the Report Suite Manager. Access it by going to [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Conversion Variables] > [!UICONTROL Add new] > [!UICONTROL Enable Merchandising].
 
 ![](assets/merch-evars1.png)
 
@@ -70,7 +70,7 @@ When the "Enable Merchandising" setting is set to "Enabled", all the settings as
 
 ### Merchandising
 
-This option is not available for regular eVars. The [!UICONTROL Merchandising] setting lets you to pick either [!UICONTROL Conversion Variable Syntax] or [!UICONTROL Product Syntax] as the method for capturing the merchandising eVar's value.  
+This option is not available for standard eVars. The [!UICONTROL Merchandising] setting lets you to pick either [!UICONTROL Conversion Variable Syntax] or [!UICONTROL Product Syntax] as the method for capturing the merchandising eVar's value.  
 
 **[!UICONTROL Conversion Variable Syntax]** means that you set the eVar value in its own variable. For example, with Conversion Variable Syntax, the `eVar1` value of "internal keyword search" is set as follows within the page code (or the AppMeasurement code, AEP Web SDK code, and so on):
 

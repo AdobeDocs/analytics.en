@@ -4,7 +4,7 @@ description: A deep dive into the concepts behind merchandising eVars and how th
 ---
 # Merchandising eVars and product finding methods
 
-This document explains the concepts behind merchandising eVars, which process and allocate data differently than standard eVars. It also explains how merchandising eVars relate to product finding methods.
+This detailed document explains the concepts behind merchandising eVars, which process and allocate data differently than standard eVars. It also explains how merchandising eVars relate to product finding methods.
 
 While most retail websites have many ways to find products, Adobe considers the following to be the fundamental product finding methods that every retail client should track in Adobe Analytics:
 
@@ -60,6 +60,10 @@ The sections below the table contain more detail on these settings.
 | Reset | A trigger that will reset all back-end data for the eVar at that point |
 | Enable Merchandising | A flag that needs to be set to "Enabled" to turn the eVar from a standard eVar to a Merchandising eVar |
 
+### Enable Merchandising
+
+When the "Enable Merchandising" setting is set to "Enabled", all the settings as described below appear in the Report Suite Manager. When the "Enable Merchandising" setting is set to "Disabled", only the standard eVar settings are available.
+
 ### Merchandising
 
 This option is not available for regular eVars. The [!UICONTROL Merchandising] setting lets you to pick either [!UICONTROL Conversion Variable Syntax] or [!UICONTROL Product Syntax] as the method for capturing the merchandising eVar's value.  
@@ -84,12 +88,254 @@ Notice that we still have semicolon-delimited placeholders for the quantity, rev
 
 ### Allocation
 
-The term "Allocation" for merchandising eVars is a misnomer, especially for merchandising eVars that use Conversion Variable Syntax. All eVars that use standard syntax can have their own individual allocation setting but merchandising eVars with Conversion Variable Syntax use only an allocation setting of "Most Recent (Last)" regardless of what the allocation settings in the Report Suite Manager show. 
+The term "Allocation" for merchandising eVars is misleading, especially for merchandising eVars that use Conversion Variable Syntax. All standard eVars can have their own individual allocation setting. However, merchandising eVars with Conversion Variable Syntax use only the "Most Recent (Last)" allocation setting, regardless of what the allocation settings in the Report Suite Manager show. 
 
-To understand what this setting does means that you need to understand the difference between eVar allocation and merchandising eVar binding.  For merchandising eVars, "Merchanding eVar Binding" could be considered a more proper name for this "Allocation" setting.
-Whenever any eVar with standard syntax is collected from an image request, the Adobe Analytics processing servers insert data into another database column, called a post_evar column, alongside the regular eVar column.  Since eVars are meant to be persistent (i.e. they expire at some point beyond the current hit in most cases), the servers will then set this post_evar column on every subsequent image request and set it equal to the last value passed into its corresponding eVar. For standard (i.e. non-Merchandising) eVars, when a success event takes place, Adobe Analytics uses the post_evar column instead of the regular eVar column to determine the eVar value that should be given credit for the event. 
-For standard (i.e. non-Merchandising) eVars, the Allocation setting determines whether the first or the last eVar value that was collected during a certain period will be inserted into the post_evar column. If the Allocation setting for a standard eVar is equal to "Original Value (First)", then the first eVar value collected from the visitor will be inserted into the post_evar column for all subsequent image requests.  This will continue for all future requests sent from this visitor's browser until the eVar expires per its "Expire After" setting.  
-If a standard eVar's Allocation setting is equal to "Most Recent (Last)", then the most recent eVar value collected from the visitor will be filled into the post_evar column for all subsequent image requests. "Most Recent (Last)" allocation implies that the post_evar value will change every time its corresponding eVar is set to a new value in any image request.  "Original Value (First)" allocation implies that the post_evar column will not change across hits even though its corresponding eVar might be set to a different value in a future image request. 
-As mentioned before, all merchandising eVars with Conversion Variable Syntax have only "Most Recent (Last)" allocation (per the standard eVar definition).  Hence, I need to explain what the "Allocation" setting actually means for merchandising eVars.  As implied earlier, this setting doesn't determine what values are inserted into the post_evar column as a visitor continues to use the site.  Rather, the Allocation setting for merchandising eVars determines which eVar value binds to a product and how such products allocate 
+Understanding what this setting does means understanding the difference between eVar allocation and merchandising eVar binding. For merchandising eVars, "Merchandising eVar Binding" is a more appropriate name for this "Allocation" setting. 
 
+**Standard eVar allocation setting**
 
+Whenever any eVar with standard syntax is collected from an image request, the Adobe Analytics processing servers insert data into another database column, called a `post_evar` column. Since eVars are meant to be persistent - they expire at some point beyond the current hit in most cases - the servers then set this `post_evar` column on every subsequent image request. It is set equal to the last value passed into its corresponding eVar. For standard eVars, when a success event takes place, Adobe Analytics uses the `post_evar` column instead of the regular eVar column to determine the eVar value that should be given credit for the event. 
+
+For standard eVars, the Allocation setting determines whether the first or the last eVar value that was collected during a certain period will be inserted into the `post_evar` column. If the Allocation setting for a standard eVar is equal to "Original Value (First)", then the first eVar value collected from the visitor is inserted into the `post_evar` column for all subsequent image requests. This continues for all future requests sent from this visitor's browser until the eVar expires per its "Expire After" setting. 
+
+If a standard eVar's Allocation setting is equal to "Most Recent (Last)", then the most recent eVar value collected from the visitor is filled into the `post_evar` column for all subsequent image requests. "Most Recent (Last)" allocation implies that the `post_evar` value changes every time its corresponding eVar is set to a new value in any image request. "Original Value (First)" allocation implies that the `post_evar` column does not change across hits even though its corresponding eVar might be set to a different value in a future image request. 
+
+**Merchandising eVar allocation (binding) setting**
+
+As mentioned before, all merchandising eVars with Conversion Variable Syntax have only "Most Recent (Last)" allocation.  This is what the "Allocation" setting actually means for merchandising eVars: As implied earlier, this setting does not determine what values are inserted into the `post_evar` column as a visitor continues to use the site. Rather, the Allocation setting for merchandising eVars determines which eVar value binds to a product and how such products allocate their success events back to the eVar values they are bound to.
+
+Let's discuss what happens if a merchandising eVar's Allocation (i.e. binding) setting is set equal to "Original Value (First)". Any products that are set alongside the `post_evar` column and that have not been previously been bound to the post_evar column's corresponding "pre-processed" eVar will be bound to the value contained in the `post_evar` column. This binding between eVar value and product will never change until the eVar expires per the "Expire After" setting settings in the Report Suite settings.  
+
+Any time an image request meets the criteria that would otherwise bind an already-bound product to the most recently set eVar value, the "Original Value (First)" setting forces the Adobe Analytics data collection servers to ignore any such further attempts to do so. The opposite happens with merchandising eVars with the Allocation (binding) setting equal to "Most Recent (Last)". Any time an image request meets the criteria that bind a product to a merchandising eVar, the product will bind (and rebind) itself to the most recent value passed into the eVar, or the value that's (always) contained in the `post_evar` column.
+
+As mentioned previously, merchandising eVars allow you to allocate success events to eVar values at a per-product basis instead of at a per-visit/per-order basis. So, whenever a bound product has a success event (such as a cart add or purchase) associated with it, the success event gives its credit to both the product and the merchandising eVar values that the product is bound to at that time.
+
+### Expire After
+
+The expiration setting of a merchandising eVar allows you to choose when both the product/eVar bindings should expire and when the post_evar column should no longer be automatically filled in after an eVar has been passed into an image request. Expiration for an eVar can take place when either a success event (of your choosing) is recorded or a certain period of time – again, of your choosing – passes. Adobe Analytics allows for only one Expiration setting at a time per eVar.
+
+For the Product Finding Method solution, the best practice for setting a merchandising eVar's expiration should be setting it equal to EITHER the amount of time that a product is held in a site's shopping cart before the site automatically removes it from the cart OR when the purchase event takes place. With either expiration setting, any products that a visitor purchases will have the order/unit/revenue credit allocated to the merchandising eVar values that the products were bound to at that time.
+
+### Type
+
+The eVar type setting determines what type of data is inserted into the eVar. In most - if not all - cases while setting up a merchandising eVar, this value should be equal to "Text". Using a type of "Counter" for a merchandising eVar is rare but, depending on the tracking needs, could be utilized in an effective manner to allocate success to Counter eVar values at a per-product basis.  Discussing solutions with a type of "Counter" is outside the scope of this document.
+
+### Merchandising Binding Event
+
+The Merchandising Binding Event setting allows you to specify the conditions that would cause a product to be bound to a merchandising eVar's value. These conditions are limited to the firing of specific success events or eVars only; firing traffic variables (e.g. props) have no effect on merchandising bindings. 
+
+One of the more useful features about the Merchandising Binding Event setting is the ability to bind a product to an eVar value through more than one event. For example, the setting could allow products to be bound to a merchandising eVar value either via a product view event, a cart add event, or a purchase event. The setting could even - and does by default - bind a product to a merchandising eVar value whenever any other event/eVar – merchandising or otherwise – is contained in the same image request as the product.  
+
+### Reset
+
+The Reset setting lets you to immediately "expire" all eVar values for all visitors who currently have a `post_evar` value in the Adobe Analytics backend database. It also eliminates all current product/eVar bindings. 
+
+>[!IMPORTANT]
+>Adobe does not recommend using the Reset setting unless you fully intend to have the eVar start over with a completely "clean slate" of data from the time that the reset takes place.
+
+## Which settings should you use?
+
+Among the many available setting combinations, you might wonder which settings are "best practice".
+
+If you want to bind "internal keyword search" to product ID 12345, the products variable would be set as follows:
+
+`s.products=";12345;;;;eVar1=internal keyword search";`
+
+Any success events (cart adds, purchases) that are captured at the same time as productID 12345 are credited to both product ID 12345 and the `eVar1` value of "internal keyword search". The only way a different `eVar1` value got credit for success events associated with product ID 12345 is if `eVar1` were later set to a **different** value within the products variable (alongside product ID 12345). Example:
+
+`s.products=";12345;;;;eVar1=internal campaign";`
+
+This configuration changes the binding of product ID 12345 from the `eVar1` value of "internal keyword search" to the `eVar1` value of "internal campaign". This rebinding takes place every time Product Syntax is used and the Allocation (binding) setting for the eVar is set to "Most Recent (Last)". What happens if the Allocation (binding) setting is instead set to "Original Value (First)"? Then the setting eVar1 equal to "internal campaign" alongside product ID 12345 does not rebind product ID 12345 to the eVar1 value of "internal campaign". The binding remains with the originally-bound value – "internal keyword search".
+
+### Challenges of using Product Syntax
+
+Without careful planning, several issues can arise from using Product Syntax. Let's take the case of using multiple eVars to track product finding methods on the website. Here, each individual product finding method eVar must be set at the same time in order to give a particular finding method eVar credit (and the other finding method eVars no credit). Product Syntax can be used in such scenarios but the resulting code to deploy is more complicated.  
+
+If we use our original "sandals" example and adapt it to use Product Syntax (assuming the visitor found a product with the ID of "sandal123" using the keyword term of "sandals") the resulting products variable must be set as follows:
+
+`s.products=";sandal123;;;;eVar2=sandals|eVar1=internal search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";`
+
+While the syntax of the products variable is long in this example, it will bind each of the eVar values seen to the product ID of "sandal123". From then on, any success events (e.g. cart adds, purchases) that are captured at the same time as the "sandal123" product are credited to the eVar values that were last bound to the product.  This code sample shows if a purchase of 1 unit of the "sandal123" product (for $79.95) takes place after the eVars above were bound to the "sandal123" product:
+
+```
+s.products=";sandal123;1;79.95";
+s.events="purchase";
+```
+
+The following values would all have 1 order, 1 unit, and $79.95 of revenue attributed to them:
+
+* eVar2 value of "sandals"
+* eVar1 value of "internal keyword search"
+* eVar3 value of "non-internal campaign"
+* eVar4 value of "non-browse"
+
+This is correct attribution, which is not an issue. Rather, the major dilemma with this approach is determining how and when to set the Product Finding Method eVars. 
+
+In most cases with Product Syntax, the Product Finding Method eVars would have to be set on a product detail page rather than on the page that the finding method was actually used (e.g. on the keyword search results page, the browse page, the internal campaign landing page, etc.). It is reasonable to assume that a product has not been truly "found" until a visitor interacts with a product to some degree. As such, these eVars (using Product Syntax) should not be set on the finding method page because multiple products are (usually) displayed on such pages. We want to bind the finding method value to only those products that the visitor has interacted with.
+
+Moreover, while viewing a finding method page, visitors might have the ability to either click on a link that brings them to an individual product detail page or add an individual product to the cart directly from the finding method page. Using our "sandals" search keyword example, if a visitor adds the "sandal123" product to the cart directly from a keyword search results page, the code for capturing the cart add (via the Add-to-Cart button's onClick event, etc.) would have to be either generated dynamically at the time the cart add takes place or "hard-coded" directly via the page code or a tag management system.  Regardless, the code to fire in such cases would look something like this:
+
+```
+s.linkTrackVars="products,events";
+s.linkTrackEvents=s.events="scAdd";
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
+s.tl(true,"o","Cart Add")
+```
+
+This code properly binds the eVar values seen above to the "sandal123" product. However, in order to set these values appropriately when the click event takes place, the developer must:
+
+* Add server-side logic to the search results page that determines the values that must be inserted into the product finding method eVars, and
+* Assemble the entire products variable seen above with no syntax errors.
+
+Also, if a visitor decides to "find" the product by clicking a link to its product detail page, the developer must:
+
+* Pass the product finding method details (as seen above) from the finding method page over to the product detail page, and * * Assemble the same products variable value from the items that were just passed over from the previous page. 
+
+This solution requires a high level of complexity that might not be feasible.
+
+### Where Product Syntax is useful
+
+Product Syntax is still useful when 
+
+* Multiple products with the same product IDs are interacted with at the same time, and 
+* The eVars to be bound to such products need to have different values per product ID.  
+
+For example, many clothing products have "Child SKUs", which designate the size, color, style, and any other attributes. These attributes separate out a single child product from other sibling products that belong to the same parent product. Let's say you decide to purchase a medium blue t-shirt plus a large red t-shirt. Assume that both shirts have the parent product ID of "tshirt123" and eVar10 has been configured to capture child SKUs. The variables set on the purchase confirmation page would be set as follows:
+
+```
+s.events='purchase';
+s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
+```
+
+In this case, both `eVar10` (childSKU) values of "tshirt123-m-blue" and "tshirt123-l-red" get credit for the purchase of their respective instances of product ID "tshirt123".
+
+### Challenges with "Most Recent" Allocation 
+
+You could face additional issues by using the Allocation (binding) setting of "Most Recent (Last)". In many web-browsing experiences, visitors "re-find" a product that they have already viewed and/or added to the cart. This usually happens via a subsequent visit or just before they decide to complete a purchase. Suppose that during their first visit to the site, they found the "sandal123" product via the keyword search of "sandals". They immediately added it to the cart from the keyword search results page. The code that captures the cart add would be set as follows:
+
+```
+s.linkTrackVars="products,events";
+s.linkTrackEvents=s.events="scAdd";
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross
+```
+
+As a result, each of the eVar values seen in this image request are bound to the "sandal123" product.
+
+Now, imagine the visitor doesn't purchase the product during this visit, but comes back to the site three days later. They knows that they already added the "sandals123" product to the cart. But they still want to learn more about it before they  make the purchase. Instead of using a keyword search to find the product, the visitor browses through the site. They end up in the "womens > shoes > sandals" merchandising browse section just before "re-finding" the product. When they end up "re-finding" the product detail page for the "sandal123" product, the variables would be set as follows (on page load):
+
+```
+s.events="prodView";
+s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
+```
+
+With an Allocation (binding) setting of "Most Recent (Last)", the "sandal123" product rebinds to completely different eVar values than what it was originally bound to. Moreover, if the visitor then completes the purchase of "sandal123", all purchase credit is given to these newly bound eVar values instead of the originally bound values!
+
+The question here is: Which eVar values should get credit for the purchase"? Remember that the visitor initially found the "sandal123" product via an internal keyword search. They then  added it to the cart directly from the search results page. Therefore, the eVar1 value of "internal keyword search" (and the eVar2 value of "sandals") should get credit for the purchase. However, the Allocation (binding) settings were set to "Most Recent (Last)". Hence, the eVar1 value of "browse" (and the eVar4 value of "womens > shoes > sandals") gets the purchase credit instead. The reason is that they were the last values bound to "sandal123" before the visitor completed the purchase. 
+
+A solution to this problem is to change the Allocation (binding) setting of the merchandising eVar from "Most Recent (Last)" to "Original Value (First)". This way, the original eVar values bound to the "sandal123" product gets credit when the purchase takes place, regardless of how many times the visitor "re-finds" the product.
+
+If the visitor adds a product to the cart but never purchases it, the eVar expiration allows a new finding method value to be bound to the product. The eVar expiration should equal the time that a website lets a product stay in the shopping cart before it is automatically removed. 
+
+### Using Conversion Variable Syntax
+
+Let's return to the "Product Syntax" vs. "Conversion Variable Syntax" question. Adobe has discovered an easier method for both collecting the product finding method merchandising eVars and binding their values to products that visitors have found: Using Conversion Variable Syntax reduces the implementation work that the client's developers are responsible for. It still offers the same - or better - information than the Product Syntax method. Developers simply need to follow the deployment instructions that they were given, and the rest of the code can be placed into the Adobe AppMeasurement/AEP Web SDK file.
+
+For example, let's look at the recommended solution for tracking internal keyword search performance. It says that on the keyword search results page, the code captures the keyword searched for via a prop (for example, prop4) and another prop (for example, prop5). These props track the number of results shown from the search. Whenever an Adobe Analytics image request is generated on the search results page, it used the data layer objects (or page code) deployed by the developers to fill in the above variables (the props). 
+
+Additional logic contained within the AppMeasurement/AEP Web SDK file can fill in the remainder of the variables (the merchandising eVars/dimensions) that need to be set at the same time.  
+For instance, if a new visitor were to do a keyword search for "sandals", which returned 25 results on the search results page, the code to be fired (via the page code OR data layer capture) would look like this:
+
+```
+s.prop4="sandals";
+s.prop5="25";
+```
+
+Logic within the AppMeasurement/Analytics SDK file could then automatically transform this snippet of code into the following:
+
+```
+s.prop4="sandals";
+s.prop5="25";
+s.eVar2="sandals";
+s.eVar1="internal keyword search";
+s.eVar3="non-internal campaign";
+s.eVar4="non-browse";
+s.eVar5="non-cross sell";
+```
+
+There is no need to worry about passing data from page to page and trying to create a rather large, unwieldy string to be inserted into the products variable. Instead, developers can implement their portion of the tracking solutions – what's inserted into the props – and leave the rest of the implementation to the custom code provided by Adobe Consulting.
+
+As explained earlier, all merchandising eVars that use Conversion Variable Syntax have the Allocation setting of "Most Recent (Last)". Once an eVar is set equal to any value, that value persists across all subsequent hits (via the post_evar column). It persists until it is set to a different value or until the eVar expires. Thus, any products anyone interacts with after the eVars are set, if they have not already been bound to those eVars, bind to the "Most Recent (Last)" values passed into the eVar.  
+
+Using our above example, the `eVar2` value of "sandals" and the eVar1 value of "internal keyword search", etc. persist on all pages seen after the keyword search took place. They persist until the eVars are overwritten with other values. Let's say a visitor clicks on a link to the product detail page for the "sandal123" product ID from the keyword search results page.  Then the "sandal123" product ID (if it hasn't been bound yet) binds to the each of the values contained in the post_evar columns, or to the eVar values that were collected from the previous (search results) page. 
+
+There is one more thing to reconsider with Conversion Variable Syntax. It's that binding events must be set up to bind an eVar value to a product. Simply setting a merchandising eVar (in its own variable) alongside a product (in the products variable) in an Adobe Analytics image request does not necessarily bind the eVar value to the product.  Instead, the Merchandising Binding Event setting, which is set in the Report Suite Manager, determines the criteria that binds an eVar value to a product
+
+Since we want to bind the Product Finding Method eVar values to products whenever a product interaction takes place – implying that a product has been "found" – it is safe to assume that the most common "product found" interactions that can take place are either a product view (when visitors go to a product detail page) or a cart add (when visitors add a product to the cart directly from a product finding method page).  Thus, we can choose these two events (prodView, scAdd) as the "fundamental" merchandising binding events.
+Whenever either of these binding events are contained within an image request, any product IDs that are contained in the same request (within the products variable) and haven't already been bound to a merchandising eVar will bind to the most recent values passed into the merchandising eVar (as contained in the post_evar columns). Any attempt to rebind these products after this original binding takes place will be ignored when the Allocation (binding) setting is set equal to "Original Value (First)".  
+
+### Best Practice settings
+
+Following are the best practice settings. They implement the product finding method as easily as possible with the most powerful set of results. Adobe recommends that clients configure each of their product finding method merchandising eVars (in general) as follows:
+
+* Merchandising Enabled: Enabled
+* Merchandising [syntax]: Conversion Variable Syntax
+* Allocation [binding]: Original Value (First)
+* Expire After: The amount of time a product stays in a cart before it is automatically removed (e.g. 14 days, 30 days, etc.).  If no such time exists, then Expire After the "purchase" event
+* Type: Text
+* Merchandising Binding Events:  Product View, Cart Add, and Purchase
+
+## What do Binding Events actually do?
+
+When a binding event is contained in the same server call as the products variable, the Merchandising eVar (using Conversion Variable Syntax) values in their post column bind to the products variable. Based on the earlier example , assume that one server call contains the following Merchandising eVar values:
+
+```
+s.eVar2="sandals";
+s.eVar1="internal keyword search";
+s.eVar3="non-internal campaign";
+s.eVar4="non-browse";
+s.eVar5="non-cross sell";
+```
+
+As explained earlier, the above eVars persist beyond the current hit via their respective post_evar column. Hence, Adobe's servers transform the eVars above into the following:
+
+```
+post_eVar2="sandals";
+post_eVar1="internal keyword search";
+post_eVar3="non-internal campaign";
+post_eVar4="non-browse";
+post_eVar5="non-cross sell";
+```
+
+These post columns are stored in Adobe's database and persist beyond the current hit where they were initially set. This assumes that no expiration or variable resetting takes place.  Adobe's servers have these post_evar values "available" at the time that they process any future server calls that contain both the binding event and the products variable. 
+
+The binding that takes place is solely between these post_evar values and the contents of the products variable. The binding event does not necessarily "bind" to either the eVars or the products variable. It is the "catalyst" that tells the Adobe servers to bind the post_evar values to the products.
+
+Assume that on a future hit, the following variables are set:
+
+```
+s.products=";sandals123"
+s.events="prodView";
+```
+
+Considering the post_evar columns, the Adobe processing servers see this hit as follows:
+
+```
+s.products=";sandals123"
+s.events="prodView";
+post_eVar2="sandals";
+post_eVar1="internal keyword search";
+post_eVar3="non-internal campaign";
+post_eVar4="non-browse";
+post_eVar5="non-cross sell";
+```
+
+Assume eVar1, eVar2, eVar3, eVar4, and eVar5 have been configured to use `prodView` as a binding event. If any one of these eVars is not configured to use prodView as a binding event, then binding between that (misconfigured) eVar and the products variable will not take place.
+
+Binding produces some very interesting results, which can be seen in the post_products column's value. The binding transforms the above code and sets a few more post columns, as follows:
+
+```
+post_events="prodView"
+post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
+```
+
+The value contained in the post_products column might be familiar to you. Scroll up in this document and compare this post_products value and the s.products value as shown under .  You'll notice that the post_products column is set using Product Variable Syntax! This means that Binding "copies" the Conversion Variable Syntax eVar values into the products variable via Product Syntax. This copying action takes place only when the products variable and a binding event (set via the eVar configuration) are contained in the same request. At that point, the value(s) contained in the post_eVar column(s) are bound to the product. This Binding is represented via Product Syntax as stored in the post_products column. 

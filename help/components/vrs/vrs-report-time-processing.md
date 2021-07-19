@@ -24,7 +24,7 @@ Report Time Processing is a fundamentally different way of processing Analytics 
 
 This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers retroactively as if you had applied those settings before the data was collected. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite.
 
-Report Time Processing also allows Analytics to prevent background hits from starting new visits and allows the [mobile SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) to tell reporting to start a new visit whenever an App Launch event is triggered.
+Report Time Processing also allows Analytics to prevent background hits from starting new visits and allows the [mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) to tell reporting to start a new visit whenever an App Launch event is triggered.
 
 The following configuration options are currently available to virtual report suites with Report Time Processing enabled:
 
@@ -34,7 +34,7 @@ The following configuration options are currently available to virtual report su
 * **Start a New Visit upon each App Launch:** In addition to the visit timeout, you can force a visit to begin whenever an App Launch event has been recorded from the Mobile SDKs regardless of the inactivity window. This setting affects the visit metric and the visit segment container, as well as visit expiration logic on eVars.
 * **Start New Visit with Event:** A new session starts when an event is fired, regardless of whether a session has timed out. The newly created session includes the event that started it. Additionally, you can use multiple events to start a session and a new session fires if any of those events are observed in the data. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars.
 
-Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and will not be accessible in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, Data Feeds, or the reporting API.
+Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and is not accessible in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, Data Feeds, or the reporting API.
 
 In addition, Report Time Processing only processes data that comes from within the reporting date range (referred to as "date windowing" below). This means that eVar values set to "never expire" for a visitor prior to the reporting date range do not persist into the reporting windows and do not appear in reports. This also means that customer loyalty measurements are based exclusively on the data present in the reporting date range and not on the entire history prior to the reporting date range.
 

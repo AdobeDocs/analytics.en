@@ -377,6 +377,6 @@ For example, setting `s.eVar1="Internal Keyword Search"` by itself does not give
 
 In summary, without additional configuration, the out-of-the-box Instances metric for a merchandising eVar is less than useful. Luckily, Adobe released [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). It lets you apply multiple attribution models for any customized metric that Adobe Analytics collects. Metrics that apply these attribution models do not use the values contained in the post_evar columns or the values that are bound to any one particular product. Rather, these metrics use only the values that are passed over via the image requests themselves (or values that are captured via Adobe Analytics processing rules). You can use the features in Attribution IQ to get an accurately attributed instances metric for all merchandising eVars that use Conversion Variable Syntax.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 When adding an instance metric for a merchandising eVar to a report, the proper Attribution IQ model would be the "Last Touch" model. The Lookback Window setting for the model does not matter in this case. The reason is that a "forced" Last Touch attribution model always gives instance credit to each individual value that is passed in via a request. This is regardless of whether the eVar's actual attribution/binding settings are set equal to "Most Recent (Last)" to "Original Value (First)". 

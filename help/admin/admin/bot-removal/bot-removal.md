@@ -35,7 +35,7 @@ In addition, since bots are morphing quickly, Adobe offers several other powerfu
 
 ### Step 1: Pass your visitors' Experience Cloud ID into a new declared ID
 
-To start, create a new declared ID in the [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Pass your visitor's Experience Cloud ID into this new declared ID, which can be done quickly and easily with [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Let's use the name "ECID" for the declared ID.
+To start, create a new declared ID in the [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Pass your visitor's Experience Cloud ID into this new declared ID, which can be done quickly and easily with [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en). Let's use the name "ECID" for the declared ID.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -43,7 +43,7 @@ Here is how this ID can be captured via Data Element. Be sure to populate your E
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Once this Data Element is set up, follow [these instructions](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to pass declared IDs into the ECID Tool in Adobe Launch.
+Once this Data Element is set up, follow [these instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) to pass declared IDs into the ECID Tool using tags in Adobe Experience Platform.
 
 ### Step 2: Use segmentation to identify bots
 

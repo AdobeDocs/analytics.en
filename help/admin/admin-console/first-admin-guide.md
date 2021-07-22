@@ -12,7 +12,7 @@ A first admin is the starting point in enabling the rest of the organization to 
 If your organization has purchased Adobe Analytics, there are several key roles to consider:
 
 * **Adobe Analytics admins:** These users have full access to everything in Adobe Analytics, including report suite settings and user permissions. Depending on how your organization is structured, different people or teams can be responsible for different facets of Analytics administration. For example, one person is responsible for the designation of what variables to use in an implementation. Another person can be responsible for enabling users to correctly pull reports by ensuring everyone has the correct permissions. Identify at least one user who can be responsible for Analytics report suite settings and user permissions, and they can invite other Analytics admins from there.
-* **Adobe Experience Platform Launch admins:** These users have full access to everything in Experience Platform Launch, including publishing permissions, creating containers, and user permissions. These users are not necessarily programmers, but having at least a beginner's knowledge of HTML, CSS, and JavaScript is beneficial. They are responsible for working with your organization's website owners to get the Experience Platform Launch code implemented on your site. Identify at least one user who is responsible for your organization's implementation, and they can invite other Experience Platform Launch admins from there.
+* **Adobe Experience Platform Launch admins:** These users have full access to everything in the Data Collection UI (formerly called Experience Platform Launch), including publishing permissions, creating containers, and user permissions. These users are not necessarily programmers, but having at least a beginner's knowledge of HTML, CSS, and JavaScript is beneficial. They are responsible for working with your organization's website owners to get the Experience Platform tags implemented on your site. Identify at least one user who is responsible for your organization's implementation, and they can invite other Experience Platform Launch admins from there.
 * **Support delegates**: Also known as supported users, they have no additional privileges in the Analytics interface. Instead, they receive additional privileges when communicating with Adobe Customer Care. These users are almost always Analytics admins as well, as it helps Customer Care troubleshoot issues with them. Identify at least one Analytics admin who is responsible for facilitating interactions between end users and Adobe Customer Care.
 * **Website owners:** These individuals or teams are responsible for the coding and development of your website. They do not require accounts, but they want to work with Experience Platform Launch admins to get the Experience Platform Launch code and implement it on your website.
 * **End users:** these users typically view reports and seek answers to business questions. Analytics admins grant these users permissions to work in the product.
@@ -34,9 +34,9 @@ System-level admins do not have direct access to products, however they can give
 1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click Save.
 1. The user now has full access to Adobe Analytics.
 
-## Granting product admin access for Experience Platform Launch
+## Granting product admin access for Data Collection in Experience Platform (formerly called Launch)
 
-Product admin access for Experience Platform Launch is nearly identical to granting product admin access for Analytics.
+Product admin access for tags in Experience Platform is nearly identical to granting product admin access for Analytics.
 
 1. Log in to the Admin Console with your Adobe ID credentials.
 1. Click the Products tab at the top. All products purchased by your organization are on the left. Click Experience Platform Launch by Adobe, then click the New Profile button.

@@ -1,15 +1,18 @@
 ---
-title: Create an Analytics property in Launch
-description: Create a space to customize how data is collected, using Adobe Experience Platform Launch.
+title: Create an Analytics property in tags
+description: Create a space to customize how data is collected, using tags.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 ---
-# Create an Analytics property in Adobe Experience Platform Launch
+# Create an Analytics tag property
 
-Adobe Experience Platform Launch is the tool you can use to integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a Launch admin can get a basic Adobe Analytics implementation configured correctly.
+Tags is the tool you can use to integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a tag admin can get a basic Adobe Analytics implementation configured correctly.
+
+>[!NOTE]
+>Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
 
 ## Prerequisites
 
-[Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected
+[Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
 
 ## Create a property and install vital extensions
 
@@ -29,7 +32,7 @@ Properties are overarching containers you use to manage tags. Extensions let you
 Data elements are references to specific parts of your site to collect variable values.
 
 1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Click the Launch property that you intend to implement on your site.
+1. Click the tag property that you intend to implement on your site.
 1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
 1. Give the data element the following settings:
 
@@ -50,7 +53,7 @@ Data elements are references to specific parts of your site to collect variable 
 Rules map data elements to Analytics variable values, and determine when those values are sent to Adobe's servers.
 
 1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Click the Launch property that you intend to implement on your site.
+1. Click the tag property that you intend to implement on your site.
 1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
 1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
    * Extension: Core
@@ -74,9 +77,9 @@ Rules map data elements to Analytics variable values, and determine when those v
 
 ## Documentation and additional resources
 
-* [Adobe Analytics extension documentation](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Full documentation specific to the Adobe Analytics extension in Adobe Experience Platform Launch.
-* [Getting Started with Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): Full documentation for Launch, including a more in-depth getting started guide
-* [Adobe Experience Platform Launch channel](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Learn how to use Launch through videos
+* [Adobe Analytics extension documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Full documentation specific to the Adobe Analytics extension in tags.
+* [Getting Started with tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Full documentation for tags, including a more in-depth getting started guide
+* [Adobe Experience Platform Launch channel](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform): Learn how to use tags through videos
 
 ## Next steps
 

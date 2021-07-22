@@ -1,11 +1,14 @@
 ---
 title: Validate a development implementation and publish to production
-description: Learn how to use Adobe Experience Platform Launch to deploy Adobe Analytics to your production environment.
+description: Learn how to use Adobe Experience Platform tags to deploy Adobe Analytics to your production environment.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 ---
 # Validate a development implementation and publish to production
 
-Once your Adobe Experience Platform Launch library is pushed to production, your organization can begin to use Adobe Analytics to pull basic reports.
+Once your tag library is pushed to production, your organization can begin to use Adobe Analytics to pull basic reports.
+
+>[!NOTE]
+>Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
 
 ## Prerequisites
 
@@ -16,9 +19,9 @@ Once your Adobe Experience Platform Launch library is pushed to production, your
 The Experience Cloud debugger is a Chrome plug-in that shows all Experience Cloud tags present on a page.
 
 1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
-2. Navigate to your development website that you have implemented Launch on.
+2. Navigate to your development website that you have implemented tags on.
 3. Click on the Adobe Experience Cloud debugger icon in the upper right of Chrome
-4. If everything is properly implemented, you should see content inside Adobe Analytics, Adobe Experience Platform Launch, and the Adobe Experience Cloud Visitor ID service:
+4. If everything is properly implemented, you should see content inside Adobe Analytics, tags, and the Adobe Experience Cloud Visitor ID service:
 
 ![debugger][assets/debugger.png]
 
@@ -26,8 +29,8 @@ The Experience Cloud debugger is a Chrome plug-in that shows all Experience Clou
 
 Once you've validated you're seeing data, you can push your implementation to the live version of your site.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. Click the Launch property that you intend to implement on your site.
+1. Go to [Launch/Data Collection](https://launch.adobe.com) and log in if prompted.
+2. Click the tags property that you intend to implement on your site.
 3. Click the Publishing tab and locate your library in the development column.
 4. Click the dropdown on the library, then select Submit for Approval. Click Submit on the modal window.
 5. Click the library's dropdown again (now in the Submitted column), and select Build for Staging.
@@ -41,7 +44,7 @@ Once you've validated you're seeing data, you can push your implementation to th
 
 Confirm that you're seeing data on the live version of your site, and begin official data collection for Adobe Analytics.
 
-1. Once you have confirmed from your website owners that they have pushed the Launch code to production, navigate to your website's homepage in Chrome and open the Adobe Experience Cloud debugger.
+1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the Adobe Experience Cloud debugger.
 2. If everything is working, you should see similar data to your tests in your dev environment. At this point, you are now collecting data on your site and can now start using Adobe Analytics for reporting.
 
 ## Troubleshooting

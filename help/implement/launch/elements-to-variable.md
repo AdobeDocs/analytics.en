@@ -7,6 +7,9 @@ exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 
 Once you have a repository of data elements in Adobe Experience Platform Launch, you can assign them to Analytics dimensions.
 
+>[!NOTE]
+>Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
+
 ## Prerequisites
 
 [Map data layer objects to data elements](layer-to-elements.md): Make sure that you understand data elements in Launch, and that you have several to work with.

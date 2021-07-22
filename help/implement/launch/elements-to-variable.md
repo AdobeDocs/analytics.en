@@ -1,31 +1,31 @@
 ---
-title: Map Launch data elements to Analytics variables
+title: Map tag data elements to Analytics variables
 description: Assign data elements to Analytics variables so you can use them as dimensions in Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 ---
-# Map Launch data elements to Analytics variables
+# Map tag data elements to Analytics variables
 
-Once you have a repository of data elements in Adobe Experience Platform Launch, you can assign them to Analytics dimensions.
+Once you have a repository of tag data elements, you can assign them to Analytics dimensions.
 
 >[!NOTE]
 >Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
 
 ## Prerequisites
 
-[Map data layer objects to data elements](layer-to-elements.md): Make sure that you understand data elements in Launch, and that you have several to work with.
+[Map data layer objects to data elements](layer-to-elements.md): Make sure that you understand tag data elements, and that you have several to work with.
 
 [Create a solution design document](../prepare/solution-design.md): A solution design document is vital to staying organized. Following your solution design document simplifies the assignment of data elements to Analytics variables.
 
 ## Assign data elements to Analytics variables
 
-Publishing a library in Launch after following these steps allows you to use custom dimensions in Analysis Workspace. You can set Analytics variables globally, or in individual rules.
+Publishing a tag library after following these steps allows you to use custom dimensions in Analysis Workspace. You can set Analytics variables globally, or in individual rules.
 
 ### Set global variables
 
 Global variables are ideal in cases where you want to set variable values on all pages where your data element exists.
 
 1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-1. Click the desired Launch property.
+1. Click the desired tag property.
 1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
 1. Click the [!UICONTROL Global variables] accordion, which reveals the interface to assign global variables.
 
@@ -34,7 +34,7 @@ Global variables are ideal in cases where you want to set variable values on all
 Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-1. Click the desired Launch property.
+1. Click the desired tag property.
 1. Click the [!UICONTROL Rules] tab, then click on the desired rule (or create one).
 1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].
 1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.

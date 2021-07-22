@@ -29,22 +29,24 @@ The Experience Cloud debugger is a Chrome plug-in that shows all Experience Clou
 
 Once you've validated you're seeing data, you can push your implementation to the live version of your site.
 
-1. Go to [Launch/Data Collection](https://launch.adobe.com) and log in if prompted.
-2. Click the tags property that you intend to implement on your site.
-3. Click the Publishing tab and locate your library in the development column.
-4. Click the dropdown on the library, then select Submit for Approval. Click Submit on the modal window.
-5. Click the library's dropdown again (now in the Submitted column), and select Build for Staging.
-6. After a few moments, the yellow colored light on the library turns green, indicating a successful build.
-7. Click the library's dropdown again, and select Approve for Publishing.
-8. Click the library's dropdown again (now in the Approved column), and select Build and Publish to Production.
-9. Go to the Environments tab, the click Production Environment.
-10. Copy the production header + footer code, and provide it to your website owners. Request that they implement this code on your site's production environment.
+1. Go to [experience.adobe.com](https://experience.adobe.com) and log in when prompted.
+1. Select **[!UICONTROL Launch / Data Collection]**.
+1. Click **[!UICONTROL Go to Launch / Data Collection]**, then select **[!UICONTROL Tags]**.
+1. Click the tag property that you intend to implement on your site.
+1. Click the **[!UICONTROL Publishing]** tab and locate your library in the development column.
+1. Click the dropdown on the library, then select **[!UICONTROL Submit for Approval]**. Click **[!UICONTROL Submit]** on the modal window.
+1. Click the library's dropdown again (now in the Submitted column), and select **[!UICONTROL Build for Staging]**.
+1. After a few moments, the yellow colored light on the library turns green, indicating a successful build.
+1. Click the library's dropdown again, and select **[!UICONTROL Approve for Publishing]**.
+1. Click the library's dropdown again (now in the [!UICONTROL Approved] column), and select **[!UICONTROL Build and Publish to Production]**.
+1. Go to the Environments tab, the click **[!UICONTROL Production Environment]**.
+1. Copy the production header + footer code, and provide it to your website owners. Request that they implement this code on your site's production environment.
 
 ## Validate your production implementation
 
 Confirm that you're seeing data on the live version of your site, and begin official data collection for Adobe Analytics.
 
-1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the Adobe Experience Cloud debugger.
+1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the [!UICONTROL Adobe Experience Cloud debugger].
 2. If everything is working, you should see similar data to your tests in your dev environment. At this point, you are now collecting data on your site and can now start using Adobe Analytics for reporting.
 
 ## Troubleshooting

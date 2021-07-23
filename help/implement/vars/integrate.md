@@ -24,7 +24,7 @@ An organization working with an Adobe partner can use these steps to successfull
 
 ### Obtain Integrate Module code
 
-Obtaining module code requires a user with Product Admin access, or belonging to a product profile with access to the Code Manager. The method to obtain module code is the same for all implementation methods, including Adobe Experience Platform Launch.
+Obtaining module code requires a user with Product Admin access, or belonging to a product profile with access to the Code Manager. The method to obtain module code is the same for all implementation methods, including tags in Adobe Experience Platform.
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 1. Click the 9-square icon in the upper right, then click the colored Analytics logo.
@@ -34,10 +34,12 @@ Obtaining module code requires a user with Product Admin access, or belonging to
 
 ### Place the Integrate Module in your implementation
 
-Implementing the Integrate Module on your site requires access to Adobe Experience Platform Launch. If you use a legacy JavaScript implementation, access to your organization's website source code is required.
+Implementing the Integrate Module on your site requires access to the Data Collection UI in Adobe Experience Platform. If you use a legacy JavaScript implementation, access to your organization's website source code is required.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your Adobe ID credentials.
-2. Click the Launch property you intend to edit.
+1. Go to `experience.adobe.com` and log in when prompted.
+1. Select [!UICONTROL Launch / Data Collection].
+1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+2. Click the tag property you intend to edit.
 3. Click the Extensions tab, then click Configure under Adobe Analytics.
 4. Open the 'Configure tracker using custom code' accordion, then click '</> Open Editor'.
 5. Paste the Integrate Module code into the code modal window. Click Save once complete.

@@ -10,7 +10,7 @@ exl-id:
 
 To implement multi-suite tagging, you must include the Report Suite ID (RSID) for the global report suite and also the RSIDs for the applicable child report suites in the tracking code for your webpages and apps.
 
-* For Adobe Experience Platform Launch implementations, specify each of the report suites for the [[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html).
+* For Adobe Experience Platform tags implementations, specify each of the report suites for the [[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 * For legacy JavaScript and mobile SDK implementations, separate the RSIDs with commas and no spaces (`rsid1,rsid2,rsid3` and so on).
 

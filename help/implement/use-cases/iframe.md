@@ -7,7 +7,7 @@ exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 
 You can reference AppMeasurement variables from both child and parent iframes. It is necessary to define all variables in the same location where the AppMeasurement library exists. The following examples explain how to set basic AppMeasurement variables and methods inside and outside an iframe.
 
-If you use Adobe Experience Platform Launch, make sure that the tracker object is globally accessible. See [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) in the Launch user guide.
+If you use tags in Adobe Experience Platform, make sure that the tracker object is globally accessible. See [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 >[!CAUTION]
 >

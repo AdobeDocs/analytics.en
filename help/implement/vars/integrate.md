@@ -39,10 +39,10 @@ Implementing the Integrate Module on your site requires access to the Data Colle
 1. Go to `experience.adobe.com` and log in when prompted.
 1. Select [!UICONTROL Launch / Data Collection].
 1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
-2. Click the tag property you intend to edit.
-3. Click the Extensions tab, then click Configure under Adobe Analytics.
-4. Open the 'Configure tracker using custom code' accordion, then click '</> Open Editor'.
-5. Paste the Integrate Module code into the code modal window. Click Save once complete.
+1. Click the tag property you intend to edit.
+1. Click the Extensions tab, then click Configure under Adobe Analytics.
+1. Open the 'Configure tracker using custom code' accordion, then click '</> Open Editor'.
+1. Paste the Integrate Module code into the code modal window. Click Save once complete.
 
 ## Integrate Module methods
 

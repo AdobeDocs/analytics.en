@@ -24,7 +24,7 @@ If you intend to implement Cross-Device Analytics using the device graph method,
 
 * All prerequisites listed on the [overview page](overview.md).
 * Your organization must use the Adobe Experience Platform Identity Service Co-op Graph or Private Graph. See the [Home Page](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) in the Device Co-op user guide.
-* Your implementation must use the latest version of the Experience Cloud ID Service. See the [Home Page](https://experienceleague.adobe.com/docs/id-service/using/home.html) in the Experience Cloud Identity Service user guide. Most implementations using Adobe Experience Platform Launch likely already have ECID deployed.
+* Your implementation must use the latest version of the Experience Cloud ID Service. See the [Home Page](https://experienceleague.adobe.com/docs/id-service/using/home.html) in the Experience Cloud Identity Service user guide. Most implementations using tags in Adobe Experience Platform likely already have ECID deployed.
 * Your implementation must call the `setCustomerIDs` function (or SDK equivalent) whenever an individual can be identified, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. See [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in the Experience Cloud Identity Service user guide.
 
 ## Limitations specific to the device graph

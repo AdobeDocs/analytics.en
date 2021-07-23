@@ -12,7 +12,7 @@ Mobile dimensions provide insight around the properties of mobile devices that v
 ## Populate these dimensions with data
 
 These dimensions reference lookup rules that are internal to Adobe. [!UICONTROL Mobile Carrier] lookups are determined by IP address, using data we get from NetAcuity (a Digital Elements product). 
-If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), all mobile dimensions work out of the box.
+If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), all mobile dimensions work out of the box.
 
 ## Mobile dimension descriptions
 

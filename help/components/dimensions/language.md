@@ -13,7 +13,7 @@ The 'Language' dimension shows the top languages that visitors prefer to see con
 
 ## Populate this dimension with data
 
-This dimension references a lookup table internal to Adobe. The lookup value is based on the `Accept-Language` HTTP header in image requests. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box.
+This dimension references a lookup table internal to Adobe. The lookup value is based on the `Accept-Language` HTTP header in image requests. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box.
 
 ## Dimension items
 

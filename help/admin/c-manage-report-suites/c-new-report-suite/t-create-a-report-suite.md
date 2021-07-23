@@ -41,4 +41,4 @@ Ensure that you've logged in through the [Experience Cloud](https://experience.a
 
 ## Next steps
 
-[Create and configure a property for Adobe Analytics in Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Create an area to manage your Analytics implementation
+[Create an Adobe Analytics tag property ](/help/implement/launch/create-analytics-property.md): Create an area to manage your Analytics implementation

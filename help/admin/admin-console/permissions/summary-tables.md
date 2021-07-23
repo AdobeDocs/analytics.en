@@ -67,7 +67,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 
 | Analytics Tool | Administration | Access Controls | Reports-only Features | Deprecated | Description |
 | --- | --- | --- | --- | --- | --- |
-| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in Adobe Experience Platform Launch instead. |
+| Code Manager | x |  |  |  | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in Adobe Experience Platform Data Collection instead. |
 | Code Manager - Web Services | x |  |  |  | Grants access to the Code Manager via the 1.4 API. |
 | Hide Report Suites | x |  |  |  | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
 | Integrations (Create) | x |  |  |  | Grants access to Admin > All admin > Data connectors, and allows the user to create data connectors. |

@@ -9,7 +9,7 @@ The 'Operating system types' dimension shows the overarching OS the visitor used
 
 ## Populate this dimension with data
 
-This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box.
+This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box.
 
 ## Dimension items
 

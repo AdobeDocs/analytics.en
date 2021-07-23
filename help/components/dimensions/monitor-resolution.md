@@ -17,7 +17,7 @@ Browser dimensions are always smaller than monitor resolution, since browser dim
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`s` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `screen.width` and `screen.height` in the browser. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `s` query string parameter in image requests.
+This dimension retrieves data from the [`s` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `screen.width` and `screen.height` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `s` query string parameter in image requests.
 
 ## Dimension items
 

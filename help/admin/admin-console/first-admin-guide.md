@@ -34,23 +34,23 @@ System-level admins do not have direct access to products, however they can give
 1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click Save.
 1. The user now has full access to Adobe Analytics.
 
-## Granting product admin access for Data Collection in Experience Platform (formerly called Launch)
+## Granting product admin access for Data Collection in Experience Platform
 
-Product admin access for tags in Experience Platform is nearly identical to granting product admin access for Analytics.
+Product admin access for Data Collection in Experience Platform is nearly identical to granting product admin access for Analytics.
 
 1. Log in to the Admin Console with your Adobe ID credentials.
-1. Click the Products tab at the top. All products purchased by your organization are on the left. Click Experience Platform Launch by Adobe, then click the New Profile button.
-1. Name this profile 'Experience Platform Launch full admin access', then click Done.
-1. Back on the Product Profiles page, click the newly created profile, then click the Permissions tab.
-1. Click one of the permission line items. If Auto-include is available, enable it. If auto-include is not available, click Add all. Both options move all permission items to the right column.
-1. Click save. Repeat the above step for all permission categories.
-1. Once all permission categories are granted to the profile, go back to the Overview page by clicking Overview at the top.
-1. Under the Experience Platform Launch by Adobe tile, click 'Assign Users'.
-1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click Save.
-1. The user now has full access to Experience Platform Launch.
+1. Click the **[!UICONTROL Products]** tab at the top. All products purchased by your organization are on the left. Click **[!UICONTROL Experience Platform Launch by Adobe]**, then click **[!UICONTROL New Profile]**.
+1. Name this profile 'Experience Platform Launch full admin access', then click **[!UICONTROL Done]**.
+1. Back on the **[!UICONTROL Product Profiles]** page, click the newly created profile, then click the **[!UICONTROL Permissions]** tab.
+1. Click one of the permission line items. If **[!UICONTROL Auto-include]** is available, enable it. If auto-include is not available, click **[!UICONTROL Add all]**. Both options move all permission items to the right column.
+1. Click **[!UICONTROL Save]**. Repeat the above step for all permission categories.
+1. Once all permission categories are granted to the profile, go back to the Overview page by clicking **[!UICONTROL Overview]** at the top.
+1. Under the [!UICONTROL Experience Platform Launch by Adobe] tile, click **[!UICONTROL Assign Users]**.
+1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click **[!UICONTROL Save]**.
+1. The user now has full access to Experience Platform Data Collection.
 
 ## Next Steps
 
 [Create a Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Have your Analytics admin login to the tool and create a report suite for data collection
 
-[Create a property in Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Have your Experience Platform Launch admin login to the tool and create a property to implement on your site
+[Create an Analytics tag property](/help/implement/launch/create-analytics-property.md): Have your Data Collection admin log in to the tool and create a property to implement on your site

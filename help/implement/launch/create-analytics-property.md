@@ -3,7 +3,7 @@ title: Create an Analytics property in tags
 description: Create a space to customize how data is collected, using tags.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 ---
-# Create an Analytics tag property
+# Create an Adobe Analytics tag property
 
 Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a tag admin can get a basic Adobe Analytics implementation configured correctly.
 

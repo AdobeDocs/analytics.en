@@ -44,7 +44,7 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [visitorID](vars/config-vars/visitorid.md)
     + [visitorNamespace](vars/config-vars/visitornamespace.md)
     + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-  + Page variables {page-vars}
+  + Page variables {#page-vars}
     + [Page variables overview](vars/page-vars/page-variables.md)
     + [campaign](vars/page-vars/campaign.md)
     + [channel](vars/page-vars/channel.md)

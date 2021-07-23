@@ -7,7 +7,7 @@ exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 
 >[!IMPORTANT]
 >
->This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
+>This version of data collection is no longer supported. Upgrade to either [tags in Adobe Experience Platform](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
 
 You must have access to your hosting servers to successfully implement a page with code to collect data. The following steps walk you through a basic Analytics H Code implementation.
 

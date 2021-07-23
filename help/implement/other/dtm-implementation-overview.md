@@ -8,4 +8,4 @@ exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
 ---
 # DTM implementation overview
 
-Dynamic Tag Management has been sunset. Please use [Adobe Experience Platform Launch](/help/implement/launch/overview.md) to implement Adobe Analytics.
+Dynamic Tag Management has been sunset. Please use [tags in Adobe Experience Platform](/help/implement/launch/overview.md) to implement Adobe Analytics.

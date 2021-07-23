@@ -145,9 +145,9 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
 + Implement Analytics using tags in Adobe Experience Platform {#launch}
   + [Tags overview](launch/overview.md)
-  + [Create an Analytics tag property](launch/create-analytics-property.md)
-  + [Deploy to a dev environment](launch/deploy-dev.md)
-  + [Validate and publish to prod](launch/validate-publish-prod.md)
+  + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)
+  + [Deploy to a development environment](launch/deploy-dev.md)
+  + [Validate and publish to production](launch/validate-publish-prod.md)
   + [Map data layer objects to data elements](launch/layer-to-elements.md)
   + [Map tag data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics on other platforms {#other}

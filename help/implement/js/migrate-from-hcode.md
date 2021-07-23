@@ -5,7 +5,7 @@ exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 ---
 # Migrating to AppMeasurement for JavaScript
 
-If your implementation still uses H Code, Adobe highly recommends migrating to the latest version of AppMeasurement. Implementing Analytics through [Adobe Experience Platform Launch](../launch/overview.md) is recommended, however an updated JavaScript implementation can be used.
+If your implementation still uses H Code, Adobe highly recommends migrating to the latest version of AppMeasurement. Implementing Analytics through [tags in Adobe Experience Platform](../launch/overview.md) is recommended, however an updated JavaScript implementation can be used.
 
 The following notable changes are present in AppMeasurement when compared to H Code:
 

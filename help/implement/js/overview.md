@@ -5,7 +5,7 @@ exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 ---
 # AppMeasurement for JavaScript
 
-AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [Adobe Experience Platform Launch](../launch/overview.md) is recommended.
+AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [tags in Adobe Experience Platform](../launch/overview.md) is recommended.
 
 ## Overall workflow sending data to Adobe using JavaScript
 

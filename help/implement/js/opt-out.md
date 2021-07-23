@@ -21,19 +21,22 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 The opt-out page for your organization depends on the [`trackingServer`](../vars/config-vars/trackingserver.md) variable value in your implementation.
 
-* In Adobe Experience Platform Launch:
-  1. Log in to [launch.adobe.com](https://launch.adobe.com) and click the desired property.
-  2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-  3. Click the [!UICONTROL General] accordion, and note the [!UICONTROL Tracking Server] value.
+* In the Adobe Experience Platform Data Collection UI:
+  1. Go to `experience.adobe.com` and log in when prompted.
+  1. Select [!UICONTROL Launch / Data Collection].
+  1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+  1. Click the desired property.
+  1. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics. 
+  1. Click the [!UICONTROL General] accordion, and note the [!UICONTROL Tracking Server] value.
 
 * In a JavaScript implementation:
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
-  2. Note the `trackingServer` variable value.
+  1. Note the `trackingServer` variable value.
 
 * Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html):
   1. Navigate to your site using the Chrome browser.
-  2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-  3. Note the [!UICONTROL Request URL - Hostname] value.
+  1. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
+  1. Note the [!UICONTROL Request URL - Hostname] value.
 
 Once you have found your implementation's `trackingServer` domain, append the path `/optout.html` to the end. For example:
 

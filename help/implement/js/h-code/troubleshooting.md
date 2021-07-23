@@ -11,7 +11,7 @@ The following are troubleshooting steps specific to H code implementations.
 
 >[!NOTE]
 >
->While H Code implementations require code be referenced in the `<body>` tag, other implementations (such as using Adobe Experience Platform Launch) require code be referenced in the `<head>` tag.
+>While H Code implementations require code be referenced in the `<body>` tag, other implementations (such as using tags in Adobe Experience Platform) require code be referenced in the `<head>` tag.
 
 Analytics code creates an invisible 1x1 pixel image. Previously, a common implementation practice was to place the `s_code.js` reference in the `<head>` tag. Placing the code here prevented the image from affecting page layout in any way. It also executes sooner, which lets you count page views for partial page loads more effectively.
 

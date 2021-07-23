@@ -17,7 +17,7 @@ The same report can show different results between Analysis Workspace and Data W
 
 This dimension requires configuration in the Analytics interface and data in image requests.
 
-* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. You can use the [`referrer`](/help/implement/vars/page-vars/referrer.md) variable override to manually set it. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
+* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. You can use the [`referrer`](/help/implement/vars/page-vars/referrer.md) variable override to manually set it. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
 * Within the Analytics interface, you must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
 
 ## Dimension items

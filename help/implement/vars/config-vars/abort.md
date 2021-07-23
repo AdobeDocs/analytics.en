@@ -7,11 +7,11 @@ exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 
 The `abort` variable is a boolean that can prevent the next tracking call from being sent to Adobe.
 
-## Using the abort variable in Adobe Experience Platform Launch
+## Using the abort variable in the Data Collection UI in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## AppMeasurement syntax and custom code editor in Launch
+## AppMeasurement syntax and custom code editor in the Data Collection UI
 
 The `abort` variable is a boolean. Its default value is `false`.
 

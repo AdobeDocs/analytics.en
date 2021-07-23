@@ -14,14 +14,14 @@ Analytics provides a number of variables to collect Analytics data. Variables in
 
 ## Variables and implementation methods
 
-Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using Launch and AppMeasurement for JavaScript.
+Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using tags in Adobe Experience Platform and AppMeasurement for JavaScript.
 
 ## Order of operations
 
 AppMeasurement libraries published by Adobe Analytics follow a specific order when sending data to Adobe. If you execute these tasks out of order, data can be incomplete.
 
 1. If your site uses a data layer, make sure all applicable variables are populated first. See [Data layer](../prepare/data-layer.md) for more information.
-2. Use the data layer to populate Analytics variables. If you use Launch, this task is easily accomplished by using data elements, then assigning the data element to a variable. See [Data elements](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html) in the Launch user guide.
+2. Use the data layer to populate Analytics variables. If you use tags in Adobe Experience Platform, this task is easily accomplished by using data elements, then assigning the data element to a variable. See [Data elements](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html).
 3. Call the tracking function. Most AppMeasurement libraries use the `t()` method, however some mobile SDK's use `track()`. When the tracking function is called, all supported variables defined in the Analytics object are sent to Adobe in the form of an image request.
 
 ## Illegal characters

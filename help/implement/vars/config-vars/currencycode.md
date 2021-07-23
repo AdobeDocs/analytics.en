@@ -19,14 +19,16 @@ If `currencyCode` is defined and is different than the report suite's currency, 
 
 This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
 
-## Currency Code in Adobe Experience Platform Launch
+## Currency Code in Adobe Experience Platform tags
 
 Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
+1. Go to `experience.adobe.com` and log in when prompted.
+1. Select [!UICONTROL Launch / Data Collection].
+1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Click the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
@@ -35,12 +37,12 @@ You can use either a preset currency code or a custom currency code. If using a 
 Currency Code is passed to the Adobe Experience Platform Mobile SDKs through context data variables in the Adobe Analytics extension.
 
 1. Set the currency code in a context data variable during either `trackState` or `trackAction`.
-2. Create a processing rule in the Adobe Analytics admin console for the report suite. Set the rule to overwrite the Currency Code variable.
-3. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
+1. Create a processing rule in the Adobe Analytics admin console for the report suite. Set the rule to overwrite the Currency Code variable.
+1. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
-## s.currencyCode in AppMeasurement and Launch custom code editor
+## s.currencyCode in AppMeasurement and Data Collection custom code editor
 
 The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.
 

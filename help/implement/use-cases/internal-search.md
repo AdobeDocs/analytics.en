@@ -29,9 +29,9 @@ Follow [Map data layer objects to data elements](../launch/layer-to-elements.md)
 
 ## Map the data element to the eVar
 
-Follow [Map Launch data elements to Analytics variables](../launch/elements-to-variable.md). Make sure that you select the same eVar that you created in Report suite settings.
+Follow [Map data elements to Analytics variables](../launch/elements-to-variable.md). Make sure that you select the same eVar that you created in Report suite settings.
 
-## Start the Launch deployment process
+## Start deploying tags
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Once you have confirmed it is working in your dev environment, you can [Validate a development implementation and publish to production](../launch/validate-publish-prod.md).
 

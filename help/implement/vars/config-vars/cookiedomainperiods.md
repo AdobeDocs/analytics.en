@@ -20,14 +20,16 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 
 Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
+1. Go to `experience.adobe.com` and log in when prompted.
+1. Select [!UICONTROL Launch / Data Collection].
+1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Click the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
 
 Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## s.cookieDomainPeriods in AppMeasurement and Launch custom code editor
+## s.cookieDomainPeriods in AppMeasurement and custom code editor
 
 The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
 

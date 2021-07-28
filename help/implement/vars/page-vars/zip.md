@@ -11,11 +11,11 @@ The `zip` variable allows you to manually populate the 'Zip Code' dimension if t
 >
 >Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL geo zip] is always used. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
 
-## Zip in Adobe Experience Platform Launch
+## Zip using tags in Adobe Experience Platform
 
 You can set Zip Code either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -24,7 +24,7 @@ You can set Zip Code either while configuring the Analytics extension (global va
 
 You can set Zip Code to any string value, including data elements.
 
-## s.zip in AppMeasurement and Launch custom code editor
+## s.zip in AppMeasurement and custom code editor
 
 The `s.zip` variable is a string that typically contains a Zip Code, but can contain any desired value up to 50 bytes in length.
 

@@ -11,11 +11,11 @@ exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 
 The `getVisitDuration` plug-in tracks the amount of time in minutes that the visitor has been on the site up to that point. Adobe recommends using this plug-in if you want to track cumulative time on the site up to that point, or to track the time it takes to perform an activity. This plug-in does not track the amount of time between events; if this functionality is desired, use the [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+## Install the plug-in using tags in Adobe Experience Platform
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
@@ -27,11 +27,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getVisitDuration
 1. Save and publish the changes to the rule.
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.

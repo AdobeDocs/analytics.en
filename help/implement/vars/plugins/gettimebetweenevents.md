@@ -11,11 +11,11 @@ exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 
 The `getTimeBetweenEvents` plug-in allows you to track the amount of time between any two Analytics events, including shopping cart and custom events. It is useful in tracking the amount of time it takes for a checkout process to complete, or any other process that you want to measure time. This plug-in is unnecessary if you don't have any conversion processes that you want to measure how long they take.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+## Install the plug-in using tags in Adobe Experience Platform
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
@@ -27,11 +27,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getTimeBetweenEvents
 1. Save and publish the changes to the rule.
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.

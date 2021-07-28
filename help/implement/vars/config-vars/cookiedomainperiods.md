@@ -16,13 +16,11 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 >
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
-## Domain Periods in Adobe Experience Platform Launch
+## Domain Periods using tags in Adobe Experience Platform
 
 Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Go to `experience.adobe.com` and log in when prompted.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.

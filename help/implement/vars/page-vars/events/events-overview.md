@@ -9,11 +9,11 @@ Dimensions and metrics are vital components to reports. The `events` variable is
 
 Before implementing events, make sure that you create and configure them under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
 
-## Events in Adobe Experience Platform Launch
+## Events using tags in Adobe Experience Platform
 
 You can set events either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -27,7 +27,7 @@ Several features are available:
 * An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
 * A button to add another event. There is not a reasonable limit to the number of events you can include in a hit.
 
-## s.events in AppMeasurement and Launch custom code editor
+## s.events in AppMeasurement and custom code editor
 
 The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. There is no byte limit for this variable, so it does not get truncated. Valid values include:
 

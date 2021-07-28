@@ -9,15 +9,15 @@ Some implementations don't want to include all variables in all link tracking im
 
 This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
-## Variables in link tracking calls using Adobe Experience Platform Launch
+## Variables in link tracking calls using tags in Adobe Experience Platform
 
-Launch automatically populates this variable on the backend based on variables set in the interface, so it is always set in implementations using Launch.
+Data Collection automatically populates this variable on the backend based on variables set in the interface, so it is always set in implementations using tags in Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->If you set variables in Launch using the custom code editor, you must include the variable in `linkTrackVars` using custom code as well.
+>If you set variables using the custom code editor, you must include the variable in `linkTrackVars` using custom code as well.
 
-## s.linkTrackVars in AppMeasurement and Launch custom code editor
+## s.linkTrackVars in AppMeasurement and custom code editor
 
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Both of the following criteria must be met to include dimensions in link tracking hits:
 

@@ -11,11 +11,11 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 
 The `getVisitNum` plug-in returns the visit number for all visitors that come to the site within the desired number of days. Analysis Workspace offers a 'Visit Number' dimension that provides similar functionality. Adobe recommends using this plug-in if you want more control over how visit number is incremented. This plug-in is unnecessary if the built-in 'Visit Number' dimension in Analysis Workspace is sufficient for your reporting needs.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+## Install the plug-in using tags in Adobe Experience Platform
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
@@ -27,11 +27,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getVisitNum
 1. Save and publish the changes to the rule.
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.

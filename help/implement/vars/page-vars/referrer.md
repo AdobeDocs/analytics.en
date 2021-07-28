@@ -7,11 +7,11 @@ exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 
 The `referrer` variable overrides the automatically collected referrer in reports. This variable is helpful in situations where the referrer might be lost, such as during redirects or temporarily forwarding the visitor to a payment processor. This variable helps populate the 'Referrer' and 'Referring Domain' dimensions.
 
-## Referrer in Adobe Experience Platform Launch
+## Referrer using tags in Adobe Experience Platform
 
 You can set referrer either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -20,7 +20,7 @@ You can set referrer either while configuring the Analytics extension (global va
 
 You can set referrer to any string value, including data elements.
 
-## s.referrer in AppMeasurement and Launch custom code editor
+## s.referrer in AppMeasurement and custom code editor
 
 The `s.referrer` variable is a string containing the URL of the previous page. This variable can store a maximum of 255 bytes; values larger than 255 bytes are truncated. AppMeasurement automatically sets this variable to `document.referrer`; you do not need to set this variable unless you want to override the automatically collected value.
 

@@ -15,18 +15,18 @@ If this variable contains a value, automatic exit link tracking behaves like an 
 
 If you use both `linkInternalFilters` and `linkExternalFilters` simultaneously, the clicked link must match `linkExternalFilters` **and** not match `linkInternalFilters` to be considered an exit link. If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
-## Outbound Links - Track in Adobe Experience Platform Launch
+## Outbound Links - Track using tags in Adobe Experience Platform
 
 The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Outbound Links - Track] field.
 
 Place filters that you want to always consider external in this field. Separate multiple domains by a comma without a space.
 
-## s.linkExternalFilters in AppMeasurement and Launch custom code editor
+## s.linkExternalFilters in AppMeasurement and custom code editor
 
 The `s.linkExternalFilters` variable is a string containing filters (such as domains) that you consider exit links. Separate multiple domains using a comma without spaces.
 

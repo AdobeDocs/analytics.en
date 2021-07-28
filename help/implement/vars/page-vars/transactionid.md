@@ -15,11 +15,11 @@ When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics
 
 By default, Adobe remembers all transaction ID values (linked and unlinked) for up to 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have this limit extended.
 
-## Transaction ID in Adobe Experience Platform Launch
+## Transaction ID using tags in Adobe Experience Platform
 
 You can set transaction ID either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -28,7 +28,7 @@ You can set transaction ID either while configuring the Analytics extension (glo
 
 You can set transaction ID to any string value, including data elements.
 
-## s.transactionID in AppMeasurement and Launch custom code editor
+## s.transactionID in AppMeasurement and custom code editor
 
 The `s.transactionID` variable is a string containing a unique identifier for a transaction. Valid values include alphanumeric characters up to 100 bytes in length. Its default value is an empty string.
 

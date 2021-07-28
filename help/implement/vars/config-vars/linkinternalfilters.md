@@ -17,18 +17,18 @@ Activity map uses this variable to help determine what links are internal to you
 >
 >`linkInternalFilters` and [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) are separate features that fulfill separate purposes. The `linkInternalFilters` variable works specifically for exit link tracking. Internal URL filters are an Admin setting that help with traffic sources dimensions like Referring Domain.
 
-## Outbound Links - Never Track in Adobe Experience Platform Launch
+## Outbound Links - Never Track using tags in Adobe Experience Platform
 
 The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Outbound Links - Never Track] field.
 
 Place filters that you want to never be tracked as exit links in this field. Separate multiple domains by a comma without a space.
 
-## s.linkInternalFilters in AppMeasurement and Launch custom code editor
+## s.linkInternalFilters in AppMeasurement and custom code editor
 
 The `s.linkInternalFilters` variable is a string containing filters (such as domains) that you consider internal to your site. Separate multiple filters using a comma without spaces.
 

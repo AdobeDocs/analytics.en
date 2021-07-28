@@ -18,8 +18,8 @@ This plug-in performs two checks:
 
 If the user agent is on a desktop and no mouse movement is detected, the plug-in can 
 
-* Either make a [!UICONTROL Direct Call] rule call (for Adobe Experience Platform Launch), or 
-* make an `s.tl` call to indicate the visitor is not a bot.
+* Either make a direct call rule call using tags in Adobe Experience Platform, or 
+* Make a link tracking call to indicate that the visitor is not a bot.
 
 ## Prerequisites
 
@@ -28,12 +28,12 @@ Adobe recommends the following before using this plug-in:
 * **Configure eVar settings**: Set up an eVar under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings. Set the expiration to **Never** or **Visit** and allocation to **"Original Value (First)"**. This eVar should be set in both of these circumstances: when either the [!UICONTROL Direct Call] rule or the `s.tl` call is fired.
 * **Collect user agent in a separate variable**: Collect the user agent string in a separate variable to monitor the efficacy of this plug-in. Set an eVar to `navigator.UserAgent` on every hit to collect this data.
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 1. Add a new `websiteBot` rule.
 1. Add a **Mouse Move Listener** event to the `websiteBot` rule, with this custom code:
 
-   ```
+   ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
     document.removeEventListener('mousemove', detectMouseMove, false);   
     if (!
@@ -109,5 +109,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (June 3, 2021)
 
 * Updated AppMeasurement plug-in code
-* Updated Launch section with expanded instructions.
+* Updated custom code editor section with expanded instructions.
 * Updated "Use the plug-in" section.

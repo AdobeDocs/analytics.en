@@ -9,20 +9,20 @@ The `tl()` method is an important core component to Adobe Analytics. It takes al
 
 If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExternalLinks`](../config-vars/trackexternallinks.md) are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
 
-## Link tracking call in Adobe Experience Platform Launch
+## Link tracking call using tags in Adobe Experience Platform
 
-Launch has a dedicated location set a link tracking call.
+The Data Collection UI has a dedicated location set a link tracking call.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 1. Under [!UICONTROL Actions], click the '+' icon
 1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
 1. Click the `s.tl()` radio button.
 
-You cannot set any optional arguments in Launch.
+You cannot set any optional arguments in the Data Collection UI.
 
-## s.tl() method in AppMeasurement and Launch custom code editor
+## s.tl() method in AppMeasurement and custom code editor
 
 Call the `s.tl()` method when you want to send a tracking call to Adobe.
 

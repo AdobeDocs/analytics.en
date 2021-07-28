@@ -11,18 +11,18 @@ The `products` variable tracks products and properties tied to them. This variab
 >
 >If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Make sure that you set the appropriate shopping cart event on each hit with the `products` variable.
 
-## Products in Adobe Experience Platform Launch
+## Products using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to set this variable; however, multiple third-party extensions exist to help.
+There is not a dedicated field in the Data Collection UI to set this variable; however, multiple third-party extensions exist to help.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
 4. Search for the term "product", which reveals several extensions available to help set this variable.
 
 You can use one of these extensions, or you can use the custom code editor following AppMeasurement syntax below.
 
-## s.products in AppMeasurement and Launch custom code editor
+## s.products in AppMeasurement and custom code editor
 
 The `s.products` variable is a string that contains multiple delimited fields per product. Each individual product can contain up to 100 bytes across all fields. Delimit each field with a semicolon (`;`) in the string.
 

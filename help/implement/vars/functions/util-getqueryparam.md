@@ -7,11 +7,11 @@ exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 
 Query string parameters in a browser URL frequently contain important data for Analytics. Use the `Util.getQueryParam()` method to retrieve data from the query string.
 
-## Get query string parameter data in Adobe Experience Platform Launch
+## Get query string parameter data using tags in Adobe Experience Platform
 
 You can get query string parameter data by setting values in data elements.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
 4. Set the [!UICONTROL Extension] dropdown to [!UICONTROL Core], and the [!UICONTROL Data Element Type] to [!UICONTROL Query String Parameter].
@@ -19,7 +19,7 @@ You can get query string parameter data by setting values in data elements.
 
 The query string parameter value is stored in the data element. You can then reference the data element in rules to assign Analytics variables.
 
-## s.Util.getQueryParam() in AppMeasurement and Launch custom code editor
+## s.Util.getQueryParam() in AppMeasurement and custom code editor
 
 Call the `s.Util.getQueryParam()` method to retrieve a query string value from the browser URL. The string argument containing a query string parameter is required. This method returns a string, which you can assign to Analytics variables:
 

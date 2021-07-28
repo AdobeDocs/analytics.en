@@ -13,9 +13,7 @@ Set this variable only if you see garbled values ([mojibake](https://en.wikipedi
 
 Character Set is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Go to `experience.adobe.com` and log in when prompted.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Character Set] field.

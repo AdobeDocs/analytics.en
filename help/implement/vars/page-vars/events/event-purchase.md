@@ -17,18 +17,18 @@ When you set a purchase event, it affects the following metrics:
 >
 >Revenue is not multiplied by the quantity field. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. For example,`s.products="Womens;Socks;5;22.50"`.
 
-## Set the purchase event in Adobe Experience Platform Launch
+## Set the purchase event using tags in Adobe Experience Platform
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Events] section, and set the events dropdown to [!UICONTROL purchase].
 
-Other dependent variables like `products` and `purchaseID` do not have dedicated fields in Launch. Use the custom code editor following AppMeasurement syntax for these variables.
+Other dependent variables like `products` and `purchaseID` do not have dedicated fields in the Data Collection UI. Use the custom code editor following AppMeasurement syntax for these variables.
 
-## Set the purchase event in AppMeasurement and Launch custom code editor
+## Set the purchase event in AppMeasurement and custom code editor
 
 The purchase event is a string that is set as part of the events variable.
 

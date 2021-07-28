@@ -7,18 +7,18 @@ exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 
 The `s_gi()` function instantiates or finds an instance of AppMeasurement by report suite ID. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. If an instance does not exist, a new instance is created.
 
-## s_gi() in Adobe Experience Platform Launch
+## s_gi() using tags in Adobe Experience Platform
 
 The Analytics extension instantiates and manages the tracking object for you. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL Library Management] accordion, and select any radio button other than [!UICONTROL Manage the library for me].
 
 The global variable text field lets you set a custom tracking object. Its default value is `s`.
 
-## s_gi() in AppMeasurement and Launch custom code editor
+## s_gi() in AppMeasurement and custom code editor
 
 Call the `s_gi()` function to instantiate a tracking object. Its only argument contains a comma-delimited string of report suite IDs. The report suite ID argument is required.
 

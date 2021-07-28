@@ -11,13 +11,11 @@ Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `
 >
 >This variable impacts unique visitor counts and attribution. Use caution when setting this variable.
 
-## Cookie Lifetime in Adobe Experience Platform tags
+## Cookie Lifetime using tags in Adobe Experience Platform
 
 Cookie Lifetime is a dropdown under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Go to `experience.adobe.com` and log in when prompted.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Cookie Lifetime] dropdown.
@@ -29,7 +27,7 @@ This dropdown contains the following values:
 * **Session**: Cookie expires at the end of the visitor's session.
 * **Seconds**: Cookie expires after the specified number of seconds have elapsed. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
 
-## s.cookieLifetime in AppMeasurement and Data Collection custom code editor
+## s.cookieLifetime in AppMeasurement and custom code editor
 
 The `s.cookieLifetime` variable is a string that determines the expiration date of cookies set by AppMeasurement.
 

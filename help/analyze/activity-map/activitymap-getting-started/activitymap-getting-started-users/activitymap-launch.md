@@ -6,6 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 ---
+
 # Launch Activity Map{#launch-activity-map}
 
 Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.

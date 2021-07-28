@@ -36,7 +36,7 @@ After completing the integration wizard, deploy the integration configuration ob
 
 >[!NOTE]
 >
->If you use Adobe Experience Platform Launch, you can easily add the integration configuration object through that tool.
+>If you use tags in Adobe Experience Platform Data Collection, you can easily add the integration configuration object through that tool.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Download and save the **[!UICONTROL Kampyle Integration Code (JS)]** resource. The code looks similar to this:
@@ -48,7 +48,7 @@ After completing the integration wizard, deploy the integration configuration ob
 
 1. Deploy the code using one of the following methods:
 
-   * Use Adobe Experience Platform Launch.
+   * Use tags in Adobe Experience Platform Data Collection.
    * Deliver the code to the organizational resource that maintains your Adobe Analytics deployment.
 
 ## Verify the Integration{#verify-the-integration}

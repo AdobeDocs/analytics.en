@@ -18,9 +18,7 @@ Once your organization has established and implemented a data layer on your site
 
 [Data elements](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) are components in the Data Collection UI that you can use across the tool. You can assign variable values in the Adobe Analytics extension using data elements.
 
-1. Go to [experience.adobe.com](https://experience.adobe.com) and log in when prompted.
-1. Select **[!UICONTROL Launch / Data Collection]**.
-1. Click **[!UICONTROL Go to Launch / Data Collection]**, then select **[!UICONTROL Tags]**.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
 1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Add Data Element]**.
 

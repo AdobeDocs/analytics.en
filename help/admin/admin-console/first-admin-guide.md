@@ -39,15 +39,15 @@ System-level admins do not have direct access to products, however they can give
 Product admin access for Data Collection in Experience Platform is nearly identical to granting product admin access for Analytics.
 
 1. Log in to the [Adobe Admin Console](https://adminconsole.adobe.com) with your Adobe ID credentials.
-2. Click the **[!UICONTROL Products]** tab at the top. All products purchased by your organization are on the left. Click **[!UICONTROL Experience Platform Launch]**, then click **[!UICONTROL New Profile]**.
-3. Name this profile 'Data Collection full admin access', then click **[!UICONTROL Done]**.
-4. Back on the **[!UICONTROL Product Profiles]** page, click the newly created profile, then click the **[!UICONTROL Permissions]** tab.
-5. Click one of the permission line items. If **[!UICONTROL Auto-include]** is available, enable it. If auto-include is not available, click **[!UICONTROL Add all]**. Both options move all permission items to the right column.
-6. Click **[!UICONTROL Save]**. Repeat the above step for all permission categories.
-7. Once all permission categories are granted to the profile, go back to the Overview page by clicking **[!UICONTROL Overview]** at the top.
-8. Under the [!UICONTROL Experience Platform Launch] tile, click **[!UICONTROL Assign Users]**.
-9. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click **[!UICONTROL Save]**.
-10. The user now has full access to Experience Platform Data Collection.
+1. Click the **[!UICONTROL Products]** tab at the top. All products purchased by your organization are on the left. Click **[!UICONTROL Experience Platform Launch]**, then click **[!UICONTROL New Profile]**.
+1. Name this profile 'Data Collection full admin access', then click **[!UICONTROL Done]**.
+1. Back on the **[!UICONTROL Product Profiles]** page, click the newly created profile, then click the **[!UICONTROL Permissions]** tab.
+1. Click one of the permission line items. If **[!UICONTROL Auto-include]** is available, enable it. If auto-include is not available, click **[!UICONTROL Add all]**. Both options move all permission items to the right column.
+1. Click **[!UICONTROL Save]**. Repeat the above step for all permission categories.
+1. Once all permission categories are granted to the profile, go back to the Overview page by clicking **[!UICONTROL Overview]** at the top.
+1. Under the [!UICONTROL Experience Platform Launch] tile, click **[!UICONTROL Assign Users]**.
+1. Enter the email address you would like to give full Analytics access to, and assign them the newly created full admin access profile. Click **[!UICONTROL Save]**.
+1. The user now has full access to Experience Platform Data Collection.
 
 ## Next Steps
 

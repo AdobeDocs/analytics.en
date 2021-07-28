@@ -31,7 +31,7 @@ Tags accommodates many organizational workflows in deploying code. Follow these 
 
 Despite all the changes and configurations made so far, no code has actually been published. Creating a library, roughly translated as a collection of changes, allows the publishing of code to be used on your site.
 
-1. Go to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) and log in if prompted.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click the Publishing tab, then click Add New Library.
 4. Name the library 'Initial changes', and select your development environment.

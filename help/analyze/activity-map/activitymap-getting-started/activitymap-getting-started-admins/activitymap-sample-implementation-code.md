@@ -1,5 +1,5 @@
 ---
-description: Implement Activity Map using Adobe Experience Platform Data Collection.
+description: Implement Activity Map using tags in Adobe Experience Platform Data Collection.
 title: Implement Activity Map
 feature: Activity Map
 role: User, Admin

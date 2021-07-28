@@ -18,7 +18,7 @@ Once you have created and configured a tag property, the libraries are ready to 
 
 Tags accommodates many organizational workflows in deploying code. Follow these steps to create the minimum necessary components for an Analytics implementation. As a tag admin, you can work within your organization to establish the correct workflow for deploying Adobe solutions.
 
-1. Go to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) and log in if prompted.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click the Adapters tab, then click Add Adapter.
 4. Name it "Akamai", and select Akamai in the type dropdown. Click Save.

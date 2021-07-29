@@ -18,7 +18,7 @@ Once you have created and configured a tag property, the libraries are ready to 
 
 Tags accommodates many organizational workflows in deploying code. Follow these steps to create the minimum necessary components for an Analytics implementation. As a tag admin, you can work within your organization to establish the correct workflow for deploying Adobe solutions.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click the Adapters tab, then click Add Adapter.
 4. Name it "Akamai", and select Akamai in the type dropdown. Click Save.
@@ -31,7 +31,7 @@ Tags accommodates many organizational workflows in deploying code. Follow these 
 
 Despite all the changes and configurations made so far, no code has actually been published. Creating a library, roughly translated as a collection of changes, allows the publishing of code to be used on your site.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click the Publishing tab, then click Add New Library.
 4. Name the library 'Initial changes', and select your development environment.

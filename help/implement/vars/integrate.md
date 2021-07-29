@@ -36,9 +36,7 @@ Obtaining module code requires a user with Product Admin access, or belonging to
 
 Implementing the Integrate Module on your site requires access to the Data Collection UI in Adobe Experience Platform. If you use a legacy JavaScript implementation, access to your organization's website source code is required.
 
-1. Go to `experience.adobe.com` and log in when prompted.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property you intend to edit.
 1. Click the Extensions tab, then click Configure under Adobe Analytics.
 1. Open the 'Configure tracker using custom code' accordion, then click '</> Open Editor'.

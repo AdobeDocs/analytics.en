@@ -21,7 +21,7 @@ With each feature release, the timeline from RTP to GA may vary. The goal is to 
 
 ## Feature flags
 
-Feature flags are used to control the visibility of new features during release. Adobe recommends adding app.launchdarkly.com to your firewall's [allowed list](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html) for an optimal experience during release. Shortly after GA is reached, the flag is removed. 
+Feature flags are used to control the visibility of new features during release. Adobe recommends adding `app.launchdarkly.com` to your firewall's [allowed list](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html) for an optimal experience during release. Shortly after GA is reached, the flag is removed. 
 
 You can view your active feature flags at any time under **Help > About Workspace > Active feature flags**.
 

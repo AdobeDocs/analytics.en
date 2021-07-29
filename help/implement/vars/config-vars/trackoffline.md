@@ -21,11 +21,11 @@ When enabled, AppMeasurement uses the following process to send data to Adobe:
   * If it cannot reach Adobe data collection servers, the hit is added to the queue on the device.
   * If it can reach Adobe data collection servers, the hit and the queue of hits while the device was offline are sent.
 
-## Track Offline in Adobe Experience Platform Launch
+## Track Offline using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.trackOffline in AppMeasurement and Launch custom code editor
+## s.trackOffline in AppMeasurement and custom code editor
 
 The `s.trackOffline` variable is a boolean that enables or disables offline tracking. Its default value is `false`. Set this value to `true` if you want to enable offline tracking.
 

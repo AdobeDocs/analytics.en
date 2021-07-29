@@ -17,11 +17,11 @@ Each time you call the `registerPostTrackCallback` variable, you hook that funct
 >
 >The timing and order of functions fired between [`registerPreTrackCallback`](registerpretrackcallback.md) and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
 
-## Register Post Track Callback in Adobe Experience Platform Launch
+## Register Post Track Callback using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.registerPostTrackCallback in AppMeasurement and Launch custom code editor
+## s.registerPostTrackCallback in AppMeasurement and custom code editor
 
 The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs immediately after an image request is successfully sent.
 

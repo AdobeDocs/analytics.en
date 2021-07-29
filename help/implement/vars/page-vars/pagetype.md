@@ -11,11 +11,11 @@ The `pageType` variable is a flag used to designate error pages on your site, su
 >
 >Do not set this variable on non-error pages.
 
-## Page Type in Adobe Experience Platform Launch
+## Page Type using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.pageType in AppMeasurement and Launch custom code editor
+## s.pageType in AppMeasurement and custom code editor
 
 The `s.pageType` variable is a string where the value `errorPage` is its only valid value. Set this variable to this value on any error page on your site, such as on 404 pages.
 

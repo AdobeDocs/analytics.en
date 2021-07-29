@@ -17,11 +17,11 @@ When Adobe recognizes a dynamic variable prefix, it automatically copies the que
 >
 >Be mindful of maximum character limits when copying variables. For example, if copying `eVar1` to `prop1`, `prop1` can have a truncated value since it has a 100-byte limit (whereas `eVar1` has a 255-byte limit).
 
-## Dynamic variables in Adobe Experience Platform Launch
+## Dynamic variables using tags in Adobe Experience Platform
 
 You can use dynamic variables in any dimension field that accepts a string. Dimension items are typically set while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -30,7 +30,7 @@ You can use dynamic variables in any dimension field that accepts a string. Dime
 
 Place the dynamic variable prefix in the text field, followed by the query string parameter or HTTP header that you want to reference. By default, the dynamic variable prefix is `D=`.
 
-## Dynamic variables in AppMeasurement and Launch custom code editor
+## Dynamic variables in AppMeasurement and custom code editor
 
 Dynamic variables are text strings assigned to other variables. The default dynamic variable prefix is `D=`. Dynamic variables are case-sensitive.
 

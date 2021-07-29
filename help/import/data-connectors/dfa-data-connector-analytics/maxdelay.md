@@ -9,11 +9,11 @@ The `s.maxDelay` variable is used in the DFA data connector to determine the tim
 
 This variable is only used in implementations using the DFA data connector. Even with implementations using DFA, this variable is optional.
 
-## Max Delay in Adobe Experience Platform Launch
+## Max Delay using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.maxDelay in AppMeasurement and Launch custom code editor
+## s.maxDelay in AppMeasurement and custom code editor
 
 The `s.maxDelay` variable is an integer representing the number of milliseconds AppMeasurement waits for a response from DFA. If AppMeasurement doesn't receive a response from DFA in time, an image request is sent to Adobe without DFA data.
 

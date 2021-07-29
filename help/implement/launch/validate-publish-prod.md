@@ -29,9 +29,7 @@ The Experience Cloud debugger is a Chrome plug-in that shows all Experience Clou
 
 Once you've validated you're seeing data, you can push your implementation to the live version of your site.
 
-1. Go to [experience.adobe.com](https://experience.adobe.com) and log in when prompted.
-1. Select **[!UICONTROL Launch / Data Collection]**.
-1. Click **[!UICONTROL Go to Launch / Data Collection]**, then select **[!UICONTROL Tags]**.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property that you intend to implement on your site.
 1. Click the **[!UICONTROL Publishing]** tab and locate your library in the development column.
 1. Click the dropdown on the library, then select **[!UICONTROL Submit for Approval]**. Click **[!UICONTROL Submit]** on the modal window.

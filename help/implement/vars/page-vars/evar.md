@@ -15,11 +15,11 @@ The number of available eVars depends on your contract with Adobe. Up to 250 eVa
 
 Before using eVars in your implementation, make sure you configure each eVar in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
-## eVars in Adobe Experience Platform Launch
+## eVars using tags in Adobe Experience Platform
 
 You can set eVars either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -28,7 +28,7 @@ You can set eVars either while configuring the Analytics extension (global varia
 
 You can set an eVar to a value or a data element. You can also copy the value from another Analytics variable.
 
-## s.eVar1 - s.eVar250 in AppMeasurement and Launch custom code editor
+## s.eVar1 - s.eVar250 in AppMeasurement and custom code editor
 
 Each eVar is a string that contains custom values specific to your organization. Their max length is 255 bytes; values longer than 255 bytes are automatically truncated when sent to Adobe.
 

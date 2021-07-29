@@ -13,11 +13,11 @@ If this variable is not defined on a given page tracking call, the [`pageURL`](p
 >
 >Adobe data collection servers strip this dimension from all [link tracking](/help/implement/vars/functions/tl-method.md) image requests. If you want this dimension to appear in link tracking hits, consider copying this dimension into an [eVar](evar.md).
 
-## Page Name in Adobe Experience Platform Launch
+## Page Name using tags in Adobe Experience Platform
 
 You can set page name either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -26,7 +26,7 @@ You can set page name either while configuring the Analytics extension (global v
 
 You can set page name to any string value, including data elements.
 
-## s.pageName in AppMeasurement and Launch custom code editor
+## s.pageName in AppMeasurement and custom code editor
 
 The `s.pageName` variable is a string that typically contains the name of the page. It has a maximum value of 100 bytes; longer values are truncated. This truncation includes instances where it falls back to `pageURL` if this variable is blank.
 

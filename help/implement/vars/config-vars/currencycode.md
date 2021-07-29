@@ -19,13 +19,11 @@ If `currencyCode` is defined and is different than the report suite's currency, 
 
 This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
 
-## Currency Code in Adobe Experience Platform tags
+## Currency Code using tags in Adobe Experience Platform
 
 Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Go to `experience.adobe.com` and log in when prompted.
-1. Select [!UICONTROL Launch / Data Collection].
-1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired property.
 1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
@@ -42,7 +40,7 @@ Currency Code is passed to the Adobe Experience Platform Mobile SDKs through con
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
-## s.currencyCode in AppMeasurement and Data Collection custom code editor
+## s.currencyCode in AppMeasurement and custom code editor
 
 The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.
 

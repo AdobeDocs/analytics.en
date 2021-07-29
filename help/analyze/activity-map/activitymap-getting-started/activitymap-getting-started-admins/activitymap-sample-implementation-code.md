@@ -1,5 +1,5 @@
 ---
-description: Implement Activity Map using Launch
+description: Implement Activity Map using tags in Adobe Experience Platform.
 title: Implement Activity Map
 feature: Activity Map
 role: User, Admin

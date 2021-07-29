@@ -21,10 +21,8 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 The opt-out page for your organization depends on the [`trackingServer`](../vars/config-vars/trackingserver.md) variable value in your implementation.
 
-* In the Adobe Experience Platform Data Collection UI:
-  1. Go to `experience.adobe.com` and log in when prompted.
-  1. Select [!UICONTROL Launch / Data Collection].
-  1. Click [!UICONTROL Go to Launch / Data Collection], then select [!UICONTROL Tags].
+* In the Data Collection UI:
+  1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
   1. Click the desired property.
   1. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics. 
   1. Click the [!UICONTROL General] accordion, and note the [!UICONTROL Tracking Server] value.

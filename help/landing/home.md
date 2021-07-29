@@ -11,7 +11,7 @@ Welcome to the Adobe Analytics product and technical documentation home page. He
 
 [![Admin](assets/admin_50px.png)](/help/admin/home.md)&emsp;[Admin Guide](/help/admin/home.md) &ndash; Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
 
-[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Customize what data is collected to get more out of Adobe Analytics. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
+[![Implementation](assets/implement_50px.png)](/help/implement/home.md)&emsp;[Implementation Guide](/help/implement/home.md) &ndash; Customize what data is collected to get more out of Adobe Analytics. Includes the usage of tags in Adobe Experience Platform and JavaScript implementations.
 
 [![Components](assets/components_50px.png)](/help/components/home.md)&emsp;[Components Guide](/help/components/home.md) &ndash; Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 

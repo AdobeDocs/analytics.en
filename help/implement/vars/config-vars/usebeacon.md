@@ -15,11 +15,11 @@ If `useBeacon` is enabled, the next hit sent to Adobe uses the browser's `naviga
 
 The `useBeacon` variable is ignored when the visitor uses a browser that does not support `navigator.sendBeacon()`. Use of this variable requires AppMeasurement 2.16.0 or higher.
 
-## Use Beacon in Adobe Experience Platform Launch
+## Use Beacon using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.useBeacon in AppMeasurement and Launch custom code editor
+## s.useBeacon in AppMeasurement and custom code editor
 
 The `s.useBeacon` variable is a boolean that determines if AppMeasurement uses the browser's `navigator.sendBeacon()` method. Its default value is `false`. Set this variable to `true` before calling a tracking function if you want to use the asynchronous nature of `navigator.sendBeacon()`.
 

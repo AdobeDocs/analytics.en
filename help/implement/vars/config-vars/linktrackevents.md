@@ -9,15 +9,15 @@ Some implementations don't want to include all variables in all link tracking im
 
 This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
-## Events in link tracking calls using Adobe Experience Platform Launch
+## Events in link tracking calls using tags in Adobe Experience Platform
 
-Launch automatically detects events defined in the interface and includes them in link tracking hits.
+Adobe Experience Platform automatically includes defined events in link tracking hits if you do not use custom code.
 
 >[!IMPORTANT]
 >
->If you set events in Launch using the custom code editor, you must include the event in `linkTrackEvents` using custom code as well.
+>If you set events in the Data Collection UI using the custom code editor, you must include the event in `linkTrackEvents` using custom code as well.
 
-## s.linkTrackEvents in AppMeasurement and Launch custom code editor
+## s.linkTrackEvents in AppMeasurement and custom code editor
 
 The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). The following three criteria must be met to include metrics in link tracking hits:
 
@@ -29,7 +29,7 @@ The `s.linkTrackEvents` variable is a string containing a comma-delimited list o
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-The default value for this variable is an empty string. If this variable is not defined, all events are included in link tracking image requests. Note that Launch automatically populates this variable based on events set in the interface, so it is always set in implementations using Launch.
+The default value for this variable is an empty string. If this variable is not defined, all events are included in link tracking image requests. Note that Data Collection automatically populates this variable based on events set in the interface, so it is always set for implementations that use tags in Adobe Experience Platform.
 
 >[!TIP]
 >

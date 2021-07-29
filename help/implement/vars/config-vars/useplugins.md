@@ -7,11 +7,11 @@ exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 
 If `usePlugins` is enabled, the [`doPlugins()`](../functions/doplugins.md) function runs just before AppMeasurement compiles and sends a hit to Adobe. Enable this variable if you use the `doPlugins()` function.
 
-## Use Plug-ins in Adobe Experience Platform Launch
+## Use Plug-ins using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.usePlugins in AppMeasurement and Launch custom code editor
+## s.usePlugins in AppMeasurement and custom code editor
 
 The `s.usePlugins` variable is a boolean that determines if AppMeasurement calls the `doPlugins()` function. Its default value is `false`. Set this variable to `true` if you use the `doPlugins()` function in your implementation.
 

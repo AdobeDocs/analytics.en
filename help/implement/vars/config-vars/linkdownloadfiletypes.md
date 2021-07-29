@@ -22,18 +22,18 @@ Use `linkDownloadFileTypes` to customize what file extensions you want to count 
 
 If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
-## Download Extensions in Adobe Experience Platform Launch
+## Download Extensions using tags in Adobe Experience Platform
 
 Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Download Extensions] field.
 
 Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. Remove file extensions from the list by clicking their respective 'X' icon.
 
-## s.linkDownloadFileTypes in AppMeasurement and Launch custom code editor
+## s.linkDownloadFileTypes in AppMeasurement and custom code editor
 
 The `s.linkDownloadFileTypes` variable is a string of comma-separated file extensions. Do not use spaces.
 

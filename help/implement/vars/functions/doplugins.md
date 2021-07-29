@@ -12,11 +12,11 @@ The `doPlugins` variable acts as a 'last call' to set values in your implementat
 
 Use the `doPlugins` variable to call plug-in code and set final variable values just before an image request is compiled and sent to Adobe.
 
-## Plug-ins in Adobe Experience Platform Launch
+## Plug-ins using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.doPlugins in AppMeasurement and Launch custom code
+## s.doPlugins in AppMeasurement and custom code
 
 Set the `s.doPlugins` variable to a function containing desired code. The function automatically runs when you make a tracking call.
 

@@ -25,11 +25,11 @@ When using event IDs, de-duplication happens on the following levels:
 >
 >If you want to de-duplicate the [`purchase`](event-purchase.md) event, use the [`purchaseID`](../purchaseid.md) variable instead.
 
-## Use event IDs in Adobe Experience Platform Launch
+## Use event IDs using tags in Adobe Experience Platform
 
 You can set the event ID field either while configuring the Analytics extension (global variables) or as an action in a rule.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
@@ -38,7 +38,7 @@ You can set the event ID field either while configuring the Analytics extension 
 
 Valid values are alpha-numeric characters up to 20 bytes in length. If you enter a value that is longer than 20 bytes, then the system truncates it to the first 20 bytes.
 
-## Use event IDs in AppMeasurement and Launch custom code editor
+## Use event IDs in AppMeasurement and custom code editor
 
 Event serialization is part of the `s.events` variable. Assign an ID to each event using a colon in the string.
 

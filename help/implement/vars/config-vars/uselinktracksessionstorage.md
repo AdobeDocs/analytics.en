@@ -18,11 +18,11 @@ Using a browser's session storage for link tracking comes with several limitatio
 
 AppMeasurement removes session storage link tracking data after sending a hit to Adobe. It also automatically expires when the browser tab is closed.
 
-## Use link track session storage in Adobe Experience Platform Launch
+## Use link track session storage using tags in Adobe Experience Platform
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.useLinkTrackSessionStorage in AppMeasurement and Launch custom code editor
+## s.useLinkTrackSessionStorage in AppMeasurement and custom code editor
 
 The `s.useLinkTrackSessionStorage` variable is a boolean that determines if AppMeasurement uses session storage for link tracking data instead of the `s_sq` cookie. Its default value is `false`. Set this variable to `true` if you want AppMeasurement to use session storage instead of the `s_sq` cookie for link tracking and Activity Map.
 

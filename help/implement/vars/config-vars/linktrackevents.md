@@ -11,7 +11,7 @@ This variable is not used for page view calls ([`t()`](../functions/t-method.md)
 
 ## Events in link tracking calls using tags in Adobe Experience Platform
 
-Data Collection automatically includes defined events in link tracking hits if you do not use custom code.
+Adobe Experience Platform automatically includes defined events in link tracking hits if you do not use custom code.
 
 >[!IMPORTANT]
 >

@@ -18,7 +18,7 @@ This section contains the key concepts for Adobe Analytics, a brief description 
 | Data Warehouse | Raw, unprocessed data for storage and custom reports, which you can run by filtering the data. Not hit level. | [Data Warehouse home](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, letting you understand and improve user engagement with your applications. | [Mobile Services home](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (formerly Genesis) | Import tracking data from third-party applications into Analytics, to give end-to-end visibility into performance in one central location. Effective August 1, 2021, Adobe intends to discontinue Data Connectors Integrations. | [Data Connectors home](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Data Collection | The next generation of website tag and mobile SDK management capabilities from Adobe. | [Adobe Experience Platform Data Collection home](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
+| Tags in Adobe Experience Platform | The next generation of website tag and mobile SDK management capabilities from Adobe. | [Tags overview](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -101,7 +101,7 @@ Click [here](/help/technotes/terms.md) for an expanded glossary of Adobe Analyti
 | Implementation Guide | A description of data collection variables and details on implementing data collection code in JavaScript. | [Implementation Guide](/help/implement/home.md) |
 | App Measurement (s_code) | Global variable management | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App SDKs | Customized package that includes a pre-populated version of the configuration file for Apps. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| Adobe Experience Platform Data Collection | See Analytics Tools. |  |
+| Tags in Adobe Experience Platform | See Analytics Tools. |  |
 | VISTA | Enables you to apply server-side logic to alter or segment data as it is collected. | [VISTA rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Processing Rules | Ability to set, modify, and copy variables in the Analytics UI, to alter the data collected. | [Processing Rules](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Debugger Options | There are several debuggers and packet sniffers available to help validate your implementation, including the Adobe Experience Cloud debugger. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |

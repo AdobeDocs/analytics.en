@@ -31,7 +31,7 @@ Global variables are ideal in cases where you want to set variable values on all
 
 ### Set variables in rules
 
-Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in the Adobe Experience Platform Data Collection documentation.
+Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in the Adobe Experience Platform tags documentation.
 
 1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.

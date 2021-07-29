@@ -18,7 +18,7 @@ This variable only needs to be used when **both** of the following conditions ar
 
 Only a small number of implementations have use for the `cookieDomain` variable, and even then, alternative variables like [`cookieDomainPeriods`](cookiedomainperiods.md) can be used instead.
 
-## Cookie Domain in Adobe Experience Platform Data Collection
+## Cookie Domain using tags in Adobe Experience Platform
 
 There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
 

@@ -11,7 +11,7 @@ This variable is not used for page view calls ([`t()`](../functions/t-method.md)
 
 ## Variables in link tracking calls using tags in Adobe Experience Platform
 
-Data Collection automatically populates this variable on the backend based on variables set in the interface, so it is always set in implementations using tags in Adobe Experience Platform.
+Adobe Experience Platform automatically populates this variable on the backend based on variables set in the interface, so it is always set in implementations using tags in Adobe Experience Platform.
 
 >[!IMPORTANT]
 >

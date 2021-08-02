@@ -9,7 +9,7 @@ The `products` variable tracks products and properties tied to them. This variab
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Make sure that you set the appropriate shopping cart event on each hit with the `products` variable.
+>If this variable is set in a hit without the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Make sure that you set the appropriate events on each hit with the `products` variable.
 
 ## Products using tags in Adobe Experience Platform
 

@@ -50,7 +50,7 @@ user-guide-description: Learn about managing users and products in the Experienc
   + [Publishing Widget](admin/publishing-widgets-admin.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy settings](admin/privacy-settings.md)
-  + [Privacy settings](admin/privacy-reporting.md)
+  + [Privacy reporting](admin/privacy-reporting.md)
   + Processing rules {#processing-rules}
     + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
     + Processing rules configuration {#processing-rules-configuration}

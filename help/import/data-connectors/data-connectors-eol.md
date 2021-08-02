@@ -7,7 +7,7 @@ exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 
 For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.
 
-**Effective August 1, 2021**, Adobe intends to discontinue Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized.  
+**Effective August 1, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized.  
 
 ## Why are we end-of-lifing this feature?
 
@@ -24,6 +24,8 @@ Each company providing an integration was given the option to migrate their inte
 For additional questions or support, please reach out to Adobe Customer Care.
 
 ## Data Connector Partner status
+
+*Latest Update: August 2, 2021 (Hootsuite)*
 
 | Partner | Status |
 | --- | --- |
@@ -68,7 +70,7 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Fiksu | Deprecating |
 | Foresee (v2.0), Foresee Feedback, Foresee Results | Deprecating |
 | Gigya | Deprecating |
-| Hootsuite | Deprecating |
+| Hootsuite | Migrating to Exchange |
 | hybris | Deprecating |
 | Kampyle (now Medallia) Feedback Analytics (1.1) | Deprecating |
 | Listrak | Migrating to Exchange |

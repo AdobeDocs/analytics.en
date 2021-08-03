@@ -16,7 +16,7 @@ If you intend to implement Cross-Device Analytics using field-based stitching, t
 >Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * All prerequisites listed on the [overview page](overview.md).
-* Your implementation must set a prop or eVar that uniquely identifies an indivual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. Communicate the desired identifying variable to your Account Manager when provisioned for Field-based stitching.
+* Your implementation must set a prop or eVar that uniquely identifies an individual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. Communicate the desired identifying variable to your Account Manager when provisioned for Field-based stitching.
 
 ## Limitations specific to field-based stitching
 

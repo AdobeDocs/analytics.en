@@ -96,6 +96,7 @@ user-guide-description: Help organize your data using components such as segment
   + [Zip code](dimensions/zip-code.md)
 + Metrics {#metrics}
   + [Metrics overview](metrics/overview.md)
+  + [Count repeat instances](metrics/count-repeat-instances.md)
   + [Average page depth](metrics/average-page-depth.md)
   + [Average page views per visit](metrics/average-page-views-per-visit.md)
   + [Average session length](metrics/average-session-length.md)

@@ -8,7 +8,7 @@ uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 
 # Classification template
 
-(Optional) Before importing classifications into marketing reports, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
+(Optional) Before importing classifications into reports and projects, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
 
 ## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -17,10 +17,11 @@ uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 |  Element  | Description  |
-|---|---|
+| --- | ---|
 |  Select Report Suite  | Select the report suite to use in the template. The report suite and data set must match.  |
 |  Data Set to be Classified  | Select the type of data for the data file. The menu includes all reports in your report suites that are configured for classifications.  |
-|  Encoding  | Select the character encoding for the data file. The default encoding format is UTF-8.  |
+| Export Numeric 2 |**Important**: This option is not available for report suites enabled for the New Classification Architecture. |
+|  Encoding  | Select the character encoding for the data file. The default encoding format is UTF-8.<br>**Important**: This option is not available for report suites enabled for the New Classification Architecture.|
 |  Download  | Downloads the template file.  |
 
 The template includes the currently defined classifications (column headings) of a specific data set without including the data associated with each classification.

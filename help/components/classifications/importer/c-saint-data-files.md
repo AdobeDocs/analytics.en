@@ -172,6 +172,9 @@ For more information, see [Conversion Classifications](https://experienceleague.
 
 To classify campaigns based on date range:
 
+>[!IMPORTANT]
+>This option is not available for report suites enabled for the New Classification Architecture.
+
 1. Log in to [!DNL Analytics] and go to Admin > Classifications.
 1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. Open this file in Microsoft Excel or another spreadsheet editor you are familiar with.

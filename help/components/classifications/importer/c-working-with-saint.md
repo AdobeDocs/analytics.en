@@ -18,4 +18,4 @@ The data that you import using the import tool must be in a specific format. Ado
 >
 >Adobe recommends that you limit the number of import and export columns to 30.
 
-See [Common Saint Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
+See [Classification importer troubleshooting](/help/components/classifications/importer/troubleshooting.md). This topic describes issues arising from incorrect file formats and file contents.

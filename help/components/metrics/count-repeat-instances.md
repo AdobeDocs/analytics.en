@@ -11,4 +11,4 @@ In Reports & Analytics, this setting is not configurable. Repeat instances are i
 In Workspace, you can choose to [include/exclude repeat instances](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) under **[!UICONTROL Project]** > **[!UICONTROL Project info and settings]**. They are included by default. 
 
 >[!NOTE]
->This setting does not apply to Flow or Fallout visualizations. In Workspace, Flow has its own setting for removing repeats under its Settings. In Reports & Analytics, the Flow report has always removed repeat instances by default.
+>This setting does not apply to [!UICONTROL Flow] or [!UICONTROL Fallout] visualizations. In Workspace, [!UICONTROL Flow] has its own [setting](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) for removing repeats. In Reports & Analytics, the Flow report has always removed repeat instances by default.

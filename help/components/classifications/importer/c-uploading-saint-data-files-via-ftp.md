@@ -37,12 +37,6 @@ Before uploading data via FTP, create an FTP account. For more information, see 
 
 ## Import classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
 Steps that describe how to use an FTP account to import classifications into Adobe Analytics.
 
 For more information about creating an FTP account, see [Create an FTP account](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
@@ -61,12 +55,6 @@ At regular intervals, Adobe retrieves uploaded data files that have an associate
 ## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 Before uploading data via FTP, create an FTP account. >
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 See [FTP and sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html) for additional details on Adobe FTP servers.
 

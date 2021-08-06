@@ -227,6 +227,7 @@ user-guide-description: Help organize your data using components such as segment
     + [Browser import](classifications/importer/browser-import.md)
     + [Browser export](classifications/importer/browser-export.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+    + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
   + Classification Rule Builder {#classifications-rulebuilder}

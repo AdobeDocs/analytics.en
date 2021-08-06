@@ -17,8 +17,25 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 |---|---|
+| August 5, 2021 | New topic on [Count repeat instances](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
+| July 23, 2021 | In-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
+| July 15, 2021 | Added new documentation on [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) | 
+| June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
+| May 25, 2021 | Updated the documentation on [eVar case sensitivity in reporting](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
+| May 13, 2021 | Updates to [Data Warehouse API requests](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). They now support “Hours”. |
+| March, April 2021 | Updates to Adobe Analytics dashboards [Executive guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) and [Curator guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
+| March 25, 2021 | [Data Repair API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) updates (filtering for URLs, query strings, at signs, and more) |
+| March 25, 2021 | New [Usage Log API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) documentation |
+| January 14, 2021 | Added Analytics dashboards language selection option. |
 | November, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| October 23, 2020 | Added enhancements to Adobe Analytics dashboads documentation. In the mobile scorecard in Workspace, the styling of the scorecard now matches the app. |
+| September 17, 2020 | New documentation on [Media Concurrent Viewer panel in Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
+| August 31, 2020 | Added enhancements to [field-based stitching documentation](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html) in Cross-Device Analytics. |
 | July 21, 2020 | Major updates and revisions to [Cross-Device Analytics](/help/components/cda/overview.md). Added [Field-based stitching](/help/components/cda/field-based-stitching.md). |
+| June 18, 2021 | New documentation on [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| June 18, 2021 | New documentation on [Attribution IQ: Custom Lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
+| May 31, 2020 | New documentation on [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric. |
 | March 12, 2020 | Added updates to [Publish segments to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | March 12, 2020 | Updates to CDA stitching latency.|
@@ -37,7 +54,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](/help/components/cda/overview.md) |
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/analyze/pwa/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |
-| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md) |
+| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md) 
 | August 5, 2019 | Updates to [Key Concepts](/help/analyze/reports-analytics/key-concepts.md) |
 | August 2, 2019 | Major update to [Analytics glossary](/help/technotes/terms.md) |
 | July 22, 2019 | Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |

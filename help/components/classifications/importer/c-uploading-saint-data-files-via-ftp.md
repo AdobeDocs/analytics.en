@@ -1,5 +1,5 @@
 ---
-description: Steps that describe how to upload data files via FTP.
+description: How to upload data files via FTP.
 subtopic: Classifications
 title: FTP import
 feature: Admin Tools

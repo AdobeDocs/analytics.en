@@ -55,7 +55,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](/help/components/cda/overview.md) |
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/analyze/pwa/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |
-| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md) 
+| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md)| 
 | August 5, 2019 | Updates to [Key Concepts](/help/analyze/reports-analytics/key-concepts.md) |
 | August 2, 2019 | Major update to [Analytics glossary](/help/technotes/terms.md) |
 | July 22, 2019 | Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |

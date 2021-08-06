@@ -36,6 +36,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 18, 2021 | New documentation on [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | June 18, 2021 | New documentation on [Attribution IQ: Custom Lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
 | May 31, 2020 | New documentation on [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| May 21, 2020 | New documentation for [Adobe Analytics dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
 | April 28, 2020 | Added documentation for the [Content Velocity](/help/components/metrics/content-velocity.md) metric. |
 | March 12, 2020 | Added updates to [Publish segments to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | March 12, 2020 | Updates to CDA stitching latency.|

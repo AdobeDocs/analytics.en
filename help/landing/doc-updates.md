@@ -16,7 +16,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 ## Details on major documentation updates
 
 | Date | Description |
-|---|---|
+| --- | --- |
 | August 5, 2021 | New topic on [Count repeat instances](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | July 23, 2021 | In-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | July 15, 2021 | Added new documentation on [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |

@@ -13,7 +13,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 * For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
 * For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-## Major Update Details
+## Details on major documentation updates
 
 | Date | Description |
 |---|---|

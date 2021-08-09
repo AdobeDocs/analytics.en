@@ -79,7 +79,7 @@ It is a best practice to uncheck the override last-touch option for Direct and I
 
 Before channels and channel data can be displayed in the report, create the channels and the underlying rules that process data. You can also specify how long you want the [visitor engagement period](/help/components/c-marketing-channels/visitor-engagement.md) to last. 
 
-Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) that you can edit to suit your needs. Additoinally, you can modify this setup and define custom rules within [Marketing Channel processing rules](/help/components/c-marketing-channels/c-rules.md).
+Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) that you can edit to suit your needs. Additionally, you can modify this setup and define custom rules within [Marketing Channel processing rules](/help/components/c-marketing-channels/c-rules.md).
 
 >[!NOTE]
 >

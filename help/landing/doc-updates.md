@@ -17,9 +17,14 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **August 2021**|  |
 | August 5, 2021 | New topic on [Count repeat instances](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
+| August 5, 2021 | Updated classifications documentation on [templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en), and [browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) to indicate options that are not available for report suites that are enabled for the New Classification Architecture. |
+| August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
+| **July 2021** |  |
 | July 23, 2021 | In-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | July 15, 2021 | Added new documentation on [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| **June 2021** |  |
 | June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) | 
 | June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
 | May 25, 2021 | Updated the documentation on [eVar case sensitivity in reporting](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
@@ -28,6 +33,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | March 25, 2021 | [Data Repair API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) updates (filtering for URLs, query strings, at signs, and more) |
 | March 25, 2021 | New [Usage Log API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) documentation |
 | January 14, 2021 | Added Analytics dashboards language selection option. |
+| **2020** | |
 | November, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | October 23, 2020 | Added enhancements to Adobe Analytics dashboads documentation. In the mobile scorecard in Workspace, the styling of the scorecard now matches the app. |
 | September 17, 2020 | New documentation on [Media Concurrent Viewer panel in Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
@@ -48,6 +54,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](/help/implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
+| **2019** |  |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |
 | November 21, 2019 | New documentation set for [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) |
@@ -62,9 +69,12 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | July 18, 2019 | Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+| April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |
 | February 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/general-acct-settings-admin.md). |
 | February 1, 2019 | Major update to the [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) implementation plug-in. |
-| January 17, 2019 | New project setting in Analysis Workspace, [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| January 17, 2019 | Major update to [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| January 17, 2019 | [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul> |
+| January 17, 2019 | [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
+| January 17, 2019 | [Support for multi-valued variables in Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|

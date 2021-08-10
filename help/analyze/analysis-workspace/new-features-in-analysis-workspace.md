@@ -8,6 +8,9 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 ---
 # What's New in Analysis Workspace
 
+>[!IMPORTANT]
+>Further Analysis Workspace updates have been rolled into the [Adobe Analytics Documentation Updates](help/landing/doc-updates.md) page.
+
 For access to the Adobe Experience Cloud Release Notes as a whole, go [here](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
 
 ## March 2021
@@ -70,7 +73,7 @@ New features released on June 18, 2020.
 |Ability to co-edit Workspace projects|Recipients added to the “Can edit” role can save over a project that has been shared to them. This extends to both admins and non-admins. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
 |Updated Blank panel|The blank panel now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you.|
 |Quick Insights panel (June 25, 2020)|Quick Insights provides guidance for non-analysts and new users of Analysis Workspace to learn how to answer business questions quickly and easily. [Learn more...](/help/analyze/analysis-workspace/c-panels/quickinsight.md)|
-Analytics for Target panel in Workspace (June 25, 2020)|The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences, with lift and confidence, in Analysis Workspace. [Learn more...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)|
+| Analytics for Target panel in Workspace (June 25, 2020)|The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences, with lift and confidence, in Analysis Workspace. [Learn more...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)|
 |About Workspace page|The About Workspace page provides information about your Analysis Workspace environment, about your Adobe Analytics administrators (if you need support), and a way to provide in-product feedback. It can be found under Workspace > Help > About Workspace.|
 
 ## May 2020

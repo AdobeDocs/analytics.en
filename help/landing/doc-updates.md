@@ -41,8 +41,15 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 14, 2021 | Added Analytics dashboards language selection option. |
 | January 14, 2021 | Documentation on how you can add images to Workspace projects by referencing a public image URL. |
 | January 14, 2021 | Combined source & settings manager for Workspace visualizations: The [!UICONTROL Data Source] manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
+| **December 2020** | |
+| December 7, 2020 | Amended all relevant pages to include or substitute the "adobedc.net" endpoint. |
+| December 8, 2020 | Updates to the [Create new project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) page in Workspace. |
 | **November 2020** | |
-| November, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| November 24, 2020 | Updates to [Panel Overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) page in Workspace. |
+| November 24, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| November 24, 2020 | Updated Analysis Workspace [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) page. |
+| November 12, 2020 | New page on [Inherited Adobe Analytics Implementation](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). | 
+| November 2, 2020 | Updated document on [FTP for classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en). |
 | **October 2020** | |
 | October 23, 2020 | Workspace Line visualization: [Moving average trendline option](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): This setting was added to [!UICONTROL Line] visualization trendline settings. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
 | October 23, 2020 | The Workspace [Performance Help page](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) shows the different factors that impact project performance and links to tips for optimization. |
@@ -88,12 +95,15 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | February 20, 2020 | Workspace debugger was added to the Help menu, giving you a more seamless way to enable it for debugging Workspace requests. [Learn more...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)|
 | February 18, 2020 | Added [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) variable. |
 | February 12, 2020 | Updates to and reorganization of the [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) documentation.|
+| February 12, 2020 | Added new hotkeys to [this Workspace page](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | February 7, 2020 | Updates to [Setting up Cross-Device Analytics](/help/components/cda/setup.md) and [FAQ](/help/components/cda/faq.md) |
 | February 4, 2020 | Complete rewrite of the [Implementation user guide](/help/implement/home.md). |
 | January 22, 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **January 2020** | |
+| January 24, 2020 | Updates to the [Row Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) page in Workspace. |
 | January 16, 2020 | New dopcumentation on [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul> |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
+| January 13, 2020 | Modified the [Which Tool should I use](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html) page. |
 | **2019** |  |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |

@@ -24,10 +24,10 @@ You can use one of these extensions, or you can use the custom code editor follo
 
 ## s.products in AppMeasurement and custom code editor
 
-The `s.products` variable is a string that contains multiple delimited fields per product. Each individual product can contain up to 100 bytes across all fields. Delimit each field with a semicolon (`;`) in the string.
+The `s.products` variable is a string that contains multiple delimited fields per product. Delimit each field with a semicolon (`;`) in the string.
 
-* **Category** (optional): The overarching product category. Your organization decides how to group products into categories.
-* **Product name** (required): The name of the product.
+* **Category** (optional): The overarching product category. Your organization decides how to group products into categories. The maximum length for this field is 100 bytes.
+* **Product name** (required): The name of the product. The maximum length for this field is 100 bytes.
 * **Quantity** (optional): How many of this product is in the cart. This field only applies to hits with the purchase event.
 * **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the [`currencyCode`](../config-vars/currencycode.md) variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
 * **Events** (optional): Events tied to the product. Delimit multiple events with a pipe (`|`). See [events](events/events-overview.md) for more information.
@@ -38,11 +38,11 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-This variable supports multiple products in the same hit. It is valuable for shopping cart and purchases containing multiple products. While there is a 100-byte limit per product, the total length for the `products` variable is 64K. Separate each product with a comma (`,`) in the string.
+This variable supports multiple products in the same hit. It is valuable for shopping cart and purchases containing multiple products. The maximum length for the entire `products` string is 64K. Separate each product with a comma (`,`) in the string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -93,11 +93,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 If using the `digitalData` [data layer](../../prepare/data-layer.md), you can iterate through the `digitalData.product` object array:
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }

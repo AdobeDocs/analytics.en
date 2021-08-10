@@ -10,7 +10,6 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
 * For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
-* For details around new features, see [New features in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) in the Tools user guide.
 * For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates

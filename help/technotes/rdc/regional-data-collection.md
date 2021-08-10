@@ -42,7 +42,6 @@ Note: Experience Edge Global provides the best performance for your end users.  
 | Benefit | Description |
 | --- | --- |
 | Performance | With RDC, your visitors will connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
-| Redundancy | In case of a disruption in communication with a DCC, data collection is automatically routed to the next nearest DCC,  ensuring service continuity. |
 | Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe’s RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
 
 ## How RDC works

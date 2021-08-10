@@ -23,7 +23,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **July 2021** |  |
 | July 23, 2021 | In-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| July 15, 2021 | Added new documentation on [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| July 15, 2021 | Added new documentation on the new  [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
 | **June 2021** |  |
 | June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) | 
 | June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |

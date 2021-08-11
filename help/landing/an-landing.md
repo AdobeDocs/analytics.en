@@ -13,7 +13,7 @@ The new page improves discoverability and guides Reports & Analytics users to an
 >
 >This landing page will be in Open Beta starting on July 21, 2021. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is Workspace or Reports. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current Workspace experience.
 
-<div class="extension video"><iframe allowfullscreen embedded-video src="https://video.tv.adobe.com/v/334278/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"><source src="https://video.tv.adobe.com/v/17187/" type="" /><p>Your browser does not support the iframe element.</p></iframe></div>
+>[!VIDEO](https://video.tv.adobe.com/v/334278/)
 
 ## Access the new landing page {#access-landing}
 

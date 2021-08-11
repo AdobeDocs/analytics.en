@@ -79,8 +79,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `hier1 - hier5` | Used by hierarchy variables. Contains a delimited list of values. The delimiter is chosen under report suite settings. | varchar(255) |
 | `hit_source` | Indicates what source the hit came from. Hit sources 1, 2, and 6 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: Full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising Cloud data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint unsigned |
 | `hit_time_gmt` | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
-| `hitid_high` | Used in combination with `hitid_low` to uniquely identify a hit. | bigint unsigned |
-| `hitid_low` | Used in combination with `hitid_high` to uniquely identify a hit. | bigint unsigned |
+| `hitid_high` | Used in combination with `hitid_low` to identify a hit. | bigint unsigned |
+| `hitid_low` | Used in combination with `hitid_high` to identify a hit. | bigint unsigned |
 | `homepage` | No longer used. Indicated if the current URL is the browser's homepage. | char(1) |
 | `hourly_visitor` | Flag to determine if the hit is a new hourly visitor. | tinyint unsigned |
 | `ip` | IP Address, based on the HTTP header of the image request. | char(20) |

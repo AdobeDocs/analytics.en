@@ -194,6 +194,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `stats_server` | Not of use. Adobe internal server that processed the hit. | char(30) |
 | `t_time_info` | Local time for the visitor. Format is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | `tnt` | Used in Adobe Target integrations. | text |
+See this random person's post https://experienceleaguecommunities.adobe.com/t5/adobe-target-questions/how-does-the-a4t-integration-show-in-the-clickstream/td-p/230520 for information and details that are actually useful for this field 
 | `tnt_action` | Used in Adobe Target integrations. | text |
 | `tnt_post_vista` | No longer used. Use `post_tnt` instead. | text |
 | `transactionid` | A unique identifier where various data points can be uploaded later via data sources. Collected using the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable. | text |

@@ -46,13 +46,17 @@ Some spreadsheet editors, especially Microsoft Excel, automatically round large 
 
 Adobe recommends against automatically opening `hit_data.tsv` files in Microsoft Excel. Instead, use Excel's Import Data dialog box and make sure that all fields are treated as text.
 
+## Are columns like `hitid_high`, `hitid_low`, `visid_high`, and `visid_low` guaranteed to be unique to the hit or visit?
+
+In almost all cases, the concatenation of `hitid_high` and `hitid_low` uniquely identify a hit. The same concept applies to the concatenation of `visid_high` and `visid_low` for visits. However, processing anomalies can rarely cause two hits to share the same hit ID. Adobe recommends against creating data feed workflows that inflexibly rely on every hit being unique.
+
 ## Why is information missing from the domain column for some carriers? {#section_B7508D65370442C7A314EAED711A2C75}
 
 Some mobile carriers (such as T-Mobile and O1) are no longer providing domain info for reverse-DNS lookups. Therefore, that data is not available for domain reporting.
 
 ## Why can't I extract "Hourly" files from data that is more than 7 days old?
 
-For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file. 
+For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file.
 
 Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files before March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.
 

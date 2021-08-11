@@ -18,21 +18,21 @@ Frequently asked questions for Marketing channels.
 
 ## Referring domains contain more data than I expect.
 
-* Referring domains might be too high in the processing rule list. It should be one of the last (or the last) rule sets, because processing order is important.
+Referring domains might be too high in the processing rule list. It should be one of the last (or the last) rule sets, because processing order is important.
 
 ## I've created a rule that matches a query string parameter and it's not working.
 
-* Make sure that the parameter name is specified in the query string parameter fields (typically an alphanumeric value). Also, make sure that the parameter value is specified after the operator, as shown in the following example of an email rule.
+Make sure that the parameter name is specified in the query string parameter fields (typically an alphanumeric value). Also, make sure that the parameter value is specified after the operator, as shown in the following example of an email rule.
 
   ![](assets/example_email.png)
 
 ## Why is all of my last-touch traffic is attributed to an internal domain?
 
-* You have a rule that matches internal traffic. Keep in mind that these rules process for every hit that a visitor makes on your site, not only the first visit. If you have a rule like *`Page URL exists`* without other criteria, that channel is matched on each successive hit on your site, because a page URL always exists.
+You have a rule that matches internal traffic. Keep in mind that these rules process for every hit that a visitor makes on your site, not only the first visit. If you have a rule like *`Page URL exists`* without other criteria, that channel is matched on each successive hit on your site, because a page URL always exists.
 
 ## How do I debug traffic displaying in No Channel Identified on the report?
 
-* Rules process in order. If no specific criteria has matched, hits fall into one of three categories:
+Rules process in order. If no specific criteria has matched, hits fall into one of three categories:
 
 1. No referrer (a direct visit).
 

@@ -19,3 +19,9 @@ If you cannot find a given metric help page, it is likely either a [custom event
 
 * If the metric is a custom event, consult an Analytics admin within your organization, or the report suite's [solution design document](/help/implement/prepare/solution-design.md).
 * If the metric is a calculated metric, click the information icon to determine its formula.
+
+## Add metric descriptions
+
+Here is a video that describes how to add metric (and dimension) descriptions in Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)

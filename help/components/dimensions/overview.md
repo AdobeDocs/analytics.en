@@ -16,3 +16,9 @@ For example, if you combined the 'Page' dimension with the 'Visits' metric, you 
 | `Purchase page` | `100` |
 
 Each dimension represents a different part or facet of your site. You can combine one of more of these dimensions with one or more metric to create a desired report.
+
+## Add dimension descriptions
+
+Here is a video that describes how to add dimension (and metric) descriptions in Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)

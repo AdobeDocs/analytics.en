@@ -23,3 +23,7 @@ This visualization is like an Area Chart, but each series begins at the top of t
 A new visualization setting on area stacked visualizations turns the chart into a "100% stacked" visualization.
 
 ![](assets/areastacked100.png)
+
+Here is a video on "100% stacked visualizations":
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)

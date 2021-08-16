@@ -21,7 +21,7 @@ Adobe Analytics uses the following hosts to improve performance and product expe
 | Adobe Analytics legacy domain | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Gainsight | `esp.aptrinsic.com` |
+| Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |

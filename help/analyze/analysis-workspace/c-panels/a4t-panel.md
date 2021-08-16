@@ -9,6 +9,10 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 
 The Analytics for Target (A4T) panel lets you analyze your Adobe Target activities and experiences in Analysis Workspace. It also enables you to see lift & confidence for up to 3 success metrics. To access the A4T Panel, navigate to a report suite with A4T components enabled. Then, click the panel icon on the far left and drag the Analytics for Target panel into your Analysis Workspace Project.
 
+Here is a short video overview of the A4T panel:
+
+<[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+
 ## Panel Inputs {#Input}
 
 You can configure the A4T panel using these input settings:

@@ -22,6 +22,10 @@ To help with this, and based on your own company's usage of data components in [
 * Do simple breakdowns of dimensions, add multiple metrics, or compare segments easily within a [!UICONTROL Freeform table].
 * Change or try out various visualization types to find the find tool for your analysis quickly and intuitively.
 
+Here is a video overview of the [!UICONTROL Quick Insights] panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
+
 ## Basic key terminology
 
 Following are some of the basic terms you need to be familiar with. Each data table consists of 2 or more building blocks (components) that you utilize to tell your data story.

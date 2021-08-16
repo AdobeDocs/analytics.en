@@ -7,6 +7,10 @@ exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 
 Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
 
+Here is a video overview of how to implement the Advertising Analytics tracking template:
+
+<[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
+
 Two tracking modes are supported: Auto Mode and Manual Mode.
 
 ## Auto Mode Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}

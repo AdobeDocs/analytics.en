@@ -8,11 +8,11 @@ exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 ---
 # Line
 
-The Line visualization represents metrics using a line in order to show how values change over a period of time. A line chart can be used only when time is used as a dimension.
+The [!UICONTROL Line] visualization represents metrics using a line in order to show how values change over a period of time. A [!UICONTROL Line] chart can be used only when time is used as a dimension.
 
 ![Line visualization](assets/line-viz.png)
 
-Click on the gear icon in the top right of the Line visualization to access [**Visualization settings**](freeform-analysis-visualizations.md) available. Settings are categorized into:
+Click on the gear icon in the top right of the [!UICONTROL Line] visualization to access [**Visualization settings**](freeform-analysis-visualizations.md) available. Settings are categorized into:
 
 * **General**: Settings that are common across visualization types
 * **Axis**: Settings that impact the x- or y-axis of the line visualization
@@ -33,6 +33,10 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 ## Show trendline overlay
 
 Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Trendlines help to depict a clearer pattern in the data.
+
+Here is a video on adding trendlines to Line visualizations:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >

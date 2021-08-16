@@ -11,7 +11,7 @@ The Analytics for Target (A4T) panel lets you analyze your Adobe Target activiti
 
 Here is a short video overview of the A4T panel:
 
-<[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
 
 ## Panel Inputs {#Input}
 

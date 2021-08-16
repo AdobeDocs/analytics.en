@@ -53,4 +53,4 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 
 Here is a video overview on this topic:
 
-<[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)

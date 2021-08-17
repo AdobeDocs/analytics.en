@@ -14,7 +14,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 ## Version 2.22.1
 
-Release Date: **August 12, 2021**
+Release Date: **August 17, 2021**
 
 * Customers using opt-out may have seen the server-side forwarding opt-out parameters not honored when tracking links. The fixes in this release cause the opt-out flags to be sent if they are present when tracking links.
 

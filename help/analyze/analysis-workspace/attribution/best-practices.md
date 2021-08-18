@@ -22,7 +22,7 @@ You could then do upper- and lower-funnel analysis to expand your understanding.
 
 ### Upper-funnel analysis
 
-Upper-funnel analysis analyses channels used to create brand or product awareness. For example, the goal of most TV ads is brand awareness. You might use the ["Time decay" attribution model](/help/analysis-workspace/attribution/models.md), since people will forget about your TV ad over time.
+Upper-funnel analysis analyses channels used to create brand or product awareness. For example, the goal of most TV ads is brand awareness. You might use the ["Time decay" attribution model](/help/analyze/analysis-workspace/attribution/models.md), since people will forget about your TV ad over time.
 
 ### Lower-funnel analysis
 
@@ -34,7 +34,7 @@ The purpose of this step is to validate your hypotheses.
 
 **Example 1**
 
-Let's say your hypothesis is "My First-touch channel has more impact on conversion than my last-touch channel. You would then use the ["Inverse J-shaped" attribution model](/help/analysis-workspace/attribution/models.md) to test this hypothesis. This model gives 60% of the credit to the first touch point.
+Let's say your hypothesis is "My First-touch channel has more impact on conversion than my last-touch channel. You would then use the ["Inverse J-shaped" attribution model](/help/analyze/analysis-workspace/attribution/models.md) to test this hypothesis. This model gives 60% of the credit to the first touch point.
 
 **Example 2** 
 
@@ -42,7 +42,7 @@ Your hypothesis might be: "In our industry (such as travel industry), the attrib
 
 ## Step 3: Use Algorithmic attribution
 
-Because it is very hard to validate a large number of possible hypotheses and combinations, you can use [algorithmic attribution](/help/analysis-workspace/attribution/algorithmic.md) to leave this work to built-in algorithms. If you have already found the perfect attribution model that answers all your questions and is a perfect fit, then you obviously don't need to take this step.
+Because it is very hard to validate a large number of possible hypotheses and combinations, you can use [algorithmic attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md) to leave this work to built-in algorithms. If you have already found the perfect attribution model that answers all your questions and is a perfect fit, then you obviously don't need to take this step.
 
 ## Other considerations
 

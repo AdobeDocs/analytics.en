@@ -50,5 +50,5 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * CDA is not currently compatible with the Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 * CDA uses a complex parallel processing pipeline, with multiple dependent components. While ensuring the original report suite data remains untouched, other implications are: 
-** Data is available in reporting with a latency of 8 to 12 hours 
-** Data mismatch of up to 1% for the total number of occurrences between the original report suite and the CDA virtual report suite can be expected. This has minimal impact on the cross-device capabilities.  
+	* Data is available in reporting with a latency of 8 to 12 hours 
+	* Data mismatch of up to 1% for the total number of occurrences between the original report suite and the CDA virtual report suite can be expected. This has minimal impact on the cross-device capabilities.  

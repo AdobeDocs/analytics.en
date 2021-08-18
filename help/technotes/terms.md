@@ -12,6 +12,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](/help/admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **Allocation:** If a conversion variable encounters more than one value during a visit, the variable's allocation setting determines which value is kept. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
+* **Analysis Workspace:** Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports and Analytics.
 * **Anomaly:** Detected using statistical modeling to automatically find unexpected trends in data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in the Analyze user guide.
 * **AppMeasurement:** The code library used to gather data and send it to Adobe. See the [Homepage](/help/implement/home.md) of the Implement user guide.
 * **ASI slot:** No longer exists. In previous versions of Adobe Analytics, ASI slots provided a temporary report suite container to view segmented data. In the current version of Adobe Analytics, segments can be applied instantly to any report.
@@ -38,10 +39,11 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
 * **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
-* **Data connectors:** A complete development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Most data connectors use a similar workflow used in Data Sources. See Data Connectors in the Import user guide.
+* **Data connectors:** A complete development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Most data connectors use a similar workflow used in Data Sources. See [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) in the Import user guide.
 * **Data feed:** A raw data export that lists every hit as a row and variables as separate columns. Most commonly used to export Adobe Analytics data to a third-party database. See [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
 * **Data sources:** Allows a user to upload data from a file into Adobe Analytics. The file is typically pulled from an FTP site. See [Data Sources](/help/import/c-data-sources/datasrc-home.md) in the Import user guide.
 * **Data Warehouse:** A feature in Adobe Analytics that allows you to request larger reports. See [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in the Export user guide.
+* **Data Workbench:** Formerly known as Insight. Designed to collect, process, analyze, and visualize data from both online and offline customer interactions across multiple channels.
 * **Dimension:** A component type that contains variable values, like text. Examples include Page Name, Tracking Code, or Referring Domain. A metric is typically its counterpart.
 * **Event serialization:** The process of implementing measures to prevent the collection of duplicate events. See [Event serialization](../implement/vars/page-vars/events/event-serialization.md) in the Implement user guide.
 * **eVar:** See Conversion variable.
@@ -65,6 +67,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Login company:** A collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of their organization.
 * **Marketing channel:** A feature in Adobe Analytics that categorizes hits by how they arrived to your site. The logic used to categorize hits can be customized using Marketing channel processing rules. See [Getting started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Metric:** A component type that contains quantitative data. Metric values typically contain numbers, such as Page Views, Visits, and Revenue. A dimension is typically its counterpart.
+* **Mobile Services:** Brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, letting you understand and improve user engagement with your applications. See [Mobile Services overview](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 * **Multi-suite tagging:** The practice of sending the same hit to multiple report suites. With the introduction to virtual report suites, this practice is largely no longer necessary. Most multi-suite tagging efforts help accommodate a global report suite.
 * **Normalization:** A way to organize a visualization that takes all metrics and forces them to equal proportions, allowing an easier comparison of trends.
 * **Occurrences:** A type of metric that shows how many hits a dimension item was set or persisted. See the [Occurrences](/help/components/metrics/occurrences.md) metric in the Components user guide.
@@ -79,7 +82,9 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Prop:** See Traffic variable.
 * **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.
 * **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/realtime/realtime.md) in the Admin user guide.
+* **Report Builder:** A Microsoft Excel add-in that lets you build customized requests from Adobe Analytics data.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
+* **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package.
 * **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.
 * **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
 * **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [t](../implement/vars/functions/t-method.md) in the Implement user guide.
@@ -92,7 +97,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Serialization:** See Event serialization.
 * **Server call:** Alternate name for an image request or hit, used mostly in context of billing.
 * **Single access:** A visit where a dimension had only a single unique value. The visit can have multiple hits, as long as there are not multiple unique values. See the [Single access](/help/components/metrics/single-access.md) metric in the Components user guide. See also Bounce.
-* **SiteCatalyst:** No longer used as a term. The former product name for Adobe Analytics.
+* **SiteCatalyst:** No longer used as a term. A former product name for Adobe Analytics.
 * **Solution design document:** Also known as a solution design reference, or SDR. An internal document maintained by an organization that outlines how custom variables are used, and the logic used to populate them. See [Create a solution design document](/help/implement/prepare/solution-design.md) in the Implement user guide.
 * **Subrelation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, subrelations granted the ability to break down conversion variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Success event:** A tracked action a user took. Your organization determines what events to track, and which success event variables you use to track it. See [Custom events](/help/components/metrics/custom-events.md) in the Components user guide.

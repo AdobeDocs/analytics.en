@@ -17,6 +17,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 | --- | --- |
 | **August 2021**|  |
+| August 18, 2021 | New topic on [A4T and virtual report suites]
+| August 18, 2021 | New topic on [Attribution best practices](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | August 5, 2021 | New topic on [Count repeat instances](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
 | August 5, 2021 | Updated classifications documentation on [templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en), and [browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) to indicate options unavailable for report suites that are enabled for the New Classification Architecture. |
 | August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |

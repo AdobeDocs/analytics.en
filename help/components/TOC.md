@@ -189,10 +189,11 @@ user-guide-description: Help organize your data using components such as segment
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
-  + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
+  + [Virtual report suite - component curation](vrs/vrs-components.md)
   + [VRS support in Mobile Services](vrs/vrs-mobile-services.md)
   + [Context-aware sessions](vrs/vrs-mobile-visit-processing.md)
   + [Report time processing](vrs/vrs-report-time-processing.md)
+  + [A4T considerations](vrs/vrs-a4t.md)
   + [VRS FAQs](vrs/vrs-faq.md)
   + [VRSs and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
   + VRS Workflow {#vrs-workflow}

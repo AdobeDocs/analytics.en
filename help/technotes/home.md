@@ -14,7 +14,7 @@ This guide provides helpful information on topics that don't belong to a specifi
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Other Analytics resources
 

@@ -268,10 +268,8 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
   + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
   + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
-  + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
   + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)
-  + [Adobe Analytics - key concepts](reports-analytics/key-concepts.md)
   + Overview of the reporting interface {#reporting-interface}
     + [About Data Collection](reports-analytics/overview/overview-data-collection.md)
     + [Reports Menu](reports-analytics/overview/reports-menu.md)

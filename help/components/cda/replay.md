@@ -18,6 +18,10 @@ The following tables illustrate how both CDA methods ([Field-based stitching](fi
 
 As soon as a hit is collected, CDA attempts to stitch it to known devices. Consider the following example, where Bob uses two devices.
 
+>[!NOTE]
+>
+>Hits older than 12h will not be stitched in the live flow. This applies to use cases supporting timestamped hits. However, these hits will be covered via the Replay stitching, provided they fall in the replay lookback window.
+
 *Data as it appears the day it is collected:*
 
 | Timestamp | ECID | eVar1 or CustomerID | Explanation of hit | People metric (cumulative) using Device Graph | People metric (cumulative) using Field-based stitching |

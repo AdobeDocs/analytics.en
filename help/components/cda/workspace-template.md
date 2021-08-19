@@ -10,7 +10,7 @@ Adobe offers a template to see vital cross-device performance data.
 1. Navigate to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) and log in using your AdobeID credentials.
 1. Click the 9-grid icon at the top, then click Analytics.
 1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
-1. Locate the "Journey IQ: Cross-Device Analytics" template, then click [!UICONTROL Create].
+1. Locate the "Cross-Device Analysis" template, then click [!UICONTROL Create].
 1. If prompted, change the report suite to one that supports CDA.
 
 An Analysis Workspace project is created that contains several panels. At the top, a table of contents and introduction is shown, allowing context to the report and navigation to individual reports. Click a link within the table of contents or expand a panel's accordion to view those reports.

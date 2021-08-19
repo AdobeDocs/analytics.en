@@ -20,6 +20,7 @@ CDA is provisioned on your cross-device report suite by Adobe engineering. To st
 * Which method of CDA you want to use (field-based stitching, Adobe private graph, or Adobe co-op graph)
 * If you intend to use field-based stitching, the prop or eVar that contains the user ID
 * Your preference of replay frequency and lookback length. Options include a replay once a week with a 7-day lookback window, or a replay every day with a 1-day lookback window.
+The default is weekly replay with 7-day lookback window. In this case, data within the last week is subject to change (as it is progressively being stitched and updated).
 
 Once you provide Customer Care with this information, they will work with Adobe Engineering to enable your chosen report suite for CDA processing.
 
@@ -44,7 +45,53 @@ Administrators with access to create virtual report suites can create CDA virtua
 When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
 * A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. This dimension determines if the Experience Cloud ID on that hit is known by the device graph at that time.
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available.
 * New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
 * The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with 'People' and 'Unique Devices'.
 * When building segments, the 'Visitor' segment container is replaced with a 'Person' container.
+
+## CDA Specific Metrics and Dimensions
+
+*Metrics*
+
+* People 
+Total number of unidentified visitors + total number of identified visitors + double counting 
+
+	* Double counting: In a chosen reporting window, if a given visitor has events prior and after the identification, it will be counted as one unidentified people and one identified people  
+
+	* To some extent Replay can fix the double counting by replaying historical data in the given lookback window configured for Replay 
+
+* Identified people 
+
+Total number of identified visitors. If a given visitor is identified by the stitching service, then this metric will increment  
+
+* Unidentified people 
+
+Total number of visitors unknown by the stitching service  
+
+* Unique Devices 
+
+Total number of unique visitors unidentified (devices that generated anonymous hits) + total number of unique visitors identified per device 
+
+	* Please note that this metric is not equal to the Unique Visitors from Analytics. 
+
+	* Example: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the sharable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor). 
+
+In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hit comes from that device).  
+Summing up these values obtained from all devices, we get the value of Unique Devices metric. 
+ 
+Below you can see a more descriptive example for these metrics: 
+
+![CDA checkbox](assets/cda-checkbox.png)
+
+* People with Experience Cloud ID 
+
+Total number of people which also have an Experience Cloud ID(ECID) attached.
+
+*Dimensions*
+
+* Identified State  
+
+	* Unidentified – the hit was not originally mapped to a person and could not be mapped by other attribution method 
+
+	* Identified – the hit has been mapped to a person. 

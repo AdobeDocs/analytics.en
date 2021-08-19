@@ -54,7 +54,7 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 *Metrics*
 
-* People 
+* People
 Total number of unidentified visitors + total number of identified visitors + double counting 
 
 	* Double counting: In a chosen reporting window, if a given visitor has events prior and after the identification, it will be counted as one unidentified people and one identified people  
@@ -69,14 +69,10 @@ Total number of identified visitors. If a given visitor is identified by the sti
 
 Total number of visitors unknown by the stitching service  
 
-* Unique Devices 
-
-Total number of unique visitors unidentified (devices that generated anonymous hits) + total number of unique visitors identified per device 
-
-	* Please note that this metric is not equal to the Unique Visitors from Analytics. 
-
-	* Example: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the sharable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor). 
-
+* Unique Devices
+Total number of unique visitors unidentified (devices that generated anonymous hits) + total number of unique visitors identified per device
+	* Please note that this metric is not equal to the Unique Visitors from Analytics.
+	* Example: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the sharable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor).
 In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hit comes from that device).  
 Summing up these values obtained from all devices, we get the value of Unique Devices metric. 
  

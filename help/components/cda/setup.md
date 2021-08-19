@@ -56,8 +56,7 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 * *People* - total number of unidentified visitors + total number of identified visitors + double counting.
 
-	* Double counting: In a chosen reporting window, if a given visitor has events prior and after the identification, it will be counted as one unidentified people and one identified people  
-
+	* Double counting: In a chosen reporting window, if a given visitor has events prior and after the identification, it will be counted as one unidentified people and one identified people
 	* To some extent Replay can fix the double counting by replaying historical data in the given lookback window configured for Replay 
 
 * *Identified people* - total number of identified visitors. If a given visitor is identified by the stitching service, then this metric will increment.
@@ -66,23 +65,19 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 * *Unique Devices* - total number of unique visitors unidentified (devices that generated anonymous hits) + total number of unique visitors identified per device.
 	* Please note that this metric is not equal to the Unique Visitors from Analytics.
-	* Example: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the sharable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor).
-	
-In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hit comes from that device).  
-Summing up these values obtained from all devices, we get the value of Unique Devices metric. 
+	* *Example*: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the sharable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor).
+	* In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hits come from that device).
+	Summing up these values obtained from all devices, we get the value of *Unique Devices* metric. 
  
 Below you can see a more descriptive example for these metrics: 
 
 ![Unique Devices Count](assets/Unique_Devices_Count.png)
 
-* People with Experience Cloud ID 
+* *People with Experience Cloud ID* - total number of people which also have an Experience Cloud ID(ECID) attached.
 
-Total number of people which also have an Experience Cloud ID(ECID) attached.
+**Dimensions**
 
-*Dimensions*
+* *Identified State*
 
-* Identified State  
-
-	* Unidentified – the hit was not originally mapped to a person and could not be mapped by other attribution method 
-
+	* Unidentified – the hit was not originally mapped to a person and could not be mapped by other attribution method
 	* Identified – the hit has been mapped to a person. 

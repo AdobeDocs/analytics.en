@@ -122,7 +122,6 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/technotes/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |
 | August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/timestamp-optional.md)| August 8, 2019 | In Workspace, Adobe increased the limit of items that can be placed in a dropdown filter from 50 to 200. This enhancement accommodates a variety of use cases, such as adding all countries (195) to a filter, or all US states and provinces (52). |
-| August 5, 2019 | Updates to [Key Concepts](/help/analyze/reports-analytics/key-concepts.md) |
 | August 2, 2019 | Major update to [Analytics glossary](/help/technotes/terms.md) |
 | July 22, 2019 | Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |
 | July 18, 2019 | Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|

@@ -54,8 +54,7 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 **Metrics**
 
-* *People* - total number of unidentified visitors + total number of identified visitors + double counting.
-
+* *People* - total number of **un**identified visitors + total number of identified visitors + double counting.
 	* Double counting: In a chosen reporting window, if a given visitor has events prior and after the identification, it will be counted as one unidentified people and one identified people
 	* To some extent Replay can fix the double counting by replaying historical data in the given lookback window configured for Replay 
 

@@ -12,7 +12,7 @@ Cross-Device Analytics is a feature that transforms Analytics from a device-cent
 
 >[!NOTE]
 >
->Read more about the [Device Co-op end-of life](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=en).
+>Read more about the [Device Co-op end-of-life](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=en).
 
 Using CDA, you can answer questions such as:
 

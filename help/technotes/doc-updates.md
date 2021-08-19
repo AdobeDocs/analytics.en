@@ -17,6 +17,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 | --- | --- |
 | **August 2021**|  |
+| August 18, 2021 | Revised top-level structure and consolidated to a single [Landing page](https://experienceleague.adobe.com/docs/analytics.html) |
 | August 18, 2021 | New topic on [A4T and virtual report suites](/help/components/vrs/vrs-a4t.md) |
 | August 18, 2021 | New topic on [Attribution best practices](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | August 5, 2021 | New topic on [Count repeat instances](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |

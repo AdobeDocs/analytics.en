@@ -82,7 +82,7 @@ Summing up these values obtained from all devices, we get the value of Unique De
  
 Below you can see a more descriptive example for these metrics: 
 
-![CDA checkbox](assets/cda-checkbox.png)
+![Unique Devices Count](assets/Unique_Devices_Count.png)
 
 * People with Experience Cloud ID 
 

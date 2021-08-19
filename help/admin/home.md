@@ -28,7 +28,7 @@ This guide does not cover many of the generic capabilities that the Adobe Admin 
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 

@@ -24,7 +24,7 @@ Configure integrations with other Adobe Experience Cloud solutions, such as Audi
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 

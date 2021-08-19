@@ -27,7 +27,7 @@ Analytics components help you fine tune and empower your analysis of data. Compo
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 

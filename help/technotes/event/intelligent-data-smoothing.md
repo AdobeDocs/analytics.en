@@ -8,7 +8,7 @@ role: User, Admin
 
 On rare occasions, some factors can impact data quality. Bot traffic, implementation changes, or service disruptions can all impact the integrity of the data collected. They also complicate analysis on how the event may have affected data completeness.  
 
-Intelligent Data Smoothing is a prototype in [Analytics Labs](/help/analyze/tech-previews/overview.md) that can help complete this view by analyzing historical trends to predict the value of any metric within the affected time period. The prototype applies advanced machine learning algorithms to plot the expected values for metrics over the time period being analyzed. 
+Intelligent Data Smoothing is a prototype in [Analytics Labs](/help/analyze/labs.md) that can help complete this view by analyzing historical trends to predict the value of any metric within the affected time period. The prototype applies advanced machine learning algorithms to plot the expected values for metrics over the time period being analyzed.
 
 ## Run Intelligent Data Smoothing
 

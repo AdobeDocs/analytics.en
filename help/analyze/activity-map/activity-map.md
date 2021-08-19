@@ -51,4 +51,3 @@ Here is a video overview of Activity Map:
 * [Activity Map user interface](activitymap-user-interface.md)
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
-* [Knowledge resources](activitymap-info-resources.md)

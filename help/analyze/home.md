@@ -22,14 +22,13 @@ This guide provides product documentation and self-help for the following Adobe 
 
 * [Adobe Analytics dashboards - Overview](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace Getting Started](analysis-workspace/home.md)
-* [Progressive Web Apps for Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Which Adobe Analytics tool should I use?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder Getting Started](report-builder/home.md)
 * [Activity Map Getting Started](activity-map/activity-map.md)
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 

@@ -9,6 +9,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
 # Analytics Tools Guide {#analyze}
 
 + [Analytics Tools Guide](home.md)
++ [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -267,10 +268,8 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
   + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
   + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
-  + [Knowledge resources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
   + [Getting started with Reports and Analytics](reports-analytics/getting-started.md)
-  + [Adobe Analytics - key concepts](reports-analytics/key-concepts.md)
   + Overview of the reporting interface {#reporting-interface}
     + [About Data Collection](reports-analytics/overview/overview-data-collection.md)
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
@@ -304,11 +303,5 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
   + [Curator guide](mobile-app/curator.md)
   + [Executive user quick start guide](mobile-app/executive.md)
-+ Progressive web apps {#pwa}
-  + [Progressive web apps](pwa/pwa.md)
-+ Analytics Reporting API {#analytics-reporting-api}
-  + [Analytics Reporting API Overview](c-reporting-api/c-reporting-api.md)
-  + [Analytics Reporting API Comparison](c-reporting-api/api-comparison.md)
-  + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-  + [Labs overview](tech-previews/overview.md)
++ [Reporting API](reporting-api.md)
++ [Labs](labs.md)

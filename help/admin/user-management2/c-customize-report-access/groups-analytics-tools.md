@@ -56,7 +56,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 |Web Service Access|Enables Web Services access for non-administrators. Generates Web Service credentials.|
 |[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html)|Grants members of this group access to [!UICONTROL Report Builder] licenses.|
 |[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) Access|Grants users access to Analysis Workspace, the recommended reporting interface for [!DNL Adobe Analytics].|
-|[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html)|Grants users access to  Reports & Analytics.|
+|[Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)|Grants users access to Reports & Analytics.|
 |[Calculated Metric Creation](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html)|Grants users permission to create calculated metrics.|
 |[Segment Creation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)|Grants users permission to create segments.|
 |**Data Connectors**||

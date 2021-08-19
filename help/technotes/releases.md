@@ -11,7 +11,7 @@ Historically, Adobe Analytics feature releases followed a fixed monthly schedule
 
 [!UICONTROL Analysis Workspace] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
-* **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. **Note**: At RTP, the feature may be available in the 2.0 Analytics API.
+* **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. The feature is sometimes available in the 2.0 Analytics API.
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. The release is then scaled from 0% to 100% availability over the course of a couple months. Phased rollout happens at the Experience Cloud Organization level, so all entitled users in an organization receive the same experience.
 
@@ -21,7 +21,7 @@ With each feature release, the timeline from RTP to GA may vary. The goal is to 
 
 ## Feature flags
 
-Feature flags are used to control the visibility of new features during release. Adobe recommends adding `app.launchdarkly.com` to your firewall's [allowed list](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html) for an optimal experience during release. Shortly after GA is reached, the flag is removed. 
+Feature flags are used to control the visibility of new features during release. Adobe recommends adding `app.launchdarkly.com` to your firewall's [allowed list](/help/technotes/ip-addresses.md) for an optimal experience during release. Shortly after GA is reached, the flag is removed.
 
 You can view your active feature flags at any time under **Help > About Workspace > Active feature flags**.
 
@@ -33,5 +33,5 @@ Phased releases enable Adobe to better scale the software deployment process and
 
 | Question | Answer |
 | --- | --- |
-| Can I request early access to a feature? | No. Early access will not be granted.<br>If you want to test early Analytics concepts, we encourage you to try [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) to provide feedback on our industry-leading innovations. |
-| Does this release strategy affect my access to features? | No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under [!UICONTROL Admin] > [!UICONTROL All admin] > [!UICONTROL Company settings] > [Feature Access Levels](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
+| Can I request early access to a feature? | No. Early access will not be granted.<br>If you want to test early Analytics concepts, we encourage you to try [Adobe Analytics Labs](/help/analyze/labs.md) to provide feedback on our industry-leading innovations. |
+| Does this release strategy affect my access to features? | No. Once a feature has reached GA, you will have access to the feature if it is included in your Analytics package.<br>You can view details of your Analytics package under [Feature Access Levels](/help/admin/company/feature-access-levels.md). |

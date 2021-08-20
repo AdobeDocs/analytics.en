@@ -115,4 +115,4 @@ CDA uses a complex parallel processing pipeline, with multiple dependent compone
 
 ## Why is the "Identified People" metric inflated?
 
-If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implement/validate/hash-collisions). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.
+If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implement/validate/hash-collisions.md). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.

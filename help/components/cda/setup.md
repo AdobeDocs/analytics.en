@@ -45,7 +45,6 @@ Administrators with access to create virtual report suites can create CDA virtua
 When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
 * A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
-* New metrics are available: [People](../metrics/people.md), Identified people, Unidentified people, and Unique Devices.
 * A new dimension labeled [Identified state](../dimensions/identified-state.md) is available.
 * New metrics labeled [People](../metrics/people.md), [Unique Devices](../metrics/unique-devices.md), Identified people, Unidentified people, and People with Experience Cloud ID are available.
 * The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with 'People' and 'Unique Devices'.

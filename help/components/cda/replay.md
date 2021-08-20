@@ -18,10 +18,6 @@ The following tables illustrate how both CDA methods ([Field-based stitching](fi
 
 As soon as a hit is collected, CDA attempts to stitch it to known devices. Consider the following example, where Bob uses two devices.
 
->[!NOTE]
->
->Hits older than 12h will not be stitched in the live flow. This applies to use cases supporting timestamped hits. However, these hits will be covered via the Replay stitching, provided they fall in the replay lookback window.
-
 *Data as it appears the day it is collected:*
 
 | Timestamp | ECID | eVar1 or CustomerID | Explanation of hit | People metric (cumulative) using Device Graph | People metric (cumulative) using Field-based stitching |
@@ -45,6 +41,10 @@ Both unauthenticated and authenticated hits on new devices are counted as separa
 * **If using field-based stitching,** unauthenticated hits on recognized devices are live-stitched from that point forward.
 
   Attribution works as soon as the identifying custom variable ties to a device. In the example above, all hits except hits 1 and 3 are live-stitched (they all use the `Bob` identifier). Attribution works on hits 1 and 3 after replay stitching.
+
+>[!NOTE]
+>
+>Timestamped hits older than 12 hours are not stitched in the live flow. However, these hits are included in Replay stitching, as long as they fall in the replay lookback window.
 
 ### Replay stitching
 

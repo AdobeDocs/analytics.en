@@ -25,3 +25,7 @@ This visualization is like a bar chart, but with the series bars stacked on top 
 A new visualization setting on bar stacked visualizations turns the chart into a "100% stacked" visualization:
 
 ![](assets/stacked_100_percent.png)
+
+Here is a video on "100% stacked visualizations":
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)

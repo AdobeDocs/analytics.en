@@ -48,3 +48,9 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
   >Adobe Analytics cannot assist you with processing requests to the GDPR API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Customer Success Manager in order to set your data retention period.
 
 * Check your permissions: to use the Data Governance Management interface in Adobe Analytics, you must be an Adobe Analytics Administrator.
+
+## AdobePrivacyJS: Client-side identity resolution for GDPR requests
+
+Here is a video overview on this topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)

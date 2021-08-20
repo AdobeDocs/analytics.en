@@ -36,3 +36,9 @@ You can change several requests at the same time, based on the request's report 
     * **By Group:** Groups the display of requests by set of grouped requests.
 
 1. On the [!UICONTROL Edit Multiple Requests] form, click **[!UICONTROL OK]**.
+
+## Add segments to multiple requests at once
+
+Here is a video showing the process:
+
+https://video.tv.adobe.com/v/25445/?quality=12

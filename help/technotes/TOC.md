@@ -9,6 +9,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 # Analytics Tech Notes {#technotes}
 
 + [Analytics tech notes](home.md)
++ [Documentation updates](doc-updates.md)
 + Adobe Analytics for Google Analytics users {#ga-to-aa}
   + [Adobe Analytics for Google Analytics users help](ga-to-aa/home.md)
   + [Accounts and report suites](ga-to-aa/accounts.md)
@@ -37,12 +38,14 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
 + [Data retention](data-retention.md)
 + [Exclude data](exclude-data.md)
++ [Feature releases](releases.md)
 + [IPs and domains used by Adobe Analytics](ip-addresses.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)
 + [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)
 + [Multi-currency support](multicurrency.md)
 + [Privacy overview](privacy-overview.md)
++ [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)

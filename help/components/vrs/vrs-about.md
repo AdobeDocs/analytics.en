@@ -8,7 +8,7 @@ exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 
 Virtual report suites segment your Adobe Analytics data so you can control access to each segment.
 
-Many customers have data flowing into a global report suite, but also have data flowing into smaller report suites. They set a variable to multiple report suites, and send their data to more than one report suite. This is referred to as *multisuite tagging*, or *base/parent report suites*.
+Many customers have data flowing into a global report suite, but also have data flowing into smaller report suites. They set a variable to multiple report suites, and send their data to more than one report suite. This is referred to as *multi-suite tagging*, or *base/parent report suites*.
 
 For example, all data might be collected in one report suite, but then you can set up secondary report suites so other people in your company have access to part of the data, but not all of it. Data might be divided by region. You might have different websites for different countries. Other examples might be specific brands that belong to a larger company, but that each have their own marketing teams.
 

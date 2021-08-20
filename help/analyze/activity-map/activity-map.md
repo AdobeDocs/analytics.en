@@ -18,6 +18,10 @@ Activity Map is an Adobe Analytics application that is designed to rank link act
 
 Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.
 
+Here is a video overview of Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
 **Getting started for Admins**
 
 * [Enable Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
@@ -47,4 +51,3 @@ Activity Map lets you set up different views to visually identify the accelerati
 * [Activity Map user interface](activitymap-user-interface.md)
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
-* [Knowledge resources](activitymap-info-resources.md)

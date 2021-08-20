@@ -109,6 +109,6 @@ The advantages of using the 1-day replay lookback window are 1) replay runs ever
 
 If a customer downgrades from Ultimate, they will no longer have access to stitched data. All previously stitched data will be removed. This means the CDA virtual report suites will now reflect no cross-device stitching. Data will look similar to the original unstitched report suite.
 
-## Why is the “Identified People” metric inflated?
+## Why is the "Identified People" metric inflated?
 
-It may happen that for a certain value of an eVar, the reporting to show more than 1 identified people. This can be explained by [hash collisions](https://experienceleague.adobe.com/docs/analytics/implementation/validate/hash-collisions.html?lang=en). If the count is much higher than expected, then there might be a different problem. If that’s the case, please open a ticket with Customer Care to investigate it.
+If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implementation/validate/hash-collisions). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.

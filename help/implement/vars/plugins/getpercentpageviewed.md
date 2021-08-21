@@ -49,59 +49,46 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## Use the plug-in
 
-The `getPercentPageViewed` method uses the following arguments:
+The `getPercentPageViewed` function uses the following arguments:
 
 * **`pid`** (optional, string):  A page-based identifier you can correlate with the percentages provided by the plug-in's measurements.  Defaults to the `pageName` variable.
 * **`ch`** (optional, boolean):  Set this to `false` (or `0`) if you don't want the plug-in to take into consideration any changes made to a page's size after its initial load. If omitted, this argument defaults to `true`. Adobe recommends omitting this argument in most cases.
 
-Calling this method returns nothing; instead, it sets the following variables:
+Calling this function returns nothing; instead, it sets the following variables:
 
 * `s._ppvPreviousPage`: The name of the previous page viewed. Final scrolling measurements for the current page aren't available until after a new page loads.
-* `s._ppvHighestPercentViewed`: The highest percent of the previous page that the visitor viewed (height-wise). The furthest point that the visitor scrolled down to on the previous page.
-* `s._ppvInitialPercentViewed`: The percent of the previous page that was visible when the previous page first loaded.
+* `s._ppvHighestPercentViewed`: The highest percent of the previous page that the visitor viewed (height-wise). The furthest point that the visitor scrolled down to on the previous page. If the entire page is visible when it first loads, this value is `100`.
+* `s._ppvInitialPercentViewed`: The percent of the previous page that was visible when the previous page first loaded. If the entire page is visible when it first loads, this value is `100`.
 * `s._ppvHighestPixelsSeen`: The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page.
-* `s._ppvFoldsSeen`: The highest number of "page folds" reached as the visitor scrolled down the previous page. This variable includes the "top-of-page" fold.
-* `s._ppvFoldsAvailable`: The number of total "page folds" available to scroll down on the previous page.
+* `s._ppvFoldsSeen`: The highest number of "page folds" reached as the visitor scrolled down the previous page. This variable includes the "top-of-page" fold. If the entire page is visible when it first loads, this value is `1`.
+* `s._ppvFoldsAvailable`: The number of total "page folds" available to scroll down on the previous page. If the entire page is visible when it first loads, this value is `1`.
 
 Assign one or more of these variables to eVars to see dimension data in reports.
 
 This plug-in creates a first-party cookie called `s_ppv` that contains the above values. It expires at the end of the browser session.
 
-## Example Calls
-
-### Example #1
-
-The following code...
+## Examples
 
 ```js
-if(s.pageName) s.getPercentPageViewed();
-if(s._ppvPreviousPage)
+// 1. Runs the getPercentPageViewed function if the page variable is set
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed, the intial percent, the number of folds viewed, and total number of folds of the previous page
+if(s.pageName) getPercentPageViewed();
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed=" + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed + " | foldsSeen=" + _ppvFoldsSeen + " | foldsAvailable=" + _ppvFoldsAvailable;
 }
-```
 
-* Determines if s.pageName is set and if so, the code will run the getPercentPageViewed function
-* When the getPercentPageViewed function runs, it will create the variables described in the "Returns" section above
-* If the "Returns" variables have been successfully set:
-  * The code will set s.prop1 equal to the value of s._ppvPreviousPage (i.e. the previous value of s.pageName, or the previous page)
-  * The code will also set s.prop2 equal to the Highest Percent Viewed of the previous page and the Initial Percent Viewed of the previous page, along with the number of folds that the visitor reached and the number of folds that were available
-
-**Note**:  If an entire page is visible when it first loads, both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to 100, and both the Folds Seen and Folds Available would be equal to 1.   When an entire page is NOT visible when it first loads but the visitor never ends up scrolling down the page before moving onto the next page, then both the Highest Percent Viewed and the Initial Percent Viewed dimensions would be equal to the same value.
-
-### Example #2
-
-Assume that s.prop5 has been set aside to capture a rolled-up "page type" rather than the entire page name.
-
-The following code determines if s.prop5 has been set and, if so, will store its value as the "previous page" to correlate with the Highest Percent Viewed and the Initial Percent Viewed dimensions.  The value will still be stored in the s._ppvPreviousPage variable but can be treated as if it were the previous page type instead of the previous page name.
-
-```js
-if(s.prop5) s.getPercentPageViewed(s.prop5);
-if(s._ppvPreviousPage)
+// Given prop5 operates as a page type variable:
+// 1. Runs the getPercentPageViewed function if prop5 has a value
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed and the initial percent viewed.
+if(s.prop5) getPercentPageViewed(s.prop5);
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed = " + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed;
 }
 ```
 

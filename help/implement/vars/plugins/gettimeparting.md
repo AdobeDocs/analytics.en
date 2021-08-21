@@ -57,7 +57,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Use the plug-in
 
-The `getTimeParting` method uses the following argument:
+The `getTimeParting` function uses the following argument:
 
 **`t`** (Optional but recommended, string): The name of the time zone to convert the visitor's local time to.  Defaults to UTC/GMT time. See [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) on Wikipedia for a complete list of valid values.
 
@@ -68,7 +68,7 @@ Common valid values include:
 * `"America/Denver"` for Mountain Time
 * `"America/Los_Angeles"` for Pacific Time
 
-Calling this method returns a string that contains the following delimited by a pipe (`|`):
+Calling this function returns a string that contains the following delimited by a pipe (`|`):
 
 * The current year
 * The current month
@@ -76,55 +76,35 @@ Calling this method returns a string that contains the following delimited by a 
 * The day of the week
 * The current time (AM/PM)
 
-## Example Calls
-
-### Examples for Specific Time Zones
-
-Use the following sample code if the client is in Paris, France:
+## Examples
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-If the client is in San Jose, California:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-If the client is in the African country of Ghana:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-Ghana is within the UTC/GMT time zone. This example shows that no plug-in argument is necessary for UTC/GMT.
-
-### Accounting for Internet Explorer Browsers
-
-Use the following sample if you want to exclude time parting data from Internet Explorer Visitors. The value returned from IE browsers is only in the visitor's local time.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### Results from calls
-
-Consider an scenario where a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Version History

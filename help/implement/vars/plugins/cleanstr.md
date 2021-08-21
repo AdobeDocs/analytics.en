@@ -51,51 +51,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Use the plug-in
 
-The `cleanStr` method uses the following arguments:
+The `cleanStr` function uses the following arguments:
 
 * **`str`** (required, string): The value that you want to clean HTML encoding, extra whitespace, tabs, or other unnecessary characters.
 
-The method returns the value of the `str` argument with all unnecessary characters removed.
+The function returns the value of the `str` argument with all unnecessary characters removed.
 
 ## Examples
 
-### Example #1
-
-Assume the following (where the dots represent spaces and the arrows represent tab characters
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-When you run the following code...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-...eVar1 will be set equal to "this is a messystring" (with all extra spaces and all tab characters removed)
-
-### Example #2
-
-If...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-...and the following code runs...
-
-```js
-cleanStr(s.eVar1)
-```
-
-...the final value of s.eVar1 will still be:
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the str argument.
 
 ## Version History
 

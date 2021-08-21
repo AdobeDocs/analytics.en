@@ -56,7 +56,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## Use the plug-in
 
-The `rfl` method uses the following arguments:
+The `rfl` function uses the following arguments:
 
 * **`lv`** (required, string): A variable (or string) that containing a list of delimited values
 * **`vr`** (required, string): The value you want removed from the `lv` argument. Adobe advises against removing multiple values during a single `rfl` call.
@@ -64,7 +64,7 @@ The `rfl` method uses the following arguments:
 * **`d2`** (optional, string): The delimiter that you want the return string to use. Defaults to the same value as the `d1` argument.
 * **`df`** (optional, boolean): If `true`, forces only duplicate instances of the `vr` argument from the `lv` argument instead of all instances. Defaults to `false` when not set.
 
-Calling this method returns a modified string containing the `lv` argument but without any instances (or duplicate instances) of the value specified in the `vr` argument.
+Calling this function returns a modified string containing the `lv` argument but without any instances (or duplicate instances) of the value specified in the `vr` argument.
 
 ## Example Calls
 
@@ -79,7 +79,7 @@ s.events = "event22,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event24");
 ```
 
 ...the final value of s.events will be:
@@ -99,7 +99,7 @@ s.events = "event22,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event26");
+s.events = rfl(s.events,"event26");
 ```
 
 ...the final value of s.events will be:
@@ -121,7 +121,7 @@ s.events = "event22,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events);
+s.events = rfl(s.events);
 ```
 
 ...the final value of s.events will be:
@@ -130,7 +130,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-If either the lv argument or vr argument are blank in an s.rfl call, then the plug-in will return nothing
+If either the `lv` argument or `vr` argument are blank in an `rfl` call, then the plug-in returns nothing.
 
 ### Example #4
 
@@ -143,7 +143,7 @@ s.prop4 = "hello|people|today";
 ...and the following code runs...
 
 ```js
-s.eVar5 = s.rfl(s.prop4,"people","|");
+s.eVar5 = rfl(s.prop4,"people","|");
 ```
 
 ...the final value of s.prop4 will still be...
@@ -158,7 +158,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Keep in mind that the plug-in only returns a value; it does not actually "reset" the variable passed in through the lv argument.
+Keep in mind that the plug-in only returns a value; it does not actually "reset" the variable passed in through the `lv` argument.
 
 ### Example #5
 
@@ -171,7 +171,7 @@ s.prop4 = "hello|people|today";
 ...and the following code runs...
 
 ```js
-s.prop4 = s.rfl(s.prop4,"people");
+s.prop4 = rfl(s.prop4,"people");
 ```
 
 ...the final value of s.prop4 will still be...
@@ -180,7 +180,7 @@ s.prop4 = s.rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Be sure to set the d1 argument in cases where the lv argument value contains a different delimiter than the default value (i.e. comma).
+Be sure to set the `d1` argument in cases where the `lv` argument value contains a different delimiter than the default value (i.e. comma).
 
 ### Example #6
 
@@ -193,7 +193,7 @@ s.events = "event22,event23,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"EVenT23");
+s.events = rfl(s.events,"EVenT23");
 ```
 
 ...the final value of s.events will be:
@@ -215,7 +215,7 @@ s.events = "event22,event23:12345,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...the final value of s.events will be:
@@ -235,7 +235,7 @@ s.events = "event22,event23:12345,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23:12345");
+s.events = rfl(s.events,"event23:12345");
 ```
 
 ...the final value of s.events will be:
@@ -244,7 +244,7 @@ s.events = s.rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-When you need to remove an event that uses serialization and/or numeric/currency syntax, you should specify only the event itself (i.e. without the serialization/numeric/currency values) in the s.rfl call.  
+When you need to remove an event that uses serialization and/or numeric/currency syntax, you should specify only the event itself (i.e. without the serialization/numeric/currency values) in the `rfl` call.  
 
 ### Example #9
 
@@ -257,7 +257,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 ...the final value of s.events will be:
@@ -277,7 +277,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "",true);
+s.events = rfl(s.events,"event23", "", "",true);
 ```
 
 ...the final value of s.events will be:
@@ -297,7 +297,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "|",true);
+s.events = rfl(s.events,"event23", "", "|",true);
 ```
 
 ...the final value of s.events will be:
@@ -317,7 +317,7 @@ s.events = "event22,event23,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23,event24");
+s.events = rfl(s.events,"event23,event24");
 ```
 
 ...the final value of s.events will be:
@@ -326,7 +326,7 @@ s.events = s.rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-Setting multiple values in the vr argument is not supported. The rfl logic in the above example would first split out the values in the lv argument (i.e. s.events) then try to match each delimited value to the complete vr argument value (i.e. "event23,event24").  
+Setting multiple values in the `vr` argument is not supported. The `rfl` logic in the above example would first split out the values in the `lv` argument (i.e. s.events) then try to match each delimited value to the complete `vr` argument value (i.e. `"event23,event24"`).  
 
 ### Example #13
 
@@ -339,8 +339,8 @@ s.events = "event22,event23,event24,event25";
 ...and the following code runs...
 
 ```js
-s.events = s.rfl(s.events,"event23");
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event23");
+s.events = rfl(s.events,"event24");
 ```
 
 ...the final value of s.events will be:
@@ -349,7 +349,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Each value to be removed from the list should be contained within its own s.rfl call.
+Each value to be removed from the list should be contained within its own `rfl` call.
 
 ### Example #14
 
@@ -362,7 +362,7 @@ s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ...and the following code runs...
 
 ```js
-s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
+s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
 ...the final value of s.linkTrackVars will be:
@@ -371,7 +371,7 @@ s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-The last three arguments (i.e. ",",",",false) at the end of this s.rfl call are not necessary but are also not "hurting anything" by being there since they match the default settings.
+The last three arguments (i.e. ",",",",false) at the end of this `rfl` call are not necessary but are also not "hurting anything" by being there since they match the default settings.
 
 ### Example #15
 
@@ -384,7 +384,7 @@ s.events = "event22,event23,event24";
 ...and the following code runs...
 
 ```js
-s.rfl(s.events,"event23");
+rfl(s.events,"event23");
 ```
 
 ...the final value of s.events will still be:
@@ -393,7 +393,7 @@ s.rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Again, keep in mind the plug-in only returns a value; it does not actually "reset" the variable passed in through the lv argument.
+Again, keep in mind the plug-in only returns a value; it does not actually "reset" the variable passed in through the `lv` argument.
 
 ## Version History
 

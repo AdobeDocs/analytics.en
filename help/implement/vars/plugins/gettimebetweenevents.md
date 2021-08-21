@@ -50,7 +50,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Use the plug-in
 
-The `getTimeBetweenEvents` method uses the following arguments:
+The `getTimeBetweenEvents` function uses the following arguments:
 
 * **`ste`** (required, string): Start timer events. A comma-delimited string of Analytics events to "start the timer".
 * **`rt`** (required, boolean): Restart timer option. Set to `true` if you want to restart the timer every time the `events` variable contains a start timer event. Set to `false` if you don't want the timer to restart when it sees a start timer event.
@@ -75,54 +75,28 @@ The `getTimeBetweenEvents` method uses the following arguments:
 * **`bml`** (optional, number): The length of the rounding benchmark according to the format of the `fmt` argument. For example, if the `fmt` argument is `"s"` and this argument is `2`, the return value is rounded to the closest 2-second benchmark. If `fmt` argument is `"m"` and this argument is `0.5`, the return value is rounded to the closest half-minute benchmark.
 * **`rte`** (optional, string): Comma-delimited string of Analytics events that remove or delete the timer. Defaults to nothing.
 
-Calling this method returns an integer representing the amount of time between the start timer event and stop timer event in the desired format.
+Calling this function returns an integer representing the amount of time between the start timer event and stop timer event in the desired format.
 
 ## Example Calls
 
-### Example #1
-
-The following code...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-...is configured to behave as follows:
-
-* The timer will start when s.events contains event1.
-* The timer will restart every time s.events contains event1
-* The timer will stop when s.events contains event2
-* The timer will reset (i.e. go to 0 seconds) every time s.events contains event2
-* The timer will reset also when either s.events contains event3 OR if the visitor closes his/her browser
-* When an actual time between event1 and event2 is recorded, the plug-in will set eVar1 equal to the number of seconds between the two events being set, rounded to the closest 2-second benchmark (e.g. 0 seconds, 2 seconds, 4 seconds, 10 seconds, 184 seconds, etc.)
-* If s.events contains event2 before a timer has started, eVar1 won't be set at all.
-
-### Example #2
-
-The following code...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-...is configured to behave as follows:
-
-* The timer will start when s.events contains event1.
-* The timer will NOT restart every time s.events contains event1, rather the original timer will still keep running
-* The timer will NOT stop when s.events contains event2, but the plug-in will record the time since the original event1 setting was recorded
-* The timer is stored in a cookie called "s_20"
-* The timer will reset only when either s.events contains event3 OR if 20 days has passed since the timer started
-* When a time between (the original) event1 and event2 is recorded, the plug-in will set eVar1 equal to the number of hours between the two events being set, rounded to the closest 1 1/2-hour benchmark (e.g. 0 hours, 1.5 hours, 3 hours, 7.5 hours, 478.5 hours, etc.)
-
-### Example #3
-
-The following code...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-...will produce similar results to the first example above; however, the value of eVar1 is returned in either seconds, minutes, hours, or days, depending on the final length of the timer.  Also, the timer will expire 1 day after it was first set instead of at the time the visitor closes his/her browser.
 
 ## Version History
 

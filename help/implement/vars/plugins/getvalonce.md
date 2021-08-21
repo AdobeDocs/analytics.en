@@ -53,36 +53,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## Use the plug-in
 
-The `getValOnce` method uses the following arguments:
+The `getValOnce` function uses the following arguments:
 
 * **`vtc`** (required, string): The variable to check and see if it was just previously set to an identical value
 * **`cn`** (optional, string): The name of the cookie that holds the value to check. Defaults to `"s_gvo"`
 * **`et`** (optional, integer): The expiration of the cookie in days (or minutes, depending on the `ep` argument). Defaults to `0`, which expires at the end of the browser session
 * **`ep`** (optional, string): Only set this argument if the `et` argument is also set. Set this argument to `"m"` if you want the `et` argument to expire in minutes instead of days. Defaults to `"d"`, which sets the `et` argument in days.
 
-If the `vtc` argument and cookie value match, this method returns an empty string. If the `vtc` argument and cookie value do not match, the method returns the `vtc` argument as a string.
+If the `vtc` argument and cookie value match, this function returns an empty string. If the `vtc` argument and cookie value do not match, the function returns the `vtc` argument as a string.
 
-## Example Calls
-
-### Example #1
-
-Use this call to prevent the same value being passed in to s.campaign more than once in a row for next 30 days:
+## Examples
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-In the above call, the plug-in will first compare the value already contained in the s_campaign cookie with the value coming from the current s.campaign variable.   If a match is not made, the plug-in will set the s_campaign cookie equal to the new value coming from s.campaign and then return the new value.   This comparison will happen for the next thirty days
-
-### Example #2
-
-Use this call to prevent the same value being set throughout the session:
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-This code prevents the same value from being passed into s.eVar2 more than once in a row throughout a user’s session.  It also ignores the “m” value in the epargument (at the end of the call) since the expiration time is set equal to 0.   The code also stores the comparison value in the s_ev2 cookie.
 
 ## Version History
 

@@ -61,24 +61,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Use the plug-ins
 
-The `zeroPad` method uses the following arguments:
+The `zeroPad` function uses the following arguments:
 
-* **num** (required, integer): The number to pad. The method rounds down the value of this argument if it contains decimals.
+* **num** (required, integer): The number to pad. The function rounds down the value of this argument if it contains decimals.
 * **nod** (required, integer): The number of digits in the final return value. If the number to pad has less digits than the number of digits to pad to, then the plug-in adds zeroes to the beginning of the `num` argument.
 
-The `randomNumber` method uses the following arguments:
+The `randomNumber` function uses the following arguments:
 
 * **nod** (optional, integer): The number of digits in the random number that you want to generate. The maximum value is 17 digits. The default value is 10 digits.
 
-The `twoDecimals` method uses the following arguments:
+The `twoDecimals` function uses the following arguments:
 
 * **val** (required, number): A number (represented by either a string or number object) that you want to round to the nearest hundredth.
 
 ## Returns
 
-* The **zeroPad** method returns a string equal to the `num` argument but with a specific number of zeroes added to the beginning of its value, which ensures that the return value has the correct number of digits.
-* The **randomNumber** method returns a string equal to a random number with the desired number of digits.
-* The **twoDecimals** method returns a number object rounded to the closest hundredth.
+* The **zeroPad** function returns a string equal to the `num` argument but with a specific number of zeroes added to the beginning of its value, which ensures that the return value has the correct number of digits.
+* The **randomNumber** function returns a string equal to a random number with the desired number of digits.
+* The **twoDecimals** function returns a number object rounded to the closest hundredth.
 
 ## Example Calls
 

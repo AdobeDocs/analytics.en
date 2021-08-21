@@ -51,96 +51,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Use the plug-in
 
-The `inList` method uses the following arguments:
+The `inList` function returns a boolean depending on its inputs. It uses the following arguments:
 
 * **`lv`** (required, string or array): A delimited list of values or a JavaScript array object to search
 * **`vtc`** (required, string): The value to search for
 * **`d`** (optional, string): The delimiter used to separate individual values in the `lv` argument. Defaults to a comma (`,`) when not set.
-* **`cc`** (optional, boolean): If set to `true`, a case-sensitive check is made. If set to `false` or omitted, then a case-insensitive check is made. Defaults to `false`.
+* **`cc`** (optional, boolean): If set to `true` or `1`, a case-sensitive check is made. If set to `false` or omitted, then a case-insensitive check is made. Defaults to `false`.
 
-Calling this method returns `true` if it finds a match, and `false` if it does not find a match.
+Calling this function returns `true` if it finds a match, and `false` if it does not find a match.
 
-## Example Calls
-
-### Example #1
-
-If...
+## Examples
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-...and the following code runs...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...the conditional if statement will be true
-
-### Example #2
-
-If...
-
-```js
-s.events="event22,event24";
-```
-
-...and the following code runs...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...the conditional if statement will be false because the inList call did not make an exact match between event2 and either of the delimited-values in s.events
-
-### Example #3
-
-If...
-
-```js
-s.events="event22,event24";
-```
-
-...and the following code runs...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...the conditional if statement will be true because the inList call did not make an exact match between event23 and either of the delimited-values in s.events (notice the "NOT" operator at the beginning of the inList variable call).
-
-### Example #4
-
-If...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-...and the following code runs...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-...the conditional if statement will be false.  Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag.
-
-### Example #5
-
-If...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-...and the following code runs...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-...the conditional if statement will be false.  The value of the d argument passed into the call (i.e. "|") assumes that the individual values in s.linkTrackVars are delimited by a pipe character, whereas in reality, the values are delimited by a comma.  In this case, the plug-in will try to make a match between the whole value of s.linkTrackVars (i.e. "events,eVar1") and the value to look for (i.e. "eVar1").
 
 ## Version History
 

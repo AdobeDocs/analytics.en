@@ -31,7 +31,3 @@ Each organization has different implementation needs, so you can decide how you 
 4. Validate your implementation and publish.
 
 Many organizations call plug-ins using the [`doPlugins`](../functions/doplugins.md) function. While this function is not required, Adobe considers it a best practice to use. AppMeasurement calls this function just before compiling and sending an image request, which is ideal since several plug-ins depend on other Analytics variables.
-
-## Use plug-ins with non-standard tracking objects
-
-Plug-ins do not work by default with tracking objects other than `s`. However, you can modify plug-in code to accommodate the custom tracking object. Within a given plug-in, replace all references to `s` with your desired tracking object.

@@ -51,7 +51,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Use the plug-in
 
-The `manageVars` method uses the following arguments:
+The `manageVars` function uses the following arguments:
 
 * **`cb`** (required, string): The name of a callback function that the plug-in uses to manipulate the Analytics variables. You can use an Adobe function like `cleanStr` or your own custom function.
 * **`l`** (optional, string): A comma-delimited list of Analytics variables that you want to manipulate. Defaults to ALL Adobe Analytics variables when not set, which includes:
@@ -73,7 +73,7 @@ The `manageVars` method uses the following arguments:
   * All context data variables
 * **`Il`** (optional, boolean): Set to `false` if you want to *exclude* the list of variables declared in the `l` argument instead of including them. Defaults to `true`.
 
-Calling this method returns nothing. Instead it changes the values of Analytics variables based on the desired callback function.
+Calling this function returns nothing. Instead it changes the values of Analytics variables based on the desired callback function.
 
 ## Example Calls
 
@@ -82,7 +82,7 @@ Calling this method returns nothing. Instead it changes the values of Analytics 
 The following code...
 
 ```js
-s.manageVars("lowerCaseVars");
+manageVars("lowerCaseVars");
 ```
 
 ...changes the values of all the variables described above to lowercased versions.  The sole exception to this is the events variable, as some of the events (e.g. scAdd, scCheckout, etc.) are case-sensitive and should not be lowercased
@@ -92,7 +92,7 @@ s.manageVars("lowerCaseVars");
 The following code...
 
 ```js
-s.manageVars("lowerCaseVars", "events", false);
+manageVars("lowerCaseVars", "events", false);
 ```
 
 ...essentially produces the exact same result as the first example since the events variable isn't lowercased by default.
@@ -102,7 +102,7 @@ s.manageVars("lowerCaseVars", "events", false);
 The following code...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
 ...will change (e.g. lowercase) only the values of eVar1, eVar2, eVar3, and list2
@@ -112,7 +112,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 The following code...
 
 ```js
-s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
+manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
 ...will change (e.g. lowercase) the values of all the variables described above EXCEPT for eVar1, eVar2, eVar3, and list2
@@ -122,7 +122,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 The following code...
 
 ```js
-s.manageVars("cleanStr");
+manageVars("cleanStr");
 ```
 
 ...changes the values of all the variables described above, including the events variables.  Specifically, the cleanStr callback function does the following to each variables' value:

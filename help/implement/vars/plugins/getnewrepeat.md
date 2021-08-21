@@ -51,54 +51,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## Use the plug-in
 
-The `getNewRepeat` method uses the following arguments:
+The `getNewRepeat` function uses the following arguments:
 
 * **`d`** (integer, optional): The minimum number of days required between visits that resets visitors back to `"New"`. If this argument is not set, it defaults to 30 days.
 
-This method returns the value of `"New"` if the cookie set by the plug-in doesn't exist or has expired. It returns the value of `"Repeat"` if the cookie set by the plug-in exists and the amount of time since the current hit and the time set in the cookie is greater than 30 minutes. This method returns the same value for an entire visit.
+This function returns the value of `"New"` if the cookie set by the plug-in doesn't exist or has expired. It returns the value of `"Repeat"` if the cookie set by the plug-in exists and the amount of time since the current hit and the time set in the cookie is greater than 30 minutes. This function returns the same value for an entire visit.
 
 This plug-in uses a cookie named `"s_nr[LENGTH]"` where `[LENGTH]` is equal to the `d` argument. The cookie contains a Unix timestamp representing the current time and the current status of the visitor (`"New"` or `"Repeat"`).
 
-## Example Calls
-
-### Example #1
-
-The following code sets `eVar1` to the value of `"New"` for new visitors and continues to set `eVar1` to the value of `"New"` (with each new call) throughout the remainder of the visitor's visit to the site.
+## Examples
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### Example #2
-
-If the visitor comes back to the site anytime from 31 minutes to 30 days since the last time `getNewRepeat()` was called, the following code sets `eVar1` to the value of `"Repeat"` and continues to set `eVar1` to the value of `"Repeat"` (with each new call) throughout the remainder of the visitor's visit to the site.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Example #3
-
-If the visitor hasn't been to the site for at least 30 days since the last time `getNewRepeat()` was called, the following code sets `eVar1` to the value of `"New"` and continues to set `eVar1` to the value of `"New"` (with each new call) throughout the remainder of the visitor's visit to the site.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Example #4
-
-If the visitor comes back to the site anytime 31 minutes to 365 days (i.e. 1 year) since the last time `getNewRepeat()` was called, the following code sets `eVar1` to the value of `"Repeat"` and continues to set `eVar1` to the value of `"Repeat"` (with each new call) throughout the remainder of the visitor's visit to the site.
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### Example #5
-
-If the visitor hasn't been to the site for at least 365 days (i.e. 1 year) since the last time `getNewRepeat()` was called, the following code sets `eVar1` to the value of `"New"` and continues to set `eVar1` to the value of `"New"` (with each new call) throughout the remainder of the visitor's visit to the site.
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## Version History

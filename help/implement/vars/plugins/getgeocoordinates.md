@@ -51,7 +51,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## Use the plug-in
 
-The `getGeoCoordinates` method does not use any arguments. It returns one of the following values:
+The `getGeoCoordinates` function does not use any arguments. It returns one of the following values:
 
 * `"geo coordinates not available"`: For devices that do not have geo-location data available at the time that the plug-in runs. This value is common on the first hit of the visit, especially when visitors first need to provide consent on tracking their location.
 * `"error retrieving geo coordinates"`: When the plug-in encounters any errors when attempting to retrieve the device's location
@@ -63,38 +63,29 @@ The `getGeoCoordinates` method does not use any arguments. It returns one of the
 
 This plug-in uses a cookie named `"s_ggc"` to store coordinates between hits if necessary.
 
-## Example Calls
-
-### Example #1
-
-The following code...
+## Examples
 
 ```js
-s.eVar1 = s.getGeoCoordinates();
-```
+// Sets eVar1 to one of the above return values depending on the visitor's device status.
+s.eVar1 = getGeoCoordinates();
 
-...sets eVar1 equal to one of the above return values depending on the visitor's device status
-
-### Example #2
-
-The following code extracts latitude and longitude into their own variables called finalLatitude and finalLongitude for use in other code/applications
-
-```js
-var coordinates = s.getGeoCoordinates();
+// Extracts latitude and longitude into their own variables called finalLatitude and finalLongitude for use in other code/applications.
+var coordinates = getGeoCoordinates();
 if(coordinates.indexOf("latitude") > -1)
 {
   var finalLatitude = Number(coordinates.split("|")[0].trim().split("=")[1]),
   finalLongitude = Number(coordinates.split("|")[1].trim().split("=")[1]);
 }
-```
 
-From there, you can determine whether a visitor is at, for example, the Statue of Liberty:
-
-```js
-if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
+// From there, you can determine whether a visitor is at, for example, the Statue of Liberty:
+if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongitude >= -74.0446 && finalLongitude <= -74.0444)
+{
   var visitorAtStatueOfLiberty = true;
+}
 else
+{
   var visitorAtStatueOfLiberty = false;
+}
 ```
 
 ## Version History

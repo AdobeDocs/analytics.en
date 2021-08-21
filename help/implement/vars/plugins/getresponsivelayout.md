@@ -51,13 +51,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Use the plug-in
 
-The `getResponsiveLayout` method uses the following arguments:
+The `getResponsiveLayout` function uses the following arguments:
 
 * **`ppw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone portrait layout to a phone landscape-based layout
 * **`plw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a phone landscape layout to a tablet-based layout
-* **`tw`** (required, boolean): The maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
+* **`tw`** (required, integer): The maximum width of pixels a browser window can have before the page switches from a tablet layout to a desktop-based layout
 
-Calling this method returns a string containing two parts. The first part uses of of the following values, depending on the browser's width and the above arguments:
+Calling this function returns a string containing two parts delimited by a colon (`:`). The first part of the string contains one of the following values, depending on the browser's width and the above arguments:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -67,34 +67,22 @@ Calling this method returns a string containing two parts. The first part uses o
 
 The second part of the returned string is the browser's width and height dimensions. For example, `"desktop layout:1243x700"`.
 
-## Example Calls
-
-### Example #1
-
-If...
-
-* Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
-* Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
-* Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
-
-...the following code will set eVar10 equal to the current responsive design layout as experience by the visitor as well as the browser's width and dimensions
+## Examples
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### Example #2
-
-If...
-
-* Your site has only a phone mode, a tablet mode, and a desktop mode
-* Your site switches from phone mode to tablet mode when the browser width is greater than 500 pixels
-* Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
-
-...the following code will set eVar10 equal to the current responsive design layout as experience by the visitor as well as the browser's width and dimensions
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## Version History

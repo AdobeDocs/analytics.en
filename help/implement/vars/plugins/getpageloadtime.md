@@ -51,7 +51,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## Use the plug-in
 
-The `getPageLoadTime` method does not use any arguments. When calling this method, it does not return anything. Instead, it sets the following variables:
+The `getPageLoadTime` function does not use any arguments. When calling this function, it does not return anything. Instead, it sets the following variables:
 
 * `s._pltPreviousPage`: The previous page so you can correlate load time to the previous page
 * `s._pltLoadTime`: The time in seconds that the previous page took to load
@@ -61,29 +61,22 @@ The getPageLoadTime plug-in creates two first-party cookies:
 * `s_plt`: The time, in seconds, that the previous page took to load. Expires at the end of the browser session.
 * `s_pltp` The value of the `s.pageName` variable as recorded in the previous Adobe Analytics image request. Expires at the end of the browser session.
 
-## Example Calls
-
-### Example #1
-
-Running the following code...
+## Example
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-...will do the following:
-
-* Run the getPageLoadTime plug-in when s.pageName is set
-* Set s.prop10 equal to the load time of the previous page
-* Set s.prop11 and s.eVar10 equal to the name of the previous page (as recorded in s.pageName)
-* Set event100, which would be a custom numeric event, equal to the load time of the previous page.   Using a custom event in this case would allow you to get the total amount of time for all page loads of the previous page (from all visitors/visits) and thus use a calculated metric to get the average page load time for each page
 
 ## Version History
 

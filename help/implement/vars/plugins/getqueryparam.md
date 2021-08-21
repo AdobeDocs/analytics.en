@@ -49,132 +49,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Use the plug-in
 
-The `getQueryParam` method uses the following arguments:
+The `getQueryParam` function uses the following arguments:
 
 * **`qsp`** (required): A comma delimited list of query string parameters to look for within the URL. It is not case-sensitive.
 * **`de`** (optional): The delimiter to use if multiple query string parameters match. Defaults to an empty string.
 * **`url`** (optional): A custom URL, string, or variable to extract the query string parameter values from. Defaults to `window.location`.
 
-Calling this method returns a value depending on the above arguments and the URL:
+Calling this function returns a value depending on the above arguments and the URL:
 
-* If a matching query string parameter is not found, the method returns an empty string.
-* If a matching query string parameter is found, the method returns the query string parameter value.
-* If a matching query string parameter is found but the value is empty, the method returns `true`.
-* If multiple matching query string parameters are found, the method returns a string with each parameter value delimited by the string in the `de` argument.
+* If a matching query string parameter is not found, the function returns an empty string.
+* If a matching query string parameter is found, the function returns the query string parameter value.
+* If a matching query string parameter is found but the value is empty, the function returns `true`.
+* If multiple matching query string parameters are found, the function returns a string with each parameter value delimited by the string in the `de` argument.
 
-## Example Calls
-
-### Example #1
-
-If the current URL is the following:
+## Examples
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-The following code will set s.campaign equal to "trackingcode1":
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Example #2
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "trackingcode1:123456":
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Example #3
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "trackingcode1123456":
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Example #4
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-The following code will set s.campaign equal to "123456":
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Example #5
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "123456"
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Note:** The plug-in replaces the URL to Check's hash character with a question mark if a question mark does not exist.  If the URL contains a question mark that comes before the hash character, the plug-in will replace the URL to Check's hash character with an ampersand;
-
-### Example #6
-
-If the current URL is the following...
-
-```js
-http://www.abc123.com/
-```
-
-...and if the variable s.testURL is set as follows:
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-The following code will not set s.campaign at all:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-However, the following code will set s.campaign equal to "trackingcode1":
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Note:** the third parameter can be any string/variable that the code will use to try to find the query string parameters in
-
-The following code will set s.eVar2 equal to "123456|trackingcode1|true|300":
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* The value of 123456 comes from the ecid parameter in the s.testURL variable
-* The value of trackingcode1 comes from the cid parameter in the s.testURL variable
-* The value of true comes from the existence (but non-value) of the location parameter after the hash character in the s.testURL variable
-
-The value of 300 comes from the value of the pos parameter in the s.testURL variable
 
 ## Version History
 

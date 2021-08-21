@@ -51,7 +51,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Use the plug-in
 
-The `formatTime` method uses the following arguments:
+The `formatTime` function uses the following arguments:
 
 * **`ns`** (required, integer): The number of seconds to convert or format
 * **`tf`** (optional, string): The type of format to return the seconds in; defaults to seconds
@@ -61,7 +61,7 @@ The `formatTime` method uses the following arguments:
   * Set to `"s"` if you want the time in seconds (rounded to the closest 5 second benchmark by default)
 * **`bml`** (optional, number): The length of the rounding benchmarks. Defaults to the benchmarks listed in the `tf` argument
 
-The method returns the number of seconds formatted using the unit you specify in the `tf` argument. If the `tf` argument is not set:
+The function returns the number of seconds formatted using the unit you specify in the `tf` argument. If the `tf` argument is not set:
 
 * Anything less than a minute is rounded to the closest 5 second benchmark
 * Anything between a minute and an hour is rounded to the closest 1/2-minute benchmark
@@ -70,82 +70,31 @@ The method returns the number of seconds formatted using the unit you specify in
 
 ## Examples
 
-### Example #1
-
-The following code...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-...will set s.eVar1 equal to "10.5 hours"
-
-The argument passed in – 38242 seconds – is equal to 10 hours, 37 minutes, and 22 seconds.  Since the tf argument is not set in this call and the number of seconds passed in is between an hour and a day, the plug-in will return the number of second converted to the closest quarter-hour benchmark.
-
-### Example #2
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-...will set s.eVar1 equal to "10.75 hours"
-The argument passed in – 38250 seconds – is equal to 10 hours, 37 minutes, and 30 seconds.  Rounding the number of seconds passed in to the closest quarter-hour benchmark in this case will set the final value to 10.75 hours
-
-### Example #3
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-...will set s.eVar1 equal to "637.5 minutes"
-
-In this case, the "m" argument forces the plug-in to convert the seconds to the closest ½-minute benchmark
-
-### Example #4
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-...will set s.eVar1 equal to "640 minutes"
-
-The tf argument value ("m") forces the plug-in to convert the seconds into minutes, but the bml argument value (20) also forces the plug-in to round the minute conversion to the closest 20-minute benchmark.
-
-### Example #5
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-...will set s.eVar1 equal to "126 seconds", which is the closest 2-second benchmark to 125 seconds
-
-### Example #6
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-...will set s.eVar1 equal to "3 minutes", which is the closest 3-minute benchmark to 125 seconds
-
-### Example #7
-
-The following code...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-...will set s.eVar1 equal to "2.4 minutes", which is the closest 2/5ths-minute benchmark (e.g. .4 = 2/5)  to 145 seconds
 
 ## Version History
 

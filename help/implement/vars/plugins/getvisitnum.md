@@ -51,7 +51,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Use the plug-in
 
-The `getVisitNum` method uses the following arguments:
+The `getVisitNum` function uses the following arguments:
 
 * **`rp`** (optional, integer OR string): The number of days before the visit number counter resets.  Defaults to `365` when not set.
   * When this argument is `"w"`, the counter resets at the end of the week (this Saturday at 11:59 PM)
@@ -59,89 +59,31 @@ The `getVisitNum` method uses the following arguments:
   * When this argument is `"y"`, the counter resets at the end of the year (December 31st)
 * **`erp`** (optional, boolean): When the `rp` argument is a number, this argument determines if the visit number expiration should be extended. If set to `true`, subsequent hits to your site resets the visit number counter. If set to `false`, subsequent hits to your site do not extend when the visit number counter resets. Defaults to `true`. This argument is not valid when the `rp` argument is a string.
 
-The visit number increment whenever the visitor returns to your site after 30 minutes of inactivity. Calling this method returns an integer that represents the visitor's current visit number.
+The visit number increment whenever the visitor returns to your site after 30 minutes of inactivity. Calling this function returns an integer that represents the visitor's current visit number.
 
 This plug-in sets a first-party cookie called `"s_vnc[LENGTH]"` where `[LENGTH]` is the value passed into the `rp` argument. For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. The value of the cookie is a combination of a Unix timestamp that represents when the visit counter resets, such as end of the week, end of the month, or after 365 days of inactivity. It also contains the current visit number. This plug-in sets another cookie named `"s_ivc"` that is set to `true` and expires after 30 minutes of inactivity.
 
-## Example Calls
-
-### Example #1
-
-For a visitor that hasn't been to the site within the last 365 days, the following code will set s.prop1 equal to the value of 1:
+## Examples
 
 ```js
-s.prop1=s.getVisitNum();
+// Sets prop4 to the visit number, storing the value in a cookie that expires in 365 days
+// The cookie value is reset only if there are 365+ days of inactivity or the visitor clears their cookies.
+s.prop4 = getVisitNum();
+
+// Sets eVar4 to the visit number, storing the value in a cookie that expires in 200 days
+// The cookie value is reset only if there are 200+ days of inactivity or the visitor clears their cookies.
+s.eVar4 = getVisitNum(200);
+
+// Sets eVar16 to the visit number, storing the value in a cookie that expires in 90 days.
+// The cookie value is reset after 90 days, regardless of how many visits that happen in those 90 days.
+s.eVar16 = getVisitNum(90,false);
+
+// Track the visit number unique to the week, month, and year, all in separate variables
+// The plug-in automatically creates three separate cookies to track these values
+s.prop1 = getVisitNum("w");
+s.prop2 = getVisitNum("m");
+s.prop3 = getVisitNum("y");
 ```
-
-### Example #2
-
-For a visitor that returns to the site within 364 days after his/her first visit, the following code will set s.prop1 equal to 2:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-If this visitor returns to the site within 364 days after his/her second visit, the following code will set s.prop1 equal to 3:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-### Example #3
-
-For a visitor that returns to the site within 179 days after his/her first visit, the following code will set s.prop1 equal to 2:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-However, if this visitor returns to the site 1 or more days after his/her second visit, the following code will set s.prop1 equal to 1:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-When the second argument in the call is equal to false, the routine that determines when the visit number should be "reset" to 1 will do so "x" number of days – in this example, 365 days – after the visitor's first visit to the site.
-
-When the second argument is equal to true (or not set at all), the plug-in will reset the visit number to 1 only after "x" number of days – again, in this example, 365 days – of visitor inactivity.
-
-### Example #4
-
-For all visitors that come to the site for the first time during the current week – beginning on Sunday - the following code will set s.prop1 equal to 1:
-
-```js
-s.prop1=s.getVisitNum("w");
-```
-
-### Example #5
-
-For all visitors that come to the site for the first time during the current month – beginning on the first day of each month - the following code will set s.prop1 equal to 1:
-
-```js
-s.prop1=s.getVisitNum("m");
-```
-
-Keep in mind that the getVisitNum plug-in does not consider retail-based calendars (i.e. 4-5-4, 4-4-5, etc.)
-
-### Example #6
-
-For all visitors that come to the site for the first time during the current year – beginning on January 1 - the following code will set s.prop1 equal to 1:
-
-```js
-s.prop1=s.getVisitNum("y");
-```
-
-### Example #7
-
-If you wish to track a visitor's visit number for the week, a visitor's visit number for the month, and a visitor's visit number for the year – all within different Analytics variables – you should use code that resembles the following:
-
-```js
-s.prop1=s.getVisitNum("w");
-s.prop2=s.getVisitNum("m");
-s.prop3=s.getVisitNum("y");
-```
-
-In this case, the plug-in will create three different cookies – one for each of the different time periods – to keep track of the individual visit number per time period.
 
 ## Version History
 

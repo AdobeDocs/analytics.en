@@ -59,4 +59,5 @@ source,destination
 /docs/analytics/landing/doc-updates.html,/docs/analytics/technotes/doc-updates.html
 /docs/analytics/analyze/reports-analytics/key-concepts.html,/docs/analytics/technotes/terms.html
 /docs/analytics/landing/home.html,/docs/analytics.html
-https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activitymap-info-resources.html,https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html
+/docs/analytics/analyze/activity-map/activitymap-info-resources.html,/docs/analytics/analyze/activity-map/activity-map.html
+/docs/analytics/analyze/analysis-workspace/analysis-workspace-features.html,/docs/analytics/analyze/analysis-workspace/home.html

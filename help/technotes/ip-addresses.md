@@ -45,7 +45,7 @@ The following table covers all standard data collection servers and regional dat
 
 ## Data collection and FTP IP address blocks
 
-If your organization prefers to allow specific IP address ranges you can use the following table. All of the ranges in this section are included in the above table.
+If your organization prefers to allow specific IP address ranges you can use the following table. All of the ranges in this section are included in the above table. FTP connections for Data Warehouse and Data Feeds only originate from the London, Oregon, and Singapore locations.
 
 | Location | IP Range (CIDR Notation) |
 | --- | --- |

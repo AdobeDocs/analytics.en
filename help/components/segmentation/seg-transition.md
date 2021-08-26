@@ -13,9 +13,9 @@ Answers frequent questions on segmentation features, access, permissions, best p
 
 * Segmentation in Analysis Workspace:
 
-    * You can [compare segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-    * Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
-    * Use segments in [fallout analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+  * You can [compare segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+  * Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
+  * Use segments in [fallout analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Segments are universal to all report suites.
@@ -25,7 +25,7 @@ Answers frequent questions on segmentation features, access, permissions, best p
 * You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
-See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) post on the Digital Marketing Blog for more details.
+See the [Improving Segmentation in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) post on the Adobe Blog for more details.
 
 ## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -33,9 +33,9 @@ See the [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digi
 
 You can access the Segment Builder by:
 
-* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
+* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](assets/add_button.png)
 
   or 
 
@@ -47,13 +47,13 @@ Access the Segment Manager by:
 
 * Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or 
 
-* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**, or 
+* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**, or 
 
 * Pressing the slash key '/' anywhere in the interface and searching for segment manager.
 
 **Where did the legacy segment drop-down go?**
 
-The segment drop-down in Reports & Analytics has been replaced by a much more feature rich [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+The segment drop-down in Reports & Analytics has been replaced by a much more feature rich [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![Segment icon](assets/segment_icon.png)
 
 in the left navigation and the segment rail displays.
 
@@ -61,7 +61,7 @@ in the left navigation and the segment rail displays.
 
 The report suite drop-down has been moved next to the date selector in the top right-hand corner of each report or dashboard.
 
-![](assets/report_suite_selector.png)
+![Report suite selector](assets/report_suite_selector.png)
 
 ## Permissions {#section_648DFA3A882146C485A84ED014EEC707}
 

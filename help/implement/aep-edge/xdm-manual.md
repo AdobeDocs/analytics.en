@@ -27,7 +27,7 @@ Also, you can use a default set of actions and product lists to send or retrieve
           "c.a.x.environment.browserdetails.javascriptenabled": "true",
           "c.a.x.environment.type": "browser",
           "cust_hit_time_gmt": "1579781427",
-          "g": "http://example.com/home",
+          "g": "https://example.com/home",
           "gn": "home",
           "j": "1.8.5",
           "k": "Y",

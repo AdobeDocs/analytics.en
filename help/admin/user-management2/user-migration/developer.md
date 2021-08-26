@@ -35,7 +35,7 @@ If your company does not use any of these methods, no action is required other t
 
 For additional information:
 
-* [General User Management Info](https://helpx.adobe.com/enterprise/help/users.html) 
-* [User Management APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html) 
-* [User Management API Forum](https://forums.adobe.com/community/umapi/overview) 
+* [General User Management Info](https://helpx.adobe.com/enterprise/help/users.html)
+* [User Management APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
+* [User Management API Forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migration of Analytics User Access and Management to Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

@@ -124,7 +124,7 @@ You will require the following information about your Selligent account during t
 
   The URL can be derived from the URL used to log on to the Selligent Marketing solution. Replace the "/simweb/login.aspx" part of the url with "/automation/omniture.asmx"
 
-  E.g: `http://<client-specific install url>/automation/omniture.asmx` 
+  E.g: `https://<client-specific install url>/automation/omniture.asmx` 
 
 * **Query String Parameters:** These are appended in the landing page URL for Message ID and Recipient ID(Visitor ID). These are always MID and RID for Message ID and Recipient ID respectively.
 

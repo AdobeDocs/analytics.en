@@ -58,24 +58,24 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
    >[!IMPORTANT]
    >
-   >Only report suites that have been [mapped to an Experience Cloud organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) will be available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Only report suites that are mapped to an Experience Cloud organization are available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    For the **[!UICONTROL Mapping Settings]** following these guidelines: 
 
-    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Setting </th> 
-      <th colname="col2" class="entry"> Description </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Report Suite Mapping </p> </td> 
-      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> <p>If you do not see your report suite listed, you can <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  > map your report suite to an Experience Cloud organization</a> using this tool. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Setting </th> 
+   <th colname="col2" class="entry"> Description </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Report Suite Mapping </p> </td> 
+   <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Click **[!UICONTROL Save]**.
 1. After you save, a disclaimer displays a list of caveats. You are asked to confirm that you have read and you understand this agreement. Click the checkbox, then click **[!UICONTROL OK]**.

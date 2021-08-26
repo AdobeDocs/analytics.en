@@ -119,7 +119,6 @@ user-guide-description: Learn about managing users and products in the Experienc
   + [Co-Branding](company/co-branding-admin.md)
   + [Hide report suites](company/c-hide-report-suites.md)
   + [Security Manager](company/security-manager.md)
-  + [End-of-life for 'Enforce IP login restrictions'](company/login-restrictions-eol.md)
 + Manage report suites {#manage-report-suites}
   + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
   + [Rollup and global report suites](c-manage-report-suites/rollup-report-suite.md)

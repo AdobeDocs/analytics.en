@@ -12,7 +12,7 @@ The Report Suite Usage tab provides server usage data for each report suite in a
 
 >[!IMPORTANT]
 >
->If a report suite is not [linked to an Experience Cloud Organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), its usage data will not be reflected in this dashboard. Also, a billing ID could be tied to multiple Experience Cloud Orgs; there is not always a 1:1 relationship between an org and a billing ID.
+>If a report suite is not linked to an Experience Cloud Organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple Experience Cloud Orgs; there is not always a 1:1 relationship between an org and a billing ID.
 
 The Report Suite Usage dashboard
 

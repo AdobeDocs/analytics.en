@@ -170,7 +170,7 @@ var dfaConfig = {
    tEvar:             "eVar17", 
    errorEvar:         "eVar59", 
    timeoutEvent:      "event76", 
-   requestURL:         "http://fls.doubleclick.net/ 
+   requestURL:         "https://fls.doubleclick.net/ 
 json?spot=[SPOTID]&src=[CSID]&var=[VAR]&host=integrate.112.2o7.net%2 
 Fdfa_echo%3Fvar%3D[VAR]%26AQE%3D1%26A2S%3D1&ord=[RAND]", 
  

@@ -15,7 +15,7 @@ If you have only a few minutes, watch this brief overview to see what is possibl
 
 ## Log in to Adobe Analytics {#login}
 
-To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](http://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
+To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](https://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
 
 ![](assets/login-analytics.png)
 

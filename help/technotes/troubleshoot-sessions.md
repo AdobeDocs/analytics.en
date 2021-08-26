@@ -17,7 +17,7 @@ To determine if the corporate network you're connected to is causing issues with
 
 ## Issues due to proxy
 
-Adobe uses an authorization header when making requests to Adobe. Some proxies, such as Bluecoat (now owned by Symantec), strip critical authorization header information used by Adobe Analytics. When Adobe does not see the authorization header, the session expires.
+Adobe uses an authorization header when making requests to Adobe. Some proxies, such as Edge Secure Web Gateway (formerly Bluecoat), strip critical authorization header information used by Adobe Analytics. When Adobe does not see the authorization header, the session expires.
 
 To resolve this issue, Adobe recommends working with your organization's IT team to allow the authorization header through your organization's proxy.
 
@@ -25,7 +25,7 @@ To resolve this issue, Adobe recommends working with your organization's IT team
 >
 >Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
 
-Information on Symantec proxies and authentication headers can be found here:
+Information on proxies and authentication headers can be found here:
 
-* [Configure Upstream Proxy Authentication in a Proxy Chain Deployment on a ProxySG or ASG Appliance](https://support.symantec.com/en_US/article.TECH246122.html)
-* [Allow ProxySG to always forward server authorization upstream](https://support.symantec.com/en_US/article.TECH244708.html)
+* [Configure Upstream Proxy Authentication in a Proxy Chain Deployment on a ProxySG or ASG Appliance](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [How to forward user credentials to a server behind the ProxySG appliance](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

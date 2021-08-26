@@ -25,7 +25,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **July 2021** |  |
 | July 23, 2021 | New in-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| July 15, 2021 | Added new documentation on the new [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) |
+| July 15, 2021 | Added new documentation on the new [Adobe Analytics landing page](/help/analyze/landing.md) |
 | **June 2021** |  |
 | June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) | 
 | June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
@@ -108,7 +108,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **2019** |  |
 | December 19, 2020 | Changed the default [FTP data storage limit](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) to 10 GB. |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
-| November 25, 2019 | New topic on [End-of-life for Enforce IP login restrictions](/help/admin/company/login-restrictions-eol.md) |
+| November 25, 2019 | New topic on End-of-life for Enforce IP login restrictions. |
 | November 21, 2019 | New documentation set for [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) |
 | November 21, 2019 | Updated [Audience Analytics Workflow FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) to indicate availability in LiveStream. |
 | October 25, 2019 | Updated [Adobe Analytics Key Concepts](/help/technotes/terms.md) page. |

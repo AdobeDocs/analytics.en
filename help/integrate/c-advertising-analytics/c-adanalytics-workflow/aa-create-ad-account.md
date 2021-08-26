@@ -62,23 +62,23 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 
    For the **[!UICONTROL Mapping Settings]** following these guidelines: 
 
-    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Setting </th> 
-      <th colname="col2" class="entry"> Description </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Report Suite Mapping </p> </td> 
-      <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> </td>
-      </tr> 
-    </tbody> 
-    </table>
+   <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Setting </th> 
+   <th colname="col2" class="entry"> Description </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Report Suite Mapping </p> </td> 
+   <td colname="col2"> <p>The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
-2. Click **[!UICONTROL Save]**.
-3. After you save, a disclaimer displays a list of caveats. You are asked to confirm that you have read and you understand this agreement. Click the checkbox, then click **[!UICONTROL OK]**.
+1. Click **[!UICONTROL Save]**.
+1. After you save, a disclaimer displays a list of caveats. You are asked to confirm that you have read and you understand this agreement. Click the checkbox, then click **[!UICONTROL OK]**.
 
    You are now taken to the Advertising Accounts [Management UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md), where your newly created account should be listed.
 

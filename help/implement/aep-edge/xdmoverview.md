@@ -14,7 +14,7 @@ Analytics collects XDM data through two methods:
 
 ## Automatic mapping
 
-Automatic mapping relies upon a default [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The Analytics variables that are automatically mapped from the XDM to your configured report suites do not require any developer support to incorporate.
+Automatic mapping relies upon a default [schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) in the XDM that automatically populates JSON objects that are included in typical Analytics data collection. The Analytics variables that are automatically mapped from the XDM to your configured report suites do not require any developer support to incorporate. See [Variables automatically mapped in Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) in the Platform Web SDK user guide.
 
 ## Manual mapping
 

@@ -26,7 +26,7 @@ When devices are stitched, variable persistence is carried over across devices. 
 
 Out of a spirit of partnership and transparency, we want our customers to be aware of our use of Microsoft Azure in association with Cross-Device Analytics. Adobe uses Azure to store device graph data and to perform cross-device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe’s provisioned instances of Microsoft Azure.
 
-See the [Journey IQ: Cross-Device Analytics Spark page](http://adobe.ly/aacda) to learn more about the capabilities and features of Cross-Device Analytics.
+See the [Journey IQ: Cross-Device Analytics Spark page](https://adobe.ly/aacda) to learn more about the capabilities and features of Cross-Device Analytics.
 
 ## Prerequisites
 

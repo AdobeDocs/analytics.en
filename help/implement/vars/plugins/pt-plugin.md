@@ -9,7 +9,7 @@ exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 >
 >This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
-The `pt` plug-in executes a function or method on a list of Analytics variables. For example, you can selectively run the [`clearVars`](../functions/clearvars.md) method on several variables without manually calling the method each time. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
+The `pt` plug-in executes a function or method on a list of Analytics variables. For example, you can selectively run the [`clearVars`](../functions/clearvars.md) function on several variables without manually calling the function each time. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
 
 ## Install the plug-in using tags in Adobe Experience Platform
 
@@ -51,14 +51,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## Use the plug-in
 
-The `pt` method uses the following arguments:
+The `pt` function uses the following arguments:
 
 * **`l`** (required, string): A list of variables that the function contained in the `cf` argument can execute against.
 * **`de`** (optional, string): The delimiter that separates the list of variables in the `l` argument. Defaults to a comma (`,`).
 * **`cf`** (required, string): The name of the callback function contained in the AppMeasurement object to be called against each of the variables contained in the `l` argument.
 * **`fa`** (optional, string): If the function in the `cf` argument calls for additional arguments when it runs, include them here. Defaults to `undefined`.
 
-Calling this method returns a value if the callback function (in the `cf` argument) returns a value.
+Calling this function returns a value if the callback function (in the `cf` argument) returns a value.
 
 ## Example Calls
 
@@ -66,7 +66,7 @@ Calling this method returns a value if the callback function (in the `cf` argume
 
 The following code is part of the getQueryParam plug-in.  It runs the getParameterValue helper function against each of the key-value pairs that are contained in the URL's querystring (fullQueryString).  In other to extract each key-value pair, the fullQueryString must be delimited and split out by an ampersand "&" character. The parameterKey refers to the query string parameter that the plug-in is specifically trying to extract from the query string
 
-```javascript
+```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
@@ -78,7 +78,7 @@ var returnValue = "",
   parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  returnValue = getParameterValue(parameters[i], parameterKey);
   if(returnValue !== "") break;
 }
 ```

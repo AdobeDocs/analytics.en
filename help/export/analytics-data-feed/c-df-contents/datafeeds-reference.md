@@ -193,8 +193,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `state` | State variable. | varchar(50) |
 | `stats_server` | Not of use. Adobe internal server that processed the hit. | char(30) |
 | `t_time_info` | Local time for the visitor. Format is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Used in Adobe Target integrations. | text |
-| `tnt_action` | Used in Adobe Target integrations. | text |
+| `tnt` | Used in Adobe Target integrations. Represents all tests currently qualified for. Format is: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt_action` | Used in Adobe Target integrations. Represents all tests the hit qualified for. | text |
 | `tnt_post_vista` | No longer used. Use `post_tnt` instead. | text |
 | `transactionid` | A unique identifier where various data points can be uploaded later via data sources. Collected using the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable. | text |
 | `truncated_hit` | A flag indicating that the image request was truncated. Indicates that a partial hit was received. <br>Y: Hit was truncated; partial hit received <br>N: Hit was not truncated; full hit received | char(1)|

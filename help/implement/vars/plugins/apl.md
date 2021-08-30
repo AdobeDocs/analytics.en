@@ -57,7 +57,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Use the plug-in
 
-The `apl` method uses the following arguments:
+The `apl` function uses the following arguments:
 
 * **`lv`** (required, string): The variable that contains a delimited list of items to add a new value to
 * **`vta`** (required, string): A comma delimited list of the new value(s) to add to the `lv` argument's value.
@@ -65,231 +65,59 @@ The `apl` method uses the following arguments:
 * **`d2`** (optional, string): The output delimiter. Defaults to the same value as `d1` when not set.
 * **`cc`** (optional, boolean): A flag that indicates if a case-sensitive check is used. If `true`, the duplication check is case-sensitive. If `false` or not set, the duplication check is not case-sensitive. Defaults to `false`.
 
-The `apl` method returns the value of the `lv` argument plus any non-duplicate values in the `vta` argument.
+The `apl` function returns the value of the `lv` argument plus any non-duplicate values in the `vta` argument.
 
-## Example Calls
-
-### Example #1
-
-If...
+## Examples
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Example #2
-
-If...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...and the following code runs...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will still be:
-
-```js
-s.events = "event22,event23";
-```
-
-In this example, the apl call made no changes to s.events since s.events already contained "event23"
-
-### Example #3
-
-If...
-
-```js
-s.events = ""; //blank value
-```
-
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will be...
-
-```js
-s.events = "event23";
-```
-
-### Example #4
-
-If...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...and the following code runs...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... the final value of s.prop4 will still be...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...but the final value of s.eVar5 will be
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Keep in mind that the plug-in only returns a value; it does not necessarily "reset" the variable passed in through the lv argument.
-
-### Example #5
-
-If...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...and the following code runs...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... the final value of s.prop4 will be...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Be sure to keep the delimiter consistent between what's in the lv argument's value and what's in the d1/d2 arguments
-
-### Example #6
-
-If...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag.
-
-### Example #7
-
-If...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-The plug-in will not add "event23" to s.events because it already exists in s.events.  However, it will add both event24 and event25 to s.events because neither were previously contained in s.events.
-
-### Example #8
-
-If...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...and the following code runs...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... the final value of s.linkTrackVars will be:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-The last three arguments (i.e. ",", ",", false) at the end of this apl call are not necessary but are also not "hurting anything" by being set since they match the default argument values.
-
-### Example #9
-
-If...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...and the following code runs...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... the final value of s.events will still be:
-
-```js
-s.events = "event22,event24";
-```
-
-Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the lv argument.
-
-### Example #10
-
-If...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...and the following code runs...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... the final value of s.list2 will be:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Since the two delimiter arguments are different, the value passed in will be delimited by the first delimiter argument (“|”) and then joined together by the second delimiter argument (“-“)
 
 ## Version History
 
@@ -317,7 +145,7 @@ Since the two delimiter arguments are different, the value passed in will be del
 
 ### 2.5 (February 18, 2016)
 
-* Now uses the `inList` method for comparison processing
+* Now uses the `inList` function for comparison processing
 
 ### 2.0 (January 26, 2016)
 

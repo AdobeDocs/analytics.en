@@ -51,7 +51,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## Use the plug-in
 
-The `getVisitDuration` method does not use any arguments. It returns one of the following values:
+The `getVisitDuration` function does not use any arguments. It returns one of the following values:
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -60,37 +60,16 @@ The `getVisitDuration` method does not use any arguments. It returns one of the 
 
 This plug-in creates a first-party cookie called `"s_dur"`, which is the number of milliseconds elapsed since the visitor landed on the site. The cookie expires after 30 minutes of inactivity.
 
-## Example Calls
-
-### Example #1
-
-The following code...
+## Examples
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-...will always set eVar10 equal to the number of minutes passed since the visitor landed on the site
-
-### Example #2
-
-The following code...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-...uses the inList plug-in to check whether the events variable contains the purchase event.  If so, then eVar10 will be set equal to the number of minutes between the visitor's start of the visit and the time of purchase.
-
-### Example #3
-
-The following code...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-...will always set prop10 equal to the number of minutes passed since the visitor landed on the site.  This will be useful if prop10 has pathing enabled.  Adding the "exits" metric to the prop10 report will show a granular, "scatterplot" report of how long a visit took in minutes before a visitor left the site.
 
 ## Version History
 

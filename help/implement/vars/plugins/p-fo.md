@@ -51,11 +51,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Use the plug-in
 
-The `p_fo` method uses the following arguments:
+The `p_fo` function uses the following arguments:
 
 * **on** (required, string): The name of the JavaScript object that the plug-in creates if the object doesn't yet exist on the page.
 
-If the object doesn't yet exist, this method returns `true` and creates the object. If the object already exists, this method returns `false`.
+If the object doesn't yet exist, this function returns `true` and creates the object. If the object already exists, this function returns `false`.
 
 ## Example Calls
 
@@ -65,14 +65,14 @@ The following code will check for the existence of the "myobject" object within 
 
 On the other hand, if the "myobject" object already exists when the p_fo call takes place, then the p_fo function will return the value of false and, thus, the conditional statement will be considered false.  In this case, the code within the conditional statement will not run.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**NOTE:** Everytime a new page object/DOM loads (or the current page reloads), the object specified in the on argument will no longer exist and thus the p_fo plug-in will again return true the first time it runs after the page finishes loading.
+**NOTE:** Every time a new page object/DOM loads (or the current page reloads), the object specified in the on argument will no longer exist and thus the p_fo plug-in will again return true the first time it runs after the page finishes loading.
 
 ## Version History
 

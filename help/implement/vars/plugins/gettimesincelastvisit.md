@@ -51,7 +51,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## Use the plug-in
 
-The `getTimeSinceLastVisit` method does not use any arguments. It returns the amount of time elapsed since the visitor last came to the site, bucketed in the following format:
+The `getTimeSinceLastVisit` function does not use any arguments. It returns the amount of time elapsed since the visitor last came to the site, bucketed in the following format:
 
 * Time between 30 minutes and an hour since the last visit is set to the nearest half-minute benchmark. For example, `"30.5 minutes"`, `"53 minutes"`
 * Time between an hour and a day is rounded to the nearest quarter-hour benchmark. For example, `"2.25 hours"`, `"7.5 hours"`
@@ -64,22 +64,21 @@ The `getTimeSinceLastVisit` method does not use any arguments. It returns the am
 
 This plug-in creates a first-party cookie called `"s_tslv"` set to a Unix timestamp of the current time. The cookie expires after two years of inactivity.
 
-## Example Calls
+## Examples
 
-### Example #1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-If a brand-new visitor comes to the site and the following code runs on the first page of the visit ...
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-...the value of s.prop1 will be set equal to “New Visitor”.
-
-If the same code runs on the same domain after 35 minutes of inactivity, the value of s.prop1 will be set equal to “35 minutes”.
-
-If the same code runs on the same domain after 4 days of further inactivity the value of s.prop1 will be set equal to “4 days”.
 
 ## Version History
 

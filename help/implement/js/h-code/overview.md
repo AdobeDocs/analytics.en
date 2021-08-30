@@ -33,4 +33,4 @@ The JavaScript file is cached in the visitor's browser after it is initially loa
 
 ## H Code compression
 
-If you are concerned about the download size of the `s_code.js` file, Adobe recommends compressing the `s_code.js` file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression. See [Apache Module mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) in the Apache documentation.
+If you are concerned about the download size of the `s_code.js` file, Adobe recommends compressing the `s_code.js` file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression. See [Apache Module mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) in the Apache documentation.

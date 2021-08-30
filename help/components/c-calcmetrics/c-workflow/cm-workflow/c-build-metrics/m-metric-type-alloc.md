@@ -21,14 +21,13 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 
 >[!IMPORTANT]
 >
->[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models:
 >
->* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) documentation.
+>* For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 >* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models will be migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" will not be deprecated - only the two allocation models that appear in calculated metrics will be).
 >* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports & Analytics, the Reporting API, and Report Builder. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
->
 
-## How linear allocation works (as of July 19, 2018) 
+## How linear allocation works (as of July 19, 2018)
 
 In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change primarily impacts eVars and other dimensions that have persistence. Note that these changes apply only to calculated metrics and do not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
 

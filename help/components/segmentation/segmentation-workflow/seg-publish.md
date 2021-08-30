@@ -19,10 +19,8 @@ We have also increased the maximum number of publishable Adobe Analytics segment
 ## Prerequisites
 
 * Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
-* Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Ensure that your organization is using Experience Cloud IDs.
 * Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
-
 
 ## Considerations
 

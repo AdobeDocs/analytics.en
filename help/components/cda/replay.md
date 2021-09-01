@@ -42,6 +42,10 @@ Both unauthenticated and authenticated hits on new devices are counted as separa
 
   Attribution works as soon as the identifying custom variable ties to a device. In the example above, all hits except hits 1 and 3 are live-stitched (they all use the `Bob` identifier). Attribution works on hits 1 and 3 after replay stitching.
 
+>[!NOTE]
+>
+>Timestamped hits older than 12 hours are not stitched in the live flow. However, these hits are included in Replay stitching, as long as they fall in the replay lookback window.
+
 ### Replay stitching
 
 Replay occurs either daily or weekly, depending on how you requested CDA to be configured. During replay, CDA attempts to restate historical data within a defined lookback window:

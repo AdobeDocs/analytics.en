@@ -108,3 +108,11 @@ The advantages of using the 1-day replay lookback window are 1) replay runs ever
 ## What happens to the stitched data within my CDA virtual report suite(s) if my company decides to downgrade from Analytics Ultimate?
 
 If a customer downgrades from Ultimate, they will no longer have access to stitched data. All previously stitched data will be removed. This means the CDA virtual report suites will now reflect no cross-device stitching. Data will look similar to the original unstitched report suite.
+
+## Why is the total number of hits different between my source report suite and CDA virtual report suite?
+
+CDA uses a complex parallel processing pipeline, with multiple dependent components. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected. It has minimal impact on the cross-device capabilities.
+
+## Why is the "Identified People" metric inflated?
+
+If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implement/validate/hash-collisions.md). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.

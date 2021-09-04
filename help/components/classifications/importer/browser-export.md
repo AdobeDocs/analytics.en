@@ -1,8 +1,8 @@
 ---
 title: Browser export
 description: Browser export lets you export your classification data to a tab-delimited file.
+exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
 ---
-
 # Browser export
 
 Browser export lets you export your classification data to a tab-delimited file.

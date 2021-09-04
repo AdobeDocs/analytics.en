@@ -1,8 +1,8 @@
 ---
 title: Best practices for implementing Adobe Analytics Marketing Channels
 description: Updated best practices for using Marketing Channels with Attribution IQ and Customer Journey Analytics
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 ---
-
 # Attribution IQ with Marketing Channels - Best Practices
 
 [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) are a valuable and powerful feature of Adobe Analytics. The current guidance regarding Marketing Channel implementation was formulated at a time when neither [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)  nor [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=en#cja-usecases) existed.

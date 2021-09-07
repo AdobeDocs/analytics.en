@@ -9,4 +9,8 @@ There are two versions of the 'People' metric.
  
 For members of the [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html) that do not use [Cross-Device analytics](../cda/overview.md), the 'People' metric is a statistically-derived count of the number of people represented in the report. It is the number of visitor IDs that are identified by the Device Co-op plus the number of devices that are not identified by the Co-op.
  
-Within a [Cross-Device analytics](../cda/overview.md) virtual report suite, the 'People' metric is a direct count of unique individuals instead of a statistical derivation. The definition of a person in CDA is based on either the Device Co-op, Private Graph, or field-based stitching, depending on how CDA is configured for the base report suite. People is the sum of individuals who have been identified in the report, plus the number of devices which have not been identified as belonging to a person.
+Within a [Cross-Device analytics](../cda/overview.md) virtual report suite, the 'People' metric is the sum of persons who have been identified in the report, plus the number of devices which have not been identified as belonging to a person.
+
+In addition, depending on the reporting window a given person could be double counted. Meaning that if a given visitor has generated hits before and after the identification, that visitor will be counted as 1 unidentified people + 1 identified people.
+
+To some extent, Replay service can fix the double counting by re-processing historical data in a given lookback window (configured).

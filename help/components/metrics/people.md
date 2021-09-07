@@ -14,3 +14,5 @@ Within a [Cross-Device analytics](../cda/overview.md) virtual report suite, the 
 In addition, depending on the reporting window a given person could be double counted. Meaning that if a given visitor has generated hits before and after the identification, that visitor will be counted as 1 unidentified people + 1 identified people.
 
 To some extent, Replay service can fix the double counting by re-processing historical data in a given lookback window (configured).
+
+You can also see a [descriptive example](unique-devices.md) of how 'People' metric works, together with 'Unique Devices' metric.

@@ -12,6 +12,12 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.22.2
+
+Release Date: **September 7, 2021**
+
+* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. Here is a [full list of consent variables](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+
 ## Version 2.22.1
 
 Release Date: **August 17, 2021**

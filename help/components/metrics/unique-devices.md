@@ -5,16 +5,16 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 ---
 # Unique devices
 
-The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric representing the total number of unique **un**identified devices (devices that generated anonymous hits) + total number of unique visitors identified per device.
+The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric representing the total number of unique **un**identified devices (devices that generated anonymous hits) + total number of unique virtual devices (distinct persons identified per device).
 
-* Please note that this metric is not equal to the Unique Visitors from Analytics.
+* Please note that this metric is **not equal** to the Unique Visitors from Analytics.
 
 * *Example*: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the shareable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor).
 
 In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hits come from that device).
 Summing up these values obtained from all devices, we get the value of *Unique Devices* metric. 
  
-Below you can see a more descriptive example of how Unique Devices and People metrics work:
+Below you can see a more descriptive example of how 'Unique Devices' and 'People' metrics work:
 
 * Bob noticed an ad on his phone with Adobe Photoshop, once he clicks on it the ad will redirect Bob on Adobe homepage
 	* one device one person

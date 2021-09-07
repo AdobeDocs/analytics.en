@@ -58,11 +58,17 @@ In some situations, an individual user can associate with a large number of ECID
 
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. However, when using Cross-Device Analytics, unique visitors are combined when they are otherwise recorded as two separate unique visitors outside of CDA. The 'People' metric replaces the 'Unique Visitors' metric when Cross-Device Analytics is enabled. A new metric, [Unique Devices](/help/components/metrics/unique-devices.md), is available that is approximately equal to Unique Visitors outside of Cross-Device Analytics.
+Both [People](/help/components/metrics/people.md) and [Unique Visitors](/help/components/metrics/unique-visitors.md) metrics aim to count distinct visitors (individuals).
+However, consider the fact that 2 different devices can be attributed to the same person. For CDA, that would translate in mapping the 2 devices to same person (obtaining 1 'People'), while the 2 devices would be recorded as 2 separate 'Unique Visitors' outside of CDA.
 
 ## What is the difference between the 'Unique Devices' metric in CDA and the 'Unique Visitors' metric outside of CDA?
 
-These two metrics are roughly equivalent to each other.
+Differences between the 2 metrics occur when:
+
+* *a shared device maps to multiple persons* (in this scenario, 1 unique visitor is counted, while multiple unique devices are counted)
+* *a device has both non-stitched and stitched traffic from same visitor* (depending on the reporting window chosen, let's say on a certain device, a person's browser generated identified stitched traffic + historical anonymous traffic that was not stitched; in this case, 1 unique visitor is counted, while 2 unique devices are counted).
+
+You can also see a [descriptive example](unique-devices.md) of how 'Unique Devices' metric works.
 
 ## Can I include CDA metrics using the 2.0 API?
 
@@ -116,3 +122,36 @@ CDA uses a complex parallel processing pipeline, with multiple dependent compone
 ## Why is the "Identified People" metric inflated?
 
 If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implement/validate/hash-collisions.md). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.
+
+Another situation can occur when FBS stitching method is used and case sensitivity requirement not respected:
+* CDA FBS is stitching the exact value the customer sends in the identifier field, meaning **Bob is not equal with bob**
+* In reporting, if both "Bob" and "bob" values are provided for same person, the identified people metric will for sure be inflated.
+
+## Why does a breakdown by stitching eVar shows non-zero values for “Unidentified People” metric?
+
+This situation usually occurs when a certain person generated both authenticated and unauthenticated hits in a given timeframe (set up as reporting window). Because the "double counting" can affect [People](/help/components/metrics/people.md) metric, it would imply showing 1 'Unidentified People' + 1 'Identified People'.
+
+Let us see a simple example:
+
+* on August 1, Bob noticed a product ad on his phone; once he clicks on it, the ad will redirect Bob to that product's website
+* Bob is browsing that website for a while, then on August 5 he decides to buy the product; he needs to create an account (so gets authenticated) and buys the product.
+
+On August 6, the website's data-science team wants to understand how their users behaved and they login into Analytics to explore some reporting windows:
+
+January 1 → August 1: Bob is counted as 1 Unidentified People 
+August 1 → August 4: Bob is counted as 1 Unidentified People 
+August 5 → August 6: Bob is counted as 1 Identified People 
+August 1 → August 6: Bob is counted as 1 Identified People + 1 Unidentified People
+
+Now, if the report is run with breakdown by the eVar containing the identifier values, for Bob's indentifier the people-related columns would show:
+
+August 5 → August 6: People: 1, Identified People: 1, **Unidentified People: 0**
+August 1 → August 6: People: 2, Identified People: 1, **Unidentified People: 1**
+
+For the last report window, it can look odd to have 1 Unidentified People (and implicitly 2 People) corresponding to a certain eVar identifier value. But, it is how the Analytics Workspace reporting system works.
+For a VRS with CDA, the report combines traditional and stiched data, using the relation between a hit's Visitor Id (device) and the Customer ID received *at some point* by that device (after the person's authentication).
+So in our example, this translates in August 1-6 report showing that Bob's device sent both authenticated and anonymous traffic within that timeframe.
+
+Replay engine can "correct" the numbers at some extent. In our example, if there is a weekly Replay configured and it runs on August 7-8, all Bob's anonymous hits from August 1-4 would get attributed to Bob's customer Id, therefore a new report run for August 1-8 would show People: 1, Identified People: 1, **Unidentified People: 0**.
+
+If you frequently experience such cases that do not get automatically adjusted within a week, or you get Unidentified People > 1 values for such breakdown reports, you could contact Customer Care for additional troubleshooting steps.

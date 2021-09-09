@@ -1,8 +1,8 @@
 ---
 title: Attribution best practices
 description: What are the best practices around deciding on an attribution model?
+exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 ---
-
 # Attribution best practices
 
 Picking the right attribution model for your organization depends on a number of considerations. This article explores a methodology and some general best practices. 

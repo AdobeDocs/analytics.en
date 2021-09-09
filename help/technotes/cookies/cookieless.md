@@ -1,8 +1,8 @@
 ---
 title: Options to mitigate the effect of browser cookie limitations
 description: Learn how to mitigate the effect of browser cookie limitations to improve data collection for Adobe Analytics.
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 ---
-
 # Options to mitigate the effect of browser cookie limitations
 
 This document discusses options for preserving persistent visitor identification across properties and solutions as major browsers implement tracking prevention measures for cookies.

@@ -43,6 +43,8 @@ You can choose to make these segments public (global) by following these steps:
 
 ## Other methods for applying segments {#section_10FF2E309BA84618990EA5B473015894}
 
+>[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
 Several other methods exist for applying segments to a freeform project.
 
 | Action | Description |

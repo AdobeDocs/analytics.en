@@ -9,7 +9,7 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution IQ](../attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
-[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

@@ -10,7 +10,7 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 
 Create a project and add components (dimensions, metrics, segments, date ranges) to the freeform panel.
 
-[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 This article familiarizes you with the Analysis Workspace interface elements and shows how to create a project.
 

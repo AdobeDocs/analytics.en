@@ -88,4 +88,4 @@ Clicking the **gear icon** reveals these visualization settings:
 
 Here is a video on the topic:
 
-[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

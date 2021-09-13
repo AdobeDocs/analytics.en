@@ -40,6 +40,10 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 ![](assets/retention-report.png)
 
+Here is a video on calculating rolling retention:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+
 ### [!UICONTROL Churn] Table
 
 A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.

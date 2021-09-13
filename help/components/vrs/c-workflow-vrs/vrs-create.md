@@ -38,6 +38,10 @@ On the [!UICONTROL Visit Definition] tab, define these settings and then click *
 
  ![](assets/visit-definition.png)
 
+Here is a video on how to adjust a visit definition in a virtual report suite:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+
 | Element | Description |
 | --- |--- |
 | **Configure visit definition** |  |

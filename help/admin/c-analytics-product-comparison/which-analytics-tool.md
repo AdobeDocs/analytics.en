@@ -10,6 +10,10 @@ This help page contains recommended use cases for each Adobe Analytics tool. Too
 
 For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
+Here is a video that compares various Adobe Analytics tools:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+
 ## Adobe Analytics Reporting User Interfaces {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**

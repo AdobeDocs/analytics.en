@@ -1,6 +1,7 @@
 ---
 title: Merchandising eVars and Product Finding Methods
 description: A deep dive into the concepts behind merchandising eVars and how they process and allocate data.
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 ---
 # Merchandising eVars and product finding methods
 
@@ -384,4 +385,4 @@ In summary, without additional configuration, the out-of-the-box Instances metri
 
 ![](assets/attribution-select.png)
 
-When adding an instance metric for a merchandising eVar to a report, the proper Attribution IQ model would be the "Last Touch" model. The Lookback Window setting for the model does not matter in this case. The reason is that a "forced" Last Touch attribution model always gives instance credit to each individual value that is passed in via a request. This is regardless of whether the eVar's actual attribution/binding settings are set equal to "Most Recent (Last)" to "Original Value (First)". 
+When adding an instance metric for a merchandising eVar to a report, the proper Attribution IQ model would be the "Last Touch" model. The Lookback Window setting for the model does not matter in this case. The reason is that a "forced" Last Touch attribution model always gives instance credit to each individual value that is passed in via a request. This is regardless of whether the eVar's actual attribution/binding settings are set equal to "Most Recent (Last)" to "Original Value (First)".

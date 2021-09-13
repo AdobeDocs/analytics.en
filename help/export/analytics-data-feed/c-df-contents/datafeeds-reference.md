@@ -150,7 +150,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `page_event_var2` | Only used in link tracking image requests. The custom name (if specified) of the link. | varchar(100) |
 | `page_event_var3` | No longer used. Contained Survey and Media module data. Populated legacy video reports in previous versions of Adobe Analytics.| text |
 | `page_type` | Used to populate the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension. Used exclusively for 404 pages. This variable should either be empty or contain the value `ErrorPage`. | char(20) |
-| `page_url` | The URL of the hit. In its post-variant (post_page_url), the value is stripped for link tracking image requests. | varchar(255) |
+| `page_url` | The URL of the hit. Note that `post_page_url` is stripped for link tracking image requests and uses a data type of varchar(255). | text |
 | `pagename` | Used to populate the [Page](/help/components/dimensions/page.md) dimension. If the [`pagename`](/help/implement/vars/page-vars/pagename.md) variable is empty, Analytics uses `page_url` instead. | varchar(100) |
 | `paid_search` | Flag that is set if the hit matches paid search detection. | tinyint unsigned |
 | `partner_plugins` | Not used. Part of a scrapped feature. | varchar(255) |

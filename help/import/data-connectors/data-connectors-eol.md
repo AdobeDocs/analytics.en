@@ -7,17 +7,17 @@ exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 
 For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.
 
-**Effective August 19, 2021**, Adobe will discontinue Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized.  
+**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized.  
 
 ## Why are we end-of-lifing this feature?
 
-This feature is powered by legacy technology that is no longer viable or supported. We have a new standard in the [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) that should be adopted for any integrations that wish to continue to be offered and supported. 
+This feature is powered by legacy technology that is no longer viable or supported. The [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) is now the place to find current integrations for Adobe solutions.
 
 ## How does removal of this feature impact you?
 
 If you are an Adobe Partner, details on migrating your integration to our new Adobe Exchange program can found [here](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) in our documentation.  
 
-If you are a Data Connector customer and want to request that the integration you use should be migrated, you should *route all requests directly to the Integration Partner*. Sending a request to Adobe via Customer Care will not have the same desired effect.
+If you are a Data Connector customer and want to request that the integration you use should be migrated, you should *route all requests directly to the Integration Partner*. The partner needs to commit to moving to the new APIs. Unfortunately, Adobe Customer Care cannot compel partners to move to the new APIs.
 
 Each company providing an integration was given the option to migrate their integration to Adobe Exchange or discontinue their integration. Below is a summary of each current integration and their accompanying decision.
 
@@ -31,18 +31,18 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | --- | --- |
 | Acxiom | Deprecating |
 | Adform | Deprecating |
-| Adjust | Migrating to Adobe Exchange |
-| Adobe Campaign | Migrating to Adobe Exchange (see Note below) |
-| Appfigures | Migrating to Adobe Exchange |
+| Adjust | Migrating to the latest APIs |
+| Adobe Campaign | Migrating to the latest APIs (see Note below) |
+| Appfigures | Migrating to the latest APIs |
 | Appsee | Deprecating |
-| AppsFlyer | Migrating to Adobe Exchange | 
+| AppsFlyer | Migrating to the latest APIs | 
 | Aprimo Enterprise Marketing Engagement | Deprecating |
 | Apteligent | Deprecating| 
 | BlueHornet eMarketing Suite | Deprecating | 
-| Branch | Migrating to Exchange |
+| Branch | Migrating to the latest APIs |
 | BrightEdge 2.0, BrightEdge, BrightEdge Express | Deprecating |
 | Bronto Software | Deprecating| 
-| CheetahMail by Experian | Migrating to Exchange |
+| CheetahMail by Experian | Migrating to the latest APIs |
 | ClickTale | Deprecating |
 | Clicktale CA | Deprecating |
 | Conductor 2.0, Conductor, Conductor Organic Metrics | Deprecating |
@@ -55,31 +55,31 @@ For additional questions or support, please reach out to Adobe Customer Care.
 | Delivra | Deprecating |
 | Demandbase CA | Deprecating |
 | Demandbase v3 | Deprecating |
-| DialogTech | Available on Adobe Exchange |
+| DialogTech | Migrating to the latest APIs |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Deprecating |
 | DREAM | Deprecating |
 | DREAMmail 1.0, DREAMmail 2.0 | Deprecating | 
-| Dynamic Signal (Nital Vora) | Migrating to Exchange |
+| Dynamic Signal (Nital Vora) | Migrating to the latest APIs |
 | eDialog Precision Central | Deprecating |
 | eC-messenger | Deprecating |
 | Emailvision Campaign Commander | Deprecating |
 | emarsys xpress | Deprecating |
-| Epsilon Harmony | Migrating to Exchange |
+| Epsilon Harmony | Migrating to the latest APIs |
 | EveryoneSocial for Adobe Analytics | Deprecating |
 | ExactTarget, ExactTarget 2.0 | Deprecating |
 | Fiksu | Deprecating |
 | Foresee (v2.0), Foresee Feedback, Foresee Results | Deprecating |
 | Gigya | Deprecating |
-| Hootsuite | Migrating to Exchange |
+| Hootsuite | Migrating to the latest APIs |
 | hybris | Deprecating |
 | Kampyle (now Medallia) Feedback Analytics (1.1) | Deprecating |
-| Listrak | Migrating to Exchange |
+| Listrak | Migrating to the latest APIs |
 | Lyris HQ | Deprecating |
 | MaritzCX (V 2.0) | Deprecating |
 | Merkle | Deprecating |
-| Official Oracle Eloqua Integration | Migrating to Exchange |
+| Official Oracle Eloqua Integration | Migrating to the latest APIs |
 | optivo broadmail (Episerver) | Deprecating |
-| Qualtrics v2 | Migrating to Exchange |
+| Qualtrics v2 | Migrating to the latest APIs |
 | Responsys 1.0, Responsys 2.0 | Deprecating |
 | Salesforce.com | Deprecating |
 | Selligent | Deprecating |

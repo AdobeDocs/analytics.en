@@ -5,7 +5,7 @@ exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 ---
 # Carts
 
-The 'Cart removals' metric shows the number of times a visitor removed something from their cart. This metric is helpful when you want to understand the part of the conversion funnel where customers are no longer interested in a product.
+The 'Carts' metric shows the number of hits where a visitor added their first product to a cart.
 
 ## How this metric is calculated
 

@@ -36,6 +36,10 @@ Let's say you want to compare different aspects of a "German Visitors" segments 
 
    ![](assets/workspace-pages.png)
 
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
 ## Percent of total metrics {#percent-total}
 
 You can take the example above a step further by comparing your segment to a total population. To do so, create two new metrics, "% of Total German Visitors" and "% of Total International Visitors":

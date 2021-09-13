@@ -13,6 +13,10 @@ Field descriptions for a report suite's General Account Settings in Admin.
 
 These settings contain editing options for basic report suite functionality, such as name and time zone.
 
+Here is a video on configuring General Account Settings:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
+
 | Option | Description |
 |--- |--- |
 |Site Title|Identifies your site. Give each report suite a unique site title.|

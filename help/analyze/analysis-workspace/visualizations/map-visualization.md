@@ -83,3 +83,9 @@ Clicking the **gear icon** reveals these visualization settings:
 |Styles: Map Style|You can choose among Basic, Streets, Bright, Light, Dark, and Satellite.|
 |Cluster Radius|Groups data points together that are within the specified number of pixels. Default is 50.|
 |Custom Max Value|Lets you alter the threshold for the max value for the map - adjusting this value adjusts the scale for the bubbles/heatmap values (color and size) relative to the custom max value set.|
+
+## Build a time-parting heatmap
+
+Here is a video on the topic:
+
+[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

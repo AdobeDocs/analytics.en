@@ -59,16 +59,16 @@ In some situations, an individual user can associate with a large number of ECID
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
 Both [People](/help/components/metrics/people.md) and [Unique Visitors](/help/components/metrics/unique-visitors.md) metrics aim to count distinct visitors (individuals).
-However, consider the fact that 2 different devices can be attributed to the same person. For CDA, that would translate in mapping the 2 devices to same person (obtaining 1 'People'), while the 2 devices would be recorded as 2 separate 'Unique Visitors' outside of CDA.
+However, consider the possibility that 2 different devices can belong to the same person. CDA maps the 2 devices to same person, while the 2 devices is recorded as 2 separate 'Unique Visitors' outside of CDA.
 
 ## What is the difference between the 'Unique Devices' metric in CDA and the 'Unique Visitors' metric outside of CDA?
 
-Differences between the 2 metrics occur when:
+These two metrics are roughly equivalent to each other. Differences between the 2 metrics occur when:
 
-* *a shared device maps to multiple persons* (in this scenario, 1 unique visitor is counted, while multiple unique devices are counted)
-* *a device has both non-stitched and stitched traffic from same visitor* (depending on the reporting window chosen, let's say on a certain device, a person's browser generated identified stitched traffic + historical anonymous traffic that was not stitched; in this case, 1 unique visitor is counted, while 2 unique devices are counted).
+* A shared device maps to multiple people. In this scenario, 1 unique visitor is counted, while multiple unique devices are counted.
+* A device has both non-stitched and stitched traffic from the same visitor. For example, a browser generated identified stitched traffic + historical anonymous traffic that was not stitched. In this case, 1 unique visitor is counted, while 2 unique devices are counted.
 
-You can also see a [descriptive example](unique-devices.md) of how 'Unique Devices' metric works.
+See [Unique Devices](/help/components/metrics/unique-devices.md) for more examples and details around how it works.
 
 ## Can I include CDA metrics using the 2.0 API?
 

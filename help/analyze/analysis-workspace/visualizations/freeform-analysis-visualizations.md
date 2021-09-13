@@ -94,3 +94,9 @@ Additional functionality for a visualziation is available by right-clicking on t
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
 ![](assets/quick-viz.png)
+
+## Change the scale axis on visualizations
+
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)

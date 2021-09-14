@@ -16,6 +16,10 @@ Analytics provides a number of variables to collect Analytics data. Variables in
 
 Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using tags in Adobe Experience Platform and AppMeasurement for JavaScript.
 
+Here is a video on configuring variables in Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+
 ## Order of operations
 
 AppMeasurement libraries published by Adobe Analytics follow a specific order when sending data to Adobe. If you execute these tasks out of order, data can be incomplete.

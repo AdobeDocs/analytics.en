@@ -50,6 +50,10 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 ![](assets/churn-report.png)
 
+Here is a video on churn analysis:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+
 ### [!UICONTROL Rolling Calculation]
 
 Lets you calculate retention or churn based on the previous column, not the included column.

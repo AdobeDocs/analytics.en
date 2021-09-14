@@ -46,6 +46,6 @@ When Cross-Device Analytics is enabled on a virtual report suite, note the follo
 
 * A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
 * A new dimension labeled [Identified state](../dimensions/identified-state.md) is available.
-* New metrics labeled [People](../metrics/people.md), [Unique Devices](../metrics/unique-devices.md), Identified people, Unidentified people, and People with Experience Cloud ID are available.
+* New metrics labeled [People](../metrics/people.md), [Unique Devices](../metrics/unique-devices.md), [Identified people](../metrics/identified-people.md), [Unidentified people](../metrics/unidentified-people.md), and [People with Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) are available.
 * The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with 'People' and 'Unique Devices'.
 * When building segments, the 'Visitor' segment container is replaced with a 'Person' container.

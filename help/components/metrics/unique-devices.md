@@ -5,32 +5,26 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 ---
 # Unique devices
 
-The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric representing the total number of unique **un**identified devices (devices that generated anonymous hits) + total number of unique virtual devices (distinct persons identified per device).
+The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric that counts the number of unique unidentified devices and unique virtual devices. Unidentified devices are devices that generated anonymous hits. Unique virtual devices are distinct people identified per device.
 
-* Please note that this metric is **not equal** to the Unique Visitors from Analytics.
+## How this metric is calculated
 
-* *Example*: If device1 is shared by 3 different accounts that generated events in the chosen reporting window, this will reflect as 3 different (virtual) devices in the reporting engine (to keep a positive compression in the shareable devices use-cases). In comparison, Unique Visitors traditional metric would count this as 1 unique device (visitor).
+For each device, sum all distinct people tied to it (including anonymous if the device contains non-stitched hits).
 
-In other words, for each device we count all its distinct person attributions, plus the unidentified state if the case (if any anonymous non-stitched hits come from that device).
-Summing up these values obtained from all devices, we get the value of *Unique Devices* metric. 
- 
-Below you can see a more descriptive example of how 'Unique Devices' and 'People' metrics work:
+Note that this metric is not equal to [Unique Visitors](unique-visitors.md) in non-CDA report suites. For example, a device is shared by 3 different accounts. If all 3 accounts visit your site in a reporting window, the resulting report would show 3 Unique Devices in CDA. The same data outside of CDA would show 1 Unique Visitor.
 
-* Bob noticed an ad on his phone with Adobe Photoshop, once he clicks on it the ad will redirect Bob on Adobe homepage
-	* one device one person
-* Bob is browsing quite a bit and at a point he decides to buy Photoshop, because Bob has no card on his phone he will go on his laptop
-* Once Bob is on the laptop he will create an account and then he will buy photoshop
-	* two devices one person
-* Bob also logs in on his phone at a later time to check his order.
-	* two devices one person
-* Bob’s wife, Alice has no laptop so she will use Bob’s laptop to play with Photoshop but using her account
-	* two devices two persons
-* Bob’s brother, Charles will also login using Bob’s laptop on his account
-	* two devices three persons
+## Example
 
-So at the end of this story, we would "normally" expect 2 unique devices and 3 people.
-However in CDA world, for the entire timeframe we would get in the report:
-* **5 unique devices**: 1 for unidentified person (for unauthenticated Bob)  + 2 for Bob + 1 for Alice + 1 for Charles
-* **4 [People](people.md)**: 1 [Unidentified People](unidentified-people.md) + 3 [Identified People](identified-people.md).
+1. Bob arrives to your site on his phone through an ad, but is not logged in.
+1. Bob wants to make a purchase, but would prefer to do it on the family laptop because he is already logged in there. On the laptop, he makes a purchase.
+1. The next day, he checks his order on his phone and authenticates there.
+1. Bob's wife, Alice, browses your site while logged in to her account.
+1. Bob's brother, Charles, also browses your site while logged in to his account.
 
 ![Unique Devices Count](/help/components/metrics/assets/Unique_Devices_Count.png)
+
+Viewing this data in a CDA virtual report suite before [Replay](/help/components/cda/replay.md) we would get:
+
+* **5 unique devices**: 1 for unauthenticated Bob + 2 for Bob + 1 for Alice + 1 for Charles
+* **4 [People](people.md)**: 1 [Unidentified People](unidentified-people.md) + 3 [Identified People](identified-people.md).
+

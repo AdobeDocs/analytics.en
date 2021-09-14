@@ -15,5 +15,5 @@ As long as you have [Cross-Device Analytics](../cda/overview.md) configured for 
 
 Dimension items include `"Identified"` and `"Unidentified"`.
 
-* **`"Identified"`**: the hit was not originally mapped to a person and could not be mapped by other attribution method.
-* **`"Unidentified"`**: the hit has been mapped to a person.
+* **`"Identified"`**: The hit is mapped to a person.
+* **`"Unidentified"`**: The hit is not mapped to a person and could not be mapped by any attribution method.

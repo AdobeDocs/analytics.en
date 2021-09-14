@@ -16,10 +16,10 @@ Note that this metric is not equal to [Unique Visitors](unique-visitors.md) in n
 ## Example
 
 1. Bob arrives to your site on his phone through an ad, but is not logged in.
-1. Bob wants to make a purchase, but would prefer to do it on the family laptop because he is already logged in there. On the laptop, he makes a purchase.
+1. Bob wants to make a purchase, but would prefer to do it on the family computer because he is already logged in there. On the family computer, he makes a purchase.
 1. The next day, he checks his order on his phone and authenticates there.
-1. Bob's wife, Alice, browses your site while logged in to her account.
-1. Bob's brother, Charles, also browses your site while logged in to his account.
+1. Bob's wife, Alice, browses your site while logged in to her account on the family computer.
+1. Bob's brother, Charles, also browses your site while logged in to his account on the family computer.
 
 ![Unique Devices Count](/help/components/metrics/assets/Unique_Devices_Count.png)
 

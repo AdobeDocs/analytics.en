@@ -1,8 +1,8 @@
 ---
 title: Classification data export via FTP
 description: FTP export provides more flexibility with data set downloads, including downloading data from multiple report suites and downloading data set files larger than 50,000 data rows
+exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 ---
-
 # Classification data export via FTP
 
 The FTP option provides more flexibility in downloading data sets, including the ability to download data from multiple report suites and to download data set files larger than 50,000 data rows. Before downloading classification data via FTP, create an FTP account. 
@@ -41,4 +41,3 @@ These steps describe how to export (download) classifications from Adobe Analyti
 | [!UICONTROL FTP Account] | Specify the FTP server information where you want Adobe to download the data file, including host name and port, path to the destination directory, username, and password. |
 | [!UICONTROL Notification] | Specify the email address to receive notifications about this FTP download. |
 | [!UICONTROL Encoding] | Select the character encoding for the data file. The default encoding format is either UTF-8 or ISO-8859-1, based on the encoding that was uploaded for the classification. UTF-8 to UTF-16 converts your UTF-8 encoded classifications to UTF-16 encoding. ISO-8859-1 to UTF-16 converts your ISO-8859-1 encoded classifications to UTF-16 encoding.<br>**Note:** If you select to convert to UTF-16, the source encoding must match the encoding of the original upload or you may get unexpected results. We recommend encoding all uploaded files in UTF-8 without BOM. |
-

@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics and browser cookies
 description: Learn how tracking prevention measures affect third-party and first-party cookies set by Adobe Analytics.
+exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 ---
-
 # Adobe Analytics and browser cookies
 
 This document explains how major browsers' tracking prevention measures affect the third-party and first-party cookies set by Adobe Analytics. It includes information about Apple's Intelligent Tracking Prevention (ITP) program as well as Chrome's limitations on third-party cookies via the SameSite attribute.

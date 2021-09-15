@@ -2,6 +2,7 @@
 description: Explains how the landing page brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella.
 title: Adobe Analytics landing page
 role: User, Admin
+exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 

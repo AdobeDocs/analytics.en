@@ -13,6 +13,10 @@ Field descriptions for a report suite's General Account Settings in Admin.
 
 These settings contain editing options for basic report suite functionality, such as name and time zone.
 
+Here is a video on configuring General Account Settings:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
+
 | Option | Description |
 |--- |--- |
 |Site Title|Identifies your site. Give each report suite a unique site title.|
@@ -23,3 +27,8 @@ These settings contain editing options for basic report suite functionality, suc
 | IP Obfuscation | Turns IP addresses into non-recognizable strings, essentially removing them from Adobe data stores. When IP Obfuscation is enabled, the original IP addresses are permanently lost. <br> **Note**: The IP addresses are obfuscated everywhere in Analytics, including Data Warehouse. However, the IP setting in Target is controlled separately, so this setting has no impact on Target.<br> If IP obfuscation is enabled, all needed processing including IP filtering/exclusion, bot rules and Geosegmentation lookups are done before the IP address is obfuscated. You don't need to change anything when you enable IP obfuscation.<ul><li>Checking **Disabled** leaves the IP address in the data.</li><li>Checking **Obfuscate IP address** changes the IP to two colons followed by a hashed value (e.g., `::1932023538`).</li><li>Checking **Remove IP address** replaces the IP address with `::X.X.X.X` in the data, after geo-lookup.</li></ul>**Note**: This setting might require changes to custom [bot rules](/help/admin/admin/bot-removal/bot-rules.md) or [IP exclusions](/help/admin/admin/exclude-ip.md). |
 | Transaction ID Storage | Enables you to use [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) data sources. |
 | Enable Data Warehouse | Enables the Data Warehouse UI under Analytics > Tools > Data Warehouse. |
+| Zip Option | Lets you specify the zip code instead of using whatever our geo IP lookup produces. |
+| Multi-byte character support | Multibyte character support stores characters in the report suite using UTF-8. Upon receipt, the system converts data from your web page's character set to the UTF-8 character set, so you can use any language in your marketing reports. Contact your Account Manager or Customer Care to change the multibyte character support for an existing report suite. |
+| Activated | Specifies whether this report suite is activated or not. |
+| Base currency | Lets you specify the base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) for this report suite. |
+| Organization ID | The ID associated with your provisioned Experience Cloud company. This ID is a 24-character alphanumeric string, followed by (and must include) @AdobeOrg. |

@@ -1,8 +1,8 @@
 ---
 title: Count repeat instances
 description: Specifies whether repeat instances are counted in reports.
+exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
 ---
-
 # Count repeat instances
 
 [!UICONTROL Count repeat instances] specifies whether repeat instances are counted in reports or projects. When activated, this setting treats multiple consecutive page views to the same page as multiple page views. When the setting is set to "Off", those page views count as a single page view. This setting affects only certain metrics, such as [!UICONTROL Single Page Visit]. 

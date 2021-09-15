@@ -7,6 +7,10 @@ exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 
 Cross-Device Analytics provides two distinct methods to stitch data together. This method relies on an Analytics variable, such as a [prop](/help/implement/vars/page-vars/prop.md) or [eVar](/help/implement/vars/page-vars/evar.md), to contain a person identifier. It uses that variable as a base to link devices together.
 
+>[!NOTE]
+>
+>Adobe recommends this stitching option for more transparency and predictibility in tracking the visitors.
+
 ## Prerequisites specific to field-based stitching
 
 If you intend to implement Cross-Device Analytics using field-based stitching, the following are required. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.

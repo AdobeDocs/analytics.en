@@ -13,12 +13,12 @@ Use `linkDownloadFileTypes` to customize what file extensions you want to count 
 >
 >Only actual clicks are tracked automatically. The following types of links are not automatically tracked:
 >
-> * File downloads that start automatically when a page loads
-> * Downloads that trigger after a redirect
-> * Right-clicking and selecting 'Save Target As...'
-> * Links that use JavaScript, such as `javascript:openLink()`
+>* File downloads that start automatically when a page loads
+>* Downloads that trigger after a redirect
+>* Right-clicking and selecting 'Save Target As...'
+>* Links that use JavaScript, such as `javascript:openLink()`
 >
-> For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+>For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
 
 If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 

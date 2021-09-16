@@ -14,9 +14,9 @@ You can use a [!UICONTROL Flow] visualization with the Mobile Device Type dimens
 3. Click the Components tab on the left, and drag the dimension 'Mobile Device Type' to the center location labled 'Dimension or Item'.
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
-## Can I see how people move between different user experiences (e.g. desktop browser vs. mobile browser vs. mobile app)?
+## Can I see how people move between different user experiences (for example, desktop browser vs. mobile browser vs. mobile app)?
 
-Using Mobile Device Type as illustrated above allows you to see how people move between mobile device types and desktop device types. However you may want to distinguish desktop browsers from mobile browsers. One way to do this is to create an eVar that records whether the experience occurred on a desktop browser, mobile browser, or mobile app. Then create a Flow diagram as described above, using your "experience" eVar rather than the Mobile Device Type dimension. This provides a slightly different view on cross-device behavior.
+The Mobile Device Type example illustrated above allows you to see how people move between mobile device types and desktop device types. However, it does not allow you to distinguish desktop browsers from mobile browsers. If you would like this insight, you can create a custom variable (such as a prop or eVar) that records if the experience happened on a desktop browser, mobile browser, or mobile app. You can then create a Flow diagram as described above, using the custom variable instead of the Mobile Device Type dimension. This method provides a slightly different view on cross-device behavior.
 
 ## How far back does CDA stitch visitors?
 
@@ -47,7 +47,7 @@ Customers already using Custom Visitor ID can upgrade to CDA without any impleme
 In some situations it is possible that multiple people log in from the same device. Examples include a shared device at home, shared PCs in a library, or a kiosk in a retail outlet.
 
 * **If using a device graph**, the ability to handle shared devices is limited. The device graph uses an algorithm to determine ownership of a "cluster", and can change each time that cluster is published. Users of the shared device are subject to which cluster they belong to.
-* **If using field-based stitching**, the prop or eVar you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
+* **If using field-based stitching**, the prop or eVar that you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
 
 ## How does CDA handle situations where a single person has MANY devices/ECIDs?
 
@@ -58,11 +58,16 @@ In some situations, an individual user can associate with a large number of ECID
 
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. However, when using Cross-Device Analytics, unique visitors are combined when they are otherwise recorded as two separate unique visitors outside of CDA. The 'People' metric replaces the 'Unique Visitors' metric when Cross-Device Analytics is enabled. A new metric, [Unique Devices](/help/components/metrics/unique-devices.md), is available that is approximately equal to Unique Visitors outside of Cross-Device Analytics.
+Both [People](/help/components/metrics/people.md) and [Unique Visitors](/help/components/metrics/unique-visitors.md) metrics aim to count distinct visitors (individuals). However, consider the possibility that 2 different devices can belong to the same person. CDA maps the 2 devices to same person, while the 2 devices are recorded as 2 separate 'Unique Visitors' outside of CDA.
 
 ## What is the difference between the 'Unique Devices' metric in CDA and the 'Unique Visitors' metric outside of CDA?
 
-These two metrics are roughly equivalent to each other.
+These two metrics are roughly equivalent to each other. Differences between the 2 metrics occur when:
+
+* A shared device maps to multiple people. In this scenario, 1 unique visitor is counted, while multiple unique devices are counted.
+* A device has both non-stitched and stitched traffic from the same visitor. For example, a browser generated identified stitched traffic + historical anonymous traffic that was not stitched. In this case, 1 unique visitor is counted, while 2 unique devices are counted.
+
+See [Unique Devices](/help/components/metrics/unique-devices.md) for more examples and details around how it works.
 
 ## Can I include CDA metrics using the 2.0 API?
 
@@ -87,9 +92,9 @@ Both of these identifiers are calculated by Adobe at the time the report is run,
 
 Switching from device graph to field-based stitching or vice versa can be requested via Customer Care. However, making such a switch can take a couple of weeks or more to complete and *historical stitched data from the previous method is lost.*
 
-## How does Adobe handle unique limits for an eVar used in field-based stitching?
+## How does Adobe handle unique limits for a prop or eVar used in field-based stitching?
 
-CDA pulls eVar dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop/eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.
+CDA pulls the identifier variable dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop or eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.
 
 ## How many of my company's report suites can be enabled for CDA?
 
@@ -113,6 +118,12 @@ If a customer downgrades from Ultimate, they will no longer have access to stitc
 
 CDA uses a complex parallel processing pipeline, with multiple dependent components. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected. It has minimal impact on the cross-device capabilities.
 
-## Why is the "Identified People" metric inflated?
+## Why is the 'Identified People' metric inflated?
 
-If the count is slightly higher than expected, an eVar value can belong to more than one identified person due to [hash collisions](/help/implement/validate/hash-collisions.md). If the count is much higher than expected, contact Customer Care for additional troubleshooting steps.
+The number of the 'Identified People' metric can be slightly higher if the identifier prop/eVar value runs into a [hash collision](/help/implement/validate/hash-collisions.md).
+
+The number of the 'Identified People' metric can be significantly higher if identifier prop/eVar is case-sensitive. For example, `bob` and `Bob` are supposed to be the same person, but case sensitivity forces these two values to be distinct.
+
+## Why do I see values when viewing the identifier prop/eVar with the 'Unidentified People' metric?
+
+This situation usually occurs when a visitor generates both authenticated and unauthenticated hits in the reporting window and [Replay](replay.md) has not yet run. Before replay, the visitor belongs to both 'Unidentified' and 'Identified' in the [Identified State](/help/components/dimensions/identified-state.md) dimension, causing some visitors to attribute unidentified hits to an identifier. Visitors remain in this state until replay runs (daily or weekly, depending on how your organization set up CDA). Running reports on only after-replay data mitigates this situation.

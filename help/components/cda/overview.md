@@ -7,7 +7,8 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 
 Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 
-* [**Field-based stitching**](field-based-stitching.md): Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite. Uses deterministic matching to link devices together. Adobe recommends using field-based stitching for most deterministic matching use cases.
+* [**Field-based stitching**](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.
+Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite.
 * [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probabilistic matching.
 
 >[!NOTE]
@@ -50,3 +51,5 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * CDA is not currently compatible with the Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 * Stitched data follows a latency of 8 to 12 hours.
+* Mapping history data for a given device is stored for up to 1 year.
+* If a device reaches a very high number of mapping history entries within a year, the mapping history is truncated. The exact limit depends on the stitching option used.

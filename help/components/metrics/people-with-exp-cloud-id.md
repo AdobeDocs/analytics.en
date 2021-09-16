@@ -12,4 +12,4 @@ Considering each [People](people.md) (identified or unidentified), this metric w
 
 Based on 'People with Experience Cloud ID' and 'People' metrics, there is the 'Experience Cloud ID coverage' that can tell the percent of visitors to your site using the ID service.
 
-To read more about the importance of Experience Cloud ID and debugging your setup, please see the equivalent non-CDA metric [Visitors with ECID](visitors-with-ecid.html).
+To read more about the importance of Experience Cloud ID and debugging your setup, please see the equivalent non-CDA metric [Visitors with ECID](visitors-with-ecid.md).

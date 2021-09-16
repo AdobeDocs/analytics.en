@@ -41,7 +41,7 @@ The use of CDA requires all of the following. [Field-based stitching](field-base
 Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific limitations.
 
 * CDA is only available through Analysis Workspace.
-* Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites. This is why it is recommended to use "generic" report suites with CDA, meaning report suites that already combine data from multiple apps or platforms, device types etc.
+* Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.
 * Adobe Analytics report suites cannot map to more than one IMS org. Since CDA stitches devices within a given report suite, CDA cannot be used to stitch data across multiple IMS orgs.
 * Private Graph leverages the same ID syncs as those used by the [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) capability found within Experience Cloud and Adobe Analytics. However, CDA virtual report suites (whether based on private graph or field-based stitching) are not compatible with the rest of the Customer Attributes functionality. That is, Customer Attributes-based dimensions are not available for use within CDA virtual report suites.
 * CDA is not currently compatible with A4T.

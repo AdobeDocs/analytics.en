@@ -51,5 +51,5 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * CDA is not currently compatible with the Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)
 * Historical data in the virtual report suite changes based on Adobe recognizing and stitching devices together. Data in the source report suite does not change.
 * Stitched data follows a latency of 8 to 12 hours.
-* In the CDA stitching process, devices are mapped to identified visitors. A device can update its mapping multiple times and the mapping history data is stored (with 1 year TTL).
-If for some reason (usually, a setup issue) a device reaches a very high number of mapping history entries within a year, the history would get trimmed down to a certain limit (the exact limit depends on the stitching option used).
+* Mapping history data for a given device is stored for up to 1 year.
+* If a device reaches a very high number of mapping history entries within a year, the mapping history is truncated. The exact limit depends on the stitching option used.

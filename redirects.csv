@@ -63,3 +63,9 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/analysis-workspace-features.html,/docs/analytics/analyze/analysis-workspace/home.html
 /docs/analytics/admin/company-settings/login-restrictions-eol.html,/docs/analytics/admin/company-settings/security-manager.html
 /docs/analytics/landing/an-landing.html,/docs/analytics/analyze/landing.html
+/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html,/docs/analytics/analyze/analysis-workspace/attribution/overview.html
+/docs/analytics/components/cda/cda-home.html,/docs/analytics/components/cda/overview.html
+/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html,/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html
+/docs/analytics/components/variables/metrics/metricslist.html,/docs/analytics/components/metrics/overview.html
+/docs/analytics/technotes/visitor-identification.html,/docs/analytics/components/metrics/unique-visitors.html
+/docs/analytics/implementation/analytics-basics/traffic-props-evars/props-vs-evars.html,/docs/analytics/components/dimensions/evar.html

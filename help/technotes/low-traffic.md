@@ -21,6 +21,9 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 
 Why does Adobe move an item from the [!UICONTROL Low Traffic] line item to its own line item? For example, this move might recognize a popular new page or new item that was added later in the month (after uniques were exceeded) and that gets a lot of hits/views. The move is not intended to catch everything that gets a certain number of hits/views per day or per month.
 
+>[!NOTE]
+>The page lookup count does not just include values for the [!UICONTROL pagename]/[!UICONTROL page_url]. The page lookup table includes several columns/fields such as [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url], and the click context (the old Clickmap data).
+
 ## Changing unique limit thresholds
 
 Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact your organization's account manager to request this change. When requesting a change, include:

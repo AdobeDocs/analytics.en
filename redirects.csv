@@ -69,3 +69,4 @@ source,destination
 /docs/analytics/components/variables/metrics/metricslist.html,/docs/analytics/components/metrics/overview.html
 /docs/analytics/technotes/visitor-identification.html,/docs/analytics/components/metrics/unique-visitors.html
 /docs/analytics/implementation/analytics-basics/traffic-props-evars/props-vs-evars.html,/docs/analytics/components/dimensions/evar.html
+/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html,/docs/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html

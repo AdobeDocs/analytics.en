@@ -27,4 +27,3 @@ Viewing this data in a CDA virtual report suite before [Replay](/help/components
 
 * **5 unique devices**: 1 for unauthenticated Bob + 2 for Bob + 1 for Alice + 1 for Charles
 * **4 [People](people.md)**: 1 [Unidentified People](unidentified-people.md) + 3 [Identified People](identified-people.md).
-

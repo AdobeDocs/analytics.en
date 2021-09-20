@@ -112,7 +112,7 @@ This article familiarizes you with the Analysis Workspace interface elements and
   </tr> 
   <tr> 
    <td colname="col1"> Segments (blue) </td> 
-   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
+   <td colname="col2"> <p>Draggable only at the panel level, but you can create inline segments in the data table. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Date ranges and granularities (purple) </td> 
@@ -188,7 +188,7 @@ The right-click menu lets you perform the following actions, depending on which 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Create segment from selection</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Create segment from selection</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

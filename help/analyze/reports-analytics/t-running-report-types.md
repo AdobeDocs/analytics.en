@@ -73,7 +73,7 @@ Describes how to view and interpret real-time reports.
 
 Real-Time reporting offers two main reports - an overview report and a detail report. They each consist of a number of reportlets.
 
-For information on configuring real-time reports, see the [Analytics Reference Guide](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+See [Real-time reporting overview](/help/components/c-real-time-reporting/realtime.md) for more information.
 
 1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
@@ -139,7 +139,7 @@ For information on configuring real-time reports, see the [Analytics Reference G
    </tr> 
    </table>    
    
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+2. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
 
    | **Item Trend Reportlet** | Presents the trend line of the item that was selected in the Overview Report for the last N minutes. N is configurable through the Time Range selector.  |
    |---|---|

@@ -8,15 +8,33 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 ---
 # Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-You can create 
+You can create different types of segments, depending on how complex they need to be, whether they should apply to this project only, etc. Here is a summary of segment types:
 
-## Segment rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+| Segment type | Where created? | Applicable where? | Multiple containers? | UI color |
+| --- | --- | --- | --- |
+| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | To all projects, from the left rail | Yes | Blue |
+| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level only | No | Gray? |
+| Ad hoc segments: | See below | Project level only | No | ? |
+|  - Ad hoc Workspace project segment | Drag and drop into segment ? in a new project |  |  |  |
+|  - Calculated metrics-based segment | Calculated metric builder |  |  |  |
+|  - VRS-based segment | Virtual report suite builder |  |  |  |
+|  - Segment builder "apply" " | Segment builder |  |  |  |
+
+For an in-depth discussion of segmentation in Adobe Analytics, go [here](/help/components/segmentation/seg-overview.md).
+
+## Component list segments in the left rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 The segment rail under the Components menu shows segments as well as segment templates, as signified by these icons:
 
 ![](assets/segment_icons.png)
 
 [Using Segments in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html)(6:46)
+
+## Ad hoc (temporary) segments in Analysis Workspace
+
+Here is a video on ad hoc segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -56,8 +74,4 @@ Several other methods exist for applying segments to a freeform project.
 |Share > Share Project or Share > Curate Project Data|In [Curate and Share](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient.|
 |Use Segments as Dimensions|Video: [Using Segments as Dimensions in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en)|
 
-## Ad hoc (temporary) segments in Analysis Workspace
 
-Here is a video on ad hoc segments:
-
->[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)

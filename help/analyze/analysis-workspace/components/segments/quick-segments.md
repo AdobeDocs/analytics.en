@@ -25,8 +25,11 @@ You can create quick segments within a project to bypass the complexity of the f
 
 1. Add a dimension/metric/date range in one of 3 ways:
 
-   * Start typing and the Quick Segment builder automatically finds the appropriate component.
-   * Use the drop-down list to find the component.
-   * Drag and drop components from the left rail.
+   - Start typing and the Quick Segment builder automatically finds the appropriate component.
+   - Use the drop-down list to find the component.
+   - Drag and drop components from the left rail.
 
-1. Specify the first rule, such as `Page equals workspace`. You can have up to three rules in the segment definitions. Just click the "+" sign to add another rule. You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition.
+1. Specify the first rule, such as `Page equals workspace`. You can have up to three rules in the segment definitions. Just click the "+" sign to add another rule. You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. 
+
+   Here is an example of a segment that combines dimensions and metrics:
+

@@ -599,7 +599,7 @@ New features released on October 26, 2017.
    <td colname="col2"> <p>You can now easily toggle between time granularities when the dimension in the data source is a time dimension. You can switch granularities from a drop-down in the visualization settings. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Full dimensions &amp; events in segment drop zone </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Full dimensions &amp; events in segment drop zone </a> </p> </td> 
    <td colname="col2"> <p>Previously, you could drop only dimension items, date ranges, or segments into segment drop zones. You can now drop a full dimension or event into the segment drop zone. In both cases, Analysis Workspace will create "exists" hit segments. </p> <p>Examples: "Hit where eVar1 exists" or "Hit where event1 exists". </p> <p>Note:  You cannot drop calculated metrics into a segment zone. Only those dimensions/metrics for which you can build segments qualify for the segment zone. </p> </td> 
   </tr> 
   <tr> 

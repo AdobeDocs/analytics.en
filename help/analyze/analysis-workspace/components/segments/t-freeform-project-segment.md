@@ -12,7 +12,7 @@ You can create different types of segments, depending on how complex they need t
 
 | Segment type | Where created? | Applicable where? | Multiple containers? | UI color |
 | --- | --- | --- | --- |
-| Component list segment | [Segment Builder]() | To all projects, from the left rail | Yes | Blue |
+| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | To all projects, from the left rail | Yes | Blue |
 | Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level only | No | Gray? |
 | Ad hoc segments: | See below | Project level only | No | ? |
 |  - Ad hoc Workspace project segment | Drag and drop into segment ? in a new project |  |  |  |

@@ -8,6 +8,8 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 ---
 # Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
+You can create 
+
 ## Segment rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 The segment rail under the Components menu shows segments as well as segment templates, as signified by these icons:

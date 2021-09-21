@@ -54,5 +54,5 @@ Several other methods exist for applying segments to a freeform project.
 
 Segment IQ comprises the following features:
 
-* [Segment comparison panel:](c-panels/c-segment-comparison/segment-comparison.md) The core feature in Segment IQ. Drag two segments into the panel, and view a comprehensive report that shows statistically significant differences and overlap between the two audiences.
-* [Comparing segments in fallout:](visualizations/fallout/compare-segments-fallout.md) See how different audiences compare to each other in context of a fallout visualization.
+* [Segment comparison panel:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) The core feature in Segment IQ. Drag two segments into the panel, and view a comprehensive report that shows statistically significant differences and overlap between the two audiences.
+* [Comparing segments in fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) See how different audiences compare to each other in context of a fallout visualization.

@@ -20,7 +20,8 @@ You can create ad-hoc segments if you want to quickly explore how a segment migh
 
    Your panel automatically gets this segment applied and you can instantly see the results. 
 
-1. To 
+1. Add up to 3 ad-hoc segments to a panel.
+1. If you decide that you want to save this segment, refer to the section "Make ad-hoc segments public".
 
 Keep in mind:
 
@@ -40,3 +41,4 @@ You can choose to make these segments public (global) by following these steps:
 1. In the information panel that displays, click **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
+   

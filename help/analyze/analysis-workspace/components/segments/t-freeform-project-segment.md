@@ -10,15 +10,14 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 
 You can create different types of segments in Workspace, depending on how complex they need to be, whether they should apply to this project only, etc. Here is a summary of segment types:
 
-| Segment type | Created where? | Applicable where? | 
-| --- | --- | 
-| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Global/public | 
-| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level, but can make public | 
-| Ad hoc segments: | See variations below | Project level, but can make public | 
-|  - Ad hoc Workspace project segment | [Drag and drop into segment drop zone in a project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) |  |  
-|  - Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) |  |  
-|  - VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) |  |  
-|  - Segment builder "apply" | Segment builder |  |  
+| Segment type | Created where? | Applicable where? | When to use |
+| --- | --- | --- | --- |
+| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | Global/public | For complex segments, sequential segments |
+| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level, but can make public | Flexibility and control to add/edit rules, names and multiple rules |
+| Ad hoc segments: |  |  |  | 
+|  - Ad hoc Workspace project segment | [Drag and drop into segment drop zone in a project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Project level, but can make public | For default, single-rule segments |  
+|  - Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
+|  - VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
 
 For an in-depth discussion of segmentation in Adobe Analytics, go [here](/help/components/segmentation/seg-overview.md).
 

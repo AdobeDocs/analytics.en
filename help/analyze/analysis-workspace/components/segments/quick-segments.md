@@ -36,8 +36,22 @@ You can create quick segments within a project to bypass the complexity of the f
    ![](assets/quick-seg2.png)
 
 1. Click **[!UICONTROL Apply]** to apply this segment to the panel. 
-   The segment appears at the top. Notice its grey bar, as opposed to the blue bar for component-level segments at the left.
+   The segment appears at the top. Notice its grey sidebar, as opposed to the blue bar for component-level segments at the left.
 
    ![](assets/quick-seg3.png)
 
-1. In the quick segment zone at the top
+## Make quick segments public
+
+You can choose to make these segments public (global) by following these steps:
+
+1. Hover over the quick segment and click the "i" icon.
+1. Click **[!UICONTROL Open builder]**.
+   This opens the segment in the Segment Builder. 
+   >[!NOTE]
+   >Once you apply or save the segment in the Segment Builder, you can no longer edit it in the Quick Segment Builder.
+1. Click **[!UICONTROL OK]**.
+1. In the Segment Builder, click **[!UICONTROL Apply]**.
+1. Go back to Workspace and notice how the segment now has a blue sidebar, signaling that it is part of the component library.
+
+   ![](assets/quick-seg4.png)
+

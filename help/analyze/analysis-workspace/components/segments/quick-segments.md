@@ -40,4 +40,4 @@ You can create quick segments within a project to bypass the complexity of the f
 
    ![](assets/quick-seg3.png)
 
-1. In the quick segment 
+1. In the quick segment zone at the top

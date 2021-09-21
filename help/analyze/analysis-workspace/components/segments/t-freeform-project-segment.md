@@ -10,15 +10,15 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 
 You can create different types of segments, depending on how complex they need to be, whether they should apply to this project only, etc. Here is a summary of segment types:
 
-| Segment type | Where created? | Applicable where? | Multiple containers? | UI color |
-| --- | --- | --- | --- |
-| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | To all projects, from the left rail | Yes | Blue |
-| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level only | No | Gray? |
-| Ad hoc segments: | See below | Project level only | No | ? |
-|  - Ad hoc Workspace project segment | Drag and drop into segment ? in a new project |  |  |  |
-|  - Calculated metrics-based segment | Calculated metric builder |  |  |  |
-|  - VRS-based segment | Virtual report suite builder |  |  |  |
-|  - Segment builder "apply" " | Segment builder |  |  |  |
+| Segment type | Created where? | Applicable where? | Multiple containers? | 
+| --- | --- | --- | 
+| Component list segment | [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | All projects, in the left rail | Yes | Blue |
+| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project level only | No | 
+| Ad hoc segments: | See below | Project level only | No |
+|  - Ad hoc Workspace project segment | Drag and drop into segment ? in a new project |  |  |  
+|  - Calculated metrics-based segment | Calculated metric builder |  |  |  
+|  - VRS-based segment | Virtual report suite builder |  |  |  
+|  - Segment builder "apply" " | Segment builder |  |  |  
 
 For an in-depth discussion of segmentation in Adobe Analytics, go [here](/help/components/segmentation/seg-overview.md).
 

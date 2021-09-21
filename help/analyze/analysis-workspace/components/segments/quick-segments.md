@@ -33,3 +33,11 @@ You can create quick segments within a project to bypass the complexity of the f
 
    Here is an example of a segment that combines dimensions and metrics:
 
+   ![](assets/quick-seg2.png)
+
+1. Click **[!UICONTROL Apply]** to apply this segment to the panel. 
+   The segment appears at the top. Notice its grey bar, as opposed to the blue bar for component-level segments at the left.
+
+   ![](assets/quick-seg3.png)
+
+1. In the quick segment 

@@ -50,4 +50,9 @@ Several other methods exist for applying segments to a freeform project.
 | Share > Share Project or Share > Curate Project Data | In [Curate and Share](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
 | Use Segments as Dimensions | Video: [Using Segments as Dimensions in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
+## Segment IQ
 
+Segment IQ comprises the following features:
+
+* [Segment comparison panel:](c-panels/c-segment-comparison/segment-comparison.md) The core feature in Segment IQ. Drag two segments into the panel, and view a comprehensive report that shows statistically significant differences and overlap between the two audiences.
+* [Comparing segments in fallout:](visualizations/fallout/compare-segments-fallout.md) See how different audiences compare to each other in context of a fallout visualization.

@@ -25,33 +25,63 @@ You can create quick segments within a project to bypass the complexity of the f
 
 1. Add a dimension/metric/date range in one of 3 ways:
 
-   - Start typing and the Quick Segment builder automatically finds the appropriate component.
+   - Start typing and the [!UICONTROL Quick Segment builder] automatically finds the appropriate component.
    - Use the drop-down list to find the component.
    - Drag and drop components from the left rail.
 
-1. Specify the first rule, such as `Page equals workspace`. You can have up to three rules in the segment definitions. Just click the "+" sign to add another rule. You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. 
+1. Specify the first rule, such as `Page equals workspace`. You can have up to three rules in a segment definitions. Just click the "+" sign to add another rule. You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. 
 
    Here is an example of a segment that combines dimensions and metrics:
 
    ![](assets/quick-seg2.png)
 
 1. Click **[!UICONTROL Apply]** to apply this segment to the panel. 
-   The segment appears at the top. Notice its grey sidebar, as opposed to the blue bar for component-level segments at the left.
+   The segment appears at the top. Notice its grey sidebar, as opposed to the blue sidebar for component-level segments in the segment library on the left.
 
    ![](assets/quick-seg3.png)
 
-## Make quick segments public
+## Edit quick segments
 
-You can choose to make these segments public (global) by following these steps:
+1. Hover over the quick segment and select the pencil icon.
+1. Edit the segment definition or the segment name.
 
-1. Hover over the quick segment and click the "i" icon.
-1. Click **[!UICONTROL Open builder]**.
-   This opens the segment in the Segment Builder. 
-   >[!NOTE]
-   >Once you apply or save the segment in the Segment Builder, you can no longer edit it in the Quick Segment Builder.
-1. Click **[!UICONTROL OK]**.
-1. In the Segment Builder, click **[!UICONTROL Apply]**.
+## Save quick segments
+
+You can choose to save quick segments by following these steps.
+
+>[!IMPORTANT]
+>Once you save the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
+
+1. Hover over the quick segment and select the info ("i") icon.
+1. Select **[!UICONTROL Save segment]**
+
+   ![](assets/save-quick-seg.png)
+
+1. Leave the name as is or rename the segment.
+
 1. Go back to Workspace and notice how the segment now has a blue sidebar, signaling that it is part of the component library.
 
    ![](assets/quick-seg4.png)
 
+## Make segments available to all your projects
+
+After you have saved the segment, you can choose to add it to your segment component list and make it available to all your projects. 
+
+1. Hover over the saved segment and select the pencil icon.
+
+1. At the top of the Segment Builder, notice this dialog:
+
+   ![](assets/project-only.png)
+
+1. Select the checkbox next to **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
+1. Click **[!UICONTROL Save]**.
+1. The segment will now appear in your segment component list for all your projects.
+1. You can also [share the segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+
+## Turn a quick segment into an ad-hoc segment
+
+1. Hover over the saved segment and select the pencil icon.
+
+1. At the top of the Segment Builder, click **[!UICONTROL Apply]**.
+
+For more information on ad-hoc segments, go [here](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)

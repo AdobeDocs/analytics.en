@@ -7,7 +7,7 @@ role: User, Admin
 
 # Quick segments
 
-You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). For a comparison of what quick segments can do vs. full-fledged component-level segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
 > Quick segments are currently in limited testing and are not generally available yet.
@@ -50,7 +50,7 @@ You can create quick segments within a project to bypass the complexity of the f
 You can choose to save quick segments by following these steps.
 
 >[!IMPORTANT]
->Once you save the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
+>Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
 
 1. Hover over the quick segment and select the info ("i") icon.
 1. Select **[!UICONTROL Save segment]**
@@ -59,13 +59,11 @@ You can choose to save quick segments by following these steps.
 
 1. Leave the name as is or rename the segment.
 
-1. Go back to Workspace and notice how the segment now has a blue sidebar, signaling that it is part of the component library.
+   Go back to Workspace and notice how the segment now has a blue sidebar. This indicates it can no longer be edited/opened in the Quick Segment Builder. And by saving it, it becomes part of the component list.
 
    ![](assets/quick-seg4.png)
 
-## Make segments available to all your projects
-
-After you have saved the segment, you can choose to add it to your segment component list and make it available to all your projects. 
+After you have applied the segment, you can choose to add it to your segment component list and make it available to all your projects. 
 
 1. Hover over the saved segment and select the pencil icon.
 
@@ -75,13 +73,9 @@ After you have saved the segment, you can choose to add it to your segment compo
 
 1. Select the checkbox next to **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
 1. Click **[!UICONTROL Save]**.
-1. The segment will now appear in your segment component list for all your projects.
-1. You can also [share the segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+1. The segment now appears in your segment component list for all your projects.
+1. You can also [share the segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) with other people in your organization.
 
-## Turn a quick segment into an ad-hoc segment
+## What are project-only segments?
 
-1. Hover over the saved segment and select the pencil icon.
-
-1. At the top of the Segment Builder, click **[!UICONTROL Apply]**.
-
-For more information on ad-hoc segments, go [here](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the segment builder then the project-only box will show up. If they APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the QS builder. If they check the box and SAVE it is now a component-list segment. 

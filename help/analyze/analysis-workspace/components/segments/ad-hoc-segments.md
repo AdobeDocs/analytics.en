@@ -7,11 +7,13 @@ role: User, Admin
 
 # Ad-hoc segments
 
-Here is a video on creating ad hoc segments:
+Here is a video on creating ad-hoc segments:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-You can create ad-hoc segments if you want to quickly explore how a segment might affect your project, without going to the Segment Builder. Think of these segments as temporary, project-level segments. They will typically not be part of your segment "library" like component segments in the left rail. However, you can make them public, as shown below.
+You can create ad-hoc segments if you want to quickly explore how a segment might affect your project, without going to the Segment Builder. Think of these segments as temporary, project-level segments. They will typically not be part of your segment "library" like component segments in the left rail. However, you can save them, as shown below.
+
+For a comparison of what ad-hoc segments can do vs. full-fledged component-level segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Drop any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the segment drop zone at the top of a panel. Component types are auto-converted into segments. 
    Here is an example of how to create a segment for the Twitter referring domain:
@@ -20,8 +22,8 @@ You can create ad-hoc segments if you want to quickly explore how a segment migh
 
    Your panel automatically gets this segment applied and you can instantly see the results. 
 
-1. Add up to 3 ad-hoc segments to a panel.
-1. If you decide that you want to save this segment, refer to the section "Make ad-hoc segments public".
+1. You can add an unlimited number of components to a panel.
+1. If you decide that you want to save this segment, refer to the section below.
 
 Keep in mind:
 
@@ -33,12 +35,12 @@ Keep in mind:
 >
 >Segments created this way are internal to the project.
 
-## Make ad-hoc segments public {#ad-hoc-public}
+## Save ad-hoc segments {#ad-hoc-save}
 
-You can choose to make these segments public (global) by following these steps:
+You can choose to save these segments by following these steps:
 
 1. Hover over the segment in the drop zone and click the "i" icon.
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. In the information panel that displays, click **[!UICONTROL Save]**.
 
    ![](assets/segment-info.png)
    

@@ -14,31 +14,31 @@ You can create quick segments within a project to bypass the complexity of the f
 
 ## Create quick segments
 
-1. In a Freeform table, click the filter+ icon in the panel header: 
+In a Freeform table, click the filter+ icon in the panel header: 
 
-   ![](assets/quick-seg1.png)
+![](assets/quick-seg1.png)
 
-   Note that:
+| Setting | Description |
+| --- | --- |
+| Name | The default name of a segment is a  |
+| Include/exclude | You can include or exclude components in your segment definition, but not both. |
+| Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+| Components (Dimension/metric/date range) | Define up to 3 rules by adding components dimensions and/or metrics and/or date ranges. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+| Operator | Use the drop-down menu to find standard operators like `contains`, and [!UICONTROL Distinct Count] operators. |
+| Plus (+) sign | Add another rule |
+| And/Or qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
+| Apply | Apply this segment to the panel. |
+| Open builder | Opens the Segment Builder. |
+| Cancel | Cancel this quick segment - don't apply it. |
+| Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment.  |
 
-   - There is one segment container only that lets you include a dimension/metric/date range in (or exclude it from) the segment.
-   - You can set the container to Hit, Visit, or Visitor level. Default is Hit.
+Here is an example of a segment that combines dimensions and metrics:
 
-1. Add a dimension/metric/date range in one of 3 ways:
+![](assets/quick-seg2.png)
 
-   - Start typing and the [!UICONTROL Quick Segment builder] automatically finds the appropriate component.
-   - Use the drop-down list to find the component.
-   - Drag and drop components from the left rail.
+The segment appears at the top. Notice its grey sidebar, as opposed to the blue sidebar for component-level segments in the segment library on the left.
 
-1. Specify the first rule, such as `Page equals workspace`. You can have up to three rules in a segment definitions. Just click the "+" sign to add another rule. You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. 
-
-   Here is an example of a segment that combines dimensions and metrics:
-
-   ![](assets/quick-seg2.png)
-
-1. Click **[!UICONTROL Apply]** to apply this segment to the panel. 
-   The segment appears at the top. Notice its grey sidebar, as opposed to the blue sidebar for component-level segments in the segment library on the left.
-
-   ![](assets/quick-seg3.png)
+![](assets/quick-seg3.png)
 
 ## Edit quick segments
 
@@ -47,7 +47,7 @@ You can create quick segments within a project to bypass the complexity of the f
 
 ## Save quick segments
 
-You can choose to save quick segments by following these steps.
+You can choose to save quick segments either in the Quick Segments builder or by following these steps.
 
 >[!IMPORTANT]
 >Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.

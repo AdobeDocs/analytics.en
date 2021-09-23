@@ -34,11 +34,11 @@ In a Freeform table, click the filter+ icon in the panel header:
 | Name | The default name of a segment is a combination of the rule names in the segment. You can rename the segment. |
 | Include/exclude | You can either include or exclude components in your segment definition, but not both. |
 | Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
-| Components (Dimension/metric/date range) | Define up to 3 rules by adding components dimensions and/or metrics and/or date ranges. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+| Components (Dimension/metric/date range) | Define up to 3 rules by adding components dimensions and/or metrics and/or date ranges and their values. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
 | Operator | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Plus (+) sign | Add another rule |
 | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
-| Apply | Apply this segment to the panel. |
+| Apply | Apply this segment to the panel. If the segment contains no data, you will be asked if you want to continue. |
 | Open builder | Opens the Segment Builder. Once you save the segment in the Segment Builder, it is no longer considered a "Quick Segment". It becomes part of the component-list segment library. |
 | Cancel | Cancel this quick segment - don't apply it. |
 | Date range | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
@@ -59,10 +59,21 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 
 ## Save quick segments
 
-You can choose to save quick segments either in the Quick Segments builder or by following these steps.
+You can choose to save quick segments either in the Quick Segment builder or in the Segment Builder.
 
 >[!IMPORTANT]
 >Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
+
+### Save in Quick Segment builder
+
+1. Once you have applied the quick segment, hover over it and select the info ("i") icon.
+1. Click **[!UICONTROL Make available to all projects and add to your component list]**.
+1. (Optional) Rename the segment.
+1. Click **[!UICONTROL Save]**.
+
+Notice how the segment's side bar changes from striped blue to blue. It now appears in your component list in the left rail.
+
+### Save in Segment Builder
 
 1. Hover over the quick segment and select the info ("i") icon.
 1. Select **[!UICONTROL Save segment]**

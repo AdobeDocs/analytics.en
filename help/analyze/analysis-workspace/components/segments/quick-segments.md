@@ -7,7 +7,7 @@ role: User, Admin
 
 # Quick segments
 
-You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). Quick segments allow for up to 3 rules and do not accommodate nested containers, or sequential segments.
 
 >[!IMPORTANT]
 > Quick segments are currently in limited testing and are not generally available yet.
@@ -20,7 +20,7 @@ In a Freeform table, click the filter+ icon in the panel header:
 
 | Setting | Description |
 | --- | --- |
-| Name | The default name of a segment is a  |
+| Name | The default name of a segment is a combination of the rules in the segment. You can rename the segment. |
 | Include/exclude | You can include or exclude components in your segment definition, but not both. |
 | Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
 | Components (Dimension/metric/date range) | Define up to 3 rules by adding components dimensions and/or metrics and/or date ranges. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
@@ -30,6 +30,7 @@ In a Freeform table, click the filter+ icon in the panel header:
 | Apply | Apply this segment to the panel. |
 | Open builder | Opens the Segment Builder. |
 | Cancel | Cancel this quick segment - don't apply it. |
+| Date range | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
 | Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment.  |
 
 Here is an example of a segment that combines dimensions and metrics:

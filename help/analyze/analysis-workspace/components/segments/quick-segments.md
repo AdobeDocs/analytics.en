@@ -101,4 +101,4 @@ After you have applied the segment, you can choose to add it to your segment com
 
 ## What are project-only segments?
 
-Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the Segment Builder, the project-only box will show up. If you APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the Quick Segment builder. If you check the box and SAVE, it is now a component-list segment. 
+Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the [!UICONTROL Segment Builder], the project-only box will show up. If you APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the [!UICONTROL Quick Segment Builder]. If you check the box and click **[!UICONTROL SAVE]**, it is now a component-list segment. 

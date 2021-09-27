@@ -8,6 +8,10 @@ exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 
 Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 
+Here is a video on component curation:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+
 >[!NOTE]
 >
 >Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](/help/analyze/analysis-workspace/curate-share/curate.md) allows for more fine-grained control over which components are visible.

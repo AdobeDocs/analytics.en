@@ -59,7 +59,7 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 
 ## Save quick segments
 
-You can choose to save quick segments either in the Quick Segment builder or in the Segment Builder.
+You can choose to save quick segments either in the [!UICONTROL Quick Segment Builder] or in the [!UICONTROL Segment Builder].
 
 >[!IMPORTANT]
 >Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.

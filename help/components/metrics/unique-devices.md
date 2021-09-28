@@ -23,8 +23,7 @@ Note that this metric is not equal to [Unique Visitors](unique-visitors.md) in n
 
 ![Unique Devices Count](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Viewing this data in a CDA virtual report suite before [Replay](/help/components/cda/replay.md) would show:
+Viewing this data in a CDA virtual report suite before [Replay](/help/components/cda/replay.md) potentially stitches unauthenticated hits would show:
 
 * **5 unique devices**: 1 for unauthenticated Bob + 2 for Bob + 1 for Alice + 1 for Charles
 * **4 [People](people.md)**: 1 [Unidentified People](unidentified-people.md) + 3 [Identified People](identified-people.md).
-

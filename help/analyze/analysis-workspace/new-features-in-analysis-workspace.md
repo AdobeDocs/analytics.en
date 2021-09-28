@@ -353,7 +353,7 @@ New features and enhancements released on May 10, 2018.
    <td colname="col2"> <p>We will provide Tips of the Day (along with a short video) in the bottom right-hand corner of the interface. These tips are meant to familiarize you with a multitude of cool Analysis Workspace features. You can choose to dismiss these Tips or access them through <span class="uicontrol"> Help </span> &gt; <span class="uicontrol"> Tips </span> at any time. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segment templates </a> and <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > calculated metrics templates </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Segment templates </a> and <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > calculated metrics templates </a></b> </p> </td> 
    <td colname="col2"> <p>The left rail now shows segment templates and calculated metrics templates. </p> </td> 
   </tr> 
   <tr> 
@@ -599,7 +599,7 @@ New features released on October 26, 2017.
    <td colname="col2"> <p>You can now easily toggle between time granularities when the dimension in the data source is a time dimension. You can switch granularities from a drop-down in the visualization settings. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Full dimensions &amp; events in segment drop zone </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Full dimensions &amp; events in segment drop zone </a> </p> </td> 
    <td colname="col2"> <p>Previously, you could drop only dimension items, date ranges, or segments into segment drop zones. You can now drop a full dimension or event into the segment drop zone. In both cases, Analysis Workspace will create "exists" hit segments. </p> <p>Examples: "Hit where eVar1 exists" or "Hit where event1 exists". </p> <p>Note:  You cannot drop calculated metrics into a segment zone. Only those dimensions/metrics for which you can build segments qualify for the segment zone. </p> </td> 
   </tr> 
   <tr> 
@@ -929,7 +929,7 @@ New feature released on January 19, 2017:
    <td colname="col2"> <p>Added support for Fallout visualization in CSV format. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Date ranges in segments </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Date ranges in segments </a> </p> </td> 
    <td colname="col2"> <p>You can drop date ranges on segment drop zones (for example, panel segment drop zones, Fallout visualization segment drop zones, and so on.). The date ranges are auto-converted into segments. The date ranges can be custom and non-custom but not granularities like hour/day/week/month/quarter/year. </p> </td> 
   </tr> 
   <tr> 
@@ -1052,7 +1052,7 @@ New features released on June 16, 2016:
 * [Trend Selection](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (line chart) on a ranked table is now linked.
 * ["Create Visual" icon](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): clicking this icon provides an intelligent guess at your next action (bar chart, Venn...).
 * Expanded [Manual Rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) functionality 
-* [Add Segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md) drop zone 
+* [Add Segment](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) drop zone 
 * Minor Updates:
 
     * Ability to delete all visualizations in a panel, and all panels in a project. (Previously, you had to keep at least one visualization or one panel.) 

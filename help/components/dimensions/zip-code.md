@@ -24,7 +24,7 @@ The [!UICONTROL Zip option] under [General account settings](/help/admin/admin/g
 
 Dimension items include the zip or postal code of the visitor.
 
-## Which countries' postal codes can you report on in Adobe Analytics?
+## Supported postal code countries
 
 * Aland Islands
 * Albania

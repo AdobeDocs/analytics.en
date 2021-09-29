@@ -9,10 +9,10 @@ role: User, Admin
 
 You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Quick segments
 
-* Apply to specific projects only (you can change this). 
-* Allow for up to 3 rules
+* Apply only to projects in which they were created (you can change this). 
+* Allow for up to 3 rules.
 * Do not accommodate nested containers, or sequential rules.
-* Do work in panels with multiple report suites
+* Do work in projects with multiple report suites.
 
 For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). 
 

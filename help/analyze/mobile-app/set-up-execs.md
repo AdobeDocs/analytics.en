@@ -9,15 +9,20 @@ role: User, Admin
 
 In some cases, executive users may need some additional assistance to access and use the app. This section provides information to help you provide that assistance.
 
-## Executive users' system prerequisites
+## Ensure app users have Adobe Analytics access
+
+1. Set up new users in the [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md).
+
+1. To be able to share scorecards, you must grant app users permissions to access scorecard components such as Analysis Workspace, the report suites that scorecards are based on, as well as segments, metrics and dimensions.
+
+## App users' system prerequisites
 
 To ensure that executive users have access to your scorecards on the app, make sure that:
 
 * The minimum mobile OS requirements on their devices are iOS version 10 or higher, or Android version 4.4 (KitKat) or higher
-* They have a valid login into Adobe Analytics
-* You have correctly created mobile Scorecards for them and have shared these Scorecards with them
-* They have access to Analysis Workspace and the report suite that the Scorecard is based on
-* They have access to the Components that the Scorecard includes. Note that you can select an option when sharing your Scorecards to **[!UICONTROL Share embedded components]**.
+* They have a valid login into Adobe Analytics.
+* You have correctly created mobile scorecards for them and have shared these scorecards with them.
+* They have access to the Components that the scorecard includes. Note that you can select an option when sharing your scorecards to **[!UICONTROL Share embedded components]**.
 
 ## Help executives download and install app
 

@@ -9,7 +9,7 @@ role: User, Admin
 
 You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Quick segments
 
-* Apply only to projects in which they were created (you can change this). 
+* Apply only to projects in which they were created (you can change this).
 * Allow for up to 3 rules.
 * Do not accommodate nested containers, or sequential rules.
 * Do work in projects with multiple report suites.
@@ -21,7 +21,7 @@ For a comparison of what quick segments can do vs. full-fledged component-list s
 
 ## Prerequisites
 
-Users need the [!UICONTROL Segment Creation] permission in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) to be able to create quick segments.
+Anyone can create a [!UICONTROL Quick Segment]. However, you need the[!UICONTROL Segment Creation] permission in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) to be able to save a quick segments or to open it in the [!UICONTROL Segment Builder].
 
 ## Create quick segments
 
@@ -50,7 +50,7 @@ Here is an example of a segment that combines dimensions and metrics:
 
 The segment appears at the top. Notice its blue-striped sidebar, as opposed to the blue sidebar for component-level segments in the segment library on the left.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Edit quick segments
 
@@ -67,24 +67,15 @@ You can choose to save quick segments either in the [!UICONTROL Quick Segment Bu
 ### Save in Quick Segment builder
 
 1. Once you have applied the quick segment, hover over it and select the info ("i") icon.
+
+   ![](assets/quick-seg6.png)
+
 1. Click **[!UICONTROL Make available to all projects and add to your component list]**.
 1. (Optional) Rename the segment.
 1. Click **[!UICONTROL Save]**.
 
 Notice how the segment's side bar changes from striped blue to blue. It now appears in your component list in the left rail.
 
-### Save in Segment Builder
-
-1. Hover over the quick segment and select the info ("i") icon.
-1. Select **[!UICONTROL Save segment]**
-
-   ![](assets/save-quick-seg.png)
-
-1. Leave the name as is or rename the segment.
-
-   Go back to Workspace and notice how the segment now has a blue sidebar. This indicates it can no longer be edited/opened in the Quick Segment Builder. And by saving it, it becomes part of the component list.
-
-   ![](assets/quick-seg4.png)
 
 After you have applied the segment, you can choose to add it to your segment component list and make it available to all your projects. 
 

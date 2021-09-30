@@ -55,7 +55,8 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 ## Edit quick segments
 
 1. Hover over the quick segment and select the pencil icon.
-1. Edit the segment definition or the segment name.
+1. Edit the segment definition and/or the segment name.
+1. Click [!UICONTROL Apply].
 
 ## Save quick segments
 

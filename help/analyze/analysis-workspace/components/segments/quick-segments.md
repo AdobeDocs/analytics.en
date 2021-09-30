@@ -59,12 +59,8 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 
 ## Save quick segments
 
-You can choose to save quick segments either in the [!UICONTROL Quick Segment Builder] or in the [!UICONTROL Segment Builder].
-
 >[!IMPORTANT]
 >Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
-
-### Save in Quick Segment builder
 
 1. Once you have applied the quick segment, hover over it and select the info ("i") icon.
 
@@ -75,20 +71,6 @@ You can choose to save quick segments either in the [!UICONTROL Quick Segment Bu
 1. Click **[!UICONTROL Save]**.
 
 Notice how the segment's side bar changes from striped blue to blue. It now appears in your component list in the left rail.
-
-
-After you have applied the segment, you can choose to add it to your segment component list and make it available to all your projects. 
-
-1. Hover over the saved segment and select the pencil icon.
-
-1. At the top of the Segment Builder, notice this dialog:
-
-   ![](assets/project-only.png)
-
-1. Select the checkbox next to **[!UICONTROL Make this segment available to all your projects and add it to your component list.]**
-1. Click **[!UICONTROL Save]**.
-1. The segment now appears in your segment component list for all your projects.
-1. You can also [share the segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) with other people in your organization.
 
 ## What are project-only segments?
 

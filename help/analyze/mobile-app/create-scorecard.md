@@ -20,15 +20,15 @@ To create the Scorecard, you will need to do the following:
 1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Configure the Scorecard with data and save it.
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+## Access the [!UICONTROL Blank Mobile Scorecard] template
 
 You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **Create a new project**
 
 1. Open Adobe Analytics and click the **[!UICONTROL Workspace]** tab.
-2. Click **[!UICONTROL Create project]** and select the **[!UICONTROL Blank mobile scorecard]** project template.
-3. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Create project]** and select the **[!UICONTROL Blank mobile scorecard]** project template.
+1. Click **[!UICONTROL Create]**.
 
 ![Scorecard template](assets/new_template.png)
 
@@ -37,7 +37,7 @@ Or
 1. From the **[!UICONTROL Tools]** menu select **[!UICONTROL Analytics dashboards (Mobile App)]**.
 1. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
-### Configure the scorecard with data and save it
+## Configure the scorecard with data and save it
 
 To implement the Scorecard template:
 
@@ -45,7 +45,7 @@ To implement the Scorecard template:
 
     ![Report suite selection](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. You can also insert a metric between two tiles using a similar workflow.
+1. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. You can also insert a metric between two tiles using a similar workflow.
 
     ![Add tiles](assets/build_list.png)
 
@@ -53,7 +53,7 @@ To implement the Scorecard template:
     *From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.*
 
 
-3. To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. You can add multiple dimensions to each tile.
+1. To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. You can add multiple dimensions to each tile.
 
     ![Add dimensions](assets/layer_dimensions.png)
 
@@ -67,15 +67,15 @@ To implement the Scorecard template:
 
     Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
-4. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard. Or, you can also apply segments by selecting segments in the filter menu beneath the date ranges. You [configure and apply filters for your Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) the same way you would in Adobe Analytics Workspace.
+1. To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. If you want to apply the segment to all the tiles in the Scorecard, drop the tile on top of the scorecard. Or, you can also apply segments by selecting segments in the filter menu beneath the date ranges. You [configure and apply filters for your Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) the same way you would in Adobe Analytics Workspace.
 
     ![Build segments for filter](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
+1. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
 
     ![Remove_components](assets/new_remove.png)
 
-6. Add and remove date range combinations that can be selected in your scorecard by selecting the date range drop down.
+1. Add and remove date range combinations that can be selected in your scorecard by selecting the date range drop down.
 
     ![New score card](assets/new_score_card.png)
 
@@ -95,7 +95,7 @@ To implement the Scorecard template:
 
     ![New score card4](assets/new_score_card5.png)
 
-7. This will take you to the date range builder where you can create and save a new date range component. To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
+1. This will take you to the date range builder where you can create and save a new date range component. To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
 
     ![Naming_Scorecards](assets/new_name.png)
 
@@ -105,17 +105,17 @@ To share the Scorecard with an executive user:
 
 1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+1. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
     * Providing the name of the Scorecard
     * Providing a description of the Scorecard
     * Adding relevant tags
     * Specifying the recipients for the Scorecard
 
-3. Click **[!UICONTROL Share]**.
+1. Click **[!UICONTROL Share]**.
 
 ![Share_Scorecards](assets/new_share.png)
 
-After you have shared a Scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the Scorecard in the Scorecard Builder, they will be automatically updated in the shared Scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
+After you have shared a scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the scorecard in the Scorecard Builder, they will be automatically updated in the shared scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
 If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **[!UICONTROL Share embedded components]** option) in order to make sure that your executive users have access to these changes.

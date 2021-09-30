@@ -41,18 +41,18 @@ Once downloaded and installed, executive users can sign into the app using their
 
 1. Have executive users sign into the app.
 
-   The **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which the executive user belongs. To help them get to the Scorecard:
+   The **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which the executive user belongs.
 
 1. Have them tap the name of the login company or Experience Cloud Org that applies to the scorecard you shared. 
 
    The Scorecard list then shows all scorecards that have been shared with the executive under that login company.
+
 1. Have them sort this list by **[!UICONTROL Most recently modified]**, if applicable.
 
 1. Have them tap the name of the Scorecard to view it.
 
     ![Choose a company](assets/accesscard.png)
 
->[!IMPORTANT]If the executive user logs in and sees a message saying that nothing has been shared: 1) The executive user may have selected the wrong Analytics instance, or 2) The scorecard may not have been shared with the executive user. Verify that the executive user can log into the right Adobe Analytics instance and that the scorecard has been shared. 
 
 ### Explain scorecard UI
 
@@ -65,11 +65,11 @@ Explain to the executive user how tiles appear in the scorecards you share.
 Additional information on tiles:
 
 * The granularity of the sparklines is dependent on the length of the date range:
-  * One day shows an hourly trend
-    * More than one day and less than a year shows a daily trend
-    * One year or more shows a weekly trend
-    * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
-    * You can pull the screen down to refresh the Scorecard.
+* One day shows an hourly trend
+  * More than one day and less than a year shows a daily trend
+  * One year or more shows a weekly trend
+  * Percent value change formula is metric total (current date range) – metric total (comparison date range) / metric total (comparison date range).
+  * You can pull the screen down to refresh the Scorecard.
 
 
 1. Tap a tile to show how a detailed breakdown for the tile works.
@@ -80,29 +80,40 @@ Additional information on tiles:
 
     * A table is included to display data of dimensions added to the tile. Tap the down arrow to select dimensions. If no dimension was added to the tile, the table displays chart data.
 
-5. To change date ranges for your Scorecard, tap the Date header and select the primary and comparison date range combination you want to view.
+1. To change date ranges for your Scorecard, tap the Date header and select the primary and comparison date range combination you want to view.
 
     ![Change dates](assets/changedate.png)
 
-6. To leave feedback on this app:
+## Change app preferences
 
-    1. Tap the settings icon in the upper right of the app screen.
-    2. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
-    3. Tap to view the options for leaving feedback.
+To change preferences, tap the **[!UICONTROL Preferences]** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
 
-        ![Settings screen](assets/settings.png)
+![Dark mode](assets/darkmode.png)
 
-7. To change preferences, tap the **[!UICONTROL Preferences]** option shown above. In preferences, you can turn on biometric login or you can set the app for dark mode as shown below:
+## Troubleshooting
 
-    ![Dark mode](assets/darkmode.png)
+If the executive user logs in and sees a message saying that nothing has been shared:
 
-## Bugs, improvements, questions
+![Nothing shared](assets/nothing.png)
+
+*  The executive user may have selected the wrong Analytics instance, or
+*  The scorecard may not have been shared with the executive user. 
+
+Verify that the executive user can log into the right Adobe Analytics instance and that the scorecard has been shared. 
 
 ### Report a bug
 
 Tap the option and choose a sub-category of the bug. In the form for reporting a bug, provide your email address in the top field and your description of the bug in the field below it. A screen shot of your account info is automatically attached to the message, but you can delete this if you want by tapping the **X** in the attachment image. You also have options for taking a screen recording, adding more screenshots, or attaching files. To send the report, tap the paper plane icon in the upper right of the form.
 
 ![Report bug](assets/newbug.png)
+
+### Leave feedback
+
+1. Tap the settings icon in the upper right of the app screen.
+1. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
+1. Tap to view the options for leaving feedback.
+
+   ![Settings screen](assets/settings.png)
 
 ### Suggest an improvement
 

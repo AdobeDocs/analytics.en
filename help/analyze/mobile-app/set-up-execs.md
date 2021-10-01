@@ -42,7 +42,7 @@ Once downloaded and installed, executive users can sign into the app using their
 
 ![App welcome screen](assets/welcome.png)
 
-## Help executives access your Scorecard 
+## Help executives access your scorecard 
 
 1. Have executive users sign into the app.
 

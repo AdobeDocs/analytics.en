@@ -17,7 +17,7 @@ You can create quick segments within a project to bypass the complexity of the f
 For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). 
 
 >[!IMPORTANT]
-> Quick segments are currently in limited testing and are not generally available yet.
+> Quick segments are currently in limited testing and will be generally available on October 21, 2021.
 
 ## Prerequisites
 

@@ -22,7 +22,7 @@ As a curator of this scorecard, you can use the Scorecard Builder to configure w
 To create the Scorecard, you need to do the following:
 
 1. Access the [!UICONTROL Blank Mobile Scorecard] template.
-2. Configure the Scorecard with data and save it.
+2. Configure the scorecard with data and save it.
 
 ## Access the [!UICONTROL Blank Mobile Scorecard] template
 
@@ -36,10 +36,10 @@ You can access the [!UICONTROL Blank Mobile Scorecard] template either by creati
 
 ![Scorecard template](assets/new_template.png)
 
-### Tools template
+### Tools menu
 
-1. From the **[!UICONTROL Tools]** menu select **[!UICONTROL Analytics dashboards (Mobile App)]**.
-1. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+1. From the **[!UICONTROL Tools]** menu, select **[!UICONTROL Analytics dashboards (Mobile App)]**.
+1. On the subsequent screen, click **[!UICONTROL Create new scorecard]**.
 
 ## Configure the scorecard with data and save it
 
@@ -54,29 +54,15 @@ To implement the Scorecard template:
     ![Add tiles](assets/build_list.png)
 
 
-    *From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.*
+1. From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.
 
 ### Add dimensions or metrics
 
-To add a related dimension to a metric:
+To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. 
 
-Drag a dimension from the left panel and drop it onto a tile. 
-
-For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. You can add multiple dimensions to each tile.
+For example, you can add appropriate dimensions (like **[!DNL Marketing Channel]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile. Dimensions breakdowns appear under the [!UICONTROL Drill Ins] (breakdown) section of the tile-specific **[!UICONTROL Properties]**. You can add multiple dimensions to each tile.
 
 ![Add dimensions](assets/layer_dimensions.png)
-
-### View and configure tile properties
-
-When you click a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new **[!UICONTROL Title]** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail.
-
-![Properties tile](assets/properties_tile.png)
-
-Also, if you click on tiles, a dynamic pop up will display how the Breakdown view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be **hour** or **days**, depending on the default date range.
-
-![Breakdown_view](assets/break_view.png)
-
-Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
 ### Apply segments
 
@@ -86,13 +72,7 @@ If you want to apply the segment to all the tiles in the Scorecard, drop the til
 
 ![Build segments for filter](assets/segment_ui.png)
 
-### Remove components
-
-Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
-
-![Remove_components](assets/new_remove.png)
-
-### Date ranges
+### Add date ranges
 
 Add and remove date range combinations that can be selected in your scorecard by selecting the date range drop down.
 
@@ -116,13 +96,57 @@ If the date range you want hasn’t been created yet, you can create a new one b
 
 This will take you to the date range builder where you can create and save a new date range component. 
 
+### Apply visualizations
+
+Analytics dashboards now offers four visualizations that offer great insight into dimension items. Apply a different visualization by changing the [!UICONTROL chart type] of a tile's properties:
+
+![Tile properties](assets/properties.png)
+
+**[!UICONTROL Donut] visualization**
+
+Similar to a pie chart, this visualization shows data as parts or segments of a whole. Use a donut graph when comparing percentages of a total. For example, let's say you want to see which ad platform contributed to the total number of unique visitors:
+
+![Donut visualization](assets/donut-viz.png)
+
+**[!UICONTROL Line] visualization**
+
+The Line visualization represents metrics using a line in order to show how values change over a period of time. A Line chart can be used only when time is used as a dimension.
+
+**[!UICONTROL Horizontal Bar] visualization**
+
+This visualization shows horizontal bars representing various values across one or more metrics.
+
+### View and configure tile properties
+
+When you click a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new **[!UICONTROL Title]** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail.
+
+![Properties tile](assets/properties_tile.png)
+
+When you click on tiles, a dynamic pop up displays how the Drill ins (Breakdown) view appears to the executive user in the app. If no dimension has been applied to the tile, the breakdown dimension will be **hour** or **days**, depending on the default date range.
+
+Breakdowns refine your analysis by literally breaking down metrics and dimensions by other metrics and dimensions, such as in this retail example:
+
+* Unique Visitors metric broken down by Ad Platform (AMO ID)
+* Visits broken down by Product Category (Retail)
+* Total Revenue broken down by Product Name
+
+![Breakdown_view](assets/break_view.png)
+
+Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
+
+### Remove components
+
+Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
+
+![Remove_components](assets/new_remove.png)
+
 ## Name a scorecard
 
 To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Share the scorecard
+## Share a scorecard
 
 To share the Scorecard with an executive user:
 
@@ -130,10 +154,10 @@ To share the Scorecard with an executive user:
 
 1. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
-    * Providing the name of the Scorecard
-    * Providing a description of the Scorecard
+    * Providing the name of the scorecard
+    * Providing a description of the scorecard
     * Adding relevant tags
-    * Specifying the recipients for the Scorecard
+    * Specifying the recipients for the scorecard
 
 1. Click **[!UICONTROL Share]**.
 
@@ -141,4 +165,4 @@ To share the Scorecard with an executive user:
 
 After you have shared a scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the scorecard in the Scorecard Builder, they will be automatically updated in the shared scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **[!UICONTROL Share embedded components]** option) in order to make sure that your executive users have access to these changes.
+If you update the scorecard by adding new components, you may want to share the scorecard again (and check the **[!UICONTROL Share embedded components]** option) in order to make sure that your executive users have access to these changes.

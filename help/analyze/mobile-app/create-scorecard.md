@@ -98,9 +98,19 @@ This will take you to the date range builder where you can create and save a new
 
 ### Apply visualizations
 
-Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's properties:
+Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's [!UICONTROL Properties]. Just select the right tile and then change the chart type.
 
 ![Tile properties](assets/properties.png)
+
+Or, click the [!UICONTROL Visualizations] icon in the left rail and drag and drop the right visualization onto the tile:
+
+![Visualizations](assets/vizs.png)
+
+**[!UICONTROL Summary Number]**
+
+Use the Summary Number visualization to highlight a large number that is important in a project. 
+
+![Summary number](assets/sparkline.png)
 
 **[!UICONTROL Donut] visualization**
 
@@ -112,11 +122,25 @@ Similar to a pie chart, this visualization shows data as parts or segments of a 
 
 The Line visualization represents metrics using a line in order to show how values change over a period of time. A Line chart can be used only when time is used as a dimension.
 
+![Line visualization](assets/line.png)
 
 
 **[!UICONTROL Horizontal Bar] visualization**
 
-This visualization shows horizontal bars representing various values across one or more metrics.
+This visualization shows horizontal bars representing various values across one or more metrics. For example, to easily see what your top products are, use [!UICONTROL Horizontal Bar] for your preferred visualization.
+
+![horizontal bar](assets/horizontal.png)
+
+**Remove [!UICONTROL Unspecified]**
+
+If you want to remove [!UICONTROL Unspecified] dimension items from your data, do the following:
+
+1. Select the correct tile.
+1. In the right rail, under **[!UICONTROL Drill ins]**, select the right-arrow next to the dimension item whose **[!UICONTROL Unspecified]** items you want to remove.
+
+    ![unspecified](assets/unspecified.png)
+
+1. Click the icon next to **[!UICONTROL Unspecified]** to remove unspecified data from your reporting.
 
 ### View and configure tile properties
 

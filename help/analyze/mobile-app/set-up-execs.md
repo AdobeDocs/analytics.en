@@ -106,28 +106,6 @@ If the executive user logs in and sees a message saying that nothing has been sh
 
 Verify that the executive user can log into the right Adobe Analytics instance and that the scorecard has been shared. 
 
-### Report a bug
-
-Tap the option and choose a sub-category of the bug. In the form for reporting a bug, provide your email address in the top field and your description of the bug in the field below it. A screen shot of your account info is automatically attached to the message, but you can delete this if you want by tapping the **X** in the attachment image. You also have options for taking a screen recording, adding more screenshots, or attaching files. To send the report, tap the paper plane icon in the upper right of the form.
-
-![Report bug](assets/newbug.png)
-
-### Leave feedback
-
-1. Tap the settings icon in the upper right of the app screen.
-1. On the **[!UICONTROL Settings]** screen, tap the **[!UICONTROL Feedback]** option.
-1. Tap to view the options for leaving feedback.
-
-   ![Settings screen](assets/settings.png)
-
-### Suggest an improvement
-
-Tap the option and choose a sub-category for the suggestion. In the suggestion form, provide your email address in the top field and your description of the bug in the field below it. A screen shot of your account info is automatically attached to the message, but you can delete this if you want by tapping the **X** in the attachment image. You also have options for taking a screen recording, adding more screenshots, or attaching files. To send the suggestion, tap the paper plane icon in the upper right of the form.
-
-### Ask a question
-
-Tap the option and provide your email address in the top field and your question in the field below it. A screen shot is automatically attached to the message, but you can delete this if you want by tapping the **X** in the attachment image. You also have options for taking a screen recording, adding more screenshots, or attaching files. To send the question, tap the paper plane icon in the upper right of the form.
-
 >[!IMPORTANT]
 >
 >Starting in October 2020, Adobe is gradually rolling out a series of enhancements to optimize the performance of the “Adobe Analytics dashboards” app. These enhancements center on caching historic Analytics data that is used to populate scorecards with dates (excluding the current day). This data will be cached for up to 24 hours in a secure Microsoft Azure public cloud storage account. Please contact your CSM if you would like to opt out of these performance enhancement features.

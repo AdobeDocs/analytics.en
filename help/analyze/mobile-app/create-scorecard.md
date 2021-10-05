@@ -98,7 +98,7 @@ This will take you to the date range builder where you can create and save a new
 
 ### Apply visualizations
 
-Analytics dashboards now offers four visualizations that offer great insight into dimension items. Apply a different visualization by changing the [!UICONTROL chart type] of a tile's properties:
+Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's properties:
 
 ![Tile properties](assets/properties.png)
 
@@ -111,6 +111,8 @@ Similar to a pie chart, this visualization shows data as parts or segments of a 
 **[!UICONTROL Line] visualization**
 
 The Line visualization represents metrics using a line in order to show how values change over a period of time. A Line chart can be used only when time is used as a dimension.
+
+
 
 **[!UICONTROL Horizontal Bar] visualization**
 

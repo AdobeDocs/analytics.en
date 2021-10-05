@@ -56,7 +56,7 @@ To implement the Scorecard template:
 
 1. From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.
 
-### Add dimensions or metrics
+## Add dimensions or metrics
 
 To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. 
 
@@ -64,7 +64,7 @@ For example, you can add appropriate dimensions (like **[!DNL Marketing Channel]
 
 ![Add dimensions](assets/layer_dimensions.png)
 
-### Apply segments
+## Apply segments
 
 To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. 
 
@@ -72,7 +72,7 @@ If you want to apply the segment to all the tiles in the Scorecard, drop the til
 
 ![Build segments for filter](assets/segment_ui.png)
 
-### Add date ranges
+## Add date ranges
 
 Add and remove date range combinations that can be selected in your scorecard by selecting the date range drop down.
 
@@ -96,7 +96,7 @@ If the date range you want hasn’t been created yet, you can create a new one b
 
 This will take you to the date range builder where you can create and save a new date range component. 
 
-### Apply visualizations
+## Apply visualizations
 
 Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's [!UICONTROL Properties]. Just select the right tile and then change the chart type.
 
@@ -142,7 +142,7 @@ If you want to remove [!UICONTROL Unspecified] dimension items from your data, d
 
 1. Click the icon next to **[!UICONTROL Unspecified]** to remove unspecified data from your reporting.
 
-### View and configure tile properties
+## View and configure tile properties
 
 When you click a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new **[!UICONTROL Title]** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail.
 
@@ -160,7 +160,7 @@ Breakdowns refine your analysis by literally breaking down metrics and dimension
 
 Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
-### Remove components
+## Remove components
 
 Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
 

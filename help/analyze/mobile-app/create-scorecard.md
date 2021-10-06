@@ -120,7 +120,7 @@ Similar to a pie chart, this visualization shows data as parts or segments of a 
 
 **[!UICONTROL Line] visualization**
 
-The Line visualization represents metrics using a line in order to show how values change over a period of time. A Line chart can be used only when time is used as a dimension.
+The Line visualization represents metrics using a line in order to show how values change over a period of time. A line chart shows dimensions over time but works with any visualization. You are visualizing the product category dimension in this example.
 
 ![Line visualization](assets/line.png)
 
@@ -131,7 +131,7 @@ This visualization shows horizontal bars representing various values across one 
 
 ![horizontal bar](assets/horizontal.png)
 
-**Remove [!UICONTROL Unspecified]**
+**Remove [!UICONTROL Unspecified] dimension items**
 
 If you want to remove [!UICONTROL Unspecified] dimension items from your data, do the following:
 
@@ -140,7 +140,7 @@ If you want to remove [!UICONTROL Unspecified] dimension items from your data, d
 
     ![unspecified](assets/unspecified.png)
 
-1. Click the icon next to **[!UICONTROL Unspecified]** to remove unspecified data from your reporting.
+1. Click the icon next to **[!UICONTROL Unspecified]** to remove unspecified data from your reporting. (You can also remove any other dimension item.)
 
 ## View and configure tile properties
 

@@ -306,8 +306,8 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
 + Adobe Analytics dashboards {#mobapp}
   + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
   + [Curator intro](mobile-app/curator.md)
-  + [Create a scorecard](mobile-app/create-scorecard.md)
-  + [Set up executives to use scorecards](mobile-app/set-up-execs.md)
+  + [Create a mobile scorecard](mobile-app/create-scorecard.md)
+  + [Set up executives to use dashboards](mobile-app/set-up-execs.md)
   + [Executive user quick start guide](mobile-app/executive.md)
 + [Reporting API](reporting-api.md)
 + [Labs](labs.md)

@@ -16,6 +16,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **October 2021** |  |
+| October 7, 2021 | New documentation on [visualizations for mobile scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **August 2021**|  |
 | August 18, 2021 | Revised top-level structure and consolidated to a single [Landing page](https://experienceleague.adobe.com/docs/analytics.html) |
 | August 18, 2021 | New topic on [A4T and virtual report suites](/help/components/vrs/vrs-a4t.md) |

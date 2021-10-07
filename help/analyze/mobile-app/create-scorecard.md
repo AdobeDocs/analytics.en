@@ -1,13 +1,13 @@
 ---
 description: How to create an Adobe Analytics dashboards scorecard
-title: Create a scorecard
+title: Create a mobile scorecard
 feature: Analytics Dashboards
 role: User, Admin
 ---
 
-# Create a scorecard
+# Create a mobile scorecard
 
-The following information instructs curators of Adobe Analytics data on how to configure and present dashboards for executive users. To start with, you can view the Adobe Analytics dashboards Scorecard Builder video:
+The following information instructs curators of Adobe Analytics data on how to configure and present mobile scorecards for executive users. To start with, you can view the Adobe Analytics dashboards Scorecard Builder video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -97,6 +97,10 @@ If the date range you want hasn’t been created yet, you can create a new one b
 This will take you to the date range builder where you can create and save a new date range component. 
 
 ## Apply visualizations
+
+View a video on visualizations for mobile scorecards:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's [!UICONTROL Properties]. Just select the right tile and then change the chart type.
 

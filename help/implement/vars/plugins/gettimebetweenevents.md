@@ -84,18 +84,18 @@ Calling this function returns an integer representing the amount of time between
 // The timer stops and resets when the events variable contains event2
 // The timer resets when the events variable contains event3 or the visitor closes their browser
 // Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
 
 // The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
 // The timer records a "lap" when the events variable contains event2. It does not stop the timer.
 // The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
 // The timer is stored in a cookie labeled "s_20"
 // Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
-s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+s.eVar4 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
 
 // Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
 // The timer expires after 1 day.
-s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
+s.eVar4 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
 
 ## Version History

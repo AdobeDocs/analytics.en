@@ -83,3 +83,21 @@ source,destination
 /docs/analytics/implementation/javascript-implementation/data-collection/opt-out.html,/docs/analytics/implementation/js/opt-out.html
 /docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html,/docs/analytics/implementation/vars/page-vars/page-variables.html
 /docs/analytics/implementation/javascript-implementation/function-tl.html,/docs/analytics/implementation/vars/functions/tl-method.html
+/docs/analytics/implementation/javascript-implementation/data-collection/query-parameters.html,/docs/analytics/implementation/validate/query-parameters.html
+/docs/analytics/implementation/javascript-implementation/plugins/getpercentpageviewed.html, /docs/analytics/implementation/vars/plugins/getpercentpageviewed.html
+/docs/analytics/implementation/javascript-implementation/plugins/performancetiming.html,/docs/analytics/implementation/vars/plugins/impl-plugins.html
+/docs/analytics/components/variables/metrics/metrics-visit.html,/docs/analytics/components/metrics/visits.html
+/docs/analytics/components/variables/metrics/metric-visitors-mcid.html,/docs/analytics/components/metrics/visitors-with-ecid.html
+/docs/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-js-file.html,/docs/analytics/implementation/js/overview.html
+/docs/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html,/docs/analytics/implementation/launch/overview.html
+/docs/analytics/analyze/analytics-reporting-api/api-comparison.html,/docs/analytics/analyze/reporting-api.html
+/docs/analytics/components/variables/dimensions-reports/reports-products.html,/docs/analytics/components/dimensions/product.html
+/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html,/docs/core-services/interface/services/customer-attributes/attributes.html
+/docs/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html,/docs/analytics/implementation/vars/page-vars/evar.html
+/docs/analytics/implementation/javascript-implementation/plugins/getqueryparam.html,/docs/analytics/implementation/vars/plugins/getqueryparam.html
+/docs/analytics/implementation/javascript-implementation/event-serialization.html,/docs/analytics/implementation/vars/page-vars/events/event-serialization.html
+/docs/analytics/analyze/analytics-reporting-api/api-comparison.html#analytics-reporting-api,/docs/analytics/analyze/reporting-api.html
+/docs/analytics/technotes/escalations.html,/docs/analytics/technotes/event/overview.html
+/docs/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html,/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html
+/docs/analytics/components/variables/dimensions-reports/reports-device-types.html,/docs/analytics/components/dimensions/mobile-dimensions.html
+/docs/analytics/implementation/javascript-implementation/redirects-overview.html,/docs/analytics/technotes/redirects.html

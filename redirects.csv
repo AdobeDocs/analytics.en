@@ -70,3 +70,16 @@ source,destination
 /docs/analytics/technotes/visitor-identification.html,/docs/analytics/components/metrics/unique-visitors.html
 /docs/analytics/implementation/analytics-basics/traffic-props-evars/props-vs-evars.html,/docs/analytics/components/dimensions/evar.html
 /docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html,/docs/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html
+/docs/analytics/analyze/report-builder/whats-new-arb.html,/docs/analytics/analyze/report-builder/home.html
+/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html, /docs/analytics/implementation/js/overview.html
+/docs/analytics/export/analytics-data-feed/get-started/data-feed-overview.html,/docs/analytics/export/analytics-data-feed/data-feed-overview.html
+/docs/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html, /docs/analytics/implementation/appmeasurement-updates.html
+/docs/analytics/implementation/testing-and-validation/debugger.html,/docs/debugger/using/experience-cloud-debugger.html
+/docs/analytics/components/marketing-channels/r-channel-rule-definitions.html,/docs/analytics/components/marketing-channels/c-channels.html
+/docs/analytics/components/variables/dimensions-reports/reports-tracking-codes.html,/docs/analytics/components/dimensions/tracking-code.html
+/docs/analytics/components/variables/metrics/metrics-time-spent.html,/docs/analytics/components/metrics/time-spent.html
+/docs/analytics/implementation/javascript-implementation/unique-visitors/visid-overview.html,/docs/analytics/implementation/js/xdevice-visid/xdevice-connecting.html
+/docs/analytics/components/variables/metrics/metrics-overview.html,/docs/analytics/components/metrics/overview.html
+/docs/analytics/implementation/javascript-implementation/data-collection/opt-out.html,/docs/analytics/implementation/js/opt-out.html
+/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html,/docs/analytics/implementation/vars/page-vars/page-variables.html
+/docs/analytics/implementation/javascript-implementation/function-tl.html,/docs/analytics/implementation/vars/functions/tl-method.html

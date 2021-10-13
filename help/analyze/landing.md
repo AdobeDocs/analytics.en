@@ -156,7 +156,7 @@ To create a new Company report,
 
 1. Add all desired fields to the modal and save it.
 
-   The report is added to the Company Reports list and is available to those in your company. 
+   The report is added to the Company Reports list and is available to those in your login company. 
 
 More learning options:
 

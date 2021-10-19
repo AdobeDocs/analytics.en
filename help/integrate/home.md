@@ -13,6 +13,7 @@ Configure integrations with other Adobe Experience Cloud solutions, such as Audi
 
 * **Audience Analytics:** Integrate Adobe Audience Manager with Adobe Analytics.
 * **Advertising Analytics:** See paid search data side-by-side with Adobe Analytics data.
+* **Analytics for Advertising Cloud:** Integrates Adobe Analytics and Adobe Advertising Cloud to extend and enhance the capabilities of each product
 * **Analytics for Target:** A4T integrates Adobe Analytics and Adobe Target together.
 * **Adobe Campaign reporting:** Integrate Adobe Analytics with Adobe Campaign.
 * **AEM Assets reporting:** Enables the collection of impressions and clicks on assets served from Adobe Experience Manager.

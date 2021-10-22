@@ -8,7 +8,7 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 
 Determine potential reasons why a job might fail to process or deliver.
 
-## Troubleshoot long-standing data feeds that fail
+## Troubleshoot an existing data feed
 
 If you have a data feed that successfully operates hourly or daily but recently fails, use the [Adobe Status tool](https://status.adobe.com/en/experience_cloud) to determine if there are any scheduled maintenance windows or availability issues. If there is a known issue at the time, Adobe automatically processes scheduled data feeds once the service is restored.
 

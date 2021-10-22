@@ -146,3 +146,14 @@ b. Via the `s_objectID` variable. Example:
 1. Reason: "src" property is missing a form input element:
 
     `<input type="image"/>`
+
+## How can I disable Activity Map?
+
+You have three options:
+
+* Delete the `AppMeasurement_Module_ActivityMap` function from the JS file
+* Add custom code that rewrites the function above with an empty body, for example: 
+  ```
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
+* Configure AppMeasurement by setting `s.trackClickMap` and `s.trackInlineStats` to `false`

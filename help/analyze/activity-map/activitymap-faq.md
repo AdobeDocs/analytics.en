@@ -35,7 +35,7 @@ Activity Map supports the latest version of most modern browsers.
 
 Activity Map does not send server calls by itself. Instead, Activity Map context data variables are included with Analytics page view calls on the subsequent page.
 
-## Why are some ranked item overlays missing?**
+## Why are some ranked item overlays missing?
 
 Some ranked links, such as submenu links, are hidden from the page. As a consequence, their corresponding link overlays are not shown. Rank is computed for all links on the page, including hidden links.
 
@@ -88,5 +88,5 @@ You have three options:
   ```
   function AppMeasurement_Module_ActivityMap() {}
   ```
-  
+
 * Configure AppMeasurement by setting `s.trackClickMap` and `s.trackInlineStats` to `false`

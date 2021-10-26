@@ -93,7 +93,3 @@ However, objects do not inherit permissions from the parent bucket. Therefore, i
 >[!NOTE]
 >
 >[!DNL Analytics] doesn't determine if the bucket has a policy that requires giving the bucket owner full control of new objects, or even if the bucket owner is in a different account than the user writing the data. Instead, [!DNL Analytics] automatically adds the bucket owner to the BucketOwnerFullControl ACL with each feed upload.
-
->[!MORELIKETHIS]
->
->* [Troubleshoot data feeds](troubleshooting.md)

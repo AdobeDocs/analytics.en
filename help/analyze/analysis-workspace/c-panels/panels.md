@@ -7,7 +7,11 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 ---
 # Panels overview
 
-A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top left icon in Workspace or a [blank panel](blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. The following panel types are available in Analysis Workspace:
+A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top left icon in Workspace or a [blank panel](blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case. 
+
+## Panel types
+
+The following panel types are available in Analysis Workspace:
 
 | Panel name | Description |
 | --- | --- |
@@ -37,13 +41,16 @@ The list of report suites is sorted on relevancy, which Adobe defines based on h
 
 The panel calendar controls the reporting range for tables and visualizations within a panel. 
 
-Note: If a (purple) date range component is used within a table, visualization or panel dropzone, it will override the panel calendar.
+>[!NOTE]
+>If a (purple) date range component is used within a table, visualization or panel drop zone, it overrides the panel calendar.
 
 ![](assets/panel-calendar.png)
 
-## Dropzone {#dropzone}
+You can apply a minute-level date range under the advanced settings of your panel calendar. If you are reporting on a date range that spans many days, start time applies to the first day and end time applies to the last day in your range.
 
-The panel dropzone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. The title above each filter can be modified by clicking the edit pencil, or you can right-click to remove it altogether.
+## Drop zone {#dropzone}
+
+The panel drop zone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. The title above each filter can be modified by clicking the edit pencil, or you can right-click to remove it altogether.
 
 ### Segment filters
 

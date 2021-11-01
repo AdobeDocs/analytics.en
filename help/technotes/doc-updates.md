@@ -17,6 +17,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 | --- | --- |
 | **October 2021** |  |
+| October 21, 2021 | New documentation on [Quick Segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
+| October 21, 2021 | New documentation on the [Media Playback Time Spent](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html) panel in Analysis Workspace. |
 | October 7, 2021 | New documentation on [visualizations for mobile scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **August 2021**|  |
 | August 18, 2021 | Revised top-level structure and consolidated to a single [Landing page](https://experienceleague.adobe.com/docs/analytics.html) |

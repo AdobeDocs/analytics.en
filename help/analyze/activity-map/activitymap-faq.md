@@ -35,7 +35,7 @@ Activity Map supports the latest version of most modern browsers.
 
 Activity Map does not send server calls by itself. Instead, Activity Map context data variables are included with Analytics page view calls on the subsequent page.
 
-## Why are some ranked item overlays missing?**
+## Why are some ranked item overlays missing?
 
 Some ranked links, such as submenu links, are hidden from the page. As a consequence, their corresponding link overlays are not shown. Rank is computed for all links on the page, including hidden links.
 
@@ -77,3 +77,16 @@ No, segments do not work in Live mode. The functionality is equivalent to that o
 ## Is Activity Map compatible with virtual report suites?
 
 Yes. However, due to virtual report suite limitations, Activity Map's Live Mode is not compatible with virtual report suites.
+
+## How can I disable Activity Map?
+
+You have three options:
+
+* Delete the `AppMeasurement_Module_ActivityMap` function from the JS file
+* Add custom code that rewrites the function above with an empty body, for example: 
+
+  ```
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
+
+* Configure AppMeasurement by setting `s.trackClickMap` and `s.trackInlineStats` to `false`

@@ -44,7 +44,7 @@ This variable supports multiple products in the same hit. It is valuable for sho
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
+s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]

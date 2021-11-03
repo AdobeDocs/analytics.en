@@ -7,6 +7,9 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
 # Get started with Reports & Analytics
 
+>[!NOTE]
+>This product is authorized for sale in North America and other regions where the product is actually sold and may not meet the requirements for sale in other countries or regions.
+
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:

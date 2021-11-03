@@ -28,9 +28,8 @@ Reporting provides insights into your traditional web-based channels as well as 
 
 Browser and system requirements to log in to the Reports & Analytics interface.
 
- >[!NOTE]
-   >
-   >Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
+>[!NOTE]
+>Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
 
 * Preferred Browsers: Latest versions of Firefox, Chrome, Safari, or Edge.
 * Cookies and JavaScript must be enabled.

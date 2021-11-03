@@ -81,7 +81,7 @@ With **[!UICONTROL Product Syntax]**, however, the eVar is set within only the A
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Category] is a deprecated feature and is no longer recommended as a viable option for keeping track of product category performance.  Its mere existence demonstrates why in most implementations of the products variable, a single semicolon precedes the productID portion of the variable value. 
+* [!UICONTROL Category] is no longer recommended as a viable option for keeping track of product category performance.  Its mere existence demonstrates why in most implementations of the products variable, a single semicolon precedes the productID portion of the variable value. 
 * [!UICONTROL Quantity] and [!UICONTROL Revenue] are useful when a product purchase is being tracked.  
 * [!UICONTROL Events] is useful for recording custom incremental or currency event values that are not meant to be counted as revenue (such as shipping, discounts, etc.)
 

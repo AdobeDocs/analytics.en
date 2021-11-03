@@ -7,6 +7,9 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
 # Get started with Reports & Analytics
 
+>[!NOTE]
+>This product is authorized for sale in North America and other regions where the product is actually sold and may not meet the requirements for sale in other countries or regions.
+
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
@@ -25,15 +28,10 @@ Reporting provides insights into your traditional web-based channels as well as 
 
 Browser and system requirements to log in to the Reports & Analytics interface.
 
-* Browsers:
+>[!NOTE]
+>Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
 
-    * Preferred: Latest versions of Firefox, Chrome, Safari, or Edge.
-    * Latest version of Microsoft Internet Explorer 11
-    
-      >[!NOTE]
-      >
-      >Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
-
+* Preferred Browsers: Latest versions of Firefox, Chrome, Safari, or Edge.
 * Cookies and JavaScript must be enabled.
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).
 

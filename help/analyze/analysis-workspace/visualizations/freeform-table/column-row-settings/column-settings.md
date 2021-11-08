@@ -62,3 +62,9 @@ Analysis Workspace supports [attribution](/help/analyze/analysis-workspace/attri
 >[!MORELIKETHIS]
 >
 >* [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
+
+## Dynamic columns
+
+Here is a video on how to use dynamic columns in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)

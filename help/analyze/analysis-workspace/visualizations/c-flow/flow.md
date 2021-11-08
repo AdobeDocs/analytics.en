@@ -31,3 +31,7 @@ Each column could show a different dimension. Drag a dimension and drop in a dro
 ## Export Flow Diagrams as Part of Project .CSV Files {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flow diagrams are part of a project's .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere.
+
+## Expanding on Flow visualization
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

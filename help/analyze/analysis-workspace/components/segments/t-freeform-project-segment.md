@@ -20,9 +20,15 @@ You can create different types of segments in Workspace, depending on how comple
 |  - Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
 |  - VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
 
-Here is a video on using segments in Analysis Workspace:
+## Videos
+
+Using segments in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+Finding and creating segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 

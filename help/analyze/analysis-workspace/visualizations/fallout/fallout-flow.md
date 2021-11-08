@@ -10,6 +10,10 @@ exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 
 Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.
 
+Here is a video on the Fallout visualization:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
+
 Fallout visualizations let you
 
 * Perform side-by-side comparisons of two different segments in the same report.
@@ -27,8 +31,6 @@ A fallout visualization is useful for analyzing:
 * Conversion rates through specific processes on your site (such as a purchase or registration process).
 * General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
 * Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
-
-[Fallout Visualization video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
 

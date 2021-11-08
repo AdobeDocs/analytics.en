@@ -24,12 +24,22 @@ Break down your data in unlimited ways for your specific needs; build queries us
    >
    >The number of breakdowns to show in the table is limited to 200. This limit will increase for exporting breakdowns.
 
-[Adding Dimensions and Metrics to your Project in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=en) (11:39)
-
-[Working with Dimensions in a Freeform Table](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
-
 ## Apply attribution models to breakdowns
 
 Any breakdown within a table can also have any attribution model applied to it. This attribution model can be the same or different from the parent column. For example, you can analyze linear Orders on your Marketing Channels dimension but apply U-Shaped Orders to the specific tracking codes within a Channel. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
 
 ![Breakdown settings](assets/breakdown_settings.png)
+
+## Videos
+
+Adding dimensions and metrics to your project in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+Working with dimensions in a Freeform Table:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+Here is a video on dimension breakdowns by position:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

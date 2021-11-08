@@ -38,6 +38,10 @@ A lookback window is the amount of time a conversion should look back to include
 
 * **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on Feb 20th, a lookback window of 10 days would evaluate all dimension touchpoints from Feb 10th to 20th in the attribution model.
 
+  Here is a video on custom lookback windows:
+
+  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+
 ## Example
 
 Consider the following example:

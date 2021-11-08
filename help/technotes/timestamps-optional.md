@@ -10,6 +10,10 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 
 Learn about the benefits and constraints of using Timestamps Optional setting.
 
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
+
 Timestamps Optional is the default setting for all new report suites.
 
 * Mix timestamped and non-timestamped data in the same global report suite.
@@ -28,7 +32,6 @@ Using the Timestamps Optional feature, you can combine non-timestamped data with
 
 * **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
 * **Non-timestamp data**. Adobe sets a timestamp on non-timestamped data in a report suite when the data hits the collection servers.
-
 
 A report suite can have one of the following timestamp settings:
 

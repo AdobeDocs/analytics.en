@@ -13,6 +13,10 @@ This guide explains how to get data into Analytics. It includes:
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**: Send data directly to Adobe's data collection through an API.
 * **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Work with a supported 3rd party to bring their data into Adobe Analytics to enrich your report suite.
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 ## More Analytics user guides
 
 [Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)

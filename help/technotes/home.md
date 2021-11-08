@@ -7,6 +7,10 @@ exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 
 This guide provides helpful information on topics that don't belong to a specific analytics tool or component.
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 ## Key tech notes articles
 
 * [Transitioning from a third-party analytics platform to Adobe Analytics](ga-to-aa/home.md)

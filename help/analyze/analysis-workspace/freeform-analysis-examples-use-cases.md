@@ -2,7 +2,7 @@
 description: Examples of how to use data tables, segments, and uses case ideas for Analysis Workspace.
 keywords: Analysis Workspace
 title: Analysis Workspace use cases
-feature: Reports & Analytics Basics
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 ---
 
@@ -55,3 +55,8 @@ Assume you are a marketing analyst for an outdoor gear retailer and you are task
 
    Now you can [share](/help/analyze/analysis-workspace/curate-share/curate.md) the report with those merchandising teams.
 
+## Cross-sell Analysis in Analysis Workspace
+
+Here is a video on this topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)

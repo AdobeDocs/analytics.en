@@ -9,7 +9,11 @@ exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 ---
 # Projects overview
 
-Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects.  
+Workspace projects allow you to combine data components, tables and visualizations to craft your analysis and share with anyone in your organization. Before starting your first project, learn about how to access, navigate and manage your projects. 
+
+Here is a video on how to build a Workspace project:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 ## Project list {#project-list}
 

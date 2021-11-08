@@ -31,6 +31,10 @@ Users with admin rights can turn any project they create into a custom template.
    >
    >By default, project templates are visible to everyone in your organization. You can organize them by applying tags. (Go to **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** to edit tags and descriptions.)
 
+Here is a video on creating and managing custom templates:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
+
 ### Actions you can perform on custom templates
 
    ![](assets/custom_templates.png)

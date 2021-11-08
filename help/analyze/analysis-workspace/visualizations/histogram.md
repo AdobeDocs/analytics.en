@@ -10,6 +10,10 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 
 A histogram is similar to a bar chart, but it groups numbers into ranges (buckets). Analytics automates the "bucketing" of numbers into ranges, but you can change the settings in [Advanced Settings](#section_09D774C584864D4CA6B5672DC2927477).
 
+Here is a video on how to use histograms:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
+
 ## Build a histogram {#section_74647707CC984A1CB6D3097F43A30B45}
 
 To create a histogram:

@@ -10,6 +10,10 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 
 The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on selected web pages of your site. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be visit-based and function similarly to cookies. Values passed into eVar variables follow the user for a predetermined period of time.
 
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+
 When an eVar is set to a value for a visitor, Adobe automatically remembers that value until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value.
 
 eVars are best used to measure cause and effect, such as:

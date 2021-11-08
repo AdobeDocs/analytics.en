@@ -9,6 +9,10 @@ exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 
 This help is intended for administrators of Adobe Analytics. It includes help on user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection. 
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 Adobe Analytics currently has two areas for administrators:
 
 * Adobe Admin Console: Use this area for provisioning Experience Cloud tools, and managing user permissions. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).

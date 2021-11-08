@@ -18,6 +18,10 @@ This guide provides product documentation and self-help for the following Adobe 
 * **[!UICONTROL Reporting API]:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
 * **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs.
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 ## Key Analytics Tools articles
 
 * [Adobe Analytics dashboards - Overview](/help/analyze/mobile-app/home.md)

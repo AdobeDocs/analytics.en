@@ -11,10 +11,13 @@ Publishing an Adobe Analytics segment to the Experience Cloud lets you use the s
 
 We have also increased the maximum number of publishable Adobe Analytics segments to 75 (from 20). You can view published segments in [!UICONTROL Analytics > Components > Segments].
 
+See this video for more details:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+
 >[!NOTE]
 >
 >Adobe Campaign (Classic and Standard) behaves differently in that it incurs an additional 24-hour latency on top of the 8-hour latency.
-
 
 ## Prerequisites
 

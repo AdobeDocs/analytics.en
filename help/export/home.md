@@ -12,6 +12,10 @@ This guide outlines ways to get data out of Adobe Analytics. It includes:
 * **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to FTP sites.
 * **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values.
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 ## Key Analytics Export articles
 
 * [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)

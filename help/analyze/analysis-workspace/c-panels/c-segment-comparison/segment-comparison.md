@@ -10,6 +10,10 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 
 The Segment comparison panel is a tool part of [Segment IQ](../../segment-iq.md) that discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
 
+Here is a video on segment comparison:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+
 ## Creating a segment comparison panel
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.

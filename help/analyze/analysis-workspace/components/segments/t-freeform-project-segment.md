@@ -30,6 +30,10 @@ Finding and creating segments:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
+Rolling date ranges in segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 You can create different types of segments in Analysis Workspace:

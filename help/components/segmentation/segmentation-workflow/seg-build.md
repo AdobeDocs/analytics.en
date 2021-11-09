@@ -115,6 +115,10 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 ![](assets/date-ranges.png)
 
+Here is a video on using rolling date ranges in segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+
 ## Stack segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
 Stacking segments works by combining the criteria in each segment using an 'and' operator, and then applying the combined criteria. This can be done in a Workspace project directly or in segment builder. 

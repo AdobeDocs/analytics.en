@@ -118,6 +118,10 @@ These standard templates walk you through common terminology and steps for build
 >
 >The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
 
+Video overview of the People template:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
+
 This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
 * Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.

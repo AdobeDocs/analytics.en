@@ -48,3 +48,9 @@ Dynamic and static rows behave differently in the freeform total row. By default
 
 * Dynamic rows are summed server-side and de-duplicate metrics such as visits or visitors
 * Static rows are summed client-side and do **not** de-duplicate metrics. To calculate the total row server-side, change the Row setting to **Show grand total**. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+
+## Reorder static rows
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)

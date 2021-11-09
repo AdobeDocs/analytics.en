@@ -55,6 +55,12 @@ In your Workspace project, **panels, tables, visualizations, and components** ar
 
 ![](assets/build-panels.png)
 
+### Project management in Analysis Workspace
+
+Here is a video overview of project management:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
 ## Additional resources {#resources}
 
 * Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).

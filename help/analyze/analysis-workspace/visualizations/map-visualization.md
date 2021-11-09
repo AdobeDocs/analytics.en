@@ -33,7 +33,7 @@ Here is a video overview:
 
 | Setting | Description |
 | --- | --- |
-| [!UICONTROL Mobile Lat/Long] | This option represents mobile app data. You see this option only if you have enabled it for your report suite in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] >  <select report suite> > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. This is the default setting (if location tracking is enabled). |
+| [!UICONTROL Mobile Lat/Long] | This option represents mobile app data. You see this option only if you have enabled it for your report suite in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (select report suite) > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. This is the default setting (if location tracking is enabled). |
 | [!UICONTROL Geographic Dimension] | This option represents geo segmentation data about visitor location based on the visitor's IP address. This data gets transformed into [!UICONTROL Country], [!UICONTROL Region], and [!UICONTROL City]. Note that it does not go to the DMA or Zip Code level. Almost all report suites have this dimension enabled. If yours does not, contact Adobe Customer Care to have geographic reports enabled. |
 
 1. Click **[!UICONTROL Build]**.

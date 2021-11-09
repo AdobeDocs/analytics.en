@@ -15,6 +15,10 @@ This capability is useful if you want to, for example,
 
 * Build a dashboard of metrics and visualizations to report out to other organizations. You can now pull data from various report suites into in the same project.
 
+Here is a video on the subject:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+
 ## Apply report suite to all panels
 
 You can apply a report suite to all panels at once by right-clicking any panel header and selecting **[!UICONTROL Apply Report Suite to All Panels]**.
@@ -28,11 +32,11 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 >[!IMPORTANT]
 >You can drag and drop to any panel that is in the same report suite as your active panel. By dragging into an inactive panel of the same report suite, the panel will become active.
 
-|Task|Active panel|Inactive panel|
-|---|---|---|
-|Change report suite|Yes|No|
-|Drag and drop components|Yes|Yes, for any panel that is in the same report suite as your active panel.|
-|Drag and drop visualizations|Yes|Yes, for any panel that is in the same report suite as your active panel.|
+| Task | Active panel | Inactive panel |
+| --- | --- | --- |
+| Change report suite | Yes | No |
+| Drag and drop components | Yes | Yes, for any panel that is in the same report suite as your active panel. |
+| Drag and drop visualizations | Yes | Yes, for any panel that is in the same report suite as your active panel. |
 
 ## Work with multiple report suites
 

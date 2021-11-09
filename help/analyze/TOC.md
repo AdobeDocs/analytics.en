@@ -54,7 +54,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + Fallout {#fallout}
       + [Fallout overview](analysis-workspace/visualizations/fallout/fallout-flow.md)
       + [Configure a fallout visualization](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-      + [Inter-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+      + [Multi-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
       + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)

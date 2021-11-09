@@ -19,6 +19,10 @@ Once classified, any report that you can generate using the key variable can als
 
 After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
 
+Here is an overview video on Adobe Analytics classifications:
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
 ## Tracking Codes Example
 
 Suppose that instead of viewing campaigns just by the tracking code, you want to see campaign results by Search Engine, Keyword, and Campaign Channel. Rather than devoting conversion variables for each of those, you can create three classifications of the campaign variable to represent Search Engine, Keyword, and Campaign Channel. This strategy allows you to see site success events by all four variables, with no additional tagging.

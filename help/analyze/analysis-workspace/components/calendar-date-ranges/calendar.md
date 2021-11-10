@@ -10,6 +10,10 @@ exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 
 In the calendar, you can specify dates and date ranges, or select a preset.
 
+Here is a video on using date ranges and calendars in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+
 Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
 ![Calendar](assets/aw_calendar.png)

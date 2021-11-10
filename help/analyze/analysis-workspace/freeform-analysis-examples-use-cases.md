@@ -60,3 +60,15 @@ Assume you are a marketing analyst for an outdoor gear retailer and you are task
 Here is a video on this topic:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## Use cross-tab analysis for basic marketing attribution
+
+There are many ways you can take your attribution methodology to the next level with Adobe Analytics. In this video, we highlight how you can derive deeper insights from the Marketing Channels report using cross-tab analysis in Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Use participation metrics in Analysis Workspace
+
+This video shows how to get participation metrics using calculated metrics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

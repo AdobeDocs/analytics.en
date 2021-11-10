@@ -22,6 +22,10 @@ Keep in mind:
 
 ## Change your color palette:
 
+Here is a video on using custom color palettes:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
 1. Navigate to **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**.
 1. From the **[!UICONTROL Project Color Palette]** dropdown, you can pick one of five pre-set color schemes.
 

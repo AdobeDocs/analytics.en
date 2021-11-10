@@ -24,6 +24,10 @@ You can add recipients to one of three project roles. Project roles are tied to 
 | Can duplicate | Recipients can **[!UICONTROL Save as]** and have access to the left rail. Project interactions are not limited in this role. This role is useful if you want to share a project to users who understand your organization’s data and how to use Analysis Workspace, but you do not want your project altered. |
 | Can view | Recipients cannot Save As and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization’s data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment.<br>Learn more about the [Can view project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
+Here is a video on view-only projects in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+
 >[!IMPORTANT]
 > Project recipients added prior to June 18, 2020 have been migrated into a project role. Admin users migrated to the **[!UICONTROL Can edit]** role and Non-admin users migrated to the **[!UICONTROL Can duplicate]** role. These roles provide the same project experience that they had previously. Additionally, all groups (including "All") migrated to the **[!UICONTROL Can duplicate]** role.  
 

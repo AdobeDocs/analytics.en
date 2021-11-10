@@ -24,6 +24,12 @@ Watch this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12) 
 
+## How can I track Workspace usage?
+
+Watch this video on usage log tracking for Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+
 ## Troubleshooting
 
 **When I drag a metric over, it says 'Invalid data'.**

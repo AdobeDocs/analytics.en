@@ -16,7 +16,7 @@ The Rule Builder lets you create a *classification rule set*, which is a list of
 
 Classification rules are convenient for:
 
-* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can earn how the Display campaigns are performing against email campaigns.
+* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can learn how the Display campaigns are performing against email campaigns.
 
 * **Tracking codes**: Create classification rules to categorize key values derived from strings in tracking codes, and match them to specific criteria you define.
 * **Search terms**: Use [regular expressions](/help/components/classifications/crb/classification-quickstart-rules.md) and wildcards to simplify classifying of search terms. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.

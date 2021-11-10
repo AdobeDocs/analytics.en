@@ -66,6 +66,10 @@ These standard templates walk you through common terminology and steps for build
 
 * **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions and metrics are important.
 
+Here is a video on the [!UICONTROL Training Tutorial] template:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
+
 ### Advertising
 
 >[!IMPORTANT]

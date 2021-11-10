@@ -7,6 +7,10 @@ exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 
 A data layer is a framework of JavaScript objects on your site that contains all variable values used in your implementation. It allows greater control and easier maintenance in your implementation.
 
+Here is a video on using data layers:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+
 ## Prerequisites
 
 [Create a solution design document](solution-design.md) - It is important for your organization to align on tracking requirements. Make sure that you are prepared with a solution design document before approaching development teams in your organization.

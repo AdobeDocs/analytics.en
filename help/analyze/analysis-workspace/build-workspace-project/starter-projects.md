@@ -86,7 +86,10 @@ Here is a video on the [!UICONTROL Training Tutorial] template:
 
 ### Media
 
-* **Audio Consumption**: Which content is being consumed the most and is engaging users? 
+* **Audio Consumption**: Which content is being consumed the most and is engaging users? Here is a video on the Audio Consumption template:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
+
 * **Recency - Frequency - Loyalty**: Who are my loyal readers?
 
 ### Mobile

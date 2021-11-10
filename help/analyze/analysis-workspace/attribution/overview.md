@@ -39,3 +39,9 @@ Attribution IQ comprises the following features:
 * [Apply attribution to a metric](../visualizations/freeform-table/column-row-settings/column-settings.md): Use a non-default attribution on any metric in a project.
 * [Apply attribution to a breakdown](../components/dimensions/t-breakdown-fa.md): Use a non-default attribution on a breakdown. 
 * [Compare attribution models](../components/apply-create-metrics.md): Quickly see how different attribution models compare for any metric.
+
+## Videos
+
+Here is a video on using different Attribution IQ models with segments, in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

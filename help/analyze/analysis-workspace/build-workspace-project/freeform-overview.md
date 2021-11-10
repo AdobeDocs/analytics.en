@@ -83,6 +83,12 @@ Components (Dimensions, Metrics, Segments, Date Ranges) in the left rail relate 
 
 ![](assets/left-rail.png)
 
+## Right-click menu
+
+Here is a video on using the right-click menu in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Project canvas {#canvas}
 
 The project canvas is where you bring together panels, tables, visualizations, and components to build your analysis. A project can contain many panels, and each panel can contain many tables and visualizations.
@@ -95,7 +101,9 @@ Depending on the starting point you chose for your projects, you will either hav
 
 ## Project Manager {#manager}
 
-Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. The Project Manager shows the items that a specific user has created. Project ownership can be transferred to a new user under Admin > Analytics Users & Assets > Transfer Assets.
+Analysis Workspace projects can be managed under **[!UICONTROL Analytics] > [!UICONTROL Components] >  [!UICONTROL Projects]**. The Project Manager shows the items that a specific user has created. 
+
+Project ownership can be transferred to a new user under [!UICONTROL Admin] > [!UICONTROL Analytics Users & Assets] > [!UICONTROL Transfer Assets].
 
 In the Projects Manager, you can add, tag, share, duplicate/copy, and more. Search for a project in the search bar or by using the filter options in the left rail. You can filter by tag, owners, project type and more.
 

@@ -10,6 +10,10 @@ exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 
 An inter-dimensional flow lets you examine user paths across various dimensions.
 
+Here is a video on text-wrapping and multi-dimensional flow in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
 A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
 
 ![](assets/flow.png)

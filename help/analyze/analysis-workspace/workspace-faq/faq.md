@@ -18,6 +18,12 @@ exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 |Can I use Analysis Workspace for Data Warehouse?|Analysis Workspace is not recommended for bulk data export. It is a visualization workspace creating dashboard-like analysis projects.|
 |How can I optimize performance of Analysis Workspace?|See [Optimizing Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).|
 
+## How does data get into your Analysis Workspace project?
+
+Watch this video: 
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12) 
+
 ## Troubleshooting
 
 **When I drag a metric over, it says 'Invalid data'.**
@@ -32,3 +38,4 @@ If you successfully created a workspace report but there's no data, there are a 
 * If you applied a segment in your report, the segment criteria might not match any data. Try removing the segment or adjusting the segment definition.
 * Check the date range in the upper right corner and make sure it's set to a value that you'd expect.
 * Navigate to your website and use the [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) to validate that data is being collected.
+

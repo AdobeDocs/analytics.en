@@ -13,6 +13,10 @@ Manage scheduled Analysis Workspace projects.
 
 ![](assets/components-scheduled-projects.png)
 
+Here is a video on scheduled and downloadable projects in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
+
 In the Scheduled Projects Manager, you can edit and delete recurring project deliveries. You can create delivery schedules that send your reports via email to a specified address. You can configure these schedules to automatically send the reports at specified intervals for a duration of time or indefinitely, or stop the delivery of a recurring project.
 
 The Scheduled Projects Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
@@ -25,6 +29,5 @@ The Scheduled Projects Manager shows the items that a specific user has created.
 * Tag scheduled projects.
 * Specify/change the owner of a scheduled projects.
 * Add other filters, such as Approved, Failed, Favorites, Mine, Show All, and Expired Projects.
-
 * Define a scheduled projects expiration date.
 

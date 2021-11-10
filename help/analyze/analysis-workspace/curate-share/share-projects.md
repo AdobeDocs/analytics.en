@@ -18,11 +18,11 @@ Here is a video overview of project sharing:
 
 You can add recipients to one of three project roles. Project roles are tied to the user and specific project ID. Project roles are independent of user permissions managed in the [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-|Role|Project control|
-|---|---|
-|Can edit|Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. This role is useful if you want to co-manage a project with other colleagues; this includes editing, deleting, and modifying recipient lists for a shared project. <br>Note: Analysis Workspace does not currently support live collaboration, so it is recommended that only one user edit a project at a given time. If projects are saved at the same time, the last version will be kept.|
-|Can duplicate|Recipients can **[!UICONTROL Save as]** and have access to the left rail. Project interactions are not limited in this role. This role is useful if you want to share a project to users who understand your organization’s data and how to use Analysis Workspace, but you do not want your project altered.|
-|Can view|Recipients cannot Save As and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization’s data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment.<br>Learn more about the [Can view project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).|
+| Role | Project control |
+| --- | --- |
+| Can edit | Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. This role is useful if you want to co-manage a project with other colleagues; this includes editing, deleting, and modifying recipient lists for a shared project. <br>Note: Analysis Workspace does not currently support live collaboration, so it is recommended that only one user edit a project at a given time. If projects are saved at the same time, the last version will be kept. |
+| Can duplicate | Recipients can **[!UICONTROL Save as]** and have access to the left rail. Project interactions are not limited in this role. This role is useful if you want to share a project to users who understand your organization’s data and how to use Analysis Workspace, but you do not want your project altered. |
+| Can view | Recipients cannot Save As and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization’s data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment.<br>Learn more about the [Can view project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
 >[!IMPORTANT]
 > Project recipients added prior to June 18, 2020 have been migrated into a project role. Admin users migrated to the **[!UICONTROL Can edit]** role and Non-admin users migrated to the **[!UICONTROL Can duplicate]** role. These roles provide the same project experience that they had previously. Additionally, all groups (including "All") migrated to the **[!UICONTROL Can duplicate]** role.  
@@ -82,6 +82,12 @@ With Project A and B selected, recipients 4 and 7 are added to the share lists. 
 * Project B: 4, 5, 6, 7 
 
 ![](assets/mult-proj-sharing.png)
+
+## Share embedded components
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## FAQs {#FAQs}
 

@@ -57,3 +57,7 @@ You can segment on a distinct count of items within a dimension. Examples: "Visi
 | is less than |Returns dimension items whose unique count is less than the value entered. |
 | is greater than or equal to |Returns dimension items whose unique count is greater than or equal to the value entered. |
 | is less than or equal to |Returns dimension items whose unique count is less than or equal to the value entered. |
+
+Here is a video on segmentation on distinct dimension counts:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)

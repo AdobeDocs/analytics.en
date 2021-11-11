@@ -11,6 +11,10 @@ The [!UICONTROL Components] > [!UICONTROL User preferences] page lets you manage
 
 ![User preferences](assets/user-preferences.png)
 
+Here is a short video on user preferences:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
+
 ## General preferences
 
 General preferences apply to your Adobe Analytics experience in the browser.

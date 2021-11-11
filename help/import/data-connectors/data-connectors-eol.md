@@ -11,7 +11,7 @@ For more than a decade, Adobe Analytics has aimed to provide the best-in-class w
 
 ## Why are we end-of-lifing this feature?
 
-This feature is powered by legacy technology that is no longer viable or supported. The [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) is now the place to find current integrations for Adobe solutions.
+This feature is powered by legacy technology that is no longer viable or supported. The [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) is now the place to find current integrations for Adobe solutions.
 
 ## How does removal of this feature impact you?
 

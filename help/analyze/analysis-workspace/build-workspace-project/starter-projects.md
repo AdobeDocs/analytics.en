@@ -16,7 +16,7 @@ You can choose whether to create a project from:
 
 ![](assets/start_modal.png)
 
-## Create a custom template {#create-custom-template}
+## Create custom templates {#create-custom-template}
 
 Users with admin rights can turn any project they create into a custom template. Here's how: 
 
@@ -35,9 +35,7 @@ Here is a video on creating and managing custom templates:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Actions you can perform on custom templates
-
-   ![](assets/custom_templates.png)
+### Manage custom templates {#manage-custom-template}
 
 | Action | Description |
 |--- |--- |
@@ -60,11 +58,7 @@ Here are available templates and the questions that each template helps answer.
 
 ### Training
 
-These standard templates walk you through common terminology and steps for building your first analysis in Workspace. They is available as a standard template in the New Project modal and replace the sample project that exists today for new users that do not have other projects in their list.
-
-* **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
-
-* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions and metrics are important.
+This standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list.
 
 Here is a video on the [!UICONTROL Training Tutorial] template:
 
@@ -74,38 +68,40 @@ Here is a video on the [!UICONTROL Training Tutorial] template:
 
 >[!IMPORTANT]
 >
->Advertising templates are available only if your report suite is enabled for Advertising Cloud.
+>Advertising templates are available only if your report suite is enabled for [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Paid Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
 
 ### Commerce
 
-* **Magento: Marketing and Commerce**: This template breaks down your e-commerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
+* **Magento: Marketing and Commerce**: This template breaks down your e-commerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. Here is a video tutorial on the [Magento: Marketing and Commerce template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+### Data Collection
+
+* **ITP Impact**: Understand how Apple's ITP impacts your data and how to adjust reporting accordingly. 
 
 ### Media
 
-* **Audio Consumption**: Which content is being consumed the most and is engaging users? Here is a video on the Audio Consumption template:
+* **Content Consumption**: Who are my loyal readers
+* **Recency - Frequency - Loyalty**: Which content is being consumed most and is engaging users?
+* **Streaming Media Consumption**: Provides trends and top metrics of media consumption across all digital devices. Here is a video on the streaming media consumption template:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Recency - Frequency - Loyalty**: Who are my loyal readers?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Mobile templates are available only if your report suite is enabled for Mobile.
+>Mobile templates are available only if your report suite is enabled for Mobile app analytics.
 
-* **Messaging:** Focuses on in-app and push messaging performance.
-* **Location:** Includes a Map showcasing location data.
-* **Key Metrics:** Keep a pulse on the key metrics of your app.
-* **App Usage:** How many app users, launches, and first launches did the app have, and what was the average session length? 
 * **Acquisition:** See how mobile acquisition links are performing.
+* **App Usage:** How many app users, launches, and first launches did the app have, and what was the average session length? 
+* **Journeys:** What are the prominent usage patterns for my app?
+* **Key Metrics:** Keep a pulse on the key metrics of your app.
+* **Location:** Includes a Map showcasing location data.
+* **Messaging:** Focuses on in-app and push messaging performance.
 * **Performance:** How is the app performing and where are users having problems? 
 * **Retention:** Who are my loyal users and what do they do? 
-* **Journeys:** What are the prominent usage patterns for my app?
 
 ### Retail
 
@@ -115,6 +111,7 @@ Here is a video on the [!UICONTROL Training Tutorial] template:
 ### Web
 
 * **Acquisition:** What are the top traffic drivers to my website? 
+* **AEM site performance overview:** How is my Adobe Experience Manager site performing?
 * **Content Consumption:** What are the top places people go on my site? 
 * **Retention:** What types of users are likely to be loyal users of my site? 
 * **Technology:** What technology are people using to access my site?
@@ -124,10 +121,6 @@ Here is a video on the [!UICONTROL Training Tutorial] template:
 >[!NOTE]
 >
 >The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
-
-Video overview of the People template:
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
 
@@ -139,7 +132,7 @@ This template is based on the People metric, which is a de-duplicated version of
 * Discover how to use segment stacking with the People metric.
 * Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
 
-### Journey IQ: Cross-Device Analysis template
+### Journey IQ: Cross-Device Analytics template
 
 <!--This content is mirrored in the CDA doc.-->
 

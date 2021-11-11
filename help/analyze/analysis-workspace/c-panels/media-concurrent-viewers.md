@@ -13,6 +13,10 @@ In Analysis Workspace, Concurrent Viewers is the number of unique visitors viewi
 
 The Media Concurrent Viewers panel enables analysis of concurrent viewers over time, with details on peak concurrency and the ability to break down and compare.  To access the Media Concurrent Viewers panel, navigate to a report suite with Media Analytics components enabled. Then, click the panel icon on the far-left and drag the panel into your Analysis Workspace project.
 
+Here is a video overview of this panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+
 ## Panel Inputs {#Input}
 
 You can configure the Media Concurrent Viewers panel using these input settings:

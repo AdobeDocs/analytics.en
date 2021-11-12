@@ -23,16 +23,14 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 These headers are fields contain information like requests for data and responses in an HTTP call.
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-|HTTP Header|Description|
-|--- |--- |
-|Host|This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as   `host name .demdex.net` .  See  Understanding Calls to the Demdex Domain .|
-|User-Agent|Set to the User-Agent header passed in to Analytics.|
-|X-Original-User-Agent|Only set if an alternate user agent was specified by one of these headers: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\`|
-|X-Forwarded-For|Set to the IP address of the requesting client. Analytics will have already parsed the incoming  `X-Forwarded-For`  header and determined the correct IP address to use.|
-|Accept-Language|Set to the  `Accept-Language`  header passed in to Analytics.|
-|Referer|Set to the page URL passed in to Analytics or gathered from the  Referer  header passed in to Analytics.|
+| HTTP Header | Description | h_ keys accepted by Audience Manager |
+| --- | --- | --- |
+| Host | This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as `host name .demdex.net`. See [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). | `h_host` |
+| User-Agent | Set to the User-Agent header passed in to Analytics. | `h_user-agent` |
+| Accept-Language | Set to the  `Accept-Language`  header passed in to Analytics. | `h_accept-language` |
+| Referer | Set to the page URL passed in to Analytics or gathered from the `Referer` header passed in to Analytics. | `h_referer` |
+| Referrer | Set to the page URL passed in to Analytics or gathered from the `Referrer` header passed in to Analytics. | `h_referrer` |
+| IP | Signal that is generated from the IP of the host sending the request to DCS. | `h_ip` |
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 

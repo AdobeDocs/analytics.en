@@ -30,7 +30,8 @@ These headers are fields contain information like requests for data and response
 | Accept-Language | Set to the  `Accept-Language`  header passed in to Analytics. | `h_accept-language` |
 | Referer | Set to the page URL passed in to Analytics or gathered from the `Referer` header passed in to Analytics. | `h_referer` |
 | Referrer | Set to the page URL passed in to Analytics or gathered from the `Referrer` header passed in to Analytics. | `h_referrer` |
-| IP | Signal that is generated from the IP of the host sending the request to DCS. | `h_ip` |
+
+In addition, a `h_ip` signal is generated from the IP of the host sending the request to DCS.
 
 ## Customer-Defined Signals {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 

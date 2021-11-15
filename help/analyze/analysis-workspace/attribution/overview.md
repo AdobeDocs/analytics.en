@@ -42,6 +42,6 @@ Attribution IQ comprises the following features:
 
 ## Videos
 
-Here is a video on using different Attribution IQ models with segments, in Analysis Workspace:
+Here is a video on Attribution IQ in Freeform tables:
 
->[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)

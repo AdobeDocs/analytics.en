@@ -5,7 +5,7 @@ title: Scheduled projects manager
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 ---
 
-# Scheduled projects manager
+# Scheduled project manager
 
 Manage scheduled Analysis Workspace projects.
 
@@ -22,6 +22,10 @@ In the Scheduled Projects Manager, you can edit and delete recurring project del
 The Scheduled Projects Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop.
 
 ![](assets/scheduled-projects.png)
+
+## Schedule project manager tasks
+
+In the [!UICONTROL Scheduled projects] UI, you can:
 
 * Edit scheduled projects.
 * View a project's Schedule ID (used mainly for debugging purposes).

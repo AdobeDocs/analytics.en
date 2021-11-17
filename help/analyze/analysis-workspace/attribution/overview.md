@@ -42,6 +42,19 @@ Attribution IQ comprises the following features:
 
 ## Videos
 
-Here is a video on Attribution IQ in Freeform tables:
+Attribution IQ in Freeform tables:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+
+Attribution IQ in calculated metrics
+
+>[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+
+Using the Attribution IQ panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+
+Adding side-by-side comparisons of Attribution IQ models:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+

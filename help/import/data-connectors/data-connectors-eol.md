@@ -5,9 +5,9 @@ exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 ---
 # End-of-life for Adobe Data Connectors
 
-For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.
+**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized. 
 
-**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized.  
+For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.
 
 ## Why are we end-of-lifing this feature?
 

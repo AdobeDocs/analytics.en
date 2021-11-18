@@ -9,7 +9,7 @@ The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interacti
 
 >[!IMPORTANT]
 >
->The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe' Performance Optimization in mainland China enables customers within China to send data directly to the China edge node, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Please contact your Adobe Sales representative for more information.
+>The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe' Performance Optimization in mainland China enables customers with users inside China to have that data sent directly to the China edge node, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Please contact your Adobe Sales representative for more information.
 
 RDC currently includes the following locations (subject to change):
 
@@ -30,13 +30,13 @@ RDC currently includes the following locations (subject to change):
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Global (Default) | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
-|
+| Global + China* | China*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 | Americas Only | Oregon, Virginia |
 | Europe Only | Ireland, Paris |
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |
-| China only* | Beijing |
+| China Only* | Beijing |
 
-*China RDC requires the China Add-On package. See the 'Important' note above.
+*China Only and Global + China RDC types require the China Add-On package. See the 'Important' note above. Global + China will route data originating inside China to our China RDC while routing data originating outside of China to the nearest RDC outside of China. 
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ RDC currently includes the following locations (subject to change):
 
 | Benefit | Description |
 | --- | --- |
-| Performance | With RDC, your visitors will connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
+| Performance | With RDC, your visitors connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
 | Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe’s RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
 
 ## How RDC works

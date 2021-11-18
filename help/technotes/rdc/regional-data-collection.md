@@ -19,15 +19,18 @@ RDC currently includes the following locations (subject to change):
 |---------------------|-------------------|
 | Default | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney, China* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
-
 *China RDC requires the China Add-On package. See the 'Important' note above.
+
+>[!NOTE]
+>
+>If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
 
 ## First-party HTTPS data collection
 
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Global (Default) | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+|
 | Americas Only | Oregon, Virginia |
 | Europe Only | Ireland, Paris |
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |
@@ -35,7 +38,9 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 
 *China RDC requires the China Add-On package. See the 'Important' note above.
 
-Note: Experience Edge Global provides the best performance for your end users.  If you desire to use an alternate RDC type, please contact Adobe Customer Care for assistance.
+>[!NOTE]
+>
+>Experience Edge Global provides the best performance for your end users.  If you want to use an alternate RDC type, please contact Adobe Customer Care for assistance.
 
 ## Benefits of RDC
 

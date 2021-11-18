@@ -11,7 +11,7 @@ This guide explains how to get data into Analytics. It includes:
 
 * **[Data Sources](c-data-sources/datasrc-home.md)**: Upload a file to a designated Adobe FTP site. Adobe retrieves the file and includes the data in your report suite.
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**: Send data directly to Adobe's data collection through an API.
-* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: Work with a supported 3rd party to bring their data into Adobe Analytics to enrich your report suite.
+* **Data Connectors**: Effective August 19, 2021, Adobe has discontinued Data Connectors Integrations. Many of these integrations are available via [Adobe Exchange](https://exchange.adobe.com/experiencecloud.analytics.html#product) and can continue to be utilized.
 
 Here is a video overview of Adobe Analytics:
 

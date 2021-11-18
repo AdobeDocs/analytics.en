@@ -30,7 +30,6 @@ RDC currently includes the following locations (subject to change):
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
 | Global (Default) | Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
-|
 | Americas Only | Oregon, Virginia |
 | Europe Only | Ireland, Paris |
 | Asia Pacific Only | Mumbai, Singapore, Tokyo, Sydney |

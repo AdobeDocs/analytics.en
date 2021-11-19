@@ -82,7 +82,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + Media Playback Time Spent {#media-playback-timespent}
-      + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) panel-inputs-outputs
+      + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
       + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
       + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)

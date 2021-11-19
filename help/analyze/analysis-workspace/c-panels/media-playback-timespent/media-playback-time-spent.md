@@ -20,4 +20,4 @@ The Media Playback Time Spent panel enables analysis of playback over time, with
 
 This panel also includes new functionality in the calendar that enables you to select and display less than 24 hours. You can do that for the entire panel, or you can create segments using consecutive time periods so you can track viewership lead-in/lead-out across programs or sections of programs. Once you’ve placed at least two of those date segments, you’ll see a radio button option for Date Sequence Display that will either overlay the lines with a common x axis start, or display them in sequence with their specific x axis start.
 
->[!VIDEO](https://www.youtube.com/watch?v=DOYQ4phnPQA&list=PL2tCx83mn7GvKiKG0gCQsuniIfGK3V9UN&index=3&t=3s)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)

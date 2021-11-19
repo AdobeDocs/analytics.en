@@ -6,7 +6,7 @@ role: User, Admin
 exl-id:
 ---
 
-#  Media Playback Time Spent Panel Inputs and Outputs {#Inputs-and-outputs}
+# Media Playback Time Spent Panel Inputs and Outputs {#Inputs-and-outputs}
 
 You can customize your Media Playback Time Spent panel using the following input and output settings.
 

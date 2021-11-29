@@ -101,6 +101,6 @@ For additional questions or support, please reach out to Adobe Customer Care.
 
 ## Exception: Adobe Campaign Classic
 
-The ONE exception to the August 1, 2021 date is the Adobe Campaign Classic integration. This integration will officially be deprecated on March 1, 2022. 
+The ONE exception to the August 1, 2021 date is the Adobe Campaign Classic integration. This integration will officially be deprecated on August 17, 2022. 
 
 On August 1, 2021, Adobe Campaign Classic will be removed from the Data Connectors UI along with all other integrations; however, existing Campaign integrations will continue to collect and pass data to Adobe Analytics until March 1, 2022. On March 1, 2022, the integration will cease to collect and pass data to Adobe Analytics. If you are using this integration, you need to move to the new Campaign-Analytics connector before March 1, 2022. Learn more in [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).

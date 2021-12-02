@@ -143,29 +143,12 @@ user-guide-description: Learn about managing users and products in the Experienc
   + [Create a report suite group](c-manage-report-suites/t-create-rs-group.md)
 + User and Product Management (Legacy) {#user-product-management}
   + [User and Product Management](user-management2/user-management.md)
-  + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
-  + User management {#user-management}
-    + [User management overview](user-management2/c-user-management/users.md)
-    + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
-    + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
-    + [Transfer user account items](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-    + [Add a user to a group](user-management2/c-user-management/t-add-user-to-group.md)
-    + Migrate users to Adobe Admin Console {#migrate-users}
-      + [Analytics User Migration to the Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
-      + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
-      + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
-      + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
-  + User groups {#user-groups}
-    + [Add a user group](user-management2/c-user-groups/t-user-group.md)
-    + [User group settings](user-management2/c-user-groups/groups.md)
-  + Customize report access {#customize-report-access}
-    + [Customize report access - overview](user-management2/c-customize-report-access/groups-customize-report-access.md)
-    + [Customize Analytics Tools permissions](user-management2/c-customize-report-access/groups-analytics-tools.md)
-    + [Customize Report Suite Tools permissions](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-    + [Customize metric permissions](user-management2/c-customize-report-access/groups-metrics.md)
-    + [Customize dimension permissions](user-management2/c-customize-report-access/groups-dimensions.md)
-  + [Email users](user-management2/t-email-users.md)
+  + Migrate users to Adobe Admin Console {#migrate-users}
+    + [Analytics User Migration to the Admin Console](user-management2/user-migration/c-migration-tool.md)
+    + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
+    + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
+    + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
+    + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
 + Data Governance {#data-governance}
   + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
   + [Adobe Analytics and CCPA](c-data-governance/an-ccpa-overview.md)

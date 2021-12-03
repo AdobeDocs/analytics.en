@@ -251,7 +251,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `\W`  | Any non-word character  |
 |  `\b`  | Any word boundary  |
 |  `(...)`  | Capture everything enclosed  |
-|  `(a|b)`  | a or b  |
+|  `(a\|b)`  | a or b  |
 |  `a?`  | Zero or one of a  |
 |  `a*`  | Zero or more of a  |
 |  `a+`  | One or more of a  |

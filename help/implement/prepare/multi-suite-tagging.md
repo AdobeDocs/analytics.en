@@ -1,7 +1,6 @@
 ---
 description: Learn how to implement multi-suite tagging to send image request to multiple report suites.
 title: Implementing multi-suite tagging
-exl-id: 
 ---
 
 # Implementing multi-suite tagging

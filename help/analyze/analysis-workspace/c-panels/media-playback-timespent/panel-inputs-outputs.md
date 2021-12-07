@@ -3,7 +3,6 @@ title: Media Playback Time Spent panel inputs and outputs
 description: What are the Media Playback Time Spent input and output settings?
 feature: Panels
 role: User, Admin
-exl-id:
 ---
 
 # Media Playback Time Spent Panel Inputs and Outputs {#Inputs-and-outputs}

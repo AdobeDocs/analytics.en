@@ -13,7 +13,7 @@ The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interacti
 
 RDC currently includes the following locations (subject to change):
 
-## Third-party and HTTP data collection
+## Third-party data collection
 
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|
@@ -25,7 +25,7 @@ RDC currently includes the following locations (subject to change):
 >
 >If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
 
-## First-party HTTPS data collection
+## First-party data collection
 
 | RDC Type | Data Collection Centers |
 |---------------------|-------------------|

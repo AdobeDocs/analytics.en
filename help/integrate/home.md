@@ -7,9 +7,7 @@ exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-This guide focuses on integrating multiple Adobe Experience Cloud solutions. If you're looking for Analytics data connectors, see the [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) page in the Import user guide.
-
-Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. It includes:
+This guide focuses on integrating multiple Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. It includes:
 
 * **Audience Analytics:** Integrate Adobe Audience Manager with Adobe Analytics.
 * **Advertising Analytics:** See paid search data side-by-side with Adobe Analytics data.

@@ -1,7 +1,6 @@
 ---
 title: Merchandising eVar instances lookup in post_product_list
 description: Find the Merchandising eVar instance for each lookup value in the post_product_list column in a data feed.
-exl-id: 
 ---
 # Merchandising eVar instances lookup in post_product_list
 

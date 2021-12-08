@@ -23,7 +23,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 Video on Cohort tables in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >

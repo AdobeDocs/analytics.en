@@ -169,3 +169,8 @@ source,destination
 /docs/analytics/import/dataconnectors/silverpop/silverpop-wizard.html,https://exchange.adobe.com/experiencecloud.analytics.html#product
 /docs/analytics/import/dataconnectors/silverpop/silverpop-analytics-code.html,https://exchange.adobe.com/experiencecloud.analytics.html#product
 /docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html,/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html
+/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html,/docs/analytics/admin/admin-console/home.html
+/docs/analytics/admin/user-product-management/t-email-users.html,/docs/analytics/admin/admin-console/home.html
+/docs/analytics/admin/user-product-management/user-groups/groups.html,/docs/analytics/admin/admin-console/home.html
+/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html
+/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html

@@ -3,8 +3,8 @@ description: Use quick segments in Analysis Workspace.
 title: Quick segments
 feature: Workspace Basics
 role: User, Admin
+exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 ---
-
 # Quick segments
 
 You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Quick segments

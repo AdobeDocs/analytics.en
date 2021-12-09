@@ -3,8 +3,8 @@ description: Use ad-hoc segments in Analysis Workspace.
 title: Ad-hoc segments
 feature: Workspace Basics
 role: User, Admin
+exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 ---
-
 # Ad-hoc project segments
 
 Here is a video on creating ad-hoc project segments:
@@ -46,4 +46,4 @@ You can choose to save these segments by following these steps:
 
 ## What are project-only segments?
 
-Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the segment builder then the project-only box will show up. If they APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the QS builder. If they check the box and SAVE it is now a component-list segment. 
+Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the segment builder then the project-only box will show up. If they APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the QS builder. If they check the box and SAVE it is now a component-list segment.

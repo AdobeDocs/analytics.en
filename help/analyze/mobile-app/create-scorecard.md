@@ -3,8 +3,8 @@ description: How to create an Adobe Analytics dashboards scorecard
 title: Create a mobile scorecard
 feature: Analytics Dashboards
 role: User, Admin
+exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 ---
-
 # Create a mobile scorecard
 
 The following information instructs curators of Adobe Analytics data on how to configure and present mobile scorecards for executive users. To start with, you can view the Adobe Analytics dashboards Scorecard Builder video:

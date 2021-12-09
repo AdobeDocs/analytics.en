@@ -3,8 +3,8 @@ title: Media Playback Time Spent panel
 description: How to use and interpret the Media Playback Time Spent panel in Analysis Workspace.
 feature: Panels
 role: User, Admin
+exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 ---
-
 # Media Playback Time Spent panel
 
 Media Analytics customers can analyze playback time spent to understand where peak concurrency occurred or where drop-oﬀs happened to provide valuable insight into the quality of content and viewer engagement, and to help with troubleshooting or planning for volume or scale.

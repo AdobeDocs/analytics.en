@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Classification data files
 feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
+exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 ---
-
 # Classification data files
 
 The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
@@ -200,4 +200,3 @@ To classify campaigns based on date range:
 ## Troubleshooting classifications
 
 * [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
-

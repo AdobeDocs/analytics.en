@@ -1,6 +1,7 @@
 ---
 title: Identified People
 description: The number of people identified by Cross-Device Analytics.
+exl-id: eb98aa7f-d5e7-403f-b3b7-a9b0f7ccd502
 ---
 # Identified People
 

@@ -1,8 +1,8 @@
 ---
 title: Marketing Channels FAQ
 description: Frequently asked questions for Marketing channels.
+exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 ---
-
 # Marketing Channels FAQ
 
 >[!NOTE]

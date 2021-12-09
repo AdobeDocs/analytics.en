@@ -2,8 +2,8 @@
 description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
 title: Server Call Usage alerts
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
+exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 ---
-
 # Server Call Usage alerts
 
 When you set up an alert, it applies to all report suites in all login companies of a Billing company.
@@ -71,4 +71,3 @@ To manage alerts:
    |Enable/Disable|You can enable or disable all alerts, even the default ones.|
    |Renew|When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date.|
    |Export to CSV|See [Download Usage Report](/help/admin/c-server-call-usage/report-suite-usage.md)|
-   

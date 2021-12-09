@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Classification template
 feature: Admin Tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 ---
-
 # Classification template
 
 (Optional) Before importing classifications into reports and projects, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
@@ -46,4 +46,3 @@ The template provides the file format you must follow for classifications.
 1. Save the template file to your local system.
 
    The template file is a tab-delimited data file ( [!DNL .tab] filename extension) that most spreadsheet applications support.
-

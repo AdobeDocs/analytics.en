@@ -1,8 +1,0 @@
-vi \
-./c-analytics-digital-assistants/digital-assistants-white-paper.md  \
-./c-get-started-implementation/t-analytics-implementation-get-started.md  \
-./other/dtm/t-configure-hosting.md  \
-./other/dtm/c-aa-tool/analytics-dtm.md  \
-./other/dtm/t-data-element.md  \
-./faq.md  \
-./appmeasurement-release-notes/c-release-notes-mjs.md   

@@ -7,9 +7,6 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
 # Get started with Reports & Analytics
 
->[!NOTE]
->This product is authorized for sale in North America and other regions where the product is actually sold and may not meet the requirements for sale in other countries or regions.
-
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
@@ -96,3 +93,6 @@ Steps that describe how to change the interface language. You can view the Repor
 1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
 You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+
+>[!NOTE]
+>This product is authorized for sale in North America and other regions where the product is actually sold. It may not meet the local requirements for sale in other countries or regions.

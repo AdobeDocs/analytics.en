@@ -174,3 +174,5 @@ source,destination
 /docs/analytics/admin/user-product-management/user-groups/groups.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html
 /docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html
+/docs/analytics/admin/user-product-management/user-management/permissions-changes.html,/docs/analytics/admin/admin-console/home.html
+/docs/analytics/admin/user-product-management/user-management/t-transfer-user-accout-privileges.html,/docs/analytics/admin/admin-console/home.html

@@ -9,6 +9,9 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
 
 * How many people visit your site 
@@ -24,9 +27,6 @@ Reporting provides insights into your traditional web-based channels as well as 
 ## Browser and system requirements
 
 Browser and system requirements to log in to the Reports & Analytics interface.
-
->[!NOTE]
->Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
 
 * Preferred Browsers: Latest versions of Firefox, Chrome, Safari, or Edge.
 * Cookies and JavaScript must be enabled.

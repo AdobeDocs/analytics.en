@@ -11,6 +11,9 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 
 Information about scheduling, downloading and distributing reports.
 
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+
 When you schedule a report for delivery in an Adobe Analytics application, you can use the Scheduling and Distribution tools to view what files have been automatically sent and modify or terminate the deliveries.
 
 Due to differences in processing mechanisms and platforms, the various types of downloadable and scheduled reports available in Adobe Analytics have different limitations regarding the maximum number of rows they can process in a single request. Here are the limits of each:

@@ -12,6 +12,9 @@ An introduction to the features of a report, including the toolbar, calendar, an
 
 This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+
 ## Example Pages Report {#section_288CC85536684C2DB184141358481EF0}
 
 An example of a Pages Report ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).

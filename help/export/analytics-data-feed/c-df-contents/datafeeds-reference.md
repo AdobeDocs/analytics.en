@@ -95,7 +95,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `latlon1` | Location (down to 10 km) | varchar(255) |
 | `latlon23` | Location (down to 100 m) | varchar(255) |
 | `latlon45` | Location (down to 1 m) | varchar(255) |
-| `mc_audiences` | List of Audience Manager segment IDs that the visitor belongs to. | text |
+| `mc_audiences` | List of Audience Manager segment IDs that the visitor belongs to. The `post_mc_audiences` column changes the delimiter to `--**--`. | text |
 | `mcvisid` | Experience Cloud Visitor ID. 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits. | varchar(255) |
 | `mobile_id` | If the user is using a mobile device, the numeric ID of the device. | int |
 | `mobileaction` | Mobile action. Automatically collected when `trackAction` is called in Mobile Services. Allows for automatic action pathing in the app. | varchar(100) |
@@ -140,7 +140,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `mobilerelaunchcampaigntrackingcode` | Collected from the context data variable `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
 | `mobileresolution` | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Flag indicating the visitor is unique to the current month. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. | text |
+| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
 | `namespace` | Not used. Part of a scrapped feature. | varchar(50) |
 | `new_visit` | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | `os` | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. Uses `os` lookup. | int unsigned |

@@ -49,3 +49,17 @@ Learn more about all data [export options](https://experienceleague.adobe.com/do
 Learn more about all data [export options](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) for Analysis Workspace.
 
 ![](assets/export-options.png)
+
+## Videos
+
+Freeform table builder overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+
+Freeform table filters:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+
+Freeform table totals:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)

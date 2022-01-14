@@ -25,7 +25,7 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md)
   + [Data feed best practices](analytics-data-feed/data-feeds-best-practices.md)
-  + [Troubleshoot jobs](analytics-data-feed/jobs-troubleshooting.md)
+  + [Troubleshoot Data feeds](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
@@ -56,6 +56,7 @@ user-guide-description: Use Data Feeds to receive an hourly or daily export of r
   + [Use passive FTP mode](ftp-and-sftp/ftp-passive.md)
   + [FTP processing times](ftp-and-sftp/ftp-processing.md)
   + Secure File Transfer Protocol {#secure-file-transfer-protocol}
+    + [SFTP services upgrade - FAQ](ftp-and-sftp/c-sftp/sftp-upgrade.md)
     + [Secure File Transfer Protocol - overview](ftp-and-sftp/c-sftp/ftp-sftp.md)
     + [Connect to an Adobe FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
     + [Send Adobe data to an external FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)

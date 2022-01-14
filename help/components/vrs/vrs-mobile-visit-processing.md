@@ -10,6 +10,10 @@ Context-aware sessions in virtual report suites change how Adobe Analytics calcu
 
 You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your digital experiences.
 
+Here is a video on context-aware sessions:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+
 ## Customer Perspective URL Parameter
 
 The Adobe Analytics data collection process allows you to set a query string parameter specifying the customer perspective (denoted as the "cp" query string parameter). This field specifies the state of the end user's digital application. This helps you know whether a hit was generated while a mobile app was in a background state.

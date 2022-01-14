@@ -21,14 +21,13 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 [!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 
-[Cohort Analysis video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+Video on Cohort tables in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis]
->
->does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue), or Occurrences. Only metrics that can be used in segments can be used in
->[!UICONTROL Cohort Analysis], and they can only be incremented by 1 at a time. 
+>[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue, >or Occurrences. Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
 
 ## Cohort Analysis capabilities
 

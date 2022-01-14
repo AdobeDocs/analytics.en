@@ -1,6 +1,6 @@
 ---
 title: How to set user preferences in Analysis Workspace
-description: You can set general and project preferences for users.
+description: You can set general and project preferences for users, as well as a dark theme preference.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
@@ -10,6 +10,10 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 The [!UICONTROL Components] > [!UICONTROL User preferences] page lets you manage settings for Analysis Workspace and its related components at the user-level. User preferences apply to all *new* projects or panels.
 
 ![User preferences](assets/user-preferences.png)
+
+Here is a short video on user preferences:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## General preferences
 
@@ -35,3 +39,13 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 |  | [Panel Type](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Freeform (default)</li><li>Blank</li><li>Quick Insights</li></ul> |
 |  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
+
+## [!UICONTROL Dark theme]
+
+If you prefer to have a dark background for your Adobe Analytics user interface, you can toggle to [!UICONTROL Dark theme].
+
+1. Click the Experience Cloud user icon at the top right.
+
+   ![dark-theme](assets/dark-theme.png)
+
+1. Move the **[!UICONTROL Dark theme]** toggle to the right.

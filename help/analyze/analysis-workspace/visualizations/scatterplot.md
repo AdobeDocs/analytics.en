@@ -16,3 +16,7 @@ The scatterplot visualization shows the relationship between dimension items and
 * All subsequent columns in a freeform table are ignored by the scatterplot visualization.
 
 ![Scatterplot](assets/scatter.png)
+
+Here is a video on scatterplot visualizations:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

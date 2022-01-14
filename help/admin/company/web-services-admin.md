@@ -13,7 +13,7 @@ The Web Services APIs provide programmatic access to marketing reports and other
 
 ## Manage Web Services
 
-In User Management > [Groups](/help/admin/user-management2/c-user-groups/groups.md) you can update the Web Service Access group to include those users that need access to the Web Services APIs.
+In the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) you can update the permissions to include those users that need access to the Web Services APIs.
 
 ## WSDL: Download the Web Services API WSDL for Web services developers.
 

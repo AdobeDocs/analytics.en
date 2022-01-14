@@ -14,7 +14,7 @@ The following table shows different methods of excluding bots and how they stack
 | **​Able to see which pages are being visited by bots?** | Yes | No | No | No | Yes | No | Yes |
 | ​**Incurs server call cost for bots?** | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | **Bot data available in data feeds?** | No | No | Yes | Yes | Yes | No | Yes |
-| **Able to ​report on bot traffic as if they are actual server calls?** | No | No | Yes | Yes | Yes | Yes | No |
+| **Able to ​report on bot traffic as if they are actual server calls?** | No | No | Yes | Yes | Yes | No | No |
 | **Can retroactively remove data from a data set?** | No | No | ​Yes, once declared IDs are implemented | Yes | Yes, once scores are implemented | No | No |
 | **Is subject to Uniques limits in criteria?** | No | No | No | Yes | No | No | No |
 | **Is s​ubject to additional cost?** | No | No | ​Possibly, depending on Analytics SKU | No | Yes | No | ​Yes - cost to implement and maintain a VISTA rule |

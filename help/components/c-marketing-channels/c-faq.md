@@ -1,8 +1,8 @@
 ---
 title: Marketing Channels FAQ
 description: Frequently asked questions for Marketing channels.
+exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 ---
-
 # Marketing Channels FAQ
 
 >[!NOTE]
@@ -86,7 +86,7 @@ Last-touch Internal (Session Refresh) can only occur if it was also the first to
 
 * **Clearing cookies mid-site**: A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
 
-Below is an example of Internal (Session refresh) being set both as firth and last touch channels:
+Below is an example of Internal (Session refresh) being set both as first touch and last touch channels:
 
 * Day 1: User comes to the site on Display. First & Last-touch channels will get set to Display.
 * Day 2: User comes to the site on Natural Search. First-touch remains Display, and Last touch is set to Natural Search.

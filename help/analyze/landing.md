@@ -85,6 +85,8 @@ The [!UICONTROL Reports] tab consolidates three sets of reports:
 
 As previously mentioned, only the most commonly used reports that were formerly grouped in Reports & Analytics are available here. A handful of rarely used or no-longer-relevant reports were not migrated over. See the FAQ below for more detail.
 
+### Menus and submenus
+
 Here are the menus and their submenus. If you cannot find a specific report, do a "Search on page" to find it.
 
 | Menu item | Reports under this menu item | 
@@ -94,7 +96,34 @@ Here are the menus and their submenus. If you cannot find a specific report, do 
 | **[!UICONTROL Conversion]** | <ul><li>Products > Products (Which products are driving my key metrics?)</li><li>Products > Product performance (Which products are performing best?)</li><li>Products > Categories (What are my best performing product categories?</li><li>Shopping cart > Carts (How many users added a product to cart?</li><li>Shopping cart > Cart views (How many times did my visitors view their carts?)</li><li>Shopping cart > Cart additions (How often are users adding a product to their cart?)</li><li>Shopping cart > Cart removals (How often are users removing a product from their cart?)</li><li>Purchases > Revenue (How is my revenue performing?)</li><li>Purchases > Orders (How are my orders performing?)</li><li>Purchases > Units (How many units am I selling?)</li><li>[Magento: marketing and commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#commerce)</li></ul> |
 | **[!UICONTROL Audience]** |<ul><li>People metric (How many people are interacting with my brand?)</li><li>Visitor profile > Location overview (Which locations are driving the most usage among users)</li><li>Visitor profile > Geosegmentation > Geo Counties, Geo US States, Geo Regions, Geo Cities, Geo US DMA (Which geographies are my users visiting from?)</li><li>Visitor profile > Languages (Which language do my users prefer?)</li><li>Visitor profile > Time zones (Which time zones are my users visiting from?)</li><li>Visitor profile > Domains (Which ISPs are my visitors using to access my site?)</li><li>Visitor profile > Top level domains (Which domains are driving traffic to my site?)</li><li>Visitor profile > Technology > Technology overview (What technologies are people using to access my site?)</li><li>Visitor profile > Technology > Browsers, Browser type, Browser width, Browser height (Which company's browser, browser version, and its width and height, are people using to access my site?)</li><li>Visitor profile > Technology > Operating system, Operating system types (Which OS and which version of it do my visitors use?)</li><li>Visitor profile > Technology > Mobile carrier (Which mobile carriers do my visitors use to access my site?)</li><li>Visitor retention > Return frequency (How much time passes between my user's current visit and previous visits?)</li><li>Visitor retention > Return visits (How many of my visits are returning users?)</li><li>Visitor retention > Visit number (Which visit number bucket drives most of my key metrics)</li><li>Visitor retention > Sales cycle > Customer loyalty (Which loyalty segment do my users belong to?)</li><li>Visitor retention > Sales cycle > Days before first purchase (How many days passed between my users' first visit and their first purchase?)</li><li>Visitor retention > Sales cycle > Days since last purchase (How many days have passed between my users' current visit and their last purchase? )</li><li>Visitor retention > Mobile > Devices and Device types (Which devices and device types are my visitors using?)</li><li>Visitor retention > Mobile > Manufacturer (Which mobile device manufacturer do my visitors use?)</li><li>Visitor retention > Mobile > Screen size, Screen height, Screen width (Which mobile screen size/height/width do my visitors have?)</li><li>Visitor retention > Mobile > [Mobile app usage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Visitor retention > Mobile > [Mobile app journeys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Visitor retention > Mobile > [Mobile app metrics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Visitor retention > Mobile > [Mobile app messaging](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Visitor retention > Mobile > [Mobile app performance](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>Visitor retention > Mobile > [Mobile app retention](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
 | **[!UICONTROL Acquisition]** |<ul><li>Marketing channels > First touch channel, First touch channel detail (Which first touch channel, and which specific first touch channel is performing best?)</li><li>Marketing channels > First last channel, First last channel detail (Which last touch channel, and which specific last touch channel is performing best?)</li><li>Campaigns > Campaigns (Which campaigns are driving my key metrics?)</li><li>Campaigns > Campaign performance (What campaigns are driving the most revenue?)</li><li>Campaigns > Tracking code (Which campaign tracking codes perform the best?)</li><li>[Web acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#web)</li><li>[Mobile acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: paid search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#advertising)</li><li>Search keywords - all, paid, natural (Which search keywords and paid/natural search keywords drive my key metrics the best?)</li><li>Search engines - all, paid, natural (Which search engines and paid/natural search engines drive my key metrics the best?)</li><li>All search page ranking (Which search page are my users visiting from?)</li><li>Referring domains (Which domains are driving traffic to my site?)</li><li>Original referring domains (What was the first domain users were on before visiting my site?)</li><li>Referrers (Which URLs were my users on before clicking through to my site?)</li><li>Referrer types (Which category do my referring URLs belong to?)</li></ul> |
-| **[!UICONTROL Company reports]** | Reports that your company created for your use. |
+| **[!UICONTROL Company reports]** | Reports that your company created for your use. See "Create a Company report" below. |
+
+### Location of templates (now called reports)
+
+| Report (template) name | Report location |
+| --- | --- |
+| Training Tutorial | Most Popular > Training tutorial |
+| Web Content Consumption | Engagement > Web Content Consumption |
+| Media Content Consumption | Engagement > Media Content Consumption |
+| Cross-Device Analysis | Engagement > Cross-Device Analysis |
+| Web Retention | Engagement > Web Retention |
+| Media Audio Consumption | Engagement > Media Audio Consumption |
+| Media Recency, Frequency, Loyalty | Engagement > Media Recency, Frequency, Loyalty |
+| ITP Impact | Engagement > ITP Impact |
+| Product Performance | Conversion > Products > Product Performance |
+| Magento: Marketing & Commerce | Conversion > Magento: Marketing & Commerce |
+| People Metric | Audience > People Metric |
+| Location Overview | Audience > Visitor Profile > Location Overview |
+| Technology Overview | Audience > Visitor Profile > Technology > Technology Overview |
+| Mobile App Usage | Audience > Mobile > Mobile App Usage |
+| Mobile App Journeys | Audience > Mobile > Mobile App Journeys |
+| Mobile App Metrics | Audience > Mobile > Mobile App Messaging |
+| Mobile App Performance | Audience > Mobile > Mobile App Performance |
+| Mobile App Retention | Audience > Mobile > Mobile App Retention |
+| Campaign Performance | Acquisition > Campaigns > Campaign Performance |
+| Mobile Acquisition | Acquisition > Mobile Acquisition |
+| Web Acquisition | Acquisition > Web Acquisition |
+| Advertising Analytics: Paid Search | Acquisition > Advertising Analytics: Paid Search |
 
 ### Use the Reports tab
 
@@ -113,6 +142,21 @@ For current users of Reports & Analytics, here is a short intro on how to use th
    * You can drag one or more segments into the Segment drop zone at the top. For example, drag the segment [!UICONTROL Mobile Customers] and watch the results change. 
    * You can change the date range by going to the calendar at the top right.
    * You can add dimension breakdowns, drag in other metrics, and generally customize the report in any way you wish.
+
+### Create a (custom) Company report
+
+Custom reports are called Company Reports and are found in the Company Reports menu (see below). Any previously created ones and any new ones are listed here.
+
+To create a new Company report, 
+
+1. Build the Workspace to your desired state.
+1. Open the [!UICONTROL Project] menu and click **[!UICONTROL Save as company report…]**.
+   
+   ![Company report](assets/company-report.png)
+
+1. Add all desired fields to the modal and save it.
+
+   The report is added to the Company Reports list and is available to those in your login company. 
 
 More learning options:
 

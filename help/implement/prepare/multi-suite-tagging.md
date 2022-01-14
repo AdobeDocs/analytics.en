@@ -1,9 +1,8 @@
 ---
 description: Learn how to implement multi-suite tagging to send image request to multiple report suites.
 title: Implementing multi-suite tagging
-exl-id: 
+exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 ---
-
 # Implementing multi-suite tagging
 
 [Multi-suite tagging](/help/admin/c-manage-report-suites/rollup-report-suite.md) allows you to send image requests not only to a global report suite but also to individual child report suites so that you can provide subsets of your company's global report suite data to different end users.

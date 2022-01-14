@@ -10,6 +10,10 @@ exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 
 Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as "Hour of Day" or "Day of Week".
 
+Here is a video on time-parting dimensions:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+
 Time-parting dimensions are based on the time zone of the report suite or virtual report suite. These dimensions are available in Analysis Workspace and can help to answer the following questions:
 
 * Across a large date range, what is the most popular time of day for visitors to access my site or app? 
@@ -24,12 +28,12 @@ Time-parting dimensions are based on the time zone of the report suite or virtua
 Time-parting dimensions in Analysis Workspace include: 
 
 | Dimension | Example Values |
-|--- |--- |
-|Hour of Day|0-23|
-|AM/PM|AM, PM|
-|Day of Week|Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday|
-|Weekend/Weekday|Weekend, Weekday|
-|Day of Month|1-31|
-|Month of Year|January-December|
-|Day of Year|1-366|
-|Quarter of Year|Q1, Q2, Q3, Q4|
+| --- | --- |
+| Hour of Day | 0-23 |
+| AM/PM | AM, PM |
+| Day of Week | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
+| Weekend/Weekday | Weekend, Weekday |
+| Day of Month | 1-31 |
+| Month of Year | January-December |
+| Day of Year | 1-366 |
+| Quarter of Year | Q1, Q2, Q3, Q4 |

@@ -1,8 +1,8 @@
 ---
 title: Get Started with Marketing Channels
 description: Learn about the Marketing Channels workflow, the automatic setup, and how to apply template report suite settings to multiple report suites.
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 ---
-
 # Get Started with Marketing Channels
 
 >[!NOTE]
@@ -89,4 +89,3 @@ How to use a master report suite as a template for testing your marketing channe
    1. Select the template report suite, as well as one or more target report suites.
    1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
    1. Click **[!UICONTROL Save]**. If the Save button is disabled in this step, enable it by expanding one of the rules.
-   

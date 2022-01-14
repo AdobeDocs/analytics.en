@@ -20,7 +20,9 @@ It lets you:
 >
 >For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Flow Visualization video tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+Here is a Flow visualization video tutorial:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -31,3 +33,7 @@ Each column could show a different dimension. Drag a dimension and drop in a dro
 ## Export Flow Diagrams as Part of Project .CSV Files {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flow diagrams are part of a project's .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere.
+
+## Expanding on Flow visualization
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

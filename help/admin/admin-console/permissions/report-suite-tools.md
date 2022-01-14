@@ -1,11 +1,11 @@
 ---
-title: Product profile permissions for Report Suite Tools
+title: Product profile permissions for Report Suite Tools in Adobe Admin Console
 description: Understand each permission item under Report Suite Tools.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 ---
 # Product profile permissions for Report Suite Tools
 
-Use this page to understand each permission item under Report Suite Tools.
+Use this page to understand each permission item under Report Suite Tools in Adobe Admin Console.
 
 | Report Suite Tools Permission Item | Description |
 |------|------|

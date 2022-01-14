@@ -54,7 +54,7 @@ Each job shows several columns providing information about it. Click a column he
   * Waiting for data: The job is operational and data for the reporting window is being collected.
   * Processing: The job is creating the data files and preparing to send them.
   * Completed: The job completed without any issues.
-  * Failed: The job did not complete. See [Troubleshoot jobs](jobs-troubleshooting.md) to help determine the cause of failure.
+  * Failed: The job did not complete. See [Troubleshoot data feeds](troubleshooting.md) to help determine the cause of failure.
   * Waiting for Export: The data for the reporting window has not yet been fully processed.
   * No data: There is no data in the report suite for the requested reporting window.
 * **Completion Time**: The time the job finished. Date and time is shown in the report suite's time zone with GMT offset.

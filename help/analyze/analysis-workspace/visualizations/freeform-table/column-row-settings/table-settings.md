@@ -19,6 +19,16 @@ Row settings vary depending on which component you have dragged into the table. 
 |Percentages|**Calculate percentages by column** is the default setting; the percentages visible in a column are calculated based on the column total. <br>**Calculate percentages by row** forces the Freeform table to calculate the cell percentages across the row as opposed to down the column, with Grand total as the denominator. This is especially useful for trending percentages. This setting is enabled by default when using the Visualize icon.|
 |Column Totals|These settings are available only for [static rows](manual-vs-dynamic-rows.md). <br> **Show as sum of current rows** shows a client-side sum of the rows in the table which means the total will *not* de-duplicate metrics like visits or visitors. <br> **Show grand total** shows a server-side sum which means the total will de-duplicate metrics.|
 
+## Change row count
+
+To change the number of rows that are displayed:
+
+1. Click the number next to [!UICONTROL Rows] at the tops of the table.
+
+   ![](assets/row-number.png)
+
+1. From the drop-down list, select the number of rows you would like the table to display.
+
 ## Videos
 
 Here is a short video on "Percentage by Row":

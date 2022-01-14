@@ -122,8 +122,8 @@ CDA uses a complex parallel processing pipeline, with multiple dependent compone
 
 The number of the 'Identified People' metric can be slightly higher if the identifier prop/eVar value runs into a [hash collision](/help/implement/validate/hash-collisions.md).
 
-The number of the 'Identified People' metric can be significantly higher if identifier prop/eVar is case-sensitive. For example, `bob` and `Bob` are supposed to be the same person, but case sensitivity forces these two values to be distinct.
+For Field-based stitching, the identifier custom variable is case-sensitive. The number of the 'Identified People' metric can be significantly higher if identifier values do not match case. For example, if `bob` and `Bob` are sent and expected to be the same person, CDA interprets these two values as distinct.
 
-## Why do I see values when viewing the identifier prop/eVar with the 'Unidentified People' metric?
+## When viewing the identifier prop/eVar, why do I see non-zero values for the 'Unidentified People' metric?
 
-This situation usually occurs when a visitor generates both authenticated and unauthenticated hits in the reporting window and [Replay](replay.md) has not yet run. Before replay, the visitor belongs to both 'Unidentified' and 'Identified' in the [Identified State](/help/components/dimensions/identified-state.md) dimension, causing some visitors to attribute unidentified hits to an identifier. Visitors remain in this state until replay runs (daily or weekly, depending on how your organization set up CDA). Running reports on only after-replay data mitigates this situation.
+This situation usually occurs when a visitor generates both authenticated and unauthenticated hits in the reporting window. The visitor belongs to both 'Unidentified' and 'Identified' in the [Identified State](/help/components/dimensions/identified-state.md) dimension, causing an attribution of unidentified hits to an identifier. This scenario can change after [Replay](replay.md) runs, depending on replay frequency and success rate.

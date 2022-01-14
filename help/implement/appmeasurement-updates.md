@@ -12,6 +12,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
 
+## Version 2.22.4
+
+Release Date: **January 11, 2022**
+
+* Fixed s.tl() to gracefully ignore objects with href objects instead of href strings.
+
+## Version 2.22.3
+
+Release Date: **October 11, 2021**
+
+* Updated files that referenced Help documentation to point to the current Help locations.
+
 ## Version 2.22.2
 
 Release Date: **September 7, 2021**

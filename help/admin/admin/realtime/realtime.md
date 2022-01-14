@@ -13,6 +13,10 @@ Displays web page traffic and ranks page views in real time. Provides actionable
 >
 >The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/realtime/t-realtime-admin.md).
 
+Here is a video overview: 
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
+
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
 Real-Time answers the following questions: What is trending on my site, and why? It allows you as a marketer to quickly respond to and actively manage the performance of your marketing content and campaigns. The real-time data reported is less than two minutes latent and auto-updates on a minute-by-minute basis.

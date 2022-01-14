@@ -7,6 +7,10 @@ exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 
 ![Banner](../../assets/doc_banner_implement.png)
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 Adobe requires code on your site or app to send data to Adobe's data collection servers. The following steps indicate how a typical implementation works.
 
 1. When a visitor comes to your site, a request is made to your web server.

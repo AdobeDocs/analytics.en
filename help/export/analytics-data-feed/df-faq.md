@@ -74,7 +74,7 @@ If an FTP transfer fails (because of a denied login, lost connection, out of quo
 
 If a transfer fails, you can rerun a job until it succeeds.
 
-If you have issues getting a data feed to appear on your FTP site, see [Troubleshoot jobs](jobs-troubleshooting.md).
+If you have issues getting a data feed to appear on your FTP site, see [Troubleshoot data feeds](troubleshooting.md).
 
 ## How do I resend a job? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -93,7 +93,3 @@ However, objects do not inherit permissions from the parent bucket. Therefore, i
 >[!NOTE]
 >
 >[!DNL Analytics] doesn't determine if the bucket has a policy that requires giving the bucket owner full control of new objects, or even if the bucket owner is in a different account than the user writing the data. Instead, [!DNL Analytics] automatically adds the bucket owner to the BucketOwnerFullControl ACL with each feed upload.
-
->[!MORELIKETHIS]
->
->* [Troubleshoot jobs](jobs-troubleshooting.md)

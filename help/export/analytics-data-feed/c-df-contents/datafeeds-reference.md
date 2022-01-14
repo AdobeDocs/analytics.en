@@ -48,7 +48,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `color` | Color depth ID based on the value of the `c_color` column. References the `color_depth.tsv` lookup table.| smallint unsigned|
 | `connection_type` | Numeric ID representing the connection type. Variable used in the [Connection type](/help/components/dimensions/connection-type.md) dimension. References the `connection_type.tsv` lookup table.| tinyint unsigned |
 | `cookies` | Variable used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.<br>Y: Enabled<br>N: Disabled<br>U: Unknown| char(1)|
-| `country` | Numeric ID representing the country the hit came from. Used in the [Countries](/help/components/dimensions/countries.md) dimension. Uses `country.tsv` lookup. | smallint unsigned|
+| `country` | Numeric ID representing values found in the `country.tsv` lookup. Used in the Top level domains report in Reports & Analytics. | smallint unsigned|
 | `ct_connect_type` | Related to the `connection_type` column. Most common values are LAN/Wifi, Mobile Carrier, and Modem. | char(20) |
 | `curr_factor` | Determines the currency decimal place, and is used for currency conversion. For example, USD uses two decimal places, so this column value would be 2. | tinyint|
 | `curr_rate` | The exchange rate when the transaction occurred. Adobe partners with XE to determine the current day's exchange rate.| decimal(24,12) |
@@ -71,11 +71,11 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `first_hit_ref_type` | Numeric ID representing the referrer type of the very first referrer of the visitor. Uses `referrer_type.tsv` lookup. | tinyint unsigned |
 | `first_hit_referrer` | The very first referring URL of the visitor. | varchar(255) |
 | `first_hit_time_gmt` | Timestamp of the very first hit of the visitor in Unix time. | int |
-| `geo_city` | Name of the city the hit came from, based on IP. Used in the [Cities](/help/components/dimensions/cities.md) dimension. | char(32) |
-| `geo_country` | Abbreviation of the country the hit came from, based on IP. | char(4) |
-| `geo_dma` | Numeric ID of the demographic area the hit came from, based on IP. Used in the [US DMA](/help/components/dimensions/us-dma.md) dimension. | int unsigned |
-| `geo_region` | Name of the state or region the hit came from, based on IP. Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
-| `geo_zip` | The zip code the hit came came from, based on IP. Helps populate the [Zip code](/help/components/dimensions/zip-code.md) dimension. See also `zip`. | varchar(16) |
+| `geo_city` | Name of the city that the hit came from, based on IP. Used in the [Cities](/help/components/dimensions/cities.md) dimension. | char(32) |
+| `geo_country` | Abbreviation of the country that the hit came from, based on IP. Used in the [Countries](/help/components/dimensions/countries.md) dimension. | char(4) |
+| `geo_dma` | Numeric ID of the demographic area that the hit came from, based on IP. Used in the [US DMA](/help/components/dimensions/us-dma.md) dimension. | int unsigned |
+| `geo_region` | Name of the state or region that the hit came from, based on IP. Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
+| `geo_zip` | The zip code that the hit came came from, based on IP. Helps populate the [Zip code](/help/components/dimensions/zip-code.md) dimension. See also `zip`. | varchar(16) |
 | `hier1 - hier5` | Used by hierarchy variables. Contains a delimited list of values. The delimiter is chosen under report suite settings. | varchar(255) |
 | `hit_source` | Indicates what source the hit came from. Hit sources 1, 2, and 6 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: Full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising Cloud data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint unsigned |
 | `hit_time_gmt` | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
@@ -95,7 +95,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `latlon1` | Location (down to 10 km) | varchar(255) |
 | `latlon23` | Location (down to 100 m) | varchar(255) |
 | `latlon45` | Location (down to 1 m) | varchar(255) |
-| `mc_audiences` | List of Audience Manager segment IDs that the visitor belongs to. | text |
+| `mc_audiences` | List of Audience Manager segment IDs that the visitor belongs to. The `post_mc_audiences` column changes the delimiter to `--**--`. | text |
 | `mcvisid` | Experience Cloud Visitor ID. 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits. | varchar(255) |
 | `mobile_id` | If the user is using a mobile device, the numeric ID of the device. | int |
 | `mobileaction` | Mobile action. Automatically collected when `trackAction` is called in Mobile Services. Allows for automatic action pathing in the app. | varchar(100) |
@@ -140,7 +140,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `mobilerelaunchcampaigntrackingcode` | Collected from the context data variable `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
 | `mobileresolution` | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Flag indicating the visitor is unique to the current month. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. | text |
+| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
 | `namespace` | Not used. Part of a scrapped feature. | varchar(50) |
 | `new_visit` | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | `os` | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. Uses `os` lookup. | int unsigned |

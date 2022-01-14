@@ -6,11 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
-# Summary Number and Summary Change
+# [!UICONTROL Summary Number] and [!UICONTROL Summary Change]
 
-## Summary Number visualization {#summary-number}
+Here is a video on these two visualizations:
 
-Use the Summary Number visualization to highlight a large number that is important in a project. This visualization behaves in the following ways:
+>[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+
+## [!UICONTROL Summary Number] visualization {#summary-number}
+
+Use the [!UICONTROL Summary Number] visualization to highlight a large number that is important in a project. This visualization behaves in the following ways:
 
 * Selects the total of the column if no cell is selected.
 * If a single cell is selected, it shows the summary for that cell.
@@ -21,14 +25,14 @@ Click the **Visualization settings** gear in to the top right to configure the S
 
 | Setting | Definition |
 |--- |--- |
-| Percentages | Display percentages instead of raw numbers.|
-| Legend visible | Display information about the metric displayed.|
-| Abbreviate value | Choose to abbreviate values and show up to 3 decimal places.|
-| Summarize value by | Choose to display the max, min, mean, median, or sum for a selection of data.|
+| [!UICONTROL Percentages] | Display percentages instead of raw numbers.|
+| [!UICONTROL Legend visible] | Display information about the metric displayed.|
+| [!UICONTROL Abbreviate value] | Choose to abbreviate values and show up to 3 decimal places.|
+| [!UICONTROL Summarize value by] | Choose to display the max, min, mean, median, or sum for a selection of data.|
 
-## Summary Change visualization {#summary-change}
+## [!UICONTROL Summary Change] visualization {#summary-change}
 
-Use the Summary Change visualization to show the delta (change) between two numbers. The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+Use the [!UICONTROL Summary Change] visualization to show the delta (change) between two numbers. The green and red color of the [!UICONTROL Summary Change] can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
 
 This visualization behaves in the following ways:
 
@@ -46,8 +50,8 @@ This visualization behaves in the following ways:
 Click the **Visualization settings** gear in to the top right to configure the Summary Change settings: 
 
 | Setting | Definition |
-|--- |--- |
-| Percentages | Display percentages instead of raw numbers.|
-| Legend visible | Display information about the metric displayed.|
-| Show Percent Change| Shows the percent change between the 2 numbers.|
-| Show Raw Difference| Shows the raw difference between the 2 numbers. You can also abbreviate values and show up to 3 decimal places with this option.|
+| --- | --- |
+| [!UICONTROL Percentages] | Display percentages instead of raw numbers. |
+| [!UICONTROL Legend visible] | Display information about the metric displayed. |
+| [!UICONTROL Show Percent Change] | Shows the percent change between the 2 numbers. |
+| [!UICONTROL Show Raw Difference] | Shows the raw difference between the 2 numbers. You can also abbreviate values and show up to 3 decimal places with this option. |

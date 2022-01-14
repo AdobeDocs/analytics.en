@@ -1,6 +1,6 @@
 ---
 description: Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
-title: Activity Map overview
+title: What is Activity Map?
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
@@ -18,21 +18,17 @@ Activity Map is an Adobe Analytics application that is designed to rank link act
 
 Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.
 
-Here is a video overview of Activity Map:
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**Getting started for Admins**
+## Getting started for Admins
 
 * [Enable Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Sample Implementation Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Getting started for Users**
+## Getting started for Users
 
 * [Install Activity Map browser plug-ins](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Launch Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Map features**
+## Activity Map features
 
 * [Robust link tracking](lnk-tracking-overview.md)
 * [Standard Mode vs. Live Mode](activitymap-standard-live.md)
@@ -51,3 +47,13 @@ Here is a video overview of Activity Map:
 * [Activity Map user interface](activitymap-user-interface.md)
 * [Activity Map reporting in Analytics](activitymap-reporting-analytics.md)
 * [Troubleshooting browser extensions](troubleshooting-browser-extensions.md)
+
+## Videos
+
+Video overview of Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Enabling, disabling, and customizing Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

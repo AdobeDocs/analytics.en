@@ -11,11 +11,13 @@ exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 
 To learn more about Adobe Analytics [!UICONTROL dashboards], refer to the following resources:
 
-* [Curator's guide](/help/analyze/mobile-app/curator.md): This guide is intended to help curators of data configure Scorecards for their executive users on [!UICONTROL dashboards]. Curators may be organizational administrators or persons in other roles who are responsible for setting up Scorecards.
+* [Curator resources](/help/analyze/mobile-app/curator.md): Intended to help curators of data configure scorecards for their executive users on [!UICONTROL dashboards]. Curators may be organizational administrators or persons in other roles who are responsible for setting up Scorecards:
 
-    To watch a video overview of this guide, see [Adobe Analytics dashboards Scorecard Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
+  * [Create scorecards](/help/analyze/mobile-app/create-scorecard.md)
+  * [Assist executives with app setup and using the app](/help/analyze/mobile-app/set-up-execs.md)
+  * To watch a video overview of the curation experience, see [Adobe Analytics dashboards Scorecard Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
 
 
 * [Executive user quick start guide](/help/analyze/mobile-app/executive.md): This guide is intended to help executive users read and interpret Scorecards on [!UICONTROL dashboards]. The app allows executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices.
 
-    To see a video that highlights this information, see [Adobe Analytics dashboards In-App Experience](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).
+  * For a video that highlights this information, see [Adobe Analytics dashboards In-App Experience](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).

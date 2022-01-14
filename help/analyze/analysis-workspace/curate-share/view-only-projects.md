@@ -12,6 +12,10 @@ You can share projects as "view-only" to recipients through the [Project share w
 
 ![](assets/view-only-project.png)
 
+Here is a video overview of view-only projects:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+
 ## Disabled interactions
 
 Disabled interactions in a view-only project include: 

@@ -43,7 +43,22 @@ Scheduled Analysis Workspace projects can be managed under **Analytics > Compone
 
 In the Scheduled Projects Manager, you can edit and delete recurring project schedules. Search for a schedule in the search bar or by using the filter options in the left rail. You can filter by tag, approved schedules, owners and more.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| Field | Description |
+| --- | --- |
+| Favorites | Selecting the star icon makes this schedule a favorite. |
+| Schedule ID | This ID is used mainly for debugging purposes. |
+| Title and Description | Title and description of this project. |
+| Owner | The person who created and owns the project. |
+| Tags | (optional) Tagging is a good way to organize projects. All users can create tags and apply one or more tags to a project. However, you can see tags only for those projects that you own or that have been shared with you.  |
+| Delivered To | The recipient(s) of this scheduled project. |
+| Expiration Date | The default expiration date is one year from the creation date. |
+| Frequency | How often you want to have this schedule project sent to the recipient(s). |
+| Execution Time | At what time of day this scheduled project gets sent. |
+| Number of Queries | The number of queries against this project. | 
+
+## Common actions
 
 The following are common actions in the Scheduled Projects manager:
 

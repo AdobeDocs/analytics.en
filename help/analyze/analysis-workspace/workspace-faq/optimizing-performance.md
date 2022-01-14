@@ -71,3 +71,9 @@ Additional factors that are not included on Help > Performance include:
 | Report suite size | The amount of data collected into your report suite. | - | Consult with your implementation team or an Adobe expert to determine if there are implementation improvements that can be made to improve overall experience in Adobe Analytics. |
 | Concurrent queries | The number of queries that are being requested by your organization to Adobe at the same time. Each organization is entitled to a minimum of 5 concurrent queries. | If a report is taking a long time, typically it is due to the fact that it is in a queue with other reports. This means your organization is trying to run many concurrent requests against a specific report suite. Queries can come from API requests, reporting UIs (Analysis Workspace, Reports & Analytics, Report Builder, etc), scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. | Spread your requests and schedules for the report suite more evenly throughout the day. Also, shift your requests to off-peak times when possible. Monday mornings, Tuesday mornings, and the first of each month are peak reporting times. |
 | Data center capacity | The amount of reporting capacity you and other customers share within an Adobe data center. | This is impacted by the number of concurrent queries made by your organization and other organizations within your data center. | Your organization is entitled to a set capacity and if the system is under a light load, Adobe will shift more capacity to you, above and beyond your entitled allowance. |
+
+## Tips to increase productivity in Analysis Workspace
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

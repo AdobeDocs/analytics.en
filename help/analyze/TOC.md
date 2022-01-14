@@ -28,7 +28,10 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
       + [Time-parting dimensions](analysis-workspace/components/dimensions/time-parting-dimensions.md)
     + [Metrics](analysis-workspace/components/apply-create-metrics.md)
-    + [Segments](analysis-workspace/components/t-freeform-project-segment.md)
+    + Segments {#segments}
+      + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
+      + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
+      + [Ad-hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -51,7 +54,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + Fallout {#fallout}
       + [Fallout overview](analysis-workspace/visualizations/fallout/fallout-flow.md)
       + [Configure a fallout visualization](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-      + [Inter-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+      + [Multi-dimensional fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
       + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
@@ -78,6 +81,10 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
+    + Media Playback Time Spent {#media-playback-timespent}
+      + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+      + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+      + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -301,7 +308,9 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
   + [Troubleshooting](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics dashboards {#mobapp}
   + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
-  + [Curator guide](mobile-app/curator.md)
+  + [Curator intro](mobile-app/curator.md)
+  + [Create a mobile scorecard](mobile-app/create-scorecard.md)
+  + [Set up executives to use dashboards](mobile-app/set-up-execs.md)
   + [Executive user quick start guide](mobile-app/executive.md)
 + [Reporting API](reporting-api.md)
 + [Labs](labs.md)

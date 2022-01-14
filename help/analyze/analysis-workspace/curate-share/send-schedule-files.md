@@ -8,7 +8,7 @@ exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 ---
 # Share menu
 
-You can curate, share and schedule PDF/CSV projects to recipients in your organiziation within the Workspace **Share menu**.
+You can curate, share and schedule PDF/CSV projects to recipients in your organization within the Workspace **Share menu**.
 
 |Menu option|Description|
 |---|---|

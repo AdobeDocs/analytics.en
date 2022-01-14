@@ -63,6 +63,10 @@ The container architecture employed in the Segment Builder defines **[!UICONTROL
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
+Here is a video overview of segment containers:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+
 **Visitor container**
 
 The Visitor container includes every visit and page view for visitors within a specified time frame. A segment at the Visitor level returns the page that meets the condition plus all other pages viewed by the visitor (and only constrained by defined date ranges). As the most broadly-defined container, reports generated at the Visitor container level will return page views across all visits and lets you generate a multi-visit analysis. Consequently, the Visitor container is the most susceptible to change based on defined date ranges.

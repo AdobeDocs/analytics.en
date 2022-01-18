@@ -16,7 +16,7 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 Release Date: **January 11, 2022**
 
-* Fixed s.tl() to gracefully ignore objects with href objects instead of href strings.
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it will gracefully ignore the `href` attribute instead of failing. This can occur when passing `svg` objects to the link tracking call.
 
 ## Version 2.22.3
 

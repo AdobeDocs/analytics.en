@@ -8,7 +8,7 @@ exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 
 >[!IMPORTANT]
 >
->Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources on July 31, 2021. [Learn more](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recommends that you use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe deprecated full processing data sources on January 31, 2022. [Learn more](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 

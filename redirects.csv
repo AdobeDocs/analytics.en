@@ -49,7 +49,7 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.html,/docs/analytics/technotes/event/compare-dates.html
 /docs/analytics/components/calculated-metrics/cm-events.html,/docs/analytics/technotes/event/calcmetrics.html
 /docs/analytics/technotes/event/event-communicate.html,/docs/analytics/technotes/event/communicate.html
-/docs/analytics/export/analytics-data-feed/df-faq.html#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D,/docs/analytics/export/analytics-data-feed/df-faq.html#BucketOwnerFullControl
+/docs/analytics/export/analytics-data-feed/df-faq.html,/docs/analytics/export/analytics-data-feed/df-faq.html
 /docs/analytics/components/variables/merchandising-variables/var-merchandising-impl.html,/docs/analytics/implementation/vars/page-vars/evar-merchandising.html
 /docs/analytics/components/variables/merchandising-variables/var-merchandising.html,/docs/analytics/components/dimensions/evar-merchandising.html
 /docs/analytics/analyze/pwa/pwa.html,/docs/analytics/technotes/pwa.html
@@ -96,7 +96,7 @@ source,destination
 /docs/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html,/docs/analytics/implementation/vars/page-vars/evar.html
 /docs/analytics/implementation/javascript-implementation/plugins/getqueryparam.html,/docs/analytics/implementation/vars/plugins/getqueryparam.html
 /docs/analytics/implementation/javascript-implementation/event-serialization.html,/docs/analytics/implementation/vars/page-vars/events/event-serialization.html
-/docs/analytics/analyze/analytics-reporting-api/api-comparison.html#analytics-reporting-api,/docs/analytics/analyze/reporting-api.html
+/docs/analytics/analyze/analytics-reporting-api/api-comparison.html,/docs/analytics/analyze/reporting-api.html
 /docs/analytics/technotes/escalations.html,/docs/analytics/technotes/event/overview.html
 /docs/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html,/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html
 /docs/analytics/components/variables/dimensions-reports/reports-device-types.html,/docs/analytics/components/dimensions/mobile-dimensions.html

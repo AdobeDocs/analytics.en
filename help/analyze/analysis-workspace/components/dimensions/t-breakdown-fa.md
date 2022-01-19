@@ -30,6 +30,14 @@ Any breakdown within a table can also have any attribution model applied to it. 
 
 ![Breakdown settings](assets/breakdown_settings.png)
 
+This is the expected behavior when applying attribution models to breakdowns or editing them:
+
+* If you apply an attribution when no other attributions exist, then the attribution applies to the entire column tree.
+
+* If you add a breakdown after an attribution has been applied, it will use the default for the given breakdown that was added, if that dimension has a default. Otherwise it will use the breakdown from the parent column. Some dimensions have a default allocation.  For example, [!UICONTROL Time] dimensions and [!UICONTROL Referrer] use [!UICONTROL Same Touch]. The [!UICONTROL Product] dimension uses [!UICONTROL Last Touch]. Other dimensions don't have a default, and will use the parent column allocation.
+
+* If there are already attributions in the column tree, changing the attribution only impacts the one you are editing.
+
 ## Videos
 
 Adding dimensions and metrics to your project in Analysis Workspace:

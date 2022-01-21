@@ -48,8 +48,3 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 
 * Check your permissions: to use the Data Governance Management interface in Adobe Analytics, you must be an Adobe Analytics Administrator.
 
-## AdobePrivacyJS: Client-side identity resolution for GDPR requests
-
-Here is a video overview on this topic:
-
->[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)

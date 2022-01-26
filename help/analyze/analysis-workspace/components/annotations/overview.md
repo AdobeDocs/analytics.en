@@ -5,7 +5,11 @@ role: User, Admin
 ---
 # Annotations overview
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. Formerly referred to as [!UICONTROL Calendar events] in [!DNL Reports & Analytics], you can annotate a date for public holidays, data issues, campaign launches, etc.
+>[!NOTE]
+>
+>This feature is currently in limited testing.
+
+Annotations enable you to effectively communicate contextual data nuances and insights to your organization. Annotations let you tie calendar events to specific dimensions/metrics. You can graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. Formerly referred to as [!UICONTROL Calendar events] in [!DNL Reports & Analytics], you can annotate a date for data issues, public holidays, campaign launches, etc.
 
 ## Visibility
 
@@ -16,7 +20,6 @@ Annotations are visible in a variety of ways:
 * Insert freeform table
 
 * Insert PDF
-
 
 ## Turn annotations on or off
 

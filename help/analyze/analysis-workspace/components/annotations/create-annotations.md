@@ -6,6 +6,10 @@ role: User, Admin
 
 # Create annotations
 
+>[!NOTE]
+>
+>This feature is currently in limited testing.
+
 1. To create annotations, you have 2 options:
 
    * Go to [!UICONTROL Components] > [!UICONTROL Annotation]. The Annotations Manager page opens. Click [!UICONTROL Create New Annotation] and the Annotations Builder opens, or

@@ -16,5 +16,13 @@ The [!UICONTROL Annotations] manager shows you all the annotations you own that 
 
 ## Annotations Manager user interface
 
-insert image
+| UI Element | Description |
+| --- | --- | 
+| Title and Description |   |
+| Report Suite |   | 
+| Owner |  |
+| Applied Date Range |  |
+| Shared with |  |
+| Date Modified |  |
+| 
 

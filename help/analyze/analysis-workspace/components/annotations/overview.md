@@ -9,7 +9,9 @@ role: User, Admin
 >
 >This feature is currently in limited testing.
 
-Annotations enable you to effectively communicate contextual data nuances and insights to your organization. Annotations let you tie calendar events to specific dimensions/metrics. You can graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. Formerly referred to as [!UICONTROL Calendar events] in [!DNL Reports & Analytics], you can annotate a date for data issues, public holidays, campaign launches, etc.
+Annotations enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range for data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. 
+
+For example, let's say you are sharing projects you created with your organization. You notice a dip or a spike in traffic or other data, and you tie an annotation to the affected metrics, dimensions or segments. These annotations then show up in a table or a line visualization and provide data context for you and the consumers of your Workspace projects.
 
 ## Visibility
 
@@ -25,8 +27,8 @@ Annotations are visible in a variety of ways:
 
 Annotations can be turned on or off in a few places:
 
-* Visualization level: Visualization settings > Show annotations
+* At the Visualization level: [!UICONTROL Visualization] settings > [!UICONTROL Show annotations]
 
-* Project level: Project info & settings > Show annotations
+* At the Project level: [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
 
-* User level: Components > User preferences > Data > Show annotations
+* At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]

@@ -2,6 +2,7 @@
 title: Annotations overview
 description: How to use annotations in Workspace.
 role: User, Admin
+solution: Analytics
 ---
 # Annotations overview
 
@@ -13,7 +14,7 @@ Annotations enable you to effectively communicate contextual data nuances and in
 
 ## Visibility
 
-Annotations are visible in a variety of ways:
+You can view annotations in a number of ways:
 
 * Insert line viz image>
 

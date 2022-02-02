@@ -41,33 +41,28 @@ You can view annotations in a number of ways: as a [!UICONTROL Line] visualizati
 
 ### Line visualization
 
-
+to follow
 
 
 ### Freeform table
 
+to follow
 
 ### Bar chart
 
+to follow
 
 ### PDF file
 
-
+to follow
 
 ## Turn annotations on or off
 
 Annotations can be turned on or off at several levels:
 
-<<<<<<< Updated upstream
 * At the Visualization level: [!UICONTROL Visualization] settings > [!UICONTROL Show annotations]
 
 * At the Project level: [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
 
 * At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
-=======
-* Visualization level: [!UICONTROL Visualization] settings > [!UICONTROL Show annotations]
 
-* Project level: [!UICONTROL Project] > [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
-
-* User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
->>>>>>> Stashed changes

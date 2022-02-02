@@ -55,8 +55,7 @@ Both of these options land you back in the Annotations Builder. There, you can m
 
 ## Tag annotations
 
-
-## 
+To follow
 
 
 

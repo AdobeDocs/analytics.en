@@ -34,6 +34,7 @@ Note:
 | --- | --- |
 | Search left rail | ctrl + / |
 | Create an Alert | ctrl + shift + a |
+| Create an Annotation | ctrl + shift + o |
 | Create Calculated Metric | ctrl + shift + c |
 | Create a Date Range | ctrl + shift + d |
 | Create a Segment | ctrl + shift + e |

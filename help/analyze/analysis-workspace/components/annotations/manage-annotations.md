@@ -41,23 +41,18 @@ Editing an annotation means that you can adjust date ranges, colors, scope, or w
 
 Both of these options land you back in the Annotations Builder. There, you can make the necessary adjustments and save the new version.
 
-## Share annotations
+## Other annotations tasks
 
-![](assets/share-ann.png)
+The Annotations manager lets Administrators edit, add, tag, delete, rename, approve, copy, export, and filter annotations. It is not visible to non-Admin users. 
 
-1. Select the annotation/s you want to share and click [!UICONTROL Share].
+Just select one or more of the annotations and the Task bar appears.
 
-1. In the [!UICONTROL Share Component] dialog, search the individuals or groups with whom you want to share the annotation/s.
-
-1. Under [!UICONTROL Organization], ....
-
-1. Click [!UICONTROL Save].
-
-## Tag annotations
-
-To follow
-
-
-
-
-
+| Task | Description |
+| --- | --- |
+| Add | Takes you to the Annotations builder where you can create new annotations. |
+| Tag | All users can create tags for annotations and apply one or more tags to an annotation. However, you can see tags only for those segments that you own. What kinds of tags should you create? Here are some suggestions for useful tags:<ul><li>Tags based on team names, such as Social Marketing, Mobile Marketing</li><li>Project tags (analysis tags), such as Entry-page analysis</li><li>Category tags: Men's; geography</li><li>Workflow tags: Curated for (a specific business unit); Approved</li></ul>|
+| Delete | Deleting an annotation removes it from any project in your organization. |
+| Rename | Renaming an annotation renames it in all projects that it was applied to. |
+| Copy | Creates a distinct copy with its own annotation ID, but with the same name and definition.|
+| Export to CSV | Export the annotation definition to a .csv file.|
+| Filter (left rail) | Filter by tags, report suite, owners, and other filters (Mine, Approved, Favorites, Shared with me, and Show All).|

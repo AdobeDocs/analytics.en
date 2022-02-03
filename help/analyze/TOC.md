@@ -27,6 +27,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
       + [Annotations overview](analysis-workspace/components/annotations/overview.md)
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
+      + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)

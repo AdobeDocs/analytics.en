@@ -30,26 +30,6 @@ By default, only Admins can create annotations. Users have rights to view annota
 
 However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en). 
 
-## View annotations
-
-You can view annotations in a number of ways: in a [!UICONTROL Line] visualization (since it is trended data), in a [!UICONTROL Freeform] table, a [!UICONTROL Bar] chart, or in an exported .pdf file.
-
-### Line visualization
-
-to follow
-
-### Freeform table
-
-to follow
-
-### Bar chart
-
-to follow
-
-### PDF file
-
-to follow
-
 ## Turn annotations on or off
 
 Annotations can be turned on or off at several levels:
@@ -60,3 +40,6 @@ Annotations can be turned on or off at several levels:
 
 * At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)

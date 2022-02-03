@@ -10,7 +10,7 @@ solution: Analytics
 >
 >This feature is currently in limited testing.
 
-Annotations enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range for data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. 
+Annotations enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range with known data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. 
 
 For example, let's say you are sharing projects you created with your organization. You notice a dip or a spike in traffic or other data, and you tie an annotation to the affected metrics, dimensions or segments. These annotations then show up in a table or a line visualization and provide data context for you and the consumers of your Workspace projects.
 
@@ -32,7 +32,7 @@ However, Admins can give the [!UICONTROL Annotation Creation] permission (Analyt
 
 ## View annotations
 
-You can view annotations in a number of ways: as a [!UICONTROL Line] visualization (since it is trended data), as a [!UICONTROL Freeform] table, a [!UICONTROL Bar] chart, or in an exported .pdf file.
+You can view annotations in a number of ways: in a [!UICONTROL Line] visualization (since it is trended data), in a [!UICONTROL Freeform] table, a [!UICONTROL Bar] chart, or in an exported .pdf file.
 
 ### Line visualization
 

@@ -23,6 +23,10 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
+    + Annotations {#annotations}
+      + [Annotations overview](analysis-workspace/components/annotations/overview.md)
+      + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
+      + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)

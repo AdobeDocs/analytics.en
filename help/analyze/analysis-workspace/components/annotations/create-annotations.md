@@ -12,11 +12,11 @@ role: User, Admin
 
 1. To create annotations, you have 4 ways to get started:
 
-   * Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation]. The Annotations Manager page opens. Click [!UICONTROL Create New Annotation] and the Annotation builder opens, or
+   * Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation]. The Annotations Manager page opens. Click [!UICONTROL Create New Annotation] and the Annotation builder opens.
 
-   * Right-click a point on a table or Line graph. The Annotation builder opens, or
+   * Right-click a point on a table or Line graph. The Annotation builder opens.
 
-   * In Workspace, go to [!UICONTROL Components] > [!UICONTROL Create annotation].
+   * In Workspace, go to [!UICONTROL Components] > [!UICONTROL Create annotation]. The Annotation builder opens.
 
    * Use this hotkey to open the Annotation builder: 
       * (PC) `ctrl` `shift` + o 
@@ -35,6 +35,6 @@ role: User, Admin
    | [!UICONTROL Color] | Apply a color to the annotation. The annotation appears in the project with the selected color. Color can be used to categorize annotations, such as public holidays, external events, tracking issues, etc. |
    | [!UICONTROL Scope] | (Optional) Drag and drop the metrics that trigger the annotation. Then drag and drop any dimensions or segments that act as as filters (i.e., that the annotation will be visible with). If you don't specify a scope, the annotation will apply to all your data.<ul><li>**[!UICONTROL Any of these metrics are present]**: Drag and drop up to 10 metrics that will trigger the annotation to show.</li><li>**[!UICONTROL With all of these filters]**: Drag and drop up to 10 dimensions or segments that will filter when the annotation shows.</li></ul><p>Use cases: An eVar has stopped collecting data for a specific date range. Drag the eVar into the **[!UICONTROL Any of these metrics are present]** dialog. Or your [!UICONTROL Visits] metric isn't reporting any data - follow the same process. |
    | [!UICONTROL Apply to all report suites] | By default, the annotation applies to the originating report suite. By checking this box, you can make the annotation apply to all report suites in the company. |
-   | [!UICONTROL Apply to all projects] | By default, the annotation applies to the current project. By checking this box, you can make the annotation apply to all projects that you own. |
+   | [!UICONTROL Apply to all projects] | By default, the annotation applies to the current project. By checking this box, you can make the annotation apply to all projects that you own. Note that this checkbox appears only when you launch the Annotation builder from the Annotation manager. |
    
 1. Click [!UICONTROL Save].

@@ -14,6 +14,8 @@ Annotations enable you to effectively communicate contextual data nuances and in
 
 For example, let's say you are sharing projects you created with your organization. You notice a dip or a spike in traffic or other data, and you tie an annotation to the affected metrics, dimensions or segments. These annotations then show up in a table or a line visualization and provide data context for you and the consumers of your Workspace projects.
 
+Keep this in mind:
+
 * Annotations can be tied to a single date or to a date range. 
 
 * They can apply to your entire data set or to specified metrics, dimensions, or segments. 
@@ -26,7 +28,7 @@ For example, let's say you are sharing projects you created with your organizati
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en). 
 
 ## View annotations
 

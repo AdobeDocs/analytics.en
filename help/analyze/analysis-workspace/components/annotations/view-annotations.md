@@ -6,6 +6,10 @@ role: User, Admin
 
 # View annotations
 
+>[!NOTE]
+>
+>This feature is currently in limited testing.
+
 Annotations manifest slightly differently, depending on whether they span a single day or a date range.
 
 ## View annotations in Line charts or Tables

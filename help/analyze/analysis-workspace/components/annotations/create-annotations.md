@@ -2,8 +2,8 @@
 title: Create annotations
 description: How to create annotations in Workspace.
 role: User, Admin
+exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 ---
-
 # Create annotations
 
 >[!NOTE]
@@ -62,4 +62,3 @@ role: User, Admin
    ![](assets/annotate-table.png)
 
 1. Fill in the details as specified above. Notice that the date/s and any metric, etc., have already been populated.
-

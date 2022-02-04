@@ -2,8 +2,8 @@
 title: View annotations
 description: How to view annotations in Workspace.
 role: User, Admin
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 ---
-
 # View annotations
 
 >[!NOTE]

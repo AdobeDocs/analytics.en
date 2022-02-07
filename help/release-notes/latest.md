@@ -5,6 +5,10 @@ description: Latest Analytics release notes
 
 # Latest Adobe Analytics release notes
 
+**January 2022**
+
+Learn about the latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html). Get the latest self-help documentation, tutorials, and courses on Experience League.
+
 ## New features in Adobe Analytics {#aa-features}
 
 | Feature | Description | Targeted Date |

@@ -11,6 +11,8 @@ On **May 2, 2022**, Adobe Analytics will upgrade its Secure File Transfer Protoc
 
 The FTP/SFTP software you are using should indicate what specific settings are being used in the connections you have configured for exchanging data with Adobe Analytics. This software should also include documentation about the different options available for connections. The options that will be supported after this update are widely supported and accepted in the industry.
 
+The connection options that will be removed are generally considered obsolete and not used in current software. If you upgraded your FTP/SFTP software within the last three years, you likely already have a compliant connection.
+
 ## Which Adobe Analytics features use SFTP for data ingestion?
 
 The following features provide an option to upload data to Adobe Analytics using SFTP.

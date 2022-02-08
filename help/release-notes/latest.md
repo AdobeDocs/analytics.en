@@ -1,8 +1,8 @@
 ---
 title: View the current Adobe Analytics release notes
 description: Latest Analytics release notes
+exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-
 # Latest Adobe Analytics release notes
 
 **January 2022**

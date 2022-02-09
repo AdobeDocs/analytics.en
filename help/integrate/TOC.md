@@ -6,9 +6,10 @@ breadcrumb-title: Integration Guide
 user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
 ---
 
-# Analytics Integration Guide {#integration}
+# Adobe Analytics Integration Guide {#integration}
 
 + [Analytics Integration](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Audience Analytics {#audience-analytics}
   + [Audience Analytics overview](c-audience-analytics/mc-audiences-aam.md)
   + Audience Analytics workflow {#audience-analytics-workflow}

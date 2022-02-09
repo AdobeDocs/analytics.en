@@ -6,9 +6,10 @@ breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 ---
 
-# [!DNL Analytics] Components Guide {#components}
+# [!DNL Adobe Analytics] Components Guide {#components}
 
 + [Analytics Components Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)

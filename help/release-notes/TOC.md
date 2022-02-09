@@ -6,7 +6,7 @@ breadcrumb-title: Release Notes
 user-guide-description: A list of new feature and bug fix descriptions.
 ---
 
-# Analytics Release Notes {#release-notes}
+# Adobe Analytics Release Notes {#release-notes}
 
 + [Current release notes](latest.md)
 + Previous release notes {#previous}

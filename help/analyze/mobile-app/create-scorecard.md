@@ -24,11 +24,11 @@ To create the Scorecard, you need to do the following:
 1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Configure the scorecard with data and save it.
 
-## Access the [!UICONTROL Blank Mobile Scorecard] template
+## Access the [!UICONTROL Blank Mobile Scorecard] template {#template}
 
 You can access the [!UICONTROL Blank Mobile Scorecard] template either by creating a new project, or from the Tools menu.
 
-### Create a new project
+### Create a new project {#create}
 
 1. Open Adobe Analytics and click the **[!UICONTROL Workspace]** tab.
 1. Click **[!UICONTROL Create project]** and select the **[!UICONTROL Blank mobile scorecard]** project template.
@@ -41,7 +41,7 @@ You can access the [!UICONTROL Blank Mobile Scorecard] template either by creati
 1. From the **[!UICONTROL Tools]** menu, select **[!UICONTROL Analytics dashboards (Mobile App)]**.
 1. On the subsequent screen, click **[!UICONTROL Create new scorecard]**.
 
-## Configure the scorecard with data and save it
+## Configure the scorecard with data and save it {#configure}
 
 To implement the Scorecard template:
 
@@ -56,7 +56,7 @@ To implement the Scorecard template:
 
 1. From each tile, you can access a detailed view that displays additional information about the metric, such as top items for a list of related dimensions.
 
-## Add dimensions or metrics
+## Add dimensions or metrics {#dimsmetrics}
 
 To add a related dimension to a metric, drag a dimension from the left panel and drop it onto a tile. 
 
@@ -64,7 +64,7 @@ For example, you can add appropriate dimensions (like **[!DNL Marketing Channel]
 
 ![Add dimensions](assets/layer_dimensions.png)
 
-## Apply segments
+## Apply segments {#segments}
 
 To apply segments to individual tiles, drag a segment from the left panel and drop it directly on top of the tile. 
 
@@ -72,7 +72,7 @@ If you want to apply the segment to all the tiles in the Scorecard, drop the til
 
 ![Build segments for filter](assets/segment_ui.png)
 
-## Add date ranges
+## Add date ranges {#dates}
 
 Add and remove date range combinations that can be selected in your scorecard by selecting the date range drop down.
 
@@ -96,7 +96,7 @@ If the date range you want hasn’t been created yet, you can create a new one b
 
 This will take you to the date range builder where you can create and save a new date range component. 
 
-## Apply visualizations
+## Apply visualizations {#viz}
 
 View a video on visualizations for mobile scorecards:
 
@@ -146,7 +146,7 @@ If you want to remove [!UICONTROL Unspecified] dimension items from your data, d
 
 1. Click the icon next to **[!UICONTROL Unspecified]** to remove unspecified data from your reporting. (You can also remove any other dimension item.)
 
-## View and configure tile properties
+## View and configure tile properties {#tiles}
 
 When you click a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile. In this rail, you can provide a new **[!UICONTROL Title]** for the tile and alternatively configure the tile by specifying components instead of dragging and dropping them from the left-hand rail.
 
@@ -164,19 +164,39 @@ Breakdowns refine your analysis by literally breaking down metrics and dimension
 
 Each dimension added to the tile will show up in a drop-down list in the detailed view of the app. The executive user can then choose among the options listed in the drop-down list.
 
-## Remove components
+## Remove components {#remove}
 
 Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **First Time Visits** segment:
 
 ![Remove_components](assets/new_remove.png)
 
-## Name a scorecard
+## Preview scorecard {#preview}
+
+You can preview how the scorecard will look and function once it is published in the Analytics dashboards app. 
+
+1. Click **[!UICONTROL Preview]** in the upper right hand corner of the screen.
+
+    ![Preview_scorecards](assets/preview.png)
+
+1. To view what the scorecard will look like on different devices, select a device from the [!UICONTROL Device preview] drop-down menu.
+
+    ![Device_preview](assets/device-preview.png)
+
+1. To interact with the preview, you can:
+
+    * Left click to simulate tapping on the phone screen.
+    
+    * Use your computer's scroll function to simulate scrolling the phone screen with your finger.
+    
+    * Click and hold to simulate pressing and holding your finger on the phone screen. This is useful for interacting with the visualizations in the detailed view.
+
+## Name a scorecard {#name}
 
 To name the Scorecard, click the namespace in the upper-left of the screen and type the new name.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Share a scorecard
+## Share a scorecard {#share}
 
 To share the Scorecard with an executive user:
 

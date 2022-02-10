@@ -54,8 +54,8 @@ source,destination
 /docs/analytics/analyze/pwa/pwa.html,/docs/analytics/technotes/pwa.html
 /docs/analytics/analyze/tech-previews/overview.html,/docs/analytics/analyze/labs.html
 /docs/analytics/landing/an-key-concepts.html,/docs/analytics/technotes/terms.html
-/docs/analytics/landing/an-releases.html,/docs/analytics/technotes/releases.html
-/docs/analytics/landing/doc-updates.html,/docs/analytics/technotes/doc-updates.html
+/docs/analytics/landing/an-releases.html,/docs/analytics/release-notes/releases.html
+/docs/analytics/landing/doc-updates.html,/docs/analytics/release-notes/doc-updates.html
 /docs/analytics/analyze/reports-analytics/key-concepts.html,/docs/analytics/technotes/terms.html
 /docs/analytics/landing/home.html,/docs/analytics.html
 /docs/analytics/analyze/activity-map/activitymap-info-resources.html,/docs/analytics/analyze/activity-map/activity-map.html

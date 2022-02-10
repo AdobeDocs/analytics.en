@@ -9,7 +9,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 # What's New in Analysis Workspace
 
 >[!IMPORTANT]
->Further Analysis Workspace updates have been rolled into the [Adobe Analytics Documentation Updates](/help/technotes/doc-updates.md) page.
+>Further Analysis Workspace updates have been rolled into the [Adobe Analytics Documentation Updates](/help/release-notes/doc-updates.md) page.
 
 See [Adobe Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) for updates to the overarching product.
 

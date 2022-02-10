@@ -15,7 +15,7 @@ Learn about the latest release updates for [Adobe Experience Cloud products](htt
 
 ## New features in Adobe Analytics {#aa-features}
 
-| Feature | Description | [Targeted Date](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en)  |
+| Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Mobile scorecard project preview mode | Launch a preview of how your mobile scorecard will look in the Analytics dashboards app, directly from the scorecard builder. The preview mode allows users to interact with filters and charts in the same way they would in the app, allowing them to preview the experience before they save and share the scorecard. Users can also use the device picker in preview mode to see how their scorecard will look on different devices. | February 16, 2022 |
 

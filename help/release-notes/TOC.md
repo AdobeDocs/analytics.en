@@ -14,3 +14,5 @@ user-guide-description: A list of new feature and bug fix descriptions.
   + [2021 release notes](2021.md)
   + [2020 release notes](2020.md)
   + [2019 release notes](2019-earlier.md)
++ [Documentation updates](doc-updates.md)
++ [Analytics feature releases](releases.md)

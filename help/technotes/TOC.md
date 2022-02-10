@@ -38,7 +38,6 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
 + [Data retention](data-retention.md)
 + [Exclude data](exclude-data.md)
-+ [Feature releases](releases.md)
 + [IPs and domains used by Adobe Analytics](ip-addresses.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)

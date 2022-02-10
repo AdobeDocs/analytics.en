@@ -3,21 +3,21 @@ title: View the current Adobe Analytics release notes
 description: Latest Analytics release notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Latest Adobe Analytics release notes
+# Current Adobe Analytics release notes (February 2022)
 
 >[!IMPORTANT]
 >
 >These release notes contain pre-release information that is subject to change.
 
-**February 16, 2022**
+**Last update**: February 10, 2022
 
 Learn about the latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html). Get the latest self-help documentation, tutorials, and courses on Experience League.
 
 ## New features in Adobe Analytics {#aa-features}
 
-| Feature | Description | Targeted Date |
+| Feature | Description | [Targeted Date](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en)  |
 | ----------- | ---------- | ------- |
-| No new features this month | N/A |See [General Availability](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) |
+| Mobile scorecard project preview mode | Launch a preview of how your mobile scorecard will look in the Analytics dashboards app, directly from the scorecard builder. The preview mode allows users to interact with filters and charts in the same way they would in the app, allowing them to preview the experience before they save and share the scorecard. Users can also use the device picker in preview mode to see how their scorecard will look on different devices. | February 16, 2022 |
 
 {style="table-layout:auto"}
 

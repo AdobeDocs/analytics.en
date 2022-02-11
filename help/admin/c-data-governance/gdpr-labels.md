@@ -1,12 +1,11 @@
 ---
 description: Examples of Data Privacy Labels for Adobe Analytics Variables
 title: Data Privacy Labels for Analytics Variables
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
 # Data Privacy Labels for Analytics Variables
 
-## Why Label Your Data? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## Why Label Your Data? {#why-label}
 
 Many Adobe customers have legal teams that have reviewed the Data Privacy laws (GDPR, CCPA, etc.) and that have drawn their own conclusions about how data should be handled in order to conform with Data Privacy laws. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for Data Privacy data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for Data Privacy data processing for their unique data. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
@@ -16,7 +15,7 @@ Before you can figure out which labels should be applied to which variables/fiel
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 
-## DULE Labels {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE Labels {#dule-labels}
 
 >[!NOTE]
 >
@@ -83,7 +82,7 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
 
 Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to be compliant with regulations and corporate policies.
 
-**Data Privacy Access Labels** 
+### Data Privacy Access Labels
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -114,7 +113,7 @@ Data Governance labels provide users the ability to classify data that reflects 
 
 While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with data subjects.
 
-**Data Privacy Delete Labels** 
+### Data Privacy Delete Labels
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -157,7 +156,7 @@ While few variables will receive any of the other labels, it is expected that ac
  </tbody> 
 </table>
 
-**Data Privacy Identity Labels** 
+### Data Privacy Identity Labels
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -171,7 +170,7 @@ While few variables will receive any of the other labels, it is expected that ac
   <tr> 
    <td colname="col1"> <p>None </p> </td> 
    <td colname="col2"> <p>This variable does not contain an ID that will be used for Data Privacy requests. </p> </td> 
-   <td colname="col3"> <p>You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the Data Privacy API or UI. </p> </td> 
+   <td colname="col3"> <p>You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) or UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -198,11 +197,17 @@ While few variables will receive any of the other labels, it is expected that ac
  </tbody> 
 </table>
 
+| Label | Definition | Other Requirements |
+| --- | --- | --- |
+| None | This variable does not contain an ID that will be used for Data Privacy requests.|You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) or UI.|
+| ID-DEVICE | This field contains an ID that can be used to identify a device for a Data Privacy request , but cannot distinguish between different users of a shared device.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID.|Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
+| ID-PERSON | This field contains an ID that can be used to identify an authenticated user (a specific person) for a Data Privacy request.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. | Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
+
 ## Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide a namespace. You can either use a previously defined namespace or define a new one.
 
-**Use a Previously Defined Namespace**
+### Use a Previously Defined Namespace
 
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
@@ -211,7 +216,7 @@ If you have previously assigned an ID label to other variables in any of the rep
 
 ![](assets/namespace.png)
 
-**Define a New Namespace**
+### Define a New Namespace
 
 You can also define a new namespace. We recommend that namespace strings be limited to alphanumeric characters, plus the characters underscore, dash and space. They will be converted to all lower case.
 

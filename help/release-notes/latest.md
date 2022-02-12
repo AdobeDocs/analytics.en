@@ -1,6 +1,6 @@
 ---
-title: View the current Adobe Analytics release notes
-description: Latest Analytics release notes
+title: Latest Analytics release notes
+description: View the current Adobe Analytics release notes.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (February 2022)
@@ -18,6 +18,7 @@ Learn about the latest release updates for [Adobe Experience Cloud products](htt
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Mobile scorecard project preview mode | Launch a preview of how your mobile scorecard will look in the Analytics dashboards app, directly from the scorecard builder. The preview mode allows users to interact with filters and charts in the same way they would in the app, allowing them to preview the experience before they save and share the scorecard. Users can also use the device picker in preview mode to see how their scorecard will look on different devices. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | February 16, 2022 |
+| API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | Feb 1, 2022 |
 
 {style="table-layout:auto"}
 
@@ -29,11 +30,9 @@ Learn about the latest release updates for [Adobe Experience Cloud products](htt
 * Fixed an issue with slow reporting times. (AN-280055)
 * Fixed issues with Classifications not classifying all dimension items. (AN-280031)
 
-
 ### Additional fixes in Adobe Analytics
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-276258, AN-276705, AN-277051, AN-277957, AN-278693, AN-278882, AN-279000, AN-279046, AN-279362, AN-279460, AN-279488, AN-279554, AN-279572, AN-279663, AN-279755, AN-279825, AN-280002, AN-280013, AN-280019, AN-280033, AN-280086, AN-280232, AN-280264, AN-280288, AN-280342, AN-280347, AN-280360, AN-280370, AN-280724, AN-280830, AN-280941, AN-281353, AN-281424, AN-281533
-
 
 ## Important notices for [!DNL Analytics] administrators
 
@@ -49,4 +48,3 @@ For the latest updates on AppMeasurement releases (Version 2.22.4), please refer
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-

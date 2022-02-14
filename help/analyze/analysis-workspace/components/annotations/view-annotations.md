@@ -28,3 +28,9 @@ Annotations manifest slightly differently, depending on whether they span a sing
 Since you cannot hover over icons in a .pdf file, this file (after export) provides notes of explanations at the bottom of a panel. Here is an example:
 
 ![](assets/ann-pdf.png)
+
+## View annotations that are not based on dates
+
+Sometimes annotation are not tied to a date, but tied to a specific dimension. In that case, they appear only in a summary annotation in the bottom right corner. Here is an example:
+
+![](assets/non-date.png)

@@ -12,22 +12,13 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 
 1. To create annotations, you have several ways to get started:
 
-   * **Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** The Annotations Manager page opens. Click [!UICONTROL Create New Annotation] and the [!UICONTROL Annotation builder] opens.
-
-   * **Right-click a point on a table.** [!UICONTROL The Annotation builder] opens. Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.
-
-       ![](assets/annotate-table.png)
-
-   * **Right-click a point in a [!UICONTROL Line] graph.** The [!UICONTROL Annotation builder] opens. Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.
-   
-      ![](assets/annotate-line.png)
-
-   * **In Workspace, go to [!UICONTROL Components] > [!UICONTROL Create annotation].** The [!UICONTROL Annotation builder] opens.
-
-   * **Use this hotkey** to open the Annotation builder: 
-      * (PC) `ctrl` `shift` + o 
-      * (Mac) `shift` + `command` + o
-      * Note that by using the hotkey to create an annotation, you create a single-day annotation for the current date, without any pre-selected scope (metrics or dimensions).
+| Creation method | Details |
+| --- | --- |
+| **Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Annotation].** | The Annotations Manager page opens. Click [!UICONTROL Create New Annotation] and the [!UICONTROL Annotation builder] opens. |
+| **Right-click a point on a table.** | [!UICONTROL The Annotation builder] opens. Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.<p>![](assets/annotate-table.png) |
+| **Right-click a point in a [!UICONTROL Line] graph.** | The [!UICONTROL Annotation builder] opens. Note that, by default, annotations created this way are visible only in the project where they were created. But you can make them available to all projects. Also notice that the date/s and any metric, etc., have already been populated.<p>![](assets/annotate-line.png) |
+| **In Workspace, go to [!UICONTROL Components] > [!UICONTROL Create annotation].** | The [!UICONTROL Annotation builder] opens. |
+| **Use this hotkey** to open the Annotation builder: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Note that by using the hotkey to create an annotation, you create a single-day annotation for the current date, without any pre-selected scope (metrics or dimensions). |
 
 1. Fill in the [!UICONTROL Annotation builder] elements.
 
@@ -44,4 +35,4 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
    | [!UICONTROL Apply to all report suites] | By default, the annotation applies to the originating report suite. By checking this box, you can make the annotation apply to all report suites in the company. |
    | [!UICONTROL Apply to all projects] | By default, the annotation applies to the current project. By checking this box, you can make the annotation apply to all projects that you own. Note that this checkbox appears only when you launch the Annotation builder from the Annotation builder? |
    
-1. Click [!UICONTROL Save].
+1. Click **[!UICONTROL Save]**.

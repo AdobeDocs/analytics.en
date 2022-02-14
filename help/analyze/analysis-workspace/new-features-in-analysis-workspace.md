@@ -542,7 +542,7 @@ New features and enhancements released on January 18, 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contribution Analysis: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > Token Notification </a> </p> </td> 
-   <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left.&amp;nbsp; </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. )&nbsp; </p> </td> 
+   <td colname="col2"> <p>If your company has a limited number of Contribution Analysis tokens, the Analysis Workspace UI now shows a notification when you consume a token. It lets you know how many tokens you have left. </p> <p>(Admin users: you can restrict who can use these tokens, by editing the group permission. The permission is called "Anomaly Detection and Contribution Analysis" under <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>&gt; <span class="uicontrol"> Edit Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Customize Report Suite Tools </span> &gt; <span class="uicontrol"> Tools And Reports </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV files with multi-bye characters </p> </td> 
@@ -592,7 +592,7 @@ New features released on October 26, 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Map Visualization </a> </p> </td> 
-   <td colname="col2"> <p>The new&amp;nbsp;Map Visualization&amp;nbsp;lets you easily view your customer interactions within the context of their location. From a macro (global) view to a micro (city) view, you can easily zoom in and out of various hierarchy levels in the visualization to see clusters of users across regions. </p> <p>You can visualize location data via IP address (for non-mobile data sets) or you can bring latitude and&amp;nbsp;longitude data (for customers using the Mobile SDK) to life in Analysis Workspace.&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>The new Map Visualization lets you easily view your customer interactions within the context of their location. From a macro (global) view to a micro (city) view, you can easily zoom in and out of various hierarchy levels in the visualization to see clusters of users across regions. </p> <p>You can visualize location data via IP address (for non-mobile data sets) or you can bring latitude and longitude data (for customers using the Mobile SDK) to life in Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Granularity selector for trended visualizations </a> </p> </td> 

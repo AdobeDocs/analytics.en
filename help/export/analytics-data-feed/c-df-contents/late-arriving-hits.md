@@ -1,6 +1,7 @@
 ---
 title: Late arriving hits
 description: Learn how data feeds treat late arriving hits.
+feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 ---
 # Late arriving hits

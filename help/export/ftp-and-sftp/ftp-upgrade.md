@@ -2,7 +2,7 @@
 description: Upgrades to Adobe FTP servers can introduce new configurations that affect automation scripts (often used to download or upload data regularly), which are often built to rely on certain server settings.
 keywords: ftp;sftp
 title: Upgrade Adobe FTP servers
-uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
+feature: FTP Export
 exl-id: 442b2d5d-735c-4ece-a456-3a0ac5909c8c
 ---
 # Upgrade Adobe FTP servers

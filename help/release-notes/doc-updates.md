@@ -31,7 +31,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | July 23, 2021 | New in-depth discussion of [Merchandising eVars](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | July 15, 2021 | Added new documentation on the new [Adobe Analytics landing page](/help/analyze/landing.md) |
 | **June 2021** |  |
-| June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) | 
+| June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
 | May 25, 2021 | Updated the documentation on [eVar case sensitivity in reporting](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
 | May 13, 2021 | Updates to [Data Warehouse API requests](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). They now support “Hours”. |
@@ -54,7 +54,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | November 24, 2020 | Updates to [Panel Overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) page in Workspace. |
 | November 24, 2020 | New implementation review documents: <ul><li>[Full Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Focused Implementation Review](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | November 24, 2020 | Updated Analysis Workspace [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) page. |
-| November 12, 2020 | New page on [Inherited Adobe Analytics Implementation](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). | 
+| November 12, 2020 | New page on [Inherited Adobe Analytics Implementation](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). |
 | November 2, 2020 | Updated document on [FTP for classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en). |
 | **October 2020** | |
 | October 23, 2020 | Workspace Line visualization: [Moving average trendline option](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): This setting was added to [!UICONTROL Line] visualization trendline settings. Also known as a rolling average, a moving average uses a specific number of data points (determined by a **[!UICONTROL Periods]** selection), averages them, and uses the average as a point in the line. |
@@ -132,7 +132,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | July 18, 2019 | Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|
 | July 18, 2019 | In the left rail in Workspace, users now have the option to _Show items from last 18 months_. Previously, the lookback period was a maximum of 6 months. This makes it easier to compare to pages or campaigns from last year, up to 18 months ago. |
 | July 18, 2019 | Documentation on a new Workspace template called ["Magento: Marketing & Commerce"](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. It is designed specifically for Magento e-commerce customers, but any retailer can use it to get unique insights into their commerce activities. |
-| June 13, 2019 | Added new out-of-the-box filters to the left rail search in Workspace. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. | 
+| June 13, 2019 | Added new out-of-the-box filters to the left rail search in Workspace. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. |
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|

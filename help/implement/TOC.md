@@ -6,9 +6,10 @@ breadcrumb-title: Implementation Guide
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
 ---
 
-# Analytics Implementation Guide {#implementation}
+# Adobe Analytics Implementation Guide {#implementation}
 
 + [Implement Adobe Analytics](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement release notes](appmeasurement-updates.md)
 + Analytics variables, functions, and methods {#vars}
   + [Overview](vars/overview.md)

@@ -6,9 +6,10 @@ breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
 ---
 
-# Analytics Tools Guide {#analyze}
+# Adobe Analytics Tools Guide {#analyze}
 
 + [Analytics Tools Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
@@ -85,6 +86,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
+    + [Media Average Minute audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + Media Playback Time Spent {#media-playback-timespent}
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)

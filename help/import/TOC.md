@@ -6,9 +6,10 @@ breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time. 
 ---
 
-# Analytics Import Guide {#import}
+# Adobe Analytics Import Guide {#import}
 
 + [Analytics Import Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Data Sources {#data-sources}
   + [Data Sources overview](c-data-sources/datasrc-home.md)
   + [How Data Sources works](c-data-sources/datasrc-how-data-sources-works.md)

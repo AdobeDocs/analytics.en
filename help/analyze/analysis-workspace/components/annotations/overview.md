@@ -13,7 +13,9 @@ exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 
 Annotations enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range with known data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. 
 
-For example, let's say you are sharing projects you created with your organization. You notice a dip or a spike in traffic or other data, and you tie an annotation to the affected metrics, dimensions or segments. These annotations then show up in a table or a line visualization and provide data context for you and the consumers of your Workspace projects.
+For example, let's say you are sharing projects with your organization. If you had a major spike in traffic due to a sale event, you could create a "Campaign launch date" annotation and scope it for your whole report suite. When your users viewed any data sets that included that date, they would see the annotation within their projects, alongside their data.
+
+![](assets/multi-day.png)
 
 Keep this in mind:
 

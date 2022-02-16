@@ -1,11 +1,11 @@
 ---
-description: Explains the new continuous feature release strategy for Adobe Analytics
+description: Explains the continuous feature release strategy for Adobe Analytics
 title: Adobe Analytics feature releases
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 ---
 # Adobe Analytics feature releases
 
-Historically, Adobe Analytics feature releases followed a fixed monthly schedule. Beginning in April 2020, Adobe Analytics moved to a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
+Adobe Analytics releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
 ## Release strategy
 

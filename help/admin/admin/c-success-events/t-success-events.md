@@ -2,7 +2,6 @@
 description: Steps that describe how to configure success events.
 title: Configure success events
 feature: Admin Tools
-uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 ---
 # Configure success events

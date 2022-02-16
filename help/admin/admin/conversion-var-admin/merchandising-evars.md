@@ -1,6 +1,7 @@
 ---
 title: Merchandising eVars and Product Finding Methods
 description: A deep dive into the concepts behind merchandising eVars and how they process and allocate data.
+feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 ---
 # Merchandising eVars and product finding methods

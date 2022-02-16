@@ -3,7 +3,6 @@ description: Success events are actions that can be tracked. You determine what 
 keywords: event
 title: Success events overview
 feature: Admin Tools
-uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 ---
 # Success events overview

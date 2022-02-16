@@ -1,8 +1,8 @@
 ---
 description: Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
-solution: Audience Manager
+solution: Analytics
 title: Server-side forwarding overview
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 ---
 # Server-side forwarding overview

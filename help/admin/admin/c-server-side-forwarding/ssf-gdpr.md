@@ -1,7 +1,7 @@
 ---
 description: Explains enhancements to server-side forwarding that were prompted by the EU cookie compliance regulation.
 title: GDPR/ePrivacy compliance and server-side forwarding
-uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 ---
 # GDPR/ePrivacy compliance and server-side forwarding

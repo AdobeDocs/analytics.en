@@ -2,8 +2,7 @@
 description: Processing rules let you make changes to data based on defined conditions. When attributes or values match defined conditions, values can be set and deleted, and events can be set.
 subtopic: Processing rules
 title: How processing rules work
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 ---
 # How processing rules work

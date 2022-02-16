@@ -2,8 +2,7 @@
 description: Active processing rules are viewed in admin.
 subtopic: Processing rules
 title: View active processing rules
-feature: Admin Tools
-uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
+feature: Processing Rules
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 ---
 # View active processing rules

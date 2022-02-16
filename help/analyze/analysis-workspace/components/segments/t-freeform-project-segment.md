@@ -1,8 +1,7 @@
 ---
 description: Use segments in Analysis Workspace.
 title: Segments
-uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 ---

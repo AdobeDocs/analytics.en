@@ -1,7 +1,6 @@
 ---
 description: Describes the steps involved in applying filters to a fallout report.
 title: Filter a Fallout Report Using the Request Wizard
-uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69

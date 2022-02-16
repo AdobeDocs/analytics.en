@@ -1,8 +1,7 @@
 ---
 description: The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 title: Intelligent Alerts overview
-uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI Tools
+feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 ---
@@ -23,15 +22,12 @@ The new Alert Builder and Alert Manager in Analysis Workspace replace the existi
 
 There are four ways get to the Alert Builder:
 
-* Going directly to the Alert Builder:  **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
-* Using the keyboard shortcut in Workspace: `Ctrl + Shift + A` (Windows) or `Cmd + Shift + A` (Mac)
-* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. This opens the Alert Builder and pre-populates the appropriate metrics and filters applied from the table. You can edit the alert if needed.
-
-  ![Create alert from selection](assets/create-alert-from-selection.png)
-
-* From within a Reports & Analytics report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This opens the alert builder and pre-populates the appropriate metrics and filters applied from the report. You can edit the alert if needed.
-
-  ![Add alert](assets/add-alert.png)
+| Method | Details |
+| --- | --- |
+| Go directly to the Alert Builder |  **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
+| Use the keyboard shortcut in Workspace | `Ctrl + Shift + A` (Windows) or `Cmd + Shift + A` (Mac) |
+| Select one or more freeform table line item/s | Right-click and select **[!UICONTROL Create Alert from Selection]**. This opens the [!UICONTROL Alert Builder] and pre-populates the appropriate metrics and filters applied from the table. You can edit the alert if needed. ![Create alert from selection](assets/create-alert-from-selection.png) |
+| From within a Reports & Analytics report | Go to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This opens the alert builder and pre-populates the appropriate metrics and filters applied from the report. You can edit the alert if needed. ![Add alert](assets/add-alert.png) |
 
 The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
 

@@ -1,7 +1,6 @@
 ---
 description: Report builder uses the Analytics custom calendar. You can use the calendar to define the first day of the week and year, or use a different retail calendar style. The calendar formats are used to for various purposes, including sales comparison and forecast standardization, payroll cost analysis, or physical inventory count regulation.
 title: Custom calendar
-uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa

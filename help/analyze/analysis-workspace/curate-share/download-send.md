@@ -1,7 +1,6 @@
 ---
 description: You can download data from Analysis Workspace by copying it, or in PDF and CSV formats.
 title: Download PDF or CSV files
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b

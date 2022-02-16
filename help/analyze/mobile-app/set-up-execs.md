@@ -1,6 +1,6 @@
 ---
-description: How to create an Analytics dashboards scorecard
-title: Create a scorecard
+description: Executive users may need some additional assistance to access and use the app. This section provides information to help you provide that assistance.
+title: Set up executive users with the app
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f

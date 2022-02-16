@@ -7,9 +7,9 @@ exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 
 Administrative steps for enabling AEM Assets reporting in Analytics.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets Reporting]**
 
-Enables Analytics to collect impressions and clicks on Assets served up from AEM Asset Insights. This integration
+Enables Analytics to collect impressions and clicks on [!UICONTROL Assets] served up from AEM Asset Insights. This integration
 
 * Enables reporting in Analytics.
 * Adds new dimensions to the Asset Variables in Analysis Workspace: Asset ID, Asset Source, and Clicked Asset ID 

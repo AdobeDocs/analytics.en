@@ -5,8 +5,4 @@ exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
 ---
 # Integrate Adobe Analytics with Campaign Classic
 
-See [Get Started with Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html) for more information around integrating Adobe Analytics data into Campaign Classic:
-
-* Using Data Connector
-* Using Analytics Data Feed
-* Using Data Warehouse
+See [Adobe Analytics Connector provisioning](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html?lang=en) for more information around integrating Adobe Analytics data into Campaign Classic:

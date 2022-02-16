@@ -2,7 +2,6 @@
 description: Learn the basics of working in a Workspace project.
 keywords: Analysis Workspace
 title: Projects overview
-uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a

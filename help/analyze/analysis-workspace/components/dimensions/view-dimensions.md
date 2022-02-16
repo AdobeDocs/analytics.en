@@ -1,8 +1,7 @@
 ---
 description: View the top values of a dimension before using it in a project.
 title: Preview dimensions
-uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace Basics
+feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
 ---

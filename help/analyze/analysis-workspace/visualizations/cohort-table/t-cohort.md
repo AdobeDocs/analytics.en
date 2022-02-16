@@ -2,8 +2,7 @@
 description: Create a cohort and run a cohort analysis report in Analysis Workspace.
 keywords: Analysis Workspace
 title: Run a cohort analysis report
-uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizations
+feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
 ---

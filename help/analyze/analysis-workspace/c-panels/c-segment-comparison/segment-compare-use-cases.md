@@ -2,7 +2,7 @@
 title: Segment comparison use cases
 description: Learn real-world use cases on how the segment comparison panel can be used to gain insight into marketing strategy.
 keywords: Segment IQ
-feature: Panels
+feature: Segments
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 ---

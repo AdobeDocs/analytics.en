@@ -2,7 +2,7 @@
 description: Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
 keywords: Analysis Workspace;Segment IQ
 title: Statistical tests used in segment comparison
-feature: Segments
+feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
 ---

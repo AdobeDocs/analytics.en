@@ -2,7 +2,6 @@
 description: Administrative steps for enabling Activity Map reporting in Analytics.
 title: Activity Map reporting
 feature: Activity Map
-uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
 ---
 # Activity Map reporting

@@ -2,7 +2,6 @@
 description: Currency codes used in the Experience Cloud.
 title: Currency Codes
 feature: Admin Tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 ---
 # Currency Codes

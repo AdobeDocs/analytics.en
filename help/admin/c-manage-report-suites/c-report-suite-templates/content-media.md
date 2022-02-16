@@ -1,8 +1,7 @@
 ---
 description: Defines common settings for a website that develops original content and displays articles and videos.
 title: Content and Media
-feature: Admin Tools
-uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 ---
 # Content and Media

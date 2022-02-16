@@ -2,7 +2,6 @@
 description: Data Warehouse provides a feature that allows you to extract a list of visitor IDs. These IDs are not cookie IDs, but IDs that you capture in one of your conversion variables. Although there are other ways to get at this information, the following example is a shortcut to generating a Data Warehouse request.
 title: Use Case - Extracting Visitor IDs
 feature: Admin Tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 ---
 # Use Case - Extracting Visitor IDs

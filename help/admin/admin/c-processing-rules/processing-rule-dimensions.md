@@ -2,8 +2,7 @@
 description: The dimensions that you can read and write (unless otherwise noted) using processing rules.
 subtopic: Processing rules
 title: Dimensions available to processing rules
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 ---
 # Dimensions available to processing rules

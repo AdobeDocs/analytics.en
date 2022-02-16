@@ -1,7 +1,7 @@
 ---
 description: Configures several common variables and success events for a typical website.
 title: Default template
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 ---

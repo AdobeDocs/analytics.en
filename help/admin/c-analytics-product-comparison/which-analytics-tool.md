@@ -1,7 +1,7 @@
 ---
 description: This help page contains recommended use cases for each Adobe Analytics tool. Tools should be considered in the order they are listed. If a certain tool does not meet the need, move to the next one for consideration.
 title: Which Adobe Analytics tool should I use?
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 ---
 # Which Adobe Analytics tool should I use?
@@ -56,9 +56,9 @@ Here is a video that compares various Adobe Analytics tools:
     * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 
     * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** should be used:
+**[Adobe Exchange integrations](https://www.adobeexchange.com/experiencecloud.html)** should be used:
 
-* When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Data Connectors typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
+* When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Integration apps typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 

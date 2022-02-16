@@ -2,6 +2,7 @@
 description: System requirements and a comparison of Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, and Data Workbench
 title: Analytics product comparison and requirements
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
+feature: Analytics Basics
 ---
 # Analytics product comparison and requirements
 

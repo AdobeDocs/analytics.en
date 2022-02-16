@@ -1,8 +1,7 @@
 ---
 description: Provides common settings for a website that provides product support articles and videos.
 title: Support Media
-feature: Admin Tools
-uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 ---
 # Support Media

@@ -1,8 +1,7 @@
 ---
 description: Enables you to control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions.
 title: Security Manager
-feature: Admin Tools
-uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
+feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 ---
 # Security Manager

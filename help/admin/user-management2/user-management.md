@@ -3,7 +3,6 @@ description: Manage Analytics users, groups, and products in the Admin Console.
 subtopic: Users and groups
 title: User and Product Management
 feature: Admin Tools
-uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 ---
 # User and Product Management

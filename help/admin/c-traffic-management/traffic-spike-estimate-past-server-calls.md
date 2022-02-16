@@ -1,7 +1,7 @@
 ---
 description: You can get, say, last year's daily server call average during a specific time frame, plus an expected increase in server call volume for this year. You can then schedule a traffic spike based on this multiplication factor.
 title: Estimate past server calls and schedule a traffic spike
-uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
+feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 ---
 # Estimate past server calls and schedule a traffic spike

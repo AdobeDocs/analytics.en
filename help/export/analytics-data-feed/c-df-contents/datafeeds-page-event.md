@@ -2,8 +2,7 @@
 description: Lookup table to determine the type of a hit based on the page_event value.
 keywords: Data Feed;page;event;page_event;post_page_event
 title: Page Event Lookup
-feature: Reports & Analytics Basics
-uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
+feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 ---
 # Page Event Lookup

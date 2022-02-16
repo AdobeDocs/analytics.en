@@ -2,7 +2,7 @@
 description: Set up and use Adobe-hosted FTP accounts.
 keywords: ftp;sftp
 title: Set up FTP accounts - overview
-uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
+feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
 ---
 # Set up FTP accounts - overview

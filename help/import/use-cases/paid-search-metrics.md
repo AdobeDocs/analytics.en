@@ -5,7 +5,7 @@ exl-id: b25a2a26-d277-4a51-9194-973acb425095
 ---
 # Import [!UICONTROL Paid Search] metrics using [!UICONTROL Data Sources]
 
-For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google AdWords. You can  integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
+For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google AdWords. You can integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
 
 These steps show you how to configure an integration with AdWords to import keyword data as well as metrics such as impressions, clicks, cost per click, and more.
 

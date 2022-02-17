@@ -1,6 +1,7 @@
 ---
 title: Units
 description: The total number of products purchased within all orders.
+feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
 ---
 # Units

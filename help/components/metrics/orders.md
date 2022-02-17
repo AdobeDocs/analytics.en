@@ -1,6 +1,7 @@
 ---
 title: Orders
 description: The number of purchases made.
+feature: Metrics
 exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
 ---
 # Orders

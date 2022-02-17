@@ -1,6 +1,7 @@
 ---
 title: Unique devices
 description: The number of unique devices.
+feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 ---
 # Unique devices

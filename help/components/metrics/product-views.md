@@ -1,6 +1,7 @@
 ---
 title: Product views
 description: The number of views to product pages.
+feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
 ---
 # Product views

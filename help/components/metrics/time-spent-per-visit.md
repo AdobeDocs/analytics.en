@@ -1,6 +1,7 @@
 ---
 title: Time spent per visit
 description: The amount of time spent per visit for the dimension item.
+feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 ---
 # Time spent per visit (seconds)

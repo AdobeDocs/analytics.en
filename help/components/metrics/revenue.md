@@ -1,6 +1,7 @@
 ---
 title: Revenue
 description: The monetary amount of products purchased within all orders.
+feature: Metrics
 exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
 ---
 # Revenue

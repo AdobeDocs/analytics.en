@@ -1,6 +1,7 @@
 ---
 title: Custom events
 description: The number of hits where a custom event exists.
+feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 ---
 # Custom events

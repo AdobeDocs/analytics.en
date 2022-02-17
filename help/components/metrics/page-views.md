@@ -1,6 +1,7 @@
 ---
 title: Page Views Metric Explained | Adobe Analytics 
 description: Learn how the page views metric is worked out in Adobe Analytics and also understand the difference between page views and visits.
+feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 ---
 # Learn about Page Views with Adobe Analytics

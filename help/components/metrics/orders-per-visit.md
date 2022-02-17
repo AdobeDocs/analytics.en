@@ -1,6 +1,7 @@
 ---
 title: Orders per visit
 description: The ratio of orders over visits.
+feature: Metrics
 exl-id: 4197e24f-6c97-45be-ab06-08bc64ff5713
 ---
 # Orders per visit

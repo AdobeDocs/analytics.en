@@ -1,6 +1,7 @@
 ---
 title: channel
 description: Populate the 'Site Sections' dimension.
+feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 ---
 # channel

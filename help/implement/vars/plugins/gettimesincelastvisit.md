@@ -1,6 +1,7 @@
 ---
 title: getTimeSinceLastVisit
 description: Measure the amount of time elapsed between two visits.
+feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 ---
 # Adobe plug-in: getTimeSinceLastVisit

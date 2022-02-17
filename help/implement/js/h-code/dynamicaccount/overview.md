@@ -1,6 +1,7 @@
 ---
 title: Dynamic accounts overview
 description: Learn the workflow on how to dynamically select a report suite using H Code.
+feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 ---
 # Dynamic accounts overview

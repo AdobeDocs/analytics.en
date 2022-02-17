@@ -1,6 +1,7 @@
 ---
 title: useBeacon
 description: useBeacon lets you force AppMeasurement to use the browsers sendBeacon API
+feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 ---
 # useBeacon

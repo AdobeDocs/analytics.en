@@ -1,6 +1,7 @@
 ---
 title: dynamicAccountSelection
 description: The dynamicAccountSelection variable enables or disables dynamic account selection.
+feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 ---
 # dynamicAccountSelection

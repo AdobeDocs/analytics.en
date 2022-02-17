@@ -1,6 +1,7 @@
 ---
 title: Troubleshoot JavaScript implementation
 description: Learn about common issues and best practices for troubleshooting your JavaScript implementation.
+feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 ---
 # Troubleshoot JavaScript implementation

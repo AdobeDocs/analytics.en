@@ -1,6 +1,7 @@
 ---
 title: Using XDM data with Analytics
 description: Overview of using XDM data from Experience Platform in Adobe Analytics
+feature: AEP Edge
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 ---
 # Using Adobe Experience Platform Edge data with Analytics

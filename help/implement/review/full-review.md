@@ -1,6 +1,7 @@
 ---
 title: Full Review
 description: Review your implementation every 6 months to ensure continued alignment with business needs and KPIs.
+feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 ---
 # Full Review (for reviewing your implementation twice yearly)

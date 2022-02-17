@@ -1,6 +1,7 @@
 ---
 title: p_fo (Page First Only)
 description: Ensure that certain routines fire only once per page.
+feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 ---
 # Adobe plug-in: p_fo (Page First Only)

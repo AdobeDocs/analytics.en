@@ -1,6 +1,7 @@
 ---
 title: Create a solution design document
 description: Learn what a solution design document is, and how you can use it in your organization.
+feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 ---
 # Create a solution design document

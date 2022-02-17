@@ -1,6 +1,7 @@
 ---
 title: getPercentPageViewed
 description: Retrieve the percentage of the page the visitor viewed.
+feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 ---
 # Adobe plug-in: getPercentPageViewed

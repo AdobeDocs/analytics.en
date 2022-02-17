@@ -1,6 +1,7 @@
 ---
 title: Implementing with hardcoded image requests
 description: Implement Adobe Analytics using an HTML image tag (hardcoded image request)
+feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 ---
 # Implementing with hardcoded image requests

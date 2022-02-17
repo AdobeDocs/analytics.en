@@ -1,6 +1,7 @@
 ---
 title: linkURL
 description: Override the automatically generated link URL AppMeasurement uses in link tracking calls.
+feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 ---
 # linkURL

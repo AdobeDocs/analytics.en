@@ -1,6 +1,7 @@
 ---
 title: list
 description: Custom variables that hold multiple values in the same hit.
+feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 ---
 # list

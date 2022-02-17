@@ -2,6 +2,7 @@
 title: trackInlineStats
 description: Enable or disable Activity map in your implementation.
 keywords: disable activity map
+feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 ---
 # trackInlineStats

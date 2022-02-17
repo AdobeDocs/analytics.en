@@ -1,6 +1,7 @@
 ---
 title: doPlugins
 description: Configure logic just before a hit is compiled and sent to Adobe.
+feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 ---
 # doPlugins

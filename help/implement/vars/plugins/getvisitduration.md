@@ -1,6 +1,7 @@
 ---
 title: getVisitDuration
 description: Track how much time a visitor has been on the site so far.
+feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 ---
 # Adobe plug-in: getVisitDuration

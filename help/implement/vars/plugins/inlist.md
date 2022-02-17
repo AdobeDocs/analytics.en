@@ -1,6 +1,7 @@
 ---
 title: inList
 description: Check if a value is contained in another character-delimited value.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 ---
 # Adobe plug-in: inList

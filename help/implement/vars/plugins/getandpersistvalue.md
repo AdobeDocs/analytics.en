@@ -1,6 +1,7 @@
 ---
 title: getAndPersistValue
 description: Store a value that can be retrieved later at any time.
+feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 ---
 # Adobe plug-in: getAndPersistValue

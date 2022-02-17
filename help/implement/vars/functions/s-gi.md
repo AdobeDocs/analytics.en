@@ -1,6 +1,7 @@
 ---
 title: s_gi()
 description: Create and track instances of AppMeasurement.
+feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 ---
 # s_gi

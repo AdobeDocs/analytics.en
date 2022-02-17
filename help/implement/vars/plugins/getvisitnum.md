@@ -1,6 +1,7 @@
 ---
 title: getVisitNum
 description: Track a visitor's current visit number.
+feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 ---
 # Adobe plug-in: getVisitNum

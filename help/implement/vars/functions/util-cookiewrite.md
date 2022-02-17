@@ -1,6 +1,7 @@
 ---
 title: Util.cookieWrite
 description: Writes a value for a cookie.
+feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 ---
 # Util.cookieWrite

@@ -1,7 +1,7 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
 title: Configure real-time reports
-feature: Real-Time
+feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 ---
 # Configure real-time reports

@@ -2,7 +2,7 @@
 description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
 title: Supported real-time metrics and dimensions
 topic-fix: Reports
-feature: Real-Time
+feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 ---
 # Supported real-time metrics and dimensions

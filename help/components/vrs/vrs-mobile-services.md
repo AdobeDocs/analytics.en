@@ -1,7 +1,7 @@
 ---
 description: The Adobe Mobile Services UI combines mobile app data from your Adobe Analytics report suites with the ability to send push notifications and generate in-app messages.
 title: VRS support in Mobile Services
-uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
+feature: VRS
 exl-id: 3082333a-514d-45c6-9432-da32bd27a2eb
 ---
 # VRS support in Mobile Services

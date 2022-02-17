@@ -1,6 +1,7 @@
 ---
 title: Segmentation best practices
 description: Create optimal segments that return data efficiently.
+feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 ---
 # Segmentation best practices

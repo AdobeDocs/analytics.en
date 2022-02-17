@@ -1,6 +1,7 @@
 ---
 description: Special considerations when using A4T and Adobe Analytics virtual report suites
 title: Virtual report suites and Analytics for Target (A4T)
+feature: VRS
 exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
 ---
 # Virtual report suites and Analytics for Target (A4T)

@@ -2,7 +2,6 @@
 description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
 title: Publish segments to the Experience Cloud
 feature: Segmentation
-uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
 # Publish segments to the Experience Cloud

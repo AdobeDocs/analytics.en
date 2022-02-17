@@ -1,6 +1,7 @@
 ---
 title: Exit link
 description: The name of the exit link.
+feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 ---
 # Exit link

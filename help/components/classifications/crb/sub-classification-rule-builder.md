@@ -1,6 +1,7 @@
 ---
 description: You cannot combine the Classification Rule Builder with sub-classifications.
 title: Sub-classifications and the Rule Builder
+feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 ---
 # Sub-classifications and the Rule Builder

@@ -1,6 +1,7 @@
 ---
 title: Processing rules for Marketing Channels
 description: Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel. The rules process every hit a visitor makes on your site. When a rule does not meet the criteria for a channel, or if rules are not configured correctly, the system assigns the hit to No Channel Identified.
+feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 ---
 # Processing rules for Marketing Channels

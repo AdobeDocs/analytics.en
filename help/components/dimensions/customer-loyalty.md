@@ -1,6 +1,7 @@
 ---
 title: Customer loyalty
 description: Categories based on the number of previous purchases a visitor has made.
+feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 ---
 # Customer loyalty

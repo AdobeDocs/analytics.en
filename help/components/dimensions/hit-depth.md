@@ -1,6 +1,7 @@
 ---
 title: Hit depth
 description: The number of hits into the visit.
+feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 ---
 # Hit depth

@@ -1,6 +1,7 @@
 ---
 title: Cities
 description: The city where the hit originated from.
+feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 ---
 # Cities

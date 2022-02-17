@@ -1,6 +1,7 @@
 ---
 title: Mobile dimensions
 description: Dimensions based on the IP address of the device.
+feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 ---
 # Mobile dimensions

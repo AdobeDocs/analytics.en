@@ -1,6 +1,7 @@
 ---
 title: Cookie support
 description: Determines if the browser supports cookies.
+feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
 ---
 # Cookie Support

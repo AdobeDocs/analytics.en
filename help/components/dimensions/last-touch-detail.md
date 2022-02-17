@@ -1,6 +1,7 @@
 ---
 title: Last touch channel detail
 description: Details for the most recent marketing channel within the visitor's engagement expiration.
+feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 ---
 # Last touch channel detail

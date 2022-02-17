@@ -1,6 +1,7 @@
 ---
 title: Quarter of year
 description: The numeric quarter of the year, regardless of which year.
+feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 ---
 # Quarter of year

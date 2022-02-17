@@ -1,6 +1,7 @@
 ---
 title: Marketing channel detail
 description: The most recent marketing channel detail within the visitor's engagement expiration.
+feature: Dimensions
 exl-id: 9b206066-2ffe-4996-8783-c83774e73dfe
 ---
 # Marketing channel detail

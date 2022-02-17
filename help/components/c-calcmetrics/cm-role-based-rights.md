@@ -1,7 +1,7 @@
 ---
 description: Calculated metrics rights differs between Admin-level users and non-Admins.
 title: Calculated metrics  role-based rights
-uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 ---
 # Calculated metrics: role-based rights
@@ -22,7 +22,7 @@ Calculated metrics rights differs between Admin-level users and non-Admins.
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Admin-level users</b> </td> 
-   <td colname="col02"> Admins can create calculated metrics as well as create <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html"  > groups </a> to limit the rights of users to create calculated metrics. </td> 
+   <td colname="col02"> Admins can create calculated metrics as well as create Product Profiles in the Admin Console to limit the rights of users to create calculated metrics. </td> 
    <td colname="col2"> Can share with entire company, with user groups, and with individual users. </td> 
    <td colname="col3"> <span class="keyword"> Reports & Analytics</span>: Can view/edit/delete/etc. their own and other users' calculated metrics. <p> <span class="keyword"> Report Builder </span>: Can view/edit/delete/etc. its own calculated metrics and those shared with it. </p> </td> 
    <td colname="col4"> Can approve calculated metrics as canonical. </td> 

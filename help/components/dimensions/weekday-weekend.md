@@ -1,6 +1,7 @@
 ---
 title: Weekday/Weekend
 description: Determines if the hit happened during a weekday or a weekend.
+feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
 ---
 # Weekday/Weekend

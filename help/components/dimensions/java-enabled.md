@@ -1,6 +1,7 @@
 ---
 title: Java enabled
 description: Determines if Java is enabled in the browser.
+feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 ---
 # Java enabled

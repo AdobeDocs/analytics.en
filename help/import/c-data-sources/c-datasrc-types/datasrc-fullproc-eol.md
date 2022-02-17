@@ -1,6 +1,7 @@
 ---
 title: End of life for Full Processing Data Sources
 description: Reasons for end of lifing and comparisons between Bulk Data Insertion API and Full Processing Data Sources.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 ---
 # End of life for Full Processing Data Sources

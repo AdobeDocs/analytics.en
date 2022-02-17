@@ -1,6 +1,7 @@
 ---
 description: Discover everything you can do with Advertising Analytics in this detailed guide, including permissions required, and available dimensions and metrics.
 title: A Guide to Advertising Analytics
+feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 ---
 # A guide to Advertising Analytics

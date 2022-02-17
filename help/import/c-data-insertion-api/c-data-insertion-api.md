@@ -1,7 +1,7 @@
 ---
 description: Link to the Data insertion API documentation.
 title: Data Insertion API
-uuid: 9c66c7a5-4d16-4e02-8e34-6031504b34d0
+feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 ---
 # Data Insertion API

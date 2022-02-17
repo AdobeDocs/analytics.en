@@ -1,6 +1,7 @@
 ---
 title: SSL Certificate Licensing
-description: Certificate proceedures for Customer Managed certificates
+description: Certificate procedures for Customer Managed certificates
+feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
 ---
 # SSL/TLS Certificate Licensing

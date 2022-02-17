@@ -1,6 +1,7 @@
 ---
 title: Compare Adobe Analytics data to third-party products
 description: Understand your options when directly comparing data in Adobe Analytics to data collected by other Analytics solutions.
+feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 ---
 # Compare Adobe Analytics data to third-party products

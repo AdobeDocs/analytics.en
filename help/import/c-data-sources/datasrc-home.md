@@ -1,6 +1,7 @@
 ---
 description: Adobe Analytics data sources lets you manually import additional online or offline data for reporting.
 title: What are Data Sources and how do they benefit me?
+feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 ---
 # Data Sources overview

@@ -1,6 +1,7 @@
 ---
 title: Transitioning from a third-party analytics platform to Adobe Analytics
 description: Learn key concepts to obtain reports, geared towards users familiar with other platforms, such as Google Analytics.
+feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 ---
 # Transitioning from a third-party analytics platform to Adobe Analytics

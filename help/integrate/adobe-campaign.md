@@ -1,6 +1,7 @@
 ---
 description: Learn how to enable Adobe Campaign reporting in Adobe Analytics
 title: How do I Integrate Adobe Campaign Reporting into Adobe Analytics?
+feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 ---
 # Adobe Campaign reporting

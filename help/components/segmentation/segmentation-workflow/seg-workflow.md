@@ -2,18 +2,11 @@
 description: Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
 title: Segmentation workflow overview
 feature: Segmentation
-uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 ---
 # Segmentation workflow overview
 
 Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-
-<!-- 
-
-seg_workflow.xml
-
- -->
 
 ![](assets/seg_workflow.png)
 

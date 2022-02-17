@@ -1,6 +1,7 @@
 ---
 title: Pages not found
 description: The number of hits containing an error.
+feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
 ---
 # Pages not found

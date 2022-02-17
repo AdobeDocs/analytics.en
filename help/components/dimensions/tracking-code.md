@@ -1,6 +1,7 @@
 ---
 title: Tracking Code
 description: The name of the tracking code or campaign.
+feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 ---
 # Tracking Code

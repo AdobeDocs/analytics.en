@@ -1,6 +1,7 @@
 ---
 title: Visits
 description: A sequence of page views in a sitting.
+feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 ---
 # Visits

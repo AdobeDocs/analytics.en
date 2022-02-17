@@ -1,6 +1,7 @@
 ---
 title: Classifications overview
 description: Customize the grouping of dimension items.
+feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 ---
 # Classifications overview

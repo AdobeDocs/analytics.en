@@ -1,7 +1,7 @@
 ---
 description: Shows how to build a simple "Page Views per Visits" metric.
 title: Build a simple "Page Views per Visits" metric
-uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
+feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 ---
 # Build a simple "Page Views per Visits" metric

@@ -1,6 +1,7 @@
 ---
 title: Occurrences
 description: The number of hits that a variable was set or persisted.
+feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 ---
 # Occurrences

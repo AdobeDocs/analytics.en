@@ -1,6 +1,7 @@
 ---
 title: Day of week
 description: The day of the week, regardless of date range.
+feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
 ---
 # Day of week

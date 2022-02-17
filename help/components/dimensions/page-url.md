@@ -1,6 +1,7 @@
 ---
 title: Page URL
 description: The URL of the page.
+feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 ---
 # Page URL

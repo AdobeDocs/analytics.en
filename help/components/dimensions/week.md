@@ -1,6 +1,7 @@
 ---
 title: Week
 description: The week that the metric occurred on.
+feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
 ---
 # Week

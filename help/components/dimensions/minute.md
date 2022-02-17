@@ -1,6 +1,7 @@
 ---
 title: Minute
 description: The minute that the metric occurred on.
+feature: Dimensions
 exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 ---
 # Minute

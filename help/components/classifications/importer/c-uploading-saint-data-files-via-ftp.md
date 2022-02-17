@@ -1,9 +1,7 @@
 ---
 description: How to upload data files via FTP.
-subtopic: Classifications
 title: FTP import
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 ---
 # FTP import

@@ -1,6 +1,7 @@
 ---
 title: Average session length (mobile)
 description: The average session length for the mobile device.
+feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 ---
 # Average session length (mobile)

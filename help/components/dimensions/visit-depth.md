@@ -1,6 +1,7 @@
 ---
 title: Visit depth
 description: Visit-based dimension that reports the depth of the visit.
+feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 ---
 # Visit depth

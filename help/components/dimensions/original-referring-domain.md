@@ -1,6 +1,7 @@
 ---
 title: Original referring domain
 description: The first referring domain a visitor was on before clicking through to your site.
+feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
 ---
 # Original referring domain

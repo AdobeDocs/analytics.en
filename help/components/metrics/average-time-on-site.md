@@ -1,6 +1,7 @@
 ---
 title: Average time  on site
 description: The average amount of time a given dimension item existed between hits.
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
 ---
 # Average time on site

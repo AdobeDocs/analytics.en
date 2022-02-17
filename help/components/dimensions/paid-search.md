@@ -1,6 +1,7 @@
 ---
 title: Paid search
 description: Distinguishes metrics from paid and natural search.
+feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 ---
 # Paid search

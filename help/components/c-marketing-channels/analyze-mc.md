@@ -1,6 +1,7 @@
 ---
 title: Analyze Marketing Channels
 description: Learn how to use Marketing Channels dimensions in Workspace.
+feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 ---
 # Analyze Marketing Channels

@@ -1,7 +1,7 @@
 ---
 description: Learn about segmentation features in Analysis Workspace.
 title: Segmentation features in Analysis Workspace
-uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
+feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
 ---
 # Segmentation features in Analysis Workspace

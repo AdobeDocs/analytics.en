@@ -1,9 +1,7 @@
 ---
 description: (Optional) Before importing classifications into marketing reports, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
-subtopic: Classifications
 title: Classification template
-feature: Admin Tools
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
+feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 ---
 # Classification template

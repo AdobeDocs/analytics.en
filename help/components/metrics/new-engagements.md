@@ -1,6 +1,7 @@
 ---
 title: New engagements
 description: The number of times a first touch channel is set.
+feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
 ---
 # New engagements

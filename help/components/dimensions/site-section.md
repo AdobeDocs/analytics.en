@@ -1,6 +1,7 @@
 ---
 title: Site section
 description: The name of the site section.
+feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
 ---
 # Site section

@@ -1,6 +1,7 @@
 ---
 title: Regions
 description: The geographic region of the visitor.
+feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 ---
 # Regions

@@ -1,6 +1,7 @@
 ---
 title: Single page visits
 description: A flag indicating that the visit consisted of a single page.
+feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 ---
 # Single page visits

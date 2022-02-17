@@ -1,6 +1,7 @@
 ---
 title: IPs and domains used by Adobe Analytics
 description: If your organization's firewall blocks IP addresses that originate from Adobe, use this list to update your firewall settings.
+feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 ---
 # IPs and domains used by Adobe Analytics

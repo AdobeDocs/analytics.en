@@ -1,6 +1,7 @@
 ---
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
+feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 ---
 # Data retention policy

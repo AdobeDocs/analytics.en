@@ -1,6 +1,7 @@
 ---
 title: Troubleshoot sessions in Adobe Analytics
 description: Learn how resolve issues around being logged out of Adobe Analytics.
+feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
 ---
 # Troubleshoot sessions in Adobe Analytics

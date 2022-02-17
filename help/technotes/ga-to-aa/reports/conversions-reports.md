@@ -1,6 +1,7 @@
 ---
 title: Conversions reports in Adobe Analytics
 description: Learn how to use conversions reports in Adobe Analytics.
+feature: Third-party Integration
 exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
 ---
 # Conversions reports

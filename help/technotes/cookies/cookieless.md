@@ -1,6 +1,7 @@
 ---
 title: Options to mitigate the effect of browser cookie limitations
 description: Learn how to mitigate the effect of browser cookie limitations to improve data collection for Adobe Analytics.
+feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 ---
 # Options to mitigate the effect of browser cookie limitations

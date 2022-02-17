@@ -1,6 +1,7 @@
 ---
 title: Commonly used metrics on other platforms translation guide
 description: Understand how to pull metric data for many common reports using terminology more familiar to Google Analytics users.
+feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
 ---
 # Commonly used metrics on other platforms translation guide

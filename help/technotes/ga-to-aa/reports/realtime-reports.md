@@ -1,6 +1,7 @@
 ---
 title: Real-time reports in Adobe Analytics
 description: Learn how to pull real-time reports in Adobe Analytics, geared towards users more familiar with Google Analytics.
+feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 ---
 # Real-time reports

@@ -1,7 +1,7 @@
 ---
 description: Describes how to define target currency codes for multi-currency support to work.
 title: Multi-currency support
-uuid:
+feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 ---
 # Multi-currency support

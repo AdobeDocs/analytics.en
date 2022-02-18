@@ -1,6 +1,7 @@
 ---
 title: Return frequency
 description: The bucketed amount of time between the current visit and previous visit.
+feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 ---
 # Return frequency

@@ -1,6 +1,7 @@
 ---
 title: Regional Data Collection
 description: Information on Regional Data Collection
+feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 ---
 # Regional Data Collection

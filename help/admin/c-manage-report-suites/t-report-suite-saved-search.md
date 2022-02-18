@@ -1,8 +1,7 @@
 ---
 description: Steps that describe how to define a set of criteria that determines the members of a report suite search.
 title: Save a report suite search
-feature: Admin Tools
-uuid: dd83eed6-1374-429c-9fc3-709055698a44
+feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 ---
 # Save a report suite search

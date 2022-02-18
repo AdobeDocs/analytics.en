@@ -2,6 +2,7 @@
 title: Reporting best practices and troubleshooting
 description: Best practices and troubleshooting tips when generating reports.
 keywords: best practices;failure;timeout;troubleshooting;slow
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
 ---

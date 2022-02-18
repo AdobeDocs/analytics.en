@@ -1,6 +1,7 @@
 ---
 title: Util.getQueryParam
 description: Returns the value of a query string parameter.
+feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 ---
 # Util.getQueryParam

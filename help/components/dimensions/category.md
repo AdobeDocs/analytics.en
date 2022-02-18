@@ -1,6 +1,7 @@
 ---
 title: Category
 description: The product category of the hit.
+feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
 ---
 # Category

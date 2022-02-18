@@ -2,8 +2,7 @@
 description: An overview of the steps required to plan an implement virtual report suites.
 keywords: Virtual Report Suite
 title: Virtual report suite workflow
-feature: Reports & Analytics Basics
-uuid: 7039029d-f776-4491-a8d7-f1425894eb85
+feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 ---
 # Virtual report suite workflow

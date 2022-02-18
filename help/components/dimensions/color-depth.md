@@ -1,6 +1,7 @@
 ---
 title: Color depth
 description: The color depth of the device.
+feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 ---
 # Color depth

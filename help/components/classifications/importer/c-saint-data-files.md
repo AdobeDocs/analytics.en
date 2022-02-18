@@ -1,9 +1,7 @@
 ---
 description: The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
-subtopic: Classifications
 title: Classification data files
-feature: Admin Tools
-uuid: f27bb812-56e0-472a-9993-d869f0fea700
+feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 ---
 # Classification data files

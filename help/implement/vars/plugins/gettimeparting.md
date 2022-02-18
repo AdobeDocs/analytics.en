@@ -1,6 +1,7 @@
 ---
 title: getTimeParting
 description: Measure the time when a specific action takes place.
+feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 ---
 # Adobe plug-in: getTimeParting

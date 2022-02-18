@@ -1,6 +1,7 @@
 ---
 title: Days since last purchase
 description: The number of days between the current hit and the last purchase that they made.
+feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
 ---
 # Days since last purchase

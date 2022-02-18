@@ -1,7 +1,7 @@
 ---
 description: Use quick segments in Analysis Workspace.
 title: Quick segments
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 ---

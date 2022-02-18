@@ -1,6 +1,7 @@
 ---
 title: Calculated metrics totals
 description: Learn how calculated metrics totals differ in Analytics tools
+feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
 ---
 # Calculated metrics totals

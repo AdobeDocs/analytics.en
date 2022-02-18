@@ -1,6 +1,7 @@
 ---
 title: apl (appendToList)
 description: Append values to variables that support multiple values.
+feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 ---
 # Adobe plug-in: apl (appendToList)

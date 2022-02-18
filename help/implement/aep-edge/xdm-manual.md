@@ -1,6 +1,7 @@
 ---
 title: Map XDM data to Analytics manually
 description: Manually map XDM data from Experience Platform to Adobe Analytics
+feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 ---
 # Map XDM data to Analytics manually

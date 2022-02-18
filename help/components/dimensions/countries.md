@@ -1,6 +1,7 @@
 ---
 title: Countries
 description: The country where the hit originated from.
+feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 ---
 # Countries

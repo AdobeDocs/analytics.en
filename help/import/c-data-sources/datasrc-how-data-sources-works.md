@@ -3,7 +3,7 @@ description: Information about how Adobe provides access to Data Sources.
 subtopic: Data sources
 title: How Data Sources works
 topic-fix: Developer and implementation
-uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
+feature: Data Sources
 exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
 ---
 # How Data Sources works

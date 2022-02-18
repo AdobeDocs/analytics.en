@@ -1,6 +1,7 @@
 ---
 title: Data feed UI
 description: Learn how to navigate the data feed interface.
+feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 ---
 # Manage data feeds

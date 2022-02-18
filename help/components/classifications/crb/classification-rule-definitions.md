@@ -1,9 +1,7 @@
 ---
 description: Definitions of interface elements on the pages in the Classification Rule Builder.
-subtopic: Classifications
 title: Classification rules - definitions
-feature: Admin Tools
-uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 ---
 # Classification rules - definitions

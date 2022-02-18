@@ -1,6 +1,7 @@
 ---
 title: Entries
 description: An instance of the first value in a visit.
+feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
 ---
 # Entries

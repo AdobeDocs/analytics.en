@@ -1,6 +1,7 @@
 ---
 title: registerPostTrackCallback
 description: Create callback functions after sending a hit to Adobe.
+feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 ---
 # registerPostTrackCallback

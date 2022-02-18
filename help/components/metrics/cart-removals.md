@@ -1,6 +1,7 @@
 ---
 title: Cart removals
 description: The number of hits where a visitor removed a product from their cart.
+feature: Metrics
 exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
 ---
 # Cart removals

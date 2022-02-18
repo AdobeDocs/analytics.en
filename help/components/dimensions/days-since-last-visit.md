@@ -1,6 +1,7 @@
 ---
 title: Days since last visit
 description: The number of days between the current hit and the last time they visited.
+feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
 ---
 # Days since last visit

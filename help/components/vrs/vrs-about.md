@@ -1,7 +1,7 @@
 ---
 description: Virtual report suites segment your Adobe Analytics data so you can control access to each segment.
 title: Virtual report suites overview
-uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
+feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 ---
 # Virtual report suites overview

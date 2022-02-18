@@ -1,6 +1,7 @@
 ---
 title: Hour
 description: The hour that the metric occurred on.
+feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
 ---
 # Hour

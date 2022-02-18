@@ -2,6 +2,7 @@
 description: Frequently asked questions about data feeds
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Data feeds FAQ
+feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 ---
 # Data feeds FAQ

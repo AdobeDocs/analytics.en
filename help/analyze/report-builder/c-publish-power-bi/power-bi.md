@@ -1,7 +1,6 @@
 ---
 description: Use Report Builder with Microsoft Power BI.
 title: Publish to Power BI - Overview
-uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3

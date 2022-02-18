@@ -1,6 +1,7 @@
 ---
 title: Audience reports in Adobe Analytics
 description: Learn how to create audience-based reports using Analysis Workspace.
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 ---
 # Audience reports

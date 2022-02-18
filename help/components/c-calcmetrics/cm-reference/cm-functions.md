@@ -1,7 +1,7 @@
 ---
 description: The Calculated Metrics Builder lets you apply statistical and mathematical functions to build Advanced Calculated Metrics.
 title: Reference  basic functions
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
+feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 ---
 # Reference: basic functions

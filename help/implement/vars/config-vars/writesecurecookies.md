@@ -1,6 +1,7 @@
 ---
 title: writeSecureCookies
 description: Allows AppMeasurement to set cookies with the Secure attribute.
+feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 ---
 # writeSecureCookies

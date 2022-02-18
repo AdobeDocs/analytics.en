@@ -1,6 +1,7 @@
 ---
 title: offlineHitLimit
 description: Determine the maximum number of hits to queue for offline tracking.
+feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 ---
 # offlineHitLimit

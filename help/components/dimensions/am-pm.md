@@ -1,6 +1,7 @@
 ---
 title: AM/PM
 description: Determines if the hit happened during AM or PM hours.
+feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
 ---
 # AM/PM

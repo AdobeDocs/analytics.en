@@ -1,7 +1,7 @@
 ---
 description: Frequently asked questions about features, functionality, and issues related to server-side forwarding.
 title: Server-side forwarding FAQ
-uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
+feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 ---
 # Server-side forwarding FAQ

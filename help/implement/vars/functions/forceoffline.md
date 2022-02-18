@@ -1,6 +1,7 @@
 ---
 title: forceOffline
 description: Manually set the online state of AppMeasurement.
+feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 ---
 # forceOffline

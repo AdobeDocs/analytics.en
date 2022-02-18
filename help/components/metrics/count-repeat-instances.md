@@ -1,6 +1,7 @@
 ---
 title: Count repeat instances
 description: Specifies whether repeat instances are counted in reports.
+feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
 ---
 # Count repeat instances

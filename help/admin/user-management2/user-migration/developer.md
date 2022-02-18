@@ -1,7 +1,7 @@
 ---
 description: Lists APIs affected by the user migration
 title: APIs Affected by the user migration
-uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
+feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 ---
 # APIs affected by the user migration{#apis-affected-by-the-migration}

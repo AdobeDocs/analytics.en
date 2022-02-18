@@ -1,6 +1,7 @@
 ---
 title: External email tracking
 description: Use Adobe Analytics to track email content.
+feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 ---
 # External email tracking

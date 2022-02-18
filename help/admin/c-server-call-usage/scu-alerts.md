@@ -1,7 +1,7 @@
 ---
 description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
 title: Server Call Usage alerts
-uuid: 701fd542-5b24-42df-97a0-08e10929fa48
+feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 ---
 # Server Call Usage alerts

@@ -3,7 +3,7 @@ description: Information about the requirements for your report suite before usi
 subtopic: Data sources
 title: Requirements and upload limits
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 ---
 # Requirements and upload limits

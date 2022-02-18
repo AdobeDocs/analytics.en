@@ -1,7 +1,7 @@
 ---
 description: Migrate users from the legacy Analytics user management system to the Admin Console.
 title: Migrate Analytics user accounts for Adobe IDs
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
+feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 ---
 # Migrate Analytics user accounts for Adobe IDs{#migrate-analytics-user-accounts-for-adobe-ids}

@@ -1,6 +1,7 @@
 ---
 title: SFTP services upgrade - FAQ
 description: Frequently asked questions on the planned SFTP services upgrade in May, 2022.
+feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 ---
 # SFTP services upgrade - FAQ

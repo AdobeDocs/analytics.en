@@ -1,7 +1,6 @@
 ---
 description: Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
 title: Path and path fallout reports in Report Builder
-uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2

@@ -2,7 +2,6 @@
 description: Steps that describe how to add or edit conversion variables.
 title: Edit conversion variables
 feature: Admin Tools
-uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 ---
 # Edit conversion variables

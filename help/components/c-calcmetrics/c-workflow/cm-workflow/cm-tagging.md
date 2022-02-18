@@ -1,7 +1,7 @@
 ---
 description: In the Calculated Metric Manager, tagging segments allows you to organize them.
 title: Tag calculated metrics
-uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
+feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
 ---
 # Tag calculated metrics

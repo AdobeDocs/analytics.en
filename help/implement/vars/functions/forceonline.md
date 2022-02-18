@@ -1,6 +1,7 @@
 ---
 title: forceOnline
 description: Manually set the online state of AppMeasurement.
+feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 ---
 # forceOnline

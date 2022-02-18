@@ -1,6 +1,7 @@
 ---
 title: Browser type
 description: The organization that made the browser.
+feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
 ---
 # Browser type

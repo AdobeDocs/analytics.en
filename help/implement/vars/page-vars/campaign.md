@@ -1,6 +1,7 @@
 ---
 title: campaign
 description: Populate the 'Tracking Code' dimension.
+feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 ---
 # campaign

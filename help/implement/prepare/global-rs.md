@@ -1,6 +1,7 @@
 ---
 title: Global report suites in Adobe Analytics
 description: Understand the advantages and requirements to using a global report suite.
+feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 ---
 # Global report suite considerations

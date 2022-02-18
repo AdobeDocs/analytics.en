@@ -1,6 +1,7 @@
 ---
 description: Overview of the Advertising Analytics workflow.
 title: Workflow overview
+feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 ---
 # Workflow overview

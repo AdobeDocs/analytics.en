@@ -1,6 +1,7 @@
 ---
 title: Server
 description: The name of the server.
+feature: Dimensions
 exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 ---
 # Server

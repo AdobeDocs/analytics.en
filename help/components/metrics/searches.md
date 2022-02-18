@@ -1,6 +1,7 @@
 ---
 title: Searches
 description: The number of times a hit matched external search criteria.
+feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
 ---
 # Searches

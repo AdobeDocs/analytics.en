@@ -1,7 +1,6 @@
 ---
 description: Specify the touchpoints to create a multi-dimensional fallout sequence.
 title: Configure a fallout visualization
-uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee

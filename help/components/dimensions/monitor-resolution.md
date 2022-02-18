@@ -1,6 +1,7 @@
 ---
 title: Monitor resolution
 description: The resolution of the visitor's monitor in pixels.
+feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 ---
 # Monitor resolution

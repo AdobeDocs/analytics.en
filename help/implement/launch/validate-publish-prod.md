@@ -1,6 +1,7 @@
 ---
 title: Validate a development implementation and publish to production
 description: Learn how to use Adobe Experience Platform tags to deploy Adobe Analytics to your production environment.
+feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 ---
 # Validate a development implementation and publish to production

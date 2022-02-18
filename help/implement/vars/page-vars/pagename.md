@@ -1,6 +1,7 @@
 ---
 title: pageName
 description: The name of the page on your site.
+feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 ---
 # pageName

@@ -1,6 +1,7 @@
 ---
 title: US states
 description: The US state of the visitor.
+feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 ---
 # US state

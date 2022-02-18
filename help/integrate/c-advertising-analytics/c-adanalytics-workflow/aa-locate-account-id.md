@@ -1,6 +1,7 @@
 ---
 description: Here are instructions on helping you to locate your account IDs for Google and Bing.
 title: Locate your account IDs
+feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 ---
 # Locate your account IDs

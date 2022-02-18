@@ -1,6 +1,7 @@
 ---
 title: Classification importer processing time
 description: Understand the time frame Adobe processes classification files, and how to minimize processing time.
+feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
 ---
 # Classification importer processing time

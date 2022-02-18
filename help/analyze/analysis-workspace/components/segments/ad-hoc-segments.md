@@ -1,7 +1,7 @@
 ---
 description: Use ad-hoc segments in Analysis Workspace.
 title: Ad-hoc segments
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 ---

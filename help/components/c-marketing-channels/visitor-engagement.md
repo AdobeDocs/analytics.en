@@ -2,8 +2,7 @@
 description: Learn how to specify visitor engagement expiration in Marketing Channels.
 subtopic: Marketing channels
 title: Marketing channel expiration
-feature: Reports & Analytics Basics
-uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 ---
 # Marketing channel expiration

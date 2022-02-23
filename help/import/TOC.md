@@ -34,6 +34,7 @@ user-guide-description: Bring data into Analytics from outside sources, either i
   + [Transaction and customer integration](c-data-sources/datasrc-integrating-offline-data.md)
   + [Transaction ID and visitor profiles](c-data-sources/datasrc-tid-visitor-profile.md)
   + [Data Sources FAQ](c-data-sources/datasrc-faq.md)
++ [Bulk Data Insertion API](bulk-data-insertion-api/bulk-data-insert.md)
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
   + [End-of-life for Analytics Data Connectors](data-connectors/data-connectors-eol.md)

@@ -2,6 +2,7 @@
 title: Manage annotations
 description: How to manage annotations in Workspace.
 role: User, Admin
+feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 ---
 # Manage annotations

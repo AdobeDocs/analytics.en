@@ -3,6 +3,7 @@ title: Annotations overview
 description: How to use annotations in Workspace.
 role: User, Admin
 solution: Analytics
+feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 ---
 # Annotations overview

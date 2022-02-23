@@ -2,7 +2,7 @@
 title: Comparison of different bot exclusion methods
 description: Lets you compare different methods of excluding bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
-feature: Admin Tools
+feature: Bot Removal
 ---
 # Comparison of different bot exclusion methods
 

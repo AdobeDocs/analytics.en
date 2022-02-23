@@ -1,6 +1,7 @@
 ---
 description: Explains the continuous feature release strategy for Adobe Analytics
 title: Adobe Analytics feature releases
+feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 ---
 # Adobe Analytics feature releases

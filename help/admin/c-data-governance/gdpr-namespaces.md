@@ -1,7 +1,7 @@
 ---
 description: Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites.
 title: Namespaces
-uuid: cab61844-3209-4980-b14c-6859de777606
+feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 ---
 # Namespaces

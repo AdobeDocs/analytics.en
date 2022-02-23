@@ -1,6 +1,7 @@
 ---
 description: Learn about the guidelines and recommendations for users' consent to store or read non-essential cookies on devices or browsers.
 title: What are the CNIL guidelines for user's consent and cookies
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 ---
 # CNIL Consent Exemption

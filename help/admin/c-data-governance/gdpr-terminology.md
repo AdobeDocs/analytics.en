@@ -1,7 +1,7 @@
 ---
 description: Data governance glossary for Adobe Analytics
 title: GDPR Terminology
-uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+feature: Data Governance
 exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
 ---
 # GDPR Terminology

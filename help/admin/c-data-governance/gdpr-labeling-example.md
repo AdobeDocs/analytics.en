@@ -1,7 +1,7 @@
 ---
 description: Shows examples on how to label data for hit data, access requests, delete requests
 title: Labeling Examples
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 ---
 # Labeling Examples

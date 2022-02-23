@@ -1,7 +1,7 @@
 ---
 description: Understand the IDs captured in your Analytics data, and decide which you will use for Data Privacy requests.
 title: Labeling best practices
-uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 ---
 # Labeling best practices

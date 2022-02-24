@@ -18,7 +18,7 @@ Annotations manifest slightly differently, depending on whether they span a sing
 | Date | Appearance |
 | --- | --- |
 | **Single day** |   ![](assets/single-day.png)  |
-| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)<p>Note the following: on days that have more than one annotation tied to them, the icon will be a grey color.|
+| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)<p>Note the following: on days that have more than one annotation tied to them, the icon appears in a grey color.|
 
 ## View annotations in a Summary chart
 

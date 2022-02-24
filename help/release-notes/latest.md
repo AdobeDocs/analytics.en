@@ -6,10 +6,6 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (February 2022)
 
->[!IMPORTANT]
->
->These release notes contain pre-release information that is subject to change.
-
 **Last update**: February 24, 2022
 
 Learn about the latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html). Get the latest self-help documentation, tutorials, and courses on Experience League.

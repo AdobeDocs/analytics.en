@@ -17,8 +17,9 @@ Annotations manifest slightly differently, depending on whether they span a sing
 
 | Date | Appearance |
 | --- | --- |
-| **Single day** |   ![](assets/single-day.png)  |
-| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)<p>Note the following: on days that have more than one annotation tied to them, the icon appears in a grey color.|
+| **Single day** |   ![](assets/single-day.png)<p>When you hover over the annotation, you can see its details, you can edit it by selecting the pen icon, or you can delete it:<p> ![](assets/hover.png) |
+| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>When you select it in the line chart, the annotation metadata appear, and you can edit or delete it:![](assets/multi-hover.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)|
+| **Overlapping annotations** | On days that have more than one annotation tied to them, the icon appears in a grey color.<p>![](assets/grey.png)<p>When you hover over the grey icon, all overlapping annotations appear:<p>![](assets/overlap.png) |
 
 ## View annotations in a Summary chart
 

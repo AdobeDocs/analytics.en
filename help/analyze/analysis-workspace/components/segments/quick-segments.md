@@ -9,15 +9,11 @@ exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 
 You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Quick segments
 
-* Apply only to projects in which they were created (you can change this).
+* Apply as [project-only segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Allow for up to 3 rules.
 * Do not accommodate nested containers, or sequential rules.
-* Do work in projects with multiple report suites.
 
 For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). 
-
->[!IMPORTANT]
-> Quick segments are currently in limited testing and will be generally available on October 21, 2021.
 
 ## Prerequisites
 
@@ -75,14 +71,16 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 1. (Optional) Rename the segment.
 1. Click **[!UICONTROL Save]**.
 
-Notice how the segment's side bar changes from striped blue to blue. It now appears in your component list in the left rail.
+Notice how the segment's side bar changes from striped blue to blue. It also now appears in your left rail component list.
 
 ## What are project-only segments?
 
-Project-only segments are either quick segments or ad-hoc Workspace project segments. When editing/opening them in the [!UICONTROL Segment Builder], the project-only box  shows up. If you APPLY a quick segment in the builder but don’t check the make available box, then it is still a project-only segment but it can no longer be opened in the [!UICONTROL Quick Segment Builder]. 
+Project-only segments are segments that only apply to the current project they were created in. They will not be available in other projects and cannot be shared to other users. They are intended for quick exploration of your data without having to create and save a segment in the left rail. Project-only segments can be created in the panel drop zone either with Quick segments or [ad-hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en). 
+
+If a project-only segment is opened in the [!UICONTROL Segment Builder], a project-only notification appears. If you do not check "Make this segment available.." and click **[!UICONTROL APPLY]**, the segment remains a project-only segment. Note: if you apply a Quick segment from the Segment Builder, it can no longer be opened in the [!UICONTROL Quick Segment Builder]. 
 
 ![Project only unchecked](assets/project-only-unchecked.png)
 
-If you check the box and click **[!UICONTROL SAVE]**, it is now a component-list segment.
+If you check "Make this segment available.." and click **[!UICONTROL SAVE]**, the segment becomes available in the left rail component list for use in other projects. It can also be shared with other users from the Segment Manager.
 
 ![Project only checked](assets/project-only-checked.png)

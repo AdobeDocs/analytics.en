@@ -37,7 +37,7 @@ Ad-hoc segments can be made available to other projects by saving them.
 
 1. Hover over the segment in the drop zone and click the "i" icon.
 1. Click the edit pencil to go to the Segment Builder. 
-2. Check **[!UICONTROL Make available to all projects and add to your component list]**. 
-3. Click **[!UICONTROL SAVE]**. 
+1. Check **[!UICONTROL Make available to all projects and add to your component list]**. 
+1. Click **[!UICONTROL SAVE]**. 
 
 Once saved, the segment is available in your left rail component list and can be shared with other users from the Segment Manager.

@@ -8,27 +8,22 @@ exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 
 Once your tag library is pushed to production, your organization can begin to use Adobe Analytics to pull basic reports.
 
->[!NOTE]
->Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
-
 ## Prerequisites
 
 [Deploy your Analytics implementation to your dev environment](deploy-dev.md): An Analytics implementation must be published to your development environment in order to follow this page.
 
 ## Validate your dev implementation using the Experience Cloud debugger
 
-The Experience Cloud debugger is a Chrome plug-in that shows all Experience Cloud tags present on a page.
+The Experience Cloud debugger is an extension that shows all Experience Cloud tags present on a page.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. Install the extension for either [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/).
 2. Navigate to your development website that you have implemented tags on.
-3. Click on the Adobe Experience Cloud debugger icon in the upper right of Chrome
-4. If everything is properly implemented, you should see content inside Adobe Analytics, tags, and the Adobe Experience Cloud Visitor ID service:
-
-![debugger][assets/debugger.png]
+3. Click on the Adobe Experience Cloud debugger icon in your browser.
+4. If everything is properly implemented, you should see content inside Adobe Analytics, tags, and the Adobe Experience Cloud Visitor ID service.
 
 ## Deploy your dev implementation to staging/prod
 
-Once you've validated you're seeing data, you can push your implementation to the live version of your site.
+Once you have validated that you are seeing data, you can push your implementation to the live version of your site.
 
 1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property that you intend to implement on your site.
@@ -39,7 +34,7 @@ Once you've validated you're seeing data, you can push your implementation to th
 1. Click the library's dropdown again, and select **[!UICONTROL Approve for Publishing]**.
 1. Click the library's dropdown again (now in the [!UICONTROL Approved] column), and select **[!UICONTROL Build and Publish to Production]**.
 1. Go to the Environments tab, the click **[!UICONTROL Production Environment]**.
-1. Copy the production header + footer code, and provide it to your website owners. Request that they implement this code on your site's production environment.
+1. Copy the production install code, and provide it to your website owners. Request that they implement this code on your site's production environment.
 
 ## Validate your production implementation
 
@@ -57,7 +52,7 @@ While on your site, open the browser's developer console (typically F12). Look a
 * There are no JavaScript errors in the console. Work with your organization's website owners to make sure all JS errors are resolved.
 * Header code is properly implemented: Make sure the header code is inside the `<head>` tag, and that the file exists.
 * AppMeasurement library exists: Navigate directly to the JS source to make sure the JS file contains code. If it does not, make sure each environment is created, and that the library is published to its respective environment.
-* Interfering plug-ins: Some Chrome plug-ins can prevent image requests from firing. Disable any plug-ins that might stop data from being sent to Adobe's servers.
+* Interfering extensions: Some extensions, such as ad blockers, can prevent image requests from firing. Disable any extensions that might stop data from being sent to Adobe.
 
 ## Next Steps
 

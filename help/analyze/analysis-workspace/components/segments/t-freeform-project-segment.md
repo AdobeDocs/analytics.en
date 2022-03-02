@@ -13,9 +13,9 @@ You can create different types of segments in Workspace, depending on how comple
 | Segment type | Created where? | Applicable where? | When to use |
 | --- | --- | --- | --- |
 | Component-list segment | Click +, which takes you to the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | All your Workspace projects | For more complex segments, sequential segments |
-| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project only, but can save and add to your segment list. | Flexibility to add/edit one or more rules |
+| Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Project-only](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), but can save and add to your segment list. | Flexibility to add/edit one or more rules |
 | Ad-hoc segments: |  |  |  | 
-|  - Ad-hoc Workspace project segment | [Drag and drop into segment drop zone in a project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Project only, but can save and add to your segment list. | For single-rule segments |  
+|  - Ad-hoc Workspace project segment | [Drag and drop into segment drop zone in a project](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Project-only](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), but can save and add to your segment list. | For single-rule segments |  
 |  - Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
 |  - VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
 

@@ -14,6 +14,24 @@ The landing page for Adobe Analytics brings together both Analysis Workspace and
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
+## New landing page features
+
+>[!NOTE]
+>
+>These additions and changes are currently [in limited testing](/help/release-notes/releases.md).
+
+| Feature | Description | Screenshot |
+| --- | --- | --- |
+| Expand [!UICONTROL Projects] table to full screen | To expand the real estate for the table, just click the hamburger menu icon. This action will collapse the left-rail tabs. | ![Expand table](assets/landing-collapse.png) |
+| Customize column width | Previously, the column width was fixed. Now you can adjust it by dragging the column separator. |   |
+| Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select[!UICONTROL  Move up] or [!UICONTROL Move down]. | ![Move pinned items](assets/move-up-down.png) |
+| New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: A higher number of project queries increases project complexity and may increase processing and load times.</li></ul> | ![New columns](assets/new-columns.png)  |
+| Single click to open a report | Previously, you had to double click. |  |
+| Added new links to Reports & Analytics reports | <ul><li>Reports > Audience > Bots</li><li>Reports > Audience > Bot Pages</li>Reports > Engagement > Real-Time</li></ul> | ![New links](assets/report-links.png) |
+| Added new out-of-the-box reports |   |  |
+
+{style="table-layout:auto"}
+
 ## Access the landing page {#access-landing}
 
 After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Access to the toggle button is user-specific per organization, not company specific.
@@ -66,7 +84,7 @@ After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL
 | Report Suite | Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
 | Owner | The person who created the project. |
 | Last opened | When this project was last opened by you. |
-| Column selector | If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
+| Customize table icon | (Top right) If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
 | < (Back button) | This button in a Workspace project or a report takes you back to your most recent landing page configuration. Whatever page configuration you had when you left the landing page will persist when you return. |
 
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports}

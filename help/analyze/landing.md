@@ -27,14 +27,16 @@ The landing page for Adobe Analytics brings together both Analysis Workspace and
 | Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select[!UICONTROL  Move up] or [!UICONTROL Move down]. | ![Move pinned items](assets/move-up-down.png) |
 | New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: A higher number of project queries increases project complexity and may increase processing and load times.</li></ul> | ![New columns](assets/new-columns.png)  |
 | Single click to open a report | Previously, you had to double click. |  |
-| Added new links to Reports & Analytics reports | <ul><li>Reports > Audience > Bots</li><li>Reports > Audience > Bot Pages</li>Reports > Engagement > Real-Time</li></ul> | ![New links](assets/report-links.png) |
-| Added new out-of-the-box reports |   |  |
+| New links to Reports & Analytics reports | <ul><li>Reports > Audience > Bots</li><li>Reports > Audience > Bot Pages<li>Reports > Engagement > Real-Time</li></ul> | ![New links](assets/report-links.png) |
+| New out-of-the-box reports | <ul><li>Reports > Most popular > Next page</li><li>Reports > Most popular > Previous page</li><li>Reports > Engagement > Page analysis > Page summary</li></ul>Note that these reports are in Workspace format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can also modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
+| [!UICONTROL Create new] modal is back | When you click [!UICONTROL Create new] in Workspace, you once again get the choice between a Blank project and a Blank mobile scorecard. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
+| Also available in CJA | This landing page, in a modified form, will also be available in CJA. |  |
 
 {style="table-layout:auto"}
 
 ## Access the landing page {#access-landing}
 
-After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Access to the toggle button is user-specific per organization, not company specific.
+After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL New landing page - Beta] toggle button in the lower left corner. Access to the toggle button is user specific per organization, not company specific.
 
 ![Landing](assets/landing.png)
 
@@ -48,8 +50,8 @@ After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL
 ### Terminology
 
 * **[!UICONTROL Projects]** are things that you have built or that someone else has built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
-* **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics and templates in Workspace. [!UICONTROL Reports] are also report templates that your company has built for you.
-* **[!UICONTROL Templates]** is no longer used as a term for Adobe's pre-built Workspace projects. They are now under [!UICONTROL Reports].
+* **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics and templates in Workspace.
+* **[!UICONTROL Templates]** is no longer used as a term for Adobe's pre-built Workspace projects. They are now under [!UICONTROL Reports]. The term [!UICONTROL Templates] is still used for templates your company created.
 
 ## Navigate the [!UICONTROL Projects] tab {#navigate-projects}
 

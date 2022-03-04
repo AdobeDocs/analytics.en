@@ -2,15 +2,16 @@
 description: Explains how the landing page brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella.
 title: Adobe Analytics landing page
 role: User, Admin
+feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 
-The landing page for Adobe Analytics brings together both Analysis Workspace and Reports & Analytics in a single interface and access point under the Workspace umbrella. It features a project manager home page, an updated reports menu, modernized reports, and a learning section to help you with getting started more effectively.
+The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, an updated reports menu, modernized reports, and a learning section to help you with getting started more effectively.
 
 >[!IMPORTANT]
 >
->This landing page will be in Open Beta starting on July 21, 2021. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is Workspace or Reports. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current Workspace experience.
+>This landing page is currently in Open Beta. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is [!UICONTROL Workspace] or [!UICONTROL Reports]. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current [!UICONTROL Workspace] experience.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -22,14 +23,14 @@ The landing page for Adobe Analytics brings together both Analysis Workspace and
 
 | Feature | Description | Screenshot |
 | --- | --- | --- |
-| Expand [!UICONTROL Projects] table to full screen | To expand the real estate for the table, just click the hamburger menu icon. This action will collapse the left-rail tabs. | ![Expand table](assets/landing-collapse.png) |
+| Expand [!UICONTROL Projects] table to full screen | To expand the table, just click the hamburger menu icon. This action will collapse the left-rail tabs. | ![Expand table](assets/landing-collapse.png) |
 | Customize column width | Previously, the column width was fixed. Now you can adjust it by dragging the column separator. |   |
-| Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select[!UICONTROL  Move up] or [!UICONTROL Move down]. | ![Move pinned items](assets/move-up-down.png) |
+| Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select **[!UICONTROL Move up]** or **[!UICONTROL Move down]**. | ![Move pinned items](assets/move-up-down.png) |
 | New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: A higher number of project queries increases project complexity and may increase processing and load times.</li></ul> | ![New columns](assets/new-columns.png)  |
 | Single click to open a report | Previously, you had to double click. |  |
-| New links to Reports & Analytics reports | <ul><li>Reports > Audience > Bots</li><li>Reports > Audience > Bot Pages<li>Reports > Engagement > Real-Time</li></ul> | ![New links](assets/report-links.png) |
-| New out-of-the-box reports | <ul><li>Reports > Most popular > Next page</li><li>Reports > Most popular > Previous page</li><li>Reports > Engagement > Page analysis > Page summary</li></ul>Note that these reports are in Workspace format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can also modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
-| [!UICONTROL Create new] modal is back | When you click [!UICONTROL Create new] in Workspace, you once again get the choice between a Blank project and a Blank mobile scorecard. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
+| New links to **[!UICONTROL Reports & Analytics]** reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![New links](assets/report-links.png) |
+| New out-of-the-box reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Note that these reports are in [!UICONTROL Workspace] format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
+| **[!UICONTROL Create new]** modal is back | When you click **[!UICONTROL Create new]** in Workspace, you once again get the choice between a [!UICONTROL Blank project] and a [!UICONTROL Blank mobile scorecard]. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
 | Also available in CJA | This landing page, in a modified form, will also be available in CJA. |  |
 
 {style="table-layout:auto"}
@@ -66,26 +67,26 @@ After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL
 | UI element | Definition |
 | --- | --- |
 | ... More | Lets you [!UICONTROL View Tutorials], and [Edit user preferences](/help/analyze/analysis-workspace/user-preferences.md). |
-| Create project | The drop-down menu lets you create a [!UICONTROL Workspace project] or a [!UICONTROL Mobile project]. |
-| Show less/more | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
-| Blank project | Creates a blank [Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) for you to populate. |
-| Blank mobile scorecard | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) for you to populate. |
-| Open Training Tutorial | Opens the Workspace training tutorial that guides new users through building a project in a step-by-step fashion.|
-| Open release notes | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
+| [!UICONTROL Create project] | The drop-down menu lets you create a [!UICONTROL Workspace project] or a [!UICONTROL Mobile project]. |
+| [!UICONTROL Show less/more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
+| [!UICONTROL Blank project] | Creates a blank [Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) for you to populate. |
+| [!UICONTROL Blank mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=en) for you to populate. |
+| [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides new users through building a project in a step-by-step fashion.|
+| [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | You can filter on tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
 | Search bar | The search now includes all columns in the table. |
 | Selection box | Clicking this box next to one or more projects displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. You may not have permissions to perform all of these actions. |
-| Favorites | Favoriting a project puts a star by it and tags it as a favorite that you can filter on.  |
-| Name | The name of the project. |
+| [!UICONTROL Favorites] | Favoriting a project puts a star by it and tags it as a favorite that you can filter on.  |
+| [!UICONTROL Name] | The name of the project. |
 | Pin icon | You can pin items and they *always* appear at the top of your list. |
 | Info (i) icon | Clicking the info icon shows the following info about this project: Type, Project Role, Owner, Description, and who it is shared with. It also indicates who can [edit or duplicate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) this project. |
 | Ellipsis (...) | Clicking the ellipsis next to a project displays the project management actions you can perform: Delete, Tag, Pin, Approve, Share, Rename, Copy, and Export to CSV. Note that you may not have permissions to perform all of these actions. |
-| Type | Indicates whether this type is a Workspace project or a Mobile scorecard. |
-| Tags | You can tag reports to organize them into groups. |
-| Project Role | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project.  |
-| Report Suite | Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
-| Owner | The person who created the project. |
-| Last opened | When this project was last opened by you. |
+| [!UICONTROL Type] | Indicates whether this type is a Workspace project or a Mobile scorecard. |
+| [!UICONTROL Tags] | You can tag reports to organize them into groups. |
+| [!UICONTROL Project Role] | Project roles refer to whether you are the project Owner, and whether you have permissions to Edit or Duplicate the project.  |
+| [!UICONTROL Report Suite] | Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
+| [!UICONTROL Owner] | The person who created the project. |
+| [!UICONTROL Last opened] | When this project was last opened by you. |
 | Customize table icon | (Top right) If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
 | < (Back button) | This button in a Workspace project or a report takes you back to your most recent landing page configuration. Whatever page configuration you had when you left the landing page will persist when you return. |
 
@@ -197,10 +198,10 @@ The Learning page contains hands-on video tours and tutorials, plus links to doc
 
 | Question | Answer |
 | --- | --- |
-| Where are the templates that I am used to seeing in Workspace? | These templates are grouped under the [!UICONTROL Reports] tab. |
+| Where are the templates that I am used to seeing in [!UICONTROL Workspace]? | These templates are grouped under the [!UICONTROL Reports] tab. |
 | Can I opt out of the beta? | You can opt out of the beta at any time. |
-| Does the work I do in the beta program UI carry over to the production Workspace experience? | Yes, any work done in the beta carries over to the old/current Workspace experience. |
-| Are my current Reports & Analytics favorites carried over? | No, they are NOT carried forward. However, any Workspace Project favorites are carried over. |
+| Does the work I do in the beta program UI carry over to the production [!UICONTROL Workspace] experience? | Yes, any work done in the beta carries over to the old/current [!UICONTROL Workspace] experience. |
+| Are my current [!DNL Reports & Analytics] favorites carried over? | No, they are NOT carried forward. However, any [!UICONTROL Workspace] project favorites are carried over. |
 | Is there a maximum number of projects I can pin? | No, there is no limit on the number of projects you can pin. |
-| Can Admins designate this landing page for their users? | No, Admins cannot designate the landing page on behalf of users. Individual users must turn on the toggle themselves. |
-| Are all reports that currently exist in Reports & Analytics still available? | No, the following reports were phased out, based on overall usage data: <ul><li>Any custom eVars/props/events/classifications<li>My Recommended Reports</li><li>Hourly/Daily/Weekly/Monthly/Quarterly/Yearly unique visitors</li><li>DailyWeekly/Monthly/Quarterly/Yearly unique customers</li><li>Action name depth</li><li>Action name summary</li><li>Add dashboard</li><li>Age</li><li>Audio support</li><li>Billing information</li><li>Clicks to page</li><li>Color depth</li><li>Cookie support</li><li>Cookies</li><li>Connection types</li><li>Creative elements</li><li>Credit card type</li><li>Cross sell</li><li>Custom event funnels</li><li>Custom links</li><li>Customer ID</li><li>Day of week</li><li>Entry action name</li><li>Exit action name</li><li>Exit links</li><li>Fallout</li><li>File downloads</li><li>Find in store</li><li>Full paths</li><li>Gender</li><li>Hit ype VISTA rule</li><li>Image support</li><li>Java</li><li>JavaScript</li><li>JavaScript version</li><li>Manage bookmarks</li><li>Manage dashboards</li><li>Monitor color depth</li><li>Monitor resolutions</li><li>Newsletter signups</li><li>Next action name</li><li>Next action name flow</li><li>Null searches</li><li>Operating system</li><li>Order review</li><li>Page of day</li><li>Pages not found</li><li>Pathfinder</li><li>Path length</li><li>Previous action name</li><li>Previous action name flow</li><li>Product activity</li><li>Product cost</li><li>Product department</li><li>Product inventory category</li><li>Product name</li><li>Product reviews</li><li>Product season</li><li>Product shares</li><li>Product zooms</li><li>Reload</li><li>Searches</li><li>Servers</li><li>Single page visits</li><li>Shipping information</li><li>Site hierarchy</li><li>Social mentions</li><li>Time of day</li><li>Time spent on action name</li><li>Video support</li><li>Visitor state</li></ul> |
+| Can admins designate this landing page for their users? | No, admins cannot designate the landing page on behalf of users. Individual users must turn on the toggle themselves. |
+| Are all reports that currently exist in [!DNL Reports & Analytics] still available? | No, the following reports were phased out, based on overall usage data: <ul><li>Any custom eVars/props/events/classifications<li>My Recommended Reports</li><li>Hourly/Daily/Weekly/Monthly/Quarterly/Yearly unique visitors</li><li>DailyWeekly/Monthly/Quarterly/Yearly unique customers</li><li>Action name depth</li><li>Action name summary</li><li>Add dashboard</li><li>Age</li><li>Audio support</li><li>Billing information</li><li>Clicks to page</li><li>Color depth</li><li>Cookie support</li><li>Cookies</li><li>Connection types</li><li>Creative elements</li><li>Credit card type</li><li>Cross sell</li><li>Custom event funnels</li><li>Custom links</li><li>Customer ID</li><li>Day of week</li><li>Entry action name</li><li>Exit action name</li><li>Exit links</li><li>Fallout</li><li>File downloads</li><li>Find in store</li><li>Full paths</li><li>Gender</li><li>Hit ype VISTA rule</li><li>Image support</li><li>Java</li><li>JavaScript</li><li>JavaScript version</li><li>Manage bookmarks</li><li>Manage dashboards</li><li>Monitor color depth</li><li>Monitor resolutions</li><li>Newsletter signups</li><li>Next action name</li><li>Next action name flow</li><li>Null searches</li><li>Operating system</li><li>Order review</li><li>Page of day</li><li>Pages not found</li><li>Pathfinder</li><li>Path length</li><li>Previous action name</li><li>Previous action name flow</li><li>Product activity</li><li>Product cost</li><li>Product department</li><li>Product inventory category</li><li>Product name</li><li>Product reviews</li><li>Product season</li><li>Product shares</li><li>Product zooms</li><li>Reload</li><li>Searches</li><li>Servers</li><li>Single page visits</li><li>Shipping information</li><li>Site hierarchy</li><li>Social mentions</li><li>Time of day</li><li>Time spent on action name</li><li>Video support</li><li>Visitor state</li></ul> |

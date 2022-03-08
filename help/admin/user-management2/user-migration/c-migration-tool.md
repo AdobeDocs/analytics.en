@@ -1,7 +1,7 @@
 ---
 description: What you need to know about the Analytics user ID migration to the Admin Console in the Adobe Experience Cloud.
 title: Analytics User Migration to the Admin Console
-uuid: 7d020713-693b-4945-aa52-3669a631aacb
+feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 ---
 # Analytics User Migration to the Admin Console{#analytics-user-migration-to-the-admin-console}
@@ -274,7 +274,7 @@ Important information about the migration process and how it impacts current use
   </tr> 
   <tr> 
    <td colname="col1"> <p>User Management APIs <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Adobe-supported identity types</a> </p> </td> 
-   <td colname="col2"> <p> Admins migrating to the Admin Console should configure<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html"> user management APIs</a> offered at Adobe I/O for programmatic access to user accounts in the Admin Console. </p> <p>The Analytics Permission APIs will be turned off when you are enabled for the migration. </p> </td> 
+   <td colname="col2"> <p> Admins migrating to the Admin Console should configure<a href="https://developer.adobe.com/UMAPI/"> user management APIs</a> offered at Adobe I/O for programmatic access to user accounts in the Admin Console. </p> <p>The Analytics Permission APIs will be turned off when you are enabled for the migration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web Service Credentials </p> </td> 

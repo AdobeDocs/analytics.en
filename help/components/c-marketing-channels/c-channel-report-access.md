@@ -1,6 +1,7 @@
 ---
 description: Describes how to run the Marketing Channel report, grant limited admin user rights, and user group permissions to report.
 title: Marketing Channel permissions
+feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 ---
 # Marketing Channel permissions

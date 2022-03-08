@@ -1,6 +1,7 @@
 ---
 title: Legacy Adobe Experience Cloud Debugger
 description: Install the Legacy Adobe Experience Cloud Debugger. This debugger inspects tags for Analytics, Target, Advertising Cloud, Identity Service, and Data Collection tags.
+feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 ---
 # Legacy Adobe Experience Cloud Debugger

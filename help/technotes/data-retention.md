@@ -1,6 +1,7 @@
 ---
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
+feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 ---
 # Data retention policy
@@ -25,6 +26,10 @@ Adobe, in its role as your data processor, must take appropriate measures to ass
 ## Data deletion
 
 Once data exceeds your data retention policy, Adobe retains the right to delete it with no option for recovery. You must ensure that all data that you want to retain is within your organization's data retention policy.
+
+## View/manage current data retention policy
+
+The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of which report suites have been configured for data governance. It also indicates whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite. [More info](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
 
 ## Frequently asked questions
 

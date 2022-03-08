@@ -1,6 +1,7 @@
 ---
 title: Instances
 description: The number of hits that a variable was set (and not persisted).
+feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 ---
 # Instances

@@ -7,7 +7,7 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 ---
 # Visualization Color Palettes
 
-You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect Summary Change, conditional formatting in Freeform tables, and the Map visualization.
+You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect [!UICONTROL Summary Change], conditional formatting in [!UICONTROL Freeform] tables, and the [!UICONTROL Map] visualization.
 
 >[!NOTE]
 >
@@ -20,9 +20,9 @@ Keep in mind:
 * There are five pre-set color palettes to choose from. The default palette and the one below have been optimized for optimal contrast and are both more accessible for those who are color blind.
 * The third to the fifth color palettes below the top two have been optimized for color harmony.
 
-## Change your color palette:
+## Change your [!UICONTROL color palette]:
 
-Here is a video on using custom color palettes:
+Here is a video on using custom [!UICONTROL color palettes]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 

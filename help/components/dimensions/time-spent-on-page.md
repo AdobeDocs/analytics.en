@@ -1,6 +1,7 @@
 ---
 title: Time spent on page
 description: The amount of time a visitor spent on the page.
+feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 ---
 # Time spent on page

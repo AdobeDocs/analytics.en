@@ -1,7 +1,7 @@
 ---
 title: AppMeasurement for JavaScript release notes
 description: Cumulative release notes for AppMeasurement for JavaScript.
-subtopic: Release notes
+feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 ---
 # AppMeasurement for JavaScript release notes
@@ -14,9 +14,9 @@ You can download the latest version of AppMeasurement in the [Code Manager](/hel
 
 ## Version 2.22.4
 
-Release Date: **January 11, 2022**
+Release Date: **January 18, 2022**
 
-* Fixed s.tl() to gracefully ignore objects with href objects instead of href strings.
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it will gracefully ignore the `href` attribute instead of failing. This can occur when passing `svg` objects to the link tracking call.
 
 ## Version 2.22.3
 

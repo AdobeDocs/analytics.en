@@ -1,6 +1,7 @@
 ---
 title: Event serialization
 description: Help deduplicate metrics on your site.
+feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 ---
 # Event ID serialization

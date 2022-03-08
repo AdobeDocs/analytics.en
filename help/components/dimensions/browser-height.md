@@ -1,6 +1,7 @@
 ---
 title: Browser height - bucketed
 description: The height of the browser window in pixels.
+feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 ---
 # Browser height

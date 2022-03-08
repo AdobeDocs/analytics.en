@@ -1,6 +1,7 @@
 ---
 title: referrer
 description: Override the automatically collected referrer for a hit.
+feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 ---
 # referrer

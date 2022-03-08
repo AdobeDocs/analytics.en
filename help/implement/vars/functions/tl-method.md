@@ -1,6 +1,7 @@
 ---
 title: tl
 description: Send a link tracking call to Adobe.
+feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 ---
 # tl

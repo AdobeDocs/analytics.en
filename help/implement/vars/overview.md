@@ -2,6 +2,7 @@
 title: Variables, functions, methods, and plug-ins overview
 description: Learn what variables you can include in the data you send to Adobe to improve reporting.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
+feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 ---
 # Variables, functions, methods, and plug-ins overview

@@ -1,6 +1,7 @@
 ---
 title: Cart views
 description: The number of hits where a visitor viewed their cart.
+feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
 ---
 # Cart views

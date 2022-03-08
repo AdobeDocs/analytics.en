@@ -3,7 +3,6 @@ description: Steps that describe how administrators can enable Data Warehouse re
 title: Manage Data Warehouse permissions
 feature: Data Warehouse
 solution: Analytics
-uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
 ---
 # Manage Data Warehouse permissions

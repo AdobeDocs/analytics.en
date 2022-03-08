@@ -2,8 +2,7 @@
 description: The Classification Hierarchies page lets you define classification hierarchies that you can use to create Hierarchy reports with the same name.
 subtopic: Classifications
 title: Classification hierarchies
-feature: Admin Tools
-uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
+feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 ---
 # Classification hierarchies

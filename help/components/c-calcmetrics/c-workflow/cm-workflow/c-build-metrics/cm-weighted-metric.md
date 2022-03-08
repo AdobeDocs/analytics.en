@@ -1,7 +1,7 @@
 ---
 description: Shows examples of filtered and weighted metrics.
 title: Filtered and weighted metrics
-uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
+feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
 ---
 # Filtered and weighted metrics

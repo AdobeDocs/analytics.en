@@ -1,7 +1,7 @@
 ---
 description: How to to view the level of access to Adobe Analytics packages and features that your company is entitled to.
 title: Feature access levels
-uuid: bd8e457e-ac81-4ae6-b4b1-ae582a025024
+feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
 ---
 # Feature access levels

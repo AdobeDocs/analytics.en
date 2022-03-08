@@ -1,6 +1,7 @@
 ---
 title: Visit number
 description: The nth visit of the visitor.
+feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 ---
 # Visit number

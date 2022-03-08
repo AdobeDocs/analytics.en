@@ -1,6 +1,7 @@
 ---
 title: Referrer
 description: The URL a visitor was at before clicking through to your site.
+feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 ---
 # Referrer

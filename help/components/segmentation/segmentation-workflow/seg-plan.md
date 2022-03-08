@@ -2,7 +2,6 @@
 description: Outlines the steps and best practices to follow when planning your segments.
 title: Plan segments
 feature: Segmentation
-uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 ---
 # Plan segments

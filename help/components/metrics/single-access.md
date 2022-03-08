@@ -1,6 +1,7 @@
 ---
 title: Single access
 description: The number of times a dimension item did not change in a visit.
+feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
 ---
 # Single access

@@ -1,6 +1,7 @@
 ---
 title: Hit type
 description: Determines if the hit was a foreground or background hit.
+feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
 ---
 # Hit type

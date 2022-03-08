@@ -1,6 +1,7 @@
 ---
 title: Average page views per visit
 description: The average number of times a given dimension item appeared in a visit.
+feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
 ---
 # Average page views per visit

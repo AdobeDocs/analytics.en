@@ -1,6 +1,7 @@
 ---
 description: Lean about when and why Analytics data connectors will be end-of-lifed.
 title: End-of-life pre-announcement for Analytics data connectors
+feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 ---
 # End-of-life for Adobe Data Connectors
@@ -9,9 +10,9 @@ exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 
 For more than a decade, Adobe Analytics has aimed to provide the best-in-class web & marketing analytics solution to meet customers' needs. As technology and business needs evolve, we strive to continually deliver and meet the highest standards.  Unfortunately, the APIs that power this integration no longer meet those standards and are not tenable in modern Adobe Analytics technology infrastructure.
 
-## Why are we end-of-lifing this feature?
+## Why did we end-of-life this feature?
 
-This feature is powered by legacy technology that is no longer viable or supported. The [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) is now the place to find current integrations for Adobe solutions.
+This feature was powered by legacy technology that is no longer viable or supported. The [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) is now the place to find current integrations for Adobe solutions.
 
 ## How does removal of this feature impact you?
 

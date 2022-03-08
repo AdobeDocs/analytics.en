@@ -2,8 +2,7 @@
 description: Virtual report suites and multi-suite tagging have different advantages. Learn which is best for your organization.
 keywords: Virtual Report Suite,VRS
 title: Virtual report suites and multi-suite tagging considerations
-feature: Report Suite Settings
-uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 ---
 # Virtual report suites and multi-suite tagging considerations

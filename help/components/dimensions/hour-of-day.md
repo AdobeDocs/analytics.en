@@ -1,6 +1,7 @@
 ---
 title: Hour of day
 description: The numeric hour of the day, regardless of which day.
+feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 ---
 # Hour of day

@@ -1,7 +1,7 @@
 ---
 description: Schedule requests in Data Warehouse to run on a repeating basis.
 title: Schedule a recurring request
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
+feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 ---
 # Schedule a recurring request

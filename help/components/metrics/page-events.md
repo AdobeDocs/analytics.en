@@ -1,6 +1,7 @@
 ---
 title: Page events
 description: The number of link tracking actions triggered.
+feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
 ---
 # Page events

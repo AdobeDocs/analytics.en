@@ -1,6 +1,7 @@
 ---
 description: Classifications are used to categorize values into groups and report at the group level. For example, you can classify all Paid Search campaigns into a category like pop music terms and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events.
 title: Conversion classifications
+feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 ---
 # Conversion classifications

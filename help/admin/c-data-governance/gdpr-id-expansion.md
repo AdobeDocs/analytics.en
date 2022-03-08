@@ -1,7 +1,7 @@
 ---
 description: The IDs you submit do not always cover all of the hit data that Analytics can associate with the data subject. Analytics can create an expanded set of IDs to include this associated data into the Data Privacy requests. You can request this option with an optional parameter to each Data Privacy request you submit, added to the JSON request 
 title: ID Expansion
-uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
+feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 ---
 # ID Expansion
@@ -12,7 +12,7 @@ The IDs you submit do not always cover all of the hit data that Analytics can as
 "expandIds": true
 ```
 
-See the [Sample JSON Request](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+See the [Sample JSON Request](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) for an example of how to include this option with the request. For more details, refer to the [Privacy Service API documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -54,7 +54,7 @@ In addition to its default value, the priority field also supports a value of "l
 
 >[!NOTE]
 >
->The [Privacy Service API](https://www.adobe.io/apis/experienceplatform/gdpr.html) has been provided to help you fulfill Data Privacy requests, which are time sensitive. Using this API for other purposes is not supported by Adobe and may impact Adobe's ability to provide timely turn-around of high priority, user-initiated Data Privacy requests for other Adobe customers. We ask that you do not use the Privacy Service API for other purposes such as clearing out data that was accidentally submitted across large groups of visitors.
+>The [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) has been provided to help you fulfill Data Privacy requests, which are time sensitive. Using this API for other purposes is not supported by Adobe and may impact Adobe's ability to provide timely turn-around of high priority, user-initiated Data Privacy requests for other Adobe customers. We ask that you do not use the Privacy Service API for other purposes such as clearing out data that was accidentally submitted across large groups of visitors.
 
 You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out data fields, and highlights one reason why the Privacy Service API is inappropriate for this use.
 

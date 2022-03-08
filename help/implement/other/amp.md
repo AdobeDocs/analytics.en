@@ -1,6 +1,7 @@
 ---
 title: Implementing with AMP
 description: Implement Adobe Analytics on AMP pages.
+feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 ---
 # Implementing with AMP

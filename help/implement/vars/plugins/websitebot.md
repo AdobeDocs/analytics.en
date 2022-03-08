@@ -1,6 +1,7 @@
 ---
 title: websiteBot
 description: Dynamically identify bots using mouse movement.
+feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 ---
 # Adobe plug-in: websiteBot

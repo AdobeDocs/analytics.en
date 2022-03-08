@@ -1,7 +1,6 @@
 ---
 description: Power BI best practices.
 title: Best practices
-uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7

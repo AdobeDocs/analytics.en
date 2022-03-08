@@ -1,6 +1,7 @@
 ---
 title: getNewRepeat
 description: Track activity of new vs. repeat visitors.
+feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 ---
 # Adobe plug-in: getNewRepeat

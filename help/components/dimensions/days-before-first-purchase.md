@@ -1,6 +1,7 @@
 ---
 title: Days before first purchase
 description: The number of days between a visitor's first visit and their first purchase.
+feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
 ---
 # Days before first purchase

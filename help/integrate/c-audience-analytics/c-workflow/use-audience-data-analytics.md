@@ -2,7 +2,7 @@
 description: You can use the AAM Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include 
 solution: Experience Cloud
 title: Use the audience data in Analytics
-uuid: 203925fb-f070-441c-813a-43099cb9b2b9
+feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 ---
 # Use the audience data in Analytics

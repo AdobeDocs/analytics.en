@@ -1,8 +1,7 @@
 ---
 description: Defines common settings for a website that aggregates content, such as a news portal.
 title: Aggregator portal
-feature: Admin Tools
-uuid: d227c209-4d88-4eff-b126-994b2a179c51
+feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 ---
 # Aggregator portal

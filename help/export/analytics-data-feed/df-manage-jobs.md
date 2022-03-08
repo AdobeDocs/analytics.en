@@ -1,6 +1,7 @@
 ---
 title: Manage data feed jobs
 description: Learn how to manage individual jobs in data feeds.
+feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 ---
 # Manage data feed jobs

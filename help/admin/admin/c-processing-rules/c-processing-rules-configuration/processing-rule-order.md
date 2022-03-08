@@ -2,8 +2,7 @@
 description: To effectively use processing rules it is essential to understand when they are applied during data collection.
 subtopic: Processing rules
 title: Processing Order
-feature: Admin Tools
-uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 ---
 # Processing Order

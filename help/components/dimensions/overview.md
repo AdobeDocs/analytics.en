@@ -1,6 +1,7 @@
 ---
 title: Dimensions overview
 description: Variables that contain string values.
+feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 ---
 # Dimensions overview

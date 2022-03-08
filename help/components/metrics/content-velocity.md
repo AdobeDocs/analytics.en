@@ -1,6 +1,7 @@
 ---
 title: Content Velocity
 description: Content Velocity measures the impact of content on downstream content.
+feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 ---
 # Content Velocity

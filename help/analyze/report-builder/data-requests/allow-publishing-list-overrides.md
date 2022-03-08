@@ -1,7 +1,6 @@
 ---
 description: When you schedule a report, you can choose a publishing list to use for distribution.
 title: Allow Publishing List Overrides
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005

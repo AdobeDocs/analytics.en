@@ -1,6 +1,7 @@
 ---
 title: Schedule a traffic spike
 description: Partner with Adobe to make sure high-traffic events don't experience latency.
+feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 ---
 # Schedule a traffic spike

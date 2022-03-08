@@ -1,6 +1,7 @@
 ---
 title: Referrer type
 description: The type of referrer, depending on where the visitor came from.
+feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 ---
 # Referrer type

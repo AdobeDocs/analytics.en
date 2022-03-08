@@ -1,6 +1,7 @@
 ---
 title: Zip code
 description: The zip code of the visitor.
+feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 ---
 # Zip code

@@ -2,7 +2,6 @@
 description: The Segment Builder allows you to compare and constrain values using selected operators.
 title: Comparison Operators for Segments
 feature: Segmentation
-uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 ---
 # Comparison Operators for Segments

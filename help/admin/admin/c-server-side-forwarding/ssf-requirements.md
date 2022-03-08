@@ -1,8 +1,8 @@
 ---
 description: You must meet these Experience Cloud solution, service, and code requirements to implement server-side forwarding. These requirements also include instructions on how to check for code versions and where to get the latest code libraries.
-solution: Audience Manager
+solution: Analytics
 title: Requirements for server-side forwarding
-uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
+feature: Server-Side Forwarding
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 ---
 # Requirements for server-side forwarding

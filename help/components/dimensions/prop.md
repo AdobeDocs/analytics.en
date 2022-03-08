@@ -1,6 +1,7 @@
 ---
 title: Prop
 description: A custom dimension you can use in reporting.
+feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 ---
 # Prop

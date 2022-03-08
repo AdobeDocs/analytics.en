@@ -1,6 +1,7 @@
 ---
 title: First touch channel detail
 description: Details for the first marketing channel within the visitor's engagement expiration.
+feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 ---
 # First touch channel detail

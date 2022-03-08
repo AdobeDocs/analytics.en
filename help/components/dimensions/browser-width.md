@@ -1,6 +1,7 @@
 ---
 title: Browser width - bucketed
 description: The width of the browser window in pixels.
+feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
 ---
 # Browser width

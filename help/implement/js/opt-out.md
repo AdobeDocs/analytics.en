@@ -1,6 +1,7 @@
 ---
 title: Opt-out links
 description: Learn how to create an implement opt-out links for visitors to your site.
+feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 ---
 # Implement opt-out links

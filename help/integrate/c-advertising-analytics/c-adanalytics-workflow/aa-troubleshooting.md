@@ -1,7 +1,7 @@
 ---
 description: Troubleshoot and fix issues related to Advertising Analytics.
 title: Troubleshoot Advertising Analytics
-uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 ---
 # Troubleshoot Advertising Analytics

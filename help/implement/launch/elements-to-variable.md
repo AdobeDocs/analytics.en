@@ -1,14 +1,13 @@
 ---
 title: Map tag data elements to Analytics variables
 description: Assign data elements to Analytics variables so you can use them as dimensions in Analysis Workspace.
+feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 ---
+
 # Map tag data elements to Analytics variables
 
 Once you have a repository of tag data elements, you can assign them to Analytics dimensions.
-
->[!NOTE]
->Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
 
 ## Prerequisites
 

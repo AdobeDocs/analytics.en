@@ -1,6 +1,7 @@
 ---
 title: Day of year
 description: The numeric day of the year, regardless of which year.
+feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 ---
 # Day of year

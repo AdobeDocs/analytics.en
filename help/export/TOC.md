@@ -3,12 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 breadcrumb-title: Export Guide
-user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data. Learn how to use FTP and SFTP to transfer files between computers and servers.
 ---
 
-# Analytics Export Guide {#export}
+# Adobe Analytics Export Guide {#export}
 
 + [Analytics Export Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
   + [Create or edit a data feed](analytics-data-feed/create-feed.md)

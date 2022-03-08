@@ -3,12 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
 ---
 
-# Analytics Tools Guide {#analyze}
+# Adobe Analytics Tools Guide {#analyze}
 
 + [Analytics Tools Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
@@ -23,6 +24,11 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
+    + Annotations {#annotations}
+      + [Annotations overview](analysis-workspace/components/annotations/overview.md)
+      + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
+      + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
+      + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -80,6 +86,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
+    + [Media Average Minute Audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + Media Playback Time Spent {#media-playback-timespent}
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)

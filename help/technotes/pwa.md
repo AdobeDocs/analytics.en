@@ -2,6 +2,7 @@
 title: PWAs for Analytics
 description: Progressive web apps for Adobe Analytics
 role: User, Admin
+feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 ---
 # PWAs for Adobe Analytics

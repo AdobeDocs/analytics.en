@@ -3,8 +3,7 @@ description: Example containing a sample of server calls sent in a common custom
 keywords: Analytics Implementation
 subtopic: Visitors
 title: Cross-device visitor identification example
-topic-fix: Developer and implementation
-uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
+feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 ---
 # Cross-device visitor identification example

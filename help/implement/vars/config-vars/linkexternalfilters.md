@@ -1,6 +1,7 @@
 ---
 title: linkExternalFilters
 description: Use the linkExternalFilters variable to help automatic exit link tracking.
+feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 ---
 # linkExternalFilters

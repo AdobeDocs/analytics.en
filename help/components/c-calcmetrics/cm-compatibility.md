@@ -1,7 +1,7 @@
 ---
 description: Explains the three Product Compatibility options.
 title: Metric compatibility
-uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 ---
 # Metric compatibility

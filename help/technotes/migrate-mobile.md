@@ -1,6 +1,7 @@
 ---
 description: Learn how to migrate Mobile Services processing rules to Adobe Analytics
 title: Migrate Mobile Services processing rules to Adobe Analytics
+feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 ---
 # Migrate Mobile Services processing rules to Adobe Analytics

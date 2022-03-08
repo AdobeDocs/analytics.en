@@ -1,7 +1,7 @@
 ---
 description: Lists APIs affected by the user migration
 title: APIs Affected by the user migration
-uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
+feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 ---
 # APIs affected by the user migration{#apis-affected-by-the-migration}
@@ -36,6 +36,6 @@ If your company does not use any of these methods, no action is required other t
 For additional information:
 
 * [General User Management Info](https://helpx.adobe.com/enterprise/help/users.html)
-* [User Management APIs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
+* [User Management APIs via adobe.io](https://developer.adobe.com/UMAPI/)
 * [User Management API Forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migration of Analytics User Access and Management to Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)

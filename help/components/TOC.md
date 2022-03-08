@@ -3,12 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+user-guide-description: Help manage your data using components such as segments, calculated metrics, virtual report suites,alerts, marketing channels, classifications, and learn about Cross-Device Analytics.
 ---
 
-# [!DNL Analytics] Components Guide {#components}
+# [!DNL Adobe Analytics] Components Guide {#components}
 
 + [Analytics Components Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)

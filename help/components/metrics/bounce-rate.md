@@ -1,6 +1,7 @@
 ---
 title: Bounce rate
 description: The ratio of visits with exactly one hit over entries.
+feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 ---
 # Bounce rate

@@ -2,8 +2,7 @@
 description: Before you start creating virtual report suites, here are a few things to keep in mind.
 keywords: Virtual Report Suite
 title: Create virtual report suites
-feature: Reports & Analytics Basics
-uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 ---
 # Create virtual report suites

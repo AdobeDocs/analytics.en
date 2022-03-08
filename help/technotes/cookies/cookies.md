@@ -1,6 +1,7 @@
 ---
 title: Adobe Analytics and browser cookies
 description: Learn how tracking prevention measures affect third-party and first-party cookies set by Adobe Analytics.
+feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 ---
 # Adobe Analytics and browser cookies

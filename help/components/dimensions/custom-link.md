@@ -1,6 +1,7 @@
 ---
 title: Custom link
 description: The name of the custom link.
+feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 ---
 # Custom link

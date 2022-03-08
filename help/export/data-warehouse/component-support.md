@@ -1,6 +1,7 @@
 ---
 title: Component support in Data Warehouse
 description: Learn what additional dimensions and metrics are available in Data Warehouse and what is not supported.
+feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 ---
 # Component support in Data Warehouse

@@ -1,6 +1,7 @@
 ---
 title: Language
 description: The preferred language setting in the browser.
+feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 ---
 # Language

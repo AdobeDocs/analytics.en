@@ -1,6 +1,7 @@
 ---
 title: Metrics overview
 description: View quantities of dimension items or data over time.
+feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 ---
 # Metrics overview

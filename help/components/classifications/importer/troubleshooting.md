@@ -1,6 +1,7 @@
 ---
 title: Classification importer troubleshooting
 description: Common upload issues when using the classification importer.
+feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 ---
 # Classification importer troubleshooting

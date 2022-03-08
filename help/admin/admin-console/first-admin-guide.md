@@ -2,6 +2,7 @@
 title: Adobe Analytics First Admin Guide
 description: Understand how to get started with Adobe Analytics, general role types, and logging in to the UI.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
+feature: Admin Tools
 ---
 # Adobe Analytics First Admin Guide
 

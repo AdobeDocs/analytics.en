@@ -1,6 +1,7 @@
 ---
 title: Browser
 description: The name and version of the browser used.
+feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 ---
 # Browser

@@ -43,9 +43,11 @@ Cross-Device Analytics is a groundbreaking and robust feature, but has limitatio
 * CDA is only available through Analysis Workspace.
 * Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.
 * Adobe Analytics report suites cannot map to more than one IMS org. Since CDA stitches devices within a given report suite, CDA cannot be used to stitch data across multiple IMS orgs.
+* CDA uses a complex processing pipeline, with multiple dependent components. This runs in parallel with base Analytics reporting workflow. therefore, a data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected. It has minimal impact on the cross-device capabilities.
+* CDA uses a virtual report suite, which comes with its own limitations. See [Virtual Report Suites limitations](../vrs/vrs-about.html?lang=en#section_F22A6DEBDC9848429E446F4CC2C4EEDE).
+* CDA uses Report Time Processing, which adds its own limitations, like no current support for Marketing Channels Variables. See the full list of [Report Time Processing limitations](../vrs/vrs-report-time-processing.html?lang=en#report-time-processing-limitations).
 * Private Graph leverages the same ID syncs as those used by the [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) capability found within Experience Cloud and Adobe Analytics. However, CDA virtual report suites (whether based on private graph or field-based stitching) are not compatible with the rest of the Customer Attributes functionality. That is, Customer Attributes-based dimensions are not available for use within CDA virtual report suites.
 * CDA is not currently compatible with A4T.
-* Cross-Device Analytics uses a virtual report suite and report time processing, which have their own limitations. See [Virtual report suites](../vrs/vrs-about.md) and [Report time processing](../vrs/vrs-report-time-processing.md) for more information on these limitations.
 * The 1.4 API is not supported. Power BI connectors and Report Builder both rely on the 1.4 API, and are therefore not compatible with CDA.
 * Active monitoring of the CDA stitching process by Adobe is limited to production report suites only.
 * CDA is not currently compatible with the Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)

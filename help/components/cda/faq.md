@@ -116,7 +116,7 @@ If a customer downgrades from Ultimate, they will no longer have access to stitc
 
 ## Why is the total number of hits different between my source report suite and CDA virtual report suite?
 
-CDA uses a complex parallel processing pipeline, with multiple dependent components. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected. It has minimal impact on the cross-device capabilities.
+CDA uses a complex parallel processing pipeline, with multiple dependent components. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected.
 
 ## Why is the 'Identified People' metric inflated?
 

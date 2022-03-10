@@ -25,6 +25,7 @@ The Guidelines provide a limited exemption to the consent requirement (“Consen
 
 The following additional considerations apply:
 
+* Adobe Analytics operates data processing centers in the United  States, United Kingdom and Singapore in order to provide flexibility to all customers to collect, process, and store their data regionally. When configuring the initial set-up of Adobe Analytics, customers select their desired data processing center location. Customers’ data is ultimately stored within their selected region for the core Analytics product.
 * Consider collecting the opt-in status in an Analytics variable in order to separate opted-in data from opted-out data for segmentation, virtual report suites, or to route to separate end-points.
 * No measurement outside the site or app without prior consent, for example no off-site campaigns, email campaigns, or iFrames.
 * Collection of personal information in variables is not permitted without consent. [Control Experience Cloud Activities Based on User Consent](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)

@@ -292,6 +292,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
+  + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)
   + [Report types](reports-analytics/reports.md)
   + [Run different report types](reports-analytics/t-running-report-types.md)
   + Customize reports {#customize-reports}

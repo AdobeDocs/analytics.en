@@ -54,7 +54,9 @@ When sharing annotations or working with annotations that were shared with you, 
 
 ## Annotations and time zones
 
-All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel’s report suite is always applied. So an annotation created for Christmas Day happens on December 25th - no matter what report suite timezone you are in. Another example is New Year's Day. Every hour, a different timezone sets off fireworks as the new year starts. At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
+All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel’s report suite is always applied. So an annotation created for Christmas Day happens on December 25th - no matter what report suite timezone you are in. 
+
+Another example is New Year's Day. Every hour, a different timezone sets off fireworks as the new year starts. At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
 
 ## Other annotations tasks
 

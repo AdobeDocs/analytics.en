@@ -3,8 +3,8 @@ title: End-of-life notice for scheduled reports
 description: Adobe intends to pause all scheduled reports that have a creation date greater than two years.
 feature: Reports & Analytics Basics
 role: User, Admin
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
 ---
-
 # End-of-life notice for scheduled reports
 
 Effective April 15, 2022, Adobe intends to pause all scheduled reports that have a creation date greater than two years (any tasks created before January 31, 2020). No reports or data will be deleted. Only reports identified as older than two years will be paused, and no additional scheduled reports will be sent.
@@ -25,4 +25,4 @@ The purpose of this action is to effectively manage and maintain our scheduled r
 * After 9 months, expired tasks will be paused and can be reactivated, if still needed, until December 31, 2023. 
 * On December 31, 2023, Reports & Analytics will be deprecated.
  
-For additional questions or support, please reach out to Adobe Customer Care. 
+For additional questions or support, please reach out to Adobe Customer Care.

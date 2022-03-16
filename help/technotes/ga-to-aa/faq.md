@@ -1,5 +1,5 @@
 ---
-title: Frequently asked questions
+title: Frequently asked questions for migrating to Adobe Analytics
 description: Get answers to frequently asked questions when moving from a third-party platform to Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78

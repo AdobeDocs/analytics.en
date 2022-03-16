@@ -1,6 +1,6 @@
 ---
 description: Manage alerts.
-title: Alert Manager
+title: Alert Manager overview
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 ---

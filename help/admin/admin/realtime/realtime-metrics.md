@@ -1,6 +1,6 @@
 ---
 description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
-title: Supported real-time metrics and dimensions
+title: Supported real-time metrics and dimensions (administration)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277

@@ -1,6 +1,6 @@
 ---
 description: There are two ways to use metrics in Analysis Workspace.
-title: Metrics
+title: Metrics in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65

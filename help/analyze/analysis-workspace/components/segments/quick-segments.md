@@ -71,7 +71,7 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 1. (Optional) Rename the segment.
 1. Click **[!UICONTROL Save]**.
 
-Notice how the segment's side bar changes from striped blue to blue. It also now appears in your left rail component list.
+Notice how the segment's side bar changes from striped blue to a lighter blue. It also now appears in your left rail component list.
 
 ## What are project-only segments?
 

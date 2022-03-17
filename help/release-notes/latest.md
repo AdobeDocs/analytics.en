@@ -18,34 +18,26 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Annotations in Workspace | Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. [Learn more](/help/analyze/analysis-workspace/components/annotations/overview.md) | March 23, 2022 |
-| Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improve usability and ease navigation. [Learn more](/help/analyze/landing.md) | March 23, 2022 |
+| Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improve usability and ease navigation. [Learn more](/help/analyze/landing.md) | TBD |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
 * Fixed an issue that resulted in an error when trying to access Activity Map. (AN-267177)
-
 * Fixed an issue with unsuccessful user asset transfers. (AN-279813)
-
 * Fixed issues with the A4T Workspace panel. (AN-281594; AN-282418)
-
 * Fixed an issue with some users being unable to access Adobe Analytics. (AN-282776)
-
 * Fixed issues with some newly created report suites not collecting data. (AN-283114, AN-283311)
-
 * Fixed issues with being unable to detect Win11 using the Operating System dimension. (AN-275569, AN-275727; AN-280335)
-
 * Fixed issues with incorrectly sent Data Feeds emails. (AN-280255; AN-282051)
 
 
 ### Additional fixes in Adobe Analytics
 
-AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-279683; AN-279899; AN-280504; AN-280617; AN-280663; AN-281423; AN-281608; AN-281671; AN-281963; AN-282027; AN-282218; AN-282605; AN-282632; AN-282654; AN-282694; AN-282744; AN-282756; AN-282804; AN-282862; AN-282903; AN-282937; AN-282892; AN-283315; AN-283338; AN-283388; AN-283417; AN-283474; AN-283511; AN-283691, AN-283957; 
+AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-279683; AN-279899; AN-280504; AN-280617; AN-280663; AN-281423; AN-281523; AN-281608; AN-281671; AN-281963; AN-282027; AN-282218; AN-282593; AN-282605; AN-282632; AN-282654; AN-282694; AN-282744; AN-282756; AN-282804; AN-282838; AN-282862; AN-282903; AN-282937; AN-282892; AN-283315; AN-283338; AN-283388; AN-283417; AN-283474; AN-283511; AN-283691, AN-283895; AN-283943; AN-283957; AN-284030; AN-284100; AN-284142; AN-284162
 
 ## Important notices for Adobe Analytics administrators
-
-**Updated on March 11, 2022**
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |

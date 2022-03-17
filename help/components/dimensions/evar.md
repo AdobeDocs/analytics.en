@@ -1,5 +1,5 @@
 ---
-title: eVar
+title: eVar for Dimensions
 description: A custom dimension you can use in reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d

@@ -1,5 +1,5 @@
 ---
-title: Pages not found
+title: Pages not found (metrics)
 description: The number of hits containing an error.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3

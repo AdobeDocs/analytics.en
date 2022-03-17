@@ -40,7 +40,23 @@ Editing an annotation means that you can adjust date ranges, colors, scope, or w
 
 * In the [!UICONTROL Annotations Manager], click the title of the annotation.
 
-Both of these options land you back in the Annotations Builder. There, you can make the necessary adjustments and save the new version.
+Both of these options land you back in the [!UICONTROL Annotations Builder]. There, you can make the necessary adjustments and save the new version.
+
+## Share annotations
+
+When sharing annotations or working with annotations that were shared with you, keep this in mind:
+
+* Let's say you create a project with project-only annotations and then you share the project with another user. These annotations will be displayed, but they cannot be edited or deleted by anyone you share the project with. 
+
+* If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
+
+* To recap, if the project is shared with you, it will show up only in that project. If the annotation is shared directly with you, it will show up in all projects where that annotation can be displayed. 
+
+## Annotations and time zones
+
+All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel’s report suite is always applied. So an annotation created for Christmas Day happens on December 25th - no matter what report suite timezone you are in. 
+
+Another example is New Year's Day. Every hour, a different timezone sets off fireworks as the new year starts. At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
 
 ## Other annotations tasks
 
@@ -50,10 +66,10 @@ Just select one or more of the annotations and the Task bar appears.
 
 | Task | Description |
 | --- | --- |
-| Add | Takes you to the Annotations builder where you can create new annotations. |
-| Tag | All users can create tags for annotations and apply one or more tags to an annotation. However, you can see tags only for those segments that you own. What kinds of tags should you create? Here are some suggestions for useful tags:<ul><li>Tags based on team names, such as Social Marketing, Mobile Marketing</li><li>Project tags (analysis tags), such as Entry-page analysis</li><li>Category tags: Men's; geography</li><li>Workflow tags: Curated for (a specific business unit); Approved</li></ul>|
-| Delete | Deleting an annotation removes it from any project in your organization. |
-| Rename | Renaming an annotation renames it in all projects that it was applied to. |
-| Copy | Creates a distinct copy with its own annotation ID, but with the same name and definition.|
-| Export to CSV | Export the annotation definition to a .csv file.|
-| Filter (left rail) | Filter by tags, report suite, owners, and other filters (Mine, Approved, Favorites, Shared with me, and Show All).|
+| [!UICONTROL Add] | Takes you to the Annotations builder where you can create new annotations. |
+| [!UICONTROL Tag] | All users can create tags for annotations and apply one or more tags to an annotation. However, you can see tags only for those annotations that you own. What kinds of tags should you create? Here are some suggestions for useful tags:<ul><li>Tags based on team names, such as Social Marketing, Mobile Marketing</li><li>Project tags (analysis tags), such as Entry-page analysis</li><li>Category tags: Men's; geography</li><li>Workflow tags: Curated for (a specific business unit); Approved</li></ul>|
+| [!UICONTROL Delete] | Deleting an annotation removes it from any project in your organization. |
+| [!UICONTROL Rename] | Renaming an annotation renames it in all projects that it was applied to. |
+| [!UICONTROL Copy] | Creates a distinct copy with its own annotation ID, but with the same name and definition.|
+| [!UICONTROL Export to CSV] | Export the annotation definition to a .csv file.|
+| [!UICONTROL Filter] (left rail) | Filter by tags, report suite, owners, and other filters (Mine, Approved, Favorites, Shared with me, and Show All).|

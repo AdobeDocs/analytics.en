@@ -1,6 +1,6 @@
 ---
 description: How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
-title: Manage segments
+title: Manage segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918

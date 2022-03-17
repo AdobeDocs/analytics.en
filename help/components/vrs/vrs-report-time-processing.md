@@ -1,6 +1,8 @@
 ---
 description: Report time processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
 title: Report time processing
+role: Admin
+solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 ---

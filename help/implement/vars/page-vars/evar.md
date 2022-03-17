@@ -1,5 +1,5 @@
 ---
-title: eVar
+title: eVar variables
 description: Custom variables you can use in your implementation.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73

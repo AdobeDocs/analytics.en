@@ -6,6 +6,8 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2022)
 
+**Last updated: March 21, 2022**
+
 >[!IMPORTANT]
 >
 >The following content contains pre-release information and is subject to change.
@@ -18,7 +20,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Annotations in Workspace | Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. [Learn more](/help/analyze/analysis-workspace/components/annotations/overview.md) | March 23, 2022 |
-| Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improve usability and ease navigation. [Learn more](/help/analyze/landing.md) | TBD |
+| Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improve usability and ease navigation. [Learn more](/help/analyze/landing.md) | April 1, 2022 |
 
 {style="table-layout:auto"}
 

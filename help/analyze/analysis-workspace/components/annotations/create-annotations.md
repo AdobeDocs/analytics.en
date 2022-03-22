@@ -27,7 +27,7 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 
    | Element | Description |
    | --- | --- |
-    | [!UICONTROL Project-only Annotation] | By default, the annotation applies to the current project. By checking this box, you can make the annotation available to all projects that you own.<p> ![](assets/project-only.png)|
+   | [!UICONTROL Project-only Annotation] | By default, the annotation applies to the current project. By checking this box, you can make the annotation available to all projects that you own.<p> ![](assets/project-only.png)|
    | [!UICONTROL Title] | Name the annotation, e.g. "Memorial Day" |
    | [!UICONTROL Description] |(Optional) Provide a description for the annotation, e.g. "Public holiday observed in the US". |
    | [!UICONTROL Tags] | (Optional) Organize annotations by creating or applying a tag. |

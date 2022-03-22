@@ -354,7 +354,6 @@ The following list of columns are unused and do not contain data:
 * `socialtermslist`
 * `socialtermslist (deprecated)`
 * `socialtotalsentiment`
-* `sourceid`
 * `videoauthorized`
 * `videoaverageminuteaudience`
 * `videochaptercomplete`

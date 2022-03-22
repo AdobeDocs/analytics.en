@@ -23,11 +23,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|A user friendly name for this bookmark.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+   |Name|A user friendly name for this bookmark.|
+   |---|---|
+   |Add to|Specifies the folder in which you want to place the bookmark.|
+   |Make Public| Makes this bookmark available for users with access to the report suite.|
+   |Display report upon login| Displays the report when you log in.|
 
 ## Manage bookmarks {#task_1EE793CB52EA467787817BBD98DEF150}
 

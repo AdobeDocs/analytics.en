@@ -10,7 +10,7 @@ exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 
 >[!NOTE]
 >
->This feature is currently in limited testing.
+>Gradual rollout of this feature starts March 23, 2022. General Availability: April 11, 2022.
 
 Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range with known data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. 
 

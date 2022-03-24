@@ -5,11 +5,8 @@ feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 ---
-# Media Average Minute Audience panel
 
->[!NOTE]
->
->This feature is currently in limited testing.
+# Media Average Minute Audience panel
 
 Media Analytics customers can use the average minute audience panel to better understand average consumption of their content. Average minute audience enables comparisons of programming of any length or genre. In addition, customers can compare or append this digital average minute audience to linear TV average minute metrics. This panel gives more flexibility to measure the average audience for custom time periods, as well as when the duration classification has been updated after the fact. The current average minute audience metric only works if the duration is available at processing time.
 

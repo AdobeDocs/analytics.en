@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2022)
 
-**Last updated: March 23, 2022**
+**Last updated: March 28, 2022**
 
 * For February 2022 release notes, go [here](/help/release-notes/2022.md).
 * Learn about the latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html). Get the latest self-help documentation, tutorials, and courses on Experience League.
@@ -41,6 +41,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| Update to browser encryption methods supported for certain customers | March 28, 2022 | Adobe offers two cipher security levels to meet varying customer needs for security on first-party data collection. On **June 23, 2022** we will remove support for certain HTTPS encryption algorithms, known as ciphers, for customers with their security level set to “High”. This means that some older operating systems will no longer be able to send data to Analytics because they do not support modern encryption methods. Customers using the default “Standard” cipher security settings will not be impacted. All customers currently using the “High” setting have already been contacted directly. A detailed list of the ciphers affected by this change is can be found [here](/help/technotes/rdc/encryption-algos.md). |
 | Pausing older scheduled reports | March 11, 2022 | Effective **April 15, 2022**, Adobe intends to pause all scheduled reports that have a creation date greater than two years (created before January 31, 2020). No reports or data will be deleted. Only reports identified as older than two years will be paused, and no additional scheduled reports will be sent. [Learn more](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | 2022 ISO region updates | March 11, 2021 | Adobe will perform 2022 ISO region updates on **June 10, 2022**. Expect to see minor updates following this release. |
 | Changing how Analytics handles A4T data collected via Experience Edge | February 25, 2022 | On **March 7th, 2022**, we changed how we handle some Target-related data sent to Adobe Analytics via Experience Edge. When using the Adobe Experience Platform Web SDK with Analytics and Target, some personalization events were counted in [!DNL Adobe Analytics] as [!UICONTROL Page Views]. This led to inflated page view counts and additional server calls. With the change, personalization calls with no Analytics content are disregarded. Personalization calls with A4T data will record the A4T data, but will not be recorded as billable server calls, nor will it impact page views or link event metrics. |

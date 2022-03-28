@@ -29,7 +29,6 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 * Fixed issues with the A4T Workspace panel. (AN-281594; AN-282418)
 * Fixed an issue with some users being unable to access Adobe Analytics. (AN-282776)
 * Fixed issues with some newly created report suites not collecting data. (AN-283114, AN-283311)
-* Fixed issues with being unable to detect Win11 using the Operating System dimension. (AN-275569, AN-275727; AN-280335)
 * Fixed issues with incorrectly sent Data Feeds emails. (AN-280255; AN-282051)
 
 

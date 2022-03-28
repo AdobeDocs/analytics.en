@@ -48,6 +48,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
+  + [Supported HTTPS encryption algorithms](rdc/encryption-algos.md)
 + [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)

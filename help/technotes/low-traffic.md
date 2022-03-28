@@ -1,5 +1,5 @@
 ---
-description: When a report has a large number of unique values, Adobe uses the Low-Traffic dimension item to improve report performance.
+description: When a report has many unique values, Adobe uses the Low-Traffic dimension item to improve report performance.
 title: Low-traffic value in Adobe Analytics
 feature: Metrics
 feature: Data Configuration and Collection
@@ -18,7 +18,7 @@ When a report has many unique values, Adobe provides functionality to ensure tha
   * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), it starts being recognized as its own dimension item. Instances collected before meeting the threshold remain under [!UICONTROL Low-Traffic]. The exact threshold has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
 * If a report suite reaches more than 1,000,000 unique values, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
 
-This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, your organization runs a site with millions of articles and a new article became popular towards the end of the month (after exceeding both unique thresholds). You could still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. Note that this logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
+This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, your organization runs a site with millions of articles and a new article became popular towards the end of the month (after exceeding both unique thresholds). You could still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
 
 >[!NOTE]
 >The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches 500,000.

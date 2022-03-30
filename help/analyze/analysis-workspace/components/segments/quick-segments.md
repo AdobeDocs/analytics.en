@@ -15,6 +15,10 @@ You can create quick segments within a project to bypass the complexity of the f
 
 For a comparison of what quick segments can do vs. full-fledged component-list segments, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). 
 
+Here is a video overview of quick segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+
 ## Prerequisites
 
 Anyone can create a [!UICONTROL Quick Segment]. However, you need the [!UICONTROL Segment Creation] permission in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) to be able to save a quick segments or to open it in the [!UICONTROL Segment Builder].

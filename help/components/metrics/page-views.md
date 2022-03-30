@@ -10,9 +10,9 @@ The 'Page views' metric shows the number of times a given dimension item was set
 
 ## How this metric is calculated
 
-This metric counts all page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)) in a report suite. For dimensions, it include hits where a dimension item is defined or persisted. It does not include link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+This metric counts all page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)) in a report suite. For dimensions, it includes hits where a dimension item is defined or persisted. It does not include link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Compare to similar metrics
 
-* **Page views vs. [Visits](visits.md)**: Page views counts the number of times a page is viewed. Visits counts the number of sessions for visitors. One visit consists of one or more page view.
-* **Page views vs. [Page events](page-events.md)**: Page views counts the number of page view tracking calls (`t()`), and excludes link tracking calls (`tl()`). Page events is the opposite; it counts the number of link tracking calls, and excludes page view tracking calls.
+* **Page views vs. [Visits](visits.md)**: Page views count the number of times a page is viewed. Visits count the number of sessions for visitors. One visit consists of one or more page views.
+* **Page views vs. [Page events](page-events.md)**: Page views count the number of page view tracking calls (`t()`), and excludes link tracking calls (`tl()`). Page events are the opposite; they count the number of link tracking calls, and exclude page view tracking calls.

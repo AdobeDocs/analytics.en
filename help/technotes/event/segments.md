@@ -17,6 +17,10 @@ Create a segment that isolates the affected day or date range. This segment is u
 
 ![Affected days segment](assets/affected_days.jpg)
 
+>[!TIP]
+>
+>To change the OR statement to an AND statement, click the down arrow next to OR and select AND.
+
 Adobe recommends using the orange dimension dimension components, and not the purple date range components. If you use purple date range components, they override the project's calendar range:
 
 ![Exclude segment day type](assets/exclude_segment_day_type.jpg)

@@ -50,6 +50,8 @@ For more information about creating an FTP account, see [Create an FTP account](
 
 At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration.
 
+Once Adobe Analytics has read and processed files uploaded in the FTP folder, the files are then automatically deleted.
+
 ## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 Before uploading data via FTP, create an FTP account. >

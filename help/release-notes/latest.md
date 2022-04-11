@@ -29,11 +29,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 ## Fixes in Adobe Analytics
 
+* Fixed an issue in Data Feeds, where the Start and End Dates changed automatically after saving the Data Feed when creating from Data Feed UI. The dates were updating themselves by 1 day. (AN-281262)
 
+* Fixed an issue that prevented the renewal of scheduled projects via e-mail link. (AN-283622)
 
 ### Additional fixes in Adobe Analytics
 
-AN-281423; AN-282435; AN-284790; AN-284870; AN-284872; AN-284933; AN-284970; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761; 
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761; 
 
 ## Important notices for [!DNL Analytics] administrators
 

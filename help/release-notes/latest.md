@@ -39,7 +39,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 ## Important notices for Adobe Analytics administrators
 
-**Last updated: March 31, 2022**
+**Last updated: April 12, 2022**
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |

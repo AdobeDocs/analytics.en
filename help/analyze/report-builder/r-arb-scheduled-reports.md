@@ -11,7 +11,7 @@ The [!UICONTROL Scheduled Task Manager] lets you see a list of existing schedule
 
 ## Pausing older scheduled tasks 
 
-**Effective April 15, 2022**, Adobe intends to pause all scheduled Report Builder tasks that were created more than two years ago. Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.
+**Effective April 21, 2022**, Adobe intends to pause all scheduled Report Builder tasks that were created more than two years ago. Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.
  
 Any tasks that you wish to resume sending can be reactivated. Log in to Report Builder and launch the [!UICONTROL Scheduled Task Manager]. Click **[!UICONTROL Reactivate]** for the scheduled task you would like to resume sending. Any task that gets reactivated will have a default expiration of 18 months - unless a shorter expiration date is chosen.
  

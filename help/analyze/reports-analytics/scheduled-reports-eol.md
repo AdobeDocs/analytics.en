@@ -7,7 +7,7 @@ exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
 ---
 # End-of-life notice for scheduled reports
 
-Effective April 15, 2022, Adobe intends to pause all scheduled reports that have a creation date greater than two years (any tasks created before January 31, 2020). No reports or data will be deleted. Only reports identified as older than two years will be paused, and no additional scheduled reports will be sent.
+Effective April 21, 2022, Adobe intends to pause all scheduled reports that have a creation date greater than two years (any tasks created before January 31, 2020). No reports or data will be deleted. Only reports identified as older than two years will be paused, and no additional scheduled reports will be sent.
  
 Any scheduled reports still to be sent can be reactivated by simply logging into Analytics and opening the [!UICONTROL Scheduled Reports] manager. Click the [!UICONTROL Edit] icon and set a new scheduled time and expiration. Any report that gets reactivated will have a default expiration of 9 months, unless a shorter expiration date is chosen.
  

@@ -1,6 +1,7 @@
 ---
 title: Quarter
 description: The quarter that the metric occurred on.
+feature: Dimensions
 exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
 ---
 # Quarter

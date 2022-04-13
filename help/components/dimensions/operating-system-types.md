@@ -1,6 +1,7 @@
 ---
 title: Operating system types
 description: The operating system regardless of version.
+feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
 ---
 # Operating system types

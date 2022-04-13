@@ -12,7 +12,7 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 Information about scheduling, downloading and distributing reports.
 
 >[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+>Effective April 15, 2022, Adobe intends to pause all scheduled reports that have a creation date greater than two years (any tasks created before January 31, 2020). No reports or data will be deleted. Only reports identified as older than two years will be paused, and no additional scheduled reports will be sent. [Learn more](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 When you schedule a report for delivery in an Adobe Analytics application, you can use the Scheduling and Distribution tools to view what files have been automatically sent and modify or terminate the deliveries.
 
@@ -24,15 +24,16 @@ Due to differences in processing mechanisms and platforms, the various types of 
 
 These limitations are for individual scheduled and downloaded reports; dashboards are limited to the amount of space available within a reportlet.
 
->[!NOTE]
->
->The "Delivery Time"/"Time of Day" entered by the user specifies the time that the report should begin processing, not the time that it will actually be delivered. The actual time that the report will be delivered is based primarily on how long it takes to process (complex and large reports take longer to process than simpler reports). For example, if a report takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time"/"Time of Day".
->In addition, there are a number of other factors that can further increase the delay before the report is actually delivered:
->
-> * **Running many different schedules of the same type at the same time** (e.g., many Dashboards, etc.) can overload the system. The Scheduling system only allows a few (5-10) reports of any one type to run concurrently, so when more than 5-10 are all scheduled at once, some will need to wait in line for other reports to finish before they can begin processing. This issue can be mitigated by scheduling a company's reports at staggered times throughout the day or hour, rather than simultaneously.
-> * Aside from the specific report type (Dashboards, etc.), reports will also wait in line if the company has **more than 15-20 of any type of report scheduled at once (across all different report types)**. This can be mitigated by staggering schedule times instead of having many run at the exact same time.
-> * **Issues in downstream services** that the Scheduler relies on can also affect delivery of reports. For example, if you are independently using the APIs to run reports and fill up the API request queue, then your scheduled reports may deliver slowly while you compete for that resource.
-> * **Report suite latency** (a delay in data collection) can also delay some scheduled reports.
+## Delivery Time vs. Processing Time
+
+The "Delivery Time" or "Time of Day" entered by the user specifies the time that the report should begin processing, not the time that it will actually be delivered. When the report will be delivered is based primarily on how long it takes to process. Complex and large reports take longer to process than simpler reports. For example, if a report takes 15 minutes to process, then the actual delivery time will be at least 15 minutes past the originally specified "Delivery Time" or "Time of Day".
+
+In addition, there are a number of other factors that can further increase the delay before the report is actually delivered:
+
+* **Running many different schedules of the same type at the same time** (e.g., many Dashboards, etc.) can overload the system. The Scheduling system only allows a few (5-10) reports of any one type to run concurrently. When more than 5-10 are all scheduled at once, some will need to wait in line for other reports to finish before they can begin processing. This issue can be mitigated by scheduling a company's reports at staggered times throughout the day or hour, rather than simultaneously.
+* Aside from the specific report type (Dashboards, etc.), reports will also wait in line if the company has **more than 15-20 of any type of report scheduled at once (across all different report types)**. This can be mitigated by staggering schedule times instead of having many run at the exact same time.
+* **Issues in downstream services** that the Scheduler relies on can also affect delivery of reports. For example, if you are independently using the APIs to run reports and fill up the API request queue, then your scheduled reports may deliver slowly while you compete for that resource.
+* **Report suite latency** (a delay in data collection) can also delay some scheduled reports.
 
 
 ## Send a report {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -52,12 +53,12 @@ Steps that describe how to download and email reports in a variety of formats, a
 1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
 
 | Option | Description |
-|--- |--- |
-|Report File Name|Specifies the name of the report. The default format is `<report name> for <suite> - <report date range>`. To specify a custom name, select [!UICONTROL Custom].|
-|Report Format|Lets you specify PDF, CSV, Excel, HTML, Word, or Mobile formats for delivery. If you select CSV, you can also specify the encoding for CSV:<ul><li>Shift-JIS: Japanese character encoding.</li><li>EUC-JP: Extended Unix Code, primarily for Japanese, Korean, and Simplified Chinese.</li></ul>|
-|Report Contents|<ul><li>Number of rows in the table: Specifies the number of rows you want visible in the table of the report you are sending.</li><li>Language for header and footer: Specifies the language of the header and footer.</li><li>Comments: Specifies the text that appears at the beginning of the report.</li></ul>|
-|Send Digital Signature File|When you request a report, such as a bookmarked report or Data Warehouse requests, you can request a data signature. Adobe's digital signature doesn't restrict who has access to the data, but the purpose of the Digital Signature File (.sig) is to verify the validity of the delivered report file. Using the digital signature, report recipients can verify that the file came from Adobe and has not been altered.|
-|Report Destination|<ul><li>Email: Lets you configure email address settings, the subject line, and notes.</li><li>FTP: Lets you configure FTP settings, including the Host, Port, Directory, Username, and Password.</li></ul>|
+| --- |--- |
+| Report File Name | Specifies the name of the report. The default format is `<report name> for <suite> - <report date range>`. To specify a custom name, select [!UICONTROL Custom].|
+| Report Format | Lets you specify PDF, CSV, Excel, HTML, Word, or Mobile formats for delivery. If you select CSV, you can also specify the encoding for CSV:<ul><li>Shift-JIS: Japanese character encoding.</li><li>EUC-JP: Extended Unix Code, primarily for Japanese, Korean, and Simplified Chinese.</li></ul>|
+| Report Contents | <ul><li>Number of rows in the table: Specifies the number of rows you want visible in the table of the report you are sending.</li><li>Language for header and footer: Specifies the language of the header and footer.</li><li>Comments: Specifies the text that appears at the beginning of the report.</li></ul>|
+| Send Digital Signature File | When you request a report, such as a bookmarked report or Data Warehouse requests, you can request a data signature. Adobe's digital signature doesn't restrict who has access to the data, but the purpose of the Digital Signature File (.sig) is to verify the validity of the delivered report file. Using the digital signature, report recipients can verify that the file came from Adobe and has not been altered.|
+| Report Destination | <ul><li>Email: Lets you configure email address settings, the subject line, and notes.</li><li>FTP: Lets you configure FTP settings, including the Host, Port, Directory, Username, and Password.</li></ul> |
 
 1. Click **[!UICONTROL Scheduling Options]**.
 
@@ -112,7 +113,7 @@ Steps that describe how to share a report by generating a report link (URL) to s
 
 When the recipient clicks the link, the system requests login credentials (company name, user name, and password). After logging in, the recipient is shown the report generated by the original user. Standard permission restrictions apply.
 
-**To share a report link** 
+To share a report link,
 
 1. Run a report.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.

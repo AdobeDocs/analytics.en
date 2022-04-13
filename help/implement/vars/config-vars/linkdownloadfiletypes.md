@@ -1,6 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: Determine file extensions that automatically get tracked as download links.
+feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 ---
 # linkDownloadFileTypes

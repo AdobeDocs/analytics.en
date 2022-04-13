@@ -1,6 +1,7 @@
 ---
 title: formatTime
 description: Convert a number of seconds into its equivalent in minutes, hours, etc.
+feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 ---
 # Adobe plug-in: formatTime

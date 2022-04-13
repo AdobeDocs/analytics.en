@@ -1,7 +1,7 @@
 ---
 description: Adobe Analytics data governance FAQ
-title: Frequently asked questions
-uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
+title: Frequently asked questions for data governance
+feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 ---
 # Frequently asked questions
@@ -24,7 +24,7 @@ exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>How will Adobe Customers (Data Controllers) find out which Data Privacy requests map to which IDs in Adobe Analytics for Data Privacy processing?</b> </p> </td> 
-   <td colname="col2"> <p>The data controllers will determine how to resolve identity for requests from the data subjects. Consider deploying <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm"> Adobe's Data Privacy ID Retrieval Tag. </a> Your development teams will save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs), and then using our Data Privacy API to send those user IDs to the relevant solutions in the Adobe Experience Cloud for Data Privacy request processing. </p> <p>The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. If a data subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics will scan then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the Analytics documentation on <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespaces.</a>
+   <td colname="col2"> <p>The data controllers will determine how to resolve identity for requests from the data subjects. Consider deploying <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Adobe's Data Privacy ID Retrieval Tag. </a> Your development teams will save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs), and then using our Data Privacy API to send those user IDs to the relevant solutions in the Adobe Experience Cloud for Data Privacy request processing. </p> <p>The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. If a data subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics will scan then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the Analytics documentation on <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> Namespaces.</a>
     </p> </td> 
   </tr> 
   <tr> 

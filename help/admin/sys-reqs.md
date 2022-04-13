@@ -1,6 +1,7 @@
 ---
 title: Adobe Analytics system requirements
 description: The system requirements to use Adobe Analytics.
+feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 ---
 # Adobe Analytics system requirements

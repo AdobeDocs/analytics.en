@@ -3,7 +3,7 @@ description: Information about the Data Sources template, which provides a data 
 subtopic: Data sources
 title: Data Sources template overview
 topic-fix: Developer and implementation
-uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
+feature: Data Sources
 exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
 ---
 # Data Sources template overview

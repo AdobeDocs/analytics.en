@@ -1,7 +1,7 @@
 ---
 description: Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
 title: Label report suite data
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 ---
 # Label report suite data

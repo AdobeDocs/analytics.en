@@ -1,8 +1,7 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
 title: Real-time reports configuration
-feature: Admin Tools
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 ---
 # Real-time reports configuration

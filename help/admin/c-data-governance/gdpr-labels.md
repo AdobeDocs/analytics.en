@@ -1,6 +1,7 @@
 ---
 description: Examples of Data Privacy Labels for Adobe Analytics Variables
 title: Data Privacy Labels for Analytics Variables
+feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
 # Data Privacy Labels for Analytics Variables

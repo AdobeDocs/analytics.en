@@ -2,6 +2,7 @@
 title: Technical documentation updates for Adobe Analytics
 description: Notable updates to the Adobe Analytics documentation set.
 short-title: Analytics documentation updates
+feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 ---
 # Technical documentation updates for Adobe Analytics
@@ -16,6 +17,17 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **March 2022** | |
+| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to “High”. |
+| New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |
+| Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
+| [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
+| [!UICONTROL Page Summary] Workspace panel | This panel provides a deep-dive analysis for a page of your choosing. |
+| New topic on pausing older scheduled reports | Effective **April 15, 2022**, Adobe intends to [pause all scheduled reports that have a creation date greater than two years](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **February 2022** | 
+| Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) allows you to preview the experience before you save and share a scorecard.  |
+| API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
+| Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **October 2021** |  |
 | October 21, 2021 | New documentation on [Quick Segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | October 21, 2021 | New documentation on the [Media Playback Time Spent](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) panel in Analysis Workspace. |

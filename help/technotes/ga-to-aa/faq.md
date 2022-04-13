@@ -1,9 +1,10 @@
 ---
-title: FAQs
+title: Frequently Asked Questions for migrating to Adobe Analytics
 description: Get answers to frequently asked questions when moving from a third-party platform to Adobe.
+feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 ---
-# FAQs
+# Frequently Asked Questions for migrating to Adobe Analytics
 
 **How can I migrate my historical data from my third-party platform to Adobe Analytics?**
 

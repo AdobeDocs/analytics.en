@@ -1,6 +1,7 @@
 ---
 title: Day of month
 description: The numeric day of the month, regardless of which month.
+feature: Dimensions
 exl-id: 6d27aa9f-ce75-4a27-bb92-3acabe3975a1
 ---
 # Day of month

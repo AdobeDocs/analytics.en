@@ -1,6 +1,7 @@
 ---
 title: Average page depth
 description: How many pages in on average the dimension exists at.
+feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 ---
 # Average page depth

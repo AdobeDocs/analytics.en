@@ -1,6 +1,7 @@
 ---
 title: Day
 description: The day that the metric occurred on.
+feature: Dimensions
 exl-id: 2f93ae8b-422c-4e1e-81d3-43cc0aa442c4
 ---
 # Day

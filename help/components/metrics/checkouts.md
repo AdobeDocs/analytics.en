@@ -1,6 +1,7 @@
 ---
 title: Checkouts
 description: The number of hits where a visitor started the checkout process.
+feature: Metrics
 exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
 ---
 # Checkouts

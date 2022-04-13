@@ -1,6 +1,7 @@
 ---
 title: Classifications FAQ
 description: Frequently asked questions for using classifications.
+feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 ---
 # Classifications FAQ

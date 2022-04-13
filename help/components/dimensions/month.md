@@ -1,6 +1,7 @@
 ---
 title: Month
 description: The month that the metric occurred on.
+feature: Dimensions
 exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 ---
 # Month

@@ -1,6 +1,7 @@
 ---
 title: Get Started with Marketing Channels
 description: Learn about the Marketing Channels workflow, the automatic setup, and how to apply template report suite settings to multiple report suites.
+feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 ---
 # Get Started with Marketing Channels

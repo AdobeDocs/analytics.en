@@ -1,6 +1,7 @@
 ---
 title: Month of year
 description: The numeric month of the year, regardless of which year.
+feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
 ---
 # Month of year

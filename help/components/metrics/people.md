@@ -1,6 +1,7 @@
 ---
 title: People
 description: The number of unique individuals, typically with multiple devices.
+feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 ---
 # People

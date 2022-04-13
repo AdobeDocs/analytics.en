@@ -1,7 +1,7 @@
 ---
 description: Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites.
 title: Namespaces
-uuid: cab61844-3209-4980-b14c-6859de777606
+feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 ---
 # Namespaces
@@ -14,7 +14,7 @@ The namespace string is used to identify the field(s) that you want searched whe
 * A "type" field that for most Adobe Analytics requests contains the value "analytics".
 * A "value" field containing the ID that Analytics should search for in the associated namespace variables from each of your report suites.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) for more details.
+Refer to the [Experience Cloud Data Privacy API documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) for more details.
 
 ## Cookie ID
 
@@ -68,7 +68,7 @@ It is also acceptable to use: `"namespaceId": 4` instead of or in addition to `"
 
 If the format of the value portion of any of these cookie IDs does not follow the format described for that ID, then the Data Privacy request will fail, with an error of "Value not formatted correctly."
 
-You will most commonly collect these cookie IDs using the new [privacy JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), which will automatically provide all of the relevant key/value pairs for these JSON IDs.
+You will most commonly collect these cookie IDs using the new [privacy JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), which will automatically provide all of the relevant key/value pairs for these JSON IDs.
 
 This JavaScript code populates the JSON with other key/value pairs besides those listed above (namespace, type, value), but the fields listed above are the most important for Analytics Data Privacy processing and the only ones you need to provide if you collect the IDs in some other way.
 

@@ -2,6 +2,7 @@
 title: Entry dimensions
 description: Lists entry dimensions and their use.
 keywords: entry page, entry site section, entry server, entry custom insight
+feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 ---
 # Entry dimensions

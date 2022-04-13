@@ -1,7 +1,7 @@
 ---
 description: This document describes what you need to do in Adobe Analytics to support your data subjects' CCPA access and delete rights.
 title: Adobe Analytics and CCPA
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 ---
 # Adobe Analytics and CCPA

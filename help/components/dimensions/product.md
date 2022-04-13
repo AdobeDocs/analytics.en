@@ -1,6 +1,7 @@
 ---
 title: Product
 description: The name of the product.
+feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 ---
 # Product

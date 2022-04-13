@@ -1,6 +1,7 @@
 ---
 title: timestamp
 description: Manually set the timestamp of the hit.
+feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 ---
 # timestamp

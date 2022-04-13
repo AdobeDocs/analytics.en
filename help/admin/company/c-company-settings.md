@@ -1,7 +1,7 @@
 ---
 description: Overview page for configuring settings that apply to all report suites managed by your organization.
 title: Company Settings overview
-uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
+feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 ---
 # Company Settings overview

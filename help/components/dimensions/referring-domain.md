@@ -1,6 +1,7 @@
 ---
 title: Referring domain
 description: The overarching domain a visitor was on before clicking through to your site.
+feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 ---
 # Referring domain

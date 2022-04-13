@@ -1,6 +1,7 @@
 ---
 title: Create or edit a data feed
 description: Learn how to create or edit a data feed.
+feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 ---
 # Create or edit a data feed

@@ -1,7 +1,7 @@
 ---
 description: How to view current server call usage in Adobe Analytics.
 title: View current server call usage
-uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
+feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 ---
 # View current server call usage

@@ -1,9 +1,7 @@
 ---
 description: How to upload data files via FTP.
-subtopic: Classifications
 title: FTP import
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 ---
 # FTP import
@@ -51,6 +49,8 @@ For more information about creating an FTP account, see [Create an FTP account](
    The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
 
 At regular intervals, Adobe retrieves uploaded data files that have an associated FIN file. Adobe imports them into the report suites and data sets specified in the FTP account configuration.
+
+Once Adobe Analytics has read and processed files uploaded in the FTP folder, the files are then automatically deleted.
 
 ## Create an FTP account {#task_C019268E6C934C7C95F4326F42A22CCF}
 

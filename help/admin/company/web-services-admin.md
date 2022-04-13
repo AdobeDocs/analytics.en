@@ -1,8 +1,7 @@
 ---
 description: The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.
 title: Web Services
-feature: Admin Tools
-uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 ---
 # Web Services

@@ -1,7 +1,7 @@
 ---
 description: Learn how to disable legacy logins for Analytics users.
 title: Disable legacy logins
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
+feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 ---
 # Disable legacy logins{#disable-legacy-logins}

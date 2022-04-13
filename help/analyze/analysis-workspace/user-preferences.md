@@ -39,6 +39,7 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 |  | [Panel Type](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Freeform (default)</li><li>Blank</li><li>Quick Insights</li></ul> |
 |  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
+|  | Freeform table | <ul><li>Show anomalies </li><li>Show sparklines</li><li>Show annotations</li></ul> |
 
 ## [!UICONTROL Dark theme]
 

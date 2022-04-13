@@ -1,7 +1,7 @@
 ---
 description: You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
 title: New report suite - settings
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 ---

@@ -1,7 +1,6 @@
 ---
 description: Factors that will impact Workspace performance and optimizations you can make
 title: Analysis Workspace performance factors and optimization
-uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
@@ -31,7 +30,7 @@ Additionally, you can **Download as CSV** the performance contents to easily sha
 
 | Factor | Definition | Influenced by | Optimization |
 | --- | --- | --- | --- |
-| Connection to Adobe|Adobe sends in 10 test calls when the performance page is opened. This represents the percentage of those calls to Adobe that succeed. | Local network issues or Adobe issues will impact this factor. | Check status.adobe.com to verify if there are any known service issues. Then, validate your local network connection. |
+| Connection to Adobe | Adobe sends in 10 test calls when the performance page is opened. This represents the percentage of those calls to Adobe that succeed. | Local network issues or Adobe issues will impact this factor. | Check status.adobe.com to verify if there are any known service issues. Then, validate your local network connection. |
 | Internet bandwidth | Available for Google Chrome only. Your browser’s estimate of the bandwidth at your location. The guideline is 2.0MB/s. | Your local network connection will impact this factor. | Validate your local network connection. |
 | Internet latency | Adobe sends in 10 test calls when the performance page is opened. This represents the amount of time it takes on average for each request to go to Adobe and be returned. Put more simply, it is a measure of how fast the internet is between your location and Adobe. The guideline is < 1 second. | Local network issues, many open browser tabs, or Adobe issues will impact this factor. | Check status.adobe.com to verify if there are any known service issues. Then, validate your local network connection and close unused browser tabs. |
 

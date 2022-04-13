@@ -3,8 +3,7 @@ description: Information about special characters used in the data feed.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 subtopic: data feeds
 title: Special characters in data feeds
-feature: Reports & Analytics Basics
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 ---
 # Special characters in data feeds

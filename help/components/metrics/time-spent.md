@@ -1,6 +1,7 @@
 ---
 title: How Time Spent is calculated in Adobe Analytics
 description: An aggregated page of time spent dimensions and metrics.
+feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 ---
 # Time spent overview

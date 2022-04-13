@@ -1,6 +1,7 @@
 ---
 title: cookieDomain
 description: The cookieDomain variable helps determine the domain to set cookies on.
+feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 ---
 # cookieDomain

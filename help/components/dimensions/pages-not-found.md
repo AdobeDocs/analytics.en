@@ -1,6 +1,7 @@
 ---
-title: Pages not found
+title: Pages not found (dimensions)
 description: URLs that returned an error on your site.
+feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 ---
 # Pages not found

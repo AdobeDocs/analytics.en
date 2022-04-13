@@ -2,7 +2,6 @@
 description: Data Warehouse can deliver reports in Tableau Data Extract (TDE) file format that let you visualize data and layer in additional data from outside Adobe Analytics. You can email this information, or FTP this information to an FTP site.
 title: Tableau data file
 feature: Data Warehouse
-uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
 ---
 # Tableau data file

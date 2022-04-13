@@ -1,14 +1,12 @@
 ---
 title: Map data layer objects to data elements
 description: Configure tags to read from your data layer.
+feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 ---
 # Map data layer objects to data elements
 
 Once your organization has established and implemented a data layer on your site, you can map data layer objects to data elements within tags.
-
->[!NOTE]
->Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the following [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) for a consolidated reference of the terminology changes.
 
 ## Prerequisites
 

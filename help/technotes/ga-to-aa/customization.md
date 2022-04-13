@@ -1,6 +1,7 @@
 ---
 title: Report Customization in Adobe Analytics
 description: Learn how to customize reports in Adobe Analytics
+feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
 ---
 # Customize reports

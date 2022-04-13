@@ -1,6 +1,7 @@
 ---
 title: trackOffline
 description: Enable or disable offline tracking, which changes how AppMeasurement collects data.
+feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 ---
 # trackOffline

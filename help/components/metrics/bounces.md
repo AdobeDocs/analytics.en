@@ -1,6 +1,7 @@
 ---
 title: Bounces
 description: The number of visits with exactly one hit.
+feature: Metrics
 exl-id: fb83957c-9955-4b32-bc0f-53de92e2ba2c
 ---
 # Bounces

@@ -1,6 +1,7 @@
 ---
 title: All search page rank
 description: Determine which page on a search engine a visitor clicked through to your site.
+feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 ---
 # All search page rank

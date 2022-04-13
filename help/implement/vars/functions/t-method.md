@@ -1,6 +1,7 @@
 ---
 title: t
 description: Send a page view tracking call to Adobe.
+feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 ---
 # t()

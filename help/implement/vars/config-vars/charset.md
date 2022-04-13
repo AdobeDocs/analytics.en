@@ -1,6 +1,7 @@
 ---
 title: charSet
 description: The charSet variable determines what encoding Adobe uses to parse your image request.
+feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 ---
 # charSet

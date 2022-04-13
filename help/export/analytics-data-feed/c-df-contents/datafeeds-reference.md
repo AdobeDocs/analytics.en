@@ -3,8 +3,7 @@ description: Table data describing the columns in the data feed.
 keywords: Data Feed;columns
 subtopic: data feeds
 title: Data column reference
-feature: Reports & Analytics Basics
-uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
+feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 ---
 # Data column reference
@@ -355,7 +354,6 @@ The following list of columns are unused and do not contain data:
 * `socialtermslist`
 * `socialtermslist (deprecated)`
 * `socialtotalsentiment`
-* `sourceid`
 * `videoauthorized`
 * `videoaverageminuteaudience`
 * `videochaptercomplete`

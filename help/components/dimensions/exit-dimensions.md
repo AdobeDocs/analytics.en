@@ -2,6 +2,7 @@
 title: Exit dimensions
 description: Lists exit dimensions and their use.
 keywords: exit page, exit site section, exit server, exit custom insight
+feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 ---
 # Exit dimensions

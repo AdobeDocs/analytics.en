@@ -1,12 +1,16 @@
 ---
 description: This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 title: Data Privacy and Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 ---
 # Data Privacy and Data Connectors (Genesis)
 
-This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
+>[!NOTE]
+>
+>**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized. 
+
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
 This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
 
@@ -192,4 +196,4 @@ If you are using an integration of any of the below connectors, you can simply c
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->

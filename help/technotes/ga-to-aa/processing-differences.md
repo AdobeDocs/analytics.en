@@ -1,6 +1,7 @@
 ---
 title: Processing and architecture differences between Analytics platforms
 description: Learn how some data is collected and displayed differently between platforms such as Adobe Analytics and Google Analytics.
+feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
 ---
 # Processing and architecture differences between Analytics platforms

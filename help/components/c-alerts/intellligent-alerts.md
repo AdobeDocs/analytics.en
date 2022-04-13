@@ -1,7 +1,7 @@
 ---
 description: The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 title: Intelligent alerts
-uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
+feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 ---
 # Intelligent alerts

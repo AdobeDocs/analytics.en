@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
@@ -86,7 +86,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-    + [Media Average Minute audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
+    + [Media Average Minute Audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + Media Playback Time Spent {#media-playback-timespent}
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
@@ -292,6 +292,7 @@ user-guide-description: Provides how-to instructions for Analysis Workspace, the
     + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
+  + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)
   + [Report types](reports-analytics/reports.md)
   + [Run different report types](reports-analytics/t-running-report-types.md)
   + Customize reports {#customize-reports}

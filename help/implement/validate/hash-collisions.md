@@ -1,6 +1,7 @@
 ---
 title: Hash collisions
 description: Describes what a hash collision is and how it can manifest.
+feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 ---
 # Hash collisions

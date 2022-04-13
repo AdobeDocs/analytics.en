@@ -1,6 +1,7 @@
 ---
 title: Unidentified People
 description: The number of visitors that Cross-Device Analytics did not identify.
+feature: Metrics
 exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
 ---
 # Unidentified People

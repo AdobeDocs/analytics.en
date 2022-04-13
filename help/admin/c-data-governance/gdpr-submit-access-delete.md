@@ -1,7 +1,7 @@
 ---
 description: How to submit data access and delete requests in Adobe Analytics.
 title: Submit Access and Delete Requests
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 ---
 # Submit Access and Delete Requests
@@ -24,7 +24,7 @@ Each file combines data from all your report suites, automatically removing extr
 
 ## Submit Requests {#submit-requests}
 
-You can submit Data Privacy access and delete requests through our [Data Privacy UI portal](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) or via our [Data Privacy API.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+You can submit Data Privacy access and delete requests through our [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) or via our [Privacy Service API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
 
 >[!NOTE]
 >

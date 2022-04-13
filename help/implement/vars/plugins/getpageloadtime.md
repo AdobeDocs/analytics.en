@@ -1,6 +1,7 @@
 ---
 title: getPageLoadTime
 description: Track the amount of time a page takes to load.
+feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 ---
 # Adobe plug-in: getPageLoadTime

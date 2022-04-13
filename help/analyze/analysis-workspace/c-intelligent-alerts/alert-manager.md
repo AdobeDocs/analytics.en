@@ -1,8 +1,7 @@
 ---
 description: Create, edit, or delete alerts.
-title: Alert Manager
-uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+title: Alert Manager (Analysis Workspace)
+feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 ---

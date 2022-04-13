@@ -1,7 +1,6 @@
 ---
 description: You can select the base report type for your data request, such as Site Metrics, Site Content, and Video.
 title: Report types overview
-uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18

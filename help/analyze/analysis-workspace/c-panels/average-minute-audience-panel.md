@@ -3,19 +3,20 @@ title: Media Average Minute Audience panel
 description: How to use and interpret the Media Average Minute Audience panel in Analysis Workspace.
 feature: Panels
 role: User, Admin
+exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 ---
+
 # Media Average Minute Audience panel
 
-Media Analytics customers can use average minute audience to better understand average consumption of their content. Using average minute audience, customers can compare similar programming, for example, sports to sports or comedy to comedy. Customers can also compare completely different programming. For example, customers can compare live events to drama or reality programs to sport programs. In addition, customers can compare linear TV average minute metrics.
+Media Analytics customers can use the average minute audience panel to better understand average consumption of their content. Average minute audience enables comparisons of programming of any length or genre. In addition, customers can compare or append this digital average minute audience to linear TV average minute metrics. This panel gives more flexibility to measure the average audience for custom time periods, as well as when the duration classification has been updated after the fact. The current average minute audience metric only works if the duration is available at processing time.
 
 In Analysis Workspace, average minute audience is the time spent viewing your media stream divided by the duration of the content or the total selection of the period and selected granularity.
-
 
 The Media Average Minute Audience panel provides average minute audience analytics by the specific content selected if the duration is made available using Classifications.
 The Average Minute Audience panel also provides analytics over a selected time period that can be filtered by specific content—whether or not the duration is available using Classifications. To access the Media Average Minute Audience Panel, navigate to a report suite with Media Analytics components enabled. Then, click the panel icon on the far-left and drag the panel into your Analysis Workspace project.
 
-For more information, see the Media Average Minute Audience introduction video:
-<< replace with AMA video when available >>
+<!-- For more information, see the Media Average Minute Audience introduction video:
+<< replace with AMA video when available >> -->
 
 <!-- >[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12) -->
 

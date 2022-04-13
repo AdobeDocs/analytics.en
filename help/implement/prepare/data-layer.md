@@ -1,6 +1,7 @@
 ---
 title: Create a data layer
 description: Learn what a data layer is in your Analytics implementation, and how it can be used to map variables in Adobe Analytics.
+feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 ---
 # Create a data layer

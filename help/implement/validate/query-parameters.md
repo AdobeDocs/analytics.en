@@ -1,6 +1,7 @@
 ---
 title: Data collection query parameters
 description: Lists all query string parameters used in image requests.
+feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 ---
 # Data collection query parameters

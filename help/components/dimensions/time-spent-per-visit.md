@@ -1,6 +1,7 @@
 ---
-title: Time spent per visit
+title: Time spent per visit (dimensions)
 description: The total amount of time the visit took.
+feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 ---
 # Time spent per visit

@@ -1,7 +1,7 @@
 ---
 description: Use cases for creating and managing intelligent alerts.
 title: Intelligent alerts - use cases
-uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 ---
 # Intelligent alerts - use cases

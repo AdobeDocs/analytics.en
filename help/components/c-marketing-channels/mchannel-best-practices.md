@@ -1,6 +1,7 @@
 ---
 title: Best practices for implementing Adobe Analytics Marketing Channels
 description: Updated best practices for using Marketing Channels with Attribution IQ and Customer Journey Analytics
+feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 ---
 # Attribution IQ with Marketing Channels - Best Practices

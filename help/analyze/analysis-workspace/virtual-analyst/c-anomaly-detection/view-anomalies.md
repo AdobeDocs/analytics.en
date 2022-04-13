@@ -1,8 +1,7 @@
 ---
 description: You can view anomalies in a table or in a line chart.
 title: View anomalies in Analysis Workspace
-uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 ---

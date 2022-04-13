@@ -1,6 +1,7 @@
 ---
 title: Numbers Suite
 description: Produce and manipulate numbers for use in other JavaScript variables.
+feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 ---
 # Adobe plug-in: Numbers Suite

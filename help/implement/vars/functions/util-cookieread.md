@@ -1,6 +1,7 @@
 ---
 title: Util.cookieRead
 description: Gets the value for a cookie.
+feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 ---
 # Util.cookieRead

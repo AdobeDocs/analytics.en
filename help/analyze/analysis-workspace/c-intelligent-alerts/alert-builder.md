@@ -1,8 +1,7 @@
 ---
 description: Get alerts when project components reach certain thresholds.
-title: Alert Builder
-uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI Tools
+title: Alert Builder (Analysis Workspace)
+feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 ---

@@ -1,7 +1,7 @@
 ---
 description: Context-aware sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 title: Context-aware sessions
-uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 ---
 # Context-aware sessions

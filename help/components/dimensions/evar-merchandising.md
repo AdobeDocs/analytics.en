@@ -1,6 +1,7 @@
 ---
-title: eVar (Merchandising)
+title: eVar (Merchandising) for Dimensions
 description: Custom variables that tie to the products dimension.
+feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 ---
 # eVar (Merchandising)

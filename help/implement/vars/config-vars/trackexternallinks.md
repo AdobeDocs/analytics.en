@@ -1,6 +1,7 @@
 ---
 title: trackExternalLinks
 description: Enable or disable automatic link tracking for exit links.
+feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 ---
 # trackExternalLinks

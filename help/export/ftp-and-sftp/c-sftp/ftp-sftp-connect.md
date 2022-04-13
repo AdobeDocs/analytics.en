@@ -2,7 +2,7 @@
 description: Instructions to set up secure transfer with Adobe FTP servers.
 keywords: ftp;sftp
 title: Connect to an Adobe FTP account with SFTP
-uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
+feature: FTP Export
 exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 ---
 # Connect to an Adobe FTP account with SFTP

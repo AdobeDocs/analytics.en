@@ -2,7 +2,6 @@
 description: Paid Search Detection differentiates paid from natural searches in the Search Engines and Search Keywords reports. 
 title: Paid Search Detection
 feature: Admin Tools
-uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 ---
 # Paid Search Detection

@@ -1,6 +1,7 @@
 ---
 title: Total seconds spent
 description: The aggregated total number of seconds spent on the dimension item.
+feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
 ---
 # Total seconds spent

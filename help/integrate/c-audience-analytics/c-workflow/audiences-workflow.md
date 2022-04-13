@@ -1,13 +1,13 @@
 ---
 description: How to provision, share, and use the audience data.
-solution: Experience Cloud
-title: Workflow overview
-uuid: 211e079b-46ee-4238-856d-7cac40620717
+solution: Analytics
+title: Audience Analytics Workflow overview
+feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 ---
-# Workflow overview
+# Audience Analytics workflow overview
 
-How to provision, share, and use the audience data.
+How to provision, share, and use audience data.
 
 | Step # | Task Description | Notes |
 |--- |--- |--- |

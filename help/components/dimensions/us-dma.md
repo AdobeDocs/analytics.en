@@ -1,6 +1,7 @@
 ---
 title: US DMA
 description: The designated market area of the hit.
+feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 ---
 # US DMA

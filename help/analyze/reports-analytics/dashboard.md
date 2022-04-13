@@ -2,7 +2,7 @@
 description: A dashboard is a collection of thumbnail reports called reportlets. A dashboard is most useful when it contains related reportlets that give you complete overviews of certain aspects of your site, such as finding methods, visitor profiles, and so on.
 subtopic: Dashboards
 title: Dashboards and reportlets
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 ---

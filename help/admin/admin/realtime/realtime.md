@@ -1,8 +1,7 @@
 ---
 description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 title: Real-time reports in Adobe Analytics
-topic-fix: Reports
-uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 ---
 # Real-time reports in Adobe Analytics

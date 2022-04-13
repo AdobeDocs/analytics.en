@@ -1,6 +1,7 @@
 ---
 title: Operating system
 description: The operating system of the visitor.
+feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
 ---
 # Operating system

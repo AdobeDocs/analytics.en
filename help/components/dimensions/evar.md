@@ -1,13 +1,14 @@
 ---
-title: eVar
+title: eVar for Dimensions
 description: A custom dimension you can use in reporting.
+feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 ---
 # eVar
 
 *This help page describes how eVars work as a dimension. For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
-eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars]. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 

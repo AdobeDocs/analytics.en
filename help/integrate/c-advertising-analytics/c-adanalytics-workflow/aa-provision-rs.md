@@ -1,7 +1,7 @@
 ---
 description: Configure an Experience Cloud mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
-uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 ---
 # Enable report suite for Advertising Analytics

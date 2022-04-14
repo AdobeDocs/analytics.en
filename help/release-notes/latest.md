@@ -19,7 +19,6 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Annotations in Workspace | Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. [Learn more](/help/analyze/analysis-workspace/components/annotations/overview.md) | Gradual rollout starts March 23, 2022. General Availability: April 11, 2022 |
 | Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. [Learn more](/help/analyze/landing.md) | April 20, 2022 |
 |  [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. | April 20, 2022 |
 | [!UICONTROL Page Summary] Workspace panel | The [!UICONTROL Page Summary] panel provides a deep-dive analysis for a page of your choosing. It provides the same details as the legacy Reports & Analytics [!UICONTROL Page Summary] report, plus much more. | April 20, 2022 |

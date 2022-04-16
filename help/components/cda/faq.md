@@ -98,7 +98,7 @@ CDA pulls the identifier variable dimension items before they are optimized for 
 
 ## How many of my company's report suites can be enabled for CDA?
 
-Multiple report suites may be enabled, however each additional report suite will increase the overall provisioning time if multiple report suites are requested at once. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.)
+Effective May 1, 2022, any new implementation of CDA will be limited to a maximum of three report suite IDs (RSIDs) per customer. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.).
 
 ## If my Experience Cloud org (a.k.a IMS org) has multiple companies in different regions, can I enable CDA for all of them?
 

@@ -5,7 +5,7 @@ title: Data Sources overview
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 ---
-# Data Sources
+# FTP-based Data Sources
 
 You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the Experience Cloud.
 

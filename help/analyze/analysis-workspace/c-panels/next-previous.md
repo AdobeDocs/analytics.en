@@ -3,8 +3,8 @@ description: A panel that shows the next or previous dimension items for a speci
 title: Next or previous item panel
 feature: Panels
 role: User, Admin
+exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 ---
-
 # Next or previous item panel
 
 The [!UICONTROL Next or previous item] panel started out as a report in Reports & Analytics, under [!UICONTROL Reports] > [!UICONTROL Most popular] > [!UICONTROL Next page/Previous page]. It is now a Workspace panel as well. This panel contains a number of tables and visualizations to easily identify the next or previous dimension item for a specific dimension. For example, you might want to explore which pages customers went to most often after they visited the Home page.

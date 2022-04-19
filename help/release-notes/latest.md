@@ -20,8 +20,8 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. [Learn more](/help/analyze/landing.md) | April 20, 2022 |
-|  [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. | April 20, 2022 |
-| [!UICONTROL Page Summary] Workspace panel | The [!UICONTROL Page Summary] panel provides a deep-dive analysis for a page of your choosing. It provides the same details as the legacy Reports & Analytics [!UICONTROL Page Summary] report, plus much more. | April 20, 2022 |
+|  [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. [Learn more](/help/analyze/analysis-workspace/c-panels/next-previous.md)| April 20, 2022 |
+| [!UICONTROL Page Summary] Workspace panel | The [!UICONTROL Page Summary] panel provides a deep-dive analysis for a page of your choosing. It provides the same details as the legacy Reports & Analytics [!UICONTROL Page Summary] report, plus much more. [Learn more](/help/analyze/analysis-workspace/c-panels/page-summary.md)| April 20, 2022 |
 
 {style="table-layout:auto"}
 

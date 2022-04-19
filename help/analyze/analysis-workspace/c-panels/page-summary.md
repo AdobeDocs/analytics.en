@@ -20,12 +20,12 @@ You can access the panel from within [!UICONTROL Reports] or within [!UICONTROL 
 
 ## Panel inputs {#Input}
 
-You can configure the [!UICONTROL Next or previous item] panel panel using these input settings:
+You can configure the [!UICONTROL Page summary] panel using these input settings:
 
 | Setting | Description |
 | --- | --- |
 | Segment (or other component) drop zone | You can drag and drop segments or other components to further filter your panel results. |
-| Page dimension item | From the drop-down list, select the dimension item whose key statistics you want to explore. |
+| Page dimension item | From the drop-down list, select the Page dimension item whose key statistics you want to explore. |
 
 {style="table-layout:auto"}
 

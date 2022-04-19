@@ -36,6 +36,7 @@ Click **[!UICONTROL Build]** to build the panel.
 The [!UICONTROL Page summary] panel returns a rich set of metrics data and visualizations to help you better understand statistics about specific pages.
 
 | Metric/Visualization | Description |
+| --- | --- |
 | [!UICONTROL Page views] - Current month, so far | Number of page views for this page for the current month. |
 | [!UICONTROL Page views] - 4 weeks prior | Number of page views for this page over the last month. |
 | [!UICONTROL Page views] - 52 weeks prior | Number of page views for this page over the last year. |

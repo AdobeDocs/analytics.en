@@ -50,3 +50,7 @@ The [!UICONTROL Page summary] panel returns a rich set of metrics data and visua
 | [!UICONTROL Flow] | A Flow diagram with the selected page as the focal point. You can drill further into the data just like in any [Flow diagram](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style="table-layout:auto"}
+
+![Page summary panel](assets/page-sum1.png)
+
+![Metrics and flow](assets/page-sum2.png)

@@ -86,12 +86,15 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + [Attribution panel](analysis-workspace/c-panels/attribution.md)
     + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Freeform panel](analysis-workspace/c-panels/freeform-panel.md)
-    + [Media Average Minute Audience panel](analysis-workspace/c-panels/average-minute-audience-panel.md)
+    + [Media Average Minute Audience panel](analysis-workspace/c-panels/
+    average-minute-audience-panel.md)
     + [Media Concurrent Viewers panel](analysis-workspace/c-panels/media-concurrent-viewers.md)
     + Media Playback Time Spent {#media-playback-timespent}
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
       + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
       + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+    + [Next or previous item panel](analysis-workspace/c-panels/next-previous.md)
+    + [Page summary panel](analysis-workspace/c-panels/page-summary.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

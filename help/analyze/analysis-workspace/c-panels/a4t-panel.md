@@ -35,7 +35,6 @@ For each success metric you selected, one freeform table and one conversion rate
 
 ![Rendered](assets/a4t-rendered.png)
 
-
 Each freeform table shows the following metric columns:
 
 |Metric|Description|

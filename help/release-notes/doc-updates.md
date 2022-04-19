@@ -17,6 +17,10 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **April 2022** | |
+| Adobe Analytics landing page updates | Updates to the joint [Workspace/Reports & Analytics landing page](/help/analyze/landing.md) that improves usability and ease of navigation. |
+| New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| New topic on [!UICONTROL Next/Previous item] panel | [Next/previous dimension item panel](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **March 2022** | |
 | New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to “High”. |
 | New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |

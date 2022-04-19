@@ -24,7 +24,7 @@ You can configure the [!UICONTROL Next or previous item] panel panel using these
 
 | Setting | Description |
 | --- | --- |
-| Segment (or other component) drop zone | You can drag and drop segments 
+| Segment (or other component) drop zone | You can drag and drop segments or other components to further filter your panel results. |
 | Dimension | The dimension for which you want to explore next or previous items. |
 | Dimension Item | The item  |
 | Direction | Specify whether you are looking for the [!UICONTROL Next] or the [!UICONTROL Previous] dimension item. |

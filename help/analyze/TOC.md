@@ -92,6 +92,8 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
       + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
       + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+    + [Next or previous item panel](analysis-workspace/c-panels/next-previous.md)
+    + [Page summary panel](analysis-workspace/c-panels/page-summary.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

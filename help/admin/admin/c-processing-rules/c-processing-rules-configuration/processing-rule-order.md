@@ -9,7 +9,7 @@ exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 
 To effectively use processing rules, it is essential to understand when they are applied during data collection.
 
-![Processing Order](assets/analytics_processing_order_test.png)
+![Processing Order](assets/analytics_processing_order.png)
 
 The following tables list the data that is typically available before and after processing rules are applied.
 

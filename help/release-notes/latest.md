@@ -6,20 +6,21 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (April 2022)
 
-**Last update**: April 20, 2022
+**Last update**: April 28, 2022
 
-* For March 2022 release notes, go [here](/help/release-notes/2022.md).
+## Related resources
 
-* For Customer Journey Analytics release notes, go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en).
+* [Previous release notes for 2022](/help/release-notes/2022.md)
+* [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Media Analytics release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
-* For Media Analytics release notes, go [here](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=en).
-
-* Learn about the latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html). Get the latest self-help documentation, tutorials, and courses on Experience League.
+## New features in Adobe Analytics
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. [Learn more](/help/analyze/landing.md) | April 20, 2022 |
-|  [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. [Learn more](/help/analyze/analysis-workspace/c-panels/next-previous.md)| April 20, 2022 |
+| [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. [Learn more](/help/analyze/analysis-workspace/c-panels/next-previous.md)| April 20, 2022 |
 | [!UICONTROL Page Summary] Workspace panel | The [!UICONTROL Page Summary] panel provides a deep-dive analysis for a page of your choosing. It provides the same details as the legacy Reports & Analytics [!UICONTROL Page Summary] report, plus much more. [Learn more](/help/analyze/analysis-workspace/c-panels/page-summary.md)| April 20, 2022 |
 | Removed requirement of `x-proxy-global-company-id` header for 2.0 API calls | The Adobe Analytics 2.0 APIs no longer require the `x-proxy-global-company-id` header, as this information is part of the endpoint URL. You can still include this header, but you no longer get an error if it is missing. | April 20, 2022 |
 
@@ -28,12 +29,12 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ## Fixes in Adobe Analytics
 
 * Fixed an issue in Data Feeds, where the Start and End Dates changed automatically after saving the Data Feed when creating from Data Feed UI. The dates were updating themselves by 1 day. (AN-281262)
-
 * Fixed an issue that prevented the renewal of scheduled projects via e-mail link. (AN-283622)
+* Fixed an issue that caused recent releases of Apple Safari and Microsoft Edge to not be correctly identified in Adobe's browser type lookup table. Similar to when [browser versions are updated](/help/components/dimensions/browser.md), updates to browser type lookup tables only correct data moving forward. The lookup tables for browser version were updated on April 20, and the lookup tables for browser type were updated on April 28. (AN-284872; AN-285753; AN-286257)
 
 ### Additional fixes in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Important notices for Adobe Analytics administrators
 

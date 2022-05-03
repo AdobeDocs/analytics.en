@@ -21,6 +21,7 @@ At the time of expiration, the scheduled report will be paused. However, the rep
 
 The purpose of this action is to effectively manage and maintain our scheduled reports as we prepare for the previously announced end-of-life for Reports & Analytics. This will serve as our new governance policy moving forward: 
 
+* No new scheduled reports can be created after April 15th, 2022.
 * After April 15, 2022, all scheduled reports will have a maximum expiration date of 9 months. 
 * After 9 months, expired tasks will be paused and can be reactivated, if still needed, until December 31, 2023. 
 * On December 31, 2023, Reports & Analytics will be deprecated.

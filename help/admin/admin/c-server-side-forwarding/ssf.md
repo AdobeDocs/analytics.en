@@ -58,7 +58,7 @@ Server-side forwarding at the report-suite level is recommended over the legacy 
 
 Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**) > **Edit Settings** > **General** > **Server Side Forwarding**. If the checkbox is:
 
-* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to an IMS Org. Contact Customer Care to make sure that the report suite is correctly mapped.
+* **Inactive** (You are unable to make a selection or the menu does not exist): you do not have the selected report suites mapped to an organization ID. Contact Customer Care to make sure that the report suite is correctly mapped.
 * **Disabled**: You do not have the new server-side forwarding turned on. Read the content on the page and then proceed with enabling the feature.
 * **Enabled**: You are provisioned for new server-side forwarding. You are also able to set up this Audience Analytics integration.
 

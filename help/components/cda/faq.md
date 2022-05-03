@@ -100,9 +100,9 @@ CDA pulls the identifier variable dimension items before they are optimized for 
 
 Effective May 1, 2022, any new implementation of CDA will be limited to a maximum of three report suite IDs (RSIDs) per customer. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.).
 
-## If my Experience Cloud org (a.k.a IMS org) has multiple companies in different regions, can I enable CDA for all of them?
+## If my organization ID has multiple companies in different regions, can I enable CDA for all of them?
 
-No. For the same org, only one region can have CDA enabled.
+No. For the same organization ID, only one region can have CDA enabled.
 
 ## What are the advantages and disadvantages of a 7-day replay versus a 1-day replay?
 

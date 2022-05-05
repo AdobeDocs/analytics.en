@@ -24,13 +24,13 @@ Keep this in mind:
 
 * They can apply to the report suite in which they were created (default) or to all report suites.
 
-## Permissions
+## Permissions {#permissions}
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
 However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en). 
 
-## Turn annotations on or off
+## Turn annotations on or off {#on-off}
 
 Annotations can be turned on or off at several levels:
 

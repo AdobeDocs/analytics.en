@@ -8,25 +8,21 @@ exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 ---
 # Report time processing
 
-[!UICONTROL Report time processing] is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
-
->[!NOTE]
->
->[!UICONTROL Report Time Processing] is available only for Analysis Workspace.
+[!UICONTROL Report time processing] is a virtual report suite setting that allows data in Analysis Workspace to be processed in a non-destructive, retroactive fashion.
 
 [!UICONTROL Report Time Processing] affects only the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between [!UICONTROL Report Time Processing] and traditional Analytics processing is best understood using the following diagram:
 
-![Google1](assets/google1.jpg)
+![Traditional processing pipeline](assets/google1.jpg)
 
 During Analytics data processing, data flows through the data collection pipeline and into a preprocessing step, which prepares data for reporting. This preprocessing step applies visit expiration logic and eVar persistence logic (among other things) to the data as it is collected. The primary disadvantage of this preprocessing model is that it requires any configuration be done in advance before data is collected. This means that any changes to preprocessing settings apply only to new data from that time forward. This is problematic if data arrives out of order or if settings were misconfigured.
 
 [!UICONTROL Report Time Processing] is a fundamentally different way of processing Analytics data for reporting. Instead of predetermining processing logic before data is collected, Analytics ignores the data set during the preprocessing step and applies this logic each time a report is run:
 
-![Google2](assets/google2.jpg)
+![Report time processing pipeline](assets/google2.jpg)
 
-This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers retroactively as if you had applied those settings before the data was collected. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite.
+This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers for the full reporting period. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite.
 
-[!UICONTROL Report Time Processing] also allows Analytics to prevent background hits from starting new visits and allows the [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) to tell reporting to start a new visit whenever an App Launch event is triggered.
+[!UICONTROL Report Time Processing] also allows Analytics to prevent background hits from starting new visits and allows the [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) to start a new visit whenever an App Launch event is triggered.
 
 ## Configuration options
 
@@ -48,23 +44,23 @@ Report Time Processing does not support all metrics and dimensions available in 
 
 In addition, Report Time Processing only processes data that comes from within the reporting date range (referred to as "date windowing" below). This means that eVar values set to "never expire" for a visitor prior to the reporting date range do not persist into the reporting windows and do not appear in reports. This also means that customer loyalty measurements are based exclusively on the data present in the reporting date range and not on the entire history prior to the reporting date range.
 
-Below is a list of metrics and dimensions that are not currently supported when using Report Time Processing :
+The following dimensions and metrics are not supported with Report Time Processing:
 
-* **Analytics for Target:** Currently unsupported. Future support is planned.
-* **Analytics for Advertising Cloud reserved metrics/dimensions:** Currently unsupported. Future support is planned.
-* **Single Access Metric:** Permanently unsupported.
-* **List Vars:** Currently unsupported. Future support is planned.
-* **Counter eVars:** Permanently unsupported.
-* **Marketing Channels Variables:** Currently unsupported. Future support is planned.
-* **Days Since Last Purchase Dimension:** Due to the nature of Report Time Processing date windowing, this dimension is not supported.
-* **Days Before First Purchase Dimension:** Due to the nature of Report Time Processing date windowing, this dimension is not supported.
-* **Return Frequency Dimension:** Due to the nature of Report Time Processing date windowing, this dimension is not supported. An alternative approach using a visit count metric in a segment is possible, or using the visit metric in a histogram report.
-* **Days Since Last Visit Dimension:** Due to the nature of Report Time Processing date windowing, this dimension is not supported.
-* **Entry Page Original Dimension:** Due to the nature of Report Time Processing date windowing, this dimension is not supported.
-* **Linear Allocation eVars:** Currently unsupported. Future support is planned.
-* **Original Referring Domain Dimension:** Currently unsupported. Future support is planned.
-* **Visit Number:** Due to the nature of Report Time Processing date windowing, this metric is not supported. As an alternative in mobile apps, you can use a calculated metric including visitors/visits with the App Install metric to identify new visitors or visits.
-* **Transaction ID Data Sources:** Currently unsupported. Future support is planned.
+* **Analytics for Target**
+* **Analytics for Advertising Cloud dimensions/metrics**
+* **Counter eVars**
+* **Days Before First Purchase**
+* **Days Since Last Purchase**
+* **Days Since Last Visit**
+* **Entry Page Original**
+* **Linear allocation eVars**
+* **List Vars**
+* **Marketing Channels dimensions**
+* **Original Referring Domain**
+* **Return Frequency**
+* **Single Access**
+* **Transaction ID Data Sources**
+* **Visit Number**
 
 ## Impacted dimensions and metrics
 

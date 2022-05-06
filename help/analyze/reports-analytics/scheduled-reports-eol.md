@@ -25,6 +25,6 @@ The purpose of this action is to effectively manage and maintain our scheduled r
 * After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months. 
 * After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023. 
 * On December 31, 2023, Reports & Analytics will be deprecated.
-* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
+* As of April 21, 2022, you can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
  
 For additional questions or support, please reach out to Adobe Customer Care.

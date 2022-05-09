@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (April 2022)
 
-**Last update**: April 28, 2022
+**Last update**: May 9, 2022
 
 ## Related resources
 
@@ -40,6 +40,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| **SFTP upgrade** | May 9, 2022 | Previously, we had communicated that Adobe would upgrade its Secure File Transfer Protocol (SFTP) services in May 2022 to provide improved security for file transfer. We have postponed this upgrade to the summer of 2022. When this change takes place, certain SFTP client configurations will no longer be supported. This impacts only data sent to or retrieved from Adobe Analytics using SFTP. The FTP protocol is not impacted. In order to avoid service disruptions, please ensure that your SFTP clients (code, tools, services) are in accordance with the changes detailed [here](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | **Cross-Device Analytics (CDA) entitlement** | April 13, 2022 | Effective **May 1, 2022**, any new implementation of [CDA](/help/components/cda/overview.md) are limited to a maximum of three report suite IDs (RSIDs) per customer. |
 | **Change to how Adobe Analytics handles A4T data collected via Experience Edge** | March 31, 2022 | On March 7, 2022, Analytics changed how it handles some calls coming from Experience Edge that include Target content intended for Analytics for Target (A4T) reporting. Starting March 7, all hits with A4T reporting content are modified so they are not treated as Page View or Link events. Starting **March 31, 2022**, the logic is more selective so that standard Page View and Click events are not modified. Going forward, the only events that are modified are personalization-only calls that only have A4T content. |
 | **Update to browser encryption methods supported for certain customers** | March 28, 2022 | Adobe offers two cipher security levels to meet varying customer needs for security on first-party data collection. On **June 23, 2022** support is removed for certain HTTPS encryption algorithms, known as ciphers, for customers with their security level set to “High”. This action means that some older operating systems are no longer be able to send data to Analytics because they do not support modern encryption methods. Customers using the default “Standard” cipher security settings are not impacted. All customers currently using the “High” setting have already been contacted directly. A detailed list of the ciphers affected by this change can be found here. |

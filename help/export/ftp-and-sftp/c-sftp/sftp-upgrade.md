@@ -6,7 +6,7 @@ exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 ---
 # SFTP services upgrade - FAQ
 
-On **May 15, 2022**, Adobe Analytics will upgrade its Secure File Transfer Protocol [SFTP] services in order to provide improved security for file transfers. With this change, some SFTP client configurations will no longer be supported. We will also add some connection options which will available by **March 1, 2022**. This will only impact data sent to or retrieved from Adobe Analytics using SFTP. The FTP protocol will not be impacted. In order to avoid service disruptions, please ensure your SFTP clients (code, tools, services) will be in accordance with the changes detailed below.
+In summer of 2022, Adobe Analytics will upgrade its Secure File Transfer Protocol [SFTP] services in order to provide improved security for file transfers. With this change, some SFTP client configurations will no longer be supported. This only impacts data sent to or retrieved from Adobe Analytics using SFTP. The FTP protocol will not be impacted. In order to avoid service disruptions, please ensure your SFTP clients (code, tools, services) will be in accordance with the changes detailed below.
 
 ## How can I determine which algorithms, connection types, and protocols are currently used by my organization?
 

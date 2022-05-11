@@ -72,7 +72,7 @@ To drill down further into the data, you have several options:
 
 * Click the plus sign (+) on the left to expand a column.
 
-* Use the right-click options detailed below to further customize the output.
+* Use the right-click options explained below to further customize the output.
 
 * Click the pencil icon next to the configuration summary to further edit the flow or rebuild it with different options.
 

@@ -26,7 +26,7 @@ Here is a Flow visualization video tutorial:
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-You can show the [flow between dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Men page, then to the Shoes department.
+You can show the [flow between dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Mens page, then to the Shoes department.
 
 Each column could show a different dimension. Drag a dimension and drop in a drop zone to add that dimension to the diagram.
 

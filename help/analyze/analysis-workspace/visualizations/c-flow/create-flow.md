@@ -9,7 +9,7 @@ role: User, Admin
 
 >[!NOTE]
 >
->This new version of the [!UICONTROL Flow] visualization is currently in private beta.
+>This new version of the [!UICONTROL Flow] visualization is currently in private beta. Refer to [this page](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) for the current functionality.
 
 Flow lets you track the exact journeys your customers are taking through your website or your app. It traces a path through your dimensions (and dimension items) or metrics. Every flow has a starting point and an endpoint, and a metric or dimension (or item) that you are tracking. 
 

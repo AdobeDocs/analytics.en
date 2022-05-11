@@ -35,7 +35,7 @@ The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
    For example, let's assume that you want to trace everything that leads up to a checkout event. You would drag a checkout-related dimension or metric (such as [!UICONTROL Order exists]) into the **[!UICONTROL Ends with]** drop zone. 
 
-1. If you choose a metric, you also need to provide a [!UICONTROL Pathing Dimension], as shown here. The default is Page.
+1. If you choose a metric, you also need to provide a [!UICONTROL Pathing Dimension], as shown here, that you will use to build the path. The default is [!UICONTROL Page].
 
    ![pathing dimension](assets/pathing-dim.png)
 
@@ -73,6 +73,8 @@ To drill down further into the data, you have several options:
 * Click the plus sign (+) on the left to expand a column.
 
 * Use the right-click options detailed below to further customize the output.
+
+* Click the pencil icon next to the configuration summary to further edit the flow or rebuild it with different options.
 
 * You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
 

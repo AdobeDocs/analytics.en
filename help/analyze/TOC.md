@@ -65,6 +65,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
       + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+      + [New flow visualization (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
     + [Histogram](analysis-workspace/visualizations/histogram.md)

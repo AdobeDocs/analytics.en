@@ -21,16 +21,21 @@ The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
 ![](assets/new-flow.png)
 
-1. To start creating a flow diagram, you add a blank panel to your project and click the visualizations icon in the left rail. Then drag the Flow visualization into the panel. Or drag the [!UICONTROL flow] visualization into an existing project.
+1. To start creating a flow diagram, add a blank panel to your project and click the visualizations icon in the left rail. Then drag the Flow visualization into the panel. Or drag the [!UICONTROL Flow] visualization into an existing project.
 
-1. Anchor your flow visualization using one of three options:
+1. Anchor your Flow visualization using one of three options:
 
-   * Starts with (metrics, dimensions, or items), or
-   * Contains (dimensions, or items), or
-   * Ends with (metrics, dimensions, or items)
+   * [!UICONTROL Starts with] (metrics, dimensions, or items), or
+   * [!UICONTROL Contains] (dimensions, or items), or
+   * [!UICONTROL Ends with] (metrics, dimensions, or items)
 
    Each of these categories is shown onscreen as a "drop zone." Drag items from the dimensions or metrics list and drop them into the desired drop zone.
 
-   For example, if you 
+   For example, let's assume that you want to trace everything that leads up to a checkout event. You would drag a checkout-related dimension or metric into the **[!UICONTROL Ends with]** drop zone. 
 
-1. 
+1. If you choose a metric, you also need to provide a [!UICONTROL Pathing Dimension], as shown here. The default is Page.
+
+   ![](assets/pathing-dim.png)
+
+1. (Optional) Click **[!UICONTROL Advanced Settings]** to configure Advanced Settings:
+

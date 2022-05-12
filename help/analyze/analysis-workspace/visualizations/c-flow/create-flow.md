@@ -3,8 +3,8 @@ description: Use the flow visualization in a Workspace project.
 title: Configure a flow visualization
 feature: Visualizations
 role: User, Admin
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 ---
-
 # Configure a flow visualization
 
 >[!NOTE]

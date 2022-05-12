@@ -11,13 +11,13 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 >
 >This new version of the [!UICONTROL Flow] visualization is currently in private beta. Refer to [this page](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) for the current functionality.
 
-Flow lets you track the exact journeys your customers are taking through your website or your app. It traces a path through your dimensions (and dimension items) or metrics. Flow lets you configure the start or end of the path you are interested in, or analyze all those paths that flow through a dimension or dimension item. 
+The updated Flow visualization allows you to understand the journey stemming from or leading up to a specific conversion event on your website or your app. It traces a path through your dimensions (and dimension items) or metrics. Flow lets you configure the start or end of the path you are interested in, or analyze all those paths that flow through a dimension or dimension item. 
 
 The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
 * You can now choose to start or end your path with the combination of a metric and a pathing dimension.
 * It contains [!UICONTROL Advanced Settings] to let you further customize the [!UICONTROL flow].
-* It lets you configure the [!UICONTROL flow] before building it.
+* The new “Build” button saves time in analysis by allowing you to configure the journey all at once, then query, then automatically build out multiple columns and nodes at once​.
 
 ![new Flow UI](assets/new-flow.png)
 

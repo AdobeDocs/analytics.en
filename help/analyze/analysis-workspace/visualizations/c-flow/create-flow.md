@@ -11,13 +11,13 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 >
 >This new version of the [!UICONTROL Flow] visualization is currently in private beta. Refer to [this page](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) for the current functionality.
 
-Flow lets you track the exact journeys your customers are taking through your website or your app. It traces a path through your dimensions (and dimension items) or metrics. Every flow has a starting point and an endpoint, and a metric or dimension (or item) that you are tracking. 
+The updated Flow visualization allows you to understand the journey stemming from or leading up to a specific conversion event on your website or your app. It traces a path through your dimensions (and dimension items) or metrics. Flow lets you configure the start or end of the path you are interested in, or analyze all those paths that flow through a dimension or dimension item. 
 
 The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
-* It allows for metrics to be tracked, in addition to dimensions and dimension items.
+* You can now choose to start or end your path with the combination of a metric and a pathing dimension.
 * It contains [!UICONTROL Advanced Settings] to let you further customize the [!UICONTROL flow].
-* It lets you configure the [!UICONTROL flow] before building it.
+* The new “Build” button saves time in analysis by allowing you to configure the journey all at once, then query, then automatically build out multiple columns and nodes at once​.
 
 ![new Flow UI](assets/new-flow.png)
 
@@ -47,7 +47,7 @@ The new [!UICONTROL flow] experience enhances your workflow in several ways:
    | --- | --- |
    | **[!UICONTROL Include repeat instances]** | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. Default = unchecked. |
    | **[!UICONTROL Wrap labels]** | Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box.  Default = unchecked. |
-   | **[!UICONTROL Limit to Entries/Exits]** | Results limited to paths when the first/last touchpoint is and entry/exit. |
+   | **[!UICONTROL Limit to first/last occurrence]** | Limit paths to those that start/end with the first/last occurrence of a dimension/item/metric. |
    | **[!UICONTROL Number of Columns]** | Determines how many columns you want in your Flow diagram. |
    | **[!UICONTROL Items expanded per Column]** | How many items you want in each column. |
    | **[!UICONTROL Flow Container]** | <ul><li>Visit</li><li>Visitor</li></ul> Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.  |

@@ -6,15 +6,15 @@ exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 ---
 # IPs and domains used by Adobe Analytics
 
-Some firewall configurations block IP addresses originating from Adobe's data collection servers or servers responsible for accessing data. You can use this list of ranges to alter your organization's firewall settings to allow access and to send data from within your organization.
+Some firewall configurations block IP addresses originating from Adobe's data collection servers or servers responsible for accessing data. You can use this list of ranges to alter your organization's firewall settings to allow access and to send data from within your organization. This page includes both inbound systems (such as data collection) and outbound systems (such as data feeds) that Adobe uses.
 
 >[!IMPORTANT]
 >
->While Adobe does its best to keep this document current, it cannot guarantee the list of IP ranges remain the same. Possible changes include growth and expansion of the business, an internet registry requires changes to Adobe's IP address space, or an internet service provider stops functioning.
+>While Adobe does its best to keep this document current, it cannot guarantee that the list of IP ranges remains the same. Possible changes include growth and expansion of the business, an internet registry requires changes to Adobe's IP address space, or an internet service provider stops functioning.
 
 ## Allow dependent technology domains
 
-Adobe Analytics uses the following hosts to improve performance and product experience. Adobe recommends adding these domains to your firewall's allowed list for an optimal experience using Adobe Analytics.
+Adobe Analytics uses the following hosts to improve performance and product experience. Adobe recommends allowing these domains through your organization's firewall for an optimal experience using Adobe Analytics.
 
 | Technology | Domain |
 | --- | --- |

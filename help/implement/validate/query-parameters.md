@@ -72,7 +72,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md), or custom conversion dimensions. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Visitor ID variable. |
 | `vidn` | None | Set by AppMeasurement for new visitors. Contains the ID value stored in the visitor cookie. |
-| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third-party to first-party cookies. |
+| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third party to first-party cookies. |
 | `vvp` | `variableProvider` | Used in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Used with Data Sources to tie online and offline data together. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Used in the [Zip code](/help/components/dimensions/zip-code.md) dimension. |

@@ -49,7 +49,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `p` | None | No longer used. List of plug-ins used in the browser. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Used in the [Page](/help/components/dimensions/page.md) dimension. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Used in the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension. |
-| `pccr` | None | Only set for new visitors and always set to `true`. Helps prevent infinite redirects. |
+| `pccr` | None | Only set for new visitors and always set to `true`. Helps prevent infinite redirects if a visitor rejects cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determines the type of custom link. Required for [Custom links](/help/components/dimensions/custom-link.md), [Download links](/help/components/dimensions/download-link.md), and [Exit links](/help/components/dimensions/exit-link.md). |
 | `pev1` | None | The URL the custom link occurred on.|
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Custom link friendly name. |
@@ -71,7 +71,8 @@ The following table lists all query string parameters Adobe uses in image reques
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [Tracking Code](/help/components/dimensions/tracking-code.md) dimension. |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md), or custom conversion dimensions. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Visitor ID variable. |
-| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third-party to first-party cookies. |
+| `vidn` | None | Set by AppMeasurement for new visitors. Contains the ID value stored in the visitor cookie. |
+| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third party to first-party cookies. |
 | `vvp` | `variableProvider` | Used in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Used with Data Sources to tie online and offline data together. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Used in the [Zip code](/help/components/dimensions/zip-code.md) dimension. |

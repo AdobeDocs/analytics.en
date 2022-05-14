@@ -4,9 +4,13 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (April 2022)
+# Current Adobe Analytics release notes (May 2022)
 
-**Last update**: May 9, 2022
+**Last update**: May 11, 2022
+
+>[!NOTE]
+>
+>This page contains pre-release information and is subject to change.
 
 ## Related resources
 
@@ -19,24 +23,23 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Adobe Analytics landing page updates | Updates to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. [Learn more](/help/analyze/landing.md) | April 20, 2022 |
-| [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | The [!UICONTROL Next or Previous item] panel allows you to explore items that follow or precede a dimension item of your choice. For example, use it if you want to see the next or previous pages to a specific product page, or marketing channel, or even device type. This panel goes beyond legacy next/previous reporting because it allows you to look at any dimension and does not require any new implementation to get insights. [Learn more](/help/analyze/analysis-workspace/c-panels/next-previous.md)| April 20, 2022 |
-| [!UICONTROL Page Summary] Workspace panel | The [!UICONTROL Page Summary] panel provides a deep-dive analysis for a page of your choosing. It provides the same details as the legacy Reports & Analytics [!UICONTROL Page Summary] report, plus much more. [Learn more](/help/analyze/analysis-workspace/c-panels/page-summary.md)| April 20, 2022 |
-| Removed requirement of `x-proxy-global-company-id` header for 2.0 API calls | The Adobe Analytics 2.0 APIs no longer require the `x-proxy-global-company-id` header, as this information is part of the endpoint URL. You can still include this header, but you no longer get an error if it is missing. | April 20, 2022 |
+| No new features this month | N/A | N/A  |
 
 {style="table-layout:auto"}
 
-## Fixes in Adobe Analytics
+### Fixes in Adobe Analytics
 
-* Fixed an issue in Data Feeds, where the Start and End Dates changed automatically after saving the Data Feed when creating from Data Feed UI. The dates were updating themselves by 1 day. (AN-281262)
-* Fixed an issue that prevented the renewal of scheduled projects via e-mail link. (AN-283622)
-* Fixed an issue that caused recent releases of Apple Safari and Microsoft Edge to not be correctly identified in Adobe's browser type lookup table. Similar to when [browser versions are updated](/help/components/dimensions/browser.md), updates to browser type lookup tables only correct data moving forward. The lookup tables for browser version were updated on April 20, and the lookup tables for browser type were updated on April 28. (AN-284872; AN-285753; AN-286257)
+(Fixes for multiple customers)
+
+N/A
 
 ### Additional fixes in Adobe Analytics
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
+(Fixes for individual customers)
 
-## Important notices for Adobe Analytics administrators
+AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+
+### Important notices for Adobe Analytics administrators
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
@@ -52,9 +55,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 {style="table-layout:auto"}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 For the latest updates on AppMeasurement releases (Version 2.22.4), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en).
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)

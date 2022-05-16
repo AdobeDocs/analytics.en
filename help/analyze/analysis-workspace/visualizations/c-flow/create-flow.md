@@ -43,6 +43,11 @@ The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
    ![advanced settings](assets/adv-settings.png)
 
+   >[!IMPORTANT]
+   >
+   >Calculated metrics cannot be dropped into the  **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** drop zones.
+
+
    | Setting | Description |
    | --- | --- |
    | **[!UICONTROL Include repeat instances]** | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. Default = unchecked. |

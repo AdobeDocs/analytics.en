@@ -37,16 +37,15 @@ The new [!UICONTROL flow] experience enhances your workflow in several ways:
 
 1. If you choose a metric, you also need to provide a [!UICONTROL Pathing Dimension], as shown here, that you will use to build the path. The default is [!UICONTROL Page].
 
-   ![pathing dimension](assets/pathing-dim.png)
-
-1. (Optional) Click **[!UICONTROL Show Advanced Settings]** to configure Advanced Settings:
-
-   ![advanced settings](assets/adv-settings.png)
-
+   ![pathing dimension](assets/pathing-dim.png) 
+   
    >[!IMPORTANT]
    >
    >Calculated metrics cannot be dropped into the  **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** drop zones.
 
+1. (Optional) Click **[!UICONTROL Show Advanced Settings]** to configure Advanced Settings:
+
+   ![advanced settings](assets/adv-settings.png)
 
    | Setting | Description |
    | --- | --- |

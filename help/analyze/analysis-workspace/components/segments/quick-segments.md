@@ -79,7 +79,7 @@ Notice how the segment's side bar changes from striped blue to a lighter blue. I
 
 ## What are project-only segments?
 
-Project-only segments are segments that only apply to the current project they were created in. They will not be available in other projects and cannot be shared to other users. They are intended for quick exploration of your data without having to create and save a segment in the left rail. Project-only segments can be created in the panel drop zone either with Quick segments or [ad-hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en). 
+Project-only segments are segments that only apply to the current project they were created in. They will not be available in other projects and cannot be shared to other users. They are intended for quick exploration of your data without having to create and save a segment in the left rail. Project-only segments can be created in the panel drop zone either with Quick segments or [ad hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en). 
 
 If a project-only segment is opened in the [!UICONTROL Segment Builder], a project-only notification appears. If you do not check "Make this segment available.." and click **[!UICONTROL APPLY]**, the segment remains a project-only segment. Note: if you apply a Quick segment from the Segment Builder, it can no longer be opened in the [!UICONTROL Quick Segment Builder]. 
 

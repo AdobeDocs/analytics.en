@@ -1,19 +1,19 @@
 ---
-description: Use ad-hoc segments in Analysis Workspace.
-title: Ad-hoc segments
+description: Use ad hoc segments in Analysis Workspace.
+title: Ad hoc segments
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 ---
-# Ad-hoc project segments
+# Ad hoc project segments
 
-Ad-hoc project segments allow you to drag and drop any component directly into the panel drop zone to create a segment. The segment becomes a [project-level segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) local to the current project. 
+Ad hoc project segments allow you to drag and drop any component directly into the panel drop zone to create a segment. The segment becomes a [project-level segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) local to the current project. 
 
-Here is a video on creating ad-hoc project segments:
+Here is a video on creating ad hoc project segments:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Drop any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the segment drop zone at the top of a panel. Component types are auto-converted into ad-hoc segments or [Quick segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) if compatible.
+1. Drop any component type (dimension, dimension item, event, metric, segment, segment template, date range) into the segment drop zone at the top of a panel. Component types are auto-converted into ad hoc segments or [Quick segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) if compatible.
    Here is an example of how to create a segment for the Twitter referring domain:
 
    ![](assets/ad-hoc1.png)
@@ -31,9 +31,9 @@ Keep in mind:
 
 For a comparison of the different segments you can create and apply within a project, go [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-## Save ad-hoc  segments {#ad-hoc-save}
+## Save ad hoc  segments {#ad-hoc-save}
 
-Ad-hoc segments can be made available to other projects by saving them.
+Ad hoc segments can be made available to other projects by saving them.
 
 1. Hover over the segment in the drop zone and click the "i" icon.
 1. Click the edit pencil to go to the Segment Builder. 

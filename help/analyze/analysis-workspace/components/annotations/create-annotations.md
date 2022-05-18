@@ -17,6 +17,8 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 | **In Workspace, go to [!UICONTROL Components] > [!UICONTROL Create annotation].** | The [!UICONTROL Annotation builder] opens. |
 | **Use this hotkey** to open the Annotation builder: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Note that by using the hotkey to create an annotation, you create a single-day annotation for the current date, without any pre-selected scope (metrics or dimensions). |
 
+{style="table-layout:auto"}
+
 1. Fill in the [!UICONTROL Annotation builder] elements.
 
    ![](assets/ann-builder.png)

@@ -28,6 +28,8 @@ The [!UICONTROL Annotations] manager shows you all the annotations you own that 
 | [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |
 | [!UICONTROL Date Modified] | Shows the date and time that the annotation was last modified. |
 
+{style="table-layout:auto"}
+
 ## Edit annotations
 
 Editing an annotation means that you can adjust date ranges, colors, scope, or whether or not it applies to all report suites or projects. You can edit annotations in two ways:
@@ -69,3 +71,5 @@ Just select one or more of the annotations and the Task bar appears.
 | [!UICONTROL Copy] | Creates a distinct copy with its own annotation ID, but with the same name and definition.|
 | [!UICONTROL Export to CSV] | Export the annotation definition to a .csv file.|
 | [!UICONTROL Filter] (left rail) | Filter by tags, report suite, owners, and other filters (Mine, Approved, Favorites, Shared with me, and Show All).|
+
+{style="table-layout:auto"}

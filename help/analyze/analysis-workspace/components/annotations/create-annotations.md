@@ -7,10 +7,6 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 ---
 # Create annotations
 
->[!NOTE]
->
->Gradual rollout of this feature starts March 23, 2022. General Availability: April 11, 2022.
-
 1. To create annotations, you have several ways to get started:
 
 | Creation method | Details |

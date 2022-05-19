@@ -11,3 +11,5 @@ The 'Cart views' metric shows the number of times a visitor viewed their shoppin
 ## How this metric is calculated
 
 This metric counts the number of hits where `scView` exists in the [`events`](/help/implement/vars/page-vars/events/events-overview.md) variable.
+
+See [Carts](carts.md) for a metric comparison.

@@ -44,7 +44,7 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 ## Key Analytics resources
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

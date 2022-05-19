@@ -19,7 +19,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Populate Lifecycle dimensions and metrics through Experience Edge | Many Lifecycle events are now automatically mapped to XDM fields. Events that are not automatically mapped can be sent to Adobe through free-form key/value pairs. [Learn more - coming soon] | May 27, 2022 |
+| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on what Lifecycle data is collected via Experience Edge and how it corresponds to existing Lifecycle reporting. [Learn more - coming soon] | May 27, 2022 |
 
 {style="table-layout:auto"}
 

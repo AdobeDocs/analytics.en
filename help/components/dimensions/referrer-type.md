@@ -159,6 +159,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
 * `trombi.com`

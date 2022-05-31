@@ -80,9 +80,9 @@ This option is not available for standard eVars. The [!UICONTROL Merchandising] 
 
 With **[!UICONTROL Product Syntax]**, however, the eVar is set within only the Adobe Analytics products variable. The Analytics products variable is divided up into six different portions per product:
 
-`s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
+`s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Category] is no longer recommended as a viable option for keeping track of product category performance.  Its mere existence demonstrates why in most implementations of the products variable, a single semicolon precedes the productID portion of the variable value.
+* [!UICONTROL Category] and [!UICONTROL Name] identify the given product.
 * [!UICONTROL Quantity] and [!UICONTROL Revenue] are useful when a product purchase is being tracked.  
 * [!UICONTROL Events] is useful for recording custom incremental or currency event values that are not meant to be counted as revenue (such as shipping, discounts, etc.)
 

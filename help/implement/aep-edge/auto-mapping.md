@@ -5,16 +5,14 @@ description: View which XDM fields that Edge automatically maps to Analytics var
 
 # Automatically mapped Analytics variables in Adobe Experience Edge
 
-The following tables shows the variables that Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM Field Paths, no additional configuration is necessary to send data to Adobe Analytics.
+The following table shows the variables that Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM Field Paths, no additional configuration is necessary to send data to Adobe Analytics.
 
-Custom Analytics variable, such as [eVars]() or [props]() require [manual mapping](manual-mapping.md).
-
-Detailed information about Adobe Analytics data collection query parameters can be found in the [Analytics Implementation Guide](https://experienceleague.adobe.com/docs/analytics/implementation/validate/query-parameters.html).
+Custom Analytics variable, such as [eVars](../../components/dimensions/evar.md) or [props](../../components/dimensions/prop.md) require [manual mapping](manual-mapping.md).
 
 | XDM Field Path  | Analytics dimension and description |
 | --- | --- |
-| `application.id` | The [mobile dimension](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) App ID. Uses context data `c.a.appid`. |
-| `application.launches.value` | The [mobile metric](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) Launches. Uses context data `c.a.launches`. |
+| `application.id` | The mobile dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `application.launches.value` | The mobile metric [Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `commerce.checkouts.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Checkouts](../../components/metrics/checkouts.md) metric. |
 | `commerce.checkouts.value` | Increments the [Checkouts](../../components/metrics/checkouts.md) metric by the desired amount. |
 | `commerce.order.currencyCode` | Sets the [currencyCode](../vars/config-vars/currencycode.md) configuration variable. |
@@ -30,13 +28,12 @@ Detailed information about Adobe Analytics data collection query parameters can 
 | `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |
 | `commerce.productViews.value` | Increments the [Product Views](../../components/metrics/product-views.md) metric by the desired amount. |
 | `commerce.purchases.value` | Increments the [Orders](../../components/metrics/orders.md) metric by the desired amount. |
-| `device.colorDepth` | Sets the [Color Depth](../../components/dimensions/color-depth.md) dimension. |
-| `device.screenHeight` | Contributes to setting the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. Make sure that you also set the XDM field `device.screenWidth`. |
-| `device.screenWidth` | Contributes to setting the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. Make sure that you also set the XDM field `device.screenHeight`. |
+| `device.colorDepth` | Helps set the [Color Depth](../../components/dimensions/color-depth.md) dimension. |
+| `device.screenHeight` | Helps set the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. Make sure that you also set the XDM field `device.screenWidth`. |
+| `device.screenWidth` | Helps set the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. Make sure that you also set the XDM field `device.screenHeight`. |
 | `environment.browserDetails.acceptLanguage` | Helps set the [Language](../../components/dimensions/language.md) dimension. |
 | `environment.browserDetails.cookiesEnabled` | Sets the [Cookie Support](../../components/dimensions/cookie-support.md) dimension. Valid values include `Y` (the browser accepts cookies) and `N` (the browser rejects cookies). |
 | `environment.browserDetails.javaEnabled` | Sets the [Java enabled](../../components/dimensions/java-enabled.md) dimension. Valid values include `Y` (Java is enabled) and `N` (Java is disabled). |
-<!--| `environment.browserDetails.javaScriptVersion` | I don't think this dimension exists in Analytics anymore. | -->
 | `environment.browserDetails.userAgent` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `User-Agent` HTTP request header. You can [manually map](manual-mapping.md) it to an eVar if you would like to use it in reports. |
 | `environment.browserDetails.viewportHeight` | Sets the [Browser Height](../../components/dimensions/browser-height.md) dimension. |
 | `environment.browserDetails.viewportWidth` | Sets the [Browser Width](../../components/dimensions/browser-width.md) dimension. |
@@ -44,62 +41,59 @@ Detailed information about Adobe Analytics data collection query parameters can 
 | `environment.ipV4` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `X-Forwarded-For` HTTP header. |
 | `identityMap.ECID[0].id` | The [Adobe Experience Cloud Identity Service ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | `marketing.trackingCode` | Sets the [Tracking Code](../../components/dimensions/tracking-code.md) dimension. |
+| `media.mediaTimed.completes.value` | The Media Analytics metric [Content Complete](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete).
+| `media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
+| `media.mediaTimed.federated.value` | The Media Analytics metric [Federated Data](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#federated-data). |
+| `media.mediaTimed.firstQuartiles.value` | The Media Analytics metric [Twenty-five % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#twenty-five-progress-marker). |
+| `media.mediaTimed.mediaSegmentView.value` | The Media Analytics metric [Content Segment Views](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment-views). |
+| `media.mediaTimed.midpoints.value` | The Media Analytics metric [Fifty % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#fifty-progress-marker). |
+| `media.mediaTimed.pauseTime.value` | The Media Analytics metric [Total Pause Duration](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#total-pause-duration). |
+| `media.mediaTimed.pauses.value` | The Media Analytics metric [Pause Events](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#pause-events). |
+| `media.mediaTimed.primaryAssetReference.@id` | The Media Analytics dimension [Asset ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
+| `media.mediaTimed.primaryAssetReference.dc:title` | The Media Analytics dimension [Video Name](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | The Media Analytics dimension [Originator](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Episode.iptc4xmpExt:Number` | The Media Analytics dimension [Episode](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Genre` | The Media Analytics dimension [Genre](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | The Media Analytics dimension [Content Rating](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Season.iptc4xmpExt:Number` | The Media Analytics dimension [Season](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Identifier` | The Media Analytics dimension [Content ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
+| `media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Name` | The Media Analytics dimension [Show](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
+| `media.mediaTimed.primaryAssetReference.showType` | The Media Analytics dimension [Show Type](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
+| `media.mediaTimed.primaryAssetReference.xmpDM:duration` | The Media Analytics dimension [Video Length](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
+| `media.mediaTimed.primaryAssetViewDetails.@id` | The Media Analytics dimension [Media Session ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
+| `media.mediaTimed.primaryAssetViewDetails.broadcastChannel` | The Media Analytics dimension [Content Channel](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
+| `media.mediaTimed.primaryAssetViewDetails.broadcastContentType` | The Media Analytics dimension [Content Type](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type).
+| `media.mediaTimed.primaryAssetViewDetails.broadcastNetwork` | The Media Analytics dimension [Network](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
+| `media.mediaTimed.primaryAssetViewDetails.mediaSegmentView.value` | The Media Analytics dimension [Content Segment](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
+| `media.mediaTimed.primaryAssetViewDetails.playerName` | The Media Analytics dimension [Content Player Name](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
+| `media.mediaTimed.primaryAssetViewDetails.playerSDKVersion.version` | The Media Analytics dimension [SDK Version](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
+| `media.mediaTimed.primaryAssetViewDetails.sourceFeed` | The Media Analytics dimension [Media Feed Type](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
+| `media.mediaTimed.primaryAssetViewDetails.streamFormat` | The Media Analytics dimension [Stream Format](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
+| `media.mediaTimed.progress10.value` | The Media Analytics metric [Ten % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ten-progress-marker). |
+| `media.mediaTimed.progress95.value` | The Media Analytics metric [Ninety-five % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ninety-five-progress-marker). |
+| `media.mediaTimed.resumes.value` | The Media Analytics metric [Content Resumes](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes). |
+| `media.mediaTimed.starts.value` | The Media Analytics metric [Media Starts](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-starts). |
+| `media.mediaTimed.thirdQuartiles.value` | The Media Analytics metric [Seventy-five % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker). |
+| `media.mediaTimed.timePlayed.value` | The Media Analytics metric [Content Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent). |
+| `media.mediaTimed.totalTimePlayed.value` | The Media Analytics metric [Media Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent). |
+| `placeContext.geo.latitude` | The Mobile dimension Latitude. |
+| `placeContext.geo.longitude` | The Mobile dimension Longitude. |
+| `placeContext.geo.postalCode` | The [Zip Code](../../components/dimensions/zip-code.md) dimension. |
+| `placeContext.geo.stateProvince` | The [US States](../../components/dimensions/us-states.md) dimension. |
+| `productListItems[N].lineItemId` | The [Category](../../components/dimensions/category.md) dimension. |
+| `productlistitems[N].name` | The [Product](../../components/dimensions/product.md) dimension. |
+| `productlistitems[N].priceTotal` | Helps determine the [Revenue](../../components/metrics/revenue.md) metric. |
+| `productlistitems[N].quantity` | Helps determine the [Units](../../components/metrics/units.md) metric. |
+| `web.webInteraction.URL` | The [linkURL](../vars/config-vars/linkurl.md) implementation variable. |
+| `web.webInteraction.name` | The [Custom link](../../components/dimensions/custom-link.md), [Download link](../../components/dimensions/download-link.md), or [Exit link](../../components/dimensions/exit-link.md) dimension, depending on the value in `web.webInteraction.type` |
+| `web.webInteraction.type` | Determines the type of link clicked. Valid values include `lnk_o` (Custom links), `lnk_d` (Download links), and `lnk_e` (Exit links). |
+| `web.webPageDetails.URL` | The [Page URL](../../components/dimensions/page-url.md) dimension. |
+| `web.webPageDetails.errorPage` | Flag that helps determine the 'Pages Not Found' [dimension](../../components/dimensions/pages-not-found.md) and [metric](../../components/metrics/pages-not-found.md). |
+| `web.webPageDetails.name` | The [Page](../../components/dimensions/page.md) dimension. |
+| `web.webPageDetails.server` | The [Server](../../components/dimensions/server.md) dimension. |
+| `web.webPageDetails.siteSection` | The [Site Section](../../components/dimensions/site-section.md) dimension. |
+| `web.webReferrer.URL` | The [Referrer](../../components/dimensions/referrer.md) dimension. |
 
-
-| marketing.trackingCode | v0 | AppMeasurement query parameter CAMPAIGN mapping. |
-| media.mediaTimed.completes.value | c.a.media.complete | AppMeasurement context data. |
-| media.mediaTimed.dropBeforeStart.value |  c.a.media.view, c.a.media.timePlayed, c.a.media.play| AppMeasurement context data. |
-| media.mediaTimed.federated.value | c.a.media.federated | AppMeasurement context data `c.a.media.federated` mapping. |
-| media.mediaTimed.firstQuartiles.value | c.a.media.progress25 | AppMeasurement context data. |
-| media.mediaTimed.mediaSegmentView.value | c.a.media.segmentView | AppMeasurement context data. |
-| media.mediaTimed.midpoints.value | c.a.media.progress50 | AppMeasurement context data. |
-| media.mediaTimed.pauseTime.value | c.a.media.pauseTime | AppMeasurement context data `c.a.media.pauseTime` mapping. |
-| media.mediaTimed.pauses.value | c.a.media.pauseCount | AppMeasurement context data `c.a.media.pauseCount` mapping. |
-| media.mediaTimed.primaryAssetReference.@id | c.a.media.asset   | AppMeasurement context data. |
-| media.mediaTimed.primaryAssetReference.dc:title | c.a.media.friendlyName | AppMeasurement context data `c.a.media.friendlyName` mapping. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Creator[N].iptc4xmpExt:Name | c.a.media.originator | AppMeasurement context data. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Episode.iptc4xmpExt:Number | c.a.media.episode | AppMeasurement context data `c.a.media.episode` mapping. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Genre | c.a.media.genre | AppMeasurement context data. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue | c.a.media.rating | AppMeasurement context data. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Season.iptc4xmpExt:Number | c.a.media.season | AppMeasurement context data `c.a.media.season` mapping. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Identifier | a.media.name | AppMeasurement context data `a.media.name` mapping. |
-| media.mediaTimed.primaryAssetReference.iptc4xmpExt:Series.iptc4xmpExt:Name | c.a.media.show | AppMeasurement context data `c.a.media.show` mapping. |
-| media.mediaTimed.primaryAssetReference.showType | c.a.media.type | AppMeasurement context data `c.a.media.type` mapping with conversion VEDIO_SHOW_TYPE. |
-| media.mediaTimed.primaryAssetReference.showType | c.a.media.type | AppMeasurement context data `c.a.media.type` mapping with conversion VIDEO_SHOW_TYPE. |
-| media.mediaTimed.primaryAssetReference.xmpDM:duration | c.a.media.length | AppMeasurement context data `c.a.media.length` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.@id | c.a.media.vsid | AppMeasurement context data. |
-| media.mediaTimed.primaryAssetViewDetails.broadcastChannel | c.a.media.channel | AppMeasurement context data `c.a.media.channel` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.broadcastContentType | c.a.contentType | AppMeasurement context data `c.a.contentType` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.broadcastNetwork | c.a.media.network | AppMeasurement context data `c.a.media.network` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.mediaSegmentView.value | c.a.media.segment | AppMeasurement context data `c.a.media.segment` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.playerName | c.a.media.playerName | AppMeasurement context data `c.a.media.playerName` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.playerSDKVersion.version | c.a.media.sdkVersion | AppMeasurement context data `c.a.media.sdkVersion` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.sourceFeed | c.a.media.feed | AppMeasurement context data `c.a.media.feed` mapping. |
-| media.mediaTimed.primaryAssetViewDetails.streamFormat | c.a.media.format | AppMeasurement context data `c.a.media.format` mapping. |
-| media.mediaTimed.progress10.value | c.a.media.progress10 | AppMeasurement context data. |
-| media.mediaTimed.progress95.value | c.a.media.progress95 | AppMeasurement context data. |
-| media.mediaTimed.resumes.value | c.a.media.resume | AppMeasurement context data `c.a.media.resume` mapping. |
-| media.mediaTimed.starts.value | c.a.media.view | AppMeasurement context data. |
-| media.mediaTimed.thirdQuartiles.value | c.a.media.progress75 | AppMeasurement context data. |
-| media.mediaTimed.timePlayed.value | c.a.media.timePlayed | AppMeasurement context data `c.a.media.timePlayed` mapping. |
-| media.mediaTimed.totalTimePlayed.value | c.a.media.totalTimePlayed | AppMeasurement context data `c.a.media.totalTimePlayed` mapping. |
-| placeContext.geo.latitude | lat | AppMeasurement query parameter LATITUDE mapping. |
-| placeContext.geo.longitude | lon | AppMeasurement query parameter LONGITUDE mapping. |
-| placeContext.geo.postalCode | zip | AppMeasurement query parameter ZIP mapping. |
-| placeContext.geo.stateProvince | state | AppMeasurement query parameter STATE mapping. |
-| productListItems[N].lineItemId | products | AppMeasurement query parameter Products Category mapping. |
-| productlistitems[N].name | products | AppMeasurement query parameter Products Name mapping. |
-| productlistitems[N].priceTotal | products | AppMeasurement query parameter Products Price mapping. |
-| productlistitems[N].quantity | products | AppMeasurement query parameter Products Quantity mapping. |
-| web.webInteraction.URL | pev1 | AppMeasurement query parameter PAGE_EVENT_VAR1 mapping. |
-| web.webInteraction.name | pev2 | AppMeasurement query parameter PAGE_EVENT_VAR2 mapping. |
-| web.webInteraction.type | pe | `web.webInteraction.type=other` to `pe=lnk_o`; `web.webInteraction.type=download` to `pe=lnk_d`; `web.webInteraction.type=exit` to `pe=lnk_e` |
-| web.webPageDetails.URL | g | AppMeasurement query parameter PAGE_URL mapping. |
-| web.webPageDetails.errorPage | pageType | AppMeasurement query parameter PAGE_TYPE_FULL mapping with conversion ERROR_PAGE_TYPE. |
-| web.webPageDetails.homePage | hp | AppMeasurement query parameter HOMEPAGE mapping with conversion BOOLEAN_TO_YN. |
-| web.webPageDetails.name | gn | AppMeasurement query parameter PAGENAME mapping. |
-| web.webPageDetails.server | sv | AppMeasurement query parameter USER_SERVER mapping. |
-| web.webPageDetails.siteSection | ch | AppMeasurement query parameter CHANNEL mapping. |
-| web.webReferrer.URL | r | AppMeasurement query parameter REFERRER mapping. |
+<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 
 {style="table-layout:auto"}

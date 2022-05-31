@@ -32,7 +32,7 @@ Props, by default, are not case-sensitive. If you send the same value in differe
 
 You can make any prop case-sensitive. You can also disable case-sensitivity for any prop once it is enabled. Contact Adobe Customer Care with the report suite ID and the desired variables(s) to toggle case sensitivity. 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Toggling case sensitivity can cliff dimension items, causes unexpected results with segments, and causes issues with filters. Adobe strongly recommends toggling this setting between two major time periods, such as the beginning of a month or year.
 

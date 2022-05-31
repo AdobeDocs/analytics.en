@@ -8,7 +8,7 @@ exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 
 The `forceOnline()` method lets you override the automatically detected state of AppMeasurement.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Only use this method when [`trackOffline`](../config-vars/trackoffline.md) is enabled. Using this function outside of offline tracking can cause data loss.
 

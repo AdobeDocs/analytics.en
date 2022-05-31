@@ -27,9 +27,7 @@ You can use one of these extensions, or you can use the custom code editor follo
 
 The `s.products` variable is a string that contains multiple delimited fields per product. Delimit each field with a semicolon (`;`) in the string.
 
->[!IMPORTANT]
->**[!UICONTROL Category]** is no longer recommended as a viable option for keeping track of product category performance. As a result, all product strings should start with the semi-colon, signifying the empty first field.
-
+* **Category** (optional): The product category. The maximum length for this field is 100 bytes.
 * **Product name** (required): The name of the product. The maximum length for this field is 100 bytes.
 * **Quantity** (optional): How many of this product is in the cart. This field only applies to hits with the purchase event.
 * **Price** (optional): The total price of the product as a decimal. If quantity is more than one, set price to the total and not the individual product price. Align the currency of this value to match the [`currencyCode`](../config-vars/currencycode.md) variable. Do not include the currency symbol in this field. This field only applies to hits with the purchase event.
@@ -38,17 +36,17 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 
 ```js
 // Set a single product using all available fields
-s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 This variable supports multiple products in the same hit. It is valuable for shopping cart and purchases containing multiple products. The maximum length for the entire `products` string is 64K. Separate each product with a comma (`,`) in the string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Strip all semicolons, commas, and pipes from product names, categories, and merchandising eVar values. If a product name includes a comma, AppMeasurement parses it as the start of a new product. This incorrect parsing throws off the rest of the product string, causing incorrect data in dimensions and reports.
 
@@ -58,13 +56,13 @@ The `products` variable is flexible when omitting fields and including multiple 
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = ";Example product";
+s.products = "Example category;Example product";
 
 // Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = ";Example product 1,;Example product 2";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
@@ -90,7 +88,7 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 If using the `digitalData` [data layer](../../prepare/data-layer.md), you can iterate through the `digitalData.product` object array:

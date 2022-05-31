@@ -8,7 +8,7 @@ exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 
 The `registerPreTrackCallback` variable allows your organization to hook a JavaScript function after an image request URL is compiled but before it is sent. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the [`registerPostTrackCallback`](registerposttrackcallback.md) variable. Tracking functions in this variable cause an infinite loop of image requests!
 

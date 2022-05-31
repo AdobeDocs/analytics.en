@@ -9,7 +9,7 @@ exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 
 Describes how to calculate common metrics using data feeds.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit > 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
 

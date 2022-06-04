@@ -112,3 +112,23 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 {style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+
+## Mapping other XDM fields to Analytics variables
+
+If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). All XDM field elements are sent to Adobe Analytics as Context Data with the prefix `a.x`. You can then map this context data variable to the desired Analytics variable using [Processing rules](../../admin/admin/c-processing-rules/processing-rules.md). For example, if you send the following event:
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "search":{
+                "term":"Example search term"
+            }
+        }
+    }
+})
+```
+
+The Web SDK sends that data to Adobe Analytics as the context data variable `a.x._atag.search.term`. You can then use a processing rule to assign that context data variable value to the desired Analytics variable, such as an eVar:
+
+![Search term processing rule](assets/examplerule.png)

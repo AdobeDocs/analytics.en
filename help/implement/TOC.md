@@ -125,6 +125,22 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Implementation modal](prepare/implementation-modal.md)
   + [Create a solution design document](prepare/solution-design.md)
   + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
++ Implement Analytics using Experience Platform Edge {#aep-edge}
+  + [Experience Edge overview](aep-edge/overview.md)
+  + [Variable mapping](aep-edge/variable-mapping.md)
+  + Web SDK {#web-sdk}
+    + [Web SDK overview](aep-edge/web-sdk/overview.md)
+  + Mobile SDK {#mobile-sdk}
+    + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
+  + Edge API {#edge-api}
+    + [Edge API overview](aep-edge/edge-api/overview.md)
++ Implement Analytics using tags in Adobe Experience Platform {#launch}
+  + [Tags overview](launch/overview.md)
+  + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)
+  + [Deploy to a development environment](launch/deploy-dev.md)
+  + [Validate and publish to production](launch/validate-publish-prod.md)
+  + [Map data layer objects to data elements](launch/layer-to-elements.md)
+  + [Map tag data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics using JavaScript {#js}
   + [JavaScript overview](js/overview.md)
   + [Implement opt-out links](js/opt-out.md)
@@ -144,13 +160,6 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [Visit example](js/xdevice-visid/visit-example.md)
     + [Legacy cross-device FAQ](js/xdevice-visid/xdevice-faq.md)
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
-+ Implement Analytics using tags in Adobe Experience Platform {#launch}
-  + [Tags overview](launch/overview.md)
-  + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)
-  + [Deploy to a development environment](launch/deploy-dev.md)
-  + [Validate and publish to production](launch/validate-publish-prod.md)
-  + [Map data layer objects to data elements](launch/layer-to-elements.md)
-  + [Map tag data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
   + [Implement Analytics using DTM](other/dtm-implementation-overview.md)
@@ -173,6 +182,3 @@ user-guide-description: Customize what data is collected to get more out of Adob
   + [Focused Review (after each website release)](review/focused-review.md)
   + [Full Review (every 6 months)](review/full-review.md)
   + [Define your Top 5 KPIs](review/define-kpis.md)
-+ Use XDM data with Analytics {#aep-edge}
-  + [Use AEP Web SDK](aep-edge/xdmoverview.md)
-  + [Map XDM data to Analytics manually](aep-edge/xdm-manual.md)

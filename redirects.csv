@@ -178,3 +178,5 @@ source,destination
 /docs/analytics/components/variables/dimensions-reports/reports-file-downloads.html,/docs/analytics/components/dimensions/download-link.html
 /docs/analytics/technotes/releases.html,/docs/analytics/release-notes/releases.html
 /docs/analytics/technotes/doc-updates.html,/docs/analytics/release-notes/doc-updates.html
+/docs/analytics/implementation/aep-edge/xdmoverview.html,/docs/analytics/implementation/aep-edge/overview.html
+/docs/analytics/implementation/aep-edge/xdm-manual.html,/docs/analytics/implementation/aep-edge/web-sdk/overview.html

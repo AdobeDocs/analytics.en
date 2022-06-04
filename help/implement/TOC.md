@@ -128,11 +128,11 @@ user-guide-description: Customize what data is collected to get more out of Adob
 + Implement Analytics using Experience Platform Edge {#aep-edge}
   + [Experience Edge overview](aep-edge/overview.md)
   + [Variable mapping](aep-edge/variable-mapping.md)
-  + Web SDK {web-sdk}
+  + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
-  + Mobile SDK {mobile-sdk}
+  + Mobile SDK {#mobile-sdk}
     + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
-  + Edge API {edge-api}
+  + Edge API {#edge-api}
     + [Edge API overview](aep-edge/edge-api/overview.md)
 + Implement Analytics using tags in Adobe Experience Platform {#launch}
   + [Tags overview](launch/overview.md)

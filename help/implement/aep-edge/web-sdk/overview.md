@@ -3,6 +3,8 @@ title: Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 description: Use the Web SDK extension in Adobe Experience Platform Data Collection to send data to Adobe Analytics.
 ---
 
+# Implement Adobe Analytics using the Adobe Experience Platform Web SDK
+
 You can use the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) to send data to Adobe Analytics. This works by translating the [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) into a format used by Analytics.
 
 ## Setup

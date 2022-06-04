@@ -1,8 +1,8 @@
 ---
 title: Analytics variable mapping in Adobe Experience Edge
 description: View which XDM fields that Edge automatically maps to Analytics variables.
+exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 ---
-
 # Analytics variable mapping in Adobe Experience Edge
 
 The following table shows the variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM Field Paths, no additional configuration is necessary to send data to Adobe Analytics.

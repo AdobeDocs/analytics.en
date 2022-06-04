@@ -1,8 +1,8 @@
 ---
 title: Implement Adobe Analytics with Adobe Experience Platform Edge
 description: Overview of using XDM data from Experience Platform in Adobe Analytics
+exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 ---
-
 # Implement Adobe Analytics with Adobe Experience Platform Edge
 
 Adobe Experience Platform Edge allows you to send data destined to multiple products to a centralized location. Experience Edge forwards the appropriate information to the desired products. This concept allows you to consolidate implementation efforts, especially spanning multiple data solutions.

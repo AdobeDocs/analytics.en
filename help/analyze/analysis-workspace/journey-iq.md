@@ -1,7 +1,6 @@
 ---
 title: Journey IQ
 description: Understand the features that make up Journey IQ, a set of features that are a part of Adobe Analytics.
-feature: AI Tools
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 ---

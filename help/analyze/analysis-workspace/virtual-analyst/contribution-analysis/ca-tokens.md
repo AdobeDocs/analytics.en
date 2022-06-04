@@ -1,7 +1,6 @@
 ---
 description: Use Contribution Analysis to identify statistical anomalies and correlations in data.
 title: Contribution Analysis overview
-feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 ---

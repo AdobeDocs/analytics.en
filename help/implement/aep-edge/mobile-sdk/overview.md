@@ -5,7 +5,7 @@ description: Use the Mobile SDK extension in Adobe Experience Platform Data Coll
 
 # Implement Adobe Analytics using the Adobe Experience Platform Mobile SDK
 
-The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. It is available for Android, iOS, and a variety of cross-platform development frameworks. Configuration is handled through the Adobe Experience Platform Data Collection UI.
+The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. It is available for Android, iOS, and various cross-platform development frameworks. Configuration is handled through the Adobe Experience Platform Data Collection UI.
 
 To send data to Adobe Experience Edge using the Mobile SDK:
 

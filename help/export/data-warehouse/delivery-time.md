@@ -26,7 +26,7 @@ If you see data warehouse requests consistently take a long time, consider alter
 >[!IMPORTANT]
 >
 > *There is no way to speed up delivery of a Data Warehouse request.*
- 
+
 If you require these types of reports in a more timely fashion, consider the following alternatives:
 
 * **Analysis Workspace**: Though unlimited dimension items are not available, it includes almost all other use cases that Data Warehouse provides.

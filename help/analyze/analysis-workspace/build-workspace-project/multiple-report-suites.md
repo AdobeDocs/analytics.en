@@ -29,7 +29,7 @@ You can apply a report suite to all panels at once by right-clicking any panel h
 
 We are introducing the concept of "active panel" versus "inactive panel" with this feature. You can recognize the active panel by the light blue border around it. Simply clicking inside a panel turns that panel into the active panel.
 
->[!IMPORTANT]
+>[!TIP]
 >You can drag and drop to any panel that is in the same report suite as your active panel. By dragging into an inactive panel of the same report suite, the panel will become active.
 
 | Task | Active panel | Inactive panel |

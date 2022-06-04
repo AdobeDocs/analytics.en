@@ -15,7 +15,7 @@ Timestamps Optional lets you:
 * Send timestamped data from a mobile app to a global report suite.
 * Upgrade apps to use offline tracking without having to create a new report suite.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. This can lead to out-of-order data and negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
@@ -27,12 +27,12 @@ Timestamps Optional lets you:
 
 * If created from a template, a new report suite defaults to Timestamps Optional.
 
-  (You can create a new report suite from a template at **Admin > Report Suites > Create New > Report Suite**.) 
+  (You can create a new report suite from a template at **Admin > Report Suites > Create New > Report Suite**.)
 * If copied from an existing report suite, then the new report suite inherits the timestamp setting from the original, including:
 
-    * **Timestamps not allowed** (setting s.visitorID supported) 
-    * **Timestamps required** (setting s.visitorID not supported) 
-    * **Timestamps optional** (setting s.visitorID supported but not on timestamped hits)
+  * **Timestamps not allowed** (setting s.visitorID supported)
+  * **Timestamps required** (setting s.visitorID not supported)
+  * **Timestamps optional** (setting s.visitorID supported but not on timestamped hits)
 
 ## To change existing report suites to Timestamps Optional {#section_40BCD3B4639241DEA716F7640ED33E72}
 

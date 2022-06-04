@@ -12,7 +12,7 @@ The `writeSecureCookies` variable allows AppMeasurement to set [Secure cookies](
 
 Learn more about Analytics cookies [here](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >If you enable the `writeSecureCookies` variable, make sure that all content on your site is served securely over HTTPS. AppMeasurement does not work if this variable is enabled and you have insecure content on your page.
 

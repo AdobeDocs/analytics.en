@@ -9,9 +9,9 @@ exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 
 Processing rules simplify data collection and manage content as it is sent to reporting. Processing rules help simplify interaction with IT groups and Web developers by providing an interface to:
 
-* Set an event on the product overview page 
-* Populate campaign with a query string parameter 
-* Concatenate category and page name in a prop for easier reporting 
+* Set an event on the product overview page
+* Populate campaign with a query string parameter
+* Concatenate category and page name in a prop for easier reporting
 * Copy an eVar into a prop to see paths
 * Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
@@ -22,11 +22,7 @@ Processing rules simplify data collection and manage content as it is sent to re
 
 Administrators have rights to use processing rules **by default**. Administrators can also grant these rights to non-administrators through the Admin Tools interface. For instructions, see []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Because processing rules permanently affect Analytics data, Adobe strongly recommends that processing rules administrators receive certification training in Adobe Analytics, and be familiar with all sources of data for your report suites (standard web sites, mobile sites, mobile apps, Data Insertion API, and so on). Knowledge of the context data variables and standard variables populated in various platforms will help prevent accidental deletion or alteration of data.
+![Processing rules](assets/processing-rules.png)
 
 ## Use Context Data to Simplify Data Collection {#section_09EEA03612D24C15839631AA9E9668D8}
 

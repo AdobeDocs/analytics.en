@@ -4,9 +4,13 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (May 2022)
+# Current Adobe Analytics release notes (June 2022)
 
-**Last update**: May 17, 2022
+>[!NOTE]
+>
+>This page contains pre-release information and is subject to change.
+
+**Last update**: June 7, 2022
 
 ## Related resources
 
@@ -19,7 +23,10 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on what Lifecycle data is collected via Experience Edge and how it corresponds to existing Lifecycle reporting. [Learn more - coming soon] | May 27, 2022 |
+| New Flow visualization UI | Provides additional functionality to our Flow visualization to make it more powerful and capable. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Support for Analytics Dashboards annotations | Gives important context to data and supports continuity of experience with workspace. [Learn more](to follow) | June 15, 2022 |
+| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on what Lifecycle data is collected via Experience Edge and how it corresponds to existing Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | May 27, 2022 |
+| New classifications experience - Phase 1 | This is a phased release of a new classification set user experience that significantly improves visibility into customer-owned classification data. GA is estimated at early 2023. | Limited testing starts June 15, 2022 |
 
 {style="table-layout:auto"}
 

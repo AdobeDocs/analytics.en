@@ -24,7 +24,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | New Flow visualization UI | Provides additional functionality to our Flow visualization to make it more powerful and capable. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
-| Support for Analytics Dashboards annotations | Gives important context to data and supports continuity of experience with workspace. [Learn more](to follow) | June 15, 2022 |
+| Support for Analytics Dashboards annotations | Gives important context to data and supports continuity of experience with workspace. Learn more | June 15, 2022 |
 | Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on what Lifecycle data is collected via Experience Edge and how it corresponds to existing Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | May 27, 2022 |
 | New classifications experience - Phase 1 | This is a phased release of a new classification set user experience that significantly improves visibility into customer-owned classification data. GA is estimated at early 2023. | Limited testing starts June 15, 2022 |
 
@@ -34,13 +34,12 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 (Fixes for multiple customers)
 
-N/A
+
 
 ### Additional fixes in Adobe Analytics
 
 (Fixes for individual customers)
 
-AN-274429; AN-279640; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-284989; AN-285244; AN-285253; AN-285432; AN-285528; AN-285535; AN-285710; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
 
 ### Important notices for Adobe Analytics administrators
 

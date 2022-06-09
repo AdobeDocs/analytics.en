@@ -32,12 +32,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 ### Fixes in Adobe Analytics
 
-(Fixes for multiple customers)
-
-### Additional fixes in Adobe Analytics
-
 AN-251686; AN-283542; AN-286572; AN-286945; AN-286784; AN-286944; AN-287012; AN-287319; AN-287333; AN-287348; AN-287429; AN-288238; AN-288281; AN-288660; AN-288769; AN-288798; AN-288871; AN-288872; AN-288941; AN-288951; AN-288952; AN-288956; AN-289062; AN-289340; AN-289346; AN-289488; AN-289562; AN-289580; AN-289861; AN-289892; 
-
 
 ### Important notices for Adobe Analytics administrators
 

@@ -8,7 +8,7 @@ exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 
 >[!IMPORTANT]
 >
->Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or the Data Collection UI.
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Data Collection.
 
 The `dynamicAccountSelection` variable is a boolean that determines if dynamic account selection is used.
 

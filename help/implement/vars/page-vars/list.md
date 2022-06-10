@@ -18,11 +18,15 @@ Make sure you record how you use each list variable and their logic in your [sol
 
 Make sure that you configure each list variable in report suite settings before using them in your implementation. See [Conversion variables](/help/admin/admin/conversion-var-admin/list-var-admin.md) in the Admin guide.
 
-## List variables using tags in Adobe Experience Platform
+## List variables using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
-## s.list1 - s.list3 in AppMeasurement and custom code editor
+## List variables using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.list1 - s.list3 in AppMeasurement and the Analytics extension custom code editor
 
 Each list variable is a string that contains custom values specific to your organization. They do not have a maximum byte count; however, each individual value has a maximum of 255 bytes. The delimiter that you use is determined when setting up the variable in report suite settings. Do not use spaces when delimiting multiple items.
 

@@ -16,12 +16,16 @@ Props are custom variables that you can use however you'd like. They do not pers
 
 If you have a [solution design document](/help/implement/prepare/solution-design.md), you can allocate these custom dimensions to values specific to your organization. The number of available props depends on your contract with Adobe. Up to 75 props are available if your contract with Adobe supports it.
 
-## Props using tags in Adobe Experience Platform
+## Props using the Web SDK
+
+Props are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+
+## Props using the Adobe Analytics extension
 
 You can set props either while configuring the Analytics extension (global variables) or under rules.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
@@ -29,7 +33,7 @@ You can set props either while configuring the Analytics extension (global varia
 
 You can set a prop to a value or a data element. You can also copy the value from another Analytics variable.
 
-## s.prop1 - s.prop75 in AppMeasurement and custom code editor
+## s.prop1 - s.prop75 in AppMeasurement and the Analytics extension custom code editor
 
 Each prop variable is a string that contains custom values specific to your organization. Their max length is 100 bytes; values longer than 100 bytes are automatically truncated when sent to Adobe.
 

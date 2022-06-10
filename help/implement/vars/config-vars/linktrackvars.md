@@ -10,15 +10,19 @@ Some implementations don't want to include all variables in all link tracking im
 
 This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
-## Variables in link tracking calls using tags in Adobe Experience Platform
+## Determine which variables to include in an XDM event using the Web SDK
 
-Adobe Experience Platform automatically populates this variable on the backend based on variables set in the interface, so it is always set in implementations using tags in Adobe Experience Platform.
+The Web SDK does not exclude certain fields for link tracking calls. However, you can use the `onBeforeEventSend` callback to clear or set desired fields before data is sent to Adobe. See [Modifying events globally](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in the Web SDK documentation for more information.
+
+## Variables in link tracking calls using the Adobe Analytics extension
+
+This variable is automatically populated on the backend based on variables set in the interface, so it is always set in implementations using the Adobe Analytics extension.
 
 >[!IMPORTANT]
 >
->If you set variables using the custom code editor, you must include the variable in `linkTrackVars` using custom code as well.
+>If you set variables using the custom code editor, you must include the variable(s) in `linkTrackVars` using custom code as well.
 
-## s.linkTrackVars in AppMeasurement and custom code editor
+## s.linkTrackVars in AppMeasurement and the Analytics extension custom code editor
 
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). Both of the following criteria must be met to include dimensions in link tracking hits:
 

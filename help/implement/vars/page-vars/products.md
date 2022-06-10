@@ -12,18 +12,29 @@ The `products` variable tracks products and properties tied to them. This variab
 >
 >If this variable is set in a hit without the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Make sure that you set the appropriate events on each hit with the `products` variable.
 
-## Products using tags in Adobe Experience Platform
+## Products using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to set this variable; however, multiple third-party extensions exist to help.
+Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several XDM fields:
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
+* Category is mapped to `productListItems[].name`.
+* Product is mapped to `productListItems[]._id`.
+* Quantity is mapped to `productListItems[].quantity`.
+* Price is mapped to `productListItems[].priceTotal`.
+* Merchandising eVars are mapped to `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, depending on which eVar you want to bind to a product.
+* Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product.
+
+## Products using the Adobe Analytics extension
+
+There is not a dedicated field in Adobe Experience Platform Data Collection to set this variable; however, multiple third-party extensions exist to help.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
 3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
 4. Search for the term "product", which reveals several extensions available to help set this variable.
 
 You can use one of these extensions, or you can use the custom code editor following AppMeasurement syntax below.
 
-## s.products in AppMeasurement and custom code editor
+## s.products in AppMeasurement and the Analytics extension custom code editor
 
 The `s.products` variable is a string that contains multiple delimited fields per product. Delimit each field with a semicolon (`;`) in the string.
 

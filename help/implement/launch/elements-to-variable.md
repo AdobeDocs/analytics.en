@@ -23,7 +23,7 @@ Publishing a tag library after following these steps allows you to use custom di
 
 Global variables are ideal in cases where you want to set variable values on all pages where your data element exists.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
 1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
 1. Click the [!UICONTROL Global variables] accordion, which reveals the interface to assign global variables.
@@ -32,7 +32,7 @@ Global variables are ideal in cases where you want to set variable values on all
 
 Variables set in rules are ideal in cases where you don't want variables set on every page. You define the criteria in the rule. See [Rules](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) in the Adobe Experience Platform tags documentation.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
 1. Click the [!UICONTROL Rules] tab, then click on the desired rule (or create one).
 1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].

@@ -9,6 +9,6 @@ Adobe Experience Platform Edge allows you to send data destined to multiple prod
 
 Adobe offers three main ways to send data to Experience Edge:
 
-* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Use the Web SDK extension in the Data Collection UI to send data to Edge.
-* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Use the Mobile SDK extension in the Data Collection UI to send data to Edge.
+* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Use the Web SDK extension in Adobe Experience Platform Data Collection to send data to Edge.
+* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Use the Mobile SDK extension in Adobe Experience Platform Data Collection to send data to Edge.
 * **[Edge Network Server API](edge-api/overview.md)**: Send data directly to Edge using an API.

@@ -10,13 +10,13 @@ Configuration variables control the way data is captured and processed in report
 
 ## Setting configuration variables
 
+In implementations using the Web SDK extension or Analytics extension, configuration variables are typically found in the extension's settings:
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under the extension.
+
 In JavaScript implementations using `AppMeasurement.js`, configuration variables are typically set at the top of the JS file.
-
-In implementations using Adobe Experience Platform tags, configuration variables are typically found by configuring the Adobe Analytics extension:
-
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the property that you want to edit.
-1. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
 >[!IMPORTANT]
 >

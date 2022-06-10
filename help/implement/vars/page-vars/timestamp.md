@@ -12,11 +12,11 @@ The `timestamp` variable manually sets the timestamp of the hit for timestamp-en
 >
 >Do not use this variable if your report suite is not explicitly configured to accept timestamped hits. AppMeasurement automatically sets the time of a hit for report suites that do not support timestamped hits. If you send a hit with this variable to a report suite that does not support timestamps, that data is permanently lost.
 
-## Timestamp using tags in Adobe Experience Platform
+## Timestamp using the Adobe Analytics extension
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.timestamp in AppMeasurement and custom code editor
+## s.timestamp in AppMeasurement and the Analytics extension custom code editor
 
 The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) and [Unix time](https://en.wikipedia.org/wiki/Unix_time).
 

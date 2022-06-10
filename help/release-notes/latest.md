@@ -10,7 +10,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 >
 >This page contains pre-release information and is subject to change.
 
-**Last update**: June 8, 2022
+**Last update**: June 10, 2022
 
 ## Related resources
 

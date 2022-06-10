@@ -14,11 +14,15 @@ The `forceOnline()` method lets you override the automatically detected state of
 
 AppMeasurement automatically detects the online state of the device. You can use the `forceOnline()` method to force AppMeasurement to treat hits as if the device was online. This method does not take any arguments, and does not return any value. Its only purpose is to override the online state in AppMeasurement.
 
-## Force Online using tags in Adobe Experience Platform
+## Force online using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+The Web SDK does not support offline tracking.
 
-## s.forceOnline() in AppMeasurement and custom code editor
+## Force online using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.forceOnline() in AppMeasurement and the Analytics extension custom code editor
 
 You can call the `s.forceOnline()` method anywhere in your implementation after you instantiate the Analytics object.
 

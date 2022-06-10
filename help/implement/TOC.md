@@ -134,7 +134,7 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
   + Edge API {#edge-api}
     + [Edge API overview](aep-edge/edge-api/overview.md)
-+ Implement Analytics using tags in Adobe Experience Platform {#launch}
++ Implement Analytics using the Adobe Analytics extension {#launch}
   + [Tags overview](launch/overview.md)
   + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)
   + [Deploy to a development environment](launch/deploy-dev.md)

@@ -12,12 +12,12 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 
 The `getVisitNum` plug-in returns the visit number for all visitors that come to the site within the desired number of days. Analysis Workspace offers a 'Visit Number' dimension that provides similar functionality. Adobe recommends using this plug-in if you want more control over how visit number is incremented. This plug-in is unnecessary if the built-in 'Visit Number' dimension in Analysis Workspace is sufficient for your reporting needs.
 
-## Install the plug-in using tags in Adobe Experience Platform
+## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -32,9 +32,9 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.

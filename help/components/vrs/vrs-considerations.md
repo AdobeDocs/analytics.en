@@ -94,7 +94,7 @@ If you opt to remove secondary server calls in favor of virtual report suites:
    * As a best practice, consider using [segment stacking](/help/components/segmentation/segmentation-workflow/seg-build.md) so you can edit a segment in one location and have it apply to all dependent virtual report suites.
    * Use hit containers if you want to keep virtual report suites more mutually exclusive.
 2. After you have confirmed that the virtual report suites are set up correctly, remove the secondary report suite ID's from your implementation. To remove secondary report suites:
-   * In the Data Collection UI in Adobe Experience Platform, click the 'x' next to any report suites that you don't want to use anymore.
+   * In the Adobe Analytics extension within Adobe Experience Platform Data Collection, click the 'x' next to any report suites that you don't want to use anymore.
    * In legacy JavaScript implementations, locate the `s.account` variable and remove any report suite ID's that you don't want to use anymore.
    * In all cases, leave only the global/parent report suite ID to collect data for your sites and apps.
    * Navigate to Admin > Report Suites and hide any secondary report suites no longer used.

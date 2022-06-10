@@ -6,7 +6,7 @@ exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 ---
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. If the link URL contains a filetype found in `linkDownloadFileTypes`, a download link image request is automatically sent.
+When [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) or [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. If the link URL contains a matching filetype, a download link image request is automatically sent.
 
 Use `linkDownloadFileTypes` to customize what file extensions you want to count as download links.
 
@@ -19,22 +19,41 @@ Use `linkDownloadFileTypes` to customize what file extensions you want to count 
 >* Right-clicking and selecting 'Save Target As...'
 >* Links that use JavaScript, such as `javascript:openLink()`
 >
->For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+>For these download types, you can manually send a [`link tracking`](../functions/tl-method.md) call.
 
 If a clicked link matches both exit link and download link criteria, the download link type takes priority.
 
-## Download Extensions using tags in Adobe Experience Platform
+## Download link qualifier using the Web SDK extension
+
+The [!UICONTROL Download link qualifier] text field uses regex to determine if a clicked link qualifies to be a download link.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under [!UICONTROL Adobe Experience Platform Web SDK].
+1. Under [!UICONTROL Data Collection], set the desired value in the **[!UICONTROL Download link qualifier]** text field.
+
+## Download link qualifier manually implementing the Web SDK
+
+[Configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) the SDK using [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). The field uses regex on the clicked URL to determine if it is a valid download link. If `downloadLinkQualifier` is not defined, the default value is set to `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+
+```json
+alloy("configure", {
+  "downloadLinkQualifier": "\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$"
+});
+```
+
+## Download Extensions using the Adobe Analytics extension
 
 Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Download Extensions] field.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
+3. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
+4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the **[!UICONTROL Download Extensions]** field.
 
-Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. Remove file extensions from the list by clicking their respective 'X' icon.
+Add file extensions to the list by entering text in the field and clicking **[!UICONTROL Add]**. Remove file extensions from the list by clicking their respective **'X'** icon.
 
-## s.linkDownloadFileTypes in AppMeasurement and custom code editor
+## s.linkDownloadFileTypes in AppMeasurement and the Analytics extension custom code editor
 
 The `s.linkDownloadFileTypes` variable is a string of comma-separated file extensions. Do not use spaces.
 

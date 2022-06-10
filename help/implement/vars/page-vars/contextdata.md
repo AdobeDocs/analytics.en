@@ -10,11 +10,17 @@ Context data variables let you define custom variables on each page that process
 
 Context data variables are helpful for development teams to collect data in named elements instead of numbered variables. For example, instead of requesting development teams assign the page's author to `eVar10`, you can request they assign it to `s.contextData["author"]` instead. An Analytics administrator in your organization can then create processing rules to map context data variables into analytics variables for reporting. Development teams would ultimately only worry about context data variables instead of the many page variables Adobe offers.
 
-## Context data variables using tags in Adobe Experience Platform
+## Context data variables using the Web SDK
 
-The Data Collection UI does not have a dedicated location to set context data variables. Use the custom code editor, following AppMeasurement syntax.
+If an XDM field is not [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), it is automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) to assign the context data variable to the desired Analytics variable.
 
-## s.contextData in AppMeasurement and custom code editor
+While it is a best practice to map data to the correct XDM fields in the Datastream, this method achieves similar results.
+
+## Context data variables using the Adobe Analytics extension
+
+Adobe Experience Platform Data Collection does not have a dedicated location to set context data variables. Use the custom code editor, following AppMeasurement syntax.
+
+## s.contextData in AppMeasurement and the Analytics extension custom code editor
 
 The `s.contextData` variable does not directly take a value. Instead, set properties of this variable to a string.
 

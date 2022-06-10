@@ -26,7 +26,7 @@ Implementing Adobe Analytics using a data layer typically follows these steps:
    >
    >Following Adobe's recommended data layer specifications is optional. If you already have a data layer, or otherwise choose not to follow Adobe's specifications, make sure that your organization aligns on what specification to follow.
 1. **Validate your data layer using a browser console**: Once a data layer is created, you can validate that it is working using any browser's developer console. You can open the developer console in most browsers using the `F12` key. An example variable value would be `digitalData.page.pageInfo.pageID`.
-1. **Use Adobe Experience Platform tags to map data layer objects to data elements**: Create data elements in the Data Collection UI in Adobe Experience Platform, and map them to the JavaScript attributes outlined in your data layer.
+1. **Use Adobe Experience Platform Data Collection to map data layer objects to data elements**: Create data elements in Adobe Experience Platform Data Collection, and map them to the JavaScript attributes outlined in your data layer.
 1. **Use the Adobe Analytics tag extension to map data elements to Analytics variables**: Following your solution design document, assign each data element to the appropriate Analytics variable.
 
 ## Specifications

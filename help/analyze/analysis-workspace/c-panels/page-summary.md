@@ -47,7 +47,7 @@ The [!UICONTROL Page summary] panel returns a rich set of metrics data and visua
 | [!UICONTROL Reloads] | The [!UICONTROL Reloads] metric shows the number of times a dimension item was present during a reload. A visitor refreshing their browser is the most common way to trigger a reload. |
 | [!UICONTROL Entries] | The [!UICONTROL Entries] metric shows the number of times a given dimension item is captured as the first value in a visit. |
 | [!UICONTROL Exits] | The [!UICONTROL Exits] metric shows the number of times a given dimension item is captured as the last value in a visit.  |
-| [!UICONTROL Flow] | A Flow diagram with the selected page as the focal point. You can drill further into the data just like in any [Flow diagram](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Flow] | A Flow diagram with the selected page as the focal point. You can drill further into the data just like in any [Flow diagram](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style="table-layout:auto"}
 

@@ -31,6 +31,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on which XDM fields map to existing mobile Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | May 27, 2022 |
 | New classifications experience - Phase 1 | This phased release of a new classification set user experience significantly improves visibility into customer-owned classification data. GA is estimated at early 2023. | Limited testing starts June 15, 2022 |
 
+
 {style="table-layout:auto"}
 
 ### Fixes in Adobe Analytics
@@ -49,6 +50,7 @@ AN-251686; AN-283542; AN-286572; AN-286945; AN-286784; AN-286944; AN-287012; AN-
 | **2022 ISO region updates** | March 11, 2021 | Adobe performed 2022 ISO region updates on **June 10, 2022**. Expect to see minor geo information updates following this release. |
 
 | **EOL for [!DNL Reports & Analytics]** | January 4, 2022 | Effective **December 31, 2023**, Adobe intends to discontinue [!DNL Reports & Analytics] and its accompanying reports and features. The reports, visualizations, and underlying technology that power [!DNL Reports & Analytics] no longer meet Adobe’s technology standards. Most [!DNL Reports & Analytics] features are available in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Since the release of Analysis Workspace in 2015, [!DNL Reports & Analytics] functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. [This notice](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explains the end-of-life process. |
+
 
 {style="table-layout:auto"}
 

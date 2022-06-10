@@ -1,13 +1,9 @@
 ---
 description: The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.
-seo-description: The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.
-seo-title: Billing
-solution: Analytics
 title: Billing
-topic: Admin tools
-uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
+feature: Admin Tools
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 ---
-
 # Billing
 
 The Billing page lets you access billing information, including traffic details for each report suite. Only an authorized administrator has access to this page.
@@ -18,8 +14,8 @@ The Billing page lets you access billing information, including traffic details 
 
 The traffic overview data from the billing page lets you correlate page view data in reports with billable server calls on your invoice. The [!UICONTROL Billing] page lets you do the following:
 
-* Audit your invoice. 
-* Break down costs by report suite for internal accounting allocations. 
+* Audit your invoice.
+* Break down costs by report suite for internal accounting allocations.
 * View the distribution of primary and secondary server calls.
 
 The [!UICONTROL Billing] page organizes information by month.
@@ -48,4 +44,4 @@ The resulting [!UICONTROL Monthly Invoice] report includes the following informa
 
 In the reporting user interface, the data presented is always attached to the **Reporting Date**, which is the timestamp that is attached to the event.
 
-Usage/Billing, on the other hand, always uses the **Processing Date**, or when the data was actually processed in the system. Due to basic latency, data imports, or event time zone differences (everything is processed in Pacific Time) the Reporting Date and Processing Date do not typically match up completely. 
+Usage/Billing, on the other hand, always uses the **Processing Date**, or when the data was actually processed in the system. Due to basic latency, data imports, or event time zone differences (everything is processed in Pacific Time) the Reporting Date and Processing Date do not typically match up completely.

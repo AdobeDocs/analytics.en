@@ -1,16 +1,20 @@
 ---
 description: Describes how to run the Marketing Channel report, grant limited admin user rights, and user group permissions to report.
-seo-description: Describes how to run the Marketing Channel report, grant limited admin user rights, and user group permissions to report.
-seo-title: Report Access
-solution: Analytics
-subtopic: Marketing channels
-title: Report Access
-topic: Reports and analytics
-uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
+title: Marketing Channel permissions
+feature: Marketing Channels
+exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 ---
+# Marketing Channel permissions
 
-# Report Access
+Here are the Report Suite Tools permissions needed in the [Admin Console](https://adminconsole.adobe.com/) to be able to work with various aspects of Marketing Channels.
 
-Describes how to run the Marketing Channel report, grant limited admin user rights, and user group permissions to report.
+|Permission type|Permission name|Description|
+|---|---|---|
+|Report Suite Tools|Channels|Grants access to Marketing Channels, including Marketing Channel Manager, Marketing Channel Processing Rules, and Marketing Channel Expiration in the Report Suite Manager.|
+|Report Suite Tools|Costs|Grants access to Marketing Channels > Marketing Channel Costs in the Report Suite Manager.|
+|Report Suite Tools|Channel Report|Grants access to the Marketing Channels > Channel Overview Report in Reports & Analytics.|
+|Report Suite Tools|Classifications|Grants access to all classification settings in the Report Suite Manager, including Marketing Channels > Marketing Channel Classifications.|
+|Analytics Tools|Analysis Workspace Access|Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports &and  Analytics Access to use the Marketing Channels dimensions in Workspace.|
+|Analytics Tools|Reports and Analytics Access|Grants access to Reports and Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics.|
 
-To view the Marketing Channel report, grant the user group appropriate permissions. Adobe's Experience Cloud's permission system is group-based, meaning that a user’s group determines access to reports. 
+For more information on product profiles and Adobe Analytics permissions in Admin Console, go [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).

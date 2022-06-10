@@ -1,32 +1,30 @@
 ---
-description: null
-seo-description: null
-seo-title: GDPR Labels for Analytics Variables
-title: GDPR Labels for Analytics Variables
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+description: Examples of Data Privacy Labels for Adobe Analytics Variables
+title: Data Privacy Labels for Analytics Variables
+feature: Data Governance
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
+# Data Privacy Labels for Analytics Variables
 
-# GDPR Labels for Analytics Variables
+## Why Label Your Data? {#why-label}
 
-## Why Label Your Data? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
-
-Many Adobe customers have legal teams that have reviewed the GDPR law and that have drawn their own conclusions about how data should be handled in order to conform with GDPR. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for GDPR data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for GDPR data processing for their unique data. This allows each unique customer to process GDPR requests in the way that makes most sense for their brand and their unique data set.
+Many Adobe customers have legal teams that have reviewed the Data Privacy laws (GDPR, CCPA, etc.). These teams may have drawn their own conclusions about how data should be handled in order to conform with Data Privacy laws. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for Data Privacy data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for Data Privacy data processing for their unique data. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
 Adobe Analytics provides tools for labeling data according to its sensitivity and contractual restrictions. Labels are important and useful for helping: (1) identify data subjects, (2) determine which data to return as part of an access request, and (3) identify data fields that must be deleted as part of a deletion request.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](../../admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for GDPR requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
-The Adobe Analytics GDPR implementation supports the following labels for identity data, sensitive data, and data governance.
+The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 
-## DULE Labels {#section_B2E78130957647338495EF37DE21D6BC}
+## DULE Labels {#dule-labels}
 
 >[!NOTE]
 >
->The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to GDPR. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
+>The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to Data Privacy. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
 
-## Identity Data Labels (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## Identity Data Labels (DULE) {#identity-data-labels}
 
-Identity data "I" labels are used to categorize data that can identify or contact a specific person. 
+Identity data "I" labels are used to categorize data that can identify or contact a specific person.
 
 <table id="table_6B5368D714424E52835D5DFE189BD080"> 
  <thead> 
@@ -58,9 +56,9 @@ Identity data "I" labels are used to categorize data that can identify or contac
  </tbody> 
 </table>
 
-## Sensitive Data Labels (DULE) {#section_533E1406F3F24A01B51D94139B94CAEC}
+## Sensitive Data Labels (DULE) {#sensitive-data-labels}
 
-Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information. 
+Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information.
 
 <table id="table_A778A508620545CCB37830E5CF1C75B7"> 
  <thead> 
@@ -81,11 +79,11 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
  </tbody> 
 </table>
 
-## Data Governance Labels (GDPR) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Data Governance Labels (Data Privacy) {#data-governance-labels}
 
 Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to be compliant with regulations and corporate policies.
 
-**GDPR Access Labels** 
+### Data Privacy Access Labels
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -98,17 +96,17 @@ Data Governance labels provide users the ability to classify data that reflects 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>None </p> </td> 
-   <td colname="col2"> <p>Select this option if this variable does not contain data that must be included in data returned to the data subject as part of a GDPR access request. </p> </td> 
+   <td colname="col2"> <p>Select this option if this variable does not contain data that must be included in data returned to the data subject as part of a Data Privacy access request. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Values in this field should be included in <u>all</u> GDPR access requests. </p> <p>If this hit came from a device shared by multiple individuals, by applying this label, you, as the data controller, are indicating that it is acceptable to share the data in this field with any individual who had access to the shared device. </p> </td> 
-   <td colname="col3"> <p>Fields with this label will be returned for all GDPR requests. </p> </td> 
+   <td colname="col2"> <p>Values in this field should be included in <u>all</u> Data Privacy access requests. </p> <p>If this hit came from a device shared by multiple individuals, by applying this label, you, as the data controller, are indicating that it is acceptable to share the data in this field with any individual who had access to the shared device. </p> </td> 
+   <td colname="col3"> <p>Fields with this label will be returned for all Data Privacy requests. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Values in this field should be included only for GDPR access requests when we are reasonably certain that the hit was from the data subject, as determined by a GDPR request ID matching an ID-PERSON field’s value. </p> </td> 
+   <td colname="col2"> <p> Values in this field should be included only for Data Privacy access requests when we are reasonably certain that the hit was from the data subject, as determined by a Data Privacy request ID matching an ID-PERSON field's value. </p> </td> 
    <td colname="col3"> <p>You must also have an ID-PERSON label set on some variable within this report suite, and submit requests using that ID, or this label will never apply. </p> </td> 
   </tr> 
  </tbody> 
@@ -116,7 +114,7 @@ Data Governance labels provide users the ability to classify data that reflects 
 
 While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with data subjects.
 
-**GDPR Delete Labels** 
+### Data Privacy Delete Labels
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -134,7 +132,7 @@ While few variables will receive any of the other labels, it is expected that ac
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>For GDPR delete requests, values in this field should be anonymized only for requests where a specified ID-DEVICE is present in the hit. </p> <p>If the same value occurs on other hits, which are not being deleted, then those other instances will not be changed. This will result in the counts changing for reports which compute unique counts on this field. On shared devices, this may remove identifiers for other individuals, beyond just the data subject. </p> <p>Counts do not change if this field also has an ID-DEVICE label and the value in this field was used as an ID for the GDPR request. </p> </td> 
+   <td colname="col2"> <p>For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-DEVICE is present in the hit. </p> <p>If the same value occurs on other hits, which are not being deleted, then those other instances will not be changed. This will result in the counts changing for reports which compute unique counts on this field. On shared devices, this may remove identifiers for other individuals, beyond just the data subject. </p> <p>Counts do not change if this field also has an ID-DEVICE label and the value in this field was used as an ID for the Data Privacy request. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
      <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Also requires I1 or I2 or S1 label </li> 
@@ -146,7 +144,7 @@ While few variables will receive any of the other labels, it is expected that ac
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>For GDPR delete requests, values in this field should be anonymized only for requests where a specified ID-PERSON is present in the hit. </p> <p>If the same value occurs on other hits, which are not being deleted, then those other values will not be changed. This will result in the counts changing for reports which compute unique counts on this field. Counts will not change if this field also has an ID-PERSON label and the value in this field was used as an ID for the GDPR request. </p> </td> 
+   <td colname="col2"> <p>For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-PERSON is present in the hit. </p> <p>If the same value occurs on other hits, which are not being deleted, then those other values will not be changed. This will result in the counts changing for reports which compute unique counts on this field. Counts will not change if this field also has an ID-PERSON label and the value in this field was used as an ID for the Data Privacy request. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
      <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Also requires I1 or I2 or S1 label </li> 
@@ -159,7 +157,7 @@ While few variables will receive any of the other labels, it is expected that ac
  </tbody> 
 </table>
 
-**GDPR Identity Labels** 
+### Data Privacy Identity Labels
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -172,12 +170,12 @@ While few variables will receive any of the other labels, it is expected that ac
  <tbody> 
   <tr> 
    <td colname="col1"> <p>None </p> </td> 
-   <td colname="col2"> <p>This variable does not contain an ID that will be used for GDPR requests. </p> </td> 
-   <td colname="col3"> <p>You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the GDPR API or UI. </p> </td> 
+   <td colname="col2"> <p>This variable does not contain an ID that will be used for Data Privacy requests. </p> </td> 
+   <td colname="col3"> <p>You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) or UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>This field contains an ID that can be used to identify a device for a GDPR request , but cannot distinguish between different users of a shared device. </p> <p>You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit GDPR requests using IDs stored in this variable and want to search this variable for the specified ID. </p> </td> 
+   <td colname="col2"> <p>This field contains an ID that can be used to identify a device for a Data Privacy request , but cannot distinguish between different users of a shared device. </p> <p>You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
      <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">Also requires I1 or I2 label </li> 
@@ -188,7 +186,7 @@ While few variables will receive any of the other labels, it is expected that ac
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>This field contains an ID that can be used to identify an authenticated user (a specific person) for a GDPR request. </p> <p>You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will submit GDPR requests using IDs stored in this variable and want to search this variable for the specified ID. </p> </td> 
+   <td colname="col2"> <p>This field contains an ID that can be used to identify an authenticated user (a specific person) for a Data Privacy request. </p> <p>You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
      <li id="li_2E781AE8D7A046A7996C7300CA854B86">Also requires I1 or I2 label </li> 
@@ -200,20 +198,26 @@ While few variables will receive any of the other labels, it is expected that ac
  </tbody> 
 </table>
 
+| Label | Definition | Other Requirements |
+| --- | --- | --- |
+| None | This variable does not contain an ID that will be used for Data Privacy requests.|You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) or UI.|
+| ID-DEVICE | This field contains an ID that can be used to identify a device for a Data Privacy request , but cannot distinguish between different users of a shared device.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID.|Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
+| ID-PERSON | This field contains an ID that can be used to identify an authenticated user (a specific person) for a Data Privacy request.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. | Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
+
 ## Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide a namespace. You can either use a previously defined namespace or define a new one.
 
-**Use a Previously Defined Namespace**
+### Use a Previously Defined Namespace
 
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
-1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces. 
+1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces.
 1. Click **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
-**Define a New Namespace**
+### Define a New Namespace
 
 You can also define a new namespace. We recommend that namespace strings be limited to alphanumeric characters, plus the characters underscore, dash and space. They will be converted to all lower case.
 
@@ -221,12 +225,12 @@ You can also define a new namespace. We recommend that namespace strings be limi
 
    ![](assets/namespace2.png)
 
-1. Press **[!UICONTROL Enter]** to add this namespace. Only now will the Apply button be activated. 
+1. Press **[!UICONTROL Enter]** to add this namespace. Only now will the Apply button be activated.
 1. Click **[!UICONTROL Apply]**.
 
-The string you specify as the namespace is the same string you should use when submitting requests through the GDPR API as the value of the “namespace” parameter. The request will then cause Adobe Analytics to search all variables in all of your report suites that share this namespace for the ID you specified with the request.
+The string you specify as the namespace is the same string you should use when submitting requests through the Data Privacy API as the value of the "namespace" parameter. The request will then cause Adobe Analytics to search all variables in all of your report suites that share this namespace for the ID you specified with the request.
 
-You do not need to specify the ID-DEVICE or ID-PERSON labels on all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will be submitting GDPR requests using IDs stored in this variable and want to search this variable for the specified ID. As an example, if eVar1 can contain an email address, and eVar2 can contain a login user name, but you will only ever submit requests using the user name, then you might label eVar1 as I1, ACC-PERSON, DEL-PERSON, but eVar2 as I2, ACC-PERSON, DEL-PERSON, ID-PERSON with namespace “user name”. You can then submit a request with a user section JSON block such as:
+You do not need to specify the ID-DEVICE or ID-PERSON labels on all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will be submitting Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. As an example, if eVar1 can contain an email address, and eVar2 can contain a login user name, but you will only ever submit requests using the user name, then you might label eVar1 as I1, ACC-PERSON, DEL-PERSON, but eVar2 as I2, ACC-PERSON, DEL-PERSON, ID-PERSON with namespace "user name". You can then submit a request with a user section JSON block such as:
 
 ```
 {
@@ -237,13 +241,17 @@ You do not need to specify the ID-DEVICE or ID-PERSON labels on all variables th
 
 ```
 
-It is acceptable to use the same namespace for different variables within the same report suite. For example, some custom implementations store a CRM-ID in both a prop and an eVar. If the CRM-ID always occurs in one of them (such as the eVar), and only occasionally occurs in the other (the prop), and never in the prop when not also in the eVar, then only the eVar requires an ID label and a namespace, as Adobe can search only in that eVar for the ID. If, however, the CRM-ID sometimes occurs in one variable and sometimes in the other, then both should have the same namespace and Adobe will search both variables for occurrences of the ID specified as part of a GDPR request with this namespace. You should still have DEL labels on all of these variables, so that the value is anonymized no matter where it occurs.
+It is acceptable to use the same namespace for different variables within the same report suite. For example, some custom implementations store a CRM-ID in both a prop and an eVar. If the CRM-ID always occurs in one of them (such as the eVar), and only occasionally occurs in the other (the prop), and never in the prop when not also in the eVar, then only the eVar requires an ID label and a namespace, as Adobe can search only in that eVar for the ID. If, however, the CRM-ID sometimes occurs in one variable and sometimes in the other, then both should have the same namespace and Adobe will search both variables for occurrences of the ID specified as part of a Data Privacy request with this namespace. You should still have DEL labels on all of these variables, so that the value is anonymized no matter where it occurs.
 
 As another example, you might have a CRM ID that is sometimes sent in via eVar1 and sometimes sent in via prop7. You then have a processing rule that copies the value from eVar1, if it exists, into eVar3. Otherwise it copies the value from prop7 into eVar3. In this scenario, eVar3 will always contain the CRM ID if it is known, so only eVar3 requires an ID-PERSON label.
 
-## Variable Types and the GDPR/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
+>[!CAUTION]
+>
+>The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-GDPR/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels. 
+## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
+
+Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
 
 <table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
  <thead> 
@@ -324,13 +332,13 @@ GDPR/DULE labeling affects four broad classes of Analytics variables. Not all va
    <td colname="col1"> <p>Solution Dimensions and Events </p> </td> 
    <td colname="col2"> <p>Activity Map Link, </p> <p>Activity Map Page </p> </td> 
    <td colname="col3"> <p>None / I1 / I2 </p> <p>None / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don’t need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
+   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don't need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Processing Dimensions </p> </td> 
    <td colname="col2"> <p>Custom Visitor ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>You cannot remove the ID or DEL labels (set to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you don’t use the custom visitor ID, then the setting does not matter. </p> </td> 
+   <td colname="col4"> <p>You cannot remove the ID or DEL labels (set to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you don't use the custom visitor ID, then the setting does not matter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -345,16 +353,16 @@ GDPR/DULE labeling affects four broad classes of Analytics variables. Not all va
   <tr> 
    <td colname="col2"> <p>ClickMap Action (Legacy), </p> <p>ClickMap Context (Legacy), </p> <p>Page, </p> <p>Page URL, </p> <p>Original Entry Page URL, </p> <p>Referrer, </p> <p>Visit Start Page URL </p> </td> 
    <td colname="col3"> <p>None / I1 / I2 </p> <p>None / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don’t need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
+   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don't need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Deletion Handling {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
-Adobe Analytics support for GDPR deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before GDPR deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
+Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
 
-The following table describes how various variables are “deleted”. This is not a complete list. 
+The following table describes how various variables are "deleted". This is not a complete list.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -366,11 +374,11 @@ The following table describes how various variables are “deleted”. This is n
  <tbody> 
   <tr> 
    <td colname="col1"> <p>• Traffic Variables (props) </p> <p>• Commerce Variables (eVars) </p> </td> 
-   <td colname="col2"> <p>Existing value is replaced with a new value of the form “GDPR-356396D55C4F9C7AB3FBB2F2FA223482” where the 32-digit hexadecimal value after the “GDPR-“ prefix is a cryptographically strong 128-bit pseudorandom number. Because it is essentially being replaced by a random string, there is no way to determine the original value from this new value, and no way to derive the new value knowing the original value. </p> <p>For a given variable, if the identical value as that being replaced occurs within other hits that are also being deleted as part of the same GDPR request, all instances of that value will be replaced with the same new value. </p> <p>If some instances of a value are replaced with one delete request, and a later request deletes other (new) instances of the original value, the new replacement value will be different than the original replacement value. </p> </td> 
+   <td colname="col2"> <p>Existing value is replaced with a new value of the form "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482" where the 32-digit hexadecimal value after the "Data Privacy-" prefix is a cryptographically strong 128-bit pseudorandom number. Because it is essentially being replaced by a random string, there is no way to determine the original value from this new value, and no way to derive the new value knowing the original value. </p> <p>For a given variable, if the identical value as that being replaced occurs within other hits that are also being deleted as part of the same Data Privacy request, all instances of that value will be replaced with the same new value. </p> <p>If some instances of a value are replaced with one delete request, and a later request deletes other (new) instances of the original value, the new replacement value will be different than the original replacement value. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Purchase ID </p> </td> 
-   <td colname="col2"> <p>Existing value is replaced by a new value of the form “G-7588FCD8642718EC50” where the 18 hexadecimal digits after the “G-“ prefix are the first 18 digits of a cryptographically strong 128-bit pseudorandom number. All comments that apply to deletion of traffic and commerce variables apply here as well. </p> <p>The Purchase ID is a transaction ID whose main purpose is to make sure that a purchase is not credited twice, such as when someone refreshes their purchase confirmation page. The ID itself may tie the purchase to a row in your own DB where the purchase is recorded. In most cases it is not necessary to delete this ID, so it is not deleted by default. If you are still able to tie the purchase back to a user after the GDPR delete request of your own data, then you may need to delete this field, so that the Analytics data for this visitor cannot be tied back to the purchaser. </p> </td> 
+   <td colname="col2"> <p>Existing value is replaced by a new value of the form "G-7588FCD8642718EC50" where the 18 hexadecimal digits after the "G-" prefix are the first 18 digits of a cryptographically strong 128-bit pseudorandom number. All comments that apply to deletion of traffic and commerce variables apply here as well. </p> <p>The Purchase ID is a transaction ID whose main purpose is to make sure that a purchase is not credited twice, such as when someone refreshes their purchase confirmation page. The ID itself may tie the purchase to a row in your own DB where the purchase is recorded. In most cases it is not necessary to delete this ID, so it is not deleted by default. If you are still able to tie the purchase back to a user after the Data Privacy delete request of your own data, then you may need to delete this field, so that the Analytics data for this visitor cannot be tied back to the purchaser. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> </td> 
@@ -378,7 +386,7 @@ The following table describes how various variables are “deleted”. This is n
   </tr> 
   <tr> 
    <td colname="col1"> <p>• MCID </p> <p>• Custom Visitor ID </p> <p>• IP Address </p> <p>• IP Address 2 </p> </td> 
-   <td colname="col2"> <p>Value is cleared (set to either the empty string or 0 depending on the variable’s type). </p> </td> 
+   <td colname="col2"> <p>Value is cleared (set to either the empty string or 0 depending on the variable's type). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• ClickMap Action (Legacy) </p> <p>• ClickMap Context (Legacy) </p> <p>• Page </p> <p>• Page URL </p> <p>• Original Entry Page URL </p> <p>• Referrer </p> <p>• Visit Start Page URL </p> </td> 
@@ -391,9 +399,9 @@ The following table describes how various variables are “deleted”. This is n
  </tbody> 
 </table>
 
-## Variables that Don’t Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables that Don't Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
-This section intends to clarify information about Analytics variables that don’t support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don’t require deletion, or why they don’t require a specific deletion label. 
+This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label.
 
 <table id="table_6FECF3D654514862912D371E6BE4143B"> 
  <thead> 
@@ -429,7 +437,7 @@ This section intends to clarify information about Analytics variables that don�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> These have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. </p> </td> 
+   <td colname="col2"> <p> These have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
@@ -473,6 +481,6 @@ There are five standard variables that contain timestamps:
  </tbody> 
 </table>
 
-The code for generating the files returned for GDPR access requests requires that at least one of the first three timestamp variables be included in the access request (have an ACC label that applies to the type of request). If none of these are included, then Custom Hit Time UTC will be treated as if it has an ACC-ALL label.
+The code for generating the files returned for Data Privacy access requests requires that at least one of the first three timestamp variables be included in the access request (have an ACC label that applies to the type of request). If none of these are included, then Custom Hit Time UTC will be treated as if it has an ACC-ALL label.
 
-The hit-level CSV file returned for GDPR access requests will convert the values in these fields from unix timestamps to date/time fields of the format YYYY-MM-DD HH:MM:SS (for example, 2018-05-01 13:49:22). In the summary HTML file, these timestamp values will be truncated to only include the date, YYYY-MM-DD, to reduce the number of unique values that occur for these fields. 
+The hit-level CSV file returned for Data Privacy access requests will convert the values in these fields from unix timestamps to date/time fields of the format YYYY-MM-DD HH:MM:SS (for example, 2018-05-01 13:49:22). In the summary HTML file, these timestamp values will be truncated to only include the date, YYYY-MM-DD, to reduce the number of unique values that occur for these fields.

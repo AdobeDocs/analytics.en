@@ -1,14 +1,11 @@
 ---
 description: Processing rules can trigger events based on Context Data variables.
-seo-description: Processing rules can trigger events based on Context Data variables.
-seo-title: Set an event using a context data variable
-solution: Analytics
 subtopic: Processing rules
 title: Set an event using a context data variable
-topic: Admin tools
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
+exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 ---
-
 # Set an event using a context data variable
 
 Processing rules can trigger events based on Context Data variables.
@@ -23,7 +20,7 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 
 ![](assets/add-context-variable.png)
 
-The following rule definition expands on the [Copy a Context Data Variable to an eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) rule to also set an event on every hit that contains a specific context data variable: 
+The following rule definition expands on the [Copy a Context Data Variable to an eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) rule to also set an event on every hit that contains a specific context data variable: 
 
 |  Rule Set  | Value  |
 |---|---|
@@ -34,4 +31,4 @@ For example:
 
 ![](assets/processing_rule_set_event.png)
 
-See [Context Data Variables](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) in Implementation Help. 
+See [Context Data Variables](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) in Implementation Help.

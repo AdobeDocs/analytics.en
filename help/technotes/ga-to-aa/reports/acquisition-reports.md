@@ -1,17 +1,18 @@
 ---
 title: Acquisition reports in Adobe Analytics
 description: Learn how to create acquisition-based reports using Analysis Workspace.
+feature: Third-party Integration
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 ---
-
 # Acquisition reports
 
 Acquisition reports show how you obtain visitors to your site.
 
 In Adobe Analytics, these reports are known as **Marketing Channels**. They require some basic initial setup, but allow a much more customized view of channels.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Set up your Marketing Channel processing rules to use these reports. See [Getting Started with Marketing Channels](../../../components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
+> Set up your Marketing Channel processing rules to use these reports. See [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
 
 This page assumes the user has a basic knowledge of using Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
 
@@ -49,9 +50,9 @@ Source and medium reports show the domains that drove traffic to your site.
 
 See the following pages in the Components user guide for more information on their respective dimension:
 
-* [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Referrer Type](../../../components/c-variables/dimensionslist/reports-ref-types.md)
-* [Search Keyword](../../../components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Referring Domain](/help/components/dimensions/referring-domain.md)
+* [Referrer Type](/help/components/dimensions/referrer-type.md)
+* [Search Keyword](/help/components/dimensions/search-keyword.md)
 
 ## All Traffic - Referrals
 
@@ -61,19 +62,19 @@ See the following pages in the Components user guide for more information on the
 1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+See the [Referring Domain](/help/components/dimensions/referring-domain.md) dimension in the Components user guide for more information.
 
 ## Google Ads reports and Search Console reports
 
 Adobe uses a feature in Analysis Workspace called Advertising Analytics to bring in advertising and search data from multiple platforms, including Google.
 
-The advertising analytics feature requires configuration to return data. See [Advertising Analytics Help](../../../integrate/c-advertising-analytics/overview.md) for details on how to enable these additional dimensions in Analysis Workspace.
+The advertising analytics feature requires configuration to return data. See [Advertising Analytics Help](/help/integrate/c-advertising-analytics/overview.md) for details on how to enable these additional dimensions in Analysis Workspace.
 
 ## Social reports
 
 Social reports provide similar information as their respective Behavior report, except in the context of social networks. This data is available in Analysis Workspace by combining a dimension with a segment.
 
-Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](../../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+Sometimes visitors reach your site through multiple channels in the same session. For example, a visitor clicks a social media page, then a few minutes later visits a search engine to reach your site. In these cases, non-social domains can appear in this report. If you would like to exclude non-social domains, sort the report by visits, or create a copy of the segment to be based on hits instead of visits. See [Segmentation Containers](/help/components/segmentation/seg-overview.md) in the Components user guide for more information.
 
 ### Social - Network Referrals
 
@@ -97,7 +98,7 @@ The Conversions report shows ecommerce data in context of social networks. Addit
 
 ### Social - Plugins
 
-The Plugins report shows how visitors interact with embedded social media plugins on your site. Additional implementation is required for use in Analysis Workspace. Adobe recommends working with an implementation consultant to ensure this data is accurately collected.
+The Plugins report shows how visitors interact with embedded social media plug-ins on your site. Additional implementation is required for use in Analysis Workspace. Adobe recommends working with an implementation consultant to ensure this data is accurately collected.
 
 ### Social - Users Flow
 
@@ -105,7 +106,7 @@ The Users flow report shows pathing data in context of visitors arriving through
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
 2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 5. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
@@ -120,7 +121,7 @@ It is possible to collect UTM parameters in Adobe Analytics using custom variabl
 
 ## Campaigns - Paid Keywords
 
-The paid keywords report shows how each keyword performs after a visitor clicks a paid search link from a search engine. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
+The paid keywords report shows how each keyword performs after a visitor clicks a paid search link from a search engine. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
 1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.

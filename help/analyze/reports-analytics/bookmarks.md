@@ -1,14 +1,12 @@
 ---
 description: Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
-seo-description: Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
-seo-title: Bookmark Manager
-solution: Analytics
 subtopic: Bookmarks
 title: Bookmark Manager
-topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 8b923484-0988-4271-8186-317bb33f2210
 ---
-
 # Bookmark Manager
 
 Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
@@ -25,11 +23,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|A user friendly name for this bookmark.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+   |Name|A user friendly name for this bookmark.|
+   |---|---|
+   |Add to|Specifies the folder in which you want to place the bookmark.|
+   |Make Public| Makes this bookmark available for users with access to the report suite.|
+   |Display report upon login| Displays the report when you log in.|
 
 ## Manage bookmarks {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -41,7 +39,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Bookmarks]**.
 
 **My Bookmarks** 
 
@@ -112,4 +110,3 @@ t_bookmarks_managing.xml
   </tr> 
  </tbody> 
 </table>
-

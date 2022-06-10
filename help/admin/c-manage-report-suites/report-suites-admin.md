@@ -1,13 +1,9 @@
 ---
-description: A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. Usually, a report suite is one website, but it can be a global segment where you have combined several sites' numbers to get totals. When you log in to any Adobe Analytics solution, you select one report suite to use (except when you use roll-ups that combine report suites). Also, a report suite can be smaller than a website, if you want to run reports for a portion of your site. Analytics solutions aggregate and report on these data stores. The admin Report Suite Manager lets you define the rules that govern how data is processed in a report suite.
-seo-description: A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. Usually, a report suite is one website, but it can be a global segment where you have combined several sites' numbers to get totals. When you log in to any Adobe Analytics solution, you select one report suite to use (except when you use roll-ups that combine report suites). Also, a report suite can be smaller than a website, if you want to run reports for a portion of your site. Analytics solutions aggregate and report on these data stores. The admin Report Suite Manager lets you define the rules that govern how data is processed in a report suite.
-seo-title: Report Suite Manager
-solution: Analytics
+description: A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages.
 title: Report Suite Manager
-topic: Admin tools
-uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+feature: Report Suite Settings
+exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 ---
-
 # Report Suite Manager
 
 A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. Usually, a report suite is one website, but it can be a global segment where you have combined several sites' numbers to get totals. When you log in to any Adobe Analytics solution, you select one report suite to use (except when you use roll-ups that combine report suites). Also, a report suite can be smaller than a website, if you want to run reports for a portion of your site. Analytics solutions aggregate and report on these data stores. The admin Report Suite Manager lets you define the rules that govern how data is processed in a report suite.
@@ -20,7 +16,7 @@ A report suite defines the complete, independent reporting on a chosen website, 
 
 ## Report Suite Manager Descriptions {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-The following table describes elements on the [!UICONTROL Report Suite Manager] page. 
+The following table describes elements on the [!UICONTROL Report Suite Manager] page.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -52,7 +48,7 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>A rollup is single report suite that combines the tracking data of several other report suites. </p> <p>See <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>A rollup is single report suite that combines the tracking data of several other report suites. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit Settings</span> </td> 
@@ -60,7 +56,7 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Create New</span> </td> 
-   <td colname="col2">See <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Customize Columns</span> </td> 
@@ -68,16 +64,15 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Report Suite ID</span> </td> 
-   <td colname="col2">See <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Site Title</span> </td> 
-   <td colname="col2"> <p>Identifies report suites in Admin Tools, and in the report suite drop-down list in the marketing report header. </p> <p>See <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Identifies report suites in Admin Tools, and in the report suite drop-down list in the marketing report header. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
-   <td colname="col2"> <p>Defines the base domain for the report suite. </p> <p>See <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Defines the base domain for the report suite. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

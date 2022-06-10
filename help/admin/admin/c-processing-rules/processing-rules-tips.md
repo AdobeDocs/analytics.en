@@ -1,25 +1,21 @@
 ---
 description: This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
-seo-description: This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
-seo-title: Processing rules tips and tricks
-solution: Analytics
 subtopic: Processing rules
 title: Processing rules tips and tricks
-topic: Admin tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
+exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 ---
-
 # Processing rules tips and tricks
 
 This section contains guidelines for testing processing rules and a list of common mistakes to avoid.
 
-## Testing Processing Rules {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Test Processing Rules {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 This section contains some guidelines to help test processing rules before they are deployed to production.
 
 **Testing Rules That Read Search Terms**
 
-For any criteria based on a search, such as if prop1 contains “news,” go to the prop 1 report and search for “news” and see if there are any matches you were not expecting.
+For any criteria based on a search, such as if prop1 contains "news", go to the prop 1 report and search for "news" and see if there are any matches you were not expecting.
 
 **Testing Rules that Read Variables**
 
@@ -27,7 +23,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Using a Dev Report Suite**
 
-We recommend configuring processing rules on a dev report suite to make sure they’re working correctly. If possible, we recommend copying the rules to a small production report suite before broad deployment.
+We recommend configuring processing rules on a dev report suite to make sure they're working correctly. If possible, we recommend copying the rules to a small production report suite before broad deployment.
 
 ## Check for Empty Values {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -35,7 +31,7 @@ When you create a rule, consider the case when a value is empty. If you do not a
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-It is also important to consider the processing order. In the following example, it appears that the Previous Pagename custom evar will be set to the URL if the Page Name is not present. However, the URL is placed into the page name after processing rules are applied, so in this case, the Page Name is empty if it is not set on the page.
+It is also important to consider the processing order. In the following example, it appears that the Previous Pagename custom eVar will be set to the URL if the Page Name is not present. However, the URL is placed into the page name after processing rules are applied, so in this case, the Page Name is empty if it is not set on the page.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
@@ -58,4 +54,3 @@ Search terms pulled from a query string must be encoded correctly or they won't 
 Select the correct matching condition to find the most restrictive condition that matches correctly. You can search for values in a report before creating a rule to make sure there are no unintended matches. For example, you should search the Prop2 report to find all locations where this condition matches before enabling this rule.
 
 ![](assets/tips-startswith.png)
-

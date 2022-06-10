@@ -1,13 +1,11 @@
 ---
 description: The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
-seo-description: The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
-seo-title: Links report
-solution: Analytics
 title: Links report
-topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
+feature: Activity Map
+role: User, Admin
+exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
 ---
-
 # Links report
 
 The Links report reports on the links that were found on the current page. It does not report on all the links that were collected for that page.
@@ -36,7 +34,7 @@ In Standard Mode, the "Links on Page" Report shows link data ranging from single
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the [New Link Tracking Methodology] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clicks </td> 
@@ -81,7 +79,7 @@ In Live mode, the Links on Page report shows trended data spanning several minut
   </tr> 
   <tr> 
    <td colname="col1"> Link ID </td> 
-   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New [Link Tracking Methodology] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md). </td> 
+   <td colname="col2">The link's primary ID. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Link Clicks </td> 
@@ -114,4 +112,4 @@ In Live mode, the Links on Page report shows trended data spanning several minut
 
 Sometimes you need to analyze only the results of a specific page region (e.g. left panel) to decide how to organize the content of that specific region of the web page.
 
-For this purpose, we have created a sorting and filtering functionality for links in the Links on Page report. Filtering is available through the filter field and the search term will be applied to the Link ID column and Link Region column. Sorting is available through clicking on the call-ons (Rank, Link ID, Clicks, Change over time, Region, Visibility) and it can be both ascending and descending. Overlays disappear from the web site when links are filtered out from the Links on Page report. 
+For this purpose, we have created a sorting and filtering functionality for links in the Links on Page report. Filtering is available through the filter field and the search term will be applied to the Link ID column and Link Region column. Sorting is available through clicking on the call-ons (Rank, Link ID, Clicks, Change over time, Region, Visibility) and it can be both ascending and descending. Overlays disappear from the web site when links are filtered out from the Links on Page report.

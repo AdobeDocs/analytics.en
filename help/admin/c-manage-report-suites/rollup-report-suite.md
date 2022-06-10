@@ -1,64 +1,79 @@
 ---
-description: Rollup report suites aggregate data from multiple child report suites and display them in a summarized data set.
-seo-description: Rollup report suites aggregate data from multiple child report suites and display them in a summarized data set.
-seo-title: Rollup and global report suites
-solution: Analytics
-title: Rollup and global report suites
-topic: Admin tools
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
+description: Descriptions of report suite types and comparison of global report suites and rollup report suites.
+title: Report suite approaches
+feature: Report Suite Settings
+exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 ---
+# Report suite approaches
 
-# Rollup and global report suites
+<!-- change filename since page name changed? -->
 
-Rollup report suites aggregate data from multiple child report suites and display them in a summarized data set.
+You can configure your report suites as either *global report suites* or *rollup report suites*.
 
-Not to be mistaken with global report suites, rollups provide a convenient place to see summed totals such as Page Views, Revenue, or Technology metrics. Rollups are frequently used because they do not require additional implementation.
+## Global report suites
 
-## Definitions of Report Suite Types {#section_E51E03E3917040278600A7E9638A91C7}
+A global report suite collects data from all domains and apps that your organization owns. It requires implementation to send all image requests to a single report suite.
 
-**Global report suite**: Implementation is altered to send image requests across domains into a single global report suite, in addition to individual report suites.
+Adobe recommends implementing a global report suite in most cases. See "[Global report suite considerations](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)" for the advantages of implementing a global report suite.
+  
+You can provide subsets of your company's global report suite data to different end users using the *multi-suite tagging* and *virtual report suite* approaches:
 
-**Rollup report suite**: Created in Admin Tools. Takes the sum of each metric at the end of every day.
+* **Multi-suite tagging**: Multi-suite tagging allows you to send image requests not only to a global report suite but also to individual child report suites. The global report data is deduplicated across all reports suites.
 
-* Rollups are free to use and do not increment any server calls. 
-* Rollups provide total data, but do not report individual values in reports. For example, eVar1 values are not included, but its aggregate total can be. 
-* Data is not deduplicated when combining data across report suites. A single user can touch three different report suites in a single day, and would appear as three daily unique visitors in the rollup. 
-* Rollup aggregation happens on a nightly basis. 
-* When adding a report suite to an existing rollup, historical data is not included in the rollup. 
-* Rollup report suites have limited reporting capabilities. For example, unique visitor counts are added across report suites. If the same person visits two separate report suites, a rollup lists that person as two visitors, whereas a standard global report suite shows one visitor. 
-* All child report suites must have data in them in order for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to those report suites. 
-* Rollup report suites are limited to a maximum of 40 child report suites. 
-* Rollup report suites are limited to a maximum of 100 events. 
-* Data contained in Rollup report suites does not support subrelations, segments, or any metrics that were introduced in marketing reports. 
-* The Pages report is not available in rollup report suites. It is replaced by the Most Popular Sites report, which reports on metrics at the child-suite level.
+  For example, you might collect all data in one global report suite and also set up secondary report suites based on brand, region, or another differentiator. The different teams in your company could then focus on data in the report suites that are relevant to them.
 
-## Rollup vs. Global Report Suites {#section_7B3703DC7ABF4B9EA9DF02A54592CAD0}
+  To use multi-suite tagging, implement child report suites and a global report suite that includes all data from the children. The tracking code for your webpages and apps will include the Report Suite ID (RSID) for the global report suite and also the RSIDs for the applicable child report suites.<!-- Wording/be more specific? And include any links? -->
+  
+  A separate server call is made to each report suite in the image request. The calls to the child report suites are secondary calls.
 
-**Server calls**: Global report suites increment secondary server calls, while rollups do not make any server calls whatsoever.
+* **Virtual report suite**: A [virtual report suite](/help/components/vrs/vrs-about.md) is a query on specified segments collected in a global report suite, and available to specified groups of users. Virtual report suites allow you to curate report elements for different end users without using multi-suite tagging, thus avoiding secondary server calls.
 
-**Implementation changes**: Rollups do not require any implementation changes, while global report suites require an additional report suite ID be placed in the s_code.js file.
+  To use virtual report suites, implement a global report suite and then parse the data to create virtual report suites with specific segments applied and with specific group permissions. You can create virtual report suites in the Virtual Report Suite Manager ([!UICONTROL Components] > [!UICONTROL Virtual Report Suites]). See "[Virtual report suite workflow](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)" for more information.
+
+Using virtual report suites instead of multi-suite tagging is often a best practice, but virtual report suites have some limitations. See "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)" to determine which report suite approach is the best choice for your business needs. For an in-depth comparison of virtual report suites and multi-suite tagging functionality, see "[Virtual Report Suites vs. Multisuite Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)."
+
+## Rollup reports
+
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] is the only tool that supports rollup reports, and Adobe no longer recommends using rollups. Instead, consider using a global report suite with multi-suite tagging or virtual report suites.
+
+A rollup report is a simple aggregation of data from multiple report suites, without deduplication or any segment or data breakdowns. Rollups do not require code implementation. To use rollup reports, [implement child report suites](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) and then [combine them into a rollup report](/help/admin/c-manage-report-suites/t-rollups.md) using [!UICONTROL Admin Tools].
+
+Rollup reports are free: the child report suites incur their own server calls, but the rollup does not incur additional calls. Rollups are a legacy feature and have many limitations.
+
+### Limitations of Rollup Reports {#limitations-rollups}
+
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
+
+## Comparison of Global Report Suite and Rollup Report  Features
+
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
+
+>[!TIP]
+>
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
+
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
 **Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
 **Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Breadth**: Global report suites can attribute credit to conversion variables between report suites, as well as provide pathing across report suites. Rollups have no way to communicate between report suites.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
 **Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Reports**: Global report suites provide additional information on ALL reports implemented; rollups provide aggregate data on only high-level reports.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Supported products**: Rollups are not supported in data warehouse or ad hoc analysis. Marketing reports are limited to 40 child report suites. Global report suites can be used across all products, and can have an unlimited number of child report suites.
+**Supported products**: Rollups can only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-## Which Report Suite Type Do I Want to Implement? {#section_868066B9604B49BABBF84074BA5E9C71}
-
-When choosing whether to use rollups or global report suites, consider the following:
-
-* Is the number of server calls critical to my organization? If keeping server calls limited is important, consider using rollups. Global report suites almost double the number of server calls made. 
-* Does reporting a high-level total of traffic across all suites suffice? If deduplicated visitors are a requirement, consider implementing a global report suite. 
-* Are pathing and conversion/success events across domains important? If cross-site campaigns are heavily used, consider implementing a global report suite. 
-* Is viewing total site data time-sensitive? Individual report suites still report near real time. If seeing report suite totals the next day is adequate, rollups are recommended. 
-* Is there a large amount of actionable historical data? Global report suites cannot report retroactively - rollups are recommended if historical data is important. 
-* Is data warehouse and ad hoc analysis essential to supplement reporting? If so, a global report suite is recommended.
-
-Neither choice affects individual report suites. Carefully consider the pros and cons before determining which your organization prefers. 
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.

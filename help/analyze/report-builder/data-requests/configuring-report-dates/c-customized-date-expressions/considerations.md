@@ -1,18 +1,16 @@
 ---
 description: Two important considerations when using the Customize Expression to set the date range 
-seo-description: Two important considerations when using the Customize Expression to set the date range 
-seo-title: Considerations
-solution: Analytics
 title: Customized Date Considerations
-topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
+feature: Report Builder
+role: User, Admin
+exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 ---
-
 # Customized Date Considerations
 
 Two important considerations when using the Customize Expression to set the date range:
 
-* The day the report (As Of) is run (or requests refreshed) determines what data is available. 
+* The day the report (As Of) is run (or requests refreshed) determines what data is available.
 * The rollover of start and end dates of the report affects the date range covered by the report.
 
 Because the availability of data is sensitive both to the time frame of the report and the date that you refresh requests in the report, ensure that you run the report on the appropriate day to extract the desired information. The examples below demonstrate both of these considerations.
@@ -47,4 +45,4 @@ the day of the current week starting on Sunday, November 23 minus seven days = t
 
 the day of the current week starting on Sunday, November 23 minus one day = Saturday, November 22
 
-In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).) 
+In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)

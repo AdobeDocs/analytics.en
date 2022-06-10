@@ -1,14 +1,10 @@
 ---
 description: Steps that describe how to copy processing rules from one report suite and replace or append these rules to another report suite.
-seo-description: Steps that describe how to copy processing rules from one report suite and replace or append these rules to another report suite.
-seo-title: Copy processing rules to another report suite
-solution: Analytics
 subtopic: Processing rules
 title: Copy processing rules to another report suite
-topic: Admin tools
-uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
+feature: Processing Rules
+exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 ---
-
 # Copy processing rules to another report suite
 
 Steps that describe how to copy processing rules from one report suite and replace or append these rules to another report suite.

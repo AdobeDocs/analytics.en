@@ -1,36 +1,16 @@
 ---
-description: null
-seo-description: null
-seo-title: Workflow overview
+description: Overview of the Advertising Analytics workflow.
 title: Workflow overview
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
+feature: Advertising Analytics
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 ---
-
 # Workflow overview
 
-![](assets/step1_icon.png) Map any Analytics report suite where you want to view Google/Bing search data to your Experience Cloud organization.
+Here is a video overview of configuring Advertising Analytics:
 
-See [Map report suites to an organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+>[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 
-![](assets/step2_icon.png) [Enable Advertising Analytics reporting per report suite](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB)
-
-Enables Advertising Analytics reporting for Experience-Cloud-enabled report suites.
-
-![](assets/step3_icon.png) [Set up an Advertising Analytics account](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)
-
-Setup in Analytics Admin Tools.
-
-![](assets/step4_icon.png) [Report on the Advertising data in Analytics](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254)
-
-Note: The search data is pulled from the search engines around 6AM (06:00) in the time zone of your Adobe Analytics data center. This is when the AMO data is collected and inserted into the report suite. It is then converted into the report suite time zone as part of inserting the data into Analytics.
-
-Reporting is available in
-
-*   Analysis Workspace "Paid Search Performance" template
-*   Reports & Analytics
-*   Report Builder
-*   Analytics Reporting API
-
-![](assets/step5_icon.png) [Manage Advertising accounts](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)
-
-You can check the account status, and edit/pause accounts.
+1. [Enable Advertising Analytics reporting per report suite](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
+2. [Set up an Advertising Analytics account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Setup in Analytics Admin Tools.
+3. [Report on the Advertising data in Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). The search data is pulled from the search engines around 6AM (06:00) in the time zone of your Adobe Analytics data center. This is when the AMO data is collected and inserted into the report suite. It is then converted into the report suite time zone as part of inserting the data into Analytics. Reporting is available in Analysis Workspace (Paid Search Performance template), Reports & Analytics, Report Builder, and the Analytics Reporting API.
+4. [Manage Advertising accounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). You can check the account status, and edit/pause accounts.

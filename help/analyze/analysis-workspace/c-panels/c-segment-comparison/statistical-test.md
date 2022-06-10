@@ -1,14 +1,11 @@
 ---
 description: Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
 keywords: Analysis Workspace;Segment IQ
-seo-description: Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
-seo-title: Statistical tests used in segment comparison
-solution: Analytics
 title: Statistical tests used in segment comparison
-topic: Reports and analytics
-uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
+feature: Segmentation
+role: User, Admin
+exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
 ---
-
 # Statistical tests used in segment comparison
 
 Each of the top comparison tables show a difference score that is calculated by several statistical tests depending on the comparison being made;however, no matter which test is used, the difference score is shown as a value between 0 and 1.
@@ -26,4 +23,3 @@ To compute the difference score on the Top Dimension Items and Top Segment Diffe
 >[!NOTE]
 >
 >In all three tables, the difference statistic is based on an appropriate sample of visitors to make the process run as quickly as possible while remaining statistically accurate. While the difference score is based on a sample, the results presented in the table are not sampled. To ensure statistical significance, each statistical test relies on a dynamic allocation algorithm such that the smaller segment contains a sample size that provides less than 3% margin of error. If a segment contains very few visitors (less than 1,000), we use all available data and do not sample in computing the difference score.
-

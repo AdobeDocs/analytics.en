@@ -1,14 +1,16 @@
 ---
 description: An inter-dimensional flow lets you examine user paths across various dimensions.
-seo-description: An inter-dimensional flow lets you examine user paths across various dimensions.
-seo-title: Inter-dimensional flows
 title: Inter-dimensional flows
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
+feature: Visualizations
+role: User, Admin
+exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 ---
-
 # Inter-dimensional flows
 
-An inter-dimensional flow lets you examine user paths across various dimensions.
+An inter-dimensional flow lets you examine user paths across various dimensions. Here is a video on text-wrapping and multi-dimensional flow in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
 
@@ -16,7 +18,7 @@ A dimension label at the top of each Flow column makes using multiple dimensions
 
 We will look at 2 use cases: an app use case and a web use case.
 
-## Use case one: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Use case one: app {#app}
 
 The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
 
@@ -46,7 +48,7 @@ This is what happens if you add another Action Name dimension onto the end of th
 
 This will allow for some deep insights and possible changes to the app you are analyzing.
 
-## Use case two: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Use case two: web {#web}
 
 This use case shows how you can analyze which campaigns drive the most entries to a web site.
 
@@ -57,5 +59,3 @@ Drag the Campaign Name dimension into a new flow:
 Now I want to see to which pages those campaigns are driving traffic, so I drag the Page dimension to the right of the flow results to add on to the visualization:
 
 ![](assets/multi-dimensional-flow9.png)
-
-You can then break this result down by other dimensions or metrics, such as revenue, visits, etc. 

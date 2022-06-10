@@ -1,13 +1,11 @@
 ---
 description: Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
-seo-description: Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
-seo-title: Enable Activity Map
-solution: Analytics
 title: Enable Activity Map
-topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
+feature: Activity Map
+role: User, Admin
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 ---
-
 # Enable Activity Map{#enable-activity-map}
 
 Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
@@ -18,13 +16,13 @@ The Activity Map module is part of the AppMeasurement.js file (located at the to
 
 Activity Map data cannot be collected unless you update to this version (or higher) of AppMeasurement.
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
 
-   We have included some [sample implementation code](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) to help you visualize the changes that have been made to the code by including the Activity Map module. 
+   We have included some [sample implementation code](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) to help you visualize the changes that have been made to the code by including the Activity Map module.
 
 1. Validate the implementation:
 
-    1. When a clickable element is clicked, data will be stored in a cookie named s_sq. 
+    1. When a clickable element is clicked, data will be stored in a cookie named s_sq.
     1. The Activity Map data can be seen in the query-string on the tracking call. For example:
 
        ```    
@@ -37,10 +35,10 @@ Activity Map data cannot be collected unless you update to this version (or high
 
 First, you need to enable Activity Map reports at a report-suite level.
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites > [select report suite] > Edit Settings > Activity Map]** > **[!UICONTROL Activity Map Reporting]** . 
+1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1. Activity Map collects the link data in Activity Map reports. For the activation to happen, you must first activate the variables by clicking **[!UICONTROL Enable Activity Map Reports]**.
 
-   This step adds all the Analytics dimensions that you need to collect data. 
+   This step adds all the Analytics dimensions that you need to collect data.
 
 1. After about an hour, check the [Activity Map Page report](/help/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
 
@@ -48,14 +46,12 @@ First, you need to enable Activity Map reports at a report-suite level.
 
 1. Click **[!UICONTROL Add Users to Group]**.
 
-   This will take you to the group management page in the Admin Console. 
+   This will take you to the group management page in the Admin Console.
 
-1. [Add users to this group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) and **[!UICONTROL Save Group]**. 
+1. [Add users to this group](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) and **[!UICONTROL Save Group]**.
 
-1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** . 
+1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
 
-<note>
-  If you want Non-Admin users to download Activity Map, you need to create a new user group that provides permission to 
- <span class="uicontrol"> Tools </span> > 
- <span class="uicontrol"> Legacy ClickMap Installation </span>. You can then add Non-Admin users to this group. This level of permission combined with the Activity Map Access will provide comprehensive permissions to download and use the tool. 
-</note>
+>[!NOTE]
+>
+>If you want non-admin users to download Activity Map, create a new user group that provides permission to 'Tools' and 'Legacy ClickMap Installation'. This level of permission combined with the Activity Map Access provides permissions to download and use the tool.

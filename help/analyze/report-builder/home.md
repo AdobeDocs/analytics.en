@@ -1,26 +1,13 @@
 ---
-seo-title: Adobe Report Builder help
-solution: Analytics
-title: Adobe Report Builder help
-topic: Report builder
-uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
+title: Report Builder for Adobe Analytics
+description: Use Report Builder to bring Adobe Analytics data directly into Microsoft Excel. Find out how installing and using Report Builder can boost your business.
+feature: Workspace Basics
+role: User, Admin
+exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 ---
+# What is Report Builder?
 
-# Adobe Report Builder help {#adobe-report-builder-help}
-
- [!DNL Adobe] Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from reporting and analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
-
-<!-- >>[!IMPORTANT]
->
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
->
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
-
->[!IMPORTANT]
->
->Due to the end of support for TLS 1.0, we recommended that Adobe Report Builder (ARB) users download ARB v5.6.21 prior to September 13, 2018. After that date, prior versions of ARB will not be supported. -->
-
-<!-- Tutorial goes here -->
+ Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
 ## Popular help topics
 
@@ -34,19 +21,3 @@ uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 
 * [How do I create a data request?](data-requests/t-create-a-data-request.md)
 * [Troubleshooting and Best Practices for Report Builder](troubleshoot.md)
-
-## Experience Cloud resources
-
-* [Adobe Analytics Community](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [Product Documentation Home](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
-* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Adobe Training and Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Featured Solutions Center](https://www.omniture.com/en/products/online_business_optimization)
-
-## Reports & Analytics help
-
-* [Analysis Workspace Help](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports & Analytics Help](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html) Help on Admin Tools, reports, and metrics.

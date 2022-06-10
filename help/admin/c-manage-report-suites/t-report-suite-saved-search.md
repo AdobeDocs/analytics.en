@@ -1,13 +1,9 @@
 ---
 description: Steps that describe how to define a set of criteria that determines the members of a report suite search.
-seo-description: Steps that describe how to define a set of criteria that determines the members of a report suite search.
-seo-title: Save a report suite search
-solution: Analytics
 title: Save a report suite search
-topic: Admin tools
-uuid: dd83eed6-1374-429c-9fc3-709055698a44
+feature: Report Suite Settings
+exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 ---
-
 # Save a report suite search
 
 Steps that describe how to define a set of criteria that determines the members of a report suite search.

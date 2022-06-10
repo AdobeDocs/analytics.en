@@ -1,11 +1,9 @@
 ---
-description: null
-seo-description: null
-seo-title: Server Call Usage Overview
+description: Overview of Adobe Analytics server call usage functionality.
 title: Server Call Usage Overview
-uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
+feature: Server Call Usage
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 ---
-
 # Server Call Usage Overview
 
 ## Why Monitor and Alert to Server Call Usage? {#section_060C29BF1D00444B85892AD1FCF55290}
@@ -17,15 +15,15 @@ Adobe Analytics Server Call Usage addresses your requests for transparency into 
 
 The main benefits of Server Call Usage include:
 
-* **Visibility** into your server call consumption and commitment data, including mobile consumption vis a vis your contractual server call usage limit. 
+* **Visibility** into your server call consumption and commitment data, including mobile consumption vis a vis your contractual server call usage limit.
 * **Alerts** to notify you of the risk or occurrence of an overage and prepare for/act on the possibility of incurring overages.
 
 Previously, while you could access monthly server call consumption data under  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Billing]** , this data was only updated 6 days after billing had closed for that month. Further, the data did not include mobile consumption. This feature will also replace the current **[!UICONTROL Billing Information]** report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** .
 
 ## Prerequisites {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissions**: To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator. 
-* **Permissions**: Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Permissions:** To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator.
+* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Important Terminology {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -49,13 +47,13 @@ Here is a short primer on essential terminology for Server Call Usage:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Login Company </p> </td> 
-   <td colname="col2"> <p>One billing company can have <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external"> multiple login companies </a>. A login company is a collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of the organization. This is especially useful for large organizations that deal with different business units where many report suites are not applicable to others in the company. </p> <p>Often, these are the regional subsidiaries of a company. This example shows login companies and their associated report suites: </p> 
+   <td colname="col2"> <p>One billing company can have <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html"> multiple login companies </a>. A login company is a collection of report suites used by your organization. Some organizations have multiple login companies that apply to different parts of the organization. This is especially useful for large organizations that deal with different business units where many report suites are not applicable to others in the company. </p> <p>Often, these are the regional subsidiaries of a company. This example shows login companies and their associated report suites: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local"> permission</a>. </p> </td> 
+    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"> permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud organization </p> </td> 
@@ -98,7 +96,7 @@ The Server Call Usage permission is automatically granted to Analytics Admins. I
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Log in to Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigate to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> User Management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> Server Call Usage </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigate to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> Server Call Usage </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
@@ -109,4 +107,3 @@ The Server Call Usage permission is automatically granted to Analytics Admins. I
   </tr> 
  </tbody> 
 </table>
-

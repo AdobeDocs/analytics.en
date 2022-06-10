@@ -1,11 +1,10 @@
 ---
-description: Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
-seo-description: Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
-seo-title: Statistical techniques used in anomaly detection
+description: Data inconsistencies can cause big problems. Learn how to identify statistical anomalies with anomaly detection techniques from Adobe. Get started today.
 title: Statistical techniques used in anomaly detection
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
+feature: Anomaly Detection
+role: User, Admin
+exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 ---
-
 # Statistical techniques used in anomaly detection
 
 Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
@@ -37,19 +36,19 @@ After model selection, the algorithm then adjusts the results based on holidays,
 * January 1 
 * December 31
 
-These holidays were selected based on extensive statistical analysis across many customer data points to identify holidays that mattered the most to the highest number of customers’ trends. While the list is certainly not exhaustive for all customers or business cycles, we found that applying these holidays significantly improved the performance of the algorithm overall for nearly all customers’ datasets.
+These holidays were selected based on extensive statistical analysis across many customer data points to identify holidays that mattered the most to the highest number of customers' trends. While the list is certainly not exhaustive for all customers or business cycles, we found that applying these holidays significantly improved the performance of the algorithm overall for nearly all customers' datasets.
 
 Once the model has been selected and holidays have been identified in the reporting date range, the algorithm proceeds in the following manner:
 
-1. Construct the anomaly reference period - this includes up to 35 days prior to the reporting date range, and a matching date range 1 year prior (accounting for leap days when required and inclusive of any applicable holidays that may have occurred on a differing calendar day the previous year). 
-1. Test whether holidays in the current period (excluding the prior year) are anomalous based on most recent data. 
-1. If the holiday in the current date range is anomalous, adjust the expected value and confidence interval of the current holiday given the previous year’s holiday (considering 2 days before and after). The correction for the current holiday is based on the lowest mean absolute percentage error of:
+1. Construct the anomaly reference period - this includes up to 35 days prior to the reporting date range, and a matching date range 1 year prior (accounting for leap days when required and inclusive of any applicable holidays that may have occurred on a differing calendar day the previous year).
+1. Test whether holidays in the current period (excluding the prior year) are anomalous based on most recent data.
+1. If the holiday in the current date range is anomalous, adjust the expected value and confidence interval of the current holiday given the previous year's holiday (considering 2 days before and after). The correction for the current holiday is based on the lowest mean absolute percentage error of:
 
     1. Additive effects 
     1. Multiplicative effects 
     1. YoY difference
 
-Notice the dramatic improvement of performance on Christmas Day and New Year’s Day in the following example:
+Notice the dramatic improvement of performance on Christmas Day and New Year's Day in the following example:
 
 ![](assets/anomaly_statistics.png)
 
@@ -63,7 +62,7 @@ The training windows for hourly trends relies on a 336-hour lookback window.
 
 Weekly and monthly trends do not exhibit the same weekly or daily trends found at daily or hourly granularities, so as such a separate algorithm is used. For weekly and monthly, a two-step outlier detection approach is used known as the Generalized Extreme Studentized Deviate (GESD) test. This test considers the maximum number of expected anomalies combined with the adjusted box-plot approach (a non-parametric method for outlier discovery) to determine the maximum number of outliers. The two steps are:
 
-1. Adjusted box-plot function: This function determines the maximum number of anomalies given the input data. 
+1. Adjusted box-plot function: This function determines the maximum number of anomalies given the input data.
 1. GESD function: Applied to the input data with the output from step 1.
 
-The holiday and YoY seasonality anomaly detection step then subtracts last year’s data from this year’s data and then iterates on the data again using the two-step process above to verify that anomalies are seasonally appropriate. Each of these date granularities uses a 15-period lookback inclusive of the selected reporting date range (either 15 months or 15 weeks) and a corresponding date range 1 year ago for training. 
+The holiday and YoY seasonality anomaly detection step then subtracts last year's data from this year's data and then iterates on the data again using the two-step process above to verify that anomalies are seasonally appropriate. Each of these date granularities uses a 15-period lookback inclusive of the selected reporting date range (either 15 months or 15 weeks) and a corresponding date range 1 year ago for training.

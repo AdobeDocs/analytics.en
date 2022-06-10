@@ -1,8 +1,9 @@
 ---
 title: Conversions reports in Adobe Analytics
 description: Learn how to use conversions reports in Adobe Analytics.
+feature: Third-party Integration
+exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
 ---
-
 # Conversions reports
 
 A 'conversion' is an action that a visitor does on your site that directly translate to your organization's key indicators. Conversions reports show details on how visitors are converting.
@@ -23,25 +24,25 @@ In Analysis Workspace, this data can be viewed using the Fallout visualization.
 
 1. Click the visualizations icon on the left, and drag a Fallout visualization onto the workspace above the freeform table
 2. Click the components icon on the left, then locate the **Pages** dimension.
-3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension values are colored yellow.
+3. Click the arrow icon next to the Pages dimension to reveal page values. Dimension items are colored yellow.
 4. Locate the desired page to act as the first touchpoint, and drag it into the space labeled 'Add Touchpoint' in the visualization.
 5. Continue adding desired touchpoints by dragging page values onto the visualization.
 
 The Fallout visualization is not limited to just the Pages dimension. Any dimension, metric, or segment can be used to tailor your fallout report to meet your organization's needs.
 
-![Fallout visualization](../assets/fallout.png)
+![Fallout visualization](/help/technotes/ga-to-aa/assets/fallout.png)
 
 ## Ecommerce reports
 
 Ecommerce reports are typically used by sites selling products or services to measure orders and revenue on items purchased. This feature is available in Adobe Analytics, and is known as Products reports.
 
-Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](../../../components/c-variables/dimensionslist/reports-products.md) dimension in the Components user guide for more information.
+Both ecommerce reports in Google Analytics and product reports in Adobe Analytics require customized implementation changes to use. See the [Products](/help/components/dimensions/product.md) dimension in the Components user guide for more information.
 
 ## Multi-Channel Funnel reports
 
 Multi-channel funnel reports provide additional marketing channel data beyond what acquisition reports provide. These reports focus on how visitors convert, instead of how visitors arrive to your site.
 
-> [!NOTE]
+>[!NOTE]
 >
 > The use of multi-channel reports in Adobe Analytics requires both the setup of Marketing Channels and a custom implementation to accommodate the products variable and purchase event. Adobe recommends working with an implementation consultant if these features are not yet configured for your report suite.
 
@@ -64,7 +65,7 @@ The top conversion paths report shows the top channel paths a user takes before 
 
 This flow visualization is interactive. Click each channel to expand the flow in either direction.
 
-![Flow visualization](../assets/flow.png)
+![Flow visualization](/help/technotes/ga-to-aa/assets/flow.png)
 
 ### Multi-Channel - Time Lag
 

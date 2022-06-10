@@ -1,18 +1,16 @@
 ---
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
-seo-description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
-seo-title: Most popular filtering
-solution: Analytics
 title: Most popular filtering
-topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
+feature: Report Builder
+role: User, Admin
+exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 ---
-
 # Most popular filtering
 
 Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](../../../../analyze/report-builder/layout/c-filter-dimensions/saved-filters.md#concept_562AC2C5628247909FBA5E1867BB6AE5) these expressions for other request in this workbook, or in other workbooks.
+Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
 
 **To create a Most Popular filter** 
 
@@ -41,7 +39,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): Lets you locate a condition defined in the value of a cell.
 
-   ** Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add. 
+   **Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add.
 
 1. Click **[!UICONTROL OK]**.
 

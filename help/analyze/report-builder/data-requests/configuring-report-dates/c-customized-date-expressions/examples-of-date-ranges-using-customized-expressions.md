@@ -1,18 +1,16 @@
 ---
 description: Examples, notes, and syntax notes about using date ranges in customized expressions.
-seo-description: Examples, notes, and syntax notes about using date ranges in customized expressions.
-seo-title: Examples of date ranges using customized expressions
-solution: Analytics
 title: Examples of date ranges using customized expressions
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 ---
-
 # Examples of date ranges using customized expressions
 
 Examples, notes, and syntax notes about using date ranges in customized expressions.
 
-The table assumes that today's date is Monday, November 10, 2011, using the Gregorian calendar. 
+The table assumes that today's date is Monday, November 10, 2011, using the Gregorian calendar.
 
 |  Example  | Date Range  | Customize Expression  | Date Range of Report  |
 |---|---|---|---|
@@ -38,14 +36,11 @@ Add four months to the beginning of the year (the month of January) to get the m
 
 Customized expressions covering most date ranges can be created by linking two terms with an operator. A term is a combination of an integer multiplier and a period abbreviation. An example of a term is 18d. An example of an operator is +.
 
-* White space is not allowed between operators and terms. 
+* White space is not allowed between operators and terms.
 * Use only these abbreviations: cd cw cm cq cy d w m q y 
-* The best practice is to use the same date reference in the start date and in the end date: cd, cd, or cw, cw, or cy, cy. Mixing date references can lead to invalid dates at certain times of the year. 
+* The best practice is to use the same date reference in the start date and in the end date: cd, cd, or cw, cw, or cy, cy. Mixing date references can lead to invalid dates at certain times of the year.
 * Valid multiples of the abbreviations d w m q y are formed by means of integers ( 1 2 3 ... ) prepended to the abbreviation, such as 53d 3w 5q 9m 2y
-
-    * Non-integer numbers are not allowed. 
-    * Do not prepend the abbreviation with only a zero. For example, 0w is not allowed.
-
+* Non-integer numbers are not allowed.
+* Do not prepend the abbreviation with only a zero. For example, 0w is not allowed.
 * The following operators are used to concatenate abbreviations: + - 
 * Because date ranges must be reckoned relative to the current period, the first term in an expression always begins with c.
-

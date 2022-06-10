@@ -1,13 +1,11 @@
 ---
 description: System recommendations and prerequisites.
-seo-description: System recommendations and prerequisites.
-seo-title: System requirements
-solution: Analytics
-title: System requirements
-topic: Report builder
+title: System requirements for Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
+feature: Report Builder
+role: User, Admin
+exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
 ---
-
 # System requirements
 
 System recommendations and prerequisites.
@@ -18,7 +16,6 @@ System recommendations and prerequisites.
 
 **Prerequisites**
 
-* Your organization's contract includes Report Builder for Excel. 
-* Your user name is part of the pre-defined Report Builder user group. This requirement includes [!DNL Analytics] administrators. 
+* Your organization's contract includes Report Builder for Excel.
+* Your user name is part of the pre-defined Report Builder user group. This requirement includes [!DNL Analytics] administrators.
 * The user must be running Windows and logged in as an administrator.
-

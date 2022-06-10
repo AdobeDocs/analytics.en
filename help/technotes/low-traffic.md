@@ -1,40 +1,39 @@
 ---
-description: When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report.
-seo-description: When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report.
-seo-title: Low-traffic value in Adobe Analytics
-solution: Analytics
+description: When a report has many unique values, Adobe uses the Low-Traffic dimension item to improve report performance.
 title: Low-traffic value in Adobe Analytics
-topic: Metrics
-uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+feature: Metrics
+feature: Data Configuration and Collection
+exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
-
 # Low-traffic value in Adobe Analytics
 
-When a report has a large number of unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a line item titled **(Low-Traffic)**.
+When a report has many unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a dimension item labeled **[!UICONTROL Low-Traffic]**.
 
-## How low-traffic works
+## How [!UICONTROL Low-Traffic] works
 
 * Reporting is not affected if the variable does not reach 500,000 unique values in a given month.
-* When a variable reaches this first threshold of 500,000, data begins to be bucketed under low-traffic. Each value beyond this threshold goes through the following logic:
-  * If a value is already in reports, add to that value as usual.
-  * If a value is not yet in reporting, check to see if that value was seen more than approximately ten times today. If it has, add this value to reporting. If it hasn't been counted more than about ten times, leave it under low-traffic.
-* If a report suite reaches more than 1,000,000 unique values, more aggressive filtering is applied:
-  * If a value is already in reports, add to that value as usual.
-  * If a value is not yet in reporting, check to see if that value was seen more than approximately 100 times today. If it has, add the value to reporting. If it hasn't, leave it under low-traffic.
+* When a variable reaches 500,000 unique values, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
+  * If a value is already seen in reports, add to that value as usual.
+  * If a value is not yet seen in reports, it initially is bucketed in the [!UICONTROL Low-Traffic] dimension item.
+  * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), it starts being recognized as its own dimension item. Instances collected before meeting the threshold remain under [!UICONTROL Low-Traffic]. The exact threshold has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
+* If a report suite reaches more than 1,000,000 unique values, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
 
-> [!NOTE] If a variable value receives enough traffic to leave the low-traffic bucket, the first values collected do not move to its respective line item. Those first 10-100 instances stay under low-traffic.
+This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, your organization runs a site with millions of articles and a new article became popular towards the end of the month (after exceeding both unique thresholds). You could still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
+
+>[!NOTE]
+>The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches 500,000.
 
 ## Changing unique limit thresholds
 
-Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact your organization's account manager to request this change. When requesting a change, include:
+Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact Adobe Customer Care or your organization's account manager to request this change. When requesting a change, include:
 
 * The report suite ID
 * The variable you would like to increase the threshold for
 * Both the first and second threshold desired
 
-This change can come with an additional cost, and is dependent on contract. Changes to thresholds can also impact report performance. Adobe highly recommends using good judgment when requesting an increase to unique values in a variable.
+Changes to thresholds can impact report performance. Adobe highly recommends using good judgment when requesting an increase to unique values in a variable. Only increase unique limits for variables that are critical to your organization's reporting needs.
 
-Low-traffic thresholds are not visible in the Analytics UI. Have a supported user in your organization contact Customer Care if you would like more information on existing thresholds.
+Low-traffic thresholds are not visible in the Analytics UI. Contact Adobe Customer Care if you would like more information on existing thresholds.
 
 ## Low-traffic using components and other capabilities
 
@@ -44,4 +43,5 @@ Different capabilities treat low-traffic values in different ways.
   * In some limited scenarios, low-traffic values can still appear. Examples include list vars, list props, merchandising eVars, and marketing channel detail dimensions.
 * **Segmentation:** If the segment criteria includes a variable with a high number of unique values, values captured under low-traffic are not included.
 * **Classifications:** Classification reports are also subject to unique limits. If a classification's parent variable value is included under low-traffic, the value is not classified.
-  * If you classify values before they are seen in data, those values count toward the unique threshold for that month.
+  * Low-traffic classification values obtained through the importer can be viewed in Data Warehouse. <!-- AN-115871 -->
+  * Low-traffic classification values obtained through the rule builder *cannot* be viewed in Data Warehouse. <!-- AN-122872 -->

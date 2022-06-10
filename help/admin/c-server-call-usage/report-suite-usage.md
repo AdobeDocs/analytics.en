@@ -1,11 +1,9 @@
 ---
 description: The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
-seo-description: The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
-seo-title: View report suite usage
 title: View report suite usage
-uuid: c609ed99-9acc-4023-905a-81a40dd07a79
+feature: Server Call Usage
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 ---
-
 # View report suite usage
 
 The Report Suite Usage tab provides server usage data for each report suite in all Login companies tied to your Billing company, for the current usage period.
@@ -14,14 +12,14 @@ The Report Suite Usage tab provides server usage data for each report suite in a
 
 >[!IMPORTANT]
 >
->If a report suite is not [linked to an Experience Cloud Organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html), its usage data will not be reflected in this dashboard. Also, a billing ID could be tied to multiple Experience Cloud Orgs; there is not always a 1:1 relationship between an org and a billing ID.
+>If a report suite is not linked to an Experience Cloud Organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple Experience Cloud Orgs; there is not always a 1:1 relationship between an org and a billing ID.
 
 The Report Suite Usage dashboard
 
-* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your Experience Cloud organization. 
-* Shows percentage of overall usage per server call category. 
-* Is updated daily. 
-* Is downloadable. 
+* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your Experience Cloud organization.
+* Shows percentage of overall usage per server call category.
+* Is updated daily.
+* Is downloadable.
 * Lets you access the **[!UICONTROL Manage Alerts]** UI.
 
 ![](assets/report-suite-usage.png)
@@ -40,7 +38,7 @@ The Report Suite Usage dashboard
 
 This option lets you download current usage data, and data from time periods prior to the current usage period (going back to January 2015). The report downloads as a .csv file.
 
-1. Select at least one report suite. 
+1. Select at least one report suite.
 1. Click **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)

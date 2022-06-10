@@ -1,13 +1,11 @@
 ---
 description: Download and edit shared workbooks.
-seo-description: Download and edit shared workbooks.
-seo-title: Download a workbook
-solution: Analytics
 title: Download a workbook
-topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
+feature: Report Builder
+role: User, Admin
+exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 ---
-
 # Download a workbook
 
 Download and edit shared workbooks.
@@ -17,6 +15,6 @@ Download and edit shared workbooks.
 1. Save the file.
 >The following options are available only to owners of a workbook: 
 >
->* **Edit:** Downloads and opens a workbook for edit. If you want to upload a workbook that you downloaded for edit, you must do so manually. 
->* **Delete:** Lets you delete a workbook that you uploaded. You must be the owner of the workbook in order to delete it. 
+>* **Edit:** Downloads and opens a workbook for edit. If you want to upload a workbook that you downloaded for edit, you must do so manually.
+>* **Delete:** Lets you delete a workbook that you uploaded. You must be the owner of the workbook in order to delete it.
 >

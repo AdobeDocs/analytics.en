@@ -1,8 +1,9 @@
 ---
 title: Create a basic report in Analysis Workspace
 description: Learn how to create a basic report in Analysis Workspace in a format geared towards users familiar with third-party tools such as Google Analytics.
+feature: Third-party Integration
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 ---
-
 # Create a basic report in Analysis Workspace for Google Analytics users
 
 Analysis Workspace (one of the main features within Adobe Analytics) provides a robust area for a user to gain any insight on collected data. Reporting is very different between Google Analytics and Adobe Analytics:
@@ -27,26 +28,26 @@ Because Analysis Workspace works more like a canvas than prefabricated reports, 
 Create an All Pages report (similar to the one in Google Analytics) by dragging the right components onto a workspace canvas.
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Click the 9-square icon in the upper right, then click the colored Analytics logo.
-3. In the top navigation bar, click Workspace.
-4. Click the 'Create New Project' button.
-5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
-6. On the left, a list of dimensions, metrics, segments, and date ranges is shown. Locate the Pages dimension (colored orange), and drag it onto the canvas labeled 'Drop a Dimension Here'.
-7. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
-8. A table in Google Analytics typically contains 7-8 metrics. Locate the Bounce Rate metric (colored green), and drag it next to the Occurrences metric header. If you drag the Bounce Rate metric next to Occurrences, both metrics are displayed side-by-side.
-9. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
+1. Click the 9-square icon in the upper right, then click the colored Analytics logo.
+1. In the top navigation bar, click Workspace.
+1. Click the 'Create New Project' button.
+1. In the modal popup, make sure 'Blank Project' is selected, then click Create.
+1. On the left, a list of dimensions, metrics, segments, and date ranges is shown. Locate the Pages dimension (colored orange), and drag it onto the canvas labeled 'Drop a Dimension Here'.
+1. A report showing the top pages for this month can be seen. Analysis Workspace automatically populates the report with the [Occurrences](/help/components/metrics/occurrences.md) metric.
+1. A table in Google Analytics typically contains 7-8 metrics. Locate the Bounce Rate metric (colored green), and drag it next to the Occurrences metric header. If you drag the Bounce Rate metric next to Occurrences, both metrics are displayed side-by-side.
+1. Many metrics can be placed side-by-side by dragging metrics next to existing metric headers. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
 
-    ![New metric](../assets/new_metric.png)
+   ![New metric](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Start with a pre-built report template in Workspace
 
 Create the Content Consumption template (similar to the All Pages report in Google Analytics) by accessing a project template.
 
 1. Click the 'Create New Project' button.
-2. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates.
-3. Browse each of the visualizations that have been pre-built: Entry Page Flow, Top Pages Table, Exit Page Flow, Entry Site Section Flow, and Top Site Sections Table.
+1. Locate and double-click the 'Content Consumption (Web)' icon listed under All Templates.
+1. Browse each of the visualizations that have been pre-built: Entry Page Flow, Top Pages Table, Exit Page Flow, Entry Site Section Flow, and Top Site Sections Table.
 
-    ![Template selection](../assets/content_consumption_template.png)
+   ![Template selection](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
 ## Experiment with the tool
 

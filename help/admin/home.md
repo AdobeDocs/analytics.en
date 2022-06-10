@@ -1,18 +1,23 @@
 ---
-title: Analytics Admin Help
-seo-title: Analytics product comparison
-description: null
-seo-description: null
+title: Analytics Admin Guide
+description: Administration help for Adobe Analytics administrators, including user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection.
+feature: Admin Tools
+exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 ---
-
 # Analytics Admin Guide
 
-![Banner](../../assets/doc_banner_admin.png)
+![Banner](/assets/doc_banner_admin.png)
+
+This help is intended for administrators of Adobe Analytics. It includes help on user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection. 
+
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe Analytics currently has two areas for administrators:
 
 * Adobe Admin Console: Use this area for provisioning Experience Cloud tools, and managing user permissions. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics Admin Console: Use this area for report suite and variable management. It can be accessed by clicking Admin in the top header of Adobe Analytics.
+* Analytics Admin Console: Use this area for report suite and variable management. It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 This guide covers:
 
@@ -28,11 +33,11 @@ This guide does not cover many of the generic capabilities that the Adobe Admin 
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

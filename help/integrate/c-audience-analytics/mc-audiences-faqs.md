@@ -1,12 +1,10 @@
 ---
 description: Answers to questions you might have when implementing Audience Analytics.
-seo-description: Answers to questions you might have when implementing Audience Analytics.
-seo-title: Frequently Asked Questions
-solution: Marketing Cloud
-title: Frequently Asked Questions
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+solution: Experience Cloud
+title: Frequently Asked Questions for Audience Analytics
+feature: Audience Analytics
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 ---
-
 # Frequently Asked Questions
 
 Answers to questions you might have when implementing Audience Analytics.
@@ -20,7 +18,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">If you have emails/addresses/etc in a prop or eVar, consider hashing the data during collection. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external"> turn on IP obfuscation </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  > turn on IP obfuscation </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Talk to your Analytics Admin to see what you are collecting. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Talk to your Legal dept to see what they consider PII. </li> 
     </ul> </td> 
@@ -29,7 +27,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col1"> <b>Q: How do I know if my report suites do onsite personalization, or offsite/onsite targeting?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">These don’t apply to sending Adobe Analytics data to Adobe Audience Manager. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">These don't apply to sending Adobe Analytics data to Adobe Audience Manager. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">Ask yourself: Will you share an Analytics-shared segment with an MCA dimension back to the Experience Cloud? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">Are you exporting (e.g. via data feeds) out to a Business Intelligence (BI) system that is used for these purposes? </li> 
     </ul> </td> 
@@ -43,7 +41,7 @@ Answers to questions you might have when implementing Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I create an Analytics destination in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: After creating and saving an Analytics destination, how long will it take until data appears in my selected report suites?</b> </p> </td> 
@@ -82,23 +80,23 @@ Answers to questions you might have when implementing Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Where can I use these dimensions in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Almost everywhere; they are treated just like any other dimension collected in Analytics. There are two exceptions: for now, data will not be in Data Workbench or Livestream. </p> </td> 
+   <td colname="col2"> <p>Almost everywhere; they are treated just like any other dimension collected in Analytics. There is one exception: for now, data will not be in Data Workbench. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Why don’t I see data coming through in Analytics?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Why don't I see data coming through in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>You likely have conflicting AAM privacy controls between data source &amp; destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why are some of my segments missing in Analytics, even though I chose to send all segments?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Your AAM data export controls on the destination and in the segments’ data sources may be conflicting, preventing certain segments from being sent. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Your AAM data export controls on the destination and in the segments' data sources may be conflicting, preventing certain segments from being sent. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">If you are using 3rd-party data traits in your segments, those segments cannot be shared to destinations (a set of report suites) that contain personal data. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why do I see "Audience limit reached" in my Analytics report? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>By default, the Audience Analytics integration for AAM sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 AAM segments on a single hit, the <b>150 most recently qualified segments</b> are sent to Analytics, while the remaining list is truncated. </p> <p>An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as “Audience limit reached” in the Audience Name dimension and “-1” in the Audience ID dimension. </p> <p>While it is unlikely that a visitor qualifies for more than 150 segments on a particular hit, it may happen a small percentage of the time. If you experience “Audience limit reached” in your reporting, you have two options: </p> 
+   <td colname="col2"> <p>By default, the Audience Analytics integration for AAM sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 AAM segments on a single hit, the <b>150 most recently qualified segments</b> are sent to Analytics, while the remaining list is truncated. </p> <p>An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as "Audience limit reached" in the Audience Name dimension and "-1" in the Audience ID dimension. </p> <p>While it is unlikely that a visitor qualifies for more than 150 segments on a particular hit, it may happen a small percentage of the time. If you experience "Audience limit reached" in your reporting, you have two options: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Continue to let the integration work in its out-of-the-box state, sending the 150 most recently qualified segments for a particular visitor. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: In AAM, choose the 150 segments that matter most to your business for the integration. AAM then checks visitors against only those 150 segments. The disadvantage of this approach is that you only receive those 150 segments across all visitors. On the other hand, the Option 1 approach can deliver unlimited segments due to the per-hit nature of the integration. </li> 
@@ -120,7 +118,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col2"> <p>Yes. In the AAM destination setup, you will see only report suites that have SSF turned on. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: Why can’t I turn on certain report suites for SSF in Analytics Admin?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q: Why can't I turn on certain report suites for SSF in Analytics Admin?</b> </p> </td> 
    <td colname="col2"> <p>Only suites that are mapped to your Experience Cloud Org can be enabled. </p> </td> 
   </tr> 
  </tbody> 
@@ -134,11 +132,11 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q: Why are the segment visitor counts different between Audience Manager and Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> Visitor Count Differences </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Visitor Count Differences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What is the difference between "audiences" in AAM and "segments" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What is the difference between Customer Attributes and customer data integrated from AAM?</b> </p> </td> 
@@ -150,4 +148,3 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
  </tbody> 
 </table>
-

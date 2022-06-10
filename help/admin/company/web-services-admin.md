@@ -1,26 +1,22 @@
 ---
 description: The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.
-seo-description: The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.
-seo-title: Web Services
-solution: Analytics
 title: Web Services
-topic: Admin tools
-uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+feature: Company Settings
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 ---
-
 # Web Services
 
 The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Web Services]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Web Services]**
 
 ## Manage Web Services
 
-In User Management > [Groups](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) you can update the Web Service Access group to include those users that need access to the Web Services APIs.
+In the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) you can update the permissions to include those users that need access to the Web Services APIs.
 
-## WSDL: Download the Web Services API WSDL for Web services developers.
+## WSDL: Download the Web Services API WSDL for Web services developers
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Click Web Services APIs Overview for more information.
+Visit [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), which provides documentation, sample code, and forums related to the Web Services APIs. Click Web Services APIs Overview for more information.
 
 ## Filtering Options
 

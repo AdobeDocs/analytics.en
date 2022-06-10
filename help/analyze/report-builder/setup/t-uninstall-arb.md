@@ -1,13 +1,11 @@
 ---
 description: Steps that describe how to uninstall Adobe Report Builder.
-seo-description: Steps that describe how to uninstall Adobe Report Builder.
-seo-title: Uninstall Report Builder
-solution: Analytics
 title: Uninstall Report Builder
-topic: Report builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
+feature: Report Builder
+role: User, Admin
+exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 ---
-
 # Uninstall Report Builder
 
 Steps that describe how to uninstall Adobe Report Builder.

@@ -1,13 +1,11 @@
 ---
 description: The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
-seo-description: The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
-seo-title: Page details
-solution: Analytics
 title: Page details
-topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
+feature: Activity Map
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
 ---
-
 # Page details
 
 The Page Details tab displays the Page Report as a table and the Page Flow Report is shown as a bow tie (butterfly) report.
@@ -26,7 +24,7 @@ The right side shows the top four Next Pages, and the number of exits.
 
 If a URL was tracked for any internal pages displayed in this section, the page will be displayed as a link. Thus, you can click on that page and continue down the path of pages with the most affinity. This report thus allows you to interactively navigate your web properties from a web analytics perspective.
 
-The Page Flow Report is available only in Standard Mode. 
+The Page Flow Report is available only in Standard Mode.
 
 |  **Page Flow** | **Description** |
 |---|---|
@@ -34,4 +32,3 @@ The Page Flow Report is available only in Standard Mode.
 |  Previous Pages  | Names the internal page in the report suite before the current page.  |
 |  Next Pages  | The page visited after leaving the current page.  |
 |  Site Exits  | Number who left the site completely after viewing the page.  |
-

@@ -1,13 +1,10 @@
 ---
 description: Data warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent via FTP, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
-seo-description: Data warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent via FTP, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
-seo-title: Data Warehouse overview
-solution: Analytics
 title: Data Warehouse overview
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 ---
-
 # Data Warehouse overview
 
 Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent via FTP, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
@@ -28,7 +25,7 @@ Data Warehouse can process an unlimited number of rows in a single request for i
 
 ## Data Warehouse Requests Descriptions {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab. 
+This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
@@ -53,7 +50,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Available Segments</span> </td> 
-   <td colname="col2"> <p>Lets you select the part of the visitor population you want to examine and generate complex segments. You can load pre-configured segments, create new segments, and store segment components in a library to use in building additional segments. </p> <p>You can now stack segments. When selecting multiple segments, the preview area, the Request Manager, and the Request Detail popup show a comma-separated list of names (e.g., Segment1, Segment2). </p> <p>See the [Segmentation Guide](/help/components/c-segmentation/seg-home.md)for more information. </p> <p>Note:  You cannot include both a segment filter and a breakdown on the same segment, in the same Data Warehouse report. Doing so will result in an error. </p> </td> 
+   <td colname="col2"> <p>Lets you select the part of the visitor population you want to examine and generate complex segments. You can load pre-configured segments, create new segments, and store segment components in a library to use in building additional segments. </p> <p>You can now stack segments. When selecting multiple segments, the preview area, the Request Manager, and the Request Detail popup show a comma-separated list of names (e.g., Segment1, Segment2). </p> <p>See the <a href="/help/components/segmentation/seg-home.md"> Segmentation Guide</a> for more information. </p> <p>Note:  You cannot include both a segment filter and a breakdown on the same segment, in the same Data Warehouse report. Doing so will result in an error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Breakdowns</span> </td> 
@@ -65,7 +62,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Metrics Sort</span> </td> 
-   <td colname="col2">Provides ranked breakdown reports, sorted by descending metric value, similar to what is displayed in the Reports &amp; Analytics user interface, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> More...</a> </td> 
+   <td colname="col2">Provides ranked breakdown reports, sorted by descending metric value, similar to what is displayed in the Reports &amp; Analytics user interface, Data Workbench, etc. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > More...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Schedule Delivery</span> </td> 
@@ -73,4 +70,3 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
  </tbody> 
 </table>
-

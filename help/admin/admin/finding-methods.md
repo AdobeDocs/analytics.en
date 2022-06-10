@@ -1,13 +1,10 @@
 ---
 description: The Finding Methods page identifies how various finding methods reports receive credit for conversion success events on your site. For example, if a search engine refers a visitor to your site who makes a purchase, Finding Methods specify how the search engine receives credit for the referral.
-seo-description: The Finding Methods page identifies how various finding methods reports receive credit for conversion success events on your site. For example, if a search engine refers a visitor to your site who makes a purchase, Finding Methods specify how the search engine receives credit for the referral.
-seo-title: Finding Methods
-solution: Analytics
 title: Finding Methods
-topic: Admin tools
+feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 ---
-
 # Finding Methods
 
 The Finding Methods page identifies how various finding methods reports receive credit for conversion success events on your site. For example, if a search engine refers a visitor to your site who makes a purchase, Finding Methods specify how the search engine receives credit for the referral.
@@ -54,4 +51,3 @@ The Finding Methods page identifies how various finding methods reports receive 
 >[!NOTE]
 >
 >All Finding Methods expire when the visit ends. If you choose to Expire After a different event (for example, Cart Checkout), the Finding Method expires when Cart Checkout occurs during the visit. If a Cart Checkout does not occur during the visit, the Finding Method still expires when the visit ends.
-

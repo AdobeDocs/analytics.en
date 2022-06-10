@@ -1,11 +1,12 @@
 ---
 title: Component support in Data Warehouse
 description: Learn what additional dimensions and metrics are available in Data Warehouse and what is not supported.
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 ---
-
 # Component support in Data Warehouse
 
-Data Warehouse's unique processing architecture allows some components that aren't typically available in other capabilities of Adobe Analytics. Also due to its unique architecture, some components are not available for use in either reports or segments. Use this page to understand what can be used, and what cannot.
+Data Warehouse's unique processing architecture allows some components that aren't typically available in other capabilities of Adobe Analytics. Due to its unique architecture, some components are not available for use in either reports or segments. Use this page to understand what can be used, and what cannot.
 
 ## Components unique to Data Warehouse
 
@@ -13,7 +14,7 @@ Some dimensions and metrics can be used in Data Warehouse whereas they are not a
 
 ### Dimensions supported exclusively
 
-* Experience Cloud Visitor ID: For implementations that use the Experience Cloud ID Service (ECID), a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
+* Experience Cloud ID: For implementations that use the Experience Cloud ID Service (ECID), a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
 * Page URL: The page URL the hit occurred on.
 * Purchase IDs: Unique identifier for a purchase, set using the purchaseID variable.
 * Visitor ID: Provides the unique identifier for the visitor. This value is the same as concatenated value of `visid_high` and `visid_low` columns in data feeds. See [Data column reference](../analytics-data-feed/c-df-contents/datafeeds-reference.md) under Data Feeds for more information.
@@ -27,7 +28,9 @@ Some dimensions and metrics can be used in Data Warehouse whereas they are not a
 
 Some dimensions and metrics are not supported in Data Warehouse.
 
-> [!NOTE] If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
+>[!NOTE]
+>
+>If a dimension or metric is not supported in Data Warehouse, segments using these components are not supported either. Always check product compatibility when creating or editing a segment.
 
 ### Dimensions not supported
 
@@ -68,4 +71,4 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * Exits
   * Reloads
   * Single Access
-  * Time Spent metrics
+  * 'Time Spent' metrics

@@ -1,14 +1,13 @@
 ---
-description: null
-seo-description: null
-seo-title: Alert Builder
-title: Alert Builder
-uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
+description: Get alerts when project components reach certain thresholds.
+title: Alert Builder (Analysis Workspace)
+feature: Alerts
+role: User, Admin
+exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 ---
-
 # Alert Builder
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
 
@@ -19,8 +18,8 @@ Access the Alert Builder in one of four ways:
 * By using the following shortcut in Analysis Workspace:
 
   `ctrl (or cmd) + shift + a` 
-* By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**. 
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 
+* By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
 * From within a Reports & Analytics report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Build Alerts
@@ -65,7 +64,7 @@ Set the alert's expiration date.
 
 * Drag and drop metrics into the canvas that will add triggers.
 
-  An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+  An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * Determine the threshold that the metric must exceed before an alert is set. You can set this value to a threshold and then to one of the following conditions:
 
   *   anomaly exists

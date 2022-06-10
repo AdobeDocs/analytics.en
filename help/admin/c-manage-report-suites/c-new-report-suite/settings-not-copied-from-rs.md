@@ -1,13 +1,9 @@
 ---
 description: If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
-seo-description: If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
-seo-title: Settings not copied from a source report suite
-solution: Analytics
 title: Settings not copied from a source report suite
-topic: Admin tools
-uuid: 5176c561-a278-43e4-837f-a17759985d52
+feature: Report Suite Settings
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 ---
-
 # Settings not copied from a source report suite
 
 If you copied settings from an existing report suite, a system message identifies any settings not copied to the new report suite.
@@ -24,7 +20,7 @@ The following settings are not copied from template or duplicated report suites:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Classification data (classification structure is copied) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external"> Classifications Importer (Upload) documentation</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Classifications Importer (Upload) documentation</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable Transaction ID Recording </p> </td> 
@@ -57,17 +53,8 @@ The following settings are not copied from template or duplicated report suites:
     </ol> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Unique Events Manager </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>, then select a report suite. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Click <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Success Events</span> </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">Check box and select setting on <span class="uicontrol"> Unique Event Recording</span> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Visitor Clickmap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Upgrade to Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Upgrade to Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA rules </p> </td> 
@@ -75,4 +62,3 @@ The following settings are not copied from template or duplicated report suites:
   </tr> 
  </tbody> 
 </table>
-

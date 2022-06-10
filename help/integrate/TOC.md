@@ -2,22 +2,19 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Integration Guide
-user-guide-url: /content/help/en/analytics/integration/home.html
+breadcrumb-title: Integration Guide
+user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager and Advertising Cloud.
 ---
 
-# Analytics Integration Guide {#integration}
+# Adobe Analytics Integration Guide {#integration}
 
 + [Analytics Integration](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Audience Analytics {#audience-analytics}
   + [Audience Analytics overview](c-audience-analytics/mc-audiences-aam.md)
   + Audience Analytics workflow {#audience-analytics-workflow}
     + [Workflow overview](c-audience-analytics/c-workflow/audiences-workflow.md)
-    + [Server-side forwarding overview - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf.md)
-    + [GDPR/ePrivacy compliance and server-side forwarding - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
-    + [Requirements for server-side forwarding -Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-    + [Verify your server-side forwarding implementation - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
-    + [Server-side forwarding FAQ - Admin Guide](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-    + [Create analytics destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+    + [Create Analytics destination - AAM Guide](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
     + [Use the audience data in Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
     + [Audience Analytics use cases](c-audience-analytics/aam-audience-use-cases.md)
     + [Frequently Asked Questions](c-audience-analytics/mc-audiences-faqs.md)
@@ -35,8 +32,10 @@ user-guide-url: /content/help/en/analytics/integration/home.html
     + [Manage advertising accounts](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
     + [Troubleshoot Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
   + [Frequently Asked Questions](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
-+ [Adobe Campaign reporting](adobe-campaign.md)
++ [Adobe Analytics for Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
++ [Adobe Campaign reporting in Adobe Analytics](adobe-campaign.md)
++ [Integrate Adobe Analytics data with Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets reporting](aem-assets-reporting.md)
 + [Activity Map reporting](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)

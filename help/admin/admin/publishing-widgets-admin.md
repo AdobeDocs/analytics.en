@@ -1,13 +1,10 @@
 ---
 description: A Publishing Widget is a container that lets you embed marketing reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to marketing reports can view pertinent data.
-seo-description: A Publishing Widget is a container that lets you embed marketing reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to marketing reports can view pertinent data.
-seo-title: Publishing Widget
-solution: Analytics
 title: Publishing Widget
-topic: Admin tools
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
+exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 ---
-
 # Publishing Widget
 
 A Publishing Widget is a container that lets you embed Analytics reports (bookmarks and dashboards) on a web page. People in your organization who do not have access to Analytics reports can view pertinent data.
@@ -16,9 +13,9 @@ For example, you could provide a dashboard so company executives can view the nu
 
 >[!CAUTION]
 >
->No authentication is required to view data published through the Publishing Widget. Because of this, you should consider published data to be no more secure than data sent to an email group or list server. Use the widget only in compliance with your organization's security standards, existing contractual requirements, and applicable law. The Publishing Widget provides the ability to restrict, by IP address or domain path, where you can publish data. However, these mechanisms are intended solely to prevent unintended data distribution, and are not an effective way to secure access to data distributed through the Publishing Widget. 
+>No authentication is required to view data published through the Publishing Widget. Because of this, you should consider published data to be no more secure than data sent to an email group or list server. Use the widget only in compliance with your organization's security standards, existing contractual requirements, and applicable law. The Publishing Widget provides the ability to restrict, by IP address or domain path, where you can publish data. However, these mechanisms are intended solely to prevent unintended data distribution, and are not an effective way to secure access to data distributed through the Publishing Widget.
 >
->Adobe assumes no responsibility or liability for data exposed through the Publishing Widget.
+> Adobe assumes no responsibility or liability for data exposed through the Publishing Widget.
 
 Because Publishing Widget can potentially drive high traffic volumes, Adobe reserves the right, at its sole discretion, to disable a company's Publishing widgets for improper use or excessive traffic that is causing an impact to overall performance.
 
@@ -28,8 +25,8 @@ The first time any user sees the deployed publishing widget, the widget runs the
 
 If you see data differences between the Publishing Widget and the reporting interface, you might need to clear the Publishing Widget cache.
 
-1. Click in the Publishing Widget (so that the widget has focus). 
-1. Click **[!UICONTROL Save]** on the widget. 
+1. Click in the Publishing Widget (so that the widget has focus).
+1. Click **[!UICONTROL Save]** on the widget.
 1. Re-run the widget. (Preview mode does not use the widget's cache.)
 
 >[!NOTE]

@@ -1,13 +1,12 @@
 ---
 description: The Include Current Data option in Reports & Analytics lets you view the latest Analytics data, often before data is fully processed and finalized. Current data displays most metrics within minutes, providing actionable data for quick decision making.
-seo-title: Current Data
-solution: Analytics
 subtopic: Current Data
 title: Current Data
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 ---
-
 # Current Data
 
 The Include Current Data option in Reports & Analytics lets you view the latest Analytics data, often before data is fully processed and finalized. Current data displays most metrics within minutes, providing actionable data for quick decision making.
@@ -20,7 +19,7 @@ Current Data is enabled by default on all reports that support it. If you would 
 
 * Use Analysis Workspace, which uses fully processed data.
 * Click 'No' in the current data report setting to only use fully processed data.
-* Remove the 'Current Data' permission item from a product profile in the Admin Console to prevent non-admin users from seeing this option. See [Analytics Tools permission items](../../admin/admin-console/permissions/analytics-tools.md) in the Admin user guide for more information.
+* Remove the 'Current Data' permission item from a product profile in the Admin Console to prevent non-admin users from seeing this option. See [Product profile permissions for Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md) in the Admin user guide for more information.
 
 Due to prioritizing data availability, current data currently cannot be used with segments, classifications, breakdowns, pathing, and some metrics. If one of these features are used, current data is forced to 'No' in the report and a yellow notice is shown explaining why current data is not available.
 

@@ -1,24 +1,22 @@
 ---
 description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
-seo-description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
-seo-title: Link tracking methodology
-solution: Analytics
 title: Link tracking methodology
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
+feature: Activity Map
+role: User, Admin
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 ---
-
 # Link tracking methodology
 
 This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how Activity Map may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). For more information on how Activity Map may be collecting PII data, go [here](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map bases its link tracking on these two IDs:
 
-* Primary ID: this is the recognizable parameter of the link. 
+* Primary ID: this is the recognizable parameter of the link.
 * Link Region: this is a secondary parameter that allows users to specify a string that is representative of the overall link area in the page or region. This parameter can be automatically generated if it is not provided by the user.
 
 ## Primary ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
@@ -41,9 +39,9 @@ Link action is the action taken by the web page when the link is clicked - usual
 
 As a result, we use InnerText with these benefits over using Link Action (URL):
 
-* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text. 
-* It ensures consistency of the Primary ID across devices and browser types. 
-* It is not affected by a link repositioning on the page. 
+* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text.
+* It ensures consistency of the Primary ID across devices and browser types.
+* It is not affected by a link repositioning on the page.
 * It improves readability, so users can start analyzing Link tracking reports outside Activity Map.
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
@@ -52,113 +50,166 @@ This new attribute allows users to specify a string that is representative of th
 
 For example, for a "Contact Us" link that is located in the menu section of the web page, the user may want to pass a "Menu" region parameter. Similarly, for a "Contact Us" link located in the footer of the web page, the region parameter may be set to "footer".
 
-The Link Region value is not set on the link itself, but on one HTML element up the DOM HTML tree that encompasses that region. 
+The Link Region value is not set on the link itself, but on one HTML element up the DOM HTML tree that encompasses that region.
 Using Link Region has these benefits:
 
-* It helps differentiate links with the same primary ID. 
-* Trending on a region is less affected by the dynamic aspect of the web page. 
-* Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting). 
-* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: “Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
+* It helps differentiate links with the same primary ID.
+* Trending on a region is less affected by the dynamic aspect of the web page.
+* Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting).
+* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: "Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
 * In itself, Region is a relevant dimension to analyze highly dynamic web pages. This is because it removes the noise due to continuously changing links: a "Latest News" Region in the CNN landing page may have a lot of changing links. But the region will always be there. So it might be interesting to trend at the Region level over many days.
 
 **Customized Region Tracking**
 
-You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different “IDs” on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
+You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different "IDs" on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
 
 Below, you can view some sample HTML using the default region ID attribute, "id".
 
 ```
-<div id="content"> 
-  <div id="breaking_news"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
-
+<div id="content">
+  <div id="breaking_news">
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
-If you want, you can tag elements with an arbitrary string identifier, in this case " lpos", and then add attributes with the name "lpos".
+If you want, you can tag elements with an arbitrary string identifier, in this case "lpos", and then add attributes with the name "lpos".
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
-   
-<div id="nav" lpos="navbar"> 
-  <ul> 
-     <li> Menu Category A 
-    <ul> 
-      <li><a href="">Menu Item A 1</a> 
-      <li><a href="">Menu Item A 2</a> 
-     </ul> 
-    </li> 
-     <li> Menu Category B 
-     <ul> 
-      <li><a href="">Menu Item B 1</a>  
-      <li><a href="">Menu Item B 2</a> 
-  
-   </ul> 
-</ul> 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute = "lpos";
+</script>
+<div id="nav" lpos="navbar">
+  <ul>
+    <li>Menu Category A
+      <ul>
+        <li><a href="">Menu Item A 1</a>
+        <li><a href="">Menu Item A 2</a>
+      </ul>
+    </li>
+    <li>Menu Category B
+      <ul>
+        <li><a href="">Menu Item B 1</a>
+        <li><a href="">Menu Item B 2</a>
+      </ul>
+    </li>
+  </ul>
 </div> 
   
-<div id="content" > 
-  <div id="breaking_news" lpos="breaking_news> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
- <div id="todays_top_headlines"> 
-      <a href="breaking-news.html">...</a> 
-   </div> 
-</div>
+<div id="content">
+  <div id="breaking_news" lpos="breaking_news>
+    <a href="breaking-news.html">...</a>
+  </div>
+  <div id="todays_top_headlines">
+    <a href="breaking-news.html">...</a>
+  </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## Configuration variables {#configuration-vars}
 
-Note that these variables are listed for reference purposes only. Activity Map should be configured properly out of the box, but you can customize your implementation using these variables. 
+Note that these variables are listed for reference purposes only. Activity Map should be configured properly out of the box, but you can customize your implementation using these variables.
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable Name </th> 
-   <th colname="col2" class="entry"> Example </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> Defaults to the "id" parameter. You can set this to another parameter. </td> 
-   <td colname="col3"> String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of s.linkObject, i.e. <b>the element that was clicked</b>. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
-    </code> </td> 
-   <td colname="col3"> Function that receives the clicked HTMLElement and should return a string value that represents <b>the link that was clicked</b>. <p>If the return value is false (null, undefined, empty string, 0), no link is tracked. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-    <code>
-      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
-    </code> </td> 
-   <td colname="col3"> Function that receives the clicked HTMLElement and should return a string value that represents <b>the region where the link was found when clicked</b>. <p>If the return value is false (null, undefined, empty string, 0), no link is tracked. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
-    </code> </td> 
-   <td colname="col3"> <p>String that receives a comma-separated list of strings to search for in link text. If found, then the link is excluded from being tracked by Activity Map. If not set, there is no attempt made to stop tracking the link by Activity Map. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>
-      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
-    </code> </td> 
-   <td colname="col3"> <p>String that receives a comma-separated list of strings to search for in region text. If found, then the link is excluded from being tracked by Activity Map. If not set, there is no attempt made to stop tracking the link by Activity Map. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of `s.linkObject`, i.e., **the element that was clicked**.
+
+**Example**
+
+Defaults to the "id" parameter. You can set this to another parameter.
+
+### `s.ActivityMap.link`
+
+Function that receives the clicked `HTMLElement` and should return a string value that represents the link that was clicked. If the return value is false (null, undefined, empty string, 0), no link is tracked.
+
+**Example**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+ Function that receives the clicked HTMLElement and should return a string value that represents **the region where the link was found when clicked.** If the return value is false (null, undefined, empty string, 0), no link is tracked. 
+ 
+**Example**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+ 
+### `s.ActivityMap.linkExclusions`
+  
+String that receives a comma-separated list of strings to search for in link text. If found, then the link is excluded from being tracked by Activity Map. If not set, there is no attempt made to stop tracking the link by Activity Map. 
+
+**Example**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+String that receives a comma-separated list of strings to search for in region text. If found, then the link is excluded from being tracked by Activity Map. If not set, there is no attempt made to stop tracking the link by Activity Map. 
+
+**Example**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```

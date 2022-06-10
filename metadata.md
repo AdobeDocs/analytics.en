@@ -1,15 +1,11 @@
 ---
-cloud: experience-cloud
-product: adobe analytics
-solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
+cloud: Experience Cloud
+product: analytics 
+solution: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.en
+type: Documentation
 index: yes
+feature-set: Analytics
 ---
 
 # Metadata for internal use

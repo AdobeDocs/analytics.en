@@ -1,16 +1,15 @@
 ---
 description: Overview of what data Adobe Analytics collects and other privacy considerations.
 keywords: privacy
-seo-description: Overview of what data Adobe Analytics collects and other privacy considerations.
-seo-title: Privacy overview
-solution: Analytics
 title: Privacy overview
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 ---
-
 # Privacy overview
 
-Overview of what data Adobe Analytics collects and other privacy considerations.
+Adobe recommends that you provide your website visitors with easy-to-find and easy-to-understand information regarding the ability to opt out of having their browsing information collected by Adobe products or services.
+
+Visitors can learn more about how Adobe generally uses information it collects in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
 
 ## Data Collection Breakdown {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -70,7 +69,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> First-party analytics are not within scope of the Self-Regulatory Program for Online Behavioral Advertising (“AdChoices”). </td> 
+   <td colname="col2"> First-party analytics are not within scope of the Self-Regulatory Program for Online Behavioral Advertising ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -86,15 +85,15 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, refer to </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, see </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">General Account Settings</a> in the Admin user guide.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> A customer can set the cookie lifetime variable in the JavaScript measurement code to a value of „none,“ „session“ or another specified value measured in seconds. </td> 
+   <td colname="col2"> A customer can set the cookie lifetime variable in the JavaScript measurement code to a value of „none," „session" or another specified value measured in seconds. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe has developed a new “privacy by design” setting that can now be enabled by Adobe ClientCare for Adobe Analytics (formerly SiteCatalyst) release versions 14.9 and 15.4. When this new setting is enabled, the last octet (the last portion) of the IP address is immediately replaced with the value 0 once the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including prior to both an optional geo-lookup and ISP-lookup of the IP address. </td> 
+   <td colname="col2"> Adobe has developed a new "privacy by design" setting that can now be enabled by Adobe ClientCare for Adobe Analytics (formerly SiteCatalyst) release versions 14.9 and 15.4. When this new setting is enabled, the last octet (the last portion) of the IP address is immediately replaced with the value 0 once the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including prior to both an optional geo-lookup and ISP-lookup of the IP address. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Germany </td> 
@@ -123,7 +122,7 @@ The following EMEA data centers currently host Adobe Analytics data:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table" format="http" scope="external"> Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 

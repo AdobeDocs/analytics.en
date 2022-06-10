@@ -1,13 +1,11 @@
 ---
 description: Filters allow you to narrow the report to include or exclude line items that match a filter.
-seo-description: Filters allow you to narrow the report to include or exclude line items that match a filter.
-seo-title: Filtering Report Data
-solution: Analytics
 title: Filtering Report Data
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 ---
-
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Filters allow you to narrow the report to include or exclude line items that match a filter.
@@ -50,7 +48,7 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 **Does not contain**
 
-Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain". 
+Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) from reports using "does not contain".
 
 Does not contain: `none`
 
@@ -82,7 +80,7 @@ Sale & Values
 
 **Equals**
 
-Matches if the entire line item, including spaces and other characters, match the specified phrase. 
+Matches if the entire line item, including spaces and other characters, match the specified phrase.
 
 Equals: `mens:desk & travel`
 
@@ -90,7 +88,7 @@ Equals: `mens:desk & travel`
 
 **Starts With**
 
-Matches if the line item, including spaces and other characters, starts with the specified phrase. 
+Matches if the line item, including spaces and other characters, starts with the specified phrase.
 
 Starts With: `mens`
 
@@ -106,7 +104,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **Ends With**
 
-Matches if the line item, including spaces and other characters, ends with the specified phrase. 
+Matches if the line item, including spaces and other characters, ends with the specified phrase.
 
 Ends With: `jean`
 
@@ -122,7 +120,7 @@ Ocean Blue Jean
 
 ## Advanced (Special Character) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-Advanced let you perform wildcard and other complex searches. 
+Advanced let you perform wildcard and other complex searches.
 
 | Advanced (Special Character) | Description |
 |--- |--- |
@@ -171,7 +169,7 @@ You can filter the data shown in a correlation report using any available correl
 
 **To add a correlation filter** 
 
-1. Run a report that supports correlations. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Run a report that supports correlations. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Under [!UICONTROL Filter Rule Creator], select a category to correlate with an item.
 1. Click **[!UICONTROL OK.]**

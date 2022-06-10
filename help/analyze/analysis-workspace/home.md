@@ -1,104 +1,67 @@
 ---
-description: How to get started using Adobe Analytics.
-keywords: Analysis Workspace
-seo-description: How to get started using Adobe Analytics.
-seo-title: Getting Started guide
-solution: Analytics
-title: Getting Started guide
-topic: Reports and analytics
-uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
+title: What is Analysis Workspace and how do I use it?
+description: Analysis Workspace is the premier analysis tool for Adobe Analytics. It lets you use panels, tables, visualizations, and other components to bring data to life, curate a dataset, share and schedule projects, among other capabilities.
+feature: Workspace Basics
+role: User, Admin
+exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 ---
+# Analysis Workspace overview
 
-# Analysis Workspace
+Analysis Workspace is a flexible browser tool that allows you to quickly build analyses and share insights. Using the drag-and-drop interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share and schedule projects with anyone in your organization.
 
-Analysis Workspace is one of Adobe's flagship tools to make actionable data-based decisions for your organization. The most common visualization, the freeform table, lets you easily create customized reports using dimensions, metrics, segments, and date ranges.
+If you have only a few minutes, watch this brief overview to see what is possible.
 
-## Prerequisites
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
-[Send data to Adobe Analytics using Adobe Experience Platform Launch](../../implement/implement-with-launch/validate-publish-prod.md): Using Analysis Workspace requires a working implementation. Make sure your organization is sending data to Adobe before using the tool. Other implementations, such as DTM or legacy manual implementations, can work as well.
+## Log in to Adobe Analytics {#login}
 
-## Pull a basic ranked report in Workspace
+To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](https://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
 
-Pull a basic ranked report using Analysis Workspace. A ranked report shows an aggregated total view of each dimension value, showing the largest values first. These types of reports are useful to see what components of your site are most effective, such as which pages get the most traffic or what products sell the most.
+![](assets/login-analytics.png)
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Click the 9-square icon in the upper right, then click the colored Analytics logo.
-3. In the top navigation bar, click Workspace.
-4. Click the 'Create New Project' button.
-5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
-6. On the left, you should see a list of dimensions, metrics, segments, and date ranges. Locate the Pages dimension (colored orange), and drag it over to the canvas where it says 'Drop a Dimension Here'.
-7. Note that if the report suite has data, a report showing the top pages for this month can be seen. Analysis Workspace automatically populated the report with the [Occurrences](../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
-8. Locate the Visits metric (colored green), and drag it either **over** or **next to** the Occurrences metric header (avoid placing it above the metric). If you drag the Visits metric on top of Occurrences, the metric is replaced in reporting. If you drag the Visits metric next to Occurrences, both metrics are displayed side-by-side.
-9. If you'd like to save your project, click *[!UICONTROL Project] > [!UICONTROL Save]* in the upper left menu.
+## Use the Training tutorial {#training-tutorial}
 
-## Pull a basic trended report in Workspace
+Once logged in, your first stop should be the Analysis Workspace Training Tutorial, which walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial, click **[!UICONTROL Create New Project]** and then select **Training Tutorial** within the new project modal.
 
-Pull a basic trended report using Analysis Workspace. A trended report shows an over-time view of metrics using the selected date range. These types of reports are useful for identifying trends over time, and can be used to gauge success or failure of business decisions made. For example, you could look at a page views report trended over time to see if a site redesign helped increase or decrease traffic.
+![](assets/training-tutorial.png)
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Click the 9-square icon in the upper right, then click the colored Analytics logo.
-3. In the top navigation bar, click Workspace.
-4. Click the 'Create New Project' button.
-5. In the modal popup, make sure 'Blank Project' is selected, then click Create.
-6. On the left, you should see a list of dimensions, metrics, segments, and date ranges. Locate the Page Views dimension, and drag it to the small space on the canvas labeled 'Drop a Metric Here'. Avoid dropping it in the space reserved for dimensions (at least for this exercise).
-7. Note that if the report suite has data, you should see a basic page views report trended over the current month. Analysis Workspace automatically brought in the 'Day' date range so you can see the trend of page views for the current month.
-8. Locate the Week date range (colored purple) in the list of date range components on the left. Click the date range title to expand and see all date range components, or use the search bar.
-9. Drag the Week date range on top of the Day date range header on the canvas to replace it.
-10. Note that your trended report is now aggregated by week instead of day.
-11. If you'd like to save your project, click *[!UICONTROL Project] > [!UICONTROL Save]* in the upper left menu.
+## Create a new project {#new-project}
 
-## Experiment with the tool
+With the tutorial complete, you are ready to begin building your first project. The **new project modal** provides you with different options for starting your analysis. You can choose to start from a blank project or [blank mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), depending on whether you plan to share your analysis from the browser or the Adobe Analytics dashboards mobile app.
 
-Since Analysis Workspace is a reporting tool, it has no impact on data collection. There are no repercussions to indiscriminately dragging components into a project to see what works. Drag different combinations of dimensions and metrics into your workspace project to see what is available to you.
+![](assets/create-new-project.png)
 
-If you accidentally drag an invalid component to your workspace project or would like to go back a step, press ctrl+Z (Windows) or cmd+Z (Mac) to undo the last action made. You can also start with a clean slate by clicking *[!UICONTROL Project] > [!UICONTROL New]* in the upper left menu.
+You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There a several different templates available, depending on the analysis or use case you have in mind. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
 
-## Troubleshooting
+## Build your analysis {#analysis}
 
-**When I drag a metric over, it says 'Invalid data'.**
+In your Workspace project, **panels, tables, visualizations, and components** are accessed from the left rail. These are your project building blocks.
 
-Invalid data means that Adobe cannot return data using the combination of dimensions and metrics used in the report. For example, two metrics stacked on top of each other cannot be returned as data, as there is no way to display two metrics that way. Instead, place the metrics side-by-side.
+### Components
 
-**When I drag a metric over, I don't see any actual data - just zeros.**
+**Components** are dimensions, metrics, segments, or date ranges, all of which can be combined in a **[!UICONTROL Freeform table]** to start answering your business question. Be sure to familiarize yourself with each [component type](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) before diving into your analysis. Once you've mastered component terminology, you can begin dragging and dropping to [build your analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) in a **[!UICONTROL Freeform table]**.
 
-If you successfully create a workspace report but there's no data, there are a few things you can check:
+![](assets/build-components.png)
 
-* Double check the report suite and make sure it's one populated with data.
-* If you're using a segment in your report, the segment criteria might not match any data. Try removing the segment or adjusting the segment definition.
-* Check the date range in the upper right and make sure it's set to a value that you'd expect.
-* Navigate to your website and use the Debugger to validate that data is being collected.
+### Visualizations
 
-## Additional Resources
+**Visualizations**, such as a bar or line chart, are then added on top of the data to visually bring it to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) available.
 
-* [Analysis Workspace release notes](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md): Read up on the latest features introduced into the tool.
-* [Analysis Workspace on YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Learn how to use most features in Analysis Workspace via this extensive playlist.
-* In-product tips: Tips of the day, along with short videos, occasionally appear in the lower right corner of Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help] > [!UICONTROL Tips]* at any time.
-* [Analysis Workspace community](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Discuss Analysis Workspace with fellow users, and vote on features you'd like to see in the tool.
-* Blog posts:
-  * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-  * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-  * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-  * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-  * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+![](assets/build-visualizations.png)
 
-## Next steps
+### Panels
 
-There are a lot of directions to go to deepen your understanding of Analysis Workspace. Here are some basics that Adobe recommends:
+**Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of [panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) available.
 
-### For end users looking to expand knowledge on how to use Analysis Workspace
+![](assets/build-panels.png)
 
-* [Details on the Workspace UI](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): Now that you've created a basic report, become more familiar with the rest of the interface.
-* [Visualizations in Workspace](visualizations/freeform-analysis-visualizations.md): Freeform tables are merely one type of visualization in Analysis Workspace. Learn how to use other visualizations, such as line charts, bar graphs, and geo maps.
-* [Dimensions in Workspace](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Learn more about what dimensions are and how to use them in more than just ranked reports.
-* [Metrics in Workspace](../../analyze/analysis-workspace/components/apply-create-metrics.md): Learn more about what metrics are and how to use them in other parts of freeform tables.
-* [Introduction to segmentation](../../analyze/analysis-workspace/components/t-freeform-project-segment.md): Learn about what segments are and pull a basic report using a segment.
-* [Date ranges in Workspace](../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Learn about relative and rolling dates, and use them in workspace projects.
-* Sharing projects in Workspace: Show your colleague the awesome Workspace project you created.
-* [(Advanced) Panels in Workspace](c-panels/panels.md): Use advanced features in Workspace, such as Attribution and Segment Comparison.
+### Project management in Analysis Workspace
 
-### For analysts and admins looking to improve the quality of workspace in their organization
+Here is a video overview of project management:
 
-* [Analysis Workspace permissions](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html): Assign users permissions to Workspace via the Adobe Admin Console.
-* [Create a solution design document](../../implement/prepare/solution-design.md): Start planning how your organization collects additional dimensions or metrics specific to your site.
-* [Templates in Workspace](../../analyze/analysis-workspace/build-workspace-project/starter-projects.md): Create templates so your colleagues can start with a project space tailored to their needs.
-* [Workspace curation](curate-share/curate.md): Create a project that limits available components, making workspace more accessible to those less familiar with the tool
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+## Additional resources {#resources}
+
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) for updates about new features.

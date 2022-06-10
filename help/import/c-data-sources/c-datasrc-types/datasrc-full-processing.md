@@ -1,28 +1,28 @@
 ---
 description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-seo-description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-seo-title: Full processing
-solution: Analytics
-subtopic: Data sources
 title: Full processing
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 ---
-
 # Full processing
+
+>[!IMPORTANT]
+>
+>Adobe recommends that you use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe deprecated full processing data sources on January 31, 2022. [Learn more](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 
 Full Processing data sources data is processed as if it were received by Adobe servers at the time specified (each hit contains a timestamp).
 
-* [Visitor Profile](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
-* [Column Reference](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [Visitor Profile](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8) 
+* [Column Reference](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Visitor Profile {#section_6065627D0C144506965F562C80AE67F8}
 
 Full processing data sources data is processed using separate visitor profiles, so even if the visitor ID in uploaded data matches data collected using JavaScript or other AppMeasurement library, the visitor profiles are not connected from an eVar allocation perspective.
 
-For example, a user with a visitor ID of "user@example.com" visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. If you later upload a transaction using the same visitor ID, the "Spring Sale" campaign does not receive credit for any revenue or success events uploaded using full processing data sources.
 
 ## Column Reference {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -63,7 +63,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external"> s.events </a> variable. </p> <p>For example: </p> 
+   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -106,12 +106,12 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Page URL (for example, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). Can hold a maximum value of 4096 bytes per row.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -146,7 +146,7 @@ For example, a user with a visitor ID of "user@example.com" visits your site fro
  </tbody> 
 </table>
 
-The following table contains traffic variables that are populated automatically when using the JavaScript libraries. These properties do not have associated variables but can be imported using data sources. 
+The following table contains traffic variables that are populated automatically when using the JavaScript libraries. These properties do not have associated variables but can be imported using data sources.
 
 <table id="table_FDBC5BD225644AA09078C0570BE709FE"> 
  <thead> 
@@ -166,7 +166,7 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external"> Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
+   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -250,4 +250,3 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
  </tbody> 
 </table>
-

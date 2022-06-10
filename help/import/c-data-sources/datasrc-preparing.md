@@ -1,23 +1,20 @@
 ---
 description: Steps you can take to prepare to use data sources
-seo-description: Steps you can take to prepare to use data sources
-seo-title: Preparing to use Data Sources
-solution: Analytics
 subtopic: Data sources
 title: Preparing to use Data Sources
-topic: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 ---
-
 # Prepare to use Data Sources
 
 Steps you can take to prepare to use data sources
 
-* [Identify and Name the Metrics](../../import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135) 
-* [Identify the Data Dimensions](../../import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A) 
-* [Campaign Tracking Code](../../import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1) 
-* [Transaction ID](../../import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7) 
-* [Identify a Valid Date Range for Data Source Data](../../import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identify and Name the Metrics](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135) 
+* [Identify the Data Dimensions](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A) 
+* [Campaign Tracking Code](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1) 
+* [Transaction ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7) 
+* [Identify a Valid Date Range for Data Source Data](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identify and Name the Metrics {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
@@ -25,7 +22,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 After you determine the appropriate metric-to-event mappings for the Data Sources data, rename the events with descriptive names appropriate for the associated Data Sources metric.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in Admin Tools Help.
+See [Success Events](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in Admin Tools Help.
 
 >[!NOTE]
 >
@@ -47,7 +44,7 @@ After you define the data dimensions to use with a data source, integrate the di
 
 When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure you name them appropriately.
 
-See [Success Events](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) in Analytics Help.
+See [Success Events](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
 
 ## Campaign Tracking Code {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,4 +60,4 @@ The Transaction ID is used to connect an online event to an offline event.
 
 After you define your Data Sources metrics (Custom Events) and data dimensions (eVars), review the date range of the Data Source data that you want to import. You cannot import Data Sources that fall outside the range of your existing reporting data.
 
-For example, you cannot import Data Source data from before you implemented on-line data tracking. Data Sources data should be broken down by day. 
+For example, you cannot import Data Source data from before you implemented on-line data tracking. Data Sources data should be broken down by day.

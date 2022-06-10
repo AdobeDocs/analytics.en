@@ -1,21 +1,19 @@
 ---
 description: The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
-seo-description: The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
-seo-title: View/Manage Report Suite's Data Governance Settings
 title: View/Manage Report Suite's Data Governance Settings
-uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+feature: Data Governance
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 ---
-
 # View/Manage Report Suite's Data Governance Settings
 
 The Data Governance dialog in the Admin Tools provides an overview of which report suites have been configured for data governance, whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite.
 
-1. Log in to Adobe Experience Cloud. 
-1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** .
+1. Log in to Adobe Experience Cloud.
+1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
 
    You will see all the report suites that are part of your login company:
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -33,18 +31,17 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
    <td colname="col1"> <p>Organization Mapping </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapped</b>: This report suite has already been mapped to the same Experience Cloud organization as the Analytics login company that you are logged in to. Only report suites that have this setting can be labeled. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Map Report Suite</b>: Clicking this link will let you <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external"> map a report suite </a> to an Experience Cloud organization. <p>This means you will be redirected to the Experience Cloud Organization - Report Suite Mapping Admin page where you have to find the report suite, and assign it to the appropriate organization. Once that is done, navigate back to this Data Governance UI. </p> </li> 
+     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapped</b>: This report suite has already been mapped to the same Experience Cloud organization as the Analytics login company that you are logged in to. Only report suites that have this setting can be labeled. </li>
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapped to Another Organization</b>: Another Experience Cloud organization has already mapped this report suite to their organization. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Retention Policy </p> </td> 
-   <td colname="col2"> <p>The Analytics GDPR implementation requires that you have a data retention policy in place. </p> <p>This setting shows whether </p> 
-    <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
-     <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">a data retention policy is in place for this report suite, and </li> 
-     <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">how long the data is retained by Adobe before it is deleted. The default data retention period is 25 months. </li> 
-    </ul> <p>Note:  Adobe Analytics cannot assist you with processing requests to the GDPR API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set. Please contact your Customer Success Manager in order to set your data retention period. </p> </td> 
+   <td colname="col2"> <p>The Analytics Data Privacy implementation requires that you have a data retention policy in place. </p> <p>This setting shows whether: </p> 
+    <ul> 
+     <li>A data retention policy is in place for this report suite, and </li> 
+     <li>How long the data is retained by Adobe before it is deleted. The default data retention period is 25 months. </li> 
+    </ul> <p>Note:  Adobe Analytics cannot assist you with processing requests to the Data Privacy API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set. Please contact your Customer Success Manager in order to set your data retention period. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groups </p> </td> 
@@ -60,4 +57,3 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
   </tr> 
  </tbody> 
 </table>
-

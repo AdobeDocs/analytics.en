@@ -1,25 +1,31 @@
 ---
 description: Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as  year-over-year, quarter-over-quarter, month-over-month, etc.
-seo-description: Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as  year-over-year, quarter-over-quarter, month-over-month, etc.
-seo-title: Date comparison
 title: Date comparison
-uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
+feature: Calendar
+role: User, Admin
+exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 ---
-
 # Date comparison
 
 Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as: year-over-year, quarter-over-quarter, month-over-month, etc.
 
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+
 ## Compare time periods {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better/worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a “difference” column, which shows the percentage change compared to a specified time period.
+>[!NOTE]
+>[!UICONTROL Compare Time Periods] leverages advanced Calculated Metrics. As a result, it is available only to customers with Analytics Select, Prime, and Ultimate SKUs. 
 
-1. Create a Freeform table, with any dimensions and metrics you want to compare over a time period. 
+Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better/worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a "difference" column, which shows the percentage change compared to a specified time period.
+
+1. Create a Freeform table, with any dimensions and metrics you want to compare over a time period.
 1. Right-click a table row and select **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >This right-click option is disabled for metric rows, date range rows, and time dimension rows.
 
@@ -39,7 +45,7 @@ Analysis requires context, and often that context is provided by a previous time
 
    ![](assets/compare-time-result.png)
 
-   Rows in the Percent Change column appear red for negative values and green for positive values. 
+   Rows in the Percent Change column appear red for negative values and green for positive values.
 
 1. (Optional) As in any other Workspace projects, you can create visualizations based on these time comparisons. For example, here is a Bar graph:
 
@@ -81,7 +87,7 @@ A new setting for all tables lets you **[!UICONTROL Align Dates from each column
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
 
@@ -94,4 +100,3 @@ Example: When you choose to align the dates, if you do a month-over-month compar
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-

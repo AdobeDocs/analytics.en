@@ -1,11 +1,9 @@
 ---
-description: null
-seo-description: null
-seo-title: Manage advertising accounts
+description: Manage accounts in Advertising Analytics.
 title: Manage advertising accounts
-uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
+feature: Advertising Analytics
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 ---
-
 # Manage advertising accounts
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
@@ -26,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Add </p> </td> 
-   <td colname="col2"> <p>Takes you to the <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local"> Set Up Advertising Account</a> UI. </p> </td> 
+   <td colname="col2"> <p>Takes you to the <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rename </p> </td> 
@@ -74,4 +72,3 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
  </tbody> 
 </table>
-

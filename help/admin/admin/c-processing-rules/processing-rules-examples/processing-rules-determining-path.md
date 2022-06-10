@@ -1,19 +1,16 @@
 ---
 description: You can copy the value of an eVar to a prop to enable pathing.
-seo-description: You can copy the value of an eVar to a prop to enable pathing.
-seo-title: Determine a path by copying an eVar value to a prop
-solution: Analytics
 subtopic: Processing rules
 title: Determine a path by copying an eVar value to a prop
-topic: Admin tools
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 ---
-
 # Determine a path by copying an eVar value to a prop
 
 You can copy the value of an eVar to a prop to enable pathing.
 
-When setting values, the variable on the left receives the value (even if it is empty) from the variable on the right. 
+When setting values, the variable on the left receives the value (even if it is empty) from the variable on the right.
 
 |  Rule Set  | Value  |
 |---|---|
@@ -30,4 +27,3 @@ You can modify this rule to set the value of Prop1 only if it does not already c
 For example:
 
 ![](assets/overwrite-empty-prop.png)
-

@@ -1,13 +1,9 @@
 ---
 description: Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
-seo-description: Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
-seo-title: Download report suite settings
-solution: Analytics
 title: Download report suite settings
-topic: Admin tools
-uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
+feature: Report Suite Settings
+exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 ---
-
 # Download report suite settings
 
 Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
@@ -16,4 +12,4 @@ Steps that describe how to generate an Excel spreadsheet containing all the sett
 1. Select a report suite from the [!UICONTROL Report Suite] table.
 1. Click **[!UICONTROL Download]**.
 
-   You can open the spreadsheet file directly, or save it for viewing. 
+   You can open the spreadsheet file directly, or save it for viewing.

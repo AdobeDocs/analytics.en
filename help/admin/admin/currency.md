@@ -1,13 +1,9 @@
 ---
 description: Currency codes used in the Experience Cloud.
-seo-description: Currency codes used in the Experience Cloud.
-seo-title: Currency Codes
-solution: Analytics
 title: Currency Codes
-topic: Admin tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
+feature: Admin Tools
+exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 ---
-
 # Currency Codes
 
 Currency codes used in the Experience Cloud.
@@ -198,4 +194,3 @@ Currency codes used in the Experience Cloud.
 |  SDG  | Sudan Pounds  |
 |  VEF  | Venezuela Bolivares Fuertes  |
 |  TMT  | Turkmenistan New Manats  |
-

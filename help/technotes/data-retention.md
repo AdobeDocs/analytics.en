@@ -1,12 +1,9 @@
 ---
-description: Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
-seo-description: Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
-seo-title: Data retention policy for Adobe Analytics
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
-uuid: 9988ef5c-d657-4521-8601-e508756d7d07
+feature: Privacy
+exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 ---
-
 # Data retention policy
 
 Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy. This policy applies to the data itself, which means that it affects all Analytics reporting capabilities (Analysis Workspace, reporting API, etc).
@@ -22,13 +19,17 @@ If you would like to reduce or extend the default data retention period, contact
 * There is no charge for reducing the default data retention period.
 * Extending data retention beyond the default retention period of 25 months requires the purchase of extensions, which are available in increments of one year each. Up to eight extensions can be purchased, for a total of 10 years 1 month (2 years 1 month for default retention, plus 8 years purchased).
 
-## Data retention and GDPR
+## Data retention and Data Privacy
 
-Adobe, in its role as your data processor, must take appropriate measures to assist its customers in fulfilling access, deletion, and other requests from individuals. Applying appropriate, secure, and timely deletion policies is an important part of complying with this obligation. GDPR applies to all customers that market to or process information of EU citizens. Therefore, GDPR is a worldwide regulatory change.
+Adobe, in its role as your data processor, must take appropriate measures to assist its customers in fulfilling access, deletion, and other requests from individuals. Applying appropriate, secure, and timely deletion policies is an important part of complying with this obligation. GDPR applies to all customers that market to or process information of EU citizens. CCPA applies to all customers that market to or process information of California citizens. Therefore, Data Privacy is a worldwide regulatory change.
 
 ## Data deletion
 
 Once data exceeds your data retention policy, Adobe retains the right to delete it with no option for recovery. You must ensure that all data that you want to retain is within your organization's data retention policy.
+
+## View/manage current data retention policy
+
+The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of which report suites have been configured for data governance. It also indicates whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite. [More info](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)
 
 ## Frequently asked questions
 
@@ -42,7 +43,7 @@ The data retention policy defines a rolling data retention window in which compl
 
 **Can I request a copy of my data prior to it being deleted?**
 
-Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your organization's account manager. Special accommodations can be made; costs may vary.
+Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your organization's account manager. Special accommodations can be made; costs may vary.
 
 **When does Adobe delete data?**
 

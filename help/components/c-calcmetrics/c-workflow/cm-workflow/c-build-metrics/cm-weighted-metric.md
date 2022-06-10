@@ -1,11 +1,9 @@
 ---
 description: Shows examples of filtered and weighted metrics.
-seo-description: Shows examples of filtered and weighted metrics.
-seo-title: Filtered and weighted metrics
 title: Filtered and weighted metrics
-uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
+feature: Calculated Metrics
+exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
 ---
-
 # Filtered and weighted metrics
 
 Shows examples of filtered and weighted metrics.
@@ -29,4 +27,3 @@ This filter shows the Bounce Rate for the top 30 percent of pages, when sorted b
 Suppose you want to sort by bounce rate in general, but pages with higher visits should be higher on the list. You could create a Weighted Bounce Rate that looks like this:
 
 ![](assets/cm_wbr.png)
-

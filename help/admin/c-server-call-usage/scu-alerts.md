@@ -1,18 +1,16 @@
 ---
 description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
-seo-description: Add or manage server all usage alerts. When you set up an alert, it applies to all report suites in all login companies of a Billing company.
-seo-title: Server Call Usage alerts
 title: Server Call Usage alerts
-uuid: 701fd542-5b24-42df-97a0-08e10929fa48
+feature: Server Call Usage
+exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 ---
-
 # Server Call Usage alerts
 
 When you set up an alert, it applies to all report suites in all login companies of a Billing company.
 
 ## Overview
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
 
 It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. This alerts triggers a notification addressed to all the login company's admins if one of the following criteria is satisfied:
 
@@ -60,17 +58,16 @@ To create additional alerts,
 
 To manage alerts:
 
-1. Select the checkbox next to one or more alerts. The alert management actions display at the top. 
+1. Select the checkbox next to one or more alerts. The alert management actions display at the top.
 1. Complete one or more of these actions: 
 
    | Action | Definition |
    |--- |--- |
-   |+ Add|Access the [Alert Builder](../../admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
+   |+ Add|Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
    |Tag|Tag alerts to organize them for ease of use.|
    |Delete|You can delete all alerts except default alerts.|
    |Rename|You can rename all alerts except default alerts.|
    |Approve|Approve alerts to make them "official."|
    |Enable/Disable|You can enable or disable all alerts, even the default ones.|
    |Renew|When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date.|
-   |Export to CSV|See [Download Usage Report](../../admin/c-server-call-usage/report-suite-usage.md)|
-   
+   |Export to CSV|See [Download Usage Report](/help/admin/c-server-call-usage/report-suite-usage.md)|

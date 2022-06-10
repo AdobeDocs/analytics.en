@@ -1,122 +1,49 @@
 ---
 description: Information about special characters used in the data feed.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
-seo-description: Information about special characters used in the data feed.
-seo-title: Special characters
-solution: Analytics
 subtopic: data feeds
-title: Special characters
-topic: Reports and analytics
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+title: Special characters in data feeds
+feature: Data Feeds
+exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 ---
+# Special characters in data feeds
 
-# Special characters
+Adobe uses escape logic to make sure that values sent to data collection servers do not corrupt or negatively data feed files. The following characters are reserved by Adobe for the following purposes in `hit_data.tsv`.
 
-Information about special characters used in the data feed.
+## Special characters in any column
 
-* [Special characters in the hit_data file](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E) 
-* [Special characters in multi-valued variables (events_list, products_list, mvvars)](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC) 
-* [Sample workflow](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+| Character | Description |
+|--- |--- |
+| `\t` | Represents a tab. Marks the end of a column or data field. |
+| `\n` | Represents a newline. Marks the end of a row or hit. |
+| `\` | Backslash. Escapes characters when sent as part of data collection. |
 
-## Special characters in the hit_data file {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+When these reserved values are preceded by a backslash, they were sent as part of data collection.
 
-The following characters have a special meaning in the hit_data file: 
+| Character | Description |
+|--- |--- |
+| `\\t` | The value '`\t`' was sent during data collection, escaped by Adobe. |
+| `\\n` | The value '`\n`' was sent during data collection, escaped by Adobe. |
+| `\\` | The value '`\`' was sent during data collection, escaped by Adobe. |
 
-| Character | Meaning | Description |
-|--- |--- |--- |
-|\t  (tab character)|End of column|Marks the end of a data field.|
-|\n  (newline character)|End of row|Marks the end of a data row.|
-|\  (backslash character)|Escape character|Escapes tab, newline, and backslash when the character was part of the value sent during data collection.|
+For example, a visitor to your site uses internal search and searches for "search\nstring". You populate eVar1 with "search\nstring", and send that value to Adobe. Adobe receives this hit, and escapes the newline included in the string. The actual value placed in raw data is "search\\nstring".
 
-When any of the special characters are preceded by a backslash, they represent a literal character. 
+## Special characters in multi-valued variables (events_list, products_list, mvvars)
 
-| Character | Meaning | Description |
-|--- |--- |--- |
-|\\t|Tab|Literal tab character. This character was part of the value sent in during data collection.|
-|\\n|Newline|Literal newline. This character was part of the value sent in during data collection.|
-|\\|Backslash|Literal backslash character. This character was part of the value sent in during data collection.|
+The following characters have a special meaning in columns that can contain multiple values.
 
-## Special characters in multi-valued variables (events_list, products_list, mvvars) {#section_056F8D540FFC4F24A001DC74331C2AAC}
+| Character | Description |
+|--- |--- |
+| `,` | Comma. Represents the end of an individual value. Separates product strings, event ID's, or other values. |
+| `;` | Semi-colon. Represents the end of an individual value in `product_list`. Separates fields within a single product string. |
+| `=` | Equals sign. Assigns a value to an event in `product_list`. |
+| `^` | Caret. Escapes characters when sent as part of data collection. |
 
-The following characters have a special meaning in multi-valued variables: 
+When these reserved values are preceded by a caret, they were sent as part of data collection.
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Character </th> 
-   <th colname="col02" class="entry"> Meaning </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (comma character) </td> 
-   <td colname="col02"> End of value </td> 
-   <td colname="col2"> <p>Separates product strings, event IDs, or other values in multi-valued variables. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (semicolon character) </td> 
-   <td colname="col02"> End of sub-value within an individual product value </td> 
-   <td colname="col2"> <p>Separates values associated with an individual product in the <code> product_list </code>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (equals character) </td> 
-   <td colname="col02"> Value assignment </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-When any of the special characters are preceded by a caret, they represent a literal character.
-
-| Character | Meaning | Description |
-|--- |--- |--- |
-|^,|Comma|Literal comma character. This character was part of the value sent in during data collection.|
-|^;|Semicolon|Literal semicolon character. This character was part of the value sent in during data collection.|
-|^=|Equals|Literal equals character. This character was part of the value sent in during data collection.|
-|^^|Caret|Literal caret character. This character was part of the value sent in during data collection.|
-
-## Sample workflow {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-If some of the columns in your data feed contain user-submitted data, you should check for special characters before separating the data by column or row using `split` or `readLine`, or similar.
-
-Consider the following data: 
-
-|  Browser Width  | Browser Height  | eVar1  | prop1  |
-|---|---|---|---|
-|  1680  | 1050  | search\nstring  | en  |
-|  800  | 600  | search\tstring  | en  |
-
-During export, the newline and tab characters in the eVar1 values are escaped. The data feed for these rows appears as follows:
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-To avoid this, use a solution similar to the following:
-
-1. Starting at the beginning of the file, read until you locate a tab, newline, backslash or caret character. 
-1. Perform an action based on the special character encountered:
-
-    * Tab - insert the string up that point into a data store cell and continue. 
-    * Newline - complete the data store row. 
-    * Backslash - read the next character, insert the appropriate string literal, and continue. 
-    * Caret - read the next character, insert the appropriate string literal, and continue.
-
+| Character | Description |
+|--- |--- |
+| `^,` | The value '`,`' was sent during data collection, escaped by Adobe. |
+| `^;` | The value '`;`' was sent during data collection, escaped by Adobe. |
+| `^=` | The value '`=`' was sent during data collection, escaped by Adobe. |
+| `^^` | The value '`^`' was sent during data collection, escaped by Adobe. |

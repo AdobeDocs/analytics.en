@@ -1,13 +1,11 @@
 ---
 description: After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
-seo-description: After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
-seo-title: Customize reports overview
-solution: Analytics
 title: Customize reports overview
-topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 ---
-
 # Customize reports overview
 
 After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
@@ -32,9 +30,9 @@ Only administrators can create a custom report. When you create a custom report,
 
    Ensure that you do not duplicate an existing report name.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
->* [Menu Customizing](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Menu Customizing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -58,11 +56,11 @@ When you open a dashboard with reportlets that have different date ranges, you c
 
    You can:
 
-    * View days, months, or year periods (up to three). 
-    * Drag your cursor across dates to select a range. 
-    * Enter dates manually. 
-    * Click a month name to select a month. 
-    * Click **[!UICONTROL Select Preset]** to select a preset date. 
+    * View days, months, or year periods (up to three).
+    * Drag your cursor across dates to select a range.
+    * Enter dates manually.
+    * Click a month name to select a month.
+    * Click **[!UICONTROL Select Preset]** to select a preset date.
     * Compare dates.
 
 1. Click **[!UICONTROL Run Report]**.
@@ -81,7 +79,7 @@ You cannot compare dates between trended reports.
 
 >[!NOTE]
 >
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
+>If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
 
 To compare dates between ranked reports in Reports & analytics: 
 
@@ -101,7 +99,7 @@ t_reports_graph_percent.xml
 
  -->
 
-This visualization is available also in dashboard reportlets. 
+This visualization is available also in dashboard reportlets.
 
 1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
 1. Click **[!UICONTROL Percent Shown As: Graph]**.
@@ -199,7 +197,7 @@ t_reports_day_of_week.xml
 
  -->
 
-This feature applies only to trended reports filtered with a date range of Week or Day. 
+This feature applies only to trended reports filtered with a date range of Week or Day.
 
 1. Run a trended report over a specified date range.
 1. Click the **[!UICONTROL Day of Week]** link, then click a day.
@@ -218,4 +216,4 @@ Most reports in Reports & Analytics now include a "Try in Workspace" button to a
 
 Currently, the button is only available if your username has full rights to Analysis Workspace.
 
-For more information on all the ways you can customize your report, see the [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) guide. 
+For more information on all the ways you can customize your report, see the [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) guide.

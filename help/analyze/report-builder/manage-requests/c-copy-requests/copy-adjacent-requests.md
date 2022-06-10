@@ -1,13 +1,11 @@
 ---
 description: In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
-seo-description: In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
-seo-title: Copy adjacent requests
-solution: Analytics
 title: Copy adjacent requests
-topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
+feature: Report Builder
+role: User, Admin
+exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 ---
-
 # Copy adjacent requests
 
 In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting Cut Request from the shortcut menu.
@@ -20,4 +18,4 @@ Cutting a request removes it from its original location and places it in the new
 
 You are not limited to copying and pasting in the same sheet of the workbook. You can copy a request in one sheet and paste to a location in another sheet of the same workbook.
 
-You are not limited to copying and pasting one request at a time. You can select more than one request in the spreadsheet and paste them to an empty region of the spreadsheet. Just as with copying and pasting one request, make sure that the paste region has no cells with requests that will be replaced by the paste operation. If the system finds that the target paste region already contains one or more requests, report builder does not display the [!UICONTROL Paste Requests] menu for any copied or cut requests. You must select a different cell as the destination of the paste operation so that requests do not overlap. 
+You are not limited to copying and pasting one request at a time. You can select more than one request in the spreadsheet and paste them to an empty region of the spreadsheet. Just as with copying and pasting one request, make sure that the paste region has no cells with requests that will be replaced by the paste operation. If the system finds that the target paste region already contains one or more requests, report builder does not display the [!UICONTROL Paste Requests] menu for any copied or cut requests. You must select a different cell as the destination of the paste operation so that requests do not overlap.

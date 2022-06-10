@@ -1,23 +1,25 @@
 ---
 description: Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
-seo-description: Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
-seo-title: Virtual Report Suite Component Curation
 title: Virtual Report Suite Component Curation
-uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
+feature: VRS
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 ---
-
 # Virtual Report Suite Component Curation
 
 Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 
+Here is a video on component curation:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+
 >[!NOTE]
 >
->Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](/help/analyze/analysis-workspace/curate-share/curate.md) allows for more fine-grained control over which components are visible.
 
 To enable component curation,
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**. 
-1. After defining the **[!UICONTROL Settings]**, click the **[!UICONTROL Components]** tab. 
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
+1. After defining the **[!UICONTROL Settings]**, click the **[!UICONTROL Components]** tab.
 
 1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
 
@@ -26,12 +28,12 @@ To enable component curation,
    >[!NOTE]
    >
    >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
-
-    * [!UICONTROL Reports & Analytics] 
-    * [!UICONTROL Ad Hoc Analysis] 
-    * [!UICONTROL Data Warehouse] 
-    * [!UICONTROL Report Builder] 
-    * Analytics Reporting API
+   >
+   >* [!UICONTROL Reports & Analytics] 
+   >* [!UICONTROL Data Warehouse] 
+   >* [!UICONTROL Report Builder] 
+   >* [!UICONTROL Activity Map]
+   >* Analytics Reporting API
 
    Once checked, you can add the components you'd like to be included in the virtual report suite by dragging the applicable components from the "excluded components" column to the "included components" column. The components that can be included and excluded are:
 
@@ -66,4 +68,4 @@ Use component groups to make bulk component additions to your virtual report sui
 
 ## Workspace Behavior {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-For more information on curation in Analysis Workspace, see [Curate and Share a Project](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).  
+For more information on curation in Analysis Workspace, see [Curate and Share a Project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).

@@ -1,8 +1,9 @@
 ---
 title: Audience reports in Adobe Analytics
 description: Learn how to create audience-based reports using Analysis Workspace.
+feature: Third-party Integration
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 ---
-
 # Audience reports
 
 Audience reports show information about the types of people that visit your site.
@@ -19,7 +20,7 @@ To obtain a line graph of unique visitors:
 2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
 3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) on top of the existing date dimension header.
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
+See [Unique Visitors](/help/components/metrics/unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
 
 ## Lifetime Value
 
@@ -35,7 +36,7 @@ To create a cohort table:
 2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
 3. Click Build.
 
-See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
+See [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
 
 ## Audiences
 
@@ -46,7 +47,7 @@ The Audiences report in Google Analytics requires the setting up of audiences. A
 The User Explorer report allows an analyst to view individual visits through anonymized identifiers. Adobe does not surface the backend identifiers outside of data feeds, which are hit-level raw exports of data.
 
 * If this data is desired in Analysis Workspace, it is possible to work with an implementation consultant to pass the anonymized unique identifier cookie value into an eVar. Note that this only works with smaller implementations consisting of less than 1 million unique visitors per month.
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](../../../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
 
 ## Demographics and Interests reports
 
@@ -65,7 +66,7 @@ To create a language report:
 1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
+See the [Language](/help/components/dimensions/language.md) dimension in the Components user guide for more information.
 
 ## Geo - Location
 
@@ -82,7 +83,7 @@ If the table is also wanted in addition to the map:
 1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## Behavior - New vs Returning
 
@@ -107,7 +108,7 @@ The frequency & recency report is approximately equal to the **Visit Number** di
 1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
+See the [Visit Number](/help/components/dimensions/visit-number.md) dimension in the Components user guide for more information.
 
 ## Behavior - Engagement
 
@@ -116,7 +117,7 @@ The engagement report is approximately equal to the **Time Spent per Visit - Buc
 1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
+See the [Time Spent per Visit](/help/components/dimensions/time-spent-per-visit.md) dimension in the Components user guide for more information.
 
 ## Technology - Browser & OS
 
@@ -133,10 +134,10 @@ There are multiple primary dimensions available in the Browser & OS report.
 
 See the following pages in the Components user guide for more information on their respective dimension:
 
-* [Browser](../../../components/c-variables/dimensionslist/reports-browsers.md)
-* [Operating System](../../../components/c-variables/dimensionslist/reports-operating-system.md)
-* [Monitor Resolution](../../../components/c-variables/dimensionslist/reports-technology.md)
-* [Color Depth](../../../components/c-variables/dimensionslist/reports-color-depth.md)
+* [Browser](/help/components/dimensions/browser.md)
+* [Operating System](/help/components/dimensions/operating-systems.md)
+* [Monitor Resolution](/help/components/dimensions/monitor-resolution.md)
+* [Color Depth](/help/components/dimensions/color-depth.md)
 
 ## Technology - Network
 
@@ -145,7 +146,7 @@ The network report is approximately equal to the **Domain** dimension.
 1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
+See the [Domain](/help/components/dimensions/domain.md) dimension in the Components user guide for more information.
 
 ## Mobile - Overview
 
@@ -154,7 +155,7 @@ The mobile overview report is approximately equal to the **Mobile Device Type** 
 1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Mobile - Devices
 
@@ -163,11 +164,11 @@ The mobile devices report is approximately equal to the **Mobile Device** dimens
 1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
-See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Custom
 
-Custom reports are defined on a per-implementation basis. Work with your organization's Analytics administrator and/or implementation consultant to interpret these reports. Typically an organization maintains a [Solution Design Document](../../../implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
+Custom reports are defined on a per-implementation basis. Work with your organization's Analytics administrator and/or implementation consultant to interpret these reports. Typically an organization maintains a [Solution Design Document](/help/implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
 
 ## Benchmarking
 
@@ -178,6 +179,6 @@ Benchmarking reports allow you to see how facets of your data compare to industr
 The flow report is available on both platforms. To create a flow report:
 
 1. Click the visualizations icon on the left, and drag a Flow visualization onto the workspace above the freeform table
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension values are colored yellow.
+2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Dimension items are colored yellow.
 3. Locate the desired page value to start with, and drag it into the space labeled 'Dimension or item' in the center
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.

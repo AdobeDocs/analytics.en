@@ -1,13 +1,9 @@
 ---
 description: Steps that describe how to add or edit conversion variables.
-seo-description: Steps that describe how to add or edit conversion variables.
-seo-title: Edit conversion variables
-solution: Analytics
 title: Edit conversion variables
-topic: Admin tools
-uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
+feature: Admin Tools
+exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 ---
-
 # Edit conversion variables
 
 Steps that describe how to add or edit conversion variables.
@@ -19,8 +15,8 @@ Steps that describe how to add or edit conversion variables.
 
    Or
 
-   Click **[!UICONTROL Add New]** to add an unused eVar to the report suite. 
+   Click **[!UICONTROL Add New]** to add an unused eVar to the report suite.
 1. Select the conversion variable fields you want to modify.
 
-   See [Conversion Variables - Descriptions](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Some fields let you type directly in the field. Others let you select from a drop-down list of supported values. 
+   See [Conversion Variables - Descriptions](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Some fields let you type directly in the field. Others let you select from a drop-down list of supported values.
 1. Click **[!UICONTROL Save]**.

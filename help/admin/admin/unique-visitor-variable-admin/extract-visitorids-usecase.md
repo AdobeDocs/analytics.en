@@ -1,13 +1,9 @@
 ---
 description: Data Warehouse provides a feature that allows you to extract a list of visitor IDs. These IDs are not cookie IDs, but IDs that you capture in one of your conversion variables. Although there are other ways to get at this information, the following example is a shortcut to generating a Data Warehouse request.
-seo-description: Data Warehouse provides a feature that allows you to extract a list of visitor IDs. These IDs are not cookie IDs, but IDs that you capture in one of your conversion variables. Although there are other ways to get at this information, the following example is a shortcut to generating a Data Warehouse request.
-seo-title: Use Case - Extracting Visitor IDs
-solution: Analytics
 title: Use Case - Extracting Visitor IDs
-topic: Admin tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
+feature: Admin Tools
+exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 ---
-
 # Use Case - Extracting Visitor IDs
 
 Data Warehouse provides a feature that allows you to extract a list of visitor IDs. These IDs are not cookie IDs, but IDs that you capture in one of your conversion variables. Although there are other ways to get at this information, the following example is a shortcut to generating a Data Warehouse request.
@@ -22,4 +18,4 @@ Setting these in conversion variables (eVars) allows you to see how each e-mail 
 
 Assume you are capturing these IDs. Most marketers want to segment their website behavior and then see if they can re-market to those who meet certain criteria. For example, you may want to send a re-marketing e-mail to all e-mail recipients who came to your site from the e-mail and viewed (or completed) a website form. To do this, find a way to identify the EMAIL Contact IDs of those completing the specific form.
 
-One way to do this is to use a Conversion Subrelation report to break down the Form ID eVar value by the EMAIL Contact ID eVar. However, a pre-built feature is available to do this using Data Warehouse. This feature allows you to tell which eVar stores your Unique User IDs (EMAIL Contact ID in this case) and allows you to easily extract those IDs using data warehouse. By using this feature, you can automatically create a data warehouse request that pulls the Unique Visitor IDs for which you are interested. 
+One way to do this is to use a Conversion Subrelation report to break down the Form ID eVar value by the EMAIL Contact ID eVar. However, a pre-built feature is available to do this using Data Warehouse. This feature allows you to tell which eVar stores your Unique User IDs (EMAIL Contact ID in this case) and allows you to easily extract those IDs using data warehouse. By using this feature, you can automatically create a data warehouse request that pulls the Unique Visitor IDs for which you are interested.

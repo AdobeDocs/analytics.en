@@ -1,13 +1,11 @@
 ---
 description: Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
-seo-description: Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
-seo-title: Map metrics and dimensions to cells
-solution: Analytics
 title: Map metrics and dimensions to cells
-topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
+feature: Report Builder
+role: User, Admin
+exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 ---
-
 # Map metrics and dimensions to cells
 
 Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
@@ -18,9 +16,9 @@ If you mistakenly map incompatible locations on the spreadsheet, report builder 
 
 The following sections contain more information:
 
-* [Select a Range of Cells](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6) 
-* [Techniques for Selecting Cells](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22) 
-* [Issues When Mapping](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [Select a Range of Cells](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6) 
+* [Techniques for Selecting Cells](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22) 
+* [Issues When Mapping](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
@@ -30,11 +28,9 @@ Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_
 
 next to the item you want to map.
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request. 
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use this option to have report builder select cells for you. 
-
-* ** Range Orientation:** Lets you orient the cell ranges as columns or rows. 
+* **All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
+* **First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use this option to have report builder select cells for you.
+* **Range Orientation:** Lets you orient the cell ranges as columns or rows.
 * **Select Upper Cell Location of Range:** Displays the cell references.
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -68,8 +64,6 @@ If you want to avoid this message, you can take two approaches:
 
 To test for areas with embedded requests, you can:
 
-* Launch the [!UICONTROL Request Manager] and click on individual requests listed in the table. Clicking on the request highlights the cells of the spreadsheet where the request is mapped. 
-* Select cells in the spreadsheet you intend to use for a new mapping and click [!UICONTROL From Sheet]. The [!UICONTROL Request Manager] selects the request in the list which has an output item that intersects the selected cell. If no request is selected, then the cell is available. 
-
+* Launch the [!UICONTROL Request Manager] and click on individual requests listed in the table. Clicking on the request highlights the cells of the spreadsheet where the request is mapped.
+* Select cells in the spreadsheet you intend to use for a new mapping and click [!UICONTROL From Sheet]. The [!UICONTROL Request Manager] selects the request in the list which has an output item that intersects the selected cell. If no request is selected, then the cell is available.
 * Select cells in the spreadsheet, right-click in the context menu and verify if [!UICONTROL Edit Request] is available. If so, there is a request associated with these cells.
-

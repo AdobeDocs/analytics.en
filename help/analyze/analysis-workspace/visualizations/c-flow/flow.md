@@ -1,11 +1,11 @@
 ---
-description: null
-seo-description: null
-seo-title: Flow overview
+description: Use the flow visualization in a Workspace project.
 title: Flow overview
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
+feature: Visualizations
+role: User, Admin
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 ---
-
 # Flow overview
 
 The flow feature shows customer paths through your websites and apps.
@@ -18,16 +18,22 @@ It lets you:
 
 >[!NOTE]
 >
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Flow Visualization on YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+Here is a Flow visualization video tutorial:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-You can show the [flow between dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Men page, then to the Shoes department.
+You can show the [flow between dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). For example, you might combine pages and departments in one diagram. In this case, your flow might go from the home page, to the Mens page, then to the Shoes department.
 
 Each column could show a different dimension. Drag a dimension and drop in a drop zone to add that dimension to the diagram.
 
 ## Export Flow Diagrams as Part of Project .CSV Files {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project's .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere. 
+Flow diagrams are part of a project's .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere.
+
+## Expanding on Flow visualization
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

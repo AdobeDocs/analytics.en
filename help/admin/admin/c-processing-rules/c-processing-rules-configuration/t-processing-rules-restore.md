@@ -1,14 +1,10 @@
 ---
 description: Processing rules can be restored from history.
-seo-description: Processing rules can be restored from history.
-seo-title: Restore processing rules
-solution: Analytics
 subtopic: Processing rules
 title: Restore processing rules
-topic: Admin tools
-uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
+feature: Processing Rules
+exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 ---
-
 # Restore processing rules
 
 Processing rules can be restored from history.

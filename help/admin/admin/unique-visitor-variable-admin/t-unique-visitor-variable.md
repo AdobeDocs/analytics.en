@@ -1,18 +1,14 @@
 ---
 description: Steps that describe how to designate which eVar contains your visitor identifier.
-seo-description: Steps that describe how to designate which eVar contains your visitor identifier.
-seo-title: Specify the Unique Visitor variable
-solution: Analytics
 title: Specify the Unique Visitor variable
-topic: Admin tools
-uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
+feature: Admin Tools
+exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 ---
-
 # Specify the Unique Visitor variable
 
 Steps that describe how to designate which eVar contains your visitor identifier.
 
-This variable designates an eVar to contain your unique visitor identifier. This variable lets you report on customer activity using your own unique identifier. 
+This variable designates an eVar to contain your unique visitor identifier. This variable lets you report on customer activity using your own unique identifier.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

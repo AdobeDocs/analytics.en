@@ -1,15 +1,13 @@
 ---
 description: You can specify a custom name for your request, which displays in the Request Manager.
-seo-description: You can specify a custom name for your request, which displays in the Request Manager.
-seo-title: Name a request
-solution: Analytics
 title: Name a request
-topic: Report builder
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
+feature: Report Builder
+role: User, Admin
+exl-id: ff3beae3-a776-4bc1-b394-c5c422e5f521
 ---
-
 # Name a request
 
 You can specify a custom name for your request, which displays in the Request Manager.
 
-For more information, see [Format Display Headers](../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831). 
+For more information, see [Format Display Headers](/help/analyze/report-builder/layout/t-format-display-headers.md).

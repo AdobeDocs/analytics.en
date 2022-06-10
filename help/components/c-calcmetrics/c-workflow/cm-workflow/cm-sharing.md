@@ -1,11 +1,9 @@
 ---
 description: Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
-seo-description: Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
-seo-title: Share calculated metrics
 title: Share calculated metrics
-uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
+feature: Calculated Metrics
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
 ---
-
 # Share calculated metrics
 
 Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
@@ -17,8 +15,8 @@ Depending on your permissions, you can share metrics with your whole organizatio
 
 When should you share metrics with the entire company versus just a group of users or individuals? Here are some best practices you might follow:
 
-* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an approved metric. 
-* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team. 
+* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an approved metric.
+* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team.
 * As an Admin or an individual user, share a metric with other individuals to vet and validate it. If it doesn't prove useful, it can be discarded. Do not officially approve this type of metric.
 
 1. In the Calculated Metric Manager, mark the checkbox next to the metric you want to share. The task bar appears:
@@ -36,4 +34,3 @@ When should you share metrics with the entire company versus just a group of use
    The Shared icon appears next to the metric:  ![](assets/share_icon.png)
 
 1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
-

@@ -1,11 +1,11 @@
 ---
-description: null
-seo-description: null
-seo-title: Configure a flow visualization
+description: Use the flow visualization in a Workspace project.
 title: Configure a flow visualization
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
+feature: Visualizations
+role: User, Admin
+exl-id: a4617647-237f-4178-bb87-f5321c600ca0
 ---
-
 # Configure a flow visualization
 
 Flow lets you track a path through your pages or dimensions, such as eVars:
@@ -38,4 +38,4 @@ By default, the diagram shows the top five flows. If you click on the **[!UICONT
 
 There are no limits on how much you can explore within the Flow diagram.
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 
+You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.

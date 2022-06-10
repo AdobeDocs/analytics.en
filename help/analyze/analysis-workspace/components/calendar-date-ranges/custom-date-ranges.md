@@ -1,14 +1,11 @@
 ---
 description: Create custom date ranges in Analysis Workspace, and save them as Time components.
 keywords: Analysis Workspace
-seo-description: Create custom date ranges in Analysis Workspace, and save them as Time components.
-seo-title: Create custom date ranges
-solution: Analytics
 title: Create custom date ranges
-topic: Reports and analytics
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
+feature: Calendar
+role: User, Admin
+exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 ---
-
 # Create custom date ranges
 
 Create custom date ranges in Analysis Workspace, and save them as Time components.
@@ -47,4 +44,4 @@ Use *`rolling daily`*.
 
 * The End settings would be *`current day minus 7 days`*.
 
-This date range can be a component that you drag onto any freeform table. 
+This date range can be a component that you drag onto any freeform table.

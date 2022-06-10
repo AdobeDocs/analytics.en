@@ -1,14 +1,11 @@
 ---
 description: Information about how Adobe provides access to Data Sources.
-seo-description: Information about how Adobe provides access to Data Sources.
-seo-title: How Data Sources works
-solution: Analytics
 subtopic: Data sources
 title: How Data Sources works
-topic: Developer and implementation
-uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
 ---
-
 # How Data Sources works
 
 Information about how Adobe provides access to Data Sources.
@@ -21,8 +18,8 @@ Information about how Adobe provides access to Data Sources.
 
 Two methods are available to submit data:
 
-* [FTP](../../import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243) 
-* [API](../../import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
+* [FTP](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243) 
+* [API](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
 
 ## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
 
@@ -32,4 +29,4 @@ You can create and manage FTP-based data sources through marketing reports, whic
 
 Adobe offers a Data Sources API that lets you programmatically link your applications into Data Sources. This eliminates the need for an intermediary FTP server, and transfers data via HTTP, SOAP, and REST.
 
-See [Data Sources API Documentation](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api). 
+See [Data Sources API Documentation](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).

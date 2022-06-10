@@ -1,20 +1,20 @@
 ---
 description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
-seo-description: Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
-seo-title: Real-time reports
-solution: Analytics
 title: Real-time reports
-topic: Reports
-uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+feature: Real-time
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 ---
-
 # Real-time reports
 
 Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
 >[!NOTE]
 >
->The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/realtime/t-realtime-admin.md).
+
+Here is a video overview: 
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
 
@@ -28,9 +28,9 @@ Two of the most prevalent usage scenarios include publishers who would like to p
 
 As an Administrator, you can
 
-* Create up to 3 real-time reports per report suite, using existing dimensions or classifications and metrics. Use the secondary dimensions to correlate with (or break down) the primary one. 
-* Add 3 dimensions (or classifications) per report (one primary and two secondary), in addition to 1 site-wide metric. 
-* Use any custom event, shopping cart event, or instance. 
+* Create up to 3 real-time reports per report suite, using existing dimensions or classifications and metrics. Use the secondary dimensions to correlate with (or break down) the primary one.
+* Add 3 dimensions (or classifications) per report (one primary and two secondary), in addition to 1 site-wide metric.
+* Use any custom event, shopping cart event, or instance.
 * View up to 2 hours of historical real-time data and modify this setting:
 
   * Last 15 minutes: 1-minute granularity 
@@ -40,7 +40,7 @@ As an Administrator, you can
 
 * Compare, for example, last week's values to last year's values (as well as to the total of today.)
 
-Keep in mind that eVars (conversion metrics) are not supported, since there is no concept of persistence. While you can select conversion metrics, they only work if they are set on the same page as the dimension(s). For more information, see the warning message captured in [Setting up Real-Time Reports](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+Keep in mind that eVars (conversion metrics) are not supported, since there is no concept of persistence. While you can select conversion metrics, they only work if they are set on the same page as the dimension(s). For more information, see the warning message captured in [Setting up Real-Time Reports](/help/admin/admin/realtime/t-realtime-admin.md).
 
 Setting up and viewing Real-Time reports is restricted to Admins or any user in the "All Report Access" and "Advanced Reporting" permission groups . However, Real-Time does respect permissions. If, for example, you do not have rights to see revenue, you won't be able to view a real-time report that includes revenue data.
 
@@ -50,7 +50,7 @@ After the A4T integration is enabled in Adobe Target, you will experience an add
 
 This increase is reflected in all Adobe Analytics services and tools, including the live stream and real-time reporting, and applies in the following scenarios:
 
-* For live stream, real-time reports & API requests, and current data for traffic variables, only hits with a supplemental data ID are delayed. 
+* For live stream, real-time reports & API requests, and current data for traffic variables, only hits with a supplemental data ID are delayed.
 * For current data on conversion metrics, finalized data, and data feeds, all hits are delayed an additional 5-7 minutes.
 
-Be aware that the latency increase starts after you implement the Identity Service, even if you have not fully implemented this integration. 
+Be aware that the latency increase starts after you implement the Identity Service, even if you have not fully implemented this integration.

@@ -1,94 +1,49 @@
 ---
 description: Field descriptions for the Scheduled Task Manager.
-seo-description: Field descriptions for the Scheduled Task Manager.
-seo-title: Scheduled Task Manager
-solution: Analytics
 title: Scheduled Task Manager
-topic: Report builder
-uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
+feature: Report Builder
+role: User, Admin
+exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 ---
-
 # Scheduled Task Manager
 
-Field descriptions for the Scheduled Task Manager.
+The [!UICONTROL Scheduled Task Manager] lets you see a list of existing scheduled reports, along with their recipients, schedule details, and file formats. It also lets you reactivate scheduled workbooks that failed to run.
 
-The Scheduled Task Manager lets you see a list of existing scheduled reports, along with their recipients, schedule details, and file formats. It also lets you reactivate scheduled workbooks that failed to run. 
+## Pausing older scheduled tasks 
 
-<table id="table_21B07A0B5F1D4435A4E882E45A7A6B6E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Field </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Scheduled Reports </b>tab </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Name </p> </td> 
-   <td colname="col2"> <p>Indicates the name of the scheduled task. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Email/FTP </p> </td> 
-   <td colname="col2"> <p>The email or FTP address of the recipient. </p> <p>Note:  If email is selected, reports larger than 1 MB are automatically attached to the email as a .zip file. This feature helps keep attachment file size small and cannot be disabled. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Publishing Options </p> </td> 
-   <td colname="col2"> <p>This column will list Power BI if one of the <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#concept_0C4105AA10F9460A872C2489C9CD7945" format="dita" scope="local"> Power BI publishing options</a> is selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Schedule </p> </td> 
-   <td colname="col2"> <p>The type of delivery scheduled. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> File Format </p> </td> 
-   <td colname="col2"> <p> The delivery format of the report, such as Excel, PDF, HTML, and so on. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reactivate </p> </td> 
-   <td colname="col2"> <p>When a scheduled workbook fails to run, Report Builder attempts to run the workbook two more times every fifteen minutes. After three failed attempts, Report Builder deactivates the schedule and displays the <span class="wintitle"> Reactivate</span> button. When you reactivate a workbook, the scheduled delivery restarts from the time it became deactivated. </p> <p>For example, if a scheduled workbook was deactivated 14 days ago, and you reactivate it today, it runs for every missing day and will be delivered 14 times. If you do not want the workbook delivered for the missing days, you can delete the scheduled workbook and then create a new scheduled workbook using the same scheduling parameters. </p> <p> <p>Note:  You should not reactivate a workbook unless you know the reason the system deactivated it. One troubleshooting solution is to download a deactivated workbook, and refresh it on the client side. If you see no errors, you should be able to reactivate it. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Last sent </p> </td> 
-   <td colname="col2"> <p>The date and time when the report was last sent. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Recipient </b>tab </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Recipient email </p> </td> 
-   <td colname="col2"> The email recipient of the report. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reports </p> </td> 
-   <td colname="col2"> The report/s that were sent to each recipient. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Reports History</b> tab </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Name </p> </td> 
-   <td colname="col2"> Indicates the name of the scheduled task. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date </p> </td> 
-   <td colname="col2"> The date and time when the report was last sent. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Status </p> </td> 
-   <td colname="col2"> The status indicates whether the report was Sent or Not Sent. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Email/FTP </p> </td> 
-   <td colname="col2"> The email or FTP address of the recipient of the report. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Format </p> </td> 
-   <td colname="col2"> The delivery format of the report, such as Excel, PDF, HTML, and so on. </td> 
-  </tr> 
- </tbody> 
-</table>
+On April 21, 2022, we rolled out changes to scheduled tasks in Report Builder as part of our performance and delivery optimization efforts. These changes included removing the ability to have scheduled deliveries “end after x occurrences.” In response to several customer requests seeking more time to explore and implement alternatives, we have decided to restore this option in a limited fashion until **Jan 31, 2023**. 
+
+You will continue to be able to schedule hourly Report Builder tasks and have them end after a maximum of 99 occurrences. Please note that the rollback only applies to hourly tasks; the “end after x occurrences” will remain unavailable for all other delivery intervals (daily, weekly, monthly, and yearly). 
+
+Please note that this option will be deprecated on January 31, 2023. 
+For more questions or support, please reach out to Adobe Customer Care.
+
+Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.
+ 
+Any tasks that you wish to resume sending can be reactivated. Log in to Report Builder and launch the [!UICONTROL Scheduled Task Manager]. Click **[!UICONTROL Reactivate]** for the scheduled task you would like to resume sending. Any task that gets reactivated will have a default expiration of 18 months - unless a shorter expiration date is chosen.
+ 
+In addition, any task with a creation date of less than two years, and with no current expiration date (or with an expiration date longer than two years) will have a default 18-month expiration date applied to it. The new expiration date will be October 15, 2023. You can edit this expiration date to be less than 18 months, but not greater. At the time of expiration, the task will be paused. However, you can reactivate the task with a new 18-month expiration date. No tasks, workbooks or data will be deleted.
+ 
+The purpose of this pause is to effectively manage and maintain our scheduled tasks database to ensure optimal performance and delivery for needed tasks and workbooks. This will serve as our new governance policy moving forward. After Jan 31, 2023, all tasks will have a maximum expiration date of 18 months. After 18 months, expired tasks will be paused and can be reactivated as needed. 
+
+## Configure scheduled tasks
+
+| Field | Description |
+| --- | --- |
+| **[!UICONTROL Scheduled Reports tab]** | |
+| [!UICONTROL Report Name] | Indicates the name of the scheduled task. |
+| [!UICONTROL Email/FTP] | The email or FTP address of the recipient. **Note:** If email is selected, reports larger than 1 MB are automatically attached to the email as a .zip file. This feature helps keep attachment file size small and cannot be disabled. |
+| [!UICONTROL Publishing Options] | This column will list Power BI if one of the [Power BI publishing options](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) is selected. |
+| [!UICONTROL Schedule] | The type of delivery scheduled. |
+| [!UICONTROL File Format] | The delivery format of the report, such as Excel, PDF, HTML, and so on. |
+| [!UICONTROL Reactivate] | When a scheduled workbook fails to run, Report Builder attempts to run the workbook two more times every fifteen minutes. After three failed attempts, Report Builder deactivates the schedule and displays the  Reactivate button. When you reactivate a workbook, the scheduled delivery restarts from the time it became deactivated.<p>For example, if a scheduled workbook was deactivated 14 days ago, and you reactivate it today, it runs for every missing day and will be delivered 14 times. If you do not want the workbook delivered for the missing days, you can delete the scheduled workbook and then create a new scheduled workbook using the same scheduling parameters.<p>**Note:** Do not reactivate a workbook unless you know the reason the system deactivated it. To troubleshoot, download a deactivated workbook and refresh it on the client side. If you see no errors, you should be able to reactivate it. |
+| [!UICONTROL Last sent] | The date and time when the report was last sent. |
+| **Recipient tab** | |
+| [!UICONTROL Recipient email] | The email recipient of the report. |
+| [!UICONTROL Reports] | The reports that were sent to each recipient. |
+| **Reports History tab** | |
+| [!UICONTROL File Name] | Indicates the name of the scheduled task.|
+| [!UICONTROL Date] | The date and time when the report was last sent. |
+| [!UICONTROL Status] | The status indicates whether the report was Sent or Not Sent. |
+| [!UICONTROL Email/FTP] | The email or FTP address of the recipient of the report. |
+| [!UICONTROL File Format] | The delivery format of the report, such as Excel, PDF, HTML, and so on. |

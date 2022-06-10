@@ -1,13 +1,11 @@
 ---
 description: Field descriptions for Manage Requests in Report Builder.
-seo-description: Field descriptions for Manage Requests in Report Builder.
-seo-title: Manage requests - definitions
-solution: Analytics
 title: Manage requests - definitions
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 ---
-
 # Manage requests - definitions
 
 Field descriptions for Manage Requests in Report Builder.
@@ -58,11 +56,11 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add </p> </td> 
-   <td colname="col2"> <p>Displays the Request Wizard dialog. See <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Create a Data Request</a>. </p> </td> 
+   <td colname="col2"> <p>Displays the Request Wizard dialog. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edit </p> </td> 
-   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delete </p> </td> 
@@ -78,7 +76,7 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
   </tr> 
   <tr> 
    <td colname="col1"> <p> Refresh </p> </td> 
-   <td colname="col2"> <p>Refreshes a single request or a selection of requests. (See <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> Refresh a Request</a>.) </p> </td> 
+   <td colname="col2"> <p>Refreshes a single request or a selection of requests. (See <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Refresh List </p> </td> 
@@ -86,4 +84,3 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
   </tr> 
  </tbody> 
 </table>
-

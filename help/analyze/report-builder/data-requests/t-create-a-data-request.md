@@ -1,26 +1,23 @@
 ---
 description: Steps to create a basic Report Builder data request.
-seo-description: Steps to create a basic Report Builder data request.
-seo-title: Create a Report Builder data request
-solution: Analytics
 title: Create a data request
-topic: Report builder
-uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
+feature: Report Builder
+role: User, Admin
+exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 ---
-
 # Create a Report Builder data request
 
 Steps to create a basic data request.
 
 1. In Excel, click **[!UICONTROL Create]**.
-1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913).
+1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optional) Select a segment to apply to the request. Once you have selected one or more segments, they will move to the top of the list.
 
-   Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://marketing.adobe.com/resources/help/en_US/analytics/segment/). 1. (Optional) Select a [publishing list](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) to use for distribution.
-1. Select a [report type](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
-1. Specify a [date range](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) and report [granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
+   Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Optional) Select a [publishing list](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) to use for distribution.
+1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. Specify a [date range](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) and report [granularity](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Click **[!UICONTROL Next]**.
-1. In the [Layout - Request Wizard Step 2](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) window, specify a layout:
+1. In the [Layout - Request Wizard Step 2](/help/analyze/report-builder/layout/layout.md) window, specify a layout:
 
    |  Element  | Description  |
    |---|---|
@@ -30,6 +27,6 @@ Steps to create a basic data request.
 1. On the [!UICONTROL Metrics] tab, double-click (or drag) metrics in the tree to add them to the [!UICONTROL Metrics] grid.
 1. On the [!UICONTROL Dimensions] tab, double-click (or drag) dimensions to the [!UICONTROL Row Labels] grid.
 
-   The [dimensions](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=dimensions) available in Step 2 depend on the base report you selected in Step 1, and on the configuration of your report suite. The dimensions are items that correlate, sub-relate, or are a classification of the original report type metric you selected on the [!UICONTROL Request Wizard: Step 1] window. Adding more than one dimension in Step 2 is how you create a breakdown in your data request.
+   The [dimensions](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) available in Step 2 depend on the base report you selected in Step 1, and on the configuration of your report suite. The dimensions are items that correlate, sub-relate, or are a classification of the original report type metric you selected on the [!UICONTROL Request Wizard: Step 1] window. Adding more than one dimension in Step 2 is how you create a breakdown in your data request.
 
-   See [Add Metrics and Dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) for more information. 
+   See [Add Metrics and Dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) for more information.

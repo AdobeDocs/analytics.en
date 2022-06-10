@@ -1,18 +1,15 @@
 ---
 description: Describes the steps involved in applying filters to a pathing report.
-seo-description: Describes the steps involved in applying filters to a pathing report.
-seo-title: Filter a Path Report Using the Request Wizard
-solution: Analytics
 title: Filter a Path Report Using the Request Wizard
-topic: Report builder
-uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
+feature: Report Builder
+role: User, Admin
+exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 ---
-
 # Filter a Path Report Using the Request Wizard
 
 Describes the steps involved in applying filters to a pathing report.
 
-This example uses Site Section Paths. 
+This example uses Site Section Paths.
 
 1. In Adobe Report Builder, click **[!UICONTROL Create]** to open the Request Wizard.
 1. Select the right report suite.
@@ -42,7 +39,7 @@ This example uses Site Section Paths.
 
    ![](assets/select_a_pattern.png)
 
-   Some of these patterns are specific to report builder: Entry Path's Next Item Pattern, Exit Path's Previous Item Pattern, Next Item Pattern. 
+   Some of these patterns are specific to report builder: Entry Path's Next Item Pattern, Exit Path's Previous Item Pattern, Next Item Pattern.
 1. To edit a predefined pattern,
    1. Select it. For example, select the **[!UICONTROL Exited Site Pattern]**: ![](assets/exited_site_pattern.png)
 

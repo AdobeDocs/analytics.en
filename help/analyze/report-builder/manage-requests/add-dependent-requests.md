@@ -1,13 +1,11 @@
 ---
 description: A dependent request is a request that is dependent upon an existing request.
-seo-description: A dependent request is a request that is dependent upon an existing request.
-seo-title: Add dependent requests
-solution: Analytics
 title: Add dependent requests
-topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
+feature: Report Builder
+role: User, Admin
+exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
 ---
-
 # Add dependent requests
 
 A dependent request is a request that is dependent upon an existing request.
@@ -22,4 +20,4 @@ For reports with correlation breakdowns enabled within the report table, you can
 >
 >Adobe Report Builder enforces request dependencies only within the same worksheet, not across worksheets. Restricting to dependencies within a single worksheet ensures timeliness of execution.
 
-See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md). 
+See [Breakdown Reports](/help/analyze/reports-analytics/reports-customize/breakdowns.md).

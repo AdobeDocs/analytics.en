@@ -1,201 +1,81 @@
 ---
 description: Report time processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
-seo-description: Report time processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
-seo-title: Report time processing
 title: Report time processing
-uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
+role: Admin
+solution: Analytics
+feature: VRS
+exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 ---
-
 # Report time processing
 
-Report time processing is a virtual report suite setting that allows data to be processed in a non-destructive, retroactive fashion.
+[!UICONTROL Report time processing] is a virtual report suite setting that allows data in Analysis Workspace to be processed in a non-destructive, retroactive fashion.
 
->[!NOTE]
->
->Report Time Processing is available only for Analysis Workspace.
+[!UICONTROL Report Time Processing] affects only the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between [!UICONTROL Report Time Processing] and traditional Analytics processing is best understood using the following diagram:
 
-Report Time Processing only affects the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between Report Time Processing and traditional Analytics processing is best understood using the following diagram:
-
-![](assets/google1.jpg)
+![Traditional processing pipeline](assets/google1.jpg)
 
 During Analytics data processing, data flows through the data collection pipeline and into a preprocessing step, which prepares data for reporting. This preprocessing step applies visit expiration logic and eVar persistence logic (among other things) to the data as it is collected. The primary disadvantage of this preprocessing model is that it requires any configuration be done in advance before data is collected. This means that any changes to preprocessing settings apply only to new data from that time forward. This is problematic if data arrives out of order or if settings were misconfigured.
 
-Report Time Processing is a fundamentally different way of processing Analytics data for reporting. Instead of predetermining processing logic before data is collected, Analytics ignores the data set during the preprocessing step and applies this logic each time a report is run:
+[!UICONTROL Report Time Processing] is a fundamentally different way of processing Analytics data for reporting. Instead of predetermining processing logic before data is collected, Analytics ignores the data set during the preprocessing step and applies this logic each time a report is run:
 
-![](assets/google2.jpg)
+![Report time processing pipeline](assets/google2.jpg)
 
-This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers retroactively as if you had applied those settings before the data was collected. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite.
+This processing architecture allows for far more flexible reporting options. For example, you can change the visit timeout period to any length of time you want in a non-destructive way and those changes are reflected in your eVar persistence and segment containers for the full reporting period. Additionally, you can create any number of virtual report suites, each with different Report Time Processing options based on the same base report suite, without altering any of the data in the base report suite.
 
-Report Time Processing also allows Analytics to prevent background hits from starting new visits and allows the [mobile SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) to tell reporting to start a new visit whenever an App Launch event is triggered.
+[!UICONTROL Report Time Processing] also allows Analytics to prevent background hits from starting new visits and allows the [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) to start a new visit whenever an App Launch event is triggered.
+
+## Configuration options
 
 The following configuration options are currently available to virtual report suites with Report Time Processing enabled:
 
-<table id="table_C086C5FD10A84A1ABC081F5DE28F802D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Setting </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Visit Timeout </p> </td> 
-   <td colname="col2"> <p> The visit timeout setting defines the amount of inactivity a unique visitor must have before a new visit is automatically started. It defaults to 30 minutes. For example, if you set the visit timeout to 15 minutes, a new visit grouping is created for each sequence of hits collected, separated by 15 minutes of inactivity. This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the visit timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Mobile App Visit Settings </p> </td> 
-   <td colname="col2"> <p> For report suites containing data generated by mobile apps via the <a href="https://www.adobe.io/apis/cloudplatform/mobile.html" format="html" scope="external"> Adobe Mobile SDKs</a>, additional visit settings are available. These settings are non-destructive and only affect hits that have been collected via the Mobile SDKs. These settings have no impact to data collected outside of the Mobile SDK. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Prevent Background Hits from starting a new Visit </p> </td> 
-   <td colname="col2"> <p> Background hits are collected by the Mobile SDKs when the app is in a background state. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Start a New Visit upon each App Launch </p> </td> 
-   <td colname="col2"> <p> In addition to the visit timeout, you can force a visit to begin whenever an App Launch event has been recorded from the Mobile SDKs regardless of the inactivity window. This setting affects the visit metric and the visit segment container, as well as visit expiration logic on eVars. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Start New Visit with Event </p> </td> 
-   <td colname="col2"> <p>A new session starts when an event is fired, regardless of whether a session has timed out. The newly created session includes the event that started it. Additionally, you can use multiple events to start a session and a new session fires if any of those events are observed in the data. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **[!UICONTROL Visit Timeout]:** The visit timeout setting defines the amount of inactivity a unique visitor must have before a new visit is automatically started. It defaults to 30 minutes. For example, if you set the visit timeout to 15 minutes, a new visit grouping is created for each sequence of hits collected, separated by 15 minutes of inactivity. This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the visit timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting.
+* **[!UICONTROL Mobile App Visit Settings]:** For report suites containing data generated by mobile apps through the [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html), additional visit settings are available. These settings are non-destructive and only affect hits that have been collected via the Mobile SDKs. These settings have no impact to data collected outside of the Mobile SDK.
+* **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Background hits are collected by the Mobile SDKs when the app is in a background state.
+* **[!UICONTROL Start a New Visit upon each App Launch]:** In addition to the visit timeout, you can force a visit to begin whenever an App Launch event has been recorded from the Mobile SDKs regardless of the inactivity window. This setting affects the visit metric and the visit segment container, as well as visit expiration logic on eVars.
+* **[!UICONTROL Start New Visit with Event]:** A new session starts when an event is fired, regardless of whether a session has timed out. The newly created session includes the event that started it. Additionally, you can use multiple events to start a session and a new session fires if any of those events are observed in the data. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars.
 
-Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and will not be accessible in [!UICONTROL Reports & Analytics], Ad Hoc Analysis, Data Warehouse, Report Builder, Data Feeds, or the reporting API.
+Here is a video on starting a new visit with event:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+
+## Report Time Processing limitations
+
+Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and is not accessible in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, Data Feeds, or the reporting API.
 
 In addition, Report Time Processing only processes data that comes from within the reporting date range (referred to as "date windowing" below). This means that eVar values set to "never expire" for a visitor prior to the reporting date range do not persist into the reporting windows and do not appear in reports. This also means that customer loyalty measurements are based exclusively on the data present in the reporting date range and not on the entire history prior to the reporting date range.
 
-Below is a list of metrics and dimensions that are not currently supported when using Report Time Processing :
+The following dimensions and metrics are not supported with Report Time Processing:
 
-<table id="table_127AFE8FA1BE4F2BAB3975CA12A2FA47"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric/Dimension Name </th> 
-   <th colname="col2" class="entry"> Report Time Processing Notes </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Analytics for Target </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Analytics for Advertising Cloud reserved metrics/dimensions </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Single Access Metric </p> </td> 
-   <td colname="col2"> <p> Unsupported now and in the future. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> List Vars </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Counter eVars </p> </td> 
-   <td colname="col2"> <p> Unsupported now and in the future. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Marketing Channels Variables </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Days Since Last Purchase Dimension </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this dimension is not supported. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Days Before First Purchase Dimension </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this dimension is not supported. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Return Frequency Dimension </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this dimension is not supported. </p> <p> An alternative approach using a visit count metric in a segment is possible, or using the visit metric in a histogram report. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Days Since Last Visit Dimension </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this dimension is not supported. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Entry Page Original Dimension </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this dimension is not supported. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Linear Allocation eVars </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Original Referring Domain Dimension </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Visit Number </p> </td> 
-   <td colname="col2"> <p> Due to the nature of Report Time Processing date windowing, this metric is not supported. </p> <p> To report on the number of new vs repeat visitors in mobile apps, you can use a calculated metric including visitors/visits with the App Install metric to identify new visitors or visits. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Transaction ID Data Sources </p> </td> 
-   <td colname="col2"> <p> Currently unsupported. Future support is planned. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* **Analytics for Target**
+* **Analytics for Advertising Cloud dimensions/metrics**
+* **Counter eVars**
+* **Days Before First Purchase**
+* **Days Since Last Purchase**
+* **Days Since Last Visit**
+* **Entry Page Original**
+* **Linear allocation eVars**
+* **List Vars**
+* **Marketing Channels dimensions**
+* **Original Referring Domain**
+* **Return Frequency**
+* **Single Access**
+* **Transaction ID Data Sources**
+* **Visit Number**
+
+## Impacted dimensions and metrics
 
 Below is a list of dimensions and metrics that are impacted depending on the Report Time Processing settings selected:
 
-<table id="table_491E48C55BC84917B4A8EACBF04C939F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metric/Dimension Name </th> 
-   <th colname="col2" class="entry"> Report Time Processing Notes </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Unique Visitors Metric </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, Unique Visitors does not include Visitors who had only background hits in the reporting date range. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Visits </p> </td> 
-   <td colname="col2"> <p> Visits reflects whatever settings the virtual report suite has configured, which may be different from the base report suite. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Serialized Events with Event IDs </p> </td> 
-   <td colname="col2"> <p> Events that use Event Serialization with an event ID are only deduplicated for events that occur within the reporting date range for a visitor rather than across all dates or visitors globally due to Report Time Processing date windowing. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Purchases/Revenue/Orders/Units </p> </td> 
-   <td colname="col2"> <p> When the purchase ID is used, these metrics are only deduplicated for duplicate purchase IDs that occur within the reporting date range for a visitor rather than across all date or visitors globally due to Report Time Processing date windowing. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Bounces/Bounce Rate </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, background hits that are not followed by a foreground hit are not considered a bounce and do not contribute to the bounce rate. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Timespent Seconds Per Visit </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, only visits that include foreground hits contribute to this metric. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Timespent Per Visit </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, only visits that include foreground hits contribute to this metric. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Entries </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, only entries from visits that contain a foreground hit are considered. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Non-merchandising eVars/reserved eVars </p> </td> 
-   <td colname="col2"> <p> Values set in an eVar persist only if the value was set within the reporting date range due to Report Time Processing date windowing. </p> <p> In addition, time-based expirations might expire an hour early or an hour late if the persistence spans a daylight savings time change. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Merchandising eVars/reserved eVars </p> </td> 
-   <td colname="col2"> <p> See above. </p> <p> In addition, for conversion syntax, where the binding is set to "any event," "any hit" is used instead. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Entry and Exit Dimensions </p> </td> 
-   <td colname="col2"> <p> If "Prevent Background Hits from starting a New Visit" is enabled, only entries and exits from visits with foreground hits appear in this dimension. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Hit Type </p> </td> 
-   <td colname="col2"> <p> This dimension specifies whether a hit is foreground or background. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+* If "Prevent Background Hits from starting a New Visit" is enabled, the following changes occur. See [Context-aware sessionization](vrs-mobile-visit-processing.md) for more information.
+  * **Bounces/Bounce Rate:** Background hits that are not followed by a foreground hit are not considered a bounce and do not contribute to the bounce rate.
+  * **Time Spent Seconds Per Visit:** Only visits that include foreground hits contribute to this metric.
+  * **Time Spent Per Visit:** Only visits that include foreground hits contribute to this metric.
+  * **Entry/Exit Dimensions and Metrics:** Only entries and exits from visits with foreground hits appear in this dimension.
+  * **Unique Visitors Metric:** Unique Visitors does not include visitors who had only background hits in the reporting date range.
+* **Visits:** Visits reflects whatever settings the virtual report suite has configured, which can be different from the base report suite.
+* **Serialized Events with Event IDs:** Events that use Event Serialization with an event ID are only deduplicated for events that occur within the reporting date range for a visitor. These events are not deduplicated across all dates or visitors globally due to Report Time Processing date windowing.
+* **Purchases/Revenue/Orders/Units:** When the purchase ID is used, these metrics are only deduplicated for duplicate purchase IDs that occur within the reporting date range for a visitor rather than across all date or visitors globally due to Report Time Processing date windowing.
+* **Non-merchandising eVars/reserved eVars:** Values set in an eVar persist only if the value was set within the reporting date range due to Report Time Processing date windowing. In addition, time-based expirations can expire an hour early or an hour late if the persistence spans a daylight savings time change.
+* **Merchandising eVars/reserved eVars:** See above. In addition, for conversion syntax, where the binding is set to "any event," "any hit" is used instead.
+* **Hit Type:** This dimension specifies whether a hit is foreground or background.
+* **Dimensions with (Low-traffic) or "Uniques Exceeded":** The (Low-traffic) line item is determined slightly differently when using Report Time Processing, and is not guaranteed to match what is observed when reporting on the base Report Suite. Dimension line items that are not part of Low-traffic are not guaranteed to represent 100% of the data for that line item. These differences may become more pronounced the higher the number of unique values exist in a dimension.

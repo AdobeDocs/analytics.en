@@ -1,13 +1,9 @@
 ---
 description: Defines common settings for a job portal or career search website.
-seo-description: Defines common settings for a job portal or career search website.
-seo-title: Job portal
-solution: Analytics
 title: Job portal
-topic: Admin tools
-uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+feature: Report Suite Settings
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 ---
-
 # Job portal
 
 Defines common settings for a job portal or career search website.
@@ -18,14 +14,14 @@ Defines common settings for a job portal or career search website.
 |  Internal Search Terms  | String  | Basic  | Most Recent (Last)  | Visit  | `evar2`  |
 |  Self-Service Event Type  | String  | Basic  | Most Recent (Last)  | Visit  | `evar3`  |
 
-No success events are configured by this report suite template. 
+No success events are configured by this report suite template.
 
 |  Custom Insight Variables  | `s_code` variable  |
 |---|---|
 |  Secure / Non-Secure  | `prop1`  |
 |  Traffic Property 2 - 5  | `prop2, prop3, prop4, prop5`  |
 
-The following table contains a list of the standard commerce events. Initial configuration for these events is identical in all report suite templates. Events with an s_code variable of N/A do not need to be set, they are provided automatically. 
+The following table contains a list of the standard commerce events. Initial configuration for these events is identical in all report suite templates. Events with an s_code variable of N/A do not need to be set, they are provided automatically.
 
 |  Standard Commerce Events  | Type  | `s_code` variable  |
 |---|---|---|
@@ -42,4 +38,3 @@ The following table contains a list of the standard commerce events. Initial con
 |  Page Views  | Counter (no subrelations)  | N/A  |
 |  Daily Unique Visitors  | Counter (no subrelations)  | N/A  |
 |  Unique Visitors  | Counter (no subrelations)  | N/A  |
-

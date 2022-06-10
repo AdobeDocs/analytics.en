@@ -1,13 +1,10 @@
 ---
 description: Connecting without a password to FTP accounts is only possible using both an SFTP connection and an alternative authentication method. This involves a set of two files (one to reside on the FTP account and the other to reside on your computer) called a public and private key combination.
 keywords: ftp;sftp
-seo-description: Connecting without a password to FTP accounts is only possible using both an SFTP connection and an alternative authentication method. This involves a set of two files (one to reside on the FTP account and the other to reside on your computer) called a public and private key combination.
-seo-title: Connect to Adobe via SFTP without a password
-solution: Analytics
 title: Connect to Adobe via SFTP without a password
-uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
+feature: FTP Export
+exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
 ---
-
 # Connect to Adobe via SFTP without a password
 
 Connecting without a password to FTP accounts is only possible using both an SFTP connection and an alternative authentication method. This involves a set of two files (one to reside on the FTP account and the other to reside on your computer) called a public and private key combination.
@@ -22,7 +19,7 @@ When using SFTP, it is possible, under specific conditions, to use private keys 
 
 1. FTP account created (Adobe).
 
-   An Adobe representative can create an FTP account, if one does not already exist. Contact your Adobe Account Manager or Adobe Customer Care to get an account created. 
+   An Adobe representative can create an FTP account, if one does not already exist. Contact your Adobe Account Manager or Adobe Customer Care to get an account created.
 1. Public/Private key creation (Customer).
 
    Create a public and private key combination. The private key is a file that is private to your computer/server and resides there. The public key file needs to be uploaded to the Adobe account. When used in this manner you can connect without password authentication. The public key file at Adobe matches to the private key file on your computer/server and authenticates in that manner.
@@ -94,4 +91,3 @@ When using SFTP, it is possible, under specific conditions, to use private keys 
    
    sftp>
    ```
-

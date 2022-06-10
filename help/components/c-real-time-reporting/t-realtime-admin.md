@@ -1,18 +1,14 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
-seo-description: Administrative steps for setting up Real-Time reports.
-seo-title: Configure real-time reports
-solution: Analytics
 title: Configure real-time reports
-topic: Admin tools
-uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
+feature: Real-time
+exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 ---
-
 # Configure real-time reports
 
 Administrative steps for setting up Real-Time reports.
 
-Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of selecting the report suite and configuring up to 3 reports for it. 
+Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of selecting the report suite and configuring up to 3 reports for it.
 
 1. Select the report suite for which you want to enable real-time reports.
 
@@ -33,7 +29,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](/help/components/c-real-time-reporting/realtime-metrics.md).
 
    If you have created classifications, they appear indented under the dimension for which they are defined:
 
@@ -43,7 +39,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
    >
    >For a single Real-Time report, we do not currently support enabling duplicate dimensions, even if a different classification is selected for each dimension.
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   For more information about classifications, see [About Classifications](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -53,6 +49,6 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
 1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html). 
+   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. By default, all users have access to Real-Time reports.

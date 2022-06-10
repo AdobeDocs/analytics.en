@@ -1,14 +1,10 @@
 ---
 description: Changes to processing rules can be viewed in History.
-seo-description: Changes to processing rules can be viewed in History.
-seo-title: View processing rule history
-solution: Analytics
 subtopic: Processing rules
 title: View processing rule history
-topic: Admin tools
-uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
+feature: Processing Rules
+exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 ---
-
 # View processing rule history
 
 Changes to processing rules can be viewed in History.

@@ -1,22 +1,13 @@
 ---
 description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
-seo-description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
-seo-title: Calculated and Advanced Calculated (Derived) Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
-uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+feature: Calculated Metrics
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-
 # Calculated and Advanced Calculated (Derived) Metrics
 
 Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
-
->[!IMPORTANT]
->
->In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
->
->* “Marketing Channel Last Touch” and “Marketing Channel First Touch” allocation models were migrated to new “Last Touch” and “First Touch” attribution models respectively (Note: “Marketing Channels” has not been deprecated - only the two allocation models that appear in calculated metrics have been). 
->* In addition, we corrected the way Linear allocation is calculated. For customers using calculated metrics with “Linear” allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see [How Linear Allocation will work as of July 19, 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1). 
 
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
@@ -29,28 +20,29 @@ Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capab
 
 |  Builder Options  | Calculated Metrics  | Advanced Calculated (Derived) Metrics  |
 |---|---|---|
-| [Format types (decimal, time, percent, currency)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18)  | Yes  | Yes  |
-| [Attribution changes (default, linear, participation, etc.)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
-| [Metric types (standard, total)](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E)  | Yes  | Yes  |
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | Yes  | Yes  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |
 |  Basic operators (add, subtract, multiply, divide)  | Yes  | Yes  |
-| [Apply segments](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E)  | No  | Yes  |
-| [Basic functions (count, abs value, mean, etc)](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2)  | No  | Yes  |
-| [Advanced functions (regression, if/then, t-score, etc)](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)  | No  | Yes  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | No  | Yes  |
+| [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
+| [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
 
 ## Capabilities {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis]. 
-* Create segmented metrics that are derived at report run time, [without having to change the implementation](https://youtu.be/CuQTm9RaUpY). These can be viewed historically because they are based on segments. 
-* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company. 
-* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. 
-* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item. 
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa. 
+* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments. Here is a video on implementation-less metrics:
 
-  >[!NOTE]
-  >
-  >You can continue to create metrics in Ad Hoc Analysis. Its calculated metric builder user interface is now similar to the new metric builder.
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
+* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
+* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. Here is a video on this topic:
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+
+* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
 ## Limitations {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -78,7 +70,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> Calculated Metric Builder</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Calculated Metric Builder</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">Create calculated and advanced calculated metrics using advanced allocation models. </li> 
@@ -93,7 +85,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653" format="dita" scope="local"> Calculated Metric Manager</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Calculated Metric Manager</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">Share metrics with others. </li> 
@@ -105,12 +97,11 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> Metric Selector rail </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports & Analytics]. </p> <p>It lets you search for and add/apply metrics to the report. You can also change the <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local"> sort</a> order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite. </p> <p>To access this Metric Selector, click the Metrics icon <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> to the left of a report. This is what the Metric Selector looks like: </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports & Analytics</span>. </p> <p>It lets you search for and add/apply metrics to the report. You can also change the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite. </p> <p>To access this Metric Selector, click the Metrics icon <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> to the left of a report. This is what the Metric Selector looks like: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> API for Calculated Metrics</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API for Calculated Metrics</a> </td> 
    <td colname="col2"> <p>Part of the Adobe Analytics 2.0 API set. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

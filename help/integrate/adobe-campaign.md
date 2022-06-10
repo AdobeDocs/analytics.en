@@ -1,30 +1,28 @@
 ---
-description: null
-seo-description: null
-seo-title: Adobe Campaign reporting
-title: Adobe Campaign reporting
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Learn how to enable Adobe Campaign reporting in Adobe Analytics
+title: How do I Integrate Adobe Campaign Reporting into Adobe Analytics?
+feature: Campaign Integration
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 ---
-
 # Adobe Campaign reporting
 
 For more information on how to configure this integration, go to the [Adobe Campaign documentation](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 This integration between Adobe Analytics and Adobe Campaign
 
-* Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics. 
-* Enriches tracking formulas with Adobe Analytics parameters. 
+* Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics.
+* Enriches tracking formulas with Adobe Analytics parameters.
 * Adds a new report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]** 
-* Adds 5 new Adobe Campaign classifications. 
-* Adds 10 new Adobe Campaign metrics. 
-* Adds 6 new Adobe Campaign dimensions. 
+* Adds 5 new Adobe Campaign classifications.
+* Adds 10 new Adobe Campaign metrics.
+* Adds 6 new Adobe Campaign dimensions.
 * Synchronizes data to Analytics every 15 minutes.
 
 ## Step 1. Enable Adobe Campaign Reporting {#section_C685EF10505045708A6536BB13F6CD58}
 
 In order to view Campaign data in Analytics, you first have to enable Campaign reporting.
 
-1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]** . 
+1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]** .
 1. Click **[!UICONTROL Enable Campaign Reporting]**.
 
    ![](assets/enable-campaign.png)
@@ -33,24 +31,13 @@ In order to view Campaign data in Analytics, you first have to enable Campaign r
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Report </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign Executed Delivery ID </p> </td> 
-   <td colname="col2"> <p>Shows data imported from Adobe Campaign about emails that were sent from Adobe Campaign. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Report | Definition |
+|--- |--- |
+| Adobe Campaign Executed Delivery ID | Shows data imported from Adobe Campaign about emails that were sent from Adobe Campaign. |
 
 ## Step 3. Use Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
 Once your report suite is enabled for Adobe Campaign, the following classifications are available:
 

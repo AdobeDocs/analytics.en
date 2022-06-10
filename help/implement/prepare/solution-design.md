@@ -1,17 +1,16 @@
 ---
 title: Create a solution design document
-seo-title: Create a solution design document
 description: Learn what a solution design document is, and how you can use it in your organization.
-seo-description: Learn what a solution design document is, and how you can use it in your organization.
+feature: Implementation Basics
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 ---
-
 # Create a solution design document
 
 A solution design document (also known as a solution design reference or business requirements document) is in essence the blueprint of your analytics implementation. It defines criteria identified by stakeholders throughout your organization, and translates them to variables within Adobe Analytics. Without one, organizations have a difficult time coordinating reporting needs and tend to miss collecting important data.
 
 ## Prerequisites
 
-[Validate your Analytics implementation and publish to production](../implement-with-launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
+[Validate your Analytics implementation and publish to production](../launch/validate-publish-prod.md) - While not directly required, Adobe recommends having a basic implementation in place so critical data is collected while additional business requirements are established and implemented.
 
 ## Ownership and location of the design document
 
@@ -40,17 +39,8 @@ Defining a solution design document is a fairly complex project, especially for 
 
 There are also several Adobe partners who specialize in helping with the creation of a solution design document, as well as implementing Adobe Analytics on your site.
 
-> [!NOTE] Although members of the Analytics community have found the following links helpful, they are not owned by Adobe. Take this note into consideration when viewing their content.
-
-* [7 Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) by ObservePoint
-* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) by Analytics Demystified
-* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) by Numeric Analytics
-* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) by Antti Koski
-* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) by Ebiquity
-
 ## Next Steps
 
 Implement the variables in your solution design document.
 
-* Introduction to eVars: Learn what an eVar is, how it works, and how to use one in your implementation
-* Introduction to events: Learn what a success event is, how it works, and how to use one in your implementation
+[Create a data layer](data-layer.md): Translate variables in your design document to JavaScript variables on your site.

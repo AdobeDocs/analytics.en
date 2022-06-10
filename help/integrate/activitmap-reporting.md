@@ -1,22 +1,18 @@
 ---
 description: Administrative steps for enabling Activity Map reporting in Analytics.
-seo-description: Administrative steps for enabling Activity Map reporting in Analytics.
-seo-title: Activity Map reporting
-solution: Analytics
 title: Activity Map reporting
-topic: Reports
-uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
+feature: Activity Map
+exl-id: e1d3f894-b769-4294-b550-f46869b812be
 ---
-
 # Activity Map reporting
 
 Administrative steps for enabling Activity Map reporting in Analytics.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
 Enables Analytics to collect user activity served up from Activity Map (formerly ClickMap). This integration
 
-* Enables reporting in Analytics. 
+* Enables reporting in Analytics.
 * Adds new reports under **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]** 
 
   |  Report  | Description  |
@@ -26,4 +22,4 @@ Enables Analytics to collect user activity served up from Activity Map (formerly
   |  Activity Map Links  | Lists all collected links across the whole web site.  |
   |  Activity Map Links & Region  | Lists all collected links with their region across the whole web site.  |
 
-For data to be populated, refer to the [Activity Map documentation](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/) for complete implementation instructions. 
+For data to be populated, refer to the [Activity Map documentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) for complete implementation instructions.

@@ -1,11 +1,9 @@
 ---
 description: Frequently asked questions about features, functionality, and issues related to server-side forwarding.
-seo-description: Frequently asked questions about features, functionality, and issues related to server-side forwarding.
-seo-title: Server-side forwarding FAQ
 title: Server-side forwarding FAQ
-uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
+feature: Server-Side Forwarding
+exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 ---
-
 # Server-side forwarding FAQ
 
 Frequently asked questions about features, functionality, and issues related to server-side forwarding.
@@ -29,6 +27,6 @@ Frequently asked questions about features, functionality, and issues related to 
 |Q: What if we have two Experience Cloud Orgs (or AAM instances) and want to share data between both Experience Cloud Orgs? Can I server side forward a single Analytics hit to multiple Experience Cloud Orgs?|No. If you need to share data collected under one Experience Cloud Org to another Experience Cloud Org, we recommend sending any applicable audiences from one Audience Manager instance to another using the audience marketplace.|
 |Q: Will server-side forwarding result in any additional billing in Audience Manager or Analytics?|In Analytics, no additional billing will occur. In Audience Manager, forwarded hits are treated like any other hits and are billed.  This is why it is important not to have DIL and server-side forwarding enabled at the same time, which could cause double-billing as well as data duplication.|
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
->* [Server-Side Forwarding](ssf.md#concept_9563FCADF29748928E770EC5221B2685)
+>* [Server-Side Forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md)

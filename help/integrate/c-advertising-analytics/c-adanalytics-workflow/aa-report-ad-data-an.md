@@ -1,11 +1,9 @@
 ---
 description: Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
-seo-description: Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
-seo-title: Report on advertising data in Adobe Analytics
 title: Report on advertising data in Adobe Analytics
-uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
+feature: Advertising Analytics
+exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 ---
-
 # Report on advertising data in Adobe Analytics
 
 Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
@@ -20,7 +18,7 @@ This template lets anyone who implements this Search Engine integration get acce
 
 >[!NOTE]
 >
->The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) screen.
+>The Advertising Template category is visible to all customers, even if you have not implemented any Advertising Accounts. However, if you try to open the Search Engines template for a company that has not be provisioned, an error message will explain that you have not configured any Search Engine Accounts yet. In this case, click **[!UICONTROL Configure Now]**, which will take you to the [Advertising Account Setup](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) screen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -48,4 +46,4 @@ As soon as you have set up an Advertising Analytics account, the Advertising Ana
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available. 
+As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available.

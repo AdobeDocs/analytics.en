@@ -1,11 +1,10 @@
 ---
 description: You can view anomalies in a table or in a line chart.
-seo-description: You can view anomalies in a table or in a line chart.
-seo-title: View anomalies in Analysis Workspace
 title: View anomalies in Analysis Workspace
-uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
+feature: Anomaly Detection
+role: User, Admin
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 ---
-
 # View anomalies in Analysis Workspace
 
 You can view anomalies in a table or in a line chart.
@@ -26,8 +25,8 @@ If you click a white dot, it will turn green and it will show you:
 
 * The date when the anomaly occurred 
 * The raw value of the anomaly 
-* The percentage value above or below the expected value, which is represented by the solid green line. 
-* The Analyze link to start [Contribution Analysis](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
+* The percentage value above or below the expected value, which is represented by the solid green line.
+* The Analyze link to start [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 
@@ -38,4 +37,3 @@ The Anomaly Detection confidence interval does not automatically scale the y-axi
 You have the option to allow the confidence interval to scale the chart. Just click the Settings (gear) icon and check **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
 
 ![](assets/scale-y-axis.png)
-

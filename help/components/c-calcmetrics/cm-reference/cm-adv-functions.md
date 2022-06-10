@@ -1,18 +1,10 @@
 ---
 description: Access these functions by checking Show Advanced in the Functions drop-down list.
-seo-description: Access these functions by checking Show Advanced in the Functions drop-down list.
-seo-title: Reference  advanced functions
 title: Reference  advanced functions
-uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+feature: Calculated Metrics
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 ---
-
 # Reference: advanced functions
-
-<!-- 
-
-cm_adv_functions.xml
-
- -->
 
 Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
@@ -26,7 +18,7 @@ It tells whether to include zeros in the computation. Sometimes zero means "noth
 
 For example, if you have a Revenue metric, and then add a Page Views metric to the report, there are suddenly more rows for your revenue which are all zero. You probably don't want this to affect any MEAN, MIN, QUARTILE, etc. calculations that you have on the revenue column. In this case, you would check the include-zeros parameter.
 
-On the other hand, if you have two metrics that you are interested in, it may not be fair to say that one has a higher average or minimum because some of its rows were zeros, so you would not check the parameter to include the zeros. 
+On the other hand, if you have two metrics that you are interested in, it may not be fair to say that one has a higher average or minimum because some of its rows were zeros, so you would not check the parameter to include the zeros.
 
 ## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
@@ -57,11 +49,11 @@ Approximate Count Distinct (dimension)
 |---|---|
 |  *dimension* | The dimension for which you want the approximate distinct item count.  |
 
-## Example Use Case {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Example Use Case {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Approximate Count Distinct (customer ID eVar) is a common use case for this function.
 
-Definition for a new ‘Approximate Customers’ calculated metric:
+Definition for a new 'Approximate Customers' calculated metric:
 
 ![](assets/approx-count-distinct.png)
 
@@ -69,15 +61,15 @@ This is how the "Approximate Customers" metric could be used in reporting:
 
 ![](assets/approx-customers.png)
 
-## Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Like Count() and RowCount(), Approximate Count Distinct() is subject to ["uniques exceeded" limits](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). If the "uniques exceeded" limit is reached within a particular month for a dimension, the value is counted as 1 dimension item.
+Like Count() and RowCount(), Approximate Count Distinct() is subject to ["uniques exceeded" limits](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). If the "uniques exceeded" limit is reached within a particular month for a dimension, the value is counted as 1 dimension item.
 
-## Comparing Count Functions {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparing Count Functions {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
 
-This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts. 
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
 
 ## Arc Cosine (Row) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
@@ -125,8 +117,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -191,7 +183,7 @@ CBRT(metric)
 
 ## Cumulative {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-Returns the sum of x for the last N rows (as ordered by the dimension, using hash values for string based fields). 
+Returns the sum of x for the last N rows (as ordered by the dimension, using hash values for string based fields).
 
 If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's only useful on dimensions that have a natural order like date or path length.
 
@@ -206,7 +198,7 @@ If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's on
 
 ## Cumulative Average {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-Returns the average of the last N rows. 
+Returns the average of the last N rows.
 
 If N <= 0 it uses all previous rows. Since it's ordered by the dimension it's only useful on dimensions that have a natural order like date or path length.
 
@@ -245,8 +237,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Exponential Regression: Slope (Table) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -258,8 +250,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Floor (Row) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -315,7 +307,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -390,8 +382,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Log Regression: Predicted Y (Row) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -405,8 +397,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Log regression: Slope (Table) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -418,8 +410,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_A* | A metric that you would like to designate as the dependent data.  |
-|  *metric_B* | A metric that you would like to designate as the independent data.  |
+|  *metric_A* | A metric that you would like to designate as the independent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
 ## Natural Log {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -445,7 +437,7 @@ NOT(logical)
 |---|---|
 |  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
 
-Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values. 
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
 
 ## Not equal {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -476,7 +468,7 @@ Returns the constant PI, 3.14159265358979, accurate to 15 digits.
 PI()
 ```
 
-The [!DNL PI]function has no arguments. 
+The [!DNL PI]function has no arguments.
 
 ## Power regression: Correlation coefficient (Table) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
@@ -501,8 +493,8 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Power regression: Predicted Y (Row) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -514,8 +506,8 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Power regression: Slope (Table) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -527,8 +519,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Correlation coefficient (Table) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -553,8 +545,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Predicted Y (Row) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -566,7 +558,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_A* | A metric that you would like to designate as the independent data.  |
 |  *metric_B* | A metric that you would like to designate as the dependent data.  |
 
 ## Quadratic regression: Slope (Table) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -579,8 +571,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Correlation coefficient (Table) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -605,8 +597,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Predicted Y (Row) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -618,8 +610,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Reciprocal regression: Slope (Table) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -631,8 +623,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric_X* | A metric that you would like to designate as the dependent data.  |
-|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+|  *metric_X* | A metric that you would like to designate as the independent data.  |
+|  *metric_Y* | A metric that you would like to designate as the dependent data.  |
 
 ## Sine (Row) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
@@ -652,7 +644,7 @@ Alias for Z-Score, namely the deviation from the mean divided by the standard de
 
 ## T-Test {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
-Performs an m-tailed t-test with t-score of col and n degrees of freedom. 
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
 
 The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
@@ -690,7 +682,7 @@ TAN (metric)
 
 ## Z-Score (Row) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations. 
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
 The equation for Z-score is:
 
@@ -721,11 +713,10 @@ Z-score(metric)
 
 ## Z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-Performs an n-tailed Z-test with Z-score of A. 
+Performs an n-tailed Z-test with Z-score of A.
 
 Returns the probability that the current row could be seen by chance in the column.
 
 >[!NOTE]
 >
 >Assumes that the values are normally distributed.
-

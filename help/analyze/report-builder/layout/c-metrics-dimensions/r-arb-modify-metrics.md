@@ -1,13 +1,11 @@
 ---
 description: Field descriptions for configuring metrics in Report Builder.
-seo-description: Field descriptions for configuring metrics in Report Builder.
-seo-title: Modify metrics - field definitions
-solution: Analytics
 title: Modify metrics - field definitions
-topic: Report builder
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
+feature: Report Builder
+role: User, Admin
+exl-id: 3d2ebd3f-9090-4de6-8da9-50a2640ffaf2
 ---
-
 # Modify metrics - field definitions
 
 Field descriptions for configuring metrics in Report Builder.

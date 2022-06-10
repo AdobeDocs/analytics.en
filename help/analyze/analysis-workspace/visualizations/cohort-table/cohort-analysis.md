@@ -1,65 +1,74 @@
 ---
-keywords: Analysis Workspace
-seo-title: What is cohort analysis?
-solution: Analytics
-title: What is cohort analysis?
-topic: Reports and analytics
-uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
+title: What is Cohort Analysis and how does it work?
+description: Dig deeper into the data around your audience and break into related groups with Cohort Analysis. Learn about cohort analysis in Analysis Workspace.
+feature: Cohort Analysis
+role: User, Admin
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 ---
+# Learn about [!UICONTROL Cohort Analysis] in Adobe Analytics
 
-# What is Cohort Analysis?
+A *`cohort`* is a group of people sharing common characteristics over a specified period. [!UICONTROL Cohort Analysis] is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
 
-After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
-Examples of what you can do with Cohort Analysis:
-
-* Launch campaigns designed to spur a desired action. 
-* Shift marketing budget at exactly the right time in the customer lifecycle. 
-* Recognize when to end a trial or an offer, to maximize value. 
-* Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on. 
-* View a Cohort Analysis report within a Guided Analysis report.
-* Recognize when to end a trial or an offer, to maximize value.
+* Launch campaigns designed to spur a desired action.
+* Shift marketing budget at exactly the right time in the customer lifecycle.
+* Recognize when to end a trial or an offer, in order to maximize value.
 * Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
+* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-Cohort Analysis is available for all Analytics customers with access rights to Analysis Workspace.
+[!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 
-[Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+Video on Cohort tables in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+
+>[!IMPORTANT]
+>
+>[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue, >or Occurrences. Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
 
 ## Cohort Analysis capabilities
 
-In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. It allows for much more fine-tuned control over the cohorts you are building. Here are the featured enhancements:
+The following capabilities allow for fine-tuned control over the cohorts you are building:
 
-### Retention Table
+### [!UICONTROL Retention] Table
 
-A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. You can include up to 3 metrics and up to 10 segments.
+A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/retention-report.png)
 
-### Churn Table
+Here is a video on calculating rolling retention:
 
-A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+
+### [!UICONTROL Churn] Table
+
+A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/churn-report.png)
 
-### Rolling Calculation
+Here is a video on churn analysis:
 
-Lets you calculate retention or churn based on the previous column, not the included column. 
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+
+### [!UICONTROL Rolling Calculation]
+
+Lets you calculate retention or churn based on the previous column, not the included column.
 
 ![](assets/cohort-rolling-calculation.png)
 
-### Latency Table
+### [!UICONTROL Latency] Table
 
-Measures the time that has elapsed before and after the inclusion event occurred. This is an excellent tool for pre/post analysis. The "Included" column is in the center of the table and time periods before and after the inclusion event are shown on both sides. 
+Measures the time that has elapsed before and after the inclusion event occurred. This is an excellent tool for pre/post analysis. The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 
-### Custom Dimension Cohort
+### [!UICONTROL Custom Dimension] Cohort
 
-Create cohorts based on a selected dimension, and not time-based cohorts, which are the default. Use dimensions such as marketing channel, campaign, product, page, region, or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
+Create cohorts based on a selected dimension, and not time-based cohorts, which are the default. Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
 For instructions on how to set up and run a cohort report, go to [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-

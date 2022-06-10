@@ -1,13 +1,14 @@
 ---
 title: Real-time reports in Adobe Analytics
 description: Learn how to pull real-time reports in Adobe Analytics, geared towards users more familiar with Google Analytics.
+feature: Third-party Integration
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 ---
-
 # Real-time reports
 
 Real-time reports show what's happening on your site right now. These types of reports are especially valuable to see immediate results of updates you make to your site. For example, a company running a sale on Black Friday can gauge traffic to specific pages and determine which sales to prioritize based on performance in that moment.
 
-![Real-time report](../assets/realtime.png)
+![Real-time report](/help/technotes/ga-to-aa/assets/realtime.png)
 
 Real-time reports are one of the few features that have not yet been introduced to Analysis Workspace. Use Reports & Analytics to obtain this data. They require some simple configuration to begin collecting data.
 
@@ -19,7 +20,7 @@ To reach the real-time report configuration page (Admin permissions required):
 
 Adobe allows up to three real-time reports to collect data simultaneously. Each must be configured before they begin collecting data in real-time.
 
-![Real-time report configuration](../assets/realtime_config.png)
+![Real-time report configuration](/help/technotes/ga-to-aa/assets/realtime_config.png)
 
 ## Real-time Locations
 
@@ -61,7 +62,9 @@ Real-time content tells you what pages your visitors are currently viewing. To c
 
 Real-time events tells you which events are happening the most on your site. In Google Analytics, an event captures the number of times a specific action (generally an action that is unrelated to a page view) has occurred. GA events are sent with a Category, Label, and Action. In Adobe Analytics, custom events are metrics that are given friendly names in the admin console and can be analyzed alongside any dimension. If you are looking for a dimension in Adobe Analytics that is similar to Google Analytics events, consider applying the Custom Link dimension, which is often used as a catch-all for collecting data that is unrelated to page views (in addition to Exit Links - for Exits - and Download Links - for Downloads).
 
-> [!NOTE] When using custom events in real-time reports, the dimension value must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+>[!NOTE]
+>
+>When using custom events in real-time reports, the dimension item must be defined in the same hit as the custom event. For example, if viewing a 'Registrations' custom event for the 'Referring Domain' dimension, no data would be returned without additional implementation. Since referring domain only appears on the first hit, and a custom event would typically appear later in the visit, the data cannot be associated in real-time reports. This data is available using Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
 
 ## Real-time Conversions
 
@@ -75,4 +78,6 @@ Real-time conversions present data differently between platforms. Goals in Googl
    * For the two secondary dimensions, use the preferred additional data that you'd like to see for this traffic. Secondary dimensions do not have to be specific to conversions.
 3. Click [!UICONTROL Save and View Report].
 
-> [!NOTE] If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.
+>[!NOTE]
+>
+>If using events outside of Instances, such as Orders, ensure that your implementation defines the dimension and event on the same hit. If dimensions and events don't fire on the same hit, that data is available in Analysis Workspace using standard processing latency, which is typically 30-90 minutes.

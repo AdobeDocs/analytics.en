@@ -1,20 +1,17 @@
 ---
 description: When you schedule a report, you can choose a publishing list to use for distribution.
-seo-description: When you schedule a report, you can choose a publishing list to use for distribution.
-seo-title: Allow Publishing List Overrides
-solution: Analytics
 title: Allow Publishing List Overrides
-topic: Report builder
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+feature: Report Builder
+role: User, Admin
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 ---
-
 # Allow Publishing List Overrides
 
 When you schedule a report, you can choose a publishing list to use for distribution.
 
 Publishing lists are set up in Analytics Admin tools.
 
-See [Publishing List Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list) in the Analytics Reference.
+See [Publishing List Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) in the Analytics Reference.
 
 To enable this feature, navigate to the [!UICONTROL Request Wizard: Step 1] window.
 
@@ -25,4 +22,3 @@ This option is not available for report suites that you select from cells.
 >[!NOTE]
 >
 >If you send the scheduled report to multiple publishing lists, the report runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list.
-

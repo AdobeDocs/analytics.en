@@ -1,13 +1,10 @@
 ---
-description: null
-seo-description: null
-seo-title: Transaction ID and visitor profiles
-solution: Analytics
+description: Use transaction ID in data sources to link online and offline data together.
 title: Transaction ID and visitor profiles
-topic: Developer and implementation
-uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
 ---
-
 # Transaction ID and visitor profiles
 
 This section contains important information regarding the data from the visitor profile that is used when uploading data using a transaction ID.
@@ -46,4 +43,4 @@ There are a few ways to view associated visitor data that might not be available
 
 As a result, you can build a segment of visitors who perform some offline event that was uploaded using transaction ID data sources. That will return everything the visitor did before and after the transaction ID event.
 
-Likewise, visitor participation allows you to see how transaction ID props and eVars preceded an online event, or how online props and eVars preceded a transaction ID event. 
+Likewise, visitor participation allows you to see how transaction ID props and eVars preceded an online event, or how online props and eVars preceded a transaction ID event.

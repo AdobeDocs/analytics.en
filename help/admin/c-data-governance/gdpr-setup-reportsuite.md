@@ -1,11 +1,9 @@
 ---
 description: Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
-seo-description: Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
-seo-title: Label report suite data
 title: Label report suite data
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 ---
-
 # Label report suite data
 
 Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure you first familiarize yourself with the labels and their definitions.
@@ -16,9 +14,9 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 ## Assign or Edit Report Suite Labels {#section_39F829F35A274EACA532E2F6FF392996}
 
-**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their GDPR requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
+**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL [select report suite].]** ![](assets/gdpr_rs_settings.png)
+1. In Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
 
 1. Select which group of variables you want to label.
 
@@ -41,7 +39,7 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
    ![](assets/edit.png)
 
-1. The **Identity Data** labels dialog opens automatically. These labels classify data that can be used by itself or in combination with other data to identify or enable direct contact with an individual. For more information on these options, refer to [Identity Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC). 
+1. The **Identity Data** labels dialog opens automatically. These labels classify data that can be used by itself or in combination with other data to identify or enable direct contact with an individual. For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels) 
 
    >[!NOTE]
    >
@@ -49,27 +47,27 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
    ![](assets/identity_labels.png)
 
-1. Open the **Sensitive Data** section to set Sensitive Data Labels, which categorize geolocation data. For more information on these options, refer to [Sensitive Data Labels (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC).
+1. Open the **Sensitive Data** section to set Sensitive Data Labels, which categorize geolocation data. For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the GDPR Data section to set **Data Governance** Labels. Use this section to instruct Adobe how to handle each variable for GDPR access and delete requests, as well for defining which variables should be scanned to find data subject IDs for these requests. For more information on these options, refer to [Data Governance Labels (GDPR)](../../admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B).
+1. Open the Data Privacy Data section to set **Data Governance** Labels. Use this section to instruct Adobe how to handle each variable for Data Privacy access and delete requests, as well for defining which variables should be scanned to find data subject IDs for these requests. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/gdpr_labels.png)
+   ![](assets/privacy_labels.png)
 
 1. Click **[!UICONTROL Apply]** once you have completed all labeling.
 
 ## Copy Labels to Report Suite(s) {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-If you want to apply the same DULE/GDPR settings to more than one report suite, you can follow these steps:
+If you want to apply the same DULE/Data Privacy settings to more than one report suite, you can follow these steps:
 
-1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time. 
-1. Select some or all of the variables in this group. 
+1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time.
+1. Select some or all of the variables in this group.
 1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
 
    ![](assets/apply_as_template.png)
 
-1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to. 
+1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to.
 
    >[!IMPORTANT]
    >
@@ -88,4 +86,3 @@ If you want to apply the same DULE/GDPR settings to more than one report suite, 
    >You should always check the destination report suites to make sure that the labels copied over correctly. This is especially important for variables that have ID or DEL labels.
 
 1. Click **[!UICONTROL Apply]**.
-

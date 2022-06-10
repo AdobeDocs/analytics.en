@@ -1,22 +1,20 @@
 ---
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
-seo-description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
-seo-title: Report display settings and navigation
-solution: Analytics
 title: Report display settings and navigation
-topic: Reports,Reports and analytics
-uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
-
 # Report display settings and navigation
 
 Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
 
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
-
-<!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All Components]** > **[!UICONTROL Report settings]**
 
 |Element|Description|
 |--- |--- |
@@ -53,7 +51,7 @@ nav_menu.xml
 
  -->
 
-If you are used to the default menu, the following table makes it easier for you to find the menu options in the simplified menu.  
+If you are used to the default menu, the following table makes it easier for you to find the menu options in the simplified menu.
 
 |  Location in Default Menu  | Location in Simplified Menu  |
 |---|---|
@@ -131,9 +129,9 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Custom Conversion** |  |  |
 |   | Custom Conversion 1-10  | Conversion > Custom Conversion > Custom Conversion 1-10  |
 |   | Custom Conversion 11-20  | Conversion > Custom Conversion > Custom Conversion 11-20  |
-|  **Custom Traffic ** |  |  |
+|  **Custom Traffic** |  |  |
 |   | Custom Traffic 1-10  | Content > Custom Traffic > Custom Traffic 1-10  |
-|  **Test&Target ** |  | Conversion > Test&Target  |
+|  **Test&Target** |  | Conversion > Test&Target  |
 |  **Survey** |  | Audience > Survey  |
 |  **Marketing Channels** |  |  |
 |   | Channel Overview Report  | Traffic Sources > Marketing Channels > Channel Overview Report  |
@@ -144,7 +142,6 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Mobile App** |  |  |
 |   | Mobile App Overview  | Content > Mobile App > Mobile App Overview  |
 |   | Lifecycle Reports  | Content > Mobile App > Lifecycle Reports  |
-|  **Custom Reports ** |  |  |
+|  **Custom Reports** |  |  |
 |   | Custom reports show up only of you have any set up.  | Custom Reports  |
 |   |  |  |
-

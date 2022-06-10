@@ -1,13 +1,11 @@
 ---
 description: Steps that describe how to create an anomaly detection request in report builder.
-seo-description: Steps that describe how to create an anomaly detection request in report builder.
-seo-title: Configure an anomaly detection request
-solution: Analytics
 title: Configure an anomaly detection request
-topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
+feature: Report Builder
+role: User, Admin
+exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 ---
-
 # Configure an anomaly detection request
 
 Steps that describe how to create an anomaly detection request in report builder.
@@ -31,7 +29,7 @@ Steps that describe how to create an anomaly detection request in report builder
 
    ![Step Info](assets/anomaly_visit.png)
 
-   When you select one of these options, the system creates Anomaly Detection copies of the original metric. For example, for the Visit metric, a Lower Bound Visit metric is added to the [!UICONTROL Metric] group. 
+   When you select one of these options, the system creates Anomaly Detection copies of the original metric. For example, for the Visit metric, a Lower Bound Visit metric is added to the [!UICONTROL Metric] group.
 1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
 
-   See [Anomaly Detection](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_9476D6C093334B1A8044AE63835BDBE7) for definitions. 
+   See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) for definitions.

@@ -1,11 +1,10 @@
 ---
 description: Explains how to pull Report Builder-published assets into Power BI Desktop
-seo-description: Explains how to pull Report Builder-published assets into Power BI Desktop
-seo-title: Pull published assets into Power BI Desktop
 title: Pull published assets into Power BI Desktop
-uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
+feature: Report Builder
+role: User, Admin
+exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 ---
-
 # Pull published assets into Power BI Desktop
 
 Explains how to pull Report Builder-published assets into Power BI Desktop
@@ -22,9 +21,9 @@ In the April 2017 update of Power BI Desktop, Microsoft released the ability to 
 1. In Power BI Desktop, go to **[!UICONTROL File]** > **[!UICONTROL Options and settings]** > **[!UICONTROL Options]** > **[!UICONTROL Preview features.]** 
 1. Enable **[!UICONTROL Power BI Service Live Connection]** and click **[!UICONTROL OK]**. ![](assets/bi-preview-features.png)
 
-1. Restart Power BI Desktop. 
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** > **[!UICONTROL Get Data]** > **[!UICONTROL More...]**. 
-1. Search for and select **[!UICONTROL Power BI service]**. 
+1. Restart Power BI Desktop.
+1. Once you have restarted the desktop, go to **[!UICONTROL Home]** > **[!UICONTROL Get Data]** > **[!UICONTROL More...]**.
+1. Search for and select **[!UICONTROL Power BI service]**.
 1. Under **[!UICONTROL Microsoft Power BI service]** > **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
-For more information, see this [Microsoft blog post](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/). 
+For more information, see this [Microsoft blog post](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/).

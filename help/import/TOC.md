@@ -2,12 +2,14 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
-user-guide-url: /content/help/en/analytics/import/home.html
+breadcrumb-title: Import Guide
+user-guide-description: Bring data into Adobe Analytics from outside sources, either in bulk or real-time. 
 ---
 
-# Analytics Import Guide {#import}
+# Adobe Analytics Import Guide {#import}
 
-+ [Analytics Import Help](home.md)
++ [Analytics Import Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Data Sources {#data-sources}
   + [Data Sources overview](c-data-sources/datasrc-home.md)
   + [How Data Sources works](c-data-sources/datasrc-how-data-sources-works.md)
@@ -28,7 +30,13 @@ user-guide-url: /content/help/en/analytics/import/home.html
     + [Transaction ID](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
     + [Visitor ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
     + [Full processing](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+    + [End of life for Full Processing](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
   + [Transaction and customer integration](c-data-sources/datasrc-integrating-offline-data.md)
   + [Transaction ID and visitor profiles](c-data-sources/datasrc-tid-visitor-profile.md)
   + [Data Sources FAQ](c-data-sources/datasrc-faq.md)
++ [Bulk Data Insertion API](bulk-data-insertion-api/bulk-data-insert.md)
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
++ Data Connectors {#dataconnectors}
+  + [End-of-life for Analytics Data Connectors](data-connectors/data-connectors-eol.md)
++ Import Use Cases {#use-cases}
+  + [Import Paid Search metrics using Data Sources](use-cases/paid-search-metrics.md)

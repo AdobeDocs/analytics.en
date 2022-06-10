@@ -2,29 +2,34 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics Admin Guide
-user-guide-url: /content/help/en/analytics/admin/home.html
+breadcrumb-title: Admin Guide
+user-guide-description: Learn about Analytics administration tasks, such managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 ---
 
-# Analytics Admin Guide {#admin}
+# Adobe Analytics Admin Guide {#admin}
 
-+ [Analytics Admin Help](home.md)
++ [Analytics Admin Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics Admin overview {#admin-overview}
   + [Which Adobe Analytics tool should I use?](c-analytics-product-comparison/which-analytics-tool.md)
   + [Analytics product comparison and requirements](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [System requirements](c-system-requirements/sys-reqs.md)
++ [System requirements](sys-reqs.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + Bot removal {#bot-removal}
     + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
-    + [Upload bot rules](admin/bot-removal/t-upload-bot-rules.md)
-    + [Create a custom bot rule](admin/bot-removal/t-create-bot-rules.md)
+    + [Common bot signatures](admin/bot-removal/bot-signatures.md)
+    + [Bot exclusion methods](admin/bot-removal/bot-exclusion-methods.md)
   + [Code Manager](admin/code-manager-admin.md)
   + Conversion variables {#conversion-variables}
     + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
     + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
     + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
+    + [Classification hierarchies](admin/conversion-var-admin/classification-hierarchies.md)
+    + [List variables](admin/conversion-var-admin/list-var-admin.md)
+    + [Merchandising eVars](admin/conversion-var-admin/merchandising-evars.md)
   + [Currency codes](admin/currency.md)
   + [Custom report descriptions](admin/custom-desc-admin.md)
   + [Customize calendar](admin/custom-calendar.md)
@@ -33,13 +38,12 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Finding methods](admin/finding-methods.md)
   + [General Account settings](admin/general-acct-settings-admin.md)
-  + [Group management](admin/group.md)
   + [Internal URL Filters](admin/internal-url-filter-admin.md)
   + [Logs](admin/logs.md)
   + [Marketing Channels](admin/marketing-channels-admin.md)
   + [Menu customizing](admin/customize-menus.md)
-  + [Metric cisibility](admin/metric-visibility.md)
-  + [Mobile management](admin/mobile-management.md)
+  + [Metric visibility](admin/metric-visibility.md)
+  + [App management](admin/mobile-management.md)
   + Paid search detection {#paid-search-detection}
     + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
     + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)
@@ -47,6 +51,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Publishing Widget](admin/publishing-widgets-admin.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy settings](admin/privacy-settings.md)
+  + [Privacy reporting](admin/privacy-reporting.md)
   + Processing rules {#processing-rules}
     + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
     + Processing rules configuration {#processing-rules-configuration}
@@ -77,6 +82,7 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
+    + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)
     + [Requirements for server-side forwarding](admin/c-server-side-forwarding/ssf-requirements.md)
     + [Server-side forwarding data and code reference](admin/c-server-side-forwarding/ssf-reference.md)
     + [How to verify your server-side forwarding implementation](admin/c-server-side-forwarding/ssf-verify.md)
@@ -96,14 +102,14 @@ user-guide-url: /content/help/en/analytics/admin/home.html
     + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
     + [Use case - extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
   + [Video management](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-  + [Experience Cloud Admin Console help](admin-console/home.md)
++ Analytics in the Adobe Admin Console {#admin-console}
+  + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + Permissions {#permissions}
-    + [Product Profile help](admin-console/permissions/product-profile.md)
-    + [Report Suite Tools permission items](admin-console/permissions/report-suite-tools.md)
-    + [Analytics Tools permission items](admin-console/permissions/analytics-tools.md)
+    + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
+    + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
+    + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
+    + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
-  + [Create a report suite](admin-console/create-report-suite.md)
 + Company Settings {#company-settings}
   + [Company Settings overview](company/c-company-settings.md)
   + [Feature access levels](company/feature-access-levels.md)
@@ -138,38 +144,29 @@ user-guide-url: /content/help/en/analytics/admin/home.html
   + [Create a report suite group](c-manage-report-suites/t-create-rs-group.md)
 + User and Product Management (Legacy) {#user-product-management}
   + [User and Product Management](user-management2/user-management.md)
-  + [Assign user groups to a report suite](user-management2/t-group-access-report-suite.md)
-  + User management {#user-management}
-    + [User management overview](user-management2/c-user-management/users.md)
-    + [Add a user account](user-management2/c-user-management/t-add-user-account.md)
-    + [User and Group permission changes](user-management2/c-user-management/permissions-changes.md)
-    + [Transfer user account items](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-    + [Add a user to a group](user-management2/c-user-management/t-add-user-to-group.md)
-    + [Manage Ad Hoc Analysis users](user-management2/c-user-management/t-manage-dsc-users-admin.md)
-  + User groups {#user-groups}
-    + [Add a user group](user-management2/c-user-groups/t-user-group.md)
-    + [User group settings](user-management2/c-user-groups/groups.md)
-  + Customize report access {#customize-report-access}
-    + [Customize report access - overview](user-management2/c-customize-report-access/groups-customize-report-access.md)
-    + [Customize Analytics Tools permissions](user-management2/c-customize-report-access/groups-analytics-tools.md)
-    + [Customize Report Suite Tools permissions](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-    + [Customize metric permissions](user-management2/c-customize-report-access/groups-metrics.md)
-    + [Customize dimension permissions](user-management2/c-customize-report-access/groups-dimensions.md)
-  + [Email users](user-management2/t-email-users.md)
+  + Migrate users to Adobe Admin Console {#migrate-users}
+    + [Analytics User Migration to the Admin Console](user-management2/user-migration/c-migration-tool.md)
+    + [Migrate Analytics user accounts for Adobe IDs](user-management2/user-migration/t-migrate-users.md)
+    + [Migrate Analytics user accounts for Enterprise and Federated IDs](user-management2/user-migration/migrate-enterprise.md)
+    + [Disable legacy logins](user-management2/user-migration/t-disable-legacy-login.md)
+    + [APIs Affected by the Migration](user-management2/user-migration/developer.md)
 + Data Governance {#data-governance}
   + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
+  + [Adobe Analytics and CCPA](c-data-governance/an-ccpa-overview.md)
+  + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
   + [Frequently asked questions](c-data-governance/gdpr-faq.md)
-  + [Adobe Analytics GDPR workflow](c-data-governance/an-gdpr-workflow.md)
+  + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
   + [View/manage report suite's Data Governance settings](c-data-governance/gdpr-view-settings.md)
   + [Label report suite data](c-data-governance/gdpr-setup-reportsuite.md)
   + [Submit access and delete requests](c-data-governance/gdpr-submit-access-delete.md)
-  + [GDPR labels for Analytics variables](c-data-governance/gdpr-labels.md)
+  + [Data Privacy labels for Analytics variables](c-data-governance/gdpr-labels.md)
   + [Namespaces](c-data-governance/gdpr-namespaces.md)
   + [ID expansion](c-data-governance/gdpr-id-expansion.md)
   + [Labeling best practices](c-data-governance/gdpr-analytics-ids.md)
   + [Labeling example](c-data-governance/gdpr-labeling-example.md)
-  + [GDPR and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-  + [GDPR terminology](c-data-governance/gdpr-terminology.md)
+  + [Data Privacy and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
+  + [Data Privacy terminology](c-data-governance/gdpr-terminology.md)
+  + [Privacy Reporting Variables](c-data-governance/consent-variables.md)
 + Server Call Usage {#server-call-usage}
   + [Server call usage overview](c-server-call-usage/overage-overview.md)
   + [View current server call usage](c-server-call-usage/server-call-usage-dashboard.md)

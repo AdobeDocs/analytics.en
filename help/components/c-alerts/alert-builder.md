@@ -1,11 +1,9 @@
 ---
-description: null
-seo-description: null
-seo-title: Alert Builder
-title: Alert Builder
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
+description: Use alerts in Analysis Workspace.
+title: Alert Builder overview
+feature: Alerts
+exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 ---
-
 # Alert Builder
 
 >[!IMPORTANT]
@@ -17,8 +15,8 @@ Access the Alert Builder in one of four ways:
 * By using the following shortcut in Analysis Workspace:
 
   `ctrl (or cmd) + shift + a` 
-* By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**. 
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 
+* By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
 * From within a [!UICONTROL Reports & Analytics] report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
@@ -55,7 +53,7 @@ Set the alert's expiration date.
 
 * Drag and drop metrics into the canvas that will add triggers.
 
-  Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+  Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Determine the threshold that the metric must exceed before an alert is set. You can set this value to a threshold and then to one of the following conditions:
 

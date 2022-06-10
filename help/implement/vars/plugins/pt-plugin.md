@@ -12,12 +12,12 @@ exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 
 The `pt` plug-in executes a function or method on a list of Analytics variables. For example, you can selectively run the [`clearVars`](../functions/clearvars.md) function on several variables without manually calling the function each time. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
 
-## Install the plug-in using tags in Adobe Experience Platform
+## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -32,9 +32,9 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.

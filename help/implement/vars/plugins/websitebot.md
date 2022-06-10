@@ -19,7 +19,7 @@ This plug-in performs two checks:
 
 If the user agent is on a desktop and no mouse movement is detected, the plug-in can 
 
-* Either make a direct call rule call using tags in Adobe Experience Platform, or 
+* Either make a direct call rule call using the Web SDK or the Adobe Analytics extension, or 
 * Make a link tracking call to indicate that the visitor is not a bot.
 
 ## Prerequisites

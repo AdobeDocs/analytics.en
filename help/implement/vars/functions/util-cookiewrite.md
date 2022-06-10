@@ -8,11 +8,11 @@ exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 
 Cookies can store and retrieve information across pages on the same domain. Use the `Util.cookieWrite()` method to set a value to a cookie. You can use the [`Util.cookieRead()`](util-cookieread.md) method to retrieve values set using `Util.cookieWrite()`.
 
-## Set cookies using tags in Adobe Experience Platform
+## Set cookies using the Adobe Analytics extension and the Web SDK extension
 
-The Data Collection UI does not provide the ability to set cookies in the interface. Use the custom code editor, following AppMeasurement syntax.
+Adobe Experience Platform Data Collection does not provide the ability to set cookies in the interface.
 
-## s.Util.cookieWrite() in AppMeasurement and custom code editor
+## s.Util.cookieWrite() in AppMeasurement and the Analytics extension custom code editor
 
 Call the `s.Util.cookieWrite()` method to set a cookie to a desired value.
 

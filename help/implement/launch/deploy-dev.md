@@ -16,7 +16,7 @@ Once you have created and configured a tag property, the libraries are ready to 
 
 Tags accommodates many organizational workflows in deploying code. Follow these steps to create the minimum necessary components for an Analytics implementation. As a tag admin, you can work within your organization to establish the correct workflow for deploying Adobe solutions.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click **[!UICONTROL Hosts]**, then click **[!UICONTROL Add Host]**.
 4. Name it `"Adobe managed"`, and select **[!UICONTROL Managed by Adobe]** in the type dropdown. Click Save.
@@ -30,7 +30,7 @@ Tags accommodates many organizational workflows in deploying code. Follow these 
 
 Despite all the changes and configurations made so far, no code has actually been published. Creating a library, roughly translated as a collection of changes, allows the publishing of code to be used on your site.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click the **[!UICONTROL Publishing Flow]** tab, then click **[!UICONTROL Add Library]**. See [Publishing overview](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) in the Tags documentation for more information around this page.
 4. Name the library `'Initial changes'`, and select your development environment.

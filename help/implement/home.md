@@ -27,7 +27,8 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
 
 Adobe Analytics requires code within your website, mobile app, or other application to send data to data collection servers. There are several methods to implement this code, depending on platform and your organization's needs.
 
-* **Tags Adobe Experience Platform**: The standardized and recommended method to implement Adobe Analytics. Place a loader tag on each page, and use the Data Collection UI to determine how each variable is defined.
+* **Web SDK**: The standardized and recommended method to implement Adobe Analytics. Install the Web SDK extension in Adobe Experience Platform Data Collection, use a loader tag on each page, and send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
+* **Adobe Analytics extension**: Install the Adobe Analytics extension in Adobe Experience Platform Data Collection. Place a loader tag on each page, and use the Analytics extension to determine how each variable is defined.
 * **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Outlines variables and settings used in an implementation, which can be useful for ta implementations using rules with custom code.
 * **Mobile SDK**: Dedicated libraries to easily send data to Adobe from within your mobile app.
 

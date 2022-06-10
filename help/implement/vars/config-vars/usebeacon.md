@@ -16,11 +16,37 @@ If `useBeacon` is enabled, the next hit sent to Adobe uses the browser's `naviga
 
 The `useBeacon` variable is ignored when the visitor uses a browser that does not support `navigator.sendBeacon()`. Use of this variable requires AppMeasurement 2.16.0 or higher.
 
-## Use Beacon using tags in Adobe Experience Platform
+## Use the sendBeacon API using the Web SDK extension
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+The **[!UICONTROL Document will unload]** checkbox within an Action Configuration determines if data sent to Adobe uses the sendBeacon API.
 
-## s.useBeacon in AppMeasurement and custom code editor
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Rules] tab, then click the desired rule.
+1. Under [!UICONTROL Actions], click the desired Action or click the **'+'** icon to add a new action.
+1. Set the Extension dropdown to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**
+1. Click the checkbox **[!UICONTROL Document will unload]** on the right.
+
+If this box is checked, data is sent to Adobe using the sendBeacon API. It is unchecked by default.
+
+## Use the sendBeacon API manually implementing the Web SDK
+
+Set `documentUnloading` to `true` when sending an event. If not set, its default value is `false`.
+
+```json
+alloy("sendEvent", {
+  "documentUnloading": true,
+  "xdm": {}
+});
+```
+
+See [Using the sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) in the Web SDK documentation for more information.
+
+## Use Beacon using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.useBeacon in AppMeasurement and the Analytics extension custom code editor
 
 The `s.useBeacon` variable is a boolean that determines if AppMeasurement uses the browser's `navigator.sendBeacon()` method. Its default value is `false`. Set this variable to `true` before calling a tracking function if you want to use the asynchronous nature of `navigator.sendBeacon()`.
 

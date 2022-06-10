@@ -15,7 +15,7 @@ Analytics provides a number of variables to collect Analytics data. Variables in
 
 ## Variables and implementation methods
 
-Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using tags in Adobe Experience Platform and AppMeasurement for JavaScript.
+Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using the Web SDK, using the Adobe Analytics extension, and using AppMeasurement for JavaScript.
 
 Here is a video on configuring variables in Adobe Analytics:
 

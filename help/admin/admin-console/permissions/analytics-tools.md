@@ -11,7 +11,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Analytics Tools Permission Item | Description |
 |----|----|
 | [!UICONTROL Server Call Usage] | Grants access to Admin > Server Call Usage. |
-| [!UICONTROL Code Manager] | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Data Collection UI instead. |
+| [!UICONTROL Code Manager] | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Adobe Analytics extension within Adobe Experience Platform Data Collection instead. |
 | [!UICONTROL Code Manager - Web Services]| Grants access to the Code Manager via the 1.4 API. |
 | [!UICONTROL Logs] | Grants access to Admin > All admin > Logs. |
 | [!UICONTROL Logs - Web Services]| Grants access to pull logs via the 1.4 API. |

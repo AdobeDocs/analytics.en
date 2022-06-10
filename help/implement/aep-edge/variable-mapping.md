@@ -54,6 +54,13 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | The mobile dimension [Operating System Version](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.type` | Indicates if the event came from a [wearable](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) device. Valid values include `Application` (the event came from the app), `Extension` (the event came from the wearable app), or `Widget` (the event came from a mobile widget). |
+| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | Sets the respective [eVar](../../components/dimensions/evar.md) dimension. |
+| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | The delimiter used for a given [List Prop](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | A string array containing the respective [List Prop](../vars/page-vars/prop.md#list-props) values. |
+| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | Sets the respective [List variable](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | Sets the respective [Prop](../../components/dimensions/prop.md) dimension. |
+| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the respective [Custom events](../../components/metrics/custom-events.md) metric. |
+| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | Increments the respective [Custom events](../../components/metrics/custom-events.md) metric by the desired amount. |
 | `identityMap.ECID[0].id` | The [Adobe Experience Cloud Identity Service ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | `marketing.trackingCode` | Sets the [Tracking Code](../../components/dimensions/tracking-code.md) dimension. |
 | `media.mediaTimed.completes.value` | The Media Analytics metric [Content Complete](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete). |
@@ -95,10 +102,10 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `placeContext.geo.longitude` | The Mobile dimension Longitude. |
 | `placeContext.geo.postalCode` | The [Zip Code](../../components/dimensions/zip-code.md) dimension. |
 | `placeContext.geo.stateProvince` | The [US States](../../components/dimensions/us-states.md) dimension. |
-| `productListItems[N].lineItemId` | The [Category](../../components/dimensions/category.md) dimension. |
-| `productlistitems[N].name` | The [Product](../../components/dimensions/product.md) dimension. |
-| `productlistitems[N].priceTotal` | Helps determine the [Revenue](../../components/metrics/revenue.md) metric. |
-| `productlistitems[N].quantity` | Helps determine the [Units](../../components/metrics/units.md) metric. |
+| `productListItems[].lineItemId` | The [Category](../../components/dimensions/category.md) dimension. |
+| `productListItems[].name` | The [Product](../../components/dimensions/product.md) dimension. |
+| `productListItems[].priceTotal` | Helps determine the [Revenue](../../components/metrics/revenue.md) metric. |
+| `productListItems[].quantity` | Helps determine the [Units](../../components/metrics/units.md) metric. |
 | `web.webInteraction.URL` | The [linkURL](../vars/config-vars/linkurl.md) implementation variable. |
 | `web.webInteraction.name` | The [Custom link](../../components/dimensions/custom-link.md), [Download link](../../components/dimensions/download-link.md), or [Exit link](../../components/dimensions/exit-link.md) dimension, depending on the value in `web.webInteraction.type` |
 | `web.webInteraction.type` | Determines the type of link clicked. Valid values include `lnk_o` (Custom links), `lnk_d` (Download links), and `lnk_e` (Exit links). |

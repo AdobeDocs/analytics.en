@@ -36,3 +36,20 @@ Have a Microsoft Admin review the "Users can register application" setting found
 Users can grant Access by using the following [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
 Admins granted access for every one by using the following [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
+## Reaching the API limit
+
+Reporting in power bi works on analytics reporting api, API threshold limits will be applicable here as well.For the Analytics 2.0 APIs, the throttle limit is set at 120 calls per minute, per user, regardless of report suite or company. When the throttle limit is crossed, the server returns an HTTP 429 status to the user the with message content: "too many requests"
+{"error_code":"429050","message":"Too many requests"}
+Adobe recommends adhering to the following guidelines:
+
+Make multiple, smaller requests instead of a large, single request.
+Request data once and cache it.
+Do not poll for new data faster than a 30 minute interval.
+Pull historical data and increment it regularly instead of requesting the entire data set.
+Adobe recommends avoiding the following:
+
+Requesting as much data as possible in a single request
+Requesting one year of data at day granularity everyday to get a rolling 12-month window. Adobe recommends that you instead request the new day's data and merge it with the existing data from previous days.
+Driving a web page with a site performance widget by making an API request every time the web page is loaded
+Migrating from 1.4
+

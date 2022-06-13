@@ -12,7 +12,11 @@ If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExtern
 
 ## Link tracking using the Web SDK
 
-The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given event as a link tracking call, make sure that your XDM data includes `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
+The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given XDM event as a link tracking call, make sure that your XDM data includes or is mapped to `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
+
+* Link name maps to `web.webInteraction.name`.
+* Link URL maps to `web.webInteraction.URL`.
+* Link type maps to `web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
 
 ```js
 alloy("sendEvent", {

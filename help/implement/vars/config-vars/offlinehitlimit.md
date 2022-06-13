@@ -10,11 +10,11 @@ Offline tracking is an optional way to collect data in Adobe Analytics. If a vis
 
 The `offlineHitLimit` variable places a cap on the number of hits the device stores locally. This variable only works if [`trackOffline`](trackoffline.md) is enabled.
 
-## Offline Hit Limit using tags in Adobe Experience Platform
+## Offline Hit Limit using the Adobe Analytics extension
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s.offlineHitLimit in AppMeasurement and custom code editor
+## s.offlineHitLimit in AppMeasurement and the Analytics extension custom code editor
 
 The `s.offlineHitLimit` variable is an integer representing the maximum number of hits a device stores while they are offline. If this variable is not defined, there is no limit to the number of hits a device stores while offline.
 

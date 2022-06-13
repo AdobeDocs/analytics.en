@@ -19,11 +19,15 @@ This variable only needs to be used when **both** of the following conditions ar
 
 Only a small number of implementations have use for the `cookieDomain` variable, and even then, alternative variables like [`cookieDomainPeriods`](cookiedomainperiods.md) can be used instead.
 
-## Cookie Domain using tags in Adobe Experience Platform
+## Cookie Domain using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+The Web SDK can determine the correct cookie storage domain without this variable.
 
-## s.cookieDomain in AppMeasurement and custom code editor
+## Cookie Domain using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.cookieDomain in AppMeasurement and the Analytics extension custom code editor
 
 The `cookieDomain` variable is a string, and is set to the domain that you want to store cookies on.
 

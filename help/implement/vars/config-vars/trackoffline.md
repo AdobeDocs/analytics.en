@@ -10,7 +10,7 @@ Offline tracking is an optional way to collect data in Adobe Analytics. If a vis
 
 The `trackOffline` variable determines if you want to use offline tracking in your implementation.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >You must configure your report suite to accept timestamped hits before enabling this variable. If a report suite does not accept timestamped hits and this variable is enabled, that data is lost and cannot be recovered.
 
@@ -22,11 +22,15 @@ When enabled, AppMeasurement uses the following process to send data to Adobe:
   * If it cannot reach Adobe data collection servers, the hit is added to the queue on the device.
   * If it can reach Adobe data collection servers, the hit and the queue of hits while the device was offline are sent.
 
-## Track Offline using tags in Adobe Experience Platform
+## Offline tracking using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+The Web SDK does not support offline tracking.
 
-## s.trackOffline in AppMeasurement and custom code editor
+## Offline tracking using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.trackOffline in AppMeasurement and the Analytics extension custom code editor
 
 The `s.trackOffline` variable is a boolean that enables or disables offline tracking. Its default value is `false`. Set this value to `true` if you want to enable offline tracking.
 

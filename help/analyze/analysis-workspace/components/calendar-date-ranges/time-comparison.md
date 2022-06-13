@@ -25,7 +25,7 @@ Analysis requires context, and often that context is provided by a previous time
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >This right-click option is disabled for metric rows, date range rows, and time dimension rows.
 
@@ -87,7 +87,7 @@ A new setting for all tables lets you **[!UICONTROL Align Dates from each column
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
 

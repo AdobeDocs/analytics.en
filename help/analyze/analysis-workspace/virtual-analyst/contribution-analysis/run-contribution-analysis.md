@@ -1,7 +1,6 @@
 ---
 description: Run a Contribution Analysis report in a Workspace project.
 title: Run Contribution Analysis
-feature: AI Tools
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 ---

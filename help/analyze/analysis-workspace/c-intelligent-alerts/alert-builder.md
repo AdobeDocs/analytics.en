@@ -7,7 +7,7 @@ exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 ---
 # Alert Builder
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
 

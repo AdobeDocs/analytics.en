@@ -10,11 +10,11 @@ The `s_objectID` variable provides a unique identifier for a link. It is used to
 
 If Activity Map accuracy is crucial to your organization, Adobe recommends including the `s_objectID` variable in the `onClick` event of links on your site. See [Activity Map link tracking use cases](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in the Analyze user guide for more information.
 
-## Object ID using tags in Adobe Experience Platform
+## Object ID using the Adobe Analytics extension
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## s_objectID in AppMeasurement and custom code editor
+## s_objectID in AppMeasurement and the Analytics extension custom code editor
 
 The `s_objectID` variable is a global variable, meaning that it operates independently of the Analytics tracking object (`s` by default). Valid values for this variable can be any string up to 100 bytes in length. If this variable is not defined, Activity Map uses the link URL as the identifier for the link.
 

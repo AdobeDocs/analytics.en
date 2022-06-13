@@ -26,12 +26,18 @@ When using event IDs, de-duplication happens on the following levels:
 >
 >If you want to de-duplicate the [`purchase`](event-purchase.md) event, use the [`purchaseID`](../purchaseid.md) variable instead.
 
-## Use event IDs using tags in Adobe Experience Platform
+## Use event IDs using the Web SDK
+
+Event serialization is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the desired event XDM field's `id`. The full XDM path depends on which event that you want to serialize.
+
+For example, if you wanted to serialize the Cart Additions metric, set the `commerce.productListAdds.id` XDM field to the desired serialization value. If you wanted to serialize Custom event 20, set the `_experience.analytics.event1to100.event20` XDM field to the desired serialization value.
+
+## Use event IDs using the Adobe Analytics extension
 
 You can set the event ID field either while configuring the Analytics extension (global variables) or as an action in a rule.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
@@ -39,7 +45,7 @@ You can set the event ID field either while configuring the Analytics extension 
 
 Valid values are alpha-numeric characters up to 20 bytes in length. If you enter a value that is longer than 20 bytes, then the system truncates it to the first 20 bytes.
 
-## Use event IDs in AppMeasurement and custom code editor
+## Use event IDs in AppMeasurement and the Analytics extension custom code editor
 
 Event serialization is part of the `s.events` variable. Assign an ID to each event using a colon in the string.
 

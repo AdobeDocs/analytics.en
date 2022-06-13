@@ -8,18 +8,43 @@ exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 
 The `s_gi()` function instantiates or finds an instance of AppMeasurement by report suite ID. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. If an instance does not exist, a new instance is created.
 
-## s_gi() using tags in Adobe Experience Platform
+## Instantiate a tracking object using the Web SDK extension
+
+The Web SDK extension instantiates and manages the tracking object for you. However, you can customize the tracking object name in the extension settings:
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Experience Platform Web SDK.
+1. Change the [!UICONTROL Name] field to the desired value. Its default value is `alloy`.
+
+## Instantiate a tracking object manually implementing the Web SDK
+
+The following code loads the Web SDK and instantiates a tracking object. You can customize the tracking object name by changing the string `"alloy"` at the end of the inline script to the desired value.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+See [Install the SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in the Web SDK documentation for more information.
+
+## Instantiate a tracking object using the Adobe Analytics extension
 
 The Analytics extension instantiates and manages the tracking object for you. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Library Management] accordion, and select any radio button other than [!UICONTROL Manage the library for me].
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
+1. Expand the [!UICONTROL Library Management] accordion, and select any radio button other than [!UICONTROL Manage the library for me].
 
 The global variable text field lets you set a custom tracking object. Its default value is `s`.
 
-## s_gi() in AppMeasurement and custom code editor
+## s_gi() in AppMeasurement and the Analytics extension custom code editor
 
 Call the `s_gi()` function to instantiate a tracking object. Its only argument contains a comma-delimited string of report suite IDs. The report suite ID argument is required.
 

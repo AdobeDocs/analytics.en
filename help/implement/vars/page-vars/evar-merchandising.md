@@ -14,7 +14,7 @@ For a detailed discussion of how merchandising eVars work, see [Merchandising eV
 
 Before using eVars in your implementation, make sure you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Failure to correctly configure merchandising eVars results in unexpected values or data loss for the variable. Make sure it is correctly configured for your implementation.
 

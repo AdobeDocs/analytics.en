@@ -393,7 +393,7 @@ When given "After 2 weeks", if a hit to page A happens on June 1 2019, at 00:01,
 * [!UICONTROL Within] lets you track by year, month, day, hour, and minute to match visits.
 * [!UICONTROL Within] can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
 

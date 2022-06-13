@@ -16,7 +16,7 @@ After enabling classifications, use the [Classification Importer](/help/componen
 >
 >Renaming a classification can cause issues with existing rules created in the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md). If you rename a classification that has classification rules, make sure that you correct each rule so it points to the renamed classification.
 
-## Conversion Classifications Descriptions 
+## Conversion Classifications Descriptions
 
 | Element | Description |
 | --- | --- |

@@ -163,7 +163,7 @@ Enhancement released on May 09, 2019.
 
 | Enhancement | Description |
 |--- |--- |
-|A new setting was added to the Flow visualization settings: Include Repeat Instances.|[Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+|A new setting was added to the Flow visualization settings: Include Repeat Instances.|[Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 
 ## April 2019
 
@@ -805,7 +805,7 @@ New features released on June 8, 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Flow</b> </a> enhancements </td>
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  > <b>Flow</b> </a> enhancements </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Added a new visualization setting called <span class="wintitle"> Disable Label Truncation </span> (default = unchecked). </li>

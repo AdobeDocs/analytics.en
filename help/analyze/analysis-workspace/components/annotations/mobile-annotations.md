@@ -2,7 +2,7 @@
 title: Mobile Scorecard Annotations    
 description: Learn how to surface annotations in Mobile Scorecards.
 role: User, Admin
-solution: Adobe Analytics
+solution: Analytics
 feature: Components
 
 ---

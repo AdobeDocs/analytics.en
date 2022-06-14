@@ -9,6 +9,10 @@ feature: Components
 
 # Share Annotations in Mobile Scorecards
 
+>[!NOTE]
+>
+>This feature is currently in [limited testing](/help/release-notes/releases.md).
+
 You can display annotations that are created in Workspace—in Mobile Scorecards. This allows you to share contextual data nuances and insights about your organization and campaigns directly within Mobile Scorecard projects, viewable in the Analytics dashboards mobile app.
 
 ## Surface Annotations in Mobile Scorecards

@@ -1,12 +1,11 @@
 ---
-title: Mobile Scorecard Annotations    
+title: Mobile Scorecard Annotations
 description: Learn how to surface annotations in Mobile Scorecards.
 role: User, Admin
 solution: Analytics
 feature: Components
-
+exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 ---
-
 # Share Annotations in Mobile Scorecards
 
 >[!NOTE]

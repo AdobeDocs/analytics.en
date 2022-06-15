@@ -24,7 +24,7 @@ The following fields are available in the [!UICONTROL Settings] tab and can be e
 
 Additional fields are available for informational purposes, and cannot be edited:
 
-* **[!UCONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used.
+* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used.
 * **[!UICONTROL Subscriptions]**: The Report Suite and variable that the Classification Set applies to. Only one Report Suite is currently supported for a given Classification Set; support for multiple Report Suites is planned.
 
 ## Schema

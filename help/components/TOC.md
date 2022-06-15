@@ -223,8 +223,10 @@ user-guide-description: Help manage your data using components such as segments,
   + [Classifications overview](classifications/c-classifications.md)
   + Classification Sets {#sets}
     + [Classification Sets Overview](classifications/sets/overview.md)
-    + [Classifications Sets Manager](classifications/sets/manager.md)
+    + [Classification Sets Manager](classifications/sets/manager.md)
+    + [Classification Set Jobs Manger](classifications/sets/job-manager.md)
     + [Create a Classification Set](classifications/sets/create.md)
+    + [Classification Set Settings](classifications/sets/settings.md)
   + Classification Rule Builder {#classifications-rulebuilder}
     + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
     + [Classification rule sets](classifications/crb/classification-rule-set.md)

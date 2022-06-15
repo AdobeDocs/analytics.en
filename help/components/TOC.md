@@ -221,6 +221,18 @@ user-guide-description: Help manage your data using components such as segments,
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/c-classifications.md)
+  + Classification Sets {#sets}
+    + [Classification Sets Overview](classifications/sets/overview.md)
+    + [Classification Sets Manager](classifications/sets/set-manager.md)
+    + [Classification Set Jobs Manger](classifications/sets/job-manager.md)
+    + [Create a Classification Set](classifications/sets/create.md)
+    + [Classification Set Settings](classifications/sets/settings.md)
+  + Classification Rule Builder {#classifications-rulebuilder}
+    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
+    + [Classification rule sets](classifications/crb/classification-rule-set.md)
+    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
+    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
+    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
   + Classifications importer {#classifications-importer}
     + [Classifications importer - overview](classifications/importer/c-working-with-saint.md)
     + [Classification data files](classifications/importer/c-saint-data-files.md)
@@ -235,12 +247,7 @@ user-guide-description: Help manage your data using components such as segments,
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
-  + Classification Rule Builder {#classifications-rulebuilder}
-    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
-    + [Classification rule sets](classifications/crb/classification-rule-set.md)
-    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
-    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
+
   + [Sub-classifications](classifications/c-sub-classifications.md)
   + [Classifications FAQ](classifications/faq.md)
 + [Calendar events](t-calendar-event.md)

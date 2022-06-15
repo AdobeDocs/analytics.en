@@ -1,6 +1,6 @@
 ---
 title: Classification Sets Overview
-description:
+description: Use Classification Sets to manage classification data.
 ---
 
 # Classification Sets Overview

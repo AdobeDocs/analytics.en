@@ -17,23 +17,23 @@ To surface annotations in mobile scorecards, create the annotation first from Wo
 
 For information on creating annotations, see [Create Annotations](create-annotations.md). Annotations are turned off in mobile scorecards by default and must be enabled for each scorecard that you want to surface in mobile scorecards.
 
-1. Turn on annotations. To turn annotations on, see [Turn annotations on or off](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/annotations/overview.html?lang=en#turn-annotations-on-or-off).
+1. Turn on annotations. To turn annotations on, see [Turn annotations on or off](overview.md#on-off).
 
 1. Create an annotation and make sure it is shared to all your projects. To create an annotation in Workspace,  see [Create Annotations](create-annotations.md).
 
 1. Select **Show annotations** to display the annotation in Mobile Scorecards.
 
-  <img src="assets/show-annotations.png"  width="75%">
+   <img src="assets/show-annotations.png"  width="80%">
 
 1. Confirm that show annotations is selected, go to **Project** > **Project info and settings**.
 
-  <img src="assets/project-info-settings.png" width="40%">
+   <img src="assets/project-info-settings.png" width="25%">
 
 ## View annotations in Mobile Scorecards
 
 When annotations are enabled, annotation icons are visible in the Scorecard Builder. Annotations appear only on charts and tables in the detailed view. Annotations are not visible from the main tile view of the scorecard.
 
-<img src="assets/view-annotations.png"  width="75%">
+<img src="assets/view-annotations.png"  width="80%">
 
 When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app. ![](assets/preview-icon.png)
 
@@ -43,6 +43,6 @@ Annotation colors are selected when the annotation is created in workspace. Gray
 
 | Date | Appearance |
 | --- | --- |
-| **Single day** |  <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
-| **Date range** |  <img src="assets/date-range.png"  width="30%">|
-| **Overlapping annotations** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>To view annotation details in the Analytics dashboards app, tap an annotation icon. <br></br>When viewing an annotation in a chart, you can swipe left and right to navigate all annotations present in the chart. When viewing an annotation in the table, swipe left and right to navigate all annotations associated with that row item in the table. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>In charts that do not have a time-based *x axis*, such as the donut or horizontal bar charts, annotations that apply to the chart can be viewed by tapping the icon located in the lower right-hand corner.<br></br> <img src="assets/charts-without-timebase.png"  width="30%">|
+| **Single day** |  <img src="assets/single-day-mobile-annotations.png"  width="50%"><br></br> |
+| **Date range** |  <img src="assets/date-range.png"  width="50%">|
+| **Overlapping annotations** | <img src="assets/overlapping-annotations.png"  width="50%"><br></br>To view annotation details in the Analytics dashboards app, tap an annotation icon. <br></br>When viewing an annotation in a chart, you can swipe left and right to navigate all annotations present in the chart. When viewing an annotation in the table, swipe left and right to navigate all annotations associated with that row item in the table. <br></br><img src="assets/swipe-multiple-annotations.png"  width="50%"> <br></br>In charts that do not have a time-based *x axis*, such as the donut or horizontal bar charts, annotations that apply to the chart can be viewed by tapping the icon located in the lower right-hand corner.<br></br> <img src="assets/charts-without-timebase.png"  width="50%">|

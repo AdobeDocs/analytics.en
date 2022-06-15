@@ -108,7 +108,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `productListItems[].quantity` | Helps determine the [Units](../../components/metrics/units.md) metric. |
 | `web.webInteraction.URL` | The [linkURL](../vars/config-vars/linkurl.md) implementation variable. |
 | `web.webInteraction.name` | The [Custom link](../../components/dimensions/custom-link.md), [Download link](../../components/dimensions/download-link.md), or [Exit link](../../components/dimensions/exit-link.md) dimension, depending on the value in `web.webInteraction.type` |
-| `web.webInteraction.type` | Determines the type of link clicked. Valid values include `lnk_o` (Custom links), `lnk_d` (Download links), and `lnk_e` (Exit links). |
+| `web.webInteraction.type` | Determines the type of link clicked. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links). |
 | `web.webPageDetails.URL` | The [Page URL](../../components/dimensions/page-url.md) dimension. |
 | `web.webPageDetails.errorPage` | Flag that helps determine the 'Pages Not Found' [dimension](../../components/dimensions/pages-not-found.md) and [metric](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | The [Page](../../components/dimensions/page.md) dimension. |

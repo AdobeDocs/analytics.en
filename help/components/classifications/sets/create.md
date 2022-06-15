@@ -16,4 +16,4 @@ When creating a Classification Set, the following fields are available.
 * **[!UICONTROL Type]**: Radio buttons that indicate the type of classification. Primary classifications are typically used; Lookup classifications represent [Sub-classifications](../c-sub-classifications.md).
 * **[!UICONTROL Subscriptions]** The Report Suite and dimension that this Classification Set applies to. Support for multiple Report Suites is planned.
 
-If a Classification Set already exists for a given Report Suite + variable, the Classification is added to the schema instead.
+If a Classification Set exists for a given Report Suite + variable, the Classification is added to the schema instead.

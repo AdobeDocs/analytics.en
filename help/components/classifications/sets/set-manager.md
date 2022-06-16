@@ -35,7 +35,7 @@ The following buttons are available in the Classification Set Manager:
 
 * **[!UICONTROL Add]**: [Create](create.md) a Classification Set.
 * **[!UICONTROL Search by title]**: Search for Classification Sets by name.
-* **[!UICONTROL Load more]**: The Classification Set Manager intially displays up to 1000 Classification Sets. Click this button to load 1000 more Classification Sets.
+* **[!UICONTROL Load more]**: The Classification Set Manager initially displays up to 1000 Classification Sets. Click this button to load 1000 more Classification Sets.
 * **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Classification Set].
 
 Select one or more Classification Sets by clicking the checkbox next to the desired Classification Set. Selecting a Classification Set reveals the following options:

@@ -9,7 +9,7 @@ Classification Sets provide a single interface to manage classifications and rul
 
 >[!NOTE]
 >
->This feature is currently in limited release. If you would like access to this feature, contact Adobe Customer Care or your Account Manager, who can forward your request to the Classification Set team for provisioning.
+>This feature is currently in limited release. If you would like access to this feature, contact Adobe Customer Care or your Account Manager, who can forward your request to the Classifications team for provisioning.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 

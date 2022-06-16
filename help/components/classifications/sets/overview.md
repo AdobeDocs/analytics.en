@@ -1,8 +1,8 @@
 ---
 title: Classification Sets Overview
 description: Use Classification Sets to manage classification data.
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 ---
-
 # Classification Sets Overview
 
 Classification Sets provide a single interface to manage classifications and rules. This workflow combines the concept of creating classifications in Report Suite Settings with the concept of the Classification Importer to provide a more intuitive interface to create and manage classification data.

@@ -1,8 +1,8 @@
 ---
 title: Classification Set Manager
 description: Manage Classification Sets in Adobe Analytics.
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 ---
-
 # Classification Set Manager
 
 The Classification Set Manager allows you to create, edit or delete classification sets.

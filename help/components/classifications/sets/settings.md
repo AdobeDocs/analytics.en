@@ -1,8 +1,8 @@
 ---
 title: Classification Set settings
 description: Create or edit a Classification Set.
+exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 ---
-
 # Classification Set settings
 
 Configure a Classification Set, upload data, or download data.

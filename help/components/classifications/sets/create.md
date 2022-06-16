@@ -1,8 +1,8 @@
 ---
 title: Create a Classification Set
 description: Available fields and descriptions when creating a Classification Set.
+exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 ---
-
 # Create a Classification Set
 
 You can use the Classification Set Manager to create a Classification Set.

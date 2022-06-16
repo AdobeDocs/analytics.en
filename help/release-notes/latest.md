@@ -6,11 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (June 2022)
 
->[!NOTE]
->
->This page contains pre-release information and is subject to change.
-
-**Last update**: June 15, 2022
+**Last update**: June 16, 2022
 
 ## Related resources
 
@@ -23,7 +19,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| **New Flow visualization UI** | Provides additional functionality to our Flow visualization to make it more powerful and capable. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | June 15, 2022 |
+| **New Flow visualization UI** | Provides additional functionality to our Flow visualization to make it more powerful and capable. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | Rollout starts June 15, 2022; GA by June 27 or 28, 2022 |
 | **Share annotations in Mobile scorecards** | You can display annotations that are created in Workspace—in Mobile Scorecards. This allows you to share contextual data nuances and insights about your organization and campaigns directly within Mobile Scorecard projects, viewable in the Analytics dashboards mobile app. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | June 15, 2022 |
 | **Support for product syntax version of Merchandising Variables with Edge Collection** | You can now set merchandising variables using the equivalent of the product syntax by setting the relevant XDM fields. Find more detail about product syntax for merchandising variables [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). See the mappings for product syntax [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | June 15, 2022|
 | **Populate Lifecycle dimensions and metrics through Experience Edge** | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on which XDM fields map to existing mobile Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | May 27, 2022 |

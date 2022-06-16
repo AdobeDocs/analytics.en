@@ -35,3 +35,25 @@ View currently configured classification dimensions for this subscription. The f
   * **[!UICONTROL File encoding]**: Select the correct file encoding using this dropdown. Valid options include [!UICONTROL UTF-8] and [!UICONTROL Latin1].
   * **[!UICONTROL List delimiter]**: Select the correct list delimiter. If using a downloaded file or template file, make sure the that [!UICONTROL List delimiter] here matches the [!UICONTROL List delimiter] when the file was downloaded.
   * **[!UICONTROL Apply]**: Save the uploaded classification data to the Classification Set.
+
+  ![Classification Set upload](../assets/classification-set-upload.png)
+
+* **[!UICONTROL Download]**: Download key values and their classification columns.
+  * **[!UICONTROL Rows]**: The maximum number of rows to include in the download file.
+  * **[!UICONTROL Download rows received between]**: A calendar date picker that allows you to filter key values by when they appear in reporting. If a key value was not collected in this date range, it does not appear in the downloaded file.
+  * **[!UICONTROL Data returned]**: A dropdown that lets you filter key values included in the downloaded file based on their associated classification data.
+    * **[!UICONTROL All classified values]**: Includes rows where classification data is included in at least one column.
+    * **[!UICONTROL All unclassified values]**: Includes rows where classification data is missing in at least one column.
+  * **[!UICONTROL File format]**: Dropdown that determines the file format the download file is in. Options include [!UICONTROL JSON], [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
+  * **[!UICONTROL File encoding]**: Dropdown that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended in most cases.
+  * **[!UICONTROL List delimiters]**: Dropdown that determines the list delimiter separating classification columns on each row.
+
+  ![Classification Set download](../assets/classification-set-download.png)
+
+* **[!UICONTROL Template]**: Download a template file. This file is similar to the [!UICONTROL Download] button, except it does not contain any classification data or key values.
+  * **[!UICONTROL File format]**: Dropdown that determines the file format the template file is in. Options include [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
+  * **[!UICONTROL File encoding]**: Dropdown that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended in most cases.
+  * **[!UICONTROL List delimiters]**: Dropdown that determines the list delimiter separating classification columns on each row.
+* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](job-manager.md), showing jobs only for this Classification Set.
+
+  ![Classification Set template](../assets/classification-set-template.png)

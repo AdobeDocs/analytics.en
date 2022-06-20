@@ -39,4 +39,4 @@ Admins granted access for every one by using the following [link](https://login.
 
 ## Reaching the API limit
 
-Reporting in Power BI works with the Analytics Reporting API, so API threshold limits apply. For more information see [What is the rate limit for API calls?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Reporting in Power BI works with the Analytics Reporting API, so API threshold limits apply. For more information see [Web Services Error Codes](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).

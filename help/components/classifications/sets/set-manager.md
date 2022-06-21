@@ -25,9 +25,7 @@ The following columns are available in the Classification Set Manager:
 * **[!UICONTROL Subscriptions]**: The number of subscriptions, or number of Report Suites that this Classification Set applies to.
 * **[!UICONTROL Owner]**: The owner of the Classification Set.
 * **[!UICONTROL Classifications]**: The number of classification dimensions that the Classification Set contains.
-* **[!UICONTROL Automated]**: Indicates if the Classification Set is configured to automatically pull data from an FTP site.
 * **[!UICONTROL Last Modified]**: The date and time that the Classification Set was last modified.
-* **[!UICONTROL FTP Host + Path]**: If automated, the FTP location that the Classification Set pulls data from.
 
 ## Create or edit options
 

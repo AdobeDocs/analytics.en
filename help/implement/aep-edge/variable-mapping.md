@@ -21,16 +21,11 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `commerce.checkouts.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Checkouts](../../components/metrics/checkouts.md) metric. |
 | `commerce.checkouts.value` | Increments the [Checkouts](../../components/metrics/checkouts.md) metric by the desired amount. |
 | `commerce.order.currencyCode` | Sets the [currencyCode](../vars/config-vars/currencycode.md) configuration variable. |
-| `commerce.order.purchaseID` | Sets the [purchaseID](../vars/page-vars/purchaseid.md) page variable. |
-<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
-| `commerce.productListAdds.value` | Increments the [Cart Additions](../../components/metrics/cart-additions.md) metric. |
-<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
-| `commerce.productListOpens.value` | Increments the [Carts](../../components/metrics/carts.md) metric. |
-<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
-| `commerce.productListRemovals.value` | Increments the [Cart Removals](../../components/metrics/cart-removals.md) metric. |
-<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
-| `commerce.productListViews.value` | Increments the [Cart Views](../../components/metrics/cart-views.md) metric. |
-<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
+| `commerce.order.purchaseID` | Sets the [purchaseID](../vars/page-vars/purchaseid.md) page variable. |<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
+| `commerce.productListAdds.value` | Increments the [Cart Additions](../../components/metrics/cart-additions.md) metric. |<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
+| `commerce.productListOpens.value` | Increments the [Carts](../../components/metrics/carts.md) metric. |<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
+| `commerce.productListRemovals.value` | Increments the [Cart Removals](../../components/metrics/cart-removals.md) metric. |<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
+| `commerce.productListViews.value` | Increments the [Cart Views](../../components/metrics/cart-views.md) metric. |<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
 | `commerce.productViews.value` | Increments the [Product Views](../../components/metrics/product-views.md) metric. |
 | `commerce.purchases.value` | Increments the [Orders](../../components/metrics/orders.md) metric. |
 | `device.model` | The mobile dimension [Device Name](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -47,8 +42,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `environment.carrier` | The mobile dimension [Carrier Name](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.connectionType` | Helps set the [Connection type](../../components/dimensions/connection-type.md) dimension. |
 | `environment.ipV4` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `X-Forwarded-For` HTTP header. |
-| `environment.language` | The mobile dimension Locale. |
-<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
+| `environment.language` | The mobile dimension Locale. |<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 | `environment.operatingSystemVersion` | The mobile dimension [Operating System Version](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Sets the respective [eVar](../../components/dimensions/evar.md) dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | The delimiter used for a given [List Prop](../vars/page-vars/prop.md#list-props). |

@@ -7,6 +7,10 @@ exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 
 The Classification Set Job Manager lets you see current and completed classification jobs that were generated from Classification Sets. You can also use this interface to download classification data or templates for a particular job, or upload additional data to a job.
 
+>[!NOTE]
+>
+>This feature is currently in limited release. If you would like access to this feature, contact Adobe Customer Care or your Account Manager, who can forward your request to the Classifications team for provisioning.
+
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
 Note that you cannot create jobs from this interface. Instead, you can create jobs by uploading data to a Classification Set, requesting a download file, or requesting a template file.

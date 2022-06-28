@@ -23,6 +23,11 @@ Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/doc
 * Merchandising eVars are mapped to `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, depending on which eVar you want to bind to a product.
 * Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product.
 
+>[!NOTE]
+>
+>`lineItemId` needs to be added as a custom field as it is not part of the standard Analytics Event schema. We will add a dedicated 'category' field in the future.
+
+
 ## Products using the Adobe Analytics extension
 
 There is not a dedicated field in Adobe Experience Platform Data Collection to set this variable; however, multiple third-party extensions exist to help.

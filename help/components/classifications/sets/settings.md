@@ -7,6 +7,10 @@ exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 
 Configure a Classification Set, upload data, or download data.
 
+>[!NOTE]
+>
+>This feature is currently in limited release. If you would like access to this feature, contact Adobe Customer Care or your Account Manager, who can forward your request to the Classifications team for provisioning.
+
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired Classification Set name
 
 When editing a Classification Set, two tabs are available; **[!UICONTROL Schema]** and **[!UICONTROL Settings]**.

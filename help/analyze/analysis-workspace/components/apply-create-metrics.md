@@ -15,7 +15,7 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
   ![Standard metric](assets/standard-metric.png)
 
-* **Calculated metrics**: User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components.
+* **Calculated metrics**: User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide for more information.
 
   ![Calculated metric](assets/calculated-metric.png)
 

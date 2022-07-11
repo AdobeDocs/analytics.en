@@ -29,6 +29,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
       + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
+      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -65,7 +66,6 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
       + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/create-flow.md)
-      + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
     + [Histogram](analysis-workspace/visualizations/histogram.md)
     + [Map](analysis-workspace/visualizations/map-visualization.md)

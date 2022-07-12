@@ -3,6 +3,7 @@ title: eVar (Merchandising) variables
 description: Custom variables that tie to individual products.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
+mini-toc-levels: 3
 ---
 # eVar (Merchandising)
 
@@ -35,6 +36,47 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 The value for `eVar1` is assigned to the product. All subsequent success events that involve this product are credited to the eVar value.
 
+### Using XDM for Edge Collection
+
+Each field in the 'products' variable is populated by a corresponding XDM field. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Below is an example illustrating how the productListItems XDM fields are combined to create a products variable.
+
+XDM structure:
+
+```js
+              "productListItems": [
+                    {
+                        "name": "Bahama Shirt",
+                        "priceTotal": "12.99",
+                        "quantity": 3,
+                        "_experience": {
+                            "analytics": {
+                                "customDimensions" : {
+                                    "eVars" : {
+                                        "eVar10" : "green",
+                                        "eVar33" : "large"
+                                    }
+                                },
+                                "event1to100" : {
+                                    "event4" : {
+                                        "value" : 1
+                                    },
+                                    "event10" : {
+                                        "value" : 2,
+                                        "id" : "abcd"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+```
+
+Resulting 'products' parameter passed in to Analytics:
+
+```js
+pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+```
+
 ## Implement using conversion variable syntax
 
 Conversion Variable Syntax is used when the eVar value is not available to set in the `products` variable. This scenario typically means that your page has no context of the merchandising channel or finding method. In these cases you set the merchandising variable before you arrive at the product page, and the value persists until the binding event occurs.
@@ -47,10 +89,36 @@ s.eVar1 = "Aviary";
 
 // Place on the page where the binding event occurs:
 s.events = "prodView";
-s.products = "Birds;Canary";
+s.products = ";Canary";
 ```
 
 The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subsequent success events that involve this product are credited to `"Canary"`. Additionally, the current value of the merchandising variable is tied to all subsequent products until one of the following conditions is met:
 
 * The eVar expires (based on the 'Expire After' setting)
 * The merchandising eVar is overwritten with a new value.
+
+### Using XDM for Edge Collection
+
+You can specify the same information using XDM fields that are mapped to Analytics fields. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). The XDM mirroring the example above would look like the following:
+
+```js
+                  "_experience": {
+                      "analytics": {
+                          "customDimensions": {
+                              "eVars": {
+                                  "eVar1" : "Aviary"
+                              }
+                          }
+                      }
+                  },
+                  "commerce": {
+                      "productViews" : {
+                          "value" : 1
+                      }
+                  },
+                  "productListItems": [
+                      {
+                          "name": "Canary"
+                      }
+                  ]
+```

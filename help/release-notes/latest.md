@@ -25,7 +25,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 ## Fixes in Adobe Analytics
 
-more here
+* Fixed some segment conversion errors. (AN-291262, AN-294092)
+
+More fixes: 
+
+AN-288779; AN-295413; 
 
 ## Important notices for Adobe Analytics administrators
 

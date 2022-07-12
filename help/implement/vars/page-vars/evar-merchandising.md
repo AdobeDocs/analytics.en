@@ -74,7 +74,7 @@ XDM structure:
 Resulting 'products' parameter passed in to Analytics:
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## Implement using conversion variable syntax
@@ -101,6 +101,8 @@ The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subs
 
 You can specify the same information using XDM fields that are mapped to Analytics fields. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). The XDM mirroring the example above would look like the following:
 
+Set the eVar on the same or previous event call:
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -110,7 +112,12 @@ You can specify the same information using XDM fields that are mapped to Analyti
                               }
                           }
                       }
-                  },
+                  }
+```
+
+Set the binding event and values for the products string:
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1

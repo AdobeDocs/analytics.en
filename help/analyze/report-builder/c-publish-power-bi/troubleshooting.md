@@ -39,23 +39,4 @@ Admins granted access for every one by using the following [link](https://login.
 
 ## Reaching the API limit
 
-Reporting in Power BI works with the Analytics Reporting API, so API threshold limits apply. For the Analytics 2.0 APIs, the throttle limit is set at 120 calls per minute, per user, regardless of report suite or company. When the throttle limit is crossed, the server returns an HTTP 429 status to the user with this message content: 
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe recommends that you *adhere to* the following guidelines:
-
-* Make multiple, smaller requests instead of a large, single request.
-* Request data once and cache it.
-* Do not poll for new data faster than a 30 minute interval.
-* Pull historical data and increment it regularly instead of requesting the entire data set.
-
-Adobe recommends that you *avoid* the following:
-
-* Request as much data as possible in a single request
-* Request one year of data at day granularity everyday to get a rolling 12-month window. Adobe recommends that you instead request the new day's data and merge it with the existing data from previous days.
-* Drive a web page with a site performance widget by making an API request every time the web page is loaded
-* Migrate from 1.4
+Reporting in Power BI works with the Analytics Reporting API, so API threshold limits apply. For more information see [Web Services Error Codes](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).

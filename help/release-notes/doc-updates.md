@@ -17,6 +17,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **June 2022** |  |
+| Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), and [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
+| Updated Flow visualization documentation | Based on the [new UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Documentation on product syntax version of Merchandising Variables with Edge Collection | You can now set merchandising variables using the equivalent of the product syntax by setting the relevant XDM fields. Find more detail about product syntax for merchandising variables [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). See the mappings for product syntax [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **May 2022** | |
+| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on which XDM fields map to existing mobile Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **April 2022** | |
 | Adobe Analytics landing page updates | Updates to the joint [Workspace/Reports & Analytics landing page](/help/analyze/landing.md) that improves usability and ease of navigation. |
 | New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

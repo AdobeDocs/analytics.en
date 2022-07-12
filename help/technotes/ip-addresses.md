@@ -103,7 +103,6 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Virginia | `130.248.144.0/22` |
 | Virginia | `172.82.204.0/22` |
 | Virginia | `172.82.212.0/22` |
-| Virginia | See AWS Hosts |
 
 ## AWS hosts
 
@@ -111,32 +110,17 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 
 | Location | Host |
 | --- | --- |
-| Australia | `13.54.219.183` |
-| Australia | `52.62.137.88` |
-| Australia | `54.79.162.112` |
-| China | `52.81.111.133` |
-| China | `140.179.22.22` |
+| China | `140.179.89.228` |
+| China | `140.179.125.98` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
-| India | `3.7.24.204` |
-| India | `3.108.50.194` |
-| India | `3.108.177.136` |
-| Ireland | `54.220.133.225` |
 | Ireland | `54.74.170.177` |
 | Ireland | `54.195.254.128` |
-| Oregon | `54.212.155.93` |
+| Ireland | `54.220.133.225` |
 | Oregon | `52.10.149.115` |
 | Oregon | `52.40.172.46` |
-| Singapore | `54.255.88.178` |
-| Singapore | `52.220.235.10` |
-| Singapore | `3.1.237.132` |
-| Tokyo | `3.113.78.189` |
-| Tokyo | `13.115.137.161` |
-| Tokyo | `54.178.162.114` |
-| Virginia | `18.205.241.19` |
-| Virginia | `44.194.25.77` |
-| Virginia | `52.0.93.32` |
+| Oregon | `54.212.155.93` |
 | Virginia | `3.216.131.23` |
 | Virginia | `34.204.237.47` |
 | Virginia | `54.163.234.74` |

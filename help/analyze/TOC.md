@@ -29,6 +29,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
       + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
+      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)

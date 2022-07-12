@@ -40,7 +40,8 @@ The value for `eVar1` is assigned to the product. All subsequent success events 
 
 Each field in the 'products' variable is populated by a corresponding XDM field. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Below is an example illustrating how the productListItems XDM fields are combined to create a products variable.
 
-XDM structutre
+XDM structure:
+
 ```js
               "productListItems": [
                     {
@@ -69,7 +70,8 @@ XDM structutre
                     }
                 ]
 ```
-Resulting 'products' parameter passed in to Analytics
+
+Resulting 'products' parameter passed in to Analytics:
 
 ```js
 pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
@@ -97,7 +99,7 @@ The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subs
 
 ### Using XDM for Edge Collection
 
-You can specify the same information using XDM fields that are mapped to Analytics fields. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). The XDM mirroring the example above would look like the following. 
+You can specify the same information using XDM fields that are mapped to Analytics fields. You can see a list of all mappings from XDM to Analytics parameters [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). The XDM mirroring the example above would look like the following:
 
 ```js
                   "_experience": {

@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (July 2022)
 
-**Last update**: July 11, 2022
+**Last update**: July 13, 2022
 
 ## Related resources
 
@@ -27,10 +27,9 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 * Fixed some segment conversion errors. (AN-291262, AN-294092)
 
-
 **Fixes for individual customers**: 
 
-AN-281628; AN-288779; AN-294158; AN-294531; AN-294984; AN-295413; AN-295465; AN-295516; 
+AN-280192; AN-281628; AN-287022; AN-287104; AN-287876; AN-288802; AN-288457; AN-288779; AN-288799; AN-289198; AN-289852; AN-289931; AN-290162; AN-290213; AN-291059; AN-291090; AN-291270; AN-294091; AN-294135; AN-294152; AN-294158; AN-294285; AN-294317; AN-294404; AN-294531; AN-294769; AN-294984; AN-295172; AN-295211; AN-295224; AN-295413; AN-295440; AN-295465; AN-295499; AN-295516; 
 
 ## Important notices for Adobe Analytics administrators
 

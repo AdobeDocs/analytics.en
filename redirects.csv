@@ -180,4 +180,4 @@ source,destination
 /docs/analytics/technotes/doc-updates.html,/docs/analytics/release-notes/doc-updates.html
 /docs/analytics/implementation/aep-edge/xdmoverview.html,/docs/analytics/implementation/aep-edge/overview.html
 /docs/analytics/implementation/aep-edge/xdm-manual.html,/docs/analytics/implementation/aep-edge/web-sdk/overview.html
-/docs/analytics/implementation/validate/query-parameters.html?lang=en,/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en
+/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html?lang=en,/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en

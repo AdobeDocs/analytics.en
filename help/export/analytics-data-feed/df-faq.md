@@ -13,9 +13,7 @@ Frequently asked questions about data feeds.
 
 Data feed file names are made up of the report suite ID and the date. Any two feeds that are configured for the same RSID and date(s) have the same file name. If those feeds are delivered to the same location, one file will overwrite the other. To prevent a file overwrite, you cannot create a feed that has the potential to overwrite an existing feed in the same location.
 
-Trying to create a feed when another exists with the same file name results in the following message:
-
-If you receive this error, consider the following workarounds:
+Trying to create a feed when another exists with the same file name results in an error message. Consider the following workarounds:
 
 * Change the delivery path
 * Change the dates if possible

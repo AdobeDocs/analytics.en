@@ -9,7 +9,6 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 
 | XDM Field Path  | Analytics dimension and description |
 | --- | --- |
-| `application.id` | The mobile dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isClose` | Helps define the mobile metric [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -122,7 +121,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 
 ## Mapping other XDM fields to Analytics variables
 
-If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). All XDM field elements are sent to Adobe Analytics as Context Data with the prefix `a.x`. You can then map this context data variable to the desired Analytics variable using [Processing rules](../../admin/admin/c-processing-rules/processing-rules.md). For example, if you send the following event:
+If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as Context Data with the prefix a.x. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=en). For example, if you send the following event:
 
 ```js
 alloy("event",{

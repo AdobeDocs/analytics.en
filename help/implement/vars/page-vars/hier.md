@@ -12,6 +12,10 @@ Hierarchy variables are custom variables that let you see a site's structure.
 >
 >This variable was more common in previous versions of Adobe Analytics. Adobe recommends using [eVars](evar.md) and classifications instead.
 
+>[!IMPORTANT]
+>
+>Hierarchy is not supported in data collection using XDM for Experience Edge.
+
 This variable is useful for sites that have more than three levels in their site structure. For example, a media site can have 4 levels to the Sports section: `Sports`, `Local Sports`, `Baseball`, and `Team name`. If someone visits the Baseball page, Sports, Local Sports, and Baseball, all levels reflect that visit.
 
 Adobe supports up to 5 hierarchy variables in your implementation. At the time the hierarchy is enabled, decide on a delimiter for the variable and the maximum number of levels for the hierarchy. For example, if the delimiter is a comma, the hierarchy would look similar to the following:

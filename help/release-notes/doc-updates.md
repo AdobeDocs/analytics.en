@@ -18,6 +18,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 | --- | --- |
 | **June 2022** |  |
+| Merchandising variables in XDM for Edge Collection |  Doc on [support for Merchandising variables in XDM for Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), and [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
 | Updated Flow visualization documentation | Based on the [new UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |

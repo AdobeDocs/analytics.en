@@ -17,6 +17,8 @@ Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.co
 * Custom events 1-100 are mapped to `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Custom events 101-200 are mapped to `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
 * This pattern repeats every 100 events to `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* `eventx.value` is used to specify the value. 
+* `eventx.id` is used to specify the id for serialization.
 * Orders are mapped to `commerce.purchases.value`.
 * Units are mapped to the sum of all `productListItems[].quantity` fields.
 * Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.

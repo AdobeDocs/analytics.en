@@ -12,7 +12,7 @@ exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 
 The `getVisitDuration` plug-in tracks the amount of time in minutes that the visitor has been on the site up to that point. Adobe recommends using this plug-in if you want to track cumulative time on the site up to that point, or to track the time it takes to perform an activity. This plug-in does not track the amount of time between events; if this functionality is desired, use the [`getTimeBetweenEvents`](gettimebetweenevents.md) plug-in.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -26,7 +26,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getVisitDuration
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

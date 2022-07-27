@@ -14,7 +14,7 @@ The `getQueryParam` plug-in allows you to extract the value of any query string 
 
 This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features using the Web SDK or the Adobe Analytics extension or the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) method included in AppMeasurement.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -28,7 +28,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getQueryParam
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

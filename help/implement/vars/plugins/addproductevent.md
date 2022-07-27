@@ -12,7 +12,7 @@ exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 
 The `addProductEvent` plug-in adds a numeric or currency event to the [`products`](../page-vars/products.md) variable. Adobe recommends using this plug-in if you want to add a numeric or currency event to the `products` variable without worrying about the product string format. This plug-in is not necessary if you don't use numeric or currency events in the `products` variable.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -26,7 +26,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvent
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

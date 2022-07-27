@@ -68,6 +68,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
     + [Histogram](analysis-workspace/visualizations/histogram.md)
+    + [Key metric summary](analysis-workspace/visualizations/key-metric.md)
     + [Map](analysis-workspace/visualizations/map-visualization.md)
     + [Venn](analysis-workspace/visualizations/venn.md)
     + [Area and area stacked](analysis-workspace/visualizations/area.md)

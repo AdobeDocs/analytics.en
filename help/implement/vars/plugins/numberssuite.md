@@ -16,7 +16,7 @@ The Numbers Suite a series of JavaScript functions. It includes the following pl
 * **`randomNumber`**: Generate a random number with a specific number of digits. This plug-in is useful if you deploy 3rd-party tags and want a cache-busting random number.
 * **`twoDecimals`**: Round a number to the closet hundredth. This plug-in is useful for currency purposes, allowing you to round a number to a valid currency value.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -30,7 +30,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize Numbers Suite
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

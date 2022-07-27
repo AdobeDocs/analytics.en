@@ -18,7 +18,7 @@ The `apl` plug-in allows you to safely add new values to list-delimited variable
 
 Adobe recommends using this plug-in if you want to add new values to existing variables that contain a string of delimited values. This plug-in is not necessary if you prefer to concatenate strings for variables containing delimited values.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -32,7 +32,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize APL (Append To List)
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

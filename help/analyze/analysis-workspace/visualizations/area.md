@@ -1,5 +1,5 @@
 ---
-description: This Workspace visualization is like a line graph, but with a colored area below the line.
+description: The area visualization is like a line graph, but with a colored area below the line.
 title: Area and area stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

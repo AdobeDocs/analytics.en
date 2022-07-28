@@ -62,9 +62,9 @@ Please note:
 
 The Key metric summary offers multiple flexible settings to enable better reporting and communication of important metrics. Settings can be accessed through the cog in top right-hand corner of the visualization.  
 
-screenshot
+
 
 | Setting | Description |
 | --- | --- |
-|   |   |
+|  |   |
 

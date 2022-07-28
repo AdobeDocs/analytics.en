@@ -11,7 +11,7 @@ role: User, Admin
 >
 >This functionality is currently in [limited testing](/help/release-notes/releases.md).
 
-The Key Metric Summary visualization lets you see how an important metric is trending within a single timeframe. It also lets you compare metric performance across two timeframes. It provides the benefits of multiple visualizations combined into one visualization:
+The [!UICONTROL Key metric summary] visualization lets you see how an important metric is trending within a single timeframe. It also lets you compare metric performance across two timeframes. It provides the benefits of multiple visualizations combined into one visualization:
 
 * **[!UICONTROL Line]** visualizations that shows how the metric is trending for the primary and comparison date ranges
 
@@ -56,7 +56,7 @@ Please note:
 
 * The **[!UICONTROL Previous period]** line graph (always displayed in grey) corresponds to the **[!UICONTROL Comparison date range]** in the configuration step.
 
-* If a comparison date range is not selected during configuration or is hidden in the visualization settings (more on settings below), only the line graph for the primary date range is displayed. The summary change will be hidden. 
+* If a comparison date range is not specified during configuration or is hidden in the visualization settings, only the line graph for the primary date range is displayed. The summary change will be hidden. 
 
 * From here, you can hover over the line graphs to see the statistics for individual days:
 
@@ -70,16 +70,16 @@ The Key metric summary offers multiple flexible settings to enable better report
 
 | Setting | Description |
 | --- | --- |
-| Emphasize percent change | Display summary change in prominent bold type in the center of the visualization |
-| Emphasize number value | Display summary number in prominent bold type in the center of the visualization |
-| Legend visible | Show or hide the legend at the bottom of the visualization |
-| Show annotations | Show or hide annotations added by an admin |
-| Show sparklines | Show or hide line charts at the bottom of the chart. When hidden, the legend will change to no longer visually reference the lines |
-| Show min and max on sparklines | Show or hide minimum and maximum values on primary and comparison line charts |
-| Show comparison | Show or hide comparison data. When hidden, both the comparison line chart and summary change objects will be hidden from view. |
-| Show total number | Show or hide summary number |
-| Show raw difference | Show or hide raw difference between the total value of the metric in the primary date range and the secondary date range |
-| Abbreviate value | Abbreviate number values to simplify communicated insights (e.g. 20,000 -> 20K) |
+| **[!UICONTROL Emphasize percent change]** | Display summary change in prominent bold type in the center of the visualization |
+| **[!UICONTROL Emphasize number value]** | Display summary number in prominent bold type in the center of the visualization |
+| **[!UICONTROL Legend visible]** | Show or hide the legend at the bottom of the visualization |
+| **[!UICONTROL Show annotations]** | Show or hide annotations added by an admin |
+| **[!UICONTROL Show sparklines]** | Show or hide line charts at the bottom of the chart. When hidden, the legend will change to no longer visually reference the lines |
+| **[!UICONTROL Show min and max on sparklines]** | Show or hide minimum and maximum values on primary and comparison line charts |
+| **[!UICONTROL Show comparison]** | Show or hide comparison data. When hidden, both the comparison line chart and summary change objects will be hidden from view. |
+| **[!UICONTROL Show total number]** | Show or hide summary number |
+| **[!UICONTROL Show raw difference]** | Show or hide raw difference between the total value of the metric in the primary date range and the secondary date range |
+| **[!UICONTROL Abbreviate value]** | Abbreviate number values to simplify communicated insights (e.g. 20,000 -> 20K) |
 
 ## Edit visualization
 

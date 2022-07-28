@@ -27,7 +27,7 @@ This visualization addresses multiple common use cases:
 
 ## Configure the key metric summary
 
-1. Drag the key metric summary visualization from the Visualizations menu in the left rail into a Freeform table.
+1. Drag the **[!UICONTROL Key metric summary]** visualization from the **[!UICONTROL Visualizations]** menu in the left rail into a [!UICONTROL Freeform] table.
 
 1. Configure the visualization:
 
@@ -40,12 +40,18 @@ This visualization addresses multiple common use cases:
    | **[!UICONTROL Comparison date range]** | The date range to which you want to compare the primary date range. |
    | **[!UICONTROL Segment (optional)]** | Any segment that you are specifically interested in for this summary.  |
 
+   {style="table-layout:auto"}
+
 1. Click **[!UICONTROL Build]**.
 
 ## View the output
 
 ![](assets/key-metric-output.png)
 
-From here, you can hover over the line graphs to see the statistics for individual days.
+Please note:
+
+* The [!UICONTROL Previous period] line graph corresponds to the [!UICONTROL Comparison date range] in the configuration step.
+
+* From here, you can hover over the line graphs to see the statistics for individual days:
 
 ![](assets/key-metric-output2.png)

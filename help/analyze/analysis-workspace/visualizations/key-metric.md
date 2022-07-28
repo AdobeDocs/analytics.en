@@ -58,13 +58,33 @@ Please note:
 
 ![](assets/key-metric-output2.png)
 
-## Settings
+## Visualization settings
 
-The Key metric summary offers multiple flexible settings to enable better reporting and communication of important metrics. Settings can be accessed through the cog in top right-hand corner of the visualization.  
+The Key metric summary offers multiple flexible settings to enable better reporting and communication of important metrics. Settings can be accessed through the gear icon in the top right-hand corner of the visualization.  
 
-
+![](assets/key-metric-settings.png)
 
 | Setting | Description |
 | --- | --- |
-|  |   |
+| Emphasize percent change | Display summary change in prominent bold type in the center of the visualization |
+| Emphasize number value | Display summary number in prominent bold type in the center of the visualization |
+| Legend visible | Show or hide the legend at the bottom of the visualization |
+| Show annotations | Show or hide annotations added by an admin |
+| Show sparklines | Show or hide line charts at the bottom of the chart. When hidden, the legend will change to no longer visually reference the lines |
+| Show min and max on sparklines | Show or hide minimum and maximum values on primary and comparison line charts |
+| Show comparison | Show or hide comparison data. When hidden, both the comparison line chart and summary change objects will be hidden from view. |
+| Show total number | Show or hide summary number |
+| Show raw difference | Show or hide raw difference between the total value of the metric in the primary date range and the secondary date range |
+| Abbreviate value | Abbreviate number values to simplify communicated insights (e.g. 20,000 -> 20K) |
 
+## Edit visualization
+
+After building the visualization, you can still edit the original configuration. 
+
+1. Click the pencil icon in the top right corner of the visualization (next to the settings gear icon).
+
+   ![](assets/edit-icon.png)
+
+   You are now taken back to the original configuration view. 
+
+1. Change the metric, primary date range, comparison date range, or segment as preferred.  

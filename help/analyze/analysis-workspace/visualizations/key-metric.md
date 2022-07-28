@@ -5,6 +5,11 @@ feature: Visualizations
 role: User, Admin
 ---
 
+>[!NOTE]
+>
+>This functionality is currently in [limited testing](/help/release-notes/releases.md).
+
+
 # Key metric summary
 
 The Key Metric Summary visualization lets you see how an important metric is trending within a single timeframe. It also lets you compare metric performance across two timeframes. It provides the benefits of multiple visualizations combined into one visualization:

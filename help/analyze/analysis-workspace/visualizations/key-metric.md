@@ -92,4 +92,4 @@ After building the visualization, you can still edit the original configuration.
 
    You are now taken back to the original configuration view. 
 
-1. Change the metric, primary date range, comparison date range, or segment as preferred.  
+1. Change the metric, primary date range, comparison date range, or segment as preferred.

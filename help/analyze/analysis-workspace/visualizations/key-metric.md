@@ -50,7 +50,7 @@ This visualization addresses multiple common use cases:
 
 Please note:
 
-* The [!UICONTROL Previous period] line graph corresponds to the [!UICONTROL Comparison date range] in the configuration step.
+* The **[!UICONTROL Previous period]** line graph corresponds to the **[!UICONTROL Comparison date range]** in the configuration step.
 
 * From here, you can hover over the line graphs to see the statistics for individual days:
 

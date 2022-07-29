@@ -3,8 +3,8 @@ description: Use the key metric summary visualization to compare metric performa
 title: Key metric summary
 feature: Visualizations
 role: User, Admin
+exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 ---
-
 # Key metric summary
 
 >[!NOTE]

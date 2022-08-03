@@ -5,21 +5,45 @@ feature: Visualizations
 role: User, Admin
 ---
 
-# Combo charts visualization
+# Combo chart
 
 >[!NOTE]
 >
 >This functionality is currently in [limited testing](/help/release-notes/releases.md).
 
-Combo charts make it easy to quickly build a comparison visualization without having to build a table first. You can easily view your data in a line/bar combination that facilitates understanding trends. 
+The [!UICONTROL Combo chart] visualization makes it easy to quickly build a comparison visualization without having to build a table first. You can easily view trends in your data in a line/bar combination. 
 
-Use combo charts to 
+Use a Combo chart to 
 
-* Easily compare this week's orders to orders at the same time last month (and last year) - all within a few clicks. 
+* Compare this week's orders to orders at the same time last month (and last year) - all within a few clicks. 
 
-* Quickly analyze and compare multiple metrics (like unique visitors and revenue) against one another on the same chart. 
+* Quickly analyze and compare multiple metrics (like [!UICONTROL Unique Visitors] and [!UICONTROL Revenue]) against one another on the same chart. 
 
-* Analyze a metric against a function (like cumulative average) over a time horizon.
+* Analyze a metric against a function (such as [!UICONTROL Cumulative Average]) over a time horizon.
 
-## Build a combo chart
+## Build a Combo chart
+
+1. From the Visualizations drop-down list in the left rail, drag the [!UICONTROL Combo chart] visualization into a blank panel.
+
+   ![](assets/combo-chart-build.png)
+
+1. From the drop-down lists, select a dimension for the X-axis and a metric for the Y-axis.
+
+1. Select the type of [!UICONTROL Line comparison] you want to use.
+
+   | Line comparison type | Definition |
+   | --- | --- |
+   | Time period | The most common type of comparison - comparing this time period to 4 weeks ago, for example. If you selected Time period, make a secondary selection as to which time period you want to compare.<p>![](assets/combo-time-period.png)|
+   | Additional metric | You could, for example, compare [!UICONTROL Revenue] to another metric. |
+   | Function | You could introduce a function like [!UICONTROL Average] into the comparison. |
+
+1. Click **[!UICONTROL Build]**.
+
+   The output will look similar to this:
+
+   ![](assets/combo-output.png)
+
+
+
+
 

@@ -24,9 +24,9 @@ Use a [!UICONTROL Combo chart] to
 Keep in mind that you can
 
 * Add multiple comparisons in a single [!UICONTROL Combo chart]. 
-* If you add one or more comparisons, they have to be of the same type, such as Time period.
+* If you add one or more comparisons, they have to be of the same type, such as [!UICONTROL Time comparison].
 * You can add up to 5 comparisons.
-* You can apply a filter to a metric.
+* You can apply up to 3 filters (segments) to a metric.
 
 ## Build a Combo chart
 
@@ -40,9 +40,9 @@ Keep in mind that you can
 
    | Line comparison type | Definition |
    | --- | --- |
-   | Time period | The most common type of comparison - comparing this time period to 4 weeks ago, for example. If you selected Time period, make a secondary selection as to which time period you want to compare.<p>![](assets/combo-time-period.png) |
-   | Additional metric | You could, for example, compare [!UICONTROL Revenue] to another metric.<p>![](assets/combo-2metrics.png) |
-   | Function | You could introduce a function like [!UICONTROL Average] into the comparison. See a list of supported functions below.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Time comparison]** | The most common type of comparison - comparing this time period to 4 weeks ago, for example. If you selected [!UICONTROL Time comparison], make a secondary selection as to which time period you want to compare.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Additional metric]** | You could, for example, compare [!UICONTROL Revenue] to another metric.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Function]** | You could introduce a function like [!UICONTROL Average] into the comparison. See a list of supported functions below.<p>![](assets/combo-functions.png) |
 
    {style="table-layout:auto"}
 
@@ -60,11 +60,13 @@ If you choose **[!UICONTROL Function]** as the [!UICONTROL Line comparison type]
 
 | Function | Definition |
 | --- | --- |
-| **[!UICONTROL Cumulative average]** | Returns the average of the last N rows. |
-| **[!UICONTROL Sum]** | Adds all of the numeric values for a metric within a column (across the elements of a dimension) |
-| **[!UICONTROL Exponent]** | Returns *e* raised to the power of a given number.  |
+| **[!UICONTROL Column Sum]** | Adds all of the numeric values for a metric within a column (across the elements of a dimension) |
+| **[!UICONTROL Cumulative Average]** | Returns the average of the last N rows. |
+| **[!UICONTROL Median]** | Returns the median for a metric in a column. The median is the number in the middle of a set of numbers—that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median. |
+| **[!UICONTROL Cumulative]** |   |
+| **[!UICONTROL Column Maximum]** | Returns the largest value in a set of dimension elements for a metric column. |
 | **[!UICONTROL Mean]** | Returns the arithmetic mean, or average, for a metric. |
-| **[!UICONTROL Quartile]** | Returns the quartile of values for a metric. For example, quartiles can be used to find the top 25% of products driving the most revenue. |
+| **[!UICONTROL Column Minimum]** | Returns the smallest value in a set of dimension elements for a metric column. |
 
 {style="table-layout:auto"}
 
@@ -84,13 +86,15 @@ Click the gear icon on the top right of a combo chart to change its settings.
 
 | Setting | Definition |
 | --- | --- |
+| **[!UICONTROL Visualization type]** | Lets you switch to another visualization type. |
+| **[!UICONTROL Granularity]** | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Displays values in percentages. |
 | **[!UICONTROL Legend visible]** | Lets you hide the detailed legend text for the Combo charts visualization. |
-| **[!UICONTROL Granularity]** | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. |
+| **[!UICONTROL Limit max items]** |  |
 | **[!UICONTROL Overlays]** | Show or hide barbells on lines. |
 | **[!UICONTROL Axis]** | |
-| **[!UICONTROL Display dual axis]** | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| **[!UICONTROL Display dual axis]** | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. The dual axis color matches the color of the table, unless there are multiple comparisons. In that case, the color for all the comparisons is gray. |
 | **[!UICONTROL Normalization]** | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
 | **[!UICONTROL Show x-axis]** | Display the x-axis or hide it. |
 | **[!UICONTROL Show y-axis]** | Display the y-axis or hide it.  |

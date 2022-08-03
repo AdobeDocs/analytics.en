@@ -63,7 +63,7 @@ If you choose **[!UICONTROL Function]** as the [!UICONTROL Line comparison type]
 | **[!UICONTROL Column Sum]** | Adds all of the numeric values for a metric within a column (across the elements of a dimension) |
 | **[!UICONTROL Cumulative Average]** | Returns the average of the last N rows. |
 | **[!UICONTROL Median]** | Returns the median for a metric in a column. The median is the number in the middle of a set of numbers—that is, half the numbers have values that are greater than or equal to the median, and half are less than or equal to the median. |
-| **[!UICONTROL Cumulative]** |   |
+| **[!UICONTROL Cumulative]** | The cumulative sum of N rows.  |
 | **[!UICONTROL Column Maximum]** | Returns the largest value in a set of dimension elements for a metric column. |
 | **[!UICONTROL Mean]** | Returns the arithmetic mean, or average, for a metric. |
 | **[!UICONTROL Column Minimum]** | Returns the smallest value in a set of dimension elements for a metric column. |
@@ -91,7 +91,7 @@ Click the gear icon on the top right of a combo chart to change its settings.
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Displays values in percentages. |
 | **[!UICONTROL Legend visible]** | Lets you hide the detailed legend text for the Combo charts visualization. |
-| **[!UICONTROL Limit max items]** |  |
+| **[!UICONTROL Limit max items]** | Reduces the number of items on the X-axis. If you have a big data set, you may only show the first 10 items (or whatever value you pick). |
 | **[!UICONTROL Overlays]** | Show or hide barbells on lines. |
 | **[!UICONTROL Axis]** | |
 | **[!UICONTROL Display dual axis]** | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. The dual axis color matches the color of the table, unless there are multiple comparisons. In that case, the color for all the comparisons is gray. |

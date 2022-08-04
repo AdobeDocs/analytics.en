@@ -3,8 +3,8 @@ description: Lets you easily visualize comparison data in Analysis Workspace, su
 title: Combo charts visualization
 feature: Visualizations
 role: User, Admin
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 ---
-
 # Combo chart
 
 >[!NOTE]
@@ -101,5 +101,3 @@ Click the gear icon on the top right of a combo chart to change its settings.
 | **[!UICONTROL Anchor y-axis at zero]** | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
 
 {style="table-layout:auto"}
-
-

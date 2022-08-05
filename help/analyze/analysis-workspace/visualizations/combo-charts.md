@@ -41,8 +41,8 @@ Keep in mind that you can
    | Line comparison type | Definition |
    | --- | --- |
    | **[!UICONTROL Time comparison]** | The most common type of comparison - comparing this time period to 4 weeks ago, for example. If you selected [!UICONTROL Time comparison], make a secondary selection as to which time period you want to compare.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Additional metric]** | You could, for example, compare [!UICONTROL Revenue] to another metric.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Function]** | You could introduce a function like [!UICONTROL Average] into the comparison. See a list of supported functions below.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | You could, for example, compare [!UICONTROL Revenue] to another metric.<p>![](assets/combo-2metrics.png) |
 
    {style="table-layout:auto"}
 

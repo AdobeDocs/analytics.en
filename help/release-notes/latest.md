@@ -19,23 +19,21 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Support for Merchandising Variables in XDM for Edge Collection | Enables customers collecting data via Experience Edge/Web SDK to use XDM to specify the various values for Merchandising variables (eVars). [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en)| June 29, 2022 |
+| |  |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed some segment conversion errors. (AN-291262, AN-294092)
 
 **Fixes for individual customers**: 
 
-AN-280192; AN-281628; AN-287022; AN-287104; AN-287876; AN-288802; AN-288457; AN-288779; AN-288799; AN-289198; AN-289852; AN-289931; AN-290162; AN-290213; AN-291059; AN-291090; AN-291270; AN-294091; AN-294135; AN-294152; AN-294158; AN-294285; AN-294317; AN-294404; AN-294531; AN-294769; AN-294984; AN-295172; AN-295211; AN-295224; AN-295413; AN-295440; AN-295465; AN-295499; AN-295516; 
+
 
 ## Important notices for Adobe Analytics administrators
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **New domain for system-generated emails** | July 13, 2022 | On **May 18, 2022**, Adobe changed the sender's domain for emails from Workspace projects, alerts, and overage alerts, from `noreply@omniture.com` to `noreply@adobe.com`. Add this new email to your allow list if your organization allows only specific senders. |  
 | **Update to new NetAcuity carrier database** | July 11, 2022 | **Starting in October, 2022**, carrier-related information stored in the `carrier` field in Adobe Analytics Data Warehouse and Analytics data feeds will change. Historically, the data format in that column has been `<domain>:<ISP>`. Adobe has maintained an internal lookup table to map these `<domain>:<ISP>` values into carrier names for reporting purposes in Adobe Analytics reporting tools (Analysis Workspace, Reports & Analytics, reporting API, data warehouse, LiveStream, etc.) The lookup file (carrier.tsv) is also provided with data feeds so that data feeds customers may use the same mappings.<p>This update enhances our carrier mappings by using a more accurate carrier database from NetAcuity. The format of the data in the carrier column in data feeds will change going forward. Instead of `<domain>:<ISP>`, it will contain a carrier name. Adobe will continue to use the lookup table in order to maintain as much continuity with past reporting as possible. Reporting tools where the lookups are applied by Adobe (Analysis Workspace, Reports & Analytics, reporting API, data warehouse, LiveStream, etc.) will benefit from more accurate mappings. Some mappings – especially for international domains and ISPs – will change more than others when we adopt the new database. The data feeds carrier lookup file (carrier.tsv) will maintain the old mappings and add the new mappings.<p>The Analytics Source Connector does not currently map the carrier field, so carrier reporting is not currently available in AEP, CJA etc. Therefore, use of the new carrier database will not impact anything in AEP that is based on data provided by the Analytics Source Connector. |
 | **Improved IP-to-geolocation mapping** | July 11, 2022 | Our vendor for IP lookups, Digital Element, is upgrading to a new improved dataset (NetAcuity Pulse) for IP-to-geolocation mapping. Adobe Analytics will adopt this new dataset in the **October, 2022** timeframe. The new database will be more accurate than previous versions. Some IP-to-geo mappings will change/improve when the new database is adopted.<p>All Adobe Analytics tools (Analysis Workspace, Reports & Analytics, reporting API, data warehouse, LiveStream, data feeds etc.) will automatically take advantage of the new improved mappings. There will be no change in the format of the data in data feeds. CJA data provided through the Analytics Source Connector will also automatically take advantage of the new mappings. | 
 | **Pausing scheduled reports in Reports & Analytics** | June 8, 2022 | On April 21, 2022, we announced the deprecation of several features specific to scheduled reports in preparation for the previously announced end of life for Reports & Analytics. These features included the ability to schedule new reports as well as new data extracts.<p>In response to customer requests seeking an extension and to ease the transition from Reports and Analytics, we have decided to extend access to these features until **Jan 31, 2023**. Please note that expiration windows for both reports and data extracts will continue to be limited to nine months; report and data extract delivery will pause at the end of this period unless the schedule is reactivated.<p>To reiterate, these features will be deprecated on January 31, 2023. Before this date, you must migrate your scheduled reporting to one of the other mechanisms available to you in Adobe Analytics. For additional questions or support, please reach out to Adobe Customer Care. [Learn more](/help/analyze/reports-analytics/scheduled-reports-eol.md) |

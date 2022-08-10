@@ -19,7 +19,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| |  |
+| Updates to the Data Warehouse UI and the Data Feeds UI to include new delivery types. | New Data Feed delivery types include: Amazon S3, Azure Blob SAS, Google Cloud Platform. Deprecated: SFTP, Amazon S3, Azure Blob, FTP | August 17, 2022 |
 
 {style="table-layout:auto"}
 

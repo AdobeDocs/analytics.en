@@ -25,7 +25,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 ## Fixes in Adobe Analytics
 
-* Fixed several data feed-related issues. (AN-297264, AN-297295, AN-297449)
+* Fixed several data-feed-related issues. (AN-297264, AN-297295, AN-297449)
 
 **Fixes for individual customers**: 
 

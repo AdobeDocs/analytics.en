@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (August 2022)
 
-**Last update**: August 10, 2022
+**Last update**: August 11, 2022
 
 ## Related resources
 
@@ -19,7 +19,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Updates to the Data Warehouse UI and the Data Feeds UI to include new delivery types | New Data Feed and Data Warehouse delivery types include: Amazon S3, Azure Blob SAS, Google Cloud Platform. More information to follow. | August 17, 2022 |
+| No new features this month | | |
 
 {style="table-layout:auto"}
 

@@ -25,8 +25,7 @@ Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/doc
 
 >[!NOTE]
 >
->`lineItemId` needs to be added as a custom field as it is not part of the standard Analytics Event schema. We will add a dedicated 'category' field in the future.
-
+>`lineItemId` needs to be added as a custom field as it is not yet part of the standard Analytics Event schema. Adobe plans to add a dedicated 'Category' field in the future.
 
 ## Products using the Adobe Analytics extension
 

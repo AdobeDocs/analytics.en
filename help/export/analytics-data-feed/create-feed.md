@@ -38,9 +38,9 @@ Access GCP storage buckets as a secure destination
 **Service Account Creation Process**
 The user will be required to create a service account for the Google Cloud Platform destination is selected.
 
-    Only one GCP service account will be allowed per analytics organization. Once the service account has been created for the datafeed, all additional datafeeds within the organization will be prepopulated with the service account.
+Only one GCP service account will be allowed per analytics organization. Once the service account has been created for the datafeed, all additional datafeeds within the organization will be prepopulated with the service account.
 
-    ![GCP Service Account info](assets/service-account.png)
+![GCP Service Account info](assets/service-account.png)
 
 
 ### Amazon S3
@@ -76,7 +76,7 @@ You can send feeds directly to Amazon S3 buckets via the legacy method. See [Ama
 * *Secret Key:* Secret Key of AWS user
 * *Confirm Secret Key:* Re-enter Secret Key of AWS user
 
-![S3 info](assets/dest-s3.jpg)
+![S3 info](assets/dest-s3-dpr.png)
 
 The user you provide for uploading data feeds must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
@@ -145,7 +145,7 @@ Azure Blob secure destination using Role-Based Access Control (RBAC) or Shared A
 You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
 See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
 
-![Azure info](assets/azure.png)
+![Azure Deprecated info](assets/dest-azure-dpr.png)
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/co
 * *Password:* Password for host
 * *Confirm Password:* Re-enter & verify password for host
 
-![FTP info](assets/dest-ftp.jpg)
+![FTP info](assets/dest-ftp-dpr.png)
 
 ### SFTP - Deprecated
 
@@ -173,7 +173,7 @@ SFTP support for data feeds is available. Requires an SFTP host, username, and t
 * *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
 * *RSA Public Key:* or *DSA Public Key:* Public key to access host
 
-![SFTP info](assets/dest-sftp.jpg)
+![SFTP info](assets/dest-sftp-dpr.png)
 
 ## Data column definitions
 

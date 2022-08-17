@@ -20,25 +20,61 @@ Basic knowledge of data feeds is recommended before reading this page. See [Data
 * **Start & end dates**: The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone.
 * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
 
-## Destination fields
 
+## Destination Field
 The fields available under destination fields depends on the destination type.
 
-### FTP
+### Google Cloud Platform
+Access GCP storage buckets as a secure destination
 
-Data feed data can be delivered to an Adobe or customer hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
+**Fields**
+* *Type:* Destination Type of Google Cloud Platform
+* *Project ID:* GCP project ID where the storage bucket exists
+* *Storage Bucket Name:* Bucket names without dots are limited to 3-63 characters. Names containing dots can contain up to 222 chars but each dot-separated component can be no longer than 63 characters.
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
 
-![FTP info](assets/dest-ftp.jpg)
+![GCP info](assets/dest-gcp.png)
 
-### SFTP
+**Service Account Creation Process**
+The user will be required to create a service account for the Google Cloud Platform destination is selected.
 
-SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+    Only one GCP service account will be allowed per analytics organization. Once the service account has been created for the datafeed, all additional datafeeds within the organization will be prepopulated with the service account.
 
-![SFTP info](assets/dest-sftp.jpg)
+    ![GCP Service Account info](assets/service-account.png)
 
-### S3
 
-You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+### Amazon S3
+Amazon S3 bucket storage accessed via IAM Role within a Trusted Entity.
+
+**Fields**
+* *Type:* Destination Type of Amazon S3
+* *Bucket:* S3 bucket name
+* *Trusted Entity ARN:* AWS IAM Entity ARN `arn:aws:iam::<12 digit account number>:user/<username>`
+* *Role ARN:* AWS IAM Role ARN `arn:aws:iam::<12 digit account number>:role/<role name>`
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+* *Specify Region (Optional):* Dropdown of all available AWS regions, including CN regions
+
+![Amazon S3 info](assets/dest-s3-secure.png)
+
+
+**Creating & Selecting Trusted Entity**
+The user can select a trusted entity from any options listed in the dropdown or create and retrieve a new one by clicking the `Create Entity` button.
+
+After click of the `Create Entity` button, the user will be redirected to an authentication process. Once the user authenticates, the trusted entity is created and added to the options in the dropdown.
+
+The dropdown lists all trusted entities that were created in the organization by this user.
+
+![Entity info](assets/entity-creation.png)
+
+You can send feeds directly to Amazon S3 buckets via the legacy method. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+
+**Fields - Deprecated**
+* *Type:* Destination type of deprecated S3 method
+* *Bucket:* Amazon S3 Bucket name
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+* *Access Key:* Access Key ID of AWS user
+* *Secret Key:* Secret Key of AWS user
+* *Confirm Secret Key:* Re-enter Secret Key of AWS user
 
 ![S3 info](assets/dest-s3.jpg)
 
@@ -48,12 +84,9 @@ The user you provide for uploading data feeds must have the following [permissio
 * s3:PutObject
 * s3:PutObjectAcl
 
-  >[!NOTE]
-  >
   >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, whether or not the bucket has a policy that requires it. For more information, see “[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)”
 
-The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
-
+**Supported AWS Regions**:
 * us-east-2
 * us-east-1
 * us-west-1
@@ -70,20 +103,77 @@ The following 16 standard AWS regions are supported (using the appropriate signa
 * eu-west-3
 * eu-north-1
 * sa-east-1
+* cn-north-1
+* cn-northwest-1
 
->[!NOTE]
->
->The cn-north-1 region is not supported.
 
 ### Azure Blob
+Azure Blob secure destination using Role-Based Access Control (RBAC) or Shared Access Signature (SAS). Upon picking the access control, the content of the panel will be updated to reflect the corresponding fields.
 
-Data feeds support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
+**Fields - RBAC**
+* *Type:* Destination Type of Azure Blob
+* *Access Control:* Option to use RBAC or SAS
+* *Active Directory Tenant ID:* Organization ID of Azure account
+* *Application ID:* Application ID from Active Directory Adapter
+* *Client Secret:* Azure Client Secret
+* *Storage Account Name:* Name of account that contains data objects
+* *Container Name:* Container belonging to a given storage account.
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+
+![Azure RBAC info](assets/dest-azure-rbac.png)
+
+**Fields - SAS**
+* *Type:* Destination Type of Azure Blob
+* *Access Control:* Option to use RBAC or SAS
+* *Active Directory Tenant ID:* ID of Azure Active Directory instance
+* *Application ID:* Application ID from Active Directory Adapter
+* *Client Secret:* Azure Client Secret
+* *Key Vault URI:* Location of Azure Key Vault
+* *Key Vault Secret Name:* Secret Name to access secure Key Vault
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+
+![Azure SAS info](assets/dest-azure-sas.png)
+
+**Fields - Deprecated**
+* *Type:* Destination Type of Azure Blob
+* *Container:* Name of the Azure container
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+* *Account:* Azure account Secret
+* *Key Vault URI:* Location of Azure Key Vault
+* *Key Vault Secret Name:* Secret Name to access secure Key Vault
+
+You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
 
 ![Azure info](assets/azure.png)
 
 >[!NOTE]
 >
 >You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+
+### FTP - Deprecated
+
+**Fields**
+* *Type:* Destination Type of FTP
+* *Host:* Endpoint to access host
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+* *Username:* Username for host
+* *Password:* Password for host
+* *Confirm Password:* Re-enter & verify password for host
+
+![FTP info](assets/dest-ftp.jpg)
+
+### SFTP - Deprecated
+
+SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+
+**Fields**
+* *Type:* Destination Type of SFTP
+* *Host:* Endpoint to access host
+* *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
+* *RSA Public Key:* or *DSA Public Key:* Public key to access host
+
+![SFTP info](assets/dest-sftp.jpg)
 
 ## Data column definitions
 

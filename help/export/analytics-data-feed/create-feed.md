@@ -20,11 +20,12 @@ Basic knowledge of data feeds is recommended before reading this page. See [Data
 * **Start & end dates**: The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone.
 * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
 
-
 ## Destination Field
+
 The fields available under destination fields depends on the destination type.
 
 ### Google Cloud Platform
+
 Access GCP storage buckets as a secure destination
 
 **Fields**
@@ -36,6 +37,7 @@ Access GCP storage buckets as a secure destination
 ![GCP info](assets/dest-gcp.png)
 
 **Service Account Creation Process**
+
 The user will be required to create a service account for the Google Cloud Platform destination is selected.
 
 Only one GCP service account will be allowed per analytics organization. Once the service account has been created for the datafeed, all additional datafeeds within the organization will be prepopulated with the service account.
@@ -44,9 +46,11 @@ Only one GCP service account will be allowed per analytics organization. Once th
 
 
 ### Amazon S3
+
 Amazon S3 bucket storage accessed via IAM Role within a Trusted Entity.
 
 **Fields**
+
 * *Type:* Destination Type of Amazon S3
 * *Bucket:* S3 bucket name
 * *Trusted Entity ARN:* AWS IAM Entity ARN `arn:aws:iam::<12 digit account number>:user/<username>`
@@ -58,6 +62,7 @@ Amazon S3 bucket storage accessed via IAM Role within a Trusted Entity.
 
 
 **Creating & Selecting Trusted Entity**
+
 The user can select a trusted entity from any options listed in the dropdown or create and retrieve a new one by clicking the `Create Entity` button.
 
 After click of the `Create Entity` button, the user will be redirected to an authentication process. Once the user authenticates, the trusted entity is created and added to the options in the dropdown.
@@ -69,6 +74,7 @@ The dropdown lists all trusted entities that were created in the organization by
 You can send feeds directly to Amazon S3 buckets via the legacy method. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
 
 **Fields - Deprecated**
+
 * *Type:* Destination type of deprecated S3 method
 * *Bucket:* Amazon S3 Bucket name
 * *Path (Optional):* & *Append Report Suite ID to Path:* Location of resources to retrieve or store
@@ -108,6 +114,7 @@ The user you provide for uploading data feeds must have the following [permissio
 
 
 ### Azure Blob
+
 Azure Blob secure destination using Role-Based Access Control (RBAC) or Shared Access Signature (SAS). Upon picking the access control, the content of the panel will be updated to reflect the corresponding fields.
 
 **Fields - RBAC**

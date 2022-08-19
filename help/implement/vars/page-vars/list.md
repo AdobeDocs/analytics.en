@@ -52,6 +52,10 @@ List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.c
 }
 ```
 
+>[!NOTE]
+>
+>The Adobe XDM schema contains `key` objects in addition to `value` objects in each `list[]` array. Adobe does not use these `key` objects when sending data to Adobe Analytics.
+
 If your organization requires a different delimiter than a comma ('`,`'), you can pass the entire list string, including the desired delimiters, into a custom XDM field. Make sure that the list variable is configured to accept the desired delimiter in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
 ```json

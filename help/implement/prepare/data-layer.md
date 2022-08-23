@@ -30,11 +30,7 @@ Implementing Adobe Analytics using a data layer typically follows these steps:
 
 Adobe recommends using the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer/wiki) for new or restructured implementations.
 
-Your organization is free to use other data layer specifications, such as the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf), or another custom data layer entirely. Aligning to a consistent data layer that meets your organization's needs is the most important.
-
-
-
-Use the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) report for details on each object and sub-object. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+Your organization is free to use other data layer specifications, such as the [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf), or another custom specification entirely. Aligning to a consistent data layer that meets your organization's needs is the most important.
 
 Data layers are extensible; if you have requirements specific to your organization, you can include objects in your data layer to accommodate those needs.
 

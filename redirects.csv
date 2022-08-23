@@ -7,7 +7,7 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html,/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html
 /docs/analytics/analyze/analysis-workspace/build-workspace-project/undo-redo.html,/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html
 /docs/analytics/analyze/analysis-workspace/freeform-analysis-examples-use-cases.html,/docs/analytics/analyze/analysis-workspace/home.html
-/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html,/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=en
+/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html,/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html
 /docs/analytics/implementation/review/major-review.html,/docs/analytics/implementation/review/full-review.html
 /docs/analytics/implementation/review/minor-review.html,/docs/analytics/implementation/review/focused-review.html
 /docs/analytics/implementation/vars/config-vars/linkname.html,/docs/analytics/implementation/vars/functions/tl-method.html
@@ -180,4 +180,4 @@ source,destination
 /docs/analytics/technotes/doc-updates.html,/docs/analytics/release-notes/doc-updates.html
 /docs/analytics/implementation/aep-edge/xdmoverview.html,/docs/analytics/implementation/aep-edge/overview.html
 /docs/analytics/implementation/aep-edge/xdm-manual.html,/docs/analytics/implementation/aep-edge/web-sdk/overview.html
-/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html?lang=en,/docs/analytics/implementation/aep-edge/variable-mapping.html
+/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html,/docs/analytics/implementation/aep-edge/variable-mapping.html

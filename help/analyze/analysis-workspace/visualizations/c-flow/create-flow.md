@@ -129,12 +129,12 @@ Home > Products > Add to cart > Products > Add to Cart > Billing > Order Confirm
 * [!UICONTROL Page] pathing dimension
 * [!UICONTROL Visit] container
  
-If “Limit to first/last occurrence” is disabled, then this single series of hits would count 2 occurrences of “Add to Cart”.
+If **[!UICONTROL Limit to first/last occurrence]** is *disabled*, then this single series of hits counts 2 occurrences of “Add to Cart”.
 Expected Flow Output:
 “Add to Cart” (2) —> “Products” (1)
                   -> “Billing” (1)
  
-However, if “Limit to first/last occurrence” is enabled, only the first occurrence of “Add to cart” would be included in the analysis.
+However, if **[!UICONTROL Limit to first/last occurrence]** is *enabled*, only the first occurrence of “Add to cart” is included in the analysis.
 Expected Flow Output:
 “Add to Cart” (1) —> “Products” (1)
  

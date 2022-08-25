@@ -9,7 +9,6 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 
 | XDM Field Path  | Analytics dimension and description |
 | --- | --- |
-| `application.id` | The mobile dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isClose` | Helps define the mobile metric [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -55,7 +54,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Sets the respective [eVar](../../components/dimensions/evar.md) dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | The delimiter used for a given [List Prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | A string array containing the respective [List Prop](../vars/page-vars/prop.md#list-props) values. |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | Sets the respective [List variable](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatenates all `value` strings in each respective `list[]` array to its respective [List variable](../vars/page-vars/list.md) using comma delimiters. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Sets the respective [Prop](../../components/dimensions/prop.md) dimension. |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the respective [Custom events](../../components/metrics/custom-events.md) metric. |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Increments the respective [Custom events](../../components/metrics/custom-events.md) metric by the desired amount. |
@@ -103,9 +102,10 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applies [product syntax](../vars/page-vars/products.md) merchandising to eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applies [product syntax](../vars/page-vars/products.md) merchandising to events. |
 | `productListItems[].lineItemId` | The [Category](../../components/dimensions/category.md) dimension. See also the [products](../vars/page-vars/products.md) page variable. |
-| `productListItems[].name` | The [Product](../../components/dimensions/product.md) dimension. See also the [products](../vars/page-vars/products.md) page variable. |
+| `productListItems[].name` | The [Product](../../components/dimensions/product.md) dimension. See also the [products](../vars/page-vars/products.md) page variable. If `productListItems[].SKU` and `productListItems[].name` both contain data, the value in `productListItems[].SKU` is used. |
 | `productListItems[].priceTotal` | Helps determine the [Revenue](../../components/metrics/revenue.md) metric. See also the [products](../vars/page-vars/products.md) page variable. |
 | `productListItems[].quantity` | Helps determine the [Units](../../components/metrics/units.md) metric. See also the [products](../vars/page-vars/products.md) page variable. |
+| `productListItems[].SKU` | The [Product](../../components/dimensions/product.md) dimension. See also the [products](../vars/page-vars/products.md) page variable. If `productListItems[].SKU` and `productListItems[].name` both contain data, the value in `productListItems[].SKU` is used. |
 | `web.webInteraction.URL` | The [linkURL](../vars/config-vars/linkurl.md) implementation variable. |
 | `web.webInteraction.name` | The [Custom link](../../components/dimensions/custom-link.md), [Download link](../../components/dimensions/download-link.md), or [Exit link](../../components/dimensions/exit-link.md) dimension, depending on the value in `web.webInteraction.type` |
 | `web.webInteraction.type` | Determines the type of link clicked. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links). |
@@ -122,7 +122,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 
 ## Mapping other XDM fields to Analytics variables
 
-If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). All XDM field elements are sent to Adobe Analytics as Context Data with the prefix `a.x`. You can then map this context data variable to the desired Analytics variable using [Processing rules](../../admin/admin/c-processing-rules/processing-rules.md). For example, if you send the following event:
+If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as Context Data with the prefix a.x. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=en). For example, if you send the following event:
 
 ```js
 alloy("event",{

@@ -16,11 +16,62 @@ Make sure you record how you use each list variable and their logic in your [sol
 
 ## Set up list variables in report suite settings
 
-Make sure that you configure each list variable in report suite settings before using them in your implementation. See [Conversion variables](/help/admin/admin/conversion-var-admin/list-var-admin.md) in the Admin guide.
+Make sure that you configure each list variable in report suite settings before using them in your implementation. See [Conversion variables](/help/admin/admin/conversion-var-admin/list-var-admin.md) in the Admin guide. This step applies to all implementation methods.
+
+>[!NOTE]
+>
+>List variables implemented using mapped fields in the Web SDK use the default delimiter of a comma ('`,`').
 
 ## List variables using the Web SDK
 
-List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
+List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. For example, the following XDM object populates the `list1` variable with `"Example value 1,Example value 2,Example value 3"`.
+
+```json
+"xdm": {
+    "_experience": {
+        "analytics": {
+            "customDimensions": {
+                "lists": {
+                    "list1": {
+                        "list": [
+                            {
+                                "value": "Example value 1"
+                            },
+                            {
+                                "value": "Example value 2"
+                            },
+                            {
+                                "value": "Example value 3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+>[!NOTE]
+>
+>The Adobe XDM schema contains `key` objects in addition to `value` objects in each `list[]` array. Adobe does not use these `key` objects when sending data to Adobe Analytics.
+
+If your organization requires a different delimiter than a comma ('`,`'), you can pass the entire list string, including the desired delimiters, into a custom XDM field. Make sure that the list variable is configured to accept the desired delimiter in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md).
+
+```json
+"xdm": {
+    "custom_object": {
+        "custom_path": {
+            "custom_listvar": "Example value 1|Example value 2|Example value 3"
+        }
+    }
+}
+```
+
+You can then either:
+
+* Map the custom XDM field to the desired list variable in Adobe Experience Edge; or
+* Create a processing rule to overwrite the desired list var with the context data variable. See [Mapping other XDM fields to Analytics variables](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 ## List variables using the Adobe Analytics extension
 
@@ -28,7 +79,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.list1 - s.list3 in AppMeasurement and the Analytics extension custom code editor
 
-Each list variable is a string that contains custom values specific to your organization. They do not have a maximum byte count; however, each individual value has a maximum of 255 bytes. The delimiter that you use is determined when setting up the variable in report suite settings. Do not use spaces when delimiting multiple items.
+Each list variable is a string that contains custom values specific to your organization. They do not have a maximum byte count; however, each individual value has a maximum of 255 bytes. The delimiter that you use is determined when setting up the variable in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md). Do not use spaces when delimiting multiple items.
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -37,7 +88,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
->If you set duplicate values in the same hit, Adobe de-duplicates all instances of those values. For example, if you set `s.list1 = "Example,Example";`, one instance is counted in reports.
+>If you set duplicate values in the same hit, Adobe de-duplicates all instances of those values. For example, if you set `s.list1 = "Brick,Brick";`, one instance is counted in reports.
 
 ## Compare list props to list vars
 

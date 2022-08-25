@@ -6,7 +6,7 @@ exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 ---
 # US DMA
 
-The 'US DMA' dimension reports the designated market area (DMA) of the visitor. It is based on media markets compiled by [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/).
+The 'US DMA' dimension reports the designated market area (DMA) of the visitor. It is based on media markets compiled by [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Populate this dimension with data 
 

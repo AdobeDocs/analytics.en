@@ -3,6 +3,7 @@ title: eVar (Merchandising) variables
 description: Custom variables that tie to individual products.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
+mini-toc-levels: 3
 ---
 # eVar (Merchandising)
 
@@ -35,6 +36,46 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 The value for `eVar1` is assigned to the product. All subsequent success events that involve this product are credited to the eVar value.
 
+### Product syntax using the Web SDK
+
+Product syntax merchandising variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several different XDM fields.
+
+* Product syntax merchandising eVars are mapped under `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Product syntax merchandising events are mapped under `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Event serialization](events/event-serialization.md) XDM fields are mapped under `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+The following example shows a single [product](products.md) using multiple merchandising eVars and events:
+
+```js
+"productListItems": [
+    {
+        "name": "Bahama Shirt",
+        "priceTotal": "12.99",
+        "quantity": 3,
+        "_experience": {
+            "analytics": {
+                "customDimensions" : {
+                    "eVars" : {
+                        "eVar10" : "green",
+                        "eVar33" : "large"
+                    }
+                },
+                "event1to100" : {
+                    "event4" : {
+                        "value" : 1
+                    },
+                    "event10" : {
+                        "value" : 2,
+                        "id" : "abcd"
+                    }
+                }
+            }
+        }
+    }
+]
+```
+
+The above example object would be sent to Adobe Analytics as `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+
 ## Implement using conversion variable syntax
 
 Conversion Variable Syntax is used when the eVar value is not available to set in the `products` variable. This scenario typically means that your page has no context of the merchandising channel or finding method. In these cases you set the merchandising variable before you arrive at the product page, and the value persists until the binding event occurs.
@@ -47,10 +88,43 @@ s.eVar1 = "Aviary";
 
 // Place on the page where the binding event occurs:
 s.events = "prodView";
-s.products = "Birds;Canary";
+s.products = ";Canary";
 ```
 
 The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subsequent success events that involve this product are credited to `"Canary"`. Additionally, the current value of the merchandising variable is tied to all subsequent products until one of the following conditions is met:
 
 * The eVar expires (based on the 'Expire After' setting)
 * The merchandising eVar is overwritten with a new value.
+
+### Conversion variable syntax using the Web SDK
+
+Conversion variable syntax using the Web SDK operates similarly to implementing other [eVars](evar.md) and [events](events/events-overview.md). The XDM mirroring the example above would look like the following:
+
+Set the eVar on the same or previous event call:
+
+```js
+"_experience": {
+    "analytics": {
+        "customDimensions": {
+            "eVars": {
+                "eVar1" : "Aviary"
+            }
+        }
+    }
+}
+```
+
+Set the binding event and values for the products string:
+
+```js
+"commerce": {
+    "productViews" : {
+        "value" : 1
+    }
+},
+"productListItems": [
+    {
+        "name": "Canary"
+    }
+]
+```

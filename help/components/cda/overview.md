@@ -9,11 +9,7 @@ Cross-Device Analytics is a feature that transforms Analytics from a device-cent
 
 * [**Field-based stitching**](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.
 Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite.
-* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probabilistic matching.
-
->[!NOTE]
->
->Read more about the [Device Co-op end-of-life](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
+* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together.
 
 Using CDA, you can answer questions such as:
 

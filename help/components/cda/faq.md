@@ -26,7 +26,7 @@ CDA's cross-device stitching occurs in two concurrent processes.
 
 * The second process is called "replay." During replay, CDA goes backwards in time and restates historical data, where possible, within a specified lookback window. This lookback window is either 1 day or 7 days, depending on how you requested CDA to be configured. During replay, CDA attempts to restate hits where the person was previously unknown.
 
-* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
+* **If using a device graph**, Adobe keeps Device Graph mappings for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected; subsequent hits for that ECID are treated as a new person.
 
 ## How does CDA handle timestamped hits?
 

@@ -16,8 +16,8 @@ A *virtual report suite* (VRS) allows you to reproduce this branching concept, u
 
 A virtual report suite inherits most of the service levels of the base report suite, such as eVar settings, Processing Rules, Classifications, etc. The following settings are NOT inherited:
 
-* Report suite ID (RSID) 
-* Report suite name 
+* Report suite ID (RSID)
+* Report suite name
 * Permission groups (virtual report suites can be assigned to their own permission groups)
 
 ## Benefits of Virtual Report Suites {#section_3420422FE6DF46EAB151FD9442AAFDC4}
@@ -29,9 +29,8 @@ Virtual report suites help:
 * Simplify implementation by allowing you to use a single Report Suite ID (RSID) across all sites/domains. Having all data in a single report suite enables customer analytics as we move toward the next generation of Adobe Analytics.
 * Business users in your organization always see only the data segments that are relevant to them.
 * Improve security by allowing Admin users to control data access more easily and more granularly after implementation.
-* Provide the ability to participate in Device Co-op 
-* People metric 
-* A single-customer view of data (in the future) 
+* People metric
+* A single-customer view of data (in the future)
 * The ability to create unlimited virtual report suites to segment out data
 
 ## Limitations of Virtual Report Suites {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
@@ -41,7 +40,7 @@ Virtual report suites have the following limitations:
 * Any limitations of segments also apply to virtual report suites
 
   A virtual report suite is nothing more than a segment applied to a report suite. Because each report suite has its own Data Warehouse and its own Data Feed, using multiple report suites results in some benefits that segments do not provide.
-* Real-time report 
+* Real-time report
 * Settings and variable names cannot be customized like in a full report suite
 
 ## Virtual Report Suites vs. Multi-suite Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}

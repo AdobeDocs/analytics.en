@@ -5,14 +5,7 @@ exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 ---
 # Device graph
 
-Cross-Device Analytics provides two distinct methods to stitch data together. This method uses the Adobe Experience Platform Identity Service Co-op Graph or Private Graph to stitch data together. CDA regularly communicates with the device graph to link devices together.
-
-## Differences between co-op graph and private graph
-
-Adobe offers two types of device graphs as part of the ID service:
-
-* **Co-op graph**: A repository of hashed device ID's that any customer can contribute to and reference. Since this type of device graph is collaborative, it typically matches more devices than a private graph.
-* **Private graph**: A repository of hashed device ID's that only your organization references.
+Cross-Device Analytics can use the Private Graph to stitch data together. The Private Graph is a repository of hashed device ID's that is specific to your organization. CDA regularly communicates with the device graph to link devices together.
 
 ## Prerequisites specific to the device graph
 

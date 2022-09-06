@@ -32,7 +32,7 @@ Metrics are flexible in their use within Analysis Workspace. Drag a metric to an
 Calculated metrics allow you to easily see how metrics relate to each other using simple operators or statistical functions. There are several ways to create calculated metrics:
 
 * Click the plus icon next to the Metrics header under the list of components on the left.
-* Navigate to **[!UICONTROL Componets]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
+* Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
 * Right click a column header > **[!UICONTROL Create metric from selection]** when one or more header column cells are selected. This option automatically creates a calculated metric for you without needing to use the Calculated Metric Rule Builder.
 
 [Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)

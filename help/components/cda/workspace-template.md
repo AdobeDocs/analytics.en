@@ -17,10 +17,8 @@ An Analysis Workspace project is created that contains several panels. At the to
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
-* **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics. 
+* **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
 * **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
-  * Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
   * Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
   * Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
   * Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.

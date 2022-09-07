@@ -65,7 +65,7 @@ The segment appears at the top. Notice its blue-striped sidebar, as opposed to t
 ## Save quick segments
 
 >[!IMPORTANT]
->Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder.
+>Once you save or apply the segment, you can no longer edit it in the Quick Segment Builder, only in the regular Segment Builder. Only Adobe Analytics product admins and the creator of the quick segment are able to save changes to an existing quick segment. 
 
 1. Once you have applied the quick segment, hover over it and select the info ("i") icon.
 

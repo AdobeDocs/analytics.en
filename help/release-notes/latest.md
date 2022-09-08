@@ -8,6 +8,10 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 **Last update**: September 6, 2022
 
+>[!NOTE]
+>
+>This page contains pre-release content and is subject to change.
+
 ## Related resources
 
 * [Previous release notes for 2022](/help/release-notes/2022.md)

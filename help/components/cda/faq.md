@@ -26,7 +26,7 @@ CDA's cross-device stitching occurs in two concurrent processes.
 
 * The second process is called "replay." During replay, CDA goes backwards in time and restates historical data, where possible, within a specified lookback window. This lookback window is either 1 day or 7 days, depending on how you requested CDA to be configured. During replay, CDA attempts to restate hits where the person was previously unknown.
 
-* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
+* **If using a device graph**, Adobe keeps Device Graph mappings for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected; subsequent hits for that ECID are treated as a new person.
 
 ## How does CDA handle timestamped hits?
 
@@ -98,11 +98,11 @@ CDA pulls the identifier variable dimension items before they are optimized for 
 
 ## How many of my company's report suites can be enabled for CDA?
 
-Multiple report suites may be enabled, however each additional report suite will increase the overall provisioning time if multiple report suites are requested at once. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.)
+Effective May 1, 2022, any new implementation of CDA will be limited to a maximum of three report suite IDs (RSIDs) per customer. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.).
 
-## If my Experience Cloud org (a.k.a IMS org) has multiple companies in different regions, can I enable CDA for all of them?
+## If my organization ID has multiple companies in different regions, can I enable CDA for all of them?
 
-No. For the same org, only one region can have CDA enabled.
+No. For the same organization ID, only one region can have CDA enabled.
 
 ## What are the advantages and disadvantages of a 7-day replay versus a 1-day replay?
 

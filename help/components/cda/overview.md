@@ -31,7 +31,7 @@ See the [Journey IQ: Cross-Device Analytics Spark page](https://adobe.ly/aacda) 
 The use of CDA requires all of the following. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific prerequisites.
 
 * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
-* Please note that CDA will be enabled (on request) on a per-report-suite basis. Adobe recommends a report suite that contains cross-device data, meaning data from multiple device/browser/app types. Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
+* Your organization chooses which report suites to enable CDA. Adobe recommends report suites that contains cross-device data, meaning data from multiple device/browser/app types. Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
 
 ## Limitations
 

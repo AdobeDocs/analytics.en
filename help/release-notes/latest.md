@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (September 2022)
 
-**Last update**: September 6, 2022
+**Last update**: September 8, 2022
 
 >[!NOTE]
 >

@@ -14,9 +14,9 @@ Plug-ins are snippets of code that perform several advanced functions to help yo
 
 Adobe offers several ways to install a given plug-in:
 
-1. Use the 'Common Analytics Plugins' extension using tags in Adobe Experience Platform
-2. Paste plug-in code using the custom code editor
-3. Paste the plug-in code in your `AppMeasurement.js` file
+<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
+1. Paste plug-in code using the custom code editor
+1. Paste the plug-in code in your `AppMeasurement.js` file
 
 Each organization has different implementation needs, so you can decide how you want to include them in your implementation. Make sure that you meet the following criteria when including the code on your site:
 

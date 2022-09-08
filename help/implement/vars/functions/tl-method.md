@@ -10,20 +10,42 @@ The `tl()` method is an important core component to Adobe Analytics. It takes al
 
 If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExternalLinks`](../config-vars/trackexternallinks.md) are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
 
-## Link tracking call using tags in Adobe Experience Platform
+## Link tracking using the Web SDK
 
-The Data Collection UI has a dedicated location set a link tracking call.
+The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given XDM event as a link tracking call, make sure that your XDM data includes or is mapped to `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired property.
+* Link name maps to `web.webInteraction.name`.
+* Link URL maps to `web.webInteraction.URL`.
+* Link type maps to `web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
+
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Link tracking using the Adobe Analytics extension
+
+The Adobe Analytics extension has a dedicated location to set a link tracking call.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the '+' icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. Under [!UICONTROL Actions], click the desired action or click the **'+'** icon to add an action.
+1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
 1. Click the `s.tl()` radio button.
 
-You cannot set any optional arguments in the Data Collection UI.
+You cannot set any optional arguments in the Analytics extension.
 
-## s.tl() method in AppMeasurement and custom code editor
+## s.tl() method in AppMeasurement and the Analytics extension custom code editor
 
 Call the `s.tl()` method when you want to send a tracking call to Adobe.
 

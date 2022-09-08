@@ -21,7 +21,7 @@ Interactive controls were created in response to a common workflow where analyst
 >* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not tamper with the name of the control. (To see the name, set the focus on the control and the control name appears right above the Excel grid, in the upper left corner.)
 

@@ -12,12 +12,16 @@ AppMeasurement automatically collects the page URL in each hit. If you want to o
 >
 >This variable is not an available dimension in Analysis Workspace. It is only available in Data Warehouse and Data Feeds. Additionally, Adobe data collection servers strip this dimension from all [link tracking](/help/implement/vars/functions/tl-method.md) image requests. If you want to use page URL as a dimension in Analysis Workspace or want this dimension in link tracking hits, consider passing the `pageURL` variable into an [eVar](evar.md) on every hit.
 
-## Page URL using tags in Adobe Experience Platform
+## Page URL using the Web SDK
 
-The Data Collection UI automatically populates page URL. However, you can set the page URL override either while configuring the Analytics extension (global variables) or under rules.
+Page URL is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.URL`.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
+## Page URL using the Adobe Analytics extension
+
+The Analytics extension in Adobe Experience Platform Data Collection automatically populates page URL. However, you can set the page URL override either while configuring the Analytics extension (global variables) or under rules.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
 3. Go to the **[!UICONTROL Rules]** tab, then click the desired rule (or create a rule).
 4. Under **[!UICONTROL Actions]**, click an existing **[!UICONTROL Adobe Analytics - Set Variables]** action or click the '+' icon.
 5. Set the **[!UICONTROL Extension]** dropdown to Adobe Analytics, and the **[!UICONTROL Action Type]** to **[!UICONTROL Set Variables]**.
@@ -25,7 +29,7 @@ The Data Collection UI automatically populates page URL. However, you can set th
 
 You can set page URL to any string value.
 
-## s.pageURL in AppMeasurement and custom code editor
+## s.pageURL in AppMeasurement and the Analytics extension custom code editor
 
 The `s.pageURL` variable is a string that contains the URL of the page. AppMeasurement automatically collects this variable, however you can override its value if desired.
 

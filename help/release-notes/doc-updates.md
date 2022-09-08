@@ -17,6 +17,29 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Date | Description |
 | --- | --- |
+| **June 2022** |  |
+| Merchandising variables in XDM for Edge Collection |  Documentation on [support for Merchandising variables in XDM for Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
+| Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), and [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
+| Updated Flow visualization documentation | Based on the [new UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Documentation on product syntax version of Merchandising Variables with Edge Collection | You can now set merchandising variables using the equivalent of the product syntax by setting the relevant XDM fields. Find more detail about product syntax for merchandising variables [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). See the mappings for product syntax [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **May 2022** | |
+| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge will now appear in Analytics reporting. See documentation for details on which XDM fields map to existing mobile Lifecycle reporting. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
+| **April 2022** | |
+| Adobe Analytics landing page updates | Updates to the joint [Workspace/Reports & Analytics landing page](/help/analyze/landing.md) that improves usability and ease of navigation. |
+| New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| New topic on [!UICONTROL Next/Previous item] panel | [Next/previous dimension item panel](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
+| **March 2022** | |
+| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to “High”. |
+| New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |
+| Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
+| [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
+| [!UICONTROL Page Summary] Workspace panel | This panel provides a deep-dive analysis for a page of your choosing. |
+| New topic on pausing older scheduled reports | Effective **April 15, 2022**, Adobe intends to [pause all scheduled reports that have a creation date greater than two years](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **February 2022** | 
+| Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) allows you to preview the experience before you save and share a scorecard.  |
+| API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
+| Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **October 2021** |  |
 | October 21, 2021 | New documentation on [Quick Segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | October 21, 2021 | New documentation on the [Media Playback Time Spent](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) panel in Analysis Workspace. |
@@ -136,7 +159,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 13, 2019 | Added new out-of-the-box filters to the left rail search in Workspace. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. |
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+| May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 | April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |

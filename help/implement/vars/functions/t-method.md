@@ -30,18 +30,40 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe receives the image request, then parses the request header, URL, and query string parameters. Data collection servers then return a transparent 1x1 pixel image, invisibly displayed on your site.
 
-## Page view tracking call using tags in Adobe Experience Platform
+## Send event using the Web SDK extension
 
-The Data Collection UI has a dedicated location set a page view tracking call.
+Use an Action to configure sending XDM event data to Adobe. The Datastream receives this data, applies any configured mappings, and forwards that data to Adobe Analytics if it is an added service to that Datastream.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the '+' icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.t()` radio button.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+1. Under [!UICONTROL Actions], click the desired Action or click the **'+'** icon to add an action.
+1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**.
 
-## s.t() method in AppMeasurement and custom code editor
+## Send event manually implementing the Web SDK
+
+Use the `sendEvent` command to send data to Adobe. The Datastream receives this data, applies any configured mappings, and forwards that data to Adobe Analytics if it is an added service to that Datastream.
+
+```js
+alloy("sendEvent", {
+  "xdm": {}
+});
+```
+
+See [Track events](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) in the Web SDK documentation for more information.
+
+## Page view tracking call using the Adobe Analytics extension
+
+The Adobe Analytics extension in Adobe Experience Platform Data Collection has a dedicated location set a page view tracking call.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+1. Under [!UICONTROL Actions], click the desired action or click the **'+'** icon to add an action.
+1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
+1. Click the `s.t()` radio button.
+
+## s.t() method in AppMeasurement and the Analytics extension custom code editor
 
 Call the `s.t()` method when you want to send a tracking call to Adobe.
 

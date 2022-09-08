@@ -8,7 +8,7 @@ exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
 ---
 # Analytics Reporting API
 
-Documentation for the Adobe Analytics APIs are on [Adobe I/O](https://developer.adobe.com/analytics-apis/docs/2.0/).
+Documentation for the Adobe Analytics APIs are on [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/).
 
 ## Comparison of Analytics APIs
 

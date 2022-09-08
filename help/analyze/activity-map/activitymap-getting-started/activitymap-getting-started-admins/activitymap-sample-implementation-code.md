@@ -1,5 +1,5 @@
 ---
-description: Implement Activity Map using tags in Adobe Experience Platform.
+description: Implement Activity Map using the Adobe Analytics extension.
 title: Implement Activity Map
 feature: Activity Map
 role: User, Admin

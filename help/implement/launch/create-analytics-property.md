@@ -16,7 +16,7 @@ Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions 
 
 Properties are overarching containers you use to manage tags. Extensions let you install product-specific tags and configure them.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click **[!UICONTROL New Property]**.
 1. Give your Property a name, such as the title of your website, and enter the domain you intend to implement Analytics on. Click **[!UICONTROL Save]**.
 1. Click your newly created tag property to enter its settings.
@@ -31,7 +31,7 @@ See the full documentation for the [Adobe Analytics extension](https://experienc
 
 Data elements are references to specific parts of your site to collect variable values.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property that you intend to implement on your site.
 1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Add Data Element]**.
 1. Give the data element the following settings:
@@ -52,7 +52,7 @@ Data elements are references to specific parts of your site to collect variable 
 
 Rules map data elements to Analytics variable values, and determine when those values are sent to Adobe's servers.
 
-1. Log in to the [Data Collection UI](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property that you intend to implement on your site.
 1. Click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Add Rule]**. Name it `Global Rule`.
 1. Click **[!UICONTROL Add]** next to events, and enter the following settings:

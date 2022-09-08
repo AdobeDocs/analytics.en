@@ -29,6 +29,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
       + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
+      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -37,7 +38,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + Segments {#segments}
       + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
-      + [Ad-hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
+      + [Ad hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -64,22 +65,23 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
-      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-      + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
+      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-    + [Histogram](analysis-workspace/visualizations/histogram.md)
-    + [Map](analysis-workspace/visualizations/map-visualization.md)
-    + [Venn](analysis-workspace/visualizations/venn.md)
     + [Area and area stacked](analysis-workspace/visualizations/area.md)
     + [Bar and bar stacked](analysis-workspace/visualizations/bar.md)
     + [Bullet graph](analysis-workspace/visualizations/bullet-graph.md)
+    + [Combo chart](analysis-workspace/visualizations/combo-charts.md)
     + [Donut](analysis-workspace/visualizations/donut.md)
+    + [Histogram](analysis-workspace/visualizations/histogram.md)
     + [Horizontal Bar and Horizontal Bar Stacked](analysis-workspace/visualizations/horizontal-bar.md)
+    + [Key metric summary](analysis-workspace/visualizations/key-metric.md)
     + [Line](analysis-workspace/visualizations/line.md)
+    + [Map](analysis-workspace/visualizations/map-visualization.md)    
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
     + [Tree map](analysis-workspace/visualizations/treemap.md)
+    + [Venn](analysis-workspace/visualizations/venn.md)
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
@@ -92,6 +94,8 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Overview](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
       + [Input and Output Settings](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
       + [FAQs](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+    + [Next or previous item panel](analysis-workspace/c-panels/next-previous.md)
+    + [Page summary panel](analysis-workspace/c-panels/page-summary.md)
     + [Quick Insights panel](analysis-workspace/c-panels/quickinsight.md)
     + Segment comparison panel {#segment-comparison}
       + [Segment comparison overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -292,6 +296,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
+  + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)
   + [Report types](reports-analytics/reports.md)
   + [Run different report types](reports-analytics/t-running-report-types.md)
   + Customize reports {#customize-reports}

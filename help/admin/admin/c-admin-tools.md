@@ -6,9 +6,9 @@ exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 ---
 # Admin Tools
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
 

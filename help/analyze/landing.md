@@ -7,26 +7,18 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 
-The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, an updated reports menu, modernized reports, and a learning section to help you with getting started more effectively.
-
->[!IMPORTANT]
->
->This landing page is currently in Open Beta. It is an optional starting point. If you prefer, you may use your existing landing page, whether that is [!UICONTROL Workspace] or [!UICONTROL Reports]. If you do decide to opt in to the beta program, access the page and click **[!UICONTROL Provide feedback]** at the top of the screen to log your feedback and any bugs you may encounter. You can opt out of and back in to the beta program at any time. Any work done in the beta user interface carries over into the existing/current [!UICONTROL Workspace] experience.
+The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, an updated reports menu, modernized reports, and a learning section to help you with getting started more effectively. Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## New landing page features
-
->[!NOTE]
->
->These additions and changes are currently [in limited testing](/help/release-notes/releases.md).
+## New landing page features {#new-features}
 
 | Feature | Description | Screenshot |
 | --- | --- | --- |
 | Expand [!UICONTROL Projects] table to full screen | To expand the table, just click the hamburger menu icon. This action will collapse the left-rail tabs. | ![Expand table](assets/landing-collapse.png) |
 | Customize column width | Previously, the column width was fixed. Now you can adjust it by dragging the column separator. |   |
 | Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select **[!UICONTROL Move up]** or **[!UICONTROL Move down]**. | ![Move pinned items](assets/move-up-down.png) |
-| New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: A higher number of project queries increases project complexity and may increase processing and load times.</li></ul> | ![New columns](assets/new-columns.png)  |
+| New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: The total number of requests made to Analytics when the project loads. A higher number of project queries increases project complexity and may increase processing and load times. This data is available only after a project has loaded or a scheduled project was sent. </li></ul> | ![New columns](assets/new-columns.png)  |
 | Single click to open a report | Previously, you had to double click. |  |
 | New links to **[!UICONTROL Reports & Analytics]** reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![New links](assets/report-links.png) |
 | New out-of-the-box reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Note that these reports are in [!UICONTROL Workspace] format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
@@ -41,14 +33,14 @@ After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL
 
 ![Landing](assets/landing.png)
 
-## Menu structure
+## Top menu structure {#top-menu}
 
 ![Top menu](assets/top-menus.png)
 
 * Top Analytics menu: Most reports are now in the [!UICONTROL Reports] menu in the left rail.
 * The left rail has three tabs: [!UICONTROL Projects], [!UICONTROL Reports], and [!UICONTROL Learning].
 
-### Terminology
+### Terminology 
 
 * **[!UICONTROL Projects]** are things that you have built or that someone else has built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 * **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics and templates in Workspace.
@@ -90,7 +82,7 @@ After you log in to Adobe Experience Cloud and Analytics, enable the [!UICONTROL
 | Customize table icon | (Top right) If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
 | < (Back button) | This button in a Workspace project or a report takes you back to your most recent landing page configuration. Whatever page configuration you had when you left the landing page will persist when you return. |
 
-## Navigate the [!UICONTROL Reports] tab {#navigate-reports}
+## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
 
 The [!UICONTROL Reports] tab consolidates three sets of reports:
 
@@ -106,7 +98,7 @@ The [!UICONTROL Reports] tab consolidates three sets of reports:
 
 As previously mentioned, only the most commonly used reports that were formerly grouped in Reports & Analytics are available here. A handful of rarely used or no-longer-relevant reports were not migrated over. See the FAQ below for more detail.
 
-### Menus and submenus
+### Menus and submenus {#menus}
 
 Here are the menus and their submenus. If you cannot find a specific report, do a "Search on page" to find it.
 
@@ -119,7 +111,7 @@ Here are the menus and their submenus. If you cannot find a specific report, do 
 | **[!UICONTROL Acquisition]** |<ul><li>Marketing channels > First touch channel, First touch channel detail (Which first touch channel, and which specific first touch channel is performing best?)</li><li>Marketing channels > First last channel, First last channel detail (Which last touch channel, and which specific last touch channel is performing best?)</li><li>Campaigns > Campaigns (Which campaigns are driving my key metrics?)</li><li>Campaigns > Campaign performance (What campaigns are driving the most revenue?)</li><li>Campaigns > Tracking code (Which campaign tracking codes perform the best?)</li><li>[Web acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#web)</li><li>[Mobile acquisition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: paid search](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#advertising)</li><li>Search keywords - all, paid, natural (Which search keywords and paid/natural search keywords drive my key metrics the best?)</li><li>Search engines - all, paid, natural (Which search engines and paid/natural search engines drive my key metrics the best?)</li><li>All search page ranking (Which search page are my users visiting from?)</li><li>Referring domains (Which domains are driving traffic to my site?)</li><li>Original referring domains (What was the first domain users were on before visiting my site?)</li><li>Referrers (Which URLs were my users on before clicking through to my site?)</li><li>Referrer types (Which category do my referring URLs belong to?)</li></ul> |
 | **[!UICONTROL Company reports]** | Reports that your company created for your use. See "Create a Company report" below. |
 
-### Location of templates (now called reports)
+### Location of templates (now called reports) {#templates}
 
 | Report (template) name | Report location |
 | --- | --- |
@@ -146,7 +138,7 @@ Here are the menus and their submenus. If you cannot find a specific report, do 
 | Web Acquisition | Acquisition > Web Acquisition |
 | Advertising Analytics: Paid Search | Acquisition > Advertising Analytics: Paid Search |
 
-### Use the Reports tab
+### Use the Reports tab {#use-reports}
 
 For current users of Reports & Analytics, here is a short intro on how to use the reports you are used to and that now display within Workspace. Reports act like existing templates: if you make changes to them, you get prompted to save/discard your changes when navigating away or to a different report. And if you do want to save changes, it saves the report as a new project.
 
@@ -164,7 +156,7 @@ For current users of Reports & Analytics, here is a short intro on how to use th
    * You can change the date range by going to the calendar at the top right.
    * You can add dimension breakdowns, drag in other metrics, and generally customize the report in any way you wish.
 
-### Create a (custom) Company report
+### Create a (custom) Company report {#company-report}
 
 Custom reports are called Company Reports and are found in the Company Reports menu (see below). Any previously created ones and any new ones are listed here.
 
@@ -193,6 +185,22 @@ The Learning page contains hands-on video tours and tutorials, plus links to doc
 * The [!UICONTROL Workspace Fundamentals] Tour takes you directly to Workspace and walks you through the Workspace layout and where to find/perform the most common actions. This Tour can also be relaunched any time directly in Workspace via the tool tip pop-over from the panel header.
 * Clicking a video/tour adds a **[!UICONTROL Viewed]** tag. This tag helps you track your progress through the learning content. You can click the tag and it disappears, in case you have not completed the content yet.
 * The **[!UICONTROL Learn more]** button on the video modal takes you to an Adobe Experience League documentation page with more help content related to the video you just watched.  **[!UICONTROL View more videos]** takes you to the full Analysis Workspace YouTube playlist.
+
+## Set you landing page {#set-landing}
+
+Users can set their preferred landing page.
+
+1. Go to Analytics > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL General].
+1. Check which landing page you would prefer:
+
+   ![Set landing page](assets/landing-pref.png)
+
+## Hide Report tab {#hide-reports}
+
+Admins can hide the Reports tab for all users within their organization.
+
+1. Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL Company].
+1. Check **[!UICONTROL Hide Reports Tab]**.
 
 ## Landing page FAQ {#landing-faq}
 

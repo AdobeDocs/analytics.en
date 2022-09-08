@@ -31,7 +31,6 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Compare dates to previous ranges](event/compare-dates.md)
   + [Derive data impacted by events](event/calcmetrics.md)
   + [Communicate events to users](event/communicate.md)
-  + [Intelligent Data Smoothing](event/intelligent-data-smoothing.md)
 + Cookies {#cookies}
   + [Browser cookies](cookies/cookies.md)
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
@@ -48,6 +47,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + Regional Data Collection {#rdc}
   + [Regional data collection help](rdc/regional-data-collection.md)
   + [SSL certification licensing](rdc/ssl-cert-licensing.md)
+  + [Supported HTTPS encryption algorithms](rdc/encryption-algos.md)
 + [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)

@@ -12,11 +12,15 @@ When Adobe recognizes a hit as a duplicate purchase, all conversion data (such a
 
 Purchase ID's apply to all visitors and do not expire. If one visitor sets a given purchase ID, then a different visitor sets that same purchase ID a year later, the second purchase is de-duplicated.
 
-## Purchase ID using tags in Adobe Experience Platform
+## Purchase ID using the Web SDK
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+Purchase ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.purchaseID`.
 
-## s.purchaseID in AppMeasurement and custom code editor
+## Purchase ID using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.purchaseID in AppMeasurement and the Analytics extension custom code editor
 
 The `s.purchaseID` variable is a string that contains a unique identifier to a purchase. It is set on the same hit as a purchase event. Only use alpha-numeric characters to populate this variable.
 

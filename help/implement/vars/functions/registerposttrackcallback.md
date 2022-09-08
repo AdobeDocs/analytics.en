@@ -8,7 +8,7 @@ exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 
 The `registerPostTrackCallback` variable allows your organization to hook a JavaScript function immediately after a hit is successfully sent to Adobe. If a tracking call fails, this function does not run. You can use this variable to send data collected by AppMeasurement to a partner or in-house infrastructure, or clean up variable values in single-page applications.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
 
@@ -18,11 +18,29 @@ Each time you call the `registerPostTrackCallback` variable, you hook that funct
 >
 >The timing and order of functions fired between [`registerPreTrackCallback`](registerpretrackcallback.md) and `registerPostTrackCallback` are not guaranteed. Avoid dependencies between these two functions.
 
-## Register Post Track Callback using tags in Adobe Experience Platform
+## Post-track Callback using the Web SDK extension
 
-There is not a dedicated field in the Data Collection UI to use this variable. Use the custom code editor, following AppMeasurement syntax.
+Coming soon!
 
-## s.registerPostTrackCallback in AppMeasurement and custom code editor
+## Post-track Callback manually implementing the Web SDK
+
+You can use a JavaScript Promise when sending an event to register a function after data is successfully sent to Adobe.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+See [Handling responses from events](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in the Web SDK documentation for more information.
+
+## Register Post-track Callback using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.registerPostTrackCallback in AppMeasurement and the Analytics extension custom code editor
 
 The `s.registerPostTrackCallback` is a function that takes a function as its only argument. The nested function runs immediately after an image request is successfully sent.
 

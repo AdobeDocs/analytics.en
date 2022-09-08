@@ -11,13 +11,20 @@ The [!UICONTROL Scheduled Task Manager] lets you see a list of existing schedule
 
 ## Pausing older scheduled tasks 
 
-**Effective April 15, 2022**, Adobe intends to pause all scheduled Report Builder tasks that were created more than two years ago. Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.
+On April 21, 2022, we rolled out changes to scheduled tasks in Report Builder as part of our performance and delivery optimization efforts. These changes included removing the ability to have scheduled deliveries “end after x occurrences.” In response to several customer requests seeking more time to explore and implement alternatives, we have decided to restore this option in a limited fashion until **Jan 31, 2023**. 
+
+You will continue to be able to schedule hourly Report Builder tasks and have them end after a maximum of 99 occurrences. Please note that the rollback only applies to hourly tasks; the “end after x occurrences” will remain unavailable for all other delivery intervals (daily, weekly, monthly, and yearly). 
+
+Please note that this option will be deprecated on January 31, 2023. 
+For more questions or support, please reach out to Adobe Customer Care.
+
+Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.
  
 Any tasks that you wish to resume sending can be reactivated. Log in to Report Builder and launch the [!UICONTROL Scheduled Task Manager]. Click **[!UICONTROL Reactivate]** for the scheduled task you would like to resume sending. Any task that gets reactivated will have a default expiration of 18 months - unless a shorter expiration date is chosen.
  
 In addition, any task with a creation date of less than two years, and with no current expiration date (or with an expiration date longer than two years) will have a default 18-month expiration date applied to it. The new expiration date will be October 15, 2023. You can edit this expiration date to be less than 18 months, but not greater. At the time of expiration, the task will be paused. However, you can reactivate the task with a new 18-month expiration date. No tasks, workbooks or data will be deleted.
  
-The purpose of this pause is to effectively manage and maintain our scheduled tasks database to ensure optimal performance and delivery for needed tasks and workbooks. This will serve as our new governance policy moving forward. After April 15, 2022, all tasks will have a maximum expiration date of 18 months. After 18 months, expired tasks will be paused and can be reactivated as needed. 
+The purpose of this pause is to effectively manage and maintain our scheduled tasks database to ensure optimal performance and delivery for needed tasks and workbooks. This will serve as our new governance policy moving forward. After Jan 31, 2023, all tasks will have a maximum expiration date of 18 months. After 18 months, expired tasks will be paused and can be reactivated as needed. 
 
 ## Configure scheduled tasks
 

@@ -1,6 +1,6 @@
 ---
 description: Frequently asked questions around segmentation.
-title: Frequently Asked Questions
+title: Frequently Asked Questions for segmentation
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 ---

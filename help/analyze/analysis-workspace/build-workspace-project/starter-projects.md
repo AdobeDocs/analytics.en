@@ -117,30 +117,24 @@ Here is a video on the [!UICONTROL Training Tutorial] template:
 
 ### People
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html).
+This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you:
 
-This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
-
-* Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
-* Compare the People and Unique Visitors metrics side by side.
-* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors.
-* Compare the device type totals your customers use 
-* See how many average devices per person are used.
-* Discover how to use segment stacking with the People metric.
-* Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
+* Segment your data for US/Canada vs. the rest of the world
+* Compare the People and Unique Visitors metrics side by side
+* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors
+* Compare the device type totals your customers use
+* See how many average devices per person are used
+* Discover how to use segment stacking with the People metric
+* Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric
 
 ### Journey IQ: Cross-Device Analytics template
 
 <!--This content is mirrored in the CDA doc.-->
 
-This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA). 
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
 
-* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
 * **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
 * **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
-  * **Using the Co-op graph or Private graph**: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
   * **Log-in rate**: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
   * **Experience Cloud ID coverage**: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
   * **Multiple device usage**: If visitors to your site don't use multiple devices, you can see lower compression rates.

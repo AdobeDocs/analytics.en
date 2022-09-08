@@ -60,11 +60,11 @@ Drag and drop any segment from the left rail into the panel drop zone to begin f
 
 ![](assets/segment-filter.png)
 
-### Ad-hoc segment filters
+### Ad hoc segment filters
 
-Non-segment components can also be dragged directly into the drop zone to create ad-hoc segments, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+Non-segment components can also be dragged directly into the drop zone to create ad hoc segments, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
 
-Ad-hoc segments are local to the project and do not show up in your left rail unless you make them public.
+Ad hoc segments are local to the project and do not show up in your left rail unless you make them public.
 
 ![](assets/adhoc-segment-filter.png)
 

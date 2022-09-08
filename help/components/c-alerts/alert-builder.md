@@ -1,6 +1,6 @@
 ---
 description: Use alerts in Analysis Workspace.
-title: Alert Builder
+title: Alert Builder overview
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 ---

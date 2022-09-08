@@ -9,6 +9,7 @@ Cross-Device Analytics (CDA) is a feature that transforms Analytics from a devic
 
 * [**Field-based stitching**](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.
 Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite.
+
 * [**Device graph**](device-graph.md): CDA communicates with a private graph to stitch devices together.
 
 Using CDA, you can answer questions such as:

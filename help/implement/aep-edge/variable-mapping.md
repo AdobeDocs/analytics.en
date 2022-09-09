@@ -100,6 +100,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `placeContext.geo.longitude` | The Mobile dimension Longitude. |
 | `placeContext.geo.postalCode` | The [Zip Code](../../components/dimensions/zip-code.md) dimension. |
 | `placeContext.geo.stateProvince` | The [US States](../../components/dimensions/us-states.md) dimension. |
+| `placeContext.localTime` | Sets the client timezone information in reporting. Also appears as t_time_info in [data feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en) |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applies [product syntax](../vars/page-vars/products.md) merchandising to eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applies [product syntax](../vars/page-vars/products.md) merchandising to events. |
 | `productListItems[].lineItemId` | The [Category](../../components/dimensions/category.md) dimension. See also the [products](../vars/page-vars/products.md) page variable. |

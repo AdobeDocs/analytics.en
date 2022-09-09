@@ -4,9 +4,13 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (August 2022)
+# Current Adobe Analytics release notes (September 2022)
 
-**Last update**: September 6, 2022
+**Last update**: September 9, 2022
+
+>[!NOTE]
+>
+>This page contains pre-release content and is subject to change.
 
 ## Related resources
 
@@ -19,18 +23,17 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Support for List Variables in XDM for Edge Collection | Enables customers collecting data via Experience Edge/Web SDK to use XDM to specify the List Variable contents. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk)| August 18, 2022 |
-| Use of SKU field in XDM for Edge Collection when setting product string Variables | Enables customers collecting data via Experience Edge/Web SDK to use the SKU value to set the product field in the products variable. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | August 18, 2022 |
+| Combo Charts visualization in Workspace | Combo charts let you compare metrics more easily and intuitively within Workspace. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html)| September 14, 2022 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed several data-feed-related issues. (AN-297264, AN-297295, AN-297449)
+* Fixed issues with Classifications import and export. (AN-299267)
 
 **Fixes for individual customers**: 
 
-AN-274281; AN-280956; AN-285670; AN-288176; AN-289221; AN-289665; AN-289768; AN-294632; AN-294970; AN-295078; AN-295233; AN-295482; AN-295549; AN-295633; AN-295712; AN-295749; AN-295963; AN-295977; AN-296094; AN-296153; AN-296167; AN-296177; AN-296297; AN-296383; AN-296394; AN-296414; AN-296431; AN-296459; AN-296486; AN-296510; AN-296514; AN-296540; AN-296734; AN-296840; AN-296841; AN-296977; AN-296987; AN-297002; AN-297141; AN-297158; AN-297267; AN-297396; AN-297397; AN-297522; AN-297704; AN-297705; AN-297829; AN-297895; 
+AN-288519; AN-289300; AN-297387; AN-297465; AN-297520; AN-297641; AN-298134; AN-298351; AN-298429; AN-298483; AN-298520; AN-298582; AN-298816; AN-298832; AN-298855; AN-298864; AN-299407; AN-299545; AN-299644; AN-299715
 
 ## Important notices for Adobe Analytics administrators
 

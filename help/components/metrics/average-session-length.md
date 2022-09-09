@@ -6,7 +6,7 @@ exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 ---
 # Average session length (mobile)
 
-The 'Average session length (mobile)' metric shows the average amount of time a given dimension item is present per dimension item. It is similar to the [Average time on site](average-time-on-site.md) metric, except this metric uses mobile SDK specific components as part of its calculation.
+The 'Average session length (mobile)' metric shows the average amount of time a given dimension item is present per dimension item. It is similar to the [Time spent per visit [seconds]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) metric, except this metric uses mobile SDK specific components as part of its calculation.
 
 ## How this metric is calculated
 

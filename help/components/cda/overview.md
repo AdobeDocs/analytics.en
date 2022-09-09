@@ -5,15 +5,12 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 ---
 # Cross-Device Analytics
 
-Cross-Device Analytics is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
+Cross-Device Analytics (CDA) is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 
 * [**Field-based stitching**](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.
 Allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite.
-* [**Device graph**](device-graph.md): CDA communicates with a device graph to stitch devices together. The co-op graph uses both deterministic and probabilistic matching.
 
->[!NOTE]
->
->Read more about the [Device Co-op end-of-life](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
+* [**Device graph**](device-graph.md): CDA communicates with a private graph to stitch devices together.
 
 Using CDA, you can answer questions such as:
 
@@ -34,7 +31,7 @@ See the [Journey IQ: Cross-Device Analytics Spark page](https://adobe.ly/aacda) 
 The use of CDA requires all of the following. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific prerequisites.
 
 * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
-* Cross-Device Analytics is enabled on a per-report-suite basis. Adobe recommends a report suite that contains cross-device data, meaning data from multiple device types (web, app, etc). Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
+* Your organization chooses which report suites to enable CDA. Adobe recommends report suites that contains cross-device data, meaning data from multiple device/browser/app types. Some organizations refer to this concept as a "global" report suite, although CDA does not strictly have to be global from a geographic perspective. 
 
 ## Limitations
 

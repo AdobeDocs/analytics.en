@@ -18,7 +18,7 @@ If you have a [solution design document](/help/implement/prepare/solution-design
 
 ## Props using the Web SDK
 
-Props are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+Props are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. Note that list props are specified in a separate set of fields. See below for details.
 
 ## Props using the Adobe Analytics extension
 
@@ -53,7 +53,11 @@ Enable list props in report suite settings. See [Traffic variables](/help/admin/
 >
 >Common delimiters used in implementations are a comma (`,`), colon (`:`), semicolon (`;`), or pipe (`|`). You can use any delimiter that best fits your implementation.
 
-### Set list props
+### Set list props using Web SDK
+
+List props are recorded in different XDM fields than those for regular props. List props should be recorded in stored in using `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. There is no need to set a delimiter in XDM. Analytics will use the delimiter provided in report suite settings. If you do set the delimiter in the XDM field (e.g. `_experience.analytics.customDimensions.props.prop1.delimiter), that will take precedence over the value in report suite settings and can lead to incorrect parsing of the list prop string.
+
+### Set list props using AppMeasurement
 
 Once you configure list props in report suite settings with the desired delimiter, there are no implementation differences other than using the delimiter.
 

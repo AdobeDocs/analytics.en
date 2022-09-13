@@ -12,11 +12,11 @@ Before implementing events, make sure that you create and configure them under [
 
 ## Events using the Web SDK
 
-Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the following XDM fields. Note that if events are set under productListItems (e.g. productListItems._experience.analytics.event1.value) an entry in the event string will also be added, unless one is already specified:
+Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the following XDM fields:
 
 * Custom events 1-100 are mapped to `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Custom events 101-200 are mapped to `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* This pattern repeats every 100 events to `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` is used to specify the value. `eventx.id` is used to specify the id for serialization.
+* This pattern repeats every 100 events to `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` is used to specify the amount to increment. `eventx.id` is used for [serialization](event-serialization.md).
 * Orders are mapped to `commerce.purchases.value`.
 * Units are mapped to the sum of all `productListItems[].quantity` fields.
 * Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.
@@ -26,6 +26,10 @@ Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.co
 * Cart Removals are mapped to `commerce.productListRemovals.value`.
 * Cart Views are mapped to `commerce.productListViews.value`.
 * Checkouts are mapped to `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>If an event is set under `productListItems` (for example, `productListItems._experience.analytics.event1.value`) and that event is not yet in this field, that event is automatically added to this field.
 
 ## Events using the Adobe Analytics extension
 

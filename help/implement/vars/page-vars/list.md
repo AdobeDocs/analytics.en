@@ -20,7 +20,7 @@ Make sure that you configure each list variable in report suite settings before 
 
 ## List variables using the Web SDK
 
-List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter. It will be automatically included using the value specified in [report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md). For example, if comma is configured as the delimiter for list variable 1, the following XDM object would populate the list1 variable with "Example value 1,Example value 2,Example value 3".
+List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter. It will be automatically included using the value specified in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md). For example, if a comma ('`,`') is configured as the delimiter for list variable 1, the following XDM object would populate the `list1` variable with `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {

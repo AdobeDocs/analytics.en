@@ -110,8 +110,8 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 
 | Location | Host |
 | --- | --- |
-| China | `140.179.89.228` |
-| China | `140.179.125.98` |
+| China | `52.80.83.220` |
+| China | `71.132.16.253` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
@@ -124,3 +124,21 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Virginia | `3.216.131.23` |
 | Virginia | `34.204.237.47` |
 | Virginia | `54.163.234.74` |
+
+The following table includes AWS IPv6 address blocks used by Adobe. These hosts are **not** included in the aggregate block range above.
+
+| Location | Host |
+| --- | --- |
+| India | `2406:da1a:f34:6a00::/56` |
+| Ireland | `2a05:d018:309:600::/56` |
+| Oregon | `2600:1f14:1eb:7d00::/56` |
+| Oregon | `2600:1f14:9d3:2b00::/56` |
+| San Francisco | `2600:1f1c:366:d900::/56` |
+| Singapore | `2406:da18:6e8:1e00::/56` |
+| Sydney | `2406:da1c:406:1a00::/56` |
+| Sydney | `2406:da1c:ce5:b400::/56` |
+| Tokyo | `2406:da14:b07:ab00::/56` |
+| Virginia | `2600:1f18:1a20:e800::/56` |
+| Virginia | `2600:1f18:4fd:6000::/56` |
+| Virginia | `2600:1f18:d1f:bd00::/56` |
+| Virginia | `2600:1f18:b00:e100::/56` |

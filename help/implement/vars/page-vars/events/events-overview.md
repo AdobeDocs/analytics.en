@@ -47,7 +47,7 @@ Several features are available:
 * A dropdown allows you to select the event to include
 * An optional text field for serialization. See [event serialization](event-serialization.md) for more information.
 * An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
-* A button to add another event. There is not a reasonable limit to the number of events that you can include in a hit.
+* A button to add another event. You can add as many events as you'd like to a single rule within reason.
 
 ## s.events in AppMeasurement and the Analytics extension custom code editor
 

@@ -45,7 +45,7 @@ Product syntax merchandising variables are [mapped for Adobe Analytics](https://
 
 >[!NOTE]
 >
->When you set events under `productListItems`, you do not need to set them the event string. If they are set in both places, the value in the event string takes precedence.
+>When you set events under `productListItems`, you do not need to set them in the event string. If they are set in both places, the value in the event string takes precedence.
 
 The following example shows a single [product](products.md) using multiple merchandising eVars and events:
 

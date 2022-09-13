@@ -57,7 +57,7 @@ Enable list props in [Traffic variables](/help/admin/admin/c-traffic-variables/t
 
 Once you configure list props in report suite settings with the desired delimiter, list props are mapped for Adobe Analytics under `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. The Web SDK automatically uses the correct delimiter listed under report suite settings. If you set the delimiter in the XDM field (for example, `_experience.analytics.customDimensions.props.prop1.delimiter`), that overrides the delimiter automatically retrieved from report suite settings and can lead to incorrect parsing of the list prop string.
 
-### Set list props using AppMeasurement
+### Set list props using the Adobe Analytics extension and AppMeasurement
 
 Once you configure list props in report suite settings with the desired delimiter, there are no implementation differences other than using the delimiter.
 

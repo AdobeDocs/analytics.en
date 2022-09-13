@@ -21,7 +21,7 @@ Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/doc
 * Quantity is mapped to `productListItems[].quantity`.
 * Price is mapped to `productListItems[].priceTotal`.
 * Merchandising eVars are mapped to `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, depending on which eVar you want to bind to a product.
-* Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product.
+* Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product. Note that if an event is set under productListItems (e.g. productListItems._experience.analytics.event1) an entry in the event string will also be added, unless one is already specified (e.g.  (_experience.analytics.event1.value) . 
 
 >[!NOTE]
 >

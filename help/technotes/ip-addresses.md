@@ -37,12 +37,6 @@ The following table covers all standard data collection servers and regional dat
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
-| `172.82.192.0/18` |
-| `185.34.188.0/22` |
-| `192.243.224.0/19` |
-| `205.219.231.0/24` |
-| `208.67.40.0/22` |
-| `208.77.136.0/22` |
 
 ## Data collection and FTP IP address blocks
 
@@ -50,68 +44,34 @@ If your organization prefers to allow specific IP address ranges you can use the
 
 | Location | IP Range (CIDR Notation) |
 | --- | --- |
-| Amsterdam | `66.117.28.0/23` |
-| Dallas | `205.219.231.0/24` |
-| Dallas | `66.235.152.0/22` |
-| Dallas | `66.235.140.0/22` |
-| Dallas | `63.140.32.0/21` |
-| Dallas | `172.82.208.0/22` |
-| Hong Kong SAR of China | `66.117.24.0/22` |
+| Australia | `63.140.55.0/24` |
+| Australia | `63.140.56.0/23` |
+| California | `63.140.32.0/23` |
+| California | `63.140.34.0/24` |
+| India | `66.117.20.0/24` |
+| India | `66.117.22.0/23` |
+| Japan | `130.248.130.0/23` |
+| Japan | `130.248.169.0/23` |
+| Japan | `63.140.50.0/23` |
+| Japan | `66.117.31.0/24` |
 | London | `66.235.156.0/24` |
-| London | `66.235.148.0/23` |
-| London | `63.140.40.0/22` |
-| London | `208.67.41.0/24` |
-| London | `192.243.254.0/23` |
-| London | `192.243.244.0/22` |
-| London | `185.34.188.0/23` |
-| London | `130.248.152.0/21` |
-| London | `172.82.224.0/21` |
-| London | `172.82.232.0/21` |
-| Oregon | `192.243.240.0/22` |
-| Oregon | `192.243.232.0/21` |
-| Oregon | `192.243.224.0/21` |
-| Oregon | `130.248.160.0/21` |
-| Oregon | `130.248.148.0/22` |
-| Oregon | `172.82.192.0/21` |
-| Oregon | `172.82.216.0/21` |
-| Paris | `208.67.40.0/24` |
-| Singapore | `66.235.150.0/24` |
-| Singapore | `66.235.130.0/23` |
+| Oregon | `66.235.132.0/22` |
+| Singapore | `130.248.170.0/23` |
+| Singapore | `130.248.240.0/24` |
 | Singapore | `63.140.44.0/22` |
-| Singapore | `208.67.43.0/24` |
-| Singapore | `172.82.240.0/22` |
-| Singapore | `172.82.246.0/23` |
-| Singapore | `172.82.248.0/21` |
-| San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
-| Sydney | `216.104.216.0/23` |
-| Tokyo | `66.235.159.0/24` |
-| Tokyo | `66.117.21.0/24` |
-| Tokyo | `63.140.52.0/24` |
-| Tokyo | `63.140.50.0/23` |
-| Virginia | `66.235.144.0/22` |
-| Virginia | `208.77.138.0/23` |
-| Virginia | `208.77.136.0/23` |
-| Virginia | `192.243.250.0/23` |
-| Virginia | `130.248.144.0/22` |
-| Virginia | `172.82.204.0/22` |
-| Virginia | `172.82.212.0/22` |
+| Singapore | `63.140.48.0/23` |
+| Singapore | `66.117.30.0/24` |
+| Virginia | `63.140.38.0/23` |
+| Virginia | `63.140.54.0/24` |
 
 ## AWS hosts
 
-Adobe Analytics uses Amazon Web Services as part of its data collection process. The following table includes AWS hosts reserved for Adobe. These hosts are **not** included in the aggregate block range above.
+Adobe Analytics uses Amazon Web Services as part of its data collection process. The following table includes AWS IPv4 host addresses reserved for Adobe. These hosts are **not** included in the aggregate block range above.
 
 | Location | Host |
 | --- | --- |
-| China | `140.179.89.228` |
-| China | `140.179.125.98` |
+| China | `52.80.83.220` |
+| China | `71.132.16.253` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
@@ -124,3 +84,21 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | Virginia | `3.216.131.23` |
 | Virginia | `34.204.237.47` |
 | Virginia | `54.163.234.74` |
+
+The following table includes AWS IPv6 address blocks used by Adobe. These hosts are **not** included in the aggregate block range above.
+
+| Location | Host |
+| --- | --- |
+| Australia | `2406:da1c:406:1a00::/56` |
+| Australia | `2406:da1c:ce5:b400::/56` |
+| California | `2600:1f1c:366:d900::/56` |
+| India | `2406:da1a:f34:6a00::/56` |
+| Ireland | `2a05:d018:309:600::/56` |
+| Japan | `2406:da14:b07:ab00::/56` |
+| Oregon | `2600:1f14:1eb:7d00::/56` |
+| Oregon | `2600:1f14:9d3:2b00::/56` |
+| Singapore | `2406:da18:6e8:1e00::/56` |
+| Virginia | `2600:1f18:1a20:e800::/56` |
+| Virginia | `2600:1f18:4fd:6000::/56` |
+| Virginia | `2600:1f18:b00:e100::/56` |
+| Virginia | `2600:1f18:d1f:bd00::/56` |

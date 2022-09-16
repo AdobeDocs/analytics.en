@@ -56,7 +56,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
     + Processing rules configuration {#processing-rules-configuration}
       + [How processing rules work](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-      + [Processing order](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
       + [Create processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
       + [View active processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
       + [View processing rule history](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

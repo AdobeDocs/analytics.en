@@ -43,6 +43,10 @@ Product syntax merchandising variables are [mapped for Adobe Analytics](https://
 * Product syntax merchandising eVars are mapped under `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Product syntax merchandising events are mapped under `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Event serialization](events/event-serialization.md) XDM fields are mapped under `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
+>[!NOTE]
+>
+>When you set events under `productListItems`, you do not need to set them in the event string. If they are set in both places, the value in the event string takes precedence.
+
 The following example shows a single [product](products.md) using multiple merchandising eVars and events:
 
 ```js

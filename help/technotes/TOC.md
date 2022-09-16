@@ -42,6 +42,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)
 + [Multi-currency support](multicurrency.md)
 + [Privacy overview](privacy-overview.md)
++ [Processing order](processing-order.md)
 + [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {#rdc}

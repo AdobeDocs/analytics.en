@@ -54,3 +54,9 @@ Search terms pulled from a query string must be encoded correctly or they won't 
 Select the correct matching condition to find the most restrictive condition that matches correctly. You can search for values in a report before creating a rule to make sure there are no unintended matches. For example, you should search the Prop2 report to find all locations where this condition matches before enabling this rule.
 
 ![](assets/tips-startswith.png)
+
+## How Processing Rules are Applied when Copying Hits using VISTA
+
+If you have a VISTA rule configured to copy hits to another report suite, the hits are sent through any processing rules defined in the other report suite.
+
+If you have processing rules defined on the original report suite, these rules may or may not be applied based on how the VISTA rule was configured by Engineering Services. To find out, you can ask your implementation specialist if the VISTA rule copies the "pre" or the "post" values to the additional report suite. If the "pre" value is copied, processing rules defined on the original report suite are not applied. If the "post" value is copied, processing rules are applied before the hit is copied.

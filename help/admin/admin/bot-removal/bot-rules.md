@@ -112,12 +112,11 @@ Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all exis
 
 The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
-
 ## Impact of bot rules on data collection {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Bot Rules are applied to all analytics data. Data removed by Bot Rules is visible only in the Bots and Bot Pages Reports.
 
-VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+VISTA rules are applied after Bot Rules. See [Processing order](/help/technotes/processing-order.md) in the Technotes user guide.
 
 **High-Hit Visit Processing:** If more than 100 hits occur in a visit, reporting determines if the time of the visit in seconds is less than or equal to the number of hits in the visit. In this situation, due to the cost of processing long, intense visits, reporting starts over with a new visit. High-hit visits are typically caused by bot attacks and are not considered normal visitor browsing.
 

@@ -7,10 +7,6 @@ exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 ---
 # Combo chart
 
->[!NOTE]
->
->This functionality is currently in [limited testing](/help/release-notes/releases.md).
-
 The [!UICONTROL Combo chart] visualization makes it easy to quickly build a comparison visualization without having to build a table first. You can easily view trends in your data in a line/bar combination. 
 
 Use a [!UICONTROL Combo chart] to 

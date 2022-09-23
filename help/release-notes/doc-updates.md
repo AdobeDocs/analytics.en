@@ -18,10 +18,14 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Date | Description |
 | --- | --- |
 | **September 2022** | |
+| Combo charts | New topic on the [combo charts](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualization. |
 | Updated plugin | Updated version of the [getvalonce](/help/implement/vars/plugins/getvalonce.md) implementation plugin. |
 | New configuration variable | Documentation on [collectHighEntropyUserAgentHints](/(/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | High-entropy client hints | New topic on how Adobe is using [client hints](/help/technotes/client-hints.md) in addition to User-Agent to determine device information. |
 | Processing order | Various help pages have been aggregated to provide a single help topic on [Processing order](/help/technotes/processing-order.md). |
+| **August 2022** | |
+| Support for List Variables in XDM for Edge Collection | Enables customers collecting data via Experience Edge/Web SDK to use XDM to specify the List Variable contents. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk)| August 18, 2022 |
+| Use of SKU field in XDM for Edge Collection when setting product string Variables | Enables customers collecting data via Experience Edge/Web SDK to use the SKU value to set the product field in the products variable. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) |
 | **June 2022** |  |
 | Merchandising variables in XDM for Edge Collection |  Documentation on [support for Merchandising variables in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), and [Edge API](/help/implement/aep-edge/edge-api/overview.md). |

@@ -11,7 +11,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 * **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
-* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
+* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK [can be configured](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
 
 >[!NOTE]
 >

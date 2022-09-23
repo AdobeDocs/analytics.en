@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (September 2022)
 
-**Last update**: September 19, 2022
+**Last update**: September 22, 2022
 
 ## Related resources
 
@@ -20,6 +20,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
 | Combo Charts visualization in Workspace | Combo charts let you compare metrics more easily and intuitively within Workspace. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html)| September 14, 2022 |
+| AppMeasurement version 2.23.0 | AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. [Learn more](/help/technotes/client-hints.md)  | September 23, 2022 |
 
 {style="table-layout:auto"}
 

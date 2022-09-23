@@ -8,7 +8,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 **Last update**: September 22, 2022
 
-Adobe Analytics releases operate on a [continuous delivery model](/help/release-notes/releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## Related resources
 

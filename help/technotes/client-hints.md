@@ -1,6 +1,6 @@
 ---
 title: Client hints
-description: Learn about 
+description: Learn about how client hints will gradually replace the User Agent as the source of device information.
 ---
 
 # Client hints overview and FAQ

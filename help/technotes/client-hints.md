@@ -9,9 +9,9 @@ Client hints are individual pieces of information about a user's device. They ar
 
 Google divides User-Agent client hints into two categories: low-entropy and high-entropy hints.
 
-* Low-entropy hints have more generic information about devices. These hints are automatically supplied by Chromium browsers.
+* **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
-* High-entropy hints have more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
+* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ You can use the Classification Set Manager to create a Classification Set.
 
 >[!NOTE]
 >
->This feature is currently in limited release. If you would like access to this feature, contact Adobe Customer Care or your Account Manager, who can forward your request to the Classifications team for provisioning.
+>This feature will be available to all customers who have their report suites migrated to the new Classifications architecture. Please contact Adobe Customer Care or your Account Manager for more information.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 

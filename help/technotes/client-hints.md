@@ -17,6 +17,10 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 >
 >Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. As users upgrade their devices the operating system in the User-Agent will not change. So, over time operating version information as represented in the User-Agent will become less accurate. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
+>[!NOTE]
+>
+>Client hints can only be collected via a secure http connection (i.e. "https")
+
 ## Frequently asked questions
 
 +++**Where can I learn more about client hints?**

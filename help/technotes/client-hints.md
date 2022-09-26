@@ -80,9 +80,15 @@ Client hints only apply to Chromium browsers such as Google Chrome and Microsoft
 
 +++
 
++++**Are client hints supported over insecure connections?
+
+No. Client hints can only be collected through a secure HTTP connection, such as HTTPS.
+
++++
+
 +++**Will client hints be available in data sent to AEP and CJA via the Adobe Source Connector?**
 
-We plan to include client hints in data via Adobe Source Connector in the first half of 2023.
+Adobe plans to include client hints in data via Adobe Source Connector in the first half of 2023.
 
 +++
 

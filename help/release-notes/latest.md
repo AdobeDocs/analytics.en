@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 2022)
 
-**Last update**: September 26, 2022
+**Last update**: September 28, 2022
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -21,17 +21,14 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Key Metric Summary visualization | The Key Metric Summary visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Phased rollout starting October 5, 2022 |
-| New Classification sets user experience | The new user experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | October 5, 2022 |
+| **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Phased rollout starting October 5, 2022 |
+| New **[!UICONTROL Classification sets]** user experience | The new user experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | October 5, 2022 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-
-
-**Fixes for individual customers**:
-
+AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-301825; AN-301834; AN-301965; AN-302095; AN-302189; AN-302269; AN-302290; AN-302301; AN-302348; AN-302531; AN-302533; 
 
 
 ## Important notices for Adobe Analytics administrators

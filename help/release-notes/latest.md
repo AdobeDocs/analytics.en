@@ -4,7 +4,7 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (September 2022)
+# Current Adobe Analytics release notes (October 2022)
 
 **Last update**: September 26, 2022
 
@@ -21,18 +21,17 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-| Combo Charts visualization in Workspace | Combo charts let you compare metrics more easily and intuitively within Workspace. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html)| Phased rollout starting September 14, 2022 |
-| AppMeasurement version 2.23.0 | AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. [Learn more](/help/technotes/client-hints.md)  | September 22, 2022 |
+|  |  |  |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed issues with Classifications import and export. (AN-299267)
+* 
 
 **Fixes for individual customers**:
 
-AN-288519; AN-289300; AN-297387; AN-297465; AN-297520; AN-297641; AN-298134; AN-298351; AN-298429; AN-298483; AN-298520; AN-298582; AN-298816; AN-298832; AN-298855; AN-298864; AN-299407; AN-299545; AN-299644; AN-299715
+
 
 ## Important notices for Adobe Analytics administrators
 

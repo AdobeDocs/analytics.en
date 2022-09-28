@@ -21,13 +21,14 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Targeted Date](releases.md)  |
 | ----------- | ---------- | ------- |
-|  |  |  |
+| Key Metric Summary visualization | The Key Metric Summary visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Phased rollout starting October 5, 2022 |
+| New Classification sets user experience | The new user experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | October 5, 2022 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* 
+
 
 **Fixes for individual customers**:
 

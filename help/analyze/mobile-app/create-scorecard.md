@@ -152,9 +152,9 @@ When you click a tile in the Scorecard Builder, the right-hand rail displays the
 
 ![Properties tile](assets/properties_tile.png)
 
-## View Drill ins {#view-drill-ins}
+## View detail slides {#view-detail-slides}
 
-When you click on tiles, a dynamic pop-up window displays how the Drill ins (Breakdown) view appears to the executive user in the app. You can add dimensions to break down your data for your specific needs. If no dimension has been applied , the breakdown dimension will be **hour** or **days**, depending on the default date range.
+When you click on tiles, a dynamic pop-up window displays how the detail slide appears to the executive user in the app. You can add dimensions to break down your data for your specific needs. If no dimension has been applied, the breakdown dimension will be **hour** or **days**, depending on the default date range.
 
 Breakdowns refine your analysis by literally breaking down metrics by dimension items.
 
@@ -166,7 +166,7 @@ Breakdowns refine your analysis by literally breaking down metrics by dimension 
 
 Each dimension added to the detail slide will show up in a drop-down list in the view of the detail slide in the app. The executive user can then choose among the options listed in the drop-down list.
 
-## Customize Detail Views {#customize-detail-views}
+## Customize detail slides {#customize-detail-slide}
 
 Custom detail slides allow you to be even more targeted about what information you share with your audience. You can modify the layout for each detail slide and add text to better explain what the end user may see in the data. You can also change the chart type using the drop-down menu.
 
@@ -184,9 +184,9 @@ You can also change the slide layout by dragging and dropping visualization comp
 
 ### Add descriptive text to a slide
 
-You can add text to provide meaningful information about what is contained in the charts or nuances about the data
+You can add text to provide meaningful information about what is contained in the charts or nuances about the data.
 
-To add text to a detail slide, select a layout that shows the T symbol, or drag and drop the Text visualization component over from the left rail. The text editor will automatically open when adding a new text visualization or choosing a slide layout with text. The Text editor provides all standard options for formatting your text. You can apply text styles such as paragraph, headings, and subheadings, and apply bold and italicized font. You can justify text, add bulleted and numbered lists, and add links. When you're finished editing, select the minimize button in the upper right corner of the text editor to close it. To edit text you already added, select the pencil icon to open the text editor again.
+To add text to a detail slide, select a layout that shows the T symbol, or drag and drop the Text visualization component over from the left rail. The text editor will automatically open when adding a new text visualization or choosing a slide layout with text. The Text editor provides all standard options for formatting your text. You can apply text styles such as paragraph, headings, and subheadings, and apply bold and italicized font. You can justify text, add bulleted and numbered lists, and add links. When you're finished editing, select the minimize button in the upper-right corner of the text editor to close it. To edit text you already added, select the pencil icon to open the text editor again.
 
 ![Slide layout change](assets/add-descriptive-text.png)
 

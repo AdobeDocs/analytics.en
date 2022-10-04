@@ -23,6 +23,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- |
 | **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Phased rollout starting October 5, 2022 |
 | New **[!UICONTROL Classification sets]** user experience | The new user experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | October 5, 2022 |
+| Mobile app: Custom detail views |  Custom detail views allow you to be even more targeted about what information you share with your audience, by letting them focus on what's most important. You can alter the layout of the detail view associated with each scorecard tile and you can add text to better explain what the end user may see in the data. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en)  | October 5, 2022 |
 
 {style="table-layout:auto"}
 

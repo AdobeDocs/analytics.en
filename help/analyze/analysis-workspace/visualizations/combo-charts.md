@@ -17,12 +17,13 @@ Use a [!UICONTROL Combo chart] to
 
 * Analyze a metric against a function (such as [!UICONTROL Cumulative Average]) over a time horizon.
 
-Keep in mind that you can
+Keep this in mind:
 
-* Add multiple comparisons in a single [!UICONTROL Combo chart]. 
+* You can add multiple comparisons in a single [!UICONTROL Combo chart].
 * If you add one or more comparisons, they have to be of the same type, such as [!UICONTROL Time comparison].
 * You can add up to 5 comparisons.
 * You can apply up to 3 filters (segments) to a metric.
+* Calculated metrics are not supported in Combo charts.
 
 ## Build a Combo chart
 

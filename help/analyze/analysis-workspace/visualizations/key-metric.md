@@ -7,10 +7,6 @@ exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 ---
 # Key metric summary
 
->[!NOTE]
->
->This functionality is currently in [limited testing](/help/release-notes/releases.md).
-
 The [!UICONTROL Key metric summary] visualization lets you see how an important metric is trending within a single timeframe. It also lets you compare metric performance across two timeframes. It provides the benefits of multiple visualizations combined into one visualization:
 
 * **[!UICONTROL Line]** visualizations that shows how the metric is trending for the primary and comparison date ranges

@@ -15,8 +15,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
-| Date | Description |
+| Feature | Description |
 | --- | --- |
+| **October 2022** |  |
+| Key Metric Summary | New topic on the [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualization. |
+| Classification sets |  The new user [Classification sets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. |
+| Mobile app: Custom detail views | New topic on [custom detail views](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en). |
+| Data Workbench | Data Workbench [end-of-life FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **September 2022** | |
 | Combo charts | New topic on the [combo charts](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualization. |
 | Updated plugin | Updated version of the [getvalonce](/help/implement/vars/plugins/getvalonce.md) implementation plugin. |

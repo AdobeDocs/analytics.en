@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+user-guide-description: Browse a knowledge base containing helpful articles that don't belong to a specific Analytics tool or component.
 ---
 
 # Analytics Tech Notes {#technotes}

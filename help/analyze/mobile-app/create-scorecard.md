@@ -150,13 +150,13 @@ If you want to remove [!UICONTROL Unspecified] dimension items from your data, d
 
 When you click a tile in the Scorecard Builder, the right-hand rail displays the properties and characteristics associated with that tile and its detail slide. In this rail, you can provide a new **Title** for the tile and alternatively configure the tile by applying segments.
 
-![Properties tile](assets/properties_tile.png)
+![Properties tile](assets/properties-tile-new.png)
 
 ## View detail slides {#view-detail-slides}
 
-When you click on tiles, a dynamic pop-up window displays how the detail slide appears to the executive user in the app. You can add dimensions to break down your data for your specific needs. If no dimension has been applied, the breakdown dimension will be **hour** or **days**, depending on the default date range.
+When you click on tiles, a dynamic pop-up window displays how the detail slide appears to the executive user in the app. You can add dimensions to break down your data for your specific needs. If a dimension hasn't been applied, the breakdown dimension will be **hour** or **days**, depending on the default date range.
 
-Breakdowns refine your analysis by literally breaking down metrics by dimension items.
+Breakdowns refine your analysis by breaking down metrics by dimension items such as the following:
 
 * Unique Visitors metric broken down by Ad Platform (AMO ID)
 * Visits broken down by Product Category (Retail)

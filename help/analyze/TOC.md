@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder, and Activity Map.
 ---
 
 # Adobe Analytics Tools Guide {#analyze}

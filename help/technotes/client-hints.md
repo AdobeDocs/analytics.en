@@ -129,7 +129,7 @@ See the [timeline published by Google](https://blog.chromium.org/2021/09/user-ag
 
 +++**Will AAM server-side forwarding support client hints?** 
 
-Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high entropy hints to be collected to preserve full functionality. If you are using server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
+Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
 
 +++
 

@@ -99,7 +99,7 @@ Adobe uses a third-party, Device Atlas, who will use both the client hints and U
 
 +++**Which browsers are affected by client hints?**
 
-Client hints only apply to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
+Client hints apply only to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
 
 +++
 
@@ -129,7 +129,7 @@ See the [timeline published by Google](https://blog.chromium.org/2021/09/user-ag
 
 +++**Will AAM server-side forwarding support client hints?** 
 
-Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
+Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 +++
 

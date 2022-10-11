@@ -15,7 +15,11 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 >[!NOTE]
 >
->Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. As users upgrade their devices the operating system in the User-Agent will not change. So, over time operating version information as represented in the User-Agent will become less accurate. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+>Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+
+>[!NOTE]
+>
+>AAM requires high entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
 
 ## Frequently asked questions
 
@@ -43,6 +47,24 @@ Not at this time. You can choose to collect all high-entropy hints or none.
 
 +++
 
++++**What are the various client hints values?**
+
+The table below describes the client hints as of October 2022.
+
+| Hint | Description | High or Low Entropy | Example | 
+| --- | --- | --- | --- | 
+| Sec-CH-UA  |  Browser and significant version  | Low |  "Google Chrome 84" |
+| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  TRUE |  
+| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | "Android" | 
+| Sec-CH-UA-Arch |  Architecture of the site |  High |  "arm"  |  
+| Sec-CH-UA-Bitness  | Architecture bitnes  | High  | "64"  |  
+| Sec-CH-UA-Full-Version  | Complete version of the browser |  High  | "84.0.4143.2" |  
+| Sec-CH-UA-Full-Version-List |  List of brands with their version | High | "Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"  |  
+| Sec-CH-UA-Model |  Device model |  High |  "Pixel 3" |  
+| Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  "10" |  
+
++++
+
 +++**Will there be any changes to device reporting in Analytics?**
 
 The device fields available for reporting will not change. The data captured for those fields may change depending on which field and how you have configured collection for client hints.
@@ -51,20 +73,21 @@ The device fields available for reporting will not change. The data captured for
 
 +++**Which Analytics reporting fields are derived from the User-Agent?**
 
+These fields are directly derived from the User-Agent but User-Agent may be used to help derive values for other device related fields, depending on the device details.
+
 * [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 
 * [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
 * [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
 * [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
 * [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
-* [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en)
 
 +++
 
 +++**Which Analytics reporting fields are derived from values stored in high-entropy hints?**
 
-As of September 2022, Google's published timeline for "freezing" User-Agent hints indicates the operating system version will stop being updated starting October 2022. When users upgrade their OS, the OS version in the User-Agent will not update. Without high-entropy hints the accuracy of operating system version, which is included in Analytics "Operating System" dimension, will gradually degrade. 
+This will change over time as Google 'freezes' more parts of the User Agent. The first field to be directly impacted is "Operating System" which includes the operating system version According to Google's published timeline for "freezing" User-Agent hints, operating system version will be frozen starting late October 2022 with Chromium version 107. At that point the operating system version in the User Agent will be inaccurate in some cases. 
 
-Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) to see the timing for freezing of other portions of the User-Agent.
+Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) to see the timing for freezing of other portions of the User-Agent. 
 
 +++
 
@@ -76,11 +99,11 @@ Adobe uses a third-party, Device Atlas, who will use both the client hints and U
 
 +++**Which browsers are affected by client hints?**
 
-Client hints only apply to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
+Client hints apply only to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
 
 +++
 
-+++**Are client hints supported over insecure connections?
++++**Are client hints supported over insecure connections?**
 
 No. Client hints can only be collected through a secure HTTP connection, such as HTTPS.
 
@@ -98,28 +121,15 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 
 +++
 
-+++**What are the various hint fields? Which ones affect device reporting?**
-
-The table below describes the client hints as of September 2022.
-
-| Hint | Description | High or Low Entropy | Example | 
-| --- | --- | --- | --- | 
-| Sec-CH-UA  |  Browser and significant version  | Low |  "Google Chrome 84" |
-| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  TRUE |  
-| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | "Android" | 
-| Sec-CH-UA-Arch |  Architecture of the site |  High |  "arm"  |  
-| Sec-CH-UA-Bitness  | Architecture bitnes  | High  | "64"  |  
-| Sec-CH-UA-Full-Version  | Complete version of the browser |  High  | "84.0.4143.2" |  
-| Sec-CH-UA-Full-Version-List |  List of brands with their version | High | "Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"  |  
-| Sec-CH-UA-Model |  Device model |  High |  "Pixel 3" |  
-| Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  "10" |  
-
-+++
-
-
-
 +++**What portions of the User-Agent are being "frozen" and when?** 
 
 See the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This may be subject to change.
 
 +++
+
++++**Will AAM server-side forwarding support client hints?** 
+
+Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+
++++
+

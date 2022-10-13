@@ -55,6 +55,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Japan | `63.140.50.0/23` |
 | Japan | `66.117.31.0/24` |
 | London | `66.235.156.0/24` |
+| London | `185.34.188.0/22` |
 | Oregon | `66.235.132.0/22` |
 | Singapore | `130.248.170.0/23` |
 | Singapore | `130.248.240.0/24` |

@@ -93,7 +93,7 @@ Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/us
 
 +++**How will Adobe use client hints to derive device information?**
 
-Adobe uses a third-party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
+Adobe uses a third party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
 
 +++
 

@@ -15,6 +15,10 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 >[!NOTE]
 >
+>Client hints will be incorporated into Analytics device lookup process starting in mid-January 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup unti mid-January. This is to avoid potential disruption to reporting during the critical end-of-year period. As noted below operating system version will be frozen starting in October but due to a gradual rollout and the fact that most User Agents will be frozen to the correct OS version, we estimate that this will affect <3% of Chrome Visitors.
+
+>[!NOTE]
+>
 >Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
 >[!NOTE]
@@ -83,6 +87,12 @@ These fields are directly derived from the User-Agent but User-Agent may be used
 
 +++
 
++++**What portions of the User-Agent are being "frozen" and when?** 
+
+See the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This may be subject to change.
+
++++
+
 +++**Which Analytics reporting fields are derived from values stored in high-entropy hints?**
 
 This will change over time as Google 'freezes' more parts of the User Agent. The first field to be directly impacted is "Operating System" which includes the operating system version According to Google's published timeline for "freezing" User-Agent hints, operating system version will be frozen starting late October 2022 with Chromium version 107. At that point the operating system version in the User Agent will be inaccurate in some cases. 
@@ -109,6 +119,12 @@ No. Client hints can only be collected through a secure HTTP connection, such as
 
 +++
 
++++**How do I include client hint data when using API submission?**
+
+See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**Will client hints be available in data sent to AEP and CJA via the Adobe Source Connector?**
 
 Adobe plans to include client hints in data via Adobe Source Connector in the first half of 2023.
@@ -118,12 +134,6 @@ Adobe plans to include client hints in data via Adobe Source Connector in the fi
 +++**How are client hints represented in XDM?**
 
 See the [schema documentation](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
-
-+++
-
-+++**What portions of the User-Agent are being "frozen" and when?** 
-
-See the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This may be subject to change.
 
 +++
 

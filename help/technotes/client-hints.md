@@ -11,7 +11,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 * **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
-* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK [can be configured](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
+* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
 
 >[!NOTE]
 >
@@ -35,13 +35,9 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and included in Adobe's process for deriving device and browser information. Newer versions of AppMeasurement (starting with 2.23.0) and Web SDK (starting with 2.12.0) can be configured to collect high-entropy hints. For both libraries, collection of high-entropy hints is **disabled by default**. 
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**How do I capture high-entropy hints?**
-
-High-entropy hints can be configured with the Web SDK and AppMeasurement libraries via their respective Tags extensions or directly with the collectHighEntropyUserAgentHints flag.
+For both libraries, collection of high-entropy hints is **disabled by default**. 
 
 +++
 

@@ -11,11 +11,19 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 * **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
-* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK [can be configured](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
+* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
 
 >[!NOTE]
 >
->Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. As users upgrade their devices the operating system in the User-Agent will not change. So, over time operating version information as represented in the User-Agent will become less accurate. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+>Client hints will be incorporated into Analytics device lookup process starting in mid-January 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup unti mid-January. This is to avoid potential disruption to reporting during the critical end-of-year period. As noted below operating system version will be frozen starting in October but due to a gradual rollout and the fact that most User Agents will be frozen to the correct OS version, we estimate that this will affect <3% of Chrome Visitors.
+
+>[!NOTE]
+>
+>Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+
+>[!NOTE]
+>
+>AAM requires high entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
 
 ## Frequently asked questions
 
@@ -27,13 +35,9 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and included in Adobe's process for deriving device and browser information. Newer versions of AppMeasurement (starting with 2.23.0) and Web SDK (starting with 2.12.0) can be configured to collect high-entropy hints. For both libraries, collection of high-entropy hints is **disabled by default**. 
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**How do I capture high-entropy hints?**
-
-High-entropy hints can be configured with the Web SDK and AppMeasurement libraries via their respective Tags extensions or directly with the collectHighEntropyUserAgentHints flag.
+For both libraries, collection of high-entropy hints is **disabled by default**. 
 
 +++
 
@@ -43,64 +47,9 @@ Not at this time. You can choose to collect all high-entropy hints or none.
 
 +++
 
-+++**Will there be any changes to device reporting in Analytics?**
++++**What are the various client hints values?**
 
-The device fields available for reporting will not change. The data captured for those fields may change depending on which field and how you have configured collection for client hints.
-
-+++
-
-+++**Which Analytics reporting fields are derived from the User-Agent?**
-
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 
-* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
-* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
-* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
-* [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en)
-
-+++
-
-+++**Which Analytics reporting fields are derived from values stored in high-entropy hints?**
-
-As of September 2022, Google's published timeline for "freezing" User-Agent hints indicates the operating system version will stop being updated starting October 2022. When users upgrade their OS, the OS version in the User-Agent will not update. Without high-entropy hints the accuracy of operating system version, which is included in Analytics "Operating System" dimension, will gradually degrade. 
-
-Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) to see the timing for freezing of other portions of the User-Agent.
-
-+++
-
-+++**How will Adobe use client hints to derive device information?**
-
-Adobe uses a third-party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
-
-+++
-
-+++**Which browsers are affected by client hints?**
-
-Client hints only apply to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
-
-+++
-
-+++**Are client hints supported over insecure connections?
-
-No. Client hints can only be collected through a secure HTTP connection, such as HTTPS.
-
-+++
-
-+++**Will client hints be available in data sent to AEP and CJA via the Adobe Source Connector?**
-
-Adobe plans to include client hints in data via Adobe Source Connector in the first half of 2023.
-
-+++
-
-+++**How are client hints represented in XDM?**
-
-See the [schema documentation](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
-
-+++
-
-+++**What are the various hint fields? Which ones affect device reporting?**
-
-The table below describes the client hints as of September 2022.
+The table below describes the client hints as of October 2022.
 
 | Hint | Description | High or Low Entropy | Example | 
 | --- | --- | --- | --- | 
@@ -116,10 +65,77 @@ The table below describes the client hints as of September 2022.
 
 +++
 
++++**Will there be any changes to device reporting in Analytics?**
 
+The device fields available for reporting will not change. The data captured for those fields may change depending on which field and how you have configured collection for client hints.
+
++++
+
++++**Which Analytics reporting fields are derived from the User-Agent?**
+
+These fields are directly derived from the User-Agent but User-Agent may be used to help derive values for other device related fields, depending on the device details.
+
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 
+* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
+* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
+* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
+* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+
++++
 
 +++**What portions of the User-Agent are being "frozen" and when?** 
 
 See the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This may be subject to change.
 
 +++
+
++++**Which Analytics reporting fields are derived from values stored in high-entropy hints?**
+
+This will change over time as Google 'freezes' more parts of the User Agent. The first field to be directly impacted is "Operating System" which includes the operating system version According to Google's published timeline for "freezing" User-Agent hints, operating system version will be frozen starting late October 2022 with Chromium version 107. At that point the operating system version in the User Agent will be inaccurate in some cases. 
+
+Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) to see the timing for freezing of other portions of the User-Agent. 
+
++++
+
++++**How will Adobe use client hints to derive device information?**
+
+Adobe uses a third party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
+
++++
+
++++**Which browsers are affected by client hints?**
+
+Client hints apply only to Chromium browsers such as Google Chrome and Microsoft Edge. There is no change to data from other browsers or mobile apps.
+
++++
+
++++**Are client hints supported over insecure connections?**
+
+No. Client hints can only be collected through a secure HTTP connection, such as HTTPS.
+
++++
+
++++**How do I include client hint data when using API submission?**
+
+See documentation for including these via [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
++++**Will client hints be available in data sent to AEP and CJA via the Adobe Source Connector?**
+
+Adobe plans to include client hints in data via Adobe Source Connector in the first half of 2023.
+
++++
+
++++**How are client hints represented in XDM?**
+
+See the [schema documentation](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) in Adobe Experience Platform.
+
++++
+
++++**Will AAM server-side forwarding support client hints?** 
+
+Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+
++++
+

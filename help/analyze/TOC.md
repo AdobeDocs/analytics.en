@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder, and Activity Map.
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
@@ -17,6 +17,12 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + Folders in Workspace {#workspace-folders}
+      + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + [Create Folders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + [Add Projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Remove a Project](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+      + [Save a New Project](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)

@@ -2,7 +2,7 @@
 description: Learn about Folders in Workspace
 keywords: Analysis Workspace
 title: Folders overview
-feature: Analytics Workspace Basics
+feature: Workspace Basics
 ---
 
 # About Folders in Workspace Projects

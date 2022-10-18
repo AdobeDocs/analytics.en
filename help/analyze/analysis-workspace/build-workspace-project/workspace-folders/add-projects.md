@@ -2,7 +2,7 @@
 description: Learn how to add folders in Workspace
 keywords: Analysis Workspace
 title: Add Folders in Workspace
-feature: Analytics Workspace Basics
+feature: Workspace Basics
 ---
 
 # Add Projects to Folders

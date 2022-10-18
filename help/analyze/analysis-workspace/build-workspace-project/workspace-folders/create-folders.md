@@ -2,7 +2,7 @@
 description: Learn how to create folders and subfolders in Workspace
 keywords: Analysis Workspace
 title: Create Folders
-feature: Analytics Workspace Basics
+feature: Workspace Basics
 ---
 
 # Create folders

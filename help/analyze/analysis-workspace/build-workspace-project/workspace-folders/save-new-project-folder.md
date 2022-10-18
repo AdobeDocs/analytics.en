@@ -2,7 +2,7 @@
 description: Learn about saving projects to folders in Workspace
 keywords: Analysis Workspace
 title: Saving projects to folders
-feature: Analytics Workspace Basics
+feature: Workspace Basics
 ---
 
 # Save a New Project to a Folder

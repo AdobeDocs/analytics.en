@@ -19,7 +19,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + Folders in Workspace {#workspace-folders}
       + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-      + [Create Folders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
       + [Add Projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Remove a Project](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
       + [Save a New Project](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)

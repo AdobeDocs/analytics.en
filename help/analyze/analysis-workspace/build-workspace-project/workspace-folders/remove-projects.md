@@ -11,7 +11,7 @@ To remove a project from a folder, you can move the project to another location 
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 >[!NOTE]
 >

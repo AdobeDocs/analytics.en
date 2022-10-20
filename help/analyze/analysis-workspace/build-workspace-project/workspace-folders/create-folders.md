@@ -11,7 +11,7 @@ You can add a new folder or a subfolder to the list of projects and folders on y
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 ## Create a new folder
 

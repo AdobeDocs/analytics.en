@@ -11,7 +11,7 @@ Folders in Workspace Projects is a folder management system located on the Works
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 Folders in Workspace Projects helps users organize and categorize their projects for better retrieval and access. In addition, a shared Company Folder allows Admins to easily create and share content with all Workspace users. 
 

@@ -22,7 +22,7 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 ## Manage the reports queue
 
-Upon opening the Reporting Activity Manager, you will see a list of base report suites. Virtual report suites are not included in this view.  
+When opening the Reporting Activity Manager, you will see a list of base report suites. Virtual report suites are not included in this view.  
 
 ![reports queue](assets/reporting-activity1.png)
 

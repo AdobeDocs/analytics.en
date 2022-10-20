@@ -11,7 +11,7 @@ You can add projects to a folder in the table view or from within a folder.
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 ## From the table view
 

@@ -23,17 +23,19 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | October 5, 2022 | October 19, 2023 |
 | **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1` - `mvvar3` in data feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
-| **Reporting Activity Manager** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. [Documentation link to follow] | TBD | November 7, 2022 |
+| **Reporting Activity Manager** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. [Documentation link to follow] | October 26, 2022 | November 7, 2022 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue where recent MacOS versions were incorrectly named as "Macintosh". With this fix, the OS dimension will begin using "MacOS" version numbering, starting with MacOS 11. (AN-304275)
+* Fixed an issue where recent MacOS versions were incorrectly named as "Macintosh". With this fix, the OS dimension will begin using "MacOS" version numbering, starting with MacOS 11. (AN-301834)
+* Fixed an issue with the "fixed dates" date range in Report Builder. (AN-303684)
+* Fixed issues with the Data Feed UI not loading. (AN-303803, AN-303784)
 
 ### Other fixes
 
-
+AN-295574; AN-296354; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-303090; AN-303372; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304195; AN-304325; AN-304339; AN-304457; 
 
 
 ## Important notices for Adobe Analytics administrators

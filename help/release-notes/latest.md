@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 2022)
 
-**Last update**: October 14, 2022
+**Last update**: October 19, 2022
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -30,7 +30,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 ## Fixes in Adobe Analytics
 
-AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-301825; AN-301834; AN-301965; AN-302095; AN-302189; AN-302269; AN-302290; AN-302301; AN-302348; AN-302531; AN-302533; 
+AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-301825; AN-301834; AN-301965; AN-302095; AN-302189; AN-302269; AN-302290; AN-302301; AN-302348; AN-302531; AN-302533;
 
 
 ## Important notices for Adobe Analytics administrators

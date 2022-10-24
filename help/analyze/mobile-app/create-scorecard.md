@@ -168,7 +168,11 @@ Each dimension added to the detail slide will show up in a drop-down list in the
 
 ## Customize detail slides {#customize-detail-slide}
 
-Custom detail slides allow you to be even more targeted about what information you share with your audience. You can modify the layout for each detail slide and add text to better explain what the end user may see in the data. You can also change the chart type using the drop-down menu.
+Custom detail slides allow you to be even more targeted about what information you share with your audience.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+You can modify the layout for each detail slide and add text to better explain what the end user may see in the data. You can also change the chart type using the drop-down menu.
 
 ![Custom detail slide](assets/custom-detail-slide.png)
 

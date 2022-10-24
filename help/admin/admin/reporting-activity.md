@@ -2,13 +2,15 @@
 description: Learn about how to use the Reporting Activity Manager to diagnose and fix capacity issues during peak reporting times.
 title: Reporting Activity Manager
 feature: Admin Tools
+hide: true
+hidefromtoc: true
 ---
 
 # Reporting Activity Manager
 
 >[!NOTE]
 >
->This functionality is currently in [limited testing](/help/release-notes/releases.md).
+>This functionality is currently in beta testing.
 
 The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. When your organization reaches reporting request capacity and experiences a degradation in reporting performance, you now have a way to self-diagnose reporting issues without intervention from Adobe customer care or engineering. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. This tool:
 
@@ -22,7 +24,7 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 ## Manage the reports queue
 
-When opening the Reporting Activity Manager, you will see a list of base report suites. Virtual report suites are not included in this view.  
+When opening the Reporting Activity Manager, you will see a list of base report suites. Virtual report suites are not included in this view.
 
 ![reports queue](assets/reporting-activity1.png)
 

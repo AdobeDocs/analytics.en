@@ -30,7 +30,6 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036;  AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534 
 
-
 ## Important notices for Adobe Analytics administrators
 
 | Notice | Date Added or Updated  | Description |

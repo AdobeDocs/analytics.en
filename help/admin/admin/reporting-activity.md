@@ -22,17 +22,24 @@ The Reporting Activity Manager lets you see the reporting capacity for each repo
 
 In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
-## Manage the reports queue
+## View the reports queue
 
-When opening the Reporting Activity Manager, you will see a list of base report suites. Virtual report suites are not included in this view.
+When opening the Reporting Activity Manager overview page, you will see a list of your enabled base report suites.
 
 ![reports queue](assets/reporting-activity1.png)
 
-Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined and come down to the base report suite. So if you have 10 requests coming from 5 VRSs, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. 
+| UI Element | Description |
+| --- | --- |
+| **[!UICONTROL Report Suite]** | The base report suite |
+|  **[!UICONTROL Virtual Report Suite]** | All virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined and come down to the base report suite.<p>If you have 10 requests coming from 5 VRSs, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. |
+| **[!UICONTROL Usage Capacity]** | Percentage wise, how much of the report suite's reporting capacity is being used, in real time. |
+| **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - At Capacity**: The report suite is maxed out in terms of reporting capacity.</li><li>**Yellow - Nearing capacity**: This report suite is in danger of reaching its maximum capacity.</li><li>**Green - Available**: There is plenty of reporting capacity.</li><li>**Grey - Unavailable**: The report suite is not configured for reporting capacity.</li></ul>|
 
 Refresh the page to change the results.
 
-## Workspace reporting implications
+## Filter report suites
+
+You can filter the report suites by the
 
 
 

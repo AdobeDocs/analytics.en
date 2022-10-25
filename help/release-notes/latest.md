@@ -16,7 +16,6 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | October 5, 2022 | October 19, 2023 |
 | **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1` - `mvvar3` in data feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
-| **New Data Feed columns** | Client hints is a new feature being rolled out by Google. Client hints and the associated meta-data are sent to Adobe Analytics and made available via the `ch_hdr` and `ch_js` columns in Analytics Data Feed. This information is subject to change as Google completes its rollout over the next several Chrome versions. See [this article](https://web.dev/user-agent-client-hints/) for more details. | N/A | October 26, 2022 |
 
 {style="table-layout:auto"}
 

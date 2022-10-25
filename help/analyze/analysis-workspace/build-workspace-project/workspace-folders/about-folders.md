@@ -3,6 +3,8 @@ description: Learn about Folders in Workspace
 keywords: Analysis Workspace
 title: Folders overview
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # About Folders in Workspace Projects

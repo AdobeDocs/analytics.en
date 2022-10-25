@@ -3,6 +3,8 @@ description: Learn how to add folders in Workspace
 keywords: Analysis Workspace
 title: Add Folders in Workspace
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Add Projects to Folders

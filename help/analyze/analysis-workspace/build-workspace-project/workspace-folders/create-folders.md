@@ -3,6 +3,8 @@ description: Learn how to create folders and subfolders in Workspace
 keywords: Analysis Workspace
 title: Create Folders
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Create folders

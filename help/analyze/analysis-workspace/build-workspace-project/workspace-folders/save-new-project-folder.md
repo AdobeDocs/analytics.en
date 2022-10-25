@@ -3,6 +3,8 @@ description: Learn about saving projects to folders in Workspace
 keywords: Analysis Workspace
 title: Saving projects to folders
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Save a New Project to a Folder

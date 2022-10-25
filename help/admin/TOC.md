@@ -78,6 +78,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Real-time reports overview](admin/realtime/realtime.md)
     + [Real-time reports configuration](admin/realtime/t-realtime-admin.md)
     + [Supported real-time metrics and dimensions](admin/realtime/realtime-metrics.md)
+  + [Reporting Activity Manager](admin/reporting-activity.md)
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)

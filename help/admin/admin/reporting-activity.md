@@ -40,8 +40,3 @@ Refresh the page to change the results.
 ## Filter report suites
 
 You can filter the report suites by the
-
-
-
-
-

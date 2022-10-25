@@ -10,13 +10,6 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## Related resources
-
-* [Previous release notes for 2022](/help/release-notes/2022.md)
-* [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Media Analytics release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-* The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)
-
 ## New or updated features in Adobe Analytics
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
@@ -65,3 +58,10 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 ## AppMeasurement
 
 For the latest updates on AppMeasurement releases (Version 2.23.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en).
+
+## Related resources
+
+* [Previous release notes for 2022](/help/release-notes/2022.md)
+* [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Media Analytics release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)

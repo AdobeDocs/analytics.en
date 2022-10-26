@@ -5,7 +5,7 @@ description: Use the collectHighEntropyUserAgentHints variable to determine whet
 
 # collectHighEntropyUserAgentHints
 
-High-entropy client hints are used by Adobe Analytics to improve device and browser identification. Read more about client hints in [this overview and FAQ](/help/technotes/client-hints.md) as well as [Google's blog](https://web.dev/user-agent-client-hints/).
+High-entropy client hints are used by Adobe Analytics to improve device and browser identification. This option is available starting with version 2.23.0 of AppMeasurment.js. Read more about client hints in [this overview and FAQ](/help/technotes/client-hints.md) as well as [Google's blog](https://web.dev/user-agent-client-hints/).
 
 ## Collect high-entropy hints using the Web SDK
 

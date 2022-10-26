@@ -21,7 +21,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue where recent MacOS versions were incorrectly named as "Macintosh". With this fix, the OS dimension will begin using "MacOS" version numbering, starting with MacOS 11. (AN-301834)
+* Fixed an issue where recent MacOS versions were incorrectly named "Macintosh". With this fix, the OS dimension will begin using "MacOS" version numbering, starting with MacOS 11. (AN-301834)
 * Fixed an issue with the "fixed dates" date range in Report Builder. (AN-303684)
 * Fixed issues with the Data Feed UI not loading. (AN-303803, AN-303784)
 

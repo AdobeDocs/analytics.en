@@ -3,6 +3,8 @@ description: Learn how to create folders and subfolders in Workspace
 keywords: Analysis Workspace
 title: Create Folders
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Create folders
@@ -11,7 +13,7 @@ You can add a new folder or a subfolder to the list of projects and folders on y
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 ## Create a new folder
 

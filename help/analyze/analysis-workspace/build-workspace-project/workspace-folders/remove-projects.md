@@ -3,6 +3,8 @@ description: Learn how to remove projects from folders
 keywords: Analysis Workspace
 title: Remove projects from folders
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Remove a Project From a Folder
@@ -11,7 +13,7 @@ To remove a project from a folder, you can move the project to another location 
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 >[!NOTE]
 >

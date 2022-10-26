@@ -3,6 +3,8 @@ description: Learn about saving projects to folders in Workspace
 keywords: Analysis Workspace
 title: Saving projects to folders
 feature: Workspace Basics
+hide: yes
+hidefromtoc: yes
 ---
 
 # Save a New Project to a Folder
@@ -11,7 +13,7 @@ To save a new project to a specific folder, select the folder name in the Save p
 
 >[!NOTE]
 >
->This feature is currently in limited release. Some screens may change.
+>This feature is currently in Beta. Some screens may change.
 
 1.  In Workspace, create a new project.
 

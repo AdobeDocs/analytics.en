@@ -32,11 +32,13 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `c_color` | Bit depth of the color palette. Used as part of calculating the [Color depth](/help/components/dimensions/color-depth.md) dimension. AppMeasurement uses the JavaScript function `screen.colorDepth()`. | char(20) |
 | `campaign` | Variable used in the [Tracking Code](/help/components/dimensions/tracking-code.md) dimension.| varchar(255) |
 | `carrier` | Adobe Advertising Cloud integration variable. Specifies the mobile carrier. References the `carrier` lookup table. | varchar(100) |
+| `ch_hdr` | Client hints collected through the HTTP request header. | text |
+| `ch_js` | Client hints collected through the User-Agent Client Hints JavaScript API. | text |
 | `channel` | Variable used in the [Site sections](/help/components/dimensions/site-section.md) dimension.| varchar(100) |
 | `click_action` | No longer used. Address of linked clicked in the legacy Clickmap tool. | varchar(100) |
 | `click_action_type` | No longer used. Link type of the legacy Clickmap tool.<br>0: HREF URL<br>1: Custom ID<br>2: JavaScript onClick event<br>3: Form element| tinyint unsigned |
 | `click_context` | No longer used. Page name where the link click occurred. Part of the legacy Clickmap tool. | varchar(255) |
-| `click_context_type` | No longer used. Indicates if click_context had a page name or defaulted to page URL.<br>0: Page URL<br>1: Page Name| tinyint unsigned |
+| `click_context_type` | No longer used. Indicates if `click_context` had a page name or defaulted to page URL.<br>0: Page URL<br>1: Page Name| tinyint unsigned |
 | `click_sourceid` | No longer used. Numeric ID for the location on the page of the clicked link. Part of the legacy Clickmap tool. | int unsigned |
 | `click_tag` | No longer used. Type of HTML element that was clicked. | char(10) |
 | `clickmaplink` | Activity Map link | varchar(255) |
@@ -44,22 +46,22 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `clickmappage` | Activity Map page | varchar(255) |
 | `clickmapregion` | Activity Map region | varchar(255) |
 | `code_ver` | AppMeasurement Library version used to compile and send the image request. | char(16) |
-| `color` | Color depth ID based on the value of the `c_color` column. References the `color_depth.tsv` lookup table.| smallint unsigned|
+| `color` | Color depth ID based on the value of the `c_color` column. References the `color_depth.tsv` lookup table.| smallint unsigned |
 | `connection_type` | Numeric ID representing the connection type. Variable used in the [Connection type](/help/components/dimensions/connection-type.md) dimension. References the `connection_type.tsv` lookup table.| tinyint unsigned |
 | `cookies` | Variable used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.<br>Y: Enabled<br>N: Disabled<br>U: Unknown| char(1)|
 | `country` | Numeric ID representing values found in the `country.tsv` lookup. Used in the Top level domains report in Reports & Analytics. | smallint unsigned|
 | `ct_connect_type` | Related to the `connection_type` column. Most common values are LAN/Wifi, Mobile Carrier, and Modem. | char(20) |
-| `curr_factor` | Determines the currency decimal place, and is used for currency conversion. For example, USD uses two decimal places, so this column value would be 2. | tinyint|
+| `curr_factor` | Determines the currency decimal place, and is used for currency conversion. For example, USD uses two decimal places, so this column value would be 2. | tinyint |
 | `curr_rate` | The exchange rate when the transaction occurred. Adobe partners with XE to determine the current day's exchange rate.| decimal(24,12) |
 | `currency` | The currency code that was used during the transaction.| char(8)|
 | `cust_hit_time_gmt` | Timestamp-enabled report suites only. The timestamp sent with the hit, based in Unix time. | int|
 | `cust_visid` | If a custom visitor ID is set, it is populated in this column. | varchar(255) |
 | `daily_visitor` | Flag to determine if the hit is a new daily visitor. | tinyint unsigned |
 | `date_time` | The time of the hit in readable format, based on the report suite's time zone. | datetime |
-| `domain` | Variable used in the [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's internet access point.| varchar(100) |
-| `duplicate_events` | Lists each event that was counted as a duplicate.| varchar(255) |
-| `duplicate_purchase` | Flag indicating that the purchase event for this hit should be ignored because it is a duplicate. | tinyint unsigned |
-| `duplicated_from` | Only used in report suites containing hit copy VISTA rules. Indicates which report suite the hit was copied from. | varchar(40)|
+| `domain` | Variable used in the [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's internet access point. | varchar(100) |
+| `duplicate_events` | Lists each event that was counted as a duplicate. | varchar(255) |
+| `duplicate_purchase` | Flag indicating that the purchase event for this hit is ignored because it is a duplicate. | tinyint unsigned |
+| `duplicated_from` | Only used in report suites containing hit copy VISTA rules. Indicates which report suite that the hit was copied from. | varchar(40)|
 | `ef_id` | The `ef_id` used in Adobe Advertising Cloud integrations. | varchar(255) |
 | `evar1 - evar250` | Custom variables 1-250. Used in [eVar](/help/components/dimensions/evar.md) dimensions. Each organization uses eVars differently. The best place for more information on how your organization populates respective eVars would be a solution design document specific to your organization. | varchar(255) |
 | `event_list` | Comma-separated list of numeric IDs representing events triggered on the hit. Includes both default events and custom events 1-1000. Uses `event.tsv` lookup. | text |
@@ -82,8 +84,9 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `hitid_low` | Used in combination with `hitid_high` to identify a hit. | bigint unsigned |
 | `homepage` | No longer used. Indicated if the current URL is the browser's homepage. | char(1) |
 | `hourly_visitor` | Flag to determine if the hit is a new hourly visitor. | tinyint unsigned |
-| `ip` | IP Address, based on the HTTP header of the image request. | char(20) |
+| `ip` | The IPv4 address, based on the HTTP header of the image request. Mutually exclusive to `ipv6`; if this column contains a non-obfuscated IP address, `ipv6` is blank. | char(20) |
 | `ip2` | Not used. Backend reference variable for report suites containing VISTA rules based on IP address. | char(20) |
+| `ipv6` | The compressed IPv6 address, if available. If an IP address is something like `2001:cDBa:0000:0000:0000:0000:3257:0052`, the data feed contains `2001:cdba::3257:52`. Mutually exclusive to `ip`; if this column contains a non-obfuscated IP address, `ip` is blank. | varchar(40) |
 | `j_jscript` | Version of JavaScript supported by the browser. | char(5) |
 | `java_enabled` | Flag indicating whether Java is enabled. <br>Y: Enabled <br>N: Disabled <br>U: Unknown | char(1)|
 | `javascript` | Lookup ID of JavaScript version, based on `j_jscript`. Uses lookup table. | tinyint unsigned |
@@ -139,7 +142,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `mobilerelaunchcampaigntrackingcode` | Collected from the context data variable `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
 | `mobileresolution` | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Flag indicating the visitor is unique to the current month. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
+| `mvvar1` - `mvvar3` | List variable values set on the current hit or persisted from previous hits. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
+| `mvvar1_instances` - `mvvar3_instances` | The list variable values that were set on the current hit. The `post_mvvar1_instances` - `post_mvvar3_instances` columns replace the original delimiter with `--**--`. | text |
 | `namespace` | Not used. Part of a scrapped feature. | varchar(50) |
 | `new_visit` | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | `os` | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. Uses `os` lookup. | int unsigned |
@@ -265,7 +269,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `visit_ref_domain` | Based on the `visit_referrer` column. The first referring domain of the visit. | varchar(100) |
 | `visit_ref_type` | Numeric ID representing the referrer type of the first referrer of the visit. Uses the `referrer_type.tsv` lookup table. | tinyint unsigned |
 | `visit_referrer` | The first referrer of the visit. | varchar(255) |
-| `visit_search_engine` | Numeric ID of the first search engine of the visit. Uses `search_engines.tsv` lookup. | smallint unsigned|
+| `visit_search_engine` | Numeric ID of the first search engine of the visit. Uses `search_engines.tsv` lookup. | smallint unsigned |
 | `visit_start_page_url` | The first URL of the visit. | varchar(255) |
 | `visit_start_pagename` | The Page Name value in the first hit of the visit. | varchar(100) |
 | `visit_start_time_gmt` | Timestamp (in Unix time) of the first hit of the visit. | int |

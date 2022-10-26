@@ -84,9 +84,9 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `hitid_low` | Used in combination with `hitid_high` to identify a hit. | bigint unsigned |
 | `homepage` | No longer used. Indicated if the current URL is the browser's homepage. | char(1) |
 | `hourly_visitor` | Flag to determine if the hit is a new hourly visitor. | tinyint unsigned |
-| `ip` | The IPv4 address, based on the HTTP header of the image request. | char(20) |
+| `ip` | The IPv4 address, based on the HTTP header of the image request. Mutually exclusive to `ipv6`; if this column contains a non-obfuscated IP address, `ipv6` is blank. | char(20) |
 | `ip2` | Not used. Backend reference variable for report suites containing VISTA rules based on IP address. | char(20) |
-| `ipv6` | The IPv6 address, if available. | varchar(40) |
+| `ipv6` | The compressed IPv6 address, if available. If an IP address is something like `2001:cDBa:0000:0000:0000:0000:3257:0052`, the data feed contains `2001:cdba::3257:52`. Mutually exclusive to `ip`; if this column contains a non-obfuscated IP address, `ip` is blank. | varchar(40) |
 | `j_jscript` | Version of JavaScript supported by the browser. | char(5) |
 | `java_enabled` | Flag indicating whether Java is enabled. <br>Y: Enabled <br>N: Disabled <br>U: Unknown | char(1)|
 | `javascript` | Lookup ID of JavaScript version, based on `j_jscript`. Uses lookup table. | tinyint unsigned |
@@ -142,7 +142,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | `mobilerelaunchcampaigntrackingcode` | Collected from the context data variable `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
 | `mobileresolution` | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | `monthly_visitor` | Flag indicating the visitor is unique to the current month. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
+| `mvvar1` - `mvvar3` | List variable values set on the current hit or persisted from previous hits. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
+| `mvvar1_instances` - `mvvar3_instances` | The list variable values that were set on the current hit. The `post_mvvar1_instances` - `post_mvvar3_instances` columns replace the original delimiter with `--**--`. | text |
 | `namespace` | Not used. Part of a scrapped feature. | varchar(50) |
 | `new_visit` | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | `os` | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. Uses `os` lookup. | int unsigned |

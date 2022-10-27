@@ -2,6 +2,7 @@
 description: Learn about how to use the Reporting Activity Manager to diagnose and fix capacity issues during peak reporting times.
 title: Reporting Activity Manager
 feature: Admin Tools
+mini-toc-levels: 3
 hide: true
 hidefromtoc: true
 ---
@@ -24,19 +25,26 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 ## View the reports queue
 
-When opening the Reporting Activity Manager overview page, you will see a list of your enabled base report suites.
+When opening the Reporting Activity Manager overview page, you see a list of your enabled base report suites.
 
 ![reports queue](assets/reporting-activity1.png)
 
 | UI Element | Description |
 | --- | --- |
-| **[!UICONTROL Report Suite]** | The base report suite |
-|  **[!UICONTROL Virtual Report Suite]** | All virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined and come down to the base report suite.<p>If you have 10 requests coming from 5 VRSs, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. |
+| **[!UICONTROL Report Suite]** | The base report suite whose reporting activity you are monitoring.|
+|  **[!UICONTROL Virtual Report Suite]** | Shows all virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined and come down to the base report suite.<p>For example, f you have 10 requests coming from 5 VRSs, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. |
 | **[!UICONTROL Usage Capacity]** | Percentage wise, how much of the report suite's reporting capacity is being used, in real time. |
-| **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - At Capacity**: The report suite is maxed out in terms of reporting capacity.</li><li>**Yellow - Nearing capacity**: This report suite is in danger of reaching its maximum capacity.</li><li>**Green - Available**: There is plenty of reporting capacity.</li><li>**Grey - Unavailable**: The report suite is not configured for reporting capacity.</li></ul>|
+| **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - At Capacity**: The report suite is maxed out in terms of reporting capacity.</li><li>**Yellow - Nearing capacity**: This report suite is in danger of reaching its maximum capacity.</li><li>**Green - All good**: There is plenty of reporting capacity.</li><li>**[!UICONTROL Status pending]**: ?</li><li>**Grey - Unavailable**: The report suite is not configured for reporting capacity.</li></ul>|
 
-Refresh the page to change the results.
+### Reporting Activity actions
 
-## Filter report suites
+* Click **[!UICONTROL Refresh]** at the top right to refresh the results.
+* Click the star to the left of the report suite name to favorite this report suite.
+* Check **[!UICONTROL Favorites]** at the top left to show your favorites.
+* Search on report suites by name or by ID in the search bar.
+* Filter report suites by their status.
 
-You can filter the report suites by the
+## View reporting activity for individual report suites
+
+
+

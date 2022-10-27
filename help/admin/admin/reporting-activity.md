@@ -64,15 +64,27 @@ The line graph shows the reporting activity for the selected report suite over t
 
 You can filter the table by Application (see list in the table below), by User, and by Project.
 
-   ![filter](assets/filter.png)
+![filter](assets/filter.png)
 
 ### Summary Numbers
 
+![filter](assets/summary_numbers.png)
+
 The Summary Numbers show the following information:
+
+| Summary Number | Description |
+| --- | --- |
+| Users | How many users are currently sending reporting requests to this report suite.  |
+| Projects |  | 
+| Queries |  |
+| Average Wait Time |  |
+| Usage Capacity | The current usage capacity for this report suite. |
+
+{style="table-layout:auto"}
 
 ### Table
 
-
+The detailed table below shows 
 
 | Column | Description |
 | --- | --- |
@@ -88,6 +100,6 @@ The Summary Numbers show the following information:
 | Segments | |
 | Status |  |
 
-
+{style="table-layout:auto"}
 
 

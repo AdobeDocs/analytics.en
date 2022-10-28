@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October/November 2022)
 
-**Last update**: October 25, 2022
+**Last update**: October 28, 2022
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -15,7 +15,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | October 5, 2022 | October 19, 2023 |
-| **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1` - `mvvar3` in data feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
+| **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1 - mvvar3` and `post_mvvar1 - post_mvvar3` in Data Feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
 
 {style="table-layout:auto"}
 

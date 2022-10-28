@@ -182,3 +182,4 @@ source,destination
 /docs/analytics/implementation/aep-edge/xdm-manual.html,/docs/analytics/implementation/aep-edge/web-sdk/overview.html
 /docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html,/docs/analytics/implementation/aep-edge/variable-mapping.html
 /docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html,/docs/analytics/technotes/processing-order.html
+/docs/analytics/analyze/reports-analytics/reporting-interface/app-ios.html,/docs/analytics/analyze/mobapp/home.html

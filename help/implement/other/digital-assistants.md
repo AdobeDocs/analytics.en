@@ -107,7 +107,7 @@ Each of the digital assistants has algorithms that detect intents and then passe
 
 For example, if a user says, "Siri, Send John $20 for dinner last night from my banking app," the intent might be something like *sendMoney*.
 
-By sending in each of these requests as an eVar, you can run pathing reports on each of the intents for conversational apps. Make sure your app can handle requests without an intent as well. Adobe recommends passing in 'No Intent Specified' to the intent context data variable, as opposed to omitting the variable.
+By sending in each of these requests as an eVar, you can run pathing reports on each of the intents for conversational apps. Make sure that your app can handle requests without an intent as well. Adobe recommends passing in 'No Intent Specified' to the intent context data variable, as opposed to omitting the variable.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1

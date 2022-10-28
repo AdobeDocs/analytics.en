@@ -8,7 +8,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 
 Creating a data feed allows Adobe to know where to send raw data files, and what you would like to include in each file. This page lists individual settings you can customize when creating a data feed.
 
-Basic knowledge of data feeds is recommended before reading this page. See [Data feeds overview](data-feed-overview.md) to make sure you meet the requirements to create a data feed.
+Basic knowledge of data feeds is recommended before reading this page. See [Data feeds overview](data-feed-overview.md) to make sure that you meet the requirements to create a data feed.
 
 ## Feed Information fields
 

@@ -35,7 +35,7 @@ The following table lists the tasks required for visitor migration:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>To get started:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  > Contact Customer Care </a> with the domain(s) you want to migrate, and the migration period you would like to enable (30, 60, or 90 days). Make sure you include the non-secure and secure domains. </p> </td> 
+   <td colname="col1"> <p> <b>To get started:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  > Contact Customer Care </a> with the domain(s) you want to migrate, and the migration period you would like to enable (30, 60, or 90 days). Make sure that you include the non-secure and secure domains. </p> </td> 
    <td colname="col3"> <p>Create a list with the <i>exact</i> syntax for the domains you want to migrate to and migrate from. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 

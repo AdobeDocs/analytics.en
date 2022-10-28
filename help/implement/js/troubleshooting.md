@@ -14,7 +14,7 @@ Most variables sent to Adobe are strings. In JavaScript, you can use either sing
 
 ### Mixing quotes to define a variable
 
-As a best practice, make sure you are consistent with the types of quotes you use. If a single quote designates the start of a string, a single quote must be used to close it.
+As a best practice, make sure that you are consistent with the types of quotes you use. If a single quote designates the start of a string, a single quote must be used to close it.
 
 For example, both `s.eVar1 = 'Value'` and `s.eVar1 = "Value"` are both valid. `s.eVar1 = 'Value"` is not valid.
 

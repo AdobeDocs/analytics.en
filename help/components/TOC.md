@@ -44,6 +44,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Exit link](dimensions/exit-link.md)
   + [First touch channel](dimensions/first-touch-channel.md)
   + [First touch channel detail](dimensions/first-touch-detail.md)
+  + [Hierarchy](dimensions/hierarchy.md)
   + [Hit depth](dimensions/hit-depth.md)
   + [Hit type](dimensions/hit-type.md)
   + [Hour of day](dimensions/hour-of-day.md)

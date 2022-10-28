@@ -1,5 +1,5 @@
 ---
-title: eVar (Merchandising) variables
+title: eVar (Merchandising variable)
 description: Custom variables that tie to individual products.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
@@ -7,13 +7,13 @@ mini-toc-levels: 3
 ---
 # eVar (Merchandising)
 
-*This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*
+*This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVars (Merchandising dimension)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*
 
 For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 
 ## Set up eVars in report suite settings
 
-Before using eVars in your implementation, make sure you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+Before using eVars in your implementation, make sure that you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
 >[!WARNING]
 >

@@ -25,7 +25,7 @@ A data file must adhere to the following structure rules:
 * Uploaded files should use UTF-8 without BOM character encoding.
 * Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Special characters include:
 
-  ```
+  ```text
   \t     tab character 
   \r     form feed character 
   \n    newline character 
@@ -44,10 +44,10 @@ A data file must adhere to the following structure rules:
 * Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters.
 * Cell C1 in the first line of the import file contains a version identifier that determines how classifications handle the use of quotes throughout the remainder of the file.
 
-    * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""".
-    * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value".
-    * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
-    * Make sure you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
+  * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""".
+  * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value".
+  * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
+  * Make sure that you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
 
 * The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](/help/components/classifications/importer/c-saint-data-files.md).
 * Immediately following the header row in a data file are the data rows. Each line of data should contain a data field for each column heading.

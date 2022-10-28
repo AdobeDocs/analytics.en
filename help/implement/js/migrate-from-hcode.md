@@ -21,7 +21,7 @@ The following steps outline a typical migration workflow.
 
 1. **Download the new AppMeasurement file**: Access the new file by logging in to Adobe Analytics, then navigating to Admin > All admin > Code manager. The downloaded compressed file contains a minified `AppMeasurement.js` file, along with Media and Integrate modules.
 1. **Copy your `s_code.js` customizations to `AppMeasurement.js`**: Move all the code before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in `s_code.js` to the beginning of `AppMeasurement.js`.
-1. **Update all plug-ins**: Make sure you are using the latest version of each plug-in listed in your `s_code.js` file. This includes the Media and Integrate modules.
+1. **Update all plug-ins**: Make sure that you use the latest version of each plug-in listed in your `s_code.js` file. This step includes the Media and Integrate modules.
 1. **Deploy the AppMeasurement.js file**: Upload your `AppMeasurement.js` file to your web server.
 1. **Update script references to point to `AppMeasurement.js`**: Make sure all pages reference `AppMeasurement.js` instead of `s_code.js`.
 

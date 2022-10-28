@@ -1,6 +1,6 @@
 ---
 title: Define your Top 5 KPIs
-description: Make sure your key performance indicators and associated metrics and dimensions align closely with your business needs.
+description: Make sure that your key performance indicators and associated metrics and dimensions align closely with your business needs.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 ---

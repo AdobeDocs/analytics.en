@@ -8,6 +8,8 @@ exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 ---
 # Data extract
 
+{{ra-eol}}
+
 Data extracts let you choose the parameters you will view on both the X- and Y-axes of the report, as well as the item by which the report is filtered.
 
 For example, you could place products along the left side of the report, dates across the top, and a metric as the overall data filter. The Data Extracts are delivered reports, and are only available in CSV format.

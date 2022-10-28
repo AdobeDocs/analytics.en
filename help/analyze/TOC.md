@@ -299,7 +299,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
     + [Report Features](reports-analytics/overview/report-overview.md)
     + [Common Terms](reports-analytics/overview/overview-common-terms.md)
-    + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
   + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)

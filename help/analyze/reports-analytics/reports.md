@@ -7,6 +7,8 @@ exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 ---
 # Reports
 
+{{ra-eol}}
+
 Each report in Reports & Analytics uses a dedicated dimension and default metric. You can change the metric in each report and add breakdowns if desired. The following lists provide what dimension is used in each report.
 
 >[!NOTE]

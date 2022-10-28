@@ -8,6 +8,8 @@ exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 ---
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
 
+{{ra-eol}}
+
 Filters allow you to narrow the report to include or exclude line items that match a filter.
 
 ## Simple Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}

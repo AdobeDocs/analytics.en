@@ -9,6 +9,8 @@ exl-id: 8b923484-0988-4271-8186-317bb33f2210
 ---
 # Bookmark Manager
 
+{{ra-eol}}
+
 Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors.
 
 ## Create a bookmark {#task_305BDB470E374026AD48F19D11A387A6}

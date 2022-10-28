@@ -40,6 +40,8 @@ When opening the Reporting Activity Manager overview page, you see a list of you
 | **[!UICONTROL Usage Capacity]** | Percentage wise, how much of the report suite's reporting capacity is being used, in real time. |
 | **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (95% - 100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 94%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 90%)</li><li>**Grey - [!UICONTROL Status pending]**: ?</li></ul>|
 
+{style="table-layout:auto"}
+
 ### Other Reporting Activity actions
 
 * Click **[!UICONTROL Refresh]** at the top right to refresh the results.

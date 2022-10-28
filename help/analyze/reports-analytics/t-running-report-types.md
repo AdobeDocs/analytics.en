@@ -8,6 +8,8 @@ exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 ---
 # Run different report types
 
+{{ra-eol}}
+
 Steps on running the different report types.
 
 ## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}

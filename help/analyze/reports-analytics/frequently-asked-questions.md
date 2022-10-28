@@ -8,6 +8,8 @@ exl-id: 99702728-971f-484a-91f5-f3210b89485c
 ---
 # Frequently Asked Questions
 
+{{ra-eol}}
+
 Provides answers and troubleshooting suggestions to some of the most frequently asked Analytics questions for Reports & Analytics. For frequently asked implementation questions, see the [FAQ](/help/implement/faq.md) in the Implement user guide.
 
 >[!IMPORTANT]

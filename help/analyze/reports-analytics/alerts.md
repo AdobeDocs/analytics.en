@@ -9,6 +9,8 @@ exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
 ---
 # Alerts
 
+{{ra-eol}}
+
 ## Alerts {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
 As the new alert system for all of Adobe Analytics, Intelligent Alerts let you create and manage alerts, complete with alert preview and rule contribution. You can

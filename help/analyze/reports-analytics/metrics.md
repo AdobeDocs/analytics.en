@@ -7,6 +7,8 @@ exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 ---
 # Reports & Analytics metrics overview
 
+{{ra-eol}}
+
 Metrics are the foundation of reports and help you view and understand data relationships and enable side-by-side comparisons of different data sets about your website. Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.
 
 Metrics and associated data are displayed in the columns of reports. Traffic metrics show data about the volume of visitors. Conversion metrics show data about success events, such as purchases, downloads, or any other action that you want users to take on your website.

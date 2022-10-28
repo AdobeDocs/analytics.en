@@ -10,16 +10,16 @@ Why should you review your implementation every few months? So you can address a
 
 ## 1. Start with your top 5 KPIs
 
-Knowing your top 5 key performance indicators (KPIs) will help you determine the associated metrics and dimensions you need to examine. If you haven’t refreshed your KPIs in the last 6 months or if your business hasn’t created KPIs yet, follow [these instructions](/help/implement/review/define-kpis.md). 
+Knowing your top 5 key performance indicators (KPIs) will help you determine the associated metrics and dimensions you need to examine. If you haven’t refreshed your KPIs in the last 6 months or if your business hasn’t created KPIs yet, follow [these instructions](/help/implement/review/define-kpis.md).
 
-## 2. Make sure your KPI metrics and variables are still functioning well
+## 2. Make sure that your KPI metrics and variables still function well
 
-Remember, code updates over time can have unintended ramifications. You want to make sure that all the metrics and dimensions associated with your [top 5 KPIs](/help/implement/review/define-kpis.md) are still functioning properly. Ideally, this should be done right after a website release; if you haven’t done it in the last few months, do it *now*. To do this:
+Remember, code updates over time can have unintended ramifications. You want to make sure that all the metrics and dimensions associated with your [top 5 KPIs](/help/implement/review/define-kpis.md) still function properly. Ideally, this is done right after a website release; if you haven’t done it in the last few months, do it *now*. To do this:
 
 * Create dashboards to see hourly trended views of these critical metrics and variables (or set up [intelligent alerts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) for each metric). Then monitor them for a day or two to ensure you’re getting the data you expect, and the data is correct. Look for inflection points. Be prepared to remediate any critical issues immediately. If you find any discrepancies, look in your data layer, tag manager rules, and processing rules to find out why.
 * Re-run the [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) to monitor broad trends of your KPI metrics and variables.
 
-*For more details about how to make sure your metrics and variables are functioning properly, [read these tips](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) from Adobe Analytics Champion Sarah Owen.*
+*For more details about how to make sure that your metrics and variables are functioning properly, [read these tips](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) from Adobe Analytics Champion Sarah Owen.*
 
 ## 3. Thoroughly examine the data from the updated section of your site
 

@@ -1,6 +1,6 @@
 ---
-title: eVar for Dimensions
-description: A custom dimension you can use in reporting.
+title: eVar (dimension)
+description: A custom dimension that you can use in reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 ---
@@ -22,7 +22,7 @@ AppMeasurement, which compiles JavaScript variables into an image request for da
 
 ## Dimension items
 
-Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure that you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## How eVars work
 

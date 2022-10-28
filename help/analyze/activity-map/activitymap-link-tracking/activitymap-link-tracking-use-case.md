@@ -10,7 +10,7 @@ exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 
 You can differentiate links by customizing the link ID using the s_objectID variable, by customizing the region, and by customizing the AppMeasurement ActivityMap module file .
 
-As an example, let's say you have multiple "Buy" links that are identified by Activity Map under the same Link ID and Region: 
+As an example, let's say you have multiple "Buy" links that are identified by Activity Map under the same Link ID and Region:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93">
  <thead>
@@ -74,6 +74,7 @@ By creating a unique object ID, `s_objectID`, for a link or link location on a p
 >[!IMPORTANT]
 >
 >Note that a trailing semicolon (`;`) is required when using `s_objectID` in Activity Map.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -133,7 +134,8 @@ You can customize the region by ensuring that each "Buy" link has its own Region
 
 >[!NOTE]
 >
->>You are not strictly limited to the `"id"` parameter as a region identifier. You can also set your own identifier using the JavaScript variable `"s.ActivityMap.regionIDAttribute"`.
+>You are not strictly limited to the `"id"` parameter as a region identifier. You can also set your own identifier using the JavaScript variable `"s.ActivityMap.regionIDAttribute"`.
+
 <table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
@@ -191,11 +193,11 @@ You can customize the region by ensuring that each "Buy" link has its own Region
 
 >[!CAUTION]
 >
->Make sure you test the modified code to ensure that it works properly. Adobe is not responsible for how the modified code behaves.
+>Make sure that you test the modified code to ensure that it works properly. Adobe is not responsible for how the modified code behaves.
 
 Here are a couple of examples of **generic** link/region functions you could include (in modified form) in your AppMeasurement.js file.
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -210,7 +212,7 @@ s.ActivityMap.link = function(ele, linkName) {
 
 The `linkName` is passed during calls to `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {

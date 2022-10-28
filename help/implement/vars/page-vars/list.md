@@ -8,7 +8,7 @@ exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 
 List variables are custom variables that you can use however you'd like. They work similarly to eVars, except they can contain multiple values in the same hit. List variables do not have a character limit.
 
-Make sure you record how you use each list variable and their logic in your [solution design document](../../prepare/solution-design.md).
+Make sure that you record how you use each list variable and their logic in your [solution design document](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

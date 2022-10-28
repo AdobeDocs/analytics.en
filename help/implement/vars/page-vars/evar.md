@@ -1,5 +1,5 @@
 ---
-title: eVar variables
+title: eVar (variable)
 description: Custom variables you can use in your implementation.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
@@ -14,7 +14,7 @@ The number of available eVars depends on your contract with Adobe. Up to 250 eVa
 
 ## Set up eVars in report suite settings
 
-Before using eVars in your implementation, make sure you configure each eVar in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+Before using eVars in your implementation, make sure that you configure each eVar in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
 ## eVars using the Web SDK
 

@@ -23,12 +23,12 @@ Access the Success Events page in report suite settings:
 
 There are many kinds of success events, depending on your web site type. Several examples include:
 
-* **Retail**: Product view, checkout, purchase 
-* **Media**: Subscription, contest sign-up, page view, video view 
-* **Finance**: Application submission, login, self-service tools usage 
-* **Travel**: Booking (purchase), internal campaign (click-through), search (pricing itinerary) 
-* **Telecommunications**: Purchase, leads, self-service tools usage 
-* **High Tech**: White-paper download, RFP, form completion, support requests 
+* **Retail**: Product view, checkout, purchase
+* **Media**: Subscription, contest sign-up, page view, video view
+* **Finance**: Application submission, login, self-service tools usage
+* **Travel**: Booking (purchase), internal campaign (click-through), search (pricing itinerary)
+* **Telecommunications**: Purchase, leads, self-service tools usage
+* **High Tech**: White-paper download, RFP, form completion, support requests
 * **Automotive**: Lead submission, request a quote, brochure download
 
 The [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variable defines a success event.

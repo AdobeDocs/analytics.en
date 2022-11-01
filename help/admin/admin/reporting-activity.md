@@ -11,12 +11,12 @@ mini-toc-levels: 3
 >
 >This functionality is currently in beta testing.
 
-The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. 
+The [!UICONTROL Reporting Activity Manager] lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. 
 
 When your organization reaches reporting request capacity and experiences a degradation in reporting performance, you now have a way to self-diagnose reporting issues without intervention from Adobe customer care or engineering. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. This tool:
 
 * Informs you, in real time, about your current reporting capacity  across your report suites.
-* Provides detailed report query information on current reporting requests, whether queued and in progress.
+* Provides detailed report query information on current reporting requests, whether queued or in progress.
 * Lets you optimize the reporting queue by prioritizing some and canceling other reporting requests to free up capacity. In other words, you can ask in real time: is this report necessary at this time or can I cancel it in favor of more urgent reports?
 
 ## Access the Reporting Activity Manager
@@ -29,7 +29,7 @@ You require Analytics System Admin permissions to manage reporting activity. Pro
 
 ## View the reports queue
 
-When opening the Reporting Activity Manager overview page, you see a list of your enabled base report suites.
+When opening the [!UICONTROL Reporting Activity] Manager overview page, you see a list of your enabled base report suites.
 
 ![reports queue](assets/reporting-activity1.png)
 
@@ -98,7 +98,7 @@ The detailed table below shows details on the report suite.
 | [!UICONTROL Running Time] | How long the query has been running. |
 | [!UICONTROL Wait Time] | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
 | [!UICONTROL Start Time] | When the query started processing (Admin's local time). |
-| [!UICONTROL Application] | The applications supported by the Reporting Activity Manager are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
+| [!UICONTROL Application] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
 | [!UICONTROL User] | The user who initiated the query. |
 | [!UICONTROL Project] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL Month Boundaries] | How many monthly boundaries a request crosses. This adds to the complexity of the request. |

@@ -25,7 +25,7 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 ## Permissions
 
-You require Analytics System Admin permissions to manage reporting activity. Product Admin access is not sufficient.
+You require Analytics Product Admin permissions to manage reporting activity.
 
 ## View the reports queue
 
@@ -112,7 +112,7 @@ The detailed table below shows details on the report suite.
 
 To cancel a request 
 
-1. Check the box to the left of one or more **[!UICONTROL Query ID]** in the table and click **[!UICONTROL Cancel requests]** at the bottom.
+1. Check the box to the left of one or more **[!UICONTROL Query ID]** in the table and click **[!UICONTROL Cancel requests]** at the bottom. (You can also cancel requests in bulk by viewing details by [!UICONTROL User], [!UICONTROL Project], or [!UICONTROL Application].)
 1. In the **[!UICONTROL Cancel x query]** window that appears, you can modify the cancellation message, if needed.
 1. Click **[!UICONTROL Continue]**.
 
@@ -121,7 +121,6 @@ To cancel a request
 Application users in Workspace, for example, will see the following notice appear in their projects:
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## Frequently asked questions
 

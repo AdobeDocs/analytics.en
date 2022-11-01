@@ -97,7 +97,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Germany </td> 
-   <td colname="col2"> <p>If customers do not already have a Data Processing Agreement for Adobe Analytics in place with Adobe, they should contact their Adobe Account Manager or Customer Success Manager, who will work with the Adobe Legal Department to get the DPA in place. </p> <p>Adobe has prepared a Data Processing Agreement (Vertrag fuer Auftragsdatenverarbeitung - ADV) for Analytics that has been reviewed and approved by the Bavarian Data Protection Authority (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). The ADV is available in German and English. </p> </td> 
+   <td colname="col2"> <p>If you do not already have a Data Processing Agreement for Adobe Analytics in place with Adobe, you should contact your Adobe Account Manager or Customer Success Manager, who will work with the Adobe Legal Department to get the DPA in place. </p> </td> 
   </tr> 
  </tbody> 
 </table>

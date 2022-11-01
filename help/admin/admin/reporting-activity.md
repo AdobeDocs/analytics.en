@@ -38,7 +38,7 @@ When opening the Reporting Activity Manager overview page, you see a list of you
 | **[!UICONTROL Report Suite]** | The base report suite whose reporting activity you are monitoring.|
 |  **[!UICONTROL Virtual Report Suite]** | Shows all virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined and come down to the base report suite.<p>For example, f you have 10 requests coming from 5 VRSs, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. |
 | **[!UICONTROL Usage Capacity]** | Percentage wise, how much of the report suite's reporting capacity is being used, in real time. |
-| **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (95% - 100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 94%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 90%)</li><li>**Grey - [!UICONTROL Status pending]**: ?</li></ul>|
+| **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
 
 {style="table-layout:auto"}
 
@@ -94,17 +94,17 @@ The detailed table below shows details on the report suite.
 
 | Column | Description |
 | --- | --- |
-| Query ID | Can be used for troubleshooting purposes. |
-| Running Time | How long the query has been running. |
-| Wait Time | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
-| Start Time | When the query started processing (Admin's local time). |
-| Application | The applications supported by the Reporting Activity Manager are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API (5 concurrent requests)</li><li>Intelligent alerts</li></ul> |
+| [!UICONTROL Query ID] | Can be used for troubleshooting purposes. |
+| [!UICONTROL Running Time] | How long the query has been running. |
+| [!UICONTROL Wait Time] | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
+| [!UICONTROL Start Time] | When the query started processing (Admin's local time). |
+| [!UICONTROL Application] | The applications supported by the Reporting Activity Manager are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
 | User | The user who initiated the query. |
-| Project | Workspace projects, Report Builder workbooks, etc. |
+| Project | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | Month Boundaries | How many monthly boundaries a request crosses. This adds to the complexity of the request. |
 | Columns | The number of metrics and breakdowns in Workspace to gauge the complexity of the request. |
 | Segments | How many segments are applied to this request. This adds to the complexity of the request. |
-| Status | Four possible status indicators: <ul><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (95% and up)</li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity (90% - 95%).</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity.</li><li>**[!UICONTROL Status pending]**: Status not available.</li></ul> |
+| Status | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -128,6 +128,5 @@ Application users in Workspace, for example, will see the following notice appea
 | Question | Answer |
 | --- | --- |
 | Can I purchase additional reporting capacity? | This capability will be available in the near future. |
-| Other questions? |  |
 
 {style="table-layout:auto"}

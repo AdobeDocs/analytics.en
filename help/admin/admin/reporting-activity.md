@@ -80,11 +80,11 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| Users | How many users are currently sending reporting requests to this report suite.  |
-| Projects | Workspace projects, Report Builder workbooks, etc.  | 
-| Queries | The number of queries currently running. |
-| Average Wait Time | The average wait time for all running queries.  |
-| Usage Capacity | The current usage capacity for this report suite. |
+| [!UICONTROL Users] | How many users are currently sending reporting requests to this report suite.  |
+| [!UICONTROL Projects] | Workspace projects, Report Builder workbooks, etc.  | 
+| [!UICONTROL Queries] | The number of queries currently running. |
+| [!UICONTROL Average Wait Time] | The average wait time for all running queries.  |
+| [!UICONTROL Usage Capacity] | The current usage capacity for this report suite. |
 
 {style="table-layout:auto"}
 
@@ -99,12 +99,12 @@ The detailed table below shows details on the report suite.
 | [!UICONTROL Wait Time] | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
 | [!UICONTROL Start Time] | When the query started processing (Admin's local time). |
 | [!UICONTROL Application] | The applications supported by the Reporting Activity Manager are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
-| User | The user who initiated the query. |
-| Project | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
-| Month Boundaries | How many monthly boundaries a request crosses. This adds to the complexity of the request. |
-| Columns | The number of metrics and breakdowns in Workspace to gauge the complexity of the request. |
-| Segments | How many segments are applied to this request. This adds to the complexity of the request. |
-| Status | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
+| [!UICONTROL User] | The user who initiated the query. |
+| [!UICONTROL Project] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
+| [!UICONTROL Month Boundaries] | How many monthly boundaries a request crosses. This adds to the complexity of the request. |
+| [!UICONTROL Columns] | The number of metrics and breakdowns in Workspace to gauge the complexity of the request. |
+| [!UICONTROL Segments] | How many segments are applied to this request. This adds to the complexity of the request. |
+| [!UICONTROL Status] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
 
 {style="table-layout:auto"}
 

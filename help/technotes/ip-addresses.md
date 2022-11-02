@@ -29,7 +29,7 @@ Adobe Analytics uses the following hosts to improve performance and product expe
 
 ## All Adobe Analytics IP address blocks
 
-The following table covers all Adobe owned IP addresses used for Adobe Analytics. They do not include all services hosted in public cloud.
+The following table covers all Adobe-owned IP addresses used for Adobe Analytics. They do not include all services hosted in public clouds.
 
 | IP Block (CIDR Notation) |
 | --- |

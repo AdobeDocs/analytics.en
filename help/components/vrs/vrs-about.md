@@ -54,6 +54,8 @@ Virtual report suites have the following limitations:
 | Can be individually added to Permissions Groups | Yes | Yes |
 | Can use Admin functions to modify individual settings on this report suite (Admin > Report Suites) | No (Settings are inherited from parent) | Yes |
 
+{style="table-layout:auto"}
+
 ## Combine Virtual Report Suites and Multi-suite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 In some cases, there are benefits to using both virtual report suites and multi-suite tagging.

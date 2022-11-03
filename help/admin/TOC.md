@@ -166,7 +166,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Labeling example](c-data-governance/gdpr-labeling-example.md)
   + [Data Privacy and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
   + [Data Privacy terminology](c-data-governance/gdpr-terminology.md)
-  + [Privacy Reporting Variables](c-data-governance/consent-variables.md)
 + Server Call Usage {#server-call-usage}
   + [Server call usage overview](c-server-call-usage/overage-overview.md)
   + [View current server call usage](c-server-call-usage/server-call-usage-dashboard.md)

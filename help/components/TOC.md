@@ -24,6 +24,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Cities](dimensions/cities.md)
   + [Color depth](dimensions/color-depth.md)
   + [Connection type](dimensions/connection-type.md)
+  + [Consent management opt-in](dimensions/cm-opt-in.md)
+  + [Consent management opt-out](dimensions/cm-opt-out.md)
   + [Cookie support](dimensions/cookie-support.md)
   + [Countries](dimensions/countries.md)
   + [Custom link](dimensions/custom-link.md)

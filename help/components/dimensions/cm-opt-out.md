@@ -20,6 +20,6 @@ Your organization determines the logic to implement these context data variables
 
 Dimension items include the following three values:
 
-* **`SSF`**: The visitor opted out of [Server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md). This dimension item is present when the context data variable `cm.ssf` equals `1`. See [Data privacy overview](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in the Audience Manager user guide for more information.
-* **`DMP`**: The visitor opted out of sharing to data management platforms. This dimension item is present when the context data variable `opt.dmp` equals `N`. The hit is not forwarded to Adobe Audience Manager.
+* **`SSF`**: The visitor opted out of [Server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md). This dimension item is present when the context data variable `cm.ssf` equals `1`. See [Data privacy overview](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) in the Audience Manager user guide for more information. The hit is not forwarded to Adobe Audience Manager.
+* **`DMP`**: The visitor opted out of sharing to data management platforms. This dimension item is present when the context data variable `opt.dmp` equals `N`. Similar to `SSF`, the hit is not forwarded to Adobe Audience Manager.
 * **`SELL`**: The visitor opted out of the sharing or selling of the data to third parties. This dimension is present when the context data variable `opt.sell` equals `N`.

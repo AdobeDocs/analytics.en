@@ -57,6 +57,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`cust_hit_time_gmt`** | Timestamp-enabled report suites only. The timestamp sent with the hit, based in Unix time. | int|
 | **`cust_visid`** | If a custom visitor ID is set, it is populated in this column. | varchar(255) |
 | **`daily_visitor`** | Flag to determine if the hit is a new daily visitor. | tinyint unsigned |
+| **`dataprivacyconsentoptin`** | Variable used in the [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`|`). Valid values include `DMP` and `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable used in the [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |
 | **`date_time`** | The time of the hit in readable format, based on the report suite's time zone. | datetime |
 | **`domain`** | Variable used in the [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's internet access point. | varchar(100) |
 | **`duplicate_events`** | Lists each event that was counted as a duplicate. | varchar(255) |
@@ -195,21 +197,24 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`socialownedpropertypropertyvsapp`** | No longer used. Social owned property vs app | varchar(255) |
 | **`state`** | State variable. | varchar(50) |
 | **`stats_server`** | Not of use. Adobe internal server that processed the hit. | char(30) |
+| **`survey`** | No longer used. Adobe Survey variable. | text |
+| **`survey_instances`** | No longer used. Adobe Survey instances variable. | text |
 | **`t_time_info`** | Local time for the visitor. Format is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Used in Adobe Target integrations. Represents all tests currently qualified for. Format is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | **`tnt_action`** | Used in Adobe Target integrations. Represents all tests the hit qualified for. | text |
+| **`tnt_instances`** | Used in Adobe Target integrations. Target instances variable. | text |
 | **`tnt_post_vista`** | No longer used. Use `post_tnt` instead. | text |
 | **`transactionid`** | A unique identifier where various data points can be uploaded later via data sources. Collected using the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable. | text |
 | **`truncated_hit`** | A flag indicating that the image request was truncated. Indicates that a partial hit was received. <br>Y: Hit was truncated; partial hit received <br>N: Hit was not truncated; full hit received | char(1)|
 | **`ua_color`** | No longer used. Formerly used as a fallback for color depth. | char(20) |
 | **`ua_os`** | No longer used. Formerly used as a fallback for operating system. | char(80) |
-| **`ua_pixels`** | No longer used. Formerly used as a fallback for browser height and width.| char(20) |
-| **`user_agent`** | User agent string sent in the HTTP header of the image request.| text |
+| **`ua_pixels`** | No longer used. Formerly used as a fallback for browser height and width. | char(20) |
+| **`user_agent`** | User agent string sent in the HTTP header of the image request. | text |
 | **`user_hash`** | Not of use. Hash on the report suite ID. Use `username` instead. | int unsigned |
 | **`user_server`** | Used in the [Server](/help/components/dimensions/server.md) dimension. | varchar(100) |
 | **`userid`** | Not of use. The numeric ID for the report suite ID. Use `username` instead. | int unsigned |
 | **`username`** | The report suite ID for the hit. | char(40) |
-| **`va_closer_detail`** | Variable used in the [Last touch detail](/help/components/dimensions/last-touch-detail.md) dimension.| varchar(255) |
+| **`va_closer_detail`** | Variable used in the [Last touch detail](/help/components/dimensions/last-touch-detail.md) dimension. | varchar(255) |
 | **`va_closer_id`** | Numeric ID that identifies the [Last touch channel](/help/components/dimensions/last-touch-channel.md) dimension. Lookup for this ID can be found in the Marketing Channel Manager. | tinyint unsigned |
 | **`va_finder_detail`** | Variable used in the [First touch detail](/help/components/dimensions/first-touch-detail.md) dimension. | varchar(255) |
 | **`va_finder_id`** | Numeric ID that identifies the [First touch channel](/help/components/dimensions/first-touch-channel.md) dimension. Lookup for this ID can be found in the Marketing Channel Manager. | tinyint unsigned |
@@ -262,7 +267,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`visid_low`** | Used in combination with `visid_high` to uniquely identify a visitor. | bigint unsigned |
 | **`visid_new`** | Flag to identify if the hit contains a newly generated visitor ID. | char(1) |
 | **`visid_timestamp`** | If visitor ID was newly generated, provides the timestamp (in Unix time) of when the visitor ID was generated. | int |
-| **`visid_type`** | Not for external use; internally used by Adobe for processing optimizations. Numeric ID representing the method used to identify the visitor.<br>0: Custom visitorID or Unknown/not applicable<br>1: IP and user agent fallback <br>2: HTTP Mobile Subscriber Header <br>3: Legacy cookie value (`s_vi`) <br>4: Fallback cookie value (`s_fid`) <br>5: Identity Service | tinyint unsigned |
+| **`visid_type`** | Not for external use; internally used by Adobe for processing optimizations. Numeric ID representing the method used to identify the visitor.<br>`0`: Custom visitor ID or Unknown/not applicable<br>`1`: IP and user agent fallback <br>`2`: HTTP Mobile Subscriber Header <br>`3`: Legacy cookie value (`s_vi`) <br>`4`: Fallback cookie value (`s_fid`) <br>`5`: Identity Service | tinyint unsigned |
 | **`visit_keywords`** | Variable used in the [Search keyword](/help/components/dimensions/search-keyword.md) dimension. This column uses a non-standard character limit of varchar(244) to accommodate back-end logic used by Adobe. | varchar(244) |
 | **`visit_num`** | Variable used in the [Visit number](/help/components/dimensions/visit-number.md) dimension. Starts at 1, and increments each time a new visit starts per visitor. | int unsigned |
 | **`visit_page_num`** | Variable used in the [Hit depth](/help/components/dimensions/hit-depth.md) dimension. Increases by 1 for each hit the user generates. Resets each visit. | int unsigned |

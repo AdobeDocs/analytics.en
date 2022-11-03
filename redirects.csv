@@ -226,3 +226,4 @@ source,destination
 /docs/analytics/components/variables/metrics/metrics-occurrences.html,/docs/analytics/components/metrics/occurrences.html
 /docs/analytics/components/variables/dimensions-reports/reports-pages.html,/docs/analytics/components/dimensions/page.html
 /docs/analytics/implementation/analytics-basics/traffic-props-evars/props-evars.html,/docs/analytics/components/dimensions/evar.html
+/docs/analytics/admin/data-governance/consent-variables.html,/docs/analytics/admin/admin-tools/privacy-reporting.html

@@ -11,7 +11,7 @@ Privacy reporting lets you enable the [Consent Management Opt-In](/help/componen
 To access this page:
 
 1. Log in to Adobe Analytics and navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.
-1. Select the desired report suite(s), then select **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
+1. Select one or more desired report suites, then select **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
 
    ![Edit settings](assets/rsm-privacy-select.png)
 
@@ -19,7 +19,7 @@ To access this page:
 
    >[!NOTE]
    >
-   >Once enabled these variables cannot be turned off.
+   >Once enabled, these variables cannot be turned off.
 
    ![Enable](assets/rsm-privacy-enable.png)
 

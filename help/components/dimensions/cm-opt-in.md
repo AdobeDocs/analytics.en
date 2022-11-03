@@ -1,6 +1,6 @@
 ---
 title: Consent Management Opt-In
-description: See which privacy settings a visitor opted in to.
+description: See which privacy settings that a visitor opted in to.
 ---
 # Consent Management Opt-In
 

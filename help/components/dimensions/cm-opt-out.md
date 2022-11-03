@@ -1,6 +1,6 @@
 ---
 title: Consent Management Opt-Out
-description: See which privacy settings a visitor opted out of.
+description: See which privacy settings that a visitor opted out of.
 ---
 # Consent Management Opt-Out
 

@@ -22,7 +22,7 @@ Use the following guidelines to determine how far in advance you must submit a t
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Traffic Notification </th>
+   <th colname="col1" class="entry"> Traffic Change Type </th>
    <th colname="col2" class="entry"> <p>Lead Time Needed </p> </th>
    <th colname="col3" class="entry"> <p>Notes </p> </th>
   </tr>
@@ -44,8 +44,8 @@ Use the following guidelines to determine how far in advance you must submit a t
    <td colname="col3" morerows="3"> X </td>
   </tr>
   <tr>
-   <td colname="col1"> Y </td>
-   <td colname="col2"> Y </td>
+   <td colname="col1"> Holiday events October – December </td>
+   <td colname="col2"> One month </td>
    <td colname="col3" morerows="3"> Y </td>
   </tr>
   <tr>

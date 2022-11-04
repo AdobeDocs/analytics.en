@@ -11,8 +11,7 @@ mini-toc-levels: 3
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
-* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* For information on Adobe Media Analytics, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
 

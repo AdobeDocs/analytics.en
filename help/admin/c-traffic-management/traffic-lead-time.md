@@ -24,34 +24,28 @@ Use the following guidelines to determine how far in advance you must submit a t
   <tr>
    <th colname="col1" class="entry"> Traffic Change Type </th>
    <th colname="col2" class="entry"> <p>Lead Time Needed </p> </th>
-   <th colname="col3" class="entry"> <p>Notes </p> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td colname="col1"> New report suite creation </td>
    <td colname="col2"> 5 business days </td>
-   <td colname="col3"> </td>
   </tr>
   <tr>
    <td colname="col1"> Traffic increase or spike of up to 25% in average daily volume </td>
    <td colname="col2"> No notification required </td>
-   <td colname="col3" morerows="3"> W </td>
   </tr>
   <tr>
    <td colname="col1"> Traffic increase or spike of more than 25% in average daily volume </td>
    <td colname="col2"> 10 business days </td>
-   <td colname="col3" morerows="3"> X </td>
   </tr>
   <tr>
    <td colname="col1"> Holiday events October – December </td>
    <td colname="col2"> One month </td>
-   <td colname="col3" morerows="3"> Y </td>
   </tr>
   <tr>
    <td colname="col1"> Z </td>
    <td colname="col2"> Z </td>
-   <td colname="col3" morerows="3"> Z </td>
   </tr>
  </tbody>
 </table>

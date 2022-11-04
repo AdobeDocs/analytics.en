@@ -23,7 +23,7 @@ Use the following guidelines to determine how far in advance you must submit a t
  <thead>
   <tr>
    <th colname="col1" class="entry"> Traffic Change Type </th>
-   <th colname="col2" class="entry"> <p>Lead Time Needed </p> </th>
+   <th colname="col2" class="entry"> Lead Time Needed </th>
   </tr>
  </thead>
  <tbody>
@@ -42,10 +42,6 @@ Use the following guidelines to determine how far in advance you must submit a t
   <tr>
    <td colname="col1"> Holiday events October – December </td>
    <td colname="col2"> One month </td>
-  </tr>
-  <tr>
-   <td colname="col1"> Z </td>
-   <td colname="col2"> Z </td>
   </tr>
  </tbody>
 </table>

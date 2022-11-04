@@ -34,13 +34,13 @@ Use the following guidelines to determine how far in advance you must submit a t
    <td colname="col3"> </td>
   </tr>
   <tr>
-   <td colname="col1"> Traffic increase of up to 25% in average daily volume </td>
+   <td colname="col1"> Traffic increase or spike of up to 25% in average daily volume </td>
    <td colname="col2"> No notification required </td>
    <td colname="col3" morerows="3"> W </td>
   </tr>
   <tr>
-   <td colname="col1"> X </td>
-   <td colname="col2"> X </td>
+   <td colname="col1"> Traffic increase or spike of more than 25% in average daily volume </td>
+   <td colname="col2"> 10 business days </td>
    <td colname="col3" morerows="3"> X </td>
   </tr>
   <tr>

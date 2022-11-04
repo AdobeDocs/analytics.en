@@ -162,6 +162,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) page. |
 
 ### 2019 {#19}
+
 | Feature | Description |
 | --- | --- |
 | December 19, 2020 | Changed the default [FTP data storage limit](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) to 10 GB. |

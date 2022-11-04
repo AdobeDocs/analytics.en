@@ -34,7 +34,7 @@ Use the following guidelines to determine how far in advance you must submit a t
    <td colname="col3"> </td>
   </tr>
   <tr>
-   <td colname="col1"> W </td>
+   <td colname="col1"> Traffic increase of up to 25% in average daily volume </td>
    <td colname="col2"> W </td>
    <td colname="col3" morerows="3"> W </td>
   </tr>

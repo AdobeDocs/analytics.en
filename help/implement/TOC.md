@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics Implementation Guide
 breadcrumb-title: Implementation Guide
-user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
+user-guide-description: Learn ways to implement Adobe Analytics. Customize what data is collected to get the most out of Analytics data. 
 ---
 
 # Adobe Analytics Implementation Guide {#implementation}
@@ -18,6 +18,7 @@ user-guide-description: Customize what data is collected to get more out of Adob
     + [abort](vars/config-vars/abort.md)
     + [account](vars/config-vars/account.md)
     + [charSet](vars/config-vars/charset.md)
+    + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
     + [cookieDomain](vars/config-vars/cookiedomain.md)
     + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
     + [cookieLifetime](vars/config-vars/cookielifetime.md)

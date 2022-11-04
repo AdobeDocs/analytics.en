@@ -163,7 +163,7 @@ Enhancement released on May 09, 2019.
 
 | Enhancement | Description |
 |--- |--- |
-|A new setting was added to the Flow visualization settings: Include Repeat Instances.|[Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+|A new setting was added to the Flow visualization settings: Include Repeat Instances.|[Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 
 ## April 2019
 
@@ -805,7 +805,7 @@ New features released on June 8, 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Flow</b> </a> enhancements </td>
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  > <b>Flow</b> </a> enhancements </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Added a new visualization setting called <span class="wintitle"> Disable Label Truncation </span> (default = unchecked). </li>
@@ -1045,7 +1045,7 @@ New features released on October 20, 2016:
 New features released on June 16, 2016:
 
 * [New group permission](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
-* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
+* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension that you have access to.
 * [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Panels, Visualizations, Components
 * A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.

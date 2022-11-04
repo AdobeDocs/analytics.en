@@ -56,7 +56,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Processing rules overview](admin/c-processing-rules/processing-rules.md)
     + Processing rules configuration {#processing-rules-configuration}
       + [How processing rules work](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-      + [Processing order](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
       + [Create processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
       + [View active processing rules](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
       + [View processing rule history](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
@@ -79,6 +78,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Real-time reports overview](admin/realtime/realtime.md)
     + [Real-time reports configuration](admin/realtime/t-realtime-admin.md)
     + [Supported real-time metrics and dimensions](admin/realtime/realtime-metrics.md)
+  + [Reporting Activity Manager](admin/reporting-activity.md)
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
@@ -166,7 +166,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Labeling example](c-data-governance/gdpr-labeling-example.md)
   + [Data Privacy and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
   + [Data Privacy terminology](c-data-governance/gdpr-terminology.md)
-  + [Privacy Reporting Variables](c-data-governance/consent-variables.md)
 + Server Call Usage {#server-call-usage}
   + [Server call usage overview](c-server-call-usage/overage-overview.md)
   + [View current server call usage](c-server-call-usage/server-call-usage-dashboard.md)

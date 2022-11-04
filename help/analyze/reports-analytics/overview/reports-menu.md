@@ -8,6 +8,8 @@ exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 ---
 # Reports Menu{#reports-menu}
 
+{{ra-eol}}
+
 An overview of the Reports menu in Reports & Analytics.
 
 >[!IMPORTANT]

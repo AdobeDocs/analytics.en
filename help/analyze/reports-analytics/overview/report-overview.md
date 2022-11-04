@@ -8,6 +8,8 @@ exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 ---
 # Report Features
 
+{{ra-eol}}
+
 An introduction to the features of a report, including the toolbar, calendar, and detail table.
 
 This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.

@@ -16,7 +16,7 @@ Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.co
 
 * Custom events 1-100 are mapped to `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Custom events 101-200 are mapped to `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* This pattern repeats every 100 events to `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* This pattern repeats every 100 events to `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` is used to specify the amount to increment. `eventx.id` is used for [serialization](event-serialization.md).
 * Orders are mapped to `commerce.purchases.value`.
 * Units are mapped to the sum of all `productListItems[].quantity` fields.
 * Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.
@@ -26,6 +26,10 @@ Custom events are [mapped for Adobe Analytics](https://experienceleague.adobe.co
 * Cart Removals are mapped to `commerce.productListRemovals.value`.
 * Cart Views are mapped to `commerce.productListViews.value`.
 * Checkouts are mapped to `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>If an event is set under `productListItems` (for example, `productListItems._experience.analytics.event1.value`) and that event is not yet in this field, that event is automatically added to this field.
 
 ## Events using the Adobe Analytics extension
 
@@ -43,7 +47,7 @@ Several features are available:
 * A dropdown allows you to select the event to include
 * An optional text field for serialization. See [event serialization](event-serialization.md) for more information.
 * An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
-* A button to add another event. There is not a reasonable limit to the number of events you can include in a hit.
+* A button to add another event. You can add as many events as you'd like to a single rule within reason.
 
 ## s.events in AppMeasurement and the Analytics extension custom code editor
 

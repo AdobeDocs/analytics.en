@@ -15,15 +15,15 @@ Keep in mind that
 
 * Metrics can be added only to Pivot Layout requests. If some of the selected requests are Custom Layouts, metrics cannot be added. The reason is that Report Builder does not know where in the spreadsheet to place the new metric, since the layout is customized.
 * Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
-* Adding metric/s will increase the size of a request and may cause it to overlap with another request. Make sure your request has enough space around it to allow for adding metrics.
+* Adding metric/s will increase the size of a request and may cause it to overlap with another request. Make sure that your request has enough space around it to allow for adding metrics.
 * If the metric added is already present in one of the selected requests, it will not be added to that request.
 
 To add one or more metrics:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
 
-   ![](assets/add_metric.png)
+   ![Add metric](assets/add_metric.png)
 
 1. Refresh the request to see actual data. Until you refresh, you will see offline data.
 
@@ -35,18 +35,18 @@ Keep in mind that
 * If the metric selected to be replaced is not present in one of the selected requests, this request is left unchanged.
 * The new metric will be placed in the same location as the substituted metric. This means:
 
-    * **In a Pivot Layout**: if a pivot layout request outputs date, visit, visitors, daily unique and "visitors" is replaced by "revenue", the updated request layout will be: date, visit, revenue, daily unique.
-    * **In a Custom Layout**: if the "visitors" metric was output in cell F11, the updated request layout will show "revenue" in the same cell F11.
+  * **In a Pivot Layout**: if a pivot layout request outputs date, visit, visitors, daily unique and "visitors" is replaced by "revenue", the updated request layout will be: date, visit, revenue, daily unique.
+  * **In a Custom Layout**: if the "visitors" metric was output in cell F11, the updated request layout will show "revenue" in the same cell F11.
 
 * If the substituted metric had some operation applied to it (average, pre-pended text, post-pended text, microcharting), these operations will also be applied to the new metric.
 
 To replace a metric
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Replace Metric]**.
 
-   ![](assets/replace_metric.png)
+   ![Replace metric](assets/replace_metric.png)
 
 1. Select which metric to replace and which metric to replace it with.
 1. Refresh the request. Until you refresh, you will see offline data.
@@ -62,11 +62,11 @@ Keep in mind that
 
 To remove metrics:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.) 
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
-   ![](assets/remove_metric.png)
+   ![Remove metric](assets/remove_metric.png)
 
 1. Select one or more metrics to remove from the request.
 1. Refresh the request. Until you refresh, you will see offline data.

@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: How-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Adobe Analytics Dashboards, Report Builder and Activity Map.
+user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder, and Activity Map.
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
@@ -17,6 +17,12 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + Folders in Workspace {#workspace-folders}
+      + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + [Add Projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Remove a Project](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+      + [Save a New Project](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -29,6 +35,7 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
       + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
+      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -64,23 +71,23 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
       + [Apply segments in fallout analysis](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
     + Flow {#flow}
       + [Flow overview](analysis-workspace/visualizations/c-flow/flow.md)
-      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-      + [New flow visualization (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
-      + [Flow settings](analysis-workspace/visualizations/c-flow/flow-settings.md)
+      + [Configure a flow visualization](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-    + [Histogram](analysis-workspace/visualizations/histogram.md)
-    + [Map](analysis-workspace/visualizations/map-visualization.md)
-    + [Venn](analysis-workspace/visualizations/venn.md)
     + [Area and area stacked](analysis-workspace/visualizations/area.md)
     + [Bar and bar stacked](analysis-workspace/visualizations/bar.md)
     + [Bullet graph](analysis-workspace/visualizations/bullet-graph.md)
+    + [Combo chart](analysis-workspace/visualizations/combo-charts.md)
     + [Donut](analysis-workspace/visualizations/donut.md)
+    + [Histogram](analysis-workspace/visualizations/histogram.md)
     + [Horizontal Bar and Horizontal Bar Stacked](analysis-workspace/visualizations/horizontal-bar.md)
+    + [Key metric summary](analysis-workspace/visualizations/key-metric.md)
     + [Line](analysis-workspace/visualizations/line.md)
+    + [Map](analysis-workspace/visualizations/map-visualization.md)    
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
     + [Tree map](analysis-workspace/visualizations/treemap.md)
+    + [Venn](analysis-workspace/visualizations/venn.md)
   + Panels {#panels}
     + [Panels overview](analysis-workspace/c-panels/panels.md)
     + [Analytics for Target (A4T) panel](analysis-workspace/c-panels/a4t-panel.md)
@@ -292,7 +299,6 @@ user-guide-description: How-to instructions for Analysis Workspace, the premier 
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
     + [Report Features](reports-analytics/overview/report-overview.md)
     + [Common Terms](reports-analytics/overview/overview-common-terms.md)
-    + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
   + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)

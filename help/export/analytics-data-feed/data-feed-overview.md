@@ -11,7 +11,7 @@ Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw d
 
 ## Prerequisites
 
-Make sure you meet all the following requirements before using data feeds.
+Make sure that you meet all the following requirements before using data feeds.
 
 * Have an FTP site and credentials handy. Data feeds can only be sent to a server destination. Your organization typically provides FTP credentials. Adobe can provide an FTP location with a modest amount of storage at your request. Contact Customer Care to request an FTP destination for data feeds.
 * A working implementation that sends data to Adobe data collection servers. See [Validate and publish an implementation](/help/implement/launch/validate-publish-prod.md) in the Implement user guide.

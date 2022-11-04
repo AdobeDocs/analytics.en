@@ -16,12 +16,16 @@ The `products` variable tracks products and properties tied to them. This variab
 
 Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several XDM fields:
 
-* Category is mapped to `productListItems[].name`.
-* Product is mapped to `productListItems[]._id`.
+* Category is mapped to `productListItems[].lineItemId`.
+* Product is mapped to `productListItems[].SKU` or `productListItems[].name`. If both XDM fields are present, `productListItems[].SKU` is used.
 * Quantity is mapped to `productListItems[].quantity`.
 * Price is mapped to `productListItems[].priceTotal`.
 * Merchandising eVars are mapped to `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, depending on which eVar you want to bind to a product.
-* Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product.
+* Merchandising events are mapped to `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product. If you set an event in one of these fields, it is automatically included in the [event](events/events-overview.md) string sent to Adobe Analytics. 
+
+>[!NOTE]
+>
+>`lineItemId` must be added as a custom field as it is not yet part of the standard Analytics Event schema. Adobe plans to add a dedicated 'Category' field in the future.
 
 ## Products using the Adobe Analytics extension
 

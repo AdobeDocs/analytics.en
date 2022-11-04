@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+user-guide-description: Browse a knowledge base containing helpful articles that don't belong to a specific Analytics tool or component.
 ---
 
 # Analytics Tech Notes {#technotes}
@@ -31,6 +31,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
   + [Compare dates to previous ranges](event/compare-dates.md)
   + [Derive data impacted by events](event/calcmetrics.md)
   + [Communicate events to users](event/communicate.md)
++ [Client hints](client-hints.md)
 + Cookies {#cookies}
   + [Browser cookies](cookies/cookies.md)
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
@@ -42,6 +43,7 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + [Migrate Mobile Services processing rules to Adobe Analytics](migrate-mobile.md)
 + [Multi-currency support](multicurrency.md)
 + [Privacy overview](privacy-overview.md)
++ [Processing order](processing-order.md)
 + [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
 + Regional Data Collection {#rdc}
@@ -55,3 +57,4 @@ user-guide-description: A knowledge base containing helpful articles that don't 
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)
 + [Visitor migration](visitor-migration.md)
++ [VISTA rules](vista.md)

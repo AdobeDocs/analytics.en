@@ -1,12 +1,12 @@
 ---
 title: SFTP services upgrade - FAQ
-description: Frequently asked questions on the planned SFTP services upgrade in May, 2022.
+description: Frequently asked questions on the planned SFTP services upgrade.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 ---
 # SFTP services upgrade - FAQ
 
-In summer of 2022, Adobe Analytics will upgrade its Secure File Transfer Protocol [SFTP] services in order to provide improved security for file transfers. With this change, some SFTP client configurations will no longer be supported. This only impacts data sent to or retrieved from Adobe Analytics using SFTP. The FTP protocol will not be impacted. In order to avoid service disruptions, please ensure your SFTP clients (code, tools, services) will be in accordance with the changes detailed below.
+In September 20, 2022, Adobe Analytics will upgrade its Secure File Transfer Protocol [SFTP] services in order to provide improved security for file transfers. With this change, some SFTP client configurations will no longer be supported. This only impacts data sent to or retrieved from Adobe Analytics using SFTP. The FTP protocol will not be impacted. In order to avoid service disruptions, please ensure your SFTP clients (code, tools, services) will be in accordance with the changes detailed below.
 
 ## How can I determine which algorithms, connection types, and protocols are currently used by my organization?
 
@@ -19,6 +19,8 @@ The connection options that will be removed are generally considered obsolete an
 The following features provide an option to upload data to Adobe Analytics using SFTP.
 
 * [Classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
+
+* [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
 
 * [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
 

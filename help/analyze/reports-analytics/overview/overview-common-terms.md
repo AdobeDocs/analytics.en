@@ -8,6 +8,8 @@ exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 ---
 # Common Terms
 
+{{ra-eol}}
+
 An introduction to commonly used Adobe Analytics terms used.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 

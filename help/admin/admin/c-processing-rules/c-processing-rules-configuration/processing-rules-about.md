@@ -41,7 +41,7 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are applied before VISTA rules and Marketing Channel rules. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Processing Order </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/technotes/processing-order.md"> Processing Order </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hits cannot be excluded. </p> </td> 

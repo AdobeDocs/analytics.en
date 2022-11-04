@@ -204,14 +204,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 If the exclude checkpoint is at the beginning of a sequential segment, then it ensures that an excluded page view did not occur before the first non-excluded hit.
 
-**Example**: Visitor visited page A and not page B.
-
-**Use Cases**
-
-The following are example use cases of how this type of segment can be used:
-
-* Visitors who visited page A and did not visit page B.
-* A restaurant wants to see inveterate users who avoid the main landing page and go directly to the Order Out page.
+For example, A restaurant wants to see inveterate users who avoid the main landing page and go directly to the Order Out page. This example can be simplified to a visitor avoiding visiting page A and going straight to page B.
 
 **Create this segment**
 
@@ -223,14 +216,7 @@ Create two separate Hit containers within a top-level Visitor container. Then se
 
 If the exclude checkpoint is at the end of a sequence, then it ensures that the checkpoint did not happen between the last non-excluded checkpoint and the end of the visitor sequence.
 
-**Example**: Visitors visit page A and then did not visit page B in the current or subsequent visits.
-
-**Use Cases**
-
-The following are examples of how this type of segment can be used:
-
-* Visitors who visited page A and did not visit page B.
-* A restaurant wants to see inveterate users who avoid the main landing page and go directly to the Order Out page.
+For example, a clothing store wants to see all visitors that viewed a product page but never visited their shopping cart afterward. This example can be simplified to a visitor going to page A then never going to page B in current or subsequent visits.
 
 **Create this segment**
 

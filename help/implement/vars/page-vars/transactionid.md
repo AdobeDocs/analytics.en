@@ -16,6 +16,10 @@ When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics
 
 By default, Adobe remembers all transaction ID values (linked and unlinked) for up to 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have this limit extended.
 
+## Transaction ID using the Web SDK
+
+Transaction ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.transactionID`.
+
 ## Transaction ID using the Adobe Analytics extension
 
 You can set transaction ID either while configuring the Analytics extension (global variables) or under rules.

@@ -6,19 +6,22 @@ exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 ---
 # currencyCode
 
-For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.
+For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure that revenue attributes to the correct currency.
 
-If `currencyCode` is not defined, monetary values defined the [`products`](../page-vars/products.md) variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
+Currency conversion uses the following logic on each hit. These steps apply to revenue values set the [`products`](../page-vars/products.md) variable and all events listed as 'Currency' in [Success events](/help/admin/admin/c-success-events/success-event.md) under Report suite settings.
 
-If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
+* If `currencyCode` is not defined, Adobe assumes that all currency values are the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in Report suite settings to see the report suite's currency.
+* If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
+* If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in the report suite are in the report suite's currency.
+* If `currencyCode` is set to an invalid value, **the entire hit is discarded causing data loss.** Make sure that this variable is correctly defined whenever used.
 
-If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in data collection servers are ultimately stored in the report suite's currency.
+This variable does not persist across hits. Make sure that this variable is defined on every page that involves revenue or currency events that don't match the report suite's default currency.
 
->[!WARNING]
+>[!NOTE]
 >
->If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
+>While currency codes can change between pages, all currency metrics on a single hit must use the same currency.
 
-This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
+A period **must** be used as the currency separator for all currencies when implementing this variable. For example, Swedish Krona, which typically displays a comma separator, must be modified to use a period in the `products` variable and all currency events. Adobe displays the correct currency separator in reporting.
 
 ## Currency code using the Web SDK
 
@@ -47,7 +50,7 @@ You can use either a preset currency code or a custom currency code. If using a 
 
 ## s.currencyCode in AppMeasurement and the Analytics extension custom code editor
 
-The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.
+The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page. Values are case-sensitive.
 
 ```js
 s.currencyCode = "USD";
@@ -55,7 +58,7 @@ s.currencyCode = "USD";
 
 The following currency codes are valid:
 
-| Currency Code | Currency Description|
+| Currency Code | Label |
 | --- | --- |
 | `AED` | United Arab Emirates Dirhams |
 | `AFA` | Afghanistan Afghanis |

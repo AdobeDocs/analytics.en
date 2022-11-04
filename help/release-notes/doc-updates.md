@@ -4,25 +4,50 @@ description: Notable updates to the Adobe Analytics documentation set.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
+mini-toc-levels: 3
 ---
 # Technical documentation updates for Adobe Analytics
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
-* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* For information on Adobe Media Analytics, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
 
-| Date | Description |
+### 2022 {#22}
+
+| Feature | Description |
 | --- | --- |
+| **October 2022** |  |
+| Data Workbench | [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| Client hints | New [overview and FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
+| Key Metric Summary | New topic on the [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualization. |
+| Classification sets |  The new user [Classification sets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. |
+| Mobile app: Custom detail views | New topic on [custom detail views](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en). |
+| Data Workbench | Data Workbench [end-of-life FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
+| **September 2022** | |
+| Combo charts | New topic on the [combo charts](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualization. |
+| Updated plugin | Updated version of the [getvalonce](/help/implement/vars/plugins/getvalonce.md) implementation plugin. |
+| New configuration variable | Documentation on [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| High-entropy client hints | New topic on how Adobe is using [client hints](/help/technotes/client-hints.md) in addition to User-Agent to determine device information. |
+| Processing order | Various help pages have been aggregated to provide a single help topic on [Processing order](/help/technotes/processing-order.md). |
+| **August 2022** | |
+| Support for List Variables in XDM for Edge Collection | Enables customers collecting data via Experience Edge/Web SDK to use XDM to specify the List Variable contents. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk)| August 18, 2022 |
+| Use of SKU field in XDM for Edge Collection when setting product string Variables | Enables customers collecting data via Experience Edge/Web SDK to use the SKU value to set the product field in the products variable. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) |
+| **June 2022** |  |
+| Merchandising variables in XDM for Edge Collection |  Documentation on [support for Merchandising variables in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
+| Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), and [Edge API](/help/implement/aep-edge/edge-api/overview.md). |
+| Updated Flow visualization documentation | Based on the [new UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| **May 2022** | |
+| Populate Lifecycle dimensions and metrics through Experience Edge | Mobile Lifecycle data sent via Experience Edge now appears in Analytics reporting. See [Analytics variable mapping](/help/implement/aep-edge/variable-mapping.md) for details on which XDM fields map to existing mobile Lifecycle reporting. |
 | **April 2022** | |
 | Adobe Analytics landing page updates | Updates to the joint [Workspace/Reports & Analytics landing page](/help/analyze/landing.md) that improves usability and ease of navigation. |
 | New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | New topic on [!UICONTROL Next/Previous item] panel | [Next/previous dimension item panel](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **March 2022** | |
-| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to “High”. |
+| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to "High". |
 | New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |
 | Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
 | [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
@@ -32,6 +57,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) allows you to preview the experience before you save and share a scorecard.  |
 | API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
 | Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| Feature | Description |
+| --- | --- |
 | **October 2021** |  |
 | October 21, 2021 | New documentation on [Quick Segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | October 21, 2021 | New documentation on the [Media Playback Time Spent](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) panel in Analysis Workspace. |
@@ -50,7 +80,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 15, 2021 | Updated [Marketing Channels best practices](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) and [here](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
 | May 25, 2021 | Updated the documentation on [eVar case sensitivity in reporting](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html). |
-| May 13, 2021 | Updates to [Data Warehouse API requests](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). They now support “Hours”. |
+| May 13, 2021 | Updates to [Data Warehouse API requests](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). They now support "Hours". |
 | **March 2021** | |
 | March, April 2021 | Updates to Adobe Analytics dashboards [Executive guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html) and [Curator guide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
 | March 25, 2021 | New documentation on the [!UICONTROL Components] > [!UICONTROL User preferences] page. It enables you to manage [!UICONTROL Analysis Workspace] settings and its related components for your user. [!UICONTROL User preferences] applies to all new projects and panels. <br>**Note:** the following settings have moved to the [!UICONTROL User preferences] page:<ul><li>Report Settings: Thousands separator (now called _Number format_)</li><li>Report Settings: CSV separator</li><li>Workspace projects: Help > Enable tips</li><li>Workspace projects: Blank panel _Start new projects with this panel_ option</li></ul> |
@@ -63,6 +93,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 14, 2021 | Added language selection option to Analytics dashboards documentation. |
 | January 14, 2021 | Added documentation on how you can add images to Workspace projects by referencing a public image URL. |
 | January 14, 2021 | Combined source & settings manager for Workspace visualizations: The [!UICONTROL Data Source] manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
+
+### 2020 {#20}
+
+| Feature | Description |
+| --- | --- |
 | **December 2020** | |
 | December 7, 2020 | Amended all relevant pages to include or substitute the "adobedc.net" endpoint. |
 | December 8, 2020 | Updates to the [Create new project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) page in Workspace. |
@@ -92,9 +127,9 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 18, 2020 | New documentation on [Attribution IQ: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | June 18, 2020 | New documentation on [Attribution IQ: Custom Lookback windows](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
 | June 18, 2020 | New documentation for [Project roles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) for shared Workspace projects. When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. |
-| June 18, 2020 | New documentation on ["View only" Workspace projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html). Projects can be shared to users as “Can view” only. When a View recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. |
+| June 18, 2020 | New documentation on ["View only" Workspace projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html). Projects can be shared to users as "Can view" only. When a View recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. |
 | June 18, 2020 | New documentation on [Project roles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) for shared Workspace projects. When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. |
-| June 18, 2020 | New documentation on [Co-editing Workspace projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Recipients added to the “Can edit” role can save over a project that has been shared to them. This extends to both admins and non-admins. |
+| June 18, 2020 | New documentation on [Co-editing Workspace projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Recipients added to the "Can edit" role can save over a project that has been shared to them. This extends to both admins and non-admins. |
 | **May 2020** |  |
 | May 31, 2020 | New documentation on [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | May 21, 2020 | New documentation for [Adobe Analytics dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html) |
@@ -125,7 +160,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 16, 2020 | New documentation on [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul> |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
 | January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) page. |
-| **2019** |  |
+
+### 2019 {#19}
+
+| Feature | Description |
+| --- | --- |
 | December 19, 2020 | Changed the default [FTP data storage limit](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) to 10 GB. |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on End-of-life for Enforce IP login restrictions. |
@@ -133,7 +172,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | November 21, 2019 | Updated [Audience Analytics Workflow FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) to indicate availability in LiveStream. |
 | October 25, 2019 | Updated [Adobe Analytics Key Concepts](/help/technotes/terms.md) page. |
 | October 10, 2019 | Update to Freeform table totals: they now include two totals, a **[!UICONTROL Table total]** and a **[!UICONTROL Grand total]**. The Table total row accounts for [report filters](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) applied. Previously, only segmentation impacted totals. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>In addition, **[!UICONTROL Show Totals]** and **[!UICONTROL Show Grand Total]** options have been added to **[!UICONTROL Column Settings]**.<br/>With this change to Freeform totals, dependent visualizations will be updated (e.g. linked **[!UICONTROL Summary Number]** visualizations), as well as exported CSV and PDF data. |
-| October 10,2019 | In Workspace, the ability to easily remove ‘Unspecified (None)’ was added as an option to report filters.|
+| October 10,2019 | In Workspace, the ability to easily remove 'Unspecified (None)' was added as an option to report filters.|
 | October 10,2019 | In Workspace, purple granularity components (Minute, Hour, Day, Week, Month, Quarter, Year) were deprecated. **No action** needs to taken if you previously used one of the purple time components.<br/>With this change, the purple **[!UICONTROL Time]** section has also been renamed to **[!UICONTROL Date Ranges]**. |
 | October 1, 2019 | New article on [Workspace totals](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en). |
 | September 28, 2019 | New articles on [configuration variables for Javascript implementation](/help/implement/vars/config-vars/configuration-variables.md) |
@@ -151,7 +190,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 13, 2019 | Added new out-of-the-box filters to the left rail search in Workspace. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. |
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)|
+| May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 | April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |

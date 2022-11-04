@@ -12,7 +12,7 @@ exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 
 The `formatTime` plug-in allows you to take any number of seconds and present them in a bucketed format, rounded to a desired benchmark value. Adobe recommends using this plug-in if you want to capture a time value in seconds and convert it into a bucket format (such as minutes, days, or weeks). This plug-in is unnecessary if you do not want to bucket second-based values into a time-rounded format.
 
-## Install the plug-in using the Web SDK or the Adobe Analytics extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -26,7 +26,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize formatTime
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
 ## Install the plug-in using custom code editor
 

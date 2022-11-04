@@ -28,7 +28,7 @@ Use the following guidelines to determine how far in advance you must submit a t
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> New account creation </td>
+   <td colname="col1"> New account setup </td>
    <td colname="col2"> 5 business days </td>
   </tr>
   <tr>

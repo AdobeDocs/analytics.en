@@ -4,20 +4,24 @@ description: Notable updates to the Adobe Analytics documentation set.
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
+mini-toc-levels: 3
 ---
 # Technical documentation updates for Adobe Analytics
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html).
-* For information on Adobe Analytics for Audio and Video, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* For information on Adobe Media Analytics, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
+
+### 2022 {#22}
 
 | Feature | Description |
 | --- | --- |
 | **October 2022** |  |
+| Data Workbench | [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| Client hints | New [overview and FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | Key Metric Summary | New topic on the [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualization. |
 | Classification sets |  The new user [Classification sets](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience provides a single interface to manage classifications and rules and improves visibility of customer-owned classification data. |
 | Mobile app: Custom detail views | New topic on [custom detail views](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en). |
@@ -53,6 +57,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) allows you to preview the experience before you save and share a scorecard.  |
 | API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
 | Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| Feature | Description |
+| --- | --- |
 | **October 2021** |  |
 | October 21, 2021 | New documentation on [Quick Segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) in Analysis Workspace |
 | October 21, 2021 | New documentation on the [Media Playback Time Spent](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) panel in Analysis Workspace. |
@@ -84,6 +93,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 14, 2021 | Added language selection option to Analytics dashboards documentation. |
 | January 14, 2021 | Added documentation on how you can add images to Workspace projects by referencing a public image URL. |
 | January 14, 2021 | Combined source & settings manager for Workspace visualizations: The [!UICONTROL Data Source] manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
+
+### 2020 {#20}
+
+| Feature | Description |
+| --- | --- |
 | **December 2020** | |
 | December 7, 2020 | Amended all relevant pages to include or substitute the "adobedc.net" endpoint. |
 | December 8, 2020 | Updates to the [Create new project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) page in Workspace. |
@@ -146,7 +160,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 16, 2020 | New documentation on [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul> |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
 | January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en) page. |
-| **2019** |  |
+
+### 2019 {#19}
+
+| Feature | Description |
+| --- | --- |
 | December 19, 2020 | Changed the default [FTP data storage limit](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) to 10 GB. |
 | November 29, 2019 | Overhaul to the [Data feed documentation](/help/export/analytics-data-feed/data-feed-overview.md) |
 | November 25, 2019 | New topic on End-of-life for Enforce IP login restrictions. |

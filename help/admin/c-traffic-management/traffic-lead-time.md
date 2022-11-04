@@ -22,33 +22,33 @@ Use the following guidelines to determine how far in advance you must submit a t
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Traffic Notification) </th>
-   <th colname="col2" class="entry"> <p>Lead Time Needed (January - October) </p> </th>
-   <th colname="col3" class="entry"> <p>Lead Time Needed (November - December) </p> </th>
+   <th colname="col1" class="entry"> Traffic Notification </th>
+   <th colname="col2" class="entry"> <p>Lead Time Needed </p> </th>
+   <th colname="col3" class="entry"> <p>Notes </p> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Up to 1,000,000 </td>
-   <td colname="col2"> No lead time needed </td>
-   <td colname="col3"> No lead time needed </td>
+   <td colname="col1"> New report suite creation </td>
+   <td colname="col2"> 5 business days </td>
+   <td colname="col3"> </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
-   <td colname="col2"> Two BUSINESS days </td>
-   <td colname="col3" morerows="3"> All traffic increases targeted for November-December should be submitted by September 1. This is to allow time to purchase capacity if necessary to accommodate holiday traffic. </td>
+   <td colname="col1"> X </td>
+   <td colname="col2"> X </td>
+   <td colname="col3" morerows="3"> X </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
-   <td colname="col2"> One calendar week </td>
+   <td colname="col1">Y </td>
+   <td colname="col2"> Y </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
-   <td colname="col2"> Two calendar weeks </td>
+   <td colname="col1"> Z </td>
+   <td colname="col2"> Z </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>Above 25,000,000 </p> </td>
-   <td colname="col2"> One or more months </td>
+   <td colname="col1"> <p> Z </p> </td>
+   <td colname="col2"> Z </td>
   </tr>
  </tbody>
 </table>

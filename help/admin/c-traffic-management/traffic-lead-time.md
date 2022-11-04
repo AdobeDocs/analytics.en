@@ -34,21 +34,24 @@ Use the following guidelines to determine how far in advance you must submit a t
    <td colname="col3"> </td>
   </tr>
   <tr>
+   <td colname="col1"> W </td>
+   <td colname="col2"> W </td>
+   <td colname="col3" morerows="3"> W </td>
+  </tr>
+  <tr>
    <td colname="col1"> X </td>
    <td colname="col2"> X </td>
    <td colname="col3" morerows="3"> X </td>
   </tr>
   <tr>
-   <td colname="col1">Y </td>
+   <td colname="col1"> Y </td>
    <td colname="col2"> Y </td>
+   <td colname="col3" morerows="3"> Y </td>
   </tr>
   <tr>
    <td colname="col1"> Z </td>
    <td colname="col2"> Z </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p> Z </p> </td>
-   <td colname="col2"> Z </td>
+   <td colname="col3" morerows="3"> Z </td>
   </tr>
  </tbody>
 </table>

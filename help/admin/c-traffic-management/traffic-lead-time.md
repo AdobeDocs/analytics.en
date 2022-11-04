@@ -18,10 +18,11 @@ Use the following guidelines to determine how far in advance you must submit a t
 
 ## Hardware Allocation Lead Times
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> DAILY Traffic Estimates (Hits) </th>
+   <th colname="col1" class="entry"> Traffic Notification) </th>
    <th colname="col2" class="entry"> <p>Lead Time Needed (January - October) </p> </th>
    <th colname="col3" class="entry"> <p>Lead Time Needed (November - December) </p> </th>
   </tr>

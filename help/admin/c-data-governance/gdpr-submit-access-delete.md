@@ -24,7 +24,7 @@ Each file combines data from all your report suites, automatically removing extr
 
 ## Submit Requests {#submit-requests}
 
-You can submit Data Privacy access and delete requests through our [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) or via our [Privacy Service API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+You can submit Data Privacy access and delete requests through our [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html) or via our [Privacy Service API.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
 
 >[!NOTE]
 >

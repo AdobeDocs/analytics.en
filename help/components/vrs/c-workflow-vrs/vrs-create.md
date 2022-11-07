@@ -56,7 +56,7 @@ Here is a video on how to adjust a visit definition in a virtual report suite:
 ![](assets/components.png)
 
 1. On the [!UICONTROL Components] tab, select the checkbox to apply curation to include, exclude and rename components for this virtual report suite in Analysis Workspace.
-   For more information on VRS curation, see [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+   For more information on VRS curation, see [Virtual Report Suite Component Curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Drag components (dimensions, metrics, segments, or date ranges) that you want to include in the VRS into the [!UICONTROL Included Components] section.
 

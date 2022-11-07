@@ -9,7 +9,7 @@ exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 
 You can create quick segments within a project to bypass the complexity of the full [segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Quick segments
 
-* Apply as [project-only segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Apply as [project-only segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
 * Allow for up to 3 rules.
 * Do not accommodate nested containers, or sequential rules.
 
@@ -21,7 +21,7 @@ Here is a video overview of quick segments:
 
 ## Prerequisites
 
-Anyone can create a [!UICONTROL Quick Segment]. However, you need the [!UICONTROL Segment Creation] permission in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) to be able to save a quick segments or to open it in the [!UICONTROL Segment Builder].
+Anyone can create a [!UICONTROL Quick Segment]. However, you need the [!UICONTROL Segment Creation] permission in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) to be able to save a quick segments or to open it in the [!UICONTROL Segment Builder].
 
 ## Create quick segments
 
@@ -37,9 +37,9 @@ Configure the quick segment from this blank slate:
 | --- | --- |
 | Name | The default name of a segment is a combination of the rule names in the segment. You can rename the segment. |
 | Include/exclude | You can either include or exclude components in your segment definition, but not both. |
-| Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+| Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
 | Components (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions and/or metrics and/or date ranges) and their values. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
-| Operator | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
+| Operator | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | Plus (+) sign | Add another rule |
 | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
 | Apply | Apply this segment to the panel. If the segment contains no data, you will be asked if you want to continue. |
@@ -79,7 +79,7 @@ Notice how the segment's side bar changes from striped blue to a lighter blue. I
 
 ## What are project-only segments?
 
-Project-only segments are segments that only apply to the current project they were created in. They will not be available in other projects and cannot be shared to other users. They are intended for quick exploration of your data without having to create and save a segment in the left rail. Project-only segments can be created in the panel drop zone either with Quick segments or [ad hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en). 
+Project-only segments are segments that only apply to the current project they were created in. They will not be available in other projects and cannot be shared to other users. They are intended for quick exploration of your data without having to create and save a segment in the left rail. Project-only segments can be created in the panel drop zone either with Quick segments or [ad hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html). 
 
 If a project-only segment is opened in the [!UICONTROL Segment Builder], a project-only notification appears. If you do not check "Make this segment available.." and click **[!UICONTROL APPLY]**, the segment remains a project-only segment. Note: if you apply a Quick segment from the Segment Builder, it can no longer be opened in the [!UICONTROL Quick Segment Builder]. 
 

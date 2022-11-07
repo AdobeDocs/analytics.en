@@ -9,7 +9,7 @@ High-entropy client hints are used by Adobe Analytics to improve device and brow
 
 ## Collect high-entropy hints using the Web SDK
 
-High-entropy client hints are part of the context categories in Web SDK. See [Configure the Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) for more details.
+High-entropy client hints are part of the context categories in Web SDK. See [Configure the Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) for more details.
 
 ## Collect high-entropy hints using the Adobe Analytics Extension
 

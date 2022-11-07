@@ -10,11 +10,11 @@ Why should you review your implementation every 6 months? Because you need to ma
 
 ## 1. Make sure that your implementation is still fully aligned with our business needs
 
-Meet with the business owner and/or analysts to review the changing business needs. For any needs or measurement opportunities that are not currently being met by your implementation, figure out how to update your KPIs and measurement plans. Remember to record your changes in your [BRD and SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Meet with the business owner and/or analysts to review the changing business needs. For any needs or measurement opportunities that are not currently being met by your implementation, figure out how to update your KPIs and measurement plans. Remember to record your changes in your [BRD and SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 2. Make sure that your metrics and variables are still functioning well
 
-Briefly review all your metrics and variables, in order of importance to the business, to make sure that the data is collecting correctly. Start with your most crucial metrics and variables – the ones associated with your [top 5 KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). To do this:
+Briefly review all your metrics and variables, in order of importance to the business, to make sure that the data is collecting correctly. Start with your most crucial metrics and variables – the ones associated with your [top 5 KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). To do this:
 
 * Create dashboards to see monthly trended views of your metrics and variables (or set up [intelligent alerts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) for each one) to ensure you’re getting the data you expect, and the data is correct. If you find any discrepancies, examine your data layer, tag manager rules, and processing rules to find out why.
 * Re-run the [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) to monitor broad trends of your metrics and variables.

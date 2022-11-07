@@ -13,7 +13,7 @@ Picking the right attribution model for your organization depends on a number of
 >[!NOTE]
 >This analysis needs to happen before you pick an attribution model.
 
-This phase consists initially of understanding customer behavior and defining conversion metrics. Based on the conversion metrics, tools like [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (for raw data) or Analysis Workspace facilitate your understanding of
+This phase consists initially of understanding customer behavior and defining conversion metrics. Based on the conversion metrics, tools like [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) (for raw data) or Analysis Workspace facilitate your understanding of
 
 * How many customers are touching different marketing channels before converting?
 * The proportion/distribution of these behaviors. 
@@ -39,7 +39,7 @@ Let's say your hypothesis is "My First-touch channel has more impact on conversi
 
 **Example 2** 
 
-Your hypothesis might be: "In our industry (such as travel industry), the attribution window is 60 or 90 days, not 30 days, because customers do a lot of research before buying a product. You would then change your [lookback window](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) to 90 days. 
+Your hypothesis might be: "In our industry (such as travel industry), the attribution window is 60 or 90 days, not 30 days, because customers do a lot of research before buying a product. You would then change your [lookback window](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) to 90 days. 
 
 ## Step 3: Use Algorithmic attribution
 
@@ -49,4 +49,4 @@ Because it is very hard to validate a large number of possible hypotheses and co
 
 * You might need to use the services of a data scientist instead of relying on Analysis Workspace alone.
 * You can rely on raw data, as in Adobe data feeds.
-* Consider using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en), for example, if you want to consider your Impressions data.
+* Consider using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html), for example, if you want to consider your Impressions data.

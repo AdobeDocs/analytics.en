@@ -21,7 +21,7 @@ To mitigate any disruption to your current report-distribution workflows that re
  
 * If you use Publishing Lists to distribute the same version of the report to multiple users (without applying report suite overrides):
  
-   Once you recreate your reports in Analysis Workspace as projects, you can use a combination of a contact group or distribution list created for your mail client and Workspace's Scheduled Projects feature to send or schedule the recurring delivery of the project. Like Publishing Lists, a PDF/CSV version of the project is then sent to every email ID that is part of the group/list. You can learn more about [Scheduled Projects here](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   Once you recreate your reports in Analysis Workspace as projects, you can use a combination of a contact group or distribution list created for your mail client and Workspace's Scheduled Projects feature to send or schedule the recurring delivery of the project. Like Publishing Lists, a PDF/CSV version of the project is then sent to every email ID that is part of the group/list. You can learn more about [Scheduled Projects here](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
  
 * If you use Publishing Lists to distribute multiple versions of the report or dashboard to multiple users (via the report suite override feature):
  

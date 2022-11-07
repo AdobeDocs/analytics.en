@@ -25,7 +25,7 @@ These headers are fields contain information like requests for data and response
 
 | HTTP Header | Description | h_ key accepted by Audience Manager |
 | --- | --- | --- |
-| Host | This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as `host name .demdex.net`. See [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). | `h_host` |
+| Host | This is set to the client's specific data collection host name specified in the Analytics host config file. It appears as `host name .demdex.net`. See [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). | `h_host` |
 | User-Agent | Set to the User-Agent header passed in to Analytics. | `h_user-agent` |
 | Accept-Language | Set to the  `Accept-Language`  header passed in to Analytics. | `h_accept-language` |
 | Referer | Set to the page URL passed in to Analytics or gathered from the `Referer` header passed in to Analytics. | `h_referer` |

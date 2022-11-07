@@ -131,7 +131,7 @@ This template is based on the People metric, which is a de-duplicated version of
 
 <!--This content is mirrored in the CDA doc.-->
 
-This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) (CDA).
 
 * **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
 * **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:

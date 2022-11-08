@@ -5,8 +5,8 @@ title: Saving projects to folders
 feature: Workspace Basics
 hide: yes
 hidefromtoc: yes
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
 ---
-
 # Save a New Project to a Folder
 
 To save a new project to a specific folder, select the folder name in the Save project dialogue window.

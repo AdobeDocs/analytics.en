@@ -5,8 +5,8 @@ title: Create Folders
 feature: Workspace Basics
 hide: yes
 hidefromtoc: yes
+exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 ---
-
 # Create folders
 
 You can add a new folder or a subfolder to the list of projects and folders on your Workspace landing page.

@@ -3,8 +3,8 @@ description: Learn about how to use the Reporting Activity Manager to diagnose a
 title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 ---
-
 # Reporting Activity Manager
 
 >[!NOTE]

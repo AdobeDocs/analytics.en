@@ -1,8 +1,8 @@
 ---
 title: Client hints
 description: Learn about how client hints will gradually replace the User-Agent as the source of device information.
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 ---
-
 # Client hints overview and FAQ
 
 Client hints are individual pieces of information about a user's device. They are provided by Chromium browsers such as Google Chrome and Microsoft Edge. For these browsers, client hints will gradually replace the User-Agent as the source of device information. Adobe Analytics will update its device lookup process so that it uses client hints in addition to User-Agent to determine device information.
@@ -138,4 +138,3 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 +++
-

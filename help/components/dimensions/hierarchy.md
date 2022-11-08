@@ -2,6 +2,7 @@
 title: Hierarchy
 description: A custom dimension that you can use in reporting.
 feature: Dimensions
+exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
 ---
 # Hierarchy
 

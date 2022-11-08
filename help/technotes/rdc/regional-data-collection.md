@@ -10,7 +10,7 @@ The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interacti
 
 >[!IMPORTANT]
 >
->The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe' Performance Optimization in mainland China enables customers with users inside China to have that data sent directly to the China edge node, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Please contact your Adobe Sales representative for more information.
+>The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe's Performance Optimization in mainland China enables customers with users inside China to have that data sent directly to Adobe edge collection servers inside China, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Note that data is ultimately transfered to one of Adobe's Data Processing Center (DPC) outside of China. Please contact your Adobe Sales representative for more information.
 
 RDC currently includes the following locations (subject to change):
 

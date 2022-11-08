@@ -10,7 +10,7 @@ The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interacti
 
 >[!IMPORTANT]
 >
->The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe's Performance Optimization in mainland China enables customers with users inside China to have that data sent directly to Adobe edge collection servers inside China, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Note that data is ultimately transfered to one of Adobe's Data Processing Center (DPC) outside of China. Please contact your Adobe Sales representative for more information.
+>The China RDC (China Performance Optimization) Add-On Package is a chargeable add-on to Adobe Analytics. Adobe's Performance Optimization in mainland China enables customers with users inside China to have that data sent directly to Adobe edge collection servers inside China, instead of other locations globally. This improves page load times and data accuracy over sending the data to nodes outside of China. Note that data is ultimately transferred to one of Adobe's Data Processing Center (DPC) outside of China. Please contact your Adobe Sales representative for more information.
 
 RDC currently includes the following locations (subject to change):
 
@@ -48,7 +48,7 @@ RDC currently includes the following locations (subject to change):
 | Benefit | Description |
 | --- | --- |
 | Performance | With RDC, your visitors connect to the closest DCC. This provides the fastest response time, resulting in more accurate tracking and faster loading times. |
-| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe’s RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
+| Redundancy | In case of a disruption in communication between the DCC and your DPC, Adobe's RDC infrastructure saves data locally, then forwards it to the DPC when communications are restored. |
 
 ## How RDC works
 

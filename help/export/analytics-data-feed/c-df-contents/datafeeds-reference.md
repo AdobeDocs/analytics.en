@@ -23,6 +23,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | Column name | Column description | Data type |
 | --- | --- | --- |
 | **`accept_language`** | Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request. | char(20) |
+| **`adload`** | Media ad loads | varchar(255) |
 | **`aemassetid`** | A multi-value variable corresponding to Asset ID's (GUID's) of a set of Adobe Experience Manager Assets. Increments Impression Events. | text |
 | **`aemassetsource`** | Identifies the source of the asset event. Used in Adobe Experience Manager.| varchar(255) |
 | **`aemclickedassetid`** | Asset ID of an Adobe Experience Manager asset. Increments Click Events.| varchar(255) |
@@ -137,6 +138,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobileplaceaccuracy`** | Collected from the context data variable `a.loc.acc`. Indicates the accuracy of the GPS in meters at time of collection. | varchar(255) |
 | **`mobileplacecategory`** | Collected from the context data variable `a.loc.category`. Describes the category of a specific place. | varchar(255) |
 | **`mobileplaceid`** | Collected from the context data variable `a.loc.id`. Identifier for a given point of interest. | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services Push opt-in | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push paylod ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services launch content | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services launch medium | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services launch source | varchar(255) |
@@ -196,7 +199,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`socialownedpropertyid`** | No longer used. Social owned property ID | varchar(255) |
 | **`socialownedpropertyname`** | No longer used. Social owned property name | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | No longer used. Social owned property vs app | varchar(255) |
-| **`sourceid`** | . | int unsigned |
+| **`sourceid`** | Source ID | int unsigned |
 | **`state`** | State variable. | varchar(50) |
 | **`stats_server`** | Not of use. Adobe internal server that processed the hit. | char(30) |
 | **`survey`** | No longer used. Adobe Survey variable. Only the `post` column is available. | text |
@@ -288,6 +291,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 
 The following list of columns are unused and do not contain data:
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
@@ -342,6 +346,7 @@ The following list of columns are unused and do not contain data:
 * `mobileplaceentry`
 * `mobileplaceexit`
 * `mobileprevsessionlength`
+* 
 * `mobilerelaunchcampaigntrackingcode.name`
 * `mobileupgrades`
 * `socialaveragesentiment`

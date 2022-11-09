@@ -346,7 +346,6 @@ The following list of columns are unused and do not contain data:
 * `mobileplaceentry`
 * `mobileplaceexit`
 * `mobileprevsessionlength`
-* 
 * `mobilerelaunchcampaigntrackingcode.name`
 * `mobileupgrades`
 * `socialaveragesentiment`

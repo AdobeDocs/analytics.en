@@ -25,7 +25,9 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 ## Permissions
 
-You require Analytics Product Admin permissions to manage reporting activity.
+You require the Analytics Product Administrator permission (in Adobe Admin Console) to manage reporting activity.
+
+![permission](assets/rep-mgr-permission.png)
 
 ## View the reports queue
 

@@ -82,7 +82,7 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL Users] | How many users are currently sending reporting requests to this report suite.  |
+| [!UICONTROL Users] | The number of users that are currently sending reporting requests to this report suite. |
 | [!UICONTROL Projects] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL Queries] | The number of queries currently running. |
 | [!UICONTROL Average Wait Time] | The average wait time for all running queries.  |
@@ -114,7 +114,10 @@ The detailed table below shows details on the report suite.
 
 To cancel a request 
 
-1. Check the box to the left of one or more **[!UICONTROL Query ID]** in the table and click **[!UICONTROL Cancel requests]** at the bottom. (You can also cancel requests in bulk by viewing details by [!UICONTROL User], [!UICONTROL Project], or [!UICONTROL Application].)
+1. Check the box to the left of one or more **[!UICONTROL Query ID]** in the table and click **[!UICONTROL Cancel requests]** at the bottom. 
+
+   You can also cancel requests in bulk by viewing details by [!UICONTROL User], [!UICONTROL Project], or [!UICONTROL Application]. Subsequent requests for a project, user or application that were not in queue or running at time of cancellation may still appear when activity is refreshed.
+   
 1. In the **[!UICONTROL Cancel x query]** window that appears, you can modify the cancellation message, if needed.
 1. Click **[!UICONTROL Continue]**.
 

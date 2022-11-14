@@ -82,7 +82,7 @@ The Summary Numbers show the following information:
 
 | Summary Number | Description |
 | --- | --- |
-| [!UICONTROL Users] | How many users are currently sending reporting requests to this report suite.  |
+| [!UICONTROL Users] | The number of users that are currently sending reporting requests to this report suite. |
 | [!UICONTROL Projects] | Workspace projects, Report Builder workbooks, etc.  | 
 | [!UICONTROL Queries] | The number of queries currently running. |
 | [!UICONTROL Average Wait Time] | The average wait time for all running queries.  |

@@ -29,19 +29,19 @@ Use the following guidelines to determine how far in advance you must submit a t
  <tbody>
   <tr>
    <td colname="col1"> New account setup </td>
-   <td colname="col2"> 5 business days </td>
+   <td colname="col2"> <ul><li>5 business days</li></ul></td>
   </tr>
   <tr>
    <td colname="col1"> Traffic spike or sudden permanent traffic increase of up to 25% in average daily volume compared to the last 30 days</td>
-   <td colname="col2"> <ul><li>Report suites with < 100M hits/day: No notification required</li><li>Report suites with > 100M hits/day: 5 business days</li>/ul></td>
+   <td colname="col2"> <ul><li>Report suites with < 100M hits/day: No notification required</li><li>Report suites with > 100M hits/day: 5 business days</li></ul></td>
   </tr>
   <tr>
    <td colname="col1"> Traffic spike or sudden permanent traffic increase of more than 25% in average daily volume compared to the last 30 days</td>
-   <td colname="col2"> 10 business days </td>
+   <td colname="col2"> <ul><li>10 business days</li></ul></td>
   </tr>
   <tr>
    <td colname="col1"> Holiday events October – December </td>
-   <td colname="col2"> One month </td>
+   <td colname="col2"> <ul><li>One month</li></ul> </td>
   </tr>
  </tbody>
 </table>

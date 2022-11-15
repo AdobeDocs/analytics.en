@@ -49,7 +49,7 @@ For more detail, see the following comparison of the field values available in B
 | customerID.[customerIDType].id | Not supported | The customer ID to use. The customerIDType can be any alphanumeric string, but should be considered case sensitive. |
 | customerID.[customerIDType].isMCSeed | Not supported | Whether or not this is the seed for the Marketing Cloud Visitor ID. Supported values are: 0, 1, TRUE, FALSE, '' (case insensitive). Using 0, FALSE, or two consecutive single quotes ('') causes the value to be omitted from the query string. The customerIDType can be any alphanumeric string, but should be considered case sensitive. |
 | eVarN | eVarN, i.e. `<eVar2>`...`<eVar>` | Conversion eVar name. You can have up to 75 eVars ( eVar1 - eVar75 ) You can specify the eVar name (eVar12) or a friendly name (Ad Campaign 3). |
-| events | events | [Events string](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), formatted using the same syntax as the s.events variable. For example: scAdd,event1,event7 |
+| events | events | [Events string](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), formatted using the same syntax as the s.events variable. For example: scAdd,event1,event7 |
 | hierN | hierN, i.e. `<hier2>`…`</hier2>` | Hierarchy name. You can have up to 5 hierarchies ( hier1 - hier5 ). You can specify the default hierarchy name `hier2` or a friendly name (Yankees). |
 | homePage | homePage | Y or N -- is the current page the visitor's homepage. |
 | ipaddress | Not supported | The visitor's IP address. |
@@ -60,7 +60,7 @@ For more detail, see the following comparison of the field values available in B
 | linkType | linkType | Type of link. Supported values include: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF of link. |
 | listn For example, list2. | Not supported | A delimited list of values that are passed into a variable, then reported as individual line items for reporting |
-| marketingCloudVisitorID | Not supported | Marketing Cloud ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) and the Marketing Cloud Visitor ID Service |
+| marketingCloudVisitorID | Not supported | Marketing Cloud ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) and the Marketing Cloud Visitor ID Service |
 | Not supported | charSet | The supported character set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. |
 | Not supported | clickAction | Object identifier for visitor click map (oid) |
 | Not supported | clickActionType | Object identifier type for visitor click map (oidt) |
@@ -85,7 +85,7 @@ For more detail, see the following comparison of the field values available in B
 | state | state | Conversion state string. |
 | timestamp | date | Use the ISO 8601 date format of YYYY-MM-DDThh:mm:ss±UTC_offset (for example, 2021-09-01T12:00:00-07:00 ), or Unix Time Format (the number of seconds elapsed since January 1, 1970). |
 | trackingServer | Not supported | Can only be supplied via column header. |
-| transactionID | Not supported | Common value used to tie multi-channel user activities together for reporting purposes. For more information, see the [Data Sources User Guide](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| transactionID | Not supported | Common value used to tie multi-channel user activities together for reporting purposes. For more information, see the [Data Sources User Guide](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Not supported | User agent string |
-| visitorID | visitorID | Visitor's Analytics ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
+| visitorID | visitorID | Visitor's Analytics ID. See [Visitor Identification](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | zip | zip | Conversion zip code. |

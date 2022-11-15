@@ -23,6 +23,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | Column name | Column description | Data type |
 | --- | --- | --- |
 | **`accept_language`** | Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request. | char(20) |
+| **`adload`** | Media ad loads | varchar(255) |
 | **`aemassetid`** | A multi-value variable corresponding to Asset ID's (GUID's) of a set of Adobe Experience Manager Assets. Increments Impression Events. | text |
 | **`aemassetsource`** | Identifies the source of the asset event. Used in Adobe Experience Manager.| varchar(255) |
 | **`aemclickedassetid`** | Asset ID of an Adobe Experience Manager asset. Increments Click Events.| varchar(255) |
@@ -57,8 +58,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`cust_hit_time_gmt`** | Timestamp-enabled report suites only. The timestamp sent with the hit, based in Unix time. | int|
 | **`cust_visid`** | If a custom visitor ID is set, it is populated in this column. | varchar(255) |
 | **`daily_visitor`** | Flag to determine if the hit is a new daily visitor. | tinyint unsigned |
-| **`dataprivacyconsentoptin`** | Variable used in the [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`|`). Valid values include `DMP` and `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variable used in the [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variable used in the [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `DMP` and `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable used in the [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |
 | **`date_time`** | The time of the hit in readable format, based on the report suite's time zone. | datetime |
 | **`domain`** | Variable used in the [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's internet access point. | varchar(100) |
 | **`duplicate_events`** | Lists each event that was counted as a duplicate. | varchar(255) |
@@ -137,6 +138,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobileplaceaccuracy`** | Collected from the context data variable `a.loc.acc`. Indicates the accuracy of the GPS in meters at time of collection. | varchar(255) |
 | **`mobileplacecategory`** | Collected from the context data variable `a.loc.category`. Describes the category of a specific place. | varchar(255) |
 | **`mobileplaceid`** | Collected from the context data variable `a.loc.id`. Identifier for a given point of interest. | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services Push opt-in | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push paylod ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services launch content | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services launch medium | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services launch source | varchar(255) |
@@ -157,6 +160,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`page_type`** | Used to populate the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension. Used exclusively for 404 pages. This variable should either be empty or contain the value `ErrorPage`. | char(20) |
 | **`page_url`** | The URL of the hit. Note that `post_page_url` is stripped for link tracking image requests and uses a data type of varchar(255). | text |
 | **`pagename`** | Used to populate the [Page](/help/components/dimensions/page.md) dimension. If the [`pagename`](/help/implement/vars/page-vars/pagename.md) variable is empty, Analytics uses `page_url` instead. | varchar(100) |
+| **`pagename_no_url`** | Similar to `pagename`, except it does not fall back to `page_url`. Only the `post` column is available. | varchar(100) |
 | **`paid_search`** | Flag that is set if the hit matches paid search detection. | tinyint unsigned |
 | **`partner_plugins`** | Not used. Part of a scrapped feature. | varchar(255) |
 | **`persistent_cookie`** | Used in the [Persistent cookie support](/help/components/dimensions/persistent-cookie-support.md) dimension. Indicates if the visitor supports cookies that are not discarded after each hit. | char(1) |
@@ -195,9 +199,10 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`socialownedpropertyid`** | No longer used. Social owned property ID | varchar(255) |
 | **`socialownedpropertyname`** | No longer used. Social owned property name | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | No longer used. Social owned property vs app | varchar(255) |
+| **`sourceid`** | Source ID | int unsigned |
 | **`state`** | State variable. | varchar(50) |
 | **`stats_server`** | Not of use. Adobe internal server that processed the hit. | char(30) |
-| **`survey`** | No longer used. Adobe Survey variable. | text |
+| **`survey`** | No longer used. Adobe Survey variable. Only the `post` column is available. | text |
 | **`survey_instances`** | No longer used. Adobe Survey instances variable. | text |
 | **`t_time_info`** | Local time for the visitor. Format is: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Used in Adobe Target integrations. Represents all tests currently qualified for. Format is: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
@@ -286,6 +291,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 
 The following list of columns are unused and do not contain data:
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`

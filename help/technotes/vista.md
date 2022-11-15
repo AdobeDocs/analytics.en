@@ -1,8 +1,8 @@
 ---
 title: VISTA rules in Adobe Analytics
 description: Learn more about VISTA rules and their capabilities.
+exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 ---
-
 # VISTA rules in Adobe Analytics
 
 VISTA rules are an alternate form of custom data modification that you can apply between data collection and processing. See [Processing order](processing-order.md) for more information around the exact stage in the data pipeline that VISTA rules apply. VISTA rules only impact current data as it is collected; it does not alter existing data.

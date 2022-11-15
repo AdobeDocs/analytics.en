@@ -5,8 +5,8 @@ title: Folders overview
 feature: Workspace Basics
 hide: yes
 hidefromtoc: yes
+exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 ---
-
 # About Folders in Workspace Projects
 
 Folders in Workspace Projects is a folder management system located on the Workspace landing page.

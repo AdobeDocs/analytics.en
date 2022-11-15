@@ -44,7 +44,7 @@ The following table lists the tasks required for visitor migration:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6+ hours after configuration change</b>: Update the <code> s.trackingServer</code> and <code> s.trackingServerSecure</code> variables in your Analytics JavaScript code to use the new data collection servers. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immediately after updating your Analytics code</b>: Test your site to verify that the redirect to the previous data collection domain is occurring. </p> </td> 

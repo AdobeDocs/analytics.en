@@ -41,7 +41,7 @@ Use the following guidelines to determine how far in advance you must submit a t
   </tr>
   <tr>
    <td colname="col1"> Holiday events October – December </td>
-   <td colname="col2"> <ul><li>One month</li></ul> </td>
+   <td colname="col2"> <ul><li>One calendar month</li></ul> </td>
   </tr>
  </tbody>
 </table>

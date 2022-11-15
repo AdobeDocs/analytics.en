@@ -33,7 +33,7 @@ Use the following guidelines to determine how far in advance you must submit a t
   </tr>
   <tr>
    <td colname="col1"> Traffic spike or sudden permanent traffic increase of up to 25% in average daily volume compared to the last 30 days</td>
-   <td colname="col2"> Report suites with < 100M hits/day: No notification required </td>
+   <td colname="col2"> Report suites with < 100M hits/day: No notification required <br>Report suites with > 100M hits/day: 5 business days</td>
   </tr>
   <tr>
    <td colname="col1"> Traffic spike or sudden permanent traffic increase of more than 25% in average daily volume compared to the last 30 days</td>

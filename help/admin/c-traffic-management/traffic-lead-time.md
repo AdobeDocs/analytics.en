@@ -18,36 +18,30 @@ Use the following guidelines to determine how far in advance you must submit a t
 
 ## Hardware Allocation Lead Times
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> DAILY Traffic Estimates (Hits) </th>
-   <th colname="col2" class="entry"> <p>Lead Time Needed (January - October) </p> </th>
-   <th colname="col3" class="entry"> <p>Lead Time Needed (November - December) </p> </th>
+   <th colname="col1" class="entry"> Traffic Change Type </th>
+   <th colname="col2" class="entry"> Lead Time Needed </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Up to 1,000,000 </td>
-   <td colname="col2"> No lead time needed </td>
-   <td colname="col3"> No lead time needed </td>
+   <td colname="col1"> New account setup </td>
+   <td colname="col2"> <ul><li>3 business days</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
-   <td colname="col2"> Two BUSINESS days </td>
-   <td colname="col3" morerows="3"> All traffic increases targeted for November-December should be submitted by September 1. This is to allow time to purchase capacity if necessary to accommodate holiday traffic. </td>
+   <td colname="col1"> Traffic spike or sudden permanent traffic increase of up to 25% in average daily volume compared to the last 30 days</td>
+   <td colname="col2"> <ul><li>Report suites with < 100M hits/day: No notification required</li><li>Report suites with > 100M hits/day: 5 business days</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
-   <td colname="col2"> One calendar week </td>
+   <td colname="col1"> Traffic spike or sudden permanent traffic increase of more than 25% in average daily volume compared to the last 30 days</td>
+   <td colname="col2"> <ul><li>5 business days</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
-   <td colname="col2"> Two calendar weeks </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Above 25,000,000 </p> </td>
-   <td colname="col2"> One or more months </td>
+   <td colname="col1"> Holiday events October – December </td>
+   <td colname="col2"> <ul><li>One calendar month</li></ul> </td>
   </tr>
  </tbody>
 </table>

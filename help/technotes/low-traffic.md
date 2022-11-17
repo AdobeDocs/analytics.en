@@ -1,8 +1,7 @@
 ---
 description: When a report has many unique values, Adobe uses the Low-Traffic dimension item to improve report performance.
 title: Low-traffic value in Adobe Analytics
-feature: Metrics
-feature: Data Configuration and Collection
+feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
 # Low-traffic value in Adobe Analytics

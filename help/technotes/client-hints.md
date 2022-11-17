@@ -1,8 +1,8 @@
 ---
 title: Client hints
 description: Learn about how client hints will gradually replace the User-Agent as the source of device information.
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 ---
-
 # Client hints overview and FAQ
 
 Client hints are individual pieces of information about a user's device. They are provided by Chromium browsers such as Google Chrome and Microsoft Edge. For these browsers, client hints will gradually replace the User-Agent as the source of device information. Adobe Analytics will update its device lookup process so that it uses client hints in addition to User-Agent to determine device information.
@@ -35,7 +35,7 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
@@ -75,11 +75,11 @@ The device fields available for reporting will not change. The data captured for
 
 These fields are directly derived from the User-Agent but User-Agent may be used to help derive values for other device related fields, depending on the device details.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 
-* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
-* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
-* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html) 
+* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
@@ -138,4 +138,3 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 +++
-

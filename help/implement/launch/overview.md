@@ -27,6 +27,6 @@ See [Create an Analytics tag property](create-analytics-property.md) to get star
 
 Tags can be highly customized. Learn more about how you can get the most out of Adobe Analytics by including the right data in your implementation.
 
-* [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#): Learn how the interface works and what extensions are available.
-* [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en): Use the Analytics extension to send data to Adobe Analytics.
+* [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
+* [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html): Use the Analytics extension to send data to Adobe Analytics.
 * [Implementation variables](../vars/overview.md): Determine what variables you want to send to data collection servers.

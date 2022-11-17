@@ -1,6 +1,7 @@
 ---
 title: Consent Management Opt-Out
 description: See which privacy settings that a visitor opted out of.
+exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 ---
 # Consent Management Opt-Out
 

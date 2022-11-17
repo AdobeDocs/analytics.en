@@ -16,4 +16,4 @@ Enables Analytics to collect impressions and clicks on [!UICONTROL Assets] serve
 * Adds new dimensions to the Asset Variables in Analysis Workspace: Asset ID, Asset Source, and Clicked Asset ID 
 * Adds new dimensions to the Asset Events: Asset Clicks and Asset Impressions
 
-For data to be populated, refer to the [AEM Asset Insights documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=en) for complete implementation instructions.
+For data to be populated, refer to the [AEM Asset Insights documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) for complete implementation instructions.

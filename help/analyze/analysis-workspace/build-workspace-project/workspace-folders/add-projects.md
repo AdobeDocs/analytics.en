@@ -5,8 +5,8 @@ title: Add Folders in Workspace
 feature: Workspace Basics
 hide: yes
 hidefromtoc: yes
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 ---
-
 # Add Projects to Folders
 
 You can add projects to a folder in the table view or from within a folder.

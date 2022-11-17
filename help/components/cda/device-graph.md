@@ -16,8 +16,8 @@ If you intend to implement Cross-Device Analytics using the device graph method,
 >Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * All prerequisites listed on the [overview page](overview.md).
-* Your organization must use the [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). See also the [Home Page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en) in the Identity Service user guide.
-* Your implementation must use the latest version of the Experience Cloud ID Service (ECID). See the [Home Page](https://experienceleague.adobe.com/docs/id-service/using/home.html) in the ID Service user guide. Most implementations using [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform likely already have ID Service deployed.
+* Your organization must use the [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). See also the [Home Page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html) in the Identity Service user guide.
+* Your implementation must use the latest version of the Experience Cloud ID Service (ECID). See the [Home Page](https://experienceleague.adobe.com/docs/id-service/using/home.html) in the ID Service user guide. Most implementations using [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in Adobe Experience Platform likely already have ID Service deployed.
 * Your implementation must call the `setCustomerIDs` function (or SDK equivalent) whenever an individual can be identified, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. See [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) in the ID Service user guide.
 
 ## Limitations specific to the device graph

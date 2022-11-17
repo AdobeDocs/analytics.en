@@ -29,7 +29,7 @@ Ensure that the most recent site release did not adversely impact the data colle
 
 If you have added or changed any metrics or variables recently, you need to update your Business Requirement Document (BRD) and Solution Design Reference (SDR). 
 
-If you don’t have documentation of your implementation, export a list of variables and create your BRD or SDR using [this template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+If you don’t have documentation of your implementation, export a list of variables and create your BRD or SDR using [this template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Immediately address any gaps your find in your data quality
 

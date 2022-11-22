@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October/November 2022)
 
-**Last update**: October 28, 2022
+**Last update**: November 18, 2022
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -33,6 +33,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| **Updated guidelines for traffic spike notifications** | November 18, 2022 | Former guidelines were based strictly on hit volumes. The [new guidelines](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) are based on a combination of report suite size and percent increase. |
 | **Update to device lookups due to Google Client Hints** | October 14, 2022 | The use of client hints in device lookup, originally planned for October 26, 2022, has been postponed to **January 2023**. <p> <p>As of October 2022 it is possible to collect client hints with either the Web SDK or AppMeasurement JavaScript libraries. But client hints will not be incorporated into device lookup until January 2023. At that date, Adobe will begin using client hints in addition to the User-Agent when deriving certain device information for hits coming from Chromium browsers, such as Google Chrome and Microsoft Edge. This is in response to Google's plan to gradually reduce the information presented from the User-Agent string in lieu of data passed via client hints. <p> <p>As part of this change, Adobe will use Device Atlas for all device lookups related to User-Agent. [Learn more](/help/technotes/client-hints.md)|
 | **Default landing page** | September 29, 2022 |The [new landing page](/help/analyze/landing.md) that was introduced earlier this year will become the default experience for all users in **January 2023**. The current page will be deprecated and everyone will be required to use the new experience. |
 | **[!UICONTROL Anomaly detection] auto-run conditions** | September 29, 2022 | Today, [!UICONTROL Anomaly detection] auto-runs on all columns of time-series freeform tables. To ensure data is available for analysis and projects load faster, Adobe will change how Anomaly detection auto-runs. Starting **October 26, 2022**, [!UICONTROL Anomaly detection] will auto-run only on the first metric column in a table. You can configure column settings to run anomaly detection on other columns, if needed. |

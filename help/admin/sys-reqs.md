@@ -6,7 +6,7 @@ exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 ---
 # Adobe Analytics system requirements
 
-Lists the system requirements to use various product solutions in Adobe Analytics.
+Most Adobe Analytics solutions run in the browser. The following sections provide system requirements for both browser and client solutions: 
 
 ## System requirements for browser-based solutions
 

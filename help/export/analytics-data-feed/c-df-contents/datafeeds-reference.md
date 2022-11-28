@@ -119,13 +119,13 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobilecampaignterm`** | Paid keywords or other terms you want to track with this acquisition. Populated by Mobile App Acquisition. | varchar(255) |
 | **`mobiledayofweek`** | Number of the weekday that the app was launched on.| varchar(255) |
 | **`mobiledayssincefirstuse`** | Number of days since the app was run for the first time. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | Collected from the context data variable a.DaysSinceLastUpgrade. The number of days that have passed since the previous session. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRED - Collected from the context data variable a.DaysSinceLastUpgrade. The number of days that have passed since the previous session. | varchar(255) |
 | **`mobiledayssincelastuse`** | Number of days since the app was last run. | varchar(255) |
 | **`mobiledeeplinkid`** | Collected from the context data variable `a.deeplink.id`. Used in acquisition reports as an identifier for mobile acquisition link.| varchar(255) |
 | **`mobiledevice`** | Mobile device name. On iOS, it is stored as a comma-separated 2-digit string. The first number represents the device generation, and the second number represents the device family. | varchar(255) |
 | **`mobilehourofday`** | Defines the hour of the day the app was launched. Follows 24-hour numerical format. | varchar(255) |
 | **`mobileinstalldate`** | Mobile install date. Provides the date of the first time a user opens the mobile app.| varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | Collected from the context data variable a.LaunchesSinceUpgrade. Reports the number of launches since last upgrade.| varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRED - Collected from the context data variable a.LaunchesSinceUpgrade. Reports the number of launches since last upgrade.| varchar(255) |
 | **`mobilelaunchnumber`** | Increments by one each time the mobile app is launched.| varchar(255) |
 | **`mobileltv`** | No longer used. Populated by trackLifetimeValue methods. | varchar(255) |
 | **`mobilemessagebuttonname`** | Collected from the context data variable `a.message.button.id`. Used for in-app messaging to identify the button that closed the message.| varchar(100) |
@@ -133,7 +133,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobilemessageonline`** | In-app Message Online | varchar(255) |
 | **`mobilemessagepushoptin`** | Collected from the context data variable `a.push.optin`. Set to "true" when the user opts in to push messaging; otherwise the value is "false".| varchar(255) |
 | **`mobilemessagepushpayloadid`** | Collected from the context data variable `a.push.payloadid`. Used in push messaging as the payload identifier. | varchar(255) |
-| **`mobileosenvironment`** | Collected from the context data variable `a.OSEnvironment`. States OS environment, such as Android or iOS. | varchar(255) |
+| **`mobileosenvironment`** | RETIRED - Collected from the context data variable `a.OSEnvironment`. States OS environment, such as Android or iOS. | varchar(255) |
 | **`mobileosversion`** | Mobile Services operating system version | varchar(255) |
 | **`mobileplaceaccuracy`** | Collected from the context data variable `a.loc.acc`. Indicates the accuracy of the GPS in meters at time of collection. | varchar(255) |
 | **`mobileplacecategory`** | Collected from the context data variable `a.loc.category`. Describes the category of a specific place. | varchar(255) |

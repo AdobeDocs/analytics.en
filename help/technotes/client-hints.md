@@ -89,6 +89,14 @@ See the [timeline published by Google](https://blog.chromium.org/2021/09/user-ag
 
 +++
 
++++**In what ways does Analytics depend on the User Agent?**
+
+Device information in reporting is derived from the User Agent. We have updated our processes to use both User Agent and client hints where available. 
+
+The Fallback ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) is derived from the User Agent and IP Address. This ID is only used if a cookie cannot be set so is not widely used 
+
++++
+
 +++**Which Analytics reporting fields are derived from values stored in high-entropy hints?**
 
 This will change over time as Google 'freezes' more parts of the User Agent. The first field to be directly impacted is "Operating System" which includes the operating system version According to Google's published timeline for "freezing" User-Agent hints, operating system version will be frozen starting late October 2022 with Chromium version 107. At that point the operating system version in the User Agent will be inaccurate in some cases. 
@@ -99,7 +107,7 @@ Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/us
 
 +++**How will Adobe use client hints to derive device information?**
 
-Adobe uses a third party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
+Adobe uses a third party, Device Atlas, who will use both client hints and the User-Agent to derive device information.
 
 +++
 

@@ -18,6 +18,6 @@ This chapter explains concepts you need to understand about Analytics-specific p
 
 ## Add an administrator in Adobe Analytics
 
-Here is a short video on the process:
+View the following video demonstration to learn how to add an administrator in Adobe Analytics:
 
-https://video.tv.adobe.com/v/37648/?quality=12
+[https://video.tv.adobe.com/v/37648/?quality=12](Add an administrator in Adobe Analytics){target=_blank}

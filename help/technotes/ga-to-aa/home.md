@@ -32,3 +32,7 @@ Once you are familiar with components in [!UICONTROL Analysis Workspace], you ca
 * [Create Conversions reports in Adobe Analytics](reports/conversions-reports.md)
 
 After learning to pull reports, understanding [processing and architecture differences](processing-differences.md) can help reconcile the different numbers obtained between platforms. An [FAQ](faq.md) is also available.
+
+## External links
+
+* [Terminology comparison between Adobe Analytics and Google Analytics](https://yuhuisdatascienceblog.blogspot.com/2020/05/adobe-analytics-and-google-analytics.html): "cheat sheet" table that lists equivalent dimensions, metrics, and other terminologies in Adobe Analytics and Google Analytics.

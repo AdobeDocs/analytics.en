@@ -12,12 +12,12 @@ This chapter explains concepts you need to understand about Analytics-specific p
 
 * Permissions
 
-  * [Product profiles for Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-  * [Product profile permissions for Report Suite Tools](/help/admin/admin-console/permissions/report-suite-tools.md)
-  * [Product profile permissions for Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md)
+    * [Product profiles for Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+    * [Product profile permissions for Report Suite Tools](/help/admin/admin-console/permissions/report-suite-tools.md)
+    * [Product profile permissions for Analytics Tools](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Add an administrator in Adobe Analytics
 
-Here is a short video on the process:
+View the following video demonstration to learn how to add an administrator in Adobe Analytics:
 
-https://video.tv.adobe.com/v/37648/?quality=12
+[Add an administrator in Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

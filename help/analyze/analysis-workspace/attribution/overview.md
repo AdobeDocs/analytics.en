@@ -58,3 +58,6 @@ Adding side-by-side comparisons of Attribution IQ models:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Adobe Analytics tools that do not support Attribution IQ
+
+Any tools that do not support the Analytics 2.0 API, such as Report Builder, do not support Attribution IQ.

@@ -18,6 +18,8 @@ The following TLS 1.2 ciphers will no longer be supported:
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA 
 * TLS_RSA_WITH_AES_128_CBC_SHA 
 * TLS_RSA_WITH_AES_256_CBC_SHA 
+* TLS_RSA_WITH_AES_128_GCM_SHA256 
+* TLS_RSA_WITH_AES_256_GCM_SHA384 
  
 The following clients are known to be impacted by this change because they lack support for current encryption standards: 
  

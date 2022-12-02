@@ -109,7 +109,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
-  + [Adobe Analytics First Admin Guide](admin-console/first-admin-guide.md)
+  + [Admin roles in Adobe Analytics](admin-console/first-admin-guide.md)
 + Company Settings {#company-settings}
   + [Company Settings overview](company/c-company-settings.md)
   + [Feature access levels](company/feature-access-levels.md)

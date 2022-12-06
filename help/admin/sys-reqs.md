@@ -6,11 +6,11 @@ exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 ---
 # Adobe Analytics system requirements
 
-Lists the system requirements to use various product solutions in Adobe Analytics.
+Most Adobe Analytics solutions run in the browser. The information in this article provides system requirements for both browser and client solutions. 
 
 ## System requirements for browser-based solutions
 
-Most Adobe Analytics solutions, including Analysis Workspace, are browser-based. Therefore, the most important requirement to use Adobe Analytics is a modern web browser. Adobe supports the latest stable version of these browsers:
+Most Adobe Analytics solutions, including Analysis Workspace, are browser-based. Therefore, the most important requirement to use Adobe Analytics is a modern web browser. Adobe supports the latest stable version of the following browsers:
 
 * Microsoft Edge
 * Google Chrome 
@@ -25,5 +25,5 @@ Most Adobe Analytics solutions, including Analysis Workspace, are browser-based.
 
 See the linked solution page for that solution's system requirements.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Report Builder system requirements](/help/analyze/report-builder/setup/system-requirements.md)
+* [Data Workbench system requirements](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)

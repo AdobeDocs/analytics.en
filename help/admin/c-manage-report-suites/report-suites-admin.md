@@ -6,9 +6,21 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 ---
 # Report Suite Manager
 
-A report suite defines the complete, independent reporting on a chosen website, set of websites, or subset of web pages. Usually, a report suite is one website, but it can be a global segment where you have combined several sites' numbers to get totals. When you log in to any Adobe Analytics solution, you select one report suite to use (except when you use roll-ups that combine report suites). Also, a report suite can be smaller than a website, if you want to run reports for a portion of your site. Analytics solutions aggregate and report on these data stores. The admin Report Suite Manager lets you define the rules that govern how data is processed in a report suite.
+A report suite defines the complete, independent reporting for any of the following data stores:  
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+* A single website (most typical)  
+
+* A portion or subset of a single website  
+
+* A global segment comprised of several sites' numbers to get totals   
+
+Analytics solutions aggregate and report on these data stores. The admin Report Suite Manager lets you define the rules that govern how data is processed in a report suite.  
+
+When you log in to any Adobe Analytics solution, you select one report suite to use (except when you use roll-ups that combine report suites). 
+
+To access a report suite:
+
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**
 
 >[!NOTE]
 >

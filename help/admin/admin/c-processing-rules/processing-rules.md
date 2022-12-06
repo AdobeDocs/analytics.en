@@ -51,3 +51,7 @@ Processing rules can monitor incoming values to transform common typos and set e
 Once context data variables are defined within your implementation, they must be copied to variables such as eVars to be used in reporting.
 
 See [Copy a context data variable to an eVar](processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](processing-rules-examples/processing-rules-copy-context-data-event.md) for more information.
+
+## Known limitations
+
+**Use of carats (^) in processing rules.** If you want to use carats in processing rules as delimiters or for other purposes, each single carat must be represented by two carats. For example, represent a single carat as ^^, a double carat as ^^^^, etc.

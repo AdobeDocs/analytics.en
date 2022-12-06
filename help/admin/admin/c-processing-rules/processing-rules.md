@@ -54,4 +54,4 @@ See [Copy a context data variable to an eVar](processing-rules-examples/processi
 
 ## Known limitations
 
-** Use of carats (^) in processing rules.** If you want to use carats in processing rules for delimiters or other purposes, each single carat must be represented by two carats. For example, represent a single carat as ^^, a double carat as ^^^^, etc.
+**Use of carats (^) in processing rules.** If you want to use carats in processing rules for delimiters or other purposes, each single carat must be represented by two carats. For example, represent a single carat as ^^, a double carat as ^^^^, etc.

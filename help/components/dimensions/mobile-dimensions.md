@@ -25,7 +25,7 @@ If you use an AppMeasurement library (such as through tags in Adobe Experience P
 * **Mobile carrier**: Values for this dimension are populated by looking up 3rd-party (Digital Elements) data based on the IP addresses that Analytics captured. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.
 * **Mobile color depth**: The color depth of the mobile device, in bits.
 * **Mobile cookie support**: Determines if the mobile device supports cookies. This report does not state if the browser accepts cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
-* **Mobile device**: The mobile device that the visitor uses.
+* **Mobile device**: The mobile device that the visitor uses. **Note**: Digital Elements publishes updates periodically to recognize new/updated devices.
 * **Mobile device number**: Determines if the mobile device transmits its number. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
 * **Mobile device type**: The type of mobile device. Example values include `"Mobile phone"`, `"Tablet"`, `"Media player"`, and `"Gaming console"`.
 * **Mobile DRM**: The type of DRM the mobile device supports. Example values include `"DRM OMA forward"`, `"DRM OMA combined delivery"`, and `"DRM OMA separate delivery"`.

@@ -37,7 +37,7 @@ Configure the quick segment from this blank slate:
 | --- | --- |
 | Name | The default name of a segment is a combination of the rule names in the segment. You can rename the segment. |
 | Include/exclude | You can either include or exclude components in your segment definition, but not both. |
-| Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor’s data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+| Hit/Visit/Visitor container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor's data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
 | Components (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions and/or metrics and/or date ranges) and their values. There are 3 ways to find the right component:<ul><li>Start typing and the [!UICONTROL Quick Segment] builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
 | Operator | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. [Learn more](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | Plus (+) sign | Add another rule |
@@ -88,3 +88,10 @@ If a project-only segment is opened in the [!UICONTROL Segment Builder], a proje
 If you check "Make this segment available.." and click **[!UICONTROL SAVE]**, the segment becomes available in the left rail component list for use in other projects. It can also be shared with other users from the Segment Manager.
 
 ![Project only checked](assets/project-only-checked.png)
+
+## Known issue
+
+1. Create a quick segment with 2 entries and **[!UICONTROL Save]** it as Test1.
+1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
+1. Edit the Test2 quick segment and save it again as Test2. 
+   Notice that the Test1 quick segment gets modified by Test2.

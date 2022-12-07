@@ -45,11 +45,11 @@ Dimension items can often apply in multiple places; for example, visits that spa
 +++
 
 +++How do I exclude data from a particular IP addresses in my report suite?
-You can eliminate data from internal website activities, such as site testing and employee usage, from your reports. This feature allows you and your colleagues to visit your site without skewing your traffic data. See [Exclude by IP Address](/help/admin/admin/exclude-ip.md) in the Admin user guide for more information.
+You can eliminate data from internal website activities, such as site testing and employee usage, from your reports. This feature allows you and your colleagues to visit your site without skewing your traffic data. See [Exclude by IP Address](/help/admin/admin/exclude-ip.md) in the Admin user guide for more information. 
 +++
 
 +++Can I delete a report suite?
-Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](/help/admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](/help/admin/admin/get-started/company/c-hide-report-suites.md) in the Admin user guide for more information. 
 +++
 
 +++When using segmentation, what container should I use? Page view, visit, or visitor?

@@ -251,3 +251,4 @@ source,destination
 /docs/analytics/implementation/javascript-implementation/plugins/appendlist.html,/docs/analytics/implementation/vars/plugins/apl.html
 /docs/analytics/implementation/javascript-implementation/visitor-migration.html,/docs/analytics/implementation/js/migrate-from-hcode.html
 /docs/analytics/components/variables/dimensions-reports/reports-custom-insight.html,/docs/analytics/components/dimensions/prop.html
+/docs/analytics/admin/sys-reqs.html,/docs/analytics/admin/admin/get-started/sys-reqs.html

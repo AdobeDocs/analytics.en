@@ -8,7 +8,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 
 This help page contains recommended use cases for each Adobe Analytics tool. Tools should be considered in the order they are listed. If a certain tool does not meet the need, move to the next one for consideration.
 
-For more on Adobe Analytics Product Comparisons, go [here](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+For more on Adobe Analytics Product Comparisons, see [Analytics product comparison](/help/admin/admin/get-started/analytics-product-comparison.md).
 
 Here is a video that compares various Adobe Analytics tools:
 

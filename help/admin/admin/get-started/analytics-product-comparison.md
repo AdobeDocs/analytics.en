@@ -8,11 +8,11 @@ feature: Analytics Basics
 
 This page contains a comparison of various Adobe Analytics products: Analysis Workspace, Reports & Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds and Analytics API 2.0.
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+For information on which Adobe Analytics product to use, see [Which Adobe Analytics tool should I use?](/help/admin/admin/get-started/which-analytics-tool.md).
 
 | Product Name & Help Link | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Access method** | [Browser](/help/admin/sys-reqs.md) | [Browser](/help/admin/sys-reqs.md) | [MS Excel for Windows](/help/analyze/report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/admin/sys-reqs.md) | [Windows 64 bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe Developer credentials. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Access method** | [Browser](/help/admin/admin/get-started/sys-reqs.md) | [Browser](/hhelp/admin/admin/get-started/sys-reqs.md) | [MS Excel for Windows](/help/analyze/report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/admin/admin/get-started/sys-reqs.md) | [Windows 64 bit](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe Developer credentials. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Data granularity** | Aggregated | Aggregated | Aggregated | Aggregated | Hit | Hit | Aggregated |
 | **Experience Cloud ID (ECID) available** | No | No | No | Yes | Yes | Yes | No |
 | **Timestamp available** | No | No | No | No | Yes | Yes | No |

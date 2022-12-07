@@ -49,7 +49,7 @@ You can eliminate data from internal website activities, such as site testing an
 +++
 
 +++Can I delete a report suite?
-Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](/help/admin/admin/get-started/company/c-hide-report-suites.md) in the Admin user guide for more information. 
+Deleting a report suite is not possible. However, a report suite can be hidden from all views in Adobe Analytics. Note that server calls sent to a hidden report suite still count towards your monthly contract limit. See [Hide report suites](/help/admin/get-started/company/c-hide-report-suites.md) in the Admin user guide for more information. 
 +++
 
 +++When using segmentation, what container should I use? Page view, visit, or visitor?

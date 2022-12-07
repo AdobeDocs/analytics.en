@@ -8,7 +8,7 @@ feature: Admin Tools
 
 Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an Experience Cloud user to that product profile, they inherit the permission items contained in the product profile.
 
-See [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Enterprise user guide for general information on product profiles.
+For general information about product profiles, including creating product profiles and assigning users,  see [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Enterprise user guide.
 
 ## Product profile admins
 
@@ -18,6 +18,8 @@ Product profile admins are an optional group that can add or remove users to tha
 * Product profile admins can adjust permissions items in their product profile.
 * Product profile admins can assign or remove product profiles to user groups.
 * Product profile admins are ideal for team leads or managers who need to grant and manage access to Adobe Analytics for their team. Individuals would not need to bother system admins or product admins to grant access to Adobe Analytics.
+
+For information about how to assign product profile admins, see the "Manage product profile admins" section in the article, [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Enterprise user guide.
 
 ## Adobe Analytics permission items
 

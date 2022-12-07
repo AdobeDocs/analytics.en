@@ -24,6 +24,15 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Co-Branding](admin/get-started/company/co-branding-admin.md)
     + [Hide report suites](admin/get-started/company/c-hide-report-suites.md)
     + [Security Manager](admin/get-started/company/security-manager.md)
++ User permissions in the Adobe admin console {#admin-console}
+  + [Analytics in the Adobe Admin Console](admin-console/home.md)
+  + Permissions {#permissions}
+    + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
+    + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
+    + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
+    + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
+  + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
+  + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -112,15 +121,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
     + [Use case - extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
   + [Video management](admin/video-management.md)
-+ Analytics in the Adobe Admin Console {#admin-console}
-  + [Analytics in the Adobe Admin Console](admin-console/home.md)
-  + Permissions {#permissions}
-    + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
-    + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
-    + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
-    + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
-  + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
-  + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Manage report suites {#manage-report-suites}
   + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
   + [Rollup and global report suites](c-manage-report-suites/rollup-report-suite.md)

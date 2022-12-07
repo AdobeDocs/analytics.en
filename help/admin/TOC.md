@@ -14,6 +14,16 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Which Adobe Analytics tool should I use?](admin/get-started/which-analytics-tool.md)
   + [Analytics product comparison and requirements](admin/get-started/analytics-product-comparison.md)
   + [System requirements](admin/get-started/sys-reqs.md)
+  + Company Settings {#company-settings}
+    + [Company Settings overview](admin/get-started/company/c-company-settings.md)
+    + [Feature access levels](admin/get-started/company/feature-access-levels.md)
+    + [Web Services](admin/get-started/company/web-services-admin.md)
+    + [Report Builder reports](admin/get-started/company/report-builder-reports-admin.md)
+    + [Single sign-on](admin/get-started/company/single-signon-admin.md)
+    + [Pending actions](admin/get-started/company/pending-actions-admin.md)
+    + [Co-Branding](admin/get-started/company/co-branding-admin.md)
+    + [Hide report suites](admin/get-started/company/c-hide-report-suites.md)
+    + [Security Manager](admin/get-started/company/security-manager.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -111,16 +121,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-+ Company Settings {#company-settings}
-  + [Company Settings overview](company/c-company-settings.md)
-  + [Feature access levels](company/feature-access-levels.md)
-  + [Web Services](company/web-services-admin.md)
-  + [Report Builder reports](company/report-builder-reports-admin.md)
-  + [Single sign-on](company/single-signon-admin.md)
-  + [Pending actions](company/pending-actions-admin.md)
-  + [Co-Branding](company/co-branding-admin.md)
-  + [Hide report suites](company/c-hide-report-suites.md)
-  + [Security Manager](company/security-manager.md)
 + Manage report suites {#manage-report-suites}
   + [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
   + [Rollup and global report suites](c-manage-report-suites/rollup-report-suite.md)

@@ -2,6 +2,7 @@
 title: Administrator roles in Adobe Analytics
 description: Understand how to get started with Adobe Analytics, general role types, and logging in to the UI.
 feature: Admin Tools
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 ---
 # Administrator roles in Adobe Analytics
 

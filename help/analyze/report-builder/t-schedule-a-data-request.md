@@ -66,7 +66,6 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 |**File Options tab**||
 |File Format|Lets you select a delivery format of Excel 2007 ( .xlsx) or 2003 ( .xls),  .pdf, .csv, .mht, .txt, and .xml.|
 |File Destination|Specifies Email or FTP. The options on the page change depending on your selection. For FTP, you must ensure that the host is available externally.|
-|Publishing List|If you send the scheduled workbook to multiple publishing lists, the workbook runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list.|
 |File Contents Language|Specifies the language you want to use for the cover letter. You can select Chinese (Simplified or Traditional), German, French, Japanese, Korean, Brazilian Portuguese, or Spanish.|
 |**Publishing Options tab**||
 |Publishing to Power BI|<ul><li>Publish Workbook to Power BI</li><li>Publish All Report Builder Requests as Power BI Datasets</li><li>Publish All Formatted Tables as Power BI Datasets</li></ul>|

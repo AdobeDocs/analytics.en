@@ -10,7 +10,7 @@ The 'Original referring domain' dimension reports the first referring domain tha
 
 >[!IMPORTANT]
 >
->You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
+>You must configure your report suite's [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal domains or prevent external domains from appearing.
 
 ## Populate this dimension with data
 

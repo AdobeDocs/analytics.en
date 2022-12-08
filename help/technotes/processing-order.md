@@ -30,7 +30,7 @@ Once data arrives to Adobe Analytics, the following features adjust the data as 
 5. **VISTA rules**: Custom flexible rules applied to your data by an Adobe consultant. VISTA rules can potentially run before or after Processing rules, depending on your organization's needs. Most VISTA rules generally run after Processing rules, but each organization is set up differently. Contact your Adobe Account Manager for more information around existing VISTA rules.
 6. [**Marketing Channel processing rules**](/help/components/c-marketing-channels/c-rules.md): You can use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to prepare data for use in Marketing Channel processing rules.
 7. **Geolocation data**: Dimensions that rely on IP address lookup (for example, the [Countries](/help/components/dimensions/countries.md) dimension) are populated.
-8. [**IP obfuscation**](/help/admin/admin/general-acct-settings-admin.md): If your organization has opted to obfuscate IP addresses in raw data, it is done after all other processing functions have completed.
+8. [**IP obfuscation**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): If your organization has opted to obfuscate IP addresses in raw data, it is done after all other processing functions have completed.
 
 At this point, the individual hit is recorded in report suite data tables. After the standard [latency](latency.md) interval, it is available in reporting.
 

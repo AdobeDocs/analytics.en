@@ -18,13 +18,13 @@ This article is designed for system-level administrators or Adobe Analytics admi
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Click **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
-1. Select either a predefined template or an existing report suite to use as a [template](../c-report-suite-templates/report-suite-templates.md).
+1. Select either a predefined template or an existing report suite to use as a [template](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >
-   >Only settings can be copied, not the data. If Customer Care is copying the settings over, you will need to provide a written confirmation to the disclaimer provided by Customer care about the risks involved. See [Settings not copied from a source report suite](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) for more information.
+   >Only settings can be copied, not the data. If Customer Care is copying the settings over, you will need to provide a written confirmation to the disclaimer provided by Customer care about the risks involved. See [Settings not copied from a source report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) for more information.
 
-1. Fill in the fields described in [New Report Suite.](../c-new-report-suite/new-report-suite.md)
+1. Fill in the fields described in [New Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
 1. Click **[!UICONTROL Create Report Suite]**.
 
 A report suite ID has a maximum length of 40 bytes. A report suite friendly name has a maximum length of 255 bytes.

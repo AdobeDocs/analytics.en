@@ -15,7 +15,7 @@ Adobe recommends implementing a global report suite in most cases.
 * **Aggregated data:** Global report suites enable you to see KPI's and success events across your owned sites. Segmentation and virtual report suites can be used to view site-specific data.
 * **Support for Cross-Device Analytics:** CDA requires a report suite that collects data from multiple places, such as your website and mobile app. Separate devices can stitch data together if implemented correctly. See [Cross-Device Analytics](../../components/cda/overview.md) in the Components user guide for more information.
 * **No need for more than one report suite:** All data can be collected in a single report suite, so it is less likely for a developer to mistakenly send data to the wrong report suite.
-* **No need for rollups:** Rollups are a fairly dated feature that aggregates individual report suite data on a daily basis. Rollups do not deduplicate visit or visitor data, which can lead to inflated numbers. See [Rollups](../../admin/c-manage-report-suites/rollup-report-suite.md) in the Admin user guide for more information.
+* **No need for rollups:** Rollups are a fairly dated feature that aggregates individual report suite data on a daily basis. Rollups do not deduplicate visit or visitor data, which can lead to inflated numbers. See [Rollups](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) in the Admin user guide for more information.
 * **Save time:** Workspace projects, classifications, segments, and calculated metrics are tied to the same global report suite. Administrators spend less time managing these components and data governance.
 * **More accurate cross-brand attribution:** If a visit starts on one site then clicks to another of your owned sites before triggering a success event, attribution is accurately collected. For exampple, a visitor clicks a paid search link, and lands on site A. They then click a link to site B, then make a purchase. A global report suite correctly attributes that purchase back to paid search. 
 * **Simplified implementation:** Since all brands/sites send data into the same report suite, your implementations across each site are aligned. This enforced governance ensures a specific dimension or metric is saved in the same eVar or event. Administrators, testers, tag management owners, and analysts benefit from this simplification.
@@ -28,7 +28,7 @@ Adobe recommends implementing a global report suite in most cases.
 
 Use the following general guidelines to understand the process of implementing a global report suite.
 
-1. Create the global report suite in Adobe Analytics. See [Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in the Admin user guide for more information.
+1. Create the global report suite in Adobe Analytics. See [Create a report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) in the Admin user guide for more information.
 1. Work with teams in your organization responsible for each domain. Many teams have reporting requirements specific to their area of the business.
 1. Record and aggregate all of these requirements in a [Solution design document](solution-design.md). If teams have similar requirements for a dimension, they can use the same custom variable. For example, if site A and site B both require a breadcrumb dimension, implementations for both sites can send that data through eVar1.
 
@@ -51,4 +51,4 @@ The process of moving an existing implementation across multiple sites to a sing
 ## Related pages
 
 [Moving from multi-suite tagging to a global report suite and virtual report suites](../../components/vrs/vrs-considerations.md)
-[Comparing rollups and global report suites](../../admin/c-manage-report-suites/rollup-report-suite.md)
+[Comparing rollups and global report suites](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)

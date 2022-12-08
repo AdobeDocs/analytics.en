@@ -9,7 +9,7 @@ exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 
 You can create a new report suite by selecting a pre-defined template, or by using one of your existing report suites to serve as a model.
 
-Descriptions of the elements used when [creating a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
+Descriptions of the elements used when [creating a report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >

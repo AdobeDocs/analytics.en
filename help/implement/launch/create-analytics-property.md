@@ -10,7 +10,7 @@ Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions 
 
 ## Prerequisites
 
-[Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
+[Create a report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
 
 ## Create a tag property and install vital extensions
 

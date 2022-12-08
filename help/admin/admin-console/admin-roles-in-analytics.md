@@ -64,7 +64,7 @@ For information about assigning users as product profile admins, see the "Manage
 
 ## Next steps
 
-[Create a Report Suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Have your Analytics admin log in to the tool and create a report suite for data collection
+[Create a Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Have your Analytics admin log in to the tool and create a report suite for data collection
 
 [Create an Analytics tag property](/help/implement/launch/create-analytics-property.md): Have your Data Collection admin log in to the tool and create a property to implement on your site
 

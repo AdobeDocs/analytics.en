@@ -31,7 +31,6 @@ exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 + [Metric Visibility](metric-visibility.md)
 + [Mobile Management](mobile-management.md)
 + [Paid search detection overview](paid-search-detection/paid-search-detection.md)
-+ [Publishing Lists](publishing-list.md)
 + [Publishing Widget](publishing-widgets-admin.md)
 + [Preferences Manager](preferences-manager.md)
 + [Privacy Settings](privacy-settings.md)

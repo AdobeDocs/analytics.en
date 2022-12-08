@@ -26,13 +26,13 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Security Manager](get-started/company/security-manager.md)
 + User permissions in the Adobe admin console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
+  + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
+  + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
   + Permissions {#permissions}
     + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
-  + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
-  + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Admin Tools {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -66,7 +66,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + Paid search detection {#paid-search-detection}
     + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
     + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)
-  + [Publishing lists](admin/publishing-list.md)
   + [Publishing Widget](admin/publishing-widgets-admin.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy settings](admin/privacy-settings.md)

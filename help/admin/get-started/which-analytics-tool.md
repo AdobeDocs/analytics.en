@@ -26,7 +26,6 @@ Here is a video that compares various Adobe Analytics tools:
 * To set up Targets.
 * To view Bot reporting.
 * To access unique Video visualizations of Video Daypart and Viewer Drop-off.
-* To leverage Publishing Lists in scheduled reporting .
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** should be used:
 

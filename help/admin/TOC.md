@@ -66,7 +66,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + Paid search detection {#paid-search-detection}
     + [Paid search detection overview](admin/paid-search-detection/paid-search-detection.md)
     + [Configure paid search detection](admin/paid-search-detection/t-paid-search-detection.md)
-  + [Publishing Widget](admin/publishing-widgets-admin.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy settings](admin/privacy-settings.md)
   + [Privacy reporting](admin/privacy-reporting.md)
@@ -106,7 +105,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [How to verify your server-side forwarding implementation](admin/c-server-side-forwarding/ssf-verify.md)
     + [Server-side forwarding FAQ](admin/c-server-side-forwarding/ssf-faq.md)
   + [Simplified reports menu](admin/t-simplified-menu.md)
-  + [Social management](admin/social-management.md)
   + Success events {#success-events}
     + [Success events overview](admin/c-success-events/success-event.md)
     + [Configure success events](admin/c-success-events/t-success-events.md)

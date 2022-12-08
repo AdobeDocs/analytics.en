@@ -60,7 +60,7 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>A rollup is single report suite that combines the tracking data of several other report suites. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>A rollup is single report suite that combines the tracking data of several other report suites. </p> <p>See <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit Settings</span> </td> 
@@ -68,7 +68,7 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Create New</span> </td> 
-   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Customize Columns</span> </td> 
@@ -76,15 +76,15 @@ The following table describes elements on the [!UICONTROL Report Suite Manager] 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Report Suite ID</span> </td> 
-   <td colname="col2">See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
+   <td colname="col2">See <a href="/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Site Title</span> </td> 
-   <td colname="col2"> <p>Identifies report suites in Admin Tools, and in the report suite drop-down list in the marketing report header. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Identifies report suites in Admin Tools, and in the report suite drop-down list in the marketing report header. </p> <p>See <a href="/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
-   <td colname="col2"> <p>Defines the base domain for the report suite. </p> <p>See <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
+   <td colname="col2"> <p>Defines the base domain for the report suite. </p> <p>See <a href="/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md"> New Report Suite</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

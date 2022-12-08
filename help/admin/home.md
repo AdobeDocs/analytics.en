@@ -29,7 +29,7 @@ This guide does not cover many of the generic capabilities that the Adobe Admin 
 ## Key articles
 
 * [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md): If your organization is brand new to Adobe Analytics, follow this guide to start getting value out of Adobe Analytics.
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md): The most commonly accessed admin tool in Analytics. The Report Suite Manager contains settings for variable management classification management, time zones, and more.
+* [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): The most commonly accessed admin tool in Analytics. The Report Suite Manager contains settings for variable management classification management, time zones, and more.
 
 ## More Analytics user guides
 

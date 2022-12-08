@@ -99,12 +99,12 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
         + [Menu customizing](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
         + [Customize calendar](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-        + Processing rules {#processing-rules}
+        + Processing rules {#c-processing-rules}
           + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-          + Processing rules configuration {#processing-rules-configuration}
+          + Processing rules configuration {#c-processing-rules-configuration}
             + [How processing rules work](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-            + [Create processing rules](hadmin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-            + [View active processing rules](admin/manage-report-suites/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+            + [Create processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+            + [View active processing rules](admin/manage-report-suites/c-edit-report-suites/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
             + [View processing rule history](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
             + [Restore processing rules](admin/manage-report-suites/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
             + [Copy processing rules to another report suite](admin/manage-report-suites/report-suite-general/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)

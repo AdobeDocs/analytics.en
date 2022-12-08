@@ -38,7 +38,7 @@ Using virtual report suites instead of multi-suite tagging is often a best pract
 >
 >[!DNL Reports & Analytics] is the only tool that supports rollup reports, and Adobe no longer recommends using rollups. Instead, consider using a global report suite with multi-suite tagging or virtual report suites.
 
-A rollup report is a simple aggregation of data from multiple report suites, without deduplication or any segment or data breakdowns. Rollups do not require code implementation. To use rollup reports, [implement child report suites](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) and then [combine them into a rollup report](/help/admin/admin/c-manage-report-suites/t-rollups.md) using [!UICONTROL Admin Tools].
+A rollup report is a simple aggregation of data from multiple report suites, without deduplication or any segment or data breakdowns. Rollups do not require code implementation. To use rollup reports, [implement child report suites](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) and then [combine them into a rollup report](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) using [!UICONTROL Admin Tools].
 
 Rollup reports are free: the child report suites incur their own server calls, but the rollup does not incur additional calls. Rollups are a legacy feature and have many limitations.
 

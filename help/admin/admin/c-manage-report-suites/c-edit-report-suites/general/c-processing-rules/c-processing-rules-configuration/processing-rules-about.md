@@ -73,7 +73,7 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Value comparisons in the UI are case insensitive. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Cleaning up Values in a Report </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Cleaning up Values in a Report </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Context data variable names can contain only alphanumeric characters, underscores and dots. Any additional characters are stripped out. </p> </td> 

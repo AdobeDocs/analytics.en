@@ -15,7 +15,7 @@ Some common use cases of VISTA rules include:
 * Duplicate variable values to other variables
 * Upload files to an Adobe FTP site that can impact variable values
 
-Many use cases to VISTA rules are already offered by [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md), [Bot rules](/help/admin/admin/bot-removal/bot-rules.md), [Virtual report suites](/help/components/vrs/vrs-about.md), or simply updating your Adobe Analytics implementation. Adobe recommends VISTA rules only as a last resort.
+Many use cases to VISTA rules are already offered by [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [Bot rules](/help/admin/admin/bot-removal/bot-rules.md), [Virtual report suites](/help/components/vrs/vrs-about.md), or simply updating your Adobe Analytics implementation. Adobe recommends VISTA rules only as a last resort.
 
 >[!IMPORTANT]
 >

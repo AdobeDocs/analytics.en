@@ -16,7 +16,7 @@ Each report in Reports & Analytics uses a dedicated dimension and default metric
 >Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 >[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
 ## Site Metrics
 
@@ -113,7 +113,7 @@ Contains reports that allow you to see pathing data for visitors.
 
 ## Traffic sources
 
-Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [Internal URL filters](../../admin/admin/internal-url-filter-admin.md) under report suite settings.
+Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) under report suite settings.
 
 * Search keywords - all: Uses the [Search keyword](/help/components/dimensions/search-keyword.md) dimension.
 * Search keywords - paid: Uses the [Search keyword - paid](/help/components/dimensions/search-keyword.md) dimension.

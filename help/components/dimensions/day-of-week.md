@@ -14,4 +14,4 @@ This dimension works out of the box for all implementations. If a report suite c
 
 ## Dimension items
 
-Dimension items include `Sunday` - `Saturday`, representing the day of the week that the hit occurred on. The order of dimension items respects the first day of the week in [Customize calendar](/help/admin/admin/custom-calendar.md) by default.
+Dimension items include `Sunday` - `Saturday`, representing the day of the week that the hit occurred on. The order of dimension items respects the first day of the week in [Customize calendar](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) by default.

@@ -77,7 +77,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Persistence:** An abstract concept for conversion variables that allows the linking between a variable value and event happening on separate hits. See also Expiration.
 * **Primary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, the first report suite is a primary server call while the rest are secondary server calls. This rule applies to all hit types, including page view and link tracking. See also Secondary server calls.
 * **Processing rules:** Can refer to:
-  * Processing rules, a way to alter data collection using certain rules in the Admin Console. See [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) in the Admin user guide.
+  * Processing rules, a way to alter data collection using certain rules in the Admin Console. See [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) in the Admin user guide.
   * Marketing channel processing rules, a set of rules that determines which marketing channel a hit belongs in. See [Marketing channel processing rules](/help/admin/admin/marketing-channels-admin.md) in the Admin user guide.
 * **Prop:** See Traffic variable.
 * **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.

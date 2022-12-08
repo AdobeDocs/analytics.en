@@ -12,7 +12,7 @@ Context data variables are helpful for development teams to collect data in name
 
 ## Context data variables using the Web SDK
 
-If an XDM field is not [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), it is automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) to assign the context data variable to the desired Analytics variable.
+If an XDM field is not [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), it is automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
 
 While it is a best practice to map data to the correct XDM fields in the Datastream, this method achieves similar results.
 

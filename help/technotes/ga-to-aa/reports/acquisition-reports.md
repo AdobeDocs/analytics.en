@@ -121,7 +121,7 @@ It is possible to collect UTM parameters in Adobe Analytics using custom variabl
 
 ## Campaigns - Paid Keywords
 
-The paid keywords report shows how each keyword performs after a visitor clicks a paid search link from a search engine. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
+The paid keywords report shows how each keyword performs after a visitor clicks a paid search link from a search engine. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
 1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.

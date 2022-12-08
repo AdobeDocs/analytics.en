@@ -17,7 +17,7 @@ A referrer must meet both of the following to classify as a search keyword:
 * The referring domain is recognized by Adobe as a valid [Search engine](search-engine.md);
 * A keyword query string parameter exists in the referring URL. If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
 
-If you want to distinguish paid and natural search, [Paid search detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) is required. Multiple dimensions are available for search keywords:
+If you want to distinguish paid and natural search, [Paid search detection](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) is required. Multiple dimensions are available for search keywords:
 
 * **Search keyword**: The search keyword used to reach your site, regardless of if it is paid or natural.
 * **Search keyword - paid**: The search keyword used to reach your site, which matched paid search detection.
@@ -25,7 +25,7 @@ If you want to distinguish paid and natural search, [Paid search detection](/hel
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
 ## Dimension items
 

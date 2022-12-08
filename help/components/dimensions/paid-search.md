@@ -10,7 +10,7 @@ The 'Paid search' dimension lets you look at any metric and compare it between p
 
 ## Populate this dimension with data
 
-The only requirement for this dimension to work properly is to have [Paid search detection](/help/admin/admin/paid-search-detection/paid-search-detection.md) configured correctly in report suite settings. If paid search detection is configured correctly and a report suite has data, this dimension always works.
+The only requirement for this dimension to work properly is to have [Paid search detection](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) configured correctly in report suite settings. If paid search detection is configured correctly and a report suite has data, this dimension always works.
 
 ## Dimension items
 

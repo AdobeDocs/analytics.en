@@ -27,7 +27,7 @@ Sometimes including a single or double quote in a string is desired. For example
 
 ### Avoid using curly quotes
 
-Some programs automatically convert neutral quotes (`"..."` and `'...'`) into curly quotes (`“...”` and `‘...’`). Avoid using document editors (such as Microsoft Word), or transmitting code snippets through email. Curly quotes cannot be used in JavaScript.
+Some programs automatically convert neutral quotes (`"..."` and `'...'`) into curly quotes (`"..."` and `'...'`). Avoid using document editors (such as Microsoft Word), or transmitting code snippets through email. Curly quotes cannot be used in JavaScript.
 
 ## Reference the Analytics object
 
@@ -81,7 +81,7 @@ These two variable values are considered separate in Adobe Analytics. However, t
 Implementations that populate many variables with long values can sometimes run into truncated image requests. Some older browsers, such as Internet Explorer, impose a 2083-character limit on image request URLs. If your organization faces very long image requests, try the following:
 
 * **Use the Experience Cloud ID service**: AppMeasurement libraries 1.4.1 and later automatically send image requests using HTTP POST if they are too long. Data sent using this method is not truncated regardless of length. See [Adobe Experience Cloud ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html) for more information.
-* **Use processing rules**: [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) can copy values from one variable to another. This method saves you from setting the same value in multiple variables. For example:
+* **Use processing rules**: [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) can copy values from one variable to another. This method saves you from setting the same value in multiple variables. For example:
 
   Always execute:<br>
   Overwrite value of prop1 with eVar1<br>

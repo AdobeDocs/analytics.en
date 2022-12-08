@@ -14,7 +14,7 @@ Use breakdowns when you want to know more about how a report item or segment rel
 
 An example is a breakdown of a custom traffic report called Age Group, in which you have gathered site visitors' ages from a survey. This report allows you to see which age group is responsible for the most traffic on your site. However, if you have gone to the trouble of capturing something like the age of a visitor, you might want to know about more than just page views. You can generate a breakdown report about which search engine they use, what keywords they use, or where they are located geographically. You are correlating the age group and the search engine.
 
-If you break down a report by *`Referrer Type`*, you might see a data point for *`Inside Your Site`*. This value indicates a referrer page that is on the Internal URL Filters list. See [Internal URL Filters](/help/admin/admin/internal-url-filter-admin.md) in the Admin Reference.
+If you break down a report by *`Referrer Type`*, you might see a data point for *`Inside Your Site`*. This value indicates a referrer page that is on the Internal URL Filters list. See [Internal URL Filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) in the Admin Reference.
 
 You can break down any Analytics variable (eVar or prop) by any other variable. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent 
 

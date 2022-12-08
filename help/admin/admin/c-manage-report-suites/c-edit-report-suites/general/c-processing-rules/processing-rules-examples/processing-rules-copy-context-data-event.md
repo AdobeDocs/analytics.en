@@ -20,7 +20,7 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 
 ![](assets/add-context-variable.png)
 
-The following rule definition expands on the [Copy a Context Data Variable to an eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) rule to also set an event on every hit that contains a specific context data variable: 
+The following rule definition expands on the [Copy a Context Data Variable to an eVar](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) rule to also set an event on every hit that contains a specific context data variable: 
 
 |  Rule Set  | Value  |
 |---|---|

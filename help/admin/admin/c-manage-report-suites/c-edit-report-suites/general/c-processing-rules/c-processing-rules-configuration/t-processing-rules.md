@@ -22,4 +22,4 @@ Processing rules are set on report suites.
 
    If you have multiple rules drag and drop them on the page to change the processing order.
 
-   See [Examples of Processing Rules](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) for information about the kinds of rules you can create.
+   See [Examples of Processing Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) for information about the kinds of rules you can create.

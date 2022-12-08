@@ -16,7 +16,7 @@ Activity map uses this variable to help determine what links are internal to you
 
 >[!NOTE]
 >
->`linkInternalFilters` and [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) are separate features that fulfill separate purposes. The `linkInternalFilters` variable works specifically for exit link tracking. Internal URL filters are an Admin setting that help with traffic sources dimensions like Referring Domain.
+>`linkInternalFilters` and [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) are separate features that fulfill separate purposes. The `linkInternalFilters` variable works specifically for exit link tracking. Internal URL filters are an Admin setting that help with traffic sources dimensions like Referring Domain.
 
 ## Exit links in the Web SDK
 

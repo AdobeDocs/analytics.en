@@ -252,3 +252,11 @@ source,destination
 /docs/analytics/implementation/javascript-implementation/visitor-migration.html,/docs/analytics/implementation/js/migrate-from-hcode.html
 /docs/analytics/components/variables/dimensions-reports/reports-custom-insight.html,/docs/analytics/components/dimensions/prop.html
 /docs/analytics/admin/sys-reqs.html,/docs/analytics/admin/admin/get-started/sys-reqs.html
+/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html
+/docs/analytics/admin/admin-tools/general-acct-settings-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html
+/docs/analytics/admin/admin-tools/customize-menus,/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/customize-menus.html
+/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html,/docs/analytics/assets/processing-rules.png
+/docs/analytics/admin/admin-tools/internal-url-filter-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/internal-url-filter-admin.html
+/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rules-about.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.html
+/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html
+/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules-tips.html

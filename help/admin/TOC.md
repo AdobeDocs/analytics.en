@@ -36,28 +36,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 + Analytics admin {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
-  + Report Suite manager {#manage-report-suites}
-    + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
-    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
-    + [Create a rollup report suite](admin/c-manage-report-suites/t-rollups.md)
-    + [Create a report suite group](admin/c-manage-report-suites/t-create-rs-group.md)
-    + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-    + [Individual report suite settings](admin/c-manage-report-suites/individual-rs-settings.md)
-    + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
-    + New report suite {#new-report-suite}
-      + [Create a report suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [New report suite - settings](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Settings not copied from a source report suite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-    + Report suite templates {#report-suite-templates}
-      + [Report suite templates overview](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Aggregator portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [Content and Media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [Default template](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [Financial Services](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Job portal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Lead Generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [Support Media](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
   + Bot removal {#bot-removal}
     + [Bot removal](admin/bot-removal/bot-removal.md)
     + [Bot rules overview](admin/bot-removal/bot-rules.md)
@@ -119,6 +97,28 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Supported real-time metrics and dimensions](admin/realtime/realtime-metrics.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
+  + Report Suite manager {#manage-report-suites}
+    + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
+    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+    + [Create a rollup report suite](admin/c-manage-report-suites/t-rollups.md)
+    + [Create a report suite group](admin/c-manage-report-suites/t-create-rs-group.md)
+    + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+    + [Individual report suite settings](admin/c-manage-report-suites/individual-rs-settings.md)
+    + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
+    + New report suite {#new-report-suite}
+      + [Create a report suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+      + [New report suite - settings](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+      + [Settings not copied from a source report suite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+    + Report suite templates {#report-suite-templates}
+      + [Report suite templates overview](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+      + [Aggregator portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+      + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+      + [Content and Media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+      + [Default template](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+      + [Financial Services](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+      + [Job portal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+      + [Lead Generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+      + [Support Media](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
     + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)

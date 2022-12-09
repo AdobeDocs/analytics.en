@@ -12,7 +12,7 @@ Custom event metrics show the number of hits where a given custom event was set 
 
 ## How this metric is calculated
 
-Custom events are calculated differently depending on their type. You can check an event's type under [Success events](../../admin/admin/c-success-events/success-event.md) in Report suite settings.
+Custom events are calculated differently depending on their type. You can check an event's type under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
 
 * **Counter events**: The default event setting. Most events are counter events. Counts the number of hits where the matching custom event `event1` - `event1000` exists in the [`events`](/help/implement/vars/page-vars/events/events-overview.md) variable.
 * **Numeric events**: Sums the numeric value assigned to the event in the `events` variable.

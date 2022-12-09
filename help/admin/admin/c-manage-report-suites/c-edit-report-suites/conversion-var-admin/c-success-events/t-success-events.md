@@ -12,16 +12,16 @@ Steps that describe how to configure success events.
 1. Select a report suite.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**.
 
-   ![Step Result](assets/success_event_page.png)
+   ![Step Result](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/assets/success_event_page.png)
 
 1. In the **[!UICONTROL Name]** column, select the checkbox next each item to enable editing, then specify the desired name.
 1. In the **[!UICONTROL Type]** column, select the checkbox next each item to enable the drop-down list, then select the desired type.
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](/help/admin/admin/c-success-events/event-type.md).
+   >Before you change an event type, see [Change event type](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md).
 
-   See [Success Events Page - Descriptions](/help/admin/admin/c-success-events/success-event.md) for information about these elements.
+   See [Success Events Page - Descriptions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) for information about these elements.
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.

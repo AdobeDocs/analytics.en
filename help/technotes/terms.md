@@ -11,7 +11,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Admin console:** Can refer to:
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](/help/admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
-* **Allocation:** If a conversion variable encounters more than one value during a visit, the variable's allocation setting determines which value is kept. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
+* **Allocation:** If a conversion variable encounters more than one value during a visit, the variable's allocation setting determines which value is kept. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **Analysis Workspace:** Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports and Analytics.
 * **Anomaly:** Detected using statistical modeling to automatically find unexpected trends in data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in the Analyze user guide.
 * **AppMeasurement:** The code library used to gather data and send it to Adobe. See the [Homepage](/help/implement/home.md) of the Implement user guide.
@@ -49,7 +49,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **eVar:** See Conversion variable.
 * **Event:** See Success event.
 * **ExcelClient:** No longer used as a term. The name of the predecessor of Report Builder.
-* **Expiration:** In context of a conversion variable, how long the value persists on the backend. This persistence allows events to associate with variable values before the event's hit. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
+* **Expiration:** In context of a conversion variable, how long the value persists on the backend. This persistence allows events to associate with variable values before the event's hit. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **Flow:** A type of visualization in Analysis Workspace that shows what paths users took on your site. See [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in the Analyze user guide.
 * **Genesis:** No longer used as a term. The former name of Data Connectors.
 * **Global report suite:** An informal term designated to a report suite that collects hits from multiple sites.

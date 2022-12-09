@@ -42,18 +42,10 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Common bot signatures](admin/bot-removal/bot-signatures.md)
     + [Bot exclusion methods](admin/bot-removal/bot-exclusion-methods.md)
   + [Code Manager](admin/code-manager-admin.md)
-  + Conversion variables {#conversion-variables}
-    + [Conversion variables (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
-    + [Edit conversion variables](admin/conversion-var-admin/t-conversion-variables-admin.md)
-    + [Conversion classifications](admin/conversion-var-admin/conversion-classifications.md)
-    + [Classification hierarchies](admin/conversion-var-admin/classification-hierarchies.md)
-    + [List variables](admin/conversion-var-admin/list-var-admin.md)
-    + [Merchandising eVars](admin/conversion-var-admin/merchandising-evars.md)
   + [Currency codes](admin/currency.md)
   + [Data Sources](admin/data-sources.md)
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
-  + [Finding methods](admin/finding-methods.md)
   + [Logs](admin/logs.md)
   + [Marketing Channels](admin/marketing-channels-admin.md)
   + [Metric visibility](admin/metric-visibility.md)
@@ -125,6 +117,21 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
         + [Traffic classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
         + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+      + Conversion variables {#conversion-variables}
+        + [Conversion variables (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+        + [Edit conversion variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+        + [Conversion classifications](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+        + [Classification hierarchies](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+        + [List variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+        + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+        + [Finding methods](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+        + Unique Visitor variable {#unique-visitor-variable}
+          + [Specify the Unique Visitor variable](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+          + [Use case - extracting Visitor IDs](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+        + Success events {#success-events}
+          + [Success events overview](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+          + [Configure success events](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+          + [About changing the event type](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
     + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -133,14 +140,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [How to verify your server-side forwarding implementation](admin/c-server-side-forwarding/ssf-verify.md)
     + [Server-side forwarding FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [Simplified reports menu](admin/t-simplified-menu.md)
-  + Success events {#success-events}
-    + [Success events overview](admin/c-success-events/success-event.md)
-    + [Configure success events](admin/c-success-events/t-success-events.md)
-    + [About changing the event type](admin/c-success-events/event-type.md)
   + [Timestamps optional](admin/timestamp-optional.md)
-  + Unique Visitor variable {#unique-visitor-variable}
-    + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-    + [Use case - extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
   + [Video management](admin/video-management.md)
 + User and Product Management (Legacy) {#user-product-management}
   + [User and Product Management](user-management2/user-management.md)

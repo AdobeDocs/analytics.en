@@ -14,7 +14,7 @@ Event serialization is the process of implementing measures to prevent duplicate
 
 ## Set up event serialization
 
-You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](/help/admin/admin/c-success-events/success-event.md) in the Admin user guide.
+You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in the Admin user guide.
 
 When using event IDs, de-duplication happens on the following levels:
 

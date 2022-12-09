@@ -8,7 +8,7 @@ exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 
 Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site. Events typically increment [metrics](/help/components/metrics/overview.md) in reports.
 
-Before implementing events, make sure that you create and configure them under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
+Before implementing events, make sure that you create and configure them under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
 
 ## Events using the Web SDK
 
@@ -94,7 +94,7 @@ s.events = "event1=2,event2";
 
 You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. They are useful to help calculate shipping costs, discounts, or refunds. You can set currency events in the `products` variable if you want to attribute the event to only that product.
 
-Before implementing currency events, make sure that you set the desired event to 'Currency' under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings.
+Before implementing currency events, make sure that you set the desired event to 'Currency' under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings

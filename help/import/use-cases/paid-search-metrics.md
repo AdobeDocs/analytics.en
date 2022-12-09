@@ -59,7 +59,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 1. Click **[!UICONTROL Next]** and name your data source. This name appears in the Data Source Manager.
 1. Accept the service agreement and click **[!UICONTROL Next]**.
 1. Select the three standard metrics: [!UICONTROL Impressions], [!UICONTROL Clicks] and [!UICONTROL Total Cost] and click **[!UICONTROL Next]**.
-1. Now “map” this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-success-events/t-success-events.md).
+1. Now "map" this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
     ![Mapping](assets/data-source-mapping.png)
 

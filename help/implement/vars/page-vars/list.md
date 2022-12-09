@@ -20,7 +20,7 @@ Make sure that you configure each list variable in report suite settings before 
 
 ## List variables using the Web SDK
 
-List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; it is automatically included using the value specified in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md). For example, if a comma ('`,`') is configured as the delimiter for list variable 1, the following XDM object populates the `list1` variable with `"Example value 1,Example value 2,Example value 3"`.
+List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; it is automatically included using the value specified in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). For example, if a comma ('`,`') is configured as the delimiter for list variable 1, the following XDM object populates the `list1` variable with `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -58,7 +58,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.list1 - s.list3 in AppMeasurement and the Analytics extension custom code editor
 
-Each list variable is a string that contains custom values specific to your organization. They do not have a maximum byte count; however, each individual value has a maximum of 255 bytes. The delimiter that you use is determined when setting up the variable in [Report suite settings](/help/admin/admin/conversion-var-admin/list-var-admin.md). Do not use spaces when delimiting multiple items.
+Each list variable is a string that contains custom values specific to your organization. They do not have a maximum byte count; however, each individual value has a maximum of 255 bytes. The delimiter that you use is determined when setting up the variable in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Do not use spaces when delimiting multiple items.
 
 ```js
 // A list variable configured with a comma as a delimiter

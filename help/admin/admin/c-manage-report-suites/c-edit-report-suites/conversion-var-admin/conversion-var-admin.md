@@ -29,7 +29,7 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 
 ## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
+Descriptions of fields used when [editing conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md).
 
 | Element | Description |
 | --- | --- |

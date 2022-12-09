@@ -18,5 +18,5 @@ Steps that describe how to add or edit conversion variables.
    Click **[!UICONTROL Add New]** to add an unused eVar to the report suite.
 1. Select the conversion variable fields you want to modify.
 
-   See [Conversion Variables - Descriptions](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Some fields let you type directly in the field. Others let you select from a drop-down list of supported values.
+   See [Conversion Variables - Descriptions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Some fields let you type directly in the field. Others let you select from a drop-down list of supported values.
 1. Click **[!UICONTROL Save]**.

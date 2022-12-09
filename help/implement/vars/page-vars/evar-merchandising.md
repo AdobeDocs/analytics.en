@@ -13,7 +13,7 @@ For a detailed discussion of how merchandising eVars work, see [Merchandising eV
 
 ## Set up eVars in report suite settings
 
-Before using eVars in your implementation, make sure that you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+Before using eVars in your implementation, make sure that you configure the eVar to the desired syntax in report suite settings. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
 >[!WARNING]
 >

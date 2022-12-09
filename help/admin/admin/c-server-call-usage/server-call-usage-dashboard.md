@@ -23,7 +23,7 @@ The Current Usage dashboard
 
   >[!NOTE]
   >
-  >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/admin/c-server-call-usage/report-suite-usage.mdd) tab and download the usage data for a previous period.
+  >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](/help/admin/admin/c-server-call-usage/report-suite-usage.md) tab and download the usage data for a previous period.
 
 * Lists the percentage of calls used (in percentages and raw data), and the percentage of the usage period spent (in percentages and raw data).
 * By default, is updated daily, with a 5-day processing latency.

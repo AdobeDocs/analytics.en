@@ -35,7 +35,7 @@ On the Request tab, verify that a ECID value is being set. This tells you that I
 
 ## ![step2_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Verify server-side forwarding implementation version
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
+Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md).
 
 In the "Response" tab, check that the response contains Audience Manager data. If you see:
 

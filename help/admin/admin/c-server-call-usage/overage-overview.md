@@ -23,7 +23,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## Prerequisites {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Permissions:** To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator.
-* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Important Terminology {#section_CBA348A039F34563B097CD8890AB358D}
 

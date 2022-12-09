@@ -50,7 +50,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [List variables](admin/conversion-var-admin/list-var-admin.md)
     + [Merchandising eVars](admin/conversion-var-admin/merchandising-evars.md)
   + [Currency codes](admin/currency.md)
-  + [Custom report descriptions](admin/custom-desc-admin.md)
   + [Data Sources](admin/data-sources.md)
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
@@ -121,6 +120,11 @@ user-guide-description: Learn about Analytics administration tasks, such managin
             + [Set an event using a context data variable](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
             + [Remove an event from a hit](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
           + [Processing rules tips and tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+      + Traffic variables {#traffic-variables}
+        + [Traffic variable (prop) overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+        + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+        + [Traffic classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+        + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
     + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -134,10 +138,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Configure success events](admin/c-success-events/t-success-events.md)
     + [About changing the event type](admin/c-success-events/event-type.md)
   + [Timestamps optional](admin/timestamp-optional.md)
-  + Traffic variables {#traffic-variables}
-    + [Traffic variable (prop) overview](admin/c-traffic-variables/traffic-var.md)
-    + [Enable traffic variable reports](admin/c-traffic-variables/t-traffic-variable.md)
-    + [Traffic classifications](admin/c-traffic-variables/traffic-classifications.md)
   + Unique Visitor variable {#unique-visitor-variable}
     + [Specify the Unique Visitor variable](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
     + [Use case - extracting Visitor IDs](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)

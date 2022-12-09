@@ -98,7 +98,7 @@ To use dashboards:
 
 1. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
 
-    ![Segment filter](assets/segment_filter.png)
+    ![Segment filter](/help/admin/admin/assets/filter.png)
 
 1. Get Scorecard updates. If a Scorecard does not include all of the metric or breakdowns that you may be interested in, please contact your Analytics team to have the Scorecard updated. Once updated, you can pull down the card on the screen to refresh it and load the recently-added data.
 

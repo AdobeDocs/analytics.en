@@ -20,7 +20,7 @@ Here is a video on sequential segmentation:
 
 When creating a segment where "Include Everyone" is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone.
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | If result... | Sequence |
 |--- |--- |

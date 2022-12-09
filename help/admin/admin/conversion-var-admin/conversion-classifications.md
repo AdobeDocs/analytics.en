@@ -34,7 +34,7 @@ Steps that describe how to add conversion classifications in Admin.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**.
 1. From the **[!UICONTROL Select Classification Type]** drop-down list, select the variable where you want to add a classification.
 
-   ![Step Info](../assets/sub_class_create.png)
+   ![Step Info](/help/admin/admin/assets/sub_class_create.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. In the **[!UICONTROL Select Type]** field, select the type of classification you want to add to the variable.

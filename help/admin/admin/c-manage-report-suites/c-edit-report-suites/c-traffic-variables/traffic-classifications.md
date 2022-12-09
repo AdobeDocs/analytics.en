@@ -32,7 +32,7 @@ Steps that describe how to add or edit classifications for the selected report s
 1. In the **[!UICONTROL Select Classification Type]** field, select the variable where you want to add a classification.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]**.
 
-   ![Step Info](../assets/traffic-classification.png)
+   ![Step Info](/help/admin/admin/assets/traffic-classification.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
 1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:

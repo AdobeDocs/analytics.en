@@ -27,13 +27,13 @@ In Adobe Analytics, Admins go to **[!UICONTROL Admin]** > **[!UICONTROL Reportin
 
 You require the Analytics Product Administrator permission (in Adobe Admin Console) to manage reporting activity.
 
-![permission](assets/rep-mgr-permission.png)
+![permission](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## View the reports queue
 
 When opening the [!UICONTROL Reporting Activity] Manager overview page, you see a list of your enabled base report suites.
 
-![reports queue](assets/reporting-activity1.png)
+![reports queue](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI Element | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ When opening the [!UICONTROL Reporting Activity] Manager overview page, you see 
 
 Click the title link of a report suite for which you want to view details.
 
-![report suite](assets/indiv-report-ste.png)
+![report suite](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Line graph
 
@@ -66,17 +66,17 @@ The line graph shows the reporting activity for the selected report suite over t
 * The y-axis shows the average wait time for a query, in seconds.
 * You can hover over the line chart to view points in time and average wait time for that instant.
 
-   ![detail](assets/detail.png)
+   ![detail](/help/admin/admin/assets/detail.png)
 
 ### Filter
 
 You can filter the table by Application (see list in the table below), by User, and by Project.
 
-![filter](assets/filter.png)
+![filter](/help/admin/admin/assets/filter.png)
 
 ### Summary Numbers
 
-![filter](assets/summary_numbers.png)
+![filter](/help/admin/admin/assets/summary_numbers.png)
 
 The Summary Numbers show the following information:
 
@@ -121,11 +121,11 @@ To cancel a request
 1. In the **[!UICONTROL Cancel x query]** window that appears, you can modify the cancellation message, if needed.
 1. Click **[!UICONTROL Continue]**.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 Application users in Workspace, for example, will see the following notice appear in their projects:
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Frequently asked questions
 

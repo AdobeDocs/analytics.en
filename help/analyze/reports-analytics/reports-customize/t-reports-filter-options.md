@@ -14,7 +14,7 @@ Filters allow you to narrow the report to include or exclude line items that mat
 
 ## Simple Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](assets/filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 The simple filter appears on most reports to let you quickly find specific line items. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. You can find line items that contain multiple terms using a space.
 

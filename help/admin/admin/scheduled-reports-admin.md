@@ -26,19 +26,19 @@ On the **[!UICONTROL Report List]** tab, you can **[!UICONTROL Show All Schedule
 >
 >The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. As a result, if you schedule multiple reports of the same report type and you specify customized names for each, the Scheduled Reports Manager would display multiple entries with the same Report Name but with different file names. This is because the back end report being scheduled is same, so the Report Name column would have the same report names for all but customized file names (as set).
 
-![](assets/show_all_scheduled_reports.png)
+![](/help/admin/admin/assets/show_all_scheduled_reports.png)
 
 ## Advanced Filtering Capabilities {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
 
-![](assets/advanced_filtering_schedl_reports.png)
+![](/help/admin/admin/assets/advanced_filtering_schedl_reports.png)
 
 ## Report Queue {#section_03C866115D354BB182E90BF4D52F1E0B}
 
 This queue lets you manage and potentially delete any scheduled reports that are "clogging up" the queue. (Typically, reports time out after 4 hours.)
 
-![](assets/scheduled_reports_2.png)
+![](/help/admin/admin/assets/scheduled_reports_2.png)
 
 The Report Queue also gives you the ability to "Skip a scheduled report once". Just click the blue icon in the **[!UICONTROL Manage]** column.
 
@@ -46,4 +46,4 @@ The Report Queue also gives you the ability to "Skip a scheduled report once". J
 
 Having the **[!UICONTROL Schedule ID]** exposed in the Report Queue interface helps when you need to contact Adobe Client Care for resolution of a scheduled reports issue.
 
-![](assets/schedule_id.png)
+![](/help/admin/admin/assets/schedule_id.png)

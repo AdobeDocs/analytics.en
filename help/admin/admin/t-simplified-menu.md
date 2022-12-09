@@ -11,7 +11,7 @@ Steps to implement the simplified reports menu in Reports and Analytics.
 
 The simplified Adobe Reports & Analytics menu lets you choose to apply an alternate and simplified menu with restructured folders underneath. The simplified menu displays these options by default: 
 
-![](assets/simplified-menu.png)
+![](/help/admin/admin/assets/simplified-menu.png)
 
 >[!NOTE]
 >
@@ -22,6 +22,6 @@ The simplified Adobe Reports & Analytics menu lets you choose to apply an altern
 1. Go to **[!UICONTROL Edit settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Menus]**.
 1. Click **[!UICONTROL Restore Simplified]** to implement the simplified menu structure.
 
-   ![](assets/restore-simplified.png)
+   ![](/help/admin/admin/assets/restore-simplified.png)
 
 1. To go back to the (non-customized) default menu, click **[!UICONTROL Restore Defaults]**.

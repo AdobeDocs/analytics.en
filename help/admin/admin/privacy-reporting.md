@@ -13,7 +13,7 @@ To access this page:
 1. Log in to Adobe Analytics and navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.
 1. Select one or more desired report suites, then select **[!UICONTROL Edit settings]** > **[!UICONTROL Privacy management]** > **[!UICONTROL Privacy reporting]**.
 
-   ![Edit settings](assets/rsm-privacy-select.png)
+   ![Edit settings](/help/admin/admin/assets/rsm-privacy-select.png)
 
 1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
 
@@ -21,8 +21,8 @@ To access this page:
    >
    >Once enabled, these variables cannot be turned off.
 
-   ![Enable](assets/rsm-privacy-enable.png)
+   ![Enable](/help/admin/admin/assets/rsm-privacy-enable.png)
 
 1. Once enabled, a confirmation message appears. The dimensions are available in reports.
 
-   ![Report](assets/consent-management.png)
+   ![Report](/help/admin/admin/assets/consent-management.png)

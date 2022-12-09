@@ -9,7 +9,7 @@ exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 
 Virtual report suites (VRS) let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.
 
-In many cases, you can use virtual report suites to replace multi-suite tagging. Switching to virtual reports suites can effectively remove the necessity for [secondary server calls](/help/admin/c-server-call-usage/overage-overview.md). For example, your organization has 6 different websites, each sending data to their own report suite as well as a combined global report suite. Each site incurs a secondary server call; one to the individual brand report suite, and a second to the global report suite. Instead, you can send data from all sites solely to the global report suite, then use multiple virtual report suites to separate each brand.
+In many cases, you can use virtual report suites to replace multi-suite tagging. Switching to virtual reports suites can effectively remove the necessity for [secondary server calls](/help/admin/admin/c-server-call-usage/overage-overview.md). For example, your organization has 6 different websites, each sending data to their own report suite as well as a combined global report suite. Each site incurs a secondary server call; one to the individual brand report suite, and a second to the global report suite. Instead, you can send data from all sites solely to the global report suite, then use multiple virtual report suites to separate each brand.
 
 Replacing multi-suite tagging with a global report suite and VRS allows you to simplify your Adobe Analytics implementation and reduce server call consumption, and is encouraged as a best practice. However, there are some important limitations of VRS to consider. The following guidelines can help you decide whether implementing virtual report suites built on a global report suite is the right approach for you.
 
@@ -29,7 +29,7 @@ Segments cannot yet be published to Adobe Experience Cloud from a virtual report
 
 Real-time reports are not supported in virtual report suites, because the data is segmented. Current data is also not supported in virtual report suites, as it does not support segmentation. Both of these features are specific to Reports & Analytics.
 
-[Real-time reports](/help/admin/admin/realtime/t-realtime-admin.md) and [Current Data](/help/technotes/latency.md) are not available in virtual report suites. This affects users who respond to trends seen in Reports & Analytics within seconds or a few minutes of data collection. For example, this could include editors in a newsroom who adjust headlines based on real-time content consumption. Consider using multi-suite tagging if you have significant real-time data needs specific to individual report suites. Real-time and current data can still be used on the global report suite.
+[Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) and [Current Data](/help/technotes/latency.md) are not available in virtual report suites. This affects users who respond to trends seen in Reports & Analytics within seconds or a few minutes of data collection. For example, this could include editors in a newsroom who adjust headlines based on real-time content consumption. Consider using multi-suite tagging if you have significant real-time data needs specific to individual report suites. Real-time and current data can still be used on the global report suite.
 
 ### Unique limits
 

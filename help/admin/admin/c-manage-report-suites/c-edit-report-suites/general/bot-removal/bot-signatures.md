@@ -28,7 +28,7 @@ We don't mean to discredit the great open-source Linux operating system, but app
 
 This applies especially to the user agent report. As you can see in the screenshot below, the "unknown version" of these browsers has almost the same number of visitors as unique visitors (and almost the same number of page views). This can be isolated in segmentation by building an [!UICONTROL Include] container for `Single Page Visits equals Enabled` or `Hit Depth is less than 2`. 
 
-![](assets/bots-browsers-unknown.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bots-browsers-unknown.png)
 
 ## Visit number of 1
 
@@ -50,7 +50,7 @@ Modern users have much higher resolution monitors than in years past. Hits with 
 
 You would notice a mismatch between the originating country and the time zone. For example, the location might be the United States but the time zone might me GMT.
 
-![](assets/bots-country-time-zone.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bots-country-time-zone.png)
 
 ## Not logged in
 

@@ -33,7 +33,7 @@ The following table contains key concepts you need to understand when using proc
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are applied immediately to the report suite after they are saved. </p> </td> 
-   <td colname="col2"> <p>Changes from processing rules should be visible in your report suite within minutes of saving. When testing processing rules, we recommend configuring <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Changes from processing rules should be visible in your report suite within minutes of saving. When testing processing rules, we recommend configuring <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Processing rules are the only way to access to context data variables. </p> </td> 

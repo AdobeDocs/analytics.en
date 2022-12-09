@@ -22,7 +22,7 @@ The Report Suite Usage dashboard
 * Is downloadable.
 * Lets you access the **[!UICONTROL Manage Alerts]** UI.
 
-![](assets/report-suite-usage.png)
+![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
 | Column | Definition |
 |--- |--- |
@@ -41,7 +41,7 @@ This option lets you download current usage data, and data from time periods pri
 1. Select at least one report suite.
 1. Click **[!UICONTROL Download Report]**.
 
-   ![](assets/download_report.png)
+   ![](/help/admin/admin/c-server-call-usage/assets/download_report.png)
 
 | Report Element | Description |
 |--- |--- |
@@ -54,4 +54,4 @@ This option lets you download current usage data, and data from time periods pri
 
 Here is a screenshot of what the downloaded .csv file looks like. It includes a column for the report suite ID. The report suite ID specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after a report suite is created.
 
-![](assets/download-usage.png)
+![](/help/admin/admin/c-server-call-usage/assets/download-usage.png)

@@ -15,7 +15,7 @@ To check the status of server-side forwarding:
 1. In your browser's debugging tools or using your proxy software, inspect the HTTP response from Analytics' tracking request (you can easily filter this by selecting any path containing "b/ss").
 1. Inspect the HTTP response. If the response contains Audience Manager data (as illustrated below), then server-side forwarding is working.
 
-![](assets/ssf-succeed.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/ssf-succeed.png)
 
 >[!CAUTION]
 >

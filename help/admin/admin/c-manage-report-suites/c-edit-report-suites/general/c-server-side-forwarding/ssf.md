@@ -20,11 +20,11 @@ Server-side forwarding improves upon data collection because it:
 >Current Audience Manager customers who use Analytics should migrate to server-side forwarding. New Adobe Analytics and Audience Manager customers should implement server-side forwarding (instead of DIL) as the default data collection and transfer method.
 
 >[!IMPORTANT]
->Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md).
+>Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 
-## ![step1_icon.png image](assets/step1_icon.png) Verify ECID service implementation
+## ![step1_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Verify ECID service implementation
 
 Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
 
@@ -33,9 +33,9 @@ On the Request tab, verify that a ECID value is being set. This tells you that I
 * If you see an ECID value, continue to step 2.
 * If you do not see an ECID value, [implement Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) before proceeding to step 2.
 
-## ![step2_icon.png image](assets/step2_icon.png) Verify server-side forwarding implementation version
+## ![step2_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Verify server-side forwarding implementation version
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-server-side-forwarding/ssf-verify.md).
+Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md).
 
 In the "Response" tab, check that the response contains Audience Manager data. If you see:
 
@@ -50,7 +50,7 @@ In the "Response" tab, check that the response contains Audience Manager data. I
 
   * **New AAM customers** - install the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code and continue to step 3. Data will not be sent to Audience Manager until server-side forwarding is turned on in step 3.
 
-## ![step3_icon.png image](assets/step3_icon.png) Verify server-side forwarding implementation of report suite
+## ![step3_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verify server-side forwarding implementation of report suite
 
 Verify whether you have server-side forwarding implemented at the report-suite level, rather than the legacy tracking server approach.
 

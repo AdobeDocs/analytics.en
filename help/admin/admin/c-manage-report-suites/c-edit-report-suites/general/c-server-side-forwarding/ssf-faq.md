@@ -29,4 +29,4 @@ Frequently asked questions about features, functionality, and issues related to 
 
 >[!MORELIKETHIS]
 >
->* [Server-Side Forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md)
+>* [Server-Side Forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)

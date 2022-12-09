@@ -14,7 +14,7 @@ After your users have migrated from the legacy Analytics user management system 
 1. In the [!DNL User Information] section, locate the domain containing the users you want to work with, then click **[!UICONTROL Select Users]**.
 1. Select the users with legacy logins that you want to disable.
 
-   ![](assets/user-info.png)
+   ![](/help/admin/admin-console/user-management2/user-migration/assets/user-info.png)
 
    The users that are eligible will have a status of *`Migrated`* under the Migration Status column. You cannot disable a user's legacy login until they have been migrated.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.

@@ -29,7 +29,7 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 
 Standard IAB bot rules can be turned on by checking the [!UICONTROL Enable IAB Bot Filtering Rules] checkbox. This selection will remove bots in  IAB's (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Adobe updates this list from the IAB on a monthly basis.
 
-![](assets/bot-iab-checkbox.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-iab-checkbox.png)
 
 Adobe is unable to provide the detailed IAB bot list to customers, though you can use the Bots Report to view a list of bots that have accessed your site. To submit a bot to the IAB list, visit [IAB](https://www.iab.com).
 
@@ -122,7 +122,7 @@ VISTA rules are applied after Bot Rules. See [Processing order](/help/technotes/
 
 >[!NOTE]
 >
->Hits marked as *`bots`* are billed as [server calls.](/help/admin/c-server-call-usage/overage-overview.md)
+>Hits marked as *`bots`* are billed as [server calls.](/help/admin/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 

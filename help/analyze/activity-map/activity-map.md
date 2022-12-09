@@ -34,7 +34,7 @@ Activity Map lets you set up different views to visually identify the accelerati
 * [Links report](activitymap-links-report.md)
 * [Page details](activitymap-page-flow.md)
 * [Complete set of metrics](activitymap-complete-metrics.md)
-* [Real-time (Live) page analytics](activitymap-realtime.md)
+* [Real-time (Live) page analytics](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [Customer segmentation](activitymap-multiple-segments.md)
 * [Customizable overlays](activitymap-gainerslosers.md)
 * [Overlay details](activitymap-overlay-details.md)

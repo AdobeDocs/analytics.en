@@ -23,7 +23,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## Prerequisites {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Permissions:** To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator.
-* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Important Terminology {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,7 +53,7 @@ Here is a short primer on essential terminology for Server Call Usage:
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"> permission</a>. </p> </td> 
+    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369"> permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud organization </p> </td> 

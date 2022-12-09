@@ -60,7 +60,7 @@ in the left navigation and the segment rail displays.
 
 The report suite drop-down has been moved next to the date selector in the top right-hand corner of each report or dashboard.
 
-![Report suite selector](assets/report_suite_selector.png)
+![Report suite selector](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Permissions {#section_648DFA3A882146C485A84ED014EEC707}
 

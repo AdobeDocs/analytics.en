@@ -9,7 +9,7 @@ exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 
 Following are some best practices for data feed processing and delivery.
 
-* Ensure that you communicate any anticipated traffic spikes ahead of time. Latency directly impacts processing time for data feeds. See [Schedule a traffic spike](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide.
+* Ensure that you communicate any anticipated traffic spikes ahead of time. Latency directly impacts processing time for data feeds. See [Schedule a traffic spike](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide.
 
 * Data feeds do not contain a service-level agreement unless explicitly stated in your contract with Adobe. Feeds are usually delivered within several hours after the reporting window passes, however can occasionally take up to 12 hours or more.
 

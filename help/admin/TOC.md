@@ -47,7 +47,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Marketing Channels](admin/marketing-channels-admin.md)
   + [Metric visibility](admin/metric-visibility.md)
   + [App management](admin/mobile-management.md)
   + [Preferences manager](admin/preferences-manager.md)
@@ -132,6 +131,13 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Success events overview](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
           + [Configure success events](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
           + [About changing the event type](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+      + [Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+      + Traffic Management {#traffic-management}
+        + [Manage traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+        + [Schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+        + [Estimate past server calls and schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+        + [Specify permanent traffic increase](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+        + [Required lead time for traffic increases](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
   + Server-side forwarding {#server-side-forwarding}
     + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
     + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -172,10 +178,4 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [View report suite usage](c-server-call-usage/report-suite-usage.md)
   + [Server call usage alerts](c-server-call-usage/scu-alerts.md)
   + [Server call usage FAQ](c-server-call-usage/overage-faq.md)
-+ Traffic Management {#traffic-management}
-  + [Manage traffic](c-traffic-management/traffic-management.md)
-  + [Schedule a traffic spike](c-traffic-management/t-traffic-schedule-spike.md)
-  + [Estimate past server calls and schedule a traffic spike](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-  + [Specify permanent traffic increase](c-traffic-management/t-traffic-permanent.md)
-  + [Required lead time for traffic increases](c-traffic-management/traffic-lead-time.md)
 + [Admin API](c-admin-api/c-admin-api.md)

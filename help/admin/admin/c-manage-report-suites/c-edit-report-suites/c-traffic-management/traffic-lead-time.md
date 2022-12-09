@@ -12,7 +12,7 @@ Allocation of hardware is driven by alerts submitted through the reports & analy
 
 >[!IMPORTANT]
 >
->Adobe cannot accommodate "placeholder" traffic change requests. Unless otherwise indicated, adhere to the suggested lead time as closely as possible, including not sending an alert too early. See [Schedule a traffic spike](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>Adobe cannot accommodate "placeholder" traffic change requests. Unless otherwise indicated, adhere to the suggested lead time as closely as possible, including not sending an alert too early. See [Schedule a traffic spike](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md).
 
 Use the following guidelines to determine how far in advance you must submit a traffic alert:
 

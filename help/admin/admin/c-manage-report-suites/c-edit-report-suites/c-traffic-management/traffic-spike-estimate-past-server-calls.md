@@ -25,4 +25,4 @@ You can get, say, last year's daily server call average during a specific time f
 
    The spike is now scheduled for each selected report suite.
 
-![](assets/past_server_calls.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/assets/past_server_calls.png)

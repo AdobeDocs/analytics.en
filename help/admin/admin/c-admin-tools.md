@@ -26,7 +26,7 @@ exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 + [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [Internal URL Filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Logs](logs.md)
-+ [Marketing Channels](marketing-channels-admin.md)
++ [Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
 + [Menu Customizing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Metric Visibility](metric-visibility.md)
 + [Mobile Management](mobile-management.md)

@@ -10,7 +10,7 @@ Adobe attempts to partner with clients to ensure that a high-traffic event is su
 
 Advanced server-side data balancing with several dedicated personnel are used to make sure that all customers have the most up-to-date reports possible. As your organization notifies Adobe of spikes in traffic, Adobe can make sure that the sudden increase in traffic is a positive experience. Failure to notify Adobe of increases in traffic can increase latency during critical reporting periods.
 
-Please read the information about [Required Lead Time for Traffic Increases](/help/admin/c-traffic-management/traffic-lead-time.md) before you schedule a traffic spike.
+Please read the information about [Required Lead Time for Traffic Increases](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md) before you schedule a traffic spike.
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**.
 1. Select a report suite.

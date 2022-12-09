@@ -115,7 +115,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion. You can set numeric events in the `products` variable if you want to attribute the event to only that product.
 
-Before implementing numeric events, make sure that you set the desired event to 'Numeric' under [Success events](/help/admin/admin/c-success-events/success-event.md) in Report suite settings.
+Before implementing numeric events, make sure that you set the desired event to 'Numeric' under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

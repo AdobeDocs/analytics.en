@@ -18,7 +18,7 @@ It is pre-populated with **1 default alert** that appears within any login compa
 * "Any" server call usage that "is above or equals" 90% for any server-call type you are entitled to, OR 
 * "Any" server call usage that "is above or equals" 75% for any server-call type you are entitled to, AND "Usage period spent" "is below or equals" 75% of Usage period.
 
-![](assets/alerts.png)
+![](/help/admin/admin/c-server-call-usage/assets/alerts.png)
 
 You can access server call usage alerts in two ways:
 
@@ -31,11 +31,11 @@ To create additional alerts,
 
 1. Click **[!UICONTROL + Add]** and select **[!UICONTROL Server Call Usage Alert]**.
 
-   ![](assets/server_call_alert.png)
+   ![](/help/admin/admin/c-server-call-usage/assets/server_call_alert.png)
 
 1. Define the alert.
 
-   ![](assets/sc_alert.png)
+   ![](/help/admin/admin/c-server-call-usage/assets/sc_alert.png)
 
    * **Title**: Specify a descriptive name. You cannot save the alert without a name.
    * **Time Granularity**: Refers to how often the alert will be checked. *We support only Weekly granularity at this time.* This means that the alert will be checked on a weekly basis and will look back at the data from the current usage period.
@@ -54,7 +54,7 @@ To create additional alerts,
 
 ## Manage Server Calls Usage Alerts {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
-![](assets/alert_mgmt.png)
+![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
 To manage alerts:
 
@@ -63,11 +63,11 @@ To manage alerts:
 
    | Action | Definition |
    |--- |--- |
-   |+ Add|Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
+   |+ Add|Access the [Alert Builder](/help/admin/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add].|
    |Tag|Tag alerts to organize them for ease of use.|
    |Delete|You can delete all alerts except default alerts.|
    |Rename|You can rename all alerts except default alerts.|
    |Approve|Approve alerts to make them "official."|
    |Enable/Disable|You can enable or disable all alerts, even the default ones.|
    |Renew|When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date.|
-   |Export to CSV|See [Download Usage Report](/help/admin/c-server-call-usage/report-suite-usage.md)|
+   |Export to CSV|See [Download Usage Report](/help/admin/admin/c-server-call-usage/report-suite-usage.md)|

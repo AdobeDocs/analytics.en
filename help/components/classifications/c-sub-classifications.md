@@ -54,7 +54,7 @@ Although the file template for a multilevel classification is more complex, the 
 
 ## Examples
 
-![](assets/sample-product-classifications.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

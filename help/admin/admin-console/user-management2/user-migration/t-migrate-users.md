@@ -20,7 +20,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
 
 1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 
-   ![](assets/migration-progress.png)
+   ![](/help/admin/admin-console/user-management2/user-migration/assets/migration-progress.png)
 
    The User ID Migration page has two sections: *Migration Progress* and *User Information*.
 
@@ -73,7 +73,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
 
    When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. This action moves the user ID to Migration Completed. You can then turn off their legacy access to `[!DNL my.omniture.com].`
 
-   ![](assets/user-info.png)
+   ![](/help/admin/admin-console/user-management2/user-migration/assets/user-info.png)
 
 1. Specify the type of ID you want to migrate the users (Adobe ID or Enterprise ID)
    

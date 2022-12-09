@@ -255,9 +255,9 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Classifications FAQ](classifications/faq.md)
 + [Calendar events](t-calendar-event.md)
 + Real-time reporting {#real-time-reporting}
-  + [Real-time reporting overview](c-real-time-reporting/realtime.md)
-  + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
-  + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
+  + [Real-time reporting overview](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+  + [Configure real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+  + [Supported real-time metrics and dimensions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.mdd)
 + Marketing Channels {#marketing-channels}
   + [Get Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
   + [Attribution IQ with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)

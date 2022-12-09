@@ -279,7 +279,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Links report](activity-map/activitymap-links-report.md)
   + [Page details](activity-map/activitymap-page-flow.md)
   + [Complete set of metrics](activity-map/activitymap-complete-metrics.md)
-  + [Real-time (Live) page analytics](activity-map/activitymap-realtime.md)
+  + [Real-time (Live) page analytics](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
   + [Customer segmentation](activity-map/activitymap-multiple-segments.md)
   + [Customizable overlays](activity-map/activitymap-gainerslosers.md)
   + [Overlay details](activity-map/activitymap-overlay-details.md)

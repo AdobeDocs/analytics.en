@@ -44,7 +44,7 @@ Several strategies exist to prevent latency or decrease recovery time when it oc
   * More than 20 values in the products variable
   * Event serialization
 
-* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. It is recommended to use the IAB bot list, as it is updated and maintained by the [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). A user can customize their own bot rules to complement those from the IAB.
+* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. It is recommended to use the IAB bot list, as it is updated and maintained by the [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). A user can customize their own bot rules to complement those from the IAB.
 
 ## What to do about Latency
 

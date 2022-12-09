@@ -17,7 +17,7 @@ Both standard and custom bot filtering methods are supported in **[!UICONTROL An
 |Standard IAB bot rules|Selecting **[!UICONTROL Enable IAB Bot Filtering Rules]** uses the [IAB's](https://www.iab.com/) (International Advertising Bureau's) International Spiders & Bots List to remove bot traffic. Most customers select this option at a minimum.|
 |Custom bot rules|You can define and add custom bot rules based on user agents, IP addresses, or IP ranges.|
 
-For more detail, see [Bot rules overview](/help/admin/admin/bot-removal/bot-rules.md).
+For more detail, see [Bot rules overview](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Use the [!UICONTROL websiteBot] plug-in to identify bots
 
@@ -38,7 +38,7 @@ In addition, since bots are morphing quickly, Adobe offers several other powerfu
 
 To start, create a new declared ID in the [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Pass your visitor's Experience Cloud ID into this new declared ID, which can be done quickly and easily with [tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html). Let's use the name "ECID" for the declared ID.
 
-![](assets/bot-cust-attr-setup.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-cust-attr-setup.png)
 
 Here is how this ID can be captured via Data Element. Be sure to populate your Experience Cloud OrgID into the Data Element correctly.
 
@@ -50,13 +50,13 @@ Once this Data Element is set up, follow [these instructions](https://experience
 
 Now that you have your visitor's ECID passed into a declared ID, you can use [segmentation in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) to identify visitors who are acting like bots. Bots are often defined by their behavior: single access visits, unusual user agents, unknown device/browser information, no referrers, new visitors, unusual landing pages, etc. Use the powers of Workspace drill-downs and segmentation to identify the bots that have evaded IAB filtering and your report suite bot rules. For example, here's a screenshot of a segment that you could use:
 
-![](assets/bot-filter-seg1.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg1.png)
 
 ### Step 3: Export all [!DNL Experience Cloud IDs] from the segment via Data Warehouse
 
 Now that you have identified the bots using segments, the next step is to use Data Warehouse to extract all the Experience Cloud IDs associated with this segment. This screenshot shows how you should set up your [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) request:
 
-![](assets/bot-dwh-3.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-dwh-3.png)
 
 Remember to use Experience Cloud Visitor ID as your dimension and apply the 'Bots' segment.
 
@@ -69,19 +69,19 @@ Once the Data Warehouse report arrives, you have a list of ECIDs that must be fi
 
 Use this .CSV file as your Customer Attribute import file, then subscribe your report suite(s) to the Customer Attribute as described in this [blog post](https://theblog.adobe.com/link-digital-behavior-customers).
 
-![](assets/bot-csv-4.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
 ### Step 5: Create a segment that leverages the new Customer Attribute
 
 Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new "Bot Flag" customer attribute dimension and an [!UICONTROL Exclude] container:
 
-![](assets/bot-filter-seg2.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
 ### Step 6: Use this segment as your Virtual Report Suite filter
 
 Finally, create a [Virtual Report Suite](/help/components/vrs/vrs-about.md) that uses this segment to filter out the identified bots:
 
-![](assets/bot-vrs.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
 This newly segmented Virtual Report Suite will now result in a cleaner set of data, with the identified bots removed.
 

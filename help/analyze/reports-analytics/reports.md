@@ -50,9 +50,9 @@ Contains reports that typically trend using a date range. Also contains unique r
   * Checkouts: Trends the metric [Checkouts](/help/components/metrics/checkouts.md) over time.
 * Custom events: Contains all reports around custom [Events](/help/components/metrics/custom-events.md) specific to your implementation.
 * Bots: Shows bot-related reports.
-  * Bots: Shows the bots that frequent your site the most. See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
+  * Bots: Shows the bots that frequent your site the most. See [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) in the Admin user guide.
   * Bot pages: Shows the pages that bots hit the most.
-* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [Real-time reports](/help/components/c-real-time-reporting/realtime.md) for more information.
+* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) for more information.
 
 ## Site content
 

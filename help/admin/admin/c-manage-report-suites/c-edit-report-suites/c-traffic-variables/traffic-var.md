@@ -10,4 +10,4 @@ Custom Insight Traffic Variables (or props) enable you to correlate custom data 
 
 Use the [!UICONTROL Traffic Variables] page to enable, disable, or rename traffic variable reports. Once disabled, the report for a traffic variable does not appear in the user interface.
 
-See also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
+See also [prop](/help/implement/vars/page-vars/prop.md) in the Implement user guide.

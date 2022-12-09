@@ -34,13 +34,13 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + User and Product Management (Legacy) {#user-product-management}
-    + [User and Product Management](admin/admin-console/user-management2/user-management.md)
+    + [User and Product Management](admin-console/user-management2/user-management.md)
     + Migrate users to Adobe Admin Console {#migrate-users}
       + [Analytics User Migration to the Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-      + [Migrate Analytics user accounts for Adobe IDs](admin/admin-console/user-management2/user-migration/t-migrate-users.mdd)
-      + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin/admin-console/user-management2/user-migration/migrate-enterprise.md)
-      + [Disable legacy logins](admin/admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-      + [APIs Affected by the Migration](admin/admin-console/user-management2/user-migration/developer.md)  
+      + [Migrate Analytics user accounts for Adobe IDs](admin-console/user-management2/user-migration/t-migrate-users.md)
+      + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
+      + [Disable legacy logins](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+      + [APIs Affected by the Migration](admin-console/user-management2/user-migration/developer.md)  
 + Analytics admin {#admin-tools}
   + [Admin Tools](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -115,12 +115,12 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Privacy settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
         + [Timestamps optional](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
         + Server-side forwarding {#server-side-forwarding}
-          + [Server-side forwarding overview](admin/c-server-side-forwarding/ssf.md)
+          + [Server-side forwarding overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
           + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
-          + [Requirements for server-side forwarding](admin/c-server-side-forwarding/ssf-requirements.md)
-          + [Server-side forwarding data and code reference](admin/c-server-side-forwarding/ssf-reference.md)
-          + [How to verify your server-side forwarding implementation](admin/c-server-side-forwarding/ssf-verify.md)
-          + [Server-side forwarding FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
+          + [Requirements for server-side forwarding](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+          + [Server-side forwarding data and code reference](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+          + [How to verify your server-side forwarding implementation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+          + [Server-side forwarding FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
       + Traffic variables {#traffic-variables}
         + [Traffic variable (prop) overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
         + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)

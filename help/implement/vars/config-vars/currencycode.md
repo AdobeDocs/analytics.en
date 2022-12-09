@@ -8,7 +8,7 @@ exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 
 For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure that revenue attributes to the correct currency.
 
-Currency conversion uses the following logic on each hit. These steps apply to revenue values set the [`products`](../page-vars/products.md) variable and all events listed as 'Currency' in [Success events](/help/admin/admin/c-success-events/success-event.md) under Report suite settings.
+Currency conversion uses the following logic on each hit. These steps apply to revenue values set the [`products`](../page-vars/products.md) variable and all events listed as 'Currency' in [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) under Report suite settings.
 
 * If `currencyCode` is not defined, Adobe assumes that all currency values are the report suite's currency. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in Report suite settings to see the report suite's currency.
 * If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.

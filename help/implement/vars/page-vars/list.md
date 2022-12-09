@@ -16,7 +16,7 @@ Make sure that you record how you use each list variable and their logic in your
 
 ## Set up list variables in report suite settings
 
-Make sure that you configure each list variable in report suite settings before using them in your implementation. See [Conversion variables](/help/admin/admin/conversion-var-admin/list-var-admin.md) in the Admin guide. This step applies to all implementation methods.
+Make sure that you configure each list variable in report suite settings before using them in your implementation. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) in the Admin guide. This step applies to all implementation methods.
 
 ## List variables using the Web SDK
 

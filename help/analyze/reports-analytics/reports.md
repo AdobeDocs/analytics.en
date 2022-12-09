@@ -109,7 +109,7 @@ Contains reports that allow you to see pathing data for visitors.
 
 >[!NOTE]
 >
->Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](../../admin/admin/c-traffic-variables/traffic-var.md) under report suite settings.
+>Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) under report suite settings.
 
 ## Traffic sources
 

@@ -32,7 +32,7 @@ You can use Adobe Analytics to report on how much of your traffic is consent bas
 To configure this type of reporting, map the new context variable to a custom traffic variable (prop) via processing rules. To do so
 
 1. Implement the "cm.ssf" variable (as shown above.) 
-1. [Enable the prop.](/help/admin/admin/c-traffic-variables/traffic-var.md) 
+1. [Enable the prop.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 
 1. Use processing rules to map the context variable to the prop.
 
     1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** , then select a report suite.

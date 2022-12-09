@@ -38,7 +38,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    Example:
 
-   ![Step Info](assets/sub_class_create.png)
+   ![Step Info](/help/admin/admin/assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 

@@ -18,7 +18,7 @@ Contribution Analysis accomplishes this by performing a two-part algorithm to ev
 
    ![](assets/cramers-v.png)
 
-1. For each dimension item, Person's Residual (PR) is used to measure the association between the anomalous metric and each dimension item. PR follows a standard normal distribution, which allows the algorithm to compare the PRs of two random variables even if the deviations are not comparable. In practice, the error is not known and is estimated using finite sample correction.
+1. For each dimension item, Pearson's Residual (PR) is used to measure the association between the anomalous metric and each dimension item. PR follows a standard normal distribution, which allows the algorithm to compare the PRs of two random variables even if the deviations are not comparable. In practice, the error is not known and is estimated using finite sample correction.
 
    In the previous example Table 1, the PR, with finite sample correction for country i and time period 2 is given by
 

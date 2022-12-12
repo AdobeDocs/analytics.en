@@ -63,7 +63,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domain Claimed </p> </td> 
-      <td colname="col2"> <p>If you want to migrate users as Enterprise or Federated IDs, you must be a System Administrator and claim an available domain via the Admin Console before migrating users. Learn more <a href="https://helpx.adobe.com/enterprise/help/identity.html"> here</a>. </p> <p>If you do not want to claim domains for Enterprise or Federated IDs, skip this step and migrate users as Adobe IDs. Learn more about ID types <a href="https://helpx.adobe.com/enterprise/help/identity.html"> here</a>. </p> </td> 
+      <td colname="col2"> <p>If you want to migrate users as Enterprise or Federated IDs, you must be a System Administrator and claim an available domain via the Adobe Admin Console before migrating users. Learn more <a href="https://helpx.adobe.com/enterprise/help/identity.html"> here</a>. </p> <p>If you do not want to claim domains for Enterprise or Federated IDs, skip this step and migrate users as Adobe IDs. Learn more about ID types <a href="https://helpx.adobe.com/enterprise/help/identity.html"> here</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>

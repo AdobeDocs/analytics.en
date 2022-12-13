@@ -139,7 +139,9 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
 |<ul><li>Traffic variables (props)</li><li>Commerce variables (non-merchandising eVars)</li></ul> | All labels | - |
 | Most other variables  (*See table below for exceptions*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-## Variables to which Labels other than ACC-ALL/ACC-PERSON can be assigned/modified {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style="table-layout:auto"}
+
+## Variables to which labels other than ACC-ALL/ACC-PERSON can be assigned/modified {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -208,122 +210,47 @@ Adobe Analytics support for Data Privacy deletion requests is designed to minimi
 
 The following table describes how various variables are "deleted". This is not a complete list.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variables </th> 
-   <th colname="col2" class="entry"> Deletion Method </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* Traffic Variables (props) </p> <p>* Commerce Variables (eVars) </p> </td> 
-   <td colname="col2"> <p>Existing value is replaced with a new value of the form "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482" where the 32-digit hexadecimal value after the "Data Privacy-" prefix is a cryptographically strong 128-bit pseudorandom number. Because it is essentially being replaced by a random string, there is no way to determine the original value from this new value, and no way to derive the new value knowing the original value. </p> <p>For a given variable, if the identical value as that being replaced occurs within other hits that are also being deleted as part of the same Data Privacy request, all instances of that value will be replaced with the same new value. </p> <p>If some instances of a value are replaced with one delete request, and a later request deletes other (new) instances of the original value, the new replacement value will be different than the original replacement value. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Purchase ID </p> </td> 
-   <td colname="col2"> <p>Existing value is replaced by a new value of the form "G-7588FCD8642718EC50" where the 18 hexadecimal digits after the "G-" prefix are the first 18 digits of a cryptographically strong 128-bit pseudorandom number. All comments that apply to deletion of traffic and commerce variables apply here as well. </p> <p>The Purchase ID is a transaction ID whose main purpose is to make sure that a purchase is not credited twice, such as when someone refreshes their purchase confirmation page. The ID itself may tie the purchase to a row in your own DB where the purchase is recorded. In most cases it is not necessary to delete this ID, so it is not deleted by default. If you are still able to tie the purchase back to a user after the Data Privacy delete request of your own data, then you may need to delete this field, so that the Analytics data for this visitor cannot be tied back to the purchaser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
-   <td colname="col2"> <p>Value is a 128-bit integer and is replaced with a cryptographically strong 128-bit pseudorandom value. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* Custom Visitor ID </p> <p>* IP Address </p> <p>* IP Address 2 </p> </td> 
-   <td colname="col2"> <p>Value is cleared (set to either the empty string or 0 depending on the variable's type). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* ClickMap Action (Legacy) </p> <p>* ClickMap Context (Legacy) </p> <p>* Page </p> <p>* Page URL </p> <p>* Original Entry Page URL </p> <p>* Referrer </p> <p>* Visit Start Page URL </p> </td> 
-   <td colname="col2"> <p>URL parameters are cleared/removed. If the value does not look like a URL, then the value is cleared (set to the empty string). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Latitude </p> <p>* Longitude </p> </td> 
-   <td colname="col2"> <p>Precision is reduced to no better than 1 km. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variables | Deletion Method |
+| --- | --- |
+| <ul><li>Traffic Variables (props)</li><li>Commerce Variables (eVars)</li></ul>| Existing value is replaced with a new value of the form "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482" where the 32-digit hexadecimal value after the "Data Privacy-" prefix is a cryptographically strong 128-bit pseudorandom number.<p>Because it is essentially being replaced by a random string, there is no way to determine the original value from this new value, and no way to derive the new value knowing the original value.  For a given variable, if the identical value as that being replaced occurs within other hits that are also being deleted as part of the same Data Privacy request, all instances of that value will be replaced with the same new value.<p>If some instances of a value are replaced with one delete request, and a later request deletes other (new) instances of the original value, the new replacement value will be different than the original replacement value. |
+| Purchase ID | Existing value is replaced by a new value of the form "G-7588FCD8642718EC50" where the 18 hexadecimal digits after the "G-" prefix are the first 18 digits of a cryptographically strong 128-bit pseudorandom number. All comments that apply to deletion of traffic and commerce variables apply here as well.<p>The Purchase ID is a transaction ID whose main purpose is to make sure that a purchase is not credited twice, such as when someone refreshes their purchase confirmation page. The ID itself may tie the purchase to a row in your own DB where the purchase is recorded. In most cases it is not necessary to delete this ID, so it is not deleted by default.<p>If you are still able to tie the purchase back to a user after the Data Privacy delete request of your own data, then you may need to delete this field, so that the Analytics data for this visitor cannot be tied back to the purchaser. |
+| Visitor ID | Value is a 128-bit integer and is replaced with a cryptographically strong 128-bit pseudorandom value. |
+|<ul><li>MCID</li><li>Custom Visitor ID</li><li>IP Address</li><li>IP Address 2 | Value is cleared (set to either the empty string or 0 depending on the variable's type). |
+|<ul><li>ClickMap Action (Legacy)</li><li>ClickMap Context (Legacy)</li><li>Page</li><li>Page URL</li><li>Original Entry Page URL</li><li>Referrer</li><li>Visit Start Page URL</li></ul> | URL parameters are cleared/removed. If the value does not look like a URL, then the value is cleared (set to the empty string). |
+|<ul><li>Latitude</li><li>Longitude</li></ul> | Precision is reduced to no better than 1 km. |
+
+{style="table-layout:auto"}
 
 ## Variables that don't support the expected Delete labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Comments </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>New Visitor ID </p> </td> 
-   <td colname="col2"> <p>New visitor id is a Boolean that is true the first time we see a given visitor ID. There is no need to delete it once the visitor ID is anonymized. After anonymization, it will correspond to the first time we have seen this anonymized ID. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Zip Code </p> <p>Geo Zip Code </p> </td> 
-   <td colname="col2"> <p>Zip codes are set only for hits originating in the USA. They are not set for hits coming from the EU. Even when set, they only provide a broad geographic area that makes re-identification of the data subject difficult. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Geo Latitude </p> <p>Geo Longitude </p> </td> 
-   <td colname="col2"> <p>These provide a rough location derived from the IP address. The accuracy is generally similar to that of a zip code, within a few dozen kilometers of the actual location. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>User Agent </p> </td> 
-   <td colname="col2"> <p>The User Agent identifies the version of the browser that was used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>User ID </p> </td> 
-   <td colname="col2"> <p> Specifies the Analytics report suite (as a number) containing the data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite ID </p> </td> 
-   <td colname="col2"> <p> Specifies the name of the Analytics report suite containing the data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> These have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID Expansion</a> with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON. </p> <p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> The Adobe Advertising Cloud ID is a solution variable that has an unmodifiable DEL-DEVICE label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variable | Comments |
+| --- | --- |
+| New Visitor ID | New visitor id is a Boolean that is true the first time we see a given visitor ID. There is no need to delete it once the visitor ID is anonymized. After anonymization, it will correspond to the first time we have seen this anonymized ID.|
+| Zip Code<p>Geo Zip Code | Zip codes are set only for hits originating in the USA. They are not set for hits coming from the EU. Even when set, they only provide a broad geographic area that makes re-identification of the data subject difficult. |
+| Geo Latitude<p>Geo Longitude | These provide a rough location derived from the IP address. The accuracy is generally similar to that of a zip code, within a few dozen kilometers of the actual location. |
+| User Agent | The User Agent identifies the version of the browser that was used. |
+| User ID | Specifies the Analytics report suite (as a number) containing the data. |
+| Report Suite ID | Specifies the name of the Analytics report suite containing the data. |
+| Visitor ID<p>MCID / ECID|These IDs have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify [!UICONTROL ID Expansion] with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON.<p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. |
+| AMO ID | The Adobe Advertising Cloud ID is a solution variable that has an unmodifiable [!UICONTROL DEL-DEVICE] label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details.|
+
+{style="table-layout:auto"}
 
 ## Date fields for access requests {#access-requests}
 
 There are five standard variables that contain timestamps: 
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Time Stamp </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>The time that Adobe Analytics received the hit. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Hit Time UTC </p> </td> 
-   <td colname="col2"> <p>Time that the hit occurred, which for some mobile apps and other implementations may be earlier than the time it was received. For example, if a network connection was not available when it occurred, the app may hold the hit and send it in when a connection becomes available. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Time </p> </td> 
-   <td colname="col2"> <p>Same value as Custom Hit Time UTC, but in the time zone of the report suite, rather than GMT.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>First Hit Time GMT </p> </td> 
-   <td colname="col2"> <p>The Custom Hit Time UTC value for the first hit received for the visitor ID value for this hit. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visit Start Time UTC </p> </td> 
-   <td colname="col2"> <p>The Custom Hit Time UTC value for the first hit received for the current visit for this visitor ID.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Time Stamp | Definition |
+| --- | --- |
+| Hit Time UTC | The time that Adobe Analytics received the hit. |
+| Custom Hit Time UTC | Time that the hit occurred, which for some mobile apps and other implementations may be earlier than the time it was received. For example, if a network connection was not available when it occurred, the app may hold the hit and send it in when a connection becomes available. |
+| Date Time | Same value as Custom Hit Time UTC, but in the time zone of the report suite, rather than GMT. |
+| First Hit Time GMT | The Custom Hit Time UTC value for the first hit received for the visitor ID value for this hit. |
+| Visit Start Time UTC | The Custom Hit Time UTC value for the first hit received for the current visit for this visitor ID. |
+
+{style="table-layout:auto"}
 
 The code for generating the files returned for Data Privacy access requests requires that at least one of the first three timestamp variables be included in the access request (have an ACC label that applies to the type of request). If none of these are included, then Custom Hit Time UTC will be treated as if it has an ACC-ALL label.
 

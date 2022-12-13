@@ -15,7 +15,7 @@ You can add projects to a folder in the table view or from within a folder.
 >
 >This feature is currently in Beta. Some screens may change.
 
-## From the table view
+## From the table view {#table-view}
 
 Add projects to a folder from the table view on the home page.
 
@@ -41,7 +41,7 @@ Add projects to a folder from the table view on the home page.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## From inside a folder
+## From inside a folder {#inside-folder}
 
 You can also add projects from inside a folder using the ellipses link.
 

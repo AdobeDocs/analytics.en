@@ -19,7 +19,7 @@ To remove a project from a folder, you can move the project to another location 
 >
 >When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Move a project
+## Move a project {move-project-in-folder}
 
 1.  From within a project folder, select the **...** ellipsis next to the project name.
 
@@ -37,7 +37,7 @@ To remove a project from a folder, you can move the project to another location 
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Delete a project from a project folder
+## Delete a project from a project folder {#delete-project-in-folder}
 
 When you delete a project from a folder, the project is deleted entirely.
 

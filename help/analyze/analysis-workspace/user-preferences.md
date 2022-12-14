@@ -15,7 +15,7 @@ View this short video for a brief overview of user preferences:
 
 ## Access user preferences
 
-1. In Adobe Analytics, [!UICONTROL **Components**] **>** [!UICONTROL **User preferences**].
+1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **User preferences**].
 
    ![User preferences](assets/user-preferences.png) 
 

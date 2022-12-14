@@ -122,30 +122,40 @@ Visualization preferences apply to your Adobe Analytics experience in the browse
 | | Show max and min on sparklines |  |
 | | Show comparison |  |
 | | Number value options | In the [!UICONTROL **Key Metric Summary**] section <ul><li>Show percent change</li><li>Show raw difference</li></ul> |
+| **Fallout** | | |
 | | Container | In the [!UICONTROL **Fallout**] section <ul><li>Visit</li><li>Visitor</li></ul> |
+| **Flow** | | |
 | | Container | In the [!UICONTROL **Flow**] section <ul><li>Visit</li><li>Visitor</li></ul> |
 | | Wrap labels |  |
 | | Include repeat instances |  |
 | | Show tooltips |  |
 | | Number of columns |  |
 | | Items expanded per column |  |
+| **Stacked Charts** | | |
 | | 100% stacked |  |
+| **Histogram** | | |
 | | Number of buckets |  |
 | | Counting method | <ul><li>Hit</li><li>Visit</li><li>Visitor</li></ul> |
+| **Map** | | |
 | | Plotting dimension | <ul><li>Mobile latitude/longitude</li><li>Geographic dimension</li></ul> |
 | | Map type | <ul><li>Bubbles</li><li>Heat map</li></ul> |
 | | Color theme | Choose from Coral, Reds, Greens, Blues, Heatmap, and Positive/Negative. |
 | | Map style | Choose from Basic, Streets, Bright, Light, Dark, and Satellite. |
+| **Summary Change** | | |
 | | Value | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percent change</li><li>Raw difference</li></ul>  |
 | | Percentages | In the [!UICONTROL **Summary Change**] section |
 | | Legend visible | In the [!UICONTROL **Summary Change**] section |
+| **Summary Number** | | |
 | | Percentages | In the [!UICONTROL **Summary Number**] section |
 | | Legend visible | In the [!UICONTROL **Summary Number**] section |
 | | Summary value by | Choose from Max, Min, Mean, Median, and Sum. |
 | | Abbreviate value | In the [!UICONTROL **Summary Number**] section |
+| **Treemap** | | |
 | | Percentages | In the [!UICONTROL **Treemap**] section |
 | | Limit max items | In the [!UICONTROL **Treemap**] section |
+| **Venn** | | |
 | | Legend visible | In the [!UICONTROL **Venn**] section |
+| **Scatter** | | |
 | | Percentages | In the [!UICONTROL **Scatter**] section |
 | | Legend visible | In the [!UICONTROL **Scatter**] section |
 | | Limit max items | In the [!UICONTROL **Scatter**] section |

@@ -12,11 +12,23 @@ exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 
 ## Edit [!UICONTROL Column Settings] {#edit-column-settings}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+You can edit column settings for an individual column or for multiple columns simultaneously. 
 
-![](assets/column_settings.png)
+1. In Analysis Workspace, drag a Freeform Table to your project.
 
-You can edit settings **for multiple columns at once**. Just select multiple columns and click the settings icon of any one of those columns. Any changes that you make apply to all columns with cells selected in them.
+1. (Conditional) To edit multiple columns simultaneously, select each column you want to edit while holding the Shift key.
+
+1. Hover over the column you want to edit, then select the gear icon.
+
+   If you selected multiple colums, click the gear icon for any of the selected columns. Any changes you make apply to all selected columns.
+
+   ![](assets/column_settings.png)
+
+1. Continue with [Column settings](#column-settings).
+
+## Column settings
+
+The following column settings are available when eiditing columns in Analysis Workspace:
 
 | Element | Description |
 | --- | --- |

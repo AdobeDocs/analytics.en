@@ -55,24 +55,27 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 <div class="preview">
 Freeform table preferences apply to your Adobe Analytics experience in the browser.
 
-| Preference | Options |
-| --- | --- |
-| Table type | <ul><li>Freeform</li><li>Table builder</li></ul> |
-| Default table metric | <ul><li>Occurrences</li><li>Unique Visitors</li><li>Visits</li></ul> |
-| Default table dimension | Choose from Minute, Hour, Day, Week, Month, Quarter, or Year. |
-| Align dates |  |
-| Wrap header text |  |
-| Show totals |  |
-| Show grand totals |  |
-| Show sparkline<!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table. But the doc doesn't give a definition. -->  |  |
-| Number |  |
-| Percent |  |
-| Show anomalies <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> |  |
-| Interpret zero as no value |  |
-| Background | <ul><li>Bar graph</li><li>Conditional formatting</li></ul> |
-| Cell preview |  |
-| Breakdowns |  |
-| Percentage calculation | <ul><li>Column</li><li>Row</li></ul> |
+| Section | Preference | Options |
+| --- | --- | --- |
+| **Table** | | |
+| | Table type | <ul><li>Freeform</li><li>Table builder</li></ul> |
+| | Default table metric | <ul><li>Occurrences</li><li>Unique Visitors</li><li>Visits</li></ul> |
+| | Default table dimension | Choose from Minute, Hour, Day, Week, Month, Quarter, or Year. |
+| | Align dates |  |
+| **Column** | | |
+| | Wrap header text |  |
+| | Show totals |  |
+| | Show grand totals |  |
+| | Show sparkline<!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table. But the doc doesn't give a definition. -->  |  |
+| | Number |  |
+| | Percent |  |
+| | Show anomalies <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> |  |
+| | Interpret zero as no value |  |
+| | Background | <ul><li>Bar graph</li><li>Conditional formatting</li></ul> |
+| | Cell preview |  |
+| **Row** | | |
+| | Breakdowns |  |
+| | Percentage calculation | <ul><li>Column</li><li>Row</li></ul> |
 </div>
 
 ## Visualizations preferences
@@ -80,68 +83,73 @@ Freeform table preferences apply to your Adobe Analytics experience in the brows
 <div class="preview">
 Visualization preferences apply to your Adobe Analytics experience in the browser.
 
-| Preference | Options |
-| --- | --- |
-| Percentages | In the [!UICONTROL **General Defaults**] section |
-| Legend visible | In the [!UICONTROL **General Defaults**] section  |
-| Limit max items | In the [!UICONTROL **General Defaults**] section  |
-| Display dual axis (when applicable) | In the [!UICONTROL **General Defaults**] section  |
-| Normalization (when applicable) | In the [!UICONTROL **General Defaults**] section  |
-| Anchor Y-axis at zero | In the [!UICONTROL **General Defaults**] section  |
-| Allow anomalies to scale Y-axis | In the [!UICONTROL **General Defaults**] section  |
-| Percentages  | In the [!UICONTROL **Line**] section |
-| Legend visible | In the [!UICONTROL **Line**] section |
-| Limit max items | In the [!UICONTROL **Line**] section |
-| Display dual axis (when applicable) | In the [!UICONTROL **Line**] section |
-| Normalization (when applicable) | In the [!UICONTROL **Line**] section |
-| Show x-axis |  |
-| Show y-axis |  |
-| Anchor Y-axis at zero | In the [!UICONTROL **Line**] section |
-| Show min |  |
-| Show max |  |
-| Show trendline | |
-| Granularity | Choose from Day, Week, Month, Quarter, or Year.> |
-| Only show percent | |
-| Round percent to nearest whole |  |
-| Show average percent row |  |
-| Cohort Preview |  |
-| Cohort Palette | |
-| Show X-axis | In the [!UICONTROL **Combo Charts**] section |
-| Show Y-axis | In the [!UICONTROL **Combo Charts**] section |
-| Display barbells on lines |  |
-| Summary display type | <ul><li>Emphasize percent change</li><li>Emphasize number value</li></ul> |
-| Show sparklines |  |
-| Show max and min on sparklines |  |
-| Show comparison |  |
-| Number value options | In the [!UICONTROL **Key Metric Summary**] section <ul><li>Show percent change</li><li>Show raw difference</li></ul> |
-| Container | In the [!UICONTROL **Fallout**] section <ul><li>Visit</li><li>Visitor</li></ul> |
-| Container | In the [!UICONTROL **Flow**] section <ul><li>Visit</li><li>Visitor</li></ul> |
-| Wrap labels |  |
-| Include repeat instances |  |
-| Show tooltips |  |
-| Number of columns |  |
-| Items expanded per column |  |
-| 100% stacked |  |
-| Number of buckets |  |
-| Counting method | <ul><li>Hit</li><li>Visit</li><li>Visitor</li></ul> |
-| Plotting dimension | <ul><li>Mobile latitude/longitude</li><li>Geographic dimension</li></ul> |
-| Map type | <ul><li>Bubbles</li><li>Heat map</li></ul> |
-| Color theme | Choose from Coral, Reds, Greens, Blues, Heatmap, and Positive/Negative. |
-| Map style | Choose from Basic, Streets, Bright, Light, Dark, and Satellite. |
-| Value | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percent change</li><li>Raw difference</li></ul>  |
-| Percentages | In the [!UICONTROL **Summary Change**] section |
-| Legend visible | In the [!UICONTROL **Summary Change**] section |
-| Percentages | In the [!UICONTROL **Summary Number**] section |
-| Legend visible | In the [!UICONTROL **Summary Number**] section |
-| Summary value by | Choose from Max, Min, Mean, Median, and Sum. |
-| Abbreviate value | In the [!UICONTROL **Summary Number**] section |
-| Percentages | In the [!UICONTROL **Treemap**] section |
-| Limit max items | In the [!UICONTROL **Treemap**] section |
-| Legend visible | In the [!UICONTROL **Venn**] section |
-| Percentages | In the [!UICONTROL **Scatter**] section |
-| Legend visible | In the [!UICONTROL **Scatter**] section |
-| Limit max items | In the [!UICONTROL **Scatter**] section |
-| Anchor y-axis at zero | In the [!UICONTROL **Scatter**] section |
+| Section | Preference | Options |
+| --- | --- | --- |
+| **General Defaults** | | |
+| | Percentages | In the [!UICONTROL **General Defaults**] section |
+| | Legend visible | In the [!UICONTROL **General Defaults**] section  |
+| | Limit max items | In the [!UICONTROL **General Defaults**] section  |
+| | Display dual axis (when applicable) | In the [!UICONTROL **General Defaults**] section  |
+| | Normalization (when applicable) | In the [!UICONTROL **General Defaults**] section  |
+| | Anchor Y-axis at zero | In the [!UICONTROL **General Defaults**] section  |
+| | Allow anomalies to scale Y-axis | In the [!UICONTROL **General Defaults**] section  |
+| **Line** | | |
+| | Percentages  | In the [!UICONTROL **Line**] section |
+| | Legend visible | In the [!UICONTROL **Line**] section |
+| | Limit max items | In the [!UICONTROL **Line**] section |
+| | Display dual axis (when applicable) | In the [!UICONTROL **Line**] section |
+| | Normalization (when applicable) | In the [!UICONTROL **Line**] section |
+| | Show x-axis |  |
+| | Show y-axis |  |
+| | Anchor Y-axis at zero | In the [!UICONTROL **Line**] section |
+| | Show min |  |
+| | Show max |  |
+| | Show trendline | |
+| **Cohort** | | |
+| | Granularity | Choose from Day, Week, Month, Quarter, or Year.> |
+| | Only show percent | |
+| | Round percent to nearest whole |  |
+| | Show average percent row |  |
+| | Cohort Preview |  |
+| | Cohort Palette | |
+| **Combo Charts** | | |
+| | Show X-axis | In the [!UICONTROL **Combo Charts**] section |
+| | Show Y-axis | In the [!UICONTROL **Combo Charts**] section |
+| | Display barbells on lines |  |
+| **Key Metric Summary** | | |
+| | Summary display type | <ul><li>Emphasize percent change</li><li>Emphasize number value</li></ul> |
+| | Show sparklines |  |
+| | Show max and min on sparklines |  |
+| | Show comparison |  |
+| | Number value options | In the [!UICONTROL **Key Metric Summary**] section <ul><li>Show percent change</li><li>Show raw difference</li></ul> |
+| | Container | In the [!UICONTROL **Fallout**] section <ul><li>Visit</li><li>Visitor</li></ul> |
+| | Container | In the [!UICONTROL **Flow**] section <ul><li>Visit</li><li>Visitor</li></ul> |
+| | Wrap labels |  |
+| | Include repeat instances |  |
+| | Show tooltips |  |
+| | Number of columns |  |
+| | Items expanded per column |  |
+| | 100% stacked |  |
+| | Number of buckets |  |
+| | Counting method | <ul><li>Hit</li><li>Visit</li><li>Visitor</li></ul> |
+| | Plotting dimension | <ul><li>Mobile latitude/longitude</li><li>Geographic dimension</li></ul> |
+| | Map type | <ul><li>Bubbles</li><li>Heat map</li></ul> |
+| | Color theme | Choose from Coral, Reds, Greens, Blues, Heatmap, and Positive/Negative. |
+| | Map style | Choose from Basic, Streets, Bright, Light, Dark, and Satellite. |
+| | Value | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percent change</li><li>Raw difference</li></ul>  |
+| | Percentages | In the [!UICONTROL **Summary Change**] section |
+| | Legend visible | In the [!UICONTROL **Summary Change**] section |
+| | Percentages | In the [!UICONTROL **Summary Number**] section |
+| | Legend visible | In the [!UICONTROL **Summary Number**] section |
+| | Summary value by | Choose from Max, Min, Mean, Median, and Sum. |
+| | Abbreviate value | In the [!UICONTROL **Summary Number**] section |
+| | Percentages | In the [!UICONTROL **Treemap**] section |
+| | Limit max items | In the [!UICONTROL **Treemap**] section |
+| | Legend visible | In the [!UICONTROL **Venn**] section |
+| | Percentages | In the [!UICONTROL **Scatter**] section |
+| | Legend visible | In the [!UICONTROL **Scatter**] section |
+| | Limit max items | In the [!UICONTROL **Scatter**] section |
+| | Anchor y-axis at zero | In the [!UICONTROL **Scatter**] section |
 </div>
 
 ## [!UICONTROL Dark theme]

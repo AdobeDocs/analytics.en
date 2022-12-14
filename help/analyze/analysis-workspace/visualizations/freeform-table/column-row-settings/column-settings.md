@@ -28,7 +28,9 @@ You can edit column settings for an individual column or for multiple columns si
 
 ## Column settings
 
-The following column settings are available when eiditing columns in Analysis Workspace:
+You can update the following column settings for individual tables in Analysis Workspace, as described in [Edit Column Settings](#edit-uicontrol-column-settings).
+
+Some of these same settings can also be managed for all new projects that you create in Analysis Workspace, as described in [User preferences](/help/analyze/analysis-workspace/user-preferences.md)
 
 | Element | Description |
 | --- | --- |

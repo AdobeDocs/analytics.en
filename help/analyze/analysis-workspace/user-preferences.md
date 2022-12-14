@@ -7,19 +7,27 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 ---
 # User preferences
 
-You can manage settings for Analysis Workspace and its related components at the user-level. Changes that you make to your user preferences apply to all *new* projects or panels that you create.
+You can manage settings for Analysis Workspace and its related components at the user-level. Changes that you make to your user preferences apply to all new projects or panels that you create. Existing projects and panels are not affected.
 
 View this short video for a brief overview of user preferences:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
-## Access user preferences
+## Update user preferences
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **User preferences**].
 
    ![User preferences](assets/user-preferences.png) 
 
-1. To adjust your user preferences, continue with the following sections in this article.
+1. For information about the available user preferences, continue with any of the following sections in this article:
+
+   * [General preferences](#general-preferences)
+
+   * [Project preferences](#project-preferences)
+
+   * [Freeform table preferences](#freeform-table-preferences)
+
+   * [Visualizations preferences](#visualizations-preferences)
 
 ## General preferences
 
@@ -33,7 +41,7 @@ These settings apply to general preferences in Adobe Analytics.
 
 ## Project preferences
 
-Project preferences apply to new projects and new panels created in Analysis Workspace. Certain preferences can also be managed on a per-project basis under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
+Project preferences apply to new projects and new panels that you create in Analysis Workspace. Certain preferences can also be managed on a per-project basis under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -52,8 +60,9 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 
 ## Freeform table preferences
 
-<div class="preview">
-Freeform table preferences apply to your Adobe Analytics experience in the browser.
+You can update freeform table preferences for all new projects that you create in Analysis Workspace. To set your user preferences, see [Update user preferences](#update-user-preferences). 
+
+Some of these same preferences can also be managed for individual tables, as described in [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -63,20 +72,19 @@ Freeform table preferences apply to your Adobe Analytics experience in the brows
 | | Default table dimension | Choose from Minute, Hour, Day, Week, Month, Quarter, or Year. |
 | | Align dates |  |
 | **Column** | | |
-| | Wrap header text |  |
-| | Show totals |  |
-| | Show grand totals |  |
+| | Wrap header text | Lets you wrap the header text in Freeform tables to make headers more readable and tables more shareable. This is useful for .pdf rendering and for metrics with long names. Enabled by default. |
+| | Show totals | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. It reflects any table filters applied within the freeform table, including the [!UICONTROL Include None] option. |
+| | Show grand totals | This total represents all hits that have been collected, sometimes referred to as 'report suite total'. When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Show sparkline<!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table. But the doc doesn't give a definition. -->  |  |
-| | Number |  |
-| | Percent |  |
-| | Show anomalies <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> |  |
-| | Interpret zero as no value |  |
-| | Background | <ul><li>Bar graph</li><li>Conditional formatting</li></ul> |
-| | Cell preview |  |
+| | Number | Determines if a cell shows/hides the numeric value for the metric. For example, if the metric is Page Views, the numeric value is the number of page views for the row item. |
+| | Percent | Determines if a cell shows/hides the percent value for the metric. For example, if the metric is Page Views, the percent value is the number of page views for the row item divided by the total page views for the column.  Note:  We can show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in widths too large. |
+| | Show anomalies <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | Determines if anomaly detection is run on the values in this column. |
+| | Interpret zero as no value | For cells with a 0 value, determines whether to show a 0 or a blank cell. This is useful when you look at data for each day of a month, and some days haven't happened yet.  Instead of showing 0's for future dates, blank cells can be shown instead. Charts respect this setting as well (i.e., they do not showing a line or bar with 0 values when this setting is checked). |
+| | Background | Determines if a cell shows/hides all cell formatting, including the bar graph and conditional formatting <ul><li>Bar graph</li> Shows a horizontal bar graph representing the cell's value relative to the total for the column. <li>Conditional formatting</li>For more information about conditional formatting, see "Conditional formatting" in [Column Settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
+| | Cell preview | Shows a preview of how each cell appears with the currently selected formatting options applied. |
 | **Row** | | |
 | | Breakdowns |  |
 | | Percentage calculation | <ul><li>Column</li><li>Row</li></ul> |
-</div>
 
 ## Visualizations preferences
 

@@ -27,3 +27,5 @@ The Data Governance dialog in the Admin Tools provides an overview of which repo
 | **[!UICONTROL Groups]** | Grouping functionality is not currently implemented. |
 | Left-hand side bar | Click the funnel icon to open or close the side bar. The [!UICONTROL Organization Mapping] section displays the number of report suites that fall into each of the described categories. The [!UICONTROL Data Retention Policy] section displays each unique data retention policy currently in place for your organization and the number of report suites that were assigned that retention policy. |
 | **[!UICONTROL Export to CSV]** | If you mark the checkbox next to one or more of the report suites, the  Export to CSV  option displays. This option lets you download a CSV file containing all current label definitions for all variables for all selected report suites. We recommend that your legal team review your labeling choices and this option facilitates this review. Instead of needing to perform the review while logged into the Data Governance UI, you can share the .CSV file with them. |
+
+{style="table-layout:auto"}

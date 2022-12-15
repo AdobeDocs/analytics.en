@@ -3,17 +3,11 @@ description: Learn how to create folders and subfolders in Workspace
 keywords: Analysis Workspace
 title: Create Folders
 feature: Workspace Basics
-hide: yes
-hidefromtoc: yes
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 ---
 # Create folders
 
 You can add a new folder or a subfolder to the list of projects and folders on your Workspace landing page.
-
->[!NOTE]
->
->This feature is currently in Beta. Some screens may change.
 
 ## Create a new folder {#create-new-folder}
 

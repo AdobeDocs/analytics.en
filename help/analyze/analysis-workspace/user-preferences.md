@@ -19,7 +19,7 @@ View this short video for a brief overview of user preferences:
 
    ![User preferences](assets/user-preferences.png) 
 
-1. For information about the available user preferences, continue with any of the following sections in this article:
+1. For information about the available user preferences on each tab, continue with any of the following sections in this article:
 
    * [General preferences](#general-preferences)
 
@@ -41,7 +41,9 @@ These settings apply to general preferences in Adobe Analytics.
 
 ## Project preferences
 
-Project preferences apply to new projects and new panels that you create in Analysis Workspace. Certain preferences can also be managed on a per-project basis under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project info & settings].
+You can customize project preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
+
+Some of these same preferences can also be customized for individual projects, as described in [Project overview](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -56,13 +58,13 @@ Project preferences apply to new projects and new panels that you create in Anal
 |  | Count repeat instances | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive page views to the same page as multiple page views. With it off, they count as a single page view. <p>**Note:** This setting affects only certain metrics (such as Single Page Visits) and it does not apply to Flow or Fallout visualizations.</p> |
 |  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
-|  | Show annotations |  |
+|  | Show annotations | Choose whether annotations are visible in your projects. For more information about annotations, see [Annotations overview](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
 ## Freeform table preferences
 
-You can update freeform table preferences for all new projects that you create in Analysis Workspace. To set your user preferences, see [Update user preferences](#update-user-preferences). 
+You can customize freeform table preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
 
-Some of these same preferences can also be managed for individual tables, as described in [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+Some of these same preferences can also be customized for individual tables, as described in [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -70,12 +72,12 @@ Some of these same preferences can also be managed for individual tables, as des
 | | Table type | <ul><li>Freeform</li><li>Table builder</li></ul> |
 | | Default table metric | <ul><li>Occurrences</li><li>Unique Visitors</li><li>Visits</li></ul> |
 | | Default table dimension | Choose from Minute, Hour, Day, Week, Month, Quarter, or Year. |
-| | Align dates |  |
+| | Align dates | Select this option to align dates from each column to all start on the same row. |
 | **Column** | | |
 | | Wrap header text | Lets you wrap the header text in Freeform tables to make headers more readable and tables more shareable. This is useful for .pdf rendering and for metrics with long names. Enabled by default. |
 | | Show totals | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. It reflects any table filters applied within the freeform table, including the [!UICONTROL Include None] option. |
 | | Show grand totals | This total represents all hits that have been collected, sometimes referred to as 'report suite total'. When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
-| | Show sparkline<!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table. But the doc doesn't give a definition. -->  |  |
+| | Show sparkline  | Show or hide line charts at the bottom of the chart. When hidden, the legend changes to no longer visually reference the lines. |
 | | Number | Determines if a cell shows/hides the numeric value for the metric. For example, if the metric is Page Views, the numeric value is the number of page views for the row item. |
 | | Percent | Determines if a cell shows/hides the percent value for the metric. For example, if the metric is Page Views, the percent value is the number of page views for the row item divided by the total page views for the column.  Note:  We can show percentages greater than 100%, to be more accurate. We are also moving the upper bound cap to 1,000% to ensure columns can grow in widths too large. |
 | | Show anomalies <!-- This setting was moved from the "Project" tab. this is already in the tool/docs under "Freeform table, But the doc doesn't give a definition. --> | Determines if anomaly detection is run on the values in this column. |
@@ -83,13 +85,14 @@ Some of these same preferences can also be managed for individual tables, as des
 | | Background | Determines if a cell shows/hides all cell formatting, including the bar graph and conditional formatting <ul><li>Bar graph</li> Shows a horizontal bar graph representing the cell's value relative to the total for the column. <li>Conditional formatting</li>For more information about conditional formatting, see "Conditional formatting" in [Column Settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
 | | Cell preview | Shows a preview of how each cell appears with the currently selected formatting options applied. |
 | **Row** | | |
-| | Breakdowns |  |
+| | Breakdown by position | Select this option if you want the breakdown to remain with the position of the item rather than with the item itself. For more information about breakdowns, see [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Percentage calculation | <ul><li>Column</li><li>Row</li></ul> |
 
 ## Visualizations preferences
 
-<div class="preview">
-Visualization preferences apply to your Adobe Analytics experience in the browser.
+You can update visualization preferences for all new prjects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
+
+Some of these same preferences can also be customized for individual visualizations. See the following articles for additional information and context: [Line](/help/analyze/analysis-workspace/visualizations/line.md), [Combo chart](/help/analyze/analysis-workspace/visualizations/combo-charts.md), [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md), [Configure a flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md), [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md), [Configure a fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md), [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md), [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -97,53 +100,53 @@ Visualization preferences apply to your Adobe Analytics experience in the browse
 | | Percentages | In the [!UICONTROL **General Defaults**] section |
 | | Legend visible | In the [!UICONTROL **General Defaults**] section  |
 | | Limit max items | In the [!UICONTROL **General Defaults**] section  |
-| | Display dual axis (when applicable) | In the [!UICONTROL **General Defaults**] section  |
-| | Normalization (when applicable) | In the [!UICONTROL **General Defaults**] section  |
-| | Anchor Y-axis at zero | In the [!UICONTROL **General Defaults**] section  |
+| | Display dual axis (when applicable) | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes.  |
+| | Normalization (when applicable) | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes.  |
+| | Anchor Y-axis at zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart).  |
 | | Allow anomalies to scale Y-axis | In the [!UICONTROL **General Defaults**] section  |
 | **Line** | | |
-| | Percentages  | In the [!UICONTROL **Line**] section |
+| | Percentages  | Displays values in percentages. |
 | | Legend visible | In the [!UICONTROL **Line**] section |
 | | Limit max items | In the [!UICONTROL **Line**] section |
-| | Display dual axis (when applicable) | In the [!UICONTROL **Line**] section |
-| | Normalization (when applicable) | In the [!UICONTROL **Line**] section |
-| | Show x-axis |  |
-| | Show y-axis |  |
-| | Anchor Y-axis at zero | In the [!UICONTROL **Line**] section |
+| | Display dual axis (when applicable) | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| | Normalization (when applicable) | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
+| | Show x-axis | Displays the x-axis on the Line chart. For more information about Line charts, see [Line](/help/analyze/analysis-workspace/visualizations/line.md) |
+| | Show y-axis | Displays the y-axis on the Line chart. For more information about Line charts, see [Line](/help/analyze/analysis-workspace/visualizations/line.md)  |
+| | Anchor Y-axis at zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). For more information about Line charts, see [Line](/help/analyze/analysis-workspace/visualizations/line.md) |
 | | Show min |  |
 | | Show max |  |
-| | Show trendline | |
+| | Show trendline | Show a regression or moving average trendline to your line series. Trendlines help to depict a clearer pattern in the data. |
 | **Cohort** | | |
-| | Granularity | Choose from Day, Week, Month, Quarter, or Year.> |
-| | Only show percent | |
-| | Round percent to nearest whole |  |
-| | Show average percent row |  |
+| | Granularity | For trended visualizations, you can change the time granularity (Day, Week, Month, Quarter, or Year). This change also applies to the data source table. |
+| | Only show percent | Removes the number value and only shows the percentage. |
+| | Round percent to nearest whole | Rounds the percent value to the nearest whole instead of showing the decimal value. |
+| | Show average percent row | Inserts a new row at the top of the table and then adds the average for the values within each column.  |
 | | Cohort Preview |  |
 | | Cohort Palette | |
-| **Combo Charts** | | |
-| | Show X-axis | In the [!UICONTROL **Combo Charts**] section |
-| | Show Y-axis | In the [!UICONTROL **Combo Charts**] section |
-| | Display barbells on lines |  |
+| **Combo charts** | | |
+| | Show X-axis | Displays the x-axis on the Combo chart. For more information about Combo charts, see [Combo chart](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
+| | Show Y-axis | Displays the y-axis on the Combo chart. For more information about Combo charts, see [Combo chart](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
+| | Display barbells on lines | Show barbells on lines in Combo charts. For more information about Combo charts, see [Combo chart](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | **Key Metric Summary** | | |
 | | Summary display type | <ul><li>Emphasize percent change</li><li>Emphasize number value</li></ul> |
-| | Show sparklines |  |
-| | Show max and min on sparklines |  |
-| | Show comparison |  |
-| | Number value options | In the [!UICONTROL **Key Metric Summary**] section <ul><li>Show percent change</li><li>Show raw difference</li></ul> |
+| | Show sparklines | how or hide line charts at the bottom of the chart. When hidden, the legend changes to no longer visually reference the lines. |
+| | Show max and min on sparklines | Show minimum and maximum values on primary and comparison line charts. |
+| | Show comparison | Show comparison data. When hidden, both the comparison line chart and summary change objects will be hidden from view. |
+| | Number value options | In the [!UICONTROL **Key Metric Summary**] section <ul><li>Show percent change</li><li>Show raw difference</li>Raw difference between the total value of the metric in the primary date range and the secondary date range</ul> |
 | **Fallout** | | |
-| | Container | In the [!UICONTROL **Fallout**] section <ul><li>Visit</li><li>Visitor</li></ul> |
+| | Container | Lets you switch between Visit and Visitor to analyze visitor pathing. The default is Visitor. These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit. <p>The following options are available:</p> <ul><li>Visit</li><li>Visitor</li></ul> <p>For more information about fallout visualizations, see [Configure a fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md). |
 | **Flow** | | |
 | | Container | In the [!UICONTROL **Flow**] section <ul><li>Visit</li><li>Visitor</li></ul> |
-| | Wrap labels |  |
-| | Include repeat instances |  |
+| | Wrap labels | Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box. Default = unchecked. For more information, see [Configure a flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
+| | Include repeat instances | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. Default = unchecked. For more information, see [Configure a flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).  |
 | | Show tooltips |  |
-| | Number of columns |  |
-| | Items expanded per column |  |
+| | Number of columns | Determines how many columns you want in your Flow diagram. |
+| | Items expanded per column | How many items you want in each column. |
 | **Stacked Charts** | | |
-| | 100% stacked |  |
+| | 100% stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
 | **Histogram** | | |
 | | Number of buckets |  |
-| | Counting method | <ul><li>Hit</li><li>Visit</li><li>Visitor</li></ul> |
+| | Counting method | Choose from the following options: <ul><li>Hit</li><li>Visit</li><li>Visitor</li></ul> <p>For example, when used in conjunction with page views, you could choose page views per visitor, page views for visit, or page views per hit. For Hit, "Occurrences" is used as the y-axis metric in a freeform table.</p>|
 | **Map** | | |
 | | Plotting dimension | <ul><li>Mobile latitude/longitude</li><li>Geographic dimension</li></ul> |
 | | Map type | <ul><li>Bubbles</li><li>Heat map</li></ul> |
@@ -152,7 +155,7 @@ Visualization preferences apply to your Adobe Analytics experience in the browse
 | **Summary Change** | | |
 | | Value | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Percent change</li><li>Raw difference</li></ul>  |
 | | Percentages | In the [!UICONTROL **Summary Change**] section |
-| | Legend visible | In the [!UICONTROL **Summary Change**] section |
+| | Legend visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
 | **Summary Number** | | |
 | | Percentages | In the [!UICONTROL **Summary Number**] section |
 | | Legend visible | In the [!UICONTROL **Summary Number**] section |
@@ -166,9 +169,8 @@ Visualization preferences apply to your Adobe Analytics experience in the browse
 | **Scatter** | | |
 | | Percentages | In the [!UICONTROL **Scatter**] section |
 | | Legend visible | In the [!UICONTROL **Scatter**] section |
-| | Limit max items | In the [!UICONTROL **Scatter**] section |
-| | Anchor y-axis at zero | In the [!UICONTROL **Scatter**] section |
-</div>
+| | Limit max items | Lets you limit the number of items that a visualization displays. |
+| | Anchor y-axis at zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
 
 ## [!UICONTROL Dark theme]
 

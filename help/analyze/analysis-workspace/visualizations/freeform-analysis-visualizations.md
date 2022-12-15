@@ -37,9 +37,29 @@ The following visualization types are available in Analysis Workspace:
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Uses circles to depict the metric overlap of up to 3 segments. |
 
-## Settings {#settings}
+<div class="preview">
 
-Each visualization has its own settings that you can manage. To access [!UICONTROL Visualization Settings], click the [!UICONTROL Visualization Settings] gear icon.
+## Customize visualization settings
+
+You can customize visualization settings for an individual visualization, or for all visualizations that you create. 
+
+### Customize visualization settings for a single visualization
+
+To access [!UICONTROL Visualization Settings] for an individual visualization:
+
+1. In Analysis Workspace, hover over the visualization whose settings you want to customize.
+
+1. Click the gear icon.
+
+   Each type of visualization has unique settings that you can customize. For informationa bout available settings, see [Settings](#settings).
+
+### Customize visualization settings for all visualizations you create
+
+YUou can customize settings for all visualizations that you create. For more information, see [User preferences](/help/analyze/analysis-workspace/user-preferences.md).
+
+</div>
+
+## Settings {#settings}
 
 ![](assets/settings.png)
 

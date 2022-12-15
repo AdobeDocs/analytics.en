@@ -149,9 +149,9 @@ For current users of Reports & Analytics, here is a short intro on how to use th
    * You can change the date range by going to the calendar at the top right.
    * You can add dimension breakdowns, drag in other metrics, and generally customize the report in any way you wish.
 
-### Create a (custom) Company report {#company-report}
+### Create a custom company report {#company-report}
 
-Custom reports are called Company Reports and are found in the Company Reports menu (see below). Any previously created reports and any new reports are listed in the create project modal.
+Custom reports are called company Reports and are found in the Company Reports menu shown below. Previously created reports and new reports are listed in the create project modal.
 
 To create a new Company report, 
 

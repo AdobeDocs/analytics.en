@@ -7,30 +7,46 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 ---
 # Save projects
 
+Projects in Analysis Workspace are automatically saved every 2 minutes. 
+
+You can also manually save projects, as described in [Save project options](#save-project-options).
+
 To save your changes to a project, go to the Workspace **[!UICONTROL Project]** menu. Workspace also auto-saves projects in certain cases. 
 
 ## Save project options {#Save} 
 
-There are different save actions you can take under the **[!UICONTROL Project]** menu, depending on how you want to access your analysis in the future. 
+Various options are available when manually saving a project in Analysis Workspace.
 
-| Action | Description | 
-|---|---| 
-| **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and add (optional) tags. | 
-| **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes are stored with the project version and are available to all editors under [!UICONTROL Project] > [!UICONTROL Open previous version]. | 
-| **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+To manually save a project:
 
-![](assets/save-project.png)
+1. With your project open in Analysis Workspace, select **[!UICONTROL Project]**, then select from the following options: 
+
+   | Action | Description | 
+   |---|---| 
+   | **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and add (optional) tags. | 
+   | **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes are stored with the project version and are available to all editors under [!UICONTROL Project] > [!UICONTROL Open previous version]. | 
+   | **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
+   | **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+
+   ![](assets/save-project.png)
 
 ## Auto-save {#Autosave} 
 
-Existing projects, i.e. projects that have been saved at least once before, are auto-saved every two minutes to your local machine. New projects that have never been saved are not currently auto-saved.  
+All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that have not yet been saved manually.
 
-There are a few scenarios that may lead you away from unsaved changes to a project, resulting in different available actions.  
+If for any reason you leave a project with unsaved changes, Analysis Workspace either prompts you to save your changes or provides a warning message. Following are some common scenarios:
 
 ### Open another Workspace project 
 
-Adobe provides the option to save before leaving the page. After leaving an existing project, the auto-saved local copy is deleted.
+Analysis Workspace provides the option to save a project before leaving. 
+
+The following options are available:
+
+* **Save:** Replaces the most recent auto-saved local copy with your latest changes.
+* **Save As:** Saves your latest changes as a new project.
+* **Discard Changes:** Discards your latest changes
+
+Selecting the Save option replaces the most recent auto-saved local copy with your latest changes. 
 
 ![](assets/existing-save.png)
 
@@ -42,7 +58,7 @@ The browser warns that unsaved changes will be lost. You can choose to leave or 
 
 ### Browser crashes or session times out 
 
-For **existing** projects, upon returning to Workspace, you will see a **Project recovery** modal. Selecting “Yes” restores the project from the auto-saved local copy. “No” deletes the auto-saved local copy and opens the last user-saved version of the project. 
+For **existing** projects, upon returning to Workspace, you will see a **Project recovery** modal. Selecting "Yes" restores the project from the auto-saved local copy. "No" deletes the auto-saved local copy and opens the last user-saved version of the project. 
 
 ![](assets/project-recovery.png)
 

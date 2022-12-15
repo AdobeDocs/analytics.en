@@ -9,11 +9,11 @@ feature: Workspace Basics
 
 You can delete folders that you create.
 
-1.	Click the **…** ellipsis icon in the top-right.
+1.  Click the **…** ellipsis icon in the top-right.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
  
-1.	Select **Delete folder**.
+1.  Select **Delete folder**.
  
     A confirmation notification indicates that the folder was deleted.
 

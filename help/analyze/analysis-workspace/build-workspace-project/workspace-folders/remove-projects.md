@@ -19,7 +19,9 @@ To remove a project from a folder, you can move the project to another location 
 >
 >When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Move a project {move-project-in-folder}
+## Move a project {#move-project-in-folder}
+
+You can move projects from one folder to another folder that you created.
 
 1.  From within a project folder, select the **...** ellipsis next to the project name.
 

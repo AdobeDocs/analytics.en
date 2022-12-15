@@ -1,6 +1,6 @@
 ---
-title: eVar for Dimensions
-description: A custom dimension you can use in reporting.
+title: eVar (dimension)
+description: A custom dimension that you can use in reporting.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 ---
@@ -8,7 +8,7 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 
 *This help page describes how eVars work as a dimension. For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
-eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars]. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
+eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars]. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings].
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
@@ -22,7 +22,7 @@ AppMeasurement, which compiles JavaScript variables into an image request for da
 
 ## Dimension items
 
-Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Since eVars contain custom strings in your implementation, your organization determines what the dimension items are for each eVar. Make sure that you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## How eVars work
 
@@ -78,7 +78,7 @@ Since allocation and expiration determine what values persist, they are vital in
 * By default, an eVar uses last allocation. New values overwrite persisted values.
 * By default, an eVar uses an expiration of visit. Once a visit ends, values stop copying over from row to row in the `post_evar` column.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 ## Value of eVars over props
 

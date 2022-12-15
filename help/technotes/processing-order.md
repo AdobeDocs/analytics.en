@@ -1,6 +1,7 @@
 ---
 title: Processing order for data in Adobe Analytics
 description: Learn the order of components and services that process data in Adobe Analytics.
+exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 ---
 # Processing order for data in Adobe Analytics
 
@@ -24,12 +25,12 @@ Once data arrives to Adobe Analytics, the following features adjust the data as 
 
 1. **Lookup tables**: Dimensions that rely on Adobe-internal lookup tables (for example, the [Browser](/help/components/dimensions/browser.md) dimension) is matched to its corresponding value.
 2. [**Dynamic variables**](/help/implement/vars/page-vars/dynamic-variables.md): If a dynamic variable is seen in any part of an image request, the value is copied over and treated as an independent value moving forward.
-3. [**Bot rules**](/help/admin/admin/bot-removal/bot-rules.md): Apply standard or custom bot filtering to exclude that data from reporting.
-4. [**Processing rules**](/help/admin/admin/c-processing-rules/processing-rules.md): Custom rules applied to your data by your organization. Includes the mapping of [Context data variables](/help/implement/vars/page-vars/contextdata.md) to its respective variable.
+3. [**Bot rules**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Apply standard or custom bot filtering to exclude that data from reporting.
+4. [**Processing rules**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): Custom rules applied to your data by your organization. Includes the mapping of [Context data variables](/help/implement/vars/page-vars/contextdata.md) to its respective variable.
 5. **VISTA rules**: Custom flexible rules applied to your data by an Adobe consultant. VISTA rules can potentially run before or after Processing rules, depending on your organization's needs. Most VISTA rules generally run after Processing rules, but each organization is set up differently. Contact your Adobe Account Manager for more information around existing VISTA rules.
-6. [**Marketing Channel processing rules**](/help/components/c-marketing-channels/c-rules.md): You can use [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) to prepare data for use in Marketing Channel processing rules.
+6. [**Marketing Channel processing rules**](/help/components/c-marketing-channels/c-rules.md): You can use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to prepare data for use in Marketing Channel processing rules.
 7. **Geolocation data**: Dimensions that rely on IP address lookup (for example, the [Countries](/help/components/dimensions/countries.md) dimension) are populated.
-8. [**IP obfuscation**](/help/admin/admin/general-acct-settings-admin.md): If your organization has opted to obfuscate IP addresses in raw data, it is done after all other processing functions have completed.
+8. [**IP obfuscation**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): If your organization has opted to obfuscate IP addresses in raw data, it is done after all other processing functions have completed.
 
 At this point, the individual hit is recorded in report suite data tables. After the standard [latency](latency.md) interval, it is available in reporting.
 

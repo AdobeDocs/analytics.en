@@ -9,6 +9,8 @@ exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 ---
 # Dashboard Manager
 
+{{ra-eol}}
+
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
 
 >[!IMPORTANT]

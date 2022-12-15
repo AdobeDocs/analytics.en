@@ -6,7 +6,7 @@ exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 ---
 # Implementing multi-suite tagging
 
-[Multi-suite tagging](/help/admin/c-manage-report-suites/rollup-report-suite.md) allows you to send image requests not only to a global report suite but also to individual child report suites so that you can provide subsets of your company's global report suite data to different end users.
+[Multi-suite tagging](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) allows you to send image requests not only to a global report suite but also to individual child report suites so that you can provide subsets of your company's global report suite data to different end users.
 
 To implement multi-suite tagging, you must include the Report Suite ID (RSID) for the global report suite and also the RSIDs for the applicable child report suites in the tracking code for your webpages and apps.
 

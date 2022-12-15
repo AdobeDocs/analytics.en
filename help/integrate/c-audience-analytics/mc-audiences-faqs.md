@@ -124,7 +124,7 @@ Answers to questions you might have when implementing Audience Analytics.
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
 
 ## General FAQs {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 

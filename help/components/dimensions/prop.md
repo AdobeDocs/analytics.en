@@ -1,6 +1,6 @@
 ---
 title: Prop
-description: A custom dimension you can use in reporting.
+description: A custom dimension that you can use in reporting.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 ---
@@ -24,7 +24,7 @@ AppMeasurement, which compiles JavaScript variables into an image request for da
 
 ## Dimension items
 
-Since props contain custom strings in your implementation, your organization determines what the dimension items are for each prop. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Since props contain custom strings in your implementation, your organization determines what the dimension items are for each prop. Make sure that you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Case sensitivity
 

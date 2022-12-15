@@ -78,7 +78,7 @@ b. Via the `s_objectID` variable. Example:
 
   ```
 
-    <a hef="/home?lang=en>Home</a>
+    <a hef="/home>Home</a>
 
   ```
 

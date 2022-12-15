@@ -58,7 +58,7 @@ The panel drop zone enables you to apply segment and drop-down filters to all ta
 
 Drag and drop any segment from the left rail into the panel drop zone to begin filtering your panel.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Ad hoc segment filters
 
@@ -66,7 +66,7 @@ Non-segment components can also be dragged directly into the drop zone to create
 
 Ad hoc segments are local to the project and do not show up in your left rail unless you make them public.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Drop-down filters {#dropdown-filter}
 

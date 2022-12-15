@@ -36,7 +36,7 @@ Some capabilities in the Adobe Experience Cloud come with an innate amount of la
 
 Several strategies exist to prevent latency or decrease recovery time when it occurs:
 
-* **Notify Adobe of expected traffic spikes:** While it is impossible to anticipate every traffic spike to your site, there may be cases where you are expecting to receive a significant increase in traffic. Examples include a particularly successful holiday period, or shortly after a large campaign push. In these cases, Adobe provides a way for your organization to inform us of expected traffic increases so that we can allocate additional processing resources to your report suite. See [Schedule a traffic spike](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide to learn how to notify Adobe of increased traffic.
+* **Notify Adobe of expected traffic spikes:** While it is impossible to anticipate every traffic spike to your site, there may be cases where you are expecting to receive a significant increase in traffic. Examples include a particularly successful holiday period, or shortly after a large campaign push. In these cases, Adobe provides a way for your organization to inform us of expected traffic increases so that we can allocate additional processing resources to your report suite. See [Schedule a traffic spike](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide to learn how to notify Adobe of increased traffic.
 * **Consider processing load when activating new features:** Some features are more processing intensive than others. The more features enabled on a report suite, the more difficult it is to recover from latency. When enabling features on a report suite, keep in mind the following features that increase the amount of data to process:
 
   * Implementing more than 20 events on the same page
@@ -44,7 +44,7 @@ Several strategies exist to prevent latency or decrease recovery time when it oc
   * More than 20 values in the products variable
   * Event serialization
 
-* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. It is recommended to use the IAB bot list, as it is updated and maintained by the [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). A user can customize their own bot rules to complement those from the IAB.
+* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. It is recommended to use the IAB bot list, as it is updated and maintained by the [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). A user can customize their own bot rules to complement those from the IAB.
 
 ## What to do about Latency
 

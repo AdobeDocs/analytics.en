@@ -28,7 +28,7 @@ The Audience Analytics integration features the following key benefits:
 ![](assets/mc-aud-dataflow.png)
 
 1. Each time a visitor comes to your digital properties, hits are collected and sent to Analytics.
-1. With [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md), each hit that Analytics receives is automatically sent to AAM in real time.
+1. With [server-side forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), each hit that Analytics receives is automatically sent to AAM in real time.
 1. Through the Audience Analytics integration, for each hit, a visitor's audience membership is looked up in AAM and a list of segment IDs is returned to Analytics for processing in real time.
 
 Because AAM segments are inserted on a same-hit basis, you can be sure that whatever data is available in AAM about a visitor will not be missed and be up to date for that hit. This is superior to an AppMeasurement plug-in, because a plug-in can make those segments available only on the next hit (rather than the current hit.)
@@ -43,6 +43,6 @@ Ensure that the following prerequisites are in place:
 * You are an Audience Manager admin.
 * You are using the Identity Service v1.5 or later.
 * AAM and Adobe Analytics report suites are mapped to the same Experience Cloud organization.
-* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (no DIL code) - AppMeasurement 1.5 or later.
+* You use [server-side forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (no DIL code) - AppMeasurement 1.5 or later.
 
 These prerequisites are described in the [Audience Analytics Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

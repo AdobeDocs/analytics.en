@@ -19,7 +19,7 @@ In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
 ## Filter Calculated Metrics {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** calculated metrics by clicking on the Filter icon:  ![](assets/segment_filter.png)
+**Filter** calculated metrics by clicking on the Filter icon:  ![](/help/admin/admin/assets/filter.png)
 
 . The Advanced Filters dialog is populated with both standard and calculated metrics.
 

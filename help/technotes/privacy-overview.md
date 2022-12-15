@@ -85,7 +85,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, see </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">General Account Settings</a> in the Admin user guide.</p> </td>
+   <td colname="col2"> Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. <p>This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, see </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">General Account Settings</a> in the Admin user guide.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -97,7 +97,7 @@ Adobe Analytics collects the following data:
   </tr> 
   <tr> 
    <td colname="col1"> Germany </td> 
-   <td colname="col2"> <p>If customers do not already have a Data Processing Agreement for Adobe Analytics in place with Adobe, they should contact their Adobe Account Manager or Customer Success Manager, who will work with the Adobe Legal Department to get the DPA in place. </p> <p>Adobe has prepared a Data Processing Agreement (Vertrag fuer Auftragsdatenverarbeitung - ADV) for Analytics that has been reviewed and approved by the Bavarian Data Protection Authority (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). The ADV is available in German and English. </p> </td> 
+   <td colname="col2"> <p>If you do not already have a Data Processing Agreement for Adobe Analytics in place with Adobe, you should contact your Adobe Account Manager or Customer Success Manager, who will work with the Adobe Legal Department to get the DPA in place. </p> </td> 
   </tr> 
  </tbody> 
 </table>

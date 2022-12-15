@@ -48,11 +48,13 @@ Virtual report suites have the following limitations:
 | Capability  | Virtual Report Suite  | Multi-suite Tagging  |
 |--- |--- |--- |
 | Offers real-time or "Current Data" reporting| No | Yes |
-|Works in all Analytics Tools (Analysis Workspace, Report Builder, etc.)|Yes. **Note:** You can edit and identify them as virtual report suites only in Reports & Analytics. However, you can select them in report suite drop-downs in the other tools. | Yes |
+| Works in all Analytics Tools (Analysis Workspace, Report Builder, etc.)|Yes. **Note:** You can edit and identify them as virtual report suites only in [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Virtual Report Suites]. However, you can select them in report suite drop-downs in the other tools.<p>**Important**: Virtual report suites with report time processing and variable customization are not currently supported in Adobe Report Builder. | Yes |
 | Can upload data to it (via classifications, data feeds, etc.) | No | Yes |
 | Supports creation of DL Reports, bookmarks, dashboards, targets, alerts, segments, calculated metrics... | Yes | Yes |
 | Can be individually added to Permissions Groups | Yes | Yes |
 | Can use Admin functions to modify individual settings on this report suite (Admin > Report Suites) | No (Settings are inherited from parent) | Yes |
+
+{style="table-layout:auto"}
 
 ## Combine Virtual Report Suites and Multi-suite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

@@ -165,7 +165,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Select a report suite from an existing request in Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
       + [Use Excel to locate a report suite ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
     + [Manage segments](report-builder/data-requests/segmentation.md)
-    + [Allow Publishing List overrides](report-builder/data-requests/allow-publishing-list-overrides.md)
     + Report types {#report-types}
       + [Report types overview](report-builder/data-requests/c-report-types/select-report-types.md)
       + [Path and path fallout reports in Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
@@ -299,7 +298,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
     + [Report Features](reports-analytics/overview/report-overview.md)
     + [Common Terms](reports-analytics/overview/overview-common-terms.md)
-    + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
   + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)

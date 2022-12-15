@@ -42,7 +42,7 @@ You can define multiple data dimensions to a metric, but each metric must provid
 
 After you define the data dimensions to use with a data source, integrate the dimensions data into marketing reports by mapping it to a variable. Use either standard reports (for example, Product, Tracking Code, Search Keyword) or Conversion Traffic variables (eVars).
 
-When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure you name them appropriately.
+When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure that you name them appropriately.
 
 See [Success Events](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
 

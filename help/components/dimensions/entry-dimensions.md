@@ -9,7 +9,7 @@ exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 
 *This help page describes how entries work as a dimension. For information on how entries work as a metric, see the [Entries](../metrics/entries.md) metric.*
 
-Entry dimensions are visit-based. They record the first dimension item, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/admin/c-traffic-variables/traffic-var.md) in Report suite settings.
+Entry dimensions are visit-based. They record the first dimension item, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in Report suite settings.
 
 ## Populate entry dimensions with data
 

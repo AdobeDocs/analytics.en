@@ -1,5 +1,5 @@
 ---
-title: eVar variables
+title: eVar (variable)
 description: Custom variables you can use in your implementation.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
@@ -8,13 +8,13 @@ exl-id: f89457b2-4186-4276-8637-9992070e3a73
 
 *This help page describes how to implement eVars. For information on how eVars work as a dimension, see [eVars](/help/components/dimensions/evar.md) in the Components user guide.*
 
-eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVars are custom variables that you can use however you'd like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as eVars. By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
 ## Set up eVars in report suite settings
 
-Before using eVars in your implementation, make sure you configure each eVar in report suite settings. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+Before using eVars in your implementation, make sure that you configure each eVar in report suite settings. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
 
 ## eVars using the Web SDK
 
@@ -57,4 +57,4 @@ If more than two decimal places are given, the eVar counter rounds to two decima
 
 >[!IMPORTANT]
 >
->You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+>You must first configure eVars to 'Counter' in the Admin Console before using counter eVars. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin guide.

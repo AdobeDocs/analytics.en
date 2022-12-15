@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October/November 2022)
 
-**Last update**: October 25, 2022
+**Last update**: November 18, 2022
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,8 +14,8 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | October 5, 2022 | October 19, 2023 |
-| **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1` - `mvvar3` in data feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
+| **[!UICONTROL Key metric summary]** visualization | The [!UICONTROL Key metric summary] visualization lets you see how an important metrics is trending within a single timeframe. It also lets you compare metric performance across two timeframes. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | October 5, 2022 | October 19, 2023 |
+| **Case-insensitive multi-value variables** | For case-insensitive multi-value variables, the values stored in `mvvar1 - mvvar3` and `post_mvvar1 - post_mvvar3` in Data Feeds will no longer be automatically lowercased. Instead, data feeds (and data passed through the Analytics Source Connector to Adobe Experience Platform and CJA) will reflect the original case that was passed in from the page. | N/A | October 24, 2022 |
 
 {style="table-layout:auto"}
 
@@ -33,6 +33,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| **Updated guidelines for traffic spike notifications** | November 18, 2022 | Former guidelines were based strictly on hit volumes. The [new guidelines](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) are based on a combination of report suite size and percent increase. |
 | **Update to device lookups due to Google Client Hints** | October 14, 2022 | The use of client hints in device lookup, originally planned for October 26, 2022, has been postponed to **January 2023**. <p> <p>As of October 2022 it is possible to collect client hints with either the Web SDK or AppMeasurement JavaScript libraries. But client hints will not be incorporated into device lookup until January 2023. At that date, Adobe will begin using client hints in addition to the User-Agent when deriving certain device information for hits coming from Chromium browsers, such as Google Chrome and Microsoft Edge. This is in response to Google's plan to gradually reduce the information presented from the User-Agent string in lieu of data passed via client hints. <p> <p>As part of this change, Adobe will use Device Atlas for all device lookups related to User-Agent. [Learn more](/help/technotes/client-hints.md)|
 | **Default landing page** | September 29, 2022 |The [new landing page](/help/analyze/landing.md) that was introduced earlier this year will become the default experience for all users in **January 2023**. The current page will be deprecated and everyone will be required to use the new experience. |
 | **[!UICONTROL Anomaly detection] auto-run conditions** | September 29, 2022 | Today, [!UICONTROL Anomaly detection] auto-runs on all columns of time-series freeform tables. To ensure data is available for analysis and projects load faster, Adobe will change how Anomaly detection auto-runs. Starting **October 26, 2022**, [!UICONTROL Anomaly detection] will auto-run only on the first metric column in a table. You can configure column settings to run anomaly detection on other columns, if needed. |
@@ -47,15 +48,15 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
-| **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, Publishing Lists are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing Publishing Lists to send or schedule Analysis Workspace projects. [Learn more](/help/admin/admin/publishing-list.md) |
-| **EOL for Data Workbench** | September 14, 2022 | Adobe intends to end-of-life Data Workbench effective **December 31, 2023**. Please contact your Customer Care representative for alternative solutions to Data Workbench or if you have any questions. [Learn more](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html)|
+| **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, Publishing Lists are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing Publishing Lists to send or schedule Analysis Workspace projects. |
+| **EOL for Data Workbench** | September 14, 2022 | Adobe intends to end-of-life Data Workbench effective **December 31, 2023**. See [Data Workbench end-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) for details. Contact your organization's Adobe Account Manager with any questions. |
 | **EOL for [!DNL Reports & Analytics]** | January 4, 2022 | Effective **December 31, 2023**, Adobe intends to discontinue [!DNL Reports & Analytics] and its accompanying reports and features. The reports, visualizations, and underlying technology that power [!DNL Reports & Analytics] no longer meet Adobe's technology standards. Most [!DNL Reports & Analytics] features are available in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Since the release of Analysis Workspace in 2015, [!DNL Reports & Analytics] functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. [This notice](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explains the end-of-life process. |
 
 {style="table-layout:auto"}
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.23.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en).
+For the latest updates on AppMeasurement releases (Version 2.23.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 ## Related resources
 

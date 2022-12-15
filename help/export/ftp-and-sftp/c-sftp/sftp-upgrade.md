@@ -20,7 +20,7 @@ The following features provide an option to upload data to Adobe Analytics using
 
 * [Classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
 
-* [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
+* [Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
 

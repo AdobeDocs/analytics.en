@@ -81,7 +81,7 @@ All users have access to the [!UICONTROL Account Information] page. The followin
 | Type of Information | Definition |
 | --- | --- |
 | Contact | Specify the following personal information for your account:<ul><li>First Name (Required)</li><li>Last Name (Required)</li><li>Title</li><li>Email Address (Required)</li><li>Phone Number</li></ul> |
-| Login | Displays the account username, and lets you change the account password. See also: [How to reset Reports & Analytics account password](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Login | Displays the account username, and lets you change the account password. See also: [How to reset Reports & Analytics account password](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Web Service | Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the  Developer Connection. **Note:** This information is displayed only if the account is authorized as a web services user. |
 | Exclude this Computer | Applies a cookie to the current computer to exclude it from data collection. This is useful if you do not want your on-line activities to affect Page View and Visitor counts in your domain. **Note:** To use this feature, your browser must have cookies enabled. If you delete cookies on your computer, you must reset the exclusion cookie. |
 

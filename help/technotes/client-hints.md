@@ -1,8 +1,8 @@
 ---
 title: Client hints
 description: Learn about how client hints will gradually replace the User-Agent as the source of device information.
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 ---
-
 # Client hints overview and FAQ
 
 Client hints are individual pieces of information about a user's device. They are provided by Chromium browsers such as Google Chrome and Microsoft Edge. For these browsers, client hints will gradually replace the User-Agent as the source of device information. Adobe Analytics will update its device lookup process so that it uses client hints in addition to User-Agent to determine device information.
@@ -35,7 +35,7 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
@@ -75,17 +75,25 @@ The device fields available for reporting will not change. The data captured for
 
 These fields are directly derived from the User-Agent but User-Agent may be used to help derive values for other device related fields, depending on the device details.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) 
-* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
-* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
-* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html) 
+* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
 +++**What portions of the User-Agent are being "frozen" and when?** 
 
 See the [timeline published by Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). This may be subject to change.
+
++++
+
++++**In what ways does Analytics depend on the User Agent?**
+
+Device information in reporting is derived from the User Agent. We have updated our processes to use both User Agent and client hints where available. 
+
+The Fallback ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) is derived from the User Agent and IP Address. This ID is only used if a cookie cannot be set so is not widely used 
 
 +++
 
@@ -99,7 +107,7 @@ Refer to the [timeline published by Google](https://blog.chromium.org/2021/09/us
 
 +++**How will Adobe use client hints to derive device information?**
 
-Adobe uses a third party, Device Atlas, who will use both the client hints and User-Agent to derive device information.
+Adobe uses a third party, Device Atlas, who will use both client hints and the User-Agent to derive device information.
 
 +++
 
@@ -138,4 +146,3 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 +++
-

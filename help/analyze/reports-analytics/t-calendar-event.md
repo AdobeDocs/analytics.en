@@ -8,6 +8,8 @@ exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
 ---
 # Calendar events
 
+{{ra-eol}}
+
 Steps to add calendar events, and to manage shared events.
 
 >[!NOTE]

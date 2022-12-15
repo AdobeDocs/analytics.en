@@ -1045,7 +1045,7 @@ New features released on October 20, 2016:
 New features released on June 16, 2016:
 
 * [New group permission](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) that allows administrators to allow or deny access to the **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** tab for users. As of June 16, 2016, all users have permission to access this tab. To deny access, just remove users from the Analysis Workspace Access group.
-* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension you have access to.
+* The [Segment Comparison Panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)discovers the most statistically significant differences between any two segments through an automated analysis of every single metric and dimension that you have access to.
 * [New Projects Menu structure](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) that rearranges the top menu and makes it more extensible. For example, creating a **new Cohort Panel** now involves creating a Blank Panel and dragging in a Cohort Table visualization.
 * [New left rail](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Panels, Visualizations, Components
 * A new [Venn visualization type](/help/analyze/analysis-workspace/visualizations/venn.md) that lets you drag in up to 3 segments and a metric and build a Venn diagram.

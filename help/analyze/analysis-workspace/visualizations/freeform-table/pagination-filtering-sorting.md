@@ -21,4 +21,4 @@ Clicking the filter icon, then Show Advanced, next to a dimension in a freeform 
 * Starts with 
 * Ends with
 
-![](assets/advanced-filter.png)
+![](/help/admin/admin/assets/filter.png)

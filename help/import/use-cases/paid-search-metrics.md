@@ -59,7 +59,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 1. Click **[!UICONTROL Next]** and name your data source. This name appears in the Data Source Manager.
 1. Accept the service agreement and click **[!UICONTROL Next]**.
 1. Select the three standard metrics: [!UICONTROL Impressions], [!UICONTROL Clicks] and [!UICONTROL Total Cost] and click **[!UICONTROL Next]**.
-1. Now “map” this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-success-events/t-success-events.md).
+1. Now "map" this new data source to the custom events we created in [Configure Success Events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
     ![Mapping](assets/data-source-mapping.png)
 
@@ -111,7 +111,7 @@ Go back to the Data Source wizard for instructions and upload the file via FTP:
 
 Adding calculated metrics will be helpful when making pay-per-click decisions.
 
-For example, you could add these [calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics):
+For example, you could add these [calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
 
 | Name | Formula | Metric Type | Description |
 | --- | --- | --- | --- |

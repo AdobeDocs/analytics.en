@@ -7,14 +7,16 @@ exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 ---
 # Reports
 
+{{ra-eol}}
+
 Each report in Reports & Analytics uses a dedicated dimension and default metric. You can change the metric in each report and add breakdowns if desired. The following lists provide what dimension is used in each report.
 
 >[!NOTE]
 >
->Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) in the Admin user guide.
 
 >[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
 ## Site Metrics
 
@@ -48,9 +50,9 @@ Contains reports that typically trend using a date range. Also contains unique r
   * Checkouts: Trends the metric [Checkouts](/help/components/metrics/checkouts.md) over time.
 * Custom events: Contains all reports around custom [Events](/help/components/metrics/custom-events.md) specific to your implementation.
 * Bots: Shows bot-related reports.
-  * Bots: Shows the bots that frequent your site the most. See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
+  * Bots: Shows the bots that frequent your site the most. See [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) in the Admin user guide.
   * Bot pages: Shows the pages that bots hit the most.
-* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [Real-time reports](/help/components/c-real-time-reporting/realtime.md) for more information.
+* Real-time: Shows certain dimensions and metrics within seconds after data collection. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) for more information.
 
 ## Site content
 
@@ -107,11 +109,11 @@ Contains reports that allow you to see pathing data for visitors.
 
 >[!NOTE]
 >
->Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](../../admin/admin/c-traffic-variables/traffic-var.md) under report suite settings.
+>Other reports can appear in this folder. They are other dimensions, such as props, where you have [pathing enabled](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) under report suite settings.
 
 ## Traffic sources
 
-Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [Internal URL filters](../../admin/admin/internal-url-filter-admin.md) under report suite settings.
+Contains report that give insight to where visitors came from before arriving to your site. These reports do not work correctly unless you correctly set [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) under report suite settings.
 
 * Search keywords - all: Uses the [Search keyword](/help/components/dimensions/search-keyword.md) dimension.
 * Search keywords - paid: Uses the [Search keyword - paid](/help/components/dimensions/search-keyword.md) dimension.
@@ -222,4 +224,4 @@ Contains targets that you created. See [Targets](targets.md) for more informatio
 
 >[!NOTE]
 >
->If you can't find your report on this help page, it is possible that your administrator renamed or adjusted folders. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>If you can't find your report on this help page, it is possible that your administrator renamed or adjusted folders. See [Menu customizing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) in the Admin user guide.

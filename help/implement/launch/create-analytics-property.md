@@ -10,7 +10,7 @@ Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions 
 
 ## Prerequisites
 
-[Create a report suite](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
+[Create a report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
 
 ## Create a tag property and install vital extensions
 
@@ -25,7 +25,7 @@ Properties are overarching containers you use to manage tags. Extensions let you
 1. All settings, including Experience Cloud Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
 1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
 
-See the full documentation for the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) for more detailed information.
+See the full documentation for the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) for more detailed information.
 
 ## Create data elements for Adobe Analytics
 

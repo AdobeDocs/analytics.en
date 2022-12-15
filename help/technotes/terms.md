@@ -11,7 +11,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Admin console:** Can refer to:
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](/help/admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
-* **Allocation:** If a conversion variable encounters more than one value during a visit, the variable's allocation setting determines which value is kept. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
+* **Allocation:** If a conversion variable encounters more than one value during a visit, the variable's allocation setting determines which value is kept. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **Analysis Workspace:** Browser solution for building robust, custom analysis projects and democratizing insights. Offers more report flexibility than Reports and Analytics.
 * **Anomaly:** Detected using statistical modeling to automatically find unexpected trends in data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) in the Analyze user guide.
 * **AppMeasurement:** The code library used to gather data and send it to Adobe. See the [Homepage](/help/implement/home.md) of the Implement user guide.
@@ -49,7 +49,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **eVar:** See Conversion variable.
 * **Event:** See Success event.
 * **ExcelClient:** No longer used as a term. The name of the predecessor of Report Builder.
-* **Expiration:** In context of a conversion variable, how long the value persists on the backend. This persistence allows events to associate with variable values before the event's hit. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
+* **Expiration:** In context of a conversion variable, how long the value persists on the backend. This persistence allows events to associate with variable values before the event's hit. See [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **Flow:** A type of visualization in Analysis Workspace that shows what paths users took on your site. See [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in the Analyze user guide.
 * **Genesis:** No longer used as a term. The former name of Data Connectors.
 * **Global report suite:** An informal term designated to a report suite that collects hits from multiple sites.
@@ -77,11 +77,11 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Persistence:** An abstract concept for conversion variables that allows the linking between a variable value and event happening on separate hits. See also Expiration.
 * **Primary server call:** Alternate name for image request or hit, used mostly in context of multi-suite tagging and billing. When the same hit is sent to multiple report suites, the first report suite is a primary server call while the rest are secondary server calls. This rule applies to all hit types, including page view and link tracking. See also Secondary server calls.
 * **Processing rules:** Can refer to:
-  * Processing rules, a way to alter data collection using certain rules in the Admin Console. See [Processing rules](/help/admin/admin/c-processing-rules/processing-rules.md) in the Admin user guide.
-  * Marketing channel processing rules, a set of rules that determines which marketing channel a hit belongs in. See [Marketing channel processing rules](/help/admin/admin/marketing-channels-admin.md) in the Admin user guide.
+  * Processing rules, a way to alter data collection using certain rules in the Admin Console. See [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) in the Admin user guide.
+  * Marketing channel processing rules, a set of rules that determines which marketing channel a hit belongs in. See [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) in the Admin user guide.
 * **Prop:** See Traffic variable.
 * **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.
-* **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/realtime/realtime.md) in the Admin user guide.
+* **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in the Admin user guide.
 * **Report Builder:** A Microsoft Excel add-in that lets you build customized requests from Adobe Analytics data.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
 * **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package.

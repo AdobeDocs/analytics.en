@@ -8,6 +8,8 @@ exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 ---
 # [!UICONTROL Targets] {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
+{{ra-eol}}
+
 [!UICONTROL Targets] let you measure your website performance and track progress against target goals. For example, you might want to increase the number of visitors that come from a geographic region, the revenue per order, or the number of hits that come from a specific referrer.
 
 When you create targets, you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric.

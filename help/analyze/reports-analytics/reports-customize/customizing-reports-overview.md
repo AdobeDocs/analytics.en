@@ -8,6 +8,8 @@ exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 ---
 # Customize reports overview
 
+{{ra-eol}}
+
 After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
 
 ## Create a custom report {#task_BA6EACA3039C40AEA5605E1D8C76E646}

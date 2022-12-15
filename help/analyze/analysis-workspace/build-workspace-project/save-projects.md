@@ -9,9 +9,7 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 
 Projects in Analysis Workspace are automatically saved every 2 minutes. 
 
-You can also manually save projects, as described in [Save project options](#save-project-options).
-
-To save your changes to a project, go to the Workspace **[!UICONTROL Project]** menu. Workspace also auto-saves projects in certain cases. 
+You can also manually save projects.
 
 ## Save project options {#Save} 
 
@@ -32,33 +30,37 @@ To manually save a project:
 
 ## Auto-save {#Autosave} 
 
-All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that have not yet been saved manually.
+All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that are not yet saved manually.
 
-If for any reason you leave a project with unsaved changes, Analysis Workspace either prompts you to save your changes or provides a warning message. Following are some common scenarios:
+If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. Following are some common scenarios:
 
-### Open another Workspace project 
+### Open another project 
 
-Analysis Workspace provides the option to save a project before leaving. 
+When viewing a project in Analysis Workspace with changes that are not yet auto-saved and then opening another project, Analysis Workspace provides the option to save the current project before leaving. 
 
 The following options are available:
 
 * **Save:** Replaces the most recent auto-saved local copy with your latest changes.
 * **Save As:** Saves your latest changes as a new project.
-* **Discard Changes:** Discards your latest changes
-
-Selecting the Save option replaces the most recent auto-saved local copy with your latest changes. 
+* **Discard Changes:** Discards your latest changes. 
 
 ![](assets/existing-save.png)
 
 ### Navigate away or close a tab 
 
-The browser warns that unsaved changes will be lost. You can choose to leave or cancel. 
+If you navigate away from the page or close the browser tab while viewing a project with changes that are not yet auto-saved, the browser warns that your unsaved changes will be lost. You can choose to leave or cancel. 
 
 ![](assets/browser-image.png)
 
 ### Browser crashes or session times out 
 
-For **existing** projects, upon returning to Workspace, you will see a **Project recovery** modal. Selecting "Yes" restores the project from the auto-saved local copy. "No" deletes the auto-saved local copy and opens the last user-saved version of the project. 
+If your browser crashes or if your session times out, then the next time you access Analysis Workspace you're prompted to recover any changes to your project that are not yet auto-saved.
+
+Following is the Project Recovery dialog box that displays the first time you access Analysis Workspace after a crash or a timeout.
+
+Select **Yes** to restore the project from the most recent auto-saved copy.
+
+Select **No** to delete the auto-saved copy and open the last user-saved version of the project.
 
 ![](assets/project-recovery.png)
 

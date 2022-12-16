@@ -9,15 +9,15 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 
 Projects in Analysis Workspace are automatically saved every 2 minutes. 
 
-You can also manually save projects.
+You can also manually save projects. Additional options are available when you manually save a project.
 
-## Save project options {#Save} 
+## Save projects manually {#Save} 
 
 Various options are available when manually saving a project in Analysis Workspace.
 
 To manually save a project:
 
-1. With your project open in Analysis Workspace, select **[!UICONTROL Project]**, then select from the following options: 
+1. With your project open in Analysis Workspace, select **[!UICONTROL Project]**, then choose from the following options: 
 
    | Action | Description | 
    |---|---| 
@@ -36,13 +36,13 @@ If for any reason you leave a project with changes that are not yet auto-saved, 
 
 ### Open another project 
 
-When viewing a project in Analysis Workspace with changes that are not yet auto-saved and then opening another project, Analysis Workspace provides the option to save the current project before leaving. 
+If you open an additional project while working on a project that contains changes that are not yet auto-saved, Analysis Workspace prompts you to save the current project before leaving.
 
 The following options are available:
 
-* **Save:** Replaces the most recent auto-saved local copy with your latest changes.
-* **Save As:** Saves your latest changes as a new project.
-* **Discard Changes:** Discards your latest changes. 
+* **Save:** Replaces the most recent auto-saved local copy of your project with your latest changes.
+* **Save As:** Saves your latest changes as a new project. The original project is saved only with the most recent auto-saved changes.
+* **Discard Changes:** Discards your latest changes. The project retains the most recent auto-saved changes.
 
 ![](assets/existing-save.png)
 
@@ -66,7 +66,7 @@ Select **No** to delete the auto-saved copy and open the last user-saved version
 
 For **new** projects that have never been saved, unsaved changes are not recoverable.
 
-## Open previous version {#previous-version}
+## Open a previous version {#previous-version}
 
 >[!NOTE]
 >

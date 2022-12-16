@@ -9,7 +9,7 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 
 Projects in Analysis Workspace are automatically saved every 2 minutes. 
 
-You can also manually save projects. Additional options are available when you manually save a project.
+You can also manually save projects. Additional options such as adding tags or notes are available when you manually save a project.
 
 ## Save projects manually {#Save} 
 
@@ -30,9 +30,15 @@ To manually save a project:
 
 ## Auto-save {#Autosave} 
 
-All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that are not yet saved manually.
+All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that are not yet saved manually. 
 
-If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. Following are some common scenarios:
+* **New projects:** Even though new projects are auto-saved, you must save each new project manually the first time. Analysis Workspace prompts you to save new projects manually when switching to another project, closing the browser tab, and so forth. 
+
+  If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called `Recovered Projects (Last 7 Days)`. 
+
+* **Existing projects:** If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. 
+
+  Following are some common scenarios:
 
 ### Open another project 
 

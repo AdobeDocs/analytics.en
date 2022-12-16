@@ -9,7 +9,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 
 You can manage settings for Analysis Workspace and its related components at the user-level. Changes that you make to your user preferences apply to all new projects or panels that you create. Existing projects and panels are not affected.
 
-View this short video for a brief overview of user preferences:
+View this video for a brief overview of user preferences:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
@@ -35,7 +35,7 @@ These settings apply to general preferences in Adobe Analytics.
 
 | Preference | Options |
 | --- | --- |
-| Landing page | <ul><li>Project list (default)</li><li>Blank project</li><li>Specific project selected from a list</li></ul> |
+| Landing page | Choose what page displays as the default page when you access Adobe Analytics: <ul><li>Project list (default)</li><li>Blank project</li><li>Specific project selected from a list</li></ul> |
 | Tips | <ul><li>Enabled (default)</li><li>Disabled</li></ul> |
 | <span class="preview">Components displayed in left rail groups</span> | Choose how many of each component to display in the Components menu in the left rail. <p>If you choose 0, the component is no longer accessible from the left rail of your workspaces.</p><p>By default, 5 components display for each of the following:</p> <ul><li>Dimensions</li><li>Metrics</li><li>Filters</li><li>Date ranges</li></ul> <p>For more information about Components in Analysis Workspace, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 

@@ -132,33 +132,6 @@ To share an Analysis Workspace project with people who are not a part of your or
 
 1. Click **[!UICONTROL Close]**. Your changes are automatically saved. <!-- True? -->
 
-## (Ignore this section for now) Share with people outside your organization
-
-<!-- Keep the 2 sections above and delete this section. Or delete the 2 sections above. -->
-
-You can give people outside of your organization access to view <!--just view? what exactly do they have access to do/see? -->your Analysis Workspace project in Adobe Analytics: 
-
-You can give the following types of people outside of your organization access to view <!--just view? what exactly do they have access to do/see? -->your Analysis Workspace project in Adobe Analytics: 
-
-To share a project with people who are not members of your organization: 
-
-1. Click **[!UICONTROL Share]** > **[!UICONTROL Share public link]**.
-   If there are unsaved changes, you are prompted to save your project first. 
-
-   <!-- Add screen shot of new modal -->
-
-1. Enable the **[!UICONTROL Link active]** option if it is not already enabled.
-
-1. Specify the following information:
-
-   **[!UICONTROL Share with anyone (no login required)]:** Click the **Copy link** icon to copy the public-access link to your system clipboard. You can distribute this link to people outside your organization. Any person with access to this link has access to view the Analysis Workspace project.
-
-   **[!UICONTROL Require single sign-on (SSO) authentication]:** Select this option to limit access to users within your organization. 
-
-   **[!UICONTROL Require password]:** Select this option to require people with the link to specify a password prior to accessing the Analysis Workspace project.
-
-1. Click **[!UICONTROL Close]**. Your changes are automatically saved. <!-- True? -->
-
 
 ## Share projects in the Project manager {#Manager} 
 

@@ -6,7 +6,7 @@ exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 ---
 # View/Manage Privacy Labeling for Data Governance
 
-The Privacy Labeling for Data Governance dialog provides an overview of a report suite's privacy labels and namespaces. You can also export the settings to a .csv file from here.
+The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an overview of a report suite's privacy labels and namespaces. You can also export the settings to a .csv file from here.
 
 1. Log in to Adobe Experience Cloud.
 1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** >[**[!UICONTROL Data Governance]**.
@@ -61,6 +61,9 @@ You can download a CSV file containing all current label definitions for all var
 1. Select one or more report suites for which you want to export all data governance settings.
 
 ## Edit privacy labels
+
+In the **[!UICONTROL Privacy Labeling for Data Governance]** dialog, select a component whose label/s you want to edit.
+
 
 
 ## View data retention

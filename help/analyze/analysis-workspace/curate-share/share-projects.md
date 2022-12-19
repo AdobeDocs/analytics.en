@@ -132,7 +132,7 @@ To share an Analysis Workspace project with people who are not a part of your or
 
 1. Click **[!UICONTROL Close]**. Your changes are automatically saved. <!-- True? -->
 
-## Share with people outside your organization
+## (Ignore this section for now) Share with people outside your organization
 
 <!-- Keep the 2 sections above and delete this section. Or delete the 2 sections above. -->
 

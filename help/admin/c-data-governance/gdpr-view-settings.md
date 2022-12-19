@@ -64,6 +64,6 @@ You can download a CSV file containing all current label definitions for all var
 
 In the **[!UICONTROL Privacy Labeling for Data Governance]** dialog, select a component whose label/s you want to edit.
 
-
+Refer to 
 
 ## View data retention

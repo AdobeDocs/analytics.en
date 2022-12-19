@@ -6,13 +6,13 @@ exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 ---
 # Label report suite data
 
-Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure that you first familiarize yourself with the labels and their definitions.
+Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure that you first familiarize yourself with the [labels and their definitions](/help/admin/c-data-governance/gdpr-labels.md).
 
 >[!NOTE]
 >
 >Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
-## Assign or Edit Report Suite Labels {#section_39F829F35A274EACA532E2F6FF392996}
+## Assign or Edit Report Suite Labels {#assign-edit}
 
 **Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
 
@@ -22,14 +22,12 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
    ![Variables](assets/variables.png)
 
-   * **Standard Dimensions** (Adobe Analytics out-of-the-box dimensions)
-   * **Standard Metrics** (Adobe Analytics out-of-the-box metrics)
-   * **Conversion Events** (Custom success events)
-   * **Merchandising Conversion Dimensions** (Merchandising eVars)
-   * **Conversion Dimensions** (non-merchandising eVars)
-   * **Custom Traffic Dimensions** (props)
-   * **Solution Dimensions and Events** (Dimensions/events related to solutions such as Mobile, Video, Activity Map, etc., and integrations with solutions such as Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
-   * **Data Processing Dimensions** (variables not exposed directly in reporting through the Adobe Analytics UI, but available to you through Data Feeds and/or Data Warehouse requests)
+   * **Standard Components** (Adobe Analytics out-of-the-box components)
+   * **Conversion Variables** (Custom success events)
+   * **List Variables** (Custom variables that can contain multiple values in the same hit)
+   * **Traffic Variables** (props)
+   * **Success Events** (Dimensions/events related to solutions such as Mobile, Video, Activity Map, etc., and integrations with solutions such as Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
+   * **Classifications** ()
 
 1. (Optional) Click the information (i) icon next to each variable to better understand its most common values over the last 90 days. (This functionality is not available for Data Processing Dimensions, because they are not available in the Analytics UI.)
 
@@ -57,12 +55,11 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 1. Click **[!UICONTROL Apply]** once you have completed all labeling.
 
-## Copy Labels to Report Suite(s) {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copy Labels to Report Suite(s) {#copy-to-rs}
 
 If you want to apply the same DULE/Data Privacy settings to more than one report suite, you can follow these steps:
 
-1. Select the variable group (Standard Dimensions, Conversion Dimensions, etc.) containing the variable you want to copy. Note that you can only copy the labels for one group of variables at a time.
-1. Select some or all of the variables in this group.
+1. Select the variable that you want to copy. Note that you can only copy the labels for one variable at a time.
 1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
 
    ![Apply as template](assets/apply_as_template.png)

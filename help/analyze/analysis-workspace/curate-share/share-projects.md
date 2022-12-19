@@ -8,13 +8,13 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
 # Share projects
 
-You can share an Analysis Workspace project with the following types of users:
+You can share an Analysis Workspace project with the following types of people:
 
-* Users in your organization who have access to Adobe Analytics
+* Users and groups in your organization who have access to Adobe Analytics
 
-* Users in your organization who don't have access to Adobe Analytics
+* Users and groups in your organization who don't have access to Adobe Analytics
 
-* Users outside your organization
+* People outside your organization
 
 Any [curation](curate.md) you apply prior to sharing is reflected when recipients open the project. 
 
@@ -90,7 +90,7 @@ To share the project link with users in your organization:
 
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal web site, and so forth. 
 
-## Share with non-Adobe Analytics users in your organization
+## Share with non-Adobe Analytics users and groups in your organization
 
 To share an Analysis Workspace project with users in your organization who don't have access to Adobe Analytics:
 

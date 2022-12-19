@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 ---
 # User preferences
 
-You can manage settings for Analysis Workspace and its related components at the user-level. Changes that you make to your user preferences apply to all new projects or panels that you create. Existing projects and panels are not affected.
+You can manage settings for Analysis Workspace and its related components for all new projects or panels that you create. Existing projects and panels are not affected.
 
 View this video for a brief overview of user preferences:
 
@@ -31,7 +31,7 @@ View this video for a brief overview of user preferences:
 
 ## General preferences
 
-These settings apply to general preferences in Adobe Analytics.
+You can customize general preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences).
 
 | Preference | Options |
 | --- | --- |
@@ -55,7 +55,7 @@ Click the linked preference titles for more information and context about each p
 | **Data** | | |
 |  | [Report suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Choose from where tables and visualizations derive their data. <ul><li>Most recent (default)</li><li>Specific report suite selected from a list</li></ul> |
 |  | [Calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Select from a list of: <ul><li>Adobe-provided ranges (default is This Month)</li><li>Custom-defined ranges</li></ul> |
-|  | <span class="preview">12/24 HR </span>|  |
+|  | <span class="preview">12/24 HR </span>| <!-- Sound like this one will likely be removed --> |
 |  | [Panel Type](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Freeform (default)</li><li>Blank</li><li>Quick Insights</li></ul> |
 |  | Count repeat instances | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive page views to the same page as multiple page views. With it off, they count as a single page view. <p>**Note:** This setting affects only certain metrics (such as Single Page Visits) and it does not apply to Flow or Fallout visualizations.</p> |
 |  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |

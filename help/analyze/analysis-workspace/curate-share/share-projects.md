@@ -92,6 +92,8 @@ To share the project link with users in your organization:
 
 ## Share with non-Adobe Analytics users and groups in your organization
 
+Your system administrator must enable SSO for your organization before you can share with users in your organization who don't have access to Adobe Analytics. 
+
 To share an Analysis Workspace project with users in your organization who don't have access to Adobe Analytics:
 
 1. Click **[!UICONTROL Share]** > **[!UICONTROL Share public link]**.
@@ -105,7 +107,7 @@ To share an Analysis Workspace project with users in your organization who don't
 
    If this option is not visible, then your system administrator has not enabled SSO for your organization. This means that you cannot share with users in your organization who don't have access to Adobe Analytics. 
    
-   For information about how system administrators can enable SSO for your organization, see [Set up identity and Single Sign-On](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/analytics-no-login-access-luke/help/analyze/analysis-workspace/curate-share/share-projects.md){target=_blank}.
+   For information about how system administrators can enable SSO for your organization, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.
 
 1. (Optional) Enable the **[!UICONTROL Require Password]** option to require people with the link to specify a password prior to accessing the Analysis Workspace project.
 

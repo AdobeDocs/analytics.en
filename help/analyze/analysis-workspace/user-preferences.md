@@ -1,25 +1,25 @@
 ---
-title: How to set user preferences in Analysis Workspace
+title: How to set user and company preferences in Analysis Workspace
 description: You can set general and project preferences for users, as well as a dark theme preference.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 ---
-# User preferences
+# Preferences
 
 You can manage settings for Analysis Workspace and its related components for all new projects or panels that you create. Existing projects and panels are not affected.
 
-View this video for a brief overview of user preferences:
+View this video for a brief overview of preferences:
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
-## Update user preferences
+## Update preferences
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **User preferences**].
+1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**].
 
    ![User preferences](assets/user-preferences.png) 
 
-1. For information about the available user preferences on each tab, continue with any of the following sections in this article:
+1. For information about the available preferences on each tab, continue with any of the following sections in this article:
 
    * [General preferences](#general-preferences)
 
@@ -31,7 +31,7 @@ View this video for a brief overview of user preferences:
 
 ## General preferences
 
-You can customize general preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences).
+You can customize general preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences).
 
 | Preference | Options |
 | --- | --- |
@@ -41,7 +41,7 @@ You can customize general preferences for all new projects that you create in An
 
 ## Project preferences
 
-You can customize project preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
+You can customize project preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
 Some of these same preferences can also be customized for individual projects, as described in [Project overview](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md). 
 
@@ -64,7 +64,7 @@ Click the linked preference titles for more information and context about each p
 
 ## Freeform table preferences
 
-You can customize freeform table preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
+You can customize freeform table preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
 Some of these same preferences can also be customized for individual tables.
 
@@ -94,7 +94,7 @@ Click the linked section titles for more information and context about the avail
 
 ## Visualizations preferences
 
-You can update visualization preferences for all new prjects that you create in Analysis Workspace. For information about how to access these preferences, see [Update user preferences](#update-user-preferences). 
+You can update visualization preferences for all new prjects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
 Some of these same preferences can also be customized for individual visualizations. 
 

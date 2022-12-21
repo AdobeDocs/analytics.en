@@ -96,7 +96,7 @@ You can share Analysis Workspace projects with people who don't have access to A
 
 >[!NOTE]
 >
->This option can be disabled by the Analytics administrator. If you can't share a public link as described in this section, your Analytics administrator has disabled this ability.
+>This option can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a public link as described in this section, your Analytics administrator has disabled this ability.
 
 To share a public link to an Analysis Workspace project:
 
@@ -109,7 +109,7 @@ To share a public link to an Analysis Workspace project:
 
 1. Enable the **[!UICONTROL Link active]** option if it is not already enabled.
 
-1. Choose whether to enable the following security options:
+1. Choose whether to enable the following security options: 
 
    * **[!UICONTROL Require single sign-on (SSO) authentication]:** 
    
@@ -117,9 +117,11 @@ To share a public link to an Analysis Workspace project:
      
      If this option is not visible, SSO is not enabled for your organization. 
 
-     If this option is enabled and dimmed, your system administrator restricted the ability to share projects with people outside of your organization. <!-- How do admins restrict this? Is there an admin UI somewhere? Ask Ashok -->For information about how system administrators can enable SSO for your organization, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.
+     If this option is enabled and dimmed, your system administrator requires SSO authentication to access all public links. Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).
    
    * **[!UICONTROL Require Password]:** Require people with the link to specify a password prior to accessing the Analysis Workspace project. Select this option to provide an additional level of security to your project.
+
+     If this option is enabled and dimmed, your Analytics administrator requires all public links to be password protected. Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).
 
 1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon to copy the link to your system clipboard. Any person you share the link with can view the Analysis Workspace project.
 

@@ -43,7 +43,17 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 
 ## Company preferences
 
+You can update company preferences that apply to all users and projects within your organization. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
+| Section | Preference | Options |
+| --- | --- | --- |
+| **Reports tab** | | |
+|  | Hide Reports Tab | Hides the Reports tab for all users in your organization. |
+| **Public link** <!-- Double check the names of all these settings for what they are actually called --> | | |
+| | Disable public link creation | Deactivate all currently active links; Remove the "Share public link" option from the Share menu. We'll want a warning dialog that displays this when they go to disable it. If they disable it and then re-enable it, all of the previously deactivated links wouldn't be reactivated (people would have to reactivate them from the Share project dialog) |
+| | Impose SSO | Only displayed under company settings if the org has implemented SSO. Selecting this option would deactivate all previously shared public links that don't have SSO enabled. If they impose SSO and then remove SSO, the same thing happens for public links as when they disable and re-enable public links.  |
+| | Show SSO-only options | Will display if the org is set up with SSO. If they're not, both options are removed. If they do have SSO, then the admin needs to get in touch with the system admin and confirm whether they have any kind of auto-account creation implemented in the console. Even if they don't, if they want public link access to be restricted to users in the admin console that do not have access to Adobe Analytics, … It's up to the admin whether they want this option to show up in the analytics UI. If they hide it and show it again, nothing happens.  |
+| | Password protection | Same logic applies to pw protection. Can't be reactivated simply by toggling this off. Have to go back to each project. |
 
 ## [!UICONTROL Dark theme]
 

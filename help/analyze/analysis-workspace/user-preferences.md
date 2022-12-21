@@ -41,6 +41,10 @@ Project preferences apply to new projects and new panels created in Analysis Wor
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
 |  | Freeform table | <ul><li>Show anomalies </li><li>Show sparklines</li><li>Show annotations</li></ul> |
 
+## Company preferences
+
+
+
 ## [!UICONTROL Dark theme]
 
 If you prefer to have a dark background for your Adobe Analytics user interface, you can toggle to [!UICONTROL Dark theme].

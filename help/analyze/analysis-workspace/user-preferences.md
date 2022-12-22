@@ -178,19 +178,9 @@ Click the linked section titles for more information and context about the avail
 | | Limit max items | Reduces the number of items on the X-axis in the Scatter visualization. This can be useful if you have a large data set. |
 | | Anchor y-axis at zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
 
-## [!UICONTROL Dark theme]
-
-If you prefer to have a dark background for your Adobe Analytics user interface, you can toggle to [!UICONTROL Dark theme].
-
-1. Click the Experience Cloud user icon at the top right.
-
-   ![dark-theme](assets/dark-theme.png)
-
-1. Move the **[!UICONTROL Dark theme]** toggle to the right.
-
 ## Restore default preferences
 
-You can restore all your preferences to the system defaults.
+You can restore all your user preferences to the system defaults. This does not affect administrator preferences under the Company tab.
 
 This action cannot be undone.
 
@@ -201,3 +191,14 @@ This action cannot be undone.
 1. In the upper-right, select **[!UICONTROL Restore defaults]**.
 
 1. When prompted, select **[!UICONTROL Restore defaults]**.
+
+## [!UICONTROL Dark theme]
+
+If you prefer to have a dark background for your Adobe Analytics user interface, you can toggle to [!UICONTROL Dark theme].
+
+1. Click the Experience Cloud user icon at the top right.
+
+   ![dark-theme](assets/dark-theme.png)
+
+1. Move the **[!UICONTROL Dark theme]** toggle to the right.
+

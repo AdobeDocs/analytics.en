@@ -22,7 +22,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | Single click to open a report | Previously, you had to double click. |  |
 | New links to **[!UICONTROL Reports & Analytics]** reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![New links](assets/report-links.png) |
 | New out-of-the-box reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Note that these reports are in [!UICONTROL Workspace] format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
-| **[!UICONTROL Create new]** modal is back | When you click **[!UICONTROL Create new]** in Workspace, you once again get the choice between a [!UICONTROL Blank project] and a [!UICONTROL Blank mobile scorecard]. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
+| **[!UICONTROL Create Project]** modal is back | When you click **[!UICONTROL Create Project]** in Workspace, you once again get the choice between a [!UICONTROL Blank project] and a [!UICONTROL Blank mobile scorecard]. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
 | Also available in Customer Journey Analytics | This landing page, in a modified form, is also available in CJA. |  |
 
 {style="table-layout:auto"}
@@ -48,7 +48,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 >[!NOTE]
 >
->Several of the following settings persist during the session and across sessions. For example, the tab you selected, the selected filters, selected columns, and the column sort direction. Search results are not persistant.
+>Several of the following settings persist during the session and across sessions. For example, the tab you selected, the selected filters, selected columns, and the column sort direction. Search results are not persistent.
 
 | UI element | Definition |
 | --- | --- |
@@ -57,23 +57,24 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | [!UICONTROL Show less<br> Show more] | Toggles between not showing and showing the banner: ![Top banner](assets/top-banner.png) |
 | [!UICONTROL Workspace project] | Creates a blank [Workspace project](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) for you to  design and build. |
 | [!UICONTROL Mobile scorecard] | Creates a blank [mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) for you to design and build. |
-| [!UICONTROL Open starter project] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
+| [!UICONTROL Open Training Tutorial] | Opens the Workspace training tutorial that guides you through the process of building a new starter project in a step-by-step tutorial.|
 | [!UICONTROL Open release notes] | Opens the Adobe Analytics section of the latest Adobe Experience Cloud release notes. |
 | Filter icon | Filters by tags, report suites, owners, types, and other filters (Mine, Shared with me, Favorites, and Approved)  |
 | Search bar | Searches all columns in the table. |
-| Selection box | Selects one or more projects to display the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, and **Export CSV**. You may not have permissions to perform all of these actions. |
+| Selection box | Selects one or more projects to display the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, **Export CSV**, and **Move to**. You may not have permissions to perform all listed actions. |
 | [!UICONTROL Favorites] | Adds a star next to a favorite project or folder that can be used as a filter. |
 | [!UICONTROL Name] | Identifies the name of the project. |
 | Pin icon | Pins items so they always appear at the top of your list but you can re-adjust the order by moving them up or down in the order. Use the ellipsis option menu and select **Move Up** or **Move down** in the list. |
 | Info (i) icon | Displays the following information about a project: Type, Project Role, Owner, Description, and who it is shared with. It also indicates who can [edit or duplicate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) this project. |
-| Ellipsis (...) | Displays the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, and **Export CSV**. You may not have permissions to perform all of these actions. |
+| Ellipsis (...) | Displays the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, **Export CSV**, and **Move to**. You may not have permissions to perform all listed actions. |
 | [!UICONTROL Type] | Indicates whether this type is a Workspace project, a Mobile scorecard, or a folder. |
 | [!UICONTROL Tags] | Tags projects to organize them into groups. |
 | [!UICONTROL Project Role] | Identifies the project roles: whether you are the project Owner and whether you have permissions to Edit or Duplicate the project.  |
 | [!UICONTROL Report Suite] | Identifies the Report Suites that are associated with the project.<br>Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
-| [!UICONTROL Owner] | Idenfies the person who created the project. |
+| [!UICONTROL Owner] | Identifies the person who created the project. |
 | [!UICONTROL Last opened] | Identifies the date you last opened the project. |
 | Customize table icon | Selects which columns to view in the table. To add or remove columns from the list of projects, click the column icon (![Landing all](/help/analyze/assets/select-column.png) ) in the top-right, then select or deselect column titles.|
+| SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
 
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
@@ -151,7 +152,7 @@ For current users of Reports & Analytics, here is a short intro on how to use th
 
 ### Create a custom company report {#company-report}
 
-Custom reports are called company Reports and are found in the Company Reports menu shown below. Previously created reports and new reports are listed in the create project modal.
+Custom reports created and saved for others in your login company to use, are called company reports. Previously created company reports and newly created company reports are listed in the Create Project modal as shown below.
 
 To create a new Company report, 
 
@@ -162,7 +163,7 @@ To create a new Company report,
 
 1. Add all desired fields to the modal and save it.
 
-   The report is added to the Company Reports list and is available to those in your login company. 
+   The report is added to the Company Reports list in the Create Project modal and is available to those in your login company. 
 
 More learning options:
 

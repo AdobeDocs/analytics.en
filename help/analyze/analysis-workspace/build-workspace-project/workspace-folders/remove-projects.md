@@ -5,7 +5,7 @@ title: Remove projects from folders
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 ---
-# Remove a Project From a Folder
+# Remove a Project from a Folder
 
 To remove a project from a folder, you can move the project to another location or delete the project.
 

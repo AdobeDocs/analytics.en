@@ -9,6 +9,10 @@ feature: Workspace Basics
 
 You can delete folders that you create.
 
+>[!NOTE]
+>
+>Deleting a folder does not delete the contents of the folder. The contents of a deleted folder (projects or sub-folders) are moved to the immediate folder above in the folder hierarchy. 
+
 1.  Click the **…** ellipsis icon in the top-right.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)

@@ -17,7 +17,7 @@ To create a new folder,
 
 1.  Enter a Name for the new folder.
 
-1.  Select tags from the drop-down menu.
+1.  Select tags from the drop-down menu or add net-new tags.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 

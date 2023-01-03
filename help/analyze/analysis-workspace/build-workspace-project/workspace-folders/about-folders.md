@@ -9,7 +9,7 @@ exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 
 Folders in Analytics is a folder management system displayed on the Adobe Analytics landing page and when **Workspace** > **Projects** is selected.
 
-Folders in Workspace Projects helps you organize and categorize your projects for better retrieval and access. In addition, a shared Company folder allows Admins to easily create and share content with all Workspace users. 
+Folders in Workspace helps you organize and categorize your projects for better retrieval and access. In addition, a shared Company folder allows Admins to easily create and share content with all Workspace users. 
 
 When you have a long list of projects, navigating to a specific project has its challenges. With the folders feature, you can create folders and sub-folders to manage your projects, making it easier to find projects when you need them.
 
@@ -40,11 +40,11 @@ Non-Admins have limited options.
 
 ### Company folder guidelines {#company-folder-guidelines}
 
--   Admins can add projects to the Company folder or create a new project and save it to the Company folder. Non-Admins can view then contents of the Company folder.
+-   Admins can add projects to the Company folder or create a new project and save it to the Company folder. Non-Admins can view the contents of the Company folder.
 
 -   Admins can create subfolders within the Company folder.
 
--   Admins can delete a folder within the Company folder that another admin created. Admins may need to coordinate with other Admins to keep folders and project access consistent.
+-   Admins can delete a folder within the Company folder that another admin created. Admins may need to coordinate with other Admins to keep folder and project access consistent.
 
 -   When an Admin moves a project to the Company folder, the project is shared with everyone even if the original shared privileges were restricted.
 

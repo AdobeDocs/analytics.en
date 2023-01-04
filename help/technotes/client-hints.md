@@ -15,7 +15,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 >[!NOTE]
 >
->Client hints will be incorporated into Analytics device lookup process starting in mid-January 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup unti mid-January. This is to avoid potential disruption to reporting during the critical end-of-year period. As noted below operating system version will be frozen starting in October but due to a gradual rollout and the fact that most User Agents will be frozen to the correct OS version, we estimate that this will affect <3% of Chrome Visitors.
+>Client hints will be incorporated into Analytics device lookup process starting January 25, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup unti mid-January. This is to avoid potential disruption to reporting during the critical end-of-year period. As noted below operating system version will be frozen starting in October but due to a gradual rollout and the fact that most User Agents will be frozen to the correct OS version, we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >

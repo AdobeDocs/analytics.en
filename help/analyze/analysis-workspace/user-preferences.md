@@ -144,7 +144,7 @@ Click the linked section titles for more information and context about the avail
 | | Container | In the [!UICONTROL **Flow**] section <ul><li>Visit</li><li>Visitor</li></ul> |
 | | Wrap labels | Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box. Default = unchecked. |
 | | Include repeat instances | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. Default = unchecked. |
-| | Show tooltips |  |
+| | Show tooltips | Determines whether tooltips containing node data are shown when hovering over individual nodes within a flow visualization. |
 | | Number of columns | Determines how many columns you want in your Flow diagram. |
 | | Items expanded per column | How many items you want in each column. |
 | **Stacked Charts** | | |

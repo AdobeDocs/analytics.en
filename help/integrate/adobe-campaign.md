@@ -4,11 +4,14 @@ title: How do I Integrate Adobe Campaign Reporting into Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 ---
-# Adobe Campaign reporting
+# Adobe Campaign Standard reporting
 
-For more information on how to configure this integration, go to the [Adobe Campaign documentation](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
+>[!IMPORTANT]
+>This article applies to Adobe Campaign **Standard** reporting only. See [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) for adding Adobe Campaign **Classic** reporting.
 
-This integration between Adobe Analytics and Adobe Campaign
+For more information on how to configure this integration, go to the [Adobe Campaign Standard documentation](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
+
+This integration between Adobe Analytics and Adobe Campaign Standard:
 
 * Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics.
 * Enriches tracking formulas with Adobe Analytics parameters.
@@ -16,11 +19,11 @@ This integration between Adobe Analytics and Adobe Campaign
 * Adds 5 new Adobe Campaign classifications.
 * Adds 10 new Adobe Campaign metrics.
 * Adds 6 new Adobe Campaign dimensions.
-* Synchronizes data to Analytics every 15 minutes.
+* Synchronizes data to Analytics every 15 minutes via an automatically-provisioned Data Source.
 
-## Step 1. Enable Adobe Campaign Reporting {#section_C685EF10505045708A6536BB13F6CD58}
+## Step 1. Enable Adobe Campaign Standard Reporting {#section_C685EF10505045708A6536BB13F6CD58}
 
-In order to view Campaign data in Analytics, you first have to enable Campaign reporting.
+In order to view Campaign Standard data in Analytics, you first have to enable Campaign reporting in Report Suite Manager.
 
 1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]** .
 1. Click **[!UICONTROL Enable Campaign Reporting]**.
@@ -29,9 +32,12 @@ In order to view Campaign data in Analytics, you first have to enable Campaign r
 
 ## Step 2. View Adobe Campaign Reports {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 
+>![NOTE]
+>Reports &amp; Analytics is scheduled to be retired on December 31, 2023. For more information, see [Reports & Analytics End-of-Life](https://express.adobe.com/page/6WnF8JK6IRDhf/).
 
-| Report | Definition |
+The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**:
+
+| Report | Description |
 |--- |--- |
 | Adobe Campaign Executed Delivery ID | Shows data imported from Adobe Campaign about emails that were sent from Adobe Campaign. |
 
@@ -41,11 +47,13 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 Once your report suite is enabled for Adobe Campaign, the following classifications are available:
 
-* Delivery ID (Internal Delivery Name that you see in Campaign) 
-* Delivery Label ((Delivery in Campaign - Individual Delivery/Recurring Delivery/Transaction Delivery) 
-* Campaign ID (Internal Campaign Name that you see in Campaign) 
-* Campaign Label (Campaign in Adobe Campaign) 
-* Executed Delivery Label (List of individual executed deliveries)
+|Classification|Description|
+|--- |--- |
+|Delivery ID | Internal Delivery Name that you see in Campaign|
+|Delivery Label| Delivery in Campaign - Individual Delivery/Recurring Delivery/Transaction Delivery |
+|Campaign ID| Internal Campaign Name that you see in Campaign|
+|Campaign Label|Campaign in Adobe Campaign|
+|Executed Delivery Label|List of individual executed deliveries|
 
 ## Adobe Campaign Dimensions and Metrics available in Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 

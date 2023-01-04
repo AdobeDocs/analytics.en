@@ -55,7 +55,6 @@ Click the linked preference titles for more information and context about each p
 | **Data** | | |
 |  | [Report suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Choose from where tables and visualizations derive their data. <ul><li>Most recent (default)</li><li>Specific report suite selected from a list</li></ul> |
 |  | [Calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Select from a list of: <ul><li>Adobe-provided ranges (default is This Month)</li><li>Custom-defined ranges</li></ul> |
-|  | <span class="preview">12/24 HR </span>| <!-- Sound like this one will likely be removed --> |
 |  | [Panel Type](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Freeform (default)</li><li>Blank</li><li>Quick Insights</li></ul> |
 |  | Count repeat instances | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive page views to the same page as multiple page views. With it off, they count as a single page view. <p>**Note:** This setting affects only certain metrics (such as Single Page Visits) and it does not apply to Flow or Fallout visualizations.</p> |
 |  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |
@@ -127,8 +126,8 @@ Click the linked section titles for more information and context about the avail
 | | Only show percent | Removes the number value and only shows the percentage. |
 | | Round percent to nearest whole | Rounds the percent value to the nearest whole instead of showing the decimal value. |
 | | Show average percent row | Inserts a new row at the top of the table and then adds the average for the values within each column.  |
-| | Cohort Preview |  |
-| | Cohort Palette | |
+| | Cohort Preview | A preview of how the color palette appears in the cohort visualization. |
+| | Cohort Palette | The color palette used in the cohort visualization. |
 | **[Combo charts](/help/analyze/analysis-workspace/visualizations/combo-charts.md)** | | |
 | | Show X-axis | Displays the x-axis on the Combo chart. |
 | | Show Y-axis | Displays the y-axis on the Combo chart. |

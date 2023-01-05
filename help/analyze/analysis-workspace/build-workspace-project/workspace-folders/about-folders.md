@@ -32,11 +32,11 @@ When a user logs in to Workspace, the Company folder is automatically added to t
 
 Admins have special privileges assigned to the Company folder. For example, only Admins can add or remove folders or projects in the Company folder. Users without Admin-access can view the contents of the Company folder.
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-access-co-folder.png)
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 Non-Admins have limited options.
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-options.png)
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="50%"}
 
 ### Company folder guidelines {#company-folder-guidelines}
 

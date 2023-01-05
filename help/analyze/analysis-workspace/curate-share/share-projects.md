@@ -90,7 +90,7 @@ To share the project link with users in your organization:
 
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal web site, and so forth. 
 
-## Share a public link with anyone (no login required)
+## Share a public link with anyone (no login required) {#share-public-link}
 
 You can share Analysis Workspace projects with people who don't have access to Adobe Analytics. This can include people outside your organization or those within your organization who are not provisioned with Adobe Analytics.  
 
@@ -119,7 +119,7 @@ To share a public link to an Analysis Workspace project:
 
      If this option is enabled and dimmed, your system administrator requires SSO authentication to access all public links. Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).
    
-   * **[!UICONTROL Require Password]:** Require people with the link to specify a password prior to accessing the Analysis Workspace project. Select this option to provide an additional level of security to your project.
+   * **[!UICONTROL Require Password]:** Require people with the link to specify a password prior to accessing the Analysis Workspace project. Select this option to specify a password. This provides an additional level of security to your project.
 
      If this option is enabled and dimmed, your Analytics administrator requires all public links to be password protected. Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).
 

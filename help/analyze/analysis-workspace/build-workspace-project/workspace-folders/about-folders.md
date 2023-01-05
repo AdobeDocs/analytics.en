@@ -36,7 +36,7 @@ Admins have special privileges assigned to the Company folder. For example, only
 
 Non-Admins have limited options.
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-options.png)
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
 
 ### Company folder guidelines {#company-folder-guidelines}
 

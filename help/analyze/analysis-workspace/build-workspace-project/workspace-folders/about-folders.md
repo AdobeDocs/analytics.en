@@ -17,7 +17,7 @@ There are two types of folders in Workspace: the Company folder and personal fol
 
 When you log in to Workspace, the Projects home page displays a list of your projects along with the Company folder and any personal folders that you created.
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/landing-page.png)
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
 ## About the Company folder {#company-folder}
 

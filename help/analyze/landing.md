@@ -44,7 +44,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 [!UICONTROL Projects] serves as the [!UICONTROL Workspace] home page. The Projects tab displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. Use this page to view, create, and modify folders, projects, and mobile scorecards. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
-![Landing all](assets/landing-all.png)
+![Landing all](assets/landing-all2.png)
 
 >[!NOTE]
 >
@@ -83,13 +83,12 @@ The [!UICONTROL Reports] tab consolidates three sets of reports:
 
 * The pre-built [!UICONTROL Workspace] templates that were previously located under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL New]. Adobe no longer uses the word "template" in this context.
 * Most of the pre-built reports under the previous Adobe Analytics [!UICONTROL Reports] top menu. These reports are now displayed in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
-* Anything your company has built for you.
 
 >[!IMPORTANT]
 >
 >Under Reports, a Favorites folder shows up only if you mark a new report as a favorite. No pre-existing Reports & Analytics favorites are carried forward.
 
-![Reports tab](assets/reports-tab.png)
+![Reports tab](assets/reports-tab2.png)
 
 As previously mentioned, only the most commonly used reports that were formerly grouped in Reports & Analytics are available here. A handful of rarely used or no-longer-relevant reports were not migrated over. See the FAQ below for more detail.
 

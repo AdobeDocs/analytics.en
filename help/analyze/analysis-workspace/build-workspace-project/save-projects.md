@@ -36,6 +36,8 @@ All projects in Analysis Workspace are automatically saved every 2 minutes to yo
 
   If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called `Recovered Projects (Last 7 Days)`. 
 
+  ![](assets/recovered-folder.png)
+
 * **Existing projects:** If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. 
 
   Following are some common scenarios:

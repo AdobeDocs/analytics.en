@@ -24,11 +24,11 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 ## Fixes in Adobe Analytics
 
-* TBD
+* Fixed an issue that caused a "At least one enabled metric is required" error after Data Sources file was uploaded. (AN-307368)
 
 ### Other fixes
 
-TBD
+AN-289684; AN-301683; AN-302601; AN-303363; AN-304185; AN-305250; AN-305572; AN-305723; AN-305882; AN-306199; AN-306214; AN-306233; AN-306984; AN-307038; AN-307233; AN-307257; AN-307293; AN-307325; AN-307833; AN-307835; AN-307867; AN-307899; AN-307907; AN-307991; AN-308057; AN-308240; AN-308242; AN-308302; AN-308363; AN-308373; AN-308450; AN-308591; AN-308725; AN-309171; 
 
 ## Important notices for Adobe Analytics administrators
 

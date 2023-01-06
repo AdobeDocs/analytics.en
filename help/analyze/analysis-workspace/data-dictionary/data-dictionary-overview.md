@@ -6,11 +6,11 @@ role: User, Admin
 ---
 # Data Dictionary overview
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components  in their Analytics environment.   
+The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment.   
 
 ## Benefits for users
 
-The Data Dictionary helps users gain a better understanding of all the components that are available to them. System administrators are responsible for curating the information in the Data Dictionary and making it available to users.
+The Data Dictionary helps users gain a better understanding of all the components that are available to them. System administrators are responsible for curating information about each component in the Data Dictionary and making it available to users.
 
 The Data Dictionary can provide the following details about each component:
 
@@ -24,10 +24,14 @@ The Data Dictionary can provide the following details about each component:
 
 The Data Dictionary helps system administrators keep track of and curate the components in their Analytics environment. 
 
-The Data Dictionary can provide the following benefits for administrators by surfacing the following issues:
+The Data Dictionary provides the following benefits for administrators:
 
-* Duplicate components that need to be consolidated
+* Identifies duplicate components that need to be consolidated.
 
-* Components that aren't collecting any data so they can be either updated or deleted
+* Identifies components that aren't collecting any data so they can be either updated or deleted.
 
-* Components that are not yet approved
+* Shows components that are not yet approved
+
+* Allows you to update component descriptions directly in Analysis Workspace (rather than in the Report Suite)
+
+  For more information about adding component descriptions, see the section, "Add descriptions to components in Analysis Workspace" in [Dimensions overview](/help/components/dimensions/overview.md) or in [Metrics overview](/help/components/metrics/overview.md).

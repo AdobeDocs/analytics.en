@@ -34,9 +34,15 @@ All projects in Analysis Workspace are automatically saved every 2 minutes to yo
 
 * **New projects:** Even though new projects are auto-saved, you must save each new project manually the first time. Analysis Workspace prompts you to save new projects manually when switching to another project, closing the browser tab, and so forth. 
 
-  If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called `Recovered Projects (Last 7 Days)`. 
+  If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called `Recovered Projects (Last 7 Days)`. You must restore the recovered project and manually save it to a desired location. 
 
-  ![](assets/recovered-folder.png)
+  To restore a recovered project:
+  
+  1. Go to the [!UICONTROL **Recovered Projects**] folder on the Analysis Workspace landing page.
+
+     ![](assets/recovered-folder.png)
+
+  1. Open your project and save it to a desired location. 
 
 * **Existing projects:** If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. 
 

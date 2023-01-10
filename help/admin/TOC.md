@@ -34,7 +34,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + User and Product Management (Legacy) {#user-product-management}
-    + [User and Product Management](admin-console/user-management2/user-management.md)
+    + [User and Product Management (Legacy)](admin-console/user-management2/user-management.md)
     + Migrate users to Adobe Admin Console {#migrate-users}
       + [Analytics User Migration to the Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
       + [Migrate Analytics user accounts for Adobe IDs](admin-console/user-management2/user-migration/t-migrate-users.md)

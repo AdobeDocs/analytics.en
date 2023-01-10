@@ -15,7 +15,7 @@ View this video for a brief overview of preferences:
 
 ## Update preferences
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**].
+1. In Adobe Analytics, go to the [!UICONTROL **Projects**] landing page, then click [!UICONTROL **Preferences**].
 
    ![User preferences](assets/user-preferences.png) 
 

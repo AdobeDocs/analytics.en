@@ -26,8 +26,6 @@ To manually save a project:
    | **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
    | **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 
-   ![](assets/save-project.png)
-
 ## Auto-save {#Autosave} 
 
 All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that are not yet saved manually. 

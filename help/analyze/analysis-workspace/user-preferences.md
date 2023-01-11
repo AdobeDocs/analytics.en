@@ -37,7 +37,7 @@ You can customize general preferences for all new projects that you create in An
 | --- | --- |
 | Landing page | Choose what page displays as the default page when you access Adobe Analytics: <ul><li>Project list (default)</li><li>Blank project</li><li>Specific project selected from a list</li></ul> |
 | Show tips | Displays tips in a blue box in the lower-right area of Analysis Workspace. <p>This option is enabled by default.</p> |
-| <span class="preview">Components displayed in left rail groups</span> | Choose how many of each component to display in the Components menu in the left rail. <p>If you choose 0, the component is no longer accessible from the left rail of your workspaces.</p><p>By default, 5 components display for each of the following:</p> <ul><li>Dimensions</li><li>Metrics</li><li>Filters</li><li>Date ranges</li></ul> <p>For more information about Components in Analysis Workspace, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| Components displayed in left rail groups | Choose how many of each component to display in the Components menu in the left rail. <p>If you choose 0, the component is no longer accessible from the left rail of your workspaces.</p><p>By default, 5 components display for each of the following:</p> <ul><li>Dimensions</li><li>Metrics</li><li>Filters</li><li>Date ranges</li></ul> <p>For more information about Components in Analysis Workspace, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## Project preferences
 
@@ -51,7 +51,7 @@ Click the linked preference titles for more information and context about each p
 | --- | --- | --- |
 | **Display** | | |
 |  | [View density](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | Choose how much content to display on the screen by reducing the vertical padding of the left rail, freeform tables, and cohort tables. <ul><li>Compact</li><li>Comfortable</li><li>Expanded (default)</li></ul> |
-| | [Color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Choose the visualization color palette used in Analysis Workspace. <ul><li>Adobe-provided palettes (default)</li><li><span class="preview">Conditional formatting palette </span></li><li><span class="preview">Up/down palette (diverging)</span><li>Custom-defined palettes</li></ul> |
+| | [Color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Choose the visualization color palette used in Analysis Workspace. <ul><li>Adobe-provided palettes (default)</li><li>Conditional formatting palette </li><li>Up/down palette (diverging)<li>Custom-defined palettes</li></ul> |
 | **Data** | | |
 |  | [Report suite](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | Choose from where tables and visualizations derive their data. <ul><li>Most recent (default)</li><li>Specific report suite selected from a list</li></ul> |
 |  | [Calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Select from a list of: <ul><li>Adobe-provided ranges (default is This Month)</li><li>Custom-defined ranges</li></ul> |

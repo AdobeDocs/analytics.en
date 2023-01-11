@@ -15,9 +15,11 @@ You can view anomalies in a time-series Freeform Table.
 
 1. Select the column settings icon in the column header, then ensure that the [!UICONTROL **Anomalies**] option is selected in the list of options. For more information, see [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. Anomalies are shown in the table as follows:
+1. Click away from the settings menu to view the updated table.
 
    ![](assets/anomaly_detected.png)
+
+1. Anomalies are shown in the table as follows:
 
    A **dark gray triangle** appears in the upper-right corner of each row where a data anomaly is detected.
 

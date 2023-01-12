@@ -22,7 +22,7 @@ The overall worklow for getting an implementation of Adobe Analytics deployed us
 
 3.  **Deploy and validate**: Have an environment where you can iterate on the development of tags and once everything is validated, publish it live on your production environment.
 
-See below for a quick start guide on each of these steps in the workflow.
+See below for a quick start on each of these steps in the workflow.
 
 >[!NOTE]
 >

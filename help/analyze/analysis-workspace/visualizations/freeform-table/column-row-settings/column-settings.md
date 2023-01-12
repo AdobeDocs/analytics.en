@@ -50,16 +50,17 @@ Some of these same settings can also be managed for all new projects that you cr
 
 ## Conditional formatting {#conditional-formatting}
 
-Conditional formatting applies formatting to upper, midpoint, and lower limits that you can define. Applying conditional formatting (colors, etc) within Freeform tables is also automatically enabled on breakdowns, unless "Custom" limits are selected.
+Conditional formatting applies formatting to upper, midpoint, and lower limits that you can define. Applying conditional formatting (colors, for example) within Freeform tables is also automatically enabled on breakdowns, unless "Custom" limits are selected.
 
 ![](assets/conditional-formatting.png)
 
 | Element | Description |
 | --- | --- |
-| Conditional Formatting | Applies the following colors to cells, based on data values: <ul><li>Green: high values</li><li>Yellow: midpoint values</li><li>Red: low values</li></ul> <br> Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis). |
+| Conditional Formatting | Applies a preconfigured color set of your choosing to cells. Depending on which of the 4 available color schemes you select, different colors are assigned to high values, midpoint values, and low values. <br> Replacing a dimension in the table resets the conditional formatting limits. Replacing a metric recalculates the limits for that column (where a metric is on the X axis and a dimension is on the Y axis). |
 | Use Percent Limits | Change the limit range to be based on percentages rather than absolute values. This works for metrics that are solely percentage based (like Bounce Rate) as well as for metrics that have a count and a percentage (like Page Views.) |
 | Auto-generated | Automatically calculate upper/mid/lower limits based on the data. The upper limit is the largest value in this column. The lower limit is the lowest, and the midpoint is the average of the upper and lower limits. |
 | Custom | Manually assign upper/mid/lower limits. This gives you the flexibility to determine when a column value becomes good, average, or poor. |
+| Conditional formatting palette | Choose which of the 4 available color schemes to use for your conditional formatting. |
 
 ## Use non-default attribution model {#attribution}
 

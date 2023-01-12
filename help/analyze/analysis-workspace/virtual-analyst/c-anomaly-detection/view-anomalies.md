@@ -53,7 +53,7 @@ To view anomalies in a line chart:
 
    The **dotted line** is the exact expected value.
 
-1. Click a white dot to view the following information about the anomaly:
+1. Click an anomaly (white dot) to view the following information:
 
    * The date the anomaly occurred 
    

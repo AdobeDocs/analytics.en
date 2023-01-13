@@ -1,7 +1,7 @@
 ---
 description: Index of Admin tools in Adobe Analytics.
 title: Admin tools
-feature: Admin tools
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 ---
 # Admin tools overview

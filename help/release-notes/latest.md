@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes
 
-**Last update**: January 6, 2023
+**Last update**: January 12, 2023
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -16,6 +16,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | **Folders in Workspace** | Folders help you organize and categorize your projects for better retrieval and access. In addition, a shared **[!UICONTROL Company]** folder allows Admins to easily create and share content with all Workspace users. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N/A | January 11, 2023 |
 | **Default landing page** |The [new landing page](/help/analyze/landing.md) that was introduced earlier in 2022 will become the default experience for all users on **January 11, 2023**. The legacy landing page will be deprecated and everyone will be required to use the new experience. | N/A | January 11, 2023 |
+| **Project Manager page deprecated** | With the release of the new landing page, we have deprecated the **[!UICONTROL Project Manager]** as listed under **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Components]**. The new landing page has all of the functionality of the old Project Manager page and more. Learn more | N/A | January 11, 2023 |
 | **Auto-save new projects** | Analysis Workspace now auto-saves newly created projects. If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is now available. Previously, projects were auto-saved only after they were initially saved manually. [Learn more](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | N/A | January 11, 2023 |
 | **Enhanced user preferences** | You can now configure additional preferences at the user level (in [!UICONTROL Components] > [!UICONTROL Preferences]). When you set user preference, your selections span across your projects, tables, and visualizations. The Preferences page now contains the following new tabs, each containing many new configuration options:<ul><li>Freeform table</li><li>Visualizations</li></ul>In addition, more preferences are now available on the **[!UICONTROL General]** and **[!UICONTROL Project]** tabs.<p>Previously, many of these preferences were configurable only for individual projects, tables, and visualizations. [Learn more](/help/analyze/analysis-workspace/user-preferences.md) | N/A | January 11, 2023 |
 

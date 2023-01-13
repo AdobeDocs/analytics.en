@@ -12,22 +12,24 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 >
 >Remember that Labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
-## Assign or Edit Report Suite Labels {#assign-edit}
+## Assign or edit report suite privacy labels {#assign-edit}
 
-**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
+**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Experience Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![Privacy settings](assets/privacy_rs_settings.png)
+1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
-1. Select which group of variables you want to label.
+   ![Privacy labeling](assets/privacy_rs_settings.png)
 
-   ![Variables](assets/variables.png)
+1. Select a report suite from the **[!UICONTROL Report Suites]** selector at the top. 
 
-   * **Standard Components** (Adobe Analytics out-of-the-box components)
-   * **Conversion Variables** (Custom success events)
-   * **List Variables** (Custom variables that can contain multiple values in the same hit)
-   * **Traffic Variables** (props)
-   * **Success Events** (Dimensions/events related to solutions such as Mobile, Video, Activity Map, etc., and integrations with solutions such as Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
-   * **Classifications** ()
+1. In the filter section on the left, select which groups of variables you want to label. You can label only one group of variables at a time.
+
+   * **Standard Components** - Standard components are out-of-the-box Analytics dimensions and metrics that are collected by default within an Analytics implementation.
+   * **Conversion Variables** - The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on selected web pages of your site. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be visit based and function similarly to cookies. Values passed into eVar variables follow the user for a predetermined period of time.
+   * **List Variables** - List variables are custom variables that you can use however you would like. They work similarly to eVars, except they can contain multiple values in the same hit. List variables do not have a character limit.
+   * **Traffic Variables** - Custom Insight Traffic Variables (or props) enable you to correlate custom data with specific traffic-related events. The prop variables are embedded in the implementation code on each page of your website.
+   * **Success Events** - Success events (also known as conversion events or custom events) are actions that can be tracked. You determine what a success event is. For example, if a visitor purchases an item, the purchase event could be considered the success event.
+   * **Classifications** - Classification breakdowns are used to map Analytics reporting data to related properties. Classifications can be used for a variety of purposes, but are most commonly used for classifying campaign tracking codes (both internal and external) and product IDs.
 
 1. (Optional) Click the information (i) icon next to each variable to better understand its most common values over the last 90 days. (This functionality is not available for Data Processing Dimensions, because they are not available in the Analytics UI.)
 
@@ -60,26 +62,29 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 If you want to apply the same DULE/Data Privacy settings to more than one report suite, you can follow these steps:
 
 1. Select the variable that you want to copy. Note that you can only copy the labels for one variable at a time.
-1. Click **[!UICONTROL Copy Labels to Report Suite(s)]** at the top right of the Data Governance dialog.
+1. Click **[!UICONTROL Copy to Report Suite(s)]** at the bottom of the Data Governance dialog.
 
-   ![Apply as template](assets/apply_as_template.png)
+   ![Copy to report suite](assets/copy_to_reportsuite.png)
 
-1. Either check **[!UICONTROL Select All]** to copy labels for the selected variables to all report suites or select the individual report suites that you want to copy the labels to.
+1. The resulting screen shows the variable name, the currently applied label/s that you are trying to copy over, the report suites and their IDs, and whether the settings in the target report suites match.
+
+   ![Copying label to report suite](assets/copy_to_rs.png)
 
    >[!IMPORTANT]
    >
    >Keep in mind that all report suites you select have to be mapped to your Experience Cloud organization.
 
-   When you copy the labels for a variable or set of variables into a different report suite, the copy goes to the variable in the corresponding position in the destination report suite. For Standard Dimensions, Standard Metrics, Solution Dimensions and Events and Data Processing Dimensions, the labels will be copied to the variable with the **same name** in the destination report suite.
+   When you copy the labels for a variable or set of variables into a different report suite, the copy goes to the variable in the corresponding position in the destination report suite. For Standard Components, List Variables, and Success Events, the labels will be copied to the variable with the **same name** in the destination report suite.
 
-   However, for Conversion Variables (eVars), Merchandising Conversion Dimensions and Custom Traffic Dimensions (props) the copy be will to the variable with the **same number** in the destination report suite. For example, eVar12 will be copied into eVar12 in all destination report suites. The names of these variables will be ignored in determining the target of the copy. If the corresponding variable is not enabled in the destination report suite, the copy will fail for that variable.
+   However, for Conversion Variables (eVars) and Traffic Dimensions (props) the copy be will to the variable with the **same number** in the destination report suite. For example, eVar12 will be copied into eVar12 in all destination report suites. The names of these variables will be ignored in determining the target of the copy. If the corresponding variable is not enabled in the destination report suite, the copy will fail for that variable.
 
-   When copying the labels for classifications defined for a variable, the labels will be copied to a classification on the corresponding variable in the destination report suite (such eVar7 to eVar7) that has a name identical to the classification being copied. Otherwise, the copy for that classification's labels will fail.
+   When copying the labels for Classifications defined for a variable, the labels will be copied to a classification on the corresponding variable in the destination report suite (such eVar7 to eVar7) that has a name identical to the classification being copied. Otherwise, the copy for that classification's labels will fail.
 
-   A status message is displayed after a set of labels has been applied. The status message will include the names of any destination variables or classifications and their report suites for which the copy failed.
+1. Check the box next to one or more report suites where the settings match.
+1. Click **[!UICONTROL Apply]**.
+
+   A status message is displayed after a labels has been applied. The status message will include the names of any destination variables or classifications and their report suites for which the copy failed.
 
    >[!IMPORTANT]
    >
    >You should always check the destination report suites to make sure that the labels copied over correctly. This is especially important for variables that have ID or DEL labels.
-
-1. Click **[!UICONTROL Apply]**.

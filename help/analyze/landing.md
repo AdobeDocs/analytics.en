@@ -77,6 +77,18 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
 
+### Deprecation of the Project Manager Page
+
+With the release of the new landing page, we deprecated Project Manager as listed under the Components manager. The new landing page handles all of the functionality of the old Project Manager page and more. 
+ 
+One common use case for the Project Manager page was to view all your projects. To view all of your projects on the new landing page by using the filter rail, select **OTHER FILTERS** and then select **Show all**. 
+
+![Other filters](assets/other-filters.png)
+
+If you're in the "Folders & Projects" view, a modal will pop-up asking if you want to switch to the "All projects" view which makes it easier to view all of your projects outside of any folders that they may be organized in.   Select **Switch to "All projects" view** to better view all of the projects you have access to. 
+
+![Switch to All projects](assets/switch-all-projects-view.png)
+
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
 
 The [!UICONTROL Reports] tab consolidates three sets of reports:

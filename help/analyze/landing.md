@@ -77,7 +77,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
 
-### Deprecation of the Project Manager Page
+### Deprecation of the Project Manager Page {#deprecate-pm-page}
 
 With the release of the new landing page, we deprecated Project Manager as listed under the Components manager. The new landing page handles all of the functionality of the old Project Manager page and more. 
  

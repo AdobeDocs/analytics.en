@@ -34,15 +34,15 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
   + User and Product Management (Legacy) {#user-product-management}
-    + [User and Product Management](admin-console/user-management2/user-management.md)
+    + [User and Product Management (Legacy)](admin-console/user-management2/user-management.md)
     + Migrate users to Adobe Admin Console {#migrate-users}
       + [Analytics User Migration to the Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
       + [Migrate Analytics user accounts for Adobe IDs](admin-console/user-management2/user-migration/t-migrate-users.md)
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](admin-console/user-management2/user-migration/developer.md)  
-+ Analytics admin {#admin-tools}
-  + [Admin Tools](admin/c-admin-tools.md)
++ Analytics admin tools {#admin-tools}
+  + [Admin tools overview](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + [Code Manager](admin/code-manager-admin.md)
   + [Currency codes](admin/currency.md)

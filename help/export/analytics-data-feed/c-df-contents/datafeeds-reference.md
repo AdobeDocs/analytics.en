@@ -228,7 +228,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`video`** | Video content | varchar(255) |
 | **`videoad`** | Video ad name | varchar(255) |
 | **`videoadinpod`** | Video ad in pod position | varchar(255) |
-| **`videoadlength`** | Video ad length | varchar(255) |
+| **`videoadlength`** | Video ad length | integer |
 | **`videoadload`** | Video ad loads | varchar(255) |
 | **`videoadname`** | Video ad name | varchar(255) |
 | **`videoadplayername`** | Video ad player name | varchar(255) |
@@ -248,12 +248,13 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`videoepisode`** | Video episode | varchar(255) |
 | **`videofeedtype`** | Video feed type| varchar(255) |
 | **`videogenre`** | Video genre | text |
-| **`videolength`** | Video length | varchar(255) |
+| **`videolength`** | Video length | integer |
 | **`videomvpd`** | Video MVPD | varchar(255) |
 | **`videoname`** | Video name | varchar(255) |
 | **`videonetwork`** | Video network | varchar(255) |
 | **`videopath`** | Video path | varchar(100) |
 | **`videoplayername`** | Video player name | varchar(255) |
+| **`videotime`** | Video time | integer |
 | **`videoqoebitrateaverageevar`** | Video quality average bit rate | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Video quality change count | varchar(255) |
 | **`videoqoebuffercountevar`** | Video quality buffer count | varchar(255) |

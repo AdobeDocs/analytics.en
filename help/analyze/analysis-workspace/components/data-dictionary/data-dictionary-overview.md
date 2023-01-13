@@ -10,9 +10,9 @@ The Data Dictionary in Analysis Workspace helps both users and administrators ke
 
 ## Benefits for users
 
-The Data Dictionary helps users gain a better understanding of all the components that are available to them. System administrators are responsible for curating information about each component in the Data Dictionary and making it available to users.
+ The Data Dictionary helps users gain a better understanding of all the components that are available to them. 
 
-The Data Dictionary can provide the following details about each component:
+The Data Dictionary can provide the following details about each component: (System administrators are responsible for curating this information about each component in the Data Dictionary and making it available to users.)
 
 * The component's function and intended use
 
@@ -32,6 +32,8 @@ The Data Dictionary provides the following benefits for administrators:
 
 * Shows components that are not yet approved
 
-* Allows you to update component descriptions directly in Analysis Workspace (rather than in the Report Suite)
+* Allows you to update component descriptions directly in Analysis Workspace (any updates are reflected in the Report Suite)
 
-  For more information about adding component descriptions, see the section, "Add descriptions to components in Analysis Workspace" in [Dimensions overview](/help/components/dimensions/overview.md) or in [Metrics overview](/help/components/metrics/overview.md).
+  Similarly, any updates you make to component descriptions in the Report Suite are reflected in Analysis Workspace.
+
+  For more information about adding component descriptions in either Analysis Workspace or in a Report Suite, see [Add component descriptions](/help/analyze/analysis-workspace/components/data-dictionary/add-component-descriptions.md).

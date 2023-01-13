@@ -41,8 +41,8 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](admin-console/user-management2/user-migration/developer.md)  
-+ Analytics admin {#admin-tools}
-  + [Admin Tools](admin/c-admin-tools.md)
++ Analytics admin tools {#admin-tools}
+  + [Admin tools overview](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + [Code Manager](admin/code-manager-admin.md)
   + [Currency codes](admin/currency.md)

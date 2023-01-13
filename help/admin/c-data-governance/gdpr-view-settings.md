@@ -6,6 +6,10 @@ exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 ---
 # View/Manage Privacy Labeling for Data Governance
 
+>[!NOTE]
+>
+>This updated UI is currently in limited testing.
+
 The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an overview of a report suite's privacy labels and namespaces. You can also export the settings to a .csv file from here.
 
 ## View privacy labels {#view-privacy}

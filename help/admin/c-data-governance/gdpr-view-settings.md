@@ -15,7 +15,7 @@ The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an ove
 ## View privacy labels {#view-privacy}
 
 1. Log in to Adobe Experience Cloud.
-1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** >[**[!UICONTROL Data Governance]**.
+1. Navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
    >

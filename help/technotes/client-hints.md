@@ -11,7 +11,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 * **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
-* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints.
+* **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints. 
 
 >[!NOTE]
 >
@@ -20,6 +20,10 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 >[!NOTE]
 >
 >Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+
+>[!NOTE]
+>
+> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent but correctly represented in high entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) for more information.
 
 >[!NOTE]
 >

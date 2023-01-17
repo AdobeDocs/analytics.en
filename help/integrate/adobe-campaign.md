@@ -54,7 +54,6 @@ The following **metrics** are available from Campaign in Adobe Analytics report 
 * Adobe Campaign Sent 
 * Adobe Campaign Opened 
 * Adobe Campaign Clicked 
-* Adobe Campaign Processed 
 * Adobe Campaign Delivered 
 * Adobe Campaign Unique Open 
 * Adobe Campaign Unique Click 

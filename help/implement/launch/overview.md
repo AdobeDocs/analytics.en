@@ -222,7 +222,7 @@ To get the code that references your tag:
     In the [!UICONTROL Web Install Instructions] dialog, select the copy button next to the script code that should read like:
 
     ```javascript
-    <script src="https://assets.adobedtm.com/2a518741ab24/806645a0b9bb/launch-716db315b4e2-development.min.js" async></script>
+    <script src="https://assets.adobedtm.com/2a518741ab24/806645a0b9bb/....-development.min.js" async></script>
     ```
     
     ![Environment](./assets/environment.png)

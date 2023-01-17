@@ -14,7 +14,7 @@ This integration between Adobe Analytics and Adobe Campaign
 * Enriches tracking formulas with Adobe Analytics parameters.
 * Adds a new report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]** 
 * Adds 5 new Adobe Campaign classifications.
-* Adds 10 new Adobe Campaign metrics.
+* Adds 9 new Adobe Campaign metrics.
 * Adds 6 new Adobe Campaign dimensions.
 * Synchronizes data to Analytics every 15 minutes.
 
@@ -54,7 +54,6 @@ The following **metrics** are available from Campaign in Adobe Analytics report 
 * Adobe Campaign Sent 
 * Adobe Campaign Opened 
 * Adobe Campaign Clicked 
-* Adobe Campaign Processed 
 * Adobe Campaign Delivered 
 * Adobe Campaign Unique Open 
 * Adobe Campaign Unique Click 

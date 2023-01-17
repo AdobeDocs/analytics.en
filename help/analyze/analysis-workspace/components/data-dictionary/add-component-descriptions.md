@@ -5,7 +5,7 @@ feature: Component Descriptions
 ---
 ## Add component descriptions
 
-Analytics administrators can add descriptions for dimensions and other components either within the Report Suite or directly within Analysis Workspace.
+Analytics administrators can add descriptions for dimensions and other components either within the Report Suite or directly within Analysis Workspace, using the Data Dictionary.
 
 ### Add descriptions to components in a Report Suite
 
@@ -13,7 +13,7 @@ The following video describes how to add dimension and metric descriptions in a 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
-### Add descriptions to components in Analysis Workspace {#add-descriptions}
+### Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. 
 
@@ -31,8 +31,8 @@ To add descriptions for components using the Data Dictionary:
 
    ![data-dictionary.png](assets/data-dictionary.png)
 
-1. Ensure the correct Report Suite is selected in the drop-down menu. 
+1. Ensure that the correct Report Suite is selected in the drop-down menu. 
 
-1. In the search field, search for the component that you want to add the description to, then select it when it appears. 
+1. In the search field, begin typing the name of the component you want to add a description to, then select it from the list of components. 
 
 1. Select the **Edit** icon, update the [!UICONTROL **Description**] field, then select [!UICONTROL **Save**]. <!-- Check this step -->

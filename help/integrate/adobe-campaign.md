@@ -11,7 +11,7 @@ For more information on how to configure this integration, go to the [Adobe Camp
 >[!IMPORTANT]
 >This article applies to Adobe Campaign **Standard** reporting only. See [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) for adding Adobe Campaign **Classic** reporting.
 
-This integration between Adobe Analytics and Adobe Campaign Standard
+This integration between Adobe Analytics and Adobe Campaign Standard:
 
 * Lets you share your KPI (Key Performance Indicator) data from Adobe Campaign Standard to Adobe Analytics.
 * Enriches tracking formulas with Adobe Analytics parameters.
@@ -34,9 +34,7 @@ In order to view Campaign Standard data in Analytics, you first have to enable C
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 
 
-| Report | Description |
-|--- |--- |
-| Adobe Campaign Executed Delivery ID | Shows data imported from Adobe Campaign about emails that were sent from Adobe Campaign. |
+* **[!UICONTROL Adobe Campaign Executed Delivery ID]**: Shows data imported from Adobe Campaign about emails that were sent from Adobe Campaign. |
 
 ## Step 3. Use Adobe Campaign Classifications {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -46,11 +44,11 @@ Once your report suite is enabled for Adobe Campaign, the following classificati
 
 | Classification | Description |
 | --- | --- |
-| Delivery ID | Internal Delivery Name that you see in Campaign|
-| Delivery Label | Delivery in Campaign - Individual Delivery/Recurring Delivery/Transaction Delivery |
-| Campaign ID | Internal Campaign Name that you see in Campaign|
-| Campaign Label | Campaign in Adobe Campaign|
-| Executed Delivery Label | List of individual executed deliveries|
+| [!UICONTROL Delivery ID] | Internal Delivery Name that you see in Campaign|
+| [!UICONTROL Delivery Label] | Delivery in Campaign - Individual Delivery/Recurring Delivery/Transaction Delivery |
+| [!UICONTROL Campaign ID] | Internal Campaign Name that you see in Campaign|
+| [!UICONTROL Campaign Label] | Campaign in Adobe Campaign|
+| [!UICONTROL Executed Delivery Label] | List of individual executed deliveries|
 
 ## Adobe Campaign Standard dimensions and metrics available in Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
@@ -69,10 +67,10 @@ The following **metrics** are available from Campaign in Adobe Analytics report 
 The following **dimensions** are available from Campaign in Adobe Analytics report suites: 
 
 | Dimension Name | Definition |
-|--- |--- |
-|Campaign ID|ID of all campaigns for which KPI's have been sent during duration|
-|Campaign Label|Labels of Campaign IDs|
-|Delivery ID|ID of all deliveries for which KPI's have been sent during duration. Also includes IDs of master deliveries of recurring delivery and transaction delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery.  The Delivery ID displays results for all deliveries, DM1 through DM5.|
-|Delivery Label|Labels of Delivery IDs|
-|Executed Delivery ID|IDs of only executed deliveries. No ID of recurring/ transactional master delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery. Executed Delivery ID displays results for all deliveries starting from DM2 to DM5 - the deliveries which have actually been executed.|
-|Executed Delivery Label|Labels of Executed Delivery IDs|
+| --- | --- |
+| Campaign ID | ID of all campaigns for which KPI's have been sent during duration |
+| Campaign Label | Labels of Campaign IDs |
+| Delivery ID | ID of all deliveries for which KPI's have been sent during duration. Also includes IDs of master deliveries of recurring delivery and transaction delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery.  The Delivery ID displays results for all deliveries, DM1 through DM5. |
+| Delivery Label | Labels of Delivery IDs |
+| Executed Delivery ID | IDs of only executed deliveries. No ID of recurring/ transactional master delivery. Example: A recurring delivery DM1 was scheduled and DM2, DM3, DM4 and DM5 were child deliveries of the recurring delivery. Executed Delivery ID displays results for all deliveries starting from DM2 to DM5 - the deliveries which have actually been executed. |
+| Executed Delivery Label | Labels of Executed Delivery IDs |

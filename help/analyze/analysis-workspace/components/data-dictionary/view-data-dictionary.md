@@ -24,7 +24,7 @@ To view information about a component in the Data Dictionary (including the comp
 
 1. In the search field, begin typing the name of the component you want to view.
 
-1.    {{dd-filter-criteria}}
+{{dd-filter-criteria}}
 
 1. From the list of components, select the component you want to view.
 

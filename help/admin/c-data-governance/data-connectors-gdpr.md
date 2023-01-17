@@ -8,7 +8,7 @@ exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 
 >[!NOTE]
 >
->**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of these integrations are available via Adobe Exchange and can continue to be utilized. 
+>**Effective August 19, 2021**, Adobe has discontinued Data Connectors Integrations. End-of-life is part of any technology product's lifecycle and Adobe aims to make the transition as seamless as possible for our customers and partners. Many of the integrations are available via [Adobe Exchange](https://exchange.adobe.com/) and can continue to be utilized. 
 
 <!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 

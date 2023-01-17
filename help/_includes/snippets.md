@@ -6,7 +6,7 @@
 >
 >Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).
 
-## Data Dictionary Filter Criteria {#dd-filter-criteria}
+## Data Dictionary filter criteria {#dd-filter-criteria}
 
    * [!UICONTROL **Dimensions**]: Show only components that are Dimensions.
 
@@ -16,17 +16,11 @@
 
    * [!UICONTROL **Date ranges**]: Show only components that are Date Ranges.
 
-   * [!UICONTROL **Missing description**]: Show only components that do not yet have a description in the Description field.
-   
-     This option is available only for administrators.
+   * [!UICONTROL **Missing description**]: Show only components that do not yet have a description in the Description field. This option is available only for administrators.
 
-   * [!UICONTROL **Duplicates**]: Show only components that have either the same label or the same description as that of another component in the selected Report Suite. 
+   * [!UICONTROL **Duplicates**]: Show only components that have either the same label or the same description as that of another component in the selected Report Suite. This option is available only for administrators.
    
-     This option is available only for administrators.
-   
-   * [!UICONTROL **No data recently**]: Show only components that have not collected any data in the past 90 days. 
-   
-     This option is available only for administrators.
+   * [!UICONTROL **No data recently**]: Show only components that have not collected any data in the past 90 days. This option is available only for administrators.
    
    * [!UICONTROL **Created by Adobe**]: Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. 
    

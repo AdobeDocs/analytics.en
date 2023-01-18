@@ -20,7 +20,7 @@ To view information about a component in the Data Dictionary (including the comp
 
    ![data-dictionary.png](assets/data-dictionary.png)
 
-   <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.>
+   <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
 1. Ensure that the Report Suite that contains the component you want to view is selected in the drop-down menu. 
 

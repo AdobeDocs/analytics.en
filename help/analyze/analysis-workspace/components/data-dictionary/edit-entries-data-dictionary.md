@@ -26,10 +26,10 @@ To edit a component in the Data Dictionary:
 
 1. From the list of components, select the component you want to edit.
 
-1. Select the Edit icon next to the component name. 
+1. Select the **Edit** icon ![Data Dictionary Edit icon](assets/data-dictionary-edit-icon.png) next to the component name. 
 
-1. Edit any of the following information about the component
+1. Edit any of the following information about the component:
 
    {{dd-component-information}}
 
-<!--create another snippet from the content in the view-data-dictionary article and then link it here.>
+1. Click the **Save** icon [Data Dictionary Save icon](assets/data-dictionary-save-icon.png) to save your changes.

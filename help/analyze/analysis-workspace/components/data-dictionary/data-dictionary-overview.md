@@ -18,13 +18,13 @@ System administrators are responsible for curating this information about each c
 
 ### Benefits for users
 
- The Data Dictionary helps users gain a better understanding of each component that is available to them. 
+The Data Dictionary helps users gain a better understanding of each component that is available to them. 
 
-Some benefits for users of the Data Dictionary include: 
+Information available in the Data Dictionary includes: 
 
-* The component's function and intended use
+* A component's function and intended use
 
-* Related components that the component is typically used with
+* Related components that a component is typically used with
 
 * Components that are similar to the one you are viewing
 
@@ -34,15 +34,15 @@ Some benefits for users of the Data Dictionary include:
 
 The Data Dictionary helps system administrators keep track of and curate the components in their Analytics environment. 
 
-Some benefits for administrators of the Data Dictionary include: 
+Following are some of the ways Analytics administrators can use the Data Dictionary: 
 
-* Identifies duplicate components that need to be consolidated.
+* Identify duplicate components that need to be consolidated.
 
-* Identifies components that aren't collecting any data so they can be either updated or deleted.
+* Identify components that aren't collecting any data so they can be either updated or deleted.
 
-* Shows components that are not yet approved.
+* Identify components that are not yet approved.
 
-* Allows you to update component descriptions directly in Analysis Workspace, and any updates you make are reflected in the Report Suite.
+* Update component descriptions directly in Analysis Workspace. Any updates you make to component descriptions in the Data Dictionary are reflected in the Report Suite.
 
   Similarly, any updates you make to component descriptions in the Report Suite are reflected in Analysis Workspace.
 

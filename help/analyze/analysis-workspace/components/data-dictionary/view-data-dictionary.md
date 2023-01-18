@@ -8,7 +8,7 @@ role: User, Admin
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. 
 
-For more information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
 
 To view information about a component in the Data Dictionary (including the component description, similar components, other components a component is frequently used with, and more):
 
@@ -20,7 +20,7 @@ To view information about a component in the Data Dictionary (including the comp
 
    ![data-dictionary.png](assets/data-dictionary.png)
 
-1. Ensure that the correct Report Suite is selected in the drop-down menu. 
+1. Ensure that the Report Suite that contains the component you want to view is selected in the drop-down menu. 
 
 1. In the search field, begin typing the name of the component you want to view.
 

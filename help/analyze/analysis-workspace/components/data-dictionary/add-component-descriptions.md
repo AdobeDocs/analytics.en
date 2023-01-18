@@ -17,22 +17,8 @@ The following video describes how to add dimension and metric descriptions in a 
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. 
 
-Part of this is the ability for Analytics administrators to add descriptions for components directly within Analysis Workspace. 
+This includes the ability for Analytics administrators to add component descriptions (as well as modify other information) directly within Analysis Workspace. 
 
-For more information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/data-dictionary/data-dictionary-overview.md).
+For information about editing a component in the data dictionary, which includes adding a description, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 
-To add descriptions for components using the Data Dictionary:
-
-1. Go to the Analysis Workspace project that contains the component for which you want to add a description.
-
-1. Select the Data Dictionary icon on the left side of Analysis Workspace.
-
-   The Data Dictionary window displays.
-
-   ![data-dictionary.png](assets/data-dictionary.png)
-
-1. Ensure that the correct Report Suite is selected in the drop-down menu. 
-
-1. In the search field, begin typing the name of the component you want to add a description to, then select it from the list of components. 
-
-1. Select the **Edit** icon, update the [!UICONTROL **Description**] field, then select [!UICONTROL **Save**]. <!-- Check this step -->
+For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/data-dictionary/data-dictionary-overview.md).

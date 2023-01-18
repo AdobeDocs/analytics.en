@@ -20,4 +20,4 @@ Each dimension represents a different part or facet of your site. You can combin
 
 ## Add dimension descriptions
 
-Analytics administrators can add descriptions for dimensions and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to dimensions, see [Add component descriptions](/help/analyze/analysis-workspace/components/data-dictionary/add-component-descriptions.md).
+Analytics administrators can add descriptions for dimensions and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to dimensions, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

@@ -23,4 +23,4 @@ If you cannot find a given metric help page, it is likely either a [custom event
 
 ## Add metric descriptions
 
-Analytics administrators can add descriptions for metrics and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to metrics, see [Add component descriptions](/help/analyze/analysis-workspace/components/data-dictionary/add-component-descriptions.md).
+Analytics administrators can add descriptions for metrics and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to metrics, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

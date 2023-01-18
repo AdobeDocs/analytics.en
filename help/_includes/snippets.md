@@ -8,7 +8,7 @@
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
 
-1. (Optional) Filter components by any of the following criteria:
+1. (Optional) Select the Filter icon, then select any of the following filter options to filter the list of components:
 
       * [!UICONTROL **Dimensions**]: Show only components that are Dimensions.
       * [!UICONTROL **Metrics**]: Show only components that are Metrics.
@@ -20,3 +20,26 @@
       * [!UICONTROL **Created by Adobe**]: Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown.   
       * [!UICONTROL **Approved**]: Show only components that are marked as Approved by an administrator.
       * Unapproved (available only for administrators) <!--this is in the requirements doc, but I don't see this in the UI--> 
+
+## Data Dictionary component information {#dd-component-information}
+
+* [!UICONTROL **Description**]: Describes the intended function of the component. 
+
+     This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+* [!UICONTROL **Frequently used with**]: Shows the 5 components that are most commonly used with the component you are viewing. This list is based on data from the past 90 days. Only components that you have access to view are shown. 
+
+* [!UICONTROL **Similar to**]: Shows 5 components with similar labels to the component you are viewing. Only components that you have access to view are shown.
+
+* [!UICONTROL **Popular with**]: Shows which users frequently use the component you are viewing.
+
+* [!UICONTROL **Tags**]: 
+
+* [!UICONTROL **Component type**]: Lists the type of component it is, whether a Dimension, Metric, Segment, or Date Range. 
+
+* [!UICONTROL **Created by**]: Displays the name of the user who created the component.
+
+* [!UICONTROL **Preview**]: Shows a preview of how the component looks in Analysis Workspace.
+
+* [!UICONTROL **Date last modified**]: Displays the day the component was last modified. This section is displayed when viewing Segments, Calculated metrics, and Date ranges. <!--for CJA, it is displayed for all components--> 
+

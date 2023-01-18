@@ -30,4 +30,6 @@ To edit a component in the Data Dictionary:
 
 1. Edit any of the following information about the component
 
+   {{dd-component-information}}
+
 <!--create another snippet from the content in the view-data-dictionary article and then link it here.>

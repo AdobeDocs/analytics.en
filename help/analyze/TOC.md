@@ -31,6 +31,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
+    + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)
     + Annotations {#annotations}
       + [Annotations overview](analysis-workspace/components/annotations/overview.md)
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
@@ -50,6 +51,10 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+    + data-dictionary {#data-dictionary}
+      + [Data Dictionary overview](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+      + [View component information in the Data Dictionary](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+      + [Edit component entries in the Data Dictionary](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
   + Visualizations {#visualizations}
     + [Visualizations overview](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)

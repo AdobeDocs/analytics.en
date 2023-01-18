@@ -54,11 +54,11 @@ You can access the Data Dictionary in any of the following ways from Analysis Wo
 
 * From the **Data Dictionary** icon in the left rail.
 
-  ![data-dictionary.png](assets/data-dictionary-access-icon.png)
+  ![Data Dictionary icon in the left rail](assets/data-dictionary-access-icon.png)
 
 * From the **Data Dictionary** icon within the info popover of a component. 
 
-  ![data-dictionary.png](assets/data-dictionary-access-infopopover.png)
+  ![Data Dictionary icon in info popover](assets/data-dictionary-access-infopopover.png)
 <!--update screenshot; this was taken from a mock-->
 
 * From the menu: [!UICONTROL **Help**] > [!UICONTROL **Data Dictionary**].

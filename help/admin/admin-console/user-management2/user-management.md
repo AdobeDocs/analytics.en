@@ -5,13 +5,13 @@ title: User and Product Management
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 ---
-# User and Product Management
+# User and Product Management (Legacy)
 
 Manage Analytics users, groups, and products in the Adobe Admin Console.
 
 >[!IMPORTANT]
 >
->User and product management has moved to the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe will notify you when it is your time to migrate users. 
+>User and product management has moved to the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To get started managing user permissions for Adobe Analytics users, see [Analytics in the Adobe Admin Console][/help/admin/admin-console/home.md]. 
 
 ## Help Resources for Adobe Admin Console Administrators {#section_C13BBB89E4F248F193358BB3A59DD502}
 

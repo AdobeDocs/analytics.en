@@ -56,7 +56,8 @@ The `getTimeToComplete` function uses the following arguments:
 
 * **`sos`** (optional, string): Set to `"start"` when you want to start the timer. Set to `"stop"` when you want to stop the timer. Defaults to `"start"`.
 * **`cn`** (optional, string): The name of the cookie to store the start time. Defaults to `"s_gttc"`.
-* **`exp`** (optional, integer): The number of days that the cookie (and timer) expires. Defaults to `0`, which represents the end of the browser session.
+* **`exp`** (optional, integer): The number of seconds, hours or days (depending on the `tp` time-parting argument) that the cookie (and timer) expires. Defaults to 30 minutes.
+* **`tp`** (optional, string): The time-parting string that the cookie (and timer) expires, used with the `exp` argument. Set to "d" for days, "h" for hours, or "s" for seconds. If this is not set, the cookie (and timer) expiry defaults to 30 minutes, regardless of what the `exp` argument has been set to.
 
 Calling this function returns a string that contains the number of days, hours, minutes and/or seconds it took between the `"start"` and `"stop"` action.
 
@@ -74,8 +75,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Version History

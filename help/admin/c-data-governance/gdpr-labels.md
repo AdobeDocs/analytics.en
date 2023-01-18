@@ -6,7 +6,7 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
 # Data Privacy Labels for Analytics Variables
 
-## Why Label Your Data? {#why-label}
+## Why label Your data? {#why-label}
 
 Many Adobe customers have legal teams that have reviewed the Data Privacy laws (GDPR, CCPA, etc.). These teams may have drawn their own conclusions about how data should be handled in order to conform with Data Privacy laws. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for Data Privacy data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for Data Privacy data processing for their unique data. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
@@ -16,13 +16,13 @@ Before you can figure out which labels should be applied to which variables/fiel
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 
-## DULE Labels {#dule-labels}
+## DULE labels {#dule-labels}
 
 >[!NOTE]
 >
 >The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to Data Privacy. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
 
-## Identity Data Labels (DULE) {#identity-data-labels}
+## Identity data labels (DULE) {#identity-data-labels}
 
 Identity data "I" labels are used to categorize data that can identify or contact a specific person.
 
@@ -33,7 +33,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
 
 {style="table-layout:auto"}
 
-## Sensitive Data Labels (DULE) {#sensitive-data-labels}
+## Sensitive data labels (DULE) {#sensitive-data-labels}
 
 Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information.
 
@@ -44,7 +44,7 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
 
 {style="table-layout:auto"}
 
-## Data Governance Labels (Data Privacy) {#data-governance-labels}
+## Data Governance labels (Data Privacy) {#data-governance-labels}
 
 Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to be compliant with regulations and corporate policies.
 
@@ -83,11 +83,11 @@ A delete label is required only for fields that contain a value that would allow
 
 {style="table-layout:auto"}
 
-## Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Provide a namespace when labeling a variable as ID-DEVICE or ID-PERSON {#provide-namespace}
 
 When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide a namespace. You can either use a previously defined namespace or define a new one.
 
-### Use a Previously Defined Namespace
+### Use a previously defined namespace
 
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
@@ -96,7 +96,7 @@ If you have previously assigned an ID label to other variables in any of the rep
 
 ![](assets/namespace.png)
 
-### Define a New Namespace
+### Define a new namespace
 
 You can also define a new namespace. We recommend that namespace strings be limited to alphanumeric characters, plus the characters underscore, dash and space. They will be converted to all lower case.
 
@@ -141,7 +141,7 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
 
 {style="table-layout:auto"}
 
-## Variables to which labels other than ACC-ALL/ACC-PERSON can be assigned/modified {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variables to which labels other than ACC-ALL/ACC-PERSON can be assigned/modified {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -204,7 +204,7 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
  </tbody> 
 </table>
 
-## Deletion Handling {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Deletion Handling {#deletion}
 
 Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
 
@@ -221,7 +221,7 @@ The following table describes how various variables are "deleted". This is not a
 
 {style="table-layout:auto"}
 
-## Variables that don't support the expected Delete labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables that don't support the expected Delete labels {#no-delete-support}
 
 This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label.
 

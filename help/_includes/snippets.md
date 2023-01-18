@@ -23,9 +23,7 @@
 
 ## Data Dictionary component information {#dd-component-information}
 
-* [!UICONTROL **Description**]: Describes the intended function of the component. 
-
-     This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+* [!UICONTROL **Description**]: Describes the intended function of the component. (This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).)
 
 * [!UICONTROL **Frequently used with**]: Shows the 5 components that are most commonly used with the component you are viewing. This list is based on data from the past 90 days. Only components that you have access to view are shown. 
 

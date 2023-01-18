@@ -7,6 +7,7 @@
 >Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
+
 1. (Optional) Filter components by any of the following criteria:
    * [!UICONTROL **Dimensions**]: Show only components that are Dimensions.
    * [!UICONTROL **Metrics**]: Show only components that are Metrics.

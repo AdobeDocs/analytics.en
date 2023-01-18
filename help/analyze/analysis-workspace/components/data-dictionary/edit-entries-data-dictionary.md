@@ -16,7 +16,7 @@ To edit a component in the Data Dictionary:
 
    The Data Dictionary window displays.
 
-   ![data-dictionary.png](assets/data-dictionary.png)
+   ![Data Dictionary admin view](assets/data-dictionary-admin.png)
 
 1. Ensure that the correct Report Suite is selected in the drop-down menu. 
 
@@ -30,6 +30,6 @@ To edit a component in the Data Dictionary:
 
 1. Edit any of the following information about the component:
 
-   {{dd-component-information}}
+     {{dd-component-information}}
 
-1. Click the **Save** icon [Data Dictionary Save icon](assets/data-dictionary-save-icon.png) to save your changes.
+1. Click the **Save** icon ![Data Dictionary Save icon](assets/data-dictionary-save-icon.png) to save your changes.

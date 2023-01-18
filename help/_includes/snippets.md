@@ -5,3 +5,39 @@
 >[!IMPORTANT]
 >
 >Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+
+## Data Dictionary filter criteria {#dd-filter-criteria}
+
+1. (Optional) Select the Filter icon, then select any of the following filter options to filter the list of components:
+
+      * [!UICONTROL **Dimensions**]: Show only components that are Dimensions.
+      * [!UICONTROL **Metrics**]: Show only components that are Metrics.
+      * [!UICONTROL **Segments**]: Show only components that are Segments. <!--this is Filters in CJA-->
+      * [!UICONTROL **Date ranges**]: Show only components that are Date Ranges.
+      * [!UICONTROL **Missing description**]: Show only components that do not yet have a description in the Description field. This option is available only for administrators.
+      * [!UICONTROL **Duplicates**]: Show only components that have either the same label or the same description as that of another component in the selected Report Suite. This option is available only for administrators.
+      * [!UICONTROL **No data recently**]: Show only components that have not collected any data in the past 90 days. This option is available only for administrators. 
+      * [!UICONTROL **Created by Adobe**]: Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown.   
+      * [!UICONTROL **Approved**]: Show only components that are marked as Approved by an administrator.
+      * Unapproved (available only for administrators) <!--this is in the requirements doc, but I don't see this in the UI--> 
+
+## Data Dictionary component information {#dd-component-information}
+
+* [!UICONTROL **Description**]: Describes the intended function of the component. (This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).)
+
+* [!UICONTROL **Frequently used with**]: Shows the 5 components that are most commonly used with the component you are viewing. This list is based on data from the past 90 days. Only components that you have access to view are shown. 
+
+* [!UICONTROL **Similar to**]: Shows 5 components with similar labels to the component you are viewing. Only components that you have access to view are shown.
+
+* [!UICONTROL **Popular with**]: Shows which users frequently use the component you are viewing.
+
+* [!UICONTROL **Tags**]: 
+
+* [!UICONTROL **Component type**]: Lists the type of component it is, whether a Dimension, Metric, Segment, or Date Range. 
+
+* [!UICONTROL **Created by**]: Displays the name of the user who created the component.
+
+* [!UICONTROL **Preview**]: Shows a preview of how the component looks in Analysis Workspace.
+
+* [!UICONTROL **Date last modified**]: Displays the day the component was last modified. This section is displayed when viewing Segments, Calculated metrics, and Date ranges. <!--for CJA, it is displayed for all components--> 
+

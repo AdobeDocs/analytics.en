@@ -38,11 +38,9 @@ To identify health issues in your Data Dictionary:
 
    * [!UICONTROL **components are missing descriptions**]
 
-   * [!UICONTROL **components have duplicate names**]
+   * [!UICONTROL **components have duplicates**]
 
-   * [!UICONTROL **components have no data recently**]
-
-     If a number is not shown for this option, select [!UICONTROL **Calculate**].
+   * [!UICONTROL **components have no data connected**]
 
    Depending on what you select, the appropriate filter is applied to the Data Dictionary, and only the relevant components are shown. 
 

@@ -17,18 +17,16 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
 1. When a visitor comes to your site, a request is made to your web server.
 2. Your site's web server sends the page code information, and the page displays in the browser.
 3. The page loads, and the Analytics JavaScript code runs.
-   The JavaScript code sends an image request Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
+4. The JavaScript code sends a 1x1 pixel image request to Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
+5. Adobe's data collection servers return the requested image.
+6. Adobe servers parse and store collected data in a report suite.
+7. Report suite data populates the reports that you can access in a web browser.
 
-4. Adobe returns a transparent pixel image.
-5. Adobe servers store collected data in one or more *report suites*.
-6. Report suite data populates the reports that you can access in a web browser.
 
-   The JavaScript code execution occurs quickly and does not noticeably affect page load times. This approach allows you to count pages that were displayed when a visitor clicked **[!UICONTROL Reload]** or **[!UICONTROL Back]** to reach a page, because the JavaScript runs even when the page is retrieved from cache.
+Adobe offers several methods to implement this code, depending on platform and your organization's needs.
 
-Adobe Analytics requires code within your website, mobile app, or other application to send data to data collection servers. There are several methods to implement this code, depending on platform and your organization's needs.
-
-* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics. Install the Web SDK extension in Adobe Experience Platform Data Collection, use a loader tag on each page, and send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
-* **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Adobe Experience Platform Data Collection. Reference the Web SDK library on each page, and send the desired tracking calls to Adobe Experience Edge.
+* **Web SDK extension**: The current, standardized, and recommended method to implement Adobe Analytics. Install the Web SDK extension in Adobe Experience Platform Data Collection, use a loader tag on each page, and send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
+* **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Tags. Reference the Web SDK library on each page, and send the desired tracking calls to Adobe Experience Edge.
 * **Adobe Analytics extension**: Install the Adobe Analytics extension in Adobe Experience Platform Data Collection. Place a loader tag on each page, and use the Analytics extension to determine how each variable is defined.
 * **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Outlines variables and settings used in an implementation, which can be useful for implementations using rules with custom code.
 * **Mobile SDK**: Dedicated libraries to easily send data to Adobe from within your mobile app.

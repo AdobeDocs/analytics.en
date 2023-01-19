@@ -15,6 +15,15 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2023 {#23}
+
+| Feature | Description |
+| --- | --- |
+| **January 2023** | |
+| Folders | Dedicated pages for [Folders management](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).  |
+| User preferences | Many additional user preferences are now available in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).  |
+| Auto-save for projects | Updated content to include auto-save functionality in [Save projects](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).  |
+
 ### 2022 {#22}
 
 | Feature | Description |

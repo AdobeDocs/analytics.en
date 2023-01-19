@@ -27,8 +27,7 @@
       * [!UICONTROL **Description**]: Describes the intended function of the component. (This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).)
       * [!UICONTROL **Frequently used with**]: Shows the 5 components that are most commonly used with the component you are viewing. This list is based on data from the past 90 days. Only components that you have access to view are shown. 
       * [!UICONTROL **Similar to**]: Shows 5 components with similar labels to the component you are viewing. Only components that you have access to view are shown.
-      * [!UICONTROL **Popular with**]: Shows which users frequently use the component you are viewing.
-      * [!UICONTROL **Tags**]: 
+      * [!UICONTROL **Tags**]: Shows all tags that are applied to the component.
       * [!UICONTROL **Component type**]: Lists the type of component it is, whether a Dimension, Metric, Segment, or Date Range. 
       * [!UICONTROL **Created by**]: Displays the name of the user who created the component.
       * [!UICONTROL **Preview**]: Shows a preview of how the component looks in Analysis Workspace.

@@ -20,7 +20,7 @@ To edit a component in the Data Dictionary:
 
 1. Ensure that the correct Report Suite is selected in the drop-down menu. 
 
-1. In the search field, begin typing the name of the component you want to edit.
+1. (Optional) In the search field, begin typing the name of the component you want to edit.
 
 {{dd-filter-criteria}}
 

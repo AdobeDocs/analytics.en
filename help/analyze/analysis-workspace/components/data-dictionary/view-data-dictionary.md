@@ -12,7 +12,7 @@ To view information about a component in the Data Dictionary:
 
 1. Go to the Analysis Workspace project that contains the component that you want to view.
 
-1. Select the [!UICONTROL **Data Dictionary**] icon on the left side of Analysis Workspace. (Alternate ways of accessing the Data Dictionary are described in "Access the Data Dictionary" in [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Select the [!UICONTROL **Data Dictionary**] icon in the left rail of Analysis Workspace. (Alternate ways of accessing the Data Dictionary are described in "Access the Data Dictionary" in [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
    The Data Dictionary window displays.
 

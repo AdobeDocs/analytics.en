@@ -8,7 +8,7 @@
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
 
-1. (Optional) Select the Filter icon, then select any of the following filter options to filter the list of components:
+1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), then select any of the following filter options to filter the list of components:
 
       * [!UICONTROL **Dimensions**]: Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
       * [!UICONTROL **Metrics**]: Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)

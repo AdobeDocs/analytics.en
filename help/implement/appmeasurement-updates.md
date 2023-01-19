@@ -18,7 +18,6 @@ Release Date: **September 23, 2022**
 
 * AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. Learn more about User-Agent [client hints](/help/technotes/client-hints.md).
 
-
 ## Version 2.22.4
 
 Release Date: **January 18, 2022**

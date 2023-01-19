@@ -24,11 +24,11 @@ Information available in the Data Dictionary includes:
 
 * A component's function and intended use
 
-* Related components that a component is typically used with
+* Components typically used with the one you are viewing
 
 * Components that are similar to the one you are viewing
 
-* Whether the component is approved by the system administrator 
+* Whether a component is approved by the system administrator 
 
 ### Benefits for administrators
 
@@ -42,15 +42,15 @@ Following are some of the ways Analytics administrators can use the Data Diction
 
 * Identify components that are not yet approved.
 
-* Update component descriptions directly in Analysis Workspace. Any updates you make to component descriptions in the Data Dictionary are reflected in the Report Suite.
+* Update component descriptions directly in Analysis Workspace. Any updates made to component descriptions in the Data Dictionary are reflected in the Report Suite.
 
-  Similarly, any updates you make to component descriptions in the Report Suite are reflected in Analysis Workspace.
+  Similarly, any updates made to component descriptions in the Report Suite are reflected in Analysis Workspace.
 
   For more information about adding component descriptions in either Analysis Workspace or in a Report Suite, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Access the Data Dictionary
 
-You can access the Data Dictionary in any of the following ways from Analysis Workspace:
+You can access the Data Dictionary in any of the following ways within Analysis Workspace:
 
 * From the **Data Dictionary** icon in the left rail.
 
@@ -79,6 +79,6 @@ You can manipulate the Data Dictionary window in any of the following ways:
 
   When minimized, the Data Dictionary appears as a blue tab in the lower-right corner of Analysis Workspace.
 
-  When you select the blue tab, the Data Dictionary opens to the component you were viewing when you minimized it. 
+  When you select the blue tab, the Data Dictionary opens to the component you were most recently viewing. 
 
 * Close it

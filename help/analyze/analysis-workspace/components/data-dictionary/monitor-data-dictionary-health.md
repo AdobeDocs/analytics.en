@@ -14,11 +14,11 @@ A healthy Data Dictionary is one where all components:
 
 * Are being used and are gathering data
 
-* Are approved by the administrator
-
 * Contain helpful descriptions so users know how best to use them
 
 * Are free from unnecessary duplicates
+
+* Are approved by the administrator
 
 ## Check the health of your Data Dictionary
 
@@ -46,4 +46,4 @@ To identify health issues in your Data Dictionary:
 
    Depending on what you select, the appropriate filter is applied to the Data Dictionary, and only the relevant components are shown. 
 
-1. Edit any of the components to correct the problem. For information about how to edit a component in the Data Dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+1. Edit any of the components to improve the health of the Data Dictionary. For information about how to edit a component in the Data Dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).

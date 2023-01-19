@@ -15,6 +15,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2023 {#23}
+
+| Feature | Description |
+| --- | --- |
+| **January 2023** | |
+| Folders | Dedicated pages for [Folders management](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)  |
+
 ### 2022 {#22}
 
 | Feature | Description |

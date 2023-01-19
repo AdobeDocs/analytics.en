@@ -6,15 +6,13 @@ role: User, Admin
 ---
 # View component information in the Data Dictionary
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. 
+The Data Dictionary allows you to view information about a component, including the component description, similar components, other components a component is frequently used with, and more.
 
-For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
-
-To view information about a component in the Data Dictionary (including the component description, similar components, other components a component is frequently used with, and more):
+To view information about a component in the Data Dictionary:
 
 1. Go to the Analysis Workspace project that contains the component that you want to view.
 
-1. Select the Data Dictionary icon on the left side of Analysis Workspace. (Alternate ways of accessing the Data Dictionary are described in "Access the Data Dictionary" in [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Select the [!UICONTROL **Data Dictionary**] icon on the left side of Analysis Workspace. (Alternate ways of accessing the Data Dictionary are described in "Access the Data Dictionary" in [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
    The Data Dictionary window displays.
 
@@ -24,7 +22,7 @@ To view information about a component in the Data Dictionary (including the comp
 
 1. Ensure that the Report Suite that contains the component you want to view is selected in the drop-down menu. 
 
-1. In the search field, begin typing the name of the component you want to view.
+1. (Optional) In the search field, begin typing the name of the component you want to view.
 
 {{dd-filter-criteria}}
 

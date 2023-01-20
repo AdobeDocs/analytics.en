@@ -189,7 +189,7 @@ More learning options:
 
 ### Managing company reports {#manage-company-reports}
 
-Admins can filter the project list to display and manage company reports. Pinned items remain pinned followed by the list of company reports that are identified by the ![report icon](assets/report-icon.png) report icon . In this view, you can delete, rename, tag, or approve one or more reports.
+Admins can filter the project list to display and manage company reports. Pinned items remain pinned followed by the list of company reports that are identified by the ![report icon](assets/report-icon.png) report icon. In this view, you can delete, rename, tag, or approve one or more reports.
 
 To display and manage company reports
 

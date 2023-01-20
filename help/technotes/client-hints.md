@@ -55,7 +55,7 @@ Not at this time. You can choose to collect all high-entropy hints or none.
 
 The table below describes the client hints as of October 2022.
 
-| Hint | Description | High or Low Entropy | Example | 
+| Hint* | Description | High or Low Entropy | Example | 
 | --- | --- | --- | --- | 
 | Sec-CH-UA  |  Browser and significant version  | Low |  "Google Chrome 84" |
 | Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  TRUE |  
@@ -66,6 +66,8 @@ The table below describes the client hints as of October 2022.
 | Sec-CH-UA-Full-Version-List |  List of brands with their version | High | "Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"  |  
 | Sec-CH-UA-Model |  Device model |  High |  "Pixel 3" |  
 | Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  "10" |  
+
+*Low entropy hints are collected via header. High entropy hints are collected via JavaScript and passed in query string parameters.
 
 +++
 

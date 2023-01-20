@@ -81,13 +81,17 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 With the release of the new landing page, we deprecated Project Manager as listed under the Components manager. The new landing page handles all of the functionality of the old Project Manager page and more. 
  
-One common use case for the Project Manager page was to view all your projects. To view all of your projects on the new landing page by using the filter rail, select **OTHER FILTERS** and then select **Show all**. 
+One common use case for the Project Manager page was to view all your projects. 
 
-![Other filters](assets/other-filters.png)
+To view all of your projects on the new landing page by using the filter rail, select **OTHER FILTERS** and then select **Show all**. 
+
+![Show all projects](assets/show-all-fIlter.png)
 
 If you're in the "Folders & Projects" view, a modal will pop-up asking if you want to switch to the "All projects" view which makes it easier to view all of your projects outside of any folders that they may be organized in.   Select **Switch to "All projects" view** to better view all of the projects you have access to. 
 
 ![Switch to All projects](assets/switch-all-projects-view.png)
+
+Another use case for Admins is to manage company reports in order to delete, rename, tag, or approve reports. For information about managing reports, see [Managing company reports](#manage-company-reports).
 
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
 
@@ -182,6 +186,36 @@ More learning options:
 * For new users, we recommend the [Training Tutorial](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) video that walks you through building a new project.
 * Here is a link to the [complete Analysis Workspace documentation](/help/analyze/analysis-workspace/home.md).
 * Here is the complete [YouTube playlist for Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Managing company reports {#manage-company-reports}
+
+Admins can filter the project list to display and manage company reports. Pinned items remain pinned followed by the list of company reports that are identified by the ![report icon](assets/report-icon.png) report icon. In this view, you can delete, rename, tag, or approve one or more reports.
+
+To display and manage company reports
+
+1.  In the filter rail, select **OTHER FILTERS** and then select **Company reports**. 
+    A list of the company reports are displayed. All regular projects, unless they’re pinned, are not displayed.
+
+    ![Display company reports filters](assets/company-reports-filter.png)
+
+    With company reports displayed, Admins can delete, rename, add a tag, or approve the report. 
+
+1.  In the report list, select a single report or select multiple reports.
+
+1.  Click the **...** elilpsis icon next to a report to view the available options (Delete, Rename, Tag, and Approve). 
+
+    ![Company report actions](assets/company-reports-actions.png)
+
+1.  Select an option (Delete, Rename, Tag, and Approve).
+
+1.  To return to the regular view when your done, in the filter rail, uncheck the Company reports option again.
+
+### Delete a company report
+
+Admins can delete a report using the Company report list option (described above) or delete a report from the Create project modal.
+
+![Other filters](assets/delete-fr-create-project-modal.png)
+
 
 ## Navigate the Learning tab {#navigate-learning}
 

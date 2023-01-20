@@ -85,7 +85,7 @@ One common use case for the Project Manager page was to view all your projects.
 
 To view all of your projects on the new landing page by using the filter rail, select **OTHER FILTERS** and then select **Show all**. 
 
-![Other filters](assets/show-all-filter.png)
+![Show all projects](assets/show-all-fIlter.png)
 
 If you're in the "Folders & Projects" view, a modal will pop-up asking if you want to switch to the "All projects" view which makes it easier to view all of your projects outside of any folders that they may be organized in.   Select **Switch to "All projects" view** to better view all of the projects you have access to. 
 

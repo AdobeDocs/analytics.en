@@ -177,20 +177,6 @@ Click the linked section titles for more information and context about the avail
 | | Limit max items | Reduces the number of items on the X-axis in the Scatter visualization. This can be useful if you have a large data set. |
 | | Anchor y-axis at zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
 
-## Restore default preferences
-
-You can restore all your user preferences to the system defaults. This does not affect administrator preferences under the Company tab.
-
-This action cannot be undone.
-
-1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**].
-
-   ![User preferences](assets/user-preferences.png)
-
-1. In the upper-right, select **[!UICONTROL Restore defaults]**.
-
-1. When prompted, select **[!UICONTROL Restore defaults]**.
-
 ## Company preferences
 
 You can update company preferences that apply to all users and projects within your organization. For information about how to access these preferences, see [Update preferences](#update-preferences). 
@@ -206,6 +192,20 @@ You can update company preferences that apply to all users and projects within y
 | | Display the "Require single sign-on authentication" option to users | <p>Allows users in your organization to choose whether they want to require single sign-on authentication for projects they share.</p><p>Consider the following when enabling this option:</p><ul><li><p>This option is available only if SSO is implemented in your organization. For information about how system administrators can enable SSO for your organization, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.</p><p>If SSO is configured for your organization, check to see if any kind of auto-account creation is implemented in the console. Typically, a system administrator would set this up, as described in [Enable automatic account creation](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li></ul>  |
 
 {style="table-layout:auto"}
+
+## Restore default preferences
+
+You can restore all your user preferences to the system defaults. This does not affect administrator preferences under the Company tab.
+
+This action cannot be undone.
+
+1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**].
+
+   ![User preferences](assets/user-preferences.png)
+
+1. In the upper-right, select **[!UICONTROL Restore defaults]**.
+
+1. When prompted, select **[!UICONTROL Restore defaults]**.
 
 ## [!UICONTROL Dark theme]
 

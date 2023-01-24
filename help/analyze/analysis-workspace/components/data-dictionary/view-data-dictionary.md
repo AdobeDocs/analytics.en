@@ -6,6 +6,8 @@ role: User, Admin
 ---
 # View component information in the Data Dictionary
 
+{{release-limited-testing}} 
+
 The Data Dictionary allows you to view information about a component, including the component description, similar components, other components a component is frequently used with, and more.
 
 To view information about a component in the Data Dictionary:

@@ -6,6 +6,8 @@ role: Admin
 ---
 # Edit component entries in the Data Dictionary
 
+{{release-limited-testing}} 
+
 Analytics administrators can edit component entries in the Data Dictionary for a given Report Suite. Any changes made are visible to all users of the Report Suite.
 
 To edit a component in the Data Dictionary:

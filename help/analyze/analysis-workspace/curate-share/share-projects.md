@@ -134,7 +134,7 @@ To share a public link to an Analysis Workspace project:
 
 1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon to copy the link to your system clipboard. 
 
-1. Share the link with the people you want to have access to the project. For example, you can paste the link as send it in an email. 
+1. Share the link with the people you want to have access to the project. For example, you can paste the link in an email. 
    
    Any person you share the link with can view the Analysis Workspace project. If you chose to require a password, you must also share the password with anyone you want to access the link.
 

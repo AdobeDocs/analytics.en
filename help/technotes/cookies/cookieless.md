@@ -8,7 +8,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 
 This document discusses options for preserving persistent visitor identification across properties and solutions as major browsers implement tracking prevention measures for cookies.
 
-Adobe Analytics relies on first-party cookies to record a visitor's on-site activity. Analytics also relies on third-party cookies to understand a visitor's off-site activity, such as activity on other domains you own. Third-party cookies are blocked on many browsers and will be largely unavailable with Chrome's upcoming removal of support (currently planned for 2022). First-party cookies are allowed on all browsers but have a limited expiry on Safari and other browsers under Apple's [ITP tracking prevention](https://webkit.org/tracking-prevention) measures. For more information about current limitations on browser cookies, see [Adobe Analytics and browser cookies](cookies.md).
+Adobe Analytics relies on first-party cookies to record a visitor's on-site activity. Analytics also relies on third-party cookies to understand a visitor's off-site activity, such as activity on other domains you own. Third-party cookies are blocked on many browsers and will be largely unavailable with Chrome's upcoming removal of support (currently planned for end of 2024). First-party cookies are allowed on all browsers but have a limited expiry on Safari and other browsers under Apple's [ITP tracking prevention](https://webkit.org/tracking-prevention) measures. For more information about current limitations on browser cookies, see [Adobe Analytics and browser cookies](cookies.md).
 
 These browser limitations reflect a broader move away from anonymous third-party tracking towards explicit sharing of information between users and brands they trust. To support this move, Adobe provides ways for customers to supplement traditional cookies by including durable identifiers collected via their first-party relationships.  
 
@@ -25,6 +25,10 @@ These browser limitations reflect a broader move away from anonymous third-party
 Server-side collection provides the flexibility to provide your own identifier rather than relying on browser mechanisms for setting cookies.
 
 You can submit data to Analytics server-side using either the [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or the [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). Bulk Data Insertion API is recommended for new server-side implementations. For a comparison of the two APIs, see “[Which Adobe Analytics tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html)."
+
+## First Party Device ID (FPID) with Web SDK
+
+With the Adobe Experience Platform Web SDK you can opt to set and manage your own device identifiers instead of the Adobe-generated Experience Cloud IDs (ECIDs). These are referred to as first-party device IDs (FPIDs). Learn more [here](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en).
 
 ## More information
 

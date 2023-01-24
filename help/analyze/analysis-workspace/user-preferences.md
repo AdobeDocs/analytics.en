@@ -179,6 +179,10 @@ Click the linked section titles for more information and context about the avail
 
 ## Company preferences
 
+>[!AVAILABILITY]
+>
+>The Public Access Links functionality described in this section is in the Limited Testing phase of release. This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
+
 You can update company preferences that apply to all users and projects within your organization. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
 | Section | Preference | Options |

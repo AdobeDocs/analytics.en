@@ -18,6 +18,8 @@ The following video describes how to add dimension and metric descriptions in a 
 
 ## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
 
+{{release-limited-testing-section}}
+
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
 
 For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).

@@ -32,7 +32,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`browser_width`** | Width in pixels of the browser window. | smallint unsigned |
 | **`c_color`** | Bit depth of the color palette. Used as part of calculating the [Color depth](/help/components/dimensions/color-depth.md) dimension. AppMeasurement uses the JavaScript function `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable used in the [Tracking Code](/help/components/dimensions/tracking-code.md) dimension.| varchar(255) |
-| **`carrier`** | Adobe Advertising Cloud integration variable. Specifies the mobile carrier. References the `carrier` lookup table. | varchar(100) |
+| **`carrier`** | Adobe Advertising integration variable. Specifies the mobile carrier. References the `carrier` lookup table. | varchar(100) |
 | **`ch_hdr`** | Client hints collected through the HTTP request header. | text |
 | **`ch_js`** | Client hints collected through the User-Agent Client Hints JavaScript API. | text |
 | **`channel`** | Variable used in the [Site sections](/help/components/dimensions/site-section.md) dimension.| varchar(100) |
@@ -65,7 +65,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`duplicate_events`** | Lists each event that was counted as a duplicate. | varchar(255) |
 | **`duplicate_purchase`** | Flag indicating that the purchase event for this hit is ignored because it is a duplicate. | tinyint unsigned |
 | **`duplicated_from`** | Only used in report suites containing hit copy VISTA rules. Indicates which report suite that the hit was copied from. | varchar(40)|
-| **`ef_id`** | The `ef_id` used in Adobe Advertising Cloud integrations. | varchar(255) |
+| **`ef_id`** | The `ef_id` used in Adobe Advertising integrations. | varchar(255) |
 | **`evar1 - evar250`** | Custom variables 1-250. Used in [eVar](/help/components/dimensions/evar.md) dimensions. Each organization uses eVars differently. The best place for more information on how your organization populates respective eVars would be a solution design document specific to your organization. | varchar(255) |
 | **`event_list`** | Comma-separated list of numeric IDs representing events triggered on the hit. Includes both default events and custom events 1-1000. Uses `event.tsv` lookup. | text |
 | **`exclude_hit`** | Flag indicating that the hit is excluded from reporting. The `visit_num` column is not incremented for excluded hits.<br>1: Not used. Part of a scrapped feature.<br>2: Not used. Part of a scrapped feature.<br>3: No longer used. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Alternate account-specific exclusion.<br>9: Not used. Part of a scrapped feature.<br>10: Invalid currency code<br>11: Hit missing a timestamp on a timestamp-only report suite, or a hit contained a timestamp on a non-timestamp report suite<br>12: Not used. Part of a scrapped feature.<br>13: Not used. Part of a scrapped feature.<br>14: Target hit that did not match up with an Analytics hit<br>15: Not currently used.<br>16: Advertising Cloud hit that did not match up to an Analytics hit | tinyint unsigned |
@@ -178,7 +178,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`ref_type`** | A numeric ID representing the type of referral for the hit. Used in the [Referrer type](/help/components/dimensions/referrer-type.md) dimension. <br>1: Inside your site<br>2: Other web sites <br>3: Search engines <br>4: Hard drive <br>5: USENET <br>6: Typed/Bookmarked (no referrer) <br>7: Email <br>8: No JavaScript <br>9: Social Networks | tinyint unsigned |
 | **`referrer`** | Page URL of the previous page. Used in the [Referrer](/help/components/dimensions/referrer.md) dimension. Note that while `referrer` uses a data type of varchar(255), `post_referrer` uses a data type of varchar(244). | varchar(255) |
 | **`resolution`** | Numeric ID representing the resolution of the monitor. Used in the [Monitor resolution](/help/components/dimensions/monitor-resolution.md) dimension. Uses `resolution.tsv` lookup table. | smallint unsigned |
-| **`s_kwcid`** | Keyword ID used in Adobe Advertising Cloud integrations. | varchar(255) |
+| **`s_kwcid`** | Keyword ID used in Adobe Advertising integrations. | varchar(255) |
 | **`s_resolution`** | Raw screen resolution value. Gathered using the JavaScript function `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Numeric ID representing the Search Engine that referred the visitor to your site. Uses `search_engines.tsv` lookup.| smallint unsigned|
 | **`search_page_num`** | Used by the [All Search Page Rank](/help/components/dimensions/all-search-page-rank.md) dimension. Indicates which page of search results your site appeared on before the user clicked through to your site. | smallint unsigned |

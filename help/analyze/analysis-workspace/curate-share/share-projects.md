@@ -126,15 +126,19 @@ To share a public link to an Analysis Workspace project:
 
      * If this option is enabled and dimmed, your Analytics administrator requires SSO authentication in order to access all public links. 
    
-   * **[!UICONTROL Require Password]:** Require people with the link to specify a password prior to accessing the Analysis Workspace project. If you select this option, specify a password. Remember to share this password along with the project link when you share it with others. <!--go through this workflow and see how it works.-->
+   * **[!UICONTROL Require Password]:** Require people with the link to specify a password prior to accessing the Analysis Workspace project. This provides an additional level of security to your project.
    
-   This provides an additional level of security to your project.
+     If you select this option, specify a password. Remember to share this password along with the project link when you share it with others. <!--go through this workflow and see how it works.-->
 
      If this option is enabled and dimmed, your Analytics administrator requires all public links to be password protected. Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).
 
-1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon to copy the link to your system clipboard. Any person you share the link with can view the Analysis Workspace project. If you chose to require a password, you must also share the password with anyone you want to access the link.
+1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon to copy the link to your system clipboard. 
 
-1. Click **[!UICONTROL Close]**. Your changes are automatically saved. <!-- True? -->
+1. Share the link with the people you want to have access to the project. For example, you can paste the link as send it in an email. 
+   
+   Any person you share the link with can view the Analysis Workspace project. If you chose to require a password, you must also share the password with anyone you want to access the link.
+
+1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved. <!-- True? -->
 
 
 ## Share projects in the Project manager {#Manager} 

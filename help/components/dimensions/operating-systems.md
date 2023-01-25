@@ -22,16 +22,16 @@ Below is a list of specific issues with how operating system has been represente
 
 ### Change to naming convention for Apple operating system: 
 
-Starting with Version 11 we will use OS X instead of Mac OS to refer to the Apple operating system.
+Starting with Version 11 we will use MacOS instead of OS X to refer to the Apple operating system.
 
 Examples:
 
-* MacOS version 10.15.7 (see note below about version 10.15.7 over representation in UA strings).
-* OS X version 11.0.0
+* "OS X 10.15" (see note below about version 10.15.7 over representation in UA strings).
+* "MacOS 11.0.0
 
 ### Mac OS version is incorrect in the User Agent after version 10.15.7  
 
-As of January 2023, the User Agent in all browsers shows the Mac OS version as 10.15.7, even for newer versions. This was done because including version 11 in the UA apparently caused problems with some websites. Apple also notes that including an incorrect OS version in the UA provides some privacy benefits. 
+The User Agent on Apple computers shows the OS version as 10.15.7 even if it is a newer versions. This was done because including version 11 in the UA apparently caused problems with some websites. This is true for *all browsers* and is not related Google's 'freezing' of the User Agent on Chromium browsers.
 
 Note that client hints include the correct version in the platform version hint ("Sec-CH-UA-Platform-Version"). This is a high-entropy hint so is not automatically collected by Adobe. See the [Adobe Analytics Hints FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) for details on how to collect high-entropy hints.
 

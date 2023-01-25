@@ -29,6 +29,8 @@ You can also share a link to a specific part of a project, such as a panel or in
 
 ## Get public link
 
+{{release-limited-testing-section}}
+
 You can share Analysis Workspace projects with people who don't have access to Adobe Analytics. This can include people outside your organization or those within your organization who are not provisioned with Adobe Analytics.
 
 For more information, see [Share a public link with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).)

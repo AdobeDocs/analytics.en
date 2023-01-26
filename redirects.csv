@@ -371,3 +371,12 @@ source,destination
 /docs/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html,/docs/analytics/components/metrics/unique-visitors.html
 /docs/analytics/export/analytics-data-feed/data-feed-jobs/t-job-rerun.html,/docs/analytics/export/analytics-data-feed/df-manage-jobs.html
 /docs/analytics/components/variables/dimensions-reports/reports-technology.html,/docs/analytics/components/dimensions/overview.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/c-company-settings.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/feature-access-levels.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/feature-access-levels.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/web-services-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/report-builder-reports-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/single-signon-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/single-signon-admin.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/pending-actions-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/pending-actions-admin.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/co-branding-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/c-hide-report-suites.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/security-manager.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html

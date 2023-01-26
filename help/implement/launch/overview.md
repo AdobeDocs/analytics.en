@@ -12,11 +12,11 @@ Tags in Adobe Experience Platform is a tag management solution that lets you dep
 
 All customers with an active Adobe Experience Cloud contract can use tags. If you are not sure if you have access, contact one of your organization's Experience Cloud system admins.
 
-## Overall workflow
+A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../assets/analytics-extension-annotated.png)
 
-| | Step | More Information | 
+| | Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |

@@ -27,7 +27,7 @@ For your **website**, the following implementation methods are available:
 
 *   **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the Web SDK extension in Adobe Experience Platform Data Collection, use a loader tag on each page, and send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
-See [Implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
+See [Implement Adobe Analytics using the Adobe Experience Platform Web SDK extension](./aep-edge/overview.md) for more information.
 
 *   **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Adobe Experience Platform Data Collection. Reference the Web SDK library (`alloy.js`) on each page, and send the desired tracking calls to Adobe Experience Edge.
 ![Web SDK](./assets/websdk-implementation.png)

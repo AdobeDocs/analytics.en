@@ -9,11 +9,13 @@ You can use the [Adobe Experience Platform Web SDK](https://experienceleague.ado
 
 You can send data to Experience Edge directly using the Web SDK, or through the Web SDK extension in Tags.
 
-## Overall workflow for Web SDK
+## Web SDK
+
+A high-level overview of the implementation tasks:
 
 ![Implement Adobe Analytics using Web SDK workflow](../../assets/websdk-annotated.png)
 
-| | Step | More Information | 
+| | Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |
@@ -25,11 +27,14 @@ You can send data to Experience Edge directly using the Web SDK, or through the 
 | 8 | **Extend and validate your implementation** before pushing it out to production. | | 
 
 
-## Overall workflow for Web SDK extension
+
+## Web SDK extension
+
+A high-level overview of the implementation tasks:
 
 ![Implement Adobe Analytics using Web SDK extension workflow](../../assets/websdk-extension-annotated.png)
 
-| | Step | More Information | 
+| | Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |

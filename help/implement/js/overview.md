@@ -8,11 +8,11 @@ exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 
 AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [tags in Adobe Experience Platform](../launch/overview.md) is recommended.
 
-## Overall workflow
+A high-level overview of the implementation tasks: 
 
 <table>
 <tr>
-<td></td><td> <b>Step</b></td><td><b>More Information</b></td>
+<td></td><td> <b>Task</b></td><td><b>More Information</b></td>
 </tr>
 
 <tr>
@@ -64,7 +64,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Send the data to Adobe using the <code>t()</code> method</b>, when all page variables are defined. These variables determine specific dimension and metrics sent to Adobe.
+<td>6</td><td><b>Send the data to Adobe using the <code>t()</code> method</b>, when all page variables are defined.
 
 ```js
 s.t();

@@ -13,7 +13,7 @@ Adobe requires code on your site or app to send data to Adobe's data collection 
 1.  When a visitor comes to your site, a request is made to your web server.
 2.  Your site's web server sends the page code information, and the page displays in the browser.
 3.  The page loads, and the Analytics JavaScript code runs.
-   The JavaScript code sends an image request Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
+   The JavaScript code sends an image request to Adobe data collection servers. Page data that you defined in your implementation are sent as part of a query string in this image request.
 
 4.  Adobe returns a transparent pixel image.
 5.  Adobe servers store collected data in one or more *report suites*.
@@ -26,15 +26,17 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 For your **website**, the following implementation methods are available:
 
 *   **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the Web SDK extension in Adobe Experience Platform Data Collection, use a loader tag on each page, and send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
-![Web SDK extension](./assets/websdk-edge-implementation.png)
+![Web SDK extension](./assets/websdk-extension-implementation.png)
+See [Implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
 
 *   **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Adobe Experience Platform Data Collection. Reference the Web SDK library (`alloy.js`) on each page, and send the desired tracking calls to Adobe Experience Edge.
 ![Web SDK](./assets/websdk-implementation.png)
+See [Implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
 
 
 *   **Analytics extension**: Install the Adobe Analytics extension in Adobe Experience Platform Data Collection. Place a loader tag on each page, and use the Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Adobe Experience Platform Data Collection, but not want to use Adobe's Experience Platform Edge network infrastructure.
 ![Adobe Analytics extension](./assets/analytics-extension-implementation.png)
-See [Implement Adobe Analytics with Adobe Experience Platform Tags](launch/overview.md) for more information.
+See [Implement Adobe Analytics using the Analytics extension](launch/overview.md) for more information.
 
 *   **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Reference the AppMeasurement library (`AppMeasurement.js`) on each page and then outline variables and settings used in an implementation. 
 ![Legacy JavaScript](./assets/appmeasurement-implementation.png)
@@ -64,7 +66,7 @@ The following decision flow might help you select an implementation method:
 
 For your **mobile app**, the following implementation methods are available:
 
-*   **Mobile SDK extension**: The standardized and recommended method to implement Adobe Analytics in your mobile app. Use dedicated libraries to easily send data to Adobe from within your mobile app. Install the Mobile SDK extension in Adobe Experience Platform Data Collection and implement the correct code in your app to import libraries, register extensions and load the tag configuration. This will send data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
+*   **Mobile SDK extension**: The standardized and recommended method to implement Adobe Analytics in your mobile app. Use dedicated libraries to easily send data to Adobe from within your mobile app. Install the Mobile SDK extension in Adobe Experience Platform Data Collection and implement the correct code in your app to import libraries, register extensions and load the tag configuration. This sends data to Adobe Experience Platform Edge in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
 ![Mobile SDK extension](./assets/mobilesdk-extension.png)
 
 *   **Analytics extension**: Install the Adobe Analytics extension in Adobe Experience Platform Data Collection, and implement the correct code in your application to import libraries, register extensions and load the tag configuration. Use the Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Adobe Experience Platform Data Collection, but not want to use Adobe's Experience Platform Edge network infrastructure.
@@ -73,7 +75,7 @@ For your **mobile app**, the following implementation methods are available:
 
 >[!CAUTION]
 >
->Support for Version 4 Mobile SDK's ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information.
+>Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information.
 
 
 ## Key Analytics Implementation articles
@@ -90,6 +92,5 @@ For your **mobile app**, the following implementation methods are available:
 ## Key Analytics resources
 
 * [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Analytics Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics Resources](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)

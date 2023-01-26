@@ -5,12 +5,46 @@ exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 
-You can use the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) to send data to Adobe Analytics. This implementation method works by translating the [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) into a format used by Analytics.
+You can use the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html) to send data to Adobe Analytics. This implementation method works by translating the [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) into a format used by Analytics.
 
-## Setup
+You can send data to Experience Edge directly using the Web SDK, or through the Web SDK extension in Tags.
 
-To set up Analytics to receive XDM data:
+## Overall workflow for Web SDK
 
-1. Install and [configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html).
+![Implement Adobe Analytics using Web SDK workflow](../../assets/websdk-annotated.png)
 
-1. Make sure that the applicable report suites are mapped to the data you want. XDM data automatically flows to the report suite from Adobe Experience Edge.
+| | Step | More Information | 
+|-| ------|------------------|
+| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
+| 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |
+| 3 | **Install the prebuilt standalone version**. You can reference the library (`alloy.js`) on the CDN directly on your page or download and host it on your own infrastructure. Alternatively, you can use the NPM package. | [Installing the prebuilt standalone version](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-2%3A-installing-the-prebuilt-standalone-version) and [Using the NPM package](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-3%3A-using-the-npm-package)|
+| 4 | **Configure a datastream**. A datastream represents the server-side configuration when implementing the Adobe Experience Platform Web SDK. | [Configure a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) |
+| 5 | **Add an Adobe Analytics service** to your datastream. That service controls whether and how data is sent to Adobe Analytics. | [Add Adobe Analytics service to a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics)
+| 6 | **Configure the Web SDK**. Ensure the version that you installed in step 3 is properly configured with the datastream ID (formerly known as edge configuration id (`edgeConfigId`)), organization id (`orgId`), and other available options. | [Configure the Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) | 
+| 7 | **Execute commands** and/or **track events**. After the base code has been implemented on your webpage, you can begin executing commands and tracking events with the SDK. | [Execute commands](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=en) and [Track events](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=en) |
+| 8 | **Extend and validate your implementation** before pushing it out to production. | | 
+
+
+## Overall workflow for Web SDK extension
+
+![Implement Adobe Analytics using Web SDK extension workflow](../../assets/websdk-extension-annotated.png)
+
+| | Step | More Information | 
+|-| ------|------------------|
+| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
+| 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |
+| 3 | **Configure a datastream**. A datastream represents the server-side configuration when implementing the Adobe Experience Platform Web SDK. | [Configure a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) |
+| 4 | **Add an Adobe Analytics service** to your datastream. That service controls whether and how data is sent to Adobe Analytics. | [Add Adobe Analytics service to a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics)
+| 5 | **Create a tag property**. Properties are overarching containers used to reference tag management data.| [Create or configure a tag property for web](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#for-web) |
+| 6 | **Install and configure the Web SDK extension** in your tag property. Configure the Web SDK extension to send data to the datastream configured in step 3. | [Adobe Experience Platform Web SDK extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=en) |
+| 7 | **Iterate, validate, and publish** to production. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation. | [Publishing overview](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en)
+
+
+
+## Additional resources
+
+Tags can be highly customized. Learn more about how you can get the most out of Adobe Analytics by including the right data in your implementation.
+
+-   [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
+
+-   [Adobe Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en)

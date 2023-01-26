@@ -12,7 +12,7 @@ Many Adobe customers have legal teams that have reviewed the Data Privacy laws (
 
 Adobe Analytics provides tools for labeling data according to its sensitivity and contractual restrictions. Labels are important and useful for helping: (1) identify data subjects, (2) determine which data to return as part of an access request, and (3) identify data fields that must be deleted as part of a deletion request.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 

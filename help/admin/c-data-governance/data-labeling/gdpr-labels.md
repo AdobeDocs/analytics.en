@@ -6,7 +6,7 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
 # Data Privacy Labels for Analytics Variables
 
-## Why label Your data? {#why-label}
+## Why label your data? {#why-label}
 
 Many Adobe customers have legal teams that have reviewed the Data Privacy laws (GDPR, CCPA, etc.). These teams may have drawn their own conclusions about how data should be handled in order to conform with Data Privacy laws. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for Data Privacy data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for Data Privacy data processing for their unique data. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
@@ -48,7 +48,7 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
 
 Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to be compliant with regulations and corporate policies.
 
-### Data Privacy Access Labels
+### Data Privacy Access labels
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ Data Governance labels provide users the ability to classify data that reflects 
 
 While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with data subjects.
 
-### Data Privacy Delete Labels
+### Data Privacy Delete labels
 
 Unlike the other labels, these Delete labels are not mutually exclusive. You can select either, both or none. A separate [!UICONTROL None] label is not necessary, because [!UICONTROL None] is indicated simply by not checking either of the Delete options.
 
@@ -73,7 +73,7 @@ A delete label is required only for fields that contain a value that would allow
 
 {style="table-layout:auto"}
 
-### Data Privacy Identity Labels
+### Data Privacy Identity labels
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
@@ -128,7 +128,7 @@ As another example, you might have a CRM ID that is sometimes sent in via eVar1 
 >
 >The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-## Variable Types and the Data Privacy/DULE Labels they support {#variable-types}
+## Variable types and the Data Privacy/DULE labels they support {#variable-types}
 
 Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
 
@@ -204,7 +204,7 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
  </tbody> 
 </table>
 
-## Deletion Handling {#deletion}
+## Deletion handling {#deletion}
 
 Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
 

@@ -80,10 +80,6 @@ For **new** projects that have never been saved, unsaved changes are not recover
 
 ## Open a previous version {#previous-version}
 
->[!NOTE]
->
->Previous project versions are currently in limited release.
-
 To open a previous version of a project:
 
 1. Go to **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**

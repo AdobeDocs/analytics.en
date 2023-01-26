@@ -14,16 +14,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
   + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
   + [System requirements](get-started/sys-reqs.md)
-  + Company Settings {#company-settings}
-    + [Company Settings overview](get-started/company/c-company-settings.md)
-    + [Feature access levels](get-started/company/feature-access-levels.md)
-    + [Web Services](get-started/company/web-services-admin.md)
-    + [Report Builder reports](get-started/company/report-builder-reports-admin.md)
-    + [Single sign-on](get-started/company/single-signon-admin.md)
-    + [Pending actions](get-started/company/pending-actions-admin.md)
-    + [Co-Branding](get-started/company/co-branding-admin.md)
-    + [Hide report suites](get-started/company/c-hide-report-suites.md)
-    + [Security Manager](get-started/company/security-manager.md)
 + User permissions in the Adobe admin console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
@@ -154,6 +144,16 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+  + Company Settings {#company-settings}
+    + [Company Settings overview](admin/company/c-company-settings.md)
+    + [Feature access levels](admin/company/feature-access-levels.md)
+    + [Web Services](admin/company/web-services-admin.md)
+    + [Report Builder reports](admin/company/report-builder-reports-admin.md)
+    + [Single sign-on](admin/company/single-signon-admin.md)
+    + [Pending actions](admin/company/pending-actions-admin.md)
+    + [Co-Branding](admin/company/co-branding-admin.md)
+    + [Hide report suites](admin/company/c-hide-report-suites.md)
+    + [Security Manager](admin/company/security-manager.md)
   + [Simplified reports menu](admin/t-simplified-menu.md)
   + [Video management](admin/video-management.md)
   + Server Call Usage {#server-call-usage}

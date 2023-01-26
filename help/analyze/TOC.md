@@ -10,6 +10,10 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 
 + [Analytics Tools Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ Get started with Analytics administration {#admin-overview}
+  + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
+  + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
+  + [System requirements](get-started/sys-reqs.md)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)

@@ -380,3 +380,11 @@ https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-s
 https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/co-branding-admin.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/c-hide-report-suites.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-settings/security-manager.html,https://experienceleague.corp.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html
+/docs/analytics/admin/data-governance/an-gdpr-overview.html,/docs/experience-platform/privacy/home.html
+/docs/analytics/admin/data-governance/an-ccpa-overview.html,/docs/experience-platform/privacy/home.html
+/docs/analytics/admin/data-governance/gdpr-terminology.html,/docs/experience-platform/privacy/regulations/terminology.html
+/docs/analytics/admin/data-governance/gdpr-labels.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labels.html
+/docs/analytics/admin/data-governance/gdpr-setup-reportsuite.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-setup-reportsuite.html
+/docs/analytics/admin/data-governance/gdpr-view-settings.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-view-settings.html
+/docs/analytics/admin/data-governance/gdpr-analytics-ids.html,docs/analytics/admin/data-governance/data-labeling/gdpr-analytics-ids.html
+/docs/analytics/admin/data-governance/gdpr-labeling-example.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labeling-example.html

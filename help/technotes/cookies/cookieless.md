@@ -24,7 +24,7 @@ These browser limitations reflect a broader move away from anonymous third-party
 
 Server-side collection provides the flexibility to provide your own identifier rather than relying on browser mechanisms for setting cookies.
 
-You can submit data to Analytics server-side using either the [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or the [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). Bulk Data Insertion API is recommended for new server-side implementations. For a comparison of the two APIs, see “[Which Adobe Analytics tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html)."
+You can submit data to Analytics server-side using either the [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or the [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). Bulk Data Insertion API is recommended for new server-side implementations. For a comparison of the two APIs, see "[Which Adobe Analytics tool should I use](/help/analyze/get-started/which-analytics-tool.md)."
 
 ## First Party Device ID (FPID) with Web SDK
 

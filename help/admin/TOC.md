@@ -10,10 +10,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 
 + [Analytics Admin Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ Get started with Analytics administration {#admin-overview}
-  + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
-  + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
-  + [System requirements](get-started/sys-reqs.md)
 + User permissions in the Adobe admin console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)

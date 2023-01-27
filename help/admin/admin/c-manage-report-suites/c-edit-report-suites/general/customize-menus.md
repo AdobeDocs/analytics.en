@@ -4,9 +4,9 @@ title: Menu Customizing
 feature: Admin Tools
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 ---
-# Menu Customizing
+# Customize menus
 
-This feature lets you customize the report menus that a user sees in Reports & Analytics. You can show or hide reports, as well as move them in different folders across all users. This feature is especially useful if your organization only uses certain reports and does not wish to clutter your left hand menu with unused or irrelevant data.
+You can customize the report menus that a user sees in Reports & Analytics. You can show or hide reports, as well as move them in different folders across all users. This is especially useful if your organization only uses certain reports and does not want to clutter your left-hand menu with unused or irrelevant data.
 
 The menu changes apply to all users who access the report suite. However, users can restore a menu's default configuration while using the report suite.
 

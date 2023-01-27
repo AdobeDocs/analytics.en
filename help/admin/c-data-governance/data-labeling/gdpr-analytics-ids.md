@@ -10,7 +10,7 @@ exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 >
 >Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
-## Directly vs Indirectly Identifiable IDs {#section_030799AA1397433FBA61A2BC60A7A750}
+## Directly vs indirectly identifiable IDs {#direct-vs-indirect}
 
 Before you can figure out which labels should be applied to which variables/fields, it is first necessary to understand the IDs that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests. Data Privacy expands the scope of what can be considered to be an ID. IDs fall into two broad classes: directly identifiable (identity label: I1) and indirectly identifiable (identity label: I2).
 
@@ -26,7 +26,7 @@ Even if your company collects many different IDs within your Analytics data, you
 * Some IDs may correspond to multiple people and you don't want to risk returning information about one person to someone else with that same ID. For example, even if you can verify that someone's name is John Smith, you may not want to return all data about all John Smiths in your system.
 * Another example is a device ID, such as the Analytics Cookie ID. If the ID occurs on a cell phone app, you may decide that all interactions using that ID should be available to the owner of the cell phone. However, if it occurs on a shared device, such as a home computer or one in a library or internet cafe, you may decide that you cannot distinguish between users of that device and the risk of returning data for a different user is too great to allow using this type of ID.
 
-## Best Practices for IDs Supported by Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Best Practices for IDs supported by Analytics {#best-practices-an}
 
 Use this table to determine the types of IDs that you will use when submitting Data Privacy requests to Analytics. Once you know this information, it will be easier to determine the other labels you should use for your variables.
 
@@ -62,7 +62,7 @@ Use this table to determine the types of IDs that you will use when submitting D
  </tbody> 
 </table>
 
-## Best Practices for Setting Delete Labels {#section_08166C99B48E49218392FAC18922C10E}
+## Best Practices for setting Delete labels {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ The delete labels DEL-DEVICE and DEL-PERSON should be used sparingly. When appli
 
   For example, if you have three hits containing the value "foo" in eVar7, but only one of them also contains an ID in a different variable that is matched for a delete, then "foo" on that hit will be modified to a value like "Data Privacy-123456789", while it will remain unchanged in the other two hits. A report that shows the number of unique values for eVar7 will now show one more unique value than it did previously. A report that shows the top values for eVars may include "foo" with only two instances (rather than 3 previously), and the new value will show up as well, with a single instance.
 
-## Best Practices for Setting Access Labels {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Best Practices for setting Access labels {#best-practices-access}
 
 While very few fields will have any of the other labels, it will be common for a large number of fields to have ACC labels. The appropriate access labels will depend on the IDs you are using for Data Privacy requests.
 

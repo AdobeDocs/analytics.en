@@ -6,7 +6,7 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 ---
 # Labeling Examples
 
-## Sample Hit Data
+## Sample hit data {#hit}
 
 Suppose you have the following hit data:
 
@@ -26,7 +26,7 @@ Suppose you have the following hit data:
 | | John | 55 | G | R | X |
 | | Alice | 66 | A | N | Z |
 
-## Sample Access Request
+## Sample Access request {#access}
 
 If I submit an access request, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true.
 
@@ -135,7 +135,7 @@ If I submit an access request, the summary file contains the values indicated in
 
 Notice that the setting for expandIDs does not make any difference to the output when a cookie ID is used.
 
-## Sample Delete Requests
+## Sample Delete requests {#delete}
 
 With a delete request using the API values in the first row of the table, the hit table will be updated to look something like this: 
 

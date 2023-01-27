@@ -10,21 +10,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 
 + [Analytics Admin Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ Get started with Analytics administration {#admin-overview}
-  + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
-  + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
-  + [System requirements](get-started/sys-reqs.md)
-  + Company Settings {#company-settings}
-    + [Company Settings overview](get-started/company/c-company-settings.md)
-    + [Feature access levels](get-started/company/feature-access-levels.md)
-    + [Web Services](get-started/company/web-services-admin.md)
-    + [Report Builder reports](get-started/company/report-builder-reports-admin.md)
-    + [Single sign-on](get-started/company/single-signon-admin.md)
-    + [Pending actions](get-started/company/pending-actions-admin.md)
-    + [Co-Branding](get-started/company/co-branding-admin.md)
-    + [Hide report suites](get-started/company/c-hide-report-suites.md)
-    + [Security Manager](get-started/company/security-manager.md)
-+ User permissions in the Adobe admin console {#admin-console}
++ Adobe admin console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
@@ -83,7 +69,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + Paid search detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-        + [Menu customizing](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+        + [Customize menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
         + [Customize calendar](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
         + Processing rules {#c-processing-rules}
           + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
@@ -154,6 +140,16 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+  + Company Settings {#company-settings}
+    + [Company Settings overview](admin/company/c-company-settings.md)
+    + [Feature access levels](admin/company/feature-access-levels.md)
+    + [Web Services](admin/company/web-services-admin.md)
+    + [Report Builder reports](admin/company/report-builder-reports-admin.md)
+    + [Single sign-on](admin/company/single-signon-admin.md)
+    + [Pending actions](admin/company/pending-actions-admin.md)
+    + [Co-Branding](admin/company/co-branding-admin.md)
+    + [Hide report suites](admin/company/c-hide-report-suites.md)
+    + [Security Manager](admin/company/security-manager.md)
   + [Simplified reports menu](admin/t-simplified-menu.md)
   + [Video management](admin/video-management.md)
   + Server Call Usage {#server-call-usage}
@@ -163,19 +159,16 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Server call usage alerts](admin/c-server-call-usage/scu-alerts.md)
     + [Server call usage FAQ](admin/c-server-call-usage/overage-faq.md)
 + Data Governance {#data-governance}
-  + [Adobe Analytics and GDPR](c-data-governance/an-gdpr-overview.md)
-  + [Adobe Analytics and CCPA](c-data-governance/an-ccpa-overview.md)
-  + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
-  + [Frequently asked questions](c-data-governance/gdpr-faq.md)
   + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
-  + [Data Privacy labels for Analytics components](c-data-governance/gdpr-labels.md)
-  + [Label report suite data](c-data-governance/gdpr-setup-reportsuite.md)
-  + [View/manage report suite's privacy labels](c-data-governance/gdpr-view-settings.md)
-  + [Labeling best practices](c-data-governance/gdpr-analytics-ids.md)
-  + [Labeling example](c-data-governance/gdpr-labeling-example.md)
+  + [Frequently asked questions](c-data-governance/gdpr-faq.md)
+  + Data labeling {#data-labels}
+    + [Data Privacy labels for Analytics components](c-data-governance/data-labeling/gdpr-labels.md)
+    + [Label report suite data](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+    + [View/manage report suite's privacy labels](c-data-governance/data-labeling/gdpr-view-settings.md)
+    + [Labeling best practices](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+    + [Labeling example](c-data-governance/data-labeling/gdpr-labeling-example.md)
+    + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
   + [Submit access and delete requests](c-data-governance/gdpr-submit-access-delete.md)
-  + [Namespaces](c-data-governance/gdpr-namespaces.md)
   + [ID expansion](c-data-governance/gdpr-id-expansion.md)
-  + [Data Privacy and Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-  + [Data Privacy terminology](c-data-governance/gdpr-terminology.md)
+  + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
 + [Admin API](c-admin-api/c-admin-api.md)

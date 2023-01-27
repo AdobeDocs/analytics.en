@@ -69,7 +69,7 @@ If you want to apply the same DULE/Data Privacy settings to more than one report
    >
    >You should always check the destination report suites to make sure that the labels copied over correctly. This is especially important for variables that have ID or DEL labels.
 
-## Export to a .csv file
+## Export to a .csv file {#export-csv}
 
 You can download a CSV file containing all current label definitions for all variables for the selected report suite/s. We recommend that your legal team review your labeling choices and this option facilitates this review. Instead of needing to perform the review while logged into the Data Governance UI, you can share the .CSV file with them. 
 
@@ -79,6 +79,6 @@ You can download a CSV file containing all current label definitions for all var
 
 1. Select one or more report suites for which you want to export all data governance settings.
 
-## Edit privacy labels
+## Edit privacy labels {#edit}
 
-Refer to [Assign or edit report suite privacy labels](/help/admin/c-data-governance/gdpr-setup-reportsuite.md).
+Refer to [Assign or edit report suite privacy labels](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

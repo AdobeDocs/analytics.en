@@ -15,11 +15,11 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 >[!NOTE]
 >
->Client hints will be incorporated into Analytics device lookup process starting January 25, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup unti mid-January. This is to avoid potential disruption to reporting during the critical end-of-year period. As noted below operating system version will be frozen starting in October but due to a gradual rollout and the fact that most User Agents will be frozen to the correct OS version, we estimate that this will affect <3% of Chrome Visitors.
+>Client hints will be incorporated into Analytics device lookup process starting February 16, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >
->Starting in October 2022, new versions of Chromium browsers will start 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+>Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
 >[!NOTE]
 >
@@ -39,9 +39,11 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
+
+For data submitted via API, such as via [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), hints must be explicitly included in the payload. See the respective documentation for details.
 
 +++
 
@@ -66,6 +68,8 @@ The table below describes the client hints as of October 2022.
 | Sec-CH-UA-Full-Version-List |  List of brands with their version | High | "Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"  |  
 | Sec-CH-UA-Model |  Device model |  High |  "Pixel 3" |  
 | Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  "10" |  
+
+High entropy hints are collected via JavaScript call and passed via query parameter
 
 +++
 

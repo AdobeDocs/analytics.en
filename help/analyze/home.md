@@ -26,7 +26,7 @@ Here is a video overview of Adobe Analytics:
 
 * [Adobe Analytics dashboards - Overview](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace Getting Started](analysis-workspace/home.md)
-* [Which Adobe Analytics tool should I use?](/help/admin/get-started/which-analytics-tool.md)
+* [Which Adobe Analytics tool should I use?](/help/analyze/get-started/which-analytics-tool.md)
 * [Report Builder Getting Started](report-builder/home.md)
 * [Activity Map Getting Started](activity-map/activity-map.md)
 

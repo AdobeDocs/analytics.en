@@ -10,7 +10,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 
 + [Analytics Admin Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
-+ User permissions in the Adobe admin console {#admin-console}
++ Adobe admin console {#admin-console}
   + [Analytics in the Adobe Admin Console](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)

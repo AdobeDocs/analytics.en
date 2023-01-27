@@ -23,6 +23,8 @@ The JavaScript code execution occurs quickly and does not noticeably affect page
 
 Adobe Analytics requires code within your website, mobile app, or other application to send data to data collection servers. There are several methods to implement this code, depending on platform and your organization's needs.
 
+## Website implementation methods
+
 For your **website**, the following implementation methods are available:
 
 *   **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **AEP Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, use a loader tag on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
@@ -59,8 +61,9 @@ The following decision flow might help you select an implementation method:
 
 >[!TIP]
 >
->Please contact Adobe for advice and best practices on which implementation to choose based on your current situation. 
+>Please contact Adobe for advice and best practices on which implementation to choose based on your current situation. >
 
+## Mobile app implementation methods
 
 For your **mobile app**, the following implementation methods are available:
 

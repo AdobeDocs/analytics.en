@@ -18,8 +18,8 @@ A high-level overview of the implementation tasks:
 
 | | Task | More Information | 
 |-| ------|------------------|
-| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](help/admin/admin/c-manage-report-suites/report-suites-admin.md) |
-| 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data later](../prepare/data-layer.md) |
+| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
+| 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data layer](../prepare/data-layer.md) |
 | 3 | **Create a tag property**. Properties are overarching containers used to reference tag management data.| [Create an Adobe Analytics tag property](../launch/create-analytics-property.md) |
 | 4 | **Install the Analytics extension** in the tag property. Configure the Analytics extension to send data to Adobe Analytics. | [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) |
 | 5 | **Deploy to a development environment**. Have an environment where you can iterate on the development of tags. | [Deploy an Analytics implementation to a development environment](./deploy-dev.md) |

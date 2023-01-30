@@ -498,7 +498,7 @@ New features and enhancements released on January 18, 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p>More dimension item <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > filtering options </a> in freeform tables </p> </td>
+   <td colname="col1"> <p>More dimension item <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md"  > filtering options </a> in freeform tables </p> </td>
    <td colname="col2"> <p>These (advanced) filtering options for dimension items have been added (besides the existing "contains" and "does not contain" options): </p>
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18">
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contains all terms </li>

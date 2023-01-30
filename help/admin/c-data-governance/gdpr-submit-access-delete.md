@@ -102,7 +102,7 @@ Notice there are three blocks in the user's section, representing three separate
 Keep in mind that
 
 * The value "5D7236525AA6D9580A495C6C@AdobeOrg" in the "companyContexts" section must be updated with the value of your own Experience Cloud organization.
-* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md) section.
 * The "description" fields are ignored.
 * The "key" fields can contain any value that you want. If you have an internal ID that you are using for tracking Data Privacy requests, you could place that value here, to make it easier to match requests in Adobe's system to those in your own systems.
 

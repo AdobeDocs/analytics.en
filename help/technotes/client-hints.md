@@ -57,23 +57,20 @@ Not at this time. You can choose to collect all high-entropy hints or none.
 
 The table below describes the client hints as of October 2022.
 
-| Hint* | Description | High or Low Entropy | Example | 
+| Hint | Description | High or Low Entropy | Example | 
 | --- | --- | --- | --- | 
-| Sec-CH-UA  |  Browser and significant version  | Low |  "Google Chrome 84" |
-| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  TRUE |  
-| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | "Android" | 
-| Sec-CH-UA-Arch |  Architecture of the site |  High |  "arm"  |  
-| Sec-CH-UA-Bitness  | Architecture bitnes  | High  | "64"  |  
-| Sec-CH-UA-Full-Version  | Complete version of the browser |  High  | "84.0.4143.2" |  
-| Sec-CH-UA-Full-Version-List |  List of brands with their version | High | "Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"  |  
-| Sec-CH-UA-Model |  Device model |  High |  "Pixel 3" |  
-| Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  "10" |  
+| Sec-CH-UA  |  Browser and significant version  | Low |  `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  `true` |  
+| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | `"Android"` | 
+| Sec-CH-UA-Arch |  Architecture of the site |  High |  `"arm"`  |  
+| Sec-CH-UA-Bitness  | Architecture bitnes  | High  | `"64"`  |  
+| Sec-CH-UA-Full-Version  | Complete version of the browser |  High  | `"84.0.4143.2"` |  
+| Sec-CH-UA-Full-Version-List |  List of brands with their version | High | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"`  |  
+| Sec-CH-UA-Model |  Device model |  High |  `"Pixel 3"` |  
+| Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  `"10"` |  
 
-
-* Low-entropy hints are collected via header. High entropy hints are collected via JavaScript and passed in query string parameters.
-
-* High-entropy hints are collected via JavaScript call and passed via query parameter
-
+* Low-entropy hints are collected through the request header.
+* High-entropy hints are collected through JavaScript and passed through query string parameter values. The query string parameters use `h.` as a prefix in the image request.
 
 +++
 

@@ -25,10 +25,10 @@ High-entropy client hints are part of the context categories in Web SDK. See [Co
 
 ## collectHighEntropyUserAgentHints in AppMeasurement
 
-The `s.collectHighEntropyUserAgentHints` variable determines whether AppMeasurement requests high-entropy hints from Chromium browsers (e.g. Google Chrome and Microsoft Edge). These hints are used by Adobe Analytics to improve device and browser identification.
+The `s.collectHighEntropyUserAgentHints` variable determines if AppMeasurement requests high-entropy hints from Chromium browsers (for example, Google Chrome or Microsoft Edge). These hints are used by Adobe Analytics to improve device and browser identification.
 
-If set to TRUE all high entropy hints will be requested from the browser.
+If set to `true`, all high entropy hints will be requested from the browser.
 
-`s.collectHighEntropyUserAgentHints = true`
-
-`s.collectHighEntropyUserAgentHints = false`
+```js
+s.collectHighEntropyUserAgentHints = true;
+```

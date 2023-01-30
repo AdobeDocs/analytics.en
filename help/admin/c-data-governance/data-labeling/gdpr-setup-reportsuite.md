@@ -18,7 +18,7 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 ## Assign or edit report suite privacy labels {#assign-edit}
 
-**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics. To create a label for email addresses and cookie IDs, you must use the Adobe Experience Cloud Platform's Data Usage Labeling & Enforcement (DULE) framework in Analytics.
+**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics.
 
 1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 
@@ -42,10 +42,6 @@ Labeling report suite data means that you assign identity, sensitivity, and data
    This screen shows currently applied labels and allows you to apply additional labels. You may not be able to apply or modify all labels, depending on the component.
 
    ![Applied labels](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data.
 
 1. Click **[!UICONTROL Apply]** once you have completed all labeling.
 

@@ -39,7 +39,7 @@ The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an ove
 
 ## Copy privacy labels to a report suite  {#copy-to-rs}
 
-If you want to apply the same DULE/Data Privacy settings to more than one report suite, follow these steps:
+If you want to apply the same Data Privacy settings to more than one report suite, follow these steps:
 
 1. Select the variable that you want to copy. Note that you can only copy the labels for one variable at a time.
 1. Click **[!UICONTROL Copy to Report Suite(s)]** at the bottom of the Data Governance dialog.

@@ -46,6 +46,20 @@ For more information on Data Governance labels, see [Data Privacy Labels for Ana
 
 +++
 
++++ **How can I validate that the privacy service requests are working properly to delete data from Adobe Analytics?**
+
+Typically, Analytics customers set up some test report suites to verify functionality before it is released to the general public. Pre-production websites or apps will send data into these test/dev/QA report suites to evaluate how things will work when the code releases before real traffic is sent to the production report suites.
+
+However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. The reason for this is that a Data Privacy request is automatically applied to all report suites in the Experience Cloud organization, which is often all report suites for your company.
+
+There are a few ways that you can still test your Data Privacy processing prior to applying it to all your report suites:
+
+* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing.
+
+* Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites. For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces. These namespaces are hardcoded and you cannot specify alternate names for them in your test report suites.**
+
++++
+
 +++ **Where do I get started on getting Data Privacy ready with Adobe Analytics?**
 
 For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe Analytics Data Privacy Workflow](/help/admin/c-data-governance/an-gdpr-workflow.md).

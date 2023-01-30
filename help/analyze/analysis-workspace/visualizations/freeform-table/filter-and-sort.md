@@ -1,6 +1,6 @@
 ---
-description: Video discussing pagination, filtering and sorting.
-title: Pagination, filtering and sorting tables
+description: Documentation describing how to filter and sort tables in Analysis Workspace.
+title: Filter and sort tables
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
@@ -21,7 +21,7 @@ Freeform tables in Analysis Workspace are the foundation for interactive data an
 
     ![Filter icon in a table](assets/table-filter-icon.png)
 
- 1.  In the [!UICONTROL **Search word or phrase**] field, specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase that specify are shown. 
+ 1.  In the [!UICONTROL **Search word or phrase**] field, specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase specified are shown. 
 
  1. (Optional) To filter by different criteria or by multiple criteria, select [!UICONTROL **Show advanced**]. 
 
@@ -40,7 +40,7 @@ Freeform tables in Analysis Workspace are the foundation for interactive data an
 
 ## Sort tables
 
-You can sort the data of a Freeform table by any of the available columns in Analysis Workspace. 
+You can sort the data of a Freeform table by any column in Analysis Workspace that is a Metric. 
 
 A down arrow icon ![Down arrow icon sorted table column](assets/table-sort-arrow-icon.png) is visible in the header of the column that data is currently being sorted by. 
 

@@ -35,6 +35,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) |  URLs longer than 255 bytes are split. The first 255 bytes appear in the `g` parameter, and all remaining bytes appear in the `-g` parameter. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Shorthand for the `pageName` query string. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Shorthand for the `pageType` query string. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefix for several variables that represent [Client hints](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Hierarchy dimensions. |
 | `hp` | None | No longer used. In previous versions of Adobe Analytics, determined if the current URL was the browser's homepage. |
 | `j` | None | The JavaScript version installed in the browser. |

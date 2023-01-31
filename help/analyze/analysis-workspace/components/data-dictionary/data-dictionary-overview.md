@@ -12,13 +12,7 @@ The Data Dictionary in Analysis Workspace helps both users and administrators ke
 
 System administrators are responsible for curating this information about each component in the Data Dictionary and making it available to users.
 
-## Benefits and uses of the Data Dictionary
-
-* [Benefits for users](#benefits-for-users)
-
-* [Benefits for administrators](#benefits-for-administrators)
-
-### Benefits for users
+## Benefits for users
 
 The Data Dictionary helps users gain a better understanding of each component that is available to them. 
 
@@ -32,7 +26,7 @@ Information available in the Data Dictionary includes:
 
 * Whether a component is approved by the system administrator 
 
-### Benefits for administrators
+## Benefits for administrators
 
 The Data Dictionary helps system administrators keep track of and curate the components in their Analytics environment. 
 

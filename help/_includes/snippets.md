@@ -10,6 +10,33 @@
 
 1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), then select any of the following filter options to filter the list of components:
 
+
+|Option | Function |
+|---------|----------|
+| [!UICONTROL **Dimensions**] | Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Metrics**] | Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Segments**] | Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in CJA--> |
+| [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Missing description**] | Show only components that do not yet have a description in the Description field. This option is available only for administrators. |
+| [!UICONTROL **Duplicates**] | Show only components that have either the same label or the same description as that of another component in the selected Report Suite. This option is available only for administrators. |
+| [!UICONTROL **No data recently**] | Show only components that have not collected any data in the past 90 days. This option is available only for administrators. |
+| [!UICONTROL **Created by Adobe**] | Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. |
+| [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+| Unapproved (available only for administrators) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+
+      * [!UICONTROL **Dimensions**]: Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
+      * [!UICONTROL **Metrics**]: Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
+      * [!UICONTROL **Segments**]: Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in CJA-->
+      * [!UICONTROL **Date ranges**]: Show only components that are Date Ranges. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
+      * [!UICONTROL **Missing description**]: Show only components that do not yet have a description in the Description field. This option is available only for administrators.
+      * [!UICONTROL **Duplicates**]: Show only components that have either the same label or the same description as that of another component in the selected Report Suite. This option is available only for administrators.
+      * [!UICONTROL **No data recently**]: Show only components that have not collected any data in the past 90 days. This option is available only for administrators. 
+      * [!UICONTROL **Created by Adobe**]: Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown.   
+      * [!UICONTROL **Approved**]: Show only components that are marked as Approved by an administrator.
+      * Unapproved (available only for administrators) <!--this is in the requirements doc, but I don't see this in the UI--> 
+
+1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), then select any of the following filter options to filter the list of components:
+
       * [!UICONTROL **Dimensions**]: Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
       * [!UICONTROL **Metrics**]: Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.)
       * [!UICONTROL **Segments**]: Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in CJA-->

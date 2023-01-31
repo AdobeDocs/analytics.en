@@ -32,5 +32,5 @@ To view information about a component in the Data Dictionary:
 
    The following information about the component is displayed:
 
-        {{dd-component-information}}
+   {{dd-component-information}}
 

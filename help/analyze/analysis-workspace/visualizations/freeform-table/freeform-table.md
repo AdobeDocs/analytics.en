@@ -31,7 +31,7 @@ You can interact with and customize a freeform table in a variety of ways:
   * You can fit more rows into a single screen by adjusting the project's [view density](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html).
   * Each dimension row can show up to 400 rows, before pagination occurs. Click the number next to "Rows" to show more rows on a page. Navigate to a different page using the page arrow in the header.
   * Rows can be broken down by additional components. To breakdown many rows at once, simply select multiple rows and then drag the next component on top of the selected rows. Learn more about [breakdowns](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
-  * Rows can be [filtered](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) to show a reduced set of items. Additional settings are available under [Row settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+  * Rows can be [filtered](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) to show a reduced set of items. Additional settings are available under [Row settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
 
 * **Columns**
   * Components can be stacked within columns to create segmented metrics, cross-tab analysis and more.

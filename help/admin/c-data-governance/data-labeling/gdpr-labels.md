@@ -16,13 +16,7 @@ Before you can figure out which labels should be applied to which variables/fiel
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 
-## DULE labels {#dule-labels}
-
->[!NOTE]
->
->The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to Data Privacy. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
-
-## Identity data labels (DULE) {#identity-data-labels}
+## Identity data labels {#identity-data-labels}
 
 Identity data "I" labels are used to categorize data that can identify or contact a specific person.
 
@@ -33,7 +27,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
 
 {style="table-layout:auto"}
 
-## Sensitive data labels (DULE) {#sensitive-data-labels}
+## Sensitive data labels {#sensitive-data-labels}
 
 Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information.
 
@@ -128,9 +122,9 @@ As another example, you might have a CRM ID that is sometimes sent in via eVar1 
 >
 >The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-## Variable types and the Data Privacy/DULE labels they support {#variable-types}
+## Variable types and the Data Privacy labels they support {#variable-types}
 
-Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
+Data Privacy labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
 
 |Variable Type|Supported Labels|Unsupported Labels|
 |--- |--- |--- |

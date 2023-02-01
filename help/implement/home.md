@@ -60,7 +60,7 @@ The following decision flow might help you select an implementation method:
 
 >[!TIP]
 >
->Please contact Adobe for advice and best practices on which implementation to choose based on your current situation. >
+>Please contact Adobe for advice and best practices on which implementation to choose based on your current situation.
 
 ## Mobile app implementation methods
 

@@ -72,6 +72,8 @@ The table below describes the client hints as of October 2022.
 * Low-entropy hints are collected through the request header.
 * High-entropy hints are collected through JavaScript and passed through query string parameter values. The query string parameters use `h.` as a prefix in the image request.
 
+High entropy hints are collected via JavaScript call and passed via query parameter
+
 +++
 
 +++**Will there be any changes to device reporting in Analytics?**

@@ -127,11 +127,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
       + [Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
       + Traffic Management {#traffic-management}
-        + [Manage traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-        + [Schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-        + [Estimate past server calls and schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-        + [Specify permanent traffic increase](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-        + [Required lead time for traffic increases](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+        + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+        + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+        + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
       + [Individual report suite settings](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)  
       + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
       + Real-time reports {#real-time-reports}
@@ -165,6 +163,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Labeling best practices](c-data-governance/data-labeling/gdpr-analytics-ids.md)
     + [Labeling example](c-data-governance/data-labeling/gdpr-labeling-example.md)
     + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
+  + [Submit access and delete requests](c-data-governance/gdpr-submit-access-delete.md)
   + [ID expansion](c-data-governance/gdpr-id-expansion.md)
   + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
 + [Admin API](c-admin-api/c-admin-api.md)

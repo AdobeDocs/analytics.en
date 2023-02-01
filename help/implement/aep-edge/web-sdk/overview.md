@@ -23,7 +23,7 @@ A high-level overview of the implementation tasks:
 <tr>
 <td>1</td>
 <td>Ensure you have <b>defined a report suite</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -89,7 +89,7 @@ A high-level overview of the implementation tasks:
 <tr>
 <td>1</td>
 <td>Ensure you have <b>defined a report suite</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>

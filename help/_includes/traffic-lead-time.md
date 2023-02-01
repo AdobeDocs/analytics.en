@@ -6,7 +6,9 @@ exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 ---
 # Required lead time for traffic increases
 
-Adobe requires advance notice for new account setups, traffic spikes and traffic increases. Hardware must be allocated in advance to minimize latency and possible adverse impacts to the overall system.
+## Required lead time for traffic increases
+
+Adobe requires advance notice for new account setups, traffic spikes and traffic increases. Hardware must be allocated in advance to minimize latency and possible adverse impacts to the overall system. 
 
 Allocation of hardware is driven by alerts submitted through the reports & analytics user interface.
 
@@ -16,7 +18,7 @@ Allocation of hardware is driven by alerts submitted through the reports & analy
 
 Use the following guidelines to determine how far in advance you must submit a traffic alert:
 
-## Hardware Allocation Lead Times
+### Hardware Allocation Lead Times
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -57,6 +59,6 @@ Other things to consider:
 
 * Client Alerts are also needed when traffic decreases or a report suite is deprecated.
 
-## Hardware De-Allocation Due to Unrealized Traffic
+### Hardware De-Allocation Due to Unrealized Traffic
 
 Hardware for new accounts, traffic spikes and traffic increases will be de-allocated if the projected traffic in the client alert does not materialize within 4 weeks of the "Go live date". If the traffic is still anticipated, a new client alert must be generated as a traffic increase.

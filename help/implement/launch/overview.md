@@ -22,7 +22,7 @@ A high-level overview of the implementation tasks:
 | 3 | **Create a tag property**. Properties are overarching containers used to reference tag management data.| [Create an Adobe Analytics tag property](../launch/create-analytics-property.md) |
 | 4 | **Install the Analytics extension** in the tag property. Configure the Analytics extension to send data to Adobe Analytics. | [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) |
 | 5 | **Deploy to a development environment**. Have an environment where you can iterate on the development of tags. | [Deploy an Analytics implementation to a development environment](./deploy-dev.md) |
-| 6 | **Validate and publish to production**. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.| [Validate a development implementation and publish to production](./validate-publish-prod.md)
+| 6 | **Validate and publish to production**. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.| [Validate a development implementation and publish to production](./validate-publish-prod.md) |
 
 ## Additional resources
 

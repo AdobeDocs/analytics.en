@@ -7,9 +7,12 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 ---
 # Conversion Variables (eVars)
 
-The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on selected web pages of your site. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be visit-based and function similarly to cookies. Values passed into eVar variables follow the user for a predetermined period of time.
+The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on selected web pages of your site. Its primary purpose is to segment conversion success metrics in custom marketing reports. An eVar can be visit-based and function similarly to cookies. Values passed into eVar variables follow the user for a predetermined period of time. 
 
-Here is a video overview:
+
+## Conversion Variables (eVars) overview
+
+Following is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -27,9 +30,9 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 >
 >Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
-## Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md).
+Descriptions of fields used when [editing conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md.md).
 
 | Element | Description |
 | --- | --- |
@@ -62,3 +65,18 @@ eVars are not case sensitive. The upper or lower case used in reporting is based
 ### Counters
 
 While eVars are most often used to hold string values, they may also be configured to act as counters. eVars are useful as counters when you are trying to count the number of actions a user takes before an event. For example, you may use an eVar to capture the number of internal searches before purchase. Each time a visitor searches, the eVar should contain a value of '+1.' If a visitor searches four times before a purchase, you will see an instance for each total count: 1.00, 2.00, 3.00, and 4.00. However, only the 4.00 receives credit for the purchase event (Orders and Revenue Metrics). Only positive numbers are allowed as values of an eVar counter.
+
+## Add or edit conversion variables
+
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. Select a report suite.
+1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Variables]**.
+1. On the [!UICONTROL Conversion Variables] page, click the **[!UICONTROL Expand]** icon [+] next to the conversion variable you want to modify.
+
+   Or
+
+   Click **[!UICONTROL Add New]** to add an unused eVar to the report suite.
+1. Select the conversion variable fields you want to modify.
+
+   See [Conversion Variables - Descriptions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Some fields let you type directly in the field. Others let you select from a drop-down list of supported values.
+1. Click **[!UICONTROL Save]**.

@@ -34,9 +34,7 @@ You can also drag dates (and time dimensions) into a Workspace project. You can 
 
 ## About relative panel date ranges {#relative-panel-dates}
 
-If you’re working in Workspace, data previewed in the left rail (or within components) will be based on the panel date range. Three common use cases where you’ll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
-
-the data previewed in the left rail (or within components) will be based on the panel date range. 
+If you’re working in Workspace, you can make the date range components relative to the panel calendar so that data previewed in the left rail (or within components) will be based on the panel date range. Three common use cases where you’ll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
 
 To use relative panel date ranges
 
@@ -50,6 +48,7 @@ To use relative panel date ranges
 
     ![relative panel dates](assets/relative-date-snippet.png)
 
-2.	Click **Apply**.
+1.  Click **Apply**.
+    The relative dates are shown in the upper-right.
 
     ![relative dates in freeform ](assets/relative-date-range1.png)

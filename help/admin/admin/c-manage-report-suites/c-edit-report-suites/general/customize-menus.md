@@ -14,13 +14,22 @@ The menu changes apply to all users who access the report suite. However, users 
 >
 >Any change in menu structure does not affect Report Builder. Renaming a report will, however, be reflected in this tool.
 
-## Menu Customization Descriptions {#section_B0D224DACB914A378902A4E0E1234889}
+To customize the menus users see in Reports & Analytics:
 
-|Calendar|Description|
-|--- |--- |
-|New Folder|Adds a new folder above the currently selected item. Note that you must add at least one report to a folder before the folder is visible.|
-|Rename|Lets you change the name of the currently selected item.|
-|Default Name|Restores the default name of the currently selected item.|
-|Toggle Visibility|Hides (displays) the currently selected item. Hidden items appear with a gray line pattern in the Menu Customization page.|
-|Delete|Removes the currently selected item from the menu.|
-|Restore Defaults|Restores the menu to its original state.|
+1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to open the Report Suite Manager.
+1. Select the report suite for which you want to implement the simplified menu structure.
+1. Go to **[!UICONTROL Edit settings]** > **[!UICONTROL General]** > **[!UICONTROL Customize Menus]**.
+
+   ![Menu customization options](assets/restore-simplified.png)
+
+1. Select from the following menu options:
+
+   |Option|Description|
+   |--- |--- |
+   |New Folder|Adds a new folder above the currently selected item. Note that you must add at least one report to a folder before the folder is visible.|
+   |Rename|Lets you change the name of the currently selected item.|
+   |Default Name|Restores the default name of the currently selected item.|
+   |Toggle Visibility|Hides (displays) the currently selected item. Hidden items appear with a gray line pattern in the Menu Customization page.|
+   |Delete|Removes the currently selected item from the menu.|
+   |Restore Defaults|Restores the menu to its original state.|
+   |Restore Simplified|<p>Implements the simplified reports menu.</p><p>Be aware that applying the simplified menu removes all customization you may have made to the default menu structure. It also implements the simplified menu structure for all marketing reports and analytics users in your organization. Think carefully about the ramifications (such as training developed around your existing menu structure) before implementing this new menu, as you cannot revert to any customization in your existing menu structure.</p>|

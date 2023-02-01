@@ -15,17 +15,65 @@ A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../../assets/mobilesdk-annotated.png)
 
-|<div style="width:20px"></div>| Task | More Information | 
-|-| ------|------------------|
-| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
-| 2 | **Set up schemas and datasets**. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM). | [Set up schemas and datasets](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) |
-| 3 | **Configure a datastream**. A datastream represents the server-side configuration when implementing the Adobe Experience Platform Web SDK. | [Configure a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) |
-| 4 | **Add an Adobe Analytics service** to your datastream. That service controls whether and how data is sent to Adobe Analytics. | [Add Adobe Analytics service to a datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) |
-| 5 | **Create a mobile property**. A property is a container that you fill with extensions, rules, data elements, and libraries. | [Set up a mobile property](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) |
-| 6 | **Install the Adobe Experience Platform Edge Network extension** in the mobile tag property and configure the datastream in the extension. | [Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network/) |
-| 7 | **Use code in your app** to register the necessary extensions and load your tag configuration. | [Set up the configuration](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) |
-| 8 | **Implement and test functionality** using combination of tag's data elements, rules, additional extensions, and SDK API calls in your app. Inspect, validate, and debug data collection and experiences for your mobile application. | [Use the sample application](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) |
-| 9 | **Extend and validate your mobile app implementation** before pushing it out to production. | | 
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Task</b></th><th style="width:35%"><b>More Information</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Ensure you have <b>defined a report suite</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Setup schemas and datasets</b>. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Schemas UI overview</a> and <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Datasets UI overview</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>Configure a datastream</b>. A datastream represents the server-side configuration when implementing the Adobe Experience Platform Web SDK.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Configure a datastream<a></td> 
+</tr>
+
+<td>4</td>
+<td><b>Add an Adobe Analytics service</b> to your datastream. That service controls whether and how data is sent to Adobe Analytics.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Add Adobe Analytics service to a datastream</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Create a mobile property</b>. A property is a container that you fill with extensions, rules, data elements, and libraries.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Set up a mobile property</a></tr>
+
+<tr>
+<td>6</td>
+<td><b>Install the Adobe Experience Platform Edge Network extension</b> in the mobile tag property and configure the datastream in the extension.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
+</tr>
+
+<tr>
+<td>7</td>
+<td><b>Use code in your app</b> to register the necessary extensions and load your tag configuration.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Set up the configuration</a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><b>Implement and test functionality</b> using combination of tag's data elements, rules, additional extensions, and SDK API calls in your app. Inspect, validate, and debug data collection and experiences for your mobile application.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Use the sample application</a>
+</tr>
+
+<tr>
+<td>9</td>
+<td><b>Extend and validate your mobile app implementation</b> before pushing it out to production.</td>
+<td></td> 
+</tr>
+
+</table>
 
 
 ## Adobe Analytics extension.
@@ -34,14 +82,49 @@ A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../../assets/mobilesdk-analytics-annotated.png)
 
-|<div style="width:20px"></div> | Task | More Information | 
-|-| ------|------------------|
-| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
-| 2 | **Create a mobile property**. A property is a container that you fill with extensions, rules, data elements, and libraries. | [Set up a mobile property](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) |
-| 3 | **Install the Adobe Analytics extension** in the mobile tag property and configure the extension to point to your report suite. | [Adobe Analytics extension for mobile property](https://developer.adobe.com/client-sdks/documentation/adobe-analytics/) |
-| 4 | **Use code in your app** to register the necessary extensions and load your tag configuration. | [Set up the configuration](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) |
-| 5 | **Implement and test functionality** using combination of tag's data elements, rules, additional extensions, and SDK API calls in your app. Inspect, validate, and debug data collection and experiences for your mobile application. | [Use the sample application](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) |
-| 6 | **Extend and validate your mobile app implementation** before pushing it out to production. | | 
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Task</b></th><th style="width:35%"><b>More Information</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Ensure you have <b>defined a report suite</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Setup schemas and datasets</b>. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Schemas UI overview</a> and <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Datasets UI overview</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>Install the Adobe Analytics extension</b> in the mobile tag property and configure the extension to point to your report suite.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Adobe Analytics extension for mobile property</a>
+</tr>
+
+<tr>
+<td>4</td>
+<td><b>Use code in your app</b> to register the necessary extensions and load your tag configuration.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Set up the configuration</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Implement and test functionality</b> using combination of tag's data elements, rules, additional extensions, and SDK API calls in your app. Inspect, validate, and debug data collection and experiences for your mobile application.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Use the sample application</a>
+</tr>
+
+<tr>
+<td>6</td>
+<td><b>Extend and validate your mobile app implementation</b> before pushing it out to production.</td>
+<td></td> 
+</tr>
+
+</table>
 
 ## Additional resources
 

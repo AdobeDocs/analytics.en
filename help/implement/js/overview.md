@@ -14,7 +14,7 @@ A high-level overview of the implementation tasks:
 <table>
 
 <tr>
-<th style="width:5%"></th><th><b>Task</b></th><th><b>More Information</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>Task</b></th><th style="width:20%"><b>More Information</b></th>
 </tr>
 
 <tr>

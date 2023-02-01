@@ -15,7 +15,7 @@ A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../../assets/mobilesdk-annotated.png)
 
-| | Task | More Information | 
+|<div style="width:20px"></div>| Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Set up schemas and datasets**. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM). | [Set up schemas and datasets](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) |
@@ -34,7 +34,7 @@ A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../../assets/mobilesdk-analytics-annotated.png)
 
-| | Task | More Information | 
+|<div style="width:20px"></div> | Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Create a mobile property**. A property is a container that you fill with extensions, rules, data elements, and libraries. | [Set up a mobile property](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) |

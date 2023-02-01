@@ -14,7 +14,7 @@ A high-level overview of the implementation tasks:
 
 ![Implement Adobe Analytics using Web SDK workflow](../../assets/websdk-annotated.png)
 
-| | Task | More Information | 
+|<div style="width:20px"></div>| Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Setup schemas and datasets**. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM). | [Schemas UI overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) and [Datasets UI overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) |
@@ -34,7 +34,7 @@ A high-level overview of the implementation tasks:
 
 ![Implement Adobe Analytics using Web SDK extension workflow](../../assets/websdk-extension-annotated.png)
 
-| | Task | More Information | 
+|<div style="width:20px"></div> | Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Setup schemas and datasets**. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM). | [Schemas UI overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) and [Datasets UI overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) |

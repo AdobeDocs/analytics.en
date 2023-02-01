@@ -15,7 +15,7 @@ A high-level overview of the implementation tasks:
 
 ![Adobe Analytics using the Analytics extension workflow](../assets/analytics-extension-annotated.png)
 
-| | Task | More Information | 
+|<div style="width:20px"></div>| Task | More Information | 
 |-| ------|------------------|
 | 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
 | 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data layer](../prepare/data-layer.md) |

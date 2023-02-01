@@ -13,16 +13,54 @@ All customers with an active Adobe Experience Cloud contract can use tags. If yo
 
 A high-level overview of the implementation tasks:
 
+
+
 ![Adobe Analytics using the Analytics extension workflow](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>| Task | More Information | 
-|-| ------|------------------|
-| 1 | Ensure you have **defined a report suite**. | [Report Suite Manager](../../admin/admin/c-manage-report-suites/report-suites-admin.md) |
-| 2 | **Create a data layer** to manage the tracking of the data on your website. | [Create a data layer](../prepare/data-layer.md) |
-| 3 | **Create a tag property**. Properties are overarching containers used to reference tag management data.| [Create an Adobe Analytics tag property](../launch/create-analytics-property.md) |
-| 4 | **Install the Analytics extension** in the tag property. Configure the Analytics extension to send data to Adobe Analytics. | [Adobe Analytics extension overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) |
-| 5 | **Deploy to a development environment**. Have an environment where you can iterate on the development of tags. | [Deploy an Analytics implementation to a development environment](./deploy-dev.md) |
-| 6 | **Validate and publish to production**. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.| [Validate a development implementation and publish to production](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Task</b></th><th style="width:35%"><b>More Information</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>Ensure you have <b>defined a report suite</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Create a data layer</b>to manage the tracking of the data on your website.</td>
+<td>
+<a href="../prepare/data-layer.md">Create a data layer</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>Create a tag property</b>. Properties are overarching containers used to reference tag management data.</td>
+<td><a ref="../launch/create-analytics-property.md">Create an Adobe Analytics tag property</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>Install the Analytics extension</b> in the tag property. Configure the Analytics extension to send data to Adobe Analytics.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics extension overview</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Deploy to a development environment</b>. Have an environment where you can iterate on the development of tags.</td>
+<td><a href="./deploy-dev.md">Deploy an Analytics implementation to a development environment</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>Validate and publish to production</b>. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.</td>
+<td><a href="./validate-publish-prod.md">Validate a development implementation and publish to production</a></td>
+</tr>
+
+</table>
 
 ## Additional resources
 

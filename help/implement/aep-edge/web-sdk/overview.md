@@ -1,7 +1,6 @@
 ---
 title: Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 description: Use the Web SDK extension in Adobe Experience Platform Data Collection to send data to Adobe Analytics.
-exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 

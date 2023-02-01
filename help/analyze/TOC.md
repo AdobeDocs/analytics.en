@@ -10,6 +10,10 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 
 + [Analytics Tools Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ Get started with Adobe Analytics {#admin-overview}
+  + [Which Adobe Analytics tool should I use?](get-started/which-analytics-tool.md)
+  + [Analytics product comparison and requirements](get-started/analytics-product-comparison.md)
+  + [System requirements](get-started/sys-reqs.md)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
@@ -59,7 +63,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
         + [Dynamic vs. Static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Pagination, filtering and sorting tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+      + [Filter and sort tables](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
       + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
       + [What is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

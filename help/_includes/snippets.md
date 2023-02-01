@@ -39,7 +39,7 @@
    | [!UICONTROL **Preview**] | Shows a preview of how the component looks in Analysis Workspace. |
    | [!UICONTROL **Date last modified**] | Displays the day the component was last modified. This section is displayed when viewing Segments, Calculated metrics, and Date ranges. <!--for CJA, it is displayed for all components--> |
 
-{style="table-layout:auto"}
+   {style="table-layout:auto"}
 
 ## Release phase Limited Testing {#release-limited-testing}
 

@@ -316,7 +316,7 @@ source,destination
 /docs/analytics/admin/traffic-management/t-traffic-schedule-spike.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-schedule-spike.html
 /docs/analytics/admin/traffic-management/traffic-spike-estimate-past-server-calls.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-spike-estimate-past-server-calls.html
 /docs/analytics/admin/traffic-management/t-traffic-permanent.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-permanent.html
-/docs/analytics/admin/traffic-management/traffic-lead-time.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-lead-time.html
+/docs/analytics/admin/traffic-management/traffic-lead-time.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-permanent.html
 /docs/analytics/admin/admin-tools/marketing-channels-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels-admin.html
 /docs/analytics/admin/admin-tools/bot-removal/bot-removal.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/bot-removal/bot-removal.html
 /docs/analytics/admin/admin-tools/bot-removal/bot-rules.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/bot-removal/bot-rules.html

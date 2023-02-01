@@ -114,7 +114,6 @@ Please contact your Account Manager (CSM) to coordinate with our Engineering Arc
 
 +++
 
-
 Additional Data Privacy Resources:
 
 * [GDPR Common Terms](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf) 

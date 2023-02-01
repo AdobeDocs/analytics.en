@@ -8,7 +8,7 @@ exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 ---
 # Create shareable links
 
-Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Users who receive a link are required to log in to Adobe Analytics before they can get to the project. 
+Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. For most types of links, users who receive a link are required to log in to Adobe Analytics before they can get to the project. 
 
 ## Get project link {#project-link} 
 
@@ -18,7 +18,7 @@ To share a link to the full project, go to **[!UICONTROL Share > Get project lin
 
 ## Get panel or visualization link {#panel-link} 
 
-You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users’ attention to key insights within the project.  
+You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users' attention to key insights within the project.  
 
 * From any panel header, right-click **[!UICONTROL Get panel link]** 
 * From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
@@ -27,10 +27,18 @@ You can also share a link to a specific part of a project, such as a panel or in
 
 ![](assets/get-viz-link.png)
 
+## Get public link
+
+{{release-limited-testing-section}}
+
+You can share Analysis Workspace projects with people who don't have access to Adobe Analytics. This can include people outside your organization or those within your organization who are not provisioned with Adobe Analytics.
+
+For more information, see [Share a public link with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
+
 ## Use links in a Table of contents {#TOC} 
 
 One tip for leveraging the various link options is to always include a table of contents at the top of your Workspace project. In the table of contents, you can link to other relevant projects, specific panels and specific visualizations. This helps the recipient of the project to navigate more easily.  
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) on how to construct a Table of contents using links and Workspace’s rich text editor. 
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) on how to construct a Table of contents using links and Workspace's rich text editor. 
 
 ![](assets/toc.png)

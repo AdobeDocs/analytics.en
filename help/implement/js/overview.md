@@ -12,8 +12,9 @@ A high-level overview of the implementation tasks:
 ![Implementing Adobe Analytivs with AppMeasurement overview](../assets/appmeasurement-annotated.png)
 
 <table>
+
 <tr>
-<td></td><td> <b>Task</b></td><td><b>More Information</b></td>
+<th style="width:5%"></th><th><b>Task</b></th><th><b>More Information</b></th>
 </tr>
 
 <tr>

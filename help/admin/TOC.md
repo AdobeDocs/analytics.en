@@ -11,10 +11,10 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 + [Analytics Admin Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe admin console {#admin-console}
-  + [Analytics in the Adobe Admin Console](admin-console/home.md)
+  + [Overview](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-  + Permissions {#permissions}
+  + Analytics tools permissions summary {#permissions}
     + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
@@ -150,7 +150,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Co-Branding](admin/company/co-branding-admin.md)
     + [Hide report suites](admin/company/c-hide-report-suites.md)
     + [Security Manager](admin/company/security-manager.md)
-  + [Simplified reports menu](admin/t-simplified-menu.md)
   + [Video management](admin/video-management.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)

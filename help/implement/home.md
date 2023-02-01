@@ -81,7 +81,6 @@ For your **mobile app**, the following implementation methods are available:
 >
 >Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information.
 
-
 ## Key Analytics Implementation articles
 
 * [Take charge of an existing Adobe Analytics implementation](/help/implement/prepare/existing-implementation.md)

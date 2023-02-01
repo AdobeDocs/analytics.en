@@ -10,14 +10,14 @@ exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 >
 >Remember that Labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
-## Directly vs Indirectly Identifiable IDs {#section_030799AA1397433FBA61A2BC60A7A750}
+## Directly vs indirectly identifiable IDs {#direct-vs-indirect}
 
 Before you can figure out which labels should be applied to which variables/fields, it is first necessary to understand the IDs that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests. Data Privacy expands the scope of what can be considered to be an ID. IDs fall into two broad classes: directly identifiable (identity label: I1) and indirectly identifiable (identity label: I2).
 
 * **A directly identifiable ID (I1)**: Either names the person or provides a direct method of contacting them. Examples would include someone's name (even a common name like John Smith that may be shared by hundreds of people), any of their email addresses or phone numbers, etc. A mailing address without a name might be considered directly identifiable, even though it may only identify a household or business rather than a specific person within that household or business.
 * **An indirectly identifiable ID (I2)**: Does not allow identification of an individual by itself, but can be combined with other information (that may or may not be in your possession), to identify someone. Examples would include a customer loyalty number, or an ID used by a company's CRM system that is unique for each of their customers. Under Data Privacy, the anonymous IDs stored in the tracking cookies used by Analytics may be deemed to be indirectly identifying, even though they can only identify a device rather than an individual; on a shared device, these cookies cannot distinguish between different users of the system. For example, while the cookie cannot be used to find a computer containing the cookie, if someone has access to the computer and locates the cookie, they can then tie the Analytics cookie data back to the computer.
 
-  An IP address is also considered to be indirectly identifiable, because at any given instance in time, it might only be assigned to a single device. However, ISPs can and often do change the IP addresses for most users regularly, so over time an IP address may have been used by any of their users. It is also not uncommon for many customers of an ISP or multiple employees within a business on the same intranet to share the same external IP address. Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](/help/admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests) However, when an ID that we accept is used as part of a delete request, we will clear the IP addresses that occurred with that ID as well. You must decide if there exist other IDs that you collect that may fall into this category, of I1 or I2, but not suitable for use as a distinguishing ID for Data Privacy requests.
+  An IP address is also considered to be indirectly identifiable, because at any given instance in time, it might only be assigned to a single device. However, ISPs can and often do change the IP addresses for most users regularly, so over time an IP address may have been used by any of their users. It is also not uncommon for many customers of an ISP or multiple employees within a business on the same intranet to share the same external IP address. Because of this, Adobe will not support using an IP address as the ID for a Data Privacy request. However, when an ID that we accept is used as part of a delete request, we will clear the IP addresses that occurred with that ID as well. You must decide if there exist other IDs that you collect that may fall into this category, of I1 or I2, but not suitable for use as a distinguishing ID for Data Privacy requests.
 
 Even if your company collects many different IDs within your Analytics data, you may elect to use only a subset of these IDs for Data Privacy requests. Reasons for this might include:
 
@@ -26,7 +26,7 @@ Even if your company collects many different IDs within your Analytics data, you
 * Some IDs may correspond to multiple people and you don't want to risk returning information about one person to someone else with that same ID. For example, even if you can verify that someone's name is John Smith, you may not want to return all data about all John Smiths in your system.
 * Another example is a device ID, such as the Analytics Cookie ID. If the ID occurs on a cell phone app, you may decide that all interactions using that ID should be available to the owner of the cell phone. However, if it occurs on a shared device, such as a home computer or one in a library or internet cafe, you may decide that you cannot distinguish between users of that device and the risk of returning data for a different user is too great to allow using this type of ID.
 
-## Best Practices for IDs Supported by Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Best Practices for IDs supported by Analytics {#best-practices-an}
 
 Use this table to determine the types of IDs that you will use when submitting Data Privacy requests to Analytics. Once you know this information, it will be easier to determine the other labels you should use for your variables.
 
@@ -62,7 +62,7 @@ Use this table to determine the types of IDs that you will use when submitting D
  </tbody> 
 </table>
 
-## Best Practices for Setting Delete Labels {#section_08166C99B48E49218392FAC18922C10E}
+## Best Practices for setting Delete labels {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Use this table to determine the types of IDs that you will use when submitting D
 The delete labels DEL-DEVICE and DEL-PERSON should be used sparingly. When applied to a variable that does not contain an ID that was used as part of the Data Privacy request, counts (metrics) in historical Analytics reports will almost always change.
 
 * We recommend that one of these labels be applied to any variable that is labeled I1, I2 or S1. They cannot be applied to any variable that does is not labeled I1, I2 or S1.
-* The DEL-labels will result in these variables being [anonymized](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) (the ID will be replaced with a random string prefixed with "Data Privacy-"). The same anonymized value will replace all instances of the original value in all hits that have been identified by an ID used in the request. If the original value in this field was one of those IDs, then report metrics will not change.
+* The DEL-labels will result in these variables being [anonymized](/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) (the ID will be replaced with a random string prefixed with "Data Privacy-"). The same anonymized value will replace all instances of the original value in all hits that have been identified by an ID used in the request. If the original value in this field was one of those IDs, then report metrics will not change.
 * Generally, if a field has the label ID-DEVICE, then you should also assign the label DEL-DEVICE.
 * Similarly, if a field has the label ID-PERSON, then you should also assign the label DEL-PERSON.
 * If a field does not have an ID-label, but does contain identifying information that you want anonymized, then the appropriate label (DEVICE or PERSON) depends on your implementation. If you only use cookie IDs for Data Privacy requests, then you should use DEL-DEVICE.
@@ -82,7 +82,7 @@ The delete labels DEL-DEVICE and DEL-PERSON should be used sparingly. When appli
 
   For example, if you have three hits containing the value "foo" in eVar7, but only one of them also contains an ID in a different variable that is matched for a delete, then "foo" on that hit will be modified to a value like "Data Privacy-123456789", while it will remain unchanged in the other two hits. A report that shows the number of unique values for eVar7 will now show one more unique value than it did previously. A report that shows the top values for eVars may include "foo" with only two instances (rather than 3 previously), and the new value will show up as well, with a single instance.
 
-## Best Practices for Setting Access Labels {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Best Practices for setting Access labels {#best-practices-access}
 
 While very few fields will have any of the other labels, it will be common for a large number of fields to have ACC labels. The appropriate access labels will depend on the IDs you are using for Data Privacy requests.
 

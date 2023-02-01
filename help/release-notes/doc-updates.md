@@ -15,6 +15,17 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2023 {#23}
+
+| Feature | Description |
+| --- | --- |
+| **January 2023** | |
+| Filter and sort tables | Updated content (including adding procedures and explaining available options) in the [Filter and sort tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Renamed this article from "Pagination, filtering and sorting tables." |
+| Folders | Dedicated pages for [Folders management](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).  |
+| User preferences | Many additional user preferences are now available in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).  |
+| Auto-save for projects | Updated content to include auto-save functionality in [Save projects](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).  |
+| Landing page | New [landing page updates](/help/analyze/landing.md) |
+
 ### 2022 {#22}
 
 | Feature | Description |
@@ -162,7 +173,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 24, 2020 | Updates to the [Row Settings](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace) page in Workspace. |
 | January 16, 2020 | New documentation on [Freeform Table Builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html). With Table Builder enabled, you can drag and drop in many dimensions, breakdowns, metrics and segments to build tables that answer more complex business questions. Data will not update immediately. Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. Additionally, this feature offers:<ul><li>**Preview**: You can preview the format of a table before spending time to render real data.</li><li>**Flexible Row and breakdown settings**: You can set your row and breakdown levels for every dimension row. Previously, Workspace imposed defaults that could not be changed until after the data was returned.</li><li>**Breakdown by position**: You can set dimension rows to always _breakdown by position_ instead of _by specific item_ (the default).</li><li>**Manual static row ordering**: You can manually order static rows so that the table rows are displayed exactly as you need them. Previously, static rows could be sorted only by a metric column or alphabetically.</li></ul> |
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
-| January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html) page. |
+| January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](/help/analyze/get-started/which-analytics-tool.md) page. |
 
 ### 2019 {#19}
 

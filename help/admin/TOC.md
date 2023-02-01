@@ -36,7 +36,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Metric visibility](admin/metric-visibility.md)
   + [Preferences manager](admin/preferences-manager.md)
   + [Privacy reporting](admin/privacy-reporting.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)

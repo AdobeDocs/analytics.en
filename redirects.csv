@@ -294,7 +294,6 @@ source,destination
 /docs/analytics/admin/manage-report-suites/t-rollups.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-rollups.html
 /docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html
 /docs/analytics/admin/manage-report-suites/t-download-rs-settings.html,/docs/analytics/admin/admin-tools/manage-report-suites/t-download-rs-settings.html
-/docs/analytics/admin/manage-report-suites/individual-rs-settings.html,/docs/analytics/admin/admin-tools/manage-report-suites/individual-rs-settings.html
 /docs/analytics/admin/manage-report-suites/t-report-suite-saved-search.html,/docs/analytics/admin/admin-tools/manage-report-suites/t-report-suite-saved-search.html
 /docs/analytics/admin/manage-report-suites/rollup-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/rollup-report-suite.html
 /docs/analytics/admin/admin-tools/custom-desc-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/custom-desc-admin.html
@@ -330,7 +329,6 @@ source,destination
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-reference.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-reference.html
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-verify.html
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-faq.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-faq.html
-/docs/analytics/admin/admin-tools/manage-report-suites/individual-rs-settings.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/individual-rs-settings.html
 /docs/analytics/admin/admin-tools/mobile-management.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/mobile-management.html
 /docs/analytics/admin/admin-tools/real-time-reports/realtime.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/realtime.html
 /docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/t-realtime-admin.html
@@ -398,3 +396,5 @@ https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/metric-visib
 https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/t-conversion-variables-admin.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-spike-estimate-past-server-calls.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-schedule-spike.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-lead-time.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-permanent.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/individual-rs-settings.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=en
+https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/preferences-manager.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/preferences-manager.html

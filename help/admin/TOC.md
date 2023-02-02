@@ -36,7 +36,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Preferences manager](admin/preferences-manager.md)
   + [Privacy reporting](admin/privacy-reporting.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
   + [Scheduled reports queue](admin/scheduled-reports-admin.md)
@@ -129,8 +128,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + Traffic Management {#traffic-management}
         + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-        + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-      + [Individual report suite settings](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)  
+        + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
       + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
       + Real-time reports {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -138,14 +136,15 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
   + Company Settings {#company-settings}
     + [Company Settings overview](admin/company/c-company-settings.md)
-    + [Feature access levels](admin/company/feature-access-levels.md)
+    + [Security Manager](admin/company/security-manager.md)
     + [Web Services](admin/company/web-services-admin.md)
     + [Report Builder reports](admin/company/report-builder-reports-admin.md)
     + [Single sign-on](admin/company/single-signon-admin.md)
-    + [Pending actions](admin/company/pending-actions-admin.md)
     + [Co-Branding](admin/company/co-branding-admin.md)
     + [Hide report suites](admin/company/c-hide-report-suites.md)
-    + [Security Manager](admin/company/security-manager.md)
+    + [Preferences manager](admin/company/preferences-manager.md)
+    + [Pending actions](admin/company/pending-actions-admin.md)
+    + [Feature access levels](admin/company/feature-access-levels.md)
   + [Video management](admin/video-management.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)

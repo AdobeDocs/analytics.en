@@ -55,6 +55,10 @@ To use relative panel date ranges
 
     ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## About segments that use rolling dates when relative dates are used
+## Relative panel date range guidelines {#guidelines}
 
-If you build a segment or use a segment with a date that is rolling, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
+Keep in mind the following guidelines when using relative panel date ranges.
+
+### About segments that use rolling dates and relative panel date ranges
+
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 

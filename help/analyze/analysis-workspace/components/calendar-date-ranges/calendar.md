@@ -59,6 +59,14 @@ To use relative panel date ranges
 
 Keep in mind the following guidelines when using relative panel date ranges.
 
+### Formulas and relative date ranges
+
+If you have relative dates selected, all calendar formulas will reflect the start of the panel date range. 
+
+### Custom calendars and relative date ranges
+
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
+
 ### About segments that use rolling dates and relative panel date ranges
 
 If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 

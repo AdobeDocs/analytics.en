@@ -6,7 +6,7 @@ exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 ---
 # Specify permanent traffic increase
 
-You can change expected traffic levels so Adobe can reassign resources to handle the new traffic level. 
+You can change expected traffic levels so Adobe can reassign resources to handle the new traffic level. (Alternatively, you can [schedule a traffic spike](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) if you want to temporarily reassign resources.)
 
 {{$include /help/_includes/traffic-lead-time.md}}
 

@@ -128,6 +128,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
         + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
       + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + [Media management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
       + [Privacy reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
       + Real-time reports {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,7 +145,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Preferences manager](admin/company/preferences-manager.md)
     + [Pending actions](admin/company/pending-actions-admin.md)
     + [Feature access levels](admin/company/feature-access-levels.md)
-  + [Video management](admin/video-management.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)
     + [View current server call usage](admin/c-server-call-usage/server-call-usage-dashboard.md)

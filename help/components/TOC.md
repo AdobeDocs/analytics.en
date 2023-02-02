@@ -254,6 +254,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Sub-classifications](classifications/c-sub-classifications.md)
   + [Classifications FAQ](classifications/faq.md)
 + [Calendar events](t-calendar-event.md)
++ [Scheduled reports queue](scheduled-reports-admin.md)
 + Real-time reporting {#real-time-reporting}
   + [Real-time reporting overview](c-real-time-reporting/realtime.md)
   + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)

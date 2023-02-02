@@ -11,7 +11,7 @@ Manage Analytics users, groups, and products in the Adobe Admin Console.
 
 >[!IMPORTANT]
 >
->User and product management has moved to the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To get started managing user permissions for Adobe Analytics users, see [Analytics in the Adobe Admin Console][/help/admin/admin-console/home.md]. 
+>User and product management has moved to the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). To get started managing user permissions for Adobe Analytics users, see [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md). 
 
 ## Help Resources for Adobe Admin Console Administrators {#section_C13BBB89E4F248F193358BB3A59DD502}
 

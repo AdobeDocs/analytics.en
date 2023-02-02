@@ -36,9 +36,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Privacy reporting](admin/privacy-reporting.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
-  + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Report Suite manager {#manage-report-suites}
     + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
     + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -130,6 +128,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
         + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
       + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + [Privacy reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
       + Real-time reports {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)

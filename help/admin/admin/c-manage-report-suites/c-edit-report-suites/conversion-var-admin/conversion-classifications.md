@@ -27,7 +27,7 @@ After enabling classifications, use the [Classification Importer](/help/componen
 
 ## Add conversion classifications 
 
-Steps that describe how to add conversion classifications in Admin.
+To add conversion classifications in Admin:
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

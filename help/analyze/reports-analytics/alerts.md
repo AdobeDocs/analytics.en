@@ -26,7 +26,7 @@ For more information, go to the Analysis Workspace documentation on [Intelligent
 
 ## Add an Alert {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Steps that describe how to add an alert in Adobe Analytics.
+You can add an alert in Adobe Analytics either from the Alert Builder or from a specific report.
 
 <!-- 
 
@@ -34,7 +34,11 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. However, you can still access it from within reports in Reports & Analytics: 
+### Add an Alert from the Alert Builder
+
+1. Select **[!UICONTROL Analytics]** > **[!UICONTROL Components]** to open the Alert Builder. 
+
+### Add an Alert from an individual report
 
 1. In Reports & Analytics, open the report where you want to set an alert.
 1. Click **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
@@ -42,7 +46,7 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONT
 
 ## View or Edit Existing Alerts {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Task Context 
+<!-- add Task Context--> 
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. This takes you to the new [Alert Manager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 

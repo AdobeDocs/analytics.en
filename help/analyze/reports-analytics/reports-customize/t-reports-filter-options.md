@@ -135,7 +135,7 @@ Advanced let you perform wildcard and other complex searches.
 
 ## Create report-specific filters {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Steps that describe how to create filters for reports.
+You can create filters for reports.
 
 <!-- 
 
@@ -147,7 +147,7 @@ Certain reports contain a filter that is specific to that report. For example, a
 
 When you access these filters, you can see report metrics for the items specified in the list.
 
-**To create report-specific filters** 
+To create report-specific filters: 
 
 1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. In the report header, click the **[!UICONTROL Filter]** link.
@@ -156,8 +156,6 @@ When you access these filters, you can see report metrics for the items specifie
 1. Click **[!UICONTROL OK]**.
 
 ## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Steps that describe how to add a correlation filter.
 
 <!-- 
 
@@ -169,7 +167,7 @@ Certain reports let you add custom correlation filters. For example, if you are 
 
 You can filter the data shown in a correlation report using any available correlation. The example here shows how you add a search engine correlation filter.
 
-**To add a correlation filter** 
+To add a correlation filter: 
 
 1. Run a report that supports correlations. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.

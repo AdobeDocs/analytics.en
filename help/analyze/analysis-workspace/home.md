@@ -31,7 +31,7 @@ With the tutorial complete, you are ready to begin building your first project. 
 
 ![](assets/create-new-project.png)
 
-You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There a several different templates available, depending on the analysis or use case you have in mind. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
+You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There are several different templates available, depending on the analysis or use case you have in mind. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
 
 ## Build your analysis {#analysis}
 
@@ -45,7 +45,7 @@ In your Workspace project, **panels, tables, visualizations, and components** ar
 
 ### Visualizations
 
-**Visualizations**, such as a bar or line chart, are then added on top of the data to visually bring it to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) available.
+**Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) available.
 
 ![](assets/build-visualizations.png)
 

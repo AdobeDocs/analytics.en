@@ -60,7 +60,7 @@ You can manage components (individually or by selecting more than one) directly 
 
 ![](assets/component-actions.png)
 
-| Component Action | Description |
+| Component action | Description |
 |--- |--- |
 | Tag | Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers. |
 | Favorite | Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers. |

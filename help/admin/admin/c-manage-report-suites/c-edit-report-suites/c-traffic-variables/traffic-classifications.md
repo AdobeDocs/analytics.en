@@ -25,7 +25,7 @@ t_classification_add_traffic.xml
 
  -->
 
-Steps that describe how to add or edit classifications for the selected report suites.
+To add or edit classifications for the selected report suites:
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** in the Suite header.
 1. Select a report suite.

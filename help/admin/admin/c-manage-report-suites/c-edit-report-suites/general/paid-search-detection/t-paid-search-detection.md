@@ -6,7 +6,7 @@ exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 ---
 # Configure paid search detection
 
-Steps that describe how to configure Paid Search Detection.
+To configure Paid Search Detection:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to open the [!UICONTROL Report Suite Manager].
 1. Select a report suite.

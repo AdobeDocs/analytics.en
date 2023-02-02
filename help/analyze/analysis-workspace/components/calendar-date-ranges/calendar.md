@@ -17,7 +17,7 @@ Calendar selections apply at the panel level, but you have the option to apply t
 
 ![Calendar](assets/aw_calendar1.png)
 
-## Select and apply data ranges
+## Select and apply date ranges {#select-apply}
 
 The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 

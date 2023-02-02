@@ -10,6 +10,7 @@ user-guide-description: Learn about new features and fixes in Adobe Analytics.
 
 + [Current Analytics release notes](latest.md)
 + Previous Analytics release notes {#previous}
+  + [2023 release notes](2023.md)
   + [2022 release notes](2022.md)
   + [2021 release notes](2021.md)
   + [2020 release notes](2020.md)

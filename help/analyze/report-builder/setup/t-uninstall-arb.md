@@ -8,7 +8,7 @@ exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 ---
 # Uninstall Report Builder
 
-Steps that describe how to uninstall Adobe Report Builder.
+To uninstall Adobe Report Builder.
 
 1. Ensure that Microsoft Excel is closed.
 1. Click **[!UICONTROL Start]** > **[!UICONTROL Control Panel]**.

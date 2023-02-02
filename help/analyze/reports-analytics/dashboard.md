@@ -59,7 +59,6 @@ See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Create a dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Steps that describe how to create a dashboard.
 
 <!-- 
 
@@ -68,6 +67,8 @@ t_dashboard_add.xml
  -->
 
 Before adding a report (as a reportlet) to a dashboard, define the dashboard's layout.
+
+To create a dashboard:
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
@@ -89,14 +90,15 @@ Before adding a report (as a reportlet) to a dashboard, define the dashboard's l
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
 
 ## Create a reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
-
-Steps that describe how to create a reportlet. Once you create a reportlet, it is available to display in a dashboard.
+After you create a reportlet, it is available to display in a dashboard.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+To create a reportlet:
 
 1. Run a report.
 1. Click **[!UICONTROL Dashboard.]**
@@ -116,13 +118,15 @@ t_dashboard_add_report.xml
 
 ## Add content to a dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Steps that describe how to add content from other dashboards and shared dashboards. You can also add content from custom and external sources, such as text and images.
+You can add content from other dashboards and shared dashboards. You can also add content from custom and external sources, such as text and images.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+To add content to a dashboard:
 
 1. Open a dashboard, then click **[!UICONTROL Layout]**.
 1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
@@ -203,7 +207,7 @@ t_dashboard_edit.xml
 
 ## Co-brand a dashboard {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Steps that describe how to upload an image to display in a dashboard.
+To upload an image to display in a dashboard:
 
 <!-- 
 

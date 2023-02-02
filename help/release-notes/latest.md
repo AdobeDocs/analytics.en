@@ -14,7 +14,9 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **TBD** | TBD | N/A | TBD |
+| **Updated user interface for Data Privacy labels**  | The updated interface streamlines the process for creating, managing, and editing data privacy labels for report suite components. [Learn more](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en)| N/A | February 8, 2023 |
+| **Comparison date ranges in Mobile Scorecards** |  With Mobile Scorecards, you can toggle the **[!UICONTROL Include comparison dates]** setting to view or hide comparison dates. | N/A/ | February 8, 2023 |
+| 
 
 ## Fixes in Adobe Analytics
 

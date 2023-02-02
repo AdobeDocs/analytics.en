@@ -17,6 +17,8 @@ Calendar selections apply at the panel level, but you have the option to apply t
 
 ![Calendar](assets/aw_calendar1.png)
 
+## Select and apply data ranges
+
 The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
@@ -34,8 +36,8 @@ You can also drag dates (and time dimensions) into a Workspace project. You can 
 
 ## About relative panel date ranges {#relative-panel-dates}
 
-If you’re working in Workspace, you can make the date range components relative to the panel calendar. 
-Three common use cases where you’ll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
 
 To use relative panel date ranges
 

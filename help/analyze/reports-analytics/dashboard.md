@@ -90,6 +90,7 @@ To create a dashboard:
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
 
 ## Create a reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
+
 After you create a reportlet, it is available to display in a dashboard.
 
 <!-- 

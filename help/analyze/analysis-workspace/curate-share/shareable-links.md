@@ -27,14 +27,6 @@ You can also share a link to a specific part of a project, such as a panel or in
 
 ![](assets/get-viz-link.png)
 
-## Get public link
-
-{{release-limited-testing-section}}
-
-You can share Analysis Workspace projects with people who don't have access to Adobe Analytics. This can include people outside your organization or those within your organization who are not provisioned with Adobe Analytics.
-
-For more information, see [Share a public link with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
-
 ## Use links in a Table of contents {#TOC} 
 
 One tip for leveraging the various link options is to always include a table of contents at the top of your Workspace project. In the table of contents, you can link to other relevant projects, specific panels and specific visualizations. This helps the recipient of the project to navigate more easily.  

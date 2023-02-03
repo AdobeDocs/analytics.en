@@ -4,7 +4,7 @@ description: Learn about the Marketing Channels workflow, the automatic setup, a
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 ---
-# Get Started with Marketing Channels
+# Get started with Marketing Channels
 
 >[!NOTE]
 >

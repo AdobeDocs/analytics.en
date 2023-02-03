@@ -9,7 +9,11 @@ exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 
 >[!NOTE]
 >
->To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> For general information on Marketing Channels, see [Get started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>
+> To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
 Add or enable marketing channels in the Marketing Channel Manager. For report suites that have no marketing channels, an automatic setup lets you create several channels for you, along with their rules. You can edit predefined channels to suit your needs, or create your own (up to a total of 25).
 
@@ -71,7 +75,7 @@ There are various settings that can be applied to each channel on the [!UICONTRO
 
 ### Override best practices
 
-It is a best practice to uncheck the override last-touch option for Direct and Internal channels, so that they can’t take credit from other persisting last touch channels (or each other). 
+It is a best practice to uncheck the override last-touch option for Direct and Internal channels, so that they can't take credit from other persisting last touch channels (or each other). 
 
 ![](assets/int-channel2.png)
 

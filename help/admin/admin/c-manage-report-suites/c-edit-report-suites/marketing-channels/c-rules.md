@@ -8,7 +8,11 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 
 >[!NOTE]
 >
->To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> For general information on Marketing Channels, see [Get started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>
+> To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
 
 Marketing Channel processing rules determine if a visitor hit meets the criteria assigned to a channel by processing every hit a visitor makes on your site. The rules are processed in the order you specify, and when a rule is met, the system stops processing the remaining rules. 
 

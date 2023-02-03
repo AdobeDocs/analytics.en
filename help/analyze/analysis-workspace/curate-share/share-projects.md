@@ -10,11 +10,17 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 
 You can share an Analysis Workspace project with the following types of people:
 
-* Users and groups in your organization who have access to Adobe Analytics
+* Users and groups in your organization who have access to Adobe Analytics 
+
+  You can share Edit, Duplicate, or View access
 
 * Users and groups in your organization who don't have access to Adobe Analytics
 
+  Recipients have View-only access
+
 * People outside your organization
+
+  Recipients have View-only access
 
 Any [curation](curate.md) you apply prior to sharing is reflected when recipients open the project. 
 
@@ -68,8 +74,11 @@ To share a specific project role with users or groups in your organization:
 
    * **Set as landing page for recipients:** Sets this page as the landing page for recipients. This setting does not persist - it is a one-time action at the time of sharing.
  
-1. Click **[!UICONTROL Share]**. 
-  You can also click **[!UICONTROL Curate and Share]** to apply project curation automatically. If a project has already been shared, these buttons will say **[!UICONTROL Update]** and **[!UICONTROL Curate & Update]**. Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+1. Click **[!UICONTROL Share]**. (If the project has already been shared, click [!UICONTROL **Update**].)
+  
+   Or
+   
+   Click **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, click **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ### Share a link to a project 
 
@@ -94,7 +103,7 @@ To share the project link with users in your organization:
 
 {{release-limited-testing-section}}
 
-You can share Analysis Workspace projects with people who don't have access to Adobe Analytics. This can include:
+You can grant [View-only access](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people who don't have access to Adobe Analytics. This can include:
 
 * People outside your organization 
 

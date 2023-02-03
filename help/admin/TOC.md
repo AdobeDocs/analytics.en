@@ -33,7 +33,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Code Manager](admin/code-manager-admin.md)
   + [Currency codes](admin/currency.md)
   + [Data Sources](admin/data-sources.md)
-  + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
@@ -103,12 +102,12 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Server-side forwarding data and code reference](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
           + [How to verify your server-side forwarding implementation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
           + [Server-side forwarding FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-      + Traffic variables {#traffic-variables}
+      + Traffic {#traffic-variables}
         + [Traffic variable (prop) overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
         + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
         + [Traffic classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
         + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-      + Conversion variables {#conversion-variables}
+      + Conversion {#conversion-variables}
         + [Conversion variables (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
         + [Finding methods](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
         + [Conversion classifications](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -127,10 +126,11 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
         + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
-      + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-      + [Media management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-      + [Privacy reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-      + Real-time reports {#real-time-reports}
+      + [Default Metrics](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
+      + [App Management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + [Media Management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+      + [Privacy Reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+      + Real-Time {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)

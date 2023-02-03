@@ -113,7 +113,7 @@ The following table shows the variables that the Adobe Experience Platform Edge 
 | `web.webInteraction.name` | The [Custom link](../../components/dimensions/custom-link.md), [Download link](../../components/dimensions/download-link.md), or [Exit link](../../components/dimensions/exit-link.md) dimension, depending on the value in `web.webInteraction.type` |
 | `web.webInteraction.type` | Determines the type of link clicked. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links). |
 | `web.webPageDetails.URL` | The [Page URL](../../components/dimensions/page-url.md) dimension. |
-| `web.webPageDetails.errorPage` | Flag that helps determine the 'Pages Not Found' [dimension](../../components/dimensions/pages-not-found.md) and [metric](../../components/metrics/pages-not-found.md). |
+| `web.webPageDetails.isErrorPage` | Flag that helps determine the 'Pages Not Found' [dimension](../../components/dimensions/pages-not-found.md) and [metric](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | The [Page](../../components/dimensions/page.md) dimension. |
 | `web.webPageDetails.server` | The [Server](../../components/dimensions/server.md) dimension. |
 | `web.webPageDetails.siteSection` | The [Site Section](../../components/dimensions/site-section.md) dimension. |

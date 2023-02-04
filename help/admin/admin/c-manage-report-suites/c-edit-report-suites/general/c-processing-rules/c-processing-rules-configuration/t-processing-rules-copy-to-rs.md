@@ -7,7 +7,7 @@ exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 ---
 # Copy processing rules to another report suite
 
-Steps that describe how to copy processing rules from one report suite and replace or append these rules to another report suite.
+To copy processing rules from one report suite and replace or append these rules to another report suite:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

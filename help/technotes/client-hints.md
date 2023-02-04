@@ -7,27 +7,23 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 
 Client hints are individual pieces of information about a user's device. They are provided by Chromium browsers such as Google Chrome and Microsoft Edge. For these browsers, client hints will gradually replace the User-Agent as the source of device information. Adobe Analytics will update its device lookup process so that it uses client hints in addition to User-Agent to determine device information.
 
+## Low-entropy and high-entropy client hints
+
 Google divides User-Agent client hints into two categories: low-entropy and high-entropy hints.
 
 * **Low-entropy hints** contain more generic information about devices. These hints are automatically supplied by Chromium browsers.
 
 * **High-entropy** hints contain more detailed information. These hints are available only by request. Both AppMeasurement and Web SDK can be configured to request high-entropy hints. By default, both libraries do **not** request high-entropy hints. 
 
->[!NOTE]
->
->Client hints will be incorporated into Analytics device lookup process starting February 16, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
+Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+
+Client hints will be incorporated into Analytics device lookup process starting February 16, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >
->Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
+> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) for more information.
 
->[!NOTE]
->
-> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent but correctly represented in high entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) for more information.
-
->[!NOTE]
->
->AAM requires high entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high entropy hints.
+AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 ## Frequently asked questions
 

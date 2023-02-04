@@ -10,7 +10,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
 >[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
 Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
 
@@ -38,7 +38,7 @@ Before accessing the interface, work with your Account Manager or Adobe Customer
 
 ## Log in using the Experience Cloud
 
-Steps that describe how to log in through the Adobe Experience Cloud.
+To log in through the Adobe Experience Cloud:
 
 1. On a computer with access to the Internet, start a browser.
 1. Go to [!DNL https://login.experiencecloud.adobe.com/].
@@ -56,7 +56,7 @@ Steps that describe how to log in through the Adobe Experience Cloud.
 
 ## Run a report
 
-Steps that describe how to generate a report.
+To generate a report:
 
 1. Log in to [!UICONTROL Reports & Analytics].
 
@@ -87,7 +87,9 @@ All users have access to the [!UICONTROL Account Information] page. The followin
 
 ## Change the interface language
 
-Steps that describe how to change the interface language. You can view the Reports and Analytics interface in the language of your choice.
+You can change the interface language. You can view the Reports and Analytics interface in the language of your choice.
+
+To change the interface language:
 
 1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
 1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.

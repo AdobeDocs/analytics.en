@@ -10,11 +10,11 @@ exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 
 {{ra-eol}}
 
-Steps that describe how to customize the graph so that it is most useful for the intended audience.
+You can customize the graph so that it is most useful for the intended audience.
 
 The type of graphs available depend on the type of report you run. For example, Trend Line graphs are useful for trended reports, but you can also use a Vertical Bar graph with trend lines that clearly illustrate trends over days, weeks, months, and so on. Alternatively, you can choose a Pie chart to illustrate percentages for the pages viewed.
 
-**To change a report graph** 
+To change a report graph:
 
 1. Run a report.
 1. Click **[!UICONTROL Configure Graph]**.

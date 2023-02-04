@@ -8,7 +8,7 @@ exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 ---
 # Install Report Builder
 
-Steps that describe how to install Report Builder.
+To install Report Builder:
 
 1. Click **[!UICONTROL Adobe Experience Cloud]** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Click **[!UICONTROL Download Now]** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .

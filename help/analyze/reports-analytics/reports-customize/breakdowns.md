@@ -20,7 +20,7 @@ You can break down any Analytics variable (eVar or prop) by any other variable. 
 
 ## Run a breakdown report {#task_F685624830E64C829C8BE6435A107F69}
 
-Steps that describe how to run a breakdown report.
+To run a breakdown report:
 
 <!-- 
 

@@ -33,7 +33,7 @@ Descriptions of the fields and options on the [!UICONTROL Add/Edit Target] page.
 
 ## Add a [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Steps that describe how to add a target.
+To add a target:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Targets]**.
 1. On the [!UICONTROL Manage Targets] page, click **[!UICONTROL Add New...]**.

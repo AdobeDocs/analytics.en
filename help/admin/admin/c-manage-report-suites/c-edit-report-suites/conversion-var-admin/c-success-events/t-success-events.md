@@ -6,7 +6,7 @@ exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 ---
 # Configure success events
 
-Steps that describe how to configure success events.
+To configure success events:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.

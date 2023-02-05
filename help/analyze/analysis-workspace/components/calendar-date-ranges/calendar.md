@@ -37,7 +37,7 @@ You can also drag dates (and time dimensions) into a Workspace project. You can 
 ## About relative panel date ranges {#relative-panel-dates}
 
 If you're working in Workspace, you can make the date range components relative to the panel calendar. 
-Three common use cases where you'll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
 To use relative panel date ranges
 

@@ -10,7 +10,7 @@ The 'First touch channel detail' dimension reports details around the first mark
 
 ## Populate this dimension with data
 
-This dimension copies values from other variables. The variable used references the channel value within each [Marketing channel processing rule](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). When a hit matches a marketing channel processing rule, the [Last touch channel](last-touch-channel.md) dimension is set to the channel name, and this dimension is set to the channel value set in the rule.
+This dimension copies values from other variables. The variable used references the channel value within each [Marketing channel processing rule](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md). When a hit matches a marketing channel processing rule, the [Last touch channel](last-touch-channel.md) dimension is set to the channel name, and this dimension is set to the channel value set in the rule.
 
 If you want to set this dimension to a specific value, the following steps are required:
 

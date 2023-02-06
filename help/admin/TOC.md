@@ -122,10 +122,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [List variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
         + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
       + Marketing Channels {#marketing-channels}
-        + [Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/marketing-channels-admin.md)
         + [Manage marketing channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
         + [Processing rules for Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-        + [Classifications in Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifictions-mchannel.md)
+        + [Classifications in Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
         + [Visitor engagement expiration](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
       + Traffic Management {#traffic-management}
         + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)

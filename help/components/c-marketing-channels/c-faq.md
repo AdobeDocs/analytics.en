@@ -9,6 +9,8 @@ exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 >[!NOTE]
 >
 >To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Frequently asked questions for Marketing channels.
 
@@ -75,7 +77,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 Last-touch Internal (Session Refresh) can only occur if it was also the first touch - see "Relationship between First & Last Touch" above. The scenarios below explain how Session Refresh could be a first-touch channel.
 
-* **Session timeout**: A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor’s engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
+* **Session timeout**: A visitor comes to the website and then leaves the tab open in their browser to use at a later date. The visitor's engagement period expires (or they voluntarily delete their cookies), and they use the open tab to visit the website again. Since the referring URL is an internal domain, the visit will be classified as Session Refresh.  
 
 * **Not all site pages are tagged**: A visitor lands on Page A which is not tagged, and then moves to page B which is tagged. Page A would be seen as the internal referrer and the visit would be classified as Session Refresh.
 
@@ -83,7 +85,7 @@ Last-touch Internal (Session Refresh) can only occur if it was also the first to
 
 * **Cross-Domain Traffic**: A visitor moves from one domain which fires to Suite A, to a second domain which fires to Suite B. If in Suite B, the internal URL filters include the first domain, the visit in Suite B will be recorded as Internal, since Marketing Channels see it as a new visit in the second suite. The visit will be classified as Session Refresh.
 
-* **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A’s image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
+* **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Before all the content (including Adobe Analytics image request) can load, the visitor clicks to Page B. Page B fires its Adobe Analytics image request. Since Page A's image request never loaded, the second page appears as the first hit of the visit in Adobe Analytics, with Page A as the referrer. The visit gets classified as Session Refresh.
 
 * **Clearing cookies mid-site**: A visitor comes to the site, and mid-session clears their cookies. Both First & Last-touch channels would get reset, and the visit would be classified as Session Refresh (because referrer would be internal).
 

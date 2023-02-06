@@ -10,7 +10,7 @@ exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 
 In order to future-proof your Marketing Channels implementation and to ensure that there is reporting consistency with Attribution IQ and with Customer Journey Analytics, we are issuing a set of updated best practices. If you are already using Marketing Channels, you can choose the best options among these new guidelines. If you are new to Marketing Channels, we would advise you to adhere to all new best practices.
 
-When Marketing Channels were first introduced, they came with only first-touch and last-touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic ‘Marketing Channel’ and ‘Marketing Channel Detail’ dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last-Touch Channel dimensions, but are labeled differently to prevent confusion when using Marketing Channels with a different attribution model.
+When Marketing Channels were first introduced, they came with only first-touch and last-touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic 'Marketing Channel' and 'Marketing Channel Detail' dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last-Touch Channel dimensions, but are labeled differently to prevent confusion when using Marketing Channels with a different attribution model.
 
 Since Marketing Channel dimensions depend on a traditional Visit definition (as defined by their processing rules), their Visit definition cannot be changed using Virtual Report Suites. These revised practices enable clear and controlled lookback windows with Attribution IQ and with CJA.
 
@@ -28,7 +28,7 @@ We recommend using [Attribution IQ](https://experienceleague.adobe.com/docs/anal
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models (Attribution IQ).
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution IQ results as if those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution IQ results as if those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
 
@@ -40,7 +40,7 @@ Custom attribution models used with the Marketing Channel dimension in Workspace
 
 ## Best Practice #4: Minimize Visitor Engagement period
 
-Setting the Visitor Engagement period to the minimum of “1 Day” minimizes the likelihood of persisting values. Because custom attribution models (AIQ) allow flexible lookback windows, we recommend setting the minimum value to minimize the impact of this setting.
+Setting the Visitor Engagement period to the minimum of "1 Day" minimizes the likelihood of persisting values. Because custom attribution models (AIQ) allow flexible lookback windows, we recommend setting the minimum value to minimize the impact of this setting.
 
 ![](assets/expiration.png)
 

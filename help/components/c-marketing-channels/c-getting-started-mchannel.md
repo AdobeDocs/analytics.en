@@ -37,7 +37,7 @@ After defining what channels to track, you enable them in **[!UICONTROL Admin]**
 
 See [Channels and Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for important prerequisite and conceptual information.
 
-See [Add marketing channels](/help/components/c-marketing-channels/c-channels.md) for the procedure.
+See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for the procedure.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ See [Add marketing channels](/help/components/c-marketing-channels/c-channels.md
 
 After you create channels on the [!UICONTROL Marketing Channel Manager] page, you configure the rules so that channels can retrieve and report data.
 
-See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md).
+See [Marketing Channel Processing Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs.
 

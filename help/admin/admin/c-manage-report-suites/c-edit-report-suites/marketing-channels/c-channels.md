@@ -58,7 +58,7 @@ Add marketing channels in the Marketing Channel Manager.
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/c-rules.md).
+   See [Create Marketing Channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 ## Apply channel settings {#mktg-channel-mgr}
 

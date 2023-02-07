@@ -6,21 +6,21 @@ exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 ---
 # Submit Access and Delete Requests
 
-If your customers (consumers/data subjects) want to know what data you maintain about them or decide they want to be deleted from your Analytics properties, you as the data controller are responsible for responding to those requests. The data controller determines how your organization will interact with data subjects (e.g., through a data subject user portal) and manages interactions with the data subject. It also is the controller's responsibility to close the loop with the data subject when the request is fulfilled. In other words, Adobe Experience Cloud, as the data processor, will not accept requests directly from data subjects or return data directly to them. Rather, Adobe will receive requests from and return data to only you as the data controller.
+If your customers (consumers/Data Subjects) want to know what data you maintain about them or decide they want to be deleted from your Analytics properties, you as the Data Controller are responsible for responding to those requests. The Data Controller determines how your organization will interact with Data Subjects (e.g., through a Data Subject user portal) and manages interactions with the Data Subject. It also is the controller's responsibility to close the loop with the Data Subject when the request is fulfilled. In other words, Adobe Experience Cloud, as the Data Processor, will not accept requests directly from Data Subjects or return data directly to them. Rather, Adobe will receive requests from and return data to only you as the Data Controller.
 
-You also may want to ensure your mobile apps and websites will have relevant pop-up notices and supporting materials about data subjects' rights regarding their directly identifiable or indirectly identifiable data, and other data you collect.
+You also may want to ensure your mobile apps and websites will have relevant pop-up notices and supporting materials about Data Subjects' rights regarding their directly identifiable or indirectly identifiable data, and other data you collect.
 
 ## Manage Consumer Consent {#section_3012015E7E8942519FB9279CF7057EAB}
 
-You, as the data controller, are responsible for obtaining explicit consent from your data subjects before you collect data about them (possibly including Adobe Analytics data) and for implementing an [opt-out mechanism](https://www.adobe.com/privacy/opt-out.html#customeruse) on your web site. This lets your data subjects opt out of future Adobe Experience Cloud data collection.
+You, as the Data Controller, are responsible for obtaining explicit consent from your Data Subjects before you collect data about them (possibly including Adobe Analytics data) and for implementing an [opt-out mechanism](https://www.adobe.com/privacy/opt-out.html#customeruse) on your web site. This lets your Data Subjects opt out of future Adobe Experience Cloud data collection.
 
 ## Validate Users and Their Data {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-You, as the data controller, are responsible for verifying that the data subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the data subject and that they don't inadvertently receive data about other data subjects.
+You, as the Data Controller, are responsible for verifying that the Data Subject is who they say they are and that they have a right to the data they are requesting. Further, it is your responsibility to ensure that the correct data is returned to the Data Subject and that they don't inadvertently receive data about other Data Subjects.
 
-This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the data subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present. See [ID Expansion.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+This includes reviewing the data returned by Adobe Analytics as part of a Data Privacy access request before sending it on to the Data Subject. Particular care should be taken if you are using Person IDs, and returning not only data where that ID is present, but also data for other hits on a shared device where that ID was sometimes present. See [ID Expansion.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Each file combines data from all your report suites, automatically removing extra copies of replicated hits. You can decide which of these files to return to the data subject. Or you may extract some of this data and combine with data from other systems before returning it to the data subject.
+Each file combines data from all your report suites, automatically removing extra copies of replicated hits. You can decide which of these files to return to the Data Subject. Or you may extract some of this data and combine with data from other systems before returning it to the Data Subject.
 
 ## Submit Requests {#submit-requests}
 
@@ -93,7 +93,7 @@ Here is the JSON that might be submitted through the Data Privacy API or UI, req
 
 ```
 
-Notice there are three blocks in the user's section, representing three separate requests, presumably for three separate data subjects.
+Notice there are three blocks in the user's section, representing three separate requests, presumably for three separate Data Subjects.
 
 * The first request is an access request using a traditional Adobe Analytics cookie ID (AAID).
 * The second request is also an access request but is using an MCID/ECID cookie.
@@ -112,7 +112,7 @@ This sections contains details on access and delete responses.
 
 **Access Response Details**
 
-The data returned for an access request provides you, the data controller, with a URL you can use to download a ZIP file containing a directory for each Adobe product you own. Within the Analytics folder, there may be:
+The data returned for an access request provides you, the Data Controller, with a URL you can use to download a ZIP file containing a directory for each Adobe product you own. Within the Analytics folder, there may be:
 
 * Person Files - Derived from hits containing a matched ID-PERSON label
 
@@ -126,7 +126,7 @@ The data returned for an access request provides you, the data controller, with 
 
 Each file combines data from all your report suites, automatically removing extra copies of replicated hits.
 
-You can decide which of these to return to the data subject. Or you may extract some of this data and combine with data from other systems before returning it to the data subject.
+You can decide which of these to return to the Data Subject. Or you may extract some of this data and combine with data from other systems before returning it to the Data Subject.
 
 **Delete Response Details**
 

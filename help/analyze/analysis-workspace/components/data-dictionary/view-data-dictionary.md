@@ -3,6 +3,8 @@ description: The Data Dictionary in Analysis Workspace allows users to catalogue
 title: View the Data Dictionary
 feature: Components
 role: User, Admin
+hide: yes
+hidefromtoc: yes
 ---
 # View component information in the Data Dictionary
 

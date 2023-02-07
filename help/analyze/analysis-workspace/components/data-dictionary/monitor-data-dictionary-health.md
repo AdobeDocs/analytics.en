@@ -3,6 +3,8 @@ description: Administrators are responsible for monitoring Data Dictionary healt
 title: Monitor Data Dictionary health
 feature: Components
 role: Admin
+hide: yes
+hidefromtoc: yes
 ---
 # Monitor Data Dictionary health
 

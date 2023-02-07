@@ -6,10 +6,6 @@ exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 ---
 # Label report suite data
 
->[!NOTE]
->
->This updated UI is currently in limited testing.
-
 Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure that you first familiarize yourself with the [labels and their definitions](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 >[!NOTE]
@@ -18,7 +14,7 @@ Labeling report suite data means that you assign identity, sensitivity, and data
 
 ## Assign or edit report suite privacy labels {#assign-edit}
 
-**Example**: You, as the data controller, plan to collect email addresses and cookie IDs from data subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics.
+**Example**: You, as the Data Controller, plan to collect email addresses and cookie IDs from Data Subjects to process their Data Privacy requests. These cookie IDs are stored in a report suite in Adobe Analytics.
 
 1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Data governance]**.
 

@@ -11,10 +11,10 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 + [Analytics Admin Guide](home.md)
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe admin console {#admin-console}
-  + [Analytics in the Adobe Admin Console](admin-console/home.md)
+  + [Overview](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-  + Permissions {#permissions}
+  + Analytics tools permissions summary {#permissions}
     + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
@@ -33,14 +33,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Code Manager](admin/code-manager-admin.md)
   + [Currency codes](admin/currency.md)
   + [Data Sources](admin/data-sources.md)
-  + [Default metrics](admin/default-metrics.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Metric visibility](admin/metric-visibility.md)
-  + [Preferences manager](admin/preferences-manager.md)
-  + [Privacy reporting](admin/privacy-reporting.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
-  + [Scheduled reports queue](admin/scheduled-reports-admin.md)
   + Report Suite manager {#manage-report-suites}
     + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
     + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -66,14 +61,14 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + General {#report-suite-general}
         + [General Account settings](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
         + [Internal URL Filters](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+        + [Customize Calendar](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
         + Paid search detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-        + [Customize menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-        + [Customize calendar](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+        + [Customize Menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
         + Processing rules {#c-processing-rules}
           + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-          + Processing rules configuration {#c-processing-rules-configuration}
+          + Processing Rules {#c-processing-rules-configuration}
             + [How processing rules work](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
             + [Create processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
             + [View active processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -93,7 +88,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
             + [Set an event using a context data variable](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
             + [Remove an event from a hit](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
           + [Processing rules tips and tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-        + Bot removal {#bot-removal}
+        + Bot rules {#bot-removal}
           + [Bot removal](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
           + [Bot rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
           + [Common bot signatures](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
@@ -107,51 +102,56 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Server-side forwarding data and code reference](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
           + [How to verify your server-side forwarding implementation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
           + [Server-side forwarding FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-      + Traffic variables {#traffic-variables}
-        + [Traffic variable (prop) overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+      + Traffic {#traffic-variables}
+        + [Traffic variables](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
         + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
-        + [Traffic classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+        + [Traffic Classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
         + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-      + Conversion variables {#conversion-variables}
-        + [Conversion variables (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-        + [Edit conversion variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
-        + [Conversion classifications](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-        + [Classification hierarchies](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
-        + [List variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
-        + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-        + [Finding methods](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
-        + Unique Visitor variable {#unique-visitor-variable}
+      + Conversion {#conversion-variables}
+        + [Conversion Variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+        + [Finding Methods](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+        + [Conversion Classifications](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+        + Unique Visitor Variable {#unique-visitor-variable}
           + [Specify the Unique Visitor variable](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
           + [Use case - extracting Visitor IDs](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-        + Success events {#success-events}
+        + Success Events {#success-events}
           + [Success events overview](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
           + [Configure success events](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
           + [About changing the event type](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
-      + [Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+        + [Classification Hierarchies](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+        + [List Variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+        + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+      + Marketing Channels {#marketing-channels}
+        + [Manage marketing channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+        + [Processing rules for Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+        + [Classifications in Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+        + [Marketing Channel Expiration](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
       + Traffic Management {#traffic-management}
-        + [Manage traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-        + [Schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-        + [Estimate past server calls and schedule a traffic spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-        + [Specify permanent traffic increase](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-        + [Required lead time for traffic increases](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-      + [Individual report suite settings](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)  
-      + [App management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-      + Real-time reports {#real-time-reports}
+        + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+        + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+        + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
+      + [Default Metrics](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
+      + [App Management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + [Media Management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+      + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+      + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+      + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
+      + [Privacy Reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+      + Real-Time {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
   + Company Settings {#company-settings}
     + [Company Settings overview](admin/company/c-company-settings.md)
-    + [Feature access levels](admin/company/feature-access-levels.md)
+    + [Security Manager](admin/company/security-manager.md)
     + [Web Services](admin/company/web-services-admin.md)
     + [Report Builder reports](admin/company/report-builder-reports-admin.md)
     + [Single sign-on](admin/company/single-signon-admin.md)
-    + [Pending actions](admin/company/pending-actions-admin.md)
     + [Co-Branding](admin/company/co-branding-admin.md)
     + [Hide report suites](admin/company/c-hide-report-suites.md)
-    + [Security Manager](admin/company/security-manager.md)
-  + [Simplified reports menu](admin/t-simplified-menu.md)
-  + [Video management](admin/video-management.md)
+    + [Preferences manager](admin/company/preferences-manager.md)
+    + [Pending actions](admin/company/pending-actions-admin.md)
+    + [Feature access levels](admin/company/feature-access-levels.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)
     + [View current server call usage](admin/c-server-call-usage/server-call-usage-dashboard.md)

@@ -73,7 +73,6 @@ To share the project link with users in your organization:
 
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal web site, and so forth. 
 
-
 ## Share projects in the Project manager {#Manager} 
 
 Projects can also be shared from **[!UICONTROL Components] > [!UICONTROL Projects]**. A single project can be shared following the same steps above.  If multiple projects are selected to be shared, recipients will be added to the existing list of recipients for each project. 

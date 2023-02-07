@@ -10,9 +10,9 @@ Steps that describe how to upload data files via FTP.
 
 ## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
 
-Steps that describe how to upload data files via FTP.
+To upload data files via FTP:
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 The following recommended limits are important:
 
@@ -35,9 +35,11 @@ Before uploading data via FTP, create an FTP account. For more information, see 
 
 ## Import classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
-Steps that describe how to use an FTP account to import classifications into Adobe Analytics.
+You can use an FTP account to import classifications into Adobe Analytics.
 
 For more information about creating an FTP account, see [Create an FTP account](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+
+To import classifications via FTP:
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.

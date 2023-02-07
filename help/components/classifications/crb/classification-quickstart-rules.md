@@ -298,13 +298,13 @@ t_classification_rule.xml
 
  -->
 
-Steps that describe how to add or edit a classification rule.
-
 Add rules by matching a condition to a classification, and specifying the action.
 
 >[!NOTE]
 >
 >In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [sub-classifications](/help/components/classifications/c-sub-classifications.md).
+
+To add or edit a classification rule:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -356,7 +356,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Steps that describe how to test a classification rule or rule set. Running a test checks all the rules in a set.
+You can test a classification rule or rule set. Running a test checks all the rules in a set.
+
+To test a Classification Rule Set:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) .
 1. On the [!UICONTROL Classification Rule Builder], click the rule set name.
@@ -388,7 +390,7 @@ t_validate_rules.xml
 
  -->
 
-Steps that describe how to validate and activate classification rules.
+To validate and activate classification rules:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) , then [add classification rules](/help/components/classifications/crb/classification-quickstart-rules.md) to the set.
 1. On the rule editor, click **[!UICONTROL Activate]**.

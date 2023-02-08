@@ -29,7 +29,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 
 >[!NOTE]
 >
->This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
+>This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

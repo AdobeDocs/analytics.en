@@ -34,7 +34,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **November 2022** | |
 | Consent management variables | Dedicated pages for [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) and [Consent management opt-out](/help/components/dimensions/cm-opt-out.md). |
-| Multi-currency refresh | Pages around [Multi-currency support](/help/technotes/multicurrency.md) are updated. |
+| Multi-currency refresh | Pages around [Multi-currency support](/help/implement/vars/config-vars/currencycode.md) are updated. |
 | **October 2022** |  |
 | Data Workbench | [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Client hints | New [overview and FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html). |

@@ -31,7 +31,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Admin tools overview](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
   + [Code Manager](admin/code-manager-admin.md)
-  + [Currency codes](admin/currency.md)
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)

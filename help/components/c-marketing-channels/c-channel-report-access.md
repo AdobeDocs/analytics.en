@@ -6,6 +6,12 @@ exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 ---
 # Marketing Channel permissions
 
+>[!NOTE]
+>
+>To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+
 Here are the Report Suite Tools permissions needed in the [Admin Console](https://adminconsole.adobe.com/) to be able to work with various aspects of Marketing Channels.
 
 |Permission type|Permission name|Description|

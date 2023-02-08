@@ -8,7 +8,7 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 
 Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites.
 
-The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a Data Privacy request. When a Data Privacy request is submitted, the request will include a JSON section specifying the data subject IDs to use for the request. Multiple IDs can be included as part of a single request for a data subject. The JSON includes:
+The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a Data Privacy request. When a Data Privacy request is submitted, the request will include a JSON section specifying the Data Subject IDs to use for the request. Multiple IDs can be included as part of a single request for a Data Subject. The JSON includes:
 
 * A "namespace" field containing the namespace string.
 * A "type" field that for most Adobe Analytics requests contains the value "analytics".
@@ -32,7 +32,7 @@ The value must be specified as two hexadecimal numbers separate by a dash. All h
 
 It is also acceptable to use `"namespaceId": 10` instead of or in addition to `"namespace": "AAID"` and you may see some other Adobe products use that form.
 
-## Legacy Analytics tracking cookie: Deprecated form
+## Legacy Analytics tracking cookie: deprecated form
 
 ```
 {

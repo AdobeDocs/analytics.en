@@ -1,10 +1,10 @@
 ---
-description: Administrative steps for enabling AEM Assets reporting in Analytics.
-title: How to report on AEM Assets in Adobe Analytics
-feature: AEM Assets Reporting
-exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
+description: You can view Adobe Experience Manager data in Adobe Analytics
+title: View Adobe Experience Manager data in Adobe Analytics
+feature: Admin Tools
 ---
-# AEM Assets reporting
+
+# View Adobe Experience Manager data in Adobe Analytics
 
 Administrative steps for enabling AEM Assets reporting in Analytics.
 
@@ -18,4 +18,4 @@ Enables Analytics to collect impressions and clicks on [!UICONTROL Assets] serve
 
 For data to be populated, refer to the [AEM Asset Insights documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) for complete implementation instructions.
 
-<!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->

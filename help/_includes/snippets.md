@@ -31,9 +31,9 @@
    |---------|----------|
    | [!UICONTROL **Approved**] | Indicates that the component has been reviewed and approved by the administrator. Administrators see an [!UICONTROL **Approval required**] option for unapproved components. Selecting this option marks it as Approved. |
    | [!UICONTROL **Description**] | Describes the intended function of the component. (This information is added by the Analytics administrator, as described in [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-   | [!UICONTROL **Frequently used with**] | Shows the 5 components that are most commonly used with the component you are viewing across the 5 primary component types: Metric, Calculated Metric, Dimension, Segment, and Date Range. This list is based on data from the past 90 days. Only components that you have access to view are shown. |
-   | [!UICONTROL **Similar to**] | Shows up to 5 components with similar labels to the component you are viewing across the 5 primary component types: Metric, Calculated Metric, Dimension, Segment, and Date Range. Only components that you have access to view are shown. |
-   | [!UICONTROL **Tags**] | Shows all tags that are applied to the component. |
+   | [!UICONTROL **Frequently used with**] | Shows the 5 components that are most commonly used with the component you are viewing across the 5 primary component types: Metric, Calculated Metric, Dimension, Segment, and Date Range. This list is based on data from the past 90 days. Only components that you have access to view are shown. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+   | [!UICONTROL **Similar to**] | Shows up to 5 components with similar labels to the component you are viewing across the 5 primary component types: Metric, Calculated Metric, Dimension, Segment, and Date Range. Only components that you have access to view are shown. <!--Add info about how users with administrator access can control these after the feature is available. How?-->  |
+   | [!UICONTROL **Tags**] | Shows all tags that are applied to the component. Users with administrator access can add tags when editing the component. |
    | [!UICONTROL **Component type**] | Lists the type of component it is, whether a Dimension, Metric, Segment, or Date Range. |
    | [!UICONTROL **Created by**] | Displays the name of the user who created the component. |
    | [!UICONTROL **Preview**] | Shows a preview of how the component looks in Analysis Workspace. |

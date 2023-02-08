@@ -15,7 +15,9 @@ Here is a video on using date ranges and calendars in Analysis Workspace:
 
 Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![Calendar](assets/aw_calendar1.png)
+![Calendar](assets/aw_calendar2.png){width="60%"} 
+
+## Select and apply date ranges {#select-apply}
 
 The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
@@ -34,7 +36,8 @@ You can also drag dates (and time dimensions) into a Workspace project. You can 
 
 ## About relative panel date ranges {#relative-panel-dates}
 
-If you’re working in Workspace, you can make the date range components relative to the panel calendar so that data previewed in the left rail (or within components) will be based on the panel date range. Three common use cases where you’ll see relative panel dates take effect are combo charts, key metrics summary, and Freeform table date ranges.
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
 To use relative panel date ranges
 
@@ -42,13 +45,30 @@ To use relative panel date ranges
 1.  Select **Blank project**.
 1.  Add dimensions, metrics, and segments from the left rail. 
 1.  Click the panel date range field to toggle the relative panel date range setting.
-1.  Select or deselect **Make date range components relative to panel calendar**.
+1.  Select **Make date range components relative to panel calendar**.
     *   Select the option to make the date range components relative to the panel calendar.
-    *   Deselecting this option means the date ranges within the panel (either Key Metric Summary, Combo Charts, or Purple Date Pills) will not update if the panel date range is changed. This is the default.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    *   If this option isn't selected, then rolling dates will be based on today's date.
 
-    ![relative panel dates](assets/relative-date-snippet.png)
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
 1.  Click **Apply**.
     The relative dates are shown in the upper-right.
 
     ![relative dates in freeform ](assets/relative-date-range1.png)
+
+## Guidelines for relative panel date ranges {#guidelines}
+
+Keep in mind the following guidelines when using relative panel date ranges.
+
+### Formulas and relative date ranges {#formula-relative-dates}
+
+If you have relative dates selected, all date formulas will use the panel’s start date as the starting point.
+
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
+
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
+
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
+
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 

@@ -22,7 +22,7 @@ To edit a component in the Data Dictionary:
 
    ![Data Dictionary admin view](assets/data-dictionary-admin.png)
 
-1. Ensure that the correct Report Suite is selected in the drop-down menu. 
+1. Ensure that the correct Report Suite is selected in the drop-down menu. By default, the report suite that you are already in is displayed. 
 
 1. (Optional) In the search field, begin typing the name of the component you want to edit.
 

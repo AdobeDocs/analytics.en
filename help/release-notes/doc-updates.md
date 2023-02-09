@@ -21,8 +21,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **February 2023** | |
 | Implementation | Updated content on how to [implement Adobe Analytics for web and mobile](../implement/home.md). |
-| Workspace calendars and date ranges | Updated content to describe relative date ranges, formula calculation updates, and calendar UI changes. See [About relative panel date ranges](/help/components/date-ranges/calendar.md). |
-| Mobile scorecards | New documentation section to describe how to show and hide comparison date ranges. See [Show comparison date ranges](/help/mobile-app/create-scorecard.md) in CJA.  |
+| Workspace calendars and date ranges | Updated content to describe relative date ranges, formula calculation updates, and calendar UI changes. See [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges). |
+| Mobile scorecards | New documentation section to describe how to show and hide comparison date ranges. See [Show comparison date ranges](/help/analyze/mobile-app/create-scorecard.md) in CJA.  |
 | **January 2023** | |
 | Filter and sort tables | Updated content (including adding procedures and explaining available options) in the [Filter and sort tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Renamed this article from "Pagination, filtering and sorting tables." |
 | Folders | Dedicated pages for [Folders management](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).  |

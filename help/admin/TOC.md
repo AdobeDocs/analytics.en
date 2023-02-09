@@ -19,14 +19,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
-  + User and Product Management (Legacy) {#user-product-management}
-    + [User and Product Management (Legacy)](admin-console/user-management2/user-management.md)
-    + Migrate users to Adobe Admin Console {#migrate-users}
-      + [Analytics User Migration to the Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-      + [Migrate Analytics user accounts for Adobe IDs](admin-console/user-management2/user-migration/t-migrate-users.md)
-      + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin-console/user-management2/user-migration/migrate-enterprise.md)
-      + [Disable legacy logins](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-      + [APIs Affected by the Migration](admin-console/user-management2/user-migration/developer.md)  
 + Analytics admin tools {#admin-tools}
   + [Admin tools overview](admin/c-admin-tools.md)
   + [Billing](admin/billing-admin.md)
@@ -36,26 +28,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Logs](admin/logs.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
   + Report Suite manager {#manage-report-suites}
-    + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
-    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
-    + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-    + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
-    + New report suite {#c-new-report-suite}
-      + [Create a report suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Create a rollup report suite](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-      + [Create a report suite group](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-      + [New report suite - settings](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Settings not copied from a source report suite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-    + Report suite templates {#report-suite-templates}
-      + [Report suite templates overview](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Aggregator portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [Content and Media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [Default template](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [Financial Services](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Job portal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Lead Generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [Support Media](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
     + Edit settings of a report suite {#edit-report-suite}
       + General {#report-suite-general}
         + [General Account settings](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -140,6 +112,26 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+    + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
+    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+    + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+    + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
+    + New report suite {#c-new-report-suite}
+      + [Create a report suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+      + [Create a rollup report suite](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+      + [Create a report suite group](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+      + [New report suite - settings](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+      + [Settings not copied from a source report suite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+    + Report suite templates {#report-suite-templates}
+      + [Report suite templates overview](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+      + [Aggregator portal](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+      + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+      + [Content and Media](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+      + [Default template](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+      + [Financial Services](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+      + [Job portal](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+      + [Lead Generation](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+      + [Support Media](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
   + Company Settings {#company-settings}
     + [Company Settings overview](admin/company/c-company-settings.md)
     + [Security Manager](admin/company/security-manager.md)
@@ -157,6 +149,14 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [View report suite usage](admin/c-server-call-usage/report-suite-usage.md)
     + [Server call usage alerts](admin/c-server-call-usage/scu-alerts.md)
     + [Server call usage FAQ](admin/c-server-call-usage/overage-faq.md)
+  + User and Product Management (Legacy) {#user-product-management}
+    + [User and Product Management (Legacy)](admin/user-management2/user-management.md)
+    + Migrate users to Adobe Admin Console {#migrate-users}
+      + [Analytics User Migration to the Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+      + [Migrate Analytics user accounts for Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
+      + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin/user-management2/user-migration/migrate-enterprise.md)
+      + [Disable legacy logins](admin/user-management2/user-migration/t-disable-legacy-login.md)
+      + [APIs Affected by the Migration](admin/user-management2/user-migration/developer.md)  
 + Data Governance {#data-governance}
   + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
   + [Frequently asked questions](c-data-governance/gdpr-faq.md)
@@ -170,3 +170,4 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [ID expansion](c-data-governance/gdpr-id-expansion.md)
   + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
 + [Admin API](c-admin-api/c-admin-api.md)
+

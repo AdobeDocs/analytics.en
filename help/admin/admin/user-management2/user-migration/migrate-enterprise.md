@@ -137,7 +137,7 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
    >Other columns, such as [!UICONTROL Product Configurations] and [!UICONTROL Admin Roles] can be blank.
 
 1. On the Users tab in the Adobe Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
-1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](/help/admin/admin-console/user-management2/user-migration/t-migrate-users.md)).
+1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](/help/admin/admin/user-management2/user-migration/t-migrate-users.md).
 1. Click **[!UICONTROL Migrate]** > **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Step Info](/help/admin/admin-console/user-management2/user-migration/assets/migrate-as-enterprise.png)

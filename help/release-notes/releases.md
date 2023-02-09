@@ -18,7 +18,7 @@ Adobe Analytics releases operate on a continuous delivery model which allows for
 
 * **General Availability (GA)**: The feature is available to 100% of entitled Experience Cloud organizations, and feature release is complete.
 
-With each feature release, the timeline from RTP to GA may vary. The goal is to keep releases short, so that within 2 months of release start (RTP), a feature will be GA.
+With each feature release, the timeline from Start of Rollout to GA may vary. The goal is to keep releases short, so that within 2 months of Start of Rollout, a feature will be GA.
 
 ## Feature flags
 

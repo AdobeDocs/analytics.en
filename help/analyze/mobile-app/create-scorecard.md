@@ -96,9 +96,9 @@ If the date range you want hasn’t been created yet, you can create a new one b
 
 This will take you to the date range builder where you can create and save a new date range component.
 
-### Show comparison date ranges {#show-comparison-dates}
+### Show/Hide comparison date ranges {#show-comparison-dates}
 
-To include comparison date ranges, toggle the **Include comparison dates** setting.
+To show or hide comparison date ranges, toggle the **Include comparison dates** setting.
 
 ![Include comparison dates](assets/include-comparison-dates.png)
 

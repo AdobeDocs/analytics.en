@@ -21,8 +21,8 @@ The backend architecture released with Classification Sets contains several nota
 
 The backend architecture released with Classification Sets also contains several notable changes:
 
-* When using the browser import, '[!UICONTROL Overwrite on conflict]' is always enabled.
-* When using the browser import, the option to export immediately after import is no longer supported. Exports must be initiated separately.
+* When using the browser or FTP import, '[!UICONTROL Overwrite on conflict]' is always enabled.
+* When using the browser or FTP import, the option to export immediately after import is no longer supported. Exports must be initiated separately.
 * The Analytics 2.0 API `GetDimensions` endpoint now returns string identifiers for classifications instead of numeric identifiers. Numeric identifiers can still be used, but Adobe recommends using the new string identifiers where possible. Numeric identifiers can be retrieved by using the `?expansion=hidden` query string parameter.
 
 

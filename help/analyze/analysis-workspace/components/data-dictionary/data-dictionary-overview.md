@@ -12,7 +12,7 @@ hidefromtoc: yes
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment.   
 
-System administrators are responsible for curating this information about each component in the Data Dictionary and making it available to users.
+Analytics administrators are responsible for curating information about each component in the Data Dictionary to make it available to users.
 
 ## Benefits for users
 
@@ -27,6 +27,8 @@ Information available in the Data Dictionary includes:
 * Components that are similar to the one you are viewing
 
 * Whether a component is approved by the system administrator 
+
+For information about how to access the Data Dictionary and for details about the information it contains, see [View component information in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Benefits for administrators
 
@@ -61,7 +63,13 @@ You can access the Data Dictionary in any of the following ways within Analysis 
 
 * From the menu: [!UICONTROL **Help**] > [!UICONTROL **Data Dictionary**].
 
-  <!--add screenshot-->
+For detailed information about the various options available in the Data Dictionary, see [View component information in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## Update and curate the Data Dictionary
+
+Analytics administrators are responsible for maintaining a healthy Data Dictionary for their organization, as described in [Monitor Data Dictionary Health](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+As part of this process, Analytics administrators can edit information about each component in the data dictionary, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Move, minimize, or close the Data Dictionary
 

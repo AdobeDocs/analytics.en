@@ -12,16 +12,18 @@
 
    |Option | Function |
    |---------|----------|
+   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+   | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
    | [!UICONTROL **Metrics**] | Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
    | [!UICONTROL **Segments**] | Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
-   | [!UICONTROL **Missing description**] | Show only components that do not yet have a description in the Description field. This option is available only for administrators. |
-   | [!UICONTROL **Duplicates**] | Show only components that have either the same label or the same description as that of another component in the selected Report Suite. This option is available only for administrators. Labels or descriptions must be exact matches in order to show as duplicates. |
-   | [!UICONTROL **No data recently**] | Show only components that have not collected any data in the past 90 days. This option is available only for administrators. |
-   | [!UICONTROL **Created by Adobe**] | Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. |
-   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
-   | Unapproved (available only for administrators) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
+   | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
+   | [!UICONTROL **Missing Description**] | Show only components that do not yet have a description in the Description field. This option is available only for administrators. |
+   | [!UICONTROL **Show duplicates**] | Show only components that have either the same label or the same description as that of another component in the selected Report Suite. Labels or descriptions must be exact matches in order to show as duplicates. This option is available only for administrators. |
+   | [!UICONTROL **No recent data**] | Show only components that have not collected any data in the past 90 days. This option is available only for administrators. |
+   | [!UICONTROL **Created by Adobe**] <!-- I don't see this option-->| Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. |
 
    {style="table-layout:auto"}
 

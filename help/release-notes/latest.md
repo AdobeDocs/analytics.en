@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (February 2023)
 
-**Last update**: February 9, 2023
+**Last update**: February 13, 2023
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -38,6 +38,7 @@ AN-302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
+| **EOL of Japanese Feature Phone tracking service** | February 13, 2023 | For our Japanese customers only: At the end of May 2023, the Japanese Feature Phone tracking service (mod_ktrack) will be discontinued. We apologize for the inconvenience, but we ask that you uninstall or disable the modules that are installed on your Apache server. See pages 27 and 28 in [this document](/help/release-notes/mod_ktrack説明書forSiteCatalyst_ver1.40.pdf) for reference. |
 | **EOL of some Reports & Analytics and Report Builder scheduling features** | February 9, 2023 | The following scheduling features were end-of-lifed on January 31, 2023:<ul><li>The "end after x occurrences" option for hourly tasks in Report Builder</li><li>The ability to schedule new reports and download data extracts in Reports and Analytics</li></ul><p>**Note**: We originally terminated these features in April 2022 but rolled back the change. We also sent a notification that these features were being temporarily restored and that they would be re-terminated on Jan 31, 2023. |
 | **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, Publishing Lists are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing Publishing Lists to send or schedule Analysis Workspace projects. |
 | **EOL for Data Workbench** | September 14, 2022 | Adobe intends to end-of-life Data Workbench effective **December 31, 2023**. See [Data Workbench end-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) for details. Contact your organization's Adobe Account Manager with any questions. |

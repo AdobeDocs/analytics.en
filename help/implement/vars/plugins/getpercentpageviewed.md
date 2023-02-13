@@ -63,7 +63,7 @@ Calling this function returns nothing; instead, it sets the following variables:
 * `window._ppvFinalPercentViewed`: The percent of the previous page that was visible at the point the visitor moved onto the current page. This value will be equal to or greater than the initial percent viewed and will also be equal to or less than the highest percent page viewed. 
 * `window._ppvHighestPixelsSeen`: The highest number of total pixels seen (height-wise) as the visitor scrolled down the previous page.
 * `window._ppvFoldsAvailable`: The number of total "page folds" available to scroll down on the previous page. If the entire page is visible when it first loads, this value is `1`.
-* * `window._ppvFoldsSeen`: The highest number of "page folds" reached as the visitor scrolled down the previous page. This variable includes the "top-of-page" fold. If the entire page is visible when it first loads, this value is `1`.
+* `window._ppvFoldsSeen`: The highest number of "page folds" reached as the visitor scrolled down the previous page. This variable includes the "top-of-page" fold. If the entire page is visible when it first loads, this value is `1`.
 
 Assign one or more of these variables to eVars to see dimension data in reports.
 

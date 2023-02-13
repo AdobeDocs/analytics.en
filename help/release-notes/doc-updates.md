@@ -19,7 +19,14 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **February 2023** | |
+| Implementation | Updated content on how to [implement Adobe Analytics for web and mobile](../implement/home.md). |
+| Workspace calendars and date ranges | Updated content to describe relative date ranges, formula calculation updates, and calendar UI changes. See [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Mobile scorecards | New documentation section to describe how to show and hide comparison date ranges. See [Show comparison date ranges](/help/analyze/mobile-app/create-scorecard.md) in CJA.  |
+| 1.4 API | The [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) received a full rewrite, and is now published on Adobe Developer. |
+| Tracking across implementation types | Updated the use case [Track across different implementation types](../implement/use-cases/cross-type-implementation.md) to accommodate the Experience Cloud ID Service. |
 | **January 2023** | |
+| Filter and sort tables | Updated content (including adding procedures and explaining available options) in the [Filter and sort tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Renamed this article from "Pagination, filtering and sorting tables." |
 | Folders | Dedicated pages for [Folders management](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).  |
 | User preferences | Many additional user preferences are now available in [Preferences](/help/analyze/analysis-workspace/user-preferences.md).  |
 | Auto-save for projects | Updated content to include auto-save functionality in [Save projects](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).  |
@@ -31,7 +38,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **November 2022** | |
 | Consent management variables | Dedicated pages for [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) and [Consent management opt-out](/help/components/dimensions/cm-opt-out.md). |
-| Multi-currency refresh | Pages around [Multi-currency support](/help/technotes/multicurrency.md) are updated. |
+| Multi-currency refresh | Pages around [Multi-currency support](/help/implement/vars/config-vars/currencycode.md) are updated. |
 | **October 2022** |  |
 | Data Workbench | [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Client hints | New [overview and FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html). |

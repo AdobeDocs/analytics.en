@@ -23,3 +23,5 @@ Enables Analytics to collect user activity served up from Activity Map (formerly
   |  Activity Map Links & Region  | Lists all collected links with their region across the whole web site.  |
 
 For data to be populated, refer to the [Activity Map documentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) for complete implementation instructions.
+
+<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->

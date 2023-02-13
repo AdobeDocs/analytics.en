@@ -8,21 +8,15 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 
 ## Why label your data? {#why-label}
 
-Many Adobe customers have legal teams that have reviewed the Data Privacy laws (GDPR, CCPA, etc.). These teams may have drawn their own conclusions about how data should be handled in order to conform with Data Privacy laws. The legal interpretations may differ across companies and the desired data handling settings may also differ across customers. Since customers have differing preferences for Data Privacy data processing and differing data sets, Adobe is enabling Adobe customers, as the data controller, to customize their desired settings for Data Privacy data processing for their unique data. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
+Adobe's customers, as the Data Controllers, are responsible for complying with applicable Data Privacy laws such as GDPR and CCPA. Customers should consult with their own legal teams to determine how their data should be handled to comply with Data Privacy laws. Adobe understands that each of its customers has unique needs related to privacy, which is why Adobe enables its customers to customize their desired settings for Data Privacy data processing. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
-Adobe Analytics provides tools for labeling data according to its sensitivity and contractual restrictions. Labels are important and useful for helping: (1) identify data subjects, (2) determine which data to return as part of an access request, and (3) identify data fields that must be deleted as part of a deletion request.
+Adobe Analytics provides tools for labeling data according to its sensitivity and contractual restrictions. Labels are an important step for: (1) identifying Data Subjects, (2) determining which data to return as part of an access request, and (3) identifying data fields that must be deleted as part of a deletion request.
 
 Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
 
-## DULE labels {#dule-labels}
-
->[!NOTE]
->
->The Data Usage Labeling & Enforcement (DULE) Framework is designed to provide a uniform way across all Adobe Solutions/Services/Platforms to capture, communicate, and use metadata about data across the Adobe Experience Cloud. The metadata helps data controllers indicate which data is personal information, which data is sensitive data, and what contract restrictions are associated with data. In this initial release, Analytics is exposing only the DULE labels that are relevant to Data Privacy. As other Adobe products implement support for DULE labels, future releases will introduce additional sensitive data labels, as well as contractual labels, which will help ensure that data shared between products is used only in legally permissible ways.
-
-## Identity data labels (DULE) {#identity-data-labels}
+## Identity data labels {#identity-data-labels}
 
 Identity data "I" labels are used to categorize data that can identify or contact a specific person.
 
@@ -33,7 +27,7 @@ Identity data "I" labels are used to categorize data that can identify or contac
 
 {style="table-layout:auto"}
 
-## Sensitive data labels (DULE) {#sensitive-data-labels}
+## Sensitive data labels {#sensitive-data-labels}
 
 Sensitive data "S" labels are used to categorize sensitive data such as geographic data. Additional Sensitive Data labels will be introduced in the future to identify other types of sensitive information.
 
@@ -46,30 +40,30 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
 
 ## Data Governance labels (Data Privacy) {#data-governance-labels}
 
-Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to be compliant with regulations and corporate policies.
+Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to help Adobe's customers remain compliant with regulations and corporate policies.
 
 ### Data Privacy Access labels
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
-| None | Select this option if this variable does not contain data that must be included in data returned to the data subject as part of a Data Privacy access request. | |
+| None | Select this option if this variable does not contain data that must be included in data returned to the Data Subject as part of a Data Privacy access request. | |
 | ACC-ALL | Values in this field should be included in all Data Privacy access requests. If this hit came from a device shared by multiple individuals, by applying this label, you, as the data controller, are indicating that it is acceptable to share the data in this field with any individual who had access to the shared device.| Fields with this label will be returned for all Data Privacy requests. |
-| ACC-PERSON | Values in this field should be included only for Data Privacy access requests when we are reasonably certain that the hit was from the data subject, as determined by a Data Privacy request ID matching an ID-PERSON field's value. | You must also have an ID-PERSON label set on some variable within this report suite, and submit requests using that ID, or this label will never apply. |
+| ACC-PERSON | Values in this field should be included only for Data Privacy access requests when you are reasonably certain that the hit was from the Data Subject, as determined by a Data Privacy request ID matching an ID-PERSON field's value. | You must also have an ID-PERSON label set on some variable within this report suite, and submit requests using that ID, or this label will never apply. |
 
 {style="table-layout:auto"}
 
-While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with data subjects.
+While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with Data Subjects.
 
 ### Data Privacy Delete labels
 
 Unlike the other labels, these Delete labels are not mutually exclusive. You can select either, both or none. A separate [!UICONTROL None] label is not necessary, because [!UICONTROL None] is indicated simply by not checking either of the Delete options.
 
-A delete label is required only for fields that contain a value that would allow a hit to be associated with the data subject (i.e. that would allow identification of the data subject). Other personal information (favorites, browsing/purchase history, health conditions, etc.) does not need to be deleted since the association with the data subject will be severed.
+A Delete label is required only for fields that contain a value that would allow a hit to be associated with the Data Subject (i.e. that would allow identification of the Data Subject). Other personal information (favorites, browsing/purchase history, health conditions, etc.) does not need to be deleted since the association with the Data Subject will be severed.
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
-| DEL-DEVICE | For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-DEVICE is present in the hit.  If the same value occurs on other hits, which are not being deleted, then those other instances will not be changed. This will result in the counts changing for reports which compute unique counts on this field. On shared devices, this may remove identifiers for other individuals, beyond just the data subject.  Counts do not change if this field also has an ID-DEVICE label and the value in this field was used as an ID for the Data Privacy request.|<ul><li>Also requires I1 or I2 or S1 label</li><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li></li><li>Cannot be set on Classifications</li><li>You must submit requests using an ID-DEVICE or set expandIDs to true, or this label will never apply.</li></ul> |
-| DEL-PERSON | For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-PERSON is present in the hit.  If the same value occurs on other hits, which are not being deleted, then those other values will not be changed. This will result in the counts changing for reports which compute unique counts on this field. Counts will not change if this field also has an ID-PERSON label and the value in this field was used as an ID for the Data Privacy request.| <ul><li>Also requires I1 or I2 or S1 label</li><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li></li><li>Cannot be set on Classifications</li><li>You must submit requests using an ID-PERSON label set on some variable within this report suite and submit requests using that ID, or this label will never apply.</li></ul> |
+| DEL-DEVICE | For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-DEVICE is present in the hit.  If the same value occurs on other hits that are not being deleted, then those other instances will not be changed. This will result in the counts changing for reports which compute unique counts on this field. On shared devices, this may remove identifiers for other individuals, beyond just the Data Subject.  Counts do not change if this field also has an ID-DEVICE label and the value in this field was used as an ID for the Data Privacy request.|<ul><li>Also requires I1 or I2 or S1 label</li><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li></li><li>Cannot be set on Classifications</li><li>You must submit requests using an ID-DEVICE or set expandIDs to true, or this label will never apply.</li></ul> |
+| DEL-PERSON | For Data Privacy delete requests, values in this field should be anonymized only for requests where a specified ID-PERSON is present in the hit.  If the same value occurs on other hits that are not being deleted, then those other values will not be changed. This will result in the counts changing for reports that compute unique counts on this field. Counts will not change if this field also has an ID-PERSON label and the value in this field was used as an ID for the Data Privacy request.| <ul><li>Also requires I1 or I2 or S1 label</li><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li></li><li>Cannot be set on Classifications</li><li>You must submit requests using an ID-PERSON label set on some variable within this report suite and submit requests using that ID, or this label will never apply.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -78,7 +72,7 @@ A delete label is required only for fields that contain a value that would allow
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
 | None | This variable does not contain an ID that will be used for Data Privacy requests.|You need to set one of these other labels only if this field contains an ID that you will use when submitting access or delete requests through the [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) or UI.|
-| ID-DEVICE | This field contains an ID that can be used to identify a device for a Data Privacy request , but cannot distinguish between different users of a shared device.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID.|Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
+| ID-DEVICE | This field contains an ID that can be used to identify a device for a Data Privacy request, but cannot distinguish between different users of a shared device.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID.|Also requires I1 or I2 label.<ul><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
 | ID-PERSON | This field contains an ID that can be used to identify an authenticated user (a specific person) for a Data Privacy request.  You do not need to specify this label for all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will submit Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. | <ul><li>Also requires I1 or I2 label.</li><li>Cannot be set on events</li><li>Cannot be set on Merchandising eVars</li><li>Cannot be set on Classifications</li></ul> |
 
 {style="table-layout:auto"}
@@ -107,7 +101,7 @@ You can also define a new namespace. We recommend that namespace strings be limi
 1. Press **[!UICONTROL Enter]** to add this namespace. Only now will the Apply button be activated.
 1. Click **[!UICONTROL Apply]**.
 
-The string you specify as the namespace is the same string you should use when submitting requests through the Data Privacy API as the value of the "namespace" parameter. The request will then cause Adobe Analytics to search all variables in all of your report suites that share this namespace for the ID you specified with the request.
+The string you specify as the namespace is the same string you should use when submitting requests through the Data Privacy API as the value of the "namespace" parameter. The request then causes Adobe Analytics to search all variables in all of your report suites that share this namespace for the ID you specified with the request.
 
 You do not need to specify the ID-DEVICE or ID-PERSON labels on all variables that contain IDs (that is what the I1/I2 labels are for). Use this label if you will be submitting Data Privacy requests using IDs stored in this variable and want to search this variable for the specified ID. As an example, if eVar1 can contain an email address, and eVar2 can contain a login user name, but you will only ever submit requests using the user name, then you might label eVar1 as I1, ACC-PERSON, DEL-PERSON, but eVar2 as I2, ACC-PERSON, DEL-PERSON, ID-PERSON with namespace "user name". You can then submit a request with a user section JSON block such as:
 
@@ -120,17 +114,17 @@ You do not need to specify the ID-DEVICE or ID-PERSON labels on all variables th
 
 ```
 
-It is acceptable to use the same namespace for different variables within the same report suite. For example, some custom implementations store a CRM-ID in both a prop and an eVar. If the CRM-ID always occurs in one of them (such as the eVar), and only occasionally occurs in the other (the prop), and never in the prop when not also in the eVar, then only the eVar requires an ID label and a namespace, as Adobe can search only in that eVar for the ID. If, however, the CRM-ID sometimes occurs in one variable and sometimes in the other, then both should have the same namespace and Adobe will search both variables for occurrences of the ID specified as part of a Data Privacy request with this namespace. You should still have DEL labels on all of these variables, so that the value is anonymized no matter where it occurs.
+It is acceptable to use the same namespace for different variables within the same report suite. For example, some custom implementations store a CRM-ID in both a prop and an eVar. If the CRM-ID always occurs in one of them (such as the eVar), and only occasionally occurs in the other (the prop), and never in the prop when not also in the eVar, then only the eVar requires an ID label and a namespace because Adobe can search only in that eVar for the ID. If, however, the CRM-ID sometimes occurs in one variable and sometimes in the other, then both should have the same namespace and Adobe will search both variables for occurrences of the ID specified as part of a Data Privacy request with this namespace. You should still have DEL labels on all of these variables, so that the value is anonymized no matter where it occurs.
 
-As another example, you might have a CRM ID that is sometimes sent in via eVar1 and sometimes sent in via prop7. You then have a processing rule that copies the value from eVar1, if it exists, into eVar3. Otherwise it copies the value from prop7 into eVar3. In this scenario, eVar3 will always contain the CRM ID if it is known, so only eVar3 requires an ID-PERSON label.
+As another example, you might have a CRM ID that is sometimes sent in via eVar1 and sometimes sent in via prop7. You then have a processing rule that copies the value from eVar1, if it exists, into eVar3. Otherwise, it copies the value from prop7 into eVar3. In this scenario, eVar3 will always contain the CRM ID if it is known, so only eVar3 requires an ID-PERSON label.
 
 >[!CAUTION]
 >
 >The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
-## Variable types and the Data Privacy/DULE labels they support {#variable-types}
+## Variable types and the Data Privacy labels they support {#variable-types}
 
-Data Privacy/DULE labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or don't support which labels.
+Data Privacy labeling affects four broad classes of Analytics variables. Not all variables support all labels. This table shows which variables support or do not support which labels.
 
 |Variable Type|Supported Labels|Unsupported Labels|
 |--- |--- |--- |
@@ -178,13 +172,13 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
    <td colname="col1"> <p>Solution Dimensions and Events </p> </td> 
    <td colname="col2"> <p>Activity Map Link, </p> <p>Activity Map Page </p> </td> 
    <td colname="col3"> <p>None / I1 / I2 </p> <p>None / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don't need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
+   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they do not need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Processing Dimensions </p> </td> 
    <td colname="col2"> <p>Custom Visitor ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>You cannot remove the ID or DEL labels (set to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you don't use the custom visitor ID, then the setting does not matter. </p> </td> 
+   <td colname="col4"> <p>You cannot remove the ID or DEL labels (set to None), but you can change them to be either the DEVICE or PERSON variants, depending on your custom ID implementation. </p> <p>If you do not use the custom visitor ID, then the setting does not matter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -199,14 +193,14 @@ Data Privacy/DULE labeling affects four broad classes of Analytics variables. No
   <tr> 
    <td colname="col2"> <p>ClickMap Action (Legacy), </p> <p>ClickMap Context (Legacy), </p> <p>Page, </p> <p>Page URL, </p> <p>Original Entry Page URL, </p> <p>Referrer, </p> <p>Visit Start Page URL </p> </td> 
    <td colname="col3"> <p>None / I1 / I2 </p> <p>None / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they don't need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
+   <td colname="col4"> <p>Variables can contain URL parameters, which may include directly or indirectly identifiable data. If your implementation does not collect directly or indirectly identifiable data in these variables, then they do not need Identity or deletion labels. </p> <p>Note that delete clears the URL parameters, but preserves the base URL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Deletion handling {#deletion}
 
-Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the data subject, while leaving non-identifiable data in place so that reported values remain consistent.
+Adobe Analytics support for Data Privacy deletion requests is designed to minimize impacts to reporting. In most cases, the metrics displayed in reports should not change. A historical report that was run before Data Privacy deletion will match the same report run after deletion has been performed. This is accomplished by completely disassociating the deleted data from the Data Subject, while leaving non-identifiable data in place so that reported values remain consistent.
 
 The following table describes how various variables are "deleted". This is not a complete list.
 
@@ -221,20 +215,22 @@ The following table describes how various variables are "deleted". This is not a
 
 {style="table-layout:auto"}
 
-## Variables that don't support the expected Delete labels {#no-delete-support}
+## Variables that may not support the expected Delete labels {#no-delete-support}
 
-This section intends to clarify information about Analytics variables that don't support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make incorrect assumptions based on the name of the variable. Here is a list of some of these variables and why they don't require deletion, or why they don't require a specific deletion label.
+This section intends to clarify information about Analytics variables that may not support deletion. Sometimes, these variables get deleted by non-Analytics users (such as the legal team) who do not understand the type of data contained in the variable and make assumptions based on the name of the variable. 
+
+It is important to understand what type of data is contained in each variable prior to making a decision about labeling or deletion, and not to rely on variable name alone. Here is a list of some of these variables and why they may not require deletion, or why they may not require a specific deletion label:
 
 | Variable | Comments |
 | --- | --- |
-| New Visitor ID | New visitor id is a Boolean that is true the first time we see a given visitor ID. There is no need to delete it once the visitor ID is anonymized. After anonymization, it will correspond to the first time we have seen this anonymized ID.|
-| Zip Code<p>Geo Zip Code | Zip codes are set only for hits originating in the USA. They are not set for hits coming from the EU. Even when set, they only provide a broad geographic area that makes re-identification of the data subject difficult. |
-| Geo Latitude<p>Geo Longitude | These provide a rough location derived from the IP address. The accuracy is generally similar to that of a zip code, within a few dozen kilometers of the actual location. |
-| User Agent | The User Agent identifies the version of the browser that was used. |
-| User ID | Specifies the Analytics report suite (as a number) containing the data. |
-| Report Suite ID | Specifies the name of the Analytics report suite containing the data. |
-| Visitor ID<p>MCID / ECID|These IDs have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify [!UICONTROL ID Expansion] with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON.<p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, since only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. |
-| AMO ID | The Adobe Advertising Cloud ID is a solution variable that has an unmodifiable [!UICONTROL DEL-DEVICE] label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details.|
+| [!UICONTROL New Visitor ID] | New Visitor ID is a Boolean that is true the first time we see a given visitor ID. There is no need to delete it once the visitor ID is anonymized. After anonymization, it will correspond to the first time we have seen this anonymized ID.|
+| [!UICONTROL Zip Code]<p>[!UICONTROL Geo Zip Code] | Zip codes are set only for hits originating in the USA. They are not set for hits coming from the EU. Even when set, they only provide a broad geographic area that makes re-identification of the Data Subject difficult. |
+| [!UICONTROL Geo Latitude]<p>[!UICONTROL Geo Longitude] | These provide a rough location derived from the IP address. The accuracy is generally similar to that of a zip code, within a few dozen kilometers of the actual location. |
+| [!UICONTROL User Agent] | The User Agent identifies the version of the browser that was used. |
+| [!UICONTROL User ID] | Specifies the Analytics report suite (as a number) containing the data. |
+| [!UICONTROL Report Suite ID] | Specifies the name of the Analytics report suite containing the data. |
+| [!UICONTROL Visitor ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID]|These IDs have a DEL-DEVICE label, but the DEL-PERSON label cannot be added. If you specify [!UICONTROL ID Expansion] with each request, then these IDs will automatically be deleted for all delete requests, even those using an ID-PERSON.<p>If you do not use ID Expansion, but want these cookie IDs anonymized on hits that contain a matching ID in a prop or eVar, you can work around this labeling limitation by labeling the prop or eVar with an ID-DEVICE label, even if it really identifies a person (all DEL-PERSON labels would also need to be changed to DEL-DEVICE labels). In this case, because only some instances of the visitor ID or ECID are being anonymized, unique visitor counts will change in historical reporting. |
+| [!UICONTROL AMO ID] | The Adobe Advertising Cloud ID is a solution variable that has an unmodifiable [!UICONTROL DEL-DEVICE] label. It is populated from a cookie just as the Visitor ID and MCID are. It should be deleted from hits whenever those other IDs are deleted. See the description for those variables for more details.|
 
 {style="table-layout:auto"}
 

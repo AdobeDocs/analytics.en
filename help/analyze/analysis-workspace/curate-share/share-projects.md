@@ -39,7 +39,7 @@ You can share a specific role with users or groups, or you can share a link.
 
 * [Share a link to a project](#share-a-link-to-a-project)
 
-### Share a specific project role
+## Share a specific project role
 
 When sharing a specific project role with users and groups in your organization, consider the following:
 
@@ -80,7 +80,7 @@ To share a specific project role with users or groups in your organization:
    
    Click **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, click **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
-### Share a link to a project 
+## Share a link to a project 
 
 When sharing a link as described in this section, consider the following: 
 
@@ -150,7 +150,6 @@ To share a public link to an Analysis Workspace project:
    Any person you share the link with can view the Analysis Workspace project. If you chose to require a password, you must also share the password with anyone you want to access the link.
 
 1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved. <!-- True? -->
-
 
 ## Share projects in the Project manager {#Manager} 
 

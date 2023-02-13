@@ -6,7 +6,7 @@ exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 ---
 # Download report suite settings
 
-Steps that describe how to generate an Excel spreadsheet containing all the settings for the selected report suite.
+To generate an Excel spreadsheet containing all the settings for the selected report suite:
 
 1. Click **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite from the [!UICONTROL Report Suite] table.

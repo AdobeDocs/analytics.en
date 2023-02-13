@@ -6,7 +6,7 @@ exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 ---
 # Configure success events
 
-Steps that describe how to configure success events.
+To configure success events:
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Select a report suite.
@@ -26,7 +26,15 @@ Steps that describe how to configure success events.
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface. [More...](/help/admin/admin/metric-visibility.md) 
+   This setting does not impact the data collection for that metric or event; it affects only its visibility in the user interface, as follows:
+
+
+   |Setting | Visible in | Not visible in |
+   |---------|----------|---------|
+   | [!UICONTROL **Visible everywhere**] | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | N/A |
+   | [!UICONTROL **Builders**] | <ul><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Hidden everywhere**] | N/A | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | 
+
 1. Provide a description.
 1. Check whether to always record the event.
 1. Enable or disable participation metrics.

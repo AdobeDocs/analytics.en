@@ -29,7 +29,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 
 >[!NOTE]
 >
->This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
+>This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`
@@ -50,7 +50,6 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `blogspot.com`
 * `blogster.com`
 * `blomotion.jp`
-* `boards.qwant.com`
 * `bolt.com`
 * `brightkite.com`
 * `buzznet.com`
@@ -136,26 +135,6 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `pakila.jp`
 * `photobucket.com`
 * `pinterest.com`
-* `pinterest.co.uk`
-* `pinterest.ca`           
-* `pinterest.fr`
-* `pinterest.es`
-* `pinterest.de`
-* `pinterest.se`
-* `pinterest.pt`
-* `pinterest.dk`
-* `pinterest.ie`
-* `pinterest.co.kr`
-* `pinterest.ch`
-* `pinterest.at`
-* `pinterest.`
-* `pinterest.nz`
-* `pinterest.ph`
-* `pinterest.cl`
-* `pinterest.hu`
-* `pinterest.be`
-* `pinterest.in`
-* `pinterest.co`  
 * `plaxo.com`
 * `plurk.com`
 * `plus.url.google.com`

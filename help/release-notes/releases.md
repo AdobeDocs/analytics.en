@@ -12,13 +12,13 @@ Adobe Analytics releases operate on a continuous delivery model which allows for
 
 [!UICONTROL Analysis Workspace] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
-* **Release to Production (RTP)**: Code is released to production, with feature visibility turned off in Analysis Workspace. The feature is sometimes available in the 2.0 Analytics API.
+* **Limited Testing**: A phased release begins with testing by internal Adobe users. It is then made available to a small group of customer accounts to ensure that the feature meets customer needs and expectations. 
 
-* **Limited Testing**: A phased release begins with testing by internal Adobe users. The release is then scaled from 0% to 100% availability over the course of a couple months. Phased rollout happens at the Experience Cloud Organization level, so all entitled users in an organization receive the same experience.
+* **Start of Rollout**: Rollout of a phased release begins with the Limited Testing phase. The release is then scaled from 0% to 100% availability to customers over the course of a couple months. Phased rollout happens at the Experience Cloud Organization level, so all entitled users in an organization receive the same experience.
 
 * **General Availability (GA)**: The feature is available to 100% of entitled Experience Cloud organizations, and feature release is complete.
 
-With each feature release, the timeline from RTP to GA may vary. The goal is to keep releases short, so that within 2 months of release start (RTP), a feature will be GA.
+With each feature release, the timeline from Start of Rollout to GA may vary. The goal is to keep releases short, so that within 2 months of Start of Rollout, a feature will be GA.
 
 ## Feature flags
 

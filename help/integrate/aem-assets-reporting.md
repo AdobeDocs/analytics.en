@@ -17,3 +17,5 @@ Enables Analytics to collect impressions and clicks on [!UICONTROL Assets] serve
 * Adds new dimensions to the Asset Events: Asset Clicks and Asset Impressions
 
 For data to be populated, refer to the [AEM Asset Insights documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html) for complete implementation instructions.
+
+<!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->

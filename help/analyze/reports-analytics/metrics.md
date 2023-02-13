@@ -19,7 +19,7 @@ For a full list of metrics, see [Metrics overview](/help/components/metrics/over
 
 ## Select default report metrics 
 
-Steps that describe how to select default metrics at the report level.
+To select default metrics at the report level:
 
 <!-- 
 

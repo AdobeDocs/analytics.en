@@ -135,9 +135,9 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `pakila.jp`
 * `photobucket.com`
 * `pinterest.com`
+* `pinterest.co.uk`
 * `plaxo.com`
 * `plurk.com`
-* `plus.url.google.com`
 * `po.st`
 * `reddit.com`
 * `renren.com`
@@ -152,7 +152,6 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `t.163.com`
 * `t.co`
 * `t.hexun.com`
-* `t.ifeng.com`
 * `t.people.com.cn`
 * `t.qq.com`
 * `t.sina.com.cn`
@@ -181,7 +180,6 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `wordpress.com`
 * `xanga.com`
 * `xing.com`
-* `answers.yahoo.com`
 * `yammer.com`
 * `yaplog.jp`
 * `yelp.com`

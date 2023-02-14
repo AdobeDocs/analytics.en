@@ -29,7 +29,7 @@ Once data exceeds your data retention policy, Adobe retains the right to delete 
 
 ## View/manage current data retention policy
 
-The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of which report suites have been configured for data governance. It also indicates whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite. [More info](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
+The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of which report suites have been configured for data governance. It also indicates whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite. [More info](/help/admin/c-data-governance/an-gdpr-workflow.md)
 
 ## Frequently asked questions
 

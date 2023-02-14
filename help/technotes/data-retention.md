@@ -48,3 +48,4 @@ Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data 
 **When does Adobe delete data?**
 
 Contact your organization's account manager for the specific time your data is scheduled to be deleted. Data is typically deleted on a rolling monthly basis.
+

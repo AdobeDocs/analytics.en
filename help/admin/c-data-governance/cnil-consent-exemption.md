@@ -40,3 +40,4 @@ The following additional considerations apply:
 
 
 For more information, see the [CNIL Cookie Exemption](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) website.
+

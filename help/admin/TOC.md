@@ -33,11 +33,11 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [General Account settings](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
         + [Internal URL Filters](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
         + [Customize Calendar](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-        + Paid search detection {#paid-search-detection}
+        + Paid Search Detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
         + [Customize Menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-        + Processing rules {#c-processing-rules}
+        + Processing Rules {#c-processing-rules}
           + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
           + Processing Rules {#c-processing-rules-configuration}
             + [How processing rules work](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
@@ -59,14 +59,14 @@ user-guide-description: Learn about Analytics administration tasks, such managin
             + [Set an event using a context data variable](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
             + [Remove an event from a hit](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
           + [Processing rules tips and tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-        + Bot rules {#bot-removal}
+        + Bot Rules {#bot-removal}
           + [Bot removal](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
           + [Bot rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
           + [Common bot signatures](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
           + [Bot exclusion methods](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
-        + [Privacy settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-        + [Timestamps optional](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-        + Server-side forwarding {#server-side-forwarding}
+        + [Privacy Settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+        + [Timestamps Configuration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+        + Server-Side Forwarding {#server-side-forwarding}
           + [Server-side forwarding overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
           + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
           + [Requirements for server-side forwarding](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -74,7 +74,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [How to verify your server-side forwarding implementation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
           + [Server-side forwarding FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
       + Traffic {#traffic-variables}
-        + [Traffic variables](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+        + [Traffic Variables](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
         + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
         + [Traffic Classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
         + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
@@ -93,9 +93,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [List Variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
         + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
       + Marketing Channels {#marketing-channels}
-        + [Manage marketing channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-        + [Processing rules for Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-        + [Classifications in Marketing Channels](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+        + [Marketing Channel Manager](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+        + [Marketing Channel Processing Rules](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+        + [Marketing Channel Classifications](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
         + [Marketing Channel Expiration](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
       + Traffic Management {#traffic-management}
         + [Overview](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)

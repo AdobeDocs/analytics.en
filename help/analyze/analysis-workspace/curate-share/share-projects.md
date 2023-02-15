@@ -111,7 +111,11 @@ You can grant [View-only access](/help/analyze/analysis-workspace/curate-share/v
 
 >[!NOTE]
 >
->This option can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a public link as described in this section, your Analytics administrator has disabled this ability.
+>Consider the following when sharing a public link:
+>
+>* The ability to share a public access link can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a public link as described in this section, your Analytics administrator has disabled this ability.
+>
+>* Projects with more than 14 expanded visualizations can't be shared using a public access link.
 
 To share a public link to an Analysis Workspace project:
 

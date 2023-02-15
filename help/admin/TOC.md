@@ -157,17 +157,5 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](admin/user-management2/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](admin/user-management2/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](admin/user-management2/user-migration/developer.md)  
-+ Data Governance {#data-governance}
-  + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
-  + [Frequently asked questions](c-data-governance/gdpr-faq.md)
-  + Data labeling {#data-labels}
-    + [Data Privacy labels for Analytics components](c-data-governance/data-labeling/gdpr-labels.md)
-    + [Label report suite data](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-    + [View/manage report suite's privacy labels](c-data-governance/data-labeling/gdpr-view-settings.md)
-    + [Labeling best practices](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-    + [Labeling example](c-data-governance/data-labeling/gdpr-labeling-example.md)
-    + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-  + [ID expansion](c-data-governance/gdpr-id-expansion.md)
-  + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
 + [Admin API](c-admin-api/c-admin-api.md)
 

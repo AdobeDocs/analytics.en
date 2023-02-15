@@ -39,6 +39,6 @@ At this point, the individual hit is recorded in report suite data tables. After
 Data in Adobe Analytics is mostly permanent; however, there are some features that can allow selective data adjustment or removal:
 
 * [**Data repair API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): Edit certain columns or delete desired rows of data.
-* [**Data Governance**](/help/admin/c-data-governance/an-gdpr-workflow.md): Accommodate privacy requests to permanently delete data.
+* [**Data Governance**](/help/technotes/c-data-governance/an-gdpr-workflow.md): Accommodate privacy requests to permanently delete data.
 * [**Classifications**](/help/components/classifications/c-classifications.md): Create dimensions based on rules or uploaded data that allows you to organize data differently. The underlying report suite data is not changed, so you can freely edit or overwrite classification data.
 * [**Virtual report suites**](/help/components/vrs/vrs-about.md): Create an alternate report suite view that can change the visit timeout, or allow [Cross-Device Analytics](/help/components/cda/overview.md).

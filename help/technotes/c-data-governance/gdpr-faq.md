@@ -42,7 +42,7 @@ The Data Governance tool contains the following data labels:
 
 * **Data Privacy Data Labels**: Used to define the fields that may contain personal identifiers for use in Data Privacy requests or that should be removed as part of a Data Privacy delete request. These labels may overlap the Identity and Sensitive Data labels, in some cases.  
 
-For more information on Data Governance labels, see [Data Privacy Labels for Analytics Variables](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+For more information on Data Governance labels, see [Data Privacy Labels for Analytics Variables](/help/technotes/c-data-governance/data-labeling/gdpr-labels.md).
 
 +++
 
@@ -62,7 +62,7 @@ Still, there are a few ways that you can test your Data Privacy processing prior
 
 +++ **Where do I get started on getting Data Privacy ready with Adobe Analytics?**
 
-For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe Analytics Data Privacy Workflow](/help/admin/c-data-governance/an-gdpr-workflow.md).
+For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe Analytics Data Privacy Workflow](/help/technotes/c-data-governance/an-gdpr-workflow.md).
 
 +++
 

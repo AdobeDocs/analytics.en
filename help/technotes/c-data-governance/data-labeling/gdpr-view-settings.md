@@ -77,4 +77,4 @@ You can download a CSV file containing all current label definitions for all var
 
 ## Edit privacy labels {#edit}
 
-Refer to [Assign or edit report suite privacy labels](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
+Refer to [Assign or edit report suite privacy labels](/help/technotes/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

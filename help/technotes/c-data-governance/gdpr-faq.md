@@ -26,7 +26,7 @@ As the Data Processor, Adobe must provide reasonable assistance to the Controlle
 
 The Data Controllers determine how to resolve identity for requests from the Data Subjects. Consider deploying  Adobe's Data Privacy ID Retrieval Tag. Your development teams save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs). They can then use our Data Privacy API to send those user IDs to the relevant solutions in the Adobe Experience Cloud for Data Privacy request processing. The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. 
 
-If a Data Subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics scans then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the [Analytics documentation on namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
+If a Data Subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics scans then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the [Analytics documentation on namespaces](/help/technotes/c-data-governance/data-labeling/gdpr-namespaces.md).
 
 +++
 

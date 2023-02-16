@@ -11,4 +11,14 @@ You can enable media in Analytics to reserve a special set of Media Solution Var
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Media Management]**.
 
-For more information, see the [Adobe Analytics for Streaming Media guide](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+The following Media Management options are available when editing a report suite:
+
+* [!UICONTROL **Media Reporting**]
+
+  Reports specific to Streaming Media are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+
+* [!UICONTROL **Media Classifications**]
+
+  Classifications specific to Streaming Media are available on the Media Classifications page. For information about Classifications, see [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+
+For general information about Streaming Media Analytics, see the [Adobe Analytics for Streaming Media guide](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).

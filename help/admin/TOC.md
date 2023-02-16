@@ -108,6 +108,10 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
       + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
       + [Privacy Reporting](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+      + Document Cloud Management {#doc-cloud-mgt}
+        + [Configure Document Cloud with Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+        + [Configure Document Cloud reporting](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+      + [Advertising Analytics Configuration](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
       + Real-Time {#real-time-reports}
         + [Real-time reports overview](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)

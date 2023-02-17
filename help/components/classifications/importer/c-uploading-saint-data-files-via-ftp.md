@@ -53,7 +53,7 @@ See [FTP and sFTP](/help/export/ftp-and-sftp/ftp-overview.md) for additional det
    |  **Notification Recipient**  | Specify the email address to receive notifications about this FTP account.  |
    |  **Authorize**  | (Required) Authorizes Adobe to automatically import all data files sent to the new FTP account.  |
 
-2. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 Once created, you can edit or delete FTP accounts by clicking the appropriate link next to the desired FTP account.
 

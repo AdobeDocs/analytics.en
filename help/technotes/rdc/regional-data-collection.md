@@ -6,7 +6,7 @@ exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 ---
 # Regional Data Collection
 
-The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interactions between your visitors and Adobe occur as close to your visitors as possible. Once data from your digital properties is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC) where it is processed and made available to products in the Adobe Experience Cloud.
+The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interactions between your visitors and Adobe occur as close to your visitors as possible. Once data is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC). After processing, the data is available to products in the Adobe Experience Cloud.
 
 The regional data collection process uses the following steps:
 
@@ -52,7 +52,7 @@ RDC currently includes the following locations (subject to change):
 
 ## China Performance Optimization
 
-The China RDC (China Performance Optimization) add-on package is a chargeable add-on to Adobe Analytics. Adobe's Performance Optimization in Mainland China enables customers with users inside China to have that data sent directly to Adobe data collection servers inside China instead of other locations globally. This optimization improves page load times and data accuracy over sending the data to locations outside of China. Data is ultimately transferred to one of Adobe's Data Processing Centers (DPC) outside of China. Contact your Adobe sales representative for more information.
+The China RDC (China Performance Optimization) add-on package is a chargeable add-on to Adobe Analytics. Adobe's Performance Optimization in Mainland China enables customers with users inside China to have that data sent directly to Adobe data collection servers inside China instead of other locations globally. This optimization improves page load times and data accuracy over sending the data to locations outside of China. Data is ultimately transferred to one of Adobe's Data Processing Centers (DPC) outside of China. Contact your Adobe Sales representative for more information.
 
 >![NOTE]
 >

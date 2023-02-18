@@ -6,7 +6,7 @@ exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 ---
 # Campaign tracking workflow
 
-If your organization wants to track the performance and click-through rate of marketing efforts, you can use the following process. Each of these steps have dedicated sections below that contain more detail.
+If your organization wants to track the performance and click-through rate of marketing efforts, you can use the following process. Each of these steps has dedicated sections below that contain more detail.
 
 1. [Establish a tracking code generation process](#establish-a-tracking-code-generation-process)
 1. [Add the desired tracking code to the email](#add-the-desired-tracking-code-to-the-email)
@@ -19,7 +19,7 @@ If your organization wants to track the performance and click-through rate of ma
 
 Every organization has different needs for tracking codes. Some organizations might have minimal needs where manually created tracking codes are more than sufficient. Other organizations might want more control over tracking and have multiple systems in place for creating desired tracking codes. If your organization uses Google Analytics in addition to Adobe Analytics, your organization might already have a `utm` tracking code model established.
 
-Regardless of how you choose to create or generate tracking codes, having a consistent system in place allows your organization a much easier time creating classifications for them. Consistently structured tracking codes allow you to create [Classification rules](/help/components/classifications/crb/classification-rule-builder.md) so that they you can get insight on categorical performance. 
+Regardless of how you choose to create or generate tracking codes, having a consistent system in place allows your organization a much easier time when you want to group tracking codes together for reporting. Consistently structured tracking codes allow you to create [Classification rules](/help/components/classifications/crb/classification-rule-builder.md) so that you can get insight on categorical performance.
 
 ## Add the desired tracking code to a URL
 

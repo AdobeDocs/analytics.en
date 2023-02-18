@@ -8,7 +8,7 @@ exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 
 The `campaign` variable is dedicated to collecting tracking codes on your site. In previous versions of Adobe Analytics, it had special treatment where it could be used as a breakdown to most dimensions. In the current version of Adobe Analytics, it acts identical to an eVar.
 
-This variable populates the 'Tracking Code' dimension.
+This variable populates the [Tracking Code](/help/components/dimensions/tracking-code.md) dimension. It typically gets its value from a query string using the [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) utility method. However, your organization determines exactly how to set this variable.
 
 ## Campaign using the Web SDK
 

@@ -6,7 +6,9 @@ exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 ---
 # Tracking Code
 
-The 'Tracking Code' dimension lists the names of tracking codes on your site. This dimension is typically collected using query string parameters. You can place links with different query string parameter values in different places across the internet. This dimension reports which links were the most successful in driving traffic to your site.
+The 'Tracking Code' dimension lists the names of tracking codes on your site. You can place links with different query string parameter values in different places across the internet. This dimension helps you understand which links were the most successful in driving traffic to your site.
+
+Appending tracking code query strings are common in emails, advertisements, social media posts, and other marketing efforts that your organization uses.
 
 ## Populate this dimension with data
 
@@ -14,7 +16,7 @@ This dimension retrieves data from the [`v0` query string](/help/implement/valid
 
 ## Dimension items
 
-Dimension items include the names of tracking codes on your site. Your organization determines what specific dimension items you want to use.
+Dimension items include the names of tracking codes on your site. Your organization determines what specific dimension items you want to use. See [Campaign tracking](/help/implement/use-cases/campaign-tracking.md) for more information.
 
 ## Compare the Tracking code dimension with Marketing channels that collect tracking codes
 

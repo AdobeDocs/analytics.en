@@ -36,3 +36,4 @@ To view information about a component in the Data Dictionary:
 
    {{dd-component-information}}
 
+1. (Optional) Drag a component from the Data Dictionary into Analysis Workspace. 

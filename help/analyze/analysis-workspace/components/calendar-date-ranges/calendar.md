@@ -72,3 +72,10 @@ When you use a week-based custom calendar and you add months or years, the formu
 ### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
 If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
+
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
+
+*   Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+*   All components listed in the left rail will be available based on the panel date range. 
+*   All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+*   Any data previews will display data or components based on the panel date range.

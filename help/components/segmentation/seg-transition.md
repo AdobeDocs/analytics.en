@@ -147,8 +147,9 @@ String-based dimensions that have a known set of values were changed to enumerat
 
 The following dimensions were changed to enumerated lists: 
 
+| Dimension name | Dimension name | Dimension name |
+| --- | --- | --- |
 |  mobile manufacturer  | mobile email length  | color depth  |
-|---|---|---|
 |  mobile screen size  | mobile device number  | monitor resolution  |
 |  mobile screen height  | mobile push to talk  | plugin  |
 |  mobile cookie support  | mobile mail decoration  | operating system  |
@@ -165,7 +166,7 @@ The following dimensions were changed to enumerated lists:
 
 ## Changes to Integer-Based Dimensions that have Known Values {#integer-based-dims}
 
-Integer-based dimensions (such as browser width) with a known set of values were split into enumerated ranges so you can quickly define segments for a specific range. These enumerated lists are appended with " - Bucketed" after the dimension name. The following screen demonstrates how these dimensions are segmented using the previous and new segment builder interfaces: 
+Integer-based dimensions (such as browser width) with a known set of values were split into enumerated ranges so you can quickly define segments for a specific range. These enumerated lists are appended with " - Bucketed" after the dimension name. The following screen shows how these dimensions are segmented using the previous and new segment builder interfaces: 
 
 ![](assets/seg_browser_dimension.png)
 

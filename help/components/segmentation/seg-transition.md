@@ -8,13 +8,6 @@ exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 
 Answers frequent questions on best practices for managing legacy segments - segments created prior to 2014.
 
-
-
-
-
-
-
-
 ## Best Practices {#best-practices}
 
 +++ **What should I do with duplicate segments that have the same name but may have different definitions?** 
@@ -106,12 +99,6 @@ Existing reports that have these segments applied continue to work correctly.
 The owner of these segments is set to the admin with the oldest account in the login company's list of admin users, however, all Admins can delete, edit and share these segments.
 
 The segment management interface in the Admin Console where Admins created and managed these global segments is no longer available. Admins should now use the new segment builder to create segments and share them with appropriate groups or individuals or with everyone.
-
-<!-- 
-
-seg_definition.xml
-
- -->
 
 Existing segments that use logic that has changed as described in this document continue to work correctly, though they must be updated before they can be saved again. For example, if you have an existing segment where US States contains 'New York', it continues to work correctly, though the next time you edit the segment you'll need to update it to use the enumerated type with an equals condition.
 

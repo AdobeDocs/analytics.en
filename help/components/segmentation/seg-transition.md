@@ -8,26 +8,6 @@ exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 
 Answers frequent questions on best practices for managing legacy segments - segments created prior to 2014.
 
-## Best Practices {#best-practices}
-
-+++ **What should I do with duplicate segments that have the same name but may have different definitions?** 
-Now that segments work in multiple report suites, you might find that you have multiple segments with the same name. We recommend that you either
-
-* Rename segments that have the same name, but different definitions, or 
-* Delete segments that are no longer necessary.
-
-+++
-
-+++ **What does Adobe recommend with regards to cleaning up segments?**
-
-* Tag all segments with legacy tag.
-* Review the segments that you have.
-* Add them to the segment library where applicable.
-* Approve segments that are canonical.
-* Tag segments according to [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
-
 ## Managing Legacy Segments {#legacy}
 
 +++ **What happened to my existing segments?**
@@ -64,7 +44,7 @@ You can create or edit a new Data Warehouse segments in the segment builder/mana
 
 +++
 
-**What happened to Pre-Configured Segments?**
++++ **What happened to Pre-Configured Segments?**
 
 * **Single Page Visits**
 * **Visits from Mobile Devices**
@@ -92,7 +72,7 @@ Existing reports that have these segments applied continue to work correctly.
 
 +++
 
-+++ **What happens to Admin segments (also known as "Global" segments)?**
++++ **What happened to Admin segments (also known as "Global" segments)?**
 
 **Admin** segments will be migrated into the new segment interface and will show up as segments shared with everyone.
 
@@ -104,6 +84,24 @@ Existing segments that use logic that has changed as described in this document 
 
 +++
 
++++ **What should I do with duplicate segments that have the same name but may have different definitions?** 
+Now that segments work in multiple report suites, you might find that you have multiple segments with the same name. We recommend that you either
+
+* Rename segments that have the same name, but different definitions, or 
+* Delete segments that are no longer necessary.
+
++++
+
++++ **What does Adobe recommend with regards to cleaning up segments?**
+
+* Tag all segments with legacy tag.
+* Review the segments that you have.
+* Add them to the segment library where applicable.
+* Approve segments that are canonical.
+* Tag segments according to [best practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Migration tips
 
 The following tips will help you migrate common dimensions:
@@ -111,10 +109,7 @@ The following tips will help you migrate common dimensions:
 * Geo-city/region/country - search for and select specific cities, regions or countries instead of using a partial match.
 * Browsers - use the Browser Types dimension to get all browsers in a type, e.g. Google Chrome 
 * Operating Systems - use the OS Types dimensions to get all operating systems in a type, e.g. Microsoft Windows.
-
-* [New and Renamed Dimensions](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742) 
-* [Changes to Contains](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77) 
-* [Changes to Less Than and Greater Than](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Refer to "New and Renamed Dimensions" (see below)
 
 ## New and Renamed Dimensions {#renamed}
 

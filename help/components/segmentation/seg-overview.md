@@ -6,7 +6,7 @@ exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 ---
 # About segments
 
-Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as codified audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
+Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
 
 Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit] and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the [!DNL Adobe Experience Cloud]. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
 

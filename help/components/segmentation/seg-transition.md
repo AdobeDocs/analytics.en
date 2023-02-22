@@ -6,83 +6,14 @@ exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 ---
 # Frequently Asked Questions
 
-Answers frequent questions on segmentation features, access, permissions, best practices, and managing legacy segments.
+Answers frequent questions on best practices for managing legacy segments - segments created prior to 2014.
 
-## Segmentation features {#features}
 
-* Segmentation in Analysis Workspace:
 
-  * You can [compare segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-  * Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
-  * Use segments in [fallout analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
-* You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-* Segments are universal to all report suites.
-* The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifies segment creation.
-* The [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
-* You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders.
-* You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* The Page View container was renamed to the Hit container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container. Note that there wasn't a change to the way this container functions - it was simply renamed.
 
-See the [Improving Segmentation in Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) post on the Adobe Blog for more details.
 
-## Access the Segmentation Tools {#access}
 
-**How do I get to the Segment Builder?**
-
-You can access the Segment Builder by:
-
-* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
-
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](assets/add_button.png)
-
-  or 
-
-* Clicking an existing segment title in the Segment Manager to edit the segment in the Segment Builder.
-
-**How do I get to the Segment Manager?**
-
-Access the Segment Manager by:
-
-* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or 
-
-* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**, or 
-
-* Pressing the slash key '/' anywhere in the interface and searching for segment manager.
-
-## Permissions {#section_648DFA3A882146C485A84ED014EEC707}
-
-+++ **What rights and privileges do I need to use, create, and manage segments?**
-
-By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
-
-Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/segmentation/seg-reference/seg-rights.md)
-
-+++
-
-+++ **Can I see all segments in my company?**
-
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
-
-Report Builder displays segments that you own and segments that are shared with you.
-
-+++
-
-+++ **Can I manage all Analytics segments in the Segment Manager?**
-
-Yes, all segments can be managed in the Segment Manager. Segment Manager displays segments that are visible to the owner (user who created the segment), shared users, and admin users. The segment selector displays segments that are owned by and shared with the user.
-
-Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
-
-Report Builder displays only segments built by you or segments that have been shared specifically with you.
-
-+++
-
-+++ **Why can't I delete this segment?**
-
-If the segment was [published to the Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), you cannot delete it or edit it. However, you can copy it and edit the copied version.
-
-+++
 
 ## Best Practices {#best-practices}
 

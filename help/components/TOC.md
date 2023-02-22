@@ -146,7 +146,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Visits](metrics/visits.md)
 + Segmentation {#segmentation}
   + [Analytics segmentation](segmentation/seg-home.md)
-  + [About segments and containers](segmentation/seg-overview.md)
+  + [About segments](segmentation/seg-overview.md)
+  + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
   + Segmentation workflow {#segmentation-workflow}
     + [Segmentation workflow overview](segmentation/segmentation-workflow/seg-workflow.md)

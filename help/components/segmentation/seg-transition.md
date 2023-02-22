@@ -64,7 +64,7 @@ You can create or edit a new Data Warehouse segments in the segment builder/mana
 
 +++
 
-**What happened to Pre-Configured Segments?**
++++ **What happened to Pre-Configured Segments?**
 
 * **Single Page Visits**
 * **Visits from Mobile Devices**

@@ -1,10 +1,10 @@
 ---
-description: Frequently asked questions around segmentation.
-title: Frequently Asked Questions for segmentation
+description: Frequently asked questions around managing legacy segments.
+title: Frequently Asked Questions on legacy segments
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 ---
-# Frequently Asked Questions
+# Frequently Asked Questions on legacy segments
 
 Answers frequent questions on best practices for managing legacy segments - segments created prior to 2014.
 

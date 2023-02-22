@@ -47,7 +47,7 @@ Analysis Workspace contains these additional features:
 
 ## Adobe-provided segments
 
-The Component rail on the left side of the screen shows segments that are created by you and your company as well as Adobe segments that are provided out of the box. When you click **[!UICONTROL Show all]**, these segments typically appear at the bottom of the list and are identified by the Adobe logo to the right:
+The Component rail on the left side of the screen shows segments that are created by you and your company as well as Adobe segments that are provided out of the box. When you click **[!UICONTROL Show all]**, these segments typically appear at the bottom of the list and are identified by the Adobe logo to the right. This is a partial list of Adobe-provided segments:
 
 ![Adobe segments](assets/adobe-segs.png)
 
@@ -70,7 +70,7 @@ Sequential segments can be based on the following hit values:
 
 A sequential segment filters data sets based on user actions using the [!UICONTROL THEN] operator.
 
-## How-To Video {#segment-video}
+## How-to segmentation video {#segment-video}
 
 This video give a short overview of what segment containers are and how to use them: [Segment Containers in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 

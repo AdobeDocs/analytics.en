@@ -72,3 +72,12 @@ The following are common actions in the Scheduled Projects manager:
 |**View schedule ID**|Navigate to column options in the top right and add the Schedule ID column to the table. The scheduled ID is often useful for debugging.|
 
 The Scheduled Projects Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop. Scheduled project ownership can be **transferred** to a new user under **Admin > Analytics Users & Assets > Transfer Assets**.
+
+## Scheduled project expiration dates
+
+The expiration dates for scheduled projects depend on the scheduled delivery frequency:
+
+* Hourly deliveries expire in one week.
+* Daily deliveries expire in one month.
+* Weekly deliveries expire in 6 months.
+* Monthly/yearly deliveries expire in one year.

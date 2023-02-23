@@ -6,9 +6,9 @@ role: Admin
 ---
 # Add component descriptions
 
-Analytics administrators can add descriptions for components (Dimensions, Metrics, Segments, and Date Ranges)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Descriptions help users know how to best use the various components when building projects in Analysis Workspace or when viewing reports. 
 
-Users in your organization can view the descriptions when building projects in Analysis Workspace or when viewing reports. Descriptions help users know how to best use the various components.
+Analytics administrators can add descriptions for components (Dimensions, Metrics, Segments, and Date Ranges)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->. 
 
 ## Add descriptions to components in a Report Suite
 

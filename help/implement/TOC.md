@@ -171,7 +171,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
 + Implementation use cases {#use-cases}
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Track across different implementation types](use-cases/cross-type-implementation.md)
-  + [External email tracking](use-cases/email-external.md)
+  + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
   + [Legacy Adobe Experience Cloud debugger](validate/debugger.md)
   + [Data collection query parameters](validate/query-parameters.md)

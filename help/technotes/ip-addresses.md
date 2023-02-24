@@ -49,6 +49,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Australia | `63.140.56.0/23` |
 | California | `63.140.32.0/23` |
 | California | `63.140.34.0/24` |
+| France | `63.140.62.0/23` |
 | India | `66.117.20.0/24` |
 | India | `66.117.22.0/23` |
 | Japan | `130.248.130.0/23` |
@@ -58,6 +59,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | London | `66.235.156.0/24` |
 | London | `185.34.188.0/22` |
 | Oregon | `66.235.132.0/22` |
+| Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
 | Singapore | `130.248.170.0/23` |
 | Singapore | `130.248.240.0/24` |
@@ -75,21 +77,12 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 | --- | --- |
 | China | `52.80.83.220` |
 | China | `71.132.16.253` |
-| France | `13.36.218.177` |
-| France | `15.188.95.229` |
-| France | `15.236.176.210` |
+| China | `52.80.7.181` |
+| China | `71.131.244.185` |
+| China | `140.179.152.255` |
 | France | `13.37.25.97` |
 | France | `15.236.117.205` |
 | France | `15.236.125.10` |
-| Ireland | `54.74.170.177` |
-| Ireland | `54.195.254.128` |
-| Ireland | `54.220.133.225` |
-| Oregon | `52.10.149.115` |
-| Oregon | `52.40.172.46` |
-| Oregon | `54.212.155.93` |
-| Virginia | `3.216.131.23` |
-| Virginia | `34.204.237.47` |
-| Virginia | `54.163.234.74` |
 
 The following table includes AWS IPv6 address blocks used by Adobe. These hosts are **not** included in the aggregate block range above.
 

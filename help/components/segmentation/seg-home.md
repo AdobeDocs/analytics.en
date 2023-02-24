@@ -15,6 +15,6 @@ Analytics segmentation includes the [Segment Builder](/help/components/segmentat
 
 Data Scientists and Marketing Analysts can employ, extend, and refine segments for analysis specific to his or her needs, and then save the segment for other users to extend, refine and save as a new segment to the library. Once set in motion, it's a cycle of designing and managing codified audience insights as a [unified segment workflow](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-**Getting Started**
+## Get Started
 
-Start with [Setting up a Segmentation Workflow](/help/components/segmentation/segmentation-workflow/seg-workflow.md) or [Building Segments](/help/components/segmentation/segmentation-workflow/seg-build.md), or see [About Segments](/help/components/segmentation/seg-overview.md) for a quick overview.
+See [About Segments](/help/components/segmentation/seg-overview.md) for a quick overview. Then go to [Setting up a Segmentation Workflow](/help/components/segmentation/segmentation-workflow/seg-workflow.md) or [Building Segments](/help/components/segmentation/segmentation-workflow/seg-build.md).

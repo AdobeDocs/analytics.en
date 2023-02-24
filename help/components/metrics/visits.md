@@ -15,7 +15,7 @@ A visit always ties to a time period, so you know whether to count a new visit i
 * **30 minutes of inactivity**: Almost all sessions end in this manner. If more than 30 minutes lapse between hits, a new visit begins.
 * **12 hours of activity**: If a user consistently fires image requests without any 30-minute gaps for more than 12 hours, a new visit automatically starts.
 * **2500 hits**: If a user generates a large number of hits without starting a new session, a new visit is counted after 2500 image requests.
-* **100 hits in 100 seconds**: If a visit consists of more than 100 hits that occur in fewer than 100 seconds, the visit automatically ends. This behavior typically indicates bot activity, and this limitation is enforced to help increase report performance.
+* **100 hits in 100 seconds**: If a visit has more than 100 hits that occur in the first 100 seconds of the visit, the visit automatically ends. This behavior typically indicates bot activity, and this limitation is enforced to help increase report performance.
 
 A visit does not necessarily coincide with a browser session because of the above criteria. One of the most common differences is where a visitor navigates to your site, leaves the tab open for more than 30 minutes, then resumes browsing. While this action is technically part of the same browsing session, Adobe considers this action two separate visits.
 

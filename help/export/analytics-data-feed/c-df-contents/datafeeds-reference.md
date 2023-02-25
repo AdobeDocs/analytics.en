@@ -36,11 +36,11 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`ch_hdr`** | Client hints collected through the HTTP request header. | text |
 | **`ch_js`** | Client hints collected through the User-Agent Client Hints JavaScript API. | text |
 | **`channel`** | Variable used in the [Site sections](/help/components/dimensions/site-section.md) dimension.| varchar(100) |
-| **`click_action`** | No longer used. Address of linked clicked in the legacy Clickmap tool. | varchar(100) |
-| **`click_action_type`** | No longer used. Link type of the legacy Clickmap tool.<br>0: HREF URL<br>1: Custom ID<br>2: JavaScript onClick event<br>3: Form element| tinyint unsigned |
-| **`click_context`** | No longer used. Page name where the link click occurred. Part of the legacy Clickmap tool. | varchar(255) |
+| **`click_action`** | No longer used. Address of linked clicked in the legacy ClickMap tool. | varchar(100) |
+| **`click_action_type`** | No longer used. Link type of the legacy ClickMap tool.<br>0: HREF URL<br>1: Custom ID<br>2: JavaScript onClick event<br>3: Form element| tinyint unsigned |
+| **`click_context`** | No longer used. Page name where the link click occurred. Part of the legacy ClickMap tool. | varchar(255) |
 | **`click_context_type`** | No longer used. Indicates if `click_context` had a page name or defaulted to page URL.<br>0: Page URL<br>1: Page Name| tinyint unsigned |
-| **`click_sourceid`** | No longer used. Numeric ID for the location on the page of the clicked link. Part of the legacy Clickmap tool. | int unsigned |
+| **`click_sourceid`** | No longer used. Numeric ID for the location on the page of the clicked link. Part of the legacy ClickMap tool. | int unsigned |
 | **`click_tag`** | No longer used. Type of HTML element that was clicked. | char(10) |
 | **`clickmaplink`** | Activity Map link | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map link by region | varchar(255) |
@@ -55,7 +55,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`curr_factor`** | Determines the currency decimal place, and is used for currency conversion. For example, USD uses two decimal places, so this column value would be 2. | tinyint |
 | **`curr_rate`** | The exchange rate when the transaction occurred. Adobe partners with XE to determine the current day's exchange rate.| decimal(24,12) |
 | **`currency`** | The currency code that was used during the transaction.| char(8)|
-| **`cust_hit_time_gmt`** | Timestamp-enabled report suites only. The timestamp sent with the hit, based in Unix time. | int|
+| **`cust_hit_time_gmt`** | Timestamp-enabled report suites only. The timestamp sent with the hit, based in UNIX® time. | int|
 | **`cust_visid`** | If a custom visitor ID is set, it is populated in this column. | varchar(255) |
 | **`daily_visitor`** | Flag to determine if the hit is a new daily visitor. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | Variable used in the [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `DMP` and `SELL`. | varchar(100) |
@@ -74,17 +74,17 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`first_hit_ref_domain`** | Variable used in the [Original referring domain](/help/components/dimensions/original-referring-domain.md) dimension. Based on `first_hit_referrer`. The very first referring domain of the visitor. | varchar(100) |
 | **`first_hit_ref_type`** | Numeric ID representing the referrer type of the very first referrer of the visitor. Uses `referrer_type.tsv` lookup. | tinyint unsigned |
 | **`first_hit_referrer`** | The very first referring URL of the visitor. | varchar(255) |
-| **`first_hit_time_gmt`** | Timestamp of the very first hit of the visitor in Unix time. | int |
+| **`first_hit_time_gmt`** | Timestamp of the very first hit of the visitor in UNIX® time. | int |
 | **`geo_city`** | Name of the city that the hit came from, based on IP. Used in the [Cities](/help/components/dimensions/cities.md) dimension. | char(32) |
 | **`geo_country`** | Abbreviation of the country that the hit came from, based on IP. Used in the [Countries](/help/components/dimensions/countries.md) dimension. | char(4) |
 | **`geo_dma`** | Numeric ID of the demographic area that the hit came from, based on IP. Used in the [US DMA](/help/components/dimensions/us-dma.md) dimension. | int unsigned |
 | **`geo_region`** | Name of the state or region that the hit came from, based on IP. Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
-| **`geo_zip`** | The zip code that the hit came came from, based on IP. Helps populate the [Zip code](/help/components/dimensions/zip-code.md) dimension. See also `zip`. | varchar(16) |
+| **`geo_zip`** | The zip code that the hit came from, based on IP. Helps populate the [Zip code](/help/components/dimensions/zip-code.md) dimension. See also `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Used by hierarchy variables. Contains a delimited list of values. The delimiter is chosen under report suite settings. | varchar(255) |
-| **`hit_source`** | Indicates what source the hit came from. Hit sources 1, 2, and 6 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: Full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising Cloud data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint unsigned |
-| **`hit_time_gmt`** | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
-| **`hitid_high`** | Used in combination with `hitid_low` to identify a hit. | bigint unsigned |
-| **`hitid_low`** | Used in combination with `hitid_high` to identify a hit. | bigint unsigned |
+| **`hit_source`** | Indicates the source that the hit came from. Hit sources 1, 2, and 6 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: Full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising Cloud data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint unsigned |
+| **`hit_time_gmt`** | The timestamp of the hit Adobe data collection servers received the hit, based in UNIX® time. | int |
+| **`hitid_high`** | Used with `hitid_low` to identify a hit. | bigint unsigned |
+| **`hitid_low`** | Used with `hitid_high` to identify a hit. | bigint unsigned |
 | **`homepage`** | No longer used. Indicated if the current URL is the browser's homepage. | char(1) |
 | **`hourly_visitor`** | Flag to determine if the hit is a new hourly visitor. | tinyint unsigned |
 | **`ip`** | The IPv4 address, based on the HTTP header of the image request. Mutually exclusive to `ipv6`; if this column contains a non-obfuscated IP address, `ipv6` is blank. | char(20) |
@@ -94,9 +94,9 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`java_enabled`** | Flag indicating whether Java is enabled. <br>Y: Enabled <br>N: Disabled <br>U: Unknown | char(1)|
 | **`javascript`** | Lookup ID of JavaScript version, based on `j_jscript`. Uses lookup table. | tinyint unsigned |
 | **`language`** | Numeric ID of language. Uses `languages.tsv` lookup table. | smallint unsigned |
-| **`last_hit_time_gmt`** | Timestamp (in Unix time) of the prior hit. Used to calculate the [Days since last visit](/help/components/dimensions/days-since-last-visit.md) dimension. | int |
+| **`last_hit_time_gmt`** | Timestamp (in UNIX® time) of the prior hit. Used to calculate the [Days since last visit](/help/components/dimensions/days-since-last-visit.md) dimension. | int |
 | **`last_purchase_num`** | Variable used in the [Customer loyalty](/help/components/dimensions/customer-loyalty.md) dimension. The number of previous purchases the visitor has made. <br>0: No prior purchases (not a customer) <br>1: 1 prior purchase (new customer) <br>2: 2 prior purchases (return customer) <br>3: 3 or more prior purchases (loyal customer) | int unsigned |
-| **`last_purchase_time_gmt`** | Used in the [Days since last purchase](/help/components/dimensions/days-since-last-purchase.md) dimension. Timestamp (in Unix time) of the last purchase made. For first-time purchases and visitors that have not made a purchase before, this value is `0`. | int |
+| **`last_purchase_time_gmt`** | Used in the [Days since last purchase](/help/components/dimensions/days-since-last-purchase.md) dimension. Timestamp (in UNIX® time) of the last purchase made. For first-time purchases and visitors that have not made a purchase before, this value is `0`. | int |
 | **`latlon1`** | Location (down to 10 km) | varchar(255) |
 | **`latlon23`** | Location (down to 100 m) | varchar(255) |
 | **`latlon45`** | Location (down to 1 m) | varchar(255) |
@@ -123,8 +123,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobiledayssincelastuse`** | Number of days since the app was last run. | varchar(255) |
 | **`mobiledeeplinkid`** | Collected from the context data variable `a.deeplink.id`. Used in acquisition reports as an identifier for mobile acquisition link.| varchar(255) |
 | **`mobiledevice`** | Mobile device name. On iOS, it is stored as a comma-separated 2-digit string. The first number represents the device generation, and the second number represents the device family. | varchar(255) |
-| **`mobilehourofday`** | Defines the hour of the day the app was launched. Follows 24-hour numerical format. | varchar(255) |
-| **`mobileinstalldate`** | Mobile install date. Provides the date of the first time a user opens the mobile app.| varchar(255) |
+| **`mobilehourofday`** | Defines the hour of the day that the app was launched. Follows 24-hour numerical format. | varchar(255) |
+| **`mobileinstalldate`** | Mobile install date. Provides the date of the first time that a user opens the mobile app.| varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | RETIRED - Collected from the context data variable a.LaunchesSinceUpgrade. Reports the number of launches since last upgrade.| varchar(255) |
 | **`mobilelaunchnumber`** | Increments by one each time the mobile app is launched.| varchar(255) |
 | **`mobileltv`** | No longer used. Populated by trackLifetimeValue methods. | varchar(255) |
@@ -139,7 +139,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobileplacecategory`** | Collected from the context data variable `a.loc.category`. Describes the category of a specific place. | varchar(255) |
 | **`mobileplaceid`** | Collected from the context data variable `a.loc.id`. Identifier for a given point of interest. | varchar(255) |
 | **`mobilepushoptin`** | Mobile Services Push opt-in | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services Push paylod ID | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push payload ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services launch content | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services launch medium | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services launch source | varchar(255) |
@@ -181,7 +181,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`s_kwcid`** | Keyword ID used in Adobe Advertising integrations. | varchar(255) |
 | **`s_resolution`** | Raw screen resolution value. Gathered using the JavaScript function `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Numeric ID representing the Search Engine that referred the visitor to your site. Uses `search_engines.tsv` lookup.| smallint unsigned|
-| **`search_page_num`** | Used by the [All Search Page Rank](/help/components/dimensions/all-search-page-rank.md) dimension. Indicates which page of search results your site appeared on before the user clicked through to your site. | smallint unsigned |
+| **`search_page_num`** | Used by the [All Search Page Rank](/help/components/dimensions/all-search-page-rank.md) dimension. Indicates which page of search results that your site appeared on before the user clicked through to your site. | smallint unsigned |
 | **`secondary_hit`** | Flag that tracks secondary hits. Typically originates from multi-suite tagging and VISTA rules that copy hits. | tinyint unsigned |
 | **`service`** | Not used. Use `page_event` instead.| char(2)|
 | **`socialaccountandappids`** | No longer used. Social account and app ID's | varchar(255) |
@@ -269,10 +269,10 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`videoshow`** | Video show | varchar(255) |
 | **`videoshowtype`** | Video show type | varchar(255) |
 | **`videostreamtype`** | Video stream type | varchar(255) |
-| **`visid_high`** | Used in combination with `visid_low` to uniquely identify a visitor. | bigint unsigned |
-| **`visid_low`** | Used in combination with `visid_high` to uniquely identify a visitor. | bigint unsigned |
+| **`visid_high`** | Used with `visid_low` to uniquely identify a visitor. | bigint unsigned |
+| **`visid_low`** | Used with `visid_high` to uniquely identify a visitor. | bigint unsigned |
 | **`visid_new`** | Flag to identify if the hit contains a newly generated visitor ID. | char(1) |
-| **`visid_timestamp`** | If visitor ID was newly generated, provides the timestamp (in Unix time) of when the visitor ID was generated. | int |
+| **`visid_timestamp`** | If visitor ID was newly generated, provides the timestamp (in UNIX® time) of when the visitor ID was generated. | int |
 | **`visid_type`** | Not for external use; internally used by Adobe for processing optimizations. Numeric ID representing the method used to identify the visitor.<br>`0`: Custom visitor ID or Unknown/not applicable<br>`1`: IP and user agent fallback <br>`2`: HTTP Mobile Subscriber Header <br>`3`: Legacy cookie value (`s_vi`) <br>`4`: Fallback cookie value (`s_fid`) <br>`5`: Identity Service | tinyint unsigned |
 | **`visit_keywords`** | Variable used in the [Search keyword](/help/components/dimensions/search-keyword.md) dimension. This column uses a non-standard character limit of varchar(244) to accommodate back-end logic used by Adobe. | varchar(244) |
 | **`visit_num`** | Variable used in the [Visit number](/help/components/dimensions/visit-number.md) dimension. Starts at 1, and increments each time a new visit starts per visitor. | int unsigned |
@@ -283,7 +283,7 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`visit_search_engine`** | Numeric ID of the first search engine of the visit. Uses `search_engines.tsv` lookup. | smallint unsigned |
 | **`visit_start_page_url`** | The first URL of the visit. | varchar(255) |
 | **`visit_start_pagename`** | The Page Name value in the first hit of the visit. | varchar(100) |
-| **`visit_start_time_gmt`** | Timestamp (in Unix time) of the first hit of the visit. | int |
+| **`visit_start_time_gmt`** | Timestamp (in UNIX® time) of the first hit of the visit. | int |
 | **`weekly_visitor`** | Flag to determine if the hit is a new weekly visitor. | tinyint unsigned |
 | **`yearly_visitor`** | Flag to determine if the hit is a new yearly visitor. | tinyint unsigned |
 | **`zip`** | Helps populate the [Zip code](/help/components/dimensions/zip-code.md) dimension. See also `geo_zip`. | varchar(50) |

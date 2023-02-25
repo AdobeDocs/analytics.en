@@ -12,4 +12,6 @@ See how each method of implementing Adobe Analytics compares to each other. You 
 | Data destination | Sent directly to Adobe Analytics | Sent directly to Adobe Analytics | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics |
 | Difficulty making implementation adjustments | Requires access to website code for every implementation change | Website code only needs to be changed once to install the loader tag; all further implementation updates can be made in the Data Collection UI | Requires access to website code for every implementation change | Website code only needs to be changed once to install the loader tag; all further implementation updates can be made in the Data Collection UI |
 | How A4T is handled | A4T calls are included in hits sent to Adobe | A4T calls are included in hits sent to Adobe | A4T calls are sent as separate hits | A4T calls are sent as separate hits |
-| How referrer is handled | 
+| Context Data | Use `s.contextData`. | Use `s.contextData` in custom code blocks | All unmapped fields are automatically sent as `a.x.*` context data variables. | All unmapped fields are automatically sent as `a.x.*` context data variables. |
+
+{style="table-layout:auto"}

@@ -121,6 +121,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)
+  + [Compare implementation methods](prepare/comparison.md)
   + [Global report suite considerations](prepare/global-rs.md)
   + [Implementing multi-suite tagging](prepare/multi-suite-tagging.md)
   + [Create a solution design document](prepare/solution-design.md)

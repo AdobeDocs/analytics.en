@@ -147,8 +147,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 | **`mobilerelaunchcampaigntrackingcode`** | Collected from the context data variable `a.launch.campaign.trackingcode`. Used in acquisition as the tracking code for launch campaign. | varchar(255) |
 | **`mobileresolution`** | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | **`monthly_visitor`** | Flag indicating the visitor is unique to the current month. | tinyint unsigned |
-| **`mvvar1`** - `mvvar3` | List variable values set on the current hit or persisted from previous hits. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | The list variable values that were set on the current hit. The `post_mvvar1_instances` - `post_mvvar3_instances` columns replace the original delimiter with `--**--`. | text |
+| **`mvvar1`** - `mvvar3` | List variable values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | The list variable values that were set on the current hit. Replaces the original delimiter with `--**--`. Does not have a `post` column. | text |
 | **`namespace`** | Not used. Part of a scrapped feature. | varchar(50) |
 | **`new_visit`** | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | **`os`** | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. Uses `os` lookup. | int unsigned |

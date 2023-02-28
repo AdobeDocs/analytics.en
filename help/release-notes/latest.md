@@ -4,7 +4,7 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (February 2023)
+# Current Adobe Analytics release notes (March 2023)
 
 **Last update**: February 27, 2023
 
@@ -14,9 +14,8 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Data Dictionary | The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. Learn more | March 8, 2023 | March 22, 2023 |
-| Secure Destinations for data export in Analytics Data Feeds | TBD | N/A | March 8, 2023 |
-| Sequential Data Stories in Mobile Dashboards | TBD | N/A | March 8, 2023 |
+| Data Dictionary in Analysis Workspace | The Data Dictionary helps both users and administrators keep track of and better understand the components (dimensions, metrics) in their Analytics environment. Learn more | March 8, 2023 | March 22, 2023 |
+| Data Stories in Mobile Dashboards | Data stories let you add multiple customizable detail views to tiles in Mobile Scorecard projects. Use data stories to dive deeper into key drivers, related metrics, and different steps along the customer journey. You can easily swipe through these views to understand the whole story behind your key metrics. Learn more | N/A | March 8, 2023 |
 
 ## Fixes in Adobe Analytics
 
@@ -36,7 +35,8 @@ To follow
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
-| **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, Publishing Lists are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing Publishing Lists to send or schedule Analysis Workspace projects. |
+| **EOL of [!UICONTROL People] metric** | February 28, 2023 | With the deprecation of the [!UICONTROL Device Co-op], the [!UICONTROL People] metric is no longer relevant. In the near future (date TBD), we will remove the [!UICONTROL People] metric. At that point, we will redirect its data to the [!UICONTROL Unique Visitor] metric to prevent projects, segments and calculated metrics from breaking. |
+| **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, [!UICONTROL Publishing Lists] are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing [!UICONTROL Publishing Lists] to send or schedule [!UICONTROL Analysis Workspace] projects. |
 | **EOL for Data Workbench** | September 14, 2022 | Adobe intends to end-of-life Data Workbench effective **December 31, 2023**. See [Data Workbench end-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) for details. Contact your organization's Adobe Account Manager with any questions. |
 | **EOL for [!DNL Reports & Analytics]** | January 4, 2022 | Effective **December 31, 2023**, Adobe intends to discontinue [!DNL Reports & Analytics] and its accompanying reports and features. The reports, visualizations, and underlying technology that power [!DNL Reports & Analytics] no longer meet Adobe's technology standards. Most [!DNL Reports & Analytics] features are available in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Since the release of Analysis Workspace in 2015, [!DNL Reports & Analytics] functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. [This notice](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explains the end-of-life process. |
 

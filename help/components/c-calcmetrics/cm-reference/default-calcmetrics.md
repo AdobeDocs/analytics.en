@@ -12,7 +12,9 @@ Following is a list of each Calculated Metric that is provided by Adobe, with it
 
 >[!NOTE]
 >
->In addition to the default Caluclated Metrics described on this page, you can also add additional Calculated Metrics to a Report Suite.  You can:
+>In addition to the default Caluclated Metrics described on this page, you can also add additional Calculated Metrics to a Report Suite.  
+>
+>You can:
 > * Add default Calculated Metrics for Streaming Media, as described in [Calculated metrics](/https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) 
 > * Create custom Calculated Metrics from existing Metrics, as described in [Calculated and Advanced Calculated (Derived) Metrics](/help/components/c-calcmetrics/cm-overview.md).
 
@@ -50,13 +52,5 @@ Following is a list of each Calculated Metric that is provided by Adobe, with it
 | Visits / Visitors | The average number of visits a unique visitor makes to the site . | <p>Visits</p><p>/</p><p>Unique Visitors</p> |
 | Estimated Unique Visitors (ITP 2.1) | <p>For ITP visitors (users on Safari browsers) divide Unique Visitors by 2 or less.</p><p>This assumes you are setting cookies using client-side JavaScript (not using a CNAME implementation). Implementations that set cookies using client-side JavaScript were impacted starting with ITP 2.1. See: [https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)</p> | <p>Unique Visitors metric + ITP Visitors (ITP 2.1, Non-CNAME implementations) segment</p><p>/</p><p>Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment</p> |
 | Page Views / Estimated Unique Visitors (ITP 2.1) | The average number of pages viewed for Estimated Unique Visitors (ITP 2.1). | <p>Unique Visitors metric + ITP Visitors (ITP 2.1, Non-CNAME implementations) segment</p><p>/</p><p>Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment</p> |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
-| Name | Function | Blank |
 
 {style="table-layout:auto"}

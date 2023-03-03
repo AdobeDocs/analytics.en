@@ -8,7 +8,7 @@ exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 
 >[!IMPORTANT]
 >
->The People metric will be deprecated in 2023. More details on the exact timing will be communicated via the Release Notes.
+>The People metric that relates to the Device Co-op will be deprecated in 2023. The CDA-related People metric that is described below is not affected by this deprecation.
 
 The 'People' metric is specific to [Cross-Device analytics](../cda/overview.md) virtual report suites. It represents the sum of individuals who are identified in the report, plus the number of devices that are not identified as belonging to a person.
 

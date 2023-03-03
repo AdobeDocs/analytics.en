@@ -6,9 +6,7 @@ exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 ---
 # Adobe plug-in: addProductEvent
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `addProductEvent` plug-in adds a numeric or currency event to the [`products`](../page-vars/products.md) variable. Adobe recommends using this plug-in if you want to add a numeric or currency event to the `products` variable without worrying about the product string format. This plug-in is not necessary if you don't use numeric or currency events in the `products` variable.
 

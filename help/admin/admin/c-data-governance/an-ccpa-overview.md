@@ -39,7 +39,7 @@ See [Label Report Suite Data](/help/admin/admin/c-data-governance/data-labeling/
 * Link your login company to an Experience Cloud organization, if it isn't already. Contact Adobe Customer Care and refer to [Organizations and account linking.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * Set a data retention policy for each report suite so that CCPA Delete and Access requests can be honored.
 
-   Adobe Analytics cannot assist you with processing requests to the Privacy Services API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Customer Success Manager in order to set your data retention period.
+   Adobe Analytics cannot assist you with processing requests to the Privacy Services API, i.e., processing access or deletion requests you receive from your end users, if the data retention period has not been set in Adobe Analytics. Please contact your Adobe Account Team in order to set your data retention period.
 
 * Check your permissions: to use the Data Governance Management interface in Adobe Analytics, you must be an Adobe Analytics Administrator.
 * Consider implementing the [Consent Management Variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) to track consent status at a hit level.

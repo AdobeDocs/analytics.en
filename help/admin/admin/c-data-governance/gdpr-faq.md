@@ -26,7 +26,7 @@ As the Data Processor, Adobe must provide reasonable assistance to the Controlle
 
 The Data Controllers determine how to resolve identity for requests from the Data Subjects. Consider deploying  Adobe's Data Privacy ID Retrieval Tag. Your development teams save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs). They can then use our Data Privacy API to send those user IDs to the relevant solutions in the Adobe Experience Cloud for Data Privacy request processing. The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. 
 
-If a Data Subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics scans then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the [Analytics documentation on namespaces](/help/technotes/c-data-governance/data-labeling/gdpr-namespaces.md).
+If a Data Subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics scans then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the [Analytics documentation on namespaces](/help/admin/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 
 +++
 
@@ -42,7 +42,7 @@ The Data Governance tool contains the following data labels:
 
 * **Data Privacy Data Labels**: Used to define the fields that may contain personal identifiers for use in Data Privacy requests or that should be removed as part of a Data Privacy delete request. These labels may overlap the Identity and Sensitive Data labels, in some cases.  
 
-For more information on Data Governance labels, see [Data Privacy Labels for Analytics Variables](/help/technotes/c-data-governance/data-labeling/gdpr-labels.md).
+For more information on Data Governance labels, see [Data Privacy Labels for Analytics Variables](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 +++
 
@@ -62,7 +62,7 @@ Still, there are a few ways that you can test your Data Privacy processing prior
 
 +++ **Where do I get started on getting Data Privacy ready with Adobe Analytics?**
 
-For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe Analytics Data Privacy Workflow](/help/technotes/c-data-governance/an-gdpr-workflow.md).
+For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe Analytics Data Privacy Workflow](/help/admin/admin/c-data-governance/an-gdpr-workflow.md).
 
 +++
 
@@ -102,7 +102,7 @@ The [Data Privacy Service API](https://developer.adobe.com/experience-platform-a
 
 We ask that you do not use the Data Privacy API for other purposes such as clearing out data that was accidentally submitted across large groups of visitors. You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out data fields, and highlights one reason why the Data Privacy API is inappropriate for this use.  
 
-Please contact your Account Manager (CSM) to coordinate with our Engineering Architect consulting team to further review & provide level of effort to remove any PII or data issues.
+Please contact your Adobe Account Team to coordinate with our Engineering Architect consulting team to further review & provide level of effort to remove any PII or data issues.
 
 +++
 
@@ -112,7 +112,7 @@ The [Data Privacy Service API](https://developer.adobe.com/experience-platform-a
 
 You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. This side effect is undesirable for situations where you want to clear out data fields, and highlights one reason why the Data Privacy API is inappropriate for this use.  
 
-Please contact your Account Manager (CSM) to coordinate with our Engineering Architect consulting team to further review and provide level of effort to remove any PII or data issues.
+Please contact your Adobe Account Team to coordinate with our Engineering Architect consulting team to further review and provide level of effort to remove any PII or data issues.
 
 +++
 

@@ -6,9 +6,7 @@ exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 ---
 # Adobe plug-in: Numbers Suite
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The Numbers Suite a series of JavaScript functions. It includes the following plug-ins:
 

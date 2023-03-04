@@ -19,7 +19,7 @@ When using SFTP, it is possible, under specific conditions, to use private keys 
 
 1. FTP account created (Adobe).
 
-   An Adobe representative can create an FTP account, if one does not already exist. Contact your Adobe Account Manager or Adobe Customer Care to get an account created.
+   An Adobe representative can create an FTP account, if one does not already exist. Contact your Adobe Account Team or Adobe Customer Care to get an account created.
 1. Public/Private key creation (Customer).
 
    Create a public and private key combination. The private key is a file that is private to your computer/server and resides there. The public key file needs to be uploaded to the Adobe account. When used in this manner you can connect without password authentication. The public key file at Adobe matches to the private key file on your computer/server and authenticates in that manner.

@@ -6,9 +6,7 @@ exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 ---
 # Adobe plug-in: cleanStr
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `cleanStr` plug-in removes or replaces all unnecessary characters from a string, including HTML tag characters, extra whitespaces, tabs, and newline/carriage returns. It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). Adobe recommends using this plug-in if you want to remove unnecessary characters from variable values and the 'Clean text' feature in Adobe Experience Platform Data Collection does not fulfill your implementation needs. This plug-in is not necessary if the collected data does not contain unnecessary characters, or if the 'Clean text' feature in Adobe Experience Platform Data Collection is sufficient.
 

@@ -14,7 +14,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Data Dictionary in Analysis Workspace | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | N/A | March 15, 2023 |
+| Data Dictionary in Analysis Workspace | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 15, 2023 | March 22, 2023 |
 | Data Stories in Mobile Dashboards | Data stories let you add multiple customizable detail views to tiles in Mobile Scorecard projects. Use data stories to dive deeper into key drivers, related metrics, and different steps along the customer journey. You can easily swipe through these views to understand the whole story behind your key metrics. Learn more | N/A | March 8, 2023 |
 | Expiration dates for scheduled project | You can set maximum expiration dates for scheduled projects to up to one year, regardless of schedule frequency. | N/A | March 8, 2023 |
 

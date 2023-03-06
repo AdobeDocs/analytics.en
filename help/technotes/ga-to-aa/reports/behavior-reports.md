@@ -81,4 +81,4 @@ Because this feature requires implementation changes, Adobe recommends working w
 
 ## Publisher reports
 
-Similar to how Google requires a connection with Google Ad Manager, Adobe offers a dedicated product to provide insight called Adobe Advertising Cloud. If your organization is interested in using this product, contact your organization's Account Manager.
+Similar to how Google requires a connection with Google Ad Manager, Adobe offers a dedicated product to provide insight called Adobe Advertising Cloud. If your organization is interested in using this product, contact your Adobe Account Team.

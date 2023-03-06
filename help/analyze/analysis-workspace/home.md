@@ -33,7 +33,7 @@ Once you are logged in, your first stop can be the Analysis Workspace Training T
 After completing the tutorial, you are ready to begin building your first project. On the [!UICONTROL Projects] tab, you can choose to start from
 
 * [!UICONTROL Blank project] if you plan to share your analysis from the browser, or 
-* [[!UICONTROL Blank mobile scorecard]](/help/mobile-app/curator.md), if you plan to share your analysis from the Customer Journey Analytics dashboards mobile app.
+* [[!UICONTROL Blank mobile scorecard]](/help/analyze/mobile-app/curator.md), if you plan to share your analysis from the Customer Journey Analytics dashboards mobile app.
 
 You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There are several different templates available, depending on the analysis or use case you have in mind. You can now find them under the [!UICONTROL Reports] tab in the left rail.
 

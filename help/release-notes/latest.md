@@ -16,11 +16,11 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | Data Dictionary in Analysis Workspace | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 8, 2023 | March 15, 2023 |
 | Data Stories in Mobile Dashboards | Data stories let you add multiple customizable detail views to tiles in Mobile Scorecard projects. Use data stories to dive deeper into key drivers, related metrics, and different steps along the customer journey. You can easily swipe through these views to understand the whole story behind your key metrics. Learn more | N/A | March 8, 2023 |
-| Scheduled project expiration dates | For the foreseeable future, you can set expiration dates for scheduled projects to up to one year, regardless of schedule frequency. | N/A | March 8, 2023 |
+| Expiration dates for scheduled project | You can set maximum expiration dates for scheduled projects to up to one year, regardless of schedule frequency. | N/A | March 8, 2023 |
 
 ## Fixes in Adobe Analytics
 
-AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-311665; AN-311948; AN-312108; AN-312114; AN-312142; AN-312143; AN-312389; AN-312391; AN-312431; AN-312453; AN-312454; AN-312458; AN-312503; AN-312682; AN-312714; AN-312738; AN-312807; AN-312829; AN-312849; AN-312875; AN-312980; AN-312997; AN-313059; AN-313077; AN-313110; AN-313195; AN-313196; AN-313258; AN-313554; AN-313580; AN-313702; AN-313820; AN-313859; 
+AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-311665; AN-311948; AN-312108; AN-312114; AN-312142; AN-312143; AN-312389; AN-312391; AN-312431; AN-312453; AN-312454; AN-312458; AN-312503; AN-312682; AN-312714; AN-312738; AN-312807; AN-312829; AN-312849; AN-312875; AN-312980; AN-312997; AN-313059; AN-313077; AN-313110; AN-313195; AN-313196; AN-313258; AN-313554; AN-313580; AN-313702; AN-313820; AN-313844; AN-313859; AN-314273I
 
 ## Important notices for Adobe Analytics administrators
 

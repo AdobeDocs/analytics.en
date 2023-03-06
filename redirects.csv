@@ -381,7 +381,6 @@ https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/company-s
 /docs/analytics/admin/data-governance/gdpr-terminology.html,/docs/experience-platform/privacy/regulations/terminology.html
 /docs/analytics/admin/data-governance/gdpr-labels.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labels.html
 /docs/analytics/admin/data-governance/gdpr-setup-reportsuite.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-setup-reportsuite.html
-/docs/analytics/admin/data-governance/gdpr-view-settings.html,https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-view-settings.html
 /docs/analytics/admin/data-governance/gdpr-analytics-ids.html,docs/analytics/admin/data-governance/data-labeling/gdpr-analytics-ids.html
 /docs/analytics/admin/data-governance/gdpr-labeling-example.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labeling-example.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html,https://experienceleague.corp.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html
@@ -405,8 +404,6 @@ https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/
 https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/classifications-mchannel.html
 https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/visitor-engagement.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/visitor-engagement.html
 https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/currency.html,https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html
-https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-submit-access-delete.html,https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html
-https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-namespaces.html,https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-namespaces.html
 /docs/analytics/implementation/prepare/implementation-modal.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html
 /docs/analytics/implementation/use-cases/email-external.html,/docs/analytics/implementation/use-cases/campaign-tracking.html
 https://experienceleague.adobe.com/docs/analytics/technotes/data-governance/gdpr-labels.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/cnil-consent-exemption.html
@@ -419,3 +416,9 @@ https://experienceleague.adobe.com/docs/analytics/technotes/data-governance/data
 https://experienceleague.adobe.com/docs/analytics/technotes/data-governance/data-labels/gdpr-labels.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-labels.html
 https://experienceleague.adobe.com/docs/analytics/technotes/data-governance/gdpr-faq.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/gdpr-faq.html
 https://experienceleague.adobe.com/docs/analytics/technotes/data-governance/an-gdpr-workflow.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html
+https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-workflow.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html
+https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-view-settings.html
+https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-namespaces.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-namespaces.html
+xperienceleague.adobe.com/docs/analytics/technotes/migrate-mobile.html%3Flang%3Des,https://experienceleague.adobe.com/docs/analytics/technotes/migrate-mobile.html
+https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html
+https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/gdpr-submit-access-delete.html,https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html

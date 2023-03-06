@@ -19,14 +19,14 @@ When creating a data feed, you provide Adobe with:
 ## Create a data feed
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
-3. In the top navigation bar, navigate to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
-4. Select [!UICONTROL **Add**]. 
+1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
+1. In the top navigation bar, navigate to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+1. Select [!UICONTROL **Add**]. 
 
     ![Add data feed](assets/datafeed-add.png)
 
     A page displays with three main categories: [!UICONTROL **Feed information**], [!UICONTROL **Destination**], and [!UICONTROL **Data column definitions**].
-5. In the [!UICONTROL **Feed Information**] section, complete the following fields:
+1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
    * **Name**: The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length.
    * **Report suite:** The report suite the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported.
    * **Email when complete**: The email address to be notified when a feed finishes processing. The email address must be properly formatted.
@@ -34,7 +34,7 @@ When creating a data feed, you provide Adobe with:
    * **Delay processing**: Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes.
    * **Start & end dates**: The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone.
    * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
-6. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
+1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
 
    You can choose from the following destinations: (For information about each of these destinations and the options associated with each, see the [Destination fields](#destination-fields) section on this page.)
    * Amazon S3
@@ -43,19 +43,13 @@ When creating a data feed, you provide Adobe with:
    * Google Cloud Platform
    * Legacy destinations are also available but are not recommended: FTP, SFTP, S3, Azure Blob.
 
-7. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the dropdown, then complete the following fields:
+1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the dropdown, then complete the following fields:
    * [!UICONTROL **Compression format**]: Gzip
    * [!UICONTROL **Packaging type**]: Multiple files
    * [!UICONTROL **Manifest**]: No File
-8. Select [!UICONTROL **Save**] in the top-right.
+1. Select [!UICONTROL **Save**] in the top-right.
 
     Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
-
-10. Log in to the destination site.
-<!-- Do these steps still apply to the new destinations? If so, put this info somewhere else. Maybe a new article is needed? Something like, "Access data feed data from the destination"???
-11. Download the compressed data feed file to your local machine.
-12. Unzip the compressed file using a program that supports `.tar.gz` file extensions.
-13. Open the `hit_data.tsv` file in your spreadsheet or database application of choice to see raw data for that day. -->
 
 ## Destination fields
 

@@ -15,7 +15,8 @@ Make sure that you meet all the following requirements before using data feeds.
 
 * A working implementation that sends data to Adobe data collection servers. See [Validate and publish an implementation](/help/implement/launch/validate-publish-prod.md) in the Implementation guide.
 * Your account is an Analytics product admin, or your account belongs to a product profile with access to data feeds.
-* (Legacy: Required only for legacy FTP and SFTP destination types) Have an FTP site and credentials handy. Data feeds can only be sent to a server destination. Your organization typically provides FTP credentials. Adobe can provide an FTP location with a modest amount of storage at your request. Contact Customer Care to request an FTP destination for data feeds.
+* A bucket configured on Amazon S3, Google Cloud Platform, Azure RBAC, or Azure SAS.
+* (Legacy: Required only for legacy FTP and SFTP destination types) Have an FTP site and credentials handy (FTP credentials provided by your organization.)
 
 ## Recommended data feed resources
 

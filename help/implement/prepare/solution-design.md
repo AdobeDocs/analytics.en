@@ -35,7 +35,7 @@ When determining what data to collect, it is easy to say "everything", however t
 
 ## Additional resources
 
-Defining a solution design document is a fairly complex project, especially for organizations who have not created one before. If additional assistance is desired, Adobe provides specialized consulting to help get your organization up and running with Adobe Analytics. Contact your Adobe Account Team if you would like to enlist Adobe's professional services. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
+Defining a solution design document is a fairly complex project, especially for organizations who have not created one before. If additional assistance is desired, Adobe provides specialized consulting to help get your organization up and running with Adobe Analytics. Contact your Account Manager if you would like to enlist Adobe's professional services. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
 
 There are also several Adobe partners who specialize in helping with the creation of a solution design document, as well as implementing Adobe Analytics on your site.
 

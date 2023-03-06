@@ -6,7 +6,9 @@ exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 ---
 # Adobe plug-in: getValOnce
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getValOnce` plug-in prevents a variable from being set equal to the same value more than once. Adobe recommends using this plug-in when you would like to deduplicate occurrences where a visitor refreshes a page or otherwise visit a given page multiple times. This plug-in is unnecessary if you are not worried about the 'Occurrences' metric in Analysis Workspace.
 

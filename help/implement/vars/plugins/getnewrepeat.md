@@ -6,7 +6,9 @@ exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 ---
 # Adobe plug-in: getNewRepeat
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getNewRepeat` plug-in allows you to determine whether a visitor to the site is a new visitor or a repeat visitor within a desired number of days. Adobe recommends using this plug-in if you want to identify visitors as "new" using a custom number of days. This plug-in is unnecessary if the New/Repeat visitor dimensions in Analysis Workspace meet your organization's needs.
 

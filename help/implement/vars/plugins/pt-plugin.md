@@ -6,7 +6,9 @@ exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 ---
 # Adobe plug-in: pt
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `pt` plug-in executes a function or method on a list of Analytics variables. For example, you can selectively run the [`clearVars`](../functions/clearvars.md) function on several variables without manually calling the function each time. Several other plug-ins depend on this code to run correctly. This plug-in is not necessary if you have no need to run a specific function on more than one Analytics variable at a time, or if you're not using any dependent plug-ins.
 

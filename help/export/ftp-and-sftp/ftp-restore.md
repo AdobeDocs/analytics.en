@@ -9,4 +9,4 @@ exl-id: 5aca2196-9c7c-4891-93c9-5af2e7f97fb9
 
 Any data that has been deleted from an FTP account cannot be restored by Adobe.
 
-If an FTP account that you had been intending to use has been disabled, contact your Adobe Account Team, who can discuss additional options with you.
+If an FTP account that you had been intending to use has been disabled, contact your Adobe Account Manager, who can discuss additional options with you.

@@ -47,7 +47,7 @@ For data submitted via API, such as via [Data Insertion API](https://github.com/
 
 Not at this time. You can choose to collect all high-entropy hints or none. 
 
-Note that fullVersionList is currently not collected because browser major version is captured as a low entropy hint.
+Note that fullVersionList is currently not collected because browser major version is captured as a low-entropy hint.
 
 +++
 

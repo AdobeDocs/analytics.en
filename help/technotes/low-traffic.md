@@ -24,7 +24,7 @@ This logic allows Adobe to optimize reporting capabilities while still allowing 
 
 ## Changing unique limit thresholds
 
-Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. When requesting a change, include:
+Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact Adobe Customer Care or your organization's account manager to request this change. When requesting a change, include:
 
 * The report suite ID
 * The variable you would like to increase the threshold for

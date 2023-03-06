@@ -114,7 +114,7 @@ Answers to questions you might have before the migration.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verify that you are an Analytics product administrator in the Adobe Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Communicate to your user base that their login experience will change when the migration begins. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Audit your current users and permissions and perform clean-up activities. </li> 
-    </ul> <p>To expedite your migration, contact your Adobe Account Team at <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a> and submit a request for an earlier start date. </p> </td> 
+    </ul> <p>To expedite your migration, contact your Customer Success Manager at <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"> Adobe Customer Care</a> and submit a request for an earlier start date. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> I am an Analytics administrator without access to the Adobe Admin Console. Who can help me gain access to the Adobe Admin Console? </p> </td> 

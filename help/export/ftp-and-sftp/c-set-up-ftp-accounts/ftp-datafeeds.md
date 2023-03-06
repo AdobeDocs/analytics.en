@@ -7,10 +7,6 @@ exl-id: 286050fa-e197-4b70-b167-da6921615c1b
 ---
 # Data Feeds
 
->[!NOTE]
->
->FTP and SFTP are no longer recommended destinations for data feeds. Instead, we recommend using Amazon S3, Google Cloud Platform, Azure RBAC, or Azure SAS as data feed destinations.
-
 Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. They can be sent to any FTP account (either one set up by Adobe or an external FTP). Adobe Engineering Services offers custom [!UICONTROL Data Feeds] that can be sent by virtually any means.

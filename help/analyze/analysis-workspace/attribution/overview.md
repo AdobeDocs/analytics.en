@@ -12,7 +12,7 @@ Attribution gives analysts the ability to customize how dimension items get cred
 1. A visitor to your site clicks a paid search link to one of your product pages. They add the product to the cart, but do not purchase it.
 2. The next day, they see a social media post from one of their friends, click the link, then complete the purchase.
 
-In some reports, you might want the order attributed to Paid search. In other reports, you might want the order attributed to Social. Attribution lets you control this aspect of reporting. It is available to all organizations on Adobe Analytics Ultimate, Prime, Select and Foundation. If you are not sure which type of contract you have with Adobe, contact your Adobe Account Team.
+In some reports, you might want the order attributed to Paid search. In other reports, you might want the order attributed to Social. Attribution lets you control this aspect of reporting. It is available to all organizations on Adobe Analytics Ultimate, Prime, Select and Foundation. If you are not sure which type of contract you have with Adobe, contact your organization's Account Manager.
 
 ## Value of Attribution IQ
 

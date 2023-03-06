@@ -135,4 +135,4 @@ The organic keywords report shows how each keyword performs after a visitor clic
 
 ## Cost Analysis
 
-This report shows visit, cost, and revenue performance data for your paid marketing channels. Adobe provides a dedicated product to provide insight called Adobe Advertising Cloud. If your organization is interested in using this product, contact your Adobe Account Team.
+This report shows visit, cost, and revenue performance data for your paid marketing channels. Adobe provides a dedicated product to provide insight called Adobe Advertising Cloud. If your organization is interested in using this product, contact your organization's Account Manager.

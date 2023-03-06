@@ -10,7 +10,7 @@ The Billing page lets you access billing information, including traffic details 
 
 >[!NOTE]
 >
->If access to the billing tab is disabled for your company, contact your Adobe Account Team.
+>If access to the billing tab is disabled for your company, contact your Account Manager.
 
 The traffic overview data from the billing page lets you correlate page view data in reports with billable server calls on your invoice. The [!UICONTROL Billing] page lets you do the following:
 

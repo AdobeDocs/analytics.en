@@ -9,7 +9,7 @@ Cross-Device Analytics provides two distinct methods to stitch data together. Th
 
 ## Prerequisites specific to field-based stitching
 
-If you intend to implement Cross-Device Analytics using field-based stitching, the following are required. Work with teams within your organization and your Adobe Account Team to ensure that you meet all of the following.
+If you intend to implement Cross-Device Analytics using field-based stitching, the following are required. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.
 
 >[!WARNING]
 >
@@ -17,7 +17,7 @@ If you intend to implement Cross-Device Analytics using field-based stitching, t
 
 * All prerequisites listed on the [overview page](overview.md).
 * Your implementation must set a prop or eVar that uniquely identifies an individual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. Avoid assigning a default value to the prop or eVar.
-* Communicate the desired identifying variable to your Adobe Account Team when provisioned for Field-based stitching.
+* Communicate the desired identifying variable to your Account Manager when provisioned for Field-based stitching.
 
 ## Limitations specific to field-based stitching
 

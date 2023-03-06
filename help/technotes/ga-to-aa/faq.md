@@ -10,7 +10,7 @@ exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 
 Every Analytics platform has different ways of collecting, handling, and storing data. Rather than migrating historical data, Adobe recommends establishing a clear cut-over date to start collecting and using data within Adobe Analytics. Frequent cut-over dates used are the beginning of a fiscal year, the beginning of a calendar year, or the beginning of a calendar month. If users would like to view historical data, they can log in to the third-party platform to obtain any specific historical reporting needs.
 
-If your organization is adamant about having historical data ported over to Adobe, contact your Adobe Account Team. An implementation consultant can work with your organization to translate a Google Analytics data export into a data source that can be ingested by Adobe data collection servers.
+If your organization is adamant about having historical data ported over to Adobe, contact your organization's Account Manager. An implementation consultant can work with your organization to translate a Google Analytics data export into a data source that can be ingested by Adobe data collection servers.
 
 For moving over historical data we recommend using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) which can bring in any omni-channel data source.
 

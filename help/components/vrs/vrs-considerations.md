@@ -15,7 +15,7 @@ Replacing multi-suite tagging with a global report suite and VRS allows you to s
 
 ## Guidelines
 
-If you are unsure whether the use cases described apply to you and your organization, consult your other Adobe Analytics administrators or your Adobe account manager. They can help assess your business needs and make a recommendation.
+If you are unsure whether the use cases described apply to you and your organization, consult your other Adobe Analytics administrators or your Adobe Account Team. They can help assess your business needs and make a recommendation.
 
 Take the following considerations into mind when determining if you should use multi-suite tagging or virtual report suites:
 

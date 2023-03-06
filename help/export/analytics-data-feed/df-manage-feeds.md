@@ -46,7 +46,7 @@ Click the Jobs tab to see individual jobs that each of your feeds create. See [M
 
 ### Add
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. See [Add a feed](create-feed.md) for more information.
+Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. See [Create a data feed](create-feed.md) for more information.
 
 ### Columns
 

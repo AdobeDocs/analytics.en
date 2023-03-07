@@ -6,9 +6,7 @@ exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 ---
 # Adobe plug-in: manageVars
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `manageVars` plug-in allows you to manipulate the values of multiple Analytics variables at once. You can also set values to lowercase or remove unnecessary characters from multiple variable values at the same time. Adobe recommends using this plug-in if you want to clean up the value of multiple variables at once.
 

@@ -6,9 +6,7 @@ exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 ---
 # Adobe plug-in: getTimeSinceLastVisit
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getTimeSinceLastVisit` plug-in allows you to track how long a visitor has taken to return to your site after their last visit.
 

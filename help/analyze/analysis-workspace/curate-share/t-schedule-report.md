@@ -53,7 +53,7 @@ In the Scheduled Projects Manager, you can edit and delete recurring project sch
 | [!UICONTROL Owner] | The person who created and owns the project. |
 | [!UICONTROL Tags] | (optional) Tagging is a good way to organize projects. All users can create tags and apply one or more tags to a project. However, you can see tags only for those projects that you own or that have been shared with you.  |
 | [!UICONTROL Delivered To] | The recipient(s) of this scheduled project. |
-| [!UICONTROL Expiration Date] | The default expiration date depends on the schedule frequency. See "Scheduled project expiration dates" below. |
+| [!UICONTROL Expiration Date] | For any scheduled project frequency, you can set the expiration date for up to one year in the future. |
 | [!UICONTROL Frequency] | How often you want to have this schedule project sent to the recipient(s). |
 | [!UICONTROL Execution Time] | At what time of day this scheduled project gets sent. |
 | [!UICONTROL Number of Queries] | The number of queries against this project. | 
@@ -72,12 +72,3 @@ The following are common actions in the Scheduled Projects manager:
 |**[!UICONTROL View schedule ID]**|Navigate to column options in the top right and add the Schedule ID column to the table. The scheduled ID is often useful for debugging.|
 
 The Scheduled Projects Manager shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries stop. Scheduled project ownership can be **transferred** to a new user under **Admin > Analytics Users & Assets > Transfer Assets**.
-
-## Scheduled project expiration dates
-
-The expiration dates for scheduled projects depend on the scheduled delivery frequency:
-
-* Hourly deliveries expire in one week.
-* Daily deliveries expire in one month.
-* Weekly deliveries expire in 6 months.
-* Monthly/yearly deliveries expire in one year.

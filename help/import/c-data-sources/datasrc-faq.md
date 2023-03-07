@@ -142,6 +142,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 
 ```
+
 ## Why is my ftp upload not getting picked up?
 
 After the .fin file is uploaded, it’s important that you log out of the Data Sources FTP site. The reason is that Analytics uses logout events as a trigger to indicate that files are ready for processing. If you are programmatically uploading the files, it is important that your automated process also logs out of the FTP site after the files have been uploaded.

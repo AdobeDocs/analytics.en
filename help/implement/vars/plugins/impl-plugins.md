@@ -8,9 +8,7 @@ exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 
 Plug-ins are snippets of code that perform several advanced functions to help your Analytics implementation. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions.
 
->[!IMPORTANT]
->
->Plug-ins are provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with any of these plug-ins, including installation or troubleshooting. If you require help with a plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 Adobe offers several ways to install a given plug-in:
 

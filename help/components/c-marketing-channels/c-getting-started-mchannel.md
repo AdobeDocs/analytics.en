@@ -81,7 +81,6 @@ How to use a master report suite as a template for testing your marketing channe
 >
 >Apply channels from a template before you apply rule sets. Your channels must be the same across all report suites when performing this procedure.
 
-1. Ensure that the Marketing Channel Report is enabled for selected report suites. Your Account manager performs this step.
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. On the **[!UICONTROL Report Suite Manager]** page, select the template report suite, as well as one or more target report suites.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.

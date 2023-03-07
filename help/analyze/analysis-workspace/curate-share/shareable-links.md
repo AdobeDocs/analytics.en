@@ -8,13 +8,19 @@ exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 ---
 # Create shareable links
 
-Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. For most types of links, users who receive a link are required to log in to Adobe Analytics before they can get to the project. 
+Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Some link types require the recipient to log in to Adobe Analytics before accessing the project, while others do not. 
 
 ## Get project link {#project-link} 
 
 To share a link to the full project, go to **[!UICONTROL Share > Get project link]**. If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]** experiences. 
 
 ![](assets/get-project-link.png)
+
+## Get public link
+
+You can share a view-only link to Analysis Workspace projects with people who don't have access to Adobe Analytics.
+
+For more information, see "Share a public link with anyone (no login required)" in the article [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Get panel or visualization link {#panel-link} 
 

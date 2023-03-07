@@ -137,8 +137,10 @@ Full processing only supports legacy event list formats excluding the numeric/cu
 If numeric, currency or counter (more than 1) events are required, use the product list:
 
 ```js
+
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+
 ```
 ## Why is my ftp upload not getting picked up?
 

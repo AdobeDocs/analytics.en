@@ -1,5 +1,5 @@
 ---
-description: Administrators can add descriptions for components using either the Report Suite or the Data Dictionary.
+description: Administrators can add descriptions for components using either the Report Suite.
 title: Add component descriptions
 feature: Components
 role: Admin

@@ -1,8 +1,7 @@
 ---
 description: Adobe provides various calculated metrics that you can use. This page lists those metrics and their intended uses.
 title: Default calculated metrics
-feature: calculated metrics
-exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
+feature: Calculated Metrics
 ---
 # Default calculated metrics
 

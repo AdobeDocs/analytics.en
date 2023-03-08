@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **March 2023** | |
+| Default calculated metrics | Added content explaining the [default calculated metrics provided by Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **February 2023** | |
 | Implementation | Updated content on how to [implement Adobe Analytics for web and mobile](../implement/home.md). |
 | Workspace calendars and date ranges | Updated content to describe relative date ranges, formula calculation updates, and calendar UI changes. See [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |

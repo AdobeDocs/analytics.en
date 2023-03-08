@@ -53,4 +53,4 @@ In addition to its default value, the `priority` field also supports a value of 
 
 You should also be aware that any visitor who has a hit deleted (updated or anonymized) as a result of a Data Privacy deletion request will have their state information reset. The next time the visitor returns to your website, they will be a new visitor. All eVar attribution will start again, as will information such as visit numbers, referrers, first page visited, etc. TThe result is undesirable for situations where you want to clear out data fields, and highlights one reason why the Privacy Service API is inappropriate for this use.
 
-Please contact your Adobe Account Team to coordinate with our Engineering Architect consulting team to further review and provide level of effort to remove any PII or resolve data issues.
+Please contact your Account Manager (CSM) to coordinate with our Engineering Architect consulting team to further review and provide level of effort to remove any PII or resolve data issues.

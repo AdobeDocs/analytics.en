@@ -5,9 +5,9 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 ---
 # Analytics variable mapping in Adobe Experience Edge
 
-The following table shows the variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM Field Paths, no additional configuration is necessary to send data to Adobe Analytics. These fields are included in the **[!UICONTROL Adobe Analytics ExperienceEvent Template]** field group.
+The following table shows the variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM Field Paths, no additional configuration is necessary to send data to Adobe Analytics.
 
-| XDM field path  | Analytics dimension and description |
+| XDM Field Path  | Analytics dimension and description |
 | --- | --- |
 | `application.isClose` | Helps define the mobile metric [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |

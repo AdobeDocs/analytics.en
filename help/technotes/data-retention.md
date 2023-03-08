@@ -14,7 +14,7 @@ Data retained is based on the current date and the date/time of historical data.
 
 ## Adjusting the default data retention period
 
-If you would like to reduce or extend the default data retention period, contact your Adobe Account Team.
+If you would like to reduce or extend the default data retention period, contact your organization's account manager.
 
 * There is no charge for reducing the default data retention period.
 * Extending data retention beyond the default retention period of 25 months requires the purchase of extensions, which are available in increments of one year each. Up to eight extensions can be purchased, for a total of 10 years 1 month (2 years 1 month for default retention, plus 8 years purchased).
@@ -43,9 +43,9 @@ The data retention policy defines a rolling data retention window in which compl
 
 **Can I request a copy of my data prior to it being deleted?**
 
-Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your Adobe Account Team. Special accommodations can be made; costs may vary.
+Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your organization's account manager. Special accommodations can be made; costs may vary.
 
 **When does Adobe delete data?**
 
-Contact your Adobe Account Team for the specific time your data is scheduled to be deleted. Data is typically deleted on a rolling monthly basis.
+Contact your organization's account manager for the specific time your data is scheduled to be deleted. Data is typically deleted on a rolling monthly basis.
 

@@ -170,7 +170,7 @@ source,destination
 /docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/t-email-users.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-groups/groups.html,/docs/analytics/admin/admin-console/home.html
-/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html
+/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html
 /docs/analytics/admin/user-product-management/user-management/permissions-changes.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-management/t-transfer-user-accout-privileges.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/implementation/javascript-implementation/plugins/gettimeparting.html,docs/analytics/implementation/vars/plugins/gettimeparting.html
@@ -338,10 +338,9 @@ source,destination
 /docs/analytics/admin/server-call-usage/scu-alerts.html,/docs/analytics/admin/admin-tools/server-call-usage/scu-alerts.html
 /docs/analytics/admin/server-call-usage/overage-faq.html,/docs/analytics/admin/admin-tools/server-call-usage/overage-faq.html
 /docs/analytics/admin/user-product-management/user-management.html,/docs/analytics/admin/admin-console/user-product-management/user-management.html
-/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/admin-tools/user-product-management/migrate-users/t-migrate-users.html
-/docs/analytics/admin/user-product-management/migrate-users/migrate-enterprise.html,docs/analytics/admin/admin-tools/user-product-management/migrate-users/migrate-enterprise.html
-/docs/analytics/admin/user-product-management/migrate-users/t-disable-legacy-login.html,docs/analytics/admin/admin-tools/user-product-management/migrate-users/t-disable-legacy-login.html
-/docs/analytics/admin/user-product-management/migrate-users/developer.html,/docs/analytics/admin/admin-tools/user-product-management/migrate-users/developer.html
+/docs/analytics/admin/user-product-management/migrate-users/migrate-enterprise.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/migrate-enterprise.html
+/docs/analytics/admin/user-product-management/migrate-users/t-disable-legacy-login.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/t-disable-legacy-login.html
+/docs/analytics/admin/user-product-management/migrate-users/developer.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/developer.html
 /docs/analytics/admin/company-settings/c-hide-report-suites.html,/docs/analytics/admin/admin-overview/company-settings/c-hide-report-suites.html
 /docs/analytics/components/variables/dimensions-reports/reports-conversion.html,/docs/analytics/components/dimensions/evar.html
 /docs/analytics/admin/admin-tools/publishing-list.html,/docs/analytics/admin/admin-tools/scheduled-reports-admin.html
@@ -383,6 +382,7 @@ source,destination
 /docs/analytics/admin/data-governance/gdpr-setup-reportsuite.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-setup-reportsuite.html
 /docs/analytics/admin/data-governance/gdpr-analytics-ids.html,docs/analytics/admin/data-governance/data-labeling/gdpr-analytics-ids.html
 /docs/analytics/admin/data-governance/gdpr-labeling-example.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labeling-example.html
+
 /docs/analytics/admin/admin-overview/which-analytics-tool.html,/docs/analytics/analyze/admin-overview/which-analytics-tool.html
 /docs/analytics/admin/admin-overview/analytics-product-comparison.html,/docs/analytics/analyze/admin-overview/analytics-product-comparison.html
 /docs/analytics/admin/admin-overview/sys-reqs.html,/docs/analytics/analyze/admin-overview/sys-reqs.html
@@ -416,7 +416,7 @@ source,destination
 /docs/analytics/technotes/data-governance/an-gdpr-workflow.html,/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html
 /docs/analytics/admin/data-governance/an-gdpr-workflow.html,/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html
 /docs/analytics/admin/data-governance/gdpr-namespaces.html,/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-namespaces.html
-xperienceleague.adobe.com/docs/analytics/technotes/migrate-mobile.html%3Flang%3Des,/docs/analytics/technotes/migrate-mobile.html
+/docs/analytics/technotes/migrate-mobile.html%3Flang%3Des,/docs/analytics/technotes/migrate-mobile.html
 /docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html
 /docs/analytics/admin/admin-tools/data-governance/gdpr-submit-access-delete.html,/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html
 /docs/analytics/admin/data-governance/gdpr-view-settings.html,/docs/analytics/admin/data-governance/data-labels/gdpr-view-settings.html

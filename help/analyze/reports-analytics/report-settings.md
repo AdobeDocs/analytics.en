@@ -39,7 +39,7 @@ Settings that define how all reports appear and information that maps the defaul
 |**Language/Currency/Encoding**||
 |Thousands Separator| Select a separator for every thousands (decimal or comma). Many countries use a decimal to separate the thousands number. (This separator is applied to all numbers throughout the system, not just currency.)|
 |Use the report suite's default currency|Specifies whether to use the report suite's default currency.|
-|Currency|The currency to which you want to convert your data. When a value is selected in this setting, the data stored in the database is not affected, but is shown as a converted value based on the current day's currency conversion rate. When currency options are not configured (set to the defaults) no currency conversion takes place, and all values are stored and displayed in U.S. dollars (USD). To convert the currency when the data is processed (before it is displayed), contact your Adobe Account Team.|
+|Currency|The currency to which you want to convert your data. When a value is selected in this setting, the data stored in the database is not affected, but is shown as a converted value based on the current day's currency conversion rate. When currency options are not configured (set to the defaults) no currency conversion takes place, and all values are stored and displayed in U.S. dollars (USD). To convert the currency when the data is processed (before it is displayed), contact your account manager.|
 |Scheduled Report Encoding| SHIFT-JIS for Japanese character encoding. EUC-JP for extended Unix Code, primarily for Japanese, Korean, and simplified Chinese.|
 |CSV Separator Character|The character you want to use to separate CSV values.|
 

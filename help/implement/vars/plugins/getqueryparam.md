@@ -6,7 +6,9 @@ exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 ---
 # Adobe plug-in: getQueryParam
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `getQueryParam` plug-in allows you to extract the value of any query string parameter contained in a URL. It is useful for extracting campaign codes, both internal and external, from landing page URLs. It is also valuable when extracting search terms or other query string parameters.
 

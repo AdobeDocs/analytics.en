@@ -12,11 +12,11 @@ exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 This guide provides product documentation and self-help for the following Adobe Analytics reporting and analysis tools:
 
 * **[!UICONTROL Analysis Workspace]:** The foremost feature in Adobe Analytics. Workspace provides a canvas where you can drag components to meet reporting needs.
-* **[!UICONTROL Adobe Analytics dashboards]:** This mobile app allows users mobile access to intuitive scorecards with key metrics and the ability to do more detailed breakdowns and trended reports.
+* **[!UICONTROL Adobe Analytics dashboards]:** This mobile app allows users mobile access to create intuitive scorecards with key metrics, more detailed breakdowns and trended reports.
 * **[!UICONTROL Activity Map]:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
 * **[!UICONTROL Report Builder]:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
 * **[!UICONTROL Reporting API]:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
-* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs.
+* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs. **Note:** Reports & Analytics will be [end-of-lifed](https://express.adobe.com/page/6WnF8JK6IRDhf/) on December 31, 2023.
 
 Here is a video overview of Adobe Analytics:
 

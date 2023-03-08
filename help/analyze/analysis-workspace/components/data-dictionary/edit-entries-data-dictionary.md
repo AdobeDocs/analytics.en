@@ -3,8 +3,6 @@ description: The Data Dictionary in Analysis Workspace allows users to catalogue
 title: Edit entries in the Data Dictionary
 feature: Components
 role: Admin
-hide: yes
-hidefromtoc: yes
 ---
 # Edit component entries in the Data Dictionary
 

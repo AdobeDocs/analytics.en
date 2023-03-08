@@ -21,7 +21,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
 + Analytics admin tools {#admin-tools}
   + [Admin tools overview](admin/c-admin-tools.md)
-  + [Billing](admin/billing-admin.md)
   + [Code Manager](admin/code-manager-admin.md)
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)

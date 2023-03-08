@@ -170,7 +170,6 @@ source,destination
 /docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/t-email-users.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-groups/groups.html,/docs/analytics/admin/admin-console/home.html
-/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html
 /docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html
 /docs/analytics/admin/user-product-management/user-management/permissions-changes.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-management/t-transfer-user-accout-privileges.html,/docs/analytics/admin/admin-console/home.html
@@ -339,8 +338,6 @@ source,destination
 /docs/analytics/admin/server-call-usage/scu-alerts.html,/docs/analytics/admin/admin-tools/server-call-usage/scu-alerts.html
 /docs/analytics/admin/server-call-usage/overage-faq.html,/docs/analytics/admin/admin-tools/server-call-usage/overage-faq.html
 /docs/analytics/admin/user-product-management/user-management.html,/docs/analytics/admin/admin-console/user-product-management/user-management.html
-/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/c-migration-tool.html
-/docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/t-migrate-users.html
 /docs/analytics/admin/user-product-management/migrate-users/migrate-enterprise.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/migrate-enterprise.html
 /docs/analytics/admin/user-product-management/migrate-users/t-disable-legacy-login.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/t-disable-legacy-login.html
 /docs/analytics/admin/user-product-management/migrate-users/developer.html,/docs/analytics/admin/admin-console/user-product-management/migrate-users/developer.html

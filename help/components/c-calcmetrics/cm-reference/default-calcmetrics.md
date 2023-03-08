@@ -14,7 +14,7 @@ Following is a list of each calculated metric that is provided by Adobe, with it
 >In addition to the default calculated metrics described on this page, you can also add additional calculated metrics to a report suite.  
 >
 >You can:
-> * Add default calculated metrics for Streaming Media, as described in [Calculated metrics](/https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) 
+> * Add default calculated metrics for Streaming Media, as described in [Calculated metrics](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) 
 > * Create custom calculated metrics from existing Metrics, as described in [Calculated and advanced calculated (derived) metrics](/help/components/c-calcmetrics/cm-overview.md).
 
 

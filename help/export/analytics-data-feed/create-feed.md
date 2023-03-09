@@ -30,7 +30,7 @@ When creating a data feed, you provide Adobe with:
    * **Name**: The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length.
    * **Report suite:** The report suite the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported.
    * **Email when complete**: The email address to be notified when a feed finishes processing. The email address must be properly formatted.
-   * **Feed interval**: Hourly feeds contain a single hour's worth of data. Daily feeds contain a full day's worth of data; they include data from midnight to midnight in the report suite's time zone.
+   * **Feed interval**: Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone.  Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data.
    * **Delay processing**: Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes.
    * **Start & end dates**: The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone.
    * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
@@ -143,9 +143,9 @@ Data feeds support Azure Blob destinations. Requires a container, account, and a
 All columns, regardless if they have data, are available. A data feed must include at least one column.
 
 * **Remove escaped characters**: When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files.
-* **Compression format**: The type of compression used. Gzip outputs files in `.tar.gz` format. Zip outputs files in `.zip` format.
-* **Packaging type**: Single file outputs the `hit_data.tsv` file in a single, potentially massive file. Multiple files paginates your data into 2GB chunks (uncompressed). If multiple files is selected and uncompressed data for the reporting window is less than 2GB, one file is sent. Adobe recommends using multiple files for most data feeds.
-* **Manifest**: Whether or not Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select Manifest File, you'll receive a manifest file similar to the following when no data is collected:
+* **Compression format**: The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format.
+* **Packaging type**: Select **Multiple files** for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If multiple files is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file.
+* **Manifest**: Whether or not Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you'll receive a manifest file similar to the following when no data is collected:
 
 ```text
    Datafeed-Manifest-Version: 1.0

@@ -9,7 +9,7 @@ Configure a Classification Set, upload data, or download data.
 
 >[!NOTE]
 >
->This feature is available to all customers on the Classifications Set architecture. Please contact Adobe Customer Care or your Adobe Account Team for more information.
+>This feature will be available to all customers who have their report suites migrated to the new Classifications architecture. Please contact Adobe Customer Care or your Account Manager for more information.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired Classification Set name
 

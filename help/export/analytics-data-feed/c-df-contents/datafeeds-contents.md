@@ -6,23 +6,9 @@ title: Data Feed contents - overview
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 ---
-# Data feed contents - overview
+# Data Feed contents - overview
 
-The following sections describe how to access and understand the files found in a data feed delivery.
-
-## Access data feed content
-
-To access the contents of a data feed:
-
-1. Log in to the data feed destination site.
-
-   This is the destination site that you set up when creating the data feed, such as an Amazon S3 or Google Cloud Platform bucket. 
-
-1. Download the compressed data feed file to your local machine.
-
-1. Unzip the compressed file using a program that supports `.tar.gz` file extensions.
-
-1. Open the `hit_data.tsv` file in your spreadsheet or database application of choice to see raw data for that day. -->
+This section describes the files found in a data feed delivery.
 
 ## Manifest file {#feed-manifest}
 

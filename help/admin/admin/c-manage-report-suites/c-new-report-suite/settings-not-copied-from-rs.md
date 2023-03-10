@@ -58,7 +58,7 @@ The following settings are not copied from template or duplicated report suites:
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA rules </p> </td> 
-   <td colname="col2"> <p>Contact your Adobe Account Team to get in touch with Engineering Services. </p> </td> 
+   <td colname="col2"> <p>Contact your Customer Success Manager to get in touch with Engineering Services. </p> </td> 
   </tr> 
  </tbody> 
 </table>

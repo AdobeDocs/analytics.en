@@ -18,7 +18,7 @@ Classification files uploaded with either a key value or classification value of
   
   *If [dimension] equals `0`, overwrite value of [dimension] with custom value `Zero`.*
 
-* **Request a VISTA rule**: An Engineering Services consultant sets up a server-side rule for you at an extra cost. Contact your Adobe Account Team to request a VISTA rule.
+* **Request a VISTA rule**: An Engineering Services consultant sets up a server-side rule for you at an extra cost. Contact your organization's Account Manager to request a VISTA rule.
 
 ## Can I use the classification importer to classify dimension items that don't yet exist?
 

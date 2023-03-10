@@ -15,23 +15,27 @@ If you have only a few minutes, watch this brief overview to see what is possibl
 
 ## Log in to Adobe Analytics {#login}
 
-To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](https://experience.adobe.com/analytics). You will land on the Workspace project list homepage, if a specific project has not previously been selected for you.
+To start using Analysis Workspace, log in to Adobe Analytics by going to [experience.adobe.com/analytics](https://experience.adobe.com/analytics). You will land on the Projects page, if a specific project has not previously been selected for you.
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## Use the Training tutorial {#training-tutorial}
 
-Once logged in, your first stop should be the Analysis Workspace Training Tutorial, which walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial, click **[!UICONTROL Create New Project]** and then select **Training Tutorial** within the new project modal.
+Once you are logged in, your first stop can be the Analysis Workspace Training Tutorial template. It walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial, 
+
+1. Click the **[!UICONTROL Learning]** tab on the left.
+1. Click **[!UICONTROL Open Tutorial]**.
 
 ![](assets/training-tutorial.png)
 
 ## Create a new project {#new-project}
 
-With the tutorial complete, you are ready to begin building your first project. The **new project modal** provides you with different options for starting your analysis. You can choose to start from a blank project or [blank mobile scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), depending on whether you plan to share your analysis from the browser or the Adobe Analytics dashboards mobile app.
+After completing the tutorial, you are ready to begin building your first project. On the [!UICONTROL Projects] tab, you can choose to start from
 
-![](assets/create-new-project.png)
+* [!UICONTROL Blank project] if you plan to share your analysis from the browser, or 
+* [[!UICONTROL Blank mobile scorecard]](/help/analyze/mobile-app/curator.md), if you plan to share your analysis from the Customer Journey Analytics dashboards mobile app.
 
-You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There are several different templates available, depending on the analysis or use case you have in mind. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) about the different template options available.
+You can also begin your analysis from pre-built **templates**, either Adobe-provided standard templates or custom templates that were created by your organization. There are several different templates available, depending on the analysis or use case you have in mind. You can now find them under the [!UICONTROL Reports] tab in the left rail.
 
 ## Build your analysis {#analysis}
 

@@ -6,7 +6,9 @@ exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 ---
 # Adobe plug-in: inList
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `inList` plug-in allows you to check if a value already exists within either a delimited string or a JavaScript array object. Several other plug-ins depend on the `inList` plug-in to work. This plug-in provides a distinct advantage over the JavaScript method `indexOf()` where you it does not match partial strings. For example, if you used this plug-in to check for `"event2"`, it won't match with a string containing `"event25"`. This plug-in is not necessary if you don't need to check for values in delimited strings or arrays, or if you want to use your own `indexOf()` logic.
 

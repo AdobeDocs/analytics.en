@@ -52,7 +52,7 @@ Use the Data Source template to create a Data Sources file that contains data th
 * To speed processing of your Data Sources file, Adobe recommends aggregating event (metric) data into a single row per date.
 
   For example, if your Data Sources file maps ad impression data to Event 6, create a single data row that includes the total number of ad impressions for each day, rather than creating a separate data row entry for each ad impression that occurred on a particular day.
-* If you need to upload data from dates prior your report suite's creation date, contact your Adobe Account Team to change the oldest date for which you can run reports.
+* If you need to upload data from dates prior your report suite's creation date, contact your Account Manager to change the oldest date for which you can run reports.
 
 **.FIN file**
 

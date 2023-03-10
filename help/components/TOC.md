@@ -195,6 +195,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
+    + [Default calculated metrics](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual report suite - component curation](vrs/vrs-components.md)

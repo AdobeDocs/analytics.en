@@ -6,7 +6,9 @@ exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 ---
 # Adobe plug-in: p_fo (Page First Only)
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
 
 The `p_fo` plug-in is a utility that checks for the existence of a specific JavaScript object. If the object doesn't exist, then the plug-in creates the object and returns `true`. If the JavaScript object already exists on the page, then it returns `false`. This plug-in is useful to run code exactly once on a page. Several other plug-ins rely on this code to work. This plug-in is unnecessary if you're not worried about how many times code runs on a page, or if you don't use any dependent plug-ins.
 

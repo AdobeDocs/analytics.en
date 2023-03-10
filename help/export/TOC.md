@@ -12,7 +12,7 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
 + [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
-  + [Create a data feed](analytics-data-feed/create-feed.md)
+  + [Create or edit a data feed](analytics-data-feed/create-feed.md)
   + [Manage data feeds](analytics-data-feed/df-manage-feeds.md)
   + [Manage data feed jobs](analytics-data-feed/df-manage-jobs.md)
   + Data Feed contents {#data-feed-contents}

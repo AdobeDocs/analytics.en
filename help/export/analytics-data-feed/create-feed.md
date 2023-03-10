@@ -16,31 +16,36 @@ When creating a data feed, you provide Adobe with:
 >
 >Before you create a data feed, it's important to have a basic understanding of data feeds and and that you meet all necessary prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
-## Create a data feed
+## Create and configure a data feed
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
-1. In the top navigation bar, navigate to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+1. In the top navigation bar, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 1. Select [!UICONTROL **Add**]. 
 
     ![Add data feed](assets/datafeed-add.png)
 
     A page displays with three main categories: [!UICONTROL **Feed information**], [!UICONTROL **Destination**], and [!UICONTROL **Data column definitions**].
 1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
-   * **Name**: The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length.
-   * **Report suite:** The report suite the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported.
-   * **Email when complete**: The email address to be notified when a feed finishes processing. The email address must be properly formatted.
-   * **Feed interval**: Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone.  Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data.
-   * **Delay processing**: Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes.
-   * **Start & end dates**: The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone.
-   * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
+   
+   | Field | Function | 
+   |---------|----------|
+   | [!UICONTROL **Name**] | The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length. | 
+   | [!UICONTROL **Report suite**] | The report suite the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported. |
+   | [!UICONTROL **Email when complete**] | The email address to be notified when a feed finishes processing. The email address must be properly formatted. |
+   | [!UICONTROL **Feed interval**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone.  Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. |
+   | [!UICONTROL **Delay processing**] | Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes. |
+   | [!UICONTROL **Start & end dates**] | The start date indicates the first date you want a data feed. Set this date in the past to immediately begin processing data feeds for historical data. Feeds continue processing until they reach the end date. The start and end dates are based on the report suite's time zone. |
+   | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
+   
 1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 
-   The following destination options are available when creating a data feed. Expand the destination type that you want to configure as your data feed destination. (Additional legacy destinations are also available, but are not recommended.)
+   Use any of the following destination types when creating a data feed. For configuration instructions, expand the destination type. (Additional [legacy destinations](#legacy-destinations) are also available, but are not recommended.)
 
    +++Amazon S3
+   
    You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
 
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
@@ -83,113 +88,53 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the location that you specified.
+   
    +++
 
    +++Azure RBAC
+
    You can send feeds directly to Amazon RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
-      
-      1. This is some text
+   
    +++
 
    +++Azure SAS
+
    You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
-      1. This is some text
+   
    +++
 
    +++Google Cloud Platform
-   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
 
+   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
    
-      1. this is some text
    +++
 
-
-
-
-   <!-- You can choose from the following destinations: (For information about how to configure each of these destinations, see the [Configure the destination](#destination-fields) section on this page.)
-   * Amazon S3
-   * Azure RBAC
-   * Azure SAS
-   * Google Cloud Platform
-   * Legacy destinations are also available, including FTP, SFTP, S3, and Azure Blob. However, these destinations are not recommended. -->
-
 1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the dropdown, then complete the following fields:
-   * [!UICONTROL **Compression format**]: Gzip
-   * [!UICONTROL **Packaging type**]: Multiple files
-   * [!UICONTROL **Manifest**]: No File
+   
+   |Field | Function | 
+   |---------|----------|
+   | [!UICONTROL **Remove escaped characters**] | When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files. |
+   | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. | 
+   | [!UICONTROL **Packaging type**] | Select **Multiple files** for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If multiple files is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file. |
+   | [!UICONTROL **Manifest**] | hether or not Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> | 
+   | [!UICONTROL **Column templates**] | When creating many data feeds, Adobe recommends creating a column template. Selecting a column template automatically includes the specified columns in the template. Adobe also provides several templates by default. |
+   | [!UICONTROL **Available columns**] | All available data columns in Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed. |
+   | [!UICONTROL **Included columns**] | The columns to include in a data feed. Click [!UICONTROL Remove all] to remove all columns from a data feed. |
+   | [!UICONTROL **Download CSV**] | Downloads a CSV file containing all included columns. |
+
 1. Select [!UICONTROL **Save**] in the top-right.
 
     Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
 
-## Configure the destination
+## Legacy destinations
 
-Various destination options are available when creating a data feed, including Amazon S3, Google Cloud Platform, Azure RBAC, and Azure SAS. Various legacy destinations are also available, but are not recommended.
+>[!IMPORTANT]
+>
+>The destinations described in this section are legacy, and are not recommended. Instead, use one of the following destinations when creating a data feed: Amazon S3, Google Cloud Platform, Azure RBAC, and Azure SAS. See [Create and configure a data feed](#create-and-configure-a-data-feed) for detailed information about each of these recommended destinations. 
 
-Use the following information to configure a data feed destination: 
 
-### Amazon S3
-
-You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
-
-Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
-
-To configure an Amazon S3 bucket as the destination for a data feed:
-
-1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
-
-1. In the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
-
-   ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
-
-1. Select [!UICONTROL **Select location**].
-
-   The Amazon S3 Export Locations page is displayed.
-
-1. (Conditional) If you previously added an Amazon S3 account and location:
-
-      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
-      
-      1. Select the location from the Select location drop-down menu.
-
-      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
-
-         The destination is now configured to send data to the location that you specified.
-
-1. (Conditional) If you have not previously added an Amazon S3 account:
-
-   1. Select [!UICONTROL **Add account**], then specify the following information:
-   
-      |Field | Function |
-      |---------|----------|
-      | [!UICONTROL **Account name**] | A name for the account.  | 
-      | [!UICONTROL **Account description**] | A description for the account. | 
-      | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
-      | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
-
-      {style="table-layout:auto"}
-
-   1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
-
-      The destination is now configured to send data to the location that you specified.
-
-### Google Cloud Platform
-
-You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
-
-Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
-
-### Azure RBAC
-
-You can send feeds directly to Amazon RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information.
-
-### Azure SAS
-
-You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
-
-### Legacy destinations
-
-The following legacy destinations are available but are not recommended:
+The following information provides configuration information for each of the legacy destinations:
 
 #### FTP
 
@@ -249,24 +194,3 @@ Data feeds support Azure Blob destinations. Requires a container, account, and a
 >[!NOTE]
 >
 >You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
-
-## Data column definitions
-
-All columns, regardless if they have data, are available. A data feed must include at least one column.
-
-* **Remove escaped characters**: When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files.
-* **Compression format**: The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format.
-* **Packaging type**: Select **Multiple files** for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If multiple files is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file.
-* **Manifest**: Whether or not Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you'll receive a manifest file similar to the following when no data is collected:
-
-```text
-   Datafeed-Manifest-Version: 1.0
-    Lookup-Files: 0
-    Data-Files: 0
-    Total-Records: 0
-```
-
-* **Column templates**: When creating many data feeds, Adobe recommends creating a column template. Selecting a column template automatically includes the specified columns in the template. Adobe also provides several templates by default.
-* **Available columns**: All available data columns in Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed.
-* **Included columns**: The columns to include in a data feed. Click [!UICONTROL Remove all] to remove all columns from a data feed.
-* **Download CSV**: Downloads a CSV file containing all included columns.

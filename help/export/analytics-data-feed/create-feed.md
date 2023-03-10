@@ -1,16 +1,16 @@
 ---
-title: Create or edit a data feed
-description: Learn how to create or edit a data feed.
+title: Create a data feed
+description: Learn how to create a data feed.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 ---
-# Create or edit a data feed
+# Create a data feed
 
-Creating a data feed allows Adobe to know where to send raw data files, and what you would like to include in each file. This page lists individual settings you can customize when creating a data feed.
+When creating a data feed, you provide Adobe with:
 
-Basic knowledge of data feeds is recommended before reading this page. See [Data feeds overview](data-feed-overview.md) to make sure that you meet the requirements to create a data feed.
+* The information about the destination where you want raw data files to be sent
 
-## Feed Information fields
+* The data you want to include in each file
 
 >[!NOTE]
 >
@@ -53,25 +53,49 @@ Basic knowledge of data feeds is recommended before reading this page. See [Data
 
 ## Destination fields
 
-The fields available under destination fields depends on the destination type.
+The fields available under destination fields depends on the destination type you select.
 
-### FTP
+### Amazon S3
 
-Data feed data can be delivered to an Adobe or customer hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
+You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account name and the locatoin (bucket) name. 
 
-![FTP info](assets/dest-ftp.jpg)
+Adobe Analytics uses cross-account authentication to upload files to the specified location in your Amazon S3 instance.
 
-### SFTP
+### Azure RBAC
+
+You can send feeds directly to Amazon RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information.
+
+### Azure SAS
+
+You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
+
+### Google Cloud Platform
+
+You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
+
+Adobe Analytics uses cross-account authentication to upload files to the specified location in your GCP instance.
+
+### Legacy destinations
+
+The following legacy destinations are available but are not recommended:
+
+#### FTP
+
+Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
+
+Use the following information when completing the available fields:
+* [!UICONTROL **Host**]: Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Path**]: Can be left blank
+* [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
+* [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
+
+#### SFTP
 
 SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
-![SFTP info](assets/dest-sftp.jpg)
-
-### S3
+#### S3
 
 You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
-
-![S3 info](assets/dest-s3.jpg)
 
 The user you provide for uploading data feeds must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
@@ -106,11 +130,9 @@ The following 16 standard AWS regions are supported (using the appropriate signa
 >
 >The cn-north-1 region is not supported.
 
-### Azure Blob
+#### Azure Blob
 
 Data feeds support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
-
-![Azure info](assets/azure.png)
 
 >[!NOTE]
 >

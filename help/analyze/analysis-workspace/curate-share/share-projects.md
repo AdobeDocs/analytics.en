@@ -133,9 +133,9 @@ To share a public link to an Analysis Workspace project:
 
    * **[!UICONTROL Require Experience Cloud authentication]:** 
    
-     When this option is enabled, only recipients who have a federated ID and can log in to Adobe Experience Cloud can access shared public links.Require people with the link to authenticate with their Adobe Experience Cloud login in order to gaining access to the shared project.
+     When this option is enabled, only users who can log in to the Adobe Experience Cloud organization where the project that you are sharing was created can use this link.
 
-     Analytics administrators can set this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). You might encounter the following scenarios, depending on how the administrator configured this option:
+     Analytics administrators can configure this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). You might encounter the following scenarios, depending on how the administrator configured this option:
      
      * If this option is not visible your Analytics administrator did not enable this feature. 
 

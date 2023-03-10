@@ -36,12 +36,83 @@ When creating a data feed, you provide Adobe with:
    * **Continuous feed**: This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay.
 1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
 
-   You can choose from the following destinations: (For information about each of these destinations and the options associated with each, see the [Destination fields](#destination-fields) section on this page.)
+   ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
+
+   The following destination options are available when creating a data feed. Expand the destination type that you want to configure as your data feed destination. (Additional legacy destinations are also available, but are not recommended.)
+
+   +++Amazon S3
+   You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
+
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
+
+   To configure an Amazon S3 bucket as the destination for a data feed:
+
+   1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
+
+   1. In the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
+
+      ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
+
+   1. Select [!UICONTROL **Select location**].
+
+      The Amazon S3 Export Locations page is displayed.
+
+   1. (Conditional) If you previously added an Amazon S3 account and location:
+
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      
+      1. Select the location from the Select location drop-down menu.
+
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the location that you specified.
+
+   1. (Conditional) If you have not previously added an Amazon S3 account:
+
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
+         |---------|----------|
+         | [!UICONTROL **Account name**] | A name for the account.  | 
+         | [!UICONTROL **Account description**] | A description for the account. | 
+         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
+         | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
+
+         {style="table-layout:auto"}
+
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the location that you specified.
+   +++
+
+   +++Azure RBAC
+   You can send feeds directly to Amazon RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
+      
+      1. This is some text
+   +++
+
+   +++Azure SAS
+   You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
+      1. This is some text
+   +++
+
+   +++Google Cloud Platform
+   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
+
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
+   
+      1. this is some text
+   +++
+
+
+
+
+   <!-- You can choose from the following destinations: (For information about how to configure each of these destinations, see the [Configure the destination](#destination-fields) section on this page.)
    * Amazon S3
    * Azure RBAC
    * Azure SAS
    * Google Cloud Platform
-   * Legacy destinations are also available but are not recommended: FTP, SFTP, S3, Azure Blob.
+   * Legacy destinations are also available, including FTP, SFTP, S3, and Azure Blob. However, these destinations are not recommended. -->
 
 1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the dropdown, then complete the following fields:
    * [!UICONTROL **Compression format**]: Gzip
@@ -51,15 +122,62 @@ When creating a data feed, you provide Adobe with:
 
     Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
 
-## Destination fields
+## Configure the destination
 
-The fields available under destination fields depends on the destination type you select.
+Various destination options are available when creating a data feed, including Amazon S3, Google Cloud Platform, Azure RBAC, and Azure SAS. Various legacy destinations are also available, but are not recommended.
+
+Use the following information to configure a data feed destination: 
 
 ### Amazon S3
 
-You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account name and the locatoin (bucket) name. 
+You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
 
-Adobe Analytics uses cross-account authentication to upload files to the specified location in your Amazon S3 instance.
+Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
+
+To configure an Amazon S3 bucket as the destination for a data feed:
+
+1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
+
+1. In the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
+
+   ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
+
+1. Select [!UICONTROL **Select location**].
+
+   The Amazon S3 Export Locations page is displayed.
+
+1. (Conditional) If you previously added an Amazon S3 account and location:
+
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      
+      1. Select the location from the Select location drop-down menu.
+
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the location that you specified.
+
+1. (Conditional) If you have not previously added an Amazon S3 account:
+
+   1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+      |Field | Function |
+      |---------|----------|
+      | [!UICONTROL **Account name**] | A name for the account.  | 
+      | [!UICONTROL **Account description**] | A description for the account. | 
+      | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
+      | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
+
+      {style="table-layout:auto"}
+
+   1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
+
+      The destination is now configured to send data to the location that you specified.
+
+### Google Cloud Platform
+
+You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
+
+Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
 
 ### Azure RBAC
 
@@ -68,12 +186,6 @@ You can send feeds directly to Amazon RBAC buckets. This destination type requir
 ### Azure SAS
 
 You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
-
-### Google Cloud Platform
-
-You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
-
-Adobe Analytics uses cross-account authentication to upload files to the specified location in your GCP instance.
 
 ### Legacy destinations
 

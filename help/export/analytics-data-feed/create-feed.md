@@ -92,6 +92,8 @@ When creating a data feed, you provide Adobe with:
          | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. | 
          | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
+         {style="table-layout:auto"}
+
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Amazon S3 location that you specified.
@@ -221,22 +223,21 @@ When creating a data feed, you provide Adobe with:
 
    +++Google Cloud Platform
 
-   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the locatoin (bucket) name. 
+   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the location (bucket) name. 
+   
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
 
-   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
+   To configure a Google Cloud Platform bucket as the destination for a data feed:
 
-   To configure an Amazon S3 bucket as the destination for a data feed:
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Google Cloud Platform**].
 
-   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
-
-      ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
+      ![Google Cloud Platform destination](assets/datafeed-destination-gcp.png)
 
    1. Select [!UICONTROL **Select location**].
 
       The Amazon S3 Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Amazon S3 account and location:
+   1. (Conditional) If you previously added a Google Cloud Platform account and location:
 
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
       
@@ -244,9 +245,9 @@ When creating a data feed, you provide Adobe with:
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Amazon S3 location that you specified.
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
 
-   1. (Conditional) If you have not previously added an Amazon S3 account:
+   1. (Conditional) If you have not previously added a Google Cloud Platform account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
    
@@ -254,8 +255,8 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. | 
          | [!UICONTROL **Account description**] | A description for the account. | 
-         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
-         | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
+         | [!UICONTROL **Project ID**] | content | 
+         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. | 
 
          {style="table-layout:auto"}
 
@@ -263,14 +264,17 @@ When creating a data feed, you provide Adobe with:
    
          |Field | Function |
          |---------|----------|
+         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. | 
          | [!UICONTROL **Name**] | A name for the account.  | 
          | [!UICONTROL **Description**] | A description for the account. | 
-         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Bucket**] | The bucket within your Google Cloud Platform account where you want Adobe Analytics data to be sent. | 
          | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
+
+         {style="table-layout:auto"}
 
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Amazon S3 location that you specified.
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
    
    +++
 

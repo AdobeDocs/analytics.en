@@ -50,7 +50,7 @@ When creating a data feed, you provide Adobe with:
 
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
 
-   To configure an Amazon S3 bucket as the destination for a data feed:
+   **Configure an Amazon S3 bucket as the destination for a data feed**
 
    1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
 
@@ -104,6 +104,8 @@ When creating a data feed, you provide Adobe with:
 
    You can send feeds directly to Azure RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
 
+   **Prerequisites**
+   
    When setting Azure RBAC as a destination for the Adobe Analytics data feed, you need to create an Azure application and then provide the application credentials to Adobe. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
 
    To configure an Azure RBAC bucket as the destination for a data feed:

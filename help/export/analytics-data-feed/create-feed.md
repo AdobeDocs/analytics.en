@@ -50,7 +50,7 @@ When creating a data feed, you provide Adobe with:
 
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
 
-   **Configure an Amazon S3 bucket as the destination for a data feed**
+   To configure an Amazon S3 bucket as the destination for a data feed:
 
    1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
 
@@ -104,13 +104,13 @@ When creating a data feed, you provide Adobe with:
 
    You can send feeds directly to Azure RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
 
-   **Prerequisites**
-   
-   When setting Azure RBAC as a destination for the Adobe Analytics data feed, you need to create an Azure application and then provide the application credentials to Adobe. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
-
    To configure an Azure RBAC bucket as the destination for a data feed:
 
-   1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
+   1. If you haven't already, create an Azure application where Adobe Analytics can send the raw data files, then grant access permissions in access control (IAM). 
+   
+      For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+   
+   1. Create a data feed as described in [Create a data feed](#create-a-data-feed).
 
    1. In the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure RBAC**].
 
@@ -165,6 +165,14 @@ When creating a data feed, you provide Adobe with:
    +++Azure SAS
 
    You can send feeds directly to Amazon SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. See the Azure documentation for [granting limited access to Azure Storage resources using shared access signatures (SAS)](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for more information.
+
+   **Prerequisites**
+   
+   Before you can set Azure SAS as a destination for the Adobe Analytics data feed, complete the following:
+   
+   1. Create an Azure application where Adobe Analytics can send the raw data files. For information about creating an Azure application, see the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+
+   1. 
    
    +++
 

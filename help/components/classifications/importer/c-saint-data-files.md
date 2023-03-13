@@ -98,7 +98,7 @@ Classification files support the following column headings:
 
 ### Key
 
-Each value must be unique across the entire system. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+Each value must be unique across the entire system. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code. 
 
 ### Classification column heading
 
@@ -106,7 +106,7 @@ For example, reports and analytics automatically include two classifications for
 
 >[!NOTE]
 >
->The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match.
+>The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match. "Key" is a reserved Classification (header) value. New Classifications named "Key" are not supported.
 
 Additionally, the data file supports the following additional heading conventions to identify sub-classifications and other specialized data columns:
 

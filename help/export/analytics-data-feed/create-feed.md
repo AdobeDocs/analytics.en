@@ -66,11 +66,11 @@ When creating a data feed, you provide Adobe with:
 
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
       
-      1. Select the location from the Select location drop-down menu.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the location that you specified.
+         The destination is now configured to send data to the Amazon S3 location that you specified.
 
    1. (Conditional) If you have not previously added an Amazon S3 account:
 
@@ -78,22 +78,85 @@ When creating a data feed, you provide Adobe with:
    
          |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Account name**] | A name for the account.  | 
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. | 
          | [!UICONTROL **Account description**] | A description for the account. | 
          | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
          | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
 
          {style="table-layout:auto"}
 
+         1. Select [!UICONTROL **Add location**], then specify the following information:
+   
+         |Field | Function |
+         |---------|----------|
+         | [!UICONTROL **Name**] | A name for the account.  | 
+         | [!UICONTROL **Description**] | A description for the account. | 
+         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ |
+
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the location that you specified.
+         The destination is now configured to send data to the Amazon S3 location that you specified.
    
    +++
 
    +++Azure RBAC
 
-   You can send feeds directly to Amazon RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
+   You can send feeds directly to Azure RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
+
+   When setting Azure RBAC as a destination for the Adobe Analytics data feed, you need to create an Azure application and then provide the application credentials to Adobe. See the tutorial for [granting a user access to Azure resources using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) within the Azure documentation for more information. 
+
+   To configure an Azure RBAC bucket as the destination for a data feed:
+
+   1. Begin creating a data feed as described in [Create a data feed](#create-a-data-feed).
+
+   1. In the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure RBAC**].
+
+      ![Azure RBAC destination](assets/datafeed-destination-azurerbac.png)
+
+   1. Select [!UICONTROL **Select location**].
+
+      The Azure RBAC Export Locations page is displayed.
+
+   1. (Conditional) If you previously added an Azure RBAC account and location:
+
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the Azure RBAC location that you specified.
+
+   1. (Conditional) If you have not previously added an Azure RBAC account:
+
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
+         |---------|----------|
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose.  | 
+         | [!UICONTROL **Account description**] | A description for the account.  | 
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+
+         {style="table-layout:auto"}
+
+      1. Select [!UICONTROL **Add location**], then specify the following information: 
+   
+         |Field | Function |
+         |---------|----------|
+         | [!UICONTROL **Name**] | A name for the account. This can be any name you choose. | 
+         | [!UICONTROL **Description**] | A description for the account. | 
+         | [!UICONTROL **Account**] | <!-- What should this say? --> | 
+         | [!UICONTROL **Container**] | The container within the account you specified where Adobe Analytics data is sent. | 
+         | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ |
+
+         {style="table-layout:auto"}
+
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the Azure RBAC location that you specified.
    
    +++
 
@@ -126,6 +189,8 @@ When creating a data feed, you provide Adobe with:
 1. Select [!UICONTROL **Save**] in the top-right.
 
     Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
+
+    For information about how to access the data feed and to get a better understanding of its contents, see [Data feed contents - overview](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
 
 ## Legacy destinations
 

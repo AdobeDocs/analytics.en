@@ -166,7 +166,7 @@ When creating a data feed, you provide Adobe with:
 
    To configure an Azure SAS bucket as the destination for a data feed:
 
-   1. If you haven't already, create an Azure application where Adobe Analytics can send the raw data files. 
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication. 
    
       For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
    
@@ -196,11 +196,11 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Account name**] | A name for the Azure SAS account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
          | [!UICONTROL **Account destription**] | A description for the Azure SAS account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
-         | [!UICONTROL **Application ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
-         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key vault URI**] | The path to the SAS token in Azure Key Vault.  To configure Azure SAS, you need to store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). | 
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS token in Azure Key Vault.  To configure Azure SAS, you need to store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created, add an access policy on the Key Vault in order to grant permission to the Azure application that you created. For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 
          | [!UICONTROL **Key vault secret name**] | The secret name you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **Secret**] | Copy the secret value from the SAS token in Azure Key Vault. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For information about how to retrieve a secret key, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -227,7 +227,7 @@ When creating a data feed, you provide Adobe with:
    
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
 
-   To configure a Google Cloud Platform bucket as the destination for a data feed:
+   To configure a GCP bucket as the destination for a data feed:
 
    1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Google Cloud Platform**].
 
@@ -235,9 +235,9 @@ When creating a data feed, you provide Adobe with:
 
    1. Select [!UICONTROL **Select location**].
 
-      The Amazon S3 Export Locations page is displayed.
+      The GCP Export Locations page is displayed.
 
-   1. (Conditional) If you previously added a Google Cloud Platform account and location:
+   1. (Conditional) If you previously added a GCP account and location:
 
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
       
@@ -245,9 +245,9 @@ When creating a data feed, you provide Adobe with:
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+         The destination is now configured to send data to the GCP location that you specified.
 
-   1. (Conditional) If you have not previously added a Google Cloud Platform account:
+   1. (Conditional) If you have not previously added a GCP account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
    
@@ -255,8 +255,8 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. | 
          | [!UICONTROL **Account description**] | A description for the account. | 
-         | [!UICONTROL **Project ID**] | content | 
-         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. | 
+         | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects).  | 
+         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to this principal in order to receive feeds. See the [Google Cloud documentation about adding a principal to a policy](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). | 
 
          {style="table-layout:auto"}
 
@@ -267,14 +267,14 @@ When creating a data feed, you provide Adobe with:
          | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. | 
          | [!UICONTROL **Name**] | A name for the account.  | 
          | [!UICONTROL **Description**] | A description for the account. | 
-         | [!UICONTROL **Bucket**] | The bucket within your Google Cloud Platform account where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. | 
          | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+         The destination is now configured to send data to the GCP location that you specified.
    
    +++
 

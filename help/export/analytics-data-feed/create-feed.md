@@ -89,7 +89,7 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Name**] | A name for the account.  | 
          | [!UICONTROL **Description**] | A description for the account. | 
-         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. Ensure that the User ARN that was provided by Adobe has access to upload files to this bucket. | 
          | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -102,11 +102,11 @@ When creating a data feed, you provide Adobe with:
 
    +++Azure RBAC
 
-   You can send feeds directly to Azure RBAC buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
+   You can send feeds directly to an Azure container using RBAC authentication. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
 
    To configure an Azure RBAC bucket as the destination for a data feed:
 
-   1. If you haven't already, create an Azure application where Adobe Analytics can send the raw data files, then grant access permissions in access control (IAM). 
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication, then grant access permissions in access control (IAM). 
    
       For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
    
@@ -136,9 +136,9 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Account name**] | A name for the Azure RBAC account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
          | [!UICONTROL **Account description**] | A description for the Azure RBAC account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose.  | 
-         | [!UICONTROL **Application ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
-         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
-         | [!UICONTROL **Secret**] | Copy the secret from the Azure RBAC application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -148,8 +148,8 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Name**] | A name for the location. This name displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. | 
          | [!UICONTROL **Description**] | A description for the location. This description displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. | 
-         | [!UICONTROL **Account**] | <!-- What should this say? --> | 
-         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Account**] | The Azure storage account. | 
+         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
          | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -162,7 +162,7 @@ When creating a data feed, you provide Adobe with:
 
    +++Azure SAS
 
-   You can send feeds directly to Azure SAS buckets. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. 
+   You can send feeds directly to an Azure container using SAS authentication. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. 
 
    To configure an Azure SAS bucket as the destination for a data feed:
 

@@ -139,7 +139,7 @@ To share an Analysis Workspace project with people who don't have access to Adob
      
      * If this option is not visible, your Analytics administrator did not enable this feature. 
 
-     * If this option is enabled and dimmed, your Analytics administrator requires Experience Cloud authentication for anyone accessing Analysis Workspace project. 
+     * If this option is enabled and dimmed, your Analytics administrator requires Experience Cloud authentication for anyone accessing Analysis Workspace projects. 
 
 1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon ![Copy link icon](assets/copy-link-icon.png) to copy the link to your system clipboard. 
 

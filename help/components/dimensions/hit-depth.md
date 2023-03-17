@@ -1,8 +1,9 @@
 ---
 title: Hit depth
 description: The number of hits into the visit.
+feature: Dimensions
+exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 ---
-
 # Hit depth
 
 The 'Hit depth' dimension reports how far into a visit a given hit is. This dimension is valuable in understanding how far into a visit that visitors perform actions on your site. Hit depth counts all types of hits, including page views ([`t()`](/help/implement/vars/functions/t-method.md))and link tracking hits ([`tl()`](/help/implement/vars/functions/tl-method.md)).

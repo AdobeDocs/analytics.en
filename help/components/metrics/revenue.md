@@ -1,8 +1,9 @@
 ---
 title: Revenue
 description: The monetary amount of products purchased within all orders.
+feature: Metrics
+exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
 ---
-
 # Revenue
 
 The 'Revenue' metric shows the monetary amount of products purchased within all orders. This metric is vital for eCommerce sites in measuring conversion. You can combine this metric with any dimension to see what which dimension items contributed to revenue. For example, you could see the top campaigns (using the [Tracking code](../dimensions/tracking-code.md) dimension) or top internal search terms (using an [eVar](../dimensions/evar.md)).

@@ -1,11 +1,9 @@
 ---
 description: Steps that describe how to delete or remove classification data.
-subtopic: Classifications
 title: Delete classification data
-topic: Admin tools
-uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
+feature: Classifications
+exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 ---
-
 # Delete classification data
 
 Sometimes it is necessary to remove classification data after it is uploaded. Use either `~empty~` or `~deletekey~`, depending on what you want to remove.

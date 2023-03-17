@@ -1,10 +1,11 @@
 ---
 description: Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
 title: Customizable overlays
-topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
+feature: Activity Map
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
 ---
-
 # Customizable overlays
 
 Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
@@ -56,4 +57,3 @@ Bubble overlays are shown when you select this overlay in the Overlay Type in th
 This real-time overlay ranks clicks based on changes in the metric value between the previous and current periods.
 
 ![](assets/gainers_losers.png)
-

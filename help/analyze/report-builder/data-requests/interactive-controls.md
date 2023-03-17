@@ -1,10 +1,10 @@
 ---
 description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
 title: Interactive controls
-topic: Report builder
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: User, Admin
+exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 ---
-
 # Interactive controls
 
 Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
@@ -21,7 +21,7 @@ Interactive controls were created in response to a common workflow where analyst
 >* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Do not tamper with the name of the control. (To see the name, set the focus on the control and the control name appears right above the Excel grid, in the upper left corner.)
 
@@ -71,4 +71,3 @@ Implementing the interactive segment control is similar to implementing the date
 1. The new interactive control will now appear in the workbook:
 
    ![](assets/segment_interactive_3.png)
-

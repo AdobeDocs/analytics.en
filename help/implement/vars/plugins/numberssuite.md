@@ -1,8 +1,9 @@
 ---
 title: Numbers Suite
 description: Produce and manipulate numbers for use in other JavaScript variables.
+feature: Variables
+exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 ---
-
 # Adobe plug-in: Numbers Suite
 
 >[!IMPORTANT]
@@ -15,12 +16,12 @@ The Numbers Suite a series of JavaScript functions. It includes the following pl
 * **`randomNumber`**: Generate a random number with a specific number of digits. This plug-in is useful if you deploy 3rd-party tags and want a cache-busting random number.
 * **`twoDecimals`**: Round a number to the closet hundredth. This plug-in is useful for currency purposes, allowing you to round a number to a valid currency value.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -29,15 +30,15 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize Numbers Suite
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
@@ -61,24 +62,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Use the plug-ins
 
-The `zeroPad` method uses the following arguments:
+The `zeroPad` function uses the following arguments:
 
-* **num** (required, integer): The number to pad. The method rounds down the value of this argument if it contains decimals.
+* **num** (required, integer): The number to pad. The function rounds down the value of this argument if it contains decimals.
 * **nod** (required, integer): The number of digits in the final return value. If the number to pad has less digits than the number of digits to pad to, then the plug-in adds zeroes to the beginning of the `num` argument.
 
-The `randomNumber` method uses the following arguments:
+The `randomNumber` function uses the following arguments:
 
 * **nod** (optional, integer): The number of digits in the random number that you want to generate. The maximum value is 17 digits. The default value is 10 digits.
 
-The `twoDecimals` method uses the following arguments:
+The `twoDecimals` function uses the following arguments:
 
 * **val** (required, number): A number (represented by either a string or number object) that you want to round to the nearest hundredth.
 
 ## Returns
 
-* The **zeroPad** method returns a string equal to the `num` argument but with a specific number of zeroes added to the beginning of its value, which ensures that the return value has the correct number of digits.
-* The **randomNumber** method returns a string equal to a random number with the desired number of digits.
-* The **twoDecimals** method returns a number object rounded to the closest hundredth.
+* The **zeroPad** function returns a string equal to the `num` argument but with a specific number of zeroes added to the beginning of its value, which ensures that the return value has the correct number of digits.
+* The **randomNumber** function returns a string equal to a random number with the desired number of digits.
+* The **twoDecimals** function returns a number object rounded to the closest hundredth.
 
 ## Example Calls
 

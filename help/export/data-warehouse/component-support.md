@@ -1,8 +1,9 @@
 ---
 title: Component support in Data Warehouse
 description: Learn what additional dimensions and metrics are available in Data Warehouse and what is not supported.
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 ---
-
 # Component support in Data Warehouse
 
 Data Warehouse's unique processing architecture allows some components that aren't typically available in other capabilities of Adobe Analytics. Due to its unique architecture, some components are not available for use in either reports or segments. Use this page to understand what can be used, and what cannot.

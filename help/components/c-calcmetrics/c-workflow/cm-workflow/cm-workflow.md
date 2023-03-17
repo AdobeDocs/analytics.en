@@ -1,9 +1,9 @@
 ---
 description: Learn about the steps to take for creating calculated metrics.
 title: Calculated metrics workflow
-uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
+feature: Calculated Metrics
+exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 ---
-
 # Calculated metrics workflow
 
 Learn about the steps to take for creating calculated metrics.

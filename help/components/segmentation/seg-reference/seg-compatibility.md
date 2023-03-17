@@ -1,10 +1,9 @@
 ---
 description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
 title: Data Warehouse Segment Compatibility
-topic: Segments
-uuid: 370258c5-8614-4434-871c-41753ed77f5c
+feature: Segmentation
+exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 ---
-
 # Data Warehouse Segment Compatibility
 
 Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
@@ -13,7 +12,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -40,7 +39,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics and Ad Hoc Analysis: 
+   <td>Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Entry Server </li> 
      <li>Entry Category </li> 
@@ -94,4 +93,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
-*Note: Data Warehouse does not support all cases of using an `exclusion` or `without` container when using `AND/OR`. When using such a combination, only those segments that can be re-written as `A AND NOT B`, (or **include this characteristic** and **exclude this characteristic**) are supported in Data Warehouse.* 
+*Note: Data Warehouse does not support all cases of using an `exclusion` or `without` container when using `AND/OR`. When using such a combination, only those segments that can be re-written as `A AND NOT B`, (or **include this characteristic** and **exclude this characteristic**) are supported in Data Warehouse.*

@@ -1,8 +1,9 @@
 ---
 title: Data collection query parameters
 description: Lists all query string parameters used in image requests.
+feature: Validation
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 ---
-
 # Data collection query parameters
 
 The following table lists all query string parameters Adobe uses in image requests. This information can be used when debugging using [Packet analyzers](packet-monitor.md), when [hardcoding image requests](../other/hardcoded.md), or when using [Dynamic Variables](../vars/page-vars/dynamic-variables.md).
@@ -34,11 +35,13 @@ The following table lists all query string parameters Adobe uses in image reques
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) |  URLs longer than 255 bytes are split. The first 255 bytes appear in the `g` parameter, and all remaining bytes appear in the `-g` parameter. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Shorthand for the `pageName` query string. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Shorthand for the `pageType` query string. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefix for several variables that represent [Client hints](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Hierarchy dimensions. |
 | `hp` | None | No longer used. In previous versions of Adobe Analytics, determined if the current URL was the browser's homepage. |
 | `j` | None | The JavaScript version installed in the browser. |
 | `k` | None | Used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension. |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | List variables. |
+| `lrt` | None | The "last request timing," which is the roundtrip time for the last request, in milliseconds. It is sent only when more than one request is going out from a page or when the page is a single-page application (SPA). |
 | `mid` | None | Experience Cloud visitor ID. |
 | `ndh` | None | Flag indicating if the image request originated from AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Helps determine where cookies are set. |
@@ -47,10 +50,10 @@ The following table lists all query string parameters Adobe uses in image reques
 | `p` | None | No longer used. List of plug-ins used in the browser. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Used in the [Page](/help/components/dimensions/page.md) dimension. |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Used in the [Pages not found](/help/components/dimensions/pages-not-found.md) dimension. |
-| `pccr` | None | Only set for new visitors and always set to `true`. Helps prevent infinite redirects. |
-| `pe` | [`linkType`](../vars/config-vars/linktype.md) | Determines the type of custom link. Required for [Custom links](/help/components/dimensions/custom-link.md), [Download links](/help/components/dimensions/download-link.md), and [Exit links](/help/components/dimensions/exit-link.md). |
+| `pccr` | None | Only set for new visitors and always set to `true`. Helps prevent infinite redirects if a visitor rejects cookies. |
+| `pe` | [`tl()`](../vars/functions/tl-method.md) | Determines the type of custom link. Required for [Custom links](/help/components/dimensions/custom-link.md), [Download links](/help/components/dimensions/download-link.md), and [Exit links](/help/components/dimensions/exit-link.md). |
 | `pev1` | None | The URL the custom link occurred on.|
-| `pev2` | [`linkName`](../vars/config-vars/linkname.md) | Custom link friendly name. |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Custom link friendly name. |
 | `pev3` | None | No longer used. Tracked milestones in previous versions of video reporting. |
 | `pf` | None | Platform flag; for Adobe use only. Do not alter. |
 | `pid` | None | Page identifier for last page. Used in previous versions of Activity Map. |
@@ -69,7 +72,8 @@ The following table lists all query string parameters Adobe uses in image reques
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [Tracking Code](/help/components/dimensions/tracking-code.md) dimension. |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md), or custom conversion dimensions. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Visitor ID variable. |
-| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third-party to first-party cookies. |
+| `vidn` | None | Set by AppMeasurement for new visitors. Contains the ID value stored in the visitor cookie. |
+| `vmk` | `vmk` | No longer used. Visitor migration key, which helped migrate implementations from third party to first-party cookies. |
 | `vvp` | `variableProvider` | Used in Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Used with Data Sources to tie online and offline data together. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Used in the [Zip code](/help/components/dimensions/zip-code.md) dimension. |

@@ -1,9 +1,11 @@
 ---
-description: null
+description: Use the map visualization in a Workspace project.
 title: Map
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
+feature: Visualizations
+role: User, Admin
+exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 ---
-
 # Map
 
 ## Overview {#section_19F740FAF08D47B1AF1EF239A74FC75C}
@@ -16,6 +18,10 @@ The Map Visualization in Analysis Workspace
 * Supports PDF export.
 * Leverages WebGL for graphics display. If your graphics drivers do not support WebGL rendering, you may need to update your drivers.
 
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
@@ -25,18 +31,10 @@ The Map Visualization in Analysis Workspace
 1. Drag in a metric from the list of metrics (including calculated metrics).
 1. Specify the data source you want to draw from. (This dialog appears only if you have location tracking enabled for mobile app data.) 
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Mobile Lat/Long</b> </p> </td> 
-   <td colname="col2"> <p>This option represents mobile app data. </p> <p>You will see this option only if you have enabled it for your report suite in <span class="ignoretag"> <span class="uicontrol"> Analytics </span>  &gt; <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> &lt;select report suite&gt; </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Mobile Management </span>  &gt; <span class="uicontrol"> Enable Location Tracking </span> </span>. </p> <p>This is the default setting (if location tracking is enabled). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Geographic Dimension </b> </p> </td> 
-   <td colname="col2"> <p>This option represents geo segmentation data about visitor location based on the visitor's IP address. This data gets transformed into Country, Region, and City. Note that it does not go to the DMA or Zip Code level. </p> <p>Almost all report suites have this dimension enabled. If yours does not, contact Adobe Customer Care to have geographic reports enabled. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Setting | Description |
+| --- | --- |
+| [!UICONTROL Mobile Lat/Long] | This option represents mobile app data. You see this option only if you have enabled it for your report suite in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (select report suite) > [!UICONTROL Edit Settings] >  [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. This is the default setting (if location tracking is enabled). |
+| [!UICONTROL Geographic Dimension] | This option represents geo segmentation data about visitor location based on the visitor's IP address. This data gets transformed into [!UICONTROL Country], [!UICONTROL Region], and [!UICONTROL City]. Note that it does not go to the DMA or Zip Code level. Almost all report suites have this dimension enabled. If yours does not, contact Adobe Customer Care to have geographic reports enabled. |
 
 1. Click **[!UICONTROL Build]**.
 
@@ -81,3 +79,9 @@ Clicking the **gear icon** reveals these visualization settings:
 |Styles: Map Style|You can choose among Basic, Streets, Bright, Light, Dark, and Satellite.|
 |Cluster Radius|Groups data points together that are within the specified number of pixels. Default is 50.|
 |Custom Max Value|Lets you alter the threshold for the max value for the map - adjusting this value adjusts the scale for the bubbles/heatmap values (color and size) relative to the custom max value set.|
+
+## Build a time-parting heatmap
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

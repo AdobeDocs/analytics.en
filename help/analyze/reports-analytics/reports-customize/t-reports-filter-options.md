@@ -1,17 +1,20 @@
 ---
 description: Filters allow you to narrow the report to include or exclude line items that match a filter.
 title: Filtering Report Data
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 ---
-
 # Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+
+{{ra-eol}}
 
 Filters allow you to narrow the report to include or exclude line items that match a filter.
 
 ## Simple Filter {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](assets/filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 The simple filter appears on most reports to let you quickly find specific line items. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. You can find line items that contain multiple terms using a space.
 
@@ -47,7 +50,7 @@ Matches if the term is found anywhere in the line item. This operates the same a
 
 **Does not contain**
 
-Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) from reports using "does not contain".
+Matches if the term is not found anywhere in the line item. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) from reports using "does not contain".
 
 Does not contain: `none`
 
@@ -132,7 +135,7 @@ Advanced let you perform wildcard and other complex searches.
 
 ## Create report-specific filters {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Steps that describe how to create filters for reports.
+You can create filters for reports.
 
 <!-- 
 
@@ -144,7 +147,7 @@ Certain reports contain a filter that is specific to that report. For example, a
 
 When you access these filters, you can see report metrics for the items specified in the list.
 
-**To create report-specific filters** 
+To create report-specific filters: 
 
 1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
 1. In the report header, click the **[!UICONTROL Filter]** link.
@@ -153,8 +156,6 @@ When you access these filters, you can see report metrics for the items specifie
 1. Click **[!UICONTROL OK]**.
 
 ## Add a correlation filter {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Steps that describe how to add a correlation filter.
 
 <!-- 
 
@@ -166,7 +167,7 @@ Certain reports let you add custom correlation filters. For example, if you are 
 
 You can filter the data shown in a correlation report using any available correlation. The example here shows how you add a search engine correlation filter.
 
-**To add a correlation filter** 
+To add a correlation filter: 
 
 1. Run a report that supports correlations. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.

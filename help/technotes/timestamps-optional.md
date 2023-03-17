@@ -2,13 +2,17 @@
 description: Learn about the benefits and constraints of using Timestamps Optional setting.
 keywords: Analytics Implementation
 title: Using Timestamps Optional
-topic: Developer and implementation
-uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+topic-fix: Developer and implementation
+feature: Implementation Basics
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 ---
-
 # Using Timestamps Optional
 
 Learn about the benefits and constraints of using Timestamps Optional setting.
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 Timestamps Optional is the default setting for all new report suites.
 
@@ -20,7 +24,7 @@ Timestamps Optional is the default setting for all new report suites.
 >
 >Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
-See [Timestamps Optional](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
+See [Timestamps Optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
 
 ## Timestamps Optional: Integrating Timestamped and Non-timestamped Data {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -28,7 +32,6 @@ Using the Timestamps Optional feature, you can combine non-timestamped data with
 
 * **Timestamp data**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
 * **Non-timestamp data**. Adobe sets a timestamp on non-timestamped data in a report suite when the data hits the collection servers.
-
 
 A report suite can have one of the following timestamp settings:
 
@@ -62,7 +65,7 @@ The following are best practices and a few requirements and restrictions to be a
 
   Out-of-order data can include late arriving data from offline data collection and late arriving hits, or out-of-sync clocks on offline mobile devices. Out-of-order data can negatively impact time calculations (such as time spent values), attribution (eVar persistence), visit number/visit counts, and pathing reports.
 
-* Using timestamps when setting a [s.visitorID](https://docs.adobe.com/content/help/en/analytics/technotes/visitor-identification.html) is not recommended. It can lead to out-of-order data.
+* Using timestamps when setting a [s.visitorID](/help/implement/vars/config-vars/visitorid.md) is not recommended. It can lead to out-of-order data.
 
 * Hybrid apps composed of an app (timestamped, offline data) opening a web browser (non-timestamped, live data) should not use timestamps. It results in inaccurate reporting of the session.
 

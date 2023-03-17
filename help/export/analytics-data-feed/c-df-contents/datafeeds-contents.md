@@ -3,15 +3,14 @@ description: This section describes the files found in a data feed delivery.
 keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 subtopic: data feeds
 title: Data Feed contents - overview
-topic: Reports and analytics
-uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
+feature: Data Feeds
+exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 ---
-
 # Data Feed contents - overview
 
 This section describes the files found in a data feed delivery.
 
-## Manifest file
+## Manifest file {#feed-manifest}
 
 The manifest file contains the following details about each file that is part of the uploaded data set:
 
@@ -109,7 +108,7 @@ When extracted, each data file contains a single `hit_data.tsv` that contains ap
 
 After data is collected for an hour, you receive a single compressed data file and a manifest file. The data file is named:
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 When extracted, the data file contains a single `hit_data.tsv` file with all data for that hour, as well as lookup files for any required columns.
 
@@ -117,7 +116,7 @@ When extracted, the data file contains a single `hit_data.tsv` file with all dat
 
 After data is collected for an hour, you receive one or more compressed data files and a manifest file. The data file is named:
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 When extracted, each data file contains a single `hit_data.tsv` that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
 

@@ -1,9 +1,9 @@
 ---
 description: Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value.
 title: Sort by Metric
-uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
+feature: Data Warehouse
+exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
 ---
-
 # Sort by Metric
 
 Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value.
@@ -31,4 +31,3 @@ Please reference the "Report layout" column in this table to determine how "Metr
 |  Yes  | Yes  | No  | Yes  | Yes  | 3  |
 |  Yes  | Yes  | Yes  | Yes or No  | Yes  | 3  |
 |  Yes  | Yes  | Yes  | Yes  | No  | 4  |
-

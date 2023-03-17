@@ -1,42 +1,59 @@
 ---
 title: tl
 description: Send a link tracking call to Adobe.
+feature: Variables
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 ---
-
 # tl
 
 The `tl()` method is an important core component to Adobe Analytics. It takes all Analytics variables defined on the page, compiles them into an image request, and sends that data to Adobe data collection servers. It works similarly to the [`t()`](t-method.md) method, however this method does not increment page views. It is useful for tracking links and other elements that wouldn't be considered a full page load.
 
 If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExternalLinks`](../config-vars/trackexternallinks.md) are enabled, AppMeasurement automatically calls the `tl()` method to send download link and exit link tracking data. If your organization prefers to have more control over the links to track and their behavior, you can call the `tl()` method manually. Custom links can only be manually tracked.
 
-## Link tracking call in Adobe Experience Platform Launch
+## Link tracking using the Web SDK
 
-Launch has a dedicated location set a link tracking call.
+The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given XDM event as a link tracking call, make sure that your XDM data includes or is mapped to `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Click the desired property.
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the '+' icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-1. Click the `s.tl()` radio button.
-
-You cannot set any optional arguments in Launch.
-
-## s.tl() method in AppMeasurement and Launch custom code editor
-
-Call the `s.tl()` method when you want to send a tracking call to Adobe.
+* Link name maps to `web.webInteraction.name`.
+* Link URL maps to `web.webInteraction.URL`.
+* Link type maps to `web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
 
 ```js
-s.tl();
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
 ```
 
-Optionally, this method accepts several arguments:
+## Link tracking using the Adobe Analytics extension
+
+The Adobe Analytics extension has a dedicated location to set a link tracking call.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+1. Under [!UICONTROL Actions], click the desired action or click the **'+'** icon to add an action.
+1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
+1. Click the `s.tl()` radio button.
+
+You cannot set any optional arguments in the Analytics extension.
+
+## s.tl() method in AppMeasurement and the Analytics extension custom code editor
+
+Call the `s.tl()` method when you want to send a tracking call to Adobe.
 
 ```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Link object
+### Link object (required)
 
 The link object argument determines if the browser waits up to 500ms before navigating away from the page. If an image request is sent sooner than 500ms, the page immediately navigates to the clicked link.
 
@@ -48,37 +65,42 @@ The link object argument determines if the browser waits up to 500ms before navi
 * `true`: Do not wait.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Link type
+### Link type (required)
 
-The link type argument is a single-letter string that determines the type of link tracking call. It is the same as setting the [`linkType`](../config-vars/linktype.md) variable.
+The link type argument is a single-character string that determines the type of link tracking call. There are three valid values.
+
+* `o`: The link is a [Custom link](/help/components/dimensions/custom-link.md).
+* `d`: The link is a [Download link](/help/components/dimensions/download-link.md).
+* `e`: The link is an [Exit link](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Link name
+### Link name (recommended)
 
-The link name argument is a string that determines the link tracking dimension item. It is the same as setting the [`linkName`](../config-vars/linkname.md) variable.
+The link name argument is a string that determines the link tracking dimension item. When using the [Custom link](/help/components/dimensions/custom-link.md), [Download link](/help/components/dimensions/download-link.md), or [Exit link](/help/components/dimensions/exit-link.md) dimensions in reporting, this string contains the dimension item. If this argument is not set, the [linkURL](../config-vars/linkurl.md) variable is used.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Variable overrides
+### Variable overrides (optional)
 
 Lets you change variable values for a single call. See [variable overrides](../../js/overrides.md) for more information.
 
@@ -101,14 +123,6 @@ Use JavaScript to make a basic link tracking call using method arguments:
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Use JavaScript to make the same basic link tracking call using separate variables:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Make link tracking calls within a custom function

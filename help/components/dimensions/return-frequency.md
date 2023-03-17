@@ -1,11 +1,12 @@
 ---
 title: Return frequency
 description: The bucketed amount of time between the current visit and previous visit.
+feature: Dimensions
+exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 ---
-
 # Return frequency
 
-The 'Return frequncy' dimension shows the length of time that passes between visits from returning visitors. When a visitor returns to your site, Adobe looks at how long ago the previous visit was, and buckets the hit in the appropriate dimension item. This dimension is valuable to help gauge your website's appeal and relevance to visitors over time. It can also help identify the impact of your site's content and promotions on your visitors.
+The 'Return frequency' dimension shows the length of time that passes between visits from returning visitors. When a visitor returns to your site, Adobe looks at how long ago the previous visit was, and buckets the hit in the appropriate dimension item. This dimension is valuable to help gauge your website's appeal and relevance to visitors over time. It can also help identify the impact of your site's content and promotions on your visitors.
 
 >[!TIP]
 >

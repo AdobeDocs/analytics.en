@@ -1,9 +1,9 @@
 ---
 description: Access these functions by checking Show Advanced in the Functions drop-down list.
 title: Reference  advanced functions
-uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+feature: Calculated Metrics
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 ---
-
 # Reference: advanced functions
 
 Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
@@ -63,7 +63,7 @@ This is how the "Approximate Customers" metric could be used in reporting:
 
 ### Uniques Exceeded {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Like Count() and RowCount(), Approximate Count Distinct() is subject to ["uniques exceeded" limits](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). If the "uniques exceeded" limit is reached within a particular month for a dimension, the value is counted as 1 dimension item.
+Like Count() and RowCount(), Approximate Count Distinct() is subject to ["uniques exceeded" limits](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). If the "uniques exceeded" limit is reached within a particular month for a dimension, the value is counted as 1 dimension item.
 
 ### Comparing Count Functions {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -720,4 +720,3 @@ Returns the probability that the current row could be seen by chance in the colu
 >[!NOTE]
 >
 >Assumes that the values are normally distributed.
-

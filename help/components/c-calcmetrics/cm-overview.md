@@ -2,9 +2,9 @@
 description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Calculated and Advanced Calculated (Derived) Metrics
-uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+feature: Calculated Metrics
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-
 # Calculated and Advanced Calculated (Derived) Metrics
 
 Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
@@ -32,16 +32,17 @@ Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capab
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
-* Create segmented metrics that are derived at report run time, [without having to change the implementation](https://youtu.be/CuQTm9RaUpY). These can be viewed historically because they are based on segments.
-* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
-* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session.
-* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments. Here is a video on implementation-less metrics:
 
-  >[!NOTE]
-  >
-  >You can continue to create metrics in Ad Hoc Analysis. Its calculated metric builder user interface is now similar to the new metric builder.
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
+* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
+* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. Here is a video on this topic:
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+
+* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
 ## Limitations {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -104,4 +105,3 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
  </tbody> 
 </table>
-

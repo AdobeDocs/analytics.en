@@ -1,9 +1,9 @@
 ---
 description: Functions let you filter/sort your data and do statistical analysis.
 title: Use functions
-uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
+feature: Calculated Metrics
+exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
 ---
-
 # Use functions
 
 Functions let you filter/sort your data and do statistical analysis.

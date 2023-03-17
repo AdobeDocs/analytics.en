@@ -1,15 +1,16 @@
 ---
 title: Referrer type
 description: The type of referrer, depending on where the visitor came from.
+feature: Dimensions
+exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 ---
-
 # Referrer type
 
 The 'Referrer type' dimension reports which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
 ## Dimension items
 
@@ -28,14 +29,14 @@ The following list references the 'Social networks' lookup table that Adobe uses
 
 >[!NOTE]
 >
->This list is different than the default list of social networks in [Marketing channel processing rules](../c-marketing-channels/c-rules.md).
+>This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
-* `t.163.com`
 * `4travel.jp`
 * `advogato.org`
 * `ameba.jp`
 * `anobii.com`
+* `answers.yahoo.com`
 * `asmallworld.net`
 * `avforums.com`
 * `backtype.com`
@@ -45,6 +46,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `bigtent.com`
 * `biip.no`
 * `blackplanet.com`
+* `blog.seesaa.jp`
 * `blogspot.com`
 * `blogster.com`
 * `blomotion.jp`
@@ -59,7 +61,6 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `cyworld.co.kr`
 * `cyworld.com.cn`
 * `dailymotion.com`
-* `yozm.daum.net`
 * `delicious.com`
 * `deviantart.com`
 * `digg.com`
@@ -86,21 +87,20 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `grono.net`
 * `habbo.com`
 * `hatena.ne.jp`
-* `t.hexun.com`
-* `hi5.com`
+* `hi5.com` 
+* `hotnews.infoseek.co.jp`
 * `hyves.nl`
 * `ibibo.com`
 * `identi.ca`
 * `t.ifeng.com`
 * `imeem.com`
-* `hotnews.infoseek.co.jp`
 * `instagram.com`
 * `intensedebate.com`
 * `irc-galleria.net`
 * `iwiw.hu`
 * `jaiku.com`
+* `jp.myspace.com`
 * `kaixin001.com`
-* `kaixin002.com`
 * `kakaku.com`
 * `kanshin.com`
 * `kozocom.com`
@@ -108,12 +108,13 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `linkedin.com`
 * `livejournal.com`
 * `lnkd.in`
-* `me2day.net`
 * `meetup.com`
+* `me2day.net`
 * `mister-wong.com`
 * `mixi.jp`
 * `mixx.com`
 * `mouthshut.com`
+* `mp.weixin.qq.com`
 * `multiply.com`
 * `mumsnet.com`
 * `myheritage.com`
@@ -132,32 +133,34 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `ok.ru`
 * `orkut.com`
 * `pakila.jp`
-* `t.people.com.cn`
 * `photobucket.com`
-* `pinterest.com (and all international domains)`
+* `pinterest.com`
+* `pinterest.co.uk`
 * `plaxo.com`
 * `plurk.com`
 * `po.st`
-* `t.qq.com`
-* `mp.weixin.qq.com`
-* `boards.qwant.com`
 * `reddit.com`
 * `renren.com`
-* `blog.seesaa.jp`
-* `t.sina.com.cn`
 * `skyrock.com`
 * `slideshare.net`
 * `smcb.jp`
 * `smugmug.com`
-* `t.sohu.com`
+* `snapchat.com`
 * `sonico.com`
 * `studivz.net`
 * `stumbleupon.com`
+* `t.163.com`
 * `t.co`
+* `t.hexun.com`
+* `t.people.com.cn`
+* `t.qq.com`
+* `t.sina.com.cn`
+* `t.sohu.com`
 * `tabelog.com`
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
 * `trombi.com`
@@ -177,13 +180,13 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `wordpress.com`
 * `xanga.com`
 * `xing.com`
-* `answers.yahoo.com`
 * `yammer.com`
 * `yaplog.jp`
 * `yelp.com`
 * `yelp.co.uk`
 * `youku.com`
 * `youtube.com`
+* `yozm.daum.net`
 * `yuku.com`
 * `zooomr.com`
 * `zhihu.com`

@@ -1,9 +1,9 @@
 ---
 description: Within the Calculated Metric Manager, you can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
 title: Approve calculated metrics
-uuid: df51252c-3121-4030-8a8c-566d557f28b2
+feature: Calculated Metrics
+exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
 ---
-
 # Approve calculated metrics
 
 Within the Calculated Metric Manager, you can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
@@ -18,4 +18,3 @@ Here is how to flag a calculated metric as approved:
 
 1. You can also click **[!UICONTROL Unapprove]** to take this metric off the list of approved ones.
 1. And you can filter on approved metrics by clicking **[!UICONTROL Show Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Approved]**.
-

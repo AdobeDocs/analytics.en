@@ -1,8 +1,9 @@
 ---
 title: getQueryParam
 description: Extract the value of a URL's query string parameter.
+feature: Variables
+exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 ---
-
 # Adobe plug-in: getQueryParam
 
 >[!IMPORTANT]
@@ -11,14 +12,14 @@ description: Extract the value of a URL's query string parameter.
 
 The `getQueryParam` plug-in allows you to extract the value of any query string parameter contained in a URL. It is useful for extracting campaign codes, both internal and external, from landing page URLs. It is also valuable when extracting search terms or other query string parameters.
 
-This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features in Launch or the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) method included in AppMeasurement.
+This plug-in provides robust features in parsing complex URLs, including hashes and URLs containing multiple query string parameters. If you only have simple query string parameter needs, Adobe recommends using the URL parameter features using the Web SDK or the Adobe Analytics extension or the [`Util.getQueryParam()`](../functions/util-getqueryparam.md) method included in AppMeasurement.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -27,159 +28,91 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getQueryParam
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getQueryParam v3.3 (Requires pt plug-in) */
-s.getQueryParam=function(qsp,de,url){var g=this,e="",k=function(b,de){de=de.split("?").join("&");de=de.split("#").join("&");var d=de.indexOf("&"),url="";b&&(-1<d||de.indexOf("=")>d)&&(d=de.substring(d+1),url=g.pt(d,"&","gpval",b));return url};qsp=qsp.split(",");var l=qsp.length;g.gpval=function(de,b){if(de){var d=de.split("="),url=d[0];d=d[1]?d[1]:!0;if(b.toLowerCase() ==url.toLowerCase())return"boolean"===typeof d?d:this.unescape(d)}return""};de=de?de:"";url=(url?url:g.pageURL?g.pageURL: location.href)+"";if((4<de.length||-1<de.indexOf("="))&&url&&4>url.length){var b=de;de=url;url=b}for(var h=0;h<l;h++)b=k(qsp[h],url) ,"string"===typeof b?(b=-1<b.indexOf("#")?b.substring(0,b.indexOf("#")):b,e+=e?de+b:b):e=""===e?b:e+(de+b);return e};
-
-/* Adobe Consulting Plugin: pt v2.01 */ 
-s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: getQueryParam v4.0.1  */
+function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split("#").join("&");var e=c.indexOf("&");if(g&&(-1<e||c.indexOf("=")>e)){e=c.substring(e+1);e=e.split("&");for(var h=0,p=e.length;h<p;h++){var l=e[h].split("="),q=l[1];if(l[0].toLowerCase()===g.toLowerCase())return decodeURIComponent(q||!0)}}return""}if("-v"===a)return{plugin:"getQueryParam",version:"4.0.1"};var b=function(){if("undefined"!==typeof window.s_c_il)for(var g=0,c;g<window.s_c_il.length;g++)if(c=window.s_c_il[g],c._c&&"s_c"===c._c)return c}();"undefined"!==typeof b&&(b.contextData.getQueryParam="4.0");if(a){d=d||"";f=(f||"undefined"!==typeof b&&b.pageURL||location.href)+"";(4<d.length||-1<d.indexOf("="))&&f&&4>f.length&&(b=d,d=f,f=b);b="";for(var m=a.split(","),r=m.length,k=0;k<r;k++)a=n(m[k],f),"string"===typeof a?(a=-1<a.indexOf("#")?a.substring(0,a.indexOf("#")):a,b+=b?d+a:a):b=""===b?a:b+(d+a);return b}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## Use the plug-in
 
-The `getQueryParam` method uses the following arguments:
+The `getQueryParam` function uses the following arguments:
 
 * **`qsp`** (required): A comma delimited list of query string parameters to look for within the URL. It is not case-sensitive.
 * **`de`** (optional): The delimiter to use if multiple query string parameters match. Defaults to an empty string.
 * **`url`** (optional): A custom URL, string, or variable to extract the query string parameter values from. Defaults to `window.location`.
 
-Calling this method returns a value depending on the above arguments and the URL:
+Calling this function returns a value depending on the above arguments and the URL:
 
-* If a matching query string parameter is not found, the method returns an empty string.
-* If a matching query string parameter is found, the method returns the query string parameter value.
-* If a matching query string parameter is found but the value is empty, the method returns `true`.
-* If multiple matching query string parameters are found, the method returns a string with each parameter value delimited by the string in the `de` argument.
+* If a matching query string parameter is not found, the function returns an empty string.
+* If a matching query string parameter is found, the function returns the query string parameter value.
+* If a matching query string parameter is found but the value is empty, the function returns `true`.
+* If multiple matching query string parameters are found, the function returns a string with each parameter value delimited by the string in the `de` argument.
 
-## Example Calls
-
-### Example #1
-
-If the current URL is the following:
+## Examples
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-The following code will set s.campaign equal to "trackingcode1":
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Example #2
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "trackingcode1:123456":
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Example #3
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "trackingcode1123456":
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Example #4
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-The following code will set s.campaign equal to "123456":
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Example #5
-
-If the current URL is the following:
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-The following code will set s.campaign equal to "123456"
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Note:** The plug-in replaces the URL to Check's hash character with a question mark if a question mark does not exist.  If the URL contains a question mark that comes before the hash character, the plug-in will replace the URL to Check's hash character with an ampersand;
-
-### Example #6
-
-If the current URL is the following...
-
-```js
-http://www.abc123.com/
-```
-
-...and if the variable s.testURL is set as follows:
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-The following code will not set s.campaign at all:
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-However, the following code will set s.campaign equal to "trackingcode1":
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Note:** the third parameter can be any string/variable that the code will use to try to find the query string parameters in
-
-The following code will set s.eVar2 equal to "123456|trackingcode1|true|300":
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* The value of 123456 comes from the ecid parameter in the s.testURL variable
-* The value of trackingcode1 comes from the cid parameter in the s.testURL variable
-* The value of true comes from the existence (but non-value) of the location parameter after the hash character in the s.testURL variable
-
-The value of 300 comes from the value of the pos parameter in the s.testURL variable
 
 ## Version History
+
+### 4.0.1 (March 26, 2021)
+
+* Updated issue where undefined was being returned instead of "" if the query param was not present in the query string.
+
+### 4.0 (March 19, 2021)
+
+* Added version number as context data.
+* Removed dependencies on pt plugin.
 
 ### 3.3 (September 24, 2019)
 

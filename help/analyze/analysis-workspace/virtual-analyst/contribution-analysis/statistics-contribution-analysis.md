@@ -1,9 +1,9 @@
 ---
 description: Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 title: Statistical techniques used in Contribution Analysis
-uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
+role: User, Admin
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 ---
-
 # Statistical techniques used in Contribution Analysis
 
 Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
@@ -18,7 +18,7 @@ Contribution Analysis accomplishes this by performing a two-part algorithm to ev
 
    ![](assets/cramers-v.png)
 
-1. For each dimension item, Person's Residual (PR) is used to measure the association between the anomalous metric and each dimension item. PR follows a standard normal distribution, which allows the algorithm to compare the PRs of two random variables even if the deviations are not comparable. In practice, the error is not known and is estimated using finite sample correction.
+1. For each dimension item, Pearson's Residual (PR) is used to measure the association between the anomalous metric and each dimension item. PR follows a standard normal distribution, which allows the algorithm to compare the PRs of two random variables even if the deviations are not comparable. In practice, the error is not known and is estimated using finite sample correction.
 
    In the previous example Table 1, the PR, with finite sample correction for country i and time period 2 is given by
 
@@ -31,4 +31,3 @@ Contribution Analysis accomplishes this by performing a two-part algorithm to ev
    (A similar formula can be obtained for time period 1.)
 
    For final results, the score for each dimension item is then weighted by the Cramer's V measure and rescaled to a number between 0 and 1 to provide its contribution score.
-

@@ -1,8 +1,9 @@
 ---
 title: Mobile dimensions
-description: Dimensions based on the user-agent string of the device.
+description: Dimensions based on the IP address of the device.
+feature: Dimensions
+exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 ---
-
 # Mobile dimensions
 
 *This page references properties of mobile devices accessing your website. If you want to track devices on a mobile app, see [Implement Analytics for mobile devices](/help/implement/mobile-device-sdk.md) in the Implement user guide.*
@@ -11,7 +12,8 @@ Mobile dimensions provide insight around the properties of mobile devices that v
 
 ## Populate these dimensions with data
 
-These dimensions reference lookup rules internal to Adobe. The lookup value is based on the `User-Agent` HTTP header sent with the hit. Adobe partners with [DeviceAtlas](https://deviceatlas.com/) to maintain lookups between user agent and mobile dimensions. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), all mobile dimensions work out of the box.
+These dimensions reference lookup rules that are internal to Adobe. [!UICONTROL Mobile Carrier] lookups are determined by IP address, using data we get from NetAcuity (a Digital Elements product). 
+If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), all mobile dimensions work out of the box.
 
 ## Mobile dimension descriptions
 
@@ -20,10 +22,10 @@ These dimensions reference lookup rules internal to Adobe. The lookup value is b
 >Dimension items labeled `"None"` are non-mobile devices. If you want a report that only includes mobile devices, drag the 'Mobile device' dimension into the segment area of the Workspace canvas.
 
 * **Mobile audio support**: Determines file formats that the device can play. Example values include `"MP3"`, `"AAC"`, and `"MIDI Monophonic"`. Values in this dimension are not mutually exclusive; a single hit can attribute to multiple dimension items.
-* **Mobile carrier**: If the user agent contains a carrier-specific device, the carrier is a dimension item. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.
+* **Mobile carrier**: Values for this dimension are populated by looking up 3rd-party (Digital Elements) data based on the IP addresses that Analytics captured. Example values include `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`, and `"Verizon"`.
 * **Mobile color depth**: The color depth of the mobile device, in bits.
 * **Mobile cookie support**: Determines if the mobile device supports cookies. This report does not state if the browser accepts cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
-* **Mobile device**: The mobile device that the visitor uses.
+* **Mobile device**: The mobile device that the visitor uses. **Note**: Digital Elements publishes updates periodically to recognize new/updated devices.
 * **Mobile device number**: Determines if the mobile device transmits its number. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
 * **Mobile device type**: The type of mobile device. Example values include `"Mobile phone"`, `"Tablet"`, `"Media player"`, and `"Gaming console"`.
 * **Mobile DRM**: The type of DRM the mobile device supports. Example values include `"DRM OMA forward"`, `"DRM OMA combined delivery"`, and `"DRM OMA separate delivery"`.

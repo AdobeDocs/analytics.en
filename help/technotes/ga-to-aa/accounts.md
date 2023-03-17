@@ -1,3 +1,9 @@
+---
+title: Accounts and report suites
+description: Learn to use a login company and a report suite to keep data silos organized in Adobe Analytics.
+feature: Third-party Integration
+exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
+---
 # Accounts and report suites
 
 In Adobe Analytics, there are two levels to keep data silos organized:

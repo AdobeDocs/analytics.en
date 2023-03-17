@@ -1,8 +1,9 @@
 ---
 title: Troubleshoot logging in to Adobe Analytics
 description: Steps to take when you cannot log in to Adobe Analytics.
+feature: Analytics Basics
+exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 ---
-
 # Troubleshoot logging in to Adobe Analytics
 
 Adobe Analytics uses multiple authentication methods to log in:
@@ -38,7 +39,7 @@ If clearing the browser's cookies/cache does not resolve the issue, work with an
 >The following steps to reset a user's password only applies to legacy Analytics ID's, not Adobe ID's. If your organization uses Adobe ID's, you can manage user accounts at [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Log in to Adobe Analytics with an account that has administrative rights.
-2. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+2. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]**.
 3. Click the **[!UICONTROL Users]** tab then click **[!UICONTROL Edit]** next to the desired user.
 4. Change the password to any value, and check the box **[!UICONTROL Require user to change password on next login]**.
 5. Inform the user of the new password.

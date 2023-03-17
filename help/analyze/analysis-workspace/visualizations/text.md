@@ -2,22 +2,28 @@
 description: Lets you add user-defined text to your Workspace.
 title: Text
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
+feature: Visualizations
+role: User, Admin
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 ---
-
 # Text
 
-Lets you add user-defined text to your Workspace.
+You can add user-defined text to your Workspace project by using a text visualizations or panel/visualization descriptions (right-click header > **[!UICONTROL Edit description]**). You can also change the formatting of your text, add hyperlinks, and add images.
 
-You can change the font settings (bold, italics, etc.) and add hyperlinks within text box visualizations & panel/visualization descriptions.
+## Adjust formatting {#format}
 
-## Change font settings {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+When editing your text box or description, you can adjust the font size (heading levels), color, styling (bold, italics, underline) and alignment of selected text. You can also add bullet and numbered lists.
 
-![](assets/rich-text1.png)
+![](assets/format.png)
 
-After dragging a Text visualization into a panel and adding text, you can format the text by adding heading levels, changing the text bold/italic/underline, changing text color, etc.
+## Add hyperlinks {#hyperlinks}
 
-## Add hyperlinks {#section_D55B857188A74A06B49006DF3511DC7C}
+To add a hyperlink, highlight the text and click the hyperlink icon in the menu. Hyperlinks can link to external websites, documentation pages, [Workspace projects/panels/visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html), and more to further assist your project recipients.
 
-![](assets/rich-text2.png)
+![](assets/hyperlink.png)
 
-Highlight text and click the hyperlink icon in the formatting menu to add hyperlinks.
+## Add images {#images}
+
+To add an image to your project, click the image icon in the menu and insert a public image URL. The image URL must be publicly accessible, begin with `https`, and be of format `.png`, `.jpeg`, `.jpg`, or `.gif`. Static and animated images are supported.
+
+![](assets/image.png)

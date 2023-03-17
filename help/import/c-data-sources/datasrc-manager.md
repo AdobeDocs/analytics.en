@@ -2,15 +2,15 @@
 description: Create, manage, and view the use of data sources in a report suite.
 subtopic: Data sources
 title: Data Sources Manager
-topic: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
 ---
-
 # Data Sources Manager
 
 Create, manage, and view the use of data sources in a report suite.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ## Create Tab {#section_74603FDA3D8842E49F1A51624A06DE20}
 

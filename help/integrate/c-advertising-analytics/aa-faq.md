@@ -1,9 +1,9 @@
 ---
-description: null
-title: Frequently Asked Questions
-uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
+description: Frequently asked questions around Advertising Analytics.
+title: Frequently Asked Questions for advertising analytics
+feature: Advertising Analytics
+exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 ---
-
 # Frequently Asked Questions
 
 ## Access/Entitlements {#section_5F558C5981F747F0AF375A9E4B75C93C}
@@ -150,4 +150,3 @@ uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
   </tr> 
  </tbody> 
 </table>
-

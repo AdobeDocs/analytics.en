@@ -3,13 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 breadcrumb-title: Export Guide
-user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
-breadcrumb-url: /docs/analytics/export/home.html
+user-guide-description: Learn about using Data Feeds to export of raw data, and Data Warehouse to retrieve a spreadsheet output of data. Learn how to use FTP and SFTP to transfer files.
 ---
 
-# Analytics Export Guide {#export}
+# Adobe Analytics Export Guide {#export}
 
-+ [Analytics Export home](home.md)
++ [Analytics Export Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
   + [Create or edit a data feed](analytics-data-feed/create-feed.md)
@@ -21,12 +21,12 @@ breadcrumb-url: /docs/analytics/export/home.html
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
     + [Page event lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
     + [Mobile attributes lookup](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+    + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md)
   + [Data feed best practices](analytics-data-feed/data-feeds-best-practices.md)
-  + [Troubleshoot data feeds](analytics-data-feed/feed-troubleshooting.md)
-  + [Troubleshoot jobs](analytics-data-feed/jobs-troubleshooting.md)
+  + [Troubleshoot Data feeds](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
@@ -37,7 +37,6 @@ breadcrumb-url: /docs/analytics/export/home.html
   + [Schedule a recurring request](data-warehouse/dw-schedule-recurring.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
-  + [Dimensions incompatible with Data Warehouse segments](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
   + [Data Warehouse FAQ](data-warehouse/faq.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
@@ -48,7 +47,6 @@ breadcrumb-url: /docs/analytics/export/home.html
     + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
     + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
     + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-    + [Ad Hoc Analysis delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
     + [Data Warehouse delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
     + [Report Builder delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
     + [Engineering Services engagements with FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
@@ -59,11 +57,12 @@ breadcrumb-url: /docs/analytics/export/home.html
   + [Use passive FTP mode](ftp-and-sftp/ftp-passive.md)
   + [FTP processing times](ftp-and-sftp/ftp-processing.md)
   + Secure File Transfer Protocol {#secure-file-transfer-protocol}
+    + [SFTP services upgrade - FAQ](ftp-and-sftp/c-sftp/sftp-upgrade.md)
     + [Secure File Transfer Protocol - overview](ftp-and-sftp/c-sftp/ftp-sftp.md)
     + [Connect to an Adobe FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
     + [Send Adobe data to an external FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
     + [Send Data Warehouse requests to SFTP servers](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
     + [Connect to Adobe via SFTP without a password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace downloads](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace downloads](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)

@@ -1,8 +1,9 @@
 ---
 title: Transitioning from a third-party analytics platform to Adobe Analytics
 description: Learn key concepts to obtain reports, geared towards users familiar with other platforms, such as Google Analytics.
+feature: Third-party Integration
+exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 ---
-
 # Transitioning from a third-party analytics platform to Adobe Analytics
 
 This guide presents common report types that help you to learn core concepts and workflows in Adobe Analytics, focusing on key similarities and differences between Adobe and other popular tools. This guide is designed for analysts who are familiar with basic digital analytics concepts, but new to Adobe Analytics. It assumes that the organization has a working implementation that sends data to Adobe data collection servers. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md).

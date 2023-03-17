@@ -1,10 +1,10 @@
 ---
 description: Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
-title: Supported real-time metrics and dimensions
-topic: Reports
-uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
+title: Supported real-time metrics and dimensions overview
+topic-fix: Reports
+feature: Real-time
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 ---
-
 # Supported real-time metrics and dimensions
 
 Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
@@ -40,4 +40,3 @@ Lists metrics and dimensions supported by Real-Time reports. Classifications are
 * File Download 
 * Exit Link 
 * Custom Insight variables (props) 1-75 (if enabled in the report suite)
-

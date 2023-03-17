@@ -1,10 +1,11 @@
 ---
 description: You can refresh requests for all sheets or for multiple requests.
 title: Refresh requests for all sheets
-topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
+feature: Report Builder
+role: User, Admin
+exl-id: 650c1626-be2d-4e4c-bcd9-bd9665ef9550
 ---
-
 # Refresh requests for all sheets
 
 You can refresh requests for all sheets or for multiple requests.

@@ -1,32 +1,40 @@
 ---
-title: currencyCode
-desciption: For eCommerce sites, set the currency the page deals in.
+title: What is the currencyCode variable, and how do I use it?
+description: For eCommerce sites, sets the currency the page deals in.
+feature: Variables
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 ---
-
 # currencyCode
 
-For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure revenue attributes to the correct currency.
+For sites using commerce, revenue and currency is an important part of Analytics. Many sites, especially those that span multiple countries, use different currencies. Use the `currencyCode` variable to make sure that revenue attributes to the correct currency.
 
-If `currencyCode` is not defined, monetary values defined the [`products`](../page-vars/products.md) variable and currency events are treated as if they are the same as the report suite's currency. See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide to see the report suite's currency.
+Currency conversion uses the following logic on each hit. These steps apply to revenue values set the [`products`](../page-vars/products.md) variable and all events listed as 'Currency' in [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) under Report suite settings.
 
-If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
+* If `currencyCode` is not defined, Adobe assumes that all currency values are the report suite's currency. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in Report suite settings to see the report suite's currency.
+* If `currencyCode` is defined and matches the report suite's currency, no currency conversion is applied.
+* If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in the report suite are in the report suite's currency.
+* If `currencyCode` is set to an invalid value, **the entire hit is discarded causing data loss.** Make sure that this variable is correctly defined whenever used.
 
-If `currencyCode` is defined and is different than the report suite's currency, Adobe applies a currency conversion based on the current day's exchange rate. Adobe partners with [XE](https://xe.com) to convert currency each day. All values stored in data collection servers are ultimately stored in the report suite's currency.
+This variable does not persist across hits. Make sure that this variable is defined on every page that involves revenue or currency events that don't match the report suite's default currency.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->If `currencyCode` contains an invalid value, the entire hit is discarded causing data loss. Make sure that this variable is correctly defined if you use it in your implementation.
+>While currency codes can change between pages, all currency metrics on a single hit must use the same currency.
 
-This variable does not persist between hits. Make sure that this variable is defined on every page that involves revenue or currency events.
+A period **must** be used as the currency separator for all currencies when implementing this variable. For example, Swedish Krona, which typically displays a comma separator, must be modified to use a period in the `products` variable and all currency events. Adobe displays the correct currency separator in reporting.
 
-## Currency Code in Adobe Experience Platform Launch
+## Currency code using the Web SDK
+
+Currency code is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.currencyCode`.
+
+## Currency Code using the Adobe Analytics extension
 
 Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
+1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Currency Code] field.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
@@ -35,14 +43,14 @@ You can use either a preset currency code or a custom currency code. If using a 
 Currency Code is passed to the Adobe Experience Platform Mobile SDKs through context data variables in the Adobe Analytics extension.
 
 1. Set the currency code in a context data variable during either `trackState` or `trackAction`.
-2. Create a processing rule in the Adobe Analytics admin console for the report suite. Set the rule to overwrite the Currency Code variable.
-3. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
+1. Create a processing rule in Adobe Analytics Admin Tools for the report suite. Set the rule to overwrite the Currency Code variable.
+1. Pass the currency code to the `products` variable in your call to `trackState` or `trackAction`.
 
 You can use either a preset currency code or a custom currency code. If using a custom currency code, make sure that the code is valid.
 
-## s.currencyCode in AppMeasurement and Launch custom code editor
+## s.currencyCode in AppMeasurement and the Analytics extension custom code editor
 
-The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page.
+The `s.currencyCode` variable is a string, containing a 3-letter uppercase code representing the currency on the page. Values are case-sensitive.
 
 ```js
 s.currencyCode = "USD";
@@ -50,7 +58,7 @@ s.currencyCode = "USD";
 
 The following currency codes are valid:
 
-| Currency Code | Currency Description|
+| Currency Code | Label |
 | --- | --- |
 | `AED` | United Arab Emirates Dirhams |
 | `AFA` | Afghanistan Afghanis |

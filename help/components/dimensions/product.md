@@ -1,8 +1,9 @@
 ---
 title: Product
 description: The name of the product.
+feature: Dimensions
+exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 ---
-
 # Product
 
 The 'Product' dimension reports the name of the product in the hit. It is useful for implementations that use the `products` variable and want to see metrics around products, such as top sellers or most viewed. This dimension can intentionally be blank if you don't have any products on your site.

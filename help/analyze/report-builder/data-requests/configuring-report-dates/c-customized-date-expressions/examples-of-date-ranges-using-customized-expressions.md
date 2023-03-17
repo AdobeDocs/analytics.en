@@ -1,10 +1,11 @@
 ---
 description: Examples, notes, and syntax notes about using date ranges in customized expressions.
 title: Examples of date ranges using customized expressions
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 ---
-
 # Examples of date ranges using customized expressions
 
 Examples, notes, and syntax notes about using date ranges in customized expressions.
@@ -43,4 +44,3 @@ Customized expressions covering most date ranges can be created by linking two t
 * Do not prepend the abbreviation with only a zero. For example, 0w is not allowed.
 * The following operators are used to concatenate abbreviations: + - 
 * Because date ranges must be reckoned relative to the current period, the first term in an expression always begins with c.
-

@@ -1,13 +1,14 @@
 ---
 title: dynamicAccountMatch
 description: The dynamicAccountMatch variable determines what value to look at in dynamic accounts.
+feature: Implementation Basics
+exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
 ---
-
 # dynamicAccountMatch
 
 >[!IMPORTANT]
 >
->Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or tags in Adobe Experience Platform.
 
 The `dynamicAccountMatch` variable is the value that `dynamicAccountList` looks at and compares its values. If `dynamicAccountSelection` is not set to `true`, this variable is ignored.
 

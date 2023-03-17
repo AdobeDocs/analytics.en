@@ -1,8 +1,8 @@
 ---
 title: Compare dates impacted by an event to previous ranges
 description: Learn about the impact of an event, such as an implementation issue or outage, by comparing it to previous trends.
+exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 ---
-
 # Compare dates impacted by an event to previous ranges
 
 If you have data [impacted by an event](overview.md), you can look at historical trends to gauge its impact. This comparison is valuable to understand just how much an event impacts your data, so you can decide whether to exclude the data, add a note to reports, or ignore it.

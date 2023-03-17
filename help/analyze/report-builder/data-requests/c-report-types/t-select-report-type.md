@@ -1,10 +1,10 @@
 ---
 description: Steps to select the base report type for your data request.
 title: Select a report type
-topic: Report builder
-uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
+feature: Report Builder
+role: User, Admin
+exl-id: c515eae5-93da-460b-8c72-7ddf3d7c5dfe
 ---
-
 # Select a report type
 
 Steps to select the base report type for your data request.

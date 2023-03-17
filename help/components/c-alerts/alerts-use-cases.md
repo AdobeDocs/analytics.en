@@ -1,9 +1,9 @@
 ---
-description: null
+description: Use cases for creating and managing intelligent alerts.
 title: Intelligent alerts - use cases
-uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+feature: Alerts
+exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 ---
-
 # Intelligent alerts - use cases
 
 ## Create simple alert filtered by two segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
@@ -31,4 +31,3 @@ This instantly pre-populates the Alert Builder to create an alert with the corre
 Stacking alerts ensures that alerts get combined and you don't get a number of separate alerts.
 
 ![](assets/alerts_example2.png)
-

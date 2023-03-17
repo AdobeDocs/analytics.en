@@ -1,14 +1,14 @@
 ---
 description: Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 title: Logs
-topic: Admin tools
+feature: Admin Tools
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 ---
-
 # Logs
 
 Log files to help you see when users log in, their usage, access, report suites, and Admin changes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Logs]**
 
 ## Admin Log {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -61,11 +61,6 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 | Date Range | A date range was created/edited. |
 | Virtual Report Suite | A virtual report suite was created/edited. |
 | Contribution Analysis | A contribution analysis job was run. |
-| Excel Data Block Request | |
-| Excel Login Failure | |
-| Excel Login Success | |
-| Mobile Login Failure | | 
-| Mobile Login Success | |
 | Api Method | An API call was made. |
 
 
@@ -87,4 +82,3 @@ Tools that can modify a report suite from outside the [!UICONTROL Admin Tools] i
 |  IP  | Filter the log by an IP address.  |
 |  Event  | Filter the log by a word or phrase in the event description.  |
 |  Download Report  | Exports the contents of the [!UICONTROL Usage & Access Log] to a tab-delimited file.  |
-

@@ -1,8 +1,9 @@
 ---
 title: apl (appendToList)
 description: Append values to variables that support multiple values.
+feature: Variables
+exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 ---
-
 # Adobe plug-in: apl (appendToList)
 
 >[!IMPORTANT]
@@ -17,12 +18,12 @@ The `apl` plug-in allows you to safely add new values to list-delimited variable
 
 Adobe recommends using this plug-in if you want to add new values to existing variables that contain a string of delimited values. This plug-in is not necessary if you prefer to concatenate strings for variables containing delimited values.
 
-## Install the plug-in using the Adobe Experience Platform Launch extension
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Click the desired property.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
 1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
@@ -31,15 +32,15 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize APL (Append To List)
-1. Save and publish the changes to the rule.
+1. Save and publish the changes to the rule.-->
 
-## Install the plug-in using Launch custom code editor
+## Install the plug-in using custom code editor
 
 If you do not want to use the plug-in extension, you can use the custom code editor.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
 1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
 1. Open the custom code editor and paste the plug-in code provided below into the edit window.
 1. Save and publish the changes to the Analytics extension.
@@ -50,17 +51,14 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: apl (appendToList) v3.2 (Requires inList v2.0 or higher) */
-s.apl=function(lv,vta,d1,d2,cc){if(!lv||"string"===typeof lv){if("undefined"===typeof this.inList||"string"!==typeof vta||""===vta)return lv;d1=d1||",";d2=d2||d1;1==d2&&(d2=d1,cc||(cc=1));2==d2&&1!=cc&&(d2=d1);vta=vta.split(",");for(var g=vta.length,e=0;e<g;e++)this.inList(lv,vta[e],d1,cc)||(lv=lv?lv+d2+vta[e]:vta[e])}return lv};
-
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: apl (appendToList) v4.0 */
+function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plugin:"apl",version:"4.0"};var h=function(){if("undefined"!==typeof window.s_c_il)for(var k=0,b;k<window.s_c_il.length;k++)if(b=window.s_c_il[k],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof h&&(h.contextData.apl="4.0");window.inList=window.inList||function(b,d,c,e){if("string"!==typeof d)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==e&&d===b[c]||d.toLowerCase()===b[c].toLowerCase())return!0;return!1};if(!b||"string"===typeof b){if("string"!==typeof d||""===d)return b;e=e||",";c=c||e;1==c&&(c=e,g||(g=1));2==c&&1!=g&&(c=e);d=d.split(",");h=d.length;for(var f=0;f<h;f++)window.inList(b,d[f],e,g)||(b=b?b+c+d[f]:d[f])}return b};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## Use the plug-in
 
-The `apl` method uses the following arguments:
+The `apl` function uses the following arguments:
 
 * **`lv`** (required, string): The variable that contains a delimited list of items to add a new value to
 * **`vta`** (required, string): A comma delimited list of the new value(s) to add to the `lv` argument's value.
@@ -68,233 +66,65 @@ The `apl` method uses the following arguments:
 * **`d2`** (optional, string): The output delimiter. Defaults to the same value as `d1` when not set.
 * **`cc`** (optional, boolean): A flag that indicates if a case-sensitive check is used. If `true`, the duplication check is case-sensitive. If `false` or not set, the duplication check is not case-sensitive. Defaults to `false`.
 
-The `apl` method returns the value of the `lv` argument plus any non-duplicate values in the `vta` argument.
+The `apl` function returns the value of the `lv` argument plus any non-duplicate values in the `vta` argument.
 
-## Example Calls
-
-### Example #1
-
-If...
+## Examples
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Example #2
-
-If...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...and the following code runs...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will still be:
-
-```js
-s.events = "event22,event23";
-```
-
-In this example, the apl call made no changes to s.events since s.events already contained "event23"
-
-### Example #3
-
-If...
-
-```js
-s.events = ""; //blank value
-```
-
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... the final value of s.events will be...
-
-```js
-s.events = "event23";
-```
-
-### Example #4
-
-If...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...and the following code runs...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... the final value of s.prop4 will still be...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...but the final value of s.eVar5 will be
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Keep in mind that the plug-in only returns a value; it does not necessarily "reset" the variable passed in through the lv argument.
-
-### Example #5
-
-If...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...and the following code runs...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... the final value of s.prop4 will be...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Be sure to keep the delimiter consistent between what's in the lv argument's value and what's in the d1/d2 arguments
-
-### Example #6
-
-If...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Although this example isn't practical, it demonstrates the need to use caution when using the case sensitive flag.
-
-### Example #7
-
-If...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...and the following code runs...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... the final value of s.events will be:
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-The plug-in will not add "event23" to s.events because it already exists in s.events.  However, it will add both event24 and event25 to s.events because neither were previously contained in s.events.
-
-### Example #8
-
-If...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...and the following code runs...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... the final value of s.linkTrackVars will be:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-The last three arguments (i.e. ",", ",", false) at the end of this apl call are not necessary but are also not "hurting anything" by being set since they match the default argument values.
-
-### Example #9
-
-If...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...and the following code runs...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... the final value of s.events will still be:
-
-```js
-s.events = "event22,event24";
-```
-
-Running the plug-in all by itself (without assigning the return value to a variable) does not actually "reset" the variable passed in through the lv argument.
-
-### Example #10
-
-If...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...and the following code runs...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... the final value of s.list2 will be:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Since the two delimiter arguments are different, the value passed in will be delimited by the first delimiter argument (“|”) and then joined together by the second delimiter argument (“-“)
 
 ## Version History
+
+### 4.0 (March 19, 2021)
+
+* Added version number as context data.
 
 ### 3.2 (September 25, 2019)
 
@@ -316,7 +146,7 @@ Since the two delimiter arguments are different, the value passed in will be del
 
 ### 2.5 (February 18, 2016)
 
-* Now uses the `inList` method for comparison processing
+* Now uses the `inList` function for comparison processing
 
 ### 2.0 (January 26, 2016)
 

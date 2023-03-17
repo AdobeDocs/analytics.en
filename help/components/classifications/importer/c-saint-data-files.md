@@ -1,11 +1,9 @@
 ---
 description: The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
-subtopic: Classifications
 title: Classification data files
-topic: Admin tools
-uuid: f27bb812-56e0-472a-9993-d869f0fea700
+feature: Classifications
+exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 ---
-
 # Classification data files
 
 The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
@@ -27,7 +25,7 @@ A data file must adhere to the following structure rules:
 * Uploaded files should use UTF-8 without BOM character encoding.
 * Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Special characters include:
 
-  ```
+  ```text
   \t     tab character 
   \r     form feed character 
   \n    newline character 
@@ -46,10 +44,10 @@ A data file must adhere to the following structure rules:
 * Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters.
 * Cell C1 in the first line of the import file contains a version identifier that determines how classifications handle the use of quotes throughout the remainder of the file.
 
-    * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""".
-    * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value".
-    * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
-    * Make sure you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
+  * v2.0 ignores quotes and assumes they are all part of the keys and values specified. For example, consider this value: "This is ""some value""". v2.0 would interpret this literally as: "This is ""some value""".
+  * v2.1 tells classifications to assume that quotes are part of the file formatting used in Excel files. So v2.1 would format the above example to: This is "some value".
+  * Problems can arise when v2.1 is specified in the file, but what is actually wanted is v2.0 - namely, when quotes are used in ways that is illegal under Excel formatting. For example, if you have a value: "VP NO REPS" S/l Dress w/ Overlay. With v2.1, this is incorrect formatting (the value should be surrounded by opening and closing quotes and quotes that are part of the actual value should be escaped by quotes) and classifications will not work beyond this point.
+  * Make sure that you do one of the following: change your file format to v2.0 by changing the header (cell C1) in the files you upload, OR properly implement Excel quoting throughout your files.
 
 * The first (non-comment) row of the data file contains the column headings used to identify the classification data in that column. The importer requires a specific format for column headings. For more information, see [Column Heading Format](/help/components/classifications/importer/c-saint-data-files.md).
 * Immediately following the header row in a data file are the data rows. Each line of data should contain a data field for each column heading.
@@ -104,11 +102,11 @@ Each value must be unique across the entire system. The value in this field corr
 
 ### Classification column heading
 
-For example, reports and analytics automatically include two classifications for [!UICONTROL Campaign] variables: [!UICONTROL Campaigns] and [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
+Example: Your Reports & Analytics implementation automatically include two classifications for [!UICONTROL Campaign] variables: [!UICONTROL Campaigns] and [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
 >[!NOTE]
 >
->The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match.
+>The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match. ”Key” is a reserved classification (header) value. New classifications named “Key” are not supported.
 
 Additionally, the data file supports the following additional heading conventions to identify sub-classifications and other specialized data columns:
 
@@ -156,7 +154,7 @@ These characters have special meaning in a data file. Where possible, avoid usin
 
 Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
 
-For more information, see [Conversion Classifications](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+For more information, see [Conversion Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >
@@ -171,6 +169,9 @@ For more information, see [Conversion Classifications](https://docs.adobe.com/co
 * The involved date range must contain a start date and (optionally) an end date.
 
 To classify campaigns based on date range:
+
+>[!IMPORTANT]
+>This option is not available for report suites enabled for the New Classification Architecture.
 
 1. Log in to [!DNL Analytics] and go to Admin > Classifications.
 1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
@@ -197,4 +198,3 @@ To classify campaigns based on date range:
 ## Troubleshooting classifications
 
 * [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
-

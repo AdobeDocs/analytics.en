@@ -1,9 +1,9 @@
 ---
 description: Describes the two main ways of finding your metrics  sorting and filtering.
 title: Find metrics
-uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
+feature: Calculated Metrics
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
 ---
-
 # Find metrics
 
 Describes the two main ways of finding your metrics: sorting and filtering.
@@ -57,4 +57,3 @@ When you open a report and click the Metrics icon, then click **[!UICONTROL Mana
   </tr> 
  </tbody> 
 </table>
-

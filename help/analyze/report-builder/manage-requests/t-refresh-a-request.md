@@ -1,10 +1,11 @@
 ---
 description: You refresh requests after you update them with edits, filters, or you need to view more recent data. You can select several requests in a worksheet and refresh them all at once.
 title: Refresh a request
-topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
+feature: Report Builder
+role: User, Admin
+exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
 ---
-
 # Refresh a request
 
 You refresh requests after you update them with edits, filters, or you need to view more recent data. You can select several requests in a worksheet and refresh them all at once.

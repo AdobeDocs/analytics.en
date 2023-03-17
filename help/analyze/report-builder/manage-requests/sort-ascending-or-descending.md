@@ -1,10 +1,11 @@
 ---
 description: You can sort the requests listed in the Request Manager in ascending or descending order.
 title: Sort ascending or descending
-topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
+feature: Report Builder
+role: User, Admin
+exl-id: 5589db75-f06a-455e-aa79-03b036dfdfc4
 ---
-
 # Sort ascending or descending
 
 You can sort the requests listed in the Request Manager in ascending or descending order.

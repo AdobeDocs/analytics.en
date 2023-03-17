@@ -1,9 +1,11 @@
 ---
-description: null
+description: The area visualization is like a line graph, but with a colored area below the line.
 title: Area and area stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
+feature: Visualizations
+role: User, Admin
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 ---
-
 # Area and area stacked
 
 ## Area {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
@@ -22,3 +24,6 @@ A new visualization setting on area stacked visualizations turns the chart into 
 
 ![](assets/areastacked100.png)
 
+Here is a video on "100% stacked visualizations":
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)

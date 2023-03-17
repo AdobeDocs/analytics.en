@@ -1,11 +1,9 @@
 ---
 description: Use the importer to upload classifications into Adobe Analytics. You can also export the data for updating prior to an import.
-subtopic: Classifications
 title: Classifications importer - overview
-topic: Admin tools
-uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
+feature: Classifications
+exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 ---
-
 # Classifications importer - overview
 
 Use the importer to upload classifications into Adobe Analytics. You can also export the data for updating prior to an import.
@@ -18,4 +16,4 @@ The data that you import using the import tool must be in a specific format. Ado
 >
 >Adobe recommends that you limit the number of import and export columns to 30.
 
-See [Common Saint Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Knowledge Base article that describes issues arising from incorrect file formats and file contents.
+See [Classification importer troubleshooting](/help/components/classifications/importer/troubleshooting.md). This topic describes issues arising from incorrect file formats and file contents.

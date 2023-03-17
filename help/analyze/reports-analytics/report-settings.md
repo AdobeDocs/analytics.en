@@ -1,17 +1,20 @@
 ---
 description: Settings that define how all reports appear and information that aps the default menu options to their location in the simplified menu.
 title: Report display settings and navigation
-topic: Reports,Reports and analytics
-uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
-
 # Report display settings and navigation
 
 Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
 
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]** 
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All Components]** > **[!UICONTROL Report settings]**
 
 |Element|Description|
 |--- |--- |
@@ -142,4 +145,3 @@ If you are used to the default menu, the following table makes it easier for you
 |  **Custom Reports** |  |  |
 |   | Custom reports show up only of you have any set up.  | Custom Reports  |
 |   |  |  |
-

@@ -1,11 +1,12 @@
 ---
 title: Visitors with Experience Cloud ID
 description: The number of unique visitors using the Adobe Experience Cloud ID service.
+feature: Metrics
+exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 ---
-
 # Visitors with Experience Cloud ID
 
-The 'Visitors with Experience Cloud ID' metric shows the number of unique visitors who were identified by Adobe using the [Experience Cloud ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html). This dimension is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses the ID service. If a large portion of visitors don't use the ID service cookies, it can indicate an issue within your implementation.
+The 'Visitors with Experience Cloud ID' metric shows the number of unique visitors who were identified by Adobe using the [Experience Cloud ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html). This metric is helpful to compare with the [Unique visitors](unique-visitors.md) metric to make sure the majority of visitors to your site uses the ID service. If a large portion of visitors don't use the ID service cookies, it can indicate an issue within your implementation.
 
 >[!NOTE]
 >
@@ -13,7 +14,7 @@ The 'Visitors with Experience Cloud ID' metric shows the number of unique visito
 
 ## How this metric is calculated
 
-This metric is based on the [Unique visitors](unique-visitors.md) metric, except it only includes individuals identified using the `mid` query string (based on the [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+This metric is based on the [Unique visitors](unique-visitors.md) metric, except it only includes individuals identified using the `mid` query string (based on the [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
 
 ## Debug your Experience Cloud ID setup
 

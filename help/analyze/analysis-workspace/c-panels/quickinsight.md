@@ -1,8 +1,10 @@
 ---
 description: Quick Insights is a tool for new Workspace users that guides them in building data tables and visualizations
 title: Quick Insights panel
+feature: Panels
+role: User, Admin
+exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 ---
-
 # Quick Insights panel
 
 [!UICONTROL Quick Insights] provides guidance for non-analysts and new users of [!UICONTROL Analysis Workspace] to learn how to answer business questions quickly and easily. It is also a great tool for advanced users who want to answer a simple question quickly without having to build a table themselves.
@@ -19,6 +21,10 @@ To help with this, and based on your own company's usage of data components in [
 * Learn the terminology and vocabulary for basic components and pieces of [!UICONTROL Analysis Workspace].
 * Do simple breakdowns of dimensions, add multiple metrics, or compare segments easily within a [!UICONTROL Freeform table].
 * Change or try out various visualization types to find the find tool for your analysis quickly and intuitively.
+
+Here is a video overview of the [!UICONTROL Quick Insights] panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 
@@ -97,4 +103,3 @@ You will get a warning before adding anything directly to the table:
  ![](assets/qibuilder8.png)
 
 Otherwise, building directly will cause the table to now behave as a traditional Freeform table, without the helpful features for new users.
-

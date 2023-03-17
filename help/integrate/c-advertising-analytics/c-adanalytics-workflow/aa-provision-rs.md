@@ -1,14 +1,13 @@
 ---
-description: null
+description: Configure an Experience Cloud mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
-uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+feature: Advertising Analytics
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 ---
-
 # Enable report suite for Advertising Analytics
 
 In order to see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
 
-1. [Map your report suite to an organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
 1. Select the report suite that is mapped to your Experience Cloud organization.
@@ -29,4 +28,3 @@ In order to see any Advertising Analytics search data in Analytics, you need to 
     |Expire After|Lets you specify a time period, or event, after which the eVar value expires (i.e., no longer receives credit for success events).  If a success event occurs after eVar expiration, the  None value receives credit for the event (no eVar was active).|
 
 1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). Your report suite is now ready to receive Advertising Analytics Search data. You are no ready to [create Advertising Accounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
-

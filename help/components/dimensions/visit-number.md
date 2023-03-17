@@ -1,8 +1,9 @@
 ---
 title: Visit number
 description: The nth visit of the visitor.
+feature: Dimensions
+exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 ---
-
 # Visit number
 
 The 'Visit number' dimension reports which visit the visitor is currently on. When a new visit starts, this dimension item increases by 1. This dimension is helpful when you want to understand how engaged visitors are when returning to your site. It is a visit-based dimension, meaning that it contains the same value for the entire visit and cannot change. It applies to the lifetime of the visitor, regardless of project date range.

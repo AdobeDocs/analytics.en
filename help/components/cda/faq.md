@@ -1,28 +1,32 @@
 ---
 title: Cross-Device Analytics FAQ
 description: Frequently asked questions for Cross-Device Analytics
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 ---
-
 # Frequently asked questions
 
 ## How can I use CDA to see how people move from one device type to another?
 
-You can use a Flow visualization with the Mobile Device Type dimension.
+You can use a [!UICONTROL Flow] visualization with the Mobile Device Type dimension.
 
 1. Log in to Adobe Analytics and create a new blank Workspace project.
 2. Click the Visualizations tab on the left, and drag a Flow visualization to the canvas on the right.
 3. Click the Components tab on the left, and drag the dimension 'Mobile Device Type' to the center location labled 'Dimension or Item'.
 4. This flow report is interactive. Click any of the values to expand the flows to subsequent or previous pages. Use the right-click menu to expand or collapse columns. Different dimensions can also be used within the same flow report.
 
-## Can I see how people move between different user experiences (e.g. desktop browser vs. mobile browser vs. mobile app)?
+## Can I see how people move between different user experiences (for example, desktop browser vs. mobile browser vs. mobile app)?
 
-Using Mobile Device Type as illustrated above allows you to see how people move between mobile device types and desktop device types. However you may want to distinguish desktop browsers from mobile browsers. One way to do this is to create an eVar that records whether the experience occurred on a desktop browser, mobile browser, or mobile app. Then create a Flow diagram as described above, using your "experience" eVar rather than the Mobile Device Type dimension. This provides a slightly different view on cross-device behavior.
+The Mobile Device Type example illustrated above allows you to see how people move between mobile device types and desktop device types. However, it does not allow you to distinguish desktop browsers from mobile browsers. If you would like this insight, you can create a custom variable (such as a prop or eVar) that records if the experience happened on a desktop browser, mobile browser, or mobile app. You can then create a Flow diagram as described above, using the custom variable instead of the Mobile Device Type dimension. This method provides a slightly different view on cross-device behavior.
 
 ## How far back does CDA stitch visitors?
 
-Adobe keeps device stitching data for approximately 30 days. If a device is intitially not identified but is later identified within 30 days, CDA goes back and restates that device as belonging to identified person up to 30 days in the past. If some of a user's unidentified behavior falls outside the 30-day lookback window, that portion of the user's journey is not stitched.
+CDA's cross-device stitching occurs in two concurrent processes. 
 
-* **If using a device graph**, Adobe keeps device mappings in the Co-op Graph and Private Graph for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected, but subsequent hits for that ECID are treated as a new person.
+* The first process is called "live stitching", which occurs as the data streams into Adobe Analytics. During live stitching CDA does the best it can to restate the data at a person level. However, if the person is unknown at the time of live stitching then CDA falls back to the visitor ID to represent the person.
+
+* The second process is called "replay." During replay, CDA goes backwards in time and restates historical data, where possible, within a specified lookback window. This lookback window is either 1 day or 7 days, depending on how you requested CDA to be configured. During replay, CDA attempts to restate hits where the person was previously unknown.
+
+* **If using a device graph**, Adobe keeps Device Graph mappings for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected; subsequent hits for that ECID are treated as a new person.
 
 ## How does CDA handle timestamped hits?
 
@@ -43,7 +47,7 @@ Customers already using Custom Visitor ID can upgrade to CDA without any impleme
 In some situations it is possible that multiple people log in from the same device. Examples include a shared device at home, shared PCs in a library, or a kiosk in a retail outlet.
 
 * **If using a device graph**, the ability to handle shared devices is limited. The device graph uses an algorithm to determine ownership of a "cluster", and can change each time that cluster is published. Users of the shared device are subject to which cluster they belong to.
-* **If using field-based stitching**, the prop or eVar you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
+* **If using field-based stitching**, the prop or eVar that you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
 
 ## How does CDA handle situations where a single person has MANY devices/ECIDs?
 
@@ -54,11 +58,16 @@ In some situations, an individual user can associate with a large number of ECID
 
 ## What is the difference between the People metric in CDA and the Unique Visitors metric outside of CDA?
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. However, when using Cross-Device Analytics, unique visitors are combined when they are otherwise recorded as two separate unique visitors outside of CDA. The 'People' metric replaces the 'Unique Visitors' metric when Cross-device Analytics is enabled.
+Both [People](/help/components/metrics/people.md) and [Unique Visitors](/help/components/metrics/unique-visitors.md) metrics aim to count distinct visitors (individuals). However, consider the possibility that 2 different devices can belong to the same person. CDA maps the 2 devices to same person, while the 2 devices are recorded as 2 separate 'Unique Visitors' outside of CDA.
 
 ## What is the difference between the 'Unique Devices' metric in CDA and the 'Unique Visitors' metric outside of CDA?
 
-These two metrics are roughly equivalent to each other.
+These two metrics are roughly equivalent to each other. Differences between the 2 metrics occur when:
+
+* A shared device maps to multiple people. In this scenario, 1 unique visitor is counted, while multiple unique devices are counted.
+* A device has both non-stitched and stitched traffic from the same visitor. For example, a browser generated identified stitched traffic + historical anonymous traffic that was not stitched. In this case, 1 unique visitor is counted, while 2 unique devices are counted.
+
+See [Unique Devices](/help/components/metrics/unique-devices.md) for more examples and details around how it works.
 
 ## Can I include CDA metrics using the 2.0 API?
 
@@ -68,7 +77,7 @@ Yes. Analysis Workspace uses the 2.0 API to request data from Adobe's servers, a
 2. Click the debug icon in the desired panel, then select the desired visualization and time of the request.
 3. Locate the JSON request, which you can use in your API call to Adobe.
 
-## Cross-Device Analytics can stitch unique visitors together. Can it stich visits together?
+## Cross-Device Analytics can stitch unique visitors together. Can it stitch visits together?
 
 Yes. If an individual sends hits from two separate devices within your virtual report suite's visit timeout (30 minutes by default), they are stitched into the same visit.
 
@@ -81,8 +90,40 @@ Both of these identifiers are calculated by Adobe at the time the report is run,
 
 ## How can I move from the device graph to field-based stitching, or vice versa?
 
-If you would like to switch CDA identifying methods, talk to your organization's Account Manager. The Account Manager can provision your report suite to the desired method to identify people. *Historical stitched data from the previous method is lost.*
+Switching from device graph to field-based stitching or vice versa can be requested via Customer Care. However, making such a switch can take a couple of weeks or more to complete and *historical stitched data from the previous method is lost.*
 
-## How does Adobe handle unique limits for an eVar used in field-based stitching?
+## How does Adobe handle unique limits for a prop or eVar used in field-based stitching?
 
-CDA pulls eVar dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop/eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.
+CDA pulls the identifier variable dimension items before they are optimized for reporting. You do not need to worry about unique limits for the purposes of CDA. However, if you tried using that prop or eVar in a Workspace project, you can still see the [(Low-traffic)](/help/technotes/low-traffic.md) dimension item.
+
+## How many of my company's report suites can be enabled for CDA?
+
+Effective May 1, 2022, any new implementation of CDA will be limited to a maximum of three report suite IDs (RSIDs) per customer. CDA does not merge report suites. Each report suite enabled for CDA needs to be cross-device in nature (containing data from multiple surfaces such as desktop web, mobile web, mobile app, etc.).
+
+## If my organization ID has multiple companies in different regions, can I enable CDA for all of them?
+
+No. For the same organization ID, only one region can have CDA enabled.
+
+## What are the advantages and disadvantages of a 7-day replay versus a 1-day replay?
+
+The advantage of the 7-day replay lookback window is that CDA is able to go back further in time to try to associate previously anonymous events with some person who later logged in within those 7 days. The disadvantages of the 7-day lookback window are 1) replay only runs once per week, and 2) the most recent 7 days are subject to change.
+
+The advantages of using the 1-day replay lookback window are 1) replay runs every day and 2) only yesterday is subject to change. The disadvantage of the 1-day lookback window is that CDA is only able to go back 1 day to try to associate previously anonymous events with a person who logged in yesterday.
+
+## What happens to the stitched data within my CDA virtual report suite(s) if my company decides to downgrade from Analytics Ultimate?
+
+If a customer downgrades from Ultimate, they will no longer have access to stitched data. All previously stitched data will be removed. This means the CDA virtual report suites will now reflect no cross-device stitching. Data will look similar to the original unstitched report suite.
+
+## Why is the total number of hits different between my source report suite and CDA virtual report suite?
+
+CDA uses a complex parallel processing pipeline, with multiple dependent components. A data mismatch of approximately 1% for the total number of hits between the original report suite and the CDA virtual report suite is expected.
+
+## Why is the 'Identified People' metric inflated?
+
+The number of the 'Identified People' metric can be slightly higher if the identifier prop/eVar value runs into a [hash collision](/help/implement/validate/hash-collisions.md).
+
+For Field-based stitching, the identifier custom variable is case-sensitive. The number of the 'Identified People' metric can be significantly higher if identifier values do not match case. For example, if `bob` and `Bob` are sent and expected to be the same person, CDA interprets these two values as distinct.
+
+## When viewing the identifier prop/eVar, why do I see non-zero values for the 'Unidentified People' metric?
+
+This situation usually occurs when a visitor generates both authenticated and unauthenticated hits in the reporting window. The visitor belongs to both 'Unidentified' and 'Identified' in the [Identified State](/help/components/dimensions/identified-state.md) dimension, causing an attribution of unidentified hits to an identifier. This scenario can change after [Replay](replay.md) runs, depending on replay frequency and success rate.

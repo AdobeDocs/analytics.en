@@ -1,9 +1,9 @@
 ---
 description: Analytics and Audience Manager both use segments. However, an Analytics segment is not exactly the same thing as an Audience Manager segment. These differences contribute, in part, to the discrepancies you will see in your Analytics and Audience Manager reports. As a result, it's important and useful to try and understand these differences when you start to work with segments in both of these solutions.
 title: Understand segments in Analytics and Audience Manager
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
+exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 ---
-
 # Understand segments in Analytics and Audience Manager
 
 Analytics and Audience Manager both use segments. However, an Analytics segment is not exactly the same thing as an Audience Manager segment. These differences contribute, in part, to the discrepancies you will see in your Analytics and Audience Manager reports. As a result, it's important and useful to try and understand these differences when you start to work with segments in both of these solutions.
@@ -21,7 +21,7 @@ Audience Manager segment membership is fluid. Users can enter or drop out of a s
 
 An Audience Manager segment is denoted as an audience in Analytics.
 
-For more information, refer to [Trait and Segment Population Data in Segment Builder](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
+For more information, refer to [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) and [Signals, Traits, and Segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Analytics Segments {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -38,4 +38,4 @@ An&nbsp;Analytics&nbsp;segment is a filtering mechanism for data in your reports
 
   Conversely, in Analytics, visitors will be included or excluded from a segment based on the reporting date range. For example, a single visitor made a purchase last month. In AAM, that visitor would be included in a "purchaser" segment, regardless of the date range. In Analytics, a report based on this month would not include the visitor in the segment. However, a report based on this month & last month would include the visitor in the segment.
 
-See the [Analytics Segmentation Guide](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) for more information.
+See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) for more information.

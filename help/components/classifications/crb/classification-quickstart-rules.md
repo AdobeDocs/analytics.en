@@ -1,22 +1,20 @@
 ---
 description: Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
-subtopic: Classifications
 title: Classification rules
-topic: Admin tools
-uuid: 08685919-216d-448b-b886-3adf5ff5405e
+feature: Classifications
+exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 ---
-
 # Classification rules
 
 Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. A rule matches criteria you specify, then performs an action.
+The Rule Builder lets you create a *classification rule set*, which is a list of *classification rules*. A rule matches criteria you specify, then performs an action.
 
 Classification rules are convenient for:
 
-* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can earn how the Display campaigns are performing against email campaigns.
+* **Email** and **Display ads**: Create classification rules to group individual display ad campaigns so that you can learn how the Display campaigns are performing against email campaigns.
 
 * **Tracking codes**: Create classification rules to categorize key values derived from strings in tracking codes, and match them to specific criteria you define.
 * **Search terms**: Use [regular expressions](/help/components/classifications/crb/classification-quickstart-rules.md) and wildcards to simplify classifying of search terms. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
@@ -53,7 +51,7 @@ about_classification_rules.xml
 
 ## Important Information about Rules 
 
-* Specify [group permissions](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -251,7 +249,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `\W`  | Any non-word character  |
 |  `\b`  | Any word boundary  |
 |  `(...)`  | Capture everything enclosed  |
-|  `(a|b)`  | a or b  |
+|  `(a\b)`  | a or b  |
 |  `a?`  | Zero or one of a  |
 |  `a*`  | Zero or more of a  |
 |  `a+`  | One or more of a  |
@@ -259,7 +257,7 @@ In this result, `a:b:1313` does not indicate a match.
 |  `a{3,}`  | 3 or more of a  |
 |  `a{3,6}`  | Between 3 and 6 of a  |
 
-A good resource for testing regular expression validity is https://rubular.com/.
+A good resource for testing regular expression validity is [https://rubular.com/](https://rubular.com/).
 
 ## About Rule Priority 
 
@@ -300,13 +298,13 @@ t_classification_rule.xml
 
  -->
 
-Steps that describe how to add or edit a classification rule.
-
 Add rules by matching a condition to a classification, and specifying the action.
 
 >[!NOTE]
 >
 >In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [sub-classifications](/help/components/classifications/c-sub-classifications.md).
+
+To add or edit a classification rule:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) .
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,13 +317,13 @@ Add rules by matching a condition to a classification, and specifying the action
 
    >[!NOTE]
    >
-   Report suites display on this page *`only`* when the following conditions are met:        >
-   
-   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
-   
-   (See *`Variable`* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.) 
-
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/classifications/crb/classification-rule-set.md) to create the rule set.
+   >Report suites display on this page *only* when the following conditions are met:
+   >
+   >* The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
+   >
+   >   (See *Variable* in [Classification Rule Sets](/help/components/classifications/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   >
+   >* You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/classifications/crb/classification-rule-set.md) to create the rule set.
 
 1. Specify whether to overwrite existing values:
 
@@ -358,7 +356,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Steps that describe how to test a classification rule or rule set. Running a test checks all the rules in a set.
+You can test a classification rule or rule set. Running a test checks all the rules in a set.
+
+To test a Classification Rule Set:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) .
 1. On the [!UICONTROL Classification Rule Builder], click the rule set name.
@@ -390,14 +390,14 @@ t_validate_rules.xml
 
  -->
 
-Steps that describe how to validate and activate classification rules.
+To validate and activate classification rules:
 
 1. [Create a Classification Rule Set](/help/components/classifications/crb/classification-rule-set.md) , then [add classification rules](/help/components/classifications/crb/classification-quickstart-rules.md) to the set.
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** *`<selection>`*.
+1. (Optional) To overwrite classifications, enable **[!UICONTROL Overwrite classifications for]** <*selection*>.
 
    This option lets you overwrite existing classifications for affected keys.
 

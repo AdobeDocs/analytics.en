@@ -1,8 +1,9 @@
 ---
 title: Days since last purchase
 description: The number of days between the current hit and the last purchase that they made.
+feature: Dimensions
+exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
 ---
-
 # Days since last purchase
 
 The 'Days since last purchase' dimension measures the amount of time passed between the current hit of the visitor and their most recent purchase at that time. This dimension helps you understand behavior visitors make after purchasing something on your site.

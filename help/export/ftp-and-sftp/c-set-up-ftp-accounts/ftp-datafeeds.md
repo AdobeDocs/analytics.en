@@ -2,9 +2,9 @@
 description: Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom Data Feeds.
 keywords: ftp;sftp
 title: Data Feeds
-uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
+feature: FTP Export
+exl-id: 286050fa-e197-4b70-b167-da6921615c1b
 ---
-
 # Data Feeds
 
 Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md).

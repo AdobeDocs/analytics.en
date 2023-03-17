@@ -1,40 +1,86 @@
 ---
-title: AppMeasurement for JavaScript
+title: Implement Adobe Analytics with AppMeasurement for JavaScript
 description: Learn how to implement Adobe Analytics using JavaScript without a tag management system.
+feature: Implementation Basics
 ---
+# Implement Adobe Analytics with AppMeasurement for JavaScript
 
-# AppMeasurement for JavaScript
+AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [tags in Adobe Experience Platform](../launch/overview.md) is recommended.
 
-AppMeasurement for JavaScript has historically been a common method to implement Adobe Analytics. However, with increasing popularity of Tag Management Systems, using [Adobe Experience Platform Launch](../launch/overview.md) is recommended.
+A high-level overview of the implementation tasks: 
 
-## Overall workflow sending data to Adobe using JavaScript
+![Implementing Adobe Analytivs with AppMeasurement overview](../assets/appmeasurement-annotated.png)
 
-1. Load the `AppMeasurement.js` file. This file contains the libraries required to send data to Adobe.
+<table>
 
-   ```html
-   <script src="AppMeasurement.js"></script>
-   ```
+<tr>
+<th style="width:5%"></th><th style="width:75%"><b>Task</b></th><th style="width:20%"><b>More Information</b></th>
+</tr>
 
-2. Define configuration variables within `AppMeasurement.js`. When the Analytics object is instantiated, these variables make sure data collection settings are correct. See [Configuration variables](../vars/config-vars/configuration-variables.md) for a full list of variables you can define.
+<tr>
+<td>1</td><td>Ensure you have <b>defined a report suite</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+</tr>
 
-   ```js
-   // Instantiate the Analytics tracking object with report suite ID
-   var s_account = "examplersid";
-   var s=s_gi(s_account);
-   // Make sure data is sent to the correct location
-   s.trackingServer = "example.omtrdc.net";
-   ```
+<tr>
+<td>2</td><td><b>Download the required JavaScript code for AppMeasurement</b> from Code Manager. Unzip the file.</td><td><a href="../../admin/admin/code-manager-admin.md">Code Manager</a></td>
+</tr>
 
-3. Define page-level variables within your site's page code. These variables determine specific dimension and metrics sent to Adobe. See [Page variables](../vars/page-vars/page-variables.md) for a full list of variables you can define.
+<tr>
+<td>3</td><td><b>Add <code>AppMeasurement.js</code> to your website's template file</b>. The code contains the libraries required to send data to Adobe.
 
-   ```js
-   s.pageName = "Example page";
-   s.eVar1 = "Example eVar";
-   s.events = "event1";
-   ```
+```html
+<head>
+  <script src="AppMeasurement.js"></script>
+  …
+</head>
+```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t()` method. See [t](../vars/functions/t-method.md) for more information.
+</td><td></td>
+</tr>
 
-   ```js
-   s.t();
-   ```
+<tr>
+<td>4</td><td><b>Define configuration variables within <code>AppMeasurement.js</code></b>. When the Analytics object is instantiated, these variables make sure that data collection settings are correct.
+
+```JavaScript
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "examplersid";
+var s=s_gi(s_account);
+ 
+// Make sure data is sent to the correct tracking server
+s.trackingServer = "example.data.adobedc.net";
+```
+
+</td><td><a href="../vars/config-vars/configuration-variables.md">Configuration Variables</a></td>
+</tr>
+
+<tr>
+<td>5</td><td><b>Define page-level variables within your site's page code</b>. These variables determine specific dimension and metrics sent to Adobe.
+
+```js
+s.pageName = "Example page";
+s.eVar1 = "Example eVar";
+s.events = "event1";
+```
+
+</td><td><a href="../vars/page-vars/page-variables.md">Page Variables</a></td>
+</tr>
+
+<tr>
+<td>6</td><td><b>Send the data to Adobe using the <code>t()</code> method</b>, when all page variables are defined.
+
+```js
+s.t();
+```
+
+</td><td><a href="../vars/functions/t-method.md">t() method</a></td>
+</tr>
+
+<tr>
+<td>7</td><td><b>Extend and validate your implementation</b> before pushing it out to production.</b></td><td></td>
+</tr>
+
+</table>
+
+## Additional resources
+
+- [Variables, functions, methods, and plug-ins overview](../vars/overview.md)

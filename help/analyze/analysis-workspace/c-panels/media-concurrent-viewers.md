@@ -1,19 +1,21 @@
 ---
 title: Media Concurrent Viewers panel
 description: How to use and interpret the Media Concurrent Viewers panel in Analysis Workspace.
+feature: Panels
+role: User, Admin
+exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 ---
-
 # Media Concurrent Viewers panel
-
->[!IMPORTANT]
->
->This feature is in Limited Testing for media analytics customers. [Learn more...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Media Analytics customers can analyze concurrent viewers to understand where peak concurrency occurred or where drop-offs happened to provide valuable insight into the quality of content and viewer engagement, and to help with troubleshooting or planning for volume or scale.
 
 In Analysis Workspace, Concurrent Viewers is the number of unique visitors viewing your media stream(s) at a specific point in time, regardless of the number of sessions.
 
 The Media Concurrent Viewers panel enables analysis of concurrent viewers over time, with details on peak concurrency and the ability to break down and compare.  To access the Media Concurrent Viewers panel, navigate to a report suite with Media Analytics components enabled. Then, click the panel icon on the far-left and drag the panel into your Analysis Workspace project.
+
+Here is a video overview of this panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 
@@ -70,7 +72,6 @@ A Freeform table is not available in this view.  In order to view the data sourc
 |Can I run anomaly detection?|No.  Anomaly detection is not available for this panel.|
 |Why use unique visitors instead of active sessions?|Using unique visitors enables removal of unwanted spikes at show boundaries (where sessions are ending and starting at the same time).|
 |What does it mean to have concurrent viewers at higher granularity than minute?|With a granularity larger than a minute, concurrent viewers is the sum of unique concurrent viewers for all minutes within that time range.  For example, at hour-level granularity concurrent viewers is the sum of unique concurrent viewers for all minutes within the hour.|
-|What if I want to see more than 1 day at the minute-level granularity?|To access data at minute-level granularity for up to 1 month at a time, you can use the Analytics 2.0 APIs. For more information, see [Get Concurrent Viewers JSON report data with Analytics 2.0 APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html).|
 |Does the workspace panel show the same information as the Concurrent Viewers Report?|No.  In Analysis Workspace, Concurrent viewers is defined as the number of unique visitors viewing your media stream at a specific point in time, regardless of the number of sessions.<br><br>This is different than Concurrent Viewer reporting in the Reports section, which uses Concurrent Active Sessions.  Using unique visitors accounts for removal of unwanted spikes at show boundaries—where sessions are ending and starting at the same time.|
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->

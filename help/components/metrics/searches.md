@@ -1,8 +1,9 @@
 ---
 title: Searches
 description: The number of times a hit matched external search criteria.
+feature: Metrics
+exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
 ---
-
 # Searches
 
 The 'Searches' metric shows the number of hits that match Adobe's external search detection. This metric is useful when you want to look at non-search dimension items and see how they contributed to search engine traffic.

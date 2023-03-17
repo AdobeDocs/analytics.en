@@ -3,10 +3,9 @@ description: Information about special characters used in the data feed.
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 subtopic: data feeds
 title: Special characters in data feeds
-topic: Reports and analytics
-uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
+feature: Data Feeds
+exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 ---
-
 # Special characters in data feeds
 
 Adobe uses escape logic to make sure that values sent to data collection servers do not corrupt or negatively data feed files. The following characters are reserved by Adobe for the following purposes in `hit_data.tsv`.

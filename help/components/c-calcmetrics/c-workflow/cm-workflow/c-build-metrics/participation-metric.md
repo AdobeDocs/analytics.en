@@ -1,9 +1,9 @@
 ---
 description: With the Calculated Metric builder, anyone can create a participation metric.
 title: Participation Metric
-uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
+feature: Calculated Metrics
+exl-id: bef185d6-72c0-4068-80f8-57261369573f
 ---
-
 # Participation Metric
 
 Here is a simple use case: You are a content owner and you want to see which pages contributed to (i.e., participated in) visits that contained an order. Here's how:
@@ -26,4 +26,3 @@ Here is a simple use cases: You are a content owner and you want to see which pa
     ![](assets/participation-pages.png)
 
 1. (Optional) Share the metric with other users in your organization.
-

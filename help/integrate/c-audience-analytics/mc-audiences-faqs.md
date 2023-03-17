@@ -1,10 +1,10 @@
 ---
 description: Answers to questions you might have when implementing Audience Analytics.
 solution: Experience Cloud
-title: Frequently Asked Questions
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+title: Frequently Asked Questions for Audience Analytics
+feature: Audience Analytics
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 ---
-
 # Frequently Asked Questions
 
 Answers to questions you might have when implementing Audience Analytics.
@@ -18,7 +18,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">If you have emails/addresses/etc in a prop or eVar, consider hashing the data during collection. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  > turn on IP obfuscation </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">If your country considers IP address to be PII, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  > turn on IP obfuscation </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Talk to your Analytics Admin to see what you are collecting. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Talk to your Legal dept to see what they consider PII. </li> 
     </ul> </td> 
@@ -41,7 +41,7 @@ Answers to questions you might have when implementing Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I create an Analytics destination in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: After creating and saving an Analytics destination, how long will it take until data appears in my selected report suites?</b> </p> </td> 
@@ -124,7 +124,7 @@ Answers to questions you might have when implementing Audience Analytics.
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
 
 ## General FAQs {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -148,4 +148,3 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
  </tbody> 
 </table>
-

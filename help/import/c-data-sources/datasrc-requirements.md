@@ -2,10 +2,10 @@
 description: Information about the requirements for your report suite before using Data Sources.
 subtopic: Data sources
 title: Requirements and upload limits
-topic: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 ---
-
 # Requirements and upload limits
 
 Information about the requirements for your report suite before using Data Sources.
@@ -53,7 +53,7 @@ Data Sources supports multi-byte encoding. Data Sources attempts to detect the f
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > New Report Suite</a> in Help </p> </td> 
+   <td colname="col2"> <p>Supported. The report suite used with Data Sources must have multi-byte character support enabled. </p> <p>See <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  > New Report Suite</a> in Help </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 

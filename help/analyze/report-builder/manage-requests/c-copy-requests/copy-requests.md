@@ -1,10 +1,11 @@
 ---
 description: You can copy cells mapped with more than one request and paste the content to an empty, selected region of the spreadsheet.
 title: Copy requests overview
-topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
+feature: Report Builder
+role: User, Admin
+exl-id: 14578c79-a9e6-4587-b91b-f590453df347
 ---
-
 # Copy requests overview
 
 You can copy cells mapped with more than one request and paste the content to an empty, selected region of the spreadsheet.

@@ -1,14 +1,16 @@
 ---
 title: Attribution overview
 description: The concept of attributing credit of a success event to multiple dimension items.
+feature: Attribution
+role: User, Admin
+exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 ---
-
 # Attribution overview
 
 Attribution gives analysts the ability to customize how dimension items get credit for success events. For example:
 
-1. A visitor to your site clicks a paid search link to one of your product pages. The add the product to the cart, but do not purchase it.
-2. The next day, the see a social media post from one of their friends, click the link, then complete the purchase.
+1. A visitor to your site clicks a paid search link to one of your product pages. They add the product to the cart, but do not purchase it.
+2. The next day, they see a social media post from one of their friends, click the link, then complete the purchase.
 
 In some reports, you might want the order attributed to Paid search. In other reports, you might want the order attributed to Social. Attribution lets you control this aspect of reporting. It is available to all organizations on Adobe Analytics Ultimate, Prime, Select and Foundation. If you are not sure which type of contract you have with Adobe, contact your organization's Account Manager.
 
@@ -34,6 +36,28 @@ Adobe Analytics enhances attribution by letting you:
 Attribution IQ comprises the following features:
 
 * [Attribution panel](../c-panels/attribution.md): Take any dimension and metric, and quickly compare it with different attribution models.
-* [Apply attribution to a metric](../build-workspace-project/column-row-settings/column-settings.md): Use a non-default attribution on any metric in a project.
+* [Apply attribution to a metric](../visualizations/freeform-table/column-row-settings/column-settings.md): Use a non-default attribution on any metric in a project.
 * [Apply attribution to a breakdown](../components/dimensions/t-breakdown-fa.md): Use a non-default attribution on a breakdown. 
 * [Compare attribution models](../components/apply-create-metrics.md): Quickly see how different attribution models compare for any metric.
+
+## Videos
+
+Attribution IQ in Freeform tables:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+
+Attribution IQ in calculated metrics
+
+>[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+
+Using the Attribution IQ panel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+
+Adding side-by-side comparisons of Attribution IQ models:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+
+## Adobe Analytics tools that do not support Attribution IQ
+
+Any tools that do not support the Analytics 2.0 API, such as Report Builder, do not support Attribution IQ.

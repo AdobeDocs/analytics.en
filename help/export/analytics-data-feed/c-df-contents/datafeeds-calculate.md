@@ -2,17 +2,16 @@
 description: Describes how to calculate common metrics using data feeds.
 keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 title: Calculate metrics
-topic: Reports and analytics
-uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+feature: Data Feeds
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 ---
-
 # Use data feeds to calculate common metrics
 
 Describes how to calculate common metrics using data feeds.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit > 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
+>Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit = 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
 
 ## Page views
 

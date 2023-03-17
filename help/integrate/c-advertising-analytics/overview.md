@@ -1,12 +1,12 @@
 ---
-description: null
-title: Advertising Analytics overview
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: Discover everything you can do with Advertising Analytics in this detailed guide, including permissions required, and available dimensions and metrics.
+title: A Guide to Advertising Analytics
+feature: Advertising Analytics
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 ---
+# A guide to Advertising Analytics
 
-# Advertising Analytics overview
-
-Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You will now get the following data within Adobe Analytics: Impressions, Clicks, Costs, Quality Score, and Average Position directly from the search engines as well as a AMO ID Instances (Click Instances).
+Advertising Analytics lets you see all your Google and Bing Paid Search data side by side, within Adobe Analytics. Previously, any Google AdWords/DFA or Microsoft Bing Ads data would have to be viewed in Adobe Advertising Cloud (AMO) or in Google/Bing. You can now get the following data within Adobe Analytics: Impressions, Clicks, Costs data directly from the search engines as well as a AMO ID Instances (Click Instances). Quality Score and Average Positions are no longer collected as Google deprecated these metrics in Sept 2019. 
 
 >[!NOTE]
 >
@@ -27,7 +27,6 @@ This integration is aimed at the following audiences:
 
 * This functionality is available for non-Advertising Cloud and non-AMO customers.
 * You must be an Adobe Analytics Administrator to have access to Advertising Analytics. Subsequently, you can [grant access permissions](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) to non-admins.
-* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
 * For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password.
@@ -51,13 +50,13 @@ Analytics has two permissions that are automatically granted to Analytics Admins
   <tr> 
    <td colname="col1"> <p>Advertising Analytics Management </p> </td> 
    <td colname="col2"> <p>Lets users set up/edit/view advertising search accounts. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Analytics Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Management</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Analytics Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Management</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Log in to adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Products</span> &gt; <span class="uicontrol"> Product Profile</span> &gt; <span class="uicontrol"> Permissions tab</span> &gt; <span class="uicontrol"> Analytics Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Management</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics Configuration </p> </td> 
    <td colname="col2"> <p>Lets users configure report suites to be provisioned for Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> User Management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Configuration</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management</span> &gt; <span class="uicontrol"> Groups</span> &gt; <span class="uicontrol"> Edit All Report Access</span> &gt; <span class="uicontrol"> Customize Report Suite Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Configuration</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Log in to adminconsole.adobe.com</span> &gt; <span class="uicontrol"> Products</span> &gt; <span class="uicontrol"> Product Profile</span> &gt; <span class="uicontrol"> Permissions tab</span> &gt; <span class="uicontrol"> Report Suite Tools</span> &gt; <span class="uicontrol"> Advertising Analytics Configuration</span></span> </td> 
   </tr> 
  </tbody> 
@@ -77,8 +76,8 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 
 | Classification (Dimension) Name | Definition |
 |--- |--- |
-|Keyword MatchType (AMO ID)|The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type.|
-|Ad Platform (AMO ID)|The search engine name. Values can include Google AdWords or Microsoft Bing Ads.|
+| Keyword MatchType (AMO ID) | The keyword match type. Values typically will be either broad, phrase, exact, or no value if the Ad type does not have a match type. |
+| Ad Platform (AMO ID) | The search engine name. Values can include Google AdWords or Microsoft Bing Ads. |
 |Account (AMO ID)|The name of the search engine account that is being tracked.|
 |Campaign (AMO ID)|The name of the campaign in your search engine account.|
 |Ad Group (AMO ID)|The name of the ad group in your search engine campaigns.|
@@ -111,5 +110,3 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 |AMO Impressions|The number of ad impressions as reported by the search engine.|
 |AMO Clicks|The number of clicks on ads as reported by the search engine.|
 |AMO Cost|The cost paid for each keyword/ad as reported by the search engine.|
-|Avg. Pos|A calculated metric that reflects the average position of the ads as reported by the search engine.|
-|Avg. Quality Score|A calculated metric that reflects the average quality score as reported by the search engine.|

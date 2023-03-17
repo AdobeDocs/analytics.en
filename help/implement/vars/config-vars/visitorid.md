@@ -1,28 +1,33 @@
 ---
 title: visitorID
 description: Use a custom visitor ID.
+feature: Variables
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 ---
-
 # visitorID
 
 Adobe uses several different methods to identify visitors on your site. The `visitorID` variable overrides all other methods of visitor identification.
 
 >[!IMPORTANT]
 >
->Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) instead.
+>Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) instead.
 
-## Visitor ID in Adobe Experience Platform Launch
+## Visitor ID override using the Web SDK
+
+Coming soon!
+
+## Visitor ID using the Adobe Analytics extension
 
 [!UICONTROL Visitor ID] is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
+3. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Visitor ID] field.
 
 Assign this field to the data element containing your custom visitor ID. Do not set this field to a static value.
 
-## s.visitorID in AppMeasurement and Launch custom code editor
+## s.visitorID in AppMeasurement and the Analytics extension custom code editor
 
 The `s.visitorID` variable is a string that contains a custom unique identifier for the visitor. Valid values include alpha-numeric characters up to 100 bytes. Avoid using dashes, spaces, underscores, or symbols in this variable.
 

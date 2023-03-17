@@ -1,10 +1,11 @@
 ---
 description: Information to help you understand the function of the buttons on the Report Builder toolbar.
 title: Report Builder toolbar
-topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
+feature: Report Builder
+role: User, Admin
+exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 ---
-
 # Report Builder toolbar
 
 Information to help you understand the function of the buttons on the Report Builder toolbar.
@@ -13,7 +14,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 ![](assets/report_builder_toolbar.png)
 
-**Sign In:** Displays the [!UICONTROL Login] form so that you can log in with your credentials or as a different user. Also displays your company name after login. See [Log In To Report Builder](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
+**Sign In:** Displays the [!UICONTROL Login] form so that you can sign in with your credentials or as a different user. Also displays your company name after login. See [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md).
 
 **Create:** Launches the [!UICONTROL Request Wizard]. If you are not logged in, you are prompted to do so. See [Data Requests](/help/analyze/report-builder/data-requests/data-requests.md).
 

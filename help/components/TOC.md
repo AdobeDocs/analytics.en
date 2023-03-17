@@ -3,13 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
-breadcrumb-url: /docs/analytics/components/home.html
+user-guide-description: Manage data using components like Segments, Calculated Metrics, Virtual Report Suites, Marketing Channels, and Classifications. Learn about Cross-Device Analytics.
 ---
 
-# [!DNL Analytics] Components Guide {#components}
+# [!DNL Adobe Analytics] Components Guide {#components}
 
-+ [Analytics Components Help](home.md)
++ [Analytics Components Guide](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)
@@ -24,6 +24,8 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Cities](dimensions/cities.md)
   + [Color depth](dimensions/color-depth.md)
   + [Connection type](dimensions/connection-type.md)
+  + [Consent management opt-in](dimensions/cm-opt-in.md)
+  + [Consent management opt-out](dimensions/cm-opt-out.md)
   + [Cookie support](dimensions/cookie-support.md)
   + [Countries](dimensions/countries.md)
   + [Custom link](dimensions/custom-link.md)
@@ -44,15 +46,18 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Exit link](dimensions/exit-link.md)
   + [First touch channel](dimensions/first-touch-channel.md)
   + [First touch channel detail](dimensions/first-touch-detail.md)
+  + [Hierarchy](dimensions/hierarchy.md)
   + [Hit depth](dimensions/hit-depth.md)
   + [Hit type](dimensions/hit-type.md)
   + [Hour of day](dimensions/hour-of-day.md)
   + [Hour](dimensions/hour.md)
+  + [Identified state](dimensions/identified-state.md)
   + [Java enabled](dimensions/java-enabled.md)
   + [Language](dimensions/language.md)
   + [Last touch channel](dimensions/last-touch-channel.md)
   + [Last touch channel detail](dimensions/last-touch-detail.md)
   + [Marketing channel](dimensions/marketing-channel.md)
+  + [Marketing channel detail](dimensions/marketing-detail.md)
   + [Minute](dimensions/minute.md)
   + [Mobile dimensions](dimensions/mobile-dimensions.md)
   + [Monitor resolution](dimensions/monitor-resolution.md)
@@ -95,6 +100,7 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Zip code](dimensions/zip-code.md)
 + Metrics {#metrics}
   + [Metrics overview](metrics/overview.md)
+  + [Count repeat instances](metrics/count-repeat-instances.md)
   + [Average page depth](metrics/average-page-depth.md)
   + [Average page views per visit](metrics/average-page-views-per-visit.md)
   + [Average session length](metrics/average-session-length.md)
@@ -110,6 +116,7 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Custom events](metrics/custom-events.md)
   + [Entries](metrics/entries.md)
   + [Exits](metrics/exits.md)
+  + [Identified People](metrics/identified-people.md)
   + [Instances](metrics/instances.md)
   + [Mobile views](metrics/mobile-views.md)
   + [New engagements](metrics/new-engagements.md)
@@ -119,6 +126,7 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Page events](metrics/page-events.md)
   + [Page views](metrics/page-views.md)
   + [Pages not found](metrics/pages-not-found.md)
+  + [People with Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
   + [People](metrics/people.md)
   + [Product views](metrics/product-views.md)
   + [Reloads](metrics/reloads.md)
@@ -130,13 +138,16 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Time spent per visitor](metrics/time-spent-per-visitor.md)
   + [Time spent overview](metrics/time-spent.md)
   + [Total seconds spent](metrics/total-seconds-spent.md)
+  + [Unidentified People](metrics/unidentified-people.md)
+  + [Unique devices](metrics/unique-devices.md)
   + [Unique visitors](metrics/unique-visitors.md)
   + [Units](metrics/units.md)
   + [Visitors with Experience Cloud ID](metrics/visitors-with-ecid.md)
   + [Visits](metrics/visits.md)
 + Segmentation {#segmentation}
   + [Analytics segmentation](segmentation/seg-home.md)
-  + [About segments and containers](segmentation/seg-overview.md)
+  + [About segments](segmentation/seg-overview.md)
+  + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
   + Segmentation workflow {#segmentation-workflow}
     + [Segmentation workflow overview](segmentation/segmentation-workflow/seg-workflow.md)
@@ -157,12 +168,10 @@ breadcrumb-url: /docs/analytics/components/home.html
     + [Data Warehouse Segment Compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
-  + [Frequently asked questions](segmentation/seg-transition.md)
+  + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
-  + [Transition Guide for Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Calculated Metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
-  + [Frequently Asked Questions](c-calcmetrics/cm-transition.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
   + Calculated Metrics Workflow {#calcmetric-workflow}
     + [Calculated metrics workflow](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
@@ -186,12 +195,14 @@ breadcrumb-url: /docs/analytics/components/home.html
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
+    + [Default calculated metrics](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
-  + [Virtual Report Suite Component Curation](vrs/vrs-components.md)
+  + [Virtual report suite - component curation](vrs/vrs-components.md)
   + [VRS support in Mobile Services](vrs/vrs-mobile-services.md)
   + [Context-aware sessions](vrs/vrs-mobile-visit-processing.md)
   + [Report time processing](vrs/vrs-report-time-processing.md)
+  + [A4T considerations](vrs/vrs-a4t.md)
   + [VRS FAQs](vrs/vrs-faq.md)
   + [VRSs and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
   + VRS Workflow {#vrs-workflow}
@@ -206,6 +217,7 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Set up Cross-Device Analytics](cda/setup.md)
   + [How replays work](cda/replay.md)
   + [CDA Workspace template](cda/workspace-template.md)
+  + [Limit a VRS to certain dates](cda/limit-vrs-date.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)
@@ -214,6 +226,18 @@ breadcrumb-url: /docs/analytics/components/home.html
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/c-classifications.md)
+  + Classification Sets {#sets}
+    + [Classification Sets Overview](classifications/sets/overview.md)
+    + [Classification Sets Manager](classifications/sets/set-manager.md)
+    + [Classification Set Jobs Manager](classifications/sets/job-manager.md)
+    + [Create a Classification Set](classifications/sets/create.md)
+    + [Classification Set Settings](classifications/sets/settings.md)
+  + Classification Rule Builder {#classifications-rulebuilder}
+    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
+    + [Classification rule sets](classifications/crb/classification-rule-set.md)
+    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
+    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
+    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
   + Classifications importer {#classifications-importer}
     + [Classifications importer - overview](classifications/importer/c-working-with-saint.md)
     + [Classification data files](classifications/importer/c-saint-data-files.md)
@@ -223,28 +247,23 @@ breadcrumb-url: /docs/analytics/components/home.html
     + [Classification template](classifications/importer/c-download-saint-data.md)
     + [Browser and FTP import](classifications/importer/import-file.md)
     + [Browser import](classifications/importer/browser-import.md)
+    + [Browser export](classifications/importer/browser-export.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+    + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
-  + Classification Rule Builder {#classifications-rulebuilder}
-    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
-    + [Classification rule sets](classifications/crb/classification-rule-set.md)
-    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
-    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
+
   + [Sub-classifications](classifications/c-sub-classifications.md)
   + [Classifications FAQ](classifications/faq.md)
 + [Calendar events](t-calendar-event.md)
++ [Scheduled reports queue](scheduled-reports-admin.md)
 + Real-time reporting {#real-time-reporting}
   + [Real-time reporting overview](c-real-time-reporting/realtime.md)
   + [Configure real-time reports](c-real-time-reporting/t-realtime-admin.md)
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
-  + [Get Started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
-  + [Manage marketing channels](c-marketing-channels/c-channels.md)
-  + [Processing rules for Marketing Channels](c-marketing-channels/c-rules.md)
-  + [Classifications in Marketing Channels](c-marketing-channels/classifictions-mchannel.md)
-  + [Visitor engagement expiration](c-marketing-channels/visitor-engagement.md)
+  + [Get started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
+  + [Attribution IQ with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)

@@ -1,8 +1,9 @@
 ---
 title: Exits
 description: An instance of the last value in a visit.
+feature: Metrics
+exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
 ---
-
 # Exits
 
 *This help page describes how exits work as a metric. For information on how exits work as a dimension, see [Exit dimensions](../dimensions/exit-dimensions.md).*

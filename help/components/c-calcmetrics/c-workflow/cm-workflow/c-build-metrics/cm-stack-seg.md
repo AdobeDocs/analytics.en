@@ -1,9 +1,9 @@
 ---
 description: Shows how to stack and replace segments within the Calculated Metric Builder.
 title: Stack and replace segments
-uuid: f6d4db9e-d982-4731-b342-7e49dee02035
+feature: Calculated Metrics
+exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
 ---
-
 # Stack and replace segments
 
 Shows how to stack and replace segments within the Calculated Metric Builder.
@@ -19,4 +19,3 @@ In the Definition canvas, simply drop the new segment next to the existing one:
 In the Definition canvas, simply drop the new segment on top of the existing one:
 
 ![](assets/cm_replace_seg.png)
-

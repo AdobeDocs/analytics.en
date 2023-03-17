@@ -1,8 +1,8 @@
 ---
 title: Analyze data impacted by events
 description: Understand how data impacted by an event contributes to overall data quality.
+exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 ---
-
 # Analyze data impacted by events
 
 Sometimes an event can impact data quality in your organization. Examples include:

@@ -1,8 +1,9 @@
 ---
 title: Segmentation best practices
 description: Create optimal segments that return data efficiently.
+feature: Segmentation
+exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 ---
-
 # Segmentation best practices
 
 Complex segments are often necessary to obtain desired data. If complex segments are inefficient and used in a large report suite, reports take considerably longer to run. Consider the following resources when creating or editing a segment to minimize complexity.

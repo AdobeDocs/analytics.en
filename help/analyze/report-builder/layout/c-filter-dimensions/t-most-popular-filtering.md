@@ -1,10 +1,11 @@
 ---
 description: Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
 title: Most popular filtering
-topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
+feature: Report Builder
+role: User, Admin
+exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 ---
-
 # Most popular filtering
 
 Ranking and conditional filters that you configure using Boolean logic with AND/OR search expressions.
@@ -15,7 +16,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
 
-   ![Step Info](assets/dimension_filter.png)
+   ![Step Info](/help/admin/admin/assets/filter.png)
 
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 1. On the [!UICONTROL Choose Page] form, enable **[!UICONTROL Most Popular]**, then configure the following options:

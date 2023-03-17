@@ -1,9 +1,9 @@
 ---
 description: There are visitor metrics in Adobe Analytics and Adobe Audience Manager that have similar definitions, and but that are not 100% aligned, for various reasons.
 title: Visitor Count differences
-uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+feature: Audience Analytics
+exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 ---
-
 # Visitor Count differences
 
 There are visitor metrics in Adobe Analytics and Adobe Audience Manager that have similar definitions, and but that are not 100% aligned, for various reasons.
@@ -19,11 +19,11 @@ The visitor metrics are:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment during the lookback period. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>Count of devices (Experience Cloud IDs) that were a member of your segment and reached your properties during the lookback period. </p> </td> 
   </tr> 
   <tr> 

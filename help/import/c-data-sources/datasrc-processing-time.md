@@ -1,9 +1,9 @@
 ---
-description: null
+description: Information around the length of time Adobe takes to process data sources.
 title: Data Sources processing time
-uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
+feature: Data Sources
+exl-id: 2445775b-e079-45f0-afcc-b373c63350e8
 ---
-
 # Data Sources processing time
 
 >[!NOTE]

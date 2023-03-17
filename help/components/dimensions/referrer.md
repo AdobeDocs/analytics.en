@@ -1,15 +1,16 @@
 ---
 title: Referrer
 description: The URL a visitor was at before clicking through to your site.
+feature: Dimensions
+exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 ---
-
 # Referrer
 
 The 'Referrer' dimension reports which URLs visitors were on when clicking through to reach your site. This dimension is useful to understand which specific URLs drive the most traffic to your site. A link must exist on the external URL and a visitor must click it in order for the dimension item to show up.
 
 >[!IMPORTANT]
 >
->You must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
+>You must configure your report suite's [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) to use this dimension. Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
 
 The same report can show different results between Analysis Workspace and Data Warehouse. Analysis Workspace reports the referrer for each individual page, excluding values that match internal URL filters. Data Warehouse reports only the first referrer of the visit, and ignores internal URL filters.
 
@@ -17,8 +18,8 @@ The same report can show different results between Analysis Workspace and Data W
 
 This dimension requires configuration in the Analytics interface and data in image requests.
 
-* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. You can use the [`referrer`](/help/implement/vars/page-vars/referrer.md) variable override to manually set it. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
-* Within the Analytics interface, you must configure your report suite's [Internal URL filters](/help/admin/admin/internal-url-filter-admin.md). Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
+* Within your implementation, this dimension retrieves data from the [`r` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `document.referrer` in the browser. You can use the [`referrer`](/help/implement/vars/page-vars/referrer.md) variable override to manually set it. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `r` query string parameter in image requests.
+* Within the Analytics interface, you must configure your report suite's [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Failure to configure internal URL filters can either include internal URLs or prevent external URLs from appearing.
 
 ## Dimension items
 

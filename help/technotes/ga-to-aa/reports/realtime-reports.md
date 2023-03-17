@@ -1,8 +1,9 @@
 ---
 title: Real-time reports in Adobe Analytics
 description: Learn how to pull real-time reports in Adobe Analytics, geared towards users more familiar with Google Analytics.
+feature: Third-party Integration
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 ---
-
 # Real-time reports
 
 Real-time reports show what's happening on your site right now. These types of reports are especially valuable to see immediate results of updates you make to your site. For example, a company running a sale on Black Friday can gauge traffic to specific pages and determine which sales to prioritize based on performance in that moment.

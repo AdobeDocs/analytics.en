@@ -1,9 +1,10 @@
 ---
-description: null
+description: Specify the touchpoints to create a multi-dimensional fallout sequence.
 title: Configure a fallout visualization
-uuid: fc117745-baf3-46fb-873d-9307092cc337
+feature: Visualizations
+role: User, Admin
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 ---
-
 # Configure a fallout visualization
 
 You can specify the touchpoints to create a multi-dimensional fallout sequence. Commonly, a touchpoint is a page on your site. However, touchpoints are not limited to pages. For example, you can add events, such as units, as well as unique visitors and return visits. You can also add dimensions, such as a category, browser type, or internal search term.
@@ -12,7 +13,7 @@ You can even add segments within a touchpoint. For example, you might want to co
 
 There is no limitation on the number of steps you can add or the number of dimensions used.
 
-You can do pathing on eVars, including merchandising eVars and [listVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
+You can do pathing on eVars, including merchandising eVars and [listVars](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (variables that can have multiple values per hit, such as products, listVars, merchandising eVars and list props). For example, suppose someone is looking at shoes,shirt on one page, and on the next page they're looking at shirt,socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
 
 1. Drag a [!UICONTROL Fallout] visualization from the Visualizations drop-down into a [!UICONTROL Freeform Table].
 
@@ -44,11 +45,11 @@ You can do pathing on eVars, including merchandising eVars and [listVars](https:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eventual Path </p> <p>(Default) </p> </td> 
-   <td colname="col2"> <p>Visitors are counted that will "eventually" land on the next page in the path, but not necessarily on the next hit. </p> </td> 
+   <td colname="col2"> <p>Visitors (or visits) are counted when they eventually land on the next touchpoint in the path. Detours are allowed in between touchpoints. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Next Hit </p> </td> 
-   <td colname="col2"> <p>Visitors are counted that will land on the next page in the path on the very next hit. </p> </td> 
+   <td colname="col2"> <p>Visitors (or visits) are counted when they immediately land on the next touchpoint in the path. Next hit includes any hit type (page views or links). Detours are not allowed between touchpoints. </p> </td> 
   </tr> 
  </tbody> 
 </table>

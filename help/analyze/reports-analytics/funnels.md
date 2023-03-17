@@ -1,11 +1,14 @@
 ---
 description: Conversion ratios usually measure conversion between the starting, ending, and milestone events or points of a conversion process. After you code the success events onto your site, the report creates the ratios between these different success events and show them in a Conversion Funnel Report.
 title: Conversion Funnel
-topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 ---
-
 # Conversion Funnel
+
+{{ra-eol}}
 
 Conversion ratios usually measure conversion between the starting, ending, and milestone events or points of a conversion process. After you code the success events onto your site, the report creates the ratios between these different success events and show them in a Conversion Funnel Report.
 
@@ -28,4 +31,3 @@ The report table shows statistics for average sales per click-through, and avera
 >[!NOTE]
 >
 >Instances in the context of these reports equates to the total number of visits where an eVar or event was defined.
-

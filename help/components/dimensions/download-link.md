@@ -1,8 +1,9 @@
 ---
 title: Download link
 description: The name of the download link.
+feature: Dimensions
+exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 ---
-
 # Download link
 
 The 'Download link' dimension reports the names of download links implemented on your site. This dimension is valuable when you want to learn more about visitor behavior around download links, such as:
@@ -15,11 +16,7 @@ The 'Download link' dimension reports the names of download links implemented on
 
 This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_d`. If the `pe` query string has a different value in the hit, this dimension does not collect data.
 
-If you want to send data to this dimension using AppMeasurement:
-
-* Populate the [`linkName`](/help/implement/vars/config-vars/linkname.md) variable with the desired value.
-* Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"d"`.
-* Send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request.
+If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"d"`. Populate the link name argument with the desired value.
 
 ## Dimension items
 

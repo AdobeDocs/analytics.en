@@ -1,13 +1,14 @@
 ---
 title: SSL Certificate Licensing
-description: Certificate proceedures for Customer Managed certificates
+description: Certificate procedures for Customer Managed certificates
+feature: Regional Data Collection
+exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
 ---
-
 # SSL/TLS Certificate Licensing
 
-Adobe recommends that you manage your certificate at no additional cost through the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html). The Adobe Managed Certificate prorgram is fully automated and ensures certificates are renewed in a timely manner so that there is no impact due to expired certificates.
+Adobe recommends that you manage your certificate at no additional cost through the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html). The Adobe Managed Certificate prorgram is fully automated and ensures certificates are renewed in a timely manner so that there is no impact due to expired certificates.
 
-If you use choose not to use the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) you are responsible for providing a SSL/TLS certificate to be used for first-party cookies.  
+If you use choose not to use the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) you are responsible for providing a SSL/TLS certificate to be used for first-party cookies.  
 
 If you provide your own certificate, it is your responsibility to purchase and maintain it.  Your SSL/TLS certificate must include an unlimited server license. 
 
@@ -17,4 +18,4 @@ As part of certificate maintenance, at least one month prior to the expiration o
 
 Customer Care can be reached at customercare@adobe.com or 1-800-497-0335.
 
-Commonly used certificate authorities include DigiCert, Comodo and GeoTrust. 
+Commonly used certificate authorities include DigiCert, Comodo and GeoTrust.

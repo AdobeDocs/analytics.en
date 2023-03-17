@@ -1,8 +1,9 @@
 ---
 title: cookieLifetime
 description: Override the expiration for cookies that AppMeasurement creates.
+feature: Variables
+exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 ---
-
 # cookieLifetime
 
 Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `cookieLifetime` variable to override the expiration date for cookies set by AppMeasurement.
@@ -11,14 +12,18 @@ Cookies set by AppMeasurement typically have an expiration of 2 years. Use the `
 >
 >This variable impacts unique visitor counts and attribution. Use caution when setting this variable.
 
-## Cookie Lifetime in Adobe Experience Platform Launch
+## Cookie Lifetime using the Web SDK
+
+The Web SDK does not yet offer customization to the lifetime of cookies that it sets.
+
+## Cookie Lifetime using the Adobe Analytics extension
 
 Cookie Lifetime is a dropdown under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Cookie Lifetime] dropdown.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
+1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Cookie Lifetime] dropdown.
 
 This dropdown contains the following values:
 
@@ -27,7 +32,7 @@ This dropdown contains the following values:
 * **Session**: Cookie expires at the end of the visitor's session.
 * **Seconds**: Cookie expires after the specified number of seconds have elapsed. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
 
-## s.cookieLifetime in AppMeasurement and Launch custom code editor
+## s.cookieLifetime in AppMeasurement and the Analytics extension custom code editor
 
 The `s.cookieLifetime` variable is a string that determines the expiration date of cookies set by AppMeasurement.
 

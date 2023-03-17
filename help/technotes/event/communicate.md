@@ -1,8 +1,8 @@
 ---
 title: Communicate impact to users
 description: Learn effective ways to communicate the impact of an event in your organization.
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 ---
-
 # Communicate event impact to users
 
 If you have data [impacted by an event](overview.md), it is important to communicate that event to users in your organization.
@@ -54,7 +54,7 @@ For any trended visualization in Workspace, you can add in a series that represe
 
 If you use Reports & Analytics, you can use a [calendar event](/help/components/t-calendar-event.md) to highlight affected days in any trended report. This method does not apply to Analysis Workspace.
 
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 2. Enter the desired title, date range, and note text.
 3. Click **[!UICONTROL Save]**.
 

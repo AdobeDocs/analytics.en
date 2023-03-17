@@ -1,11 +1,14 @@
 ---
 description: Full subrelations are enabled on all conversion reports, so you can break down any eVar by another eVar. The Breakdown By menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
 title: Subrelations
-topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 ---
-
 # Subrelations
+
+{{ra-eol}}
 
 Full subrelations are enabled on all conversion reports, so you can break down any eVar by another eVar. The Breakdown By menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
 
@@ -48,4 +51,3 @@ In essence, subrelations follow these steps to populate your report:
 * Isolate the image requests containing the success event(s) you are viewing in the report.
 * Return the persisted values from each conversion variable used in the subrelation.
 * Organize the values based on the order of subrelation. If a variable does not have a persisted value (such as if an eVar was never defined or expired), it will be bucketed under 'None'.
-

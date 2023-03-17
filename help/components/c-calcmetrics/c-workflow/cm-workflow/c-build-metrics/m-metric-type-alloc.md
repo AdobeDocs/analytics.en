@@ -1,9 +1,9 @@
 ---
 description: Learn about 
 title: Metric Type and Attribution
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 ---
-
 # Metric Type and Attribution
 
 Selecting the gear icon next to a metric lets you specify the metric type and the attribution model.
@@ -21,16 +21,15 @@ Selecting the gear icon next to a metric lets you specify the metric type and th
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), which revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models: 
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) revised the way allocation models in calculated metrics are evaluated. As part of this change, calculated metrics that use a non-default allocation model were migrated to new improved attribution models:
 >
->* For a full list of non-default attribution models and lookback windows supported, see the [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) documentation.
+>* For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 >* "Marketing Channel Last Touch" and "Marketing Channel First Touch" allocation models will be migrated to new "Last Touch" and "First Touch" attribution models respectively (Note: "Marketing Channels" will not be deprecated - only the two allocation models that appear in calculated metrics will be).
->* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports & Analytics, the Reporting API, Report Builder, and Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
->
+>* In addition, we will correct the way Linear allocation is calculated. For customers using calculated metrics with "Linear" allocation models, the reports may change slightly to reflect the new, corrected attribution model. This change to calculated metrics will be reflected in Analysis Workspace, Reports & Analytics, the Reporting API, and Report Builder. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 
-## How linear allocation works (as of July 19, 2018) 
+## How linear allocation works (as of July 19, 2018)
 
-In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Ad Hoc Analysis, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change primarily impacts eVars and other dimensions that have persistence. Note that these changes apply only to calculated metrics and do not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
+In July 2018, Adobe changed how linear allocation is reported for Calculated Metrics. This change impacts Analysis Workspace, Reports & Analytics, Report Builder, Activity Map, and the Reporting APIs. The change primarily impacts eVars and other dimensions that have persistence. Note that these changes apply only to calculated metrics and do not impact other reports using linear allocation (such as the Pages report in Reports & Analytics). Other reports using linear allocation will continue to use the existing method of linear allocation.
 
 The following example illustrates how calculated metrics with linear allocation will change in reporting: 
 
@@ -63,9 +62,9 @@ For the first touch eVar above, all $10 would be given to A. For the prop: A = 1
 |  PROMO C  | $1.67  | $0  | $2.50  |
 |  Total  | $10.00  | $10.00  | $10.00  |
 
-**Summary of how linear allocation works as of July 19, 2018**
+**Summary of how linear allocation works now**
 
-After July 19th, we corrected this behavior in calculated metrics. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50.
+Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). As such, the dimension allocation settings no longer impact the way linear allocation is calculated (meaning props and eVars will be treated in the same way), and the results reflect what was originally passed in rather than the first or last touch values that may have persisted. So, in all three cases, A = 10 &#42; (2/4) = $5, B = 10 &#42; (1/4) = $2.50, and C = 10 &#42; (1/4) = $2.50.
 
 |  Values  | New Last Touch eVar  | New First Touch eVar  | New Prop  |
 |---|---|---|---|
@@ -73,4 +72,3 @@ After July 19th, we corrected this behavior in calculated metrics. Instead of us
 |  PROMO B  | $2.50  | $2.50  | $2.50  |
 |  PROMO C  | $2.50  | $2.50  | $2.50  |
 |  Total  | $10.00  | $10.00  | $10.00  |
-

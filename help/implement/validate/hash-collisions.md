@@ -1,8 +1,9 @@
 ---
 title: Hash collisions
 description: Describes what a hash collision is and how it can manifest.
+feature: Validation
+exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 ---
-
 # Hash collisions
 
 Adobe treats prop and eVar values as strings, even if the value is a number. Sometimes these strings are hundreds of characters long, other times they are short. To save space, improve performance, and make everything uniformly sized, the strings are not used directly in processing. Instead, a 32-bit or 64-bit hash is computed for each value. All reports run on these hashed values, where each hash is replaced by the original text. Hashes drastically increase the performance of Analytics reports.

@@ -1,11 +1,9 @@
 ---
 description: Definitions of interface elements on the pages in the Classification Rule Builder.
-subtopic: Classifications
 title: Classification rules - definitions
-topic: Admin tools
-uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+feature: Classifications
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 ---
-
 # Classification rules - definitions
 
 Definitions of interface elements on the pages in the Classification Rule Builder.
@@ -28,7 +26,7 @@ This page displays the rules in a rule set.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Select Report Suites and Variables </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>The report suites to which the rule set applies. </p> <p><b>Variable</b> </p> <p>You can apply only one variable when creating a classification rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites. </p> <p>Note: You can use only the variables you have access to in your report suites. Variables will display in the <span class="wintitle"> New Rule Set</span> panel only after they have at least one classification defined for that variable. </p> <p> You can create classifications on a variable in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (or <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Then select the variable, then click <span class="uicontrol"> Add Classification</span>. </p> <p>See <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Traffic Classifications</a> and <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversion Classifications</a> in Admin Help. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>The report suites to which the rule set applies. </p> <p><b>Variable</b> </p> <p>You can apply only one variable when creating a classification rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites. </p> <p>Note: You can use only the variables you have access to in your report suites. Variables will display in the <span class="wintitle"> New Rule Set</span> panel only after they have at least one classification defined for that variable. </p> <p> You can create classifications on a variable in <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span> &gt; <span class="uicontrol"> Traffic</span> &gt; <span class="uicontrol"> Traffic Classifications</span> (or <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Conversion Classifications</span>). Then select the variable, then click <span class="uicontrol"> Add Classification</span>. </p> <p>See <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  > Traffic Classifications</a> and <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  > Conversion Classifications</a> in Admin Help. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activate</span> </p> </td> 
@@ -137,4 +135,3 @@ This page lets you test rules in a set.
 |---|---|
 |  Run Test  | When you test the rule set, use keys from the report to see how they will be impacted by the rule set.  |
 |  Filter  |Filters the values in the [!UICONTROL Results] panel.  |
-

@@ -1,8 +1,9 @@
 ---
 description: Various reports in Adobe Analytics can show Unspecified, None, Other, or Unknown, depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable.
 title: Unspecified, None, Other, and Unknown in reporting
+feature: Analytics Basics
+exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
 ---
-
 # "Unspecified", "None", "Other", and "Unknown" in reporting
 
 Various reports in Adobe Analytics can show "Unspecified", "Other", or "Unknown", depending on the specific report viewed. Generally, this line item means that the variable was not defined or otherwise unavailable. The following provides a comprehensive list of how each report can have one of these line items.

@@ -1,8 +1,9 @@
 ---
 title: Average page depth
 description: How many pages in on average the dimension exists at.
+feature: Metrics
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 ---
-
 # Average page depth
 
 The 'Average page depth' metric shows how far in a given visit the dimension item is at. For example, your home page would typically show a smaller average page depth than your purchase confirmation page, which would typically be further in a visit. This metric is helpful when you want to understand how many pages in a given dimension item sits on average. You can use this information to optimize certain pages toward fresh visitors if the page as a low depth on average.

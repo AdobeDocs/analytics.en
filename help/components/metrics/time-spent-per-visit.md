@@ -1,8 +1,9 @@
 ---
-title: Time spent per visit
+title: Time spent per visit (metrics)
 description: The amount of time spent per visit for the dimension item.
+feature: Metrics
+exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 ---
-
 # Time spent per visit (seconds)
 
 *This help page describes how 'Time spent per visit' works as a metric. See the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension for more information.*
@@ -13,7 +14,7 @@ This metric is not available in Data Warehouse due to its different processing a
 
 ## How this metric is calculated
 
-This metric uses the formula [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+This metric uses the formula [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 
 ## Comparison to Average time on site
 

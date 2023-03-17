@@ -1,8 +1,10 @@
 ---
 title: Scatterplot
 description: A visualization that shows the relationship between up to three metrics.
+feature: Visualizations
+role: User, Admin
+exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 ---
-
 # Scatterplot
 
 The scatterplot visualization shows the relationship between dimension items and up to three metrics. It requires three components, and supports visualizing up to four components.
@@ -14,3 +16,7 @@ The scatterplot visualization shows the relationship between dimension items and
 * All subsequent columns in a freeform table are ignored by the scatterplot visualization.
 
 ![Scatterplot](assets/scatter.png)
+
+Here is a video on scatterplot visualizations:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

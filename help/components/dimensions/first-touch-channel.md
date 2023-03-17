@@ -1,15 +1,16 @@
 ---
 title: First touch channel
 description: The first marketing channel within the visitor's engagement expiration.
+feature: Dimensions
+exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
 ---
-
 # First touch channel
 
 The 'First touch channel' dimension reports the first marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding which marketing channels drive initial traffic to your site, allowing you to focus marketing efforts in areas that are most effective.
 
 ## Populate this dimension with data
 
-This dimension directly references channel names that you have defined in the [Marketing channel manager](/help/admin/admin/marketing-channels-admin.md).
+This dimension directly references channel names that you have defined in the [Marketing channel manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Every hit sent to Adobe data collection servers run through your report suite's Marketing channel processing rules. It iterates through each rule in numeric order until it finds a match, in which that marketing channel ties to the hit. The first touch channel persists with the visitor until they don't visit the site for longer than the visitor engagement period (30 days by default).
 

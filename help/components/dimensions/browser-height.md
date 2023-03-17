@@ -1,8 +1,9 @@
 ---
 title: Browser height - bucketed
 description: The height of the browser window in pixels.
+feature: Dimensions
+exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 ---
-
 # Browser height
 
 The 'Browser height - bucketed' dimension shows the height of the browser window, classified in groups of 100 pixels. This dimension is useful when you want to understand where the "fold" is on your site to visitors. Understanding where your fold is can allow you to optimize content for viewing.
@@ -17,7 +18,7 @@ Browser height is always smaller than or equal to screen height, since browser h
 
 ## Populate this dimension with data
 
-This dimension retrieves data from the [`bh` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerHeight` in the browser. If you use an AppMeasurement library (such as through Adobe Experience Platform Launch), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bh` query string parameter on the first hit of each visit.
+This dimension retrieves data from the [`bh` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerHeight` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bh` query string parameter on the first hit of each visit.
 
 Adobe persists browser height for a visit. If browser height is adjusted mid-visit, the adjustment is not recorded.
 

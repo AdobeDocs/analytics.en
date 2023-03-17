@@ -1,8 +1,9 @@
 ---
 title: Mobile views
 description: Decommissioned metric; no longer used.
+feature: Metrics
+exl-id: 091ea02c-d67e-484c-a7cc-7f9b1358a2f7
 ---
-
 # Mobile views
 
 >[!IMPORTANT]

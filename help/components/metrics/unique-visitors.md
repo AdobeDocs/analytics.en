@@ -1,13 +1,14 @@
 ---
 title: Unique visitors
-description: The number of unique individuals (or devices).
+description: The number of unique visitor IDs.
+feature: Metrics
+exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 ---
-
 # Unique visitors
 
-The 'Unique visitors' metric shows the number of visitor ID's for the dimension item. It is one of the most common metrics used when determining traffic, as it gives a high-level overview of the popularity of a dimension item. For example, a visitor can come to your site every day for a month, but they still count as a single unique visitor.
+The 'Unique visitors' metric shows the number of visitor IDs for the dimension item. It is one of the most common metrics used when determining traffic, as it gives a high-level overview of the popularity of a dimension item. For example, a visitor can come to your site every day for a month, but they still count as a single unique visitor.
 
-If you use [Cross-device analytics](../cda/overview.md), this metric is renamed to 'Unique Devices'.
+If you use [Cross-device analytics](../cda/overview.md), this metric is replaced with the [Unique devices](unique-devices.md) metric.
 
 ## Daily, weekly, monthly, quarterly, and yearly unique visitors
 
@@ -22,9 +23,9 @@ This metric counts the number of unique visitor ID's for a given dimension item.
 | Order Used | Query Parameter (collection method) | Present When |
 | --- | --- | --- |
 | 1 | `vid` | The [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
-| 2 | `aid` | Visitor has an existing [`s_vi`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations without or prior to implementing the Visitor ID service. |
-| 3 | `mid` | Visitor has an existing [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://docs.adobe.com/content/help/en/id-service/using/home.html). |
-| 4 | `fid` | Visitor has an existing [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) cookie, or if `aid` and `mid` could not be set for any reason. |
+| 2 | `aid` | Visitor has an existing [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations without or prior to implementing the Visitor ID service. |
+| 3 | `mid` | Visitor has an existing [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 4 | `fid` | Visitor has an existing [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, or if `aid` and `mid` could not be set for any reason. |
 | 5 | IP Address, User Agent, Gateway IP Address | Last resort to identify a unique visitor if the visitor's browser does not accept cookies. |
 
 >[!NOTE]

@@ -1,8 +1,10 @@
 ---
 title: Visual Basic macros in Report Builder
 description: Expand the functionality of Excel workbooks and Report Builder using VBA.
+feature: Report Builder
+role: User, Admin
+exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 ---
-
 # Visual Basic macros in Report Builder
 
 VBA macros, also known as Visual Basic macros, allow you to manipulate workbooks in ways Microsoft Excel alone cannot. Visual Basic has access to the workbook, Excel, and even Windows.

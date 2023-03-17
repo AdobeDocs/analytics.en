@@ -1,62 +1,64 @@
 ---
-title: Create an Analytics property in Launch
-description: Create a space to customize how data is collected, using Adobe Experience Platform Launch.
+title: Create an Analytics property in tags
+description: Create a space to customize how data is collected, using tags.
+feature: Launch Implementation
+exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 ---
+# Create an Adobe Analytics tag property
 
-# Create an Analytics property in Adobe Experience Platform Launch
-
-Adobe Experience Platform Launch is the tool you can use to integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a Launch admin can get a basic Adobe Analytics implementation configured correctly.
+Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a tag admin can get a basic Adobe Analytics implementation configured correctly.
 
 ## Prerequisites
 
-[Create a report suite](/help/admin/admin-console/create-report-suite.md): Create a silo for Analytics data to be collected
+[Create a report suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Create a silo for Analytics data to be collected.
 
-## Create a property and install vital extensions
+## Create a tag property and install vital extensions
 
 Properties are overarching containers you use to manage tags. Extensions let you install product-specific tags and configure them.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click **[!UICONTROL New Property]**.
 1. Give your Property a name, such as the title of your website, and enter the domain you intend to implement Analytics on. Click **[!UICONTROL Save]**.
-1. Click your newly created property to enter its settings.
+1. Click your newly created tag property to enter its settings.
 1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
-1. Locate Identity Service, then click **[!UICONTROL Install]**.
+1. Locate 'Experience Cloud ID Service', then click **[!UICONTROL Install]**.
 1. All settings, including Experience Cloud Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
 1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
+
+See the full documentation for the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) for more detailed information.
 
 ## Create data elements for Adobe Analytics
 
 Data elements are references to specific parts of your site to collect variable values.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Click the Launch property that you intend to implement on your site.
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the tag property that you intend to implement on your site.
+1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Add Data Element]**.
 1. Give the data element the following settings:
 
    * Name: Page Name
    * Extension: Core
    * Data Element Type: JavaScript Variable
-   * Path to variable: `window.document.title`
+   * JavaScript variable name: `window.document.title`
 
      >[!NOTE]
      >
-     >This is an example value to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
+     >This value serves as an example to help get started. If your organization defines a better value for page name, such as a data layer value, you can enter it here.
    * Clean text checked
-   * Duration: Pageview
+   * Storage Duration: None
 1. Click **[!UICONTROL Save]**.
 
 ## Create rules for Adobe Analytics
 
 Rules map data elements to Analytics variable values, and determine when those values are sent to Adobe's servers.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
-1. Click the Launch property that you intend to implement on your site.
-1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the tag property that you intend to implement on your site.
+1. Click the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Add Rule]**. Name it `Global Rule`.
 1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
    * Extension: Core
    * Event Type: Library Loaded (Page Top)
    * Name: Core - Library Loaded (Page Top)
-   * Order: 50
 1. Click **[!UICONTROL Keep Changes]**.
 1. Under **[!UICONTROL Actions]**, click **[!UICONTROL Add]**, and enter the following settings:
    * Extension: Adobe Analytics
@@ -71,12 +73,6 @@ Rules map data elements to Analytics variable values, and determine when those v
    * Tracking: s.t()
 1. Click **[!UICONTROL Keep Changes]**.
 1. Verify that you have the event and two actions set, then click **[!UICONTROL Save]**.
-
-## Documentation and additional resources
-
-* [Adobe Analytics extension documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Full documentation specific to the Adobe Analytics extension in Adobe Experience Platform Launch.
-* [Getting Started with Launch](https://docs.adobelaunch.com/getting-started): Full documentation for Launch, including a more in-depth getting started guide
-* [Adobe Experience Platform Launch YouTube channel](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Learn how to use Launch through videos
 
 ## Next steps
 

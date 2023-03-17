@@ -1,10 +1,9 @@
 ---
 description: Administrative steps for setting up Real-Time reports.
 title: Configure real-time reports
-topic: Admin tools
-uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
+feature: Real-time
+exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 ---
-
 # Configure real-time reports
 
 Administrative steps for setting up Real-Time reports.
@@ -15,11 +14,11 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
    Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
 
-   ![](assets/report_suite_selector.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
    If you try to view real-time reports for a report suite that has not been set up for real-time reporting, a message displays that enables you to set up the report suite.
 
-   ![](assets/rep_suite_not_set_up.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
 1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
 
@@ -30,7 +29,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](/help/components/c-real-time-reporting/realtime-metrics.md).
+   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    If you have created classifications, they appear indented under the dimension for which they are defined:
 
@@ -46,10 +45,10 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
    >
    >Some dimensions, such as "Search Keyword" or "Product", do not persist in Real-Time like they do elsewhere in Adobe Analytics. When you select a non-persistent metric, this warning appears:
 
-   ![](assets/warning_dimensions.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
 1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. By default, all users have access to Real-Time reports.

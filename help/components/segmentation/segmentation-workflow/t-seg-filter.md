@@ -1,10 +1,9 @@
 ---
 description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
 title: Filter segments
-topic: Segments
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
+feature: Segmentation
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 ---
-
 # Filter segments
 
 Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
@@ -27,4 +26,3 @@ Filtering makes it easier to search for segments in the segment rail.
    |  Other Filters > Favorites  |Shows all segments you marked as [Favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md).  |
    |  Other Filters > Approved  |Shows all officially [approved](/help/components/segmentation/segmentation-workflow/seg-approve.md) segments.  |
    |  Search Segments  | Lets you search for segments by name.  |
-

@@ -1,9 +1,9 @@
 ---
 description: Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
 title: Share calculated metrics
-uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
+feature: Calculated Metrics
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
 ---
-
 # Share calculated metrics
 
 Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
@@ -34,4 +34,3 @@ When should you share metrics with the entire company versus just a group of use
    The Shared icon appears next to the metric:  ![](assets/share_icon.png)
 
 1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
-

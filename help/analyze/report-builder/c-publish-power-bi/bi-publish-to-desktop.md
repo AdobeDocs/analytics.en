@@ -1,9 +1,10 @@
 ---
 description: Explains how to pull Report Builder-published assets into Power BI Desktop
 title: Pull published assets into Power BI Desktop
-uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
+feature: Report Builder
+role: User, Admin
+exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 ---
-
 # Pull published assets into Power BI Desktop
 
 Explains how to pull Report Builder-published assets into Power BI Desktop

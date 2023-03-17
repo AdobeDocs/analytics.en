@@ -1,19 +1,26 @@
 ---
 title: contextData
 description: Context data variables let you define custom variables on each page that processing rules can read.
+feature: Variables
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 ---
-
 # contextData
 
-Context data variables let you define custom variables on each page that processing rules can read. Instead of explicitly assigning values to Analytics variables in your code, you can send data in context data variables. Processing rules then take context data variable values and pass them into respective Analytics variables. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+Context data variables let you define custom variables on each page that processing rules can read. Instead of explicitly assigning values to Analytics variables in your code, you can send data in context data variables. Processing rules then take context data variable values and pass them into respective Analytics variables. See [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
 
 Context data variables are helpful for development teams to collect data in named elements instead of numbered variables. For example, instead of requesting development teams assign the page's author to `eVar10`, you can request they assign it to `s.contextData["author"]` instead. An Analytics administrator in your organization can then create processing rules to map context data variables into analytics variables for reporting. Development teams would ultimately only worry about context data variables instead of the many page variables Adobe offers.
 
-## Context data variables in Adobe Experience Platform Launch
+## Context data variables using the Web SDK
 
-Launch does not have a dedicated location to set context data variables. Use the custom code editor, following AppMeasurement syntax.
+If an XDM field is not [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), it is automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
 
-## s.contextData in AppMeasurement and Launch custom code editor
+While it is a best practice to map data to the correct XDM fields in the Datastream, this method achieves similar results.
+
+## Context data variables using the Adobe Analytics extension
+
+Adobe Experience Platform Data Collection does not have a dedicated location to set context data variables. Use the custom code editor, following AppMeasurement syntax.
+
+## s.contextData in AppMeasurement and the Analytics extension custom code editor
 
 The `s.contextData` variable does not directly take a value. Instead, set properties of this variable to a string.
 
@@ -28,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Use processing rules to populate analytics variables
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
 

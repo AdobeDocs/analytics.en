@@ -1,10 +1,11 @@
 ---
 description: Activity Map provides two basic modes to provide complementary reporting of page activity.
 title: Standard Mode vs. Live Mode
-topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
+feature: Activity Map
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
 ---
-
 # Standard Mode vs. Live Mode
 
 Activity Map provides two basic modes to provide complementary reporting of page activity.
@@ -20,7 +21,7 @@ In **Standard Mode**, you can select the date range in the toolbar as shown belo
 
 ![](assets/standard_mode.png)
 
-In this mode, Commerce metrics that do not have "Participation" enabled are linearly allocated. For example, let's say a user clicks on a link "IPod mini" on the home page, then navigates through 3 more pages. On the 4th page, he purchases an IPod mini for $200. The "IPod mini" link will receive $200 of participation revenue and $50 ($200/4) of revenue (linearly allocated revenue).
+In this mode, Commerce metrics that do not have "Participation" enabled are linearly allocated. For example, let's say a user clicks on a link "IPod mini" on the home page, then navigates through 3 more pages. On the 4th page, the user purchases an IPod mini for $200. The "IPod mini" link will receive $200 of participation revenue and $50 ($200/4) of revenue (linearly allocated revenue).
 
 Q: What if a page has links with the same link name in separate regions? Do the two links receive credit separately since they have different regions but the same link name on a page?
 
@@ -37,4 +38,3 @@ Live mode responds to the needs of publishing organizations. These organizations
 >Virtual Report Suites are not compatible with Live Mode, only with Standard Mode.
 
 ![](assets/live_mode.png)
-

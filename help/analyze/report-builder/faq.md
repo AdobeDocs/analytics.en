@@ -1,8 +1,10 @@
 ---
 title: Report Builder FAQ
 description: Frequently asked questions for Report Builder.
+feature: Report Builder
+role: User, Admin
+exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 ---
-
 # Report Builder FAQ
 
 Frequently asked questions around Report Builder.
@@ -21,6 +23,6 @@ As an alternative to using these Excel functions, Adobe highly recommends using 
 
 Report Builder supports workbooks up to the following limits:
 
-* **1000 requests**: A workbook can contain up to 1000 data requests in a single workbook. If you have reports or projects that require more than 1000 requests, Adobe recommends separating them into multiple workbooks.
+* **1000 requests**: A single workbook can contain up to 1000 data requests. If you have reports or projects that require more than 1000 requests, Adobe recommends separating them into multiple workbooks.
 * **20K requests per hour per company**: Report Builder uses the Analytics reporting API to retrieve data. Each individual request uses an API call whenever it is created or refreshed. If your organization accumulates more that 20,000 API calls in a given hour, you must wait until the next hour to retrieve data again.
-* **4-hour processing time**: Scheduled reports time out after processing past 4 hours. If your workbook contains many complex requests using large data sets, the scheduled report can fail.
+* **4-hour processing time**: Scheduled reports time out after processing for more than 4 hours. If your workbook contains many complex requests using large data sets, the scheduled report can fail.

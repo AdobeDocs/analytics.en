@@ -2,11 +2,13 @@
 description: A dashboard is a collection of thumbnail reports called reportlets. A dashboard is most useful when it contains related reportlets that give you complete overviews of certain aspects of your site, such as finding methods, visitor profiles, and so on.
 subtopic: Dashboards
 title: Dashboards and reportlets
-topic: Reports and analytics
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 ---
-
 # Dashboards and reportlets
+
+{{ra-eol}}
 
 A dashboard is a collection of thumbnail reports called reportlets. A dashboard is most useful when it contains related reportlets that give you complete overviews of certain aspects of your site, such as finding methods, visitor profiles, and so on.
 
@@ -36,11 +38,11 @@ Be aware that some frequently viewed reports cannot be dashboarded and will not 
 
 In addition to the dashboards you create, the following prepackaged dashboards are included for each user: 
 
-**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Local Sites]**
+**[!UICONTROL Components] > [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Local Sites]**
 
 This customizable dashboard provides you a way to drop reportlets into the template provided.
 
-**[!UICONTROL Components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Components] > [!UICONTROL All components] > [!UICONTROL Dashboards] > [!UICONTROL Shared Dashboards] > [!UICONTROL Site Operations Dashboard]**
 
 This dashboard provides you an overview of key metrics related to your website operations. Reports on this dashboard include:
 
@@ -57,7 +59,6 @@ See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Create a dashboard {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Steps that describe how to create a dashboard.
 
 <!-- 
 
@@ -66,6 +67,8 @@ t_dashboard_add.xml
  -->
 
 Before adding a report (as a reportlet) to a dashboard, define the dashboard's layout.
+
+To create a dashboard:
 
 1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
@@ -88,13 +91,15 @@ Before adding a report (as a reportlet) to a dashboard, define the dashboard's l
 
 ## Create a reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Steps that describe how to create a reportlet. Once you create a reportlet, it is available to display in a dashboard.
+After you create a reportlet, it is available to display in a dashboard.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+To create a reportlet:
 
 1. Run a report.
 1. Click **[!UICONTROL Dashboard.]**
@@ -114,13 +119,15 @@ t_dashboard_add_report.xml
 
 ## Add content to a dashboard {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Steps that describe how to add content from other dashboards and shared dashboards. You can also add content from custom and external sources, such as text and images.
+You can add content from other dashboards and shared dashboards. You can also add content from custom and external sources, such as text and images.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+To add content to a dashboard:
 
 1. Open a dashboard, then click **[!UICONTROL Layout]**.
 1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
@@ -181,7 +188,7 @@ t_dashboard_edit.xml
 
 **To edit dashboard and reportlet data** 
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
+1. Click **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
 | To  | Do this  |
@@ -201,7 +208,7 @@ t_dashboard_edit.xml
 
 ## Co-brand a dashboard {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Steps that describe how to upload an image to display in a dashboard.
+To upload an image to display in a dashboard:
 
 <!-- 
 
@@ -209,7 +216,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]**.
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Browse to upload the image, then click **[!UICONTROL Save.]**

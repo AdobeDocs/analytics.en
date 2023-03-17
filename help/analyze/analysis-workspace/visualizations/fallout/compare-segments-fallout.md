@@ -2,9 +2,10 @@
 description: You can create segments from a touchpoint, add segments as touchpoint, and compare key workflows across various segments in Analysis Workspace.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Apply segments in fallout analysis
-uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
+feature: Visualizations
+role: User, Admin
+exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 ---
-
 # Apply segments in fallout analysis
 
 You can create segments from a touchpoint, add segments as touchpoint, and compare key workflows across various segments in Analysis Workspace.
@@ -42,6 +43,10 @@ Or you can create an AND touchpoint by dragging the US users segment onto anothe
 ## Compare segments in fallout {#section_E0B761A69B1545908B52E05379277B56}
 
 You can compare an unlimited number of segments in the Fallout visualization.
+
+Here is a video on comparing segments in fallout:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. In our example, we have selected 2 segments: US Users and Non-US Users.
 1. Drag them into the Segment drop zone at the top.

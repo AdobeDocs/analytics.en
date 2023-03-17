@@ -1,8 +1,9 @@
 ---
 title: Category
 description: The product category of the hit.
+feature: Dimensions
+exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
 ---
-
 # Category
 
 The 'Category' dimension reports the product category of the hit. It is useful for implementations that use the `products` variable and want to see metrics around product category, such as top sellers or most viewed. This dimension can intentionally be blank if you don't have any products on your site.

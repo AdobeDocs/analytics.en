@@ -1,10 +1,11 @@
 ---
 description: Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
-title: Real-time reports
-topic: Report builder
+title: Real-time reports overview
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
+feature: Report Builder
+role: User, Admin
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 ---
-
 # Real-time reports
 
 Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
@@ -18,8 +19,8 @@ You can:
 * Use any custom event, shopping cart event, or instance.
 * View up to 20 hours of historical, real-time data.
 
-Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.
+>[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.

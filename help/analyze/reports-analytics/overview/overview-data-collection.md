@@ -2,11 +2,14 @@
 description: Learn about how data is collected for Adobe Analytics.
 subtopic: Get started
 title: About Data Collection
-topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 ---
-
 # About Data Collection
+
+{{ra-eol}}
 
 Learn about how data is collected for Adobe Analytics.
 

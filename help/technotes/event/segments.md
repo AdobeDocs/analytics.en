@@ -1,13 +1,13 @@
 ---
 title: Exclude specific dates in analysis
 description: Tips for excluding dates or date ranges if you do not want to include it in reports.
+exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 ---
-
 # Exclude specific dates in analysis
 
 If you have data [impacted by an event](overview.md), you can use a segment to exclude any date ranges that you don't want to include in your reports. Segmenting out event-impacted dates can help prevent your organization from making decisions on partial data.
 
-## Isolate affected days
+## Isolate affected days {#isolate}
 
 Create a segment that isolates the affected day or date range. This segment is useful if you want to just focus on the problem days to see more information around its impact.
 
@@ -17,11 +17,15 @@ Create a segment that isolates the affected day or date range. This segment is u
 
 ![Affected days segment](assets/affected_days.jpg)
 
+>[!TIP]
+>
+>To change the OR statement to an AND statement, click the down arrow next to OR and select AND.
+
 Adobe recommends using the orange dimension dimension components, and not the purple date range components. If you use purple date range components, they override the project's calendar range:
 
 ![Exclude segment day type](assets/exclude_segment_day_type.jpg)
 
-## Exclude affected days
+## Exclude affected days {#exclude}
 
 Create a segment that excludes the affected day or date range. This segment is useful if you want to exclude the days that experienced issues to minimize impact on overall reporting.
 
@@ -36,7 +40,7 @@ Create a segment that excludes the affected day or date range. This segment is u
 
 Once you have the exclude segment created, you can use it exactly as you would use other segments.
 
-### Compare segments in a trended report
+### Compare segments in a trended report {#compare}
 
 You can apply both the 'Affected days' segment and 'Exclude affected days' segment in a report to compare them side-by-side. Drag both segments above or below a metric to compare them:
 
@@ -50,7 +54,7 @@ If you don't want to show zeros in your table or visualizations (causing dips), 
 
 ![Interpret zero](assets/interpret_zero.png)
 
-### Apply the exclude segment to a project
+### Apply the exclude segment to a project {#apply}
 
 You can apply the 'Exclude affected days' segment to a Workspace project. Drag the exclude segment to the Workspace canvas section labeled *Drop a segment here*.
 
@@ -60,9 +64,9 @@ You can apply the 'Exclude affected days' segment to a Workspace project. Drag t
 
 ![Segment applied to a panel](assets/exclude_segment_panel.jpg)
 
-### Use the exclude segment in a virtual report suite
+### Use the exclude segment in a virtual report suite {#use-vrs}
 
-You can use the segment in a [Virtual report suite](/help/components/vrs/vrs-about.md) to more conveniently exclude the data. This option is ideal in that you don't have to remember to apply the segment for each report that that includes the affected date range. If you already use virtual report suites as your primary source of data, you can add the segment to an existing VRS.
+You can use the segment in a [virtual report suite](/help/components/vrs/vrs-about.md) to more conveniently exclude the data. This option is ideal in that you don't have to remember to apply the segment for each report that that includes the affected date range. If you already use virtual report suites as your primary source of data, you can add the segment to an existing VRS.
 
 1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Click **[!UICONTROL Add]**.

@@ -1,8 +1,9 @@
 ---
 title: Visit depth
 description: Visit-based dimension that reports the depth of the visit.
+feature: Dimensions
+exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 ---
-
 # Visit depth
 
 The 'Visit depth' dimension reports the number of page views the visitor saw in the entire visit. Visit depth increases only if the hit is a page view, and the [Page](page.md) dimension is not the same as the last page view's dimension item. It is a visit-based dimension, meaning that it contains the same value for the entire visit. This variable is set for all hits in a visit after that visit concludes.

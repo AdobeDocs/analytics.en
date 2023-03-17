@@ -1,9 +1,9 @@
 ---
 description: Segmenting on individual metrics allows you to make metric comparisons within the same report. 
 title: Segmented metrics
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+feature: Calculated Metrics
+exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 ---
-
 # Segmented metrics
 
 In the Calculated metric builder, you can apply segments within your metric definition. This is helpful if you want to derive new metrics to use in your analysis. Keep in mind, segment definitions can be updated through the Segment builder. If changes are made, the segment will automatically update anywhere it is applied, including if it is part of a calculated metric definition.
@@ -36,6 +36,10 @@ Let's say you want to compare different aspects of a "German Visitors" segments 
 
    ![](assets/workspace-pages.png)
 
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
 ## Percent of total metrics {#percent-total}
 
 You can take the example above a step further by comparing your segment to a total population. To do so, create two new metrics, "% of Total German Visitors" and "% of Total International Visitors":
@@ -48,4 +52,3 @@ You can take the example above a step further by comparing your segment to a tot
 1. Apply this metric to your project:
 
    ![](assets/cm_percent_total.png)
-

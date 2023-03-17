@@ -1,8 +1,9 @@
 ---
-title: Single page visits
+title: Single page visits (dimensions)
 description: A flag indicating that the visit consisted of a single page.
+feature: Dimensions
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 ---
-
 # Single page visits
 
 *This help page describes how 'Single page visits' works as a dimension. See the [Single page visits](../metrics/single-page-visits.md) metric for more information.*

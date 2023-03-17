@@ -1,8 +1,9 @@
 ---
-title: cookieDomainPeriods
+title: fpcookieDomainPeriods
 description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
+feature: Variables
+exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 ---
-
 # fpCookieDomainPeriods
 
 The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location. It inherits the value of [`cookieDomainPeriods`](cookiedomainperiods.md), but is still a best practice to set if you use a first-party cookie implementation.
@@ -14,18 +15,22 @@ The `fpCookieDomainPeriods` variable helps AppMeasurement determine where Analyt
 >
 >Do not take subdomains into account for this variable. For example, do not set `fpCookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
-## First-party Domain Periods in Adobe Experience Platform Launch
+## First-party domain periods using the Web SDK
+
+The Web SDK can determine the correct cookie storage domain without this variable.
+
+## First-party Domain Periods using the Adobe Analytics extension
 
 First-party Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
+3. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL First-party Domain Periods] field.
 
 Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## s.fpCookieDomainPeriods in AppMeasurement and Launch custom code editor
+## s.fpCookieDomainPeriods in AppMeasurement and the Analytics extension custom code editor
 
 The `fpCookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
 

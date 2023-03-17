@@ -1,9 +1,9 @@
 ---
-description: null
+description: Run a Contribution Analysis report in a Workspace project.
 title: Run Contribution Analysis
-uuid: 5282a5f9-0771-4974-93cb-335204bde114
+role: User, Admin
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 ---
-
 # Run Contribution Analysis
 
 Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
@@ -31,9 +31,9 @@ There are two ways to invoke contribution analysis in a project:
 
     * A visualization that shows the number of **Visits** on that day.
     * A monthly **Visits Trend line** for context.
-    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
+    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
     
-    * The [Generated Segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) table identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Clicking the "i" (info) button will give you a view of each auto segment's definition, including which top items it is made up of:
+    * The [Generated Segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) table identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Clicking the "i" (info) button will give you a view of each auto segment's definition, including which top items it is made up of:
 
       ![](assets/auto_segment.png)
 
@@ -65,4 +65,3 @@ There may be times when you want to exclude some dimensions from Contribution An
    ![](assets/excluded-dimensions.png)
 
 1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
-

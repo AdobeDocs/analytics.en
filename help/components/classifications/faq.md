@@ -1,8 +1,9 @@
 ---
 title: Classifications FAQ
 description: Frequently asked questions for using classifications.
+feature: Classifications
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 ---
-
 # Classifications FAQ
 
 Frequently asked questions for using classifications.
@@ -28,7 +29,9 @@ Yes, *however doing so counts each dimension item as a billable server call.*
 
 ## How do I classify values that contain special characters?
 
-Using special charaters such as commas or double quotes in reporting is typically not recommended. However, in some cases their use is necessary. If your reporting values contain such charaters that you choose to classify, use the following steps:
+Using leading and trailing blank spaces in either classification data and hit data is not supported because Adobe Analytics will truncate the blank characters from these data.
+  
+Using special characters such as commas or double quotes in reporting is typically not recommended. However, in some cases their use is necessary. If your reporting values contain such characters that you choose to classify, use the following steps:
 
 1. Log in to Adobe Analytics, then navigate to **[!UICONTROL Admin]** > **[!UICONTROL Classification importer]**.
 2. Click the **[!UICONTROL Browser export]** tab.
@@ -39,4 +42,4 @@ Using special charaters such as commas or double quotes in reporting is typicall
 
 ## What are Numeric 2 classifications?
 
-Numeric 2 classifications let you classify dimension items as time-based metrics. They were retired from the Analytics UI in July 2019.
+Numeric 2 classifications let you classify dimension items as time-based metrics. They were retired from the Adobe Analytics UI in July 2019.

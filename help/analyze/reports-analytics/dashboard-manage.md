@@ -2,11 +2,14 @@
 description: Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
 subtopic: Dashboards
 title: Dashboard Manager
-topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 ---
-
 # Dashboard Manager
+
+{{ra-eol}}
 
 Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
 
@@ -14,11 +17,7 @@ Use the Dashboard Manager to copy, share, archive, and schedule dashboards for d
 >
 >Best practice when using the Dashboard Manager is to have no more than 300 dashboards for any single user. Also, please note that the manager loads all shared dashboards below, so be judicious with sharing dashboards.
 
-## Dashboard Manager
-
-Use the Dashboard Manager to copy, share, archive, and schedule dashboards for delivery.
-
-Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 
 | Element | Description |
 |--- |--- |
@@ -30,9 +29,9 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 ## Manage shared dashboards
 
-Steps that describe how use the shared dashboard management options.
+To manage shared dashboards:
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -68,7 +67,7 @@ Existing legacy dashboards will continue to be run and you can still edit, downl
 
 >[!NOTE]
 >
->Moving forward, consider using [Analysis Workspace projects](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
+>Moving forward, consider using [Analysis Workspace projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) and their ability to be downloaded and scheduled.
 
 When you copy the legacy dashboard, the system opens the legacy dashboard for edit, where you can add legacy content or new content. When you copy a legacy dashboard, the original is preserved in the list of legacy dashboards.
 
@@ -87,7 +86,9 @@ When you copy the legacy dashboard, the system opens the legacy dashboard for ed
 
 ## Share a dashboard
 
-Steps that describe how an administrator can share (or push) a dashboard to multiple users. When you push dashboards to users, the dashboards become available in user's [!UICONTROL Shared Dashboards] menu.
+Analytics administrators can share (or push) a dashboard to multiple users. When you push dashboards to users, the dashboards become available in user's [!UICONTROL Shared Dashboards] menu.
+
+To share a dashboard with multiple users:
 
 1. In the [!UICONTROL Dashboard Manager], locate the dashboard, then enable **[!UICONTROL Shared]**.
 1. Click **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -105,18 +106,3 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
 
    See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
-
-## Archive a dashboard
-
->[!NOTE]
->
->This functionality will no longer be available in January, 2020.
-
-Steps that describe how to archive any sent dashboard as a PDF file. The system stores the archived file for two years, or until you reach a maximum limit of 4 GB of archived reports, whichever comes first.
-
-1. Open a dashboard.
-1. Click **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. In the [!UICONTROL Email Report] group, enable **[!UICONTROL Archive]**.
-1. Specify delivery options, then click **[!UICONTROL Send]**.
-
-   You can view archived dashboards in the Dashboard Manager. Alternatively, open a dashboard and click **[!UICONTROL More]** > **[!UICONTROL View Archive]**.

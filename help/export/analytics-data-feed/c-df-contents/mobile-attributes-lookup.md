@@ -1,8 +1,9 @@
 ---
 title: Mobile attributes lookup
 description: Lookup file for mobile attributes.
+feature: Data Feeds
+exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
 ---
-
 # Mobile attributes lookup
 
 Mobile attributes show properties of the mobile device in the hit. This file appears when:

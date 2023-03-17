@@ -1,15 +1,21 @@
 ---
 description: Curation lets you limit components before sharing a project.
 keywords: Analysis Workspace curation
-title: Curate Workspace projects
+title: Curate projects
+feature: Curate and Share
+role: User, Admin
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 ---
-
-# Curate Workspace projects
+# Curate projects
 
 Curation lets you limit the components (dimensions, metrics, segments, date ranges) before sharing a project. When a recipient opens the project, they will see a limited set of components that you have curated for them. Curation is an optional but recommended step before sharing a project. 
 
 >[!NOTE]
 > Product profiles are the primary mechanism governing which components a user can see. They are managed through the Adobe Experience Cloud Admin Console. Curation is a secondary filter. 
+
+Here is a video on project curation and sharing:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
 ## Apply project curation
 
@@ -39,7 +45,7 @@ To remove project curation and restore the full set of components in the left ra
 
 ## Virtual Report Suite (VRS) curation
 
-To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite (VRS)](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html). 
+To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite (VRS)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html). 
 
 >[!NOTE]
 > VRS curation is always applied before project curation. This means that even if your curated project includes certain components, they will be filtered out if the curated VRS does not include them.
@@ -51,8 +57,11 @@ In a curated project or VRS, the recipient will be presented with the option to 
 * The user’s permission level (admin or non-admin)
 * Project role (owner/editor or not)
 * Type of curation applied (VRS or project)
+* Components owned by or shared to the user. Owned/shared components include segments, calculated metrics, and date ranges. They do not include implemented components such as eVars, props, and custom events. 
 
-|Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate or view role|
+Note: Non-admin view roles do not have access to the left rail in a project, so they have been omitted from the table below.
+
+|Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate role|
 |---|---|---|---|
 |Curated VRS|All non-curated VRS components|Non-curated VRS components that this role owns or that have been shared with them|Non-curated VRS components that this role owns or that have been shared with them|
 |Curated Project|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|

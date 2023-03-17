@@ -1,10 +1,11 @@
 ---
 description: Two important considerations when using the Customize Expression to set the date range 
 title: Customized Date Considerations
-topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
+feature: Report Builder
+role: User, Admin
+exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 ---
-
 # Customized Date Considerations
 
 Two important considerations when using the Customize Expression to set the date range:
@@ -44,4 +45,4 @@ the day of the current week starting on Sunday, November 23 minus seven days = t
 
 the day of the current week starting on Sunday, November 23 minus one day = Saturday, November 22
 
-In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).) 
+In Europe and some other countries, the week begins on Monday, rather than Sunday. In this case, you can customize the calendar to change the start date. (See [Custom Calendar](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)

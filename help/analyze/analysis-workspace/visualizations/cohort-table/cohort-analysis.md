@@ -1,9 +1,11 @@
 ---
-title: What is Cohort Analysis?
-description: Learn about cohort analysis in Analysis Workspace
+title: What is Cohort Analysis and how does it work?
+description: Dig deeper into the data around your audience and break into related groups with Cohort Analysis. Learn about cohort analysis in Analysis Workspace.
+feature: Cohort Analysis
+role: User, Admin
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 ---
-
-# What is [!UICONTROL Cohort Analysis]?
+# Learn about [!UICONTROL Cohort Analysis] in Adobe Analytics
 
 A *`cohort`* is a group of people sharing common characteristics over a specified period. [!UICONTROL Cohort Analysis] is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
@@ -19,14 +21,13 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 [!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 
-[Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+Video on Cohort tables in Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis]
->
->does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue), or Occurrences. Only metrics that can be used in segments can be used in
->[!UICONTROL Cohort Analysis], and they can only be incremented by 1 at a time. 
+>[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue, >or Occurrences. Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
 
 ## Cohort Analysis capabilities
 
@@ -38,11 +39,19 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 ![](assets/retention-report.png)
 
+Here is a video on calculating rolling retention:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+
 ### [!UICONTROL Churn] Table
 
 A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/churn-report.png)
+
+Here is a video on churn analysis:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL Rolling Calculation]
 
@@ -63,4 +72,3 @@ Create cohorts based on a selected dimension, and not time-based cohorts, which 
 ![](assets/cohort-customizable-cohort-row.png)
 
 For instructions on how to set up and run a cohort report, go to [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-

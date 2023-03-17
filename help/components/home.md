@@ -1,8 +1,8 @@
 ---
-title: Analytics Components Help
-description: null
+title: Analytics Components Guide
+description: Learn about the different components that Adobe Analytics offers.
+exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 ---
-
 # Analytics Components Guide
 
 ![Banner](../../assets/doc_banner_components.png)
@@ -20,6 +20,10 @@ Analytics components help you fine tune and empower your analysis of data. Compo
 * **Real-time reporting:** Get reports and trends the minute they are available.
 * **Marketing channels:** Understand how visitors arrive to your site and determine which channels are most successful.
 
+Here is a video overview of Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
 ## Key Analytics Components articles
 
 * [Dimensions](dimensions/overview.md)
@@ -27,11 +31,11 @@ Analytics components help you fine tune and empower your analysis of data. Compo
 
 ## More Analytics user guides
 
-[Analytics User Guides](/help/landing/home.md)
+[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

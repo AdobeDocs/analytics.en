@@ -1,10 +1,11 @@
 ---
 description: Filters that apply specific dimension terms.
 title: Specific filters
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: User, Admin
+exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 ---
-
 # Specific filters
 
 Filters that apply specific dimension terms.
@@ -15,7 +16,7 @@ You can search on specific dimension items by creating a filter that matches exa
 
 1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
 
-   ![Step Result](assets/dimension_filter.png)
+   ![Step Result](/help/admin/admin/assets/filter.png)
 
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 

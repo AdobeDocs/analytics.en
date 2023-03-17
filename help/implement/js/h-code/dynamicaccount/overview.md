@@ -1,13 +1,14 @@
 ---
 title: Dynamic accounts overview
 description: Learn the workflow on how to dynamically select a report suite using H Code.
+feature: Implementation Basics
+exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 ---
-
 # Dynamic accounts overview
 
 >[!IMPORTANT]
 >
->Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or Adobe Experience Platform Launch.
+>Dynamic accounts are only supported using legacy JavaScript implementations (H Code). These variables are not supported in current AppMeasurement libraries or tags in Adobe Experience Platform.
 
 Dynamic accounts is an implementation feature that lets you determine what report suite to use based on criteria you define. If your organization requires more than one report suite but would like to use the same implementation between your sites, dynamic accounts is a good solution.
 

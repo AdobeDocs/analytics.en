@@ -1,10 +1,9 @@
 ---
 description: How to apply one or more segments to a report from the segment rail.
 title: Select and apply segments
-topic: Segments
-uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
+feature: Segmentation
+exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 ---
-
 # Select and apply segments
 
 How to apply one or more segments to a report from the segment rail.

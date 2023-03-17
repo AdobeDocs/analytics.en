@@ -1,8 +1,9 @@
 ---
 title: Implementing with AMP
 description: Implement Adobe Analytics on AMP pages.
+feature: Implementation Basics
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 ---
-
 # Implementing with AMP
 
 [AMP](https://amp.dev) is an open-source HTML framework that provides a straightforward way to create fast and smooth-loading web pages.
@@ -11,7 +12,7 @@ Since Adobe Analytics uses a JavaScript library to compile and send an image req
 
 ## Determine which method to implement Adobe Analytics on pages using AMP
 
-Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics tag](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) on the ampproject GitHub for more information.
+Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics tag](https://amp.dev/documentation/components/amp-analytics) on AMP's documentation for more information.
 
 * **Use the `"adobeanalytics"` tracking template**: Construct the Analytics request directly on the page
 * **Use the `"analytics_nativeConfig"` tracking template**: Use an iframe containing the same AppMeasurement code you deploy on your normal site
@@ -48,14 +49,14 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
-        "reportSuites": "reportSuiteID",
+        "host": "example.data.adobedc.net",
+        "reportSuites": "reportSuiteID1,reportSuiteID2",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",
@@ -102,7 +103,7 @@ The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it uses the s
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.data.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -125,8 +126,8 @@ An HTML page hosted on your web servers is also required:
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_account = "examplersid1,examplersid2";
+      var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);

@@ -2,11 +2,17 @@
 description: A histogram is a new visualization type in Analysis Workspace.
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
+feature: Visualizations
+role: User, Admin
+exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
-
 # Histogram
 
 A histogram is similar to a bar chart, but it groups numbers into ranges (buckets). Analytics automates the "bucketing" of numbers into ranges, but you can change the settings in [Advanced Settings](#section_09D774C584864D4CA6B5672DC2927477).
+
+Here is a video on how to use histograms:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
 ## Build a histogram {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -54,4 +60,4 @@ Pre-built segments that show up in the table are internal segments and won't sho
 
 ![](assets/prebuilt_segments.png)
 
-To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+To explore more ways to manage Freeform data tables and other visualizations, such as doing data breakdowns, go [here](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).

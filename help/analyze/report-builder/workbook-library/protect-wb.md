@@ -1,10 +1,11 @@
 ---
 description: You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing.
 title: Lock/unlock workbooks
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: User, Admin
+exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 ---
-
 # Lock/unlock workbooks
 
 You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing.
@@ -62,4 +63,3 @@ Let's assume workbook A has one request which is in a locked state and was creat
 1. User logs into Report Builder and opens workbook A.
 1. User cannot add/edit the request.
 1. User cannot unlock the workbook.
-

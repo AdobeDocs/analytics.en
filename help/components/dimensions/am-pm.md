@@ -1,11 +1,12 @@
 ---
 title: AM/PM
 description: Determines if the hit happened during AM or PM hours.
+feature: Dimensions
+exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
 ---
-
 # AM/PM
 
-The 'AM/PM' dimension provides insight on if the hit happened during AM or PM hours. The time of the hit is based on the [report suite's time zone](/help/admin/admin/general-acct-settings-admin.md).
+The 'AM/PM' dimension provides insight on if the hit happened during AM or PM hours. The time of the hit is based on the [report suite's time zone](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Populate this dimension with data
 

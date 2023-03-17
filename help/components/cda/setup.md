@@ -1,9 +1,9 @@
 ---
-title: Set up Cross-device Analytics
+title: Set up Cross-Device Analytics
 description: Configure a virtual report suite to enable CDA.
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 ---
-
-# Set up Cross-device Analytics
+# Set up Cross-Device Analytics
 
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
 
@@ -11,9 +11,18 @@ Once all prerequisites are met, use the following steps to enable Cross-Device A
 >
 >All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See the [overview page](overview.md) and the desired stitching method ([Field-based stitching](field-based-stitching.md) or [Device graph](device-graph.md), respectively) for prerequisites and limitations.
 
-## Choose the cross-device report suite that will be enabled for CDA
+## Open a ticket with Customer Care to have CDA provisioned on your cross-device report suite
 
-When your organization is provisioned to use CDA, you choose which report suite to use. This choice can be communicated through your Adobe Account Manager. Adobe then enables your chosen report suite for CDA processing.
+CDA is provisioned on your cross-device report suite by Adobe engineering. To start this process, contact Customer Care and be prepared to provide the following information:
+
+* Your Adobe Experience Cloud org ID (An alphanumeric string ending with @AdobeOrg)
+* The report suite ID for the cross-device report suite you want to enable with CDA
+* Which method of CDA you want to use (Field-based Stitching or Adobe Device Graph)
+* If you intend to use field-based stitching, the prop or eVar that contains the user ID
+* Your preference of replay frequency and lookback length. Options include a replay once a week with a 7-day lookback window, or a replay every day with a 1-day lookback window.
+The default is weekly replay with 7-day lookback window. In this case, data within the last week is subject to change (as it is progressively being stitched and updated).
+
+Once you provide Customer Care with this information, they will work with Adobe Engineering to enable your chosen report suite for CDA processing.
 
 ## Create a cross-device virtual report suite to see the cross-device view
 
@@ -36,7 +45,7 @@ Administrators with access to create virtual report suites can create CDA virtua
 When Cross-Device Analytics is enabled on a virtual report suite, note the following changes:
 
 * A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
-* A new dimension labeled 'Identified State' is available. This dimension determines if the Experience Cloud ID on that hit is known by the device graph at that time.
-* New metrics labeled 'People' and 'Unique Devices' are available.
-* The metric 'Unique Visitors' is not available, as it is replaced with 'People' and 'Unique Devices'.
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available.
+* New metrics labeled [People](../metrics/people.md), [Unique Devices](../metrics/unique-devices.md), [Identified people](../metrics/identified-people.md), [Unidentified people](../metrics/unidentified-people.md), and [People with Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with 'People' and 'Unique Devices'.
 * When building segments, the 'Visitor' segment container is replaced with a 'Person' container.

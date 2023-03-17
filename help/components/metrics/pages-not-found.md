@@ -1,8 +1,9 @@
 ---
-title: Pages not found
+title: Pages not found (metrics)
 description: The number of hits containing an error.
+feature: Metrics
+exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
 ---
-
 # Pages not found
 
 *This help page describes how 'Pages not found' works as a metric. See the [Pages not found](../dimensions/pages-not-found.md) dimension for more information.*

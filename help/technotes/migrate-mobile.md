@@ -1,8 +1,9 @@
 ---
 description: Learn how to migrate Mobile Services processing rules to Adobe Analytics
 title: Migrate Mobile Services processing rules to Adobe Analytics
+feature: Processing Rules
+exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 ---
-
 # Migrate Mobile Services processing rules to Adobe Analytics
 
 This document provides you with instructions on how to migrate any additional processing rules - beyond Lifecycle Metrics - that you created in the Mobile Services UI to Adobe Analytics. 
@@ -23,7 +24,7 @@ However, if you set up any additional processing rules in the Mobile Services UI
 
     ![Context variable](assets/context-var.png)
 
-1. In Experience Cloud, switch to Adobe Analytics and make sure you are in the same mobile report suite that you were looking at in Mobile Services.
+1. In Experience Cloud, switch to Adobe Analytics and make sure that you are in the same mobile report suite that you were looking at in Mobile Services.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 1. Click **[!UICONTROL Add Rule]**.
 1. Ignore the conditions and proceed to add the same context variable/s that exist/s in Mobile Services.
@@ -52,7 +53,7 @@ Here is an excerpt of the Mobile App Usage template:
 To access the templates:
 
 1. Log in to `experience.adobe.com` and select Analytics.
-1. Make sure you are in a report suite that is enabled for Mobile Services.
+1. Make sure that you are in a report suite that is enabled for Mobile Services.
 1. Click the **[!UICONTROL Workspace]** tab.
 1. Click **[!UICONTROL Create New Project]**.
 1. Select any of the Mobile templates and click **[!UICONTROL Create]**.

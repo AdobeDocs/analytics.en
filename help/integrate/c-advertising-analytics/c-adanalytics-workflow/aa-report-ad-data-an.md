@@ -1,9 +1,9 @@
 ---
 description: Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
 title: Report on advertising data in Adobe Analytics
-uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
+feature: Advertising Analytics
+exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 ---
-
 # Report on advertising data in Adobe Analytics
 
 Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.

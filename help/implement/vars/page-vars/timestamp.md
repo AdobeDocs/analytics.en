@@ -1,8 +1,9 @@
 ---
 title: timestamp
 description: Manually set the timestamp of the hit.
+feature: Variables
+exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 ---
-
 # timestamp
 
 The `timestamp` variable manually sets the timestamp of the hit for timestamp-enabled report suites.
@@ -11,11 +12,15 @@ The `timestamp` variable manually sets the timestamp of the hit for timestamp-en
 >
 >Do not use this variable if your report suite is not explicitly configured to accept timestamped hits. AppMeasurement automatically sets the time of a hit for report suites that do not support timestamped hits. If you send a hit with this variable to a report suite that does not support timestamps, that data is permanently lost.
 
-## Timestamp in Adobe Experience Platform Launch
+## Timestamp using the Web SDK
 
-There is not a dedicated field in Launch to use this variable. Use the custom code editor, following AppMeasurement syntax.
+Timestamp is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `xdm.timestamp`. This field only supports Unix time.
 
-## s.timestamp in AppMeasurement and Launch custom code editor
+## Timestamp using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.timestamp in AppMeasurement and the Analytics extension custom code editor
 
 The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) and [Unix time](https://en.wikipedia.org/wiki/Unix_time).
 

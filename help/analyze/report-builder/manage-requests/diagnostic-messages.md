@@ -1,10 +1,11 @@
 ---
 description: Diagnostic messages provide you information about the status of the request when you refresh it.
 title: Diagnostic messages
-topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
+feature: Report Builder
+role: User, Admin
+exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
 ---
-
 # Diagnostic messages
 
 Diagnostic messages provide you information about the status of the request when you refresh it.

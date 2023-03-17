@@ -1,28 +1,41 @@
 ---
 description: There are two ways to use metrics in Analysis Workspace.
-title: Metrics
-uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+title: Metrics in Analysis Workspace
+feature: Metrics
+role: User, Admin
+exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 ---
-
 # Metrics
 
-There are two ways to use metrics in Analysis Workspace.
+Metrics allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
 
-You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
+Adobe offers several types of metrics for use in Analysis Workspace:
 
-![](assets/metrics_icons.png)
+* **Standard metrics**: Most metrics that you use in projects are standard metrics. Examples include [Page views](/help/components/metrics/page-views.md), [Revenue](/help/components/metrics/revenue.md), or [Custom events](/help/components/metrics/custom-events.md). See [Metrics overview](/help/components/metrics/overview.md) in the Components user guide for more information.
 
->[!NOTE]
->
->While this is seemingly simple, the use of metrics is rather powerful. You can add metrics to a report by dragging the appropriate metric to the metrics section of a table. You can also break down dimensions by metrics, giving you fine-grained control over the table view. Furthermore, you can insert a metric as a dimension and a dimension as a metric to create an overtime report. Play around with the various components and see what you can do. The possibilities are endless.
+  ![Standard metric](assets/standard-metric.png)
 
-Or you can click **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. This will take you to the [Calculated Metric Builder](/help/components/c-calcmetrics/cm-overview.md), where you can build custom metrics from existing metrics.
+* **Calculated metrics**: User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide for more information.
 
-To make it easier to quickly create calculated metrics, **[!UICONTROL Create metric from selection]** has been added to the column right-click menu in Freeform Tables. This option displays when one or more header column cells are selected.
+  ![Calculated metric](assets/calculated-metric.png)
 
-![](assets/calc_metrics.png)
+* **Calculated metric templates**: Adobe-defined metrics that behave similarly to calculated metrics. You can use them as-is in Workspace projects, or save a copy to customize its logic. Calculated metric templates show an Adobe icon in the list of available components.
 
-[Using Participation Metrics on YouTube](https://www.youtube.com/watch?v=ngmJHcg65o8&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=32) (4:16)
+  ![Calculated metric template](assets/calculated-metric-template.png)
+
+Metrics are flexible in their use within Analysis Workspace. Drag a metric to an empty Freeform table to see that metric trended over the project's date period. You can also drag a metric when a dimension is present to see that metric compared to each dimension item. Dragging a metric on top of an existing metric header replaces it, and dragging a metric next to a header lets you see both metrics side-by-side.
+
+>[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+## Calculated metrics
+
+Calculated metrics allow you to easily see how metrics relate to each other using simple operators or statistical functions. There are several ways to create calculated metrics:
+
+* Click the plus icon next to the Metrics header under the list of components on the left.
+* Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
+* Right click a column header > **[!UICONTROL Create metric from selection]** when one or more header column cells are selected. This option automatically creates a calculated metric for you without needing to use the Calculated Metric Rule Builder.
+
+[Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Compare metrics with different attribution models
 
@@ -31,3 +44,9 @@ If you'd like to quickly and easily compare one attribution model to another, ri
 ![Compare attribution](assets/compare-attribution.png)
 
 This shortcut lets you quickly and easily compare one attribution model to another without dragging in a metric and configuring it twice.
+
+## Use the [!UICONTROL cumulative average] function to apply metric smoothing
+
+Here is a video on the topic:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)

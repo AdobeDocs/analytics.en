@@ -1,13 +1,14 @@
 ---
 title: H Code JavaScript implementation overview
 description: Learn the workflow to implement H Code on your site.
+feature: Implementation Basics
+exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 ---
-
 # H Code JavaScript implementation overview
 
 >[!IMPORTANT]
 >
->This version of data collection is no longer supported. Upgrade to either [Adobe Experience Platform Launch](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
+>This version of data collection is no longer supported. Upgrade to either [tags in Adobe Experience Platform](../../launch/overview.md) or [AppMeasurement for JavaScript](../overview.md).
 
 You must have access to your hosting servers to successfully implement a page with code to collect data. The following steps walk you through a basic Analytics H Code implementation.
 
@@ -33,4 +34,4 @@ The JavaScript file is cached in the visitor's browser after it is initially loa
 
 ## H Code compression
 
-If you are concerned about the download size of the `s_code.js` file, Adobe recommends compressing the `s_code.js` file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression. See [Apache Module mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) in the Apache documentation.
+If you are concerned about the download size of the `s_code.js` file, Adobe recommends compressing the `s_code.js` file using GZIP. GZIP is supported by all major browsers and offers better performance than JavaScript compression. See [Apache Module mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) in the Apache documentation.

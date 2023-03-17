@@ -1,10 +1,9 @@
 ---
 description: The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-title: Manage segments
-topic: Segments
-uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
+title: Manage segments (Segment Manager)
+feature: Segmentation
+exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 ---
-
 # Manage segments
 
 The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
@@ -16,7 +15,7 @@ The Analytics Segment Manager shows you all the segments you own and that have b
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics YouTube video](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd ) gives a short overview of how to use the Segment Manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
 ## Segment Manager User Interface {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
@@ -38,15 +37,3 @@ This [Adobe Analytics YouTube video](https://www.youtube.com/watch?v=CdfOq98PTrg
 |  12  | Shared icon  | Indicates that this segment is shared by you or with you.  |
 |  13  | Approved icon  | Indicates that this segment has been approved by an Administrator.  |
 |  14  | Filters  | Lets you see and select the filters under Tags, Report Suites, Owners, and Other (Show All, Mine, Shard with Me, Approved, Favorites.)  |
-
-## Segment Manager in Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-The Segment Organizer in ad hoc analysis shows you all the segments you own and those shared with you.
-
-To access the Segment Organizer in [!DNL ad hoc analysis]:
-
-* Go to the **[!UICONTROL Segments]** tab in the left side panel and then click the wrench icon  ![](assets/wrench_icon.png) and select **[!UICONTROL Organize Segments]** from the menu.
-
-![](assets/ad_hoc_organize_segments.png)
-
-Like the Segment Manager in the web user interface, this console provides multiple features, including segment sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.

@@ -1,8 +1,9 @@
 ---
 title: Average time  on site
 description: The average amount of time a given dimension item existed between hits.
+feature: Metrics
+exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
 ---
-
 # Average time on site
 
 The 'Average time on site' metric show the the amount of time that passed between hits for a given dimension item. This metric is helpful when you want to see average time spent for specific dimension items. You can also trend this metric over time to see how overall time spent changes. This metric displays in `HH:MM:SS` format.

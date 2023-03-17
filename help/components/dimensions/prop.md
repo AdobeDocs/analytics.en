@@ -1,8 +1,9 @@
 ---
 title: Prop
-description: A custom dimension you can use in reporting.
+description: A custom dimension that you can use in reporting.
+feature: Dimensions
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 ---
-
 # Prop
 
 *This help page describes how props work as a dimension. For information on how to implement props, see [props](/help/implement/vars/page-vars/prop.md) in the Implement user guide.*
@@ -23,7 +24,7 @@ AppMeasurement, which compiles JavaScript variables into an image request for da
 
 ## Dimension items
 
-Since props contain custom strings in your implementation, your organization determines what the dimension items are for each prop. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Since props contain custom strings in your implementation, your organization determines what the dimension items are for each prop. Make sure that you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Case sensitivity
 
@@ -31,7 +32,7 @@ Props, by default, are not case-sensitive. If you send the same value in differe
 
 You can make any prop case-sensitive. You can also disable case-sensitivity for any prop once it is enabled. Contact Adobe Customer Care with the report suite ID and the desired variables(s) to toggle case sensitivity. 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Toggling case sensitivity can cliff dimension items, causes unexpected results with segments, and causes issues with filters. Adobe strongly recommends toggling this setting between two major time periods, such as the beginning of a month or year.
 

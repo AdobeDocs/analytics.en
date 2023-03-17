@@ -1,9 +1,9 @@
 ---
-description: Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 title: Data retention policy
 description: A data retention policy determines how long Adobe stores your data.
+feature: Privacy
+exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 ---
-
 # Data retention policy
 
 Data collected by Adobe Analytics is retained for a specific period of time. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy. This policy applies to the data itself, which means that it affects all Analytics reporting capabilities (Analysis Workspace, reporting API, etc).
@@ -27,6 +27,10 @@ Adobe, in its role as your data processor, must take appropriate measures to ass
 
 Once data exceeds your data retention policy, Adobe retains the right to delete it with no option for recovery. You must ensure that all data that you want to retain is within your organization's data retention policy.
 
+## View/manage current data retention policy
+
+The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of which report suites have been configured for data governance. It also indicates whether they have been mapped to an Experience Cloud organization, and whether a data retention policy is in place for this report suite. [More info](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+
 ## Frequently asked questions
 
 **How do I decide on my organization's data retention period?**
@@ -44,3 +48,4 @@ Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data 
 **When does Adobe delete data?**
 
 Contact your organization's account manager for the specific time your data is scheduled to be deleted. Data is typically deleted on a rolling monthly basis.
+

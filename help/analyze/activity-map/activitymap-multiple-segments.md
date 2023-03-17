@@ -1,10 +1,11 @@
 ---
 description: Lets you apply a multiple-segment filter within Activity Map.
 title: Customer segmentation
-topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
+feature: Activity Map
+role: User, Admin
+exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
 ---
-
 # Customer segmentation
 
 Lets you apply a multiple-segment filter within Activity Map.
@@ -17,7 +18,7 @@ You can select one or several of the segments from the **[!UICONTROL Segments]**
 
 ![](assets/segments.png)
 
-When the segment(s) selection has changed, and after closing the segment selector, a new Analytics data retrieval process will be launched for all metrics that are shown in the application. The segment(s) selected are remembered when navigating from page to page.
+When the segment(s) selection has changed, and after closing the segment selector, a new Analytics data retrieval process is launched for all metrics that are shown in the application. The segment(s) selected are remembered when navigating from page to page.
 
 When more than one segment is selected, the Segment Selection Label (in a collapsed state) will display "Multiple". The full list of selected segments will be shown when you click the control.
 

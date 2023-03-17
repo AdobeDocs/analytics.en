@@ -1,19 +1,19 @@
 ---
-description: null
+description: Troubleshoot and fix issues related to segments.
 title: Segmentation Troubleshooting
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+feature: Segmentation
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 ---
-
 # Segmentation Troubleshooting
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Error: "Incompatible elements in this segment" {#incompatible}
 
 This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
 
-## Why does my segment return no data at all? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Why does my segment return no data at all? {#no-data}
 
 Possible reasons:
 
@@ -21,7 +21,7 @@ Possible reasons:
 * The report does not support segmentation.
 * There is no data matching the segmentation criteria.
 
-## Why can't I see the segment I created in the Segment Manager? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Why can't I see the segment I created in the Segment Manager? {#invisible}
 
 Possible reasons:
 
@@ -33,11 +33,10 @@ Possible reasons:
 * The segment has not been saved.
 * IP address may be blocked at the user's end.
 
-## Why does the Page Data shown after applying a segment seem incorrect? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Why does the Page Data shown after applying a segment seem incorrect? {#page-data}
 
 Possible reasons:
 
 * Rules/Operators are incorrect for the required result.
 * Incorrect application of containers to the segment.
 * Traffic variables used to segment are not set properly or are expired.
-

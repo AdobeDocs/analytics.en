@@ -2,10 +2,10 @@
 description: Steps you can take to prepare to use data sources
 subtopic: Data sources
 title: Preparing to use Data Sources
-topic: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 ---
-
 # Prepare to use Data Sources
 
 Steps you can take to prepare to use data sources
@@ -22,7 +22,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 After you determine the appropriate metric-to-event mappings for the Data Sources data, rename the events with descriptive names appropriate for the associated Data Sources metric.
 
-See [Success Events](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in Admin Tools Help.
+See [Success Events](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in Admin Tools Help.
 
 >[!NOTE]
 >
@@ -42,9 +42,9 @@ You can define multiple data dimensions to a metric, but each metric must provid
 
 After you define the data dimensions to use with a data source, integrate the dimensions data into marketing reports by mapping it to a variable. Use either standard reports (for example, Product, Tracking Code, Search Keyword) or Conversion Traffic variables (eVars).
 
-When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure you name them appropriately.
+When using eVars, you can use either existing eVars or new eVars as data dimensions. After selecting an eVar to receive a data dimension from Data Sources, make sure that you name them appropriately.
 
-See [Success Events](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
+See [Success Events](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) in Analytics Help.
 
 ## Campaign Tracking Code {#section_468222796FF449ABAA90D88EB3264CB1}
 

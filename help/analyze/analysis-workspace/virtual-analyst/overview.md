@@ -1,8 +1,9 @@
 ---
 title: Virtual Analyst
 description: Learn what features in Adobe Analytics contribute to the Virtual Analyst.
+role: User, Admin
+exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
 ---
-
 # Virtual Analyst
 
 Virtual Analyst, a set of features part of Adobe Analytics, uses predictive algorithms and machine learning to deliver insights into anomalies impacting your business. It lets you automate the most common and expensive data science workflows to identify what's driving unusual behaviors in your data.

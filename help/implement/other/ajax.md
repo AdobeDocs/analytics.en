@@ -1,8 +1,9 @@
 ---
 title: Implementing with AJAX
 description: Learn how to implement Adobe Analytics on a site using AJAX.
+feature: Implementation Basics
+exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
 ---
-
 # Implementing with AJAX
 
 AJAX is a practice of using JavaScript and HTML to clear and generate content without loading a new page.

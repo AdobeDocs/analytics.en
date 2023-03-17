@@ -1,8 +1,9 @@
 ---
 title: linkLeaveQueryString
 description: Allows the preservation of query strings in link tracking dimensions.
+feature: Variables
+exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 ---
-
 # linkLeaveQueryString
 
 AppMeasurement strips query strings from link tracking URLs by default. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
@@ -17,18 +18,22 @@ Enabling `linkLeaveQueryString` applies to all link tracking dimensions (includi
 >
 >This variable does not affect dimensions outside of link tracking. It only affects custom links, exit links, and download links.
 
-## Keep URL Parameters in Adobe Experience Platform Launch
+## Handle link query strings using the Web SDK
+
+Query strings are not stripped from the XDM field `web.webInteraction.URL`. If you want to strip query strings from this XDM field, you can edit it using `onBeforeEventSend`.
+
+## Keep URL Parameters using the Adobe Analytics extension
 
 [!UICONTROL Keep URL Parameters] is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
+3. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Keep URL Parameters] checkbox.
 
 Check this box if you want to include query strings in link tracking dimensions.
 
-## s.linkLeaveQueryString in AppMeasurement and Launch custom code editor
+## s.linkLeaveQueryString in AppMeasurement and the Analytics extension custom code editor
 
 The `s.linkLeaveQueryString` variable is a boolean. Its default value is `false`.
 

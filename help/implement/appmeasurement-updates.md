@@ -1,9 +1,9 @@
 ---
 title: AppMeasurement for JavaScript release notes
 description: Cumulative release notes for AppMeasurement for JavaScript.
-subtopic: Release notes
+feature: Appmeasurement Implementation
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 ---
-
 # AppMeasurement for JavaScript release notes
 
 Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
@@ -11,6 +11,36 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
+
+## Version 2.23.0
+
+Release Date: **September 23, 2022**
+
+* AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. Learn more about User-Agent [client hints](/help/technotes/client-hints.md).
+
+## Version 2.22.4
+
+Release Date: **January 18, 2022**
+
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it will gracefully ignore the `href` attribute instead of failing. This can occur when passing `svg` objects to the link tracking call.
+
+## Version 2.22.3
+
+Release Date: **October 11, 2021**
+
+* Updated files that referenced Help documentation to point to the current Help locations.
+
+## Version 2.22.2
+
+Release Date: **September 7, 2021**
+
+* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. Here is a [full list of consent variables](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+
+## Version 2.22.1
+
+Release Date: **August 17, 2021**
+
+* Customers using opt-out may have seen the server-side forwarding opt-out parameters not honored when tracking links. The fixes in this release cause the opt-out flags to be sent if they are present when tracking links.
 
 ## Version 2.22.0
 
@@ -238,7 +268,7 @@ Updated: **August 4, 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, make sure that you use AppMeasurement 1.6.3 or higher.
 
 ## Version 1.6.2
 
@@ -302,8 +332,8 @@ Release Date: **June 18, 2015**
 
 Release Date: **May 21, 2015**
 
-* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps. See [iOS extension implementation](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) in the Mobile services user guide.
-* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app. See [Android wearables](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) in the Mobile services user guide.
+* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps. See [iOS extension implementation](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in the Mobile services user guide.
+* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app. See [Android wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) in the Mobile services user guide.
 * Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 
@@ -388,7 +418,7 @@ Release Date: **May 22, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [Experience Cloud Visitor ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* Support for the [Experience Cloud Visitor ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.2.4
 
@@ -418,8 +448,8 @@ Release Date: **November 15, 2013**
 
 Release Date: **November 14, 2013**
 
-* Added support for [Heartbeat video measurement](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` was added to support [Visitor ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.1.1
 

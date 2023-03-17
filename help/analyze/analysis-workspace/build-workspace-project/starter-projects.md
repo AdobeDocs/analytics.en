@@ -1,20 +1,21 @@
 ---
-description: null
+description: Create workspace projects based on standard or custom templates.
 title: Templates
-uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
+feature: Workspace Basics
+role: User, Admin
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 ---
-
 # Templates
 
 You can choose whether to create a project from:
 
-* **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* **Blank project (default)**: For instructions, see [Create an Analysis Workspace Project](/help/analyze/analysis-workspace/home.md).
 * **Standard template**: These templates are created by Adobe and ship with the product.
-* **Custom template**: These templates can be created, shared, or deleted by users with admin rights or by non-admins, provided they have been granted the [!UICONTROL Analysis Workspace: Save as Template] permission in the Admin Console. [Learn more...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Custom template**: These templates can be created, shared, or deleted by users with admin rights or by non-admins, provided they have been granted the [!UICONTROL Analysis Workspace: Save as Template] permission in the Admin Console. [Learn more...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
-## Create a custom template {#create-custom-template}
+## Create custom templates {#create-custom-template}
 
 Users with admin rights can turn any project they create into a custom template. Here's how: 
 
@@ -29,9 +30,11 @@ Users with admin rights can turn any project they create into a custom template.
    >
    >By default, project templates are visible to everyone in your organization. You can organize them by applying tags. (Go to **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** to edit tags and descriptions.)
 
-### Actions you can perform on custom templates
+Here is a video on creating and managing custom templates:
 
-   ![](assets/custom_templates.png)
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
+
+### Manage custom templates {#manage-custom-template}
 
 | Action | Description |
 |--- |--- |
@@ -46,53 +49,58 @@ Users with admin rights can turn any project they create into a custom template.
 
 When you first open a Workspace, templates are available in the left rail. Analysis Workspace Templates cover common use cases. They are grouped by the vertical they belong to and are populated with different dimensions, segments, metrics and visualizations, depending on the report suite you have selected.
 
-You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name.
+You can use these pre-populated templates as they are or adapt them to your needs (by adding or replacing metrics or visualizations, for example) and save them under a new name. 
 
-[Standard Templates in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+Here is a video tutorial on [Standard Templates in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Here are available templates and the questions that each template helps answer.
 
 ### Training
 
-These standard templates walk you through common terminology and steps for building your first analysis in Workspace. They is available as a standard template in the New Project modal and replace the sample project that exists today for new users that do not have other projects in their list.
+This standard template walks you through common terminology and steps for building your first analysis in Workspace. It is available as a standard template in the New Project modal and replaces the sample project that exists today for new users that do not have other projects in their list.
 
-* **Training Tutorial - Internal Search Analysis**: The Internal Search tutorial helps you understand what your visitors are looking for on the website or app, but not finding. Analyzing this type of data can surface content optimization opportunities.
+Here is a video on the [!UICONTROL Training Tutorial] template:
 
-* **Training Tutorial - Marketing Analysis**: This tutorial shows you how to put together a marketing analysis for your executives, including what custom dimensions & metrics are important.
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Advertising
 
 >[!IMPORTANT]
 >
->Advertising templates are available only if your report suite is enabled for Advertising Cloud.
+>Advertising templates are available only if your report suite is enabled for [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Paid Search Engines**: This template breaks down advertising trends, ad platforms, keywords, accounts, campaigns, and more.
 
 ### Commerce
 
-* **Magento: Marketing and Commerce**: This template breaks down your ecommerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. For a video overview, see:
+* **Magento: Marketing and Commerce**: This template breaks down your e-commerce conversion by marketing channel attribution, as well as providing insight by search keyword, landing page, geographical location, and more. Here is a video tutorial on the [Magento: Marketing and Commerce template](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html).
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+### Data Collection
+
+* **ITP Impact**: Understand how Apple's ITP impacts your data and how to adjust reporting accordingly. 
 
 ### Media
 
-* **Audio Consumption**: Which content is being consumed the most and is engaging users? 
-* **Recency - Frequency - Loyalty**: Who are my loyal readers?
+* **Content Consumption**: Who are my loyal readers
+* **Recency - Frequency - Loyalty**: Which content is being consumed most and is engaging users?
+* **Streaming Media Consumption**: Provides trends and top metrics of media consumption across all digital devices. Here is a video on the streaming media consumption template:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Mobile templates are available only if your report suite is enabled for Mobile.
+>Mobile templates are available only if your report suite is enabled for Mobile app analytics.
 
-* **Messaging:** Focuses on in-app and push messaging performance.
-* **Location:** Includes a Map showcasing location data.
-* **Key Metrics:** Keep a pulse on the key metrics of your app.
-* **App Usage:** How many app users, launches, and first launches did the app have, and what was the average session length? 
 * **Acquisition:** See how mobile acquisition links are performing.
+* **App Usage:** How many app users, launches, and first launches did the app have, and what was the average session length? 
+* **Journeys:** What are the prominent usage patterns for my app?
+* **Key Metrics:** Keep a pulse on the key metrics of your app.
+* **Location:** Includes a Map showcasing location data.
+* **Messaging:** Focuses on in-app and push messaging performance.
 * **Performance:** How is the app performing and where are users having problems? 
 * **Retention:** Who are my loyal users and what do they do? 
-* **Journeys:** What are the prominent usage patterns for my app?
 
 ### Retail
 
@@ -102,36 +110,31 @@ These standard templates walk you through common terminology and steps for build
 ### Web
 
 * **Acquisition:** What are the top traffic drivers to my website? 
+* **AEM site performance overview:** How is my Adobe Experience Manager site performing?
 * **Content Consumption:** What are the top places people go on my site? 
 * **Retention:** What types of users are likely to be loyal users of my site? 
 * **Technology:** What technology are people using to access my site?
 
 ### People
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
+This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you:
 
-This template is based on the People metric, which is a de-duplicated version of the Unique Visitors metric. The People metric provides a measure of how often consumers using multiple devices interact with your brand. The template lets you
+* Segment your data for US/Canada vs. the rest of the world
+* Compare the People and Unique Visitors metrics side by side
+* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors
+* Compare the device type totals your customers use
+* See how many average devices per person are used
+* Discover how to use segment stacking with the People metric
+* Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric
 
-* Segment your data for US/Canada vs. the rest of the world. The Device Co-op is currently available only in North America.
-* Compare the People and Unique Visitors metrics side by side.
-* See the "compression rate", a calculated metric that calculates how much smaller the People metric is as a percentage of Unique Visitors.
-* Compare the device type totals your customers use 
-* See how many average devices per person are used.
-* Discover how to use segment stacking with the People metric.
-* Explore how using the Experience Cloud ID in your environment enhances the effectiveness of the People metric.
-
-### Journey IQ: Cross-Device Analysis template
+### Journey IQ: Cross-Device Analytics template
 
 <!--This content is mirrored in the CDA doc.-->
 
-This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA). 
+This template lets you see vital cross-device performance data. It is available only to customers who have access to [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) (CDA).
 
-* **Special note for members of the Co-op Graph**: Shows what portion of your report suite contains visitors in regions where the co-op graph is supported, and regions where it is not supported.
 * **Identification of users**: Shows how often visitors to your site are identified using methods based on Cross-Device Analytics.
 * **Measuring audience size**: Shows a comparison of 'Unique Devices' compared to 'People'. The proportion of these two numbers is known as 'Cross-device compression', a calculated metric visible in this panel. This compression metric depends on a broad range of factors:
-  * **Using the Co-op graph or Private graph**: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
   * **Log-in rate**: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
   * **Experience Cloud ID coverage**: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
   * **Multiple device usage**: If visitors to your site don't use multiple devices, you can see lower compression rates.
@@ -139,4 +142,4 @@ This template lets you see vital cross-device performance data. It is available 
 * **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
 * **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
 * **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
-* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it. 
+* **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it.

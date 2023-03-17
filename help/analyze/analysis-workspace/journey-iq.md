@@ -1,8 +1,9 @@
 ---
 title: Journey IQ
 description: Understand the features that make up Journey IQ, a set of features that are a part of Adobe Analytics.
+role: User, Admin
+exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 ---
-
 # Journey IQ
 
 Journey IQ is a set of features that provide easy to use, fully customizable visualizations and settings to better understand the customer's experience. It enables you to measure each touch point in a customer's journey, even across channels. Use these features to better understand where to re-engage customers, keep them loyal, and personalize their experiences along the way.

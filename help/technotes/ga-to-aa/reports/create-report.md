@@ -1,8 +1,9 @@
 ---
 title: Create a basic report in Analysis Workspace
 description: Learn how to create a basic report in Analysis Workspace in a format geared towards users familiar with third-party tools such as Google Analytics.
+feature: Third-party Integration
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 ---
-
 # Create a basic report in Analysis Workspace for Google Analytics users
 
 Analysis Workspace (one of the main features within Adobe Analytics) provides a robust area for a user to gain any insight on collected data. Reporting is very different between Google Analytics and Adobe Analytics:

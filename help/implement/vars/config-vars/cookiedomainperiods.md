@@ -1,6 +1,8 @@
 ---
 title: cookieDomainPeriods
 description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
+feature: Variables
+exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 ---
 
 # cookieDomainPeriods
@@ -16,18 +18,22 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 >
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
-## Domain Periods in Adobe Experience Platform Launch
+## Domain periods using the Web SDK
+
+The Web SDK can determine the correct cookie storage domain without this variable.
+
+## Domain Periods using the Adobe Analytics extension
 
 Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
+1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
 
 Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## s.cookieDomainPeriods in AppMeasurement and Launch custom code editor
+## s.cookieDomainPeriods in AppMeasurement and the Analytics extension custom code editor
 
 The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
 

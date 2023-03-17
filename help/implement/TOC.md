@@ -3,13 +3,13 @@ product: analytics
 audience: all
 user-guide-title: Analytics Implementation Guide
 breadcrumb-title: Implementation Guide
-user-guide-description: Customize what data is collected to get more out of Adobe Analytics. 
-breadcrumb-url: /docs/analytics/implementation/home.html
+user-guide-description: Learn ways to implement Adobe Analytics. Customize what data is collected to get the most out of Analytics data. 
 ---
 
-# Analytics Implementation Guide {#implementation}
+# Adobe Analytics Implementation Guide {#implementation}
 
-+ [Analytics Implementation Help](home.md)
++ [Implement Adobe Analytics](home.md)
++ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement release notes](appmeasurement-updates.md)
 + Analytics variables, functions, and methods {#vars}
   + [Overview](vars/overview.md)
@@ -18,21 +18,19 @@ breadcrumb-url: /docs/analytics/implementation/home.html
     + [abort](vars/config-vars/abort.md)
     + [account](vars/config-vars/account.md)
     + [charSet](vars/config-vars/charset.md)
+    + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
     + [cookieDomain](vars/config-vars/cookiedomain.md)
     + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
     + [cookieLifetime](vars/config-vars/cookielifetime.md)
     + [currencyCode](vars/config-vars/currencycode.md)
-    + [dc](vars/config-vars/dc.md)
     + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
     + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
     + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
     + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
     + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
     + [linkLeaveQueryString](vars/config-vars/linkleavequerystring.md)
-    + [linkName](vars/config-vars/linkname.md)
     + [linkTrackEvents](vars/config-vars/linktrackevents.md)
     + [linkTrackVars](vars/config-vars/linktrackvars.md)
-    + [linkType](vars/config-vars/linktype.md)
     + [linkURL](vars/config-vars/linkurl.md)
     + [offlineHitLimit](vars/config-vars/offlinehitlimit.md)
     + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
@@ -48,7 +46,7 @@ breadcrumb-url: /docs/analytics/implementation/home.html
     + [visitorID](vars/config-vars/visitorid.md)
     + [visitorNamespace](vars/config-vars/visitornamespace.md)
     + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-  + Page variables {page-vars}
+  + Page variables {#page-vars}
     + [Page variables overview](vars/page-vars/page-variables.md)
     + [campaign](vars/page-vars/campaign.md)
     + [channel](vars/page-vars/channel.md)
@@ -115,16 +113,35 @@ breadcrumb-url: /docs/analytics/implementation/home.html
     + [getVisitNum](vars/plugins/getvisitnum.md)
     + [inList](vars/plugins/inlist.md)
     + [manageVars](vars/plugins/managevars.md)
-    + [Numbers Suite](vars/plugins/numberssuite.md)
+    + [Numbers suite](vars/plugins/numberssuite.md)
     + [p_fo](vars/plugins/p-fo.md)
     + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
+    + [websiteBot](vars/plugins/websitebot.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)
+  + [Compare implementation methods](prepare/comparison.md)
   + [Global report suite considerations](prepare/global-rs.md)
-  + [Implementation modal](prepare/implementation-modal.md)
+  + [Implementing multi-suite tagging](prepare/multi-suite-tagging.md)
   + [Create a solution design document](prepare/solution-design.md)
+  + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
++ Implement Analytics using Experience Platform Edge {#aep-edge}
+  + [Experience Edge overview](aep-edge/overview.md)
+  + [Variable mapping](aep-edge/variable-mapping.md)
+  + Web SDK {#web-sdk}
+    + [Web SDK overview](aep-edge/web-sdk/overview.md)
+  + Mobile SDK {#mobile-sdk}
+    + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
+  + Edge API {#edge-api}
+    + [Edge API overview](aep-edge/edge-api/overview.md)
++ Implement Analytics using the Adobe Analytics extension {#launch}
+  + [Tags overview](launch/overview.md)
+  + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)
+  + [Deploy to a development environment](launch/deploy-dev.md)
+  + [Validate and publish to production](launch/validate-publish-prod.md)
+  + [Map data layer objects to data elements](launch/layer-to-elements.md)
+  + [Map tag data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics using JavaScript {#js}
   + [JavaScript overview](js/overview.md)
   + [Implement opt-out links](js/opt-out.md)
@@ -144,44 +161,9 @@ breadcrumb-url: /docs/analytics/implementation/home.html
     + [Visit example](js/xdevice-visid/visit-example.md)
     + [Legacy cross-device FAQ](js/xdevice-visid/xdevice-faq.md)
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
-  + [Launch overview](launch/overview.md)
-  + [Create an Analytics property](launch/create-analytics-property.md)
-  + [Deploy to a dev environment](launch/deploy-dev.md)
-  + [Validate and publish to prod](launch/validate-publish-prod.md)
-  + [Map data layer objects to data elements](launch/layer-to-elements.md)
-  + [Map Launch data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
-  + Implement Analytics using DTM {#dtm}
-    + [Dynamic Tag Management implementation overview](other/dtm/dtm-implementation-overview.md)
-    + [Create web property](other/dtm/t-create-web-property.md)
-    + [Configure hosting options](other/dtm/t-configure-hosting.md)
-    + Headers and footers {#headers-footers}
-      + [Add header and footer code](other/dtm/c-headers-footers/t-header-footer-code.md)
-      + [Verify header and footer code](other/dtm/c-headers-footers/t-verify-header-footer.md)
-    + Adobe Analytics tool {#analytics-tool}
-      + [Add Adobe Analytics tool](other/dtm/c-aa-tool/analytics-dtm.md)
-      + [General](other/dtm/c-aa-tool/general-settings-analytics.md)
-      + [Library management](other/dtm/c-aa-tool/library-management.md)
-      + [Insert core AppMeasurement code](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-      + [Global variables](other/dtm/c-aa-tool/global-variables.md)
-      + [Page views and content](other/dtm/c-aa-tool/pageviews-content.md)
-      + [Link tracking](other/dtm/c-aa-tool/link-tracking.md)
-      + [Referrers and campaigns](other/dtm/c-aa-tool/referrers-campaigns.md)
-      + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
-      + [Customize page code](other/dtm/c-aa-tool/customize-page-code.md)
-      + [FAQs about the Adobe Analytics Tool](other/dtm/c-aa-tool/dtm-faq.md)
-    + [Create a data element](other/dtm/t-data-element.md)
-    + [Manually implement Adobe Analytics (legacy)](other/dtm/t-analytics-deploy.md)
-    + Rules {#rules}
-      + [Create new rule](other/dtm/c-rules/t-rules-create.md)
-      + [Create conditions for event-based rules](other/dtm/c-rules/t-rules-event-conditions.md)
-      + [Create conditions for page-load rules](other/dtm/c-rules/t-rules-page-conditions.md)
-      + [Create conditions for direct-call rules](other/dtm/c-rules/t-rules-direct-conditions.md)
-      + [Set up actions for the condition to trigger](other/dtm/c-rules/t-rules-actions.md)
-      + [Test unpublished rules for Akamai hosting](other/dtm/c-rules/t-test-rules-akamai.md)
-      + [Test rules for library download or FTP](other/dtm/c-rules/t-test-rules-ftp.md)
+  + [Implement Analytics using DTM](other/dtm-implementation-overview.md)
   + [Implement Analytics on Ajax](other/ajax.md)
   + [Implement Analytics on AMP](other/amp.md)
   + [Implement Analytics on Digital Assistants](other/digital-assistants.md)
@@ -190,13 +172,14 @@ breadcrumb-url: /docs/analytics/implementation/home.html
 + Implementation use cases {#use-cases}
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Track across different implementation types](use-cases/cross-type-implementation.md)
-  + [External email tracking](use-cases/email-external.md)
+  + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
   + [Legacy Adobe Experience Cloud debugger](validate/debugger.md)
   + [Data collection query parameters](validate/query-parameters.md)
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)
 + [Frequently asked questions](faq.md)
-+ Use XDM data with Analytics {#aep-edge}
-  + [Use AEP Web SDK](aep-edge/xdmoverview.md)
-  + [Map XDM data to Analytics manually](aep-edge/xdm-manual.md)
++ Review your implementation {#review}
+  + [Focused Review (after each website release)](review/focused-review.md)
+  + [Full Review (every 6 months)](review/full-review.md)
+  + [Define your Top 5 KPIs](review/define-kpis.md)

@@ -1,10 +1,11 @@
 ---
 description: You can schedule reports to send according to the time and file format that you define.
 title: Schedule a data request
-topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
+feature: Report Builder
+role: User, Admin
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 ---
-
 # Schedule workbooks
 
 You can schedule workbooks, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure workbooks that you want to send at a specific time or in intervals. You can also specify the file format in which to send the workbook.
@@ -15,7 +16,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 >[!NOTE]
 >
->You must have Excel 2007 or the compatibility pack installed in order to schedule a workbook. You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. A workbook that has been scheduled (or uploaded to the Workbook Library) and has not been touched (updated, replaced) in more than 28 months will be deleted.
+>You must have Excel 2007 or the compatibility pack installed in order to schedule a workbook. You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. A workbook that has been scheduled (or uploaded to the Workbook Library) and has not been touched (updated, replaced) in more than 28 months will be deleted.
 
 >[!NOTE]
 >
@@ -65,7 +66,6 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 |**File Options tab**||
 |File Format|Lets you select a delivery format of Excel 2007 ( .xlsx) or 2003 ( .xls),  .pdf, .csv, .mht, .txt, and .xml.|
 |File Destination|Specifies Email or FTP. The options on the page change depending on your selection. For FTP, you must ensure that the host is available externally.|
-|Publishing List|If you send the scheduled workbook to multiple publishing lists, the workbook runs once for each list. Variable report suites are replaced by the report suite assigned to the publishing list.|
 |File Contents Language|Specifies the language you want to use for the cover letter. You can select Chinese (Simplified or Traditional), German, French, Japanese, Korean, Brazilian Portuguese, or Spanish.|
 |**Publishing Options tab**||
 |Publishing to Power BI|<ul><li>Publish Workbook to Power BI</li><li>Publish All Report Builder Requests as Power BI Datasets</li><li>Publish All Formatted Tables as Power BI Datasets</li></ul>|
@@ -74,4 +74,3 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-

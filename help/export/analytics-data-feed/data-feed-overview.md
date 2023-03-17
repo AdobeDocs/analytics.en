@@ -2,19 +2,19 @@
 description: Data that is collected from web sites, mobile apps, or is uploaded using web service APIs or data sources, is processed and stored in Adobe's Data Warehouse. This raw clickstream data forms the data set that is used by Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics Data Feed overview
-uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+feature: Data Feeds
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 ---
-
 # Analytics Data Feed overview
 
 Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw data can be used in other platforms outside of Adobe to use at your organization's discretion. Data is delivered in hourly batches at the conclusion of each hour, or in daily batches at the conclusion of each day.
 
 ## Prerequisites
 
-Make sure you meet all the following requirements before using data feeds.
+Make sure that you meet all the following requirements before using data feeds.
 
 * Have an FTP site and credentials handy. Data feeds can only be sent to a server destination. Your organization typically provides FTP credentials. Adobe can provide an FTP location with a modest amount of storage at your request. Contact Customer Care to request an FTP destination for data feeds.
-* A working implementation that sends data to Adobe data collection servers. See [Validate and publish an implementation in Launch](/help/implement/launch/validate-publish-prod.md) in the Implement user guide.
+* A working implementation that sends data to Adobe data collection servers. See [Validate and publish an implementation](/help/implement/launch/validate-publish-prod.md) in the Implement user guide.
 * Your account is an Analytics product admin, or your account belongs to a product profile with access to data feeds.
 
 ## Steps to get started
@@ -61,4 +61,8 @@ Once you understand the basic workflow of obtaining data feeds, you can work wit
 
 Video navigating the data feed interface:
 
->[!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+Video on how to find your data feed ID:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)

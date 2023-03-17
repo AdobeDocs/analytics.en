@@ -1,14 +1,18 @@
 ---
 description: Context-aware sessions in virtual report suites change how Adobe Analytics calculates mobile visits. This article describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 title: Context-aware sessions
-uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+feature: VRS
+exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 ---
-
 # Context-aware sessions
 
 Context-aware sessions in virtual report suites change how Adobe Analytics calculates visits from any device. This article also describes the processing implications of background hits and app launch events (both set by the mobile SDK) to how mobile visits are defined.
 
 You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your digital experiences.
+
+Here is a video on context-aware sessions:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 ## Customer Perspective URL Parameter
 
@@ -121,7 +125,7 @@ Time spent is still calculated in an analogous way to how it is without backgrou
 
 ## Background Hit Processing Settings 
 
-Because background hit processing is only available to virtual report suites using Report Time Processing, Adobe Analytics supports two ways of processing background hits in order to preserve the visit counts in the base report suite which does not use Report Time Processing. To access this setting navigate to the Adobe Analytics Admin Console, go the settings of the applicable base report suite, then navigate to "Mobile Management" menu, then to the "Mobile Application Reporting" sub menu.
+Because background hit processing is only available to virtual report suites using Report Time Processing, Adobe Analytics supports two ways of processing background hits in order to preserve the visit counts in the base report suite which does not use Report Time Processing. To access this setting navigate to Adobe Analytics Admin Tools, go the settings of the applicable base report suite, then navigate to "Mobile Management" menu, then to the "Mobile Application Reporting" sub menu.
 
 1. "Legacy Processing On": This is the default setting for all report suites. Leaving legacy processing on processes background hits as normal hits in our processing pipeline as far as the non-Report Time Attribution base report suite is concerned. This means that any background hits that appear in the base report suite increment visits as a normal hit. If you do not want background hits to appear in your base report suite, change this setting to "Off".
 1. "Legacy Processing Off": With legacy processing for background hits off, any background hits sent to the base report suite are ignored by the base Report Suite and are only accessible when a virtual report suite created on this base report suite is configured to use Report Time Processing. This means that any data captured by background hits sent to this base report suite only appear in a Report Time Processing enabled virtual report suite.

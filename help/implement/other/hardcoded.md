@@ -1,8 +1,9 @@
 ---
 title: Implementing with hardcoded image requests
 description: Implement Adobe Analytics using an HTML image tag (hardcoded image request)
+feature: Implementation Basics
+exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 ---
-
 # Implementing with hardcoded image requests
 
 AppMeasurement libraries provided by Adobe compile variables present on the page, then send them as an image request to Adobe. You can bypass AppMeasurement libraries altogether and manually send an image request to Adobe. This method requires that you manually formulate the image request and query string.
@@ -18,14 +19,15 @@ This implementation method can be used on any platform that displays images from
 The following is an example hardcoded image request using HTML:
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` designates the protocol. Match the protocol used in the image request with the protocol that the rest of your site uses.
-* `example.sc.omtrdc.net` is the value contained in the [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
+* `example.data.adobedc.net` is the value contained in the [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
 * `/b/ss/` is included in all image requests. It is part of the file structure for images stored on Adobe data collection servers.
-* `examplersid` is the report suite ID you want to send data to.
+* `examplersid` is the report suite ID you want to send data to. For multiple report suites, separate the IDs with commas and no spaces (such as `examplersid1,examplersid2` and so on).
 * `/1/` is the hit source. See `hit_source` under [Data column reference](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) in the Export user guide. Controls the order that cookies and other methods use to identify visitors.
+* `/s234234238479` (`"s"` + a random number) prevents the browser from caching the image request.
 * Everything after the query string delimiter (`?`) is data that you want to include in reports. See [Data collection query parameters](../validate/query-parameters.md) for the full list of parameters you can include in an image request.
 
 ## Hardcoded image requests in Microsoft Outlook

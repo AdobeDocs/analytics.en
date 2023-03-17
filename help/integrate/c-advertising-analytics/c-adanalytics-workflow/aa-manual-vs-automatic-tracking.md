@@ -1,11 +1,16 @@
 ---
 description: Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
 title: Tracking  Manual Mode and Auto Mode
+feature: Advertising Analytics
+exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 ---
-
 # Tracking: Manual Mode and Auto Mode
 
 Tracking determines how Search Engine data is tracked by your Adobe Analytics implementation. This is a required step to properly augment the Adobe Analytics data with the Search Engine data.
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 Two tracking modes are supported: Auto Mode and Manual Mode.
 
@@ -22,7 +27,7 @@ Note that to configure a search engine account in 'Auto Mode', you are responsib
 
 >[!IMPORTANT]
 >
->Learn more on whether you should add the `s_kwcid` parameter to your [Content Security Policy](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html).
+>Learn more on whether you should add the `s_kwcid` parameter to your [Content Security Policy](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
 
 ## Manual Mode Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

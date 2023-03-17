@@ -1,16 +1,15 @@
 ---
 description: Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
-subtopic: Data sources
 title: Full processing
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 ---
-
 # Full processing
 
 >[!IMPORTANT]
 >
->Adobe recommends customers use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe plans to deprecate full processing data sources in the future.
+>Adobe recommends that you use the [Bulk Data Insertion API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) instead of full processing data sources. Adobe deprecated full processing data sources on January 31, 2022. [Learn more](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Data Sources supports the following variables when processing data as a standard server call (Generic > Full Processing).
 
@@ -64,7 +63,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
+   <td colname="col3"> <p>Events string, formatted using the same syntax as the <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  > s.events </a> variable. </p> <p>For example: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -167,7 +166,7 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
+   <td colname="col2"> <p>The supported cahracter set for your Web site. For example, UTF-8, ISO-8859-1, and so forth. </p> <p>See the <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  > Multi-Byte Character Sets </a> (Internationalization) whitepaper for a complete list. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -251,4 +250,3 @@ The following table contains traffic variables that are populated automatically 
   </tr> 
  </tbody> 
 </table>
-

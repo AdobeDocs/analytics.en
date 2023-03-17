@@ -1,8 +1,9 @@
 ---
 title: Hour of day
 description: The numeric hour of the day, regardless of which day.
+feature: Dimensions
+exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 ---
-
 # Hour of day
 
 The 'Hour of day' dimension reports the numeric hour of any given day as a dimension item. For example, if you have a report spanning January 1 - January 7, the first hour of each day groups into the same dimension item. This report is valuable if you want a report broken out by relative time of day, but do not want a static hours as dimension items. It is especially valuable as a dimension in scheduled reports, as this dimension rolls with the selected date range.

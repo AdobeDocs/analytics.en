@@ -1,16 +1,10 @@
 ---
 description: A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
-subtopic: Classifications
 title: Classification rule sets
-topic: Admin tools
-uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
+feature: Classifications
+exl-id: 5c118541-d143-4947-b693-514d7042abe6
 ---
-
 # Classification rule sets
-
-A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
-
-## Classification rule sets 
 
 A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
 
@@ -57,7 +51,7 @@ Name the classification rule set, apply the variable, and specify overwrite sett
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (See [Classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in Admin Tools help on adding classifications.)
+   (See [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in Admin Tools help on adding classifications.)
 
    Variables will display in the [!UICONTROL New Rule Set] panel only after they have at least one classification defined for that variable.
 

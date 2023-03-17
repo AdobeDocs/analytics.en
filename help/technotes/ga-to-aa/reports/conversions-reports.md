@@ -1,8 +1,9 @@
 ---
 title: Conversions reports in Adobe Analytics
 description: Learn how to use conversions reports in Adobe Analytics.
+feature: Third-party Integration
+exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
 ---
-
 # Conversions reports
 
 A 'conversion' is an action that a visitor does on your site that directly translate to your organization's key indicators. Conversions reports show details on how visitors are converting.

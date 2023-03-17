@@ -1,10 +1,9 @@
 ---
 description: Outlines the steps and best practices to follow when planning your segments.
 title: Plan segments
-topic: Segments
-uuid: bc522834-123c-457d-bde7-db7c5c97077f
+feature: Segmentation
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 ---
-
 # Plan segments
 
 Outlines the steps and best practices to follow when planning your segments.
@@ -22,4 +21,3 @@ Devoting some time to plan segments improves the chances that they will be usefu
 
 1. Consider how you want your **approval process** to unfold. Will a single person review and approve segments or will it be a committee decision? 
 1. Define your segments with view to a **segment library** that gives business users the ability to [stack](/help/components/segmentation/segmentation-workflow/seg-build.md) and reuse segment pieces or components in a modular fashion. What "modules" do you need to define to make this library a reality?
-

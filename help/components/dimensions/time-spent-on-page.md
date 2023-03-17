@@ -1,8 +1,9 @@
 ---
 title: Time spent on page
 description: The amount of time a visitor spent on the page.
+feature: Dimensions
+exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 ---
-
 # Time spent on page
 
 The 'Time spent on page' dimension records the amount of time a visitor spent on the page. It uses the following steps to measure calculation:
@@ -29,7 +30,7 @@ This dimension works out of the box for all implementations. If a report suite c
 
 Multiple dimensions exist for time spent on page:
 
-* **Time spent on page - bucketed**: The amount of time is bucketed. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Time between page views typically don't last longer than 30 minutes; however, time between page views can exceed 30 minutes if using timestamped hits or data sources.
+* **Time spent on page - bucketed**: The amount of time is bucketed. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. Time between hits typically does not last longer than 30 minutes; however, time between hits can exceed 30 minutes if using timestamped hits or data sources.
 * **Time spent on page - granular**: Each number of seconds is a unique dimension item.
 
 See [Time spent overview](../metrics/time-spent.md) for more general information on time spent.

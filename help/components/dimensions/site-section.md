@@ -1,8 +1,9 @@
 ---
 title: Site section
 description: The name of the site section.
+feature: Dimensions
+exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
 ---
-
 # Site section
 
 The 'Site section' dimension lists the names of site sections on your site. For large sites, it is helpful to group pages into sections. This dimension is useful to see the top-viewed or top-performing site sections.

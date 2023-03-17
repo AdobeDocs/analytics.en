@@ -1,13 +1,14 @@
 ---
 description: Steps that describe how to create an anomaly detection request in report builder.
 title: Configure an anomaly detection request
-topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
+feature: Report Builder
+role: User, Admin
+exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 ---
-
 # Configure an anomaly detection request
 
-Steps that describe how to create an anomaly detection request in report builder.
+To create an anomaly detection request in report builder:
 
 1. Select a trended report, such as a **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** report.
 1. In the [!UICONTROL Apply Granularity] menu, select **[!UICONTROL Day]**.

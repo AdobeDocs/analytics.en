@@ -1,9 +1,9 @@
 ---
-description: null
+description: Manage accounts in Advertising Analytics.
 title: Manage advertising accounts
-uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
+feature: Advertising Analytics
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 ---
-
 # Manage advertising accounts
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
@@ -72,4 +72,3 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
  </tbody> 
 </table>
-

@@ -1,11 +1,13 @@
 ---
 description: List of known limitations in Adobe Analysis Workspace and its related components
 title: Known limitations in Analysis Workspace
+feature: Workspace Basics
+role: User, Admin
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 ---
-
 # Known limitations in Analysis Workspace 
 
-Here is a list of known limitations in Analysis Workspace and its related components: 
+Here is a list of known limitations in Analysis Workspace and its related components:
 
 ## Tables
 
@@ -28,7 +30,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 ## Components > Segments
 
 * Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Adhoc segments created in the [panel dropzone](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) will not appear in the left rail of Workspace or the Segment component manager, unless they are made public. This can be done by editing the segment and selecting **[!UICONTROL Make this segment public]**.
+* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) will not appear in the left rail of Workspace or the Segment component manager, unless they are made public. This can be done by editing the segment and selecting **[!UICONTROL Make this segment public]**.
 
 ## Components > Calculated Metrics
 
@@ -44,7 +46,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 
 * When report time processing is enabled, certain components are not supported. For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
 
-## Components > Report Settings
+## Components > All components > Report settings
 
 * Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
 

@@ -1,9 +1,9 @@
 ---
-description: null
+description: Schedule requests in Data Warehouse to run on a repeating basis.
 title: Schedule a recurring request
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 ---
-
 # Schedule a recurring request
 
 ## Schedule a recurring request {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
@@ -20,4 +20,3 @@ To schedule Data Warehouse requests for Daily/Monthly/Yearly, make sure &#42;Pre
    ![](assets/dw_schedule.png)
 
 1. Click **[!UICONTROL Schedule]**.
-

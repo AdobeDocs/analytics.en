@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot spikes and drops in data
 description: Learn possible reasons why you can see dramatic increases or decreases in trended reports.
+exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 ---
-
 # Troubleshoot spikes and drops in data
 
 As your site collects data, there are many external factors that can drastically affect data collection or reporting. The following is a list of potential explanations as to why certain variables or overall traffic dramatically increases or decreases.
@@ -39,7 +39,7 @@ Traffic spikes are categorized into two sections: near double data and other cau
 
 ### Other potential causes of increased traffic
 
-* **Spiders or bots**: If you see a large sudden increase in traffic, the first thing to look for is the possibility of a spider or bot. Identifying bots can sometimes be tricky, as each have their own way of executing code on your site. Create a Data Warehouse report using IP as a dimension to see which addresses cause the most traffic. You can then use either [Bot Rules](/help/admin/admin/bot-removal/bot-rules.md) or a VISTA rule to eliminate bot traffic from future reporting.
+* **Spiders or bots**: If you see a large sudden increase in traffic, the first thing to look for is the possibility of a spider or bot. Identifying bots can sometimes be tricky, as each have their own way of executing code on your site. Create a Data Warehouse report using IP as a dimension to see which addresses cause the most traffic. You can then use either [Bot Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) or a VISTA rule to eliminate bot traffic from future reporting.
 * **Launched campaigns**: Marketing efforts such as email campaigns or search engine optimization can potentially cause a traffic spike on your site. Trend the [Tracking code](/help/components/dimensions/tracking-code.md) dimension to research further. It can also help to contact your marketing team to ensure that the spike was intentional.
 * **Environmental or circumstantial causes**: If a holiday or circumstantial event occurred (a significant event where your site is a known resource, or residual marketing efforts of other organizations), traffic can increase on your site. Troubleshooting the exact cause is difficult, as there are a near unlimited number of circumstantial reasons why traffic can increase. These causes however are some of the most important to determine so your organization can take advantage of them and make business decisions accordingly. Trending the [Page](/help/components/dimensions/page.md) or [Referrer](/help/components/dimensions/referrer.md) dimension is most likely the best place to start in determining the source of the traffic.
 

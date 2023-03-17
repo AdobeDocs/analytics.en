@@ -1,20 +1,18 @@
 ---
 description: Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-subtopic: Get started
 title: Getting started with Reports and Analytics
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
+feature: Reports & Analytics Basics
+role: User, Admin
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 ---
-
-# Getting started with Reports & Analytics
+# Get started with Reports & Analytics
 
 Before using Reports & Analytics, understand these basic login and setup tasks, and how to access account information.
 
-## Getting started with Reports & Analytics
+>[!IMPORTANT]
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
-Before using Reports and Analytics, understand these basic login and setup tasks, and how to access account information.
-
-Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of marketing reports include:
+Reporting provides insights into your traditional web-based channels as well as evolving channels like mobile, video, and social networking. Some examples of reports include:
 
 * How many people visit your site 
 * How many of those visitors are unique visitors (counted only once) 
@@ -30,15 +28,7 @@ Reporting provides insights into your traditional web-based channels as well as 
 
 Browser and system requirements to log in to the Reports & Analytics interface.
 
-* Browsers:
-
-    * Preferred: Latest versions of Firefox, Chrome, Safari, or Edge.
-    * Latest version of Microsoft Internet Explorer 11
-    
-      >[!NOTE]
-      >
-      >Adobe ended support for Internet Explorer 11 within Adobe Analytics on November 13, 2018. Please switch to Microsoft Edge or another supported browser, as soon as possible.
-
+* Preferred Browsers: Latest versions of Firefox, Chrome, Safari, or Edge.
 * Cookies and JavaScript must be enabled.
 * 1024 x 768 monitor resolution with 16-bit color depth (or higher).
 
@@ -48,7 +38,7 @@ Before accessing the interface, work with your Account Manager or Adobe Customer
 
 ## Log in using the Experience Cloud
 
-Steps that describe how to log in through the Adobe Experience Cloud.
+To log in through the Adobe Experience Cloud:
 
 1. On a computer with access to the Internet, start a browser.
 1. Go to [!DNL https://login.experiencecloud.adobe.com/].
@@ -66,7 +56,7 @@ Steps that describe how to log in through the Adobe Experience Cloud.
 
 ## Run a report
 
-Steps that describe how to generate a report.
+To generate a report:
 
 1. Log in to [!UICONTROL Reports & Analytics].
 
@@ -88,45 +78,23 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
 
 All users have access to the [!UICONTROL Account Information] page. The following information is available to view or edit: 
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type of Information </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>Contact </p> </td> 
-   <td> <p>Specify the following personal information for your account: </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">First Name (Required) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Last Name (Required) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Title </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Email Address (Required) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Phone Number </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Login </p> </td> 
-   <td> <p>Displays the account username, and lets you change the account password. </p> <p>See also: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  > How to reset Reports &amp; Analytics account password</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Web Service </p> </td> 
-   <td> <p>Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the <a href="https://marketing.adobe.com/developer"  > Developer Connection</a>. </p> <p> <p>Note:  This information is displayed only if the account is authorized as a web services user. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Exclude this Computer </p> </td> 
-   <td> <p>Applies a cookie to the current computer to exclude it from data collection. This is useful if you do not want your on-line activities to affect Page View and Visitor counts in your domain. </p> <p> <p>Note:  To use this feature, your browser must have cookies enabled. If you delete cookies on your computer, you must reset the exclusion cookie. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type of Information | Definition |
+| --- | --- |
+| Contact | Specify the following personal information for your account:<ul><li>First Name (Required)</li><li>Last Name (Required)</li><li>Title</li><li>Email Address (Required)</li><li>Phone Number</li></ul> |
+| Login | Displays the account username, and lets you change the account password. See also: [How to reset Reports & Analytics account password](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
+| Web Service | Displays the web services username and shared secret associated with this account. Use these credentials when accessing Experience Cloud through the web services APIs. For more information, see the  Developer Connection. **Note:** This information is displayed only if the account is authorized as a web services user. |
+| Exclude this Computer | Applies a cookie to the current computer to exclude it from data collection. This is useful if you do not want your on-line activities to affect Page View and Visitor counts in your domain. **Note:** To use this feature, your browser must have cookies enabled. If you delete cookies on your computer, you must reset the exclusion cookie. |
 
 ## Change the interface language
 
-Steps that describe how to change the interface language. You can view the Reports and Analytics interface in the language of your choice.
+You can change the interface language. You can view the Reports and Analytics interface in the language of your choice.
+
+To change the interface language:
 
 1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
 1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
-You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.) 
+You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+
+>[!NOTE]
+>This product is authorized for sale in North America and other regions where the product is actually sold. It may not meet the local requirements for sale in other countries or regions.

@@ -1,11 +1,9 @@
 ---
 description: Adobe Analytics data sources lets you manually import additional online or offline data for reporting.
-subtopic: Data sources
-title: Data Sources overview
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
+title: What are Data Sources and how do they benefit me?
+feature: Data Sources
+exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 ---
-
 # Data Sources overview
 
 Adobe Analytics data sources lets you manually import additional online or offline data for reporting.
@@ -32,4 +30,4 @@ You can use Data Sources to help understand the pre-click data by importing the 
 >
 >For transaction ID data sources to tie offline data to online events, Transaction ID Recording must be enabled by Customer Care. See [Transaction ID Recording](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) for more information.
 
-After import, most Data Sources data is available throughout the Digital Marketing Suite.
+After import, most Data Sources data is available throughout the Adobe Experience Cloud.

@@ -2,8 +2,10 @@
 title: Segment comparison use cases
 description: Learn real-world use cases on how the segment comparison panel can be used to gain insight into marketing strategy.
 keywords: Segment IQ
+feature: Segmentation
+role: User, Admin
+exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 ---
-
 # Segment IQ use cases
 
 The segment comparison panel is a widely-used feature in Analysis Workspace. Customers frequently discover new ways to drive insights with it. The following are several successful use cases.

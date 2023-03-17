@@ -1,10 +1,11 @@
 ---
 description: Adobe Report Builder now features permissioning settings analogous to those in the Analytics Admin Tools.
 title: User access permissions for dimensions and metrics
-topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
+feature: Report Builder
+role: User, Admin
+exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 ---
-
 # User access permissions for dimensions and metrics
 
 Adobe Report Builder now features permissioning settings analogous to those in the Analytics Admin Tools.

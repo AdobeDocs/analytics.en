@@ -2,10 +2,10 @@
 description: Use case examples for cohort analysis.
 keywords: Analysis Workspace
 title: Cohort analysis use cases
-topic: Reports and analytics
-uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
+feature: Cohort Analysis
+role: User, Admin
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 ---
-
 # [!UICONTROL Cohort Analysis] use cases
 
 Use case examples for [!UICONTROL Cohort Analysis].

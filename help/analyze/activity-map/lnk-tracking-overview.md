@@ -1,10 +1,11 @@
 ---
 description: Activity Map tracks links with a more robust algorithm that 
 title: Robust link tracking
-topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
+feature: Activity Map
+role: User, Admin
+exl-id: 1f077234-ff88-46ce-a931-2d21d68042b0
 ---
-
 # Robust link tracking
 
 Activity Map tracks links with a more robust algorithm that:

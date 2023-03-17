@@ -1,9 +1,10 @@
 ---
-description: null
+description: Use Report Builder with Microsoft Power BI.
 title: Publish to Power BI - Overview
-uuid: ad688817-6e3c-45da-983d-48c123465309
+feature: Report Builder
+role: User, Admin
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 ---
-
 # Publish to Power BI - Overview
 
 Microsoft Power BI is a suite of business analytics dashboards to analyze data and share insights. The Adobe Analytics integration with Power BI lets you visualize Report Builder Analytics data within Microsoft Power BI and easily share it across your organization.
@@ -128,4 +129,3 @@ Each scheduled Report Builder request will be published as a table in the datase
 1. Also notice that there is an additional table called **[!UICONTROL Legend]**. If you take a request out of the Report Builder context, it may be difficult to remember what each request stands for. The purpose of the Legend table is, for example, to show you the name of each request under Table ID. You can also add the other Legend columns to get a full view of the request.
 
    ![](assets/legend-table.png)
-

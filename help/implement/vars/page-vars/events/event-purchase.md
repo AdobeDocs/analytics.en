@@ -1,8 +1,9 @@
 ---
 title: Purchase event
 description: Use the purchase event to collect data for the 'Orders', 'Units', and 'Revenue' metrics.
+feature: Variables
+exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 ---
-
 # Purchase event
 
 The purchase event is a value in the `events` variable. This value is useful for organizations that want to collect data around the revenue that their site generates. It is heavily dependent on the [`products`](../products.md) and [`purchaseID`](../purchaseid.md) variables.
@@ -15,20 +16,28 @@ When you set a purchase event, it affects the following metrics:
 
 >[!NOTE]
 >
->Revenue is not multiplied by the quantity field. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. For example,`s.products="Womens;Socks;5;22.50"`.
+>Revenue is not multiplied by the quantity field. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure that your implementation passes the total revenue for the quantity listed. For example, `s.products="Womens;Socks;5;22.50"`.
 
-## Set the purchase event in Adobe Experience Platform Launch
+## Set the purchase event using the Web SDK
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Click the desired property.
+The purchase event is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several XDM fields:
+
+* Orders are mapped to `commerce.purchases.value`.
+* Units are mapped to the sum of all `productListItems[].quantity` fields.
+* Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.
+
+## Set the purchase event using the Adobe Analytics extension
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
 5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Events] section, and set the events dropdown to [!UICONTROL purchase].
 
-Other dependent variables like `products` and `purchaseID` do not have dedicated fields in Launch. Use the custom code editor following AppMeasurement syntax for these variables.
+Other dependent variables like `products` and `purchaseID` do not have dedicated fields in the Analytics extension within Adobe Experience Platform Data Collection. Use the custom code editor following AppMeasurement syntax for these variables.
 
-## Set the purchase event in AppMeasurement and Launch custom code editor
+## Set the purchase event in AppMeasurement and the Analytics extension custom code editor
 
 The purchase event is a string that is set as part of the events variable.
 

@@ -1,23 +1,12 @@
 ---
 description: Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
 title: Segmentation workflow overview
-topic: Segments
-uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
+feature: Segmentation
+exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 ---
-
 # Segmentation workflow overview
 
 Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-
-## Segmentation workflow overview 
-
-Describes a suggested workflow for segments created with the Segment Builder and managed through the Segment Manager.
-
-<!-- 
-
-seg_workflow.xml
-
- -->
 
 ![](assets/seg_workflow.png)
 
@@ -36,7 +25,7 @@ See [Build Sequential Segments](/help/components/segmentation/segmentation-workf
 
 ![](assets/step3_icon.png) [ Tag Segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Tag segments for ease of organization and sharing. Tagging replaces folder hierarchies in ad hoc analysis. See how to plan and assign tags for simple and advanced searches and organization.
+Tag segments for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization.
 
 ![](assets/step4_icon.png) [ Approve Segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 

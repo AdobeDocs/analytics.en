@@ -1,11 +1,9 @@
 ---
 description: After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.
-subtopic: Classifications
 title: Browser and FTP import
-topic: Admin tools
-uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
+feature: Classifications
+exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
 ---
-
 # Browser and FTP import
 
 After you have copied the appropriate data into the classifications template file, you can import (upload) into Adobe data collection servers.

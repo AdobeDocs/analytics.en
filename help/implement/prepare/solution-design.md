@@ -1,8 +1,9 @@
 ---
 title: Create a solution design document
 description: Learn what a solution design document is, and how you can use it in your organization.
+feature: Implementation Basics
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 ---
-
 # Create a solution design document
 
 A solution design document (also known as a solution design reference or business requirements document) is in essence the blueprint of your analytics implementation. It defines criteria identified by stakeholders throughout your organization, and translates them to variables within Adobe Analytics. Without one, organizations have a difficult time coordinating reporting needs and tend to miss collecting important data.

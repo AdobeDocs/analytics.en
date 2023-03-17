@@ -2,10 +2,10 @@
 description: Data sources provides two additional ways to integrate events that occur offline to your online data.
 subtopic: Data sources
 title: Transaction and customer integration
-topic: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 ---
-
 # Transaction and customer integration
 
 Data Sources provides two additional ways to integrate events that occur offline to your online data.
@@ -32,7 +32,7 @@ Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report su
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -57,8 +57,6 @@ Transaction IDs are used to record the state of a visitor at a point in time. Th
 
 The customer is often anonymous when they move from online to offline.
 
-Transaction ID events are not included in Visit Participation metrics (those shown in marketing reports), but they are included in Visitor Participation metrics (available only in ad hoc analysis).
-
-The is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
+Transaction ID events are not included in Visit Participation metrics (those shown in marketing reports). This is because the transaction ID data is not associated with a visit (because the offline event is usually not part of the online event), but it is associated with the visitor.
 
 See [Transaction ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

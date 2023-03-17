@@ -1,15 +1,14 @@
 ---
 description: Code manager lets you download data collection code for web and mobile platforms.
 title: Code Manager
-topic: Admin tools
-uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
+feature: Admin Tools
+exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 ---
-
 # Code Manager
 
 Code manager lets you download data collection code for web and mobile platforms.
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
+ **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
 
 After you download the library, you must configure the code to send data to the correct tracking server and report suite. Additional implementation resources are available in the [Implement](/help/implement/home.md) user guide.
 
@@ -19,5 +18,5 @@ After you download the library, you must configure the code to send data to the 
 |--- |--- |
 | [!UICONTROL Name] | The name matches the platform where you want to enable data collection. Native libraries are provided for each platform listed in this column. |
 | [!UICONTROL Type]|Type of applications that can be measured using each library. |
-| [!UICONTROL Version]|List the latest version of the library. Click the version number to view the [release history](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version]|List the latest version of the library. Click the version number to view the [release history](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
 | [!UICONTROL Documentation] | View the library reference documentation. |

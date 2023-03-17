@@ -1,8 +1,9 @@
 ---
 title: Customer loyalty
 description: Categories based on the number of previous purchases a visitor has made.
+feature: Dimensions
+exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 ---
-
 # Customer loyalty
 
 The 'Customer loyalty' dimension reports the number of visitors to your site that have made 0 prior purchases, 1 prior purchase, 2 prior purchases, or 3+ prior purchases. This dimension is valuable to understand how your site affects purchasing behavior. You can also use this dimension in a segment to focus on visitors that return to make a purchase, so that you can encourage similar behavior for new visitors.

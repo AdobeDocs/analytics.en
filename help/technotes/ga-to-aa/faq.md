@@ -1,9 +1,10 @@
 ---
-title: Frequently asked questions
+title: Frequently Asked Questions for migrating to Adobe Analytics
 description: Get answers to frequently asked questions when moving from a third-party platform to Adobe.
+feature: Third-party Integration
+exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 ---
-
-# Frequently asked questions
+# Frequently Asked Questions for migrating to Adobe Analytics
 
 **How can I migrate my historical data from my third-party platform to Adobe Analytics?**
 
@@ -11,7 +12,7 @@ Every Analytics platform has different ways of collecting, handling, and storing
 
 If your organization is adamant about having historical data ported over to Adobe, contact your organization's Account Manager. An implementation consultant can work with your organization to translate a Google Analytics data export into a data source that can be ingested by Adobe data collection servers.
 
-Adobe does not recommend porting historical data, as it is a complex process and is cost-prohibitive to your organization. Visitor identification is also impossible to seamlessly port to Adobe, as visitor information is stored in different cookies and different formats between platforms.
+For moving over historical data we recommend using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) which can bring in any omni-channel data source.
 
 **I'm used to a segmentation dropdown in many of my reports. How can I recreate that in [!UICONTROL Analysis Workspace]?**
 

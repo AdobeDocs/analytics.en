@@ -1,49 +1,35 @@
 ---
-description: null
-title: Admin Tools
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+description: Index of Admin tools in Adobe Analytics.
+title: Admin tools
+feature: Admin Tools
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 ---
+# Admin tools overview
 
-# Admin Tools
+## Understand admin tools
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** 
+The Analytics admin tools area is the main area for managing your Adobe Analytics instance; this is where most administrative tasks can be done. The other area for Analytics administration, the Adobe admin console, is for provisioning users and setting permissions.
 
->[!IMPORTANT]
+Following is a breakdown of these two areas: 
+
+* **Analytics admin tools**
+
+  Use the Analytics admin tools area for all Adobe Analytics administration tasks (besides user provisioning and permissions management). Examples of common administrative tasks include: creating and managing report suites; importing external data sources; excluding data from specific IP addresses; and so forth.
+
+  See the content hierarchy on the left side of the page to jump to any administrative task available in Adobe Analytics.
+
+* **Adobe admin console**
+
+  Use this tool to provision users and modify access permissions.
+
+  For all organizations that are migrated to Adobe IMS, these tasks are performed in the Adobe admin console. For more information, see the [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). If your organization is not yet migrated to Adobe IMS, see [Analytics User Migration to the Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+
+## Access admin tools
+
+>[!WARNING]
 >
->Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. If you need to, for example, compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
+>Do not to open multiple Admin tabs in the same browser. This can lead to you inadvertently saving settings to the wrong report suite. For example, if you need to compare rule sets and copy them to a new report suite, we suggest that you open a new browser or take a screen shot to compare rule sets.
 
-+ [Billing](billing-admin.md)
-+ [Bot Rules overview](bot-removal/bot-rules.md)
-+ [Code Manager](code-manager-admin.md)
-+ [Conversion Variables (eVar)](conversion-var-admin/conversion-var-admin.md)
-+ [Currency Codes](currency.md)
-+ [Custom Report Descriptions](custom-desc-admin.md)
-+ [Customize Calendar](custom-calendar.md)
-+ [Data Sources](data-sources.md)
-+ [Default Metrics](default-metrics.md)
-+ [Exclude By IP Address](exclude-ip.md)
-+ [Finding Methods](finding-methods.md)
-+ [General Account Settings](general-acct-settings-admin.md)
-+ [Group Management](group.md)
-+ [Internal URL Filters](internal-url-filter-admin.md)
-+ [Logs](logs.md)
-+ [Marketing Channels](marketing-channels-admin.md)
-+ [Menu Customizing](customize-menus.md)
-+ [Metric Visibility](metric-visibility.md)
-+ [Mobile Management](mobile-management.md)
-+ [Paid search detection overview](paid-search-detection/paid-search-detection.md)
-+ [Publishing Lists](publishing-list.md)
-+ [Publishing Widget](publishing-widgets-admin.md)
-+ [Preferences Manager](preferences-manager.md)
-+ [Privacy Settings](privacy-settings.md)
-+ [Processing rules overview](c-processing-rules/processing-rules.md)
-+ [Real-time reports overview](realtime/realtime.md)
-+ [Scheduled reports queue](scheduled-reports-admin.md)
-+ [Server-side forwarding overview](c-server-side-forwarding/ssf.md)
-+ [Simplified reports menu](t-simplified-menu.md)
-+ [Social Management](social-management.md)
-+ [Success events overview](c-success-events/success-event.md)
-+ [Timestamps optional](timestamp-optional.md)
-+ [Traffic variable (prop) overview](c-traffic-variables/traffic-var.md)
-+ [Specify the Unique Visitor variable](unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [Video management](video-management.md)
+To access admin tools:
+
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**

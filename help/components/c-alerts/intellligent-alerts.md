@@ -1,12 +1,16 @@
 ---
-description: The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
+description: The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
 title: Intelligent alerts
-uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
+feature: Alerts
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 ---
-
 # Intelligent alerts
 
-The new Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
+The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
+
+Here is a video overview:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
 ## Overview {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
@@ -14,14 +18,14 @@ The new Intelligent Alerts system allows for more granular control over alerts a
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Intelligent Alerts let you
+Intelligent Alerts let you
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below).
 * Preview how often an alert will trigger.
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects.
 * Create "stacked" alerts that capture multiple metrics in a single alert.
 
-Components of the new alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [will no longer be available](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
+Components of the alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [are no longer available](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 There are four ways get to the Alert Builder:
 
@@ -69,8 +73,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Can I get a table of the "expected values" that comprise the dotted line, or some sort of output of what those values are? </b> </p> </td> 
-   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  > <span class="uicontrol">Reports & Analytics</span> anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Not in Workspace, but you can in Report Builder (see this video on <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  > Anomaly Detection in Report Builder </a>). </p> <p>Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

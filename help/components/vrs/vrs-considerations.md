@@ -2,15 +2,14 @@
 description: Virtual report suites and multi-suite tagging have different advantages. Learn which is best for your organization.
 keywords: Virtual Report Suite,VRS
 title: Virtual report suites and multi-suite tagging considerations
-topic: Adobe Analytics
-uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+feature: VRS
+exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 ---
-
 # Virtual report suites and multi-suite tagging considerations
 
 Virtual report suites (VRS) let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.
 
-In many cases, you can use virtual report suites to replace multi-suite tagging. Switching to virtual reports suites can effectively remove the necessity for [secondary server calls](/help/admin/c-server-call-usage/overage-overview.md). For example, your organization has 6 different websites, each sending data to their own report suite as well as a combined global report suite. Each site incurs a secondary server call; one to the individual brand report suite, and a second to the global report suite. Instead, you can send data from all sites solely to the global report suite, then use multiple virtual report suites to separate each brand.
+In many cases, you can use virtual report suites to replace multi-suite tagging. Switching to virtual reports suites can effectively remove the necessity for [secondary server calls](/help/admin/admin/c-server-call-usage/overage-overview.md). For example, your organization has 6 different websites, each sending data to their own report suite as well as a combined global report suite. Each site incurs a secondary server call; one to the individual brand report suite, and a second to the global report suite. Instead, you can send data from all sites solely to the global report suite, then use multiple virtual report suites to separate each brand.
 
 Replacing multi-suite tagging with a global report suite and VRS allows you to simplify your Adobe Analytics implementation and reduce server call consumption, and is encouraged as a best practice. However, there are some important limitations of VRS to consider. The following guidelines can help you decide whether implementing virtual report suites built on a global report suite is the right approach for you.
 
@@ -30,7 +29,7 @@ Segments cannot yet be published to Adobe Experience Cloud from a virtual report
 
 Real-time reports are not supported in virtual report suites, because the data is segmented. Current data is also not supported in virtual report suites, as it does not support segmentation. Both of these features are specific to Reports & Analytics.
 
-[Real-time reports](/help/admin/admin/realtime/t-realtime-admin.md) and [Current Data](/help/technotes/latency.md) are not available in virtual report suites. This affects users who respond to trends seen in Reports & Analytics within seconds or a few minutes of data collection. For example, this could include editors in a newsroom who adjust headlines based on real-time content consumption. Consider using multi-suite tagging if you have significant real-time data needs specific to individual report suites. Real-time and current data can still be used on the global report suite.
+[Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) and [Current Data](/help/technotes/latency.md) are not available in virtual report suites. This affects users who respond to trends seen in Reports & Analytics within seconds or a few minutes of data collection. For example, this could include editors in a newsroom who adjust headlines based on real-time content consumption. Consider using multi-suite tagging if you have significant real-time data needs specific to individual report suites. Real-time and current data can still be used on the global report suite.
 
 ### Unique limits
 
@@ -78,7 +77,9 @@ For example, only one Google DCM is allowed per report suite. Many companies hav
 
 ### Summary data sources
 
-Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics, they cannot be segmented. Since VRS operates using segmentation, all data imported using summary data sources are not available in virtual report suites. Summary data sources are only visible in the source report suite.
+Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics *without a visitor ID*, they cannot be segmented in [!UICONTROL Visit] and [!UICONTROL Visitor] containers. Since VRS operates using segmentation, data imported using summary data sources will not be not available in virtual report suites if the segment is built using a Visit or Visitor container.
+
+Summary data sources show up in the virtual report suite if a Hit container is used and if that Hit container has rules conditioned to include the data source information.
 
 >[!TIP]
 >
@@ -93,8 +94,7 @@ If you opt to remove secondary server calls in favor of virtual report suites:
    * As a best practice, consider using [segment stacking](/help/components/segmentation/segmentation-workflow/seg-build.md) so you can edit a segment in one location and have it apply to all dependent virtual report suites.
    * Use hit containers if you want to keep virtual report suites more mutually exclusive.
 2. After you have confirmed that the virtual report suites are set up correctly, remove the secondary report suite ID's from your implementation. To remove secondary report suites:
-   * In Adobe Experience Platform Launch, click the 'x' next to any report suites that you don't want to use anymore.
-   * In DTM, locate the property and Analytics tool. In the Production Account ID and Staging Account ID fields, remove any report suite ID's that you don't want to use anymore.
+   * In the Adobe Analytics extension within Adobe Experience Platform Data Collection, click the 'x' next to any report suites that you don't want to use anymore.
    * In legacy JavaScript implementations, locate the `s.account` variable and remove any report suite ID's that you don't want to use anymore.
    * In all cases, leave only the global/parent report suite ID to collect data for your sites and apps.
    * Navigate to Admin > Report Suites and hide any secondary report suites no longer used.

@@ -1,11 +1,12 @@
 ---
 title: Migrating to AppMeasurement for JavaScript
 description: Determine what's needed to migrate your implementation off of H Code.
+feature: Implementation Basics
+exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 ---
-
 # Migrating to AppMeasurement for JavaScript
 
-If your implementation still uses H Code, Adobe highly recommends migrating to the latest version of AppMeasurement. Implementing Analytics through [Adobe Experience Platform Launch](../launch/overview.md) is recommended, however an updated JavaScript implementation can be used.
+If your implementation still uses H Code, Adobe highly recommends migrating to the latest version of AppMeasurement. Implementing Analytics through [tags in Adobe Experience Platform](../launch/overview.md) is recommended, however an updated JavaScript implementation can be used.
 
 The following notable changes are present in AppMeasurement when compared to H Code:
 
@@ -15,13 +16,12 @@ The following notable changes are present in AppMeasurement when compared to H C
 * Existing page-level H Code is compatible with AppMeasurement.
 * The library provides native utilities to get query parameters, read and write cookies, and perform advanced link tracking.
 * The library does not support dynamic account configuration variables (including `dynamicAccountSelection`, `dynamicAccountMatch`, and `dynamicAccountList`).
-* The Survey module is not supported.
 
 The following steps outline a typical migration workflow.
 
-1. **Download the new AppMeasurement file**: Access the new file by logging in to Adobe Analytics, then navigating to Admin > Code Manager. The downloaded compressed file contains a minified `AppMeasurement.js` file, along with Media and Integrate modules.
+1. **Download the new AppMeasurement file**: Access the new file by logging in to Adobe Analytics, then navigating to Admin > All admin > Code manager. The downloaded compressed file contains a minified `AppMeasurement.js` file, along with Media and Integrate modules.
 1. **Copy your `s_code.js` customizations to `AppMeasurement.js`**: Move all the code before the `DO NOT ALTER ANYTHING BELOW THIS LINE` section in `s_code.js` to the beginning of `AppMeasurement.js`.
-1. **Update all plug-ins**: Make sure you are using the latest version of each plug-in listed in your `s_code.js` file. This includes the Media and Integrate modules.
+1. **Update all plug-ins**: Make sure that you use the latest version of each plug-in listed in your `s_code.js` file. This step includes the Media and Integrate modules.
 1. **Deploy the AppMeasurement.js file**: Upload your `AppMeasurement.js` file to your web server.
 1. **Update script references to point to `AppMeasurement.js`**: Make sure all pages reference `AppMeasurement.js` instead of `s_code.js`.
 
@@ -55,7 +55,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 

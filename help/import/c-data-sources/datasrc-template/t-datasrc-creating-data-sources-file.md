@@ -2,10 +2,10 @@
 description: The import template file is designed to get you started with the import.
 subtopic: Data sources
 title: Generate an import file template
-topic: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+topic-fix: Developer and implementation
+feature: Data Sources
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 ---
-
 # Generate an import file template
 
 The import template file is designed to get you started with the import.
@@ -19,7 +19,7 @@ The Data Source template is a .txt file that you can open with any text editor. 
 See [Import File Reference](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) for additional details.
 
 1. Log in to Analytics.
-1. In the Suite header, select **[!UICONTROL Admin]** > **[!UICONTROL Data Sources]**.
+1. In the Suite header, select **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data sources]**.
 1. On the **[!UICONTROL Data Sources Create]** tab, select a template category and type.
 1. Review the Activation Instructions/Information, then click **[!UICONTROL Activate]**.
 
@@ -38,4 +38,3 @@ See [Import File Reference](/help/import/c-data-sources/datasrc-template/datasrc
 1. After the template is generated, copy data into the appropriate columns of the Data Source template, making sure to adhere to the data format required for that data column.
 
    Step Result 1. Save the Data Sources file using a naming convention of your choice. Adobe recommends using a consistent naming convention for all Data Sources files. Use a common file extension such as .txt or .tsv (or don't use any extension).
-

@@ -1,10 +1,10 @@
 ---
 description: Steps to add calendar events, and to manage shared events.
-title: Calendar events
-topic: Reports and analytics
+title: Calendar events overview
+feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 ---
-
 # Calendar events
 
 Steps to add calendar events, and to manage shared events.
@@ -15,7 +15,7 @@ Steps to add calendar events, and to manage shared events.
 
 For reports trended over time, you can graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. The process of setting up a calendar event involves naming the event, setting the dates, adding notes, and setting an icon. For example, if you use Social, you can create a calendar event to show that there was a correlation between an increase in site traffic and the mention of a product by a celebrity using Twitter.
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 1. Click **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
    1. Specify the **[!UICONTROL Event Date]**.
@@ -30,11 +30,10 @@ For reports trended over time, you can graphically display events and see whethe
    1. Click **[!UICONTROL Save]**.
 
    This makes Calendar Events much more usable. Analysts now have the ability to force an overlay onto their users' reports to provide more context.
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
+1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
 1. Under **[!UICONTROL Shared Calendar Events]**, specify one of these options:
 
    | **Copy Me** | Adds a copy to your list of events, using the same name as the original. However, you cannot see any updates/changes made by the event's owner. |
    |---|---|
    | **On Report** | Lets you see changes/updates made by the event owner. |
    | **Unshare** | Removes this event from your list of shared events. |
-

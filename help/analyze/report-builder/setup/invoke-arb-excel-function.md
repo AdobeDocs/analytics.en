@@ -1,10 +1,11 @@
 ---
 description: This ability further integrates Report Builder usage within the natural Excel workflow, without requiring you to access the Report Builder user interface.
 title: Invoke Report Builder functionality from Microsoft Excel functions
-topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
+feature: Report Builder
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 ---
-
 # Invoke Report Builder functionality from Microsoft Excel functions
 
 This ability further integrates Report Builder usage within the natural Excel workflow, without requiring you to access the Report Builder user interface.
@@ -70,4 +71,3 @@ The two functions that take a parameter can be used with Format Control, but onl
 1. Open the list of report builder parameters under [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
-

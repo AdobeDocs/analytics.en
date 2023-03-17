@@ -8,7 +8,7 @@ exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 ---
 # View-only projects
 
-You can share projects as "view-only" to recipients through the [Project share workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md). Recipients placed in the Can View role will receive a more limited project experience. This may be desired if you are sharing a project to users that are less familiar with your organization’s data structure, Analysis Workspace or Adobe Analytics generally, but you still want them to consume data and insights in a safe environment. 
+You can share projects as "view-only" to recipients through the [Project share workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md). Recipients placed in the Can View role will receive a more limited project experience. This may be desired if you are sharing a project to users that are less familiar with your organization's data structure, Analysis Workspace or Adobe Analytics generally, but you still want them to consume data and insights in a safe environment. 
 
 ![](assets/view-only-project.png)
 

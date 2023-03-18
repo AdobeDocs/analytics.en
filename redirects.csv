@@ -382,7 +382,6 @@ source,destination
 /docs/analytics/admin/data-governance/gdpr-setup-reportsuite.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-setup-reportsuite.html
 /docs/analytics/admin/data-governance/gdpr-analytics-ids.html,docs/analytics/admin/data-governance/data-labeling/gdpr-analytics-ids.html
 /docs/analytics/admin/data-governance/gdpr-labeling-example.html,/docs/analytics/admin/data-governance/data-labeling/gdpr-labeling-example.html
-
 /docs/analytics/admin/admin-overview/which-analytics-tool.html,/docs/analytics/analyze/admin-overview/which-analytics-tool.html
 /docs/analytics/admin/admin-overview/analytics-product-comparison.html,/docs/analytics/analyze/admin-overview/analytics-product-comparison.html
 /docs/analytics/admin/admin-overview/sys-reqs.html,/docs/analytics/analyze/admin-overview/sys-reqs.html
@@ -453,3 +452,4 @@ source,destination
 /docs/analytics/implementation/javascript-implementation/plugins/getvisitnum.html,/docs/analytics/implementation/vars/plugins/getvisitnum.html
 /docs/analytics/analyze/analysis-workspace/optimizing-performance.html,/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html
 /docs/analytics/implementation/testing-and-validation/implementation-troubleshooting/pagetype-troubleshooting.html,/docs/analytics/implementation/vars/page-vars/pagetype.html
+/docs/analytics/admin/admin-tools/billing-admin.html,/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html

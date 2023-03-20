@@ -15,6 +15,7 @@ When uploading data source files, column headers are required. These column head
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Product](/help/components/dimensions/product.md) | `Product` |
 | [Tracking Code](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
+| [Transaction ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
 | [Zip code](/help/components/dimensions/zip-code.md) | `Zip` |
 
 {style="table-layout:auto"}

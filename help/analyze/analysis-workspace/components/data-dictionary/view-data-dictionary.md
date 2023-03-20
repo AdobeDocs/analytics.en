@@ -32,10 +32,10 @@ To view information about a component in the Data Dictionary:
    |---------|----------|
    | ![Dimension icon](assets/dimension-icon.png) | Indicates a **dimension**. Dimensions are provided by Adobe. Existing dimensions cannot be modified and new dimensions cannot be created. |
    | ![Metric icon](assets/default-metric-icon.png) | Indicates a **standard metric** (not calculated). Standard metrics are provided by Adobe and cannot be modified. |
-   | ![Adobe icon](assets/default-calc-metric-icon.png) | Indicates a **calculated metric template**. These are calculated metrics that are provided by Adobe and cannot be modified. |
-   | ![Calculator icon](assets/calculated-metric-icon-created.png) | Indicates a **calculated metric** that was created by an Analytics administrator in your organization. <!-- Delete all the comments... Components with this icon can be modified by an Analytics administrator. New calculated metrics can be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![Segment icon](assets/segment-icon.png) | Indicates a **segment**. These can be segments provided by Adobe or created by an Analytics administrator in your organization.<!-- Segments that were created byComponents with this icon can be modified by an Analytics administrator, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). New calculated metrics can also be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). -->|
-   | ![Date range icon](assets/date-range-icon.png) | Indicates a **date range**. These can be date ranges provided by Adobe or created by an Analytics administrator in your organization. <!-- Components with this icon can be modified by an Analytics administrator. New date ranges can also be created by an Analytics administrator, as described in [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). -->|
+   | ![Adobe icon](assets/default-calc-metric-icon.png) | Indicates a **calculated metric template** or a **segment template**. These components are provided by Adobe and cannot be modified. |
+   | ![Calculator icon](assets/calculated-metric-icon-created.png) | Indicates a **calculated metric** that was created by an Analytics administrator in your organization.  |
+   | ![Segment icon](assets/segment-icon.png) | Indicates a **segment**. These can be segments provided by Adobe or created by an Analytics administrator in your organization.|
+   | ![Date range icon](assets/date-range-icon.png) | Indicates a **date range**. These can be date ranges provided by Adobe or created by an Analytics administrator in your organization. |
 
 {{dd-filter-criteria}}
 

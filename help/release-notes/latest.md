@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2023)
 
-**Last update**: March 10, 2023
+**Last update**: March 21, 2023
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -38,6 +38,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
+| **EOL of Japanese Feature Phone tracking service** | March 21, 2023 | For our Japanese customers only: At the end of May 2023, the Japanese Feature Phone tracking service (mod_ktrack) will be discontinued. We apologize for the inconvenience, but we ask that you uninstall or disable the modules that are installed on your Apache server. See pages 27 and 28 in [this document](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) for reference. |
 | **EOL for [!DNL Reports & Analytics]** | March 7, 2023 | Effective **December 31, 2023**, Adobe intends to discontinue [!DNL Reports & Analytics] and its accompanying reports and features. The reports, visualizations, and underlying technology that power [!DNL Reports & Analytics] no longer meet Adobe's technology standards. Most [!DNL Reports & Analytics] features are available in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Since the release of Analysis Workspace in 2015, [!DNL Reports & Analytics] functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. [This notice](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explains the end-of-life process.<p>On December 31, 2023, we will terminate many of the associated Reports & Analytics features, including, but not limited to: Scheduled Reports, Data Extracts, and DL Reports. After Dec 31, 2023, any scheduled reports will no longer be sent. In **April 2023**, any reports that were scheduled to expire beyond Dec 31, 2023, will automatically be updated and reverted to expire on Dec 31, 2023. In addition, you can no longer schedule future reports beyond December 31, 2023.|
 | **EOL of [!UICONTROL People] metric** | March 9, 2023 | With the deprecation of the [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html), the Device Co-op-related People metric is no longer relevant. On May 8, 2023, we will remove the [!UICONTROL People] metric. At that point, we will redirect its data to the [!UICONTROL Unique Visitor] metric to prevent projects, segments and calculated metrics from breaking.<p>**Note**: The [[!UICONTROL People] metric tied to Cross-Device Analytics](/help/components/metrics/people.md) is not affected by this announcement. |
 | **EOL of [!UICONTROL Publishing Lists] feature** | September 29, 2022 | As part of the EOL of Reports & Analytics, [!UICONTROL Publishing Lists] are slated to reach end-of-life in **December 2023**. You will not be able to create new or access existing [!UICONTROL Publishing Lists] to send or schedule [!UICONTROL Analysis Workspace] projects. |

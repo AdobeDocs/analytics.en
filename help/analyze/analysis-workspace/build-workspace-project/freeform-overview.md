@@ -32,8 +32,6 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analyze/analysis-workspace/home.md)  | Start a new project from scratch or from a [template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html#analysis-workspace).  |
-|  Manage Projects <!--I don't see this option-->  |Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV.  |
-| Set as Landing Page <!--I don't see this option--> | Turns this page into your Workspace landing page. |
 |  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), or [viewing release notes](/help/release-notes/latest.md).  |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  Customize table (icon)  | Allows you to customize the information that shows for each project on the Projects page.  |
@@ -52,8 +50,6 @@ The Projects page contains the following information:
 |  Longest Date Range  | The longest date range of the project.  |
 |  Number of Queries  | The total number of queries contained in the project.  |
 |  Location  | The folder where the project resides.  |
-| My Favorite Projects <!--I don't see this option--> | To mark a project as a favorite, open the project and click the star next to its name. It will show up in this list the next time you open Workspace. |
-| Frequently Viewed Projects <!--I don't see this option--> | Lists all projects that you open frequently, for ease of access. |
 
 ## Menu bar {#menu-bar}
 

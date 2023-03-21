@@ -6,8 +6,6 @@ role: User, Admin
 ---
 # Data Dictionary overview
 
-{{release-limited-testing}} 
-
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment.   
 
 Analytics administrators are responsible for curating information about each component in the Data Dictionary to make it available to users.

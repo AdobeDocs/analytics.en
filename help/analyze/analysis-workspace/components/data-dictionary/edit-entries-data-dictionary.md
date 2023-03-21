@@ -6,8 +6,6 @@ role: Admin
 ---
 # Edit component entries in the Data Dictionary
 
-{{release-limited-testing}} 
-
 Analytics administrators can edit component entries in the Data Dictionary for a given Report Suite. Any changes made are visible to all users of the Report Suite.
 
 To edit a component in the Data Dictionary:
@@ -24,16 +22,7 @@ To edit a component in the Data Dictionary:
 
 1. (Optional) In the search field, begin typing the name of the component you want to edit.
 
-   Icons display next to component names to indicate the type of component:
-
-   | Icon | Meaning | 
-   |---------|----------|
-   | ![Dimension icon](assets/dimension-icon.png) | Indicates a **dimension**. Dimensions are provided by Adobe. Existing dimensions cannot be modified and new dimensions cannot be created. |
-   | ![Metric icon](assets/default-metric-icon.png) | Indicates a **standard metric** (not calculated). Standard metrics are provided by Adobe and cannot be modified. |
-   | ![Adobe icon](assets/default-calc-metric-icon.png) | Indicates a **calculated metric template** or a **segment template**. These components are provided by Adobe and cannot be modified. |
-   | ![Calculator icon](assets/calculated-metric-icon-created.png) | Indicates a **calculated metric** that was created by an Analytics administrator in your organization.  |
-   | ![Segment icon](assets/segment-icon.png) | Indicates a **segment**. These can be segments provided by Adobe or created by an Analytics administrator in your organization.|
-   | ![Date range icon](assets/date-range-icon.png) | Indicates a **date range**. These can be date ranges provided by Adobe or created by an Analytics administrator in your organization. |
+    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](assets/dimension-icon.png) are orange, **Segments** ![Segment icon](assets/segment-icon.png) are blue, **Date ranges** ![Date range icon](assets/date-range-icon.png) are purple, and **Metrics** ![Metric icon](assets/default-metric-icon.png) are green. The Adobe icon ![Adobe icon](assets/default-calc-metric-icon.png) indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
 {{dd-filter-criteria}}
 

@@ -1,0 +1,69 @@
+---
+title: Data source file format
+description: Correctly generate a file for use in data sources.
+---
+
+# Data source file format
+
+Data source files have the following properties:
+
+* The file is in `.txt` format.
+* Commented lines start with '`#`', and are optional.
+* The first non-commented line are the headers, which are tab-delimited.
+* The first value of every row is the date, which uses the format `MM/DD/YYYY` or `MM/DD/YYYY/HH/mm/SS`.
+* Values on each row are tab-delimited.
+
+## Comments
+
+Any row that starts with '`#`' is a comment. When downloading a data source template file, the first two lines are comments.
+
+* The first comment indicates the type of template that you configured for the data source, the backend user ID that created the data source, and the data source ID.
+* The second comment provides friendly names for each of the headers included in the template file.
+
+All comment rows are ignored by Adobe when the file is processed, so you can remove the template comments or add your own throughout the file. Only full rows can be commented; you cannot comment out individual fields or partial rows.
+
+## Headers
+
+When uploading data source files, column headers are required. These column headers are not case-sensitive, but required spaces are necessary (For example, `eVar1` is an invalid header, while `evaR 1` is valid). Column headers apply to all report suites. Use the following tables to make sure that each header in your data source file is set correctly.
+
+> [!TIP] You can make a data sources file from scratch if you include the correct headers in your data source file. There is no limit to the number of headers that you can include within a single file.
+
+| Dimension | Data source header |
+| --- | --- |
+| [Category](/help/components/dimensions/category.md) | `Category` |
+| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [Marketing Channel](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [Marketing Channel Detail](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Product](/help/components/dimensions/product.md) | `Product` |
+| [Tracking Code](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
+| [Transaction ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
+| [Zip code](/help/components/dimensions/zip-code.md) | `Zip` |
+
+{style="table-layout:auto"}
+
+Dimensions and metrics go into the same header row.
+
+| Metric | Data source header |
+| --- | --- |
+| [Cart Additions](/help/components/metrics/cart-additions.md) | `Cart Adds` |
+| [Cart Removals](/help/components/metrics/cart-removals.md) | `Cart Removes` |
+| [Cart Views](/help/components/metrics/cart-views.md) | `Cart Views` |
+| [Carts](/help/components/metrics/carts.md) | `Cart Opens` |
+| [Checkouts](/help/components/metrics/checkouts.md) | `Checkouts` |
+| [Custom Events](/help/components/metrics/custom-events.md) | `Event 1` - `Event 1000` |
+| [Orders](/help/components/metrics/orders.md) | `Orders` |
+| [Revenue](/help/components/metrics/revenue.md) | `Price` |
+| [Units](/help/components/metrics/units.md) | `Quantity` |
+
+{style="table-layout:auto"}
+
+## Date
+
+The first header value and the first value in every row **must** be the date. Date format must be in one of the following formats:
+
+* **`MM/DD/YY/HH/mm/SS`**
+* **`MM/DD/YY`**
+
+Omitting the hours/minutes/seconds automatically sets the timestamp to 12 PM for that day.
+
+## Dimensions

@@ -15,4 +15,4 @@ Out of all hits in a report suite, include hits where a dimension item is define
 ## Compare to similar metrics
 
 * **Occurrences vs. [Instances](instances.md)**: Occurrences count hits where a dimension item was set or persisted. Instances do not include hits where a dimension item persists.
-* **Occurrences vs. [Page views](page-views.md)**: Occurrences include all hit types, including page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)) and link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)). The page views metric only includes page view tracking calls, and excludes link tracking calls.
+* **Occurrences vs. [Page views](page-views.md)**: Occurrences include all hit types, including page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)), link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)), and data from summary [Data sources](/help/import/data-sources/overview.md). The page views metric only includes page view tracking calls, excluding link tracking calls and summary data sources.

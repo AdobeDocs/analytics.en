@@ -31,7 +31,7 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 | Column Name  | Description  |
 | --- | --- |
 | [!UICONTROL Clickthroughs] | Number of tracking code views. |
-| [!UICONTROL Cart Adds]  |Number of cart additions. |
+| [!UICONTROL Cart Adds]  | Number of cart additions. |
 | [!UICONTROL Cart Opens] | Number of cart opens. |
 | [!UICONTROL Cart Removes] | Number of cart removals. |
 | [!UICONTROL Cart Views] | Number of cart views.|

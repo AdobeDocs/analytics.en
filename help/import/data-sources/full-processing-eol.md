@@ -40,13 +40,4 @@ The following variables are not supported through Bulk data insertion:
 
 * **`charSet`**: The [`charSet`](/help/implement/vars/config-vars/charset.md) variable. Bulk data insertion only supports UTF-8.
 * **`timezone`**: The visitor's time zone offset from GMT in hours.
-
-<!--
-clickAction | Object identifier for visitor click map (oid)
-clickActionType | Object identifier type for visitor click map (oidt)
-clickContext | Page identifier for visitor click map (pid)
-clickContextType | Page identifier type for visitor click map (pidt)
-clickSourceID | Source index for visitor click map (oi)
-clickTag | Object tag name for visitor click map (ot)
-scXmlVer | Marketing reports XML request version number (for example, 1.0).
--->
+* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: Variables used in Activity Map data collection.

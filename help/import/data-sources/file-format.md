@@ -24,9 +24,9 @@ All comment rows are ignored by Adobe when the file is processed, so you can rem
 
 ## Headers
 
-When uploading data source files, column headers are required. These column headers are not case-sensitive, but required spaces are necessary (For example, `eVar1` is an invalid header, while `evaR 1` is valid). Column headers apply to all report suites. Use the following tables to make sure that each header in your data source file is set correctly.
+When uploading data source files, column headers are required. These column headers are not case-sensitive, but required spaces are necessary (For example, `eVar1` is an invalid header, while `EVAR 1` is valid). Column headers apply to all report suites. Use the following tables to make sure that each header in your data source file is set correctly.
 
-> [!TIP] You can make a data sources file from scratch if you include the correct headers in your data source file. There is no limit to the number of headers that you can include within a single file.
+> [!TIP] You can make a data sources file from scratch if you include the correct headers in your data source file. There is no limit to the number of headers that you can include within a single file; however, each row can only have a maximum of 4096 bytes.
 
 | Dimension | Data source header |
 | --- | --- |
@@ -57,13 +57,21 @@ Dimensions and metrics go into the same header row.
 
 {style="table-layout:auto"}
 
+Adobe does not support data sources for any other dimensions or metrics. If variables beyond what are listed in the above tables are required, consider using the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) instead.
+
 ## Date
 
-The first header value and the first value in every row **must** be the date. Date format must be in one of the following formats:
+The first value in every row **must** be the date. Date format must be in one of the following formats:
 
 * **`MM/DD/YY/HH/mm/SS`**
 * **`MM/DD/YY`**
 
 Omitting the hours/minutes/seconds automatically sets the timestamp to 12 PM for that day.
 
-## Dimensions
+## Dimensions and metrics
+
+Subsequent values in each row contains the data that you want to upload. Every row corresponds with that respective timestamp. Make sure that the same number of tabs exist on every row. Columns can be in any order; just make sure that the data in each row aligns with the headers at the top. The maximum amount of data a single row can have is 4096 bytes.
+
+## Next steps
+
+[File upload](file-upload.md): Learn the process to upload a data sources file for ingestion by Adobe.

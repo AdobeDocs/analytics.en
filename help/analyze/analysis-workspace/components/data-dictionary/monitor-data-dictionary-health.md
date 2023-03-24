@@ -6,8 +6,6 @@ role: Admin
 ---
 # Monitor Data Dictionary health
 
-{{release-limited-testing}} 
-
 Analytics administrators are responsible for maintaining a healthy Data Dictionary. 
 
 ## Characteristics of a healthy Data Dictionary

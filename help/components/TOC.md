@@ -146,7 +146,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Visits](metrics/visits.md)
 + Segmentation {#segmentation}
   + [Analytics segmentation](segmentation/seg-home.md)
-  + [About segments and containers](segmentation/seg-overview.md)
+  + [About segments](segmentation/seg-overview.md)
+  + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
   + Segmentation workflow {#segmentation-workflow}
     + [Segmentation workflow overview](segmentation/segmentation-workflow/seg-workflow.md)
@@ -167,7 +168,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Data Warehouse Segment Compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
-  + [Frequently asked questions](segmentation/seg-transition.md)
+  + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
 + Calculated Metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) Metrics](c-calcmetrics/cm-overview.md)
@@ -194,6 +195,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
+    + [Default calculated metrics](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual report suite - component curation](vrs/vrs-components.md)

@@ -8,7 +8,30 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
 # Share projects
 
-You can share a project with existing Adobe Analytics users or groups in your organization. When you share a project as described in this section, the users you share with must already have an Adobe Analytics account.
+You can share an Analysis Workspace project with the following types of people:
+
+* Users and groups in your organization who have access to Adobe Analytics 
+
+  You can share Edit, Duplicate, or View access
+
+* Users and groups in your organization who don't have access to Adobe Analytics
+
+  Recipients have read-only access
+
+* People outside your organization
+
+  Recipients have read-only access
+
+Any [curation](curate.md) you apply prior to sharing is reflected when recipients open the project. 
+
+Here is a video overview of project sharing:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+
+## Share with Analysis Workspace users and groups in your organization {#Add}
+
+You can share a project with existing Analysis Workspace users or groups in your organization. When you share a project as described in this section, the users you share with must already have access to Adobe Analytics.
 
 You can share a specific role with users or groups, or you can share a link.
 
@@ -30,7 +53,7 @@ When sharing a specific project role with users and groups in your organization,
 
 To share a specific project role with users or groups in your organization:
 
-1. Go to the project that you want to share, then click **[!UICONTROL Share]** > **[!UICONTROL Share project]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Go to the project that you want to share, then click **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
    If there are unsaved changes, you are prompted to save your project first. 
 
    ![](assets/share-proj-modal.png)
@@ -51,8 +74,11 @@ To share a specific project role with users or groups in your organization:
 
    * **Set as landing page for recipients:** Sets this page as the landing page for recipients. This setting does not persist - it is a one-time action at the time of sharing.
  
-1. Click **[!UICONTROL Share]**. 
-  You can also click **[!UICONTROL Curate and Share]** to apply project curation automatically. If a project has already been shared, these buttons will say **[!UICONTROL Update]** and **[!UICONTROL Curate & Update]**. Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+1. Click **[!UICONTROL Share]**. (If the project has already been shared, click [!UICONTROL **Update**].)
+  
+   Or
+   
+   Click **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, click **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ## Share a link to a project 
 
@@ -64,14 +90,64 @@ When sharing a link as described in this section, consider the following:
 
 To share the project link with users in your organization:
 
-1. Click **[!UICONTROL Share]** > **[!UICONTROL Share project]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
    If there are unsaved changes, you are prompted to save your project first. 
 
    ![](assets/share-proj-modal.png)
 
-1. Click **[!UICONTROL Copy link]** next to the **[!UICONTROL Share URL field]**. 
+1. Click **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field. 
 
-1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal web site, and so forth. 
+1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal website, and so forth. 
+
+## Share a project with anyone (no login required) {#share-public-link}
+
+{{release-limited-testing-section}}
+
+You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people who don't have access to Adobe Analytics. This can include:
+
+* People outside your organization 
+
+* People within your organization who are not provisioned with Adobe Analytics  
+
+>[!NOTE]
+>
+>Consider the following when sharing an Analysis Workspace project with people who don't have access to Adobe Analytics:
+>
+>* The ability to share a project in this way can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a project as described in this section, your Analytics administrator has disabled this ability.
+>
+>* Projects with more than 14 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
+
+To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
+
+1. Open the Analysis Workspace project that you want to share.
+
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Share with anyone]**.
+   
+   If there are unsaved changes, you are prompted to save your project. 
+
+   <!-- Add screen shot of new modal -->
+
+1. Enable the **[!UICONTROL Link is active]** option if it is not already enabled. 
+
+1. Choose whether to enable the following security option (this option can be controlled by your Analytics administrator): 
+
+   * **[!UICONTROL Require Experience Cloud authentication]:** 
+   
+     When this option is enabled, only users who can log in to the Adobe Experience Cloud organization where the project that you are sharing was created can access the project.
+
+     Analytics administrators can configure this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). You might encounter the following scenarios, depending on how the administrator configured this option:
+     
+     * If this option is not visible, your Analytics administrator did not enable this feature. 
+
+     * If this option is enabled and dimmed, your Analytics administrator requires Experience Cloud authentication for anyone accessing Analysis Workspace projects. 
+
+1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon ![Copy link icon](assets/copy-link-icon.png) to copy the link to your system clipboard. 
+
+1. Share the link with the people you want to have access to the project. For example, you can paste the link in an email. 
+   
+   Any person you share the link with can view the Analysis Workspace project.
+
+1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved.
 
 ## Share projects in the Project manager {#Manager} 
 

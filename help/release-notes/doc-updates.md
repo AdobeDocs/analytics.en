@@ -19,6 +19,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **March 2023** | |
+| Create data stories in mobile scorecards | A [data story](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is a collection of supporting data points, business context, and related metrics built around a central theme or metric. |
+| Default calculated metrics | Added content explaining the [default calculated metrics provided by Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| Data Dictionary | <p>Added new documentation for the Data Dictionary, including an [Overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Viewing](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Editing](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), and [Monitoring](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) the Data Dictionary.</p><p>Information in [Adding component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md) was updated to account for Data Dictionary functionality.</p>  |
+| Link sharing for projects (no login required) | <p>Updated existing documentation to explain how to share a read-only link of a project with people who do not have access to Analysis Workspace.</p> <p>Updated user documentation includes [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md) and [Create shareable links](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Options for administrators were added to [Preferences](/help/analyze/analysis-workspace/user-preferences.md).</p>  |
 | **February 2023** | |
 | Implementation | Updated content on how to [implement Adobe Analytics for web and mobile](../implement/home.md). |
 | Workspace calendars and date ranges | Updated content to describe relative date ranges, formula calculation updates, and calendar UI changes. See [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |

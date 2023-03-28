@@ -21,7 +21,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
 + Analytics admin tools {#admin-tools}
   + [Admin tools overview](admin/c-admin-tools.md)
-  + [Billing](admin/billing-admin.md)
   + [Code Manager](admin/code-manager-admin.md)
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)
@@ -147,6 +146,18 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Preferences manager](admin/company/preferences-manager.md)
     + [Pending actions](admin/company/pending-actions-admin.md)
     + [Feature access levels](admin/company/feature-access-levels.md)
+  + Data Governance Privacy Labeling {#data-governance}
+    + [Adobe Analytics Data Privacy workflow](admin/c-data-governance/an-gdpr-workflow.md)
+    + [Frequently asked questions](admin/c-data-governance/gdpr-faq.md)
+    + Data labeling {#data-labels}
+       + [Data Privacy labels for Analytics components](admin/c-data-governance/data-labeling/gdpr-labels.md)
+       + [Label report suite data](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+       + [View/manage report suite's privacy labels](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+       + [Labeling best practices](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+       + [Labeling example](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+       + [Namespaces](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+    + [ID expansion](admin/c-data-governance/gdpr-id-expansion.md)
+    + [CNIL Consent Exemption](admin/c-data-governance/cnil-consent-exemption.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)
     + [View current server call usage](admin/c-server-call-usage/server-call-usage-dashboard.md)

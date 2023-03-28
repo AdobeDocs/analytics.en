@@ -37,18 +37,6 @@ user-guide-description: Browse a knowledge base containing helpful articles that
   + [Options to mitigate the effect of browser cookie limitations](cookies/cookieless.md)
 + [Data retention](data-retention.md)
 + [Exclude data](exclude-data.md)
-+ Data Governance {#data-governance}
-  + [Adobe Analytics Data Privacy workflow](c-data-governance/an-gdpr-workflow.md)
-  + [Frequently asked questions](c-data-governance/gdpr-faq.md)
-  + Data labeling {#data-labels}
-    + [Data Privacy labels for Analytics components](c-data-governance/data-labeling/gdpr-labels.md)
-    + [Label report suite data](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-    + [View/manage report suite's privacy labels](c-data-governance/data-labeling/gdpr-view-settings.md)
-    + [Labeling best practices](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-    + [Labeling example](c-data-governance/data-labeling/gdpr-labeling-example.md)
-    + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-  + [ID expansion](c-data-governance/gdpr-id-expansion.md)
-  + [CNIL Consent Exemption](c-data-governance/cnil-consent-exemption.md)
 + [IPs and domains used by Adobe Analytics](ip-addresses.md)
 + [Latency](latency.md)
 + [Low-traffic value](low-traffic.md)

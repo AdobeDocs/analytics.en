@@ -17,7 +17,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
-Client hints will be incorporated into Analytics device lookup process starting March 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
+Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >
@@ -45,7 +45,9 @@ For data submitted via API, such as via [Data Insertion API](https://github.com/
 
 +++**Can I choose which high-entropy hints I collect?**
 
-Not at this time. You can choose to collect all high-entropy hints or none.
+Not at this time. You can choose to collect all high-entropy hints or none. 
+
+Note that fullVersionList is currently not collected because browser major version is captured as a low-entropy hint.
 
 +++
 
@@ -58,15 +60,14 @@ The table below describes the client hints as of October 2022.
 | Sec-CH-UA  |  Browser and significant version  | Low |  `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  `true` |  
 | Sec-CH-UA-Platform |  Operating System/Platform |  Low  | `"Android"` | 
-| Sec-CH-UA-Arch |  Architecture of the site |  High |  `"arm"`  |  
-| Sec-CH-UA-Bitness  | Architecture bitnes  | High  | `"64"`  |  
-| Sec-CH-UA-Full-Version  | Complete version of the browser |  High  | `"84.0.4143.2"` |  
-| Sec-CH-UA-Full-Version-List |  List of brands with their version | High | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"`  |  
-| Sec-CH-UA-Model |  Device model |  High |  `"Pixel 3"` |  
-| Sec-CH-UA-Platform-Version |  Operating System/Platform version |  High |  `"10"` |  
+| architecture |  Architecture of the site |  High |  `"arm"`  |  
+| bitness  | Architecture bitness  | High  | `"64"`  |  
+| fullVersionList |  List of brands with their version | High | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"`  |  
+| model |  Device model |  High |  `"Pixel 3"` |  
+| platformVersion |  Operating System/Platform version |  High |  `"10"` |  
 
 * Low-entropy hints are collected through the request header.
-* High-entropy hints are collected through JavaScript and passed through query string parameter values. The query string parameters use `h.` as a prefix in the image request.
+* High-entropy hints are collected through JavaScript and passed through query string parameter values. The query string parameters use `h.` as a prefix in the image request. Note that fullVersionList is currently not collected because browser major version is captured as a low entropy hint.
 
 High entropy hints are collected via JavaScript call and passed via query parameter
 

@@ -3,12 +3,8 @@ description: The Data Dictionary in Analysis Workspace allows users to catalogue
 title: Data Dictionary overview
 feature: Components
 role: User, Admin
-hide: yes
-hidefromtoc: yes
 ---
 # Data Dictionary overview
-
-{{release-limited-testing}} 
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment.   
 

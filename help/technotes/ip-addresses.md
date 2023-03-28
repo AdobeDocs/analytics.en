@@ -75,9 +75,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 
 | Location | Host |
 | --- | --- |
-| China | `52.80.169.108` |
-| China | `54.223.47.95` |
-| China | `140.179.13.49` |
+| China | `52.80.44.16` |
+| China | `52.80.161.58` |
+| China | `140.179.173.142` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |

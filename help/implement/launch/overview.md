@@ -31,7 +31,7 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>2</td>
-<td><b>Create a data layer</b>to manage the tracking of the data on your website.</td>
+<td><b>Create a data layer</b> to manage the tracking of the data on your website.</td>
 <td>
 <a href="../prepare/data-layer.md">Create a data layer</a>
 </td>

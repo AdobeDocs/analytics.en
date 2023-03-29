@@ -79,7 +79,7 @@ if(s.pageName) getPercentPageViewed();
 if(_ppvPreviousPage)
 {
   s.prop1 = _ppvPreviousPage;
-  s.prop2 = "initialPercent=" + _ppvInitialPercent + " | highestPercent=" + _ppvHighestPercentViewed + " | finalPercent=" + _ppvFinalPercentViewed + " | foldsAvailable=" + _ppvFoldsAvailable + " | foldsSeen=" + _ppvFoldsSeen;
+  s.prop2 = "initialPercent=" + _ppvInitialPercentViewed + " | highestPercent=" + _ppvHighestPercentViewed + " | finalPercent=" + _ppvFinalPercentViewed + " | foldsAvailable=" + _ppvFoldsAvailable + " | foldsSeen=" + _ppvFoldsSeen;
 }
 
 // Given prop5 operates as a page type variable:
@@ -90,7 +90,7 @@ if(s.prop5) getPercentPageViewed(s.prop5);
 if(_ppvPreviousPage)
 {
   s.prop1 = _ppvPreviousPage;
-  s.prop2 = "initialPercent=" + _ppvInitialPercent + " | highestPercent=" + _ppvHighestPercentViewed;
+  s.prop2 = "initialPercent=" + _ppvInitialPercentViewed + " | highestPercent=" + _ppvHighestPercentViewed;
 }
 ```
 

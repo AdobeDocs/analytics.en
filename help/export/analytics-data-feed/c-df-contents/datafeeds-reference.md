@@ -20,6 +20,8 @@ Use this page to learn what data is contained in each column. Most implementatio
 >
 >Most columns contain a similar column with a prefix of `post_`. Post columns contain values after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. See [Data feeds FAQ](../df-faq.md) for more information.
 
+Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+
 | Column name | Column description | Data type |
 | --- | --- | --- |
 | **`accept_language`** | Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request. | char(20) |

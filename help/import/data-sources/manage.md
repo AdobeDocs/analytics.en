@@ -55,4 +55,17 @@ With the retiring of [Full processing data sources](full-processing-eol.md), sev
 
 ## File Log
 
+The **[!UICONTROL File Log]** tab gives you an aggregated view of all data source files uploaded for the given report suite.
 
+![File Log](assets/file-log.png)
+
+A search bar is available that helps you locate a specific data source. The table shows the following columns:
+
+* **[!UICONTROL Data Source Name]**: The name of the data source.
+* **[!UICONTROL Type]**: The type of the data source.
+* **[!UICONTROL Filename]**: The name of the file that was uploaded.
+* **[!UICONTROL Rows]**: The total number of rows in the file.
+* **[!UICONTROL Errors]**: The number of rows that contained errors.
+* **[!UICONTROL Warnings]**: No longer used. The number of rows that contained warnings.
+* **[!UICONTROL Received]**: The date and time of when Adobe started processing the file.
+* **[!UICONTROL Status]**: The file's status, `Success` or `Failed`.

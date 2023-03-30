@@ -5,4 +5,4 @@ description: Some possible reasons why a data source upload might fail and how t
 
 # Troubleshoot data sources
 
-Content coming soon!
+If you upload a data source with formatting errors

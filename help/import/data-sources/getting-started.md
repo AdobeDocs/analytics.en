@@ -9,7 +9,7 @@ You can follow these steps to easily upload sample data into a development repor
 
 >[!IMPORTANT]
 >
->Follow these steps using a development or test report suite. Data uploaded through data sources are permanent, and impacts production report suite data if uploaded there.
+>Follow these steps using a development or test report suite. Data uploaded through data sources are **permanent**. It impacts production report suite data if uploaded there.
 
 1. Log in to Adobe Analytics through [https://experience.adobe.com](https://experience.adobe.com).
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL All Admin]** > **[!UICONTROL Data sources]**.
@@ -25,7 +25,7 @@ You can follow these steps to easily upload sample data into a development repor
    1. Step 6: Review the summary, showing the dimension(s) and metric(s) that will be included in the template file.
    1. Step 7: Click the **[!UICONTROL Download]** button to download the data sources template file. Also note the login credentials to the FTP site, as they will be used shortly.
 1. The data source is now created; the next step is to give it data to process. Open the downloaded file in your desired text editor.
-1. The template file contains two comment lines (starting with "`#`"), and a header row:
+1. The template file contains three lines; two comment lines (starting with "`#`"), and a header row:
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)

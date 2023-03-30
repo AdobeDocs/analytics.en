@@ -116,6 +116,10 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >* The ability to share a project in this way can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a project as described in this section, your Analytics administrator has disabled this ability.
 >
 >* Projects with more than 14 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
+>
+>* Users you share with can view any filters that were applied to the project during [curation](curate.md). 
+> 
+>* Users you share with can change the project date range. The date range you set for the project is shown by default.
 
 To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
 
@@ -146,6 +150,8 @@ To share an Analysis Workspace project with people who don't have access to Adob
 1. Share the link with the people you want to have access to the project. For example, you can paste the link in an email. 
    
    Any person you share the link with can view the Analysis Workspace project.
+
+1. (Optional) You can click the **Generate new link** icon ![Generate link icon](assets/regenerate-link.png) to remove access from users who previously received a link to the project. A new link is generated that you can share with users who you want to access the project. 
 
 1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved.
 

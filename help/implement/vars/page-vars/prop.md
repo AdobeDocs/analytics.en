@@ -12,7 +12,7 @@ Props are custom variables that you can use however you'd like. They do not pers
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to where they fulfill almost all use cases for props.
+>Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to an extent that they now fulfill almost all use cases for props.
 
 If you have a [solution design document](/help/implement/prepare/solution-design.md), you can allocate these custom dimensions to values specific to your organization. The number of available props depends on your contract with Adobe. Up to 75 props are available if your contract with Adobe supports it.
 

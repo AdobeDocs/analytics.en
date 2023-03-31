@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **March 2023** | |
+| Internal URL filters | Added sections and step-by-step procedures to clarify and improve article content. See [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Create data stories in mobile scorecards | A [data story](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is a collection of supporting data points, business context, and related metrics built around a central theme or metric. |
 | Default calculated metrics | Added content explaining the [default calculated metrics provided by Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Data Dictionary | <p>Added new documentation for the Data Dictionary, including an [Overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Viewing](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Editing](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), and [Monitoring](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) the Data Dictionary.</p><p>Information in [Adding component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md) was updated to account for Data Dictionary functionality.</p>  |

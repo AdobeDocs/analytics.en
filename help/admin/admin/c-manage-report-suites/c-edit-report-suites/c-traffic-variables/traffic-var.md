@@ -10,7 +10,7 @@ Custom Insight Traffic Variables (or props) enable you to correlate custom data 
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to an extent that they now fulfill almost all use cases for props.
+>Adobe recommends using [eVars](/help/implement/vars/page-vars/evar.md) in most cases. In previous versions of Adobe Analytics, props and eVars had advantages and disadvantages to each other. However, Adobe has improved eVars to an extent that they now fulfill almost all use cases for props.
 
 You can add and enable traffic variable reports. You can also disable or rename existing traffic variable reports.
 

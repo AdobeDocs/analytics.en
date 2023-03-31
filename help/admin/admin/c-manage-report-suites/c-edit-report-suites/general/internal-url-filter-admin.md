@@ -28,7 +28,7 @@ To add an internal URL filter to a report suite:
 
 The most common reason traffic sources reports don't populate data is that the internal URL filter list isn't defined. 
 
-To check which internal URL filters are configured for a report suite: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")
+To check which internal URL filters are configured for a report suite: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
 
 1. Select **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to access the Report Suite Manager.
 

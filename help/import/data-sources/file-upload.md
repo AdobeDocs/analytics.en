@@ -21,6 +21,23 @@ The `.fin` file has the following properties:
 
 Once both the data source file and `.fin` file are uploaded to the FTP site, Adobe processes the file. Do not upload the `.fin` file until the data sources file is fully uploaded. If the `.fin` file is prematurely uploaded, Adobe retrieves and ingests the partially uploaded file, throwing possible errors.
 
-## Next steps
+## Processing order
 
-[Troubleshooting](troubleshooting.md): Learn how to resolve potential issues when executing a data sources workflow.
+If you upload multiple files at the same time to the FTP site, Adobe ingests them in alphanumeric order. If your organization requires files to be ingested in a specific order, make sure that their file names are named alphanumerically.
+
+## Processing time
+
+To ensure the fastest processing of files, Adobe recommends aggregating metric data into a single row per date. For example, this data sources file, while valid, would be processed slower:
+
+| `date` | `eVar1` | `event1` | `event2` | `event3` |
+| --- | --- | --- | --- | --- |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | | `1` | |
+| `07/24/YYYY` | `red` | | | `1` |
+
+This file would be processed faster, which contains the same data:
+
+| `date` | `eVar1` | `event1` | `event2` | `event3` |
+| --- | --- | --- | --- | --- |
+| `07/24/YYYY` | `red` | `2` | `1` | `1` |

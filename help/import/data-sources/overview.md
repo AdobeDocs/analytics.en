@@ -19,6 +19,8 @@ There are two general types of data sources that Adobe offers. All data source t
 
 **Full processing data sources** is no longer offered as a data source type as of 25 March 2021. See the [End-of-life announcement](full-processing-eol.md) for more information.
 
+Adobe also offers the [Data sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), which provides the ability to create data sources and upload data without using the product UI or an FTP location.
+
 ## Next steps
 
 [Getting started with data sources](getting-started.md): Upload a simple data source to a development report suite.

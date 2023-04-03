@@ -46,7 +46,7 @@ The **[!UICONTROL Create]** tab gives you a starting point for the Data sources 
 
 The category and type of data source were more valuable in previous versions of Adobe Analytics. However, they still have limited use:
 
-* The data source type is shown on the [Manage](#manage) tab for the data source itself, and the [File Log](#file-log) tab for each individual file
+* The data source type is shown on the [Manage](#manage) tab for the data source itself, and the [File Log](#file-log) tab for each individual file.
 * Some data source types automatically include variables when downloading the template file. However, you can include any available dimension or metric as long as it adheres to the established [File format](file-format.md).
 
 Beyond these reasons, all data source categories and types that you can choose are effectively identical. Pick the category and type that best represents your purpose for using data sources.

@@ -7,7 +7,9 @@ description: Learn the process to upload a data sources file to Adobe Analytics.
 
 Sending a data sources file to Adobe involves a typical authenticated FTP workflow. You can use Windows Explorer, Finder, or a dedicated FTP client to upload the desired files to Adobe's FTP location.
 
-Locate the FTP credentials in the [Data sources manager](manage.md). Each data source has a link to its **[!UICONTROL FTP Info]**.
+Locate the FTP credentials in the [Data sources manager](manage.md). Each data source has a link to its **[!UICONTROL FTP Info]**. Each FTP location is dedicated to that specific data source; you cannot use the same FTP location for multiple data sources.
+
+For security reasons, FTP locations without any activity for 30+ days are disabled.
 
 ## The `.fin` file
 

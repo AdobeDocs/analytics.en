@@ -39,7 +39,7 @@ You can follow these steps to easily upload sample data into a development repor
     * The third column is the amount that you want to increase event 1.
 
     ```text
-    # Generic Data Source (Summary Data Only) template file (user: 300179334 ds_id: 11)
+    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
     #	eVar1	event1
     Date	Evar 1	Event 1
     09/07/YYYY/11/23/00	Data source example value	3
@@ -51,7 +51,7 @@ You can follow these steps to easily upload sample data into a development repor
 1. When prompted for login credentials, use the username and password provided in the last step of the data source creation wizard. If you need to reference it again, you can navigate to [!UICONTROL Data sources] and click **[!UICONTROL FTP Info]** next to the data source that you created.
 1. Once you have authenticated, drag the file that you edited into the authenticated FTP window.
 1. Create an empty text file in any location outside of the FTP window, such as the same location as your data sources template or on your desktop. Give it the same file name as the data sources file that you uploaded to the FTP site, with one exception. Instead of a `.txt` file type, give it a `.fin` file type. Make sure that your operating system settings allow you to see and change file types.
-1. Drag the empty `.fin` file to the same FTP location as the data source file. The presence of the `.fin` file tells Adobe that the data source file is ready to be ingested.
+1. Drag the empty `.fin` file to the same FTP location as the data source file. The presence of the `.fin` file tells Adobe that the data source file is fully uploaded and ready to be ingested.
 1. After several minutes, the file disappears from the FTP location and is visible in reporting.
 1. Refresh the Data Sources page and validate that the file was ingested successfully.
 1. Navigate to Analysis Workspace and create a project.

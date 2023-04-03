@@ -2,7 +2,6 @@
 title: Upload data sources file to Adobe
 description: Learn the process to upload a data sources file to Adobe Analytics.
 ---
-
 # Upload data sources file to Adobe
 
 Sending a data sources file to Adobe involves a typical authenticated FTP workflow. You can use Windows Explorer, Finder, or a dedicated FTP client to upload the desired files to Adobe's FTP location.

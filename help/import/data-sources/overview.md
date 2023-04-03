@@ -2,7 +2,6 @@
 title: Data sources overview
 description: Import data into Adobe Analytics using external files.
 ---
-
 # Data sources overview
 
 Adobe Analytics data sources let you import additional online or offline data for reporting. They are valuable to help understand facets of your business outside your website, and how they interact with your site. The general workflow to use data sources consists of the following steps:

@@ -2,7 +2,6 @@
 title: Getting started with data sources
 description: Upload example data into a development report suite.
 ---
-
 # Getting started with data sources
 
 You can follow these steps to easily upload sample data into a development report suite to see the workflow in action. Once you understand the process, you can expand and tailor it specific to your organization's implementation.
@@ -59,6 +58,6 @@ You can follow these steps to easily upload sample data into a development repor
 
     ![Example report](assets/success-report.png)
 
-# Next steps
+## Next steps
 
 [File format](file-format.md): Learn the details around creating a data sources file tailored to your organization.

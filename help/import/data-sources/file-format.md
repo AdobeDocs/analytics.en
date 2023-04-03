@@ -2,7 +2,6 @@
 title: Data source file format
 description: Correctly generate a file for use in data sources.
 ---
-
 # Data source file format
 
 Data source files have the following properties:
@@ -27,7 +26,9 @@ All comment rows are ignored by Adobe when the file is processed, so you can rem
 
 When uploading data source files, column headers are required. These column headers are not case-sensitive, but required spaces are necessary (For example, `eVar1` is an invalid header, while `EVAR 1` is valid). Column headers apply to all report suites. Use the following tables to make sure that each header in your data source file is set correctly.
 
-> [!TIP] You can make a data sources file from scratch if you include the correct headers in your data source file. There is no limit to the number of headers that you can include within a single file; however, each row can only have a maximum of 4096 bytes.
+>[!TIP]
+>
+>You can make a data sources file from scratch if you include the correct headers in your data source file. There is no limit to the number of headers that you can include within a single file; however, each row can only have a maximum of 4096 bytes.
 
 | Dimension | Data source header |
 | --- | --- |

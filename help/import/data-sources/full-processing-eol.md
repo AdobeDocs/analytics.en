@@ -2,7 +2,6 @@
 title: End-of-life for full processing data sources
 description: Learn more about the end-of-life announcement for full processing data sources.
 ---
-
 # End-of-life for full processing data sources
 
 Full processing data sources has historically enabled organizations to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected through traditional data collection means, such as AppMeasurement. In 2020, Adobe released the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), which performs the same functions as full processing data sources, but with additional features. This page provides details about additional functionality provided by the Bulk data insertion API and outlines differences in file formats.

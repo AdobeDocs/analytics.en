@@ -2,7 +2,6 @@
 title: Manage data sources
 description: Navigate the manage data sources interface.
 ---
-
 # Manage data sources
 
 Use the data source manager to create, edit, or deactivate data sources. You can also use this interface to track the status of files uploaded to data sources FTP locations.

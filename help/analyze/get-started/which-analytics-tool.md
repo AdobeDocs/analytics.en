@@ -40,20 +40,20 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Classifications](/help/components/classifications/c-classifications.md)** should be used:
 
-* When there is metadata you want to associate to a collect value (eVar, prop, marketing channel) 
+* When there is metadata you want to associate to a collect value (eVar, prop, marketing channel)
 * Options:
 
-    * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it".
-    * Browser importer: use when you don't have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
+  * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it".
+  * Browser importer: use when you don't have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
 
-**[Data Sources](/help/import/c-data-sources/datasrc-home.md)** should be used:
+**[Data Sources](/help/import/data-sources/overview.md)** should be used:
 
-* When there is offline data you want permanently written into Adobe Analytics 
+* When there is offline data you want permanently written into Adobe Analytics
 * Options:
 
-    * Summary: simple data uploads, by day or limited dimensions 
-    * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline) 
-    * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
+  * Summary: simple data uploads, by day or limited dimensions
+  * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline)
+  * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
 **[Adobe Exchange integrations](https://www.adobeexchange.com/experiencecloud.html)** should be used:
 

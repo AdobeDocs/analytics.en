@@ -35,7 +35,7 @@ Traffic spikes are categorized into two sections: near double data and other cau
 ### Potential causes of having near or exactly double the expected data
 
 * **Multiple image requests within an implementation**: If your implementation contains more than one [`t()`](/help/implement/vars/functions/t-method.md) method call per page, it effectively doubles all data collected. Use the debugger on your site and watch for multiple image requests to catch duplicates.
-* **Duplicate data source files uploaded**: If your organization uses [Data sources](/help/import/c-data-sources/datasrc-home.md), a user in your organization can upload the same file twice to Adobe Analytics. Performing this duplicate upload effectively doubles that data in reporting, causing the traffic spike.
+* **Duplicate data source files uploaded**: If your organization uses [Data sources](/help/import/data-sources/overview.md), a user in your organization can upload the same file twice to Adobe Analytics. Performing this duplicate upload effectively doubles that data in reporting, causing the traffic spike.
 
 ### Other potential causes of increased traffic
 

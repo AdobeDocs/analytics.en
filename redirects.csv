@@ -296,7 +296,7 @@ source,destination
 /docs/analytics/admin/manage-report-suites/t-report-suite-saved-search.html,/docs/analytics/admin/admin-tools/manage-report-suites/t-report-suite-saved-search.html
 /docs/analytics/admin/manage-report-suites/rollup-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/rollup-report-suite.html
 /docs/analytics/admin/admin-tools/custom-desc-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/custom-desc-admin.html
-/docs/analytics/admin/admin-tools/traffic-variables/t-traffic-variable.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/t-traffic-variable.html
+/docs/analytics/admin/admin-tools/traffic-variables/t-traffic-variable.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/traffic-var.html
 /docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/traffic-classifications.html
 /docs/analytics/admin/admin-tools/traffic-variables/traffic-var.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/traffic-var.html
 /docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html
@@ -453,3 +453,4 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/optimizing-performance.html,/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html
 /docs/analytics/implementation/testing-and-validation/implementation-troubleshooting/pagetype-troubleshooting.html,/docs/analytics/implementation/vars/page-vars/pagetype.html
 /docs/analytics/admin/admin-tools/billing-admin.html,/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/t-traffic-variable.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-variables/traffic-var.html

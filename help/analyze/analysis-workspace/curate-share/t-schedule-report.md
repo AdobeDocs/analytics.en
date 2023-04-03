@@ -14,7 +14,7 @@ From the Workspace **Share menu**, you can send Analysis Workspace projects via 
 
 To send a file immediately to recipients via email:
 
-1. Click **[!UICONTROL Share] > [!UICONTROL Send File Now]**.
+1. Click **[!UICONTROL Share] > [!UICONTROL Export file]**.
 1. Specify the file type (CSV or PDF).
 1. (Optional) Add a description that will be included in the email to explain the file being received. 
 1. Add recipients or groups. Email addresses can also be entered. 
@@ -27,7 +27,7 @@ To send a file immediately to recipients via email:
 
 To send a file on a recurring schedule to recipients via email:
 
-1. Click **[!UICONTROL Share] > [!UICONTROL Send File on Schedule]**.
+1. Click **[!UICONTROL Share] > [!UICONTROL Schedule file export]**.
 1. Specify the file type (CSV or PDF).
 1. (Optional) Add a description that will be included in the email to explain the file being received. 
 1. Add recipients or groups. Email addresses can also be entered. 

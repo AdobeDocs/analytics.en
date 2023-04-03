@@ -75,7 +75,7 @@ Yes, classifications are fully supported.
 
 Yes, most data sources are supported. Attribution is not possible with summary-level data sources because they do not tie to an Analytics visitor identifier.
 
-Transaction ID data sources are treated like any other hit; they don't use the special processing that they normally use in traditional reporting.
+Transaction ID data sources are treated like any other hit; they don't use the special processing that they normally use in traditional reporting. In other words, when using report time processing, Transaction ID hits will have eVar values propagated from hits which occur near the timestamp of the Transaction ID hit. The values will not be propagated from hits that occurred near the time of the original transaction.
 
 ## Does attribution work with the Advertising Analytics integration?
 

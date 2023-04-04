@@ -4,7 +4,7 @@ description: Learn more about the end-of-life announcement for full processing d
 ---
 # End-of-life for full processing data sources
 
-Full processing data sources has historically enabled organizations to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected through traditional data collection means, such as AppMeasurement. In 2020, Adobe released the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), which performs the same functions as full processing data sources, but with additional features. This page provides details about additional functionality provided by the Bulk data insertion API and outlines differences in file formats.
+Full processing data sources have historically enabled organizations to submit hit-level data to Adobe Analytics. This data was processed in the same way as data collected through traditional data collection means, such as AppMeasurement. In 2020, Adobe released the [Bulk data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), which performs the same functions as full processing data sources, but with additional features. This page provides details about additional functionality provided by the Bulk data insertion API and outlines differences in file formats.
 
 On 25 March 2021, Adobe prevented new full processing data sources connections from being created. On 31 January 2022, all full processing data services were deactivated.
 

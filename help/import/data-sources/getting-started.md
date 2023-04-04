@@ -21,8 +21,8 @@ You can follow these steps to easily upload sample data into a development repor
    1. Step 3: Choose the metric to include in your data source template file. Select "Event 1" from the dropdown.
    1. Step 4: This step had more use in previous versions of Adobe Analytics. Click a check box, then type any value in the text field next to it.
    1. Step 5: Choose the dimension to include in your data source template file. Select "eVar1" from the dropdown.
-   1. Step 6: Review the summary, showing the dimension(s) and metric(s) that will be included in the template file.
-   1. Step 7: Click the **[!UICONTROL Download]** button to download the data sources template file. Also note the login credentials to the FTP site, as they will be used shortly.
+   1. Step 6: Review the summary, showing the dimensions and metrics that are included in the template file.
+   1. Step 7: Click the **[!UICONTROL Download]** button to download the data sources template file. Also note the login credentials to the FTP site, as they are used shortly.
 1. The data source is now created; the next step is to give it data to process. Open the downloaded file in your desired text editor.
 1. The template file contains three lines; two comment lines (starting with "`#`"), and a header row:
 
@@ -47,9 +47,9 @@ You can follow these steps to easily upload sample data into a development repor
 
 1. Save the file. You can optionally give it a different file name, if desired. Once the file is saved, you can close the text editor.
 1. In Windows Explorer, Finder, or your FTP client of choice, navigate to [ftp://ftp.omniture.com](ftp://ftp.omniture.com).
-1. When prompted for login credentials, use the username and password provided in the last step of the data source creation wizard. If you need to reference it again, you can navigate to [!UICONTROL Data sources] and click **[!UICONTROL FTP Info]** next to the data source that you created.
+1. When prompted for login credentials, use the username and password provided in the last step of the data source creation wizard. You can reference it again by navigating to [!UICONTROL Data sources] and clicking **[!UICONTROL FTP Info]** next to the data source that you created.
 1. Once you have authenticated, drag the file that you edited into the authenticated FTP window.
-1. Create an empty text file in any location outside of the FTP window, such as the same location as your data sources template or on your desktop. Give it the same file name as the data sources file that you uploaded to the FTP site, with one exception. Instead of a `.txt` file type, give it a `.fin` file type. Make sure that your operating system settings allow you to see and change file types.
+1. Create an empty text file in any location outside of the FTP window. Give it the same file name as the data sources file that you uploaded to the FTP site, with one exception. Instead of a `.txt` file type, give it a `.fin` file type. Make sure that your operating system settings allow you to see and change file types.
 1. Drag the empty `.fin` file to the same FTP location as the data source file. The presence of the `.fin` file tells Adobe that the data source file is fully uploaded and ready to be ingested.
 1. After several minutes, the file disappears from the FTP location and is visible in reporting.
 1. Refresh the Data Sources page and validate that the file was ingested successfully.

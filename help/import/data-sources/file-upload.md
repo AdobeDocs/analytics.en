@@ -1,6 +1,6 @@
 ---
 title: Upload data sources file to Adobe
-description: Learn the process to upload a data sources file to Adobe Analytics.
+description: The process to upload a data sources file to Adobe Analytics for ingestion.
 ---
 # Upload data sources file to Adobe
 

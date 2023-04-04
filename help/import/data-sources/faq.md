@@ -7,7 +7,7 @@ description: Frequently asked questions around data sources.
 Frequently asked questions around data sources.
 
 +++What is the cost to use data sources?
-Data sources do not incur any charges, nor do they count towards server call usage. [Full processing data sources](full-processing-eol.md) counted towards server calls prior to their retirement.
+Data sources do not incur any charges, nor do they count towards server call usage. [Full processing data sources](full-processing-eol.md) counted towards server calls before their retirement.
 +++
 
 +++How do data sources impact attribution and expiration for eVars?
@@ -40,7 +40,7 @@ Yes. Files with an extension of `.TXT` or `.FIN` are not processed. Make sure th
 +++
 
 +++How many columns can I add to a data source file?
-You can include as many columns to a data source file as you'd like, provided that they are all valid columns. See [File format](file-format.md) for a list of valid variable/column names.
+You can include as many columns to a data source file as you'd like, if they are all valid columns. See [File format](file-format.md) for a list of valid variable/column names.
 +++
 
 +++Can I use data sources without using the Adobe-provided FTP location?

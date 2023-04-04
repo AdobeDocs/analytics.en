@@ -8,9 +8,9 @@ Data source files have the following properties:
 
 * The file is in `.txt` format.
 * Commented lines start with '`#`', and are optional.
-* The first non-commented line are the headers, which are tab-delimited.
+* The first non-commented line contains the file's headers.
 * The first value of every row is the date, which uses the format `MM/DD/YYYY` or `MM/DD/YYYY/HH/mm/SS`.
-* Values on each row are tab-delimited.
+* Values on every row, including headers, are tab-delimited.
 * Every row must have at least one dimension and one metric.
 
 ## Comments
@@ -74,7 +74,7 @@ A single data source file supports up to 90 unique days. If you want to include 
 
 ## Dimension and metric data
 
-Subsequent values after the date in each row contains the data that you want to upload. Every row corresponds with that respective timestamp. Make sure that the same number of tabs exist on every row. Columns can be in any order; just make sure that the data in each row aligns with the headers at the top. The maximum amount of data a single row can have is 4096 bytes.
+Subsequent values after the date in each row contains the data that you want to upload. Every row corresponds with that respective timestamp. Make sure that the same number of tabs exist on every row. Columns can be in any order; make sure that the data in each row aligns with the headers at the top. The maximum amount of data a single row can have is 4096 bytes.
 
 Dimension data cannot contain semicolons (`;`). Rows that contain semicolons are skipped.
 

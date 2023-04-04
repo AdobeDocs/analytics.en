@@ -4,7 +4,7 @@
 
 >[!IMPORTANT]
 >
->Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+>Read more about the Reports & Analytics [End-of-life announcement](https://www.adobe.com/go/analytics_rnaeol_en).
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
 

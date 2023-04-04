@@ -7,7 +7,7 @@ exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
 ---
 # End-of-life notice for scheduled reports
 
-On April 21, 2022, we announced the deprecation of several features specific to scheduled reports in preparation for the previously announced [end of life for Reports & Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/). These features included the ability to schedule new reports as well as new data extracts. In response to customer requests seeking an extension and to ease the transition from Reports & Analytics, we have decided to extend access to these features until **Jan 31, 2023**. Please note that expiration windows for both reports and data extracts will continue to be limited to nine months; report and data extract delivery will pause at the end of this period unless the schedule is reactivated.
+On April 21, 2022, we announced the deprecation of several features specific to scheduled reports in preparation for the previously announced [end of life for Reports & Analytics](https://www.adobe.com/go/analytics_rnaeol_en). These features included the ability to schedule new reports as well as new data extracts. In response to customer requests seeking an extension and to ease the transition from Reports & Analytics, we have decided to extend access to these features until **Jan 31, 2023**. Please note that expiration windows for both reports and data extracts will continue to be limited to nine months; report and data extract delivery will pause at the end of this period unless the schedule is reactivated.
 
 To reiterate, these features will be deprecated on January 31, 2023, prior to which you will need to migrate your scheduled reporting to one of the other mechanisms available to you in Adobe Analytics. 
  

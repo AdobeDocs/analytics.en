@@ -15,7 +15,7 @@ Transaction ID data sources are a variation on summary data sources that allow y
 >
 >Before using transaction ID data sources, you must first enable it in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) for the desired report suite.
 
-When you send an online hit that contains a [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, Adobe takes a "snapshot" of all variables set or persisted at that time. If a matching transaction ID uploaded through data sources is found, the offline and online data is tied together.
+When you send an online hit that contains a [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, Adobe takes a "snapshot" of all variables set or persisted then. If a matching transaction ID uploaded through data sources is found, the offline and online data is tied together.
 
 Transaction ID data sources have the following properties:
 
@@ -45,4 +45,4 @@ For example:
    * `eVar3` equals `bird`
    * `events` equals `event2`
 
-Note that the eVar1 value `blue` and the `event1` metric are not present in reporting, since the transaction ID hit overwrote those respective values.
+The eVar1 value `blue` and the `event1` metric are not present in reporting, since the transaction ID hit overwrote those respective values.

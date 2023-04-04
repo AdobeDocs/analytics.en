@@ -18,13 +18,13 @@ The **[!UICONTROL Manage]** tab handles all data sources your organization has c
 
 ![Manage](assets/manage.png)
 
-The topmost data source is always [!UICONTROL Web Beacon]. This is the data source that you use for typical data collection through AppMeasurement. It cannot be edited or deactivated.
+The topmost data source is always [!UICONTROL Web Beacon]. This data source is what you use for typical data collection through AppMeasurement. It cannot be edited or deactivated.
 
 Each data source has the following options:
 
 * **[!UICONTROL Restart Processing]**: Restarts data source processing that previously stopped due to errors. Processing continues until the next error is encountered. Data Sources halts processing of a Data Sources file only when you select **[!UICONTROL Stop processing on errors]**.
 * **[!UICONTROL Complete Processing]**: No longer used - this button was only used for [Full processing data sources](full-processing-eol.md).
-* **[!UICONTROL Stop processing on errors]**: A checkbox that instructs the processing server to halt when it encounters an error. The data source does not resume processing until you select **[!UICONTROL Restart Processing]**. When data sources encounters a file error, it notifies you of the error. Adobe moves the file with the error into a folder called `files_with_errors` on the FTP server. After you have resolved the problem, resubmit the file for processing.
+* **[!UICONTROL Stop processing on errors]**: A checkbox that instructs the processing server to halt when it encounters an error. The data source does not resume processing until you select **[!UICONTROL Restart Processing]**. When a data source encounters a file error, it notifies you of the error. Adobe moves the file with the error into a folder called `files_with_errors` on the FTP server. After you have resolved the problem, resubmit the file for processing.
 * **[!UICONTROL Configure]**: A link that takes you through the Data sources creation wizard for this data source. This wizard lets you rename the data source, or reconfigure the variables automatically included when downloading a template file.
 * **[!UICONTROL FTP Info]**: A link that takes you to the last step of the Data sources creation wizard where FTP credentials are displayed.
 
@@ -50,7 +50,7 @@ The category and type of data source were more valuable in previous versions of 
 
 Beyond these reasons, all data source categories and types that you can choose are effectively identical. Pick the category and type that best represents your purpose for using data sources.
 
-With the retiring of [Full processing data sources](full-processing-eol.md), several categories and types cannot be selected. If you select a full processing data source type, the **[!UICONTROL Activate]** button is greyed out.
+With the retiring of [Full processing data sources](full-processing-eol.md), several categories and types cannot be selected. If you select a full processing data source type, the **[!UICONTROL Activate]** button is grayed out.
 
 ## File Log
 
@@ -67,4 +67,4 @@ A search bar is available that helps you locate a specific data source. The tabl
 * **[!UICONTROL Errors]**: The number of rows that contained errors.
 * **[!UICONTROL Warnings]**: No longer used. The number of rows that contained warnings.
 * **[!UICONTROL Received]**: The date and time of when Adobe started processing the file.
-* **[!UICONTROL Status]**: The file's status, `Success` or `Failed`.
+* **[!UICONTROL Status]**: The file's status (`Success` or `Failed`).

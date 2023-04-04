@@ -16,7 +16,7 @@ This guide provides product documentation and self-help for the following Adobe 
 * **[!UICONTROL Activity Map]:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
 * **[!UICONTROL Report Builder]:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
 * **[!UICONTROL Reporting API]:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
-* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs. **Note:** Reports & Analytics will be [end-of-lifed](https://express.adobe.com/page/6WnF8JK6IRDhf/) on December 31, 2023.
+* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs. **Note:** Reports & Analytics will be [end-of-lifed](https://www.adobe.com/go/analytics_rnaeol_en) on December 31, 2023.
 
 Here is a video overview of Adobe Analytics:
 

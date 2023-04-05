@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **March 2023** | |
+| Web SDK support for Activity Map | Updated [Implement Adobe Analytics](/help/implement/home.md) and [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Traffic variables (props) overview | Added sections and step-by-step procedures to clarify and improve article content. Merged content from an article titled, "Enable traffic variable reports" and removed that article. See [Traffic variables (props) overview](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Internal URL filters | Added sections and step-by-step procedures to clarify and improve article content. See [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Create data stories in mobile scorecards | A [data story](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) is a collection of supporting data points, business context, and related metrics built around a central theme or metric. |

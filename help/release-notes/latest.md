@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2023)
 
-**Last update**: April 3, 2023
+**Last update**: April 5, 2023
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,7 +14,8 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Dictionary in Analysis Workspace** | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 15, 2023 | March 29, 2023 |
+| **Partial support for Activity Map with Web SDK** | Starting with Web SDK version 2.15.0, we started populating Activity Map data when link tracking is enabled. This allows Web SDK users to get Activity Map reporting if they have link tracking enabled with the Web SDK and Activity Map configured in Analytics.<p>Note that enabling link tracking with Web SDK sends link events when a customer navigates from one page to the next. As a result, extra billable hits are sent to Adobe. We are working on a way to have Web SDK collect Activity Map in a way that mirrors what AppMeasurement does. In some situations, AppMeasurement sends data separately on subsequent page views, reducing the number of server calls. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)| N/A | March 31, 2023 |
+| **Data Dictionary in Analysis Workspace** | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 15, 2023 | **Temporarily unavailable** |
 | **Data Stories in Mobile Dashboards** | Data stories let you add multiple customizable detail views to tiles in Mobile Scorecard projects. Use data stories to dive deeper into key drivers, related metrics, and different steps along the customer journey. You can easily swipe through these views to understand the whole story behind your key metrics. [Learn more](/help/analyze/mobile-app/create-scorecard.md#create-data-story)  | N/A | March 8, 2023 |
 | **Expiration dates for scheduled project** | You can set maximum expiration dates for scheduled projects to up to one year, regardless of schedule frequency. | N/A | March 8, 2023 |
 | **Link sharing for projects (no login required)** - Private beta access only | <p>You can now share read-only links to Analysis Workspace projects with people who don't have access to Adobe Analytics. You can share project links with people outside of your organization, or those within your organization who are not provisioned for Adobe Analytics. [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>To join the private beta, contact your Adobe Account Team.</p> | April 26, 2023 | June 2023 |

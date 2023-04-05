@@ -10,15 +10,30 @@ exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 
 Explains the steps the Analytics Admin needs to complete to enable Activity Map link collection and user download.
 
-## Step 1. Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Step 1. Update your implementation code {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-The Activity Map module is part of the AppMeasurement.js file (located at the top of the file). The AppMeasurement library will load the Activity Map module when instantiated.
+The Activity Map module is part of the AppMeasurement.js and the Web SDK (version 2.15.0 or higher).
+The AppMeasurement library or Web SDK will load the Activity Map module when instantiated.
 
-Activity Map data cannot be collected unless you update to this version (or higher) of AppMeasurement.
+>[!NOTE]
+>
+>Activity Map data cannot be collected unless you update to **AppMeasurement** **version 1.6** or higer or **Web SDK** **version 2.15.0** or higher
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
 
-   We have included some [sample implementation code](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) to help you visualize the changes that have been made to the code by including the Activity Map module.
+1. Download the latest Javascript library depending whether you are using AppMeasurement or Web SDK.
+
+   -   **AppMeasurement** code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+
+       We have included some [sample implementation code](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) to help you visualize the changes that have been made to the code by including the Activity Map module.
+
+   -   **Web SDK** code (alloy.js). See [Install the SDK - Option 2: Installing the prebuilt standalone version](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-2%3A-installing-the-prebuilt-standalone-version) for more information. Ensure you use version 2.15 or later.
+
+       See [Track links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) for information on how to implement link tracking and how to enable Activity Mapping by capturing the `region` of the clicked HTML element.
+
+       >[!NOTE]
+       >
+       >Enabling link tracking with Web SDK currently sends link events when a customer navigates from one page to the next. This is different from how AppMeasurement works and can potentially result in extra billable hits sent to Adobe.
+
 
 1. Validate the implementation:
 

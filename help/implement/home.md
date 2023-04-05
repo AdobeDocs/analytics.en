@@ -47,7 +47,7 @@ This implementation method can be useful for implementations using custom code a
     
         >[!INFO]
         >
-        >Using the latest Web SDK, Activity Map is supported. See [Enable Activity Map](/help/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) for more information.
+        >Using the latest Web SDK, Activity Map is supported. See [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) for more information.
 
     *   [streaming media measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en),
 

@@ -4,9 +4,9 @@ description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (March 2023)
+# Current Adobe Analytics release notes (April 2023)
 
-**Last update**: April 5, 2023
+**Last update**: April 6, 2023
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -16,16 +16,23 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | **Partial support for Activity Map with Web SDK** | Starting with Web SDK version 2.15.0, we started populating Activity Map data when link tracking is enabled. This allows Web SDK users to get Activity Map reporting if they have link tracking enabled with the Web SDK and Activity Map configured in Analytics.<p>Enabling link tracking with Web SDK currently sends link events when a customer navigates from one page to the next. This is different from how AppMeasurement works and can potentially result in extra billable hits sent to Adobe. Learn more [here](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) and [here](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)| N/A | March 31, 2023 |
 | **Data Dictionary in Analysis Workspace** | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 15, 2023 | **Temporarily unavailable** |
-| **Data Stories in Mobile Dashboards** | Data stories let you add multiple customizable detail views to tiles in Mobile Scorecard projects. Use data stories to dive deeper into key drivers, related metrics, and different steps along the customer journey. You can easily swipe through these views to understand the whole story behind your key metrics. [Learn more](/help/analyze/mobile-app/create-scorecard.md#create-data-story)  | N/A | March 8, 2023 |
-| **Expiration dates for scheduled project** | You can set maximum expiration dates for scheduled projects to up to one year, regardless of schedule frequency. | N/A | March 8, 2023 |
 | **Link sharing for projects (no login required)** - Private beta access only | <p>You can now share read-only links to Analysis Workspace projects with people who don't have access to Adobe Analytics. You can share project links with people outside of your organization, or those within your organization who are not provisioned for Adobe Analytics. [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>To join the private beta, contact your Adobe Account Team.</p> | April 26, 2023 | June 2023 |
-| **Panel date range updates** |  In Workspace, we added the following improvements:<ul><li>Starting with the February release, dimension items and data previews are based on the panel date range and not the last 90 days. </li><li>All dimension items listed are based on data within the panel date range. If a dimension item has data outside the date range, you can show additional data beyond the date range at the bottom of the list.</li><li>Dimensions that don't have data can be displayed in the left rail. Click the show more options to view dimension items with data outside the panel date range.</li><li>Data previews in the segment and calculated metric builders are based on the panel date range unless accessed from the component managers, which don't have an associated panel and are still based on the last 90 days.</li><li>Data previews display data or components based on the panel date range.</li></ul>| N/A | February 8, 2023 |
+| **IP obfuscation for Experience Edge** | Experience Edge will support IP obfuscation for data sent directly to Adobe Experience Platform. This benefits customers who send data directly to Platform for use in CJA or other Platform solutions. IP obfuscation will be configured at the data stream level. It supports removing the last octet or the whole IP address. **Note**: Obfuscation will NOT apply to data sent to Adobe Analytics. Analytics will continue to get the full IP. IP processing will continue to be done in Analytics separately. In the future, we plan on allowing Analytics data to be obfuscated at the Edge. | N/A | AEP release on April 26, 2023 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-311665; AN-311948; AN-312108; AN-312114; AN-312142; AN-312143; AN-312389; AN-312391; AN-312431; AN-312453; AN-312454; AN-312458; AN-312503; AN-312533; AN-312682; AN-312698; AN-312714; AN-312738; AN-312807; AN-312829; AN-312849; AN-312875; AN-312980; AN-312997; AN-313059; AN-313077; AN-313110; AN-313195; AN-313196; AN-313258; AN-313554; AN-313580; AN-313702; AN-313820; AN-313844; AN-313859; AN-313879; AN-314273
+* Fixed an issue with Operating System.tsv lookup files in Data Feed.
+* Fixed an issue with metric values differing between Reports & Analytics and Workspace (AN-315965).
+* Fixed an issue with being unable to import partial classifications. (AN-315854)
+* Fixed an issue with the Analytics API 1.4. (AN-316475)
+* Fixed an issue that prevented some customers from getting classifications for the Page dimension via Report Builder and Report & Analytics. (AN-314445)
+* Fixed an issue with being unable to transfer alerts. (AN-306457)
+
+### Other fixes
+
+AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-312105; AN-312116; AN-312191; AN-312502; AN-312737; AN-312854; AN-312991; AN-313253; AN-313275; AN-313278; AN-313282; AN-313365; AN-313390; AN-313547; AN-313549; AN-313818; AN-313986; AN-314080; AN-314248; AN-314251; AN-314262; AN-314300; AN-314309; AN-314448; AN-314643; AN-314564; AN-314645; AN-314705; AN-314761; AN-314831; AN-314919; AN-314948; AN-315032; AN-315115; AN-315154; AN-315158; AN-315321; AN-315375; AN-315379; AN-315392; AN-315407; AN-315427; AN-315582; AN-315591; AN-315699; AN-315700; AN-315704; AN-315705; AN-315777; AN-315923; AN-316237; AN-316243; AN-316324; AN-316415; AN-316474; AN-316493; AN-316596; AN-316864; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

@@ -14,7 +14,7 @@ To generate a tab-delimited file containing all the settings for the selected re
 
 3.  Click **[!UICONTROL Download]**.
 
-    A file named Report Suite Data.tab is downloaded to your local computer.
+    A file named `Report Suite Data.tab` is downloaded to your local computer.
 
    You can open the file in any text editor that can handle tab-delimited files. 
    

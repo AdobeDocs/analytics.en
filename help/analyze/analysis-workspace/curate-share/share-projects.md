@@ -86,16 +86,15 @@ When sharing a link as described in this section, consider the following:
 
 * Recipients who use the link are required to log in to Adobe Analytics before gaining access to the project. 
 
-* If a recipient is not assigned a role and receives a [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share] > [!UICONTROL Get project link]**), they are given a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**.
+* If a recipient is not assigned a role and receives a [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project, they are given a role by default. Admins receive **[!UICONTROL Can edit]** and non-admins receive **[!UICONTROL Can duplicate]**.
 
 To share the project link with users in your organization:
 
-1. Click **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
-   If there are unsaved changes, you are prompted to save your project first. 
+1. Save the project. If there are unsaved changes, you are prompted to save your project before sharing a link.
+
+1. Select **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, then select **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field.  
 
    ![](assets/share-proj-modal.png)
-
-1. Click **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field. 
 
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal website, and so forth. 
 
@@ -116,6 +115,10 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >* The ability to share a project in this way can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a project as described in this section, your Analytics administrator has disabled this ability.
 >
 >* Projects with more than 14 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
+>
+>* Users you share with can view any filters that were applied to the project during [curation](curate.md). 
+> 
+>* Users you share with can change the project date range. The date range you set for the project is shown by default.
 
 To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
 
@@ -146,6 +149,8 @@ To share an Analysis Workspace project with people who don't have access to Adob
 1. Share the link with the people you want to have access to the project. For example, you can paste the link in an email. 
    
    Any person you share the link with can view the Analysis Workspace project.
+
+1. (Optional) You can click the **Generate new link** icon ![Generate link icon](assets/regenerate-link.png) to remove access from users who previously received a link to the project. A new link is generated that you can share with users who you want to access the project. 
 
 1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved.
 
@@ -178,4 +183,4 @@ Here is a video on the topic:
 | What happens if two editors save a project at the same time? | Changes are not merged and the last saved project version will be kept. Analysis Workspace does not currently support live collaboration. |
 | As an admin, what project experience will I see? | Admins placed in a **[!UICONTROL Can duplicate]** or **[!UICONTROL Can view]** role will receive those limited experiences when they open a project. If desired, an Admin can increase their role to **[!UICONTROL Can edit]** at anytime through **[!UICONTROL Components] > [!UICONTROL Projects]**. |
 | What happens if a recipient is placed in one role as an individual and another role as a member of a group? | If a recipient is placed in multiple roles, they will always receive the higher experience. For example, if a recipient is given the **[!UICONTROL Can edit]** role as an individual and the **[!UICONTROL Can view]** role as a member of a group, they will receive a **[!UICONTROL Can edit]** project experience. |
-| What experience does a recipient get if they open a project link? | Recipients receive the role you placed them in the share modal. If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share] > [!UICONTROL Get project link]**), they will be placed into a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**. |
+| What experience does a recipient get if they open a project link? | Recipients receive the role you placed them in the share modal. If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, then select **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field), they will be placed into a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**. |

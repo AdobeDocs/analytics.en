@@ -74,7 +74,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Server-side forwarding FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
       + Traffic {#traffic-variables}
         + [Traffic Variables](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-        + [Enable traffic variable reports](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
         + [Traffic Classifications](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
         + [Custom report descriptions](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
       + Conversion {#conversion-variables}

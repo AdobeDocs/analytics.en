@@ -10,7 +10,7 @@ The 'Page views' metric shows the number of times a given dimension item was set
 
 ## How this metric is calculated
 
-This metric counts all page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)) in a report suite. For dimensions, it includes hits where a dimension item is defined or persisted. It does not include link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+This metric counts all page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)) in a report suite. For dimensions, it includes hits where a dimension item is defined or persisted. It does not include link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)) or data from summary [Data sources](/help/import/data-sources/overview.md).
 
 ## Compare to similar metrics
 

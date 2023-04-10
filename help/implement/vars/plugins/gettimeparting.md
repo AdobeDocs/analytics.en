@@ -6,9 +6,7 @@ exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 ---
 # Adobe plug-in: getTimeParting
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getTimeParting` plug-in allows you to capture the details of the time when any measurable activity takes place on your site. This plug-in is valuable when you want to breakdown metrics by any repeatable division of time over a given date range. For example, you can compare conversion rates between two different days of the week, such as all Sundays vs. all Thursdays. You can also compare periods of the day, such as all mornings vs. all evenings.
 
@@ -18,7 +16,11 @@ Analysis Workspace provides similar, out-of-the-box dimensions that are formatte
 >
 >Version 4.0+ of this plug-in is significantly different than earlier versions. Adobe highly recommends implementing this plug-in "from scratch". Code referencing the plug-in before version 4.0 is not compatible with the current version of this plug-in.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK or Web SDK extension
+
+This plug-in is not yet supported for use within the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -32,7 +34,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getTimeParting
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 

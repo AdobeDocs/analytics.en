@@ -6,13 +6,15 @@ exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 ---
 # Adobe plug-in: getTimeToComplete
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getTimeToComplete` plug-in tracks the time a user takes to complete a process on a site. The "clock" begins when the `start` action is called and ends when the `stop` action is called. Adobe recommends using this plug-in if there is a workflow on the site that takes some time to complete and you would like to know how much time visitors take to complete it. It is unnecessary to use this plug-in if the workflow on your site takes a short period of time (less than 3 seconds) because the granularity is only down to the full second.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK or Web SDK extension
+
+This plug-in is not yet supported for use within the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -26,7 +28,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getTimeToComplete
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 

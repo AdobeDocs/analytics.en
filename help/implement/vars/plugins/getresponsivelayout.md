@@ -6,13 +6,15 @@ exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 ---
 # Adobe plug-in: getResponsiveLayout
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getResponsiveLayout` plug-in lets you track which version of your responsive design-based website a visitor is currently looking at. Adobe recommends using this plug-in if your site uses responsive design and you want to track the version of the site viewed by a visitor. This plug-in is unnecessary if your site does not use responsive design.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK or Web SDK extension
+
+This plug-in is not yet supported for use within the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
 
 Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
@@ -26,7 +28,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getResponsiveLayout
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 

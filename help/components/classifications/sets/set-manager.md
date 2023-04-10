@@ -7,10 +7,6 @@ exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 
 The Classification Set Manager allows you to create, edit or delete classification sets.
 
->[!NOTE]
->
->This feature will be available to all customers who have their report suites migrated to the new Classifications architecture. Please contact Adobe Customer Care or your Account Manager for more information.
-
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]**
 
 Classification Sets consist of **Subscriptions** (Report Suites that this Classification Set applies to) and **Classification Names** (The additional dimensions containing classification data).

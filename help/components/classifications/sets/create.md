@@ -7,10 +7,6 @@ exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 
 You can use the Classification Set Manager to create a Classification Set.
 
->[!NOTE]
->
->This feature will be available to all customers who have their report suites migrated to the new Classifications architecture. Please contact Adobe Customer Care or your Account Manager for more information.
-
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 
 When creating a Classification Set, the following fields are available.

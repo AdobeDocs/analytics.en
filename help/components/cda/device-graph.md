@@ -9,7 +9,7 @@ Cross-Device Analytics can use the Private Graph to stitch data together. The Pr
 
 ## Prerequisites specific to the device graph
 
-If you intend to implement Cross-Device Analytics using the device graph method, the following are required. Work with teams within your organization and your Adobe Account Manager to ensure that you meet all of the following.
+If you intend to implement Cross-Device Analytics using the device graph method, the following are required. Work with teams within your organization and your Adobe Account Team to ensure that you meet all of the following.
 
 >[!WARNING]
 >

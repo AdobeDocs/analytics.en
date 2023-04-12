@@ -2,6 +2,7 @@
 title: Implement Adobe Analytics with AppMeasurement for JavaScript
 description: Learn how to implement Adobe Analytics using JavaScript without a tag management system.
 feature: Implementation Basics
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 ---
 # Implement Adobe Analytics with AppMeasurement for JavaScript
 

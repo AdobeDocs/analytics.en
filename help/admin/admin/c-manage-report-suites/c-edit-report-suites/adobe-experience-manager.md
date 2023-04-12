@@ -2,8 +2,8 @@
 description: You can view Adobe Experience Manager data in Adobe Analytics
 title: View Adobe Experience Manager data in Adobe Analytics
 feature: Admin Tools
+exl-id: 047933a6-b4eb-4fcc-9310-383d15f04ccb
 ---
-
 # View Adobe Experience Manager data in Adobe Analytics
 
 Administrative steps for enabling AEM Assets reporting in Analytics.

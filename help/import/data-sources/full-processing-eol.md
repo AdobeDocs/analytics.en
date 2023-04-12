@@ -1,6 +1,7 @@
 ---
 title: End-of-life for full processing data sources
 description: Learn more about the end-of-life announcement for full processing data sources.
+exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 ---
 # End-of-life for full processing data sources
 

@@ -1,6 +1,7 @@
 ---
 title: Getting started with data sources
 description: Upload example data into a development report suite.
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 ---
 # Getting started with data sources
 

@@ -1,6 +1,7 @@
 ---
 title: Compare implementation methods
 description: See the advantages of each method sending data to Adobe Analytics.
+exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 ---
 # Compare implementation methods
 

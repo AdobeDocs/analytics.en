@@ -2,8 +2,8 @@
 description: You can view Document Cloud data in Adobe Analytics
 title: Configure Document Cloud Analytics
 feature: Admin Tools
+exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
 ---
-
 # Configure Document Cloud with Adobe Analytics
 
 You can enable Document Cloud Analytics to make PDF-specific dimensions and metrics available in your report suite.

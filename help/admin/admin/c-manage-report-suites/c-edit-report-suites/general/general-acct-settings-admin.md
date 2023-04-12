@@ -28,7 +28,7 @@ Here is a video on configuring General Account Settings:
 | Transaction ID Storage | Enables you to use [Transaction ID](/help/import/data-sources/transactionid.md) data sources. |
 | Enable Data Warehouse | Enables the Data Warehouse UI under Analytics > Tools > Data Warehouse. |
 | Zip Option | Lets you specify the zip code instead of using whatever our geo IP lookup produces. |
-| Multi-byte character support | Multibyte character support stores characters in the report suite using UTF-8. Upon receipt, the system converts data from your web page's character set to the UTF-8 character set, so you can use any language in your marketing reports. Contact your Account Manager or Customer Care to change the multibyte character support for an existing report suite. |
+| Multi-byte character support | Multibyte character support stores characters in the report suite using UTF-8. Upon receipt, the system converts data from your web page's character set to the UTF-8 character set, so you can use any language in your marketing reports. Contact your Adobe Account Team or Customer Care to change the multibyte character support for an existing report suite. |
 | Activated | Specifies whether this report suite is activated or not. |
 | Base currency | Lets you specify the base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) for this report suite. |
 | Organization ID | The ID associated with your provisioned Experience Cloud company. This ID is a 24-character alphanumeric string, followed by (and must include) @AdobeOrg. |

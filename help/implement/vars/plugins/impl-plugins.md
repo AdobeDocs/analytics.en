@@ -8,15 +8,13 @@ exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 
 Plug-ins are snippets of code that perform several advanced functions to help your Analytics implementation. These plug-ins extend the capabilities of your JavaScript file to give you more functionality that is not available with a basic implementation. Adobe offers a number of other plug-ins as part of advanced solutions.
 
->[!IMPORTANT]
->
->Plug-ins are provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with any of these plug-ins, including installation or troubleshooting. If you require help with a plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 Adobe offers several ways to install a given plug-in:
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Paste plug-in code using the custom code editor
-1. Paste the plug-in code in your `AppMeasurement.js` file
+* Use the 'Common Analytics Plugins' extension using the Adobe Analytics extension
+* Paste plug-in code using the custom code editor
+* Paste the plug-in code in your `AppMeasurement.js` file
 
 Each organization has different implementation needs, so you can decide how you want to include them in your implementation. Make sure that you meet the following criteria when including the code on your site:
 

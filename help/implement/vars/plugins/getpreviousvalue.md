@@ -6,15 +6,32 @@ exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 ---
 # Adobe plug-in: getPreviousValue
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `getPreviousValue` plug-in allows you to set a variable to a value set on a previous hit. This plug-in is not necessary if your implementation contains all desired values in the current hit.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe offers an extension that allows you to use most commonly-used plug-ins with the Web SDK.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click **[!UICONTROL Tags]** on the left, then click the desired tag property.
+1. Click **[!UICONTROL Extensions]** on the left, then click the **[!UICONTROL Catalog]** tab
+1. Locate and install the **[!UICONTROL Common Web SDK Plugins]** extension.
+1. Click **[!UICONTROL Data Elements]** on the left, then click the desired data element.
+1. Set the desired data element name with the following configuration:
+    * Extension: Common Web SDK Plugins
+    * Data Element: `getPreviousValue`
+1. Set the desired parameters on the right.
+1. Save and publish the changes to the data element.
+
+## Install the plug-in manually implementing the Web SDK
+
+This plug-in is not yet supported for use within a manual implementation of the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
@@ -26,11 +43,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize getPreviousValue
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.

@@ -18,6 +18,6 @@ Custom events are calculated differently depending on their type. You can check 
 * **Numeric events**: Sums the numeric value assigned to the event in the `events` variable.
 * **Currency events**: Applies currency conversion against that day's exchange rate, then sums the numeric value assigned to each hit in the `events` variable.
 
-The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your organization's account manager if you are not sure how many custom events are available to you.
+The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your Adobe Account Team if you are not sure how many custom events are available to you.
 
 Adobe strongly recommends that you record how you use each event in your organization's [solution design document](/help/implement/prepare/solution-design.md).

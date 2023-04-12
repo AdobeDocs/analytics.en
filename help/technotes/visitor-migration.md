@@ -8,7 +8,11 @@ exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 ---
 # Visitor migration
 
-Visitor migration is a process where the visitor ID cookie is migrated from one domain to another.
+>[!NOTE]
+>
+>If you have already implemented Experience Cloud Visitor ID Service then Grace Period is not applicable for you and should not be enabled. 
+
+Visitor migration is a process where the visitor ID cookie(s_vi) is migrated from one domain to another.
 
 Visitor migration lets you preserve visitor identification cookies when changing data collection domains. Data collection domains might change for the following reasons:
 

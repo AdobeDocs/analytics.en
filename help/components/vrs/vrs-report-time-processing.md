@@ -49,33 +49,34 @@ The following dimensions and metrics are not supported with Report Time Processi
 * **Analytics for Target**
 * **Analytics for Advertising Cloud dimensions/metrics**
 * **Counter eVars**
-* **Days Before First Purchase**
-* **Days Since Last Purchase**
-* **Days Since Last Visit**
+* [**Days Before First Purchase**](/help/components/dimensions/days-before-first-purchase.md)
+* [**Days Since Last Purchase**](/help/components/dimensions/days-since-last-purchase.md)
+* [**Days Since Last Visit**](/help/components/dimensions/days-since-last-visit.md)
 * **Entry Page Original**
 * **Linear allocation eVars**
 * **List Vars**
-* **Marketing Channels dimensions**
-* **Original Referring Domain**
-* **Return Frequency**
-* **Single Access**
+* [**Marketing Channels dimensions**](/help/components/dimensions/marketing-channel.md)
+* [**Original Referring Domain**](/help/components/dimensions/original-referring-domain.md)
+* [**Return Frequency**](/help/components/dimensions/return-frequency.md)
+* [**Single Access**](/help/components/metrics/single-access.md)
 * **Transaction ID Data Sources**
-* **Visit Number**
+* [**Visit Number**](/help/components/dimensions/visit-number.md)
 
 ## Impacted dimensions and metrics
 
 Below is a list of dimensions and metrics that are impacted depending on the Report Time Processing settings selected:
 
 * If "Prevent Background Hits from starting a New Visit" is enabled, the following changes occur. See [Context-aware sessionization](vrs-mobile-visit-processing.md) for more information.
-  * **Bounces/Bounce Rate:** Background hits that are not followed by a foreground hit are not considered a bounce and do not contribute to the bounce rate.
-  * **Time Spent Seconds Per Visit:** Only visits that include foreground hits contribute to this metric.
+  * [**Bounces**](/help/components/metrics/bounces.md) / [**Bounce Rate:**](/help/components/metrics/bounce-rate.md) Background hits that are not followed by a foreground hit are not considered a bounce and do not contribute to the bounce rate.
+  * [**Time Spent Seconds Per Visit:**](/help/components/metrics/time-spent-per-visit.md) Only visits that include foreground hits contribute to this metric.
   * **Time Spent Per Visit:** Only visits that include foreground hits contribute to this metric.
-  * **Entry/Exit Dimensions and Metrics:** Only entries and exits from visits with foreground hits appear in this dimension.
-  * **Unique Visitors Metric:** Unique Visitors does not include visitors who had only background hits in the reporting date range.
-* **Visits:** Visits reflects whatever settings the virtual report suite has configured, which can be different from the base report suite.
+  * [**Entry metric**](/help/components/metrics/entries.md) / [**Exit metric:**](/help/components/metrics/exits.md) Only entries and exits from visits with foreground hits appear in this dimension.
+  * [**Entry dimension**](/help/components/dimensions/entry-dimensions.md) / [**Exit dimensions:**](/help/components/dimensions/exit-dimensions.md) Only entries and exits from visits with foreground hits appear in this dimension.
+  * [**Unique Visitors Metric:**](/help/components/metrics/unique-visitors.md) Unique Visitors does not include visitors who had only background hits in the reporting date range.
+* [**Visits:**](/help/components/metrics/visits.md) Visits reflects whatever settings the virtual report suite has configured, which can be different from the base report suite.
 * **Serialized Events with Event IDs:** Events that use Event Serialization with an event ID are only deduplicated for events that occur within the reporting date range for a visitor. These events are not deduplicated across all dates or visitors globally due to Report Time Processing date windowing.
-* **Purchases/Revenue/Orders/Units:** When the purchase ID is used, these metrics are only deduplicated for duplicate purchase IDs that occur within the reporting date range for a visitor rather than across all date or visitors globally due to Report Time Processing date windowing.
-* **Non-merchandising eVars/reserved eVars:** Values set in an eVar persist only if the value was set within the reporting date range due to Report Time Processing date windowing. In addition, time-based expirations can expire an hour early or an hour late if the persistence spans a daylight savings time change.
-* **Merchandising eVars/reserved eVars:** See above. In addition, for conversion syntax, where the binding is set to "any event," "any hit" is used instead.
-* **Hit Type:** This dimension specifies whether a hit is foreground or background.
+* **Purchases** / [**Revenue**](/help/components/metrics/revenue.md) / [**Orders**](/help/components/metrics/orders.md) / [**Units:**](/help/components/metrics/units.md) When the purchase ID is used, these metrics are only deduplicated for duplicate purchase IDs that occur within the reporting date range for a visitor rather than across all date or visitors globally due to Report Time Processing date windowing.
+* [**Non-merchandising eVars**](/help/components/dimensions/evar.md) / **reserved eVars:** Values set in an eVar persist only if the value was set within the reporting date range due to Report Time Processing date windowing. In addition, time-based expirations can expire an hour early or an hour late if the persistence spans a daylight savings time change.
+* [**Merchandising eVars**](/help/components/dimensions/evar-merchandising.md) / **reserved eVars:** See above. In addition, for conversion syntax, where the binding is set to "any event," "any hit" is used instead.
+* [**Hit Type:**](/help/components/dimensions/hit-type.md) This dimension specifies whether a hit is foreground or background.
 * **Dimensions with (Low-traffic) or "Uniques Exceeded":** The (Low-traffic) line item is determined slightly differently when using Report Time Processing, and is not guaranteed to match what is observed when reporting on the base Report Suite. Dimension line items that are not part of Low-traffic are not guaranteed to represent 100% of the data for that line item. These differences may become more pronounced the higher the number of unique values exist in a dimension.

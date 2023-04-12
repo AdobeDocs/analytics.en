@@ -20,7 +20,6 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | **Data Dictionary in Analysis Workspace** | The Data Dictionary helps both users and administrators keep track of, manage, and better understand the components (dimensions, metrics) in their Analytics environment. [Learn more](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | March 15, 2023 | March 29, 2023 |
 | **Link sharing for projects (no login required)** - Private beta access only | <p>You can now share read-only links to Analysis Workspace projects with people who don't have access to Adobe Analytics. You can share project links with people outside of your organization, or those within your organization who are not provisioned for Adobe Analytics. [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>To join the private beta, contact your Adobe Account Team.</p> | April 26, 2023 | June 2023 |
 
-
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics

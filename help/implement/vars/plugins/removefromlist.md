@@ -21,7 +21,7 @@ This plug-in is not yet supported for use within the Web SDK.
 
 ## Install the plug-in using the Adobe Analytics extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
@@ -37,7 +37,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.

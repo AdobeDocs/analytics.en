@@ -1,6 +1,7 @@
 ---
 title: Implement Adobe Analytics using the Adobe Experience Platform Mobile SDK
 description: Use the Mobile SDK extension in Adobe Experience Platform Data Collection to send data to Adobe Analytics.
+exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Mobile SDK
 
@@ -131,6 +132,3 @@ A high-level overview of the implementation tasks:
 -   [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)
 
 -   [Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/)
-
-
-

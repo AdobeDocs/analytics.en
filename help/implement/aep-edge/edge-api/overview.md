@@ -1,6 +1,7 @@
 ---
 title: Implement Adobe Analytics using the Adobe Experience Platform Edge API
 description: Use the Adobe Experience Platform Edge API to send data to Adobe Analytics.
+exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Edge API
 

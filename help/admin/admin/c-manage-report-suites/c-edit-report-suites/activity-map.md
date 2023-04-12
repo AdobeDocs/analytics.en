@@ -2,8 +2,8 @@
 description: You can view Activity map data in Adobe Analytics
 title: View Activity Map data in Adobe Analytics
 feature: Admin Tools
+exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
 ---
-
 # View Activity Map data in Adobe Analytics
 
 Administrative steps for enabling Activity Map reporting in Analytics.

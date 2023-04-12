@@ -2,8 +2,8 @@
 description: You can view Document Cloud data in Adobe Analytics
 title: Configure Document Cloud reporting
 feature: Admin Tools
+exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
 ---
-
 # Configure Document Cloud reporting
 
 You can configure PDF-specific dimensions and metrics to be available in Adobe Analytics. 
@@ -46,6 +46,4 @@ When PDF reporting is properly configured, the following dimensions and metrics 
 
 1. On the Adobe Document Cloud Management page, select [!UICONTROL **Enable PDF Reports**].
 
-1. To configure Adobe Document Cloud to transmit data to Adobe Analytics, use the [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html). 
-
-
+1. To configure Adobe Document Cloud to transmit data to Adobe Analytics, use the [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html).

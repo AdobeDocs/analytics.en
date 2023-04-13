@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **April 2023** | |
+| 2 new endpoint guides for the Adobe Analytics 2.0 API |<ul><li>[Analytics Dimensions API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | **March 2023** | |
 | Web SDK support for Activity Map | Updated [Implement Adobe Analytics](/help/implement/home.md) and [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Traffic variables (props) overview | Added sections and step-by-step procedures to clarify and improve article content. Merged content from an article titled, "Enable traffic variable reports" and removed that article. See [Traffic variables (props) overview](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |

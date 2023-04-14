@@ -36,7 +36,6 @@ Rolling date ranges in segments:
 You can create different types of segments in Analysis Workspace:
 
 * [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [Ad hoc segments](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * Regular component-list segments that you create in the Segment Builder and that end up in the segment library (see below)
 
 ### Create component-list segments {#section_3B07D458C43E42FDAF242BB3ACAF3E90}

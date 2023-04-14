@@ -9,11 +9,13 @@ exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 
 In Analysis Workspace, a Freeform Table is the foundation for interactive data analysis. You can drag and drop a combination of [components](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) into rows and columns to create a custom table for your analysis. As each component is dropped, the table updates immediately, so you can quickly analyze and dig deeper.
 
-To illustrate, you start with an empty Freeform Table.
+## Build a simple Freeform table
+
+You start with an empty Freeform Table.
 
 ![Empty Freeform Table](assets/freeform-table-1.png)
 
-If you drop the **[!UICONTROL **Visits**]** metric on the **[!UICONTROL **Drop a metric here (or any other component)**]**, the Freeform Table automatically populates with visits per day for the period you selected.
+If you drop the **[!UICONTROL **Visits**]** metric on the **[!UICONTROL **Drop a metric here (or any other component)**]**, the Freeform Table automatically populates with visits per day for the calendar period you selected.
 
 ![Visits Freeform Table](assets/freeform-table-2.png)
 
@@ -21,7 +23,7 @@ If you then drop the **[!UICONTROL **Page**]** dimension to replace the **[!UICO
 
 ![Visits by Page Freeform Table](assets/freeform-table-3.png)
 
-And you can then break down, for example, the **[!UICONTROL **category:5**]** page by dropping the **[!UICONTROL **Marketing Channel**]** dimension on the **[!UICONTROL **category:5**]** row.
+You can then break down, for example, the **[!UICONTROL **category:5**]** page by dropping the **[!UICONTROL **Marketing Channel**]** dimension on the **[!UICONTROL **category:5**]** row.
 
 ![Visits Breakdown by Page Freeform Table](assets/freeform-table-4.png)
 

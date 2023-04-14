@@ -50,7 +50,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + Segments {#segments}
       + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
-      + [Ad hoc segments](analysis-workspace/components/segments/ad-hoc-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
       + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

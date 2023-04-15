@@ -9,30 +9,26 @@ exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-This guide provides product documentation and self-help for the following Adobe Analytics reporting and analysis tools:
+The Analytics Tools Guide includes information about product features, use cases, task instructions, and best practices for the following Analytics tools:
 
-* **[!UICONTROL Analysis Workspace]:** The foremost feature in Adobe Analytics. Workspace provides a canvas where you can drag components to meet reporting needs.
-* **[!UICONTROL Adobe Analytics dashboards]:** This mobile app allows users mobile access to create intuitive scorecards with key metrics, more detailed breakdowns and trended reports.
-* **[!UICONTROL Activity Map]:** A browser plug-in that displays an overlay on your site showing which elements were clicked the most.
-* **[!UICONTROL Report Builder]:** An Excel add-in that allows you to retrieve Analytics data and place it directly into a workbook.
-* **[!UICONTROL Reporting API]:** Make report queries directly to Adobe's servers, and get responses for use in your own customer reporting tools.
-* **[!UICONTROL Reports & Analytics]:** A tool with dozens of pre-built reports. Adobe recommends using Analysis Workspace for most reporting needs. **Note:** Reports & Analytics will be [end-of-lifed](https://www.adobe.com/go/analytics_rnaeol_en) on December 31, 2023.
+| Tool      | Description    |
+|-----------|----------------|
+| **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)** | Analysis Workspace is a flexible browser tool that allows you to quickly build analyses and share insights. Using the drag-and-drop interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share and schedule projects with anyone in your organization. |
+| **[Mobile Scorecards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)** | Mobile scorecards allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Curators add visualizations to mobile scorecard projects and share them with executives.  <br>Scorecards provide a way to target and measure KPIs and provide a clear indication of how well organizations are working to achieve their targets. |
+| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages. <br>Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors." |
+| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** | Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from Adobe Analytics data that are inserted into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |
+| **[Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics APIs allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics. |
+| **[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports & Analytics is a tool with dozens of pre-built reports and visualizations. These are now available within Analysis Workspace. **Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Adobe recommends using Analysis Workspace for most reporting needs.** For additional information, see [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). |
 
-Here is a video overview of Adobe Analytics:
+To learn about Adobe Analytics basics, check out the Intro to Adobe Analytics - Skill Builder Webinar video. The video walks you through the basics of how data is captured, how data is sent to Adobe Analytics, and what visualization capabilities you can use within Adobe Analytics. The video provides a foundation for you to build, deploy, collect, and interpret data...allowing you to provide actionable insights and recommendations based on the collected data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## Key Analytics Tools articles
+For questions about which tool to use, see [Which Adobe Analytics tool should I use?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 
-* [Adobe Analytics dashboards - Overview](/help/analyze/mobile-app/home.md)
-* [Analysis Workspace Getting Started](analysis-workspace/home.md)
-* [Which Adobe Analytics tool should I use?](/help/analyze/get-started/which-analytics-tool.md)
-* [Report Builder Getting Started](report-builder/home.md)
-* [Activity Map Getting Started](activity-map/activity-map.md)
+## Analytics user guides
 
-## More Analytics user guides
-
-[Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
+For detailed information about the latest features and how to use them, see [Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 
@@ -40,3 +36,4 @@ Here is a video overview of Adobe Analytics:
 * [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
+

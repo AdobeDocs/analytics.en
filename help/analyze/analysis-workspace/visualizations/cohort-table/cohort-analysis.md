@@ -17,7 +17,6 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Shift marketing budget at exactly the right time in the customer lifecycle.
 * Recognize when to end a trial or an offer, in order to maximize value.
 * Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
-* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
 [!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 

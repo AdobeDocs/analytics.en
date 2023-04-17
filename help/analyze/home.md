@@ -1,6 +1,6 @@
 ---
 title: Analytics Tools Guide
-description: Product documentation and self-help for Analysis Workspace, Adobe Analytics dashboards, Activity Map, Report Builder, Reporting API, and Reports & Analytics.
+description: Product documentation and self-help for Analysis Workspace, Analytics dashboards (mobile app), Activity Map, Report Builder, Reporting API, and Reports & Analytics.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
@@ -20,7 +20,7 @@ The Analytics Tools Guide includes information about product features, use cases
 | **[Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics APIs allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics. |
 | **[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports & Analytics is a tool with dozens of pre-built reports and visualizations. These are now available within Analysis Workspace. **Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Adobe recommends using Analysis Workspace for most reporting needs.** For additional information, see [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). |
 
-To learn about Adobe Analytics basics, check out the *Intro to Adobe Analytics - Skill Builder Webinar* video. The video walks you through the basics of how data is captured, how data is sent to Adobe Analytics, and what visualization capabilities you can use within Adobe Analytics. The video provides a foundation for you to build, deploy, collect, and interpret data...allowing you to provide actionable insights and recommendations based on the collected data.
+To learn about Adobe Analytics basics, check out the *Intro to Adobe Analytics - Skill Builder Webinar* video below. The video walks you through the basics of how data is captured, how data is sent to Adobe Analytics, and what visualization capabilities you can use within Adobe Analytics. The video provides a foundation for you to build, deploy, collect, and interpret data...allowing you to provide actionable insights and recommendations based on the collected data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -28,7 +28,7 @@ For questions about which tool to use, see [Which Adobe Analytics tool should I 
 
 ## Analytics user guides
 
-For detailed information about the latest features and how to use them, see [Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
+For detailed information about Adobe Analytics features and how to use them, see [Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## Key Analytics resources
 

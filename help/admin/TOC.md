@@ -165,6 +165,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Server call usage FAQ](admin/c-server-call-usage/overage-faq.md)
   + User and Product Management (Legacy) {#user-product-management}
     + [User and Product Management (Legacy)](admin/user-management2/user-management.md)
+    + [Transfer user assets or set account expirations](admin/user-management2/users-assets.md)
     + Migrate users to Adobe Admin Console {#migrate-users}
       + [Analytics User Migration to the Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
       + [Migrate Analytics user accounts for Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)

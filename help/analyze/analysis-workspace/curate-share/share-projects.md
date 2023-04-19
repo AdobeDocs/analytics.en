@@ -132,6 +132,10 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
 1. Enable the **[!UICONTROL Link is active]** option if it is not already enabled. 
 
+   Selecting this option creates a link to the project that can be shared with anyone. You can disable access to the project at any time by disabling this option. 
+   
+   The owner of the project is also the owner of this link. Link ownership can be transferred to another user only when project ownership is transferred, as described in [Transfer user assets or set account expirations](/help/admin/admin/user-management2/users-assets.md) in the Analytics Admin guide.
+
 1. Choose whether to enable the following security option (this option can be controlled by your Analytics administrator): 
 
    * **[!UICONTROL Require Experience Cloud authentication]:** 

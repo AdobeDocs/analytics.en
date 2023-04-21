@@ -17,7 +17,7 @@ Scheduled reports are processed on servers that likely do not share time zones a
 
 Scheduled reports are also processed on servers that likely do not share date syntax. For example, `7/1/YYYY` can refer to July 1 or January 7 depending on your country or region. Using the `DATEVALUE()` function on this date would result in differing serial values depending on the computer that executes it.
 
-As an alternative to using these Excel functions, Adobe highly recommends using date ranges within Report Builder requests. On the first page of the request wizard, select **[!UICONTROL Preset Dates]** in the dropdown, then under Commonly Used Dates, select **[!UICONTROL Today]** or another desired date range. This setting takes the time of the report suite at the time it was run, and not the time of the server processing the request.
+As an alternative to using these Excel functions, Adobe highly recommends using date ranges within Report Builder requests. On the first page of the request wizard, select **[!UICONTROL Preset Dates]** in the drop-down, then under Commonly Used Dates, select **[!UICONTROL Today]** or another desired date range. This setting takes the time of the report suite at the time it was run, and not the time of the server processing the request.
 
 ## How large and complex can I make my workbooks?
 

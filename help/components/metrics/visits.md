@@ -39,7 +39,7 @@ If a visitor performs any of these actions, a new visit does **not** start as lo
 
 You can change the definition of a visit to a time other than 30 minutes.
 
-* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout using the [!UICONTROL Visit timeout] dropdown. You can change visit timeout to any reasonable value.
+* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout using the [!UICONTROL Visit timeout] drop-down list. You can change visit timeout to any reasonable value.
 * For standard report suites, contact Customer Care to request visit length be shortened for a given report suite. Visit length for standard report suites cannot exceed 30 minutes, so you can only shorten it.
 
 ## Visits that span a date boundary

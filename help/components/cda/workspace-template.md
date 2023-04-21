@@ -23,7 +23,7 @@ An Analysis Workspace project is created that contains several panels. At the to
   * Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
   * Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
   * Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
-* **People-based segments**: Contains a segment dropdown that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
+* **People-based segments**: Contains a segment drop-down list that allows you to view device specific data. This panel encourages experimentation with segments to see how including or excluding device types affect reports.
 * **Analyzing the cross-device journey**: Provides flow and fallout reports based on device type.
 * **Cross-device attribution**: Combine the features of Journey IQ and Attribution IQ together.
 * **Other tips and tricks**: Helpful topics around CDA that lets you get more out of using it.

@@ -10,7 +10,7 @@ Since bot reporting is separated from the rest of your report suite data, this m
 
 * [Bot name](../dimensions/bot-name.md)
 * [Page](../dimensions/page.md)
-* Time-based dimensions (for example, [Day](day.md), [Week](week.md), or [Month](month.md)).
+* Time-based dimensions (for example, [Day](../dimensions/day.md), [Week](../dimensions/week.md), or [Month](../dimensions/month.md)).
 
 Using any other dimension with this metric does not return data.
 

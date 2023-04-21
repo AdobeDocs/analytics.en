@@ -1,6 +1,6 @@
 ---
 title: Bot name
-description: 
+description: The name of the bot that matched Bot rules.
 ---
 # Bot name
 

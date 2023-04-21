@@ -96,12 +96,10 @@ This same concept applies to all dimensions; only dimension items that appear wi
 
 Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all dynamic drop-down filters for that panel.
 
-Dynamic drop-downs are only available for dimensions; they are not available for metrics, segments, or date ranges.
-
 To create a dynamic drop-down filter:
 
 * Drag and drop a single dimension or date range into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics or segments.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
 
 ## Right-click menu {#right-click}
 

@@ -98,7 +98,7 @@ Manual selection of dimension items is available if you anticipate a certain dim
 
 To create a dynamic drop-down filter:
 
-* Drag and drop a single dimension or date range into the panel dropzone **while holding `[Shift]`**.
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
 * Dynamic drop-down filters are not available for metrics, segments, or date ranges.
 
 ## Right-click menu {#right-click}

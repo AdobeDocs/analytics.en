@@ -2,7 +2,7 @@
 title: Bot page views
 description: The number of page views that matched bot rules.
 ---
-# Bot page viewws
+# Bot page views
 
 The 'Bot page views' metric shows the number of page hits that matched [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
@@ -10,7 +10,7 @@ Since bot reporting is separated from the rest of your report suite data, this m
 
 * [Bot name](../dimensions/bot-name.md)
 * [Page](../dimensions/page.md)
-* Time-based dimensions (for example, [Day](../dimensions/day.md), [Week](../dimensions/week.md), or [Month](../dimensions/month.md)).
+* Time-based dimensions (for example, [Day](../dimensions/day.md), [Week](../dimensions/week.md), or [Month](../dimensions/month.md))
 
 Using any other dimension with this metric does not return data.
 

@@ -4,14 +4,14 @@ description: The name of the bot that matched Bot rules.
 ---
 # Bot name
 
-The 'Bot name' dimension shows the names of the bots detected using [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). These rules can be default IAB rules, or custom bot rules that your organization configures. It is helpful in cases where you want to learn more about what bots are visiting your site, or which bots generate the most traffic.
+The 'Bot name' dimension shows the names of bots detected using [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). These rules can be default IAB rules, or custom bot rules that your organization configures. It is helpful in cases where you want to learn more about what bots are visiting your site, or which bots generate the most traffic.
 
 Hits that match [!UICONTROL Bot rules] are automatically filtered out of all of Analytics reporting with exception to this dimension, [Bot occurrences](../metrics/bot-occurrences.md), and [Bot page views](../metrics/bot-page-views.md). You can use this dimension and these two metrics to see what bot data is excluded from the rest of your reports.
 
 Since bot reporting is separated from the rest of your report suite data, only the following dimensions and metrics are supported with this dimension:
 
 * [Page](page.md)
-* Time-based dimensions ([Day](day.md), [Week](week.md), [Month](month.md), etc.)
+* Time-based dimensions (for example, [Day](day.md), [Week](week.md), or [Month](month.md))
 * [Bot occurrences](../metrics/bot-occurrences.md)
 * [Bot page views](../metrics/bot-page-views.md)
 

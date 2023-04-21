@@ -14,14 +14,14 @@ If your organization is adamant about having historical data ported over to Adob
 
 For moving over historical data we recommend using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) which can bring in any omni-channel data source.
 
-**I'm used to a segmentation dropdown in many of my reports. How can I recreate that in [!UICONTROL Analysis Workspace]?**
+**I'm used to a segmentation drop-down list in many of my reports. How can I recreate that in [!UICONTROL Analysis Workspace]?**
 
-Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation dropdown. While in a workspace project:
+Drop-down filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation drop-down list. While in a workspace project:
 
-1. Use ctrl+click (Windows) or cmd+click (Mac) on the components that you would like to include in the dropdown. You are not limited to just segments; any component can be included in a dropdown filter.
+1. Use ctrl+click (Windows) or cmd+click (Mac) on the components that you would like to include in the drop-down filter. You are not limited to just segments; any component can be included in a drop-down filter.
 2. Drag the group of components into the workspace area labeled 'Drop a Segment Here'. Before letting go, hold Shift.
 
-Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
+Users accessing this [!UICONTROL Workspace] project can now use this drop-down filter to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
 **I'm used to clicking on a dimension item to see a drilldown. How can I replicate that easy workflow in Analysis Workspace?**
 

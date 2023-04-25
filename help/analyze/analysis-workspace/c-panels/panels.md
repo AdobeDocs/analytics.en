@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 ---
 # Panels overview
 
-A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top left icon in Workspace or a [blank panel](blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case.
+A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top-left icon in Workspace or a [blank panel](blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case.
 
 ## Panel types
 
@@ -86,9 +86,9 @@ Select one of the options from the drop-down list to change the data in the pane
 
 ![](assets/create-dropdown.png)
 
-Right clicking a drop-down filter provides the following options:
+Right-clicking a drop-down filter provides the following options:
 
-* **[!UICONTROL Add label]**: When you add a drop-down filter to a project, a label is automatically set to the component name. If you delete the label, you can re-add it with this option.
+* **[!UICONTROL Add label]**: When you add a drop-down filter to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Delete label]**: Remove the text above a drop-down filter.
 * **[!UICONTROL Delete drop-down filter]**: Removes the drop-down filter from the panel. 
 
@@ -106,9 +106,9 @@ To create a dynamic drop-down filter:
 
 * Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
 * Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-Right clicking a dynamic drop-down filter provides the same options as static drop-down filters.
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
 
 ## Right-click menu {#right-click}
 
@@ -120,8 +120,8 @@ The following settings are available:
 
 | Setting | Description |
 | --- | --- |
-| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project.|
-| Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a completely different project.|
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a different project.|
+| Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a different project.|
 | Apply Report Suite to all panels | Lets you apply the active panel report suite to all panels in the project.|
 | Duplicate Panel | Makes an exact duplicate of the current panel, which you can then modify. |
 | Collapse/Expand all Panels | Collapses and expands all project panels. |

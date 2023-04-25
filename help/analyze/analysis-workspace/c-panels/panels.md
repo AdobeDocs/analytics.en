@@ -81,6 +81,7 @@ To create a static drop-down filter:
 * For drop-down filters using [!UICONTROL Dimension items], click the right-arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
 * For drop-down filters using other components such as metrics, segments, or date ranges, select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**.
 * Drop-down filters that use multiple component types are not supported. For example, you cannot mix dimension items and metrics in the same drop-down filter. However, you can create a separate drop-down filter for each component type.
+* Right click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
 Select one of the options from the drop-down list to change the data in the panel. You can also choose to not filter any in the panel data by selecting **[!UICONTROL No filter]**.
 
@@ -100,6 +101,7 @@ To create a dynamic drop-down filter:
 
 * Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
 * Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
 ## Right-click menu {#right-click}
 

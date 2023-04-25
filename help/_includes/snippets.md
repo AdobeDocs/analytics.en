@@ -44,6 +44,16 @@
 
    {style="table-layout:auto"}
 
+## Components sort options {#components-sort-options}
+
+   |Option | Function |
+   |---------|----------|
+   | [!UICONTROL **Recommended**] | Sorts components with those that are recommended at the top of the list. Components are recommended based on the following factors: <ul><li>Usage throughout your organization</li><li></li></ul> |
+   | [!UICONTROL **Alphabetical**] | Sorts components alphabetically. |
+   | [!UICONTROL **Categorical**] | Sorts components according to component type (dimension, metric, segment, date range). |
+
+   {style="table-layout:auto"}
+
 ## Release phase Limited Testing {#release-limited-testing}
 
 >[!AVAILABILITY]

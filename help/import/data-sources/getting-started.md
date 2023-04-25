@@ -13,15 +13,15 @@ You can follow these steps to easily upload sample data into a development repor
 
 1. Log in to Adobe Analytics through [https://experience.adobe.com](https://experience.adobe.com).
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL All Admin]** > **[!UICONTROL Data sources]**.
-1. Select a development report suite using the dropdown in the top right.
+1. Select a development report suite using the drop-down list in the top right.
 1. Click the **[!UICONTROL Create]** button in the top left.
 1. Under [!UICONTROL Select Category], choose "[!UICONTROL Generic]", and under [!UICONTROL Select Type], choose "[!UICONTROL Generic Data Source (Summary Data Only)]".
 1. Click **[!UICONTROL Activate]**. A popup window opens revealing the [!UICONTROL Data Source Activation Wizard].
    1. Step 1: Give the data source a name, and click the disclaimer check box.
    1. Step 2: This step had more use in previous versions of Adobe Analytics. Click a check box, then type any value in the text field next to it.
-   1. Step 3: Choose the metric to include in your data source template file. Select "Event 1" from the dropdown.
+   1. Step 3: Choose the metric to include in your data source template file. Select "Event 1" from the drop-down list.
    1. Step 4: This step had more use in previous versions of Adobe Analytics. Click a check box, then type any value in the text field next to it.
-   1. Step 5: Choose the dimension to include in your data source template file. Select "eVar1" from the dropdown.
+   1. Step 5: Choose the dimension to include in your data source template file. Select "eVar1" from the drop-down list.
    1. Step 6: Review the summary, showing the dimensions and metrics that are included in the template file.
    1. Step 7: Click the **[!UICONTROL Download]** button to download the data sources template file. Also note the login credentials to the FTP site, as they are used shortly.
 1. The data source is now created; the next step is to give it data to process. Open the downloaded file in your desired text editor.
@@ -29,8 +29,8 @@ You can follow these steps to easily upload sample data into a development repor
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Enter in several rows of data, separating each entry by a tab. Do not use spaces or commas to separate values.
@@ -40,10 +40,10 @@ You can follow these steps to easily upload sample data into a development repor
 
     ```text
     # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-    #	eVar1	event1
-    Date	Evar 1	Event 1
-    09/07/YYYY/11/23/00	Data source example value	3
-    09/07/YYYY/15/59/00	Another data source value	18
+    #    eVar1    event1
+    Date    Evar 1    Event 1
+    09/07/YYYY/11/23/00    Data source example value    3
+    09/07/YYYY/15/59/00    Another data source value    18
     ```
 
 1. Save the file. You can optionally give it a different file name, if desired. Once the file is saved, you can close the text editor.

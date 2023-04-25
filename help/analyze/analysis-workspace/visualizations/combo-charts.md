@@ -84,7 +84,7 @@ Click the gear icon on the top right of a combo chart to change its settings.
 | Setting | Definition |
 | --- | --- |
 | **[!UICONTROL Visualization type]** | Lets you switch to another visualization type. |
-| **[!UICONTROL Granularity]** | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. |
+| **[!UICONTROL Granularity]** | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Percentages]** | Displays values in percentages. |
 | **[!UICONTROL Legend visible]** | Lets you hide the detailed legend text for the Combo charts visualization. |

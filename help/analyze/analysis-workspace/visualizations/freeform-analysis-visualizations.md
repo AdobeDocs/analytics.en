@@ -62,7 +62,7 @@ You can customize settings for all visualizations that you create. For more info
 | Setting | Description |
 | --- | --- |
 | Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. This change also applies to the data source table. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
 | Percentages | Displays values in percentages. |
 | 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
 | Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |

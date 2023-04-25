@@ -37,7 +37,7 @@ Make sure that you meet all the following requirements before using data feeds.
    * Username: Enter the username to log in to the FTP site.
    * Password and confirm password: Enter the password to log in to the FTP site.
 7. Fill out [!UICONTROL Data Column Definitions].
-   * Select the latest 'All Adobe Columns' template in the dropdown.
+   * Select the latest 'All Adobe Columns' template in the drop-down list.
    * Compression format: Gzip
    * Packaging type: Multiple files
    * Manifest: No File

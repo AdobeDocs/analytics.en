@@ -6,7 +6,7 @@ exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 ---
 # Regional Data Collection
 
-The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interactions between your visitors and Adobe occur as close to your visitors as possible. Once data is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC). After processing, the data is available to products in the Adobe Experience Cloud.
+The Adobe Experience Cloud uses Regional Data Collection (RDC) so that interactions between your visitors and Adobe occur as close to your visitors as possible. Once data is collected regionally at a Data Collection Center (DCC), it is forwarded over a secure connection to a Data Processing Center (DPC). After processing, the data is available to products in the Adobe Experience Cloud. To change your RDC Type please contact Adobe Customer Care.
 
 The regional data collection process uses the following steps:
 
@@ -33,7 +33,7 @@ RDC currently includes the following locations (subject to change):
 
 >[!NOTE]
 >
->If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
+>If your Analytics image request is sent to the `adobedc.net`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. You can determine this if you see either endpoint in the URL of your requests.
 
 ## First-party data collection
 

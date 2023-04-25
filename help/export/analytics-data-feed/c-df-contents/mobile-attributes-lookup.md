@@ -8,9 +8,9 @@ exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
 
 Mobile attributes show properties of the mobile device in the hit. This file appears when:
 
-* Dynamic lookups are enabled. A support delegate in your organization can contact Customer Care with the desired feed ID to enable dynamic lookups.
+* The data feed is configured to send mobile attributes. This setting is not available in the product UI, and instead must be enabled by Customer Care. If you want to use mobile attributes in a data feed, contact Customer Care with the desired feed ID and request to enable "Dynamic lookups".
 * The `mobile_id` column is included.
-* The `user_agent` column is excluded. This exclusion is required due to licensing agreements with DeviceAtlas.
+* The columns `user_agent`, `ch_hdr`, and `ch_js` are **excluded**. These exclusions are required due to licensing agreements with DeviceAtlas.
 
 Download [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv), or reference the list here:
 

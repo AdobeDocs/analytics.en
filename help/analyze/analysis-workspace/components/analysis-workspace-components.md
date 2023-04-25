@@ -130,6 +130,6 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
    |Option | Function |
    |---------|----------|
-   | [!UICONTROL **Recommended**] | Show only components that are marked as Approved by an administrator. |
+   | [!UICONTROL **Recommended**] | Shows recommended components based on the content of your project. |
    | [!UICONTROL **Alphabetical**] | Sorts components alphabetically. |
    | [!UICONTROL **Categorical**] | Sorts components according to component type (dimension, metric, segment, date range). |

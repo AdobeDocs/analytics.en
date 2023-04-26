@@ -58,7 +58,7 @@ To create a calculated metric:
 
 1. Click the **+** icon near the metric list to open the [!UICONTROL Calculated Metric Builder].
 2. Give your calculated metric a name and specify a format.
-3. Drag metric components to into the definition area, and use the dropdowns between each component to designate an operator.
+3. Drag metric components to into the definition area, and use the drop-down lists between each component to designate an operator.
 4. Once the calculated metric contains the desired formula, click Save to go back to your workspace.
 5. Drag the newly defined calculated metric onto the workspace.
 

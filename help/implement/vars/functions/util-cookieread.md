@@ -15,7 +15,7 @@ You can read cookies by setting values in data elements.
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired tag property.
 3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Core]**, and the [!UICONTROL Data Element Type] to **[!UICONTROL Cookie]**.
+4. Set the [!UICONTROL Extension] drop-down list to **[!UICONTROL Core]**, and the [!UICONTROL Data Element Type] to **[!UICONTROL Cookie]**.
 5. Enter the cookie name in the text field.
 
 The cookie value is stored in the data element. You can then reference the data element in rules to assign the desired variables.

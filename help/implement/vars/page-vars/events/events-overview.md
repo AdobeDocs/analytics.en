@@ -39,14 +39,14 @@ You can set events either while configuring the Analytics extension (global vari
 2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+5. Set the [!UICONTROL Extension] drop-down list to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Events] section.
 
 Several features are available:
 
-* A dropdown allows you to select the event to include
+* A drop-down list that allows you to select the event to include
 * An optional text field for serialization. See [event serialization](event-serialization.md) for more information.
-* An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
+* An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the drop-down list and including `10` in this field increments `event1` by 10 in reporting.
 * A button to add another event. You can add as many events as you'd like to a single rule within reason.
 
 ## s.events in AppMeasurement and the Analytics extension custom code editor

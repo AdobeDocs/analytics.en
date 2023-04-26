@@ -40,7 +40,7 @@ The Adobe Analytics extension has a dedicated location to set a link tracking ca
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 1. Under [!UICONTROL Actions], click the desired action or click the **'+'** icon to add an action.
-1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
+1. Set the [!UICONTROL Extension] drop-down list to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
 1. Click the `s.tl()` radio button.
 
 You cannot set any optional arguments in the Analytics extension.

@@ -38,7 +38,7 @@ Use an Action to configure sending XDM event data to Adobe. The Datastream recei
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 1. Under [!UICONTROL Actions], click the desired Action or click the **'+'** icon to add an action.
-1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**.
+1. Set the [!UICONTROL Extension] drop-down list to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**.
 
 ## Send event manually implementing the Web SDK
 
@@ -60,7 +60,7 @@ The Adobe Analytics extension in Adobe Experience Platform Data Collection has a
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 1. Under [!UICONTROL Actions], click the desired action or click the **'+'** icon to add an action.
-1. Set the [!UICONTROL Extension] dropdown to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
+1. Set the [!UICONTROL Extension] drop-down list to **[!UICONTROL Adobe Analytics]**, and the [!UICONTROL Action Type] to **[!UICONTROL Send Beacon]**.
 1. Click the `s.t()` radio button.
 
 ## s.t() method in AppMeasurement and the Analytics extension custom code editor

@@ -475,3 +475,4 @@ source,destination
 /docs/analytics/import/data-sources/datasrc-integrating-offline-data.html,/docs/analytics/import/data-sources/transactionid.html
 /docs/analytics/import/data-sources/datasrc-tid-visitor-profile.html,/docs/analytics/import/data-sources/transactionid.html
 /docs/analytics/import/data-sources/datasrc-faq.html,/docs/analytics/import/data-sources/faq.html
+/docs/analytics/export/analytics-data-feed/data-feed-contents/mobile-attributes-lookup.html,/docs/analytics/export/analytics-data-feed/data-feed-contents/dynamic-lookups.html

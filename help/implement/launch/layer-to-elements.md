@@ -23,8 +23,8 @@ Once your organization has established and implemented a data layer on your site
     ![create data element](assets/createelement.png)
 
 1. Enter a name for your data element. It can be a simple label that corresponds to a JavaScript variable in your data layer that you want to track.
-1. Under the **[!UICONTROL Extension]** dropdown, select **[!UICONTROL Core]**.
-1. Under the **[!UICONTROL Data Element Type]** dropdown, select **[!UICONTROL JavaScript Variable]**. A text field appears to the right that allows you to enter the JavaScript variable to map to this data element.
+1. Under the **[!UICONTROL Extension]** drop-down list, select **[!UICONTROL Core]**.
+1. Under the **[!UICONTROL Data Element Type]** drop-down list, select **[!UICONTROL JavaScript Variable]**. A text field appears to the right that allows you to enter the JavaScript variable to map to this data element.
 1. Enter the desired Javascript variable, typically within your data layer. For example, if your organization's data layer closely matches Adobe's recommended practice, a value could be `digitalData.page.pageInfo.pageName`. You can use your browser's console to validate JavaScript variable syntax and values.
 1. Click **[!UICONTROL Save]**.
 

@@ -12,7 +12,7 @@ Dynamic lookups allow you to receive additional lookup files in your data feed o
 
 ## Enable dynamic lookups
 
-If you want to receive the lookup files mentioned, you must meet all of the following prerequisites:
+If you want to receive the lookup files mentioned, you must meet all the following prerequisites:
 
 * The key column must be included in the data feed.
   * For `carrier.tsv`, you must include `carrier`.

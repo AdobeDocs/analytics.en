@@ -20,7 +20,7 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
     + [Calculate metrics](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
     + [Data column reference](analytics-data-feed/c-df-contents/datafeeds-reference.md)
     + [Page event lookup](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-    + [Mobile attributes lookup](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+    + [Dynamic lookups](analytics-data-feed/c-df-contents/dynamic-lookups.md)
     + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
     + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)

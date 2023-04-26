@@ -48,7 +48,7 @@
 
    |Option | Function |
    |---------|----------|
-   | [!UICONTROL **Recommended**] | Sorts components with those that are recommended at the top of the list. Components are recommended based on the following factors: <ul><li>Usage throughout your organization</li><li></li></ul> |
+   | [!UICONTROL **Recommended**] | Sorts components with those that are recommended at the top of the list. Components that are used most frequently and most recently by you or by others in your organization are shown higher in the list. |
    | [!UICONTROL **Alphabetical**] | Sorts components alphabetically. |
    | [!UICONTROL **Categorical**] | Sorts components according to component type (dimension, metric, segment, date range). |
 

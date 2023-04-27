@@ -14,7 +14,9 @@ While the Web SDK does not have a boolean to handle the execution of additional 
 
 ## Use Plug-ins using the Adobe Analytics extension
 
-There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+Adobe provides an extension labeled 'Common Analytics Plugins' that allows you to call most [Plug-ins](../plugins/impl-plugins.md). Install the extension, and call the desired plug-in within a rule.
+
+If the desired plug-in is not included in the Adobe extension, use the custom code editor following AppMeasurement syntax.
 
 ## s.usePlugins in AppMeasurement and the Analytics extension custom code editor
 

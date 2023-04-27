@@ -324,7 +324,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Current Data](reports-analytics/current-data.md)
   + [Dashboards and reportlets](reports-analytics/dashboard.md)
   + [Dashboard Manager](reports-analytics/dashboard-manage.md)
-  + [Data extract](reports-analytics/data-extract.md)
   + [Funnel reports](reports-analytics/funnels.md)
   + [Metrics](reports-analytics/metrics.md)
   + [Targets](reports-analytics/targets.md)

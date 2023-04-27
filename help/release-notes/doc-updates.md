@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **April 2023** | |
+| Transfer user assets and set account expirations | Added information about how to [transfer user assets and set account expirations](help/admin/admin/user-management2/users-assets.md). |
 | 2 new endpoint guides for the Adobe Analytics 2.0 API |<ul><li>[Analytics Dimensions API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Project segments (Ad hoc and quick segments) | Streamlined docmentation about project segments and removed duplicated information. The steps for creating ad hoc segments are now combined with the steps for [creating quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).|
 | Dynamic lookups | Additional information around [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) is added. Previously, Information only existed for mobile attributes, which is one of several dynamic lookups. |

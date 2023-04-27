@@ -202,7 +202,6 @@ user-guide-description: Manage data using components like Segments, Calculated M
 + Virtual Report Suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual report suite - component curation](vrs/vrs-components.md)
-  + [VRS support in Mobile Services](vrs/vrs-mobile-services.md)
   + [Context-aware sessions](vrs/vrs-mobile-visit-processing.md)
   + [Report time processing](vrs/vrs-report-time-processing.md)
   + [A4T considerations](vrs/vrs-a4t.md)

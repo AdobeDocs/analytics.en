@@ -114,7 +114,7 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >
 >* The ability to share a project in this way can be disabled by the Analytics administrator, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). If you can't share a project as described in this section, your Analytics administrator has disabled this ability.
 >
->* Projects with more than 14 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
+>* Projects with more than 50 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
 >
 >* Users you share with can view any filters that were applied to the project during [curation](curate.md). 
 > 

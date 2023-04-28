@@ -128,4 +128,4 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 1. Select the **Sort** icon ![Sort components icon](assets/component-sort-icon.png), then select any of the following filter options to sort the list of components:
 
-   {{components-sort-options}}
+{{components-sort-options}}

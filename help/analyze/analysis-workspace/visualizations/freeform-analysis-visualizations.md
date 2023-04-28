@@ -37,8 +37,6 @@ The following visualization types are available in Analysis Workspace:
 
 ## Add visualizations to a panel
 
-You can add visualizations to a panel in Analysis Workspace using any of the following methods:
-
 1. Open the Analysis Workspace project where you want to add a visualization.
 
 1. Use any of the following methods to add the visualization:

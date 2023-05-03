@@ -32,7 +32,7 @@ To start using Analysis Workspace, log in to Adobe Analytics by going to [experi
 
 ## Create a project {#new-project}
 
-An analysis in Analysis Workspace is referred to as a [project](help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).  
+An analysis in Analysis Workspace is referred to as a [project](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).  
 
 For information about how to create a project in Analysis Workspace, see [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 

@@ -26,6 +26,7 @@ The following visualization types are available in Analysis Workspace:
 | [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
 | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
 | [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
 | [Line](/help/analyze/analysis-workspace/visualizations/line.md) | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
 | [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Lets you build a visual map of any metric (including calculated metrics). |
 | [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Shows the relationship between dimension items and up to three metrics. |
@@ -51,8 +52,9 @@ The following visualization types are available in Analysis Workspace:
 
    * Add a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), then choose the visualization that you want to add.
 
-   * Right-click an existing panel in your Analysis Workspace project, then select [!UICONTROL **Duplicate visualization**] or [!UICONTROL **Copy visualization**].
+     ![Blank panel](assets/blank_panel.png)
 
+   * Right-click an existing panel in your Analysis Workspace project, then select [!UICONTROL **Duplicate visualization**] or [!UICONTROL **Copy visualization**].
 
 ## Customize visualization settings
 

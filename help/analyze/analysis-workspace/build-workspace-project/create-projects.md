@@ -25,7 +25,7 @@ The following sections describe how to create a project and start adding the key
    1. Choose whether to create a blank project or a blank mobile scorecard
 
       * **Blank project** if you plan to share your analysis from the browser 
-      * [!UICONTROL **Blank mobile scorecard**](/help/analyze/mobile-app/curator.md) if you plan to share your analysis from the Adobe Analytics dashboards mobile app.
+      * [**Blank mobile scorecard**](/help/analyze/mobile-app/curator.md) if you plan to share your analysis from the Adobe Analytics dashboards mobile app.
 
    1. Select [!UICONTROL **Create**].
 

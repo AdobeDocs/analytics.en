@@ -66,7 +66,7 @@ The building blocks you use to create a project in Analysis Workspace are panels
 
 See [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to learn more about each of these component types. 
 
-Each of these component types can be added to a visualization (such as a **[!UICONTROL Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)**) to start answering your business questions. 
+Each of these component types can be added to a visualization (such as a Freeform table) to start answering your business questions. 
 
 After you understand component terminology, you can begin dragging components into visualizations (including Freeform tables) to [build your analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html).
 

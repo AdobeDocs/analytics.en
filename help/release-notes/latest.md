@@ -25,16 +25,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue with Operating System.tsv lookup files in Data Feed.
-* Fixed an issue with metric values differing between Reports & Analytics and Workspace (AN-315965).
-* Fixed an issue with being unable to import partial classifications. (AN-315854)
-* Fixed an issue with the Analytics API 1.4. (AN-316475)
-* Fixed an issue that prevented some customers from getting classifications for the Page dimension via Report Builder and Report & Analytics. (AN-314445)
-* Fixed an issue with being unable to transfer alerts. (AN-306457)
-
-### Other fixes
-
-AN-288373; AN-305144; AN-309023; AN-310466; AN-311686; AN-311705; AN-312018; AN-312105; AN-312116; AN-312191; AN-312502; AN-312737; AN-312854; AN-312991; AN-313253; AN-313275; AN-313278; AN-313282; AN-313365; AN-313390; AN-313547; AN-313549; AN-313818; AN-313986; AN-314080; AN-314248; AN-314251; AN-314262; AN-314300; AN-314309; AN-314448; AN-314643; AN-314564; AN-314645; AN-314705; AN-314761; AN-314831; AN-314919; AN-314948; AN-315032; AN-315115; AN-315154; AN-315158; AN-315321; AN-315375; AN-315379; AN-315392; AN-315407; AN-315427; AN-315582; AN-315591; AN-315699; AN-315700; AN-315704; AN-315705; AN-315777; AN-315923; AN-316237; AN-316243; AN-316324; AN-316415; AN-316474; AN-316493; AN-316596; AN-316864; 
+AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-315744; AN-311772; AN-318719; AN-314074; AN-316651<!--"Verified" status-->; AN-318602; AN-315961; AN-317534; AN-318607; AN-316498; AN-316648; AN-318244; AN-317747; AN-318432; AN-318231; AN-317590; AN-318415; AN-318154; AN-316647; N-314417; AN-317614; AN-317725; AN-318114; AN-317876; AN-318052; AN-317966; AN-316477; AN-318036; AN-317931; AN-318045; AN-316246; AN-317281; AN-317879; AN-308077; AN-317708; AN-316115; AN-315963
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

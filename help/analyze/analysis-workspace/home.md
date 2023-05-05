@@ -1,5 +1,5 @@
 ---
-title: What is Analysis Workspace and how do I use it?
+title: Analysis Workspace overview
 description: Analysis Workspace is the premier analysis tool for Adobe Analytics. It lets you use panels, tables, visualizations, and other components to bring data to life, curate a dataset, share and schedule projects, among other capabilities.
 feature: Workspace Basics
 role: User, Admin
@@ -58,11 +58,11 @@ Components in Analysis Workspace consist of the following:
 
 * Date ranges
 
-See [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to learn more about each of these component types. 
+To learn more about each of these component types, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). 
 
 Each of these component types can be added to a visualization (such as a Freeform table) to start answering your business questions. 
 
-After you understand component terminology, you can drag components into visualizations (including Freeform tables) to [build your analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html).
+After you understand component terminology, you can drag components into visualizations (including Freeform tables) to [build your analysis](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -84,17 +84,35 @@ An analysis in Analysis Workspace is referred to as a [project](/help/analyze/an
 
 You can create a project in Analysis Workspace as described in [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+Projects can be organized into folders and subfolders, as described in [Folders in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### Save and share a project
 
 As you create an analysis in Analysis Workspace, your work is [automatically saved](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). 
 
 When you finish building out the project and it's gathering actionable insights, the project is ready to be consumed by others. You can share the project with users and groups in your organization, or even with people outside your organization. For information about sharing a project, see [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
+<!--
+
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
 ### Project management in Analysis Workspace
 
 The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Use Virtual Analyst to better understand anomalies
+
+Virtual Analyst is a set of features in Adobe Analytics that uses predictive algorithms and machine learning to deliver insights into anomalies impacting your business. It lets you automate the most common and expensive data science workflows to identify what's driving unusual behaviors in your data.
+
+Virtual Analyst comprises the following features:
+
+* [Anomaly Detection:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) Provides a statistical method to determine how a given metric has changed in relation to previous data.
+* [Contribution Analysis:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) Help determine the most contributing factors to anomalies in your data.
+* [Intelligent Alerts:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) Proactively identifies and notifies you of anomalies in your data, leading to faster insights.
 
 ## Additional resources {#resources}
 

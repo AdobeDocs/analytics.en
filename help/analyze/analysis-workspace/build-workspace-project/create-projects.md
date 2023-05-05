@@ -37,7 +37,7 @@ The following sections describe how to create a project and start adding the key
 
       1. Search for or navigate to the template you want to use, then select it when it appears.
 
-          A set of standard templates are available by default. In addition, your organization might have created custom templates for you to choose from.
+          A set of standard templates is available by default. In addition, your organization might have created custom templates for you to choose from.
 
           For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md).
 
@@ -69,7 +69,7 @@ To add a panel:
 
 >[!TIP]
 >
->Freeform tables are the most common type of visualization, and are the founcation for interactive data analysis. For more details about how to work with Freeform tables in Analysis Workspace, see [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Freeform tables are the most common type of visualization, and are the foundation for interactive data analysis. For more details about how to work with Freeform tables in Analysis Workspace, see [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 To add a visualization:
 

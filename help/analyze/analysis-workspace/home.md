@@ -58,11 +58,11 @@ Components in Analysis Workspace consist of the following:
 
 * Date ranges
 
-See [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to learn more about each of these component types. 
+To learn more about each of these component types, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). 
 
 Each of these component types can be added to a visualization (such as a Freeform table) to start answering your business questions. 
 
-After you understand component terminology, you can drag components into visualizations (including Freeform tables) to [build your analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html).
+After you understand component terminology, you can drag components into visualizations (including Freeform tables) to [build your analysis](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 

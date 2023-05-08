@@ -19,6 +19,9 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **May 2023** | |
+| Analysis Workspace overview | Updated [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to include more general overview information and links to relevant content. |
+| Create projects | Created a new article that explains in detail how to [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
 | **April 2023** | |
 | Transfer user assets and set account expirations | Added information about how to [transfer user assets and set account expirations](/help/admin/admin/user-management2/users-assets.md). |
 | 2 new endpoint guides for the Adobe Analytics 2.0 API |<ul><li>[Analytics Dimensions API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |

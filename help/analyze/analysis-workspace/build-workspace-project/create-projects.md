@@ -97,7 +97,9 @@ To add a component:
 
 1. Search for the component you want to add. When it appears in the left rail, drag it to a panel or visualization within your project. 
 
-### Save and share the project
+1. (Optional) Share the project as described in [Save and share the project](#save-and-share-the-project).
+
+## Save and share the project
 
 As you create an analysis in Analysis Workspace, your work is [automatically saved](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). 
 

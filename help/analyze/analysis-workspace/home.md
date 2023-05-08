@@ -92,28 +92,6 @@ As you create an analysis in Analysis Workspace, your work is [automatically sav
 
 When you finish building out the project and it's gathering actionable insights, the project is ready to be consumed by others. You can share the project with users and groups in your organization, or even with people outside your organization. For information about sharing a project, see [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## Use Virtual Analyst to better understand anomalies
-
-Virtual Analyst is a set of features in Adobe Analytics that uses predictive algorithms and machine learning to deliver insights into anomalies impacting your business. It lets you automate the most common and expensive data science workflows to identify what's driving unusual behaviors in your data.
-
-Virtual Analyst comprises the following features:
-
-* [Anomaly Detection:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) Provides a statistical method to determine how a given metric has changed in relation to previous data.
-* [Contribution Analysis:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) Help determine the most contributing factors to anomalies in your data.
-* [Intelligent Alerts:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) Proactively identifies and notifies you of anomalies in your data, leading to faster insights.
-
 ## Additional resources {#resources}
 
 * Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).

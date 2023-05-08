@@ -20,7 +20,7 @@ The following sections describe how to create a project and start adding the key
 
    +++Create a blank project
 
-   1. Select the [!UICONTROL **Projects**] tab, then select [!UICONTROL **Create project**].
+   1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Projects**] tab on the left side of the page, then select [!UICONTROL **Create project**].
 
    1. Choose whether to create a blank project or a blank mobile scorecard
 
@@ -33,7 +33,7 @@ The following sections describe how to create a project and start adding the key
 
    +++Create a project from a template
    
-      1. Select the [!UICONTROL **Reports**] tab.
+      1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Reports**] tab on the left side of the page.
 
       1. Search for or navigate to the template you want to use, then select it when it appears.
 

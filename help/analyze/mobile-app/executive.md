@@ -52,14 +52,20 @@ To use dashboards:
 
 1. Choose a company. After you sign in to dashboards, the **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
 
-1. The Scorecard list then shows all Scorecards that have been shared with you. Tap the Scorecard you want to view.
+   The scorecard list shows all scorecards that are shared with you.
 
-    ![Choose a company](assets/nextseq.png)
+1.  Tap the scorecard that you want to view.
+
+    If you have access to more than one organization under one login, all scorecards from your organizations are available in the scorecard list.
+
+    You can sort the scorecard list according to scorecard title, organization name, or most recently viewed. You can even search for a specific scorecard.
+
+    ![Choose a company](assets/mobile-home-screen.png)
 
     If you log in and see a message saying that nothing has been shared, verify the following with your curator:
 
     * You can log into the right Analytics instance
-    * The Scorecard has been shared with you
+    * The scorecard has been shared with you
 
     ![Nothing shared](assets/nothing.png)
 

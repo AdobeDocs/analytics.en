@@ -19,7 +19,6 @@ Access the Success Events page in report suite settings:
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
 3. Navigate to [!UICONTROL Admin] > [!UICONTROL Report Suites]
 4. Select the desired report suite, then navigate to [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
-5. Locate the desired event, and modify [!UICONTROL Unique Event Recording] dropdown to [!UICONTROL Record Once Per Visit] or [!UICONTROL Use Event ID].
 
 There are many kinds of success events, depending on your web site type. Several examples include:
 

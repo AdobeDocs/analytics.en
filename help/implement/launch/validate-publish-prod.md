@@ -28,11 +28,11 @@ Once you have validated that you are seeing data, you can push your implementati
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the tag property that you intend to implement on your site.
 1. Click the **[!UICONTROL Publishing]** tab and locate your library in the development column.
-1. Click the dropdown on the library, then select **[!UICONTROL Submit for Approval]**. Click **[!UICONTROL Submit]** on the modal window.
-1. Click the library's dropdown again (now in the Submitted column), and select **[!UICONTROL Build for Staging]**.
+1. Click the drop-down list on the library, then select **[!UICONTROL Submit for Approval]**. Click **[!UICONTROL Submit]** on the modal window.
+1. Click the library's drop-down list again (now in the Submitted column), and select **[!UICONTROL Build for Staging]**.
 1. After a few moments, the yellow colored light on the library turns green, indicating a successful build.
-1. Click the library's dropdown again, and select **[!UICONTROL Approve for Publishing]**.
-1. Click the library's dropdown again (now in the [!UICONTROL Approved] column), and select **[!UICONTROL Build and Publish to Production]**.
+1. Click the library's drop-down list again, and select **[!UICONTROL Approve for Publishing]**.
+1. Click the library's drop-down list again (now in the [!UICONTROL Approved] column), and select **[!UICONTROL Build and Publish to Production]**.
 1. Go to the Environments tab, the click **[!UICONTROL Production Environment]**.
 1. Copy the production install code, and provide it to your website owners. Request that they implement this code on your site's production environment.
 

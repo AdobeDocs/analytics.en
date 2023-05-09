@@ -137,7 +137,7 @@ Enhancement released on August 8, 2019.
 
 | Enhancement | Description |
 |--- |--- |
-|Increase item limit for dropdown filter from 50 to 200| We increased the limit of items that can be placed in a dropdown filter from 50 to 200. This enhancement accommodates a variety of use cases, such as adding all countries (195) to a filter, or all US states and provinces (52). |
+|Increase item limit for static drop-down filters from 50 to 200| The limit of items that can be placed in a static drop-down filter is increased from 50 to 200. This enhancement accommodates a variety of use cases, such as adding all countries (195) to a filter, or all US states and provinces (52). |
 
 ## July 2019
 
@@ -196,29 +196,10 @@ New features and enhancements released on November 1, 2018.
 
 New features and enhancements released on October 11, 2018.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Feature </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Panel Dropdown Management</b> </p> </td>
-   <td colname="col2"> <p>We made a few changes to the management of panel dropdowns, which were introduced in the September MR. When you right-click the dropdown, you can now </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">Delete a dropdown (this option is always present.) </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">Delete a label (if a label is showing.) </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">Add a label (if no label is showing.) </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>Links in panel and visualization tooltips</b> </p> </td>
-   <td colname="col2"> <p>We have added links to pertinent videos and documentation to panel and visualization tooltips. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Feature | Description |
+| --- | --- |
+| Panel drop-down management | A few changes are made to the management of panel drop-downs. When you right-click a drop-down, you can now delete the drop-down, delete a label (if a label is showing), or add a label (if no label is showing). |
+| Links in panel and visualization tooltips | Links to pertinent videos and documentation to panel and visualization tooltips are added. |
 
 ## September 2018
 
@@ -233,7 +214,7 @@ New features and enhancements released on September 13, 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Panel Dropdowns</b> </p> </td>
+   <td colname="col1"> <p><b>Panel drop-downs</b> </p> </td>
    <td colname="col2"> <p>The panel drop zone now has drop-down capabilities. Drop-downs enable end users to interact with the data in a project in a controlled way. Example: Suppose you have several versions of a project to provide country-specific reporting. You can now collapse those projects into a single project, and add in a country drop-down instead. </p> </td>
   </tr>
   <tr>

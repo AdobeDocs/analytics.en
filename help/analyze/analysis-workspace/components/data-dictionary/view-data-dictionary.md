@@ -29,6 +29,10 @@ To view information about a component in the Data Dictionary:
 
 {{dd-filter-criteria}}
 
+1. (Optional) Select the **Sort** icon ![Sort components icon](assets/component-sort-icon.png), then select any of the following filter options to sort the list of components:
+
+   {{components-sort-options}}
+
 1. From the list of components, select the component you want to view.
 
    The following information about the component is displayed:

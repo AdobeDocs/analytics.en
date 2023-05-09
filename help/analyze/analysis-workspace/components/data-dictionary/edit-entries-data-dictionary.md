@@ -27,6 +27,10 @@ To edit a component in the Data Dictionary:
 
 {{dd-filter-criteria}}
 
+1. (Optional) Select the **Sort** icon ![Sort components icon](assets/component-sort-icon.png), then select any of the following filter options to sort the list of components:
+
+   {{components-sort-options}}
+
 1. From the list of components, select the component you want to edit.
 
 1. Select the **Edit** icon ![Data Dictionary Edit icon](assets/data-dictionary-edit-icon.png) next to the component name. 

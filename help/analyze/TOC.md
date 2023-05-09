@@ -20,6 +20,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
+    + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + Folders in Workspace {#workspace-folders}
       + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)

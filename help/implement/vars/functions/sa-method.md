@@ -21,12 +21,12 @@ The Web SDK operates by sending data to a specific Datastream, which forwards da
 
 ## Set the desired Datastream using the Web SDK extension
 
-The Web SDK extension provides a Datastream dropdown for each environment. Alternatively, you can manually enter the Datastream ID.
+The Web SDK extension provides a Datastream drop-down list for each environment. Alternatively, you can manually enter the Datastream ID.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under [!UICONTROL Adobe Experience Platform Web SDK].
-1. Under [!UICONTROL Datastreams], choose the desired Datastream in the dropdown for each environment.
+1. Under [!UICONTROL Datastreams], choose the desired Datastream in the drop-down list for each environment.
 1. Click **[!UICONTROL Save]**.
 
 ## Set the desired Datastream manually implementing the Web SDK

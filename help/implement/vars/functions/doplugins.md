@@ -6,7 +6,7 @@ exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 ---
 # doPlugins
 
-The `doPlugins` variable acts as a 'last call' to set values in your implementation. If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
+The `doPlugins` variable acts as a 'last call' to set values in your implementation. It is the ideal place to make calls to [Plug-in methods](../plugins/impl-plugins.md) and set any desired variables before an image request is sent. If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
 
 * All page view ([`t()`](t-method.md)) calls
 * All link tracking ([`tl()`](tl-method.md)) calls, including automatic download links and exit links

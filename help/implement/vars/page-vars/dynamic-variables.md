@@ -36,7 +36,7 @@ You can use dynamic variables in any dimension field that accepts a string. Dime
 2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+5. Set the [!UICONTROL Extension] drop-down list to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the desired dimension item.
 
 Place the dynamic variable prefix in the text field, followed by the query string parameter or HTTP header that you want to reference. By default, the dynamic variable prefix is `D=`.

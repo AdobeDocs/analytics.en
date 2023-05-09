@@ -24,7 +24,7 @@ The **[!UICONTROL Document will unload]** checkbox within an Action Configuratio
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Rules] tab, then click the desired rule.
 1. Under [!UICONTROL Actions], click the desired Action or click the **'+'** icon to add a new action.
-1. Set the Extension dropdown to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**
+1. Set the [!UICONTROL Extension] drop-down list to **[!UICONTROL Adobe Experience Platform Web SDK]** and the [!UICONTROL Action Type] to **[!UICONTROL Send event]**
 1. Click the checkbox **[!UICONTROL Document will unload]** on the right.
 
 If this box is checked, data is sent to Adobe using the sendBeacon API. It is unchecked by default.

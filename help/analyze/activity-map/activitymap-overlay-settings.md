@@ -36,7 +36,7 @@ These settings apply to the standard mode overlay.
 
 | Setting | Description |
 | --- | --- |
-| **[!UICONTROL Dynamic Data Filtering]** | This dropdown lets you show overlays for<ul><li>(default) All the links on the page</li><li>The top (highest) or bottom (lowest) # of ranked links on the page, where # can be a choice of 1, 10, 50, or 100.</li></ul> |
+| **[!UICONTROL Dynamic Data Filtering]** | This drop-down list lets you show overlays for<ul><li>(default) All the links on the page</li><li>The top (highest) or bottom (lowest) # of ranked links on the page, where # can be a choice of 1, 10, 50, or 100.</li></ul> |
 | **[!UICONTROL Hide overlays for links that received no hits]**. | A checkbox that toggles the visibility of overlays for links that have no data.<ul><li>(default) If the checkbox is checked, then no overlay is shown when a link has no ActivityMap link data.</li><li>If the checkbox is unchecked, then if a link has no ActivityMap link data, an overlay is displayed and it has a label of "-", which means N/A (not applicable).  |
 
 ## Live settings {#section_D30F6E62FB5D404090B588F396A460AF}

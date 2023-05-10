@@ -16,20 +16,41 @@ Freeform tables in Analysis Workspace are the foundation for interactive data an
 >[!NOTE]
 >
 > Only dynamic dimension items can be filtered as described in this section. Static dimension items cannot be filtered. For more information, see [Dynamic vs static dimension items in freeform tables](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+### Quickly exclude specific rows from a table
+
+You can quickly exclude specific rows from the table without needing to open the Filter dialog. 
+
+>[!NOTE]
+>
+>When you exclude rows as described in this section, a [!UICONTROL **Does not equal**] rule is automatically applied in the [**[!UICONTROL Advanced filtering]**](#apply-a-simple-or-advanced-filter) dialog.
+
+To quickly exclude specific rows from a Freeform table:
+
+1. Hover over the row you want to exclude, then select the x icon. 
+
+   Hold the Shift key to select a range rows, or hold the Command key (on Mac) or the Ctrl key (on Windows) to select multiple rows.
+
+### Apply a simple or advanced filter to a table
  
  To filter data in Freeform tables:
  
- 1. In a Freeform table, hover over the column that contains the data you want to filter. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+ 1. Hover over the column that contains the data you want to filter. <!--only some types of columns show the filter... Which? Just Dimensions?-->
  
  1. Select the **Filter** icon when it appears.
 
     ![Filter icon in a table](assets/table-filter-icon.png)
 
- 1.  In the [!UICONTROL **Search word or phrase**] field, specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase specified are shown. 
+    The following options are available:
 
- 1. (Optional) To filter by different criteria or by multiple criteria, select [!UICONTROL **Show advanced**]. 
+    |Option | Function | 
+    |---------|----------|
+    | [!UICONTROL **Search word or phrase**] | Specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase specified are shown. |
+    | [!UICONTROL **Include unspecified (none)**] | Select this option to show data in the table that does not fall into any of the dimensions of the table. <!--what is this?--> |
 
-    The following options are available
+ 1. (Optional) To filter by different criteria or by multiple criteria, select [!UICONTROL **Advanced filtering**]. 
+
+    The following advanced filter options are available:
 
     |Option | Function | 
     |---------|----------|

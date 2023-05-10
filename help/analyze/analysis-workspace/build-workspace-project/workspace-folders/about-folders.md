@@ -5,7 +5,7 @@ title: Folders overview
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 ---
-# About Folders in Analytics
+# Folders in Analysis Workspace
 
 Folders in Analytics is a folder management system displayed on the Adobe Analytics landing page and when **Workspace** > **Projects** is selected.
 

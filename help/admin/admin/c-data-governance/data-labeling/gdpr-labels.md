@@ -156,6 +156,12 @@ Data Privacy labeling affects four broad classes of Analytics variables. Not all
    <td colname="col2"> <p>All, except classifications </p> </td> 
    <td colname="col3"> <p>All </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>Traffic Variables </p> </td> 
+   <td colname="col2"> <p>List Props </p> </td> 
+   <td colname="col3"> <p>None / S1 / S2 </p> </td> 
+   <td colname="col4"> <p>List props can contain multiple values and are not allowed as privacy identifiers.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Classifications </p> </td> 

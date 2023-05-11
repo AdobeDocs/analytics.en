@@ -12,11 +12,11 @@ For general information about how to get started using Analysis Workspace, see [
 
 The following sections describe how to create a project and start adding the key building blocks for any Analysis Workspace project: panels, visualizations, and components.
 
-## Create a project from a blank project or a template
+## Create a project from a blank project or a report
 
 1. In Adobe Analytics, select [!UICONTROL **Workspace**].
 
-1. Choose whether to create a blank project or to create a project from a template:
+1. Choose whether to create a blank project or to create a project from a report:
 
    +++Create a blank project
 
@@ -31,15 +31,15 @@ The following sections describe how to create a project and start adding the key
 
    +++
 
-   +++Create a project from a template
+   +++Create a project from a report
    
       1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Reports**] tab on the left side of the page.
 
-      1. Search for or navigate to the template you want to use, then select it when it appears.
+      1. Search for or navigate to the report you want to use, then select it when it appears.
 
-          A set of standard templates is available by default. In addition, your organization might have created custom templates for you to choose from.
+          A set of standard reports is available by default. In addition, your organization might have created custom reports for you to choose from.
 
-          For more information, see [Get started with Reports & Analytics](/help/analyze/reports-analytics/getting-started.md).
+          For more information, see "Navigate the Reports tab" in [Adobe Analytics landing page](/help/analyze/landing.md).
 
    +++
 

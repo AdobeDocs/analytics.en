@@ -7,15 +7,13 @@ exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 ---
 # Reporting Activity Manager
 
->[!NOTE]
->
->This functionality is currently in beta testing.
+{{release-limited-testing}}
 
 The [!UICONTROL Reporting Activity Manager] lets you see the reporting capacity for each report suite in your organization. It provides you, as an Admin, with detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. 
 
 When your organization reaches reporting request capacity and experiences a degradation in reporting performance, you now have a way to self-diagnose reporting issues without intervention from Adobe customer care or engineering. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. This tool:
 
-* Informs you, in real time, about your current reporting capacity  across your report suites.
+* Informs you, in real time, about your current reporting capacity across your report suites.
 * Provides detailed report query information on current reporting requests, whether queued or in progress.
 * Lets you optimize the reporting queue by prioritizing some and canceling other reporting requests to free up capacity. In other words, you can ask in real time: is this report necessary at this time or can I cancel it in favor of more urgent reports?
 
@@ -58,13 +56,13 @@ Click the title link of a report suite for which you want to view details.
 
 ![report suite](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Line graph
+### Line graph {#line}
 
 The line graph shows the reporting activity for the selected report suite over the last 2 hours. 
 
 * The x-axis shows the reporting capacity data over the last 2 hours.
-* The y-axis shows the average wait time for a query, in seconds.
-* You can hover over the line chart to view points in time and average wait time for that instant.
+* The y-axis shows the reporting usage capacity % for the selected report suite, by minute.
+* You can hover over the line chart to view points in time where the usage capacity % represented will be the highest % for that minute.
 
    ![detail](/help/admin/admin/assets/detail.png)
 
@@ -74,7 +72,7 @@ You can filter the table by Application (see list in the table below), by User, 
 
 ![filter](/help/admin/admin/assets/filter.png)
 
-### Summary Numbers
+### Summary Numbers {#summary}
 
 ![filter](/help/admin/admin/assets/summary_numbers.png)
 
@@ -90,7 +88,7 @@ The Summary Numbers show the following information:
 
 {style="table-layout:auto"}
 
-### Table
+### Table on report suite details {#details}
 
 The detailed table below shows details on the report suite.
 
@@ -110,7 +108,7 @@ The detailed table below shows details on the report suite.
 
 {style="table-layout:auto"}
 
-## Cancel reporting requests
+## Cancel reporting requests {#cancel}
 
 To cancel a request 
 
@@ -127,7 +125,7 @@ Application users in Workspace, for example, will see the following notice appea
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Frequently asked questions
+## Frequently asked questions {#faq}
 
 | Question | Answer |
 | --- | --- |

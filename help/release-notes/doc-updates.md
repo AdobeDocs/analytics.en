@@ -20,7 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **May 2023** | |
-| Improved IP-to-geolocation mapping | Created a topic on [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en).
+| Improved IP-to-geolocation mapping | Created a topic on [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Reporting Activity Manager | Updated this beta documentation, specifically the section on [Viewing reporting activity for individual report suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace overview | Updated [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to include more general overview information and links to relevant content. |
 | Create projects | Created a new article that explains in detail how to [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |

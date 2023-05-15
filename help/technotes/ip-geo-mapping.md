@@ -6,6 +6,10 @@ feature: Data Configuration and Collection
 
 # Improved IP-to-geolocation mapping FAQ
 
+Our vendor for IP lookups, Digital Element, upgraded to a new improved dataset (NetAcuity Pulse) for IP-to-geolocation mapping. Originally planned for October 2022, Adobe Analytics adopted this new dataset on January 11, 2023. The new database is more accurate than previous versions. Some IP-to-geo mappings changed/improved when the new database was adopted.
+
+All Adobe Analytics tools (Analysis Workspace, Reports & Analytics, Reporting API, Data Warehouse, LiveStream, Analytics Data Feeds, and so on) automatically take advantage of the new improved mappings. There was no change in the format of the data in data feeds. CJA data provided through the Analytics Source Connector automatically takes advantage of the new mappings.
+
 +++**Q: I have noticed that my geographical data changed sometime in January.  Why?**
 A: The partner Adobe uses for IP-to-geolocation mapping, Digital Element, introduced a new, more precise IP-targeting database called NetAcuity Pulse. Adobe postponed adoption of this new database until January 2023 in order to avoid making changes during the winter holiday season.
 

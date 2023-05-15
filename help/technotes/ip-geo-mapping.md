@@ -10,13 +10,13 @@ Our vendor for IP lookups, Digital Element, upgraded to a new improved dataset (
 
 All Adobe Analytics tools (Analysis Workspace, Reports & Analytics, Reporting API, Data Warehouse, LiveStream, Analytics Data Feeds, and so on) automatically take advantage of the new improved mappings. There was no change in the format of the data in data feeds. CJA data provided through the Analytics Source Connector automatically takes advantage of the new mappings.
 
-+++**Q: I have noticed that my geographical data changed sometime in January.  Why?**
-A: The partner Adobe uses for IP-to-geolocation mapping, Digital Element, introduced a new, more precise IP-targeting database called NetAcuity Pulse. Adobe postponed adoption of this new database until January 2023 in order to avoid making changes during the winter holiday season.
++++**I have noticed that my geographical data changed sometime in January.  Why?**
+The partner Adobe uses for IP-to-geolocation mapping, Digital Element, introduced a new, more precise IP-targeting database called NetAcuity Pulse. Adobe postponed adoption of this new database until January 2023 in order to avoid making changes during the winter holiday season.
 
 +++
 
 +++**Did Adobe announce this change beforehand?**
-Yes, this change was first announced in the Adobe Analytics release notes in July 2022, and was repeated in every release note afterward through January 2023.
+Yes, this change was first announced in the Adobe Analytics release notes in July 2022, and was repeated in every release note through January 2023.
 
 +++
 

@@ -333,3 +333,22 @@ To share the Scorecard with an executive user:
 After you have shared a scorecard, your recipients can access it on their Analytics dashboards. If you make subsequent changes to the scorecard in the Scorecard Builder, they will be automatically updated in the shared scorecard. Executive users will then see the changes after refreshing the Scorecard on their app.
 
 If you update the scorecard by adding new components, you may want to share the scorecard again (and check the **[!UICONTROL Share embedded components]** option) in order to make sure that your executive users have access to these changes.
+
+### Share scorecards using a shareable link
+
+Using a shareable link makes it easy to share a scorecard in an email, document, or text message app. The shareable link lets recipients open the scorecard on their desktop or on the dashboards mobile app. Shareable deep linking makes it even easier to share projects and boost engagement with your stakeholders.
+
+To share a scorecard using a shareable link
+
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. Copy the link and paste it into an email, document, or IM app.
+
+   When a recipient uses a desktop app or browser to open the link, the mobile scorecard project will open in workspace.
+
+   When a recipient opens the link on a mobile device, the scorecard will open directly in Analytics Dashboards app.
+
+   If a recipient hasn't downloaded the mobile app, they'll be directed to the app’s listing in the App Store or Google Play Store where they can download it.
+

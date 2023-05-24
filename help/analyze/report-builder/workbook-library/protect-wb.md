@@ -12,13 +12,9 @@ You can protect all requests in a workbook against adding and editing requests b
 
 As an analyst, locking a workbook lets you protect your workbook requests against tampering by other users within your organization. At the same time, those users can still refresh the requests in the workbook.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)).
 
-).
-
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
-
-).
+To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)).
 
 You can unlock a locked workbook if you have one of the following permissions:
 

@@ -97,8 +97,6 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 ### Filter the component list
 
-{{release-limited-testing-section}}
-
 1. Select the **Components** icon ![Components icon](assets/components-icon.png) in the left rail.
 
 1. Select the **Filter** icon ![Data Dictionary Filter icon](assets/components-filter-icon.png).
@@ -123,6 +121,8 @@ You can search, filter, and sort the component list in the left rail of Analysis
 1. (Optional) To further hone the list, you can sort the component list, as described in [Sort the component list](#sort-the-component-list).
 
 ### Sort the component list
+
+{{release-limited-testing-section}}
 
 1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 

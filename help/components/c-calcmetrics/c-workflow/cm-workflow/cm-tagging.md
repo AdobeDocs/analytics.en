@@ -6,16 +6,25 @@ exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
 ---
 # Tag calculated metrics
 
-In the Calculated Metric Manager, tagging segments allows you to organize them.
+In the Calculated metric manager, you can organize segments by tagging them.
 
-All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. What kinds of tags should you create? Here are some suggestions for useful tags:
+All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 
-* Tags based on **team names**, such as Social Marketing, Mobile Marketing.
-* **Project** tags (analysis tags), such as Entry-page analysis.
-* **Category** tags: Men's; geography.
-* **Workflow** tags: To be approved; Curated for (a specific business unit)
+>[!TIP]
+>
+>The most useful types of tags are usually tags that are based on:
 
-1. In the Calculated Metric Manager, mark the checkbox next to the metric you want to tag. The management tool bar appears: 
+* **Team names**, such as Social Marketing, Mobile Marketing.
+* **Projects** (analysis tags), such as Entry-page analysis.
+* **Categories**, such as Women's; Geography.
+* **Workflows**, such as To be approved; Curated for (a specific business unit)
+
+To apply a tag to a calculated metric:
+
+1. In the Calculated metric manager, mark the checkbox next to the metric you want to tag. 
+
+   The management tool bar appears.
+   
 1. Click **[!UICONTROL Tag]** and either
 
     * select from existing tags, or 

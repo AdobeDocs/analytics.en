@@ -1,14 +1,14 @@
 ---
-description: The Calculated Metric Manager offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+description: The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 title: Calculated Metric Manager
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
 ---
-# Calculated Metric Manager
+# Calculated metrics manager
 
-The Calculated Metric Manager offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-The Calculated Metric Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. This overview presents the user interface and the capabilities of the Calculated Metric Manager. Access it by
+The Calculated metrics page shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. This overview presents the user interface and the capabilities of the Calculated metrics page. Access it by
 
 * Going to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**.
 
@@ -25,6 +25,6 @@ The Calculated Metric Manager shows you all the segments you own and that have b
 | Owner  | Indicates who owns the custom metric. As a non-Admin, you can see only metrics you own or those that were shared with you.  |
 | Tags  | Shows tags that were applied to the metric, either by you or by people who shared the segment with you.  |
 | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with.  |
-| Column selector  | Lets you select or deselect columns in the Calculated Metric Manager so that you can customize the view.  |
+| Column selector  | Lets you select or deselect columns in the Calculated metrics page so that you can customize the view.  |
 | Shared icon (not shown)  | Indicates that this custom metric is shared by you or with you.  |
 | Approved icon (not shown)  | Indicates that this custom metric has been approved by an Administrator.  |

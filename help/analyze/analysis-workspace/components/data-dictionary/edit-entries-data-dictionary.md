@@ -31,12 +31,12 @@ To edit a component in the Data Dictionary:
 
    {{components-sort-options}}
 
-2. From the list of components, select the component you want to edit.
+1. From the list of components, select the component you want to edit.
 
-3. Select the **Edit** icon ![Data Dictionary Edit icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) next to the component name. 
+1. Select the **Edit** icon ![Data Dictionary Edit icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) next to the component name. 
 
-4. Edit any of the following information about the component:
+1. Edit any of the following information about the component:
 
    {{dd-component-information}}
 
-5. Click the **Save** icon ![Data Dictionary Save icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) to save your changes.
+1. Click the **Save** icon ![Data Dictionary Save icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) to save your changes.

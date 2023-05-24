@@ -33,10 +33,10 @@ To view information about a component in the Data Dictionary:
 
    {{components-sort-options}}
 
-2. From the list of components, select the component you want to view.
+1. From the list of components, select the component you want to view.
 
    The following information about the component is displayed:
 
    {{dd-component-information}}
 
-3. (Optional) Drag a component from the Data Dictionary into Analysis Workspace.
+1. (Optional) Drag a component from the Data Dictionary into Analysis Workspace.

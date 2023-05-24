@@ -58,7 +58,7 @@ You can begin creating a calculated metric in any of the follows ways:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Summary </span> </td> 
-   <td colname="col3"> <p>The <span class="uicontrol"> Summary </span> formula updates anytime you make a change to the metric definition. This formula also shows up in the metrics rail on the left when you hover over a metric and click the <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icon. </p> </td> 
+   <td colname="col3"> <p>The <span class="uicontrol"> Summary </span> formula updates anytime you make a change to the metric definition. This formula also shows up in the metrics rail on the left when you hover over a metric and click the <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icon. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definition </span> </td> 
@@ -70,7 +70,7 @@ You can begin creating a calculated metric in any of the follows ways:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Operator </span> </td> 
-   <td colname="col3"> <p>Divided by ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. </p> </td> 
+   <td colname="col3"> <p>Divided by ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Preview </span> </td> 

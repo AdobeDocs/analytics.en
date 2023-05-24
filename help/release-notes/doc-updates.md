@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **May 2023** | |
+| Spectrum icons | Replaced, where appropriate, screenshots of user interface icons in the documentation with references to the equivalent icons in [Adobe's Spectrum Design System](https://spectrum.adobe.com/page/icons/). |
 | Improved IP-to-geolocation mapping | Created a topic on [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Reporting Activity Manager | Updated this beta documentation, specifically the section on [Viewing reporting activity for individual report suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace overview | Updated [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to include more general overview information and links to relevant content. |

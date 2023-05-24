@@ -24,7 +24,7 @@ The Projects page contains the following information:
 
 >[!NOTE]
 >
->Some columns are not displayed by default. To customize the columns you see, click the **Customize table** icon ![Customize table](assets/projects-page-customize-columns-icon.png).
+>Some columns are not displayed by default. To customize the columns you see, click the **Customize table** icon ![Customize table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 |  Element  | Description  |

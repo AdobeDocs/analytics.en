@@ -61,19 +61,19 @@ To quickly exclude specific rows from a Freeform table:
 
  1. Select [!UICONTROL **Apply**] to filter the data.
 
-    The **Filter** icon ![Blue filter icon filtered table](assets/table-filter-blue-icon.png) turns blue when a filter is applied to the table. 
+    The **Filter** icon ![Blue filter icon filtered table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) turns blue when a filter is applied to the table. 
 
 ## Sort tables
 
 You can sort the data of a Freeform table by any column in Analysis Workspace that is a Metric. 
 
-A down arrow icon ![Down arrow icon sorted table column](assets/table-sort-arrow-icon.png) is visible in the header of the column that data is currently being sorted by. 
+A down arrow icon ![Down arrow icon sorted table column](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) is visible in the header of the column that data is currently being sorted by. 
 
 To sort the data in a Freeform table by a particular column:
 
 1. Hover over the column title by which you want to sort the data.
 
-1. Select the down arrow icon when it appears.
+2. Select the down arrow icon when it appears.
 
     ![Down arrow icon sorted table column](assets/table-sort.png)
 

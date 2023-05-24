@@ -1,25 +1,22 @@
 ---
 description: The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Metrics, Segments, and Functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple calculated metrics or complex advanced calculated metrics.
-title: Build Metrics
+title: Build metrics
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 ---
-# Build Metrics
+# Build metrics
 
-The Calculated Metrics Builder provides a canvas to drag and drop Dimensions, Metrics, Segments, and Functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple calculated metrics or complex advanced calculated metrics.
+Adobe Analytics provides a canvas to drag and drop dimensions, metrics, segments, and functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex calculated metrics.
 
-There are several ways to get to the Calculated Metric Builder:
+You can begin creating a calculated metric in any of the follows ways:
 
-* In Analysis Workspace, open a project and click  **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
-
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or 
-
-* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* In Analysis Workspace, open a project, then select **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
+* In Analysis Workspace, open a project, then select the **Plus** icon next to the [!UICONTROL **Metrics**] section in the left rail.
+* In [!DNL Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, then select **[!UICONTROL + Add]** at the top of the Calculated metrics page.
 
 ![](assets/cm_builder_ui.png)
 
-## UI Components {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## Available fields and areas {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

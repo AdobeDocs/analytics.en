@@ -10,27 +10,35 @@ Depending on your permissions, you can share metrics with your whole organizatio
 
 |  Role | Permissions |
 |---|---|
-|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin console.  |
+|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin Console. |
 |  Non-Administrator  | Can share metrics only with individual users.  |
 
-When should you share metrics with the entire company versus just a group of users or individuals? Here are some best practices you might follow:
+To share a calculated metric:
 
-* As an Admin, share a metric with **[!UICONTROL All]** if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an approved metric.
-* As an Admin, share a metric with a specific **[!UICONTROL Group]** if the metric provides good business value for that team.
-* As an Admin or an individual user, share a metric with other individuals to vet and validate it. If it doesn't prove useful, it can be discarded. Do not officially approve this type of metric.
+1. In the Calculated Metric Manager, select the checkbox to the left of any metrics that you want to share. 
 
-1. In the Calculated Metric Manager, mark the checkbox next to the metric you want to share. The task bar appears:
+1. Select **[!UICONTROL Share]**.
 
-   ![](assets/cm_task_bar.png)
-
-1. Click the **[!UICONTROL Share]** icon.
+   The Share Calculated metric dialog box displays.
 
    ![](assets/cm_share.png)
 
-   If you are an Admin, you can select **[!UICONTROL All]** or choose from **[!UICONTROL Groups]** and (scroll down to) **[!UICONTROL Users]** in your organization. As a non-Admin, you can see only individual users. Use the **[!UICONTROL Search]** field to search for groups or users 
+1. Choose who you want to share with:
 
-1. Click **[!UICONTROL Share]**.
+   * **[!UICONTROL All]** (Administrators only): Shares with all users in the organization.
+
+     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+   
+   * **[!UICONTROL Groups]** (Administrators only): Select any groups you want to share with.
+
+     Consider sharing with a group if the metric provides good business value for that team.
+   
+   * **[!UICONTROL Individual users]**: Search for and select the individual users you want to share with.
+
+      This is the only share option available to all users. Administrators might want to use this option to vet and validate a metric prior to making it available to a group or to everyone. If the metric isn't useful, it can be discarded. Administrators should not officially approve this type of metric.
+
+1. Select **[!UICONTROL Share]**.
 
    The Shared icon appears next to the metric:  ![](assets/share_icon.png)
 
-1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
+1. (Optional) To filter the list of calculated metrics in the Calculated metrics manager to show only metrics that are shared with you, select the **Filter** icon, expand **[!UICONTROL Other filters]**, then select **[!UICONTROL Shared with me]**.

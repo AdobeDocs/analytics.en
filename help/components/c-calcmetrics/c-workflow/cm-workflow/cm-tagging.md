@@ -12,28 +12,38 @@ All users can create tags for calculated metrics and apply one or more tags to a
 
 >[!TIP]
 >
->The most useful types of tags are usually tags that are based on:
+>The most useful types of tags are usually tags that are based on the following criteria:
 
 * **Team names**, such as Social Marketing, Mobile Marketing.
 * **Projects** (analysis tags), such as Entry-page analysis.
 * **Categories**, such as Women's; Geography.
 * **Workflows**, such as To be approved; Curated for (a specific business unit)
 
-To apply a tag to a calculated metric:
+## Apply tags to a calculated metric
 
-1. In the Calculated metric manager, mark the checkbox next to the metric you want to tag. 
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-   The management tool bar appears.
+1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag. 
+
+   ![](assets/cm_add_tags.png)
    
-1. Click **[!UICONTROL Tag]** and either
+1. In the **[!UICONTROL Tag Calculated metric]** dialog box:
 
-    * select from existing tags, or 
-    * add a new tag name in the Add Tags/Search dialog box and press **[!UICONTROL Enter]**.
+    * Add a new tag. Type the name in the [!UICONTROL **Add tags**] field, then press Enter.
+    * Select one or more existing tags to apply to the selected metrics. 
 
-      ![](assets/cm_add_tags.png)
+1. Select [!UICONTROL **Save**] to apply the tags.
 
-1. Click **[!UICONTROL Tag]** again to tag the metric.
+## View applied tags
 
-The tag should now appear in the Tags column. (Click the gear icon on the top right to manage your columns.)
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** > **[!UICONTROL Tags]**.
+1. In the Calculated metrics manager, tags appear in the [!UICONTROL **Tags**] column. (Click the gear icon on the top-right to manage your columns.)
+
+## Filter metrics by tags
+
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
+
+1. In the Calculated metrics manager, select the **Filter** icon, then select the tags that you want to filter by. 
+
+   Only metrics that have the filter you select are shown.

@@ -8,7 +8,7 @@
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
 
-1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), then select any of the following filter options to filter the list of components:
+1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select any of the following filter options to filter the list of components:
 
    |Option | Function |
    |---------|----------|

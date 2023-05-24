@@ -80,9 +80,9 @@ This video give a short overview of what segment containers are and how to use t
 
 You can access the Segment Builder by:
 
-* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
+* Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
   or 
 

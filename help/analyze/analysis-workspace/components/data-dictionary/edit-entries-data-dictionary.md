@@ -23,20 +23,20 @@ To edit a component in the Data Dictionary:
 
 1. (Optional) In the search field, begin typing the name of the component you want to edit.
 
-    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](assets/dimension-icon.png) are orange, **Segments** ![Segment icon](assets/segment-icon.png) are blue, **Date ranges** ![Date range icon](assets/date-range-icon.png) are purple, and **Metrics** ![Metric icon](assets/default-metric-icon.png) are green. The Adobe icon ![Adobe icon](assets/default-calc-metric-icon.png) indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
+    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
 {{dd-filter-criteria}}
 
-1. (Optional) Select the **Sort** icon ![Sort components icon](assets/component-sort-icon.png), then select any of the following filter options to sort the list of components:
+1. (Optional) Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
 
-1. From the list of components, select the component you want to edit.
+2. From the list of components, select the component you want to edit.
 
-1. Select the **Edit** icon ![Data Dictionary Edit icon](assets/data-dictionary-edit-icon.png) next to the component name. 
+3. Select the **Edit** icon ![Data Dictionary Edit icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) next to the component name. 
 
-1. Edit any of the following information about the component:
+4. Edit any of the following information about the component:
 
    {{dd-component-information}}
 
-1. Click the **Save** icon ![Data Dictionary Save icon](assets/data-dictionary-save-icon.png) to save your changes.
+5. Click the **Save** icon ![Data Dictionary Save icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) to save your changes.

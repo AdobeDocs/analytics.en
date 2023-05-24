@@ -10,7 +10,7 @@ Describes the two main ways of finding your metrics: sorting and filtering.
 
 ## Sorting {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-When you open a report and click the Metrics icon  ![](assets/metrics_icon.png) to the left of a report to bring up the Metrics rail, the **[!UICONTROL Sort By]** drop-down list in the Metrics Selector shows four sorting options:
+When you open a report and click the Metrics icon  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) to the left of a report to bring up the Metrics rail, the **[!UICONTROL Sort By]** drop-down list in the Metrics Selector shows four sorting options:
 
 ![](assets/cm_sort.png)
 

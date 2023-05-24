@@ -80,18 +80,18 @@ Available filters include:
 
 Adding a segment control lets you switch segments from within a workbook instead of having to go into the Request Wizard.
 
-1. Click the Control icon ( ![](assets/control_icon.png)) next to the segment drop-down.
+1. Click the Control icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) next to the segment drop-down.
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. Notice the option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+2. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
+3. Notice the option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
     * If checked, all requests that use this control are refreshed.
     * If not checked, the associated request parameters are updated, but the requests are not refreshed.
 
-1. Specify the upper left cell location of the segment control.
-1. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
+4. Specify the upper left cell location of the segment control.
+5. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
 
    ![](assets/seg_control2.png)
 

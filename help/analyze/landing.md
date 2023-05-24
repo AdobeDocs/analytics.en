@@ -202,13 +202,13 @@ To display and manage company reports
 
 1.  In the report list, select a single report or select multiple reports.
 
-2.  Click the **...** elilpsis icon next to a report to view the available options (Delete, Rename, Tag, and Approve). 
+1.  Click the **...** elilpsis icon next to a report to view the available options (Delete, Rename, Tag, and Approve). 
 
     ![Company report actions](assets/company-reports-actions.png)
 
-3.  Select an option (Delete, Rename, Tag, and Approve).
+1.  Select an option (Delete, Rename, Tag, and Approve).
 
-4.  To return to the regular view when your done, in the filter rail, uncheck the Company reports option again.
+1.  To return to the regular view when your done, in the filter rail, uncheck the Company reports option again.
 
 ### Delete a company report
 

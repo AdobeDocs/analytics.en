@@ -46,7 +46,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
+Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
@@ -54,7 +54,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
    ![](assets/seg_list.png)
 
-1. Check which segment(s) you want to apply.
+2. Check which segment(s) you want to apply.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Adding a segment control lets you switch segments from within a workbook instead
 
 ## Refresh the list of segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Any time you add a new segment or edit an existing one, you should click the Refresh icon ( ![](assets/refresh_icon.png) to refresh the cached list of segments.
+Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to refresh the cached list of segments.
 
 ## Manage segments across requests {#section_C3D63FCBE1A94369A319243313B03C93}
 

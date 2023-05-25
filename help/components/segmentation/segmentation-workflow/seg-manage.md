@@ -11,7 +11,7 @@ The Segment Manager offers many ways of curating segments, such as sharing, filt
 The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. Access the Segment Manager by
 
 * Going to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in the top navigation.
-* Displaying an existing report and clicking the Segments icon  ![](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**.
+* Displaying an existing report and clicking the Segments icon  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. Then click **[!UICONTROL Manage]**.
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

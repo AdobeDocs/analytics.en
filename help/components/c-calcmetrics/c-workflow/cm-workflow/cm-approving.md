@@ -14,7 +14,7 @@ Here is how to flag a calculated metric as approved:
 1. Click **[!UICONTROL Approve]** in the management task at the top.
 1. Consider sharing the approved calculated metric/s with your organization.
 1. Click **[!UICONTROL OK]**.
-1. Notice the approval icon next to the calculated metric in the list:  ![](assets/cm_approve_icon.png)
+2. Notice the approval icon next to the calculated metric in the list:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
-1. You can also click **[!UICONTROL Unapprove]** to take this metric off the list of approved ones.
-1. And you can filter on approved metrics by clicking **[!UICONTROL Show Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Approved]**.
+3. You can also click **[!UICONTROL Unapprove]** to take this metric off the list of approved ones.
+4. And you can filter on approved metrics by clicking **[!UICONTROL Show Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Approved]**.

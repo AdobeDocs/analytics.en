@@ -27,8 +27,8 @@ When should you share metrics with the entire company versus just a group of use
 
    If you are an Admin, you can select **[!UICONTROL All]** or choose from **[!UICONTROL Groups]** and (scroll down to) **[!UICONTROL Users]** in your organization. As a non-Admin, you can see only individual users. Use the **[!UICONTROL Search]** field to search for groups or users 
 
-2. Click **[!UICONTROL Share]**.
+1. Click **[!UICONTROL Share]**.
 
    The Shared icon appears next to the metric:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
-3. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.

@@ -106,7 +106,7 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 
 * People outside your organization 
 
-* People within your organization who are not provisioned with Adobe Analytics  
+* People within your organization who do not have access to Adobe Analytics  
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >
 >* Projects with more than 50 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
 >
->* Users you share with can view any filters that were applied to the project during [curation](curate.md). 
+>* Users you share the project with can view any filters that were applied to the project during [curation](curate.md). 
 > 
 >* Users you share with can change the project date range. The date range you set for the project is shown by default.
 >

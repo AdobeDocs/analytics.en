@@ -55,19 +55,19 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud Solutions Menu <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud Solutions Menu <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Clicking this icon expands the Experience Cloud menu to allow you to access other Marketing Could solutions. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Toggle Reports Menu <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Toggle Reports Menu <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
    <td colname="col2"> Clicking this button expands or collapses the Reports menu so you can to view a report using the entire width of the browser window. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="15px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Brings up the segment rail that lets you add or manage segments. You can also access the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder</a> and <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  > Segment Manager</a> interfaces from the segment rail. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Metrics <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Metrics <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Brings up the metrics rail that lets you add or manage metrics and calculated metrics. </td> 
   </tr> 
   <tr> 
@@ -111,11 +111,11 @@ Press the Tab key or the Down Arrow key (?) to navigate through the list of repo
    <td colname="col2"> Lets you perform all or some of the following actions: print it, extract data from it, add an alert to it, create a custom report, copy a graph, link to this report, and open a new window. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Report Suite Selector <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">Report Suite Selector <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2">Lets you select <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  > base report suites</a> or <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  > virtual report suites</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Calendar <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1">Calendar <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg" width="15px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2">Brings up the <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  > calendar</a> so you can determine the reporting period. </td> 
   </tr> 
  </tbody> 

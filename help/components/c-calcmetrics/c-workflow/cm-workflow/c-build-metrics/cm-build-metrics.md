@@ -109,15 +109,15 @@ You can begin creating a calculated metric in any of the follows ways:
    <td colname="col2"> <p>List of Metrics </p> </td> 
    <td colname="col3"> <p>Metrics come in 3 categories: </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Standard metrics ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Calculated metrics ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">Metrics templates ( <img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - at the bottom of the list. </li> 
-    </ul> <p>When you hover over a metric, you can see the Info icon to the right of it: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicking this icon gives you the following information: </p> 
+     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Standard metrics ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Calculated metrics ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_8735E76637ED4C3F983731A66E04C93E">Metrics templates ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - at the bottom of the list. </li> 
+    </ul> <p>When you hover over a metric, you can see the Info icon to the right of it: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicking this icon gives you the following information: </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">The formula of how it is calculated. </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">A preview trend of the metric. </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">An edit (pencil) icon at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li> 
-    </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
+     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">An edit (pencil) icon <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li> 
+    </ul> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>List of Segments </p> </td> 

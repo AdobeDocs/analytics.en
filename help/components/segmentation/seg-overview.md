@@ -96,7 +96,7 @@ Access the Segment Manager by:
 
 * Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or 
 
-* Displaying an existing report and clicking the Segments icon  ![Segment icon](assets/segment_icon.png) in the left navigation. Then click **[!UICONTROL Manage]**, or 
+* Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. Then click **[!UICONTROL Manage]**, or 
 
 * Pressing the slash key '/' anywhere in the interface and searching for segment manager.
 

@@ -62,7 +62,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
 ## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** segments by clicking on the Filter icon:  ![](assets/segment_filter.png)
+**Filter** segments by clicking on the Filter icon:  ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Available filters include: 
 

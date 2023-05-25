@@ -5,9 +5,9 @@ title: Calculated and Advanced Calculated (Derived) Metrics
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-# Calculated and Advanced Calculated (Derived) Metrics
+# Calculated and Advanced Calculated (Derived) metrics
 
-Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
+Calculated and Advanced Calculated (or Derived) metrics are custom metrics that you can create from existing metrics.
 
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
@@ -16,9 +16,9 @@ Our Calculated Metrics tools offer a highly flexible way of building, managing a
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calculated + Advanced Calculated 
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Calculated + Advanced Calculated
 
-Here is a comparison of Calculated Metrics and Advanced Calculated Metrics capabilities: 
+Here is a comparison of Calculated metrics and Advanced Calculated metrics capabilities: 
 
-|  Builder Options  | Calculated Metrics  | Advanced Calculated (Derived) Metrics  |
+|  Builder Options  | Calculated metrics  | Advanced Calculated (Derived) metrics  |
 |---|---|---|
 | [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | Yes  | Yes  |
 | [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |
@@ -38,11 +38,11 @@ You can
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
-* (Advanced Calculated Metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. Here is a video on this topic:
+* (Advanced Calculated metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. Here is a video on this topic:
 
   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Advanced Calculated Metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
+* (Advanced Calculated metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
 ## Limitations {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -59,7 +59,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools: 
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

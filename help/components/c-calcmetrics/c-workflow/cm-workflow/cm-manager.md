@@ -10,6 +10,10 @@ The Calculated metrics page offers many ways of curating metrics, such as sharin
 
 The Calculated metrics page shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. 
 
+## Access the Calculated metrics manager
+
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
+
 ## Areas of the Calculated metrics manager
 
 The following image and accompanying table explain some of the main areas and features of the Calculated metrics manager. 
@@ -31,7 +35,3 @@ The following image and accompanying table explain some of the main areas and fe
 | Not shown in image | **Date modified:** Indicates the date when the custom metric was last modified.  |
 
 {style="table-layout:auto"}
-
-## Access the Calculated metrics manager
-
-1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].

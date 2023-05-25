@@ -6,7 +6,13 @@ exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
 ---
 # Approve calculated metrics
 
-In the Calculated metrics manager, you can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
+In the Calculated metrics manager, administrators can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
+
+>[!NOTE]
+>
+>Administrators can also approve calculated metrics (and other components) from the Data Dictionary, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). 
+>
+>Any calculated metrics that are approved in the Data Dictionary are reflected in the Calculated metrics manager. Similarly, metrics that are approved in the Calculated metrics manager are reflected in the Data Dictionary.
 
 To mark calculated metrics as approved:
 

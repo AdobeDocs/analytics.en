@@ -10,7 +10,7 @@ The following information explains how to create a metric that shows which Marke
 
 1. Begin creating a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. In the Calculated metrics builder, name the metric "Assisted Orders".
+1. In the Calculated metrics builder, name the metric "Assisted Orders" or something similar.
 
 1. In the Definition canvas, drag in an Orders metric. Then, adjust the attribution model through the settings gear by checking the **[!UICONTROL Use non-default attribution models]** checkbox.
 

@@ -23,9 +23,7 @@ To specify the metric type when building a calculated metric:
    |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
    |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## Column attribution model
-
-## How linear allocation works (as of July 19, 2018)
+## How linear allocation works
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 

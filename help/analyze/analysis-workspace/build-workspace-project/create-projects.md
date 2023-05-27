@@ -3,6 +3,7 @@ description: Learn the basics of creating a project in Analysis Workspace
 title: Create projects
 feature: Workspace Basics
 role: User, Admin
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
 ---
 # Create projects
 
@@ -104,4 +105,3 @@ To add a component:
 As you create an analysis in Analysis Workspace, your work is [automatically saved](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). 
 
 When you finish building out the project and it's gathering actionable insights, the project is ready to be consumed by others. You can share the project with users and groups in your organization, or even with people outside your organization. For information about sharing a project, see [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-

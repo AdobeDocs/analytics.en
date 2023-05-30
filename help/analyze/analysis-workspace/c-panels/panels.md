@@ -94,13 +94,13 @@ Right-clicking a drop-down filter provides the following options:
 
 [Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
-<!--### Dynamic drop-down filters
+### Dynamic drop-down filters
 
 Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
 This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down filters for that panel.
 
 To create a dynamic drop-down filter:
 
@@ -108,7 +108,7 @@ To create a dynamic drop-down filter:
 * Dynamic drop-down filters are not available for metrics, segments, or date ranges.
 * Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
 
 ## Right-click menu {#right-click}
 

@@ -20,4 +20,4 @@ In JavaScript implementations using `AppMeasurement.js`, configuration variables
 
 >[!IMPORTANT]
 >
->Make sure all configuration variables are set before calling a tracking method ([`t()`](../functions/t-method.md) or [`tl()`](../functions/tl-method.md)). Avoid setting configuration variables in the [`doPlugins()`](../functions/doplugins.md) function.
+>Make sure that all configuration variables are set before calling a tracking method ([`t()`](../functions/t-method.md) or [`tl()`](../functions/tl-method.md)). Avoid setting configuration variables in the [`doPlugins()`](../functions/doplugins.md) function.

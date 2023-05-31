@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **June 2023** | |
+| Calculated metrics updates | Updates were made to various articles related to calculated metrics, including updating screen shots and steps in procedures. These changes were made to bring documentation inline with current Adobe Analytics functionality. |
 | **May 2023** | |
 | Spectrum icons | Replaced, where appropriate, screenshots of user interface icons in the documentation with references to the equivalent icons in [Adobe's Spectrum Design System](https://spectrum.adobe.com/page/icons/). |
 | Improved IP-to-geolocation mapping | Created a topic on [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |

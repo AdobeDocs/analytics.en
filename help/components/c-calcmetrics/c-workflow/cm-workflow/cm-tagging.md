@@ -14,10 +14,10 @@ All users can create tags for calculated metrics and apply one or more tags to a
 >
 >The most useful types of tags are usually tags that are based on the following criteria:
 >
->* **Team names**, such as Social Marketing, Mobile Marketing.
+>* **Team names**, such as Social Marketing or Mobile Marketing.
 >* **Projects** (analysis tags), such as Entry-page analysis.
->* **Categories**, such as Women's; Geography.
->* **Workflows**, such as To be approved; Curated for (a specific business unit)
+>* **Categories**, such as Women's or Geography.
+>* **Workflows**, such as To be approved or Curated for (a specific business unit)
 
 ## Apply tags to a calculated metric
 

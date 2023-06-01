@@ -10,7 +10,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## Major new features {#features-major}
+## Release highlights {#highlights}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
@@ -20,6 +20,7 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | **Classification sets - automated import** |  |  | June 7, 2023 |
 | **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. |  | June 12, 2023 |
 | **Bot reporting in Workspace** | Bot reporting is now available in Analysis Workspace. This feature comes with several additions:<ul><li>A new dimension: [Bot name](/help/components/dimensions/bot-name.md)</li><li>Two new metrics: [Bot page views](/help/components/metrics/bot-page-views.md) and [Bot occurrences](/help/components/metrics/bot-occurrences.md).</li><li>A new calculated metric template: [Bot page views ratio](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>A new Workspace report: Bot reporting</li></ul>The new dimension and metrics contain data that is backfilled starting in March 2023. | | June 28,2023 |
+| **New AppMeasurement variable** | The variable `doubleEncodeLinkParameters` 
 
 {style="table-layout:auto"}
 
@@ -32,12 +33,13 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | **Deep Linking (Mobile App)** | Allows users to send links to scorecards that will lead them directly to the scorecard project in the app. This makes it even easier to share projects and boost engagement from a less technical audience. [Learn more](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | N/A | May 17, 2023 |
 | **Dynamic drop-down filters** | We are introducing a new type of drop-down filter that determines available values based on data within the panel's reporting range and values in other drop-down filters. You can use dynamic drop-down filters by dragging a dimension into the panel dropzone while holding [!UICONTROL Shift]. Static drop-down filters remain unchanged by dragging a group of dimension items into the panel dropzone while holding [!UICONTROL Shift]. [Learn more](/help/analyze/analysis-workspace/c-panels/panels.md) |  | June 28, 2023 |
 | **Updated Analytics Learning page** | The Learning tab on the Adobe Analytics landing page now contains the following enhancements:<ul><li>Improved design that shows more learning content on a single page with improved navigation</li><li>Ability to personalize learning content by experience level (Beginner, Intermediate, and Advanced)</li></ul>[Learn more](/help/analyze/landing.md) |  | June 30,2023 |
+| **Sort components in Analysis Workspace** | A new Sort option is now available when viewing components either in the left rail or in the Data Dictionary in Analysis Workspace. You can sort components by Recommended (those most commonly used), Alphabetical, or Categorical (type).<p>Previously, you could only search or filter components. [Learn more](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/A | TBD |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-tbd
+AN-311878; AN-313968; AN-314130; AN-315701; AN-315761; AN-316613; AN-317563; AN-318829; AN-319009; AN-319043; AN-319066; AN-319166; AN-319245; AN-319271; AN-319381; AN-319391; AN-319482; AN-319621; AN-319637; AN-319676; AN-320176; AN-320221; AN-320225; AN-320286; AN-320312; AN-320316; AN-320449; AN-320477; AN-320492; AN-320538; AN-320556; AN-320569; AN-320679; AN-320684; AN-320786; AN-320802; AN-320811; AN-320812; AN-320815; AN-321032; AN-321033; AN-321070; AN-321096; AN-321105; AN-321122; AN-321337; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

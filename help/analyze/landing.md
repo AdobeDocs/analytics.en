@@ -217,13 +217,24 @@ Admins can delete a report using the Company report list option (described above
 ![Other filters](assets/delete-fr-create-project-modal.png)
 
 
-## Navigate the Learning tab {#navigate-learning}
+## Use the Learning tab {#navigate-learning}
 
-The Learning page contains hands-on video tours and tutorials, plus links to documentation.
+The Learning page contains hands-on video tours, tutorials, and links to documentation.
 
-* The [!UICONTROL Workspace Fundamentals] Tour takes you directly to Workspace and walks you through the Workspace layout and where to find/perform the most common actions. This Tour can also be relaunched any time directly in Workspace via the tool tip pop-over from the panel header.
-* Clicking a video/tour adds a **[!UICONTROL Viewed]** tag. This tag helps you track your progress through the learning content. You can click the tag and it disappears, in case you have not completed the content yet.
-* The **[!UICONTROL Learn more]** button on the video modal takes you to an Adobe Experience League documentation page with more help content related to the video you just watched.  **[!UICONTROL View more videos]** takes you to the full Analysis Workspace YouTube playlist.
+Use the Learning page in Adobe Analytics to learn beginner, intermediate, or advanced features and use-cases in Adobe Analytics.
+
+### Access the Learning page
+
+1. In Adobe Analytics, select [!UICONTROL **Workspace**] > [!UICONTROL **Learning**].
+
+### Learning page features
+
+* **Filter content:** The Filter icon in the left rail allows you to filter learning content by experience level (Beginner, Intermediate, or Advanced) and by content type (Document, Video, or Tours & tutorials).
+* **Track progress:** After you select a piece of content, a **[!UICONTROL Viewed]** tag appears. This tag helps you track your progress through the learning content. You can select the **[!UICONTROL Viewed]** tag to remove it from a piece of content.
+* **View additional content:** While viewing any video, select the **[!UICONTROL Learn more]** button to view related documentation content on Experience League. Or, from the Learning page, select either of the following options to view additional content:
+  * **[!UICONTROL Visit YouTube]:** View the full Analysis Workspace YouTube playlist.
+  * [!UICONTROL **Visit Experience League**]: View the full suite of Adobe Analytics documentation on Experience League. 
+* **Fundamentals for new users:** The [!UICONTROL Workspace Fundamentals] tour is recommended for new users. This tour takes you directly to Workspace and walks you through the most common actions. This tour can also be relaunched any time in Workspace via the tooltip pop-over from the panel header.
 
 ## Set your landing page {#set-landing}
 

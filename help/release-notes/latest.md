@@ -18,9 +18,9 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | **Classification sets - consolidation** |   |  | June 7, 2023 |
 | **Classification sets - rule builder** |  |  | June 7, 2023 |
 | **Classification sets - automated import** |  |  | June 7, 2023 |
+| **New AppMeasurement variable** | The variable `doubleEncodeLinkParameters`... |  | June 7, 2023 |
 | **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. |  | June 12, 2023 |
 | **Bot reporting in Workspace** | Bot reporting is now available in Analysis Workspace. This feature comes with several additions:<ul><li>A new dimension: [Bot name](/help/components/dimensions/bot-name.md)</li><li>Two new metrics: [Bot page views](/help/components/metrics/bot-page-views.md) and [Bot occurrences](/help/components/metrics/bot-occurrences.md).</li><li>A new calculated metric template: [Bot page views ratio](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>A new Workspace report: Bot reporting</li></ul>The new dimension and metrics contain data that is backfilled starting in March 2023. | | June 28,2023 |
-| **New AppMeasurement variable** | The variable `doubleEncodeLinkParameters` 
 
 {style="table-layout:auto"}
 

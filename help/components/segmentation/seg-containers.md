@@ -29,7 +29,7 @@ Visitor containers can include values based on a visitor's overall history:
 
 ## Visit container
 
-The Visit container lets you identify page interactions, campaigns, or conversions for a specific web session. The Visit container is the most commonly used container because it captures behaviors for the entire visit session once the rule is met and lets you define which visits you want to include or exclude in building and applying a segment. It can help you answer the question of how many visitors viewed the News and Sports section in the same visit? Or pages that attributed to a successful conversion to a sale?
+The Visit container lets you identify page interactions, campaigns, or conversions for a specific web session. A segment at the Visit level returns the page that meets the condition plus all other pages viewed as part of the visit session (and only constrained by defined date ranges). The Visit container is the most commonly used container because it captures behaviors for the entire visit session once the rule is met and lets you define which visits you want to include or exclude in building and applying a segment. It can help you answer the question of how many visitors viewed the News and Sports section in the same visit? Or pages that attributed to a successful conversion to a sale?
 
 Visit containers include values based on occurrence per visit:
 
@@ -45,14 +45,14 @@ The Hit container defines which page hits you would like to include or exclude f
 
 Hit containers include values based single page breakdowns:
 
-* Products 
-* List Props 
-* List eVars 
-* Merchandising eVars (in context of events) 
+*   Products 
+*   List Props 
+*   List eVars 
+*   Merchandising eVars (in context of events) 
 
-  >[!NOTE]
-  >
-  >If you use this container on a value that persists, such as an evar, it will pull in every hit where that value is persisting. In the case of a tracking code that expires after a week, that value could be persisting across multiple visits.
+    >[!NOTE]
+    >
+    >If you use this container on a value that persists, such as an evar, it will pull in every hit where that value is persisting. In the case of a tracking code that expires after a week, that value could be persisting across multiple visits.
 
 ## Logic Group container
 
@@ -240,7 +240,8 @@ When you view data from the Visitor container, notice that the page views have i
 
 ![](assets/container_report_persist_Visitor.png)
 
-In summary,
+## Summary
 
+* The Visitor container returns all pages seen by a visitor where at least one page meets the criteria. So, if a page is only seen on visit 1 on day 1, then all pages viewed by the visitor across multiple visits are included in the data.
 * The Visit container returns all the pages seen in a visit where at least one page meets the criteria. So, if a page is only seen on visit 1 on day 1, then all pages viewed across the entire visit are included in the data.
 * Be careful when the condition you are segmenting on is on an eVar or other type of persistent variable. For example, you might use the condition "where campaign contains email" and it expires after 7 days. So, if the campaign is set on the first visit, it will persist for 7 more days. Each visit will be included even though the campaign was only set on the first visit. The other visits will also be included (as long as they are in the date range of the report). If you want to eliminate persistent values from being included, either use the event "instance of", or an equivalent Prop variable, if available.

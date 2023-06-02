@@ -5,6 +5,7 @@ title: Segment containers
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 ---
+
 # Segment containers
 
 A Segment sets conditions to filter a visitor based on the visitor's attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment Builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
@@ -359,6 +360,28 @@ Showing segment values from the Visit container, you can see that the number of 
 ### Reporting from the Visitor container
 
 If this same condition is within a Visitor container, the report lists all pages viewed by any visitor where *Page equals Winter Coats* is true. This condition means that if a visitor viewed the Winter Coats page, then all pages in the Visitor container (including page views in other visits) are listed. Therefore, pages that don't match the condition are also listed in the report because the visitor viewed them at a previous time. All pages in the Visitor container are listed in the report, even if occurred previously and do not specifically meet the conditions.
+
+| Visit 1<br/>Page | <br/>Page Views |
+|---|--:|
+| Home | 1 |
+| Winter Apparel | 1 |
+| Winter Coat | 1 |
+| Purchase | 1 |
+
+| Visit 2<br/>Page | <br/>Page Views |
+|---|--:|
+| Winter Apparel | 2 |
+| Winter Boots | 1 |
+| Winter Hats | 1 |
+
+| Visit 1 + Visit 2<br/>Page | <br/>Page Views |
+|---|--:|
+| Winter Apparel | 3 |
+| Home | 1 |
+| Winter Coat | 1 |
+| Purchase | 1 |
+| Winter Boots | 1 |
+| Winter Hats | 1 |
 
 ![](assets/container_overview_visitors.png)
 

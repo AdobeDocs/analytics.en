@@ -19,6 +19,17 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **June 2023** | |
+| Calculated metrics updates | Updates were made to various articles related to calculated metrics, including updating screen shots and steps in procedures. These changes were made to bring documentation inline with current Adobe Analytics functionality. |
+| **May 2023** | |
+| Spectrum icons | Replaced, where appropriate, screenshots of user interface icons in the documentation with references to the equivalent icons in [Adobe's Spectrum Design System](https://spectrum.adobe.com/page/icons/). |
+| Improved IP-to-geolocation mapping | Created a topic on [FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| Reporting Activity Manager | Updated this beta documentation, specifically the section on [Viewing reporting activity for individual report suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Analysis Workspace overview | Updated [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to include more general overview information and links to relevant content. |
+| Create projects | Created a new article that explains in detail how to [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |
+| Sort components in the left rail | Added information about sorting the list of components in the left rail.See the "Search, filter, and sort the component list" section in [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Delete rows containing dynamic dimensions from a Freeform table | Added information about how to quickly delete specific rows that contain dynamic dimensions using the x icon. See the "Quickly exclude specific rows from a table" section in [Filter and sort tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).|
+| Button to add a visualization within a panel | Added information about a new button at the bottom of each panel in Analysis Workspace that allows you to quickly add a visualization. See the "Add visualizations to a panel" section in [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **April 2023** | |
 | Transfer user assets and set account expirations | Added information about how to [transfer user assets and set account expirations](/help/admin/admin/user-management2/users-assets.md). |
 | 2 new endpoint guides for the Adobe Analytics 2.0 API |<ul><li>[Analytics Dimensions API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |

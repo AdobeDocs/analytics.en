@@ -8,7 +8,7 @@
 
 ## Data Dictionary filter criteria {#dd-filter-criteria}
 
-1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), then select any of the following filter options to filter the list of components:
+1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select any of the following filter options to filter the list of components:
 
    |Option | Function |
    |---------|----------|
@@ -41,6 +41,16 @@
    | [!UICONTROL **Created by**] | Displays the name of the user who created the component. |
    | [!UICONTROL **Preview**] | Shows a preview of how the component looks in Analysis Workspace. |
    | [!UICONTROL **Date last modified**] | Displays the day the component was last modified. This section is displayed when viewing Segments, Calculated metrics, and Date ranges. |
+
+   {style="table-layout:auto"}
+
+## Components sort options {#components-sort-options}
+
+   |Option | Function |
+   |---------|----------|
+   | [!UICONTROL **Recommended**] | Sorts components with those that are recommended at the top of the list. Components that are used most frequently and most recently by you or by others in your organization are shown higher in the list. |
+   | [!UICONTROL **Alphabetical**] | Sorts components alphabetically. |
+   | [!UICONTROL **Categorical**] | Sorts components according to component type (dimension, metric, segment, date range). |
 
    {style="table-layout:auto"}
 

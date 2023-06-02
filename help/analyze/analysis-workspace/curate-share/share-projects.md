@@ -106,7 +106,7 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 
 * People outside your organization 
 
-* People within your organization who are not provisioned with Adobe Analytics  
+* People within your organization who do not have access to Adobe Analytics  
 
 >[!NOTE]
 >
@@ -116,9 +116,11 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >
 >* Projects with more than 50 expanded visualizations can't be shared with people who don't have access to Adobe Analytics.
 >
->* Users you share with can view any filters that were applied to the project during [curation](curate.md). 
+>* Users you share the project with can view any filters that were applied to the project during [curation](curate.md). 
 > 
 >* Users you share with can change the project date range. The date range you set for the project is shown by default.
+>
+>* A project might become inaccessible if many users attempt to access a given link at the same time. By default, more than 190 people can access a single link every 5 minutes. If your organization reaches this limit, wait 5 minutes and then try accessing the link again.
 
 To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
 
@@ -148,13 +150,13 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
      * If this option is enabled and dimmed, your Analytics administrator requires Experience Cloud authentication for anyone accessing Analysis Workspace projects. 
 
-1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon ![Copy link icon](assets/copy-link-icon.png) to copy the link to your system clipboard. 
+1. Next to the **[!UICONTROL Share with anyone (no login required)]** field, click the **Copy link** icon ![Copy link icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) to copy the link to your system clipboard. 
 
 1. Share the link with the people you want to have access to the project. For example, you can paste the link in an email. 
    
    Any person you share the link with can view the Analysis Workspace project.
 
-1. (Optional) You can click the **Generate new link** icon ![Generate link icon](assets/regenerate-link.png) to remove access from users who previously received a link to the project. A new link is generated that you can share with users who you want to access the project. 
+1. (Optional) You can click the **Generate new link** icon ![Generate link icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to remove access from users who previously received a link to the project. A new link is generated that you can share with users who you want to access the project. 
 
 1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved.
 

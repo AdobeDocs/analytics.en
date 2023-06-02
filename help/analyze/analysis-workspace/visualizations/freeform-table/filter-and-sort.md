@@ -16,20 +16,41 @@ Freeform tables in Analysis Workspace are the foundation for interactive data an
 >[!NOTE]
 >
 > Only dynamic dimension items can be filtered as described in this section. Static dimension items cannot be filtered. For more information, see [Dynamic vs static dimension items in freeform tables](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+### Quickly exclude specific rows from a table
+
+You can quickly exclude specific rows from the table without needing to open the Filter dialog. 
+
+>[!NOTE]
+>
+>When you exclude rows as described in this section, a [!UICONTROL **Always exclude items**] rule is automatically applied in the advanced filter dialog. (You can view the applied rule by selecting the Filter icon, then [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+
+To quickly exclude specific rows from a Freeform table:
+
+1. Hover over the row you want to exclude, then select the x icon. 
+
+   Hold the Shift key to select a range rows, or hold the Command key (on Mac) or the Ctrl key (on Windows) to select multiple rows.
+
+### Apply a simple or advanced filter to a table
  
  To filter data in Freeform tables:
  
- 1. In a Freeform table, hover over the column that contains the data you want to filter. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+ 1. Hover over the column that contains the data you want to filter. <!--only some types of columns show the filter... Which? Just Dimensions?-->
  
  1. Select the **Filter** icon when it appears.
 
     ![Filter icon in a table](assets/table-filter-icon.png)
 
- 1.  In the [!UICONTROL **Search word or phrase**] field, specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase specified are shown. 
+    The following options are available:
+
+    |Option | Function | 
+    |---------|----------|
+    | [!UICONTROL **Search word or phrase**] | Specify a word or phrase that you want to filter by. Only rows that contain the word or exact phrase specified are shown. |
+    | [!UICONTROL **Include unspecified (none)**] | Select this option to show data in the table that does not fall into any of the dimensions of the table. <!--what is this?--> |
 
  1. (Optional) To filter by different criteria or by multiple criteria, select [!UICONTROL **Show advanced**]. 
 
-    The following options are available
+    The following advanced filter options are available:
 
     |Option | Function | 
     |---------|----------|
@@ -40,19 +61,19 @@ Freeform tables in Analysis Workspace are the foundation for interactive data an
 
  1. Select [!UICONTROL **Apply**] to filter the data.
 
-    The **Filter** icon ![Blue filter icon filtered table](assets/table-filter-blue-icon.png) turns blue when a filter is applied to the table. 
+    The **Filter** icon ![Blue filter icon filtered table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) turns blue when a filter is applied to the table. 
 
 ## Sort tables
 
 You can sort the data of a Freeform table by any column in Analysis Workspace that is a Metric. 
 
-A down arrow icon ![Down arrow icon sorted table column](assets/table-sort-arrow-icon.png) is visible in the header of the column that data is currently being sorted by. 
+A down arrow icon ![Down arrow icon sorted table column](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) is visible in the header of the column that data is currently being sorted by. 
 
 To sort the data in a Freeform table by a particular column:
 
 1. Hover over the column title by which you want to sort the data.
 
-1. Select the down arrow icon when it appears.
+2. Select the down arrow icon when it appears.
 
     ![Down arrow icon sorted table column](assets/table-sort.png)
 

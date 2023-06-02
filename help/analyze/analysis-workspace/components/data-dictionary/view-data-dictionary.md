@@ -25,9 +25,13 @@ To view information about a component in the Data Dictionary:
 
 1. (Optional) In the search field, begin typing the name of the component you want to view.
 
-   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](assets/dimension-icon.png) are orange, **Segments** ![Segment icon](assets/segment-icon.png) are blue, **Date ranges** ![Date range icon](assets/date-range-icon.png) are purple, and **Metrics** ![Metric icon](assets/default-metric-icon.png) are green. The Adobe icon ![Adobe icon](assets/default-calc-metric-icon.png) indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization.  
+   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicated a calculated metric that was created by an Analytics administrator in your organization.   
 
 {{dd-filter-criteria}}
+
+1. (Optional) Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
+
+   {{components-sort-options}}
 
 1. From the list of components, select the component you want to view.
 

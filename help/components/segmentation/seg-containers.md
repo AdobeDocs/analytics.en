@@ -354,7 +354,7 @@ Showing segments from the Visitor container, you can see that the Page Views and
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors:<br/> | **240,094** of 351,292<br/>**83,823** of 165,175<br/>**63,541** of 113,169<br/> | **68%**<br/>**50%**<br/>**56%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **240,094** of 351,292<br/>**83,823** of 165,175<br/>**63,541** of 113,169 | **68%**<br/>**50%**<br/>**56%** |
 
 <!--![](assets/container_report_Visitor.png)-->
 
@@ -460,7 +460,7 @@ Showing data from the Hit container, just over 92,000 page views were viewed in 
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors:<br/> | **98,234** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110<br/> | **27%**<br/>**20%**<br/>**28%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **98,234** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110 | **27%**<br/>**20%**<br/>**28%** |
 
 <!--![](assets/container_report_persist_PV.png)-->
 
@@ -481,7 +481,7 @@ Because all pages have the same referring domain value based on the visit, the r
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors:<br/> | **98,248** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110<br/> | **27%**<br/>**20%**<br/>**28%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **98,248** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110 | **27%**<br/>**20%**<br/>**28%** |
 
 <!--![](assets/container_report_persist_Visit.png)-->
 
@@ -521,7 +521,7 @@ When you view data from the Visitor container, notice that the page views have i
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors:<br/> | **112,925** of 351,165<br/>**43,448** of 165,173<br/>**32,269** of 113,110<br/> | **32%**<br/>**26%**<br/>**28%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **112,925** of 351,165<br/>**43,448** of 165,173<br/>**32,269** of 113,110 | **32%**<br/>**26%**<br/>**28%** |
 
 <!--![](assets/container_report_persist_Visitor.png)-->
 

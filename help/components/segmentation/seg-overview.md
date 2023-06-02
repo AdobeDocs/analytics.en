@@ -23,10 +23,10 @@ Segments identify
 
 Segments can be based in the following values:
 
-* Visitors based on attributes: browser type, device, number of visits, country, gender.
-* Visitors based on interactions: campaigns, keyword search, search engine.
-* Visitors based on exits and entries: visitors from Facebook, a defined landing page, referring domain.
-* Visitors based on custom variables: form field, defined categories, customer ID.
+- Visitors based on attributes: browser type, device, number of visits, country, gender.
+- Visitors based on interactions: campaigns, keyword search, search engine.
+- Visitors based on exits and entries: visitors from Facebook, a defined landing page, referring domain.
+- Visitors based on custom variables: form field, defined categories, customer ID.
 
 When building audience segments in the Segment Builder, you define conditions using the [!UICONTROL AND] and [!UICONTROL OR] operators between containers.
 
@@ -102,21 +102,21 @@ When building audience segments in the Segment Builder, you define conditions us
 
 This type of segment filters data sets based on characteristics joined using the [!UICONTROL AND] and [!UICONTROL OR] operators.
 
-* You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-* Segments are universal to all report suites.
-* The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifies segment creation.
-* The [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
-* You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders.
-* You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* The [!UICONTROL Page View] container is now the [!UICONTROL Hit] container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container.
+- You can [apply multiple segments to a report or project](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+- Segments are universal to all report suites.
+- The [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifies segment creation.
+- The [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) lets you set up [workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) with segment sharing, tagging, verification, and approval features.
+- You can [tag segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to organize and search later instead of using folders.
+- You can create [Sequential Segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+- The [!UICONTROL Page View] container is now the [!UICONTROL Hit] container to indicate that this container segments all types of data and not just page views. For example, link tracking calls, and trackAction calls from the mobile SDKs are all included or excluded by the hit container.
 
 ## Segmentation in Analysis Workspace
 
 Analysis Workspace contains these additional features:
 
-* You can [compare segments](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
-* Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
-* Use segments in [fallout analysis](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
+- You can [compare segments](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
+- Use [segments as dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in a comparison.
+- Use segments in [fallout analysis](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Adobe-provided segments
 

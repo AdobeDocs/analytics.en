@@ -122,6 +122,10 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >
 >* A project might become inaccessible if many users attempt to access a given link at the same time. By default, more than 190 people can access a single link every 5 minutes. If your organization reaches this limit, wait 5 minutes and then try accessing the link again.
 
+The following video demonstration and accompanying documentation describe the options associated with sharing a link with anyone:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
 
 1. Open the Analysis Workspace project that you want to share.
@@ -142,7 +146,7 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
    * **[!UICONTROL Require Experience Cloud authentication]:** 
    
-     When this option is enabled, only users who can log in to the Adobe Experience Cloud organization where the project that you are sharing was created can access the project.
+     When this option is enabled, the only users who can access the project are those users who can log in to the Adobe Experience Cloud organization where the project that you are sharing was created. However, users you share with do not need to have access to Adobe Analytics.
 
      Analytics administrators can configure this preference for the company, as described in [Preferences](/help/analyze/analysis-workspace/user-preferences.md). You might encounter the following scenarios, depending on how the administrator configured this option:
      

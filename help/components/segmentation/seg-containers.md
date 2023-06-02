@@ -292,7 +292,7 @@ Reporting from the Hit container, you can see how reporting from different conta
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors: | **69,252** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **19%**<br/>**40%**<br/>**56%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **69,252** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **19%**<br/>**40%**<br/>**56%** |
 
 
 <!--![](assets/container_report_PV.png)-->
@@ -318,7 +318,7 @@ Showing segment values from the Visit container, you can see that the number of 
 
 |<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
 |---|---|--:|--:|
-| | Page Views:<br/>Views:<br/>Unique Visitors: | **226,193** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **64%**<br/>**40%**<br/>**56%**<br/>Last 90 days |
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **226,193** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **64%**<br/>**40%**<br/>**56%** |
 
 <!--![](assets/container_report_Visit.png)-->
 

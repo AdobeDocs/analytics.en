@@ -364,7 +364,7 @@ In summary, understanding how segmentation works on various data breakdowns is k
 
 Every breakdown of segment data has a scope to which it is applied. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. It is important to understand reporting based on the scope of your container.
 
-Using the *Page = Winter Coats* segment example, below are examples of the results of this segment based on how the container data is applied and how the scope of the data matches the segment type.
+Using the `Page equals Winter Coats` segment example, below are examples of the results of this segment based on how the container data is applied and how the scope of the data matches the segment type.
 
 ### Segment container based on matching segment rule
 
@@ -401,7 +401,7 @@ Segment data can vary based on the persistence of a dimension or applied variabl
 
 In contrast to the Page dimension, the Referring Domain value is attached to each page in this visit. For example, the visitor below arrives at the Home page from a referred site. Therefore, all pages within that visit are assigned the same referring domain value.
 
-The *Referring Domain equals aol.com* segment below is applied to the **Pages Report**.
+The `Referring Domain equals aol.com` segment below is applied to the **Pages Report**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -445,9 +445,9 @@ In a new visit, the visitor is referred from another site. Therefore, all pages 
 
 ### Reporting from the Hit container
 
-Because all page views within the same visit are assigned the same Referring Domain value, reporting at the Hit container level where *Referring Domain = "aol.com"* returns all pages listed in the table below.
+Because all page views within the same visit are assigned the same Referring Domain value, reporting at the Hit container level where `Referring Domain equsls 'aol.com'` returns all pages listed in the table below.
 
-| Referring Domain = 'aol.com' | Page Views |
+| Referring Domain equals 'aol.com' | Page Views |
 |----|---:|
 | Home | 1 |
 | Winter Apparel | 1 |
@@ -466,9 +466,9 @@ Showing data from the Hit container, just over 92,000 page views were viewed in 
 
 ### Reporting from the Visit container
 
-If this same condition is filtered in the Visit container for a Pages report, then all pages in the visit where *Referring Domain = "aol.com"* is true. Because the value of the referring domain is set at the visit level, reports at the Page View and Visit levels are the same.
+If this same condition is filtered in the Visit container for a Pages report, then all pages in the visit where `Referring Domain equals 'aol.com'`is true. Because the value of the referring domain is set at the visit level, reports at the Page View and Visit levels are the same.
 
-| Referring Domain = 'aol.com' | Page Views |
+| Referring Domain equals 'aol.com' | Page Views |
 |----|---:|
 | Home | 1 |
 | Winter Apparel | 1 |
@@ -487,11 +487,11 @@ Because all pages have the same referring domain value based on the visit, the r
 
 ### Reporting from the Visitor container
 
-From the Visitor container, the Page report lists all pages viewed by any visitor where *Referring Domain equals "aol.com"* is true. Therefore, if a visitor had *"aol.com"* as a referring domain at any time in the history (within the defined time period), then all pages in the Visitor container (including page views in other visits) are listed. Even pages that don't match the primary condition are listed in the report because these pages are included in the Visitor container. All pages in the Visitor container are listed in the report, even if they occurred previously and do not specifically meet the conditions.
+From the Visitor container, the Page report lists all pages viewed by any visitor where `Referring Domain equals 'aol.com'` is true. Therefore, if a visitor had *'aol.com'* as a referring domain at any time in the history (within the defined time period), then all pages in the Visitor container (including page views in other visits) are listed. Even pages that don't match the primary condition are listed in the report because these pages are included in the Visitor container. All pages in the Visitor container are listed in the report, even if they occurred previously and do not specifically meet the conditions.
 
-In a Referring Domain report, *Referring Domain = "aol.com"* is true in four page views, but *Referring Domain = "weather.com"* is true in the other pages the visitor hit. From the Visitor container, you get a list of Visitors where "aol.com" is true. But it also gives you pages where the referring domain is "weather.com", not the value that matched your initial request in the segment.
+In a Referring Domain report, `Referring Domain equals 'aol.com'` is true in four page views, but `Referring Domain equals "weather.com"` is true in the other pages the visitor hit. From the Visitor container, you get a list of Visitors where 'aol.com' is true. But it also gives you pages where the referring domain is "weather.com", not the value that matched your initial request in the segment.
 
-| Visit 1<br/>Referring Domain = 'aol.com' | <br/>Page Views |
+| Visit 1<br/>Referring Domain equals 'aol.com' | <br/>Page Views |
 |----|---:|
 | Home | 1 |
 | Winter Apparel | 1 |
@@ -504,15 +504,15 @@ In a Referring Domain report, *Referring Domain = "aol.com"* is true in four pag
 | Winter Coat | 1 |
 | Purchase | 1 | 
 
-| Visitor container<br/>Referring Domain = 'aol.com' | Page Views |
+| Visitor container<br/>Referring Domain equals 'aol.com' | Page Views |
 |----|---:|
-| Winter Apparel<br/>Referring Domain = 'aol.com' | 1 |
-| Winter Apparel<br/>Referring Domain = 'weather.com' | 1 |
-| Home <br/>Referring Domain = 'aol.com' | 1 |
-| Winter Coat <br/>Referring Domain = 'aol.com' | 1 |
-| Purchase<br/>Referring Domain = 'aol.com' | 1 |
-| Winter Boots<br/>Referring Domain = 'weather.com' | 1 |
-| Winter Hats<br/>Referring Domain = 'weather.com' | 1 |
+| Winter Apparel<br/>Referring Domain: 'aol.com' | 1 |
+| Winter Apparel<br/>Referring Domain: 'weather.com' | 1 |
+| Home <br/>Referring Domain: 'aol.com' | 1 |
+| Winter Coat <br/>Referring Domain: 'aol.com' | 1 |
+| Purchase<br/>Referring Domain: 'aol.com' | 1 |
+| Winter Boots<br/>Referring Domain: 'weather.com' | 1 |
+| Winter Hats<br/>Referring Domain: 'weather.com' | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->

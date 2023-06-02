@@ -4,7 +4,7 @@ description: Enable or disable AppMeasurement double encoding link tracking vari
 ---
 # doubleEncodeLinkParameters
 
-The `doubleEncodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `false`) or twice (if set to `true`). It impacts only `linkName` (part of the [`tl()](../functions/tl-method.md) method) and [`linkURL`](linkurl.md). It requires AppMeasurement 2.23.1 or higher to use.
+The `doubleEncodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `false`) or twice (if set to `true`). It impacts only `linkName` (part of the [`tl()`](../functions/tl-method.md) method) and [`linkURL`](linkurl.md). It requires AppMeasurement 2.23.1 or higher to use.
 
 In previous versions of AppMeasurement, link tracking variables were URL encoded twice. This double encoding created URL encoded values for multi-byte characters in reports.
 

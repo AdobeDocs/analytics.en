@@ -18,7 +18,7 @@ The container architecture employed in the Segment Builder defines
  
 Each container lets you report across a visitor's history, interactions broken down by visits, or break down individual hits.
 
-<table style="table-layout:fixed;">
+<table style="table-layout: fixed; border: 0; ">
 <tr>
 <td style="background-color: #FFFFFF; " colspan="5">
 <tr>

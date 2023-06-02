@@ -18,21 +18,25 @@ The container architecture employed in the Segment Builder defines
  
 Each container lets you report across a visitor's history, interactions broken down by visits, or break down individual hits.
 
-<table style="table-layout: fixed; border: 0; ">
+<table style="table-layout: fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
+<td style="background-color: #FFFFFF; border: 0; " colspan="5">
+</tr>
+
+<tr style="border: none;">
 <td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitors</td>
 <td></td>
 </tr>
+
 <tr>
 <td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
 <td></td>
 </tr>
+
 <tr>
 <td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
@@ -40,6 +44,7 @@ Each container lets you report across a visitor's history, interactions broken d
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
 <td></td>
 </tr>
+
 <tr>
 <td colspan="5">
 <tr>
@@ -291,7 +296,7 @@ Based on the container selected, the report displays different results.
 <td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Home</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase<br/>$100</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase $100</td>
 <td></td>
 </tr>
 <tr>
@@ -452,7 +457,7 @@ The *Referring Domain equals aol.com* segment below is applied to the **Pages Re
 <td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Home</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase<br/>$100</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase $100</td>
 <td></td>
 </tr>
 <tr>

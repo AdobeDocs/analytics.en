@@ -21,36 +21,22 @@ Each container lets you report across a visitor's history, interactions broken d
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #FFFFFF; border: 0; " colspan="5">
-</tr>
-
-<tr style="border: none;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitors</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_container_hierarchy.png)
+<!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
 Here is a video overview of segment containers:
 
@@ -134,133 +120,109 @@ builds a segment that behaves in this order:
 
 Sequential segmentation employs the same basic containers, including [!UICONTROL Visitors], [!UICONTROL Visits], and [!UICONTROL Hits] (including page views or other dimensions) nested hierarchically.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitors</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/nesting_container.png)
+<!--![](assets/nesting_container.png)-->
 
 [!UICONTROL Visitors] constitute the highest-order container in sequential segmentation, with [!UICONTROL Visits] contained within the [!UICONTROL Visitors] container, and [!UICONTROL Hits] contained within the [!UICONTROL Visitors] or [!UICONTROL Visits] containers. This [container hierarchy](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) must be maintained to build well-ordered sequential segments.
 
 **To build sequential segments**, containers are nested and sequential logic joined using the [!UICONTROL THEN] operator that requires each container to be `true` based on the sequence of the visitor.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitors</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_nesting_3.png)
+<!--![](assets/sequential_segmentation_nesting_3.png)-->
 
 The only exception to this hierarchy of containers is when using the [Logic Group container](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). The [!UICONTROL Logic Group] container lets you nest a hit within a container without order to capture events and dimensions but outside of a sequential order.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitors</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> Group</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visits</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
+
 </table>
 
-![](assets/logic_group_hierarchy.png)
+<!--![](assets/logic_group_hierarchy.png)-->
 
 ## Reports based on container data {#reports}
 
@@ -272,24 +234,19 @@ Data captured at each level of the Visitor > Visit > Hit containers hierarchy af
 
 For example, the visitor depicted below visited a site on the first visit, landed on the Home page and then visited three additional pages and converted the visit to a sale. On a separate visit, the visitor landed this time through Product page, then to the Home page, back to the Product page, and then closed the session after looking at Winter Hats. Based in the data captured for each container for the segment, different values are shown in the report.
 
-The *Pages equals Winter Coat* segment below is applied to the **Pages Report**.
+The `Pages equals Winter Coat` segment below is applied to the **Pages Report**.
 
-![](assets/page_winter_coat.png)
 
-Based on the container selected, the report displays different results.
+Based on the container selected, the report displays different results for the following visits and page views by a visitor.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:auto; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visit 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Visit 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -297,19 +254,17 @@ Based on the container selected, the report displays different results.
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase $100</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visit 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Visit 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -317,15 +272,11 @@ Based on the container selected, the report displays different results.
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Boots</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Winter Hats</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 
-![](assets/container_overview.png)
+<!--![](assets/container_overview.png)-->
 
 ### Reporting from the Hit container
 
@@ -335,11 +286,16 @@ When this condition is within a Hit container, then the report lists only pages 
 |---|--:|
 | Winter Coat | 1 |
 
-![](assets/container_overview_PV.png)
+<!--![](assets/container_overview_PV.png)-->
 
 Reporting from the Hit container, you can see how reporting from different containers effect overall reporting values. Viewing the segment report, notice that page views are approximately equal to visits (about 2,000 visitors saw duplicate pages within a visit which adds to the total number of page views). And unique visitors are approximately equal to the number of visits (about 2,000 unique visitors visited more than once).
 
-![](assets/container_report_PV.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **69,252** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **19%**<br/>**40%**<br/>**56%** |
+
+
+<!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
@@ -356,11 +312,15 @@ If this same condition is within a Visit container, then the report lists all pa
 | Winter Coat | 1 |
 | Purchase | 1 |
 
-![](assets/container_overview_visit.png)
+<!--![](assets/container_overview_visit.png)-->
 
 Showing segment values from the Visit container, you can see that the number of page views has increased significantly. This increase is because reporting from the Visit container identifies all pages that meet the conditions, plus all other pages viewed in the visit (with all page views captured in each Visit container).
 
-![](assets/container_report_Visit.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **226,193** of 351,292<br/>**67,554** of 165,175<br/>**63,541** of 113,169 | **64%**<br/>**40%**<br/>**56%** |
+
+<!--![](assets/container_report_Visit.png)-->
 
 ### Reporting from the Visitor container
 
@@ -388,11 +348,15 @@ If this same condition is within a Visitor container, the report lists all pages
 | Winter Boots | 1 |
 | Winter Hats | 1 |
 
-![](assets/container_overview_visitors.png)
+<!--![](assets/container_overview_visitors.png)-->
 
 Showing segments from the Visitor container, you can see that the Page Views and Visits have increased. This increase is because, from the visitor level, if the visitor visited the Winter Coats page only once (making the condition true), then all other page views and all other visits  captured for that visitor.
 
-![](assets/container_report_Visitor.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **240,094** of 351,292<br/>**83,823** of 165,175<br/>**63,541** of 113,169 | **68%**<br/>**50%**<br/>**56%** |
+
+<!--![](assets/container_report_Visitor.png)-->
 
 In summary, understanding how segmentation works on various data breakdowns is key to interpreting the data it returns.
 
@@ -431,26 +395,22 @@ Using segment with a smaller container than the breakdown scope returns unexpect
 
 Filtering by dimensions that persist across a range of pages, such as a Campaign eVar or a Referring dimension, affects the data collected at the container level and must be understood for reporting accuracy.
 
-Segment data can vary based on the persistence of a dimension or applied variable across selected pages. Some dimensions, such as the Page dimension, provide unique values at the page level and are filtered based on data from the Hit container. (See the [Reports based on Container Data](/help/components/segmentation/seg-overview.md) example). Other dimensions, such as the Referring Domain dimension, persist across multiple pages for a visit. Some dimensions or applied variables, such as Visit Duration, span across a visitor's entire history.
+Segment data can vary based on the persistence of a dimension or applied variable across selected pages. Some dimensions, such as the Page dimension, provide unique values at the page level and are filtered based on data from the Hit container. (See the [Reports based on Container Data](/help/components/segmentation/seg-overview.md) example). Other dimensions, such as the Referring Domain dimension, persist across multiple pages for a visit. For example: `Referring Domain equals aol.com`. Some dimensions or applied variables, such as Visit Duration, span across a visitor's entire history.
 
-![](assets/RefDomain_aol.png)
+<!--![](assets/RefDomain_aol.png)-->
 
 In contrast to the Page dimension, the Referring Domain value is attached to each page in this visit. For example, the visitor below arrives at the Home page from a referred site. Therefore, all pages within that visit are assigned the same referring domain value.
 
 The *Referring Domain equals aol.com* segment below is applied to the **Pages Report**.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visit 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Visit 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
@@ -458,19 +418,17 @@ The *Referring Domain equals aol.com* segment below is applied to the **Pages Re
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Purchase $100</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visit 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Visit 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
 </td>
@@ -478,11 +436,7 @@ The *Referring Domain equals aol.com* segment below is applied to the **Pages Re
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Boots</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Apparel</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Winter Hats</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
@@ -500,11 +454,15 @@ Because all page views within the same visit are assigned the same Referring Dom
 | Winter Coat | 1 |
 | Purchase | 1 | 
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Showing data from the Hit container, just over 92,000 page views were viewed in over 33,000 Visits by just over 32,000 Visitors. On average, there were three page views in each visit, and almost all visits were by unique visitors.
 
-![](assets/container_report_persist_PV.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **98,234** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_PV.png)-->
 
 ### Reporting from the Visit container
 
@@ -517,11 +475,15 @@ If this same condition is filtered in the Visit container for a Pages report, th
 | Winter Coat | 1 |
 | Purchase | 1 | 
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Because all pages have the same referring domain value based on the visit, the report from the Visit container level is (almost) the same to the report from the Page View container. There is a slight offset (98,234 versus 98,248) due to data anomalies.
 
-![](assets/container_report_persist_Visit.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **98,248** of 351,165<br/>**33,203** of 165,173<br/>**32,269** of 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visit.png)-->
 
 ### Reporting from the Visitor container
 
@@ -553,14 +515,15 @@ In a Referring Domain report, *Referring Domain = "aol.com"* is true in four pag
 | Winter Hats<br/>Referring Domain = 'weather.com' | 1 |
 
 
-
-
-
-![](assets/container_overview_persist_Visitor.png)
+<!--![](assets/container_overview_persist_Visitor.png)-->
 
 When you view data from the Visitor container, notice that the page views have increased significantly (from 98,248 to 112, 925). This increase is because all page views by the visitor (including those pages with other referring domain values saved to at the Visitor container level) have been listed. And the additional visits by that visitor, increasing visits from 33,203 to 43,448.
 
-![](assets/container_report_persist_Visitor.png)
+|<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/>   | Metric | # | %|
+|---|---|--:|--:|
+| | Page Views:<br/>Views:<br/>Unique Visitors: | **112,925** of 351,165<br/>**43,448** of 165,173<br/>**32,269** of 113,110 | **32%**<br/>**26%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visitor.png)-->
 
 ## Summary
 

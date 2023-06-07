@@ -100,8 +100,6 @@ To share the project link with users in your organization:
 
 ## Share a project with anyone (no login required) {#share-public-link}
 
-{{release-limited-testing-section}}
-
 You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people who don't have access to Adobe Analytics. This can include:
 
 * People outside your organization 

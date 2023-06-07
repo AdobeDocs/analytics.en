@@ -230,9 +230,9 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Classifications overview](classifications/c-classifications.md)
   + Classification sets {#sets}
     + [Classification sets overview](classifications/sets/overview.md)
-    + [Create a classification set](classifications/sets/create.md)
     + Manage {#manage}
-      + [Classification set manager](classifications/sets/set-manager.md)
+      + [Classification set manager](classifications/sets/manage/set-manager.md)
+      + [Create a classification set](classifications/sets/manage/create.md)
       + [Classification set settings](classifications/sets/manage/settings.md)
       + [Classification set schema](classifications/sets/manage/schema.md)
       + [Classification set rules](classifications/sets/manage/rules.md)

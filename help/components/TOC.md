@@ -228,12 +228,16 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/c-classifications.md)
-  + Classification Sets {#sets}
-    + [Classification Sets Overview](classifications/sets/overview.md)
-    + [Classification Sets Manager](classifications/sets/set-manager.md)
-    + [Classification Set Jobs Manager](classifications/sets/job-manager.md)
-    + [Create a Classification Set](classifications/sets/create.md)
-    + [Classification Set Settings](classifications/sets/settings.md)
+  + Classification sets {#sets}
+    + [Classification sets overview](classifications/sets/overview.md)
+    + [Create a classification set](classifications/sets/create.md)
+    + Manage {#manage}
+      + [Classification set manager](classifications/sets/set-manager.md)
+      + [Classification set settings](classifications/sets/manage/settings.md)
+      + [Classification set schema](classifications/sets/manage/schema.md)
+      + [Classification set rules](classifications/sets/manage/rules.md)
+    + [Classification set jobs manager](classifications/sets/job-manager.md)
+    + [Classification set consolidations](classifications/sets/consolidations.md)
   + Classification Rule Builder {#classifications-rulebuilder}
     + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
     + [Classification rule sets](classifications/crb/classification-rule-set.md)

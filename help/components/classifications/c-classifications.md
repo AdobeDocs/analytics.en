@@ -10,7 +10,7 @@ A classification is a way of categorizing Analytics variable data, then displayi
 
 Adobe offers multiple ways to classify data. All classification data operates the same in reporting, and you can combine any of these methods that best fits your organization. Each classification method provides their own advantages.
 
-* **Classification Sets**: Create and manage classifications and their rules in a single, simplified interface.
+* **Classification sets**: Create and manage classifications and their rules in a single, simplified interface.
 * **Classification Rules**: Create rules that assign a given dimension item to a classification dimension item. This method to classify data is best when a dimension frequently encounters new unique values or where manual classification would be frequent and burdensome.
 * **Classification Importer**: Export a template spreadsheet with dimension items in each row. Columns represent each classification for a dimension. This method to classify data is best when all dimension items are known and does not require frequent updating.
 

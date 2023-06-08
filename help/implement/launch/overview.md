@@ -2,6 +2,7 @@
 title: Implement Adobe Analytics using the Analytics extension
 description: Learn how to implement Adobe Analytics using tags and Analytics extension
 feature: Launch Implementation
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 ---
 # Implement Adobe Analytics using the Analytics extension
 
@@ -31,7 +32,7 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>2</td>
-<td><b>Create a data layer</b>to manage the tracking of the data on your website.</td>
+<td><b>Create a data layer</b> to manage the tracking of the data on your website.</td>
 <td>
 <a href="../prepare/data-layer.md">Create a data layer</a>
 </td>

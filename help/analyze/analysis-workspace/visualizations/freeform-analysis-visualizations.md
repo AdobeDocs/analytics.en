@@ -10,9 +10,7 @@ exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 
 Workspace offers a number of visualizations that let you generate visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. Most visualization types will be familiar to you if you use Adobe Analytics. However, Analysis Workspace provides visualization settings and many new or unique visualizations types with interactive capabilities.
 
-You can access visualizations from the top left icon in Workspace, a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), or through the right-click menu in your workflow. 
-
-![](assets/viz-rail.png)
+## Visualization types
 
 The following visualization types are available in Analysis Workspace:
 
@@ -28,6 +26,7 @@ The following visualization types are available in Analysis Workspace:
 | [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
 | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
 | [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
 | [Line](/help/analyze/analysis-workspace/visualizations/line.md) | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
 | [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Lets you build a visual map of any metric (including calculated metrics). |
 | [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Shows the relationship between dimension items and up to three metrics. |
@@ -36,6 +35,26 @@ The following visualization types are available in Analysis Workspace:
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | Lets you add user-defined text to your Workspace. Helpful for adding additional context to your analysis and insights, in addition to leveraging panel/visualization descriptions |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Uses circles to depict the metric overlap of up to 3 segments. |
+
+## Add visualizations to a panel
+
+1. Open the Analysis Workspace project where you want to add a visualization.
+
+1. Use any of the following methods to add the visualization:
+
+   * In the left rail, select the **Visualizations** icon <!-- add icon -->, then drag a visualization to the panel where you want to add it. 
+
+     ![](assets/viz-rail.png)
+
+   * On the panel where you want to add the visualization, select the **Plus** icon, then choose the icon that represents the visualization that you want to add. Hover over the icon for each visualization to see its name.
+
+     ![Button for adding a visualization](assets/visualization-add-to-panel.png)
+
+   * Add a [blank panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html), then choose the visualization that you want to add.
+
+     ![Blank panel](assets/blank_panel.png)
+
+   * Right-click an existing panel in your Analysis Workspace project, then select [!UICONTROL **Duplicate visualization**] or [!UICONTROL **Copy visualization**].
 
 ## Customize visualization settings
 
@@ -62,7 +81,7 @@ You can customize settings for all visualizations that you create. For more info
 | Setting | Description |
 | --- | --- |
 | Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this dropdown. This change also applies to the data source table. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
 | Percentages | Displays values in percentages. |
 | 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
 | Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |

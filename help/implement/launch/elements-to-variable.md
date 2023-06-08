@@ -36,7 +36,7 @@ Variables set in rules are ideal in cases where you don't want variables set on 
 1. Click the desired tag property.
 1. Click the [!UICONTROL Rules] tab, then click on the desired rule (or create one).
 1. Click the [!UICONTROL Add] button under [!UICONTROL Actions].
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Set the [!UICONTROL Extension] drop-down list to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
 1. Click the ![Data element](assets/data-element.png) icon to the right of the desired Analytics variable. Your organization's [solution design document](../prepare/solution-design.md) dictates what Analytics variable to use.
 1. Select the desired data element in the modal window. Click [!UICONTROL Select].
 1. The data element name is added to the text field surrounded by `%` signs. For example, if you named your data element "Page name", you would see the string `%Page name%` when assigning a data element to a variable.

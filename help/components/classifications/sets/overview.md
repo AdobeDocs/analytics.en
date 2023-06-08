@@ -9,10 +9,6 @@ Classification Sets provide a single interface to manage classifications and rul
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
->[!NOTE]
->
->Classification sets will be available to all customers who have their report suites migrated to the new Classifications architecture. Please contact Adobe Customer Care or your Account Manager for more information.
-
 The backend architecture released with Classification Sets contains several notable improvements:
 
 * Significantly reduced processing time (72 hours → 24 hours)

@@ -6,15 +6,17 @@ exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 ---
 # Adobe plug-in: inList
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `inList` plug-in allows you to check if a value already exists within either a delimited string or a JavaScript array object. Several other plug-ins depend on the `inList` plug-in to work. This plug-in provides a distinct advantage over the JavaScript method `indexOf()` where you it does not match partial strings. For example, if you used this plug-in to check for `"event2"`, it won't match with a string containing `"event25"`. This plug-in is not necessary if you don't need to check for values in delimited strings or arrays, or if you want to use your own `indexOf()` logic.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+This plug-in is not yet supported for use within the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
@@ -26,11 +28,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize inList
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.

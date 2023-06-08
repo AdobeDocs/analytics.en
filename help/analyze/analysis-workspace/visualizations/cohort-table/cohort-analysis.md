@@ -17,7 +17,6 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Shift marketing budget at exactly the right time in the customer lifecycle.
 * Recognize when to end a trial or an offer, in order to maximize value.
 * Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
-* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
 [!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 
@@ -27,7 +26,9 @@ Video on Cohort tables in Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue, >or Occurrences. Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
+>[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue), or Occurrences. 
+>
+>Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
 
 ## Cohort Analysis capabilities
 

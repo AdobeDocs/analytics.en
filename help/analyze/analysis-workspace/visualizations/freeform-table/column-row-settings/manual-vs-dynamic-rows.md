@@ -17,7 +17,7 @@ When you drop a dimension into a freeform table, dynamic rows are returned. They
 
 For example, when you drag the Browser Type dimension into the table, the top Browser Type dimension items (e.g. Microsoft, Apple, Google, etc.) dynamically return to the table rows. If dropped into a column, the top 5 Browser Type dimension items dynamically return.
 
-Dynamic dimension items have the row filter option, and do **not** have lock and X icons present.
+Dynamic dimension items have the row filter option and the X icons, and do **not** have lock icon present. <!--do they have the lock icon? --> When you click the x next to a dynamic dimension item, a filter is automatically applied. For more information about applying filters to tables, see [Filter and sort tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 

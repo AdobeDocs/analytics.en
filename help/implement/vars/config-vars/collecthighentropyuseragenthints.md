@@ -16,11 +16,8 @@ High-entropy client hints are part of the context categories in Web SDK. See [Co
 **[!UICONTROL Collect high-entropy user-agent hints]** is a check box under the General accordion when configuring the Adobe Analytics extension. 
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/@adobepm/data-collection) using your AdobeID credentials.
-
 1. Click the desired [!UICONTROL tag property].
-
 1. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-
 1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL Collect high entropy user-agent hints] check box. It is unchecked by default.
 
 ## collectHighEntropyUserAgentHints in AppMeasurement

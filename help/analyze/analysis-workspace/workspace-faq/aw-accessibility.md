@@ -47,35 +47,35 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 #### Navigation
 
-|Shortcut|Action|
-|---|---|
-|Alt + Shift + 1 / 2 / 3|Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components]| 
-|Alt + Left/Right arrow |Navigate between panels|
-|Alt + M| Collapse/expand all panels |
-|Alt+  Ctrl + M |Collapse/expand active panel |
-|Ctrl + / |Search left rail |
+| Shortcut | Action |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] | 
+| `[Alt + Left / Right]` | Navigate between panels |
+| `[Alt + M]` | Collapse/expand all panels |
+| `[Alt + Ctrl + M]` | Collapse/expand active panel |
+| `[Ctrl + /]` | Search left rail |
 
 #### Analysis creation
 
-|Shortcut|Action|
-|---|---|
-|Alt + 1 |New freeform table |
-|Ctrl + Shift + C |New calculated metric |
-|Ctrl + Shift + D |New date range |
-|Ctrl + Shift + E |New segment |
-|Ctrl + Z |Undo |
-|Hold shift (in the panel segment dropzone) |Create a [dropdown filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Shortcut | Action |
+| --- | --- |
+| `[Alt + 1]` | New freeform table |
+| `[Ctrl + Shift + C]` | New calculated metric |
+| `[Ctrl + Shift + D]` | New date range |
+| `[Ctrl + Shift + E]` | New segment |
+| `[Ctrl + Z]` | Undo |
+| `[Component drag + Shift]` | Create a drop-down filter |
 
 #### Democratization
 
-|Shortcut|Action|
-|---|---|
-|Ctrl + S |Save |
-|Ctrl + Shift + G |Curate  |
-|Ctrl + G |Share  |
-|Alt + Shift + S |Schedule  |
-|Alt + L |Get link to project |
-|Ctrl + Shift + B |Download PDF |
+| Shortcut | Action |
+| --- | --- |
+| `[Ctrl + S]` | Save |
+| `[Ctrl + Shift + G]` | Curate |
+| `[Ctrl + G]` | Share |
+| `[Alt + Shift + S]` | Schedule |
+| `[Alt + L]` | Get link to project |
+| `[Ctrl + Shift + B]` | Download PDF |
 
 ## Support for screen readers and screen magnifiers
 

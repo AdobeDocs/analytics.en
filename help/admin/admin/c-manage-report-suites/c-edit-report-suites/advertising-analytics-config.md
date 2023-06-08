@@ -2,8 +2,8 @@
 description: You can view Advertising Analytics data in Adobe Analytics
 title: Configure Advertising Analytics
 feature: Admin Tools
+exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
 ---
-
 # Configure Advertising Analytics
 
 You can configure Adobe Analytics to show all your Google and Bing Paid Search data side by side. 

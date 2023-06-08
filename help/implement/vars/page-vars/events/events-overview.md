@@ -39,21 +39,21 @@ You can set events either while configuring the Analytics extension (global vari
 2. Click the desired tag property.
 3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+5. Set the [!UICONTROL Extension] drop-down list to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
 6. Locate the [!UICONTROL Events] section.
 
 Several features are available:
 
-* A dropdown allows you to select the event to include
+* A drop-down list that allows you to select the event to include
 * An optional text field for serialization. See [event serialization](event-serialization.md) for more information.
-* An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the dropdown and including `10` in this field increments `event1` by 10 in reporting.
+* An optional text field for an event value. You can include currency for currency events, or an integer for non-currency events to increment it multiple times. For example, selecting `event1` under the drop-down list and including `10` in this field increments `event1` by 10 in reporting.
 * A button to add another event. You can add as many events as you'd like to a single rule within reason.
 
 ## s.events in AppMeasurement and the Analytics extension custom code editor
 
 The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. There is no byte limit for this variable, so it does not get truncated. Valid values include:
 
-* `event1` - `event1000`: Custom events, set however you'd like. Record how you use each event in your organization's [solution design document](../../../prepare/solution-design.md). The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your organization's account manager if you are not sure how many custom events are available to you.
+* `event1` - `event1000`: Custom events, set however you'd like. Record how you use each event in your organization's [solution design document](../../../prepare/solution-design.md). The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your Adobe Account Team if you are not sure how many custom events are available to you.
 * `purchase`: Increments the ['Orders'](/help/components/metrics/orders.md) metric by 1, and takes values set in the `products` variable to calculate ['Units'](/help/components/metrics/units.md) and ['Revenue'](/help/components/metrics/revenue.md). See [purchase event](event-purchase.md) for more information.
 * `prodView`: Increments the ['Product Views'](/help/components/metrics/product-views.md) metric.
 * `scOpen`: Increments the ['Carts'](/help/components/metrics/carts.md) metric.

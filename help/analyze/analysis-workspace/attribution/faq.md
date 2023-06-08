@@ -73,7 +73,9 @@ Yes, classifications are fully supported.
 
 ## Does attribution work with data sources?
 
-Yes, most data sources are supported. Attribution is not possible with summary-level data sources because they do not tie to an Analytics visitor identifier. Transaction ID data sources are also supported, unless they are used in a virtual report suite with report time processing enabled.
+Yes, most data sources are supported. Attribution is not possible with summary-level data sources because they do not tie to an Analytics visitor identifier.
+
+Transaction ID data sources are treated like any other hit; they don't use the special processing that they normally use in traditional reporting. In other words, when using report time processing, Transaction ID hits will have eVar values propagated from hits which occur near the timestamp of the Transaction ID hit. The values will not be propagated from hits that occurred near the time of the original transaction.
 
 ## Does attribution work with the Advertising Analytics integration?
 
@@ -81,7 +83,7 @@ Metadata dimensions, such as match type and keyword, work with attribution. Howe
 
 ## How does attribution work with marketing channels?
 
-When marketing channels were first introduced, they came with only first and last touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic 'Marketing Channel' and 'Marketing Channel Detail' dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last Touch Channel dimensions, but are labeled differently to prevent confusion when using marketing channels with a different attribution model.
+When marketing channels were first introduced, they came with only first and last touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic [!UICONTROL Marketing Channel] and [!UICONTROL Marketing Channel Detail] dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to [!UICONTROL Last Touch Channel] dimensions, but are labeled differently to prevent confusion when using marketing channels with a different attribution model.
 
 Since marketing channel dimensions depend on a traditional visit definition (as defined by their processing rules), their visit definition cannot be changed using virtual report suites.
 
@@ -101,4 +103,4 @@ For example, if you create a VRS with a "Display Hits" segment applied, you coul
 
 >[!NOTE]
 >
->If a segment suppresses hits containing your metric, those metric instances will not be attributed to any dimension. However, a similar report filter will simply hide some dimension items, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.
+>If a segment suppresses hits containing your metric, those metric instances are not attributed to any dimension. However, a similar report filter simply hides some dimension items, without any impact on metrics processed per the attribution model. As a result, a segment can return lower values than a filter with a comparable definition.

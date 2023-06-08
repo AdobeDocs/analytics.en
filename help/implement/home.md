@@ -2,6 +2,7 @@
 title: Implement Adobe Analytics
 description: Implement Adobe Analytics on your site, property, or application.
 feature: Implementation Basics
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 ---
 # Implement Adobe Analytics
 
@@ -43,8 +44,12 @@ See [Implement Adobe Analytics using the Analytics extension](launch/overview.md
 ![Legacy JavaScript](./assets/appmeasurement-implementation.png)
 This implementation method can be useful for implementations using custom code and is still recommended when you (want to) use:
 
-    *   [click-level activity map data](../analyze/activity-map/activity-map.md), 
+    *   [activity map data](../analyze/activity-map/activity-map.md), 
     
+        >[!INFO]
+        >
+        >Using the latest Web SDK, Activity Map is supported. See [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) for more information.
+
     *   [streaming media measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en),
 
     *   [livestream API or livestream triggers](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md),

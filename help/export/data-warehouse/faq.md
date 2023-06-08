@@ -8,7 +8,7 @@ exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 
 Frequently asked questions for Data Warehouse.
 
-## When I use the granularity dropdown while creating a request, what format can I expect the dates to be in?
+## When I use the granularity drop-down list while creating a request, what format can I expect the dates to be in?
 
 When applying granularity in a Data Warehouse request, the 'Date' column is added to the report. Depending on the granularity selected, the date format changes.
 

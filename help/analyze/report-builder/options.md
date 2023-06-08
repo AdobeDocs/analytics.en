@@ -10,7 +10,7 @@ exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 
 On the Options panel, you can specify the date settings, latency settings (Current Data), log information, and configure updates.
 
-1. In the Add-Ins toolbar, click **[!UICONTROL Options]** ![](assets/options_icon.png):
+1. In the Add-Ins toolbar, click **[!UICONTROL Options]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
 
 | Element | Description |
 |--- |--- |

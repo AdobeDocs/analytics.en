@@ -20,7 +20,7 @@ You can configure the A4T panel using these input settings:
 |Setting|Description|
 |---|---|
 |Target Activity|Select from a list of Target Activities, or drag & drop an activity from the left rail. Note: The list is populated with the last 6 months of activities that had at least 1 hit. If you do not see an activity in the list, it may be older than 6 months. It can still be added from the left rail, which has a look-back period of up to 18 months.|
-|Control Experience|Select your control experience. You can change it if necessary in the dropdown.|
+|Control Experience|Select your control experience. You can change it if necessary in the drop-down list.|
 |Normalizing metric| Choose from Unique Visitors, Visits, or Activity Impressions. Unique visitors is recommended for most analysis use cases. This metric (also referred to as the counting methodology) becomes the denominator of the lift calculation. It also affects how the data is aggregated before the confidence calculation is applied.|
 |Success metrics| Select up to 3 standard (non-calculated) success events from the drop-downs, or drag & drop metrics from the left rail. Each metric will have a dedicated table and visualization in the rendered panel.|
 |Calendar date range| This will auto-populate based on the Activity date range from Adobe Target. You can change it if necessary.|

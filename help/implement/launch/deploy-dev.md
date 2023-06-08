@@ -19,9 +19,9 @@ Tags accommodates many organizational workflows in deploying code. Follow these 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the tag property that you intend to implement on your site.
 3. Click **[!UICONTROL Hosts]**, then click **[!UICONTROL Add Host]**.
-4. Name it `"Adobe managed"`, and select **[!UICONTROL Managed by Adobe]** in the type dropdown. Click Save.
+4. Name it `"Adobe managed"`, and select **[!UICONTROL Managed by Adobe]** in the type drop-down list. Click Save.
 5. Navigate to **[!UICONTROL Environments]**, then click **[!UICONTROL Add Environment]**.
-6. Select **[!UICONTROL Development]**, name it `"Dev Environment"`, then select the Adobe managed host from the dropdown. Click **[!UICONTROL Save]**.
+6. Select **[!UICONTROL Development]**, name it `"Dev Environment"`, then select the Adobe managed host from the drop-down list. Click **[!UICONTROL Save]**.
 7. A modal window appears showing Web Install Instructions. We will return to this window at a later time; click **[!UICONTROL Close]** for now.
 8. Click **[!UICONTROL Add Environment]**, select **[!UICONTROL Staging]**, name it `"Staging Environment"`, then select the Adobe managed host. Click **[!UICONTROL Create]**, then close the install instructions modal window.
 9. Click **[!UICONTROL Add Environment]** again, select **[!UICONTROL Production]**, name it `"Production Environment"`, then select the Adobe managed host. Click **[!UICONTROL Create]**, then close the install instructions modal window.
@@ -36,7 +36,7 @@ Despite all the changes and configurations made so far, no code has actually bee
 4. Name the library `'Initial changes'`, and select your development environment.
 5. Click **[!UICONTROL Add All Changed Resources]**, which automatically lists Adobe Analytics, Identity Service, and Core.
 6. Click **[!UICONTROL Save]**.
-7. Back on the publishing workflow screen, click the dropdown next to your new library, and click **[!UICONTROL Build for Development]**. After a few seconds, the yellow dot on the library turns green, indicating that the build was successful.
+7. Back on the publishing workflow screen, click the drop-down list next to your new library, and click **[!UICONTROL Build for Development]**. After a few seconds, the yellow dot on the library turns green, indicating that the build was successful.
 8. Navigate to **[!UICONTROL Environments]**, then click the install icon to the right of your development environment. This action brings up the Web Install Instructions modal window again.
 9. Copy the code block(s) and provide them to your organization's website owners.
 

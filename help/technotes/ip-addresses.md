@@ -58,6 +58,8 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Japan | `66.117.31.0/24` |
 | London | `66.235.156.0/24` |
 | London | `185.34.188.0/22` |
+| London | `130.248.152.0/22` |
+| London | `130.248.244.0/23` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
@@ -75,14 +77,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 
 | Location | Host |
 | --- | --- |
-| China | `52.80.83.220` |
-| China | `71.132.16.253` |
-| China | `52.80.7.181` |
-| China | `71.131.244.185` |
-| China | `140.179.152.255` |
-| France | `13.37.25.97` |
-| France | `15.236.117.205` |
-| France | `15.236.125.10` |
+| China | `52.80.44.16` |
+| China | `52.80.161.58` |
+| China | `140.179.173.142` |
 
 The following table includes AWS IPv6 address blocks used by Adobe. These hosts are **not** included in the aggregate block range above.
 
@@ -91,6 +88,7 @@ The following table includes AWS IPv6 address blocks used by Adobe. These hosts 
 | Australia | `2406:da1c:406:1a00::/56` |
 | Australia | `2406:da1c:ce5:b400::/56` |
 | California | `2600:1f1c:366:d900::/56` |
+| France | `2a05:d012:706:d000::/56` |
 | India | `2406:da1a:f34:6a00::/56` |
 | Ireland | `2a05:d018:309:600::/56` |
 | Japan | `2406:da14:b07:ab00::/56` |

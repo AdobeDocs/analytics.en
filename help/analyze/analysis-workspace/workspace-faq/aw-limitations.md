@@ -30,7 +30,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 ## Components > Segments
 
 * Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) will not appear in the left rail of Workspace or the Segment component manager, unless they are made public. This can be done by editing the segment and selecting **[!UICONTROL Make this segment public]**.
+* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are a type of quick filter. They do not appear in the left rail of Workspace or the Segment component manager unless they are made public. For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Components > Calculated Metrics
 

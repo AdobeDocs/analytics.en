@@ -15,7 +15,7 @@ This dimension uses a combination of the [`ct` query string](/help/implement/val
 1. If the `ct` query string equals `"modem"`, set the dimension item to `"Modem"`. AppMeasurement only collects this data on unsupported Internet Explorer browsers, making this dimension item uncommon.
 1. Check the IP address of the hit and reference it to a lookup table internal to Adobe. If the IP address is from a mobile carrier, set the dimension item to `"Mobile Carrier"`.
 1. If the `ct` query string equals `"lan"`, set the dimension item to `"LAN/Wifi"`.
-1. If the hit originates from a [Data source](/help/import/c-data-sources/datasrc-home.md) or is otherwise considered a special type of hit, set the dimension item to `"Not specified"`.
+1. If the hit originates from a [Data source](/help/import/data-sources/overview.md) or is otherwise considered a special type of hit, set the dimension item to `"Not specified"`.
 1. If none of the above rules are met, default to the value of `"LAN/Wifi"`.
 
 ## Dimension items

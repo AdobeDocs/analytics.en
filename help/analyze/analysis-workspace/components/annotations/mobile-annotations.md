@@ -35,9 +35,9 @@ When annotations are enabled, annotation icons are visible in the Scorecard Buil
 
  ![](assets/view-annotations.png)
 
-When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app. ![](assets/preview-icon.png)
+When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Preview**.
 
-Annotation colors are selected when the annotation is created in workspace. Gray annotations indicated the presence of more than one annotation. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+Annotation colors are selected when the annotation is created in workspace. Gray annotations indicated the presence of more than one annotation.
 
 ## View chart annotations
 

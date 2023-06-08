@@ -1,12 +1,11 @@
 ---
-description: Administrators are responsible for monitoring Data Dictionary health. This includes whether components are gathering data, are approved, contain descriptions, and are free from duplicates. 
+description: Administrators are responsible for monitoring Data Dictionary health. This includes whether components are gathering data, are approved, contain descriptions, and are free from duplicates.
 title: Monitor Data Dictionary health
 feature: Components
 role: Admin
+exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 ---
 # Monitor Data Dictionary health
-
-{{release-limited-testing}} 
 
 Analytics administrators are responsible for maintaining a healthy Data Dictionary. 
 

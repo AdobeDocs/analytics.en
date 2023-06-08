@@ -18,7 +18,7 @@ Marketing Channels revolve around First and Last Touch metrics, which are compon
 
 ## Marketing Channels workflow
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Define each channel based on your business requirements.
+![](assets/step1_icon.png) Define each channel based on your business requirements.
 
 Defining the channels you use is one of the most important components of Marketing Channels. Defining the channels can require collaboration between several individuals in your organization. Here are a few questions to consider:
 
@@ -31,7 +31,7 @@ Defining the channels you use is one of the most important components of Marketi
 
 A list of recommended channels can be found in [Frequently Asked Questions and Examples](/help/components/c-marketing-channels/c-faq.md). Create a list of channels you want to use, so that enabling and defining them is easier when you create channels.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Add marketing channels on the [!UICONTROL Marketing Channel Manager] page.
+![](assets/step2_icon.png) Add marketing channels on the [!UICONTROL Marketing Channel Manager] page.
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
@@ -43,7 +43,7 @@ See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-rep
 >
 >If Marketing Channels have not been previously configured, the [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) displays. This setup provides several pre-configured channels that you can customize. Adobe recommends that you use these rules as a template. However, if you already have solid channel definitions, you can skip the automatic setup.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Configure or refine each channels' rules on the [!UICONTROL Marketing Channel Processing Rules] page.
+![](assets/step3_icon.png) Configure or refine each channels' rules on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 After you create channels on the [!UICONTROL Marketing Channel Manager] page, you configure the rules so that channels can retrieve and report data.
 
@@ -81,7 +81,6 @@ How to use a master report suite as a template for testing your marketing channe
 >
 >Apply channels from a template before you apply rule sets. Your channels must be the same across all report suites when performing this procedure.
 
-1. Ensure that the Marketing Channel Report is enabled for selected report suites. Your Account manager performs this step.
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. On the **[!UICONTROL Report Suite Manager]** page, select the template report suite, as well as one or more target report suites.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.

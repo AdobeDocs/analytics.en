@@ -46,7 +46,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ( ![](assets/refresh_icon.png).
+Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
@@ -54,7 +54,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
    ![](assets/seg_list.png)
 
-1. Check which segment(s) you want to apply.
+2. Check which segment(s) you want to apply.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ You can apply one or multiple segments to any given request. This includes seque
 
 ## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** segments by clicking on the Filter icon:  ![](assets/segment_filter.png)
+**Filter** segments by clicking on the Filter icon:  ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Available filters include: 
 
@@ -80,24 +80,24 @@ Available filters include:
 
 Adding a segment control lets you switch segments from within a workbook instead of having to go into the Request Wizard.
 
-1. Click the Control icon ( ![](assets/control_icon.png)) next to the segment drop-down.
+1. Click the Control icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) next to the segment drop-down.
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. Notice the option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+2. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
+3. Notice the option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
 
     * If checked, all requests that use this control are refreshed.
     * If not checked, the associated request parameters are updated, but the requests are not refreshed.
 
-1. Specify the upper left cell location of the segment control.
-1. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
+4. Specify the upper left cell location of the segment control.
+5. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
 
    ![](assets/seg_control2.png)
 
 ## Refresh the list of segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Any time you add a new segment or edit an existing one, you should click the Refresh icon ( ![](assets/refresh_icon.png) to refresh the cached list of segments.
+Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to refresh the cached list of segments.
 
 ## Manage segments across requests {#section_C3D63FCBE1A94369A319243313B03C93}
 

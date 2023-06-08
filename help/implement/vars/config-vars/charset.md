@@ -6,7 +6,7 @@ exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 ---
 # charSet
 
-The charSet variable is used by Adobe to convert incoming data into UTF-8 for storage and reporting by Analytics. Most sites do not need to set this variable.
+The `charSet` variable is used by Adobe to convert incoming data into UTF-8 for storage and reporting by Analytics. Most sites do not need to set this variable.
 
 Set this variable only if you see garbled values ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) in reports. You can set this variable on a page-by-page basis if your site uses different encodings on different pages.
 

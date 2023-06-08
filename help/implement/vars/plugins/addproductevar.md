@@ -6,9 +6,7 @@ exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 ---
 # Adobe plug-in: addProductEvar
 
->[!IMPORTANT]
->
->This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Account Manager. They can arrange a meeting with a consultant for assistance.
+{{plug-in}}
 
 The `addProductEvar` plug-in allows you to easily add an Adobe Analytics merchandising eVar that uses product syntax to the products variable without worrying whether the already-existing contents of the products variable will be changed/moved/deleted. Adobe recommends using this plug-in if you want to easily add product syntax merchandising eVars to the [`products`](../page-vars/products.md) variable. You don't need to use the `addProductEvar` plug-in if you don't use merchandising eVars with product syntax.
 
@@ -16,9 +14,13 @@ The `addProductEvar` plug-in allows you to easily add an Adobe Analytics merchan
 >
 >This plug-in does not replace eVars that already exist in a product entry. It only appends values that you set using this plug-in. Use caution when appending eVars that already exist for that product.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Install the plug-in using the Web SDK or Web SDK extension
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+This plug-in is not yet supported for use within the Web SDK.
+
+## Install the plug-in using the Adobe Analytics extension
+
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
@@ -30,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 1. Add an action to the above rule with the following configuration:
     * Extension: Common Analytics Plugins
     * Action Type: Initialize addProductEvar
-1. Save and publish the changes to the rule.-->
+1. Save and publish the changes to the rule.
 
 ## Install the plug-in using custom code editor
 
-If you do not want to use the plug-in extension, you can use the custom code editor.
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click on the desired property.

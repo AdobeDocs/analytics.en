@@ -3,6 +3,7 @@ description: Administrators can add descriptions for components using either the
 title: Add component descriptions
 feature: Components
 role: Admin
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
 ---
 # Add component descriptions
 
@@ -17,8 +18,6 @@ The following video describes how to add dimension and metric descriptions in a 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
 

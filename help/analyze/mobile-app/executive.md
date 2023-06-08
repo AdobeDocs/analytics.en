@@ -52,14 +52,20 @@ To use dashboards:
 
 1. Choose a company. After you sign in to dashboards, the **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which you belong. Tap the company name associated with the Scorecard shared with you.
 
-1. The Scorecard list then shows all Scorecards that have been shared with you. Tap the Scorecard you want to view.
+   The scorecard list shows all scorecards that are shared with you.
 
-    ![Choose a company](assets/nextseq.png)
+1.  Tap the scorecard that you want to view.
+
+    If you have access to more than one organization under one login, all scorecards from your organizations are available in the scorecard list.
+
+    You can sort the scorecard list according to scorecard title, organization name, or most recently viewed. You can even search for a specific scorecard.
+
+    ![Choose a company](assets/mobile-home-screen.png)
 
     If you log in and see a message saying that nothing has been shared, verify the following with your curator:
 
     * You can log into the right Analytics instance
-    * The Scorecard has been shared with you
+    * The scorecard has been shared with you
 
     ![Nothing shared](assets/nothing.png)
 
@@ -96,7 +102,7 @@ To use dashboards:
 
     * Depending on the interval you tap (**Day**, **Week**, **Month**, or **Year**), you will see two options for date ranges—either the present span of time or the one immediately preceding it. Tap one of these two options to select the first range. Under the **[!UICONTROL COMPARE TO]** list, tap one of the presented options to compare the data of this time period with the first date range you selected. Tap **[!UICONTROL Done]** in the upper right of the screen. The **[!UICONTROL Date Ranges]** field and the Scorecard tiles are updated with the new comparison data from the new ranges you selected.
 
-1. To apply a segment filter to your Scorecard, tap the filter dropdown and select a segment that has been configured by your curator. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
+1. To apply a segment filter to your Scorecard, tap the filter drop-down and select a segment that has been configured by your curator. [Filters](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in the app function the same way they do in Analytics Workspace.
 
     ![Segment filter](/help/admin/admin/assets/filter.png)
 

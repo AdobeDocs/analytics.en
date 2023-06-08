@@ -2,7 +2,7 @@
 title: Classification set schema
 description: View and edit the schema for an individual classification set.
 ---
-## Schema
+# Schema
 
 View currently configured classification dimensions for this classification set.
 

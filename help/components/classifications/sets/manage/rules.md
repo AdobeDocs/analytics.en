@@ -6,6 +6,8 @@ description: View and edit rules for an individual classification set.
 
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
+
 ## Rule settings
 
 Settings that apply to the entire set of rules.

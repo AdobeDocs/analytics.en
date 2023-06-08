@@ -9,7 +9,7 @@ The Classification set manager allows you to create, edit or delete classificati
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]**
 
-Classification sets consist of **Subscriptions** (report suite and dimension combinations) and **Classification names** (The additional dimensions containing classification data).
+Classification sets consist of **Subscriptions** (report suite and dimension combinations) and **Classification names** (dimensions containing classification data). Subsriptions are configured under [Settings](settings.md), while classification names are configured under [Schema](schema.md).
 
 ## Filter classification sets
 
@@ -41,5 +41,5 @@ Select one or more classification sets by clicking the checkbox next to the desi
 
 * **[!UICONTROL Tag]**: Add one or more tags to the selected classification set(s), which allows you to organize or group classification sets to make them easier to locate in the future.
 * **[!UICONTROL Delete]**: Deletes the classification set. Classification dimensions based on this classification set are no longer available. Scheduled projects using the deleted classification set continue using dependent dimensions until you re-save the scheduled project.
-* **[!UICONTROL Consolidate]**: Start a new [consolidation](../consolidations.md).
+* **[!UICONTROL Consolidate]**: Start a new [consolidation](../consolidations/process.md).
 * **[!UICONTROL Rename]**: Rename the selected classification set.

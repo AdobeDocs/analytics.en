@@ -4,7 +4,11 @@ description: View and edit the schema for an individual classification set.
 ---
 ## Schema
 
-View currently configured classification dimensions for this classification set. The following buttons are available:
+View currently configured classification dimensions for this classification set.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Schema]**
+
+The following buttons are available:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
 * **[!UICONTROL Upload]**: Manually upload classification data for one or more classification dimensions. `JSON`, `CSV`, `TSV`, and `TAB` files are supported. Uploading a valid file shows a table preview of data to classify.

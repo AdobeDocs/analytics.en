@@ -5,7 +5,7 @@ exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 ---
 # Create a classification set
 
-You can use the Classification set Manager to create a classification set.
+You can use the Classification set manager to create a classification set.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 
@@ -18,4 +18,4 @@ When creating a classification set, the following fields are available.
 
 ![Create a Classification set](../assets/classification-set-create.png)
 
-If a classification set exists for a given report suite + variable, the classification is added to the schema instead.
+If a classification set exists for a given report suite + variable, the classification is added to the schema instead. A given report suite + variable combination cannot belong to multiple classification sets.

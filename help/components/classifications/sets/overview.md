@@ -27,6 +27,6 @@ The backend architecture released with Classification sets also contain several 
 
 Classification sets consist of three main areas:
 
-* [**[!UICONTROL Classification sets manager]**](set-manager.md): Create, edit and delete classification sets.
+* [**[!UICONTROL Classification sets manager]**](manage/set-manager.md): Create, edit and delete classification sets.
 * [**[!UICONTROL Classification set jobs manager]**](job-manager.md): View the status of classification set jobs and download export files.
-* [**[!UICONTROL Classification set consolidations]**](consolidations.md): Combine multiple classification sets into a single classification set.
+* [**[!UICONTROL Classification set consolidations]**](consolidations/manage.md): Combine multiple classification sets into a single classification set.

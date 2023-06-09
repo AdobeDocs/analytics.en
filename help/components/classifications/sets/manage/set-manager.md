@@ -15,7 +15,7 @@ Classification sets consist of **Subscriptions** (report suite and dimension com
 
 The left side of the Classification set manager provides filter settings to locate the desired classification set. Clicking the filter icon toggles the filter settings visibility. You can filter classification sets by **[!UICONTROL Tags]**, **[!UICONTROL Report suite]**, or **[!UICONTROL Owner]**.
 
-![Classification set filters](../assets/classification-set-filters.png)
+![Classification set filters](../../assets/classification-set-filters.png)
 
 ## Classification set manager columns
 

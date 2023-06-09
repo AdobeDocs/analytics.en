@@ -8,13 +8,13 @@ If you have multiple classification sets that contain similar data, you can cons
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
 
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](create.md).
+Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
 
 ## Filter classification sets
 
 The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
 
-![Classification set consolidation filters](../assets/classification-set-consolidation-filters.png)
+![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
 
 Additional filter options are available above the Classification set consolidation manager columns:
 

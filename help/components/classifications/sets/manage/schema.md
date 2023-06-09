@@ -36,7 +36,7 @@ The following buttons are available:
 
   ![Classification set template](../../assets/classification-set-template.png)
 
-* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](job-manager.md), showing jobs only for this classification set.
+* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](../job-manager.md), showing jobs only for this classification set.
 * **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
   * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. A button is available to create a location account.
   * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. A button is available to create a location.

@@ -8,7 +8,7 @@ exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 
 A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports. You establish a relationship between a variable value and metadata related to that value. Classifications can be used on most custom dimensions, such as Tracking code, props, and eVars.
 
-Adobe offers multiple ways to classify data. All classification data operates the same in reporting, and you can combine any of these methods that best fit your organization. Adobe recommends using **Classification sets** in most cases.
+Adobe offers multiple ways to classify data. All classification data operates the same in reporting, and you can combine any of these methods that best fit your organization. Adobe recommends using **Classification sets**.
 
 * **Classification sets**: Create and manage classifications and their rules in a single, simplified interface.
 * **Classification rules**: Create rules that assign a given dimension item to a classification dimension item. This method to classify data is best when a dimension frequently encounters new unique values or where manual classification would be frequent and burdensome.

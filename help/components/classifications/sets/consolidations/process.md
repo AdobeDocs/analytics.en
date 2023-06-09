@@ -1,6 +1,6 @@
 ---
 title: Classification set consolidation process
-description: Start the process to consolidate multiple classification sets.
+description: The full process of consolidating  classification sets.
 ---
 # Classification set consolidation process
 
@@ -18,14 +18,14 @@ The following fields are available when creating a consolidation:
 
 Once you select a classification set, a table with two columns appears:
 
-* On the right is the selected dataset from the above drop-down list. The right column contains all classification sets that you want to consolidate.
-* On the left contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
+* The right column contains all classification sets that you want to consolidate. It starts with the classification set selected using the above drop-down list.
+* The left column contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
 
 Drag the desired classification sets from the available column on the left to the consolidation column on the right. Once the consolidation is given a name and two or more classification sets are in the right column, click **[!UICONTROL Save & Continue]**.
 
 ## Validation
 
-Once you have created a consolidation, a list of source datasets appears on the right. Click the **[!UICONTROL Validate]** button to make sure that each individual classification set is valid for this consolidation. You can reorder the classification steps here to determine priority in cases of mismatched classification values. The highest classification set in the list overwrites any mismatched values.
+Once you have created a consolidation, a list of source datasets appears on the right. The **[!UICONTROL Validate]** button makes sure that each individual classification set is valid for this consolidation. You can reorder the classification steps here to determine priority in cases of mismatched classification values. **The highest classification set in the list overwrites any mismatched values in other classification sets.**
 
 ## Run
 

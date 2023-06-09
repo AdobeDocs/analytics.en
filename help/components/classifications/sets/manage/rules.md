@@ -12,9 +12,9 @@ Classification set rules allow you to automatically classify values based on the
 
 Settings that apply to the entire set of rules.
 
-* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value already exists.
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
   * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
-  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value already exists, do nothing.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
 * **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
 
 ## Rules
@@ -23,7 +23,7 @@ A list of rules that run for each unique value.
 
 * **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
 * **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
-* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left you can manually type key values, or you can drag and drop a classification file to import a large number of values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this is a validation UI, no values are actually classified.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
 Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 

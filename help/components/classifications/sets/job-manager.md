@@ -28,7 +28,7 @@ Additional filter options are available above the Classification set job manager
 The following columns are available in the Classification set job manager:
 
 * **[!UICONTROL Filename]**: The name of the upload or download file.
-* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click on the Classification set name to reach the Classification set's [Settings](manage/settings.md).
+* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click the Classification set name to reach the Classification set's [Settings](manage/settings.md).
 * **[!UICONTROL Size]**: The size of the file.
 * **[!UICONTROL Status]**: The status of the job processing the file.
   * **[!UICONTROL Created]**: The job was submitted.

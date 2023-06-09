@@ -9,9 +9,9 @@ Classification sets provide a single interface to manage classifications and rul
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
-The backend architecture released with Classification sets contain several notable improvements:
+The backend architecture released with Classification sets contains several notable improvements:
 
-* Significantly reduced processing time (72 hours → 24 hours)
+* Reduced processing time (72 hours → 24 hours)
 * The ability to use the Classification sets UI
 * The option to use classification data in Adobe Experience Platform in the future through the [Adobe Analytics source connector for classification data](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
 
@@ -27,6 +27,6 @@ The backend architecture released with Classification sets also contain several 
 
 Classification sets consist of three main areas:
 
-* [**[!UICONTROL Classification sets manager]**](manage/set-manager.md): Create, edit and delete classification sets.
+* [**[!UICONTROL Classification sets manager]**](manage/set-manager.md): Create, edit, and delete classification sets.
 * [**[!UICONTROL Classification set jobs manager]**](job-manager.md): View the status of classification set jobs and download export files.
 * [**[!UICONTROL Classification set consolidations]**](consolidations/manage.md): Combine multiple classification sets into a single classification set.

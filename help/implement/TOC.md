@@ -23,6 +23,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
     + [cookieLifetime](vars/config-vars/cookielifetime.md)
     + [currencyCode](vars/config-vars/currencycode.md)
+    + [doubleEncodeLinkParameters](vars/config-vars/doubleencodelinkparameters.md)
     + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
     + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
     + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)

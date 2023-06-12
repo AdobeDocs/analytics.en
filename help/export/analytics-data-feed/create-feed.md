@@ -310,7 +310,7 @@ When creating a data feed, you provide Adobe with:
 
 The following information provides configuration information for each of the legacy destinations:
 
-#### FTP
+### FTP
 
 Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
 
@@ -320,11 +320,11 @@ Use the following information when completing the available fields:
 * [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
 * [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
 
-#### SFTP
+### SFTP
 
 SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
-#### S3
+### S3
 
 You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
 
@@ -361,7 +361,7 @@ The following 16 standard AWS regions are supported (using the appropriate signa
 >
 >The cn-north-1 region is not supported.
 
-#### Azure Blob
+### Azure Blob
 
 Data feeds support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
 

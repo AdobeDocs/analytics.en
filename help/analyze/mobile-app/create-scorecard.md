@@ -90,7 +90,7 @@ To create a comparison date, you can select from convenient pre-sets for common 
 
 ![New score card4](assets/new_score_card4.png)
 
-If the date range you want hasn’t been created yet, you can create a new one by clicking the calendar icon.
+If the date range you want hasn't been created yet, you can create a new one by clicking the calendar icon.
 
 ![New score card5](assets/new_score_card5.png)
 
@@ -264,7 +264,7 @@ Data stories allow you to customize everything so you can share information that
     ![Create a data story](assets/data-story4.png)
 
 >[!NOTE]
->Slides inherit components from the tile, but tiles don’t inherit components from slides.
+>Slides inherit components from the tile, but tiles don't inherit components from slides.
 
 **To customize individual slides**
 
@@ -334,7 +334,7 @@ After you have shared a scorecard, your recipients can access it on their Analyt
 
 If you update the scorecard by adding new components, you may want to share the scorecard again (and check the **[!UICONTROL Share embedded components]** option) in order to make sure that your executive users have access to these changes.
 
-### Share scorecards using a shareable link
+### Share scorecards using a shareable link {#shareable-link}
 
 Using a shareable link makes it easy to share a scorecard in an email, document, or text message app. The shareable link lets recipients open the scorecard on their desktop or on the dashboards mobile app. Shareable deep linking makes it even easier to share projects and boost engagement with your stakeholders.
 

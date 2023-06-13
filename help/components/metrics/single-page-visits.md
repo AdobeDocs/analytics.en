@@ -18,4 +18,4 @@ See [Single access](single-access.md) for a comparison between metrics.
 
 ## Count repeat instances
 
-This setting specifies whether repeat instances are counted in reports. For more information see [Count repeat instances](/help/components/metrics/count-repeat-instances.md). 
+This setting specifies whether repeat instances are counted in reports. For more information see [Count repeat instances](/help/components/metrics/count-repeat-instances.md).

@@ -9,6 +9,8 @@ exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 
 The Classification Hierarchies page lets you define classification hierarchies that you can use to create Hierarchy reports with the same name.
 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Classification Hierarchies]**
+
 ## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 The [!UICONTROL Classification Hierarchies] page lets you define classification hierarchies that you can use to create [!UICONTROL Hierarchy] reports with the same name.

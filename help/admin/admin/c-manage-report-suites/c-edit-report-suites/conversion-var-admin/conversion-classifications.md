@@ -8,6 +8,8 @@ exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 
 Classifications are used to categorize values into groups and report at the group level. For example, you can classify all [!UICONTROL Paid Search] campaigns into a category like *pop music terms* and report on the success of that category relative to metrics like Instances (click-throughs), and conversion to success events. You can add up to 255 classifications to a variable.
 
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Conversion Classifications]**
+
 Conversion classifications let you classify conversion variables. Once classified, any report that you can generate using the key data can also be generated using the associated data properties.
 
 After enabling classifications, use the [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.

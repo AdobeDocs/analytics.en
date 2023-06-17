@@ -1,6 +1,7 @@
 ---
 title: Classification set rules
 description: View and edit rules for an individual classification set.
+exl-id: b3518aaa-382f-47ad-860f-b6af6ddb3cbc
 ---
 # Classification set rules
 

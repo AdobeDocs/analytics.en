@@ -81,18 +81,18 @@ To delete a segment that has been published to the Experience Cloud, you have to
 
 ## Retrieve the [!DNL Audience Manager] UUID
 
-There are two ways to capture the AAM UUID currently associated with the browser:
+There are two ways to capture the Adobe Audience Manager UUID currently associated with the browser:
 
 * Adobe Experience Cloud Debugger
 * Native developer tool in browsers (e.g., Chrome Developer Tools)
 
-The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait & segment membership.
+The following screenshots show you how to retrieve the Adobe Audience Manager UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait & segment membership.
 
 ### Method 1: Use Adobe Experience Cloud Debugger
 
 1. Download and install [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
-1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
+1. Scroll to the Audience Manager section and find the Adobe Audience Manager UUID set on the current browser page
 (`50814298273775797762943354787774730612` in the example below)
 
 ![Debugger](assets/debugger.jpg)
@@ -100,21 +100,21 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 ### Method 2: Use Chrome Developer Tools (or other browser developer tools)
 
 1. Launch Chrome Developer Tools before loading a page
-1. Load the page and check Applications > Cookies. The AAM UUID should be set in the 3rd-party
-Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
+1. Load the page and check Applications > Cookies. The Adobe Audience Manager UUID should be set in the 3rd-party
+Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the Adobe Audience Manager UUID set
 on the browser (`50814298273775797762943354787774730612` in the example below).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 
-The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
+The Adobe Audience Manager UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
 
 ![Audience Manager profile viewer](assets/aam-vpv.png)
 
 ## View the segment traits in [!DNL Audience Manager]
 
-In AAM, the list of visitors with ECIDs for a given segment are evaluated in a streaming fashion as Analytics shares segments with Experience Cloud.
+In Adobe Audience Manager, the list of visitors with ECIDs for a given segment are evaluated in a streaming fashion as Analytics shares segments with Experience Cloud.
 
 1. In [!DNL Audience Manager], go to [!UICONTROL Audience Data > Traits > Analytics Traits]. You will see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
 1. Select the folder for the report suite in which you previously created the segment you wanted to share with [!DNL Audience Manager]. You will see the segment/audience you created. When you share a segment, 2 things happen in [!DNL Audience Manager]:

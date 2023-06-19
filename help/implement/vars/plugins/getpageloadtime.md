@@ -90,7 +90,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (December 6, 2022)
 
-* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the AEP Web SDK
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK
 * Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
 * Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
 * Includes the getVersion function to help with troubleshooting

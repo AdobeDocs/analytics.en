@@ -10,11 +10,11 @@ This section explains enhancements to server-side forwarding that were prompted 
 
 Server-side forwarding is used to share data from Adobe Analytics to other [!DNL Experience Cloud Solutions], such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
 
-Previously, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to AAM. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received.
+Previously, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to Adobe Audience Manager. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to Adobe Audience Manager until consent has been received.
 
-When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagged and does not get server-side-forwarded to AAM. Conversely, if this string does not appear on a hit, the hit gets forwarded to AAM.
+When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagged and does not get server-side-forwarded to Adobe Audience Manager. Conversely, if this string does not appear on a hit, the hit gets forwarded to Adobe Audience Manager.
 
-Server-side forwarding is bi-directional, meaning that when it is applied to a hit and that hit gets forwarded to AAM, Audience Analytics receives segment information for that hit from AAM and sends it back to Analytics. As a result, any hits that are not server-side forwarded from Analytics to AAM will not be enriched with the list of segment IDs from AAM. Thus, there will be a subset of traffic/hits that will not get segment ID information from AAM.
+Server-side forwarding is bi-directional, meaning that when it is applied to a hit and that hit gets forwarded to Adobe Audience Manager, Audience Analytics receives segment information for that hit from Adobe Audience Manager and sends it back to Analytics. As a result, any hits that are not server-side forwarded from Analytics to Adobe Audience Manager will not be enriched with the list of segment IDs from Adobe Audience Manager. Thus, there will be a subset of traffic/hits that will not get segment ID information from Adobe Audience Manager.
 
 ## Implementation Details {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -27,7 +27,7 @@ Depending on your implementation method, follow these steps.
 
 ## Reporting (Optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-You can use Adobe Analytics to report on how much of your traffic is consent based and as a result has been server-side forwarded versus how much of your traffic isn't consent based and has not been forwarded to AAM.
+You can use Adobe Analytics to report on how much of your traffic is consent based and as a result has been server-side forwarded versus how much of your traffic isn't consent based and has not been forwarded to Adobe Audience Manager.
 
 To configure this type of reporting, map the new context variable to a custom traffic variable (prop) via processing rules. To do so
 

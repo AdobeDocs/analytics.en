@@ -12,10 +12,6 @@ Adobe uses several different methods to identify visitors on your site. The `vis
 >
 >Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) instead.
 
-## Visitor ID override using the Web SDK
-
-Coming soon!
-
 ## Visitor ID using the Adobe Analytics extension
 
 [!UICONTROL Visitor ID] is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.

@@ -1,8 +1,8 @@
 ---
-description: Configure the cloud export account and location where Customer Journey Analytics data can be sent
+description: Configure the cloud import account and location where classification data can be uploaded
 keywords: Analysis Workspace
-title: Configure cloud export locations
-feature: Components
+title: Configure cloud import locations
+feature: Classifications
 ---
 # Configure cloud import locations
 
@@ -10,7 +10,7 @@ feature: Components
 
 Before you can export Customer Journey Analytics data to a cloud destination as described in [Export Customer Journey Analytics data to the cloud](/help/analysis-workspace/export/export-cloud.md), you need to add and configure the location where you want the data to be sent. 
 
-This process consists of adding and configuring the account (such as Amazon S3, Google Cloud Platform, and so forth) and the location within the account (such as a folder within the account).
+This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) and the location within the account (such as a folder within the account).
 
 ## Add an account
 
@@ -86,16 +86,6 @@ You need to configure Customer Journey Analytics with the necessary information 
 
    +++
 
-   +++Adobe Experience Platform
-
-      Specify the following information to configure an Adobe Experience Platform account:
-
-      |Field | Function | 
-      |---------|----------|
-      | [!UICONTROL **Location Account Secret**] | Copy the secret from the Adobe Experience Platform application that you created. In Adobe Exprience Platform, this information is located in <!--add link to AEP docs -->. | 
-
-   +++
-
 1. Select [!UICONTROL **Save**].
 
 1. Continue with [Add a location](#add-a-location).
@@ -123,12 +113,10 @@ You need to configure Customer Journey Analytics with the necessary information 
 
       Specify the following information to configure an Amazon S3 Role ARN location:
 
-      <!-- still need to update; can't create S3 role ARN account -->
-
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
-      | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
+      | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. Ensure that the User ARN that was provided by Adobe has access to upload files to this bucket. |  
+      | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
       {style="table-layout:auto"}
 
@@ -138,11 +126,10 @@ You need to configure Customer Journey Analytics with the necessary information 
 
       Specify the following information to configure a Google Cloud Platform location:
 
-      <!-- still need to update; can't create GCP account -->
-
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |  
+      | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |  
+      | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
       {style="table-layout:auto"}
    
@@ -172,18 +159,6 @@ You need to configure Customer Journey Analytics with the necessary information 
       | [!UICONTROL **Account**] | The Azure storage account. | 
 
       {style="table-layout:auto"}
-
-   +++
-
-   +++Adobe Experience Platform
-
-      Specify the following information to configure an Adobe Experience Platform location:
-
-      <!-- still need to update; can't create AEP account -->
-
-      |Field | Function | 
-      |---------|----------|
-      | [!UICONTROL **Location Account Secret**] | Copy the secret from the Adobe Experience Platform application that you created. In Adobe Exprience Platform, this information is located in <!--add link to AEP docs -->. | 
 
    +++
 

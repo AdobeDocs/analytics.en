@@ -8,8 +8,7 @@ exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 
 >[!IMPORTANT]
 >
->We no longer recommend using FTP for import as described on this page. Instead, 
-
+>We no longer recommend using FTP for import as described on this page. Instead, configure a cloud account as described in [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md).
 
 Steps that describe how to upload data files via FTP.
 

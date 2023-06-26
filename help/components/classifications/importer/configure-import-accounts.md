@@ -8,16 +8,16 @@ feature: Classifications
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Before you can export Customer Journey Analytics data to a cloud destination as described in [Export Customer Journey Analytics data to the cloud](/help/analysis-workspace/export/export-cloud.md), you need to add and configure the location where you want the data to be sent. 
+Before you can import Adobe Analytics data from a cloud destination, you need to add and configure the location where you want the data to be sent. 
 
 This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) and the location within the account (such as a folder within the account).
 
 ## Add an account
 
-You need to configure Customer Journey Analytics with the necessary information to access your cloud destination account.
+You need to configure Adobe Analytics with the necessary information to access your cloud destination account.
 
-1. In Customer Journey Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Exports**].
-1. On the [!UICONTROL Exports] page, select the [!UICONTROL **Location accounts**] tab.
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
+1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
 1. Select [!UICONTROL **Add account**]. <!-- add screenshot? -->
    
    The Add account dialog displays.
@@ -93,8 +93,8 @@ You need to configure Customer Journey Analytics with the necessary information 
 ## Add a location
 
 1. You need to add an account before you can add a location. [Add an account](#add-an-account) if you haven't already.
-1. In Customer Journey Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Exports**].
-1. On the [!UICONTROL Exports] page, select the [!UICONTROL **Locations**] tab.
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
+1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
 1. Select [!UICONTROL **Add location**]. <!-- add screenshot? -->
    
    The Location dialog displays.
@@ -164,4 +164,4 @@ You need to configure Customer Journey Analytics with the necessary information 
 
 1. Select [!UICONTROL **Save**].
 
-1. You can now export data from Analysis Workspace to the account and location that you configured. For information about how to export data to the cloud, see [Export project data to the cloud](/help/analysis-workspace/export/export-cloud.md).
+   You can now import data to the account and location that you configured.

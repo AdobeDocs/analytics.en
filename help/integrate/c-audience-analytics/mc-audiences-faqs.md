@@ -35,13 +35,13 @@ Answers to questions you might have when implementing Audience Analytics.
  </tbody> 
 </table>
 
-## AAM-Specific FAQs {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager-Specific FAQs {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How do I create an Analytics destination in Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> See <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > Configure an Analytics Destination in Adobe Audience Manager </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: After creating and saving an Analytics destination, how long will it take until data appears in my selected report suites?</b> </p> </td> 
@@ -52,7 +52,7 @@ Answers to questions you might have when implementing Audience Analytics.
    <td colname="col2"> <p>An Analytics destination disappears from a segment's Destination Mappings section when you select the <span class="uicontrol"> Automatically map all current and future segments </span> option in <span class="uicontrol"> Segment Mappings </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>To prevent this, select <span class="uicontrol"> Manually map segments </span> instead of the automatic option. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q: Will this give me all of the information from AAM, in Analytics?</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q: Will this give me all of the information from Adobe Audience Manager, in Analytics?</b> </p> </td> 
    <td colname="col2"> <p>No, only data related to people who come to your site during or after enablement of Audience Manager Audiences and during/after segment qualification. </p> </td> 
   </tr> 
   <tr> 
@@ -84,27 +84,27 @@ Answers to questions you might have when implementing Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why don't I see data coming through in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>You likely have conflicting AAM privacy controls between data source &amp; destination. </p> </td> 
+   <td colname="col2"> <p>You likely have conflicting Adobe Audience Manager privacy controls between data source &amp; destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why are some of my segments missing in Analytics, even though I chose to send all segments?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Your AAM data export controls on the destination and in the segments' data sources may be conflicting, preventing certain segments from being sent. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Your Adobe Audience Manager data export controls on the destination and in the segments' data sources may be conflicting, preventing certain segments from being sent. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">If you are using 3rd-party data traits in your segments, those segments cannot be shared to destinations (a set of report suites) that contain personal data. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why do I see "Audience limit reached" in my Analytics report? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
-   <td colname="col2"> <p>By default, the Audience Analytics integration for AAM sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 AAM segments on a single hit, the <b>150 most recently qualified segments</b> are sent to Analytics, while the remaining list is truncated. </p> <p>An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as "Audience limit reached" in the Audience Name dimension and "-1" in the Audience ID dimension. </p> <p>While it is unlikely that a visitor qualifies for more than 150 segments on a particular hit, it may happen a small percentage of the time. If you experience "Audience limit reached" in your reporting, you have two options: </p> 
+   <td colname="col2"> <p>By default, the Audience Analytics integration for Adobe Audience Manager sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 Adobe Audience Manager segments on a single hit, the <b>150 most recently qualified segments</b> are sent to Analytics, while the remaining list is truncated. </p> <p>An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as "Audience limit reached" in the Audience Name dimension and "-1" in the Audience ID dimension. </p> <p>While it is unlikely that a visitor qualifies for more than 150 segments on a particular hit, it may happen a small percentage of the time. If you experience "Audience limit reached" in your reporting, you have two options: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b>: Continue to let the integration work in its out-of-the-box state, sending the 150 most recently qualified segments for a particular visitor. </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: In AAM, choose the 150 segments that matter most to your business for the integration. AAM then checks visitors against only those 150 segments. The disadvantage of this approach is that you only receive those 150 segments across all visitors. On the other hand, the Option 1 approach can deliver unlimited segments due to the per-hit nature of the integration. </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: In Adobe Audience Manager, choose the 150 segments that matter most to your business for the integration. Adobe Audience Manager then checks visitors against only those 150 segments. The disadvantage of this approach is that you only receive those 150 segments across all visitors. On the other hand, the Option 1 approach can deliver unlimited segments due to the per-hit nature of the integration. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Will additional server calls be billed to Analytics for this integration?</b> </p> </td> 
-   <td colname="col2"> <p>No. AAM Audiences are incorporated into the Analytics hit server-side. This does not incur additional server calls to Analytics (primary or secondary). </p> </td> 
+   <td colname="col2"> <p>No. Adobe Audience Manager Audiences are incorporated into the Analytics hit server-side. This does not incur additional server calls to Analytics (primary or secondary). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +115,7 @@ Answers to questions you might have when implementing Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: If I have legacy SSF implemented, do I have to also go to Analytics Admin and turn on report suite SSF?</b> </p> </td> 
-   <td colname="col2"> <p>Yes. In the AAM destination setup, you will see only report suites that have SSF turned on. </p> </td> 
+   <td colname="col2"> <p>Yes. In the Adobe Audience Manager destination setup, you will see only report suites that have SSF turned on. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: Why can't I turn on certain report suites for SSF in Analytics Admin?</b> </p> </td> 
@@ -135,12 +135,12 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
    <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Visitor Count Differences </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: What is the difference between "audiences" in AAM and "segments" in Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
+   <td colname="col1"> <p><b>Q: What is the difference between "audiences" in Adobe Audience Manager and "segments" in Analytics?</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>Adobe Audience Manager audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: What is the difference between Customer Attributes and customer data integrated from AAM?</b> </p> </td> 
-   <td colname="col2"> <p>Customer Attributes are not time based; they apply retroactively and go-forward. AAM integrated data is time based and go-forward only. Additionally, Customer Attributes is a lookup table for Experience Cloud visitor IDs, whereas the AAM integration is data stitched into each hit for a visitor. </p> </td> 
+   <td colname="col1"> <p><b>Q: What is the difference between Customer Attributes and customer data integrated from Adobe Audience Manager?</b> </p> </td> 
+   <td colname="col2"> <p>Customer Attributes are not time based; they apply retroactively and go-forward. Adobe Audience Manager integrated data is time based and go-forward only. Additionally, Customer Attributes is a lookup table for Experience Cloud visitor IDs, whereas the Adobe Audience Manager integration is data stitched into each hit for a visitor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What about legacy approaches to this problem, for example, the old beta or Consulting plug-in cookie-destinations?</b> </p> </td> 

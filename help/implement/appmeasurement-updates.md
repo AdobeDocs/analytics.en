@@ -318,7 +318,7 @@ Release Date: **November 5, 2015**
 Release Date: **September 17, 2015**
 
 * Inclusion of Visitor API 1.5.2
-* Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
+* Updated [!DNL Audience Manager] module to use Adobe Audience Manager DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 

@@ -6,9 +6,23 @@ title: Data Feed contents - overview
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 ---
-# Data Feed contents - overview
+# Data feed contents - overview
 
-This section describes the files found in a data feed delivery.
+The following sections describe how to access and understand the files found in a data feed delivery.
+
+## Access data feed content
+
+To access the contents of a data feed:
+
+1. Log in to the data feed destination site.
+
+   This is the destination site that you set up when creating the data feed, such as an Amazon S3 or Google Cloud Platform bucket. 
+
+1. Download the compressed data feed file to your local machine.
+
+1. Unzip the compressed file using a program that supports `.tar.gz` file extensions.
+
+1. Open the `hit_data.tsv` file in your spreadsheet or database application of choice to see raw data for that day. -->
 
 ## Manifest file {#feed-manifest}
 
@@ -61,24 +75,24 @@ The lookup files are delivered together in a compressed zip named according to t
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (customized for this data feed)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (customized for this data feed)
+* **`column_headers.tsv`**: A single row containing the column headers for `hit_data.tsv`.
+* **`browser.tsv`**: Maps the browser ID (the `browser` feed column) to the browser's friendly name.
+* **`browser_type.tsv`**: Maps the browser ID (the `browser` feed column) to the browser type.
+* **`color_depth.tsv`**: Maps the color depth ID (the `color` feed column) to color depth.
+* **`connection_type.tsv`**: Maps the connection type ID (the `connection_type` feed column) to the connection type.
+* **`country.tsv`**: Maps the country ID (the `country` feed column) to the country name.
+* **`javascript_version.tsv`**: Maps the JavaScript version ID (the `javascript` feed column) to the JavaScript version.
+* **`languages.tsv`**: Maps the language ID (the `language` feed column) to language.
+* **`operating_systems.tsv`**: Maps the operating system id (the `os` feed column) to the operating system name.
+* **`plugins.tsv`**: Maps the plug-in ID's (the `plugin` feed column) to each respective plug-in name.
+* **`resolution.tsv`**: Maps the resolution ID (the `resolution` feed column) to the monitor resolution.
+* **`referrer_type.tsv`**: Maps the referrer type ID (the `ref_type` feed column) to the referrer type.
+* **`search_engines.tsv`**: Maps the search engine ID (the `search_engine` feed column) to the search engine name.
+* **`event.tsv`**: Maps each event ID (the `event_list` feed column) to its respective event name.
 
 ## Hit data files
 
-Hit data is provided in a [!DNL hit_data.tsv] file. The amount of data in this file is determined by the delivery format (hourly or daily, and single or multiple files). This file contains only hit data. The column headers are delivered separately with the lookup files. Each row in this file contains a single server call.
+Hit data is provided in a `hit_data.tsv` file. The amount of data in this file is determined by the delivery format (hourly or daily, and single or multiple files). This file contains only hit data. The column headers are delivered separately with the lookup files. Each row in this file contains a single server call.
 
 Files delivered by Adobe vary based on the type of data feed that you have configured. All files are encoded using ISO-8859-1.
 

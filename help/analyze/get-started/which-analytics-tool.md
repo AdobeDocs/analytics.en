@@ -74,7 +74,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** should be used:
 
-* If you want to incorporate Adobe Audience Manager (AAM) audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, or ad impression data into any Analytics workflow.
+* If you want to incorporate Adobe Audience Manager audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, or ad impression data into any Analytics workflow.
 * If you want uploaded CRM data to be time based, because this integration sends new information to Analytics hit by hit.
 
 ## Exporting Data from Adobe Analytics {#export}

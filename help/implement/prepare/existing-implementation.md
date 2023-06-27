@@ -12,12 +12,12 @@ Are you taking over an Adobe Analytics implementation from the previous Technica
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
-Check out these tips from your fellow Technical Owner, Sarah Owen. Sarah is an [Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) and she shares ideas about how to use the Inherited Implementation Playbook to take charge of an existing implementation:
+Check out these tips from your fellow Technical Owner, Sarah Owen. Sarah is an Adobe Analytics Champion and she shares ideas about how to use the Inherited Implementation Playbook to take charge of an existing implementation:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 See also:
 
-* [“Focused Review” checklist for reviewing your implementation after each website release](/help/implement/review/focused-review.md)
-* [Full Review” checklist for reviewing your implementation every 6 months](/help/implement/review/full-review.md)
+* ["Focused Review" checklist for reviewing your implementation after each website release](/help/implement/review/focused-review.md)
+* [Full Review" checklist for reviewing your implementation every 6 months](/help/implement/review/full-review.md)
 * [Define your Top 5 KPIs](/help/implement/review/define-kpis.md)

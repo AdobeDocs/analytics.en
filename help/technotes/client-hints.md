@@ -23,7 +23,7 @@ Client hints will be incorporated into Analytics device lookup process starting 
 >
 > As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) for more information.
 
-AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 ## Frequently asked questions
 
@@ -137,7 +137,7 @@ See documentation for including these via [Bulk Data Insertion API](https://deve
 
 +++
 
-+++**Will client hints be available in data sent to AEP and CJA via the Adobe Source Connector?**
++++**Will client hints be available in data sent to Adobe Experience Platform and Customer Journey Analytics via the Adobe Source Connector?**
 
 Adobe plans to include client hints in data via Adobe Source Connector in the first half of 2023.
 
@@ -149,8 +149,8 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 
 +++
 
-+++**Will AAM server-side forwarding support client hints?** 
++++**Will Adobe Audience Manager server-side forwarding support client hints?** 
 
-Yes. Client hints will be included in the data forwarded to AAM. Note that AAM requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
 +++

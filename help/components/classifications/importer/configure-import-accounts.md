@@ -26,7 +26,7 @@ You need to configure Adobe Analytics with the necessary information to access y
    |---------|----------|
    | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
    | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Account type**] | Select your cloud account type. | 
+   | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. | 
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
    For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. 

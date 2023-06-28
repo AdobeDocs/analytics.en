@@ -50,7 +50,7 @@ Build and save a metric called "German Visitors" and a metric called "Internatio
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## Percent of total metrics {#percent-total}
 

@@ -39,7 +39,6 @@ Adobe Analytics collects the following data:
 |  Items consumer purchased  | Yes  |
 |  Items left in shopping cart  | Yes  |
 |  Social Network Information (including photos, user ID, age, gender, location)  | **No** |
-|  Personal Information that user provides outside of our services  | Yes  |
 |  Ad campaign success rates  | Yes  |
 |  Product info, such as colors, prices, styles, photos  | Yes  |
 

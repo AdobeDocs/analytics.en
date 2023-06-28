@@ -8,7 +8,7 @@ feature: Classifications
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Before you can import Adobe Analytics data from a cloud destination, you need to add and configure the location where you want the data to be sent. 
+Before you can import Adobe Analytics classification data from a cloud destination, you need to add and configure the location where you want the classification data to be collected. 
 
 This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) and the location within the account (such as a folder within the account).
 
@@ -17,7 +17,7 @@ This process consists of adding and configuring the account (such as Amazon S3 R
 You need to configure Adobe Analytics with the necessary information to access your cloud destination account.
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
-1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
+1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location credentials**] tab.
 1. Select [!UICONTROL **Add account**]. <!-- add screenshot? -->
    
    The Add account dialog displays.
@@ -26,7 +26,7 @@ You need to configure Adobe Analytics with the necessary information to access y
    |---------|----------|
    | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
    | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Account type**] | B3 | 
+   | [!UICONTROL **Account type**] | Select your cloud account type. | 
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
    For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. 
@@ -101,9 +101,9 @@ You need to configure Adobe Analytics with the necessary information to access y
 1. Specify the following information:
    |Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Location name**] | The name of the location.  | 
-   | [!UICONTROL **Location description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Location accounts**] | Select the location account that you created in [Add an account](#add-an-account). | 
+   | [!UICONTROL **Name**] | The name of the location.  | 
+   | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
+   | [!UICONTROL **Location account**] | Select the location account that you created in [Add an account](#add-an-account). | 
 
 1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
 
@@ -115,8 +115,8 @@ You need to configure Adobe Analytics with the necessary information to access y
 
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. Ensure that the User ARN that was provided by Adobe has access to upload files to this bucket. |  
-      | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+      | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. Ensure that the User ARN that was provided by Adobe has access to upload files to this bucket. |  
+      | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
       {style="table-layout:auto"}
 

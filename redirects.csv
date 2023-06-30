@@ -515,3 +515,10 @@ source,destination
 /docs/analytics/components/classifications/sets/set-manager.html,/docs/analytics/components/classifications/sets/manage/set-manager.html
 /docs/analytics/components/classifications/sets/create.html,/docs/analytics/components/classifications/sets/manage/create.html
 /docs/analytics/components/classifications/sets/settings.html,/docs/analytics/components/classifications/sets/manage/settings.html
+/docs/analytics/components/variables/dimensions-reports/reports-referrers.html,/docs/analytics/components/dimensions/referrer.html
+/docs/analytics/implementation/prepare/data-collection-reference.html,/docs/analytics/implementation/home.html
+/docs/analytics/home.html,/docs/analytics.html
+/docs/analytics/implementation/prepare/data-insertion-api.html,/docs/analytics/import/c-data-insertion-api.html
+/docs/analytics/analyze/analysis-workspace/attribution-iq/attribution-faq.html,/docs/analytics/analyze/analysis-workspace/attribution/faq.html
+/docs/analytics/implementation/other/dtm/analytics-tool/dtm-faq.html,/docs/analytics/implementation/other/dtm-implementation-overview.html
+/docs/analytics/analyze/analysis-workspace/components/segment-comparison.html,/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html

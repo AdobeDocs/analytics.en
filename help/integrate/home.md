@@ -2,7 +2,7 @@
 title: Analytics Integration
 description: Learn how you can integrate data from other locations into Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-feature: Audience Analytics, Advertising Analytics, Canpaign Integration, AEM Assets Reporting, Actity Map
+feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 ---
 # Analytics Integration
 

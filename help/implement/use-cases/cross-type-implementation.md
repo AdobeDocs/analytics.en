@@ -2,7 +2,7 @@
 title: Track across different implementation types
 description: Use different implementation types and track visitors seamlessly between them.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
-feature: Implmentation Basics
+feature: Implementation Basics
 ---
 # Track across different implementation types
 

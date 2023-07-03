@@ -2,6 +2,7 @@
 title: Classification sets overview
 description: Use classification sets to manage classification data.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+feature: Classifications
 ---
 # Classification sets overview
 

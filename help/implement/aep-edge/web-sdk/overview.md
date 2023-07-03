@@ -2,6 +2,7 @@
 title: Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 description: Use the Web SDK extension in Adobe Experience Platform Data Collection to send data to Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
+feature: Implementation Basics
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Web SDK
 
@@ -142,6 +143,6 @@ A high-level overview of the implementation tasks:
 
 Tags can be highly customized. Learn more about how you can get the most out of Adobe Analytics by including the right data in your implementation.
 
--   [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
+- [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
 
--   [Adobe Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en)
+- [Adobe Experience Platform Web SDK documentation](https://experienceleague.adobe.com/docs/web-sdk.html?lang=en)

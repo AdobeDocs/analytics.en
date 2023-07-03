@@ -2,6 +2,7 @@
 title: Classification set jobs manager
 description: View current and completed classification jobs generated from classification sets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
+feature: Classifications
 ---
 # Classification set jobs manager
 

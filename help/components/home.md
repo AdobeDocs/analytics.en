@@ -2,6 +2,7 @@
 title: Analytics Components Guide
 description: Learn about the different components that Adobe Analytics offers.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
+feature: Components
 ---
 # Analytics Components Guide
 

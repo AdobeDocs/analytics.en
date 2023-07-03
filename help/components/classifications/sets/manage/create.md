@@ -2,6 +2,7 @@
 title: Create a classification set
 description: Available fields and descriptions when creating a classification set.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
+feature: Classifications
 ---
 # Create a classification set
 

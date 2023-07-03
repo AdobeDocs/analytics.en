@@ -2,6 +2,7 @@
 title: doubleEncodeLinkParameters
 description: Enable or disable AppMeasurement double encoding link tracking variables.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
+feature: Variables
 ---
 # doubleEncodeLinkParameters
 

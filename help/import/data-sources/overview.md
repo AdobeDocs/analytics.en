@@ -2,6 +2,7 @@
 title: Data sources overview
 description: Import data into Adobe Analytics using external files.
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
+feature: Data Sources
 ---
 # Data sources overview
 

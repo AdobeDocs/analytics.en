@@ -2,6 +2,7 @@
 title: Import Paid Search metrics
 description: Steps to configure Adobe Analytics to track your paid search metrics (e.g., Google AdWords, MSN, Yahoo, etc.) using Data Sources.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
+feature: Data Sources
 ---
 # Import [!UICONTROL Paid Search] metrics using [!UICONTROL Data Sources]
 

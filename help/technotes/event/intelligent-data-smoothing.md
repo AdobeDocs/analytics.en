@@ -4,6 +4,7 @@ description: Learn how Intelligent Data Smoothing analyzes historical trends to 
 feature: AI Tools
 role: User, Admin
 exl-id: b7a2e5d5-99d4-408d-84e6-67abff9e8727
+feature: 
 ---
 # Intelligent Data Smoothing
 

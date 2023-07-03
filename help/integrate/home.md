@@ -2,6 +2,7 @@
 title: Analytics Integration
 description: Learn how you can integrate data from other locations into Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
+feature: Audience Analytics, Advertising Analytics, Canpaign Integration, AEM Assets Reporting, Actity Map
 ---
 # Analytics Integration
 
@@ -12,6 +13,7 @@ This guide focuses on integrating multiple Adobe Experience Cloud solutions, suc
 * **Audience Analytics:** Integrate Adobe Audience Manager with Adobe Analytics.
 * **Advertising Analytics:** See paid search data side-by-side with Adobe Analytics data.
 * **Analytics for Advertising Cloud DSP:** Integrates Adobe Analytics and Adobe Advertising Cloud to extend and enhance the capabilities of each product. Here is a video overview:
+  
    >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target:** A4T integrates Adobe Analytics and Adobe Target together.
 * **Adobe Campaign reporting:** Integrate Adobe Analytics with Adobe Campaign.

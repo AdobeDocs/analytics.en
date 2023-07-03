@@ -2,6 +2,7 @@
 title: Data source file format
 description: Correctly generate a file for use in data sources.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
+feature: Data Sources
 ---
 # Data source file format
 

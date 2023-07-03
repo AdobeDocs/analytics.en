@@ -2,6 +2,7 @@
 title: How replays work
 description: Understand the concept of "replay" in Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
+feature: CDA
 ---
 # How replays work
 

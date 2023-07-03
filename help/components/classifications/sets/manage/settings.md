@@ -2,6 +2,7 @@
 title: Classification set settings
 description: Create or edit a classification set.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
+feature: Classifications
 ---
 # Classification set settings
 

@@ -2,6 +2,7 @@
 title: Classification set manager
 description: Manage classification sets in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+feature: Classifications
 ---
 # Classification set manager
 

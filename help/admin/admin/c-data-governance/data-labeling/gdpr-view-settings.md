@@ -15,9 +15,9 @@ The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an ove
 
     >[!NOTE]
     >
-    >If you do not see this menu item, you need to be added to a [product profile in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) with permissions to this functionality.
+    >If you do not see this menu item, you need to be added to a [product profile in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html) with permissions to this functionality. Having access to a report suite/s will show this option under Admin UI in Analytics.
 
-3.  At the top right, select a report suites whose privacy labels you want to view or manage.
+3.  At the top right, select a report suite whose privacy labels you want to view or manage.
 
    ![](assets/privacy_labeling.png)
 

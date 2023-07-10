@@ -12,7 +12,7 @@ exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 >
 >FTP is not recommended because it is an unencrypted method of sharing files, which means that anyone can intercept the file contents as well as the username and password used for the account. 
 >
->Instead, configure a cloud account as described in [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md).
+>Instead, configure a cloud account as described in [Configure cloud import locations](/help/components/locations/configure-import-accounts.md).
 
 Steps that describe how to upload data files via FTP.
 

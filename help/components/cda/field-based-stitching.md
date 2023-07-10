@@ -2,6 +2,7 @@
 title: Field-based stitching
 description: Understand the prerequisites and limitations of stitching data using field-based stitching.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
+feature: CDA
 ---
 # Field-based stitching
 

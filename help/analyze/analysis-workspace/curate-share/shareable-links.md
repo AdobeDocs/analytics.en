@@ -18,8 +18,6 @@ If the recipient of the link has not been assigned a [project role](https://expe
 
 ## Get a read-only link to share with anyone
 
-{{release-limited-testing-section}}
-
 You can share a read-only link to Analysis Workspace projects with people who don't have access to Adobe Analytics. Users you share the link with are not required to log in. 
 
 For more information, see "Share a project with anyone (no login required)" in the article [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).

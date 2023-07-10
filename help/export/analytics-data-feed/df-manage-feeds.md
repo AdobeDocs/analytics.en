@@ -46,7 +46,7 @@ Click the Jobs tab to see individual jobs that each of your feeds create. See [M
 
 ### Add
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. See [Add a feed](create-feed.md) for more information.
+Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. See [Create a data feed](create-feed.md) for more information.
 
 ### Columns
 
@@ -60,8 +60,8 @@ Each created feed shows several columns providing information about it. Click a 
 * **Report Suite ID**: The report suite's unique identifier.
 * **Data Columns**: Which data columns are active for the feed. In most cases, there are too many columns to display in this format.
 * **Interval**: Indicator whether the feed is hourly or daily.
-* **Destination Type**: The destination type for the feed. For example, FTP, Amazon S3, or Azure.
-* **Destination Host**: The location the file is placed. For example, `ftp.example.com`.
+* **Destination Type**: The destination type for the feed. For example, Amazon S3, GCP, or Azure.
+* **Destination Host**: The location the file is placed.
 * **Owner**: The user account that created the feed.
 * **Status**: The status of the feed.
   * Active: The feed is operational.

@@ -1,34 +1,35 @@
 ---
-title: Classification Set Job Manager
-description: View current and completed classification jobs generated from Classification Sets.
+title: Classification set jobs manager
+description: View current and completed classification jobs generated from classification sets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
+feature: Classifications
 ---
-# Classification Set Jobs Manager
+# Classification set jobs manager
 
-The Classification Set Job Manager lets you see current and completed classification jobs that were generated from Classification Sets. You can also use this interface to download classification data or templates for a particular job, or upload additional data to a job.
+The Classification set jobs manager lets you see current and completed classification jobs that were generated from classification sets. You can also use this interface to download classification data or templates for a particular job, or upload additional data to a job.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
-Note that you cannot create jobs from this interface. Instead, you can create jobs by uploading data to a Classification Set, requesting a download file, or requesting a template file.
+You cannot create jobs from this interface. Create jobs by uploading data to a classification set (either manually or through a configured external location), requesting a download file, or requesting a template file.
 
-## Filter Classification Sets
+## Filter classification sets
 
-The left side of the Classification Set Job Manager provides filter settings to locate the desired Job. Clicking the filter icon toggles the filter settings visibility. You can filter Classification Sets by **[!UICONTROL Classification Set]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Status]**.
+The left side of the Classification set job manager provides filter settings to locate the desired job. Clicking the filter icon toggles the filter settings visibility. You can filter Classification sets by **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, or **[!UICONTROL Source]**.
 
-![Classification Set Job filters](../assets/classification-set-job-filters.png)
+![Classification set job filters](../assets/classification-set-job-filters.png)
 
-Additional filter options are available above the Classification Set Job Manager columns:
+Additional filter options are available above the Classification set job manager columns:
 
 * **[!UICONTROL Search by title]**: Search for jobs by filename.
-* **[!UICONTROL Load more]**: The Classification Set Job Manager initially displays up to 1000 jobs. Click this button to load 1000 more jobs.
+* **[!UICONTROL Load more]**: The Classification set job manager initially displays up to 1000 jobs. If more jobs exist, click this button to load 1000 more jobs.
 * **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Filename] and [!UICONTROL Completion time].
 
-## Classification Set Job Manager columns
+## Classification set job manager columns
 
-The following columns are available in the Classification Set Job Manager:
+The following columns are available in the Classification set job manager:
 
 * **[!UICONTROL Filename]**: The name of the upload or download file.
-* **[!UICONTROL Classification Set]**: The name of the Classification Set that the file applies to. You can click on the Classification Set name to reach the Classification Set's [Settings](settings.md).
+* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click the Classification set name to reach the Classification set's [Settings](manage/settings.md).
 * **[!UICONTROL Size]**: The size of the file.
 * **[!UICONTROL Status]**: The status of the job processing the file.
   * **[!UICONTROL Created]**: The job was submitted.
@@ -39,6 +40,9 @@ The following columns are available in the Classification Set Job Manager:
   * **[!UICONTROL Failed processing]**: The file failed processing.
   * **[!UICONTROL Complete]**: Processing is complete. Classification data is visible in reporting.
   * **[!UICONTROL Failed]**: Generic failure not related to validation or processing.
-* **[!UICONTROL Type]**: The type of job.
+* **[!UICONTROL Job type]**: The type of job.
+* **[!UICONTROL Source]**: The job source.
 * **[!UICONTROL File download]**: Only applies to download jobs, such as downloading classification data or downloading templates. When a download is ready, this column provides a download link.
+* **[!UICONTROL Modified lines]**: The number of modified lines.
+* **[!UICONTROL Completed lines]**: The number of completed lines.
 * **[!UICONTROL Completion time]**: The date and time that the job completed (or failed).

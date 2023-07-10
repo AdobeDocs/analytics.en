@@ -37,7 +37,7 @@ To demonstrate how to set these variables, here is an example where a visitor de
 * `eVar2` is equal to the keyword that was used in the search ("sandals")
 * `eVar1` is equal to the product finding method used ("internal keyword search").
 
-When you set these two variables equal to these specific values, you know that the visitor is using the internal keyword search term of "sandals" to find a product. At the same time, you know that the visitor is not using the other product finding methods to find products (for example, the visitor is not browsing through product categories at the exact same time they are performing a keyword search). To ensure that proper per-product allocation takes place, these unused methods should not get credit for finding a product that was found via an internal keyword search. Hence, you must insert logic into the code (such as AppMeasurement, AEP Web SDK, and so on) that automatically sets the eVars associated with these other finding methods equal to a "non-finding method" value.
+When you set these two variables equal to these specific values, you know that the visitor is using the internal keyword search term of "sandals" to find a product. At the same time, you know that the visitor is not using the other product finding methods to find products (for example, the visitor is not browsing through product categories at the exact same time they are performing a keyword search). To ensure that proper per-product allocation takes place, these unused methods should not get credit for finding a product that was found via an internal keyword search. Hence, you must insert logic into the code (such as AppMeasurement, Adobe Experience Platform Web SDK, and so on) that automatically sets the eVars associated with these other finding methods equal to a "non-finding method" value.
 
 For example, when a user searches for products using the keyword "sandals", the Analytics code's logic should set the variables equal to the following on the internal keyword search results page:
 
@@ -74,7 +74,7 @@ When the "Enable Merchandising" setting is set to "Enabled", all the settings as
 
 This option is not available for standard eVars. The [!UICONTROL Merchandising] setting lets you to pick either [!UICONTROL Conversion Variable Syntax] or [!UICONTROL Product Syntax] as the method for capturing the merchandising eVar's value.  
 
-**[!UICONTROL Conversion Variable Syntax]** means that you set the eVar value in its own variable. For example, with Conversion Variable Syntax, the `eVar1` value of "internal keyword search" is set as follows within the page code (or the AppMeasurement code, AEP Web SDK code, and so on):
+**[!UICONTROL Conversion Variable Syntax]** means that you set the eVar value in its own variable. For example, with Conversion Variable Syntax, the `eVar1` value of "internal keyword search" is set as follows within the page code (or the AppMeasurement code, Adobe Experience Platform Web SDK code, and so on):
 
 `s.eVar1="internal keyword search";`
 
@@ -265,11 +265,11 @@ If the visitor adds a product to the cart but never purchases it, the eVar expir
 
 ### Using Conversion Variable Syntax
 
-Let's return to the "Product Syntax" vs. "Conversion Variable Syntax" question. Adobe has discovered an easier method for both collecting the product finding method merchandising eVars and binding their values to products that visitors have found: Using Conversion Variable Syntax reduces the implementation work that the client's developers are responsible for. It still offers the same - or better - information than the Product Syntax method. Developers simply need to follow the deployment instructions that they were given, and the rest of the code can be placed into the Adobe AppMeasurement/AEP Web SDK file.
+Let's return to the "Product Syntax" vs. "Conversion Variable Syntax" question. Adobe has discovered an easier method for both collecting the product finding method merchandising eVars and binding their values to products that visitors have found: Using Conversion Variable Syntax reduces the implementation work that the client's developers are responsible for. It still offers the same - or better - information than the Product Syntax method. Developers simply need to follow the deployment instructions that they were given, and the rest of the code can be placed into the Adobe AppMeasurement/Adobe Experience Platform Web SDK file.
 
 For example, let's look at the recommended solution for tracking internal keyword search performance. It says that on the keyword search results page, the code captures the keyword searched for via a prop (for example, prop4) and another prop (for example, prop5). These props track the number of results shown from the search. Whenever an Adobe Analytics image request is generated on the search results page, it used the data layer objects (or page code) deployed by the developers to fill in the above variables (the props).
 
-Additional logic contained within the AppMeasurement/AEP Web SDK file can fill in the remainder of the variables (the merchandising eVars/dimensions) that need to be set at the same time.  
+Additional logic contained within the AppMeasurement/Adobe Experience Platform Web SDK file can fill in the remainder of the variables (the merchandising eVars/dimensions) that need to be set at the same time.  
 For instance, if a new visitor were to do a keyword search for "sandals", which returned 25 results on the search results page, the code to be fired (via the page code OR data layer capture) would look like this:
 
 ```js

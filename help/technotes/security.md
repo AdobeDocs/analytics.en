@@ -2,6 +2,7 @@
 title: Adobe Analytics security resources
 description: Links to Adobe resources around its security practices and recovery plans.
 exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
+feature: Implementation Basics
 ---
 # Adobe Analytics security resources
 

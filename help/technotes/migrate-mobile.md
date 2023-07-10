@@ -71,4 +71,4 @@ If you are leveraging Mobile Services for paid functionality, you don’t have a
 
 * For Acquisition Links, we can direct you to Adobe Partners to satisfy your need. 
 * Push Messaging and In-app Messaging are available in Adobe Campaign Standard and Adobe Campaign Classic (Push only). However, the underlying data set used for targeting is different. We suggest working with your Adobe account team to determine migration options for messaging data.
-* For Location functionality, you are encouraged to adopt the new [Adobe Experience Platform Location Service](https://www.adobe.com/experience-platform/location-service.html), which is free to all AEP customers.
+* For Location functionality, you are encouraged to adopt the new [Adobe Experience Platform Location Service](https://www.adobe.com/experience-platform/location-service.html), which is free to all Adobe Experience Platform customers.

@@ -2,6 +2,7 @@
 title: Processing order for data in Adobe Analytics
 description: Learn the order of components and services that process data in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
+feature: Data Configuration and Collection
 ---
 # Processing order for data in Adobe Analytics
 

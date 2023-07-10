@@ -9,6 +9,8 @@ exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 
 Metrics allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
 
+## Types of metrics
+
 Adobe offers several types of metrics for use in Analysis Workspace:
 
 * **Standard metrics**: Most metrics that you use in projects are standard metrics. Examples include [Page views](/help/components/metrics/page-views.md), [Revenue](/help/components/metrics/revenue.md), or [Custom events](/help/components/metrics/custom-events.md). See [Metrics overview](/help/components/metrics/overview.md) in the Components user guide for more information.
@@ -23,7 +25,17 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
   ![Calculated metric template](assets/calculated-metric-template.png)
 
-Metrics are flexible in their use within Analysis Workspace. Drag a metric to an empty Freeform table to see that metric trended over the project's date period. You can also drag a metric when a dimension is present to see that metric compared to each dimension item. Dragging a metric on top of an existing metric header replaces it, and dragging a metric next to a header lets you see both metrics side-by-side.
+## Use metrics in Analysis Workspace
+
+Metrics can be used in various ways within Analysis Workspace. You can:
+
+* Drag a metric to an empty Freeform table to see that metric trended over the project's date period. 
+
+* Drag a metric when a dimension is present to see that metric compared to each dimension item. 
+
+* Drag a metric on top of an existing metric header to replace it.
+
+* Drag a metric next to a header to see both metrics side-by-side.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

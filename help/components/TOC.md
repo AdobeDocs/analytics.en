@@ -228,12 +228,18 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Intelligent alerts - use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/c-classifications.md)
-  + Classification Sets {#sets}
-    + [Classification Sets Overview](classifications/sets/overview.md)
-    + [Classification Sets Manager](classifications/sets/set-manager.md)
-    + [Classification Set Jobs Manager](classifications/sets/job-manager.md)
-    + [Create a Classification Set](classifications/sets/create.md)
-    + [Classification Set Settings](classifications/sets/settings.md)
+  + Classification sets {#sets}
+    + [Classification sets overview](classifications/sets/overview.md)
+    + Manage classification sets {#manage}
+      + [Classification set manager](classifications/sets/manage/set-manager.md)
+      + [Create a classification set](classifications/sets/manage/create.md)
+      + [Classification set settings](classifications/sets/manage/settings.md)
+      + [Classification set schema](classifications/sets/manage/schema.md)
+      + [Classification set rules](classifications/sets/manage/rules.md)
+    + [Classification set jobs manager](classifications/sets/job-manager.md)
+    + Classification set consolidations {#consolidations}
+      + [Classification set consolidations manager](classifications/sets/consolidations/manage.md)
+      + [Classification set consolidations process](classifications/sets/consolidations/process.md)
   + Classification Rule Builder {#classifications-rulebuilder}
     + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
     + [Classification rule sets](classifications/crb/classification-rule-set.md)
@@ -250,6 +256,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Browser and FTP import](classifications/importer/import-file.md)
     + [Browser import](classifications/importer/browser-import.md)
     + [Browser export](classifications/importer/browser-export.md)
+    + [Cloud import](/help/components/classifications/importer/configure-import-accounts.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)

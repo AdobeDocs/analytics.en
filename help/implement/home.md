@@ -27,7 +27,7 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 For your **website**, the following implementation methods are available:
 
-*   **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **AEP Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, use a loader tag on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
+*   **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, use a loader tag on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
 See [Implement Adobe Analytics using the Adobe Experience Platform Web SDK extension](./aep-edge/overview.md) for more information.
 

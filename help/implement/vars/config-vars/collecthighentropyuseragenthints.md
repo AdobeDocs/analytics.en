@@ -2,6 +2,7 @@
 title: collectHighEntropyUserAgentHints
 description: Use the collectHighEntropyUserAgentHints variable to determine whether Adobe will request high entropy hints from Chromium browsers (e.g. Google Chrome and Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
+feature: Variables
 ---
 # collectHighEntropyUserAgentHints
 

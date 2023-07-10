@@ -264,7 +264,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Classifications FAQ](classifications/faq.md)
 + Locations {#locations}
   + [Locations manager](/help/components/locations/locations-manager.md)
-  + [Cloud import accounts](/help/components/classifications/importer/configure-import-accounts.md)
+  + [Cloud import accounts](/help/components/locations/configure-import-accounts.md)
   + [Cloud import locations](/help/components/locations/configure-import-locations.md)
 + [Calendar events](t-calendar-event.md)
 + [Scheduled reports queue](scheduled-reports-admin.md)

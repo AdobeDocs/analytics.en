@@ -2,6 +2,7 @@
 title: Analytics Tech Notes
 description: This guide provides helpful information on topics that don't belong to a specific analytics tool or component.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
 ---
 # Analytics Tech Notes
 

@@ -2,6 +2,7 @@
 title: Cross-Device Analytics
 description: Change your data from device-focused to person-focused by stitching device data together.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+feature: CDA
 ---
 # Cross-Device Analytics
 
@@ -22,7 +23,7 @@ Using CDA, you can answer questions such as:
 
 When devices are stitched, variable persistence is carried over across devices. For example, a user first visits your site through an advertisement on their desktop computer. That user finds your mobile app, installs it, and eventually makes a purchase on their mobile device. With Cross-Device Analytics, you can attribute revenue on the mobile device to the ad that they clicked on their desktop computer.
 
-Out of a spirit of partnership and transparency, we want our customers to be aware of our use of Microsoft Azure in association with Cross-Device Analytics. Adobe uses Azure to store device graph data and to perform cross-device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe’s provisioned instances of Microsoft Azure.
+Out of a spirit of partnership and transparency, we want our customers to be aware of our use of Microsoft Azure in association with Cross-Device Analytics. Adobe uses Azure to store device graph data and to perform cross-device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe's provisioned instances of Microsoft Azure.
 
 See the [Journey IQ: Cross-Device Analytics Spark page](https://adobe.ly/aacda) to learn more about the capabilities and features of Cross-Device Analytics.
 

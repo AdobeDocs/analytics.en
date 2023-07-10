@@ -2,6 +2,7 @@
 title: Consent Management Opt-In
 description: See which privacy settings that a visitor opted in to.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
+feature: Dimensions
 ---
 # Consent Management Opt-In
 

@@ -2,6 +2,7 @@
 title: Bot name
 description: The name of the bot that matched Bot rules.
 exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
+feature: Dimensions
 ---
 # Bot name
 

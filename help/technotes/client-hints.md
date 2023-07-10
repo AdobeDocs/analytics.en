@@ -2,6 +2,7 @@
 title: Client hints
 description: Learn about how client hints will gradually replace the User-Agent as the source of device information.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+feature: Data Configuration and Collection
 ---
 # Client hints overview and FAQ
 

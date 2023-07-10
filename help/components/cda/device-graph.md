@@ -2,6 +2,7 @@
 title: Device graph
 description: Understand the prerequisites and limitations of stitching data using the device graph.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
+feature: CDA
 ---
 # Device graph
 

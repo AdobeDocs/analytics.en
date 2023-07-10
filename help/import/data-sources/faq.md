@@ -2,6 +2,7 @@
 title: Data sources FAQ
 description: Frequently asked questions around data sources.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
+feature: Data Sources
 ---
 # Data sources FAQ
 

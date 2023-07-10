@@ -2,6 +2,7 @@
 title: Exclude specific dates in analysis
 description: Tips for excluding dates or date ranges if you do not want to include it in reports.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
+feature: Event, Segmentation
 ---
 # Exclude specific dates in analysis
 

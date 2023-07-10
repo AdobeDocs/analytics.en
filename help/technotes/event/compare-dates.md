@@ -2,6 +2,7 @@
 title: Compare dates impacted by an event to previous ranges
 description: Learn about the impact of an event, such as an implementation issue or outage, by comparing it to previous trends.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
+feature: Event
 ---
 # Compare dates impacted by an event to previous ranges
 

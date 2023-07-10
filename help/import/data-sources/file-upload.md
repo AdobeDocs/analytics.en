@@ -2,6 +2,7 @@
 title: Upload data sources file to Adobe
 description: The process to upload a data sources file to Adobe Analytics for ingestion.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
+feature: Data Sources
 ---
 # Upload data sources file to Adobe
 

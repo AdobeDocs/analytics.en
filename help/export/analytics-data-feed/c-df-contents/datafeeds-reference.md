@@ -94,7 +94,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`ipv6`** | The compressed IPv6 address, if available. Mutually exclusive to `ip`; if this column contains a non-obfuscated IP address, `ip` is blank. | varchar(40) |
 | **`j_jscript`** | Version of JavaScript supported by the browser. | char(5) |
 | **`java_enabled`** | Flag indicating whether Java is enabled. <br>Y: Enabled <br>N: Disabled <br>U: Unknown | char(1)|
-| **`javascript`** | Lookup ID of JavaScript version, based on `j_jscript`. Uses lookup table. | tinyint unsigned |
+| **`javascript`** | Lookup ID of JavaScript version, based on `j_jscript`. References the `javascript_version` lookup table. | tinyint unsigned |
 | **`language`** | Numeric ID of language. Uses `languages.tsv` lookup table. | smallint unsigned |
 | **`last_hit_time_gmt`** | Timestamp (in UNIX&reg; time) of the prior hit. Used to calculate the [Days since last visit](/help/components/dimensions/days-since-last-visit.md) dimension. | int |
 | **`last_purchase_num`** | Variable used in the [Customer loyalty](/help/components/dimensions/customer-loyalty.md) dimension. The number of previous purchases the visitor has made. <br>0: No prior purchases (not a customer) <br>1: 1 prior purchase (new customer) <br>2: 2 prior purchases (return customer) <br>3: 3 or more prior purchases (loyal customer) | int unsigned |

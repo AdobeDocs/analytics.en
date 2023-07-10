@@ -23,7 +23,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | New links to **[!UICONTROL Reports & Analytics]** reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![New links](assets/report-links.png) |
 | New out-of-the-box reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Note that these reports are in [!UICONTROL Workspace] format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
 | **[!UICONTROL Create Project]** modal is back | When you click **[!UICONTROL Create Project]** in Workspace, you once again get the choice between a [!UICONTROL Blank project] and a [!UICONTROL Blank mobile scorecard]. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
-| Also available in Customer Journey Analytics | This landing page, in a modified form, is also available in CJA. |  |
+| Also available in Customer Journey Analytics | This landing page, in a modified form, is also available in Customer Jourey Analytics. |  |
 
 {style="table-layout:auto"}
 
@@ -217,13 +217,24 @@ Admins can delete a report using the Company report list option (described above
 ![Other filters](assets/delete-fr-create-project-modal.png)
 
 
-## Navigate the Learning tab {#navigate-learning}
+## Use the Learning tab {#navigate-learning}
 
-The Learning page contains hands-on video tours and tutorials, plus links to documentation.
+The Learning page contains hands-on video tours, tutorials, and links to documentation.
 
-* The [!UICONTROL Workspace Fundamentals] Tour takes you directly to Workspace and walks you through the Workspace layout and where to find/perform the most common actions. This Tour can also be relaunched any time directly in Workspace via the tool tip pop-over from the panel header.
-* Clicking a video/tour adds a **[!UICONTROL Viewed]** tag. This tag helps you track your progress through the learning content. You can click the tag and it disappears, in case you have not completed the content yet.
-* The **[!UICONTROL Learn more]** button on the video modal takes you to an Adobe Experience League documentation page with more help content related to the video you just watched.  **[!UICONTROL View more videos]** takes you to the full Analysis Workspace YouTube playlist.
+Use the Learning page in Adobe Analytics to learn beginner, intermediate, or advanced features and use-cases in Adobe Analytics.
+
+### Access the Learning page
+
+1. In Adobe Analytics, select [!UICONTROL **Workspace**] > [!UICONTROL **Learning**].
+
+### Learning page features
+
+* **Filter content:** The Filter icon in the left rail allows you to filter learning content by experience level (Beginner, Intermediate, or Advanced) and by content type (Document, Video, or Tours & tutorials).
+* **Track progress:** After you select a piece of content, a **[!UICONTROL Viewed]** tag appears. This tag helps you track your progress through the learning content. You can select the **[!UICONTROL Viewed]** tag to remove it from a piece of content.
+* **View additional content:** While viewing any video, select the **[!UICONTROL Learn more]** button to view related documentation content on Experience League. Or, from the Learning page, select either of the following options to view additional content:
+  * **[!UICONTROL Visit YouTube]:** View the full Analysis Workspace YouTube playlist.
+  * [!UICONTROL **Visit Experience League**]: View the full suite of Adobe Analytics documentation on Experience League. 
+* **Fundamentals for new users:** The [!UICONTROL Workspace Fundamentals] tour is recommended for new users. This tour takes you directly to Workspace and walks you through the most common actions. This tour can also be relaunched any time in Workspace via the tooltip pop-over from the panel header.
 
 ## Set your landing page {#set-landing}
 

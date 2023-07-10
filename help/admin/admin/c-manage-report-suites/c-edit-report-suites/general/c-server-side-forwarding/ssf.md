@@ -20,7 +20,7 @@ Server-side forwarding improves upon data collection because it:
 >Current Audience Manager customers who use Analytics should migrate to server-side forwarding. New Adobe Analytics and Audience Manager customers should implement server-side forwarding (instead of DIL) as the default data collection and transfer method.
 
 >[!IMPORTANT]
->Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager (AAM). A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to AAM until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>Prompted by the EU cookie compliance regulation, data controllers (Analytics customers) now have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being server-side forwarded to Adobe Audience Manager. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to Adobe Audience Manager until consent has been received. For more information, see [GDPR_ePrivacy compliance and server-side forwarding](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 To understand where your organization is in terms of implementing server-side forwarding, go through these validation steps: 
 
@@ -43,12 +43,12 @@ In the "Response" tab, check that the response contains Audience Manager data. I
 * The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Continue to step 3.
 * A **2 x 2 image**: you do not have server-side forwarding or the Audience Management Module implemented. To correct this:
 
-  * **AAM Customers with DIL**: coordinate the following 2 items in close conjunction:
+  * **Adobe Audience Manager Customers with DIL**: coordinate the following 2 items in close conjunction:
 
     1. Remove the DIL code and install the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code.
     1. Enable server-side forwarding in the Analytics Admin UI as described in step 3. Enabling this setting before removing DIL code will duplicate data and create additional billed server calls to Audience Manager.
 
-  * **New AAM customers** - install the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code and continue to step 3. Data will not be sent to Audience Manager until server-side forwarding is turned on in step 3.
+  * **New Adobe Audience Manager customers** - install the [Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) page code and continue to step 3. Data will not be sent to Audience Manager until server-side forwarding is turned on in step 3.
 
 ## ![step3_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verify server-side forwarding implementation of report suite
 

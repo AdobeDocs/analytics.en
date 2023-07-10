@@ -2,6 +2,7 @@
 title: VISTA rules in Adobe Analytics
 description: Learn more about VISTA rules and their capabilities.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
+feature: Analytics Basics
 ---
 # VISTA rules in Adobe Analytics
 

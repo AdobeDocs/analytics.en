@@ -6,6 +6,7 @@ git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: yes
 feature-set: Analytics
+role: User, Admin
 ---
 
 # Metadata for internal use

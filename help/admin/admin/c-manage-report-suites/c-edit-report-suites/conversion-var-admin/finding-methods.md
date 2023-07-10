@@ -9,7 +9,7 @@ exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 
 The Finding Methods page identifies how various finding methods reports receive credit for conversion success events on your site. For example, if a search engine refers a visitor to your site who makes a purchase, Finding Methods specify how the search engine receives credit for the referral.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**
 
 ## Finding Methods Descriptions {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

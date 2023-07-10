@@ -6,13 +6,9 @@ exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 ---
 # List variables
 
-Create and configure list variables for use in reporting. Set their delimiter, expiration, allocation, and max values here.
+Create and configure list variables for use in reporting. Set their delimiter, expiration, allocation, and max values.
 
-You can access the configuration in the Admin Console:
-
-1. Go to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
-2. Select the report suite.
-3. Click  **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]** .
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**
 
 * **Name**: Each delimited value can contain a maximum of 255 characters (or less if using multi-byte characters). This is the maximum length of each element.
 * **Value Delimiter**: The character used to separate values within the List Var. Most commonly these are characters such as commas, colons, pipes, or something similar.
@@ -21,7 +17,7 @@ You can access the configuration in the Admin Console:
   >
   >Multi-byte characters are not supported as delimiters in List Vars. The delimiter must be single byte.
 
-* **Expiration**: Similar to eVar expiration, this determines the amount of time that can occur between the List Var and the conversion event for them to be related.
+* **Expiration**: Similar to eVar expiration, this field determines the amount of time that can occur between the List Var and the conversion event for them to be related.
   * **At a page view or visit level**: Success events beyond the page view or visit would not link back to any values within the List Var.
   * **Based on a time period, such as day, week, month, etc**: Success events beyond the specified time period would not link back to any values within the List Var. A custom number of days can be defined as well.
   * **Specific conversion events**: Any other success events that fire after the specific event designated would not link back to any values within the List Var.

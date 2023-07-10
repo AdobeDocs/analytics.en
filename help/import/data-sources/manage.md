@@ -2,6 +2,7 @@
 title: Manage data sources
 description: Navigate the manage data sources interface.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
+feature: Data Sources
 ---
 # Manage data sources
 

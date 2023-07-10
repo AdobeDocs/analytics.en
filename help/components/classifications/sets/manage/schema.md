@@ -40,7 +40,14 @@ The following buttons are available:
 
 * **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](../job-manager.md), showing jobs only for this classification set.
 * **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
-  * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. A button is available to create a location account.
-  * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. A button is available to create a location.
+  * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. If your organization hasn't already configured a location account, you can configure one by selecting [!UICONTROL **Create a new account**].
+    
+    For information about configuring the location account, see [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md).
+
+  * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. If your organization hasn't already configured a location, you can configure one by selecting [!UICONTROL **Create a new location**]. 
+
+    For information about configuring a location, see [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md). 
+
   * **[!UICONTROL Delimiter]**: The column delimiter for uploaded files. Options include [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], or [!UICONTROL Underscore].
+
   * **[!UICONTROL Encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.

@@ -26,7 +26,7 @@ The left side of the Locations manager provides filter settings to find the desi
 
 The following columns are available in the Locations manager:
 
-* **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-accounts.md) or delete it.
+* **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-locations.md) or delete it.
 * **[!UICONTROL Location type]**: The type of account associated with the location.
 * **[!UICONTROL Account]**: The specific account associated with the location.
 * **[!UICONTROL Last used]**: The date when the location was last used.
@@ -39,7 +39,7 @@ The following options are available in the Locations manager:
 
 * **[!UICONTROL Add location]**: Create a location. 
 
-  For more information, see [Configure cloud import locations](/help/components/locations/configure-import-accounts.md).
+  For more information, see [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
 * **[!UICONTROL Search field]**: Search for locations by name.
 * **[!UICONTROL Load more]**: The Locations manager initially displays up to 1,000 locations. This button loads 1,000 more locations.
 * **Customize table**: The Customize table icon ![Customize table icon](assets/customize-table-icon.png) allows you to choose which columns are displayed in the table.

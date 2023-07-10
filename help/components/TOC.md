@@ -256,14 +256,16 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Browser and FTP import](classifications/importer/import-file.md)
     + [Browser import](classifications/importer/browser-import.md)
     + [Browser export](classifications/importer/browser-export.md)
-    + [Cloud import](/help/components/classifications/importer/configure-import-accounts.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
-
   + [Sub-classifications](classifications/c-sub-classifications.md)
   + [Classifications FAQ](classifications/faq.md)
++ Locations {#locations}
+  + [Locations manager](/help/components/locations/locations-manager.md)
+  + [Cloud import accounts](/help/components/classifications/importer/configure-import-accounts.md)
+  + [Cloud import locations](/help/components/locations/configure-import-locations.md)
 + [Calendar events](t-calendar-event.md)
 + [Scheduled reports queue](scheduled-reports-admin.md)
 + Real-time reporting {#real-time-reporting}

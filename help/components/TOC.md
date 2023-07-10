@@ -256,6 +256,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Browser and FTP import](classifications/importer/import-file.md)
     + [Browser import](classifications/importer/browser-import.md)
     + [Browser export](classifications/importer/browser-export.md)
+    + [Cloud import](/help/components/classifications/importer/configure-import-accounts.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)

@@ -10,7 +10,7 @@ feature: Classifications
 
 Before you can import Adobe Analytics classification data from a cloud destination, you need to add and configure the account and the location within that account where you want the classification data to be collected.  
 
-This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations][/help/components/locations/configure-import-locations.md].
+This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
 
 You need to configure Adobe Analytics with the necessary information to access your cloud destination account.
 

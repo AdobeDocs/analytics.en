@@ -42,11 +42,11 @@ The following buttons are available:
 * **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
   * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. If your organization hasn't already configured a location account, you can configure one by selecting [!UICONTROL **Create a new account**].
     
-    For information about configuring the location account, see [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md).
+    For information about configuring the location account, see [Configure cloud import accounts](/help/components/locations/configure-import-accounts.md).
 
   * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. If your organization hasn't already configured a location, you can configure one by selecting [!UICONTROL **Create a new location**]. 
 
-    For information about configuring a location, see [Configure cloud import locations](/help/components/classifications/importer/configure-import-accounts.md). 
+    For information about configuring a location, see [Configure cloud import locations](/help/components/locations/configure-import-locations.md). 
 
   * **[!UICONTROL Delimiter]**: The column delimiter for uploaded files. Options include [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], or [!UICONTROL Underscore].
 

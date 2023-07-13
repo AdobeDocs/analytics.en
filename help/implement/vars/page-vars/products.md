@@ -54,7 +54,7 @@ The `s.products` variable is a string that contains multiple delimited fields pe
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-This variable supports multiple products in the same hit. It is valuable for shopping cart and purchases containing multiple products. The maximum length for the entire `products` string is 64K. Separate each product with a comma (`,`) in the string.
+This variable supports multiple products in the same hit. It is valuable for shopping cart and purchases containing multiple products. The maximum length for the entire `products` string is 64k bytes. Separate each product with a comma (`,`) in the string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

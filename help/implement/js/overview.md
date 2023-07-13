@@ -10,7 +10,7 @@ AppMeasurement for JavaScript has historically been a common method to implement
 
 A high-level overview of the implementation tasks: 
 
-![Implementing Adobe Analytivs with AppMeasurement overview](../assets/appmeasurement-annotated.png)
+![How to implement Adobe Analytivs with AppMeasurement for Javascript, as described in this section.](../assets/appmeasurement-annotated.png)
 
 <table>
 

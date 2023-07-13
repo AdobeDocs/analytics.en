@@ -51,7 +51,7 @@ Several features are available:
 
 ## s.events in AppMeasurement and the Analytics extension custom code editor
 
-The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. There is no byte limit for this variable, so it does not get truncated. Valid values include:
+The `s.events` variable is a string that contains a comma-delimited list of events to include in the hit. The variable allows up to 64k bytes, effectively allowing as many events as a hit needs. Valid values include:
 
 * `event1` - `event1000`: Custom events, set however you'd like. Record how you use each event in your organization's [solution design document](../../../prepare/solution-design.md). The number of available events depends on your organization's Analytics contract. Most organizations on non-legacy contracts have 1000 custom events available. Contact your Adobe Account Team if you are not sure how many custom events are available to you.
 * `purchase`: Increments the ['Orders'](/help/components/metrics/orders.md) metric by 1, and takes values set in the `products` variable to calculate ['Units'](/help/components/metrics/units.md) and ['Revenue'](/help/components/metrics/revenue.md). See [purchase event](event-purchase.md) for more information.

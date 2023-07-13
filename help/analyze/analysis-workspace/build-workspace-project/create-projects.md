@@ -39,8 +39,10 @@ The following sections describe how to create a project and start adding the key
       1. Search for or navigate to the report you want to use, then select it when it appears.
 
           A set of standard reports is available by default. In addition, your organization might have created custom reports for you to choose from.
+          
+      1. Select [!UICONTROL **Project**] > [!UICONTROL **Save**] to save the report as a new project.
 
-          For more information, see "Navigate the Reports tab" in [Adobe Analytics landing page](/help/analyze/landing.md).
+          For more information about reports, see "Navigate the Reports tab" in [Adobe Analytics landing page](/help/analyze/landing.md).
 
    +++
 

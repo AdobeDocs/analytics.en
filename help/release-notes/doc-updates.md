@@ -19,8 +19,9 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **July 2023** | |
+| New AppMeasurement variable | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) | 
 | **June 2023** | |
-| New AppMeasurement variable | The variable `doubleEncodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/doubleencodelinkparameters.md) | 
 | New features for classification sets | [Classification sets](/help/components/classifications/sets/overview.md) have been updated with several new features:<ul><li>**Consolidations**: Combine classification sets into a single consolidated classification set. The consolidated classification set can be used like other classification sets or as a lookup data set in Customer Jourey Analytics. [Learn more](../components/classifications/sets/consolidations/manage.md)</li><li>**Rules**: Automatically classify values based on rules in the classification set. [Learn more](../components/classifications/sets/manage/rules.md)</li><li>**Automated import**: Automatically import classification data from cloud storage destinations. [Learn more](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Calculated metrics updates | Updates were made to various articles related to calculated metrics, including updating screen shots and steps in procedures. These changes were made to bring documentation inline with current Adobe Analytics functionality. |
 | Secure destinations for data feed export | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. [Learn more](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | 

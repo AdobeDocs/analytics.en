@@ -19,7 +19,6 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. [Learn more](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | June 12, 2023 | July 15, 2023 |
 | **New AppMeasurement variable** | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. Most implementations do not need to define this variable. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) |  | July 17, 2023 |
 
-
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics

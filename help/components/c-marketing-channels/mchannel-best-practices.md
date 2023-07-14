@@ -12,7 +12,7 @@ In order to future-proof your Marketing Channels implementation and to ensure th
 
 When Marketing Channels were first introduced, they came with only first-touch and last-touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic 'Marketing Channel' and 'Marketing Channel Detail' dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last-Touch Channel dimensions, but are labeled differently to prevent confusion when using Marketing Channels with a different attribution model.
 
-Since Marketing Channel dimensions depend on a traditional Visit definition (as defined by their processing rules), their Visit definition cannot be changed using Virtual Report Suites. These revised practices enable clear and controlled lookback windows with Attribution IQ and with Customer Jourey Analytics.
+Since Marketing Channel dimensions depend on a traditional Visit definition (as defined by their processing rules), their Visit definition cannot be changed using Virtual Report Suites. These revised practices enable clear and controlled lookback windows with Attribution IQ and with Customer Journey Analytics.
 
 ## Best Practice #1: Leverage Attribution IQ for controlled analysis
 

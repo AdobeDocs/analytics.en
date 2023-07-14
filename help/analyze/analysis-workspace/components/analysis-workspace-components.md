@@ -113,7 +113,7 @@ You can search, filter, and sort the component list in the left rail of Analysis
    | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. |
    | [!UICONTROL **Metrics**] | Show only components that are Metrics. |
-   | [!UICONTROL **Segments**] | Show only components that are Segments. <!--this is Filters in Customer Jourey Analytics--> |
+   | [!UICONTROL **Segments**] | Show only components that are Segments. <!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. |
    | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
    | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |

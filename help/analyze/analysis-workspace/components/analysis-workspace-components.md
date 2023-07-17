@@ -122,8 +122,6 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 ### Sort the component list
 
-{{release-limited-testing-section}}
-
 1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
 2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.

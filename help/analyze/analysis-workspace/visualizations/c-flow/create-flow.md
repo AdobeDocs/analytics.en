@@ -17,11 +17,11 @@ Flow visualizations let you configure the start or end of the path you are inter
 
 1. Add a blank panel to your project and click the visualizations icon in the left rail. 
 
-1. Drag the [!UICONTROL Flow] visualization into the panel.
+1. Drag the [!UICONTROL **Flow**] visualization into the panel.
 
    Or
    
-   Drag the [!UICONTROL Flow] visualization into an existing project.
+   Drag the [!UICONTROL **Flow**] visualization into an existing project.
 
 1. Anchor your Flow visualization using one of the following options:
 
@@ -50,15 +50,24 @@ Flow visualizations let you configure the start or end of the path you are inter
    | Setting | Description |
    | --- | --- |
    | **[!UICONTROL Wrap labels]** | Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box.  Default = unchecked. |
-   | **[!UICONTROL Include repeat instances]** | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. Default = unchecked. |
+   | **[!UICONTROL Include repeat instances]** | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. <p>This option is disabled by default.</p> |
    | **[!UICONTROL Limit to first/last occurrence]** | Limit paths to those that start/end with the first/last occurrence of a dimension/item/metric. See the section below, [Example scenario for 'limit to first/last occurrence'](#example-scenario-for-limit-to-firstlast-occurrence), for a more detailed explanation. |
    | **[!UICONTROL Number of columns]** | The number of columns you want in your Flow diagram. |
    | **[!UICONTROL Items expanded per column]** | The number of items you want in each column. |
    | **[!UICONTROL Flow container]** | <ul><li>Visit</li><li>Visitor</li></ul> Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.  |
 
-1. Click **[!UICONTROL Build]**.
+1. Select **[!UICONTROL Build]**.
 
-For example, if you wanted to trace everything that leads up to a checkout event, you would drag a checkout-related dimension or metric (such as [!UICONTROL Order exists]) into the **[!UICONTROL Ends with]** drop zone.
+>[!INFO]
+>
+>**Example:** Suppose that you want to trace the path that users took both to and from the most popular pages on your site.
+>
+>To do this, you would 
+>1. Begin creating a flow visualization as described above.
+>1. Drag the [!UICONTROL **Page**] dimension into the **[!UICONTROL Contains]** field, then select [!UICONTROL **Build**].
+>1. The Flow visualization builds with the most-viewed page visible in the focus node in the center of the visualization. You also see the top pages leading into that page (to the left of the focus node) as well as the top pages leading out of that focus page (to the right of the focus node).
+>1. Analyze data in the flow, as described in [View and change the Flow output](#view-and-change-the-flow-output).
+
 
 ## View and change the Flow output {#output}
 
@@ -98,14 +107,13 @@ Above each column, a filter appears when you hover over it. By selecting the fil
 
 | Option | Description |
 |--- |--- |
-| [!UICONTROL Focus on this node] | Change the focus to the selected node. The focus node appears at the center of the Flow diagram. |
-| [!UICONTROL Start Over] | Returns you to the Freeform diagram builder, where you can build a new Flow diagram. |
-| [!UICONTROL Create Segment from this point in flow] | Create a segment. This takes you into the Segment Builder, where you can configure the new segment. |
+| [!UICONTROL Start over] | Returns you to the Freeform diagram builder, where you can build a new Flow diagram. |
+| [!UICONTROL Create segment for this path] | Create a segment. This takes you into the Segment Builder, where you can configure the new segment. |
 | [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
 | [!UICONTROL Trend] | Create a trended diagram for the node. |
+| Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
+| Hide column | Hides the selected column from the visualization. | 
 | [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
-| [!UICONTROL Collapse entire column] | Hide all nodes in a column. |
-| [!UICONTROL Exclude Item]/[!UICONTROL Restore Excluded Items] | Removes a specific node from the column and automatically creates it as a filter at the top of the column. To restore the excluded item, right-click again and select **[!UICONTROL Restore Excluded Item]**. you can also open the filter at the top of the column and remove the pillbox with the item you just excluded. |
 
 ## Example scenario for 'limit to first/last occurrence'
 

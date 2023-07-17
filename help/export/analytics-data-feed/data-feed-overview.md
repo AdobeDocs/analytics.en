@@ -7,10 +7,6 @@ exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 ---
 # Analytics Data Feed overview
 
->[!AVAILABILITY]
->
->Some of the destination types described on this page are in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
-
 Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw data can be used in other platforms outside of Adobe to use at your organization's discretion. Data is delivered in hourly batches at the conclusion of each hour, or in daily batches at the conclusion of each day.
 
 ## Prerequisites

@@ -6,10 +6,6 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 ---
 # Create a data feed
 
->[!AVAILABILITY]
->
->Some of the destination types described on this page are in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
-
 When creating a data feed, you provide Adobe with:
 
 * The information about the destination where you want raw data files to be sent

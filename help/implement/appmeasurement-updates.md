@@ -6,11 +6,19 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 ---
 # AppMeasurement for JavaScript release notes
 
-Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
+Cumulative release notes for AppMeasurement for JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-You can download the latest version of AppMeasurement in the [Code Manager](/help/admin/admin/code-manager-admin.md).
+You can download the latest version of AppMeasurement in the [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.24.0
+
+Release Date: **July 18, 2023**
+
+* Added an optional configuration (decodeLinkParameters default false) that decodes link URL's that includes double byte encoded characters.
+* Added additional error handling for browsers with faulty high-entropy User-Agent client hints API's.
+* Changed POST Content-Type header to use x-www-form-urlencoded by default.
 
 ## Version 2.23.0
 

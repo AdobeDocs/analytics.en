@@ -256,7 +256,7 @@ When creating a data feed, you provide Adobe with:
          | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. | 
          | [!UICONTROL **Account description**] | A description for the account. | 
          | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects).  | 
-         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to this principal in order to receive feeds. See the [Google Cloud documentation about adding a principal to a policy](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). | 
+
 
          {style="table-layout:auto"}
 

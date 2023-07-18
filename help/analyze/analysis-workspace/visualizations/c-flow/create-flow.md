@@ -17,11 +17,9 @@ Flow visualizations let you configure the start or end of the path you are inter
 
 1. Add a blank panel to your project and click the visualizations icon in the left rail. 
 
-1. Drag the [!UICONTROL **Flow**] visualization into the panel.
-
    Or
    
-   Drag the [!UICONTROL **Flow**] visualization into an existing project.
+   Add a visualization in any of the ways described in the "Add visualizations to a panel" section in [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Anchor your Flow visualization using one of the following options:
 
@@ -39,7 +37,7 @@ Flow visualizations let you configure the start or end of the path you are inter
    >
    >Calculated metrics cannot be used in the  **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** fields.
 
-1. If you choose a metric, you also need to provide a [!UICONTROL Pathing Dimension] to use to use as your path leading to or going from your selected component, as shown here. The default is [!UICONTROL **Page**].
+1. If you choose a metric, you also need to provide a [!UICONTROL **Pathing Dimension**] to use to use as your path leading to or going from your selected component, as shown here. The default is [!UICONTROL **Page**].
 
    ![pathing dimension](assets/pathing-dim.png)
 

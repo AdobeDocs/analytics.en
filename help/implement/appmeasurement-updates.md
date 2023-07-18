@@ -10,7 +10,7 @@ Cumulative release notes for AppMeasurement for JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-You can download the latest version of AppMeasurement in the [GitHub](https://github.com/adobe/appmeasurement/releases).
+You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Version 2.24.0
 

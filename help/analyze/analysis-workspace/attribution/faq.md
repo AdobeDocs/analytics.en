@@ -106,6 +106,8 @@ When possible, attribution IQ relies on the MID column value sent within an even
 
 When not possible, attribution IQ will use the MID value in the 'prior record' in the data source for evaluation. This prior record might not be ordered sequentially by timestamp, given that AA does not support out-of-order data.
 
+Due to the records not being ordered sequentially, the expected values from applying persistence can impact the amount of time that exists between the provided transaction ID timestamp and the original transaction.
+
 +++
 
 

@@ -9,6 +9,19 @@ There are various configuration options available when creating a Data Warehouse
 
 For information about how to begin creating a request, as well as links to other important configuration options, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md). 
 
+>[!NOTE]
+>
+>Consider the following when configuring a report destination:
+>
+>* We recommend using a cloud account for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
+>
+>* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
+>
+>* Any cloud accounts that you previously [configured for Data Feeds](/help/export/analytics-data-feed/create-feed.md) are available to use for Data Warehouse.
+>
+>* Cloud accounts that are configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination can be used when configuring a report destination. However, any locations that are configured for importing classification data cannot be used.
+
+
 1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
@@ -17,9 +30,11 @@ For information about how to begin creating a request, as well as links to other
 
    ![Report destination tab](assets/dw-report-destination.png)
 
-1. (Conditional) If you previously configured an account and a destination on that account that you want to use as your report destination:
+1. (Conditional) If you previously configured an account (and a destination on that account) that you want to use as your report destination:
 
    1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+      Any cloud accounts that you configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination are shown here and can be used. However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
    
    1. Select the destination associated with the account from the [!UICONTROL **Select destination**] drop-down menu. <!-- Is this correct? -->
 

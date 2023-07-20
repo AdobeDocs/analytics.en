@@ -16,7 +16,7 @@ A high-level overview of the implementation tasks:
 
 
 
-![Adobe Analytics using the Analytics extension workflow](../assets/analytics-extension-annotated.png)
+![How to implement Adobe Analytics using the Analytics extension workflow, as described in this section.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -67,6 +67,6 @@ A high-level overview of the implementation tasks:
 
 Tags can be highly customized. Learn more about how you can get the most out of Adobe Analytics by including the right data in your implementation.
 
--   [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
+- [Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): Learn how the interface works and what extensions are available.
 
--   [Implementation variables](../vars/overview.md): Determine what variables you want to send to data collection servers.
+- [Implementation variables](../vars/overview.md): Determine what variables you want to send to data collection servers.

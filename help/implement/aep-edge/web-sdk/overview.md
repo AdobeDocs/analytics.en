@@ -14,7 +14,7 @@ You can send data to Experience Edge directly using the Web SDK, or through the 
 
 A high-level overview of the implementation tasks:
 
-![Implement Adobe Analytics using Web SDK workflow](../../assets/websdk-annotated.png)
+![How to implement Adobe Analytics using Web SDK workflow, as described in this section.](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -80,7 +80,7 @@ A high-level overview of the implementation tasks:
 
 A high-level overview of the implementation tasks:
 
-![Implement Adobe Analytics using Web SDK extension workflow](../../assets/websdk-extension-annotated.png)
+![How to implement Adobe Analytics using Web SDK extension workflow, as described in this section.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

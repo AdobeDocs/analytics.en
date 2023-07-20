@@ -16,7 +16,8 @@ Adobe Analytics releases operate on a [continuous delivery model](releases.md) w
 | ----------- | ---------- | ------- | ---- |
 | **Configure cloud account storage locations for ingesting classification data** | You can now manage cloud account storage locations that are used for classification set automation. [Learn more](/help/components/locations/configure-import-accounts.md)<p>| N/A |July 10, 2023 |
 | **Data Repair filter enhancements** | Three filtering improvements were added to Data Repair:<ul><li>Filter by one variable to modify a second variable. For example, if `eVar2` contains "@", then delete `eVar3`.</li><li>Filter for numeric or non-numeric values</li><li>Apply multiple filters with an AND. For example, where `eVar2="a"` AND `eVar3="b"`</li></ul>[Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)| June 21, 2023 |July 12, 2023 |
-| **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. [Learn more](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | June 12, 2023 | July 15, 2023 |
+| **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. [Learn more](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | June 12, 2023 | July 13, 2023 |
+| **New AppMeasurement variable** | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. Most implementations do not need to define this variable. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) |  | July 17, 2023 |
 
 {style="table-layout:auto"}
 
@@ -29,7 +30,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
 | **37-month expiration of Purchase IDs and Event IDs (event serialization)**  | July 10,2023 | An upcoming release of the Analytics Hit processing engine, targeted for release on **July 13, 2023**, will start enforcing a 37-month expiration of Purchase IDs and Event IDs (event serialization). Currently, Purchase IDs and Event IDs never expire in Adobe Analytics. Once a Purchase ID or Event ID is seen/used, then any future hit, no matter when, will have that purchase or event marked as a duplicate. With the new processing engine release:<ul><li>Purchase IDs and Event IDs always expire after 37 months.</li><li>If it has been 37 months since the Purchase ID or Event ID was seen, it is no longer considered a duplicate purchase or event.</li><li> If you are "reusing" Purchase IDs or Event IDs from more than 37 months ago, they are no longer considered duplicates.</li></ul> |
-| **Migration to AdobeIO OAuth Server-to-Server credentials** | May 11, 2023 | Adobe Analytics API and Livestream customers using AdobeIO JWT credentials must migrate to AdobeIO OAuth Server-to-Server credentials by **January 1, 2025**. For more details and timelines, see the end-of-life notice in the table below.|
+| **Migration to Adobe I/O OAuth Server-to-Server credentials** | May 11, 2023 | Adobe Analytics API and Livestream customers using Adobe I/O JWT credentials must migrate to Adobe I/O OAuth Server-to-Server credentials by **January 1, 2025**. For more details and timelines, see the end-of-life notice in the table below.|
 
 {style="table-layout:auto"}
 
@@ -46,7 +47,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.23.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+For the latest updates on AppMeasurement releases (Version 2.24.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Related resources

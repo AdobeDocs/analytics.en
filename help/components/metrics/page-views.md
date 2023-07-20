@@ -6,7 +6,9 @@ exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 ---
 # Page Views
 
-The 'Page views' metric shows the number of times a given dimension item was set or persisted on a page. It is one of the most common and basic metrics in reports.
+The **[!UICONTROL Page views]** metric shows the number of times a given dimension item (dimension value) was defined or persisted (i.e. when it expires) on a page. It is one of the most common and basic metrics in reports.
+
+For example, the [!UICONTROL Days of Week] dimension is composed of the following dimension items: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday. 
 
 ## How this metric is calculated
 
@@ -14,5 +16,5 @@ This metric counts all page view tracking calls ([`t()`](/help/implement/vars/fu
 
 ## Compare to similar metrics
 
-* **Page views vs. [Visits](visits.md)**: Page views count the number of times a page is viewed. Visits count the number of sessions for visitors. One visit consists of one or more page views.
+* **Page views vs. [Visits](visits.md)**: Page views count the number of times a page is viewed. Visits count the number of sessions for visitors. One visit can consist of one or more page views.
 * **Page views vs. [Page events](page-events.md)**: Page views count the number of page view tracking calls (`t()`), and excludes link tracking calls (`tl()`). Page events are the opposite; they count the number of link tracking calls, and exclude page view tracking calls.

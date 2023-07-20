@@ -7,7 +7,7 @@ exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
 ---
 # FTP limits and data retention
 
-All Adobe FTP accounts have a data storage limit of 10 GB. Files are retained on these FTP accounts for 90 days.
+All Adobe FTP accounts have a data storage limit of 100 GB. Files are retained on these FTP accounts for 90 days.
 
 ## Limits on concurrent connections
 

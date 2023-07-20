@@ -20,7 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2023** | |
-| December 19, 2020 | Changed the default [FTP data storage limit](/help/export/ftp-and-sftp/ftp-limits.md) to 100 GB. |
+| Updated FTP size limit | Changed the default [FTP data storage limit](/help/export/ftp-and-sftp/ftp-limits.md) to 100 GB. |
 | New AppMeasurement variable | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) | 
 | **June 2023** | |
 | New features for classification sets | [Classification sets](/help/components/classifications/sets/overview.md) have been updated with several new features:<ul><li>**Consolidations**: Combine classification sets into a single consolidated classification set. The consolidated classification set can be used like other classification sets or as a lookup data set in Customer Journey Analytics. [Learn more](../components/classifications/sets/consolidations/manage.md)</li><li>**Rules**: Automatically classify values based on rules in the classification set. [Learn more](../components/classifications/sets/manage/rules.md)</li><li>**Automated import**: Automatically import classification data from cloud storage destinations. [Learn more](../components/classifications/sets/manage/schema.md)</li></ul> |

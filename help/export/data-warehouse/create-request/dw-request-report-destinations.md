@@ -50,7 +50,7 @@ For information about how to begin creating a request, as well as links to other
 
       For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected.
 
-      Use any of the following destination types when configuring a report destination. For configuration instructions, expand the account type. (Additional legacy destinations <!-- add link --> are also available, but are not recommended.) 
+      Use any of the following account types when configuring a report destination. For configuration instructions, expand the account type. (Additional legacy destinations <!-- add link --> are also available, but are not recommended.) 
 
       +++Amazon S3
 
@@ -115,6 +115,72 @@ For information about how to begin creating a request, as well as links to other
          |---------|----------|
          | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. <!-- How does this differ from the Notification email tab? -->| 
 
-   1. Select [!UICONTROL **Add destination**], then ... <!--need to go through this -->
+   1. Select [!UICONTROL **Add location**], then specify the following information:
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Name**] | The name of the location.  | 
+      | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
+      | [!UICONTROL **Location account**] | Select the location account that you created in [Add an account](#add-an-account). | 
 
+   1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
+
+      For configuration instructions, expand the section below that corresponds to the account type that you selected previously. 
+
+      +++Amazon S3
+
+         Specify the following information to configure an Amazon S3 location:
+
+         |Field | Function | 
+         |---------|----------|
+         | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. Ensure that the User ARN that was provided by Adobe has access to upload files to this bucket. |  
+         | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+
+         {style="table-layout:auto"}
+
+      +++
+
+      +++Google Cloud Platform
+
+         Specify the following information to configure a Google Cloud Platform location:
+
+         |Field | Function | 
+         |---------|----------|
+         | [!UICONTROL **Bucket name**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |  
+         | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+
+         {style="table-layout:auto"}
+   
+      +++
+
+      +++Azure SAS
+
+         Specify the following information to configure an Azure SAS location:
+
+         |Field | Function | 
+         |---------|----------|
+         | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
+         | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
+
+         {style="table-layout:auto"}
+
+      +++   
+
+      +++Azure RBAC
+
+         Specify the following information to configure an Azure RBAC location:
+
+         |Field | Function | 
+         |---------|----------|
+         | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
+         | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
+         | [!UICONTROL **Account name**] | The   Azure storage account. | 
+
+         {style="table-layout:auto"}
+
+      +++
+
+   1. Select [!UICONTROL **Save**].
+
+      You can now import data to the account and location that you configured.
+      
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report options**] tab. For more information, see [Configure report options for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-options.md).

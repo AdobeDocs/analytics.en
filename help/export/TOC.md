@@ -29,8 +29,15 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
   + [Troubleshoot Data feeds](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
   + [Data Warehouse overview](data-warehouse/data-warehouse.md)
+  + Create a Data Warehouse request {#create-request}
+    + [Create a Data Warehouse request](data-warehouse/create-request/t-dw-create-request.md)
+    + [General settings](data-warehouse/create-request/dw-general-settings.md)
+    + [Build a report](data-warehouse/create-request/dw-request-build-report.md)
+    + [Configure a report destination](data-warehouse/create-request/dw-request-report-destinations.md)
+    + [Configure report options](data-warehouse/create-request/dw-request-report-options.md)
+    + [Scheduling options](data-warehouse/create-request/dw-request-scheduling.md)
+    + [Configure a notification email](data-warehouse/create-request/dw-request-email.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
-  + [Create a Data Warehouse request](data-warehouse/t-dw-create-request.md)
   + [Request delivery time](data-warehouse/delivery-time.md)
   + [Tableau data file](data-warehouse/t-tableau.md)
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)

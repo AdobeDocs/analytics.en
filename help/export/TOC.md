@@ -35,6 +35,7 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
     + [Build a report](data-warehouse/create-request/dw-request-build-report.md)
     + [Configure a report destination](data-warehouse/create-request/dw-request-report-destinations.md)
     + [Configure report options](data-warehouse/create-request/dw-request-report-options.md)
+    + [Scheduling options](data-warehouse/create-request/dw-request-scheduling.md)
     + [Configure a notification email](data-warehouse/create-request/dw-request-email.md)
   + [Add Data Warehouse user group](data-warehouse/t-dw-group.md)
   + [Request delivery time](data-warehouse/delivery-time.md)

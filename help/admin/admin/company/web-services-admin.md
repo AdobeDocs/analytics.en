@@ -8,12 +8,12 @@ exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 
 The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Web Services]** or **API Access**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Web Services]** or **[!UICONTROL API Access]**
 
 
 ## Analytics 2.0 APIs
 
-To access the Analytics 2.0 APIs you will need the global company id of your Analytics Company. You can find the global company id you are currently logged into in **bold** in this section.
+To access the Analytics 2.0 APIs, you need the global company ID of your Analytics Company. You can find the global company ID in **bold** at the top of the [!UICONTROL API Access] section. Here is an example: "The global company ID for the Analytics Company you are currently logged into is **adobe1234**."
 
 ## Manage Legacy Web Services (Deprecated)
 

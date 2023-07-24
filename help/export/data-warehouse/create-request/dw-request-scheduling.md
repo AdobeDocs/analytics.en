@@ -27,5 +27,7 @@ For information about how to begin creating a request, as well as links to other
    | Time of day | The time of day that the report should be sent. | 
    | End delivery options | Choose when to end the scheduled deliveries. You can choose to never end, to end after a specific number of occurrences, or to end on a specific date. | 
 
-1. Continue with [Configure a notification email for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-email.md).
+   {style="table-layout:auto"}
+
+1. Continue configuring your Data Warehouse request on the [!UICONTROL **Notification email**] tab. For more information, see [Configure a notification email for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-email.md).
   

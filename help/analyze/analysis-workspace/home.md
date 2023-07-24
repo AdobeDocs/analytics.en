@@ -72,6 +72,10 @@ The Data Dictionary in Analysis Workspace helps both users and administrators ke
 
 To learn more about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
 
+### Data Sources
+
+Synchronizing visualizations lets you control which data table or data source corresponds to a visualization. Here is more information on how you can [manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+
 ## Start using Analysis Workspace
 
 ### Log in to Adobe Analytics {#login}

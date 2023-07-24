@@ -16,7 +16,7 @@ You can download the latest version of AppMeasurement from [GitHub](https://gith
 
 Release Date: **July 18, 2023**
 
-* Added an optional configuration (`decodeLinkParameters` default false) that decodes link URLs that include double-byte-encoded characters.
+* Added an optional configuration (`decodeLinkParameters` - default = false) that decodes link URLs that include double-byte-encoded characters.
 * Added additional error handling for browsers with faulty high-entropy User-Agent client hints APIs.
 * Changed POST Content-Type header to use `x-www-form-urlencoded` by default.
 

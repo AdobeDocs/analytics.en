@@ -13,4 +13,13 @@ For information about how to begin creating a request, as well as links to other
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **Notification email**] tab, 
+1. On the [!UICONTROL **Notification email**] tab, complete the following fields:
+
+   |Option | Function | 
+   |---------|----------|
+   | Send notification email to | Specify the email address of users to receive email notifications when the report is sent. Specify a single email address or a comma-separated list of email addresses. | 
+   | Advanced options | Select this option to add a subject for the email notification as well as any notes to include with the notification. |
+
+   {style="table-layout:auto"}
+
+1. Select [!UICONTROL **Save request**] to save the Data Warehouse report request.

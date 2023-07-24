@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2023** | |
+| Global company id | Documented [how to find the global company id](../admin/admin/company/web-services-admin.md) for the Analytics company you are logged into. This id is required for Analytics 2.0 APIs. |
 | Updated FTP size limit | Changed the default [FTP data storage limit](/help/export/ftp-and-sftp/ftp-limits.md) to 100 GB. |
 | New AppMeasurement variable | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) | 
 | **June 2023** | |

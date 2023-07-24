@@ -13,7 +13,7 @@ For information about how to begin creating a request, as well as links to other
 >
 >Consider the following when configuring a report destination:
 >
->* We recommend using a cloud account for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
+>* We recommend using a cloud account or email for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
@@ -21,6 +21,7 @@ For information about how to begin creating a request, as well as links to other
 >
 >* Cloud accounts that are configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination can be used when configuring a report destination. However, any locations that are configured for importing classification data cannot be used.
 
+To configure the destination where Data Warehouse reports are sent:
 
 1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 

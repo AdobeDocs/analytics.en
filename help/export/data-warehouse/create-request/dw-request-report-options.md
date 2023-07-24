@@ -9,6 +9,8 @@ There are various configuration options available when creating a Data Warehouse
 
 For information about how to begin creating a request, as well as links to other important configuration options, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md). 
 
+To configure report options for a Data Warehouse request:
+
 1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
@@ -18,7 +20,7 @@ For information about how to begin creating a request, as well as links to other
    |Option | Function | 
    |---------|----------|
    | File name | Identifies the report. | 
-   | Append report date range to file name | Adds the date range to the report file name. This is especially useful for scheduled reports. |
+   | Append report date range to file name | Adds the date range to the report file name. <p>For example, if you request data from May 1, 2024 through May 7, 2024, the filename includes the date range of 20240501 - 20240507.</p> |
    | CSV | Delivers reports in a CSV file format for viewing data in a spreadsheet. | 
    | Tableau (TDE) | Delivers reports in a Tableau Data Extract (TDE) file format, which can be used to visualize data and layer in additional data within Tableau. |
    | Send report as compressed file (ZIP) | Delivers reports in a compressed (ZIP) file format. We recommend enabling this option when using email as the [report destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 

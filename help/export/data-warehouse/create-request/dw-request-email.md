@@ -15,7 +15,11 @@ To configure configure a notification email for a Data Warehouse request:
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **Notification email**] tab, complete the following fields:
+1. On the New Data Warehouse request page, select the [!UICONTROL **Notification email**] tab.
+
+   ![Report destination tab](assets/dw-notification-email.png) <!--update screenshot -->
+
+1. Complete the following fields:
 
    |Option | Function | 
    |---------|----------|

@@ -15,7 +15,11 @@ To configure report options for a Data Warehouse request:
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **Report options**] tab, complete the following fields:
+1. On the New Data Warehouse request page, select the [!UICONTROL **Report options**] tab.
+
+   ![Report destination tab](assets/dw-report-options.png) <!-- update screenshot -->
+
+1. Complete the following fields:
 
    |Option | Function | 
    |---------|----------|

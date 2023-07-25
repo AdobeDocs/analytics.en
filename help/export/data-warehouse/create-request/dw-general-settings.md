@@ -15,7 +15,11 @@ To configure general settings for a Data Warehouse request:
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **General settings**] tab, complete the following fields:
+1. On the New Data Warehouse request page, select the [!UICONTROL **General settings**] tab.
+
+   ![Report destination tab](assets/dw-general-settings.png)
+
+1. Complete the following fields:
 
    |Option | Function | 
    |---------|----------|

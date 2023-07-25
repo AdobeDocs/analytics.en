@@ -15,6 +15,10 @@ To build a report for a Data Warehouse request:
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **Build your report**] tab,
+1. On the New Data Warehouse request page, select the [!UICONTROL **Build your report**] tab.
+
+   ![Report destination tab](assets/dw-report-destination.png)
+
+1. 
 
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report destination**] tab. For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).

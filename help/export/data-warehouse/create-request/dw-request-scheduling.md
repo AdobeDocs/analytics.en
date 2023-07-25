@@ -15,11 +15,16 @@ To configure scheduling options for a Data Warehouse request:
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. On the [!UICONTROL **Scheduling options**] tab, complete the following fields:
+1. On the New Data Warehouse request page, select the [!UICONTROL **Scheduling options**] tab.
+
+   ![Report destination tab](assets/dw-scheduling-options.png) <!-- update screenshot -->
+
+1. Complete the following fields:
 
    |Option | Function | 
    |---------|----------|
    | Send report now | Sends the report as a one-time report. | 
+   | Schedule for later | Provides options for scheduling report delivery. All options are described below. |
    | Report frequency | The frequency with which reports are delivered. <p>The following options are available:</p><ul><li>Hourly</li><p>[!UICONTROL **Hourly**] is available only when the [!UICONTROL **Date ranges**] option on the [!UICONTROL **General settings**] tab is set to [!UICONTROL **Last hour**].</p><li>Daily</li><li>Weekly</li><li>Monthly</li><li>Yearly</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" -->  | 
    | Monthly recurrence | The interval between months when the report is sent. | 
    | Day of the month | The date each month when the report is sent.<p>When this option is available, the [!UICONTROL **Week of the month**] and [!UICONTROL **Day of the week**] options are not. Select the [!UICONTROL **Alternate format**] button to toggle back and forth. </p> | 

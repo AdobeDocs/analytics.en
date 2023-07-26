@@ -64,7 +64,8 @@ Flow visualizations let you configure the start or end of the path you are inter
 >
 >**Example:** Suppose that you want to trace the path that users took both to and from the most popular pages on your site.
 >
->To do this, you would 
+>To do this, you would
+> 
 >1. Begin creating a flow visualization as described above.
 >1. Drag the [!UICONTROL **Page**] dimension into the **[!UICONTROL Contains]** field, then select [!UICONTROL **Build**].
 >1. The Flow visualization builds with the most-viewed page visible in the focus node in the center of the visualization. You also see the top pages leading into that page (to the left of the focus node) as well as the top pages leading out of that focus page (to the right of the focus node).

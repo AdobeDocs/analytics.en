@@ -12,7 +12,7 @@ Also consider the Edge Network Server API when you require sensitive data to be 
 
 A high-level overview of the implementation tasks:
 
-![Adobe Analytics using the Analytics extension workflow](../../assets/edge-network-server-api.svg)
+![Adobe Analytics using the Analytics extension workflow](../../assets/edge-network-server-api.png)
 
 <table style="width:100%">
 

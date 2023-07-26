@@ -20,7 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2023** | |
-| Adobe Experience Platform Edge Network Server API | Added more comprehensive documentation on when and how to implement data collection with Adobe Analytics using the [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). For example,  implementing data collectionw with Adobe Analytics in desktop applications, IoT devices, set top boxes. | 
+| Adobe Experience Platform Edge Network Server API | Added more comprehensive documentation on when and how to implement data collection with Adobe Analytics using the [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). For example, implementing data collection with Adobe Analytics in desktop applications, IoT devices, set top boxes. | 
 | Global company ID | Documented [how to find the global company ID](../admin/admin/company/web-services-admin.md) for the Analytics company you are logged into. This ID is required for Analytics 2.0 APIs. |
 | Updated FTP size limit | Changed the default [FTP data storage limit](/help/export/ftp-and-sftp/ftp-limits.md) to 100 GB. |
 | New AppMeasurement variable | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) | 

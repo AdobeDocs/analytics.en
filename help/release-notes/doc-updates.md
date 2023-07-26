@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2023** | |
+| Adobe Experience Platform Edge Network Server API | Added more comprehensive documentation on when and how to implement the [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). For example, when implementing Adobe Analytics for desktop applications, IoT devices, set top boxes. | 
 | Global company ID | Documented [how to find the global company ID](../admin/admin/company/web-services-admin.md) for the Analytics company you are logged into. This ID is required for Analytics 2.0 APIs. |
 | Updated FTP size limit | Changed the default [FTP data storage limit](/help/export/ftp-and-sftp/ftp-limits.md) to 100 GB. |
 | New AppMeasurement variable | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) | 
@@ -92,7 +93,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Use of SKU field in XDM for Edge Collection when setting product string Variables | Enables customers collecting data via Experience Edge/Web SDK to use the SKU value to set the product field in the products variable. [Learn more](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk) |
 | **June 2022** |  |
 | Merchandising variables in XDM for Edge Collection |  Documentation on [support for Merchandising variables in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
-| Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), and [Edge API](/help/implement/aep-edge/edge-api/overview.md). |
+| Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), and [Edge API](/help/implement/aep-edge/server-api/overview.md). |
 | Updated Flow visualization documentation | Based on the [new UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **May 2022** | |

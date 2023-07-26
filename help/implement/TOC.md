@@ -134,8 +134,8 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
   + Mobile SDK {#mobile-sdk}
     + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
-  + Edge API {#edge-api}
-    + [Edge API overview](aep-edge/edge-api/overview.md)
+  + Server API {#server-api}
+    + [Server API overview](aep-edge/server-api/overview.md)
 + Implement Analytics using the Adobe Analytics extension {#launch}
   + [Tags overview](launch/overview.md)
   + [Create an Adobe Analytics tag property](launch/create-analytics-property.md)

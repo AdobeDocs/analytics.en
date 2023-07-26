@@ -33,13 +33,14 @@ You can configure what information is displayed for each request by adding or re
 
    The following columns are available:
 
-   * [!UICONTROL **Request name**]: The name of the person who created the request.
+   |Available column | Description |
+   |---------|----------|
+   | Request name | The name of the person who created the request. | 
+   | Report suite | The report suite associated with the request. | 
+   | Request date | The date the request was made. |
+   | Status | The status of the request. |
 
-   * [!UICONTROL **Report suite**]: The report suite associated with the request.
-
-   * [!UICONTROL **Request date**]: The date the request was made.
-
-   * [!UICONTROL **Status**]: The status of the request
+   {style="table-layout:auto"}
 
 1. Ensure that any columns you want to display are selected. Selected columns appear on the Data Warehouse page and display the relevant information.
 

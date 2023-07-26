@@ -71,10 +71,12 @@ You can prioritize the order in which requests are processed.
 
    Requests are processed in the order that they appear, with requests at the top of the page being processed before requests at the bottom of the page. <!-- still true? -->
 
-
+<!--
 
 To manage existing requests in Data Warehouse:
   
      * Select a job to see individual requests for that job. <!-- still true? -->
 
      * Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete. <!-- What is this?? -->
+
+-->

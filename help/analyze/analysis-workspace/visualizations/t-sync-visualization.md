@@ -30,20 +30,20 @@ Here is a video on these settings:
 
 | Element | Description |
 | --- | --- |
-| Linked Visualizations | If there are visualizations connected to a freeform or cohort table, the top left dot opens to list the connected visualizations and have a "show" checkbox option to show/hide the table. Hovering highlights the linked visualization, and clicking it takes you to it. |
+| Linked Visualizations | If there are visualizations connected to a freeform or cohort table, the top-left dot opens to list the connected visualizations and have a "show" checkbox option to show/hide the table. Hovering highlights the linked visualization, and clicking it takes you to it. |
 | Show Data Source | Lets you show (by enabling the checkbox) or hide (by disabling) the data table that corresponds to the visualization.|
-| Lock Selection | Enable this setting to lock the visualization to the data currently selected in the corresponding data table. Once enabled, choose between:<ul><li>**Selected Positions**: Choose this option if you want the visualization to stay locked on the positions that are selected in the corresponding data table. These positions will continue to be visualized, even if the specific items in these positions change. For example, choose this option if you want to show the top five campaign names in this visualization at all times, no matter which campaign names show up in the top five.</li><li>**Selected Items**: Choose this option if you want the visualization to stay locked on the specific items currently selected in the corresponding data table. These items will continue to be visualized, even if they change their ranking among items in the table. For example, choose this option if you want to show the same five specific campaign names in this visualization at all times, no matter where those campaign names rank.</li></ul>|
+| Lock Selection | Enable this setting to lock the visualization to the data currently selected in the corresponding data table. Once enabled, choose between:<ul><li>**Selected Positions**: Choose this option if you want the visualization to stay locked on the positions that are selected in the corresponding data table. These positions continue to be visualized, even if the specific items in these positions change. For example, choose this option if you want to show the top five campaign names in this visualization at all times, no matter which campaign names show up in the top five.</li><li>**Selected Items**: Choose this option if you want the visualization to stay locked on the specific items currently selected in the corresponding data table. These items continue to be visualized, even if they change their ranking among items in the table. For example, choose this option if you want to show the same five specific campaign names in this visualization at all times, no matter where those campaign names rank.</li></ul>|
 
 This architecture differs from the previous one in that Analysis Workspace no longer creates a duplicate hidden table that stores the locked selection for you. Now, the data source points to the table that you created the visualization from.
 
 ## Example use cases
 
-* You can create a summary visualization and lock it to a cell in the table you created it from. When you enable "Show Data Source", it shows you exactly where this information is coming from in the table. The source data will be greyed out: 
+* You can create a summary visualization and lock it to a cell in the table you created it from. When you enable "Show Data Source", it shows you exactly where this information is coming from in the table. The source data is grayed out: 
 
   ![](assets/data-source2.png)>
 * You can add lots of visualizations and source them from different cells in the same table, as shown here. The table is the same as in the example above, but the sourced cell (and metric) is different: 
 
   ![](assets/data-source3.png)>
-* You can see whether there are visualizations connected to a freeform or cohort table by clicking the top left dot (Data Source Settings). Hovering will highlight the linked visualization, and clicking it will take you to it.
+* You can see whether there are visualizations connected to a freeform or cohort table by clicking the top-left dot (Data Source Settings). Hovering highlights the linked visualization, and clicking it takes you to it.
 
   ![](assets/linked-visualizations.png)>

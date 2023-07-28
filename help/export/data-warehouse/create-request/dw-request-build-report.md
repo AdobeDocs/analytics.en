@@ -21,7 +21,7 @@ To build a report for a Data Warehouse request:
 
    ![Report destination tab](assets/dw-report-destination.png)
 
-1. 
+1. ...
 
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report destination**] tab. For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

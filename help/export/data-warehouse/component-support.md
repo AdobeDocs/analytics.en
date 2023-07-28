@@ -6,23 +6,23 @@ exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 ---
 # Component support in Data Warehouse
 
-Data Warehouse's unique processing architecture allows some components that aren't typically available in other capabilities of Adobe Analytics. Due to its unique architecture, some components are not available for use in either reports or segments. Use this page to understand what can be used, and what cannot.
+The unique processing in Data Warehouse architecture allows some components that aren't typically available in other capabilities of Adobe Analytics. Due to its unique architecture, some components are not available for use in either reports or segments. Use this page to understand what can be used, and what cannot.
 
 ## Components unique to Data Warehouse
 
-Some dimensions and metrics can be used in Data Warehouse whereas they are not available using other capabilities in Adobe Analytics.
+Some dimensions and metrics that can be used in Data Warehouse are not available when using other capabilities in Adobe Analytics.
 
 ### Dimensions supported exclusively
 
-* Experience Cloud ID: For implementations that use the Experience Cloud ID Service (ECID), a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
-* Page URL: The page URL the hit occurred on.
-* Purchase IDs: Unique identifier for a purchase, set using the purchaseID variable.
-* Visitor ID: Provides the unique identifier for the visitor. This value is the same as concatenated value of `visid_high` and `visid_low` columns in data feeds. See [Data column reference](../analytics-data-feed/c-df-contents/datafeeds-reference.md) under Data Feeds for more information.
+* **Experience Cloud ID**: For implementations that use the Experience Cloud ID Service (ECID), a 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits.
+* **Page URL**: The page URL the hit occurred on.
+* **Purchase IDs**: Unique identifier for a purchase, set using the purchaseID variable.
+* **Visitor ID**: Provides the unique identifier for the visitor. This value is the same as concatenated value of `visid_high` and `visid_low` columns in data feeds. See [Data column reference](../analytics-data-feed/c-df-contents/datafeeds-reference.md) under Data Feeds for more information.
 
 ### Metrics supported exclusively
 
-* Visits: This metric in context of Data Warehouse excludes non-persistent cookie visits.
-* Visits - All Visitors: This metric in context of Data Warehouse has closer parity with the visits metric in other tools within Adobe Analytics.
+* **Visits**: This metric in context of Data Warehouse excludes non-persistent cookie visits.
+* **Visits - All Visitors**: This metric in context of Data Warehouse has closer parity with the visits metric in other tools within Adobe Analytics.
 
 ## Components not supported in Data Warehouse
 

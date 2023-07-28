@@ -7,6 +7,8 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 ---
 # Manage Data Warehouse requests
 
+{{release-limited-testing}}
+
 You can manage Data Warehouse requests you have made. The following sections describe activities you can perform when managing requests. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
 
 ## View requests

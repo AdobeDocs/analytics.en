@@ -5,6 +5,8 @@ feature: Data Warehouse
 ---
 # Data Warehouse request general settings
 
+{{release-limited-testing}}
+
 There are various configuration options available when creating a Data Warehouse request. The following information describes how to configure general settings for the request.
 
 For information about how to begin creating a request, as well as links to other important configuration options, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md). 

@@ -6,6 +6,8 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 ---
 # Create a Data Warehouse request
 
+{{release-limited-testing}}
+
 There are various configuration options available when creating a Data Warehouse request. The following information describes how to begin creating a request, then provides links to more detailed information to complete the request. 
 
 ## Begin creating the request

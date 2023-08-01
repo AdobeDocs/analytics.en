@@ -82,6 +82,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Support | x |  |  |  | Grants access to Admin > All admin > Company settings > Support Information. |
 | Traffic Management | x |  |  |  | Grants access to Admin > All admin > Traffic management.  |
 | Web Services  | x |  |  |  | Grants access to Admin > All admin > Company settings > Web Services.  |
+| Share Project Links With Anyone | x |  |  |  |  Grants access to users to Share with anyone under a Workspace project -> Share -> Share with anyone. |
 | Activity Map |  | x |  |  | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Ad Hoc Analysis License Users |  | x |  |  | Ad Hoc Analysis has been end-of-lifed. [More info](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace Access |  | x |  |  | Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |

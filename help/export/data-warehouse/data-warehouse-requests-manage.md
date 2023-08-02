@@ -25,6 +25,31 @@ You can manage Data Warehouse requests you have made. The following sections des
 
     A dialog appears with the processing information. <!-- still true? -->
 
+## Edit requests
+
+Only requests that are set to run on a schedule can be edited.
+
+To edit a request: 
+
+1. 
+
+## View the history of a request
+
+## Duplicate requests
+
+<!-- is this now Copy? -->
+
+1. On the Data Warehouse page, select **[!UICONTROL Duplicate]** next to the request that you want to duplicate.
+
+     >[!NOTE]
+     >
+     >This action duplicates only the request, not the schedule or the delivery details of the request.
+
+
+## Cancel requests
+
+
+
 ## Configure columns
 
 You can configure what information is displayed for each request by adding or removing columns.
@@ -39,8 +64,9 @@ You can configure what information is displayed for each request by adding or re
    |---------|----------|
    | Request name | The name of the person who created the request. | 
    | Report suite | The report suite associated with the request. | 
+   | Requested by | The user who created the request. | 
    | Request date | The date the request was made. |
-   | Status | The status of the request. |
+   | Status | The following statuses are available:<ul><li><p>**Completed**: The request ran successfully.</p></li><li><p>**Canceled**: The request was canceled by the user.</p></li><li><p>**Scheduled**: The request is configured to run on a schedule.</p></li><!-- Are there other statuses? Failed? --> |
 
    {style="table-layout:auto"}
 
@@ -58,15 +84,9 @@ You can configure what information is displayed for each request by adding or re
 
 1. In the search field at the top of the Data Warehouse page, specify the request name that you want to view. <!-- "or by the login name of the requestor" (still true?) It also used to say "by report name" instead of "request name" What's the difference? Can you search by any other data/column attribute? -->.
 
-## Duplicate requests
-
-1. On the Data Warehouse page, select **[!UICONTROL Duplicate]** next to the request that you want to duplicate.
-
-     >[!NOTE]
-     >
-     >This action duplicates only the request, not the schedule or the delivery details of the request.
-
 ## Prioritize requests
+
+<!-- Can you still do this? -->
 
 You can prioritize the order in which requests are processed. 
 

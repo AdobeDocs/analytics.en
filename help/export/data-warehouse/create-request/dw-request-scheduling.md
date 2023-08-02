@@ -25,7 +25,7 @@ To configure scheduling options for a Data Warehouse request:
 
    |Option | Function | 
    |---------|----------|
-   | Send report now | Sends the report as a one-time report. | 
+   | Send report now | Sends the report as a one-time report. When this option is selected, all scheduling options are hidden. | 
    | Schedule for later | Provides options for scheduling report delivery. All options are described below. |
    | Report frequency | The frequency with which reports are delivered. <p>The following options are available:</p><ul><li>Hourly</li><p>[!UICONTROL **Hourly**] is available only when the [!UICONTROL **Date ranges**] option on the [!UICONTROL **General settings**] tab is set to [!UICONTROL **Last hour**].</p><li>Daily</li><li>Weekly</li><li>Monthly</li><li>Yearly</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" -->  | 
    | Monthly recurrence | The interval between months when the report is sent. | 

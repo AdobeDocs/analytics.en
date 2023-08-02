@@ -41,7 +41,6 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
   + [Request delivery time](data-warehouse/delivery-time.md)
   + [Tableau data file](data-warehouse/t-tableau.md)
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)
-  + [Schedule a recurring request](data-warehouse/dw-schedule-recurring.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
   + [Data Warehouse FAQ](data-warehouse/faq.md)

@@ -27,28 +27,67 @@ You can manage Data Warehouse requests you have made. The following sections des
 
 ## Edit requests
 
-Only requests that are set to run on a schedule can be edited.
+Consider the following when editing requests:
 
-To edit a request: 
+* Only requests that are configured to run on a schedule can be edited.
 
-1. 
+* Not all fields associated with the request can be edited. Fields that can't be edited are dimmed.
+
+To edit a scheduled request: 
+
+1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+
+1. On the Data Warehouse page, select the request that you want to edit.
+
+   ![Manage a request](assets/dw-manage-request.png)
+
+1. Select [!UICONTROL **Edit**]. 
+
+1. Edit the request as desired. Dimmed configuration options cannot be edited.
+
+   For information about each configuration option, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+
+1. Select [!UICONTROL **Save changes**].
 
 ## View the history of a request
 
-## Duplicate requests
+<!-- I can't see what this does -->
 
-<!-- is this now Copy? -->
+## Copy requests
 
-1. On the Data Warehouse page, select **[!UICONTROL Duplicate]** next to the request that you want to duplicate.
+When you copy a request, all configuration options are copied from the original request. 
 
-     >[!NOTE]
-     >
-     >This action duplicates only the request, not the schedule or the delivery details of the request.
+1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
+1. On the Data Warehouse page, select the request that you want to copy.
+
+   ![Manage a request](assets/dw-manage-request.png)
+
+1. Select [!UICONTROL **Copy**].
+
+   The Copy Data Warehouse request page displays. All configuration options are copied from the original request.
+
+1. Update any configuration options associated with the request.
+
+   For information about each configuration option, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+
+1. Select [!UICONTROL **Save changes**].   
 
 ## Cancel requests
 
+Only requests that are configured to run on a schedule can be canceled.
 
+To cancel a scheduled request:
+
+1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+
+1. On the Data Warehouse page, select the request that you want to edit.
+
+   ![Manage a request](assets/dw-manage-request.png)
+
+1. Select [!UICONTROL **Cancel**].
+
+   The request will no longer run at the scheduled time.
 
 ## Configure columns
 

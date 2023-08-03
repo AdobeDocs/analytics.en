@@ -51,7 +51,15 @@ To edit a scheduled request:
 
 ## View the history of a request
 
-<!-- I can't see what this does -->
+You can view the history of any reports that have run. 
+
+1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+
+1. On the Data Warehouse page, select the request whose history you want to view.
+
+   ![Manage a request](assets/dw-manage-request.png)
+
+1. Select [!UICONTROL **View history**].
 
 ## Copy requests
 

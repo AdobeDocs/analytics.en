@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **August 2023** | |
+| Clarified that configuring SFTP for Data Feeds does not require Adobe Customer Care | Clarified in [Send Adobe data to an external FTP account with SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) that customers do not need to engage Adobe Customer Care in order to configure SFTP for Data Feeds. <p>Also added a note that SFTP is no longer recommended, and that customers should use a cloud destination when configuring Data Feeds.</p> | 
 | **July 2023** | |
 | Adobe Experience Platform Edge Network Server API | Added more comprehensive documentation on when and how to implement data collection with Adobe Analytics using the [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). For example, implementing data collection with Adobe Analytics in desktop applications, IoT devices, set top boxes. | 
 | Global company ID | Documented [how to find the global company ID](../admin/admin/company/web-services-admin.md) for the Analytics company you are logged into. This ID is required for Analytics 2.0 APIs. |

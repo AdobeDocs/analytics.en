@@ -129,7 +129,9 @@ You can configure what information is displayed for each request by adding or re
 
 ## Search for requests
 
-1. In the search field at the top of the Data Warehouse page, specify the request name that you want to view. <!-- "or by the login name of the requestor" (still true?) It also used to say "by report name" instead of "request name" What's the difference? Can you search by any other data/column attribute? -->.
+1. In the search field at the top of the Data Warehouse page, specify the request name that you want to view. 
+
+   Requests are filtered as you type.
 
 ## Prioritize requests
 

@@ -27,7 +27,7 @@ See how each method of implementing Adobe Analytics compares to each other. You 
 >Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information.
 
 
-| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)| [Server API](help/implement/aep-edge/server-api/overview.md) |
+| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)| [Server API](/help/implement/aep-edge/server-api/overview.md) |
 | --- | --- | --- |
 | Implementation requirements | Reference tag loader in the app, then use direct API calls or rules in Data Collection UI to compose XDM objects and send the desired data using Edge Network to Adobe Analytics | Use Edge Network Server APIs to compose XDM objects and send the desired data using Edge Network to Adobe Analytics | 
 | Data destination | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics |

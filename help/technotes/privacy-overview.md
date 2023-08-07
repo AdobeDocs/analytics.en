@@ -11,8 +11,8 @@ Visitors can learn more about how Adobe generally uses information it collects i
 
 Adobe strongly recommends adhering to the following overarching concepts:
 
-* Avoid collecting personally identifiable information in Adobe Analytics. Custom variables allow you to collect virtually anything that you can access; however, you must also consider your organization's privacy policy and applicable laws.
-* Provide visitors with easy-to-find and easy-to-understand information regarding opt-out information. Allow them to opt out of anything that is not strictly necessary. Most countries in the European Union do not consider analytics cookies strictly necessary.
+* **Avoid collecting personally identifiable information in Adobe Analytics.** Custom variables allow you to collect virtually anything that you can access; however, you must also consider your organization's privacy policy and applicable laws.
+* **Provide visitors with easy-to-find and easy-to-understand information regarding opt-out information.** Allow them to opt out of anything that is not strictly necessary. Most countries in the European Union do not consider analytics cookies strictly necessary.
 
 ## Data collection breakdown
 

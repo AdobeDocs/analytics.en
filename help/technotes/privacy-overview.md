@@ -18,7 +18,7 @@ Adobe strongly recommends adhering to the following overarching concepts:
 
 Adobe Analytics either automatically collects or can potentially collect the following types of data:
 
-| Type of data | Explanation | Example variables containing this data |
+| Type of data | Details | Example variables containing this data |
 | --- | --- | --- |
 | Page names or URLs of web pages on your site | Always collected. URL or page name is required for every hit. | [Page](../components/dimensions/page.md), [Page URL](../components/dimensions/page-url.md) |
 | Time-based data | Always collected. Timestamp is required for data collection, and time-based data is derived from the timestamp. | [Time spent on page](../components/dimensions/time-spent-on-page.md), [Hour of day](../components/dimensions/hour-of-day.md), [AM/PM](../components/dimensions/am-pm.md), [Weekday/Weekend](../components/dimensions/weekday-weekend.md), [Day of week](../components/dimensions/day-of-week.md), [Month of year](../components/dimensions/month-of-year.md) |
@@ -33,5 +33,7 @@ Adobe Analytics either automatically collects or can potentially collect the fol
 | Form information provided on your site | All implementation types require configuration to collect this data. You can include this data in custom variables. | [eVar](../components/dimensions/evar.md) |
 | Ads or links clicked when on your site | Automatically collected if using AppMeasurement. Additional information, such as the location of clicks, is available with Activity Map enabled. | [Activity Map](../analyze/activity-map/activity-map.md), [Exit link](../components/dimensions/exit-link.md), [Download link](../components/dimensions/download-link.md) |
 | Products purchased on your site | All implementation types require configuration to collect this data. Adobe offers several default variables to store this information. | [Product](../components/dimensions/product.md), [Orders](../components/metrics/orders.md), [Revenue](../components/metrics/revenue.md) |
+
+{style="table-layout:auto"}
 
 See the navigation menu under [Dimensions overview](../components/dimensions/overview.md) and [Metrics overview](../components/metrics/overview.md) for more variables that Adobe can potentially collect data under.

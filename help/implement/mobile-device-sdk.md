@@ -18,5 +18,5 @@ To implement Analytics for mobile devices, use the Adobe Experience Platform Mob
 
 >[!CAUTION]
 >
->Support for Version 4 Mobile SDKs ended on September 30, 2020. 
+>Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information. 
 

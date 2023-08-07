@@ -133,16 +133,6 @@ You can configure what information is displayed for each request by adding or re
 
    Requests are filtered as you type.
 
-## Prioritize requests
-
-<!-- Can you still do this? -->
-
-You can prioritize the order in which requests are processed. 
-
-1. On the Data Warehouse page, drag a request to a new location within the queue. 
-
-   Requests are processed in the order that they appear, with requests at the top of the page being processed before requests at the bottom of the page. <!-- still true? -->
-
 <!--
 
 To manage existing requests in Data Warehouse:

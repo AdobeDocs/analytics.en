@@ -5,17 +5,17 @@ feature: Analytics Basics
 ---
 # Adobe Analytics overview
 
-Adobe Analytics allows you to gather data and gain actionable insights. It lets you mix, match, and analyze data from any digital point in the customer journey. With in-depth analysis, versatile reporting, and predictive intelligence, you get the insightful foundation you need to build better customer experiences. 
+Adobe Analytics allows you to gather data and gain actionable insights from any digital interaction you have with customers. With in-depth analysis, versatile reporting, and predictive intelligence, you get the insightful foundation you need to build better customer experiences. 
 
 ## Prerequisites
 
-* Your organization has been provisioned for Adobe Experience Platform. <!-- ?? -->
+* <!-- ?? -->
 
-## Key use cases
+## Key features
 
 <!-- would be better to have "Key use cases" like CJA, but it's easy to add the features here for now. -->
 
-Following are some of the key features available in Analysis Workspace, with links to relevant documentation:
+Following are some of the key features available in Analysis Workspace, with links to relevant information:
 
 <!-- the following info is copied from this overview: https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en . Should I break all of these into their own section and focus on the benefit, like I did with Analysis Workspace?-->
 
@@ -58,13 +58,25 @@ Analysis Workspace allows you to quickly build analyses to gather insights and t
 
 See [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to learn more.
 
-## Administer Adobe Analytics
+## Administrators
+
+
+### Implement Adobe Analytics
+
+Adobe Analytics supports various implementation methods. 
+
+### Configure Adobe Analytics
 
 * 
 
-## Implement Adobe Analytics
+## Analysts
 
-Adobe Analytics supports various implementation methods. 
+
+
+## End users
+
+
+
 
 ## Go further with Customer Journey Analytics
 

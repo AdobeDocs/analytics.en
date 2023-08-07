@@ -6,7 +6,7 @@ exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 ---
 # Implement Analytics for Mobile Devices
 
-To implement Analytics for mobile devices, refer to the following SDK repositories and documentation:
+To implement Analytics for mobile devices, use the Adobe Experience Platform Mobile SDK. See [Mobile SDK overview](aep-edge/mobile-sdk/overview.md) for more information.
 
 ## Adobe Experience Platform Mobile SDKs
 
@@ -18,5 +18,5 @@ To implement Analytics for mobile devices, refer to the following SDK repositori
 
 >[!CAUTION]
 >
->Support for Version 4 Mobile SDKs ended on September 30, 2020. 
+>Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information. 
 

@@ -7,14 +7,13 @@ exl-id: 286050fa-e197-4b70-b167-da6921615c1b
 ---
 # Data Feeds
 
+>[!NOTE]
+>
+>The following information is related to FTP and SFTP destination types. FTP and SFTP are legacy destination types. When configuring a data feed, you should use a cloud destination type, which are more secure. For more information about configuring cloud destination types for a Data Feed, see [Create a Data Feed](/help/export/analytics-data-feed/create-feed.md).
+
 Data Feeds are an export of the clickstream data received by Adobe that offers both standard and custom [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. They can be sent to any FTP account (either one set up by Adobe or an external FTP). Adobe Engineering Services offers custom [!UICONTROL Data Feeds] that can be sent by virtually any means.
-
->[!NOTE]
->
->The following information is related to FTP and SFTP destination types. FTP and SFTP are legacy destination types. When configuring a data feed, you should use a more secure cloud destination type.
-
 
 [!UICONTROL Data Feed] FTP accounts allow 10GB (by default). All other standard FTP accounts are 50MB by default. In cases where clients are using the FTP account for its proper intended use, some users with high traffic amounts can quickly fill up these accounts. When an FTP account is full, no additional files can be pushed to them. Therefore, any files being delivered to that FTP account ( [!UICONTROL Data Feeds], data warehouse requests, and so forth) are not delivered. This is one reason it is important to manage your Adobe FTP account by removing files that have been received and downloaded.
 

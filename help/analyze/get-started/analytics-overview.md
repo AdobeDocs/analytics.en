@@ -74,15 +74,22 @@ For information about each available method to determine which is right for your
 
 Analytics administrators should complete the following tasks:
 
-|Task | Use | More information |
+|Task | Intended use | More information |
 |---------|----------|---------|
 | Define administrator roles | B1 | [Administrator roles in Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=en) |
 | Define permissions | B2 | [Analytics Permissions in the Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en) |
 | Set up report suites and define settings for your company | A report suite is a silo of data that Adobe Analytics uses to generate reports. | <ul><li>[Create a report suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Company Settings Overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Import external data sources |  |  |
+| Classifications | Classifying data makes better use of variables, so you can put more content into a single variable. | | 
 | Data Warehouse |  |  |
 | Data Feeds |  |  |
 | Manage components | Use the Data Dictionary and the management areas for each component type to define which components are available in your Analytics implementation, as well as which are approved for your organization.| <ul><li>[Data Dictionary overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Calculated metrics manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Manage segements](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
+| Alerts | Be alerted when things happen to your data. | |
+| Anomaly detection and Contribution analysis | | |
+| Advanced segmentation | | |
+| Publish audiences to Audience Manager | | |
+| Attribution | | |
+| Integrations | Analytics for Target, etc.  | |
 
 ### Understand the admin interface
 
@@ -100,7 +107,13 @@ While Adobe Analytics is designed with data analysts in mind, anyone can use Ado
 
 Data analysts are often responsible for creating projects in Analysis Workspace for users withing their organization. (For information about creating projects, see [Create projects in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).)
 
-* Helping [end users](#end-users) (non-analysts) in their organizations understand the data that is gathered
+* Realtime reporting
+
+* Virtual report suites (filter data in a report suite)
+
+### Share projects and help [end users](#end-users) (non-analysts) in their organizations understand the data that is gathered
+
+
 
 ### Understand the interface for analyst features
 
@@ -108,13 +121,12 @@ Data analysts are often responsible for creating projects in Analysis Workspace 
 
 You don't have to be a data analyst to gain actionable insights from Adobe Analytics.
 
-### Build projects in Analysis Workspace
+### Work with Analysts to define requirements 
 
 
 ### Understand the Analysis Workspace interface
 
 Some users might find it helpful to work with a data analyst to set up a project in Analysis Workspace and explain how to interpret the data; other users might be comfortable building the project and interpreting the data themselves. 
-
 
 ## Go further with Customer Journey Analytics
 

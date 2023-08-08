@@ -48,7 +48,6 @@ When creating a data feed, you provide Adobe with:
    >
    >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
    >
-   >* Any cloud accounts that you previously configured for Data Warehouse are available to use for Data Feeds. (For information about creating a report destination for Data Warehouse, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).)
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 

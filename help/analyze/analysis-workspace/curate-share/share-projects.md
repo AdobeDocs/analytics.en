@@ -43,13 +43,13 @@ You can share a specific role with users or groups, or you can share a link.
 
 When sharing a specific project role with users and groups in your organization, consider the following:
 
-* Project roles (**[!UICONTROL Can edit]**, **[!UICONTROL Can duplicate]**, and **[!UICONTROL Can view]**) are tied to the user and specific project ID. Project roles are independent of user permissions managed in the [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+* Project roles (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, and **[!UICONTROL Read only]**) are tied to the user and specific project ID. Project roles are independent of user permissions managed in the [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
    
 * In Adobe Analytics, groups are defined by product profiles in the [Adobe Experience Cloud admin console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html). Admins can share to any group, including "All." Non-admins can share to any group they are a member of, with the exception of "All."
 
-* A user who is placed in multiple roles always get the highest experience. This might occur if a user is added both as an individual and as part of a group. For example, if a user is given the **[!UICONTROL Can edit]** role as an individual and the **[!UICONTROL Can view]** role as a member of a group, they will receive a **[!UICONTROL Can edit]** project experience.
+* A user who is placed in multiple roles always get the highest experience. This might occur if a user is added both as an individual and as part of a group. For example, if a user is given the **[!UICONTROL Edit original]** role as an individual and the **[!UICONTROL Read only]** role as a member of a group, they will receive a **[!UICONTROL Edit original]** project experience.
 
-* Admins placed in the **[!UICONTROL Can duplicate]** or **[!UICONTROL Can view]** role receive those limited experiences when they open a project. An Admin can change their role to **[!UICONTROL Can edit]** by sharing the project with themselves and granting the Edit role, as described in the following procedure. 
+* Admins placed in the **[!UICONTROL Edit copy]** or **[!UICONTROL Read only]** role receive those limited experiences when they open a project. An Admin can change their role to **[!UICONTROL Edit original]** by sharing the project with themselves and granting the Edit role, as described in the following procedure. 
 
 To share a specific project role with users or groups in your organization:
 
@@ -62,11 +62,11 @@ To share a specific project role with users or groups in your organization:
 
 1. Add recipients or groups of recipients in one of the provided role fields:
 
-   **Can edit:** Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. This role is useful if you want to co-manage a project with other colleagues; this includes editing, deleting, and modifying recipient lists for a shared project. <br>Note: Analysis Workspace does not currently support live collaboration, so it is recommended that only one user edit a project at a given time. If projects are saved at the same time, the last version will be kept. 
+   **Edit original:** Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. This role is useful if you want to co-manage a project with other colleagues; this includes editing, deleting, and modifying recipient lists for a shared project. <br>Note: Analysis Workspace does not currently support live collaboration, so it is recommended that only one user edit a project at a given time. If projects are saved at the same time, the last version will be kept. 
 
-   **Can duplicate:** Recipients can **[!UICONTROL Save as]** and have access to the left rail. Project interactions are not limited in this role. This role is useful if you want to share a project to users who understand your organization's data and how to use Analysis Workspace, but you do not want your project altered.
+   **Edit copy:** Recipients can **[!UICONTROL Save as]** and have access to the left rail. Project interactions are not limited in this role. This role is useful if you want to share a project to users who understand your organization's data and how to use Analysis Workspace, but you do not want your project altered.
 
-   **Can view:** Recipients cannot **[!UICONTROL Save]** or **[!UICONTROL Save as]** and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization's data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment. Learn more about the [Can view project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
+   **Read only:** Recipients cannot **[!UICONTROL Save]** or **[!UICONTROL Save as]** and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization's data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment. Learn more about the [Read only project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
 1. Choose whether to enable the following options when sharing the project:
 
@@ -86,7 +86,7 @@ When sharing a link as described in this section, consider the following:
 
 * Recipients who use the link are required to log in to Adobe Analytics before gaining access to the project. 
 
-* If a recipient is not assigned a role and receives a [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project, they are given a role by default. Admins receive **[!UICONTROL Can edit]** and non-admins receive **[!UICONTROL Can duplicate]**.
+* If a recipient is not assigned a role and receives a [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project, they are given a role by default. Admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]**.
 
 To share the project link with users in your organization:
 
@@ -189,5 +189,5 @@ Here is a video on the topic:
 | Question | Answer |
 | --- | --- |
 | What happens if two editors save a project at the same time? | Changes are not merged and the last saved project version will be kept. Analysis Workspace does not currently support live collaboration. |
-| What happens if a recipient is placed in one role as an individual and another role as a member of a group? | If a recipient is placed in multiple roles, they will always receive the higher experience. For example, if a recipient is given the **[!UICONTROL Can edit]** role as an individual and the **[!UICONTROL Can view]** role as a member of a group, they will receive a **[!UICONTROL Can edit]** project experience. |
-| What experience does a recipient get if they open a project link? | Recipients receive the role you placed them in the share modal. If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, then select **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field), they will be placed into a role by default. Admins receive **[!UICONTROL Can edit]** and Non-admins receive **[!UICONTROL Can duplicate]**. |
+| What happens if a recipient is placed in one role as an individual and another role as a member of a group? | If a recipient is placed in multiple roles, they will always receive the higher experience. For example, if a recipient is given the **[!UICONTROL Edit original]** role as an individual and the **[!UICONTROL Read only]** role as a member of a group, they will receive a **[!UICONTROL Edit original]** project experience. |
+| What experience does a recipient get if they open a project link? | Recipients receive the role you placed them in the share modal. If a recipient is not assigned a role and receives a link to the project (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**, then select **[!UICONTROL Copy]** next to the **[!UICONTROL Share by link]** field), they will be placed into a role by default. Admins receive **[!UICONTROL Edit original]** and Non-admins receive **[!UICONTROL Edit copy]**. |

@@ -9,7 +9,7 @@ exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 
 On the Request Wizard: Step 1 form, you select the report suite, report type, segments, and configure dates.
 
- ![](assets/rw1_overview.png)
+ ![Screenshot showing the Request Wizard: Step 1 form.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Report Suite]**: The list of report suites available to you based on your login credentials. See [Select Report Suites](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 

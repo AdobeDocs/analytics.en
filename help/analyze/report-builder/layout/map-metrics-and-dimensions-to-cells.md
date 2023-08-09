@@ -1,6 +1,6 @@
 ---
-description: Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
-title: Map metrics and dimensions to cells
+description: Learn how to select a range of cells, techniques for selecting cells, and troubleshooting mapping issues.
+title: Learn about map metrics and dimensions to cells
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
@@ -10,11 +10,11 @@ exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 
 Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
 
-The number of areas and cells to map differs according to the metric you select, the granularity, the date range, and the filters you have set. For example, if you select [!UICONTROL Site Metric] > [!UICONTROL Traffic Report], set [!UICONTROL Week] granularity, and set date range for [!UICONTROL Last 2 Weeks], you are prompted to map three cells (when using [!UICONTROL Custom Layout]) on the [!UICONTROL Request Wizard: Step 2]. The request retrieves data for week one and data for week two, where each data point value = the value of a page view. Your third cell serves as the row heading, which you can configure using [!UICONTROL Format Options].
+The number of areas and cells to map differs according to the metric you select, the granularity, the date range, and the filters you set. For example, if you select [!UICONTROL Site Metric] > [!UICONTROL Traffic Report], set [!UICONTROL Week] granularity, and set the date range for the [!UICONTROL Last 2 Weeks], you're prompted to map three cells (when using [!UICONTROL Custom Layout]) on the [!UICONTROL Request Wizard: Step 2]. The request retrieves data for week one and data for week two, where each data point value equals the value of a page view. Your third cell serves as the row heading, which you can configure using [!UICONTROL Format Options].
 
-If you mistakenly map incompatible locations on the spreadsheet, report builder issues an error.
+If you mistakenly map incompatible locations on the spreadsheet, Report Builder issues an error.
 
-The following sections contain more information:
+For more information, see the following sections:
 
 * [Select a Range of Cells](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6) 
 * [Techniques for Selecting Cells](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22) 
@@ -24,12 +24,10 @@ The following sections contain more information:
 
 On the [!UICONTROL Request Wizard: Step 2], when you enable [!UICONTROL Custom Layout] for a trended request, you can map the request to a range of cells.
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
-
-next to the item you want to map.
+Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png) next to the item you want to map.
 
 * **All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-* **First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use this option to have report builder select cells for you.
+* **First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Use this option to have Report Builder select cells for you.
 * **Range Orientation:** Lets you orient the cell ranges as columns or rows.
 * **Select Upper Cell Location of Range:** Displays the cell references.
 
@@ -51,9 +49,9 @@ To map separate rows in one request, use the [!UICONTROL Control] key, then clic
 
 After you select cells, click the **[!UICONTROL Range Selector]** again on the [!UICONTROL Range Selection] form to return to the [!UICONTROL Request Wizard: Step 2].
 
-## Issues when mapping {#section_CC1BCF841291447EB3A994EB08F3A099}
+## Troubleshooting mapping issues{#section_CC1BCF841291447EB3A994EB08F3A099}
 
-If you mistakenly choose to map to a cell that already has an active mapping, you will notice that no cell reference appears in the text box next to the range-picker icon. When you click [!UICONTROL OK], report builder displays the error, "The range selected intersects another request's range. Please change your selection."
+If you mistakenly choose to map to a cell that already has an active mapping, no cell reference appears in the text box next to the range-picker icon. When you click [!UICONTROL OK], Report Builder displays the error, *The range selected intersects another request's range. Please change your selection.*
 
 * If you still need to use the cell, right-click on the desired cell or cells, and select **[!UICONTROL Delete Request]**.
 

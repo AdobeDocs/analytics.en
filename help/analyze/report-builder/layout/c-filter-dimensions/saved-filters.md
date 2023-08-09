@@ -12,4 +12,4 @@ You can save filters or other parameters in report builder and use them in other
 
 You save filters on the [!UICONTROL Choose Page] form as you create a filter. For an example of this procedure, see [Specific Filters](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
-![](assets/choose_page_saved.png)
+![Screenshot of the Choose Page form and options for Most Popular, Specific, and Saved Filters pages.](assets/choose_page_saved.png)

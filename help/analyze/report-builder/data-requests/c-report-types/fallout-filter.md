@@ -15,13 +15,13 @@ This example shows the Page Fallout report.
 1. Select the right report suite.
 1. In the tree view on the left, select **[!UICONTROL Paths]** > **[!UICONTROL Page]** > **[!UICONTROL Page Fallout]**.
 
-   ![](assets/page_fallout.png)
+   ![Screenshot showing the Windows tree view for the Report Builder directory. Page Fallout is selected.](assets/page_fallout.png)
 
 1. Configure the appropriate [date ranges](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
 1. Click **[!UICONTROL Next]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (In a fallout report, you always have to define path elements, unlike in a path report, where a pattern is pre-applied.)
 
-   ![](assets/define_checkpoints.png)
+   ![Screenshot showing the Define Checkpoints link.](assets/define_checkpoints.png)
 
 1. Select the **[!UICONTROL Filter]** option.
 

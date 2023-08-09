@@ -16,7 +16,7 @@ The selected filter form is populated based on the element & metric that is sele
 
 Information about filters in the **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** panel.
 
-![](/help/admin/admin/assets/filter.png)
+![Screenshot showing the Define Filter dialogue with options to Filter by Application, User, and Project.](/help/admin/admin/assets/filter.png)
 
 The following tables provide examples and information about filters: 
 

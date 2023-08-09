@@ -1,6 +1,6 @@
 ---
-description: You can name your report and configure how to display row and column headers. The Format Options link is available for the Pivot and Custom Layout types.
-title: Format display headers
+description: Learn how to name your report and configure how to display row and column headers.
+title: How to format display headers
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin

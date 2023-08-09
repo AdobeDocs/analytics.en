@@ -29,13 +29,14 @@ Here are the top reasons why you could end up with broken visualizations after p
 * You edited a request in Report Builder, such as changing metrics or dimensions and then republished to Power BI. Editing requests can break your visualizations.
 * You deleted a request that was used in a visualization.
 
-## Report Builder needs to be authorized to access your organization resources. This access can only be granted by an admin. Ask an admin to grant you permission.
+>[!IMPORTANT]
+>
+>Report Builder requires an administrator to authorize access to your organization resources. If you need access, ask an administrator to grant you permission.
+> A Microsoft Admin can review the *Users can register application* setting found under: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. If this option is set to **No**, then the admin can register these types of applications.
 
-Have a Microsoft Admin review the "Users can register application" setting found under: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL User Settings allows options]**. If this option is set to No, then that admin can register these types of applications.
+Users can grant Access by logging into their [Microsoft Power BI account](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
-Users can grant Access by using the following [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
-
-Admins granted access for every one by using the following [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
+Admins can grant access for every one by logging into their [Administrator's Microsoft Power BI account](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
 ## Reaching the API limit
 

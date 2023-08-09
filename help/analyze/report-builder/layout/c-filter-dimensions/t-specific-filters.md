@@ -16,17 +16,19 @@ You can search on specific dimension items by creating a filter that matches exa
 
 1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
 
-   ![Step Result](/help/admin/admin/assets/filter.png)
+   ![Screenshot showing the Filter by options: Application, User, and Project.](/help/admin/admin/assets/filter.png)
 
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 
-   ![Step Result](assets/choose_page_specific01.png)
+1. Enable **[!UICONTROL Specific]**.
 
-1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
+   ![Screenshot of the Choose Page dialogue with the Specific option selected.](assets/choose_page_specific01.png)
+
+1. Enable one of the following Specific options:
 
    * **From Range of Cells:** Lets you select data from cells. You can select:
-   * **All Cells in Range:** Lets you map every cell for the range. Descriptive text explains how many groups of cells you must select. To map more than one group of cell, press the ctrl key as you are making successive selections. If the range that must be mapped contains only one cell, this is the only available option 
-   * **First Cell of Range:** You only need to select the upper left cell of the range, and then choose a direction for the data. Additionally, if the request has multiple periods, you choose the direction of the periods and choose whether you want to skip a set number of cells between periods.
+     * **All Cells in Range:** Lets you map every cell for the range. Descriptive text explains how many groups of cells you must select. To map more than one group of cell, press the ctrl key as you are making successive selections. If the range that must be mapped contains only one cell, this is the only available option 
+     * **First Cell of Range:** You only need to select the upper left cell of the range, and then choose a direction for the data. Additionally, if the request has multiple periods, you choose the direction of the periods and choose whether you want to skip a set number of cells between periods.
    * **From List:** Lets you select data from a list to which you can add data.
 1. If you enable **[!UICONTROL From List]**, select any available listed items or click **[!UICONTROL Add]**.
 

@@ -1,6 +1,6 @@
 ---
-description: Copy one spreadsheet to another in the same workbook.
-title: Copy worksheets
+description: Learn how to copy one spreadsheet to another in the same workbook.
+title: How to copy worksheets in Report Builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin

@@ -1,6 +1,6 @@
 ---
-description: The Custom Layout provides most of the functionality of the Pivot Layout, but lets you choose where each item in the grid should be located in the spreadsheet. This layout provides the flexibility available in previous releases, including adding breakdowns and microcharts.
-title: Configure the custom layout
+description: Learn how Custom Layout provides functionality and flexibility of the Pivot Layout such as adding breakdowns and microcharts.
+title: How to configure a custom layout in Adobe Analytics
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin

@@ -10,7 +10,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 These release notes cover the release period of August 9 to September 13, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
-## New features or enhancements between August 9 and September 12, 2023 {#features}
+## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |

@@ -5,28 +5,58 @@ feature: Analytics Basics
 ---
 # Adobe Analytics overview
 
-Adobe Analytics allows organizations to gather data and gain actionable insights from any digital interaction with customers. With in-depth analysis, versatile reporting, and predictive intelligence, you get the insightful foundation you need to build better customer experiences. 
+Adobe Analytics enables organizations to gather data and gain actionable insights from any digital customer interaction. With in-depth analysis, versatile reporting, and predictive intelligence, organizations get the insightful foundation they need to build better experiences for their customers. 
+
+## Key benefits
+
+Following are some of the key ways that Adobe Analytics helps organizations gain critical insights in order to better serve their customers.
+
+For additional details about the benefits that Adobe Analytics provides, see the [Adobe Analytics product page](https://business.adobe.com/products/analytics/adobe-analytics.html).
+
+### Web analytics
+
+Adobe Analytics provides the following complex segmentation and predictive tools for analyzing website traffic:
+
+* [Ad hoc analysis in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
+
+* [Flow analysis](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
+
+* [Advanced segmentation](/https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+
+### Marketing analytics
+
+Adobe Analytics helps organizations understand where customers interact with their brands, which channels customers prefer, and which experiences resonate with them. 
+
+The following features in Adobe Analytics support these goals:
+
+* Multichannel data collection
+
+* [Offline data integration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+
+* [Ad hoc analysis in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
+
+### Attribution
+
+Attribution lets organizations see how different interactions throughout the customer journey affect conversion. In addition to providing more traditional attribution options, such as Linear or First Touch models, Attribution in Adobe Analytics also uses machine learning and advanced statistical models to understand the precise impact of every touch.
+
+For more information, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
+
+
+### Predictive analytics
+
+Predictive analytics uses machine learning and advanced statistical modeling to analyze customer data, find patterns, and predict future behavior such as churn or a likelihood to convert. It allows data analysts to take advantage of huge data sets that might otherwise be wasted.
+
+Key features in Adobe Analytics that provide these predictive capabilities are:
+
+* [Anomaly detection](#anomaly-detection)
+
+* [Contribution analysis](#contribution-analysis)
+
+* [Intelligent alerts](#intelligent-alerts)
 
 ## Prerequisites
 
 * <!-- ?? -->
-
-## Key features
-
-<!-- would be better to have "Key use cases" like CJA, but it's easy to add the features here for now. -->
-
-Following are some of the key features available in Analysis Workspace, with links to relevant information:
-
-<!-- the following info is copied from this overview: https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en . Should I break all of these into their own section and focus on the benefit, like I did with Analysis Workspace?-->
-
-| Tool      | Description    |
-|-----------|----------------|
-| **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)** | Analysis Workspace is a flexible browser tool that allows you to quickly build analyses and share insights. Using the drag-and-drop interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share and schedule projects with anyone in your organization. |
-| **[Analytics dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)** | Analytics dashboards and their mobile scorecards allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Curators add visualizations to mobile scorecard projects and share them with executives.  <br>Scorecards provide a way to target and measure KPIs and provide a clear indication of how well organizations are working to achieve their targets. |
-| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages. <br>Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors." |
-| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** | Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from Adobe Analytics data that are inserted into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |
-| **[Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics APIs allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics. |
-| **[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports & Analytics is a tool with dozens of pre-built reports and visualizations. These are now available within Analysis Workspace. **Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Adobe recommends using Analysis Workspace for most reporting needs.** For additional information, see [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). | 
 
 ## Supported channels where you can gather data
 
@@ -50,14 +80,6 @@ Following are some of the supported channels where you can gather data:
 
 Learn more about how to gather data...
 
-## Build analyses and gather insights
-
-Analysis Workspace allows you to quickly build analyses to gather insights and then share those insights with others. Using the drag-and-drop browser interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, and share and schedule projects with anyone you choose.
-
-<!-- add screenshot -->
-
-See [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md) to learn more.
-
 ## Administrators
 
 Analytics administrators are responsible for choosing the implementation method most appropriate for their organization.
@@ -68,11 +90,27 @@ After Adobe Analytics is implemented, administrators need to perform various con
 
 Various implementation methods are available when implementing Adobe Analytics on your website or mobile app. 
 
-For information about each available method to determine which is right for your organization, see [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html).
+**Website implementation methods:**
+
+* Web SDK extension (recommended)
+
+* Web SDK
+
+* Analytics extension
+
+* Legacy JavaScript
+
+**Mobile app implementation methods:**
+
+* Mobile SDK extension (recommended)
+
+* Analytics extension
+
+For information about each available method, see [Implement Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html).
 
 ### Configure Adobe Analytics
 
-Analytics administrators should complete the following tasks:
+Analytics administrators should complete the following tasks before making Adobe Analytics available to users in the organization:
 
 |Task | Intended use | More information |
 |---------|----------|---------|
@@ -81,8 +119,7 @@ Analytics administrators should complete the following tasks:
 | Set up report suites and define settings for your company | A report suite is a silo of data that Adobe Analytics uses to generate reports. | <ul><li>[Create a report suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Company Settings Overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Import data | Adobe Analytics data sources let you import additional online or offline data for reporting.  | [Data sources overview](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | Classify data with Classifications | Classifications allow you to classify data to make better use of variables, allowing you to include more content into a single variable. | | 
-| Manage components | Use the Data Dictionary and the management areas for each component type to define which components are available in your Analytics implementation, as well as which are approved for your organization.| <ul><li>[Data Dictionary overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Calculated metrics manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Manage segements](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
-| Alerts <!-- This isn't just admins that can do this... Should it be here? --> | Be alerted when things happen to your data. | [Intelligent Alerts overview](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+| Manage components | Use the Data Dictionary and the management areas for each component type to define which components are available in your Analytics implementation, as well as which are approved for your organization.<p>This should be an ongoing activity to ensure that components are </p>| <ul><li>[Data Dictionary overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Calculated metrics manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Manage segements](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
 | Anomaly detection and Contribution analysis | | |
 | Advanced segmentation | | |
 | Publish audiences to Audience Manager | | |
@@ -97,7 +134,11 @@ To access the admin interface:
 
 ## Analysts
 
-While Adobe Analytics is designed with data analysts in mind, anyone can use Adobe Analytics to gain actionable insights about the way customers interact with their sites or apps. 
+While anyone in an organization can use Adobe Analytics to gain actionable insights about customer behavior across websites and apps, Adobe Analytics is designed with data analysts in mind. 
+
+
+
+Share projects and help [end users](#end-users) (non-analysts) in their organizations understand the data that is gathered
 
 ### Build projects in Analysis Workspace
 
@@ -109,28 +150,83 @@ Speicific features and tasks that analysts should be familiar with in Analysis W
 
 |Task | Intended use | More information |
 |---------|----------|---------|
-| Export data <!-- This isn't just admins that can do this... Should it be here? --> | Data Warehouse and Data Feeds allow you to export data to various cloud destinations, such as Google Cloud Platform, Azure RBAC, Azure SAS, and Amazon S3. |  |
+| Alerts | Be alerted when things happen to your data. | [Intelligent Alerts overview](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+
+| Tool      | Description    |
+|-----------|----------------|
+| **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)** | Analysis Workspace is a flexible browser tool that allows you to quickly build analyses and share insights. Using the drag-and-drop interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, share and schedule projects with anyone in your organization. |
+| **[Analytics dashboards](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)** | Analytics dashboards and their mobile scorecards allow executive users to view a broad rendering of important summary data quickly and easily on their own mobile devices. Curators add visualizations to mobile scorecard projects and share them with executives.  <br>Scorecards provide a way to target and measure KPIs and provide a clear indication of how well organizations are working to achieve their targets. |
+| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages. <br>Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors." |
+| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** | Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from Adobe Analytics data that are inserted into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |
+| **[Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics APIs allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics. |
+| **[Reports & Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports & Analytics is a tool with dozens of pre-built reports and visualizations. These are now available within Analysis Workspace. **Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Adobe recommends using Analysis Workspace for most reporting needs.** For additional information, see [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). | 
+
 
 * Realtime reporting
 
 * Virtual report suites (filter data in a report suite)
 
-### Share projects and help [end users](#end-users) (non-analysts) in their organizations understand the data that is gathered
+### Attribution
 
+Analysts can customize how dimension items get credit for success events by employing various attribution models and lookback windows in Analysis Workspace. 
 
+Linear attribution models gives equal credit to every touch point leading up to a conversion, while First Touch gives full credit to the first touch point. Many other attribution models are available, including the Algorithmic model, which uses statistical techniques to dynamically determine the optimal allocation of credit. 
+
+For more information, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
+
+### Anomaly detection
+
+Statistical modeling in Analysis Workspace automatically finds unexpected trends in your data by analyzing metrics and determining a lower bound, upper bound, and expected range of values. When an unexpected spike or drop occurs, the system alerts you in the report.
+
+For more information, see [Anomaly Detection overview](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md).
+
+### Contribution analysis
+
+Use Analysis Workspace to discover hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for metrics across audience segments.
+
+For more information, see [Contribution Analysis overview](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
+
+### Intelligent alerts
+
+Create and manage alerts based on data anomalies and "stacked" alerts that capture multiple metrics in a single alert.
+
+For more information, see [Intelligent Alerts overview](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
+
+### Export data
+
+Data Warehouse and Data Feeds allow you to export data to various cloud destinations, such as Google Cloud Platform, Azure RBAC, Azure SAS, and Amazon S3.
+
+For more information, see the [Analytics Export Guide](https://experienceleague.adobe.com/docs/analytics/export/home.html).
 
 ### Understand the interface for analyst features
 
 ## End users
 
-You don't have to be a data analyst to gain actionable insights from Adobe Analytics.
+End users who are not professional analysts can either work with analysts in their organization to leverage the full power of Adobe Analytics and Analysis Workspace, or they can learn the basics of Analysis Workspace in order to start gaining actionable insights about their customers.
 
-### Work with Analysts to define requirements 
+### Work with analysts
 
+Typically, users in an organization who are interested in learning more about customer behavior across their various sites are not professional analysts. 
+
+Ideally, these users should work with [analysts](#analysts) within an organization to:
+
+1. Define requirements for the analyses by explaining to the analyst what they hope to learn about customers.
+
+1. Review the analyses to ensure they meet the objectives.
+
+1. Discuss the data gained from the analyses.
+
+1. Modify the analyses as needed over time.
 
 ### Understand the Analysis Workspace interface
 
-Some users might find it helpful to work with a data analyst to set up a project in Analysis Workspace and explain how to interpret the data; other users might be comfortable building the project and interpreting the data themselves. 
+You don't have to be a data analyst to gain actionable insights from Adobe Analytics.
+
+Some users might find it helpful to work with a data analyst to set up a project in Analysis Workspace and explain how to interpret the data, as described in [Work with analysts](#work-with-analysts); other users might be comfortable building the project and interpreting the data themselves. 
+
+Analysis Workspace allows you to quickly build analyses to gather insights and then share those insights with others. Using the drag-and-drop browser interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, and share and schedule projects with anyone you choose.
+
+For information about how to create analyses and analyze data in Analysis Workspace, see [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md).
 
 ## Go further with Customer Journey Analytics
 

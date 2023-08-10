@@ -14,4 +14,4 @@ This metric counts all [Link tracking calls (`tl()`)](/help/implement/vars/funct
 
 ## Compare to similar metrics
 
-* **Page events vs. [Page views](page-views.md)**: Page events count the number of link tracking tracking calls (`tl()`), and excludes page view tracking calls (`t()`). Page views is the opposite; it counts the number of page view tracking calls, and excludes links.
+* **Page events vs. [Page views](page-views.md)**: Page events count the number of link tracking calls (`tl()`), and exclude page view tracking calls (`t()`). Page views are the opposite; it counts the number of page view tracking calls, and excludes links.

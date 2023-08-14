@@ -62,7 +62,7 @@ After Adobe Analytics is implemented, administrators need to perform various con
 
 ### Determine the types of data that should be gathered
 
-Adobe Analytics lets you gather data from multiple channels types and bring it together to deliver meaningful, real-time customer insights. The implementation method you choose determines the type of data that can be gathered.
+Adobe Analytics lets you gather data from multiple channels types and bring it together to deliver meaningful, real-time customer insights. 
 
 Following are some of the supported channels where data can be gathered:
 
@@ -78,7 +78,7 @@ Following are some of the supported channels where data can be gathered:
 
 * And more (new supported channels are added regularly)
 
-Learn more about how to gather data...
+The [implementation method](https://experienceleague.adobe.com/docs/analytics/implementation/home.html) you choose determines the type of data that can be gathered.
 
 ### Implement Adobe Analytics
 
@@ -118,7 +118,7 @@ Analytics administrators should complete the following tasks before making Adobe
 | Advanced segmentation | | |
 | Publish audiences to Audience Manager | | |
 | Attribution | | |
-| Integrations | Analytics for Target, etc.  | |
+| Integrations | You can surface information from other applications in Adobe Analytics. <p>Following are some common integrations:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li>  | |
 
 ### Understand the admin interface
 

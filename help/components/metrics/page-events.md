@@ -10,8 +10,8 @@ The 'Page events' metric shows the number of times any link tracking call was ma
 
 ## How this metric is calculated
 
-This metric counts all link tracking calls ([`tl()`](/help/implement/vars/functions/tl-method.md)) in a report suite. All link types are included (custom links, download links, and exit links). It does not include page view tracking calls ([`t()`](/help/implement/vars/functions/t-method.md)).
+This metric counts all [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) in a report suite. All link types are included (custom links, download links, and exit links). It does not include [Page view tracking calls (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Compare to similar metrics
 
-* **Page events vs. [Page views](page-views.md)**: Page events count the number of link tracking tracking calls (`tl()`), and excludes page view tracking calls (`t()`). Page views is the opposite; it counts the number of page view tracking calls, and excludes links.
+* **Page events vs. [Page views](page-views.md)**: Page events count the number of link tracking calls (`tl()`), and exclude page view tracking calls (`t()`). Page views are the opposite; it counts the number of page view tracking calls, and excludes links.

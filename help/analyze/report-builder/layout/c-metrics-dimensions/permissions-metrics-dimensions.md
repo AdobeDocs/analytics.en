@@ -8,13 +8,13 @@ exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 ---
 # User access permissions for dimensions and metrics
 
-Adobe Report Builder now features permissioning settings analogous to those in the Analytics Admin Tools.
+Adobe Report Builder features permission settings that are similar to those in the Analytics Admin Tools.
 
 As a non-Admin user, you may have previously created workbooks with requests that point to dimensions and metrics that you do not have access to. These permissions are now enforced.
 
-For example, if you refresh a request that includes dimensions or metrics to which you have no access, you will get a Restricted Permission Error:
+For example, if you refresh a request that includes dimensions or metrics to which you have no access, you will get a Restricted Permission Error. The error message states a request is unavailable to your user account due to administrative permissions.
 
-![](assets/arb_restrc_perm.png)
+![Screenshot showing the Restricted Permission Error message.](assets/arb_restrc_perm.png)
 
 Follow these instructions for **each** Report Builder workbook that you maintain:
 

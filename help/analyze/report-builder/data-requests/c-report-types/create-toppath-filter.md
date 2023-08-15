@@ -23,12 +23,10 @@ Report Builder does not offer these as standalone reports, but you can create th
 * Path > Entry Path > As Entry Page 
 * Path > Exit Path > As Exit Page
 
-1. Select multiple rows from an existing request, then right-click **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Select multiple rows from an existing request, then right-click **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**. You must select at least three rows if you want to see the **[!UICONTROL Page Fallout]** menu item.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   ![Screenshot showing three selected rows with the Add Dependent Request option selected.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+2. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
    The Request Wizard appears, with the Previous Page metric already selected. 1. Continue to refine your request in the Request Wizard and generate your request.

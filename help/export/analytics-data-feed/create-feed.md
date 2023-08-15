@@ -14,7 +14,7 @@ When creating a data feed, you provide Adobe with:
 
 >[!NOTE]
 >
->Before you create a data feed, it's important to have a basic understanding of data feeds and and that you meet all necessary prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
+>Before you create a data feed, it's important to have a basic understanding of data feeds and and to ensure that you meet all necessary prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
 ## Create and configure a data feed
 
@@ -39,6 +39,15 @@ When creating a data feed, you provide Adobe with:
    | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
    
 1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
+
+   >[!NOTE]
+   >
+   >Consider the following when configuring a report destination:
+   >
+   >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >
+   >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
+   >
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 

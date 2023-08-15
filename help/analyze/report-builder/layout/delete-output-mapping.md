@@ -1,6 +1,6 @@
 ---
-description: If you are editing your workbook and want to make room for new requests, you might need to delete requests.
-title: Delete output mapping
+description: Learn how to edit a workbook to make room for new requests by deleting requests.
+title: How to delete output mapping
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin

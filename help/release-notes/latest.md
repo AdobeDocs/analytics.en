@@ -1,29 +1,31 @@
 ---
-title: Latest Analytics release notes
+title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (July 2023)
+# Current Adobe Analytics release notes (August 2023)
 
-**Last update**: July 10, 2023
+**Last update**: August 9, 2023
 
-Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of August 9 to September 13, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Configure cloud account storage locations for ingesting classification data** | You can now manage cloud account storage locations that are used for classification set automation. [Learn more](/help/components/locations/configure-import-accounts.md)<p>| N/A |July 10, 2023 |
-| **Data Repair filter enhancements** | Three filtering improvements were added to Data Repair:<ul><li>Filter by one variable to modify a second variable. For example, if `eVar2` contains "@", then delete `eVar3`.</li><li>Filter for numeric or non-numeric values</li><li>Apply multiple filters with an AND. For example, where `eVar2="a"` AND `eVar3="b"`</li></ul>[Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)| June 21, 2023 |July 12, 2023 |
-| **Secure destinations for data feed export** | Data feeds can now be sent to the following cloud storage destinations:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Destinations that were previously available (FTP, SFTP, S3, and Azure Blob) are no longer recommended. [Learn more](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html) | June 12, 2023 | July 13, 2023 |
-| **New AppMeasurement variable** | The variable `decodeLinkParameters` accommodates edge cases where implementations encode multi-byte characters in link tracking variables. Most implementations do not need to define this variable. [Learn more](../implement/vars/config-vars/decodelinkparameters.md) |  | July 17, 2023 |
+| **Classification sets in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. | N/A | August 31, 2023 |
+| **Reporting Activity Manager** | The Reporting Activity Manager provides administrators with detailed visibility into reporting consumption for each report suite, allowing admins to easily diagnose and then fix capacity issues during peak reporting times. [Learn more](/help/admin/admin/reporting-activity.md) | N/A | September 6, 2023 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-321013; AN-321513; AN-321520; AN-321757; AN-321820; AN-321917; AN-322034; AN-322135; AN-322140; AN-322142; AN-322251; AN-322353; AN-322378; AN-322383; AN-322427; AN-322458; AN-322543; AN-322630; AN-322637; AN-322638; AN-322647; AN-322728; AN-322732; AN-322777; AN-322817; AN-322957; AN-322958; AN-323035; AN-323074; AN-323150; AN-323196; AN-323197; AN-323205; AN-323206; AN-323217; AN-323224; AN-323225; AN-323244; AN-323257; AN-323277; AN-323280; AN-323293; AN-323309; AN-323318; AN-323468; AN-323476; AN-323514; AN-323572; AN-323592; AN-323782; AN-323835
+* Fixed an issue with custom events not getting loaded. (AN-324163)
+* Fixed an issue with being unable to edit labels for the legends in a visualization. (AN-323246)
+
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-323380; AN-323492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-323641; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-324113; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-324433; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN-324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-324721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-324905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-325363; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-325594; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-325886
+
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

@@ -1,6 +1,6 @@
 ---
-description: In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.
-title: Format the date
+description: Learn how to apply standard and limited formatting to cell ranges.
+title: How to format the date in Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -8,7 +8,7 @@ exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 ---
 # Format the date
 
-In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with report builder. These formatting choices depend on the metric you have chosen.
+In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with Report Builder. These formatting choices depend on the metric you have chosen.
 
 After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 

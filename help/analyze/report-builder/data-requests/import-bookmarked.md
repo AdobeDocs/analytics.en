@@ -13,7 +13,7 @@ When you select a bookmarked report, the Request Wizard populates all the dimens
 
 This is how the Request Wizard Step 1 shows a dashboard and its reportlets:
 
-![](assets/import_dashboard_reportlet.png)
+![Screenshot showing the Request Wizard Step 1 of 2 highlighting Retrieve your Dashboards and Retrieve your Bookmarks.](assets/import_dashboard_reportlet.png)
 
 When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
 

@@ -14,7 +14,7 @@ Analysis Workspace offers many ways to share a project to your users, including 
 
 To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
 
-If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), admins receive **[!UICONTROL Can edit]** and non-admins receive **[!UICONTROL Can duplicate]** experiences.
+If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
 
 ## Get a read-only link to share with anyone
 

@@ -16,9 +16,10 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
 
-   ![Step Info](/help/admin/admin/assets/filter.png)
-
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
+
+   ![Screenshot showing the Define Filter dialogue with options to Filter by Application, User, and Project.](/help/admin/admin/assets/filter.png)
+
 1. On the [!UICONTROL Choose Page] form, enable **[!UICONTROL Most Popular]**, then configure the following options:
 
    **Starting Rank:** The starting rank of a dimension. A default rank of 1 indicates the top item in the list of data reported. For example, for the dimension [!UICONTROL Page], a starting mark of 1 indicates the single most requested page of your site. You could specify 10 or another value as the starting rank cell, which produces a report starting with 10 as the highest. Metrics are arranged in descending order, so that line items with the greatest activity are reported first in the list. If you require more than 50,000 page names in one request, but have thousands of pages on which to report, you can copy the request and change the starting rank to retrieve the appropriate data in blocks of 50,000.
@@ -33,17 +34,18 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. To create a search expression, click **[!UICONTROL Add]**.
 
-   ![Step Info](assets/expressions_define_filter.png)
-
 1. On the [!UICONTROL Define Filter] form, configure the conditions appropriate for your needs.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png): Lets you locate a condition defined in the value of a cell.
 
-   **Add Condition:** Adds a condition to the expression. There is no limit to the number of conditions you can add.
+   ![Screenshot showing the Define Filter dialogue.](assets/expressions_define_filter.png)
+
+   The select cell icon lets you locate a condition defined in the value of a cell. ![The select cell icon.](assets/select_cell_icon.png) 
+
+   The **Add Condition** link lets you add a condition to the expression. There is no limit to the number of conditions you can add.
 
 1. Click **[!UICONTROL OK]**.
 
-   ![Step Info](assets/choose_page_02.png)
+   ![Screenshot of the Define Filter dialogue with the OK button in the bottom right-side.](assets/choose_page_02.png)
 
 1. On the [!UICONTROL Choose Page] form, click **[!UICONTROL Save]** to save the expression.
 1. Click **[!UICONTROL OK]**.

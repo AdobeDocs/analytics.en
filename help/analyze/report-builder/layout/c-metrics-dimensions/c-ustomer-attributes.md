@@ -11,9 +11,9 @@ Customer attributes are stored in new type of element called VisAttr, which can 
 
  For more detailed information on how to upload customer attributes, see the [Experience Cloud help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html).
 
-* If it's configured as a metric, VisAttr is exposed both as "dimension" and metric.
+* If it's configured as a metric, VisAttr is exposed both as metric and "dimension".
 
-  ![](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![Screenshot showing metric and dimension Customer Attributes.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
 
 * It supports the same breakdown as an eVar (anything can be broken down by anything).
 * VisAttr supports all eVar metrics.

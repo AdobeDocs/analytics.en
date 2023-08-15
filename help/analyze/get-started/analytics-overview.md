@@ -64,7 +64,7 @@ Before you can use Adobe Analytics, you must have:
 
 * A supported browser
 
-  For more information, see the [Adobe Analytics system requirements](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=en).
+  Each user accessing Adobe Analytics must use a supported browser. For more information, see the [Adobe Analytics system requirements](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=en).
 
 <!-- are there more? -->
 
@@ -74,35 +74,73 @@ The Adobe Analytics interface consists of the following main areas:
 
 ### Workspace tab
 
-The Workspace tab shows a list of Analysis Workspace projects. 
+The [!UICONTROL Workspace] tab shows a list of Analysis Workspace projects. 
 
 1. In Adobe Analytics, select the [!UICONTROL **Workspace**] tab.
 
    ![Workspace tab](assets/landing-all2.png)
 
-For more information about the Projects page, see [Adobe Analytics Landing page](/help/analyze/landing.md).
+For more information about the features and functions available on the [!UICONTROL Workspace] tab, see [Adobe Analytics Landing page](/help/analyze/landing.md).
 
 ### Reports tab
 
 Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. 
 
-Instead, use the [!UICONTROL **Reports**] area in the left rail on the [!UICONTROL **Workspace**] tab. For more information <!-- add link -->
+Instead, use the [!UICONTROL **Reports**] area in the left rail on the [!UICONTROL **Workspace**] tab. For more information, see *Navigate the Reports tab* in [Adobe Analytics Landing page](/help/analyze/landing.md).
 
 ### Components tab
 
-The Components tab ...
+The [!UICONTROL Components] tab includes features that help you fine tune and empower your analysis of data.
 
-1. In Adobe Analytics, select the [!UICONTROL **Components**] tab.
+1. In Adobe Analytics, select the [!UICONTROL **Components**] tab, then select [!UICONTROL **All components**].
 
    ![Workspace tab](assets/components-tab.png)
+
+2. Select any of the following product features to configure it:
+
+   
+   | Product feature | Function | More information
+   |---------|----------|----------|
+   | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) |
+   | Calculated metrics | Calculated and Advanced Calculated (or Derived) metrics are custom metrics that you can create from existing metrics.  They allow marketers, product managers, and analysts to ask questions of the data without having to change the Analytics implementation.  | [Calculated and Advanced Calculated (Derived) metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=en) |
+   | Date ranges | Analysis Workspace includes a list of default date ranges that users can use when building analyses. In addition, you can create custom date ranges and make them available to users in Analysis Workspace. | [Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
+   | Virtual report suites |  |  |
+   | Alerts | Intelligent Alerts allow for more granular control over alerts and integrates anomaly detection with the alert system. | [Intelligent alerts](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
+   | Targets | Targets let you measure your website performance and track progress against target goals. When you create targets, you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric. <p>Targets are part of Reports & Analytics. Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).</p> | [Targets](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=en) |
+   | Calendar events | For reports trended over time, calendar events allow you to graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. | [Calendar events](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
+   | Annotations | Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions and metrics.  | [Manage annotations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=en) |
+   | Classification sets | Classification sets provide a single interface to manage classifications and rules. <p>A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports. You establish a relationship between a variable value and metadata related to that value. Classifications can be used on most custom dimensions, such as Tracking code, props, and eVars.</p>  | [Classification sets overview](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) |
+   | Locations | In order to import Adobe Analytics classification data from a cloud destination, you first need to add and configure the location where you want the classification data to be collected. You can create, edit, or delete locations. | [Locations manager](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=en) |
+   | Scheduled projects | When managing scheduled projects, you can edit and delete recurring project schedules; search for a schedule in the search bar or by using the filter options in the left rail; and filter by tag, approved schedules, owners and more. | [Schedule projects](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en) <!-- should I move the schedule project manager part of this article into the Components guide and create a new article for it? -->|
+   | Bookmarks | Bookmarks give you access to the reports that you use the most. The bookmarks you create are added to the Experience Cloud and are available in integrated capabilities like data connectors. <p>Bookmarks are part of Reports & Analytics. Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/). | [Bookmark manager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=en) |
+   | Dashboards | Dashboards are created to visualize metrics and provide interactive analytic capability with data. By clicking on items within a dashboard, you can quickly and easily segment the data to derive information from your analysis. <p>Dashboards are part of Data Workbench. Read more about the Data Workbench [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en). | [Dashboard manager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html?lang=en) |
+   | Scheduled reports | Admin-level users can see and manage scheduled reports across the organization. | [Scheduled reports queue](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html?lang=en) |
+   | Report settings | These settings refer to legacy Adobe Analytics products, which excludes Analysis Workspace and its related components. o make adjustments to Analysis Workspace settings, go to Components > Preferences.  |  |
+   | Preferences | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create. Existing projects and panels are not affected. | [Preferences](/help/analyze/analysis-workspace/user-preferences.md) |
+
+   {style="table-layout:auto"}
 
 ### Tools tab
 
 The Tools tab ...
 
-1. In Adobe Analytics, select the [!UICONTROL **Tools**] tab, then select [!UICONTROL **All tools**]..
+1. In Adobe Analytics, select the [!UICONTROL **Tools**] tab, then select [!UICONTROL **All tools**].
 
    ![Workspace tab](assets/tools-tab.png)
+
+2. Select any of the following product features to configure it:
+
+   | Product feature | Function | More information
+   |---------|----------|----------|
+   | Data Warehouse | Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data.  |  |
+   | Activity Map |  |  |
+   | Recommendations Classic |  |  |
+   | Search & Promote |  |  |
+   | Mobile Services |  |  |
+   | Analytics dashboards (mobile app) |  |  |
+   | Report Builder |  |  |
+
+   {style="table-layout:auto"}
 
 ### Admin tab
 
@@ -112,17 +150,7 @@ The Admin tab ...
 
    ![Workspace tab](assets/admin-tab.png)
 
-### Understand the Analysis Workspace interface (for analysts and end users)
-
-
-
-### Understand the admin interface
-
-To access the admin interface:
-
-1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab.
-
-## Get started with Adobe Analytics
+## Get started for administrators, analysts, and end users
 
 There are 3 types of Adobe Analytics users in a typical organization: administrators, analysts, and end users. 
 

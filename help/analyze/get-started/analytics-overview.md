@@ -96,7 +96,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
 
    ![Workspace tab](assets/components-tab.png)
 
-2. Select any of the following product features to configure it:
+2. Select any of the following product features to configure it: 
 
    
    | Product feature | Function | More information
@@ -132,7 +132,7 @@ The Tools tab ...
 
    | Product feature | Function | More information
    |---------|----------|----------|
-   | Data Warehouse | Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data.  |  |
+   | Data Warehouse | Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. <p>The Request Manager lets you view, duplicate, and re-prioritize requests.</p> | [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map |  |  |
    | Recommendations Classic |  |  |
    | Search & Promote |  |  |

@@ -2,8 +2,6 @@
 description: See and manage scheduled reports across the organization.
 title: Scheduled projects manager
 feature: Admin Tools
-uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 ---
 # Scheduled projects
 

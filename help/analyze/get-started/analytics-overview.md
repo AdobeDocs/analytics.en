@@ -2,6 +2,8 @@
 description: General overview information about Adobe Analytics
 title: Adobe Analytics overview
 feature: Analytics Basics
+hide: yes
+hidefromtoc: yes
 ---
 # Adobe Analytics overview
 
@@ -133,7 +135,7 @@ The Tools tab ...
    | Product feature | Function | More information
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. <p>The Request Manager lets you view, duplicate, and re-prioritize requests.</p> | [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
-   | Activity Map |  |  |
+   | Activity Map | Activity Map is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages. It lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors. | [Activity Map overview](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=en) |
    | Recommendations Classic |  |  |
    | Search & Promote |  |  |
    | Mobile Services |  |  |

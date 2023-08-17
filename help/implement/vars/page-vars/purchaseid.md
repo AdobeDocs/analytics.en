@@ -10,7 +10,7 @@ The `purchaseID` variable helps prevent hits containing the same purchase from i
 
 When Adobe recognizes a hit as a duplicate purchase, all conversion data (such as eVars and events) do not show in reporting. In data feeds, the `duplicate_purchase` column is set to `1`.
 
-Purchase ID's apply to all visitors and do not expire. If one visitor sets a given purchase ID, then a different visitor sets that same purchase ID a year later, the second purchase is de-duplicated.
+Purchase ID's apply to all visitors and expire after 37 months. If one visitor sets a given purchase ID, then a different visitor sets that same purchase ID a year later, the second purchase is de-duplicated.
 
 ## Purchase ID using the Web SDK
 

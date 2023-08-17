@@ -160,7 +160,7 @@ The Admin tab includes features and configuration options to administer Adobe An
    | User ID migration | The Analytics user ID migration enables administrators to easily migrate user accounts in Analytics User Management to the Adobe Admin Console.  | [Analytics User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en) |
    | User management home (legacy) | User and product management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing user permissions for Adobe Analytics users. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
    | Groups (legacy) | Group management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing groups for Adobe Analytics. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
-   | Report suite access |  |  |
+   | Report suite access | The method for granting access to report suites has moved to the Adobe Admin Console. Use the Adobe Admin Console to grant report suite access for Adobe Analytics users. | [Product profile permissions for Report Suite Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
    | Admin tools home |  |  |
    | Report suites |  |  |
    | Analytics users & assets |  |  |

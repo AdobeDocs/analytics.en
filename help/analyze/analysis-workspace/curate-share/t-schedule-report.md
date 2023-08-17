@@ -43,4 +43,4 @@ To send a file on a recurring schedule to recipients via email:
 
 Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
-For more information, see 
+For more information, see [Scheduled projects](/help/components/scheduled-projects-manager.md)

@@ -76,7 +76,7 @@ The Adobe Analytics interface consists of the following main areas:
 
 ### Workspace tab
 
-The [!UICONTROL Workspace] tab shows a list of Analysis Workspace projects. 
+The [!UICONTROL Workspace] tab shows shows the [!UICONTROL Projects] area by default, which displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. 
 
 1. In Adobe Analytics, select the [!UICONTROL **Workspace**] tab.
 
@@ -106,7 +106,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
    | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) |
    | Calculated metrics | Calculated and Advanced Calculated (or Derived) metrics are custom metrics that you can create from existing metrics.  They allow marketers, product managers, and analysts to ask questions of the data without having to change the Analytics implementation.  | [Calculated and Advanced Calculated (Derived) metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=en) |
    | Date ranges | Analysis Workspace includes a list of default date ranges that users can use when building analyses. In addition, you can create custom date ranges and make them available to users in Analysis Workspace. | [Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
-   | Virtual report suites |  |  |
+   | Virtual report suites | Virtual report suites segment your Adobe Analytics data so you can control access to each segment. | [Virtual report suites overview](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) |
    | Alerts | Intelligent Alerts allow for more granular control over alerts and integrates anomaly detection with the alert system. | [Intelligent alerts](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
    | Targets | Targets let you measure your website performance and track progress against target goals. When you create targets, you select which attribute metrics or eVars you want to measure or you can choose to measure your entire site against your selected metric. <p>Targets are part of Reports & Analytics. Read more about the Reports & Analytics [End-of-life announcement](https://express.adobe.com/page/6WnF8JK6IRDhf/).</p> | [Targets](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=en) |
    | Calendar events | For reports trended over time, calendar events allow you to graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric. | [Calendar events](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
@@ -124,7 +124,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
 
 ### Tools tab
 
-The Tools tab ...
+<!-- The Tools tab ... -->
 
 1. In Adobe Analytics, select the [!UICONTROL **Tools**] tab, then select [!UICONTROL **All tools**].
 
@@ -136,23 +136,77 @@ The Tools tab ...
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. <p>The Request Manager lets you view, duplicate, and re-prioritize requests.</p> | [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map | Activity Map is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages. It lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors. | [Activity Map overview](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=en) |
-   | Recommendations Classic |  |  |
+   | Recommendations Classic | Recommendations is an Adobe Target feature that automatically display products, services, or content that might interest your visitors based on previous user activity, preferences, or other criteria.  | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
    | Search & Promote |  |  |
    | Mobile Services |  |  |
-   | Analytics dashboards (mobile app) |  |  |
-   | Report Builder |  |  |
+   | Analytics dashboards (mobile app) | The Adobe Analytics dashboards app delivers anytime, anywhere insights from Adobe Analytics. Through the app, users can view intuitive Scorecards that you create using the Adobe Analytics desktop UI.  | The Adobe Analytics dashboards app in the iOS App Store or Google Play store |
+   | Report Builder | Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |[What is Report Builder?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=en) |
 
    {style="table-layout:auto"}
 
 ### Admin tab
 
-The Admin tab ...
+The Admin tab includes features and configuration options to administer Adobe Analytics.
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 
    ![Workspace tab](assets/admin-tab.png)
 
-## Get started for administrators, analysts, and end users
+2. Select any of the following product features to configure it:   
+
+   | Product feature | Function | More information |
+   |---------|----------|----------|
+   | Analytics users & assets | While most user and product management functions are now available only in the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), the administrative functions of transferring assets from one user to another, as well as setting an expiration date for a user account, are available only from the Adobe Analytics Admin area. | [Transfer user assets or set account expirations](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) |
+   | User ID migration | The Analytics user ID migration enables administrators to easily migrate user accounts in Analytics User Management to the Adobe Admin Console.  | [Analytics User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en) |
+   | User management home (legacy) | User and product management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing user permissions for Adobe Analytics users. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
+   | Groups (legacy) | Group management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing groups for Adobe Analytics. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
+   | Report suite access |  |  |
+   | Admin tools home |  |  |
+   | Report suites |  |  |
+   | Analytics users & assets |  |  |
+   | User ID migration |  |  |
+   | Classification importer |  |  |
+   | Classification rule builder |  |  |
+   | Data sources |  |  |
+   | Code manager | Code manager lets you download data collection code for web and mobile platforms | [Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) |
+   | Traffic management |  |  |
+   | Server call usage |  |  |
+   | Logs | Log files to help you see when users log in, their usage, access, report suites, and Admin changes. | [Logs](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=en) |
+   | Advertising Analytics |  |  |
+   | Data feeds | Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw data can be used in other platforms outside of Adobe to use at your organization's discretion.  | [Analytics Data Feed overview](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) |
+   | Exclude by IP |  |  |
+   | Publishing widgets |  |  |
+   | Reporting Activity Manager |  |  |
+   | Data Governance Privacy Labeling |  |  |
+   | Company settings home |  |  |
+   | Security manager |  |  |
+   | Support information |  |  |
+   | Web services |  |  |
+   | Report Builder reports |  |  |
+   | Single sign-on service |  |  |
+   | Co-brand the Adobe Experience Cloud |  |  |
+   | Hide report suites |  |  |
+
+   {style="table-layout:auto"}
+
+### Analysis Workspace
+
+Analysis Workspace allows you to quickly build analyses to gather insights and then share those insights with others. Using the drag-and-drop browser interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, and share and schedule projects with anyone you choose.
+
+The following image and accompanying table explain some of the main areas in Analysis Workspace.
+
+For a more detailed overview of Analysis Workspace, see [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md).
+
+![Analysis Workspace overview](assets/analysis-workspace-overvew.png)
+
+| Location in image | Name and function |
+|---------|----------|
+| A | **Far left rail:** Contains tabs for adding panels, visualizations, and components to Analysis Workspace. Also contains the Data Dictionary icon that is used to open the Data Dictionary. |
+| B | **Left rail:** Depending on which tab is selected in the far left rail, this area contains individual panels, visualizations, or components. |
+| C | **Canvas:** This is the main area where you drag content from the left rails to build your project. The project dynamically updates as you add panels, visualizations, and components to the canvas. | 
+| D | **Report suite drop-down menu:** For each panel in Analysis Workspace, the report suite drop-down menu allows you to choose the report suite that you want to use as your data source. | 
+
+## Get started for administrators, analysts, end users, and developers
 
 There are 3 types of Adobe Analytics users in a typical organization: administrators, analysts, and end users. 
 
@@ -164,7 +218,7 @@ Expand the sections below to learn how each of these users can get started with 
 
 Analytics administrators are responsible for choosing the implementation method most appropriate for their organization.
 
-After Adobe Analytics is implemented, administrators need to perform various configuration tasks to ensure that analysts and end users are getting the full value from Adobe Analytics.
+After Adobe Analytics is implemented, administrators need to perform various configuration tasks to ensure that analysts and end users are getting the full value from Adobe Analytics. Administrators should also regularly monitor their Analytics environment to ensure the system is running efficiently.
 
 #### Determine the types of data that should be gathered
 
@@ -217,6 +271,20 @@ Analytics administrators should complete the following tasks before making Adobe
 | Attribution | | |
 | Reporting Activity Manager | | |
 | Integrations | You can surface information from other applications in Adobe Analytics. <p>Following are some common integrations:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li>  | |
+
+{style="table-layout:auto"}
+
+#### Monitor Adobe Analytics
+
+Various features are available to help you monitor your Adobe Analytics environment. 
+
+Analytics administrators should be aware of the following features available to help monitor important aspects of your Analytics environment:
+
+|Task | Intended use | More information |
+|---------|----------|---------|
+| Reporting Activity Manager | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. | [Reporting Activity Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+| Server call usage |  A server call, also known as a "hit" or an "image request", is an instance in which data is sent to Adobe servers to process. A Server Call Usage dashboard is available that tracks your server call consumption data and compares it to your contractual limit. You can set up alerts to prevent overages. | [Server Call Usage overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+| Log files | Log files to help you see when users log in, their usage, access, report suites, and Admin changes. | [Logs](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=en) |
 
 {style="table-layout:auto"}
 

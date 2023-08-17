@@ -24,17 +24,22 @@ Here is a video that compares various Adobe Analytics tools:
 * To access real-time data in the UI.
 * To set up Calendar events.
 * To set up Targets.
-* To view Bot reporting.
 * To access unique Video visualizations of Video Daypart and Viewer Drop-off.
+
+>[!IMPORTANT]
+>
+>Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** should be used:
 
-* As the most flexible Analytics tool option (down to visitor-level, hit-level analysis).
-* To create a multi-channel dataset of online and offline interactions from CRM to POS to Web.
-* For advanced attribution (rules-based & algorithmic models).
 * For predictive, statistical modeling (propensity scoring, clustering, correlations, etc.).
 * For Latency analysis (time before / since an event).
 * For identification and export of complex segments throughout Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Read more about Data Workbench's [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## Importing Data into Adobe Analytics {#import}
 

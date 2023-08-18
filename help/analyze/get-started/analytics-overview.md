@@ -1,5 +1,5 @@
 ---
-description: General overview information about Adobe Analytics
+description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
 title: Adobe Analytics overview
 feature: Analytics Basics
 hide: yes
@@ -160,32 +160,31 @@ The Admin tab includes features and configuration options to administer Adobe An
    | User ID migration | The Analytics user ID migration enables administrators to easily migrate user accounts in Analytics User Management to the Adobe Admin Console.  | [Analytics User Migration to the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en) |
    | User management home (legacy) | User and product management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing user permissions for Adobe Analytics users. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
    | Groups (legacy) | Group management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing groups for Adobe Analytics. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
-   | Report suite access | The method for granting access to report suites has moved to the Adobe Admin Console. Use the Adobe Admin Console to grant report suite access for Adobe Analytics users. | [Product profile permissions for Report Suite Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
+   | Report suite access | The method for granting access to report suite tools has moved to the Adobe Admin Console. Use the Adobe Admin Console to grant report suite access for Adobe Analytics users. | [Product profile permissions for Report Suite Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
    | Admin tools home |  |  |
-   | Report suites |  |  |
-   | Analytics users & assets |  |  |
-   | User ID migration |  |  |
-   | Classification importer |  |  |
-   | Classification rule builder |  |  |
-   | Data sources |  |  |
+   | Report suites | Lets you define the rules that govern how data is processed in a report suite. | [Report Suite manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en)  |
+   | Analytics users & assets | User and asset management has moved to the Adobe Admin Console. Use the Adobe Admin Console to get started managing user permissions for Adobe Analytics users. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
+   | Classification importer | Use the importer to upload classifications into Adobe Analytics. You can also export the data for updating prior to an import. | [Classifications importer overview](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
+   | Classification rule builder | Rather than maintaining and uploading classifications each time your tracking codes change, you can create automatic, rule-based classifications and apply them across multiple report suites. | [Classification Rule Builder workflow](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=en) |
+   | Data sources | Use the data source manager to create, edit, or deactivate data sources. You can also use this interface to track the status of files uploaded to data sources FTP locations. | [Manage data sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=en) |
    | Code manager | Code manager lets you download data collection code for web and mobile platforms | [Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) |
-   | Traffic management |  |  |
-   | Server call usage |  |  |
+   | Traffic management | The Traffic Management page lets you specify expected traffic volume changes. These settings let Adobe allocate the appropriate resources to ensure that your traffic can be tracked and processed in a timely manner. | [Traffic management overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=en) |
+   | Server call usage | A server call, also known as a "hit" or an "image request", is an instance in which data is sent to Adobe servers to process. A Server Call Usage dashboard is available that tracks your server call consumption data and compares it to your contractual limit. You can set up alerts to prevent overages. | [Server Call Usage overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
    | Logs | Log files to help you see when users log in, their usage, access, report suites, and Admin changes. | [Logs](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=en) |
-   | Advertising Analytics |  |  |
+   | Advertising Analytics | Configure Adobe Analytics to show all your Google and Bing Paid Search data side by side. | [Configure Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
    | Data feeds | Data feeds are a powerful way to get raw data out of Adobe Analytics. This raw data can be used in other platforms outside of Adobe to use at your organization's discretion.  | [Analytics Data Feed overview](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) |
-   | Exclude by IP |  |  |
+   | Exclude by IP | You can exclude data from specific IP addresses, such as internal website activities, site testing and employee usage, from your reports. Excluding data improves report accuracy by excluding IP address data. Additionally, you can remove data from denial of service or other malicious events that can skew report data. You can configure exclusion or by using your firewall. | [Exclude by IP address](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
    | Publishing widgets |  |  |
-   | Reporting Activity Manager |  |  |
-   | Data Governance Privacy Labeling |  |  |
-   | Company settings home |  |  |
-   | Security manager |  |  |
-   | Support information |  |  |
-   | Web services |  |  |
-   | Report Builder reports |  |  |
-   | Single sign-on service |  |  |
-   | Co-brand the Adobe Experience Cloud |  |  |
-   | Hide report suites |  |  |
+   | Reporting Activity Manager | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. It provides detailed visibility into reporting consumption and helps you easily diagnose and fix capacity issues during peak reporting times. | [Reporting Activity Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | Data Governance Privacy Labeling | Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite.  | [Label report suite data](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
+   | Company settings home | The Company Settings page lets you configure settings that apply to all report suites managed by your organization. | [Company settings overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en) |
+   | Security manager | The Security Manager lets you control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions. | [Security Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=en) |
+   | Support information | The Support Information page manages the support information that displays throughout Reports & Analytics. Reports & Analytics. <p>Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Read more about the Reports & Analytics [End-of-life announcement](https://www.adobe.com/go/analytics_rnaeol_en).</p>  |  |
+   | Web services | The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface. | [Web services](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=en) |
+   | Report Builder reports | Manage license assigned to Report Builder users. | [Report Builder reports](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=en) |
+   | Single sign-on service | Single sign-on in the Adobe Experience Cloud is implemented through the Admin Console. | [Analytics in the Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en) |
+   | Co-brand the Adobe Experience Cloud | The Manage Co-Branding Image page lets you display your company logo in Reports & Analytics downloaded reports and legacy dashboards. Co-branding is not used in Analysis Workspace.<p>Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. Read more about the Reports & Analytics [End-of-life announcement](https://www.adobe.com/go/analytics_rnaeol_en).</p> | [Co-Branding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=en) |
+   | Hide report suites | Lets you hide report suites in the Adobe Analytics user interface if you no longer want a report suite to be available to you and your users. | [Hide report suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=en) |  |
 
    {style="table-layout:auto"}
 
@@ -265,11 +264,10 @@ Analytics administrators should complete the following tasks before making Adobe
 | Import data | Adobe Analytics data sources let you import additional online or offline data for reporting.  | [Data sources overview](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | Classify data with Classifications | Classifications allow you to classify data to make better use of variables, allowing you to include more content into a single variable. | | 
 | Manage components | Use the Data Dictionary and the management areas for each component type to define which components are available in your Analytics implementation, as well as which are approved for your organization.<p>This should be an ongoing activity to ensure that components are being used effectively in your organization. </p>| <ul><li>[Data Dictionary overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Calculated metrics manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Manage segements](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
-| Anomaly detection and Contribution analysis | | |
-| Advanced segmentation | | |
+| Anomaly detection | Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data. | [Anomaly Detection overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=en) |
+| Contribution analysis | Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments. | [Contribution Analysis overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Analytics segmentation | Lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) |
 | Publish audiences to Audience Manager | | |
-| Attribution | | |
-| Reporting Activity Manager | | |
 | Integrations | You can surface information from other applications in Adobe Analytics. <p>Following are some common integrations:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li>  | |
 
 {style="table-layout:auto"}

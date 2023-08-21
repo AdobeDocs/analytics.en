@@ -26,9 +26,11 @@ You can manage Data Warehouse requests you have made. The following sections des
 
 <!-- describe columns? -->
 
-1. (Optional) To see when a request started processing, click on a scheduled request ID.
+1. (Optional) Click the request name to view a dialog that displays the following information: <!-- Check this -->
 
-    A dialog appears with the processing information. <!-- still true? -->
+   * When a request started processing
+
+   * Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete. 
 
 ## Edit requests
 
@@ -165,13 +167,3 @@ Working in this tab lets you
 Click on a job to see individual requests for that job.
 
 * Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete.
-
-<!--
-
-To manage existing requests in Data Warehouse:
-  
-     * Select a job to see individual requests for that job. <!-- still true? -->
-
-     * Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete. <!-- What is this?? -->
-
--->

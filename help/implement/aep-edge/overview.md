@@ -27,9 +27,9 @@ The following logic is applied to data send to the Adobe Experience Edge network
 | XDM payload contains... | Adobe Analytics... |
 |---|---|
 | `web.webpageDetails.name` or `web.webPageDetails.URL` | considers payload a **page view** |
-| `web.webInteraction.type`<br/>and<br/>`web.webInteraction.name` or `web.webInteraction.url` | considers payload a **link event** |
-| `web.webInteraction.type`<br/>and<br/> `web.webPageDetails.name` or `web.webPageDetails.url` | considers payload a **link event** <br/>`web.webPageDetails.name` and `web.webPageDetails.URL` are set to `null` |
-| no `webPageDetails.name`<br/>no `web.webPageDetails.URL`<br/>no `web.webInteraction.type` | drops the payload and ignores the data |
+| `web.webInteraction.type` and (`web.webInteraction.name` or `web.webInteraction.url`) | considers payload a **link event** |
+| `web.webInteraction.type` and (`web.webPageDetails.name` or `web.webPageDetails.url`) | considers payload a **link event** <br/>`web.webPageDetails.name` and `web.webPageDetails.URL` are set to `null` |
+| no `webPageDetails.name` and no `web.webPageDetails.URL` and no `web.webInteraction.type` | drops the payload and ignores the data |
 
 {style="table-layout:auto"}
 

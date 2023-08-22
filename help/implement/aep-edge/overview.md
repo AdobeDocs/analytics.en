@@ -16,17 +16,17 @@ Adobe offers three main ways to send data to Experience Edge:
 
 
 
-## How Adobe Analytics treats Experience Edge data
+## How Adobe Analytics handles Experience Edge data
 
 Data send to Experience Edge has to conform to schemas based on [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en). XDM gives you flexibility in what fields are defined as part of events. At the time events reach Adobe Analytics, these events are translated into more structured data that Adobe Analytics can handle: page views or link events.
 
-Certain out of the box XDM fields that appear to be related to page views or link events, like `eventType` or `web.webPageDetails.pageView`, have no relevance in Adobe Analytics.
+ XDM does not itself prescribe how to define page views or link events, nor does it instruct Adobe Analytics how to treat its payload. For example, certain out of the box XDM fields that appear to be related to page views or link events, like `eventType`, `web.webPageDetails.pageViews`, or `web.webInteraction.linkEvents` are completely implementation agnostic and have no relevance for Adobe Analytics.
 
-The following logic is applied to data send to the Adobe Experience Edge network and forwarded to Adobe Analytics.
+To properly handle page views and link events, the following logic is applied to data send to the Adobe Experience Edge network and forwarded to Adobe Analytics.
 
 | XDM payload contains... | Adobe Analytics... |
 |---|---|
-| `web.webpageDetails.name` or `web.webPageDetails.URL` | considers payload a **page view** |
+| `web.webPageDetails.name` or `web.webPageDetails.URL` | considers payload a **page view** |
 | `web.webInteraction.type` and (`web.webInteraction.name` or `web.webInteraction.url`) | considers payload a **link event** |
 | `web.webInteraction.type` and (`web.webPageDetails.name` or `web.webPageDetails.url`) | considers payload a **link event** <br/>`web.webPageDetails.name` and `web.webPageDetails.URL` are set to `null` |
 | no `webPageDetails.name` and no `web.webPageDetails.URL` and no `web.webInteraction.type` | drops the payload and ignores the data |

@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **August 2023** | |
+| Experience Edge data handling | Added content how Adobe Analytics [handles data from Experience Edge](../implement/aep-edge/overview.md). |
 | Media Playback Time Spent panel | Updated content for  [Media Playback Time Spent panel](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) to improve readability. |
 | Moved content about managing scheduled projects | Created a new article in the Analytics Components Guide called [Scheduled projects](/help/components/scheduled-projects-manager.md). This content was previously located in the [Schedule projects](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) article in the Analytics Tools Guide. |
 | Compare implementation methods | Updated documentation that compares different implementation methods. [Learn more](../implement/prepare/comparison.md) | 

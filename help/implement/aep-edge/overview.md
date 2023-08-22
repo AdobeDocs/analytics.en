@@ -26,10 +26,10 @@ To properly handle page views and link events, the following logic is applied to
 
 | XDM payload contains... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` or `web.webPageDetails.URL` | considers payload a **page view** |
+| `web.webPageDetails.name` or `web.webPageDetails.URL` and no `web.webInteraction.type` | considers payload a **page view** |
 | `web.webInteraction.type` and (`web.webInteraction.name` or `web.webInteraction.url`) | considers payload a **link event** |
 | `web.webInteraction.type` and (`web.webPageDetails.name` or `web.webPageDetails.url`) | considers payload a **link event** <br/>`web.webPageDetails.name` and `web.webPageDetails.URL` are set to `null` |
-| no `webPageDetails.name` and no `web.webPageDetails.URL` and no `web.webInteraction.type` | drops the payload and ignores the data |
+| no `web.webInteraction.type` and (no `webPageDetails.name` and no `web.webPageDetails.URL`) | drops the payload and ignores the data |
 
 {style="table-layout:auto"}
 

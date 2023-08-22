@@ -15,7 +15,7 @@ Following are some of the key ways that Adobe Analytics helps organizations gain
 
 For additional details about the benefits that Adobe Analytics provides, see the [Adobe Analytics product page](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Web analytics
++++Web analytics
 
 Adobe Analytics provides the following complex segmentation and predictive tools for analyzing website traffic:
 
@@ -25,7 +25,9 @@ Adobe Analytics provides the following complex segmentation and predictive tools
 
 * [Advanced segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
-### Marketing analytics
++++
+
++++Marketing analytics
 
 Adobe Analytics helps organizations understand where customers interact with their brands, which channels customers prefer, and which experiences resonate with them. 
 
@@ -37,14 +39,18 @@ The following key features in Adobe Analytics provide these marketing capabiliti
 
 * [Ad hoc analysis in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Attribution
++++
+
++++Attribution
 
 Attribution lets organizations see how different interactions throughout the customer journey affect conversion. In addition to providing more traditional attribution options, such as Linear or First Touch models, Attribution in Adobe Analytics also uses machine learning and advanced statistical models to understand the precise impact of every touch.
 
 For more information, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Predictive analytics
+
++++Predictive analytics
 
 Predictive analytics uses machine learning and advanced statistical modeling to analyze customer data, find patterns, and predict future behavior such as churn or a likelihood to convert. It allows data analysts to take advantage of huge data sets that might otherwise be wasted.
 
@@ -55,6 +61,8 @@ The following key features in Adobe Analytics provide these predictive capabilit
 * [Contribution analysis](#contribution-analysis)
 
 * [Intelligent alerts](#intelligent-alerts)
+
++++
 
 ## Prerequisites for using Adobe Analytics
 
@@ -72,9 +80,13 @@ Before you can use Adobe Analytics, you must have:
 
 ## Understand the Analytics interface 
 
-The Adobe Analytics interface consists of the following main areas:
+The Adobe Analytics interface consists of the following key areas, including tabs for managing projects in Analysis Workspace, managing components, tools, and administrator functions.
 
-### Workspace tab
+![Workspace tab](assets/landing-all2.png)
+
+Expand the following sections to learn about each area of Analysis Workspace:
+
++++Workspace tab
 
 The [!UICONTROL Workspace] tab shows shows the [!UICONTROL Projects] area by default, which displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. 
 
@@ -84,13 +96,17 @@ The [!UICONTROL Workspace] tab shows shows the [!UICONTROL Projects] area by def
 
 For more information about the features and functions available on the [!UICONTROL Workspace] tab, see [Adobe Analytics Landing page](/help/analyze/landing.md).
 
-### Reports tab
++++
+
++++Reports tab
 
 Effective December 31, 2023, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. 
 
 Instead, use the [!UICONTROL **Reports**] area in the left rail on the [!UICONTROL **Workspace**] tab. For more information, see *Navigate the Reports tab* in [Adobe Analytics Landing page](/help/analyze/landing.md).
 
-### Components tab
++++
+
++++Components tab
 
 The [!UICONTROL Components] tab includes features that help you fine tune and empower your analysis of data.
 
@@ -122,7 +138,9 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
 
    {style="table-layout:auto"}
 
-### Tools tab
++++
+
++++Tools tab
 
 <!-- The Tools tab ... -->
 
@@ -144,7 +162,9 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
 
    {style="table-layout:auto"}
 
-### Admin tab
++++
+
++++Admin tab
 
 The Admin tab includes features and configuration options to administer Adobe Analytics.
 
@@ -188,7 +208,9 @@ The Admin tab includes features and configuration options to administer Adobe An
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace allows you to quickly build analyses to gather insights and then share those insights with others. Using the drag-and-drop browser interface, you can craft your analysis, add visualizations to bring data to life, curate a dataset, and share and schedule projects with anyone you choose.
 
@@ -204,6 +226,8 @@ For a more detailed overview of Analysis Workspace, see [Analysis Workspace over
 | B | **Left rail:** Depending on which tab is selected in the far left rail, this area contains individual panels, visualizations, or components. |
 | C | **Canvas:** This is the main area where you drag content from the left rails to build your project. The project dynamically updates as you add panels, visualizations, and components to the canvas. | 
 | D | **Report suite drop-down menu:** For each panel in Analysis Workspace, the report suite drop-down menu allows you to choose the report suite that you want to use as your data source. | 
+
++++
 
 ## Get started for administrators, analysts, end users, and developers
 

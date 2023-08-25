@@ -28,7 +28,7 @@ Adobe Analytics helps organizations understand where customers interact with the
 
 The following key features in Adobe Analytics provide these marketing capabilities:
 
-* Multichannel data collection
+* [Multichannel data collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=en)
 
 * [Offline data integration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
 

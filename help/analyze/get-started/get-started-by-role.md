@@ -7,9 +7,15 @@ hidefromtoc: yes
 ---
 # Get started for administrators, analysts, end users, and developers
 
-There are 3 types of Adobe Analytics users in a typical organization: administrators, analysts, and end users. 
+There are 4 types of Adobe Analytics users in a typical organization:
 
-Administrators implement and configure Adobe Analytics; analysts set up projects and create analyses using Analysis Workspace, and end users gain actionable insights about their customers, either by creating their own analyses or working with analysts to create them.
+* **Administrators:** Implement and configure Adobe Analytics.
+
+* **Analysts:** Set up projects and create analyses using Analysis Workspace
+
+* **End users:** Gain actionable insights about their customers, either by creating their own analyses or working with analysts to create them
+
+* **Developers:** Use the Adobe Analytics 2.0 APIs to directly call Adobe's servers to perform almost any action that can be performed in the user interface, such as creating reports to explore, getting insights, or answering important questions about data. 
 
 The information below outlines how each of these users can get started with Adobe Analytics.
 
@@ -62,13 +68,13 @@ Analytics administrators should complete the following tasks before making Adobe
 | Define permissions | Analytics administrators need to assign product profiles in the Admin Console for Adobe Analytics, Report Suite Tools, and Analytics Tools. | [Analytics Permissions in the Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en) |
 | Set up report suites and define settings for your company | A report suite is a silo of data that Adobe Analytics uses to generate reports.<p>Administrators can also set up [virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en) to further segment data.</p> | <ul><li>[Create a report suite](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Company Settings Overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Import data | Adobe Analytics data sources let you import additional online or offline data for reporting.  | [Data sources overview](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| Classify data with Classifications | Classifications allow you to classify data to make better use of variables, allowing you to include more content into a single variable. | | 
+| Classify data with Classifications | Classifications allow you to classify data to make better use of variables, allowing you to include more content into a single variable. | [Classifications overview](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=en) | 
 | Manage components | Use the Data Dictionary and the management areas for each component type to define which components are available in your Analytics implementation, as well as which are approved for your organization.<p>This should be an ongoing activity to ensure that components are being used effectively in your organization. </p>| <ul><li>[Data Dictionary overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=en)</li><li>[Calculated metrics manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Manage segements](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=en)</li><li>[Create custom date ranges](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=en)</li></ul> |
 | Anomaly detection | Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data. | [Anomaly Detection overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=en) |
 | Contribution analysis | Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments. | [Contribution Analysis overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Analytics segmentation | Lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en) |
-| Publish audiences to Audience Manager | | |
-| Integrations | You can surface information from other applications in Adobe Analytics. <p>Following are some common integrations:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li>  | |
+| Publish audiences to Audience Manager | Adobe Audience Manager is a powerful data management platform that helps you build unique audience profiles from first-party, second-party (partner), and third-party data integrations.  | [Audience Analytics overview](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=en) |
+| Integrations | You can surface information from other applications in Adobe Analytics. <p>Following are some common integrations:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">Media Analytics</a></li>  | [Analytics Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en)|
 
 {style="table-layout:auto"}
 

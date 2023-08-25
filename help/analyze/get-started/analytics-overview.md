@@ -2,8 +2,6 @@
 description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
 title: Adobe Analytics overview
 feature: Analytics Basics
-hide: yes
-hidefromtoc: yes
 ---
 # Adobe Analytics overview
 

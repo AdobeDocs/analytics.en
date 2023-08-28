@@ -233,7 +233,7 @@ A sequential segment filters data sets based on user actions using the [!UICONTR
 
 This video gives a short overview of what segment containers are and how to use them: 
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## Access the Segmentation Tools {#access}

@@ -1,5 +1,5 @@
 ---
-description: Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
+description: Learn how you can optimize Report Builder delivery, and a list of error messages that might occur.
 title: Troubleshooting and best practices for Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
@@ -8,7 +8,7 @@ exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 ---
 # Troubleshooting and best practices for Report Builder
 
-Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
+This article describes troubleshooting and best practices you can use to optimize Report Builder. It also includes a list of error messages that might be displayed.
 
 ## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
 
@@ -60,13 +60,13 @@ The following factors can increase request complexity and result in slower proce
 
 * **Timeouts**: Any scheduled report times out after four hours. The system attempts scheduling three more times, potentially resulting in a failure. (Generally, the larger the data set the longer it takes to run.) These can be seen in [!DNL Analytics] reporting and Report Builder:
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Sample error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-A list of error messages that could occur occasionally while you are using Report Builder.
+This section includes a sample list of error messages that might occur when you use Report Builder.
 
 >[!NOTE]
 >
->This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
+>This is a sample of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
 
 * **This feature can only be applied on an open workbook.**: If no workbooks (spreadsheet documents) are open in Excel, and you click one of the icons in the report builder toolbar, this message is displayed. In addition, the toolbar becomes disabled until you open a spreadsheet. However, you can click the on-line help icon while the toolbar is still enabled without causing this error.
 * **You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].**: While the [!UICONTROL Request Manager] and the [!UICONTROL Request Wizard] are linked functionally, it is not possible to start working with the [!UICONTROL Request Manager] before completing or cancelling actions taken in the [!UICONTROL Request Wizard].

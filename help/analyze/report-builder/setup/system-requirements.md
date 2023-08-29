@@ -1,6 +1,6 @@
 ---
-description: System recommendations and prerequisites.
-title: System requirements for Report Builder
+description: Learn about system recommendations and prerequisites for Report Builder.
+title: About system requirements for Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin

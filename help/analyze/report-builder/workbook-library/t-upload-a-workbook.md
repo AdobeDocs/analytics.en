@@ -1,6 +1,6 @@
 ---
-description: Upload a Report Builder Excel workbook that you want to share.
-title: Upload a workbook
+description: Learn how to upload a Report Builder Excel workbook that you want to share.
+title: How to upload a workbook
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: User, Admin

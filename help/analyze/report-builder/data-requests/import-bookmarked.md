@@ -1,5 +1,5 @@
 ---
-description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
+description: All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as Report Builder requests.
 title: Import bookmarked reports and dashboard reportlets
 feature: Report Builder
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: 19813950-2495-4a75-aacb-587b59bf2484
 ---
 # Import bookmarked reports and dashboard reportlets
 
-All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as report builder requests.
+All bookmarked reports and dashboard reports are now listed as dimensions in the Request Wizard Step 1 and can be imported as Report Builder requests.
 
 When you select a bookmarked report, the Request Wizard populates all the dimensions and metrics that define this bookmarked report. The date range, granularity and selected segment are also updated based on the selected bookmark.
 

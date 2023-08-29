@@ -1,12 +1,12 @@
 ---
-description: You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing.
-title: Lock/unlock workbooks
+description: Learn how to protect all requests in a workbook against adding and editing requests by locking the workbook.
+title: How to lock and unlock workbooks
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 ---
-# Lock/unlock workbooks
+# Lock and unlock workbooks
 
 You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing.
 
@@ -27,20 +27,18 @@ You can unlock a locked workbook if you have one of the following permissions:
 
 When a workbook is locked against request editing,
 
-* Users cannot create/add requests.
+* Users cannot create and add requests.
 * Users cannot edit requests through the Request Wizard.
 * Users cannot edit requests through the Edit Multiple Request features.
 * Users cannot cut, copy or paste requests. However, users can still use the native Excel Cut/Copy/Paste context menu to cut/copy/paste the content of the request(s).
 * Users can refresh requests, either individually or as a part of a group.
 * If the request uses input values from cells (date range, segment, filters), users can change these values in the cells, and thus indirectly edit the requests by refreshing them.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+If you try to edit a protected workbook through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**, you may or may not be allowed to do so:
 
-* If you do not have permissions to unlock the request(s), this prompt appears:
+* If you do not have permissions to unlock a request, you will see a message indicating you do not have the rights to unlock and edit the workbook.
 
-  ![](assets/locked_workbook_error.png)
-
-* If you have the required permissions, no prompt is shown, and you can edit the request.
+  ![Screenshot showing the error message when you don't have permissions to unlock a request.](assets/locked_workbook_error.png)
 
 ## Workflow {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

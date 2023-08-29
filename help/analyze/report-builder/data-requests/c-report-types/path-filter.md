@@ -42,7 +42,7 @@ This example uses Site Section Paths.
 
    ![](assets/select_a_pattern.png)
 
-   Some of these patterns are specific to report builder: Entry Path's Next Item Pattern, Exit Path's Previous Item Pattern, Next Item Pattern.
+   Some of these patterns are specific to Report Builder: Entry Path's Next Item Pattern, Exit Path's Previous Item Pattern, Next Item Pattern.
 
 ## To edit a predefined pattern
 

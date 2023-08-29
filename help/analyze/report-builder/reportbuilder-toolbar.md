@@ -1,6 +1,6 @@
 ---
-description: Information to help you understand the function of the buttons on the Report Builder toolbar.
-title: Report Builder toolbar
+description: Learn about the functions of the Report Builder toolbar buttons.
+title: How to use the Report Builder toolbar
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
@@ -12,7 +12,7 @@ Information to help you understand the function of the buttons on the Report Bui
 
 After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]**.
 
-![](assets/report_builder_toolbar.png)
+![Report Builder toolbar icons](assets/report_builder_toolbar.png)
 
 **Sign In:** Displays the [!UICONTROL Login] form so that you can sign in with your credentials or as a different user. Also displays your company name after login. See [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md).
 
@@ -26,7 +26,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **Schedule:** Lets you schedule reports to send according to the time and file format that you define. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Library:** Launches the [!UICONTROL Workbook Library] so that you can upload a report builder Excel workbook that you want to share. You can also download and edit shared workbooks. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Library:** Launches the [!UICONTROL Workbook Library] so that you can upload a Report Builder Excel workbook that you want to share. You can also download and edit shared workbooks. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Options:** Lets you specify whether you want to be prompted for the **[!UICONTROL As Of]** (Now) date when refreshing requests, and lets you enable logging for troubleshooting purposes. See [Options](/help/analyze/report-builder/options.md).
 

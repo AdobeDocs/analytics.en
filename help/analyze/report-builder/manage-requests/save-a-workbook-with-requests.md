@@ -1,6 +1,6 @@
 ---
-description: After creating reports with embedded requests, you can save them by clicking File > Save or File > Save As in Excel. Report builder detects whether the report contains requests. When you click on either of these save options, the Save Workbook As form is displayed.
-title: Save a workbook with requests
+description: Learn about saving rports with embedded requests.
+title: About saving a workbook with requests
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
@@ -8,7 +8,7 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 ---
 # Save a workbook with requests
 
-After creating reports with embedded requests, you can save them by clicking File > Save or File > Save As in Excel. Report builder detects whether the report contains requests. When you click on either of these save options, the Save Workbook As form is displayed.
+When you create reports with embedded requests, you can save them using **File** > **Save** or **File** > **Save As** in Excel. Report Builder detects whether the report contains requests. When you select one of the save options, complete the **Save Workbook As** form.
 
 * As a best practice for any extensive work with Windows applications, Adobe recommends that you save your requests in the spreadsheet often and regularly to avoid an unexpected loss of requests in your worksheet.
 * When naming your workbook, consider using a version number in the file name so that you can preserve a work history. For example, name your first workbook [!DNL web_forecast_01_01.xlsx].

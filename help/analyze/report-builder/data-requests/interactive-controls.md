@@ -1,5 +1,5 @@
 ---
-description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
+description: Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating Report Builder requests.
 title: Interactive controls
 feature: Report Builder
 role: User, Admin
@@ -7,9 +7,9 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 ---
 # Interactive controls
 
-Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating report builder requests.
+Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating Report Builder requests.
 
-Interactive controls were created in response to a common workflow where analysts create workbooks and share these workbooks with the marketing organization. Interactive controls give marketers the ability to modify and refresh requests without having to have in-depth knowledge of how report builder works. (Note that in order to refresh a request, the workbook recipient must be a report builder user.) These controls work inside of scheduled workbooks. Two types of interactive controls are currently available:
+Interactive controls were created in response to a common workflow where analysts create workbooks and share these workbooks with the marketing organization. Interactive controls give marketers the ability to modify and refresh requests without having to have in-depth knowledge of how Report Builder works. (Note that in order to refresh a request, the workbook recipient must be a Report Builder user.) These controls work inside of scheduled workbooks. Two types of interactive controls are currently available:
 
 * Rolling Date Range 
 * Segments
@@ -17,7 +17,7 @@ Interactive controls were created in response to a common workflow where analyst
 >[!IMPORTANT]
 >
 >You must have Report Builder v5.0 installed for the interactive controls to work. >
->* If you are running Microsoft Excel on Windows but are running a lower version of report builder, or if you do not have report builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request's associated parameters.
+>* If you are running Microsoft Excel on Windows but are running a lower version of Report Builder, or if you do not have Report Builder installed: You can change the value in the interactive control, but it will not refresh the associated request, nor update the request's associated parameters.
 >* If you are running Excel on Mac, changing the value in the control will cause the following message to be displayed: "The macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event' cannot be found." 
 >
 

@@ -1,5 +1,5 @@
 ---
-description: Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
+description: Describes how Report Builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
 title: Path and path fallout reports in Report Builder
 feature: Report Builder
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
 ---
 # Path and path fallout reports in Report Builder
 
-Describes how report builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
+Describes how Report Builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics.
 
 |Path Report Name in Reports & Analytics (Paths >  dimension >)  | Supported in Report Builder? |
 |--- |--- |

@@ -26,7 +26,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **Schedule:** Lets you schedule reports to send according to the time and file format that you define. See [Schedule Report Requests](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Library:** Launches the [!UICONTROL Workbook Library] so that you can upload a report builder Excel workbook that you want to share. You can also download and edit shared workbooks. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Library:** Launches the [!UICONTROL Workbook Library] so that you can upload a Report Builder Excel workbook that you want to share. You can also download and edit shared workbooks. See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Options:** Lets you specify whether you want to be prompted for the **[!UICONTROL As Of]** (Now) date when refreshing requests, and lets you enable logging for troubleshooting purposes. See [Options](/help/analyze/report-builder/options.md).
 

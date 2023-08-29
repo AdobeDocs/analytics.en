@@ -34,7 +34,7 @@ To upgrade Report Builder
 
    ![Screenshot showing the Report Builder Setup screen.](assets/setup.png)
 
-1. Once the upgrade is complete, log back in to report builder.
+1. Once the upgrade is complete, log back in to Report Builder.
 
 ## Manual upgrade instructions {#section_27A0200010DC4747A718F1A65B180599}
 

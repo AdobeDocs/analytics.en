@@ -17,7 +17,7 @@ Report Builder features a segmentation panel in Step 1 of the Request Wizard tha
 
 >[!NOTE]
 >
->To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your report builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
+>To add or edit segments, the Report Builder segment interface launches the Analytics segment builder in a Microsoft Internet Explorer window. Your Report Builder session will stay active. Browsers other than Internet Explorer are not supported for this operation.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. An Internet Explorer window launches that opens the Analytics Segment Builder interface. For information on how to build segments, refer to [Analytics segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
@@ -41,7 +41,7 @@ You may have specific combinations of report dimensions that you would like to t
 
 1. The Segment Builder UI will be now launched in Internet Explorer. The Segment Builder UI will be initialized with the container and the filter you specified.
 1. After you have added a name and description to the segment, save it.
-1. Go back to report builder and click the Refresh icon to refresh the list of segments.
+1. Go back to Report Builder and click the Refresh icon to refresh the list of segments.
 1. You are now ready to apply this segment.
 
 ## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -70,7 +70,7 @@ Available filters include:
 |---|---|
 |  Tags  |Lets you filter on segments with specific tags. Note that Tag filters use the AND operator. If you check two tags, the right pane shows segments that have been tagged with **both** tags.  |
 |  Owners  |Lets you filter segments by owner. Note that Owners filters use the OR operator. If you check two owners, the right pane shows segments that are owned by **either** owner.  |
-| Other Filters > Only *report suite name* |If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only.  |
+| Other Filters > Only *report suite name* |If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the segment for the selected report suite only.  |
 |  Other Filters > Mine  | Shows all segments that you own.  |
 |  Other Filters > Shared with Me  | Shows all segments that others shared with you.  |
 |  Other Filters > Favorites  | Shows all segments you marked as Favorites.  |

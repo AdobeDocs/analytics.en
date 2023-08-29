@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (August 2023)
 
-**Last update**: August 24, 2023
+**Last update**: August 29, 2023
 
 These release notes cover the release period of August 9 to September 13, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,7 +14,7 @@ These release notes cover the release period of August 9 to September 13, 2023. 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classification sets in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. | N/A | August 30, 2023 |
+| **Classification sets in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. | N/A | September 13, 2023 |
 | **Reporting Activity Manager** | The Reporting Activity Manager provides administrators with detailed visibility into reporting consumption for each report suite, allowing admins to easily diagnose and then fix capacity issues during peak reporting times. [Learn more](/help/admin/admin/reporting-activity.md) | N/A | September 12, 2023 |
 
 {style="table-layout:auto"}

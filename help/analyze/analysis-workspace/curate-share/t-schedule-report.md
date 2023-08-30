@@ -1,5 +1,5 @@
 ---
-description: Send an Analysis Workspace project via email or schedule it for delivery.
+description: Send an Analysis Workspace project using email or schedule it for delivery.
 keywords: Analysis Workspace
 title: Schedule projects
 feature: Curate and Share
@@ -8,7 +8,7 @@ exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
 # Schedule projects
 
-From the Workspace **Share menu**, you can send Analysis Workspace projects via email to selected recipients. Files can be sent in CSV or PDF format. 
+From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, receipient list, or file type using the Scheduled Projects manager.
 
 ## Send file now
 
@@ -40,6 +40,14 @@ To send a file on a recurring schedule to recipients via email:
 ![](assets/send-on-schedule.png)
 
 ## Manage scheduled projects
+
+When you manage scheduled projects, you can edit and delete recurring project schedules:
+
+*  Change the file type (.csv or PDF)
+*  Update the project description
+*  Add or remove recipients
+*  Change the frequency
+
 
 Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 

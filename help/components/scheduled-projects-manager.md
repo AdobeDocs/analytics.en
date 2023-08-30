@@ -7,9 +7,19 @@ feature: Admin Tools
 
 Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
-When managing scheduled projects, you can edit and delete recurring project schedules. Search for a schedule in the search bar or by using the filter options in the left rail. You can filter by [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites], and more.
+When you manage scheduled projects, you can edit and delete recurring project schedules:
 
-![](assets/scheduled-project-manager2.png)
+*  Change the file type (.csv or PDF)
+*  Update the project description
+*  Add or remove recipients
+*  Change the frequency
+
+To modify a scheduled project
+
+1.  Select **Analytics > Components > Scheduled Projects**.
+1.  Search for a schedule in the search bar or by using the filter options in the left rail. You can filter by [!UICONTROL Tags], [!UICONTROL Owners], [!UICONTROL Favorites], and more.
+
+![Screenshot showing the scheduled projects list with the column displaying title, owner, tags, delivered to, and other columns described in the Available columns section.](assets/scheduled-project-manager2.png)
 
 ## Available columns
 

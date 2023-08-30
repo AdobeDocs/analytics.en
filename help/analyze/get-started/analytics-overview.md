@@ -1,5 +1,6 @@
 ---
 description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
+short-description: Learn key features, common use cases, and first steps for analysts, end users, and administrators.
 title: Adobe Analytics overview
 feature: Analytics Basics
 ---

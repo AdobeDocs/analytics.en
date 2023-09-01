@@ -26,7 +26,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `commerce.checkouts.value` | Increments the [Checkouts](../../components/metrics/checkouts.md) metric by the desired amount. |
 | `commerce.order.currencyCode` | Sets the [currencyCode](../vars/config-vars/currencycode.md) configuration variable. |
 | `commerce.order.purchaseID` | Sets the [purchaseID](../vars/page-vars/purchaseid.md) page variable. |
-| `commerce.order.transactionID` | Sets the [transactionID](../vars/page-vars/transactionid.md) page variable. |
+| `commerce.order.payments[0].transactionID` | Sets the [transactionID](../vars/page-vars/transactionid.md) page variable. |
 | `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |
 | `commerce.productListAdds.value` | Increments the [Cart Additions](../../components/metrics/cart-additions.md) metric. |
 | `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |

@@ -8,7 +8,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 **Last update**: September 6, 2023
 
-These release notes cover the release period of August 9 to September 13, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+The September release notes cover the release period of September 13, 2023 to October 3, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
@@ -16,23 +16,19 @@ These release notes cover the release period of August 9 to September 13, 2023. 
 | ----------- | ---------- | ------- | ---- |
 | **Classification sets in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. | N/A | September 13, 2023 |
 | **Reporting Activity Manager** | The Reporting Activity Manager provides administrators with detailed visibility into reporting consumption for each report suite, allowing admins to easily diagnose and then fix capacity issues during peak reporting times. [Learn more](/help/admin/admin/reporting-activity.md) | N/A | September 13, 2023 |
+| **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html) |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue with custom events not getting loaded. (AN-324163)
-* Fixed an issue with being unable to edit labels for the legends in a visualization. (AN-323246)
-
-AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-323380; AN-323492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-323641; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-324113; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-324433; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN-324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-324721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-324905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-325363; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-325594; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-325886
 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **37-month expiration of Purchase IDs and Event IDs (event serialization)**  | July 10,2023 | The latest release of the Analytics Hit processing engine, released on **July 13, 2023**, started enforcing a 37-month expiration of Purchase IDs and Event IDs (event serialization). Previously, Purchase IDs and Event IDs never expired in Adobe Analytics. Once a Purchase ID or Event ID was seen/used, then any future hit, no matter when, had that purchase or event marked as a duplicate. With the new processing engine release:<ul><li>Purchase IDs and Event IDs always expire after 37 months.</li><li>If it has been 37 months since the Purchase ID or Event ID was seen, it is no longer considered a duplicate purchase or event.</li><li> If you are "reusing" Purchase IDs or Event IDs from more than 37 months ago, they are no longer considered duplicates.</li></ul> |
-| **Migration to Adobe I/O OAuth Server-to-Server credentials** | May 11, 2023 | Adobe Analytics API and Livestream customers using Adobe I/O JWT credentials must migrate to Adobe I/O OAuth Server-to-Server credentials by **January 1, 2025**. For more details and timelines, see the end-of-life notice in the table below.|
+| N/A | N/A | N/A |
 
 {style="table-layout:auto"}
 

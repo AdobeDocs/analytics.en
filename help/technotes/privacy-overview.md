@@ -12,7 +12,7 @@ Adobe wants to enable your organization so that you can comply with applicable p
 Adobe strongly recommends adhering to the following overarching concepts:
 
 * **If you collect personal data, make sure that you comply with privacy laws and regulations.** Custom variables allow you to collect virtually anything that you can access; however, you must also consider your organization's privacy policy and applicable laws.
-* **Provide easy-to-find and easy-to-understand privacy information for your organization.** Helpful information includes opt-out links, how their browsing data is used, and how you use or plan to use Adobe's services.
+* **Provide easy-to-find and easy-to-understand privacy information for your organization to your customers.** Helpful information includes opt-out links, how their browsing data is used, and how you use or plan to use Adobe's services.
 * **Be aware of both local laws and international laws that apply to you.** If your organization operates at a global scale, some international laws can apply.
 
 ## Data collection breakdown

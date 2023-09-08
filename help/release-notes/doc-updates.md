@@ -19,6 +19,9 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **September 2023** | |
+| Get started content enhancements | Added information outlining key getting-started tasks and resources for administrators, analysts, end users, and developers. The following new articles are now available: <ul><li>[Get started (by role)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md)<li>[Use cases](/help/analyze/get-started/use-cases.md)</li></ul> |
+| Improvements to Media Analytics Reporting documentation | Reorganized some of the content in the Reporting section of the Streaming Media guide, including consolidating the API documentation in its own section and adjusting the order of some articles. <p>Renamed the Media Workspace Templates article to [Media reports in Workspace](/https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) to better align with the in-product naming. </p> |
 | **August 2023** | |
 | Data feed clarification | Updated [the definition of Start & End dates](/help/export/analytics-data-feed/create-feed.md) to clarify that when processing data feeds for historical data, you can set the start date to any date in the past when data is being collected. |
 | Experience Edge data handling | Added content how Adobe Analytics [handles data from Experience Edge](../implement/aep-edge/overview.md). |

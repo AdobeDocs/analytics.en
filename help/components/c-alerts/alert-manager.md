@@ -4,13 +4,13 @@ title: Alert Manager overview
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 ---
-# Alert Manager
+# Alerts manager
 
-The Alert Manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
+The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
 
  ![](assets/alert-manager.png)
 
-## Access the Alert manager
+## Access the Alerts manager
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Alerts**].
 

@@ -19,7 +19,7 @@ To configure report options for a Data Warehouse request:
 
 1. On the New Data Warehouse request page, select the [!UICONTROL **Report options**] tab.
 
-   ![Report destination tab](assets/dw-report-options.png) <!-- update screenshot -->
+   ![Report destination tab](assets/dw-report-options.png) <!-- update screenshot to include Sort by metrics -->
 
 1. Complete the following fields:
 
@@ -32,6 +32,7 @@ To configure report options for a Data Warehouse request:
    | Send report as compressed file (ZIP) | Delivers reports in a compressed (ZIP) file format. We recommend enabling this option when using email as the [report destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 
    | Number of rows in the table | The number of rows that can be included in the report. Use 0 to include all rows (this is the default selection). <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> | 
    | Comments | Add any comments that you want to be included with the report. Comments appear at the beginning of the report. | 
+   | Sort by metrics | Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value. Sorting by metric makes Data Warehouse reports easier for you to interpret, and makes these reports easier to compare with other Analytics breakdown reporting views.<p>For more information, see [Sort by metric](/help/export/data-warehouse/sorting-by-metric.md).</p> | 
    | Send manifest file | Includes metadata about the files included in the report.<!-- What kind of metadata is included in the manifest file? --> | 
    | Send digital signature file | Allows report recipients to verify that the file came from Adobe and that it has not been altered. | 
    | Send an empty file when there is not data in the report | Sends a report even when the report contains no data. | 

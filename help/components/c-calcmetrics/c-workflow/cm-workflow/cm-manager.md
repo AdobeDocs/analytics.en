@@ -10,6 +10,8 @@ The Calculated metrics page offers many ways of curating metrics, such as sharin
 
 The Calculated metrics page shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. 
 
+![Calculated metric manager](assets/calc-metric-manager.png)
+
 ## Access the Calculated metrics manager
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
@@ -53,9 +55,9 @@ To configure the visible columns in the Calculated metrics manager:
    | Report suite | Indicates in which report suite the metric was last saved.  |
    | Owner | Indicates who owns the custom metric. As a non-admin, you can see only metrics you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the metric, either by you or by people who shared the calculated metric with you.  |
-   | Shared with | Lists individuals or groups (admin only) or All (admin only) that you shared the calculated metric with.  |
+   | Shared with | Lists individuals or groups (admin only) or All (admin only) that you shared the calculated metric with. <p>When a calculated metric is being shared, a share icon displays next to the calculated metric name.</p>  |
    | Date modified | Indicates the date when the custom metric was last modified.  |
-   | Used in | Shows where the calculated metric is currently being used. For example, if the components is being used in 40 projects and 2 alerts, this column shows [!UICONTROL **Alerts (2), Projects (40)**]. <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
-   | Last used | Shows the date when the component was last used. <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   | Used in | Shows in which of the following component types the calculated metric is currently being used: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li></ul> For example, if the components is being used in 40 projects and 2 alerts, this column shows [!UICONTROL **Alerts (2), Projects (40)**]. <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   | Last used | Shows the date when the calculated metric was last used in any of the following component types: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li></ul> <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
 
    {style="table-layout:auto"}

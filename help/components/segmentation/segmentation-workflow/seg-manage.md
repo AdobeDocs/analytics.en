@@ -8,32 +8,66 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 
 The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. Access the Segment Manager by
+The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
 
-* Going to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]** in the top navigation.
-* Displaying an existing report and clicking the Segments icon  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. Then click **[!UICONTROL Manage]**.
+## Access the Segment Manager
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
+
+   Or 
+
+   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+
+## Available actions in the Segment Manager
+
+In the Segment Manager, you can:
+
+* [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Export a segment to a CSV file.
+
+* [Copy segments](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Delete segments](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Configure columns
+
+You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Segment Manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
+
+1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+
+   The following columns are available:
+
+   | Column title | Description  |
+   |---|---|
+   | Title and description | These values are provided in the Segment builder. To edit the title and description, select the title link to open the Segment builder.  |
+   | Favorites  | Displays star icons next to each segment, allowing you to mark segments as favorites. For more information, see [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Report suites  | This column indicates in which report suite the segment was last saved.  |
+   | Owner  | Indicates who owns the segment. As a non-Admin, you can see only segments you own or those that were shared with you.  |
+   | Tags (not checked in column selector, hence column not appearing)  | Tags that were applied to the segment, either by you or by people who shared the segment with you.  |
+   | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with.  |
+   | Date modified  | Shows the date that the segment was last modified.  |
+   | Used in | Shows where the segment is currently being used. For example, if the components is being used in 40 projects and 2 alerts, this column shows [!UICONTROL **Alerts (2), Projects (40)**]. <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   | Last used | Shows the date when the component was last used. <p>This information can help you determine whether a component is valuable to users in your organization, or whether it should be deleted.</p><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   | Shared icon  | Indicates that this segment is shared by you or with you.  |
+   | Approved icon  | Indicates that this segment has been approved by an Administrator.  |
+   
+   {style="table-layout:auto"}
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
-## Segment Manager User Interface {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](assets/segment_manager_ui.png)
-
-|  #  | UI Feature  | Description  |
-|---|---|---|
-|  1  | Segment Management Tool Bar  | Once you have checked a segment, this tool bar appears. Most management tasks can be completed from this tool bar.  |
-|  2  | Show Filters  | Clicking the filter icon brings up the filter menu. You can filter by Tags, Owners, Show All (Admin only), Mine, Favorites, Approved, and Shared with Me.  |
-|  3  | Check boxes  | Check a segment in order to manage it.  |
-|  4  | Favorites  | Clicking the star next to a segment turns the star yellow and marks the segment as a favorite.  |
-|  5  | Segment titles and descriptions  | Provided in the Segment Builder. To edit the title and description, click the title link - this takes you back to the Segment Builder.  |
-|  6  | Report Suites  | This column indicates in which report suite the segment was last saved.  |
-|  7  | Owner  | Indicates who owns the segment. As a non-Admin, you can see only segments you own or those that were shared with you.  |
-|  8  | Tags (not checked in column selector, hence column not appearing)  | Tags that were applied to the segment, either by you or by people who shared the segment with you.  |
-|  9  | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with.  |
-|  10  | Date Modified  | Shows the date that the segment was last modified.  |
-|  11  | Column selector  | Lets you select or deselect columns in the Segment Manager.  |
-|  12  | Shared icon  | Indicates that this segment is shared by you or with you.  |
-|  13  | Approved icon  | Indicates that this segment has been approved by an Administrator.  |
-|  14  | Filters  | Lets you see and select the filters under Tags, Report Suites, Owners, and Other (Show All, Mine, Shard with Me, Approved, Favorites.)  |

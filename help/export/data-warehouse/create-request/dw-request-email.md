@@ -19,7 +19,7 @@ To configure configure a notification email for a Data Warehouse request:
 
 1. On the New Data Warehouse request page, select the [!UICONTROL **Notification email**] tab.
 
-   ![Report destination tab](assets/dw-notification-email.png) <!--update screenshot -->
+   ![Report destination tab](assets/dw-notification-email.png)
 
 1. Complete the following fields:
 

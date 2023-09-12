@@ -19,7 +19,7 @@ To build a report for a Data Warehouse request:
 
 1. On the New Data Warehouse request page, select the [!UICONTROL **Build your report**] tab.
 
-   <!-- add screenshot -->
+   ![Build report tab](assets/build-report.png)
 
 1. Drag any segments, metrics, and dimensions into the builder. The report you build determines what data is included in the Data Warehouse request. 
 

@@ -1,6 +1,6 @@
 ---
-description: Anomaly detection uses statistical modeling to automatically find unexpected trends in your data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. When an unexpected spike or drop occurs, the system alerts you in the report.
-title: Anomaly Detection
+description: Learn about Anomaly Detection and how it's calculated.
+title: How Anomaly Detection is used to automatically find trends
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
@@ -54,7 +54,7 @@ Report builder applies these values to selected metrics. For example, if you sel
 
 **How Anomaly Detection Is Calculated**
 
-Anomaly detection uses a training period to calculate, learn, and report prediction interval data per day. The training period is the historical period that identifies what is normal vs. anomalous, and applies what is learned to the reporting period. In marketing reports, training periods of 30, 60, and 90 are available. In report builder, 30 days are available.
+Anomaly detection uses a training period to calculate, learn, and report prediction interval data per day. The training period is the historical period that identifies what is normal vs. anomalous, and applies what is learned to the reporting period. In marketing reports, training periods of 30, 60, and 90 are available. In Report Builder, 30 days are available.
 
 The training period is not necessarily the same as the selected reporting period. A report graph displays the date range period you specify in the calendar.
 

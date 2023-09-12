@@ -7,63 +7,44 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 ---
 # Privacy overview
 
-Adobe recommends that you provide your website visitors with easy-to-find and easy-to-understand information regarding the ability to opt out of having their browsing information collected by Adobe products or services.
+Adobe wants to enable your organization so that you can comply with applicable privacy laws and regulations. See [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) for more information. Regarding Adobe Analytics, Adobe acts as a "data processor" and you are the "data controller" (or equivalent under applicable privacy and data protection laws). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's solutions. Your organization is responsible for complying with your own privacy policy, your service agreement with Adobe, and all applicable laws.
 
-Visitors can learn more about how Adobe generally uses information it collects in the [Adobe Privacy Center](https://www.adobe.com/privacy.html). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's services. You are responsible for the creation of your own privacy policy, for complying with your privacy policy, for complying with your service agreement with Adobe, and for complying with all applicable laws.
+Adobe strongly recommends adhering to the following overarching concepts:
 
-## Data Collection Breakdown {#section_F59D958D7AE44747846993E643CD4BF2}
+* **If you collect personal data, make sure that you comply with privacy laws and regulations.** Custom variables allow you to collect virtually anything that you can access; however, you must also consider your organization's privacy policy and applicable laws.
+* **Provide easy-to-find and easy-to-understand privacy information for your organization to your customers.** Helpful information includes opt-out links, how their browsing data is used, and how you use or plan to use Adobe's services.
+* **Be aware of both local laws and international laws that apply to you.** If your organization operates at a global scale, some international laws can apply.
 
-Adobe Analytics collects the following data: 
+## Data collection breakdown
 
-|  Type of Data  | Does Adobe Analytics collect this data?  |
-|---|---|
-|  URLs of Web Pages within Customer Site  | Yes  |
-|  Name of Web Page  | Yes  |
-|  Time spent on Page  | Yes  |
-|  Time of Day  | Yes  |
-|  URLs of Web Pages on Unaffiliated Sites  | **No** |
-|  Cookie IDs (randomly generated)  | Yes  |
-|  URL of page that user was on before visiting customer page  | Yes  |
-|  Search query when consumer clicks on link to customer page  | Yes  |
-|  Browser Type  | Yes  |
-|  Device Type  | Yes  |
-|  Operating System  | Yes  |
-|  ISP/Connection Speed  | Yes  |
-|  Display Settings (such as screen size and resolution)  | Yes  |
-|  IP Address (used to approximate location)  | Yes&#42;  |
-|  Information consumers provide in forms on customer site  | Yes  |
-|  Information consumers provide in forms on social sites  | **No** |
-|  Whether consumer clicked on ad  | Yes  |
-|  Whether consumer clicked on link, image or text on site  | Yes  |
-|  Whether consumer downloaded a file, image, etc.  | Yes  |
-|  Items consumer purchased  | Yes  |
-|  Items left in shopping cart  | Yes  |
-|  Social Network Information (including photos, user ID, age, gender, location)  | **No** |
-|  Ad campaign success rates  | Yes  |
-|  Product info, such as colors, prices, styles, photos  | Yes  |
+Adobe offers multiple data collection libraries to assist in sending data to Adobe. Notable examples include:
 
-&#42;Unless the Adobe customer chooses to remove the IP.
+* **AppMeasurement**: A library designed to send data directly to Adobe Analytics.
+* **Web SDK**: A library designed to send data to the Adobe Experience Platform Edge network, which then forwards that data to Adobe Analytics.
+* **Tags**: A web-based UI that allows you to configure your implementation without requiring access to a website or app's source code beyond the initial tag implementation. Extensions are available for both AppMeasurement and the Web SDK.
 
-## Other Privacy Considerations {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+Adobe Analytics can collect the following types of data:
 
-| Region/Country | Consideration|
-|--- |--- |
-| Global | Adobe strongly suggests customers refrain from passing personally identifiable information (PII) to Adobe, especially in situations where the PII is not necessary for Analytics.|
-| Global | Users need to be provided with notice and choice when profiling. This is required by law in Canada, Australia, the European Union (opt-in for some countries) and many countries in Latin America and Asia-Pacific.|
-| Global | If using first-party cookies, Analytics opt-out is unique to a customer; you cannot rely on an opt-out on Adobe.com.|
-| Global | First-party analytics are not within scope of the Self-Regulatory Program for Online Behavioral Advertising ("AdChoices").|
-| Global | Cross-device data should not be merged unless tied to an identifier provided by the customer (such as hashed user name).|
-| Global | There are likely restrictions placed upon the customer from combining ad impression information to PII.|
-| Europe | Most countries in the European Union do not consider analytics cookies strictly necessary.|
-| Europe | Adobe has enabled the setting IP-Obfuscation: Enabled - IP Removed (x.x.x.x) by default for all customers with a report suite set in EMEA. With this setting, the IP address will be completely replaced with the value (x.x.x.x) after geolookup and is no longer available as a data point. This basic replacement method cannot be reverse-engineered back to a unique, specific IP Address. Neither the customer nor Adobe can access the IP address; it is irreversibly anonymized. For more information about other IP obfuscation settings, see [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide.|
-| Global | A customer can set the cookie lifetime variable in the JavaScript measurement code to a value of „none," „session" or another specified value measured in seconds.|
-| Europe | Adobe has developed a new "privacy by design" setting that can now be enabled by Adobe ClientCare for Adobe Analytics (formerly SiteCatalyst) release versions 14.9 and 15.4. When this new setting is enabled, the last octet (the last portion) of the IP address is immediately replaced with the value 0 once the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including prior to both an optional geo-lookup and ISP-lookup of the IP address.|
-| Germany | If you do not already have a Data Processing Agreement for Adobe Analytics in place with Adobe, you should contact your Adobe Account Manager or Customer Success Manager, who will work with the Adobe Legal Department to get the DPA in place.|
+| Type of data | Details | Example variables containing this data |
+| --- | --- | --- |
+| Page names or URLs of web pages on your site | Always collected for Adobe Analytics to function. A URL or page name is required for every hit. | [Page](../components/dimensions/page.md), [Page URL](../components/dimensions/page-url.md) |
+| Time-based data | Always collected for Adobe Analytics to function. A timestamp is required for data collection, and time-based data is derived from the timestamp. | [Time spent on page](../components/dimensions/time-spent-on-page.md), [Hour of day](../components/dimensions/hour-of-day.md), [AM/PM](../components/dimensions/am-pm.md), [Weekday/Weekend](../components/dimensions/weekday-weekend.md), [Day of week](../components/dimensions/day-of-week.md), [Month of year](../components/dimensions/month-of-year.md) |
+| Data from web pages on other sites | Adobe cannot collect data on unaffiliated sites where you cannot alter the website or app's source code. Data collection libraries collect the referring URL by default when a visitor arrives to your website. You can customize your implementation to collect data within query strings after website or app visitors arrive.  | [Referrer](../components/dimensions/referrer.md), [Referring domain](../components/dimensions/referring-domain.md) |
+| Anonymized visitor ID's | Data collection libraries generate and reference a visitor ID for each browser visiting your site. This ID is stored in a cookie. If a data collection library cannot set cookies for any reason, the library uses a fallback method of visitor identification using IP address and user agent string. See [Adobe Analytics and browser cookies](cookies/cookies.md) for more information. | [Unique visitors](../components/metrics/unique-visitors.md) |
+| Identifiable visitor ID's | Adobe does not automatically collect custom visitor ID's. However, you can customize your implementation to collect this data. | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| External search terms | External search data includes keywords that originate from search engines. Data collection libraries look for this data based on the referring URL. However, many modern search engines no longer include this information. | [Search keyword](../components/dimensions/search-keyword.md) |
+| Internal search terms | Internal search data includes keywords that originate from within your website or app's search capabilities. Adobe does not automatically collect internal search data. However, you can customize your implementation to collect this data. This practice is common for organizations who use Adobe Analytics. | [eVar](../components/dimensions/evar.md) |
+| Computer and browser specifications | AppMeasurement automatically collects low entropy browser hints, such as the browser type, operating system type, and if the device is desktop or mobile. Custom configuration is required to collect high entropy hints, such as the browser's specific version/build, the device model, or the operating system version. See [Client hints overview](client-hints.md) for more information. | [Browser](../components/dimensions/browser.md), [Operating system](../components/dimensions/operating-systems.md), [Mobile dimensions](../components/dimensions/mobile-dimensions.md), [Monitor resolution](../components/dimensions/monitor-resolution.md) |
+| Geolocation information | Adobe offers the ability to enable or disable the collection of geolocation data for each website or app (at a report suite level). Geolocation data collection is enabled by default. Data collection libraries include geolocation if it is enabled. | [Cities](../components/dimensions/cities.md), [Regions](../components/dimensions/regions.md), [Countries](../components/dimensions/countries.md) |
+| IP address | Adobe offers the ability to obfuscate the last octet or fully obfuscate the visitor's IP address when storing this data. EMEA customers typically have the IP address setting fully obfuscated by default. Regardless of obfuscation setting, IP address is not available as a dimension in Adobe Analytics; it is only included in [Data feeds](../export/analytics-data-feed/data-feed-overview.md). | None |
+| Form information provided on your site | All implementation types require configuration to collect this data. You can include this data in custom variables. | [eVar](../components/dimensions/evar.md) |
+| Clicked ads or links on your site | Collected by default if using a data collection library. Additional information, such as the location of clicks, is available when you enable Activity Map. | [Activity Map](../analyze/activity-map/activity-map.md), [Exit link](../components/dimensions/exit-link.md), [Download link](../components/dimensions/download-link.md) |
+| Products purchased on your site | All implementation types require configuration to collect this data. Adobe offers several default variables to collect this information. | [Product](../components/dimensions/product.md), [Orders](../components/metrics/orders.md), [Revenue](../components/metrics/revenue.md) |
 
-## EMEA Data Center Location {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+{style="table-layout:auto"}
 
-The following EMEA data center currently hosts Adobe Analytics data: 
+See the navigation menu under [Dimensions overview](../components/dimensions/overview.md) and [Metrics overview](../components/metrics/overview.md) for more variables that Adobe can potentially collect data under.
 
-|Adobe Name|Address|Facility Type (Operator)|Solution Components Supported|Certifications|
-|--- |--- |--- |--- |--- |
-|LON5|3 Centro  Boundary Way  Hemel Hempstead HP2 7SU  UK|Colocation Facility  (Gyron)|Multichannel Analytics,  Digital Analytics|SSAE 16|
+## Data processing locations
+
+Adobe maintains three data processing locations for Adobe Analytics. These sites receive raw data and process it into a report suite, which is optimized for data storage and reporting retrieval. These data processing locations reside in **Oregon**, **London**, and **Singapore**. See [Adobe Analytics security overview](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf) for more information.

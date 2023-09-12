@@ -10,13 +10,13 @@ exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 
 You can filter on dimensions that you add to the Row Labels grid. Filters narrow the data returned by requests and can be applied from the Pivot or Custom Layouts. When you configure dimension filtering from the Pivot Layout, you can additionally specify the number of entries from cell.
 
-The selected filter form is populated based on the element & metric that is selected in the report builder request.
+The selected filter form is populated based on the element & metric that is selected in the Report Builder request.
 
 ## Define filter - values and special characters {#section_15840216A4044C40974945FAA435AD93}
 
 Information about filters in the **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** panel.
 
-![](/help/admin/admin/assets/filter.png)
+![Screenshot showing the Define Filter dialogue with options to Filter by Application, User, and Project.](/help/admin/admin/assets/filter.png)
 
 The following tables provide examples and information about filters: 
 

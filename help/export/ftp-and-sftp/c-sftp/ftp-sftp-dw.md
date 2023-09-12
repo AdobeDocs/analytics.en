@@ -7,11 +7,6 @@ exl-id: 45694647-69ec-45e3-b614-4a936909a338
 ---
 # Send Data Warehouse requests to SFTP servers
 
->[!NOTE]
->
->The following information is related to FTP and SFTP destination types. FTP and SFTP are legacy destination types. When configuring Data Warehouse, you should use a more secure cloud destination type. For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
-
-
 Adobe supports the export of Data Warehouse requests to SFTP servers.
 
 Ensure that the following tasks are completed:

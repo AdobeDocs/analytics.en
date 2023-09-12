@@ -19,13 +19,13 @@ In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
 ## Filter Calculated Metrics {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** calculated metrics by clicking on the Filter icon:  ![](/help/admin/admin/assets/filter.png)
+**Filter** calculated metrics by clicking on the Filter icon:  ![Screenshot of the Filter options showing the Application, User, Project fields.](/help/admin/admin/assets/filter.png)
 
-. The Advanced Filters dialog is populated with both standard and calculated metrics.
+The Advanced Filters dialog is populated with both standard and calculated metrics.
 
 Available filters include:
 
-![](assets/advanced_filters.png)
+![Screenshot showing the Advanced Filters options described in the following table.](assets/advanced_filters.png)
 
 |  Filter Name  | Description  |
 |---|---|
@@ -41,4 +41,4 @@ Available filters include:
 
 After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. The selected metric(s) are now added to the report layout.
 
-![](assets/filtering_for_metric.png)
+![Screenshot showing the Request Wizard Step 2 - Site Totals pointing to the Advanced Filters window and applied report metrics.](assets/filtering_for_metric.png)

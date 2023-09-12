@@ -1,6 +1,6 @@
 ---
-description: Field descriptions for the Scheduled Task Manager.
-title: Scheduled Task Manager
+description: Learn about the field descriptions for the Scheduled Task Manager.
+title: About the Scheduled Task Manager
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9

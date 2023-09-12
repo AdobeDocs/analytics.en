@@ -1,5 +1,5 @@
 ---
-description: Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
+description: Learn how you can optimize Report Builder delivery, and a list of error messages that might occur.
 title: Troubleshooting and best practices for Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
@@ -8,7 +8,7 @@ exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 ---
 # Troubleshooting and best practices for Report Builder
 
-Ways you can optimize report builder delivery, and a list of error messages that could occur occasionally.
+This article describes troubleshooting and best practices you can use to optimize Report Builder. It also includes a list of error messages that might be displayed.
 
 ## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
 
@@ -26,7 +26,7 @@ You will experience the following side effect when opening a ARB v5.1 workbook w
 
 ## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to report builder depending on your settings within [!DNL Analytics] or your network.
+Report Builder requires authentication to create data requests from your report suites. Sometimes there are issues logging in to Report Builder depending on your settings within [!DNL Analytics] or your network.
 
 * **Invalid Login Company**: This error most commonly occurs when either the login company is improperly entered, or if there are network activity issues. Do the following:
   * Check the login company spelling to ensure that there is not a typo or an errant space.
@@ -40,7 +40,7 @@ The following factors can increase request complexity and result in slower proce
 * **Factors that can slow down deliveries**: Too many bookmarks, dashboards, and Report Builder workbooks were scheduled within a few hours. Also consider too many Report Builder workbooks were scheduled at around the same time. When this occurs, the report API queue becomes backlogged.
 * **Factors that can slow down workbook runtime**: Significant increase in classifications, or increasing the request date range over time.
 * **Causes that result in workbook delivery failure**: Complex Excel formulas in a workbook, particularly ones that involve date and time.
-* **Cells returning 0s (no values)**: An apostrophe or single quote in the Excel sheet name will cause report builder to return no values. (This is a Microsoft Excel limitation.)
+* **Cells returning 0s (no values)**: An apostrophe or single quote in the Excel sheet name will cause Report Builder to return no values. (This is a Microsoft Excel limitation.)
 * **Individual request performance**: Processing speed can be affected by the following settings: 
 
   | Setting | Faster Performance | Slower Performance |
@@ -60,15 +60,15 @@ The following factors can increase request complexity and result in slower proce
 
 * **Timeouts**: Any scheduled report times out after four hours. The system attempts scheduling three more times, potentially resulting in a failure. (Generally, the larger the data set the longer it takes to run.) These can be seen in [!DNL Analytics] reporting and Report Builder:
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Sample error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-A list of error messages that could occur occasionally while you are using Report Builder.
+This section includes a sample list of error messages that might occur when you use Report Builder.
 
 >[!NOTE]
 >
->This is only a selection of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
+>This is a sample of error messages, and not an exhaustive list. For more information about resolving errors, contact your administrator.
 
-* **This feature can only be applied on an open workbook.**: If no workbooks (spreadsheet documents) are open in Excel, and you click one of the icons in the report builder toolbar, this message is displayed. In addition, the toolbar becomes disabled until you open a spreadsheet. However, you can click the on-line help icon while the toolbar is still enabled without causing this error.
+* **This feature can only be applied on an open workbook.**: If no workbooks (spreadsheet documents) are open in Excel, and you click one of the icons in the Report Builder toolbar, this message is displayed. In addition, the toolbar becomes disabled until you open a spreadsheet. However, you can click the on-line help icon while the toolbar is still enabled without causing this error.
 * **You first need to exit the [!UICONTROL Request Wizard]before activating the [!UICONTROL Request Manager].**: While the [!UICONTROL Request Manager] and the [!UICONTROL Request Wizard] are linked functionally, it is not possible to start working with the [!UICONTROL Request Manager] before completing or cancelling actions taken in the [!UICONTROL Request Wizard].
 * **There is no request associated with this range.**: This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests. To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. If a request is associated with cells, the cells will show up highlighted when the request is selected in the table.
 * **The selected Range is not valid. Please select another Range.**: If a cell of the spreadsheet is selected and already has a request mapped to it, this error occurs. Either delete the request mapped to the cells or choose another range of cells to map. When you want to delete cells, it is important to locate cells containing requests and delete the request before deleting the cells (removing rows or columns).

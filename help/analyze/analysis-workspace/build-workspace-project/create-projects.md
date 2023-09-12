@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
 ---
-# Create projects
+# Create projects in Analysis Workspace
 
 [Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace allow you to view business-critical analyses that can be shared with stakeholders inside or outside your organization. 
 

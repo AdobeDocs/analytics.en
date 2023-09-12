@@ -1,6 +1,6 @@
 ---
-description: You can schedule reports to send according to the time and file format that you define.
-title: Schedule a data request
+description: Learn how to schedule reports.
+title: How to schedule a data request
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
@@ -34,10 +34,9 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. On the **[!UICONTROL Scheduled Reports]** tab, click **[!UICONTROL New]**.
-1. The Basic Scheduling Wizard displays:
+1. On the **[!UICONTROL Scheduled Reports]** tab, click **[!UICONTROL New]**. The Basic Scheduling Wizard shows the options used to define the scheduled report.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Screenshot showing the Basic Scheduling Wizard.](assets/simple-schedule-wizard.png)
 
 1. In the [!UICONTROL Basic Scheduling Wizard], configure the following options:
 

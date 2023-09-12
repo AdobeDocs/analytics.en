@@ -20,7 +20,7 @@ Preset dates let you select commonly used dates or dates you have saved. On the 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Commonly Used Dates </p> </td> 
-   <td colname="col2"> <p>Displays the most frequently used date ranges. This setting is enabled by default when you create a new request. If there is at least one request in the workbook, report builder uses the date of the existing request as the default setting. </p> </td> 
+   <td colname="col2"> <p>Displays the most frequently used date ranges. This setting is enabled by default when you create a new request. If there is at least one request in the workbook, Report Builder uses the date of the existing request as the default setting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Saved Date Templates </p> </td> 

@@ -1,6 +1,6 @@
 ---
-description: You can name your report and configure how to display row and column headers. The Format Options link is available for the Pivot and Custom Layout types.
-title: Format display headers
+description: Learn how to name your report and configure how to display row and column headers.
+title: How to format display headers
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
@@ -27,15 +27,15 @@ You can name your report and configure how to display row and column headers. Th
 
    **Display Row and Column Headers:** Adds a row and column to display these items.
 
-   In version 3.11, you could display a header for each item. Version 4 displays all of these items or none of them. If you created a request in version 3.11 and open it in version 4.x, report builder prompts you in Step 2 to update the range by one cell for items that are missing a header.
+   In version 3.11, you could display a header for each item. Version 4 displays all of these items or none of them. If you created a request in version 3.11 and open it in version 4.x, Report Builder prompts you in Step 2 to update the range by one cell for items that are missing a header.
 
-   **Change Headers to Excel Auto-Filters:** Available only if row and column headers are displayed. This setting creates an Excel auto filter and appends it to the data report builder returns for this request.
+   **Change Headers to Excel Auto-Filters:** Available only if row and column headers are displayed. This setting creates an Excel auto filter and appends it to the data Report Builder returns for this request.
 
    >[!NOTE]
    >
    >Excel supports only one auto-filter per worksheet. If you create a new auto filter in a worksheet where an auto filter already exists, Excel does not provide a warning that the existing auto-filter is going to be replaced.
 
-   **Perform Auto-Outline:** Transforms the date returned by report builder from a list view to a tree view.
+   **Perform Auto-Outline:** Transforms the date returned by Report Builder from a list view to a tree view.
 
    **Name this Request:** Lets you type a user-defined name for the request, or use the default name selected on Step 1. This name appears as the [!UICONTROL Report] name in the [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 

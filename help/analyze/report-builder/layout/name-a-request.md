@@ -1,6 +1,6 @@
 ---
-description: You can specify a custom name for your request, which displays in the Request Manager.
-title: Name a request
+description: Learn how to specify a custom name for your request.
+title: How to customize the request name
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
 feature: Report Builder
 role: User, Admin

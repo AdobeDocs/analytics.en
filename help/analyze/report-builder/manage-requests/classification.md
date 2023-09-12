@@ -1,6 +1,6 @@
 ---
-description: Classification breakdowns are used to map analytics reporting data to related properties. Classifications can be used for a variety of purposes but are most commonly used for classifying campaign tracking codes (both internal and external) and product IDs.
-title: Classification
+description: Learn how classifications are used.
+title: About classifications of data
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
@@ -8,7 +8,7 @@ exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
 ---
 # Classifications
 
-Classification breakdowns are used to map analytics reporting data to related properties. Classifications can be used for a variety of purposes but are most commonly used for classifying campaign tracking codes (both internal and external) and product IDs.
+Classification breakdowns are used to map analytics reporting data to related properties. Classifications can be used for a variety of purposes but are most commonly used for classifying campaign tracking codes, both internal and external, and product IDs.
 
  For example, a [!UICONTROL Campaign] report might have a [!UICONTROL Manager] classification and an [!UICONTROL Outlet] classification. These classifications can then be ordered following a certain hierarchy, and each group of report values can be broken down into subgroups.
 

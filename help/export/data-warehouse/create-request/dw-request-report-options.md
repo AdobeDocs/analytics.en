@@ -31,17 +31,17 @@ To configure report options for a Data Warehouse request:
 
    |Option | Function | 
    |---------|----------|
-   | File name | Identifies the report. | 
-   | Append report date range to file name | Adds the date range to the report file name. <p>For example, if you request data from May 1, 2024 through May 7, 2024, the filename includes the date range of 20240501 - 20240507.</p> |
-   | CSV | Delivers reports in a CSV file format for viewing data in a spreadsheet. | 
-   | Tableau (TDE) | Delivers reports in a Tableau Data Extract (TDE) file format, which can be used to visualize data and layer in additional data within Tableau. |
-   | Send report as compressed file (ZIP) | Delivers reports in a compressed (ZIP) file format. We recommend enabling this option when using email as the [report destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 
-   | Number of rows in the table | The number of rows that can be included in the report. Use 0 to include all rows (this is the default selection). <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> | 
-   | Comments | Add any comments that you want to be included with the report. Comments appear at the beginning of the report. | 
-   | Sort by metrics | Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value. Sorting by metric makes Data Warehouse reports easier for you to interpret, and makes these reports easier to compare with other Analytics breakdown reporting views.<p>For more information, see [Sort by metric](/help/export/data-warehouse/sorting-by-metric.md).</p> | 
-   | Send manifest file | Includes metadata about the files included in the report.<!-- What kind of metadata is included in the manifest file? --> | 
-   | Send digital signature file | Allows report recipients to verify that the file came from Adobe and that it has not been altered. | 
-   | Send an empty file when there is not data in the report | Sends a report even when the report contains no data. | 
+   | [!UICONTROL **File name**] | Identifies the report. | 
+   | [!UICONTROL **Append report date range to file name**] | Adds the date range to the report file name. <p>For example, if you request data from May 1, 2024 through May 7, 2024, the filename includes the date range of 20240501 - 20240507.</p> |
+   | [!UICONTROL **CSV**] | Delivers reports in a CSV file format for viewing data in a spreadsheet. | 
+   | [!UICONTROL **Tableau (TDE)**] | Delivers reports in a Tableau Data Extract (TDE) file format, which can be used to visualize data and layer in additional data within Tableau. |
+   | [!UICONTROL **Send report as compressed file (ZIP)**] | Delivers reports in a compressed (ZIP) file format. We recommend enabling this option when using email as the [report destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 
+   | [!UICONTROL **Return all rows**] | When enabled, all rows are included in the report. Disable this option to specify the number of rows to include. | 
+   | [!UICONTROL **Beginning of report comments**] | Add any comments that you want to be included with the report. Comments appear at the beginning of the report. | 
+   | [!UICONTROL **Sort by metrics**] | Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value. Sorting by metric makes Data Warehouse reports easier for you to interpret, and makes these reports easier to compare with other Analytics breakdown reporting views.<p>For more information, see [Sort by metric](/help/export/data-warehouse/sorting-by-metric.md).</p> | 
+   | [!UICONTROL **Send a manifest file**] | Includes metadata about the files included in the report.<!-- What kind of metadata is included in the manifest file? --> | 
+   | [!UICONTROL **Send a digital signature file**] | Allows report recipients to verify that the file came from Adobe and that it has not been altered. | 
+   | [!UICONTROL **Send an empty file when there is not data in the report**] | Sends a report even when the report contains no data. | 
 
    {style="table-layout:auto"}
 

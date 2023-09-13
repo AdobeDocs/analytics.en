@@ -227,10 +227,6 @@ The user you provide for uploading data warehouse data must have the following [
 * s3:PutObject
 * s3:PutObjectAcl
 
-  >[!NOTE]
-  >
-  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, whether or not the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
-
 The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 
 * us-east-2

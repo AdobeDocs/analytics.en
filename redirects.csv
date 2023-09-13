@@ -523,4 +523,6 @@ source,destination
 /docs/analytics/implementation/other/dtm/analytics-tool/dtm-faq.html,/docs/analytics/implementation/other/dtm-implementation-overview.html
 /docs/analytics/analyze/analysis-workspace/components/segment-comparison.html,/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html
 /docs/analytics/implementation/vars/config-vars/doubleencodelinkparameters.html,/docs/analytics/implementation/vars/config-vars/decodelinkparameters.html
+/docs/analytics/export/data-warehouse/dw-schedule-recurring.html,/docs/analytics/export/data-warehouse/create-request/dw-request-scheduling.html
 /docs/analytics/technotes/ip-geo-mapping.html,/docs/analytics/release-notes/previous/2023.html
+https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html,https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html

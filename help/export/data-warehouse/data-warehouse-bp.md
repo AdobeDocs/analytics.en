@@ -18,3 +18,4 @@ Data Warehouse provides a flexible interface to run custom reports. Use the foll
 |Report on completed data ranges|Data Warehouse reports are generated when the date range requested is complete. For example, if you request a report for the current week on Wednesday, the report isn't generated until Sunday of the following week.|
 |Generate pathing reports in Data Warehouse|Pathing metrics (entries, exits, bounces, etc.) are not available in data warehouse.|
 |Virtual report suites|Data Warehouse reporting on virtual report suites supports the alternative time zone configured on the virtual report suite.|
+ 

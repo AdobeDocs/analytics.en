@@ -4,7 +4,7 @@ title: Sort by Metric
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
 ---
-# Sort by Metric
+# Sort by metric
 
 Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value.
 

@@ -12,6 +12,13 @@ Cumulative release notes for AppMeasurement for JavaScript.
 
 You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
+## Version 2.25.0
+
+Release Date: **September 12, 2023**
+
+* Added an optional configuration (`bufferRequests`) to enhance the reliability of capturing requests in scenarios where a browser may not support the Beacon API properly or might cancel requests when a page is unloading.
+* Added safeguards to prevent multiple post-track callbacks for a single tracking request.
+
 ## Version 2.24.0
 
 Release Date: **July 18, 2023**

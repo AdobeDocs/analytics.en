@@ -7,7 +7,7 @@ exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
 ---
 # Secure File Transfer Protocol - overview
 
-SFTP is a secure protocol for transferring data that ensures that nobody can see your data but you. Adobe Engineering Services can set up an SFTP account to securely retain your data.
+SFTP  is a secure protocol for transferring data that ensures that nobody can see your data but you. Adobe Engineering Services can set up an SFTP account to securely retain your data.
 
 ## Push Delivery {#section_A47831BB1DCA490BB57F0940617AA506}
 

@@ -53,13 +53,13 @@ To configure the destination where Data Warehouse reports are sent:
 
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. <p>After choosing an account type, fields specific to that account type appear. For configuration instructions for each account type, expand the section below that corresponds to the that you select. </p>| 
+      | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. <p>After choosing an account type, fields specific to that account type appear. </p>| 
       | [!UICONTROL **Account name**] | Specify a name for the account. This name appears when creating a location. <!-- true? --> | 
       | [!UICONTROL **Account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
 
       For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected.
 
-      Use any of the following account types when configuring a report destination. For configuration instructions, expand the account type. (Additional legacy destinations <!-- add link --> are also available, but are not recommended.) 
+      Use any of the following account types when configuring a report destination. For configuration instructions, expand the account type. (Additional [legacy destinations](#legacy-destinations) are also available, but are not recommended.) 
 
       +++Amazon S3
 
@@ -133,7 +133,7 @@ To configure the destination where Data Warehouse reports are sent:
 
    1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
 
-      For configuration instructions, expand the section below that corresponds to the account type that you selected previously. 
+      For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected previously. 
 
       +++Amazon S3
 
@@ -193,3 +193,71 @@ To configure the destination where Data Warehouse reports are sent:
       You can now import data to the account and location that you configured.
       
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report options**] tab. For more information, see [Configure report options for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Legacy destinations
+
+>[!IMPORTANT]
+>
+>The destinations described in this section are legacy, and are not recommended. Instead, use one of the following destinations when creating a data warehouse destination: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS, or Email. See the information above for details about each of these recommended destinations. 
+
+The following information provides configuration information for each of the legacy destinations:
+
+### FTP
+
+Data warehouse data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
+
+Use the following information when completing the available fields:
+
+* [!UICONTROL **Host**]: Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Path**]: Can be left blank
+* [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
+* [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
+
+### SFTP
+
+SFTP support for data warehouse is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the data warehouse destination.
+
+### S3
+
+You can send warehouse data directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+
+The user you provide for uploading data warehouse data must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+  >[!NOTE]
+  >
+  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, whether or not the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
+
+The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>The cn-north-1 region is not supported.
+
+### Azure Blob
+
+Data warehouse support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
+
+>[!NOTE]
+>
+>You must implement your own process to manage disk space on the data warehouse destination. Adobe does not delete any data from the server.

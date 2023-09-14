@@ -15,6 +15,8 @@ Depending on your permissions, you can share metrics with your whole organizatio
 
 To share a calculated metric:
 
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
+
 1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to share. 
 
 1. Select the **[!UICONTROL Share]** icon. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)

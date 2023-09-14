@@ -14,9 +14,9 @@ The Alerts manager is structured very much like the [Segment Manager](https://ex
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Alerts**].
 
-## Available actions in the Calculated metrics manager
+## Available actions in the Alerts manager
 
-In the Calculated metrics manager, you can:
+In the Alerts manager, you can:
 
 * Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * Tag alerts. This allows you to organize them for ease of use.

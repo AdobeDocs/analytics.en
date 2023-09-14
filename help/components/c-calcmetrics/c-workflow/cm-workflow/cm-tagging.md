@@ -21,7 +21,7 @@ All users can create tags for calculated metrics and apply one or more tags to a
 
 ## Apply tags to a calculated metric
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
 1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag. 
 

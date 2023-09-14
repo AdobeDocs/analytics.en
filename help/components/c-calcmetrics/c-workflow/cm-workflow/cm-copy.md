@@ -11,7 +11,7 @@ To copy a calculated metrics in the Calculated metrics manager:
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. In the Calculated metrics anager, select the calculated metric that you want to copy. 
+1. In the Calculated metrics manager, select the calculated metric that you want to copy. 
 
    The calculated metric management tool bar appears.
 

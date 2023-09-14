@@ -48,9 +48,9 @@ You can configure the Media Playback Time Spent panel using these input settings
 |Time format|You can view the playback time spent in either Hours:Minutes:Seconds (default) or in Minutes (which is displayed in whole numbers, rounded up at .5). |
 |Date sequence display|If you've placed at least two date range segments as series breakdowns you'll see the option to select either overlay (default) or sequential. Overlay will display the lines with a common x-axis start so that they run in parallel, while sequential will display the lines with their specific x-axis start. If the data lines up (for example, segment 1 ends at 8:44 pm and segment 2 starts at 8:45 pm), then the lines will show in sequence. |
 
-### Default view
+## Default view
 
-![Default view](../assets/mpts_default_view.png)
+![Default view](assets/mpts_default_view.png)
 
 ## Panel Output {#Output}
 
@@ -60,7 +60,7 @@ At any time, you can edit and rebuild the panel by clicking the edit pencil on t
 
 If you selected series breakdown, a line on the line chart and a summary number is displayed for each:
 
-![media playback time spent output](../assets/mpts_outputs1.png)
+![media playback time spent output](assets/mpts_outputs1.png)
 
 ### Data Source
 
@@ -70,7 +70,7 @@ The only metric that can be used in this panel is Playback Time Spent.
 |---|---|
 |Playback Time Spent|Total hours:minutes:seconds (or minutes) of content viewed during the selected granularity including pause, buffer, and time to start.|
 
-# FAQs
+### FAQs
 
 |Question|Answer|
 |---|---|

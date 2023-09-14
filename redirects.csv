@@ -526,3 +526,6 @@ source,destination
 /docs/analytics/export/data-warehouse/dw-schedule-recurring.html,/docs/analytics/export/data-warehouse/create-request/dw-request-scheduling.html
 /docs/analytics/technotes/ip-geo-mapping.html,/docs/analytics/release-notes/previous/2023.html
 https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html,https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html
+https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/panel-inputs-outputs.html?lang=en,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/faqs.html?lang=en,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html

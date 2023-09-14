@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **September 2023** | |
+| Updated structure of articles for the Media Playback Time Spent panel | Removed the folder called Media Playback Time Spent, and combined the contents of the folder into a single article: [Media Playback Time Spent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>This change is more in line with the documentation for other panels.</p> |
 | Get started content enhancements | Added information outlining key getting-started tasks and resources for administrators, analysts, end users, and developers. The following new articles are now available: <ul><li>[Get started (by role)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md)<li>[Use cases](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Improvements to Media Analytics Reporting documentation | Reorganized some of the content in the Reporting section of the Streaming Media guide, including consolidating the API documentation in its own section and adjusting the order of some articles. <p>Renamed the Media Workspace Templates article to [Media reports in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) to better align with the in-product naming. </p> |
 | **August 2023** | |

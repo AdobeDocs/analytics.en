@@ -71,4 +71,5 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * Exits
   * Reloads
   * Single Access
-  * 'Time Spent' metrics
+  * 'Time Spent' metrics 
+   

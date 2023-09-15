@@ -10,7 +10,7 @@ The Calculated metrics page offers many ways of curating metrics, such as sharin
 
 The Calculated metrics page shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. 
 
-![Calculated metric manager](assets/calc-metric-manager.png)
+<!-- add screenshot -->
 
 ## Access the Calculated metrics manager
 

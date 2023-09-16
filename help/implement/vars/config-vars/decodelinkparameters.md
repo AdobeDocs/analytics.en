@@ -6,9 +6,9 @@ feature: Variables
 ---
 # decodeLinkParameters
 
-The `decodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `true`) or twice (if set to `false`). It impacts only `linkName` (part of the [`tl()`](../functions/tl-method.md) method) and [`linkURL`](linkurl.md). It requires AppMeasurement 2.24.0 or higher to use. The default value of this variable is `false`.
+The `decodeLinkParameters` variable is a boolean that determines if link tracking variables get encoded once (if set to `true`) or twice (if set to `false`). It impacts only `linkName` (part of the [`tl()`](../functions/tl-method.md) method) and [`linkURL`](linkurl.md). It requires AppMeasurement v2.24.0 or higher to use. The default value of this variable is `false`.
 
-In previous versions of AppMeasurement, link tracking variables were always URL encoded twice. While not an issue for implementations that typically rely on single-byte characters, the double encoding created incorrectly encoded values for multi-byte characters in reports. Setting this variable to `true` encodes link tracking values once, which is typically the desired behavior.
+In versions of AppMeasurement before v2.24.0, link tracking variables were always URL encoded twice. While not an issue for implementations that typically rely on single-byte characters, the double encoding created incorrectly encoded values for multi-byte characters in reports. Setting this variable to `true` encodes link tracking values once, which is typically the desired behavior.
 
 * If your implementation uses multi-byte characters and link tracking variables are URL decoded to offset AppMeasurement's double encoding, set this variable to `false`. This value preserves existing AppMeasurement functionality.
 * If your implementation uses multi-byte characters and you do not URL decode link tracking values, Adobe recommends setting this variable to `true`.

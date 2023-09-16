@@ -15,12 +15,12 @@ When you call [`t()`](t-method.md) or [`tl()`](tl-method.md) on a subsequent pag
 
 ## Limitations
 
-When calling the `bufferRequests()` method, keep in mind the following limitations. Since this method uses [`sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), many of the same limitations apply:
+When calling the `bufferRequests()` method, keep in mind the following limitations. Since this method uses [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), many of the same limitations apply:
 
 * The destination link must reside on the same domain and subdomain. Buffered requests do not work across domains or subdomains, even if both have the same Adobe Analytics implementation. This limitation also means that you cannot use buffered requests to track exit links.
 * The destination link must use the same protocol as the current page. You cannot send buffered requests between HTTP and HTTPS.
 * Buffered requests are stored until you call `t()` or `tl()` without calling `bufferRequests()` first, or until the browser or tab is closed. If a browser session ends before you can send that data to Adobe, unsent buffered requests are permanently lost.
-* If a browser does not support the [Session storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) or the [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), a warning is output to the browser console and AppMeasurement attempts to immediately send the image request using the `t()` method.
+* If a browser does not support the [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) or the [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), a warning is output to the browser console and AppMeasurement attempts to immediately send the image request using the `t()` method.
 
 ## Buffered requests in the Web SDK
 

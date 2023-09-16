@@ -30,7 +30,7 @@ The Web SDK currently does not offer the ability to buffer requests.
 
 There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
 
-## bufferRequests() in AppMeasurement and the Analytics extension custom code editor
+## s.bufferRequests() in AppMeasurement and the Analytics extension custom code editor
 
 Call the `bufferRequests()` method before calling `t()` or `tl()`. When `bufferRequests()` is called, subsequent tracking calls are written to session storage instead of sent to Adobe data collection servers.
 

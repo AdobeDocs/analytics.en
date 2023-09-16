@@ -67,7 +67,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Use case example
+## Use case
 
 Registering the [`clearVars()`](clearvars.md) function in the post track callback can be beneficial for single-page applications. Every time you successfully send a hit to Adobe, the `clearVars()` function runs. Your implementation can then define variables again without worrying about incorrectly persisting values.
 

@@ -10,7 +10,7 @@ The `registerPreTrackCallback` variable allows your organization to hook a JavaS
 
 >[!WARNING]
 >
->Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the [`registerPostTrackCallback`](registerposttrackcallback.md) variable. Tracking functions in this variable cause an infinite loop of image requests!
+>Do not make any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPreTrackCallback` variable. Setting tracking calls in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPreTrackCallback` variable, you hook that function to run every time an image request URL is compiled. Avoid registering the same function multiple times in the same page load.
 

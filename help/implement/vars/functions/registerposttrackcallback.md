@@ -10,7 +10,7 @@ The `registerPostTrackCallback` variable allows your organization to hook a Java
 
 >[!WARNING]
 >
->Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Tracking functions in this variable cause an infinite loop of image requests!
+>Do not make any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPostTrackCallback` variable. Setting tracking calls in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPostTrackCallback` variable, you hook that function to run immediately after an image request is successfully sent. Avoid registering the same function multiple times in the same page load.
 

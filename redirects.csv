@@ -166,7 +166,6 @@ source,destination
 /docs/analytics/import/dataconnectors/silverpop/silverpop-variables.html,https://exchange.adobe.com/experiencecloud.analytics.html
 /docs/analytics/import/dataconnectors/silverpop/silverpop-wizard.html,https://exchange.adobe.com/experiencecloud.analytics.html
 /docs/analytics/import/dataconnectors/silverpop/silverpop-analytics-code.html,https://exchange.adobe.com/experiencecloud.analytics.html
-/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html,/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html
 /docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/t-email-users.html,/docs/analytics/admin/admin-console/home.html
 /docs/analytics/admin/user-product-management/user-groups/groups.html,/docs/analytics/admin/admin-console/home.html
@@ -525,7 +524,7 @@ source,destination
 /docs/analytics/implementation/vars/config-vars/doubleencodelinkparameters.html,/docs/analytics/implementation/vars/config-vars/decodelinkparameters.html
 /docs/analytics/export/data-warehouse/dw-schedule-recurring.html,/docs/analytics/export/data-warehouse/create-request/dw-request-scheduling.html
 /docs/analytics/technotes/ip-geo-mapping.html,/docs/analytics/release-notes/previous/2023.html
-https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html,https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html
+https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html,https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/dw-create-request/t-dw-create-request.html
 https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
 https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/panel-inputs-outputs.html?lang=en,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
 https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/faqs.html?lang=en,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html

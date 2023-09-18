@@ -26,13 +26,10 @@ Following is a video overview of this panel:
 ## Use the Media Playback Time Spent panel
 
 1. Go to a report suite with Media Analytics components enabled. 
-
 1. Select the panel icon on the far-left, then drag the panel into your Analysis Workspace project.
-
 1. Continue with the following sections to customize the Media Playback Time Spent panel
 
    * [Panel Inputs](#panel-inputs)
-
    * [Panel Output](#panel-output)
 
 ## Panel Inputs {#Input}

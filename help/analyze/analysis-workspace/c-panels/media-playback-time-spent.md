@@ -26,13 +26,10 @@ Following is a video overview of this panel:
 ## Use the Media Playback Time Spent panel
 
 1. Go to a report suite with Media Analytics components enabled. 
-
 1. Select the panel icon on the far-left, then drag the panel into your Analysis Workspace project.
-
 1. Continue with the following sections to customize the Media Playback Time Spent panel
 
    * [Panel Inputs](#panel-inputs)
-
    * [Panel Output](#panel-output)
 
 ## Panel Inputs {#Input}
@@ -70,7 +67,7 @@ The only metric that can be used in this panel is Playback Time Spent.
 |---|---|
 |Playback Time Spent|Total hours:minutes:seconds (or minutes) of content viewed during the selected granularity including pause, buffer, and time to start.|
 
-### FAQs
+## FAQs
 
 |Question|Answer|
 |---|---|

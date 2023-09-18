@@ -47,5 +47,3 @@ s.tl(true,"o","Example link click");
 // On a subsequent page, the tracking call sends both the above link tracking call and the page view call
 s.t();
 ```
-
-<!-- TODO: insert a link to this page in AppMeasurement release notes, and also add content to Analytics release notes -->

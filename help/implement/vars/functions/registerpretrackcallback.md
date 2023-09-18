@@ -10,7 +10,7 @@ The `registerPreTrackCallback` variable allows your organization to hook a JavaS
 
 >[!WARNING]
 >
->Do not call any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the [`registerPostTrackCallback`](registerposttrackcallback.md) variable. Tracking functions in this variable cause an infinite loop of image requests!
+>Do not make any tracking calls like [`t()`](t-method.md) or [`tl()`](tl-method.md) inside the `registerPreTrackCallback` variable. Setting tracking calls in this variable cause an infinite loop of image requests!
 
 Each time you call the `registerPreTrackCallback` variable, you hook that function to run every time an image request URL is compiled. Avoid registering the same function multiple times in the same page load.
 
@@ -20,9 +20,9 @@ Each time you call the `registerPreTrackCallback` variable, you hook that functi
 
 ## Pre-track callback using the Web SDK extension
 
-The Web SDK does not have the ability to hook a function after data is compiled but before it is sent to Adobe. However, you can use `onBeforeEventSend` to register a function to execute just before data is sent.
+The Web SDK cannot hook a function after data is compiled but before it is sent to Adobe. However, you can use `onBeforeEventSend` to register a function to execute just before data is sent.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to the [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) UI using your AdobeID credentials.
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under [!UICONTROL Adobe Experience Platform Web SDK].
 1. Under [!UICONTROL Data Collection], click the **[!UICONTROL Edit on before event send callback code]** button.
@@ -30,7 +30,7 @@ The Web SDK does not have the ability to hook a function after data is compiled 
 
 ## Pre-track callback manually implementing the Web SDK
 
-The Web SDK does not have the ability to hook a function after data is compiled but before it is sent to Adobe. However, you can use `onBeforeEventSend` to register a function to execute just before data is sent, similar to `doPlugins`. See [Modifying events globally](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in the Web SDK documentation for more information.
+The Web SDK cannot hook a function after data is compiled but before it is sent to Adobe. However, you can use `onBeforeEventSend` to register a function to execute just before data is sent, similar to `doPlugins`. See [Modifying events globally](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in the Web SDK documentation for more information.
 
 ```js
 // Set the trackingCode XDM field to "New value"

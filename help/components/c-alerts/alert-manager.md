@@ -55,6 +55,6 @@ To configure the visible columns in the Alerts manager:
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
    | Shared with | Lists individuals or groups (admin only) or All (admin only) that you shared the alert with.  |
    | Date modified | Indicates the date when the alert was last modified.  |
-   | Last used | Shows the date when the alert was last used. <p>This information can help you determine whether an alert is valuable to users in your organization, or whether it should be deleted.</p> |
+   | Last used | Shows the date when the alert was last used. <p>This information can help you determine whether an alert is valuable to users in your organization, or whether it should be deleted.</p><p>This information does not include usage from the API, Report Builder, or Data Warehouse.</p> |
 
    {style="table-layout:auto"}

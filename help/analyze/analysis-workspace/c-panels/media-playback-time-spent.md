@@ -70,7 +70,7 @@ The only metric that can be used in this panel is Playback Time Spent.
 |---|---|
 |Playback Time Spent|Total hours:minutes:seconds (or minutes) of content viewed during the selected granularity including pause, buffer, and time to start.|
 
-### FAQs
+## FAQs
 
 |Question|Answer|
 |---|---|

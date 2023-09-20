@@ -31,7 +31,7 @@ To configure report options for a Data Warehouse request:
 
    |Option | Function | 
    |---------|----------|
-   | [!UICONTROL **File name**] | Identifies the report. | 
+   | [!UICONTROL **File name**] | Identifies the report. <p>If any of the following special characters are used in the file name, the request cannot be saved: <code>! " # $ & ' ( ) * + , / : ; > = < ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>The % character can be used only if it is followed by "R", "rsid", or "id", as follows: <code>%R</code>, <code>%rsid</code>, and <code>%id</code>.</p> | 
    | [!UICONTROL **Append report date range to file name**] | Adds the date range to the report file name. <p>For example, if you request data from May 1, 2024 through May 7, 2024, the filename includes the date range of 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Delivers reports in a CSV file format for viewing data in a spreadsheet. | 
    | [!UICONTROL **Tableau (TDE)**] | Delivers reports in a Tableau Data Extract (TDE) file format, which can be used to visualize data and layer in additional data within Tableau. |

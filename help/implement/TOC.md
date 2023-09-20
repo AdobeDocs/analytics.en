@@ -79,6 +79,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [s_gi](vars/functions/s-gi.md)
     + [t](vars/functions/t-method.md)
     + [tl](vars/functions/tl-method.md)
+    + [bufferRequests](vars/functions/bufferrequests.md)
     + [clearVars](vars/functions/clearvars.md)
     + [doPlugins](vars/functions/doplugins.md)
     + [forceOffline](vars/functions/forceoffline.md)

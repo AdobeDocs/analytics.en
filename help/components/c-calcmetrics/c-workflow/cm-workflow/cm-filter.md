@@ -4,6 +4,7 @@ title: Filter calculated metrics
 feature: Calculated Metrics
 ---
 # Filter calculated metrics
+
 Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
 
 Filtering makes it easier to search for calculated metrics in the segment rail.
@@ -14,7 +15,7 @@ Filtering makes it easier to search for calculated metrics in the segment rail.
 
    ![](assets/filtering.png)
 
-2. The following filters are available:
+1. The following filters are available:
 
    |  Filter Name  | Description  |
    |---|---|

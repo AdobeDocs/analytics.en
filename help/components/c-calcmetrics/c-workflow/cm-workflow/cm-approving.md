@@ -16,7 +16,7 @@ In the Calculated metrics manager, administrators can set up a workflow that inc
 
 To mark calculated metrics as approved:
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
 1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to mark as approved.
 

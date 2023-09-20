@@ -20,6 +20,7 @@ Filtering makes it easier to search for segments in the segment rail.
    |---|---|
    |  Tags  |Lets you filter on segments with specific [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). The Tags column is shown by default.  |
    |  Owners  | Lets you filter segments by owner.  |
+   | Report suite | Lets you filter by report suite. |
    |  Other Filters > Show All  | **(Admin only)** Shows all segments, their owner, and the last date they were modified.  |
    |  Other Filters > Mine  | Shows all segments that you own.  |
    |  Other Filters > Shared with Me  |Shows all segments that others [shared](/help/components/segmentation/segmentation-workflow/t-seg-share.md) with you.  |

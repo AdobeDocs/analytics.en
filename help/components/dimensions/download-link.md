@@ -6,7 +6,7 @@ exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 ---
 # Download link
 
-The 'Download link' dimension reports the names of download links implemented on your site. This dimension is valuable when you want to learn more about visitor behavior around download links, such as:
+The 'Download link' [dimension](overview.md) reports the names of download links implemented on your site. This dimension is valuable when you want to learn more about visitor behavior around download links, such as:
 
 * Determine the files that are downloaded most frequently from your site.
 * Understand if certain files are downloaded more often during specific time periods.

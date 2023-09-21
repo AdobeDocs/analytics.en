@@ -6,7 +6,7 @@ exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 ---
 # Server
 
-The 'Server' dimension typically lists the hostname of the site. For report suites that combine multiple domains or subdomains, this dimension is valuable to see which domains or subdomains perform the best.
+The 'Server' [dimension](overview.md) typically lists the hostname of the site. For report suites that combine multiple domains or subdomains, this dimension is valuable to see which domains or subdomains perform the best.
 
 This dimension is related to the [Page](page.md) and [Site section](site-section.md) dimensions. Page is most granular, Server is least granular, and Site section is between the two.
 

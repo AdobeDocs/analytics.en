@@ -6,7 +6,7 @@ exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 ---
 # All search page rank
 
-The 'All search page rank' dimension provides insight on which page of search results a visitor clicked through to your site. For example, if your site appears on the second page of a search engine's search results, the dimension item for this variable is "Search Page 2".
+The 'All search page rank' [dimension](overview.md) provides insight on which page of search results a visitor clicked through to your site. For example, if your site appears on the second page of a search engine's search results, the dimension item for this variable is "Search Page 2".
 
 ## Populate this dimension with data
 

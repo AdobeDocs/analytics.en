@@ -6,7 +6,7 @@ feature: Dimensions
 ---
 # Consent Management Opt-In
 
-The 'Consent Management Opt-In' dimension displays which privacy settings that a visitor has opted in to. You can use this dimension to filter data based on privacy settings, or see the most common privacy opt-in reasons.
+The 'Consent Management Opt-In' [dimension](overview.md) displays which privacy settings that a visitor has opted in to. You can use this dimension to filter data based on privacy settings, or see the most common privacy opt-in reasons.
 
 ## Populate this dimension with data
 

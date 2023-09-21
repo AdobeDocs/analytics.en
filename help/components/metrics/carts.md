@@ -6,7 +6,7 @@ exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 ---
 # Carts
 
-The 'Carts' metric shows the number of hits where a visitor added their first product to a cart.
+The 'Carts' [metric](overview.md) shows the number of hits where a visitor added their first product to a cart.
 
 ## How this metric is calculated
 

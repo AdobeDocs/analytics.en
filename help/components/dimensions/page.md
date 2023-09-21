@@ -6,7 +6,7 @@ exl-id: 579963c8-8460-425f-b716-3b30d7a259af
 ---
 # Page
 
-The 'Page' dimension lists the names of pages on your site. It is one of the most common dimensions used in Adobe Analytics, as it provides insight on which pages on your site perform the best.
+The 'Page' [dimension](overview.md) lists the names of pages on your site. It is one of the most common dimensions used in Adobe Analytics, as it provides insight on which pages on your site perform the best.
 
 This dimension is related to the [Site section](site-section.md) and [Server](server.md) dimensions. Page is most granular, Server is least granular, and Site section is between the two.
 

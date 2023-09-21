@@ -6,7 +6,7 @@ exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 ---
 # Day of year
 
-The 'Day of year' dimension reports the numeric day of any given year as a dimension item. This report is valuable if you want a report broken out by the day of the year, but do not want a static date as dimension items.
+The 'Day of year' [dimension](overview.md) reports the numeric day of any given year as a dimension item. This report is valuable if you want a report broken out by the day of the year, but do not want a static date as dimension items.
 
 ## Populate this dimension with data
 

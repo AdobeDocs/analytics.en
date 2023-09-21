@@ -27,4 +27,4 @@ Analytics administrators can add descriptions for metrics and other components e
 
 ## Use metrics in Analysis Workspace
 
-For information about how to use metrics in Analysis Workspace, see "Use metrics in Analysis Workspace" in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+For information about how to use metrics in Analysis Workspace, see [Use metrics in Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

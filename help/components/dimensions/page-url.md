@@ -6,7 +6,7 @@ exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 ---
 # Page URL
 
-The 'Page URL' dimension lists the URLs on your site.
+The 'Page URL' [dimension](overview.md) lists the URLs on your site.
 
 >[!IMPORTANT]
 >

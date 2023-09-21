@@ -6,7 +6,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 ---
 # Unique devices
 
-The 'Unique devices' metric is a [Cross-device analytics](../cda/overview.md) metric that counts the number of unique unidentified devices and unique virtual devices. Unidentified devices are devices that generated anonymous hits. Unique virtual devices are distinct people identified per device.
+The 'Unique devices' [metric](overview.md) is a [Cross-device analytics](../cda/overview.md) metric that counts the number of unique unidentified devices and unique virtual devices. Unidentified devices are devices that generated anonymous hits. Unique virtual devices are distinct people identified per device.
 
 ## How this metric is calculated
 

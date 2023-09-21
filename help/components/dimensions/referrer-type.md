@@ -6,7 +6,7 @@ exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 ---
 # Referrer type
 
-The 'Referrer type' dimension reports which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+The 'Referrer type' [dimension](overview.md) reports which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
 ## Populate this dimension with data
 

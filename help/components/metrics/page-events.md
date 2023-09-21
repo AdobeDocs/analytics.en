@@ -6,7 +6,7 @@ exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
 ---
 # Page events
 
-The 'Page events' metric shows the number of times any link tracking call was made. This metric is helpful when you want to understand which pages have the most engaging content. Measurement for this metric is most valuable when a visitor can perform an action on the page without navigating to a new page.
+The 'Page events' [metric](overview.md) shows the number of times any link tracking call was made. This metric is helpful when you want to understand which pages have the most engaging content. Measurement for this metric is most valuable when a visitor can perform an action on the page without navigating to a new page.
 
 ## How this metric is calculated
 

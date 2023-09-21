@@ -6,7 +6,7 @@ exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 ---
 # Hour of day
 
-The 'Hour of day' dimension reports the numeric hour of any given day as a dimension item. For example, if you have a report spanning January 1 - January 7, the first hour of each day groups into the same dimension item. This report is valuable if you want a report broken out by relative time of day, but do not want a static hours as dimension items. It is especially valuable as a dimension in scheduled reports, as this dimension rolls with the selected date range.
+The 'Hour of day' [dimension](overview.md) reports the numeric hour of any given day as a dimension item. For example, if you have a report spanning January 1 - January 7, the first hour of each day groups into the same dimension item. This report is valuable if you want a report broken out by relative time of day, but do not want a static hours as dimension items. It is especially valuable as a dimension in scheduled reports, as this dimension rolls with the selected date range.
 
 This dimension is based on the report suite's time zone, and not the visitor's local time zone. For example, if your report suite is in Mountain time and a visitor in California visits your site at 10:00 AM Pacific time, the hit groups under the `11:00 AM` dimension item. If you want a dimension that records the local visitor's time, Adobe recommends using the [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) plug-in.
 

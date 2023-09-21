@@ -6,7 +6,7 @@ exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 ---
 # Time spent per visitor (seconds)
 
-The [!UICONTROL Time spent per visitor (seconds)] metric shows the average amount of time that visitors interact with a given dimension item during a visitor's entire lifetime.
+The [!UICONTROL Time spent per visitor (seconds)] [metric](overview.md) shows the average amount of time that visitors interact with a given dimension item during a visitor's entire lifetime.
 
 This metric is not available in Data Warehouse due to its different processing architecture.
 

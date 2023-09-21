@@ -6,7 +6,7 @@ exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 ---
 # Time spent overview
 
-Various [!UICONTROL 'time spent'] metrics and dimensions are offered across Adobe Analytics products.
+Various [!UICONTROL 'time spent'] [metrics](overview.md) and dimensions are offered across Adobe Analytics products.
 
 ## 'Time spent' metrics
 

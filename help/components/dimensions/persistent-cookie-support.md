@@ -6,7 +6,7 @@ exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
 ---
 # Persistent cookie support
 
-The 'Persistent cookie support' dimension shows if the hit used a visitor identifier that originated from a persistent source. The most common persistent source is from a cookie, but can also use mobile headers and other sources.
+The 'Persistent cookie support' [dimension](overview.md) shows if the hit used a visitor identifier that originated from a persistent source. The most common persistent source is from a cookie, but can also use mobile headers and other sources.
 
 ## Populate this dimension with data
 

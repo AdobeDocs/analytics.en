@@ -6,7 +6,7 @@ exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 ---
 # Tracking Code
 
-The 'Tracking Code' dimension lists the names of tracking codes on your site. You can place links with different query string parameter values in different places across the internet. This dimension helps you understand which links were the most successful in driving traffic to your site.
+The 'Tracking Code' [dimension](overview.md) lists the names of tracking codes on your site. You can place links with different query string parameter values in different places across the internet. This dimension helps you understand which links were the most successful in driving traffic to your site.
 
 Appending tracking code query strings are common in emails, advertisements, social media posts, and other marketing efforts that your organization uses.
 
@@ -34,6 +34,7 @@ Marketing channels processing rules higher up in the list can prevent hits from 
 ### Other marketing channels can take attribution through last touch
 
 When dealing with a standard Tracking Codes dimension, you don't need to worry about other parts of your site stealing attribution. However, with Marketing channels, a user can match a different rule, giving different attribution. For example:
+
   1. You have 'Tracking codes' as your first channel, and 'Direct' as your second.
   2. A user initially arrives to your site through a tracking code, but then leaves.
   3. The next day, they type your URL into their address bar, then make a purchase.
@@ -44,6 +45,7 @@ When dealing with a standard Tracking Codes dimension, you don't need to worry a
 ### Expiration differences
 
 Marketing channels have a rolling 30-day visitor engagement expiration, whether a channel was touched or not. Tracking codes have an expiration based on when the variable was set. For example:
+
   1. You have a visitor engagement expiration of 30 days, and also configured the Tracking Code dimension to expire after 30 days.
   2. A user arrives to your site through a tracking code. They browse the site, then leave.
   3. Three weeks later, they come back without a tracking code or marketing channel, then leave again.

@@ -8,7 +8,7 @@ exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 
 *This help page describes how 'Time spent per visit' works as a metric. See the [Time spent per visit](../dimensions/time-spent-per-visit.md) dimension for more information.*
 
-The 'Time spent per visit (seconds)' metric shows the average amount of time that visitors interact with a given dimension item during each visit.
+The 'Time spent per visit (seconds)' [metric](overview.md) shows the average amount of time that visitors interact with a given dimension item during each visit.
 
 This metric is not available in Data Warehouse due to its different processing architecture.
 

@@ -6,7 +6,7 @@ exl-id: 2f93ae8b-422c-4e1e-81d3-43cc0aa442c4
 ---
 # Day
 
-The 'Day' dimension reports the day that a given metric occurred. The first dimension item is the first day in the date range, and the last dimension item is the last day in the date range. This dimension is vital for trended reports, as it allows you to see metrics over time.
+The 'Day' [dimension](overview.md) reports the day that a given metric occurred. The first dimension item is the first day in the date range, and the last dimension item is the last day in the date range. This dimension is vital for trended reports, as it allows you to see metrics over time.
 
 ## Populate this dimension with data
 

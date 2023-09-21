@@ -6,7 +6,7 @@ exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 ---
 # Java enabled
 
-The 'Java enabled' dimension determines if the browser at the time has Java enabled. It is helpful in cases where you want to introduce Java-based functionality on your site and want to know how many visitors already have Java enabled. For those who have Java disabled, you can provide an alternative or instructions on how to enable it.
+The 'Java enabled' [dimension](overview.md) determines if the browser at the time has Java enabled. It is helpful in cases where you want to introduce Java-based functionality on your site and want to know how many visitors already have Java enabled. For those who have Java disabled, you can provide an alternative or instructions on how to enable it.
 
 ## Populate this dimension with data
 

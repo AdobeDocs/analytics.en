@@ -6,7 +6,7 @@ exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 ---
 # Visits
 
-The 'Visits' metric shows the number of sessions across all visitors on your site.
+The 'Visits' [metric](overview.md) shows the number of sessions across all visitors on your site.
 
 ## How this metric is calculated
 

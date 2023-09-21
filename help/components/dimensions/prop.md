@@ -6,7 +6,7 @@ exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 ---
 # Prop
 
-*This help page describes how props work as a dimension. For information on how to implement props, see [props](/help/implement/vars/page-vars/prop.md) in the Implement user guide.*
+*This help page describes how props work as a [dimension](overview.md). For information on how to implement props, see [props](/help/implement/vars/page-vars/prop.md) in the Implement user guide.*
 
 Props are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set.
 

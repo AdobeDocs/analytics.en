@@ -6,7 +6,7 @@ exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
 ---
 # Site section
 
-The 'Site section' dimension lists the names of site sections on your site. For large sites, it is helpful to group pages into sections. This dimension is useful to see the top-viewed or top-performing site sections.
+The 'Site section' [dimension](overview.md) lists the names of site sections on your site. For large sites, it is helpful to group pages into sections. This dimension is useful to see the top-viewed or top-performing site sections.
 
 This dimension is related to the [Page](page.md) and [Server](server.md) dimensions. Page is most granular, Server is least granular, and Site section is between the two.
 

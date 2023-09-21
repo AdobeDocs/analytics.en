@@ -6,7 +6,7 @@ exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 ---
 # eVar (Merchandising)
 
-*This help page describes how merchandising eVars work as a dimension. For information on how to implement merchandising eVars, see [eVar (merchandising variable)](/help/implement/vars/page-vars/evar-merchandising.md) in the Implementation user guide.*
+*This help page describes how merchandising eVars work as a [dimension](overview.md). For information on how to implement merchandising eVars, see [eVar (merchandising variable)](/help/implement/vars/page-vars/evar-merchandising.md) in the Implementation user guide.*
 
 For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 

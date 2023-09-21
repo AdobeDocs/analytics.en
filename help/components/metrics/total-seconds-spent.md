@@ -6,7 +6,7 @@ exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
 ---
 # Total seconds spent
 
-The 'Total seconds spent' metric shows the aggregated number of seconds a visitor spent on a given dimension item. This metric is useful when you want the raw amount of time spent on a given dimension item, and not averages like other time spent metrics offer.
+The 'Total seconds spent' [metric](overview.md) shows the aggregated number of seconds a visitor spent on a given dimension item. This metric is useful when you want the raw amount of time spent on a given dimension item, and not averages like other time spent metrics offer.
 
 In Report Builder, this metric is named 'Total time spent'.
 

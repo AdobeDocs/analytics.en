@@ -6,7 +6,7 @@ exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 ---
 # Cities
 
-The 'Cities' dimension reports the city where the hit originated from. This dimension is useful to help determine what the most popular cities visitors originate from when visiting your site. You could use this data to focus on local advertising in these cities, such as billboards or commercials.
+The 'Cities' [dimension](overview.md) reports the city where the hit originated from. This dimension is useful to help determine what the most popular cities visitors originate from when visiting your site. You could use this data to focus on local advertising in these cities, such as billboards or commercials.
 
 ## Populate this dimension with data
 

@@ -6,7 +6,7 @@ exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
 ---
 # Search keyword
 
-The 'Search keyword' dimension reports the search keywords that visitors use to reach your site.
+The 'Search keyword' [dimension](overview.md) reports the search keywords that visitors use to reach your site.
 
 >[!IMPORTANT]
 >

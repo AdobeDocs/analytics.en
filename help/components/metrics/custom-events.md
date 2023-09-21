@@ -8,7 +8,7 @@ exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 
 *This help page describes how custom events work as a metric. For information on how custom events work as an implementation variable, see [Events overview](/help/implement/vars/page-vars/events/events-overview.md) in the Implement user guide.*
 
-Custom event metrics show the number of hits where a given custom event was set in an image request. These metrics are vital to many implementations, as they provide insight to events specific to each organization.
+Custom event [metrics](overview.md) show the number of hits where a given custom event was set in an image request. These metrics are vital to many implementations, as they provide insight to events specific to each organization.
 
 ## How this metric is calculated
 

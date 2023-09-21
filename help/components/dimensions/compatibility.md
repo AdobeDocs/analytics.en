@@ -6,7 +6,7 @@ exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 ---
 # Analytics Dimensions Compatibility
 
-This page lists dimensions supported in their respective Analytics capabilities.
+This page lists [dimensions](overview.md) supported in their respective Analytics capabilities.
 
 >[!NOTE]
 >

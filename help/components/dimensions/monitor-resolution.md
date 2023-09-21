@@ -6,7 +6,7 @@ exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 ---
 # Monitor resolution
 
-The 'Monitor resolution' dimension shows the height and width of the active display in pixels. This dimension is useful when you want to understand where the "fold" is on your site to visitors, or how wide visitors can make their browser window. Understanding where your fold is can allow you to optimize content for viewing.
+The 'Monitor resolution' [dimension](overview.md) shows the height and width of the active display in pixels. This dimension is useful when you want to understand where the "fold" is on your site to visitors, or how wide visitors can make their browser window. Understanding where your fold is can allow you to optimize content for viewing.
 
 This dimension is different than browser height and width. Browser height/width is the number of pixels within the viewable browser space, while monitor resolution is the number of pixels of the entire monitor. If you would like to see the difference between these two variables on your own machine, open the browser console (F12 on most browsers) and copy + paste the following code into the console:
 

@@ -6,7 +6,7 @@ feature: Dimensions
 ---
 # Consent Management Opt-Out
 
-The 'Consent Management Opt-Out' dimension displays which privacy settings that a visitor has explicitly opted out of. You can use this dimension to filter data based on privacy settings, or see the most common privacy opt-out reasons.
+The 'Consent Management Opt-Out' [dimension](overview.md) displays which privacy settings that a visitor has explicitly opted out of. You can use this dimension to filter data based on privacy settings, or see the most common privacy opt-out reasons.
 
 ## Populate this dimension with data
 

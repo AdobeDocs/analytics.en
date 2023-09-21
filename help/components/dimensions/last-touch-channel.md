@@ -6,7 +6,7 @@ exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 ---
 # Last touch channel
 
-The 'Last touch channel' dimension reports the most recent marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding which marketing channels drive traffic to your site that result in conversions, allowing you to focus marketing efforts in areas that are most effective.
+The 'Last touch channel' [dimension](overview.md) reports the most recent marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding which marketing channels drive traffic to your site that result in conversions, allowing you to focus marketing efforts in areas that are most effective.
 
 ## Populate this dimension with data
 

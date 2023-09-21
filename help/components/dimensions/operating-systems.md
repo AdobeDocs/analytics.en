@@ -6,7 +6,7 @@ exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
 ---
 # Operating system
 
-The 'Operating system' dimension shows the operating system and version that the visitor used. If you have features on your web-property that are OS-specific, this dimension helps you understand which operating systems are most common.
+The 'Operating system' [dimension](overview.md) shows the operating system and version that the visitor used. If you have features on your web-property that are OS-specific, this dimension helps you understand which operating systems are most common.
 
 ## Populate this dimension with data
 

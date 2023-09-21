@@ -6,7 +6,7 @@ exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 ---
 # First touch channel detail
 
-The 'First touch channel detail' dimension reports details around the first marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding what contributed to the hit matching a marketing channel. For example, if a visitor arrived to your site and matched with the 'Paid search' Marketing channel, you could use the channel detail to see which search engine was used, or which keyword they searched for.
+The 'First touch channel detail' [dimension](overview.md) reports details around the first marketing channel a visitor matches with during that visitor's engagement period (30 days by default). This dimension is valuable in understanding what contributed to the hit matching a marketing channel. For example, if a visitor arrived to your site and matched with the 'Paid search' Marketing channel, you could use the channel detail to see which search engine was used, or which keyword they searched for.
 
 ## Populate this dimension with data
 

@@ -6,7 +6,7 @@ exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 ---
 # Paid search
 
-The 'Paid search' dimension lets you look at any metric and compare it between paid search and natural search. All other hits outside search engines are omitted. This dimension is helpful to understand how your paid search efforts compare with organic search.
+The 'Paid search' [dimension](overview.md) lets you look at any metric and compare it between paid search and natural search. All other hits outside search engines are omitted. This dimension is helpful to understand how your paid search efforts compare with organic search.
 
 ## Populate this dimension with data
 

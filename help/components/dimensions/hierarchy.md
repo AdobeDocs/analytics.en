@@ -8,7 +8,7 @@ exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
 
 >[!IMPORTANT]
 >
->This dimension is retired and not an available dimension in Analysis Workspace. Adobe recommends using [eVars](evar.md) and classifications instead.
+>This dimension is retired and not an available [dimension](overview.md) in Analysis Workspace. Adobe recommends using [eVars](evar.md) and classifications instead.
 
 Hierarchies are custom variables that you can use however you'd like. They do not persist beyond the hit that they are set. Up to 5 hierarchies are available if your contract with Adobe supports it.
 

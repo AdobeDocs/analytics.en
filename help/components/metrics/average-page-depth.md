@@ -6,7 +6,7 @@ exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 ---
 # Average page depth
 
-The 'Average page depth' metric shows how far a dimension item extends into a given visit, on average. For example, your Home page (which is a dimension item for the Page dimension) typically shows a smaller average page depth than your Purchase Confirmation page, which likely extends further into a visit. You can use this information to optimize certain pages toward fresh visitors if the page has a low depth, on average.
+The 'Average page depth' [metric](overview.md) shows how far a dimension item extends into a given visit, on average. For example, your Home page (which is a dimension item for the Page dimension) typically shows a smaller average page depth than your Purchase Confirmation page, which likely extends further into a visit. You can use this information to optimize certain pages toward fresh visitors if the page has a low depth, on average.
 
 >[!TIP]
 >

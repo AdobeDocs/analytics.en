@@ -6,7 +6,7 @@ exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
 ---
 # Product views
 
-The 'Product views' metric shows the number of times any product was viewed. This metric is useful when you want to see your top-viewed products, or see how total product views trend over time.
+The 'Product views' [metric](overview.md) shows the number of times any product was viewed. This metric is useful when you want to see your top-viewed products, or see how total product views trend over time.
 
 ## How this metric is calculated
 

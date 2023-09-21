@@ -6,7 +6,7 @@ exl-id: 292dc256-e9e7-47be-8586-774f1c047011
 ---
 # Domain
 
-The 'Domain' dimension reports access points that visitors use to access the internet.
+The 'Domain' [dimension](overview.md) reports access points that visitors use to access the internet.
 
 ## Populate this dimension with data
 

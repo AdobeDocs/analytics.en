@@ -7,7 +7,7 @@ feature: Anomaly Detection
 ---
 # Run Contribution Analysis
 
-Contribution Analysis is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
+[Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 
 ## Run Contribution Analysis {#section_7D2C5E48A5664727941DF4C90976D9DC}
 

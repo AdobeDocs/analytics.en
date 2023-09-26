@@ -28,6 +28,12 @@ Before your components and project are ready to migrate, you first need to use t
 
 The Permissions tab is part of each product profile in Admin Console. You can add users to specific product profiles. Then you assign rights to specific data views and specify which permissions the users in a product profile have. 
 
+## Plan the migration
+
+Because any component mappings that are made for a given project migration apply to any future project migrations, it's important that you plan in advance as an organization.
+
+Decide as a company what gets matched with what, so it's not an ad hoc thing that one admin can just decide. 
+
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 
 1. In Adobe Analytics select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
@@ -54,12 +60,12 @@ The Permissions tab is part of each product profile in Admin Console. You can ad
 
    * Use the search field to search for the project you want to migrate. 
 
-1. Select the project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].
+1. Mouse over the project that you want to migrate, then select the **Migrate** icon ![Migrate project](assets/migrate.svg).
 
    Or
 
-   Mouse over the project that you want to migrate, then select the **Migrate** icon.
+   Select the project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].
 
    You can select only one project at a time to migrate.
    
-1. 
+1. In the [!UICONTROL **Migrate project_name to Customer Journey Analytics**] dialog box, complete the following:

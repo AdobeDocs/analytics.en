@@ -64,6 +64,8 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Video Settings |  |  |  | x | Not used. |
 | Web Resources |  |  |  | x | Not used. |
 
+{style="table-layout:auto"}
+
 ## Analytics Tools
 
 | Analytics Tool | Administration | Access Controls | Reports-only Features | Deprecated | Description |
@@ -104,3 +106,5 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Permissions (Write) - Web Services |  |  |  | x | No longer used. Allows the user to edit legacy Analytics permissions using the Admin API. Use the Adobe Admin Console instead. |
 | Preferences |  |  |  | x | Not used. |
 | Single Sign-On |  |  |  | x | No longer used. Grants access to the deprecated Single Sign-On Service. |
+
+{style="table-layout:auto"}

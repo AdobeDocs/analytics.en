@@ -4,21 +4,15 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (September 2023)
+# Current Adobe Analytics release notes (October 2023)
 
-**Last update**: September 13, 2023
+**Last update**: September 27, 2023
 
-The September release notes cover the release period of September 13, 2023 to October 3, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+The October release notes cover the release period of October 4, 2023 to October 24, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
-| Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **Classification in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/A | September 13, 2023 |
-| **Support for new `correlationID` field for A4T classifications** | The `_experience.decisioning.propositions.scopeDetails.correlationID` field is now available in the Adobe Analytics source connector schema. We are adding this ID for easy joining of classification data for Adobe Target activities and experience events. | N/A | September 13, 2023 |
-| **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | September 13, 2023 | October 4, 2023 |
 
-{style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 

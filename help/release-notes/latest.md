@@ -16,22 +16,22 @@ The October release notes cover the release period of October 4, 2023 to October
 | ----------- | ---------- | ------- | ---- |
 | **New columns available when managing components** | The following new columns are now available when managing components:<ul><li>Used in<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Last used<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), and the [Alerts manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified. You can use the Data Dictionary along with this information to help you keep track of and better understand how components are being used in your organization.</p> | September 20, 2023 | October 4, 2023 |
 | **Reporting Activity Manager enhancements** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. The following enhancements are now available in the Reporting Activity Manager:<ul><li>Restrict subsequent requests. In addition to canceling current requests, administrators can now restrict requests for a defined time period. Administrators can restrict requests by Request, Project, and User.</li><li>In addition to Utilization and Capacity metrics, the Reporting Activity Manager now includes more data about reporting activity: Complexity column, User column, and Connection column.</li><li>All cancelations and restrictions made in the Reporting Activity manager are now visible in the Audit Log. Administrators can use the Audit Log to view what is currently canceled. Cancelations cannot be reversed in the Reporting Activity Manager or in the Audit Log.</li><li>Updated metadata</li><li>Data view column</li></ul> |  | October 4|
-| 
 
+{style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue that prevented Classification data from showing up in Workspace. (AN-326827)
 
 ## Other fixes
 
-AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-321759; AN-323099; AN-323596; AN-323640; AN-324442; AN-324921; AN-324953; AN-324977; AN-324979; AN-325124; AN-325395; AN-325433; AN-325535; AN-325693; AN-325720; AN-325835; AN-325880; AN-325957; AN-325984; AN-326054; AN-326065; AN-326136; AN-326155; AN-326162; AN-326235; AN-326317; AN-326344; AN-326357; AN-326359; AN-326433; AN-326438; AN-326440; AN-326461; AN-326464; AN-326523; AN-326553; AN-326606; AN-326635; AN-326642; AN-326652; AN-326678; AN-326769; AN-326777; AN-326830; AN-326938; AN-326949; AN-327081; AN-327082; AN-327085; AN-327103; AN-327198; AN-327225; AN-327275; AN-327358; AN-327423; AN-327561; AN-327755; AN-327896; AN-327922; AN-328128; AN-328300; AN-328428; AN-328518; AN-328554
+
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| N/A | N/A | N/A |
+| **Full IP obfuscation for Adobe Experience Edge hits** | September 27, 2023 | IP obfuscation for hits coming from Experience Edge will be updated later in October of 2023. In April, Experience Edge added the ability to obfuscate IP addresses. At that time, Adobe Analytics only supported partial obfuscation of IPs, due to the way Analytics processes hits from Experience Edge. When customers chose full obfuscation for Experience Edge, Analytics only received partially obfuscated IPs. When this change is implemented, Analytics will receive the fully obfuscated IP.|
+| **Adobe Analytics Livestream - Analytics 2.0 APIs** | September 27, 2023 | Customers can now access the [Endpoint guide for Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) under the Adobe Analytics 2.0 APIs instead in its previous location, with the 1.4 APIs. Note that customers using Adobe I/O JWT credentials must migrate to  Adobe I/O OAuth Server-to-Server credentials by January 1, 2025. (See details under EOL notices below.) |
 
 {style="table-layout:auto"}
 
@@ -48,7 +48,7 @@ AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.24.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+For the latest updates on AppMeasurement releases (Version 2.25.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Related resources

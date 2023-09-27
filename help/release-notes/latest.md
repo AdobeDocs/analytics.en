@@ -12,6 +12,11 @@ The October release notes cover the release period of October 4, 2023 to October
 
 ## New features or enhancements {#features}
 
+| Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
+| ----------- | ---------- | ------- | ---- |
+| **New columns available when managing components** | The following new columns are now available when managing components:<ul><li>Used in<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Last used<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), and the [Alerts manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified. You can use the Data Dictionary along with this information to help you keep track of and better understand how components are being used in your organization.</p> | September 20, 2023 | October 4, 2023 |
+| **Reporting Activity Manager enhancements** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization. The following enhancements are now available in the Reporting Activity Manager:<ul><li>Restrict subsequent requests. In addition to canceling current requests, administrators can now restrict requests for a defined time period. Administrators can restrict requests by Request, Project, and User.</li><li>In addition to Utilization and Capacity metrics, the Reporting Activity Manager now includes more data about reporting activity: Complexity column, User column, and Connection column.</li><li>All cancelations and restrictions made in the Reporting Activity manager are now visible in the Audit Log. Administrators can use the Audit Log to view what is currently canceled. Cancelations cannot be reversed in the Reporting Activity Manager or in the Audit Log.</li><li>Updated metadata</li><li>Data view column</li></ul> |  | October 4|
+| 
 
 
 ## Fixes in Adobe Analytics

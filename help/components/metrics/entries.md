@@ -8,7 +8,7 @@ exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
 
 *This help page describes how entries work as a metric. For information on how entries work as a dimension, see [Entry dimensions](../dimensions/entry-dimensions.md).*
 
-The 'Entries' metric shows the number of times a given dimension item is captured as the first value in a visit. This metric is helpful when you want to understand more about the first impressions visitors have on your site. Seeing the first values of a dimension can help you understand and optimize the experience a new visitor gets.
+The 'Entries' [metric](overview.md) shows the number of times a given dimension item is captured as the first value in a visit. This metric is helpful when you want to understand more about the first impressions visitors have on your site. Seeing the first values of a dimension can help you understand and optimize the experience a new visitor gets.
 
 ## How this metric is calculated
 

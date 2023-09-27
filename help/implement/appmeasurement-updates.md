@@ -12,11 +12,18 @@ Cumulative release notes for AppMeasurement for JavaScript.
 
 You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
+## Version 2.25.0
+
+Release Date: **September 12, 2023**
+
+* Added the optional method [`bufferRequests()`](vars/functions/bufferrequests.md) to enhance the reliability of capturing requests when a browser doesn't support the Beacon API or cancels requests when a page unloads.
+* Added safeguards to prevent multiple post-track callbacks for a single tracking request.
+
 ## Version 2.24.0
 
 Release Date: **July 18, 2023**
 
-* Added an optional configuration (`decodeLinkParameters` - default = false) that decodes link URLs that include double-byte-encoded characters.
+* Added the optional configuration variable [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) to decode link URLs that include double-byte-encoded characters.
 * Added additional error handling for browsers with faulty high-entropy User-Agent client hints APIs.
 * Changed POST Content-Type header to use `x-www-form-urlencoded` by default.
 
@@ -24,25 +31,25 @@ Release Date: **July 18, 2023**
 
 Release Date: **September 23, 2022**
 
-* AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the "collectHighEntropyUserAgentHints" flag. Collection of high-entropy hints is turned off by default. Learn more about User-Agent [client hints](/help/technotes/client-hints.md).
+* AppMeasurement now supports the collection of high-entropy user-agent client hints which Chromium browsers (Google Chrome and Microsoft Edge) use to provide device information. You can configure client hints via Tags or use the [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) configuration variable. Collection of high-entropy hints is disabled by default. Learn more about User-Agent [client hints](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Release Date: **January 18, 2022**
 
-* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it will gracefully ignore the `href` attribute instead of failing. This can occur when passing `svg` objects to the link tracking call.
+* The link tracking call `s.tl()` now verifies that the object which is passed to it contains an `href` attribute of type `string`. If it is not a `string`, then it gracefully ignores the `href` attribute instead of failing. This scenario can happen when you pass `svg` objects to the link tracking call.
 
 ## Version 2.22.3
 
 Release Date: **October 11, 2021**
 
-* Updated files that referenced Help documentation to point to the current Help locations.
+* Updated links in files that pointed to documentation.
 
 ## Version 2.22.2
 
 Release Date: **September 7, 2021**
 
-* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. Here is a [full list of consent variables](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. See the [Privacy reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) in the Admin user guide for more information.
 
 ## Version 2.22.1
 

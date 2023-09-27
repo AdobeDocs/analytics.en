@@ -6,7 +6,7 @@ exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 ---
 # Occurrences
 
-The 'Occurrences' metric shows the number of hits where a given dimension was set or persisted. When you drag a dimension in Workspace to a blank canvas, Adobe automatically applies this metric to the project.
+The 'Occurrences' [metric](overview.md) shows the number of hits where a given dimension was set or persisted. When you drag a dimension in Workspace to a blank canvas, Adobe automatically applies this metric to the project.
 
 ## How this metric is calculated
 

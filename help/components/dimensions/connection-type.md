@@ -6,7 +6,7 @@ exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
 ---
 # Connection type
 
-The 'Connection type' dimension shows how the visitor connected to the internet. This dimension is useful to determine how visitors connect to the internet to browse your site. You can use it to optimize site content based on the connection speed of visitors.
+The 'Connection type' [dimension](overview.md) shows how the visitor connected to the internet. This dimension is useful to determine how visitors connect to the internet to browse your site. You can use it to optimize site content based on the connection speed of visitors.
 
 ## Populate this dimension with data
 

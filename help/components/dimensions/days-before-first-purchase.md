@@ -6,7 +6,7 @@ exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
 ---
 # Days before first purchase
 
-The 'Days before first purchase' dimension reports the number of days that pass between the first time a visitor reaches your site and when they make a purchase. For example, if a visitor makes a purchase one day after first visiting, then any subsequent visit or event belongs to the "1 day" dimension item.
+The 'Days before first purchase' [dimension](overview.md) reports the number of days that pass between the first time a visitor reaches your site and when they make a purchase. For example, if a visitor makes a purchase one day after first visiting, then any subsequent visit or event belongs to the "1 day" dimension item.
 
 After a visitor makes their first purchase, they belong to the same dimension item for the remainder of the visitor's cookie lifetime.
 

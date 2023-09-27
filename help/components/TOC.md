@@ -165,6 +165,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Filter segments](segmentation/segmentation-workflow/t-seg-filter.md)
     + [Mark segments as favorites](segmentation/segmentation-workflow/t-seg-favorite.md)
     + [Delete segments](segmentation/segmentation-workflow/seg-delete.md)
+    + [Copy segments](segmentation/segmentation-workflow/seg-copy.md)
     + [Manage segments](segmentation/segmentation-workflow/seg-manage.md)
   + Segment Reference {#segment-reference}
     + [Comparison Operators for Segments](segmentation/seg-reference/seg-operators.md)
@@ -189,8 +190,11 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Filtered and weighted metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
     + [Use functions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
     + [Tag calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+    + [Filter calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+    + [Mark calculated metrics as favorites](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
     + [Approve calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
     + [Share calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+    + [Copy calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
     + [Calculated metrics manager](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
   + Metrics reference {#calcmetrics-reference}
     + [Reference: basic functions](c-calcmetrics/cm-reference/cm-functions.md)

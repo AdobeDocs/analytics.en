@@ -6,7 +6,7 @@ exl-id: eb98aa7f-d5e7-403f-b3b7-a9b0f7ccd502
 ---
 # Identified People
 
-The 'Identified People' metric is a [Cross-Device analytics](../cda/overview.md) metric that counts the number of visitors identified by CDA.
+The 'Identified People' [metric](overview.md) is a [Cross-Device analytics](../cda/overview.md) metric that counts the number of visitors identified by CDA.
 
 ## How this metric is calculated
 

@@ -6,7 +6,7 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 ---
 # eVar
 
-*This help page describes how eVars work as a dimension. For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
+*This help page describes how eVars work as a [dimension](overview.md). For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
 eVars are custom variables that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars], additional to the default dimension available with Adobe Analytics, like 'Page Name', 'Referring Domain', 'Channel'. See [Dimension Overview](overview.md) for more information.  
 

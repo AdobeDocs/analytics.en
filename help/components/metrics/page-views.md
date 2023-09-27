@@ -6,7 +6,7 @@ exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 ---
 # Page Views
 
-The **[!UICONTROL Page views]** metric shows the number of times a given dimension item (dimension value) was defined or persisted (i.e. when it expires) on a page. It is one of the most common and basic metrics in reports.
+The **[!UICONTROL Page views]** [metric](overview.md) shows the number of times a given dimension item (dimension value) was defined or persisted (i.e. when it expires) on a page. It is one of the most common and basic metrics in reports.
 
 For example, the [!UICONTROL Days of Week] dimension is composed of the following dimension items: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday. 
 

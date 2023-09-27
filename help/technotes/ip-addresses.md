@@ -77,9 +77,9 @@ Adobe Analytics uses Amazon Web Services as part of its data collection process.
 
 | Location | Host |
 | --- | --- |
-| China | `52.80.44.16` |
-| China | `52.80.161.58` |
-| China | `140.179.173.142` |
+| China | `52.80.168.159` |
+| China | `52.80.199.104` |
+| China | `54.223.199.8` |
 
 The following table includes AWS IPv6 address blocks used by Adobe. These hosts are **not** included in the aggregate block range above.
 

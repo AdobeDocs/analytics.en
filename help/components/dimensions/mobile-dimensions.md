@@ -8,7 +8,7 @@ exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 
 *This page references properties of mobile devices accessing your website. If you want to track devices on a mobile app, see [Implement Analytics for mobile devices](/help/implement/mobile-device-sdk.md) in the Implement user guide.*
 
-Mobile dimensions provide insight around the properties of mobile devices that visit your site. You can use these dimensions to help understand what features a mobile device supports.
+Mobile [dimensions](overview.md) provide insight around the properties of mobile devices that visit your site. You can use these dimensions to help understand what features a mobile device supports.
 
 ## Populate these dimensions with data
 

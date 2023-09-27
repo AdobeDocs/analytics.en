@@ -31,8 +31,8 @@ To configure configure a notification email for a Data Warehouse request:
 
    |Option | Function | 
    |---------|----------|
-   | Send notification email to | Specify the email addresses of people who should receive email notifications when the report is sent. <p>You can specify a single email address or a comma-separated list of email addresses.</p> | 
-   | Advanced options | Select this option to include a subject and notes for the email when the notification is sent. |
+   | [!UICONTROL **Send notification email to**] | Specify the email addresses of people who should receive email notifications when the report is sent. <p>You can specify a single email address or a comma-separated list of email addresses.</p> | 
+   | [!UICONTROL **Advanced options**] | Select this option to include a subject and notes for the email when the notification is sent. |
 
    {style="table-layout:auto"}
 

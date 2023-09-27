@@ -6,7 +6,7 @@ exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
 ---
 # Average page views per visit
 
-The 'Average page views per visit' dimension shows how many page views occurred on average against your desired dimension. For time-based dimensions, you can see how the average number of page views within a visit trends over time. This metric is helpful when you want to understand how frequently dimension items appear in a visit.
+The 'Average page views per visit' dimension shows how many page views occurred on average against your desired dimension. For time-based dimensions, you can see how the average number of page views within a visit trends over time. This [metric](overview.md) is helpful when you want to understand how frequently dimension items appear in a visit.
 
 >[!TIP]
 >

@@ -8,7 +8,7 @@ exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
 
 *This help page describes how exits work as a metric. For information on how exits work as a dimension, see [Exit dimensions](../dimensions/exit-dimensions.md).*
 
-The 'Exits' metric shows the number of times a given dimension item is captured as the last value in a visit. This metric is helpful when you want to understand more about the last thing visitors see before leaving your site. Seeing the last values of a dimension can help you understand and optimize the experience a visitor gets before they leave.
+The 'Exits' [metric](overview.md) shows the number of times a given dimension item is captured as the last value in a visit. This metric is helpful when you want to understand more about the last thing visitors see before leaving your site. Seeing the last values of a dimension can help you understand and optimize the experience a visitor gets before they leave.
 
 ## How this metric is calculated
 

@@ -6,7 +6,7 @@ exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 ---
 # Time spent per visit
 
-*This help page describes how 'Time spent per visit' works as their respective dimensions. See the [Time spent per visit](../metrics/time-spent-per-visit.md) metric for more information.*
+*This help page describes how 'Time spent per visit' works as their respective [dimensions](overview.md). See the [Time spent per visit](../metrics/time-spent-per-visit.md) metric for more information.*
 
 The 'Time spent per visit' dimensions record the amount of time a visitor spent on the entire visit. It uses the following steps to measure calculation:
 

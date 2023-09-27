@@ -6,7 +6,7 @@ exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 ---
 # Identified state
 
-The 'Identified state' dimension is specific to [Cross-Device Analytics](../cda/overview.md) virtual report suites. It reports if hits are identified (stitched) or not by the system at the time the report is run. This dimension is helpful in understanding how well CDA stitches or "compresses" data.
+The 'Identified state' [dimension](overview.md) is specific to [Cross-Device Analytics](../cda/overview.md) virtual report suites. It reports if hits are identified (stitched) or not by the system at the time the report is run. This dimension is helpful in understanding how well CDA stitches or "compresses" data.
 
 ## Populate this dimension with data
 

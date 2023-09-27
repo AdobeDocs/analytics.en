@@ -6,7 +6,7 @@ exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
 ---
 # Unidentified People
 
-The 'Unidentified People' metric is a [Cross-Device analytics](../cda/overview.md) metric that counts the number of visitors that CDA could not identify.
+The 'Unidentified People' [metric](overview.md) is a [Cross-Device analytics](../cda/overview.md) metric that counts the number of visitors that CDA could not identify.
 
 ## How this metric is calculated
 

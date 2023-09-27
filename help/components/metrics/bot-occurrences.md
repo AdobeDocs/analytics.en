@@ -6,7 +6,7 @@ exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
 ---
 # Bot occurrences
 
-The 'Bot occurrences' metric shows the number of hits that matched [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+The 'Bot occurrences' [metric](overview.md) shows the number of hits that matched [Bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Since bot reporting is separated from the rest of your report suite data, this metric only works with the following dimensions:
 

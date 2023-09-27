@@ -10,7 +10,7 @@ exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 
 ## How this metric is calculated
 
-Considering each [People](people.md) (identified or unidentified), this metric increases if the hit contains the `mid` query string (based on the [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+Considering each [People](people.md) (identified or unidentified), this [metric](overview.md) increases if the hit contains the `mid` query string (based on the [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
 
 You can create the calculated metric `[People with ECID] ÷ [People]` to obtain the percent of visitors to your site using the ID service.
 

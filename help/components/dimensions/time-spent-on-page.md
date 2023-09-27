@@ -6,7 +6,7 @@ exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 ---
 # Time spent on page
 
-The 'Time spent on page' dimension records the amount of time a visitor spent on the page. It uses the following steps to measure calculation:
+The 'Time spent on page' [dimension](overview.md) records the amount of time a visitor spent on the page. It uses the following steps to measure calculation:
 
 1. For a given hit, look at the timestamp.
 2. Compare this hit with the timestamp of the next hit in the visit. Both page view and link tracking hits count.

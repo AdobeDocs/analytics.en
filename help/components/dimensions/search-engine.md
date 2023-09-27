@@ -6,7 +6,7 @@ exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
 ---
 # Search engine
 
-The 'Search engine' dimension reports the search engines that visitors use to reach your site. A referrer must meet both of the following to classify as a search engine:
+The 'Search engine' [dimension](overview.md) reports the search engines that visitors use to reach your site. A referrer must meet both of the following to classify as a search engine:
 
 * The referring domain is recognized by Adobe as a valid search engine;
 * A keyword query string parameter exists in the referring URL. The query string parameter can be blank (as is the case with several search engines due to privacy practices).

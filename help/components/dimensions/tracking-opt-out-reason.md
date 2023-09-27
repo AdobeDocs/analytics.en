@@ -6,7 +6,7 @@ exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
 ---
 # Tracking opt-out reason
 
-*This page refers to the dimension that lets you see potential data impact from enabling certain Report Suite settings. It is not related to the [Adobe Experience Cloud ID Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html).*
+*This page refers to the [dimension](overview.md) that lets you see potential data impact from enabling certain Report Suite settings. It is not related to the [Adobe Experience Cloud ID Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html).*
 
 The 'Tracking opt-out reason' dimension acts as a preview to data that would be excluded if you enabled Privacy Settings. This dimension is primarily used to determine if your implementation would be negatively impacted if you enabled [Privacy Settings](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) under Report Suite Settings.
 

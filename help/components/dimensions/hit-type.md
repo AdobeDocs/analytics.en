@@ -6,7 +6,7 @@ exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
 ---
 # Hit type
 
-The 'Hit type' dimension determines if a mobile app was in the foreground or background when the hit was sent to Adobe data collection servers. This dimension is only relevant to report suites that contain data for mobile applications. Browser data collected through AppMeasurement always reports the hit as "Foreground".
+The 'Hit type' [dimension](overview.md) determines if a mobile app was in the foreground or background when the hit was sent to Adobe data collection servers. This dimension is only relevant to report suites that contain data for mobile applications. Browser data collected through AppMeasurement always reports the hit as "Foreground".
 
 ## Populate this dimension with data
 

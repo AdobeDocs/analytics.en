@@ -6,7 +6,7 @@ exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 ---
 # Referrer
 
-The 'Referrer' dimension reports which URLs visitors were on when clicking through to reach your site. This dimension is useful to understand which specific URLs drive the most traffic to your site. A link must exist on the external URL and a visitor must click it in order for the dimension item to show up.
+The 'Referrer' [dimension](overview.md) reports which URLs visitors were on when clicking through to reach your site. This dimension is useful to understand which specific URLs drive the most traffic to your site. A link must exist on the external URL and a visitor must click it in order for the dimension item to show up.
 
 >[!IMPORTANT]
 >

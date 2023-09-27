@@ -11,7 +11,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | Analytics Tools Permission Item | Description |
 |----|----|
 | [!UICONTROL Activity Map] | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
-| [!UICONTROL Advertising Analytics Management] | Not used. |
+| [!UICONTROL Advertising Analytics Management] | Lets users set up/edit/view advertising search accounts. |
 | [!UICONTROL Analysis Workspace Access]| Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Grants access to Project > Save As Template within Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Grants the ability to create annotations. |

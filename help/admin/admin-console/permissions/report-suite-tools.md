@@ -11,7 +11,7 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | Report Suite Tools Permission Item | Description |
 |------|------|
 | [!UICONTROL Account Summary] | Grants access to General > General Account Settings in the Report Suite Manager. |
-| [!UICONTROL Advertising Analytics Configuration] | Grants access to all aspects of setting up Advertising Analytics. |
+| [!UICONTROL Advertising Analytics Configuration] | Lets users configure report suites to be provisioned for Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Grants access to Anomaly Detection in Analysis Workspace. |
 | [!UICONTROL Bot Pages] | Grants access to Site Metrics > Bots > Bot Pages report in Reports & Analytics. |
 | [!UICONTROL Bots]| Grants access to Site Metrics > Bots > Bots report in Reports & Analytics. |
@@ -38,8 +38,8 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | [!UICONTROL RealTime Report] | Grants access to Site Metrics > Real-Time in Reports & Analytics. Use the permission item 'Real Time Report Configuration' to grant access to set up this report. |
 | [!UICONTROL Real Time Report Configuration ]| Grants access to Real-Time in the Report Suite Manager. Use the permission item 'RealTime Report' to grant access to the report itself. |
 | [!UICONTROL Return Visits] | Grants access to Visitor Retention > Return Visits in Reports & Analytics. |
-| [!UICONTROL Reporting Activity Manager Admins] | Grants access to the details page and ability to cancel requests. |
-| [!UICONTROL Reporting Activity Manager Access] |  |
+| [!UICONTROL Reporting Activity Manager Admins] | TBD |
+| [!UICONTROL Reporting Activity Manager Access] | TBD |
 | [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager, but does not allow any changes. |
 | [!UICONTROL R&A Dashboard Image Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard Metric Gauge Reportlet] | Not used |

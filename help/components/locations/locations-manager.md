@@ -6,11 +6,9 @@ feature: Classifications
 ---
 # Locations manager
 
-The Locations manager allows you to create, edit, or delete locations.
+The Locations manager allows you to create, edit, or delete locations. These locations allow you to save and reuse destinations for exported files, or sources for imported files. The Location manager is available once all report suites in your organization use the [Classification set](../classifications/sets/overview.md) architecture.
 
 **[!UICONTROL Components]** > **[!UICONTROL Locations]** 
-
-In order to import Adobe Analytics classification data from a cloud destination, you first need to add and configure the location where you want the classification data to be collected. This page explains the various options available on the Locations page.
 
 ## Filter locations
 
@@ -47,4 +45,4 @@ The following options are available in the Locations manager:
 Select the checkbox next to a location to reveal the following options:
 
 * **[!UICONTROL Edit]**: Allows you to edit the selected location. For information about available fields that you can edit, see [Configure cloud import locations](/help/components/locations/configure-import-accounts.md).
-* **[!UICONTROL Delete]**: Deletes the selected locations. This option allows you to select multiple locations. 
+* **[!UICONTROL Delete]**: Deletes the selected locations. This option allows you to select multiple locations.

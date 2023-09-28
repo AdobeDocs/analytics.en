@@ -17,6 +17,8 @@ The migration process includes:
 
 ## Prepare for a migration
 
+Before you begin migrating projects in your organization, complete the prerequisites, learn what is and is not migrated, and create a migration plan for your organization.
+
 ### Prerequisites
 
 Before your projects and their associated dimensions and metrics are ready to migrate, you first need to:
@@ -66,7 +68,7 @@ The following table outlines which elements of a project and component are inclu
 
 Because any components that are matched for a given project migration apply to any future project migrations for the entire organization, it's important that your organization plans all project migrations in advance. 
 
-You should decide as an organization which dimensions and metrics will be matched what gets matched with what, in order to avoid individual administrators making decisions in a silo at the time of a project's migration.
+You should decide as an organization how dimensions and metrics will be matched. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
 
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 

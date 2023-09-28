@@ -15,7 +15,9 @@ The migration process includes:
 
   Some dimensions and metrics are automatically matched; others you must manually match as part of the migration process.
 
-## Prerequisites
+## Prepare for a migration
+
+### Prerequisites
 
 Before your projects and their associated dimensions and metrics are ready to migrate, you first need to:
 
@@ -31,7 +33,36 @@ Before your projects and their associated dimensions and metrics are ready to mi
 
   The Permissions tab is part of each product profile in Admin Console. You can add users to specific product profiles. Then you assign rights to specific data views and specify which permissions the users in a product profile have. 
 
-## Create a migration plan as an organization
+* Create a migration plan, as described in the section below, [Create a migration plan as an organization](#create-a-migration-plan-as-an-organization).
+
+### Understand what is included in a migration
+
+The following table outlines which elements of a project and component are included in a migration:
+
+
+|  | Projects | Dimensions and metrics |
+|---------|----------|---------|
+| **Date ranges** | Yes | N/A |
+| **Segments** | Yes | N/A |
+| **Quick segments** | Yes | N/A |
+| **Panels** | Yes | N/A |
+| **Visualizations** | Yes | N/A |
+| **Owner** | (Defined by user doing the migration) | ? |
+| **Curation** | No | N/A |
+| **Sharing (project roles)** | No | No |
+| **Annotations** | No | N/A |
+| **Folder structure** | No | N/A |
+| **Descriptions** | Yes | ? |
+| **Tags** | ? | ? |
+| **Schedules** | ? | N/A |
+| **Attribution (on dimensions)** | N/A | ? |
+| **Anomaly Detection** | ? | N/A |
+| **Contribution Analysis** | ? | N/A |
+| **Alerts** | ? | N/A |
+
+{style="table-layout:auto"}
+
+### Create a migration plan as an organization
 
 Because any components that are matched for a given project migration apply to any future project migrations for the entire organization, it's important that your organization plans all project migrations in advance. 
 
@@ -43,7 +74,7 @@ You should decide as an organization which dimensions and metrics will be matche
 >
 >Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Plan the migration](#plan-the-migration) section above. 
 >
->Any dimensions or metrics you match are permanent, both for this project and for all future projects that are migrated throughout your entire organization. If you continue, the matches you make cannot be modified.
+>Any dimensions or metrics you match are permanent, both for this project and for all future projects that are migrated throughout your entire organization. Any matches that you make cannot be modified.
 
 
 

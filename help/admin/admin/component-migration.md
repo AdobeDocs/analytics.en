@@ -60,7 +60,6 @@ The following table outlines which elements of a project and component are inclu
 | **Contribution Analysis** | ? | N/A |
 | **Alerts** | ? | N/A |
 
-
 {style="table-layout:auto"}
 
 ### Create a migration plan as an organization

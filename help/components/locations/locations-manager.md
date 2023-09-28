@@ -9,6 +9,7 @@ feature: Classifications
 The Locations manager allows you to create, edit, or delete locations.
 
 **[!UICONTROL Components]** > **[!UICONTROL Locations]** 
+**NOTE** Locations Manager will not show up in the UI until all report suites have been migrated to Classification Sets UI. Contact your account team for further questions.
 
 In order to import Adobe Analytics classification data from a cloud destination, you first need to add and configure the location where you want the classification data to be collected. This page explains the various options available on the Locations page.
 

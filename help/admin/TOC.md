@@ -4,8 +4,6 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 breadcrumb-title: Admin Guide
 user-guide-description: Learn about Analytics administration tasks, such managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
-hide: yes
-hidefromtoc: yes
 ---
 
 # Adobe Analytics Admin Guide {#admin}

@@ -6,6 +6,7 @@ feature: Admin Tools
 ---
 # Analytics Permissions in the Admin Console
 
+<!--This page is no longer in the TOC. It's a duplication of info and contradicts some of the info in the Report Suite Tools and Analytics Tools topics. -->
 Use the following summary tables to identify Adobe Analytics permissions in the Adobe Admin Console, by logical groupings.
 
 ## Report Suite Tools

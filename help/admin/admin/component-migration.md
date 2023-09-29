@@ -7,23 +7,25 @@ hidefromtoc: yes
 ---
 # Migrate components and projects from Adobe Analytics to Customer Journey Analytics
 
-Adobe Analytics administrators can migrate Adobe Analytics components and projects to Customer Journey Analytics. 
+Adobe Analytics administrators can migrate Adobe Analytics projects and their associated components to Customer Journey Analytics. 
 
 The migration process includes:
 
-* Re-creating Adobe Analytics projects in Customer Journey Analytics.
+* Re-creating Adobe Analytics projects in Customer Journey Analytics. 
 
 * Mapping dimensions and metrics from Adobe Analytics report suites to dimensions and metrics in Customer Journey Analytics data views. 
 
-  Some dimensions and metrics are automatically mapped; others you must manually map as part of the migration process.
+  Some dimensions and metrics are automatically mapped; others you must manually map as part of the migration process. Segments are also migrated, but they do not need to be mapped as part of the migration process. 
+  
+  All migrated components display in the migration summary when the migration completes.
 
 ## Prepare for a migration
 
-Before you begin migrating projects in your organization, complete the prerequisites, learn what is and is not migrated, and create a migration plan for your organization.
+Before anyone in your organization begins migrating projects, complete the following sections.
 
 ### Prerequisites
 
-Before your projects and their associated dimensions and metrics are ready to migrate, you first need to:
+Before your projects and their associated components are ready to migrate, you first need to:
 
 * Use the Analytics source connector to view Adobe Analytics report suite data in Customer Journey Analytics. To do that, you need to:
 
@@ -41,28 +43,43 @@ Before your projects and their associated dimensions and metrics are ready to mi
 
 ### Understand what is included in a migration
 
-The following table outlines which elements of a project and component are included in a migration:
+The following tables outlines which elements of a project and component are included in a migration:
 
+#### Component elements that are migrated
 
-|  | Projects | Dimensions and metrics |
-|---------|----------|---------|
-| **Date ranges** | Yes | N/A |
-| **Segments** | Yes | N/A |
-| **Quick segments** | Yes | N/A |
-| **Panels** | Yes | N/A |
-| **Visualizations** | Yes | N/A |
-| **Owner** | (Defined by user doing the migration) | ? |
-| **Curation** | No | N/A |
-| **Sharing (project roles)** | No | No |
-| **Annotations** | No | N/A |
-| **Folder structure** | No | N/A |
-| **Descriptions** | Yes | ? |
-| **Tags** | ? | ? |
-| **Schedules** | ? | N/A |
-| **Attribution (on dimensions)** | N/A | ? |
-| **Anomaly Detection** | ? | N/A |
-| **Contribution Analysis** | ? | N/A |
-| **Alerts** | ? | N/A |
+|  | Migrated |
+|---------|---------|
+| **Owner** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **Sharing** | No |
+| **Descriptions** | ? |
+| **Tags** | No |
+| **Attribution (on dimensions)** | ? |
+
+{style="table-layout:auto"}
+
+#### Project elements that are migrated
+
+|  | Migrated | 
+|---------|----------|
+| **Date ranges** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
+| **[Metrics](/help/components/metrics/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
+| **[Panels](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Owner](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Defined by user doing the migration | 
+| **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | No | 
+| **[Sharing (project roles)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | No |
+| **[Sharing (share with anyone link)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> | 
+| **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No | 
+| **[Folder structure](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No | 
+| **Descriptions** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **Tags** | No | 
+| **Schedules** | No |
+| **Anomaly Detection** | ? | 
+| **Contribution Analysis** | ? |
+| **[Favorites](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
 

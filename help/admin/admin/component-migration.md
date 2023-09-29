@@ -78,10 +78,37 @@ The following tables outlines which elements of a project and component are incl
 | **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | No | 
 | **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
 | **[Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? | 
-| **[Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)** | ? |
 | **[Favorites](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+### Understand unsupported elements that cause a migration to fail
+
+The following visualizations, panels, and features are not supported in Customer Journey Analytics. 
+
+Remove these elements from the Adobe Analytics project before migrating the project to Customer Journey Analytics. If a migration fails, remove these elements before retrying the migration.
+
+#### Unsupported Visualizations
+
+* [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Unsupported Panels
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Media Average Minute Audience](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Next or previous item](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Unsupported features
+
+* [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Alerts](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Create a migration plan as an organization
 

@@ -52,7 +52,7 @@ The following tables outlines which elements of a project and component are incl
 | **[Owner](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
 | **[Sharing](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | No |
 | **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[Tags](/(/help/analyze/analysis-workspace/components/analysis-workspace-components.md))** | No |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | No |
 | **[Attribution (on dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
@@ -61,7 +61,7 @@ The following tables outlines which elements of a project and component are incl
 
 |  | Migrated | 
 |---------|----------|
-| **[Date ranges](/../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
@@ -82,9 +82,9 @@ The following tables outlines which elements of a project and component are incl
 
 {style="table-layout:auto"}
 
-### Understand unsupported elements that cause a migration to fail
+### Understand unsupported elements that cause errors
 
-The following visualizations, panels, and features are not supported in Customer Journey Analytics. 
+The following visualizations, panels, and features are not supported in Customer Journey Analytics. When these elements are included in a project prior to migration, they can either cause the migration to fail or they can result in errors after the project is migrated.
 
 Remove these elements from the Adobe Analytics project before migrating the project to Customer Journey Analytics. If a migration fails, remove these elements before retrying the migration.
 

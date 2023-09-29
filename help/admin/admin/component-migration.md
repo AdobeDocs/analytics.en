@@ -208,11 +208,13 @@ You should decide as an organization how dimensions and metrics will be mapped. 
 
 If a migration fails, you can retry the migration.
 
-You can retry a failed migration in either of the following ways:
+Before retrying a failed migration, make sure you remove any [unsupported elements](#understand-unsupported-elements-that-cause-errors) from the project.
 
 >[!NOTE]
 >
 >If the migration continues to fail after retrying, contact Customer Care with the project ID. You can find the project ID on the Migration status page. <!-- when does this page display? How can they get there -->
+
+To retry a failed migration:
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 

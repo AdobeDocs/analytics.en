@@ -49,11 +49,11 @@ The following tables outlines which elements of a project and component are incl
 
 |  | Migrated |
 |---------|---------|
-| **Owner** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
-| **Sharing** | No |
-| **Descriptions** | ? |
-| **Tags** | No |
-| **Attribution (on dimensions)** | ? |
+| **[Owner](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Sharing](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | No |
+| **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Tags](/(/help/analyze/analysis-workspace/components/analysis-workspace-components.md))** | No |
+| **[Attribution (on dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
 
@@ -61,7 +61,7 @@ The following tables outlines which elements of a project and component are incl
 
 |  | Migrated | 
 |---------|----------|
-| **Date ranges** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Date ranges](/../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
 | **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
@@ -74,11 +74,11 @@ The following tables outlines which elements of a project and component are incl
 | **[Sharing (share with anyone link)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> | 
 | **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No | 
 | **[Folder structure](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No | 
-| **Descriptions** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **Tags** | No | 
-| **Schedules** | No |
-| **Anomaly Detection** | ? | 
-| **Contribution Analysis** | ? |
+| **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | No | 
+| **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
+| **[Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? | 
+| **[Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)** | ? |
 | **[Favorites](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}

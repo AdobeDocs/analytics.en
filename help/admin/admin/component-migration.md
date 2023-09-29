@@ -110,11 +110,89 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 
 * [Alerts](/help/components/c-alerts/intellligent-alerts.md)
 
-### Create a migration plan as an organization
+### Decide as an organization how you will map unsupported components
 
-Because any components that are mapped for a given project migration apply to any future project migrations for the entire organization, it's important that your organization plans all project migrations in advance. 
+>[!IMPORTANT]
+>
+>The migration process identifies components in your Adobe Analytics project that can't be automatically mapped to components in Customer Journey Analytics, and it allows you to manually map them. 
+>
+>**Any mappings made on one project apply to all future projects across your entire organization, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.** 
+>
+>Because of this, it's important that your organization decides how dimensions and metrics will be mapped before any projects are migrated. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
+>
+>Following is a list of dimensions and metrics that you must manually map if they exist in your project. We recommend reviewing this list before your migration. If any of these components exist in your project, decide now which Customer Journey Analytics components you will map them to.
 
-You should decide as an organization how dimensions and metrics will be mapped. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
+
+#### Unsupported dimensions
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Unsupported metrics
+
+* timespentvisit
+* timespentvisitor
+* reloads
+* bounces
+* bouncerate
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* newengagements
+* time_granularity
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* devices
+* estimatedpeople
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 

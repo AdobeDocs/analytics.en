@@ -105,7 +105,7 @@ Dimension items include the zip or postal code of the visitor.
 * Sri Lanka
 * Sweden
 * Switzerland
-* Taiwan region
+* Taiwan Region
 * Thailand
 * Tunisia
 * Turkey

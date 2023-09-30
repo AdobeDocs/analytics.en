@@ -42,7 +42,7 @@ The following options are available in the Locations manager:
 * **[!UICONTROL Load more]**: The Locations manager initially displays up to 1,000 locations. This button loads 1,000 more locations.
 * **Customize table**: The Customize table icon ![Customize table icon](assets/customize-table-icon.png) allows you to choose which columns are displayed in the table.
 
-Select the checkbox next to a location to reveal the following options:
+Selecting a checkbox next to a location reveals the following options:
 
 * **[!UICONTROL Edit]**: Allows you to edit the selected location. For information about available fields that you can edit, see [Configure cloud import locations](/help/components/locations/configure-import-accounts.md).
 * **[!UICONTROL Delete]**: Deletes the selected locations. This option allows you to select multiple locations.

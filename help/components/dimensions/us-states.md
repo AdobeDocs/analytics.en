@@ -10,7 +10,10 @@ The 'US state' [dimension](overview.md) reports the state of the visitor in the 
 
 ## Populate this dimension with data 
 
-This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with [Digital Element](https://www.digitalelement.com/) to maintain lookups between IP address and country. This dimension works out of the box for all implementations.
+This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with [Digital Element](https://www.digitalelement.com/) to maintain lookups between IP address and country.
+
+* For AppMeasurement implementations, this dimension works out of the box.
+* For Web SDK implementations, enable [!UICONTROL Geo Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension items
 

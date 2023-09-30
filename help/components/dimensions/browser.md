@@ -10,7 +10,10 @@ The '[!UICONTROL Browser]' [dimension](overview.md) reports the name and version
 
 ## Populate this dimension with data
 
-This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box.
+This dimension references a lookup table internal to Adobe. The lookup value is based on the `User-Agent` HTTP header in image requests. Adobe partners with [DeviceAtlas](https://deviceatlas.com/) to maintain lookups between user agent and browser.
+
+* For AppMeasurement implementations, this dimension works out of the box.
+* For Web SDK implementations, enable [!UICONTROL Device Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension items
 

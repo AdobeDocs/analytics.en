@@ -10,7 +10,10 @@ The 'US DMA' [dimension](overview.md) reports the designated market area (DMA) o
 
 ## Populate this dimension with data 
 
-This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with Nielsen to maintain lookups between IP address and DMA. This dimension works out of the box for all implementations.
+This dimension references lookup rules internal to Adobe. The lookup value is based on the IP address sent with the hit. Adobe partners with Nielsen to maintain lookups between IP address and DMA.
+
+* For AppMeasurement implementations, this dimension works out of the box.
+* For Web SDK implementations, enable [!UICONTROL Geo Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension items
 

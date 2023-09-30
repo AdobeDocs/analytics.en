@@ -10,7 +10,10 @@ The 'Domain' [dimension](overview.md) reports access points that visitors use to
 
 ## Populate this dimension with data
 
-Adobe partners with [Digital Element](https://www.digitalelement.com/) to determine the access point domain. Several methods, including reverse DNS lookup, are used to determine the access point domain. It does not require any configuration, and does not have a variable to populate. It works out of the box with all AppMeasurement implementations.
+Adobe partners with [Digital Element](https://www.digitalelement.com/) to determine the access point domain. Several methods, including reverse DNS lookup, are used to determine the access point domain. It does not require any configuration, and does not have a variable to populate.
+
+* For AppMeasurement implementations, this dimension works out of the box.
+* For Web SDK implementations, enable [!UICONTROL Network Lookup] when [configuring a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## Dimension items
 

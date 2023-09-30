@@ -103,7 +103,9 @@ hidefromtoc: yes
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
         + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
       + [Default Metrics](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-      + [App Management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + App Management {app-management}
+        + [App Reporting](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+        + [App Classifications](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
       + [Media Management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
       + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
       + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)

@@ -347,8 +347,8 @@ Release Date: **June 18, 2015**
 
 Release Date: **May 21, 2015**
 
-* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps. See [iOS extension implementation](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) in the Mobile services user guide.
-* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app. See [Android wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) in the Mobile services user guide.
+* Starting in iOS SDK version 4.5, a new iOS extension lets you collect usage data from your Apple Watch apps, Today widgets, Photo Editing widgets, and all other iOS extension apps.
+* Starting in Android SDK version 4.5, a new Android extension lets you collect data from your Android wearable app.
 * Inclusion of Visitor API 1.4.
 * Updated AudienceManagement module to use DIL version 6.0.
 

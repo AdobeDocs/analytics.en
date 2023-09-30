@@ -38,8 +38,8 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | [!UICONTROL RealTime Report] | Grants access to Site Metrics > Real-Time in Reports & Analytics. Use the permission item 'Real Time Report Configuration' to grant access to set up this report. |
 | [!UICONTROL Real Time Report Configuration ]| Grants access to Real-Time in the Report Suite Manager. Use the permission item 'RealTime Report' to grant access to the report itself. |
 | [!UICONTROL Return Visits] | Grants access to Visitor Retention > Return Visits in Reports & Analytics. |
-| [!UICONTROL Reporting Activity Manager Admins] | TBD |
-| [!UICONTROL Reporting Activity Manager Access] | TBD |
+| [!UICONTROL Reporting Activity Manager Admins] | Not used |
+| [!UICONTROL Reporting Activity Manager Access] | Not used |
 | [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager, but does not allow any changes. |
 | [!UICONTROL R&A Dashboard Image Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard Metric Gauge Reportlet] | Not used |

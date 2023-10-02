@@ -178,7 +178,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
   + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
-+ Calculated Metrics {#calculated-metrics}
++ Calculated metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) metrics](c-calcmetrics/cm-overview.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
   + Calculated metrics workflow {#calcmetric-workflow}

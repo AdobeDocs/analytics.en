@@ -1,13 +1,13 @@
 ---
 description: Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
-title: Calculated Metrics
+title: Calculated metrics
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 ---
-# Calculated Metrics
+# Calculated metrics
 
-Report Builder 5.2 supports Adobe Analytics Unified Calculated Metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
+Report Builder 5.2 supports Adobe Analytics unified calculated metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
 
 >[!NOTE]
 >
@@ -17,7 +17,7 @@ To find out more about how to create and manage calculated metrics with the new 
 
 In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
-## Filter Calculated Metrics {#section_376E986D3E684999A7CDB08E53854159}
+## Filter calculated metrics {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filter** calculated metrics by clicking on the Filter icon:  ![Screenshot of the Filter options showing the Application, User, Project fields.](/help/admin/admin/assets/filter.png)
 
@@ -37,7 +37,7 @@ Available filters include:
 |  Other Filters > Mine  | Shows all metrics that you own.  |
 |  Other Filters > Shared with Me  | Shows all metrics that others shared with you.  |
 
-## Apply Calculated Metrics {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## Apply calculated metrics {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. The selected metric(s) are now added to the report layout.
 

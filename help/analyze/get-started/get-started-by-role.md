@@ -2,6 +2,7 @@
 description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
 title: Get started for administrators, analysts, end users, and developers
 feature: Analytics Basics
+exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 ---
 # Get started for administrators, analysts, end users, and developers
 
@@ -143,4 +144,4 @@ For information about how to create analyses in Analysis Workspace, see [Analysi
 
 [Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. 
 
-You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics. 
+You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics.

@@ -2,6 +2,7 @@
 description: Steps that describe how to create a Data Warehouse request.
 title: Configure a report destination for a Data Warehouse request
 feature: Data Warehouse
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 ---
 # Configure a report destination for a Data Warehouse request
 

@@ -2,6 +2,7 @@
 title: Voice analytics metrics
 description: Voice analytics metrics
 feature: Metrics
+exl-id: 3c1b4e4e-d8d2-446f-9582-a2ce5580a8d3
 ---
 # Voice analytics metrics
 

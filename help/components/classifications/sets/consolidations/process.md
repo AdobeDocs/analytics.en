@@ -1,7 +1,7 @@
 ---
 title: Classification set consolidation process
 description: The full process of consolidating  classification sets.
-exl-id: 315d45fa-2819-4778-a88e-65a7cce64148
+exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
 ---
 # Classification set consolidation process

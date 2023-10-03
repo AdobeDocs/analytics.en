@@ -4,6 +4,7 @@ title: Migrate components and projects from Adobe Analytics to Customer Journey 
 feature: Admin Tools
 hide: yes
 hidefromtoc: yes
+exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
 ---
 # Migrate components and projects from Adobe Analytics to Customer Journey Analytics
 

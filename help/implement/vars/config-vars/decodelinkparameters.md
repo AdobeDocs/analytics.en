@@ -1,7 +1,7 @@
 ---
 title: decodeLinkParameters
 description: Enable or disable AppMeasurement double-encoding link tracking variables.
-exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
+exl-id: 329c521a-b965-4114-93ce-f45f159d4a20
 feature: Variables
 ---
 # decodeLinkParameters

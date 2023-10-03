@@ -2,6 +2,7 @@
 title: bufferRequests
 description: Enhance the reliability of capturing link tracking requests for browsers that immediately unload the page.
 feature: Variables
+exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 ---
 # bufferRequests
 

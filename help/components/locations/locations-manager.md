@@ -3,6 +3,7 @@ description: Configure the cloud import account and location where classificatio
 keywords: Analysis Workspace
 title: Locations manager
 feature: Classifications
+exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 

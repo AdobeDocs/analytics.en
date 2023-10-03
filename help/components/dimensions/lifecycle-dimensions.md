@@ -2,6 +2,7 @@
 title: Mobile lifecycle dimensions
 description: Dimensions based on data collected using the Mobile SDK.
 feature: Dimensions
+exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 ---
 # Mobile lifecycle dimensions
 

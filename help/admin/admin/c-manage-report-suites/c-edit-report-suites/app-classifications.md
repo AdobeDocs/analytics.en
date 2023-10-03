@@ -1,6 +1,7 @@
 ---
 title: App classifications
 description: Classify app reporting dimensions.
+exl-id: b12992f6-2281-4600-8fe9-eea51854a87c
 ---
 # App classifications
 

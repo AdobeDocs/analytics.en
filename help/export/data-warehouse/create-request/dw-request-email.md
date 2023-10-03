@@ -2,6 +2,7 @@
 description: Steps that describe how to create a Data Warehouse request.
 title: Configure report options for a Data Warehouse request
 feature: Data Warehouse
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 ---
 # Configure a notification email for a Data Warehouse request
 

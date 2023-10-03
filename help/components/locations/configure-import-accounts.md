@@ -3,6 +3,7 @@ description: Configure the cloud import account and location where classificatio
 keywords: Analysis Workspace
 title: Configure cloud import accounts
 feature: Classifications
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 ---
 # Configure cloud import accounts
 
@@ -89,4 +90,3 @@ To configure a cloud import account:
 1. Select [!UICONTROL **Save**].
 
 1. Continue with [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
-

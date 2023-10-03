@@ -2,6 +2,7 @@
 description: Steps that describe how to create a Data Warehouse request.
 title: Data Warehouse request general settings
 feature: Data Warehouse
+exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 ---
 # Data Warehouse request general settings
 

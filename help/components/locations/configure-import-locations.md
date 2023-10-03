@@ -3,6 +3,7 @@ description: Configure the cloud import account and location where classificatio
 keywords: Analysis Workspace
 title: Configure cloud import locations
 feature: Classifications
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 ---
 # Configure cloud import locations
 

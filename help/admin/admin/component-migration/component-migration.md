@@ -20,187 +20,15 @@ The migration process includes:
 
 ## Prepare for a migration
 
-Before anyone in your organization begins migrating projects, complete the following sections.
-
-### Prerequisites
-
-Before your projects and their associated components are ready to migrate, you first need to:
-
-* Use the Analytics source connector to view Adobe Analytics report suite data in Customer Journey Analytics. To do that, you need to:
-
-  * [Set up report suites for ingestion into Adobe Experience Platform and Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
-
-  * [Ingest and use the data](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
-
-* Ensure that users in Customer Journey Analytics are provisioned to the data views where data is being mapped. 
-
-  For more information, see [Customer Journey Analytics permissions in the Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analytics access control](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
-
-  The Permissions tab is part of each product profile in Admin Console. You can add users to specific product profiles. Then you assign rights to specific data views and specify which permissions the users in a product profile have. 
-
-* Create a migration plan, as described in the section below, [Create a migration plan as an organization](#create-a-migration-plan-as-an-organization).
-
-### Understand what is included in a migration
-
-The following tables outlines which elements of a project and component are included in a migration:
-
-#### Component elements that are migrated
-
-Dimensions and metrics are migrated as part of the mapping process described in [Migrate Adobe Analytics projects to Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), whereas segments and date ranges are re-created in Customer Journey Analytics based on the
-
-|  | Migrated |
-|---------|---------|
-| **[Owner](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensions and metrics: No<p>Segments and date ranges: ![check mark](assets/Smock_Checkmark_18_N.svg)</p> |
-| **[Sharing](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions and metrics: No<p>Segments and date ranges: No</p> |
-| **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensions and metrics: No<p>Segments and date ranges: ![check mark](assets/Smock_Checkmark_18_N.svg)</p> |
-| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions and metrics: No<p>Segments and date ranges: No</p> |
-| **[Attribution (on dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensions and metrics: No<p>Segments and date ranges: No</p> |
-
-{style="table-layout:auto"}
-
-#### Project elements that are migrated
-
-|  | Migrated | 
-|---------|----------|
-| **[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
-| **[Metrics](/help/components/metrics/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
-| **[Panels](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
-| **[Owner](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Defined by user doing the migration | 
-| **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | No | 
-| **[Sharing (project roles)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | No <!-- Add info on Share with Anyone? Is it the same?--> | 
-| **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No | 
-| **[Folder structure](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No | 
-| **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | No | 
-| **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
-
-{style="table-layout:auto"}
-
-<!-- What about Anomaly Detection and Favorites? -->
-
-### Understand unsupported elements that cause errors
-
-The following visualizations, panels, and features are not supported in Customer Journey Analytics. When these elements are included in a project prior to migration, they can either cause the migration to fail or they can result in errors after the project is migrated.
-
-Remove these elements from the Adobe Analytics project before migrating the project to Customer Journey Analytics. If a migration fails, remove these elements before retrying the migration.
-
-#### Unsupported Visualizations
-
-* [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
-
-#### Unsupported Panels
-
-* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
-
-* [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-
-* [Media Average Minute Audience](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
-
-* [Next or previous item](/help/analyze/analysis-workspace/c-panels/next-previous.md)
-
-* [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
-
-#### Unsupported features
-
-* [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [Alerts](/help/components/c-alerts/intellligent-alerts.md)
-
-### Decide as an organization how you will map components
-
->[!IMPORTANT]
->
->The migration process identifies components in your Adobe Analytics project that can't be automatically mapped to components in Customer Journey Analytics, and it allows you to manually map them. 
->
->**Any mappings made on one project apply to all future projects across your entire organization, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.** 
->
->Because of this, it's important that your organization decides how dimensions and metrics will be mapped before any projects are migrated. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
->
->Following is a list of dimensions and metrics that you must manually map if they exist in your project. We recommend reviewing this list before your migration. If any of these components exist in your project, decide now which Customer Journey Analytics components you will map them to.
-
-
-#### Dimensions that must be manually mapped
-
-* averagepagetime
-* pagetimeseconds
-* singlepagevisits
-* visitnumber
-* timeprior
-* timespent
-* category
-* connectiontype
-* customerloyalty
-* customlink
-* downloadlink
-* exitlink
-* hitdepth
-* hittype
-* pathlength
-* daysbeforefirstpurchase
-* dayssincelastpurchase
-* dayssincelastvisit
-* identificationstate
-* optoutreason
-* persistentcookie
-* returnfrequency
-* searchenginenatural
-* searchenginenaturalkeyword
-* mobilecarrier
-* monitorresolution
-* surveybase
-* mcaudiences
-* tntbase
-* targetraw
-
-
-#### Metrics that must be manually mapped
-
-* timespentvisit
-* timespentvisitor
-* reloads
-* bounces
-* bouncerate
-* pageevents
-* pageviewspervisit
-* orderspervisit
-* averagepagedepth
-* averagetimespentonsite
-* exitlinkinstances
-* customlinkinstances
-* downloadlinkinstances
-* darkvisitors
-* singlepagevisits
-* singlevaluevisits
-* visitorhomepage
-* visitorsmcvisid
-* pagesnotfound
-* newengagements
-* time_granularity
-* concurrent_viewers_visitors
-* concurrent_viewers_occurrences
-* devices
-* estimatedpeople
-* playback_time_spent_seconds
-* playback_time_spent_minutes
-* average_minute_audience_time_based
-* average_minute_audience_media_time
-* average_minute_audience_content_time
-* video_length
-* targetconversion
-* targetimpression
-
+Before you migrate any projects to Customer Journey Analytics, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
 
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Plan the migration](#plan-the-migration) section above. 
+>Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
 >
->Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire organization. Any mappings that you make cannot be modified after the migration comlpetes.
+>Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire organization. Any mappings that you make cannot be modified after the migration completes.
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 
@@ -237,6 +65,10 @@ Remove these elements from the Adobe Analytics project before migrating the proj
    Some dimensions and metrics in Adobe Analytics are automatically mapped to a dimension or metric in Customer Journey Analytics. Others need to be manually mapped.
 
    **Automatically map dimensions and metrics**
+
+   >[!NOTE]
+   >
+   >   If you used the WebSDK to ingest data into Adobe Experience Platform, dimensions and metrics cannot be automatically mapped. For more information, see [Prerequisites](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) in [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
    Some dimensions and metrics in Adobe Analytics are automatically mapped to a dimension or metric in Customer Journey Analytics. You can't make any mapping decisions for these dimensions and metrics.
    

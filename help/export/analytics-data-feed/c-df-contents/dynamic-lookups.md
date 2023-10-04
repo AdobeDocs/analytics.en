@@ -1,7 +1,7 @@
 ---
 title: Dynamic lookups
 description: Learn about what dynamic lookups are and how to enable them. Includes carriers, mobile attributes, and operating system types.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 ---
 # Dynamic lookups

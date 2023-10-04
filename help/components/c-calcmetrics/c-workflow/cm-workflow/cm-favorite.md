@@ -2,6 +2,7 @@
 description: Marking calculated metrics as favorites is another way to organize them for ease of use.
 title: Mark calculated metrics as favorites
 feature: Calculated Metrics
+exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
 ---
 # Mark calculated metrics as favorites
 

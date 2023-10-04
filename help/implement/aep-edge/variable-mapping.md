@@ -12,16 +12,16 @@ Previous updates to this table can be found on this page's [commit history on Gi
 
 | XDM field path  | Analytics dimension and description |
 | --- | --- |
-| `application.isClose` | Helps define the mobile metric [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isInstall` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | Helps determine when to increase the mobile metric [First Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | Determines if a close event is a crash or not. Valid values include `close` (A lifecycle session ends and a pause event was received for the previous session) and `unknown` (A lifecycle session ends without a pause event). Helps set the [Crashes](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) metric. |
-| `application.isInstall` | The mobile metric [Installs](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | The mobile metric [Launches](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.name` | Helps set the mobile dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.isUpgrade` | The mobile metric [Upgrades](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.version` | Helps set the mobile dimension [App ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.sessionLength` | The mobile metric [Previous Session Length](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isClose` | Helps define the mobile lifecycle metric [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isInstall` | Helps determine when to increase the mobile lifecycle metric [First Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | Helps determine when to increase the mobile lifecycle metric [First Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.closeType` | Determines if a close event is a crash or not. Valid values include `close` (A lifecycle session ends and a pause event was received for the previous session) and `unknown` (A lifecycle session ends without a pause event). Helps set the mobile lifecycle metric [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) metric. |
+| `application.isInstall` | The mobile lifecycle metric [Installs](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | The mobile lifecycle metric [Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.name` | Helps set the mobile lifecycle dimension [App ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isUpgrade` | The mobile lifecycle metric [Upgrades](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.version` | Helps set the mobile lifecycle dimension [App ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.sessionLength` | The mobile lifecycle metric [Previous Session Length](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `commerce.checkouts.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Checkouts](../../components/metrics/checkouts.md) metric. |
 | `commerce.checkouts.value` | Increments the [Checkouts](../../components/metrics/checkouts.md) metric by the desired amount. |
 | `commerce.order.currencyCode` | Sets the [currencyCode](../vars/config-vars/currencycode.md) configuration variable. |
@@ -38,7 +38,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |
 | `commerce.productViews.value` | Increments the [Product Views](../../components/metrics/product-views.md) metric. |
 | `commerce.purchases.value` | Increments the [Orders](../../components/metrics/orders.md) metric. |
-| `device.model` | The mobile dimension [Device Name](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `device.model` | The mobile lifecycle dimension [Device Name](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `device.colorDepth` | Helps set the [Color Depth](../../components/dimensions/color-depth.md) dimension. |
 | `device.screenHeight` | Helps set the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. |
 | `device.screenWidth` | Helps set the [Monitor Resolution](../../components/dimensions/monitor-resolution.md) dimension. |
@@ -49,12 +49,12 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `environment.browserDetails.userAgent` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `User-Agent` HTTP request header. You can map this field to an eVar if you would like to use it in reports. |
 | `environment.browserDetails.viewportHeight` | Sets the [Browser Height](../../components/dimensions/browser-height.md) dimension. |
 | `environment.browserDetails.viewportWidth` | Sets the [Browser Width](../../components/dimensions/browser-width.md) dimension. |
-| `environment.carrier` | The mobile dimension [Carrier Name](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.carrier` | The mobile lifecycle dimension [Carrier Name](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `environment.connectionType` | Helps set the [Connection type](../../components/dimensions/connection-type.md) dimension. |
 | `environment.ipV4` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `X-Forwarded-For` HTTP header. |
 | `environment.language` | The mobile dimension Locale. |
-| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | Helps set the [Operating System Version](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimension. |
+| `environment.operatingSystem` | The mobile lifecycle dimension [Operating System](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystemVersion` | Helps set the mobile lifecycle dimension [Operating System Version](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Sets the respective [eVar](../../components/dimensions/evar.md) dimension. |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Sets the respective [Hierarchy](/help/components/dimensions/hierarchy.md) dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` |  List prop delimiter override. Using this field is not recommended, as the delimiter is automatically retrieved from [Traffic variable admin](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) under report suite settings. Using this field can create a mismatch between the delimiter used and the delimiter that Analytics expects. |

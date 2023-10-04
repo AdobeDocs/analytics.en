@@ -2,6 +2,7 @@
 description: Steps that describe how to create a Data Warehouse request.
 title: Configure a report destination for a Data Warehouse request
 feature: Data Warehouse
+exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
 ---
 # Configure scheduling options for a Data Warehouse request
 
@@ -41,4 +42,3 @@ To configure scheduling options for a Data Warehouse request:
    {style="table-layout:auto"}
 
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Notification email**] tab. For more information, see [Configure a notification email for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-email.md).
-  

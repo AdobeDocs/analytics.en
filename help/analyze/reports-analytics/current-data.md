@@ -39,7 +39,7 @@ Metrics appear in one of the following three time frames. Click the clock icon n
 
 Because some of the data that is displayed on the current data view has not been fully processed, you can see a difference between values reported on the current data view and the finalized view. On trended reports, the data difference is typically within 1%.
 
-## Calculated Metrics
+## Calculated metrics
 
 Since calculated metrics can be created using metrics that have different latency, some recent values might be calculated using incomplete data in the current data view.
 

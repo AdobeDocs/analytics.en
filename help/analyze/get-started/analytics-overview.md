@@ -3,6 +3,7 @@ description: General overview information about Adobe Analytics, including infor
 short-description: Learn key features, common use cases, and first steps for analysts, end users, and administrators.
 title: Adobe Analytics overview
 feature: Analytics Basics
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 ---
 # Adobe Analytics overview
 
@@ -45,4 +46,3 @@ Following are some of the advantages of Customer Journey Analytics over Adobe An
 * **Cross-report-suite data**: Existing implementations from multiple datasets can be combined in Platform.
 
 For more information, see [Customer Journey Analytics overview](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en).
-

@@ -25,7 +25,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
-  + [Component migration](admin/component-migration.md)
+  + Component migration {#component-migration}
+    + [Prepare for migration](admin/component-migration/prepare-component-migration.md)
+    + [Migration workflow](admin/component-migration/component-migration.md)
   + Report Suite manager {#manage-report-suites}
     + Edit settings of a report suite {#edit-report-suite}
       + General {#report-suite-general}

@@ -60,7 +60,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Marketing channel](dimensions/marketing-channel.md)
   + [Marketing channel detail](dimensions/marketing-detail.md)
   + [Minute](dimensions/minute.md)
-  + [Mobile dimensions](dimensions/mobile-dimensions.md)
+  + [Mobile lifecycle dimensions](dimensions/lifecycle-dimensions.md)
+  + [Mobile lookup dimensions](dimensions/mobile-dimensions.md)
   + [Monitor resolution](dimensions/monitor-resolution.md)
   + [Month of year](dimensions/month-of-year.md)
   + [Month](dimensions/month.md)
@@ -93,6 +94,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Tracking opt-out reason](dimensions/tracking-opt-out-reason.md)
   + [US DMA](dimensions/us-dma.md)
   + [US states](dimensions/us-states.md)
+  + [Voice dimensions](dimensions/voice-dimensions.md)
   + [Visit depth](dimensions/visit-depth.md)
   + [Visit number](dimensions/visit-number.md)
   + [Week](dimensions/week.md)
@@ -121,6 +123,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Exits](metrics/exits.md)
   + [Identified People](metrics/identified-people.md)
   + [Instances](metrics/instances.md)
+  + [Mobile lifecycle metrics](metrics/lifecycle-metrics.md)
   + [Mobile views](metrics/mobile-views.md)
   + [New engagements](metrics/new-engagements.md)
   + [Occurrences](metrics/occurrences.md)
@@ -145,6 +148,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Unique devices](metrics/unique-devices.md)
   + [Unique visitors](metrics/unique-visitors.md)
   + [Units](metrics/units.md)
+  + [Voice metrics](metrics/voice-metrics.md)
   + [Visitors with Experience Cloud ID](metrics/visitors-with-ecid.md)
   + [Visits](metrics/visits.md)
 + Segmentation {#segmentation}
@@ -174,7 +178,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
   + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
-+ Calculated Metrics {#calculated-metrics}
++ Calculated metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated (Derived) metrics](c-calcmetrics/cm-overview.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
   + Calculated metrics workflow {#calcmetric-workflow}

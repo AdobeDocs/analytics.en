@@ -2,7 +2,7 @@
 title: Bot occurrences
 description: The number of hits that matched bot rules.
 feature: Metrics
-exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
+exl-id: 94cbbee4-8455-48b1-b804-534ed8fccdc9
 ---
 # Bot occurrences
 

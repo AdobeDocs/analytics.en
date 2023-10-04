@@ -1,7 +1,7 @@
 ---
 title: Classification set schema
 description: View and edit the schema for an individual classification set.
-exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 ---
 # Schema

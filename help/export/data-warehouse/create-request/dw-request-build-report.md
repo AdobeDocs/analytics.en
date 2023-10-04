@@ -2,6 +2,7 @@
 description: Steps that describe how to create a Data Warehouse request.
 title: Build a report for a Data Warehouse request
 feature: Data Warehouse
+exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 ---
 # Build a report for a Data Warehouse request
 

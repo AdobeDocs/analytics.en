@@ -2,7 +2,7 @@
 title: Bot page views
 description: The number of page views that matched bot rules.
 feature: Metrics
-exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
+exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
 ---
 # Bot page views
 

@@ -2,7 +2,7 @@
 description: Manage Analytics users and their assets in the Adobe Admin Console.
 title: Manage Analytics users and assets
 feature: Admin Tools
-exl-id: ddca4f25-e6d2-49b8-bf37-0dc36fdb0df3
+exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 ---
 # Transfer user assets or set account expirations
 

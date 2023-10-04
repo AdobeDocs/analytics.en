@@ -2,6 +2,7 @@
 description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
 title: Analytics use cases
 feature: Analytics Basics
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
 ---
 # Analytics use cases
 

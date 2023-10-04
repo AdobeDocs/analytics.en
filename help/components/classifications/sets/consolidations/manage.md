@@ -1,7 +1,7 @@
 ---
 title: Classification set consolidation manager
 description: Consolidate one or more classification sets into a single classification set.
-exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
 ---
 # Classification set consolidations manager

@@ -15,7 +15,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
   + [Administrator roles in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
   + Analytics tools permissions summary {#permissions}
-    + [Analytics permissions in Admin Console](admin-console/permissions/summary-tables.md)
     + [Product profiles for Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Product profile permissions for Report Suite Tools](admin-console/permissions/report-suite-tools.md)
     + [Product profile permissions for Analytics Tools](admin-console/permissions/analytics-tools.md)
@@ -26,6 +25,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
   + [Reporting Activity Manager](admin/reporting-activity.md)
+  + [Component migration](admin/component-migration.md)
   + Report Suite manager {#manage-report-suites}
     + Edit settings of a report suite {#edit-report-suite}
       + General {#report-suite-general}
@@ -100,7 +100,9 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Schedule Spike](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
         + [Permanent Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)  
       + [Default Metrics](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-      + [App Management](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+      + App Management {#app-management}
+        + [App Reporting](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+        + [App Classifications](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
       + [Media Management](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
       + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
       + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)

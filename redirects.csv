@@ -327,7 +327,7 @@ source,destination
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-reference.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-reference.html
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-verify.html
 /docs/analytics/admin/admin-tools/server-side-forwarding/ssf-faq.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-faq.html
-/docs/analytics/admin/admin-tools/mobile-management.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/mobile-management.html
+/docs/analytics/admin/admin-tools/mobile-management.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/app-reporting.html
 /docs/analytics/admin/admin-tools/real-time-reports/realtime.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/realtime.html
 /docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/t-realtime-admin.html
 /docs/analytics/admin/admin-tools/real-time-reports/realtime-metrics.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/realtime-metrics.html
@@ -524,7 +524,8 @@ source,destination
 /docs/analytics/implementation/vars/config-vars/doubleencodelinkparameters.html,/docs/analytics/implementation/vars/config-vars/decodelinkparameters.html
 /docs/analytics/export/data-warehouse/dw-schedule-recurring.html,/docs/analytics/export/data-warehouse/create-request/dw-request-scheduling.html
 /docs/analytics/technotes/ip-geo-mapping.html,/docs/analytics/release-notes/previous/2023.html
-https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html,https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/dw-create-request/t-dw-create-request.html
-https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
-https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/panel-inputs-outputs.html,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
-https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/faqs.html,https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+/docs/analytics/export/data-warehouse/t-dw-create-request.html,/docs/analytics/export/data-warehouse/dw-create-request/t-dw-create-request.html
+/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html,/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/panel-inputs-outputs.html,/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/faqs.html,/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/mobile-management.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/app-reporting.html

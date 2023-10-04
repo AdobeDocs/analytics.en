@@ -49,7 +49,7 @@ All first-party cookies set by Adobe, and the related JavaScript libraries, are 
 * The Analytics legacy ["s_vi" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) when it is configured with first-party data collection using a CNAME
 * The Analytics legacy ["s_fid" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), which is the fallback cookie used when "s_vi" cannot be set
 
-#### What is the impact of ITP to Safari for Analytics?
+#### What is the impact of ITP to Safari for Analytics? 
 
 The impact of the ITP limitations can vary significantly, depending on your users' behavior. Only visitors who use an ITP-impacted browser (for example, Safari) and return after a seven-day absence are affected. If visitors do not use an ITP browser or return within seven days, they are unaffected. It is important to review your own data in Analytics to understand the extent of the impact of this limitation. For tips on how to measure the impact to your sites, see "[How can I determine if Safari changes affect my business?](#measure-itp-effect)"
 

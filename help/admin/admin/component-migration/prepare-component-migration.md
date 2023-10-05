@@ -2,6 +2,7 @@
 description: Explains the necessary preparations to prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics.
 title: Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics
 feature: Admin Tools
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 ---
 # Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics
 

@@ -9,10 +9,9 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 ---
 # Report schedule and distribution
 
-Information about scheduling, downloading and distributing reports.
+{{ra-eol}}
 
->[!IMPORTANT]
->On April 21, 2022, we announced the deprecation of several features specific to scheduled reports in preparation for the previously announced end of life for Reports & Analytics. These features included the ability to schedule new reports as well as new data extracts. In response to customer requests seeking an extension and to ease the transition from Reports & Analytics, we have decided to extend access to these features until Jan 31, 2023. Please note that expiration windows for both reports and data extracts will continue to be limited to nine months; report and data extract delivery will pause at the end of this period unless the schedule is reactivated. [Learn more](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Information about scheduling, downloading and distributing reports.
 
 When you schedule a report for delivery in an Adobe Analytics application, you can use the Scheduling and Distribution tools to view what files have been automatically sent and modify or terminate the deliveries.
 

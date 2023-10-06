@@ -15,9 +15,6 @@ Each report in Reports & Analytics uses a dedicated dimension and default metric
 >
 >Your reports menu can look different depending on customizations an admin in your organization has made. See [Menu customizing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) in the Admin user guide.
 
->[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
-
 ## Site Metrics
 
 Contains reports that typically trend using a date range. Also contains unique reports, such as Recommended reports and Real-time reports.

@@ -7,10 +7,9 @@ exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 ---
 # Report display settings and navigation
 
-Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
+{{ra-eol}}
 
->[!IMPORTANT]
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe’s technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
+Settings that define how all reports appear and information that maps the default menu options to their location in the simplified menu.
 
 ## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 

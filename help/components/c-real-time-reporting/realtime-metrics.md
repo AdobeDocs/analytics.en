@@ -7,6 +7,8 @@ exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 ---
 # Supported real-time metrics and dimensions
 
+{{ra-eol}}
+
 Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
 
 ## Supported Metrics {#section_514ED8B382494C47BFC0657894D1AF94}

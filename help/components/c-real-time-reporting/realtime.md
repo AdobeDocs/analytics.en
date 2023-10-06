@@ -7,6 +7,8 @@ exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 ---
 # Real-time reporting overview
 
+{{ra-eol}}
+
 Real-time reporting displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
 >[!NOTE]

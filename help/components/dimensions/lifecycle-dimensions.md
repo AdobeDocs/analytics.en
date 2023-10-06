@@ -10,7 +10,7 @@ exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 
 | Lifecycle dimension name | Description | Context data variable |
 | --- | --- | --- |
-| [!UICONTROL First Launch Date] | | TBD (is this install date?) |
+| [!UICONTROL First Launch Date] | | TBD |
 | [!UICONTROL Device Name (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Operating System Version (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolution (SDK)] | | `a.Resolution` |

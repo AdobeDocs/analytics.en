@@ -4,36 +4,35 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (September 2023)
+# Current Adobe Analytics release notes (October 2023)
 
-**Last update**: September 20, 2023
+**Last update**: October 4, 2023
 
-The September release notes cover the release period of September 13, 2023 to October 3, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+The October release notes cover the release period of October 4, 2023 to October 25, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classifications in API 2.0** |  Provides Adobe Analytics API 2.0 methods for saving, deleting, retrieving, importing, and exporting classification set data. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/A | September 13, 2023 |
-| **Support for new `correlationID` field for A4T classifications** | The `_experience.decisioning.propositions.scopeDetails.correlationID` field is now available in the Adobe Analytics source connector schema. We are adding this ID for easy joining of classification data for Adobe Target activities and experience events. | N/A | September 13, 2023 |
-| **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | September 13, 2023 | October 4, 2023 |
 | **New columns available when managing components** | The following new columns are now available when managing components:<ul><li>Used in<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Last used<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), and the [Alerts manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified. You can use the Data Dictionary along with this information to help you keep track of and better understand how components are being used in your organization.</p> | September 20, 2023 | October 4, 2023 |
+| **Reporting Activity Manager enhancements** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization.  It provides administrators with detailed visibility into reporting consumption in order to easily diagnose and fix capacity issues during peak reporting times. Following are some of the enhancements now available in the Reporting Activity Manager: <ul><li>Restrict subsequent requests: In addition to canceling current requests, administrators can now restrict requests for a defined time period. Administrators can restrict requests by Request, Project, and User.</li><li>In addition to Utilization and Capacity metrics, the Reporting Activity Manager now includes more data about reporting activity: Complexity column, User column, and Connection column.</li><li>All cancelations and restrictions made in the Reporting Activity manager are now visible in the Audit Log. Administrators can use the Audit Log to view what is currently canceled. Cancelations cannot be reversed in the Reporting Activity Manager or in the Audit Log.</li></ul>Learn more (coming soon) | October 17, 2023 | October 23, 2023|
+| **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | September 12, 2023 | October 25, 2023 |
+| **Migrate Adobe Analytics projects and any included components to Customer Journey Analytics** | You can now migrate your Adobe Analytics projects to Customer Journey Analytics. This process simplifies the transition from Adobe Analytics to Customer Journey Analytics. <p>When you migrate projects to Customer Journey Analytics, assets are mapped from an Adobe Analytics report suite to a Customer Journey Analytics data view.</p> <p>You migrate projects to Customer Journey Analytics from the Adobe Analytics interface. [Learn more](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | N/A | October 9, 2023 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue that prevented Classification data from showing up in Workspace. (AN-326827)
+* Fixed issues where A4T reports were not appearing in the Target/Analytics UI. (AN-329375, AN-329745, AN-330026)
 
-## Other fixes
-
-AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-321759; AN-323099; AN-323596; AN-323640; AN-324442; AN-324921; AN-324953; AN-324977; AN-324979; AN-325124; AN-325395; AN-325433; AN-325535; AN-325693; AN-325720; AN-325835; AN-325880; AN-325957; AN-325984; AN-326054; AN-326065; AN-326136; AN-326155; AN-326162; AN-326235; AN-326317; AN-326344; AN-326357; AN-326359; AN-326433; AN-326438; AN-326440; AN-326461; AN-326464; AN-326523; AN-326553; AN-326606; AN-326635; AN-326642; AN-326652; AN-326678; AN-326769; AN-326777; AN-326830; AN-326938; AN-326949; AN-327081; AN-327082; AN-327085; AN-327103; AN-327198; AN-327225; AN-327275; AN-327358; AN-327423; AN-327561; AN-327755; AN-327896; AN-327922; AN-328128; AN-328300; AN-328428; AN-328518; AN-328554
+AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-326068; AN-326360; AN-326458; AN-327290; AN-327315; AN-327353; AN-327505; AN-327589; AN-327609; AN-327922; AN-328110; AN-328222; AN-328261; AN-328496; AN-328577; AN-328629; AN-328736; AN-328888; AN-328899; AN-328902; AN-328921; AN-328958; AN-329208; AN-329277; AN-329332; AN-329334; AN-329335; AN-329336; AN-329357; AN-329385; AN-329387; AN-329397; AN-329463; AN-329501; AN-329504; AN-329505; AN-329515; AN-329524; AN-329526; AN-329534; AN-329539; AN-329541; AN-329543; AN-329545; AN-329564; AN-329570; AN-329623; AN-329624; AN-329636; AN-329646; AN-329647; AN-329668; AN-329701; AN-329737; AN-329741; AN-329751; AN-329812; AN-329813; AN-329821; AN-329824; AN-329833; AN-329848; AN-329852; AN-329861; AN-329863; AN-329874; AN-329882; AN-329911; AN-329917; AN-329942; AN-329954; AN-329968; AN-329971; AN-329982; AN-330044; AN-330052; AN-330131; AN-330132; AN-330230; AN-330352; AN-330367; AN-330541; AN-330599
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| N/A | N/A | N/A |
+| **Full IP obfuscation for Adobe Experience Edge hits** | September 27, 2023 | IP obfuscation for hits coming from Experience Edge will be updated later in October of 2023. In April, Experience Edge added the ability to obfuscate IP addresses. At that time, Adobe Analytics only supported partial obfuscation of IPs, due to the way Analytics processes hits from Experience Edge. When customers chose full obfuscation for Experience Edge, Analytics only received partially obfuscated IPs. When this change is implemented, Analytics will receive the fully obfuscated IP.|
+| **Adobe Analytics Livestream - Analytics 2.0 APIs** | September 27, 2023 | Customers can now access the [Endpoint guide for Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) under the Adobe Analytics 2.0 APIs instead in its previous location, with the 1.4 APIs. Note that customers using Adobe I/O JWT credentials must migrate to  Adobe I/O OAuth Server-to-Server credentials by January 1, 2025. (See details under EOL notices below.) |
 
 {style="table-layout:auto"}
 
@@ -50,7 +49,7 @@ AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.24.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+For the latest updates on AppMeasurement releases (Version 2.25.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Related resources

@@ -209,14 +209,59 @@ Data warehouse data can be delivered to an Adobe or customer-hosted FTP location
 
 Use the following information when completing the available fields:
 
-* [!UICONTROL **Host**]: Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`.
-* [!UICONTROL **Path**]: Can be left blank
+#### Account fields
+
+* [!UICONTROL **Account name**]: The name of the FTP account.
+
+* [!UICONTROL **Account description**]: A description of the FTP account.
+
+* [!UICONTROL **Hostname**]: Enter the desired FTP destination URL. For example, `ftp.company.com`.
+  
+  >[!NOTE]
+  >
+  >  Do not include `ftp://` at the beginning of the URL. 
+
 * [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
+
 * [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
+
+#### Location fields
+
+* [!UICONTROL **Location name**]: The name of the location on the FTP account where you want files sent.
+
+* [!UICONTROL **Location description**]: A description of the location on the FTP account.
+
+* [!UICONTROL **Directory path**]: The path to the location on the FTP account.
 
 ### SFTP
 
 SFTP support for data warehouse is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the data warehouse destination.
+
+Use the following information when completing the available fields:
+
+#### Account fields
+
+* [!UICONTROL **Account name**]: The name of the FTP account.
+
+* [!UICONTROL **Account description**]: A description of the FTP account.
+
+* [!UICONTROL **Hostname**]: Enter the desired SFTP destination URL. For example, `sftp.company.com`. 
+
+  >[!NOTE]
+  >
+  >  Do not include `sftp://` at the beginning of the URL. 
+
+* [!UICONTROL **Username**]: Enter the username to log in to the SFTP site.
+
+* [!UICONTROL **Public keys**]: Download the appropriate public key when creating the data warehouse destination.
+
+#### Location fields
+
+* [!UICONTROL **Location name**]: The name of the location on the SFTP account where you want files sent.
+
+* [!UICONTROL **Location description**]: A description of the location on the SFTP account.
+
+* [!UICONTROL **Directory path**]: The path to the location on the SFTP account.
 
 ### S3
 

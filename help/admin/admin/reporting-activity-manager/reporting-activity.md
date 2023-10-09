@@ -42,7 +42,7 @@ For more information about Reporting Activity manager, including key benefits an
    | **[!UICONTROL Capacity utilization]** | The percentage of the report suite's reporting capacity that is being used, in real time. <p>**Note** Even a usage capacity that is at 100% doesn't necessarily mean that you should start cancelling reporting requests. 100% usage capacity can be healthy if the average wait time is reasonable. 100% usage capacity could indicate a problem if the number of queued requests is also growing.</p> |
    | **[!UICONTROL Queued requests]** | The number of requests waiting to be processed. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | The average wait time for each request to process. <!-- ???? --> |
-   | **[!UICONTROL Status]** | Four possible status indicators: <ul><li>Blue - Active:</li><li>Orange - Unknown:</li><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
+   | **[!UICONTROL Status]** | The possible statuses are: <!-- check all of these; they are not correct --> <ul><li>[!UICONTROL **Active**] (blue):</li><li>[!UICONTROL **Inactive**] (orange): There is no data available</li><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
 
    {style="table-layout:auto"}
 
@@ -108,7 +108,7 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 
 ### View table
 
-You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Query**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
+You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Request**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
 
 >[!TIP]
 >
@@ -116,21 +116,21 @@ You can choose to view data by choosing any of the following tabs at the top of 
 
 ![table tabs](assets/indiv-report-ste-table-tabs.png)
 
-#### View data by query
+#### View data by request
 
-When you select the [!UICONTROL **Query**] tab, the following columns are available in the table:
+When you select the [!UICONTROL **Request**] tab, the following columns are available in the table:
 
 | Column | Description |
 | --- | --- |
 | [!UICONTROL **Request ID**] | Can be used for troubleshooting purposes. |
-| [!UICONTROL **Time run**] | How long the query has been running. |
-| [!UICONTROL **Start time**] | When the query started processing (based on the administrator's local time). |
-| [!UICONTROL **Wait time**] | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
+| [!UICONTROL **Time run**] | How long the request has been running. |
+| [!UICONTROL **Start time**] | When the request started processing (based on the administrator's local time). |
+| [!UICONTROL **Wait time**] | How long the request has been waiting before being processed. Generally at "0" when there is enough capacity. |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
-| [!UICONTROL **User**] | The user who initiated the query. |
+| [!UICONTROL **User**] | The user who initiated the request. |
 | [!UICONTROL **Project**] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL **Status**] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
-| [!UICONTROL **Complexity**] | Indicates the Possible values include: <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is based on a score that is determined by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |
+| [!UICONTROL **Complexity**] | Gives a general idea about the resources required to process the request. Possible values include: <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is based on a score that is determined by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |
 | [!UICONTROL **Month Boundaries**] | The number of months that are included in a request. This adds to the complexity of the request. |
 | [!UICONTROL **Columns**] | The number of metrics and breakdowns in the request. This adds to the complexity of the request. |
 | [!UICONTROL **Segments**] | The number of segments applied to the request. This adds to the complexity of the request. |

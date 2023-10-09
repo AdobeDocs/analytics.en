@@ -9,9 +9,7 @@ exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 
 {{release-limited-testing}}
 
-The [!UICONTROL Reporting Activity Manager] is available for administrators. It lets you monitor and manage reporting capacity for each report suite in your organization, and provides detailed visibility into reporting consumption to help easily diagnose and fix capacity issues during peak reporting times. 
-
-When your organization reaches reporting request capacity and experiences a degradation in reporting performance, you can self-diagnose reporting issues without intervention from Adobe Customer Care. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. 
+The [!UICONTROL Reporting Activity Manager] enables administrators to quickly diagnose and fix reporting capacity issues during peak reporting times.
 
 For more information about Reporting Activity manager, including key benefits and permission requirements, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
@@ -23,7 +21,19 @@ For more information about Reporting Activity manager, including key benefits an
 
    ![reports queue](/help/admin/admin/assets/reporting-activity1.png)
 
-   The following information is available for each report suite:
+1. (Optional) You can search or filter the list of report suites:
+
+   * Use the search field to search for a specific report suite. Begin typing the report suite name or ID and the list of report suites updates as you type.
+
+   * Select the [!UICONTROL **Filter**] icon ![Filter icon](assets/filter-icon.png) to expand the list of filter options. You can filter by [!UICONTROL **Favorites**] or [!UICONTROL **Status**].
+
+     To mark a report suite as a favorite, select the star icon to the left of the report suite name.
+
+<!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
+
+1. View utilization information about each report suite. You can select a column header to sort the table by  that column. 
+
+   The following columns are available: 
 
    | UI Element | Description |
    | --- | --- |
@@ -32,16 +42,9 @@ For more information about Reporting Activity manager, including key benefits an
    | **[!UICONTROL Capacity utilization]** | The percentage of the report suite's reporting capacity that is being used, in real time. <p>**Note** Even a usage capacity that is at 100% doesn't necessarily mean that you should start cancelling reporting requests. 100% usage capacity can be healthy if the average wait time is reasonable. 100% usage capacity could indicate a problem if the number of queued requests is also growing.</p> |
    | **[!UICONTROL Queued requests]** | The number of requests waiting to be processed. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | The average wait time for each request to process. <!-- ???? --> |
-   | **[!UICONTROL Status]** | Four possible status indicators: <ul><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
+   | **[!UICONTROL Status]** | Four possible status indicators: <ul><li>Blue - Active:</li><li>Orange - Unknown:</li><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
 
    {style="table-layout:auto"}
-
-### Other actions on the Reporting Activity page
-
-* Select **[!UICONTROL Refresh]** at the top right to refresh the results.
-* Select the star to the left of the report suite name to favorite this report suite.
-* Search on report suites by name or by ID in the search bar.
-* Filter report suites by their status or your favorites.
 
 ## View reporting activity for a single report suite
 
@@ -49,13 +52,15 @@ For more information about Reporting Activity manager, including key benefits an
 
 1. Select the linked title of the report suite for which you want to view details.
 
-   ![report suite](/help/admin/admin/assets/indiv-report-ste.png)
+   Reporting activity data is displayed for the report suite that you selected.
 
-1. Reporting activity data is displayed for the report suite that you selected. Use the available graphs and the table to understand reporting activity in the report suite.
+   ![report suite](assets/indiv-report-ste.png)
+
+1. Use the available graphs and table to understand reporting activity in the report suite.
 
    * [View graphs](#view-graphs)
 
-   * [View data in the table](#view-data-in-the-table)
+   * [View table](#view-data-in-the-table)
 
 ### View graphs
 
@@ -63,24 +68,46 @@ The following graphs are available to help you better understand the activity ha
 
 #### Utilization graph {#utilization}
 
-The line graph shows the reporting activity for the selected report suite over the last 2 hours. 
+The Utilization graph shows how the reporting utilization for the selected report suite over the last 2 hours. 
 
-* The x-axis shows the reporting capacity data over the last 2 hours.
-* The y-axis shows the reporting usage capacity % for the selected report suite, by minute.
-* You can hover over the line chart to view points in time where the usage capacity % represented will be the highest % for that minute.
+* The x-axis shows the reporting usage capacity over the last 2 hours.
+* The y-axis shows the reporting usage capacity percentage, by minute.
+* You can hover over the chart to view points in time where the usage capacity percentage was highest for that minute.
 
-   ![detail](/help/admin/admin/assets/detail.png)
+   ![utilization graph](assets/utilization-graph.png)
 
-#### Distinct users graph
+#### Distinct Users graph
 
+The Distinct Users graph shows the reporting activity for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the number of users who have made reporting requests, by minute.
+* You can hover over the chart to view points in time where the maximum number of users was highest for that minute.
+
+   ![Distinct Users graph](assets/distinct-users-graph.png)
 
 #### Requests graph
 
+The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the number of processed requests (in purple) and completed requests (in green), by minute.
+* You can hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+
+   ![Distinct Users graph](assets/requests-graph.png)
 
 #### Queueing graph
 
+The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
 
-### View data in the table
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the average wait time (in seconds).
+* You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+
+   ![Distinct Users graph](assets/queueing-graph.png)
+
+### View table
+
 You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Query**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
 
 <!-- insert screenshot -->

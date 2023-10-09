@@ -5,11 +5,17 @@ feature: Admin Tools
 ---
 # Cancel reporting requests in the Reporting Activity Manager
 
-You can cancel reporting requests in order to fix capacity issues during peak reporting times. 
+{{release-limited-testing}}
 
-When you cancel requests, you can also choose to restrict the requests for a given time period.
+The [!UICONTROL Reporting Activity Manager] enables administrators to quickly diagnose and cancel reporting requests in order to fix reporting capacity issues during peak reporting times.
 
-You can cancel specific requests, cancel all requests from a specific user, or cancel all requests related to a specific project.
+Consider the following when cancelling reporting requests:
+
+* You can cancel specific requests, cancel all requests from a specific user, or cancel all requests related to a specific project.
+
+* When you cancel requests, you can also choose to restrict the requests for a given time period.
+
+For more information about Reporting Activity manager, including key benefits and permission requirements, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Cancel specific requests
 

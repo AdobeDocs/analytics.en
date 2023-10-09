@@ -7,14 +7,15 @@ feature: Admin Tools
 
 {{release-limited-testing}}
 
-The [!UICONTROL Reporting Activity Manager] is available for administrators. It lets you monitor and manage reporting capacity for each report suite in your organization, and provides detailed visibility into reporting consumption to help easily diagnose and fix capacity issues during peak reporting times. 
+The [!UICONTROL Reporting Activity Manager] is available for administrators. 
 
-When your organization reaches reporting request capacity and experiences a degradation in reporting performance, you can self-diagnose reporting issues without intervention from Adobe Customer Care. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. 
+If your organization experiences a degradation in reporting performance during peak reporting times, the Reporting Activity Manager enables you to self-diagnose and fix capacity issues without intervention from Adobe Customer Care. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. 
 
 ## Benefits
 
 Reporting Activity Manager provides the following benefits:
 
+* Lets you monitor and manage reporting capacity for each report suite in your organization.
 * Informs you in real time about your current reporting capacity across your report suites.
 * Provides detailed report query information on current reporting requests, whether queued or in progress.
 * Lets you optimize the reporting queue by prioritizing some and canceling other reporting requests to free up capacity. It answers questions like: is this report necessary at this time or can I cancel it in favor of more urgent reports?

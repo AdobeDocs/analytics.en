@@ -42,7 +42,7 @@ For more information about Reporting Activity manager, including key benefits an
    | **[!UICONTROL Capacity utilization]** | The percentage of the report suite's reporting capacity that is being used, in real time. <p>**Note** Even a usage capacity that is at 100% doesn't necessarily mean that you should start cancelling reporting requests. 100% usage capacity can be healthy if the average wait time is reasonable. 100% usage capacity could indicate a problem if the number of queued requests is also growing.</p> |
    | **[!UICONTROL Queued requests]** | The number of requests waiting to be processed. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | The average wait time for each request to process. <!-- ???? --> |
-   | **[!UICONTROL Status]** | The possible statuses are: <!-- check all of these; they are not correct --> <ul><li>[!UICONTROL **Active**] (blue):</li><li>[!UICONTROL **Inactive**] (orange): There is no data available</li><li>**Red - [!UICONTROL At Capacity]**: The report suite is maxed out in terms of reporting capacity. (100%) </li><li>**Yellow - [!UICONTROL Nearing capacity]**: This report suite is in danger of reaching its maximum capacity. (90% - 99%)</li><li>**Green - [!UICONTROL All good]**: There is plenty of reporting capacity. (0% - 89%)</li><li>**Grey - [!UICONTROL Status pending/Not enabled]**: Report capacity not available.</li></ul>|
+   | **[!UICONTROL Status]** | The possible statuses are: <ul><li>[!UICONTROL **Active**] (blue): Reports have been run on the report suite and it is being monitored for activity.</li><li>[!UICONTROL **Inactive**] (gray): No reports have ever been run on the report suite. This status is shown only when report suites are first created.</li></ul> |
 
    {style="table-layout:auto"}
 

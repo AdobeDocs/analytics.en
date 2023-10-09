@@ -24,7 +24,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + Reporting Activity Manager
+  + Reporting Activity Manager {#reporting-activity-manager}
     + [Overview](admin/reporting-activity-manager/reporting-activity-overview.md)
     + [View reporting activity](admin//reporting-activity-manager/reporting-activity.md)
     + [Cancel reporting requests](admin/reporting-activity-manager/reporting-activity-cancel-requests.md.md)

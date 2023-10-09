@@ -53,8 +53,8 @@ For more information about Reporting Activity manager, including key benefits an
 1. Select the linked title of the report suite for which you want to view details.
 
    Reporting activity data is displayed for the report suite that you selected.
-
-   ![report suite](assets/indiv-report-ste.png)
+   
+   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
 
 1. Use the available graphs and table to understand reporting activity in the report suite.
 
@@ -86,6 +86,8 @@ The Distinct Users graph shows the reporting activity for the selected report su
 
    ![Distinct Users graph](assets/distinct-users-graph.png)
 
+<!--
+
 #### Requests graph
 
 The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
@@ -105,6 +107,8 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 * You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
 
    ![Distinct Users graph](assets/queueing-graph.png)
+
+-->
 
 ### View table
 

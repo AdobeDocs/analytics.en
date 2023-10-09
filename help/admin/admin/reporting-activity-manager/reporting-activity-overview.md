@@ -33,7 +33,7 @@ For information about viewing reporting activity in the Reporting Activity Manag
 
 ## Cancel reporting requests
 
-For information about viewing reporting activity in the Reporting Activity Manager, see [Cancel reporting requests in the Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
+For information about cancelling reporting requests in the Reporting Activity Manager, see [Cancel reporting requests in the Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
 ## Frequently asked questions {#faq}
 

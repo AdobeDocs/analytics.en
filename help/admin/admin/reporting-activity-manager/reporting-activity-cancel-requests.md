@@ -13,7 +13,9 @@ Consider the following when cancelling reporting requests:
 
 * You can cancel specific requests, cancel all requests from a specific user, or cancel all requests related to a specific project.
 
-* When you cancel requests, you can also choose to restrict the requests for a given time period.
+* When you cancel requests, you can also choose to restrict subsequent requests for a given time period.
+
+* You cannot cancel a request if the [!UICONTROL **User**] column of a request shows as [!UICONTROL **Unrecognized**]. When this occurs, it means that the user is in a login company where you do not have administrative permissions.
 
 For more information about Reporting Activity manager, including key benefits and permission requirements, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
@@ -50,6 +52,8 @@ You can choose specific requests that you want to cancel.
 
 1. Select [!UICONTROL **Continue with cancellation**].
 
+   A notification is displayed in Analysis Workspace, informing users that the request has been cancelled. For more information about how this appears in Analysis Workspace, see [Experience when users access a cancelled report](#experience-when-users-access-a-cancelled-report).
+
 ## Cancel requests by user
 
 You can cancel all requests that are associated with one or more users.
@@ -82,6 +86,8 @@ You can cancel all requests that are associated with one or more users.
    {style="table-layout:auto"}
 
 1. Select [!UICONTROL **Continue with cancellation**].
+
+   A notification is displayed in Analysis Workspace, informing users that the request has been cancelled. For more information about how this appears in Analysis Workspace, see [Experience when users access a cancelled report](#experience-when-users-access-a-cancelled-report).
 
 ## Cancel requests by project
 
@@ -116,8 +122,10 @@ You can cancel all requests that are associated with one or more projects.
 
 1. Select [!UICONTROL **Continue with cancellation**].
 
+   A notification is displayed in Analysis Workspace, informing users that the request has been cancelled. For more information about how this appears in Analysis Workspace, see [Experience when users access a cancelled report](#experience-when-users-access-a-cancelled-report).
 
+## Experience when users access a cancelled report
 
-Application users in Workspace, for example, will see the following notice appear in their projects:
+In Analysis Workspace, users who attempt to access a report that has been cancelled will see the following message:
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)

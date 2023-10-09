@@ -13,7 +13,7 @@ The [!UICONTROL Reporting Activity Manager] enables administrators to quickly di
 
 For more information about Reporting Activity manager, including key benefits and permission requirements, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
-## View reporting activity for all report suites
+## View reporting activity for all report suites {#view-all-report-suites}
 
 1. In Adobe Analytics, go to **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -110,7 +110,7 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 
 -->
 
-### View table
+### View table {#view-table}
 
 You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Request**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
 
@@ -131,7 +131,7 @@ When you select the [!UICONTROL **Request**] tab, the following columns are avai
 | [!UICONTROL **Start time**] | When the request started processing (based on the administrator's local time). |
 | [!UICONTROL **Wait time**] | How long the request has been waiting before being processed. Generally at "0" when there is enough capacity. |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
-| [!UICONTROL **User**] | The user who initiated the request. |
+| [!UICONTROL **User**] | The user who initiated the request. If the value of this column is [!UICONTROL **Unrecognized**], this means that the user is in a login company where you do not have administrative permissions. |
 | [!UICONTROL **Project**] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL **Status**] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
 | [!UICONTROL **Complexity**] | Gives a general idea about the resources required to process the request. Possible values include: <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is based on a score that is determined by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |
@@ -147,7 +147,7 @@ When you select the [!UICONTROL **User**] tab, the following columns are availab
 
 | Column | Description |
 | --- | --- |
-| [!UICONTROL **User**] | The user who initiated the queries. |
+| [!UICONTROL **User**] | The user who initiated the request. If the value of this column is [!UICONTROL **Unrecognized**], this means that the user is in a login company where you do not have administrative permissions. |
 | [!UICONTROL **Number of requests**] | The number of requests initiated by the user. |
 | [!UICONTROL **Number of projects**] | The number of projects associated with the user. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
@@ -183,8 +183,8 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 | --- | --- |
 | [!UICONTROL **Application**] | The application where the queries were initiated. |
 | [!UICONTROL **Number of requests**] | The number of requests associated with the application. |
-| [!UICONTROL **Number of users**] | <!-- ??? --> |
-| [!UICONTROL **Number of projects**] | <!-- ??? --> |
+| [!UICONTROL **Number of users**] | The number of users associated with the application. <!--???--> |
+| [!UICONTROL **Number of projects**] | The number of projects associated with the application. <!--???--> |
 | [!UICONTROL **Avg complexity**] | The value in this column is based on a score that is determined by the values in the following columns:<ul><li>Avg Month Boundaries</li><li>Avg Columns</li><li>Avg Segments</li></ul> |
 | [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. This adds to the average complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. This adds to the average complexity. |

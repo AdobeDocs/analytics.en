@@ -110,7 +110,11 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 
 You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Query**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
 
-<!-- insert screenshot -->
+>[!TIP]
+>
+>You can select [!UICONTROL **Hide graphs**] to show only the table.
+
+![table tabs](assets/indiv-report-ste-table-tabs.png)
 
 #### View data by query
 
@@ -120,14 +124,14 @@ When you select the [!UICONTROL **Query**] tab, the following columns are availa
 | --- | --- |
 | [!UICONTROL **Request ID**] | Can be used for troubleshooting purposes. |
 | [!UICONTROL **Time run**] | How long the query has been running. |
-| [!UICONTROL **Start time**] | When the query started processing (Admin's local time). |
+| [!UICONTROL **Start time**] | When the query started processing (based on the administrator's local time). |
 | [!UICONTROL **Wait time**] | How long the query has been waiting before being processed. Generally at "0" when there is enough capacity. |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
 | [!UICONTROL **User**] | The user who initiated the query. |
 | [!UICONTROL **Project**] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL **Status**] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
-| [!UICONTROL **Complexity**] | The value in this column is based on a score that is determined by the values in the following columns:<ul><li>Month boundaries</li><li>Columns</li><li>Segments</li></ul> |
-| [!UICONTROL **Month Boundaries**] | How many monthly boundaries a request crosses. This adds to the complexity of the request. |
+| [!UICONTROL **Complexity**] | Indicates the Possible values include: <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is based on a score that is determined by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |
+| [!UICONTROL **Month Boundaries**] | The number of months that are included in a request. This adds to the complexity of the request. |
 | [!UICONTROL **Columns**] | The number of metrics and breakdowns in the request. This adds to the complexity of the request. |
 | [!UICONTROL **Segments**] | The number of segments applied to the request. This adds to the complexity of the request. |
 
@@ -144,7 +148,7 @@ When you select the [!UICONTROL **User**] tab, the following columns are availab
 | [!UICONTROL **Number of projects**] | The number of projects associated with the user. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
 | [!UICONTROL **Avg complexity**] | The value in this column is based on a score that is determined by the values in the following columns:<ul><li>Avg Month Boundaries</li><li>Avg Columns</li><li>Avg Segments</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of monthly boundaries that the included requests cross. This adds to the average complexity of the request. |
+| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. This adds to the average complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. This adds to the average complexity.  |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. This adds to the average complexity. |
 
@@ -161,7 +165,7 @@ When you select the [!UICONTROL **Project**] tab, the following columns are avai
 | [!UICONTROL **Number of users**] | The number of users associated with the project. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
 | [!UICONTROL **Avg complexity**] | The value in this column is based on a score that is determined by the values in the following columns:<ul><li>Avg Month Boundaries</li><li>Avg Columns</li><li>Avg Segments</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of monthly boundaries that the included requests cross. This adds to the average complexity of the request. |
+| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. This adds to the average complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. This adds to the average complexity. |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. This adds to the average complexity. |
 
@@ -178,7 +182,7 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 | [!UICONTROL **Number of users**] | <!-- ??? --> |
 | [!UICONTROL **Number of projects**] | <!-- ??? --> |
 | [!UICONTROL **Avg complexity**] | The value in this column is based on a score that is determined by the values in the following columns:<ul><li>Avg Month Boundaries</li><li>Avg Columns</li><li>Avg Segments</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of monthly boundaries that the included requests cross. This adds to the average complexity of the request. |
+| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. This adds to the average complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. This adds to the average complexity. |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. This adds to the average complexity. |
 

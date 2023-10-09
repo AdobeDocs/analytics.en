@@ -24,7 +24,10 @@ user-guide-description: Learn about Analytics administration tasks, such managin
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)
-  + [Reporting Activity Manager](admin/reporting-activity.md)
+  + Reporting Activity Manager {#reporting-activity-manager}
+    + [Overview](admin/reporting-activity-manager/reporting-activity-overview.md)
+    + [View reporting activity](admin//reporting-activity-manager/reporting-activity.md)
+    + [Cancel reporting requests](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
   + Component migration {#component-migration}
     + [Prepare for migration](admin/component-migration/prepare-component-migration.md)
     + [Migration workflow](admin/component-migration/component-migration.md)

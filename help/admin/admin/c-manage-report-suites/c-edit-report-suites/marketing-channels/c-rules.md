@@ -14,7 +14,7 @@ Marketing Channel processing rules determine if a visitor hit meets the criteria
 
 Additional notes about processing :
 
-* Data collected with these rules are permanent. Rules altered after data collection is not retroactive. Adobe strongly recommends that you review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+* Data collected with these rules are permanent. Rules altered after data collection are not retroactive. Adobe strongly recommends that you review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
 * You can configure up to 25 separate marketing channels.
 * Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted.
 * Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event).

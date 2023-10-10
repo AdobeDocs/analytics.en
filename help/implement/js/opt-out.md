@@ -34,7 +34,7 @@ The opt-out page for your organization depends on the [`trackingServer`](../vars
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
   1. Note the `trackingServer` variable value.
 
-* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/experience-cloud-debugger.html):
+* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
   1. Navigate to your site using the Chrome browser.
   1. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
   1. Note the [!UICONTROL Request URL - Hostname] value.

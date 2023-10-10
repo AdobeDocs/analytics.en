@@ -21,7 +21,7 @@ For more information about Reporting Activity manager, including key benefits an
 
 ## Cancel specific requests
 
-You can choose specific requests that you want to cancel.
+You can cancel individual requests that are consuming a large amount of reporting capacity.
 
 1. In Adobe Analytics, go to **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
@@ -35,7 +35,7 @@ You can choose specific requests that you want to cancel.
 
 1. Select [!UICONTROL **Cancel requests**].
 
-   The [!UICONTROL **Cancel x report requests**] dialog box displays.
+   The [!UICONTROL **Cancel _x_ report requests**] dialog box displays.
 
 1. The Cancellation message field shows the message that displays to users when their requests are cancelled. A default message is provided. You can update the default message to provide additional details.
 
@@ -70,7 +70,7 @@ You can cancel all requests that are associated with one or more users.
 
 1. Select [!UICONTROL **Cancel requests**].
 
-   The [!UICONTROL **Cancel x report requests from x users**] dialog box displays.
+   The [!UICONTROL **Cancel _x_ report requests from x users**] dialog box displays.
 
 1. The Cancellation message field shows the message that displays to users when their requests are cancelled. A default message is provided. You can update the default message to provide additional details.
 
@@ -105,7 +105,7 @@ You can cancel all requests that are associated with one or more projects.
 
 1. Select [!UICONTROL **Cancel requests**].
 
-   The [!UICONTROL **Cancel x report requests from x projects**] dialog box displays.
+   The [!UICONTROL **Cancel _x_ report requests from x projects**] dialog box displays.
 
 1. The Cancellation message field shows the message that displays to users when their requests are cancelled. A default message is provided. You can update the default message to provide additional details.
 
@@ -126,6 +126,6 @@ You can cancel all requests that are associated with one or more projects.
 
 ## Experience when users access a cancelled report
 
-In Analysis Workspace, users who attempt to access a report that has been cancelled will see the following message:
+In Analysis Workspace, users see the following message when they attempt to access a report that was cancelled by an administrator:
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)

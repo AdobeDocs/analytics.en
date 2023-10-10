@@ -39,7 +39,7 @@ Both of these options land you back in the [!UICONTROL Annotations Builder]. The
 
 When sharing annotations or working with annotations that were shared with you, keep this in mind:
 
-* If you create a project with project-only annotations then share the project with another user, annotations cannot be edited or deleted by anyone that you share the project with.
+* If you create a project with project-only annotations, then share the project with another user, annotations cannot be edited or deleted by anyone that you share the project with.
 * If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
 * If a project is shared with you with a project-only annotation, it shows up only in that project. If the annotation is shared directly with you, it shows up in all projects where that annotation can be displayed. 
 
@@ -51,7 +51,7 @@ All annotations are created with a timestamp, but no hours or timezone informati
 
 The Annotations manager lets Administrators edit, add, tag, delete, rename, approve, copy, export, and filter annotations. It is not visible to non-Admin users. 
 
-Select one or more annotation to see the following options:
+Additional options are available when you select at least one annotation:
 
 | Task | Description |
 | --- | --- |

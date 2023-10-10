@@ -14,7 +14,7 @@ Marketing Channel processing rules determine if a visitor hit meets the criteria
 
 Additional notes about processing :
 
-* Data collected with these rules are permanent. Rules altered after data is collected is not retroactive. Adobe strongly recommends that you review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+* Data collected with these rules are permanent. Rules altered after data collection is not retroactive. Adobe strongly recommends that you review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
 * You can configure up to 25 separate marketing channels.
 * Rules can access variables that VISTA has set, but cannot access data that VISTA has deleted.
 * Two marketing channels never receive credit for the same event (such as purchases or clicks). In this way, marketing channels differ from eVars (where two eVars might receive credit for the same event).
@@ -23,7 +23,7 @@ Additional notes about processing :
 ## Prerequisites
 
 * Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Create one or more channels so that you can assign rules to them. See [Add marketing channels.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Create one or more channels so that you can assign rules to them. See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 * Review the best practices for using [!UICONTROL Marketing Channels] with [!UICONTROL Attribution IQ].
 
 ## Create Marketing Channel processing rules
@@ -63,8 +63,8 @@ This reference table defines the fields, options, and hit attributes you can use
 
 | Term  | Definition  |
 |--- |--- |
-|All|Activates this channel only when all criteria in the rule is true.|
-|Any|Activates this channel when any of the criteria in the rule is true. This option is available only if more than one criteria exists in the numbered rule.|
+|All|Activates this channel only when all criteria in the rule are true.|
+|Any|Activates this channel when any of the criteria in the rule are true. This option is available only if more than one criterion exists in the rule.|
 |AMO ID|The primary tracking code used by the Advertising Cloud and Advertising Analytics integrations. When one of these integrations is enabled, then the tracking code prefix can be used to identify Advertising Cloud specific channels. Use "AMO ID" starts with "AL" for Search, "AC" for Display, or "AO" for Social. When the AMO ID is used in marketing channels the click/cost/impression metrics can be attributed to the correct channel (when not configured, these metrics go to Direct or None).|
 |AMO ED ID|The secondary tracking code used by Advertising Cloud. The main purpose of this tracking code is to serve as the key for sending data back to Ad Cloud. It can however also be used to identify display ClickThroughs vs. display ViewThroughs if you desire to see these as two separate marketing channels. This can be done by setting the marketing channel logic for "AMO EF ID" ends with `:d` for Display ClickThroughs or "AMO EF ID" ends with `:i` for Display ViewThroughs. If you do not desire to split Display into two channels, then use the AMO ID dimension instead.|
 |Conversion Variables|Consists of eVars that are enabled for this report suite, and applies only when these variables are set via the Adobe code on the page. |
@@ -81,8 +81,8 @@ This reference table defines the fields, options, and hit attributes you can use
 |Page Domain and Path|The domain and path, such as `products.example.com/mens/pants/overview.html` .|
 |Page Root Domain (TLD+1)|The root domain of the page on which the visitor lands, such as example.co.uk .|
 |Page URL|The URL of a web page on your site.|
-|Referring Domain|The domain your visitors came from before they visited your site, for example, referrers coming from `abcsite.com` versus `xyzsite.com`.|
-|Query String Parameter| Given the URL `https://example.com/?page=12345&cat=1`, the values `page` and `cat` are [Query string parameters](https://en.wikipedia.org/wiki/Query_string). You can specify only one query string parameter per criteria. To add additional query string parameters, use `ANY` as your operator, then add query string parameters to the rule. |
+|Referring Domain| The [Referring domain](/help/components/dimensions/referring-domain.md) dimension |
+|Query String Parameter| Use an individual query string parameter. You can specify only one query string parameter per criterion. To add additional query string parameters, use `ANY` as your operator, then add query string parameters to the rule. |
 |Referrer|The web page location (full URL) your visitors were at before coming to your site. A referrer exists outside your defined domain.|
 |Referring Domain and Path|A concatenation of the Referring Domain and URL path. Examples include:    `www.example.com/products/id/12345` or `ad.example.com/foo`|
 |Referring Parameter|A query string parameter on the referrer URL. For example, if your visitors come from `example.com/?page=12345&cat=1`, then page and cat are the referring parameters.|
@@ -100,7 +100,7 @@ Below is the recommended order for channel rules and example definitions:
 
 ### Paid Search {#paid-search}
 
-Paid search is a word or phrase that you pay a search engine for placement in search results. This channel is typically defined based on query string parameter (see Display channel example) or paid search detection rules. The decision depends on the marketing channel detail that you would like to record.
+Paid search is a word or phrase that you pay a search engine for placement in search results. This channel is typically defined based on query string parameter (see Display channel example) or paid search detection rules.
 
 #### Paid search detection
 

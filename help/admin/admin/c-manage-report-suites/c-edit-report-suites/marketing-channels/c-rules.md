@@ -124,9 +124,9 @@ See [Paid Search Detection](https://experienceleague.adobe.com/docs/analytics/ad
 
 ### Natural Search {#natural-search}
 
-A natural search occurs when visitors find your website through a Web search, where the search engine ranked your site without you paying for the listing. 
+Natural search is when visitors find your website through a search engine, and the search engine ranked your site without you paying for the listing. 
 
-There is no natural search detection in Analytics. After you set up Paid Search Detection, the system knows that if a search referrer was not a paid search referrer, it must be a natural search referrer. See [Paid Search Detection](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) in the Admin for more information.
+Adobe determines search traffic based on an internal lookup of search engines. If a referrer matches criteria for a search engine, it then determines if it is paid or natural using [Paid Search Detection](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) rules that you have configured. A hit is considered natural search when it does not match any paid search detection rules.
 
 For the marketing channel rule, the Natural Search settings are as follows:
 

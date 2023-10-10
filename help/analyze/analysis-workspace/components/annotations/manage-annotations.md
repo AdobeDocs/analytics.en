@@ -7,13 +7,9 @@ exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 ---
 # Manage annotations
 
-The [!UICONTROL Components] > [!UICONTROL Annotations] manager offers many ways of managing annotations, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+The [!UICONTROL Annotations manager] shows you all of the annotations that you own or that have been shared with you. Project-specific annotations do not appear here. You can use this interface to share, filter, tag, copy, delete, and favorite your annotations. Administrators can manage annotations across the organization, as well as approve annotations.
 
-The [!UICONTROL Annotations] manager shows you all the annotations you own that have been scoped to all your projects, and that have been shared with you. 
-
->[!NOTE]
->
->[!UICONTROL Annotations] that you created only for a specific project do not appear in the manager.
+**[!UICONTROL Components]** > **[!UICONTROL Annotations]**
 
 ## Annotations Manager user interface
 
@@ -52,7 +48,7 @@ When sharing annotations or working with annotations that were shared with you, 
 
 ## Annotations and time zones
 
-All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel’s report suite is always applied. So an annotation created for Christmas Day happens on December 25th - no matter what report suite timezone you are in. 
+All annotations are created with a timestamp, but no hours or timezone information. At report time, the timezone of the panel's report suite is always applied. So an annotation created for Christmas Day happens on December 25th - no matter what report suite timezone you are in. 
 
 Another example is New Year's Day. Every hour, a different timezone sets off fireworks as the new year starts. At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
 

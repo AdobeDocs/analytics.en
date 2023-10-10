@@ -6,6 +6,8 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 ---
 # Implement opt-out links
 
+*This help page provides Adobe Analytics customers with the ability to provide their users with opt-out links. If you are not an Adobe Analytics customer, see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.*
+
 >[!IMPORTANT]
 >
 >Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.

@@ -132,8 +132,8 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>8</td>
-<td><b>Iterate, validate, and publish</b> to production. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en">Publishing overview</a></td>
+<td><b>Iterate, validate, and publish</b> to production. Embed code to include your tag property to your web site pages. Then use data elements, rules, and so on, to customize your implementation.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Embed code</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en">Publishing overview</a></td>
 </tr>
 
 </table>

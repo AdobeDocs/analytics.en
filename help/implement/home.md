@@ -27,7 +27,7 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 For your **website**, the following implementation methods are available:
 
-* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, use a loader tag on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
+* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, place an embed code (a Javascript loader tag) on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK extension.](./aep-edge/overview.md) for more information.
 
@@ -36,7 +36,7 @@ See [How to implement Adobe Analytics using the Adobe Experience Platform Web SD
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
 
 
-* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**. Place a loader tag on each page, and use the Adobe Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Tags, but not want to use the Edge Network infrastructure.
+* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**. Place an embed code (a Javascript loader tag) on each page, and use the Adobe Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Tags, but not want to use the Edge Network infrastructure.
 ![Adobe Analytics extension](./assets/analytics-extension-implementation.png)
 See [How to implement Adobe Analytics using the Analytics extension](launch/overview.md) for more information.
 

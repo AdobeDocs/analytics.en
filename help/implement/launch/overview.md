@@ -57,8 +57,8 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>6</td> 
-<td><b>Validate and publish to production</b>. Add the tag property to your web site. Then use data elements, rules, and so on, to customize your implementation.</td>
-<td><a href="./validate-publish-prod.md">Validate a development implementation and publish to production</a></td>
+<td><b>Validate and publish to production</b>. Embed code to include your tag property to your web site pages. Then use data elements, rules, and so on, to customize your implementation.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Embed code</a><br/><a href="./validate-publish-prod.md">Validate a development implementation and publish to production</a></td>
 </tr>
 
 </table>

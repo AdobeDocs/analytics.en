@@ -1,10 +1,10 @@
 ---
 description: Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
-title: Virtual Report Suite Component Curation
+title: Virtual report suite component curation
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 ---
-# Virtual Report Suite Component Curation
+# Virtual report suite component curation
 
 Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 
@@ -14,14 +14,14 @@ Here is a video on component curation:
 
 >[!NOTE]
 >
->Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](/help/analyze/analysis-workspace/curate-share/curate.md) allows for more fine-grained control over which components are visible.
+>Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites. Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. The [updated curation experience](/help/analyze/analysis-workspace/curate-share/curate.md) allows for more fine-grained control over which components are visible.
 
 To enable component curation,
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]** > **[!UICONTROL Create new virtual report suite]**.
 1. After defining the **[!UICONTROL Settings]**, click the **[!UICONTROL Components]** tab.
 
-1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Select the checkbox **[!UICONTROL Enable Customization of Virtual report suite components]**:
 
    ![](assets/vrs-enable.png)
 

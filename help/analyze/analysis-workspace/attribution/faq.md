@@ -140,7 +140,7 @@ When attribution is applied to multi-value hits, all values in the same hit get 
 
 Attribution always runs before segmentation, and segmentation runs before report filters are applied. This concept also applies to virtual report suites using segments.
 
-For example, if you create a VRS with a "Display Hits" segment applied, you could see other channels in a table using some attribution models.
+For example, if you create a virtual report suite with a "Display Hits" segment applied, you could see other channels in a table using some attribution models.
 
 ![Display-only virtual report suite](assets/vrs-aiq-example.png)
 

@@ -8,7 +8,7 @@ feature: Bot Removal
 
 The following table shows different methods of excluding bots and how they stack up against each other.
 
-| Method | Bot Rules | Exclude by IP Address | Customer Attributes | Segmentation | 3-rd party scoring + Segmentation | Suppress Server Call​​ for Bots at Runtime | Custom DB VISTA rule |
+| Method | Bot Rules | Exclude by IP Address | Customer attributes | Segmentation | 3-rd party scoring + Segmentation | Suppress Server Call​​ for Bots at Runtime | Custom DB VISTA rule |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Description of method for excluding data** | ​Exclude based on user-agent, IP address, or IP address range | IP address | ​A flag in customer attributes that identifies ECID as a bot | ​Criteria in an Analytics segment that identifies known bots based on bot behavior | ​A 3rd party such as [Perimeter X](https://www.perimeterx.com) or [Akamai Bot Manager](https://www.akamai.com/us/en/products/security/bot-manager.jsp) assigns each page view a score on how likely it is to be a bot. Score is sent into Analytics and segments can be used to filter data out based on the score. | ​Client-side logic stops the Analytics server call from being executed for bots. | ​A VISTA rule will move traffic from bots that meet certain criteria to a separate report suite. |
 | **​Bot names are available for reporting?** | Yes | No | No | No | No | No | Yes |

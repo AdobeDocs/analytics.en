@@ -72,7 +72,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 * Data Insertion API and Bulk Data Insertion API are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. If you are working on a new implementation of server-side collection, we recommend using Bulk Data Insertion API.
 
-**[Customer Attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** should be used:
+**[Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** should be used:
 
 * If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.

@@ -67,7 +67,7 @@ You can apply the 'Exclude affected days' segment to a Workspace project. Drag t
 
 ### Use the exclude segment in a virtual report suite {#use-vrs}
 
-You can use the segment in a [virtual report suite](/help/components/vrs/vrs-about.md) to more conveniently exclude the data. This option is ideal in that you don't have to remember to apply the segment for each report that that includes the affected date range. If you already use virtual report suites as your primary source of data, you can add the segment to an existing VRS.
+You can use the segment in a [virtual report suite](/help/components/vrs/vrs-about.md) to more conveniently exclude the data. This option is ideal in that you don't have to remember to apply the segment for each report that that includes the affected date range. If you already use virtual report suites as your primary source of data, you can add the segment to an existing Virtual report suites.
 
 1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 2. Click **[!UICONTROL Add]**.
@@ -75,4 +75,4 @@ You can use the segment in a [virtual report suite](/help/components/vrs/vrs-abo
 4. Drag the exclude segment to the area labeled **[!UICONTROL Add segment]**.
 5. Click **[!UICONTROL Continue]** in the upper right, then click **[!UICONTROL Save]**.
 
-![Segment applied to VRS](assets/exclude_segment_vrs.png)
+![Segment applied to Virtual report suite](assets/exclude_segment_vrs.png)

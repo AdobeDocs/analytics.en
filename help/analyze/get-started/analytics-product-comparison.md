@@ -28,8 +28,8 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 | **Cohort analysis** | [Yes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Yes | No | No |
 | **Attribution** | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limited | Limited | No | Yes | No | Yes, with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Virtual Analyst features** <br> [Learn more](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Yes | No | No | No | No | No | Yes |
-| **Curation** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/curate.md) | Yes - Project and VRS | No | No | No | No | No | Yes - VRS only |
+| **Curation** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/curate.md) | Yes - Project and Virtual report suite | No | No | No | No | No | Yes - Virtual report suite only |
 | **Project sharing** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Yes, with project roles | Yes | Yes | No | Yes | No | No |
 | **Scheduled delivery** | Yes | Yes | Yes | Yes | No | Yes | No |
 | **Delivery destinations** | Email | Email | Email, FTP, SFTP, [publishing to Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC, and Email | - | Amazon S3, Azure RBAC, Azure SAS, and Google Cloud Platform  | - |
-| **VRS report time processing** <br> [Learn more](/help/components/vrs/vrs-report-time-processing.md) | Yes | No | No | No | No | No | Yes |
+| **Virtual report suite report time processing** <br> [Learn more](/help/components/vrs/vrs-report-time-processing.md) | Yes | No | No | No | No | No | Yes |

@@ -15,7 +15,7 @@ Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/comp
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Create a virtual report suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) by applying one or more segments to a parent report suite.
 
-Virtual report suites are created in the Virtual Report Suite Manager ( Components > Virtual Report Suites).
+Virtual report suites are created in the Virtual report suites manager, available through **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
 
 Once created, a virtual report suite is treated just like a base report suite throughout the UI and is generally supported for most extended features. For example, virtual report suites show up in the Report Suite selectors and can be selected individually just like any other report suite.
 
@@ -25,4 +25,4 @@ Click the Info icon next to the report suite name to [view information about it]
 
 ![](assets/step4_icon.png) [Manage](/help/components/vrs/c-workflow-vrs/vrs-manage.md) the virtual report suite.
 
-The Virtual Report Suite Manager lets you edit, add, tag, delete, rename, approve, copy, export, and filter virtual report suites. It is not visible to non-Admin users.
+The Virtual report suites manager lets you edit, add, tag, delete, rename, approve, copy, export, and filter virtual report suites. It is not visible to non-Admin users.

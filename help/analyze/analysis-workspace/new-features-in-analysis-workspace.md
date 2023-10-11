@@ -190,7 +190,7 @@ New features and enhancements released on November 1, 2018.
 
 | Feature | Description |
 |--- |--- |
-|[VRS and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites (VRSs). <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
+|[Virtual report suite and project curation - enhancements](/help/analyze/analysis-workspace/curate-share/curate.md)|These changes were actually introduced in October 2018. Changes were made to which components administrators and non-administrators can see in curated Workspace projects and curated virtual reports suites. <br> Previously, anyone could see non-curated components when clicking Show all Components. The updated curation experience allows for more fine-grained control over which components are visible.</br>|
 
 ## October 2018
 
@@ -531,7 +531,7 @@ New features and enhancements released on January 18, 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Changes to event#, eVar#, and prop# </p> </td>
-   <td colname="col2"> <p>Event#, eVar#, and prop#, which were added to dimension names in the left rail (in 2017), will only appear when you <b>search</b> for the component. </p> <p>(Also applies to Virtual Report Suite builder.) </p> </td>
+   <td colname="col2"> <p>Event#, eVar#, and prop#, which were added to dimension names in the left rail (in 2017), will only appear when you <b>search</b> for the component. </p> <p>(Also applies to virtual report suite builder.) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Changes to None/Unspecified </p> </td>

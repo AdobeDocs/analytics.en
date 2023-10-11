@@ -1,17 +1,17 @@
 ---
 description: Virtual report suites and multi-suite tagging have different advantages. Learn which is best for your organization.
-keywords: Virtual Report Suite,VRS
+keywords: Virtual Report Suite
 title: Virtual report suites and multi-suite tagging considerations
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 ---
 # Virtual report suites and multi-suite tagging considerations
 
-Virtual report suites (VRS) let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.
+Virtual report suites let you view data from a report suite that is collecting data from your digital properties, but with a segment permanently applied.
 
 In many cases, you can use virtual report suites to replace multi-suite tagging. Switching to virtual reports suites can effectively remove the necessity for [secondary server calls](/help/admin/admin/c-server-call-usage/overage-overview.md). For example, your organization has 6 different websites, each sending data to their own report suite as well as a combined global report suite. Each site incurs a secondary server call; one to the individual brand report suite, and a second to the global report suite. Instead, you can send data from all sites solely to the global report suite, then use multiple virtual report suites to separate each brand.
 
-Replacing multi-suite tagging with a global report suite and VRS allows you to simplify your Adobe Analytics implementation and reduce server call consumption, and is encouraged as a best practice. However, there are some important limitations of VRS to consider. The following guidelines can help you decide whether implementing virtual report suites built on a global report suite is the right approach for you.
+Replacing multi-suite tagging with a global report suite and Virtual report suite allows you to simplify your Adobe Analytics implementation and reduce server call consumption, and is encouraged as a best practice. However, there are some important limitations of Virtual report suites to consider. The following guidelines can help you decide whether implementing virtual report suites built on a global report suite is the right approach for you.
 
 ## Guidelines
 
@@ -49,13 +49,13 @@ Make sure that the number of unique dimensions and metrics can fit in a single g
 
 >[!TIP]
 >
->With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate.md), you can change the name of a given dimension or metric on a per-VRS basis.
+>With the introduction of [curation](/help/analyze/analysis-workspace/curate-share/curate.md), you can change the name of a given dimension or metric on a per Virtual report suite basis.
 
 ### Segmentation nuances
 
 A virtual report suite on a fundamental level is simply a segment applied to a report suite. Visit and visitor-based dimensions can provide unintuitive reporting results.
 
-For example, you have two websites, A and B, both sending data into a global report suite. Some visitors inevitably cross over from site A to site B, and this movement from one to the other is visible in pathing in the global report suite. If you build virtual report suites for sites A and B, a visit that started on site A and ended on site B wouldn't show an entry page in VRS B. The entry page for this visit began on site A, which is segmented out of the virtual report suite.
+For example, you have two websites, A and B, both sending data into a global report suite. Some visitors inevitably cross over from site A to site B, and this movement from one to the other is visible in pathing in the global report suite. If you build virtual report suites for sites A and B, a visit that started on site A and ended on site B wouldn't show an entry page in Virtual report suite B. The entry page for this visit began on site A, which is segmented out of the virtual report suite.
 
 ### Currency conversion
 
@@ -77,7 +77,7 @@ For example, only one Google DCM is allowed per report suite. Many companies hav
 
 ### Summary data sources
 
-Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics *without a visitor ID*, they cannot be segmented in [!UICONTROL Visit] and [!UICONTROL Visitor] containers. Since VRS operates using segmentation, data imported using summary data sources will not be not available in virtual report suites if the segment is built using a Visit or Visitor container.
+Summary data sources let you import aggregated metrics into Adobe Analytics at a report-suite level. Because summary data source uploads contain aggregated metrics *without a visitor ID*, they cannot be segmented in [!UICONTROL Visit] and [!UICONTROL Visitor] containers. Since Virtual report suite operates using segmentation, data imported using summary data sources will not be not available in virtual report suites if the segment is built using a Visit or Visitor container.
 
 Summary data sources show up in the virtual report suite if a Hit container is used and if that Hit container has rules conditioned to include the data source information.
 
@@ -85,7 +85,7 @@ Summary data sources show up in the virtual report suite if a Hit container is u
 >
 >Full processing data sources support segmentation, and can be used in virtual report suites.
 
-## Steps to follow if you have decided to use VRS
+## Steps to follow if you have decided to use Virtual report suite
 
 If you opt to remove secondary server calls in favor of virtual report suites:
 

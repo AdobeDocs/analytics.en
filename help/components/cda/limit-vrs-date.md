@@ -1,18 +1,18 @@
 ---
-title: Limit a VRS to certain dates
-description: Understand how to limit a VRS date range to focus on stitched data only.
+title: Limit a Virtual report suite to certain dates
+description: Understand how to limit a Virtual report suite date range to focus on stitched data only.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 ---
-# Limit a VRS to certain dates
+# Limit a Virtual report suite to certain dates
 
-When we turn on stitching, the stitching starts on a specific date. Let's assume that date is June 1. The CDA VRS will contain unstitched data prior to June 1. You may want to hide any data in the VRS prior to June 1 so that your analysis can focus on date ranges after stitching began.
+When we turn on stitching, the stitching starts on a specific date. Let's assume that date is June 1. The CDA Virtual report suite will contain unstitched data prior to June 1. You may want to hide any data in the Virtual report suite prior to June 1 so that your analysis can focus on date ranges after stitching began.
 
-You can limit the VRS data to certain dates by doing the following:
+You can limit the Virtual report suite data to certain dates by doing the following:
 
-## Step 1: Create VRS with a rolling-daily date range
+## Step 1: Create Virtual report suite with a rolling-daily date range
 
-When you set up the VRS, under Components, add in a date range that has a fixed start, with a rolling-daily date range. The fixed start should be the day that stitching began.
+When you set up the Virtual report suite, under Components, add in a date range that has a fixed start, with a rolling-daily date range. The fixed start should be the day that stitching began.
 
 ![](assets/rolling-daily.png)
 
@@ -24,7 +24,7 @@ The reason for the "exclude exclude" is that date ranges are intended to overrid
 
 ![](assets/exclude-exclude.png)
 
-## Step 3: Apply this segment to your CDA VRS
+## Step 3: Apply this segment to your Cross-device Analytics Virtual report suite
 
 ![](assets/apply-segment.png)
 

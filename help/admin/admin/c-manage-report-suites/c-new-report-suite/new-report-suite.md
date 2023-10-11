@@ -13,7 +13,7 @@ Descriptions of the elements used when [creating a report suite](/help/admin/adm
 
 >[!NOTE]
 >
->The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+>The [Virtual report suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 | Element | Description |
 | --- | --- |

@@ -32,7 +32,7 @@ For more information, see the [Adobe Analytics Implementation Guide](https://exp
 
 ## Use a combination of Adobe Tools
 
-In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID Service, Segmentation, Data Warehouse, Customer Attributes, and Virtual Report Suites. Here is an overview of how you can use these tools.
+In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID service, segmentation, Data Warehouse, customer attributes, and virtual report suites. Here is an overview of how you can use these tools.
 
 ### Step 1: Pass your visitors' Experience Cloud ID into a new declared ID
 
@@ -60,30 +60,30 @@ Now that you have identified the bots using segments, the next step is to use Da
 
 Remember to use Experience Cloud Visitor ID as your dimension and apply the 'Bots' segment.
 
-### Step 4: Pass this list back to Adobe as a Customer Attribute
+### Step 4: Pass this list back to Adobe as a Customer attribute
 
 Once the Data Warehouse report arrives, you have a list of ECIDs that must be filtered from historical data. Copy and paste these ECIDs into a blank .CSV file with just two columns, ECID and Bot Flag.
 
 * **ECID**: Make sure that this column header matches the name you gave to the new declared ID above.
-* **Bot Flag**: Add 'Bot Flag' as a Customer Attribute schema dimension.
+* **Bot Flag**: Add 'Bot Flag' as a Customer attribute schema dimension.
 
-Use this .CSV file as your Customer Attribute import file, then subscribe your report suite(s) to the Customer Attribute as described in this [blog post](https://theblog.adobe.com/link-digital-behavior-customers).
+Use this .CSV file as your Customer attribute import file, then subscribe your report suite(s) to the Customer attribute as described in this [blog post](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### Step 5: Create a segment that leverages the new Customer Attribute
+### Step 5: Create a segment that leverages the new Customer attribute
 
 Once your data set has been processed and integrated into Analysis Workspace, create one more segment that leverages your new "Bot Flag" customer attribute dimension and an [!UICONTROL Exclude] container:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
-### Step 6: Use this segment as your Virtual Report Suite filter
+### Step 6: Use this segment as your virtual report suite filter
 
-Finally, create a [Virtual Report Suite](/help/components/vrs/vrs-about.md) that uses this segment to filter out the identified bots:
+Finally, create a [Virtual report suite](/help/components/vrs/vrs-about.md) that uses this segment to filter out the identified bots:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-This newly segmented Virtual Report Suite will now result in a cleaner set of data, with the identified bots removed.
+This newly segmented virtual report suite will now result in a cleaner set of data, with the identified bots removed.
 
 ### Step 7: Repeat steps 2, 3, and 4 regularly
 

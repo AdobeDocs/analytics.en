@@ -35,6 +35,6 @@ Live mode responds to the needs of publishing organizations. These organizations
 
 >[!IMPORTANT]
 >
->Virtual Report Suites are not compatible with Live Mode, only with Standard Mode.
+>Virtual report suites are not compatible with Live Mode, only with Standard Mode.
 
 ![](assets/live_mode.png)

@@ -6,6 +6,8 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 ---
 # Implement opt-out links
 
+*This help page provides Adobe Analytics customers with the ability to provide their users with opt-out links. If you are not an Adobe Analytics customer, see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.*
+
 >[!IMPORTANT]
 >
 >Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
@@ -32,7 +34,7 @@ The opt-out page for your organization depends on the [`trackingServer`](../vars
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
   1. Note the `trackingServer` variable value.
 
-* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html):
+* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
   1. Navigate to your site using the Chrome browser.
   1. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
   1. Note the [!UICONTROL Request URL - Hostname] value.

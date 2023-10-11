@@ -15,7 +15,7 @@ You can create different types of segments in Workspace, depending on how comple
 | Component-list segment | Click +, which takes you to the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) | All your Workspace projects | For more complex segments, sequential segments |
 | Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project only, but can save and add to your segment list. | Can be used for ad hoc single-rule segments (with drag-and-drop), or to add/edit multiple rules (by clicking the Segment icon) | 
 | Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
-| VRS-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your VRS definition |
+| Virtual report suite-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your virtual report suite definition |
 
 ## Videos
 

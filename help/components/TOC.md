@@ -207,15 +207,15 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Calculated metrics: role-based rights](c-calcmetrics/cm-role-based-rights.md)
     + [Calculated metrics totals](c-calcmetrics/cm-totals.md)
     + [Default calculated metrics](c-calcmetrics/cm-reference/default-calcmetrics.md)
-+ Virtual Report Suites {#virtual-report-suites}
++ Virtual report suites {#virtual-report-suites}
   + [Virtual report suites overview](vrs/vrs-about.md)
   + [Virtual report suite - component curation](vrs/vrs-components.md)
   + [Context-aware sessions](vrs/vrs-mobile-visit-processing.md)
   + [Report time processing](vrs/vrs-report-time-processing.md)
   + [A4T considerations](vrs/vrs-a4t.md)
-  + [VRS FAQs](vrs/vrs-faq.md)
-  + [VRSs and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
-  + VRS Workflow {#vrs-workflow}
+  + [Virtual report suites FAQs](vrs/vrs-faq.md)
+  + [Virtual report suites and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
+  + Virtual report suite workflow {#vrs-workflow}
     + [Virtual report suite workflow](vrs/c-workflow-vrs/vrs-workflow.md)
     + [Create virtual report suites](vrs/c-workflow-vrs/vrs-create.md)
     + [Manage virtual report suites](vrs/c-workflow-vrs/vrs-manage.md)
@@ -227,7 +227,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Set up Cross-Device Analytics](cda/setup.md)
   + [How replays work](cda/replay.md)
   + [CDA Workspace template](cda/workspace-template.md)
-  + [Limit a VRS to certain dates](cda/limit-vrs-date.md)
+  + [Limit a Virtual report suite to certain dates](cda/limit-vrs-date.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Intelligent alerts](c-alerts/intellligent-alerts.md)

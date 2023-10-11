@@ -139,8 +139,8 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
    <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>Adobe Audience Manager audiences get sent over and shared as "dimension" components to be used in Analytics. They will not show up as segments in the Segment Builder, for example, but as dimensions that you can build segments with. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q: What is the difference between Customer Attributes and customer data integrated from Adobe Audience Manager?</b> </p> </td> 
-   <td colname="col2"> <p>Customer Attributes are not time based; they apply retroactively and go-forward. Adobe Audience Manager integrated data is time based and go-forward only. Additionally, Customer Attributes is a lookup table for Experience Cloud visitor IDs, whereas the Adobe Audience Manager integration is data stitched into each hit for a visitor. </p> </td> 
+   <td colname="col1"> <p><b>Q: What is the difference between customer attributes and customer data integrated from Adobe Audience Manager?</b> </p> </td> 
+   <td colname="col2"> <p>Customer attributes are not time based; they apply retroactively and go-forward. Adobe Audience Manager integrated data is time based and go-forward only. Additionally, customer attributes is a lookup table for Experience Cloud visitor IDs, whereas the Adobe Audience Manager integration is data stitched into each hit for a visitor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q: What about legacy approaches to this problem, for example, the old beta or Consulting plug-in cookie-destinations?</b> </p> </td> 

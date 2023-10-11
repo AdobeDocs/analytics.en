@@ -53,9 +53,9 @@ The User Explorer report allows an analyst to view individual visits through ano
 
 Demographics and interests data provides information about the age, gender, and interests of site users. That data is collected by Google through their cross-site tracking abilities.
 
-Demographic and interests data is not automatically collected by Adobe. However if your organization obtains this data, you can use Customer Attributes, a feature within the Adobe Experience Cloud Platform. It allows full control over the organizing of data by attributes, and is not limited to just demographics or interests.
+Demographic and interests data is not automatically collected by Adobe. However if your organization obtains this data, you can use customer attributes, a feature within the Adobe Experience Cloud Platform. It allows full control over the organizing of data by attributes, and is not limited to just demographics or interests.
 
-See Customer Attributes Help for more information.
+See Customer attributes help for more information.
 
 ## Geo - Language
 

@@ -30,4 +30,4 @@ Multi-suite tagging incurs multiple server calls for each image request: a prima
 
  Using virtual report suites instead of multi-suite tagging is often a best practice, but your business needs determine the best report suite approach for your organization.
  
- To understand if virtual report suites are your best approach, see "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)." See also "[Virtual Report Suites vs. Multisuite Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)" for a comparison of multi-suite tagging and virtual report suite functionality.
+ To understand if virtual report suites are your best approach, see "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)." See also "[Virtual report suites vs. ,multi-suite tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)" for a comparison of multi-suite tagging and virtual report suite functionality.

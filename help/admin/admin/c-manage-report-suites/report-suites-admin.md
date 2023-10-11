@@ -24,7 +24,7 @@ To access a report suite:
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](/help/components/vrs/vrs-about.md).
+>Virtual rport suites are managed via **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**. Please refer to the [Virtual report suite documentation](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager Descriptions {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

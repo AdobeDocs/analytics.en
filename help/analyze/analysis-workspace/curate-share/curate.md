@@ -43,26 +43,26 @@ To remove project curation and restore the full set of components in the left ra
 1. Click **[!UICONTROL Remove Curation]**. 
 1. Click **[!UICONTROL Done]**.
 
-## Virtual Report Suite (VRS) curation
+## Virtual report suite curation
 
-To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite (VRS)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html). 
+To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html). 
 
 >[!NOTE]
-> VRS curation is always applied before project curation. This means that even if your curated project includes certain components, they will be filtered out if the curated VRS does not include them.
+> Virtual report suite curation is always applied before project curation. This means that even if your curated project includes certain components, they will be filtered out if the curated Virtual report suite does not include them.
 
 ## Show All components option
 
-In a curated project or VRS, the recipient will be presented with the option to **[!UICONTROL Show All]** components in the left rail. [!UICONTROL Show All] reveals different sets of components, depending on:
+In a curated project or virtual report suite, the recipient will be presented with the option to **[!UICONTROL Show All]** components in the left rail. [!UICONTROL Show All] reveals different sets of components, depending on:
 
-* The user’s permission level (admin or non-admin)
+* The user's permission level (admin or non-admin)
 * Project role (owner/editor or not)
-* Type of curation applied (VRS or project)
+* Type of curation applied (Virtual report suiteS or project)
 * Components owned by or shared to the user. Owned/shared components include segments, calculated metrics, and date ranges. They do not include implemented components such as eVars, props, and custom events. 
 
 Note: Non-admin view roles do not have access to the left rail in a project, so they have been omitted from the table below.
 
 |Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate role|
 |---|---|---|---|
-|Curated VRS|All non-curated VRS components|Non-curated VRS components that this role owns or that have been shared with them|Non-curated VRS components that this role owns or that have been shared with them|
+|Curated Virtual report suite|All non-curated Virtual report suite components|Non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite components that this role owns or that have been shared with them|
 |Curated Project|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|
-|Curated Project in a Curated VRS| All non-curated components, shown under **[!UICONTROL Non-Curated Project Components]** and **[!UICONTROL Non-Curated VRS Components]**| All non-curated project components AND non-curated VRS components that this role owns or that have been shared with them|Non-curated VRS and project components that this role owns or that have been shared with them|
+|Curated Project in a Curated Virtual report suite| All non-curated components, shown under **[!UICONTROL Non-Curated Project Components]** and **[!UICONTROL Non-Curated Virtual report suite components]**| All non-curated project components AND non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite and project components that this role owns or that have been shared with them|

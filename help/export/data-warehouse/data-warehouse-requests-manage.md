@@ -58,7 +58,7 @@ To edit a scheduled request:
 
 ## View the history of a request
 
-You can view the history of any reports that have run. 
+You can view the history of any Data Warehouse requests you have made. 
 
 1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
@@ -68,9 +68,26 @@ You can view the history of any reports that have run.
 
 1. Select [!UICONTROL **View history**].
 
-   The [!UICONTROL **View Data Warehouse request**] page displays a list of individual report deliveries.
+   The [!UICONTROL **View Data Warehouse request**] page displays a list of individual report deliveries that are associated with the request.
+
+   Select the **Configure column** icon ![Configure column icon](assets/configure-column-icon.png) to hide columns or show columns that aren't displayed by default.
 
    ![Request history page](assets/dw-request-history.png)
+
+   The following columns are available:
+
+   |Column |Description | 
+   |---------|----------|
+   | [!UICONTROL **Date created**] |The date and time that the report was created.<p>This is displayed in the time zone of the user who initiated the request.</p> | 
+   | [!UICONTROL **Date started**] | The date and time that the report started.<p>This is displayed in the time zone of the user who initiated the request.</p> |
+   | [!UICONTROL **Date completed**] | The date and time that the report completed.<p>This is displayed in the time zone of the user who initiated the request.</p> |
+   | [!UICONTROL **Date updated**] | The date and time that the report was last updated.<p>This is displayed in the time zone of the user who initiated the request.</p> |
+   | [!UICONTROL **Status**] | The status of the report delivery. Possible statuses are:<ul><li>[!UICONTROL **Created**]</li><li>[!UICONTROL **Pending**]</li><li>[!UICONTROL **Processing**]</li><li>[!UICONTROL **Completed**]</li><li>[!UICONTROL **Scheduled**]</li><li>[!UICONTROL **Canceled**]</li><li>[!UICONTROL **Error - Processing**]</li><li>[!UICONTROL **Error - Failure To Send**]</li></ul>. |
+   | [!UICONTROL **From**] | The start date of the overall time frame included in the report.<p>This is displayed in the time zone of the report suite.</p> |
+   | [!UICONTROL **To**] | The end date of the overall time frame included in the report. <p>This is displayed in the time zone of the report suite.</p> |
+   | [!UICONTROL **Legacy request ID**] | The ID that is used to identify a report in the legacy Data Warehouse interface. This ID might be needed when contacting Adobe Customer Care. |
+   | [!UICONTROL **Report ID**] | The ID that is used to identify a report in the current Data Warehouse interface. This ID might be needed when contacting Adobe Customer Care. |
+
 
 1. Select a report delivery, then select any of the following options:
    

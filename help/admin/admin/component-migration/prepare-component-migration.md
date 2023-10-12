@@ -49,7 +49,9 @@ The following tables outlines which elements of a project and component are incl
 
 ### Component elements that are migrated
 
-Dimensions and metrics are migrated as part of the mapping process described in [Migrate Adobe Analytics projects to Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), whereas segments and date ranges are re-created in Customer Journey Analytics based on the
+Dimensions and metrics are migrated as part of the mapping process described in [Migrate Adobe Analytics projects to Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics). 
+
+Segments, date ranges, and calculated metrics that don't already exist in Customer Journey Analytics are re-created there based on the dimensions and metrics that are mapped. 
 
 |  | Migrated |
 |---------|---------|
@@ -87,7 +89,7 @@ Dimensions and metrics are migrated as part of the mapping process described in 
 
 ## Understand unsupported elements that cause errors
 
-The following visualizations, panels, and features are not supported in Customer Journey Analytics. When these elements are included in a project prior to migration, they can either cause the migration to fail or they can result in errors after the project is migrated.
+The following visualizations and panels are not supported in Customer Journey Analytics. When these elements are included in a project prior to migration, they can either cause the migration to fail or they can result in errors after the project is migrated.
 
 Remove these elements from the Adobe Analytics project before migrating the project to Customer Journey Analytics. If a migration fails, remove these elements before retrying the migration.
 
@@ -107,11 +109,7 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 
 * [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### Unsupported features
-
 * [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [Alerts](/help/components/c-alerts/intellligent-alerts.md)
 
 ## Decide as an organization how you will map components
 

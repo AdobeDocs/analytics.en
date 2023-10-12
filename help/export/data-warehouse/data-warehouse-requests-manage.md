@@ -68,6 +68,19 @@ You can view the history of any reports that have run.
 
 1. Select [!UICONTROL **View history**].
 
+   The [!UICONTROL **View Data Warehouse request**] page displays a list of individual report deliveries.
+
+   ![Request history page](assets/dw-request-history.png)
+
+1. Select a report delivery, then select any of the following options:
+   
+   |Option |Function | 
+   |---------|----------|
+   | [!UICONTROL **Destination details**] | Shows the account and location details associated with the request. This is the account and location that was configured earlier, as described in [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 
+   | [!UICONTROL **Cancel report**] | Cancels the report. You cannot cancel reports that have a status of [!UICONTROL **Completed**] or [!UICONTROL **Canceled**]. |
+   | [!UICONTROL **Rerun report**] | Runs the report again with the data as it was when it was originally sent. You can rerun a report that has any of the following statuses: [!UICONTROL **Canceled**], [!UICONTROL **Completed**], [!UICONTROL **Error - Processing**], or [!UICONTROL **Error - Failure To Send**]. |
+   | [!UICONTROL **Resend report**] | Resends the report file that was previously generated. You can resend a report that has any of the following statuses: [!UICONTROL **Completed**] or [!UICONTROL **Error - Failure To Send**]. |
+
 ## Copy requests
 
 When you copy a request, all configuration options are copied from the original request. 

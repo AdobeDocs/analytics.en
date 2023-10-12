@@ -265,6 +265,8 @@ Use the following information when completing the available fields:
 
 * [!UICONTROL **Directory path**]: The path to the location on the SFTP account.
 
+For additional information about SFTP configuration, see [Send Data Warehouse requests to SFTP servers](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
+
 ### S3
 
 You can send warehouse data directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.

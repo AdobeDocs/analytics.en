@@ -111,9 +111,9 @@ When creating a data feed, you provide Adobe with:
 
    +++Azure RBAC
 
-   You can send feeds directly to an Azure container using RBAC authentication. This destination type requires a Bucket name, an Application ID, Tenant ID, and a Secret Key. 
+   You can send feeds directly to an Azure container using RBAC authentication. This destination type requires an Application ID, Tenant ID, and Secret. 
 
-   To configure an Azure RBAC bucket as the destination for a data feed:
+   To configure an Azure RBAC account as the destination for a data feed:
 
    1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication, then grant access permissions in access control (IAM). 
    
@@ -171,9 +171,9 @@ When creating a data feed, you provide Adobe with:
 
    +++Azure SAS
 
-   You can send feeds directly to an Azure container using SAS authentication. This destination type requires a Bucket name, an Application ID, Tenant ID, Key vault URI, Key vault secret name, and a Secret Key. 
+   You can send feeds directly to an Azure container using SAS authentication. This destination type requires an Application ID, Tenant ID, Key vault URI, Key vault secret name, and secret. 
 
-   To configure an Azure SAS bucket as the destination for a data feed:
+   To configure Azure SAS as the destination for a data feed:
 
    1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication. 
    
@@ -204,7 +204,7 @@ When creating a data feed, you provide Adobe with:
          |Field | Function |
          |---------|----------|
          | [!UICONTROL **Account name**] | A name for the Azure SAS account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
-         | [!UICONTROL **Account destription**] | A description for the Azure SAS account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
+         | [!UICONTROL **Account description**] | A description for the Azure SAS account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. | 
          | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
          | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Key vault URI**] | <p>The path to the SAS token in Azure Key Vault.  To configure Azure SAS, you need to store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created, add an access policy on the Key Vault in order to grant permission to the Azure application that you created. For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 

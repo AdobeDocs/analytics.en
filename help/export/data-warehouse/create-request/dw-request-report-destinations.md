@@ -253,6 +253,8 @@ Use the following information when completing the available fields:
 
 * [!UICONTROL **Username**]: Enter the username to log in to the SFTP site.
 
+* [!UICONTROL **Use temporary file extensions during upload**]: When enabled, the `.part` file extension is used during the upload process. Keep this option enabled unless your SFTP server restricts file names from being changed after the upload completes.
+
 * [!UICONTROL **Public keys**]: Download the appropriate public key when creating the data warehouse destination.
 
 #### Location fields

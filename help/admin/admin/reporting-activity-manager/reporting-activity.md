@@ -90,8 +90,6 @@ Hover over the chart to view points in time where the maximum number of users wa
 
    ![Distinct Users graph](assets/distinct-users-graph.png)
 
-<!--
-
 #### Requests graph
 
 The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
@@ -113,8 +111,6 @@ Hover over the chart to view points in time where the maximum average wait time 
 * **Y-axis**: The average wait time (in seconds).
 
    ![Distinct Users graph](assets/queueing-graph.png)
-
--->
 
 ### View table {#view-table}
 

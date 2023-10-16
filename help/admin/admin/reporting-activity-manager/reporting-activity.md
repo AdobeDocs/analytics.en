@@ -166,7 +166,7 @@ When you select the [!UICONTROL **Project**] tab, the following columns are avai
 
 | Column | Description |
 | --- | --- |
-| [!UICONTROL **Project**] | The project where the queries were initiated. |
+| [!UICONTROL **Project**] | The project where the requests were initiated. |
 | [!UICONTROL **Number of requests**] | The number of requests associated with the project. |
 | [!UICONTROL **Number of users**] | The number of users associated with the project. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
@@ -183,7 +183,7 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 
 | Column | Description |
 | --- | --- |
-| [!UICONTROL **Application**] | The application where the queries were initiated. |
+| [!UICONTROL **Application**] | The application where the requests were initiated. |
 | [!UICONTROL **Number of requests**] | The number of requests associated with the application. |
 | [!UICONTROL **Number of users**] | The number of users associated with the application. <!--???--> |
 | [!UICONTROL **Number of projects**] | The number of projects associated with the application. <!--???--> |
@@ -193,31 +193,5 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. More segments adds to the complexity of the request. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 

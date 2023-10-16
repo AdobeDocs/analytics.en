@@ -17,7 +17,7 @@ Reporting Activity Manager provides the following benefits:
 
 * Lets you monitor and manage reporting capacity for each report suite in your organization.
 * Informs you in real time about your current reporting capacity across your report suites.
-* Provides detailed report query information on current reporting requests, whether queued or in progress.
+* Provides detailed report information on current reporting requests, whether queued or in progress.
 * Lets you optimize the reporting queue by prioritizing some and canceling other reporting requests to free up capacity. It answers questions like: is this report necessary at this time or can I cancel it in favor of more urgent reports?
 * Lets you restrict future requests for a specified time period. You can restrict specific requests, or you can restrict all requests from a specific user or requests that are associated with a specific project. 
 

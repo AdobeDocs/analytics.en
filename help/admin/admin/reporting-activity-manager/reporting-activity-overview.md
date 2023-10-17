@@ -35,10 +35,3 @@ For information about viewing reporting activity in the Reporting Activity Manag
 
 For information about cancelling reporting requests in the Reporting Activity Manager, see [Cancel reporting requests in the Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Frequently asked questions {#faq}
-
-| Question | Answer |
-| --- | --- |
-| Can I purchase additional reporting capacity? | This capability will be available in the near future. |
-
-{style="table-layout:auto"}

@@ -52,7 +52,6 @@ If your organization prefers to allow specific IP address ranges you can use the
 | France | `63.140.62.0/23` |
 | India | `66.117.20.0/24` |
 | India | `66.117.22.0/23` |
-| Japan | `130.248.130.0/23` |
 | Japan | `130.248.169.0/23` |
 | Japan | `63.140.50.0/23` |
 | Japan | `66.117.31.0/24` |
@@ -61,6 +60,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | London | `130.248.152.0/22` |
 | London | `130.248.244.0/23` |
 | Oregon | `66.235.132.0/22` |
+| Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
 | Singapore | `130.248.170.0/23` |

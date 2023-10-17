@@ -19,7 +19,7 @@ For more information about Reporting Activity manager, including key benefits an
 
    A list of your enabled base report suites is displayed.
 
-   ![reports queue](/help/admin/admin/assets/reporting-activity1.png)
+   ![reports queue](assets/reporting-activity1.png)
 
 1. (Optional) You can search or filter the list of report suites:
 
@@ -38,7 +38,7 @@ For more information about Reporting Activity manager, including key benefits an
    | UI Element | Description |
    | --- | --- |
    | **[!UICONTROL Report Suite]** | The base report suite whose reporting activity you are monitoring.|
-   |  **[!UICONTROL Virtual report suites]** | Shows all virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined into the base report suite.<p>For example, if you have 10 requests coming from 5 virtual report suites, that's 50 requests at the base level report suite. This way, you can very quickly hit capacity. |
+   |  **[!UICONTROL Virtual report suites]** | Shows all virtual report suites that feed into this base report suite. Virtual report suites add complexity to reporting requests due to additional levels of applied filtering and segmentation. All requests that are coming from the virtual report suites are combined into the base report suite. |
    | **[!UICONTROL Capacity utilization]** | The percentage of the report suite's reporting capacity that is being used, in real time. <p>**Note** A usage capacity that is at 100% doesn't necessarily suggest that you should immediately start cancelling reporting requests. 100% usage capacity can be healthy if the average wait time is reasonable. On the other hand, 100% usage capacity could suggest a problem if the number of queued requests is also growing.</p> |
    | **[!UICONTROL Queued requests]** | The number of requests waiting to be processed. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | The average wait time before requests begin to process. <!-- ???? --> |
@@ -55,6 +55,8 @@ For more information about Reporting Activity manager, including key benefits an
    Reporting activity data is displayed for the report suite that you selected.
    
    <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+
+1. (Optional) When a connection first loads in the Reporting Activity Manager, the data displayed represent the current utilization metrics. To see updated metrics after the initial load, select the [!UICONTROL **Refresh**] button to manually refresh the page.
 
 1. Use the available graphs and table to understand reporting activity in the report suite.
 
@@ -92,12 +94,12 @@ Hover over the chart to view points in time where the maximum number of users wa
 
 #### Requests graph
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+The Requests graph shows the number of processed and queued requests for the selected report suite over the last 2 hours. 
 
 Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
 
 * **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+* **Y-axis**: The number of processed requests (in green) and queued requests (in purple), by minute.
 
    ![Distinct Users graph](assets/requests-graph.png)
 
@@ -114,13 +116,19 @@ Hover over the chart to view points in time where the maximum average wait time 
 
 ### View table {#view-table}
 
-You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Request**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
+When viewing the table, consider the following:
 
->[!TIP]
->
->You can select [!UICONTROL **Hide graphs**] to show only the table.
+* You can choose to view data by choosing any of the following tabs at the top of the data table: [!UICONTROL **Request**], [!UICONTROL **User**], [!UICONTROL **Project**], or [!UICONTROL **Application**].
 
-![table tabs](assets/indiv-report-ste-table-tabs.png)
+* You can search or filter the list of connections:
+
+  * Use the search field to search for a specific connection. Begin typing the connection name or ID and the list of connections updates as you type.
+  
+  * Select the [!UICONTROL **Filter**] icon ![Filter icon](assets/filter-icon.png) to expand the list of filter options. You can filter by [!UICONTROL **Status**], [!UICONTROL **Complexity**], [!UICONTROL **Application**], [!UICONTROL **User**], or [!UICONTROL **Project**].
+
+  * You can select [!UICONTROL **Hide graphs**] to show only the table.
+
+![table tabs](assets/report-activity-tabs.png)
 
 #### View data by request
 
@@ -128,11 +136,11 @@ When you select the [!UICONTROL **Request**] tab, the following columns are avai
 
 | Column | Description |
 | --- | --- |
-| [!UICONTROL **Request ID**] | Can be used for troubleshooting purposes. |
+| [!UICONTROL **Request ID**] | A unique ID that can be used for troubleshooting purposes. To copy the ID, select the request, then select the option, [!UICONTROL **Copy request ID**]. |
 | [!UICONTROL **Time run**] | How long the request has been running. |
 | [!UICONTROL **Start time**] | When the request started processing (based on the administrator's local time). |
 | [!UICONTROL **Wait time**] | How long the request has been waiting before being processed. This value is generally at "0" when there is enough capacity. |
-| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
+| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li><li>Share with anyone links</li><li>Any other application that queries the Analytics reporting engine</li></ul> |
 | [!UICONTROL **User**] | The user who initiated the request. <p>**Note:** If the value of this column is [!UICONTROL **Unrecognized**], this means that the user is in a login company where you do not have administrative permissions.</p> |
 | [!UICONTROL **Project**] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL **Status**] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
@@ -152,7 +160,7 @@ When you select the [!UICONTROL **User**] tab, the following columns are availab
 | [!UICONTROL **User**] | The user who initiated the request. If the value of this column is [!UICONTROL **Unrecognized**], this means that the user is in a login company where you do not have administrative permissions. |
 | [!UICONTROL **Number of requests**] | The number of requests initiated by the user. |
 | [!UICONTROL **Number of projects**] | The number of projects associated with the user. <!-- ??? --> |
-| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
+| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li><li>Share with anyone links</li><li>Any other application that queries the Analytics reporting engine</li></ul> |
 | [!UICONTROL **Avg complexity**] | The average complexity of requests initiated by the user. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month Boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
 | [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. More columns adds to the complexity of the request.  |
@@ -169,7 +177,7 @@ When you select the [!UICONTROL **Project**] tab, the following columns are avai
 | [!UICONTROL **Project**] | The project where the requests were initiated. |
 | [!UICONTROL **Number of requests**] | The number of requests associated with the project. |
 | [!UICONTROL **Number of users**] | The number of users associated with the project. <!-- ??? --> |
-| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li></ul> |
+| [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li><li>Share with anyone links</li><li>Any other application that queries the Analytics reporting engine</li></ul> |
 | [!UICONTROL **Avg complexity**] | The average complexity of requests included in the project. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month Boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
 | [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. More columns adds to the complexity of the request. |
@@ -194,4 +202,14 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 
 {style="table-layout:auto"}
 
+<!--
 
+## Frequently asked questions {#faq}
+
+| Question | Answer |
+| --- | --- |
+|  |  |
+
+{style="table-layout:auto"}
+
+-->

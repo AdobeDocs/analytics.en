@@ -22,7 +22,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.timestamp in AppMeasurement and the Analytics extension custom code editor
 
-The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) and [Unix time](https://en.wikipedia.org/wiki/Unix_time).
+The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) and [Unix time](https://en.wikipedia.org/wiki/Unix_time) in seconds.
 
 ```js
 // Timestamp using ISO 8601

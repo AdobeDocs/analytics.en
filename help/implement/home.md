@@ -27,7 +27,7 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 For your **website**, the following implementation methods are available:
 
-* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, place an embed code (a Javascript loader tag) on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
+* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, place an embed code (a Javascript loader tag) on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format. The Data Collection UI provides an interface to set variables and use custom JavaScript code when necessary.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK extension.](./aep-edge/overview.md) for more information.
 
@@ -35,28 +35,13 @@ See [How to implement Adobe Analytics using the Adobe Experience Platform Web SD
 ![Web SDK](./assets/websdk-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
 
-
-* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**. Place an embed code (a Javascript loader tag) on each page, and use the Adobe Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Tags, but not want to use the Edge Network infrastructure.
+* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**. Place an embed code (a Javascript loader tag) on each page, and use the Adobe Analytics extension to determine how each variable is defined. The Data Collection UI provides an interface to set variables and use custom JavaScript code when necessary. Use this implementation method if you do want the convenience of Tags, but not want to use the Edge Network infrastructure.
 ![Adobe Analytics extension](./assets/analytics-extension-implementation.png)
 See [How to implement Adobe Analytics using the Analytics extension](launch/overview.md) for more information.
 
 * **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Reference the AppMeasurement library (`AppMeasurement.js`) on each page and then outline variables and settings used in an implementation. 
 ![How to implement Adobe Analytics using Legacy JavaScript](./assets/appmeasurement-implementation.png)
-This implementation method can be useful for implementations using custom code and is still recommended when you (want to) use:
-
-    * [activity map data](../analyze/activity-map/activity-map.md), 
-    
-      >[!INFO]
-      >
-      >Using the latest Web SDK, Activity Map is supported. See [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) for more information.
-
-    * [streaming media measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en),
-
-    * [livestream API or livestream triggers](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md),
-
-    * [AMP page tracking](./other/amp.md)
-
-    See [Implement Adobe Analytics with AppMeasurement for JavaScript](js/overview.md) for more information.
+This implementation method can be useful for implementations using custom code and is still recommended for implementation types not offered elsewhere, such as for [AMP pages](other/amp.md).
 
 The following decision flow might help you select an implementation method:
 

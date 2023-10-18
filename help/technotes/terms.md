@@ -32,6 +32,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Clickstream data feed:** See Data feed.
 * **Cohort:** A group of people sharing common characteristics over a given period of time. See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analyze user guide.
 * **Collection server:** See Data collection server.
+* **Component:** Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. See [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) in the Analyze user guide.
 * **Context data variables:** Temporary variables used solely in processing rules. Context data variable values are permanently lost if a processing rule does not copy them to a conversion or traffic variable. See [Context data variables](../implement/vars/page-vars/contextdata.md) in the Implement user guide.
 * **Conversion variable:** Also known as eVars. Stores a custom value, and preserves the variable value until it expires. See the [eVar](/help/components/dimensions/evar.md) dimension in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.

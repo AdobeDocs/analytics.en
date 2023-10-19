@@ -27,41 +27,41 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 For your **website**, the following implementation methods are available:
 
-* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Install the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, place an embed code (a Javascript loader tag) on each page, and send data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format. The Data Collection UI provides an interface to set variables and use custom JavaScript code when necessary.
+* **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Add the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, then place a loader tag on each page. The tag sends data to the Adobe Experience Platform **Edge Network**, which forwards that data to Adobe Analytics.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK extension.](./aep-edge/overview.md) for more information.
 
-* **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Adobe Experience Platform Data Collection. Reference the Web SDK library (`alloy.js`) on each page, and send the desired tracking calls to the Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards incoming data to Adobe Analytics in the correct format.
+* **Web SDK**: You can manually load the Web SDK libraries on your site if you do not want to use Adobe Experience Platform Data Collection. Reference the Web SDK library (`alloy.js`) on each page, and send the desired tracking calls to the Adobe Experience Platform **Edge Network** in a format convenient to your organization. The Edge Network forwards that data to Adobe Analytics.
 ![Web SDK](./assets/websdk-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK](./aep-edge/overview.md) for more information.
 
-* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**. Place an embed code (a Javascript loader tag) on each page, and use the Adobe Analytics extension to determine how each variable is defined. The Data Collection UI provides an interface to set variables and use custom JavaScript code when necessary. Use this implementation method if you do want the convenience of Tags, but not want to use the Edge Network infrastructure.
+* **Analytics extension**: Add the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**, then place a loader tag on each page. The tag sends data directly to Adobe Analytics. Use this implementation method if you want the convenience of Tags, but do not want to use the Edge Network infrastructure.
 ![Adobe Analytics extension](./assets/analytics-extension-implementation.png)
 See [How to implement Adobe Analytics using the Analytics extension](launch/overview.md) for more information.
 
-* **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Reference the AppMeasurement library (`AppMeasurement.js`) on each page and then outline variables and settings used in an implementation. 
+* **Legacy JavaScript**: The historical manual method to implement Adobe Analytics. Reference the AppMeasurement library (`AppMeasurement.js`) on each page, then set variables and settings in JavaScript. 
 ![How to implement Adobe Analytics using Legacy JavaScript](./assets/appmeasurement-implementation.png)
-This implementation method can be useful for implementations using custom code and is still recommended for implementation types not offered elsewhere, such as for [AMP pages](other/amp.md).
+This implementation method can be useful for implementations using custom code and is ideal for implementation types not offered elsewhere, such as for [AMP pages](other/amp.md).
 
-The following decision flow might help you select an implementation method:
+The following decision flow can help you select an implementation method:
 
 ![A decision tree for selecting an implementation method, as described in this section.](./assets/decision-tree.png)
 
 
 >[!TIP]
 >
->Please contact Adobe for advice and best practices on which implementation to choose based on your current situation.
+>Contact your Adobe Account Team for advice and best practices on which implementation to choose based on your current situation.
 
 ## Mobile app implementation methods
 
 For your **mobile app**, the following implementation methods are available:
 
-* **Mobile SDK extension**: The standardized and recommended method to implement Adobe Analytics in your mobile app. Use dedicated libraries to easily send data to Adobe from within your mobile app. Install the **Adobe Experience Platform Mobile SDK extension** in Adobe Experience Platform Data Collection **Tags** and implement the correct code in your app to import libraries, register extensions and load the tag configuration. This sends data to Adobe Experience Platform **Edge Network** in a format convenient to your organization. Experience Edge forwards incoming data to Adobe Analytics in the correct format.
+* **Mobile SDK extension**: The standardized and recommended method to implement Adobe Analytics in your mobile app. Use dedicated libraries to easily send data to Adobe from within your mobile app. Add the **Adobe Experience Platform Mobile SDK extension** in Adobe Experience Platform Data Collection **Tags**, then implement the Mobile SDK library in your app. You can use the SDK to import libraries, register extensions, and load the tag configuration. Send data to the Adobe Experience Platform **Edge Network**; Edge then forwards that data to Adobe Analytics.
 ![Mobile SDK extension](./assets/mobilesdk-extension.png)
 
     See [Implement Adobe Analytics using the Adobe Experience Platform Mobile SDK](../implement/aep-edge/mobile-sdk/overview.md) for more information.
 
-* **Analytics extension**: Install the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**, and implement the correct code in your application to import libraries, register extensions and load the tag configuration. Use the Analytics extension to determine how each variable is defined. Use this implementation method if you do want the convenience of Adobe Experience Platform Data Collection, but not want to use Adobe's Experience Platform Edge network infrastructure.
+* **Analytics extension**: Add the **Adobe Analytics extension** in Adobe Experience Platform Data Collection **Tags**, and implement the Mobile SDK library in your app. You can use the SDK to import libraries, register extensions, and load the tag configuration. This implementation method sends data directly to Adobe Analytics. It is recommended if you want the convenience of Adobe Experience Platform Data Collection, but do not want to use Adobe's Experience Platform Edge network infrastructure.
 ![Analytics extension](./assets/mobilesdk-analytics-extension.png)
 
     See [Implement Adobe Analytics using the Analytics extension](../implement/aep-edge/mobile-sdk/overview.md) for more information.
@@ -69,7 +69,7 @@ For your **mobile app**, the following implementation methods are available:
 
 >[!CAUTION]
 >
->Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) for more information.
+>Support for Version 4 Mobile SDKs ended on August 31, 2021. See [Version 4 Mobile SDKs end-of-support FAQ](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/v4-faq/) for more information.
 
 ## Key Analytics Implementation articles
 

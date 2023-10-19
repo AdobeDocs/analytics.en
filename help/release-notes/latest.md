@@ -4,28 +4,28 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (October 2023)
+# Current Adobe Analytics release notes (October/November 2023)
 
-**Last update**: October 4, 2023
+**Last update**: October 19, 2023
 
-The October release notes cover the release period of October 4, 2023 to October 25, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of October 23, 2023 to end of November, 2023. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **New columns available when managing components** | The following new columns are now available when managing components:<ul><li>Used in<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Last used<p>This column is available in the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), the [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), and the [Alerts manager](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified. You can use the Data Dictionary along with this information to help you keep track of and better understand how components are being used in your organization.</p> | September 20, 2023 | October 4, 2023 |
 | **Reporting Activity Manager enhancements** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization.  It provides administrators with detailed visibility into reporting consumption in order to easily diagnose and fix capacity issues during peak reporting times. Following are some of the enhancements now available in the Reporting Activity Manager: <ul><li>Restrict subsequent requests: In addition to canceling current requests, administrators can now restrict requests for a defined time period. Administrators can restrict requests by Request, Project, and User.</li><li>In addition to Utilization and Capacity metrics, the Reporting Activity Manager now includes more data about reporting activity: Complexity column, User column, and Connection column.</li><li>All cancelations and restrictions made in the Reporting Activity manager are now visible in the Audit Log. Administrators can use the Audit Log to view what is currently canceled. Cancelations cannot be reversed in the Reporting Activity Manager or in the Audit Log.</li></ul><p>For more information, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | October 17, 2023 | October 23, 2023|
 | **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | September 12, 2023 | October 25, 2023 |
-| **Migrate Adobe Analytics projects and any included components to Customer Journey Analytics** | You can now migrate your Adobe Analytics projects to Customer Journey Analytics. This process simplifies the transition from Adobe Analytics to Customer Journey Analytics. <p>When you migrate projects to Customer Journey Analytics, assets are mapped from an Adobe Analytics report suite to a Customer Journey Analytics data view.</p> <p>You migrate projects to Customer Journey Analytics from the Adobe Analytics interface. [Learn more](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | N/A | October 9, 2023 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed issues where A4T reports were not appearing in the Target/Analytics UI. (AN-329375, AN-329745, AN-330026)
+* Analytics Processing and Reporting Engine changes deployed during the last week of October will fix an issue where the labels for Page or Link dimensions may incorrectly show as `Unknown`. Prior to the fix, the `Unknown` labels may have shown up incorrectly when a Page Name or Link Name was not passed in on a hit, defaulting to Page URL and Link URL respectively. These dimensions were configured to be case insensitive. With this fix, reports going forward will be correct. But for reports on historic data, some report results may still be incorrectly labeled as `Unknown`. (AN-328030)
 
-AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-326068; AN-326360; AN-326458; AN-327290; AN-327315; AN-327353; AN-327505; AN-327589; AN-327609; AN-327922; AN-328110; AN-328222; AN-328261; AN-328496; AN-328577; AN-328629; AN-328736; AN-328888; AN-328899; AN-328902; AN-328921; AN-328958; AN-329208; AN-329277; AN-329332; AN-329334; AN-329335; AN-329336; AN-329357; AN-329385; AN-329387; AN-329397; AN-329463; AN-329501; AN-329504; AN-329505; AN-329515; AN-329524; AN-329526; AN-329534; AN-329539; AN-329541; AN-329543; AN-329545; AN-329564; AN-329570; AN-329623; AN-329624; AN-329636; AN-329646; AN-329647; AN-329668; AN-329701; AN-329737; AN-329741; AN-329751; AN-329812; AN-329813; AN-329821; AN-329824; AN-329833; AN-329848; AN-329852; AN-329861; AN-329863; AN-329874; AN-329882; AN-329911; AN-329917; AN-329942; AN-329954; AN-329968; AN-329971; AN-329982; AN-330044; AN-330052; AN-330131; AN-330132; AN-330230; AN-330352; AN-330367; AN-330541; AN-330599
+
+
+
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

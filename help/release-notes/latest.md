@@ -21,9 +21,11 @@ These release notes cover the release period of October 23, 2023 to end of Novem
 
 ## Fixes in Adobe Analytics
 
-* These Analytics Processing and Reporting Engine changes will be deployed during the last week of October: we will fix an issue where the labels for Page or Link dimensions may incorrectly show as `Unknown`. Prior to the fix, the `Unknown` labels may have shown up incorrectly when a Page Name or Link Name was not passed in on a hit, defaulting to Page URL and Link URL, respectively. These dimensions were configured to be case insensitive. With this fix, reports going forward will be correct. But for reports on historic data, some report results may still be incorrectly labeled as `Unknown`. (AN-328030)
+* These Analytics Processing and Reporting Engine changes will be deployed during the last week of October: we will fix an issue where the labels for Page or Link dimensions were incorrectly showing as `Unknown`. Prior to the fix, the `Unknown` labels may have shown up incorrectly when a Page Name or Link Name was not passed in on a hit, defaulting to [!UICONTROL Page URL] and [!UICONTROL Link URL], respectively. These dimensions were configured to be case insensitive. With this fix, reports going forward will be correct. But for reports on historic data, some report results may still be incorrectly labeled as `Unknown`. (AN-328030)
 
-AN-328261; AN-329506; AN-329962; AN-329966; AN-330105; AN-330438; AN-330783; AN-330879; AN-330883; AN-331074; AN-331075; AN-331167; AN-331226; AN-331454; AN-331751; AN-331816; AN-331897; AN-331906; AN-331929; AN-332031; AN-332114; 
+### Other fixes
+
+AN-315676; AN-323398; AN-326209; AN-328178; AN-328261; AN-328395; AN-328671; AN-329282; AN-329330; AN-329355; AN-329506; AN-329516; AN-329738; AN-329769; AN-329771; AN-329816; AN-329877; AN-329928; AN-329957; AN-329962; AN-329966; AN-330023; AN-330081; AN-330083; AN-330105; AN-330138; AN-330140; AN-330165; AN-330241; AN-330359; AN-330366; AN-330427; AN-330438; AN-330442; AN-330534; AN-330616; AN-330654; AN-330783; AN-330879; AN-330881; AN-330883; AN-330887; AN-330888; AN-330955; AN-330979; AN-331031; AN-331053; AN-331068; AN-331071; AN-331074; AN-331075; AN-331076; AN-331078; AN-331085; AN-331093; AN-331167; AN-331171; AN-331181; AN-331196; AN-331226; AN-331258; AN-331260; AN-331279; AN-331286; AN-331290; AN-331365; AN-331375; AN-331376; AN-331454; AN-331519; AN-331570; AN-331590; AN-331593; AN-331751; AN-331816; AN-331897; AN-331906; AN-331929; AN-332031; AN-332114; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

@@ -145,7 +145,7 @@ When you select the [!UICONTROL **Request**] tab, the following columns are avai
 | [!UICONTROL **Project**] | Saved Workspace project names, API Report ID's, etc. (Metadata can vary across various applications.) |
 | [!UICONTROL **Status**] | Status indicators: <ul><li>**Running**: Request is currently being processed.</li><li>**Pending**: Request is waiting to be processed.</li></ul> |
 | [!UICONTROL **Complexity**] | Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request. <p>Possible values include:</p> <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is influenced by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |
-| [!UICONTROL **Month Boundaries**] | The number of months that are included in a request. More month boundaries adds to the complexity of the request. |
+| [!UICONTROL **Month boundaries**] | The number of months that are included in a request. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Columns**] | The number of metrics and breakdowns in the request. More columns adds to the complexity of the request. |
 | [!UICONTROL **Segments**] | The number of segments applied to the request. More segments adds to the complexity of the request. |
 
@@ -161,8 +161,8 @@ When you select the [!UICONTROL **User**] tab, the following columns are availab
 | [!UICONTROL **Number of requests**] | The number of requests initiated by the user. |
 | [!UICONTROL **Number of projects**] | The number of projects associated with the user. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li><li>Share with anyone links</li><li>Any other application that queries the Analytics reporting engine</li></ul> |
-| [!UICONTROL **Avg complexity**] | The average complexity of requests initiated by the user. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month Boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
+| [!UICONTROL **Avg complexity**] | The average complexity of requests initiated by the user. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
+| [!UICONTROL **Avg Month boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. More columns adds to the complexity of the request.  |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. More segments adds to the complexity of the request. |
 
@@ -178,8 +178,8 @@ When you select the [!UICONTROL **Project**] tab, the following columns are avai
 | [!UICONTROL **Number of requests**] | The number of requests associated with the project. |
 | [!UICONTROL **Number of users**] | The number of users associated with the project. <!-- ??? --> |
 | [!UICONTROL **Application**] | The applications supported by the [!UICONTROL Reporting Activity Manager] are: <ul><li>Analysis Workspace UI</li><li>Workspace scheduled projects</li><li>Report Builder</li><li>Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.</li><li>API calls from 1.4 or 2.0 API</li><li>Intelligent alerts</li><li>Share with anyone links</li><li>Any other application that queries the Analytics reporting engine</li></ul> |
-| [!UICONTROL **Avg complexity**] | The average complexity of requests included in the project. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month Boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
+| [!UICONTROL **Avg complexity**] | The average complexity of requests included in the project. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p><ul><li>[!UICONTROL **Avg Month boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
+| [!UICONTROL **Avg Month boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. More columns adds to the complexity of the request. |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. More segments adds to the complexity of the request. |
 
@@ -196,7 +196,7 @@ When you select the [!UICONTROL **Application**] tab, the following columns are 
 | [!UICONTROL **Number of users**] | The number of users associated with the application. <!--???--> |
 | [!UICONTROL **Number of projects**] | The number of projects associated with the application. <!--???--> |
 | [!UICONTROL **Avg complexity**] | The average complexity of requests associated with the application. <p>Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request.</p><p>The value in this column is based on a score that is determined by the values in the following columns:</p>The value in this column is based on a score that is determined by the values in the following columns:<ul><li>[!UICONTROL **Avg Month Boundaries**]</li><li>[!UICONTROL **Avg Columns**]</li><li>[!UICONTROL **Avg Segments**]</li></ul> |
-| [!UICONTROL **Avg Month Boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
+| [!UICONTROL **Avg Month boundaries**] | The average number of months that are included in the requests. More month boundaries adds to the complexity of the request. |
 | [!UICONTROL **Avg Columns**] | The average number of metrics and breakdowns in the included requests. More columns adds to the complexity of the request. |
 | [!UICONTROL **Avg Segments**] | The average number of segments applied to the included requests. More segments adds to the complexity of the request. |
 

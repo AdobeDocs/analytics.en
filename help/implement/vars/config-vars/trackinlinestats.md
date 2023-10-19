@@ -26,7 +26,7 @@ When enabled, AppMeasurement collects information about the link and sends that 
 
 >[!NOTE]
 >
->This checkbox is different than the [!UICONTROL Use Activity Map] checkbox, which is under the [!UICONTROL Library management] accordion.
+>This checkbox is different from the [!UICONTROL Use Activity Map] checkbox, which is under the [!UICONTROL Library management] accordion.
 
 ## s.trackInlineStats in AppMeasurement and the Analytics extension custom code editor
 

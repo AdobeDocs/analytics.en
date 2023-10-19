@@ -11,7 +11,7 @@ exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 >
 >This variable is retired. See [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) instead.
 
-ClickMap is a retired feature in Adobe Analytics that collects data on where visitors click and what they click. The feature was retired and replaced with [Activity Map](/help/analyze/activity-map/activity-map.md).
+ClickMap is a retired feature in Adobe Analytics that collects data on where visitors click and what they click. The feature was replaced with [Activity Map](/help/analyze/activity-map/activity-map.md).
 
 When enabled, AppMeasurement collects information about the link and sends that data in the next image request. Information from each click is stored in a cookie labeled `s_sq`.
 

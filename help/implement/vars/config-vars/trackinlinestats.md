@@ -24,6 +24,10 @@ When enabled, AppMeasurement collects information about the link and sends that 
 3. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 4. Expand the [!UICONTROL Link Tracking] accordion, which reveals the [!UICONTROL Enable ClickMap] checkbox.
 
+>[!NOTE]
+>
+>This checkbox is different than the [!UICONTROL Use Activity Map] checkbox, which is under the [!UICONTROL Library management] accordion.
+
 ## s.trackInlineStats in AppMeasurement and the Analytics extension custom code editor
 
 The `s.trackInlineStats` is a boolean that enables or disables ClickMap tracking. Since the feature is retired, Adobe does not recommend setting this variable. Its default value is `false`.

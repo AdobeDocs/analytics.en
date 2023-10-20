@@ -100,8 +100,8 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `media.mediaTimed.thirdQuartiles.value` | The Media Analytics metric [Seventy-five % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | The Media Analytics metric [Content Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | The Media Analytics metric [Media Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent). |
-| `placeContext.geo.latitude` | The Mobile dimension Latitude. |
-| `placeContext.geo.longitude` | The Mobile dimension Longitude. |
+| `placeContext.geo._schema.latitude` | The Mobile dimension Latitude. |
+| `placeContext.geo._schema.longitude` | The Mobile dimension Longitude. |
 | `placeContext.geo.postalCode` | The [Zip Code](../../components/dimensions/zip-code.md) dimension. |
 | `placeContext.geo.stateProvince` | The [US States](../../components/dimensions/us-states.md) dimension. |
 | `placeContext.localTime` | Helps populate [Time Zones](/help/analyze/reports-analytics/reports.md) in Report & Analytics. Appears as `t_time_info` in [Data feeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |

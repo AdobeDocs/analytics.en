@@ -5,8 +5,6 @@ feature: Admin Tools
 ---
 # Cancel reporting requests in the Reporting Activity Manager
 
-{{release-limited-testing}}
-
 The [!UICONTROL Reporting Activity Manager] enables administrators to quickly diagnose and cancel reporting requests in order to fix reporting capacity issues during peak reporting times.
 
 Consider the following when cancelling reporting requests:

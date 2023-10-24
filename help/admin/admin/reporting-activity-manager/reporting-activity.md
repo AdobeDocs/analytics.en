@@ -7,8 +7,6 @@ exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 ---
 # View reporting activity in the Reporting Activity Manager
 
-{{release-limited-testing}}
-
 The [!UICONTROL Reporting Activity Manager] enables administrators to quickly diagnose and fix reporting capacity issues during peak reporting times.
 
 For more information about Reporting Activity manager, including key benefits and permission requirements, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).

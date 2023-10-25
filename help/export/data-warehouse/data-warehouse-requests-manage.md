@@ -14,7 +14,7 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 >If your organization does not yet have the new Data Warehouse experience, which will be available soon for all customers, use the information in [Manage Data Warehouse requests (old experience)](#manage-data-warehouse-requests-old-experience) at the bottom of this page.
 
 
-You can view and manage Data Warehouse requests that you have made. Only administrators can view and manage requests made by other users in the organization where they have administrative rights.
+You can view and manage Data Warehouse requests that you have made. Only administrators can view and manage requests made by other users in their organization. 
 
 The following sections describe activities you can perform when managing requests. 
 
@@ -41,6 +41,8 @@ Consider the following when editing requests:
 * Only requests that are configured to run on a schedule can be edited.
 
 * Not all fields associated with the request can be edited. Fields that can't be edited are dimmed.
+
+* Administrators who edit another user's request need to choose a new account and location that they can access.
 
 To edit a scheduled request: 
 

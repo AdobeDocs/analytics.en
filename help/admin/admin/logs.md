@@ -35,7 +35,7 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 | No Category | Could be any event type. |
 | Login failed | User login process failed. |
 | Login successful | User logged in successfully. |
-| Admin Action | An admin action occurred, like editing a report suite, changing company settings, creating a user, etc. |
+| Admin Action | An admin action occurred, like editing a report suite, changing company settings, creating a user, canceling a reporting request, etc. |
 | Security setting change | A security setting was changed. |
 | Report viewed | A Reports & Analytics report was viewed. |
 | Report downloaded | A Reports & Analytics report was downloaded. |

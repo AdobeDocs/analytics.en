@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **October 2023** | |
+| Added log information to Reporting Activity Manager | Added information that any [cancellations and subsequent restrictions of reporting activity](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) in the Reporting Activity Manager are captured in the [Logs](/help/admin/admin/logs.md). |
 | **September 2023** | |
 | Updated structure of articles for the Media Playback Time Spent panel | Removed the folder called Media Playback Time Spent, and combined the contents of the folder into a single article: [Media Playback Time Spent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>This change is more in line with the documentation for other panels.</p> |
 | Get started content enhancements | Added information outlining key getting-started tasks and resources for administrators, analysts, end users, and developers. The following new articles are now available: <ul><li>[Get started (by role)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md)<li>[Use cases](/help/analyze/get-started/use-cases.md)</li></ul> |

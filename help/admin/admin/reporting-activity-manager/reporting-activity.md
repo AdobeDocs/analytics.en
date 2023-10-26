@@ -134,7 +134,7 @@ When you select the [!UICONTROL **Request**] tab, the following columns are avai
 
 | Column | Description |
 | --- | --- |
-| [!UICONTROL **Request ID**] | A unique ID that can be used for troubleshooting purposes. To copy the ID, select the request, then select the option, [!UICONTROL **Copy request ID**]. |
+| [!UICONTROL **Request ID**] | A unique ID that can be used for troubleshooting purposes. To copy the ID, select the request, then select the option, [!UICONTROL **Copy request IDs**]. |
 | [!UICONTROL **Time run**] | How long the request has been running. |
 | [!UICONTROL **Start time**] | When the request started processing (based on the administrator's local time). |
 | [!UICONTROL **Wait time**] | How long the request has been waiting before being processed. This value is generally at "0" when there is enough capacity. |

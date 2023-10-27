@@ -17,7 +17,7 @@ The AppMeasurement library or Web SDK will load the Activity Map module when ins
 
 >[!NOTE]
 >
->Activity Map data cannot be collected unless you update to **AppMeasurement** **version 1.6** or higer or **Web SDK** **version 2.15.0** or higher
+>Activity Map data cannot be collected unless you update to **AppMeasurement** **version 1.6** or higher or **Web SDK** **version 2.15.0** or higher.
 
 
 1. Download the latest Javascript library depending whether you are using AppMeasurement or Web SDK.

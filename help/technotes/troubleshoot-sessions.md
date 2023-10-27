@@ -28,5 +28,5 @@ To resolve this issue, Adobe recommends working with your organization's IT team
 
 Information on proxies and authentication headers can be found here:
 
-* [Configure Upstream Proxy Authentication in a Proxy Chain Deployment on a ProxySG or ASG Appliance](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Configure Upstream Proxy Authentication in a Proxy Chain Deployment on a ProxySG or ASG Appliance](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [How to forward user credentials to a server behind the ProxySG appliance](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

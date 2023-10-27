@@ -87,4 +87,11 @@ To configure a cloud import location:
 
 1. Select [!UICONTROL **Save**].
 
-   You can now import data to the account and location that you configured.
+   You can now import data from the account and location that you configured.
+
+   Data is not deleted from the cloud destination after it is imported. 
+
+   >[!NOTE]
+   >
+   >   If you previously used [FTP to import classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) to Adobe Analytics, you needed to upload a FIN file. This FIN file is not needed when importing from cloud accounts.
+

@@ -2,6 +2,7 @@
 description: Learn about how to use the Reporting Activity Manager to diagnose and fix capacity issues during peak reporting times.
 title: Cancel reporting requests in the Reporting Activity Manager
 feature: Admin Tools
+exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 ---
 # Cancel reporting requests in the Reporting Activity Manager
 

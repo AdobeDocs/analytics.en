@@ -18,7 +18,7 @@ By default, Adobe remembers all transaction ID values (linked and unlinked) for 
 
 ## Transaction ID using the Web SDK
 
-Transaction ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.transactionID`.
+Transaction ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.payments[0].transactionID`.
 
 ## Transaction ID using the Adobe Analytics extension
 
@@ -47,6 +47,6 @@ If you have more than one transaction ID for a hit, you can delimit each with a 
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE]
+>[!TIP]
 >
 >If you integrate multiple offline channels using this variable, make sure that different channels don't overlap transaction IDs. For example, if you have a call center transaction ID value of `1234` and a sales lead transaction ID value of `1234`, they can conflict and cause unexpected results. Make sure that transaction IDs contain unique formats per offline channel and differentiate them if necessary. For example, set your call center transaction ID to `call_1234` and your sales lead transaction ID `lead_1234` in both Data Sources and AppMeasurement.

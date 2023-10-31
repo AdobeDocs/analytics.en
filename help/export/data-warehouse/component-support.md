@@ -34,17 +34,7 @@ Some dimensions and metrics are not supported in Data Warehouse.
 
 ### Dimensions not supported
 
-* Some time-based dimensions, including:
-  * AM/PM
-  * Day of Month
-  * Day of Week
-  * Day of Year
-  * Hour of Day
-  * Minute
-  * Month of Year
-  * Quarter of Year
-  * Weekday/Weekend
-  * Year
+* AM/PM 
 * Some pathing-based dimensions, including:
   * All Entry dimensions, except Entry Page
   * All Exit dimensions, except Exit Page and Exit Link
@@ -53,7 +43,6 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * Time Prior to Event
   * Time Spent on Page - Bucketed
   * Time Spent per Visit - Bucketed
-  * Visit Depth
 * All Search Page Rank
 * Hierarchy variables
 * Hit Type
@@ -72,4 +61,16 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * Reloads
   * Single Access
   * 'Time Spent' metrics 
+* Participation metrics (as described in [Build a "Participation" metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
    
+### Dimensions supported in a different way
+
+The following time-based dimensions are supported. However, the output of dates is non-standard when using these dimensions. Specifically, the year is offset by 1900, and months are zero-based.
+
+* Year
+* Quarter
+* Month
+* Week
+* Day
+* Hour
+* Minute

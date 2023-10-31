@@ -26,10 +26,10 @@ The following table compares these two methods:
 | New vs. return visitors | Not supported | Supported |
 | Visitor ID service | Not supported | Supported |
 | Video and link tracking | Partial support | Not yet supported |
-| Difficulty of implementation | Somewhat difficult | Relatively easy |
+| Difficulty of implementation | Difficult | Relatively easy |
 | Adobe Experience Cloud integrations | Not supported | Partial support |
 
-Weigh the pros and cons within your organization to determine which method you want to use.
+Weigh the pros and cons so that you can choose the best implementation method for your organization.
 
 >[!WARNING]
 >
@@ -72,15 +72,13 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
 </amp-analytics>
 ```
 
-In the `click` trigger, you can specify a selector to ensure that whenever the specific DOM element is clicked (in this case, any button), the `buttonClick` request is fired and is automatically set to denote this hit as a link tracking call.
-
-Additionally, `<amp-analytics>` supports variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in `amp-analytics`](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
+The `<amp-analytics>` tag supports variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in `amp-analytics`](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
 
 >[!NOTE]
 >
 >Image requests sent to Adobe using this method do not include data for many default reports (for example, browser, screen size, or referrer). If you want to include this information in hits, make sure that they are included as part of the image request query string. See [Data collection query parameters](../validate/query-parameters.md) for a complete list of image requests query parameters and their associated variables.
 
-Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID set by Adobe Analytics. A different unique visitor is counted for each CDN a visitor retrieves content from, which can inflate unique visitor count. Using a separate report suite for AMP pages is highly recommended because of how AMP identifies unique visitors. The Adobe Experience Cloud ID Service is not supported.
+Adobe identifies visitors using a built-in AMP function, and sets the cookie `adobe_amp_id`. This visitor ID is unique to any other ID set by Adobe Analytics. A different unique visitor is counted for each CDN that a visitor retrieves content from, which can inflate unique visitor count. Using a separate report suite for AMP pages is highly recommended because of how AMP identifies unique visitors. The Adobe Experience Cloud ID Service is not supported.
 
 This solution requires that the tracking server you specify in the `host` property matches the tracking server on your main site, so that your existing privacy policy controls are respected. Otherwise, create a separate privacy policy for pages using AMP.
 

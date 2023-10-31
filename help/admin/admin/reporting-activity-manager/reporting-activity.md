@@ -29,7 +29,7 @@ For more information about Reporting Activity manager, including key benefits an
       
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. View utilization information about each report suite. You can select a column header to sort the table by  that column. 
+1. View utilization information about each report suite. The data shown in the table represents the reporting activity for the report suite at the time the page was last loaded.
 
    The following columns are available: 
 
@@ -40,7 +40,7 @@ For more information about Reporting Activity manager, including key benefits an
    | **[!UICONTROL Capacity utilization]** | The percentage of the report suite's reporting capacity that is being used, in real time. <p>**Note** A usage capacity that is at 100% doesn't necessarily suggest that you should immediately start cancelling reporting requests. 100% usage capacity can be healthy if the average wait time is reasonable. On the other hand, 100% usage capacity could suggest a problem if the number of queued requests is also growing.</p> |
    | **[!UICONTROL Queued requests]** | The number of requests waiting to be processed. <!-- ??? --> |
    | **[!UICONTROL Queue wait time]** | The average wait time before requests begin to process. <!-- ???? --> |
-   | **[!UICONTROL Status]** | The possible statuses are: <ul><li>[!UICONTROL **Active**] (blue): Reports have been run on the report suite and it is being monitored for activity.</li><li>[!UICONTROL **Inactive**] (gray): No reports have ever been run on the report suite. This status is shown only when report suites are first created.</li></ul> |
+   | **[!UICONTROL Status]** | The possible statuses are: <ul><li>[!UICONTROL **Active**] (blue): Reports have been run on the report suite in the last 2 hours. The data shown in the table represents the reporting capacity for the report suite at the time the page was last loaded.</li><li>[!UICONTROL **Inactive**] (gray): No reports have been run on the report suite in the last 2 hours, so no data is displayed for the report suite.</li></ul> |
 
    {style="table-layout:auto"}
 

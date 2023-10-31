@@ -14,12 +14,12 @@ Since Adobe Analytics uses a JavaScript library to compile and send an image req
 
 Adobe has created two methods to implement Adobe Analytics on pages using AMP. Both use the `<amp-analytics>` HTML tag. See [amp-analytics](https://amp.dev/documentation/components/amp-analytics) in AMP's documentation for more information.
 
-* **Use the `"adobeanalytics"` tracking template**: Construct the Analytics request directly on the page
-* **Use the `"analytics_nativeConfig"` tracking template**: Use an iframe containing the same AppMeasurement code you deploy on your normal site
+* **Use the `"adobeanalytics"` template**: Construct the Analytics request directly on the page
+* **Use the `"analytics_nativeConfig"` template**: Use an iframe containing the same AppMeasurement code you deploy on your normal site
 
 The following table compares these two methods:
 
-|   | **"adobeanalytics" template** | **"adobeanalytics_nativeConfig" template** |
+|   | **`"adobeanalytics"` template** | **`"adobeanalytics_nativeConfig"` template** |
 |---|---|---|
 | Visitor/visit counts in existing report suite | High inflation | Minimal inflation |
 | Use a separate report suite | Recommended | Not necessary |
@@ -35,11 +35,11 @@ Weigh the pros and cons so that you can choose the best implementation method fo
 >
 >Do not use both the `"adobeanalytics"` and `"adobeanalytics_nativeConfig"` templates on the same page using AMP. If you attempt to do so, you can generate errors in the browser console and double-count visitors.
 
-## Method 1: Use the amp-analytics tag with the "adobeanalytics" template
+## Method 1: Use the `<amp-analytics>` tag with the `"adobeanalytics"` template
 
 The `"adobeanalytics"` tracking template uses the `<amp-analytics>` HTML tag to construct a tracking request directly. You can specify hit requests that fire on specific page events, like the page becoming visible or on a click. Click events can be customized to apply to certain element IDs or classes by specifying a selector. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger fires when the document becomes visible and includes the `pageName` variable as defined in the `vars` section. The second trigger `click` fires when a button is clicked. `eVar1` is set for this event with the value `button clicked`.
+In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger fires when the document becomes visible and includes the `pageName` variable as defined in the `vars` section. The second trigger `click` fires when a button is clicked. The `eVar1` variable is set for this event with the value `button clicked`.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -72,7 +72,7 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
 </amp-analytics>
 ```
 
-The `<amp-analytics>` tag supports variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in `amp-analytics`](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
+The `<amp-analytics>` tag supports variable substitutions so that AMP can provide data values that it is aware of. See [variables supported in `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) on GitHub for more information.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Adobe identifies visitors using a built-in AMP function, and sets the cookie `ad
 
 This solution requires that the tracking server you specify in the `host` property matches the tracking server on your main site, so that your existing privacy policy controls are respected. Otherwise, create a separate privacy policy for pages using AMP.
 
-## Method 2: Use the amp-analytics tag with the "adobeanalytics_nativeConfig" template
+## Method 2: Use the `<amp-analytics>` tag with the `"adobeanalytics_nativeConfig"` template
 
 The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it uses the same tagging methodology you use on your normal web pages. Add the following to your `amp-analytics` tag:
 

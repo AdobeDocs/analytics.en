@@ -29,16 +29,11 @@ Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a
 
 * Mobile App Optimization: Adobe Analytics Activity Map is not limited to websites; it also extends its functionality to mobile applications. Businesses can gain insights into user interactions within apps, allowing them to improve usability, enhance navigation, and refine features for a seamless mobile experience.
 
-## Getting started for Admins
+## Getting started
 
-* [Enable Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [Sample Implementation Code](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* Enable Activity Map using Web SDK
-
-## Getting started for Users
-
-* [Install Activity Map browser plug-ins](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Launch Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [Activate and Enable Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [Install Activity Map browser plug-ins](activitymap-getting-started/activitymap-install.md)
+* [Launch Activity Map](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map features
 

@@ -28,7 +28,7 @@ Activity Map browser plug-ins:
 1. Return to Chrome's address bar and enter `chrome://extensions`.
 1. Check the Developer mode box.
 1. Click Load unpacked extensions and select the unzipped folder from the popup.
-1. If you see an Adobe Analytics icon added to your tool bar, your download was successful. <br/><img src="./assets/an_icon.png" width="150px"/><br/>You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) from your page.
+1. If you see an Adobe Analytics icon added to your tool bar, your download was successful. <br/><img src="./assets/an_icon.png" width="150px"/><br/>You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) from your page.
 
 ## Install Activity Map plug-in on Firefox {#firefox}
 
@@ -39,5 +39,5 @@ Activity Map browser plug-ins:
 1. Click **[!UICONTROL Install Now]**.
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map should be listed as one of the Firefox Add-ons.
-1. If you see an Adobe Analytics icon added to your tool bar, your download was successful. <br/><img src="./assets/an_icon.png" width="150px"/><br/>You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) from your page.
+1. If you see an Adobe Analytics icon added to your tool bar, your download was successful. <br/><img src="./assets/an_icon.png" width="150px"/><br/>You can now [launch Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) from your page.
 

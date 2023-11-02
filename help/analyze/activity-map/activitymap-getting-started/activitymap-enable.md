@@ -4,6 +4,7 @@ title: Enable Activity Map
 feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+mini-toc-levels: 3
 ---
 
 # Activate and Enable Activity Map

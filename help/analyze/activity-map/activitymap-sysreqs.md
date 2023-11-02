@@ -12,7 +12,6 @@ Activity Map is supported on the following web browsers.
 
 | Supported Browsers | Versions |
 |--- |--- |
-|Internet Explorer|Latest version|
 |Firefox|Latest version|
 |Chrome|Latest version. Note:  The Activity Map Chrome plug-in is a "developer mode" plug-in only at this time. When you launch this plug-in, you get a message that encourages you to disable developer mode extensions. This message is displayed each time the plug-in is launched.|
 
@@ -22,5 +21,7 @@ Activity Map is supported on the following web browsers.
 
 Other requirements:
 
-* AppMeasurement code version 1.6 or higher. [More...](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 
+* AppMeasurement code version 1.6 or higher. [More...](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) 
+* Adobe Analytics tags extension v1.90 or higher
+* Web SDK version 2.15.0 or higher. 
 * Cookies and Javascript must be enabled.

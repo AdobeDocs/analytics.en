@@ -1,13 +1,12 @@
 ---
-description: Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
+description: Launch Activity Map directly from your web page.
 title: Launch Activity Map
-uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 ---
 
-# Launch Activity Map{#launch-activity-map}
+# Launch Activity Map
 
 Assuming that the correct browser plug-in is installed, you can launch Activity Map directly from your web page.
 

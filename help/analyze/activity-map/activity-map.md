@@ -7,7 +7,7 @@ exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 ---
 # Activity Map overview
 
-Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. Activity Map generates heatmaps and overlay reports that illustrate the popularity and effectiveness of various elements on a webpage, helping organizations optimize their digital experiences and drive higher conversions.
+Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. Activity Map generates heat maps and overlay reports that illustrate the popularity and effectiveness of various elements on a webpage, helping organizations optimize their digital experiences and drive higher conversions.
 
 ## Features and Benefits
 

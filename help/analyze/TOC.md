@@ -274,7 +274,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + Activity Map {#activity-map}
   + [Activity Map overview](activity-map/activity-map.md)
   + Get started {#getting-started}
-    + [Enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+    + [Activate and enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
     + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-install.md)
     + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
   + [Robust link tracking](activity-map/lnk-tracking-overview.md)

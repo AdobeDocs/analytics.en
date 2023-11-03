@@ -13,19 +13,17 @@ Explains the steps the Analytics Admin needs to complete to enable Activity Map 
 
 ## Step 1. Activate Activity Map {#update_code}
 
-The Activity Map module is part of the AppMeasurement.js, Adobe Experience Platform tags, and the Web SDK (alloy.js). Activity Map data cannot be collected unless you update to **Adobe Analytics tags extension v1.90** or higher, **AppMeasurement version 1.6** or higher or **Web SDK version 2.15.0** or higher. 
+The Activity Map module is part of the AppMeasurement.js, Adobe Experience Platform tags, and the Web SDK (alloy.js). Activity Map data cannot be collected unless you update to **Web SDK version 2.15.0** or higher, or **Adobe Analytics tags extension v1.90** or higher, or **AppMeasurement version 1.6** or higher. 
 
-### Adobe Experience Platform tags {#tags}
-
-In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. In the [!UICONTROL Install Extension] dialog, select **[!UICONTROL Use Activity Map]**.
-
-![](assets/aa_extension.png)
-
-### Web SDK code {#web_sdk}
++++Web SDK (Tags extension)
 
 In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. Then build the Library with the changes, and publish the Library to production.
 
 ![](assets/web_sdk.png)
+
++++
+
++++Manual Web SDK implementation
 
 See [Track links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) for information on how to implement link tracking and how to enable Activity Mapping by capturing the `region` of the clicked HTML element.
 
@@ -33,10 +31,22 @@ See [Track links](https://experienceleague.adobe.com/docs/experience-platform/ed
 >
 >Enabling link tracking with Web SDK currently sends link events when a customer navigates from one page to the next. This is different from how AppMeasurement works and can potentially result in extra billable hits sent to Adobe.
 
-### AppMeasurement {#appmeasurement}
++++
+
++++Analytics extension (Adobe Experience Platform tags)
+
+In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. In the [!UICONTROL Install Extension] dialog, select **[!UICONTROL Use Activity Map]**.
+
+![](assets/aa_extension.png)
+
++++
+
++++AppMeasurement
 
 Download the latest Javascript library depending whether you are using AppMeasurement or Web SDK.
 Go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+
++++
 
 ## Step 2. Enable Activity Map reports {#enable}
 

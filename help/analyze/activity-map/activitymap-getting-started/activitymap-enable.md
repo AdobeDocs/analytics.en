@@ -43,8 +43,9 @@ In Adobe Experience Platform tags, navigate to the property for which you are im
 
 +++AppMeasurement
 
-Download the latest Javascript library depending whether you are using AppMeasurement or Web SDK.
-Go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]** and [implement it](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
+1. Download the latest Javascript library for AppMeasurement.
+   Go to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Code manager]**.
+1. Implement it by following [these instructions](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html).
 
 +++
 

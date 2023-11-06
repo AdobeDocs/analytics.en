@@ -15,7 +15,7 @@ Explains the steps the Analytics Admin needs to complete to enable Activity Map 
 
 The Activity Map module is part of the AppMeasurement.js, Adobe Experience Platform tags, and the Web SDK (alloy.js). Activity Map data cannot be collected unless you update to **Web SDK version 2.15.0** or higher, or **Adobe Analytics tags extension v1.90** or higher, or **AppMeasurement version 1.6** or higher. 
 
-+++Web SDK (Tags extension)
++++Web SDK (Adobe Experience Platform tags extension)
 
 In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. Then build the Library with the changes, and publish the Library to production.
 
@@ -51,7 +51,7 @@ In Adobe Experience Platform tags, navigate to the property for which you are im
 
 ## Step 2. Enable Activity Map reports {#enable}
 
-First, you need to enable Activity Map reports at the report-suite level.
+You need to enable Activity Map reports at the report-suite level.
 
 1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 

@@ -6,9 +6,9 @@ exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 ---
 # Content Velocity
 
-'Content Velocity' helps you measure how successfully a dimension (usually the [!UICONTROL Page] or [!UICONTROL Page Name] dimension) contributed to users spending more time on the site during a given visit.
+The 'Content Velocity' calculated metric helps you measure how a dimension (typically [!UICONTROL [Page](../dimensions/page.md)]) contributes toward users spending time on your website or app.
 
-It accomplishes this by using **Visit participation**, which is similar to [Participation attribution](/help/analyze/analysis-workspace/attribution/models.md). With Visit participation, every time a page is hit, all pages that were previously hit during the same visit also get credit. This means that the earlier a page is hit during a visit, the more credit it receives. (See [Page Views (Participation | Visit) or 'Visit participation'](#page-views-participation--visit-or-visit-participation) for more information.)
+This metric uses [Participation attribution](/help/analyze/analysis-workspace/attribution/models.md) on the [Page views](page-views.md) metric as part of its calculation. With Visit participation, every time a page is hit, all pages that were previously hit during the same visit also receive credit for the page view. This formula typically means that the earlier a page is hit during a visit, the more credit it receives. (See [Page Views (Participation | Visit) or 'Visit participation'](#page-views-participation--visit-or-visit-participation) for more information.)
 
 ## Calculation
 

@@ -17,19 +17,52 @@ The Activity Map module is part of the AppMeasurement.js, Adobe Experience Platf
 
 +++Web SDK (Adobe Experience Platform tags extension)
 
-In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. Then build the Library with the changes, and publish the Library to production.
+1. In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. 
+1. Build the Library with the changes.
+1. Publish the Library to production.
 
 ![](assets/web_sdk.png)
+
+**Validation**
+
+Interact calls using Developer Console Network Tab:
+
+1. Load the Development Launch script on the site.
+1. On Click of Elements, search for '/ee' in the Network Tab
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Download and install the [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Go to [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge]. 
+
+   ![](assets/validation2.jpg)
+
+**FAQs**
+
+* **The interact call is not firing in the Network tab.**
+   The click data collection in a collect call, we need to filter with either "/ee" or "collect?"
+
+* **There is no Payload Display for the collect call.**
+   The collect call is designed in such a way that the tracking should not affect  navigation to other sites, so the document unload feature is applicable for the collect calls. This won't impact your data collection but if you need to validate on page, add target = "_blank" to the respective element. Then the link opens in a new tab.
+
+* **How do I ignore the collection of PII?**
+   Add the respective conditions in<< on before link click send callback>> and return false to ignore those values. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)  
+   
+   Sample code:
+
+   ![](assets/sample-code.png)
 
 +++
 
 +++Manual Web SDK implementation
 
-See [Track links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) for information on how to implement link tracking and how to enable Activity Mapping by capturing the `region` of the clicked HTML element.
+See [Track links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) for information on how to implement link tracking and how to enable Activity Map by capturing the `region` of the clicked HTML element.
 
 >[!NOTE]
 >
->Enabling link tracking with Web SDK currently sends link events when a customer navigates from one page to the next. This is different from how AppMeasurement works and can potentially result in extra billable hits sent to Adobe.
+>Enabling link tracking with the Web SDK currently sends link events when a customer navigates from one page to the next. This is different from how AppMeasurement works and can potentially result in extra billable hits sent to Adobe.
 
 +++
 

@@ -6,35 +6,57 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 ---
-# Customize reports overview
+# Customize reports
 
 {{ra-eol}}
 
 After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
 
-## Create a custom report {#task_BA6EACA3039C40AEA5605E1D8C76E646}
+## Create a custom company report {#company-report}
 
-You can save a report's current configuration as a new custom report for all users to see.
+Custom reports created and saved for others in your login company to use, are called company reports. Previously created company reports and newly created company reports are listed in the Create Project modal as shown below.
 
-<!-- 
+To create a new Company report:
 
-t_reports_custom.xml
+1. Build a project in Analysis Workspace to your desired state.
+1. Select [!UICONTROL **Project**] > **[!UICONTROL Save as company report…]**.
+   
+   ![Company report](assets/company-report.png)
 
- -->
+1. Update the name of the report, add a description, and add any tags, then select [!UICONTROL **Save as company report**]. 
 
-Only administrators can create a custom report. When you create a custom report, it is added to the main reporting menu next to the report on which it is based.
+   The report is added to the Company Reports list in the Create Project modal and is available to users in your login company. 
 
-To create a custom report:
+   For more information about how users can create a project based on a company report, see "Create a project from a blank project or a report" in [Create projects](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-1. Run a report and configure it as necessary.
-1. Click **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Name the report, then click **[!UICONTROL Save.]**
+## Manage company reports
 
-   Ensure that you do not duplicate an existing report name.
+Admins can filter the project list to display and manage company reports. Pinned items remain pinned followed by the list of company reports that are identified by the ![report icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) report icon . In this view, you can delete, rename, tag, or approve one or more reports.
 
->[!MORELIKETHIS]
->
->* [Menu Customizing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+To display and manage company reports
+
+1.  In the filter rail, select **OTHER FILTERS** and then select **Company reports**. 
+    A list of the company reports are displayed. All regular projects, unless they're pinned, are not displayed.
+
+    ![Display company reports filters](assets/company-reports-filter.png)
+
+    With company reports displayed, Admins can delete, rename, add a tag, or approve the report. 
+
+1.  In the report list, select a single report or select multiple reports.
+
+1.  Click the **...** elilpsis icon next to a report to view the available options (Delete, Rename, Tag, and Approve). 
+
+    ![Company report actions](assets/company-reports-actions.png)
+
+1.  Select an option (Delete, Rename, Tag, and Approve).
+
+1.  To return to the regular view when your done, in the filter rail, uncheck the Company reports option again.
+
+### Delete a company report
+
+Admins can delete a report using the Company report list option (described above) or delete a report from the Create project modal.
+
+![Other filters](assets/delete-fr-create-project-modal.png)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 

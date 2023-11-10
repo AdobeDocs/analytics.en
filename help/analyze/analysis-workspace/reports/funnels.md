@@ -12,14 +12,14 @@ exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 
 Conversion ratios usually measure conversion between the starting, ending, and milestone events or points of a conversion process. After you code the success events onto your site, the report creates the ratios between these different success events and show them in a Conversion Funnel Report.
 
-The following funnel reports available:
+The following funnel reports are available:
 
 * [!UICONTROL Purchase Conversion Funnel]: Shows Visits (Report-Specific), Carts, Orders, Units, and Revenue.
 * [!UICONTROL Cart Conversion Funnel]: Displays Visits (Report-Specific), Carts, Checkouts, Orders, and Revenue.
 * [!UICONTROL Custom Event Funnel]: Displays custom events on your site. It shows custom events 1-5 by default.
 * [!UICONTROL Campaign Conversion Funnel]: Shows Click-Throughs, Checkouts, Orders, and Revenue.
 
-This report is also customizable so that you can add Custom Conversion Events to the Conversion Funnel to see if visitors to your site make it from one step to the next. Success events are good candidates for this type of analysis if they almost always occur in a specific order. For example, on a retail site, success events generally occur in this order:
+This report is also customizable so that you can add Custom Conversion Events to the Conversion Funnel to see if visitors to your site make it from one step to the next. Success events are good candidates for this type of analysis if they almost always occur in a specific order. For example, on a retail site, success events generally occur in this order:  
 
 1. Product Views
 2. Cart Additions

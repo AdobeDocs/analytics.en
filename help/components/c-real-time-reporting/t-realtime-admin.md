@@ -6,23 +6,23 @@ exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 ---
 # Configure real-time reports
 
-{{ra-eol}}
+The following information contains administrative steps for setting up Real-Time reports.
 
-Administrative steps for setting up Real-Time reports.
-
-Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of selecting the report suite and configuring up to 3 reports for it.
+This consists of selecting the report suite and configuring up to 3 reports for it.
 
 1. Select the report suite for which you want to enable real-time reports.
 
-   Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
+   1. In Analysis Workspace, select the [!UICONTROL **Workspace**] tab, then select [!UICONTROL **Reports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Real-Time]**.
+   
+   1. Select the report suite from the drop-down at the top:
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   If you try to view real-time reports for a report suite that has not been set up for real-time reporting, a message displays that enables you to set up the report suite.
+      If you try to view real-time reports for a report suite that has not been set up for real-time reporting, a message displays that enables you to set up the report suite.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
+1. Select **[!UICONTROL Configure]** to run the [!UICONTROL Report Suite Manager].
 
    (Also available under **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.) 
 
@@ -49,7 +49,7 @@ Setting up real-time reports within [!UICONTROL Reports & Analytics] consists of
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Select **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
    After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
 

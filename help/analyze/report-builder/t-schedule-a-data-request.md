@@ -47,7 +47,6 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 |Customize|Lets you customize the date format.|
 |To|Displays your Outlook Address Book, if applicable.|
 |Send to: Email|The email recipient of the workbook.|
-|Send to: Publishing List|Displays a list of available distribution lists for this company.|
 |Power BI|See [Publish Workbook to Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) for more information.|
 |Subject|A user-defined description.|
 |Scheduling|Lets you specify when to send the workbook. (Immediately, hourly, daily, weekly, monthly, and yearly.)| 

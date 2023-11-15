@@ -22,7 +22,7 @@ It lets you:
 
 Here is a Flow visualization video tutorial:
 
->[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 

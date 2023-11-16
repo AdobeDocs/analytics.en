@@ -1,21 +1,32 @@
 ---
 description: Documentation describing how to filter and sort tables in Analysis Workspace.
-title: Filter and sort tables
+title: Filter and sort freeform tables
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 ---
-# Filter and sort tables
+# Filter and sort freeform tables
 
 Freeform tables in Analysis Workspace are the foundation for interactive data analysis. As such, they can contain thousands of rows of information. Filtering and sorting the data can be a critical part of efficiently surfacing the most important information. 
 
 ## Filter tables
 
- Filters in Analysis Workspace help you surface the most important information.
+Filters in Analysis Workspace help you surface the most important information.
 
 >[!NOTE]
 >
 > Only dynamic dimension items can be filtered as described in this section. Static dimension items cannot be filtered. For more information, see [Dynamic vs static dimension items in freeform tables](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filter freeform table rows
+
+You can use several methods to filter rows from a freeform table. 
+
+- Click the 'X' in the row
+- Right-click > Deleted Selected rows
+- Table filters 
+- Segmentation
+
+Be sure to read how each method impacts [Freeform table totals](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### Quickly exclude specific rows from a table
 
@@ -29,7 +40,14 @@ To quickly exclude specific rows from a Freeform table:
 
 1. Hover over the row you want to exclude, then select the x icon. 
 
-   Hold the Shift key to select a range rows, or hold the Command key (on Mac) or the Ctrl key (on Windows) to select multiple rows.
+   Hold the Shift key to select a range of rows, or hold the Command key (on Mac) or the Ctrl key (on Windows) to select multiple rows.
+
+### Right-click > Delete selected rows
+
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.
 
 ### Apply a simple or advanced filter to a table
  
@@ -63,9 +81,13 @@ To quickly exclude specific rows from a Freeform table:
 
     The **Filter** icon ![Blue filter icon filtered table](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) turns blue when a filter is applied to the table. 
 
+### Segmentation
+
+See our [Segmentation documentation](https://docs.adobe.com/help/en/analytics/components/segmentation/seg-home.html) for more details.
+
 ## Sort tables
 
-You can sort the data of a Freeform table by any column in Analysis Workspace that is a Metric. 
+You can sort the data of a Freeform table by any column in Analysis Workspace that is a metric. 
 
 A down arrow icon ![Down arrow icon sorted table column](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) is visible in the header of the column that data is currently being sorted by. 
 

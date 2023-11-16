@@ -72,8 +72,8 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + Column and row settings {#column-row-settings}
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-        + [Dynamic vs. Static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Filter and sort tables](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+        + [Dynamic vs. static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+      + [Filter and sort freeform tables](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
       + [Workspace Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
       + [What is Cohort Analysis?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

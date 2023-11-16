@@ -26,7 +26,7 @@ You can use several methods to filter rows from a freeform table. 
 - Table filters 
 - Segmentation
 
-Be sure to read how each method impacts [Freeform table totals](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Be sure to read how each method impacts [Freeform table totals](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Quickly exclude specific rows from a table
 
@@ -83,7 +83,7 @@ To quickly exclude specific rows from a Freeform table:
 
 ### Segmentation
 
-See our [Segmentation documentation](https://docs.adobe.com/help/en/analytics/components/segmentation/seg-home.html) for more details.
+See our [Segmentation documentation](/help/components/segmentation/seg-home.md) for more details.
 
 ## Sort tables
 

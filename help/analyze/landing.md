@@ -112,33 +112,6 @@ For more information about the Reports tab in Analysis Workspace, including view
 
 For information about creating and managing custom company reports, see [Customize reports overview](/help/analyze/analysis-workspace/reports/reports-customize/customizing-reports-overview.md).
 
-### Location of templates (now called reports) {#templates}
-
-| Report (template) name | Report location |
-| --- | --- |
-| Training Tutorial | Most Popular > Training tutorial |
-| Web Content Consumption | Engagement > Web Content Consumption |
-| Media Content Consumption | Engagement > Media Content Consumption |
-| Cross-Device Analysis | Engagement > Cross-Device Analysis |
-| Web Retention | Engagement > Web Retention |
-| Media Audio Consumption | Engagement > Media Audio Consumption |
-| Media Recency, Frequency, Loyalty | Engagement > Media Recency, Frequency, Loyalty |
-| ITP Impact | Engagement > ITP Impact |
-| Product Performance | Conversion > Products > Product Performance |
-| Magento: Marketing & Commerce | Conversion > Magento: Marketing & Commerce |
-| People Metric | Audience > People Metric |
-| Location Overview | Audience > Visitor Profile > Location Overview |
-| Technology Overview | Audience > Visitor Profile > Technology > Technology Overview |
-| Mobile App Usage | Audience > Mobile > Mobile App Usage |
-| Mobile App Journeys | Audience > Mobile > Mobile App Journeys |
-| Mobile App Metrics | Audience > Mobile > Mobile App Messaging |
-| Mobile App Performance | Audience > Mobile > Mobile App Performance |
-| Mobile App Retention | Audience > Mobile > Mobile App Retention |
-| Campaign Performance | Acquisition > Campaigns > Campaign Performance |
-| Mobile Acquisition | Acquisition > Mobile Acquisition |
-| Web Acquisition | Acquisition > Web Acquisition |
-| Advertising Analytics: Paid Search | Acquisition > Advertising Analytics: Paid Search |
-
 
 ## Use the Learning tab {#navigate-learning}
 

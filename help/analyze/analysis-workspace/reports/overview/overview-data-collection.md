@@ -9,8 +9,6 @@ exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 ---
 # About Data Collection
 
-{{ra-eol}}
-
 Learn about how data is collected for Adobe Analytics.
 
 At a high level, the data collection process flows as follows:

@@ -38,6 +38,14 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
+  + Reports {#reports}
+    + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
+    + [Customize reports](analysis-workspace/reports/customizing-reports-overview.md)
+    + [Alerts](analysis-workspace/reports/alerts.md)
+    + [Bookmarks](analysis-workspace/reports/bookmarks.md)
+    + [Conversion Funnel reports](analysis-workspace/reports/funnels.md)
+    + [Calendar events](analysis-workspace/reports/t-calendar-event.md)
+    + [Data collection](analysis-workspace/reports/overview-data-collection.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)

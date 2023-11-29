@@ -7,7 +7,7 @@ feature: Anomaly Detection
 ---
 # Run Contribution Analysis
 
-[Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
+[Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 
 ## Run Contribution Analysis {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -32,7 +32,7 @@ There are two ways to invoke contribution analysis in a project:
 
     * A visualization that shows the number of **Visits** on that day.
     * A monthly **Visits Trend line** for context.
-    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
+    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
     
     * The [Generated Segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) table identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Clicking the "i" (info) button will give you a view of each auto segment's definition, including which top items it is made up of:
 

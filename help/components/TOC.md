@@ -283,7 +283,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Supported real-time metrics and dimensions](c-real-time-reporting/realtime-metrics.md)
 + Marketing Channels {#marketing-channels}
   + [Get started with Marketing Channels](c-marketing-channels/c-getting-started-mchannel.md)
-  + [Attribution IQ with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)
+  + [Attribution with Marketing Channels](c-marketing-channels/mchannel-best-practices.md)
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)

@@ -83,7 +83,7 @@ Segments, date ranges, and calculated metrics that don't already exist in Custom
 | **[Tags](/help/analyze/landing.md)** | No | 
 | **[Favorites](/help/analyze/landing.md)** | No | 
 | **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
-| **[Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -109,7 +109,7 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 
 * [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## Decide as an organization how you will map components
 

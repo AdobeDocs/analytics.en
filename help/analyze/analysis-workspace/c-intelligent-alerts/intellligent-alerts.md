@@ -29,7 +29,7 @@ There are four ways get to the Alert Builder:
 | Select one or more freeform table line item/s | Right-click and select **[!UICONTROL Create Alert from Selection]**. This opens the [!UICONTROL Alert Builder] and pre-populates the appropriate metrics and filters applied from the table. You can edit the alert if needed. ![Create alert from selection](assets/create-alert-from-selection.png) |
 | From within a Reports & Analytics report | Go to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This opens the alert builder and pre-populates the appropriate metrics and filters applied from the report. You can edit the alert if needed. ![Add alert](assets/add-alert.png) |
 
-The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
+The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
 
 >[!IMPORTANT]
 >
@@ -44,4 +44,4 @@ If an alert uses anomaly detection, the training period varies based on the gran
 * Daily granularity: 35 days + same range last year
 * Hourly granularity: 336 hours
 
-See [Statistical techniques used in Anomaly Detection](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) for more information.
+See [Statistical techniques used in Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) for more information.

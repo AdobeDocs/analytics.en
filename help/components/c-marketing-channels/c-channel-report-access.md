@@ -8,7 +8,7 @@ exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 
 >[!NOTE]
 >
->To maximize effectiveness of Marketing Channels for Attribution IQ and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>To maximize effectiveness of Marketing Channels for Attribution and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 

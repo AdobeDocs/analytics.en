@@ -43,7 +43,7 @@ There are four ways get to the Alert Builder:
 
 ## FAQ: How Alerts are Calculated and Triggered {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-The % thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you will get more anomalies than if you set a higher threshold (99%). 99.75% & 99.99% thresholds were introduced specifically for the hourly granularity so that it wouldn't trigger as many anomalies.
+The % thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you will get more anomalies than if you set a higher threshold (99%). 99.75% & 99.99% thresholds were introduced specifically for the hourly granularity so that it wouldn't trigger as many anomalies.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -55,7 +55,7 @@ The % thresholds are standard deviations. For example, 95% = 2 standard deviatio
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q: How far back does the alert's anomaly detection go to determine data anomalies?</b> </p> </td> 
-   <td colname="col2"> <p>The training period varies based on the granularity selected. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Here is a summary: </p> 
+   <td colname="col2"> <p>The training period varies based on the granularity selected. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Here is a summary: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Monthly = 15 months + same range last year </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Weekly = 15 weeks + same range last year </li> 

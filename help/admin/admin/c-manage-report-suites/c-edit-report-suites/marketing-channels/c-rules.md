@@ -24,7 +24,7 @@ Additional notes about processing :
 
 * Review the conceptual information in [Getting Started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Create one or more channels so that you can assign rules to them. See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Review the best practices for using [!UICONTROL Marketing Channels] with [!UICONTROL Attribution IQ].
+* Review the best practices for using [!UICONTROL Marketing Channels] with [!UICONTROL Attribution].
 
 ## Create Marketing Channel processing rules
 

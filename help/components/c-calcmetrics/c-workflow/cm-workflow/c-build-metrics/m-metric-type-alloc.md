@@ -25,7 +25,7 @@ To specify the metric type when building a calculated metric:
 
 ## How linear allocation works
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
 For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
@@ -45,4 +45,4 @@ In this example, the values A, B, and C were sent into a variable on hits 1, 3, 
 There are some differences in how linear attribution works between these two tools:
 
 * In Reports & Analytics, (processed) linear attribution is always visit based, whereas in Workspace, it can be visit or visitor based.
-* In Reports & Analytics, if No value was passed on the first hit of a visit, the (initial) value would persist from the pervious visit. This is NOT the case in Workspace (Attribution IQ). If no value is passed on the first hit of a visit, then 'None' is the initial value.
+* In Reports & Analytics, if No value was passed on the first hit of a visit, the (initial) value would persist from the pervious visit. This is NOT the case in Workspace (Attribution). If no value is passed on the first hit of a visit, then 'None' is the initial value.

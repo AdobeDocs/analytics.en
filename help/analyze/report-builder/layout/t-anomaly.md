@@ -32,4 +32,4 @@ To create an anomaly detection request in Report Builder:
    When you select one of these options, the system creates Anomaly Detection copies of the original metric. For example, for the Visit metric, a Lower Bound Visit metric is added to the [!UICONTROL Metric] group.
 1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
 
-   See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) for definitions.
+   See [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) for definitions.

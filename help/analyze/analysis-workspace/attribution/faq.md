@@ -102,9 +102,9 @@ Yes, most data sources are supported. Attribution is not possible with summary-l
 
 Transaction ID data sources are treated like any other hit. Transaction ID data sources don't use the special processing that normally is used in traditional reporting. In other words, when using report time processing, Transaction ID hits will have eVar values propagated from hits which occur near the timestamp of the Transaction ID hit. The values will not be propagated from hits that occurred near the time of the original transaction.
 
-When possible, attribution IQ relies on the MID column value sent within an event in the data source, rather than a persisted value. The attribution model is applied to the MID column values in the data source, on-the-fly. For example, when you use "Last Touch" attribution, the model starts from each instance of a metric and walks backward sequentially in the hits until the model reaches the last value observed in the MID column.
+When possible, attribution relies on the MID column value sent within an event in the data source, rather than a persisted value. The attribution model is applied to the MID column values in the data source, on-the-fly. For example, when you use "Last Touch" attribution, the model starts from each instance of a metric and walks backward sequentially in the hits until the model reaches the last value observed in the MID column.
 
-When not possible, attribution IQ will use the MID value in the 'prior record' in the data source for evaluation. This prior record might not be ordered sequentially by timestamp, given that AA does not support out-of-order data.
+When not possible, attribution will use the MID value in the 'prior record' in the data source for evaluation. This prior record might not be ordered sequentially by timestamp, given that AA does not support out-of-order data.
 
 Due to the records not being ordered sequentially, the expected values from applying persistence can impact the amount of time that exists between the provided transaction ID timestamp and the original transaction.
 

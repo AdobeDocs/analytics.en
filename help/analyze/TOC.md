@@ -127,7 +127,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [View-only projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
-  + Attribution IQ {#attribution}
+  + Attribution {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)
     + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
@@ -135,17 +135,12 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [FAQ](analysis-workspace/attribution/faq.md)
   + [Journey IQ](analysis-workspace/journey-iq.md)
   + [Segment IQ](analysis-workspace/segment-iq.md)
-  + Virtual Analyst {#virtual-analyst}
-    + [Virtual Analyst overview](analysis-workspace/virtual-analyst/overview.md)
-    + Anomaly Detection {#anomaly-detection}
-      + [Anomaly Detection overview](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-      + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-      + [Turn off anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-      + [Statistical techniques used in anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-    + Contribution Analysis {#contribution-analysis}
-      + [Contribution Analysis overview](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-      + [Run Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-      + [Statistical techniques used in Contribution Analysis](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+  + Anomaly Detection {#anomaly-detection}
+    + [Anomaly Detection overview](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+    + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
+    + [Turn off anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
+    + [Run Contribution Analysis](analysis-workspace/virtual-analyst/c-anomaly-detection/run-contribution-analysis.md)
+    + [Statistical techniques used in anomaly detection](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
     + Intelligent Alerts {#intelligent-alerts}
       + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
       + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)

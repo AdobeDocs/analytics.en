@@ -137,9 +137,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Segment IQ](analysis-workspace/segment-iq.md)
   + Anomaly Detection {#anomaly-detection}
     + [Anomaly Detection overview](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-    + [View anomalies in Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-    + [Turn off anomaly detection](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-    + [Run Contribution Analysis](analysis-workspace/virtual-analyst/c-anomaly-detection/run-contribution-analysis.md)
+    + [View anomalies in Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+    + [Turn off anomaly detection](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+    + [Run Contribution Analysis](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
     + [Statistical techniques used in anomaly detection](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
     + Intelligent Alerts {#intelligent-alerts}
       + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)

@@ -61,7 +61,9 @@ To view anomalies in a line chart:
    
    * The percentage value above or below the expected value, which is represented by the solid green line.
    
-   * The Analyze link to start [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).  
+   * The Analyze link to start Contribution Analysis 
+   
+     (See [Anomaly Detection overview](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) for more information.)  
 
 
 

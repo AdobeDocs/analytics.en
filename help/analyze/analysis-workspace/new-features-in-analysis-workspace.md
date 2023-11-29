@@ -342,7 +342,7 @@ New features and enhancements released on May 10, 2018.
    <td colname="col2"> <p>You can now scroll up and down while dragging components to a new location. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>Additional information on <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalies </a></b> </p> </td>
+   <td colname="col1"> <p><b>Additional information on <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > anomalies </a></b> </p> </td>
    <td colname="col2"> <p>When hovering over an anomaly in a line chart, the information now shows the date and the raw value of the anomaly. </p> </td>
   </tr>
  </tbody>
@@ -373,7 +373,7 @@ New features and enhancements released on April 12, 2018.
    <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td>
    <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. </p> </td>
   </tr>
  </tbody>
@@ -604,7 +604,7 @@ New features released on October 26, 2017.
     </ul> <p>For example, if "Hour of Day" is dropped into a table, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Option to allow confidence interval from re-scaling a chart </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Option to allow confidence interval from re-scaling a chart </a> </p> </td>
    <td colname="col2"> <p>The Anomaly Detection Confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. </p> <p>You now have the option to allow the confidence interval to scale the chart. </p> </td>
   </tr>
   <tr>

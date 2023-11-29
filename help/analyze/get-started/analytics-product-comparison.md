@@ -27,7 +27,6 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 | **Marketing Channels** <br> [Learn more](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Yes | Yes | Yes | Yes | Yes | Yes - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Yes |
 | **Cohort analysis** | [Yes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Yes | No | No |
 | **Attribution** | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limited | Limited | No | Yes | No | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Virtual Analyst features** <br> [Learn more](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Yes | No | No | No | No | No | Yes |
 | **Curation** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/curate.md) | Yes - Project and Virtual report suite | No | No | No | No | No | Yes - Virtual report suite only |
 | **Project sharing** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Yes, with project roles | Yes | Yes | No | Yes | No | No |
 | **Scheduled delivery** | Yes | Yes | Yes | Yes | No | Yes | No |

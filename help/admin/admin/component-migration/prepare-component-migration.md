@@ -109,7 +109,7 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 
 * [Page summary](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## Decide as an organization how you will map components
 

@@ -67,7 +67,7 @@ Once the Data Warehouse report arrives, you have a list of ECIDs that must be fi
 * **ECID**: Make sure that this column header matches the name you gave to the new declared ID above.
 * **Bot Flag**: Add 'Bot Flag' as a Customer attribute schema dimension.
 
-Use this .CSV file as your Customer attribute import file, then subscribe your report suite(s) to the Customer attribute as described in this [blog post](https://theblog.adobe.com/link-digital-behavior-customers).
+Use this .CSV file as your Customer attribute import file, then subscribe your report suite(s) to the Customer attribute as described in this [blog post](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 

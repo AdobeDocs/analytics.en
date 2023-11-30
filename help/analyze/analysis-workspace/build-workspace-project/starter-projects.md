@@ -13,7 +13,7 @@ For information about creating Workspace reports and creating custom company rep
 
 | Task | Link | 
 |---|---| 
-|To learn about the project manager home page and the updated Reports menu| [Adobe Analytics landing page](/help/analyze/landing.md) | 
-|To create a custom company report | [Create a custom company report](/help/analyze/landing.md#company-report) | 
-|To view a list of reports or to find the location of templates (now called *Reports*)|[Use pre-built reports](/help/analyze/analysis-workspace/reports/overview/use-reports.md)|
-|To learn to navigate the Reports tab|[Navigate the Reports tab](/help/analyze/landing.md#navigate-reports)|
+|Learn about the project manager home page and the updated Reports menu| [Adobe Analytics landing page](/help/analyze/landing.md) | 
+|Create a custom company report | [Create a custom company report](/help/analyze/analysis-workspace/reports/create-company-reports.md) | 
+|View a list of pre-built reports or find the location of templates (now called *Reports*)|[Use pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md)|
+|Learn to navigate the Reports tab|[Navigate the Reports tab](/help/analyze/landing.md#navigate-reports)|

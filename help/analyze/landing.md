@@ -108,10 +108,9 @@ The [!UICONTROL Reports] tab consolidates the following sets of reports:
 
 ![Reports tab](assets/reports-tab2.png)
 
-For more information about the Reports tab in Analysis Workspace, including viewing and saving reports, see [Use pre-built reports](/help/analyze/analysis-workspace/use-reports.md).
+For more information about the Reports tab in Analysis Workspace, including viewing and saving reports, see [Use pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-For information about creating and managing custom company reports, see [Customize reports overview](/help/analyze/analysis-workspace/reports/reports-customize/customizing-reports-overview.md).
-
+For information about creating and managing custom company reports, see [Create and manage company reports](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## Use the Learning tab {#navigate-learning}
 

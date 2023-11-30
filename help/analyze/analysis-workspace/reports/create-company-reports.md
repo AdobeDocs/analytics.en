@@ -4,7 +4,7 @@ title: Use reports
 feature: Analysis Workspace
 role: User, Admin
 ---
-# Create and manage custom company reports
+# Create and manage company reports
 
 You can create custom reports and save them for others in your login company to use. Company reports are available to choose when creating a project, as described in [Create a project from a blank project or a report](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) in the article, [Create projects in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 

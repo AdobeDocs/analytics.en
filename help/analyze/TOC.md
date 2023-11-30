@@ -40,7 +40,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
   + Reports {#reports}  
     + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
-    + [Create and manage custom company reports](analysis-workspace/reports/create-company-reports.md)
+    + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)

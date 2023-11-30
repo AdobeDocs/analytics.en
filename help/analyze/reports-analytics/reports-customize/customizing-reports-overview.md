@@ -6,35 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 ---
-# Customize reports overview
-
-{{ra-eol}}
+# Customize reports
 
 After running a report, you can customize the report to view and analyze the data according to your needs. You can filter report data, change how data is presented graphically, change date granularity, and so on.
-
-## Create a custom report {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-You can save a report's current configuration as a new custom report for all users to see.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Only administrators can create a custom report. When you create a custom report, it is added to the main reporting menu next to the report on which it is based.
-
-To create a custom report:
-
-1. Run a report and configure it as necessary.
-1. Click **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Name the report, then click **[!UICONTROL Save.]**
-
-   Ensure that you do not duplicate an existing report name.
-
->[!MORELIKETHIS]
->
->* [Menu Customizing](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 ## Select a date or date range {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -83,6 +57,8 @@ You cannot compare dates between trended reports.
 >
 >If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) using two separate requests. You then use custom formulas in Excel to analyze the difference between the two.
 
+<!-- delete this procedure, but what about this entire "Compare dates" section?
+
 To compare dates between ranked reports in Reports & analytics: 
 
 1. Run a report.
@@ -90,6 +66,8 @@ To compare dates between ranked reports in Reports & analytics:
 1. Click **[!UICONTROL Compare Dates]**.
 1. Select the dates you want to use.
 1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Display a percent as a graph {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -205,19 +183,3 @@ To run a day-of-week report:
 
 1. Run a trended report over a specified date range.
 1. Click the **[!UICONTROL Day of Week]** link, then click a day.
-
-## 'Try in Workspace' button {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Clicking the **[!UICONTROL Try In Workspace]** button at the top of a report will load the same report in Analysis Workspace.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-Most reports in Reports & Analytics now include a "Try in Workspace" button to allow you to reproduce the current view in Analysis Workspace for further customization.
-
-Currently, the button is only available if your username has full rights to Analysis Workspace.
-
-For more information on all the ways you can customize your report, see the [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) guide.

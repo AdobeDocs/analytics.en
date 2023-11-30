@@ -10,17 +10,25 @@ exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 
 {{ra-eol}}
 
-Steps on running the different report types.
+You can run many different types of reports in Analysis Workspace. Following are a few examples.
+
+For a complete list of available pre-built report types, see [Use pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md)
+
+<!-- How do you do a Ranked Report in Workspace?
 
 ## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
 1. In the report header, click **[!UICONTROL Ranked.]**
 1. To rank the report, click a column heading in the table.
 
    Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
+
+-->
+
+<!-- Can you do a Trended report? 
 
 ## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
 
@@ -33,6 +41,8 @@ Most Conversion and Traffic reports have a Trended view available. Using the [!U
 1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
 1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
 
+-->
+
 ## Run a Fallout report {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. It also shows conversion and fallout rates between each step.
@@ -42,20 +52,14 @@ Check out the new [Fallout Analysis](https://experienceleague.adobe.com/docs/ana
 1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
 1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
 
-   ![Step Result](assets/fallout_add_items.png)
-
 1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
 1. Click **[!UICONTROL Run Report]**.
-
-   ![Step Result](assets/fallout_report.png)
 
 ## Run a Page Flow report {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Page Flow reports show the order in which your visitors access pages and navigate through your site. This report helps answer
 
-Check out the [Flow visualization](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace!
-
-For example, click **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
+For example, click **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Next and previous page flow]**.
 
 ## Run a marketing channel report {#task_64ADED5CC75248319E06E3E029B47F78}
 

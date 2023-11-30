@@ -7,15 +7,19 @@ exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 ---
 # Real-time reporting overview
 
-{{ra-eol}}
-
 Real-time reporting displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
 >[!NOTE]
 >
 >The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
+## Access the Real-Time reporting
+
+1. In Analysis Workspace, select the [!UICONTROL **Workspace**] tab.
+
+1. Select [!UICONTROL **Reports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Real-Time]**.
+
+## Understand Real-Time reporting
 
 Real-Time answers the following questions: What is trending on my site, and why? It allows you as a marketer to quickly respond to and actively manage the performance of your marketing content and campaigns. The real-time data reported is less than two minutes latent and auto-updates on a minute-by-minute basis.
 
@@ -49,7 +53,7 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 
 This increase is reflected in all Adobe Analytics services and tools, including the live stream and real-time reporting, and applies in the following scenarios:
 
-* For live stream, real-time reports & API requests, and current data for traffic variables, only hits with a supplemental data ID are delayed.
+* For live stream, real-time reports and API requests, and current data for traffic variables, only hits with a supplemental data ID are delayed.
 * For current data on conversion metrics, finalized data, and data feeds, all hits are delayed an additional 5-7 minutes.
 
 Be aware that the latency increase starts after you implement the Identity Service, even if you have not fully implemented this integration.

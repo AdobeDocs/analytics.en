@@ -5,7 +5,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 ---
-# Reports & Analytics metrics overview
+# Metrics overview
 
 {{ra-eol}}
 

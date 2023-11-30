@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 ---
-# Reports Menu{#reports-menu}
+# Reports menu{#reports-menu}
 
 {{ra-eol}}
 

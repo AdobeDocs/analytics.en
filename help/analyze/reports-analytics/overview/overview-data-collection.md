@@ -7,9 +7,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 ---
-# About Data Collection
-
-{{ra-eol}}
+# About data collection
 
 Learn about how data is collected for Adobe Analytics.
 

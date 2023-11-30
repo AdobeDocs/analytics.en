@@ -38,6 +38,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
+  + Reports {#reports}  
+    + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
+    + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)
@@ -301,7 +304,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [About Data Collection](reports-analytics/overview/overview-data-collection.md)
     + [Reports Menu](reports-analytics/overview/reports-menu.md)
     + [Report Features](reports-analytics/overview/report-overview.md)
-    + [Common Terms](reports-analytics/overview/overview-common-terms.md)
   + [Report display settings and navigation](reports-analytics/report-settings.md)
   + [Report schedule and distribution](reports-analytics/scheduling.md)
   + [End-of-life notice for scheduled reports](reports-analytics/scheduled-reports-eol.md)

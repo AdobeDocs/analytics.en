@@ -1,11 +1,43 @@
 ---
-description: Use Contribution Analysis to identify statistical anomalies and correlations in data.
-title: Contribution Analysis overview
-role: User, Admin
-exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
+description: You can view and analyze data anomalies contextually, within Analysis Workspace.
+title: Anomaly Detection overview
 feature: Anomaly Detection
+role: User, Admin
+exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 ---
-# Contribution Analysis overview
+# Anomaly Detection overview
+
+You can view and analyze data anomalies contextually within Analysis Workspace. Contribution Analysis works in conjunction with Anomaly Detection to help identify what contributed to the anomaly. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!IMPORTANT]
+>
+>Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. For more information, see [Anomaly Detection and Contribution Analysis Entitlements](#anomaly-detection-and-contribution-analysis-entitlements).
+
+## Anomaly Detection
+
+Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data.
+
+Anomaly Detection allows you to separate "true signals" from "noise" and then identify potential factors that contributed to those signals or anomalies. In other words, it lets you identify which statistical fluctuations matter and which don't. You can then identify the root cause of a true anomaly. Furthermore, you can get reliable metric (KPI) forecasts.
+
+Examples of anomalies you might investigate include:
+
+* Drastic drops in average order value
+* Spikes in orders with low revenue
+* Spikes or drops in trial registrations
+* Drops in landing page views
+* Spikes in video buffer events
+* Spikes in low video bit-rates
+
+Both Anomaly Detection and [Contribution Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) are core workflows in Analysis Workspace. You can run Contribution Analysis against any daily anomaly and embed the result in your Analysis Workspace project.
+
+Analysis Workspace's anomaly detection algorithm includes
+
+* Support for hourly, weekly, and monthly granularity, in addition to the existing daily granularity.
+* Awareness of seasonality (such as "Black Friday") and holidays.
+
+## Contribution Analysis
 
 Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments.
 
@@ -15,7 +47,7 @@ Something happened. Why? Your Anomaly Detection report shows an unusual spike in
 
 Contribution Analysis helps you evaluate your data immediately to answer why an anomaly happened. It breaks down the contributions to an anomaly in seconds in what used to take weeks, providing patterns for audience segments and helping you develop a narrative for customer interactions. You can employ Contribution Analysis strategically to identify and capture meaningful associations to develop new audience segments, or use it tactically to identify out-of-bound or fraudulent activity that triggers an alert.
 
-[Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifies data spikes and extreme statistical dips based on selected metrics and selected audience segments. It sets an historical norm based on a training period and then plots extreme offsets that correlate to specific events. It can report a precipitous rise in a positive Orders metric or a rise in a negative Bounces metric, or dips in both, capturing statistically relevant data points to be evaluated by Contribution Analysis. Once a statistical anomaly is identified, Contribution Analysis lets you drill down and evaluate relevant marketing and campaign variables across all anomalous data points. It runs advanced algorithms and machine-learning processes to evaluate associations that contributed to a significant spike or dip. These calculations are then displayed in interactive visualizations designed to give you varying perspectives to help answer why something happened, and what to do about it.
+[Anomaly Detection](#anomaly-detection) identifies data spikes and extreme statistical dips based on selected metrics and selected audience segments. It sets an historical norm based on a training period and then plots extreme offsets that correlate to specific events. It can report a precipitous rise in a positive Orders metric or a rise in a negative Bounces metric, or dips in both, capturing statistically relevant data points to be evaluated by Contribution Analysis. Once a statistical anomaly is identified, Contribution Analysis lets you drill down and evaluate relevant marketing and campaign variables across all anomalous data points. It runs advanced algorithms and machine-learning processes to evaluate associations that contributed to a significant spike or dip. These calculations are then displayed in interactive visualizations designed to give you varying perspectives to help answer why something happened, and what to do about it.
 
 Contribution Analysis helps you develop a narrative to describe why an anomaly occurred and how to respond to it, capturing relevant metrics and identifying hidden points that give you an overall reason for audience interactions and trending customer interests. Sometimes an anomaly is easy to see and correct, such as an errant order for 2,000 kayaks. Sometimes it's complex, like identifying an emerging trend across a time period in a region reacting only to a specific targeted campaign. Piecing together contributing items across metrics for various dimensions and their associations gives you an overall idea of your audience interactions and helps provide context for anomalous data points.
 

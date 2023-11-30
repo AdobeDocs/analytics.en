@@ -66,8 +66,8 @@ New features released on June 18, 2020.
 
 | Feature | Description |
 |--- |--- |
-|Attribution IQ: Algorithmic Attribution|The Algorithmic Attribution model in Analysis Workspace uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. Available to Adobe Analytics Ultimate customers. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html)|
-|Attribution IQ: Custom lookback windows|You can now configure any attribution model in Attribution IQ to include touchpoints from up to 90 days before the reporting time period. This will typically increase the attribution accuracy for events that happen early in the reporting period by accounting for interactions that occurred in the prior month(s). Available to Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete, and Ultimate customers. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)|
+|Attribution: Algorithmic Attribution|The Algorithmic Attribution model in Analysis Workspace uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. Available to Adobe Analytics Ultimate customers. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html)|
+|Attribution: Custom lookback windows|You can now configure any attribution model in Attribution to include touchpoints from up to 90 days before the reporting time period. This will typically increase the attribution accuracy for events that happen early in the reporting period by accounting for interactions that occurred in the prior month(s). Available to Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete, and Ultimate customers. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)|
 |Project roles for shared Workspace projects|When sharing a Workspace project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
 |View-only Workspace projects|Workspace projects can be shared to users as "Can view" only. When a View recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)|
 |Ability to co-edit Workspace projects|Recipients added to the "Can edit" role can save over a project that has been shared to them. This extends to both admins and non-admins. [Learn more...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)|
@@ -181,7 +181,7 @@ New features and enhancements released on January 17, 2019.
 |--- |--- |
 |[Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul>|
 |[View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)|This new setting lets you see more data on a single screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. Accessible via Project > Project Info & Settings.|
-|[Support for multi-valued variables in Attribution IQ](attribution/overview.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution IQ to any of these types of variables at the hit level.|
+|[Support for multi-valued variables in Attribution](/help/analyze/analysis-workspace/attribution/overview.md)|Some dimensions in Analytics can contain multiple values on a single hit, such as listVars, the product variable, list props, or merchandising eVars. Analysis Workspace lets you apply Attribution to any of these types of variables at the hit level.|
 |Performance improvements|Speed improvements to breakdown visualizations - projects with lots of breakdowns will load faster.|
 
 ## November 2018
@@ -264,8 +264,8 @@ New features and enhancements released on July 19, 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Attribution IQ lets you perform more sophisticated and intelligent analysis on marketing performance. New attribution models can be used on metrics in Analysis Workspace (on any table or on any breakdown) and in calculated metrics. A new Attribution Panel allows for better visualization and comparison. </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution </a> </b> </p> </td>
+   <td colname="col2"> <p>Attribution lets you perform more sophisticated and intelligent analysis on marketing performance. New attribution models can be used on metrics in Analysis Workspace (on any table or on any breakdown) and in calculated metrics. A new Attribution Panel allows for better visualization and comparison. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Improvements to the Left Rail </b> </p> </td>
@@ -342,7 +342,7 @@ New features and enhancements released on May 10, 2018.
    <td colname="col2"> <p>You can now scroll up and down while dragging components to a new location. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>Additional information on <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalies </a></b> </p> </td>
+   <td colname="col1"> <p><b>Additional information on <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > anomalies </a></b> </p> </td>
    <td colname="col2"> <p>When hovering over an anomaly in a line chart, the information now shows the date and the raw value of the anomaly. </p> </td>
   </tr>
  </tbody>
@@ -373,7 +373,7 @@ New features and enhancements released on April 12, 2018.
    <td colname="col2"> <p>A new visualization setting on area stacked/bar stacked/horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization, so you can gauge relative proportions. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomaly Detection and Contribution Analysis </a> now available only via Analysis Workspace </p> </td>
    <td colname="col2"> <p>Anomaly Detection and Contribution Analysis have been removed from the Reports &amp; Analytics feature set and are now available only via Analysis Workspace. </p> <p>Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace. </p> </td>
   </tr>
  </tbody>
@@ -604,7 +604,7 @@ New features released on October 26, 2017.
     </ul> <p>For example, if "Hour of Day" is dropped into a table, it will be sorted from 12AM-11PM. You still have the option to sort by any metric column. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Option to allow confidence interval from re-scaling a chart </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > Option to allow confidence interval from re-scaling a chart </a> </p> </td>
    <td colname="col2"> <p>The Anomaly Detection Confidence interval does not automatically scale the y-axis of a visualization to potentially make the chart more legible. </p> <p>You now have the option to allow the confidence interval to scale the chart. </p> </td>
   </tr>
   <tr>
@@ -665,7 +665,7 @@ New features released on September 21, 2017.
    <td colname="col1"> <p> <span class="uicontrol"> Clear All </span>button for Segment Comparison and Contribution Analysis configuration </p> </td>
    <td colname="col2"> <p>Rather than manually deleting each element, you can now Clear All elements in the following Workspace areas: </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Contribution Analysis Excluded Components </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Contribution Analysis Excluded Components </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> Segment Comparison Excluded Components </a> </li>
     </ul> </td>
   </tr>
@@ -748,7 +748,7 @@ New features released on July 20, 2017.
    <td colname="col2"> <p>We've redeveloped how data sources (powering the visualizations) are managed. There are no longer separate, hidden tables when you lock your data source to a table. </p> <p>Instead, we will keep the visual tied to the table you created it from. This will also resolve a bug with live-linked tables, where you change the granularity and then it reverts to the old granularity on the next project load. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Ability to highlight a specific anomaly </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > Ability to highlight a specific anomaly </a></b> </p> </td>
    <td colname="col2"> <p>We now highlight the anomaly with a blue dot within contribution analysis and the intelligent alert projects linked to it. This provides a clearer indication of the anomaly being analyzed. </p> </td>
   </tr>
   <tr>
@@ -980,7 +980,7 @@ New features released on October 20, 2016:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Anomaly Detection and Contribution Analysis </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > Anomaly Detection and Contribution Analysis </a></b> </td>
    <td colname="col2"> <p>Lets you know if a change in trended data is significant, and what caused it. </p> <p>Both Anomaly Detection and Contribution Analysis are now core workflows in Analysis Workspace. </p> <p>Important:  Contribution Analysis is available only to Adobe Analytics Premium customers. </p> <p>You can: </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">Automatically detect statistically significant data anomalies in your data. </li>

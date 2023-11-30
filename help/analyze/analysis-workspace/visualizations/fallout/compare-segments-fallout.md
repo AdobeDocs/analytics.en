@@ -42,7 +42,7 @@ Or you can create an AND touchpoint by dragging the US users segment onto anothe
 
 ## Compare segments in fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-You can compare an unlimited number of segments in the Fallout visualization.
+You can compare an unlimited number of segments in the Fallout visualization. (Note that the video below states that you can compare up to 3 segments, which is wrong.)
 
 Here is a video on comparing segments in fallout:
 

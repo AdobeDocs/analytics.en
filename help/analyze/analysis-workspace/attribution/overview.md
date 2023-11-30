@@ -14,11 +14,11 @@ Attribution gives analysts the ability to customize how dimension items get cred
 
 In some reports, you might want the order attributed to Paid search. In other reports, you might want the order attributed to Social. Attribution lets you control this aspect of reporting. It is available to all organizations on Adobe Analytics Ultimate, Prime, Select and Foundation. If you are not sure which type of contract you have with Adobe, contact your organization's Adobe Account Team.
 
-## Value of Attribution IQ
+## Value of Attribution
 
 A given customer journey isn't linear and often unpredictable. Each customer proceeds at their own pace; often they double back, stall, restart, or engage in other non-linear behavior. These organic actions make it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together.
 
-![Attribution IQ problem](assets/attribution_iq_problem.png)
+![Attribution problem](assets/attribution_iq_problem.png)
 
 Adobe Analytics enhances attribution by letting you:
 
@@ -33,7 +33,7 @@ Adobe Analytics enhances attribution by letting you:
 
 ## Features
 
-Attribution IQ comprises the following features:
+Attribution comprises the following features:
 
 * [Attribution panel](../c-panels/attribution.md): Take any dimension and metric, and quickly compare it with different attribution models.
 * [Apply attribution to a metric](../visualizations/freeform-table/column-row-settings/column-settings.md): Use a non-default attribution on any metric in a project.
@@ -42,22 +42,22 @@ Attribution IQ comprises the following features:
 
 ## Videos
 
-Attribution IQ in Freeform tables:
+Attribution in Freeform tables:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution IQ in calculated metrics
+Attribution in calculated metrics
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Using the Attribution IQ panel:
+Using the Attribution panel:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Adding side-by-side comparisons of Attribution IQ models:
+Adding side-by-side comparisons of Attribution models:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Adobe Analytics tools that do not support Attribution IQ
+## Adobe Analytics tools that do not support Attribution
 
-Any tools that do not support the Analytics 2.0 API, such as Report Builder, do not support Attribution IQ.
+Any tools that do not support the Analytics 2.0 API, such as Report Builder, do not support Attribution.

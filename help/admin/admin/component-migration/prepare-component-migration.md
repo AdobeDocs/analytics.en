@@ -45,7 +45,7 @@ Before your projects and their associated components are ready to migrate, you f
 
 ## Understand what is included in a migration
 
-The following tables outlines which elements of a project and component are included in a migration:
+The following tables outline which elements of a project and component are included in a migration:
 
 ### Component elements that are migrated
 

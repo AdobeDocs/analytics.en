@@ -19,6 +19,10 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **December 2023** | |
+| New Reports section | Added a new Reports section that includes information about [using pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md) and [creating and managing company reports](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Updates to Anomaly Detection and Contribution Analysis documentation | The documentation for Anomaly Detection and Contribution Analysis was previously located in a section about Virtual Analyst. The following changes were made: <ul><li>The term Virtual Analyst was removed from the documentation.</li><li>The section about [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) was moved directly beneath the Analysis Workspace section.</li><li>The Contribution Analysis documentation was merged into the Anomaly Detection documentation.</li></ul> |
+| "Attribution IQ " changed to "Attribution" | Changed all instances of "Attribution IQ" to "[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)" throughout the documentation. |
 | **November 2023** | |
 | Updates to Activity Map activation/enablement topic | Added [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (both manual and via Adobe Experience Platform tags extension) content. |
 | **October 2023** | |

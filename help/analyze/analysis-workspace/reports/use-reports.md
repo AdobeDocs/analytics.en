@@ -3,6 +3,7 @@ description: An overview of how to use default reports in Analysis Workspace.
 title: Use reports
 feature: Analysis Workspace
 role: User, Admin
+exl-id: 0d43fa5e-9167-4af7-891d-e49b0249bca2
 ---
 # Use pre-built reports
 

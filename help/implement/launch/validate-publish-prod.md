@@ -16,7 +16,7 @@ Once your tag library is pushed to production, your organization can begin to us
 
 The Experience Cloud debugger is an extension that shows all Experience Cloud tags present on a page.
 
-1. Install the extension for either [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/).
+1. Install the extension for either [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) or Firefox.
 2. Navigate to your development website that you have implemented tags on.
 3. Click on the Adobe Experience Cloud debugger icon in your browser.
 4. If everything is properly implemented, you should see content inside Adobe Analytics, tags, and the Adobe Experience Cloud Visitor ID service.

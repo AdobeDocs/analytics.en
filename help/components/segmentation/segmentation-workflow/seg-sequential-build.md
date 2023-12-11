@@ -204,7 +204,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 If the exclude checkpoint is at the beginning of a sequential segment, then it ensures that an excluded page view did not occur before the first non-excluded hit.
 
-For example, A restaurant wants to see inveterate users who avoid the main landing page and go directly to the Order Out page. This example can be simplified to a visitor avoiding visiting page A and going straight to page B.
+For example, A restaurant wants to see users who tend to avoid the main landing page and go directly to the Order Out page. You can view this data by excluding hits to the landing page and including hits to the Order Out page in a sequential segment.
 
 **Create this segment**
 

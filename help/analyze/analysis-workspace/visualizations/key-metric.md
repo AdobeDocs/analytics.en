@@ -29,30 +29,37 @@ This visualization addresses a variety of common use cases, including:
 
 1. Drag the **[!UICONTROL Key metric summary]** visualization from the **[!UICONTROL Visualizations]** menu in the left rail into a panel.
 
-1. Configure the visualization by selecting a metric, a primary date range, and a comparison date range and a segment (if desired):
-
    ![](assets/key-metric-config.png)
+
+1. Configure the visualization with the following options:
 
    | Configuration setting | Definition |
    | --- | --- |
    | **[!UICONTROL Metric]** | Select the metric you want to examine. All metrics are supported. |
-   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.  |
-   | **[!UICONTROL Comparison date range]** | The date range to which you want to compare the primary date range. |
+   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your report suite.<!-- data view in CJA --></p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p> |
+   | **[!UICONTROL Comparison date range]** | The date range that you want to compare with the primary date range. |
    | **[!UICONTROL Segment (optional)]** | Any segment that you are specifically interested in for this summary.  |
 
    {style="table-layout:auto"}
 
-1. Click **[!UICONTROL Build]**.
+   >[!NOTE]
+   >
+   >When the [!UICONTROL **Primary date range**] field is set to [!UICONTROL **Panel date range**], the **[!UICONTROL Comparison date range]** can automatically update, depending on whether the **[!UICONTROL Comparison date range]** option you choose is relative to the primary date range or fixed.
+   >
+   >* **Relative:** If the **[!UICONTROL Comparison date range]** field is set to an option that is relative to the primary date range (such [!UICONTROL **Previous day**], [!UICONTROL **Same day last week**], [!UICONTROL **Same day 4 weeks prior**], and so forth), then any updates to the [!UICONTROL **Primary date range**] field cause the **[!UICONTROL Comparison date range]** to automatically update to the period that immediately follows the date range of the panel.
+   >* **Fixed:** If the [!UICONTROL **Comparison date range**] field is set to a fixed date range (such as **February 3rd, 2023**), then changes made to the [!UICONTROL **Primary date range**] field or the panel date range have no effect on the [!UICONTROL **Comparison date range**]. However, any updates to the panel date range cause the [!UICONTROL **Primary date range**] to automatically update.
+
+1. Select **[!UICONTROL Build]**.
 
 ## View the output
 
 ![](assets/key-metric-output.png)
 
-Please note:
+Consider the following when viewing the output:
 
 * The **[!UICONTROL Previous period]** line graph (always displayed in grey) corresponds to the **[!UICONTROL Comparison date range]** in the configuration step.
 
-* If a comparison date range is not specified during configuration or is hidden in the visualization settings, only the line graph for the primary date range is displayed. The summary change will be hidden. 
+* If a comparison date range is not specified during configuration or is hidden in the visualization settings, only the line graph for the primary date range is displayed. The summary change will be hidden.
 
 * From here, you can hover over the line graphs to see the statistics for individual days:
 

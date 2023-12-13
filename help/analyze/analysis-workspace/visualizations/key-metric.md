@@ -36,7 +36,7 @@ This visualization addresses a variety of common use cases, including:
    | Configuration setting | Definition |
    | --- | --- |
    | **[!UICONTROL Metric]** | Select the metric you want to examine. All metrics are supported. |
-   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your report suite.<!-- data view in CJA --></p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p> |
+   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your report suite.</p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p> |
    | **[!UICONTROL Comparison date range]** | The date range that you want to compare with the primary date range. |
    | **[!UICONTROL Segment (optional)]** | Any segment that you are specifically interested in for this summary.  |
 

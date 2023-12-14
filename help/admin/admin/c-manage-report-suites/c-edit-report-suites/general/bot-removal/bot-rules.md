@@ -109,7 +109,7 @@ To bulk import bot rules, you can upload a CSV file that defines the rules.
 
 1. Create a CSV file with the following columns, on row 1 of the spreadsheet and in the order presented: 
 
-   | Column 1, Row 1 | Column 2, Row 1 |Column 3, Row 1|Column 4, Row 1|Column 5, Row 1|Column 6, Row 1
+   | Column 1, Row 1 | Column 2, Row 1 |Column 3, Row 1|Column 4, Row 1|Column 5, Row 1|Column 6, Row 1 |
    |--- |--- |---|---|---|---|
    |Bot Name|IP Begin|IP End|Rule<br>(contains or starts with)</br>|User Agent Include|User Agent Exclude<br>(255-character limit)</br>|
 

@@ -132,7 +132,7 @@ To bulk import bot rules, you can upload a CSV file that defines the rules.
 
    * **IP range match**: Define a range of IP addresses using the IP Start and IP End columns. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. Match Rule, Agent Include, and Agent Exclude must be empty.
 
-1. On the Bot Rules page in Report Suite Manager, next to the **Select CSV Bot file to import**] area, select [!UICONTROL **Choose File**], then select the CSV file that defines the bot rules that you want to import. 
+1. On the Bot Rules page in Report Suite Manager, next to the [!UICONTROL **Select CSV Bot file to import**] area, select [!UICONTROL **Choose File**], then select the CSV file that defines the bot rules that you want to import. 
 
 1. (Optional) Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 

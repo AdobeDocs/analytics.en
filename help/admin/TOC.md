@@ -65,7 +65,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Processing rules tips and tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
         + Bot Rules {#bot-removal}
           + [Bot removal](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-          + [Bot rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+          + [Understand and configure bot rules](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
           + [Common bot signatures](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
           + [Bot exclusion methods](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
         + [Privacy Settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)

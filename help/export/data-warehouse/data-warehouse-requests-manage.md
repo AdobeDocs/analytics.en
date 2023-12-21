@@ -7,13 +7,6 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 ---
 # Manage Data Warehouse requests
 
-{{release-limited-testing}}
-
->[!NOTE]
->
->If your organization does not yet have the new Data Warehouse experience, which will be available soon for all customers, use the information in [Manage Data Warehouse requests (old experience)](#manage-data-warehouse-requests-old-experience) at the bottom of this page.
-
-
 You can view and manage Data Warehouse requests that you have made. Only administrators can view and manage requests made by other users in their organization. 
 
 The following sections describe activities you can perform when managing requests. 
@@ -173,31 +166,3 @@ You can configure what information is displayed for each request by adding or re
 1. In the search field at the top of the Data Warehouse page, specify the request name that you want to view. 
 
    Requests are filtered as you type.
-
-## Manage Data Warehouse requests (old experience)
-
->[!NOTE]
->
->The following information applies only if your organization does not yet have the new Data Warehouse experience, which will be available soon for all Analytics customers.
-
-
-The Request Manager lets you view, duplicate, and re-prioritize requests.
-
-In Data Warehouse, select the **[!UICONTROL Request Manager]** tab.
-
-Working in this tab lets you
-
-* View recent report requests by report name, segment applied, requestor, request date and status.
-* Duplicate requests. Click **[!UICONTROL Duplicate]** next to the request.
-
-  >[!NOTE]
-  >
-  >This action duplicates only the request, not the schedule or the delivery details.
-
-* Search for reports by report name or by the login name of the requestor.
-* Re-prioritize reports by dragging and dropping them to a new location within the queue.
-* To see when a request started processing, click on a scheduled request ID and examine the pop-up that opens.
-
-Click on a job to see individual requests for that job.
-
-* Rate Limited: Your organization has too many Data Warehouse requests running. The request is paused until other data requests complete.

@@ -6,14 +6,6 @@ exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 ---
 # Configure a notification email for a Data Warehouse request
 
->[!AVAILABILITY]
->
->Some of the Data Warehouse features described in this article (and other Data Warehouse articles in this section) are available only in the Limited Testing phase of release and might not be available yet in your environment. 
->
->For information about which features are not yet available for all customers, as well as for information about the release timeline of these features, see the [release notes](/help/release-notes/latest.md).
->
->This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
-
 There are various configuration options available when creating a Data Warehouse request. The following information describes how to configure a notification email for the request.
 
 For information about how to begin creating a request, as well as links to other important configuration options, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md). 

@@ -10,7 +10,7 @@ The 'Page events' [metric](overview.md) shows the number of times any link track
 
 ## How this metric is calculated
 
-This metric counts all [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) in a report suite. All link types are included (custom links, download links, and exit links). It does not include [Page view tracking calls (`t()`)](/help/implement/vars/functions/t-method.md).
+This metric counts all [Link tracking calls (`tl()`)](/help/implement/vars/functions/tl-method.md) in a report suite. All link types are included in this metric, specifically [Custom links](../dimensions/custom-link.md), [Download links](../dimensions/download-link.md), and [Exit links](../dimensions/exit-link.md). It does not include [Page view tracking calls (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Compare to similar metrics
 

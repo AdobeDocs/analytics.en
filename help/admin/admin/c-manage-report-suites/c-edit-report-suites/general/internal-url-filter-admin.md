@@ -10,28 +10,17 @@ exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 
 Internal URL filters allow you to identify the referrers that you consider internal to your site. They help traffic sources reports populate data and help filter internal traffic.
 
-A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Reports exclude filtered referrers from the [Referrers](/help/components/dimensions/referrer.md) dimension, the [Referring domains](/help/components/dimensions/referring-domain.md) dimension, and other traffic source dimensions.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**
 
-## View existing internal URL filters
+A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Dimensions that rely on internal URL filters include [Referrer](/help/components/dimensions/referrer.md), [Referring domain](/help/components/dimensions/referring-domain.md), [Marketing channels](/help/components/dimensions/marketing-channel.md), and other traffic source dimensions.
 
->[!NOTE]
+[Marketing channel processing rules](../marketing-channels/c-rules.md) provide "[!UICONTROL Matches internal URL filters]" as possible rule criteria.
+
+>[!IMPORTANT]
 >
->Some report suites have an internal URL filter of a period (.) configured by default. When this filter exists, all traffic is classified as internal. Referrer reports do not work until the period (.) filter is removed. 
+>Some report suites have an internal URL filter of a period (`.`) configured by default. When this filter exists, all traffic is classified as internal. Referrer reports do not work until this filter is removed and replaced with one or more desired internal domains.
 
-To check which internal URL filters are configured for a report suite: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
+* View all existing filters under the **[!UICONTROL Current Filters]** section.
+* Add a filter using the text box under the **[!UICONTROL Add Filter]** section, then click **[!UICONTROL Add]**.
 
-1. Select **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to access the Report Suite Manager.
-
-1. Select the report suite where you want to check which internal URL filters are configured, then select **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
-
-   All existing filters are listed in the [!UICONTROL **Current Filters**] section.
-
-## Add an internal URL filter to a report suite
-
-1. Select **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** to access the Report Suite Manager.
-
-1. Select the report suite where you want to add an internal URL filter, then select **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Internal URL Filters]**.
-
-1. In the Add Filter section, in the provided field, begin typing the URL of the page that you want to filter, then select [!UICONTROL **Add**].
-
-   The URL that you added is now visible in the [!UICONTROL **Current Filters**] section.
+Filters operate using **contains** logic against the full URL. Adobe recommends omitting protocol (`https://`) and subdomains when creating filters, unless traffic from separate subdomains is desired as external traffic.

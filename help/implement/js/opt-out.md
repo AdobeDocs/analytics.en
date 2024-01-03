@@ -6,15 +6,15 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 ---
 # Implement opt-out links
 
-*This help page provides Adobe Analytics customers with the ability to provide their users with opt-out links. If you are not an Adobe Analytics customer, see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.*
-
 >[!IMPORTANT]
 >
->Adobe recommends using the opt-in service, especially for organizations concerned with GDPR regulations. See [Opt-in service overview](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) in the Experience Cloud Identity Service user guide.
+> **This help page provides Adobe Analytics customers with the ability to provide their users with opt-out links. If you are not an Adobe Analytics customer, see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.**
 
-Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being collected. All implementation types are accommodated; your organization is responsible for your own privacy policy and for remaining in compliance with your signed terms.
+Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being analyzed.
 
-When a visitor reaches an opt-out URL, they are prompted to install an opt-out cookie. If a user chooses not to be tracked and an opt-out cookie is set, your JavaScript file continues to send data to Adobe servers. However, that data is not processed or included in reports.
+Opt-out links are a way that you can allow visitors to your website to omit their data from Analytics reporting. These links are limited to AppMeasurement implementations; Adobe recommends using the [Adobe Experience Cloud Opt-in service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) instead. The Opt-in service is more robust and works across multiple Adobe Experience Cloud products, including Adobe Analytics and AppMeasurement.
+
+When a visitor reaches an opt-out URL, they are prompted to install an opt-out cookie. If a user chooses not to be tracked and an opt-out cookie is set, AppMeasurement continues to send data to Adobe. However, that data is not processed or included in reports.
 
 >[!TIP]
 >
@@ -52,34 +52,30 @@ There are settings that you can automatically load onto this page by using query
 
 Automatically switch the language of the opt-out page by including the `locale` query string parameter. Assign this query string parameter one of the following values:
 
-* en_US (English, default)
-* bg_BG (Bulgarian)
-* zh_CN (Simplified Chinese)
-* zh_TW (Traditional Chinese)
-* cs_CZ (Czech)
-* da_NK (Danish)
-* nl_NL (Dutch)
-* et_EE (Estonian)
-* fi_FI (Finnish)
-* fr_FR (French)
-* de_DE (German)
-* el_GR (Greek)
-* it_IT (Italian)
-* jp_JP (Japanese)
-* ko_KR (Korean)
-* lv_LV (Latvian)
-* lt_LT (Lithuanian)
-* nb_NO (Norwegian)
-* pl_PL (Polish)
-* pt_BR (Portuguese)
-* sk_SK (Slovak)
-* es_ES (Spanish)
+* `en_US` (English, default)
+* `bg_BG` (Bulgarian)
+* `zh_CN` (Simplified Chinese)
+* `zh_TW` (Traditional Chinese)
+* `cs_CZ` (Czech)
+* `da_NK` (Danish)
+* `nl_NL` (Dutch)
+* `et_EE` (Estonian)
+* `fi_FI` (Finnish)
+* `fr_FR` (French)
+* `de_DE` (German)
+* `el_GR` (Greek)
+* `it_IT` (Italian)
+* `jp_JP` (Japanese)
+* `ko_KR` (Korean)
+* `lv_LV` (Latvian)
+* `lt_LT` (Lithuanian)
+* `nb_NO` (Norwegian)
+* `pl_PL` (Polish)
+* `pt_BR` (Portuguese)
+* `sk_SK` (Slovak)
+* `es_ES` (Spanish)
 
 For example, `https://example.data.adobedc.net/optout.html?locale=ko_KR` loads the opt-out page in Korean.
-
->[!TIP]
->
->The `en_US` query string value is not required, as the page loads in English by default.
 
 ### Popup
 

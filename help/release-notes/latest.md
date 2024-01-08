@@ -4,18 +4,17 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (October/November 2023)
+# Current Adobe Analytics release notes (January 2024)
 
 **Last update**: January 8, 2024
 
-These release notes cover the release period of October 23, 2023 to mid January, 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of January 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Reporting Activity Manager enhancements** | The Reporting Activity Manager lets you see the reporting capacity for each report suite in your organization.  It provides administrators with detailed visibility into reporting consumption in order to easily diagnose and fix capacity issues during peak reporting times. Following are some of the enhancements now available in the Reporting Activity Manager: <ul><li>Restrict subsequent requests: In addition to canceling current requests, administrators can now restrict requests for a defined time period. Administrators can restrict requests by Request, Project, and User.</li><li>In addition to Utilization and Capacity metrics, the Reporting Activity Manager now includes more data about reporting activity: Complexity column, User column, and Connection column.</li><li>All cancelations and restrictions made in the Reporting Activity manager are now visible in the Audit Log. Administrators can use the Audit Log to view what is currently canceled. Cancelations cannot be reversed in the Reporting Activity Manager or in the Audit Log.</li></ul><p>For more information, see [Reporting Activity Manager overview](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | October 17, 2023 | October 24, 2023|
-| **Data Warehouse improvements** | When creating a Data Warehouse request, you can now configure a cloud account to use as the report destination. The following cloud account types are available for sending data:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (this option was previously available)</li></ul>FTP, SFTP, Azure Blob, and S3 are still available as report destinations, but are no longer recommended.<p>The user experience when creating and managing Data Warehouse requests has also been improved. For more information, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md) and [Manage Data Warehouse requests](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html). | September 12, 2023 | December 15, 2023 |
+| **Data Warehouse updates** | The following Data Warehouse improvements are now available:<ul><li>When creating a Data Warehouse request, users can now make requests available to all users in the organization by enabling the new toggle called [!UICONTROL **Make available to users in your organization**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>When creating or managing Data Warehouse report destinations, system administrators can now show accounts and locations that were created by users in the organization by enabling the toggle called [!UICONTROL **Show all destinations**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N/A | January 10, 2024 |
 
 {style="table-layout:auto"}
 

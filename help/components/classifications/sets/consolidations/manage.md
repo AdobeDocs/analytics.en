@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification set consolidations manager
 
-If you have multiple classification sets that contain similar data, you can consolidate them into a single classification set. When you consolidate two or more classification sets, Adobe generates a new classification set that contains all classification data from each individual classification set. Consolidations are useful when you have uploaded data to many report suites or dimensions that contain the same classification data and would like to merge them into a single workflow.
+If you have multiple classification sets that contain similar data, you can consolidate them into a single classification set. When you consolidate two or more classification sets, Adobe generates a new classification set that contains all classification data from each individual classification set. Consolidations are useful when you have uploaded data to many report suites or dimensions that contain the same classification data and would like to merge them into a single workflow. You must have product admin access for Adobe Analytics to see the Classification set consolidation manager.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
 

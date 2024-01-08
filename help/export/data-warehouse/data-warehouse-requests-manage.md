@@ -147,7 +147,7 @@ You can configure what information is displayed for each request by adding or re
    | Report suite | The report suite associated with the request. | 
    | Requested by | The user who created the request. | 
    | Request date | The date the request was made. |
-   | Status | The following statuses are available:<ul><li><p>**Completed**: The request ran successfully.</p></li><li><p>**Canceled**: The request was canceled by the user.</p></li><li><p>**Scheduled**: The request is configured to run on a schedule.</p></li><!-- Are there other statuses? Failed? --> |
+   | Status | The following statuses are available:<ul><li><p>**Completed**: The request ran successfully.</p></li><li><p>**Canceled**: The request was canceled by the user.</p></li><li><p>**Scheduled**: The request is configured to run on a schedule.</p></li><li><p>**Failed**: The request failed to complete. If the request continues to fail, contact Customer Support.</p></li></ul> |
 
    {style="table-layout:auto"}
 

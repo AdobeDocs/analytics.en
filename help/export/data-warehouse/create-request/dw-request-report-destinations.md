@@ -34,7 +34,7 @@ To configure the destination where Data Warehouse reports are sent:
 
 1. (Conditional) If an account (and a destination on that account) has already been configured that you want to use as your report destination:
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
    
    1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 

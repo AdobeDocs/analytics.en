@@ -6,15 +6,17 @@ exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 ---
 # Adobe plug-in: getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
-The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
+<!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
->NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production
+>NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production.
 
 ## Install the plug-in using the Web SDK or Web SDK extension
 
-This plug-in is not yet supported for use within the Web SDK.
+This plug-in is supported for use within the Web SDK.
 
 ## Install the plug-in using the Adobe Analytics extension
 
@@ -90,7 +92,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (December 6, 2022)
 
-* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK.
 * Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
 * Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
 * Includes the getVersion function to help with troubleshooting
@@ -105,4 +107,4 @@ if(window._pltPreviousPage)
 
 ### 1.0 (May 22, 2018)
 
-* Initial release.
+* Initial release.-->

@@ -76,6 +76,8 @@ Use the input settings described in this section to configure the Media average 
 
 1. Select [!UICONTROL **Build**] to finish creating the Media average minute audience panel.
 
+1. Continue with [Panel output](#panel-output) for information about how to use the Media average minute audience panel.
+
 ### Custom time period
 
 1. If you selected [!UICONTROL **Custom time period**] in the [!UICONTROL **Calculate metric for**] drop-down menu when [configuring panel inputs](#panel-inputs), specify the following configuration options:
@@ -96,6 +98,8 @@ Use the input settings described in this section to configure the Media average 
    | Table settings | The default setting displays the calculation values in the table, which displays the numerator and denominator of the average minute audience as the preceding columns in the table. Deselecting this option removes those two columns leaving only the average minute audience next to the time period. |
 
 1. Select [!UICONTROL **Build**] to finish creating the Media average minute audience panel.
+
+1. Continue with [Panel output](#panel-output) for information about how to use the Media average minute audience panel.
 
 ## Panel output
 
@@ -123,7 +127,7 @@ The only metric that can be used in this panel is Average Minute Audience metric
 |--------|-------------|
 | Average Minute Audience | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-## Custom time period {#custom-time-period-output}
+### Custom time period {#custom-time-period-output}
 
 The Media Average Minute Audience panel returns the total average minute audience for your entire selection, the maximum and minimum average minute audience, and the line series graph showing the average minute audience over the entire selection. The table below shows the filters and average minute audience for the granularities, as well as the content time spent and granularity for each time period if that advanced setting was selected.
 

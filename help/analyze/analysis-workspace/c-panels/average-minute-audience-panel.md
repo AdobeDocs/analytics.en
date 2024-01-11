@@ -24,7 +24,9 @@ The Media average minute audience panel provides the following benefits over the
 
 * Supports custom time periods
 
-* Allows for updating the duration classification after views are processed
+* Allows for updating the duration classification after views are processed (if it was not present or if it needs to be corrected)
+
+  If you did this when using the metric, it either won't exist (if the classification wasn't present) or it will be out of date (if the classification was present but incorrect).
 
 ## Access the Media average minute audience panel
 
@@ -105,23 +107,21 @@ Use the input settings described in this section to configure the Media average 
 
 The panel output differs depending on whether you chose [!UICONTROL **Specific content**] or [!UICONTROL **Custom time period**] in the [!UICONTROL **Calculate metric for**] drop-down menu when [configuring panel inputs](#panel-inputs).
 
-Regardless of which option you chose for calculating the metric
-
 ### Specific content
 
-The Media Average Minute Audience panel returns the following:
+The Media average minute audience panel returns the following:
 
 * Total average minute audience for your entire selection
-* Filters and average minute audience for the individual videos displayed in a table
+* Filters and average minute audience for the individual videos displayed in a table 
 * Content time spent and video length (duration) if that advanced setting was selected
 
-To edit and rebuild the panel at any time, click the Edit (pencil) icon in the top right.
+To edit and rebuild the panel at any time, select the Edit (pencil) icon in the top right.
 
 ![Default view](assets/specific-content-panel-output.png)
 
 ### Specific content data source
 
-The only metric that can be used in this panel is Average Minute Audience metric.
+The Media average minute audience panel uses only the Average Minute Audience metric to gather data. Breakdowns or other metrics cannot be used in the panel.
 
 | Metric | Description |
 |--------|-------------|
@@ -129,20 +129,26 @@ The only metric that can be used in this panel is Average Minute Audience metric
 
 ### Custom time period {#custom-time-period-output}
 
-The Media Average Minute Audience panel returns the total average minute audience for your entire selection, the maximum and minimum average minute audience, and the line series graph showing the average minute audience over the entire selection. The table below shows the filters and average minute audience for the granularities, as well as the content time spent and granularity for each time period if that advanced setting was selected.
+The Media average minute audience panel returns the following:
 
-To edit and rebuild the panel at any time, click the edit pencil on the top right.
+* The total average minute audience for your entire selection
+
+* The maximum and minimum average minute audience
+
+* The line series graph showing the average minute audience over the entire selection.
+
+* A table that shows the filters and average minute audience for the granularities, as well as the content time spent and granularity for each time period 
+
+  This table displays only if the option under advanced settings called [!UICONTROL **Show calculation values in table**] is selected.
+
+To edit and rebuild the panel at any time, select the Edit (pencil) icon in the top right.
 
 ![concurrent viewers output](assets/custom-time-period-panel-output.png)
 
 ### Custom time period data source
 
-The only metric that can be used in this panel is the Average Minute Audience metric:
+The Media average minute audience panel uses only the Average Minute Audience metric to gather data. Breakdowns or other metrics cannot be used in the panel.
 
 |Metric|Description|
 |---|---|
 |Average Minute Audience| The time spent viewing your media stream divided by the total selection or selected granularity in minutes.|
-
-
-
-<!-- For more information about Media Average Minute Audience, visit [MA doc page]( https://url). -->

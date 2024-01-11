@@ -15,7 +15,7 @@ These release notes cover the release period of January 2024 to February 13, 202
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Data Warehouse updates** | The following Data Warehouse improvements are now available:<ul><li>When creating a Data Warehouse request, users can now make requests available to all users in the organization by enabling the new toggle called [!UICONTROL **Make available to users in your organization**].<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>When creating or managing Data Warehouse report destinations, system administrators can now show accounts and locations that were created by users in the organization by enabling the toggle called [!UICONTROL **Show all destinations**].<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/A | January 10, 2024 |
-| Updates to Key Metrics Summary visualization | N/A | January 17, 2024 | When using the Key Metric Summary visualization, the Comparison date range can now automatically update, depending on whether the Comparison date range option you choose is relative to the primary date range or fixed. [Learn more](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
+| **Updates to Key Metrics Summary visualization** | N/A | January 17, 2024 | When using the Key Metric Summary visualization, the Comparison date range can now automatically update, depending on whether the Comparison date range option you choose is relative to the primary date range or fixed. [Learn more](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 
 {style="table-layout:auto"}
 
@@ -31,7 +31,7 @@ TBD
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| `getPageLoadTime` plugin deprecated | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). |
+| `getPageLoadTime` plugin deprecated | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
 
 {style="table-layout:auto"}
 

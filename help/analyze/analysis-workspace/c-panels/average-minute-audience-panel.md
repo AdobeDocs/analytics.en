@@ -123,7 +123,7 @@ The only metric that can be used in this panel is Average Minute Audience metric
 |--------|-------------|
 | Average Minute Audience | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-## Custom Time Period Panel Output {#custom-time-period-output}
+## Custom time period {#custom-time-period-output}
 
 The Media Average Minute Audience panel returns the total average minute audience for your entire selection, the maximum and minimum average minute audience, and the line series graph showing the average minute audience over the entire selection. The table below shows the filters and average minute audience for the granularities, as well as the content time spent and granularity for each time period if that advanced setting was selected.
 
@@ -131,7 +131,7 @@ To edit and rebuild the panel at any time, click the edit pencil on the top righ
 
 ![concurrent viewers output](assets/custom-time-period-panel-output.png)
 
-### Custom Time Period Data Source
+### Custom time period data source
 
 The only metric that can be used in this panel is the Average Minute Audience metric:
 

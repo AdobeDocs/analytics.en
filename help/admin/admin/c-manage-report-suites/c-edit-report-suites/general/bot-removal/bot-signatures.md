@@ -2,6 +2,7 @@
 title: Common bot signatures
 description: Recognize the common identifiers of bots.
 feature: Bot Removal
+role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 ---
 # Common bot signatures

@@ -3,6 +3,7 @@ description: Steps that describe how to copy processing rules from one report su
 subtopic: Processing rules
 title: Copy processing rules to another report suite
 feature: Processing Rules
+role: Admin
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 ---
 # Copy processing rules to another report suite

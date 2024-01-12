@@ -3,6 +3,7 @@ description: Processing rules simplify data collection and manage content as it 
 subtopic: Processing rules
 title: Processing rules overview
 feature: Processing Rules
+role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 ---
 # Processing rules overview

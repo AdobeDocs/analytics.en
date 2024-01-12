@@ -3,6 +3,7 @@ description: Active processing rules are viewed in admin.
 subtopic: Processing rules
 title: View active processing rules
 feature: Processing Rules
+role: Admin
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 ---
 # View active processing rules

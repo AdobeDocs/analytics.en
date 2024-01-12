@@ -15,6 +15,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2024 {#24}
+
+| Feature | Description |
+| --- | --- |
+| **January 2024** | |
+| Updates to Media average minute audience documentation | Updated information in [Media average minute audience panel](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) to improve clarity.<p>Improvements include:</p> <ul><li>Improved organization of information</li><li>Added steps to indicate task-based information</li></ul> |
+
 ### 2023 {#23}
 
 | Feature | Description |

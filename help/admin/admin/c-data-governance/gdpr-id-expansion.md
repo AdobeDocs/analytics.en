@@ -1,7 +1,8 @@
 ---
-description: The IDs you submit do not always cover all of the hit data that Analytics can associate with the Data Subject. Analytics can create an expanded set of IDs to include this associated data into the Data Privacy requests. You can request this option with an optional parameter to each Data Privacy request you submit, added to the JSON request 
+description: The IDs you submit do not always cover all of the hit data that Analytics can associate with the Data Subject. Analytics can create an expanded set of IDs to include this associated data into the Data Privacy requests. 
 title: ID Expansion
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 ---
 # ID Expansion

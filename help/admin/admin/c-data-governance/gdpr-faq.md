@@ -2,6 +2,7 @@
 description: Adobe Analytics data governance FAQ
 title: Frequently asked questions for data governance
 feature: Data Governance
+role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 ---
 # Frequently asked questions

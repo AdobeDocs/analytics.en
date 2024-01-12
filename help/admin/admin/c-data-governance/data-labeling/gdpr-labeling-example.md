@@ -2,6 +2,7 @@
 description: Shows examples on how to label data for hit data, access requests, delete requests
 title: Labeling Examples
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 ---
 # Labeling Examples

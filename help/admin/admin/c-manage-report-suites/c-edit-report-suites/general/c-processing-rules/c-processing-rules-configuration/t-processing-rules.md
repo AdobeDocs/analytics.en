@@ -3,6 +3,7 @@ description: Processing rules are set on report suites.
 subtopic: Processing rules
 title: Create processing rules
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 ---
 # Create processing rules

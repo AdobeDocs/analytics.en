@@ -1,7 +1,7 @@
 ---
 description: Shows how to remove/discard an event from a hit using Processing Rule, without implementing a change on the page.
 title: Remove an event from a hit
-uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
+role: Admin
 exl-id: 5dd68eb4-cc51-48b1-a009-a44e425e2d4e
 feature: Admin Tools
 ---

@@ -2,11 +2,12 @@
 title: Comparison of different bot exclusion methods
 description: Lets you compare different methods of excluding bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
 ---
 # Comparison of different bot exclusion methods
 
-The following table shows different methods of excluding bots and how they stack up against each other.
+The following table shows different methods of excluding bots and how they compare to each other.
 
 | Method | Bot Rules | Exclude by IP Address | Customer attributes | Segmentation | 3-rd party scoring + Segmentation | Suppress Server Call​​ for Bots at Runtime | Custom DB VISTA rule |
 | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -3,6 +3,7 @@ description: Processing rules let you make changes to data based on defined cond
 subtopic: Processing rules
 title: How processing rules work
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 ---
 # How processing rules work

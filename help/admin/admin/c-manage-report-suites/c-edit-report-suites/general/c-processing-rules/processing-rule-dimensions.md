@@ -3,6 +3,7 @@ description: The dimensions that you can read and write (unless otherwise noted)
 subtopic: Processing rules
 title: Dimensions available to processing rules
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 ---
 # Dimensions available to processing rules

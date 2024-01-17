@@ -12,4 +12,4 @@ Here is an example: Let's say the homepage of a website receives 500 visitors in
 
 ## How this metric is calculated
 
-This metric is calculated using the formula [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+This metric is calculated using the formula [Bounces](bounces.md) divided by [Entries](entries.md).

@@ -38,6 +38,7 @@ AN-323975; AN-325383; AN-325809; AN-326787; AN-331611; AN-331818; AN-332124; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| Adobe API object member additions | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects without notice or changes in versioning. Such additions should be non-breaking changes for your implementation. Adobe recommends that you refer to the API documentation of any third-party tool you integrate with our APIs so that such additions are ignored in processing if not understood. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
 | `getPageLoadTime` plugin deprecated | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
 
 {style="table-layout:auto"}

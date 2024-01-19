@@ -136,7 +136,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
 | [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
 | [!UICONTROL Page Summary] Workspace panel | This panel provides a deep-dive analysis for a page of your choosing. |
-| New topic on pausing older scheduled reports | Effective **April 15, 2022**, Adobe intends to [pause all scheduled reports that have a creation date greater than two years](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| New topic on pausing older scheduled reports | Effective **April 15, 2022**, Adobe intends to pause all scheduled reports that have a creation date greater than two years|
 | **February 2022** | 
 | Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) allows you to preview the experience before you save and share a scorecard.  |
 | API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 

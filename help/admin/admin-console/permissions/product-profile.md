@@ -26,7 +26,7 @@ For information about how to assign product profile admins, see the "Manage prod
 The minimum required permissions in a product profile to access Adobe Analytics are the following:
 
 * The product profile must have access to at least one report suite
-* The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access** (or **Reports & Analytics Access**)
+* The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access**.
 
 ### Report Suites
 
@@ -34,13 +34,13 @@ Grants access to report suites that belong to your Analytics organization. A use
 
 ### Metrics
 
-Grants access to metrics in your report suite. Metrics are listed as their respective component in Analysis Workspace, or if the metric is available in Reports & Analytics, available as a menu item under Site Metrics.
+Grants access to metrics in your report suite. Metrics are listed as their respective component in Analysis Workspace.
 
 Custom metrics are labeled 'Custom Event 1-1000' to keep them independent of report suites. If 'Custom Event 1' is an enabled permission item, that user has access to event1 in all report suites in the product profile.
 
 ### Dimensions
 
-Grants access to dimensions in your report suite. Dimensions are listed as their respective component in Analysis Workspace, or if the dimension is available in Reports & Analytics, available as a menu item.
+Grants access to dimensions in your report suite. Dimensions are listed as their respective component in Analysis Workspace.
 
 Custom variables, such as eVars, are labeled 'Custom Conversion 1-250' to keep them independent of report suites. If 'Custom Conversion 1' is an enabled permission item, that user has access to eVar1 in all report suites in the product profile.
 

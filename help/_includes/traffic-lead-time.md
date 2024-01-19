@@ -6,11 +6,7 @@ exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 ---
 # Required lead time for traffic increases
 
-## Required lead time for traffic increases
-
 Adobe requires advance notice for new account setups, traffic spikes and traffic increases. Hardware must be allocated in advance to minimize latency and possible adverse impacts to the overall system. 
-
-Allocation of hardware is driven by alerts submitted through the reports & analytics user interface.
 
 >[!IMPORTANT]
 >

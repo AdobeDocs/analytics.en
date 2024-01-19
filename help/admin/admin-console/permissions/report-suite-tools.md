@@ -13,9 +13,6 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | [!UICONTROL Account Summary] | Grants access to General > General Account Settings in the Report Suite Manager. |
 | [!UICONTROL Advertising Analytics Configuration] | Lets users configure report suites to be provisioned for Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Grants access to Anomaly Detection in Analysis Workspace. |
-| [!UICONTROL Bot Pages] | Grants access to Site Metrics > Bots > Bot Pages report in Reports & Analytics. |
-| [!UICONTROL Bots]| Grants access to Site Metrics > Bots > Bots report in Reports & Analytics. |
-| [!UICONTROL Channel Report]| Grants access to the Marketing Channels > Channel Overview Report in Reports & Analytics. |
 | [!UICONTROL Channels]| Grants access to Marketing Channels, including Marketing Channel Manager, Marketing Channel Processing Rules, and Marketing Channel Expiration in the Report Suite Manager. |
 | [!UICONTROL Classifications] | Grants access to all classification settings in the Report Suite Manager. This permission item includes: <br>Traffic > Traffic Classifications<br>Conversion > Conversion Classifications<br>Conversion > Classification Hierarchies<br>Marketing Channels > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe Classifications |
 | [!UICONTROL Costs] | Grants access to Marketing Channels > Marketing Channel Costs in the Report Suite Manager. |
@@ -32,12 +29,9 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | [!UICONTROL Finding Methods] | Grants access to Conversion > Finding Methods in the Report Suite Manager. |
 | [!UICONTROL List Variables]| Grants access to Conversion > List Variables in the Report Suite Manager. |
 | [!UICONTROL Menu Customization] | Grants access to General > Customize Menus in the Report Suite Manager. |
-| [!UICONTROL My Recommended Reports]| Grants access to Site Metrics > My Recommended Reports in Reports & Analytics. |
 | [!UICONTROL Paid Search] | Grants access to General > Paid Search Detection in the Report Suite Manager. |
 | [!UICONTROL Processing Rules]| Grants access to General > Processing Rules and General > Bot Rules in the Report Suite Manager. |
-| [!UICONTROL RealTime Report] | Grants access to Site Metrics > Real-Time in Reports & Analytics. Use the permission item 'Real Time Report Configuration' to grant access to set up this report. |
 | [!UICONTROL Real Time Report Configuration ]| Grants access to Real-Time in the Report Suite Manager. Use the permission item 'RealTime Report' to grant access to the report itself. |
-| [!UICONTROL Return Visits] | Grants access to Visitor Retention > Return Visits in Reports & Analytics. |
 | [!UICONTROL Reporting Activity Manager Admins] | Not used |
 | [!UICONTROL Reporting Activity Manager Access] | Not used |
 | [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager, but does not allow any changes. |

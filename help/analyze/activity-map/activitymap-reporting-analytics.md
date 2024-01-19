@@ -28,6 +28,6 @@ You can [customize user access to dimensions](https://experienceleague.adobe.com
 |  Activity Map Links & Region  | Lists all collected links with their region across the whole web site.  |
 |  Activity Map XY  | Unused  |
 
-* These dimensions should be available in Analysis Workspace, Reports & Analytics, and Report Builder, provided that your Analytics implementation is [enabled for Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
-* In Reports & Analytics, navigate to **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map]**.
+* These dimensions should be available in Analysis Workspace and Report Builder, provided that your Analytics implementation is [enabled for Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
+* In Analysis Workspace, navigate to **[!UICONTROL Reports]** > **[!UICONTROL Activity Map]**.
 * To look at a link and region for a specific page, all you need to do is create a breakdown from the desired Activity Map page into the Activity Map Links & Region.

@@ -28,7 +28,7 @@ No special implementation is required. Analysis Workspace is available to all co
 +++
 
 +++Does Analysis Workspace change pre-configured reports in Adobe Analytics?
-No. Because this is a separate environment, there are no changes to your existing or any pre-configured reports in Adobe Analytics. You can still employ standard Reports & Analytics and Report Builder reports using Analysis Workspace.
+No. Because this is a separate environment, there are no changes to your existing or any pre-configured reports in Adobe Analytics. You can still employ standard Report Builder reports using Analysis Workspace.
 +++
 
 +++Can I use Analysis Workspace for Data Warehouse?

@@ -32,9 +32,9 @@ To configure success events:
 
    |Setting | Visible in | Not visible in |
    |---------|----------|---------|
-   | [!UICONTROL **Visible everywhere**] | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | N/A |
-   | [!UICONTROL **Builders**] | <ul><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Hidden everywhere**] | N/A | <ul><li>Reports & Analytics (menu and metrics selector)</li><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | 
+   | [!UICONTROL **Visible everywhere**] | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | N/A |
+   | [!UICONTROL **Builders**] | <ul><li>Segment Builder</li><li>Calculated Metric Builder</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Hidden everywhere**] | N/A | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | 
 
 1. Provide a description.
 1. Check whether to always record the event.

@@ -16,10 +16,6 @@ It lets you:
 * Analyze where customers go before and after specified checkpoints, such as entry, a specific dimension, or exit 
 * Create segments by designating a specific point in a chosen path
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports & Analytics, see [Segmentation as a Foundation for Flow & Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
-
 Here is a Flow visualization video tutorial:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)

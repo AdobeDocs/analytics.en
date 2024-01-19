@@ -14,7 +14,7 @@ Adobe requires advance notice for new account setups, traffic spikes and traffic
 
 Use the following guidelines to determine how far in advance you must submit a traffic alert:
 
-### Hardware Allocation Lead Times
+## Hardware Allocation Lead Times
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -55,6 +55,6 @@ Other things to consider:
 
 * Client Alerts are also needed when traffic decreases or a report suite is deprecated.
 
-### Hardware De-Allocation Due to Unrealized Traffic
+## Hardware De-Allocation Due to Unrealized Traffic
 
 Hardware for new accounts, traffic spikes and traffic increases will be de-allocated if the projected traffic in the client alert does not materialize within 4 weeks of the "Go live date". If the traffic is still anticipated, a new client alert must be generated as a traffic increase.

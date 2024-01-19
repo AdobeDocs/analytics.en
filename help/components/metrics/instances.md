@@ -14,7 +14,7 @@ Out of all hits in a report suite, only include hits that explicitly set a dimen
 
 For example, a visitor arrives on your site and uses internal search. You track internal search in eVar1. After using internal search once, they visit five more pages before leaving.
 
-If viewing a report in Workspace, you would see one eVar1 instance and six occurrences. The one instance triggered on the search results page, whereas the occurrences counted the initial value as well as the persisted values.
+If viewing a report in Workspace, you would see one eVar1 instance and six occurrences. One instance counts on the search results page, whereas the occurrences metric counts the initial value and subsequent persisted values.
 
 ## Compare to similar metrics
 

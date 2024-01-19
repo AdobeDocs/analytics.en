@@ -44,9 +44,9 @@ You may have specific combinations of report dimensions that you would like to t
 1. Go back to Report Builder and click the Refresh icon to refresh the list of segments.
 1. You are now ready to apply this segment.
 
-## Search for and apply segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Search for and apply segments {#search}
 
-Any segments that were created in Reports & Analytics, Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Any segments that were created in Reports & Analytics (now end-of-lifed), Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 You can apply one or multiple segments to any given request. This includes sequential segments.
 
@@ -58,9 +58,9 @@ You can apply one or multiple segments to any given request. This includes seque
 
 >[!NOTE]
 >
->Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you. (In the Marketing Reports & Analytics user interface, the Admin can see all segments in the organization.)
+>Whether you are an Admin or a non-Admin, in Report Builder you can see only those segments that you own and those that have been shared with you.
 
-## Filter segments {#section_376E986D3E684999A7CDB08E53854159}
+## Filter segments {#filter}
 
 **Filter** segments by clicking on the Filter icon:  ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -70,13 +70,13 @@ Available filters include:
 |---|---|
 |  Tags  |Lets you filter on segments with specific tags. Note that Tag filters use the AND operator. If you check two tags, the right pane shows segments that have been tagged with **both** tags.  |
 |  Owners  |Lets you filter segments by owner. Note that Owners filters use the OR operator. If you check two owners, the right pane shows segments that are owned by **either** owner.  |
-| Other Filters > Only *report suite name* |If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the segment for the selected report suite only.  |
+| Other Filters > Only *report suite name* |If you apply the "Only *report suite name*" filter in the Segment Builder in Adobe Analytics, and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the segment for the selected report suite only.  |
 |  Other Filters > Mine  | Shows all segments that you own.  |
 |  Other Filters > Shared with Me  | Shows all segments that others shared with you.  |
 |  Other Filters > Favorites  | Shows all segments you marked as Favorites.  |
 |  Other Filters > Approved  | Shows all officially approved segments.  |
 
-## Add a segment control to a workbook {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Add a segment control to a workbook {#segment-control}
 
 Adding a segment control lets you switch segments from within a workbook instead of having to go into the Request Wizard.
 
@@ -97,11 +97,11 @@ Adding a segment control lets you switch segments from within a workbook instead
 
    ![Screenshot showing the Choose Segment field drop-down field.](assets/seg_control2.png)
 
-## Refresh the list of segments {#section_22E4A86789444B4A998532396B476EFB}
+## Refresh the list of segments {#refresh}
 
 Any time you add a new segment or edit an existing one, you should click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) to refresh the cached list of segments.
 
-## Manage segments across requests {#section_C3D63FCBE1A94369A319243313B03C93}
+## Manage segments across requests {#manage}
 
 Prior to v5.4, Report Builder let users change segments on multiple requests. However, this process always replaced the existing segments. Users who wanted to add one new segment to each request could not do this, since adding the segment would remove the previous set of segments already assigned to each request.
 

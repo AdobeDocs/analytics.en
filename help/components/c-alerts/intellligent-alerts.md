@@ -27,7 +27,7 @@ Intelligent Alerts let you
 
 Components of the alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [are no longer available](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
-There are four ways get to the Alert Builder:
+There are three ways get to the Alert Builder:
 
 * By using the following shortcut in Analysis Workspace:
 
@@ -37,11 +37,8 @@ There are four ways get to the Alert Builder:
 
   ![](assets/create-alert-from-selection.png)
 
-* From within a [!UICONTROL Reports & Analytics] report, by going to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This will open the new Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the report. You can then edit the alert, if needed.
 
-  ![](assets/add-alert.png)
-
-## FAQ: How Alerts are Calculated and Triggered {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ: How Alerts are Calculated and Triggered {#trigger}
 
 The % thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you will get more anomalies than if you set a higher threshold (99%). 99.75% & 99.99% thresholds were introduced specifically for the hourly granularity so that it wouldn't trigger as many anomalies.
 

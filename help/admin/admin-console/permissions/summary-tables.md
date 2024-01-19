@@ -38,13 +38,6 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Anomaly Detection |  | x |  |  | Grants access to Anomaly Detection in Analysis Workspace. |
 | Contribution Analysis |  | x  |  |  | Grants access to the right-click menu 'Run Contribution Analysis' in Analysis Workspace. |
 | Custom Data Warehouse Report |  | x |  |  | Grants access to Tools > Data Warehouse in the Analytics top navigation. |
-| Bot Pages |  |  | x |  | Grants access to Site Metrics > Bots > Bot Pages report in Reports & Analytics. |
-| Bots |  |  | x |  | Grants access to Site Metrics > Bots > Bots report in Reports & Analytics. |
-| Channel Report |  |  | x |  | Grants access to the Marketing Channels > Channel Overview Report in Reports & Analytics. |
-| Daily Return Visits |  |  | x |  | Grants access to Visitor Retention > Daily Return Visits in Reports & Analytics. |
-| My Recommended Reports |  |  | x |  | Grants access to Site Metrics > My Recommended Reports in Reports & Analytics. |
-| RealTime Report |  |  | x |  | Grants access to Site Metrics > Real-Time in Reports & Analytics. Use the permission item 'Real Time Report Configuration' to grant access to set up this report. |
-| Return Visits |  |  | x |  | Grants access to Visitor Retention > Return Visits in Reports & Analytics. |
 | Advertising Analytics Configuration |  |  |  | x | Not used. |
 | Company Summary Reportlet |  |  |  | x | Not used. |
 | Data Warehouse |  |  |  | x | Not used. Use 'Custom Data Warehouse Report' instead. |
@@ -88,7 +81,7 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Share Project Links With Anyone | x |  |  |  |  Grants access to users to Share with anyone under a Workspace project -> Share -> Share with anyone. |
 | Activity Map |  | x |  |  | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | Ad Hoc Analysis License Users |  | x |  |  | Ad Hoc Analysis has been end-of-lifed. [More info](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Analysis Workspace Access |  | x |  |  | Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
+| Analysis Workspace Access |  | x |  |  | Grants access to Analysis Workspace. |
 | Analysis Workspace: Save As Template |  | x |  |  | Grants access to Project > Save As Template within Analysis Workspace. |
 | Calculated Metric Creation |  | x |  |  | Grants the ability to create calculated metrics across all Analytics capabilities. |
 | Labs Access |  | x |  |  | Grants access to Labs. |
@@ -96,8 +89,6 @@ Use the following summary tables to identify Adobe Analytics permissions in the 
 | Segment Creation |  | x |  |  | Grants the ability to create and share segments across all Analytics capabilities. |
 | Segment Publishing  |  | x |  |  | Grants the ability to make a segment an Experience Cloud audience when creating or editing a segment. |
 | Web Service Access |  | x |  |  | Grants the ability to use the API, including authentication with third-party sites and sending API calls. |
-| Current Data |  |  | x |  | Enables the option to see current data in Reports & Analytics reports. |
-| Reports & Analytics Access |  |  | x |  | Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics. |
 | Advertising Analytics Management |  |  |  | x | Not used. |
 | Co-Branding |  |  |  | x | No longer used. Grants access to Admin > All admin > Company settings > Co-Branding. |
 | Excel License Users |  |  |  | x | Not used. |

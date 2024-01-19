@@ -9,9 +9,7 @@ exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
 
 Describes how to create path reports with predefined filters.
 
-Marketing Reports & Analytics offers a few standalone reports that are top path reports with predefined filters, such as [!UICONTROL Next] and [!UICONTROL Previous Site Section] reports, Entry and [!UICONTROL Exit Site Section] reports, and [!UICONTROL Single Site Section] report.
-
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. The following reports are available:
+Report Builder does not offer path reports as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. The following reports are available:
 
 * Path > Page Fallout 
 * Path > Entry Path 

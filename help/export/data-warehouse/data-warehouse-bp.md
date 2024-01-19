@@ -12,7 +12,6 @@ Data Warehouse provides a flexible interface to run custom reports. Use the foll
 
 | Guideline | Description |
 |--- |--- |
-|Run Page Views, Visits, Visitors, and other standard reports in Reports & Analytics|Before creating a Data Warehouse report, see if the information you are looking for is already available in reports. If so, the report will be delivered much faster due to the pre-processing performed by Reports & Analytics for common metrics.|
 |Understand the amount of data you are requesting|A multi-year report on a large report suite can contain tens of billions of data rows. Processing and evaluating this data can take days, or even weeks. Evaluate how the report is being used to determine if some of the multi-year data is available, or if you can break the report into multiple requests.|
 |Match the report period to the granularity|Reporting granularity requires additional processing time. If you are reporting monthly granularity for an entire year, your reports process much faster if you submit a report request for each month.|
 |Report on completed data ranges|Data Warehouse reports are generated when the date range requested is complete. For example, if you request a report for the current week on Wednesday, the report isn't generated until Sunday of the following week.|

@@ -1,12 +1,12 @@
 ---
-description: Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
+description: Details on the Analysis Workspace template, and reporting in Report Builder.
 title: Report on advertising data in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 ---
 # Report on advertising data in Adobe Analytics
 
-Details on the Analysis Workspace template, and reporting in Reports & Analytics and Report Builder.
+Details on the Analysis Workspace template, and reporting in Report Builder.
 
 >[!NOTE]
 >
@@ -37,12 +37,6 @@ This template lets anyone who implements this Search Engine integration get acce
 |Ad Totals|Freeform table of the top ads broken down by the associated metrics.|
 |Keywords|Scatter chart of impressions, clicks, and cost for all keyword/match type combinations.|
 |Keyword Totals|Freeform table of the top keyword/match type combinations broken down by the associated metrics.|
-
-## Reports & Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-As soon as you have set up an Advertising Analytics account, the Advertising Analytics report will be made available.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

@@ -10,14 +10,13 @@ exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-Access the Alert Builder in one of four ways:
+Access the Alert Builder in one of three ways:
 
 * By using the following shortcut in Analysis Workspace:
 
   `ctrl (or cmd) + shift + a` 
 * By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a [!UICONTROL Reports & Analytics] report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
 

@@ -38,7 +38,7 @@ You have a bookmark that references the segment for the mainprod report suite. T
 
 +++ **What happened to Data Warehouse segments?**
 
-All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace and Reports & Analytics.
+All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace.
 
 You can create or edit a new Data Warehouse segments in the segment builder/manager. The Product Compatibility mechanism in the Segment Builder automatically determines whether a segment is compatible with Data Warehouse.
 

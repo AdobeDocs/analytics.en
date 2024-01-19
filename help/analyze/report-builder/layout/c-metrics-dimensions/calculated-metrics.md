@@ -30,7 +30,7 @@ Available filters include:
 |  Filter Name  | Description  |
 |---|---|
 |  Tags  |Lets you filter on calculated metrics with specific tags. Note that Tag filters use the AND operator. If you check two tags, the right pane shows metrics that have been tagged with **both** tags.  |
-|  Report Suites  |If you apply the "Only *report suite name*" filter in the Calculated Metric Builder in [!DNL Reports & Analytics], and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the calculated metrics for the selected report suite only.  |
+|  Report Suites  |If you apply the "Only *report suite name*" filter in the Calculated Metric Builder in [!DNL Adobe Analytics], and then display the Advanced Filter in [!DNL Report Builder], the Advanced filter will display the calculated metrics for the selected report suite only.  |
 |  Owners  |Lets you filter metrics by owner. Note that Owners filters use the OR operator. If you check two owners, the right pane shows metrics that are owned by **either** owner.  |
 |  Other Filters > Approved  | Shows all officially approved metrics.  |
 |  Other Filters > Favorites  | Shows all metrics you marked as Favorites.  |

@@ -32,7 +32,7 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
 * Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -48,7 +48,6 @@ You can
 
 Some [!DNL Analytics] features let you use events but not calculated metrics:
 
-* [!UICONTROL Funnels] in [!UICONTROL Reports & Analytics] 
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace] 
 * [!UICONTROL Cohort Analysis] in Analysis Workspace 
 * [!UICONTROL Data Warehouse] 

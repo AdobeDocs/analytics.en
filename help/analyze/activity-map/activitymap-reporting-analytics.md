@@ -29,5 +29,5 @@ You can [customize user access to dimensions](https://experienceleague.adobe.com
 |  Activity Map XY  | Unused  |
 
 * These dimensions should be available in Analysis Workspace and Report Builder, provided that your Analytics implementation is [enabled for Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
-* In Analysis Workspace, navigate to **[!UICONTROL Reports]** > **[!UICONTROL Activity Map]**.
+* In Analysis Workspace, pull the Activitymap-related dimensions into a report.
 * To look at a link and region for a specific page, all you need to do is create a breakdown from the desired Activity Map page into the Activity Map Links & Region.

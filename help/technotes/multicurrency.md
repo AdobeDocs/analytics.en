@@ -16,8 +16,3 @@ You can use the [`currencyCode`](/help/implement/vars/config-vars/currencycode.m
 
 Every report suite has a **base currency**. This currency dictates the context of all currency metrics (such as [Revenue](/help/components/metrics/revenue.md)). All currency data stored is in the report suite's base currency.
 
-## User level
-
-For Reports & Analytics, users can set a different currency than the report suite's base currency under [Report settings](/help/analyze/reports-analytics/report-settings.md). This setting is non-destructive, meaning that it does not alter the underlying data. Instead, it applies basic currency conversion to all reports viewed based on today's exchange rate. If you view the same report on different days, the numbers can change due to different daily exchange rates.
-
-Analysis Workspace currently does not offer user-level currency conversion.

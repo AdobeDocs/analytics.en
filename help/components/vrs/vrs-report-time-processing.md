@@ -40,7 +40,7 @@ Here is a video on starting a new visit with event:
 
 ## Report Time Processing limitations
 
-Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and is not accessible in [!UICONTROL Reports & Analytics], Data Warehouse, Report Builder, Data Feeds, or the reporting API.
+Report Time Processing does not support all metrics and dimensions available in traditional Analytics reporting. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and is not accessible in Data Warehouse, Report Builder, Data Feeds, or the reporting API.
 
 In addition, Report Time Processing only processes data that comes from within the reporting date range (referred to as "date windowing" below). This means that eVar values set to "never expire" for a visitor prior to the reporting date range do not persist into the reporting windows and do not appear in reports. This also means that customer loyalty measurements are based exclusively on the data present in the reporting date range and not on the entire history prior to the reporting date range.
 

@@ -13,7 +13,7 @@ Here is a video tutorial on [Intelligent Alerts](https://experienceleague.adobe.
 
 ## Overview
 
-The new Alert Builder and Alert Manager in Analysis Workspace replace the alert functionality in Reports & Analytics, which has been end-of-lifed. Intelligent Alerts let you:
+ Intelligent Alerts let you:
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below)
 * Preview how often an alert will trigger

@@ -276,7 +276,7 @@ Admins can edit any segment, and share segments with groups and with everyone in
 
 +++ **Can I see all segments in my company?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+Yes, Admins can see all segments within the [!DNL Analysis Workspace] user interface.
 
 Report Builder displays segments that you own and segments that are shared with you.
 
@@ -286,7 +286,7 @@ Report Builder displays segments that you own and segments that are shared with 
 
 Yes, all segments can be managed in the Segment Manager. Segment Manager displays segments that are visible to the owner (user who created the segment), shared users, and admin users. The segment selector displays segments that are owned by and shared with the user.
 
-Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
+Admins can see all segments within the Analysis Workspace user interface.
 
 Report Builder displays only segments built by you or segments that have been shared specifically with you.
 

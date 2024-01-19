@@ -15,11 +15,7 @@ This means that Adobe's servers "push" the file to your servers. Essentially, we
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) and [Analytics Data Feed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) can push data via SFTP.
 
-The following Analytics tools **cannot** push data via SFTP:
-
-* Reports & Analytics 
-* Ad Hoc Analysis 
-* Report Builder
+Report Builder **cannot** push data via SFTP.
 
 ## Pull Delivery {#section_FA29FAEF02FE40B8B32452146A036F48}
 

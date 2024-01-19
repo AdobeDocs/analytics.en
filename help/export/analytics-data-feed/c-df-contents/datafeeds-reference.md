@@ -52,7 +52,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`color`** | Color depth ID based on the value of the `c_color` column. References the `color_depth.tsv` lookup table.| smallint unsigned |
 | **`connection_type`** | Numeric ID representing the connection type. Variable used in the [Connection type](/help/components/dimensions/connection-type.md) dimension. References the `connection_type.tsv` lookup table.| tinyint unsigned |
 | **`cookies`** | Variable used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.<br>Y: Enabled<br>N: Disabled<br>U: Unknown| char(1)|
-| **`country`** | Numeric ID representing values found in the `country.tsv` lookup. Used in the Top level domains report in Reports & Analytics. | smallint unsigned|
+| **`country`** | Numeric ID representing values found in the `country.tsv` lookup. | smallint unsigned|
 | **`ct_connect_type`** | Related to the `connection_type` column. Most common values are LAN/Wifi, Mobile Carrier, and Modem. | char(20) |
 | **`curr_factor`** | Determines the currency decimal place, and is used for currency conversion. For example, USD uses two decimal places, so this column value would be 2. | tinyint |
 | **`curr_rate`** | The exchange rate when the transaction occurred. Adobe partners with XE to determine the current day's exchange rate.| decimal(24,12) |

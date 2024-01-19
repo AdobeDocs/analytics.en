@@ -14,22 +14,22 @@
 
 1. (Optional) Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select any of the following filter options to filter the list of components:
 
-   |Option | Function |
-   |---------|----------|
-   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
-   | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-   | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
-   | [!UICONTROL **Metrics**] | Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
-   | [!UICONTROL **Segments**] | Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
-   | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
-   | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
-   | [!UICONTROL **Missing Description**] | Show only components that do not yet have a description in the Description field. This option is available only for administrators. |
-   | [!UICONTROL **Show duplicates**] | <p>Show only components that have either the same name or the same definition as that of another component in the selected Report Suite. Names or definitions must be exact matches in order to show as duplicates.</p><p>This option is available only for administrators.</p><p>**NOTE:** For definitions, this includes components you create as well as those provided by Adobe. For names, this currently includes only components you create and not those provided by Adobe. Showing duplicate names for Adobe-provided components will be added in a future release.</p> |
-   | [!UICONTROL **No recent data**] | Show only components that have not collected any data in the past 90 days. This option is available only for administrators. |
-   | [!UICONTROL **Created by Adobe**] <!-- I don't see this option-->| Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. |
+|Option | Function |
+|---------|----------|
+| [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+| [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| [!UICONTROL **Dimensions**] | Show only components that are Dimensions. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Metrics**] | Show only components that are Metrics. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Segments**] | Show only components that are Segments. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) <!--this is Filters in Customer Journey Analytics--> |
+| [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. (This option is also available in the [!UICONTROL **Quick filters**] tab when you first access the Data Dictionary.) |
+| [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
+| [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
+| [!UICONTROL **Missing Description**] | Show only components that do not yet have a description in the Description field. This option is available only for administrators. |
+| [!UICONTROL **Show duplicates**] | <p>Show only components that have either the same name or the same definition as that of another component in the selected Report Suite. Names or definitions must be exact matches in order to show as duplicates.</p><p>This option is available only for administrators.</p><p>**NOTE:** For definitions, this includes components you create as well as those provided by Adobe. For names, this currently includes only components you create and not those provided by Adobe. Showing duplicate names for Adobe-provided components will be added in a future release.</p> |
+| [!UICONTROL **No recent data**] | Show only components that have not collected any data in the past 90 days. This option is available only for administrators. |
+| [!UICONTROL **Created by Adobe**] <!-- I don't see this option-->| Show only components that were created by Adobe. Components that were created by an administrator or another user in your organization are not shown. |
 
-   {style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## Data Dictionary component information {#dd-component-information}
 

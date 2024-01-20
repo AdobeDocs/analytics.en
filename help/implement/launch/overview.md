@@ -1,7 +1,7 @@
 ---
 title: Implement Adobe Analytics using the Analytics extension
 description: Learn how to implement Adobe Analytics using tags and Analytics extension
-feature: Launch Implementation
+feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 ---
 # Implement Adobe Analytics using the Analytics extension

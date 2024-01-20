@@ -17,7 +17,7 @@ Documentation for the Adobe Analytics APIs are on [Adobe Developer](https://deve
 | **Description** | Fully-processed, finalized data that is available in all Analytics interfaces. | Partially-processed, limited metrics available within seconds of collection. | Partially-processed hit data available within seconds of collection. | Fully-processed, finalized data that is used for pulling large data exports. |
 | [**Latency**](/help/technotes/latency.md) | 30-90 minutes | Seconds - 10 minutes | Seconds - 10 minutes | 90+ minutes |
 | **Processing Completion** | Full | Partial | Partial | Full |
-| **Reporting Interfaces** | Analysis Workspace, Reports & Analytics, Report Builder, API | Real-Time report in Reports & Analytics, Report Builder, 1.4 API | API only | Data Warehouse, API |
+| **Reporting Interfaces** | Analysis Workspace, Report Builder, API | Real-Time report in Report Builder, 1.4 API | API only | Data Warehouse, API |
 | **Data granularity** | Summarized | Summarized | Hit level | Summarized |
 | **Visitor Profile processing** | Yes | No | No | Yes |
 | **Segment support** | Yes | No | No | Partial |

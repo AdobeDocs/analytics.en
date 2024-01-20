@@ -7,7 +7,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 ---
 # Templates (*now called Reports*)
 
-Templates is no longer used as a term for pre-built Workspace projects. Reports refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics and pre-built reports in Workspace. However, the term *templates* is sometimes used to refer to templates or reports your company created. Custom templates are known as *custom company reports*.
+Templates is no longer used as a term for pre-built Workspace projects. Reports refers to anything that was pre-built by Adobe, such as reports in Reports & Analytics (end-of-lifed) and pre-built reports in Workspace. However, the term *templates* is sometimes used to refer to templates or reports your company created. Custom templates are known as *custom company reports*.
 
 For information about creating Workspace reports and creating custom company reports, see the following documentation:
 

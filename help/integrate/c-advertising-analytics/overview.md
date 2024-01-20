@@ -64,7 +64,7 @@ Analytics has two permissions that are automatically granted to Analytics Admins
 
 ## Advertising Analytics Dimensions and Metrics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics adds the following dimensions and metrics to Analysis Workspace, Reports & Analytics, Report Builder, and the Analytics Reporting API.
+Advertising Analytics adds the following dimensions and metrics to Analysis Workspace, Report Builder, and the Analytics Reporting API.
 
 **Dimensions**
 

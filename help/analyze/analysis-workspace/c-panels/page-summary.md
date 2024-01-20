@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 ---
 # Page summary panel
 
-The [!UICONTROL Page summary] panel started out as a report in Reports & Analytics, under Reports > Engagement > Page analysis > Page summary. It is now a Workspace panel as well. This panel lets you easily explore key statistics about specific pages.
+This panel lets you easily explore key statistics about specific pages.
 
 ## Access the panel
 

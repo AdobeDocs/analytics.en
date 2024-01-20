@@ -63,10 +63,6 @@ After a comprehensive analysis of an anomaly, a Contribution Summary is generate
 
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
->[!IMPORTANT]
->
->Contribution Analysis has been removed from the Reports & Analytics feature set and is now available only via Analysis Workspace.
-
 All customers with a Contribution Analysis entitlement can run full Contribution Analysis a limited number of times per month in Analysis Workspace. This **excludes** point product (SiteCatalyst 15) customers, Analytics Foundation customers, and Analytics Select customers, who do not get Contribution Analysis at all.
 
 The number of runs per company is limited by monthly tokens that are granted based on the Adobe Analytics product your company purchased. This includes the ability to restrict Contribution Analysis access to avoid token misuse.
@@ -77,7 +73,6 @@ The number of runs per company is limited by monthly tokens that are granted bas
 | --- | --- |
 | Why did Adobe introduce tokens? | Contribution Analysis has been one of the most resonant capabilities in Adobe Analytics. Giving you a small number of "full" runs per month (rather than just 3 dimensions for some Analytics products) allows you to better see what unlimited full Contribution Analysis can do for you. |
 | How does tokening in Contribution Analysis work? Does it cost a token to load a project with an existing Contribution Analysis, or only when running a brand new one? | Each login company (not each user) gets a certain number of tokens per month, which allow you to run "complete" Contribution Analysis in Analysis Workspace.  Each time you generate a new Contribution Analysis, you pay one token. Loading projects with pre-run Contribution Analyses does not cost a token. |
-| Do tokens apply to Contribution Analysis in Reports & Analytics? | No. Contribution Analysis is no longer offered in Reports & Analytics as of April 2018. |
 | If my company is out of tokens and wants to run additional Contribution Analyses, what can we do? | You can upgrade to another Adobe Analytics product, for example from Standard (2 tokens/month) to Ultimate (20 tokens/month). You cannot buy just more tokens—you must upgrade within the existing packaging framework. |
 | How do I restrict access to Contribution Analysis? | By default, only admins have access to run Contribution Analyses. However, admins can grant access to other users by creating a permission group in the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). You should give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted to not abuse their access. The permission is called [!UICONTROL Contribution Analysis] under [!UICONTROL Report Suite Tools]. [Learn more](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
 | How do I know how many tokens my company is entitled to per month, and how many we have used in the current month? | Go to  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Look under<ul><li>Contribution Analysis: Number of Monthly Usage Tokens</li><li>Contribution Analysis: Number of Usage Tokens used this month</li></ul> |
@@ -85,10 +80,6 @@ The number of runs per company is limited by monthly tokens that are granted bas
 ## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
 Below is a list of the detailed entitlements for Anomaly Detection and Contribution Analysis in Analysis Workspace.
-
->[!IMPORTANT]
->
->Anomaly Detection and Contribution Analysis were removed from the Reports & Analytics feature set and are now available only via Analysis Workspace. Note that Adobe Analytics Select and Adobe Analytics Foundation customers have access only to "daily-granularity" Anomaly Detection in Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 

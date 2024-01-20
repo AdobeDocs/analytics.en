@@ -9,7 +9,7 @@ exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
 
 Overlays give you multiple ways of configuring data visualization so that you can easily see and understand the popularity of links on a page.
 
-Overlays let you visualize click data directly on the page. This is what separates a visual analysis tool like Activity Map from mostly tabular and graphical tools like Reports & Analytics.
+Overlays let you visualize click data directly on the page. 
 
 Activity Map offers three types of overlays:
 

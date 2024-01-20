@@ -70,7 +70,7 @@ Yes. The [Data columns](/help/export/analytics-data-feed/c-df-contents/datafeeds
 +++
 
 +++Do segments work in Live mode?
-No, segments do not work in Live mode. The functionality is equivalent to that of real-time reporting in Reports & Analytics, which do not support segmentation.
+No, segments do not work in Live mode. 
 +++
 
 +++Is Activity Map compatible with virtual report suites?

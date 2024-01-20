@@ -75,9 +75,3 @@ You can incorporate the Audiences dimensions in the Analytics [Segment Builder](
 
    ![](assets/aud-segbuilder.png)
 
-## Reports & Analytics and Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. To view the Analytics report, go to  **[!UICONTROL Reports]** > **[!UICONTROL Visitor Profile]** > **[!UICONTROL Audience ID Reports]** .
-1. From this folder, you can access both the Audience ID and Audience Name dimensions.
-
-   ![](assets/mc-audiences.png)

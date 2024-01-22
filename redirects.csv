@@ -260,7 +260,6 @@ source,destination
 /docs/analytics/admin/admin-tools/general-acct-settings-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html
 /docs/analytics/admin/admin-tools/internal-url-filter-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/internal-url-filter-admin.html
 /docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection.html
-/docs/analytics/admin/admin-tools/customize-menus.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/customize-menus.html
 /docs/analytics/admin/admin-tools/custom-calendar.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar.html
 /docs/analytics/admin/admin-tools/processing-rules/processing-rules.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html
 /docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules-view.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.html
@@ -544,3 +543,5 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html,/docs/analytics/components/alerts/alert-builder.html
 /docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html,/docs/analytics/components/alerts/alert-manager.html
 /docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html,/docs/analytics/components/alerts/alert-manager.html
+/docs/analytics/admin/admin-tools/customize-menus.html,/docs/discontinued/using/reports-and-analytics.html
+/docs/analytics/analyze/analysis-workspace/virtual-analyst/overview.html,/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection.html

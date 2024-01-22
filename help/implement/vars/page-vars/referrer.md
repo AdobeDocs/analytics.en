@@ -12,6 +12,8 @@ The `referrer` variable overrides the automatically collected referrer in report
 
 Referrer is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webReferrer.URL`.
 
+The Web SDK includes this dimension on every event hit.
+
 ## Referrer using the Adobe Analytics extension
 
 You can set referrer either while configuring the Analytics extension (global variables) or under rules.

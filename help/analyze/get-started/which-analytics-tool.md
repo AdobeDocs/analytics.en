@@ -18,9 +18,11 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
+**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
+
 **[Report Builder](/help/analyze/report-builder/home.md)** is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
-**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
 
 ## Importing Data into Adobe Analytics {#import}
 

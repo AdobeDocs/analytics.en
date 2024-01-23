@@ -17,4 +17,4 @@ You can specify a date range by selecting cells from a worksheet that contains a
 
    For example, create a Report Builder request with the date range set to "yesterday" and output the request date in the same cell as "today()-1".
 
-Here is a list of [supported date formats](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/format-the-data.html).
+Here is a list of [supported calendar formats](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html).

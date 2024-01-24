@@ -79,13 +79,13 @@ When creating a data feed, you provide Adobe with:
    
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
+         Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
       
-      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
       
-        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
    
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
@@ -149,19 +149,19 @@ When creating a data feed, you provide Adobe with:
       >
       >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
    
-   1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
       Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
-      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
       
-        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-   1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-   1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure RBAC location that you specified.
 
@@ -223,21 +223,21 @@ When creating a data feed, you provide Adobe with:
       >
       >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
    
-   1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
-      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
       
-        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-   1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-   1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Azure RBAC location that you specified.
+         The destination is now configured to send data to the Azure SAS location that you specified.
    
    1. (Conditional) If you have not previously added an Azure SAS account:
 
@@ -290,16 +290,28 @@ When creating a data feed, you provide Adobe with:
 
       The GCP Export Locations page is displayed.
 
-   1. (Conditional) If you previously configured a GCP account and location (as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md)):
+   1. (Conditional) If a Google Cloud Platform account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the GCP location that you specified.
-
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+   
    1. (Conditional) If you have not previously added a GCP account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:

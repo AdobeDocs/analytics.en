@@ -5,7 +5,7 @@ title: Configure cloud import locations
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 ---
-# Configure cloud import locations
+# Configure cloud import and export locations
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 

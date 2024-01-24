@@ -7,9 +7,13 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 
-The Locations manager allows you to create, edit, or delete locations. These locations allow you to save and reuse destinations for exported files, or sources for imported files. The Location manager is available once all report suites in your organization use the [Classification set](../classifications/sets/overview.md) architecture.
+The Locations manager allows you to create, edit, or delete locations. These locations allow you to save and reuse destinations for the following uses:
 
-**[!UICONTROL Components]** > **[!UICONTROL Locations]** 
+* Files that are exported via [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
+* Reports that are exported via [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Schemas that are imported via [Classification sets](/help/components/classifications/sets/manage/schema.md)
+
+To access the Locations manager, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
 ## Filter locations
 

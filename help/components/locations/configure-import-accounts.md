@@ -5,11 +5,11 @@ title: Configure cloud import accounts
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 ---
-# Configure cloud import accounts
+# Configure cloud import and export accounts
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Before you can import Adobe Analytics classification data from a cloud destination, you need to add and configure the account and the location within that account where you want the classification data to be collected.  
+Before you can import Adobe Analytics classification data from a cloud destination or export , you need to add and configure the account and the location within that account where you want the classification data to be collected.  
 
 This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
 

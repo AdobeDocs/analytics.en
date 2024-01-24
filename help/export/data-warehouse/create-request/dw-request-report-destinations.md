@@ -32,17 +32,27 @@ To configure the destination where Data Warehouse reports are sent:
 
    ![Report destination tab](assets/dw-report-destination.png)
 
-1. (Conditional) If an account (and a destination on that account) has already been configured that you want to use as your report destination:
+1. (Conditional) If a cloud account (and a destination on that account) has already been configured in Adobe Analytics, you can use it as your report destination: 
 
-   1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
+   >[!NOTE]
+   >
+   >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   >
+   >If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
    
    1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      Any cloud accounts that you configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination are shown here and can be used. However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
    
    1. Select the destination associated with the account from the [!UICONTROL **Select destination**] drop-down menu. <!-- Is this correct? -->
 
-1. (Conditional) If you have not previously configured an account:
+1. (Conditional) If you don't have access to a cloud account that is already configured in Adobe Analytics, you can configure one:
 
    1. Select [!UICONTROL **Add account**], then specify the following information:
 

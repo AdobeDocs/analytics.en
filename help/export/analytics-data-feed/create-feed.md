@@ -61,7 +61,9 @@ When creating a data feed, you provide Adobe with:
 
    To configure an Amazon S3 bucket as the destination for a data feed:
 
-   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
+   1. Begin creating a data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+   
+   1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Amazon S3**].
 
       ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
 
@@ -69,16 +71,28 @@ When creating a data feed, you provide Adobe with:
 
       The Amazon S3 Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Amazon S3 account and location:
+   1. (Conditional) If an Amazon S3 account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+      Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
       
+      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+   
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Amazon S3 location that you specified.
-
+      The destination is now configured to send data to the Amazon S3 location that you specified.
+   
    1. (Conditional) If you have not previously added an Amazon S3 account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
@@ -92,7 +106,7 @@ When creating a data feed, you provide Adobe with:
 
          {style="table-layout:auto"}
 
-         1. Select [!UICONTROL **Add location**], then specify the following information:
+      1. Select [!UICONTROL **Add location**], then specify the following information:
    
          |Field | Function |
          |---------|----------|
@@ -106,6 +120,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Amazon S3 location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
@@ -119,7 +135,7 @@ When creating a data feed, you provide Adobe with:
    
       For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
    
-   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure RBAC**].
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Azure RBAC**].
 
       ![Azure RBAC destination](assets/datafeed-destination-azurerbac.png)
 
@@ -127,13 +143,25 @@ When creating a data feed, you provide Adobe with:
 
       The Azure RBAC Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Azure RBAC account and location:
+   1. (Conditional) If an Azure RBAC account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
-      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+   1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
-      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
+   1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+
+   1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure RBAC location that you specified.
 
@@ -166,6 +194,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure RBAC location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
@@ -187,16 +217,28 @@ When creating a data feed, you provide Adobe with:
 
       The Azure SAS Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Azure SAS account and location:
+   1. (Conditional) If an Azure SAS account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
-      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+   1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
-      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
+      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-         The destination is now configured to send data to the Azure SAS location that you specified.
+   1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
+   1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
+
+         The destination is now configured to send data to the Azure RBAC location that you specified.
+   
    1. (Conditional) If you have not previously added an Azure SAS account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
@@ -227,6 +269,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure SAS location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
@@ -246,7 +290,7 @@ When creating a data feed, you provide Adobe with:
 
       The GCP Export Locations page is displayed.
 
-   1. (Conditional) If you previously added a GCP account and location:
+   1. (Conditional) If you previously configured a GCP account and location (as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md)):
 
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
       
@@ -283,6 +327,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the GCP location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 

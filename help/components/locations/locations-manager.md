@@ -9,15 +9,15 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 
 The Locations manager allows you to create, edit, or delete locations. These locations allow you to save and reuse destinations for the following uses:
 
-* Files that are exported via [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
-* Reports that are exported via [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Schemas that are imported via [Classification sets](/help/components/classifications/sets/manage/schema.md)
-
-To access the Locations manager, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
+* Files that are exported using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
+* Reports that are exported using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Schemas that are imported using [Classification sets](/help/components/classifications/sets/manage/schema.md)
 
 ## Filter locations
 
 The left side of the Locations manager provides filter settings to find the desired locations. 
+
+1. To access the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
 1. Select the filter icon. 
 

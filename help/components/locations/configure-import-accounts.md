@@ -9,13 +9,15 @@ exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Before you can import Adobe Analytics classification data from a cloud destination or export , you need to add and configure the account and the location within that account where you want the classification data to be collected.  
+You can configure a cloud account that is used for the following purposes:
 
-This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
+* Importing data to [Classification sets](/help/components/classifications/sets/manage/schema.md) 
 
-You need to configure Adobe Analytics with the necessary information to access your cloud destination account.
+* Exporting data with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
-To configure a cloud import account:
+You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
+
+To configure a cloud import and export account:
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location credentials**] tab.

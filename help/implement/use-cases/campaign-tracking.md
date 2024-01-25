@@ -3,6 +3,7 @@ title: Campaign tracking workflow
 description: Use Adobe Analytics to track your marketing efforts.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
+role: Admin, Developer, Leader
 ---
 # Campaign tracking workflow
 

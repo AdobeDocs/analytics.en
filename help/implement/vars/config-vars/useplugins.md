@@ -3,6 +3,7 @@ title: usePlugins
 description: Enable or disable the doPlugins() function.
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
+role: Admin, Developer
 ---
 # usePlugins
 

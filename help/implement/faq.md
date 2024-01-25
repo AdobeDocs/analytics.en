@@ -3,6 +3,7 @@ title: Implementation FAQ
 description: Frequently asked questions about implementation, and links to more information.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+role: Admin, Developer, Leader, User
 ---
 # FAQs about Analytics implementation
 

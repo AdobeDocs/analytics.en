@@ -16,11 +16,10 @@ For information about how to begin creating a request, as well as links to other
 >
 >* We recommend using a cloud account or email for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
 >
->* Data Warehouse requests are associated with your Adobe Analytics user account. By default, other users cannot use or view the requests that you configure. You can make Data Warehouse requests available to other users in your organization by enabling the **Show all destinations** toggle, as described in [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Any cloud accounts that you previously configured for [Data Feeds](/help/export/analytics-data-feed/create-feed.md) or for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) are available to use for Data Warehouse. However, any locations that are configured for importing classification data cannot be used.
 >
->* Any cloud accounts that you previously [configured for Data Feeds](/help/export/analytics-data-feed/create-feed.md) are available to use for Data Warehouse.
+>* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
->* Cloud accounts that are configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination can be used when configuring a report destination. However, any locations that are configured for importing classification data cannot be used.
 
 To configure the destination where Data Warehouse reports are sent:
 

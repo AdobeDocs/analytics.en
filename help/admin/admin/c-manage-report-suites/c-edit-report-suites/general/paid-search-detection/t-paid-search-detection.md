@@ -3,6 +3,7 @@ description: Steps that describe how to configure Paid Search Detection.
 title: Configure paid search detection
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
+role: Admin
 ---
 # Configure paid search detection
 

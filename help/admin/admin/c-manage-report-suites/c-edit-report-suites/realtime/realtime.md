@@ -8,6 +8,8 @@ exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 
 Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
+
+
 >[!NOTE]
 >
 >The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).

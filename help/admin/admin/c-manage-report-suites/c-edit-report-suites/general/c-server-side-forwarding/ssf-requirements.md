@@ -4,6 +4,7 @@ solution: Analytics
 title: Requirements for server-side forwarding
 feature: Server-Side Forwarding
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
+role: Admin
 ---
 # Requirements for server-side forwarding
 

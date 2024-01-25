@@ -1,8 +1,9 @@
 ---
-description: Calendar options in other than the Gregorian model. Options include the 4-4-5, 4-5-4, and 5-4-4 calendar models, all of which are used as standards for the retail industry. Additionally, reporting offers an option for a completely customizable calendar that you can set up yourself.
+description: Calendar options in other than the Gregorian model. Options include the 4-4-5, 4-5-4, and 5-4-4 calendar models, all of which are used as standards for the retail industry. Reporting also offers a completely customizable calendar that you can set up yourself.
 title: Customize Calendar
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
+role: Admin
 ---
 # Customize Calendar
 

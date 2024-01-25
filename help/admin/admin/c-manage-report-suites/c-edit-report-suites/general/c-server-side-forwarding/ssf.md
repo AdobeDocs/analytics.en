@@ -4,6 +4,7 @@ solution: Analytics
 title: Server-side forwarding overview
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
+role: Admin
 ---
 # Server-side forwarding overview
 

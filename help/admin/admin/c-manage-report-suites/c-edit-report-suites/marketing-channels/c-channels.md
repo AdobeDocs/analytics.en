@@ -4,6 +4,7 @@ subtopic: Marketing channels
 title: Manage marketing channels
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
+role: Admin
 ---
 # Manage marketing channels
 

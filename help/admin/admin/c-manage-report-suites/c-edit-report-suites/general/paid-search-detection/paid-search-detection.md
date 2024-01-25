@@ -8,7 +8,7 @@ exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 
 [!UICONTROL Paid Search Detection] differentiates paid from natural searches in the [!UICONTROL Search Engines] and [!UICONTROL Search Keywords] reports. You can specify the search engines where you use paid ads, and specify a character string found in the URL of a visit from a paid ad.
 
-## Configuration options {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Configuration options {#configuration}
 
 The following table describes the fields and options you use to [configure paid search detection](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 

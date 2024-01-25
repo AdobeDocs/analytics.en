@@ -1,13 +1,14 @@
 ---
-description: To verify that Server-side forwarding is properly enabled, you'll need to inspect the HTTP response from the Analytics tracking request. This can be done using a browser's developer tools or by using a proxying tool such as the Charles Web Debugger. The following instructions illustrate what indicators must be present to ensure server-side forwarding is properly enabled.
+description: To verify that Server-side forwarding is properly enabled, you'll need to inspect the HTTP response from the Analytics tracking request. These instructions illustrate which indicators must be present to ensure server-side forwarding is properly enabled.
 solution: Analytics
 title: How to verify your server-side forwarding implementation
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
+role: Admin
 ---
 # How to verify your server-side forwarding implementation
 
-To verify that Server-side forwarding is properly enabled, you'll need to inspect the HTTP response from the Analytics tracking request. This can be done using a browser's developer tools or by using a proxying tool such as the Charles Web Debugger. The following instructions illustrate what indicators must be present to ensure server-side forwarding is properly enabled.
+To verify that Server-side forwarding is properly enabled, you'll need to inspect the HTTP response from the Analytics tracking request. This can be done using a browser's developer tools or by using a proxying tool such as the Charles Web Debugger. The following instructions illustrate which indicators must be present to ensure server-side forwarding is properly enabled.
 
 To check the status of server-side forwarding:
 

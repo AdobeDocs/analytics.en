@@ -4,6 +4,7 @@ subtopic: Marketing channels
 title: Marketing channel expiration
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
+role: Admin
 ---
 # Marketing channel expiration
 

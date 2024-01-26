@@ -3,6 +3,7 @@ title: Product profile permissions for Analytics Tools
 description: Use Analytics Tools permission items to grant access to features within Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
+role: Admin
 ---
 # Product profile permissions for Analytics Tools
 

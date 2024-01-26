@@ -121,7 +121,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
     + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
-    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+    + [Global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
     + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
     + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
     + New report suite {#c-new-report-suite}

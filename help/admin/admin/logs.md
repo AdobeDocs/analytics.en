@@ -3,6 +3,7 @@ description: Log files to help you see when users log in, their usage, access, r
 title: Logs
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
+role: Admin
 ---
 # Logs
 

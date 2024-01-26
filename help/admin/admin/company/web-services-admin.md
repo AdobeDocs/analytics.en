@@ -3,6 +3,7 @@ description: The Web Services APIs provide programmatic access to marketing repo
 title: Web Services
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
+role: Admin
 ---
 # Web Services
 

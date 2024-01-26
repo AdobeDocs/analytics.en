@@ -3,6 +3,7 @@ description: Manage Analytics users and their assets in the Adobe Admin Console.
 title: Manage Analytics users and assets
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
+role: Admin
 ---
 # Transfer user assets or set account expirations
 
@@ -10,7 +11,7 @@ Most user and product management functions have moved to the [Adobe Admin Consol
 
 While most user and product management functions are now available only in the Adobe Admin Console, the administrative functions described on this page are available only from the Adobe Analytics Admin area.
 
-## Transfer assets from one Analytics user to another 
+## Transfer assets from one Analytics user to another {#transfer}
 
 1. Go to **Admin** > [!UICONTROL **Analytics users & assets**].
    The Users page is displayed.
@@ -26,7 +27,7 @@ While most user and product management functions are now available only in the A
    Any assets you selected are transferred to the designated user.
 
 
-## Set an expiration date for a user account
+## Set an expiration date for a user account {#expiration}
 
 1. Go to **Admin** > [!UICONTROL **Analytics users & assets**].
    The Users page is displayed.

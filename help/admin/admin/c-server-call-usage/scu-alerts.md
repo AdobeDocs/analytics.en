@@ -3,12 +3,11 @@ description: Add or manage server all usage alerts. When you set up an alert, it
 title: Server Call Usage alerts
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
+role: Admin
 ---
 # Server Call Usage alerts
 
 When you set up an alert, it applies to all report suites in all login companies of a Billing company.
-
-## Overview
 
 A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
 
@@ -25,7 +24,7 @@ You can access server call usage alerts in two ways:
 * Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or 
 * Navigate to **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
-## Create Server Call Usage Alerts {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Create Server Call Usage Alerts {#create}
 
 To create additional alerts,
 
@@ -52,7 +51,7 @@ To create additional alerts,
 
 1. Click **[!UICONTROL Save]**.
 
-## Manage Server Calls Usage Alerts {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Manage Server Calls Usage Alerts {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -71,3 +70,5 @@ To manage alerts:
    |Enable/Disable|You can enable or disable all alerts, even the default ones.|
    |Renew|When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date.|
    |Export to CSV|See [Download Usage Report](/help/admin/admin/c-server-call-usage/report-suite-usage.md)|
+
+   {style="table-layout:auto"}

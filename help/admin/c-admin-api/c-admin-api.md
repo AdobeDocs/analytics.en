@@ -3,6 +3,7 @@ description: Link to Adobe Analytics Admin API on github.
 title: Admin API
 feature: Admin Tools
 exl-id: 51118977-bd7c-4f36-a35f-e2930c732574
+role: Admin
 ---
 # Adobe Analytics APIs
 

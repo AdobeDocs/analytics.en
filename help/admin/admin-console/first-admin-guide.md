@@ -3,6 +3,7 @@ title: Adobe Analytics first admin guide
 description: Understand how the first admin provisioning process takes place and next steps
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
+role: Admin
 ---
 # Adobe Analytics first admin guide
 

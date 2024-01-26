@@ -3,12 +3,13 @@ description: Administrative steps for setting up Real-Time reports.
 title: Real-time reports configuration
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
+
 ---
 # Real-time reports configuration
 
 Administrative steps for setting up Real-Time reports.
 
-Setting up real-time reports in Adobe Analytics consists of selecting the report suite and configuring up to 3 reports for it.
+Setting up real-time reports in Adobe Analytics consists of selecting the report suite and configuring up to 3 reports for it. By default, all users have access to Real-Time reports.
 
 1. Select the report suite for which you want to enable real-time reports.
 
@@ -47,8 +48,11 @@ Setting up real-time reports in Adobe Analytics consists of selecting the report
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Click **[!UICONTROL Save]**.
 
    After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available.
 
-1. By default, all users have access to Real-Time reports.
+1. To view the real-time report, navigate to:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
+

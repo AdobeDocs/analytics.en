@@ -3,6 +3,7 @@ title: Migrating to AppMeasurement for JavaScript
 description: Determine what's needed to migrate your implementation off of H Code.
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
+role: Developer
 ---
 # Migrating to AppMeasurement for JavaScript
 

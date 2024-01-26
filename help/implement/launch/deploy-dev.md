@@ -3,6 +3,7 @@ title: Deploy Adobe Analytics to a dev environment
 description: Learn how to use tags to deploy Adobe Analytics to your development environment.
 feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
+role: Admin, Developer
 ---
 # Deploy an Analytics implementation to a development environment
 

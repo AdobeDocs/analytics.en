@@ -3,10 +3,9 @@ description: Overview of Adobe Analytics server call usage functionality.
 title: Server Call Usage Overview
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
+role: Admin
 ---
-# Server Call Usage Overview
-
-## Why Monitor and Alert to Server Call Usage? {#section_060C29BF1D00444B85892AD1FCF55290}
+# Server Call Usage
 
 Adobe Analytics Server Call Usage addresses your requests for transparency into both browser and mobile server call usage data. It lets you access:
 
@@ -25,7 +24,7 @@ Previously, while you could access monthly server call consumption data under  *
 * **Permissions:** To access the Server Call Usage Dashboard and the Alert Builder/Manager, you must be an Adobe Analytics Administrator.
 * **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server Call Usage]**. See [Server Call Usage Permission](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
-## Important Terminology {#section_CBA348A039F34563B097CD8890AB358D}
+## Important Terminology {#terminology}
 
 Here is a short primer on essential terminology for Server Call Usage: 
 
@@ -74,7 +73,7 @@ Here is a short primer on essential terminology for Server Call Usage:
  </tbody> 
 </table>
 
-## Server Call Usage Permission {#section_FCC58EB635954A32990D4E67B52B4369}
+## Server Call Usage Permission {#permission}
 
 The Server Call Usage permission is automatically granted to Analytics Admins. It lets users view the dashboard and create server call alerts. Admins can choose to grant this permission to non-admins.
 

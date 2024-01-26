@@ -3,6 +3,7 @@ description: The Report Suite Usage tab provides server usage data for each repo
 title: View report suite usage
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+role: Admin
 ---
 # View report suite usage
 
@@ -24,6 +25,8 @@ The Report Suite Usage dashboard
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## Dashboard settings {#settings}
+
 | Column | Definition |
 |--- |--- |
 |Report Suite Name|Friendly name of the report suite|
@@ -33,8 +36,9 @@ The Report Suite Usage dashboard
 |Mobile Primary (%)|All mobile primary server calls (and their percentage of total) incurred in the current usage period.|
 |Mobile Secondary (%)|All mobile secondary server calls (and their percentage of total) incurred in the current usage period.|
 
+{style="table-layout:auto"}
 
-## Download Usage Report {#section_D7345660B5E043CD8850954216509A3D}
+## Download Usage Report {#download}
 
 This option lets you download current usage data, and data from time periods prior to the current usage period (going back to January 2015). The report downloads as a .csv file.
 
@@ -49,6 +53,8 @@ This option lets you download current usage data, and data from time periods pri
 |Included Report Suites|Any report suites you selected on the Report Server Usage page are included in this list.|
 |Included Call Types|Specify any combination of these:  All Calls (Default), Primary, Secondary,  Mobile Primary, Mobile Secondary.|
 |Time Range|You can choose the current usage period or specify a custom range.  For a custom range, specify the  Range Start and the  Range End. <br>**Note:** You cannot download usage data prior to January 2015 </br>.|
+
+{style="table-layout:auto"}
 
 1. Click **[!UICONTROL Download]**.
 

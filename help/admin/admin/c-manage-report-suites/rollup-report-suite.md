@@ -1,16 +1,11 @@
 ---
-description: Descriptions of report suite types and comparison of global report suites and rollup report suites.
-title: Report suite approaches
+description: Descriptions of global report suites
+title: Global report suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
+role: Admin
 ---
-# Report suite approaches
-
-<!-- change filename since page name changed? -->
-
-You can configure your report suites as either *global report suites* or *rollup report suites*.
-
-## Global report suites
+# Global report suites
 
 A global report suite collects data from all domains and apps that your organization owns. It requires implementation to send all image requests to a single report suite.
 
@@ -32,13 +27,13 @@ You can provide subsets of your company's global report suite data to different 
 
 Using virtual report suites instead of multi-suite tagging is often a best practice, but virtual report suites have some limitations. See "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)" to determine which report suite approach is the best choice for your business needs. For an in-depth comparison of virtual report suites and multi-suite tagging functionality, see "[Virtual report suites vs. multi-suite tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)."
 
-## Rollup reports
+<!---## Rollup reports
 
 >[!NOTE]
 >
 >[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

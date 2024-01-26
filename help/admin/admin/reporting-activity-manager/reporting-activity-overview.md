@@ -3,6 +3,7 @@ description: Learn about how to use the Reporting Activity Manager to diagnose a
 title: Reporting Activity Manager overview
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
 ---
 # Reporting Activity Manager overview
 

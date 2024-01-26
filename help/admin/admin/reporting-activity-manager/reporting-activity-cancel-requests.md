@@ -3,6 +3,7 @@ description: Learn about how to use the Reporting Activity Manager to diagnose a
 title: Cancel reporting requests in the Reporting Activity Manager
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
+role: Admin
 ---
 # Cancel reporting requests in the Reporting Activity Manager
 

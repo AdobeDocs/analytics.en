@@ -3,6 +3,7 @@ title: getValOnce
 description: Prevent an Analytics variable from being set to the same value twice in a row.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
+role: Admin, Developer
 ---
 # Adobe plug-in: getValOnce
 

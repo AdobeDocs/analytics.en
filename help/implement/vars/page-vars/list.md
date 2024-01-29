@@ -3,6 +3,7 @@ title: list
 description: Custom variables that hold multiple values in the same hit.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
+role: Admin, Developer
 ---
 # list
 
@@ -24,27 +25,27 @@ List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.c
 
 ```json
 "xdm": {
-    "_experience": {
-        "analytics": {
-            "customDimensions": {
-                "lists": {
-                    "list1": {
-                        "list": [
-                            {
-                                "value": "Example value 1"
-                            },
-                            {
-                                "value": "Example value 2"
-                            },
-                            {
-                                "value": "Example value 3"
-                            }
-                        ]
-                    }
-                }
-            }
+  "_experience": {
+    "analytics": {
+      "customDimensions": {
+        "lists": {
+          "list1": {
+            "list": [
+              {
+                "value": "Example value 1"
+              },
+              {
+                "value": "Example value 2"
+              },
+              {
+                "value": "Example value 3"
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }
 ```
 

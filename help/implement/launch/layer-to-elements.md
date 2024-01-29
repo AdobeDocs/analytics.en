@@ -3,6 +3,7 @@ title: Map data layer objects to data elements
 description: Configure tags to read from your data layer.
 feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
+role: Admin, Developer
 ---
 # Map data layer objects to data elements
 

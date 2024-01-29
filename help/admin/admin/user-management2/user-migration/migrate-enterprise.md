@@ -3,8 +3,9 @@ description: How to migrate Analytics user accounts as Enterprise or Federated I
 title: Migrate Analytics user accounts for Enterprise and Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
+role: Admin
 ---
-# Migrate Analytics user accounts for Enterprise and Federated IDs{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Migrate Analytics user accounts for Enterprise and Federated IDs
 
 How to migrate Analytics user accounts as Enterprise or Federated IDs to the Adobe Admin Console.
 

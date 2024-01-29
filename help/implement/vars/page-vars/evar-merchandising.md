@@ -4,6 +4,7 @@ description: Custom variables that tie to individual products.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
+role: Admin, Developer
 ---
 # eVar (Merchandising)
 

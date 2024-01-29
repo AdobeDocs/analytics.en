@@ -3,6 +3,7 @@ title: Implementing with Facebook Instant Articles
 description: Implement Adobe Analytics on Facebook Instant Article pages.
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+role: Developer
 ---
 # Implementing with Facebook Instant Articles
 

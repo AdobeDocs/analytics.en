@@ -3,6 +3,7 @@ title: getGeoCoordinates
 description: Track a visitor's geoLocation.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
+role: Admin, Developer
 ---
 # Adobe plug-in: getGeoCoordinates
 

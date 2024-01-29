@@ -3,6 +3,7 @@ description: Code manager lets you download data collection code for web and mob
 title: Code Manager
 feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
+role: Admin
 ---
 # Code Manager
 

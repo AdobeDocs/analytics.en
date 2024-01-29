@@ -4,6 +4,7 @@ keywords: Analytics Implementation
 title: Attribution and persistence
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
+role: Developer
 ---
 # Attribution and persistence
 

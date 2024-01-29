@@ -3,6 +3,7 @@ title: Implement Analytics for Digital Assistants
 description: Implement Adobe Analytics on Digital Assistants, such as Amazon Alexa or Google Home.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+role: Developer
 ---
 # Implement Analytics for digital assistants
 

@@ -3,6 +3,7 @@ title: s_objectID
 description: Help Activity Map identify unique links on your site.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
+role: Admin, Developer
 ---
 # s_objectID
 

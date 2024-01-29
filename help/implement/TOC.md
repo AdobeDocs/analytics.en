@@ -165,7 +165,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)
-  + [Implement Analytics using DTM](other/dtm-implementation-overview.md)
   + [Implement Analytics on Ajax](other/ajax.md)
   + [Implement Analytics on AMP](other/amp.md)
   + [Implement Analytics on Digital Assistants](other/digital-assistants.md)

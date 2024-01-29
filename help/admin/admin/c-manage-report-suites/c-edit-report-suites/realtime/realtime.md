@@ -8,17 +8,13 @@ exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 
 Displays web page traffic and ranks page views in real time. Provides actionable data to base your business decisions on.
 
-
-
 >[!NOTE]
 >
 >The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-Here is a video overview: 
+To view the real-time report, navigate to:
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL Site Metrics]** > **[!UICONTROL Real-Time]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**.
 
 Real-Time answers the following questions: What is trending on my site, and why? It allows you as a marketer to quickly respond to and actively manage the performance of your marketing content and campaigns. The real-time data reported is less than two minutes latent and auto-updates on a minute-by-minute basis.
 
@@ -46,7 +42,7 @@ Keep in mind that eVars (conversion metrics) are not supported, since there is n
 
 Setting up and viewing Real-Time reports is restricted to Admins or any user in the "All Report Access" and "Advanced Reporting" permission groups . However, Real-Time does respect permissions. If, for example, you do not have rights to see revenue, you won't be able to view a real-time report that includes revenue data.
 
-## Data Latency as a Result of A4T Configuration {#section_806CE36354FC4C539A0DED9266A5C704}
+## Data Latency as a Result of A4T Configuration {#latency}
 
 After the A4T integration is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. This latency increase allows data from Analytics and Target to be stored on the same hit, allowing you to break down tests by page and site section.
 

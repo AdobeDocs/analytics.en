@@ -3,6 +3,7 @@ title: purchaseID
 description: Deduplicate hits based on a unique purchase identifier.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
+role: Admin, Developer
 ---
 # purchaseID
 

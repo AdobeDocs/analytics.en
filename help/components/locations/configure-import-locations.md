@@ -17,9 +17,9 @@ You can configure a cloud account (and a location on that account) that is used 
 
 You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
 
-To configure a cloud import location:
+To configure a cloud import or export location:
 
-1. You need to add an account before you can add a location. If you haven't already, add an account as described in [Configure cloud import accounts](/help/components/locations/configure-import-accounts.md).
+1. You need to add an account before you can add a location. If you haven't already, add an account as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
 1. Select [!UICONTROL **Add location**]. <!-- add screenshot? -->

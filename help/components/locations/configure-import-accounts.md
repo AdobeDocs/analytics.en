@@ -15,9 +15,9 @@ You can configure a cloud account that is used for the following purposes:
 
 * Exporting data with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
-You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
+You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-To configure a cloud import and export account:
+To configure a cloud import or export account:
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location credentials**] tab.
@@ -32,7 +32,9 @@ To configure a cloud import and export account:
    | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. | 
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
-   For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. 
+   For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. (Additional legacy account types are also available, but are not recommended.)
+
+   **Account types**
 
    +++Amazon S3 Role ARN
 
@@ -88,6 +90,34 @@ To configure a cloud import and export account:
 
    +++
 
+   **Legacy account types**
+
+   These legacy account types are available only when exporting data with Data Feeds and Data Warehouse. These options are not available when importing data with Classification sets.
+
+   +++FTP
+
+      Specify the following information to configure an Amazon S3 Role ARN account:
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
+
+      {style="table-layout:auto"}
+
+   +++
+
+   +++SFTP
+
+      Specify the following information to configure a Google Cloud Platform account:
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |  
+
+      {style="table-layout:auto"}
+   
+   +++
+
 1. Select [!UICONTROL **Save**].
 
-1. Continue with [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
+1. Continue with [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).

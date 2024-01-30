@@ -25,13 +25,13 @@ Sharing segments to Adobe Experience Cloud is not supported for virtual report s
 
 Segments cannot yet be published to Adobe Experience Cloud from a virtual report suite for personalization and targeting. All users who publish segments need access to the source report suite for this purpose. For example, you want users to only have access to data for their geographical regions only, but you want them to be able to create and share segments from Adobe Analytics to Adobe Experience Cloud for targeting in Adobe Target. In this case, Adobe recommends using multi-suite tagging. If you don't mind users having access to the global report suite or you do not need to publish segments for use in other solutions, virtual report suites can be used.
 
-### Unique limits
+### Unique (low-traffic) limits
 
 If you have a global report suite that combines a large number of sites together, it is possible that you run into the [low-traffic](/help/technotes/low-traffic.md) line item frequently. If you use multi-suite tagging, this is only an issue for the global report suite (individual report suites would be less likely to see low-traffic). If you use virtual report suites, unique limits are shared, causing individual report suites to show low-traffic as well. Consider using multi-suite tagging if you want to avoid bucketing data into low-traffic.
 
-For example, a large media organization owns 100 web properties. Each property publishes a few thousand news articles monthly, in addition to hosting all articles from previous months. This organization uses a global report suite where eVar1 is 'Article Name'. In this report, there are approximately 4 million unique article names each month from the various properties combined. If using a virtual report suite, the top 500,000 values that comprise the bulk of the traffic are included in virtual report suites; the remaining 3.5 million are included under low-traffic. If multi-suite tagging is used, each individual report suite can see its own top 500k values. The global report suite unique limits is the same between using multi-suite tagging and virtual report suites.
+For example, a large media organization owns 100 web properties. Each property publishes a few thousand news articles monthly, in addition to hosting all articles from previous months. This organization uses a global report suite where eVar1 is 'Article Name'. Assume in this report there are approximately 5 million unique article names each month from the various properties combined. If using a virtual report suite, only a portion of the 5 million values are included in the virtual report suite. The remaining are included under low-traffic. If multi-suite tagging is used, each individual report suite can see its own set of unique values. 
 
-Adobe Customer Care can increase unique value limits for a small number of dimensions, which can eliminate this problem entirely. Consult your account team and Customer Care for more information.
+Adobe Customer Care can sometimes increase unique value limits for a small number of dimensions, which can eliminate this problem entirely. Consult your account team and Customer Care for more information.
 
 ### Shared variables across report suites
 

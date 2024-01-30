@@ -63,6 +63,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
+| Oregon | `192.243.242.0/24` |
 | Singapore | `130.248.170.0/23` |
 | Singapore | `130.248.240.0/24` |
 | Singapore | `63.140.44.0/22` |

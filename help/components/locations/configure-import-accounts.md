@@ -96,11 +96,14 @@ To configure a cloud import or export account:
 
    +++FTP
 
-      Specify the following information to configure an Amazon S3 Role ARN account:
+      Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
 
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
+      | [!UICONTROL **Host**] | Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`. | 
+      | [!UICONTROL **Path**] | Can be left blank. | 
+      | [!UICONTROL **Username**] | Enter the username to log in to the FTP site. | 
+      | [!UICONTROL **Password and confirm password**] | Enter the password to log in to the FTP site. | 
 
       {style="table-layout:auto"}
 
@@ -108,13 +111,7 @@ To configure a cloud import or export account:
 
    +++SFTP
 
-      Specify the following information to configure a Google Cloud Platform account:
-
-      |Field | Function | 
-      |---------|----------|
-      | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |  
-
-      {style="table-layout:auto"}
+      SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
    
    +++
 

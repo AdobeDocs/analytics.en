@@ -10,9 +10,9 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 
 ## How [!UICONTROL Low-Traffic] works
 
-* Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshod]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current threshold limits are:
-  * **[!UICONTROL low threshod]**: >500,000 unique values during the month.
-  * **[!UICONTROL high threshold]**: >1,000,000 unique values during the month.
+* Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshold]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current threshold limits are:
+  * **[!UICONTROL Low threshold]**: >500,000 unique values during the month.
+  * **[!UICONTROL High threshold]**: >1,000,000 unique values during the month.
 * Reporting is not affected if the variable does not reach the low threshold in a given month.
 * When a variable reaches the low threshold, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.

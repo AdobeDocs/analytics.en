@@ -25,6 +25,8 @@ This logic allows Adobe to optimize reporting capabilities while still allowing 
 >[!NOTE]
 >The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches the low threshold.
 
+Note that the low-traffic logic described above works best with variables which have dimension items that recur many times during the month. If a variable's dimension items are nearly or entirely unique on every hit, the variable will reach the low threshold quickly and all new dimension items for the month will end up in the low-traffic bucket.
+
 ## Changing unique limit thresholds
 
 Threshold limits can sometimes be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. The exent to which the thresholds can be increased depends on multiple factors and Adobe may not be able to accomodate threshold increases in all cases. When requesting a change, include:

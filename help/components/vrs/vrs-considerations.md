@@ -31,7 +31,7 @@ If you have a global report suite that combines a large number of sites together
 
 For example, a large media organization owns 100 web properties. Each property publishes a few thousand news articles monthly, in addition to hosting all articles from previous months. This organization uses a global report suite where eVar1 is 'Article Name'. Assume in this report there are approximately 5 million unique article names each month from the various properties combined. If using a virtual report suite, only a portion of the 5 million values will be included in the virtual report suite. The remaining are included under low-traffic. If multi-suite tagging is used, each individual report suite can see its own set of unique values. 
 
-Adobe Customer Care can sometimes increase unique value limits for a small number of dimensions, which can eliminate this problem entirely. Consult your account team and Customer Care for more information.
+Adobe Customer Care can sometimes increase unique value limits for a small number of dimensions, which may eliminate this problem entirely. Consult your account team and Customer Care for more information.
 
 ### Shared variables across report suites
 

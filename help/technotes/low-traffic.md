@@ -10,24 +10,24 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 
 ## How [!UICONTROL Low-Traffic] works
 
-* Adobe Analytics uses two thresholds to determine which unique values are displayed in reporting each month: A **[!UICONTROL low threshod]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current thresholds are:
-  * Low threshold: >500,000 unique values during the month.
-  * High threshold: >1,000,000 unique values during the month.
-* Reporting is not affected if the variable does not reach 500,000 unique values in a given month.
-* When a variable reaches 500,000 unique values, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
+* Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshod]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current thresholds are:
+  * **[!UICONTROL low threshod]**: >500,000 unique values during the month.
+  * **[!UICONTROL high threshold]**: >1,000,000 unique values during the month.
+* Reporting is not affected if the variable does not reach the low threshold in a given month.
+* When a variable reaches the low threshold, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.
   * If a value is not yet seen in reports, it initially is bucketed in the [!UICONTROL Low-Traffic] dimension item.
   * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), it starts being recognized as its own dimension item. Instances collected before meeting the threshold remain under [!UICONTROL Low-Traffic]. The exact threshold has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
-* If a report suite reaches more than 1,000,000 unique values, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
+* If a report suite reaches the high threshold, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
 
 This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, your organization runs a site with millions of articles and a new article became popular towards the end of the month (after exceeding both unique thresholds). You could still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
 
 >[!NOTE]
->The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches 500,000.
+>The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches the low threshold.
 
 ## Changing unique limit thresholds
 
-Threshold limits are 500,000 and 1 million unique values by default. These limits can be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. When requesting a change, include:
+Threshold limits can sometimes be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. The exent to which the thresholds can be increased depends on multiple factors and Adobe may not be able to accomodate threshold increases in all cases. When requesting a change, include:
 
 * The report suite ID
 * The variable you would like to increase the threshold for

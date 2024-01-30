@@ -6,10 +6,11 @@ exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
 # Low-traffic value in Adobe Analytics
 
-When a report has many unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected after approximately 500,000 existing values are listed under a dimension item labeled **[!UICONTROL Low-Traffic]**.
+When a report has many unique values, Adobe provides functionality to ensure that the most important values appear in your report. Unique variable values collected beyond a certain threshold (see below) are listed under a dimension item labeled **[!UICONTROL Low-Traffic]**.
 
 ## How [!UICONTROL Low-Traffic] works
 
+* Adobe Analytics uses two thresholds to determine which unique values are displayed in reporting each month: A **[!UICONTROL low threshod]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. 
 * Reporting is not affected if the variable does not reach 500,000 unique values in a given month.
 * When a variable reaches 500,000 unique values, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.

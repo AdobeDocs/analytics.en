@@ -18,7 +18,7 @@ When a report has many unique values, Adobe provides functionality to ensure tha
   * If a value is already seen in reports, add to that value as usual.
   * If a value is not yet seen in reports, it initially is bucketed in the [!UICONTROL Low-Traffic] dimension item.
   * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), it starts being recognized as its own dimension item. Instances collected before meeting the threshold remain under [!UICONTROL Low-Traffic]. The exact threshold has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
-* If a report suite reaches the high threshold, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
+* If a variable reaches the high threshold, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
 
 This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, your organization runs a site with millions of articles and a new article became popular towards the end of the month (after exceeding both unique thresholds). You could still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
 

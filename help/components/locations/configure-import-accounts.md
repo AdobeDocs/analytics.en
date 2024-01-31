@@ -92,7 +92,7 @@ To configure a cloud import or export account:
 
    **Legacy account types**
 
-   These legacy account types are available only when exporting data with Data Feeds and Data Warehouse. These options are not available when importing data with Classification sets.
+   These legacy account types are available only when exporting data with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). These options are not available when importing data with [Classification sets](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 

@@ -34,7 +34,9 @@ To configure a cloud import or export location:
 
 1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
 
-   For configuration instructions, expand the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. 
+   For configuration instructions, expand the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
+
+   **Account types**
 
    +++Amazon S3 Role ARN
 
@@ -87,6 +89,34 @@ To configure a cloud import or export location:
 
       {style="table-layout:auto"}
 
+   +++
+
+   **Legacy account types**
+
+   These legacy account types are available only when exporting data with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). These options are not available when importing data with [Classification sets](/help/components/classifications/sets/manage/schema.md).
+
+   +++FTP
+
+      Data feed data can be delivered to an Adobe or customer-hosted FTP location. Specify the directory  Use the path field to place feed files in a folder. 
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+
+      {style="table-layout:auto"}
+
+   +++
+
+   +++SFTP
+
+      Data feed data can be delivered to an Adobe or customer-hosted SFTP location. The destination site must contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed. 
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+
+      {style="table-layout:auto"}
+   
    +++
 
 1. Select [!UICONTROL **Save**].

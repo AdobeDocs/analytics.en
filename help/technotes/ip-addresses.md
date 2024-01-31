@@ -38,6 +38,7 @@ The following table covers all Adobe-owned IP addresses used for Adobe Analytics
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
 | `185.34.188.0/22` |
+| `192.243.240.0/22` |
 
 ## Data collection and FTP IP address blocks
 

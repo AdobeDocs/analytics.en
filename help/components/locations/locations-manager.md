@@ -7,7 +7,7 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 
-The Locations manager allows you to create, edit, or delete locations. These locations allow you to save and reuse destinations for the following uses:
+The Locations manager allows you to create, edit, or delete locations. Locations can be for any of the following uses: 
 
 * Files that are exported using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Reports that are exported using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)

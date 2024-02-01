@@ -119,6 +119,51 @@ To configure a cloud import or export location:
    
    +++
 
+   +++S3
+
+      You can send warehouse data directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+
+      The user you provide for uploading data warehouse data must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+      * s3:GetObject
+      * s3:PutObject
+      * s3:PutObjectAcl
+
+      The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
+
+      * us-east-2
+      * us-east-1
+      * us-west-1
+      * us-west-2
+      * ap-south-1
+      * ap-northeast-2
+      * ap-southeast-1
+      * ap-southeast-2
+      * ap-northeast-1
+      * ca-central-1
+      * eu-central-1
+      * eu-west-1
+      * eu-west-2
+      * eu-west-3
+      * eu-north-1
+      * sa-east-1
+
+      >[!NOTE]
+      >
+      >The cn-north-1 region is not supported.
+   
+   +++
+
+   +++Azure Blob
+
+      Data warehouse support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
+
+      >[!NOTE]
+      >
+      >You must implement your own process to manage disk space on the data warehouse destination. Adobe does not delete any data from the server.
+   
+   +++
+
 1. Select [!UICONTROL **Save**].
 
    You can now import data from the account and location that you configured.

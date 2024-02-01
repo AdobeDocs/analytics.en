@@ -49,7 +49,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
-* When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
+* When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code. We recommend using Bulk Data Insertion API (see below.)
 
 **[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

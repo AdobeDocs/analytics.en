@@ -10,7 +10,7 @@ For many marketing organizations, paid search is one of the most valuable and re
 
 These steps show you how to configure an integration with AdWords to import keyword data as well as metrics such as impressions, clicks, cost per click, and more.
 
-The steps explain how to set up a one-time import of Pay-Per-Click data. However, [!UICONTROL Data Sources] allows for the ongoing import of data using the file format described here. Depending on your paid search platform, you may be able to schedule periodic exports (daily, monthly, etc.), set up automated processes for transforming those exports into the file format that Adobe Analytics requires, and upload these files into Adobe Analytics for going paid search integration reporting.
+The steps explain how to set up a one-time import of pay-per-click data. However, [!UICONTROL Data Sources] allows for the ongoing import of data using the file format described here. Depending on your paid search platform, you may be able to schedule periodic exports (daily, monthly, etc.), set up automated processes for transforming those exports into the file format that Adobe Analytics requires, and upload these files into Adobe Analytics for going paid search integration reporting.
 
 ## Prerequisites
 

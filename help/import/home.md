@@ -1,6 +1,6 @@
 ---
 title: Analytics Import Guide
-description: This guide explains how to get data into Analytics using Data Sources, Data Insertion API, and Data Connectors.
+description: This guide explains how to get data into Analytics using Data Sources and Data Insertion APIs.    
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 ---

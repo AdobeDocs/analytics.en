@@ -89,9 +89,9 @@ No, the raw search data will come in as an independent data set. However, there 
 
 +++ What is the definition of the various status indicators for my accounts (Pending, Active, Paused, etc.)? Each of these status indicators identifies the lifecycle stage of each search engine account. 
 
-  * [!UICONTROL Pending]
-  * [!UICONTROL Paused] means the account was formerly set up but has been put in an inactive state.
-  * [!UICONTROL Active] means the account has been fully set up and is pulling search data.
+* [!UICONTROL Pending]
+* [!UICONTROL Paused] means the account was formerly set up but has been put in an inactive state.
+* [!UICONTROL Active] means the account has been fully set up and is pulling search data.
 
 +++
 

@@ -21,18 +21,18 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 
 >[!WARNING]
 >
->With the latest AppMeasure release, `cookieDomainPeriods` will be configured automatically. This has major visitor identification implications for you, when you:
+>With the latest [AppMeasurement release](../../appmeasurement-updates.md), `cookieDomainPeriods` will be configured automatically. This has major visitor identification implications for you, when you:
 >
 > * are using AppMeasurement in your implementation of Adobe Analytics, instead of the (recommended) Adobe Experience Platform Web SDK,
 > * are using domains like `example.co.uk`,
-> * using the `visitorID` configuration variable (Visitor ID service) instead of the (recommended) Experience Cloud ID service,
+> * using the [`visitorID`](visitorid.md) configuration variable (Visitor ID service) instead of the (recommended) Experience Cloud ID service,
 > * have not explictly set `cookieDomainPeriods` in your configuration (so it is implicitly incorrectly set to its default `2`),
-> * are using a fallback id to track visitors who are using browsers that block third-party cookies.
+> * are using a fallback id ([`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html_) cookie) to track visitors who are using browsers that block third-party cookies.
 >
 > If you deploy the latest AppMeasurement library without taking precautions, the following happens automatically:
 >
 > 1. The `cookieDomainPeriods` is automatically set to `3` based on the new AppMeasurement functionality.
-> 2. AppMeasurement will start setting the `s_vi` cookie, which will replace the fallback id you have been using to collect visitor information despite the blocking of third part cookies.
+> 2. AppMeasurement will start setting the [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) cookie, which will replace the fallback id you have been using to collect visitor information despite the blocking of third part cookies.
 > 
 > As a result, the visitor identification data you collect is going to be dramatically impacted.
 >

@@ -3,6 +3,7 @@ title: Cross-Device Analytics
 description: Change your data from device-focused to person-focused by stitching device data together.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
+role: Admin
 ---
 # Cross-Device Analytics
 

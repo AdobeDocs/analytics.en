@@ -3,6 +3,7 @@ description: Link to the Data insertion API documentation.
 title: Data Insertion API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
+role: Admin
 ---
 # Data Insertion API
 

@@ -20,6 +20,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **January 2024** | |
+| Component migration applies to individual IMS orgs | Clarified that [component migration](/help/admin/admin/component-migration/component-migration.md) does not support cross-IMS org migration. |
+| Clarified that certain information is available only to administrators  | Added information stating that the "Last used" and "Used in" columns that are described in [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) are available only to system administrators. |
 | Updates to Media average minute audience documentation | Updated information in [Media average minute audience panel](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) to improve clarity.<p>Improvements include:</p> <ul><li>Improved organization of information</li><li>Added steps to indicate task-based information</li></ul> |
 
 ### 2023 {#23}

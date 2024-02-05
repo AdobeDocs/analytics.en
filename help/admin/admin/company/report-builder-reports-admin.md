@@ -3,6 +3,7 @@ description: Manage license assigned to Report Builder users.
 title: Report Builder reports
 feature: Company Settings
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
+role: Admin
 ---
 # Report Builder reports
 

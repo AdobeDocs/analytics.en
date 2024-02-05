@@ -19,6 +19,25 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 >
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
+>[!WARNING]
+>
+>With the latest AppMeasure release, `cookieDomainPeriods` will be configured automatically. This has major visitor identification implications for you, when you:
+>
+> * are using AppMeasurement in your implementation of Adobe Analytics, instead of the (recommended) Adobe Experience Platform Web SDK,
+> * are using domains like `example.co.uk`,
+> * using the `visitorID` configuration variable (Visitor ID service) instead of the (recommended) Experience Cloud ID service,
+> * have not explictly set `cookieDomainPeriods` in your configuration (so it is implicitly incorrectly set to its default `2`),
+> * are using a fallback id to track visitors who are using browsers that block third-party cookies.
+>
+> If you deploy the latest AppMeasurement library without taking precautions, the following happens automatically:
+>
+> 1. The `cookieDomainPeriods` is automatically set to `3` based on the new AppMeasurement functionality.
+> 2. AppMeasurement will start setting the `s_vi` cookie, which will replace the fallback id you have been using to collect visitor information despite the blocking of third part cookies.
+> 
+> As a result, the visitor identification data you collect is going to be dramatically impacted.
+>
+
+
 ## Domain periods using the Web SDK
 
 The Web SDK can determine the correct cookie storage domain without this variable.

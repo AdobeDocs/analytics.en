@@ -3,6 +3,7 @@ description: Enables you to control access to reporting data. Options include st
 title: Security Manager
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
+role: Admin
 ---
 # Security Manager
 

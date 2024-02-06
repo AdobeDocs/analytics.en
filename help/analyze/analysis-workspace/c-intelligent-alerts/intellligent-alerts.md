@@ -13,21 +13,20 @@ Here is a video tutorial on [Intelligent Alerts](https://experienceleague.adobe.
 
 ## Overview
 
-The new Alert Builder and Alert Manager in Analysis Workspace replace the existing alert functionality in Reports & Analytics. Intelligent Alerts let you:
+ Intelligent Alerts let you:
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below)
 * Preview how often an alert will trigger
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects
 * Create "stacked" alerts that capture multiple metrics in a single alert
 
-There are four ways get to the Alert Builder:
+There are three ways get to the Alert Builder:
 
 | Method | Details |
 | --- | --- |
 | Go directly to the Alert Builder |  **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
 | Use the keyboard shortcut in Workspace | `Ctrl + Shift + A` (Windows) or `Cmd + Shift + A` (Mac) |
 | Select one or more freeform table line item/s | Right-click and select **[!UICONTROL Create Alert from Selection]**. This opens the [!UICONTROL Alert Builder] and pre-populates the appropriate metrics and filters applied from the table. You can edit the alert if needed. ![Create alert from selection](assets/create-alert-from-selection.png) |
-| From within a Reports & Analytics report | Go to  **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . This opens the alert builder and pre-populates the appropriate metrics and filters applied from the report. You can edit the alert if needed. ![Add alert](assets/add-alert.png) |
 
 The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
 

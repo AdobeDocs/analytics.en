@@ -3,6 +3,7 @@ title: server
 description: Populate the 'Servers' dimension.
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
+role: Admin, Developer
 ---
 # server
 

@@ -3,7 +3,7 @@ description: Processing rules are used to move values from Context Data variable
 subtopic: Processing rules
 title: Copy a context data variable to an eVar
 feature: Admin Tools
-uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
+role: Admin
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
 ---
 # Copy a context data variable to an eVar

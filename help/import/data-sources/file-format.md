@@ -3,6 +3,7 @@ title: Data source file format
 description: Correctly generate a file for use in data sources.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
+role: Admin
 ---
 # Data source file format
 
@@ -67,8 +68,8 @@ Adobe does not support data sources for any other dimensions or metrics. If vari
 
 The first value in every row **must** be the date. Date format must be in one of the following formats:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Omitting the hours/minutes/seconds automatically sets the timestamp to 12 PM for that day.
 

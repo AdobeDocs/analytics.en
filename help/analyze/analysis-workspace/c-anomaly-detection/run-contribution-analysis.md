@@ -9,7 +9,7 @@ feature: Anomaly Detection
 
 [Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 
-## Run Contribution Analysis {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Run Contribution Analysis {#run}
 
 There are two ways to invoke contribution analysis in a project:
 
@@ -25,10 +25,10 @@ There are two ways to invoke contribution analysis in a project:
 
   ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](#exclude).
 
 1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension.
-1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. You will notice a lot of familiar panels if you have used Contribution Analysis in Reports & Analytics before:
+1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. 
 
     * A visualization that shows the number of **Visits** on that day.
     * A monthly **Visits Trend line** for context.
@@ -50,7 +50,7 @@ There are two ways to invoke contribution analysis in a project:
 >
 >We highlight the anomaly being analyzed with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This provides a clearer indication of the anomaly being analyzed.
 
-## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Exclude dimensions from Contribution Analysis {#exclude}
 
 There may be times when you want to exclude some dimensions from Contribution Analysis. For example, you may not care about any browser- or hardware-related dimensions at all, and you want to speed up analysis by removing them.
 

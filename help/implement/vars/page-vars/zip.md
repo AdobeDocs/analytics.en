@@ -3,6 +3,7 @@ title: zip
 description: Manually populate the 'Zip Code' dimension if report suite settings allow.
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
+role: Admin, Developer
 ---
 # zip
 

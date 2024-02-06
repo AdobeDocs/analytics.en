@@ -3,6 +3,7 @@ description: Traffic classifications allow you to classify traffic variables (pr
 subtopic: Classifications
 title: Traffic classifications
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 ---
 # Traffic classifications

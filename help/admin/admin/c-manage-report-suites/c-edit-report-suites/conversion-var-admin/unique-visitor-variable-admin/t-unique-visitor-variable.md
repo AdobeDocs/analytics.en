@@ -2,6 +2,7 @@
 description: Steps that describe how to designate which eVar contains your visitor identifier.
 title: Specify the Unique Visitor variable
 feature: Admin Tools
+role: Admin
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 ---
 # Specify the Unique Visitor variable

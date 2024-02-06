@@ -3,6 +3,7 @@ description: How to view current server call usage in Adobe Analytics.
 title: View current server call usage
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
+role: Admin
 ---
 # View current server call usage
 

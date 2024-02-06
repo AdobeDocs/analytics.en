@@ -1,8 +1,9 @@
 ---
 title: clearVars
-description: Clears the following values from the instance object. This function removes the elements (sets them as "undefined.")
+description: Clear values from the instance object.
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
+role: Admin, Developer
 ---
 # clearVars
 

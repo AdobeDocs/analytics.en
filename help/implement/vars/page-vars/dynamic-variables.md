@@ -3,6 +3,7 @@ title: Dynamic variables
 description: Copy variables without increasing image request length.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
+role: Admin, Developer
 ---
 # Dynamic variables
 

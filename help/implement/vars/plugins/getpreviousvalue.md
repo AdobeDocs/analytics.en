@@ -3,6 +3,7 @@ title: getPreviousValue
 description: Get the last value passed into a variable.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
+role: Admin, Developer
 ---
 # Adobe plug-in: getPreviousValue
 

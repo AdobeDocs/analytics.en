@@ -1,16 +1,11 @@
 ---
-description: Descriptions of report suite types and comparison of global report suites and rollup report suites.
-title: Report suite approaches
+description: Descriptions of global report suites
+title: Global report suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
+role: Admin
 ---
-# Report suite approaches
-
-<!-- change filename since page name changed? -->
-
-You can configure your report suites as either *global report suites* or *rollup report suites*.
-
-## Global report suites
+# Global report suites
 
 A global report suite collects data from all domains and apps that your organization owns. It requires implementation to send all image requests to a single report suite.
 
@@ -32,17 +27,13 @@ You can provide subsets of your company's global report suite data to different 
 
 Using virtual report suites instead of multi-suite tagging is often a best practice, but virtual report suites have some limitations. See "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)" to determine which report suite approach is the best choice for your business needs. For an in-depth comparison of virtual report suites and multi-suite tagging functionality, see "[Virtual report suites vs. multi-suite tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)."
 
-## Rollup reports
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] is the only tool that supports rollup reports, and Adobe no longer recommends using rollups. Instead, consider using a global report suite with multi-suite tagging or virtual report suites.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-A rollup report is a simple aggregation of data from multiple report suites, without deduplication or any segment or data breakdowns. Rollups do not require code implementation. To use rollup reports, [implement child report suites](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) and then [combine them into a rollup report](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) using [!UICONTROL Admin Tools].
-
-Rollup reports are free: the child report suites incur their own server calls, but the rollup does not incur additional calls. Rollups are a legacy feature and have many limitations.
-
-### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.
@@ -74,6 +65,6 @@ Rollup reports are free: the child report suites incur their own server calls, b
 
 **Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Supported products**: Rollups can only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

@@ -22,4 +22,4 @@ Dimension items include the names of pages on your site. Your organization deter
 
 >[!NOTE]
 >
->In Reports & Analytics, conversion metrics use linear attribution for this dimension. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analysis Workspace uses last attribution by default, with the option to use any attribution model.
+>Analysis Workspace uses last attribution by default, with the option to use any attribution model.

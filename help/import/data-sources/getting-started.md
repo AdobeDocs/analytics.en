@@ -3,10 +3,11 @@ title: Getting started with data sources
 description: Upload example data into a development report suite.
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
+role: Admin
 ---
 # Getting started with data sources
 
-You can follow these steps to easily upload sample data into a development report suite to see the workflow in action. Once you understand the process, you can expand and tailor it specific to your organization's implementation.
+You can follow these steps to easily upload sample data into a development report suite to see the workflow in action. Once you understand the process, you can expand and tailor it specifically to your organization's implementation.
 
 >[!IMPORTANT]
 >

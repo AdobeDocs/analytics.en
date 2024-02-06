@@ -3,6 +3,7 @@ title: Product profile permissions for Analytics Tools
 description: Use Analytics Tools permission items to grant access to features within Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
+role: Admin
 ---
 # Product profile permissions for Analytics Tools
 
@@ -12,14 +13,13 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 |----|----|
 | [!UICONTROL Activity Map] | Grants access to Tools > Activity Map. Allows the user to use the Activity Map extension. |
 | [!UICONTROL Advertising Analytics Management] | Lets users set up/edit/view advertising search accounts. |
-| [!UICONTROL Analysis Workspace Access]| Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports & Analytics Access to use Adobe Analytics. |
+| [!UICONTROL Analysis Workspace Access]| Grants access to Analysis Workspace. |
 | [!UICONTROL Analysis Workspace: Save As Template] | Grants access to Project > Save As Template within Analysis Workspace. |
 | [!UICONTROL Annotation Creation] | Grants the ability to create annotations. |
 | [!UICONTROL Calculated Metric Creation] | Grants the ability to create calculated metrics across all Analytics capabilities. |
 | [!UICONTROL Co-Branding] | Not used |
 | [!UICONTROL Code Manager] | Kept around for legacy purposes. Grants access to Admin > All admin > Code manager. In most cases, use the libraries included in the Adobe Analytics extension within Adobe Experience Platform Data Collection instead. |
 | [!UICONTROL Code Manager - Web Services]| Grants access to the Code Manager via the 1.4 API. |
-| [!UICONTROL Current Data] | Enables the option to see current data in Reports & Analytics reports. |
 | [!UICONTROL Excel License Users]| Not used. |
 | [!UICONTROL Hide Report Suites] | Grants access to Admin > All admin > Company settings > Hide Report Suites. Grants the ability to hide any report suite in the organization, regardless of their report suite access. |
 | [!UICONTROL Integrations (Create)]| Not used. Data Connectors have been end-of-lifed.|
@@ -32,7 +32,6 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | [!UICONTROL Pending Actions]| Grants access to Admin > All admin > Company settings > Pending Actions. |
 | [!UICONTROL Preferences] | Not used |
 | [!UICONTROL Report Builder] | Enables the download button under Tools > Report Builder, and allows the user to authenticate within Microsoft Excel. |
-| [!UICONTROL Reports & Analytics Access] | Grants access to Reports & Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics. |
 | [!UICONTROL Security] | Grants access to Admin > All admin > Company settings > Security Manager. |
 | [!UICONTROL Segment Creation] | Grants the ability to create and share segments across all Analytics capabilities. |
 | [!UICONTROL Segment Publishing] | Grants the ability to make a segment an Experience Cloud audience when creating or editing a segment. |

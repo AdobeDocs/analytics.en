@@ -3,6 +3,7 @@ title: Adobe Analytics and browser cookies
 description: Learn how tracking prevention measures affect third-party and first-party cookies set by Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
+role: Admin
 ---
 # Adobe Analytics and browser cookies
 
@@ -68,7 +69,7 @@ If these limitations do impact your data, you will see:
 
 Third-party cookies are not created by the websites that users visit.
 
-Although browsers currently treat all third-party cookies the same and store them so, third-party cookies can behave in different ways. With a customer’s Analytics third-party cookie implementation, browsers store the Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie, but the client makes calls only to Adobe, and not too unknown or suspicious third-party domains. This cookie provides persistent identifiers across domains and allows for secure (HTTPS) content. For more information, see [Cookies and the Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Although browsers currently treat all third-party cookies the same and store them so, third-party cookies can behave in different ways. With a customer's Analytics third-party cookie implementation, browsers store the Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie, but the client makes calls only to Adobe, and not too unknown or suspicious third-party domains. This cookie provides persistent identifiers across domains and allows for secure (HTTPS) content. For more information, see [Cookies and the Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 Within Analytics implementations, third-party cookies are used for cross-domain tracking and for advertising use cases, including retargeting ads. Third-party cookies allow you to identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 

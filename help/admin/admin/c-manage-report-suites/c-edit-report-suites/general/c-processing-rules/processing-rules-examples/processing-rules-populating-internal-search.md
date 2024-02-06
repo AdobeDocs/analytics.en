@@ -3,7 +3,7 @@ description: If you use a common variable, such as q, to populate search terms, 
 subtopic: Processing rules
 title: Populate internal search terms using a query string parameter
 feature: Admin Tools
-uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
+role: Admin
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 ---
 # Populate internal search terms using a query string parameter

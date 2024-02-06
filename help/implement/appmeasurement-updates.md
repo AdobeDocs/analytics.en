@@ -3,6 +3,7 @@ title: AppMeasurement for JavaScript release notes
 description: Cumulative release notes for AppMeasurement for JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+role: Admin, Developer, Leader, User
 ---
 # AppMeasurement for JavaScript release notes
 

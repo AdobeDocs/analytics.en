@@ -3,6 +3,7 @@ title: Implement Adobe Analytics
 description: Implement Adobe Analytics on your site, property, or application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
+role: Admin, Developer, Leader, User
 ---
 # Implement Adobe Analytics
 

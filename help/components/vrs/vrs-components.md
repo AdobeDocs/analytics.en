@@ -29,7 +29,6 @@ To enable component curation,
    >
    >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
    >
-   >* [!UICONTROL Reports & Analytics] 
    >* [!UICONTROL Data Warehouse] 
    >* [!UICONTROL Report Builder] 
    >* [!UICONTROL Activity Map]

@@ -10,13 +10,13 @@ This page is about troubleshooting sessions, meaning you are able to successfull
 
 Almost all session-based issues originate from an organization's customized corporate network. If you are able to login to Adobe Analytics but have trouble staying logged in, use this article to help determine the cause.
 
-## Determine if the issue is due to your organization's network
+## Determine if the issue is due to your organization's network {#network}
 
 Many organizations deploy additional network features to enhance security, such as proxy servers or firewalls. These customizations can sometimes interfere with the ability to retain an active session in Adobe Analytics.
 
 To determine if the corporate network you're connected to is causing issues with using Adobe Analytics, use your Experience Cloud login credentials on a device outside of your corporate network. Examples of devices can be through your home network or a mobile device's data plan. If you are able to successfully move from page to page without being logged out, your organization's network is likely the reason why you get logged out of Adobe Analytics.
 
-## Issues due to proxy
+## Issues due to proxy {#proxy}
 
 Adobe uses an authorization header when making requests to Adobe. Some proxies, such as Edge Secure Web Gateway (formerly Bluecoat), strip critical authorization header information used by Adobe Analytics. When Adobe does not see the authorization header, the session expires.
 

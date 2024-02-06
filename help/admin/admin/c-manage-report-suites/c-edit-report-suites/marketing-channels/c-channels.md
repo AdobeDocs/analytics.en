@@ -4,6 +4,7 @@ subtopic: Marketing channels
 title: Manage marketing channels
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
+role: Admin
 ---
 # Manage marketing channels
 
@@ -71,7 +72,6 @@ There are various settings that can be applied to each channel on the [!UICONTRO
 |Override Last-Touch Channel|Lets you choose whether to override an existing, persistent last-touch channel with the selected channel. If you select this checkbox, any channel (including Direct and Internal) would override an existing last-touch channel. The result is conversion being attributed to a channel that might not deserve credit. For example, this option can ensure that the Direct channel does not receive credit for conversion if the user had previously been acquired via the Natural Search channel.|
 |Channel Breakdown|Lets you break down a channel by this value. You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md).|
 |Type|Specifies how the user came to your site. You can select Online or Offline. Use Online channels for visitors who come through a search engine or email campaign. Offline channels apply to visitors who found your site through newspaper coupons or magazine advertisements. Offline channels usually include data imported through reporting Data Sources. See [Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). See [Add Offline Data](/help/components/c-marketing-channels/c-getting-started-mchannel.md).|
-|Color|Reports & Analytics only: The color associated with this marketing channel. This color represents the channel in the  Marketing Channel report.|
 
 ### Override best practices
 

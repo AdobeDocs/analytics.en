@@ -12,11 +12,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 >
 >Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension items are specific to individual report suites.
 
->[!NOTE]
->
->There are some overlaps where Analytics tools use different terms for similar dimensions. For example, Reports & Analytics uses `browserwidth` while Analysis Workspace uses `browserwidthbucketed`.
-
-## Dimensions supported in both Reports & Analytics and Analysis Workspace
+## Dimensions supported in Analysis Workspace
 
 |Dimension Name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |---|---|
@@ -95,11 +91,6 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |Visit Depth|`pathlength`|
 |Visit Number|`visitnumber`|
 |Zip Code|`zip`|
-
-## Dimensions supported only in Analysis Workspace
-
-|Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
-|--- |--- |
 |AM/PM|`timepartampm`|
 |Browser Height - Bucketed|`browserheightbucketed`|
 |Browser Width - Bucketed|`browserwidthbucketed`|
@@ -158,24 +149,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |Nielsen Channel Asset|`nielsenchannelasset`|
 |Nielsen Content Type|`nielsencontenttype`|
 
-## Dimensions supported only in Reports & Analytics
-
-|Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
-|--- |--- |
-|Browser Height|`browserheight`|
-|Browser Width|`browserwidth`|
-|Daily Unique Customers|`dailyuniquecustomers`|
-|JavaScript|`javascriptsupport`|
-|JavaScript Version|`javascriptversion`|
-|Monthly Unique Customers|`monthlyuniquecustomers`|
-|Quarterly Unique Customers|`quarterlyuniquecustomers`|
-|Time Zones|`timezone`|
-|Top Level Domains|`topleveldomain`|
-|Visitor State|`legacystate`|
-|Weekly Unique Customers|`weeklyuniquecustomers`|
-|Yearly Unique Customers|`yearlyuniquecustomers`|
-
-## Content-aware dimensions supported by both Reports & Analytics and Analysis Workspace
+## Content-aware dimensions supported by Analysis Workspace
 
 ### Video (Media Analytics)
 

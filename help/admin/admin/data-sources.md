@@ -3,7 +3,9 @@ description: The Data Sources feature allows you to import data to Analytics fro
 title: Data Sources for administrators
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
+role: Admin
 ---
+
 # Data Sources
 
 The Data Sources feature allows you to import data to Analytics from offline sources. Once imported, this data can be treated and handled similarly to data that was collected natively.

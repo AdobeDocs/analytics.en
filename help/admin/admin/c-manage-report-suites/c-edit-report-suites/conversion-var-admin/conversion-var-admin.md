@@ -3,6 +3,7 @@ description: The Custom Insight Conversion Variable (or eVar) is placed in the A
 keywords: eVar
 title: Conversion Variables (eVar)
 feature: Admin Tools
+role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 ---
 # Conversion Variables (eVars)

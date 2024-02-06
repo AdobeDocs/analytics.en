@@ -3,6 +3,7 @@ description: A comprehensive list and descriptions of the configuration variable
 title: Server-side forwarding data and code reference
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
+role: Admin
 ---
 # Server-side forwarding data and code reference
 

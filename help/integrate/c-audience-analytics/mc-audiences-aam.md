@@ -13,7 +13,7 @@ With the Audience Analytics integration in place, you can incorporate Adobe Audi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## Key Benefits {#section_94816D17283349E0BA28521BE55BB868}
+## Key Benefits {#benefits}
 
 The Audience Analytics integration features the following key benefits:
 
@@ -23,7 +23,7 @@ The Audience Analytics integration features the following key benefits:
 * Solution admins can enable the integration through the user interface, with minimal code changes required.
 * Only segments that adhere to Audience Manager data export controls are shared.
 
-## How it Works {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## How Audience Analytics works {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
@@ -35,7 +35,7 @@ Because Adobe Audience Manager segments are inserted on a same-hit basis, you ca
 
 In addition, we automatically classify the Adobe Audience Manager segment IDs to their friendly names for you, so that you won't have to look at alpha-numeric IDs in Analytics reports.
 
-## Prerequisites {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## Prerequisites {#prerequisites}
 
 Ensure that the following prerequisites are in place:
 

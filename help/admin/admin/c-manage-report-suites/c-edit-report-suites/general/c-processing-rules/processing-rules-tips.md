@@ -3,6 +3,7 @@ description: This section contains guidelines for testing processing rules and a
 subtopic: Processing rules
 title: Processing rules tips and tricks
 feature: Processing Rules
+role: Admin
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 ---
 # Processing rules tips and tricks

@@ -3,6 +3,7 @@ description: Log files to help you see when users log in, their usage, access, r
 title: Logs
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
+role: Admin
 ---
 # Logs
 
@@ -37,14 +38,12 @@ The [!UICONTROL Usage and Access Log] lets you evaluate report usage at the user
 | Login successful | User logged in successfully. |
 | Admin Action | An admin action occurred, like editing a report suite, changing company settings, creating a user, canceling a reporting request, etc. |
 | Security setting change | A security setting was changed. |
-| Report viewed | A Reports & Analytics report was viewed. |
-| Report downloaded | A Reports & Analytics report was downloaded. |
 | Alert sent | An alert was sent. |
 | User Action | User information was edited. |
 | Tool viewed | A tool was viewed. |
 | Omniture Action | An action was performed by Adobe. |
 | Password recovery | A password was recovered. |
-| BookMarks | A bookmark was managed. |
+| Bookmarks | A bookmark was managed. |
 | Dashboards | A dashboard was managed. |
 | Alerts | An alert was managed. |
 | Calendar Events | A calendar event was managed. |

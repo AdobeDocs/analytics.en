@@ -3,6 +3,7 @@ title: Set up Cross-Device Analytics
 description: Configure a virtual report suite to enable CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
+role: Admin
 ---
 # Set up Cross-Device Analytics
 
@@ -12,7 +13,7 @@ Once all prerequisites are met, use the following steps to enable Cross-Device A
 >
 >All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See the [overview page](overview.md) and the desired stitching method ([Field-based stitching](field-based-stitching.md) or [Device graph](device-graph.md), respectively) for prerequisites and limitations.
 
-## Open a ticket with Customer Care to have CDA provisioned on your cross-device report suite
+## 1. Open a ticket with Customer Care to have CDA provisioned on your cross-device report suite
 
 CDA is provisioned on your cross-device report suite by Adobe engineering. To start this process, contact Customer Care and be prepared to provide the following information:
 
@@ -25,7 +26,7 @@ The default is weekly replay with 7-day lookback window. In this case, data with
 
 Once you provide Customer Care with this information, they will work with Adobe Engineering to enable your chosen report suite for CDA processing.
 
-## Create a cross-device virtual report suite to see the cross-device view
+## 2. Create a cross-device virtual report suite to see the cross-device view
 
 Administrators with access to create virtual report suites can create CDA virtual report suites as follows:
 

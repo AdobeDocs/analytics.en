@@ -20,7 +20,6 @@ Access the Alert Builder in one of four ways:
   `ctrl (or cmd) + shift + a` 
 * By going to **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a Reports & Analytics report, by going to **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Build Alerts
 

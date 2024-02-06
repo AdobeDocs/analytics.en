@@ -3,6 +3,7 @@ description: Administrative steps for enabling Activity Map reporting in Analyti
 title: Activity Map reporting
 feature: Activity Map
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
+role: Admin
 ---
 # Activity Map reporting
 

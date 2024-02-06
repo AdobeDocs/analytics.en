@@ -3,6 +3,7 @@ title: Exclude data in Adobe Analytics
 description: Learn various methods around how to exclude data both before and after data collection.
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 feature: Data Configuration and Collection
+role: Admin
 ---
 # Exclude data in Adobe Analytics
 

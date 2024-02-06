@@ -15,26 +15,24 @@ These release notes cover the release period of February 14, 2024 to March 11, 2
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Activity Map for Web SDK without extra cost** | Currently, link events in Activity Map are their own events and incur extra cost. This enhancement takes Activity Map link events and packages them into the next hit. |  | February 14, 2024 |
-| Increase in default report suite low-traffic thresholds| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li></ul> | Mid April, 2024 | End of May, 2024 |
+| **Increase in default low-traffic thresholds**| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li></ul> | Mid April, 2024 | End of May, 2024 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-319515; AN-337559; AN-339327; 
+* Fixed the following Classifications issues: AN-319515; AN-337559; AN-338149; AN-338702; AN-338769; AN-338891; AN-339327; AN-339668; AN-339669; AN-339776; AN-339822; 
+* Fixed the following Classifications Rule Builder issues: AN-338385; AN-338399; AN-338592; AN-338810; AN-338893; AN-339431; AN-339933; 
+* Fixed the following A4T issues: AN-334830; AN-338309; AN-338650; 
+* Fixed the following Data Collection issues: AN-339323
+* Fixed the following Data Warehouse issues: AN-335542; AN-331425; AN-337215; AN-338643; AN-338651; AN-339461; 
+* Fixed the following Data Feeds issues: AN-335952; AN-338653; AN-339508; AN-339681; 
+* Fixed the following Data Sources issues: AN-338648
+* Fixed the following Analysis Workspace issues: AN-326509; AN-336186; AN-336190; AN-336309; AN-337922; AN-338094; AN-338323; AN-338556; AN-339600; 
 
-* Fixed the following Classifications Rule Builder issues: AN-339933; 
+### Other Analytics fixes
 
-* Fixed the following A4T issues: 
-* Fixed the following Server Call Usage issues:
-* Fixed the following Data Warehouse issues:  
-* Fixed the following Data Feeds issues: 
-* Fixed the following Report Builder issues: 
-* Fixed the following Analysis Workspace issues: AN-339600; 
-
-### Other fixes
-
-
+AN-328239; AN-332908; AN-335517; AN-336075; AN-336100; AN-336128; AN-338088; AN-338270; AN-338393; AN-338494; AN-339326; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

@@ -12,7 +12,7 @@ Data collected by Adobe Analytics is retained for a specific period of time. The
 
 Data retained is based on the current date and the date/time of historical data. The date/time recorded on hits can be different than the date/time the hit(s) were received by Adobe.
 
-## Adjusting the default data retention period
+## Adjust the default data retention period
 
 If you would like to reduce or extend the default data retention period, contact your Adobe Account Team.
 
@@ -33,19 +33,27 @@ The Data Governance dialog in [!UICONTROL Admin] Tools provides an overview of w
 
 ## Frequently asked questions
 
-**How do I decide on my organization's data retention period?**
++++ How do I decide on my organization's data retention period?
 
 Your company, as the data controller, can identify stakeholders (such as your marketing, analytics, and privacy teams) within your organization responsible for making decisions about data retention. Your organization is in the best position to know the appropriate period for how long Adobe Analytics retains data.
 
-**How do I calculate the data retention window?**
++++
+
++++ How do I calculate the data retention window?
 
 The data retention policy defines a rolling data retention window in which complete data can be viewed and reported. The data retention start date is determined by the current date minus the data retention period. The data retention end date is determined by the current date. Data is included in the data retention window if the timestamp of the data is between the start date and end date.
 
-**Can I request a copy of my data prior to it being deleted?**
++++
+
++++ Can I request a copy of my data prior to it being deleted?
 
 Yes. Adobe can provide a historical data dump of raw, hit-level data. See [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide for more information. If you have data export requirements outside the scope of what the UI can provide, contact your Adobe Account Team. Special accommodations can be made; costs may vary.
 
-**When does Adobe delete data?**
++++
+
++++ When does Adobe delete data?
 
 Contact your Adobe Account Team for the specific time your data is scheduled to be deleted. Data is typically deleted on a rolling monthly basis.
+
++++
 

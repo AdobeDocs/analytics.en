@@ -24,7 +24,7 @@ These release notes cover the release period of February 14, 2024 to March 11, 2
 * Fixed the following Classifications issues: AN-319515; AN-337559; AN-338149; AN-338702; AN-338769; AN-338891; AN-339327; AN-339668; AN-339669; AN-339776; AN-339822; 
 * Fixed the following Classifications Rule Builder issues: AN-338385; AN-338399; AN-338592; AN-338810; AN-338893; AN-339431; AN-339933; 
 * Fixed the following A4T issues: AN-334830; AN-338309; AN-338650; 
-* Fixed the following Data Collection issues: AN-339323
+* Fixed the following Data Collection issue: AN-339323
 * Fixed the following Data Warehouse issues: AN-335542; AN-331425; AN-337215; AN-338643; AN-338651; AN-339461; 
 * Fixed the following Data Feeds issues: AN-335952; AN-338653; AN-339508; AN-339681; 
 * Fixed the following Data Sources issues: AN-338648
@@ -38,7 +38,7 @@ AN-328239; AN-332908; AN-335517; AN-336075; AN-336100; AN-336128; AN-338088; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| Adobe API object member additions | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects without notice or changes in versioning. Such additions should be non-breaking changes for your implementation. Adobe recommends that you refer to the API documentation of any third-party tool that you integrate with our APIs so that such additions are ignored in processing if not understood. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
+| Adobe API object member additions | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects at any time and without notice or changes in versioning. Adobe recommends that you refer to the API documentation of any third-party tool you integrate with our APIs so that such additions are ignored in processing, if not understood. If implemented properly, such additions are non-breaking changes for your implementation. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
 | `getPageLoadTime` plugin deprecated | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
 
 {style="table-layout:auto"}

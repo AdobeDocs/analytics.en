@@ -45,9 +45,17 @@ When creating a data feed, you provide Adobe with:
    >Consider the following when configuring a report destination:
    >
    >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Any cloud accounts that you previously configured are available to use for Data Feeds. You can configure cloud accounts in any of the following ways:
+   >
+   >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 
+   >   
+   >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Any locations that are configured for importing classification data cannot be used.)
+   >   
+   >   * Directly from [Components > Locations](/help/components/locations/configure-import-accounts.md) 
    >
    >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
    >
+   >* You can edit any locations that you create from [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 

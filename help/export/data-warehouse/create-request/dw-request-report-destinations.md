@@ -14,12 +14,19 @@ For information about how to begin creating a request, as well as links to other
 >
 >Consider the following when configuring a report destination:
 >
->* We recommend using a cloud account or email for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
+>* We recommend using a cloud account or email for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available but are not recommended.
 >
->* Any cloud accounts that you previously configured for [Data Feeds](/help/export/analytics-data-feed/create-feed.md) or for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) are available to use for Data Warehouse. However, any locations that are configured for importing classification data cannot be used.
+>* Any cloud accounts that you previously configured are available to use for Data Warehouse. You can configure cloud accounts in any of the following ways:
+>
+>   * When configuring [Data Feeds](/help/export/analytics-data-feed/create-feed.md) 
+>   
+>   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Accounts can be used, but any locations that are configured on those accounts cannot be.)
+>   
+>   * Directly from [Components > Locations](/help/components/locations/configure-import-accounts.md). 
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
+>* You can edit any locations that you create from [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
 To configure the destination where Data Warehouse reports are sent:
 

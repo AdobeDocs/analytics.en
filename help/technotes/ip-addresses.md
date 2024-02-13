@@ -38,6 +38,7 @@ The following table covers all Adobe-owned IP addresses used for Adobe Analytics
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
 | `185.34.188.0/22` |
+| `192.243.240.0/22` |
 
 ## Data collection and FTP IP address blocks
 
@@ -63,6 +64,7 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
+| Oregon | `192.243.242.0/24` |
 | Singapore | `130.248.170.0/23` |
 | Singapore | `130.248.240.0/24` |
 | Singapore | `63.140.44.0/22` |

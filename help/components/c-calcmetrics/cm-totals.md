@@ -4,7 +4,7 @@ description: Learn about calculated metrics totals in Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
 ---
-# Calculated metrics totals [!DNL Analysis Workspace]
+# Calculated metrics totals in Analysis Workspace
 
 When you view data in Analysis Workspace, calculated metric totals are displayed in most cases. In some cases, providing a total is not possible, such as when the rows of the report are of mixed format (e.g. decimal and currency).
 

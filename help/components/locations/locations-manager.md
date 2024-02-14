@@ -11,7 +11,7 @@ The Locations manager allows you to create, edit, or delete locations. Locations
 
 * Files that are exported using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Reports that are exported using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Schemas that are imported using [Classification sets](/help/components/classifications/sets/manage/schema.md)
+* Schemas that are imported using [Classification sets](/help/components/classifications/sets/overview.md)
 
 ## Filter locations
 
@@ -42,12 +42,12 @@ The following options are available in the Locations manager:
 
 * **[!UICONTROL Add location]**: Create a location. 
 
-  For more information, see [Configure cloud import locations](/help/components/locations/configure-import-locations.md).
+  For more information, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 * **[!UICONTROL Search field]**: Search for locations by name.
 * **[!UICONTROL Load more]**: The Locations manager initially displays up to 1,000 locations. This button loads 1,000 more locations.
 * **Customize table**: The Customize table icon ![Customize table icon](assets/customize-table-icon.png) allows you to choose which columns are displayed in the table.
 
 Selecting a checkbox next to a location reveals the following options:
 
-* **[!UICONTROL Edit]**: Allows you to edit the selected location. For information about available fields that you can edit, see [Configure cloud import locations](/help/components/locations/configure-import-accounts.md).
+* **[!UICONTROL Edit]**: Allows you to edit the selected location. For information about available fields that you can edit, see [Configure cloud import and export locations](/help/components/locations/configure-import-accounts.md).
 * **[!UICONTROL Delete]**: Deletes the selected locations. This option allows you to select multiple locations.

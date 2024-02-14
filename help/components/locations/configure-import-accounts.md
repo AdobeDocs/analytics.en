@@ -1,7 +1,7 @@
 ---
 description: Configure the cloud import account and location where classification data can be uploaded
 keywords: Analysis Workspace
-title: Configure cloud import accounts
+title: Configure cloud import and exportaccounts
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 ---

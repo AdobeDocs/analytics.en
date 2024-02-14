@@ -7,19 +7,21 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 
-The Locations manager allows you to create, edit, or delete locations. Locations can be for any of the following uses: 
+The Locations manager allows you to view, create, edit, or delete locations. Locations can be for any of the following uses: 
 
 * Files that are exported using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Reports that are exported using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 * Schemas that are imported using [Classification sets](/help/components/classifications/sets/overview.md)
 
-## Filter locations
+## View and filter locations
 
-The left side of the Locations manager provides filter settings to find the desired locations. 
+The Location manager allows you to view the any locations that you created. System administrators can view locations created by all users.
 
 1. To access the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
-1. Select the filter icon. 
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **Show all locations**] option to view locations created by all users in your organization. <!-- double-check this step and maybe add a screenshot? This is new functionality -->
+
+1. (Optional) Select the filter icon to filter the list of locations. 
 
    You can filter locations by **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, or **[!UICONTROL Created By]**.
 

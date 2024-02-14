@@ -22,7 +22,7 @@ For information about how to begin creating a request, as well as links to other
 >   
 >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Accounts can be used, but any locations that are configured on those accounts cannot be.)
 >   
->   * Directly from [Components > Locations](/help/components/locations/configure-import-accounts.md). 
+>   * From the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md). 
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >

@@ -51,7 +51,7 @@ When creating a data feed, you provide Adobe with:
    >   
    >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Any locations that are configured for importing classification data cannot be used.)
    >   
-   >   * Directly from [Components > Locations](/help/components/locations/configure-import-accounts.md) 
+   >   * From the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md) 
    >
    >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
    >

@@ -55,7 +55,7 @@ When creating a data feed, you provide Adobe with:
    >
    >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
    >
-   >* You can edit any locations that you create from [Components > Locations](/help/components/locations/configure-import-accounts.md)
+   >* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 

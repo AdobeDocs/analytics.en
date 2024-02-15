@@ -52,6 +52,8 @@ You can create, edit, and delete locations.
 
 For information about how to create a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
+<!-- Do I need to add some steps here about how to create a location and then assign that location to be used with DF, DW, or Classifications sets? Need to hear back from Ron and team whether we are including this functionality -->
+
 ### Edit a location
 
 For information about how to edit a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).

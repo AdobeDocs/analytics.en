@@ -26,7 +26,7 @@ For information about how to begin creating a request, as well as links to other
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
->* You can edit any locations that you create from [Components > Locations](/help/components/locations/configure-import-accounts.md)
+>* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
 To configure the destination where Data Warehouse reports are sent:
 

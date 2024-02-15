@@ -7,29 +7,35 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 
-The Locations manager allows you to view, create, edit, or delete locations. Locations can be for any of the following uses: 
+The Locations manager allows you to view, create, edit, or delete locations. Locations can be used for any of the following features: 
 
 * Files that are exported using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Reports that are exported using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 * Schemas that are imported using [Classification sets](/help/components/classifications/sets/overview.md)
 
-## View and filter locations
+## View, filter, and search locations
 
-The Location manager allows you to view the any locations that you created. System administrators can view locations created by all users.
+The Location manager allows you to view any locations that you created. System administrators can view locations created by all users.
 
 1. To access the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
 1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **Show all locations**] option to view locations created by all users in your organization. <!-- double-check this step and maybe add a screenshot? This is new functionality -->
 
-1. (Optional) Select the filter icon to filter the list of locations. 
+1. (Optional) Select the Filter icon to filter the list of locations. 
 
    You can filter locations by **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, or **[!UICONTROL Created By]**.
 
    ![Locations filters](assets/locations-filters.png)
 
-## Locations manager columns
+   Or
 
-The following columns are available in the Locations manager:
+   In the search field, begin typing the name of the location you want to view. Results are filtered as you type. The following columns are searched: **Location Name**, **Location Type**, **Account**, and **Created By**.
+
+1. (Optional) If you have more than 1,000 locations, only the first 1,000 display. Select [!UICONTROL **Load more**] to load 1,000 more locations.
+
+### Understand columns in the Locations manager
+
+The following columns are available in the Locations manager. To customize the columns that are displayed iin the table, select the Customize table icon ![Customize table icon](assets/customize-table-icon.png).
 
 * **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-locations.md) or delete it.
 * **[!UICONTROL Location type]**: The type of account associated with the location.
@@ -38,18 +44,28 @@ The following columns are available in the Locations manager:
 * **[!UICONTROL Created by]**: The user who created the location.
 * **[!UICONTROL Date created]**: The date that the location was created.
 
-## Create or edit options
+## Create and manage locations
 
-The following options are available in the Locations manager:
+You can create, edit, and delete locations.
 
-* **[!UICONTROL Add location]**: Create a location. 
+### Create a location
 
-  For more information, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
-* **[!UICONTROL Search field]**: Search for locations by name.
-* **[!UICONTROL Load more]**: The Locations manager initially displays up to 1,000 locations. This button loads 1,000 more locations.
-* **Customize table**: The Customize table icon ![Customize table icon](assets/customize-table-icon.png) allows you to choose which columns are displayed in the table.
+For information about how to create a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-Selecting a checkbox next to a location reveals the following options:
+### Edit a location
 
-* **[!UICONTROL Edit]**: Allows you to edit the selected location. For information about available fields that you can edit, see [Configure cloud import and export locations](/help/components/locations/configure-import-accounts.md).
-* **[!UICONTROL Delete]**: Deletes the selected locations. This option allows you to select multiple locations.
+For information about how to edit a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
+### Delete a location
+
+>[!IMPORTANT]
+>
+>  Any Data Feed files, Data Warehouse reports, or Classification set schemas that are associated with the selected locations will fail the next time they are used. If you delete a location, you should [edit your Data Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse reports](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), and [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) to use a functioning location. 
+
+To delete an existing location:
+
+1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the the location that you want to delete, then select [!UICONTROL **Delete**]. 
+
+
+
+  

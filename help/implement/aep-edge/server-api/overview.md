@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Edge Network Server API
 
-You typically use the Experience Platform Edge Network Server API to collect data server-side rather than client-side and when collecting data from devices like IoT devices, set-top boxes, desktop applications. Then send that data to the Edge network and to services like Adobe Analytics.
+You typically use the Experience Platform Edge Network Server API to collect data server-side rather than client-side and when collecting data from devices like IoT devices, set-top boxes, desktop applications. Then you send that data to the Edge network and to services like Adobe Analytics.
 
 Also consider the Edge Network Server API when you require sensitive data to be collected securely and authenticated across the network. See [Authentication](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) for more information.
 

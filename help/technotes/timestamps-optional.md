@@ -1,12 +1,12 @@
 ---
 description: Learn about the benefits and constraints of using Timestamps Optional setting.
 keywords: Analytics Implementation
-title: Using Timestamps Optional
+title: Timestamps Optional
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 ---
-# Using Timestamps Optional
+# Timestamps Optional
 
 Learn about the benefits and constraints of using Timestamps Optional setting.
 
@@ -26,7 +26,7 @@ Timestamps Optional is the default setting for all new report suites.
 
 See [Timestamps Optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
 
-## Timestamps Optional: Integrating Timestamped and Non-timestamped Data {#section_BF17CB593044462B993FD0D28EA56518}
+## Timestamps Optional: Integrate timestamped and non-timestamped data {#integrate}
 
 Using the Timestamps Optional feature, you can combine non-timestamped data with timestamped data without incurring data loss. Offline data with timestamps generated from a mobile device can be combined with live, non-timestamped data from a web page—or integrated with data from any platform using a client-side timestamp call.
 
@@ -39,7 +39,7 @@ A report suite can have one of the following timestamp settings:
 * Timestamps required (setting visitorID not supported)
 * Timestamps optional (setting visitorID supported but not on timestamped hits)
 
-## About Timestamps Optional Features {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## About Timestamps Optional features {#features}
 
 Timestamps Optional allows you to integrate and report across multiple report suites with or without client-side timestamps included. With Timestamps Optional you can update your app to employ timestamps while still using non-timestamped data from the previous app.
 
@@ -49,7 +49,7 @@ Timestamps Optional allows you to integrate and report across multiple report su
 
 **With Timestamps Optional**, you can integrate non-timestamped data from a live website with offline data from mobile devices, or update your non-timestamped app to a timestamped app.
 
-## Combining Data into a Global Report Suite {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
+## Combining data into a Global Report Suite {#combine}
 
 Combining data into a global report suite can be done in multiple ways, including multi-suite tagging, Vista rules, and imported batch files from offline sources.
 
@@ -57,7 +57,7 @@ Combining data into a global report suite can be done in multiple ways, includin
 >
 >Carefully plan the design for each component data set so the combination makes sense in a global report suite.
 
-## Best Practices when Employing Timestamps {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
+## Best practices when employing timestamps {#best-pratices}
 
 The following are best practices and a few requirements and restrictions to be aware of when integrating timestamped with non-timestamped data.
 

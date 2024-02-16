@@ -155,29 +155,18 @@ No, currently we do not have plans for these other channels on the roadmap.
 
 ## Auto vs. Manual Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Question </th> 
-   <th colname="col2" class="entry"> Answer </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Q: When setting up my Advertising account, it states that<b> Auto Tracking</b> can lead to unintended consequences. What kinds of consequences may occur? </p> </td> 
-   <td colname="col2"> <p>A: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Auto mode will attempt to append URL parameters to the end of the tracking templates/destination URLs in the correct format. <b>However, it is your responsibility to ensure that the added URL parameters persist correctly to the final landing page. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">Auto mode can insert key words into the landing URL, and your web server may not support keywords with special characters. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q: If I set up Manual or Automatic Tracking initially, <b>can I switch</b> to the other tracking mode later on? What are the implications? </p> </td> 
-   <td colname="col2"> <p>A: Yes you can switch, but you will need to remove the old tracking logic before making the switch. This may result in some downtime of tracking on the day the switch is made (especially if moving from manual to automatic). As such, it is recommended to not switch unless absolutely necessary. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Switching from Manual to Automatic</b>: Remove the manual additions to the tracking templates and then switch the toggle in the Advertising Analytics UI from manual to Automatic and save the setting. Note that it may take up to x hours for the system to populate the automatic tracking codes. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Switching from Automatic to Manual</b>: Update the toggle from manual to automatic in the Advertising Analytics setup UI and then deploy the manual tracking codes as quickly as possible. While deploying the manual tracking codes, if you see the automatic tracking codes in the Search Engine tracking templates, remove them. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ When setting up my Advertising account, it states that<b> Auto Tracking</b> can lead to unintended consequences. What kinds of consequences may occur? 
+
+Auto mode attempts to append URL parameters to the end of the tracking templates/destination URLs in the correct format. <b>However, it is your responsibility to ensure that the added URL parameters persist correctly to the final landing page. Auto mode can insert key words into the landing URL, and your web server may not support keywords with special characters. 
+
++++
+
++++ If I set up Manual or Automatic Tracking initially, can I switch to the other tracking mode later on? What are the implications? 
+
+Yes you can switch tracking modes, but you need to remove the old tracking logic before making the switch. This may result in some downtime of tracking on the day the switch is made (especially if moving from manual to automatic). As such, we recommend not switching unless absolutely necessary.
+
+* Switching from Manual to Automatic: Remove the manual additions to the tracking templates and then switch the toggle in the Advertising Analytics UI from manual to Automatic and save the setting. Note that it may take several hours for the system to populate the automatic tracking codes.
+
+* Switching from Automatic to Manual: Update the toggle from manual to automatic in the Advertising Analytics setup UI and then deploy the manual tracking codes as quickly as possible. While deploying the manual tracking codes, if you see the automatic tracking codes in the Search Engine tracking templates, remove them. 
+
++++

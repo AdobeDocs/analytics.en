@@ -1,8 +1,9 @@
 ---
 title: Create an Analytics property in tags
 description: Create a space to customize how data is collected, using tags.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
+role: Admin, Developer
 ---
 # Create an Adobe Analytics tag property
 

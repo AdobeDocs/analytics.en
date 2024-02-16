@@ -9,7 +9,7 @@ exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 
 Redirects point the browser to a new location without user interaction. They are executed at either the web browser (client-side redirect) or at the web server (server-side redirect).
 
-## Redirects and aliases {#concept_F4F1D53D473947FE8554897332545763}
+## Redirects and aliases {#aliases}
 
 Redirects point the browser to a new location without user interaction. They are executed at either the web browser (client-side redirect) or at the web server (server-side redirect).
 
@@ -17,11 +17,11 @@ Because redirects do not require any user interaction, redirects are often execu
 
 Although there are only two types of redirects, they can be implemented in numerous ways. For example, client-side redirects can occur because the web page to which a user has pointed his or her browser contains scripting or special HTML code that redirects the browser to another URL. Server-side redirects can occur because the page contains server-side scripting or because the web server has been configured to point the user to another URL.
 
-## Analytics and redirects {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
+## Analytics and redirects {#aa-redirects}
 
 [!DNL Analytics] gathers some of its data from the browser, and relies upon certain browser properties. Two of those properties, the "Referring URL" (or "referrer") and the "Current URL" can be changed by a server-side redirect. Because the browser is aware that one URL has been requested, but a different URL has been returned, it clears the Referring URL. The result is the referring URL is blank, and [!DNL Analytics] might report that no referrer existed for the page.
 
-## Example: Browsing Without Redirects {#section_5C835A4D665A4625A23333C2C21F152D}
+## Example: Browsing Without Redirects {#browse-without}
 
 Consider the following hypothetical scenario in which the user does not encounter a redirect:
 
@@ -30,7 +30,7 @@ Consider the following hypothetical scenario in which the user does not encounte
 1. The user clicks the link to your hypothetical site [!DNL https://www.example.com/]. When the user clicks this link and lands on the [!DNL example.com] website, [!DNL Analytics] uses JavaScript to collect the referring URL ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) as well as the current URL ( `https://www.example.com/`).
 1. [!DNL Analytics] reports the information collected during this interaction in various reports, such as [!UICONTROL Referring Domains], [!UICONTROL Search Engines], and [!DNL Search Keywords].
 
-## Example: Browsing With Redirects {#section_921DDD32932847848C4A901ACEF06248}
+## Example: Browsing With Redirects {#browse-with}
 
 Redirects can cause the browser to blank out the true referring URL. Consider the following scenario:
 
@@ -38,25 +38,13 @@ Redirects can cause the browser to blank out the true referring URL. Consider th
 1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaiiforfree.com/]. This *vanity* domain is configured to redirect the user to `https://www.example.com/`.
 1. The user clicks on the link `https://www.flytohawaiiforfree.com/` and is redirected by the server to your main site, `https://www.example.com`. When the redirection occurs, the data that is important to [!DNL Analytics] data collection is lost because the browser clears the referring URL. Thus, the original search information used in the [!DNL Analytics] reports (for example, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is lost.
 
-## Implement redirects {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Implement redirects {#implement}
 
 In order to capture [!DNL Analytics] data from redirects, four minor alterations need to be made to the code that creates the redirect and the [!DNL AppMeasurement] for JavaScript file.
 
-<!-- 
-
-redirects_implement.xml
-
- -->
-
 Completing the following steps will retain the information that the original referrer (for example, `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` in the scenario above) passes to your site:
 
-## Configure referrer override JavaScript code {#section_87BB1D47D9C345C18339078824645CC4}
-
-<!-- 
-
-redirects_js_override.xml
-
- -->
+## Configure referrer override JavaScript code {#override}
 
 The code snippet below shows two JavaScript variables, *`s_referrer`* and *`s_pageURL`*. This code is placed on the ultimate landing page of the redirect.
 
@@ -76,7 +64,7 @@ s.pageURL=""
 >
 >Set *`s.referrer`* only once on the page. Setting it more than once with every tracking call or with every link click that is tracked causes double counting of the referrer and related dimensions, such as search engines and keywords.
 
-## Redirects using getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## Redirects using getQueryParam {#getqueryparam}
 
 While the [!UICONTROL getQueryParam] is an easy way to populate [!DNL Analytics] variables with query string values, it must be implemented in connection with a temporary variable so that legitimate referrers are not overwritten when the query string is empty. The best way to use [!UICONTROL getQueryParam] is in connection with the [!UICONTROL getValue] plug in as outlined with the following pseudo-code.
 
@@ -96,25 +84,13 @@ if(tempVar)
 
 ```
 
-## Modify the redirect mechanism {#section_2FF9921E8FCA4440B6FF90F15386E548}
-
-<!-- 
-
-redirects_modify_mechanism.xml
-
- -->
+## Modify the redirect mechanism {#modify}
 
 Because the browser strips referring URL, you must configure the mechanism that handles the redirect (for example, the web server, server-side code, client-side code) to pass along the original referrer information. If you would also like to record the alias link URL, this must also be passed along to the ultimate landing page. Use the *`s_pageURL`* variable to override the current URL.
 
 Because there are many ways to implement a redirect, you should check with your web operations group or your online advertising partner to identify the specific mechanisms that execute redirects on your website.
 
-## Capture the original referrer {#section_7F1A77F447CF485385B456A64B174050}
-
-<!-- 
-
-redirects_referrer.xml
-
- -->
+## Capture the original referrer {#original}
 
 Normally, [!DNL Analytics] will obtain the referring URL from the browser's [!UICONTROL document.referrer] property, and the current URL from the [!UICONTROL document.location] property. By passing values to the *`referrer`* and *`pageURL`* variables, you can override the default processing. By passing a value to the referrer variable, you are telling [!DNL Analytics] to ignore the referrer information in the [!UICONTROL document.referrer] property and to use an alternative value that you define.
 
@@ -133,13 +109,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Verify the referrer with the Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
-
-<!-- 
-
-redirects_verify_referrer.xml
-
- -->
+## Verify the referrer with the Adobe Debugger {#verify}
 
 Run a test to verify that the referrer, originating URL ( *`s_server`*) and campaign variables are being captured.
 

@@ -5,6 +5,7 @@ subtopic: Visitors
 title: Connect users across devices
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
+role: Developer
 ---
 # Connect users across devices
 

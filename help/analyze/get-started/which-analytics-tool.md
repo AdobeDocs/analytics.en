@@ -18,28 +18,11 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
-**[Reports & Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** should be used:
+**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
 
-* By beginner users who need access to pre-built reporting that is easier to navigate.
-* To access real-time data in the UI.
-* To set up Calendar events.
-* To set up Targets.
-* To access unique Video visualizations of Video Daypart and Viewer Drop-off.
+**[Report Builder](/help/analyze/report-builder/home.md)** is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
->[!IMPORTANT]
->
->Effective **December 31, 2023**, Adobe intends to discontinue Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules will stop working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** should be used:
-
-* For predictive, statistical modeling (propensity scoring, clustering, correlations, etc.).
-* For Latency analysis (time before / since an event).
-* For identification and export of complex segments throughout Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Read more about Data Workbench's [End-of-life announcement](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
-
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
 
 ## Importing Data into Adobe Analytics {#import}
 
@@ -66,7 +49,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
 
-* When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code.
+* When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code. We recommend using Bulk Data Insertion API (see below.)
 
 **[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

@@ -10,38 +10,38 @@ Before anyone in your organization begins migrating projects as described in [Mi
 
 ## Prerequisites
 
-Before your projects and their associated components are ready to migrate, you first need to:
+Before your projects and their associated components are ready to migrate, you first need to follow the steps in [Evolution from Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html) in the Adobe Customer Journey Analytics Guide. These steps include:
 
-* Use either of the following methods to ingest data into Adobe Experience Platform in order to view Adobe Analytics report suite data in Customer Journey Analytics:
+1. Use either of the following methods to ingest data into Adobe Experience Platform in order to view Adobe Analytics report suite data in Customer Journey Analytics:
 
-  >[!NOTE]
-  >
-  >  When you use the WebSDK to ingest data, all schema fields must be manually mapped. (For more information about the mapping process, see [Migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
+   >[!NOTE]
+   >
+   >  When you use the WebSDK to ingest data, all schema fields must be manually mapped. (For more information about the mapping process, see [Migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
 
 
-  * To use the Adobe Analytics source connector, you need to:
+   * To use the Adobe Analytics source connector, you need to:
 
-    * [Set up report suites for ingestion into Adobe Experience Platform and Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Set up report suites for ingestion into Adobe Experience Platform and Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-    * [Ingest and use the data](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
+      1. [Ingest and use the data](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html)
 
-  * To use the WebSDK, you need to:
+   * To use the WebSDK, you need to:
   
-    * [Set up report suites for ingestion into Adobe Experience Platform and Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Set up report suites for ingestion into Adobe Experience Platform and Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
     
-    * [Ingest data via the Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+     1. [Ingest data via the Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-* Create a [connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) and [data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) with the data ingested. 
+1. Create a [connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) and [data view](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) with the data ingested. 
 
-* Ensure that users in Customer Journey Analytics are provisioned to the data views where data is being mapped. 
+1. Ensure that users in Customer Journey Analytics are provisioned to the data views where data is being mapped. 
 
-  For more information, see [Customer Journey Analytics permissions in the Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analytics access control](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   For more information, see [Customer Journey Analytics permissions in the Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analytics access control](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
-  The Permissions tab is part of each product profile in Admin Console. You can add users to specific product profiles. Then you assign rights to specific data views and specify which permissions the users in a product profile have. 
+   The Permissions tab is part of each product profile in Admin Console. You can add users to specific product profiles. Then you assign rights to specific data views and specify which permissions the users in a product profile have. 
 
-* Decide as an organization how you will map components. 
+1. Decide as an organization how you will map components. 
 
-  For more information, see the section below, [Decide as an organization how you will map components](#decide-as-an-organization-how-you-will-map-components).
+   For more information, see the section below, [Decide as an organization how you will map components](#decide-as-an-organization-how-you-will-map-components).
 
 ## Understand what is included in a migration
 
@@ -117,7 +117,7 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 >
 >The migration process identifies components in your Adobe Analytics project that can't be automatically mapped to components in Customer Journey Analytics, and it allows you to manually map them. 
 >
->**Any mappings made on one project apply to all future projects across your entire organization, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.** 
+>**Any mappings made on one project apply to all future projects across your entire IMS org, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.** 
 >
 >Because of this, it's important that your organization decides how dimensions and metrics will be mapped before any projects are migrated. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
 >

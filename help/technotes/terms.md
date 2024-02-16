@@ -36,7 +36,6 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Context data variables:** Temporary variables used solely in processing rules. Context data variable values are permanently lost if a processing rule does not copy them to a conversion or traffic variable. See [Context data variables](../implement/vars/page-vars/contextdata.md) in the Implement user guide.
 * **Conversion variable:** Also known as eVars. Stores a custom value, and preserves the variable value until it expires. See the [eVar](/help/components/dimensions/evar.md) dimension in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
-* **Current data:** An option in some reports that allows the inclusion of recently collected data that hasn't fully processed yet. See [Current data](/help/analyze/reports-analytics/current-data.md) in the Analyze user guide.
 * **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/vars/functions/tl-method.md) in the Implement user guide. See also Hit.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
@@ -86,7 +85,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in the Admin user guide.
 * **Report Builder:** A Microsoft Excel add-in that lets you build customized requests from Adobe Analytics data.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
-* **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package.
+* **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package. This tool has been [end-of-lifed](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.
 * **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
 * **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [t](../implement/vars/functions/t-method.md) in the Implement user guide.

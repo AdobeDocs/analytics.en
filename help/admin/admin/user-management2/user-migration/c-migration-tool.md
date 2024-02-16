@@ -3,6 +3,7 @@ description: What you need to know about the Analytics user ID migration to the 
 title: Analytics User Migration to the Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
+role: Admin
 ---
 # Analytics User Migration to the Adobe Admin Console{#analytics-user-migration-to-the-admin-console}
 

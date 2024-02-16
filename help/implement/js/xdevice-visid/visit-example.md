@@ -5,6 +5,7 @@ subtopic: Visitors
 title: Cross-device visitor identification example
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
+role: Developer
 ---
 # Cross-device visitor identification example
 

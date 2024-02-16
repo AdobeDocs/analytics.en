@@ -12,8 +12,6 @@ If you use [Cross-device analytics](../cda/overview.md), this metric is replaced
 
 ## Daily, weekly, monthly, quarterly, and yearly unique visitors
 
-Reports & Analytics provides options for daily, weekly, monthly, quarterly, and yearly unique visitors. Instead of counting a single unique visitor for the entire time period, unique visitors count based on the selected metric. For example, you want to look at daily unique visitors for your site. If a visitor comes to your site in the morning and again at night, they count as a single daily unique visitor. If a visitor comes to your site on Monday and again on Tuesday, they count as two daily unique visitors.
-
 Analysis Workspace treats unique visitors based on the granularity of the report. For example, if you use the [Day](../dimensions/day.md) dimension, you'll see daily unique visitors for each dimension item. However, for the report total, it is deduplicated unique visitors for the freeform table's date range.
 
 ## How this metric is calculated

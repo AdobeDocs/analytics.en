@@ -2,13 +2,14 @@
 description: Understand the IDs captured in your Analytics data, and decide which you will use for Data Privacy requests.
 title: Labeling best practices
 feature: Data Governance
+role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 ---
 # Labeling best practices
 
 >[!NOTE]
 >
->Remember that labeling needs to be reviewed each time a new report suite is created or when new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
+>Remember that labeling needs to be reviewed each time a new report suite is created or when a new variable is enabled within an existing report suite. You may also need to review the labeling when new solution integrations are enabled, as they can expose new variables that may require labeling. A re-implementation of your mobile apps or websites may change the way that existing variables are used, which may also necessitate updates to labels.
 
 ## Directly vs indirectly identifiable IDs {#direct-vs-indirect}
 

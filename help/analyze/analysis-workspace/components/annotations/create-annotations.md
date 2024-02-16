@@ -1,7 +1,7 @@
 ---
 title: Create annotations
 description: How to create annotations in Workspace.
-role: User, Admin
+role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 ---

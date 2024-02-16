@@ -40,7 +40,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + Paid Search Detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-        + [Customize Menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
         + Processing Rules {#c-processing-rules}
           + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
           + Processing Rules {#c-processing-rules-configuration}
@@ -122,12 +121,11 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Real-time reports configuration](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
         + [Supported real-time metrics and dimensions](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
     + [Manage report suites](admin/c-manage-report-suites/report-suites-admin.md)
-    + [Rollup and global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
+    + [Global report suites](admin/c-manage-report-suites/rollup-report-suite.md)
     + [Save a report suite search](admin/c-manage-report-suites/t-report-suite-saved-search.md)
     + [Download report suite settings](admin/c-manage-report-suites/t-download-rs-settings.md)
     + New report suite {#c-new-report-suite}
       + [Create a report suite](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Create a rollup report suite](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
       + [Create a report suite group](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
       + [New report suite - settings](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Settings not copied from a source report suite](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -147,7 +145,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Web Services](admin/company/web-services-admin.md)
     + [Report Builder reports](admin/company/report-builder-reports-admin.md)
     + [Single sign-on](admin/company/single-signon-admin.md)
-    + [Co-Branding](admin/company/co-branding-admin.md)
     + [Hide report suites](admin/company/c-hide-report-suites.md)
     + [Preferences manager](admin/company/preferences-manager.md)
     + [Pending actions](admin/company/pending-actions-admin.md)

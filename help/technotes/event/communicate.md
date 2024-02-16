@@ -51,12 +51,3 @@ For any trended visualization in Workspace, you can add in a series that represe
 
    ![Info icon](assets/calcmetric_infoicon.png)
 
-## Use a calendar event in Reports & Analytics
-
-If you use Reports & Analytics, you can use a [calendar event](/help/components/t-calendar-event.md) to highlight affected days in any trended report. This method does not apply to Analysis Workspace.
-
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL All components]** > **[!UICONTROL Calendar events]**.
-2. Enter the desired title, date range, and note text.
-3. Click **[!UICONTROL Save]**.
-
-![Calendar event](assets/exclude_calendar_event.png)

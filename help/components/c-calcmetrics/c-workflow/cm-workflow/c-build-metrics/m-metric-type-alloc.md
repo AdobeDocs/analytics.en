@@ -40,9 +40,3 @@ The following example illustrates how calculated metrics with linear allocations
 
 In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
-## Differences in how linear allocation works in Reports & Analytics versus Workspace
-
-There are some differences in how linear attribution works between these two tools:
-
-* In Reports & Analytics, (processed) linear attribution is always visit based, whereas in Workspace, it can be visit or visitor based.
-* In Reports & Analytics, if No value was passed on the first hit of a visit, the (initial) value would persist from the pervious visit. This is NOT the case in Workspace (Attribution). If no value is passed on the first hit of a visit, then 'None' is the initial value.

@@ -3,6 +3,7 @@ description: Frequently asked questions about features, functionality, and issue
 title: Server-side forwarding FAQ
 feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
+role: Admin
 ---
 # Server-side forwarding FAQ
 

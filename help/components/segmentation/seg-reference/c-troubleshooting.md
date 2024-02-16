@@ -26,7 +26,6 @@ Possible reasons:
 Possible reasons:
 
 * Some dimensions are available only in Data Warehouse and not in the Segment Manager.
-* Segment is not compatible with Reports & Analytics.
 * Segment is checked only for a specific report suite.
 * A shared segment might have been deleted by another user.
 * Segments could not loaded due to a data center or Browser Cache issue.

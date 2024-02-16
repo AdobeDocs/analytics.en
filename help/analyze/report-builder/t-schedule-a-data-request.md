@@ -12,8 +12,6 @@ You can schedule workbooks, specify advanced delivery options, specify recipient
 
 For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a workbook upload.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (See [Report Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) in Reports & Analytics help.)
-
 >[!NOTE]
 >
 >You must have Excel 2007 or the compatibility pack installed in order to schedule a workbook. You can have a maximum of 10 scheduled workbooks per Report Builder license. However, you can increase this number by subtracting from other licenses. To do so, go to **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. A workbook that has been scheduled (or uploaded to the Workbook Library) and has not been touched (updated, replaced) in more than 28 months will be deleted.

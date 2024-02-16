@@ -3,6 +3,7 @@ title: Limit a Virtual report suite to certain dates
 description: Understand how to limit a Virtual report suite date range to focus on stitched data only.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
+role: Admin
 ---
 # Limit a Virtual report suite to certain dates
 

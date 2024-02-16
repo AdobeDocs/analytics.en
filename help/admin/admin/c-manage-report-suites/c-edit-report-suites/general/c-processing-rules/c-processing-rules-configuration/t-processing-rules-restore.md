@@ -3,6 +3,7 @@ description: Processing rules can be restored from history.
 subtopic: Processing rules
 title: Restore processing rules
 feature: Processing Rules
+role: Admin
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 ---
 # Restore processing rules

@@ -3,6 +3,7 @@ description: Adobe Analytics Server Call Usage FAQ
 title: Server Call Usage FAQ
 feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
+role: Admin
 ---
 # Server Call Usage FAQ
 

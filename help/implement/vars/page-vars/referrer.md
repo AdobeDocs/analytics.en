@@ -3,6 +3,7 @@ title: referrer
 description: Override the automatically collected referrer for a hit.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
+role: Admin, Developer
 ---
 # referrer
 
@@ -11,6 +12,8 @@ The `referrer` variable overrides the automatically collected referrer in report
 ## Referrer using the Web SDK
 
 Referrer is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webReferrer.URL`.
+
+The Web SDK includes this dimension on every event hit.
 
 ## Referrer using the Adobe Analytics extension
 

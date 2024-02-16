@@ -3,6 +3,7 @@ description: Learn how to implement multi-suite tagging to send image request to
 title: Implementing multi-suite tagging
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
+role: Admin, Developer, Leader
 ---
 # Implementing multi-suite tagging
 

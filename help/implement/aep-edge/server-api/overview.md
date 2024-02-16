@@ -3,6 +3,7 @@ title: Implement Adobe Analytics using the Adobe Experience Platform Edge Networ
 description: Use the Adobe Experience Platform Edge Network Server API to send data to Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
+role: Admin, Developer, Leader
 ---
 # Implement Adobe Analytics using the Adobe Experience Platform Edge Network Server API
 
@@ -28,8 +29,8 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>2</td>
-<td><b>Setup schemas and datasets</b>. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Schemas UI overview</a> and <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en">Datasets UI overview</a></td>
+<td><b>Setup schemas</b>. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en">Schemas UI overview</a></td>
 </tr>
 
 <tr>

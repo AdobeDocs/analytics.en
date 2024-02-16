@@ -3,6 +3,7 @@ description: The Manage Pending Actions page lets you view a list of pending act
 title: Pending actions
 feature: Company Settings
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
+role: Admin
 ---
 # Pending actions
 

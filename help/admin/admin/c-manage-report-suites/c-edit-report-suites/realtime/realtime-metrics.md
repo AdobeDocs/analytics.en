@@ -9,7 +9,7 @@ exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 
 Lists metrics and dimensions supported by Real-Time reports. Classifications are also supported, if you have defined them.
 
-## Supported Metrics {#section_514ED8B382494C47BFC0657894D1AF94}
+## Supported Metrics {#metrics}
 
 * Revenue 
 * Orders 
@@ -22,7 +22,7 @@ Lists metrics and dimensions supported by Real-Time reports. Classifications are
 * Instances 
 * Custom events 1-100 (if enabled in the report suite)
 
-## Supported Dimensions {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Supported Dimensions {#dimensions}
 
 * Page 
 * Search Keyword 

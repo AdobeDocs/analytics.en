@@ -15,6 +15,8 @@ Adobe Analytics requires code within your website, mobile app, or other applicat
 
 For your **website**, the following implementation methods are available:
 
+### Client-side
+
 * **Web SDK extension**: The standardized and recommended method to implement Adobe Analytics for new customers. Add the **Adobe Experience Platform Web SDK extension** in Adobe Experience Platform Data Collection **Tags**, then place a loader tag on each page. The tag sends data to the Adobe Experience Platform **Edge Network**, which forwards that data to Adobe Analytics.
 ![Web SDK extension](./assets/websdk-extension-implementation.png)
 See [How to implement Adobe Analytics using the Adobe Experience Platform Web SDK extension.](./aep-edge/overview.md) for more information.
@@ -31,7 +33,7 @@ See [How to implement Adobe Analytics using the Analytics extension](launch/over
 ![How to implement Adobe Analytics using Legacy JavaScript](./assets/appmeasurement-implementation.png)
 This implementation method can be useful for implementations using custom code and is ideal for implementation types not offered elsewhere, such as for [AMP pages](other/amp.md).
 
-The following decision flow can help you select an implementation method:
+The following decision flow can help you select a client-side implementation method:
 
 ![A decision tree for selecting an implementation method, as described in this section.](./assets/decision-tree.png)
 
@@ -39,6 +41,18 @@ The following decision flow can help you select an implementation method:
 >[!TIP]
 >
 >Contact your Adobe Account Team for advice and best practices on which implementation to choose based on your current situation.
+
+### Server-side
+
+To implement Adobe Analytics server side, you have the following options:
+
+* **Edge Server API**: You implement code on the server that uses the Adobe Experience Platform Edge Server API to communicate with Adobe Analytics through a datastream.
+  ![Server-side implementation](assets/edge-network-server-api.svg)
+  See [Implement Adobe Analytics using the Adobe Experience Platform Edge Network Server API](/help/implement/aep-edge/server-api/overview.md) for more information.
+
+* **(Bulk) Data Insertion API**: You use the Adobe Analytics (Bulk) Data Insertion API's to collect data server-side directly into Adobe Analytics.
+  ![Data Insertion APIs](assets/analytics-apis.png)
+  See [Data Insertion API](../import/c-data-insertion-api/c-data-insertion-api.md) for more information.
 
 ## Mobile app implementation methods
 

@@ -72,7 +72,10 @@ Calling this function returns nothing; instead, it sets the following variables:
 
 Assign one or more of these variables to eVars to see dimension data in reports.
 
-This plug-in creates a first-party cookie called `s_ppv` that contains the above values. It expires at the end of the browser session.
+This plug-in creates three first-party cookies which expire at the end of the session:
+- `s_ppv` — stores each of the values exposed by calling the function
+- `s_tp` — stores the total pixel height of the previous page
+- `s_ips` — stores the initial percent scrolled of the previous page
 
 ## Examples
 

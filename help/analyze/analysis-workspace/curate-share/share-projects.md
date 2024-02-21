@@ -53,9 +53,9 @@ When sharing a specific project role with users and groups in your organization,
 
 * If multiple projects are selected to be shared, recipients will be added to the existing list of recipients for each project. 
 
-  For example, Project A is shared to recipients  1, 2, 3, while Project B is shared to recipients 4, 5, 6 
+  For example, Project A is already shared with recipients 1, 2, and 3, while Project B is already shared with recipients 4, 5, and 6. 
 
-  With Project A and B selected, recipients 4 and 7 are added to the share lists. The new share list for Project A is now 1, 2, 3, 4, 7, while the new share list for Project B is 4, 5, 6, 7 
+  Projects A and B are then shared with recipients 4 and 7. The new share list for Project A is now 1, 2, 3, 4, and 7, while the new share list for Project B is 4, 5, 6, and 7. 
 
 To share a specific project role with users or groups in your organization:
 
@@ -65,7 +65,7 @@ To share a specific project role with users or groups in your organization:
 
    Or
 
-   To share an individual project, you can open the project that you want to share, then select **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
+   To share an individual project only, you can open the project that you want to share, then select **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
    If there are unsaved changes, you are prompted to save your project first. 
 
    The Share project dialog box displays. The [!UICONTROL **Share by link**] and [!UICONTROL **Settings**] sections of the dialog box are visible only when sharing a single project.
@@ -178,7 +178,7 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
 When someone shares a project with you by [sharing a specific project role](#share-a-specific-project-role), you can access the shared projects from the [Projects tab of on the Analytics landing page](/help/analyze/landing.md#navigate-the-projects-tab). 
 
-When someone shares a project with you by sharing a link (either from the [Share project tab](#share-a-link-to-a-project) or using a [share with anyone](#share-a-project-with-anyone-no-login-required) link), users must use the link that you share in order to access the project.
+When someone shares a project with you by sharing a link (either from the [Share project tab](#share-a-link-to-a-project) or using a [share with anyone](#share-a-project-with-anyone-no-login-required) link), you must use the link that was shared with you in order to access the project. For example, the link might have been shared in an email, on an internal website, and so forth.
 
 ## Share embedded components
 

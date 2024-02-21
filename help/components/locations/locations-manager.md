@@ -62,11 +62,15 @@ For information about how to edit a location, see [Configure cloud import and ex
 
 >[!IMPORTANT]
 >
->  Any Data Feed files, Data Warehouse reports, or Classification set schemas that are associated with the selected locations will fail the next time they are used. If you delete a location, you should [edit your Data Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse reports](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), and [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) to use a functioning location. 
+>If a location is deleted, any Data Feed files, Data Warehouse reports, or Classification set schemas that are associated with the deleted location will fail the next time they are used. 
+>
+>If you delete a location, you should [edit your Data Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse reports](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), and [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) to use a functioning location. 
 
-To delete an existing location:
+To delete a location:
 
-1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the the location that you want to delete, then select [!UICONTROL **Delete**]. 
+1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the the location that you want to delete.
+
+1. Select [!UICONTROL **Delete**]. 
 
 
 

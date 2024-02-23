@@ -15,7 +15,7 @@ You can configure a cloud account (and a location on that account). Locations ca
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 * Importing schemas using [Classification sets](/help/components/classifications/sets/overview.md)
 
-You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
+You must configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
 
 To configure a new cloud import or export location or to edit an existing one:
 
@@ -25,7 +25,7 @@ To configure a new cloud import or export location or to edit an existing one:
    
    Or
 
-   To edit an existing location, select the 3-dot menu in the [!UICONTROL **Location name**] column for the the location that you want to edit, then select [!UICONTROL **Edit**]. 
+   To edit an existing location, select the 3-dot menu in the [!UICONTROL **Location name**] column for the location that you want to edit, then select [!UICONTROL **Edit**]. 
    The Location dialog displays.
 
 1. Specify the following information:
@@ -43,7 +43,7 @@ To configure a new cloud import or export location or to edit an existing one:
 
    +++Amazon S3 Role ARN
 
-      Specify the following information to configure an Amazon S3 Role ARN location:
+      To configure an Amazon S3 Role ARN location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -56,7 +56,7 @@ To configure a new cloud import or export location or to edit an existing one:
 
    +++Google Cloud Platform
 
-      Specify the following information to configure a Google Cloud Platform location:
+      To configure a Google Cloud Platform location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -69,7 +69,7 @@ To configure a new cloud import or export location or to edit an existing one:
 
    +++Azure SAS
 
-      Specify the following information to configure an Azure SAS location:
+      To configure an Azure SAS location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -82,7 +82,7 @@ To configure a new cloud import or export location or to edit an existing one:
 
    +++Azure RBAC
 
-      Specify the following information to configure an Azure RBAC location:
+      To configure an Azure RBAC location, specify the following information:
 
       |Field | Function | 
       |---------|----------|

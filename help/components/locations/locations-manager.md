@@ -68,7 +68,7 @@ For information about how to edit a location, see [Configure cloud import and ex
 
 To delete a location:
 
-1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the the location that you want to delete.
+1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the location that you want to delete.
 
 1. Select [!UICONTROL **Delete**]. 
 

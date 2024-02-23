@@ -21,21 +21,21 @@ The Location manager allows you to view any locations that you created. System a
 
 1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **Show all locations**] option to view locations created by all users in your organization. <!-- double-check this step and maybe add a screenshot? This is new functionality -->
 
-1. (Optional) Select the Filter icon to filter the list of locations. 
+1. Filter or search the list of locations:
 
-   You can filter locations by **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, or **[!UICONTROL Created By]**.
+   * **Filter:** Select the Filter icon to filter the list of locations. 
 
-   ![Locations filters](assets/locations-filters.png)
+     You can filter locations by **[!UICONTROL Location Type]**, **[!UICONTROL Account]**, or **[!UICONTROL Created By]**.
 
-   Or
+     ![Locations filters](assets/locations-filters.png)
 
-   In the search field, begin typing the name of the location you want to view. Results are filtered as you type. The following columns are searched: **Location Name**, **Location Type**, **Account**, and **Created By**.
+   * **Search:** In the search field, begin typing the name of the location you want to view. Results are filtered as you type. The following columns are searched: **Location Name**, **Location Type**, **Account**, and **Created By**.
 
 1. (Optional) If you have more than 1,000 locations, only the first 1,000 display. Select [!UICONTROL **Load more**] to load 1,000 more locations.
 
-### Understand columns in the Locations manager
+## Configure columns in the Locations manager
 
-The following columns are available in the Locations manager. To customize the columns that are displayed iin the table, select the Customize table icon ![Customize table icon](assets/customize-table-icon.png).
+The following columns are available in the Locations manager. To customize the columns that are displayed in the table, select the Customize table icon ![Customize table icon](assets/customize-table-icon.png).
 
 * **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-locations.md) or delete it.
 * **[!UICONTROL Location type]**: The type of account associated with the location.

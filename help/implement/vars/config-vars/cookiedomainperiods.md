@@ -13,30 +13,28 @@ AppMeasurement determines its cookie location by looking at the domain and domai
 The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location.
 
 * For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.
-* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
+* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `3`.
+
 
 >[!IMPORTANT]
 >
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
->[!WARNING]
+>[!CAUTION]
 >
->With the latest [AppMeasurement release](../../appmeasurement-updates.md), `cookieDomainPeriods` will be configured automatically. This has major visitor identification implications for you, when you:
+>If you have incorrectly configured `cookieDomainPeriods` (or are using the default of `2` while using a domain like `example.co.uk`) this has implications on:
 >
-> * are using AppMeasurement in your implementation of Adobe Analytics, instead of the (recommended) Adobe Experience Platform Web SDK,
-> * are using domains like `example.co.uk`,
-> * using the [`visitorID`](visitorid.md) configuration variable (Visitor ID service) instead of the (recommended) Experience Cloud ID service,
-> * have not explictly set `cookieDomainPeriods` in your configuration (so it is implicitly incorrectly set to its default `2`),
-> * are using a fallback id ([`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html_) cookie) to track visitors who are using browsers that block third-party cookies.
+> * **Visitor identification** (`s_vi` and `s_fid` cookies) when using the legacy Adobe Analytics visitor identification. AppMeasurement will not be able to set or read the `s_vi` cookie. If third-party cookies are supported, AppMeasurement will set the `s_fid` cookie instead. If third-party cookies are not supported, AppMeasurement will not be able to set the `s_fid` cookie, and an identifier is generated server side.<br/>Visitor identification is not impacted when using the Experience Cloud Identity service.
+> * **Link Tracking and Activity Map** (`s_sq` cookie): These cookies are used to temporarily store link interaction information, so this information can be included on subsequent AppMeasurement calls. When these cookies cannot be set properly these events will not be recorded. 
 >
-> If you deploy the latest AppMeasurement library without taking precautions, the following happens automatically:
+> With the latest AppMeasurement release () configures `cookieDomainPeriods` automatically with the correct value and, as a result, cookies are properly set. When you have incorrectly configured `cookieDomainPeriods` (or are using the default of `2` while using a domain like `example.co.uk`) before the update, and plan to update to the latest AppMeasurement, that update will have significant impact on reporting:
 >
-> 1. The `cookieDomainPeriods` is automatically set to `3` based on the new AppMeasurement functionality.
-> 2. AppMeasurement will start setting the [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) cookie, which will replace the fallback id you have been using to collect visitor information despite the blocking of third part cookies.
+> * **Visitor identification**: AppMeasurement will be able to set an identifier using the `s_vi` cookie which will take precedence over the `s_fid` identifier or server-side identifier used before the update. This results in the visitor identifier being reset. The visitor will appear as a new visitor and there will be no way to tie new activity to the previous identifier. 
+> * **Link Tracking and Activity Map**: Link tracking will be restored, resulting in a sudden increase in link interactions appearing in reporting.
+>
+> While correctly configuring `cookieDomainPeriods` will improve AppMeasurement and Analytics functionality, it is recommended to assess whether you are affected by the changes resulting from upgrading your AppMeasurement library.
 > 
-> As a result, the visitor identification data you collect is going to be dramatically impacted.
->
-
+> See [Analytics Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) for more information about the cookies AppMeasurement uses.
 
 ## Domain periods using the Web SDK
 

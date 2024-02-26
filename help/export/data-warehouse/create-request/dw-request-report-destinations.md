@@ -22,7 +22,7 @@ For information about how to begin creating a request, as well as links to other
 >   
 >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Accounts can be used, but any locations that are configured on those accounts cannot be.)
 >   
->   * From the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md). 
+>   * From the Locations manager, in [Components > Locations](/help/components/locations/configure-import-accounts.md). 
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
@@ -74,7 +74,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Amazon S3
 
-         Specify the following information to configure an Amazon S3 Role ARN account:
+         To configure an Amazon S3 Role ARN account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -87,7 +87,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Google Cloud Platform
 
-         Specify the following information to configure a Google Cloud Platform account:
+         To configure a Google Cloud Platform account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -99,14 +99,14 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure SAS
 
-         Specify the following information to configure an Azure SAS account:
+         To configure an Azure SAS account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
          | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
          | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS token in Azure Key Vault.  To configure Azure SAS, you need to store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created, add an access policy on the Key Vault in order to grant permission to the Azure application that you created. For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 
-         | [!UICONTROL **Key vault secret name**] | The secret name you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS token in Azure Key Vault. To configure Azure SAS, you must store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created, add an access policy on the Key Vault in order to grant permission to the Azure application that you created. For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 
+         | [!UICONTROL **Key vault secret name**] | The secret name that you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -115,7 +115,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure RBAC
 
-         Specify the following information to configure an Azure RBAC account:
+         To configure an Azure RBAC account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -129,7 +129,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Email
 
-         Specify the following information to configure an email account:
+         To configure an email account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -148,7 +148,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Amazon S3
 
-         Specify the following information to configure an Amazon S3 location:
+         To configure an Amazon S3 location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -161,7 +161,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Google Cloud Platform
 
-         Specify the following information to configure a Google Cloud Platform location:
+         To configure a Google Cloud Platform location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -174,7 +174,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure SAS
 
-         Specify the following information to configure an Azure SAS location:
+         To configure an Azure SAS location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -187,7 +187,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure RBAC
 
-         Specify the following information to configure an Azure RBAC location:
+         To configure an Azure RBAC location, specify the following information:
 
          |Field | Function | 
          |---------|----------|

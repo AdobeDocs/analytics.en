@@ -35,7 +35,7 @@ The Location manager allows you to view any locations that you created. System a
 
 ## Configure columns in the Locations manager
 
-The following columns are available in the Locations manager. To customize the columns that are displayed in the table, select the Customize table icon ![Customize table icon](assets/customize-table-icon.png).
+The following columns are available in the Locations manager. To customize the columns that are displayed in the table, select the **Customize table** icon ![Customize table icon](assets/customize-table-icon.png).
 
 * **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-locations.md) or delete it.
 * **[!UICONTROL Location type]**: The type of account associated with the location.

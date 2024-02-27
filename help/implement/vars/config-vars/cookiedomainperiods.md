@@ -13,7 +13,7 @@ AppMeasurement determines its cookie location by looking at the domain and domai
 The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location.
 
 * For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.
-* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `3`.
+* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
 
 
 >[!IMPORTANT]
@@ -31,14 +31,14 @@ The following table illustrates four possible scenarios.
 |:---:|---|---|---|
 | 1 | <span style="color:green">Correct</span> | No | Visitors are identified with an `s_vi` cookie set server-side. |
 | 2 | <span style="color:green">Correct</span> | Yes | Visitors are identified with a fallback `s_fid` cookie set client-side (first-party page domain). |
-| 3 | <span style="color:red">Incorrect</span> | No | Visitors are identified with fallback identifier based on combination of user agent and IP-address. The `s_vi` cookie is possibly set when `cookieDomainPeriods` is not transmitted properly. |
-| 4 | <span style="color:red">Incorrect</span> | Yes | Visitors are identified with fallback identifier based on combination of user agent and IP-address. |
+| 3 | <span style="color:red">Incorrect</span> | No | Visitors are identified with fallback identifier based on combination of user agent and IP-address. <br/>AppMeasurement is forced to set cookies as third-party cookies.<br/> The `s_vi` cookie is possibly set when `cookieDomainPeriods` is not transmitted properly. |
+| 4 | <span style="color:red">Incorrect</span> | Yes | Visitors are identified with fallback identifier based on combination of user agent and IP-address.<br/>AppMeasurement is forced to set cookies as third-party cookies which are blocked, so no cookies are set. |
 
 >[!CAUTION]
 >
 >Be aware that you might have inadvertently configured `cookieDomainPeriods` <span style="color:red">incorrect</span>, when leaving it at its default value of `"2"` and using domains like `example.co.uk`. This implicit incorrect configuration results that you are identifying visitors following either scenario 3 or 4.
 >
->AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value. When updating to AppMeasurement release 2.26.x or later, only scenarios 1 or 2 are possible. When you plan to update to AppMeasurement release 2.26.x or later and you are currently identifiying visitors following scenario 3 or 4, this update has major implications. Visitor identifiers are being reset and visitors will appear as new visitors. There will be no way to tie new activity to the previous visitor identifier.
+>AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value. When updating to AppMeasurement release 2.26.x or later, only scenarios 1 or 2 are possible. When you plan to update to AppMeasurement release 2.26.x or later and you are currently identifiying visitors following scenario 3 or 4, this update has major implications. Visitor identifiers are being reset and visitors will appear as new visitors. There will be no way to tie new activity to the previous visitor identifier. Also, suddenly cookies are set (such as for link tracking or activity map, `s_sq` cookie) resulting in a sudden increase in link interactions appearing in reporting.
 >
 >While correctly configuring `cookieDomainPeriods` will improve AppMeasurement and Analytics functionality, it is recommended to assess whether you are affected by the changes resulting from upgrading your AppMeasurement library.
 >
@@ -59,7 +59,7 @@ Domain Periods is a field under the [!UICONTROL Cookies] accordion when configur
 
 Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## Cookie omain periods in code AppMeasurement and the Analytics extension custom code editor
+## Cookie domain periods in code AppMeasurement and the Analytics extension custom code editor
 
 You can set the `cookieDomainPeriods` variable in the AppMeasurement Javascript library or in the custom code editor of the Analytics extension.
 

@@ -21,36 +21,34 @@ The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytic
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
 
 
-## cookieDomainPeriods, third-party cookies and legacy visitor identification
+## Cookie domain periods, third-party cookies and legacy visitor identification
 
-The implicit or explicit configuration of `cookieDomainPeriods` can have implications depending on whether third-party cookies are blocked and when you are using the legacy Adobe Analytics visitor identification service (setting the `s_vi` cookie). The following table illustrates four possible scenarios.
+Only when you are using the legacy Adobe Analytics visitor identification (instead of the recommended Experience Cloud Identity service), the implicit or explicit configuration of `cookieDomainPeriods` can have implications on how visitors are identified, depending on whether third-party cookies are blocked or not. 
+
+The following table illustrates four possible scenarios.
 
 | Scenario | `cookieDomainPeriods` configuration is ... | Third-party cookies are blocked? | Result when using legacy Adobe Analytics visitor identification service |
 |:---:|---|---|---|
 | 1 | <span style="color:green">Correct</span> | No | Visitors are identified with an `s_vi` cookie set server-side. |
 | 2 | <span style="color:green">Correct</span> | Yes | Visitors are identified with a fallback `s_fid` cookie set client-side (first-party page domain). |
-| 3 | <span style="color:red">Incorrect</span> | No | Visitors are identified with fallback identifier based on combination of user agent and IP-address. The `s_vi` cookie is possibly set when `cookieDomainPeriods` is not transmitted properly.<br/>Link tracking and activity map cookies (`s_sq` cookie) cannot be set properly, so link interaction events will not be recorded. |
-| 4 | <span style="color:red">Incorrect</span> | Yes | Visitors are identified with fallback identifier based on combination of user agent and IP-address. <br/>Link tracking and activity map cookies (`s_sq` cookie) cannot be set properly, so link interaction events will not be recorded.  |
-
+| 3 | <span style="color:red">Incorrect</span> | No | Visitors are identified with fallback identifier based on combination of user agent and IP-address. The `s_vi` cookie is possibly set when `cookieDomainPeriods` is not transmitted properly. |
+| 4 | <span style="color:red">Incorrect</span> | Yes | Visitors are identified with fallback identifier based on combination of user agent and IP-address. |
 
 >[!CAUTION]
 >
->Be aware that you might have inadvertently configured `cookieDomainPeriods` <span style="color:red">incorrect</span>, when leaving it at its default value of `2` and using domains like `example.co.uk`. This implicit incorrect configuration results that you are identifying visitors following either scenario 3 or 4.
+>Be aware that you might have inadvertently configured `cookieDomainPeriods` <span style="color:red">incorrect</span>, when leaving it at its default value of `"2"` and using domains like `example.co.uk`. This implicit incorrect configuration results that you are identifying visitors following either scenario 3 or 4.
 >
->AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value. When updating to AppMeasurement release 2.26.x or later, only scenarios 1 or 2 are possible. When you plan to update to AppMeasurement release 2.26.x or later and you are currently identifiying visitors following scenario 3 or 4, this update has major implications:
->
->* Visitor identifiers are being reset and visitors will appear as new visitors. There will be no way to tie new activity to the previous visitor identifier.
->* Link tracking and activity map cookies will be restored, resulting in a sudden increase in link interactions appearing in reporting.
+>AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value. When updating to AppMeasurement release 2.26.x or later, only scenarios 1 or 2 are possible. When you plan to update to AppMeasurement release 2.26.x or later and you are currently identifiying visitors following scenario 3 or 4, this update has major implications. Visitor identifiers are being reset and visitors will appear as new visitors. There will be no way to tie new activity to the previous visitor identifier.
 >
 >While correctly configuring `cookieDomainPeriods` will improve AppMeasurement and Analytics functionality, it is recommended to assess whether you are affected by the changes resulting from upgrading your AppMeasurement library.
 >
 > See [Analytics Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) for more information about the cookies AppMeasurement uses.
 
-## Domain periods using the Web SDK
+## Cookie domain periods using the Web SDK
 
 The Web SDK can determine the correct cookie storage domain without this variable.
 
-## Domain Periods using the Adobe Analytics extension
+## Cookie domain periods using the Adobe Analytics extension
 
 Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
@@ -61,7 +59,9 @@ Domain Periods is a field under the [!UICONTROL Cookies] accordion when configur
 
 Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
 
-## s.cookieDomainPeriods in AppMeasurement and the Analytics extension custom code editor
+## Cookie omain periods in code AppMeasurement and the Analytics extension custom code editor
+
+You can set the `cookieDomainPeriods` variable in the AppMeasurement Javascript library or in the custom code editor of the Analytics extension.
 
 The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
 

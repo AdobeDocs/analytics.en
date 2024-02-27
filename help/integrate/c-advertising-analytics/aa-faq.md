@@ -10,7 +10,9 @@ exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 
 +++ Do I need to be an Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer to access this functionality?
 
-No, this functionality is available for non-Advertising Cloud and non-AMO customers. </p> <p>AMO customers can leverage the existing Analytics-AMO integration; they will not be able to use Ad Analytics. 
+No, this functionality is available for non-Advertising Cloud and non-AMO customers. 
+
+AMO customers can leverage the existing Analytics-AMO integration; they will not be able to use Ad Analytics. 
 
 +++
 
@@ -98,7 +100,7 @@ No, the raw search data will come in as an independent data set. However, there 
 +++ I am trying to map my Advertising Analytics accounts to a specific report suite, but it is not available in the Report Suite modal. Why? 
 
 Before you can assign a report suite to an Advertising Analytics account, the desired report suite needs to be [provisioned for Advertising Analytics reporting](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) 
-This is done through a separate Admin page that is accessible from: Admin > Report Suites > [select report suite] > Edit Settings > Advertising Analytics Configuration.
+This is done through a separate Admin page that is accessible from: Admin > Report Suites > `[select report suite]` > Edit Settings > Advertising Analytics Configuration.
 
 +++
 
@@ -108,7 +110,7 @@ Virtual report suites do not collect data, so you cannot directly map an Adverti
 
 +++
 
-+++ Are Advertising Analytics metrics reportable in the <b>Marketing Channels</b> report? 
++++ Are Advertising Analytics metrics reportable in the *Marketing Channels* report? 
 
 No, they are not included in the Marketing Channels report.
 
@@ -120,13 +122,13 @@ The search data is pulled from the search engines around 6AM (06:00) in the time
 
 +++
 
-+++ What can be <b>captured before the click</b>? Do we bring impressions, cost, average position, etc. even without the click? </p> </td> 
++++ What can be *captured before the click*? Do we bring impressions, cost, average position, etc. even without the click?
 
 The AMO ID will capture the Search engine metrics: Impressions, Cost, Clicks, Average Position, and Average Quality Score. If there are no clicks, but there are impressions, then the impression/position/quality score data will still be sent to Analytics. Typically, if there are no clicks, then there is also no cost.
 
 +++
 
-+++ What level is this data being captured at? <b>Visitor? Hit?</b> 
++++ What level is this data being captured at? *Visitor? Hit?* 
 
 The Search engine metrics are captured at the hit level and connected to the AMO ID (and its classifications). It is summary level data and not connected to visits/visitors. As such, the search engine metrics can only be used in segments that are hit-level scope and are based on the AMO ID (or its classifications). 
 
@@ -134,7 +136,7 @@ The AMO ID is also captured on the landing page in the hit for that page (which 
 
 +++
 
-+++ Do we only capture google.com or <b>country versions</b> (like google.co.uk, google.it, google.fr, or google.de) as well? 
++++ Do we only capture google.com or *country versions* (like google.co.uk, google.it, google.fr, or google.de) as well? 
 
 The Ad Platform classification captures these values: "Google Adwords", and "Bing Ads". A common best practice is to include the country code as part of the naming of campaigns. You can then filter down or segment (e.g. if all campaigns start with countrycode_, then creating a segment where Campaigns (AMO ID) starts with "UK_" would provide you with only data for the UK). 
 
@@ -146,7 +148,7 @@ The Ad Platform classification captures these values: "Google Adwords", and "Bin
 
 +++
 
-+++ Are there plans to include other advertising channels such as <b>Display</b> or <b>Social</b>? 
++++ Are there plans to include other advertising channels such as *Display* or *Social*? 
 
 No, currently we do not have plans for these other channels on the roadmap. 
 
@@ -155,9 +157,9 @@ No, currently we do not have plans for these other channels on the roadmap.
 
 ## Auto vs. Manual Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ When setting up my Advertising account, it states that<b> Auto Tracking</b> can lead to unintended consequences. What kinds of consequences may occur? 
++++ When setting up my Advertising account, it states that *Auto Tracking* can lead to unintended consequences. What kinds of consequences may occur? 
 
-Auto mode attempts to append URL parameters to the end of the tracking templates/destination URLs in the correct format. <b>However, it is your responsibility to ensure that the added URL parameters persist correctly to the final landing page. Auto mode can insert key words into the landing URL, and your web server may not support keywords with special characters. 
+Auto mode attempts to append URL parameters to the end of the tracking templates/destination URLs in the correct format. However, it is your responsibility to ensure that the added URL parameters persist correctly to the final landing page. Auto mode can insert key words into the landing URL, and your web server may not support keywords with special characters. 
 
 +++
 

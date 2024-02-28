@@ -40,9 +40,8 @@ The following table illustrates four possible scenarios.
 >
 >AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value so only scenarios 1 or 2 are possible. When you update to AppMeasurement release 2.26.x or later, while currently identifiying visitors incorrectly (scenario 3 or 4), the update has major implications. 
 >
->* Visitor identifiers are being reset and visitors will appear as new visitors. 
->* There will be no way to tie new activity to the previous visitor identifier. 
->* Also, suddenly cookies are set (such as for link tracking or activity map, `s_sq` cookie, resulting in a sudden increase in link interactions appearing in reporting) .
+>* Visitor identifiers are being reset and visitors will appear as new visitors. There will be no way to tie new activity to the previous visitor identifier. 
+>* Cookies are set (such as for link tracking or activity map, e.g.`s_sq` cookie), resulting in sudden differences in reporting.
 >
 >While correctly configuring `cookieDomainPeriods` will improve AppMeasurement and Analytics functionality, it is recommended to assess whether you are affected by the changes resulting from upgrading your AppMeasurement library.
 >

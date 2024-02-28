@@ -38,7 +38,7 @@ The following table illustrates four possible scenarios.
 >
 >You might have inadvertently configured `cookieDomainPeriods` <span style="color:red">incorrect</span> (leaving it at its default value of `"2"`) while using domains like `example.co.uk`. This implicit incorrect configuration results that you are identifying visitors following scenario 3 or 4.
 >
->AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value so only scenarios 1 or 2 from the table above are possible. When you update to AppMeasurement release 2.26.x or later, while currently identifiying visitors incorrectly (scenario 3 or 4), the update has major implications. 
+>AppMeasurement release 2.26.x or later configures `cookieDomainPeriods` automatically with the correct value so only scenarios 1 or 2 are possible. When you update to AppMeasurement release 2.26.x or later, while currently identifiying visitors incorrectly (scenario 3 or 4), the update has major implications. 
 >
 >* Visitor identifiers are being reset and visitors will appear as new visitors. 
 >* There will be no way to tie new activity to the previous visitor identifier. 

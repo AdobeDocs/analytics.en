@@ -15,6 +15,10 @@ By default, dynamic variables use the prefix `D=`. The `dynamicVariablePrefix` v
 
 The Web SDK does not use dynamic variable formatting. Instead, you can use Datastream mapping to populate multiple Target Fields using a single Source Field. See [Dynamic variables using the Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) for more information.
 
+If you send data directly to Adobe Analytics without conforming to a schema, it uses the following variable:
+
+* [`data`](/help/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+
 ## Dynamic Variable Prefix using the Adobe Analytics extension
 
 Dynamic Variable Prefix is a field under the [!UICONTROL Global Variables] accordion when configuring the Adobe Analytics extension.

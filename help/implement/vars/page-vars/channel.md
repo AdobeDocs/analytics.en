@@ -11,7 +11,10 @@ The `channel` variable typically stores the section of the site a given page is 
 
 ## Channel using the Web SDK
 
-Channel is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.siteSection`.
+Channel is mapped to the following variables:
+
+* [`xdm`](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.channel` or `data.__adobe.ch`
 
 ## Channel using the Adobe Analytics extension
 

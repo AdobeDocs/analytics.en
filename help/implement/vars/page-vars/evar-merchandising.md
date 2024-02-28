@@ -39,10 +39,10 @@ The value for `eVar1` is assigned to the product. All subsequent success events 
 
 ### Product syntax using the Web SDK
 
-Product syntax merchandising variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several different XDM fields.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), product syntax merchandising variables use the following XDM fields:
 
-* Product syntax merchandising eVars are mapped under `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Product syntax merchandising events are mapped under `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Event serialization](events/event-serialization.md) XDM fields are mapped under `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Product syntax merchandising eVars are mapped under `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Product syntax merchandising events are mapped under `xdm.productListItems[]._experience.analytics.event1to100.event1.value` to `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`. [Event serialization](events/event-serialization.md) XDM fields are mapped under `xdm.productListItems[]._experience.analytics.event1to100.event1.id` to `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
@@ -80,6 +80,8 @@ The following example shows a single [product](products.md) using multiple merch
 ```
 
 The above example object would be sent to Adobe Analytics as `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), eVar merchandising uses `data.__adobe.eVar1` - `data.__adobe.eVar250` following AppMeasurement syntax.
 
 ## Implement using conversion variable syntax
 

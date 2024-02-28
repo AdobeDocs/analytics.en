@@ -13,7 +13,10 @@ This variable populates the [Tracking Code](/help/components/dimensions/tracking
 
 ## Campaign using the Web SDK
 
-Campaign is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `marketing.trackingCode`.
+Campaign is mapped to the following variables:
+
+* [`xdm`](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.campaign` or `data.__adobe.v0`
 
 ## Campaign using the Adobe Analytics extension
 

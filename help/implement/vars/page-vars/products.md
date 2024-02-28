@@ -15,7 +15,7 @@ The `products` variable tracks products and properties tied to them. This variab
 
 ## Products using the Web SDK
 
-Products are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several XDM fields:
+Products are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under several XDM fields:
 
 * Category is mapped to `productListItems[].productCategories[].categoryID`. It uses the first item in the `productCategories[]` array. `lineItemId` also maps correctly, but we recommend `categoryID` since this is standard XDM. If both XDM fields are present `lineItemId` takes precedence.
 * Product is mapped to `productListItems[].SKU` or `productListItems[].name`. If both XDM fields are present, `productListItems[].SKU` is used.

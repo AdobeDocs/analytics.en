@@ -17,7 +17,7 @@ If this variable is not defined on a given page tracking call, the [`pageURL`](p
 
 ## Page Name using the Web SDK
 
-Page is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.name`.
+Page is [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM field `web.webPageDetails.name`.
 
 ## Page Name using the Adobe Analytics extension
 

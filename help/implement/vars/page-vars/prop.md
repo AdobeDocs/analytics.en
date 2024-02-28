@@ -19,7 +19,7 @@ If you have a [solution design document](/help/implement/prepare/solution-design
 
 ## Props using the Web SDK
 
-Props are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. List props are specified in a separate set of fields.
+Props are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM fields `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. List props are specified in a separate set of fields.
 
 ## Props using the Adobe Analytics extension
 

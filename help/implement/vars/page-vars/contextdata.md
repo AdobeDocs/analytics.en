@@ -21,14 +21,18 @@ If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), al
 alloy("sendEvent", {
   "data": {
     "__adobe": {
-      "contextData": {
-        "example_variable": "Example value",
-        "second_example": "Another value"
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
       }
     }
   }
 });
 ```
+
+The [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) interface would show `c.example_variable` and `c.second_example` in applicable drop-down menus.
 
 ## Context data variables using the Adobe Analytics extension
 

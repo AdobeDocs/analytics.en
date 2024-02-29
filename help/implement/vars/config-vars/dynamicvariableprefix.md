@@ -17,7 +17,7 @@ The Web SDK does not use dynamic variable formatting. Instead, you can use Datas
 
 If you send data directly to Adobe Analytics without conforming to a schema, it uses the following variable:
 
-* [`data`](/help/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Dynamic Variable Prefix using the Adobe Analytics extension
 

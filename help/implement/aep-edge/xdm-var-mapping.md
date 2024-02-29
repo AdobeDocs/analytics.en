@@ -11,6 +11,12 @@ The following table shows the XDM variables that the Adobe Experience Platform E
 
 If your organization plans to move to Customer Journey Analytics, Adobe recommends instead using the `data` object to send data directly to Adobe Analytics without conforming to a schema. This strategy allows your organization to use your own schema, instead of using the [!UICONTROL Adobe Analytics ExperienceEvent Template] (which is less applicable to Customer Journey Analytics). See [Data object variable mapping to Adobe Analytics](data-var-mapping.md) for a similar mapping table.
 
+## Value priorities
+
+Most XDM object fields in this table coincide with a [data object field](data-var-mapping.md). If you set both a given XDM object field and its respective data object field, the data object field takes priority. If you use both the XDM object field and the data object field, Adobe recommends setting custom events using the data object field. If the field `data.__adobe.analytics.events` is present, it overwrites all XDM object fields related commerce and custom events.
+
+## XDM object field mapping
+
 Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
 
 | XDM field path | Analytics variable and description |

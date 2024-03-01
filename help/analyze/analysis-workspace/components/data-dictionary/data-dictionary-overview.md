@@ -60,8 +60,6 @@ You can access the Data Dictionary in any of the following ways within Analysis 
   ![Data Dictionary icon in info popover](assets/data-dictionary-access-infopopover.png)
 <!--update screenshot; this was taken from a mock-->
 
-* From the menu: [!UICONTROL **Help**] > [!UICONTROL **Data Dictionary**].
-
 For detailed information about the various options available in the Data Dictionary, see [View component information in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Update and curate the Data Dictionary

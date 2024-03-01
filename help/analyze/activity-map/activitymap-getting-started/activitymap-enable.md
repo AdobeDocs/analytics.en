@@ -34,7 +34,7 @@ Interact calls using Developer Console Network Tab:
 
 Adobe Experience Platform Debugger:
 
-1. Download and install the [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Download and install the [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Go to [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge]. 
 
    ![](assets/validation2.jpg)

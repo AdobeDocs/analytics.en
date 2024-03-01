@@ -33,7 +33,7 @@ Here is a video overview of project sharing:
 
 You can share a project with existing Analysis Workspace users or groups in your organization. When you share a project as described in this section, the users you share with must already have access to Adobe Analytics.
 
-You can share a specific role with users or groups, or you can share a link.
+You can share a specific role with users or groups, or you can share a link. 
 
 * [Share a specific project role](#share-a-specific-project-role)
 
@@ -49,16 +49,28 @@ When sharing a specific project role with users and groups in your organization,
 
 * A user who is placed in multiple roles always get the highest experience. This might occur if a user is added both as an individual and as part of a group. For example, if a user is given the **[!UICONTROL Edit original]** role as an individual and the **[!UICONTROL Read only]** role as a member of a group, they will receive a **[!UICONTROL Edit original]** project experience.
 
-* Admins placed in the **[!UICONTROL Edit copy]** or **[!UICONTROL Read only]** role receive those limited experiences when they open a project. An Admin can change their role to **[!UICONTROL Edit original]** by sharing the project with themselves and granting the Edit role, as described in the following procedure. 
+* Admins placed in the **[!UICONTROL Edit copy]** or **[!UICONTROL Read only]** role receive those limited experiences when they open a project. An Admin can change their role to **[!UICONTROL Edit original]** by sharing the project with themselves and granting the **Edit** role, as described in the following procedure. 
+
+* If multiple projects are selected to be shared, recipients will be added to the existing list of recipients for each project. 
+
+  For example, Project A is already shared with recipients 1, 2, and 3, while Project B is already shared with recipients 4, 5, and 6. 
+
+  Projects A and B are then shared with recipients 4 and 7. The new share list for Project A is now 1, 2, 3, 4, and 7, while the new share list for Project B is 4, 5, 6, and 7. 
 
 To share a specific project role with users or groups in your organization:
 
-1. Go to the project that you want to share, then click **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
+1. In Adobe Analytics, select the [!UICONTROL **Workspace**] tab, then select [!UICONTROL **Projects**] in the left rail.
+
+1. Select the checkbox next to one or more projects that you want to share, then select [!UICONTROL **Share**].
+
+   Or
+
+   To share an individual project only, you can open the project that you want to share, then select **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**. 
    If there are unsaved changes, you are prompted to save your project first. 
 
-   ![](assets/share-proj-modal.png)
+   The Share project dialog box displays. The [!UICONTROL **Share by link**] and [!UICONTROL **Settings**] sections of the dialog box are visible only when sharing a single project.
 
-   For information about how to share multiple projects simultaneously, see [Share projects in the Project manager](#share-projects-in-the-project-manager).
+   ![](assets/share-proj-modal.png)
 
 1. Add recipients or groups of recipients in one of the provided role fields:
 
@@ -68,17 +80,17 @@ To share a specific project role with users or groups in your organization:
 
    **Read only:** Recipients cannot **[!UICONTROL Save]** or **[!UICONTROL Save as]** and do not have access to the left rail. Project interactions are also limited. This role is useful if you want to share a project to users that are less familiar with your organization's data structure, Analysis Workspace or Adobe Analytics generally. However, you still want them to consume data and insights in a safe environment. Learn more about the [Read only project experience](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. Choose whether to enable the following options when sharing the project:
+1. (Conditional) If you are sharing a single project, choose whether to enable the following options when sharing the project:
 
    * **Share embedded project components:** Shares segments, calculated metrics, and date ranges with all recipients. After being shared, these components will appear in the Components drop-down of the recipient's Workspace. This setting does not persist - it is a one-time action at the time of sharing.
 
    * **Set as landing page for recipients:** Sets this page as the landing page for recipients. This setting does not persist - it is a one-time action at the time of sharing.
  
-1. Click **[!UICONTROL Share]**. (If the project has already been shared, click [!UICONTROL **Update**].)
+1. Select **[!UICONTROL Share]**. (If the project has already been shared, select [!UICONTROL **Update**].)
   
    Or
    
-   Click **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, click **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+   Select **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, select **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
 
 ## Share a link to a project 
 
@@ -162,21 +174,11 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
 1. Select **[!UICONTROL Close]** to close the share dialog box. Your changes are automatically saved.
 
-## Share projects in the Project manager {#Manager} 
+## View projects shared with you
 
-Projects can also be shared from **[!UICONTROL Components] > [!UICONTROL Projects]**. A single project can be shared following the same steps above.  If multiple projects are selected to be shared, recipients will be added to the existing list of recipients for each project. 
+When someone shares a project with you by [sharing a specific project role](#share-a-specific-project-role), you can access the shared projects from the [Projects tab of on the Analytics landing page](/help/analyze/landing.md#navigate-the-projects-tab). 
 
-For example: 
-
-* Project A is shared to recipients  1, 2, 3 
-* Project B is shared to recipients 4, 5, 6 
-
-With Project A and B selected, recipients 4 and 7 are added to the share lists. The new share list for each project is now: 
-
-* Project A: 1, 2, 3, 4, 7 
-* Project B: 4, 5, 6, 7 
-
-![](assets/mult-proj-sharing.png)
+When someone shares a project with you by sharing a link (either from the [Share project tab](#share-a-link-to-a-project) or using a [share with anyone](#share-a-project-with-anyone-no-login-required) link), you must use the link that was shared with you in order to access the project. For example, the link might have been shared in an email, on an internal website, and so forth.
 
 ## Share embedded components
 

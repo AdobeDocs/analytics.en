@@ -21,7 +21,7 @@ If you have a [solution design document](/help/implement/prepare/solution-design
 
 Props are mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `_experience.analytics.customDimensions.props.prop1` - `_experience.analytics.customDimensions.props.prop75` - list props are specified in a [separate set of fields](#list-props-web-sdk).
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - list props are specified in a [separate set of fields](#list-props-web-sdk).
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; or `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - list props are included in these fields.
 
 ## Props using the Adobe Analytics extension
@@ -59,7 +59,7 @@ Enable list props in [Traffic variables](/help/admin/admin/c-manage-report-suite
 
 ### Set list props using the Web SDK {#list-props-web-sdk}
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), list props are mapped to `_experience.analytics.customDimensions.listProps.prop1.values[]` - `_experience.analytics.customDimensions.listProps.prop75.values[]`. The Web SDK automatically uses the correct delimiter listed under report suite settings. If you set the delimiter in the XDM field (for example, `_experience.analytics.customDimensions.props.prop1.delimiter`), that overrides the delimiter automatically retrieved from report suite settings and can lead to incorrect parsing of the list prop string.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), list props are mapped to `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. The Web SDK automatically uses the correct delimiter listed under report suite settings. If you set the delimiter in the XDM field (for example, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), that overrides the delimiter automatically retrieved from report suite settings and can lead to incorrect parsing of the list prop string.
 
 If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), list props use the same fields as standard props and follow AppMeasurement syntax.
 

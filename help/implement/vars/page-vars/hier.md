@@ -19,7 +19,7 @@ Before using hierarchies in your implementation, make sure that you configure ea
 
 ## Hierarchies using the Web SDK
 
-Hierarchies are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM fields `_experience.analytics.customDimensions.hierarchies.hier1` to `_experience.analytics.customDimensions.hierarchies.hier5`.
+Hierarchies are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM fields `xdm._experience.analytics.customDimensions.hierarchies.hier1` to `xdm._experience.analytics.customDimensions.hierarchies.hier5`.
 
 ## Hierarchies using the Adobe Analytics extension
 

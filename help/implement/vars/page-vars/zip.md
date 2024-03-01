@@ -17,7 +17,7 @@ The `zip` variable allows you to manually populate the 'Zip Code' dimension if t
 
 Zip code is mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `placeContext.geo.postalCode`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Zip code using the Adobe Analytics extension

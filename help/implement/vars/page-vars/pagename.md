@@ -19,7 +19,7 @@ If this variable is not defined on a given page tracking call, the [`pageURL`](p
 
 Page name is mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.name`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Page name using the Adobe Analytics extension

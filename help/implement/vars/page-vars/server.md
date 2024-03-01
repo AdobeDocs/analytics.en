@@ -13,7 +13,7 @@ The `server` variable typically stores the hostname of your site. It is commonly
 
 Server is mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.server`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Server using the Adobe Analytics extension

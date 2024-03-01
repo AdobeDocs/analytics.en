@@ -21,7 +21,7 @@ Make sure that you configure each list variable in report suite settings before 
 
 ## List variables using the Web SDK
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), list variables use the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; Adobe data collection servers automatically detect and include the correct delimiter set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), list variables use the XDM fields `xdm._experience.analytics.customDimensions.lists.list1.list[]` to `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; Adobe data collection servers automatically detect and include the correct delimiter set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {

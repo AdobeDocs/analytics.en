@@ -17,7 +17,7 @@ Purchase ID's apply to all visitors and expire after 37 months. If one visitor s
 
 Purchase ID is mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `commerce.order.purchaseID`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Purchase ID using the Adobe Analytics extension

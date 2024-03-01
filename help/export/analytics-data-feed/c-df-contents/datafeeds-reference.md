@@ -25,6 +25,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | Column name | Column description | Data type |
 | --- | --- | --- |
 | **`accept_language`** | Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request. | char(20) |
+| **`adconsent`** | Value identifiying whether consent is acquired for sending data from Adobe Analytics through Adobe Advertising to third-party advertising providers (like Google). | varchar(100) | 
 | **`adload`** | Media ad loads | varchar(255) |
 | **`aemassetid`** | A multi-value variable corresponding to Asset ID's (GUID's) of a set of Adobe Experience Manager Assets. Increments Impression Events. | text |
 | **`aemassetsource`** | Identifies the source of the asset event. Used in Adobe Experience Manager.| varchar(255) |

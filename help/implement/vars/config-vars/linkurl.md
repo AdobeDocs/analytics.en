@@ -13,8 +13,8 @@ Whenever a link tracking call is sent to Adobe, data collection servers automati
 
 Link URL is mapped to the following variables:
 
-* [`xdm`](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
-* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.linkURL` or `data.__adobe.pev1`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` or `data.__adobe.analytics.pev1`
 
 ## Link URL using the Adobe Analytics extension
 

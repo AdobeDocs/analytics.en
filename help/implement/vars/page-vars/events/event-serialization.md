@@ -33,7 +33,7 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), even
 
 For example, if you wanted to serialize the Cart Additions metric, set `xdm.commerce.productListAdds.id` to the desired serialization value. If you wanted to serialize Custom event 20, set `xdm._experience.analytics.event1to100.event20` to the desired serialization value.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), event serialization uses `data.__adobe.events`, following AppMeasurement string syntax.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), event serialization uses `data.__adobe.analytics.events`, following AppMeasurement string syntax.
 
 ## Use event IDs using the Adobe Analytics extension
 

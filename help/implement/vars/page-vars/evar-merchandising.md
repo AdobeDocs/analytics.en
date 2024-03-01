@@ -50,38 +50,38 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), prod
 
 The following example shows a single [product](products.md) using multiple merchandising eVars and events:
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 The above example object would be sent to Adobe Analytics as `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), eVar merchandising uses `data.__adobe.eVar1` - `data.__adobe.eVar250` following AppMeasurement syntax.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), eVar merchandising uses `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` following AppMeasurement syntax.
 
 ## Implement using conversion variable syntax
 
@@ -105,33 +105,60 @@ The value `"Aviary"` for `eVar1` is assigned to the product `"Canary"`. All subs
 
 ### Conversion variable syntax using the Web SDK
 
-Conversion variable syntax using the Web SDK operates similarly to implementing other [eVars](evar.md) and [events](events/events-overview.md). The XDM mirroring the example above would look like the following:
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), syntax operates similarly to implementing other [eVars](evar.md) and [events](events/events-overview.md). The XDM mirroring the example above would look like the following:
 
 Set the eVar on the same or previous event call:
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 Set the binding event and values for the products string:
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the data objects mirroring the example above would look like the following:
+
+Set the eVar on the same or previous event call:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+Set the binding event and values for the products string:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

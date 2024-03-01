@@ -28,8 +28,8 @@ A period **must** be used as the currency separator for all currencies when impl
 
 Currency code is mapped to the following variables:
 
-* [`xdm`](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
-* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.currencyCode` or `data.__adobe.cc`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` or `data.__adobe.analytics.cc`
 
 ## Currency Code using the Adobe Analytics extension
 

@@ -21,8 +21,8 @@ Before using eVars in your implementation, make sure that you configure each eVa
 
 eVars are mapped to the following variables:
 
-* [`xdm`](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` to `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [`data`](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.eVar1` to `data.__adobe.eVar250`; or `data.__adobe.v1` to `data.__adobe.v250`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` to `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` to `data.__adobe.analytics.eVar250`; or `data.__adobe.analytics.v1` to `data.__adobe.analytics.v250`
 
 ## eVars using the Adobe Analytics extension
 

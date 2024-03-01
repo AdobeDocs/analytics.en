@@ -11,11 +11,18 @@ The `zip` variable allows you to manually populate the 'Zip Code' dimension if t
 
 >[!IMPORTANT]
 >
->Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL geo zip] is always used. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide for more information.
+>Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL Geo zip] is always used. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide for more information.
 
-## Zip using the Adobe Analytics extension
+## Zip code using the Web SDK
 
-You can set Zip Code either while configuring the Analytics extension (global variables) or under rules.
+Zip code is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `placeContext.geo.postalCode`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Zip code using the Adobe Analytics extension
+
+You can set Zip code either while configuring the Analytics extension (global variables) or under rules.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 2. Click the desired tag property.

@@ -15,7 +15,7 @@ The `timestamp` variable manually sets the timestamp of the hit for timestamp-en
 
 ## Timestamp using the Web SDK
 
-Timestamp is [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM field `xdm.timestamp`. This field only supports Unix time.
+Timestamp is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) under the XDM field `xdm.timestamp`. This field only supports Unix time.
 
 ## Timestamp using the Adobe Analytics extension
 
@@ -27,7 +27,7 @@ The `s.timestamp` variable is a string containing the date and time of the hit. 
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -46,19 +46,19 @@ Dates and times expressed in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
 * Both the date and time must be provided, separated by `T`.
 * Hours and minutes are required; seconds are optional but recommended.
 * Week dates and ordinal dates are not supported.
-* The date can be in standard or extended format. For example, `2020-01-01T00:00:00Z` and `20200101T000000Z` are both valid.
+* The date can be in standard or extended format. For example, `2024-01-01T00:00:00Z` and `20240101T000000Z` are both valid.
 * Fractional minutes and seconds are technically valid, but the fractions are ignored by Adobe.
 * Time zones are supported in standard and extended formats.
 
 The following are valid example ISO 8601 values in the `timestamp` variable:
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

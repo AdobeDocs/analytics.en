@@ -15,7 +15,7 @@ The `products` variable tracks products and properties tied to them. This variab
 
 ## Products using the Web SDK
 
-Products are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under several XDM fields:
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), products are mapped to the following variables:
 
 * Category is mapped to `productListItems[].productCategories[].categoryID`. It uses the first item in the `productCategories[]` array. `lineItemId` also maps correctly, but we recommend `categoryID` since this is standard XDM. If both XDM fields are present `lineItemId` takes precedence.
 * Product is mapped to `productListItems[].SKU` or `productListItems[].name`. If both XDM fields are present, `productListItems[].SKU` is used.
@@ -27,6 +27,8 @@ Products are [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mappi
 >[!NOTE]
 >
 >`lineItemId` must be added as a custom field as it is not yet part of the standard Analytics Event schema. Adobe plans to add a dedicated 'Category' field in the future.
+
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the products variable uses `data.__adobe.analytics.products` following AppMeasurement syntax. If you set this field, any products set in the XDM object are overwritten and not sent to Adobe Analytics.
 
 ## Products using the Adobe Analytics extension
 

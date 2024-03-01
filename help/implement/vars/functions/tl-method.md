@@ -37,17 +37,19 @@ alloy("sendEvent", {
 
 If you use a data object and want Adobe Analytics to count a given event as a link tracking call, make sure that your data object includes:
 
-* Link name: mapped to `data.__adobe.linkName`.
-* Link URL: mapped to `data.__adobe.linkURL`.
-* Link type: mapped to `data.__adobe.linkType`. Valid values include `o` (Custom links), `d` (Download links), and `e` (Exit links).
+* Link name: mapped to `data.__adobe.analytics.linkName`.
+* Link URL: mapped to `data.__adobe.analytics.linkURL`.
+* Link type: mapped to `data.__adobe.analytics.linkType`. Valid values include `o` (Custom links), `d` (Download links), and `e` (Exit links).
 
 ```js
 alloy("sendEvent", {
   "data": {
     "__adobe": {
-      "linkName": "My custom link",
-      "linkURL": "https://example.com",
-      "linkType": "o"
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
+      }
     }
   }
 });

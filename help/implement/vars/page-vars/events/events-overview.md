@@ -32,7 +32,7 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), cust
 >
 >If an event is set under `productListItems` (for example, `productListItems._experience.analytics.event1.value`) and that event is not yet in this field, that event is automatically added to this field.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), custom events use `data.__adobe.events`, following AppMeasurement string syntax.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all events use `data.__adobe.analytics.events`, following AppMeasurement string syntax. If you set this field, any events set in the XDM object are overwritten and not sent to Adobe Analytics.
 
 ## Events using the Adobe Analytics extension
 

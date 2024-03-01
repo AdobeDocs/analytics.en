@@ -15,7 +15,7 @@ Context data variables are helpful for development teams to collect data in name
 
 If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all context data variables reside within `data.__adobe.contextData` as key-value pairs:
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all context data variables reside within `data.__adobe.analytics.contextData` as key-value pairs:
 
 ```js
 alloy("sendEvent", {

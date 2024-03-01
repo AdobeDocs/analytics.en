@@ -27,7 +27,7 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), the 
 * Units are mapped to the sum of all `xdm.productListItems[].quantity` fields.
 * Revenue is mapped to the sum of all `xdm.productListItems[].priceTotal` fields.
 
-If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the purchase event uses `data.__adobe.events`, following AppMeasurement string syntax.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the purchase event uses `data.__adobe.analytics.events`, following AppMeasurement string syntax.
 
 ## Set the purchase event using the Adobe Analytics extension
 

@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **March 2024** | |
+| AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. |  
 | **January 2024** | |
 | Component migration applies to individual IMS orgs | Clarified that [component migration](/help/admin/admin/component-migration/component-migration.md) does not support cross-IMS org migration. |
 | Clarified that certain information is available only to administrators  | Added information stating that the "Last used" and "Used in" columns that are described in [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) are available only to system administrators. |

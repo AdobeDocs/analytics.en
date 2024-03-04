@@ -18,13 +18,28 @@ This dimension collects data from the following [Context data variables](/help/i
 
 * `contextData.['adConsent']`
   
-You populate the context data variable with the relevant value. The first character of the value represents the states that Google requires when receiving data from Adobe Analytics via Adobe Advertising:
+You populate the context data variable with relevant values for the Google consent fields
 
-| Value of first character| Explanation |
-|:-:|---|
-| `"Y..."` | Grant consent to Google to use the data for advertising. |
-| `"N..."` | Grant no consent to Google to use data for advertising. |
-| `"U..."` | Unknown or unspecified. |
-| `"-..."` | You are not using Google for advertising and decide explicity not to specify a value |
+* `ad_user_data` (1st character) and 
+* `ad_personalization` (2nd character). 
+ 
+See [Consent in the Google Ads API reference](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) for more information.
+
+The possible values for each of these fields can be:
+
+| Value | ad_user_data | ad_personalization |
+|:-:|---|---|
+| `Y` | Grant consent to Google for ad user data. | Grant consent to Google for ad personalization. |
+| `N` | Grant no consent to Google for ad user data. | Grant no consent to Google for ad personalization. |
+| `U` | Unknown or unspecified. | Unknown or unspecified. |
+| `-` | You are not using Google for ad user data and decide explicity not to specify a value. | You are not using Google for ad user personalization and decide explicity not to specify a value. | 
+
+The example below grants consent to Google for ad user data but not for ad personalization:
+
+```
+contextData.['adConsent'] = "YN..."
+```
+
+Characters beyond the first and second character are currently ignored. 
 
 Your organization determines the logic to implement this context data variable. The value does not persist beyond the hit it is set on, so you must set the context data variable on each page.

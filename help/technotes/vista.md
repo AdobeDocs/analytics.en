@@ -22,10 +22,10 @@ Many use cases to VISTA rules are already offered by [Processing rules](/help/ad
 >
 >VISTA rules require a paid agreement between your organization and Adobe Professional Services. Contact your Adobe Account Team if you want to create or update a VISTA rule.
 
-## Create a VISTA rule
+## Create a VISTA rule {#create}
 
 You must work with Adobe Professional Services in order to create a VISTA rule. Contact your Adobe Account Team if you want to create a VISTA rule.
 
-## See existing VISTA rules
+## See existing VISTA rules {#see}
 
 Adobe does not offer a UI to view existing VISTA rules. Contact your Adobe Account Team or Customer Care with the desired report suite to retrieve a list of existing VISTA rules.

@@ -26,7 +26,7 @@ Visitor migration lets you preserve visitor identification cookies when changing
 
 After visitor migration is configured, when a user visits the new domain without a visitor ID cookie, the server redirects to the previous data collection hostname, retrieves any available visitor ID cookies, and then redirects back to the new domain. If a Visitor ID is not found on the previous hostname, a new ID is generated. This occurs only once per visitor.
 
-## Visitor Migration Process {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Visitor Migration Process {#process}
 
 The following table lists the tasks required for visitor migration: 
 
@@ -60,3 +60,10 @@ The following table lists the tasks required for visitor migration:
   </tr> 
  </tbody> 
 </table>
+
+|Task|Description|
+|--- |--- |
+| To get started: Contact Customer Care  with the domain(s) you want to migrate, and the migration period you would like to enable (30, 60, or 90 days). Make sure that you include the non-secure and secure domains. | Create a list with the exact syntax for the domains you want to migrate to and migrate from.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>The migration host names are configured on Adobe Data collection server. Customer Care will let you know when the change is made so you can plan for the next step.|
+| 6+ hours after configuration change: Update the `s.trackingServer` and `s.trackingServerSecure` variables in your Analytics JavaScript code to use the new data collection servers. | After you make this change, use the [Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) to verify that the Analytics image request is going to the updated data collection server.|
+| Immediately after updating your Analytics code: Test your site to verify that the redirect to the previous data collection domain is occurring. | Use a [packet monitor](../implement/validate/packet-monitor.md) to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. If any of these redirects fail, contact Customer Care immediately to ensure that the migration is configured correctly.|
+| For the entire migration period: Keep the DNS record for the previous hostname active. | The previous hostname must resolve through DNS or the cookie migration will not occur. |

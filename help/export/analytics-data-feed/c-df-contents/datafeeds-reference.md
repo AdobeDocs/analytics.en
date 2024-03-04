@@ -48,7 +48,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`clickmaplinkbyregion`** | Activity Map link by region | varchar(255) |
 | **`clickmappage`** | Activity Map page | varchar(255) |
 | **`clickmapregion`** | Activity Map region | varchar(255) |
-| **`code_ver`** | AppMeasurement Library version used to compile and send the image request. | char(16) |
+| **`code_ver`** | API or client SDK version used to compile and send the image request. | char(16) |
 | **`color`** | Color depth ID based on the value of the `c_color` column. References the `color_depth.tsv` lookup table.| smallint unsigned |
 | **`connection_type`** | Numeric ID representing the connection type. Variable used in the [Connection type](/help/components/dimensions/connection-type.md) dimension. References the `connection_type.tsv` lookup table.| tinyint unsigned |
 | **`cookies`** | Variable used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension.<br>Y: Enabled<br>N: Disabled<br>U: Unknown| char(1)|

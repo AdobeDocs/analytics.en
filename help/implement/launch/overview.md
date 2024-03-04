@@ -7,11 +7,11 @@ role: Admin, Developer
 ---
 # Implement Adobe Analytics using the Analytics extension
 
-Through the lifetime of Adobe Analytics, Adobe has offered several different methods to implement code on your site for data collection. Adobe's current recommended method is through tags in Adobe Experience Platform.
+Through the lifetime of Adobe Analytics, Adobe has offered several different methods to implement code on your site for data collection. Adobe's current recommended method is through [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform is a tag management solution that lets you deploy Analytics code alongside other tagging requirements. Adobe offers integrations with other solutions and products, and lets you deploy custom code. All of these tasks can be done without relying on any development teams in your organization to update code on your site.
 
-All customers with an active Adobe Experience Cloud contract can use tags. If you are not sure if you have access, contact one of your organization's Experience Cloud system admins.
+All customers with an active Adobe Experience Cloud contract can use Tags. If you are not sure if you have access, contact one of your organization's Experience Cloud system admins.
 
 A high-level overview of the implementation tasks:
 
@@ -42,7 +42,7 @@ A high-level overview of the implementation tasks:
 <tr>
 <td>3</td>
 <td><b><b>Create a tag property</b>. Properties are overarching containers used to reference tag management data.</td>
-<td><a ref="../launch/create-analytics-property.md">Create an Adobe Analytics tag property</a></td>
+<td><a href="../launch/create-analytics-property.md">Create an Adobe Analytics tag property</a></td>
 </tr>
 
 <tr>

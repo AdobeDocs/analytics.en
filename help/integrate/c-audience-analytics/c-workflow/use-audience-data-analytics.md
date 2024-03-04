@@ -9,7 +9,7 @@ exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 
 You can use the Adobe Audience Manager Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include:
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 In Analysis Workspace, the Adobe Audience Manager segments appear as two dimensions.
 
@@ -18,7 +18,7 @@ In Analysis Workspace, the Adobe Audience Manager segments appear as two dimensi
 
    ![](assets/aw-mcaudiences.png)
 
-## Segment Comparison {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Segment Comparison {#compare}
 
 [Segment Comparison](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) discovers the most statistically significant differences between two segments. Audiences data can be used in Segment Comparison in two ways: 1) as the 2 segments that are being compared, and 2) as items in the "Top Dimension Items" table.
 
@@ -35,7 +35,7 @@ In Analysis Workspace, the Adobe Audience Manager segments appear as two dimensi
 
    ![](assets/aud-segcompare.png)
 
-## Customer Journey (Flow) in Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Customer Journey (Flow) in Analysis Workspace {#flow}
 
 Adobe Audience Manager segment data is passed into Analytics on a hit-by-hit basis, and represents the audience membership for a visitor at that point in time. This means, a visitor could fall into one segment (e.g. "Awareness"), then later qualify for a more qualified segment (e.g. "Consideration"). You can use [Flow](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) in Analysis Workspace to visualize the journey a visitor takes between audiences.
 
@@ -49,7 +49,7 @@ Adobe Audience Manager segment data is passed into Analytics on a hit-by-hit bas
 
 Audiences can also be used in [Fallout visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
-## Venn Visualization in Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Venn Visualization in Analysis Workspace {#venn}
 
 [Venn visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html) show the overlap between up to 3 segments.
 
@@ -63,7 +63,7 @@ Audiences can also be used in [Fallout visualizations](https://experienceleague.
 
 ![](assets/venn-viz.png)
 
-## Segment Builder {#section_2AA81852A1404AB894472CA8959461B6}
+## Segment Builder {#builder}
 
 You can incorporate the Audiences dimensions in the Analytics [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), along with the behavioral information that Analytics collects.
 

@@ -15,33 +15,35 @@ These release notes cover the release period of February 14, 2024 to March 11, 2
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement update** | [AppMeasurement release v2.26.0](/help/implement/appmeasurement-updates.md) is available. | | March 4, 2024 |
-| **Analytics Support for consent flags required by Google for DMA** | Due to new European privacy regulations, Google requires that data collected in Europe that was sent to them must indicate whether two particular kinds of consent were granted. **Starting March 6th**, Google will no longer accept event data that does not indicate that the relevant consent was granted. Adobe Analytics expects to release support for capturing this data in mid March. We will communicate more details shortly. |  | Mid March, 2024 |
+| **Analytics support for consent flags required by Google for DMA** | Due to new European privacy regulations, Google requires that data collected in Europe that was sent to them must indicate whether two particular kinds of consent were granted. **Starting March 6th**, Google will no longer accept event data that does not indicate that the relevant consent was granted. Adobe Analytics expects to release support for capturing this data in mid March. We will communicate more details shortly. |  | Mid March, 2024 |
+| **Use the same cloud accounts for Data Feeds, Data Warehouse, and Classification sets** | Cloud accounts and locations that you create can now be used for exporting data (with Data Feeds and Data Warehouse) and importing data (with Classification sets).<p> **Changes when configuring accounts:** Users can Configure cloud import and export accounts and Configure cloud import and export locations that can be used for any of the following purposes:<ul><li>Importing data with Classification sets</li><li>Exporting data with Data Feeds</li><li>Exporting data with Data Warehouse.<p> **Changes when managing accounts**: Users can use the Locations page (under Components > Locations) to view and manage all the accounts and locations that they create, regardless of where they were created. Previously, the Locations page applied only to accounts that were created for importing data with Classification sets. | | April 2024 |
+| **Administrators can manage all locations in their organization** | A new option on the Locations page allows Administrators to view and manage all locations in the organization. Previously, administrators could view and manage only the locations they created. |  | April 2024 |
 | **Activity Map for Web SDK without extra cost** | Currently, Activity Map link events are counted as their own events and incur extra cost. This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement. |  | April 3, 2024 |
-| **Increase in default low-traffic thresholds**| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul> | Mid April, 2024 | End of May, 2024 |
 
 {style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-319515; AN-337559; AN-338149; AN-338702; AN-338769; AN-338891; AN-339327; AN-339649; AN-339668; AN-339669; AN-339776; AN-339822; AN-340017; AN-340202; AN-340476; 
-* Fixed the following Classifications Rule Builder issues: AN-338385; AN-338399; AN-338592; AN-338810; AN-338893; AN-339431; AN-339894; AN-339933; AN-340201; AN-340309; 
-* Fixed the following A4T issues: AN-334830; AN-336194; AN-338309; AN-338650; 
-* Fixed the following Data Collection issue: AN-339323
-* Fixed the following Data Warehouse issues: AN-335542; AN-331425; AN-337215; AN-338445; AN-338643; AN-338651; AN-339461; AN-340066; AN-340207; AN-340460
-* Fixed the following Data Feeds issues: AN-335952; AN-338653; AN-339508; AN-339681; AN-340418
-* Fixed the following Data Sources issues: AN-338648
-* Fixed the following Analysis Workspace issues: AN-326509; AN-336186; AN-336190; AN-336309; AN-337922; AN-338094; AN-338323; AN-338556; AN-339600; AN-340445
+* Fixed the following Classifications issues: AN-335632; AN-337559; AN-340164; AN-340370; AN-341089; AN-341211; AN-341284; AN-341469; AN-341481; AN-341760; AN-341778; AN-342144; 
+* Fixed the following Classifications Rule Builder issues: AN-340921; AN-341269; AN-341292; AN-341467; AN-341666; AN-342145; 
+* Fixed the following Intelligent Alerts issue: AN-340736
+* Fixed the following Segmentation issue: AN-336242
+* Fixed the following Data Warehouse issues: AN-335354; AN-339446; AN-339774; AN-340221; AN-340599
+* Fixed the following Data Feeds issues: AN-335508; AN-340887; AN-341050; AN-341208; AN-341403; AN-341479; AN-341524; AN-341661; AN-342000; AN-342125; AN-342301; AN-342410; 
+* Fixed the following Report Builder issue: AN-340540
+* Fixed the following Analysis Workspace issues: AN-295889; AN-330981; AN-338818; AN-339730; AN-341114; AN-341520; 
 
 ### Other Analytics fixes
 
-AN-328239; AN-332908; AN-335449; AN-335517; AN-336075; AN-336100; AN-336128; AN-338088; AN-338270; AN-338393; AN-338494; AN-339326; AN-339742; AN-339883; AN-340419; 
+AN-312198; AN-334790; AN-336461; AN-336572; AN-339549; AN-341475; AN-341558; AN-341680; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| Adobe API object member additions | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects at any time and without notice or changes in versioning. Adobe recommends that you refer to the API documentation of any third-party tool you integrate with our APIs so that such additions are ignored in processing, if not understood. If implemented properly, such additions are non-breaking changes for your implementation. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
-| `getPageLoadTime` plugin deprecated | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
+| **Increase in default low-traffic thresholds**| Mid February, 2024 | In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul> |
+| **Adobe API object member additions** | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects at any time and without notice or changes in versioning. Adobe recommends that you refer to the API documentation of any third-party tool you integrate with our APIs so that such additions are ignored in processing, if not understood. If implemented properly, such additions are non-breaking changes for your implementation. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
+| **`getPageLoadTime` plugin deprecated** | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
 
 {style="table-layout:auto"}
 

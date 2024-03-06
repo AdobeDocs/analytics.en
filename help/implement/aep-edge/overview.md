@@ -34,3 +34,4 @@ To properly handle page views and link events, the following logic is applied to
 
 {style="table-layout:auto"}
 
+See the [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) for more information.

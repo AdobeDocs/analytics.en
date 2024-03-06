@@ -109,8 +109,8 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `xdm.media.mediaTimed.thirdQuartiles.value` | The Media Analytics metric [Seventy-five % Progress Marker](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker). |
 | `xdm.media.mediaTimed.timePlayed.value` | The Media Analytics metric [Content Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent). |
 | `xdm.media.mediaTimed.totalTimePlayed.value` | The Media Analytics metric [Media Time Spent](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent). |
-| `xdm.placeContext.geo._schema.latitude` | The Mobile dimension Latitude. |
-| `xdm.placeContext.geo._schema.longitude` | The Mobile dimension Longitude. |
+| `xdm.placeContext.geo._schema.latitude` | The visitor's latitude location. Helps set [Mobile lifecycle location](/help/components/dimensions/lifecycle-dimensions.md) dimensions. |
+| `xdm.placeContext.geo._schema.longitude` | The visitor's longitude location. Helps set [Mobile lifecycle location](/help/components/dimensions/lifecycle-dimensions.md) dimensions. |
 | `xdm.placeContext.geo.postalCode` | The [Zip Code](../../components/dimensions/zip-code.md) dimension. |
 | `xdm.placeContext.geo.stateProvince` | The [US States](../../components/dimensions/us-states.md) dimension. |
 | `xdm.placeContext.localTime` | Appears as `t_time_info` in [Data feeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |

@@ -59,7 +59,7 @@ A high-level overview of the implementation tasks:
 <tr>
 <td>7</td>
 <td><b>Configure the Web SDK</b>. Ensure the library that you installed in step 4 is properly configured with the datastream ID (formerly known as edge configuration id (<code>edgeConfigId</code>)), organization id (<code>orgId</code>), and other available options. Ensure proper mapping of variables. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configure the Web SDK</a><br/><a href="../variable-mapping.md">XDM object variable mapping</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configure the Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM object variable mapping</a></td>
 </tr>
 
 <tr>

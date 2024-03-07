@@ -9,7 +9,7 @@ exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-You can configure a cloud account that is used for the following purposes:
+You can configure a cloud account that is used for any or all of the following purposes:
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)

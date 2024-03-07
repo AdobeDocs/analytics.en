@@ -9,7 +9,7 @@ exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-You can configure a cloud account (and a location on that account). Locations can be used for any of the following purposes: 
+You can configure a cloud account (and a location on that account). A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes, such as Data Feeds and Data Warhouse, or Data Warehouse and Classification sets):
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -33,7 +33,8 @@ To configure a new cloud import or export location or to edit an existing one:
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Location account**] | Select the location account that you created in [Add an account](#add-an-account). | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. A single location cannot be used for multiple purposes. | 
+   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Add an account](#add-an-account). | 
 
 1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
 
@@ -169,9 +170,9 @@ To configure a new cloud import or export location or to edit an existing one:
 
 1. Select [!UICONTROL **Save**].
 
-   You can now import data from the account and location that you configured.
+   You can now import or export data to or from the account and location that you configured.
 
-   Data is not deleted from the cloud destination after it is imported. 
+   Imported data is not deleted from the cloud destination after it is imported. 
 
    >[!NOTE]
    >

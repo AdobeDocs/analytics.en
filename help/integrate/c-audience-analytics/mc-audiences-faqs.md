@@ -99,7 +99,7 @@ You likely have conflicting Adobe Audience Manager privacy controls between data
 
 +++
 
-+++ Why do I see "Audience limit reached" in my Analytics report? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)
++++ Why do I see "Audience limit reached" in my Analytics report? (Note: this will also be represented as Audience ID = -1 and `::max_audiences_exceeded::` in Data Warehouse)
 
 By default, the Audience Analytics integration for Adobe Audience Manager sends all segments that a visitor qualifies for, on a per-hit basis, to Analytics. If a visitor belongs to more than 150 Adobe Audience Manager segments on a single hit, the **150 most recently qualified segments** are sent to Analytics, while the remaining list is truncated. An additional flag is sent to Analytics signifying that the segment list was truncated, and displays as "Audience limit reached" in the Audience Name dimension and "-1" in the Audience ID dimension. 
 

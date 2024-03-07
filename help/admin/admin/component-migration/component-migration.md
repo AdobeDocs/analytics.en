@@ -118,7 +118,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
 
 If a migration fails, you can retry the migration.
 
-Before retrying a failed migration, make sure you remove any [unsupported elements](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) from the project.
+Before retrying a failed migration, make sure you remove any [unsupported elements](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) from the project.
 
 >[!NOTE]
 >

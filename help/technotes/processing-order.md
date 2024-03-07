@@ -15,10 +15,10 @@ Adobe offers many ways to alter or manipulate data before it appears in reportin
 Before data is sent to Adobe, it is typically compiled client-side using one of the following methods:
 
 * **AppMeasurement**: A JavaScript file hosted on your site and referenced on each page. Data is sent directly to Adobe Analytics.
-* **Adobe Experience Platform Web SDK**: A JavaScript file hosted on your site and referenced on each page. Data is sent to Adobe Experience Edge.
+* **Adobe Experience Platform Web SDK**: A JavaScript file hosted on your site and referenced on each page. Data is sent to the Adobe Experience Platform Edge Network.
 * **Tags in Adobe Experience Cloud Data Collection**: A JavaScript file referenced on each page, containing rules created within the Data Collection UI. The Adobe Analytics extension offers an easier way to implement AppMeasurement. The Web SDK extension offers an easier way to implement the Web SDK.
 
-If you send data to Adobe Experience Edge, you can configure it to forward data to Adobe Analytics (as well as many other Adobe Experience Cloud solutions). Regardless of implementation method, ultimately an image request with the desired variables is sent to Adobe data collection servers.
+If you send data to the Edge Network, you can configure it to forward data to Adobe Analytics (as well as many other Adobe Experience Cloud solutions). Regardless of implementation method, ultimately an image request with the desired variables is sent to Adobe data collection servers.
 
 ## Data as it arrives to Adobe Analytics data collection servers
 

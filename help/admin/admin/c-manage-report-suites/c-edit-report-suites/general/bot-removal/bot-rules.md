@@ -17,7 +17,7 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 
 >[!NOTE]
 >
->Adobe Experience Edge provides a [bot detection service](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) which labels hits identified as being from bots. Adobe Analytics' bot detection process is separate from this and does not reference the bot score included on data arriving via Experience Edge. The two systems use the same IAB bot list so should behave identically in that regard.
+>The Adobe Experience Platform Edge Network provides a [bot detection service](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) which labels hits identified as being from bots. The bot detection process used in Adobe Analytics is separate and does not reference the bot score included on data arriving through the Edge Network. However, the two systems use the same IAB bot list.
 
 ## Update or upload bot rules
 

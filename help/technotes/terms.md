@@ -85,7 +85,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in the Admin user guide.
 * **Report Builder:** A Microsoft Excel add-in that lets you build customized requests from Adobe Analytics data.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
-* **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package. This tool has been [end-of-lifed](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
+* **Reports & Analytics:** Formerly known as SiteCatalyst. Browser solution for reporting and analysis. Starter tool in the Analytics package. This tool has been [end-of-lifed](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.
 * **RSID:** Abbreviation for report suite ID. A report suite has both a friendly name and a report suite ID.
 * **s.t():** The name of the function in an AppMeasurement library that sends a page view image request. Some AppMeasurement libraries use `s.track()` instead. See [t](../implement/vars/functions/t-method.md) in the Implement user guide.

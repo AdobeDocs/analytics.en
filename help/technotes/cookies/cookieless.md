@@ -29,7 +29,7 @@ You can submit data to Analytics server-side using either the [Data Insertion AP
 
 ## First Party Device ID (FPID) with Web SDK
 
-With the Adobe Experience Platform Web SDK you can opt to set and manage your own device identifiers instead of the Adobe-generated Experience Cloud IDs (ECIDs). These are referred to as first-party device IDs (FPIDs). Learn more [here](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=en).
+With the Adobe Experience Platform Web SDK you can opt to set and manage your own device identifiers instead of the Adobe-generated Experience Cloud IDs (ECIDs). These are referred to as first-party device IDs (FPIDs). Learn more [here](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
 
 ## More information
 

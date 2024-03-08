@@ -11,18 +11,13 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Top menu structure {#top-menu}
+The Adobe Analytics landing page is comprised of the following subtabs: Projects, Reports, and Learning.
 
-![Top menu](assets/top-menus.png)
+**[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 
-* Top Analytics menu: Most reports are now in the [!UICONTROL Reports] menu in the left rail.
-* The left rail has three tabs: [!UICONTROL Projects], [!UICONTROL Reports], and [!UICONTROL Learning].
+**[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as templates in Workspace.
 
-### Terminology 
-
-* **[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
-* **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as templates in Workspace.
-* **[!UICONTROL Templates]** is no longer used as a term for Adobe's pre-built Workspace projects. They are now under [!UICONTROL Reports]. The term [!UICONTROL Templates] is still used for templates your company created.
+The **[!UICONTROL Learning]** tab contains hands-on video tours, tutorials, and links to documentation.
 
 ## Navigate the [!UICONTROL Projects] tab {#navigate-projects}
 
@@ -41,7 +36,6 @@ To customize column widths, drag the vertical bar that separates each column.
 To add or remove columns from the list of projects, click the column icon (![Landing all](/help/analyze/assets/select-column.png) ) in the top-right, then select or deselect column titles. 
 
 The available columns are:
-
 
 | Column name | Description | 
 |---------|----------|

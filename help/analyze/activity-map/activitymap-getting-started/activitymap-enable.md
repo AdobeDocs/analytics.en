@@ -48,7 +48,7 @@ Adobe Experience Platform Debugger:
    The collect call is designed in such a way that the tracking should not affect  navigation to other sites, so the document unload feature is applicable for the collect calls. This won't impact your data collection but if you need to validate on page, add target = "_blank" to the respective element. Then the link opens in a new tab.
 
 * **How do I ignore the collection of PII?**
-   Add the respective conditions in<< on before link click send callback>> and return false to ignore those values. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)  
+   Add the respective conditions in<< on before link click send callback>> and return false to ignore those values. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)  
    
    Sample code:
 

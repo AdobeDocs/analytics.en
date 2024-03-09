@@ -45,4 +45,4 @@ Following are some of the advantages of Customer Journey Analytics over Adobe An
 
 * **Cross-report-suite data**: Existing implementations from multiple datasets can be combined in Platform.
 
-For more information, see [Customer Journey Analytics overview](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en).
+For more information, see [Customer Journey Analytics overview](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).

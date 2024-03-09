@@ -7,7 +7,7 @@ feature: Dimensions
 
 The 'Ad Consent' [dimension](overview.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.
 
-Currently, this dimension is used for Google only. Due to European privacy regulations, Google is requiring that data sent to their servers and collected in Europe must indicate whether consent is collected. Some Analytics customers send event data via Adobe Advertising as conversion events to Google. 
+Currently, this dimension is used for Google only. Due to European privacy regulations, the Digital Markets Act (DMA), Google is requiring that data sent to their servers and collected in Europe must indicate whether consent is collected. Some Analytics customers send event data via Adobe Advertising as conversion events to Google.
 
 In the future, this dimension can be used to support encoding additional consent information for other third-party advertising providers.
 
@@ -30,9 +30,8 @@ The possible values for each of these fields can be:
 | Value | ad_user_data | ad_personalization |
 |:-:|---|---|
 | `Y` | Grant consent to Google for ad user data. | Grant consent to Google for ad personalization. |
-| `N` | Grant no consent to Google for ad user data. | Grant no consent to Google for ad personalization. |
-| `U` | Unknown or unspecified. | Unknown or unspecified. |
-| `-` | You are not using Google for ad user data and decide explicity not to specify a value. | You are not using Google for ad user personalization and decide explicity not to specify a value. | 
+| `N` | Deny consent to Google for ad user data. | Denty consent to Google for ad personalization. |
+| `U` | Unspecified. | Unspecified. |
 
 The example below grants consent to Google for ad user data but not for ad personalization:
 

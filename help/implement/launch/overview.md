@@ -7,7 +7,7 @@ role: Admin, Developer
 ---
 # Implement Adobe Analytics using the Analytics extension
 
-Through the lifetime of Adobe Analytics, Adobe has offered several different methods to implement code on your site for data collection. Adobe's current recommended method is through [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) in Adobe Experience Platform.
+Through the lifetime of Adobe Analytics, Adobe has offered several different methods to implement code on your site for data collection. Adobe's current recommended method is through [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform is a tag management solution that lets you deploy Analytics code alongside other tagging requirements. Adobe offers integrations with other solutions and products, and lets you deploy custom code. All of these tasks can be done without relying on any development teams in your organization to update code on your site.
 
@@ -47,7 +47,7 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>4</td><td><b>Install the Analytics extension</b> in the tag property. Configure the Analytics extension to send data to Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics extension overview</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html">Adobe Analytics extension overview</a></td>
 </tr>
 
 <tr>
@@ -59,7 +59,7 @@ A high-level overview of the implementation tasks:
 <tr>
 <td>6</td> 
 <td><b>Validate and publish to production</b>. Embed code to include your tag property to your web site pages. Then use data elements, rules, and so on, to customize your implementation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Embed code</a><br/><a href="./validate-publish-prod.md">Validate a development implementation and publish to production</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Embed code</a><br/><a href="./validate-publish-prod.md">Validate a development implementation and publish to production</a></td>
 </tr>
 
 </table>

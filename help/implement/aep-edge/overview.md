@@ -5,11 +5,11 @@ exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
 ---
-# Implement Adobe Analytics with Adobe Experience Platform Edge
+# Implement Adobe Analytics with the Adobe Experience Platform Edge Network
 
-Adobe Experience Platform Edge allows you to send data destined to multiple products to a centralized location. Experience Edge forwards the appropriate information to the desired products. This concept allows you to consolidate implementation efforts, especially spanning multiple data solutions.
+The Adobe Experience Platform Edge Network allows you to send data destined to multiple products to a centralized location. The Edge Network forwards the appropriate information to the desired products. This concept allows you to consolidate implementation efforts, especially spanning multiple data solutions.
 
-Adobe offers three main ways to send data to Experience Edge:
+Adobe offers three main ways to send data to the Edge Network:
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**: Use the Web SDK extension in Adobe Experience Platform Data Collection to send data to Edge.
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**: Use the Mobile SDK extension in Adobe Experience Platform Data Collection to send data to Edge.
@@ -17,13 +17,15 @@ Adobe offers three main ways to send data to Experience Edge:
 
 
 
-## How Adobe Analytics handles Experience Edge data
+## How Adobe Analytics handles Edge Network data
 
-Data send to Experience Edge has to conform to schemas based on [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en). XDM gives you flexibility in what fields are defined as part of events. At the time events reach Adobe Analytics, these events are translated into more structured data that Adobe Analytics can handle: page views or link events.
+Data sent to the Adobe Experience Platform Edge Network can follow two formats:
 
- XDM does not itself prescribe how to define page views or link events, nor does it instruct Adobe Analytics how to treat its payload. For example, certain out of the box XDM fields that appear to be related to page views or link events, like `eventType`, `web.webPageDetails.pageViews`, or `web.webInteraction.linkEvents` are completely implementation agnostic and have no relevance for Adobe Analytics.
+* XDM object: Conform to schemas based on [XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html). XDM gives you flexibility in what fields are defined as part of events. At the time events reach Adobe Analytics, they are translated into a format that Adobe Analytics can handle.
+* Data object: Send data to the Edge Network using specific fields mapped to Adobe Analytics. The Edge Network detects the presence of these fields and forwards them to Adobe Analytics without the need to conform to a schema.
 
-To properly handle page views and link events, the following logic is applied to data send to the Adobe Experience Edge network and forwarded to Adobe Analytics.
+
+The Edge Network uses the following logic to determine Adobe Analytics page views and link events
 
 | XDM payload contains... | Adobe Analytics... |
 |---|---|
@@ -34,4 +36,4 @@ To properly handle page views and link events, the following logic is applied to
 
 {style="table-layout:auto"}
 
-See the [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) for more information.
+See the [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) for more information.

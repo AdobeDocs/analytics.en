@@ -61,15 +61,15 @@ Additionally, you can **Download as CSV** the performance contents to easily sha
 
 ## Request factors
 
-Use the following diagram and table to learn how requests are processes and the various factors that influence processing times:
+[!UICONTROL Help] > [!UICONTROL Performance] request factors
+
+Use the following diagram and terms to learn how requests are processes and the various factors that influence processing times:
 
 ### Request processing diagram
 
 ![Request processing](assets/request-processing.png)
 
 ### Request processing terms
-
-[!UICONTROL Help] > [!UICONTROL Performance] request factors include:
 
 | Factor | Definition | Optimization |
 | --- | --- | --- |

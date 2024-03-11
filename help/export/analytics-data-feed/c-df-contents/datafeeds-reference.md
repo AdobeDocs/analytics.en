@@ -62,6 +62,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`daily_visitor`** | Flag to determine if the hit is a new daily visitor. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | Variable used in the [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `DMP` and `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variable used in the [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |
+| **`dataprivacydmaconsent`** | Value identifiying whether consent is acquired for sending data from Adobe Analytics through Adobe Advertising to third-party advertising providers (like Google). See [Ad Consent](/help/components/dimensions/ad-consent.md) for more information. | varchar(100) | 
 | **`date_time`** | The time of the hit in readable format, based on the report suite's time zone. | datetime |
 | **`domain`** | Variable used in the [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's internet access point. | varchar(100) |
 | **`duplicate_events`** | Lists each event that was counted as a duplicate. | varchar(255) |

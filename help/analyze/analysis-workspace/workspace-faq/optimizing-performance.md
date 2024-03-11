@@ -59,6 +59,29 @@ Additionally, you can **Download as CSV** the performance contents to easily sha
 | Used components | The total number of components used in the project. The guideline is 100. | The number of used components is not a direct influencer of performance. However, the complexity of those components will contribute to performance of the project. See optimizations in the "Additional factors" section below. |
 | Longest date range | This factor displays the longest date range used the project. The guideline is 1 year. | Where possible, don't pull in more data than you need. Narrow the panel calendar to the relevant dates for your analysis or use date range components (purple components) in your freeform tables. Date ranges used in a table override the panel date range. For example, you can add last month, last week and yesterday to the table columns to request those specific ranges of data. For more information on working with date ranges in Analysis Workspace, watch [this video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html). <br><br>Additionally, minimize the number of year-over-year comparisons used in the project. When a year-over-year comparison is calculated, it looks across the full 13 months of data between the months of interest. This has the same impact as changing the panel date range to last 13 months. |
 
+## Request factors
+
+Use the following diagram and table to learn how requests are processes and the various factors that influence processing times:
+
+### Request processing diagram
+
+![Request processing](assets/request-processing.png)
+
+### Request processing terms
+
+[!UICONTROL Help] > [!UICONTROL Performance] request factors include:
+
+| Factor | Definition | Optimization |
+| --- | --- | --- |
+|[!UICONTROL **Request time**] | The time required from when the request is initiated to when it is complete. <p>In the [Request processing](#request-processing-diagram) diagram above, the request time represents the full process, from **Analysis Workspace request initiated** to **Analysis Workspace request complete**.</p> |  |
+| [!UICONTROL **Lookup time**] | Because Analysis Workspace stores only the hash for any strings that are used in any segments, each time you process a project, **Lookups** are performed to match the hashes with the appropriate values. <p>This can be a resource-intensive process, depending on the number of values that could potentially match the hash. </p><p>In the [Request processing](#request-processing-diagram) diagram above, the lookup time is represented in the **Lookups** phase (at the time of **Request Engine processing** phase).</p> | If requests are slowing down here, it is probably due to having too many string segments in you project, or having strings with overly generic values that have too many potential matches. |
+| [!UICONTROL **Queue time**] | The total time waiting in queue before requests are processed.<p>In the [Request processing](#request-processing-diagram) diagram above, the queue time is represented in the **Request Engine queue** phase and **Server queue** phase.</p> | If requests are slowing down here, it may be due to too many requests running simultaneously in your organization. Try running the request at an off-peak time. |
+| [!UICONTROL **Average server processing time**] | The average amount of time it takes to process the request.<p>In the [Request processing](#request-processing-diagram) diagram above, the average server processing time is represented in the **Server queue** phase and **Server processing** phase. | If requests are slowing down here, it is likely that the project has overly long date ranges or complex visualizations. Try shortening your project date range in order to decrease processing times. |
+| [!UICONTROL **Complexity**] | Not all requests require the same amount of time to process. Request complexity can help provide a general idea about the time required to process the request. <p>Possible values include:</p> <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>This value is influenced by the values in the following columns:<ul><li>[!UICONTROL **Month boundaries**]</li><li>[!UICONTROL **Columns**]</li><li>[!UICONTROL **Segments**]</li></ul> |  |
+| [!UICONTROL **Month boundaries**] | The number of months that are included in a request. More month boundaries adds to the complexity of the request. |  |
+| [!UICONTROL **Columns**] | The number of metrics and breakdowns in the request. More columns adds to the complexity of the request. |  |
+| [!UICONTROL **Segments**] | The number of segments applied to the request. More segments adds to the complexity of the request. |  |
+
 ## Additional factors
 
 Additional factors that are not included on Help > Performance include:

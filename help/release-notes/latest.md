@@ -26,18 +26,18 @@ These release notes cover the release period of March 12, 2024 through April 202
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-335632; AN-337559; AN-340164; AN-340370; AN-341089; AN-341211; AN-341284; AN-341469; AN-341481; AN-341760; AN-341778; AN-342144; 
-* Fixed the following Classifications Rule Builder issues: AN-340921; AN-341269; AN-341292; AN-341467; AN-341666; AN-342145; 
+* Fixed the following Classifications issues: AN-335632; AN-337559; AN-340164; AN-340370; AN-341089; AN-341211; AN-341284; AN-341469; AN-341481; AN-341760; AN-341778; AN-342144; AN-342258; AN-342338, AN-342400
+* Fixed the following Classifications Rule Builder issues: AN-340921; AN-341269; AN-341292; AN-341467; AN-341666; AN-342145; AN-342329
 * Fixed the following Intelligent Alerts issue: AN-340736
 * Fixed the following Segmentation issue: AN-336242
-* Fixed the following Data Warehouse issues: AN-335354; AN-339446; AN-339774; AN-340221; AN-340599
-* Fixed the following Data Feeds issues: AN-335508; AN-340887; AN-341050; AN-341208; AN-341403; AN-341479; AN-341524; AN-341661; AN-342000; AN-342125; AN-342301; AN-342410; 
+* Fixed the following Data Warehouse issues: AN-335354; AN-339446; AN-339774; AN-340221; AN-340599; AN-341277; AN-342009; AN-342088; AN-342592
+* Fixed the following Data Feeds issues: AN-335508; AN-340887; AN-341050; AN-341208; AN-341403; AN-341479; AN-341524; AN-341661; AN-342000; AN-342125; AN-342256; AN-342301; AN-342410; AN-342502; AN-342525
 * Fixed the following Report Builder issue: AN-340540
 * Fixed the following Analysis Workspace issues: AN-295889; AN-330981; AN-338818; AN-339730; AN-341114; AN-341520; 
 
 ### Other Analytics fixes
 
-AN-312198; AN-334790; AN-336461; AN-336572; AN-339549; AN-341475; AN-341558; AN-341680; 
+AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-339549; AN-341119; AN-341246; AN-341268; AN-341272; AN-341475; AN-341547; AN-341558; AN-341680; AN-342017; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

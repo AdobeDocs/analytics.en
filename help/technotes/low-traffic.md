@@ -13,6 +13,8 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 * Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshold]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current threshold limits are:
   * **[!UICONTROL Low threshold]**: >500,000 unique values during the month.
   * **[!UICONTROL High threshold]**: >1,000,000 unique values during the month.
+* In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) 
+  This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul>
 * Reporting is not affected if the variable does not reach the low threshold in a given month.
 * When a variable reaches the low threshold, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.
@@ -29,7 +31,7 @@ Note that the low-traffic logic described above works best with variables which 
 
 ## Changing unique limit thresholds
 
-Threshold limits can sometimes be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. The exent to which the thresholds can be increased depends on multiple factors and Adobe may not be able to accomodate threshold increases in all cases. When requesting a change, include:
+Threshold limits can sometimes be changed on a per-variable basis. Contact Adobe Customer Care or your Adobe Account Team to request this change. The extent to which the thresholds can be increased depends on multiple factors and Adobe may not be able to accommodate threshold increases in all cases. When requesting a change, include:
 
 * The report suite ID
 * The variable you would like to increase the threshold for

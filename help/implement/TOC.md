@@ -128,9 +128,9 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Implementing multi-suite tagging](prepare/multi-suite-tagging.md)
   + [Create a solution design document](prepare/solution-design.md)
   + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
-+ Implement Analytics using Experience Platform Edge {#aep-edge}
-  + [Experience Edge overview](aep-edge/overview.md)
-  + [Variable mapping](aep-edge/variable-mapping.md)
++ Implement Analytics using the Adobe Experience Platform Edge Network {#aep-edge}
+  + [Edge Network overview](aep-edge/overview.md)
+  + [XDM object variable mapping](aep-edge/variable-mapping.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
   + Mobile SDK {#mobile-sdk}

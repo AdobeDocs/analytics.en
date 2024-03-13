@@ -15,7 +15,7 @@ The following Media Management options are available when editing a report suite
 
 * [!UICONTROL **Media Reporting**]
 
-  Reports specific to Streaming Media are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+  Reports specific to Streaming Media are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Media Classifications**]
 

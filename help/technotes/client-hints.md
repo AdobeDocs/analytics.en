@@ -19,11 +19,11 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
-Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)), we estimate that this will affect <3% of Chrome Visitors.
+Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)), we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >
-> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) for more information.
+> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html) for more information.
 
 Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
 
@@ -41,7 +41,7 @@ Low-entropy hints are automatically provided by the browser and ingested for der
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
-For data submitted via API, such as via [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), hints must be explicitly included in the payload. See the respective documentation for details.
+For data submitted via API, such as via [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), hints must be explicitly included in the payload. See the respective documentation for details.
 
 +++
 
@@ -103,7 +103,7 @@ See the [timeline published by Google](https://blog.chromium.org/2021/09/user-ag
 
 Device information in reporting is derived from the User Agent. We have updated our processes to use both User Agent and client hints where available. 
 
-The Fallback ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) is derived from the User Agent and IP Address. This ID is only used if a cookie cannot be set so is not widely used 
+The Fallback ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html)) is derived from the User Agent and IP Address. This ID is only used if a cookie cannot be set so is not widely used 
 
 +++
 

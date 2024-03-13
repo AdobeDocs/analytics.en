@@ -45,7 +45,7 @@ The following table illustrates four possible scenarios.
 >
 >While correctly configuring `cookieDomainPeriods` will improve AppMeasurement and Analytics functionality, it is recommended to assess whether you are affected by the changes resulting from upgrading your AppMeasurement library.
 >
-> See [Analytics Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) for more information about the cookies AppMeasurement uses.
+> See [Analytics Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) for more information about the cookies AppMeasurement uses.
 
 ## Cookie domain periods using the Web SDK
 

@@ -8,6 +8,10 @@ exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
 
 Privacy reporting lets you enable the [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md), [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) and [Ad Consent](/help/components//dimensions/ad-consent.md) dimensions for use in reporting.
 
+>[!NOTE]
+>
+>We recently added a new Ad Platform Consent flag. You need to re-enable Data Privacy Reports if you want this new variable to take effect.
+
 To access this page:
 
 1. Log in to Adobe Analytics and navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report suites]**.

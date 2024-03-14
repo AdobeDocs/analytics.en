@@ -15,7 +15,7 @@ To access this page:
 
    ![Edit settings](assets/rsm-privacy-select.png)
 
-1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
+1. Click **[!UICONTROL Enable Data Privacy Reports]**.
 
    >[!NOTE]
    >

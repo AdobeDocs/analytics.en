@@ -49,7 +49,7 @@ The available columns are:
 | [!UICONTROL **Shared With**] | Shows who the project is currently shared with. |
 | [!UICONTROL **Last Modified**] | The date and time when the project was last modified. |
 | [!UICONTROL **Last Opened**] | Identifies the date that a project was last opened by the user who is currently viewing the Projects page. |
-| [!UICONTROL **Last Used**] | Helps determine whether a project is valuable to users in your organization by showing the date and time when the project was last opened by any user within the organization.<p>This column is available only to system administrators.</p> |
+| [!UICONTROL **Last Used**] | Helps determine whether a project is valuable to users in your organization by showing the date and time when the project was last opened by any user within the organization.<p>Consider the following when viewing this column:</p><ul><li>Usage information is available starting in September 2023.</li><li>This column is available only to system administrators.</li></ul> |
 | [!UICONTROL **Project ID**] | Can be used for debugging projects. |
 | [!UICONTROL **Longest Date Range**] | Longer date ranges increase project complexity and may increase processing and load times. |
 | [!UICONTROL **Number of queries**] | The total number of requests made to Analytics when the project loads. A higher number of project queries increases project complexity and may increase processing and load times. This data is available only after a project has loaded or a scheduled project was sent. |

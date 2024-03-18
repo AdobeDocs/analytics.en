@@ -20,7 +20,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **March 2024** | |
-| AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. |  
+| AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. | 
+| Usage information regarding the "Used in" column is available only starting in September 2023.| Clarified that usage information regarding the **Used in** column on the [projects landing page](/help/analyze/landing.md) goes back only as far as September 2023.  | 
 | **February 2024** | |
 | Updates to information about managing Data Warehouse requests | Clarified that, by default, users can view only the requests they create when [managing Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Updates to project sharing documentation | Added information about how to [view shared projects](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Also streamlined information about [sharing individual or multiple projects](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |

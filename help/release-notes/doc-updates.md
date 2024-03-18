@@ -135,7 +135,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Updated Flow visualization documentation | Based on the [new UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **May 2022** | |
-| Populate Lifecycle dimensions and metrics through the Edge Network | Mobile Lifecycle data sent to the Edge Network now appears in Analytics reporting. See [Analytics variable mapping](/help/implement/aep-edge/variable-mapping.md) for details on which XDM fields map to existing mobile Lifecycle reporting. |
+| Populate Lifecycle dimensions and metrics through the Edge Network | Mobile Lifecycle data sent to the Edge Network now appears in Analytics reporting. See [Analytics variable mapping](/help/implement/aep-edge/xdm-var-mapping.md) for details on which XDM fields map to existing mobile Lifecycle reporting. |
 | **April 2022** | |
 | Adobe Analytics landing page updates | Updates to the joint [Workspace/Reports & Analytics landing page](/help/analyze/landing.md) that improves usability and ease of navigation. |
 | New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

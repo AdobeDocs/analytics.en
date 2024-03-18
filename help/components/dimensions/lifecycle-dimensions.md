@@ -20,9 +20,9 @@ exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 | [!UICONTROL Acquisition Term] | | `a.referrer.campaign.term` |
 | [!UICONTROL Acquisition Content] | | `a.refferer.campaign.content` |
 | [!UICONTROL Acquisition Name] | | `a.referrer.campaign.name` |
-| [!UICONTROL Location (down to 10 km)] | | `a.loc.lat.a` + `a.loc.lon.a` |
-| [!UICONTROL Location (down to 100 m)] | | `a.loc.lat.b` + `a.loc.lon.b` |
-| [!UICONTROL Location (down to 1 m)] | | `a.loc.lat.c` + `a.loc.lon.c` |
+| [!UICONTROL Location (down to 10 km)] | The visitor's latitude and longitude, accurate to the first decimal place. For example, `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
+| [!UICONTROL Location (down to 100 m)] | The visitor's latitude and longitude, accurate to the third decimal place. For example, `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
+| [!UICONTROL Location (down to 1 m)] | The visitor's latitude and longitude, accurate to the fifth decimal place. For example, `040.93231` `-111.93152`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
 | [!UICONTROL Point of Interest Name] | | `a.loc.poi` |
 | [!UICONTROL Distance to Point of Interest Center] | | `a.loc.dist` |
 | [!UICONTROL Launch Number] | | `a.Launches` |

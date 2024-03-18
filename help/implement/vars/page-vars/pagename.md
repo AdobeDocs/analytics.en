@@ -15,11 +15,14 @@ If this variable is not defined on a given page tracking call, the [`pageURL`](p
 >
 >Adobe data collection servers strip this dimension from all [link tracking](/help/implement/vars/functions/tl-method.md) image requests. If you want this dimension to appear in link tracking hits, consider copying this dimension into an [eVar](evar.md).
 
-## Page Name using the Web SDK
+## Page name using the Web SDK
 
-Page is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.name`.
+Page name is mapped to the following variables:
 
-## Page Name using the Adobe Analytics extension
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
+
+## Page name using the Adobe Analytics extension
 
 You can set page name either while configuring the Analytics extension (global variables) or under rules.
 

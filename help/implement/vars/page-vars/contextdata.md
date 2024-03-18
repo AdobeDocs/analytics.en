@@ -13,9 +13,26 @@ Context data variables are helpful for development teams to collect data in name
 
 ## Context data variables using the Web SDK
 
-If an XDM field is not [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), it is automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
 
-While it is a best practice to map data to the correct XDM fields in the Datastream, this method achieves similar results.
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all context data variables reside within `data.__adobe.analytics.contextData` as key-value pairs:
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+The [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) interface would show `c.example_variable` and `c.second_example` in applicable drop-down menus.
 
 ## Context data variables using the Adobe Analytics extension
 

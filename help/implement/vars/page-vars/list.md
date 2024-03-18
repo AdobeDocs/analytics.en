@@ -21,7 +21,7 @@ Make sure that you configure each list variable in report suite settings before 
 
 ## List variables using the Web SDK
 
-List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM fields `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; it is automatically included using the value specified in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). For example, if a comma ('`,`') is configured as the delimiter for list variable 1, the following XDM object populates the `list1` variable with `"Example value 1,Example value 2,Example value 3"`.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), list variables use the XDM fields `xdm._experience.analytics.customDimensions.lists.list1.list[]` to `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Each array element contains a `"value"` object that contains each string. There is no need to provide a delimiter; Adobe data collection servers automatically detect and include the correct delimiter set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -52,6 +52,18 @@ List variables are [mapped for Adobe Analytics](https://experienceleague.adobe.c
 >[!NOTE]
 >
 >The Adobe XDM schema contains `key` objects in addition to `value` objects in each `list[]` array. Adobe does not use these `key` objects when sending data to Adobe Analytics.
+
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), list variables use `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` following AppMeasurement syntax. Make sure that you use the correct delimiter set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "list1": "Example value 1,Example value 2,Example value 3"
+    }
+  }
+}
+```
 
 ## List variables using the Adobe Analytics extension
 

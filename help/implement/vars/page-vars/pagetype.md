@@ -15,7 +15,10 @@ The `pageType` variable is a flag used to designate error pages on your site, su
 
 ## Page Type using the Web SDK
 
-Page Type is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.isErrorPage`. This XDM field is a boolean; set it to `true` to flag it as an error page, or `false` if it is not an error page. Adobe automatically translates the boolean to the string value `errorPage` when it is sent to an Analytics report suite.
+Channel is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - this XDM field is a boolean; set it to `true` to flag it as an error page, or `false` if it is not an error page.
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - this data object field is a string; set it to `"errorPage"` to flag it as such.
 
 ## Page Type using the Adobe Analytics extension
 

@@ -10,7 +10,7 @@ Privacy reporting lets you enable the [Consent Management Opt-In](/help/componen
 
 >[!NOTE]
 >
->We recently added a new Ad Platform Consent flag. You need to re-enable Data Privacy Reports if you want this new variable to take effect.
+>We have added a new Ad Platform Consent flag. You need to re-enable Data Privacy Reports if you want this new variable to take effect.
 
 To access this page:
 

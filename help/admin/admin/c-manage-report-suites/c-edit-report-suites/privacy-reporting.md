@@ -6,7 +6,7 @@ exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
 ---
 # Privacy reporting
 
-Privacy reporting lets you enable the [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md), [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) and [Ad Consent](/help/components//dimensions/ad-consent.md) dimensions for use in reporting.
+Privacy reporting lets you enable the [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md), [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) and [Ad Platform Consent](/help/components//dimensions/ad-consent.md) dimensions for use in reporting.
 
 >[!NOTE]
 >
@@ -30,7 +30,3 @@ To access this page:
 1. Once enabled, a confirmation message appears. The dimensions are available in reports.
 
    ![Report](assets/consent-management.png)
-
-## Ad Platform Consent dimension
-
-The [Ad Platform Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.

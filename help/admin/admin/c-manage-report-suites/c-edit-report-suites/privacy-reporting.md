@@ -30,3 +30,7 @@ To access this page:
 1. Once enabled, a confirmation message appears. The dimensions are available in reports.
 
    ![Report](assets/consent-management.png)
+
+## Ad Consent dimension
+
+The [Ad Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.

@@ -7,7 +7,7 @@ exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 ---
 # Locations manager
 
-The Locations manager allows you to view, create, edit, or delete locations. Locations can be used for any of the following purposes: 
+The Locations manager allows you to view, create, edit, or delete accounts and locations. These can be used for any of the following purposes: 
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -19,7 +19,7 @@ The Location manager allows you to view any locations that you created. System a
 
 1. To access the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
-1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **Show all locations**] option to view locations created by all users in your organization. <!-- double-check this step and maybe add a screenshot? This is new functionality -->
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View locations for all users**] option to view locations created by all users in your organization. <!-- Maybe add a screenshot? This is new functionality -->
 
 1. Filter or search the list of locations:
 
@@ -72,6 +72,29 @@ To delete a location:
 
 1. Select [!UICONTROL **Delete**]. 
 
+## Edit accounts
+
+1. To edit accounts in the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location credentials**] tab.
+
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View accounts for all users**] option to view locations created by all users in your organization. <!-- Maybe add a screenshot? This is new functionality -->
 
 
-  
+1. Select [!UICONTROL **View details**] on the account that you want to edit.
+
+1. Make any desired changes, then select [!UICONTROL **Save**].
+
+## View account keys
+
+After you create an account, you can view any associated account keys for that account. You might need to view this information if you didn't finish configuring the account with your cloud provider when you [originally configured the account](/help/components/locations/configure-import-accounts.md).
+
+To view keys associated with an export account:
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location credentials**] tab.
+
+1. Select the 3-dot icon on the account that you want to edit, then select [!UICONTROL **Account keys**].
+
+## Delete accounts
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location credentials**] tab.
+
+1. Select the 3-dot icon on the account that you want to edit, then select [!UICONTROL **Delete account**]

@@ -33,7 +33,7 @@ To configure a new cloud import or export location or to edit an existing one:
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. A single location cannot be used for multiple purposes. | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li></ul> | 
    | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Add an account](#add-an-account). | 
 
 1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  

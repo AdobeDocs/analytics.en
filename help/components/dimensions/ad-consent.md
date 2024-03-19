@@ -1,11 +1,11 @@
 ---
-title: Ad Consent
+title: Ad Platform Consent
 description: See the configuration for advertising consent for third-party ad providers.
 feature: Dimensions
 ---
-# Ad Consent
+# Ad Platform Consent
 
-The 'Ad Consent' [dimension](overview.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.
+The 'Ad Platform Consent' [dimension](overview.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.
 
 Currently, this dimension is used for Google only. Due to European privacy regulations, the Digital Markets Act (DMA), Google is requiring that data sent to their servers and collected in Europe must indicate whether consent is collected. Some Analytics customers send event data via Adobe Advertising as conversion events to Google.
 
@@ -46,7 +46,6 @@ You can use the collected ad consent data:
 
 * Data Feeds: the ad consent data is available using the `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse reports: the ad consent data is available using the **[!UICONTROL Ad Platform Consent]** dimension.
-
 
 Your organization determines the logic to implement this context data variable. The value does not persist beyond the hit it is set on, so you must set the context data variable on each page.
 

@@ -31,6 +31,6 @@ To access this page:
 
    ![Report](assets/consent-management.png)
 
-## Ad Consent dimension
+## Ad Platform Consent dimension
 
-The [Ad Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.
+The [Ad Platform Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers, like Google, Meta, and others.

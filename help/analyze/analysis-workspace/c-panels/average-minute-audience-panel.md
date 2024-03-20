@@ -10,7 +10,7 @@ exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 
 >[!NOTE]
 >
->The Media average minute audience panel is available only to customers who have purchased the Media Analytics add-on for Adobe Analytics. 
+>The Media average minute audience panel is available only to customers who have purchased the Media Analytics add-on for Adobe Analytics. 
 >
 >Contact your Adobe Sales Representative or Adobe Account Team to purchase Media Analytics. 
 

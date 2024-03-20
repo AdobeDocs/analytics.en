@@ -65,6 +65,11 @@ Additionally, you can **Download as CSV** the performance contents to easily sha
 
 Use the following diagram and terms to learn how requests are processed and the various factors that influence processing times:
 
+>[!NOTE]
+>
+>Recommended guidelines for these factors are based on a complexity score of Medium for reporting requests.
+
+
 ### Request processing diagram
 
 ![Request processing](assets/request-processing.png)

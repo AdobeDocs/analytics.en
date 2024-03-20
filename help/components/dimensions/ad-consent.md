@@ -9,7 +9,7 @@ The 'Ad Platform Consent' [dimension](overview.md) displays whether consent is c
 
 Currently, this dimension is used for Google only. Due to European privacy regulations, the Digital Markets Act (DMA), Google is requiring that data sent to their servers and collected in Europe must indicate whether consent is collected. Some Analytics customers send event data via Adobe Advertising as conversion events to Google.
 
-In the future, this dimension can be used to support encoding additional consent information for other third-party advertising providers.
+In the future, this dimension can be used to support the encoding of additional consent information for other third-party advertising providers.
 
 ## Populate this dimension with data
 

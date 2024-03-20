@@ -20,7 +20,7 @@ You need to configure Adobe Analytics with the necessary information to access y
 To configure a cloud import or export account:
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
-1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location credentials**] tab.
+1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
 1. To create a new account, select [!UICONTROL **Add account**].
 
    The Add account dialog displays.

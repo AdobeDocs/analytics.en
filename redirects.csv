@@ -178,7 +178,7 @@ source,destination
 /docs/analytics/technotes/doc-updates.html,/docs/analytics/release-notes/doc-updates.html
 /docs/analytics/implementation/aep-edge/xdmoverview.html,/docs/analytics/implementation/aep-edge/overview.html
 /docs/analytics/implementation/aep-edge/xdm-manual.html,/docs/analytics/implementation/aep-edge/web-sdk/overview.html
-/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html,/docs/analytics/implementation/aep-edge/variable-mapping.html
+/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html,/docs/analytics/implementation/aep-edge/xdm-var-mapping.html
 /docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html,/docs/analytics/technotes/processing-order.html
 /docs/analytics/analyze/reports-analytics/reporting-interface/app-ios.html,/docs/analytics/analyze/mobapp/home.html
 /docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html,/docs/analytics/implementation/vars/config-vars/configuration-variables.html
@@ -546,3 +546,4 @@ source,destination
 /docs/analytics/admin/admin-tools/customize-menus.html,/docs/discontinued/using/reports-and-analytics.html
 /docs/analytics/analyze/analysis-workspace/virtual-analyst/overview.html,/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection.html
 /docs/analytics/implementation/other/dtm-implementation-overview.html,/docs/analytics/implementation/launch/overview.html
+/docs/analytics/implementation/aep-edge/variable-mapping.html,/docs/analytics/implementation/aep-edge/xdm-var-mapping.html

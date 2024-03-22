@@ -15,7 +15,10 @@ AppMeasurement automatically collects the page URL in each hit. If you want to o
 
 ## Page URL using the Web SDK
 
-Page URL is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webPageDetails.URL`.
+Page URL is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` or `data.__adobe.analytics.g`
 
 ## Page URL using the Adobe Analytics extension
 

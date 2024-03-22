@@ -23,7 +23,7 @@ For information about how to begin creating a request, as well as links to other
 
 To configure the destination where Data Warehouse reports are sent:
 
-1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
+1. If you haven't already, begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
@@ -181,10 +181,6 @@ To configure the destination where Data Warehouse reports are sent:
          {style="table-layout:auto"}
 
       +++
-
-   1. Select [!UICONTROL **Save**].
-
-      You can now import data to the account and location that you configured.
       
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report options**] tab. For more information, see [Configure report options for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

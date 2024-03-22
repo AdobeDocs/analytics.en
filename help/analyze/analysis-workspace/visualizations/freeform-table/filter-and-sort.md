@@ -22,7 +22,6 @@ Filters in Analysis Workspace help you surface the most important information.
 You can use several methods to filter rows from a freeform table. 
 
 - Click the 'X' in the row
-- Right-click > Deleted Selected rows
 - Table filters 
 - Segmentation
 

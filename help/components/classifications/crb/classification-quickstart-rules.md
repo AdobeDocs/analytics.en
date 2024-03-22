@@ -145,7 +145,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Regular Expression | String or Match Result | Corresponding Match Groups |
 |--- |--- |--- |
-|`^(.+)\:(.+)\:(.+)$`|em:JuneSale:20130601|`$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601|
+|`^(.+)\:(.+)\:(.+)$`|`em:JuneSale:20130601`|`$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601|
 |Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.|
 
 See [Regular Expressions - Reference Table](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) for information about what the characters in a regular expression mean.
@@ -192,12 +192,12 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Select Rule Type | Enter Match Criteria | Set Classification | To |
 |--- |--- |--- |--- |
-|Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|a|`$1`|
-|Regular Expression  For match string a:b|`^([^\:]+)\:([^\:]+)$`|b|`$2`|
-|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|a|`$1`|
-|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|b|`$2`|
-|Regular Expression  For match string a:b:c|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|c|`$3`|
-|Regular Expression  For match string a:b:c:d|`^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$`|d|`$4`|
+|Regular Expression  For match string `a:b`|`^([^\:]+)\:([^\:]+)$`|a|`$1`|
+|Regular Expression  For match string `a:b`|`^([^\:]+)\:([^\:]+)$`|b|`$2`|
+|Regular Expression  For match string `a:b:c`|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|a|`$1`|
+|Regular Expression  For match string `a:b:c`|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|b|`$2`|
+|Regular Expression  For match string `a:b:c`|`^([^\:]+)\:([^\:]+)\:([^\:]+)$`|c|`$3`|
+|Regular Expression  For match string `a:b:c:d`|`^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$`|d|`$4`|
 
 ## Regular Expressions - "Does Not Contain" Example {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 

@@ -26,7 +26,10 @@ A period **must** be used as the currency separator for all currencies when impl
 
 ## Currency code using the Web SDK
 
-Currency code is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.currencyCode`.
+Currency code is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` or `data.__adobe.analytics.cc`
 
 ## Currency Code using the Adobe Analytics extension
 

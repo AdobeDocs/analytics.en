@@ -37,6 +37,7 @@ The following table covers all Adobe-owned IP addresses used for Adobe Analytics
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `172.82.192.0/18` |
 | `185.34.188.0/22` |
 | `192.243.240.0/22` |
 
@@ -70,6 +71,8 @@ If your organization prefers to allow specific IP address ranges you can use the
 | Singapore | `63.140.44.0/22` |
 | Singapore | `63.140.48.0/23` |
 | Singapore | `66.117.30.0/24` |
+| Singapore | `172.82.240.8/29` |
+| Singapore | `172.82.240.88/29` |
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
 

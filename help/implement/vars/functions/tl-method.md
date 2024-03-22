@@ -13,11 +13,13 @@ If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExtern
 
 ## Link tracking using the Web SDK
 
-The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given XDM event as a link tracking call, make sure that your XDM data includes or is mapped to `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
+The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command.
 
-* Link name maps to `web.webInteraction.name`.
-* Link URL maps to `web.webInteraction.URL`.
-* Link type maps to `web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
+If you use an XDM object and want Adobe Analytics to count a given event as a link tracking call, make sure that your XDM data includes:
+
+* Link name: mapped to `xdm.web.webInteraction.name`.
+* Link URL: mapped to `xdm.web.webInteraction.URL`.
+* Link type: mapped to `xdm.web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
 
 ```js
 alloy("sendEvent", {
@@ -27,6 +29,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+If you use a data object and want Adobe Analytics to count a given event as a link tracking call, make sure that your data object includes:
+
+* Link name: mapped to `data.__adobe.analytics.linkName`.
+* Link URL: mapped to `data.__adobe.analytics.linkURL`.
+* Link type: mapped to `data.__adobe.analytics.linkType`. Valid values include `o` (Custom links), `d` (Download links), and `e` (Exit links).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

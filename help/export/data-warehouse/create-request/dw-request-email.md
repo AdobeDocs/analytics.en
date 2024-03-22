@@ -12,7 +12,7 @@ For information about how to begin creating a request, as well as links to other
 
 To configure configure a notification email for a Data Warehouse request:
 
-1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
+1. If you haven't already, begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
@@ -30,3 +30,5 @@ To configure configure a notification email for a Data Warehouse request:
    {style="table-layout:auto"}
 
 1. Select [!UICONTROL **Save request**] to save the Data Warehouse report request.
+
+   You can now export data to the account and location that you configured.

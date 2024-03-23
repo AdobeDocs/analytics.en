@@ -2,6 +2,7 @@
 title: Ad Platform Consent
 description: See the configuration for advertising consent for third-party ad providers.
 feature: Dimensions
+exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
 ---
 # Ad Platform Consent
 

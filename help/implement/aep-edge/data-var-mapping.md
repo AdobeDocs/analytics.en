@@ -3,6 +3,7 @@ title: Data object variable mapping to Adobe Analytics
 description: View which data object fields that Edge automatically maps to Analytics variables.
 feature: Implementation Basics
 role: Admin, Developer
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 ---
 # Data object variable mapping to Adobe Analytics
 

@@ -40,7 +40,7 @@ The following columns are available in the Locations manager. To customize the c
 * **[!UICONTROL Location name]**: The location name. Select the 3-dot menu next to a location name to either [edit the location](/help/components/locations/configure-import-locations.md) or delete it.
 * **[!UICONTROL Location type]**: The type of account associated with the location.
 * **[!UICONTROL Account]**: The specific account associated with the location.
-* **Applications**: The type of application that the location can be used with (such as Data Feeds, Data Warehouse, or Classification sets).
+* **Application**: The type of application that the location can be used with (such as Data Feeds, Data Warehouse, or Classification sets).
 * **[!UICONTROL Last used]**: The date when the location was last used.
 * **[!UICONTROL Created by]**: The user who created the location.
 * **[!UICONTROL Date created]**: The date that the location was created.

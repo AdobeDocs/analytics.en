@@ -35,7 +35,7 @@ You can move projects from one folder to another folder that you created.
 
 ## Delete a project from a project folder {#delete-project-in-folder}
 
-When you delete a project from a folder, the project is deleted entirely.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a project via the Web interface if they have a direct URL to the project.
 
 1.  From within a project folder, select the **...** ellipsis next to the project name.
 

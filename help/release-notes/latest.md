@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2024)
 
-**Last update**: March 21, 2024
+**Last update**: April 3, 2024
 
 These release notes cover the release period of March 12, 2024 through April 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,6 +14,7 @@ These release notes cover the release period of March 12, 2024 through April 202
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Change to deletion protocol for Workspace projects** |  Previously, deleted projects were never purged from the system. We will now start purging deleted projects after 180 days. During the 180 days after deletion, users can still access a project via the Web interface if they have a URL to the direct project. | | March 14, 2024|
 | **AppMeasurement update** | [AppMeasurement release v2.26.0](/help/implement/appmeasurement-updates.md) is available. | | March 4, 2024 |
 | **New column available on the Projects landing page** | The **[!UICONTROL Last used]** column is now available when viewing the Projects tab on the [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html). <p>This information can help you determine whether a project is valuable to users in your organization by showing the date and time when the project was last opened.</p> <p>Previously, the **[!UICONTROL Last used]** column was available only in the Calculated metrics manager, Segments manager, and Alerts manager.</p> |  | March 13, 2024 |
 | **Analytics support for consent flags required by Google for DMA** | Due to new European privacy regulations, Google requires that data collected in Europe that was sent to them must indicate whether two particular kinds of consent were granted. **Starting March 6th**, Google will no longer accept event data that does not indicate that the relevant consent was granted. Adobe Analytics has released support for capturing this data via a new adConsent variable. You can see the new variable listed in the [Privacy Reporting UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). If you would like to activate this and already have privacy enabled for the previous consent variables, you will need to enable privacy again.<p>The [Ad Platform Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers like Google. |  | March 13, 2024 |

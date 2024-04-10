@@ -113,8 +113,17 @@ The above steps apply only to rules that set values. The following steps replace
 
 1. Select a rule that sends a beacon.
 1. Select the action **[!UICONTROL Adobe Analytics - Send Beacon]**.
-1. Note the [!UICONTROL Tracking] radio button on the right (`s.t()` or `s.tl()`).
-1. Change the [!UICONTROL Extension] drop-down menu from **[!UICONTROL Adobe Analytics]** to **[!UICONTROL Adobe Experience Platform Web SDK]**
+1. Note the [!UICONTROL Tracking] radio button on the right ([`s.t()`](../../vars/functions/t-method.md) or [`s.tl()`](../../vars/functions/tl-method.md)).
+1. Change the [!UICONTROL Action Configuration] to the following settings:
+    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
+    * [!UICONTROL Action type]: [!UICONTROL Send event]
+1. On the right, change the action settings to the following:
+    * [!UICONTROL Type]: For `s.t()` use **[!UICONTROL Web Webpagedetails Page Views]**. For `s.tl()` use **[!UICONTROL Web Webinteraction Link Clicks]**. If you use [`s.tl()`](../../vars/functions/tl-method.md), you must also include the following fields in your data object:
+      * `data.__adobe.analytics.linkName`
+      * `data.__adobe.analytics.linkURL`
+      * `data.__adobe.analytics.linkType`
+1. Select **[!UICONTROL Keep Changes]**.
+1. Repeat these steps for every action configuration that uses Adobe Analytics to send a beacon.
 
 +++
 

@@ -10,7 +10,6 @@ This implementation path involves a fresh Web SDK installation using tags in Ado
 * [Analytics extension to Web SDK extension](analytics-extension-to-web-sdk.md): Take a smooth and methodical approach to move from the Adobe Analytics tag extension in Adobe Experience Platform Data Collection to the Web SDK tag extension. This approach suppresses the need to use XDM until your organization is ready to use Adobe Experience Platform services, such as Customer Journey Analytics. Use the `data` object instead of the `xdm` object to send data to Adobe.
 * [AppMeasurement to Web SDK JavaScript library](appmeasurement-to-web-sdk.md): A smooth and methodical approach to migrate to the Web SDK, except it does not use tags. Instead, you manually remove the Adobe Analytics data collection library (`AppMeasurement.js`) and replace it with the Web SDK JavaScript library (`alloy.js`).
 
-
 ## Advantages and disadvantages of this implementation path
 
 Using the Web SDK extension to send data to Adobe Analytics has both advantages and disadvantages. Carefully weigh each option to decide which approach is best for your organization.

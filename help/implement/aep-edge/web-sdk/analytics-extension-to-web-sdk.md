@@ -27,7 +27,7 @@ Adobe recommends following this implementation path in the following scenarios:
 
 The following steps contain concrete goals to work towards. Click each step for detailed instructions around how to accomplish it.
 
-+++**1. Create and configure a datastream
++++**1. Create and configure a datastream**
 
 Create a datastream in Adobe Experience Platform Data Collection. When you send data to this datastream, it forwards data to Adobe Analytics. In the future, this same datastream forwards data to Customer Journey Analytics.
 
@@ -46,7 +46,7 @@ Your datastream is now ready to receive and pass along data to Adobe Analytics.
 
 +++
 
-+++**1. Add the Web SDK extension to your tag property**
++++**2. Add the Web SDK extension to your tag property**
 
 This section prepares your tag for the bulk of migration effort taking place in the next step.
 
@@ -68,7 +68,7 @@ Your tag property now has the Web SDK installed.
 
 +++
 
-+++**2. Create a data object data element**
++++**3. Create a data object data element**
 
 The data object data element provides an intuitive framework to configure a payload that the Web SDK uses to send to a datastream. Most rules that you update in the following step interact with this data element.
 
@@ -90,7 +90,7 @@ Your tag property now has everything needed to update rules.
 
 +++
 
-+++**3. Update rules to use the Web SDK extension instead of the Analytics extension**
++++**4. Update rules to use the Web SDK extension instead of the Analytics extension**
 
 This step is the most involved of a Web SDK migration, and requires knowledge around how your implementation works. This step provides an example of how to edit a typical tag rule. You must update all tag rules in your implementation to replace all reference to the Adobe Analytics extension with the Web SDK extension.
 
@@ -127,7 +127,7 @@ The above steps apply only to rules that set values. The following steps replace
 
 +++
 
-+++**4. Publish updated rules**
++++**5. Publish updated rules**
 
 Publishing updated rules follows the same workflow as any other change to your tags configuration.
 
@@ -144,7 +144,7 @@ Publishing updated rules follows the same workflow as any other change to your t
 
 +++
 
-+++**5. Disable Analytics extension**
++++**6. Disable Analytics extension**
 
 Once your tag implementation is fully on the Web SDK, you can disable the Adobe Analytics extension.
 

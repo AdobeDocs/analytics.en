@@ -56,11 +56,11 @@ This section prepares your tag for the bulk of migration effort taking place in 
 1. Select **[!UICONTROL Catalog]** near the top to see a list of all available extensions.
 1. Search for and select the **[!UICONTROL Adobe Experience Platform Web SDK]** extension, then click **[!UICONTROL Install]** on the right.
 
-    ![Catalog](assets/catalog.png)
+    ![Catalog](assets/catalog.png) {style="border:1px solid gray"}
 
 1. The extension configuration settings appear. Locate the Datastreams section, and select the datastream that you created in the previous step.
 
-    ![Datastream selection](assets/datastream-select.png)
+    ![Datastream selection](assets/datastream-select.png) {style="border:1px solid gray"}
 
 1. Select **[!UICONTROL Save]**.
 
@@ -84,7 +84,7 @@ The data object data element provides an intuitive framework to configure a payl
     * Solution: [!UICONTROL Adobe Analytics]
 1. Select **[!UICONTROL Save]**.
 
-![Create data element](assets/create-data-element.png)
+![Create data element](assets/create-data-element.png) {style="border:1px solid gray"}
 
 Your tag property now has everything needed to update rules.
 
@@ -140,7 +140,7 @@ Publishing updated rules follows the same workflow as any other change to your t
 1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is getting populated with expected values.
 1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
-![Publishing flow](assets/publishing-flow.png)
+![Publishing flow](assets/publishing-flow.png) {style="border:1px solid gray"}
 
 +++
 

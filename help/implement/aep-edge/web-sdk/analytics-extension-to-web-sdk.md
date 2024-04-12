@@ -140,6 +140,8 @@ Publishing updated rules follows the same workflow as any other change to your t
 1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is getting populated with expected values.
 1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
+![Publishing flow](assets/publishing-flow.png)
+
 +++
 
 +++**5. Disable Analytics extension**

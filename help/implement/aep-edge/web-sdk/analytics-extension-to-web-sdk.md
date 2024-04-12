@@ -68,7 +68,7 @@ Your tag property now has the Web SDK installed.
 
 +++
 
-+++**X. Create a data object data element**
++++**2. Create a data object data element**
 
 The data object data element provides an intuitive framework to configure a payload that the Web SDK uses to send to a datastream. Most rules that you update in the following step interact with this data element.
 
@@ -90,7 +90,7 @@ Your tag property now has everything needed to update rules.
 
 +++
 
-+++**2. Update rules to use the Web SDK extension instead of the Analytics extension**
++++**3. Update rules to use the Web SDK extension instead of the Analytics extension**
 
 This step is the most involved of a Web SDK migration, and requires knowledge around how your implementation works. This step provides an example of how to edit a typical tag rule. You must update all tag rules in your implementation to replace all reference to the Adobe Analytics extension with the Web SDK extension.
 
@@ -113,47 +113,45 @@ The above steps apply only to rules that set values. The following steps replace
 
 1. Select a rule that sends a beacon.
 1. Select the action **[!UICONTROL Adobe Analytics - Send Beacon]**.
-1. Note the [!UICONTROL Tracking] radio button on the right ([`s.t()`](../../vars/functions/t-method.md) or [`s.tl()`](../../vars/functions/tl-method.md)).
+1. Note the current value of the [!UICONTROL Tracking] radio button on the right ([`s.t()`](../../vars/functions/t-method.md) or [`s.tl()`](../../vars/functions/tl-method.md)).
 1. Change the [!UICONTROL Action Configuration] to the following settings:
     * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
     * [!UICONTROL Action type]: [!UICONTROL Send event]
 1. On the right, change the action settings to the following:
-    * [!UICONTROL Type]: For `s.t()` use **[!UICONTROL Web Webpagedetails Page Views]**. For `s.tl()` use **[!UICONTROL Web Webinteraction Link Clicks]**. If you use [`s.tl()`](../../vars/functions/tl-method.md), you must also include the following fields in your data object:
-      * `data.__adobe.analytics.linkName`
-      * `data.__adobe.analytics.linkURL`
-      * `data.__adobe.analytics.linkType`
+    * [!UICONTROL Type]: For `s.t()` use **[!UICONTROL Web Webpagedetails Page Views]**. For `s.tl()` use **[!UICONTROL Web Webinteraction Link Clicks]**. If you use [`s.tl()`](../../vars/functions/tl-method.md), you must also include the following fields in your data object. These fields are listed under [!UICONTROL Additional properties] when performing the [!UICONTROL Update variable] action configuration:
+      * [Link name](../../vars/functions/tl-method.md)
+      * [Link type](../../vars/functions/tl-method.md)
+      * [Link URL](../../vars/config-vars/linkurl.md)
 1. Select **[!UICONTROL Keep Changes]**.
 1. Repeat these steps for every action configuration that uses Adobe Analytics to send a beacon.
 
 +++
 
-+++**3. Publish updated rules**
++++**4. Publish updated rules**
 
-asdfasdfasdf
+Publishing updated rules follows the same workflow as any other change to your tags configuration.
 
-+++
-
-+++**4. Validate that data collection works**
-
-asdfasdfasdfasdf
+1. In the left navigation of the tags interface, select **[!UICONTROL Publishing Flow]**.
+1. Select **[!UICONTROL Add Library]**.
+1. Give this tag commit a name, such as "Upgrade to Web SDK".
+1. Select **[!UICONTROL Add All Changed Resources]**.
+1. Select **[!UICONTROL Save]**.
+1. The publishing workflow displays an orange dot, indicating that it is building. Once the dot turns green, your changes are available in your development environment.
+1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is getting populated with expected values.
+1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
 +++
 
 +++**5. Disable Analytics extension**
 
-asdfasdfasdfasdfasdf
+Once your tag implementation is fully on the Web SDK, you can disable the Adobe Analytics extension.
+
+1. In the left navigation of the tags interface, select **[!UICONTROL Extensions]**.
+1. Locate and select the [!UICONTROL Adobe Analytics] extension. On the right, select **[!UICONTROL Disable]**.
+1. Follow the same publishing workflow above to publish the removal of the [!UICONTROL Adobe Analytics] extension.
+1. Once the extension is disabled on production, you can uninstall it entirely. Select the extension, select the three-dot menu on the right, then select **[!UICONTROL Uninstall]**.
+1. Follow the same publishing workflow above the publish those changes to production.
 
 +++
 
 At this point, your Analytics implementation is fully on the Web SDK and is adequately prepared to move to Customer Journey Analytics in the future.
-
-
-
-
-use cases - still send data to adobe analytics
-
-update rules
-
-publish updates
-
-disable analytics extension

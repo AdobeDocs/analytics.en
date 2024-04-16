@@ -52,11 +52,31 @@ Reference the latest version of `alloy.js` so its method calls can be used. See 
 
 +++
 
-+++**3. Update code logic to use a JSON payload**
++++**3. Configure the Web SDK**
 
-Change your Analytics implementation so it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [Data layer](../../prepare/data-layer.md) on your site helps tremendously when setting values, as you can continue referencing those values.
+Set up your implementation to point to the datastream created in the previous step by using the Web SDK [Configure command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). The configure command must be set on every page, so you can include it alongside the library installation code.
 
-The payload object must use `data.__adobe.analytics`, and all variables must be within this object. When using the `data` object, all variables between AppMeasurement and this data object share the same naming convention and format. For example, if you're setting the `products` variable, do not split it into individual objects like you would with XDM; instead, include it as a string exactly is if you set the `s.products` variable:
+Use the [`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid) and [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) properties within the Web SDK configure command:
+
+* Set the `edgeConfigId` to the datastream ID retrieved from the previous step.
+* Set the `orgId` to your organization's IMS org.
+
+```js
+alloy("configure", {
+    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
+    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
+});
+```
+
+You can optionally set other properties in the [Configure command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) depending on your organization's implementation requirements.
+
++++
+
++++**4. Update code logic to use a JSON payload**
+
+Change your Analytics implementation so it does not rely on `AppMeasurement.js` or the `s` object. Instead, set variables into a correctly formatted JavaScript object, which is converted to a JSON object when sent to Adobe. Having a [Data layer](../../prepare/data-layer.md) on your site helps tremendously when setting values, as you can continue referencing those same values.
+
+To send data to Adobe Analytics, the Web SDK payload must use `data.__adobe.analytics` with all analytics variables set within this object. Variables within this object share identical names and formats as their AppMeasurement variable counterparts. For example, if you set the `products` variable, do not split it into individual objects like you would with XDM. Instead, include it as a string exactly is if you set the `s.products` variable:
 
 ```json
 {
@@ -70,15 +90,15 @@ The payload object must use `data.__adobe.analytics`, and all variables must be 
 }
 ```
 
-Ultimately, this payload contains all desired values, and all references to the `s` object are removed. You can use any of the resources that JavaScript provides to set this object, including the ability to set individual values.
+Ultimately, this payload contains all desired values, and all references to the `s` object in your implementation are removed. You can use any of the resources that JavaScript provides to set this payload object, including dot notation to set individual values.
 
 ```js
 // Define the payload and set objects within it
-var dataObj = {data:{__adobe:{analytics:{}}}};
+var dataObj = {data: {__adobe: {analytics: {}}}};
 dataObj.data.__adobe.analytics.pageName = window.document.title;
 dataObj.data.__adobe.analytics.eVar1 = "Example value";
 
-// Alternatively, set values in an object and wrap it to achieve identical results
+// Alternatively, set values in an object and wrap it using a spread operator to achieve identical results
 var a = new Object;
 a.pageName = window.document.title;
 a.eVar1 = "Example value";
@@ -89,34 +109,12 @@ alloy("sendEvent", dataObj);
 ```
 
 +++
-<!-->
 
-+++**5. Publish updated rules**
++++**5. Validate and publish changes**
 
-Publishing updated rules follows the same workflow as any other change to your tags configuration.
+Once you have removed all references to AppMeasurement and the `s` object, publish your changes to your development environment to validate that the new implementation works. Once you have validated that everything works correctly, you can publish your updates to production.
 
-1. In the left navigation of the tags interface, select **[!UICONTROL Publishing Flow]**.
-1. Select **[!UICONTROL Add Library]**.
-1. Give this tag commit a name, such as "Upgrade to Web SDK".
-1. Select **[!UICONTROL Add All Changed Resources]**.
-1. Select **[!UICONTROL Save]**.
-1. The publishing workflow displays an orange dot, indicating that it is building. Once the dot turns green, your changes are available in your development environment.
-1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is getting populated with expected values.
-1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
-
-![Publishing flow](assets/publishing-flow.png) {style="border:1px solid gray"}
-
-+++
-
-+++**6. Disable Analytics extension**
-
-Once your tag implementation is fully on the Web SDK, you can disable the Adobe Analytics extension.
-
-1. In the left navigation of the tags interface, select **[!UICONTROL Extensions]**.
-1. Locate and select the [!UICONTROL Adobe Analytics] extension. On the right, select **[!UICONTROL Disable]**.
-1. Follow the same publishing workflow above to publish the removal of the [!UICONTROL Adobe Analytics] extension.
-1. Once the extension is disabled on production, you can uninstall it entirely. Select the extension, select the three-dot menu on the right, then select **[!UICONTROL Uninstall]**.
-1. Follow the same publishing workflow above the publish those changes to production.
+If migrated correctly, `AppMeasurement.js` is no longer required on your site, and all references to this script can be removed.
 
 +++
 

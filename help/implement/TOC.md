@@ -134,6 +134,10 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [XDM object variable mapping](aep-edge/xdm-var-mapping.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
+    + [Migrate to the Web SDK using tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+    + [Migrate to the Web SDK using JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+    + [New implementation using tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
+    + [New implementation using JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
   + Mobile SDK {#mobile-sdk}
     + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
   + Server API {#server-api}

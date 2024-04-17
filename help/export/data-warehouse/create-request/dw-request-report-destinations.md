@@ -14,12 +14,19 @@ For information about how to begin creating a request, as well as links to other
 >
 >Consider the following when configuring a report destination:
 >
->* We recommend using a cloud account or email for your report destination. Legacy FTP and SFTP accounts are available but are not recommended.
+>* We recommend using a cloud account or email for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available but are not recommended.
 >
->* Any cloud accounts that you previously configured for [Data Feeds](/help/export/analytics-data-feed/create-feed.md) or for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) are available to use for Data Warehouse. However, any locations that are configured for importing classification data cannot be used.
+>* Any cloud accounts that you previously configured are available to use for Data Warehouse. You can configure cloud accounts in any of the following ways:
+>
+>   * When configuring [Data Feeds](/help/export/analytics-data-feed/create-feed.md) 
+>   
+>   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Accounts can be used, but any locations that are configured on those accounts cannot be.)
+>   
+>   * From the Locations manager, in [Components > Locations](/help/components/locations/configure-import-accounts.md). 
 >
 >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
 >
+>* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
 To configure the destination where Data Warehouse reports are sent:
 
@@ -31,17 +38,27 @@ To configure the destination where Data Warehouse reports are sent:
 
    ![Report destination tab](assets/dw-report-destination.png)
 
-1. (Conditional) If an account (and a destination on that account) has already been configured that you want to use as your report destination:
+1. (Conditional) If a cloud account (and a destination on that account) has already been configured in Adobe Analytics, you can use it as your report destination: 
 
-   1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
+   >[!NOTE]
+   >
+   >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   >
+   >If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
    
    1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      Any cloud accounts that you configured for [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) from a cloud destination are shown here and can be used. However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+      * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+        However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+      * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
    
    1. Select the destination associated with the account from the [!UICONTROL **Select destination**] drop-down menu. <!-- Is this correct? -->
 
-1. (Conditional) If you have not previously configured an account:
+1. (Conditional) If you don't have access to a cloud account that is already configured in Adobe Analytics, you can configure one:
 
    1. Select [!UICONTROL **Add account**], then specify the following information:
 
@@ -57,7 +74,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Amazon S3
 
-         Specify the following information to configure an Amazon S3 Role ARN account:
+         To configure an Amazon S3 Role ARN account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -70,7 +87,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Google Cloud Platform
 
-         Specify the following information to configure a Google Cloud Platform account:
+         To configure a Google Cloud Platform account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -82,7 +99,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure SAS
 
-         Specify the following information to configure an Azure SAS account:
+         To configure an Azure SAS account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -98,7 +115,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure RBAC
 
-         Specify the following information to configure an Azure RBAC account:
+         To configure an Azure RBAC account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -112,7 +129,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Email
 
-         Specify the following information to configure an email account:
+         To configure an email account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -131,11 +148,11 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Amazon S3
 
-         Specify the following information to configure an Amazon S3 location:
+         To configure an Amazon S3 location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
-         | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p> |  
+         | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |  
          | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
          {style="table-layout:auto"}
@@ -144,7 +161,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Google Cloud Platform
 
-         Specify the following information to configure a Google Cloud Platform location:
+         To configure a Google Cloud Platform location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -157,7 +174,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure SAS
 
-         Specify the following information to configure an Azure SAS location:
+         To configure an Azure SAS location, specify the following information:
 
          |Field | Function | 
          |---------|----------|
@@ -170,7 +187,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Azure RBAC
 
-         Specify the following information to configure an Azure RBAC location:
+         To configure an Azure RBAC location, specify the following information:
 
          |Field | Function | 
          |---------|----------|

@@ -14,7 +14,7 @@ When creating a data feed, you provide Adobe with:
 
 >[!NOTE]
 >
->Before you create a data feed, it's important to have a basic understanding of data feeds and and to ensure that you meet all necessary prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
+>Before you create a data feed, it's important to have a basic understanding of data feeds and to ensure that you meet all prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
 ## Create and configure a data feed
 
@@ -31,9 +31,9 @@ When creating a data feed, you provide Adobe with:
    | Field | Function | 
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length. | 
-   | [!UICONTROL **Report suite**] | The report suite the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported. |
+   | [!UICONTROL **Report suite**] | The report suite that the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported. |
    | [!UICONTROL **Email when complete**] | The email address to be notified when a feed finishes processing. The email address must be properly formatted. |
-   | [!UICONTROL **Feed interval**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone.  Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. |
+   | [!UICONTROL **Feed interval**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. |
    | [!UICONTROL **Delay processing**] | Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes. |
    | [!UICONTROL **Start & end dates**] | The start date indicates the date when you want the data feed to begin. To immediately begin processing data feeds for historical data, set this date to any date in the past when data is being collected. The start and end dates are based on the report suite's time zone. |
    | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
@@ -45,9 +45,17 @@ When creating a data feed, you provide Adobe with:
    >Consider the following when configuring a report destination:
    >
    >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Any cloud accounts that you previously configured are available to use for Data Feeds. You can configure cloud accounts in any of the following ways:
+   >
+   >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 
+   >   
+   >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Any locations that are configured for importing classification data cannot be used.)
+   >   
+   >   * From the Locations manager, in [Components > Locations](/help/components/locations/configure-import-accounts.md) 
    >
    >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
    >
+   >* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
 
    ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
 
@@ -61,7 +69,9 @@ When creating a data feed, you provide Adobe with:
 
    To configure an Amazon S3 bucket as the destination for a data feed:
 
-   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Amazon S3**].
+   1. Begin creating a data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+   
+   1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Amazon S3**].
 
       ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
 
@@ -69,16 +79,28 @@ When creating a data feed, you provide Adobe with:
 
       The Amazon S3 Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Amazon S3 account and location:
+   1. (Conditional) If an Amazon S3 account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+         Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
       
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+   
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the Amazon S3 location that you specified.
-
+      The destination is now configured to send data to the Amazon S3 location that you specified.
+   
    1. (Conditional) If you have not previously added an Amazon S3 account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
@@ -98,7 +120,7 @@ When creating a data feed, you provide Adobe with:
          |---------|----------|
          | [!UICONTROL **Name**] | A name for the account.  | 
          | [!UICONTROL **Description**] | A description for the account. | 
-         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p> | 
+         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> | 
          | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -106,12 +128,14 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Amazon S3 location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
    +++Azure RBAC
 
-   You can send feeds directly to an Azure container using RBAC authentication. This destination type requires an Application ID, Tenant ID, and Secret. 
+   You can send feeds directly to an Azure container by using RBAC authentication. This destination type requires an Application ID, Tenant ID, and Secret. 
 
    To configure an Azure RBAC account as the destination for a data feed:
 
@@ -119,7 +143,7 @@ When creating a data feed, you provide Adobe with:
    
       For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
    
-   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure RBAC**].
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Azure RBAC**].
 
       ![Azure RBAC destination](assets/datafeed-destination-azurerbac.png)
 
@@ -127,10 +151,22 @@ When creating a data feed, you provide Adobe with:
 
       The Azure RBAC Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Azure RBAC account and location:
+   1. (Conditional) If an Azure RBAC account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
@@ -166,12 +202,14 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure RBAC location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
    +++Azure SAS
 
-   You can send feeds directly to an Azure container using SAS authentication. This destination type requires an Application ID, Tenant ID, Key vault URI, Key vault secret name, and secret. 
+   You can send feeds directly to an Azure container by using SAS authentication. This destination type requires an Application ID, Tenant ID, Key vault URI, Key vault secret name, and secret. 
 
    To configure Azure SAS as the destination for a data feed:
 
@@ -187,16 +225,28 @@ When creating a data feed, you provide Adobe with:
 
       The Azure SAS Export Locations page is displayed.
 
-   1. (Conditional) If you previously added an Azure SAS account and location:
+   1. (Conditional) If an Azure SAS account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure SAS location that you specified.
-
+   
    1. (Conditional) If you have not previously added an Azure SAS account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
@@ -227,6 +277,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the Azure SAS location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
@@ -246,16 +298,28 @@ When creating a data feed, you provide Adobe with:
 
       The GCP Export Locations page is displayed.
 
-   1. (Conditional) If you previously added a GCP account and location:
+   1. (Conditional) If a Google Cloud Platform account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
+      >[!NOTE]
+      >
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
       1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
+
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
       1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
       1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         The destination is now configured to send data to the GCP location that you specified.
-
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+   
    1. (Conditional) If you have not previously added a GCP account:
 
       1. Select [!UICONTROL **Add account**], then specify the following information:
@@ -283,6 +347,8 @@ When creating a data feed, you provide Adobe with:
       1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
          The destination is now configured to send data to the GCP location that you specified.
+
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
    
    +++
 
@@ -292,8 +358,8 @@ When creating a data feed, you provide Adobe with:
    |---------|----------|
    | [!UICONTROL **Remove escaped characters**] | When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files. |
    | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. | 
-   | [!UICONTROL **Packaging type**] | Select **Multiple files** for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If multiple files is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file. |
-   | [!UICONTROL **Manifest**] | Whether or not Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> | 
+   | [!UICONTROL **Packaging type**] | Select [!UICONTROL **Multiple files**] for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If the [!UICONTROL **Multiple files**] option is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file. |
+   | [!UICONTROL **Manifest**] | Determines whether Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> | 
    | [!UICONTROL **Column templates**] | When creating many data feeds, Adobe recommends creating a column template. Selecting a column template automatically includes the specified columns in the template. Adobe also provides several templates by default. |
    | [!UICONTROL **Available columns**] | All available data columns in Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed. |
    | [!UICONTROL **Included columns**] | The columns to include in a data feed. Click [!UICONTROL Remove all] to remove all columns from a data feed. |
@@ -341,7 +407,7 @@ The user you provide for uploading data feeds must have the following [permissio
 
   >[!NOTE]
   >
-  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, whether or not the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
+  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, regardless of whether the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
 
 The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 

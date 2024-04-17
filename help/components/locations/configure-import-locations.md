@@ -1,40 +1,50 @@
 ---
 description: Configure the cloud import account and location where classification data can be uploaded
 keywords: Analysis Workspace
-title: Configure cloud import locations
+title: Configure cloud import and export locations
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 ---
-# Configure cloud import locations
+# Configure cloud import and export locations
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Before you can import Adobe Analytics classification data from a cloud destination, you need to add and configure the account and the location within that account where you want the classification data to be collected. 
+You can configure a cloud account (and a location on that account). A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes, such as Data Feeds and Data Warhouse, or Data Warehouse and Classification sets):
 
-This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) and the location within the account (such as a folder within the account).
+* Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
+* Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importing schemas using [Classification sets](/help/components/classifications/sets/overview.md)
 
-To configure a cloud import location:
+You must configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
 
-1. You need to add an account before you can add a location. If you haven't already, add an account as described in [Configure cloud import accounts](/help/components/locations/configure-import-accounts.md).
+To configure a new cloud import or export location or to edit an existing one:
+
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
-1. Select [!UICONTROL **Add location**]. <!-- add screenshot? -->
+1. To create a new location, select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
    
+   Or
+
+   To edit an existing location, select the 3-dot menu in the [!UICONTROL **Location name**] column for the location that you want to edit, then select [!UICONTROL **Edit**]. 
    The Location dialog displays.
+
 1. Specify the following information:
    |Field | Function | 
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Location account**] | Select the location account that you created in [Add an account](#add-an-account). | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li></ul> | 
+   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Add an account](#add-an-account). | 
 
 1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
 
-   For configuration instructions, expand the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. 
+   For configuration instructions, expand the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
+
+   **Account types**
 
    +++Amazon S3 Role ARN
 
-      Specify the following information to configure an Amazon S3 Role ARN location:
+      To configure an Amazon S3 Role ARN location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -47,7 +57,7 @@ To configure a cloud import location:
 
    +++Google Cloud Platform
 
-      Specify the following information to configure a Google Cloud Platform location:
+      To configure a Google Cloud Platform location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -60,7 +70,7 @@ To configure a cloud import location:
 
    +++Azure SAS
 
-      Specify the following information to configure an Azure SAS location:
+      To configure an Azure SAS location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -73,7 +83,7 @@ To configure a cloud import location:
 
    +++Azure RBAC
 
-      Specify the following information to configure an Azure RBAC location:
+      To configure an Azure RBAC location, specify the following information:
 
       |Field | Function | 
       |---------|----------|
@@ -85,11 +95,84 @@ To configure a cloud import location:
 
    +++
 
+   **Legacy account types**
+
+   These legacy account types are available only when exporting data with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). These options are not available when importing data with [Classification sets](/help/components/classifications/sets/manage/schema.md).
+
+   +++FTP
+
+      Data feed data can be delivered to an Adobe or customer-hosted FTP location. Specify the directory  Use the path field to place feed files in a folder. 
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+
+      {style="table-layout:auto"}
+
+   +++
+
+   +++SFTP
+
+      Data feed data can be delivered to an Adobe or customer-hosted SFTP location. The destination site must contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed. 
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+
+      {style="table-layout:auto"}
+   
+   +++
+
+   +++S3
+
+      You can send warehouse data directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
+
+      The user you provide for uploading data warehouse data must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+      * s3:GetObject
+      * s3:PutObject
+      * s3:PutObjectAcl
+
+      The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
+
+      * us-east-2
+      * us-east-1
+      * us-west-1
+      * us-west-2
+      * ap-south-1
+      * ap-northeast-2
+      * ap-southeast-1
+      * ap-southeast-2
+      * ap-northeast-1
+      * ca-central-1
+      * eu-central-1
+      * eu-west-1
+      * eu-west-2
+      * eu-west-3
+      * eu-north-1
+      * sa-east-1
+
+      >[!NOTE]
+      >
+      >The cn-north-1 region is not supported.
+   
+   +++
+
+   +++Azure Blob
+
+      Data warehouse support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
+
+      >[!NOTE]
+      >
+      >You must implement your own process to manage disk space on the data warehouse destination. Adobe does not delete any data from the server.
+   
+   +++
+
 1. Select [!UICONTROL **Save**].
 
-   You can now import data from the account and location that you configured.
+   You can now import or export data to or from the account and location that you configured.
 
-   Data is not deleted from the cloud destination after it is imported. 
+   Imported data is not deleted from the cloud destination after it is imported. 
 
    >[!NOTE]
    >

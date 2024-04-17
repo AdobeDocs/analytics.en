@@ -7,8 +7,8 @@ description: Update your Analytics implementation on Adobe Experience Platform D
 This implementation path involves a methodical migration approach to move from the Adobe Analytics tag extension to the Web SDK tag extension. Other implementation paths are covered on separate pages:
 
 * [AppMeasurement to Web SDK JavaScript library](appmeasurement-to-web-sdk.md): A smooth and methodical approach to migrate to the Web SDK, except it does not use tags. Instead, you manually remove the Adobe Analytics data collection library (`AppMeasurement.js`) and replace it with the Web SDK JavaScript library (`alloy.js`).
-* [Web SDK tag extension](web-sdk-tag-extension.md): A fresh Web SDK installation where you manage the implementation using tags in Adobe Experience Platform Data Collection. Requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
-* [Web SDK JavaScript library](web-sdk-javascript-library.md): A fresh Web SDK installation using the Web SDK JavaScript library (`alloy.js`). Manage the implementation yourself instead of using the tags UI. Requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
+* [Web SDK tag extension](web-sdk-tag-extension.md): A fresh Web SDK installation where you manage the implementation using tags in Adobe Experience Platform Data Collection. It requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
+* [Web SDK JavaScript library](web-sdk-javascript-library.md): A fresh Web SDK installation using the Web SDK JavaScript library (`alloy.js`). Manage the implementation yourself instead of using the tags UI. It requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
 
 ## Advantages and disadvantages of this implementation path
 
@@ -25,7 +25,7 @@ Adobe recommends following this implementation path in the following scenarios:
 
 ## Steps required to migrate to the Web SDK
 
-The following steps contain concrete goals to work towards. Click each step for detailed instructions around how to accomplish it.
+The following steps contain concrete goals to work towards. Click each step for detailed instructions on how to accomplish it.
 
 +++**1. Create and configure a datastream**
 
@@ -48,7 +48,7 @@ Your datastream is now ready to receive and pass along data to Adobe Analytics.
 
 +++**2. Add the Web SDK extension to your tag property**
 
-This section prepares your tag for the bulk of migration effort taking place in the next step.
+This section prepares your tag for the bulk of the migration effort taking place in the next step.
 
 1. Click the hamburger icon in the top left of the Adobe Experience Platform interface, then select **[!UICONTROL Tags]**.
 1. Select the desired tag property.
@@ -86,13 +86,13 @@ The data object data element provides an intuitive framework to configure a payl
 
 ![Create data element](assets/create-data-element.png) {style="border:1px solid gray"}
 
-Your tag property now has everything needed to update rules.
+Your tag property now has everything needed to update each rule.
 
 +++
 
 +++**4. Update rules to use the Web SDK extension instead of the Analytics extension**
 
-This step is the most involved of a Web SDK migration, and requires knowledge around how your implementation works. This step provides an example of how to edit a typical tag rule. Update all tag rules in your implementation to replace all references to the Adobe Analytics extension with the Web SDK extension.
+This step contains the bulk of the effort required to migrate to the Web SDK, and requires knowledge of how your implementation works. An example is provided below as an example of how to edit a typical tag rule. Update all tag rules in your implementation to replace all references to the Adobe Analytics extension with the Web SDK extension.
 
 1. In the left navigation of the tags interface, select **[!UICONTROL Rules]**.
 1. Select a rule to edit.
@@ -137,7 +137,7 @@ Publishing updated rules follows the same workflow as any other change to your t
 1. Select **[!UICONTROL Add All Changed Resources]**.
 1. Select **[!UICONTROL Save]**.
 1. The publishing workflow displays an orange dot, indicating that it is building. Once the dot turns green, your changes are available in your development environment.
-1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is getting populated with expected values.
+1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is populating with expected values.
 1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
 ![Publishing flow](assets/publishing-flow.png) {style="border:1px solid gray"}
@@ -151,8 +151,8 @@ Once your tag implementation is fully on the Web SDK, you can disable the Adobe 
 1. In the left navigation of the tags interface, select **[!UICONTROL Extensions]**.
 1. Locate and select the [!UICONTROL Adobe Analytics] extension. On the right, select **[!UICONTROL Disable]**.
 1. Follow the same publishing workflow above to publish the removal of the [!UICONTROL Adobe Analytics] extension.
-1. Once the extension is disabled on production, you can uninstall it entirely. Select the extension, select the three-dot menu on the right, then select **[!UICONTROL Uninstall]**.
-1. Follow the same publishing workflow above the publish those changes to production.
+1. Once the extension is disabled in production, you can uninstall it entirely. Select the extension, select the three-dot menu on the right, then select **[!UICONTROL Uninstall]**.
+1. Follow the same publishing workflow above to publish those changes to production.
 
 +++
 

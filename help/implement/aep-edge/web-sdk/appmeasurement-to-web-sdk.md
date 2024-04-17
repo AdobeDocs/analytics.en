@@ -6,9 +6,9 @@ description: Update your Adobe Analytics implementation from the AppMeasurement 
 
 This implementation path involves a methodical migration approach to move from an AppMeasurement implementation to a Web SDK JavaScript library implementation. Other implementation paths are covered on separate pages:
 
-* [Analytics extension to Web SDK extension](analytics-extension-to-web-sdk.md): Take a smooth and methodical approach to move from the Adobe Analytics tag extension in Adobe Experience Platform Data Collection to the Web SDK tag extension. This approach suppresses the need to use XDM until your organization is ready to use Adobe Experience Platform services, such as Customer Journey Analytics. Use the `data` object instead of the `xdm` object to send data to Adobe.
-* [Web SDK JavaScript library](web-sdk-javascript-library.md): A fresh Web SDK installation using the Web SDK JavaScript library (`alloy.js`). Manage the implementation yourself instead of using the tags UI. Requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
-* [Web SDK tag extension](web-sdk-tag-extension.md): A fresh Web SDK installation where you manage the implementation using tags in Adobe Experience Platform Data Collection. Requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
+* [Analytics extension to Web SDK extension](analytics-extension-to-web-sdk.md): Take a smooth and methodical approach to move from the Adobe Analytics tag extension to the Web SDK tag extension. This approach suppresses the need to use XDM until your organization is ready to use Adobe Experience Platform services, such as Customer Journey Analytics. Use the `data` object instead of the `xdm` object to send data to Adobe.
+* [Web SDK JavaScript library](web-sdk-javascript-library.md): A fresh Web SDK installation using the Web SDK JavaScript library (`alloy.js`). Manage the implementation yourself instead of using the tags UI. It requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
+* [Web SDK tag extension](web-sdk-tag-extension.md): A fresh Web SDK installation where you manage the implementation using tags in Adobe Experience Platform Data Collection. It requires the Adobe Analytics ExperienceEvent field group, which includes typical Analytics variables to be included in your XDM schema.
 
 ## Advantages and disadvantages of this implementation path
 
@@ -25,7 +25,7 @@ Adobe recommends following this implementation path in the following scenarios:
 
 ## Steps required to migrate to the Web SDK
 
-The following steps contain concrete goals to work towards. Click each step for detailed instructions around how to accomplish it.
+The following steps contain concrete goals to work towards. Click each step for detailed instructions on how to accomplish it.
 
 +++**1. Create and configure a datastream**
 
@@ -123,7 +123,7 @@ Update all instances where you call [`s.t()`](../../vars/functions/t-method.md) 
 
 * **Automatic link tracking**: The [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) configuration property is enabled by default. It automatically sets the correct link tracking variables to send data to Adobe Analytics. If you want to disable automatic link tracking, set this property to `false` within the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command.
 
-* **Manual link tracking**: The Web SDK does not have separate commands between pageview and non-pageview calls. You must provide that distinction within the payload object.
+* **Manual link tracking**: The Web SDK does not have separate commands between pageview and non-pageview calls. Provide that distinction within the payload object.
 
   ```js
   // If your current implementation has this line of code:

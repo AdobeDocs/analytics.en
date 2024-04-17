@@ -1,6 +1,8 @@
 ---
 title: Send data to Adobe Analytics using the Web SDK tag extension
 description: Start with a clean implementation of Adobe Experience Platform Data Collection to send data to Adobe Analytics using XDM and the Adobe Analytics ExperienceEvent field group.
+hide: yes
+hidefromtoc: yes
 ---
 # Send data to Adobe Analytics using the Web SDK tag extension
 

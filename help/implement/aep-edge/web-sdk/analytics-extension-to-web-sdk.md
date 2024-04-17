@@ -1,6 +1,7 @@
 ---
 title: Migrate from the Adobe Analytics tag extension to the Web SDK tag extension
 description: Update your Analytics implementation on Adobe Experience Platform Data Collection tags to use the Web SDK extension.
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 ---
 # Migrate from the Adobe Analytics tag extension to the Web SDK tag extension
 

@@ -14,7 +14,7 @@ These release notes cover the release period of April 17, 2024 through May. Adob
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Streaming Media: Send Roku data to Adobe Experience Platform Edge** | Now when [installing Media Analytics with Experience Platform Edge](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge), you can use the Adobe Experience Platform Roku SDK to send Streaming Media data to Adobe Experience Platform. |  |April 12, 2024 |
+| **Streaming Media: Send Roku data to Adobe Experience Platform Edge Network** | Now when [installing Media Analytics with Experience Platform Edge](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge), you can use the Adobe Experience Platform Roku SDK to send Streaming Media data to Adobe Experience Platform. |  |April 12, 2024 |
 | **Improved workflow for Web SDK migration** | Adobe Experience Platform Data Collection now automatically maps many fields from the data object straight to Adobe Analytics. This improved workflow provides the following benefits:<ul><li>It allows your organization to migrate to the Web SDK without worrying about creating or adhering to an [!UICONTROL XDM schema]. See [Data object variable mapping](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping) for more information. (More documentation links to follow)</li><li>After you migrate to the Web SDK, your organization is in a better position to migrate from Adobe Analytics to Customer Journey Analytics. This is because the Web SDK allows for a more seamless migration to Customer Journey Analytics.</li></ul> (More information about this and other migration options is coming soon.)|  | April 2024 |
 | **Permissions enhancement for project-only [!UICONTROL Workspace] components** | Previously, if a user (User A) shared a project with another user (User B), and gave User B edit access to the project, User B would be able to edit the project. However, User B would not be able to edit [!UICONTROL Quick Segments] embedded in the project. That limitation is now removed - User B can edit [!UICONTROL Quick Segments] and other project-only components that are embedded in the shared project. |  | April 17, 2024 |
 | **Use the same cloud accounts for [!UICONTROL Data Feeds], [!UICONTROL Data Warehouse], and [!UICONTROL Classification sets]** | Cloud accounts and locations that you create can now be used for exporting data (with [!UICONTROL Data Feeds] and [!UICONTROL Data Warehouse]) and importing data (with [!UICONTROL Classification sets]).<p> **Changes when configuring accounts:** Users can [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) and [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) that can be used for any of the following purposes:<ul><li>Importing data with [!UICONTROL Classification sets]</li><li>Exporting data with [!UICONTROL Data Feeds]</li><li>Exporting data with [!UICONTROL Data Warehouse].</li></ul><p>**Changes when managing accounts**: Users can use the [Locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) page (under [!UICONTROL Components] > Loc[!UICONTROL ]ations) to view and manage all the accounts and locations that they create, regardless of where they were created. <p>Previously, the [!UICONTROL Locations] page applied only to accounts that were created for importing data with [!UICONTROL Classification sets].</p> | | April 17, 2024 |
@@ -26,21 +26,21 @@ These release notes cover the release period of April 17, 2024 through May. Adob
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-343439; AN-343503; AN-343504; AN-343986; AN-344262; AN-344564; AN-345204
-* Fixed the following Classifications Rule Builder issues: AN-341488; AN-342501
+* Fixed the following Classifications issues: AN-343439; AN-343503; AN-343504; AN-343986; AN-344262; AN-344564; AN-345204; AN-345234
+* Fixed the following Classifications Rule Builder issues: AN-341488; AN-342501; AN-345751
 * Fixed the following Intelligent Alerts issue: AN-343466; 
 * Fixed the following Segmentation issue: AN-342313
 * Fixed the following Data Warehouse issue: AN-344292
-* Fixed the following Data Feeds issues: AN-339545; AN-340092; AN-342124; AN-342862; AN-343737; AN-344035; AN-344329; AN-344703; AN-344721; AN-344940; AN-345180; AN-345196; AN-345225; AN-345236; AN-345326; AN-345631; 
+* Fixed the following Data Feeds issues: AN-339545; AN-340092; AN-342124; AN-342862; AN-343737; AN-344035; AN-344329; AN-344703; AN-344721; AN-344940; AN-345180; AN-345196; AN-345225; AN-345236; AN-345326; AN-345631; AN-345659
 * Fixed the following Data Sources issue: AN-343541
-* Fixed the following Analysis Workspace issues: AN-336303; AN-336472; AN-338422; AN-338556; AN-339718; AN-340301; AN-340421; AN-340951; AN-341172; AN-342905; AN-342909; AN-343448; AN-343570; AN-344050; AN-344182; AN-344763; AN-344768; 
+* Fixed the following Analysis Workspace issues: AN-336303; AN-336472; AN-338422; AN-338556; AN-339718; AN-340147; AN-340301; AN-340421; AN-340951; AN-341172; AN-342905; AN-342909; AN-343448; AN-343570; AN-344050; AN-344182; AN-344763; AN-344768; 
 * Fixed the following Analytics Admin issues: AN-342519; AN-342523; AN-343623; AN-343882; AN-344237; AN-344829; AN-345235; 
-* Fixed the following A4T issue: AN-341619
+* Fixed the following A4T issues: AN-341619; AN-344402
 * Fixed the following Mobile App issue: AN-342010
 
 ### Other Analytics fixes
 
-AN-336099; AN-337474; AN-337993; AN-339901; AN-341356; AN-343102; AN-343353; AN-343416; AN-340014; AN-344037; AN-344525; 
+AN-336099; AN-337474; AN-337993; AN-339718; AN-339901; AN-340014; AN-341356; AN-343021; AN-343102; AN-343353; AN-343416; AN-340014; AN-344037; AN-344525; AN-345737
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

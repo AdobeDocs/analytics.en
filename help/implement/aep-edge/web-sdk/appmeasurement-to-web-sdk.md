@@ -1,6 +1,7 @@
 ---
 title: Migrate from AppMeasurement to the Web SDK
 description: Update your Adobe Analytics implementation from the AppMeasurement JavaScript library to the Web SDK JavaScript library.
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
 ---
 # Migrate from AppMeasurement to the Web SDK
 

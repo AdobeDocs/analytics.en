@@ -1,14 +1,15 @@
 ---
 title: Data object variable mapping to Adobe Analytics
-description: View which data object fields that Edge automatically maps to Analytics variables.
+description: View which data object fields Experience Platform Edge automatically maps to Analytics variables.
 feature: Implementation Basics
 role: Admin, Developer
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 ---
 # Data object variable mapping to Adobe Analytics
 
 The following table shows the data object variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these data object field paths, no additional configuration is necessary to send data to Adobe Analytics.
 
-Use of these fields are recommended if you intend to use Customer Journey Analytics in the future. This implementation mathod allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) to point data object fields to their respective XDM fields.
+Use of these fields is recommended if you intend to use Customer Journey Analytics in the future. This implementation method allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) to point data object fields to their respective XDM fields.
 
 ## Value priorities
 
@@ -50,7 +51,6 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `data.__adobe.analytics.referrer` | The [Referrer](/help/components/dimensions/referrer.md) dimension. |
 | `data.__adobe.analytics.resolution` | The [Monitor resolution](../../components/dimensions/monitor-resolution.md) dimension. The shorthand field `data.__adobe.analytics.s` is also supported. |
 | `data.__adobe.analytics.server` | The [Server](/help/components/dimensions/server.md) dimension. |
-| `data.__adobe.analytics.tnta` | Used in A4T integrations. |
 | `data.__adobe.analytics.transactionID` | The [`transactionID`](../vars/page-vars/transactionid.md) implementation variable. The shorthand field `data.__adobe.analytics.xact` is also supported. |
 | `data.__adobe.analytics.zip` | The [Zip code](../../components/dimensions/zip-code.md) dimension. |
 

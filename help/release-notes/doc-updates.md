@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **April 2024** | |
+| Removed collapsible sections in documentation about configuring cloud import and export locations | Removed collapsible sections in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md) for information explaining cloud account types. | 
 | **March 2024** | |
 | AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. | 
 | Usage information regarding the "Used in" column is available only starting in September 2023.| Clarified that usage information regarding the **Used in** column on the [projects landing page](/help/analyze/landing.md) goes back only as far as September 2023.  | 

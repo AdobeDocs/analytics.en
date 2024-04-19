@@ -41,7 +41,7 @@ Create a datastream in Adobe Experience Platform Data Collection. When you send 
 1. In the service drop-down menu, select **[!UICONTROL Adobe Analytics]**.
 1. Enter the same report suite ID as the site you currently send analytics data to. Click **[!UICONTROL Save]**.
 
-![Add Adobe Analytics service](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Add Adobe Analytics service](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Your datastream is now ready to receive and pass along data to Adobe Analytics.
 
@@ -57,11 +57,11 @@ This section prepares your tag for the bulk of the migration effort taking place
 1. Select **[!UICONTROL Catalog]** near the top to see a list of all available extensions.
 1. Search for and select the **[!UICONTROL Adobe Experience Platform Web SDK]** extension, then click **[!UICONTROL Install]** on the right.
 
-    ![Catalog](assets/catalog.png) {style="border:1px solid gray"}
+    ![Catalog](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. The extension configuration settings appear. Locate the Datastreams section, and select the datastream that you created in the previous step.
 
-    ![Datastream selection](assets/datastream-select.png) {style="border:1px solid gray"}
+    ![Datastream selection](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Select **[!UICONTROL Save]**.
 
@@ -78,14 +78,14 @@ The data object data element provides an intuitive framework to configure a payl
 1. Give the data element the following settings:
     * [!UICONTROL Name]: Anything you'd like, such as "Data layer" or "Data object"
     * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
-    * [!UICONTROL Variable]: [!UICONTROL Variable]
+    * [!UICONTROL Data Element Type]: [!UICONTROL Variable]
     * Check boxes can remain as-is
 1. On the right, select the following settings:
     * Property radio button: [!UICONTROL Data]
     * Solution: [!UICONTROL Adobe Analytics]
 1. Select **[!UICONTROL Save]**.
 
-![Create data element](assets/create-data-element.png) {style="border:1px solid gray"}
+![Create data element](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Your tag property now has everything needed to update each rule.
 
@@ -98,7 +98,7 @@ This step contains the bulk of the effort required to migrate to the Web SDK, an
 1. In the left navigation of the tags interface, select **[!UICONTROL Rules]**.
 1. Select a rule to edit.
 1. Select the action **[!UICONTROL Adobe Analytics - Set Variables]**
-1. Note all Analytics variables set within this rule. Note both variables set in the drop-down menus and variables set within custom code.
+1. Note all Analytics variables set within this rule. Include both variables set in the drop-down menus and variables set within custom code.
 1. Change the [!UICONTROL Action Configuration] to the following settings:
     * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
     * [!UICONTROL Action type]: Update variable
@@ -141,7 +141,7 @@ Publishing updated rules follows the same workflow as any other change to your t
 1. Test your changes in your development environment to ensure that all rules are firing properly, and that the data object is populating with expected values.
 1. When ready, submit the library for approval, build to staging, then ultimately approve and publish to production.
 
-![Publishing flow](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Publishing flow](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

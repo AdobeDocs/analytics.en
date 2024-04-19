@@ -41,7 +41,7 @@ Create a datastream in Adobe Experience Platform Data Collection. When you send 
 1. In the service drop-down menu, select **[!UICONTROL Adobe Analytics]**.
 1. Enter the same report suite ID as the site you currently send analytics data to. Click **[!UICONTROL Save]**.
 
-![Add Adobe Analytics service](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Add Adobe Analytics service](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Your datastream is now ready to receive and pass along data to Adobe Analytics. Note the datastream ID, as this ID is required when configuring the Web SDK in code.
 

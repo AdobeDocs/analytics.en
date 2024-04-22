@@ -21,7 +21,7 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), cust
 * Orders are mapped to `xdm.commerce.purchases.value`.
 * Units are mapped to the sum of all `productListItems[].quantity` fields.
 * Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.
-* Product Views are mapped to `xdm.commerce.productListViews.value`.
+* Product Views are mapped to `xdm.commerce.productViews.value`.
 * Carts are mapped to `xdm.commerce.productListOpens.value`.
 * Cart Additions are mapped to `xdm.commerce.productListAdds.value`.
 * Cart Removals are mapped to `xdm.commerce.productListRemovals.value`.

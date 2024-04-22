@@ -13,7 +13,7 @@ Before implementing events, make sure that you create and configure them under [
 
 ## Events using the Web SDK
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), custom events use the following XDM fields:
+If using the [XDM object](/help/implement/aep-edge/xdm-var-mapping.md), custom events use the following XDM fields:
 
 * Custom events 1-100 are mapped to `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
 * Custom events 101-200 are mapped to `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.

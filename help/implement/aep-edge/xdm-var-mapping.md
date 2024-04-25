@@ -167,12 +167,12 @@ You can also explicitly map XDM field elements as context data. Any XDM field el
 alloy("event",{
     "xdm":{
         "_atag":{
-            "whatever":{
-                "something":"Lorem ipsum"
+            "contextData":{
+                "something":"anything"
             }
         }
     }
 })
 ```
 
-The Web SDK sends that data to Adobe Analytics as the context data variable `a.c._atag.whatever.something`.
+The Web SDK sends that data to Adobe Analytics as the context data variable `a.c._atag.something.anything`.

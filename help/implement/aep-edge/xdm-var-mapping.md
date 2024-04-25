@@ -137,7 +137,11 @@ Previous updates to this table can be found on this page's [commit history on Gi
 
 ## Mapping other XDM fields to Analytics variables
 
-If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as Context Data with the prefix a.x. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
+If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). 
+
+### Implicit mapping
+
+Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as Context Data with the prefix `a.x.` You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
 
 ```js
 alloy("event",{
@@ -154,3 +158,21 @@ alloy("event",{
 The Web SDK sends that data to Adobe Analytics as the context data variable `a.x._atag.search.term`. You can then use a processing rule to assign that context data variable value to the desired Analytics variable, such as an eVar:
 
 ![Search term processing rule](assets/examplerule.png)
+
+## Explicit mappiing
+
+You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped is sent to Adobe Analytics as Context Data with the prefix `a.c.` You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "whatever":{
+                "something":"Lorem ipsum"
+            }
+        }
+    }
+})
+```
+
+The Web SDK sends that data to Adobe Analytics as the context data variable `a.c._atag.whatever.something`.

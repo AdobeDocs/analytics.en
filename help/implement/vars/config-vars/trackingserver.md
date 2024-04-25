@@ -53,9 +53,13 @@ If this field is left blank, it defaults to `[rsid].data.adobedc.net`.
 
 The `s.trackingServer` variable is a string that contains the location to send data.
 
-## Determine the value for `trackingServer`
+## Considerations for determining the value for `trackingServer`
 
-The value for this variable depends on if you use first-party cookies or third-party cookies. Adobe strongly recommends using first-party cookies in your implementation.
+You can choose to use Adobe's tracking server domains (e.g. adobedc.net) or you can go through a special process to setup a tracking server that matches your sites domain (e.g. data.mydomain.com), also known as a CNAME implementation. Having a trackingserver that matches your site domain may have some benefits depending on other aspects of your implementation. When the tracking server does not match the domain of the current page, cookies set by AppMeasurement must be set as third-party. If the browser does not support third party cookies, this can interfered with certain Analytics functionality:
+- Setting identifiers: If you are using Experience Cloud Identity Service the tracking server has no impact on how cookies are set. However if you are using Analytics legacy identifiers (aka the s_vi cookie) and the collection server does not match the current domain, then cookies must be set as third party. In this case, if third-party cookies are blocked by the browser, Analytics sets a first-party fallback id (s_fid) instead of the standard "s_vi" cookie. 
+- Link ttracking will not work for internal links
+- Activity Map will not work for internal linkst
+- Cookie check 
 
 ### First-party cookies
 
@@ -67,7 +71,7 @@ The individual who initially configures the first-party cookie implementation al
 s.trackingServer = "data.example.com";
 ```
 
-### Third-party cookies
+### Third-party tracking server
 
 >[!TIP]
 >

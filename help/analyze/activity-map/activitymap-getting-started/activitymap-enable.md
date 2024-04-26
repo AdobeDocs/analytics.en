@@ -17,9 +17,11 @@ The Activity Map module is part of the AppMeasurement.js, Adobe Experience Platf
 
 +++Web SDK (Adobe Experience Platform tags extension)
 
-1. In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. 
-1. Build the Library with the changes.
-1. Publish the Library to production.
+NOTE: Web SDK currently collects Activity Map information by recording separate link click events. This differs from AppMeasurement which records Activity Map information for internal links by including that information the subsequent page load. Because of this Web SDK collection will result in additional server calls. In a future release Web SDK it will be possible to configure Web SDK to package Activity Map information on subsequent hits, essentially matching the behavior of AppMeasurement.
+
+2. In Adobe Experience Platform tags, navigate to the property for which you are implementing Analytics. Under [!UICONTROL Extensions] -> [!UICONTROL Adobe Experience Platform Web SDK], select **[!UICONTROL Enable click data collection]** as highlighted below. 
+3. Build the Library with the changes.
+4. Publish the Library to production.
 
 ![](assets/web_sdk.png)
 

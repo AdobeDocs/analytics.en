@@ -159,7 +159,7 @@ The Web SDK sends that data to Adobe Analytics as the context data variable `a.x
 
 ![Search term processing rule](assets/examplerule.png)
 
-## Explicit mappiing
+## Explicit mapping
 
 You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped is sent to Adobe Analytics as Context Data with the prefix `a.c.` You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
 

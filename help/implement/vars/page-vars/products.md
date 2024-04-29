@@ -24,11 +24,42 @@ If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), prod
 * Merchandising eVars are mapped to `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` to `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, depending on which eVar you want to bind to a product.
 * Merchandising events are mapped to `xdm.productListItems[]._experience.analytics.event1to100.event1.value` to `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, depending on which event that you want to bind to a product. If you set an event in one of these fields, it is automatically included in the [event](events/events-overview.md) string sent to Adobe Analytics. 
 
->[!NOTE]
->
->`lineItemId` must be added as a custom field as it is not yet part of the standard Analytics Event schema. Adobe plans to add a dedicated 'Category' field in the future.
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the products variable uses `data.__adobe.analytics.products` following AppMeasurement syntax. If you set this field, any products set in the XDM object are overwritten and not sent to Adobe Analytics.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## Products using the Adobe Analytics extension
 

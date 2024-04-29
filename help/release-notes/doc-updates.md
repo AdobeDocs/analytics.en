@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **April 2024** | |
+| Removed documentation related to "Owner" in Classification sets |  The "Owner" filter and column was removed from the [Classification set manager](/help/components/classifications/sets/manage/set-manager.md) and the "Owner" field was removed from the [Classification set settings](/help/components/classifications/sets/manage/settings.md). <p>The documentation was updated to remove this filter, column, and field.</p>  | 
 | Removed collapsible sections in documentation about configuring cloud import and export locations | Removed collapsible sections in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md) for information explaining cloud account types. | 
 | **March 2024** | |
 | AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. | 

@@ -144,7 +144,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | New topic on [!UICONTROL Next/Previous item] panel | [Next/previous dimension item panel](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **March 2022** | |
-| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to "High". |
+| New topic on supported HTTPS encryption algorithms | Supported HTTPS encryption algorithms for customers with cipher security level set to "High". |
 | New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |
 | Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
 | [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
@@ -290,7 +290,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 | April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |
+| March 14, 2019 | Major Update to Regional Data Collection. |
 | February 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | February 1, 2019 | Major update to the [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) implementation plug-in. |
 | January 17, 2019 | [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul> |

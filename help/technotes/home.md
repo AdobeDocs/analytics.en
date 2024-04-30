@@ -35,7 +35,6 @@ Here is a video overview of Adobe Analytics:
 ## Key tech notes articles
 
 * [Transitioning from a third-party analytics platform to Adobe Analytics](ga-to-aa/home.md)
-* [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md)
 
 ## More Analytics user guides
 

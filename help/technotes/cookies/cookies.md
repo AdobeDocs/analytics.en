@@ -99,7 +99,7 @@ The default behavior in these browser versions is to treat cookies that have no 
 
 For customers using the Visitor ID Service, cookies have the properties `SameSite=None` and `secure` set by default, which allows these cookies to support third-party use cases.
 
-For customers using Analytics legacy identifiers ("s_vi" and "s_fid" cookies), cookies are also set to enable third-party use cases with standard collection domains: adobedc.net, 2o7.net, and omtrdc.net. For customers using a CNAME implementation, Analytics sets `SameSite=Lax`.
+For customers using Analytics legacy identifiers (`s_vi` and `s_fid` cookies), cookies are also set to enable third-party use cases with standard collection domains: `adobedc.net`, `2o7.net`, and `omtrdc.net`. For customers using a CNAME implementation, Analytics sets `SameSite=Lax`.
 
 >[!NOTE]
 >

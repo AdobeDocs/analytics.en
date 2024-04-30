@@ -46,10 +46,6 @@ user-guide-description: Browse a knowledge base containing helpful articles that
 + [Processing order](processing-order.md)
 + [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
-+ Regional Data Collection {#rdc}
-  + [Regional data collection help](rdc/regional-data-collection.md)
-  + [SSL certification licensing](rdc/ssl-cert-licensing.md)
-  + [Supported HTTPS encryption algorithms](rdc/encryption-algos.md)
 + [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
 + [Timestamps Optional](timestamps-optional.md)

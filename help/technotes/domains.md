@@ -2,6 +2,7 @@
 title: Domains used by Adobe Analytics
 description: Allow these domains through your organization's firewall for an optimal experience using Adobe Analytics.
 feature: Data Configuration and Collection
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
 ---
 # Domains used by Adobe Analytics
 

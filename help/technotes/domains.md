@@ -15,8 +15,8 @@ Some firewall configurations block domains that Adobe Analytics rely on for its 
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
+| Microsoft&reg; Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
+| Microsoft&reg; Azure CDN | `aauicdnva7.azureedge.net` |
 
 {style="table-layout:auto"}
 

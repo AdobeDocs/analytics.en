@@ -20,7 +20,7 @@ Late arriving hits can be manually enabled by Adobe on individual data feeds. Be
 
 * Data for different days frequently appear in data feeds when late arriving hits are enabled. Make sure the platform that you use to ingest data feeds can accommodate data from different days within the same file.
 * Late arriving hits increases processing time. Typically this delay is less than hour, but can be several hours or more if your report suite receives a large number of late arriving hits. Adobe recommends against enabling this setting if timely arrival for data feeds is imperative to your organization's workflow.
-* If a data feed file is reprocessed, the late arriving hits that were included in the original file are not included in the reprocessed file.
+* If a data feed file is reprocessed, the late arriving hits that were included in the original file are included in the reprocessed file when reprocessing occurs within the first 5 days. After 5 days, late arriving hits are not included in the reprocessed file.
 
 If you would like to enable late arriving hits for an existing recurring data feed, have a supported user contact Customer Care and include the following:
 

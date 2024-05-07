@@ -21,7 +21,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.offlineHitLimit in AppMeasurement and the Analytics extension custom code editor
 
-The `s.offlineHitLimit` variable is an integer representing the maximum number of hits a device stores while they are offline. If this variable is not defined, there is no limit to the number of hits a device stores while offline.
+The `s.offlineHitLimit` variable is an integer representing the maximum number of hits a device stores while they are offline. If this variable is not defined, it defaults to `10`. You can set it to any integer value. When setting high values, be mindful of local storage caps in a visitor's browser. This limit is typically 5 - 10 MB.
 
 ```js
 s.offlineHitLimit = 100;

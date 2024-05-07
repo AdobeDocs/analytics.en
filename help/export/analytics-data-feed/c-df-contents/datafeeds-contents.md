@@ -61,7 +61,7 @@ Datafeed-Manifest-Version: 1.0
 
 Every manifest file contains a header, indicating the total number of lookup files, data files, and total number of records in all data files. This header is followed by multiple sections containing information for each file included in the data feed delivery.
 
-Some feeds are configured to receive a `.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
+Some feeds are configured to receive a `.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but the metadata that it contains is in an older format.
 
 ## Lookup files
 
@@ -101,6 +101,7 @@ Files delivered by Adobe vary based on the type of data feed that you have confi
 * `[YYYY-mm-dd]` refers to the starting day the data feed is for.
 * `[HHMMSS]` is used only in hourly feeds, and refers to the starting hour the data feed is for.
 * `[compression_suffix]` refers to the type of compression used. Typically data feeds are compressed into `tar.gz` or `zip` files.
+* `[format_suffix]` refers to the type of file format. Typically data feed file format is `.tsv`.
 
 ### Daily, single file
 
@@ -116,7 +117,7 @@ After data is collected for a day, you receive one or more compressed data files
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-When extracted, each data file contains a single `hit_data.tsv` that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
+When extracted, each data file contains a single `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
 
 ### Hourly, single file
 
@@ -128,11 +129,11 @@ When extracted, the data file contains a single `hit_data.tsv` file with all dat
 
 ### Hourly, multiple files
 
-After data is collected for an hour, you receive one or more compressed data files and a manifest file. The data file is named:
+After data is collected for an hour, you receive one or more compressed data files and a manifest file. The data files are named:
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-When extracted, each data file contains a single `hit_data.tsv` that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
+When extracted, each data file contains a single `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` file that contains approximately 2GB of uncompressed data, as well as lookup files for any required columns.
 
 ## Data file size
 

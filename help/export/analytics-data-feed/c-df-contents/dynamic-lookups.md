@@ -20,7 +20,7 @@ If you want to receive the lookup files mentioned, you must meet all the followi
   * For `carrier.tsv`, you must include `carrier`.
   * For `mobile_attributes.tsv`, you must include `mobile_id`.
   * For `operating_system_type.tsv`, you must include `os`.
-* The following columns must be **excluded**. If any of these columns are included in the data feed, the additional lookup tables are not included.
+* The following columns must be **excluded**. If any of these columns are included in the data feed, then the `mobile_attributes.tsv` dynamic lookup is not included.
   * `user_agent`
   * `ch_hdr`
   * `ch_js`

@@ -547,3 +547,6 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/virtual-analyst/overview.html,/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection.html
 /docs/analytics/implementation/other/dtm-implementation-overview.html,/docs/analytics/implementation/launch/overview.html
 /docs/analytics/implementation/aep-edge/variable-mapping.html,/docs/analytics/implementation/aep-edge/xdm-var-mapping.html
+/docs/analytics/technotes/rdc/regional-data-collection,/docs/core-services/interface/data-collection/rdc
+/docs/analytics/technotes/rdc/ssl-cert-licensing,/docs/core-services/interface/data-collection/adobe-managed-cert
+/docs/analytics/technotes/rdc/encryption-algos,/docs/core-services/interface/data-collection/adobe-managed-cert

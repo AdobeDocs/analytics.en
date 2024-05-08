@@ -65,7 +65,7 @@ Each created feed shows several columns providing information about it. Select a
   * Deleted: The feed is deleted.
   * Complete: The feed finished processing. A completed feed can be edited, put on hold, or cancelled.
   * Pending: The feed is created but not yet active. Feeds remain in this state for a short transitional time.
-  * Inactive: Equivalent to a 'paused' or 'on hold' state. When the feed is reactivated, it resumes delivering jobs from when it stopped.
+  * Inactive: Equivalent to a 'paused' or 'on hold' state. If a backfill feed (a feed that processes only historical data) is reactivated, it resumes delivering jobs from when it stopped. If a live feed is reactivated, it resumes delivering jobs from when it stopped.
 * **Last Modified**: The date the feed was last modified. Date and time is shown in the report suite's time zone with GMT offset.
 * **Start Date**: The date of the first job for this feed. Date and time is shown in the report suite's time zone with GMT offset.
 * **End Date**: The date of the last job for this feed. Ongoing data feeds do not have an end date.
@@ -78,4 +78,4 @@ Click the checkbox next to a data feed to reveal available actions.
 * **Delete**: Deletes the data feed, setting its status to [!UICONTROL Deleted].
 * **Copy**: Takes you to [create a new feed](create-feed.md) with all settings of the current feed. You cannot copy a data feed if more than one is selected.
 * **Pause**: Stops processing for the feed, setting its status to [!UICONTROL Inactive].
-* **Activate**: Only available for inactive feeds. Picks up processing data right where it left off, backfilling any dates if necessary.
+* **Activate**: Only available for inactive feeds. Backfill feeds (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. Live feeds  resume processing data from the current time. 

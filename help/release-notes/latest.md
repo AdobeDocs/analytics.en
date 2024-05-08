@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (May 2024)
 
-**Last update**: May 7, 2024
+**Last update**: May 8, 2024
 
 These release notes cover the release period of May 14, 2024 through June. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -23,20 +23,16 @@ These release notes cover the release period of May 14, 2024 through June. Adobe
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-347572; AN-347768; 
-* Fixed the following Classifications Rule Builder issues: 
-* Fixed the following Segmentation issue: 
-* Fixed the following Data Warehouse issue: AN-346789; AN-347568;
-* Fixed the following Data Feeds issues: AN-346124; AN-346972; AN-347680; 
+* Fixed the following Classifications issues: AN-343186; AN-344711; AN-344856; AN-345094; AN-345179; AN-346265; AN-345288; AN-346339; AN-346560; AN-347572; AN-347768; 
+* Fixed the following Data Warehouse issues: AN-346789; AN-347031; AN-347568;
+* Fixed the following Data Feeds issues: AN-343616; AN-345831; AN-345988; AN-346124; AN-346232; AN-346972; AN-347680; 
 * Fixed the following Data Sources issue: AN-347890; 
-* Fixed the following Analysis Workspace issues: AN-346839
-* Fixed the following Analytics Admin issues: 
-* Fixed the following A4T issues: 
-* Fixed the following Mobile App issue: 
+* Fixed the following Analysis Workspace issues: AN-321503; AN-343471; AN-345171; AN-345223; AN-345912; AN-346026; AN-346330; AN-346839
+* Fixed the following A4T issue: AN-345118; 
 
 ### Other Analytics fixes
 
-AN-347110; AN-347439; 
+AN-327749; AN-332949; AN-343171; AN-343708; AN-344034; AN-345559; AN-346023; AN-346230; AN-346330; AN-346469; AN-346606; AN-346750; AN-347026; AN-347110; AN-347439; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

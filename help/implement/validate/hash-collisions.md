@@ -7,71 +7,33 @@ role: Admin, Developer
 ---
 # Hash collisions
 
-Adobe treats prop and eVar values as strings, even if the value is a number. Sometimes these strings are hundreds of characters long, other times they are short. To save space, improve performance, and make everything uniformly sized, the strings are not used directly in processing. Instead, a 32-bit or 64-bit hash is computed for each value. All reports run on these hashed values, where each hash is replaced by the original text. Hashes drastically increase the performance of Analytics reports.
+Dimensions in Adobe Analytics collect string values. Sometimes these strings are hundreds of characters long, while other times they are short. To improve performance, these string values are not used directly in processing. Instead, a hash is computed for each value to make all values uniformly sized. All reports run on these hashed values, where each hash is replaced by the original text. Hashes drastically increase the performance of Analytics reports.
 
-For most fields, the string is first converted to all lower case (reducing the number of unique values). Values are hashed on a monthly basis (the first time they are seen each month). From month to month there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
+For most fields, the string is first converted to all lowercase. Lowercase conversion reduces the number of unique values. Values are hashed on a monthly basis - the case for a given value uses the first value seen each month. From month to month there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
 
 Hash collisions can manifest in reporting as follows:
 
-* If you are trending a value and you see a spike for a month, it is likely that another values for that variable got hashed to the same value as the value you are looking at.
-* The same things happens for segments for a specific value.
+* If you trend a value and you see a spike for a month, it is possible that another value for that variable uses the same hash.
+* If you use a segment and see an unexpected value, it is possible that the unexpected dimension item uses the same hash as another dimension item that matched your segment.
 
-## Hash collision example
+## Odds of a hash collision
 
-The likelihood of hash collisions increases with the number of unique values in a dimension. For example, one of the values that come in late in the month could get the same hash value as a value earlier in the month. The following example can help explain how this can cause segment results to change. Suppose eVar62 receives "value 100" on February 18. Analytics will maintain a table that may look like this: 
+Adobe Analytics uses 32-bit hashes for most dimensions, which means that there are 2<sup>32</sup> possible hash combinations (approximately 4.3 billion). A new hash table for each dimension is created each month. The approximate odds of encountering a hash collision based on the number of unique values are as follows. These odds are based on a single dimension for a single month.
 
-<table id="table_6A49D1D5932E485DB2083154897E5074"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62 String Value </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Value 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Value 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Unique values | Odds |
+| --- | --- |
+| 1,000 | 0.01% |
+| 10,000 | 1% |
+| 50,000 | 26% |
+| 100,000 | 71% |
 
-If you build a segment that looks for visits where eVar62="value 500", Analytics determines if "value 500" contains a hash. Because "value 500" does not exist, Analytics returns zero visits. Then, on February 23, eVar62 receives "value 500", and the hash for that is also 123. The table will look like this: 
+Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem), the likelihood of hash collisions drastically increases as the number of unique values increase. At 1 million unique values, it is likely that there are at least 100 hash collisions for that dimension.
 
-<table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62 String Value </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Value 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Value 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Value 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Mitigating hash collisions
 
-When the same segment runs again, it looks for the hash of "value 500", finds 123, and the report returns all visits that contain hash 123. Now, visits that occurred on February 18 will be included in the results.
+Most hash collisions happen with two uncommon values, which has no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to clearly see its effect. Adobe recommends the following to reduce its effect in reports:
 
-This situation can create problems when using Analytics. Adobe continues to investigate ways to reduce the likelihood of these hash collisions in the future. Suggestions to avoid this situation are to find ways to spread the unique values between variables, remove unnecessary values with processing rules, or otherwise reduce the number of values per variable.
+* **Change the date range**: Hash tables are reset each month. Changing the date range to span another month can give each value different hashes that don't collide.
+* **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
+
+<!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

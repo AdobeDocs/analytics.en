@@ -27,6 +27,8 @@ Adobe Analytics uses 32-bit hashes for most dimensions, which means that there a
 | 50,000 | 26% |
 | 100,000 | 71% |
 
+{style="table-layout:auto"}
+
 Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem), the likelihood of hash collisions drastically increases as the number of unique values increases. At 1 million unique values, it is likely that there are at least 100 hash collisions for that dimension.
 
 ## Mitigating hash collisions

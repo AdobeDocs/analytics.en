@@ -7,13 +7,13 @@ role: Admin, Developer
 ---
 # Hash collisions
 
-Dimensions in Adobe Analytics collect string values. Sometimes these strings are hundreds of characters long, while other times they are short. To improve performance, these string values are not used directly in processing. Instead, a hash is computed for each value to make all values uniformly sized. All reports run on these hashed values, where each hash is replaced by the original text. Hashes drastically increase the performance of Analytics reports.
+Dimensions in Adobe Analytics collect string values. Sometimes these strings are hundreds of characters long, while other times they are short. To improve performance, these string values are not used directly in processing. Instead, a hash is computed for each value to make all values a uniform size. All reports run on these hashed values, which drastically increase their performance.
 
-For most fields, the string is first converted to all lowercase. Lowercase conversion reduces the number of unique values. Values are hashed on a monthly basis - the case for a given value uses the first value seen each month. From month to month there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
+For most fields, the string is first converted to all lowercase. Lowercase conversion reduces the number of unique values. Values are hashed on a monthly basis - the case for a given value uses the first value seen each month. From month to month, there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
 
-Hash collisions can manifest in reporting as follows:
+Hash collisions can manifest in reports as follows:
 
-* If you trend a value and you see a spike for a month, it is possible that another value for that variable uses the same hash.
+* If you view a report over time and see an unexpected spike, it is possible that multiple unique values for that variable use the same hash.
 * If you use a segment and see an unexpected value, it is possible that the unexpected dimension item uses the same hash as another dimension item that matched your segment.
 
 ## Odds of a hash collision
@@ -27,13 +27,13 @@ Adobe Analytics uses 32-bit hashes for most dimensions, which means that there a
 | 50,000 | 26% |
 | 100,000 | 71% |
 
-Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem), the likelihood of hash collisions drastically increases as the number of unique values increase. At 1 million unique values, it is likely that there are at least 100 hash collisions for that dimension.
+Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem), the likelihood of hash collisions drastically increases as the number of unique values increases. At 1 million unique values, it is likely that there are at least 100 hash collisions for that dimension.
 
 ## Mitigating hash collisions
 
-Most hash collisions happen with two uncommon values, which has no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to clearly see its effect. Adobe recommends the following to reduce its effect in reports:
+Most hash collisions happen with two uncommon values, which have no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
 
-* **Change the date range**: Hash tables are reset each month. Changing the date range to span another month can give each value different hashes that don't collide.
+* **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don't collide.
 * **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

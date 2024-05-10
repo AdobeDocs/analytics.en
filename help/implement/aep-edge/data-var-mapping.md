@@ -9,7 +9,7 @@ exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 
 The following table shows the data object variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these data object field paths, no additional configuration is necessary to send data to Adobe Analytics.
 
-Use of these fields is recommended if you intend to use Customer Journey Analytics in the future. This implementation method allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) to point data object fields to their respective XDM fields.
+Use of these fields is recommended if you intend to use Customer Journey Analytics in the future. This implementation method allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) to point data object fields to their respective XDM fields.
 
 ## Value priorities
 

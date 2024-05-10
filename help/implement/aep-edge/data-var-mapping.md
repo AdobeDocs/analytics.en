@@ -13,13 +13,13 @@ Use of these fields is recommended if you intend to use Customer Journey Analyti
 
 ## Value priorities
 
-Most data object fields in this table coincide with a [mapped XDM field](xdm-var-mapping.md). If you set both a given `data` object field and its respective XDM field, the data object field takes priority. If you use both the XDM object field and the data object field, Adobe recommends setting custom events using the data object field. If the field `data.__adobe.analytics.events` is present, it overwrites all XDM object fields related commerce and custom events.
+Most data object fields in this table coincide with a [mapped XDM field](xdm-var-mapping.md). If you set both a given data object field and its respective XDM field, the data object field takes priority. For example, if the field `data.__adobe.analytics.events` is present, it overwrites all event-related XDM object fields.
 
 Some data object fields also support their respective [Query parameter value](../validate/query-parameters.md) as shorthand values. You can use standard data object fields and shorthand data object fields interchangeably, as long as they are each for unique variables. Avoid setting both a standard data object field and its respective shorthand data object field at the same time. Adobe cannot guarantee which field takes priority.
 
 ## Data object field mapping
 
-Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md).
+Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Similarly to AppMeasurement variables, all data object fields are case-sensitive.
 
 | Data object field path | Analytics variable and description |
 | --- | --- |

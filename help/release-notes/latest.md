@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (May 2024)
 
-**Last update**: May 9, 2024
+**Last update**: May 10, 2024
 
 These release notes cover the release period of May 14, 2024 through June. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -18,7 +18,7 @@ These release notes cover the release period of May 14, 2024 through June. Adobe
 | **Analytics Real-time Reporting 2.0 API** | The new Real-time Reporting API 2.0 in Adobe Analytics improves customer integration and provides rapid reporting results. These results can be used programmatically to work with basic, trended, and breakdown reports. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | May 30, 2024 | 
 | **Streaming Media: Send web data to Adobe Experience Platform Edge Network with the Web SDK** | You can now use the Adobe Experience Platform Web SDK to send Streaming Media web data to Adobe Experience Platform Edge Network, allowing you to build more personalized campaigns and provide more personalized content, resulting in more tracking data to report on.<p>This enhancement provides a unified collection method for web implementations across all Platform solutions, such as Customer Journey Analytics, RT-CDP, AJO, and Event Forwarding. Previously, the only way to send Streaming Media web data to Edge Network was by using the Media Edge API. [Learn more](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | May 31, 2024 |
 | **Increase in default low-traffic thresholds**| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul> | Mid April, 2024 | May 31, 2024  |
-| **Activity Map to use fewer server calls for Web SDK** | Currently, Activity Map link events are counted as their own events and incur extra cost. This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement. (Documentation to follow) |  | May 31, 2024 |
+| **Activity Map to use fewer server calls for Web SDK** | Currently, Activity Map link events are counted as their own events and incur extra cost. This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement. (Documentation to follow) | Beta to start May 31, 2024 | TBD |
 
 {style="table-layout:auto"}
 
@@ -39,6 +39,7 @@ AN-327749; AN-332949; AN-343171; AN-343708; AN-344034; AN-345559; AN-346023; AN-
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| **ISO region updates** | May 10, 2024 | Adobe will perform 2024 ISO region updates on June 7, 2024. Expect to see minor geo information (region) updates following this release. |
 | **13-month expiration of saved `cust_visids`**  | March 20, 2024 | An upcoming release of the Analytics Hit processing engine, targeted for April or May, will start enforcing a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Currently, there is no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. | 
 
 {style="table-layout:auto"}

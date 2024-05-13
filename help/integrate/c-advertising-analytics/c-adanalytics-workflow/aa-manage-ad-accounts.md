@@ -8,7 +8,7 @@ exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 
-![](assets/manage_ad_accounts.png)
+![Advertising Accounts](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Add </p> </td> 
-   <td colname="col2"> <p>Takes you to the <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> UI. </p> </td> 
+   <td colname="col2"> <p>Takes you to the <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Set Up Advertising Account</a> UI. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rename </p> </td> 
@@ -36,7 +36,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pause </p> </td> 
-   <td colname="col2"> <p>Deactivates the account. To activate it again, click <span class="uicontrol"> Activate</span>. </p> </td> 
+   <td colname="col2"> <p>Deactivates the account. To activate it again, select <span class="uicontrol">Activate</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Column Headers</b> </p> </td> 
@@ -48,11 +48,11 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites </p> </td> 
-   <td colname="col2"> <p>The report suite/s mapped to this advertising account. </p> </td> 
+   <td colname="col2"> <p>The report suites mapped to this advertising account. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>We currently support only one type: Search. </p> </td> 
+   <td colname="col2"> <p>Only one type us supported: Search. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account </p> </td> 

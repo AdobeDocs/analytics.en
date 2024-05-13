@@ -12,7 +12,12 @@ Here are instructions on helping you to locate your account IDs for Google and B
 
 >[!IMPORTANT]
 >
->Google AdWords uses two types of accounts: a) MCC (My Client Center) Account and b) Standard Account. For this integration with Adobe Analytics, **you must use a Standard Account login, not an MCC Account login**. The reason is that an MCC account acts as an "umbrella" account that can access multiple AdWords accounts with a single login, whereas the Standard account login can access only one AdWords account per login. Whereas Google supports linking one email to manage 5 Accounts, Advertising Analytics doesn't support this feature yet. One email can be linked with one Adwords account only.
+>Google AdWords uses two types of accounts: 
+>
+>- MCC (My Client Center) Account, and 
+>- Standard Account. 
+>
+>For this integration with Adobe Analytics, **you must use a Standard Account login**, not an MCC Account login. The reason is that an MCC account acts as an "umbrella" account that can access multiple AdWords accounts with a single login, whereas the Standard account login can access only one AdWords account per login. Whereas Google supports linking one email to manage 5 Accounts, Advertising Analytics doesn't support this feature yet. One email can be linked with one Adwords account only.
 
 Click the Account icon on the top right to view the AdWords account number (Customer ID).
 
@@ -22,7 +27,7 @@ Click the Account icon on the top right to view the AdWords account number (Cust
 
 >[!NOTE]
 >
->If your Bing account is utilizing the Google import feature, be sure to update the correct tracking string. The tracking string will not automatically update from the Google version to the correct Bing tracking string and may result in unspecified data. More details on the feature can be found [here](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>If your Bing account is using the Google import feature, be sure to update the correct tracking string. The tracking string is not automatically updated from the Google version to the correct Bing tracking string and may result in unspecified data. More details on the feature can be found [here](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
 The Account ID and Customer ID are both required. They are listed on the Accounts tab.
 

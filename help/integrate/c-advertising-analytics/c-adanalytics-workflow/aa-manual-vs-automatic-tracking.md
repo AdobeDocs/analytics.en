@@ -52,7 +52,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Examples of tracking codes in various tracking template formats: 
 
@@ -100,7 +100,7 @@ The string that needs to be added to your Bing account is shown below. You need 
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Examples of tracking codes in various final URL suffix formats: 
 

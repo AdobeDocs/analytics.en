@@ -161,7 +161,7 @@ The Web SDK sends that data to Adobe Analytics as the context data variable `a.x
 
 ## Explicit mapping
 
-You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped is sent to Adobe Analytics as Context Data with the prefix `a.c.` You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
+You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped, using the `contextData` element, is sent to Adobe Analytics as Context Data without a prefix. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
 
 ```js
 alloy("event",{
@@ -177,6 +177,6 @@ alloy("event",{
 })
 ```
 
-The Web SDK sends that data to Adobe Analytics as the context data variable `a.c.somevalue` with value `1`.  You can then use a processing rule to assign that context data variable value to the desired Analytics variable, such as an `eVar`:
+The Web SDK sends that data to Adobe Analytics as the context data variable `somevalue` with value `1`.  You can then use a processing rule to assign that context data variable value to the desired Analytics variable, such as an `eVar`:
 
  ![Search term processing rule](assets/examplerule-explicit.png)

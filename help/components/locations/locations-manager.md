@@ -99,3 +99,32 @@ To view keys associated with an export account:
 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location accounts**] tab.
 
 1. Select the 3-dot icon on the account that you want to edit, then select [!UICONTROL **Delete account**]
+
+## Configure company-wide settings (administrator only)
+
+System administrators can control whether users can create accounts and locations, as well as the types of accounts users can create. 
+
+### Configure whether users can create locations
+
+By default, all users in the organization can create locations in your Adobe Analytics environment, as described in [configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
+To restrict all users from creating locations and accounts:
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Admin settings**] tab.
+
+1. In the [!UICONTROL **Locations**] section, deselect the option, [!UICONTROL **Allow users to create and manage locations**].
+
+### Configure whether users can create accounts
+
+By default, all users in the organization can create accounts in your Adobe Analytics environment, as described in [configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
+
+To restrict all users from creating locations and accounts:
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Admin settings**] tab.
+
+1. In the [!UICONTROL **Locations accounts**] section, deselect the option, [!UICONTROL **Allow users to create and manage location accounts**].
+
+### Configure which accounts types users can create
+
+By default, users can created the 
+

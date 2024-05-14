@@ -19,7 +19,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **May 2024** | |
+| New documentation for upgrading from Adobe Analytics to Customer Journey Analytics | For organizations upgrading from Adobe Analytics to Customer Journey Analytics, there are multiple upgrade options and many considerations to keep in mind based on an organization's current Adobe Analytics implementation and long-term goals.<p>New documentation resources are now available to help you better understand:</p><ul><li>The various upgrade paths that exist</li><li>Which upgrade paths are available based on an organization's current Adobe Analytics implementation</li><li>The advantages and disadvantages of each upgrade path</li><li>Step-by-step guidance for each upgrade path</li><li>Considerations for handling historical data</li><li>And more!</li></ul><p>[Get started with the upgrade to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Updated documentation about custom date ranges |  Updated screenshots and procedures related to [creating custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in order to match the current product features and design.  | 
 | **April 2024** | |
+| Removed documentation related to "Owner" in Classification sets |  The "Owner" filter and column was removed from the [Classification set manager](/help/components/classifications/sets/manage/set-manager.md) and the "Owner" field was removed from the [Classification set settings](/help/components/classifications/sets/manage/settings.md). <p>The documentation was updated to remove this filter, column, and field.</p>  | 
 | Removed collapsible sections in documentation about configuring cloud import and export locations | Removed collapsible sections in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md) for information explaining cloud account types. | 
 | **March 2024** | |
 | AppMeasurement update | [Release notes](/help/implement/appmeasurement-updates.md) on AppMeasurement update v2.26.0.<br/>Includes reference to and update of [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) config variable documentation. | 
@@ -143,7 +147,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | New topic on [!UICONTROL Page Summary] panel | [Page summary panel](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | New topic on [!UICONTROL Next/Previous item] panel | [Next/previous dimension item panel](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **March 2022** | |
-| New topic on supported HTTPS encryption algorithms | [Supported HTTPS encryption algorithms](/help/technotes/rdc/encryption-algos.md) for customers with cipher security level set to "High". |
+| New topic on supported HTTPS encryption algorithms | Supported HTTPS encryption algorithms for customers with cipher security level set to "High". |
 | New documentation on Annotations in Workspace | [Annotations in Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) enable you to effectively communicate contextual data nuances and insights to your organization. |
 | Adobe Analytics landing page updates | [Updates](/help/analyze/landing.md) to the joint Workspace/Reports & Analytics landing page that improves usability and ease of navigation. |
 | [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
@@ -289,7 +293,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 | April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| March 14, 2019 | Major Update to [Regional Data Collection](/help/technotes/rdc/regional-data-collection.md). |
+| March 14, 2019 | Major Update to Regional Data Collection. |
 | February 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | February 1, 2019 | Major update to the [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) implementation plug-in. |
 | January 17, 2019 | [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Major improvements to Cohort Analysis let you:<ul><li>Apply a segment inclusion and return metrics separately. </li><li>Show churn instead of retention.</li><li>Show latency tables (time elapsed before and after an inclusion event).</li><li>Customize cohort dimension (to group visitors based on an eVar, not just time).</li><li>Do a rolling cohort calculation: calculate retention/churn based on prior time period, not original cohort. </li><li>Add in multiple metrics in inclusion & return fields, as well as apply segments. (Calculated metrics are not supported)</li></ul> |

@@ -154,15 +154,17 @@ You can limit the account types users see in the following circumstances:
 
 * When choosing which accounts to use when exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md), exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), or importing schemas using [Classification sets](/help/components/classifications/sets/overview.md).  
 
-When you limit account types as described in this section, any accounts of the type that you limit are no longer visible to users. This means that new accounts of that type cannot be created, and existing accounts of that type cannot be used for Data Feeds, Data Warehouse, or Classification sets. 
+When you limit account types as described in this section, any accounts of the type that you limit are no longer visible to users. This means that new accounts of that type cannot be created, and existing accounts of that type cannot be used when creating Data Feeds, Data Warehouse, or Classification sets. 
+
+However, existing accounts that are configured for scheduled exports must be deleted if you want to restrict them from being used.
 
 #### Ensure that accounts are not used for scheduled exports
 
-When you limit account types, existing accounts are not deleted. 
+When you limit account types, existing accounts are hidden, not deleted. 
 
 If schedules are already configured to send data to an account that is of the type that you limit (for example, through a Data Feed), the schedules will continue to function even after you limit the account type, and data will continue to be sent to the account. 
 
-If you need to ensure that accounts of a certain type are not used in scheduled exports, you can delete the accounts (before you [limit the account types](#limit-the-account-types-that-are-available-to-users), as described in the following section).
+If you need to ensure that accounts of a certain type are not used in scheduled exports, you can delete the accounts before you [limit the account types](#limit-the-account-types-that-are-available-to-users).
 
 To delete accounts:
 
@@ -197,8 +199,5 @@ To limit the account types that are available to users when creating and using a
    * Legacy account types, including [!UICONTROL **Amazon S3**], [!UICONTROL **Azure**], [!UICONTROL **FTP**], and [!UICONTROL **SFTP**]
 
 1. Select [!UICONTROL **Save**].
-
-1. (Optional) If you need to make sure that existing accounts are not used, see continue with [Ensure that accounts are not used for scheduled exports](#ensure-that-accounts-are-not-used-for-scheduled-exports).
-
 
 

@@ -100,30 +100,24 @@ A high-level overview of the implementation tasks:
 
 <tr>
 <td>2</td>
-<td><b>Setup schemas</b>. To standardize data collection for use across applications that leverage Adobe Experience Platform, Adobe has created the open and publicly documented standard, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html">Schemas UI overview</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Install the Adobe Analytics extension</b> in the mobile tag property and configure the extension to point to your report suite.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Adobe Analytics extension for mobile property</a>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td><b>Use code in your app</b> to register the necessary extensions and load your tag configuration.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Set up the configuration</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Implement and test functionality</b> using combination of tag's data elements, rules, additional extensions, and SDK API calls in your app. Inspect, validate, and debug data collection and experiences for your mobile application.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Use the sample application</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Extend and validate your mobile app implementation</b> before pushing it out to production.</td>
 <td></td> 
 </tr>

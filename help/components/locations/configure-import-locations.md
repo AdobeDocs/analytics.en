@@ -25,6 +25,7 @@ You must configure Adobe Analytics with the necessary information to access your
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View locations for all users**] option to view locations created by all users in your organization. <!-- Maybe add a screenshot? This is new functionality -->
 1. To create a new location, select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
    
    Or

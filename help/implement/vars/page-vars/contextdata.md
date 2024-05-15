@@ -13,7 +13,7 @@ Context data variables are helpful for development teams to collect data in name
 
 ## Context data variables using the Web SDK
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can then using [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can also explicity set context data using the XDM object. You can then use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.  See [Mapping other XDM fields to Analytics variables](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) for more information.
 
 If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all context data variables reside within `data.__adobe.analytics.contextData` as key-value pairs:
 
@@ -58,8 +58,8 @@ s.contextData["example_variable"] = "Example value";
 >Context data variables are discarded after processing rules run. If you do not have processing rules active that place values into variables, that data is permanently lost!
 
 1. Update your implementation to set context data variable names and values.
-2. Log in to Adobe Analytics and go to Admin > Report Suites.
-3. Select the desired report suite, then go to Edit Settings > General > Processing Rules.
+2. Log in to Adobe Analytics and go to **[!UICONTROL Admin]** > **[!UICONTROL Report]** Suites.
+3. Select the desired report suite, then go to **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 4. Create a processing rule that sets an Analytics variable to the context data variable value.
 5. Save changes.
 

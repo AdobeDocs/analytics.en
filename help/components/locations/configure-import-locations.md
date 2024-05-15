@@ -9,6 +9,10 @@ exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
+>[!NOTE]
+>
+>System administrators can restrict users from creating locations, as described in [Configure whether users can create locations](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). If you can't create locations as described in this section, contact your system administrator.
+
 You can configure a cloud account (and a location on that account). A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes, such as Data Feeds and Data Warhouse, or Data Warehouse and Classification sets):
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
@@ -137,6 +141,23 @@ To configure an Azure RBAC location, specify the following information:
    >[!NOTE]
    >
    >   If you previously used [FTP to import classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) to Adobe Analytics, you needed to upload a FIN file. This FIN file is not needed when importing from cloud accounts.
+
+### Email
+
+To configure an email location, specify the following information:
+
+1. [Begin creating or editing a cloud export location](#begin-creating-or-editing-a-cloud-export-location), as described above.
+
+   |Field | Function | 
+   |---------|----------|
+   | [!UICONTROL **Subject**] | The subject of the email message. | 
+   | [!UICONTROL **Notes**] | The content of the email message. |
+
+   {style="table-layout:auto"}
+
+1. Select [!UICONTROL **Save**].
+
+   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)). 
 
 ### Legacy account types
 

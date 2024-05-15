@@ -100,19 +100,9 @@ To view keys associated with an export account:
 
 1. Select the 3-dot icon on the account that you want to edit, then select [!UICONTROL **Delete account**]
 
-## Configure company-wide settings (administrator only)
+## Configure company-wide settings (administrators only)
 
-System administrators can control whether users can create accounts and locations, as well as the types of accounts users can create. 
-
-### Configure whether users can create locations
-
-By default, all users in the organization can create locations in your Adobe Analytics environment, as described in [configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
-
-To restrict all users from creating locations and accounts:
-
-1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Admin settings**] tab.
-
-1. In the [!UICONTROL **Locations**] section, deselect the option, [!UICONTROL **Allow users to create and manage locations**].
+System administrators can restrict users from creating accounts and locations, or they can limit the types of accounts users can create. 
 
 ### Configure whether users can create accounts
 
@@ -124,7 +114,45 @@ To restrict all users from creating locations and accounts:
 
 1. In the [!UICONTROL **Locations accounts**] section, deselect the option, [!UICONTROL **Allow users to create and manage location accounts**].
 
+1. Select [!UICONTROL **Save**].
+
+### Configure whether users can create locations
+
+By default, all users in the organization can create locations in your Adobe Analytics environment, as described in [configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+
+To restrict all users from creating locations and accounts:
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Admin settings**] tab.
+
+1. In the [!UICONTROL **Locations**] section, deselect the option, [!UICONTROL **Allow users to create and manage locations**].
+
+1. Select [!UICONTROL **Save**].
+
 ### Configure which accounts types users can create
 
-By default, users can created the 
+By default, users can create accounts in your Adobe Analytics environment, as described in [configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). Many account types are available by default, such as Amazon S3 Role ARN, Google Cloud Platform, and more. 
+
+To limit the account types that are available to users when creating accounts:
+
+1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Admin settings**] tab.
+
+1. Locate the [!UICONTROL **Permitted account types**] section.
+
+   The following account types are available to users by default. 
+  
+   Deselect any of these account types that you want to restrict users from using. 
+  
+   * [!UICONTROL **Amazon S3 Role ARN**]
+
+   * [!UICONTROL **Google Cloud Platform**]
+
+   * [!UICONTROL **Azure SAS**]
+
+   * [!UICONTROL **Azure RBAC**]
+
+   * [!UICONTROL **Email**]
+
+   * Legacy account types, including [!UICONTROL **Amazon S3**], [!UICONTROL **Azure**], [!UICONTROL **FTP**], and [!UICONTROL **SFTP**]
+
+1. Select [!UICONTROL **Save**].
 

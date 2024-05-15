@@ -9,6 +9,10 @@ exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
+>[!NOTE]
+>
+>System administrators can restrict users from creating accounts, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.
+
 You can configure a cloud account that is used for any or all of the following purposes:
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
@@ -38,7 +42,7 @@ To configure a cloud import or export account:
    |---------|----------|
    | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
    | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. | 
+   | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account.<p>System administrators can limit the account types that users can create, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</p> | 
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
    For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. (Additional legacy account types are also available, but are not recommended.)
@@ -94,6 +98,22 @@ To configure a cloud import or export account:
       | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
       | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
       | [!UICONTROL **Location account secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+
+      {style="table-layout:auto"}
+
+   +++
+
+   +++Email
+
+      >[!NOTE]
+      >
+      >Email accounts can be used only with [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email accounts are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)).
+      
+      To configure an Azure RBAC account, specify the following information:
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. | 
 
       {style="table-layout:auto"}
 

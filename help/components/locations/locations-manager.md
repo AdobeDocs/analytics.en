@@ -112,7 +112,7 @@ To view keys associated with an export account:
 
 ## Configure company-wide settings (administrators only)
 
-System administrators can restrict users from creating accounts and locations, or they can limit the types of accounts users can create. 
+System administrators can restrict users from creating accounts and locations, or they can limit the types of accounts users can create and use. 
 
 ### Configure whether users can create and edit accounts
 
@@ -162,7 +162,7 @@ However, existing accounts that are configured for scheduled exports must be del
 
 When you limit account types, existing accounts are hidden, not deleted. 
 
-If schedules are already configured to send data to an account that is of the type that you limit (for example, through a Data Feed), the schedules will continue to function even after you limit the account type, and data will continue to be sent to the account. 
+If schedules are already configured to send data to an account that is of the type that you limit, the schedules will continue to run even after you limit the account type, and data will continue to be sent to the account.  For example, if a Data Feed is scheduled to send data to an account type that you limit, the schedule will continue to run.
 
 If you need to ensure that accounts of a certain type are not used in scheduled exports, you can delete the accounts before you [limit the account types](#limit-the-account-types-that-are-available-to-users).
 

@@ -43,8 +43,6 @@ It is also acceptable to use `"namespaceId": 10` instead of or in addition to `"
 }
 ```
 
-Deprecated form:
-
 The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn't have enough digits.
 
 ## Identity Service cookie
@@ -110,6 +108,6 @@ You can also see namespaces that you have previously defined for other variables
 
 >[!CAUTION]
 >
->The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
+>The namespaces `visitorId` and `customVisitorId` are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
 For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

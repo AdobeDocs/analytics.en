@@ -29,12 +29,12 @@ Suppose you have the following hit data:
 
 ## Sample Access request {#access}
 
-If I submit an access request, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true.
+If you submit an access request, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are returned only if a person ID is used and `expandIds` is true.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API Values</th>
-    <th rowspan="2">Returned<br>File Type</th>
+    <th rowspan="2">Summary<br/>file type<br/>returned</th>
     <th colspan="5" style="text-align:center">Data in Summary Access File</th>
   </tr>
   <tr>
@@ -211,7 +211,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 >[!NOTE]
 >
->Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
+>Only columns on rows containing `AAID=77` and a `DEL-DEVICE` label are impacted.
 
 <table>
   <tr>
@@ -284,7 +284,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 >[!NOTE]
 >
->Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice, the variable containing A_ID would probably be a prop or an eVar. Its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+>Only celcolumnsls on rows containing `user=Mary` and a `DEL-PERSON` label are impacted. Also, in practice, the variable containing `A_ID` would probably be a prop or an eVar. Its replacement value would be a string starting with `Privacy-`, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 <table>
   <tr>

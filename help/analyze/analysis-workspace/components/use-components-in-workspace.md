@@ -40,9 +40,29 @@ Components in Analysis Workspace consist of dimensions, metrics, segments, and d
 
 ## Add dimensions to a project
 
-Dimensions are variables in Adobe Analytics that typically contain string values. Common dimensions include [Page](page.md), [Referring domain](referring-domain.md), or an [eVar](evar.md). In contrast, [metrics](../metrics/overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+[Dimensions](/help/components/dimensions/overview.md) are variables in Adobe Analytics that typically contain string values. Common dimensions include [Page](page.md), [Referring domain](referring-domain.md), or an [eVar](evar.md). In contrast, [metrics](../metrics/overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
 
 1. Start adding a dimension to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Do any of the following to add dimensions and determine the type of data you want to analyze:
+
+   * Drag an individual segment from the left rail onto the segment drop zone.
+
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+   * Hold the Shift or Ctrl key to select multiple segments in the left rail, then hold the Shift key as you drop them onto the segment drop zone.
+
+     ![drop multiple segments in the drop zone](assets/segment-dropzoone-multiple.png)
+
+     This allows users of the panel to choose the filter they want to apply from the drop-down menu. Users can select the [!UICONTROL **No filter**] option to leave the panel unfiltered. If you remove the [!UICONTROL **No filter**] option by selecting the (x), then a filter is required.
+
+   * Create ad hoc segments by dragging non-segment components onto the drop zone. This can save you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+
+     Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
+
+     For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+
+For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Add metrics to a project
 

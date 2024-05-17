@@ -17,7 +17,7 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
 1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. (First-time use only) Accept the terms of the End User License Agreement.
 1. Select **[!UICONTROL + Add]**.
-1. The [!UICONTROL New search engine setting] dialog displays:
+1. The [!UICONTROL New search engine setting] dialog displays.
 
    ![](assets/aa-new-se-account.png)
 

@@ -1,0 +1,107 @@
+---
+description: Learn how to add components to a project in Analysis Workspace
+title: Use components in Analysis Workspace
+feature: Workspace Basics
+role: User, Admin
+---
+# Use components in Analysis Workspace
+
+Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag into a project. For overview information about the types of components you can add, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+
+[Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) make up the actual data of any project. You can add components to visualizations or to panels.
+
+>[!TIP]
+>
+>For information about each component, select the Info icon next to a component's name in the left rail, or see the [Analytics Components Guide](/help/components/home.md).
+
+## Begin adding components to a project
+
+1. Before you can add a component to your project, you first need to [add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project. Components must be added to either a panel or a visualization within your Analysis Workspace project.
+
+1. Select the **[!UICONTROL Components]** icon in the left rail.
+
+   ![](assets/build-components.png)
+
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
+
+   For example, you can drag a segment to the segment drop zone in a panel header.
+
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+1. For more detailed information, continue with one of the following sections, depending on the component type you are adding:
+
+   * [Add dimensions to a project](#add-dimensions-to-a-project)
+
+   * [Add metrics to a project](#add-metrics-to-a-project)
+
+   * [Add segments to a project](#add-segments-to-a-project)
+
+   * [Add date ranges to a project](#add-date-ranges-to-a-project)
+
+## Add dimensions to a project
+
+Dimensions are variables in Adobe Analytics that typically contain string values. Common dimensions include [Page](page.md), [Referring domain](referring-domain.md), or an [eVar](evar.md). In contrast, [metrics](../metrics/overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+
+1. Start adding a dimension to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+## Add metrics to a project
+
+[Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md) allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
+
+To add a metric to a project in Analysis Workspace:
+
+1. Start adding a metric to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Do any of the following to add a metric in Analysis Workspace:
+
+   * Drag a metric to an empty Freeform table to see that metric trended over the project's date period. 
+
+   * Drag a metric when a dimension is present to see that metric compared to each dimension item. 
+
+   * Drag a metric on top of an existing metric header to replace it.
+
+   * Drag a metric next to a header to see both metrics side-by-side.
+
+For more information about how to use metrics in Analysis Workspace, see [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+
+## Add segments to a project
+
+[Segments](/help/components/segmentation/seg-overview.md) allow you to identify subsets of visitors based on characteristics or specific interactions.
+
+To add a segment to a project in Analysis Workspace:
+
+1. Start adding a segment to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Do any of the following to begin filtering your panel:
+
+   * Drag an individual segment from the left rail onto the segment drop zone.
+
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+   * Hold the Shift or Ctrl key to select multiple segments in the left rail, then hold the Shift key as you drop them onto the segment drop zone.
+
+     ![drop multiple segments in the drop zone](assets/segment-dropzoone-multiple.png)
+
+     This allows users of the panel to choose the filter they want to apply from the drop-down menu. Users can select the [!UICONTROL **No filter**] option to leave the panel unfiltered. If you remove the [!UICONTROL **No filter**] option by selecting the (x), then a filter is required.
+
+   * Create ad hoc segments by dragging non-segment components onto the drop zone. This can save you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+
+     Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
+
+     For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+
+For more information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+## Add date ranges to a project
+
+[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project.
+
+Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left rail:
+
+1. Start adding a date range to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+
+1. Drag a date range from the left rail onto the current date range in the upper-right portion of the panel.
+
+     ![drop a date range](assets/daterange-drop.png)
+
+For more information about how to use calendars and date ranges in Analysis Workspace, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).

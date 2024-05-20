@@ -48,7 +48,9 @@ For overview information about the types of components you can add, see [Compone
 
 1. Choose one of the following methods to add dimensions and determine the type of data you want to analyze:
 
-   * Drag one or more dimensions to a visualization (such as a freeform table) in Analysis Workspace.
+   * Drag a dimension to a visualization (such as a freeform table) in Analysis Workspace.
+
+     ![Add dimensions to a project](assets/add-dimensions.png)
    
    * Drag one or more dimensions from the left rail onto the segment drop zone to create an ad hoc segment, as described in [Add segments to a project](#add-segments-to-a-project).
 
@@ -66,7 +68,9 @@ To add a metric to a project in Analysis Workspace:
 
 1. Choose one of the following methods to add a metric in Analysis Workspace:
 
-   * Drag a metric to an empty Freeform table to see that metric trended over the project's date period. 
+   * Drag a metric to the metric drop zone in an empty Freeform table to see that metric trended over the project's date period. 
+
+     ![Add a metric to a project](assets/add-metrics.png)
 
    * Drag a metric when a dimension is present to see that metric compared to each dimension item. 
 

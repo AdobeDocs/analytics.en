@@ -27,9 +27,11 @@ To create a quick segment:
 
 1. Choose one of the following methods to begin creating the quick segment:
 
-   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the drop zone next to the **Segment** icon in the panel header, then select the **Edit** icon to adjust the segment.
-
-     ![Edit ad hoc segment](assets/filter-adhoc-edit.png)
+   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the segment drop zone in the panel header.
+   
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+     
+     You can edit the segment as described in [Edit quick segments](#edit-quick-segments).
 
       >[!NOTE]
       >

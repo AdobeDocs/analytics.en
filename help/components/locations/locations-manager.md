@@ -67,13 +67,15 @@ For information about how to edit a location, see [Configure cloud import and ex
 >
 >If you delete a location, you should [edit your Data Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse reports](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), and [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) to use a functioning location. 
 
-To delete a location:
+To delete a location in the Locations manager in Adobe Analytics:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Locations**] tab.
 
 1. Select the 3-dot menu in the [!UICONTROL **Location name**] column for the location that you want to delete.
 
 1. Select [!UICONTROL **Delete**]. 
 
-## Edit accounts
+## Edit an account
 
 1. To edit accounts in the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location accounts**] tab.
 
@@ -94,7 +96,7 @@ To view keys associated with an export account:
 
 1. Select the 3-dot icon on the account that you want to edit, then select [!UICONTROL **Account keys**].
 
-## Delete accounts
+## Delete an account
 
 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location accounts**] tab.
 

@@ -6,17 +6,19 @@ role: User, Admin
 ---
 # Use components in Analysis Workspace
 
-Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag into a project. For overview information about the types of components you can add, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Components make up the actual data of any project in Analysis Workspace. Components consist of dimensions, metrics, segments, and date ranges. You can add components to a project by dragging them into visualizations or panels.
 
-[Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) make up the actual data of any project. You can add components to visualizations or to panels.
+For overview information about the types of components you can add, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 >[!TIP]
 >
->For information about each component, select the Info icon next to a component's name in the left rail, or see the [Analytics Components Guide](/help/components/home.md).
+>For information about each component, select the Info icon next to a component's name in the left rail of Analysis Workspace, or see the [Analytics Components Guide](/help/components/home.md).
 
 ## Begin adding components to a project
 
-1. Before you can add a component to your project, you first need to [add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project. Components must be added to either a panel or a visualization within your Analysis Workspace project.
+1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. 
+
+   If you add a component to a blank project, a freeform table visualization is automatically created.
 
 1. Select the **[!UICONTROL Components]** icon in the left rail.
 
@@ -44,23 +46,13 @@ Components in Analysis Workspace consist of dimensions, metrics, segments, and d
 
 1. Start adding a dimension to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. Do any of the following to add dimensions and determine the type of data you want to analyze:
+1. Choose one of the following methods to add dimensions and determine the type of data you want to analyze:
 
-   * Drag an individual segment from the left rail onto the segment drop zone.
+   * Drag one or more dimensions to a visualization (such as a freeform table) in Analysis Workspace.
+   
+   * Drag one or more dimensions from the left rail onto the segment drop zone to create an ad hoc segment, as described in [Add segments to a project](#add-segments-to-a-project).
 
      ![drop a segment in the drop zone](assets/segment-dropzone.png)
-
-   * Hold the Shift or Ctrl key to select multiple segments in the left rail, then hold the Shift key as you drop them onto the segment drop zone.
-
-     ![drop multiple segments in the drop zone](assets/segment-dropzoone-multiple.png)
-
-     This allows users of the panel to choose the filter they want to apply from the drop-down menu. Users can select the [!UICONTROL **No filter**] option to leave the panel unfiltered. If you remove the [!UICONTROL **No filter**] option by selecting the (x), then a filter is required.
-
-   * Create ad hoc segments by dragging non-segment components onto the drop zone. This can save you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
-
-     Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
-
-     For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
@@ -72,7 +64,7 @@ To add a metric to a project in Analysis Workspace:
 
 1. Start adding a metric to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. Do any of the following to add a metric in Analysis Workspace:
+1. Choose one of the following methods to add a metric in Analysis Workspace:
 
    * Drag a metric to an empty Freeform table to see that metric trended over the project's date period. 
 
@@ -92,7 +84,7 @@ To add a segment to a project in Analysis Workspace:
 
 1. Start adding a segment to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. Do any of the following to begin filtering your panel:
+1. Choose one of the following methods to begin filtering your panel:
 
    * Drag an individual segment from the left rail onto the segment drop zone.
 
@@ -102,7 +94,9 @@ To add a segment to a project in Analysis Workspace:
 
      ![drop multiple segments in the drop zone](assets/segment-dropzoone-multiple.png)
 
-     This allows users of the panel to choose the filter they want to apply from the drop-down menu. Users can select the [!UICONTROL **No filter**] option to leave the panel unfiltered. If you remove the [!UICONTROL **No filter**] option by selecting the (x), then a filter is required.
+     This creates a drop-down menu, which allows users of the panel to choose the filter they want to apply. The drop-down menu contains a [!UICONTROL **No filter**] option that users can select, which leaves the panel unfiltered. 
+     
+     You can select the (x) to remove any option from the drop-down menu. If you remove the [!UICONTROL **No filter**] option, then a filter is required.
 
    * Create ad hoc segments by dragging non-segment components onto the drop zone. This can save you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
 

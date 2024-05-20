@@ -190,3 +190,40 @@ function linkCode(obj) {
   }
 }
 ```
+
+# Use the `tl()` method with Activity Map
+
+You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
+
+## Tracking custom elements
+
+Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. Using `tl()`, you can track any custom elements that do not result in a page load.
+
+In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. is now also used to identify the Link ID for the Activity Map variable.
+
+```js
+s.tl([Link object],[Link type],[Link name],[Override variable]);
+```
+
+In other words, if you use `tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (Link name) in the `tl()` method. It is not pulled from the standard link tracking algorithm that is used for [default tracking](activitymap-link-tracking-methodology.md) in Activity Map.
+
+## Overlay rendering for dynamic content
+
+When the `tl()` method is called directly from the HTML element's on-click event, Activity Map can display an overlay for that element when the web page is loaded. Example:
+
+```html
+<a href="javascript:" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. Then a new link collection process is triggered from Activity Map.
+
+When the `tl()` method is not called directly from the HTML element's on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
+
+```html
+<a href="javascript:" onclick="someFn(event);">Example link text</a>
+<script>function someFn (event)
+{
+  s.tl(event.srcElement,'o','Example custom link');
+}
+</script>
+```

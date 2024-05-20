@@ -1,0 +1,45 @@
+---
+description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
+title: Link tracking methodology
+uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
+feature: Activity Map
+role: User, Admin
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+---
+# Link tracking methodology
+
+This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
+
+>[!IMPORTANT]
+>
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) or by excluding ActivityMap link collection with s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions. For more information on how Activity Map may be collecting PII data, go [here](/help/analyze/activity-map/lnk-tracking-overview.md).
+
+Activity Map bases its link tracking on these two IDs:
+
+* Primary ID: this is the recognizable parameter of the link.
+* Link Region: this is a secondary parameter that allows users to specify a string that is representative of the overall link area in the page or region. This parameter can be automatically generated if it is not provided by the user.
+
+## Primary ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+
+If the HTML has an s_objectid, then the primary ID is defaulted to the s_objectid. Otherwise, the following parameters are used as primary ID (in this order of priority):
+
+* Innertext 
+* Alttext 
+* Title 
+* Src 
+* Action
+
+## Using InnerText versus using Link Action (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+
+Link action is the action taken by the web page when the link is clicked - usually the URL that is visited after clicking the link. Some of the issues you might run into when using Link Action are:
+
+* having two or more distinct links with the same ID 
+* readability of the link 
+* one link with multiple actions (depending on the device where you are viewing the link)
+
+As a result, we use InnerText with these benefits over using Link Action (URL):
+
+* It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text.
+* It ensures consistency of the Primary ID across devices and browser types.
+* It is not affected by a link repositioning on the page.
+* It improves readability, so users can start analyzing Link tracking reports outside Activity Map.

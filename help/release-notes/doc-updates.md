@@ -15,11 +15,14 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | Feature | Description |
 | --- | --- |
 | **May 2024** | |
+| Documentation about adding components to projects | Added general information about how to [add the various types of components to projects in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
+| Updated Advertising Analytics documentation | Updated documentation in line with updates made to the [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) user interface. | 
+| Explicit map XDM object variables to context data variables | Documented the capability to [explicitly set context data variables using XDM object variable mapping](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). | 
 | New documentation for upgrading from Adobe Analytics to Customer Journey Analytics | For organizations upgrading from Adobe Analytics to Customer Journey Analytics, there are multiple upgrade options and many considerations to keep in mind based on an organization's current Adobe Analytics implementation and long-term goals.<p>New documentation resources are now available to help you better understand:</p><ul><li>The various upgrade paths that exist</li><li>Which upgrade paths are available based on an organization's current Adobe Analytics implementation</li><li>The advantages and disadvantages of each upgrade path</li><li>Step-by-step guidance for each upgrade path</li><li>Considerations for handling historical data</li><li>And more!</li></ul><p>[Get started with the upgrade to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Updated documentation about custom date ranges |  Updated screenshots and procedures related to [creating custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in order to match the current product features and design.  | 
 | **April 2024** | |
@@ -38,7 +41,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Clarified that certain information is available only to administrators  | Added information stating that the "Last used" and "Used in" columns that are described in [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) and [Segments manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) are available only to system administrators. |
 | Updates to Media average minute audience documentation | Updated information in [Media average minute audience panel](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) to improve clarity.<p>Improvements include:</p> <ul><li>Improved organization of information</li><li>Added steps to indicate task-based information</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | Feature | Description |
 | --- | --- |
@@ -112,7 +115,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Auto-save for projects | Updated content to include auto-save functionality in [Save projects](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).  |
 | Landing page | New [landing page updates](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | Feature | Description |
 | --- | --- |
@@ -133,13 +136,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | High-entropy client hints | New topic on how Adobe is using [client hints](/help/technotes/client-hints.md) in addition to User-Agent to determine device information. |
 | Processing order | Various help pages have been aggregated to provide a single help topic on [Processing order](/help/technotes/processing-order.md). |
 | **August 2022** | |
-| Support for List Variables in XDM for Edge Collection | Enables customers collecting data using the Web SDK to use XDM to specify list variable contents. [Learn more](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk)| August 18, 2022 |
+| Support for List Variables in XDM for Edge Collection | Enables customers collecting data using the Web SDK to use XDM to specify list variable contents. [Learn more](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk)| 
 | Use of SKU field in XDM for Edge Collection when setting product string Variables | Enables customers collecting data using the Web SDK to use the SKU value to set the product field in the products variable. [Learn more](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **June 2022** |  |
 | Merchandising variables in XDM for Edge Collection |  Documentation on [support for Merchandising variables in XDM for Edge Collection](/help/components/dimensions/evar-merchandising.md) |
 | Experience Platform Edge documentation | New articles on Adobe Analytics implementation via [Web SDK](/help/implement/aep-edge/web-sdk/overview.md), [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md), and [Edge API](/help/implement/aep-edge/server-api/overview.md). |
 | Updated Flow visualization documentation | Based on the [new UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace—in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| Documentation on sharing annotations in Mobile scorecards | You can display [annotations that are created in Workspace in Mobile Scorecards](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **May 2022** | |
 | Populate Lifecycle dimensions and metrics through the Edge Network | Mobile Lifecycle data sent to the Edge Network now appears in Analytics reporting. See [Analytics variable mapping](/help/implement/aep-edge/xdm-var-mapping.md) for details on which XDM fields map to existing mobile Lifecycle reporting. |
 | **April 2022** | |
@@ -153,12 +156,12 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | [!UICONTROL Next item] or [!UICONTROL Previous item] Workspace panel | This panel allows you to explore items that follow or precede a dimension item of your choice. |
 | [!UICONTROL Page Summary] Workspace panel | This panel provides a deep-dive analysis for a page of your choosing. |
 | New topic on pausing older scheduled reports | Effective **April 15, 2022**, Adobe intends to pause all scheduled reports that have a creation date greater than two years|
-| **February 2022** | 
+| **February 2022** | |
 | Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) allows you to preview the experience before you save and share a scorecard.  |
 | API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
 | Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | Feature | Description |
 | --- | --- |
@@ -194,7 +197,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 14, 2021 | Added documentation on how you can add images to Workspace projects by referencing a public image URL. |
 | January 14, 2021 | Combined source & settings manager for Workspace visualizations: The [!UICONTROL Data Source] manager (dot) and settings manager (gear) for visualizations have been combined into a single popover, so you can easily manage your source and settings from the same location. |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | Feature | Description |
 | --- | --- |
@@ -261,7 +264,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | January 13, 2020 | Added [Adobe Analytics and browser cookies](/help/technotes/cookies/cookies.md). |
 | January 13, 2020 | Modified the [Which Adobe Analytics Tool should I use](/help/analyze/get-started/which-analytics-tool.md) page. |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | Feature | Description |
 | --- | --- |
@@ -281,7 +284,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | September 12, 2019 | Update [Calculated metrics totals](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) document. |
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/technotes/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |
-| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)| August 8, 2019 | In Workspace, Adobe increased the limit of items that can be placed in a static drop-down filter from 50 to 200. This enhancement accommodates a variety of use cases, such as adding all countries (195) to a filter, or all US states and provinces (52). |
+| August 8, 2019 | Clarification on [timestamp-enabled session data](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) | 
+| August 8, 2019 | In Workspace, Adobe increased the limit of items that can be placed in a static drop-down filter from 50 to 200. This enhancement accommodates a variety of use cases, such as adding all countries (195) to a filter, or all US states and provinces (52). |
 | August 2, 2019 | Major update to [Analytics glossary](/help/technotes/terms.md) |
 | July 22, 2019 | Added Magento: Marketing and Commerce template to the [Analysis Workspace templates](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |
 | July 18, 2019 | Updated [Cohort Table settings](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).|
@@ -291,7 +295,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
-| April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
+| April 11, 2019 | Enhancements to Workspace optimization best practices: Optimizing Performance|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | March 14, 2019 | Major Update to Regional Data Collection. |
 | February 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |

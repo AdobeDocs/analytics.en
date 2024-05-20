@@ -16,6 +16,8 @@ For overview information about the types of components you can add, see [Compone
 
 ## Begin adding components to a project
 
+1. [Create a project in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) if you haven't already.
+
 1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. 
 
    If you add a component to a blank project, a freeform table visualization is automatically created.

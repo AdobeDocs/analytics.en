@@ -21,7 +21,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
-  + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)

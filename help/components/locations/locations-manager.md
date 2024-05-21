@@ -15,7 +15,7 @@ The Locations manager allows you to view, create, edit, or delete accounts and l
 
 ## View, filter, and search locations
 
-The Location manager allows you to view any locations that you created. System administrators can view locations created by all users.
+The Location manager allows you to view any locations that you created or any that are shared with the organization. System administrators can view locations created by all users, regardless of whether they are shared.
 
 1. To access the Locations manager in Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**.
 
@@ -67,6 +67,8 @@ For information about how to edit a location, see [Configure cloud import and ex
 >
 >If you delete a location, you should [edit your Data Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse reports](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), and [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) to use a functioning location. 
 
+A location can be deleted only by the user who created it or by a system administrator. 
+
 To delete a location in the Locations manager in Adobe Analytics:
 
 1. Select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Locations**] tab.
@@ -104,6 +106,10 @@ To view keys associated with an export account:
 >[!IMPORTANT]
 >
 >Accounts can be deleted only if there are no locations using it. Before you delete an account, you must first delete any locations on the account, as described in [Delete a location](#delete-a-location).
+
+An account can be deleted only by the user who created it or by a system administrator. 
+
+To delete an account:
 
 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Locations]**, then select the [!UICONTROL **Location accounts**] tab.
 

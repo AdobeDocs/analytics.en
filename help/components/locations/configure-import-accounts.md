@@ -11,7 +11,7 @@ exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 
 >[!NOTE]
 >
->System administrators can restrict users from creating accounts, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.
+>Consider the following when creating and editing accounts: <ul><li>System administrators can restrict users from creating accounts, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</li><li>An account can be edited only by the user who created it or by a system administrator.</li></ul>
 
 You can configure a cloud account that is used for any or all of the following purposes:
 

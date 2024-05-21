@@ -11,7 +11,7 @@ exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 
 >[!NOTE]
 >
->System administrators can restrict users from creating locations, as described in [Configure whether users can create locations](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). If you can't create locations as described in this section, contact your system administrator.
+>Consider the following when creating and editing locations:<ul><li>System administrators can restrict users from creating locations, as described in [Configure whether users can create locations](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). If you can't create locations as described in this section, contact your system administrator.</li><li>A location can be edited only by the user who created it or by a system administrator.</li></ul>
 
 You can configure a cloud account (and a location on that account). A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes, such as Data Feeds and Data Warhouse, or Data Warehouse and Classification sets):
 

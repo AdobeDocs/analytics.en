@@ -20,6 +20,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **May 2024** | |
+| Documentation about adding components to projects | Added general information about how to [add the various types of components to projects in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
+| Updated Advertising Analytics documentation | Updated documentation in line with updates made to the [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) user interface. | 
 | Explicit map XDM object variables to context data variables | Documented the capability to [explicitly set context data variables using XDM object variable mapping](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). | 
 | New documentation for upgrading from Adobe Analytics to Customer Journey Analytics | For organizations upgrading from Adobe Analytics to Customer Journey Analytics, there are multiple upgrade options and many considerations to keep in mind based on an organization's current Adobe Analytics implementation and long-term goals.<p>New documentation resources are now available to help you better understand:</p><ul><li>The various upgrade paths that exist</li><li>Which upgrade paths are available based on an organization's current Adobe Analytics implementation</li><li>The advantages and disadvantages of each upgrade path</li><li>Step-by-step guidance for each upgrade path</li><li>Considerations for handling historical data</li><li>And more!</li></ul><p>[Get started with the upgrade to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Updated documentation about custom date ranges |  Updated screenshots and procedures related to [creating custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) in order to match the current product features and design.  | 
@@ -293,7 +295,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
-| April 11, 2019 | Enhancements to Workspace optimization best practices: [Optimizing Performance](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)|
+| April 11, 2019 | Enhancements to Workspace optimization best practices: Optimizing Performance|
 | April 11, 2019 | Updates to [Optimize Workspace Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | March 14, 2019 | Major Update to Regional Data Collection. |
 | February 7, 2019 | Minor update to the "Replace the last octet of IP addresses with 0" and the "IP Obfuscation" settings in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |

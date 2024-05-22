@@ -27,15 +27,7 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
 ## Use metrics in Analysis Workspace
 
-Metrics can be used in various ways within Analysis Workspace. You can:
-
-* Drag a metric to an empty Freeform table to see that metric trended over the project's date period. 
-
-* Drag a metric when a dimension is present to see that metric compared to each dimension item. 
-
-* Drag a metric on top of an existing metric header to replace it.
-
-* Drag a metric next to a header to see both metrics side-by-side.
+Metrics can be used in various ways within Analysis Workspace. For information about how to add metrics and other types of components to Analysis Workspace, see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

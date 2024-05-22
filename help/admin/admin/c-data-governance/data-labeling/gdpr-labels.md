@@ -87,9 +87,9 @@ When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
 1. Click **[!UICONTROL Select Namespace]** and select one of the existing namespaces.
+   ![](assets/namespace.png)
 1. Click **[!UICONTROL Apply]**.
-
-![](assets/namespace.png)
+   
 
 ### Define a new namespace
 

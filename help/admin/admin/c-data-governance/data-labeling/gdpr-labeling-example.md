@@ -29,7 +29,9 @@ Suppose you have the following hit data:
 
 ## Sample Access request {#access}
 
-If you submit an access request, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are returned only if a person ID is used and `expandIds` is true.
+If you submit an access request, you will receive two files that you can return to the data subject. One file is a CSV file containing one row for each hit received for the data subject and a column for each variable with the appropriate access label. The other file is a summary HTML file that lists each variable, followed by all unique values seen for that variable for the data subject and the number of times each unique value was seen. 
+
+For our example, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are returned only if a person ID is used and `expandIds` is true.
 
 <table>
   <tr>
@@ -134,7 +136,7 @@ If you submit an access request, the summary file contains the values indicated 
   </tr>
 </table>
 
-Notice that the setting for expandIDs does not make any difference to the output when a cookie ID is used.
+Notice that the setting for `expandIDs` does not make any difference to the output when a cookie ID is used.
 
 ## Sample Delete requests {#delete}
 

@@ -23,7 +23,7 @@ As the data controller, you determine the personal data that Adobe processes and
 
 ## How Adobe Handles CCPA Data
 
-The Adobe Cloud Platform (ACP) provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe Cloud Platform enable a direct linkage of data governance policy to data usage.
+The Adobe Experience Cloud provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe Experience Cloud enable a direct linkage of data governance policy to data usage.
 
 Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for privacy readiness and how to integrate with the Adobe Experience Cloud Privacy Service API.
 

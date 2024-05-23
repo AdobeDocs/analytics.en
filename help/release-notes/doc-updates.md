@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **May 2024** | |
+| Required information when using organization policy constraints with Google Cloud Platform in Data Feeds and Data Warehouse | Added the Adobe-owned Google Cloud Platform organization ID to the [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentation. <p>This information is required only for organizations that are using [Organization policy constraints](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> | 
 | Documentation about adding components to projects | Added general information about how to [add the various types of components to projects in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Updated Advertising Analytics documentation | Updated documentation in line with updates made to the [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) user interface. | 
 | Explicit map XDM object variables to context data variables | Documented the capability to [explicitly set context data variables using XDM object variable mapping](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). | 

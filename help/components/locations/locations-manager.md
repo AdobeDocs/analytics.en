@@ -57,6 +57,8 @@ For information about how to create a location, see [Configure cloud import and 
 
 ### Edit a location
 
+A location can be edited only by the user who created it or by a system administrator.
+
 For information about how to edit a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
 ### Delete a location
@@ -86,6 +88,8 @@ You can create, edit, and delete accounts.
 For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
 
 ### Edit an account
+
+An account can be edited only by the user who created it or by a system administrator.
 
 For information about how to edit an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
 

@@ -30,6 +30,12 @@ To configure a cloud import or export account:
 1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View accounts for all users**] option to view locations created by all users in your organization. <!-- Maybe add a screenshot? This is new functionality -->
 1. To create a new account, select [!UICONTROL **Add account**].
 
+   Or
+
+   To edit an existing account, locate the account that you want to edit, then select the [!UICONTROL **Edit account**] button.
+
+   <!-- add screenshot? The wording of the button was updated. (It used to say "View account") -->
+
    The Add account dialog displays.   
   
 1. Specify the following information:

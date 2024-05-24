@@ -23,12 +23,19 @@ You must configure Adobe Analytics with the necessary information to access your
 
 For information about how to manage existing locations, including viewing, editing, and deleting locations, see [Locations manager](/help/components/locations/locations-manager.md).
 
-## Begin creating a cloud export location
+## Begin creating or editing a cloud export location
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
+
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
+
 1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View locations for all users**] option to view locations created by all users in your organization. <!-- Maybe add a screenshot? This is new functionality -->
-1. Select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
+
+1. To add a new location, select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
+
+   Or
+
+   To edit an existing location, select the 3-dot menu next to the location name, then select [!UICONTROL **Edit**].
    
    The Location dialog displays.
 

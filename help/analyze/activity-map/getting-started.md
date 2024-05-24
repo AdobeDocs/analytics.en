@@ -33,7 +33,7 @@ The **[!UICONTROL Click data collection]** configuration setting handles Activit
 
 1. Log in to [experience.adobe.com](https://experience.adobe.com)
 1. Select **[!UICONTROL Data Collection]** in the quick access menu or the product selector in the top right.
-1. Select **[!UICONTROL Tags] in the left navigation menu.
+1. Select **[!UICONTROL Tags]** in the left navigation menu.
 1. Select the desired tag to edit.
 1. Select **[!UICONTROL Extensions]** in the left navigation menu.
 1. Select **[!UICONTROL Adobe Experience Platform Web SDK]** in the list of installed extensions, then select **[!UICONTROL Configure]** on the right.
@@ -67,7 +67,7 @@ The **[!UICONTROL Use Activity Map]** configuration setting handles Activity Map
 
 1. Log in to [experience.adobe.com](https://experience.adobe.com)
 1. Select **[!UICONTROL Data Collection]** in the quick access menu or the product selector in the top right.
-1. Select **[!UICONTROL Tags] in the left navigation menu.
+1. Select **[!UICONTROL Tags]** in the left navigation menu.
 1. Select the desired tag to edit.
 1. Select **[!UICONTROL Extensions]** in the left navigation menu.
 1. Select **[!UICONTROL Adobe Analytics]** in the list of installed extensions, then select **[!UICONTROL Configure]** on the right.

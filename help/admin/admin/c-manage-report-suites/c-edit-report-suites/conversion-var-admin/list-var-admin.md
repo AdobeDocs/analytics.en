@@ -9,7 +9,7 @@ exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
 
 Create and configure list variables for use in reporting. Set their delimiter, expiration, allocation, and max values. Collect data for list variables using [`list1` - `list3`](/help/implement/vars/page-vars/list.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL list variables]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL List Variables]**
 
 * **[!UICONTROL Name]**: The name of the list variable. This name is the dimension label in Analysis Workspace.
 

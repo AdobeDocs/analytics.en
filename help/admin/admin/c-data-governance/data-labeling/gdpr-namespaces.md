@@ -7,7 +7,7 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 ---
 # Namespaces
 
-Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites.
+Each ID that you want to be able to search for is assigned a namespace, which is a custom string that identifies that ID in any variable where it is used across all your report suites. 
 
 The namespace string is used to identify the field(s) that you want searched when providing an ID as part of a Data Privacy request. When a Data Privacy request is submitted, the request will include a JSON section specifying the Data Subject IDs to use for the request. Multiple IDs can be included as part of a single request for a Data Subject. The JSON includes:
 
@@ -15,17 +15,17 @@ The namespace string is used to identify the field(s) that you want searched whe
 * A "type" field that for most Adobe Analytics requests contains the value "analytics".
 * A "value" field containing the ID that Analytics should search for in the associated namespace variables from each of your report suites.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) for more details.
+Refer to the [Experience Cloud Data Privacy API documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) for more details and a [list of standard identity namespaces](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). See [Create an access/delete job](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) for a sample request.
 
 ## Cookie ID
 
 Legacy Analytics Tracking Cookie, also known as the Adobe Analytics ID (AAID):
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -35,25 +35,23 @@ It is also acceptable to use `"namespaceId": 10` instead of or in addition to `"
 
 ## Legacy Analytics tracking cookie: deprecated form
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-Deprecated form:
 
 The value should be specified as two 16-digit hexadecimal numbers or as two 19-digit decimal numbers. The numbers should be separated by a dash, underscore or colon. Leading zeros should be added if either number doesn't have enough digits.
 
 ## Identity Service cookie
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -75,11 +73,11 @@ This JavaScript code populates the JSON with other key/value pairs besides those
 
 ## Custom Visitor ID
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -87,15 +85,16 @@ The namespace is also predefined for the custom visitor ID.
 
 ## IDs in custom variables
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -109,6 +108,6 @@ You can also see namespaces that you have previously defined for other variables
 
 >[!CAUTION]
 >
->The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
+>The namespaces `visitorId` and `customVisitorId` are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
 For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

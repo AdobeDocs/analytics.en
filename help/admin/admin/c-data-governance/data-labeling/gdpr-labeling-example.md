@@ -29,12 +29,14 @@ Suppose you have the following hit data:
 
 ## Sample Access request {#access}
 
-If I submit an access request, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are only returned if a person ID is used and expandIds is true.
+If you submit an access request, you will receive two files that you can return to the data subject. One file is a CSV file containing one row for each hit received for the data subject and a column for each variable with the appropriate access label. The other file is a summary HTML file that lists each variable, followed by all unique values seen for that variable for the data subject and the number of times each unique value was seen. 
+
+For our example, the summary file contains the values indicated in the table below. A request may return only a device file, only a person file or one of each. Two summary files are returned only if a person ID is used and `expandIds` is true.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API Values</th>
-    <th rowspan="2">Returned<br>File Type</th>
+    <th rowspan="2">Summary<br/>file type<br/>returned</th>
     <th colspan="5" style="text-align:center">Data in Summary Access File</th>
   </tr>
   <tr>
@@ -134,7 +136,7 @@ If I submit an access request, the summary file contains the values indicated in
   </tr>
 </table>
 
-Notice that the setting for expandIDs does not make any difference to the output when a cookie ID is used.
+Notice that the setting for `expandIDs` does not make any difference to the output when a cookie ID is used.
 
 ## Sample Delete requests {#delete}
 
@@ -211,7 +213,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 >[!NOTE]
 >
->Only cells on rows containing AAID = 77 and a DEL-DEVICE label are impacted.
+>Only columns on rows containing `AAID=77` and a `DEL-DEVICE` label are impacted.
 
 <table>
   <tr>
@@ -284,7 +286,7 @@ With a delete request using the API values in the first row of the table, the hi
 
 >[!NOTE]
 >
->Only cells on rows containing user=Mary and a DEL-PERSON label are impacted. Also, in practice, the variable containing A_ID would probably be a prop or an eVar. Its replacement value would be a string starting with "Privacy-", followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
+>Only celcolumnsls on rows containing `user=Mary` and a `DEL-PERSON` label are impacted. Also, in practice, the variable containing `A_ID` would probably be a prop or an eVar. Its replacement value would be a string starting with `Privacy-`, followed by a random number (GUID), rather than replacing the numeric value with a different, random numeric value.
 
 <table>
   <tr>

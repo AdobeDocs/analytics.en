@@ -1,13 +1,25 @@
 ---
-description: This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
-title: Link tracking methodology
+description: 
+title: Activity Map Link
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-feature: Activity Map
+feature: Dimensions
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 ---
-# Link tracking methodology
+# Activity Map Link
 
+asdf
+
+## Populate this dimension with data
+
+asdf
+
+## Dimension items
+
+asdf
+
+
+<!--
 This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
 
 >[!IMPORTANT]
@@ -42,4 +54,4 @@ As a result, we use InnerText with these benefits over using Link Action (URL):
 * It is a good representation of the Link identity. Primary ID duplication is significantly reduced as it is not common to have multiple links with the same text.
 * It ensures consistency of the Primary ID across devices and browser types.
 * It is not affected by a link repositioning on the page.
-* It improves readability, so users can start analyzing Link tracking reports outside Activity Map.
+* It improves readability, so users can start analyzing Link tracking reports outside Activity Map. -->

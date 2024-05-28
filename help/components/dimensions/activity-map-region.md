@@ -1,4 +1,21 @@
+---
+title: Activity Map Region
+description:
+feature: Dimensions
+---
+# Activity Map Region
 
+intro
+
+## Populate this dimension with data
+
+This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
+
+## Dimension items
+
+asdf
+
+<!--
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 This new attribute allows users to specify a string that is representative of the page region where the link is located.
@@ -13,3 +30,5 @@ Using Link Region has these benefits:
 * Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting).
 * A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: "Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
 * In itself, Region is a relevant dimension to analyze highly dynamic web pages. This is because it removes the noise due to continuously changing links: a "Latest News" Region in the CNN landing page may have a lot of changing links. But the region will always be there. So it might be interesting to trend at the Region level over many days.
+
+-->

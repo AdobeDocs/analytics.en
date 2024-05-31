@@ -1,34 +1,24 @@
 ---
 title: Activity Map Region
-description:
+description: The region on your site that was clicked.
 feature: Dimensions
 ---
 # Activity Map Region
 
-intro
+The 'Activity Map Region' [dimension](overview.md) displays the regions on your site that were clicked the most. This dimension is useful when you want to compare clicks across overarching regions of your site instead of individual links. It is also helpful for areas of your site that serve dynamic content. For example, if you have a front page with rotating news articles, using the [Activity Map Link](activity-map-link.md) dimension would be difficult because link text constantly changes. However, since these links use the same region, you can analyze the performance of that area even though individual links might change each day.
 
 ## Populate this dimension with data
 
 This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
 
+For a given link that was clicked, check the parent DOM element for the following (in order):
+
+* A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)
+* A value in the `aria-label` attribute when the attribute `role="region"`
+* The semantic elements `<header>`, `<main>`, `<footer>`, or `<nav>`
+
+If the parent DOM element does not meet any of the specified criteria, the search continues recursively up the DOM hierarchy. If no matching elements are found, the value `BODY` is returned.
+
 ## Dimension items
 
-asdf
-
-<!--
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
-
-This new attribute allows users to specify a string that is representative of the page region where the link is located.
-
-For example, for a "Contact Us" link that is located in the menu section of the web page, the user may want to pass a "Menu" region parameter. Similarly, for a "Contact Us" link located in the footer of the web page, the region parameter may be set to "footer".
-
-The Link Region value is not set on the link itself, but on one HTML element up the DOM HTML tree that encompasses that region.
-Using Link Region has these benefits:
-
-* It helps differentiate links with the same primary ID.
-* Trending on a region is less affected by the dynamic aspect of the web page.
-* Users can see the top performing links within a region. With Region as an anchor, we can show overlays of links that are not currently visible on the page (Ajax, Targeting).
-* A Region can supersede pages as a given region may be used across many web pages. It helps answer questions like: "Does my "Product Offering" region perform best on the Women's Landing Page or the Men's Landing Page? 
-* In itself, Region is a relevant dimension to analyze highly dynamic web pages. This is because it removes the noise due to continuously changing links: a "Latest News" Region in the CNN landing page may have a lot of changing links. But the region will always be there. So it might be interesting to trend at the Region level over many days.
-
--->
+Dimension items include regions you have labeled on your site. Specific labels depend on your website, what HTML ID's are used, and if semantic HTML elements are present.

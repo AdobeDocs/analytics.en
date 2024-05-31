@@ -16,3 +16,23 @@ function(clickedElement) {
   }
 }
 ```
+
+
+```js
+s.ActivityMap.region = function(ele) {
+  var className,
+  classNames = {
+    'header': 1,
+    'navbar': 1,
+    'left-content': 1,
+    'main-content': 1,
+    'footer': 1,
+  };
+  while ((ele && (ele = ele.parentNode))) {
+    if ((className=ele.className) && classNames[className]) {
+      return className;
+    }
+  }
+  return "BODY";
+}
+```

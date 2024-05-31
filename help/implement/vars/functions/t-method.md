@@ -26,7 +26,7 @@ s.t();
 Running the `t()` method takes all Analytics variables defined and formulates a URL based on those variables. Some Analytics variables determine the URL of the image, while other variables determine query string parameter values.
 
 ```text
-https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
+https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
 Adobe receives the image request, then parses the request header, URL, and query string parameters. Data collection servers then return a transparent 1x1 pixel image, invisibly displayed on your site.

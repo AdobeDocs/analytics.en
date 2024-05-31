@@ -8,19 +8,29 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 ---
 # Activity Map Link
 
-asdf
+The 'Activity Map Link' dimension displays the most popular links that were clicked. You can use this dimension to directly compare which links on your site are used the most.
 
 ## Populate this dimension with data
 
-asdf
+This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
+
+For a given link that was clicked, Activity Map searches for the following (in order):
+
+* The `s_objectID` variable
+* The link's inner text
+* The `alt` attribute for images
+* The `title` attribute
+* The `src` attribute for images
+* The `action` attribute for forms
+
+If the clicked element contains none of the above criteria, Activity Map does not collect data for that click.
 
 ## Dimension items
 
-asdf
+Dimension values most commonly include the link text that visitors click. Your organization's site structure and implementation determines the exact values collected.
 
 
 <!--
-This section is intended for Adobe Analytics Administrators. It focuses on the new link tracking parameters and how they ensure link uniqueness and consistency across browsers and devices, and improve the handling of link repositioning on a page.
 
 >[!IMPORTANT]
 >

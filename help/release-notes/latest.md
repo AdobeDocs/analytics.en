@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (May 2024)
 
-**Last update**: May 22, 2024
+**Last update**: June 3, 2024
 
 These release notes cover the release period of May 15, 2024 through June. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -21,7 +21,7 @@ These release notes cover the release period of May 15, 2024 through June. Adobe
 | **Increase in default low-traffic thresholds**| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul> | Mid April, 2024 | May 31, 2024  |
 | **Administrator settings to control the accounts and locations that are used for export and import** | A new "Admin settings" tab in the Locations manager gives administrators control over whether users can create and edit accounts and locations. These settings apply when users configure cloud import and export accounts and configure cloud import and export locations. <p>Administrators can also limit the types of accounts (Google Cloud Platform, Azure RBAC, Amazon S3, and so forth) that users can create and use.</p><p>Previously, any user could create, edit, and use accounts and locations for any type of account.</p><p>(Updated documentation link to follow)</p> |  June 12, 2024 | June 30, 2024 |
 | **Share accounts and locations that are used for export and import** | Users can now make the accounts and locations they create available to all users in their organization. Only account and location owners and system administrators can edit and delete accounts and locations.<p>Previously, accounts and locations could be used only by the user who created them.</p><p>These settings are available when users configure cloud import and export accounts and configure cloud import and export locations. </p> <p>(Updated documentation link to follow)</p> | June 12, 2024 | June 30, 2024 |
-| **Activity Map to use fewer server calls for Web SDK** | Currently, Activity Map link events are counted as their own events and incur extra cost. This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement. <p>(Updated documentation link to follow)</p> | Beta starts May 31, 2024 | TBD |
+| **Activity Map to use fewer server calls for Web SDK** | Currently, Activity Map link events are counted as their own events and incur extra cost. This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement. <p>(Updated documentation link to follow)</p> | Open Beta starts June 19, 2024 | TBD |
 
 {style="table-layout:auto"}
 

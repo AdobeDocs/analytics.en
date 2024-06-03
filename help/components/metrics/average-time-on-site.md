@@ -68,7 +68,7 @@ Calculating average time on site for the dimension item `Home` would use the fol
 If you applied a breakdown using the [Site sections](../dimensions/site-section.md) dimension, it would use the following calculation:
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100) / 1 = 130 seconds (2 minutes 10 seconds) average time on site
 ```
 
 Since there was a single sequence in the breakdown dimension, it uses a different denominator than its parent dimension. These metrics usually provide similar results at a visit level, but can be different at a hit level.

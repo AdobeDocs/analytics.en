@@ -1,7 +1,8 @@
 ---
 title: Activity Map Page
-description:
+description: The page name when a link was clicked.
 feature: Dimensions
+role: User, Admin
 ---
 # Activity Map Page
 
@@ -11,7 +12,7 @@ The 'Activity Map Page' [dimension](overview.md) displays what pages a visitor w
 
 This dimension retrieves data from the [Context data variable](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.page`. If your implementation uses [Activity Map](/help/analyze/activity-map/overview.md), this context data variable automatically collects data when links are clicked.
 
-For a given link that was clicked, this context variable collects the value in the [Page](page.md) dimension. Since Activity Map data is sent on the next hit after a link was clicked, the value in this dimension ends up being the previous page.
+For a given link that was clicked, this context variable collects the value in the [Page](page.md) dimension. Activity Map data is typically sent on the next hit after a link was clicked. This dimension allows you to determine the page value when the link was clicked, instead of the page value when data was sent.
 
 ## Dimension items
 

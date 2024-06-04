@@ -2,10 +2,11 @@
 title: Activity Map Region
 description: The region on your site that was clicked.
 feature: Dimensions
+role: User, Admin
 ---
 # Activity Map Region
 
-The 'Activity Map Region' [dimension](overview.md) displays the regions on your site that were clicked the most. This dimension is useful when you want to compare clicks across overarching regions of your site instead of individual links. It is also helpful for areas of your site that serve dynamic content. For example, if you have a front page with rotating news articles, using the [Activity Map Link](activity-map-link.md) dimension would be difficult because link text constantly changes. However, since these links use the same region, you can analyze the performance of that area even though individual links might change each day.
+The 'Activity Map Region' [dimension](overview.md) displays the regions on your site that were clicked the most. This dimension is useful when you want to compare clicks across overarching regions of your site instead of individual links. It is also helpful for areas of your site that serve dynamic content. For example, if you have a front page with rotating news articles, using the [Activity Map Link](activity-map-link.md) dimension would be difficult because link text constantly changes. However, since those links use the same region, you can analyze the performance of that area even though individual links might change each day.
 
 ## Populate this dimension with data
 
@@ -14,6 +15,7 @@ This dimension retrieves data from the [Context data variable](/help/implement/v
 For a given link that was clicked, check the parent DOM element for the following (in order):
 
 * A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)
+* A value in the `id` attribute
 * A value in the `aria-label` attribute when the attribute `role="region"`
 * The semantic elements `<header>`, `<main>`, `<footer>`, or `<nav>`
 
@@ -21,4 +23,4 @@ If the parent DOM element does not meet any of the specified criteria, the searc
 
 ## Dimension items
 
-Dimension items include regions you have labeled on your site. Specific labels depend on your website, what HTML ID's are used, and if semantic HTML elements are present.
+Dimension items include regions you have labeled on your site. Specific region values depend on what `id` attributes are used, and if semantic HTML elements are present.

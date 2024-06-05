@@ -25,16 +25,17 @@ These release notes cover the release period of May 15, 2024 through June. Adobe
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: 
-* Fixed the following Data Warehouse issues: 
-* Fixed the following Data Feeds issues: 
-* Fixed the following Data Sources issue: 
-* Fixed the following Analysis Workspace issues: 
-* Fixed the following A4T issue:  
+* Fixed the following Classifications issues: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350525; 
+* Fixed the following Data Warehouse issues: AN-346862; AN-349409; AN-349926; 
+* Fixed the following Data Feeds issues: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527; 
+* Fixed the following Data Sources issue: AN-350038
+* Fixed the following Analysis Workspace issues: AN-342953; AN-346346; AN-349590
+* Fixed the following Report Builder issue: AN-348903
+* Fixed the following A4T issue: AN-347690
 
 ### Other Analytics fixes
 
-Tbd
+AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-349211; AN-349719; AN-350523;
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
@@ -61,7 +62,7 @@ For the latest updates on AppMeasurement releases (Version 2.26.0), please refer
 
 ## Related resources
 
-* [Previous release notes for 2023](/help/release-notes/2023.md)
+* [Previous release notes for 2024](/help/release-notes/2024.md)
 * [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [Media Analytics release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)

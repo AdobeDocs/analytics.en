@@ -1,12 +1,12 @@
 ---
-title: s.ActivityMap.linkExclusions
+title: ActivityMap.linkExclusions
 description: Filter Activity Map data by link name.
 role: Admin, Developer
 feature: Variables
 ---
-# s.ActivityMap.linkExclusions
+# ActivityMap.linkExclusions
 
-The `s.ActivityMap.linkExclusions` variable lets you selectively filter or exclude Activity Map data based on the text in the [Activity Map Link](/help/components/dimensions/activity-map-link.md) dimension.
+The `ActivityMap.linkExclusions` variable lets you selectively filter or exclude Activity Map data based on the text in the [Activity Map Link](/help/components/dimensions/activity-map-link.md) dimension.
 
 ## Link exclusions in the Web SDK extension
 

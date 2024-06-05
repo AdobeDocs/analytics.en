@@ -1,12 +1,12 @@
 ---
-title: s.ActivityMap.regionExclusions
+title: ActivityMap.regionExclusions
 description: Filter Activity Map data by region.
 role: Admin, Developer
 feature: Variables
 ---
-# s.ActivityMap.regionExclusions
+# ActivityMap.regionExclusions
 
-The `s.ActivityMap.regionExclusions` variable lets you selectively filter or exclude Activity Map data based on the text in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension.
+The `ActivityMap.regionExclusions` variable lets you selectively filter or exclude Activity Map data based on the text in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension.
 
 ## Region exclusions in the Web SDK extension
 
@@ -21,7 +21,7 @@ alloy("configure", {
   clickCollectionEnabled: true,
   filterClickDetails: function(content) {
     // If the clicked region has personal links in it, don't send click data
-    if(content.linkUrl.includes("Personal links")) {
+    if(content.linkRegion.includes("personal")) {
       return false;
     }
   }
@@ -52,7 +52,7 @@ The `s.ActivityMap.regionExclusions` variable is a string containing comma-delim
 
 <!-- Activity Map data is not tracked for any of these links. -->
 <!-- All these links belong to the region "Personal contact information" -->
-<div id="Personal contact information">
+<div id="personal-contact-information">
  <a href="mailto:user@example.com">Example user</a>
  <a href="mailto:user2@example.com">Example user 2</a>
  <a href="mailto:user3@example.com">Example user 3</a>

@@ -1,4 +1,12 @@
-### `s.ActivityMap.regionIDAttribute`
+---
+title: ActivityMap.regionIDAttribute
+description: Change the attribute that Activity Map looks for to determine region.
+feature: Variables
+role: Admin, Developer
+---
+# ActivityMap.regionIDAttribute
+
+The `ActivityMap.regionIDAttribute` variable lets you add an attribute that Activity Map looks for when determining the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension. 
 
 String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of `s.linkObject`, i.e., **the element that was clicked**.
 

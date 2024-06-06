@@ -45,7 +45,7 @@ Every few seconds, Activity Map scans the web page looking for changes. Activity
 
 +++Does Activity Map provide data on links that are viewed but not clicked?
 
-No, Adobe does not track links that were only viewed.
+No, Adobe does not automatically track links that were only viewed.
 
 +++
 

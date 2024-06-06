@@ -73,8 +73,6 @@ s.ActivityMap.link = function(element,linkName)
 <button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
-Here, we have overridden the `ActivityMap.link` function to do one of three things when called:
-
-1. If `linkName` is passed, then this was called by `tl()`, so just return what `tl()` passed in as `linkName`.
-2. When called by Activity Map at reporting time, a `linkName` is never passed, and so call `makeLinkName()` with the link element. This is the crucial step here - the `makeLinkName(element)` call should be the same as the `tl()` call's 3rd argument in the `<button>` tag. This means that when `tl()` is called, we track the string returned by `makeLinkName()`. When Activity Map reports on the links on the page, it uses the same call to make a link.
-3. The final solution is just to return the original return value of the default ActivityMap link function. Keeping this reference around to call in the default case helps you to only have to override or write custom code for `makeLinkName()` and not to have to come up with a link return value for all the links on the page.
+1. If `linkName` is passed, then the method was called by `tl()`. Return what `tl()` passed in as `linkName`.
+2. When called by Activity Map at reporting time, a `linkName` is never passed, so call `makeLinkName()` with the link element. This is the crucial step here - the `makeLinkName(element)` call should be the same as the `tl()` call's 3rd argument in the `<button>` tag. This means that when `tl()` is called, we track the string returned by `makeLinkName()`. When Activity Map reports on the links on the page, it uses the same call to make a link.
+3. The final solution is just to return the original return value of the default Activity Map link function. Keeping this reference around to call in the default case helps you to only have to override or write custom code for `makeLinkName()` and not to have to come up with a link return value for all the links on the page.

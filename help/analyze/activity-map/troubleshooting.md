@@ -17,8 +17,6 @@ First, make sure that AppMeasurement correctly collects Activity Map data.
 2. Navigate to your web page, then click on a link.
 3. When the subsequent page loads, open the debugger. Validate that you see Activity Map context data variables sandwiched between `activitymap.` and `.activitymap`:
 
-  ![Debugger data](assets/debugger.png)
-
 ## Possible reasons why Activity Map data is not present
 
 Check each of the following to make sure Activity Map components are present:
@@ -62,16 +60,10 @@ Interact calls using Developer Console Network Tab:
 1. Load the Development Launch script on the site.
 1. On Click of Elements, search for '/ee' in the Network Tab
 
-   ![](assets/validation1.png)
-
 Adobe Experience Platform Debugger:
 
 1. Download and install the [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Go to [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge]. 
-
-   ![](assets/validation2.jpg)
-
-**FAQs**
 
 * **The interact call is not firing in the Network tab.**
    The click data collection in a collect call, we need to filter with either "/ee" or "collect?"

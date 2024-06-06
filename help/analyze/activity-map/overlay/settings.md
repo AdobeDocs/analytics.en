@@ -32,8 +32,6 @@ Access the Activity Map Settings panel accessed by clicking the gear icon on the
 
 These settings apply to the standard mode overlay.
 
-![](assets/settings_standard.png)
-
 | Setting | Description |
 | --- | --- |
 | **[!UICONTROL Dynamic Data Filtering]** | This drop-down list lets you show overlays for<ul><li>(default) All the links on the page</li><li>The top (highest) or bottom (lowest) # of ranked links on the page, where # can be a choice of 1, 10, 50, or 100.</li></ul> |
@@ -42,8 +40,6 @@ These settings apply to the standard mode overlay.
 ## Live settings {#section_D30F6E62FB5D404090B588F396A460AF}
 
 These settings apply to the live mode overlay.
-
-![](assets/settings_live.png)
 
 |  Setting  | Description  |
 |---|---|

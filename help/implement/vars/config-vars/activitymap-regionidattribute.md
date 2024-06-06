@@ -6,58 +6,45 @@ role: Admin, Developer
 ---
 # ActivityMap.regionIDAttribute
 
-The `ActivityMap.regionIDAttribute` variable lets you add an attribute that Activity Map looks for when determining the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension. 
+The `ActivityMap.regionIDAttribute` variable lets you change the attribute that Activity Map looks for when determining the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension. If your site is structured in a way that makes the `id` attribute less useful for Activity Map region, you can set this variable to look at a different attribute.
 
-String that identifies the tag attribute to use as region ID from some ancestor (parent, parent.parent, ...) element of `s.linkObject`, i.e., **the element that was clicked**.
+## Region ID attribute in the Web SDK extension
 
-**Example**
+When **[!UICONTROL Enable click data collection]** is enabled, use the **[!UICONTROL Filter click properties]** callback code block. Within this code block, you can check the value of `content.clickedElement`, and either change the value or abandon the collection of link tracking data.
 
-Defaults to the "id" parameter. You can set this to another parameter.
+## Region ID attribute in the Web SDK JavaScript library
 
-**Customized Region Tracking**
+When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. Inside this callback, you can check the value of `clickedElement`, and customize the logic of the region collected.
 
-You can customize the Region parameter for a link (default is link ID): A tag set to "ID" will use all HTML elements with an "id" parameter as a Region. Hence, setting the Region tag to "id" will most likely return a lot of distinct regions (as many as there are different "IDs" on the page). Alternatively, if you want a more customized implementation, you can set the region tag to something more specific, such as "region_id".
-
-Below, you can view some sample HTML using the default region ID attribute, "id".
-
-```html
-<div id="content">
-  <div id="breaking_news">
-    <a href="breaking-news.html">...</a>
-  </div>
-  <div id="todays_top_headlines">
-    <a href="breaking-news.html">...</a>
-  </div>
+```js
+alloy("configure", {
+  clickCollectionEnabled: true,
+  filterClickDetails: function(content) {
+    // If the clicked element was in a table, set the region to the contents of the data-custom attribute
+    // If the clicked element was not in a table, or if the data-custom attribute doesn't exist, leave region as-is
+    content.region = content.clickedElement.closest('table')?.getAttribute('data-custom') || content.region;
+  }
+});
 ```
 
-If you want, you can tag elements with an arbitrary string identifier, in this case "lpos", and then add attributes with the name "lpos".
+## Region ID attribute using the Adobe Analytics extension
+
+There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+
+## s.ActivityMap.regionIDAttribute using AppMeasurement
+
+The `s.ActivityMap.regionIDAttribute` variable is a string that represents the attribute to determine the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension. This variable is set to `id` by default. If you change this variable, Activity Map no longer looks for the `id` attribute, but still looks for other criteria to determine region (such as semantic elements).
 
 ```html
-<script language="JavaScript" type="text/javascript">
-s.ActivityMap.regionIDAttribute = "lpos";
+<script>
+  var s = s_gi("examplersid");
+  s.ActivityMap.regionIDAttribute = "data-custom";
 </script>
-<div id="nav" lpos="navbar">
-  <ul>
-    <li>Menu Category A
-      <ul>
-        <li><a href="">Menu Item A 1</a>
-        <li><a href="">Menu Item A 2</a>
-      </ul>
-    </li>
-    <li>Menu Category B
-      <ul>
-        <li><a href="">Menu Item B 1</a>
-        <li><a href="">Menu Item B 2</a>
-      </ul>
-    </li>
-  </ul>
-</div> 
-  
-<div id="content">
-  <div id="breaking_news" lpos="breaking_news">
-    <a href="breaking-news.html">...</a>
-  </div>
-  <div id="todays_top_headlines">
-    <a href="breaking-news.html">...</a>
-  </div>
+
+<!-- Clicking any of these links populates the region dimension with 'left-nav' -->
+<div id="676967617A656C6C65" data-custom="left-nav">
+  <a href="index.html">Home</a>
+  <a href="products.html">View our products</a>
+  <a href="contact.html">Contact us</a>
+</div>
 ```

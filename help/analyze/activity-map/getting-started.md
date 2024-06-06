@@ -96,7 +96,6 @@ When Activity Map is enabled for both your report suite and implementation, you 
 * [[!UICONTROL Activity Map Link]](/help/components/dimensions/activity-map-link.md)
 * [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md)
 * [[!UICONTROL Activity Map Region]](/help/components/dimensions/activity-map-region.md)
-* [[!UICONTROL Activity Map Scroll Reach]](/help/components/dimensions/activity-map-scroll-reach.md)
 * [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md)
 
 ## Download and install the browser extension or add-on

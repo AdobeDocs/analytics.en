@@ -6,7 +6,7 @@ feature: Variables
 ---
 # ActivityMap.regionExclusions
 
-The `ActivityMap.regionExclusions` variable lets you selectively filter or exclude Activity Map data based on the text in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension.
+The `ActivityMap.regionExclusions` variable lets you selectively filter or exclude Activity Map data based on the dimension items collected in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension.
 
 ## Region exclusions in the Web SDK extension
 
@@ -34,7 +34,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.ActivityMap.regionExclusions using AppMeasurement
 
-The `s.ActivityMap.regionExclusions` variable is a string containing comma-delimited values of phrases to exclude from Activity Map tracking. If any of the phrases match the value collected in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension, all Activity Map data is removed from the hit.
+The `s.ActivityMap.regionExclusions` variable is a string containing comma-delimited phrases to exclude from Activity Map tracking. If any of the phrases match the value collected in the [Activity Map Region](/help/components/dimensions/activity-map-region.md) dimension, all Activity Map data is removed from the hit.
 
 ```html
 <script>

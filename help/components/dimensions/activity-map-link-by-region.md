@@ -6,7 +6,7 @@ role: User, Admin
 ---
 # Activity Map Link By Region
 
-The 'Activity Map Link By Region' [dimension](overview.md) displays a concatenation of [Activity Map Link](activity-map-link.md) and [Activity Map Region](activity-map-link-by-region.md). This dimension is useful when you have links that are named similarly, but reside in different regions of your site. For example, if you many many links to your home page that are all labeled "Home", you can use this dimension to distinguish those links in each site region.
+The 'Activity Map Link By Region' [dimension](overview.md) displays a concatenation of [Activity Map Link](activity-map-link.md) and [Activity Map Region](activity-map-link-by-region.md). This dimension is useful when you have links that are named similarly, but reside in different regions of your site. For example, if you have multiple links to your home page that are all labeled "Home", you can use this dimension to distinguish those links in each site region.
 
 ## Populate this dimension with data
 

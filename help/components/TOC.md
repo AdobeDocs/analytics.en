@@ -13,6 +13,10 @@ user-guide-description: Manage data using components like Segments, Calculated M
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)
+  + [Activity Map Link By Region](dimensions/activity-map-link-by-region.md)
+  + [Activity Map Link](dimensions/activity-map-link.md)
+  + [Activity Map Page](dimensions/activity-map-page.md)
+  + [Activity Map Region](dimensions/activity-map-region.md)
   + [Ad Platform Consent](dimensions/ad-consent.md)
   + [All search page rank](dimensions/all-search-page-rank.md)
   + [AM/PM](dimensions/am-pm.md)

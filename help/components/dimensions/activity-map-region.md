@@ -14,13 +14,12 @@ This dimension retrieves data from the [Context data variable](/help/implement/v
 
 For a given link that was clicked, check the parent DOM element for the following (in order):
 
-* A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)
-* A value in the `id` attribute
+* A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) - set to the `id` attribute by default
 * A value in the `aria-label` attribute when the attribute `role="region"`
 * The semantic elements `<header>`, `<main>`, `<footer>`, or `<nav>`
 
-If the parent DOM element does not meet any of the specified criteria, the search continues recursively up the DOM hierarchy. If no matching elements are found, the value `BODY` is returned.
+If the parent DOM element does not meet any of the above criteria, the search continues recursively up the DOM hierarchy. If no matching elements are found, the value `BODY` is returned.
 
 ## Dimension items
 
-Dimension items include regions you have labeled on your site. Specific region values depend on what `id` attributes are used, and if semantic HTML elements are present.
+Dimension items include regions you have labeled on your site. Specific region values depend on what attributes are used, and if semantic HTML elements are present.

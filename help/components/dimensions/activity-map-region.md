@@ -22,4 +22,4 @@ If the parent DOM element does not meet any of the above criteria, the search co
 
 ## Dimension items
 
-Dimension items include regions you have labeled on your site. Specific region values depend on what attributes are used, and if semantic HTML elements are present.
+Dimension items include regions that you have labeled on your site. Specific region values depend on what attributes are used, and if semantic HTML elements are present.

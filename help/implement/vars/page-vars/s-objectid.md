@@ -54,4 +54,4 @@ Some sites have links that point to the same location in different places. For e
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-Even if links point to the same URL, Activity Map can use the `s_objectID` variable to correctly distinguish them in reporting.
+Even if links point to the same URL, Activity Map can use the `s_objectID` variable to distinguish them in reporting correctly.

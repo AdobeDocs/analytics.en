@@ -8,7 +8,7 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 ---
 # Activity Map Link
 
-The 'Activity Map Link' [dimension](overview.md) displays the most popular links that were clicked. You can use this dimension to directly compare which links on your site are used the most, regardless of where the links were clicked.
+The 'Activity Map Link' [dimension](overview.md) displays the most popular links that were clicked. You can use this dimension to compare which links on your site are used the most, regardless of where the links were clicked.
 
 ## Populate this dimension with data
 

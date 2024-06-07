@@ -13,7 +13,7 @@ If you don't see data for Activity Map dimensions, use this page to help determi
 
 First, make sure that AppMeasurement correctly collects Activity Map data.
 
-1. Download and install the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html).
+1. Download and install the [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home).
 2. Navigate to your web page, then click on a link.
 3. When the subsequent page loads, open the debugger. Validate that you see Activity Map context data variables sandwiched between `activitymap.` and `.activitymap`:
 
@@ -28,7 +28,7 @@ Check each of the following to make sure Activity Map components are present:
   * Make sure that the `linkInternalFilters` variable is set to desired values. If a clicked link does not match internal filters, Activity Map considers it an exit link and does not collect data.
 * **Activity Map overlay running**: AppMeasurement does not track click data for your web page when the Activity Map overlay is enabled.
 
-Shows the browser parameters that are not compatible with the use of Activity Map. You should disable these settings.
+Shows the browser parameters that are not compatible with the use of Activity Map. Adobe recommends disabling these settings.
 
 ## Chrome
 
@@ -65,11 +65,5 @@ Adobe Experience Platform Debugger:
 1. Download and install the [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Go to [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Connect to Edge]. 
 
-* **The interact call is not firing in the Network tab.**
-   The click data collection in a collect call, we need to filter with either "/ee" or "collect?"
-
-* **There is no Payload Display for the collect call.**
-   The collect call is designed in such a way that the tracking should not affect  navigation to other sites, so the document unload feature is applicable for the collect calls. This won't impact your data collection but if you need to validate on page, add target = "_blank" to the respective element. Then the link opens in a new tab.
-
-* **How do I ignore the collection of PII?**
-   Add the respective conditions in<< on before link click send callback>> and return false to ignore those values. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)  
+* **The interact call is not firing in the Network tab**: The click data collection in a collect call, filter with either `"/ee"` or `"collect?"`.
+* **There is no Payload Display for the collect call**: The collect call is designed in such a way that the tracking does not affect navigation to other sites, so the document unload feature is applicable for the collect calls. This feature won't impact your data collection but if you need to validate on page, add `target="_blank"` to the respective element. The link opens in a new tab.

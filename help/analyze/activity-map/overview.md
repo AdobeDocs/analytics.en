@@ -1,5 +1,5 @@
 ---
-description: Rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.
+description: Rank link activity using visual overlays to monitor audience engagement of your web pages.
 title: Activity Map overview
 feature: Activity Map
 role: User, Admin
@@ -7,8 +7,7 @@ exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 ---
 # Activity Map overview
 
-Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks and scrolling behavior. Activity Map generates heat maps and overlay reports that illustrate the popularity and effectiveness of various elements on a webpage, helping you optimize your digital experiences and drive higher conversions.
-introduction to tool
+Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks and scrolling behavior. Activity Map generates heat maps and overlay reports that show the most popular elements on a webpage, helping you optimize your digital experiences.
 
 This section of the documentation focuses on the Activity Map overlay. However, there are other important parts to using Activity Map:
 

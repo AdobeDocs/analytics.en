@@ -55,7 +55,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Instead of completely replacing default link logic, you can conditionally alter it.
+Instead of completely replacing the default link logic, you can conditionally alter it.
 
 ```html
 <script>

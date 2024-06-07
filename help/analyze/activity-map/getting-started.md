@@ -12,7 +12,7 @@ Activity Map in Adobe Analytics comprises four main elements:
 * **Report suite setting**: You must enable Activity Map in Report suite settings. When enabled, the report suite creates several reserved variables for Activity Map dimensions and metrics.
 * **Implementation**: Collect Activity Map data on your website or property. Customizing how data is collected can improve the quality and experience of reports.
 * **Workspace dimensions and metrics**: When your implementation is correctly configured, you can use Activity Map dimensions and metrics in Analysis Workspace.
-* **Overlay**: Adobe offers a browser extension to view Activity Map data in context of your website.
+* **Overlay**: Adobe offers a browser extension to view Activity Map data in the context of your website.
 
 ## Enable report suite setting
 
@@ -64,7 +64,7 @@ alloy("configure", {
 
 +++Adobe Analytics tag extension
 
-The **[!UICONTROL Use Activity Map]** configuration setting handles Activity Map data collection and is typically enabled by default. It is available for all tag extensions v1.9.0 or later. You can check to make sure that is is enabled in the extension's configuration settings:
+The **[!UICONTROL Use Activity Map]** configuration setting handles Activity Map data collection and is typically enabled by default. It is available for all tag extensions v1.9.0 or later. You can check to make sure that it is enabled in the extension's configuration settings:
 
 1. Log in to [experience.adobe.com](https://experience.adobe.com)
 1. Select **[!UICONTROL Data Collection]** in the quick access menu or the product selector in the top right.
@@ -76,7 +76,7 @@ The **[!UICONTROL Use Activity Map]** configuration setting handles Activity Map
 1. Select **[!UICONTROL Save]**.
 1. If needed, build your changes to a library and publish your changes to production.
 
-See [Adobe Analytics extension overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) for more information.
+See the [Adobe Analytics extension overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) for more information.
 
 +++
 

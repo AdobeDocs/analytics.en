@@ -6,7 +6,7 @@ role: User, Admin
 ---
 # Activity Map Page
 
-The 'Activity Map Page' [dimension](overview.md) displays what pages a visitor was on when a link was clicked. You can use this dimension to determine what pages contain links that get clicked on the most. This dimension is also used by the Activity Map overlay to determine which links to display.
+The 'Activity Map Page' [dimension](overview.md) displays the page that a visitor was on when a link was clicked. You can use this dimension to determine what pages contain links that get clicked on the most. This dimension is also used by the Activity Map overlay to determine which links to display.
 
 ## Populate this dimension with data
 

@@ -18,7 +18,7 @@ AppMeasurement collects this data using the [`pageName`](/help/implement/vars/pa
 
 ## Dimension items
 
-Dimension items include the names of pages on your site. Your organization determines what specific dimension items you want to use. Some organizations directly use `document.title`, while others formulate a custom breadcrumb. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
+Dimension items include the names of pages on your site. Your organization determines what specific dimension items that you want to use. Some organizations directly use `document.title`, while others formulate a custom breadcrumb. Whatever method you use, make sure it is consistent and that you record it in a [solution design document](/help/implement/prepare/solution-design.md).
 
 >[!NOTE]
 >

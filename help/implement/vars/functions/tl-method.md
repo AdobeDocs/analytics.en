@@ -150,7 +150,7 @@ s.tl(true,"o","Example link");
 
 ### Make link tracking calls within a custom function
 
-You can consolidate link tracking code into a self-contained JavaScript function defined on the page or in a linked JavaScript file. Calls can then be made in the onClick function of each link. Set the following in a JavaScript file:
+You can consolidate link tracking code into a self-contained JavaScript function. Calls can then be made in the `onClick` function of each link. Set the following in a JavaScript file:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -167,6 +167,9 @@ You can then call the function whenever you want to track a given link:
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>Calling the `tl()` method indirectly can make Activity Map overlay reporting less convenient. You must click each link to register the function with the link element. However, Activity Map dimensions in Workspace are tracked the same.
 
 ### Avoid tracking duplicate links
 

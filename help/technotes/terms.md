@@ -8,7 +8,7 @@ feature: Implementation Basics
 
 Use this glossary to understand the context of many terms Adobe Analytics uses.
 
-* **Activity map:** A browser plug-in that shows what areas on your site were clicked on the most. See [Activity Map](/help/analyze/activity-map/activity-map.md) in the Analyze user guide.
+* **Activity map:** A browser plug-in that shows what areas on your site were clicked on the most. See [Activity Map](/help/analyze/activity-map/overview.md) in the Analyze user guide.
 * **Admin console:** Can refer to:
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](/help/admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.

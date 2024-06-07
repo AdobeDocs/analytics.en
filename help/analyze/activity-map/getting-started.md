@@ -27,7 +27,7 @@ Your implementation must be correctly configured to send Activity Map data to Ad
 
 +++Web SDK tag extension
 
-Activity Map data collection requires the **[!UICONTROL Adobe Experience Platform Web SDK]** extension v2.23 or later. Extension versions down to v2.16 have limited support. These previous extension versions send Activity Map data in a separate event from the rest of your data. This extra event increases the number of rows that you send to Adobe Analytics or Adobe Experience Platform.
+Activity Map data collection requires the **[!UICONTROL Adobe Experience Platform Web SDK]** extension v2.23 or later. Extension versions down to v2.16 have limited support. These previous extension versions send Activity Map data in a separate event from the rest of your data. This extra event increases the number of hits that you send to Adobe Analytics or Adobe Experience Platform.
 
 The **[!UICONTROL Click data collection]** configuration setting handles Activity Map data collection and is typically enabled by default. You can check to make sure that it is enabled in the extension's configuration settings:
 
@@ -47,7 +47,7 @@ See [Configure the Web SDK tag extension](https://experienceleague.adobe.com/en/
 
 +++Web SDK JavaScript library (`alloy.js`)
 
-Activity Map data collection requires the Web SDK JavaScript library v2.20 or later. Library versions down to v2.15 have limited support. These previous library versions send Activity Map data in a separate event from the rest of your data. This extra event increases the number of rows that you send to Adobe Analytics or Adobe Experience Platform.
+Activity Map data collection requires the Web SDK JavaScript library v2.20 or later. Library versions down to v2.15 have limited support. These previous library versions send Activity Map data in a separate event from the rest of your data. This extra event increases the number of hits that you send to Adobe Analytics or Adobe Experience Platform.
 
 The Web SDK configuration variable [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) handles the automatic collection of Activity Map data. It is enabled by default unless explicitly disabled.
 
@@ -94,8 +94,8 @@ The Activity Map module handles Activity Map data collection, and is included wi
 When Activity Map is enabled for both your report suite and implementation, you can begin using the following dimensions in Analysis Workspace:
 
 * [[!UICONTROL Activity Map Link]](/help/components/dimensions/activity-map-link.md)
-* [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md)
 * [[!UICONTROL Activity Map Region]](/help/components/dimensions/activity-map-region.md)
+* [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md)
 * [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md)
 
 ## Download and install the browser extension or add-on

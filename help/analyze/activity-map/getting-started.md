@@ -1,7 +1,8 @@
 ---
 title: Getting started with Activity Map
-description:
+description: Get started using the Activity Map overlay and dimensions.
 feature: Activity Map
+role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 ---
 # Getting started with Activity Map

@@ -14,8 +14,6 @@ Access the Activity Map Settings panel accessed by clicking the gear icon on the
 
 ## General settings {#section_697A12F099494D699A4BF498598178C5}
 
-![](assets/settings_other.png)
-
 | Setting | Description |
 | --- | --- |
 | **[!UICONTROL Companies]** | Select the applicable login company. |

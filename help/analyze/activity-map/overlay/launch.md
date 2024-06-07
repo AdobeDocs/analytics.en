@@ -12,8 +12,6 @@ Assuming that the correct browser/extension is [installed](../getting-started.md
 ## Launch in Chrome
 
 1. Click the Chrome Extensions icon at the top right.
-   ![Activity Map extension](../assets/chrome2.png)
 1. Click Activity Map.
-   ![Launch Activity Map](../assets/chrome3.png)
 1. Sign in with your profile, username and password.
 1. The application should launch, displaying the toolbar and overlays.

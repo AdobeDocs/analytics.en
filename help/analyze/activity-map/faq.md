@@ -39,7 +39,7 @@ Every few seconds, Activity Map scans the web page looking for changes. Activity
 
 * Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the Links On Page table's Present column for that link updates with [!UICONTROL Displayed] or [!UICONTROL Hidden].
 
-* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the [!UICONTROL Links On Page] table. Activity Map sends a new data request that includes these new links. The new links should appear in the [!UICONTROL Links On Page] table when the data request is handled by the UI.
+* When user interaction creates new content, any new elements that AppMeasurement determines as a link are added to the [!UICONTROL Links On Page] table. Activity Map sends a new data request that includes these new links. The new links appear in the [!UICONTROL Links On Page] table when the data request is returned.
 
 +++
 
@@ -69,14 +69,14 @@ Some links, such as those contained within menus, are hidden from the page. As a
 
 +++How is link ranking determined in the All Links report?
 
-* **In Gradient and Bubble mode**: Rank is determined by the metric column. For links with same metric value, the rank is further based on link ID alphabetical order.
-* **In Gainer & Loser mode**: Rank is primarily determined by the % Gain column. For links with the same gain, the rank is further based on the link ID alphabetical order.
+* **In Gradient and Bubble mode**: The metric column determines rank. For links with the same metric value, the rank is further based on link ID alphabetical order.
+* **In Gainer & Loser mode**: The percent gained column determines rank. For links with the same gain, the rank is further based on the link ID alphabetical order.
 
 +++
 
 +++How does Activity Map work with pages that use multiple report suites?
 
-By default, Activity Map uses the report suite that is associated with the first tag that is sent by the page. You can select a different report suite through the **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** tab.
+By default, Activity Map uses the report suite that is associated with the first tag on the page. You can select a different report suite through the **[!UICONTROL Activity Map Settings]** > **[!UICONTROL Others]** tab.
 
 +++
 
@@ -123,7 +123,7 @@ No, segments do not work in Live mode.
 
 +++Is Activity Map compatible with virtual report suites?
 
-Yes. However, due to virtual report suite limitations, Activity Map's Live Mode is not compatible with virtual report suites.
+Yes. However, due to virtual report suite limitations, Activity Map's Live mode is not compatible with virtual report suites.
 
 +++
 
@@ -148,7 +148,7 @@ You can use the latest version of Chrome, Edge, or Firefox with the Activity Map
 
 +++
 
-+++What must I consider when using Activity Map around personally identifiable information?
++++What must I consider when using Activity Map for personally identifiable information?
 
 Consider the following scenarios where personally identifiable data can be collected using Activity Map: 
 
@@ -197,7 +197,7 @@ Alternatively, you can set the `s_objectID` variable, which stores the data to b
 
 +++What are some examples of links that Activity Map automatically tracks?
 
-The following are some examples where Activity Map has all required information to track the link.
+The following are some examples where Activity Map has all of the required information to track a link.
 
 ```html
 <a href="home.html">Home</a>
@@ -224,21 +224,21 @@ The following are some examples where Activity Map has all required information 
 The following are some examples where Activity Map does not track clicks.
 
 ```html
-<!-- Anchor tag does not have a valid href-->
+<!-- Anchor tag does not have a valid href -->
 <a name="innerAnchor">Section header</a>
 
-<!--Neither s_objectID or tl() method present-->
+<!-- Neither s_objectID or tl() method present -->
 <p onclick="showPanel('stock price')">
   <span class="title">Current company stock price</span>
   <span class="subtitle">987.65 USD</span>
 </p>
 
-<!--Neither s_objectID or tl() method present-->
+<!-- Neither s_objectID or tl() method present -->
 <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
 <input type="radio" onclick="changeState(this)" name="group1" value="B"/>
 <input type="radio" onclick="changeState(this)" name="group1" value="C"/>
 
-<!--src property missing a form input element-->
+<!-- src property missing on a form input element -->
 <input type="image"/>
 ```
 

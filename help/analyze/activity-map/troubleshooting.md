@@ -73,7 +73,3 @@ Adobe Experience Platform Debugger:
 
 * **How do I ignore the collection of PII?**
    Add the respective conditions in<< on before link click send callback>> and return false to ignore those values. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)  
-   
-   Sample code:
-
-   ![](assets/sample-code.png)

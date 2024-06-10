@@ -23,7 +23,6 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | --- | --- |
 | `xdm.application.isClose` | Helps define the mobile lifecycle metric [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | Helps determine when to increase the mobile lifecycle metric [First Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Helps determine when to increase the mobile lifecycle metric [First Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.closeType` | Determines if a close event is a crash or not. Valid values include `close` (A lifecycle session ends and a pause event was received for the previous session) and `unknown` (A lifecycle session ends without a pause event). Helps set the mobile lifecycle metric [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) metric. |
 | `xdm.application.isInstall` | The mobile lifecycle metric [Installs](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isLaunch` | The mobile lifecycle metric [Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |

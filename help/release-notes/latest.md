@@ -30,8 +30,8 @@ These release notes cover the release period of June 12, 2024 through July. Adob
 * Fixed the following Data Feeds issues: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527; 
 * Fixed the following Data Sources issue: AN-350038
 * Fixed the following Analysis Workspace issues: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
-* Fixed the following Report Builder issue: AN-348903; AN-350691
-* Fixed the following A4T issue: AN-347690; AN-350853
+* Fixed the following Report Builder issues: AN-348903; AN-350691
+* Fixed the following A4T issues: AN-347690; AN-350853
 
 ### Other Analytics fixes
 

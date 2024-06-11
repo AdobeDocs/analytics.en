@@ -25,13 +25,13 @@ These release notes cover the release period of June 12, 2024 through July. Adob
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350525; 
-* Fixed the following Data Warehouse issues: AN-346862; AN-349409; AN-349926; 
+* Fixed the following Classifications issues: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
+* Fixed the following Data Warehouse issues: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
 * Fixed the following Data Feeds issues: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527; 
 * Fixed the following Data Sources issue: AN-350038
-* Fixed the following Analysis Workspace issues: AN-342953; AN-346346; AN-349590
-* Fixed the following Report Builder issue: AN-348903
-* Fixed the following A4T issue: AN-347690
+* Fixed the following Analysis Workspace issues: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
+* Fixed the following Report Builder issue: AN-348903; AN-350691
+* Fixed the following A4T issue: AN-347690; AN-350853
 
 ### Other Analytics fixes
 

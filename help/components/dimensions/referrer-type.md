@@ -178,6 +178,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `weourfamily.com`
 * `wer-kennt-wen.de`
 * `wordpress.com`
+* `x.com`
 * `xanga.com`
 * `xing.com`
 * `yammer.com`

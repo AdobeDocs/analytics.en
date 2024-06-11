@@ -11,10 +11,8 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 ## How [!UICONTROL Low-Traffic] works
 
 * Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshold]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current threshold limits are:
-  * **[!UICONTROL Low threshold]**: >500,000 unique values during the month.
-  * **[!UICONTROL High threshold]**: >1,000,000 unique values during the month.
-* In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) 
-  This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul>
+  * **[!UICONTROL Low threshold]**: >2,000,000 unique values during the month.
+  * **[!UICONTROL High threshold]**: >2,100,000 unique values during the month.
 * Reporting is not affected if the variable does not reach the low threshold in a given month.
 * When a variable reaches the low threshold, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.

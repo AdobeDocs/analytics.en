@@ -127,6 +127,8 @@ To delete an account:
 
 System administrators can restrict users from creating accounts and locations, or they can limit the types of accounts users can create and use. 
 
+![Admin settings tab](assets/locations-admin-settings.png)
+
 ### Configure whether users can create and edit accounts
 
 By default, all users in the organization can create accounts and edit accounts they create in your Adobe Analytics environment, as described in [configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).

@@ -146,9 +146,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Statistical techniques used in anomaly detection](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
     + Intelligent Alerts {#intelligent-alerts}
       + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-      + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-      + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-      + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+      + [Create alerts](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [Manage alerts](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [Use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
   + [User preferences](analysis-workspace/user-preferences.md)
   + Workspace FAQs {#workspace-faq}
     + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)

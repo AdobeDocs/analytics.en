@@ -105,7 +105,9 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `kanshin.com`
 * `kozocom.com`
 * `last.fm`
+* `likeshop.me`
 * `linkedin.com`
+* `linkin.bio`
 * `livejournal.com`
 * `lnkd.in`
 * `meetup.com`

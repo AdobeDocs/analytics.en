@@ -17,14 +17,18 @@ Describes how to calculate common metrics using data feeds.
 
 1. Count the number of rows where a value is in `post_pagename` or `post_page_url`.
 
+## Occurrences
+
+1. Count the total number of rows.
+
 ## Visits
 
 1. Concatenate `post_visid_high`, `post_visid_low`, `visit_num`, and `visit_start_time_gmt`.
 1. Count the unique number of values.
 
->[!NOTE]
+>[!TIP]
 >
->Internet irregularities, system irregularities, or the use of custom visitor IDs can rarely use the same `visit_num` values for different visits. Use `visit_start_time_gmt` when counting visits to make sure that these visits are counted.
+>Internet irregularities, system irregularities, or the use of custom visitor IDs can rarely use the same `visit_num` values for different visits. While optional, use `visit_start_time_gmt` when counting visits to make sure that these visits are counted.
 
 ## Visitors
 

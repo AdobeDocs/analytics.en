@@ -9,7 +9,11 @@ exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-You can configure a cloud account (and a location on that account). A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes, such as Data Feeds and Data Warhouse, or Data Warehouse and Classification sets):
+>[!NOTE]
+>
+>Consider the following when creating and editing locations:<ul><li>System administrators can restrict users from creating locations, as described in [Configure whether users can create locations](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). If you can't create locations as described in this section, contact your system administrator.</li><li>A location can be edited only by the user who created it or by a system administrator.</li></ul>
+
+After you [configure a cloud account](/help/components/locations/configure-import-accounts.md), you can configure a location on that account. A single location can be used for any one of the following purposes (a single location cannot be associated with multiple purposes):
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -17,40 +21,48 @@ You can configure a cloud account (and a location on that account). A single loc
 
 You must configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
 
-For information about how to manage existing locations, including viewing, editing, and deleting locations, see [Locations manager](/help/components/locations/locations-manager.md).
+For information about how to view and delete existing locations, see [Locations manager](/help/components/locations/locations-manager.md).
 
-## Begin creating a cloud export location
+## Begin creating or editing a location
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
+
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Locations**] tab.
-1. Select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
+
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View locations for all users**] option to view locations created by all users in your organization. 
+   ![view locations for all users](assets/locations-all-users.png)
+
+1. To add a new location, select [!UICONTROL **Add location**]. (If you haven't already added an account, add one as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).)
+
+   The [!UICONTROL **Add location**] dialog displays
+
+   Or
+
+   To edit an existing location, select the 3-dot menu next to the location name, then select [!UICONTROL **Edit**].
    
-   The Location dialog displays.
+   The [!UICONTROL **Location details**] dialog displays.
 
 1. Specify the following information:
    |Field | Function | 
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li></ul> | 
-   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Add an account](#add-an-account). | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li><li>If you are creating a location for an Email account, select [!UICONTROL **Data Warehouse**] in this field. Email locations are not supported iwth Data Feeds and Classification sets.</li></ul> | 
+   | [!UICONTROL **Make location available to all users in your organization**] | **Note:** This functionality is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md). <p>Enable this option to allow other users in your organization to use the location.</p> <p>Consider the following when sharing locations:</p><ul><li>Locations that you share cannot be unshared.</li><li>Shared locations can be edited only by the owner of the location.</li><li>Locations can be shared only if the account that the location is associated with is also shared.</li></ul> |
+   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). | 
 
-1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
-
-   Continue with the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
-
-
+1. To complete the form for configuring the location, continue with the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
 
 ### Amazon S3 Role ARN
 
 To configure an Amazon S3 Role ARN location, specify the following information:
 
-1. [Begin creating or editing a cloud export location](#begin-creating-or-editing-a-cloud-export-location), as described above.
+1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
    |Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. </p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |  
-   | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+   | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. </p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |  
+   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
    {style="table-layout:auto"}
 
@@ -69,12 +81,12 @@ To configure an Amazon S3 Role ARN location, specify the following information:
 
 To configure a Google Cloud Platform location, specify the following information:
 
-1. [Begin creating or editing a cloud export location](#begin-creating-or-editing-a-cloud-export-location), as described above.
+1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
    |Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Bucket name**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |  
-   | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+   | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |  
+   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
 
    {style="table-layout:auto"}
 
@@ -93,12 +105,12 @@ To configure a Google Cloud Platform location, specify the following information
 
 To configure an Azure SAS location, specify the following information:
 
-1. [Begin creating or editing a cloud export location](#begin-creating-or-editing-a-cloud-export-location), as described above.
+1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
    |Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
-   | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
+   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
+   | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -117,14 +129,14 @@ To configure an Azure SAS location, specify the following information:
 
 To configure an Azure RBAC location, specify the following information:
 
-1. [Begin creating or editing a cloud export location](#begin-creating-or-editing-a-cloud-export-location), as described above.
+1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
    |Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
-   | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
-   | [!UICONTROL **Account name**] | The Azure storage account. | 
-
+   | [!UICONTROL **Account**] | The Azure storage account. | 
+   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
+   | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
+   
    {style="table-layout:auto"}
 
 1. Select [!UICONTROL **Save**].
@@ -136,6 +148,23 @@ To configure an Azure RBAC location, specify the following information:
    >[!NOTE]
    >
    >   If you previously used [FTP to import classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) to Adobe Analytics, you needed to upload a FIN file. This FIN file is not needed when importing from cloud accounts.
+
+### Email
+
+To configure an email location, specify the following information:
+
+1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
+
+   |Field | Function | 
+   |---------|----------|
+   | [!UICONTROL **Subject**] | The subject of the email message. | 
+   | [!UICONTROL **Notes**] | The content of the email message. |
+
+   {style="table-layout:auto"}
+
+1. Select [!UICONTROL **Save**].
+
+   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)). 
 
 ### Legacy account types
 

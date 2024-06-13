@@ -11,11 +11,11 @@ exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 >
 >Intelligent Alerts are available to Adobe Analytics Prime and Adobe Analytics Ultimate customers only.
 
-Intelligent Alerts (or just "alerts") in Adobe Analytics allow you to be notified immediately when abnormal events occur in your data. 
+Intelligent Alerts (or just "alerts") in Adobe Analytics allow you to be notified immediately when abnormal events occur in your data. (Server call usage alerts are a different kind of alert that are available only to Analytics administrators. These alerts notify you of the risk or occurrence of an overage in your server call consumption and commitment data. For more information, see [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
 For more detailed overview information about Intelligent Alerts, see [Intelligent Alerts overview](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-To create an alert:
+To create an Intelligent Alert:
 
 1. Begin creating an alert by accessing the alert builder. You can access the alert builder in any of the following ways:
 
@@ -26,7 +26,7 @@ To create an alert:
    * Open a project in Analysis Workspace, select one or more line items in a freeform table, then right-click and select **[!UICONTROL Create alert from selection]**.
      
      This instantly pre-populates the alert builder to create an alert with the correct metrics and filters.
-   * In Adobe Analytics, select **[!UICONTROL Components]** > [!UICONTROL **Alerts**] > **[!UICONTROL Create new alert]**.
+   * Create an alert [from the alert manager](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts). 
 
    The alert builder displays. This interface is familiar to those who have built segments or calculated metrics in Analytics:
 

@@ -22,7 +22,22 @@ To create alerts from the Alerts manager:
 
 1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
 
-1. Continue with [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) for more details about creating alerts.
+1. Select the alert type that corresponds to the alert that you want to create:
+
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
+
+     If you select this option, continue with [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) for more details about creating alerts.
+
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
+
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
+
+
+
 
 ## Manage existing alerts 
 

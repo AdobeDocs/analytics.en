@@ -33,7 +33,7 @@ For more information, see [Statistical techniques used in Anomaly Detection](/he
 
 ## Create alerts
 
-For information about how to create alerts in Adobe Analytics, see [Create alerts](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+For information about how to create alerts in Adobe Analytics, see [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >

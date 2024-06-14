@@ -14,15 +14,17 @@ When **[!UICONTROL Enable click data collection]** is enabled, use the **[!UICON
 
 ## Region exclusions in the Web SDK JavaScript library
 
-When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. Inside this callback, you can check the value of `linkRegion`, and either change the value or abandon the collection of link tracking data.
+When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the `clickCollection` object. Inside this callback, you can check the value of `linkRegion`, and either change the value or abandon the collection of link tracking data.
 
 ```js
 alloy("configure", {
   clickCollectionEnabled: true,
-  filterClickDetails: function(content) {
-    // If the clicked region has personal links in it, don't send click data
-    if(content.linkRegion.includes("personal")) {
-      return false;
+  clickCollection: {
+    filterClickDetails: function(content) {
+      // If the clicked region has personal links in it, don't send click data
+      if(content.linkRegion.includes("personal")) {
+        return false;
+      }
     }
   }
 });

@@ -16,7 +16,7 @@ For a given link that was clicked, check the parent DOM element for the followin
 
 * A value in the attribute set by [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) - set to the `id` attribute by default
 * A value in the `aria-label` attribute when the attribute `role="region"`
-* The semantic elements `<header>`, `<main>`, `<footer>`, or `<nav>`
+* The semantic elements `<header>`, `<main>`, `<footer>`, or `<nav>` (Web SDK only)
 
 If the parent DOM element does not meet any of the above criteria, the search continues recursively up the DOM hierarchy. If no matching elements are found, the value `BODY` is returned.
 

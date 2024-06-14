@@ -14,15 +14,17 @@ When **[!UICONTROL Enable click data collection]** is enabled, use the **[!UICON
 
 ## Region ID attribute in the Web SDK JavaScript library
 
-When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. Inside this callback, you can check the value of `clickedElement`, and customize the logic of the region collected.
+When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the `clickCollection` object. Inside this callback, you can check the value of `clickedElement`, and customize the logic of the region collected.
 
 ```js
 alloy("configure", {
   clickCollectionEnabled: true,
-  filterClickDetails: function(content) {
-    // If the clicked element was in a table, set the region to the contents of the data-custom attribute
-    // If the clicked element was not in a table, or if the data-custom attribute doesn't exist, leave region as-is
-    content.region = content.clickedElement.closest('table')?.getAttribute('data-custom') || content.region;
+  clickCollection: {
+    filterClickDetails: function(content) {
+      // If the clicked element was in a table, set the region to the contents of the data-custom attribute
+      // If the clicked element was not in a table, or if the data-custom attribute doesn't exist, leave region as-is
+      content.region = content.clickedElement.closest('table')?.getAttribute('data-custom') || content.region;
+    }
   }
 });
 ```

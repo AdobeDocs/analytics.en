@@ -14,19 +14,21 @@ When **[!UICONTROL Enable click data collection]** is enabled, use the **[!UICON
 
 ## Link exclusions in the Web SDK JavaScript library
 
-When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. Inside this callback, you can check the value of `linkName`, and either change the value or abandon the collection of link tracking data.
+When [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) is enabled, use the `filterClickDetails` callback in the `clickCollection` object. Inside this callback, you can check the value of `linkName`, and either change the value or abandon the collection of link tracking data.
 
 ```js
 alloy("configure", {
   clickCollectionEnabled: true,
-  filterClickDetails: function(content) {
-    // If the link is a clickable telephone number, anonymize it
-    if(content.linkUrl.includes("tel:")) {
-      content.linkName = content.linkUrl = "Phone number";
-    }
-    // If the link is an email address, anonymize it
-    if(content.linkUrl.includes("mailto:")) {
-      content.linkName = content.linkUrl = "Email address";
+  clickCollection: {
+    filterClickDetails: function(content) {
+      // If the link is a clickable telephone number, anonymize it
+      if(content.linkUrl.includes("tel:")) {
+        content.linkName = content.linkUrl = "Phone number";
+      }
+      // If the link is an email address, anonymize it
+      if(content.linkUrl.includes("mailto:")) {
+        content.linkName = content.linkUrl = "Email address";
+      }
     }
   }
 });

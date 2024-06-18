@@ -29,7 +29,11 @@ For overview information about the types of components you can add, see [Compone
 
 1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
 
-   For example, you can drag a segment to the segment drop zone in a panel header.
+1. (Optional) Drag a component to the segment drop zone in a panel header. 
+
+   Segments apply to all content within the panel.
+
+   For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
@@ -59,6 +63,10 @@ For overview information about the types of components you can add, see [Compone
 
      ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
+1. (Optional) You can break down dimensions and dimension items in Analysis Workspace with other components. 
+
+   For more information, see [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
 For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Add metrics to a project
@@ -87,31 +95,23 @@ For more information about how to use metrics in Analysis Workspace, see [Metric
 
 [Segments](/help/components/segmentation/seg-overview.md) allow you to identify subsets of visitors based on characteristics or specific interactions.
 
-To add a segment to a project in Analysis Workspace:
+You can use segments in Analysis Workspace in any of the following ways:
 
-1. Start adding a segment to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
+### Add segments to a panel
 
-1. Choose one of the following methods to begin filtering your panel:
+When you add segments to a panel, the segments apply to all content within the panel.
 
-   * Drag an individual segment from the left rail onto the segment drop zone.
+For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+### Add segments to a column in a freeform table
 
-   * Hold the Shift or Ctrl key to select multiple segments in the left rail, then hold the Shift key as you drop them onto the segment drop zone.
+When you add segments to a column in a freeform table, the segments apply to all content within the table column.
 
-     ![drop multiple segments in the drop zone](assets/segment-dropzoone-multiple.png)
+### Use segments when creating calculated metrics
 
-     This creates a drop-down menu, which allows users of the panel to choose the filter they want to apply. The drop-down menu contains a [!UICONTROL **No filter**] option that users can select, which leaves the panel unfiltered. 
-     
-     You can select the (x) to remove any option from the drop-down menu. If you remove the [!UICONTROL **No filter**] option, then a filter is required.
+In the Calculated metric builder, you can apply segments within your metric definition. 
 
-   * Create ad hoc segments by dragging non-segment components onto the drop zone. This can save you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
-
-     Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
-
-     For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-For more information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

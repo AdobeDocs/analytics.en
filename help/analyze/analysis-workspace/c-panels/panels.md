@@ -56,9 +56,9 @@ The panel drop zone enables you to apply segment and drop-down filters to all ta
 
 ### Segment filters
 
-Drag and drop any segment from the left rail into the panel drop zone to begin filtering your panel.
+Drag and drop any segment from the left rail into the panel drop zone to begin filtering your panel. Repeat this process to add additional filters to the panel. Filters appear side by side at the top of the panel.
 
-![Filter](/help/admin/admin/assets/filter.png)
+![Filter](assets/segment-filter.png)
 
 ### Ad hoc segment filters
 
@@ -68,45 +68,60 @@ Ad hoc segments are a type of quick segment, and are local to the project. They 
 
 For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Static drop-down filters
+### Static drop-down segments
 
-Drop-down filters enable you to interact with the data in a controlled way. For example, you can add a drop-down filter for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone or Desktop.
+Drop-down segments enable you to interact with the data in a controlled way. For example, you can add a drop-down segment for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone, or Desktop.
 
-Drop-down filters can be used to consolidate many projects into one as well. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down filter.
+Drop-down segments can also be used to consolidate many projects into one. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down segment.
 
 ![](assets/dropdown-filter-intro.png)
 
-To create a static drop-down filter:
+#### Create static drop-down segments
 
-* For drop-down filters using dimension items, click the right arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
-* For drop-down filters using other components such as metrics, segments, or date ranges, select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**. All component types are treated as segments in this context.
-* A single drop-down filter can only contain a single component type. If you include multiple component types in your selection, a separate drop-down filter is created per component type. For example, if you include both metrics and dimension items in your selection, two separate drop-down filters are created. One drop-down filter includes dimension items, and the other includes metrics.
+* For drop-down segments using dimension items, select a single dimension from the left rail and drop it into the panel dropzone **while holding `[Shift]`**. This creates a drop-down segment with all the dimension items that are associated with that dimension. 
 
-Select one of the options from the drop-down list to change the data in the panel. You can also choose to not filter any in the panel data by selecting **[!UICONTROL No filter]**.
+  Or, if you want the drop-down segment to include only specific dimension items that are associated with a dimension, click the right arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone while holding `[Shift]`.
 
-![](assets/create-dropdown.png)
+* For drop-down segments using a single component type (for example, only dimensions, or only segments, or only metrics), select multiple items of the same type in the left rail using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
 
-Right-clicking a drop-down filter provides the following options:
+  A single drop-down segment is created with components that you selected.
 
-* **[!UICONTROL Add label]**: When you add a drop-down filter to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
-* **[!UICONTROL Delete label]**: Remove the text above a drop-down filter.
-* **[!UICONTROL Delete drop-down filter]**: Removes the drop-down filter from the panel. 
+* For drop-down segments using a mix of component types (such as 2 metrics and 3 filters), select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**. All component types are treated as separate drop-down segments in this context. For example, if you include both metrics and dimension items in your selection, two separate drop-down segments are created: one drop-down segments includes dimension items, and the other includes metrics.
+
+  ![The Panel window with the Mobile Customer segment field available to drop a static drop-down segment. ](assets/create-dropdown.png)
+
+Right-clicking a drop-down segment provides the following options:
+
+* **[!UICONTROL Delete drop-down]**: Removes the drop-down segment from the panel. 
+* **[!UICONTROL Delete label]**: Remove the text above a drop-down segment.
+* **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
+* **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
 [Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
-### Dynamic drop-down filters
+#### Use static drop-down filters
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+Users can use the drop-down menu in any of the following ways in order to filter the panel:
+     
+* Apply a single filter to the panel by selecting the filter from the drop-down menu.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+* Apply multiple filters to the panel by selecting more than one filter from the drop-down menu. The panel is filtered to include any of the selected filters. 
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down filters for that panel.
+  ![Select multiple filters](assets/dropdown-filter-multiselect.png)
 
-To create a dynamic drop-down filter:
+### Dynamic drop-down segments
+
+Dynamic drop-down segments allow you to determine available values based on data within the panel's reporting range and values in other drop-down segments. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected segments are visible. Dimension items selected in static drop-down segments affect available values in dynamic drop-down segments. However, the inverse is not true; Dimension items selected in dynamic drop-down segments do not affect available values in static drop-down segments.
+
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down segment so that it does not contain a value, allowing other dynamic drop-down segments to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down segments for that panel.
+
+To create a dynamic drop-down segment:
 
 * Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Dynamic drop-down segments are not available for metrics, segments, or date ranges.
+* Right-click a drop-down segment and select **[!UICONTROL Delete dropdown]** to delete it.
 
 Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
 

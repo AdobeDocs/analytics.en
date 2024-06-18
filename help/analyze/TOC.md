@@ -25,6 +25,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + [Project table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Folders in Workspace {#workspace-folders}
       + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
       + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -72,6 +73,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)
     + Freeform table {#freeform-table}
       + [Freeform table](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+      + [Create hyperlinks for dimensions in a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
       + Column and row settings {#column-row-settings}
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

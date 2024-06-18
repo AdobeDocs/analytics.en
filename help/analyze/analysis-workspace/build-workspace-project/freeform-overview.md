@@ -98,7 +98,7 @@ Within a project, various icons are available in the left rail, and each represe
 
 * [Data dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![data dictionary icon](assets/data-dictionary-icon.png)
 
-* [Table of contents](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![toc icon](assets/toc-icon.png)
+* [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![toc icon](assets/toc-icon.png)
 
 Components (Dimensions, Metrics, Filters, Date Ranges) in the left rail relate to the active panel data view. The active panel is identified by the blue border that surrounds it, and the active data view is listed at the top of the component rail.
 

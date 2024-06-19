@@ -8,7 +8,7 @@ exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
 ---
 # Project table of contents
 
-A table of contents is available within each project. This allows you to quickly jump between panels and visualizations within the project. This is especially useful when viewing larger projects that contain many panels and visualizations.
+You can view a table of contents within each project in Analysis Workspace, allowing you to quickly move between any panels and visualizations that exist in the project. This is especially useful when viewing larger projects that contain many panels and visualizations.
 
 To view the table of contents on a project:
 
@@ -16,6 +16,8 @@ To view the table of contents on a project:
 
 1. In the left nav, select the table of contents icon ![toc icon](assets/toc-icon.png). 
 
-   The table of contents for the project is displayed and is expanded.
+   The table of contents for the project is displayed, and each panel is expanded by default.
 
-1. Click a section within the table of contents to jump to a panel or visualization within the project.
+   ![Project TOC expanded](assets/project-toc-expanded.png)
+
+1. In the table of contents, select a visualization to go to it within the project.

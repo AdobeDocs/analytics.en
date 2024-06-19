@@ -38,7 +38,7 @@ The Web SDK automatically determines the correct domain to set cookies.
 
 Set this field to `3` only on top-level domains that contain a period. Otherwise, this field can be left blank.
 
-## Cookie domain periods in code AppMeasurement and the Analytics extension custom code editor
+## Cookie domain periods in AppMeasurement and the Analytics extension custom code editor
 
 The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on top-level domains that contain a period. Its default value is `"2"`, which accommodates most top-level domains like `.com` and `.org`.
 

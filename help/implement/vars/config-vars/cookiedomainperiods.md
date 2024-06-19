@@ -21,7 +21,7 @@ The `cookieDomainPeriods` variable helped AppMeasurement determine where to set 
 >
 >Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement recognizes that cookies are stored on `example.com`, even on URLs with many subdomains.
 
-For implementations on AppMeasurement v2.26.x or later, the [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie is used to help automatically determine the correct cookie domain. The library first attempts to write a cookie including two domain periods. If setting this cookie fails, it tries again including more domain periods until it succeeds. This cookie is immediately deleted once set.
+For implementations on AppMeasurement v2.26.x or later, the [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie is used to help automatically determine the correct cookie domain. The library first attempts to write a cookie including two domain periods. If setting this cookie fails, it tries again, including more domain periods until it succeeds. This cookie is immediately deleted once set.
 
 ## Cookie domain periods using the Web SDK
 
@@ -36,7 +36,7 @@ The Web SDK automatically determines the correct domain to set cookies.
 1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
 
-Set this field to `3` only on top-level domains that contain a period. Otherwise this field can be left blank.
+Set this field to `3` only on top-level domains that contain a period. Otherwise, this field can be left blank.
 
 ## Cookie domain periods in code AppMeasurement and the Analytics extension custom code editor
 

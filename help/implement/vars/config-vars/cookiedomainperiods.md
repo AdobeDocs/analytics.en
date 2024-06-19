@@ -1,6 +1,6 @@
 ---
 title: cookieDomainPeriods
-description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
+description: (Deprecated) Help AppMeasurement determine where to store cookies when a website's top-level domain contains a period.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
@@ -43,6 +43,6 @@ Set this field to `3` only on top-level domains that contain a period. Otherwise
 The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on top-level domains that contain a period. Its default value is `"2"`, which accommodates most top-level domains like `.com` and `.org`.
 
 ```js
-// Manually set cookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
+// Manually set cookieDomainPeriods for domains with a period in the top-level domain, such as www.example.co.uk
 s.cookieDomainPeriods = "3";
 ```

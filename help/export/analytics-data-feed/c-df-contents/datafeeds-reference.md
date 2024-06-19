@@ -155,7 +155,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`namespace`** | Not used. Part of a scrapped feature. | varchar(50) |
 | **`new_visit`** | Flag that determines if the current hit is a new visit. Set by Adobe servers after 30 minutes of visit inactivity. | tinyint unsigned |
 | **`os`** | Numeric ID representing the operating system of the visitor. Based on the `user_agent` column. The key value for `operating_system.tsv` standard lookup and `operating_system_type.tsv` [Dynamic lookup](dynamic-lookups.md). | int unsigned |
-| **`p_plugins`** | No longer used. List of plugins available to the browser. Used the JavaScript function `navigator.plugins()`. | text |
+| **`p_plugins`** | No longer used. List of plug-ins available to the browser. Used the JavaScript function `navigator.plugins()`. | text |
 | **`page_event`** | The type of hit that is sent in the image request (standard hit, download link, custom link, exit link). See [Page event lookup](datafeeds-page-event.md). | tinyint unsigned |
 | **`page_event_var1`** | Only used in link tracking image requests. The URL of the download link, exit link, or custom link clicked.| text |
 | **`page_event_var2`** | Only used in link tracking image requests. The custom name (if specified) of the link. | varchar(100) |
@@ -167,7 +167,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`paid_search`** | Flag that is set if the hit matches paid search detection. | tinyint unsigned |
 | **`partner_plugins`** | Not used. Part of a scrapped feature. | varchar(255) |
 | **`persistent_cookie`** | Used in the [Persistent cookie support](/help/components/dimensions/persistent-cookie-support.md) dimension. Indicates if the visitor supports cookies that are not discarded after each hit. | char(1) |
-| **`plugins`** | No longer used. List of numeric ID's that correspond to plugins available within the browser. Uses `plugins.tsv` lookup. | varchar(180) |
+| **`plugins`** | No longer used. List of numeric ID's that correspond to plug-ins available within the browser. Uses `plugins.tsv` lookup. | varchar(180) |
 | **`pointofinterest`** | Mobile Services point of interest name | varchar(255) |
 | **`pointofinterestdistance`** | Mobile Services distance to point of interest center | varchar(255) |
 | **`post_`** columns | Contains the value ultimately used in reports. Each post column is populated after server-side logic, processing rules, and VISTA rules. Adobe recommends using post columns in most cases. | See respective non-post column |

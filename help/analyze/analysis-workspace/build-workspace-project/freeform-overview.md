@@ -69,7 +69,7 @@ Within a project, the menu provides options for managing your project, adding co
 
 ### Project Info & Settings {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** provides project-level information on the currently active project.
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** provides project-level information on the currently active project.
 
 ![](assets/projectinfo.png)
 
@@ -88,13 +88,23 @@ Settings include:
 
 ## Left rail {#left-rail}
 
-Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), tables, [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and [components](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) are accessed from the left rail. These are your project building blocks.
+Within a project, various icons are available in the left rail, and each represents important parts of a project:
 
-You can also access visualizations and panels from the [Blank Panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) as well. 
+* [Panels](/help/analyze/analysis-workspace/c-panels/panels.md) ![panels icon](assets/panels-icon.png)
 
-Components (Dimensions, Metrics, Segments, Date Ranges) in the left rail relate to the active panel report suite. The active panel will have a blue border around it, and the active report suite will be listed at the top of the component rail.
+* [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![visualizations icon](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![components icon](assets/components-icon.png)
+
+* [Data dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![data dictionary icon](assets/data-dictionary-icon.png)
+
+* [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![toc icon](assets/toc-icon.png)
+
+Components (Dimensions, Metrics, Filters, Date Ranges) in the left rail relate to the active panel data view. The active panel is identified by the blue border that surrounds it, and the active data view is listed at the top of the component rail.
+
+![The components relating to the active panel data view for Cross-Industry Demo Data data view.](assets/left-rail.png)
+
+
 
 ## Right-click menu
 

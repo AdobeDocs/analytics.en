@@ -9,6 +9,10 @@ exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
+>[!NOTE]
+>
+>Consider the following when creating and editing accounts: <ul><li>System administrators can restrict users from creating accounts, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</li><li>An account can be edited only by the user who created it or by a system administrator.</li></ul>
+
 You can configure a cloud account that is used for any or all of the following purposes:
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
@@ -17,22 +21,31 @@ You can configure a cloud account that is used for any or all of the following p
 
 You need to configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in this article, and then adding and configuring the location within that account (such as a folder within the account) as described in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-For information about how to manage existing accounts, including viewing, editing, and deleting accounts, see [Locations manager](/help/components/locations/locations-manager.md).
+For information about how to view and delete existing accounts, see [Locations manager](/help/components/locations/locations-manager.md).
 
 To configure a cloud import or export account:
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
-1. Select [!UICONTROL **Add account**].
+1. (Conditional) If you are a system administrator, you can enable the [!UICONTROL **View accounts for all users**] option to view accounts created by all users in your organization. 
+   ![view accounts for all users](assets/accounts-all-users.png)
+1. To create a new account, select [!UICONTROL **Add account**].
 
-   The Add account dialog displays.   
+   The [!UICONTROL **Location account details**] dialog displays.
+
+   Or
+
+   To edit an existing account, locate the account that you want to edit, then select the [!UICONTROL **Edit details**] button.
+
+   The [!UICONTROL **Add account**] dialog displays.   
   
 1. Specify the following information:
    |Field | Function | 
    |---------|----------|
    | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
    | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. | 
+   | [!UICONTROL **Make account available to all users in your organization**] | **Note:** This functionality is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md). <p>Enable this option to allow other users in your organization to use the account.</p> <p>Consider the following when sharing accounts:</p><ul><li>Accounts that you share cannot be unshared.</li><li>Shared accounts can be edited only by the owner of the account.</li><li>Anyone can create a location for the shared account.</li></ul> |
+   | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account.<p>System administrators can limit the account types that users can create, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</p> | 
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
    For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. (Additional legacy account types are also available, but are not recommended.)
@@ -88,6 +101,22 @@ To configure a cloud import or export account:
       | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
       | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
       | [!UICONTROL **Location account secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+
+      {style="table-layout:auto"}
+
+   +++
+
+   +++Email
+
+      >[!NOTE]
+      >
+      >Email accounts can be used only with [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email accounts are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)).
+      
+      To configure an Azure RBAC account, specify the following information:
+
+      |Field | Function | 
+      |---------|----------|
+      | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. | 
 
       {style="table-layout:auto"}
 

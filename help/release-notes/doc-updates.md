@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **June 2024** | |
+| Improved Intelligent Alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [managing alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), and [overview information](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). | 
 | **May 2024** | |
 | Required information when using organization policy constraints with Google Cloud Platform in Data Feeds and Data Warehouse | Added the Adobe-owned Google Cloud Platform organization ID to the [Data Feeds](/help/export/analytics-data-feed/create-feed.md) and [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentation. <p>This information is required only for organizations that are using [Organization policy constraints](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform.</p> | 
 | Documentation about adding components to projects | Added general information about how to [add the various types of components to projects in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |

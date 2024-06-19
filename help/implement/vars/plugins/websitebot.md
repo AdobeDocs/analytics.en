@@ -88,7 +88,7 @@ Copy and paste the following code anywhere in the AppMeasurement file after the 
 
 ## Use the plug-in
 
-The `websiteBot` plugin fires a `s.tl` call if non-bot traffic is detected.
+The `websiteBot` plug-in fires a `s.tl` call if non-bot traffic is detected.
 
 ## Examples
 

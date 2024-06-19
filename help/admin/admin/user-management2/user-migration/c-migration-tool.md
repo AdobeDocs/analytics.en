@@ -263,7 +263,7 @@ Important information about the migration process and how it impacts current use
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Log-in As </p> </td> 
-   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console will no longer be able to use the "Log-In As" function to access non-Admin user accounts that have been migrated to the Adobe Admin Console. This feature is being deprecated from Analytics. </p> </td> 
+   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console will no longer be able to use the "Log-In As" function to access non-Admin user accounts that have been migrated to the Adobe Admin Console. This feature is retired. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User expiration and asset transfer </p> </td> 

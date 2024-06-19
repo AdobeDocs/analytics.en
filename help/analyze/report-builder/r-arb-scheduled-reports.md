@@ -11,11 +11,11 @@ The [!UICONTROL Scheduled Task Manager] lets you see a list of existing schedule
 
 ## Pausing older scheduled tasks 
 
-On April 21, 2022, we rolled out changes to scheduled tasks in Report Builder as part of our performance and delivery optimization efforts. These changes included removing the ability to have scheduled deliveries “end after x occurrences.” In response to several customer requests seeking more time to explore and implement alternatives, we have decided to restore this option in a limited fashion until **Jan 31, 2023**. 
+On April 21, 2022, we rolled out changes to scheduled tasks in Report Builder as part of our performance and delivery optimization efforts. These changes included removing the ability to have scheduled deliveries "end after x occurrences." In response to several customer requests seeking more time to explore and implement alternatives, we have decided to restore this option in a limited fashion until **Jan 31, 2023**. 
 
-You will continue to be able to schedule hourly Report Builder tasks and have them end after a maximum of 99 occurrences. Please note that the rollback only applies to hourly tasks; the “end after x occurrences” will remain unavailable for all other delivery intervals (daily, weekly, monthly, and yearly). 
+You will continue to be able to schedule hourly Report Builder tasks and have them end after a maximum of 99 occurrences. Please note that the rollback only applies to hourly tasks; the "end after x occurrences" will remain unavailable for all other delivery intervals (daily, weekly, monthly, and yearly). 
 
-Please note that this option will be deprecated on January 31, 2023. 
+Please note that this option is retired as of January 31, 2023. 
 For more questions or support, please reach out to Adobe Customer Care.
 
 Specifically, this pause applies to **any tasks created before January 31, 2020**. No tasks, workbooks or data will be deleted. Tasks that are older than two years will be paused, and no additional scheduled tasks will be sent.

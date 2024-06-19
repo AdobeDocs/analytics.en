@@ -111,7 +111,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1 (June 22, 2021)
 
-* Fixed an issue where certain special characters would cause the plugin to break
+* Fixed an issue where certain special characters would cause the plug-in to break
 
 ### 5.0 (March 19, 2021)
 

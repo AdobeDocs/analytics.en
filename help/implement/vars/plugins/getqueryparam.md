@@ -130,7 +130,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (March 19, 2021)
 
 * Added version number as context data.
-* Removed dependencies on pt plugin.
+* Removed dependencies on `pt` plug-in.
 
 ### 3.3 (September 24, 2019)
 

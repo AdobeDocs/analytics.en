@@ -1,6 +1,6 @@
 ---
 title: trackInlineStats
-description: Enable or disable ClickMap in your implementation.
+description: (Retired) Enable or disable ClickMap in your implementation.
 keywords: disable clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483

@@ -9,7 +9,13 @@ role: Admin, Developer
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->This variable is deprecated. If you use AppMeasurement v2.26.x or later, or the Adobe Analytics extension v1.9.4 or later, the library automatically detects the domain to set cookies on.
+>This variable is deprecated. If you use any of the following:
+>
+>* AppMeasurement v2.26.x or later
+>* Adobe Analytics extension v1.9.4 or later
+>* Adobe Experience Cloud ID service
+>
+>This variable does nothing, as the applicable library automatically detects the domain to set cookies on.
 
 The `cookieDomainPeriods` variable helped AppMeasurement determine where to set Analytics cookies by indicating that the top-level domain had an extra period in it. This variable allowed AppMeasurement to accommodate the extra period in the top-level domain and set cookies in the correct location. If your website's top-level domain does not include an extra period, this variable is not required.
 

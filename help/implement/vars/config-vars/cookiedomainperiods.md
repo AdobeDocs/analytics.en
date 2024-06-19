@@ -13,7 +13,7 @@ role: Admin, Developer
 >
 >* AppMeasurement v2.26.x or later
 >* Adobe Analytics extension v1.9.4 or later
->* Experience Cloud ID service
+>* Adobe Experience Cloud ID service
 >
 >This variable does nothing, as the applicable library automatically detects the domain to set cookies on.
 

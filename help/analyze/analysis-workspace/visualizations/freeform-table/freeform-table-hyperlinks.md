@@ -31,6 +31,8 @@ Consider the following when creating hyperlinks for dimension items:
 
 * Hyperlinks that are created for a single dimension item override hyperlinks that are created on the dimension.
 
+* Hyperlinks are not functional in [downloaded PDF files](/help/analysis-workspace/export/download-send.md). 
+
 To create hyperlinks for one or more dimension items:
 
 1. In a freeform table in Analysis Workspace, do one of the following:

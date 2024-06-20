@@ -51,7 +51,6 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
     + [Set up FTP accounts - overview](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
     + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
     + [Data Sources](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-    + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
     + [Data Feeds](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
     + [Data Warehouse delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
     + [Report Builder delivered reports](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)

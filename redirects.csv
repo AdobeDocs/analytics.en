@@ -550,3 +550,5 @@ source,destination
 /docs/analytics/technotes/rdc/regional-data-collection,/docs/core-services/interface/data-collection/rdc
 /docs/analytics/technotes/rdc/ssl-cert-licensing,/docs/core-services/interface/data-collection/adobe-managed-cert
 /docs/analytics/technotes/rdc/encryption-algos,/docs/core-services/interface/data-collection/adobe-managed-cert
+/docs/analytics/import/dataconnectors/data-connectors-eol,/docs/discontinued/using/data-connectors
+/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-genesis,/docs/discontinued/using/data-connectors

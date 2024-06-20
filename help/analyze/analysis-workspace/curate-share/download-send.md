@@ -15,7 +15,7 @@ Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically
 
 Consider the following when downloading projects:
 
-* When downloading projects as a CSV or PDF, the project can be saved or unsaved when you request a project download. However, only saved projects can be [scheduled](/help/analysis-workspace/export/t-schedule-report.md). 
+* When downloading projects as a CSV or PDF, the project can be saved or unsaved when you request a project download. However, only saved projects can be [scheduled](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). 
 
 * When downloading projects as a PDF:
   * Downloads can take several minutes to export because the project is re-run on Adobe servers before rendering in PDF format. We recommend not leaving the project until the PDF downloads in your browser. However, you can continue to make changes to the project while you wait. If a PDF takes longer than 5 minutes to render, you will be prompted to email it instead.

@@ -17,10 +17,6 @@ This functionality is particularly useful when creating hyperlinks for the follo
 
 * Dimension items or breakdowns that have values that are part of a URL that you want to link to (for example, a Page Name dimension that is part of a URL)
 
-The following video provides an overview of this feature:
-
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables)
-
 ## Create hyperlinks for one or more dimension items
 
 Consider the following when creating hyperlinks for dimension items:

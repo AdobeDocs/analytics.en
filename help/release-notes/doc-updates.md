@@ -11,7 +11,7 @@ mini-toc-levels: 3
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* For information on Adobe Media Analytics, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* For information on the Streaming Media Collection Add-on, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
 
@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **June 2024** | |
+| Updated product name that refers to streaming media features | Replaced instances of "Media Analytics" and "Streaming Media" with the name "Streaming Media Collection Add-on" when referring to the set of streaming media features that collect streaming media data and surface it in Analysis Workspace. <p>These updates are available throughout the Adobe Analytics documentation as well as the [Streaming Media Collection Add-on documentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Improved Intelligent Alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [managing alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), and [overview information](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | Deprecated `cookieDomainPeriods` | Now that AppMeasurement automatically detects the correct domain to set cookies on, the [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) variable is deprecated. | 
 | Retire Data Connectors documentation | Moved the Data Connectors end-of-life page to [Discontinued products](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
@@ -63,7 +64,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **September 2023** | |
 | Updated structure of articles for the Media Playback Time Spent panel | Removed the folder called Media Playback Time Spent, and combined the contents of the folder into a single article: [Media Playback Time Spent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>This change is more in line with the documentation for other panels.</p> |
 | Get started content enhancements | Added information outlining key getting-started tasks and resources for administrators, analysts, end users, and developers. The following new articles are now available: <ul><li>[Get started (by role)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md)<li>[Use cases](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Improvements to Media Analytics Reporting documentation | Reorganized some of the content in the Reporting section of the Streaming Media guide, including consolidating the API documentation in its own section and adjusting the order of some articles. <p>Renamed the Media Workspace Templates article to [Media reports in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) to better align with the in-product naming. </p> |
+| Improvements to Reporting documentation for the Streaming Media Collection Add-on | Reorganized some of the content in the Reporting section of the Streaming Media guide, including consolidating the API documentation in its own section and adjusting the order of some articles. <p>Renamed the Media Workspace Templates article to [Media reports in Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) to better align with the in-product naming. </p> |
 | **August 2023** | |
 | Data feed clarification | Updated [the definition of Start & End dates](/help/export/analytics-data-feed/create-feed.md) to clarify that when processing data feeds for historical data, you can set the start date to any date in the past when data is being collected. |
 | Adobe Experience Platform Edge Network data handling | Added content around how Adobe Analytics [handles data from the Edge Network](../implement/aep-edge/overview.md). |

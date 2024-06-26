@@ -10,9 +10,9 @@ exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 
 >[!NOTE]
 >
->The Media average minute audience panel is available only to customers who have purchased the Media Analytics add-on for Adobe Analytics. 
+>The Media average minute audience panel is available only to customers who have purchased the Streaming Media Collection Add-on. 
 >
->Contact your Adobe Sales Representative or Adobe Account Team to purchase Media Analytics. 
+>Contact your Adobe Sales Representative or Adobe Account Team to purchase the Streaming Media Collection Add-on. 
 
 In Analysis Workspace, average minute audience is the time spent viewing your media stream divided by the duration of the content or the total selection of the period and selected granularity.
 
@@ -30,7 +30,7 @@ The Media average minute audience panel provides the following benefits over the
 
 ## Access the Media average minute audience panel
 
-1. In Analysis Workspace, go to a report suite that has Media Analytics components enabled. 
+1. In Analysis Workspace, go to a report suite that has streaming media components enabled. 
 
 1. In the left nav, select the **Panels** icon.
 

@@ -17,6 +17,10 @@ This functionality is particularly useful when creating hyperlinks for the follo
 
 * Dimension items or breakdowns that have values that are part of a URL that you want to link to (for example, a Page Name dimension that is part of a URL)
 
+Following is a video demonstration of this feature:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+
 ## Create hyperlinks for one or more dimension items
 
 Consider the following when creating hyperlinks for dimension items:

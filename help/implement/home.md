@@ -86,6 +86,6 @@ For your **mobile app**, the following implementation methods are available:
 ## Key Analytics resources
 
 * [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics Resources](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Latest release notes](../release-notes/latest.md)

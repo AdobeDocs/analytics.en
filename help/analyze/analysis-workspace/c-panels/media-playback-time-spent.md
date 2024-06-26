@@ -11,7 +11,7 @@ In Analysis Workspace, Playback Time Spent is the amount of time spent viewing y
 
 The Media Playback Time Spent panel enables analysis of playback over time, with details on peak concurrency and the ability to break down and compare. 
 
-Media Analytics customers can analyze playback time spent to gain valuable insight into the quality of content and viewer engagement, and to help when troubleshooting or planning for volume or scale.
+Customers who have purchased the Streaming Media Collection Add-on can analyze playback time spent to gain valuable insight into the quality of content and viewer engagement, and to help when troubleshooting or planning for volume or scale.
 
 Playback Time Spent can help you understand:
 
@@ -25,7 +25,7 @@ Following is a video overview of this panel:
 
 ## Use the Media Playback Time Spent panel
 
-1. Go to a report suite with Media Analytics components enabled. 
+1. Go to a report suite with streaming media components enabled. 
 1. Select the panel icon on the far-left, then drag the panel into your Analysis Workspace project.
 1. Continue with the following sections to customize the Media Playback Time Spent panel
 

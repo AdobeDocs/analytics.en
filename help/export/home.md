@@ -31,6 +31,6 @@ Here is a video overview of Adobe Analytics:
 ## Key Analytics resources
 
 * [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

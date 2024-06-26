@@ -101,11 +101,13 @@ Right-clicking a drop-down segment provides the following options:
 
 #### Use static drop-down segments
 
-Users can use the drop-down segments menu in any of the following ways in order to filter the panel:
+Use the drop-down segments menu in any of the following ways in order to filter the panel:
      
 * Apply a single segment to the panel by selecting the segment from the drop-down menu.
 
 * Apply multiple segments to the panel by selecting more than one segment from the drop-down menu. The panel is filtered to include any of the selected segments. 
+
+  To remove a segment from the list, select it again in the drop-down menu.
 
   ![Select multiple segments](assets/dropdown-filter-multiselect.png)
 

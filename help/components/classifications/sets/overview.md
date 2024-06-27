@@ -10,10 +10,14 @@ Classification sets provide a single interface to manage classifications and rul
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**
 
+You must be a product admin or belong to a product profile containing the permission item [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications] to see this menu item. Note that while previous classification management interfaces are under the [!UICONTROL Admin] menu, Classification sets are under the [!UICONTROL Components] menu.
+
+## Improvements
+
 The backend architecture released with Classification sets contains several notable improvements:
 
 * Reduced processing time (72 hours → 24 hours)
-* The ability to use the Classification sets UI
+* A redesigned UI to manage classifications
 * The option to use classification data in Adobe Experience Platform in the future through the [Adobe Analytics source connector for classification data](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
 
 The backend architecture released with Classification sets also contain several notable changes:

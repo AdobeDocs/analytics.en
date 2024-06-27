@@ -27,10 +27,6 @@ You can now create projects in Analysis Workspace with data from more [multiple 
 No special implementation is required. Analysis Workspace is available to all companies with Analytics Standard or Premium. However, standard permissions to content (such as report suites and project components) apply, and for curating and sharing projects. See [Administration and Access Requirements](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Does Analysis Workspace change pre-configured reports in Adobe Analytics?
-No. Because this is a separate environment, there are no changes to your existing or any pre-configured reports in Adobe Analytics. You can still employ standard Report Builder reports using Analysis Workspace.
-+++
-
 +++Can I use Analysis Workspace for Data Warehouse?
 Analysis Workspace is not recommended for bulk data export. It is a visualization workspace creating dashboard-like analysis projects.
 +++
@@ -65,4 +61,8 @@ If you successfully created a workspace report but there's no data, there are a 
 * If you applied a segment in your report, the segment criteria might not match any data. Try removing the segment or adjusting the segment definition.
 * Check the date range in the upper right corner and make sure it's set to a value that you'd expect.
 * Navigate to your website and use the [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) to validate that data is being collected.
++++
+
++++As a read-only user, what actions can I perform in Analysis Workspace?
+When a project is shared as read only, all editing functions and features are completely disabled and recipients can only change the dropdown to apply a filter to the panel in a predefined manner.
 +++

@@ -15,10 +15,10 @@ The following Media Management options are available when editing a report suite
 
 * [!UICONTROL **Media Reporting**]
 
-  Reports specific to Streaming Media are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Reports specific to the Streaming Media Collection Add-on are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Media Classifications**]
 
-  Classifications specific to Streaming Media are available on the Media Classifications page. For information about Classifications, see [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Classifications specific to the Streaming Media Collection Add-on are available on the Media Classifications page. For information about Classifications, see [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-For general information about Streaming Media Analytics, see the [Adobe Analytics for Streaming Media guide](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+For general information about incorporating streaming media data in Adobe Analytics, see the [Streaming Media Collection Add-on Guide](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).

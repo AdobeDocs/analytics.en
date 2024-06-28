@@ -17,6 +17,12 @@ This functionality is particularly useful when creating hyperlinks for the follo
 
 * Dimension items or breakdowns that have values that are part of a URL that you want to link to (for example, a Page Name dimension that is part of a URL)
 
++++ View a video demonstration of this feature.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
+
 ## Create hyperlinks for one or more dimension items
 
 Consider the following when creating hyperlinks for dimension items:
@@ -30,6 +36,8 @@ Consider the following when creating hyperlinks for dimension items:
   If you create a hyperlink that has an invalid URL, or if you create a hyperlink that references a dimension item that does not have a URL value (by either referencing the dimension item directly or by using the `$value` or `$breakdown` variables), then users who click the hyperlink will see an error message stating that the URL is invalid.
 
 * Hyperlinks that are created for a single dimension item override hyperlinks that are created on the dimension.
+
+* Hyperlinks are not functional in [downloaded PDF files](/help/analyze/analysis-workspace/curate-share/download-send.md). 
 
 To create hyperlinks for one or more dimension items:
 

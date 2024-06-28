@@ -576,3 +576,5 @@ source,destination
 /docs/analytics/analyze/activity-map/activitymap-reporting-analytics,/docs/analytics/components/dimensions/activity-map-link
 /docs/analytics/analyze/activity-map/troubleshooting-browser-extensions,/docs/analytics/analyze/activity-map/troubleshooting
 /docs/analytics/analyze/activity-map/troubleshoot-data-collection,/docs/analytics/analyze/activity-map/troubleshooting
+/docs/analytics/import/dataconnectors/data-connectors-eol,/docs/discontinued/using/data-connectors
+/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-genesis,/docs/discontinued/using/data-connectors

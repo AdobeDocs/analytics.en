@@ -131,7 +131,7 @@ Yes. However, due to virtual report suite limitations, Activity Map's Live mode 
 
 The method to disable Activity Map depends on your implementation type:
 
-* **Web SDK extension**: In the extension configuration settings, uncheck the box labeled [Enable click data collection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled).
+* **Web SDK extension**: In the extension configuration settings, uncheck the boxes **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]**, and **[!UICONTROL Collect download link clicks]**.
 * **Web SDK JavaScript library**: Set [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) to `false`.
 * **Analytics extension**: In the extension configuration settings, uncheck the box labeled **[!UICONTROL Use Activity Map]**.
 * **AppMeasurement**: Remove or comment out the Activity Map module within `AppMeasurement.js`, or overwrite the module function call with an empty body:
@@ -169,30 +169,6 @@ Activity Map tracks the following elements:
 * An `<input>` tag with type `image` and a `src` property
 * A `<button>` tag without the attribute `type="button"`. If you want to track `<button>` tags, consider using attributes like `role="button"` or `submit="button"` instead.
     
-+++
-
-+++How does Activity Map track other visual HTML elements?
-
-You can manually track HTML elements using the [`tl()` method](/help/implement/vars/functions/tl-method.md) in an `onclick` attribute.
-
-```html
-<img onclick="s.tl(true,'o','Example image click')" src="image.png"/>
-```
-
-The Activity Map Link dimension is set to the link name in the `tl()` method. The element clicked determines the region.
-
-Alternatively, you can set the `s_objectID` variable, which stores the data to be sent on the next hit.
-
-```html
-<img onclick="s_objectID='Another image click';" src="photo.png"/>
-
-<a href="index.html" onclick="s_objectID='Home page click';">Example link to home page</a>
-```
-
->[!TIP]
->
->A trailing semicolon (`;`) is recommended when using `s_objectID`.
-
 +++
 
 +++What are some examples of links that Activity Map automatically tracks?

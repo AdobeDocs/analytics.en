@@ -18,7 +18,7 @@ The backend architecture released with Classification sets contains several nota
 
 * Reduced processing time (72 hours → 24 hours)
 * A redesigned UI to manage classifications
-* The option to use classification data in Adobe Experience Platform in the future through the [Adobe Analytics source connector for classification data](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* The option to use classification data in Adobe Experience Platform in the future through the [Adobe Analytics source connector for classification data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 The backend architecture released with Classification sets also contain several notable changes:
 

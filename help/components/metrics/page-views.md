@@ -15,4 +15,4 @@ This metric counts all page view tracking calls ([`t()`](/help/implement/vars/fu
 ## Compare to similar metrics
 
 * **Page views vs. [Visits](visits.md)**: Page views count the number of times that a page is viewed. Visits count the number of sessions for visitors. One visit consists of one or more page views.
-* **Page views vs. [Page events](page-events.md)**: Page views count the number of page view tracking calls (`t()`), and excludes link tracking calls (`tl()`). Page events are the opposite; they count the number of link tracking calls, and exclude page view tracking calls.
+* **Page views vs. [Page events](page-events.md)**: Page views count the number of page view tracking calls (`t()`), and exclude link tracking calls (`tl()`). Page events are the opposite; they count the number of link tracking calls, and exclude page view tracking calls.

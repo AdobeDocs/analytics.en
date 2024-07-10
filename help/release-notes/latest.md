@@ -20,17 +20,15 @@ These release notes cover the release period of July 17, 2024 through August 202
 
 ## Fixes in Adobe Analytics
 
-* Fixed the following Classifications issues: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
-* Fixed the following Data Warehouse issues: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
-* Fixed the following Data Feeds issues: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527; 
-* Fixed the following Data Sources issue: AN-350038
-* Fixed the following Analysis Workspace issues: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
-* Fixed the following Report Builder issues: AN-348903; AN-350691
-* Fixed the following A4T issues: AN-347690; AN-350853
+* Fixed an issue that prevented users from logging in to the Analytics UI (AN-352953)
+* Fixed an issue that prevented users from logging in to the Analytics mobile app (AN-352463)
+* Fixed an issue that prevented downloading the project as a PDF (AN-352680)
+* Fixed an issue where classifications were not being imported (AN-352178)
 
 ### Other Analytics fixes
 
-AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-349211; AN-349719; AN-350523;
+AN-352905; AN-352902; AN-352693; AN-352659; AN-352619; 
+AN-352577; AN-352575; AN-352572; AN-352571; AN-352549; AN-352501; AN-352499; AN-352478; AN-352466; AN-352437; AN-352378; AN-352355; AN-352341; AN-352318; AN-352297; AN-352272; AN-352267; AN-352263; AN-352088; AN-352019; AN-352018; AN-351978; AN-351908; AN-351809; AN-351750; AN-351689; AN-351624; AN-351564; AN-351547; AN-351524; AN-351507; AN-351416; AN-351414; AN-351405; AN-351299; AN-351283; AN-351231; AN-351110; AN-350710; AN-349912; AN-349786; AN-348300; AN-348061; AN-347865; AN-347676; AN-347478; AN-343611; AN-343114; AN-334124; AN-306000; AN-288748
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

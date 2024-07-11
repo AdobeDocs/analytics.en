@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **July 2024** | |
+| Updated common error messages | Made minor updates to the [common error messages](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **June 2024** | |
 | Updated product name that refers to streaming media features | Replaced instances of "Media Analytics" and "Streaming Media" with the name "Streaming Media Collection Add-on" when referring to the set of streaming media features that collect streaming media data and surface it in Analysis Workspace. <p>These updates are available throughout the Adobe Analytics documentation as well as the [Streaming Media Collection Add-on documentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Improved Intelligent Alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [managing alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), and [overview information](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |

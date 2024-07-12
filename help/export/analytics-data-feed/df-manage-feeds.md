@@ -70,12 +70,28 @@ Each created feed shows several columns providing information about it. Select a
 * **Start Date**: The date of the first job for this feed. Date and time is shown in the report suite's time zone with GMT offset.
 * **End Date**: The date of the last job for this feed. Ongoing data feeds do not have an end date.
 
+## Edit a data feed
+
+1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+
+1. Select the data feed in the [!UICONTROL **Feed name**] column.
+
+1. Make any desired changes to the data feed.
+
+   The Account and Location fields can be edited only if you are using a cloud destination. If the data feed is using a legacy destination, 
+
+1. Select [!UICONTROL **Save**].
+
 ## Data feed actions
 
 Click the checkbox next to a data feed to reveal available actions.
 
 * **Job history**: View all jobs tied to this data feeds. Automatically takes you to the [manage jobs interface](df-manage-jobs.md).
 * **Delete**: Deletes the data feed, setting its status to [!UICONTROL Deleted].
-* **Copy**: Takes you to [create a new feed](create-feed.md) with all settings of the current feed. You cannot copy a data feed if more than one is selected.
+* **Copy**: Takes you to [create a new feed](create-feed.md) with all settings of the current feed. This option is not visible if more than one data feed is selected.
+
+   If the data feed you are copying is configured to use a legacy destination, then you must select an existing account and location that is associated with a cloud destination, or create a new account and location.
+   
+   <!-- If the data feed is configured to use a legacy destination, the destination cannot be updated. Other fields related to the data feed can be updated. -->
 * **Pause**: Stops processing for the feed, setting its status to [!UICONTROL Inactive].
 * **Activate**: Only available for inactive feeds. Backfill feeds (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. Live feeds  resume processing data from the current time. 

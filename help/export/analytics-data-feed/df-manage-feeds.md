@@ -79,8 +79,6 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are copying, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
    If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Non-cloud accounts and locations cannot be edited.
-   
-   <!-- If the data feed is configured to use a legacy destination, the destination cannot be updated. Other fields related to the data feed can be updated. -->
 
 ## Pause a data feed
 

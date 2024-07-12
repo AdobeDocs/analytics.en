@@ -40,7 +40,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
-   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). However, legacy accounts and locations cannot be edited.
+   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Non-cloud accounts and locations cannot be edited.
 
 1. Select [!UICONTROL **Save**].
 
@@ -78,7 +78,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are copying, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
-   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). However, legacy accounts and locations cannot be edited.
+   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Non-cloud accounts and locations cannot be edited.
    
    <!-- If the data feed is configured to use a legacy destination, the destination cannot be updated. Other fields related to the data feed can be updated. -->
 
@@ -94,7 +94,17 @@ You can stop processing for the feed, setting its status to [!UICONTROL Inactive
 
 You can activate feeds that are inactive. 
 
-Backfill feeds (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. Live feeds  resume processing data from the current time. 
+Backfill feeds (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. Live feeds also resume processing data from where they stopped. 
+
+>[!AVAILABILITY]
+>
+>The following change to the way live feeds resume processing data is in the Limited Testing phase of release: 
+> 
+>**Live feeds resume processing data from the current time.** 
+>
+>This change might not be available yet in your environment.
+>
+>This note will be removed when this change is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
 
 To activate a data feed:
 
@@ -133,7 +143,7 @@ The following columns are available:
   * Deleted: The feed is deleted.
   * Complete: The feed finished processing. A completed feed can be edited, put on hold, or cancelled.
   * Pending: The feed is created but not yet active. Feeds remain in this state for a short transitional time.
-  * Inactive: Equivalent to a 'paused' or 'on hold' state. If a backfill feed (a feed that processes only historical data) is reactivated, it resumes delivering jobs from when it stopped. If a live feed is reactivated, it resumes delivering jobs from when it stopped.
+  * Inactive: Equivalent to a 'paused' or 'on hold' state. For information about what happens with backfill feeds and live feeds when an inactive feed is reactivated, see [Activate a data feed](#activate-a-data-feed).
 * **Last Modified**: The date the feed was last modified. Date and time is shown in the report suite's time zone with GMT offset.
 * **Start Date**: The date of the first job for this feed. Date and time is shown in the report suite's time zone with GMT offset.
 * **End Date**: The date of the last job for this feed. Ongoing data feeds do not have an end date.

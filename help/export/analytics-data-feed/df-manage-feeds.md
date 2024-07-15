@@ -39,8 +39,10 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 1. Make any desired changes to the data feed.
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
+
+   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
    
-   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Non-cloud accounts and locations cannot be edited.
+   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in the data feeds manager cannot be edited or copied.
 
 1. Select [!UICONTROL **Save**].
 
@@ -78,7 +80,9 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are copying, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
-   If you want to edit the account and location for all data feeds where they are being used, you can edit the accounts and locations directly, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Non-cloud accounts and locations cannot be edited.
+   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
+   
+   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in the data feeds manager cannot be edited or copied.
 
 ## Pause a data feed
 

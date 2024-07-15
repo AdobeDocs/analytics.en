@@ -42,7 +42,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
    
-   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in the data feeds manager cannot be edited or copied.
+   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in these earlier versions of the data feeds manager cannot be edited or copied.
 
 1. Select [!UICONTROL **Save**].
 
@@ -82,7 +82,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
    
    Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
    
-   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in the data feeds manager cannot be edited or copied.
+   Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in these earlier versions of the data feeds manager cannot be edited or copied.
 
 ## Pause a data feed
 

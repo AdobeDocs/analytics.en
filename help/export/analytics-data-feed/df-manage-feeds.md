@@ -116,7 +116,9 @@ To activate a data feed:
 
 ## Delete a data feed
 
-When you delete a data feed, its status is set to [!UICONTROL Deleted].
+When you delete a data feed, its status is set to [!UICONTROL Deleted]. Data feeds must have a status of Active before they can be deleted.
+
+To delete a data feed:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 

@@ -49,6 +49,9 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
   + Page variables {#page-vars}
     + [Page variables overview](vars/page-vars/page-variables.md)
+    + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+    + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+    + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
     + [campaign](vars/page-vars/campaign.md)
     + [channel](vars/page-vars/channel.md)
     + [contextData](vars/page-vars/contextdata.md)
@@ -79,6 +82,8 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [s_gi](vars/functions/s-gi.md)
     + [t](vars/functions/t-method.md)
     + [tl](vars/functions/tl-method.md)
+    + [ActivityMap.link](vars/functions/activitymap-link.md)
+    + [ActivityMap.region](vars/functions/activitymap-region.md)
     + [bufferRequests](vars/functions/bufferrequests.md)
     + [clearVars](vars/functions/clearvars.md)
     + [doPlugins](vars/functions/doplugins.md)

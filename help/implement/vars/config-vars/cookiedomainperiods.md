@@ -5,7 +5,6 @@ feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
 ---
-
 # cookieDomainPeriods
 
 >[!IMPORTANT]

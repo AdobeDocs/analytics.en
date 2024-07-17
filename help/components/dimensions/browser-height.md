@@ -11,7 +11,7 @@ The 'Browser height - bucketed' [dimension](overview.md) shows the height of the
 This dimension is different from screen height. Browser height is the number of pixels within the viewable browser space, while screen height is the height of the entire monitor in pixels. If you would like to see the difference between these two variables on your own machine, open the browser console (F12 on most browsers) and copy + paste the following code into the console:
 
 ```javascript
-"Browser height: " + window.innerHeight + " pixels\nScreen height: " + screen.height + " pixels";
+console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${screen.height} pixels`);
 ```
 
 Browser height is always smaller than or equal to screen height, since browser height doesn't include browser navigation or borders.

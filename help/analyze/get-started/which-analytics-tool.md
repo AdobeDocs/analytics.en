@@ -22,7 +22,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Report Builder](/help/analyze/report-builder/home.md)** is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
+**[Activity Map](/help/analyze/activity-map/overview.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
 
 ## Importing Data into Adobe Analytics {#import}
 

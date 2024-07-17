@@ -11,7 +11,7 @@ The 'Browser width - bucketed' [dimension](overview.md) shows the width of the b
 This dimension is different from screen width. Browser width is the number of pixels within the viewable browser space, while screen width is the width of the entire monitor in pixels. If you would like to see the difference between these two variables on your own machine, open the browser console (F12 on most browsers) and copy + paste the following code into the console:
 
 ```javascript
-"Browser width: " + window.innerWidth + " pixels\nScreen width: " + screen.width + " pixels";
+console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.width} pixels`);
 ```
 
 Browser width is always smaller than or equal to screen width, since browser width doesn't include scroll bars or borders.

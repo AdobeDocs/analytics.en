@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2024** | |
+| Added threads.net to the 'Referrer type' dimension | Added threads.net to the list of social networks that are used in the ['Referrer type' dimension](/help/components/dimensions/referrer-type.md). |
 | Updated documentation for managing data feeds | Updated information in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md) to improve clarity. <p>Updates include:</p><ul><li>Created separate sections for various tasks in order to make the information easier to scan and consume.</li><li>Added information about changes to the behavior of live feeds that are reactivated. These changes are currently in Limited Availability and are not yet available to all customers.</li><li>Added information stating that data feeds must have a status of Active before they can be deleted.</li>  | 
 | Updated common error messages | Made minor updates to the [common error messages](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **June 2024** | |

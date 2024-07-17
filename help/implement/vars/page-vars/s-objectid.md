@@ -7,9 +7,9 @@ role: Admin, Developer
 ---
 # s_objectID
 
-The `s_objectID` variable provides a unique identifier for a link. It is used to make reports in [Activity Map](/help/analyze/activity-map/activity-map.md) more accurate. If you have links on a page that frequently change, you can use the `s_objectID` variable to tell Activity Map of a unique link location so it can correctly group data as desired.
+The `s_objectID` variable provides a unique identifier for a link. It is used to make reports in [Activity Map](/help/analyze/activity-map/overview.md) more accurate. If you have links on a page that frequently change, you can use the `s_objectID` variable to tell Activity Map of a unique link location so it can correctly group data as desired.
 
-If Activity Map accuracy is crucial to your organization, Adobe recommends including the `s_objectID` variable in the `onClick` event of links on your site. See [Activity Map link tracking use cases](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) in the Analyze user guide for more information.
+If Activity Map accuracy is crucial to your organization, Adobe recommends including the `s_objectID` variable in the `onClick` event of links on your site.
 
 ## Object ID using the Adobe Analytics extension
 
@@ -17,7 +17,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s_objectID in AppMeasurement and the Analytics extension custom code editor
 
-The `s_objectID` variable is a global variable, meaning that it operates independently of the Analytics tracking object (`s` by default). Valid values for this variable can be any string up to 100 bytes in length. If this variable is not defined, Activity Map uses the link URL as the identifier for the link.
+The `s_objectID` variable is a global variable, meaning that it operates independently of the Analytics tracking object (`s` by default). Valid values for this variable can be any string up to 100 bytes in length. If this variable is not defined, Activity Map uses the link text as the identifier for the link.
 
 This variable is typically set in the `onClick` event of an HTML link.
 
@@ -54,4 +54,4 @@ Some sites have links that point to the same location in different places. For e
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-Even if links point to the same URL, Activity Map can use the `s_objectID` variable to correctly distinguish them in reporting.
+Even if links point to the same URL, Activity Map can use the `s_objectID` variable to distinguish them in reporting correctly.

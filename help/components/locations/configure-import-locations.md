@@ -43,6 +43,7 @@ For information about how to view and delete existing locations, see [Locations 
    The [!UICONTROL **Location details**] dialog displays.
 
 1. Specify the following information:
+
    |Field | Function | 
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
@@ -136,7 +137,7 @@ To configure an Azure RBAC location, specify the following information:
    | [!UICONTROL **Account**] | The Azure storage account. | 
    | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
    | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
-   
+
    {style="table-layout:auto"}
 
 1. Select [!UICONTROL **Save**].

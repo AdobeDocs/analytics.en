@@ -96,7 +96,11 @@ The [Migrating to Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytic
 
 Q: **Does this impact data collection?**
 
-A: The Adobe Analytics 1.4 EOL does not impact your tagging solutions, such as Tags (formerly Adobe Launch), WebSDK, or AppMeasurement.js. However, if you use the 1.4 Data Sources, Data Insertion, or Classifications APIs to collect or enhance your data, you must migrate those workflows to the Adobe Analytics 2.0 APIs. Please refer to the [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) for more details.
+A: The Adobe Analytics 1.4 EOL does not impact your tagging solutions, such as Tags (formerly Adobe Launch), WebSDK, or AppMeasurement.js. However, if you use the 1.4 Data Sources or Classifications APIs to collect or enhance your data, you must migrate those workflows to the Adobe Analytics 2.0 APIs. Please refer to the [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) for more details.
+
+Q: **Is the Data Insertion API impacted?**
+
+A: No, the Data Insertion API is not impacted by the Adobe Analytics 1.4 EOL.
 
 Q: **What do I do if my question wasn't answered in this FAQ?**
 

@@ -46,7 +46,7 @@ This visualization addresses a variety of common use cases, including:
 
 ## View the output
 
-The optout visualization should look something like this:
+The output should look something like this:
 
 ![](assets/key-metric-output.png)
 

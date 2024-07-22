@@ -18,10 +18,10 @@ Here is a video on the topic:
 >[!NOTE]
 >[!UICONTROL Compare Time Periods] leverages advanced Calculated Metrics. As a result, it is available only to customers with Analytics Select, Prime, and Ultimate SKUs. 
 
-Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better/worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a "difference" column, which shows the percentage change compared to a specified time period.
+Analysis requires context, and often that context is provided by a previous time period. For example, the question "How much better or worse are we doing than at this time last year?" is fundamental to understanding your business. Date Comparison automatically include a "difference" column, which shows the percentage change compared to a specified time period.
 
 1. Create a Freeform table, with any dimensions and metrics you want to compare over a time period.
-1. Right-click a table row and select **[!UICONTROL Compare Time Periods]**.
+1. Right-click a table row and select **[!UICONTROL Compare time periods]**.
 
    ![](assets/compare-time.png)
 
@@ -34,12 +34,12 @@ Analysis requires context, and often that context is provided by a previous time
    |  Option  | Description  |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Compares to the week/month/etc. immediately before this date range.  |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Compares to the same date range a year ago.  |
-   | **[!UICONTROL Select range]** | Lets you select a custom date range.  |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Compares to the same date range a year ago.  |
+   | **[!UICONTROL Custom date range to this date range]** | Lets you select a custom date range.  |
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Custom date range to this date range]**.
 
 1. The resulting comparison looks like this:
 
@@ -57,19 +57,21 @@ Analysis requires context, and often that context is provided by a previous time
 
 You can now add a time period to each column in a table, enabling you to add a time period that is different from the one your calendar is set to. This is another way you can compare dates.
 
-1. Right-click a column in the table and select **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
+1. Right-click a column in the table and select **[!UICONTROL Add time period column]**. 
+
+   ![](assets/add-time-period-column.png)
 
 1. Depending on how you have set the table's date range, you have these options for comparison: 
 
    |  Option  | Description  |
    |---|---|
    | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Adds a column with the week/month/etc. immediately before this date range.  |
-   | **[!UICONTROL This week/month/quarter/year last year]** | Adds the same date range a year ago.  |
-   | **[!UICONTROL Select range]** | Lets you select a custom date range.  |
+   | **[!UICONTROL This week/month/quarter/year last year to this date range]** | Adds the same date range a year ago.  |
+   | **[!UICONTROL Custom date range to this date range]** | Lets you select a custom date range.  |
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Custom date range to this date range]**.
 
 1. The time period will be inserted on top of the column you selected:
 
@@ -81,22 +83,29 @@ You can now add a time period to each column in a table, enabling you to add a t
 
 1. In addition, you can sort on each column, which will change the order of days depending on the column you are sorting on.
 
-## Align column dates to start on same row {#section_5085E200082048CB899C3F355062A733}
+## Align column dates to start on the same row {#section_5085E200082048CB899C3F355062A733}
 
-A new setting for all tables lets you **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. "Applies to entire table" means that if you do, for example, a breakdown in the table, and if you change this setting for the breakdown, it will change the setting for the entire table.
+You can align the dates from each column to all start on the same row. 
 
-![](assets/date-comparison-setting.png)
-
->[!NOTE]
->
->This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
-
-Example: When you choose to align the dates, if you do a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1:
+For example, when you choose to align the dates, if you do a month-over-month comparison between October and September 2016, the left column will start with October 1 and the right column will start with September 1:
 
 ![](assets/add-time-period-column3.png)
 
-<!-- 
+>[!NOTE]
+>
+>Consider the following when using this option:
+>
+>* This setting is enabled by default for all new projects.
+>
+>* This setting applies to the entire table. For example, if you change this setting for a breakdown within the table, it will change the setting for the entire table.
+>
 
-<p>See Jonny Moon's email from November 3. </p>
+To enable this setting, if it is not already enabled:
 
- -->
+1. In the table where you want to align column dates, select the **Settings** icon in the table header.
+
+1. On the [!UICONTROL **Settings**] tab, select **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**.
+
+![](assets/date-comparison-setting.png)
+
+

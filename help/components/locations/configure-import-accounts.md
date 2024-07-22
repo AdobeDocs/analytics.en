@@ -40,12 +40,14 @@ To configure a cloud import or export account:
    The [!UICONTROL **Add account**] dialog displays.   
   
 1. Specify the following information:
+
    |Field | Function | 
    |---------|----------|
    | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
    | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
    | [!UICONTROL **Make account available to all users in your organization**] | Enable this option to allow other users in your organization to use the account.<p>Consider the following when sharing accounts:</p><ul><li>Accounts that you share cannot be unshared.</li><li>Shared accounts can be edited only by the owner of the account.</li><li>Anyone can create a location for the shared account.</li></ul> |
    | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account.<p>System administrators can limit the account types that users can create, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</p> | 
+
 1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
    For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. (Additional legacy account types are also available, but are not recommended.)

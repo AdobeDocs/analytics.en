@@ -3,6 +3,7 @@ title: Activity Map Link By Region
 description: A concatenated value of link and region.
 feature: Dimensions
 role: User, Admin
+exl-id: 33014dc1-da4e-47b7-b73c-3e89e04f3ed6
 ---
 # Activity Map Link By Region
 

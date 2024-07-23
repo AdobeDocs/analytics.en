@@ -3,6 +3,7 @@ title: ActivityMap.region
 description: Customize how Activity Map collects the region clicked.
 feature: Variables
 role: Admin, Developer
+exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
 ---
 # ActivityMap.region
 

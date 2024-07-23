@@ -3,6 +3,7 @@ title: Activity Map Page
 description: The page name when a link was clicked.
 feature: Dimensions
 role: User, Admin
+exl-id: 8dc5d5a1-ee44-4c98-80fa-13dd1cf4edf2
 ---
 # Activity Map Page
 

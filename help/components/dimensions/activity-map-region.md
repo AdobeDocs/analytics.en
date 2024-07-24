@@ -3,6 +3,7 @@ title: Activity Map Region
 description: The region on your site that was clicked.
 feature: Dimensions
 role: User, Admin
+exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
 ---
 # Activity Map Region
 

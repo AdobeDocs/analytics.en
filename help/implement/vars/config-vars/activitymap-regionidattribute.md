@@ -3,6 +3,7 @@ title: ActivityMap.regionIDAttribute
 description: Change the attribute that Activity Map looks for to determine the region.
 feature: Variables
 role: Admin, Developer
+exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
 ---
 # ActivityMap.regionIDAttribute
 

@@ -3,6 +3,7 @@ description: Link to Adobe Analytics Admin API on github.
 title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
+exl-id: 88769032-a7cd-4ca8-958f-3300a4bfe71f
 ---
 # Adobe Analytics 1.4 API EOL FAQ
 
@@ -105,4 +106,3 @@ A: No, the Data Insertion API is not impacted by the Adobe Analytics 1.4 EOL.
 Q: **What do I do if my question wasn't answered in this FAQ?**
 
 A: If you still have questions, please reach out to your Adobe account representative.
-

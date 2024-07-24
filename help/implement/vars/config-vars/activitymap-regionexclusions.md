@@ -3,6 +3,7 @@ title: ActivityMap.regionExclusions
 description: Filter Activity Map data by region.
 role: Admin, Developer
 feature: Variables
+exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
 ---
 # ActivityMap.regionExclusions
 

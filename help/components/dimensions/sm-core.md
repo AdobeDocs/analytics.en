@@ -5,7 +5,7 @@ feature: Dimensions
 ---
 # Streaming Media core dimensions
 
-Streaming Media core dimensions provide basic reporting functionality to data collected through streaming media collection libraries. Use of these dimensions require the [!UICONTROL Adobe Streaming Media Collection add-on]. Contact your Adobe Account Team for details.
+Streaming Media core dimensions provide basic reporting functionality to data collected through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |
@@ -21,11 +21,11 @@ Streaming Media core dimensions provide basic reporting functionality to data co
 
 {style="table-layout:auto"}
 
-In addition to dimensions, Adobe automatically creates the following classifications. You must upload classification data to view reports that use these dimensions.
+In addition to the above dimensions, Adobe automatically creates the following classification dimensions. You must upload classification data to view reports that use these dimensions.
 
 | Classification name | Parent dimension | Description |
 | --- | --- | --- |
 | Video length | Content | The maximum length (or duration) of the content consumed, in seconds. Metrics that depend on content length cannot use this classification; you must create a calculated metric to obtain metrics such as 'Average minute audience' using this classification. |
-| Video name | Content | The friendly name of the content. |
+| Video name | Content | The friendly name of the content. It is the classification equivalent of Content name (variable). |
 
 {style="table-layout:auto"}

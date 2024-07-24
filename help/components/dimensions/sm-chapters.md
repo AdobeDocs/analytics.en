@@ -1,6 +1,6 @@
 ---
 title: Streaming Media chapter dimensions
-description: Available dimensions when you enable [!UICONTROL Media Core] for a report suite.
+description: Available dimensions when you enable [!UICONTROL Media Chapters] for a report suite.
 feature: Dimensions
 ---
 # Streaming Media chapter dimensions

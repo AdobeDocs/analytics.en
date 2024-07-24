@@ -9,7 +9,7 @@ Streaming Media ad dimensions provide supplemental reporting functionality to da
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |
-| Ad loads | TBD | TBD | TBD |
+| Ad loads | The type of ad loaded. | TBD | `a.media.adLoad` |
 | Day part | The time of the day when the content was broadcast or played. Any string value is supported. | Media Start, Media Close | `a.media.dayPart` |
 | Episode | The episode number. | Media Start, Media Close | `a.media.episode` |
 | Media feed type | The type of feed. | Media Start, Media Close | `a.media.feed` |

@@ -49,6 +49,9 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
   + Page variables {#page-vars}
     + [Page variables overview](vars/page-vars/page-variables.md)
+    + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+    + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+    + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
     + [campaign](vars/page-vars/campaign.md)
     + [channel](vars/page-vars/channel.md)
     + [contextData](vars/page-vars/contextdata.md)
@@ -79,6 +82,8 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [s_gi](vars/functions/s-gi.md)
     + [t](vars/functions/t-method.md)
     + [tl](vars/functions/tl-method.md)
+    + [ActivityMap.link](vars/functions/activitymap-link.md)
+    + [ActivityMap.region](vars/functions/activitymap-region.md)
     + [bufferRequests](vars/functions/bufferrequests.md)
     + [clearVars](vars/functions/clearvars.md)
     + [doPlugins](vars/functions/doplugins.md)
@@ -128,11 +133,16 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Implementing multi-suite tagging](prepare/multi-suite-tagging.md)
   + [Create a solution design document](prepare/solution-design.md)
   + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
-+ Implement Analytics using the Adobe Experience Platform Edge Network {#aep-edge}
-  + [Edge Network overview](aep-edge/overview.md)
-  + [XDM object variable mapping](aep-edge/variable-mapping.md)
++ Implement Analytics using Experience Platform Edge {#aep-edge}
+  + [Experience Edge overview](aep-edge/overview.md)
+  + [Data object variable mapping](aep-edge/data-var-mapping.md)
+  + [XDM object variable mapping](aep-edge/xdm-var-mapping.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)
+    + [Migrate to the Web SDK using tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+    + [Migrate to the Web SDK using JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+    + [New implementation using tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
+    + [New implementation using JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
   + Mobile SDK {#mobile-sdk}
     + [Mobile SDK overview](aep-edge/mobile-sdk/overview.md)
   + Server API {#server-api}

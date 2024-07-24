@@ -5,26 +5,62 @@ feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 ---
-# Alert Manager
 
- ![](assets/alert-manager.png)
+# Manage alerts
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
 
-![](assets/alert-manager-tasks.png)
+The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
-* Tag alerts. This allows you to organize them for ease of use.
-* Delete alerts.
-* Rename alerts.
-* Approve alerts.
-* Copy alerts.
-* Enable/disable alerts.
-* **Renew** an alert expiration date. When one or more alerts are selected, they can be renewed by clicking **Renew**.This extends their expiration dates to be 1 year from the day Renew was clicked, regardless of their original expiration date.
-* Export an alert to a .CSV file.
-* Edit alerts by double-clicking the alert title.
-* Search for alerts.
-* Add alerts to other report suites.
-* Specify/change the owner of an alert.
-* Add other filters.
-* Define an alert **expiration date**.
+## Create alerts
+
+To create alerts from the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
+
+1. Select the alert type that corresponds to the alert that you want to create:
+
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
+
+     If you select this option, continue with [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) for more details about creating alerts.
+
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
+
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
+
+
+
+
+## Manage existing alerts 
+
+To manage existing alerts in the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Select one or more alerts that you want to manage.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. In the action bar, select any of the following options:
+
+   | Action | Function | 
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
+   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Rename**] | Renames the alert. |
+   | [!UICONTROL **Approve**] | Mark the alert as Approved. |
+   | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
+   | [!UICONTROL **Disable**] | Disables an alert that is currently enabled. |
+   | [!UICONTROL **Enable**] | Enables an alert that is currently disabled. |
+   | [!UICONTROL **Renew**] | Renews the alert expiration date. This extends the  expiration date to be 1 year from the day you selected this option, regardless of the original expiration date. |
+   | [!UICONTROL **Export to CSV**] | Exports the alert to a .CSV file. |

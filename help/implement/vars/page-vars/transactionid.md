@@ -19,7 +19,10 @@ By default, Adobe remembers all transaction ID values (linked and unlinked) for 
 
 ## Transaction ID using the Web SDK
 
-Transaction ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.payments[0].transactionID`.
+Transaction ID is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` or `data.__adobe.analytics.xact`
 
 ## Transaction ID using the Adobe Analytics extension
 

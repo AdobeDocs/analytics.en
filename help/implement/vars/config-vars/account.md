@@ -1,6 +1,6 @@
 ---
 title: account
-description: Use the account variable to determine the report suite where data is sent to.
+description: (Retired) Determine the report suite where data is sent to.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer

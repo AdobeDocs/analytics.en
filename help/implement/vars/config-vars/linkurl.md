@@ -9,9 +9,14 @@ role: Admin, Developer
 
 Whenever a link tracking call is sent to Adobe, data collection servers automatically detect the URL. Use the `linkURL` variable to override the detected URL.
 
+There are no dimensions in Analysis Workspace that report on this variable. It populates the `page_event_var1` column in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md).
+
 ## Link URL using the Web SDK
 
-Link URL is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `web.webInteraction.URL`.
+Link URL is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` or `data.__adobe.analytics.pev1`
 
 ## Link URL using the Adobe Analytics extension
 

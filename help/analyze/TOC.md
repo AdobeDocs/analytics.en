@@ -21,11 +21,11 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
-  + [What's New in Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
   + Projects {#build-workspace-project}
     + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
+    + [Project table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Folders in Workspace {#workspace-folders}
       + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
       + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -43,6 +43,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
+    + [Use components in Workspace](analysis-workspace/components/use-components-in-workspace.md)
     + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)
     + Annotations {#annotations}
       + [Annotations overview](analysis-workspace/components/annotations/overview.md)
@@ -72,6 +73,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Manage data sources](analysis-workspace/visualizations/t-sync-visualization.md)
     + Freeform table {#freeform-table}
       + [Freeform table](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+      + [Create hyperlinks for dimensions in a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
       + Column and row settings {#column-row-settings}
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -146,9 +148,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Statistical techniques used in anomaly detection](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
     + Intelligent Alerts {#intelligent-alerts}
       + [Intelligent Alerts overview](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-      + [Alert Builder](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-      + [Alert Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-      + [Intelligent Alerts - use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+      + [Create alerts](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+      + [Manage alerts](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+      + [Use cases](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
   + [User preferences](analysis-workspace/user-preferences.md)
   + Workspace FAQs {#workspace-faq}
     + [Frequently asked questions](analysis-workspace/workspace-faq/faq.md)
@@ -270,34 +272,14 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Report Builder troubleshooting](report-builder/troubleshoot.md)
   + [Report Builder FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
-  + [Activity Map overview](activity-map/activity-map.md)
-  + Get started {#getting-started}
-    + [Activate and enable Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
-    + [Install Activity Map browser plug-ins](activity-map/activitymap-getting-started/activitymap-install.md)
-    + [Launch Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
-  + [Robust link tracking](activity-map/lnk-tracking-overview.md)
-  + Link tracking {#link-tracking}
-    + [Link tracking methodology](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-    + [Link tracking FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-    + [Differentiate links that reference the same Link ID and region](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-    + [Stop link tracking](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-    + [Use the s.tl() function](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-  + [Standard Mode vs. Live Mode](activity-map/activitymap-standard-live.md)
-  + [Links report](activity-map/activitymap-links-report.md)
-  + [Page details](activity-map/activitymap-page-flow.md)
-  + [Complete set of metrics](activity-map/activitymap-complete-metrics.md)
-  + [Real-time (Live) page analytics](activity-map/activitymap-realtime.md)
-  + [Customer segmentation](activity-map/activitymap-multiple-segments.md)
-  + [Customizable overlays](activity-map/activitymap-gainerslosers.md)
-  + [Overlay details](activity-map/activitymap-overlay-details.md)
-  + [Export to CSV file](activity-map/activitymap-csv.md)
-  + [Supported systems and requirements](activity-map/activitymap-sysreqs.md)
-  + [Activity Map FAQ](activity-map/activitymap-faq.md)
-  + [Configure Activity Map settings](activity-map/activitymap-overlay-settings.md)
-  + [Activity Map user interface](activity-map/activitymap-user-interface.md)
-  + [Activity Map reporting in Analytics](activity-map/activitymap-reporting-analytics.md)
-  + [Troubleshoot browser extension](activity-map/troubleshooting-browser-extensions.md)
-  + [Troubleshoot data collection](activity-map/troubleshoot-data-collection.md)
+  + [Overview](activity-map/overview.md)
+  + [Getting started](activity-map/getting-started.md)
+  + Overlay {#overlay}
+    + [Extension overview](activity-map/overlay/overview.md)
+    + [Launch extension](activity-map/overlay/launch.md)
+    + [Extension settings](activity-map/overlay/settings.md)
+  + [Troubleshooting](activity-map/troubleshooting.md)
+  + [FAQ](activity-map/faq.md)
 + Adobe Analytics dashboards {#mobapp}
   + [Adobe Analytics dashboards - Overview](mobile-app/home.md)
   + [Curator intro](mobile-app/curator.md)

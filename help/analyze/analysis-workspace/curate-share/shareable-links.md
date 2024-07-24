@@ -32,11 +32,3 @@ You can also share a link to a specific part of a project, such as a panel or in
 [Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) on how to create links and use them to drive recipients to specific parts of your project. 
 
 ![](assets/get-viz-link.png)
-
-## Use links in a Table of contents {#TOC} 
-
-One tip for leveraging the various link options is to always include a table of contents at the top of your Workspace project. In the table of contents, you can link to other relevant projects, specific panels and specific visualizations. This helps the recipient of the project to navigate more easily.  
-
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) on how to construct a Table of contents using links and Workspace's rich text editor. 
-
-![](assets/toc.png)

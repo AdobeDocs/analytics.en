@@ -10,13 +10,14 @@ Real-time reports show what's happening on your site right now. These types of r
 
 ![Real-time report](/help/technotes/ga-to-aa/assets/realtime.png)
 
-Real-time reports are one of the few features that have not yet been introduced to Analysis Workspace. Use Reports & Analytics to obtain this data. They require some simple configuration to begin collecting data.
+Real-time reports are one of the few features that have not yet been introduced to Analysis Workspace. Use Reports to obtain this data. They require some simple configuration to begin collecting data.
 
 To reach the real-time report configuration page (Admin permissions required):
 
-1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
-2. In the left menu, Click *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*.
-3. If the report suite does not yet have real-time enabled, a message is displayed with a link to configure the report suite. If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report's title.
+1. Click **[!UICONTROL Workspace]** in the Adobe Analytics top navigation bar.
+1. Select **[!UICONTROL Reports]** from the left navigation bar.
+1. Select **[!UICONTROL Enagement]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Real-Time]**. You can also ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) search for real-time.
+1. If the report suite does not yet have real-time enabled, a message is displayed with a link to configure the report suite.
 
 Adobe allows up to three real-time reports to collect data simultaneously. Each must be configured before they begin collecting data in real-time.
 

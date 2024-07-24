@@ -28,7 +28,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
 >
 >Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
 >
->Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire IMS org. Any mappings that you make cannot be modified after the migration completes.
+>**Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire IMS org, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.**
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 

@@ -7,32 +7,18 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 ---
 # Intelligent Alerts overview
 
-Intelligent Alerts allows for more granular control over alerts and integrates anomaly detection with the alert system.
+Intelligent Alerts (or just "alerts") in Adobe Analytics allow you to be notified immediately when abnormal events occur in your data. 
 
-Here is a video tutorial on [Intelligent Alerts](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+You can set alerts to be triggered based on anomaly thresholds, changed percentages, or specific data points. Alerts provide granular controls that integrate with [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), triggering when you need them most.
 
-## Overview
-
- Intelligent Alerts let you:
+Intelligent Alerts let you:
 
 * Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below)
 * Preview how often an alert will trigger
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects
 * Create "stacked" alerts that capture multiple metrics in a single alert
 
-There are three ways get to the Alert Builder:
-
-| Method | Details |
-| --- | --- |
-| Go directly to the Alert Builder |  **[!UICONTROL Components]** > **[!UICONTROL Alerts]** |
-| Use the keyboard shortcut in Workspace | `Ctrl + Shift + A` (Windows) or `Cmd + Shift + A` (Mac) |
-| Select one or more freeform table line item/s | Right-click and select **[!UICONTROL Create Alert from Selection]**. This opens the [!UICONTROL Alert Builder] and pre-populates the appropriate metrics and filters applied from the table. You can edit the alert if needed. ![Create alert from selection](assets/create-alert-from-selection.png) |
-
-The percent thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you get more anomalies than if you set a higher threshold (99.75%).
-
->[!IMPORTANT]
->
->Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for Intelligent Alerts.
+The following video tutorial provides a basic overview of alerts: [Intelligent Alerts](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Anomaly lookback for alerts
 
@@ -43,4 +29,18 @@ If an alert uses anomaly detection, the training period varies based on the gran
 * Daily granularity: 35 days + same range last year
 * Hourly granularity: 336 hours
 
-See [Statistical techniques used in Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) for more information.
+For more information, see [Statistical techniques used in Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## Create alerts
+
+For information about how to create alerts in Adobe Analytics, see [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+
+>[!IMPORTANT]
+>
+>Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for Intelligent Alerts.
+
+## Manage alerts
+
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
+
+For more information about how to manage existing alerts in Adobe Analytics, see [Manage alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).

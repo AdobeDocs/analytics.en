@@ -1,6 +1,6 @@
 ---
 title: visitorNameSpace
-description: Retired variable that determined cookie domain.
+description: (Retired) Helped determine third-party cookie domain.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer

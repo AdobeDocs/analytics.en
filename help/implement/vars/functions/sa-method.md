@@ -32,11 +32,12 @@ The Web SDK extension provides a Datastream drop-down list for each environment.
 
 ## Set the desired Datastream manually implementing the Web SDK
 
-Set the `edgeConfigId` configuration variable to the Datastream ID. The Datastream ID is found on the right when viewing a Datastream in Adobe Experience Platform Data Collection.
+Set the `datastreamId` configuration variable to the Datastream ID. The Datastream ID is found on the right when viewing a Datastream in Adobe Experience Platform Data Collection.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

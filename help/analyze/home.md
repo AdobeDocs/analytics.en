@@ -32,7 +32,7 @@ For detailed information about Adobe Analytics features and how to use them, see
 ## Key Analytics resources
 
 * [Contact Customer Care](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics Resources](https://forums.adobe.com/message/10660755)
+* [Adobe Analytics Community on Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics Resources](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
 

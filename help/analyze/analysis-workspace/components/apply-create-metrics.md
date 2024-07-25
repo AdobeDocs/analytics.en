@@ -31,13 +31,41 @@ Metrics can be used in various ways within Analysis Workspace. For information a
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Calculated metrics
+## Create calculated metrics
 
-Calculated metrics allow you to easily see how metrics relate to each other using simple operators or statistical functions. There are several ways to create calculated metrics:
+Calculated metrics allow you to easily see how metrics relate to each other using simple operators or statistical functions. 
 
-* Click the plus icon next to the Metrics header under the list of components on the left.
-* Navigate to **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]** > **[!UICONTROL Add]**.
-* Right click a column header > **[!UICONTROL Create metric from selection]** when one or more header column cells are selected. This option automatically creates a calculated metric for you without needing to use the Calculated Metric Rule Builder.
+There are several ways to create calculated metrics. The method you choose determines whether the calculated metric is available from the component list across all projects, or only in the project where it was created.
+
+### Create calculated metrics for all projects
+
+You can use the calculated metric builder to create calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. 
+
+For information about how to access the calculated metrics builder, see [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+
+### Create calculated metrics for a single project
+
+You can create quick calculated metrics that are available only for the project where they were created.
+
+To create a calculated metric for a single project:
+
+1. In Analysis Workspace, open the project where you want to create the calculated metric.
+
+1. In a freeform table, right-click one or more header column cells, then select **[!UICONTROL Create metric from selection]**
+
+   ![Workspace panel highlighting Create from selection](assets/create-metric-from-selection.png)
+
+1. To create a calculated metric for this project only, choose from the following options:
+
+   * [!UICONTROL **Divide**]
+   
+   * [!UICONTROL **Subtract**]
+
+   * [!UICONTROL **Add**]
+
+   * [!UICONTROL **Multiply**]
+
+   Or, to open the calculated metric builder and create the calculated metric for all projects, select [!UICONTROL **Open in Calculated Metric Builder**], then continue with [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 [Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 

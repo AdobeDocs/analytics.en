@@ -23,7 +23,7 @@ When you enable **[!UICONTROL Player State Tracking]** under [Media reporting](/
 | Streams impacted by mute | Triggered if at least one Mute state happened during a playback session. | Media Close | `a.media.states.mute.set` |
 | Mute counts | The number of times that the video entered a Mute state. | Media Close | `a.media.states.mute.count` |
 | Mute total duration | The amount of time that the video was in a Mute state, in seconds. | Media Close | `a.media.states.mute.time` |
-| Streams impacted by picture in picture | Triggered if at least one Picture In Picture state happened during a playback sesion | Media Close | `a.media.states.pictureinpicture.set` |
+| Streams impacted by picture in picture | Triggered if at least one Picture In Picture state happened during a playback session. | Media Close | `a.media.states.pictureinpicture.set` |
 | Picture in picture counts | The number of times that the video entered a Picture In Picture state. | Media Close | `a.media.states.pictureinpicture.count` |
 | Picture in picture total duration | The amount of time that the video was in a Picture In Picture state, in seconds. | Media Close | `a.media.states.pictureinpicture.time` |
 

@@ -5,7 +5,7 @@ feature: Metrics
 ---
 # Streaming Media video metadata metrics
 
-*This page describes available metrics when you enable [!UICONTROL Video metadata] for a report suite. See [Streaming Media video metadata dimensions](../dimensions/sm-video-metadata.md) for available dimensions.*
+*This page describes the available metrics when you enable [!UICONTROL Video metadata] for a report suite. See [Streaming Media video metadata dimensions](../dimensions/sm-video-metadata.md) for available dimensions.*
 
 Streaming Media video metadata metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 

@@ -5,7 +5,7 @@ feature: Dimensions
 ---
 # Streaming Media core dimensions
 
-*This page describes available dimensions when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core metrics](../metrics/sm-core.md) for available metrics.*
+*This page describes the available dimensions when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core metrics](../metrics/sm-core.md) for available metrics.*
 
 Streaming Media core dimensions provide basic reporting functionality to data collected through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 

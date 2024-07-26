@@ -5,7 +5,7 @@ feature: Dimensions
 ---
 # Streaming Media video metadata dimensions
 
-*This page describes available dimensions when you enable [!UICONTROL Video Metadata] for a report suite. See [Streaming Media video metadata metrics](../metrics/sm-video-metadata.md) for available metrics.*
+*This page describes the available dimensions when you enable [!UICONTROL Video Metadata] for a report suite. See [Streaming Media video metadata metrics](../metrics/sm-video-metadata.md) for available metrics.*
 
 Streaming Media ad dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 
@@ -17,8 +17,8 @@ When you enable **[!UICONTROL Video Metadata]** under [Media reporting](/help/ad
 | Day part | The time of the day when the content was broadcast or played. Any string value is supported. | Media Start, Media Close | `a.media.dayPart` |
 | Episode | The episode number. | Media Start, Media Close | `a.media.episode` |
 | Media feed type | The type of feed. | Media Start, Media Close | `a.media.feed` |
-| Genre | The type or grouping of content as defined by content producer. This dimension supports multiple values, delimited by commas. | Media Start, Media Close | `a.media.genre` |
-| MVPD | The MVPD provided by Adobe authentication. | Media Start, Media Close | `a.media.pass.mvpd` |
+| Genre | The type or grouping of content as defined by the content producer. This dimension supports multiple values, delimited by commas. | Media Start, Media Close | `a.media.genre` |
+| MVPD | The MVPD as provided by Adobe authentication. | Media Start, Media Close | `a.media.pass.mvpd` |
 | Network | The network or channel name | Media Start, Media Close | `a.media.network` |
 | Season | The season number that the show belongs to. | Media Start, Media Close | `a.media.season` |
 | Show | The program or series name. | Media Start, Media Close | `a.media.show` |

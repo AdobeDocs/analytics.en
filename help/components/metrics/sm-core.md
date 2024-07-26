@@ -5,7 +5,7 @@ feature: Metrics
 ---
 # Streaming Media core metrics
 
-*This page describes available metrics when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core dimensions](../dimensions/sm-core.md) for available dimensions.*
+*This page describes the available metrics when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core dimensions](../dimensions/sm-core.md) for available dimensions.*
 
 Streaming Media core metrics provide basic reporting functionality to data collected through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 
@@ -28,6 +28,6 @@ When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/
 | Content segment views | A boolean that triggers on the first frame of viewed segment. | Media Close | `a.media.segmentView` |
 | Media starts | A boolean that triggers when the media initially loads. This event includes ads, buffering, and errors. | Media Start | `a.media.view` |
 | Content time spent | The total event duration for all events of type PLAY on the main content, in seconds. | Media Close | `a.media.timePlayed` |
-| Unique time played | The total amount of time that unique content played, in seconds. This metric excludes time played when viewing repeat content, such as seeking backwards. | Media Close | `a.media.uniqueTimePlayed` |
+| Unique time played | The total amount of time that unique content is played, in seconds. This metric excludes time played when viewing repeat content, such as seeking backwards. | Media Close | `a.media.uniqueTimePlayed` |
 
 {style="table-layout:auto"}

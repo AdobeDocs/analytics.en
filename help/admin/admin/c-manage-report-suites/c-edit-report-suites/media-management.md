@@ -15,10 +15,23 @@ The following Media Management options are available when editing a report suite
 
 * [!UICONTROL **Media Reporting**]
 
-  Reports specific to the Streaming Media Collection Add-on are available on the Media Reporting page. For more information about Media Reporting, see [Media reports enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Use these check boxes to enable dimensions and metrics specific to the Streaming Media Collection Add-on.
+
+  * [Media core dimensions](/help/components/dimensions/sm-core.md)
+  * [Media core metrics](/help/components/metrics/sm-core.md)
+  * [Media ad dimensions](/help/components/dimensions/sm-ads.md)
+  * [Media ad metrics](/help/components/metrics/sm-ads.md)
+  * [Media chapter dimensions](/help/components/dimensions/sm-chapters.md)
+  * [Media chapter metrics](/help/components/metrics/sm-chapters.md)
+  * [Media quality dimensions](/help/components/dimensions/sm-quality.md)
+  * [Media quality metrics](/help/components/metrics/sm-quality.md)
+  * [Video metadata dimensions](/help/components/dimensions/sm-video-metadata.md)
+  * [Video metadata metrics](/help/components/metrics/sm-video-metadata.md)
+  * [Audio metadata dimensions](/help/components/dimensions/sm-audio-metadata.md)
+  * [Player state tracking metrics](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **Media Classifications**]
 
-  Classifications specific to the Streaming Media Collection Add-on are available on the Media Classifications page. For information about Classifications, see [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Classifications specific to Streaming Media Collection Add-on dimensions are available on the [!UICONTROL Media Classifications] page. They operate similarly to [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) available for conversion variables. Enabling certain components under [!UICONTROL Media Reporting] automatically create classification dimensions for you. You can use this interface to create your own classification dimensions or upload classification data.
 
 For general information about incorporating streaming media data in Adobe Analytics, see the [Streaming Media Collection Add-on Guide](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).

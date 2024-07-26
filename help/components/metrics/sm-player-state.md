@@ -7,6 +7,8 @@ feature: Metrics
 
 Streaming Media player state tracking metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
 
+When you enable **[!UICONTROL Player State Tracking]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following metrics are available:
+
 | Metric name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |
 | Streams impacted by closed captioning | Triggered if at least one Closed Captioning state happened during a playback session. | Media Close | `a.media.states.closedcaptioning.set` |

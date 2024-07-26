@@ -5,7 +5,11 @@ feature: Dimensions
 ---
 # Streaming Media video metadata dimensions
 
+*This page describes available dimensions when you enable [!UICONTROL Video Metadata] for a report suite. See [Streaming Media video metadata metrics](../metrics/sm-video-metadata.md) for available metrics.*
+
 Streaming Media ad dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
+
+When you enable **[!UICONTROL Video Metadata]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

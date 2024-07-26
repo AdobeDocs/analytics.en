@@ -1,13 +1,15 @@
 ---
 title: Streaming Media quality dimensions
-description: Available dimensions when you enable [!UICONTROL Quality] for a report suite.
+description: Available dimensions when you enable [!UICONTROL Media Quality] for a report suite.
 feature: Dimensions
 ---
 # Streaming Media quality dimensions
 
+*This page describes available dimensions when you enable [!UICONTROL Media Quality] for a report suite. See [Streaming Media quality metrics](../metrics/sm-quality.md) for available metrics.*
+
 Streaming Media quality dimensions provide reporting related to the quality of the content the visitor consumes. Use of these dimensions require the [!UICONTROL Adobe Streaming Media Collection add-on]. Contact your Adobe Account Team for details.
 
-Many quality dimensions also have metric counterparts. See [Streaming Media quality metrics](../metrics/sm-quality.md) for more information.
+When you enable **[!UICONTROL Media Quality]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
 
 | Dimensions name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

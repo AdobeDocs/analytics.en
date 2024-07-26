@@ -186,50 +186,50 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`va_finder_id`** | A numeric ID that identifies the [First touch channel](/help/components/dimensions/first-touch-channel.md) dimension. The lookup for this ID can be found in the Marketing Channel Manager. | tinyint unsigned |
 | **`va_instance_event`** | A flag that identifies Marketing Channel [Instances](/help/components/metrics/instances.md). | tinyint unsigned |
 | **`va_new_engagement`** | A flag that identifies Marketing Channel [New engagements](/help/components/metrics/new-engagements.md). | tinyint unsigned |
-| **`video`** | Video content | varchar(255) |
-| **`videoad`** | Video ad name | varchar(255) |
-| **`videoadinpod`** | Video ad in pod position | varchar(255) |
-| **`videoadlength`** | Video ad length | integer |
-| **`videoadload`** | Video ad loads | varchar(255) |
-| **`videoadname`** | Video ad name | varchar(255) |
-| **`videoadplayername`** | Video ad player name | varchar(255) |
-| **`videoadpod`** | Video ad pod | varchar(255) |
-| **`videoadvertiser`** | Video advertiser | varchar(255) |
-| **`videoaudioalbum`** | Video audio album | varchar(255) |
-| **`videoaudioartist`** | Video audio artist | varchar(255) |
-| **`videoaudioauthor`** | Video audio author | varchar(255) |
-| **`videoaudiolabel`** | Video audio label | varchar(255) |
-| **`videoaudiopublisher`** | Video audio publisher | varchar(255) |
-| **`videoaudiostation`** | Video audio station | varchar(255) |
-| **`videocampaign`** | Video campaign | varchar(255) |
-| **`videochannel`** | Video channel | varchar(255) |
-| **`videochapter`** | Video chapter name | varchar(255) |
-| **`videocontenttype`** | Video content type. Set to 'Video' automatically for all video views | varchar(255) |
-| **`videodaypart`** | Video day part | varchar(255) |
-| **`videoepisode`** | Video episode | varchar(255) |
-| **`videofeedtype`** | Video feed type| varchar(255) |
-| **`videogenre`** | Video genre | text |
-| **`videolength`** | Video length | integer |
-| **`videomvpd`** | Video MVPD | varchar(255) |
-| **`videoname`** | Video name | varchar(255) |
-| **`videonetwork`** | Video network | varchar(255) |
-| **`videopath`** | Video path | varchar(100) |
-| **`videoplayername`** | Video player name | varchar(255) |
-| **`videotime`** | Video time | integer |
-| **`videoqoebitrateaverageevar`** | Video quality average bit rate | varchar(255) |
-| **`videoqoebitratechangecountevar`** | Video quality change count | varchar(255) |
-| **`videoqoebuffercountevar`** | Video quality buffer count | varchar(255) |
-| **`videoqoebuffertimeevar`** | Video quality buffer time | varchar(255) |
-| **`videoqoedroppedframecountevar`** | Video quality dropped frame count | varchar(255) |
-| **`videoqoeerrorcountevar`** | Video quality error count | varchar(255) |
-| **`videoqoeextneralerrors`** | Video quality external errors | text |
-| **`videoqoeplayersdkerrors`** | Video quality SDK errors | text |
-| **`videoqoetimetostartevar`** | Video quality time to start | varchar(255) |
-| **`videoseason`** | Video season | varchar(255) |
-| **`videosegment`** | Video segment | varchar(255) |
-| **`videoshow`** | Video show | varchar(255) |
-| **`videoshowtype`** | Video show type | varchar(255) |
-| **`videostreamtype`** | Video stream type | varchar(255) |
+| **`video`** | The [Content](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videoad`** | The [Ad](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadinpod`** | The [Ad in pod position](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadlength`** | The [Ad length (variable)](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | integer |
+| **`videoadload`** | The [Ad loads](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadname`** | The [Ad name (variable)](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadplayername`** | The [Ad player name](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadpod`** | The [Ad pod](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoadvertiser`** | The [Advertiser](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudioalbum`** | The [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudioartist`** | The [Artist](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudioauthor`** | The [Author](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudiolabel`** | The [Label](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudiopublisher`** | The [Publisher](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoaudiostation`** | The [Station](/help/components/dimensions/sm-audio-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videocampaign`** | The [Campaign ID](/help/components/dimensions/sm-ads.md) Streaming Media dimension. | varchar(255) |
+| **`videochannel`** | The [Content channel](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videochapter`** | The [Chapter](/help/components/dimensions/sm-chapters.md) Streaming Media dimension. | varchar(255) |
+| **`videocontenttype`** | The [Content type](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videodaypart`** | The [Day part](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoepisode`** | The [Episode](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videofeedtype`** | The [Media feed type](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videogenre`** | The [Genre](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. This dimension allows multiple values in the same hit, delimited by a comma. | text |
+| **`videolength`** | The [Content length (variable)](/help/components/dimensions/sm-core.md) Streaming Media dimension. | integer |
+| **`videomvpd`** | The [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoname`** | The [Content name (variable)](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videonetwork`** | The [Network](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videopath`** | The [Media path](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(100) |
+| **`videoplayername`** | The [Content player name](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videotime`** | The [Content time spent](/help/components/metrics/sm-core.md) Streaming Media metric. | integer |
+| **`videoqoebitrateaverageevar`** | The [Average bitrate](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | The [Bitrate changes](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoebuffercountevar`** | The [Buffer events](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoebuffertimeevar`** | The [Total buffer duration](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoedroppedframecountevar`** | The [Dropped frames](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoeerrorcountevar`** | The [Errors](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoqoeextneralerrors`** | The [External error IDs](/help/components/dimensions/sm-quality.md) Streaming Media dimension. This dimension allows multiple values in the same hit. | text |
+| **`videoqoeplayersdkerrors`** | The [Player SDK error IDs](/help/components/dimensions/sm-quality.md) Streaming Media dimension. This dimension allows multiple values in the same hit. | text |
+| **`videoqoetimetostartevar`** | The [Time to start](/help/components/dimensions/sm-quality.md) Streaming Media dimension. | varchar(255) |
+| **`videoseason`** | The [Season](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videosegment`** | The [Content segment](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
+| **`videoshow`** | The [Show](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videoshowtype`** | The [Show type](/help/components/dimensions/sm-video-metadata.md) Streaming Media dimension. | varchar(255) |
+| **`videostreamtype`** | The [Stream type](/help/components/dimensions/sm-core.md) Streaming Media dimension. | varchar(255) |
 | **`visid_high`** | Used with `visid_low` to uniquely identify a visitor. | bigint unsigned |
 | **`visid_low`** | Used with `visid_high` to uniquely identify a visitor. | bigint unsigned |
 | **`visid_new`** | A flag that determines if the hit contains a newly generated visitor ID. | char(1) |

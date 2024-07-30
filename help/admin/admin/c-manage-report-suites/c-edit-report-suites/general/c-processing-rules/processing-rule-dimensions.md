@@ -15,7 +15,7 @@ The available dimensions and metrics that you can read and write using processin
 | Value | Read/write status | Description |
 | --- | --- | --- |
 | Custom value | Read only | Custom text or values typed directly in the action of a processing rule. |
-| Concatenated value | Read only | Values created by combining two values. For example, category and page name can be combined to create a subcategory. |
+| Concatenated value | Read only | Values that are created by combining two values. For example, channel and page name can be combined to create a subcategory. |
 
 ## Hit attributes
 
@@ -25,13 +25,13 @@ The available dimensions and metrics that you can read and write using processin
 | Page name | Read + write | The [Page](/help/components/dimensions/page.md) dimension. Link tracking hits strip this dimension before reaching processing rules. If you re-insert a page value using processing rules, the hit is considered a [Page view](/help/components/metrics/page-views.md) instead of a [Page event](/help/components/metrics/page-events.md). Adobe recommends checking for a value in the page dimension before modifying it. |
 | Report suite ID | Read only | The report suite that the processing rule is executed on. This report suite can be different than the report suite originally sent through AppMeasurement, such as when using VISTA rules. |
 | AppMeasurement code version | Read only | The AppMeasurement library version used to generate the image request. |
-| IP address | Read only | The IP adress of the visitor. |
+| IP address | Read only | The IP address of the visitor. |
 | User agent | Read only | The user agent of the visitor. |
 | Referrer | Read only | The [Referrer](/help/components/dimensions/referrer.md) dimension. |
 | Query string parameter | Read only | The value of a specified query string parameter in the current URL. |
 | Referring query string parameter | Read only | The value of a specified query string parameter in the referring URL, or an empty string if none exists. |
 | Referring domain | Read only | The page domain of the referring URL, including subdomains. |
-| Referring root domain | Read only | The page domain of the referring URL, exclusing subdomains. |
+| Referring root domain | Read only | The page domain of the referring URL, excluding subdomains. |
 | Page query string | Read only | All query string parameters and their values in the current URL. |
 | Referring query string | Read only | All query string parameters and their values in the referring URL. |
 | Page path | Read only | The page path of the current URL. Page path does not include protocol, domain, or query string parameters. |
@@ -65,7 +65,7 @@ The available dimensions and metrics that you can read and write using processin
 
 ## Context variables
 
-All [Context data variables](/help/implement/vars/page-vars/contextdata.md) that this report suite has seen in previous image requests. If context data variables are not picked up by a processing rule, that data is permanently lost. See [Copy a context data variable to an eVar](processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](processing-rules-examples/processing-rules-copy-context-data-event.md) for usage examples.
+All [Context data variables](/help/implement/vars/page-vars/contextdata.md) that this report suite has seen in previous image requests. If processing rules do not place context data into another variable, that data is permanently lost. See [Copy a context data variable to an eVar](processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](processing-rules-examples/processing-rules-copy-context-data-event.md) for usage examples.
 
 ## Success events
 

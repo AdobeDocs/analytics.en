@@ -17,6 +17,8 @@ The available dimensions and metrics that you can read and write using processin
 | Custom value | Read only | Custom text or values typed directly in the action of a processing rule. |
 | Concatenated value | Read only | Values that are created by combining two values. For example, channel and page name can be combined to create a subcategory. |
 
+{style="table-layout:auto"}
+
 ## Hit attributes
 
 | Attribute | Read/write status | Description |
@@ -39,6 +41,8 @@ The available dimensions and metrics that you can read and write using processin
 | Page root domain | Read only | The page domain of the current URL, excluding subdomains. |
 | Customer perspective | Read + write | A flag that determines if the hit is a mobile background hit. |
 
+{style="table-layout:auto"}
+
 ## Conversion variables
 
 | Variable | Read/write status Description |
@@ -51,6 +55,8 @@ The available dimensions and metrics that you can read and write using processin
 | Currency code | Read + write | The [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) implementation variable. IMPORTANT: If you set this variable to an invalid value, the hit is discarded. |
 | Transaction ID | Read + write | The [`transactionID`](/help/import/data-sources/transactionid.md) implementation variable. |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >Adobe does not support setting the [`products`](/help/implement/vars/page-vars/products.md) implementation variable using processing rules.
 
@@ -62,6 +68,8 @@ The available dimensions and metrics that you can read and write using processin
 | Hierarchy 1-5 | Read + write | [Hierarchy](/help/components/dimensions/hierarchy.md) dimensions. |
 | Server | Read + write | The [Server](/help/components/dimensions/server.md) dimension. |
 | Channel | Read + write | The [Site section](/help/components/dimensions/site-section.md) dimension. |
+
+{style="table-layout:auto"}
 
 ## Context variables
 
@@ -81,3 +89,5 @@ Processing rules can set events but cannot read them as conditions. Set the rule
 | Cart removals | Write only | The [Cart removals](/help/components/metrics/cart-removals.md) metric. |
 | Event 1-1000 | Write only | [Custom events](/help/components/metrics/custom-events.md). |
 | Product views | Write only | The [Product views](/help/components/metrics/product-views.md) metric. |
+
+{style="table-layout:auto"}

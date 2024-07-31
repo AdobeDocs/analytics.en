@@ -138,7 +138,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`mobileresolution`** | Resolution of the mobile device. `[Width] x [Height]` in pixels. | varchar(255) |
 | **`monthly_visitor`** | A flag that determines if the visitor is unique to the current month. | tinyint unsigned |
 | **`mvvar1`** - `mvvar3` | [List variable](/help/implement/vars/page-vars/list.md) values. Contains a delimited list of custom values depending on implementation. The `post_mvvar1` - `post_mvvar3` columns replace the original delimiter with `--**--`. | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | The list variable values that were set on the current hit. Replaces the original delimiter with `--**--`. Does not have a `post` column. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | The list variable values that were set on the current hit. Replaces the original delimiter with `--**--`. `post` column is not expected to receive any data for these variables. | text |
 | **`new_visit`** | A flag that determines if the current hit is a new visit. Set by Adobe after 30 minutes of visit inactivity. | tinyint unsigned |
 | **`os`** | A numeric ID that represents the operating system of the visitor. Based on the `user_agent` column. The key value for `operating_system.tsv` standard lookup and `operating_system_type.tsv` [Dynamic lookup](dynamic-lookups.md). | int unsigned |
 | **`page_event`** | The type of hit that is sent in the image request (standard hit, download link, custom link, exit link). See [Page event lookup](datafeeds-page-event.md). | tinyint unsigned |

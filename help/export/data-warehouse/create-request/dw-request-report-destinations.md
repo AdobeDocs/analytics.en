@@ -136,6 +136,7 @@ To configure the destination where Data Warehouse reports are sent:
          | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. <!-- How does this differ from the Notification email tab? -->| 
 
    1. Select [!UICONTROL **Add location**], then specify the following information:
+   
       |Field | Function | 
       |---------|----------|
       | [!UICONTROL **Name**] | The name of the location.  | 

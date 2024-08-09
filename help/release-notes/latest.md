@@ -20,7 +20,7 @@ These release notes cover the release period of August 14, 2024 through Septembe
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue where multiple unknown values were displayed in Workspace (AN-353632)
+* Fixed an issue where multiple unknown values were displayed in Workspace (AN-353632) 
 * Fixed an issue where the notification email did not send after adding new customers or new Analytics product profiles in the Admin console (AN-350930)
 
 ### Other Analytics fixes

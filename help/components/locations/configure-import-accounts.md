@@ -134,7 +134,7 @@ To configure a cloud import or export account:
 
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Host**] | Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`. | 
+      | [!UICONTROL **Host**] | Enter the desired FTP destination URL. For example, `ftp.adobe.com`. | 
       | [!UICONTROL **Path**] | Can be left blank. | 
       | [!UICONTROL **Username**] | Enter the username to log in to the FTP site. | 
       | [!UICONTROL **Password and confirm password**] | Enter the password to log in to the FTP site. | 

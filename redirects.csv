@@ -306,7 +306,6 @@ source,destination
 /docs/analytics/admin/admin-tools/finding-methods.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/finding-methods.html
 /docs/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/unique-visitor-variable/t-unique-visitor-variable.html
 /docs/analytics/admin/admin-tools/unique-visitor-variable/extract-visitorids-usecase.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/unique-visitor-variable/extract-visitorids-usecase.html
-/docs/analytics/admin/admin-tools/success-events/t-success-events.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events.html
 /docs/analytics/admin/admin-tools/success-events/success-event.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html
 /docs/analytics/admin/traffic-management/traffic-management.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html
 /docs/analytics/admin/traffic-management/t-traffic-schedule-spike.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-schedule-spike.html
@@ -386,7 +385,7 @@ source,destination
 /docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html,/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html
 /docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/pagination-filtering-sorting.html,/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/filter-and-sort.html
 /docs/analytics/admin/admin-tools/t-simplified-menu.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/customize-menus.html
-/docs/analytics/admin/admin-tools/metric-visibility.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events.html
+/docs/analytics/admin/admin-tools/metric-visibility.html,https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event
 /docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/t-conversion-variables-admin.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/conversion-var-admin.html
 /docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-spike-estimate-past-server-calls.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-schedule-spike.html
 /docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-lead-time.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/t-traffic-permanent.html
@@ -578,3 +577,5 @@ source,destination
 /docs/analytics/analyze/activity-map/troubleshoot-data-collection,/docs/analytics/analyze/activity-map/troubleshooting
 /docs/analytics/import/dataconnectors/data-connectors-eol,/docs/discontinued/using/data-connectors
 /docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-genesis,/docs/discontinued/using/data-connectors
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/event-type,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event

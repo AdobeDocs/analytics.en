@@ -577,5 +577,5 @@ source,destination
 /docs/analytics/analyze/activity-map/troubleshoot-data-collection,/docs/analytics/analyze/activity-map/troubleshooting
 /docs/analytics/import/dataconnectors/data-connectors-eol,/docs/discontinued/using/data-connectors
 /docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-genesis,/docs/discontinued/using/data-connectors
-/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event
-/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/event-type,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event
+/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/event-type,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event

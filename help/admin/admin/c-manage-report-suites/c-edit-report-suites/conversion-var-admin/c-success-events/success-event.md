@@ -10,11 +10,9 @@ exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 
 Success events (also known as conversion events or custom events) are actions that can be tracked. You determine what a success event is. For example, if a visitor purchases an item, the purchase event could be considered the success event.
 
-Here is a video overview:
+For a video overview of success events, see [Introduction to conversion events](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) in the Analytics tutorials guide. 
 
->[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
-
-## Understand success events
+## Success event examples
 
 There are many kinds of success events, depending on your web site type. Several examples include:
 
@@ -48,9 +46,9 @@ To configure success events:
 
 1. In the **[!UICONTROL Type]** column, select the checkbox next to the item to enable the drop-down list, then select the desired type.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >You can change an event from counter, numeric, or currency to another type without losing access to previously captured data.
+   >Consider the following when changing the event type:<ul><li>You can change the event type between counter and numeric without losing access to previously captured data.</li><li>When changing event types to or from a currency event, a message is displayed stating that historical data is not available in reporting. Different event types use separate data tables, and cannot be used simultaneously. Some historical data can be restored if the user reverts the event type. However, any data collected after the initial change is not available.</li></ul>
 
    The type that you select determines whether the event is a counter (standard), numeric, or currency event. <p>Counter events are used to record an event in time.</p><p>Numeric events are used to report on non-currency numbers, such as the number of coupons used in an order.</p> <p>Currency events record a decimal number, like tax or shipping. The value passed into currency events is converted from the page currency to the report suite's base currency upon receipt. Currency events are used to track tax and shipping charges. For details on using currency events, contact an Adobe representative.<p>Numeric and currency events allow you to increment metrics by more than one.</p><p>Events used in the Standard type of Data Sources must be numeric or currency events.</p>
 
@@ -74,12 +72,11 @@ To configure success events:
 1. In the [!UICONTROL **Unique Event Recording**] column, select the checkbox, then choose from the drop-down menu whether to always record the event.
 
    The following options are available:
-
-   
-| Option | Function | 
-|---------|----------|
-| [!UICONTROL **Record Once Per Visit**] | Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes. |
-| [!UICONTROL **Use Event ID**] | Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](/help/implement/vars/page-vars/events/event-serialization.md) in the Implement user guide. |
+  
+   | Option | Function | 
+   |---------|----------|
+   | [!UICONTROL **Record Once Per Visit**] | Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes. |
+   | [!UICONTROL **Use Event ID**] | Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](/help/implement/vars/page-vars/events/event-serialization.md) in the Implement user guide. |
 
 1. In the [!UICONTROL **Participation**] column, select the checkbox, then choose whether to enable or disable participation. When enabled, it gives full attribution credit to all dimension items in the visit.
 
@@ -88,20 +85,3 @@ To configure success events:
    >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) builder.
 
 1. Select **[!UICONTROL Save]**.
-
-## Success Events Page - Descriptions {#section_681ECEC981694CABBDBF00E18165B447}
-
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
-
-The Success Events page lets you configure the Event variables used on your site. You can add up to 1,000 success events. Events 81-1,000 only work if on H22 code or higher.
-
-| Element | Description |
-|--- |--- |
-|Event|The original name of the event.|
-|Name|Give meaningful names to success events used on your site. For example, if event1 is used to track registrations, change the name here so that event1 will be represented as the "Registrations" metric in all Conversion reports.|
-|Type|The selected  Type determines whether the event is a counter (standard), numeric, or currency event. <p>Counter events are used to record an event in time.</p><p>Numeric events are used to report on non-currency numbers, such as the number of coupons used in an order.</p> <p>Currency events record a decimal number, like tax or shipping. The value passed into currency events is converted from the page currency to the report suite's base currency upon receipt. Currency events are used to track tax and shipping charges. For details on using currency events, contact an Adobe representative.<p>Numeric and currency events allow you to increment metrics by more than one.</p><p>Events used in the Standard type of Data Sources must be numeric or currency events.</p>|
-|Polarity|Metric polarity allows you to indicate whether Adobe Analytics should consider it good or bad if a given custom event (metric) goes up. It will allow Adobe Analytics to show directional indicators (arrows) for various metrics to add context (for example, week over week comparisons).  Examples: if "Bugs Submitted" goes up week over week, should Adobe Analytics consider that good, or bad? An increase in Email Registrations is probably good. But an increase in Form Submission Errors is probably bad.  In Analysis Workspace, polarity is applied to: Freeform Table conditional formatting, Summary Change visualizations, and the Map visualization's Positive/Negative color scheme.|
-|Description|A brief description of the event's purpose and usage.|
-|Unique Event Recording|**Record Once Per Visit**: Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes.<br>**Use Event ID**: Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](/help/implement/vars/page-vars/events/event-serialization.md) in the Implement user guide.|
-|Participation|Gives full attribution credit to all dimension items in the visit.|
-|Warning (currency event)|When changing event types to or from a currency event, a message is displayed stating that historical data is not available in reporting.  Different event types use separate data tables, and cannot be used simultaneously. Some historical data can be restored if the user reverts the event type. However, any data collected after the initial change is not available. Use caution when changing an event type.|

@@ -10,9 +10,9 @@ feature: Data Feeds, FTP Export, Data Warehouse
 
 This guide outlines ways to get data out of Adobe Analytics. It includes:
 
-* **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to FTP sites.
-* **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values.
-* **FTP and SFTP:** Best practices for using FTP and SFTP with Adobe
+* **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to [cloud destinations](/help/export/analytics-data-feed/create-feed.md).
+* **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values. Data warehouse requests are typically sent to [cloud destinations](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* **FTP and SFTP:** FTP and SFTP are supported, but are no longer recommended. Instead, export data to cloud destinations.
 
 Here is a video overview of Adobe Analytics:
 

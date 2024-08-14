@@ -13,6 +13,15 @@ Cumulative release notes for AppMeasurement for JavaScript.
 
 You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
+## Version 2.27.0
+
+Release Date: **August 12, 2024**
+
+* The `s_ac` cookie is now written with the `secure` flag if `writeSecureCookies` has been enabled.
+* Fixed an initialization error when the library is embedded inline.
+* Fixed an error if `localStorage` or `sessionStorage` has been disabled.
+* High Entropy User-Agent Hints are now included with link tracking calls (`tl`) if `collectHighEntropyUserAgentHints` has been enabled.
+
 ## Version 2.26.0
 
 Release Date: **March 4, 2024**

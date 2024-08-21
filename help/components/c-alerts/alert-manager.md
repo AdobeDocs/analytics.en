@@ -6,35 +6,86 @@ exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 ---
 # Alerts manager
 
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
+
 The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
 
  ![](assets/alert-manager.png)
 
-## Access the Alerts manager
+## Create alerts
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Alerts**].
+To create alerts from the Alerts manager:
 
-## Available actions in the Alerts manager
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
-In the Alerts manager, you can:
+   ![](assets/alert-manager.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
-* Tag alerts. This allows you to organize them for ease of use.
-* Delete alerts.
-* Rename alerts.
-* Approve alerts.
-* Copy alerts.
-* Enable/disable alerts.
-* **Renew** an alert expiration date. When one or more alerts are selected, they can be renewed by clicking **[!UICONTROL Renew]**.This extends their expiration dates to be 1 year from the day **[!UICONTROL Renew]** was clicked, regardless of their original expiration date.
-* Export an alert to a .CSV file.
-* Edit alerts by double-clicking the alert title.
-* Search for alerts.
-* Add alerts to other report suites.
-* Specify/change the owner of an alert.
-* Add other filters.
-* Define an alert **expiration date**.
+1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
 
-## Configure columns
+1. Select the alert type that corresponds to the alert that you want to create:
+
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
+
+     If you select this option, continue with [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) for more details about creating alerts.
+
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
+
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
+
+## Manage existing alerts
+
+You can perform various actions on existing alerts, such as tagging, renaming, deleting, and so forth.
+
+To manage existing alerts in the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Select one or more alerts that you want to manage.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. In the action bar, select any of the following options:
+
+   | Action | Function | 
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
+   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Rename**] | Renames the alert. |
+   | [!UICONTROL **Approve**] | Mark the alert as Approved. |
+   | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
+   | [!UICONTROL **Disable**] | Disables an alert that is currently enabled. |
+   | [!UICONTROL **Enable**] | Enables an alert that is currently disabled. |
+   | [!UICONTROL **Renew**] | Renews the alert expiration date. This extends the  expiration date to be 1 year from the day you selected this option, regardless of the original expiration date. |
+   | [!UICONTROL **Export to CSV**] | Exports the alert to a .CSV file. |
+
+## Edit an alert
+
+To edit an existing alert:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Select the alert name in the [!UICONTROL **Title and description**] column.
+
+1. Edit the alert as desired. 
+
+   Following are some of the things you can do when editing an alert:
+
+   * Add alerts to other report suites
+   * Change the owner 
+   * Update the filters
+   * Update the expiration date
+
+1. Edit the alert, then select [!UICONTROL **Save**].
+
+## Configure columns 
 
 You can configure the information displayed for each alert in the Alerts manager by configuring the columns that are displayed.
 

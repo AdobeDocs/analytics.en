@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **August 2024** | |
+| Alerts manager | Streamlined documentation about the [Alerts manager](/help/components/c-alerts/alert-manager.md). Updated for clarity and accuracy. | 
 | **July 2024** | |
 | Success events | Streamlined documentation about [success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Updated for clarity and accuracy. | 
 | At least one account type must be selected when managing locations | Clarified that when administrators are [limiting the account types that are used for export and import](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), at least one account type must be selected. |
@@ -28,7 +30,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Updated common error messages | Made minor updates to the [common error messages](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **June 2024** | |
 | Updated product name that refers to streaming media features | Replaced instances of "Media Analytics" and "Streaming Media" with the name "Streaming Media Collection Add-on" when referring to the set of streaming media features that collect streaming media data and surface it in Analysis Workspace. <p>These updates are available throughout the Adobe Analytics documentation as well as the [Streaming Media Collection Add-on documentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
-| Improved Intelligent Alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [managing alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), and [overview information](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Improved Intelligent Alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [managing alerts](/help/components/c-alerts/alert-manager.md), and [overview information](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | Deprecated `cookieDomainPeriods` | Now that AppMeasurement automatically detects the correct domain to set cookies on, the [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) variable is deprecated. | 
 | Retire Data Connectors documentation | Moved the Data Connectors end-of-life page to [Discontinued products](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **May 2024** | |

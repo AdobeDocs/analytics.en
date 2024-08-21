@@ -48,13 +48,18 @@ To configure the visible columns in the Alerts manager:
 
    | Column title  | Description |
    |---|---|
-   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
+   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
+   | Enabled | Shows whether the alert is currently enabled or disabled. | 
    | Report suite | Indicates in which report suite the alert was last saved.  |
    | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
-   | Shared with | Lists individuals or groups (admin only) or All (admin only) that you shared the alert with.  |
+   | Expiration date | Shows the date and time when the alert is set to expire. |
    | Date modified | Indicates the date when the alert was last modified.  |
-   | Last used | Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> |
 
    {style="table-layout:auto"}
+   
+   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+

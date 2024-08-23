@@ -7,6 +7,8 @@ role: Admin
 ---
 # Limit a Virtual report suite to certain dates
 
+{{available-existing-customers}}
+
 When we turn on stitching, the stitching starts on a specific date. Let's assume that date is June 1. The CDA Virtual report suite will contain unstitched data prior to June 1. You may want to hide any data in the Virtual report suite prior to June 1 so that your analysis can focus on date ranges after stitching began.
 
 You can limit the Virtual report suite data to certain dates by doing the following:

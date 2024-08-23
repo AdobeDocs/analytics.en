@@ -7,6 +7,8 @@ role: Admin
 ---
 # Frequently asked questions
 
+{{available-existing-customers}}
+
 +++ How can I use CDA to see how people move from one device type to another?
 
 You can use a [!UICONTROL Flow] visualization with the Mobile Device Type dimension.

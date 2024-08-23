@@ -7,7 +7,7 @@ role: Admin
 ---
 # Cross-Device Analytics
 
-{{limited-availability-existing-customers}}
+{{available-existing-customers}}
 
 Cross-Device Analytics (CDA) is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 

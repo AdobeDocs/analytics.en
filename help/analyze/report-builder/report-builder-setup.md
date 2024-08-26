@@ -1,6 +1,6 @@
 ---
-title: How to set up Report Builder in Customer Journey Analytics
-description: Describes how to set up Report Builder in Customer Journey Analytics
+title: How to set up Report Builder in Adobe Analytics
+description: Describes how to set up Report Builder in Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
@@ -12,7 +12,7 @@ You can quickly access Report Builder using the Excel Add-in menu.
 
 ## Requirements
 
-Report Builder for Customer Journey Analytics is supported on the following operating systems and web browsers.
+Report Builder for Adobe Analytics is supported on the following operating systems and web browsers.
 
 ### macOS
 
@@ -37,7 +37,7 @@ Report Builder for Customer Journey Analytics is supported on the following oper
 
 ## Report Builder Excel Add-in
 
-You must install the Report Builder Excel Add-in to use Report Builder for Customer Journey Analytics. Once you install the Report Builder Excel Add-in, you can access Report Builder from within an open Excel workbook.
+You must install the Report Builder Excel Add-in to use Report Builder for Adobe Analytics. Once you install the Report Builder Excel Add-in, you can access Report Builder from within an open Excel workbook.
 
 ### Download and install the Report Builder Add-in
 
@@ -83,7 +83,7 @@ After you install the Report Builder for Excel Add-in for your operating platfor
 
     ![Click the Report Builder login button.](./assets/rb_login.png)
 
-1. Enter your Adobe Experience ID account information. Your account information should match your Customer Journey Analytics credentials.
+1. Enter your Adobe Experience ID account information. Your account information should match your Adobe Analytics credentials.
 
     ![Your login icon and organization.](./assets/image4.png)
 

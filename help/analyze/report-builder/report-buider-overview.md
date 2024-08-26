@@ -8,15 +8,15 @@ solution: Adobe Analytics
 ---
 # About Report Builder
 
-Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Customer Journey Analytics data. Customer Journey Analytics is a service built on Adobe Experience Platform that lets you join multiple data sources to create a holistic view of your business. With Report Builder's simple and flexible drag and drop UI, you can create complex data queries and custom reports from Customer Journey Analytics data, all within Excel.
+Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Adobe Analytics data. Adobe Analytics is a service built on Adobe Experience Platform that lets you join multiple data sources to create a holistic view of your business. With Report Builder's simple and flexible drag and drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
 
-With Report Builder for Customer Journey Analytics, you can:
+With Report Builder for Adobe Analytics, you can:
 
 - Reference existing worksheet cells to get the perfect row order, date range, or filter
 - Create custom dates using calendar, cell references, or date math
 - Design your tables and visualizations with familiar Excel formatting tools
 
-Report Builder for Customer Journey Analytics is available for Excel on the following platforms:
+Report Builder for Adobe Analytics is available for Excel on the following platforms:
 
 - macOS
 - Microsoft Windows
@@ -24,7 +24,7 @@ Report Builder for Customer Journey Analytics is available for Excel on the foll
 
 ## Common use cases
 
-- **Data Extraction**: Adobe Report Builder allows you to extract data from Customer Journey Analytics into Excel. You can create custom reports and queries to retrieve specific data points that are relevant to your analysis. 
+- **Data Extraction**: Adobe Report Builder allows you to extract data from Adobe Analytics into Excel. You can create custom reports and queries to retrieve specific data points that are relevant to your analysis. 
 
 - **Custom Reporting**: You can design and format custom reports in Excel to suit your specific reporting needs. This is especially useful for tailoring reports to different stakeholders. 
 
@@ -40,7 +40,7 @@ Report Builder for Customer Journey Analytics is available for Excel on the foll
 
  >[!NOTE]
  >
- >This documentation is for Report Builder for Customer Journey Analytics. For information about Report Builder for Analytics on Windows, see [Report Builder for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html).
+ >This documentation is for Report Builder for Adobe Analytics. For information about Report Builder for Analytics on Windows, see [Report Builder for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html).
 
- You can download Report Builder for Customer Journey Analytics from the
+ You can download Report Builder for Adobe Analytics from the
  [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).

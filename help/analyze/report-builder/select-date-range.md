@@ -1,6 +1,6 @@
 ---
-title: How to select a data range in Report Builder in Customer Journey Analytics
-description: Describes how to use the calendar, rolling dates, and custom expressions in Report Builder for Customer Journey Analytics
+title: How to select a data range in Report Builder in Adobe Analytics
+description: Describes how to use the calendar, rolling dates, and custom expressions in Report Builder for Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation

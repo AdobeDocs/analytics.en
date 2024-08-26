@@ -73,7 +73,7 @@ The table below lists examples of page and row values and the resulting output.
 
 ### Include "No value"
 
-In Customer Journey Analytics, some dimensions collect a "no value" entry. This filter allows you to exclude these values from reports. For example, you can create a classification such as the Product Name classification based on the Product SKU key. If a specific product SKU has not been set up with its specific Product Name classification, its Product Name value is set to "no value".
+In Adobe Analytics, some dimensions collect a "no value" entry. This filter allows you to exclude these values from reports. For example, you can create a classification such as the Product Name classification based on the Product SKU key. If a specific product SKU has not been set up with its specific Product Name classification, its Product Name value is set to "no value".
 
 Include "**No value**" is selected by default. Deselect this option to exclude entries with no value.
 

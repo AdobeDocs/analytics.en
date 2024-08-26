@@ -1,5 +1,5 @@
 ---
-title: What is the Report Builder Hub in Customer Journey Analytics
+title: What is the Report Builder Hub in Adobe Analytics
 description: Describes the Report Builder Hub components
 role: User
 feature: Report Builder

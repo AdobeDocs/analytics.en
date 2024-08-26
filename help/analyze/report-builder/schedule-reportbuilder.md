@@ -1,5 +1,5 @@
 ---
-title: How to schedule workbooks using Report Builder in Customer Journey Analytics
+title: How to schedule workbooks using Report Builder in Adobe Analytics
 description: Learn how to use the schedule feature in Report Builder
 role: User
 feature: Report Builder

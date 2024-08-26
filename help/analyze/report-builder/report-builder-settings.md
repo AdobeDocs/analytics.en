@@ -1,5 +1,5 @@
 ---
-title: How to configure settings for Report Builder in Customer Journey Analytics
+title: How to configure settings for Report Builder in Adobe Analytics
 description: Describes how to set offline-mode, language, as-of date, and troubleshooting settings.
 role: Admin
 feature: Report Builder

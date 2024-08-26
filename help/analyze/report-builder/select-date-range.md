@@ -4,8 +4,7 @@ description: Describes how to use the calendar, rolling dates, and custom expres
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 7252214f-a7d6-451b-99c9-d39e8e47120b
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Select a Date Range
 

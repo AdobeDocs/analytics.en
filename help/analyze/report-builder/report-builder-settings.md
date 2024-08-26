@@ -4,8 +4,7 @@ description: Describes how to set offline-mode, language, as-of date, and troubl
 role: Admin
 feature: Report Builder
 type: Documentation
-exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Report Builder Settings
 

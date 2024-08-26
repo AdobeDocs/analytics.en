@@ -4,8 +4,7 @@ description: Describes restricted labels in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Customer Journey Analytics
-exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
+solution: Adobe Analytics
 ---
 # Restricted labels in Report Builder
 

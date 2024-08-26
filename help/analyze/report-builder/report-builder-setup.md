@@ -4,8 +4,7 @@ description: Describes how to set up Report Builder in Customer Journey Analytic
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 99aedc28-05d5-4fc1-8c32-6e5d1d3b0f84
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Report Builder Set Up
 

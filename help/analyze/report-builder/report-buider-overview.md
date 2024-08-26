@@ -1,15 +1,14 @@
 ---
-title: What is Report Builder in Customer Journey Analytics
-description: Describes Report Builder for Customer Journey Analytics
+title: What is Report Builder?
+description: Describes Report Builder functionality
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
-# About Report Builder for Customer Journey Analytics
+# About Report Builder
 
-Report Builder for Customer Journey Analytics allows you to easily create, edit, and refresh custom reports using Adobe Customer Journey Analytics data. Customer Journey Analytics is a service built on Adobe Experience Platform that lets you join multiple data sources to create a holistic view of your business. With Report Builder's simple and flexible drag and drop UI, you can create complex data queries and custom reports from Customer Journey Analytics data, all within Excel.
+Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Customer Journey Analytics data. Customer Journey Analytics is a service built on Adobe Experience Platform that lets you join multiple data sources to create a holistic view of your business. With Report Builder's simple and flexible drag and drop UI, you can create complex data queries and custom reports from Customer Journey Analytics data, all within Excel.
 
 With Report Builder for Customer Journey Analytics, you can:
 
@@ -20,7 +19,7 @@ With Report Builder for Customer Journey Analytics, you can:
 Report Builder for Customer Journey Analytics is available for Excel on the following platforms:
 
 - macOS
-- Windows
+- Microsoft Windows
 - Web browsers
 
 ## Common use cases

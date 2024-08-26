@@ -4,8 +4,7 @@ description: Describes how to use filters in Report Builder for Customer Journey
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Work with Filters in Report Builder
 

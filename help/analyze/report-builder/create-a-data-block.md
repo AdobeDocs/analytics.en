@@ -1,11 +1,10 @@
 ---
-title: How to create a data block using Report Builder in Customer Journey Analytics
+title: How to create a data block using Report Builder
 description: Describes how to create a data block.
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 46382621-d5e1-41d6-865c-782ec28a21fa
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Create a Data Block
 

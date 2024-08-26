@@ -1,11 +1,10 @@
 ---
 title: How to filter dimensions in Report Builder
-description: Describes how to use filter dimensions in Report Builder for Customer Journey Analytics
+description: Describes how to use filter dimensions in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Filter Dimensions
 

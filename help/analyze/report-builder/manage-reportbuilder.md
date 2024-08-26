@@ -1,11 +1,10 @@
 ---
-title: How to manage data blocks using Report Builder in Customer Journey Analytics
+title: How to manage data blocks using Report Builder
 description: Describes how to use the manage feature in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Customer Journey Analytics
-exl-id: 70103020-a4a9-43be-933c-bde5a6d088c8
+solution: Adobe Analytics
 ---
 # Manage Data Blocks in Report Builder
 

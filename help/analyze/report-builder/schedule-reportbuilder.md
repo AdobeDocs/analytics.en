@@ -4,8 +4,7 @@ description: Learn how to use the schedule feature in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Customer Journey Analytics
-exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
+solution: Adobe Analytics
 ---
 # Schedule Workbooks
 

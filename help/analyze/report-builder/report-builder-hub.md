@@ -4,8 +4,7 @@ description: Describes the Report Builder Hub components
 role: User
 feature: Report Builder
 type: Documentation
-exl-id: 119bd0b5-0d07-407f-b6e9-ef43352bad31
-solution: Customer Journey Analytics
+solution: Adobe Analytics
 ---
 # Report Builder Hub
 

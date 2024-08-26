@@ -4,8 +4,7 @@ description: Describes how to select data views in Adobe Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Customer Journey Analytics
-exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
+solution: Adobe Analytics
 ---
 # Select a data view
 

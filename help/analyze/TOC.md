@@ -164,7 +164,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Report Builder Set Up](/report-builder/report-builder-setup.md)
   + [Create a Data Block](/report-builder/create-a-data-block.md)
   + [Report Builder Hub](/report-builder/report-builder-hub.md)
-  + [Select a Data View](/report-builder/select-data-view.md)
+  + [Select a Data View](/report-builder/select-report-suite.md)
   + [Select a Date Range](/report-builder/select-date-range.md)
   + [Work with Filters](/report-builder/work-with-filters.md)
   + [Filter Dimensions](/report-builder/filter-dimensions.md)

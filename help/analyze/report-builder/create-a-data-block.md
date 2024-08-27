@@ -12,7 +12,7 @@ A *data block* is the table of data created by a single data request. A Report B
 
 ## Configure the data block
 
-Configure the initial data block parameters for the Data block location, Data views, and a Date range.
+Configure the initial data block parameters for the Data block location, report suites, and a Date range.
 
 1. Click **Create data block**.
 
@@ -24,9 +24,9 @@ Configure the initial data block parameters for the Data block location, Data v
 
     To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified will be the upper-left corner of the data block when the data is retrieved.
 
-1. Choose the **Data views**.
+1. Choose the **report suites**.
 
-    The Data views option allows you to choose a data view from a drop-down menu or to reference a data view from a cell location.
+    The report suites option allows you to choose a report suite from a drop-down menu or to reference a report suite from a cell location.
 
 1. Set the **Date range**.
 

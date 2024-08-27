@@ -25,7 +25,7 @@ The Data Block Manager lists all data blocks present in a workbook. 
 
 ## Sort the Data Blocks list
 
-You can sort the data block list by a displayed column. For example, you can sort the data block list by data views, Filters, Date Range, and other variables.
+You can sort the data block list by a displayed column. For example, you can sort the data block list by report suites, Filters, Date Range, and other variables.
 
 To sort the data block list, click a column heading.
 
@@ -33,13 +33,13 @@ To sort the data block list, click a column heading.
 
 ## Search the Data Block list
 
-Use the Search field to locate anything in the data block table. For example, you could search for metrics contained in the data blocks or data view. You can also search for dates appearing in the date range, date modified, or last run date columns.
+Use the Search field to locate anything in the data block table. For example, you could search for metrics contained in the data blocks or report suite. You can also search for dates appearing in the date range, date modified, or last run date columns.
 
 ![Using the Search field to locate anything in the data block table.](./assets/image55.png)
 
 ## Edit Data Blocks
 
-You can edit the data view, date range, or the filters applied to one or more data blocks.
+You can edit the report suite, date range, or the filters applied to one or more data blocks.
 
 For example, you can replace an existing filter with a new filter in one or more data blocks.
 
@@ -51,7 +51,7 @@ For example, you can replace an existing filter with a new filter in one or more
 
    ![The Quick edit window](./assets/image58.png)
 
-1. Select a filter link to update data views, date ranges, or filters.
+1. Select a filter link to update report suites, date ranges, or filters.
 
    ![The Add Segment field in the Quick edit window](./assets/image59.png)
 

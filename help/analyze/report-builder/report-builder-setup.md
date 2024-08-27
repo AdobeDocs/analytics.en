@@ -17,7 +17,7 @@ Report Builder for Adobe Analytics is supported on the following operating syste
 ### macOS
 
 - macOS Version 10.x or later
-- All Excel Versions
+- All Microsoft Excel Versions
 
 ### Windows
 

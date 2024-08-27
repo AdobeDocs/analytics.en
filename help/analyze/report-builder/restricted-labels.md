@@ -8,9 +8,9 @@ solution: Adobe Analytics
 ---
 # Restricted labels in Report Builder
 
-Generally data governance-related settings in Adobe Analytics are inherited from Adobe Experience Platform. The integration between Adobe Analytics and Adobe Experience Platform Data Governance allows for labeling of sensitive Adobe Analytics data and enforcement of privacy policies.
+Generally, data governance-related settings in Adobe Analytics are inherited from Adobe Experience Platform. The integration between Adobe Analytics and Adobe Experience Platform Data Governance allows for labeling of sensitive Adobe Analytics data and enforcement of privacy policies.
 
-Privacy labels and policies that were created on datasets consumed by Experience Platform can be surfaced in the Adobe Analytics data views workflow. These labels stop or warn users who create metrics and/or dimensions from sensitive fields. For information about datasets, see [Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)
+Privacy labels and policies that were created on datasets consumed by Experience Platform can be surfaced in the Adobe Analytics report suites workflow. These labels stop or warn users who create metrics and/or dimensions from sensitive fields. For information about datasets, see [Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)
 
 In addition, when data is exported from Adobe Analytics (via reporting, export, API, etc.), warnings or labels are added to notify users that a report contains sensitive information that needs to be treated in a specific way.
 

@@ -1,22 +1,22 @@
 ---
-title: What is Report Builder?
+title: What is Adobe Report Builder?
 description: Describes Report Builder functionality
 role: User
 feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
 ---
-# About Report Builder
+# About Adobe Report Builder
 
-Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Adobe Analytics data. Adobe Analytics is a service built on Adobe Experience Platform that lets you join multiple data sources to create a holistic view of your business. With Report Builder's simple and flexible drag and drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
+Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Analytics data. With Report Builder's simple and flexible drag-and-drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
 
-With Report Builder for Adobe Analytics, you can:
+With Report Builder, you can:
 
 - Reference existing worksheet cells to get the perfect row order, date range, or filter
 - Create custom dates using calendar, cell references, or date math
 - Design your tables and visualizations with familiar Excel formatting tools
 
-Report Builder for Adobe Analytics is available for Excel on the following platforms:
+Report Builder is available for Excel on the following platforms:
 
 - macOS
 - Microsoft Windows
@@ -38,9 +38,4 @@ Report Builder for Adobe Analytics is available for Excel on the following platf
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
- >[!NOTE]
- >
- >This documentation is for Report Builder for Adobe Analytics. For information about Report Builder for Analytics on Windows, see [Report Builder for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html).
-
- You can download Report Builder for Adobe Analytics from the
- [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
+You can download Report Builder from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).

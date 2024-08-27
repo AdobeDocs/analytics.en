@@ -44,15 +44,15 @@ When you select one or more data blocks in a spreadsheet, Report Builder display
 
 The changes made using the Quick Edit sections apply to all selected data blocks.
 
-### Data views
+### Report suites
 
-Data blocks pull data from a selected Data view. If multiple data blocks are selected in a worksheet and they don't pull data from the same data view, the **Data views** link displays *Multiple*.
+Data blocks pull data from a selected report suite. If multiple data blocks are selected in a worksheet and they don't pull data from the same report suite, the **Report Suites** link displays *Multiple*.
 
-When you change the data view, all data blocks in the selection adopt the new data view. Components in the data block are matched to the new data view based on ID, for example, matching ```evars```). If a component isn't found in a data block, a warning message is displayed and the component is removed from the data block.
+When you change the report suite, all data blocks in the selection adopt the new report suite. Components in the data block are matched to the new report suite based on ID, for example, matching ```evars```). If a component isn't found in a data block, a warning message is displayed and the component is removed from the data block.
 
-To change the data view, select a new data view from the drop-down menu.
+To change the report suite, select a new report suite from the drop-down menu.
 
-![The Report Builder Hub showing the data view drop-down menu.](./assets/image16.png)
+![The Report Builder Hub showing the report suite drop-down menu.](./assets/image16.png)
 
 ### Date range
 

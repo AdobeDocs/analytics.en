@@ -2,6 +2,7 @@
 title: Streaming Media audio metadata dimensions
 description: Available dimensions when you enable [!UICONTROL Audio Metadata] for a report suite.
 feature: Dimensions
+exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
 ---
 # Streaming Media audio metadata dimensions
 

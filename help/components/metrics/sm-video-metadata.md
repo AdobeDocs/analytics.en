@@ -2,6 +2,7 @@
 title: Streaming Media video metadata metrics
 description: Available metrics when you enable [!UICONTROL Video Metadata] for a report suite.
 feature: Metrics
+exl-id: b2f60a34-e139-4498-bf71-74d291759ef2
 ---
 # Streaming Media video metadata metrics
 

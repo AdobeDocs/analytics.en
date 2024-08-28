@@ -2,6 +2,7 @@
 title: Streaming Media ad metrics
 description: Available metrics when you enable [!UICONTROL Media Ads] for a report suite.
 feature: Metrics
+exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
 ---
 # Streaming Media ad metrics
 

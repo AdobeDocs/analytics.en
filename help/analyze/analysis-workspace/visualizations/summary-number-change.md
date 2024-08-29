@@ -32,7 +32,7 @@ Click the **Visualization settings** gear in to the top right to configure the S
 
 ## [!UICONTROL Summary Change] visualization {#summary-change}
 
-Use the [!UICONTROL Summary Change] visualization to show the delta (change) between two numbers. The green and red color of the [!UICONTROL Summary Change] can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+Use the [!UICONTROL Summary Change] visualization to show the delta (change) between two numbers. The green and red color of the [!UICONTROL Summary Change] can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
 
 This visualization behaves in the following ways:
 

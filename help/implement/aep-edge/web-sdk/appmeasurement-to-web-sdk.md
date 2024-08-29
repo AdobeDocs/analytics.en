@@ -57,7 +57,7 @@ Reference the latest version of `alloy.js` so its method calls can be used. See 
 
 Set up your implementation to point to the datastream created in the previous step by using the Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) command. The `configure` command must be set on every page, so you can include it alongside the library installation code.
 
-Use the [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) and [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) properties within the Web SDK `configure` command:
+Use the [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) and [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) properties within the Web SDK `configure` command:
 
 * Set the `datastreamId` to the datastream ID retrieved from the previous step.
 * Set the `orgId` to your organization's IMS org.

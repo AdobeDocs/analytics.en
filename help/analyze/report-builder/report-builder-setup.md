@@ -45,13 +45,13 @@ To download and install the Report Builder Add-in
 
 1. Launch Excel and open a new workbook.
 
-1. Select Insert > Get Add-ins.
+1. Select **[!UICONTROL Insert]** > **[!UICONTROL Get Add-ins]**.
 
 1. In the Office Add-ins dialog, select the Store tab.
 
-1. Search for "Report Builder" and click Add.
+1. Search for "Report Builder" and click **[!UICONTROL Add]**.
 
-1. In the License terms and privacy policy dialog box, click Continue.
+1. In the License terms and privacy policy dialog box, click **[!UICONTROL Continue]**.
 
 **If the Store tab isn't displayed**
 
@@ -79,7 +79,7 @@ After you install the Report Builder for Excel Add-in for your operating platfor
 
 1. Click the Report Builder icon to launch Report Builder.
 
-1. From the Adobe Report Builder toolbar, click **Login**.
+1. From the Adobe Report Builder toolbar, click **[!UICONTROL Login]**.
 
     ![Click the Report Builder login button.](./assets/rb_login.png)
 
@@ -87,7 +87,7 @@ After you install the Report Builder for Excel Add-in for your operating platfor
 
     ![Your login icon and organization.](./assets/image4.png)
 
-After you log in, your login icon and organization will appear at the top of the panel
+After you log in, your login icon and organization appears at the top of the panel
 
 ## Switch organizations
 

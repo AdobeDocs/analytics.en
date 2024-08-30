@@ -19,7 +19,9 @@ As part of this move to a new Report Builder technology, you can quickly convert
 
 ## Convert your workbooks
 
-1. Set up your new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
+1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
+
+1. 
 
 1. Open a legacy workbook.
 

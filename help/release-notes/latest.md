@@ -40,7 +40,8 @@ Other fixes: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. | 
+| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. |
+| **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now automatically map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}
 

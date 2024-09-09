@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (August 2024)
 
-**Last update**: August 20, 2024
+**Last update**: September 9, 2024
 
 These release notes cover the release period of August 14, 2024 through September 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,6 +14,7 @@ These release notes cover the release period of August 14, 2024 through Septembe
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Additional information in the "Used in" column in the calculated metric manager and segment manager** | The "Used in" column in the calculated metric manager and segment manager contains the following new reporting areas:<ul><li>**Report Builder:** Shows the number of calculated metrics or segments that are being used in the Report Builder.</li><li>**Ad hoc components:** Shows the number of ad hoc calculated metrics or ad hoc segments that are being used in projects. These ad hoc calculated metrics and segments (otherwise known as "quick calculated metrics" and "quick segments") can be used only in the project where they were created, so they are reported separately from the "Project" reporting area in the "Used in" column.</li></ul><p>(Updated documentation links to follow.)</p> | N/A | September 11, 2024|
 | **Web SDK improvements for link tracking** | Several notable improvements are available in the latest version of the Web SDK around link tracking, which directly benefits Activity Map. These new features are available in both the Web SDK JavaScript library and the Web SDK tag extension.<ul><li>Event grouping: When a visitor clicks an internal link, you can choose to group event data on the next page instead of triggering a separate event call for link tracking. This improvement reduces the number of events that the Web SDK uses against your contractual limit.</li><li>Filter click properties: A new callback that replaces `OnBeforeLinkClickSend`. You can use this callback to filter or obfuscate link-related data before sending it to Adobe.</li></ul><p>See [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in the Web SDK user guide for more information.</p> | Open Beta started July 10, 2024 | July 18, 2024 |
 
 {style="table-layout:auto"}

@@ -5,7 +5,10 @@ exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
 ---
+
 # Device graph
+
+{{available-existing-customers}}
 
 Cross-Device Analytics can use the Private Graph to stitch data together. The Private Graph is a repository of hashed device ID's that is specific to your organization. CDA regularly communicates with the device graph to link devices together.
 
@@ -16,6 +19,7 @@ If you intend to implement Cross-Device Analytics using the device graph method,
 >[!WARNING]
 >
 >Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
+>
 
 * All prerequisites listed on the [overview page](overview.md).
 * Your organization must use the [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). See also the [Home Page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html) in the Identity Service user guide.

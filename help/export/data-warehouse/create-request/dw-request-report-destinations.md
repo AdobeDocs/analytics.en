@@ -46,7 +46,7 @@ To configure the destination where Data Warehouse reports are sent:
    >
    >If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.
    
-   1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
+   1. Select the account from the [!UICONTROL **Account**] drop-down menu.
 
       Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
       
@@ -60,26 +60,30 @@ To configure the destination where Data Warehouse reports are sent:
 
 1. (Conditional) If you don't have access to a cloud account that is already configured in Adobe Analytics, you can configure one:
 
-   1. Select [!UICONTROL **Add account**], then specify the following information:
+   1. Select the [!UICONTROL **Account**] drop-down menu, then select [!UICONTROL **Add account**].
+   
+   1. On the Add account dialog box, specify the following information:
 
       |Field | Function | 
       |---------|----------|
-      | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account. <p>After choosing an account type, fields specific to that account type appear. </p>| 
-      | [!UICONTROL **Account name**] | Specify a name for the account. This name appears when creating a location. <!-- true? --> | 
-      | [!UICONTROL **Account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
+      | [!UICONTROL **Location account name**] | The name of the location account. This name appears when creating a location | 
+      | [!UICONTROL **Location account description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
+      | [!UICONTROL **Make account available to all users in your organization**] | Enable this option to allow other users in your organization to use the account.<p>Consider the following when sharing accounts:</p><ul><li>Accounts that you share cannot be unshared.</li><li>Shared accounts can be edited only by the owner of the account.</li><li>Anyone can create a location for the shared account.</li></ul> |
+      | [!UICONTROL **Account type**] | Select your cloud account type. We recommend having a single account for each account type, with multiple locations as needed within that account.<p>System administrators can limit the account types that users can create, as described in [Configure whether users can create accounts](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). If you can't create accounts as described in this section, contact your system administrator.</p> | 
 
-      For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected.
+   1. In the [!UICONTROL **Account properties**] section, specify information specific to the account type that you selected.  
 
-      Use any of the following account types when configuring a report destination. For configuration instructions, expand the account type. (Additional [legacy destinations](#legacy-destinations) are also available, but are not recommended.) 
+      For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected. (Additional legacy account types are also available, but are not recommended.)
 
-      +++Amazon S3
+      **Account types**
+
+      +++Amazon S3 Role ARN
 
          To configure an Amazon S3 Role ARN account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
-         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>For information about how to set up the permission of the bucket, see the article [How can I provide cross-account access to objects that are in Amazon S3 buckets?](https://repost.aws/knowledge-center/cross-account-access-s3) in the Amazon knowledge center. | 
-         | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. | 
+         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). | 
 
          {style="table-layout:auto"}
 
@@ -105,9 +109,9 @@ To configure the destination where Data Warehouse reports are sent:
          |---------|----------|
          | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
          | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS URI in Azure Key Vault.  To configure Azure SAS, you need to store an SAS URI as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created:<ul><li>Add an access policy on the Key Vault in order to grant permission to the Azure application that you created.</li><li>Make sure the Application ID has been granted the `Key Vault Certificate User` built-in role in order to access the key vault URI.</br><p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 
-         | [!UICONTROL **Key vault secret name**] | The secret name you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS token in Azure Key Vault.  To configure Azure SAS, you must store an SAS token as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created, add an access policy on the Key Vault to grant permission to the Azure application that you created. For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> | 
+         | [!UICONTROL **Key vault secret name**] | The secret name that you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings page. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Location account secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -121,7 +125,7 @@ To configure the destination where Data Warehouse reports are sent:
          |---------|----------|
          | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
          | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
-         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
+         | [!UICONTROL **Location account secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). | 
 
          {style="table-layout:auto"}
 
@@ -129,71 +133,15 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Email
 
-         To configure an email account, specify the following information:
+         >[!NOTE]
+         >
+         >Email accounts can be used only with [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email accounts are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)).
+      
+         To configure an Azure RBAC account, specify the following information:
 
          |Field | Function | 
          |---------|----------|
-         | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. <!-- How does this differ from the Notification email tab? -->| 
-
-   1. Select [!UICONTROL **Add location**], then specify the following information:
-      |Field | Function | 
-      |---------|----------|
-      | [!UICONTROL **Name**] | The name of the location.  | 
-      | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-      | [!UICONTROL **Location account**] | Select the location account that you created in [Add an account](#add-an-account). | 
-
-   1. In the [!UICONTROL **Location properties**] section, specify information specific to the account type of your location account.  
-
-      For configuration instructions, expand the section below that corresponds to the [!UICONTROL **Account type**] that you selected previously. 
-
-      +++Amazon S3
-
-         To configure an Amazon S3 location, specify the following information:
-
-         |Field | Function | 
-         |---------|----------|
-         | [!UICONTROL **Bucket name**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |  
-         | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
-
-         {style="table-layout:auto"}
-
-      +++
-
-      +++Google Cloud Platform
-
-         To configure a Google Cloud Platform location, specify the following information:
-
-         |Field | Function | 
-         |---------|----------|
-         | [!UICONTROL **Bucket name**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. <p>Ensure that you have granted either of the following permissions to the Principal provided by Adobe: (For information about granting permissions, see [Add a principal to a bucket-level policy](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in the Google Cloud documentation.)<ul><li>`roles/storage.objectCreator`: Use this permission if you  want to limit the Principal to only create files in your GCP account. </br>**Important:** If you use this permission with scheduled reporting, you must use a unique file name for each new scheduled export. Otherwise, the report generation will fail because the Principal does not have access to overwrite existing files.</li><li>`roles/storage.objectUser`: Use this permission if you want the Principal to have access to view, list, update, and delete files in your GCP account.</br>This permission allows the Principal to overwrite existing files for subsequent uploads, without the need to auto-generate unique file names for each new scheduled export.</li></ul><p>If your organization is using [Organization policy constraints](https://cloud.google.com/storage/docs/org-policy-constraints) to allow only the Google Cloud Platform account in your allow list, you need the following Adobe-owned Google Cloud Platform organization ID: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p>|  
-         | [!UICONTROL **Key prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
-
-         {style="table-layout:auto"}
-   
-      +++
-
-      +++Azure SAS
-
-         To configure an Azure SAS location, specify the following information:
-
-         |Field | Function | 
-         |---------|----------|
-         | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
-         | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure that the SAS URI store that you specified in the Key Vault secret name field when configuring the Azure SAS account has the `Write` permission. This allows the SAS URI to create files in your Azure container. <p>If you want the SAS URI to also overwrite files, make sure that the SAS URI store has the `Delete` permission.</p><p>For more information, see [Blob storage resources](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in the Azure Blob Storage documentation.</p>|
-
-         {style="table-layout:auto"}
-
-      +++   
-
-      +++Azure RBAC
-
-         To configure an Azure RBAC location, specify the following information:
-
-         |Field | Function | 
-         |---------|----------|
-         | [!UICONTROL **Container name**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
-         | [!UICONTROL **Key prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure the Application ID that you specified when configuring the Azure RBAC account has been granted the `Storage Blob Data Contributor` role in order to access the container (folder).</p> <p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p>|
-         | [!UICONTROL **Account name**] | The   Azure storage account. | 
+         | [!UICONTROL **Recipients**] | Email notifications can be sent to specific users when the report is sent. Specify a single email address or a comma-separated list of email addresses. | 
 
          {style="table-layout:auto"}
 
@@ -201,7 +149,7 @@ To configure the destination where Data Warehouse reports are sent:
       
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report options**] tab. For more information, see [Configure report options for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
-## Legacy destinations
+## Legacy account types
 
 >[!IMPORTANT]
 >

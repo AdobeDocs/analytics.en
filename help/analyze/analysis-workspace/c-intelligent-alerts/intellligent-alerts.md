@@ -43,4 +43,4 @@ For information about how to create alerts in Adobe Analytics, see [Create alert
 
 You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
 
-For more information about how to manage existing alerts in Adobe Analytics, see [Manage alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+For more information about how to manage existing alerts in Adobe Analytics, see [Manage alerts](/help/components/c-alerts/alert-manager.md).

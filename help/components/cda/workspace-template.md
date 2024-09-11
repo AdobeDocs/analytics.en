@@ -7,6 +7,8 @@ role: Admin
 ---
 # CDA Workspace template
 
+{{available-existing-customers}}
+
 Adobe offers a template to see vital cross-device performance data.
 
 1. Navigate to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) and log in using your AdobeID credentials.

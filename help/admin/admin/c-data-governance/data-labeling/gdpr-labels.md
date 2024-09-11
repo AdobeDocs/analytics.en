@@ -7,15 +7,17 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 ---
 # Data Privacy Labels for Analytics Variables
 
-## Why label your data? {#why-label}
-
-Adobe's customers, as the Data Controllers, are responsible for complying with applicable Data Privacy laws such as GDPR and CCPA. Customers should consult with their own legal teams to determine how their data should be handled to comply with Data Privacy laws. Adobe understands that each of its customers has unique needs related to privacy, which is why Adobe enables its customers to customize their desired settings for Data Privacy data processing. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
+Adobe's customers, as the Data Controllers, are responsible for complying with applicable Data Privacy laws such as General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA). Customers should consult with their own legal teams to determine how their data should be handled to comply with Data Privacy laws. Adobe understands that each of its customers has unique needs related to privacy, which is why Adobe enables its customers to customize their desired settings for Data Privacy data processing. This allows each unique customer to process Data Privacy requests in the way that makes most sense for their brand and their unique data set.
 
 Adobe Analytics provides tools for labeling data according to its sensitivity and contractual restrictions. Labels are an important step for: (1) identifying Data Subjects, (2) determining which data to return as part of an access request, and (3) identifying data fields that must be deleted as part of a deletion request.
 
 Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 The Adobe Analytics Data Privacy implementation supports the following labels for identity data, sensitive data, and data governance.
+
+>[!NOTE]
+>
+>The I1, I2, S1 and S2 labels have the same meanings as the correspondingly named DULE labels in Adobe Experience Platform. However, they are used for very different purposes. Within Adobe Analytics, these labels are used to help identify fields that should be anonymized as the result of a Privacy Service request. Within Adobe Experience Platform, they are used for access control, consent management and for enforcing marketing restrictions on the labeled fields. Adobe Experience Platform supports many additional labels that are not used by Adobe Analytics. Additionally, labels in Adobe Experience Platform are applied to schemas. If you utilize the Analytics Data Connector to import your Adobe Analytics data into Adobe Experience Platform, you will need to ensure that the appropriate DULE labels are configured in Adobe Experience Platform for the schemas used by each of your report suites. Labels assigned in Adobe Analytics are not automatically applied to these schemas in Adobe Experience Platform, because they would only represent a subset of the DULE labels that you may need to apply. Also, different report suites may share a schema but have different labels assigned to props and evars with the same number and the schema may be shared by datasets from other data sources, which could cause confusion over why certain fields received these labels.
 
 ## Identity data labels {#identity-data-labels}
 
@@ -43,7 +45,7 @@ Sensitive data "S" labels are used to categorize sensitive data such as geograph
 
 Data Governance labels provide users the ability to classify data that reflects privacy-related considerations and contractual conditions to help Adobe's customers remain compliant with regulations and corporate policies.
 
-### Data Privacy Access labels
+### Data Privacy Access labels {#access}
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
@@ -55,7 +57,7 @@ Data Governance labels provide users the ability to classify data that reflects 
 
 While few variables will receive any of the other labels, it is expected that access labels will be applied to many of your variables. However, it is up to you, in consultation with your Legal team, to decide which data you have collected should be shared with Data Subjects.
 
-### Data Privacy Delete labels
+### Data Privacy Delete labels {#delete}
 
 Unlike the other labels, these Delete labels are not mutually exclusive. You can select either, both or none. A separate [!UICONTROL None] label is not necessary, because [!UICONTROL None] is indicated simply by not checking either of the Delete options.
 
@@ -68,7 +70,7 @@ A Delete label is required only for fields that contain a value that would allow
 
 {style="table-layout:auto"}
 
-### Data Privacy Identity labels
+### Data Privacy Identity labels {#identity}
 
 | Label | Definition | Other Requirements |
 | --- | --- | --- |
@@ -82,7 +84,7 @@ A Delete label is required only for fields that contain a value that would allow
 
 When you label a variable as ID-DEVICE or ID-PERSON, you are prompted to provide a namespace. You can either use a previously defined namespace or define a new one.
 
-### Use a previously defined namespace
+### Use a previously defined namespace {#previously-defined}
 
 If you have previously assigned an ID label to other variables in any of the report suites in your login company, you can select one of these existing namespaces. You should reuse the namespace if this variable contains the same type of IDs as other variables that are already labeled with this namespace and you want to search all of them when submitting a request.
 
@@ -91,7 +93,7 @@ If you have previously assigned an ID label to other variables in any of the rep
 1. Click **[!UICONTROL Apply]**.
    
 
-### Define a new namespace
+### Define a new namespace {#define}
 
 You can also define a new namespace. We recommend that namespace strings be limited to alphanumeric characters, plus the characters underscore, dash and space. They will be converted to all lower case.
 

@@ -41,13 +41,14 @@ You can add rule definitions and containers to define your segments.
 
    ![](assets/attribution-models.jpg)
 
-      **Example: Hit segment where eVar1 = A** 
+   **Example: Hit segment where eVar1 = A** 
 
-      |  Example  | A  | A  |  A (persisted) | B  | A  | C  |
-      |---|---|---|---|---|---|---|
-      |  Repeating  | X  | X  | X  | -  | X  | -  |
-      |  Instance  | X  | X  | - | - | X | - |
-      |  Non-repeating instance  | X | - | - | -  | X  | -  |
+   |  Example  | A  | A  |  A (persisted) | B  | A  | C  |
+   |---|---|---|---|---|---|---|
+   |  Repeating  | X  | X  | X  | -  | X  | -  |
+   |  Instance  | X  | X  | - | - | X | - |
+   |  Non-repeating instance  | X | - | - | -  | X  | -  |
+
 1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.

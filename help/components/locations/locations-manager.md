@@ -195,7 +195,9 @@ To limit the account types that are available to users when creating and using a
 
 1. Locate the [!UICONTROL **Permitted account types**] section.
 
-   The following account types are available to users by default. Deselect any of these account types that you want to restrict users from using. 
+   The following account types are available to users by default. Deselect any of these account types that you want to restrict users from using.
+
+   At least one account type must be selected. 
   
    * [!UICONTROL **Amazon S3 Role ARN**]
 

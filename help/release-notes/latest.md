@@ -6,6 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (September 2024)
 
+
 **Last update**: September 11, 2024
 
 These release notes cover the release period of Sept 11, 2024 through early October. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
@@ -13,9 +14,10 @@ These release notes cover the release period of Sept 11, 2024 through early Octo
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
-| ----------- | ---------- | ------- | ---- |
+|--- | --- | --- | --- |
 | **Additional information in the "Used in" column in the calculated metric manager and segment manager** | The "Used in" column in the calculated metric manager and segment manager contains the following new reporting areas:<ul><li>**Report Builder**: Shows the number of calculated metrics or segments that are being used in the Report Builder.</li><li>**Ad hoc components**: Shows the number of ad hoc calculated metrics or ad hoc segments that are being used in projects. These ad hoc calculated metrics and segments (otherwise known as "quick calculated metrics" and "quick segments") can be used only in the project where they were created, so they are reported separately from the "Project" reporting area in the "Used in" column.</li></ul> |  | Sept 11, 2024 |
 | **Activity Map v3 extension** | The Activity Map v3 extension is now available. If you have the v2 extension installed, uninstall it before installing the v3 extension. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** to obtain the latest version of the extension. |  | Sept 3, 2024 |
+
 
 ## Fixes in Adobe Analytics
 

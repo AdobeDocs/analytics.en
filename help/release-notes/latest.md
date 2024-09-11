@@ -4,35 +4,46 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (August 2024)
+# Current Adobe Analytics release notes (September 2024)
 
-**Last update**: September 9, 2024
 
-These release notes cover the release period of August 14, 2024 through September 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+**Last update**: September 11, 2024
+
+These release notes cover the release period of Sept 11, 2024 through early October. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **Additional information in the "Used in" column in the calculated metric manager and segment manager** | The "Used in" column in the calculated metric manager and segment manager contains the following new reporting areas:<ul><li>**Report Builder:** Shows the number of calculated metrics or segments that are being used in the Report Builder.</li><li>**Ad hoc components:** Shows the number of ad hoc calculated metrics or ad hoc segments that are being used in projects. These ad hoc calculated metrics and segments (otherwise known as "quick calculated metrics" and "quick segments") can be used only in the project where they were created, so they are reported separately from the "Project" reporting area in the "Used in" column.</li></ul><p>(Updated documentation links to follow.)</p> | N/A | September 11, 2024|
-| **Web SDK improvements for link tracking** | Several notable improvements are available in the latest version of the Web SDK around link tracking, which directly benefits Activity Map. These new features are available in both the Web SDK JavaScript library and the Web SDK tag extension.<ul><li>Event grouping: When a visitor clicks an internal link, you can choose to group event data on the next page instead of triggering a separate event call for link tracking. This improvement reduces the number of events that the Web SDK uses against your contractual limit.</li><li>Filter click properties: A new callback that replaces `OnBeforeLinkClickSend`. You can use this callback to filter or obfuscate link-related data before sending it to Adobe.</li></ul><p>See [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in the Web SDK user guide for more information.</p> | Open Beta started July 10, 2024 | July 18, 2024 |
+|--- | --- | --- | --- |
+| **Additional information in the "Used in" column in the calculated metric manager and segment manager** | The "Used in" column in the calculated metric manager and segment manager contains the following new reporting areas:<ul><li>**Report Builder**: Shows the number of calculated metrics or segments that are being used in the Report Builder.</li><li>**Ad hoc components**: Shows the number of ad hoc calculated metrics or ad hoc segments that are being used in projects. These ad hoc calculated metrics and segments (otherwise known as "quick calculated metrics" and "quick segments") can be used only in the project where they were created, so they are reported separately from the "Project" reporting area in the "Used in" column.</li></ul> |  | Sept 11, 2024 |
+| **Activity Map v3 extension** | The Activity Map v3 extension is now available. If you have the v2 extension installed, uninstall it before installing the v3 extension. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** to obtain the latest version of the extension. |  | Sept 3, 2024 |
 
-{style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
-* Fixed an issue where multiple unknown values were displayed in Workspace (AN-353632) 
-* Fixed an issue where the notification email did not send after adding new customers or new Analytics product profiles in the Admin console (AN-350930)
+A4T: AN-355736
+Activity Map: AN-353779
+Analysis Workspace: AN-348485; AN-349693; AN-357247
+Analytics Mobile App: AN-352645
+Classifications: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
+Cross-Device Analytics: AN-355138
+Data Feeds: AN-356258; AN-357133
+Data Warehouse: AN-339292; AN-353807
+Export Locations: AN-356912
+Privacy API: AN-352420
+Report Builder: AN-352555; AN-354316
+Scheduled projects: AN-355971
+Segmentation: AN-352095;
+Target reporting: AN-355748
 
-### Other Analytics fixes
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+Other fixes: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. | 
+| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. |
+| **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}
 

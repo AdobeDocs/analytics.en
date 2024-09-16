@@ -26,7 +26,7 @@ To create alerts from the Alerts manager:
 
    * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
 
-     If you select this option, continue with [Create alerts](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) for more details about creating alerts.
+     If you select this option, continue with [Create alerts](/help/components/c-alerts/alert-builder.md) for more details about creating alerts.
 
    * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 

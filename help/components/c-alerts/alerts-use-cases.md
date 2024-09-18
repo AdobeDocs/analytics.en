@@ -1,12 +1,12 @@
 ---
-description: Use cases for creating and managing intelligent alerts.
-title: Intelligent alerts - use cases
+description: Use cases for creating and managing alerts.
+title: Alerts - use cases
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 ---
-# Intelligent Alerts - use cases
+# Alerts - use cases
 
-You can create intelligent alerts as described in [Create alerts](/help/components/c-alerts/alert-builder.md). 
+You can create alerts as described in [Create alerts](/help/components/c-alerts/alert-builder.md). 
 
 The following sections illustrate example use cases to consider as you create alerts.
 

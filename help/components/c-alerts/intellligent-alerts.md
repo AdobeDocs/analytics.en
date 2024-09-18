@@ -1,25 +1,29 @@
 ---
-description: The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
-title: Intelligent alerts
+description: Alerts allow for granular control over notifications, and integration with anomaly detection.
+title: Alerts overview
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 ---
-# Intelligent Alerts overview
+# Alerts overview
 
-Intelligent Alerts (or just "alerts") in Adobe Analytics allow you to be notified immediately when abnormal events occur in your data. 
+Alerts in Adobe Analytics allow you to be notified based on changed percentages or specific data points. 
 
-You can set alerts to be triggered based on anomaly thresholds, changed percentages, or specific data points. Alerts provide granular controls that integrate with [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), triggering when you need them most.
+Depending on your Adobe Analytics package, you can also use alerts to be triggered based on anomaly thresholds. These alerts (also known as "Intelligent Alerts"), provide granular controls that integrate with [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), triggering when you need them most.
 
-Intelligent Alerts let you:
+Alerts let you:
 
-* Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below)
 * Preview how often an alert will trigger
 * Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects
 * Create "stacked" alerts that capture multiple metrics in a single alert
+* Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below) (Available only to Adobe Analytics customers with a Select, Prime, or Ultimate package)
 
-The following video tutorial provides a basic overview of alerts: [Intelligent Alerts](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+The following video tutorial provides a basic overview of alerts: [Alerts](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Anomaly lookback for alerts
+
+>[!NOTE]
+>
+>Using alerts with anomaly detection (also known as _Intelligent Alerts_) is available only to organizations with a Adobe Analytics Select, Prime, or Ultimate package.
 
 If an alert uses anomaly detection, the training period varies based on the granularity selected for the alert.
 
@@ -36,7 +40,7 @@ For information about how to create alerts in Adobe Analytics, see [Create alert
 
 >[!IMPORTANT]
 >
->Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for Intelligent Alerts.
+>Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for alerts.
 
 ## Manage alerts
 

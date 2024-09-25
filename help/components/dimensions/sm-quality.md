@@ -2,6 +2,7 @@
 title: Streaming Media quality dimensions
 description: Available dimensions when you enable [!UICONTROL Media Quality] for a report suite.
 feature: Dimensions
+exl-id: e3794d8c-3c03-425d-850c-a735b579324b
 ---
 # Streaming Media quality dimensions
 

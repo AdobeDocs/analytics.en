@@ -2,6 +2,7 @@
 title: Streaming Media ad dimensions
 description: Available dimensions when you enable [!UICONTROL Media Ads] for a report suite.
 feature: Dimensions
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
 ---
 # Streaming Media ad dimensions
 

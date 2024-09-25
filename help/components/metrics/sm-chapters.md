@@ -2,6 +2,7 @@
 title: Streaming Media chapter metrics
 description: Available metrics when you enable [!UICONTROL Media Chapters] for a report suite.
 feature: Metrics
+exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
 ---
 # Streaming Media chapter metrics
 

@@ -7,6 +7,8 @@ role: Admin
 ---
 # How replays work
 
+{{available-existing-customers}}
+
 Cross-Device Analytics makes two passes on data in a virtual report suite:
 
 * **Live-stitching**: CDA attempts to stitch each hit as it comes in. Net new devices to the report suite that have never logged in are typically not stitched at this level. Devices already recognized are stitched immediately.

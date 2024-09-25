@@ -14,33 +14,31 @@ These release notes cover the release period of October 2, 2024 through October 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Additional information in the "Used in" column in the calculated metric manager and segment manager** | The "Used in" column in the calculated metric manager and segment manager contains the following new reporting areas:<ul><li>**Report Builder**: Shows the number of calculated metrics or segments that are being used in the Report Builder.</li><li>**Ad hoc components**: Shows the number of ad hoc calculated metrics or ad hoc segments that are being used in projects. These ad hoc calculated metrics and segments (otherwise known as "quick calculated metrics" and "quick segments") can be used only in the project where they were created, so they are reported separately from the "Project" reporting area in the "Used in" column.</li></ul> |  | Sept 11, 2024 |
-| **Activity Map v3 extension** | The Activity Map v3 extension is now available. If you have the v2 extension installed, uninstall it before installing the v3 extension. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** to obtain the latest version of the extension. |  | Sept 3, 2024 |
+| N/A | N/A | N/A | N/A |
 
 ## Fixes in Adobe Analytics
 
-A4T: AN-355736
-Activity Map: AN-353779
-Analysis Workspace: AN-348485; AN-349693; AN-357247
-Analytics Mobile App: AN-352645
-Classifications: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
-Cross-Device Analytics: AN-355138
-Data Feeds: AN-356258; AN-357133
-Data Warehouse: AN-339292; AN-353807
-Export Locations: AN-356912
-Privacy API: AN-352420
-Report Builder: AN-352555; AN-354316
-Scheduled projects: AN-355971
-Segmentation: AN-352095;
-Target reporting: AN-355748
+A4T: 
+Activity Map: 
+Analysis Workspace: 
+Analytics Mobile App: 
+Classifications: 
+Cross-Device Analytics: 
+Data Feeds: 
+Data Warehouse: 
+Export Locations: 
+Privacy API: 
+Report Builder: 
+Scheduled projects: 
+Segmentation: 
+Target reporting: 
 
-Other fixes: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289; 
+Other fixes: 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. |
 | **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}

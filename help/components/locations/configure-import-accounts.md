@@ -112,7 +112,7 @@ To configure a cloud import or export account:
 
       >[!NOTE]
       >
-      >Email accounts can be used only with [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email accounts are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)).
+      >Email accounts can be used only with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Email accounts are not supported with [Data Feeds](/help/export/analytics-data-feed/create-feed.md) or [Classification sets](/help/components/classifications/sets/overview.md)).
       
       To configure an Azure RBAC account, specify the following information:
 

@@ -17,23 +17,12 @@ These release notes cover the release period of October 2, 2024 through October 
 | N/A | N/A | N/A | N/A |
 
 ## Fixes in Adobe Analytics
-
-A4T: 
-Activity Map: 
-Analysis Workspace: 
+ 
+Analysis Workspace: AN-357100; AN-358364; 
 Analytics Mobile App: 
-Classifications: 
-Cross-Device Analytics: 
-Data Feeds: 
-Data Warehouse: 
-Export Locations: 
-Privacy API: 
-Report Builder: 
-Scheduled projects: 
-Segmentation: 
-Target reporting: 
-
-Other fixes: 
+Classifications: AN-353074; AN-357533; AN-358308; AN-358732; 
+Data Feeds: AN-358489
+Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

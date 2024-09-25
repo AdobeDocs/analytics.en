@@ -37,7 +37,6 @@ The Edge Network uses the following logic to determine Adobe Analytics page view
 | `xdm.eventType = click` or `xdm.eventType = decisioning.propositionInteract` and `xdm._experience.decisioning` and no `web.webInteraction.type` | considers payload an **A4T** call. |
 | `xdm.eventType = click` or `xdm.eventType = decisioning.propositionInteract` and no `xdm._experience.decisioning` and no `web.webInteraction.type` | drops the payload and ignores the data. |
 
-
 {style="table-layout:auto"}
 
 See the [Adobe Analytics ExperienceEvent Full Extension schema field group](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) for more information.

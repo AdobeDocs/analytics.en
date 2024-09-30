@@ -1,30 +1,48 @@
 ---
-title: How to convert your legacy Report Builder workbooks to datablocks
-description: Describes how convert your legacy workbooks to datablocks
+title: How to convert your legacy Report Builder requests to datablocks
+description: Describes how convert your legacy requests to datablocks
 role: User
 feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
 ---
 
-# Convert legacy workbooks to datablocks
+# Convert legacy Report Builder requests to datablocks
 
-The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several advantages:
+As part of the move to a new Report Builder technology, you can quickly convert your current legacy workbooks to Javascript-based workbooks. 
 
-- Support for Analytics 2.0 API
-- Support for Excel on Mac and Windows
-- Removal of support for legacy technologies that the original Adobe Report Builder was built on.
+>[!IMPORTANT]
+>
+>Before you convert your requests, make sure you save each one of them. 
 
-As part of this move to a new Report Builder technology, you can quickly convert your current legacy workbooks to Javascript-based workbooks. 
-
-## Convert your workbooks
 
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 
-1. 
+1. Open Excel and click the Adobe Report Builder icon at the top right. 
 
-1. Open a legacy workbook.
+1. Click **[!UICONTROL Login]** and log in to Report Builder.
 
-1. The add-in detects if this workbook contains Legacy Report Builder requests.
+1. The Report Builder add-in detects if this workbook contains Legacy Report Builder requests.
 
-1. If legacy requests are found, 
+    ![upgrade workbook prompt](assets/upgrade_workbook.png)
+
+1. If one or more legacy requests are found, click **[!UICONTROL Upgrade]** to upgrade a workbook. 
+
+    >[!NOTE]
+    >
+    >You have to upgrade each request individually. Bulk upgrade is not supported.
+
+
+1. A warning appears that alerts you to changes to the workbook if you upgrade. It also urges you to create a backup of your legacy workbook before proceeding.
+
+    ![upgrade warning](assets/upgrade_warning.png)
+
+1. Click **[!UICONTROL Proceed]** to continue with the upgrade.
+
+    If the upgrade is successful, the following completion notice appears:
+
+    ![upgrade complete](assets/upgrade_complete.png)
+
+1. (Optional) Click **[!UICONTROL Download upgrade report]**. This report contains a status on each data block that was upgraded. 
+
+You can now manage the data block.

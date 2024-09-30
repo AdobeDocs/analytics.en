@@ -6,7 +6,13 @@ feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
 ---
-# About Adobe Report Builder
+# About the new Adobe Report Builder
+
+The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several advantages:
+
+- Support for Analytics 2.0 API
+- Support for Excel on Mac, Microsoft Windows, and web browsers
+- Removal of support for legacy technologies that the Legacy Adobe Report Builder was built on.
 
 Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Analytics data. With Report Builder's simple and flexible drag-and-drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
 

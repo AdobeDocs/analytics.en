@@ -13,8 +13,7 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
 >[!IMPORTANT]
 >
->Before you convert your requests, make sure you save each one of them. 
-
+>Save each request before you convert it.
 
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 

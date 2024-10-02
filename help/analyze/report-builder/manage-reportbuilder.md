@@ -25,7 +25,7 @@ The Data Block Manager lists all data blocks present in a workbook. 
 
 ## Sort the Data Blocks list
 
-You can sort the data block list by a displayed column. For example, you can sort the data block list by report suites, Filters, Date Range, and other variables.
+You can sort the data block list by a displayed column. For example, you can sort the data block list by report suites, segments, date range, and other variables.
 
 To sort the data block list, click a column heading.
 
@@ -39,9 +39,9 @@ Use the Search field to locate anything in the data block table. For example, yo
 
 ## Edit Data Blocks
 
-You can edit the report suite, date range, or the filters applied to one or more data blocks.
+You can edit the report suite, date range, or the segments applied to one or more data blocks.
 
-For example, you can replace an existing filter with a new filter in one or more data blocks.
+For example, you can replace an existing segment with a new segment in one or more data blocks.
 
 1. Select the data blocks that you want to update. You can select the top-level check box to select all data blocks or you can select individual data blocks.
 
@@ -51,7 +51,7 @@ For example, you can replace an existing filter with a new filter in one or more
 
    ![The Quick edit window](./assets/image58.png)
 
-1. Select a filter link to update report suites, date ranges, or filters.
+1. Select a segment link to update report suites, date ranges, or segments.
 
    ![The Add Segment field in the Quick edit window](./assets/image59.png)
 
@@ -76,7 +76,7 @@ Click the trash can icon to delete a selected data block.
 
 ## Group Data Blocks
 
-You can group data blocks using the **Group by** drop-down menu or you can click a column title. To sort data blocks by column, click the column title. To group data blocks by groups, select a group name from the **Group by** drop-down menu. For example, the screenshot below shows data blocks grouped by Sheet. It shows data blocks grouped by Sheet1 and Sheet2.  This is useful, for example, in the filter-replacing use case. If you have multiple filters applied to each data block, it is helpful to create a group containing all the data blocks that you want to replace. Then you can easily select and edit them all at once.
+You can group data blocks using the **Group by** drop-down menu or you can click a column title. To sort data blocks by column, click the column title. To group data blocks by groups, select a group name from the **Group by** drop-down menu. For example, the screenshot below shows data blocks grouped by Sheet. It shows data blocks grouped by Sheet1 and Sheet2.  This is useful, for example, in the segment-replacing use case. If you have multiple segments applied to each data block, it is helpful to create a group containing all the data blocks that you want to replace. Then you can easily select and edit them all at once.
 
 ![Data block manager showing the Group by Sheet list.](./assets/group-data-blocks.png)
 

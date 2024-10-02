@@ -42,6 +42,6 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
     ![upgrade complete](assets/upgrade_complete.png)
 
-1. (Optional) Click **[!UICONTROL Download upgrade report]**. This report contains a status on each data block that was upgraded. 
+1. (Optional) Click **[!UICONTROL Download upgrade report]**. This report contains the status on each data block that was upgraded. 
 
-You can now manage the data block.
+You can now [manage the data block](/help/analyze/report-builder/manage-reportbuilder.md).

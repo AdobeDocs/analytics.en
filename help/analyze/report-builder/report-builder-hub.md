@@ -10,20 +10,18 @@ solution: Adobe Analytics
 
 Use the Report Builder hub to create, update, delete, and manage data blocks.
 
-The Report Builder hub contains the  Create and Manage buttons, the COMMANDS list, and the QUICK EDIT panels.
+The Report Builder hub contains the Create and Manage buttons, the COMMANDS list, and the QUICK EDIT panels.
 
-<img src="./assets/hub51.png" width="50%" alt="Report Builder Hub"/>
+<img src="./assets/hub51.png" alt="Report Builder Hub"/>
 
 
-## Create and Manage buttons
+## Create, Manage, and Schedule buttons
 
-Use the Create or Manage buttons to create new data blocks or to manage existing data blocks.
+Use the Create, Manage, and Schedule buttons to create new data blocks, manage existing data blocks, or schedule datablocks.
 
 ## COMMANDS panel
 
 Use the COMMANDS panel to access commands that are compatible with the selected cells or a previous action.
-
-![The Commands panel in Report Builer Hub](./assets/hub1.png)
 
 ### Commands
 
@@ -33,6 +31,7 @@ Use the COMMANDS panel to access commands that are compatible with the selected 
 | Edit data block | The selected cell or cells range is part of one data block only. | Used to edit a data block                       |
 | Refresh data block      | The selection contains at least one data block. The command will refresh only the data blocks in the selection. | Used to refresh one or more data blocks         |
 | Refresh all data blocks | The workbook contains one or more data blocks. | Used to refresh ALL data blocks in the workbook |
+| Send workbook |   |  Send a workbook on a schedule. |
 | Copy data block   | The selected cell or cell range is part of one or more data blocks. | Used to copy a data block   |
 | Delete data block | The selected cell or cells range is part of one data block only. | Used to delete a data block |
 

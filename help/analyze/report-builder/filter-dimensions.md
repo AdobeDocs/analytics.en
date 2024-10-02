@@ -12,23 +12,23 @@ By default, each dimension item in the table returns the top 10 items for that d
 
 To change the dimension items returned for each dimension
 
-1. Select a data block and click Edit data block in the COMMANDS panel.
+1. Select a data block and click **[!UICONTROL Edit data block]** in the COMMANDS panel.
 
-1. Click Next to display the Dimensions tab.
+1. Click **[!UICONTROL Next]** to display the Dimensions tab.
 
-1. Click the **...** icon next to a component name in the table.
+1. Click the **...** icon next to a component name in the table.
 
     ![The ellipsis icon options.](./assets/image27.png)
 
-1. Select **Filter dimension** in the pop-up menu to display the **Filter dimension** pane.
+1. Select **[!UICONTROL Filter dimension]** in the pop-up menu to display the **[!UICONTROL Filter dimension]** pane.
 
-1. Select **Most popular** or **Specific**.
+1. Select **[!UICONTROL Most popular]** or **[!UICONTROL Specific]**.
 
     ![The specific option selected in the Filter dimension pane.](./assets/image28.png)
 
 1. Select appropriate options based on the filter type chosen.
 
-1. Click **Apply** to add the filter.
+1. Click **[!UICONTROL Apply]** to add the filter.
 
     Report Builder displays a notification to confirm the added filter.
 
@@ -40,7 +40,7 @@ There are two ways to filter dimension items: Most popular and Specific.
 
 ## Most popular
 
-The Most popular option allows you to dynamically filter dimension items based on metric values. Most popular filtering returns the highest ranked dimension items based on metric values. By default, the first 10 dimensions items are listed, sorted by the first metric added to the data block.
+The [!UICONTROL Most popular] option allows you to dynamically filter dimension items based on metric values. [!UICONTROL Most popular] filtering returns the highest ranked dimension items based on metric values. By default, the first 10 dimensions items are listed, sorted by the first metric added to the data block.
 
  ![The Most popular option.](./assets/image29.png)
 
@@ -99,13 +99,13 @@ To set filtering criteria
 
 An arrow appears next to the metric used to filter and sort the data block. The direction of the arrow indicates whether the metric is sorted greatest to least or least to greatest.
 
-To change the sort direction, click the arrow next to the metric. 
+To change the sort direction, click the arrow next to the metric.
 
 To change the metric used to filter and sort the data block,
 
 1. Hover over the desired metric component in the Table builder to display additional options.
 
-2. Click the arrow on the preferred metric. 
+2. Click the arrow on the preferred metric.
 
    ![The Table builder and metrics.](./assets/image30.png)
 
@@ -124,15 +124,15 @@ The Specific option allows you to create a fixed list of dimension items for eac
 
     ![The From list option and available items.](./assets/image33.png)
 
-    The **Available items** list is ordered from dimension items with the most events to those with the least.
+    The **[!UICONTROL Available items]** list is ordered from dimension items with the most events to those with the least.
 
-1. Enter a search term in the **Add item** field to search the list.
+1. Enter a search term in the **[!UICONTROL Add item]** field to search the list.
 
-1. To search for an item not included in the last 90 days of data, click **Show items for the last 6 months** to extend the search.
+1. To search for an item not included in the last 90 days of data, click **[!UICONTROL Show items for the last 6 months]** to extend the search.
 
     ![The Show items from the last 6 months list.](./assets/image34.png)
 
-    After data from the past 6 months loads, Report Builder updates the link to **Show items for last 18 months**.
+    After data from the past 6 months loads, Report Builder updates the link to **[!UICONTROL Show items for last 18 months]**.
 
 1. Select a dimension item.
 
@@ -146,13 +146,13 @@ The Specific option allows you to create a fixed list of dimension items for eac
 
     ![The dimension items list.](./assets/image36.png)
 
-1. Click **Apply**
+1. Click **[!UICONTROL Apply]**
 
     Report Builder updates the list to show the specific filtering you applied.
 
 ### From range of cells
 
-Select the **From range of cells** option to choose a range of cell that contain the list of dimensions items to match.
+Select the **[!UICONTROL From range of cells]** option to choose a range of cell that contain the list of dimensions items to match.
 
  ![The From range of cells option and field to select one range of cells.](./assets/image37.png)
 
@@ -166,7 +166,7 @@ Your selection can contain empty cells or cells with values that don't match wit
 
 ### From the Dimensions tab in the Table builder
 
-From the **Dimensions** tab, click the chevron icon next to a dimension name to view the list of dimension items.
+From the **[!UICONTROL Dimensions]** tab, click the chevron icon next to a dimension name to view the list of dimension items.
 
  ![The Dimensions tab and the list of dimensions.](./assets/dimensions_chevron.png)
 

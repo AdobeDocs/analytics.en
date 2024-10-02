@@ -5,6 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
+hide: yes
+hidefromtoc: yes
 ---
 # Schedule Workbooks
 
@@ -18,7 +20,7 @@ The Schedule feature also allows you to set up password protection for a workboo
 
 ## Schedule a workbook
 
-Use the Schedule task button in the Report Builder hub to quickly create a schedule so that you can automatically distribute a workbook Excel file (.xlsx) to an individual or a group.
+Use the Schedule button in the Report Builder hub to quickly create a schedule so that you can automatically distribute a workbook Excel file (.xlsx) to an individual or a group.
 
 1. Click the Schedule button in the Report Builder hub.
 

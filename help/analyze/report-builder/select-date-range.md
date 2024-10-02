@@ -5,6 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
+hide: yes
+hidefromtoc: yes
 ---
 # Select a Date Range
 

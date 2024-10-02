@@ -5,6 +5,8 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Adobe Analytics
+hide: yes
+hidefromtoc: yes
 ---
 # Report Builder Settings
 

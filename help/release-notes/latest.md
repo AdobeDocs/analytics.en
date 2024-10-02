@@ -16,6 +16,8 @@ These release notes cover the release period of October 2, 2024 through October 
 | ----------- | ---------- | ------- | ---- |
 | N/A | N/A | N/A | N/A |
 
+
+
 ## Fixes in Adobe Analytics
  
 Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269

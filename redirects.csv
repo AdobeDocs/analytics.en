@@ -579,3 +579,7 @@ source,destination
 /docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-genesis,/docs/discontinued/using/data-connectors
 /docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/t-success-events,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event
 /docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/event-type,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event
+/docs/analytics/analyze/analysis-workspace/anomaly-detection/intelligent-alerts/intellligent-alerts,/docs/analytics/components/alerts/intellligent-alerts
+/docs/analytics/analyze/analysis-workspace/anomaly-detection/intelligent-alerts/alert-builder,/docs/analytics/components/alerts/alert-builder
+/docs/analytics/analyze/analysis-workspace/anomaly-detection/intelligent-alerts/alert-manager,/docs/analytics/components/alerts/alert-manager
+/docs/analytics/analyze/analysis-workspace/anomaly-detection/intelligent-alerts/alerts-use-cases,/docs/analytics/components/alerts/alerts-use-cases

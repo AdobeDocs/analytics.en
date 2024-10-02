@@ -157,7 +157,7 @@ Applications include the following:
 * Report Builder
 * Builder UIs: Segment, Calculated Metrics, Annotations, Audiences, etc.
 * API calls from 1.4 or 2.0 API
-* Intelligent alerts
+* Alerts
 * Share with anyone links
 * Any other application that queries the Analytics reporting engine
 

@@ -162,7 +162,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + Report Builder {#report-builder}
   + [Report Builder Overview](report-builder/report-buider-overview.md)
   + [Report Builder Set Up](report-builder/report-builder-setup.md)
-  + [Convert legacy workbooks](report-builder/convert-workbooks.md)
+  + [Convert legacy requests](report-builder/convert-requests.md)
   + [Create a Data Block](report-builder/create-a-data-block.md)
   + [Report Builder Hub](report-builder/report-builder-hub.md)
   + [Select a Data View](report-builder/select-report-suite.md)

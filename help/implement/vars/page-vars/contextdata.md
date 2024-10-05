@@ -50,7 +50,7 @@ s.contextData["example_variable"] = "Example value";
 * Valid context data variables contain only alpha-numeric characters, underscores, and periods. Adobe does not guarantee data collection in processing rules if you include other characters, such as hyphens.
 * Do not start context data variables with `"a."`. This prefix is reserved and used by Adobe. For example, do not use `s.contextData["a.InstallEvent"]`.
 * Context data variables are not case-sensitive. The variables `s.contextData["example"]` and `s.contextData["EXAMPLE"]` are identical.
-* A single key cannot contain more than one value. If you want to use context data variables for multi-value variables, concatenate all values using a delimiter (typically a comma) and pass it into either a [list prop](prop#list-props) or a [list variable](list.md) using processing rules.
+* A single key cannot contain more than one value. If you want to use context data variables for multi-value variables, concatenate all values using a delimiter (typically a comma) and pass it into either a [list prop](prop.md#list-props) or a [list variable](list.md) using processing rules.
 
 ## Use processing rules to populate analytics variables
 

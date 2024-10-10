@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
-user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder, and Activity Map.
+user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder and Legacy Report Builder, and Activity Map.
 ---
 
 # Adobe Analytics Tools Guide {#analyze}
@@ -173,6 +173,119 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Schedule Workbooks](report-builder/schedule-reportbuilder.md)
   + [Restricted Labels](report-builder/restricted-labels.md)
   + [Report Builder Settings](report-builder/report-builder-settings.md)
++ Legacy Report Builder {#legacy-report-builder}
+  + [Legacy Adobe Report Builder help](legacy-report-builder/home.md)
+  + Legacy Report Builder setup {#legacy-report-builder-setup}
+    + [System requirements](legacy-report-builder/setup/system-requirements.md)
+    + [Install Report Builder](legacy-report-builder/setup/t-install-arb.md)
+    + [Upgrade Report Builder](legacy-report-builder/setup/upgrade-arb.md)
+    + [Report Builder Sign-In](legacy-report-builder/setup/login.md)
+    + [Uninstall Report Builder](legacy-report-builder/setup/t-uninstall-arb.md)
+    + [Invoke Report Builder functionality from Microsoft Excel functions](legacy-report-builder/setup/invoke-arb-excel-function.md)
+  + [Report Builder toolbar](legacy-report-builder/reportbuilder-toolbar.md)
+  + Data requests {#data-requests}
+    + [Data requests - Request Wizard Step 1](legacy-report-builder/data-requests/data-requests.md)
+    + [Create a data request](legacy-report-builder/data-requests/t-create-a-data-request.md)
+    + Report suites {#report-suites}
+      + [Select a report suite](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+      + [Select a report suite from an existing request in Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+      + [Use Excel to locate a report suite ID](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
+    + [Manage segments](legacy-report-builder/data-requests/segmentation.md)
+    + Report types {#report-types}
+      + [Report types overview](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
+      + [Path and path fallout reports in Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
+      + [Filter a Path Report Using the Request Wizard](legacy-report-builder/data-requests/c-report-types/path-filter.md)
+      + [Filter a Fallout Report Using the Request Wizard](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
+      + [Filter Path Reports by Adding Dependent Requests](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
+      + [Select a report type](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
+    + [Import bookmarked reports and dashboard reportlets](legacy-report-builder/data-requests/import-bookmarked.md)
+    + Date ranges {#date-ranges}
+      + [Request Wizard definitions - preset dates](legacy-report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
+      + [Fixed dates and saved date ranges](legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
+      + [Request Wizard definitions - fixed dates](legacy-report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
+      + [Rolling dates](legacy-report-builder/data-requests/configuring-report-dates/t-rolling-dates.md)
+      + [Request Wizard definitions - rolling dates](legacy-report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
+      + [Real-time reports](legacy-report-builder/data-requests/configuring-report-dates/real-time.md)
+      + [Configure a real-time request](legacy-report-builder/data-requests/configuring-report-dates/t-real-time.md)
+      + Customized date expressions {#customized-date-expressions}
+        + [Customized date expressions - overview](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+        + [Date abbreviations](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
+        + [Individual starting or ending dates](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
+        + [Examples of date ranges using customized expressions](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
+        + [Considerations](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
+      + [Dates from a cell](legacy-report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
+      + [Granularity](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
+      + [Custom calendar](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+    + [Interactive controls](legacy-report-builder/data-requests/interactive-controls.md)
+  + Layout - Request Wizard Step 2 {#layout}
+    + [Layout overview](legacy-report-builder/layout/layout.md)
+    + Metrics and dimensions {#metrics-dimension}
+      + [Metrics and dimensions overview](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+      + [Add metrics and dimensions](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+      + [Calculated Metrics](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+      + [Combine traffic and commerce metrics in the same request](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+      + [User access permissions for dimensions and metrics](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+      + [Modify metrics - field definitions](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
+      + [Customer attributes](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
+    + [Anomaly Detection](legacy-report-builder/layout/anomaly-detection.md)
+    + [Configure an anomaly detection request](legacy-report-builder/layout/t-anomaly.md)
+    + [Format the date](legacy-report-builder/layout/format-the-data.md)
+    + [Format display headers](legacy-report-builder/layout/t-format-display-headers.md)
+    + [Hide or show headers](legacy-report-builder/layout/hide-or-show-headers.md)
+    + [Delete output mapping](legacy-report-builder/layout/delete-output-mapping.md)
+    + [Name a request](legacy-report-builder/layout/name-a-request.md)
+    + [Prepend and postpend text to cells](legacy-report-builder/layout/prepend-and-postpend-text-to-cells.md)
+    + [Configure the custom layout](legacy-report-builder/layout/configure-the-custom-layout.md)
+    + [Map metrics and dimensions to cells](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+    + [Create a microchart](legacy-report-builder/layout/t-create-a-microchart.md)
+    + Filter dimensions {#filter-dimenson}
+      + [Filter dimensions overview](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
+      + [Most popular filtering](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
+      + [Specific filters](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
+      + [Saved filters](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
+  + Manage requests {#manage-requests}
+    + [Manage requests - definitions](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
+    + [Diagnostic messages](legacy-report-builder/manage-requests/diagnostic-messages.md)
+    + [Sort ascending or descending](legacy-report-builder/manage-requests/sort-ascending-or-descending.md)
+    + [Protected worksheet elements](legacy-report-builder/manage-requests/protected-worksheet-elements.md)
+    + [Edit multiple requests](legacy-report-builder/manage-requests/t-edit-multiple-requests.md)
+    + [Edit metrics across multiple requests](legacy-report-builder/manage-requests/edit-multiple-metrics.md)
+    + [Refresh a request](legacy-report-builder/manage-requests/t-refresh-a-request.md)
+    + [Refresh requests for all sheets](legacy-report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
+    + [Add dependent requests](legacy-report-builder/manage-requests/add-dependent-requests.md)
+    + [Classification](legacy-report-builder/manage-requests/classification.md)
+    + Copy requests {#copy-requests}
+      + [Copy requests overview](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
+      + [Copy simple requests](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
+      + [Copy adjacent requests](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
+      + [Copy worksheets](legacy-report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
+      + [Copy requests and worksheets between workbooks](legacy-report-builder/manage-requests/c-copy-requests/t-copy-requests-and-worksheets-between-workbooks.md)
+      + [Create more than one copy of a request](legacy-report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
+      + [Copy referential requests](legacy-report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
+    + [Save a workbook with requests](legacy-report-builder/manage-requests/save-a-workbook-with-requests.md)
+    + [Specify conditional formatting](legacy-report-builder/manage-requests/specify-conditional-formatting.md)
+    + [Offline mode for creating and editing requests](legacy-report-builder/manage-requests/offline-mode.md)
+  + [Report Builder options](legacy-report-builder/options.md)
+  + [Schedule report requests](legacy-report-builder/schedule-report-requests.md)
+  + [Schedule a workbook](legacy-report-builder/t-schedule-a-data-request.md)
+  + [Scheduled Task Manager](legacy-report-builder/r-arb-scheduled-reports.md)
+  + Workbook Library {#workbook-library}
+    + [Upload a workbook](legacy-report-builder/workbook-library/t-upload-a-workbook.md)
+    + [Download a workbook](legacy-report-builder/workbook-library/t-download-a-workbook.md)
+    + [Lock/unlock workbooks](legacy-report-builder/workbook-library/protect-wb.md)
+    + [Schedule macro-enabled workbooks](legacy-report-builder/workbook-library/schedule-macro-wb.md)
+  + Publish to Power BI with Report Builder 5.5 {#publish-powerbi}
+    + [Publish to Power BI - Overview](legacy-report-builder/c-publish-power-bi/power-bi.md)
+    + [Limitations and specifications](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
+    + [Manually import data to Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
+    + [Pull published assets into Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+    + [Best practices](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
+    + [Troubleshooting Power BI integration](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
+    + [Adobe Analytics content packs for Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
+  + [Visual Basic macros](legacy-report-builder/vba.md)
+  + [Report Builder troubleshooting](legacy-report-builder/troubleshoot.md)
+  + [Report Builder FAQ](legacy-report-builder/faq.md)
+
 + Activity Map {#activity-map}
   + [Overview](activity-map/overview.md)
   + [Getting started](activity-map/getting-started.md)

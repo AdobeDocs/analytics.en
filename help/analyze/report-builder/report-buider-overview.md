@@ -1,6 +1,6 @@
 ---
-title: What is Adobe Report Builder?
-description: Describes Report Builder functionality
+title: What is the new Adobe Report Builder?
+description: Describes the new Report Builder functionality
 role: User
 feature: Report Builder
 type: Documentation
@@ -12,10 +12,12 @@ hidefromtoc: yes
 
 The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several advantages:
 
+- Support for Microsoft Excel on Mac, Microsoft Windows, and web browsers
+- Improved user experience
+- Enhanced speed
 - Support for Analytics 2.0 API
-- Support for Excel on Mac, Microsoft Windows, and web browsers
-- Removal of support for legacy technologies that the Legacy Adobe Report Builder was built on.
 
+For users of the Legacy Report Builder tool: you can convert your legacy workbooks to the new report builder.
 Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Analytics data. With Report Builder's simple and flexible drag-and-drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
 
 With Report Builder, you can:
@@ -24,11 +26,12 @@ With Report Builder, you can:
 - Create custom dates using calendar, cell references, or date math
 - Design your tables and visualizations with familiar Excel formatting tools
 
-Report Builder is available for Excel on the following platforms:
+## Using Legacy Report Builder and the new Report Builder together
 
-- macOS
-- Microsoft Windows
-- Web browsers
+You can use both versions of Report Builder, with the following caveats:
+
+- Do not use both versions on the same file.
+- You can convert legacy workbooks to the new Report Builder format. Rename
 
 ## Common use cases
 
@@ -43,6 +46,10 @@ Report Builder is available for Excel on the following platforms:
 - **Sharing Insights**: You can share Excel reports and insights with team members or stakeholders who might not have direct access to CJA.
 
 ## Overview video
+
+>[!IMPORTANT]
+>
+>This overview video shows the Report Builder user interface in Customer Journey Analytics and, as such, some of the terminology differs. Otherwise, the user interface and the tasks you can perform are identical.
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 

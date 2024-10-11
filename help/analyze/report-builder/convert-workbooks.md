@@ -1,5 +1,5 @@
 ---
-title: How to convert your legacy Report Builder requests to datablocks
+title: How to convert your legacy Report Builder workbooks to datablocks
 description: Describes how convert your legacy requests to datablocks
 role: User
 feature: Report Builder
@@ -9,13 +9,13 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Convert legacy Report Builder requests to datablocks
+# Convert legacy Report Builder workbooks to datablocks
 
 As part of the move to a new Report Builder technology, you can quickly convert your current legacy workbooks to Javascript-based workbooks. 
 
 >[!IMPORTANT]
 >
->Duplicate each request and rename it before you convert it.
+>Duplicate each workbook and rename it before you convert it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 

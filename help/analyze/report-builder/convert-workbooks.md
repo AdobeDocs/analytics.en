@@ -17,6 +17,8 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 >
 >Save each request before you convert it.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 
 1. Open Excel and click the Adobe Report Builder icon at the top right. 

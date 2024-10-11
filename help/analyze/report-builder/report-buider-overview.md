@@ -10,7 +10,7 @@ hidefromtoc: yes
 ---
 # About the new Adobe Report Builder
 
-The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several advantages:
+The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several benefits:
 
 - Support for Microsoft Excel on Mac, Microsoft Windows, and web browsers
 - Improved user experience

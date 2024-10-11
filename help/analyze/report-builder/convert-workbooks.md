@@ -15,7 +15,7 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
 >[!IMPORTANT]
 >
->Save each request before you convert it.
+>Duplicate each request and rename it before you convert it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -25,7 +25,7 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
 1. Click **[!UICONTROL Login]** and log in to Report Builder.
 
-1. The Report Builder add-in detects if this workbook contains Legacy Report Builder requests.
+1. The Report Builder add-in detects if this workbook contains [Legacy Report Builder](/help/analyze/legacy-report-builder/home.md) requests.
 
     ![upgrade workbook prompt](assets/upgrade_workbook.png)
 

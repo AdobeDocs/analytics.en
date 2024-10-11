@@ -30,8 +30,9 @@ With Report Builder, you can:
 
 You can use both versions of Report Builder, with the following caveats:
 
-- Do not use both versions on the same file.
-- You can convert legacy workbooks to the new Report Builder format. Rename
+- Do not use both Report Builder versions on the same file at the same time. They are mutually exclusive.
+- You can still use Legacy Report Builder on legacy workbooks and the new Report Builder on new workbooks.
+- In addition, you can automatically [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder format. Before doing so, rename the file.
 
 ## Common use cases
 
@@ -49,7 +50,7 @@ You can use both versions of Report Builder, with the following caveats:
 
 >[!IMPORTANT]
 >
->This overview video shows the Report Builder user interface in Customer Journey Analytics and, as such, some of the terminology differs. Otherwise, the user interface and the tasks you can perform are identical.
+>This overview video shows the Report Builder user interface in Customer Journey Analytics and, as such, some of the UI and terminology differ. Otherwise, the user experience is identical.
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 

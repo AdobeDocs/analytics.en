@@ -34,6 +34,18 @@ You can use both versions of Report Builder, with the following caveats:
 - You can still use Legacy Report Builder on legacy workbooks and the new Report Builder on new workbooks.
 - In addition, you can automatically [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder format. Before doing so, rename the file.
 
+## Legacy Report Builder features not supported in the New Report Builder
+
+When comparing the functionality between Legacy Report Builder and the new Report Builder Add-in, some legacy functionality is no longer available:
+
+- Real-time requests
+
+- Path/Fallout reporting
+
+- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: visitorshourly, visitorsdaily, visitorsweekly, visitorsmonthly, visitorsquarterly, visitorsyearly
+
+- - Mobile Daily Unique Visitors metric
+
 ## Common use cases
 
 - **Data Extraction**: Adobe Report Builder allows you to extract data from Adobe Analytics into Excel. You can create custom reports and queries to retrieve specific data points that are relevant to your analysis. 
@@ -50,7 +62,7 @@ You can use both versions of Report Builder, with the following caveats:
 
 >[!IMPORTANT]
 >
->This overview video shows the Report Builder user interface in Customer Journey Analytics and, as such, some of the UI and terminology differ. Otherwise, the user experience is identical.
+>This overview video shows the Report Builder user interface in Customer Journey Analytics. Some of the user interface and terminology differ. Otherwise, the user experience is identical.
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 

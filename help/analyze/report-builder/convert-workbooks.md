@@ -15,7 +15,7 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
 >[!IMPORTANT]
 >
->Duplicate each workbook and rename it before you convert it.
+>Duplicate each workbook and rename one version before you convert it. That way, you still have a copy of the original workbook should you need it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -49,3 +49,16 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 1. (Optional) Click **[!UICONTROL Download upgrade report]**. This report contains the status on each data block that was upgraded. 
 
 You can now [manage the data block](/help/analyze/report-builder/manage-reportbuilder.md).
+
+
+## Legacy Report Builder features not supported in the New Report Builder
+
+When comparing the functionality between Legacy Report Builder and the new Report Builder Add-in, some legacy functionality is no longer available. 
+
+- Real-time requests
+
+- Path/Fallout reporting
+
+- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: visitorshourly, visitorsdaily, visitorsweekly, visitorsmonthly, visitorsquarterly, visitorsyearly
+
+- Mobile Daily Unique Visitors metric

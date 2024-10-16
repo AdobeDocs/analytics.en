@@ -36,15 +36,13 @@ You can use both versions of Report Builder, with the following caveats:
 
 ## Legacy Report Builder features not supported in the New Report Builder
 
-When comparing the functionality between Legacy Report Builder and the new Report Builder Add-in, some legacy functionality is no longer available:
+When comparing the functionality of Legacy Report Builder to the new Report Builder Add-in, some legacy functionality is no longer available:
 
 - Real-time requests
 
 - Path/Fallout reporting
 
 - Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: visitorshourly, visitorsdaily, visitorsweekly, visitorsmonthly, visitorsquarterly, visitorsyearly
-
-- - Mobile Daily Unique Visitors metric
 
 ## Common use cases
 

@@ -15,7 +15,7 @@ These release notes cover the release period of October 16, 2024 through end of 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **New Report Builder for Adobe Analytics** | The new Report Builder application brings a major update to Adobe Analytics, including improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. This application can be used along with the legacy application, but not on the same file. An upgrade feature is provided to upgrade legacy workbooks to the new application. [Documentation link to follow] |  | October 16, 2024 |
-| **JSON Export for migrating Tags implementation to Web SDK Tags**  | This update to the Analytics Tags Extension is related to migrating to Web SDK. You can use this update to the AA extension as part of your workflow to recreate your AA extension configurations with the Web SDK extension. In the Analytics Tags extension, you can view eVars, Props and events settings as JSON, which can be exported for editing and included in the Web SDK extension. |  | October 23, 2024 |
+| **JSON Export for migrating tags implementation to Web SDK tags**  | This update to the Analytics tags Extension is related to migrating to Web SDK. You can use this update to the Adobe Analytics extension as part of your workflow to recreate your extension configurations with the Web SDK extension. In the Adobe Analytics tags extension, you can view eVars, props and events settings as JSON, which can be exported for editing and included in the Web SDK extension. |  | October 23, 2024 |
 
 ## Fixes in Adobe Analytics
  

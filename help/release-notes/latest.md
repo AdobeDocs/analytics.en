@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 2024)
 
-**Last update**: October 2, 2024
+**Last update**: October 16, 2024
 
 These release notes cover the release period of October 2, 2024 through October 22, 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,9 +14,7 @@ These release notes cover the release period of October 2, 2024 through October 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| N/A | N/A | N/A | N/A |
-
-
+| New Report Builder for Adobe Analytics | The new Report Builder application brings updated features to Adobe Analytics, such as improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. [Documentation link to follow] |  | October 16, 2024 |
 
 ## Fixes in Adobe Analytics
  

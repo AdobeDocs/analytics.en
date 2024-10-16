@@ -19,9 +19,7 @@ To select a report suite from a cell, first build a data block and assign multip
 1. Create a data block.
    For information about creating a data block, see [Create a Data Block](/help/report-builder/create-a-data-block.md).
 
-1. Click the *cell icon* in the *report suites* section.
-
-   ![Create new data block window with the cell icon highlighted.](/help/report-builder/assets/cell-icon.png)
+1. Click the *cell icon* in the **[!UICONTROL report suites]** section.
 
 1. Select a cell location to add the report suites to the selected cell.
 
@@ -30,8 +28,6 @@ To select a report suite from a cell, first build a data block and assign multip
 1. Confirm the selected cell location.
 
 1. Select the report suites that you want to assign to the cell.
-
-   ![Report Builder Quick edit pane showing the Select report suites.](/help/report-builder/assets/select-data-view.png)
 
 1. Click **Apply**.
 

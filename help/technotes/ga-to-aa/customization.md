@@ -66,4 +66,4 @@ To create a calculated metric:
 
 ## Custom Alerts
 
-Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.
+Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Alerts overview](/help/components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.

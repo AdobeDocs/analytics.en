@@ -43,7 +43,6 @@ user-guide-description: Learn about using Data Feeds to export of raw data, and 
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
-  + [Data Warehouse FAQ](data-warehouse/faq.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
   + [Use FTP and SFTP with the Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)

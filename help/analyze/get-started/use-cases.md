@@ -45,8 +45,8 @@ Predictive analytics uses machine learning and advanced statistical modeling to 
 
 The following key features in Adobe Analytics provide these predictive capabilities:
 
-* [Anomaly detection](#anomaly-detection)
+* [Anomaly detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [Contribution analysis](#contribution-analysis)
+* [Contribution analysis](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Intelligent alerts](#intelligent-alerts)
+* [Alerts](/help/components/c-alerts/intellligent-alerts.md)

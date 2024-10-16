@@ -1,13 +1,13 @@
 ---
-description: Calculated and Advanced Calculated (or Derived) Metrics are custom metrics that you can create from existing metrics.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
-title: Calculated and Advanced Calculated (Derived) Metrics
+description: Calculated and Advanced Calculated Metrics are custom metrics that you can create from existing metrics.
+keywords: Calculated Metrics;Advanced Calculated Metrics
+title: Calculated and Advanced Calculated Metrics
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-# Calculated and Advanced calculated (derived) metrics
+# Calculated and Advanced calculated metrics
 
-Calculated and advanced calculated (or derived) metrics are custom metrics that you can create from existing metrics.
+Calculated and advanced calculated metrics are custom metrics that you can create from existing metrics.
 
 Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
@@ -18,7 +18,7 @@ Our Calculated Metrics tools offer a highly flexible way of building, managing a
 
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
 
-|  Builder Options  | Calculated metrics  | Advanced calculated (derived) metrics  |
+|  Builder Options  | Calculated metrics  | Advanced calculated metrics  |
 |---|---|---|
 | [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | Yes  | Yes  |
 | [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |

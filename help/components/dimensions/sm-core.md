@@ -2,6 +2,7 @@
 title: Streaming Media core dimensions
 description: Available dimensions when you enable [!UICONTROL Media Core] for a report suite.
 feature: Dimensions
+exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
 ---
 # Streaming Media core dimensions
 

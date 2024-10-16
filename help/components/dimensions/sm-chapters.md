@@ -2,6 +2,7 @@
 title: Streaming Media chapter dimensions
 description: Available dimensions when you enable [!UICONTROL Media Chapters] for a report suite.
 feature: Dimensions
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
 ---
 # Streaming Media chapter dimensions
 

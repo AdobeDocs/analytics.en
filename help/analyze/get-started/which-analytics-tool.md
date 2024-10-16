@@ -20,7 +20,9 @@ Here is a video that compares various Adobe Analytics tools:
 
 **[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
 
-**[Report Builder](/help/analyze/report-builder/home.md)** is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** is an add-in for Microsoft Excel that runs on Mac, Windows, and web browsers. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
+
+**[Legacy Report Builder](/help/analyze/legacy-report-builder/home.md)** is an add-in for Microsoft Excel that runs on Windows only. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
 
@@ -67,7 +69,7 @@ Here is a video that compares various Adobe Analytics tools:
 
 ## Exporting Data from Adobe Analytics {#export}
 
-**[Report Builder](/help/analyze/report-builder/home.md)** should be used:
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** should be used:
 
 * If the customized layout options of Workspace are limiting (anything is possible in Report Builder, within the limits of Excel).
 * To loosely tie in user inputs or offline data sources (impressions, cost) to Adobe data. More permanent solution for tying in data is Data Sources (see Importing Data to Analytics).

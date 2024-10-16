@@ -37,5 +37,5 @@ Most Adobe Analytics solutions, including Analysis Workspace, are browser-based.
 
 See the linked solution page for that solution's system requirements.
 
-* [Report Builder system requirements](/help/analyze/report-builder/setup/system-requirements.md)
+* [Legacy Report Builder system requirements](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

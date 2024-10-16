@@ -174,7 +174,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **February 2022** | |
 | Mobile scorecard project preview mode | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) allows you to preview the experience before you save and share a scorecard.  |
 | API projects endpoint | Add, edit or delete Analysis Workspace projects using the API. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 
-| Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Updated topic on pausing older scheduled Report Builder tasks |  **Effective April 15, 2022**, Adobe intends to [pause all scheduled Report Builder tasks that were created more than two years ago](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md). |
 
 ### 2021 {#year2021}
 

@@ -296,5 +296,4 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Create a mobile scorecard](mobile-app/create-scorecard.md)
   + [Set up executives to use dashboards](mobile-app/set-up-execs.md)
   + [Executive user quick start guide](mobile-app/executive.md)
-+ [Reporting API](reporting-api.md)
 + [Labs](labs.md)

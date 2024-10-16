@@ -17,7 +17,8 @@ The new Javascript Report Builder Add-in that was initially available only in Cu
 - Enhanced speed
 - Support for Analytics 2.0 API
 
-For users of the Legacy Report Builder tool: you can convert your legacy workbooks to the new report builder.
+Users of the Legacy Report Builder tool can [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder.
+
 Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Analytics data. With Report Builder's simple and flexible drag-and-drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.
 
 With Report Builder, you can:
@@ -26,13 +27,13 @@ With Report Builder, you can:
 - Create custom dates using calendar, cell references, or date math
 - Design your tables and visualizations with familiar Excel formatting tools
 
-## Using Legacy Report Builder and the new Report Builder together
+## Using Legacy Report Builder and the new Report Builder side by side
 
-You can use both versions of Report Builder, with the following caveats:
+You can still use both versions of Report Builder, with the following caveats:
 
 - Do not use both Report Builder versions on the same file at the same time. They are mutually exclusive.
 - You can still use Legacy Report Builder on legacy workbooks and the new Report Builder on new workbooks.
-- In addition, you can automatically [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder format. Before doing so, rename the file.
+- In addition, you can automatically [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder format. Before doing so, duplicate and rename the file.
 
 ## Legacy Report Builder features not supported in the New Report Builder
 
@@ -42,7 +43,9 @@ When comparing the functionality of Legacy Report Builder to the new Report Buil
 
 - Path/Fallout reporting
 
-- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: visitorshourly, visitorsdaily, visitorsweekly, visitorsmonthly, visitorsquarterly, visitorsyearly
+- FTP option for scheduled reports
+
+- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
 
 ## Common use cases
 

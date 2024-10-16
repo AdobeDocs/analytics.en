@@ -53,12 +53,12 @@ You can now [manage the data block](/help/analyze/report-builder/manage-reportbu
 
 ## Legacy Report Builder features not supported in the New Report Builder
 
-When comparing the functionality between Legacy Report Builder and the new Report Builder Add-in, some legacy functionality is no longer available. 
+When comparing the functionality of Legacy Report Builder to the new Report Builder Add-in, some legacy functionality is no longer available:
 
 - Real-time requests
 
 - Path/Fallout reporting
 
-- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: visitorshourly, visitorsdaily, visitorsweekly, visitorsmonthly, visitorsquarterly, visitorsyearly
+- FTP option for scheduled reports
 
-- Mobile Daily Unique Visitors metric
+- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.

@@ -2,6 +2,7 @@
 title: Streaming Media quality metrics
 description: Available metrics when you enable [!UICONTROL Media Quality] for a report suite.
 feature: Metrics
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
 ---
 # Streaming Media quality metrics
 

@@ -4,34 +4,32 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (August 2024)
+# Current Adobe Analytics release notes (October 2024)
 
-**Last update**: August 20, 2024
+**Last update**: October 16, 2024
 
-These release notes cover the release period of August 14, 2024 through September 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of October 2, 2024 through October 22, 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Web SDK improvements for link tracking** | Several notable improvements are available in the latest version of the Web SDK around link tracking, which directly benefits Activity Map. These new features are available in both the Web SDK JavaScript library and the Web SDK tag extension.<ul><li>Event grouping: When a visitor clicks an internal link, you can choose to group event data on the next page instead of triggering a separate event call for link tracking. This improvement reduces the number of events that the Web SDK uses against your contractual limit.</li><li>Filter click properties: A new callback that replaces `OnBeforeLinkClickSend`. You can use this callback to filter or obfuscate link-related data before sending it to Adobe.</li></ul><p>See [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) in the Web SDK user guide for more information.</p> | Open Beta started July 10, 2024 | July 18, 2024 |
-
-{style="table-layout:auto"}
+| New Report Builder for Adobe Analytics | The new Report Builder application brings updated features to Adobe Analytics, such as improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. [Documentation link to follow] |  | October 16, 2024 |
 
 ## Fixes in Adobe Analytics
-
-* Fixed an issue where multiple unknown values were displayed in Workspace (AN-353632) 
-* Fixed an issue where the notification email did not send after adding new customers or new Analytics product profiles in the Admin console (AN-350930)
-
-### Other Analytics fixes
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+ 
+Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
+Analytics Mobile App: AN-354085
+Classifications: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
+Cross-Device Analytics: AN-357968
+Data Feeds: AN-358489; AN-358542
+Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **13-month expiration of saved `cust_visids`**  | August 20, 2024 | The **August 20, 2024**, release of the Analytics Hit processing engine enforces a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Previously, there was no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping expires. | 
+| **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}
 

@@ -2,6 +2,7 @@
 title: Streaming Media core metrics
 description: Available metrics when you enable [!UICONTROL Media Core] for a report suite.
 feature: Metrics
+exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
 ---
 # Streaming Media core metrics
 

@@ -2,6 +2,7 @@
 title: Streaming Media video metadata dimensions
 description: Available dimensions when you enable [!UICONTROL Video Metadata] for a report suite.
 feature: Dimensions
+exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
 ---
 # Streaming Media video metadata dimensions
 

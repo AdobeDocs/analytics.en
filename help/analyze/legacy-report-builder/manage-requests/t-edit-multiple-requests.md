@@ -30,7 +30,7 @@ You can change several requests at the same time, based on the request's report 
 
         * **Choose Segment**: Displays if no segments exist for the requests. To add segments, click **[!UICONTROL Edit Group]** and select a segment from the [!UICONTROL Edit Group] panel.
 
-    * **By Metric:** See [Edit Metrics Across Multiple Requests](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
+    * **By Metric:** See [Edit Metrics Across Multiple Requests](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
     
     * **By Date Range and Granularity:** Groups the display of requests by date range and time granularity.
     * **By Group:** Groups the display of requests by set of grouped requests.

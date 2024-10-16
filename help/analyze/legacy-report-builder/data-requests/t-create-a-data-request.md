@@ -10,14 +10,14 @@ exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 Steps to create a basic data request.
 
 1. In Excel, click **[!UICONTROL Create]**.
-1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optional) Select a segment to apply to the request. Once you have selected one or more segments, they will move to the top of the list.
 
    Report Builder uses segments in the same way Adobe Analytics uses them. See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Select a [report type](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specify a [date range](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) and report [granularity](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Click **[!UICONTROL Next]**.
-1. In the [Layout - Request Wizard Step 2](/help/analyze/report-builder/layout/layout.md) window, specify a layout:
+1. In the [Layout - Request Wizard Step 2](/help/analyze/legacy-report-builder/layout/layout.md) window, specify a layout:
 
    |  Element  | Description  |
    |---|---|

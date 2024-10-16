@@ -10,9 +10,9 @@ This page contains a comparison of various Adobe Analytics products: Analysis Wo
 
 For information on which Adobe Analytics product to use, see [Which Adobe Analytics tool should I use?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Product Name & Help Link | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Product Name & Help Link | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **Access method** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel for Windows](/help/analyze/report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/analyze/get-started/sys-reqs.md)  | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe Developer credentials. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Access method** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel for Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Setup through the browser. [Learn more](/help/analyze/get-started/sys-reqs.md)  | Setup through the browser. [Learn more](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API tools. Login with Adobe Developer credentials. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Data granularity** | Aggregated |  Aggregated | Aggregated | Hit | Aggregated |
 | **Experience Cloud ID (ECID) available** | No |  No | Yes | Yes | No |
 | **Timestamp available** | No | No | No | Yes | No |

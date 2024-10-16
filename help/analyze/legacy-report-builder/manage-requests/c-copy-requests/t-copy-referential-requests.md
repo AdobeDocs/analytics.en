@@ -11,7 +11,9 @@ exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
 A referential request uses values from cells as input for parameters, such as a data filter or relational filter.
 
 To propagate or copy and paste referential requests in the spreadsheet:
+
 *  You must create at least one valid request in the spreadsheet.
+
 *  The data produced by the request must contain a cell whose value is dependent on either a request in another cell (using a breakdown or matching filter) or dependent on a filter that takes input from data entered in a cell.
 
 You can also create requests that reference input filters from requests in different worksheets, but not different workbooks. For example, a request in Sheet 2 can use a report suite from a given cell in Sheet 1 and a date range from a cell in a request in Sheet 2. The new output can be placed in either sheet or a new sheet within the same workbook. When you paste a relative request, if an input filter resides on a worksheet different from the worksheet on which the copied request output is located, the filter is pasted as an absolute filter.

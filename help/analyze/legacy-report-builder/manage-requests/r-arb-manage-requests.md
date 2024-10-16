@@ -56,11 +56,11 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add </p> </td> 
-   <td colname="col2"> <p>Displays the Request Wizard dialog. See <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
+   <td colname="col2"> <p>Displays the Request Wizard dialog. See <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Create a Data Request</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edit </p> </td> 
-   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (Or Edit Multiple) Edits a selected request. The system displays the <span class="wintitle"> Request Wizard</span> dialog. See <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Delete </p> </td> 
@@ -76,7 +76,7 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
   </tr> 
   <tr> 
    <td colname="col1"> <p> Refresh </p> </td> 
-   <td colname="col2"> <p>Refreshes a single request or a selection of requests. (See <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
+   <td colname="col2"> <p>Refreshes a single request or a selection of requests. (See <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Refresh List </p> </td> 

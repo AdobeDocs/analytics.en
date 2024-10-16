@@ -14,7 +14,7 @@ For reports with correlation breakdowns enabled within the report table, to take
 
 >[!NOTE]
 >
->You can also add a breakdown request when you create the original request. See [Create a Data Request](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+>You can also add a breakdown request when you create the original request. See [Create a Data Request](/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >

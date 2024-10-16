@@ -7,7 +7,7 @@ exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
 ---
 # Best practices
 
-## Preserve references in Power BI visualizations {#section_7ED14FE64D974681A57EB91EF1B47CB6}
+## Preserve references in Power BI visualizations
 
 Once you create a request, that request will always have the same reference in Power BI. But if you delete a request, the reference will be used by a new request you create for the same dimension.
 

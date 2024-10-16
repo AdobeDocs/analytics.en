@@ -8,4 +8,4 @@ exl-id: bbc1137d-5549-4f2f-9d67-7165a9970c77
 ---
 # Schedule a report request
 
-See [Schedule a data request](/help/analyze/report-builder/t-schedule-a-data-request.md).
+See [Schedule a data request](/help/analyze/legacy-report-builder/t-schedule-a-data-request.md).

@@ -17,7 +17,7 @@ Combining the report-generation capability of Report Builder with the visualizat
 
 ## System requirements {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installed](/help/analyze/report-builder/setup/t-install-arb.md) 
+* Adobe Report Builder 5.5 [installed](/help/analyze/legacy-report-builder/setup/t-install-arb.md) 
 * Active Microsoft account that enables you to sign in to Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -72,7 +72,7 @@ Instead of importing the entire workbook, you can import only the content of all
 
    ![Screenshot showing the Scheduling Wizard - Advanced Publishing Options with the Publish all Formatted Tables as Power BI dataset tables.](assets/advanced-schedule-wizard2.png)
 
-1. (Optional) You can customize the name of the published asset in Power BI. This can be useful if you use versioning as part of the workbook name (e.g., myworkbook_v1.1.xlsx) and you don't want the version number to show up in the name of the published Power BI asset. It has the added advantage that the published asset will not change if the version number changes. (View [specifications](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) here.)
+1. (Optional) You can customize the name of the published asset in Power BI. This can be useful if you use versioning as part of the workbook name (e.g., myworkbook_v1.1.xlsx) and you don't want the version number to show up in the name of the published Power BI asset. It has the added advantage that the published asset will not change if the version number changes. (View [specifications](/help/analyze/legacy-report-builder/c-publish-power-bi/specifications-limits.md) here.)
 
 **View the table data in Power BI**
 

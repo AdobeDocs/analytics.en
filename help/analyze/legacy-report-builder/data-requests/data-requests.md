@@ -11,9 +11,9 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
  ![Screenshot showing the Request Wizard: Step 1 form.](assets/rw1_overview.png)
 
-1. **[!UICONTROL Report Suite]**: The list of report suites available to you based on your login credentials. See [Select Report Suites](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL Report Suite]**: The list of report suites available to you based on your login credentials. See [Select Report Suites](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Range Selector**: Lets you select a report suite ID from a cell in Excel. See [Select Report Suites](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **Range Selector**: Lets you select a report suite ID from a cell in Excel. See [Select Report Suites](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **Segment**: Segments are custom subsets of data, or data filtered by rules that you create. Segments are based on hits, visits, and visitors. See the [Analytics Segmentation Guide](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) for more information about segments.
 
@@ -21,11 +21,11 @@ On the Request Wizard: Step 1 form, you select the report suite, report type, se
 
 1. **Allow Publishing List Override**: Publishing lists were a feature in Reports & Analytics, which has been [end-of-lifed](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
-1. **Report Type**: Specifies the base report you want to run in your data request. You run one report per request, and that report can have one-to-many dimensions and one-to-many metrics. Metrics and dimensions for a report type are displayed on the [!UICONTROL Request Wizard; Step 2] interface. See [Select Report Types](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. **Report Type**: Specifies the base report you want to run in your data request. You run one report per request, and that report can have one-to-many dimensions and one-to-many metrics. Metrics and dimensions for a report type are displayed on the [!UICONTROL Request Wizard; Step 2] interface. See [Select Report Types](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 
-1. **Date Ranges**: Defines the time span covered by the request. Several types of request time periods are available, such as preset, fixed, and rolling. The maximum number of periods is 366. You can also choose a date range specified by a cell, and save date ranges as templates for later use.  See [Configuring Report Dates](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) 
+1. **Date Ranges**: Defines the time span covered by the request. Several types of request time periods are available, such as preset, fixed, and rolling. The maximum number of periods is 366. You can also choose a date range specified by a cell, and save date ranges as templates for later use.  See [Configuring Report Dates](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) 
 
-1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md).
+1. **Apply Granularity**: Specifies the level of time-based detail that is included in the report. See [Granularity](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 
 ## Troubleshooting
 

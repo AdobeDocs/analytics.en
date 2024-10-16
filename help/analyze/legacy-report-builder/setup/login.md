@@ -34,7 +34,7 @@ To sign in to Report Builder
 1. Click **[!UICONTROL Sign In]**. You can also sign using the following methods:
 
     * Click **[!UICONTROL Create]**.
-    * Select a request in the Request Manager, then click **[!UICONTROL Add]** or **[!UICONTROL Manage]**. For more information, see [Select a request in the Request Manager](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
+    * Select a request in the Request Manager, then click **[!UICONTROL Add]** or **[!UICONTROL Manage]**. For more information, see [Select a request in the Request Manager](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
     * Double-click a request in Excel.
 
 1. Complete the fields on the [!UICONTROL Login] page, then click **[!UICONTROL OK]**.

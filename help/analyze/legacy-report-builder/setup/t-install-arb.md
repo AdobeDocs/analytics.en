@@ -17,7 +17,7 @@ To install Report Builder:
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   Follow the instructions in [Report Builder Sign-In](/help/analyze/report-builder/setup/login.md).
+   Follow the instructions in [Report Builder Sign-In](/help/analyze/legacy-report-builder/setup/login.md).
 
 ## Permissions
 

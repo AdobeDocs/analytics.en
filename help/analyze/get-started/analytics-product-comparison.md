@@ -30,5 +30,5 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 | **Curation** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/curate.md) | Yes - Project and Virtual report suite | No | No | No | Yes - Virtual report suite only |
 | **Project sharing** <br> [Learn more](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Yes, with project roles | Yes | No | No | No |
 | **Scheduled delivery** | Yes | Yes | Yes | Yes | No |
-| **Delivery destinations** | Email | Email, FTP, SFTP, [publishing to Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC, and Email | Amazon S3, Azure RBAC, Azure SAS, and Google Cloud Platform  | - |
+| **Delivery destinations** | Email | Email, FTP, SFTP, [publishing to Microsoft PowerBI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC, and Email | Amazon S3, Azure RBAC, Azure SAS, and Google Cloud Platform  | - |
 | **Virtual report suite report time processing** <br> [Learn more](/help/components/vrs/vrs-report-time-processing.md) | Yes | No | No | No | Yes |

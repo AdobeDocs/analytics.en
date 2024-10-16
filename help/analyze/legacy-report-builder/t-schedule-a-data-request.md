@@ -45,7 +45,7 @@ For example, you can schedule workbooks to be delivered immediately or on a recu
 |Customize|Lets you customize the date format.|
 |To|Displays your Outlook Address Book, if applicable.|
 |Send to: Email|The email recipient of the workbook.|
-|Power BI|See [Publish Workbook to Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) for more information.|
+|Power BI|See [Publish Workbook to Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) for more information.|
 |Subject|A user-defined description.|
 |Scheduling|Lets you specify when to send the workbook. (Immediately, hourly, daily, weekly, monthly, and yearly.)| 
 
@@ -69,4 +69,4 @@ For example, you can schedule workbooks to be delivered immediately or on a recu
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/report-builder/r-arb-scheduled-reports.md).
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md).

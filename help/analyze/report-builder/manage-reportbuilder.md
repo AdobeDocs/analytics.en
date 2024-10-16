@@ -4,9 +4,7 @@ description: Describes how to use the manage feature in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Manage Data Blocks in Report Builder
 

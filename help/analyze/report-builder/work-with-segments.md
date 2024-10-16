@@ -4,9 +4,7 @@ description: Describes how to use segments in Report Builder for Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Work with Segments in Report Builder
 

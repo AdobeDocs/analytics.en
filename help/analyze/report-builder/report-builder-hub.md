@@ -4,7 +4,7 @@ description: Describes the Report Builder Hub components
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
+solution: Analytics
 ---
 # Report Builder Hub
 

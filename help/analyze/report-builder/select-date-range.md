@@ -4,9 +4,7 @@ description: Describes how to use the calendar, rolling dates, and custom expres
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Select a Date Range
 

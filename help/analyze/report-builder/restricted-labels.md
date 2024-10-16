@@ -4,9 +4,7 @@ description: Describes restricted labels in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Restricted labels in Report Builder
 

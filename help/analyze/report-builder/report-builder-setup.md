@@ -4,9 +4,7 @@ description: Describes how to set up Report Builder in Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Report Builder Set Up
 

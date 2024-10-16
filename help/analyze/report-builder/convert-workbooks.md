@@ -4,9 +4,7 @@ description: Describes how convert your legacy requests to datablocks
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 
 # Convert legacy Report Builder workbooks to datablocks

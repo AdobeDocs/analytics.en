@@ -4,9 +4,7 @@ description: Describes how to use filter dimensions in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Filter Dimensions
 

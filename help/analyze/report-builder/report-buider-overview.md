@@ -4,9 +4,7 @@ description: Describes the new Report Builder functionality
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # About the new Adobe Report Builder
 

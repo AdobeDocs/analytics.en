@@ -4,9 +4,7 @@ description: Describes how to create a data block.
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Create a Data Block
 

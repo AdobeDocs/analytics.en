@@ -4,9 +4,7 @@ description: Describes how to select report suites in Adobe Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Select a report suite
 

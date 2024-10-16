@@ -4,9 +4,7 @@ description: Learn how to use the schedule feature in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
-hide: yes
-hidefromtoc: yes
+solution: Analytics
 ---
 # Schedule Workbooks
 

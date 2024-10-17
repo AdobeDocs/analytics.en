@@ -8,6 +8,8 @@ exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 ---
 # Schedule workbooks
 
+{{legacy-arb}}
+
 You can schedule workbooks, specify advanced delivery options, specify recipients, and view the schedule history. Advanced delivery options let you configure workbooks that you want to send at a specific time or in intervals. You can also specify the file format in which to send the workbook.
 
 For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. The file size limit is 5 MB for a workbook upload.

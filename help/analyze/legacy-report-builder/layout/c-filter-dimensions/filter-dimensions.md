@@ -8,6 +8,8 @@ exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 ---
 # Filter dimensions overview
 
+{{legacy-arb}}
+
 You can filter on dimensions that you add to the Row Labels grid. Filters narrow the data returned by requests and can be applied from the Pivot or Custom Layouts. When you configure dimension filtering from the Pivot Layout, you can additionally specify the number of entries from cell.
 
 The selected filter form is populated based on the element & metric that is selected in the Report Builder request.

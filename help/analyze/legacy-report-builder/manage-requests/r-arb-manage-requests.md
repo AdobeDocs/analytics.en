@@ -8,6 +8,8 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 ---
 # Manage requests - definitions
 
+{{legacy-arb}}
+
 View detais of a request status and use the field descriptions to manage requests in Report Builder.
 
 ## Overview {#section_75C288C945FA4781A4EDF806711A5660}

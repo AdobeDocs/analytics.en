@@ -8,6 +8,8 @@ exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 ---
 # Real-time reports
 
+{{legacy-arb}}
+
 Displays web page traffic and ranks page views in real time, so that you can more quickly understand what is trending on your site.
 
 For real-time reporting, Analytics uses high-frequency metrics and site analytics to visually report traffic and page view trending of dynamic news and retail web sites. Real-time understands trends in your data from minute to minute, within seconds of collection. It collects and streams data to the interface, using real-time correlation and tracking of content and some conversion.

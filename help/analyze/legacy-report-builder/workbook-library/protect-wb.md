@@ -8,6 +8,8 @@ exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 ---
 # Lock and unlock workbooks
 
+{{legacy-arb}}
+
 You can protect all requests in a workbook against adding and editing requests by locking the workbook. This enables offline editing of workbooks by pausing all report requests for more efficient editing.
 
 As an analyst, locking a workbook lets you protect your workbook requests against tampering by other users within your organization. At the same time, those users can still refresh the requests in the workbook.

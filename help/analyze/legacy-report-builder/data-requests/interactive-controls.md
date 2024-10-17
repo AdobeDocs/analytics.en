@@ -7,6 +7,8 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 ---
 # Interactive controls
 
+{{legacy-arb}}
+
 Interactive Controls allow you to edit segments and date ranges for one or more requests directly from the worksheet. This gives you more flexibility when updating Report Builder requests.
 
 Interactive controls were created in response to a common workflow where analysts create workbooks and share these workbooks with the marketing organization. Interactive controls give marketers the ability to modify and refresh requests without having to have in-depth knowledge of how Report Builder works. (Note that in order to refresh a request, the workbook recipient must be a Report Builder user.) These controls work inside of scheduled workbooks. Two types of interactive controls are currently available:

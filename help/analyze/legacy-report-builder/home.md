@@ -1,15 +1,17 @@
 ---
-title: About Report Builder for Adobe Analytics
+title: About Legacy Report Builder for Adobe Analytics
 description: Learn about using Report Builder to bring Adobe Analytics data directly into Microsoft Excel.
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
 ---
-# What is Report Builder?
+# What is Legacy Report Builder?
+
+{{legacy-arb}}
 
  Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
-## Popular help topics
+## Popular help topics  
 
 * [Setup, Installation, and Login](setup/login.md)
 * [Schedule Report Requests](schedule-report-requests.md)

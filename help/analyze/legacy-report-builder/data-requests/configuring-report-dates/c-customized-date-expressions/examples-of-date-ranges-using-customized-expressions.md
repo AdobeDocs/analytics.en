@@ -8,6 +8,8 @@ exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 ---
 # Examples of date ranges using customized expressions
 
+{{legacy-arb}}
+
 Examples, notes, and syntax notes about using date ranges in customized expressions.
 
 The table assumes that today's date is Monday, November 10, 2011, using the Gregorian calendar.

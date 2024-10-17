@@ -8,6 +8,8 @@ exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 ---
 # Use Report Builder functions with Microsoft Excel
 
+{{legacy-arb}}
+
 You can use Report Builder functions to access functionality without accessing the Report Builder user interface.
 
 For example, to automatically refresh Report Builder requests with input filters based on data pulled into Excel from other sources, use the string RefreshRequestsInCellsRange(..) function. All calls are asynchronous and they return immediately and do not wait to fully execute.

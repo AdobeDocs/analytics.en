@@ -8,6 +8,8 @@ exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
 ---
 # Add dependent requests
 
+{{legacy-arb}}
+
 A dependent request is a request that is dependent upon an existing request.
 
 For reports with correlation breakdowns enabled within the report table, to take a closer look at an item,  right-click in the cell and then click **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.

@@ -8,6 +8,8 @@ exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 ---
 # Anomaly Detection{#anomaly-detection}
 
+{{legacy-arb}}
+
 Anomaly detection uses statistical modeling to automatically find unexpected trends in your data. The model analyzes metrics and determines a lower bound, upper bound, and expected range of values. When an unexpected spike or drop occurs, the system alerts you in the report.
 
 Examples of anomalies you might investigate include:

@@ -8,6 +8,8 @@ exl-id: 0ae7887f-29bf-4565-9ca0-20b77a3a70cb
 ---
 # Individual starting or ending dates
 
+{{legacy-arb}}
+
 Abbreviations for starting and ending dates.
 
 * cd-1d = yesterday 

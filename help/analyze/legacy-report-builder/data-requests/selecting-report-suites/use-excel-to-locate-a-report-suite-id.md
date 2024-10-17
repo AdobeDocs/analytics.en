@@ -8,4 +8,6 @@ exl-id: 7437fe49-0da7-458c-bb6d-d891d0e7887a
 ---
 # Use Excel to locate a report suite ID
 
+{{legacy-arb}}
+
 If you do not know a report suite's ID, you can drag and drop the value in the Report Suite field in the Report Suite menu to a cell in your Excel workbook.

@@ -8,6 +8,8 @@ exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 ---
 # Customized Date Considerations
 
+{{legacy-arb}}
+
 Two important considerations when using the Customize Expression to set the date range:
 
 * The day the report (As Of) is run (or requests refreshed) determines what data is available.

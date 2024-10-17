@@ -7,6 +7,8 @@ exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
 ---
 # Configure a real-time request
 
+{{legacy-arb}}
+
 To configure real-time request dates:
 
 1. Ensure that real-time reporting is enabled in the [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).

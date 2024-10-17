@@ -8,6 +8,8 @@ exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 ---
 # Format the date
 
+{{legacy-arb}}
+
 In addition to the standard cell formatting choices available through Excel's Format > Cells (Ctrl+1) feature, you can apply limited formatting to cell ranges with Report Builder. These formatting choices depend on the metric you have chosen.
 
 After you [add dimensions](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.

@@ -7,6 +7,8 @@ exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 ---
 # Scheduled Task Manager
 
+{{legacy-arb}}
+
 The [!UICONTROL Scheduled Task Manager] lets you see a list of existing scheduled reports, along with their recipients, schedule details, and file formats. It also lets you reactivate scheduled workbooks that failed to run.
 
 ## Pausing older scheduled tasks 

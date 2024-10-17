@@ -8,6 +8,8 @@ exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 ---
 # Map metrics and dimensions to cells
 
+{{legacy-arb}}
+
 Before you begin to map items to the spreadsheet, ensure that your spreadsheet is not protected. If the protection scheme for your worksheet prevents any user actions, you will not be able to select cells in the spreadsheet. First, unprotect the sheet and then add cell mappings.
 
 The number of areas and cells to map differs according to the metric you select, the granularity, the date range, and the filters you set. For example, if you select [!UICONTROL Site Metric] > [!UICONTROL Traffic Report], set [!UICONTROL Week] granularity, and set the date range for the [!UICONTROL Last 2 Weeks], you're prompted to map three cells (when using [!UICONTROL Custom Layout]) on the [!UICONTROL Request Wizard: Step 2]. The request retrieves data for week one and data for week two, where each data point value equals the value of a page view. Your third cell serves as the row heading, which you can configure using [!UICONTROL Format Options].

@@ -8,6 +8,8 @@ exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 ---
 # Upgrade Report Builder
 
+{{legacy-arb}}
+
 When you upgrade Report Builder, keep in mind the following guidelines:
 
 *  The old version will be removed.

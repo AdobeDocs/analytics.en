@@ -8,6 +8,8 @@ exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 ---
 # Report Builder toolbar
 
+{{legacy-arb}}
+
 Information to help you understand the function of the buttons on the Report Builder toolbar.
 
 After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]**.

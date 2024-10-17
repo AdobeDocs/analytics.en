@@ -8,6 +8,8 @@ exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 ---
 # Troubleshooting and best practices for Report Builder
 
+{{legacy-arb}}
+
 This article describes troubleshooting and best practices you can use to optimize Report Builder. It also includes a list of error messages that might be displayed.
 
 ## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}

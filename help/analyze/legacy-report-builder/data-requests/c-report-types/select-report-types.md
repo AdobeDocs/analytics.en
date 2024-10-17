@@ -7,6 +7,8 @@ exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
 ---
 # Report types overview
 
+{{legacy-arb}}
+
 You can select the base report type for your data request, such as Site Metrics, Site Content, and Video.
 
 You can choose only one base report type for a range of spreadsheet cells. If you are editing a previously created request, you can change the report type on the [!UICONTROL Request Wizard: Step 1] window without reconfiguring other settings in the request.

@@ -8,6 +8,8 @@ exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
 ---
 # Diagnostic messages
 
+{{legacy-arb}}
+
 Diagnostic messages provide you information about the status of the request when you refresh it.
 
  ![Icon of green checkmark indicating the request refreshed successfully.](assets/icon_notice_success.gif) Indicates that the request has been refreshed successfully since opening this workbook. The diagnostic column provides other information about the request, including the time used by the request, the time to map the request, and whether the request uses previously cached information.

@@ -8,6 +8,8 @@ exl-id: 51785d9a-fdd1-42f1-8f44-4ca135d97d99
 ---
 # Copy worksheets
 
+{{legacy-arb}}
+
 Copy one spreadsheet to another in the same workbook.
 
 1. Right-click a cell anywhere in the spreadsheet and select **[!UICONTROL Copy Worksheet w/Requests]**.

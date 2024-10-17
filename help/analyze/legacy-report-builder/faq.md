@@ -7,6 +7,8 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 ---
 # Report Builder FAQ
 
+{{legacy-arb}}
+
 Frequently asked questions around Report Builder.
 
 ## Can I use the `TODAY()` or `DATERANGE()` function in workbooks? {#today}

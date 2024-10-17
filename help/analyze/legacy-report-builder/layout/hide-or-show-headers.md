@@ -8,6 +8,8 @@ exl-id: d643b55d-dfe8-4f34-bb49-044c1166536c
 ---
 # Hide or show headers
 
+{{legacy-arb}}
+
 This procedure describes how to hide or show headers.
 
 Click **[!UICONTROL Hide/Show]** in the [!UICONTROL Pivot Layout] or [!UICONTROL Custom Layout] output on the [!UICONTROL Request Wizard: Step 2] form.

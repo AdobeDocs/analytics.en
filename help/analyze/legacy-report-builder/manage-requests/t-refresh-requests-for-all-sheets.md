@@ -8,6 +8,8 @@ exl-id: 650c1626-be2d-4e4c-bcd9-bd9665ef9550
 ---
 # Refresh requests for all sheets
 
+{{legacy-arb}}
+
 You can refresh requests for all sheets or for multiple requests.
 
 To refresh all requests, you must have access to all the report suites used in all of the requests. If your credentials give you access to only a subset of all the report suites in use, a warning message is displayed at log-in explaining that some of the requests cannot be refreshed. In this case, if you refresh all the requests, the requests to which you do not have access will not be refreshed.

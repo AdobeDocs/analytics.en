@@ -91,7 +91,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |[Visit Depth](visit-depth.md)|`pathlength`|
 |[Visit Number](visit-number.md)|`visitnumber`|
 |[Zip Code](zip-code.md)|`zip`|
-|[AM/PM](am-pm.md)|`timepartampm`|
+|[AM / PM](am-pm.md)|`timepartampm`|
 |[Browser Height - Bucketed](browser-height.md)|`browserheightbucketed`|
 |[Browser Width - Bucketed](browser-width.md)|`browserwidthbucketed`|
 |[Day](day.md)|`daterangeday`|
@@ -134,7 +134,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |[Time Spent on Page - Bucketed](time-spent-on-page.md)|`averagepagetime`|
 |[Time Spent on Page - Granular](time-spent-on-page.md)|`pagetimeseconds`|
 |[Tracking Opt-out Reason](tracking-opt-out-reason.md)|`optoutreason`|
-|[Weekday/Weekend](weekday-weekend.md)|`timepartweekdayweekend`|
+|[Weekday / Weekend](weekday-weekend.md)|`timepartweekdayweekend`|
 |[Week](week.md)|`daterangeweek`|
 |[Year](year.md)|`daterangeyear`|
 
@@ -280,7 +280,7 @@ Adobe Social is retired.
 
 ### Nielsen Integration
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/apps/ec/101361) on the Adobe Exchange.
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |
@@ -289,7 +289,7 @@ For more information on how to implement this integration, see the [Nielsen Exte
 |Nielsen Segment B|`nielsensegmentb`|
 |Nielsen Segment A|`nielsensegmenta`|
 |Nielsen Content ID|`nielsencontentid`|
-|Nielsen Asset/Program|`nielsenasset`|
+|Nielsen Asset / Program|`nielsenasset`|
 |Nielsen VCID|`nielsenvcid`|
 |Nielsen Opt Out|`nielsenoptout`|
 |Nielsen Client ID + VCID|`nielsenclientidvcid`|

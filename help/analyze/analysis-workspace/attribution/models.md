@@ -70,6 +70,7 @@ Depending on your lookback window and attribution model, channels receive differ
     * Email: 33.8% getting $16.88
     * Social: 18.6%, getting $9.32
     * Paid Search: 13.8%, getting $6.92
+* Using **Participation** and a **visitor lookback window**, $50 is attributed to paid search, social, email, and display. If you view revenue as a trended report instead of a ranked report, you would see the $50 on each respective day that the visitor touched a given marketing channel.
 
 >[!TIP]
 >

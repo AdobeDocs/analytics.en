@@ -8,6 +8,8 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 ---
 # Copy simple requests
 
+{{legacy-arb}}
+
 Copy a simple request rather than a referential request. A simple request is one that contains no references to another request or the contents of a cell.
 
  A [referential request](/help/analyze/legacy-report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. These filters use either matching or trending and are based on results of a prior request or on the user-entered contents of a cell, called an input cell.

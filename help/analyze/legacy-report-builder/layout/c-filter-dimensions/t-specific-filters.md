@@ -8,6 +8,8 @@ exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 ---
 # Specific filters
 
+{{legacy-arb}}
+
 Filters that apply specific dimension terms.
 
 You can search on specific dimension items by creating a filter that matches exact criteria. For example, you can create the following type of filter: page in [!DNL homepage.htm], [!DNL contact_us.html], [!DNL corporate_info.html].

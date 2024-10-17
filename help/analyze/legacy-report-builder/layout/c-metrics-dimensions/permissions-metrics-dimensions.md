@@ -8,6 +8,8 @@ exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 ---
 # User access permissions for dimensions and metrics
 
+{{legacy-arb}}
+
 Adobe Report Builder features permission settings that are similar to those in the Analytics Admin Tools.
 
 As a non-Admin user, you may have previously created workbooks with requests that point to dimensions and metrics that you do not have access to. These permissions are now enforced.

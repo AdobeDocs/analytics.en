@@ -8,6 +8,8 @@ exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 ---
 # Add metrics and dimensions
 
+{{legacy-arb}}
+
 Steps to add metrics and dimensions to a request.
 
 1. Use the [!UICONTROL Request Wizard: Step 1] form to [Create the data request](/help/analyze/legacy-report-builder/data-requests/data-requests.md)  then click **[!UICONTROL Next]**.

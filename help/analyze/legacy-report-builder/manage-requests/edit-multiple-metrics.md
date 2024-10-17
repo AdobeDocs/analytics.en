@@ -7,6 +7,8 @@ exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 ---
 # Edit metrics across multiple requests
 
+{{legacy-arb}}
+
 Add, remove, or replace metrics in a pre-existing request or across a group of requests.
 
 ## Add metrics {#section_3FBDA9668039404895059618D70FCBCD}

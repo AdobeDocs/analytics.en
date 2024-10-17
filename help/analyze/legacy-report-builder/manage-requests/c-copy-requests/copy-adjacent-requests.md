@@ -8,6 +8,8 @@ exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 ---
 # Copy adjacent requests
 
+{{legacy-arb}}
+
 In the same way that you copy and paste requests, you can also relocate requests to another part of the spreadsheet by selecting [!UICONTROL Cut Request] from the shortcut menu.
 
 Cutting a request removes it from its original location and places it in the new location after you select [!UICONTROL Paste Request]. If you change your mind after cutting a particular request and decide to copy or cut a different request from another cell, Report Builder leaves the first request in its original cell and only acts (either copies or cuts) the second.

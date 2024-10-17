@@ -8,6 +8,8 @@ exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
 ---
 # Combine traffic and commerce metrics in the same request
 
+{{legacy-arb}}
+
 You can combine traffic and commerce metric types in one request instead of creating separate requests.
 
 Traffic and commerce metrics are displayed in the same metric category in the Request Wizard: Step 2. The grouped category is labeled **[!UICONTROL Standard]**.

@@ -8,6 +8,8 @@ exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 ---
 # Uninstall Report Builder
 
+{{legacy-arb}}
+
 To uninstall Adobe Report Builder.
 
 1. Ensure that Microsoft Excel is closed.

@@ -8,6 +8,8 @@ exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 ---
 # Configure an anomaly detection request
 
+{{legacy-arb}}
+
 To create an anomaly detection request in Report Builder:
 
 1. Select a trended report, such as a **[!UICONTROL Site Metrics]** > **[!UICONTROL Traffic]** report.

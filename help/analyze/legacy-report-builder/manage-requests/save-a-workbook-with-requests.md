@@ -8,6 +8,8 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 ---
 # Save a workbook with requests
 
+{{legacy-arb}}
+
 When you create reports with embedded requests, you can save them using **File** > **Save** or **File** > **Save As** in Excel. Report Builder detects whether the report contains requests. When you select one of the save options, complete the **Save Workbook As** form.
 
 * As a best practice for any extensive work with Windows applications, Adobe recommends that you save your requests in the spreadsheet often and regularly to avoid an unexpected loss of requests in your worksheet.

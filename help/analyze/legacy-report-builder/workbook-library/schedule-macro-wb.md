@@ -8,6 +8,8 @@ exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
 ---
 # Schedule macro-enabled workbooks
 
+{{legacy-arb}}
+
 Adobe Report Builder supports the .xlsm format that lets you schedule macro-enabled workbooks.
 
 This is useful if you need to safely schedule, process, and receive macro-enabled workbooks.

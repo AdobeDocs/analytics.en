@@ -8,6 +8,8 @@ exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
 ---
 # Refresh a request
 
+{{legacy-arb}}
+
 Refresh requests after you update them with edits, filters, or you need to view more recent data. You can select several requests in a worksheet and refresh them all at the same time.
 
 If you increase a request's date range and then refresh the request, Report Builder adds cells to accommodate the added number of time periods.

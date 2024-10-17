@@ -8,6 +8,8 @@ exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
 ---
 # Specify conditional formatting
 
+{{legacy-arb}}
+
 After you create reports with embedded requests, you can apply conditional formatting to workbook cells.
 
 On the Report Builder Toolbar, click **[!UICONTROL Format]**.

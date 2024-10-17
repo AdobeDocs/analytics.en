@@ -8,6 +8,8 @@ exl-id: e2ab1b8b-30e7-4851-8f13-292613fef016
 ---
 # Request Wizard definitions - fixed dates
 
+{{legacy-arb}}
+
 Definitions for fixed dates in Report Builder.
 
 | Field | Definition |

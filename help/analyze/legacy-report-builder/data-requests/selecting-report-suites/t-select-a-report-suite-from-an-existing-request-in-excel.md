@@ -8,6 +8,8 @@ exl-id: e53f96d2-57e3-4d32-bc08-8e941250297b
 ---
 # Select a report suite from an existing request in Excel
 
+{{legacy-arb}}
+
 Steps to help you select a report suite from the existing request.
 
 1. In Excel, click **[!UICONTROL Add-Ins]**.

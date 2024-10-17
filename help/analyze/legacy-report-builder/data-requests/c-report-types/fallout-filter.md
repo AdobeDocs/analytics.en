@@ -7,6 +7,8 @@ exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 ---
 # Filter a Fallout Report Using the Request Wizard
 
+{{legacy-arb}}
+
 Describes the steps involved in applying filters to a fallout report.
 
 This example shows the Page Fallout report.

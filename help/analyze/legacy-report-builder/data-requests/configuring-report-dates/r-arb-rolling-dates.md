@@ -8,6 +8,8 @@ exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 ---
 # Request Wizard definitions - rolling dates
 
+{{legacy-arb}}
+
 Field definitions for rolling dates in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 

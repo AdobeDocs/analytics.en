@@ -8,6 +8,8 @@ exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 ---
 # Customized date expressions
 
+{{legacy-arb}}
+
 You can specify a complex date range by building a custom expression.
 
 When you build expressions, refer to a calendar to specify the number of weeks and days correctly. Excel has several built-in functions allowing you to calculate the number of days, workdays, months, and years between dates. You can use these functions in formulas to calculate other intervals, such as weeks and quarters.

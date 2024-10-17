@@ -7,6 +7,8 @@ exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
 ---
 # Filter Path Reports by Adding Dependent Requests
 
+{{legacy-arb}}
+
 Describes how to create path reports with predefined filters.
 
 Report Builder does not offer path reports as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. The following reports are available:

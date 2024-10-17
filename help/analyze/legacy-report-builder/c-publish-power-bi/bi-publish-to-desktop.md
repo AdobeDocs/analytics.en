@@ -7,6 +7,8 @@ exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 ---
 # Pull published assets into Power BI Desktop
 
+{{legacy-arb}}
+
 Explains how to pull Report Builder-published assets into Power BI Desktop
 
 ## Prerequisites {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}

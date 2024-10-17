@@ -18,125 +18,125 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |---|---|
 |Analytics for Target|`targetraw`|
 |Audiences ID|`mcaudiences`|
-|Browser|`browser`|
-|Browser Type|`browsertype`|
-|Category|`category`|
-|Cities|`geocity`|
-|Color Depth|`colordepth`|
-|Connection Type|`connectiontype`|
-|Cookie Support|`cookie`|
-|Countries|`geocountry`|
-|Customer Loyalty|`customerloyalty`|
-|Custom Conversion Vars|`evar1`, `evar2`, etc.|
-|Custom Insight Vars|`prop1`, `prop2`, etc.|
-|Custom Link|`customlink`|
-|Days Before First Purchase|`daysbeforefirstpurchase`|
-|Days Since Last Purchase|`dayssincelastpurchase`|
-|Domain|`filtereddomain`|
-|Download Link|`downloadlink`|
-|Entry Page|`entrypage`|
-|Entry Page Original|`entrypageoriginal`|
-|Exit Link|`exitlink`|
-|First Touch Channel|`firsttouchchannel`|
-|First Touch Channel Detail|`firsttouchchanneldetail`|
-|Java enabled|`javaenabled`|
-|Language|`language`|
-|Last Touch Channel|`lasttouchchannel`|
-|Last Touch Channel Detail|`lasttouchchanneldetail`|
+|[Browser](browser.md)|`browser`|
+|[Browser Type](browser-type.md)|`browsertype`|
+|[Category](category.md)|`category`|
+|[Cities](cities.md)|`geocity`|
+|[Color Depth](color-depth.md)|`colordepth`|
+|[Connection Type](connection-type.md)|`connectiontype`|
+|[Cookie Support](cookie-support.md)|`cookie`|
+|[Countries](countries.md)|`geocountry`|
+|[Customer Loyalty](customer-loyalty.md)|`customerloyalty`|
+|[Custom Conversion Vars](evar.md)|`evar1`, `evar2`, etc.|
+|[Custom Insight Vars](prop.md)|`prop1`, `prop2`, etc.|
+|[Custom Link](custom-link.md)|`customlink`|
+|[Days Before First Purchase](days-before-first-purchase.md)|`daysbeforefirstpurchase`|
+|[Days Since Last Purchase](days-since-last-purchase.md)|`dayssincelastpurchase`|
+|[Domain](domain.md)|`filtereddomain`|
+|[Download Link](download-link.md)|`downloadlink`|
+|[Entry Page](entry-dimensions.md)|`entrypage`|
+|[Entry Page Original](entry-dimensions.md)|`entrypageoriginal`|
+|[Exit Link](exit-link.md)|`exitlink`|
+|[First Touch Channel](first-touch-channel.md)|`firsttouchchannel`|
+|[First Touch Channel Detail](first-touch-detail.md)|`firsttouchchanneldetail`|
+|[Java enabled](java-enabled.md)|`javaenabled`|
+|[Language](language.md)|`language`|
+|[Last Touch Channel](last-touch-channel.md)|`lasttouchchannel`|
+|[Last Touch Channel Detail](last-touch-detail.md)|`lasttouchchanneldetail`|
 |List Variables|`listvariables`|
-|Marketing Channel|`marketingchannel`|
-|Mobile Audio Support|`mobileaudiosupport`|
-|Mobile Carrier|`mobilecarrier`|
-|Mobile Color Depth|`mobilecolordepth`|
-|Mobile Cookie Support|`mobilecookiesupport`|
-|Mobile Device|`mobiledevicename`|
-|Mobile Device Type|`mobiledevicetype`|
-|Mobile Max Email Length|`mobileemaillength`|
-|Mobile Image Support|`mobileimagesupport`|
-|Mobile Manufacturer|`mobilemanufacturer`|
-|Mobile Operating System (deprecated)|`mobileos`|
-|Mobile Screen Height|`mobilescreenheight`|
-|Mobile Screen Size|`mobilescreensize`|
-|Mobile Screen Width|`mobilescreenwidth`|
-|Mobile Max Browser URL Length|`mobileurllength`|
-|Mobile Video Support|`mobilevideosupport`|
-|Monitor Resolution|`monitorresolution`|
-|Operating Systems|`operatingsystem`|
-|Original Referring Domain|`referringdomainoriginal`|
-|Page|`page`|
-|Pages Not Found|`pagesnotfound`|
-|Product|`product`|
-|Referrer|`referrer`|
-|Referrer Type|`referrertype`|
-|Referring Domain|`referringdomain`|
-|Regions|`georegion`|
-|Return Frequency|`returnfrequency`|
+|[Marketing Channel](marketing-channel.md)|`marketingchannel`|
+|[Mobile Audio Support](mobile-dimensions.md)|`mobileaudiosupport`|
+|[Mobile Carrier](mobile-dimensions.md)|`mobilecarrier`|
+|[Mobile Color Depth](mobile-dimensions.md)|`mobilecolordepth`|
+|[Mobile Cookie Support](mobile-dimensions.md)|`mobilecookiesupport`|
+|[Mobile Device](mobile-dimensions.md)|`mobiledevicename`|
+|[Mobile Device Type](mobile-dimensions.md)|`mobiledevicetype`|
+|[Mobile Max Email Length](mobile-dimensions.md)|`mobileemaillength`|
+|[Mobile Image Support](mobile-dimensions.md)|`mobileimagesupport`|
+|[Mobile Manufacturer](mobile-dimensions.md)|`mobilemanufacturer`|
+|[Mobile Operating System (deprecated)](mobile-dimensions.md)|`mobileos`|
+|[Mobile Screen Height](mobile-dimensions.md)|`mobilescreenheight`|
+|[Mobile Screen Size](mobile-dimensions.md)|`mobilescreensize`|
+|[Mobile Screen Width](mobile-dimensions.md)|`mobilescreenwidth`|
+|[Mobile Max Browser URL Length](mobile-dimensions.md)|`mobileurllength`|
+|[Mobile Video Support](mobile-dimensions.md)|`mobilevideosupport`|
+|[Monitor Resolution](monitor-resolution.md)|`monitorresolution`|
+|[Operating Systems](operating-systems.md)|`operatingsystem`|
+|[Original Referring Domain](original-referring-domain.md)|`referringdomainoriginal`|
+|[Page](page.md)|`page`|
+|[Pages Not Found](pages-not-found.md)|`pagesnotfound`|
+|[Product](product.md)|`product`|
+|[Referrer](referrer.md)|`referrer`|
+|[Referrer Type](referrer-type.md)|`referrertype`|
+|[Referring Domain](referring-domain.md)|`referringdomain`|
+|[Regions](regions.md)|`georegion`|
+|[Return Frequency](return-frequency.md)|`returnfrequency`|
 |SC-TnT|`tntbase`|
-|Search Engine|`searchengine`|
-|Search Keyword|`searchenginekeyword`|
-|Search Engine - Natural|`searchenginenatural`|
-|Search Engine - Paid|`searchenginepaid`|
-|Search Keyword - Natural|`searchenginenaturalkeyword`|
-|Search Keyword - Paid|`searchenginepaidkeyword`|
-|All Search Page Rank|`searchenginepagerank`|
-|Server|`server`|
-|Single Page Visits|`singlepagevisits`|
-|Site Section|`sitesections`|
-|Time Spent per Visit - Granular|`sitetime`|
-|Tracking Code|`campaign`|
-|US DMA|`geodma`|
-|US States|`state`|
-|Time Prior to Event|`timeprior`|
-|Time Spent per Visit - Bucketed|`timespent`|
-|Visit Depth|`pathlength`|
-|Visit Number|`visitnumber`|
-|Zip Code|`zip`|
-|AM/PM|`timepartampm`|
-|Browser Height - Bucketed|`browserheightbucketed`|
-|Browser Width - Bucketed|`browserwidthbucketed`|
-|Day|`daterangeday`|
-|Day of Month|`timepartdayofmonth`|
-|Day of Week|`dayofweek`|
-|Day of Week|`timepartdayofweek`|
-|Day of Year|`timepartdayofyear`|
-|Days Since Last Visit|`dayssincelastvisit`|
-|Entry Custom Insights|`entryprops`|
-|Entry List Variables|`entrylistvariables`|
-|Entry Server|`entryserver`|
-|Entry Site Section|`entrysitesections`|
-|Exit Custom Insights|`exitprops`|
-|Exit List Variables|`exitlistvariables`|
-|Exit Page|`exitpage`|
-|Exit Server|`exitserver`|
-|Exit Site Section|`exitsitesections`|
-|Hit Depth|`hitdepth`|
-|Hit Type|`hittype`|
-|Hour|`daterangehour`|
-|Hour of Day|`timeparthourofday`|
-|Marketing Channel Detail|`marketingchanneldetail`|
-|Minute|`daterangeminute`|
-|Mobile Max Bookmark Length|`mobilebookmarklength`|
-|Mobile Device Number|`mobiledevicenumber`|
-|Mobile DRM|`mobiledrm`|
-|Mobile Information Services|`mobileinformationservices`|
-|Mobile Java VM|`mobilejavavm`|
-|Mobile Mail Decoration|`mobilemaildecoration`|
-|Mobile Net Protocols|`mobilenetprotocols`|
-|Mobile Push To Talk|`mobilepushtotalk`|
-|Month|`daterangemonth`|
-|Month of Year|`timepartmonthofyear`|
-|Operating System Types|`operatingsystemgroup`|
-|Paid Search|`paidsearch`|
-|Persistent Cookie Support|`persistentcookie`|
-|Quarter|`daterangequarter`|
-|Quarter of Year|`timepartquarterofyear`|
+|[Search Engine](search-engine.md)|`searchengine`|
+|[Search Keyword](search-keyword.md)|`searchenginekeyword`|
+|[Search Engine - Natural](search-engine.md)|`searchenginenatural`|
+|[Search Engine - Paid](search-engine.md)|`searchenginepaid`|
+|[Search Keyword - Natural](search-keyword.md)|`searchenginenaturalkeyword`|
+|[Search Keyword - Paid](search-keyword.md)|`searchenginepaidkeyword`|
+|[All Search Page Rank](all-search-page-rank.md)|`searchenginepagerank`|
+|[Server](server.md)|`server`|
+|[Single Page Visits](single-page-visits.md)|`singlepagevisits`|
+|[Site Section](site-section.md)|`sitesections`|
+|[Time Spent per Visit - Granular](time-spent-per-visit.md)|`sitetime`|
+|[Tracking Code](tracking-code.md)|`campaign`|
+|[US DMA](us-dma.md)|`geodma`|
+|[US States](us-states.md)|`state`|
+|[Time Prior to Event](time-prior-to-event.md)|`timeprior`|
+|[Time Spent per Visit - Bucketed](time-spent-per-visit.md)|`timespent`|
+|[Visit Depth](visit-depth.md)|`pathlength`|
+|[Visit Number](visit-number.md)|`visitnumber`|
+|[Zip Code](zip-code.md)|`zip`|
+|[AM/PM](am-pm.md)|`timepartampm`|
+|[Browser Height - Bucketed](browser-height.md)|`browserheightbucketed`|
+|[Browser Width - Bucketed](browser-width.md)|`browserwidthbucketed`|
+|[Day](day.md)|`daterangeday`|
+|[Day of Month](day-of-month.md)|`timepartdayofmonth`|
+|[Day of Week](day-of-week.md)|`dayofweek`|
+|[Day of Week](day-of-week.md)|`timepartdayofweek`|
+|[Day of Year](day-of-year.md)|`timepartdayofyear`|
+|[Days Since Last Visit](days-since-last-visit.md)|`dayssincelastvisit`|
+|[Entry Custom Insights](entry-dimensions.md)|`entryprops`|
+|[Entry List Variables](entry-dimensions.md)|`entrylistvariables`|
+|[Entry Server](entry-dimensions.md)|`entryserver`|
+|[Entry Site Section](entry-dimensions.md)|`entrysitesections`|
+|[Exit Custom Insights](exit-dimensions.md)|`exitprops`|
+|[Exit List Variables](exit-dimensions.md)|`exitlistvariables`|
+|[Exit Page](exit-dimensions.md)|`exitpage`|
+|[Exit Server](exit-dimensions.md)|`exitserver`|
+|[Exit Site Section](exit-dimensions.md)|`exitsitesections`|
+|[Hit Depth](hit-depth.md)|`hitdepth`|
+|[Hit Type](hit-type.md)|`hittype`|
+|[Hour](hour.md)|`daterangehour`|
+|[Hour of Day](hour-of-day.md)|`timeparthourofday`|
+|[Marketing Channel Detail](marketing-detail.md)|`marketingchanneldetail`|
+|[Minute](minute.md)|`daterangeminute`|
+|[Mobile Max Bookmark Length](mobile-dimensions.md)|`mobilebookmarklength`|
+|[Mobile Device Number](mobile-dimensions.md)|`mobiledevicenumber`|
+|[Mobile DRM](mobile-dimensions.md)|`mobiledrm`|
+|[Mobile Information Services](mobile-dimensions.md)|`mobileinformationservices`|
+|[Mobile Java VM](mobile-dimensions.md)|`mobilejavavm`|
+|[Mobile Mail Decoration](mobile-dimensions.md)|`mobilemaildecoration`|
+|[Mobile Net Protocols](mobile-dimensions.md)|`mobilenetprotocols`|
+|[Mobile Push To Talk](mobile-dimensions.md)|`mobilepushtotalk`|
+|[Month](month.md)|`daterangemonth`|
+|[Month of Year](month-of-year.md)|`timepartmonthofyear`|
+|[Operating System Types](operating-system-types.md)|`operatingsystemgroup`|
+|[Paid Search](paid-search.md)|`paidsearch`|
+|[Persistent Cookie Support](persistent-cookie-support.md)|`persistentcookie`|
+|[Quarter](quarter.md)|`daterangequarter`|
+|[Quarter of Year](quarter-of-year.md)|`timepartquarterofyear`|
 |Survey|`surveybase`|
-|Time Spent on Page - Bucketed|`averagepagetime`|
-|Time Spent on Page - Granular|`pagetimeseconds`|
-|Tracking Opt-out Reason|`optoutreason`|
-|Weekday/Weekend|`timepartweekdayweekend`|
-|Week|`daterangeweek`|
-|Year|`daterangeyear`|
+|[Time Spent on Page - Bucketed](time-spent-on-page.md)|`averagepagetime`|
+|[Time Spent on Page - Granular](time-spent-on-page.md)|`pagetimeseconds`|
+|[Tracking Opt-out Reason](tracking-opt-out-reason.md)|`optoutreason`|
+|[Weekday/Weekend](weekday-weekend.md)|`timepartweekdayweekend`|
+|[Week](week.md)|`daterangeweek`|
+|[Year](year.md)|`daterangeyear`|
 
 ## Content-aware dimensions supported only in Analysis Workspace
 
@@ -151,57 +151,59 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 ## Content-aware dimensions supported by Analysis Workspace
 
-### Video (the Streaming Media Collection Add-on)
+### Streaming Media collection add-on dimensions
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |
-|Content|`video`|
-|Content Segment|`videosegment`|
-|Content Type|`videocontenttype`|
-|Ad Player Name|`videoadplayername`|
-|Ad in Pod Position|`videoadinpod`|
-|Dropped Frames|`videoqoedroppedframecountevar`|
-|Errors|`videoqoeerrorcountevar`|
-|Average Bitrate|`videoqoebitrateaverageevar`|
-|Bitrate Changes|`videoqoebitratechangecountevar`|
-|Total Buffer Duration|`videoqoebuffertimeevar`|
-|Buffer Events|`videoqoebuffercountevar`|
-|Time to Start|`videoqoetimetostartevar`|
-|Ad Pod|`videoadpod`|
-|Media Path|`videopath`|
-|Ad|`videoad`|
-|Content Player Name|`videoplayername`|
-|Content Channel|`videochannel`|
-|Chapter|`videochapter`|
-|Content Name (variable)|`videoname`|
-|Content Length (variable)|`videolength`|
-|Ad Name (variable)|`videoadname`|
-|Ad Length (variable)|`videoadlength`|
-|Show|`videoshow`|
-|Season|`videoseason`|
-|Episode|`videoepisode`|
-|Network|`videonetwork`|
-|Show Type|`videoshowtype`|
-|Ad Loads|`videoadload`|
-|MVPD|`videomvpd`|
-|Day Part|`videodaypart`|
-|Advertiser|`videoadadvertiser`|
-|Campaign ID|`videoadcampaign`|
-|Genre|`videogenre`|
-|Stream Type|`videostreamtype`|
-|Player SDK Error IDs|`videoqoeplayersdkerrors`|
-|External Error IDs|`videoqoeextneralerrors`|
-|Media Feed Type|`videofeedtype`|
-|Entry Media Path|`entryvideopath`|
-|Exit Media Path|`exitvideopath`|
-|Entry Genre|`entryvideogenre`|
-|Exit Genre|`exitvideogenre`|
-|Entry Player SDK Error IDs|`entryvideoqoeplayersdkerrors`|
-|Exit Player SDK Error IDs|`exitvideoqoeplayersdkerrors`|
-|Entry External Error IDs|`entryvideoqoeextneralerrors`|
-|Exit External Error IDs|`exitvideoqoeextneralerrors`|
+|[Content](sm-core.md)|`video`|
+|[Content Segment](sm-core.md)|`videosegment`|
+|[Content Type](sm-core.md)|`videocontenttype`|
+|[Ad Player Name](sm-ads.md)|`videoadplayername`|
+|[Ad in Pod Position](sm-ads.md)|`videoadinpod`|
+|[Dropped Frames](sm-quality.md)|`videoqoedroppedframecountevar`|
+|[Errors](sm-quality.md)|`videoqoeerrorcountevar`|
+|[Average Bitrate](sm-quality.md)|`videoqoebitrateaverageevar`|
+|[Bitrate Changes](sm-quality.md)|`videoqoebitratechangecountevar`|
+|[Total Buffer Duration](sm-quality.md)|`videoqoebuffertimeevar`|
+|[Buffer Events](sm-quality.md)|`videoqoebuffercountevar`|
+|[Time to Start](sm-quality.md)|`videoqoetimetostartevar`|
+|[Ad Pod](sm-ads.md)|`videoadpod`|
+|[Media Path](sm-core.md)|`videopath`|
+|[Ad](sm-ads.md)|`videoad`|
+|[Content Player Name](sm-core.md)|`videoplayername`|
+|[Content Channel](sm-core.md)|`videochannel`|
+|[Chapter](sm-chapters.md)|`videochapter`|
+|[Content Name (variable)](sm-core.md)|`videoname`|
+|[Content Length (variable)](sm-core.md)|`videolength`|
+|[Ad Name (variable)](sm-ads.md)|`videoadname`|
+|[Ad Length (variable)](sm-ads.md)|`videoadlength`|
+|[Show](sm-video-metadata.md)|`videoshow`|
+|[Season](sm-video-metadata.md)|`videoseason`|
+|[Episode](sm-video-metadata.md)|`videoepisode`|
+|[Network](sm-video-metadata.md)|`videonetwork`|
+|[Show Type](sm-video-metadata.md)|`videoshowtype`|
+|[Ad Loads](sm-ads.md)|`videoadload`|
+|[MVPD](sm-video-metadata.md)|`videomvpd`|
+|[Day Part](sm-video-metadata.md)|`videodaypart`|
+|[Advertiser](sm-ads.md)|`videoadadvertiser`|
+|[Campaign ID](sm-ads.md)|`videoadcampaign`|
+|[Genre](sm-video-metadata.md)|`videogenre`|
+|[Stream Type](sm-core.md)|`videostreamtype`|
+|[Player SDK Error IDs](sm-quality.md)|`videoqoeplayersdkerrors`|
+|[External Error IDs](sm-quality.md)|`videoqoeextneralerrors`|
+|[Media Feed Type](sm-video-metadata.md)|`videofeedtype`|
+|[Entry Media Path](entry-dimensions.md)|`entryvideopath`|
+|[Exit Media Path](exit-dimensions.md)|`exitvideopath`|
+|[Entry Genre](entry-dimensions.md)|`entryvideogenre`|
+|[Exit Genre](exit-dimensions.md)|`exitvideogenre`|
+|[Entry Player SDK Error IDs](entry-dimensions.md)|`entryvideoqoeplayersdkerrors`|
+|[Exit Player SDK Error IDs](exit-dimensions.md)|`exitvideoqoeplayersdkerrors`|
+|[Entry External Error IDs](entry-dimensions.md)|`entryvideoqoeextneralerrors`|
+|[Exit External Error IDs](exit-dimensions.md)|`exitvideoqoeextneralerrors`|
 
 ### Adobe Social
+
+Adobe Social is retired.
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |
@@ -227,38 +229,38 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |
-|First Launch Date|`mobileinstalldate`|
-|App Id|`mobileappid`|
-|Launch Number|`mobilelaunchnumber`|
-|Days Since First Use|`mobiledayssincefirstuse`|
-|Days Since Last Use|`mobiledayssincelastuse`|
-|Hour of Day (SDK)|`mobilehourofday`|
-|Day of Week (SDK)|`mobiledayofweek`|
-|Operating System (SDK)|`mobileosenvironment`|
-|Days Since Last Upgrade|`mobiledayssincelastupgrade`|
-|Launches Since Last Upgrade|`mobilelaunchessincelastupgrade`|
-|Device Name (SDK)|`mobiledevice`|
-|Operating System Version (SDK)|`mobileosversion`|
-|Beacon Major|`mobilebeaconmajor`|
-|Beacon Minor|`mobilebeaconminor`|
-|Beacon UUID|`mobilebeaconuuid`|
-|Beacon Proximity|`mobilebeaconproximity`|
-|Location (down to 10 km)|`latlon1`|
-|Location (down to 100 m)|`latlon23`|
-|Location (down to 1 m)|`latlon45`|
-|Point of Interest Name|`pointofinterest`|
-|Distance to Point of Interest Center|`pointofinterestdistance`|
-|Location Accuracy|`mobileplaceaccuracy`|
-|Place Category|`mobileplacecategory`|
-|Place ID|`mobileplaceid`|
-|Entry Beacon Major|`entrymobilebeaconmajor`|
-|Exit Beacon Major|`exitmobilebeaconmajor`|
-|Entry Beacon Minor|`entrymobilebeaconminor`|
-|Exit Beacon Minor|`exitmobilebeaconminor`|
-|Entry Beacon UUID|`entrymobilebeaconuuid`|
-|Exit Beacon UUID|`exitmobilebeaconuuid`|
-|Entry Beacon Proximity|`entrymobilebeaconproximity`|
-|Exit Beacon Proximity|`exitmobilebeaconproximity`|
+|[First Launch Date](lifecycle-dimensions.md)|`mobileinstalldate`|
+|[App Id](lifecycle-dimensions.md)|`mobileappid`|
+|[Launch Number](lifecycle-dimensions.md)|`mobilelaunchnumber`|
+|[Days Since First Use](lifecycle-dimensions.md)|`mobiledayssincefirstuse`|
+|[Days Since Last Use](lifecycle-dimensions.md)|`mobiledayssincelastuse`|
+|[Hour of Day (SDK)](lifecycle-dimensions.md)|`mobilehourofday`|
+|[Day of Week (SDK)](lifecycle-dimensions.md)|`mobiledayofweek`|
+|[Operating System (SDK)](lifecycle-dimensions.md)|`mobileosenvironment`|
+|[Days Since Last Upgrade](lifecycle-dimensions.md)|`mobiledayssincelastupgrade`|
+|[Launches Since Last Upgrade](lifecycle-dimensions.md)|`mobilelaunchessincelastupgrade`|
+|[Device Name (SDK)](lifecycle-dimensions.md)|`mobiledevice`|
+|[Operating System Version (SDK)](lifecycle-dimensions.md)|`mobileosversion`|
+|[Beacon Major](lifecycle-dimensions.md)|`mobilebeaconmajor`|
+|[Beacon Minor](lifecycle-dimensions.md)|`mobilebeaconminor`|
+|[Beacon UUID](lifecycle-dimensions.md)|`mobilebeaconuuid`|
+|[Beacon Proximity](lifecycle-dimensions.md)|`mobilebeaconproximity`|
+|[Location (down to 10 km)](lifecycle-dimensions.md)|`latlon1`|
+|[Location (down to 100 m)](lifecycle-dimensions.md)|`latlon23`|
+|[Location (down to 1 m)](lifecycle-dimensions.md)|`latlon45`|
+|[Point of Interest Name](lifecycle-dimensions.md)|`pointofinterest`|
+|[Distance to Point of Interest Center](lifecycle-dimensions.md)|`pointofinterestdistance`|
+|[Location Accuracy](lifecycle-dimensions.md)|`mobileplaceaccuracy`|
+|[Place Category](lifecycle-dimensions.md)|`mobileplacecategory`|
+|[Place ID](lifecycle-dimensions.md)|`mobileplaceid`|
+|[Entry Beacon Major](lifecycle-dimensions.md)|`entrymobilebeaconmajor`|
+|[Exit Beacon Major](lifecycle-dimensions.md)|`exitmobilebeaconmajor`|
+|[Entry Beacon Minor](lifecycle-dimensions.md)|`entrymobilebeaconminor`|
+|[Exit Beacon Minor](lifecycle-dimensions.md)|`exitmobilebeaconminor`|
+|[Entry Beacon UUID](lifecycle-dimensions.md)|`entrymobilebeaconuuid`|
+|[Exit Beacon UUID](lifecycle-dimensions.md)|`exitmobilebeaconuuid`|
+|[Entry Beacon Proximity](lifecycle-dimensions.md)|`entrymobilebeaconproximity`|
+|[Exit Beacon Proximity](lifecycle-dimensions.md)|`exitmobilebeaconproximity`|
 
 ### Adobe Advertising Cloud (AMO)
 
@@ -271,10 +273,10 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |
-|Activity Map Link By Region|`clickmaplinkbyregion`|
-|Activity Map Region|`clickmapregion`|
-|Activity Map Link|`clickmaplink`|
-|Activity Map Page|`clickmappage`|
+|[Activity Map Link By Region](activity-map-link-by-region.md)|`clickmaplinkbyregion`|
+|[Activity Map Region](activity-map-region.md)|`clickmapregion`|
+|[Activity Map Link](activity-map-link.md)|`clickmaplink`|
+|[Activity Map Page](activity-map-page.md)|`clickmappage`|
 
 ### Nielsen Integration
 

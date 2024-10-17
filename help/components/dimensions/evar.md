@@ -8,15 +8,15 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 
 *This help page describes how eVars work as a [dimension](overview.md). For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
-eVars are custom variables that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars], additional to the default dimension available with Adobe Analytics, like 'Page Name', 'Referring Domain', 'Channel'. See [Dimension Overview](overview.md) for more information.  
+eVars are custom variables that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars]. See [Dimensions overview](overview.md) for more information.  
 
-By default, eVars persist beyond the hit they are set on. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. See below for an example of eVar definitions in the Conversion variables UI.
+By default, eVars persist beyond the hit that they are set on. See the sections [How eVars work](#how-evars-work) and [How eVars tie to metrics](#how-evars-tie-to-metrics) below for details on how eVar persistence operates on Adobe's architecture. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. The following image shows an example of eVar definitions in the Conversion variables interface:
 
 ![Evar examples](assets/evars-sample.png)
 
 The number of available eVars depends on your contract with Adobe. Up to 250 eVars are available if your contract with Adobe supports it.
 
-The (upper or lower) case used in reporting is based on the first value the backend system registers. This value could either be the first instance ever seen or vary by some time period (e.g., monthly), depending on the variety and quantity of data associated with the report suite.
+The (upper or lower) case used in reports is based on the first value that you send in a given calendar month. The case can change depending on the reporting window and the case of an eVar value collected first during that time.
 
 ## Populate eVars with data
 
@@ -39,7 +39,7 @@ Under almost all circumstances, the `post_evar` column is used in reports.
 
 ### How eVars tie to metrics
 
-Success events and eVars are frequently defined in different image requests. The `post_evar` column allows eVar values to tie themselves to events, showing data in reporting. Take the following visit for example:
+Success events and eVars are frequently defined at different times. The `post_evar` column allows eVar values to tie themselves to events, showing data in reporting. Take the following visit for example:
 
 1. A visitor arrives to your site on your home page.
 2. They search for "cats" using your site's internal search. Your implementation uses eVar1 for internal search.
@@ -72,8 +72,10 @@ Tools in Adobe Analytics, such as Analysis Workspace, work off of this collected
 
 Analysis Workspace pulls this report using the following logic:
 
-* Look through all `event_list` values, and pick out all the hits with `purchase` in them.
-* Out of those hits, display the `post_evar1` value.
+* Look through all `event_list` values, and pick out all of the rows with `purchase` in them.
+* Out of those rows, display the `post_evar1` value.
+
+The resulting report shows each different value contained in `post_evar1` on the left, and how many orders were attributed to that value on the right.
 
 ### The importance of allocation and expiration
 

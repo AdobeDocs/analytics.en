@@ -10,10 +10,14 @@ solution: Analytics
 
 The new Javascript Report Builder Add-in that was initially available only in Customer Journey Analytics is now also being introduced in Adobe Analytics. This new version has several benefits:
 
-- Support for Microsoft Excel on Mac, Microsoft Windows, and web browsers
-- Improved user experience
+- Find insights in Excel faster and easier with improved workflows for data block creation and management, including greater data block flexibility
+- Cross-platform: no more logging into your VM to use Report Builder as we now support PC, Mac, and Excel Online
+- Less time waiting for data blocks to return, thanks to API 2.0 upgrade
 - Enhanced speed
-- Support for Analytics 2.0 API
+
+>[!NOTE]
+>
+>Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
 
 Users of the Legacy Report Builder tool can [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder.
 

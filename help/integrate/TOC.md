@@ -37,5 +37,4 @@ user-guide-description: Configure integrations with other Adobe Experience Cloud
 + [Adobe Campaign reporting in Adobe Analytics](adobe-campaign.md)
 + [Integrate Adobe Analytics data with Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets reporting](aem-assets-reporting.md)
-+ [Activity Map reporting](activitmap-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)

@@ -74,3 +74,10 @@ The following time-based dimensions are supported. However, the output of dates 
 * Day
 * Hour
 * Minute
+
+## Segments as dimensions in Data Warehouse
+
+When you use a segment as a dimension in Data Warehouse, the report returns a column containing `"0"` or `"1"`:
+
+* **`"0"`**: The dimension item did not meet the segment's criteria.
+* **`"1"`**: The dimension item met the segment's criteria.

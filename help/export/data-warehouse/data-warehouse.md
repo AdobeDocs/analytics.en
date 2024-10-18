@@ -41,6 +41,3 @@ For information about how to create a Data Warehouse request, see [Create a Data
 
 For information about how to manage Data Warehouse requests, see [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md).
 
-## FAQ
-
-For a list of frequently asked questions, see [Data Warehouse FAQ](/help/export/data-warehouse/faq.md).

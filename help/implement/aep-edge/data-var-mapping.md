@@ -1,24 +1,25 @@
 ---
 title: Data object variable mapping to Adobe Analytics
-description: View which data object fields that Edge automatically maps to Analytics variables.
+description: View which data object fields Experience Platform Edge automatically maps to Analytics variables.
 feature: Implementation Basics
 role: Admin, Developer
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 ---
 # Data object variable mapping to Adobe Analytics
 
 The following table shows the data object variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these data object field paths, no additional configuration is necessary to send data to Adobe Analytics.
 
-Use of these fields are recommended if you intend to use Customer Journey Analytics in the future. This implementation mathod allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) to point data object fields to their respective XDM fields.
+Use of these fields is recommended if you intend to use Customer Journey Analytics in the future. This implementation method allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) to point data object fields to their respective XDM fields.
 
 ## Value priorities
 
-Most data object fields in this table coincide with a [mapped XDM field](xdm-var-mapping.md). If you set both a given `data` object field and its respective XDM field, the data object field takes priority. If you use both the XDM object field and the data object field, Adobe recommends setting custom events using the data object field. If the field `data.__adobe.analytics.events` is present, it overwrites all XDM object fields related commerce and custom events.
+Most data object fields in this table coincide with a [mapped XDM field](xdm-var-mapping.md). If you set both a given data object field and its respective XDM field, the data object field takes priority. For example, if the field `data.__adobe.analytics.events` is present, it overwrites all event-related XDM object fields.
 
 Some data object fields also support their respective [Query parameter value](../validate/query-parameters.md) as shorthand values. You can use standard data object fields and shorthand data object fields interchangeably, as long as they are each for unique variables. Avoid setting both a standard data object field and its respective shorthand data object field at the same time. Adobe cannot guarantee which field takes priority.
 
 ## Data object field mapping
 
-Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md).
+Previous updates to this table can be found on this page's [commit history on GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Similarly to AppMeasurement variables, all data object fields are case-sensitive.
 
 | Data object field path | Analytics variable and description |
 | --- | --- |
@@ -50,7 +51,6 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `data.__adobe.analytics.referrer` | The [Referrer](/help/components/dimensions/referrer.md) dimension. |
 | `data.__adobe.analytics.resolution` | The [Monitor resolution](../../components/dimensions/monitor-resolution.md) dimension. The shorthand field `data.__adobe.analytics.s` is also supported. |
 | `data.__adobe.analytics.server` | The [Server](/help/components/dimensions/server.md) dimension. |
-| `data.__adobe.analytics.tnta` | Used in A4T integrations. |
 | `data.__adobe.analytics.transactionID` | The [`transactionID`](../vars/page-vars/transactionid.md) implementation variable. The shorthand field `data.__adobe.analytics.xact` is also supported. |
 | `data.__adobe.analytics.zip` | The [Zip code](../../components/dimensions/zip-code.md) dimension. |
 

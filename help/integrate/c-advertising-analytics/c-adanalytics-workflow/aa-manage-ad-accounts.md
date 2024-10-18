@@ -6,69 +6,71 @@ exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 ---
 # Manage advertising accounts
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+You can access the Advertising accounts interface by navigating to **[!UICONTROL Admin]** > **[!UICONTROL Advertising accounts]**.
 
-![](assets/manage_ad_accounts.png)
+![Advertising Accounts](assets/manage-ad-accounts.png)
 
-<table id="table_BE318026CF024E94A885EED86AA7077F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Actions</b> </p> </td> 
-   <td colname="col2"> <p><b>Note: Actions display only if you have selected at least one advertising account. </b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ Add </p> </td> 
-   <td colname="col2"> <p>Takes you to the <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  > Set Up Advertising Account</a> UI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rename </p> </td> 
-   <td colname="col2"> <p>Renames this account in all the report suites that it is mapped to. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map Report Suites </p> </td> 
-   <td colname="col2"> <p>Lets you edit the report suite mappings. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pause </p> </td> 
-   <td colname="col2"> <p>Deactivates the account. To activate it again, click <span class="uicontrol"> Activate</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Column Headers</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The name you have assigned to this advertising account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suites </p> </td> 
-   <td colname="col2"> <p>The report suite/s mapped to this advertising account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>We currently support only one type: Search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account </p> </td> 
-   <td colname="col2"> <p>Lists one of the 2 supported account types: Google Adwords or Bing Ads. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Status </p> </td> 
-   <td colname="col2"> <p>There are 2 status indicators: </p> 
-    <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>Active</b>: The account is actively pulling search data. </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>Paused</b>: The account is currently deactivated and not pulling search data. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Filters</b> </p> </td> 
-   <td colname="col2"> <p>(Left margin) You can filter advertising accounts by Report Suite, Type, and Status. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+You see a table listing the advertising accounts. If no advertising accounts are available, select **[!UICONTROL Create new advertising account]**.
+
+The table consists of the following columns:
+
+| Name or element | Description |
+|---|---|
+| **[!UICONTROL Name]** | *Name of account*. You can select the name to edit the search engine settings.  |
+| ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | Select to rename the advertising account or edit the search engine settings. |
+| ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Select to open a context menu allowing you [map report suites](#map-reporting-suites), [activate or pause advertising accounts](#activate-or-pause-advertising-accounts). |
+| **[!UICONTROL Report suites]** | Lists the report suites that the advertising account is mapped to. |
+| **[!UICONTROL Type]** | Shows the type of advertising account. By default the type is [!UICONTROL Search] |
+| **[!UICONTROL Account]** | Show the account type, either [!UICONTROL Bing Ads] or [!UICONTROL Google Adwords]. |
+| **[!UICONTROL Status]** | The status of the advertising account: *Paused* or Active. |
+
+
+- To filter the list by Report suite, Type and Status, select ![Filter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+- To search for your advertising account using the ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) search field.
+- To select active accounts in the table, check **[!UICONTROL Active accounts]**.
+- To define which columns to show for the table, select ![Column settings](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>In the **[!UICONTROL Customize table]** dialog:
+  - Select the columns that you want to show.
+  - Select **[!UICONTROL Apply]**.
+
+When you select one or more advertising accounts, a blue action bar, based on status of the selected accounts, allows you to ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Rename]**, ![Refesh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report Suites]**, ![Play](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** or ![Pause](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** your advertising accounts.
+
+## Create an advertising account
+
+To create a new advertising account:
+
+1. Select ![Add](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL Add]**.
+1. You see the [!UICONTROL Advertising Accounts] > **[!UICONTROL New account]** dialog to let you define a new advertising account. See [Set up an Advertising Account](aa-create-ad-account.md) for more information.
+
+
+## Edit an advertising account
+
+To edit the search engine settings for an advertising account:
+
+- Select the name of the advertising account.
+- Select ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) next to the name of the advertising account.
+
+## Map reporting suites
+
+To map one or more advertising account to report suites:
+
+1. (optional) Select more than one advertising account.
+1. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) for a specific advertising account.
+1. Select ![Refesh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report suites]** from the context menu. 
+1. In the Map Report suites dialog, select one or more report suites from the dropdown. You can delete report suites from the mapping using ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. Select **[!UICONTROL Save]** to save the mapping.
+
+
+## Activate or pause advertising accounts
+
+To activate one or more advertising accounts:
+
+1. (optional) Select more than one advertising account.
+1. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) for a specific advertising account.
+1. Select ![Play](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** from the context menu. 
+
+To pause one or more advertising accounts:
+
+1. (optional) Select more than one advertising account.
+1. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) for a specific advertising account.
+1. Select ![Pause](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** from the context menu. 
+

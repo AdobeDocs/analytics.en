@@ -87,10 +87,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + Unique Visitor Variable {#unique-visitor-variable}
           + [Specify the Unique Visitor variable](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
           + [Use case - extracting Visitor IDs](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-        + Success Events {#success-events}
-          + [Success events overview](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-          + [Configure success events](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
-          + [About changing the event type](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+        + [Success events](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
         + [Classification Hierarchies](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
         + [List Variables](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
         + [Merchandising eVars](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
@@ -169,7 +166,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Server call usage FAQ](admin/c-server-call-usage/overage-faq.md)
   + User and Product Management (Legacy) {#user-product-management}
     + [User and Product Management (Legacy)](admin/user-management2/user-management.md)
-    + [Transfer user assets or set account expirations](admin/user-management2/users-assets.md)
+    + [Manage legacy user accounts, assets and expirations](admin/user-management2/users-assets.md)
     + Migrate users to Adobe Admin Console {#migrate-users}
       + [Analytics User Migration to the Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
       + [Migrate Analytics user accounts for Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
@@ -177,4 +174,5 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + [Disable legacy logins](admin/user-management2/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](admin/user-management2/user-migration/developer.md)  
 + [Admin API](c-admin-api/c-admin-api.md)
++ [Adobe Analytics 1.4 API EOL FAQ](c-admin-api/c-admin-14-api-eol.md)
 

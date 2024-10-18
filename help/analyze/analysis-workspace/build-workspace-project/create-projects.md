@@ -92,13 +92,21 @@ To add a visualization:
 >
 >For information about each component, select the Info icon next to a component's name in the left rail, or see the [Analytics Components Guide](/help/components/home.md).
 
-To add a component:
+Following is basic information about how to add a component to a project in Analysis Workspace. For more detailed information about adding the various types of components (dimensions, metrics, segments, and date ranges), see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+
+To add a component to a project in Analysis Workspace:
 
 1. Select the **[!UICONTROL Components]** icon in the left rail.
 
    ![](assets/build-components.png)
 
-1. Search for the component you want to add. When it appears in the left rail, drag it to a panel or visualization within your project. 
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
+
+   For example, you can drag a segment to the segment drop zone in a panel header.
+
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
+
+   For more information about adding components to projects, see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Optional) Share the project as described in [Save and share the project](#save-and-share-the-project).
 

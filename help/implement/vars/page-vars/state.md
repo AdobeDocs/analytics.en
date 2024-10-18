@@ -1,6 +1,6 @@
 ---
 title: state
-description: Populate the 'Visitor State Report' in Reports and Analytics.
+description: (Retired) Populated the 'Visitor State Report', which is no longer available.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
@@ -9,7 +9,7 @@ role: Admin, Developer
 
 >[!IMPORTANT]
 >
->This variable is retired and not an available dimension in Analysis Workspace. Use the 'US States' dimension instead, which AppMeasurement automatically collects based on the location of the visitor.
+>This variable is retired and not an available dimension in Analysis Workspace. Use the [US States](/help/components/dimensions/us-states.md) dimension instead, which AppMeasurement automatically collects based on the location of the visitor.
 
 In previous versions of Adobe Analytics, the `state` variable was used when visitors filled out shipping information on retail sites. It is functionally identical to a prop, but is not available in Analysis Workspace.
 

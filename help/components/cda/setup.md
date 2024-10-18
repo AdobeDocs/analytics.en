@@ -7,6 +7,8 @@ role: Admin
 ---
 # Set up Cross-Device Analytics
 
+{{available-existing-customers}}
+
 Once all prerequisites are met, use the following steps to enable Cross-Device Analytics. You must belong to a Product Profile Admin group or have admin privileges in Adobe Analytics to follow these steps.
 
 >[!IMPORTANT]

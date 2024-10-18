@@ -8,7 +8,7 @@ feature: Implementation Basics
 
 Use this glossary to understand the context of many terms Adobe Analytics uses.
 
-* **Activity map:** A browser plug-in that shows what areas on your site were clicked on the most. See [Activity Map](/help/analyze/activity-map/activity-map.md) in the Analyze user guide.
+* **Activity map:** A browser plug-in that shows what areas on your site were clicked on the most. See [Activity Map](/help/analyze/activity-map/overview.md) in the Analyze user guide.
 * **Admin console:** Can refer to:
   * Legacy admin tools, where report suite settings in Adobe Analytics are managed. In previous versions of Adobe Analytics, user permissions were also managed here. See [Admin Tools](/help/admin/admin/c-admin-tools.md) in the Admin user guide.
   * The Adobe admin console, where product access is provisioned and user permissions are managed. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
@@ -28,7 +28,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
   * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
   * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Classification:** A feature in Adobe Analytics that allows the grouping of dimension items. See [Classifications](/help/components/classifications/c-classifications.md) in the Components user guide.
-* **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity map.
+* **Clickmap:** No longer used. A legacy browser plug-in that shows what areas on your site were clicked on the most. This tool was retired in favor of Activity Map.
 * **Clickstream data feed:** See Data feed.
 * **Cohort:** A group of people sharing common characteristics over a given period of time. See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analyze user guide.
 * **Collection server:** See Data collection server.
@@ -40,7 +40,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
 * **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
-* **Data connectors:** A complete development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Most data connectors use a similar workflow used in Data Sources. See [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) in the Import user guide.
+* **Data connectors:** A retired development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Replaced with the Adobe Exchange Marketplace.
 * **Data feed:** A raw data export that lists every hit as a row and variables as separate columns. Most commonly used to export Adobe Analytics data to a third-party database. See [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
 * **Data sources:** Allows a user to upload data from a file into Adobe Analytics. The file is typically pulled from an FTP site. See [Data Sources](/help/import/data-sources/overview.md) in the Import user guide.
 * **Data Warehouse:** A feature in Adobe Analytics that allows you to request larger reports. See [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) in the Export user guide.

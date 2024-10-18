@@ -4,49 +4,32 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (March 2024)
+# Current Adobe Analytics release notes (October 2024)
 
-**Last update**: March 21, 2024
+**Last update**: October 17, 2024
 
-These release notes cover the release period of March 12, 2024 through April 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md) which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of October 2, 2024 through October 22, 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **AppMeasurement update** | [AppMeasurement release v2.26.0](/help/implement/appmeasurement-updates.md) is available. | | March 4, 2024 |
-| **New column available on the Projects landing page** | The **[!UICONTROL Last used]** column is now available when viewing the Projects tab on the [Adobe Analytics landing page](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html). <p>This information can help you determine whether a project is valuable to users in your organization by showing the date and time when the project was last opened.</p> <p>Previously, the **[!UICONTROL Last used]** column was available only in the Calculated metrics manager, Segments manager, and Alerts manager.</p> |  | March 13, 2024 |
-| **Analytics support for consent flags required by Google for DMA** | Due to new European privacy regulations, Google requires that data collected in Europe that was sent to them must indicate whether two particular kinds of consent were granted. **Starting March 6th**, Google will no longer accept event data that does not indicate that the relevant consent was granted. Adobe Analytics has released support for capturing this data via a new adConsent variable. You can see the new variable listed in the [Privacy Reporting UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). If you would like to activate this and already have privacy enabled for the previous consent variables, you will need to enable privacy again.<p>The [Ad Platform Consent dimension](/help/components/dimensions/ad-consent.md) displays whether consent is collected to send data to third-party advertising providers like Google. |  | March 13, 2024 |
-| **Report Builder usage included in the "Used in" column in the Calculated metrics manager and the Segments manager** | When viewing the **Used in** column in the Calculated metrics manager or the Segments manager, usage data is now available for the Report Builder.<p>Previously, usage data in the Segments manager was available only for Alerts, Projects, Scheduled Projects and Calculated metrics; while usage data in the Calculated metrics manager was available only for Alerts, Projects, and Scheduled Projects.</p> |  | Late March or early April |
-| **Use the same cloud accounts for Data Feeds, Data Warehouse, and Classification sets** | Cloud accounts and locations that you create can now be used for exporting data (with Data Feeds and Data Warehouse) and importing data (with Classification sets).<p> **Changes when configuring accounts:** Users can Configure cloud import and export accounts and Configure cloud import and export locations that can be used for any of the following purposes:<ul><li>Importing data with Classification sets</li><li>Exporting data with Data Feeds</li><li>Exporting data with Data Warehouse.</li></ul><p>**Changes when managing accounts**: Users can use the Locations page (under Components > Locations) to view and manage all the accounts and locations that they create, regardless of where they were created. <p>Previously, the Locations page applied only to accounts that were created for importing data with Classification sets.</p> | | April 2024 |
-| **Administrators can manage all locations and accounts in their organization** | A new option on the Locations tab (on the Components > Locations page) allows Administrators to view and manage all locations in the organization.<p>A new option on the Location accounts tab (on the Components > Locations page) allows Administrators to view and manage all accounts in the organization.</p> <p>Previously, administrators could view and manage only the locations and accounts that they created.</p> |  | April 2024 |
-| **Activity Map uses fewer server calls for Web SDK** | Currently, Activity Map link events are counted as their own events and incur extra cost. <p>This enhancement takes some link events and packages them into the next hit, similar to how events are handled by AppMeasurement.</p> |  | April 30, 2024 |
-| **Increase in default low-traffic thresholds**| In **mid April 2024**, Adobe will begin increasing the default report suite low-traffic thresholds as follows: ![low-traffic thresholds](assets/thresholds.png) This will impact only variables which are currently set below the new thresholds. These changes will be made incrementally, and we expect the work to be complete by the **end of May**. As these increases are rolled out, you may notice changes for high-cardinality variables:<ul><li>More dimension values may be available for reporting.</li><li>Segments and calculated metrics may include more data.</li><li>Virtual report suites based on segments may include more data.</li><li>Classification exports may include more data.</li></ul> | | Mid April, 2024 |
-
-{style="table-layout:auto"}
+| New Report Builder for Adobe Analytics | The new Report Builder application brings updated features to Adobe Analytics, such as improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | October 16, 2024 |
 
 ## Fixes in Adobe Analytics
-
-* Fixed the following Classifications issues: AN-335632; AN-337559; AN-340164; AN-340370; AN-341089; AN-341211; AN-341284; AN-341469; AN-341481; AN-341760; AN-341778; AN-342144; AN-342258; AN-342338, AN-342400
-* Fixed the following Classifications Rule Builder issues: AN-340921; AN-341269; AN-341292; AN-341467; AN-341666; AN-342145; AN-342329
-* Fixed the following Intelligent Alerts issue: AN-340736
-* Fixed the following Segmentation issue: AN-336242
-* Fixed the following Data Warehouse issues: AN-335354; AN-339446; AN-339774; AN-340221; AN-340599; AN-341277; AN-342009; AN-342088; AN-342592
-* Fixed the following Data Feeds issues: AN-335508; AN-340887; AN-341050; AN-341208; AN-341403; AN-341479; AN-341524; AN-341661; AN-342000; AN-342125; AN-342256; AN-342301; AN-342410; AN-342502; AN-342525
-* Fixed the following Report Builder issue: AN-340540
-* Fixed the following Analysis Workspace issues: AN-295889; AN-330981; AN-338818; AN-339730; AN-341114; AN-341520; 
-
-### Other Analytics fixes
-
-AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-339549; AN-341119; AN-341246; AN-341268; AN-341272; AN-341475; AN-341547; AN-341558; AN-341680; AN-342017; 
+ 
+Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
+Analytics Mobile App: AN-354085
+Classifications: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
+Cross-Device Analytics: AN-357968
+Data Feeds: AN-358489; AN-358542
+Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **13-month expiration of saved `cust_visids`**  | March 20, 2024 | An upcoming release of the Analytics Hit processing engine, targeted for April or May, will start enforcing a 13-month expiration of saved `cust_visids`. If the report suite has "Enable Visitor Stitching" enabled, this setting is used for finding the `cust_visid` for a `visid_high/visid_low value` with no `cust_visid` on the hit. Currently, there is no expiration of the mapping of a `cust_visid` for a `visid_high/visid_low`. With this release, if 13 months or more have passed since `visid_high/visid_low` has had a `cust_visid` on a hit, the mapping will expire. | 
-| **Adobe API object member additions** | January 17, 2024 | Adobe may add optional request and response members (name/value pairs) to existing API objects at any time and without notice or changes in versioning. Adobe recommends that you refer to the API documentation of any third-party tool you integrate with our APIs so that such additions are ignored in processing, if not understood. If implemented properly, such additions are non-breaking changes for your implementation. Adobe will not remove parameters or add required parameters without first providing standard notification through release notes. |
-| **`getPageLoadTime` plugin deprecated** | January 10, 2024 | This plugin is no longer supported. Its code utilizes the performance.timing method, which (according to MDN) has been [deprecated](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Work on an updated plugin has started. |
+| **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}
 
@@ -54,6 +37,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
+| **EOL for Adobe Analytics API (version 1.4)** | July 17, 2024  | On **August 12, 2026**, the following Analytics Legacy API services will reach their end of life and will be shut down, and current integrations built using these services will stop working:<ul><li>Adobe Analytics API (version 1.4)</li><li>Adobe Analytics WSSE Authentication</li></ul><p>Integrations that use the Adobe Analytics API (version 1.4) must migrate to the [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/), while WSSE integrations must migrate to an OAuth-based authentication protocol in the [Adobe Developer Console](https://developer.adobe.com/console).</p><p>See the [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md) for answers to common questions and further guidance.</p>  |
 | **Migration to Adobe I/O OAuth Server-to-Server credentials** | May 11, 2023 |  Adobe Analytics API and Livestream customers using Adobe I/O JWT credentials must migrate to Adobe I/O OAuth Server-to-Server credentials by **January 1, 2025**. Adobe I/O will not allow new JWT credentials to be created beginning May 1, 2024. Customers using JWT must create a new OAuth Server-to-Server credential or migrate their existing JWT credential to an OAuth Server-to-Server credential. Customers must also update their client applications to use the new OAuth Server-to-Server credentials. <ul><li>[Migrating from Service Account (JWT) credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementation guide for new and old applications with OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Using the new OAuth Server-to-Server credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQs](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
@@ -65,7 +49,7 @@ For the latest updates on AppMeasurement releases (Version 2.26.0), please refer
 
 ## Related resources
 
-* [Previous release notes for 2023](/help/release-notes/2023.md)
+* [Previous release notes for 2024](/help/release-notes/2024.md)
 * [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Media Analytics release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* [Streaming Media Collection Add-on release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)

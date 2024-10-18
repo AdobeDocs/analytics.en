@@ -23,7 +23,7 @@ A visit does not necessarily coincide with a browser session because of the abov
 
 If a visitor performs any of these actions, a new visit starts:
 
-* Clears their cache mid-session and continues browsing your site
+* Deletes their cookies mid-session and continues browsing your site
 * Leaves your site open in a tab for longer than 30 minutes, then continues browsing
 * Opens a different browser and navigates to your site on the same computer
 * The same person browsing your site on different devices

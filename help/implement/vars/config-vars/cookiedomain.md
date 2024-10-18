@@ -1,6 +1,6 @@
 ---
 title: cookieDomain
-description: The cookieDomain variable helps determine the domain to set cookies on.
+description: (Retired) Helps determine the domain to set cookies on.
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
@@ -8,7 +8,6 @@ role: Admin, Developer
 # cookieDomain
 
 >[!IMPORTANT]
->
 >This variable is retired. Use [`trackingServer`](trackingserver.md) instead.
 
 The `cookieDomain` variable determines the domain where AppMeasurement sets cookies. You can use this variable to explicitly set the cookie domain instead of using the [`cookieDomainPeriods`](cookiedomainperiods.md) variable.

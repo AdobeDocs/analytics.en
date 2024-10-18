@@ -14,9 +14,7 @@ The Custom Insight Conversion Variable (or eVar) is placed in the Adobe code on 
 
 ## Conversion Variables (eVars) overview
 
-Following is a video overview:
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+For a video overview of conversion variables, see [Introduction to conversion variables](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) in the Analytics tutorials guide. 
 
 When an eVar is set to a value for a visitor, Adobe automatically remembers that value until it expires. Any success events that a visitor encounters while the eVar value is active are counted toward the eVar value.
 

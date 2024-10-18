@@ -1,5 +1,12 @@
 # Snippets
 
+## Legacy Report Builder {#legacy-arb}
+
+>[!IMPORTANT]
+>
+>A new and streamlined [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) was released on October 16, 2024. It is supported on Mac, Windows, and web browsers.
+>This Legacy Report Builder add-in version still works. You can [convert your legacy workbooks](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) to the new Report Builder.
+
 ## Reports & Analytics end-of-life announcement {#ra-eol}
 
 >[!IMPORTANT]
@@ -77,3 +84,10 @@
 >
 >This plug-in is provided by Adobe Consulting as a courtesy to help you get more value out of Adobe Analytics. Adobe Customer Care does not provide support with this plug-in, including installation or troubleshooting. If you require help with this plug-in, contact your organization's Adobe Account Team. They can arrange a meeting with a consultant for assistance.
 
+
+## Only available to existing customers {#available-existing-customers}
+
+>[!AVAILABILITY]
+>
+>The functionality described in this section is only available to existing customers that already have a license for the functionality. The functionality is no longer offered as an additional add-on to existing or new customers. 
+>

@@ -14,25 +14,25 @@ A *data block* is the table of data created by a single data request. A Report B
 
 Configure the initial data block parameters for the Data block location, report suites, and a Date range.
 
-1. Click **Create data block**.
+1. Click **[!UICONTROL Create data block]**.
 
     ![Screenshot showing the Create data block option.](./assets/create_db.png)
 
-1. Set the **Data block location**.
+1. Set the **[!UICONTROL Data block location]**.
 
     The data block location option defines the worksheet location where report builder adds the data to your worksheet.
 
     To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified will be the upper-left corner of the data block when the data is retrieved.
 
-1. Choose the **report suites**.
+1. Choose a **Report Suite**.
 
     The report suites option allows you to choose a report suite from a drop-down menu or to reference a report suite from a cell location.
 
-1. Set the **Date range**.
+1. Set the **[!UICONTROL Date range]**.
 
     The Date range option allows you to choose a date range. Date ranges may be fixed or rolling. For information about data range options, see [Select a Date Range](select-date-range.md).
 
-1. Click **Next**.
+1. Click **[!UICONTROL Next]**.
 
     ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_data_view3.png)
 

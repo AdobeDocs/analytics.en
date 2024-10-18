@@ -12,9 +12,9 @@ A *data block* is the table of data created by a single data request. A Report B
 
 ## Configure the data block
 
-Configure the initial data block parameters for the Data block location, report suites, and a Date range.
+Configure the initial data block parameters for the data block location, report suite, and a date range.
 
-1. Click **[!UICONTROL Create data block]**.
+1. Click **[!UICONTROL Create data block]**.
 
     ![Screenshot showing the Create data block option.](./assets/create_db.png)
 
@@ -32,7 +32,7 @@ Configure the initial data block parameters for the Data block location, report
 
     The Date range option allows you to choose a date range. Date ranges may be fixed or rolling. For information about data range options, see [Select a Date Range](select-date-range.md).
 
-1. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Next]**.
 
     ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_data_view3.png)
 

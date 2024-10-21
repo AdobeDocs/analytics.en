@@ -14,7 +14,7 @@ A *data block* is the table of data created by a single data request. A Report B
 
 Configure the initial data block parameters for the data block location, report suite, and a date range.
 
-1. Click **[!UICONTROL Create data block]**.
+1. Click **[!UICONTROL Create]**.
 
     ![Screenshot showing the Create data block option.](./assets/create_db.png)
 
@@ -22,7 +22,7 @@ Configure the initial data block parameters for the data block location, report 
 
     The data block location option defines the worksheet location where report builder adds the data to your worksheet.
 
-    To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified will be the upper-left corner of the data block when the data is retrieved.
+    To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified marks the upper-left corner of the data block when the data is retrieved.
 
 1. Choose a **Report Suite**.
 
@@ -44,7 +44,7 @@ To build the data block, select report components, and then customize the layout
 
 1. Add Dimensions, Metrics, and Filters.
 
-    Scroll the component lists or use the **search** field to locate components. Drag and drop components to the Table pane or double-click a component name in the list to automatically add the component to the Table pane.
+    Scroll the component lists or use the **[!UICONTROL Search]** field to locate components. Drag and drop components to the Table pane or double-click a component name in the list to automatically add the component to the Table pane.
 
     Double-click a component to add it to a default section of the table.
 
@@ -54,7 +54,7 @@ To build the data block, select report components, and then customize the layout
 
     **Start date as a Dimension**
 
-    Set the Start date as a dimension to clearly identify the start date of your data block. This is helpful if you have a regularly scheduled report that has a rolling date range or if you have an unconventional date range and you need to be clear of the start date.
+    Set the **[!UICONTROL Start date]** as a dimension to clearly identify the start date of your data block. This is helpful if you have a regularly scheduled report that has a rolling date range or if you have an unconventional date range and you need to be clear on the start date.
 
     ![Screenshot showing the Start date in the list of dimensions.](./assets/start-date-dimension.png){width="30%"}
 
@@ -68,7 +68,7 @@ To build the data block, select report components, and then customize the layout
 
     **Display or hide row and column headers**
 
-1. Click the **Table** settings icon.
+1. Click the **[!UICONTROL Table settings]** icon.
 
     ![Screenshot showing the Table settings option.](./assets/table-settings.png){width="35%"}
 
@@ -82,7 +82,7 @@ To build the data block, select report components, and then customize the layout
 
 1. Click Hide or Show to toggle the dimension labels or column headers. All labels are displayed by default.
 
-1. Click **Finish**.
+1. Click **[!UICONTROL Finish]**.
 
     A processing message is displayed while the analytics data is retrieved.
 

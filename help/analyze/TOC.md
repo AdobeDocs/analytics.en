@@ -160,7 +160,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Convert legacy requests](report-builder/convert-workbooks.md)
   + [Create a Data Block](report-builder/create-a-data-block.md)
   + [Report Builder Hub](report-builder/report-builder-hub.md)
-  + [Select a Data View](report-builder/select-report-suite.md)
+  + [Select a Report Suite](report-builder/select-report-suite.md)
   + [Select a Date Range](report-builder/select-date-range.md)
   + [Work with Segments](report-builder/work-with-segments.md)
   + [Filter Dimensions](report-builder/filter-dimensions.md)

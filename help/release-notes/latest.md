@@ -6,7 +6,6 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 23, 2024 release)
 
-
 **Last update**: October 23, 2024
 
 These release notes cover the release period of October 16, 2024 through end of year 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
@@ -32,12 +31,11 @@ Data Sources: AN-359290
 Data Warehouse: AN-359820
 Overage Alerts: AN-358132
 
-
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **Non-Campaign customers will lose access to Triggers** | October 16, 2024 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
+| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume Triggers. Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
 | **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 ## End-of-life (EOL) notices {#eol}

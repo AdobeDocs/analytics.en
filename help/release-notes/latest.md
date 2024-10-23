@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 2024)
 
-**Last update**: October 17, 2024
+**Last update**: October 23, 2024
 
 These release notes cover the release period of October 2, 2024 through October 22, 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,21 +14,28 @@ These release notes cover the release period of October 2, 2024 through October 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| New Report Builder for Adobe Analytics | The new Report Builder application brings updated features to Adobe Analytics, such as improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | October 16, 2024 |
+| **New Report Builder for Adobe Analytics** | The new Report Builder application brings updated features to Adobe Analytics, such as improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | October 16, 2024 |
+| **JSON Export for migrating tags implementation to Web SDK tags** | This update to the Analytics tags extension is related to migrating to Web SDK. You can use this update to the Adobe Analytics extension as part of your workflow to recreate your extension configurations with the Web SDK extension. In the Adobe Analytics tags extension, you can view eVars, props and events settings as JSON, which can be exported for editing and included in the Web SDK extension. (Documentation link to follow) |  |  October 23, 2023 |
 
 ## Fixes in Adobe Analytics
  
-Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
-Analytics Mobile App: AN-354085
-Classifications: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
-Cross-Device Analytics: AN-357968
-Data Feeds: AN-358489; AN-358542
-Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
+Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
+Admin Tools: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
+Classifications: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
+Cross-Device Analytics: AN-359210
+Customer Attributes: AN-357897
+Data Collection: AN-351131; AN-351309; AN-355678; AN-359856
+Data Feeds: AN-359699
+Data Repair API: AN-360256
+Data Sources: AN-359290
+Data Warehouse: AN-359820
+Overage Alerts: AN-358132
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
+| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume Triggers. Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
 | **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
 
 {style="table-layout:auto"}

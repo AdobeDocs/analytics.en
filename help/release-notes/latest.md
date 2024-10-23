@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 23, 2024 release)
 
-**Last update**: October 16, 2024
+**Last update**: October 23, 2024
 
 These release notes cover the release period of October 16, 2024 through end of year 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -19,14 +19,17 @@ These release notes cover the release period of October 16, 2024 through end of 
 
 ## Fixes in Adobe Analytics
  
-Analysis Workspace: AN-358435; AN-359826; AN-360215
+Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
 Admin Tools: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
-Classifications: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887
+Classifications: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
 Cross-Device Analytics: AN-359210
+Customer Attributes: AN-357897
 Data Collection: AN-351131; AN-351309; AN-355678; AN-359856
 Data Feeds: AN-359699
+Data Repair API: AN-360256
 Data Sources: AN-359290
 Data Warehouse: AN-359820
+Overage Alerts: AN-358132
 
 
 ## Important notices for Adobe Analytics administrators {#admin}

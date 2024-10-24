@@ -69,4 +69,4 @@ When comparing the functionality of Legacy Report Builder to the new Report Buil
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
-You can download Report Builder from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
+You can download Report Builder from the [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview).

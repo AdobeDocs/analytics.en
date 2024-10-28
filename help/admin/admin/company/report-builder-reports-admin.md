@@ -11,4 +11,4 @@ Manage license assigned to Report Builder users.
 
 Every Report Builder license assigned to a user is automatically allocated ten scheduled tasks. This number of tasks can be adjusted and reallocated. Scheduled tasks cannot exceed the number of available tasks for each user. Any over-scheduled tasks do not run.
 
-You can grant Report Builder access to any [!DNL Analytics] user by managing product profiles in the [Adobe Admin Console](/help/admin/admin-console/home.md).
+You can grant Report Builder access to any [!DNL Adobe Analytics] user by managing product profiles in the [Adobe Admin Console](/help/admin/admin-console/home.md).

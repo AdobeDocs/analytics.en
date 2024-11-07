@@ -106,9 +106,7 @@ Following are key tasks and features that analysts should be familiar with in or
 | Alerts | Create and manage alerts based on data anomalies and "stacked" alerts that capture multiple metrics in a single alert. | [Alerts overview](/help/components/c-alerts/intellligent-alerts.md) |
 | Data export | Data Warehouse and Data Feeds allow you to export data to various cloud destinations, such as Google Cloud Platform, Azure RBAC, Azure SAS, and Amazon S3. | [Analytics Export Guide](https://experienceleague.adobe.com/docs/analytics/export/home.html) |
 | Activity map | Activity Map is an Adobe Analytics application that is designed to rank link activity using visual overlays and provide a dashboard of real-time analytics to monitor audience engagement of your web pages.<p>Activity Map lets you set up different views to visually identify the acceleration of customer activity, quantify marketing initiatives, and act on audience needs and behaviors.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-| Report Builder | Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from Adobe Analytics data that are inserted into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
-
-{style="table-layout:auto"}
+| Report Builder | Report Builder is an add-in for Microsoft Excel. Report Builder lets you build customized requests from Adobe Analytics data that are inserted into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. | [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview)|
 
 <!-- * Realtime reporting? -->
 

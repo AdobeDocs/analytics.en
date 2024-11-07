@@ -70,7 +70,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup"> Report Builder</a> to the latest version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>When does the migration begin? </p> </td> 

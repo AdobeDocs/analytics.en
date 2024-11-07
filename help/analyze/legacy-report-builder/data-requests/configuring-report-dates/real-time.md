@@ -25,4 +25,4 @@ Real-time respects permissions for users and groups. For example, if you do not 
 
 >[!NOTE]
 >
->[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.
+>[!UICONTROL Real-Time Reports] are not the same as the [Include Current Data](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Data Recency) feature released previously, which reduced latency for standard reporting, by displaying data before it is finalized.

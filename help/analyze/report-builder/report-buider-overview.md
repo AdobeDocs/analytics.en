@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
 ---
 # About the new Adobe Report Builder
 

@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 ---
 # Select a Date Range
 

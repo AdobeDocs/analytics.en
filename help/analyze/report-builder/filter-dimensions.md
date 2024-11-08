@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
 ---
 # Filter Dimensions
 

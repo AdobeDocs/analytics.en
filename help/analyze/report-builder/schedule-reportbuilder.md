@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 ---
 # Schedule Workbooks
 

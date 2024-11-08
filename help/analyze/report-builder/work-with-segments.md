@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
 ---
 # Work with Segments in Report Builder
 

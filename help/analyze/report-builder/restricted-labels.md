@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
 ---
 # Restricted labels in Report Builder
 

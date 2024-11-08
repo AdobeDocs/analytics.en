@@ -5,6 +5,7 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
 ---
 # Report Builder Settings
 

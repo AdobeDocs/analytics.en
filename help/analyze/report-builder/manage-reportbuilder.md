@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
 ---
 # Manage Data Blocks in Report Builder
 

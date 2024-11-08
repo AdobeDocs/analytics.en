@@ -5,8 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 ---
-
 # Convert legacy Report Builder workbooks to datablocks
 
 As part of the move to a new Report Builder technology, you can quickly convert your current legacy workbooks to Javascript-based workbooks. 

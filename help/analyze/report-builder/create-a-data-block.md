@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
 ---
 # Create a Data Block
 

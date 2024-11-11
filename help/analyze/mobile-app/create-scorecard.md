@@ -286,7 +286,6 @@ To move between the tile and slides, tap the navigation bar.
 
 You can also navigate back and forth by using the arrows on your keyboard or by selecting a component and holding it to the left or right of your screen to scroll.
 
-
 ## Preview scorecard {#preview}
 
 You can preview how the scorecard will look and function once it is published in the Analytics dashboards app.

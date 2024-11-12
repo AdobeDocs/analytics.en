@@ -70,10 +70,10 @@ The Hit container defines which page hits you would like to include or exclude f
 
 Hit containers include values based single page breakdowns:
 
--   Products 
--   List Props 
--   List eVars 
--   Merchandising eVars (in context of events) 
+- Products 
+- List Props 
+- List eVars 
+- Merchandising eVars (in context of events) 
 
     >[!NOTE]
     >

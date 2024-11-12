@@ -91,6 +91,10 @@ When creating segment containers within other containers, you are in essence cre
 1. Apply the nested rule to the remaining data. The nested rule does NOT apply to any hits that the first rule throws out.
 1. Repeat until all nested container rules have been calculated. The remaining data is then included in the resulting report.
 
+>[!NOTE]
+>
+>When you nest a segment within a segment (for example, you drag a segment from the Components panel onto your segment definition), a container is created with a copy (not a reference) of the dragged segment rule. 
+
 You can use nesting between containers and between rules within a container. Here is what you can nest in each container:  
 
 |  Container Name  | What you can nest inside  |

@@ -23,7 +23,7 @@ The following video tutorial provides a basic overview of alerts: [Alerts](https
 
 >[!NOTE]
 >
->Using alerts with anomaly detection (also known as _Intelligent Alerts_) is available only to organizations with a Adobe Analytics Select, Prime, or Ultimate package.
+>Using alerts with anomaly detection (also known as _Intelligent Alerts_) is available only to organizations with a Adobe Analytics Prime or Ultimate package.
 
 If an alert uses anomaly detection, the training period varies based on the granularity selected for the alert.
 

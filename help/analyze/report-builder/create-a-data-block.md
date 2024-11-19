@@ -23,7 +23,9 @@ Configure the initial data block parameters for the data block location, report 
 
     The data block location option defines the worksheet location where report builder adds the data to your worksheet.
 
-    To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified marks the upper-left corner of the data block when the data is retrieved.
+    To specify the data block location, select a single cell in the worksheet and click the icon next to **[!UICONTROL Data block location]**: 
+    
+    You can also enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified marks the upper-left corner of the data block when the data is retrieved.
 
 1. Choose a **Report Suite**.
 
@@ -35,7 +37,7 @@ Configure the initial data block parameters for the data block location, report 
 
 1. Click **[!UICONTROL Next]**.
 
-    ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_data_view3.png)
+    ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_report_suite.png)
 
     After you configure the data block, you can select dimensions, metrics, and segments to build your data block. The Dimensions, Metrics, and Filters tabs are displayed above the Table builder pane.
 
@@ -43,7 +45,7 @@ Configure the initial data block parameters for the data block location, report 
 
 To build the data block, select report components, and then customize the layout.
 
-1. Add Dimensions, Metrics, and Filters.
+1. Add Dimensions, Metrics, and Segments.
 
     Scroll the component lists or use the **[!UICONTROL Search]** field to locate components. Drag and drop components to the Table pane or double-click a component name in the list to automatically add the component to the Table pane.
 
@@ -51,7 +53,7 @@ To build the data block, select report components, and then customize the layout
 
     - Dimension components are added to the Row section or to the Column section if you have a dimension already in the columns.
     - Date components are added to the Column section.
-    - Filter components are added to the Filters section.
+    - Segment components are added to the Segments section.
 
     **Start date as a Dimension**
 
@@ -86,8 +88,6 @@ To build the data block, select report components, and then customize the layout
 1. Click **[!UICONTROL Finish]**.
 
     A processing message is displayed while the analytics data is retrieved.
-
-    ![The processing message.](./assets/image11.png)
 
     Report Builder retrieves the data and displays the completed data block in the worksheet.
 

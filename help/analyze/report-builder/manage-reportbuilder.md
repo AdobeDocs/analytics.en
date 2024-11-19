@@ -22,8 +22,6 @@ Click **Manage** to view a list of all data blocks in a workbook.
 
 The Data Block Manager lists all data blocks present in a workbook. 
 
-![The list of all data blocks present in a workbook.](./assets/image52.png)
-
 ## Sort the Data Blocks list
 
 You can sort the data block list by a displayed column. For example, you can sort the data block list by report suites, segments, date range, and other variables.

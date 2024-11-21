@@ -17,7 +17,6 @@ You can view and manage all data blocks in a workbook using the Data Block Manag
 
 Click **Manage** to view a list of all data blocks in a workbook.
 
-
 ![The Manage option to view a list of all data blocks.](./assets/image53.png)
 
 The Data Block Manager lists all data blocks present in a workbook. 

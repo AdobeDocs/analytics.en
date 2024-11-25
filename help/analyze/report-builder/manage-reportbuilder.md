@@ -70,7 +70,8 @@ A data block that has failed to refresh displays a warning icon: <img src="./ass
 
 ## Delete a Data Block
 
-Click the trash can icon to delete a selected data block.
+1. Select a data block in the Data Block manager. 
+1. Click the trash can icon to delete the selected data block.
 
 ## Group Data Blocks
 

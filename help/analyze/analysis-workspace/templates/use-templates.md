@@ -780,7 +780,7 @@ The following templates are available:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--daysBeforeFirstPurchaseRankedReport"
->title="View the number of days that pass between the first time a visitor reaches your site and when they make a purchase. For example, if a visitor makes a purchase one day after first visiting, then any subsequent visit or event belongs to the "1 day" dimension item."
+>title="View the number of days that pass between the first time a visitor reaches your site and when they make a purchase. For example, if a visitor makes a purchase one day after first visiting, then any subsequent visit or event belongs to the 1 Day dimension item."
 >abstract="**This can help you** better understand how long it takes visitors to make a purchase.<br/>**Based on what you learn, you might** do any number of things, like update your site to encourage faster acquisition.<br/>This template uses the Days before first purchase dimension."
 
 <!-- markdownlint-enable MD034 -->
@@ -1077,7 +1077,7 @@ The following templates are available:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--searchEngineRankRankedReport"
->title="View which page of search results a visitor clicked through to your site. For example, if your site appears on the second page of a search engine's search results, the dimension item for this variable is "Search Page 2"."
+>title="View which page of search results a visitor clicked through to your site. For example, if your site appears on the second page of a search engine's search results, the dimension item for this variable is Search Page 2."
 >abstract="**This can help you** better understand the how high your pages are ranking in search results.<br/>**Based on what you learn, you might** do any number of things, improve your SEO strategy to ensure your content is showing up on the first page of search results."
 
 <!-- markdownlint-enable MD034 -->

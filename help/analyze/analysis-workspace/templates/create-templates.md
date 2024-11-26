@@ -28,27 +28,31 @@ To create a new company template:
 
 ## Manage company templates
 
-Admins can filter the project list to display and manage company templates. Pinned items remain pinned followed by the list of company templates that are identified by the report icon ![report icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). In this view, you can delete, rename, tag, or approve one or more reports.
+Administrators can delete, rename, tag, and approve company templates.  
 
 To display and manage company templates:
 
-1. In the filter rail, select **OTHER FILTERS** and then select **Company templates**. 
+1. In Analysis Workspace, select the [!UICONTROL **Workspace**] tab, then select the **[!UICONTROL Projects tab]** in the left rail.
 
+1. Select the filter icon to filter the list of projects.
+
+1. In the filter rail, select **OTHER FILTERS** and then select **Company templates**. 
+    
    A list of the company templates are displayed. All regular projects, unless they're pinned, are not displayed.
 
-   ![Display company reports filters](assets/company-reports-filter.png)
+   Company templates can be identified by the ![templates icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) that precedes the template name. 
 
-   With company templates displayed, Admins can delete, rename, add a tag, or approve the report. 
+   ![Display company reports filters](assets/company-templates-filter.png)
 
-1. In the report list, select a single report or select multiple reports.
+1. Click the **...** elilpsis icon next to a template to view the available options. 
 
-1. Click the **...** elilpsis icon next to a report to view the available options (Delete, Rename, Tag, and Approve). 
+   <!-- Update screenshot -->
 
-   ![Company report actions](assets/company-reports-actions.png)
+   ![Company template actions](assets/company-templates-actions.png)
 
-1. Select an option (Delete, Rename, Tag, and Approve).
+1. Select **[!UICONTROL Delete]**, **[!UICONTROL Rename]**, **[!UICONTROL Tag]**, or **[!UICONTROL Approve]**).
 
-1. To return to the regular view when your done, in the filter rail, uncheck the Company templates option again.
+1. (Optional) To return to the regular view, in the filter rail, deselect **[!UICONTROL Company templates]**.
 
 ### Delete a company template
 

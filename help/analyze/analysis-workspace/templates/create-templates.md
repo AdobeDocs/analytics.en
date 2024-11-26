@@ -5,6 +5,7 @@ feature: Analysis Workspace
 role: User, Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 ---
 # Create and manage company templates
 

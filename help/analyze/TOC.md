@@ -41,6 +41,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + Reports {#reports}  
     + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
     + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
+  + Templates {#templates}
+    + [Use templates](analysis-workspace/templates/use-templates.md)
+    + [Create templates](analysis-workspace/templates/create-templates.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Use components in Workspace](analysis-workspace/components/use-components-in-workspace.md)

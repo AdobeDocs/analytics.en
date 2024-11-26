@@ -3,7 +3,8 @@ description: An overview of how to use default reports in Analysis Workspace.
 title: Use reports
 feature: Analysis Workspace
 role: User, Admin
-exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+hide: yes
+hidefromtoc: yes
 ---
 # Create and manage company templates
 

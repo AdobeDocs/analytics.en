@@ -29,13 +29,13 @@ The following information describes how to access and use templates from the [!U
 
    <!--update screenshot -->
 
-   ![Reports tab](assets/view-prebuilt-reports.png)
+   ![Reports tab](assets/view-prebuilt-templates.png)
 
 1. In the [!UICONTROL **Templates**] section, select either of the following tabs:
 
    * **[!UICONTROL Adobe templates]**: Shows all templates provided by Adobe.
 
-   * **[!UICONTROL _login_company_name_ templates]**: Shows all company templates that have been created for in your organization.
+   * **[!UICONTROL _login_company_name_ templates]**: Shows all company templates that have been created for your organization.
 
      Company templates can be created only by an administrator. For more information about how to create a company template, see [Create and manage templates](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 

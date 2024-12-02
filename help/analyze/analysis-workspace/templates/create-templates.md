@@ -11,7 +11,7 @@ exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 
 Administrators can create templates and save them for others in their login company to use.
 
-People in the login company can use these company templates as described in [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md.
+People in the login company can use these company templates as described in [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md).
 
 ## Create a template
 
@@ -29,7 +29,7 @@ To create a new template that can be used by people in your login company:
    |---------|----------|
    | **[!UICONTROL Name]** | Provide a descriptive name for the template. | 
    | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. | 
-   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. | 
+   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. | 
    | **[!UICONTROL Channels]** | Choose any applicable channels that apply to this template. You can select multiple channels: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]**, and **[!UICONTROL In-store]**.<p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
    | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
    | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. | 

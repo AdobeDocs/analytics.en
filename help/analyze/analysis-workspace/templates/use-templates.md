@@ -39,7 +39,11 @@ The following information describes how to access and use templates from the [!U
 
      Company templates can be created only by an administrator. For more information about how to create a company template, see [Create and manage templates](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Choose whether to view templates in a column view or a card view by selecting either the column view ![column view icon](assets/column-view-icon.png) or the card view ![card view icon](assets/card-view-icon.png) icon.   
+1. Use either of the following options to change how you view the available templates:
+
+   * Choose whether to view templates in a column view or a card view by selecting either the column view ![column view icon](assets/column-view-icon.png) or the card view ![card view icon](assets/card-view-icon.png) icon.
+
+   * When using the card view ![card view icon](assets/card-view-icon.png), choose from the following sort orders: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.   
 
 1. In the search field, begin typing the name of the template you want to find, then select it from the list of templates. You can also search the template list by prop, eVar, and event number. <!-- still true? -->
 
@@ -52,8 +56,6 @@ The following information describes how to access and use templates from the [!U
    >To navigate the menu using the arrow keys, press the Forward Slash key (/), and then press the Down Arrow key. Press Enter to load the selected template.
 
    For a list of templates that are available, see the [Available templates](#available-reports) section below.
-
-1. (Optional) View and use templates that contain components that are not available in your report suite. (By default, the only templates shown are those that use components that are available in your report suite.) <!--does this apply to AA? -->
 
 ## Create a project based on a template {#use-reports}
 

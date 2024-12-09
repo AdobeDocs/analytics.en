@@ -1,6 +1,6 @@
 ---
 title: Visits
-description: A sequence of page views in a sitting.
+description: Learn about the Visits metric in Analytics. See how it is calculated, the behaviors that affect it, how to change its definition, and more.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 ---

@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot Data Warehouse request delivery times
+title: Troubleshoot Data Warehouse Request Delivery Times
 description: Determine potential issues with a Data Warehouse request that can prolong delivery times.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0

@@ -1,6 +1,6 @@
 ---
-description: Steps that describe how administrators can enable Data Warehouse reporting access to users.
-title: Manage Data Warehouse permissions
+description: Learn the steps that describe how administrators can enable Data Warehouse reporting access for users.
+title: Manage Data Warehouse Permissions
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333

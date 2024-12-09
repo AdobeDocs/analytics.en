@@ -1,6 +1,6 @@
 ---
-title: Manage data feed jobs
-description: Learn how to manage individual jobs in data feeds.
+title: Manage Data Feed Jobs
+description: Learn how to manage individual jobs in data feeds. Navigate the interface, use filters and search, and find column definitions.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 ---
@@ -23,7 +23,7 @@ A data feed job is a single instance where Adobe processes and outputs a compres
 
 ![Jobs](assets/jobs.jpg)
 
-### Filters and Search
+### Filters and search
 
 Use filters and search to locate the exact job you're looking for.
 
@@ -35,7 +35,7 @@ Use search to locate a job by name.
 
 ![Search](assets/search.jpg)
 
-### Feeds and Jobs
+### Feeds and jobs
 
 Click the Feeds tab to see overarching feeds that create these jobs. See [Manage data feeds](df-manage-feeds.md).
 

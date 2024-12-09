@@ -1,14 +1,14 @@
 ---
-description: The Activity Map UI is comprised of two parts 
-title: Activity Map user interface
+description: Learn about the Activity Map extension and how to navigate its interface.
+title: Activity Map extension interface
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 ---
-# Activity Map user interface
+# Activity Map extension interface
 
-The Activity Map UI is comprised of two parts:
+The Activity Map extension interface is comprised of two parts:
 
 * The top window with the web page, and the injected overlays and toolbar.
 * A bottom panel for reports.

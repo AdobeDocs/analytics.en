@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (October 23, 2024 release)
 
-**Last update**: October 23, 2024
+**Last update**: December 9, 2024
 
 These release notes cover the release period of October 16, 2024 through end of year 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -17,6 +17,7 @@ These release notes cover the release period of October 16, 2024 through end of 
 | **New Report Builder for Adobe Analytics** | The new Report Builder application brings a major update to Adobe Analytics, including improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. This application can be used along with the legacy application, but not on the same file. An upgrade feature is provided to upgrade legacy workbooks to the new application. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | October 16, 2024 |
 | **JSON Export for migrating tags implementation to Web SDK tags**  | This update to the Analytics tags Extension is related to migrating to Web SDK. You can use this update to the Adobe Analytics extension as part of your workflow to recreate your extension configurations with the Web SDK extension. In the Adobe Analytics tags extension, you can view eVars, props and events settings as JSON, which can be exported for editing and included in the Web SDK extension. |  | October 31, 2024 |
 | **New information about Request factors in Analysis Workspace Performance** | A new "Request factors" section is now available when analyzing performance in Analysis Workspace. To learn more about how requests are processed and the various factors that influence processing times, see "Request factors" in [Optimize Analysis Workspace performance](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | October 1, 2024 |
+| **Transaction ID retention period** | The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. The ID's default retention period of 90 days will be extended to 25 months in January of 2025. |  | January 22, 2025 |
 
 ## Fixes in Adobe Analytics
  

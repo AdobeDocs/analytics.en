@@ -1,7 +1,7 @@
 ---
-description: Data that is collected from web sites, mobile apps, or is uploaded using web service APIs or data sources, is processed and stored in Adobe's Data Warehouse. This raw clickstream data forms the data set that is used by Adobe Analytics.
+description: Learn how to use data feeds to get raw data out of Adobe Analytics. Find out the prerequisites for using data feeds what to do next.
 keywords: clickstream;data feed;datafeed;Data Feed
-title: Analytics Data Feed overview
+title: Analytics Data Feed Overview
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 ---

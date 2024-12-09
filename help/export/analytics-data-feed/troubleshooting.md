@@ -1,11 +1,10 @@
 ---
-title: Troubleshoot data feeds
-description: Learn how you can determine and resolve issues with Data feeds.
-keywords: job;troubleshooting;error;ftp;chdir;connect;login;put
+title: Troubleshoot Data Feeds
+description: Learn about reasons why a data feed job might fail to process or deliver data. Resolve potential issues with data feeds.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 ---
-# Troubleshoot Data feeds
+# Troubleshoot data feeds
 
 Determine potential reasons why a job might fail to process or deliver.
 

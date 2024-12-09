@@ -1,5 +1,5 @@
 ---
-description: Following are some best practices for data feed processing and delivery.
+description: Learn about best practices for data feed processing and delivery in Analytics.
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
 title: Best Practices and General Information
 feature: Data Feeds

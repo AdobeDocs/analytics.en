@@ -1,7 +1,7 @@
 ---
-description: Data warehouse provides a flexible interface to run custom reports. Following these guidelines can help reduce the time it takes to retrieve data.
+description: Learn the guidelines that help reduce the time it takes to retrieve data from Data Warehouse.
 keywords: best practices;failure;timeout;troubleshooting
-title: Data Warehouse best practices
+title: Data Warehouse Best Practices
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf

@@ -8,7 +8,7 @@ exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
 
 *This page describes the available dimensions when you enable [!UICONTROL Media Chapters] for a report suite. See [Streaming Media chapter metrics](../metrics/sm-chapters.md) for available metrics.*
 
-Streaming Media chapter dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
+Streaming Media chapter dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Media Chapters]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimension is available:
 

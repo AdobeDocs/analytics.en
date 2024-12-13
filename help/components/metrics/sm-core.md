@@ -8,7 +8,7 @@ exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
 
 *This page describes the available metrics when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core dimensions](../dimensions/sm-core.md) for available dimensions.*
 
-Streaming Media core metrics provide basic reporting functionality to data collected through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
+Streaming Media core metrics provide basic reporting functionality to data collected through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following metrics are available:
 

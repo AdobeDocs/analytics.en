@@ -8,7 +8,7 @@ exl-id: e3794d8c-3c03-425d-850c-a735b579324b
 
 *This page describes the available dimensions when you enable [!UICONTROL Media Quality] for a report suite. See [Streaming Media quality metrics](../metrics/sm-quality.md) for available metrics.*
 
-Streaming Media quality dimensions provide reporting related to the quality of the content that the visitor consumes. Use of these dimensions require the [!UICONTROL Adobe Streaming Media Collection add-on]. Contact your Adobe Account Team for details.
+Streaming Media quality dimensions provide reporting related to the quality of the content that the visitor consumes. Use of these dimensions require the [!UICONTROL Adobe Streaming Media Collection]. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Media Quality]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
 

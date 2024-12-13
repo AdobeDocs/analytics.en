@@ -6,7 +6,7 @@ exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
 ---
 # Streaming Media player state tracking metrics
 
-Streaming Media player state tracking metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
+Streaming Media player state tracking metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Player State Tracking]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following metrics are available:
 

@@ -26,7 +26,7 @@ Use the following options to change a date range for a data block.
 
 **From cell**
 
-The From cell option allows you to reference dates entered in worksheet cells.
+The **[!UICONTROL From cell]** option allows you to reference dates entered in worksheet cells.
 
 You have the option to exclude today on any selected date range.
 

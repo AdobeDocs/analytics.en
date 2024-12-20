@@ -38,6 +38,7 @@ To download a project as a CSV or PDF file:
    ![](assets/download-project.png)
 
 1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
+1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
 
 ## Copy data to clipboard (hotkey: Ctrl+C) {#copy-data}
 

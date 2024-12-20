@@ -77,8 +77,6 @@ You can replace an existing segment with another segment to change how the data 
 
     Selecting a filter adds it to the **[!UICONTROL Replace with]**... list.
 
-    ![The Replace tab with the People on App data block selected and the Replace with list updated showing People on App Revised.](./assets/replace_screen_new.png)
-
 1. Click **[!UICONTROL Apply]**.
 
     Report Builder updates the list of segments to reflect the replacement.
@@ -97,7 +95,7 @@ To apply segments from a cell
 
 1. Select the cell from which you want the data blocks to reference a segment.
    
-1. Add the segment choice you wish to add to the cell by either double clicking the segment, or by dragging and dropping it into the Segments Included section. 
+1. Add the segment choice you wish to add to the cell by either double clicking the segment, or by dragging and dropping it into the **[!UICONTROL Segments Included]** section. 
    
    Note: Only one choice may be selected for the given cell at one time.
 

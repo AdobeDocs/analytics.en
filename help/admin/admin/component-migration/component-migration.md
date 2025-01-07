@@ -18,6 +18,13 @@ The migration process includes:
   
   All migrated components display in the migration summary when the migration completes.
 
+>[!NOTE]
+>
+>The information on this page describes how to migrate projects and their associated components with the user interface. 
+>
+>Alternatively, you can perform the migration using the APIs. For more information, see the [Adobe Analytics APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). All API definitions are available in the **[!UICONTROL Select a definition]** drop-down menu.
+
+
 ## Prepare for a migration
 
 Before you migrate any projects to Customer Journey Analytics, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 

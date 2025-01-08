@@ -15,7 +15,7 @@ The following Media Management options are available when editing a report suite
 
 * [!UICONTROL **Media Reporting**]
 
-  Use these check boxes to enable dimensions and metrics specific to the Streaming Media Collection Add-on.
+  Use these check boxes to enable dimensions and metrics specific to the Streaming Media Collection.
 
   * [Media core dimensions](/help/components/dimensions/sm-core.md)
   * [Media core metrics](/help/components/metrics/sm-core.md)
@@ -32,6 +32,6 @@ The following Media Management options are available when editing a report suite
 
 * [!UICONTROL **Media Classifications**]
 
-  Classifications specific to Streaming Media Collection Add-on dimensions are available on the [!UICONTROL Media Classifications] page. They operate similarly to [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) available for conversion variables. Enabling certain components under [!UICONTROL Media Reporting] automatically create classification dimensions for you. You can use this interface to create your own classification dimensions or upload classification data.
+  Classifications specific to Streaming Media Collection dimensions are available on the [!UICONTROL Media Classifications] page. They operate similarly to [Conversion classifications](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) available for conversion variables. Enabling certain components under [!UICONTROL Media Reporting] automatically create classification dimensions for you. You can use this interface to create your own classification dimensions or upload classification data.
 
-For general information about incorporating streaming media data in Adobe Analytics, see the [Streaming Media Collection Add-on Guide](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+For general information about incorporating streaming media data in Adobe Analytics, see the [Streaming Media Collection Guide](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).

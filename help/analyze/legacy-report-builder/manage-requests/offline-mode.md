@@ -8,6 +8,8 @@ exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 ---
 # Offline mode for creating and editing requests
 
+{{legacy-arb}}
+
 Offline mode returns placeholder data to speed up the process of creating and editing requests.
 
 When you create or edit a new request, Report API calls are made to retrieve the response. Sometimes these calls slow down the request creation process because you have to wait for the data to return before going to the next step. Offline mode returns placeholder data only and API are not made.

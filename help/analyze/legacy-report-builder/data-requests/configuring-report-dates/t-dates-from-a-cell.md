@@ -8,6 +8,8 @@ exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
 ---
 # Dates from a cell
 
+{{legacy-arb}}
+
 You can specify a date range by selecting cells from a worksheet that contains a request. Report builder uses the specific date range information in those requests. If you select today's date, you see partial data based on the time of day the request runs.
 
  **To configure dates from a cell** 

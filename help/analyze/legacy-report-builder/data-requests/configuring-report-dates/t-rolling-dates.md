@@ -8,6 +8,8 @@ exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
 ---
 # Rolling dates
 
+{{legacy-arb}}
+
 To customize a rolling date for your request:
 
 1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.

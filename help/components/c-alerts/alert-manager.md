@@ -79,11 +79,13 @@ To edit an existing alert:
    Following are some of the things you can do when editing an alert:
 
    * Add alerts to other report suites
-   * Change the owner 
-   * Update the filters
-   * Update the expiration date
+   * Add or modify the description
+   * Modify the time granularity
+   * Modify the recipients 
+   * Modify the expiration date
+   * Modify the metrics and filters
 
-1. Edit the alert, then select [!UICONTROL **Save**].
+1. Select [!UICONTROL **Save**].
 
 ## Configure columns 
 

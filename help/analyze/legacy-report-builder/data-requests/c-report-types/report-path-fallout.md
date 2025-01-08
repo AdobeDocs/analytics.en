@@ -7,6 +7,8 @@ exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
 ---
 # Path and path fallout reports in Report Builder
 
+{{legacy-arb}}
+
 Describes how Report Builder supports pathing and fallout reports and how the implementation differs from Reports & Analytics (now end-of-lifed).
 
 |Path Report Name in Reports & Analytics (Paths >  dimension >)  | Supported in Report Builder? |

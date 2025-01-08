@@ -7,6 +7,8 @@ exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 ---
 # Publish to Power BI - Overview
 
+{{legacy-arb}}
+
 Microsoft Power BI is a suite of business analytics dashboards to analyze data and share insights. The Adobe Analytics integration with Power BI lets you visualize Report Builder Analytics data within Microsoft Power BI and easily share it across your organization.
 
 As an Analyst, previously you would schedule Report Builder workbook distribution using email or ftp. Now you can give your business stakeholders access from within their Power BI accounts, to accurate and up-to-date data in a web-based environment that is accessible across platforms and devices.

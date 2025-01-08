@@ -7,6 +7,8 @@ exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 ---
 # Create a Report Builder data request
 
+{{legacy-arb}}
+
 Steps to create a basic data request.
 
 1. In Excel, click **[!UICONTROL Create]**.

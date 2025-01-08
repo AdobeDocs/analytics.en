@@ -41,6 +41,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + Reports {#reports}  
     + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
     + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
+  + Templates {#templates}
+    + [Use templates](analysis-workspace/templates/use-templates.md)
+    + [Create templates](analysis-workspace/templates/create-templates.md)
   + Components {#components}
     + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Use components in Workspace](analysis-workspace/components/use-components-in-workspace.md)
@@ -160,7 +163,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Convert legacy requests](report-builder/convert-workbooks.md)
   + [Create a Data Block](report-builder/create-a-data-block.md)
   + [Report Builder Hub](report-builder/report-builder-hub.md)
-  + [Select a Data View](report-builder/select-report-suite.md)
+  + [Select a Report Suite](report-builder/select-report-suite.md)
   + [Select a Date Range](report-builder/select-date-range.md)
   + [Work with Segments](report-builder/work-with-segments.md)
   + [Filter Dimensions](report-builder/filter-dimensions.md)

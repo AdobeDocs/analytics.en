@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
 ---
 # Select a report suite
 

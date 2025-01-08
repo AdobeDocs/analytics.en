@@ -8,6 +8,8 @@ exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 ---
 # Download a workbook
 
+{{legacy-arb}}
+
 You can download and edit shared workbooks. If you are a workbook owner, you can delete the workbook.
 
 1. In Excel, click **[!UICONTROL Share]**.

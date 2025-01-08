@@ -8,6 +8,8 @@ exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
 ---
 # Request Wizard definitions - preset dates
 
+{{legacy-arb}}
+
 Preset dates let you select commonly used dates or dates you have saved. On the Request Wizard: Step 1, choose Preset Dates. Here are the field definitions for preset dates in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 

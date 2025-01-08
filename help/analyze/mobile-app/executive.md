@@ -56,7 +56,7 @@ To use dashboards:
 
 1.  Tap the scorecard that you want to view.
 
-    If you have access to more than one organization under one login, all scorecards from your organizations are available in the scorecard list.
+    If you have access to more than one organization under one login, the home screen shows all scorecards from all available companies in one place.
 
     You can sort the scorecard list according to scorecard title, organization name, or most recently viewed. You can even search for a specific scorecard.
 

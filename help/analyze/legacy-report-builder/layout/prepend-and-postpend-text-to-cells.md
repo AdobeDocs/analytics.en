@@ -8,6 +8,8 @@ exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 ---
 # Prepend and postpend text to cells
 
+{{legacy-arb}}
+
 In Pivot and Custom Layout requests, for numeric or string values, you can prepend or postpend strings or characters to cells.
 
 This option is available in the [!UICONTROL Request Wizard: Step 2] window.

@@ -8,6 +8,8 @@ exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
 ---
 # System requirements
 
+{{legacy-arb}}
+
 System recommendations and prerequisites.
 
 * Windows XP or higher 

@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 ---
 # Select a Date Range
 
@@ -25,7 +26,7 @@ Use the following options to change a date range for a data block.
 
 **From cell**
 
-The From cell option allows you to reference dates entered in worksheet cells.
+The **[!UICONTROL From cell]** option allows you to reference dates entered in worksheet cells.
 
 You have the option to exclude today on any selected date range.
 

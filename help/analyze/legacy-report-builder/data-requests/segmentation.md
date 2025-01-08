@@ -7,6 +7,8 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 ---
 # Manage segments
 
+{{legacy-arb}}
+
 How to add, edit, apply, and filter Adobe Analytics segments in Report Builder.
 
 Report Builder features a segmentation panel in Step 1 of the Request Wizard that lets you create and manage segments.

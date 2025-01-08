@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
 ---
 # Filter Dimensions
 
@@ -89,7 +90,7 @@ To set filtering criteria
 
 1. Enter a value into the search field.
 
-1. Click Add row to confirm the selection and add another criteria item.
+1. Click **[!UICONTROL Add row]** to confirm the selection and add another criteria item.
 
 1. Click the delete icon to remove a criteria item.
 
@@ -112,15 +113,15 @@ To change the metric used to filter and sort the data block,
 
 ## Specific filtering
 
-The Specific option allows you to create a fixed list of dimension items for each dimension. Use the **Specific** filtering type to specify the exact dimension items to include in your filter. You can select items from a list or from a range of cells.
+The Specific option allows you to create a fixed list of dimension items for each dimension. Use the **[!UICONTROL Specific]** filtering type to specify the exact dimension items to include in your filter. You can select items from a list or from a range of cells.
 
 ![The Specific options and selected items.](./assets/image32.png)
 
 ### From list
 
-1. Select the **From list** option to search for and select dimension items.
+1. Select the **[!UICONTROL From list]** option to search for and select dimension items.
 
-    When you select the **From list** option, the list is populated with dimension items with the most events first.
+    When you select the **[!UICONTROL From list]** option, the list is populated with dimension items with the most events first.
 
     ![The From list option and available items.](./assets/image33.png)
 
@@ -136,7 +137,7 @@ The Specific option allows you to create a fixed list of dimension items for eac
 
 1. Select a dimension item.
 
-    Selected dimension items are automatically added to the **Selected items** list.
+    Selected dimension items are automatically added to the **[!UICONTROL Selected items]** list.
 
     ![](./assets/image35.png)
 
@@ -170,4 +171,4 @@ From the **[!UICONTROL Dimensions]** tab, click the chevron icon next to a dimen
 
  ![The Dimensions tab and the list of dimensions.](./assets/dimensions_chevron.png)
 
-You can drag and drop items onto the **Table** or double-click an item name to add it to the **Table** builder.
+You can drag and drop items onto the **[!UICONTROL Table]** or double-click an item name to add it to the **[!UICONTROL Table]** builder.

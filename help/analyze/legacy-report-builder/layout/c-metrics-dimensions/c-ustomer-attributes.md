@@ -7,6 +7,8 @@ exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 ---
 # Customer attributes
 
+{{legacy-arb}}
+
 Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
 
  For more detailed information on how to upload customer attributes, see the [Experience Cloud help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html).

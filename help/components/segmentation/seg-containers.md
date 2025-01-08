@@ -70,10 +70,10 @@ The Hit container defines which page hits you would like to include or exclude f
 
 Hit containers include values based single page breakdowns:
 
--   Products 
--   List Props 
--   List eVars 
--   Merchandising eVars (in context of events) 
+- Products 
+- List Props 
+- List eVars 
+- Merchandising eVars (in context of events) 
 
     >[!NOTE]
     >
@@ -90,6 +90,10 @@ When creating segment containers within other containers, you are in essence cre
 1. Determine what data is included using the outermost container. Any data that does not match this outer rule is discarded in the segmented report.
 1. Apply the nested rule to the remaining data. The nested rule does NOT apply to any hits that the first rule throws out.
 1. Repeat until all nested container rules have been calculated. The remaining data is then included in the resulting report.
+
+>[!NOTE]
+>
+>When you nest a segment within a segment (for example, you drag a segment from the Components panel onto your segment definition), a container is created with a copy (not a reference) of the dragged segment rule. 
 
 You can use nesting between containers and between rules within a container. Here is what you can nest in each container:  
 

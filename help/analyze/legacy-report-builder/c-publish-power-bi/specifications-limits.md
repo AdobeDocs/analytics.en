@@ -7,6 +7,8 @@ exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 ---
 # Limitations and specifications
 
+{{legacy-arb}}
+
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
 >[!NOTE]

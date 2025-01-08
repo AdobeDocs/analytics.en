@@ -7,7 +7,9 @@ exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 ---
 # Calculated metrics
 
-Report Builder 5.2 supports Adobe Analytics unified calculated metrics. Among other innovations, all calculated metrics now have a global ID - they are no longer restricted to one report suite.
+{{legacy-arb}}
+
+Report Builder 5.2 and up supports Adobe Analytics calculated metrics. All calculated metrics now have a global ID - they are no longer restricted to one report suite.
 
 >[!NOTE]
 >

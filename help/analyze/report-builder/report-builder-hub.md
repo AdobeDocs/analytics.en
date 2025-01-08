@@ -5,12 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
 ---
 # Report Builder Hub
 
 Use the Report Builder hub to create, update, delete, and manage data blocks.
 
-The Report Builder hub contains the Create and Manage buttons, the COMMANDS list, and the QUICK EDIT panels.
+The Report Builder hub contains the Create, Manage, and Schedule buttons, the COMMANDS panel, and The QUICK EDIT panel.
 
 <img src="./assets/hub51.png" alt="Report Builder Hub"/>
 
@@ -18,6 +19,10 @@ The Report Builder hub contains the Create and Manage buttons, the COMMANDS list
 ## Create, Manage, and Schedule buttons
 
 Use the Create, Manage, and Schedule buttons to create new data blocks, manage existing data blocks, or schedule datablocks.
+
+>[!NOTE]
+>
+>Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
 
 ## COMMANDS panel
 
@@ -27,12 +32,12 @@ Use the COMMANDS panel to access commands that are compatible with the selected 
 
 | Commands displayed      | Available when…   | Purpose          |
 |------|------------------|--------|
-| Create data block | One or more cells is selected in the workbook. | Used to create a data block |
-| Edit data block | The selected cell or cells range is part of one data block only. | Used to edit a data block                       |
-| Refresh data block      | The selection contains at least one data block. The command will refresh only the data blocks in the selection. | Used to refresh one or more data blocks         |
+| Edit data block | The selected cell or cells range is part of one data block only. | Used to edit a data block |
+| Refresh data block | The selection contains at least one data block. The command refreshes only the data blocks in the selection. | Used to refresh one or more data blocks |
 | Refresh all data blocks | The workbook contains one or more data blocks. | Used to refresh ALL data blocks in the workbook |
 | Send workbook |   |  Send a workbook on a schedule. |
 | Copy data block   | The selected cell or cell range is part of one or more data blocks. | Used to copy a data block   |
+| Cut data block |   | Used to cut a data block |
 | Delete data block | The selected cell or cells range is part of one data block only. | Used to delete a data block |
 
 ## QUICK EDIT panel
@@ -55,8 +60,8 @@ To change the report suite, select a new report suite from the drop-down menu.
 
 ### Date range
 
-**[!UICONTROL Date range]** shows the date range for the selected data blocks. If multiple data blocks are selected with multiple date ranges, the **[!UICONTROL Date range]** link displays *Multiple*.
+**[!UICONTROL Date range]** shows the date range for the selected data blocks. If multiple data blocks are selected with multiple date ranges, the **[!UICONTROL Date range]** link displays *Multiple*. [Learn more](/help/analyze/report-builder/select-date-range.md)
 
-### Filters
+### Segments
 
-The **Filters** link displays a summary list of the filters used by the selected data blocks. If multiple data blocks are selected with multiple filters applied, the **Filters** link displays *Multiple*.
+The **Segments** link displays a summary list of the segments used by the selected data blocks. If multiple data blocks are selected with multiple segments applied, the **Segments** link displays *Multiple*. [Learn more](/help/analyze/report-builder/work-with-segments.md)

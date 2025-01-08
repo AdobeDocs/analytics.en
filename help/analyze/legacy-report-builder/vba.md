@@ -7,6 +7,8 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 ---
 # Visual Basic macros in Report Builder
 
+{{legacy-arb}}
+
 Visual Basic (VBA) macros provide features that help you refresh Excel workbooks. Visual Basic has access to the workbook, Excel, and Windows.
 
 You must run the latest version of Report Builder and log in before running VBA macros.

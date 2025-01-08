@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
 ---
 # Manage Data Blocks in Report Builder
 
@@ -16,12 +17,9 @@ You can view and manage all data blocks in a workbook using the Data Block Manag
 
 Click **Manage** to view a list of all data blocks in a workbook.
 
-
 ![The Manage option to view a list of all data blocks.](./assets/image53.png)
 
 The Data Block Manager lists all data blocks present in a workbook. 
-
-![The list of all data blocks present in a workbook.](./assets/image52.png)
 
 ## Sort the Data Blocks list
 
@@ -72,7 +70,8 @@ A data block that has failed to refresh displays a warning icon: <img src="./ass
 
 ## Delete a Data Block
 
-Click the trash can icon to delete a selected data block.
+1. Select a data block in the Data Block manager. 
+1. Click the trash can icon to delete the selected data block.
 
 ## Group Data Blocks
 

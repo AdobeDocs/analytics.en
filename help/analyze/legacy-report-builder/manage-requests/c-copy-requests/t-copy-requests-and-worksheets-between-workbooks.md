@@ -8,8 +8,12 @@ exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
 ---
 # Copy requests and worksheets between workbooks
 
+{{legacy-arb}}
+
 Copy an entire spreadsheet in a source workbook to a spreadsheet in one or more target workbooks. To do this, you must have at least two workbooks opened in the same instance of Excel: 
+
 *  The first source workbook contains a spreadsheet (worksheet) with requests mapped to cells.
+
 *  The additional target workbooks are the destinations. For each new target workbook, you should log in to the same report suite as the source workbook before you can paste spreadsheets containing requests.
 
 >[!NOTE]

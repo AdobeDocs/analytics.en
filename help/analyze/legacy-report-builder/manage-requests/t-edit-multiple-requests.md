@@ -8,6 +8,8 @@ exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 ---
 # Edit multiple requests
 
+{{legacy-arb}}
+
 You can change several requests at the same time, based on the request's report suite, granularity, and date range.
 
 You can change several requests at the same time, based on the request's report suite, segments, granularity, and date range. For example, you can update a report's parameters so that all requests are based on the same report suite or segment, or you can transform a daily report into a weekly or monthly report, provided that you retain the same number of periods. You can edit multiple requests for the current worksheet or all worksheets of a spreadsheet.

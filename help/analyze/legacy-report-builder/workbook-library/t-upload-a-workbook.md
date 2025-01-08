@@ -8,6 +8,8 @@ exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
 ---
 # Upload a workbook
 
+{{legacy-arb}}
+
 Upload a Report Builder Excel workbook that you want to share.
 
 The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. You can also download and edit shared workbooks. When migrating from ExcelClient to Report Builder, it is recommended that you download workbooks from the ExcelClient repository and then upload them to the Report Builder repository.

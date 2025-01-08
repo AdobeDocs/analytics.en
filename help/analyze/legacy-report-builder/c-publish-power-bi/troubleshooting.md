@@ -7,6 +7,8 @@ exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
 ---
 # Troubleshooting Power BI integration
 
+{{legacy-arb}}
+
 Research and resolve common issues when using Report Builder with Power BI.
 
 ## Failure to publish to Power BI

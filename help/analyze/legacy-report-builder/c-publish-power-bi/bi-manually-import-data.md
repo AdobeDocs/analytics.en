@@ -7,6 +7,8 @@ exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
 ---
 # Manually import data to Power BI
 
+{{legacy-arb}}
+
 If you want to import Analytics data manually through Power BI, follow these instructions.
 
 1. In Power BI, click **[!UICONTROL Get Data]** in the lower left screen.

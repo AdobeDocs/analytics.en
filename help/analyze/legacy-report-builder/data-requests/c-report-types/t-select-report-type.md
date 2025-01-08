@@ -7,6 +7,8 @@ exl-id: c515eae5-93da-460b-8c72-7ddf3d7c5dfe
 ---
 # Select a report type
 
+{{legacy-arb}}
+
 Steps to select the base report type for your data request.
 
 1. Navigate to [!UICONTROL Request Wizard: Step 1] window.

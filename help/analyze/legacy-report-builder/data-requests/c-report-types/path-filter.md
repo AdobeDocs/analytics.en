@@ -7,6 +7,8 @@ exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 ---
 # Filter a Path Report Using the Request Wizard
 
+{{legacy-arb}}
+
 Describes the steps involved in applying filters to a pathing report.
 
 This example uses Site Section Paths.

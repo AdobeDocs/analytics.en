@@ -8,6 +8,8 @@ exl-id: ff3beae3-a776-4bc1-b394-c5c422e5f521
 ---
 # Name a request
 
+{{legacy-arb}}
+
 You can specify a custom name for your request, which displays in the Request Manager.
 
 For more information, see [Format Display Headers](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md).

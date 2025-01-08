@@ -8,6 +8,8 @@ exl-id: f9fd18a6-2c03-468a-a022-9f4d263f166d
 ---
 # Select a report suite
 
+{{legacy-arb}}
+
 Steps to help you select a report suite in Excel.
 
 1. In Excel, click **[!UICONTROL Add-Ins]**.

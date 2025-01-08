@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
 ---
 # Create a Data Block
 
@@ -12,29 +13,31 @@ A *data block* is the table of data created by a single data request. A Report B
 
 ## Configure the data block
 
-Configure the initial data block parameters for the Data block location, report suites, and a Date range.
+Configure the initial data block parameters for the data block location, report suite, and a date range.
 
-1. Click **Create data block**.
+1. Click **[!UICONTROL Create]**.
 
     ![Screenshot showing the Create data block option.](./assets/create_db.png)
 
-1. Set the **Data block location**.
+1. Set the **[!UICONTROL Data block location]**.
 
     The data block location option defines the worksheet location where report builder adds the data to your worksheet.
 
-    To specify the data block location, select a single cell in the worksheet or enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified will be the upper-left corner of the data block when the data is retrieved.
+    To specify the data block location, select a single cell in the worksheet and click the icon next to **[!UICONTROL Data block location]**: 
+    
+    You can also enter a cell address such as a3, \\\$a3, a\\\$3 or sheet1!a2. The cell specified marks the upper-left corner of the data block when the data is retrieved.
 
-1. Choose the **report suites**.
+1. Choose a **Report Suite**.
 
     The report suites option allows you to choose a report suite from a drop-down menu or to reference a report suite from a cell location.
 
-1. Set the **Date range**.
+1. Set the **[!UICONTROL Date range]**.
 
     The Date range option allows you to choose a date range. Date ranges may be fixed or rolling. For information about data range options, see [Select a Date Range](select-date-range.md).
 
-1. Click **Next**.
+1. Click **[!UICONTROL Next]**.
 
-    ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_data_view3.png)
+    ![Screenshot showing the date range option and the active Next button.](./assets/choose_date_report_suite.png)
 
     After you configure the data block, you can select dimensions, metrics, and segments to build your data block. The Dimensions, Metrics, and Filters tabs are displayed above the Table builder pane.
 
@@ -42,19 +45,19 @@ Configure the initial data block parameters for the Data block location, report
 
 To build the data block, select report components, and then customize the layout.
 
-1. Add Dimensions, Metrics, and Filters.
+1. Add Dimensions, Metrics, and Segments.
 
-    Scroll the component lists or use the **search** field to locate components. Drag and drop components to the Table pane or double-click a component name in the list to automatically add the component to the Table pane.
+    Scroll the component lists or use the **[!UICONTROL Search]** field to locate components. Drag and drop components to the Table pane or double-click a component name in the list to automatically add the component to the Table pane.
 
     Double-click a component to add it to a default section of the table.
 
     - Dimension components are added to the Row section or to the Column section if you have a dimension already in the columns.
     - Date components are added to the Column section.
-    - Filter components are added to the Filters section.
+    - Segment components are added to the Segments section.
 
     **Start date as a Dimension**
 
-    Set the Start date as a dimension to clearly identify the start date of your data block. This is helpful if you have a regularly scheduled report that has a rolling date range or if you have an unconventional date range and you need to be clear of the start date.
+    Set the **[!UICONTROL Start date]** as a dimension to clearly identify the start date of your data block. This is helpful if you have a regularly scheduled report that has a rolling date range or if you have an unconventional date range and you need to be clear on the start date.
 
     ![Screenshot showing the Start date in the list of dimensions.](./assets/start-date-dimension.png){width="30%"}
 
@@ -68,7 +71,7 @@ To build the data block, select report components, and then customize the layout
 
     **Display or hide row and column headers**
 
-1. Click the **Table** settings icon.
+1. Click the **[!UICONTROL Table settings]** icon.
 
     ![Screenshot showing the Table settings option.](./assets/table-settings.png){width="35%"}
 
@@ -82,11 +85,9 @@ To build the data block, select report components, and then customize the layout
 
 1. Click Hide or Show to toggle the dimension labels or column headers. All labels are displayed by default.
 
-1. Click **Finish**.
+1. Click **[!UICONTROL Finish]**.
 
     A processing message is displayed while the analytics data is retrieved.
-
-    ![The processing message.](./assets/image11.png)
 
     Report Builder retrieves the data and displays the completed data block in the worksheet.
 

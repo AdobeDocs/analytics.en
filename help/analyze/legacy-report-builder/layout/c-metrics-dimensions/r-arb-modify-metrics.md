@@ -8,6 +8,8 @@ exl-id: 3d2ebd3f-9090-4de6-8da9-50a2640ffaf2
 ---
 # Modify metrics - field definitions
 
+{{legacy-arb}}
+
 Field descriptions for configuring metrics in Report Builder.
 
 | Fields | Definitions |

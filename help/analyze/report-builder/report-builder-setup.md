@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
 ---
 # Report Builder Set Up
 

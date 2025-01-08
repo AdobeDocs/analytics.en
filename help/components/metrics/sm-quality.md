@@ -8,7 +8,7 @@ exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
 
 *This page describes the available metrics when you enable [!UICONTROL Media Quality] for a report suite. See [Streaming Media quality dimensions](../dimensions/sm-quality.md) for available dimensions.*
 
-Streaming Media quality metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection Add-on]**. Contact your Adobe Account Team for details.
+Streaming Media quality metrics provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these metrics require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Media Quality]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following metrics are available:
 

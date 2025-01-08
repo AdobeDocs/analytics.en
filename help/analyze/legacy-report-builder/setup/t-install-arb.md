@@ -8,6 +8,8 @@ exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 ---
 # Install Report Builder
 
+{{legacy-arb}}
+
 To install Report Builder:
 
 1. Click **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.

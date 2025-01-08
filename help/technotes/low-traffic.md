@@ -10,14 +10,14 @@ When a report has many unique values, Adobe provides functionality to ensure tha
 
 ## How [!UICONTROL Low-Traffic] works
 
-* Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshold]** and a **[!UICONTROL high threshold]**. These thresholds may be adjusted by Adobe from time to time. The current threshold limits are:
-  * **[!UICONTROL Low threshold]**: >2,000,000 unique values during the month.
-  * **[!UICONTROL High threshold]**: >2,100,000 unique values during the month.
-* Reporting is not affected if the variable does not reach the low threshold in a given month.
-* When a variable reaches the low threshold, data begins to be bucketed under [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
+* Adobe Analytics uses two thresholds to determine which unique values are displayed in reports each month: A **[!UICONTROL low threshold]** and a **[!UICONTROL high threshold]**. These thresholds can be adjusted by Adobe from time to time. The current threshold limits are:
+  * **[!UICONTROL Low threshold]**: 2,000,000 unique values during the month.
+  * **[!UICONTROL High threshold]**: 2,100,000 unique values during the month.
+* Reporting is not affected if a variable does not reach the low threshold in a given month.
+* When a variable reaches the low threshold, data begins to be bucketed under a dimension item labeled [!UICONTROL Low-Traffic]. Each value beyond this threshold goes through the following logic:
   * If a value is already seen in reports, add to that value as usual.
-  * If a value is not yet seen in reports, it initially is bucketed in the [!UICONTROL Low-Traffic] dimension item.
-  * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), it starts being recognized as its own dimension item. Instances collected before meeting the threshold remain under [!UICONTROL Low-Traffic]. The exact point at which the dimension item begins showing up in reports has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
+  * If a value is not yet seen in reports, initially add it to the [!UICONTROL Low-Traffic] dimension item.
+  * If a value that is bucketed under [!UICONTROL Low-Traffic] receives an influx of traffic (typically instances in the double digits in a single day), recognize it as its own dimension item. Instances collected before the influx of traffic remain under [!UICONTROL Low-Traffic]. The exact point at which the dimension item begins showing up in reports has many dependencies, such as the number of servers processing data for the report suite and the amount of time between each dimension item instance.
 * If a variable reaches the high threshold, more aggressive filtering is applied. Unique values require instances in the triple digits in a single day before being recognized as its own dimension item.
 
 This logic allows Adobe to optimize reporting capabilities while still allowing your organization to report on crucial dimension items collected later in the month. For example, if your organization runs a site with millions of articles and a new article becomes popular towards the end of the month (after exceeding both unique thresholds), you can still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
@@ -25,7 +25,7 @@ This logic allows Adobe to optimize reporting capabilities while still allowing 
 >[!NOTE]
 >The [Page](../components/dimensions/page.md) dimension uses several backend columns that all count towards unique thresholds, including `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, and `click_context`. These backend columns can cause [!UICONTROL Low-Traffic] logic to apply well before the number of unique Page dimension items in Workspace reaches the low threshold.
 
-Note that the low-traffic logic described above works best with variables which have dimension items that recur many times during the month. If a variable's dimension items are nearly or entirely unique on every hit, the variable will reach the low threshold quickly and all new dimension items for the month will end up in the low-traffic bucket.
+Note that low-traffic logic works best with variables that have dimension items that recur many times during the month. If a variable's dimension items are nearly or entirely unique on every hit, the variable's number of unique values reaches both thresholds quickly and all subsequent dimension items for the month end up in the low-traffic bucket.
 
 ## Changing unique limit thresholds
 

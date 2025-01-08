@@ -197,7 +197,11 @@ The following are some examples where Activity Map has all of the required infor
 
 +++What are some examples of links that Activity Map does NOT automatically track?
 
-The following are some examples where Activity Map does not track clicks.
+* Anchor tag does not have a valid `href`
+* Neither [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) or [`tl()`](/help/implement/vars/functions/tl-method.md) method present
+* `src` property missing on a form input element
+
+The following are some examples where Activity Map does not track clicks:
 
 ```html
 <!-- Anchor tag does not have a valid href -->

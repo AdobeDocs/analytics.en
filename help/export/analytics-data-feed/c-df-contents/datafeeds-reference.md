@@ -253,7 +253,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 
 ## Unused or retired columns
 
-The following list of columns are unused and do not typically contain data. Columns that do contain data are not supported by current data collection libraries, and are not available dimensions in Analysis Workspace.
+The following list of columns are unused, retired, or otherwise do not contain value in reporting. Some of these columns are tied to features that have been sunset, while others are no longer needed because of new and more robust features. Most of these columns do not contain data; columns that might still contain data are not supported by current data collection libraries and are not available dimensions in Analysis Workspace.
 
 * `adclassificationcreative`
 * `click_action`
@@ -332,6 +332,7 @@ The following list of columns are unused and do not typically contain data. Colu
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`

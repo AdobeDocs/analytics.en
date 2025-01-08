@@ -37,7 +37,7 @@ Flow visualizations let you configure the start or end of the path you are inter
    >
    >Calculated metrics cannot be used in the  **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** fields.
 
-1. If you choose a metric, you also need to provide a [!UICONTROL **Pathing Dimension**] to use to use as your path leading to or going from your selected component, as shown here. The default is [!UICONTROL **Page**].
+1. If you choose a metric, you also need to provide a [!UICONTROL **Pathing Dimension**] to use as your path leading to or coming from your selected component, as shown here. The default is [!UICONTROL **Page**].
 
    ![pathing dimension](assets/pathing-dim.png)
 
@@ -68,7 +68,7 @@ Flow visualizations let you configure the start or end of the path you are inter
 > 
 >1. Begin creating a flow visualization as described above.
 >1. Drag the [!UICONTROL **Page**] dimension into the **[!UICONTROL Contains]** field, then select [!UICONTROL **Build**].
->1. The Flow visualization builds with the most-viewed page visible in the focus node in the center of the visualization. You also see the top pages leading into that page (to the left of the focus node) as well as the top pages leading out of that focus page (to the right of the focus node).
+>1. The Flow visualization builds with the most-viewed page visible in the focus node in the center of the visualization. You also see the top pages leading into that page (to the left of the focus node) as well as the top pages leading out of that page (to the right of the focus node).
 >1. Analyze data in the flow, as described in [View and change the Flow output](#view-and-change-the-flow-output).
 
 

@@ -1,74 +1,49 @@
 ---
-description: The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
-title: Intelligent alerts
+description: Alerts allow for granular control over notifications, and integration with anomaly detection.
+title: Alerts overview
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 ---
-# Intelligent alerts
+# Alerts overview
 
-The Intelligent Alerts system allows for more granular control over alerts and integrates anomaly detection with the alert system.
+Alerts in Adobe Analytics allow you to be notified based on changed percentages or specific data points. 
 
-Here is a video overview:
+Depending on your Adobe Analytics package, you can also use alerts to be triggered based on anomaly thresholds. These alerts (also known as "Intelligent Alerts"), provide granular controls that integrate with [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), triggering when you need them most.
 
->[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
+Alerts let you:
 
-## Overview {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
+* Preview how often an alert will trigger
+* Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects
+* Create "stacked" alerts that capture multiple metrics in a single alert
+* Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below) (Available only to Adobe Analytics customers with a Select, Prime, or Ultimate package)
+
+The following video tutorial provides a basic overview of alerts: [Alerts](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+
+## Anomaly lookback for alerts
+
+>[!NOTE]
+>
+>Using alerts with anomaly detection (also known as _Intelligent Alerts_) is available only to organizations with a Adobe Analytics Prime or Ultimate package.
+
+If an alert uses anomaly detection, the training period varies based on the granularity selected for the alert.
+
+* Monthly granularity: 15 months + same range last year
+* Weekly granularity: 15 weeks + same range last year
+* Daily granularity: 35 days + same range last year
+* Hourly granularity: 336 hours
+
+For more information, see [Statistical techniques used in Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## Create alerts
+
+For information about how to create alerts in Adobe Analytics, see [Create alerts](/help/components/c-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Using timestamped data to create alerts can cause alerts to fire incorrectly. Adobe recommends using non-timestamped data for alerts.
 
-Intelligent Alerts let you
+## Manage alerts
 
-* Build alerts based on anomalies (90%, 95%, 99%, 99.75%, and 99.9% thresholds; % change; above/below).
-* Preview how often an alert will trigger.
-* Send alerts by e-mail or SMS with links to auto-generated Analysis Workspace projects.
-* Create "stacked" alerts that capture multiple metrics in a single alert.
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
 
-Components of the alert system include: Alert Builder, Alert Manager, Alert Preview, and better in-context access to creating alerts. The old alert system user interface will no longer be available, but the alerts will be migrated. Some legacy alert features [are no longer available](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
-
-There are three ways get to the Alert Builder:
-
-* By using the following shortcut in Analysis Workspace:
-
-  `ctrl (or cmd) + shift + a` 
-* By going directly to the Alert Builder:  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. This will open the Alert Builder and will pre-populate the builder with the appropriate metrics and filters applied from the table. You can then edit the alert, if needed.
-
-  ![](assets/create-alert-from-selection.png)
-
-
-## FAQ: How alerts are calculated and triggered {#trigger}
-
-The % thresholds are standard deviations. For example, 95% = 2 standard deviations and 99% = 3 standard deviations. Depending on the time granularity you choose, [different models](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) are used to calculate how far away (how many standard deviations) each data point is from the norm. If you set a lower threshold (such as 90%), you will get more anomalies than if you set a higher threshold (99%). 99.75% & 99.99% thresholds were introduced specifically for the hourly granularity so that it wouldn't trigger as many anomalies.
-
-+++ How far back does the alert's anomaly detection go to determine data anomalies?
-
-The training period varies based on the granularity selected. See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. Here is a summary: 
-
-* Monthly = 15 months + same range last year
-* Weekly = 15 weeks + same range last year
-* Daily = 35 days + same range last year
-* Hourly = 336 hours
-
-+++
-
-+++ To be alerted to only a dip in behavior or only a spike in behavior, can I use the anomaly feature or do I need to use an absolute value? 
-
-Using the absolute value would still trigger alerts on dips as well as spikes. You cannot isolate alerts for just dips or just spikes. 
-
-+++
-
-+++ Can I configure alerts to trigger only during certain hours of the day (such as business hours vs. non-business hours)?  
-
-Currently, no.
-
-+++
-
-+++ Can I get a table of the "expected values" that comprise the dotted line, or some sort of output of what those values are?
-
-Not in Workspace, but you can in Report Builder. See [this video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html) on Anomaly Detection in Report Builder. 
-
-Keep in mind that Report Builder uses less sophisticated anomaly detection methods. It uses a fixed 30-day training period, fixed 95% interval.
-
-+++
+For more information about how to manage existing alerts in Adobe Analytics, see [Manage alerts](/help/components/c-alerts/alert-manager.md).

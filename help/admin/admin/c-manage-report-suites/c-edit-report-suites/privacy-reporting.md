@@ -6,7 +6,11 @@ exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
 ---
 # Privacy reporting
 
-Privacy reporting lets you enable the [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md) and [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) dimensions for use in reporting.
+Privacy reporting lets you enable the [Consent Management Opt-In](/help/components/dimensions/cm-opt-in.md), [Consent Management Opt-Out](/help/components/dimensions/cm-opt-out.md) and [Ad Platform Consent](/help/components//dimensions/ad-consent.md) dimensions for use in reporting.
+
+>[!NOTE]
+>
+>We have added a new Ad Platform Consent flag. You need to re-enable Data Privacy Reports if you want this new variable to take effect.
 
 To access this page:
 
@@ -15,7 +19,7 @@ To access this page:
 
    ![Edit settings](assets/rsm-privacy-select.png)
 
-1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
+1. Click **[!UICONTROL Enable Data Privacy Reports]**.
 
    >[!NOTE]
    >

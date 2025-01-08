@@ -5,11 +5,11 @@ feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
 ---
-# Server Call Usage alerts
+# Server call usage alerts
 
 When you set up an alert, it applies to all report suites in all login companies of a Billing company.
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
+Server Calls Usage Alerts are part of the [Alerts](/help/components/c-alerts/alert-manager.md) user interface.
 
 It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. This alerts triggers a notification addressed to all the login company's admins if one of the following criteria is satisfied:
 
@@ -24,7 +24,7 @@ You can access server call usage alerts in two ways:
 * Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or 
 * Navigate to **[!UICONTROL Components]** > **[!UICONTROL Alerts]** in Adobe Analytics.
 
-## Create Server Call Usage Alerts {#create}
+## Create server call usage alerts {#create}
 
 To create additional alerts,
 

@@ -28,7 +28,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
 >
 >Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
 >
->Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire IMS org. Any mappings that you make cannot be modified after the migration completes.
+>**Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire IMS org, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.**
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 
@@ -100,7 +100,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
    
    Repeat this process for each dimension or metric that contains the warning icon.
    
-   After all dimensions and metrics in the Adobe Analytics report suite are mapped to a dimension or metric in the Customer Journey Analytics data view, a green check mark ![check mark](assets/report-suite-check.png) appears next to the report suite name in the [!UICONTROL **Map schema for report suites**] section.
+   After all dimensions and metrics in the Adobe Analytics report suite are mapped to a dimension or metric in the Customer Journey Analytics report suite, a green check mark ![check mark](assets/report-suite-check.png) appears next to the report suite name in the [!UICONTROL **Map schema for report suites**] section.
 
 1. (Conditional) If the project you are migrating contains more than one report suite, select another report suite in the [!UICONTROL **Map schema for report suites**] section, then repeat step 6 through Step 10. <!-- double-check that the step numbers are still correct -->
 
@@ -118,7 +118,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
 
 If a migration fails, you can retry the migration.
 
-Before retrying a failed migration, make sure you remove any [unsupported elements](#understand-unsupported-elements-that-cause-errors) from the project.
+Before retrying a failed migration, make sure you remove any [unsupported elements](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) from the project.
 
 >[!NOTE]
 >

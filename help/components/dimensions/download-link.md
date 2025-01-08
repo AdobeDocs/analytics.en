@@ -16,7 +16,11 @@ The 'Download link' [dimension](overview.md) reports the names of download links
 
 This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_d`. If the `pe` query string has a different value in the hit, this dimension does not collect data.
 
-If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"d"`. Populate the link name argument with the desired value.
+If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"d"`. Populate the link name argument with the desired value:
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## Dimension items
 

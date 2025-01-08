@@ -25,7 +25,7 @@ Data uploaded through data sources do not impact [Page views](/help/components/m
 
 +++Can I delete data that was imported using data sources?
 
-**No.** Data uploaded into reports using data sources is **permanent**. It cannot be removed, not even by Adobe, once it has been imported. Adobe strongly recommends uploading data sources data into a test report suite before uploading it into a production report suite.
+Yes. You can delete this data using the [Data Repair API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). In addition, Adobe strongly recommends uploading data sources data into a test report suite before uploading it into a production report suite.
 +++
 
 +++How much data can I import at a time?

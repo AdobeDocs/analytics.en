@@ -27,9 +27,9 @@ Adobe Analytics helps organizations understand where customers interact with the
 
 The following key features in Adobe Analytics provide these marketing capabilities:
 
-* [Multichannel data collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=en)
+* [Multichannel data collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
 
-* [Offline data integration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+* [Offline data integration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
 
 * [Ad hoc analysis in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
@@ -45,8 +45,8 @@ Predictive analytics uses machine learning and advanced statistical modeling to 
 
 The following key features in Adobe Analytics provide these predictive capabilities:
 
-* [Anomaly detection](#anomaly-detection)
+* [Anomaly detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [Contribution analysis](#contribution-analysis)
+* [Contribution analysis](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Intelligent alerts](#intelligent-alerts)
+* [Alerts](/help/components/c-alerts/intellligent-alerts.md)

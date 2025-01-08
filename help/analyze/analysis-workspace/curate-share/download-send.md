@@ -13,6 +13,18 @@ Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically
 
 ## Download a project as CSV or PDF {#download-project}
 
+Consider the following when downloading projects:
+
+* When downloading projects as a CSV or PDF, the project can be saved or unsaved when you request a project download. However, only saved projects can be [scheduled](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). 
+
+* When downloading projects as a PDF:
+  * Downloads can take several minutes to export because the project is re-run on Adobe servers before rendering in PDF format. We recommend not leaving the project until the PDF downloads in your browser. However, you can continue to make changes to the project while you wait. If a PDF takes longer than 5 minutes to render, you will be prompted to email it instead.
+  * Downloads are rendered as a single page with no pagination applied.
+  * PDF renderings contain what is on the page in Workspace. If a project has custom-sized visualizations and panels, you need to change them to be auto-sized (button in top-right corner) so that there will be no truncated content.
+  * Any [hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) that exist within freeform tables are not functional in the downloaded PDF. 
+
+To download a project as a CSV or PDF file:
+
 1. Do either of the following, depending on what format you want to download the project in:
 
    * **PDF:** Select **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
@@ -26,13 +38,7 @@ Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically
    ![](assets/download-project.png)
 
 1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
-
-For project downloads, keep in mind:
-
-* The project can be saved or unsaved when you request a project download. However, only saved projects can be [scheduled](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html). 
-* PDFs downloaded in the browser can take several minutes to export because the project is re-run on Adobe servers before rendering in PDF format. We recommend not leaving the project until the PDF downloads in your browser. However, you can continue to make changes to the project while you wait. If a PDF takes longer than 5 minutes to render, you will be prompted to email it instead.
-* PDF downloads are rendered as a single page with no pagination applied.
-* When a project is rendered to PDF, we render what is on the page. If a project has custom-sized visualizations and panels, you need to change them to be auto-sized (button in top-right corner) so that there will be no truncated content.
+1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
 
 ## Copy data to clipboard (hotkey: Ctrl+C) {#copy-data}
 

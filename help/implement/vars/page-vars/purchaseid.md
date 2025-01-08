@@ -15,11 +15,23 @@ Purchase ID's apply to all visitors and expire after 37 months. If one visitor s
 
 ## Purchase ID using the Web SDK
 
-Purchase ID is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under the XDM field `commerce.order.purchaseID`.
+Purchase ID is mapped to the following variables:
+
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Purchase ID using the Adobe Analytics extension
 
-There is not a dedicated field in the Adobe Analytics extension to use this variable. Use the custom code editor, following AppMeasurement syntax.
+You can set purchase ID either while configuring the Analytics extension (global variables) or under rules.
+
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+2. Click the desired tag property.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click an existing [!UICONTROL Adobe Analytics - Set Variables] action or click the '+' icon.
+5. Set the [!UICONTROL Extension] drop-down list to Adobe Analytics, and the [!UICONTROL Action Type] to [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Purchase ID] section.
+
+You can set purchase ID to a value or a data element. You can also copy the value from another Analytics variable.
 
 ## s.purchaseID in AppMeasurement and the Analytics extension custom code editor
 

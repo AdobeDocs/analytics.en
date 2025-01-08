@@ -1,5 +1,5 @@
 ---
-description: Provides ranked breakdown reports in Data Warehouse, sorted by descending metric value.
+description: Learn how sorting by metric makes Data Warehouse reports easy to interpret and to compare with other Analytics breakdown reporting views.
 title: Sort by Metric
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

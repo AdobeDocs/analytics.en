@@ -13,11 +13,13 @@ If [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) or [`trackExtern
 
 ## Link tracking using the Web SDK
 
-The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command. If you want Adobe Analytics to count a given XDM event as a link tracking call, make sure that your XDM data includes or is mapped to `web.webInteraction.name`, `web.webInteraction.URL`, and `web.webInteraction.type`.
+The Web SDK does not differentiate between page view calls and link tracking calls; both use the `sendEvent` command.
 
-* Link name maps to `web.webInteraction.name`.
-* Link URL maps to `web.webInteraction.URL`.
-* Link type maps to `web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
+If you use an XDM object and want Adobe Analytics to count a given event as a link tracking call, make sure that your XDM data includes:
+
+* Link name: mapped to `xdm.web.webInteraction.name`.
+* Link URL: mapped to `xdm.web.webInteraction.URL`.
+* Link type: mapped to `xdm.web.webInteraction.type`. Valid values include `other` (Custom links), `download` (Download links), and `exit` (Exit links).
 
 ```js
 alloy("sendEvent", {
@@ -27,6 +29,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+If you use a data object and want Adobe Analytics to count a given event as a link tracking call, make sure that your data object includes:
+
+* Link name: mapped to `data.__adobe.analytics.linkName`.
+* Link URL: mapped to `data.__adobe.analytics.linkURL`.
+* Link type: mapped to `data.__adobe.analytics.linkType`. Valid values include `o` (Custom links), `d` (Download links), and `e` (Exit links).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }
@@ -128,7 +150,7 @@ s.tl(true,"o","Example link");
 
 ### Make link tracking calls within a custom function
 
-You can consolidate link tracking code into a self-contained JavaScript function defined on the page or in a linked JavaScript file. Calls can then be made in the onClick function of each link. Set the following in a JavaScript file:
+You can consolidate link tracking code into a self-contained JavaScript function. Calls can then be made in the `onClick` function of each link. Set the following in a JavaScript file:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -145,6 +167,9 @@ You can then call the function whenever you want to track a given link:
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>Calling the `tl()` method indirectly can make Activity Map overlay reporting less convenient. You must click each link to register the function with the link element. However, Activity Map dimensions in Workspace are tracked the same.
 
 ### Avoid tracking duplicate links
 
@@ -167,4 +192,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Use the `tl()` method with Activity Map
+
+You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content. The `linkName` parameter is also used to set the [Activity Map Link](/help/components/dimensions/activity-map-link.md) dimension.
+
+When the `tl()` method is called directly from the HTML element's on-click event, Activity Map can display an overlay for that element when the web page is loaded. For example:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+When the `tl()` method is not called directly from the HTML element's on-click event, Activity Map can only display an overlay once that element has been clicked. For example:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

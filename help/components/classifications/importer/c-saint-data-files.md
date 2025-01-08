@@ -36,7 +36,7 @@ A data file must adhere to the following structure rules:
 
 * Classifications cannot contain a caret (^) since this character is used to denote a sub-classification.
 * Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes.
+* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. This policy also extends to classification and sub-classification column values, which are subject to the same 255 bytes limit.
 * Tab-delimited data file (create the template file using any spreadsheet application or text editor).
 * Either a [!DNL .tab] or [!DNL .txt] file extension.
 * A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #.

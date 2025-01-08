@@ -39,10 +39,7 @@ See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/c
 
 ## How to use markdown to format your topic
 
-All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
-
-* [Markdown basics](https://help.github.com/articles/markdown-basics/)
-* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+All articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) on GitHub Docs.
 
 ## Labels
 

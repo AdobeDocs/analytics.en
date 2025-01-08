@@ -5,36 +5,37 @@ feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
 ---
-# Transfer user assets or set account expirations
+# Manage legacy user accounts, assets, expirations
 
-Most user and product management functions have moved to the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). (To get started managing user permissions for Adobe Analytics users, see [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md).) 
+You can manage legacy user accounts, their migration status, the expiration data, the transfer of assets to other users, and more using **[!UICONTROL Admin] > [!UICONTROL All Admin] >  [!UICONTROL Analytics users & admin]**. 
 
-While most user and product management functions are now available only in the Adobe Admin Console, the administrative functions described on this page are available only from the Adobe Analytics Admin area.
+The Users screen shows a list of current Adobe Analytics users, with the following columns:
 
-## Transfer assets from one Analytics user to another {#transfer}
+| Column | Description |
+|---|---|
+| [!UICONTROL User ID] | The user id that the user uses to log in to Adobe Analytics.|
+| [!UICONTROL Name] | The name of the user. |
+| [!UICONTROL Migration status] | The status of the migration from a legacy user account to an Enterprise ID or Adobe ID.  The status can be Not initiated, Queued or Migrated. |
+| [!UICONTROL Email] | The email of the user. |
+| [!UICONTROL Legacy login] | The status of legacy login, which can be Enabled or Disabled. |
+| [!UICONTROL Date created] | Timestamp when the user account was created in the Adobe Analytics. |
+| [!UICONTROL Last Analytics access] | Timestamp of latest access of the user account to Adobe Analytics, |
+| [!UICONTROL Expiration] | Date of expiration for the user account, or None if the user account is not expiring. | 
 
-1. Go to **Admin** > [!UICONTROL **Analytics users & assets**].
-   The Users page is displayed.
-1. (Optional) Use either of the following options to more easily locate any users you are looking for:
-   * In the search field, begin typing the name of the user for whom you want to set an account expiration date.
-   * Select the **Filter** icon ![Filter icon](assets/filter-users-page.png) to show or hide the filter settings. You can filter by migration status or legacy login status.
-1. Select the user whose assets you want to transfer.
-   ![Set expiration for user account](assets/manage-user-assets.png)
-1. Select [!UICONTROL **Transfer assets**].
-1. On the Transfer assets page, in the [!UICONTROL **Transfer assets to**] field, begin typing the name of the user to whom you want to transfer the assets, then select their name when it appears in the drop-down menu.
-1. In the [!UICONTROL **Select account items to transfer**] section, navigate to and select the assets you want to transfer, then select [!UICONTROL **Transfer**].
-  
-   Any assets you selected are transferred to the designated user.
+![Users](assets/users.png)
 
+- To search for a specific user, use the ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Search by title* field.
+- To filter the list on migration status, select ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migration status]**. 
+- To filter the list on legacy login status, select ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Legacy login]**.
+- To change the display of columns, select ![Column settings](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) and select the columns from the popup.
 
-## Set an expiration date for a user account {#expiration}
+You can apply various actions when selecting one or more users from the list:
 
-1. Go to **Admin** > [!UICONTROL **Analytics users & assets**].
-   The Users page is displayed.
-(Optional) Use either of the following options to more easily locate any users you are looking for:
-   * In the search field, begin typing the name of the user for whom you want to set an account expiration date.
-   * Select the **Filter** icon ![Filter icon](assets/filter-users-page.png) to show or hide the filter settings. You can filter by migration status or legacy login status.
-1. Select the user for whom you want to set an account expiration date.
-   ![Set expiration for user account](assets/manage-user-assets.png)
-1. Select [!UICONTROL **Set expiration**].
-1. Choose the expiration date, then select [!UICONTROL **Done**].
+|  Action  | Description  |
+|---|---|
+| ![Migrate](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrate]** | You can migrate one or more users to Enterprise IDs or Adobe IDs. |
+| ![Calendar locked](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Set expiration]** | You can set an expiration date for using legacy Adobe Analytics login for the selected users.  Select the date to use a calendar popup to specify the date. Select **[!UICONTROL Done]** to confirm the expiration. |
+| ![Transfer assets](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transfer assets]** | This action is only available when selecting one user. If the user has assets that can be transferred, you can select the account items (like bookmarks, dashboards, and more). Select **[!UICONTROL Transfer]** to complete the transfer.<br/>![Transfers assets](assets/transfer-assets.png) |
+| ![Delete accounts](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Delete accounts]** | A dialog is shown to confirm the deletion of the selected accounts. Select **[!UICONTROL OK]** to delete the accounts. Select **[!UICONTROL Cancel]** to cancel. |
+| ![Export to CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Export to CSV]** | This action immediately downloads a file containing a comma-separated value list of the selected users with their details (name, migration status, email, and more). |
+

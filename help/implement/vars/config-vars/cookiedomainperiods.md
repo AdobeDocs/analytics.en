@@ -1,47 +1,53 @@
 ---
 title: cookieDomainPeriods
-description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
+description: (Deprecated) Help AppMeasurement determine where to store cookies when a website's top-level domain contains a period.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
 ---
-
 # cookieDomainPeriods
 
-AppMeasurement determines its cookie location by looking at the domain and domain suffix. For domains like `example.com`, AppMeasurement sets cookies in the correct location. However, for other domains like `example.co.uk`, AppMeasurement can mistakenly set cookies on `co.uk`. Most browsers reject cookies set on this invalid domain, causing issues with visitor identification.
-
-The `cookieDomainPeriods` variable helps AppMeasurement determine where Analytics cookies are set by calling out that the domain suffix has an extra period in it. This variable allows AppMeasurement to accommodate the extra period in the domain suffix and set cookies in the right location.
-
-* For domains like `example.com` or `www.example.com`, this variable does not need to be set. If needed, you can set this variable to `"2"`.
-* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
-
 >[!IMPORTANT]
+>This variable is deprecated. If you use any of the following:
 >
->Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement by default recognizes that cookies should be stored on `example.com`, even on URLs with many subdomains.
+>* AppMeasurement v2.26.x or later
+>* Adobe Analytics extension v1.9.4 or later
+>* Adobe Experience Cloud ID service
+>
+>This variable does nothing, as the applicable library automatically detects the domain to set cookies on.
 
-## Domain periods using the Web SDK
+The `cookieDomainPeriods` variable helped AppMeasurement determine where to set Analytics cookies by indicating that the top-level domain had an extra period in it. This variable allowed AppMeasurement to accommodate the extra period in the top-level domain and set cookies in the correct location. If your website's top-level domain does not include an extra period, this variable is not required.
 
-The Web SDK can determine the correct cookie storage domain without this variable.
+* For domains like `example.co.uk` or `www.example.co.jp`, set this variable to `"3"`.
+* For domains like `example.nsw.gov.au`, set this variable to `"4"`.
+* For domains like `example.com` or `products.example.org`, omit setting this variable or set it to `"2"`.
 
-## Domain Periods using the Adobe Analytics extension
+>[!TIP]
+>
+>Do not take subdomains into account for this variable. For example, do not set `cookieDomainPeriods` on the example URL `store.toys.example.com`. AppMeasurement recognizes that cookies are stored on `example.com`, even on URLs with many subdomains.
 
-Domain Periods is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
+For implementations on AppMeasurement v2.26.x or later, the [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie is used to help automatically determine the correct cookie domain. The library first attempts to write a cookie including two domain periods. If setting this cookie fails, it tries again, including more domain periods until it succeeds. This cookie is immediately deleted once set.
+
+## Cookie domain periods using the Web SDK
+
+The Web SDK automatically determines the correct domain to set cookies.
+
+## Cookie domain periods using the Adobe Analytics extension
+
+**[!UICONTROL Domain Periods]** is a field under the [!UICONTROL Cookies] accordion when configuring the Adobe Analytics extension.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
 1. Click the desired tag property.
 1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under Adobe Analytics.
 1. Expand the [!UICONTROL Cookies] accordion, which reveals the [!UICONTROL Domain Periods] field.
 
-Set this field to `3` only on domains containing a period in its suffix. Otherwise this field can be left blank.
+Set this field to `3` only on top-level domains that contain a period. Otherwise, this field can be left blank.
 
-## s.cookieDomainPeriods in AppMeasurement and the Analytics extension custom code editor
+## Cookie domain periods in AppMeasurement and the Analytics extension custom code editor
 
-The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on domains that contain a period in its suffix. Its default value is `"2"`, which accommodates most domains.
+The `cookieDomainPeriods` variable is a string that is typically set to `"3"`, only on top-level domains that contain a period. Its default value is `"2"`, which accommodates most top-level domains like `.com` and `.org`.
 
 ```js
-// Manually set cookieDomainPeriods for domains with a period in its suffix, such as www.example.co.uk
+// Manually set cookieDomainPeriods for domains with a period in the top-level domain, such as www.example.co.uk
 s.cookieDomainPeriods = "3";
-
-// Detect if a URL has a domain suffix with an extra period, and set s.cookieDomainPeriods automatically
-document.URL.indexOf(".co.") > 0 ? s.cookieDomainPeriods = "3" : s.cookieDomainPeriods = "2";
 ```

@@ -1,5 +1,5 @@
 ---
-description: The Request Manager lets you view, duplicate, and re-prioritize requests.
+description: Learn how to view, duplicate, and re-prioritize Data Warehouse requests.
 title: Manage Data Warehouse requests
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
@@ -9,13 +9,17 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 
 You can view and manage Data Warehouse requests that you have made. Only administrators can view and manage requests made by other users in their organization. 
 
-The following sections describe activities you can perform when managing requests. 
+The following sections describe activities that you can perform when managing requests. 
 
 ## View requests
 
+By default, you can view only the requests that you create, unless users have chosen to make their requests visible to others in the organization (as described in [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md)). System administrators can view all requests.
+
+To view Data Warehouse requests:
+
 1. In Adobe Analytics, select [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
-   The Data Warehouse page displays all requests you have made. <!-- just those you have made? -->Data is shown in each column. You can [configure which columns](#configure-columns) are visible.
+   The Data Warehouse page displays all requests that you have made. Data is shown in each column. You can [configure which columns](#configure-columns) are visible.
 
    <!-- add screenshot of main page -->
 
@@ -35,7 +39,7 @@ Consider the following when editing requests:
 
 * Not all fields associated with the request can be edited. Fields that can't be edited are dimmed.
 
-* Administrators who edit another user's request need to choose a new account and location that they can access.
+* Administrators who edit another user's request must choose a new account and location that they can access.
 
 To edit a scheduled request: 
 

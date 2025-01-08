@@ -21,7 +21,5 @@ user-guide-description: Bring data into Adobe Analytics from outside sources, ei
   + [FAQ](data-sources/faq.md)
 + [Bulk Data Insertion API](bulk-data-insertion-api/bulk-data-insert.md)
 + [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
-+ Data Connectors {#dataconnectors}
-  + [End-of-life for Analytics Data Connectors](data-connectors/data-connectors-eol.md)
 + Import Use Cases {#use-cases}
   + [Import Paid Search metrics using Data Sources](use-cases/paid-search-metrics.md)

@@ -13,6 +13,22 @@ Cumulative release notes for AppMeasurement for JavaScript.
 
 You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
+## Version 2.27.0
+
+Release Date: **August 12, 2024**
+
+* The `s_ac` cookie is now written with the `secure` flag if `writeSecureCookies` has been enabled.
+* Fixed an initialization error when the library is embedded inline.
+* Fixed an error if `localStorage` or `sessionStorage` has been disabled.
+* High Entropy User-Agent Hints are now included with link tracking calls (`tl`) if `collectHighEntropyUserAgentHints` has been enabled.
+
+## Version 2.26.0
+
+Release Date: **March 4, 2024**
+
+* AppMeasurement automatically recognizes and utilizes the root domain for country code top-level domains, which previously required specific cookie domain configurations. Updating can have implications because of this automatic recognition. See [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) for more information.
+* The distribution includes Identity Service Library 5.5.0 and Data Integration Library 9.6.
+
 ## Version 2.25.0
 
 Release Date: **September 12, 2023**

@@ -12,7 +12,7 @@ There are several ways to access the Segment Builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -41,13 +41,14 @@ You can add rule definitions and containers to define your segments.
 
    ![](assets/attribution-models.jpg)
 
-      **Example: Hit segment where eVar1 = A** 
+   **Example: Hit segment where eVar1 = A** 
 
-      |  Example  | A  | A  |  A (persisted) | B  | A  | C  |
-      |---|---|---|---|---|---|---|
-      |  Repeating  | X  | X  | X  | -  | X  | -  |
-      |  Instance  | X  | X  | - | - | X | - |
-      |  Non-repeating instance  | X | - | - | -  | X  | -  |
+   |  Example  | A  | A  |  A (persisted) | B  | A  | C  |
+   |---|---|---|---|---|---|---|
+   |  Repeating  | X  | X  | X  | -  | X  | -  |
+   |  Instance  | X  | X  | - | - | X | - |
+   |  Non-repeating instance  | X | - | - | -  | X  | -  |
+
 1. **[!UICONTROL And/Or/Then]**: Assigns the [!UICONTROL AND/OR/THEN] operators between containers or rules. The THEN operator lets you [define sequential segments](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metric]**: (Green sidebar) Metric that was dragged and dropped from the Metrics list.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.

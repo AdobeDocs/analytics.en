@@ -14,7 +14,7 @@ The following Document Cloud Management options are available when editing a rep
 
 * [!UICONTROL **Document Cloud Reporting**]
 
-  Reports specific to Streaming Media are available on the Media Reporting page. For more information about Media Reporting, see [Configure Document Cloud reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Reports specific to the Streaming Media Collection are available on the Media Reporting page. For more information about Media Reporting, see [Configure Document Cloud reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Document Cloud Classifications**]
 

@@ -12,13 +12,19 @@ For information about how to begin creating a request, as well as links to other
 
 To build a report for a Data Warehouse request:
 
-1. Begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
+1. If you haven't already, begin creating a request in Adobe Analytics by selecting **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Add**].
 
    For additional details, see [Create a Data Warehouse request](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. On the New Data Warehouse request page, select the [!UICONTROL **Build your report**] tab.
 
    ![Build report tab](assets/build-report.png)
+
+1. In the upper-left corner, choose the report suite that you want to use when building your Data Warehouse report.
+
+   Not all segments created in the Segment Builder are compatible with Data Warehouse. An error displays if you choose a virtual report suite that contains incompatible segments. 
+
+   For a list of supported functions within a segment, see [Data Warehouse segment compatibility](/help/components/segmentation/seg-reference/seg-compatibility.md). 
 
 1. Drag any segments, metrics, and dimensions into the builder. The report you build determines what data is included in the Data Warehouse request. 
 

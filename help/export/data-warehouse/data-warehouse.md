@@ -1,6 +1,6 @@
 ---
-description: Data warehouse refers to the copy of Analytics data for storage and custom reports, which you can run by filtering the data. You can request reports to display advanced data relationships from raw data based on your unique questions. Data warehouse reports are emailed or sent to a cloud storage provider, and may take up to 72 hours to process. Processing time depends on the complexity of the query and the amount of data requested.
-title: Data Warehouse overview
+description: Learn about Data Warehouse and how to filter the data, letting you create and run custom reports.
+title: Data Warehouse Overview
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
@@ -41,6 +41,3 @@ For information about how to create a Data Warehouse request, see [Create a Data
 
 For information about how to manage Data Warehouse requests, see [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md).
 
-## FAQ
-
-For a list of frequently asked questions, see [Data Warehouse FAQ](/help/export/data-warehouse/faq.md).

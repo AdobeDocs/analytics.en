@@ -1,214 +1,84 @@
 ---
-description: The dimensions that you can read and write (unless otherwise noted) using processing rules.
+description: The available dimensions and metrics that you can read and write using processing rules.
 subtopic: Processing rules
 title: Dimensions available to processing rules
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 ---
-# Dimensions available to processing rules
+# Dimensions and metrics available to processing rules
 
-The dimensions that you can read and write (unless otherwise noted) using processing rules.
+The available dimensions and metrics that you can read and write using processing rules.
 
-## Custom Values & Context Data {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Custom values and context data
 
-<table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Value </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Custom Value </p> </td> 
-   <td colname="col2"> <p>Custom text or values typed directly in the action of a processing rule. These values are available in subsequent conditions and rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Concatenated Value </p> </td> 
-   <td colname="col2"> <p>Values created by combining two values. For example, category and page name might be combined to create a subcategory. These values are available in subsequent conditions and rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Modified Values </p> </td> 
-   <td colname="col2"> <p>If a variable value is changed using processing rules, the changed value is used in subsequent conditions and rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Context Data Variables </p> </td> 
-   <td colname="col2"> <p>Named variables that are sent with a hit. </p> <p>Note:  Any data contained in a Context Data Variable must be copied to a reporting variable to appear in a report. Context Data Variables are not viewable in any reporting interface, including ClickStream Data Feeds. </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copy a Context Data Variable to an eVar </a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Set an Event Using a Context Data Variable </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Context Data Variables</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Value | Read/write status | Description |
+| --- | --- | --- |
+| Custom value | Read only | Custom text or values typed directly in the action of a processing rule. |
+| Concatenated value | Read only | Values that are created by combining two values. For example, channel and page name can be combined to create a subcategory. |
 
-## Traffic Variables {#section_225156106F8B41F8BC1E68D58DDC2652}
+## Hit attributes
 
-<table id="table_575F618C59DC4933BC77F935518EAE39"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>prop 1-75 </p> </td> 
-   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hierarchy 1-5 </p> </td> 
-   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Site Section </p> </td> 
-   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server </p> </td> 
-   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attribute | Read/write status | Description |
+| --- | --- | --- |
+| Page URL | Read + write | The [Page URL](/help/components/dimensions/page-url.md) dimension. Link tracking hits strip this dimension before reaching processing rules. If you re-insert a page URL value using processing rules, the hit is considered a [Page view](/help/components/metrics/page-views.md) instead of a [Page event](/help/components/metrics/page-events.md). Adobe recommends checking for a value in the page dimension before modifying it. |
+| Page name | Read + write | The [Page](/help/components/dimensions/page.md) dimension. Link tracking hits strip this dimension before reaching processing rules. If you re-insert a page value using processing rules, the hit is considered a [Page view](/help/components/metrics/page-views.md) instead of a [Page event](/help/components/metrics/page-events.md). Adobe recommends checking for a value in the page dimension before modifying it. |
+| Report suite ID | Read only | The report suite that the processing rule is executed on. This report suite can be different than the report suite originally sent through AppMeasurement, such as when using VISTA rules. |
+| AppMeasurement code version | Read only | The AppMeasurement library version used to generate the image request. |
+| IP address | Read only | The IP address of the visitor. |
+| User agent | Read only | The user agent of the visitor. |
+| Referrer | Read only | The [Referrer](/help/components/dimensions/referrer.md) dimension. |
+| Query string parameter | Read only | The value of a specified query string parameter in the current URL. |
+| Referring query string parameter | Read only | The value of a specified query string parameter in the referring URL, or an empty string if none exists. |
+| Referring domain | Read only | The page domain of the referring URL, including subdomains. |
+| Referring root domain | Read only | The page domain of the referring URL, excluding subdomains. |
+| Page query string | Read only | All query string parameters and their values in the current URL. |
+| Referring query string | Read only | All query string parameters and their values in the referring URL. |
+| Page path | Read only | The page path of the current URL. Page path does not include protocol, domain, or query string parameters. |
+| Page domain | Read only | The page domain of the current URL, including subdomains. Page domain does not include page path or query string parameters. |
+| Page root domain | Read only | The page domain of the current URL, excluding subdomains. |
+| Customer perspective | Read + write | A flag that determines if the hit is a mobile background hit. |
 
-## Hit Attributes {#section_07E69A86A47741A083FD84F112EB80D0}
+## Conversion variables
 
-<table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Attribute </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite ID (read-only) </p> </td> 
-   <td colname="col2"> <p>The report suite the processing rule is executed on, which may not be the original report suite specified in AppMeasurement. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Name </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Note:  Link tracking calls strip the <code>pageName</code> variable before they reach processing rules. If you re-insert a page name value using processing rules, the hit is considered a page view instead of a link tracking call. Adobe recommends checking to make sure that page name is already set before you modify it. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> or the current page URL if <code> s.pageURL</code> is not specified. <p>Note:  Link tracking calls strip the <code>pageURL</code> variable before they reach processing rules. If you re-insert a page URL value using processing rules, the hit is considered a page view instead of a link tracking call. Adobe recommends checking to make sure that page URL is already set before you modify it. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Query String Parameter </p> </td> 
-   <td colname="col2"> <p>The value of a specified query string parameter in the current URL, or null if no parameter exists. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Path </p> </td> 
-   <td colname="col2"> <p>The path of the page URL. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Domain </p> </td> 
-   <td colname="col2"> <p>The full hostname, specified in the URL. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Root Domain </p> </td> 
-   <td colname="col2"> <p>The last two sections of the hostname of the page. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page Query String </p> </td> 
-   <td colname="col2"> <p>The full query string of the URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referrer* (read-only) </p> </td> 
-   <td colname="col2"> <p>HTTP referrer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referring Query String Parameter (read-only) </p> </td> 
-   <td colname="col2"> <p>The value of a specified query string parameter in the referring URL, or null if no parameter exists. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>If you are running JavaScript AppMeasurement H.25.2 or earlier, the page URL might be truncated after 255 characters. JavaScript AppMeasurement H.25.3 (released January 2013) and later provide the full URL to processing rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referring Domain (read-only) </p> </td> 
-   <td colname="col2"> <p>The full hostname of the referrer. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referring Root Domain (read-only) </p> </td> 
-   <td colname="col2"> <p>The last two sections of the hostname of the referrer. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referring Query String (read-only) </p> </td> 
-   <td colname="col2"> <p>Query string parameters contained in the referring URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>IP Address (read-only) </p> </td> 
-   <td colname="col2"> <p>IP address as reported by the browser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>User Agent (read-only) </p> </td> 
-   <td colname="col2"> <p>User agent as reported by the browser. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AppMeasurement Code Version (read-only) </p> </td> 
-   <td colname="col2"> <p>The version of the appMeasurement library used to make the request. When using image beacons, you can populate this with a custom value that is read using processing rules. This value appears at the following location in the URL: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variable | Read/write status | Description |
+| --- | --- | --- |
+| eVar 1-250 | Read + write | [eVar](/help/components/dimensions/evar.md) dimensions. |
+| Campaign | Read + write | The [Tracking code](/help/components/dimensions/tracking-code.md) dimension. |
+| Purchase ID | Read + write | The [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) implementation variable. |
+| State | Read + write | The [`state`](/help/implement/vars/page-vars/state.md) implementation variable is retired. |
+| Zip | Read + write | The [Zip code](/help/components/dimensions/zip-code.md) dimension. |
+| Currency code | Read + write | The [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) implementation variable. IMPORTANT: If you set this variable to an invalid value, the hit is discarded. |
+| Transaction ID | Read + write | The [`transactionID`](/help/import/data-sources/transactionid.md) implementation variable. |
 
-## Conversion Variables {#section_311856B21B3B49DBAA0539CFA06C409F}
+>[!NOTE]
+>Adobe does not support setting the [`products`](/help/implement/vars/page-vars/products.md) implementation variable using processing rules.
 
-<table id="table_E28729026EDA485989178A3B887B5983"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Campaign Tracking Code </p> </td> 
-   <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Currency Code </p> </td> 
-   <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>List Variables1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Purchase ID </p> </td> 
-   <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Transaction ID </p> </td> 
-   <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor State </p> </td> 
-   <td colname="col2"> <p> <code> s.state</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor Zip/Postal Code </p> </td> 
-   <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Traffic variables
 
-## Success Events {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+| Variable | Read/write status | Description |
+| --- | --- | --- |
+| Prop 1-75 | Read + write | [Prop](/help/components/dimensions/prop.md) dimensions. |
+| Hierarchy 1-5 | Read + write | [Hierarchy](/help/components/dimensions/hierarchy.md) dimensions. |
+| Server | Read + write | The [Server](/help/components/dimensions/server.md) dimension. |
+| Channel | Read + write | The [Site section](/help/components/dimensions/site-section.md) dimension. |
 
-Processing rules can set events but cannot read them as conditions.
+## Context variables
 
-<table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Event </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Event 1-1000 </p> <p>(For SiteCatalyst 15 customers, Event 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>purchase, scView, scAdd, and other cart events </p> </td> 
-   <td colname="col2"> <p>Predefined events. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+All [Context data variables](/help/implement/vars/page-vars/contextdata.md) that this report suite has seen in previous image requests. If processing rules do not place context data into another variable, that data is permanently lost. See [Copy a context data variable to an eVar](processing-rules-examples/processing-rules-copy-context-data.md) and [Set an event using a context data variable](processing-rules-examples/processing-rules-copy-context-data-event.md) for usage examples.
+
+## Success events
+
+Processing rules can set events but cannot read them as conditions. Set the rule action dropdown to **[!UICONTROL Set event]** to see available metrics to increment.
+
+| Variable | Read/write status | Description |
+| --- | --- | --- |
+| Orders | Write only | The [Orders](/help/components/metrics/orders.md) metric. |
+| Carts | Write only | The [Carts](/help/components/metrics/carts.md) metric. |
+| Cart views | Write only | The [Cart views](/help/components/metrics/cart-views.md) metric. |
+| Checkouts | Write only | The [Checkouts](/help/components/metrics/checkouts.md) metric. |
+| Cart additions | Write only | The [Cart additions](/help/components/metrics/cart-additions.md) metric. |
+| Cart removals | Write only | The [Cart removals](/help/components/metrics/cart-removals.md) metric. |
+| Event 1-1000 | Write only | [Custom events](/help/components/metrics/custom-events.md). |
+| Product views | Write only | The [Product views](/help/components/metrics/product-views.md) metric. |
+

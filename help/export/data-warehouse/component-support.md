@@ -1,5 +1,5 @@
 ---
-title: Component support in Data Warehouse
+title: Component Support in Data Warehouse
 description: Learn what additional dimensions and metrics are available in Data Warehouse and what is not supported.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
@@ -74,3 +74,10 @@ The following time-based dimensions are supported. However, the output of dates 
 * Day
 * Hour
 * Minute
+
+## Segments as dimensions in Data Warehouse
+
+When you use a segment as a dimension in Data Warehouse, the report returns a column containing `"0"` or `"1"`:
+
+* **`"0"`**: The dimension item did not meet the segment's criteria.
+* **`"1"`**: The dimension item met the segment's criteria.

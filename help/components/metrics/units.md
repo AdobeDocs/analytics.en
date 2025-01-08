@@ -6,7 +6,7 @@ exl-id: c7293445-0760-4237-83ae-812224ca6f4b
 ---
 # Units
 
-The 'Units' [metric](overview.md) shows the total number of products purchased within all orders. This metric is vital for eCommerce sites in measuring conversion. You can combine this metric with any dimension to see what which dimension items contributed to how many products were purchased. For example, you could see the top campaigns (using the [Tracking code](../dimensions/tracking-code.md) dimension) or top internal search terms (using an [eVar](../dimensions/evar.md)) that contributed to products purchased.
+The 'Units' [metric](overview.md) shows the total number of products purchased within all orders. This metric is vital for eCommerce sites in measuring conversion. You can combine this metric with any dimension to see which dimension items contributed to how many products were purchased. For example, you could see the top campaigns (using the [Tracking code](../dimensions/tracking-code.md) dimension) or top internal search terms (using an [eVar](../dimensions/evar.md)) that contributed to products purchased.
 
 ## How this metric is calculated
 

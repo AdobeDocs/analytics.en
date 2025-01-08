@@ -11,44 +11,51 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## New landing page features {#new-features}
+The Adobe Analytics landing page is comprised of the following subtabs: Projects, Reports, and Learning.
 
-| Feature | Description | Screenshot |
-| --- | --- | --- |
-| Expand [!UICONTROL Projects] table to full screen | To expand the table, just click the hamburger menu icon. This action will collapse the left-rail tabs. | ![Expand table](assets/landing-collapse2.png) |
-| Customize column width | Previously, the column width was fixed. Now you can adjust it by dragging the column separator. | ![Column width](assets/column-width.png)  |
-| Reorder pinned items | To move pinned items up and down, click the ellipsis next to the pinned item and select **[!UICONTROL Move up]** or **[!UICONTROL Move down]**. | ![Move pinned items](assets/move-up-down.png) |
-| New table columns | Click the [!UICONTROL Customize table] icon at the top right of the table. New table columns include: <ul><li>**[!UICONTROL Scheduled]**: Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner.</li><li>**[!UICONTROL Project ID]**: The project ID can be used for debugging projects.</li><li>**[!UICONTROL Longest Date Range]**: Longer date ranges increase project complexity and may increase processing and load times. </li><li>**[!UICONTROL Number of Queries]**: The total number of requests made to Analytics when the project loads. A higher number of project queries increases project complexity and may increase processing and load times. This data is available only after a project has loaded or a scheduled project was sent. </li></ul> | ![New columns](assets/new-columns.png)  |
-| Single click to open a report | Previously, you had to double click. |  |
-| New links to **[!UICONTROL Reports & Analytics]** reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Audience]** > **[!UICONTROL Bot Pages]**<li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Real-Time]**</li></ul> | ![New links](assets/report-links.png) |
-| New out-of-the-box reports | <ul><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Next page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Most popular]** > **[!UICONTROL Previous page]**</li><li>**[!UICONTROL Reports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Page analysis]** > **[!UICONTROL Page summary]**</li></ul>Note that these reports are in [!UICONTROL Workspace] format and require configuration and build. The output consists of a panel of high-level metrics, trended data, [!UICONTROL Flow] visualization, and more. You can modify these reports and change dimensions, dimension items, etc. These reports are also available as panels under Workspace panels. | ![Next page](assets/next-page.png) |
-| **[!UICONTROL Create Project]** modal is back | When you click **[!UICONTROL Create Project]** in Workspace, you once again get the choice between a [!UICONTROL Blank project] and a [!UICONTROL Blank mobile scorecard]. You can also choose from any templates your company has created. | ![Create new](assets/create-new.png) |
-| Also available in Customer Journey Analytics | This landing page, in a modified form, is also available in Customer Journey Analytics. |  |
+**[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 
-{style="table-layout:auto"}
+**[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as templates in Workspace.
 
-## Top menu structure {#top-menu}
-
-![Top menu](assets/top-menus.png)
-
-* Top Analytics menu: Most reports are now in the [!UICONTROL Reports] menu in the left rail.
-* The left rail has three tabs: [!UICONTROL Projects], [!UICONTROL Reports], and [!UICONTROL Learning].
-
-### Terminology 
-
-* **[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
-* **[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as templates in Workspace.
-* **[!UICONTROL Templates]** is no longer used as a term for Adobe's pre-built Workspace projects. They are now under [!UICONTROL Reports]. The term [!UICONTROL Templates] is still used for templates your company created.
+The **[!UICONTROL Learning]** tab contains hands-on video tours, tutorials, and links to documentation.
 
 ## Navigate the [!UICONTROL Projects] tab {#navigate-projects}
 
-[!UICONTROL Projects] serves as the [!UICONTROL Workspace] home page. The Projects tab displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. Use this page to view, create, and modify folders, projects, and mobile scorecards. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+The [!UICONTROL Projects] tab serves as the [!UICONTROL Workspace] home page. It displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. Use this page to view, create, and modify folders, projects, and mobile scorecards. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Landing all](assets/landing-all2.png)
 
 >[!NOTE]
 >
 >Several of the following settings persist during the session and across sessions. For example, the tab you selected, the selected filters, selected columns, and the column sort direction. Search results are not persistent.
+
+### Customize table columns
+
+To customize column widths, drag the vertical bar that separates each column. 
+
+To add or remove columns from the list of projects, click the column icon (![Landing all](/help/analyze/assets/select-column.png) ) in the top-right, then select or deselect column titles. 
+
+The available columns are:
+
+| Column name | Description | 
+|---------|----------|
+| [!UICONTROL **Name**] | Identifies the name of the project. |
+| [!UICONTROL **Type**] | Indicates whether this type is a Workspace project, a Mobile scorecard, or a folder. |
+| [!UICONTROL **Tags**] | Tags projects to organize them into groups. | 
+| [!UICONTROL **Scheduled**] | Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner. |
+| [!UICONTROL **Project role**] | Identifies the project roles: whether you are the project Owner and whether you have permissions to Edit or Duplicate the project. |
+| [!UICONTROL **Report suite**] | Identifies the Report Suites that are associated with the project.<br>Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
+| [!UICONTROL **Owner**] | Identifies the person who created the project. |
+| [!UICONTROL **Shared With**] | Shows who the project is currently shared with. |
+| [!UICONTROL **Last Modified**] | The date and time when the project was last modified. |
+| [!UICONTROL **Last Opened**] | Identifies the date that a project was last opened by the user who is currently viewing the Projects page. |
+| [!UICONTROL **Last Used**] | Helps determine whether a project is valuable to users in your organization by showing the date and time when the project was last opened by any user within the organization.<p>Consider the following when viewing this column:</p><ul><li>Usage information is available starting in September 2023.</li><li>This column is available only to system administrators.</li></ul> |
+| [!UICONTROL **Project ID**] | Can be used for debugging projects. |
+| [!UICONTROL **Longest Date Range**] | Longer date ranges increase project complexity and may increase processing and load times. |
+| [!UICONTROL **Number of queries**] | The total number of requests made to Analytics when the project loads. A higher number of project queries increases project complexity and may increase processing and load times. This data is available only after a project has loaded or a scheduled project was sent. |
+| [!UICONTROL **Location**] | Shows the folder where the project is located. |
+
+### Other UI elements on the Projects page
 
 | UI element | Definition |
 | --- | --- |
@@ -67,31 +74,8 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 | Pin icon | Pins items so they always appear at the top of your list but you can re-adjust the order by moving them up or down in the order. Use the ellipsis option menu and select **Move Up** or **Move down** in the list. |
 | Info (i) icon | Displays the following information about a project: Type, Project Role, Owner, Description, and who it is shared with. It also indicates who can [edit or duplicate](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) this project. |
 | Ellipsis (...) | Displays the project management actions you can perform: **Delete**, **Share**, **Rename**, **Copy**, **Unpin**, **Move Up**, **Move Down**, **Tag**, **Approve**, **Export CSV**, and **Move to**. You may not have permissions to perform all listed actions. |
-| [!UICONTROL Type] | Indicates whether this type is a Workspace project, a Mobile scorecard, or a folder. |
-| [!UICONTROL Tags] | Tags projects to organize them into groups. |
-| [!UICONTROL Project Role] | Identifies the project roles: whether you are the project Owner and whether you have permissions to Edit or Duplicate the project.  |
-| [!UICONTROL Report Suite] | Identifies the Report Suites that are associated with the project.<br>Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |
-| [!UICONTROL Owner] | Identifies the person who created the project. |
-| [!UICONTROL Last opened] | Identifies the date you last opened the project. |
-| Customize table icon | Selects which columns to view in the table. To add or remove columns from the list of projects, click the column icon (![Landing all](/help/analyze/assets/select-column.png) ) in the top-right, then select or deselect column titles.|
 | SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
-
-### Deprecation of the Project Manager Page {#deprecate-pm-page}
-
-With the release of the new landing page, we deprecated Project Manager as listed under the Components manager. The new landing page handles all of the functionality of the old Project Manager page and more. 
- 
-One common use case for the Project Manager page was to view all your projects. 
-
-To view all of your projects on the new landing page by using the filter rail, select **OTHER FILTERS** and then select **Show all**. 
-
-![Show all projects](assets/show-all-fIlter.png)
-
-If you're in the "Folders & Projects" view, a modal will pop-up asking if you want to switch to the "All projects" view which makes it easier to view all of your projects outside of any folders that they may be organized in.   Select **Switch to "All projects" view** to better view all of the projects you have access to. 
-
-![Switch to All projects](assets/switch-all-projects-view.png)
-
-Another use case for Admins is to manage company reports in order to delete, rename, tag, or approve reports. For information about managing reports, see [Managing company reports](#manage-company-reports).
 
 ## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
 

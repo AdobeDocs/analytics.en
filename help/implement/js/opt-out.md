@@ -3,13 +3,16 @@ title: Opt-out links
 description: Learn how to create an implement opt-out links for visitors to your site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+hide: yes
+hidefromtoc: yes
 role: Developer
 ---
 # Implement opt-out links
 
 >[!IMPORTANT]
 >
-> **This help page provides Adobe Analytics customers with the ability to provide their users with opt-out links. If you are not an Adobe Analytics customer, see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.**
+> This article provides **Adobe Analytics customers who (are planning to) implement Adobe Analytics** on their website with instructions on how to provide website users  with opt-out links. <p><p>
+> If you are **visiting a website that has implemented Adobe Analytics**, and you want to opt out, **<span style="color:red">this article is NOT for you</span>**. Please see [Adobe Privacy Choices](https://www.adobe.com/privacy/opt-out.html) to control how Adobe uses your information.
 
 Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being analyzed.
 

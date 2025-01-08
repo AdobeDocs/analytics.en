@@ -53,6 +53,8 @@ This visualization addresses various common use cases, including:
 
 ## View the output
 
+The output should look something like this:
+
 ![](assets/key-metric-output.png)
 
 Consider the following when viewing the output:

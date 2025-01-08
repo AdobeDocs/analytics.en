@@ -1,6 +1,6 @@
 ---
 title: Visits
-description: A sequence of page views in a sitting.
+description: Learn about the Visits metric in Analytics. See how it is calculated, the behaviors that affect it, how to change its definition, and more.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 ---
@@ -23,7 +23,7 @@ A visit does not necessarily coincide with a browser session because of the abov
 
 If a visitor performs any of these actions, a new visit starts:
 
-* Clears their cache mid-session and continues browsing your site
+* Deletes their cookies mid-session and continues browsing your site
 * Leaves your site open in a tab for longer than 30 minutes, then continues browsing
 * Opens a different browser and navigates to your site on the same computer
 * The same person browsing your site on different devices
@@ -39,8 +39,8 @@ If a visitor performs any of these actions, a new visit does **not** start as lo
 
 You can change the definition of a visit to a time other than 30 minutes.
 
-* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout using the [!UICONTROL Visit timeout] drop-down list. You can change visit timeout to any reasonable value.
-* For standard report suites, contact Customer Care to request visit length be shortened for a given report suite. Visit length for standard report suites cannot exceed 30 minutes, so you can only shorten it.
+* For [Virtual report suites](../vrs/vrs-about.md), you can change the visit timeout (time between hits which causes a new visit to start)) using the [!UICONTROL Visit timeout] drop-down list. You can change visit timeout to any reasonable value.
+* For standard report suites, contact Customer Care to request visit timeout (time between hits which causes a new visit to start) be shortened for a given report suite. Visit timeout for standard report suites cannot exceed 30 minutes, so you can only shorten it.
 
 ## Visits that span a date boundary
 

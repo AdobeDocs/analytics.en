@@ -18,7 +18,7 @@ Before you can use Adobe Analytics, you must have:
 
 * A supported browser
 
-  Each user accessing Adobe Analytics must use a supported browser. For more information, see the [Adobe Analytics system requirements](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=en).
+  Each user accessing Adobe Analytics must use a supported browser. For more information, see the [Adobe Analytics system requirements](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
 
 ## System requirements
 
@@ -37,5 +37,5 @@ Most Adobe Analytics solutions, including Analysis Workspace, are browser-based.
 
 See the linked solution page for that solution's system requirements.
 
-* [Report Builder system requirements](/help/analyze/report-builder/setup/system-requirements.md)
+* [Legacy Report Builder system requirements](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

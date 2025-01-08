@@ -52,9 +52,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->The `abort` variable resets to `false` after every tracking call. If you need to abort subsequent tracking calls on the same page, set `abort` to `true` again.
+>The `abort` variable resets to `false` after every tracking call. If you want to abort subsequent tracking calls on the same page, set `abort` to `true` again.
 
-For example, the `abort` variable can be set in the [`doPlugins()`](../functions/doplugins.md) function, which is the last function to run before an image request is sent to Adobe. This example operates similarly to the `onBeforeEventSend` callback using the Web SDK.
+The `abort` variable can be set in the [`doPlugins()`](../functions/doplugins.md) function, which is the last function to run before an image request is sent to Adobe. This example operates similarly to the `onBeforeEventSend` callback using the Web SDK.
 
 ```js
 s.doPlugins = function(s) {

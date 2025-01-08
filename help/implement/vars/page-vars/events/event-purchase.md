@@ -21,11 +21,37 @@ When you set a purchase event, it affects the following metrics:
 
 ## Set the purchase event using the Web SDK
 
-The purchase event is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) under several XDM fields:
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), the purchase event uses the following XDM fields:
 
-* Orders are mapped to `commerce.purchases.value`.
-* Units are mapped to the sum of all `productListItems[].quantity` fields.
-* Revenue is mapped to the sum of all `productListItems[].priceTotal` fields.
+* Orders are mapped to `xdm.commerce.purchases.value`.
+* Units are mapped to the sum of all `xdm.productListItems[].quantity` fields. See [`products`](../products.md) for more information.
+* Revenue is mapped to the sum of all `xdm.productListItems[].priceTotal` fields.
+
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
+If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), the purchase event uses `data.__adobe.analytics.events`, following AppMeasurement string syntax.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## Set the purchase event using the Adobe Analytics extension
 

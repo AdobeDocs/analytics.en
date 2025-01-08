@@ -70,7 +70,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> to the latest version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup"> Report Builder</a> to the latest version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>When does the migration begin? </p> </td> 
@@ -263,7 +263,7 @@ Important information about the migration process and how it impacts current use
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Log-in As </p> </td> 
-   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console will no longer be able to use the "Log-In As" function to access non-Admin user accounts that have been migrated to the Adobe Admin Console. This feature is being deprecated from Analytics. </p> </td> 
+   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console will no longer be able to use the "Log-In As" function to access non-Admin user accounts that have been migrated to the Adobe Admin Console. This feature is retired. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User expiration and asset transfer </p> </td> 

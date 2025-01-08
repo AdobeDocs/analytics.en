@@ -15,6 +15,10 @@ Removing bot traffic typically reduces the volume of traffic and conversion metr
 
 Bot traffic data is stored in a separate repository for display in the Bots and Bot Pages reports. 
 
+>[!NOTE]
+>
+>The Adobe Experience Platform Edge Network provides a [bot detection service](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) which labels hits identified as being from bots. The bot detection process used in Adobe Analytics is separate and does not reference the bot score included on data arriving through the Edge Network. However, the two systems use the same IAB bot list.
+
 ## Update or upload bot rules
 
 >[!IMPORTANT]

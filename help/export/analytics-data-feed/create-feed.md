@@ -9,12 +9,9 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 When creating a data feed, you provide Adobe with:
 
 * The information about the destination where you want raw data files to be sent
-
 * The data you want to include in each file
 
->[!NOTE]
->
->Before you create a data feed, it's important to have a basic understanding of data feeds and to ensure that you meet all prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
+Before you create a data feed, it's important to have a basic understanding of data feeds and to ensure that you meet all prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
 ## Create and configure a data feed
 

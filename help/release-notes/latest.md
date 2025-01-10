@@ -14,7 +14,7 @@ These release notes cover the release period of January 22 through mid February,
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-|  |   |   |
+| **Improvements to Reports (also known as Templates) in Analysis Workspace** | Various improvements are now available for Reports (also known as Templates):<ul><li>Now called [!UICONTROL Templates] (no longer referred to as [!UICONTROL Reports]).</li><li>Improved user experience for viewing and finding templates, including the option to view templates in a column view or a card view.</li><li>New, more intuitive location for Company templates (located under **[!UICONTROL Workspace]** > **[!UICONTROL Templates]**).</li><li>Previously, company templates were accessed from the dialog box when creating a project.</li><li>Additional pre-built templates are available.</li></ul>  |  |   |
 | **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in January of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. |  | January 22, 2025 |
 
 ## Fixes in Adobe Analytics
@@ -35,7 +35,7 @@ Overage Alerts:
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume Triggers. Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
+| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
 
 ## End-of-life (EOL) notices {#eol}
 

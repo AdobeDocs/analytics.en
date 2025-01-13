@@ -7,6 +7,7 @@ exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 ---
 # Bullet graph {#bullet-graph}
 
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]

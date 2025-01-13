@@ -18,18 +18,28 @@ These release notes cover the release period of January 22 through mid February,
 | **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in January of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. |  | January 22, 2025 |
 
 ## Fixes in Adobe Analytics
- 
-Analysis Workspace: 
-Admin Tools: 
-Classifications: 
-Cross-Device Analytics: 
-Customer Attributes: 
-Data Collection: 
-Data Feeds: 
-Data Repair API: 
-Data Sources: 
-Data Warehouse: 
-Overage Alerts: 
+
+A4T: AN-365988
+Activity Map: AN-365320
+Admin Console: AN-363884
+Admin Tools: AN-356747; AN-358776
+Advertising Analytics: AN-355488
+Analysis Workspace: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462
+Analytics 1.4 API: AN-358059
+Classifications: AN-360049; AN-360424; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881;  AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364715; AN-364912; AN-364997; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; 
+Component Migration: AN-362236; AN-365429
+Contribution Analysis: AN-360146
+Data Feeds: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365272; AN-365519; AN-365760; AN-366152; 
+Data Repair API: AN-362773; AN-362874
+Data Sources: AN-360745; AN-362202; AN-364566
+Data Warehouse: AN-361447; AN-362616; AN-364524; AN-365108
+Mobile App: AN-362856; AN-365270
+Overage Alerts: AN-355594; AN-364547
+Platform: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
+Report Builder: AN-363478; AN-364433; AN-365610
+Reporting Activity Manager: AN-362440
+Segmentation: AN-359921
+VISTA rules: AN-362927
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

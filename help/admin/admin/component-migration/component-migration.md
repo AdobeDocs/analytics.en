@@ -52,7 +52,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
    
 1. In the [!UICONTROL **Project owner**] field, begin typing the name of the user who you want to set as the owner of the project in Customer Journey Analytics, then select their name in the drop-down menu. 
 
-   The owner that you specify has full management rights to the project. 
+   The owner that you specify has full management rights to the project. The owner must be an administrator in Customer Journey Analytics. You can change the ownership of the project in a later step.
 
 1. In the [!UICONTROL **Map schema for report suites**] section, select a report suite.
 

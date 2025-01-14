@@ -114,6 +114,8 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
 
    If the migration fails, see the [Retry a failed migration](#retry-a-failed-migration) section below for more information.
 
+1. (Optional) After a project is migrated, you can transfer ownership of the project to any user in Customer Journey Analytics. For more information, see [Transfer assets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in the Customer Journey Analytics Guide.
+
 ## Retry a failed migration
 
 If a migration fails, you can retry the migration.

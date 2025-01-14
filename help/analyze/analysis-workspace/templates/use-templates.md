@@ -3,8 +3,6 @@ description: An overview of how to use templates in Analysis Workspace.
 title: Use templates
 feature: Analysis Workspace
 role: User, Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 ---
 # Use templates

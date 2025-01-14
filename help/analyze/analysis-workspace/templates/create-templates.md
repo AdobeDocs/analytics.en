@@ -3,8 +3,6 @@ description: An overview of how to use default reports in Analysis Workspace.
 title: Use reports
 feature: Analysis Workspace
 role: User, Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 ---
 # Create and manage templates
@@ -112,3 +110,10 @@ Administrators can Rename, tag, and approve company templates.
 Like with templates that are provided by Adobe, users in the organization can access templates that administrators create. 
 
 For information about how to access a company template, see [Access and run a template](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Hide the Templates tab {#hide-reports}
+
+Administrators can hide the Templates tab for all users within their organization.
+
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]**.
+1. Select the option to **[!UICONTROL Hide Templates Tab]**.

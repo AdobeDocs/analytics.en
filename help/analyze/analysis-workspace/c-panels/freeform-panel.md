@@ -7,6 +7,29 @@ exl-id: 20354931-29a6-4180-b24a-73da24b40061
 ---
 # Freeform panel
 
-A Freeform Panel is a blank panel with a freeform table included as the starting state.
+>[!BEGINSHADEBOX]
 
-![](assets/freeform-panel.png)
+*This article documents the Freeform panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>See [Freeform panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) for the ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+
+A **[!UICONTROL Freeform panel]** is a blank panel with a [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization as the default starting state.
+
+## Use
+
+To use an **[!UICONTROL Freeform panel]**:
+
+1. Create an **[!UICONTROL Freeform panel]**. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).
+
+   ![The default Freeform panel showing a blank panel with a freeform table.](assets/freeform-panel.png)
+
+1. See [Use components in Workspace](/help/components/use-components-in-workspace.md) how you can add components to the freeform panel and [Freeform table](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization.
+
+
+>[!MORELIKETHIS]
+>
+>[Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Use components in Workspace](/help/analyze/components/use-components-in-workspace.md)
+>[Freeform table visualization](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>

@@ -1,0 +1,19 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S GraphScatter 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><circle class="fill" cx="9" cy="8" r="1.1"/>
+  <circle class="fill" cx="8" cy="4" r="1.1"/>
+  <circle class="fill" cx="15" cy="3" r="1.1"/>
+  <circle class="fill" cx="10" cy="10" r="1.1"/>
+  <circle class="fill" cx="13" cy="8" r="1.1"/>
+  <circle class="fill" cx="6" cy="10" r="1.1"/>
+  <circle class="fill" cx="6" cy="5" r="1.1"/>
+  <circle class="fill" cx="8" cy="14" r="1.1"/>
+  <circle class="fill" cx="3" cy="15" r="1.1"/>
+</svg>

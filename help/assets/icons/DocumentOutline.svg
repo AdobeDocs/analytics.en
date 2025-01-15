@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S DocumentOutline 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M10.3675,1H3.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V5.6325a1,1,0,0,0-.293-.707L11.0745,1.293A1,1,0,0,0,10.3675,1ZM14,16H4V2h6.0605V5.4395a.5.5,0,0,0,.5.5H14ZM11,5V2.633L13.367,5Z"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Polygon 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M17.305,8.765,13.471,2.2825A.5385.5385,0,0,0,13,2H5.023a.53849.53849,0,0,0-.473.2805L.696,8.7305a.53952.53952,0,0,0,0,.515L4.55,15.719A.53951.53951,0,0,0,5.023,16H13a.539.539,0,0,0,.4735-.2815l3.833-6.4405A.53951.53951,0,0,0,17.305,8.765ZM12.7235,15H5.3L1.694,8.99,5.2965,3H12.722l3.5845,6.02Z"/>
+</svg>

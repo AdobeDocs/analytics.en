@@ -1,0 +1,14 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S LineHeight 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" height="2" rx="0.5" width="11" x="6" y="2"/>
+  <rect class="fill" height="2" rx="0.5" width="11" x="6" y="8"/>
+  <rect class="fill" height="2" rx="0.5" width="11" x="6" y="14"/>
+  <path class="fill" d="M4.5,15H3.497L3.5,4H4.503a.25.25,0,0,0,.25-.25.245.245,0,0,0-.0735-.175L2.912,1.5565a.25.25,0,0,0-.3165,0L.8275,3.573a.24549.24549,0,0,0-.074.175.25.25,0,0,0,.25.25h1.004L2.0045,15H1a.25.25,0,0,0-.25.25.245.245,0,0,0,.0735.175L2.592,17.4415a.25.25,0,0,0,.316,0L4.676,15.425a.24549.24549,0,0,0,.074-.175A.25.25,0,0,0,4.5,15Z"/>
+</svg>

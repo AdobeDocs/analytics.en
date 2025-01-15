@@ -1,0 +1,29 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S SelectIntersect 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" height="3" width="1" x="1" y="5"/>
+  <path class="fill" d="M2,11V10H1v1.5555A.4445.4445,0,0,0,1.4445,12H4V11Z"/>
+  <path class="fill" d="M7,16V14H6v2.5555A.4445.4445,0,0,0,6.4445,17H8V16Z"/>
+  <rect class="fill" height="1" width="3" x="10" y="16"/>
+  <rect class="fill" height="3" width="1" x="16" y="10"/>
+  <path class="fill" d="M16,15v1H15v1h1.5a.5.5,0,0,0,.5-.5V15Z"/>
+  <path class="fill" d="M11.5555,1H10V2h1V4h1V1.4445A.4445.4445,0,0,0,11.5555,1Z"/>
+  <path class="fill" d="M16.5555,6H14V7h2V8h1V6.4445A.4445.4445,0,0,0,16.5555,6Z"/>
+  <rect class="fill" height="1" width="3" x="5" y="1"/>
+  <path class="fill" d="M3,1H1.5a.5.5,0,0,0-.5.5V3H2V2H3Z"/>
+  <rect class="fill" height="1.1315" width="1.125" x="6" y="6"/>
+  <rect class="fill" height="1.1315" width="1.125" x="8.42" y="6"/>
+  <rect class="fill" height="1.1315" width="1.125" x="10.8695" y="6.005"/>
+  <rect class="fill" height="1.1315" width="1.125" x="6" y="8.412"/>
+  <rect class="fill" height="1.1315" width="1.125" x="8.42" y="8.412"/>
+  <rect class="fill" height="1.1315" width="1.125" x="8.42" y="10.7535"/>
+  <rect class="fill" height="1.1315" width="1.125" x="10.8695" y="8.417"/>
+  <rect class="fill" height="1.1315" width="1.125" x="6.005" y="10.8685"/>
+  <rect class="fill" height="1.1315" width="1.125" x="10.8745" y="10.7535"/>
+</svg>

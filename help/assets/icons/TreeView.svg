@@ -1,0 +1,16 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" data-name="I C O N S" height="18" id="I_C_O_N_S" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S_TreeView_18_N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" data-name="Rectangle 12" height="3" id="Rectangle_12" rx="0.5" width="3" x="1" y="1"/>
+  <rect class="fill" data-name="Rectangle 13" height="2" id="Rectangle_13" rx="0.25" width="12" x="5" y="2"/>
+  <rect class="fill" data-name="Rectangle 14" height="2" id="Rectangle_14" rx="0.25" width="8" x="9" y="8"/>
+  <rect class="fill" data-name="Rectangle 15" height="2" id="Rectangle_15" rx="0.25" width="8" x="9" y="14"/>
+  <rect class="fill" data-name="Rectangle 16" height="3" id="Rectangle_16" rx="0.5" width="3" x="5" y="7"/>
+  <rect class="fill" data-name="Rectangle 17" height="3" id="Rectangle_17" rx="0.5" width="3" x="5" y="13"/>
+</svg>

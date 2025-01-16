@@ -122,7 +122,7 @@ A Freeform table is not available in this view.  To view the data source, you ca
 
 >[!MORELIKETHIS]
 >
->[Create a panel](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[Media playback time spent panel](media-playback-time-spent.md)
 >[Media average minute audience panel](average-minute-audience-panel.md)
 >

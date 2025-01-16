@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 ---
 # Panels overview
 
-A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top-left icon in Workspace or a [blank panel](/help/analysis-workspace/c-panels/blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case.
+A [!UICONTROL panel] is a collection of tables and visualizations. You can access panels from the top-left icon in Workspace or a [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md). Panels are helpful when you want to organize your projects according to time periods, report suites, or analysis use case.
 
 ## Panel types
 
@@ -15,14 +15,14 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Cu
 
 | Panel name | Description |
 | --- | --- |
-| [Blank panel](/help/analysis-workspace/c-panels/blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
+| [Blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
 | [Attribution](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
 | [Analytics for Target](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
 | [Experimentation](experimentation.md) | Compare different user experiences, marketing, or messaging variations to determine which is best at driving a specific outcome. |
 | [Freeform](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
 | [Media average minute audience](average-minute-audience-panel.md) | Analyze the average minute audience for a specific piece of content, or over a customized time period. | 
 | [Media concurrent viewers](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
-| [Media playback time spent](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
+| [Media playback time spent](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
 | [Next or previous item](next-previous.md) | Show the next or previous pages people go to. |
 | [Quick insights](quickinsight.md) | Quickly build a freeform table and an accompanying visualization to analyze and uncover insights faster. |
 | [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
@@ -30,7 +30,7 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Cu
 
 [!UICONTROL Quick insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Attribution] lends itself to more advanced analyses. A ![AddCircle](/help/assets/icons/AddCircle.svg) is available at the bottom of your canvas, so you can add blank panels at any time.
 
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [Blank panel](/help/analysis-workspace/c-panels/blank-panel.md) or [Quick insights](/help/analysis-workspace/c-panels/quickinsight.md) your default as well. See [Projects & Analysis preferences](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences).
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [Blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) or [Quick insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) your default as well. See [Projects & Analysis preferences](/help/analyze/analysis-workspace/user-preferences.md#projects--analyses-preferences).
 
 
 ## Create a panel
@@ -58,7 +58,7 @@ You can:
   | ![Text](/help/assets/icons/Text.svg) | [Text](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyzw/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![Workflow](/help/assets/icons/GraphPathing.svg) | [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
-  | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [Area stacked](/help/analyze.analysis-workspace/visualizations/area.md) |
+  | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [Area stacked](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|
   | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) |
@@ -146,8 +146,7 @@ Drag and drop any segments from the left panel into the panel drop zone to begin
 
 Non-segment components can also be dragged directly into the drop zone to create quick segments, saving you the time and effort of going to the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). Segments created in this way are automatically defined as event-level segments. This definition can be quickly modified by selecting ![Edit](/help/assets/icons/Edit.svg) next to the segment name. 
 
-
-For more information, see [Quick segments](/help/components/filters/quick-filters.md).
+<!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
 ![Ad hoc segments that are made public and dropped into the drop zone.](assets/adhoc-segment-filter.png)
 

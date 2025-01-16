@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 ---
-# Page summary panel
+# Page summary panel {#page-summary}
 
 <!-- markdownlint-disable MD034 -->
 

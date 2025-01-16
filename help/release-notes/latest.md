@@ -19,7 +19,7 @@ These release notes cover the release period of January 22 through mid February,
 
 ## Fixes in Adobe Analytics
 
-A4T: AN-365988
+A4T: AN-355602; AN-365988
 Activity Map: AN-365320
 Admin Console: AN-363884
 Admin Tools: AN-356747; AN-358776

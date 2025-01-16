@@ -19,7 +19,7 @@ exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Quick insights panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>See [Quick insights panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) for the ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** version of this article.*
+*This article documents the Quick insights panel in **Adobe Analytics**.<br/>See [Quick insights panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) for the **Customer Journey Analytics** version of this article.*
 
 >[!ENDSHADEBOX]
 

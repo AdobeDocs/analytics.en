@@ -27,7 +27,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Segment comparison panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>There is no equivalent panel in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**.*
+*This article documents the Segment comparison panel in **Adobe Analytics**.<br/>There is no equivalent panel in **Customer Journey Analytics**.*
 
 >[!ENDSHADEBOX]
 

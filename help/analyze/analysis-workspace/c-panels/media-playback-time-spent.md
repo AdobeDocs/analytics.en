@@ -28,7 +28,7 @@ exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Media playback time spent panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>See [Media playback time spent panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) for the ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** version of this article.*
+*This article documents the Media playback time spent panel in **Adobe Analytics**.<br/>See [Media playback time spent panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) for the **Customer Journey Analytics** version of this article.*
 
 >[!ENDSHADEBOX]
 

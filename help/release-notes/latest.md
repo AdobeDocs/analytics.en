@@ -6,16 +6,16 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (January 2025 release)
 
-**Last update**: January 15, 2024
+**Last update**: January 16, 2024
 
-These release notes cover the release period of January 22 through mid February, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of January 15 through mid February, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Improvements to Reports (also known as Templates) in Analysis Workspace** | Various improvements are now available for Reports (also known as Templates):<ul><li>Now called [!UICONTROL Templates] (no longer referred to as [!UICONTROL Reports]).</li><li>Improved user experience for viewing and finding templates, including the option to view templates in a column view or a card view.</li><li>New, more intuitive location for Company templates (located under **[!UICONTROL Workspace]** > **[!UICONTROL Templates]**).</li><li>Previously, company templates were accessed from the dialog box when creating a project.</li><li>Additional pre-built templates are available.</li></ul>[Learn more on using templates](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>[Learn more about creating and managing templates](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/create-templates) | January 15, 2025 | January 30, 2025  |
-| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in January of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. |  | January ?, 2025 |
+| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in January of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. |  | February 11, 2025 |
 
 ## Fixes in Adobe Analytics
 

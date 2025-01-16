@@ -24,12 +24,12 @@ To use an **[!UICONTROL Freeform panel]**:
 
    ![The default Freeform panel showing a blank panel with a freeform table.](assets/freeform-panel.png)
 
-1. See [Use components in Workspace](/help/components/use-components-in-workspace.md) how you can add components to the freeform panel and [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization.
+1. See [Analytics components guide](/help/components/home.md) how you can add components to the freeform panel and [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization.
 
 
 >[!MORELIKETHIS]
 >
 >[Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Use components in Workspace](/help/analyze/components/use-components-in-workspace.md)
+>[Analytics components guide](/help/components/home.md)
 >[Freeform table visualization](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

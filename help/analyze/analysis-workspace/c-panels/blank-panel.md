@@ -75,5 +75,5 @@ You can:
 
 >[!MORELIKETHIS]
 >
->[Create a panel](/help/analyzee/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

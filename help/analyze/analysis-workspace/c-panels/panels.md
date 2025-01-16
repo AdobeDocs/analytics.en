@@ -18,7 +18,6 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Cu
 | [Blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
 | [Attribution](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
 | [Analytics for Target](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
-| [Experimentation](experimentation.md) | Compare different user experiences, marketing, or messaging variations to determine which is best at driving a specific outcome. |
 | [Freeform](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
 | [Media average minute audience](average-minute-audience-panel.md) | Analyze the average minute audience for a specific piece of content, or over a customized time period. | 
 | [Media concurrent viewers](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |

@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 ---
-# Map
+# Map {#map}
 
 <!-- markdownlint-disable MD034 -->
 

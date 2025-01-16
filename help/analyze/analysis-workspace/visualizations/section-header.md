@@ -25,7 +25,7 @@ role: User
 
 To identify and articulate sections within a panel, you can insert a ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Section header]** visualization anywhere within a panel.
 
-![Section header](/help/analysis-workspace/visualizations/assets/section-header.png)
+![Section header](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 
 To modify the text of the section header, simply select the **[!UICONTROL Section header]**.
 

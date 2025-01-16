@@ -55,7 +55,7 @@ You can:
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Bar](/help//analyze/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [Text](/help/analyze/analysis-workspace/visualizations/text.md) |
-  | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyzw/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
   | ![Workflow](/help/assets/icons/GraphPathing.svg) | [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [Area stacked](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |

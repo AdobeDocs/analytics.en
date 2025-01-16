@@ -43,7 +43,7 @@ The Segment comparison panel is a tool part of [Segment IQ](../../segment-iq.md)
 
 To use an **[!UICONTROL Attribution]** panel:
 
-1. Create an **[!UICONTROL Attribution]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).
+1. Create an **[!UICONTROL Attribution]** panel. For information about how to create a panel, see [Create a panel](../panels.md#create-a-panel).
 
 1. Specify the [input](#panel-input) for the panel.
 

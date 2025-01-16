@@ -6,7 +6,24 @@ feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
-# Histogram
+# Histogram {#histogram}
+
+arkdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_histogram_button"
+>title="Histogram"
+>abstract="Create a histogram visualization to represent the distribution of numerical data in groups of ranges."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*This article documents the Histogram visualization in **Adobe Analytics**.<br/>See [Histogram](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
 
 A histogram is similar to a bar chart, but it groups numbers into ranges (buckets). Analytics automates the "bucketing" of numbers into ranges, but you can change the settings in [Advanced Settings](#section_09D774C584864D4CA6B5672DC2927477).
 

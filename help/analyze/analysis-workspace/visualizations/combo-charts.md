@@ -5,7 +5,23 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 ---
-# Combo chart
+# Combo chart {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="Combo"
+>abstract="Create a combo chart visualization quickly without the need to create a freeform table first."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*This article documents the Combo visualization in **Adobe Analytics**.<br/>See [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
 
 The [!UICONTROL Combo chart] visualization makes it easy to quickly build a comparison visualization without having to build a table first. You can easily view trends in your data in a line/bar combination. 
 

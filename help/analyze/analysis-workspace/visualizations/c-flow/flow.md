@@ -6,7 +6,28 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 ---
-# Flow overview
+# Flow overview {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="Flow"
+>abstract="Create a visualization to view the flow of people from one checkpoint to the next."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="Flow"
+>abstract="Analyze the flow of visits or visitors from one touchpoint to the next.<br/><br/>**Parameters**<br/>**Starts with**: Add a dimension, dimension item, or metric to see the top occurring touchpoints after the occurrence of the selected component.<br/>**Contains**: Add a dimension or dimension item to see the top occurring touchpoints before and after the occurrence of the selected component.<br/>**Ends with**: Add a dimension, dimension item, or metric to see the top occurring touchpoints before the occurrence of the selected component.<br/>**Pathing dimension**: Add a dimension to use as your path leading to or going from your selected component."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*This article documents the Flow visualization in **Adobe Analytics**.<br/>See [Flow](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
 
 The flow feature shows customer paths through your websites and apps.
 

@@ -5,7 +5,23 @@ feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 ---
-# Fallout overview
+# Fallout overview {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Fallout"
+>abstract="Creates a visualization to view how people successfully proceed to desired checkpoints."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*This article documents the Fallout visualization in **Adobe Analytics**.<br/>See [Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
 
 Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.
 

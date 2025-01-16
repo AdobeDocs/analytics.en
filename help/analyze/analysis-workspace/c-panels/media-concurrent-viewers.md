@@ -52,8 +52,6 @@ In Analysis Workspace, the Concurrent viewers metric is the number of unique per
 
 >[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
-{{videoaa}}
-
 +++
 
 ## Use

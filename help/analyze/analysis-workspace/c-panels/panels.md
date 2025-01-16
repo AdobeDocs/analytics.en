@@ -157,8 +157,6 @@ For more information, see [Quick segments](/help/components/filters/quick-filter
 
 >[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
 
-{{videoaa}}
-
 +++
 
 #### Static drop-down segments

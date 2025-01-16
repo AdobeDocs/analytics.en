@@ -1,0 +1,15 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S BoxExport 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M10.6425,2.1,7.861.5915a.7575.7575,0,0,0-.7215,0L.2045,4.35a.3905.3905,0,0,0,0,.6865L2.8225,6.45Z"/>
+  <path class="fill" d="M14.7955,4.35,12.221,2.953,4.4,7.3075,7.5,8.986l7.2955-3.95a.3905.3905,0,0,0,0-.686Z"/>
+  <path class="fill" d="M7,10.4855,0,6.5965V13.326a.8.8,0,0,0,.4115.7L7,17.6855Z"/>
+  <path class="fill" d="M14,12V10.336a.25.25,0,0,1,.433-.1705L18,14l-3.567,3.8345A.25.25,0,0,1,14,17.664V16H11.5a.5.5,0,0,1-.5-.5v-3a.5.5,0,0,1,.5-.5Z"/>
+  <path class="fill" d="M13.5,9H15V6.5965l-7,3.889v7.2l2-1.111V11.5a.5.5,0,0,1,.5-.5H13V9.5A.5.5,0,0,1,13.5,9Z"/>
+</svg>

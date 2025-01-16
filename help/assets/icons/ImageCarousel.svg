@@ -1,0 +1,17 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S ImageCarousel 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" height="11" rx="0.5" width="12" x="3" y="1"/>
+  <path class="fill" d="M2,11H.5a.5.5,0,0,1-.5-.5v-7A.5.5,0,0,1,.5,3H2Z"/>
+  <path class="fill" d="M17.5,11H16V3h1.5a.5.5,0,0,1,.5.5v7A.5.5,0,0,1,17.5,11Z"/>
+  <circle class="fill" cx="4" cy="15" r="0.7"/>
+  <circle class="fill" cx="7" cy="15" r="1.05"/>
+  <circle class="fill" cx="10" cy="15" r="0.7"/>
+  <circle class="fill" cx="13" cy="15" r="0.7"/>
+</svg>

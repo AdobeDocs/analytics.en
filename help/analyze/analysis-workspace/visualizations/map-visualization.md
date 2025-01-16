@@ -6,7 +6,43 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 ---
-# Map
+# Map {#map}
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_button"
+>title="Map"
+>abstract="This visualization represents metrics by overlaying them on a map. This is useful for identifying data across different geographic regions."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_bubbles"
+>title="Bubbles"
+>abstract="Plot events using bubbles."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_heatmap"
+>title="Heatmap"
+>abstract="Plot events using a heat map."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*This article documents the Map visualization in **Adobe Analytics**.<br/>There is currently no Map visualization available in **Customer Journey Analytics**.*
+
+>[!ENDSHADEBOX]
 
 ## Overview {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 

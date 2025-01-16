@@ -1,0 +1,13 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Multiple 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M15.5,2h-5a.5.5,0,0,0-.5.5V5h2a1,1,0,0,1,1,1V8h2.5a.5.5,0,0,0,.5-.5v-5A.5.5,0,0,0,15.5,2Z"/>
+  <rect class="fill" height="6" rx="0.5" width="6" x="2" y="10"/>
+  <path class="fill" d="M11.5,6h-5a.5.5,0,0,0-.5.5V9H8a1,1,0,0,1,1,1v2h2.5a.5.5,0,0,0,.5-.5v-5A.5.5,0,0,0,11.5,6Z"/>
+</svg>

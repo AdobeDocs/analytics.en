@@ -1,0 +1,12 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S PaddingTop 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M2,15.5V1.5H16v14ZM17,16V1a.5.5,0,0,0-.5-.5H1.5A.5.5,0,0,0,1,1V16a.5.5,0,0,0,.5.5h15A.5.5,0,0,0,17,16Z"/>
+  <rect class="fill" height="4" rx="0.25" width="12" x="3" y="2.5"/>
+</svg>

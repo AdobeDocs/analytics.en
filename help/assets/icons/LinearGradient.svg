@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/>
+  <rect class="fill" opacity="0.9" height="1" width="14" x="2" y="15"/>
+  <rect class="fill" opacity="0.8" height="1" width="14" x="2" y="14"/>
+  <rect class="fill" opacity="0.7" height="1" width="14" x="2" y="13"/>
+  <rect class="fill" opacity="0.6" height="1" width="14" x="2" y="12"/>
+  <rect class="fill" opacity="0.5" height="1" width="14" x="2" y="11"/>
+  <rect class="fill" opacity="0.4" height="1" width="14" x="2" y="10"/>
+  <rect class="fill" opacity="0.35" height="1" width="14" x="2" y="9"/>
+  <rect class="fill" opacity="0.3" height="1" width="14" x="2" y="8"/>    
+  <rect class="fill" opacity="0.25" height="1" width="14" x="2" y="7"/>    
+  <rect class="fill" opacity="0.2" height="1" width="14" x="2" y="6"/>
+  <rect class="fill" opacity="0.15" height="1" width="14" x="2" y="5"/>
+  <rect class="fill" opacity="0.1" height="1" width="14" x="2" y="4"/>
+  <rect class="fill" opacity="0.05" height="1" width="14" x="2" y="3"/>
+  <path class="fill" d="M1.5,17h15a.5.5,0,0,0,.5-.5V1.5a.5.5,0,0,0-.5-.5H1.5a.5.5,0,0,0-.5.5v15A.5.5,0,0,0,1.5,17ZM16,2V16H2V2Z"/>
+</svg>

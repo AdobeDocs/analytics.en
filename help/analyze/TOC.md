@@ -107,6 +107,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Line](analysis-workspace/visualizations/line.md)
     + [Map](analysis-workspace/visualizations/map-visualization.md)    
     + [Scatterplot](analysis-workspace/visualizations/scatterplot.md)
+    + [Section header](/help/analyze/analysis-workspace/visualizations/section-header.md)
     + [Summary Number and Summary Change](analysis-workspace/visualizations/summary-number-change.md)
     + [Text](analysis-workspace/visualizations/text.md)
     + [Tree map](analysis-workspace/visualizations/treemap.md)

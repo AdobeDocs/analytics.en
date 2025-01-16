@@ -8,13 +8,41 @@ exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 ---
 # Area and area stacked
 
-## Area {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
+>[!BEGINSHADEBOX]
+
+*This article documents the Area and Area stacked visualizations in **Adobe Analytics**.<br/>See [Area and area stacked ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+The area visualization has a standard and stacked option.
+
+## Area {#area}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_area_button"
+>title="Area graph"
+>abstract="Create an area graph visualization to represent the intersection of multiple metrics."
+
+<!-- markdownlint-enable MD034 -->
+
 
 This visualization is like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics.
 
 ![](assets/area.png)
 
-## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## Area stacked {#area-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_areastacked_button"
+>title="Area stacked"
+>abstract="Create an area graph visualization to represent the stacking of multiple metrics."
+
+<!-- markdownlint-enable MD034 -->
+
 
 This visualization is like an Area Chart, but each series begins at the top of the previous series.
 

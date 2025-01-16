@@ -1,0 +1,12 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Event 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M9.25,5.027A.247.247,0,0,0,9,5.271V17.668a.247.247,0,0,0,.423.177L13.255,14h4.5c.2225,0,.2395-.363.1125-.49S9.423,5.1,9.423,5.1A.24451.24451,0,0,0,9.25,5.027Z"/>
+  <polygon class="fill" points="6.996 15 2.999 15 2.999 3 15 3 15 7 17 9 17 1 1 1 1 17 6.996 17 6.996 15"/>
+</svg>

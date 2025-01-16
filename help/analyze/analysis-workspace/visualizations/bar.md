@@ -8,7 +8,24 @@ exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 ---
 # Bar and bar stacked
 
+>[!BEGINSHADEBOX]
+
+*This article documents the Bar and Bar stacked visualizations in **Adobe Analytics**.<br/>See [Bar and bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+The bar visualization has a standard and stacked option.
+
 ## Bar {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bar_button"
+>title="Bar"
+>abstract="Create a bar visualization to represent various values across one or more metrics."
+
+<!-- markdownlint-enable MD034 -->
 
 This visualization shows vertical bars representing various values across one or more metrics.
 
@@ -17,6 +34,15 @@ This visualization shows vertical bars representing various values across one or
 A granularity drop-down in the visualization settings lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc.
 
 ## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_barstacked_button"
+>title="Bar stacked"
+>abstract="Create a bar visualization to represent various values across one or more stacked metrics."
+
+<!-- markdownlint-enable MD034 -->
 
 This visualization is like a bar chart, but with the series bars stacked on top of each other.
 

@@ -8,13 +8,39 @@ exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 ---
 # Horizontal Bar and Horizontal Bar Stacked
 
-## Horizontal Bar {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+>[!BEGINSHADEBOX]
+
+*This article documents the Horizontal bar and Horizontal bar stacked visualizations in **Adobe Analytics**.<br/>See [Horizontal bar and horizontal bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) for the **Customer Journey Analytics** version of this article.*
+
+>[!ENDSHADEBOX]
+
+The horizontal bar visualization has a standard and stacked option.
+
+## Horizontal Bar {#horizontal-bar}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbar_button"
+>title="Horizontal bar"
+>abstract="Create a horizontal bar visualization to represent various values across one or more metrics."
+
+<!-- markdownlint-enable MD034 -->
 
 This visualization shows horizontal bars representing various values across one or more metrics.
 
 ![](assets/horizontal_bar.png)
 
-## Horizontal Bar Stacked {#section_50C08E9E20A94024A6553BC352ADB597}
+## Horizontal Bar Stacked {#horizontal-bar-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbarstacked_button"
+>title="Horizontal bar stacked"
+>abstract="Create a horizontal bar visualization to represent various values across one or more stacked metrics."
+
+<!-- markdownlint-enable MD034 -->
 
 This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
 

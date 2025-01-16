@@ -5,7 +5,17 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 ---
-# Calendar and date ranges overview
+# Calendar and date ranges overview {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="End time"
+>abstract="End times always include 59 seconds."
+
+<!-- markdownlint-enable MD034 -->
+
 
 In the calendar, you can specify dates and date ranges, or select a preset.
 

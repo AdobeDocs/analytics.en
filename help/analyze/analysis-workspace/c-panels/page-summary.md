@@ -5,7 +5,26 @@ feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 ---
-# Page summary panel
+# Page summary panel {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="Page summary"
+>abstract="Quickly review some of the high-level metrics as well as the movement to and from a specific page."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="Page summary panel"
+>abstract="Quickly review some of the high-level metrics as well as the movement to and from a specific page.<br/><br/>**Parameters**<br/>**Add a page dimension item**: Open the component rail, locate the Page dimension and expand it by clicking on the carrot to see the dimension items. Then, drag and drop the specific page you want to learn about into the builder. Once you have drag and dropped the dimension item, the report will automatically populate with key information about the page."
+
+<!-- markdownlint-enable MD034 -->
+
 
 This panel lets you easily explore key statistics about specific pages.
 

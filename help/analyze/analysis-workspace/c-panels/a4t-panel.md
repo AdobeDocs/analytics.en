@@ -27,7 +27,7 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Analytics for Target panel in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>See [Experimentation panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) for information on how to compare different user experiences, marketing, or messaging variations in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**.*
+*This article documents the Analytics for Target panel in **Adobe Analytics**.<br/>See [Experimentation panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) for information on how to compare different user experiences, marketing, or messaging variations in **Customer Journey Analytics**.*
 
 >[!ENDSHADEBOX]
 

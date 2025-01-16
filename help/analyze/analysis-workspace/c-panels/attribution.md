@@ -5,7 +5,7 @@ feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 ---
-# Attribution panel
+# Attribution panel {#attribution-panel}
 
 <!-- markdownlint-disable MD034 -->
 

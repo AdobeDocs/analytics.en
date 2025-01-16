@@ -25,7 +25,7 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Cu
 | [Media playback time spent](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
 | [Next or previous item](next-previous.md) | Show the next or previous pages people go to. |
 | [Quick insights](quickinsight.md) | Quickly build a freeform table and an accompanying visualization to analyze and uncover insights faster. |
-| [Segment comparison](c-segment-comparison/) | Quickly compare two segments across all data points to automatically find relevant differences. |
+| [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
 
 
 [!UICONTROL Quick insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Attribution] lends itself to more advanced analyses. A ![AddCircle](/help/assets/icons/AddCircle.svg) is available at the bottom of your canvas, so you can add blank panels at any time.
@@ -73,7 +73,7 @@ You can:
 
 ## Report suite
 
-Each panel is associated with a [report suite](/help/), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the dropdown menu at the top right of the panel.
+Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the dropdown menu at the top right of the panel.
 
 When you create a new panel, the default report suite is based on the report suite of the panel you last worked on in the Analysis Workspace project.
 

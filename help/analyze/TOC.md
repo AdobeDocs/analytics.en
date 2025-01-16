@@ -300,3 +300,4 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Set up executives to use dashboards](mobile-app/set-up-execs.md)
   + [Executive user quick start guide](mobile-app/executive.md)
 + [Labs](labs.md)
++ [Test](/help/release-notes/test.md)

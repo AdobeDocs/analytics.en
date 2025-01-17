@@ -8,40 +8,43 @@ exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 ---
 # Configure Activity Map settings
 
-The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+The Activity Map setting panel lets you modify the settings and properties for all types of overlay visualizations.
 
-Access the Activity Map Settings panel accessed by clicking the gear icon on the Activity Map toolbar.
+**[!UICONTROL Activity Map overlay]** > **Show settings (gear icon)** > **[!UICONTROL Settings]**
 
-## General settings {#section_697A12F099494D699A4BF498598178C5}
+## General settings
 
-| Setting | Description |
-| --- | --- |
-| **[!UICONTROL Companies]** | Select the applicable login company. |
-| **[!UICONTROL Report Suite]** | The list of report suites that are accessible to you is no longer limited to the report suites defined in the web page tag. You can now substitute the selected report suite (corresponding to one of the tags on the page) with another report suite. This new report suite does not need to be linked to a tag on the page. If you change the selected report suite in the Activity Map Settings, the  Save process causes all affected Analytics reports to be refreshed.<br>**Important**: [!UICONTROL Virtual report suites] are not compatible with [!UICONTROL Live Mode], only with [!UICONTROL Standard Mode]. If you are in [!UICONTROL Live Mode] for a Standard Report Suite, but select a [!UICONTROL Virtual report suite] in this dialog, once you click **[!UICONTROL OK]** here, the Standard Mode will be displayed. In addition, the Calendar control is reinitialized to match the report suite's calendar type (Gregorian, retail, custom...). |
-| **[!UICONTROL Page Name]** | The page to which these settings apply. |
-| **[!UICONTROL Language]** | The selection corresponds to the languages offered for Adobe Analytics. |
-| **[!UICONTROL Label Overlays With]** |<ul><li>**[!UICONTROL No Label]**: only applicable for the Gradient overlay. In this case, the color of the overlay conveys a sense for the ranking of the link</li><li>**[!UICONTROL Value]**: the raw metric total for that link</li><li>**[!UICONTROL Percent]**: percentage of the metric for this link on the total metric for the page.</li><li>**[!UICONTROL Rank]**: rank of this link across all links present in the rendered page</li></ul> |
-| **[!UICONTROL Label Font Size]** | Lets you increase/decrease the overlay label font size, using a slider, for better readability. |
-| **[!UICONTROL Gradient/Bubble Color]** | To display overlay link rankings for Gradient or Bubble overlay visualizations, select among a range of colors . |
-| **[!UICONTROL Color Gradient Based On]** | <ul><li>**[!UICONTROL Top 30 Rankings]**: Color intensity is normalized for the top 30 values.</li><li>**[!UICONTROL Absolute Metric Value]**: Color intensity is a function of the absolute metric value.</li></ul> |
-| **[!UICONTROL Gradient Transparency]** | Select the level of transparency for the Gradient overlays. This setting does not affect the [!UICONTROL Bubble] overlays. |
+Change general settings for the extension and overlays.
 
-## Standard settings {#section_24DB95376E1A448494ECF3F57743FC19}
+* **[!UICONTROL Companies]**: Shows the current Analytics organization that you are logged in to.
+* **[!UICONTROL Page name]**: Shows the name of the current page.
+* **[!UICONTROL Language]**: Changes the language for Activity Map extension labels. Does not change content on your web site or link names in reports. Supported languages include English, French, Chinese (simplified), Chinese (traditional), German, Japanese, Korean, Spanish, and Portuguese.
+* **[!UICONTROL Label overlays with]**: Determines what the bubble or gradient text is. The default setting is [!UICONTROL Rank]. Options include:
+  * **[!UICONTROL No label]**: No text within the labels, making them colored boxes
+  * **[!UICONTROL Value]**: Displays the number of link clicks ([Occurrences](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Percent]**: Displays the proportion of link clicks compared to the total number of link clicks on the page
+  * **[!UICONTROL Rank]**: The numeric rank of the link by number of link clicks.
+* **[!UICONTROL Label font size]**: Determines the size of the text within the bubble or gradient.
+* **[!UICONTROL Gradient color]**: Allows you to change the gradient color when the visualization type is [!UICONTROL Gradient].
+* **[!UICONTROL Bubble color]**: Allows you to change the bubble color when the visualization type is [!UICONTROL Bubble].
+* **[!UICONTROL Color gradient based on]**: Determines which metric a link's color intensity is based on when the visualization type is [!UICONTROL Gradient].
+  * **[!UICONTROL Top 30 rankings]**: Color intensity is normalized for the top 30 links.
+  * **[!UICONTROL Absolute metric value]**: Color intensity is a function of the absolute metric value.
+* **[!UICONTROL Gradient transparency]**: Determines the transparency of gradient overlays when the visualization type is [!UICONTROL Gradient]. This slider allows you to make the color overlay completely transparent, completely opaque, or anywhere in between.
 
-These settings apply to the standard mode overlay.
+## Standard settings
 
-| Setting | Description |
-| --- | --- |
-| **[!UICONTROL Dynamic Data Filtering]** | This drop-down list lets you show overlays for<ul><li>(default) All the links on the page</li><li>The top (highest) or bottom (lowest) # of ranked links on the page, where # can be a choice of 1, 10, 50, or 100.</li></ul> |
-| **[!UICONTROL Hide overlays for links that received no hits]**. | A checkbox that toggles the visibility of overlays for links that have no data.<ul><li>(default) If the checkbox is checked, then no overlay is shown when a link has no ActivityMap link data.</li><li>If the checkbox is unchecked, then if a link has no ActivityMap link data, an overlay is displayed and it has a label of "-", which means N/A (not applicable).  |
+Adjust settings for standard view.
 
-## Live settings {#section_D30F6E62FB5D404090B588F396A460AF}
+* **[!UICONTROL Dynamic data filtering]**: Allows you to change which links are displayed. 
+  * **[!UICONTROL Top]**: Displays the most popular links. Use the numeric drop-down list on the right to determine the number of top links to display. Options include 1, 10, 50, and 100.
+  * **[!UICONTROL Bottom]**: Displays the least popular links based on the number drop-down list. Use the numeric drop-down list on the right to determine the number of bottom links to display. Options include 1, 10, 50, and 100.
+  * **[!UICONTROL All links]**: Do not apply dynamic data filtering. The numeric drop-down list does not apply when this option is selected.
+* **[!UICONTROL Hide overlays for links that received no hits]**: If this box is checked, then links on the page with zero link clicks do not show an overlay and are not considered in dynamic data filtering.
 
-These settings apply to the live mode overlay.
+## Live settings
 
-|  Setting  | Description  |
-|---|---|
-| **[!UICONTROL Display Top]** | To display the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) as overlays, select the number of links.  |
-|  **[!UICONTROL Exclude bottom (%)]** | Select to eliminate Gainers-Losers links with sparse data. Filter out the bottom percentage of link changes to view only the links with enough data to show relevant gains or losses. The percentage is computed based on the number of links on that page. For example, filtering out the bottom 10% of a list of 200 links would filter out the bottom 20 links.  |
-|  **[!UICONTROL Auto Update Data]** | Lets you decide whether or not the Analytics data shown in the interface automatically updates when a new period is computed.  |
-|  **[!UICONTROL Auto Update Period]** | When checked, refreshes the web page with each new data retrieval so the links in the page can be more closely synced with the collected data.  |
+* **[!UICONTROL Display top]**: Display the top number of gainers or losers based on the numeric drop-down list on the left.
+* **[!UICONTROL Exclude bottom (%)]**: Filter out the bottom percentage of link changes to view only the links with enough data to show relevant gains or losses. The percentage is computed based on the number of links on that page. For example, filtering out the bottom 10% of a list of 200 links would filter out the bottom 20 links.
+* **[!UICONTROL Auto update data]**: Determines if the Analytics data shown in the overlay automatically updates when a new period is computed.
+* **[!UICONTROL Auto update period]**: When checked, refreshes the page with each new data retrieval so the links on the page are more closely synced with collected data.

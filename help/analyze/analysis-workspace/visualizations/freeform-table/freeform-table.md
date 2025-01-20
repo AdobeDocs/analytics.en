@@ -20,7 +20,7 @@ exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Freeform table visualization in **Adobe Analytics**.<br/>See [Freeform table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Freeform table visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Freeform table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

@@ -8,7 +8,7 @@ exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
 # [!UICONTROL Summary Number] and [!UICONTROL Summary Change]
 
-*This article documents the Summary number and Summary change visualization in **Adobe Analytics**.<br/>See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 Here is a video on these two visualizations:
 

@@ -20,7 +20,7 @@ exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Venn visualization in **Adobe Analytics**.<br/>See [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Venn visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

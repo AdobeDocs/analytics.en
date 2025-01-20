@@ -25,7 +25,7 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Attribution panel in **Adobe Analytics**.<br/>See [Attribution panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Attribution panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Attribution panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

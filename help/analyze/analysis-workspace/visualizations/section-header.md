@@ -19,7 +19,7 @@ exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
 >[!BEGINSHADEBOX]
 
 
-*This article documents the Section header visualization in **Adobe Analytics**.<br/>See [Section header](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Section header visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Section header](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

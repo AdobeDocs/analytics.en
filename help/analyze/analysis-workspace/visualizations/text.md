@@ -17,7 +17,7 @@ exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Text visualization in **Adobe Analytics**.<br/>See [Text](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Text visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Text](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

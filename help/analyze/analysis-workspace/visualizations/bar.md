@@ -10,7 +10,7 @@ exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Bar and Bar stacked visualizations in **Adobe Analytics**.<br/>See [Bar and bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Bar and Bar stacked visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Bar and bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

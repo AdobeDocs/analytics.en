@@ -29,7 +29,7 @@ exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Cohort table in **Adobe Analytics**.<br/>See [Cohort table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Cohort table in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Cohort table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

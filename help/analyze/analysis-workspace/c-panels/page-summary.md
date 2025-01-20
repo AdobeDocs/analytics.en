@@ -26,6 +26,12 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 <!-- markdownlint-enable MD034 -->
 
 
+>[!BEGINSHADEBOX]
+
+_This article documents the Page summary panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_There is no equivalent panel in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+
+>[!ENDSHADEBOX]
+
 This panel lets you easily explore key statistics about specific pages.
 
 ## Access the panel

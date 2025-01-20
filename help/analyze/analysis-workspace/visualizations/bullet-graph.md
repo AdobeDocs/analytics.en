@@ -27,7 +27,7 @@ exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Bullet visualization in **Adobe Analytics**.<br/>See [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

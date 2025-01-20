@@ -27,7 +27,7 @@ exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Next or previous item panel in **Adobe Analytics**.<br/>See [Next or previous item panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Next or previous item panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Next or previous item panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

@@ -51,43 +51,43 @@ To use an **[!UICONTROL Attribution]** panel:
 
 
 
-### Panel input 
+### Panel input
 
-   ![Compare panel](assets/seg-compare-panel.png)
+You can configure the [!UICONTROL Segment comparison] panel using these input settings:
 
-1. Select segments to compare and drop them into the panel.
+![Segment comparison input panel](assets/segment-comparison-input.png)
 
-   ![Compare audiences](assets/compare-audiences.png)
+| Input | Description |
+| --- | --- |
+| **[!UICONTROL Add a segment]** | Select the dimension you want to compare against. |
+| **[!UICONTROL Compare against]** | Select the dimension you want to use to compare the inital selected segment. If you do not select a specific segment, the default segment **[!UICONTROL Everyone else]** is used. |
+| **[!UICONTROL Show / hide advanced settings]** | Select **[!UICONTROL Show advanced settings]** to configure **[!UICONTROL Excluded components]**, select **[!UICONTROL Hide advanced settings]** to hide **[!UICONTROL Excluded components]**. |
+| **[!UICONTROL Excluded components]** | Components you can specify, like **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]** or **[!UICONTROL Segments]** for exclusion.<br><ul><li>Drag and drop one or more dimensions, metrics or segments from the containers into the **[!UICONTROL Excluded components]** container.</li><li>To remove a component, select the type (**[!UICONTROL Dimension]** **[!UICONTROL Metrics]**, or **[!UICONTROL Segments]**) and select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a component. To remove all components, select **[!UICONTROL Clear all]**.</li><li>To set the current selection of dimensions, metrics and segments as the default, select **[!UICONTROL Set as default]**.</li></ul> |
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. It is a frequently used segment in the comparison panel, but you are free to remove it and compare a different segment of choice.
-
-   ![Everyone else](assets/everyone-else.png)
-
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
-
-   This action starts a backend process that looks for statistical differences between the two segments selected and all dimensions, metrics and other segments. A progress bar at the top of the panel indicates the remaining time until every metric and dimension is analyzed. The most frequently used metrics, dimensions, and segments are prioritized to run first so the most relevant results are returned in a timely manner.
-
-## Exclude components from comparison
-
-Excluding some dimensions, metrics, or segments from segment comparisons is sometimes desired. For example, you want to compare the segment 'US Mobile Users' to 'German Mobile Users'. Including geography-related dimensions would not make sense since these segments already imply those differences.
-
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
-
-   ![Excluded components](assets/excluded-components.png)
-
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. If you want to edit excluded components, click a component type, then click the 'X' next to a component to re-include it in your analysis. Click 'Clear All' to re-include all components in your segment comparison.
-
-   ![Excluded dimensions](assets/excluded-dimensions.png)
+Select **[!UICONTROL Build]** to build the panel.
 
 ### Panel output
 
-Once Adobe finishes analyzing the two desired segments, it shows its results through several visualizations:
+Once Adobe Analytics finishes analyzing the two desired segments, the output panesl shows results through several visualizations:
 
-   ![Visualizations 1](assets/new-viz.png)
+![Panel output segment comparison](assets/segment-comparison-output.png)
 
-   ![Visualizations 2](assets/new-viz2.png)
+| Visualization | Description |
+|---|---|
+| **[!UICONTROL Size and overlap]** | Illustrates with a [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) visualization the comparative sizes of each selected segment and how much they overlap with each other. |
+| **[!UICONTROL Unique visitors for 1st segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the first segement (in the example Single Page Visits) |
+| **[!UICONTROL Unique visitors for 2nd segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the second segement (in the example First Time Visits) |
+| **[!UICONTROL Top metrics agains Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) showing top metrics for the selected segments. |
+| **[!UICONTROL Metric over time by Segment]** | A [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualization showing the metrics over time for the selected segments. |
+| **[!UICONTROL Top dimension items against Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) showing the mixed dimension items for the selected segments. |
+| **[!UICONTROL Dimension items by Segments]** | A [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) visualization showing the dimension items by segment. |
+| **[!UICONTROL Top segments against Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) that shows the top segments against Segments. |
+| **[!UICONTROL Segment overlap]** | A [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) visualization that shows the segment overlap. |
 
+Use ![Edit](/help/assets/icons/Edit.svg) to reconfigure and rebuild the panel.
+
+
+<!--
 #### Size and overlap
 
 Illustrates the comparative sizes of each selected segment and how much they overlap with each other using a venn diagram. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If the two segments are mutually exclusive, no overlap is shown between the two circles (typically seen with segments using a hit container).
@@ -153,3 +153,5 @@ This visualization is similar to freeform tables in Analysis Workspace. If deepe
 To the right of the segments table is a linked venn diagram visualization. It shows the most statistically significant segment applied to your compared segments. For example, 'Segment A' + 'Statistically significant segment' vs. 'Segment B' + 'Statistically significant segment'. Clicking a segment line item in the table on the left updates the venn diagram on the right.
 
 ![Top segments venn diagram](assets/segment-overlap.png)
+
+-->

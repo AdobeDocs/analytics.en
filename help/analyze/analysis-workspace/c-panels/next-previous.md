@@ -64,7 +64,6 @@ Select **[!UICONTROL Build]** to build the panel.
 
 The [!UICONTROL Next or previous item] panel returns a rich set of data and visualizations to help you better understand what occurrences follow or precede specific dimension items.
 
-
 ![Next/Previous panel output](assets/next-or-previous-item-output.png)
 
 

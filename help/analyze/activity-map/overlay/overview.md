@@ -31,7 +31,7 @@ It offers the following settings:
   * **[!UICONTROL Bubble]**: Top links receive a green bubble showing its numeric rank during the reporting period. You can change the bubble color in [Settings](settings.md).
   * **[!UICONTROL Gradient]**: Top links appear shaded in transparent red. The most popular links are the darkest red. You can change the gradient color in [Settings](settings.md).
   * **[!UICONTROL Off]**: Disable link overlays.
-* **Date selector**: Allows to to change the reporting period.
+* **Date selector**: Allows you to change the reporting period.
 
 The header of this panel contains the following settings:
 
@@ -59,14 +59,14 @@ The bottom panel shows an aggregated view of the links displayed on the overlay.
 
 * **Report type**: Toggle the bottom panel to show the **[!UICONTROL Links on page]** report or the **[!UICONTROL Page details]** report.
 * **[!UICONTROL Page name]**: The current [Page](/help/components/dimensions/page.md) dimension name.
-* **[!UICONTROL Search]**: Filter the report to only display link names matching the entered text.
+* **[!UICONTROL Search]**: Filter the report to display only link names matching the entered text.
 * **[!UICONTROL Download]**: Exports the report to CSV. You can include the [!UICONTROL Links on page] report, the [!UICONTROL Page] report, and the [!UICONTROL Page flow] report in the same download file.
 * **[!UICONTROL Change report docking position]**: Toggles the position of this panel to appear on the bottom part or top part of your browser window.
 * **[!UICONTROL Close the report]**: Closes this panel. You can open the panel again using the **[!UICONTROL Toggle page details]** button in the top panel (the eye icon).
 
 The **[!UICONTROL Links on page]** report shows a basic workspace report with the following settings:
 
-* The [Activity map link](/help/components/dimensions/activity-map-link.md) dimension
+* The [Activity Map link](/help/components/dimensions/activity-map-link.md) dimension
 * The [Occurrences](/help/components/metrics/occurrences.md) metric (labeled as **[!UICONTROL Link clicks]**)
 * The current [Page](/help/components/dimensions/page.md) value applied as a segment
 

@@ -1,5 +1,5 @@
 ---
-description: The Activity Map Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+description: Modify the settings and properties for all types of overlay visualizations in Activity Map.
 title: Configure Activity Map settings
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
@@ -18,7 +18,7 @@ Change general settings for the extension and overlays.
 
 * **[!UICONTROL Companies]**: Shows the current Analytics organization that you are logged in to.
 * **[!UICONTROL Page name]**: Shows the name of the current page.
-* **[!UICONTROL Language]**: Changes the language for Activity Map extension labels. Does not change content on your web site or link names in reports. Supported languages include English, French, Chinese (simplified), Chinese (traditional), German, Japanese, Korean, Spanish, and Portuguese.
+* **[!UICONTROL Language]**: Changes the language for Activity Map extension labels. This setting does not change content on your web site or link names in reports. Supported languages include English, French, Chinese (simplified), Chinese (traditional), German, Japanese, Korean, Spanish, and Portuguese.
 * **[!UICONTROL Label overlays with]**: Determines what the bubble or gradient text is. The default setting is [!UICONTROL Rank]. Options include:
   * **[!UICONTROL No label]**: No text within the labels, making them colored boxes
   * **[!UICONTROL Value]**: Displays the number of link clicks ([Occurrences](/help/components/metrics/occurrences.md))
@@ -40,7 +40,7 @@ Adjust settings for standard view.
   * **[!UICONTROL Top]**: Displays the most popular links. Use the numeric drop-down list on the right to determine the number of top links to display. Options include 1, 10, 50, and 100.
   * **[!UICONTROL Bottom]**: Displays the least popular links based on the number drop-down list. Use the numeric drop-down list on the right to determine the number of bottom links to display. Options include 1, 10, 50, and 100.
   * **[!UICONTROL All links]**: Do not apply dynamic data filtering. The numeric drop-down list does not apply when this option is selected.
-* **[!UICONTROL Hide overlays for links that received no hits]**: If this box is checked, then links on the page with zero link clicks do not show an overlay and are not considered in dynamic data filtering.
+* **[!UICONTROL Hide overlays for links that received no hits]**: Links on the page with zero link clicks do not show an overlay. These links are excluded from dynamic data filtering.
 
 ## Live settings
 

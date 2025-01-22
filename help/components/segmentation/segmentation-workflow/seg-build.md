@@ -4,7 +4,55 @@ title: Build segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
-# Segment Builder
+# Segment Builder {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="Create Audience"
+>abstract="Audiences can be created from a filter and shared with the Adobe Experience Platform for activation."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="Data preview"
+>abstract="Compares the data of this filter with data of the data view. The preview percentage is based on the total number in the data view from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="Repeating"
+>abstract="Includes instances and persisted values for the dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="Instance"
+>abstract="Includes instances and persisted values for the dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="Non-repeating instance"
+>abstract="Includes unique (non-repeating) instances for the dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 The [!UICONTROL Segment Builder] lets you build simple or complex segments that identify visitor attributes and actions across visits and page hits. It provides a canvas to drag and drop metric dimensions, events, or other segments in order to segment visitors based on hierarchy logic, rules, and operators.
 

@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S BackAndroid 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M17.75,8.04h-14L8.72,3.07a.48349.48349,0,0,0,.01642-.68357L8.72,2.37l-.35-.36a.5135.5135,0,0,0-.71,0L1.24,8.44a.5135.5135,0,0,0,0,.71l6.39,6.84a.5135.5135,0,0,0,.71,0l.35-.35a.5135.5135,0,0,0,0-.71L3.76,9.5H17.75A.25.25,0,0,0,18,9.25V8.29A.25.25,0,0,0,17.75,8.04Z"/>
+</svg>

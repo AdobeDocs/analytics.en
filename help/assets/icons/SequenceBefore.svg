@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 36 36" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S SequenceAfter 18 N</title>
+  <rect height="4" rx="1" ry="1" width="22" x="12" y="24"></rect><rect height="4" rx="1" ry="1" width="22" x="12" y="18"></rect><rect height="4" rx="1" ry="1" width="22" x="12" y="30"></rect><path d="M2 2.672a.5.5 0 0 1 .866-.341L8 8l-5.134 5.669A.5.5 0 0 1 2 13.328zM33 2H13a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-1 10H14V4h18z"></path>
+</svg>

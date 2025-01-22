@@ -6,7 +6,23 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 ---
-# Venn
+# Venn {#venn}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_venn_button"
+>title="Venn"
+>abstract="Create a venn chart visualization to quickly compare visually two elements and the size of their overlap."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+_This article documents the Venn visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
+>[!ENDSHADEBOX]
 
 The [!UICONTROL Venn] visualization lets you drag in up to 3 segments (from [!UICONTROL Components]) and one metric to build a [!UICONTROL Venn] diagram.
 

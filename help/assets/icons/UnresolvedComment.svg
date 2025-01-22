@@ -1,0 +1,13 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="Icons" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/>
+  <path class="fill" d="M15,2a1.00115,1.00115,0,0,1,1,1v8a1.00115,1.00115,0,0,1-1,1H8.58575l-.2929.29291L5,15.58612V12H3a1.00115,1.00115,0,0,1-1-1V3A1.00115,1.00115,0,0,1,3,2Zm0-1H3A2,2,0,0,0,1,3v8a2,2,0,0,0,2,2H4v4.39648a.25.25,0,0,0,.24957.25043H4.25a.25005.25005,0,0,0,.177-.07342L9,13h6a2,2,0,0,0,2-2V3A2,2,0,0,0,15,1Z"/>
+  <rect class="fill" x="5" y="6" width="8" height="2" rx="0.5"/>
+</svg>

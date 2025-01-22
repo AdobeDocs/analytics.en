@@ -1,0 +1,12 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M16.5,4l-7.1655.004-1.65-1.7A1,1,0,0,0,6.9645,2H2A1,1,0,0,0,1,3V14.5a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V4.5A.5.5,0,0,0,16.5,4ZM16,14H2V5H16Z"/>
+  <rect class="fill" opacity="0.3" height="9" width="14" x="2" y="5"/>
+</svg>

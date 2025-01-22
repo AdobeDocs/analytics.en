@@ -1,0 +1,19 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Light 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><circle class="fill" cx="9" cy="9" r="3.95"/>
+  <rect class="fill" height="3" rx="0.25" width="1.8" x="8.1"/>
+  <rect class="fill" height="3" rx="0.25" width="1.8" x="8.1" y="15"/>
+  <rect class="fill" height="1.8" rx="0.25" width="3" y="8.1"/>
+  <rect class="fill" height="1.8" rx="0.25" width="3" x="15" y="8.1"/>
+  <rect class="fill" height="1.8" rx="0.25" transform="translate(1.76808 11.28817) rotate(-45)" width="3" x="13.01006" y="2.60983"/>
+  <rect class="fill" height="1.8" rx="0.25" transform="translate(-9.23217 6.73192) rotate(-45)" width="3" x="2.01006" y="13.61017"/>
+  <rect class="fill" height="3" rx="0.25" transform="translate(-1.44982 3.49982) rotate(-45)" width="1.8" x="2.59975" y="2"/>
+  <rect class="fill" height="3" rx="0.25" transform="translate(-6.00197 14.48997) rotate(-45)" width="1.8" x="13.58995" y="12.99"/>
+</svg>

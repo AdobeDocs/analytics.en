@@ -4,7 +4,16 @@ title: Alert Builder overview
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 ---
-# Create alerts
+# Create alerts {#create-alerts}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_alerts_timegranularity"
+>title="Time granularity"
+>abstract="Time granularity refers to both how often the alert will be checked and what will be included"
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >

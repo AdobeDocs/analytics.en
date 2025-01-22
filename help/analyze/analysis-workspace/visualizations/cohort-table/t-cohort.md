@@ -27,6 +27,7 @@ Create a cohort and run a [!UICONTROL Cohort Analysis] report in Analysis Worksp
 1. (Optional) Adjust the **[!UICONTROL Cohort Table Settings]** by clicking the gear icon.
    
    | Setting | Description |
+   |--- |--- |
    | Only show percent | Removes the number value and only shows the percentage. |
    | Round percent to nearest whole | Rounds the percent value to the nearest whole instead of showing the decimal value. |
    | Show Average Percent Row | Inserts a new row at the top of the table and then adds the average for the values within each column. |

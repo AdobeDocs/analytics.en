@@ -7,15 +7,15 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 
-The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] (end-of-lifed) in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, an updated reports menu, modernized reports, and a learning section to help you with getting started more effectively. Here is a video overview:
+The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] (end-of-lifed) in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, a templates section, and a learning section to help you with getting started more effectively. Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-The Adobe Analytics landing page is comprised of the following subtabs: Projects, Reports, and Learning.
+The Adobe Analytics landing page is comprised of the following subtabs: Projects, Templates, and Learning.
 
 **[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 
-**[!UICONTROL Reports]** refers to anything that was pre-built by Adobe, such as templates in Workspace.
+**[!UICONTROL Templates]** includes templates provided by Adobe and any templates specific to your organization.
 
 The **[!UICONTROL Learning]** tab contains hands-on video tours, tutorials, and links to documentation.
 
@@ -77,24 +77,13 @@ The available columns are:
 | SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
 
-## Navigate the [!UICONTROL Reports] tab {#navigate-reports} 
+## Navigate the [!UICONTROL Templates] tab {#navigate-reports} 
 
-The [!UICONTROL Reports] tab consolidates the following sets of reports:
+For information about using templates in Adobe Analytics, see the following resources:
 
-* The pre-built [!UICONTROL Workspace] templates that were previously located under [!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL New]. Adobe no longer uses the word "template" in this context.
-* Most of the pre-built reports under the previous Adobe Analytics [!UICONTROL Reports] top menu. These reports are now displayed in [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+* [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md)
 
->[!NOTE]
->
->Consider the following when using reports:
->* Under Reports, a Favorites folder shows up only if you mark a new report as a favorite. No pre-existing Reports & Analytics favorites are carried forward.
->* Only the most commonly used reports that were formerly grouped in Reports & Analytics are available. A handful of rarely used or no-longer-relevant reports are no longer available. See the [Landing page FAQ](#landing-page-faq) below for more details.
-
-![Reports tab](assets/reports-tab2.png)
-
-For more information about the Reports tab in Analysis Workspace, including viewing and saving reports, see [Use pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md).
-
-For information about creating and managing custom company reports, see [Create and manage company reports](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+* [Create and manage templates](/help/analyze/analysis-workspace/templates/create-templates.md)
 
 ## Use the Learning tab {#navigate-learning}
 
@@ -124,20 +113,13 @@ Users can set their preferred landing page.
 
    ![Set landing page](assets/landing-pref.png)
 
-## Hide Report tab {#hide-reports}
-
-Admins can hide the Reports tab for all users within their organization.
-
-1. Go to [!UICONTROL Analytics] > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL Company].
-1. Check **[!UICONTROL Hide Reports Tab]**.
-
 ## Landing page FAQ {#landing-faq}
 
 | Question | Answer |
 | --- | --- |
-| Where are the templates that I am used to seeing in [!UICONTROL Workspace]? | These templates are grouped under the [!UICONTROL Reports] tab. |
+| Where are the templates that I am used to seeing in [!UICONTROL Workspace]? | These templates are grouped under the [!UICONTROL Templates] tab. |
 | Does the work I do in the beta program UI carry over to the production [!UICONTROL Workspace] experience? | Yes, any work done in the beta carries over to the old/current [!UICONTROL Workspace] experience. |
 | Are my previous Reports & Analytics favorites carried over? | No, they are NOT carried forward. However, any [!UICONTROL Workspace] project favorites are carried over. |
 | Is there a maximum number of projects I can pin? | No, there is no limit on the number of projects you can pin. |
 | Can admins designate this landing page for their users? | No, admins cannot designate the landing page on behalf of users. Individual users must turn on the toggle themselves. |
-| Are all reports that existed in [!DNL Reports & Analytics] still available? | No, the following reports were phased out, based on overall usage data: <ul><li>Any custom eVars/props/events/classifications<li>My Recommended Reports</li><li>Hourly/Daily/Weekly/Monthly/Quarterly/Yearly unique visitors</li><li>DailyWeekly/Monthly/Quarterly/Yearly unique customers</li><li>Action name depth</li><li>Action name summary</li><li>Add dashboard</li><li>Age</li><li>Audio support</li><li>Billing information</li><li>Clicks to page</li><li>Color depth</li><li>Cookie support</li><li>Cookies</li><li>Connection types</li><li>Creative elements</li><li>Credit card type</li><li>Cross sell</li><li>Custom event funnels</li><li>Custom links</li><li>Customer ID</li><li>Day of week</li><li>Entry action name</li><li>Exit action name</li><li>Exit links</li><li>Fallout</li><li>File downloads</li><li>Find in store</li><li>Full paths</li><li>Gender</li><li>Hit type VISTA rule</li><li>Image support</li><li>Java</li><li>JavaScript</li><li>JavaScript version</li><li>Manage bookmarks</li><li>Manage dashboards</li><li>Monitor color depth</li><li>Monitor resolutions</li><li>Newsletter signups</li><li>Next action name</li><li>Next action name flow</li><li>Null searches</li><li>Operating system</li><li>Order review</li><li>Page of day</li><li>Pages not found</li><li>Pathfinder</li><li>Path length</li><li>Previous action name</li><li>Previous action name flow</li><li>Product activity</li><li>Product cost</li><li>Product department</li><li>Product inventory category</li><li>Product name</li><li>Product reviews</li><li>Product season</li><li>Product shares</li><li>Product zooms</li><li>Reload</li><li>Searches</li><li>Servers</li><li>Single page visits</li><li>Shipping information</li><li>Site hierarchy</li><li>Social mentions</li><li>Time of day</li><li>Time spent on action name</li><li>Video support</li><li>Visitor state</li></ul> |
+| Are all reports that existed in [!DNL Reports & Analytics] still available as templates? | No, the following reports were phased out, based on overall usage data: <ul><li>Any custom eVars/props/events/classifications<li>My Recommended Reports</li><li>Hourly/Daily/Weekly/Monthly/Quarterly/Yearly unique visitors</li><li>DailyWeekly/Monthly/Quarterly/Yearly unique customers</li><li>Action name depth</li><li>Action name summary</li><li>Add dashboard</li><li>Age</li><li>Audio support</li><li>Billing information</li><li>Clicks to page</li><li>Color depth</li><li>Cookie support</li><li>Cookies</li><li>Connection types</li><li>Creative elements</li><li>Credit card type</li><li>Cross sell</li><li>Custom event funnels</li><li>Custom links</li><li>Customer ID</li><li>Day of week</li><li>Entry action name</li><li>Exit action name</li><li>Exit links</li><li>Fallout</li><li>File downloads</li><li>Find in store</li><li>Full paths</li><li>Gender</li><li>Hit type VISTA rule</li><li>Image support</li><li>Java</li><li>JavaScript</li><li>JavaScript version</li><li>Manage bookmarks</li><li>Manage dashboards</li><li>Monitor color depth</li><li>Monitor resolutions</li><li>Newsletter signups</li><li>Next action name</li><li>Next action name flow</li><li>Null searches</li><li>Operating system</li><li>Order review</li><li>Page of day</li><li>Pages not found</li><li>Pathfinder</li><li>Path length</li><li>Previous action name</li><li>Previous action name flow</li><li>Product activity</li><li>Product cost</li><li>Product department</li><li>Product inventory category</li><li>Product name</li><li>Product reviews</li><li>Product season</li><li>Product shares</li><li>Product zooms</li><li>Reload</li><li>Searches</li><li>Servers</li><li>Single page visits</li><li>Shipping information</li><li>Site hierarchy</li><li>Social mentions</li><li>Time of day</li><li>Time spent on action name</li><li>Video support</li><li>Visitor state</li></ul> |

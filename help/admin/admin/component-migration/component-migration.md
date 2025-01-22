@@ -18,6 +18,13 @@ The migration process includes:
   
   All migrated components display in the migration summary when the migration completes.
 
+>[!NOTE]
+>
+>The information on this page describes how to migrate projects and their associated components with the user interface. 
+>
+>Alternatively, you can perform the migration using the APIs. For more information, see the [Adobe Analytics APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). All API definitions are available in the **[!UICONTROL Select a definition]** drop-down menu.
+
+
 ## Prepare for a migration
 
 Before you migrate any projects to Customer Journey Analytics, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
@@ -52,7 +59,7 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
    
 1. In the [!UICONTROL **Project owner**] field, begin typing the name of the user who you want to set as the owner of the project in Customer Journey Analytics, then select their name in the drop-down menu. 
 
-   The owner that you specify has full management rights to the project. 
+   The owner that you specify has full management rights to the project. The owner must be an administrator in Customer Journey Analytics. You can change the ownership of the project in a later step.
 
 1. In the [!UICONTROL **Map schema for report suites**] section, select a report suite.
 
@@ -113,6 +120,8 @@ Before you migrate any projects to Customer Journey Analytics, learn more about 
    After a migration completes, the [!UICONTROL **Migration status**] page provides a summary of what was migrated.
 
    If the migration fails, see the [Retry a failed migration](#retry-a-failed-migration) section below for more information.
+
+1. (Optional) After a project is migrated, you can transfer ownership of the project to any user in Customer Journey Analytics. For more information, see [Transfer assets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in the Customer Journey Analytics Guide.
 
 ## Retry a failed migration
 

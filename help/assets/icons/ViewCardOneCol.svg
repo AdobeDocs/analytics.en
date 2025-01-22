@@ -1,0 +1,14 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><g id="ImportedIcons">
+    <path class="fill" d="M1.5,17h15a.5.5,0,0,0,.5-.5V14H1v2.5A.5.5,0,0,0,1.5,17Z"/>
+    <path class="fill" d="M16.5,1H1.5a.5.5,0,0,0-.5.5V4H17V1.5A.5.5,0,0,0,16.5,1Z"/>
+    <rect class="fill" height="6" width="16" x="1" y="6"/>
+  </g>
+</svg>

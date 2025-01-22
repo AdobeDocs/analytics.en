@@ -6,7 +6,20 @@ feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 ---
-# Text
+# Text {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="Text"
+>abstract="Add a user-defined rich text visualization to your project."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+_This article documents the Text visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Text](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
+>[!ENDSHADEBOX]
 
 You can add user-defined text to your Workspace project by using a text visualizations or panel/visualization descriptions (right-click header > **[!UICONTROL Edit description]**). You can also change the formatting of your text, add hyperlinks, and add images.
 

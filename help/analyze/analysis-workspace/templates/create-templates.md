@@ -3,8 +3,6 @@ description: An overview of how to use default reports in Analysis Workspace.
 title: Use reports
 feature: Analysis Workspace
 role: User, Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 ---
 # Create and manage templates
@@ -30,7 +28,6 @@ To create a new template that can be used by people in your login company:
    | **[!UICONTROL Name]** | Provide a descriptive name for the template. | 
    | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. | 
    | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. | 
-   | **[!UICONTROL Channels]** | Choose any applicable channels that apply to this template. You can select multiple channels: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call center]**, and **[!UICONTROL In-store]**.<p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
    | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
    | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. | 
 
@@ -38,7 +35,7 @@ To create a new template that can be used by people in your login company:
 
 For information about how users can create a project based on a template, see [Create a project based on a template](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) in [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Edit or delete templates
+## Edit or delete a template
 
 Administrators can edit or delete company templates.
 
@@ -65,6 +62,22 @@ Administrators can edit or delete company templates.
    1. Select the More icon, then select **[!UICONTROL Edit]** or **[!UICONTROL Delete]**.
 
       ![Company template card edit or delete](assets/company-template-card-edit-delete.png)
+
+1. If you are editing a template, make any desired edits, then select [!UICONTROL **Project**] > **[!UICONTROL Save as template…]**.
+   
+   ![Company template](assets/company-template-save.png)
+
+1. Specify the following information in the [!UICONTROL Save as template] dialog box:
+   
+   | Field | Description | 
+   |---------|----------|
+   | **[!UICONTROL Name]** | Provide a descriptive name for the template. | 
+   | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. | 
+   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. | 
+   | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
+   | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. | 
+
+1. Select [!UICONTROL **Save as template**].
 
 ## Rename, tag, or approve templates
 
@@ -97,3 +110,10 @@ Administrators can Rename, tag, and approve company templates.
 Like with templates that are provided by Adobe, users in the organization can access templates that administrators create. 
 
 For information about how to access a company template, see [Access and run a template](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Hide the Templates tab {#hide-reports}
+
+Administrators can hide the Templates tab for all users within their organization.
+
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Preferences]** > **[!UICONTROL Company]**.
+1. Select the option to **[!UICONTROL Hide Templates Tab]**.

@@ -1,0 +1,19 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S GraphBarHorizontalStacked 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" height="17" rx="0.25" width="1" x="1" y="1"/>
+  <rect class="fill" height="3" width="3" x="3" y="10"/>
+  <rect class="fill" height="3" width="7" x="3" y="2"/>
+  <rect class="fill" height="3" width="2" x="3" y="14"/>
+  <rect class="fill" height="3" width="5" x="3" y="6"/>
+  <path class="fill" d="M12.5,6H9V9h3.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,12.5,6Z"/>
+  <path class="fill" d="M16.5,2H11V5h5.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,16.5,2Z"/>
+  <path class="fill" d="M8.5,10H7v3H8.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,8.5,10Z"/>
+  <path class="fill" d="M7.5,14H6v3H7.5a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,7.5,14Z"/>
+</svg>

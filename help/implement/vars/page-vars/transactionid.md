@@ -15,7 +15,7 @@ The `transactionID` variable uniquely identifies a transaction so the hit can ti
 
 When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. Data uploaded through Data Sources with a matching transaction ID is permanently tied to those variable values.
 
-By default, Adobe remembers all transaction ID values (linked and unlinked) for up to 90 days. If your offline interaction process is longer than 90 days, contact Customer Care to have this limit extended.
+Adobe remembers all transaction ID values (linked and unlinked) for up to 25 months. 
 
 ## Transaction ID using the Web SDK
 

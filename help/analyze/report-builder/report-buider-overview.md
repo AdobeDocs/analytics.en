@@ -16,10 +16,6 @@ The new Javascript Report Builder Add-in that was initially available only in Cu
 - Less time waiting for data blocks to return, thanks to API 2.0 upgrade
 - Enhanced speed
 
->[!NOTE]
->
->Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
-
 Users of the Legacy Report Builder tool can [convert legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder.
 
 Report Builder allows you to easily create, edit, and refresh custom reports using Adobe Analytics data. With Report Builder's simple and flexible drag-and-drop UI, you can create complex data queries and custom reports from Adobe Analytics data, all within Excel.

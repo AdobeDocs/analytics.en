@@ -19,7 +19,7 @@ exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Fallout visualization in **Adobe Analytics**.<br/>See [Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Fallout visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

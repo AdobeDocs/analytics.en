@@ -19,7 +19,7 @@ exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Key metric summary visualization in **Adobe Analytics**.<br/>See [Key metric summary](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Key metric summary visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Key metric summary](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

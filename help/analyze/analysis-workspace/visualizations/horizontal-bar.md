@@ -10,7 +10,7 @@ exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Horizontal bar and Horizontal bar stacked visualizations in **Adobe Analytics**.<br/>See [Horizontal bar and horizontal bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Horizontal bar and Horizontal bar stacked visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Horizontal bar and horizontal bar stacked](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

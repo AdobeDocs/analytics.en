@@ -29,7 +29,7 @@ exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Cohort table in **Adobe Analytics**.<br/>See [Cohort table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Cohort table in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Cohort table](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +58,9 @@ Video on Cohort tables in Analysis Workspace:
 
 ## Cohort Analysis capabilities
 
-The following capabilities allow for fine-tuned control over the cohorts you are building:
+The following sections describe Cohort Analysis features that allow for fine-tuned control over the cohorts you are building.
+
+For more detailed information about creating a cohort and running a [!UICONTROL Cohort Analysis] report, see [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### [!UICONTROL Retention] Table
 
@@ -97,5 +99,3 @@ Measures the time that has elapsed before and after the inclusion event occurred
 Create cohorts based on a selected dimension, and not time-based cohorts, which are the default. Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-For instructions on how to set up and run a cohort report, go to [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

@@ -25,7 +25,7 @@ exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Flow visualization in **Adobe Analytics**.<br/>See [Flow](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Flow visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Flow](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

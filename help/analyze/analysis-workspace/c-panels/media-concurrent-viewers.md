@@ -29,7 +29,7 @@ exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Media concurrent viewers panel in **Adobe Analytics Analytics**.<br/>See [Media concurrent viewers panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Media concurrent viewers panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_See [Media concurrent viewers panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

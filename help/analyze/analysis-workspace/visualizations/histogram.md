@@ -8,7 +8,7 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
 # Histogram {#histogram}
 
-arkdownlint-disable MD034 -->
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
@@ -20,7 +20,7 @@ arkdownlint-disable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Histogram visualization in **Adobe Analytics**.<br/>See [Histogram](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Histogram visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Histogram](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

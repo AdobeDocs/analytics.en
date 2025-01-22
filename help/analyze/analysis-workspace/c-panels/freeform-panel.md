@@ -9,7 +9,7 @@ exl-id: 20354931-29a6-4180-b24a-73da24b40061
 
 >[!BEGINSHADEBOX]
 
-*This article documents the Freeform panel in **Adobe Analytics**.<br/>See [Freeform panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) for the **Customer Journey Analytics** version of this article.*
+_This article documents the Freeform panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Freeform panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

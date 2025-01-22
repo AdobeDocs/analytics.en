@@ -4,48 +4,56 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (October 23, 2024 release)
+# Current Adobe Analytics release notes (January 2025 release)
 
-**Last update**: December 9, 2024
+**Last update**: January 22, 2024
 
-These release notes cover the release period of October 16, 2024 through end of year 2024. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of January 15 through mid February, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **New Report Builder for Adobe Analytics** | The new Report Builder application brings a major update to Adobe Analytics, including improved performance, streamlined user interface, 2.0 API support and support for Microsoft Excel on Mac, Windows, and web browsers. This application can be used along with the legacy application, but not on the same file. An upgrade feature is provided to upgrade legacy workbooks to the new application. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | October 16, 2024 |
-| **JSON Export for migrating tags implementation to Web SDK tags**  | This update to the Analytics tags Extension is related to migrating to Web SDK. You can use this update to the Adobe Analytics extension as part of your workflow to recreate your extension configurations with the Web SDK extension. In the Adobe Analytics tags extension, you can view eVars, props and events settings as JSON, which can be exported for editing and included in the Web SDK extension. |  | October 31, 2024 |
-| **New information about Request factors in Analysis Workspace Performance** | A new "Request factors" section is now available when analyzing performance in Analysis Workspace. To learn more about how requests are processed and the various factors that influence processing times, see "Request factors" in [Optimize Analysis Workspace performance](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | October 1, 2024 |
-| **Transaction ID retention period** | The Transaction ID's retention period of 90 days will be extended to 25 months in January of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. |  | January 22, 2025 |
+| **Scheduling in the new Report Builder** | Scheduling not only allows you to schedule your new Report Builder workbooks. In addition, it lets you retrieve the metadata on old scheduled tasks when you convert legacy workbooks. This way, when you convert your legacy workbooks to new workbooks and schedule them, you are sending them to the same emails and on the same cadence as the legacy workbooks. [Learn more](/help/analyze/report-builder/schedule-reportbuilder.md) |  |  January 22, 2025 |
+| **Improvements to Reports (also known as Templates) in Analysis Workspace** | Various improvements are now available for Reports (also known as Templates):<ul><li>Now called [!UICONTROL Templates] (no longer referred to as [!UICONTROL Reports]).</li><li>Improved user experience for viewing and finding templates, including the option to view templates in a column view or a card view.</li><li>New, more intuitive location for Company templates (located under **[!UICONTROL Workspace]** > **[!UICONTROL Templates]**).</li><li>Previously, company templates were accessed from the dialog box when creating a project.</li><li>Additional pre-built templates are available.</li></ul>[Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>Administrators can create templates and save them for others in their login company to use. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/create-templates) | January 15, 2025 | January 30, 2025  |
+| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in February of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. (Documentation links to follow)|  | February 11, 2025 |
 
 ## Fixes in Adobe Analytics
- 
-Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
-Admin Tools: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
-Classifications: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
-Cross-Device Analytics: AN-359210
-Customer Attributes: AN-357897
-Data Collection: AN-351131; AN-351309; AN-355678; AN-359856
-Data Feeds: AN-359699
-Data Repair API: AN-360256
-Data Sources: AN-359290
-Data Warehouse: AN-359820
-Overage Alerts: AN-358132
+
+A4T: AN-355602; AN-365988
+Activity Map: AN-365320
+Admin Console: AN-363884
+Admin Tools: AN-356747; AN-358776
+Advertising Analytics: AN-355488
+Analysis Workspace: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462
+Analytics 1.4 API: AN-358059
+Classifications: AN-360049; AN-360424; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881;  AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364715; AN-364912; AN-364997; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; 
+Component Migration: AN-362236; AN-365429
+Contribution Analysis: AN-360146
+Data Feeds: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365272; AN-365519; AN-365760; AN-366152; 
+Data Repair API: AN-362773; AN-362874
+Data Sources: AN-360745; AN-362202; AN-364566
+Data Warehouse: AN-361447; AN-362616; AN-364524; AN-365108
+Mobile App: AN-362856; AN-365270
+Overage Alerts: AN-355594; AN-364547
+Platform: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
+Report Builder: AN-363478; AN-364433; AN-365610
+Reporting Activity Manager: AN-362440
+Segmentation: AN-359921
+VISTA rules: AN-362927
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume Triggers. Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
-| **Additional implementation detail XDM fields automatically mapped** | September 11, 2024 | When using the Adobe Experience Platform Edge Network to send data to Adobe Analytics, the XDM fields `xdm.implementationdetails.name` and `xdm.implementationdetails.environment` now always map to context data variables `c.a.x.implementationdetails.name` and `c.a.x.implementationdetails.environment`. Previously, some scenarios prevented these values from populating. Please adjust any relevant processing rules to accommodate the availability of these values. |
+| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
 
 ## End-of-life (EOL) notices {#eol}
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
+| **Migration to Adobe I/O OAuth Server-to-Server credentials** | January 17, 2025 |  Adobe Analytics API and Livestream customers using Adobe I/O JWT credentials must migrate to Adobe I/O OAuth Server-to-Server credentials by **June 30, 2025**. Adobe I/O will not allow new JWT credentials to be created beginning May 1, 2024. Customers using JWT must create a new OAuth Server-to-Server credential or migrate their existing JWT credential to an OAuth Server-to-Server credential. Customers must also update their client applications to use the new OAuth Server-to-Server credentials. <ul><li>[Migrating from Service Account (JWT) credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementation guide for new and old applications with OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Using the new OAuth Server-to-Server credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQs](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **EOL for Adobe Analytics API (version 1.4)** | July 17, 2024  | On **August 12, 2026**, the following Analytics Legacy API services will reach their end of life and will be shut down, and current integrations built using these services will stop working:<ul><li>Adobe Analytics API (version 1.4)</li><li>Adobe Analytics WSSE Authentication</li></ul><p>Integrations that use the Adobe Analytics API (version 1.4) must migrate to the [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/), while WSSE integrations must migrate to an OAuth-based authentication protocol in the [Adobe Developer Console](https://developer.adobe.com/console).</p><p>See the [Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md) for answers to common questions and further guidance.</p>  |
-| **Migration to Adobe I/O OAuth Server-to-Server credentials** | May 11, 2023 |  Adobe Analytics API and Livestream customers using Adobe I/O JWT credentials must migrate to Adobe I/O OAuth Server-to-Server credentials by **January 1, 2025**. Adobe I/O will not allow new JWT credentials to be created beginning May 1, 2024. Customers using JWT must create a new OAuth Server-to-Server credential or migrate their existing JWT credential to an OAuth Server-to-Server credential. Customers must also update their client applications to use the new OAuth Server-to-Server credentials. <ul><li>[Migrating from Service Account (JWT) credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementation guide for new and old applications with OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Using the new OAuth Server-to-Server credentials](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[FAQs](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 
 ## AppMeasurement

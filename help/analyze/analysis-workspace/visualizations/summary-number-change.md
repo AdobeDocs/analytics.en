@@ -8,11 +8,22 @@ exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
 # [!UICONTROL Summary Number] and [!UICONTROL Summary Change]
 
+_This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
 Here is a video on these two visualizations:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## [!UICONTROL Summary Number] visualization {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Summary number"
+>abstract="Create a visualization that shows totals and subtotals."
+
+<!-- markdownlint-enable MD034 -->
 
 Use the [!UICONTROL Summary Number] visualization to highlight a large number that is important in a project. This visualization behaves in the following ways:
 
@@ -31,6 +42,15 @@ Click the **Visualization settings** gear in to the top right to configure the S
 | [!UICONTROL Summarize value by] | Choose to display the max, min, mean, median, or sum for a selection of data.|
 
 ## [!UICONTROL Summary Change] visualization {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Summary change"
+>abstract="Create a visualization that shows the delta (change) between two numbers"
+
+<!-- markdownlint-enable MD034 -->
 
 Use the [!UICONTROL Summary Change] visualization to show the delta (change) between two numbers. The green and red color of the [!UICONTROL Summary Change] can be controlled through [custom event polarity](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
 

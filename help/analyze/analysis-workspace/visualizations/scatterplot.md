@@ -5,7 +5,23 @@ feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 ---
-# Scatterplot
+# Scatterplot {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="Scatter"
+>abstract="Create a scatter visualization that shows the relationship between dimension items and up to three metrics."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+_This article documents the Scatter visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Scatter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
+>[!ENDSHADEBOX]
 
 The scatterplot visualization shows the relationship between dimension items and up to three metrics. It requires three components, and supports visualizing up to four components.
 

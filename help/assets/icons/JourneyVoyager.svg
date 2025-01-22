@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S JourneyVoyager 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M14.5,12a2.5,2.5,0,0,0-2.45,2H10a1,1,0,0,1-1-1V5a1,1,0,0,1,1-1h2.05a2.5,2.5,0,1,0,0-1H10A2,2,0,0,0,8,5V8H5.95a2.5,2.5,0,1,0,0,1H8v4a2,2,0,0,0,2,2h2.05a2.5,2.5,0,1,0,2.45-3Zm0-10A1.5,1.5,0,1,1,13,3.5,1.5,1.5,0,0,1,14.5,2Zm-11,8A1.5,1.5,0,1,1,5,8.5,1.5,1.5,0,0,1,3.5,10Zm11,6A1.5,1.5,0,1,1,16,14.5,1.5,1.5,0,0,1,14.5,16Z"/>
+</svg>

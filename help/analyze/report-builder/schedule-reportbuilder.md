@@ -9,10 +9,6 @@ exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 ---
 # Schedule Workbooks
 
->[!NOTE]
->
->Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
-
 After you saved your workbook and completed your analysis, you can easily share your workbook with others on your team using the scheduling feature. The Schedule feature allows you to create a schedule that automatically refreshes the data in the workbook and emails the Excel workbook .xlsx file as an attachment to your specified audience at a specific date and time. Setting up a schedule provides recipients with regular updates&ndash;automatically. You can also use the schedule feature to send out the workbook once without scheduling automatic updates.
 
 You can create multiple schedules for a single workbook. For example, you can send a workbook to your team on a daily basis and you can send the workbook to your manager once a week by creating two different schedules.

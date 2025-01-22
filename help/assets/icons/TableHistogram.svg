@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S TableHistogram 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M16.5,1H1.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,16.5,1ZM5,16H2V14H5Zm0-3H2V11H5Zm0-3H2V8H5Zm6,6H6V14h5Zm5-3H6V11H16Zm-3-3H6V8h7Zm3-3H2V2H16Z"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Keyboard 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><rect class="fill" height="2" rx="0.25" width="2" y="4"/>
+  <rect class="fill" height="2" rx="0.25" width="4" y="7"/>
+  <rect class="fill" height="2" rx="0.25" width="3" x="14" y="7"/>
+  <rect class="fill" height="2" rx="0.25" width="4" x="13" y="10"/>
+  <rect class="fill" height="2" rx="0.25" width="3" y="10"/>
+  <rect class="fill" height="2" rx="0.25" width="8" x="4" y="10"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="3" y="4"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="6" y="4"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="9" y="4"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="5" y="7"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="8" y="7"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="11" y="7"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="12" y="4"/>
+  <rect class="fill" height="2" rx="0.25" width="2" x="15" y="4"/>
+</svg>

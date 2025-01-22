@@ -6,7 +6,22 @@ feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
 ---
-# [!UICONTROL Treemap]
+# [!UICONTROL Treemap] {#treemap}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_treemap_button"
+>title="Treemap"
+>abstract="Create a treemap visualization to show hierarchical (tree-structured) data with nested rectangles."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+_This article documents the Treemap visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Treemap](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
+>[!ENDSHADEBOX]
 
 Displays hierarchical (tree-structured) data as a set of nested rectangles.
 

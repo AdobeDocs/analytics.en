@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>S Blur 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18"/><path class="fill" d="M7.4545.1735C8.1305,4.8095,3.591,8.4355,3.591,12.15A5.22669,5.22669,0,0,0,9,17.173a5.22734,5.22734,0,0,0,5.409-5.023C14.409,8.3165,8.662,4.2785,7.4545.1735Z"/>
+</svg>

@@ -74,15 +74,15 @@ The **[!UICONTROL Links on page]** report shows a basic workspace report with th
 
 The **[!UICONTROL Page details]** report shows a [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) visualization using the [Page](/help/components/dimensions/page.md) dimension, focusing on the current page. The following metrics for the current page are displayed on the left:
 
-* [!UICONTROL Total [page views](/help/components/metrics/page-views.md)]
+* Total [page views](/help/components/metrics/page-views.md)
 * [!UICONTROL % of all page views]
-* [!UICONTROL [Entry](/help/components/metrics/entries.md) count]
-* [!UICONTROL [Exit](/help/components/metrics/exits.md) count]
-* [!UICONTROL [Single page visits](/help/components/metrics/single-page-visits.md)]
+* [Entry](/help/components/metrics/entries.md) count
+* [Exit](/help/components/metrics/exits.md) count
+* [Single page visits](/help/components/metrics/single-page-visits.md)
 * [!UICONTROL Avg clicks to page]
-* [!UICONTROL Avg [Time spent on page](/help/components/metrics/time-spent.md)]
-* [!UICONTROL Number of [Reloads](/help/components/metrics/reloads.md)]
-* [!UICONTROL [Bounce rate](/help/components/metrics/bounce-rate.md)]
+* Avg [Time spent on page](/help/components/metrics/time-spent.md)
+* Number of [Reloads](/help/components/metrics/reloads.md)
+* [Bounce rate](/help/components/metrics/bounce-rate.md)
 * [!UICONTROL Link clicks]
 
 ![Page details](../assets/page-details.png)

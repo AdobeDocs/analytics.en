@@ -19,12 +19,3 @@ However, you can use Analysis Workspace to create the report. Once your report i
 
 1. Set the date range to your desired date range.
 
-
-
-<!---The Traffic Management page lets you specify expected traffic volume changes. These settings let Adobe allocate the appropriate resources to ensure that your traffic can be tracked and processed in a timely manner.
-
-To access [!UICONTROL Traffic Management]:
-
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Report suites]**, then select a report suite.
-
-1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > *`<selection>`*.--->

@@ -38,7 +38,7 @@ These release notes cover the release period of January 15 through mid February,
 **Overage Alerts**: AN-355594; AN-364547
 **Platform**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
 **Report Builder**: AN-363478; AN-364433; AN-365610
-**Reporting Activity Manage**r: AN-362440
+**Reporting Activity Manager**: AN-362440
 **Segmentation**: AN-359921
 **VISTA rules**: AN-362927
 

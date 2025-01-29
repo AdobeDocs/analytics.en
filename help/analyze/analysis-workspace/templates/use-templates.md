@@ -1220,7 +1220,7 @@ The following templates are available:
 | **Referrers** | View which URLs visitors were on when clicking through to reach your site. (A link must exist on the external URL and a visitor must click it for the dimension item to show up.)  <p>**This can help you** better understand which specific URLs drive the most traffic to your site.</p><p>**Based on what you learn, you might** do any number of things, like create or adjust content to align more closely with the interests of visitors coming from top URLs. </p><p>This template uses the Referring Domain dimension </p><p>This template uses the Referrer dimension. </p> |
 | **Referrer types** |  View which generic channels visitors clicked through to arrive at your site. Adobe maintains the rules for each channel. Possible channels include search engines, social networks, other web sites, hard drive, or email.<p>**This can help you** better understand which type of referrers drive the most traffic to your site.</p><p>**Based on what you learn, you might** do any number of things, like create or adjust content to align more closely with the interests of visitors coming from a certain channel.</p><p>This template uses the Referrer Type dimension.</p> |
 
-## Mobile templates
+### Mobile {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 

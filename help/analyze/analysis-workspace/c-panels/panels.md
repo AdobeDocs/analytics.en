@@ -11,7 +11,7 @@ A [!UICONTROL panel] is a collection of tables and visualizations. You can acces
 
 ## Panel types
 
-The following panel types are available in Analysis Workspace:
+The following panel types are available in Analysis Workspace for [!UICONTROL Adobe Analytics]:
 
 | Panel name | Description |
 | --- | --- |

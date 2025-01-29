@@ -24,7 +24,6 @@ _This article documents the Line visualization in_ ![AdobeAnalytics](/help/asset
 
 >[!ENDSHADEBOX]
 
-T
 The ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** visualization represents metrics using a line to show how values change over a period of time. A line visualization can be used only when time is used as a dimension.
 
 ![Line visualization](assets/line-viz.png)

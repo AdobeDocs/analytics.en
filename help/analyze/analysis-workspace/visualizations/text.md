@@ -21,22 +21,35 @@ _This article documents the Text visualization in_ ![AdobeAnalytics](/help/asset
 
 >[!ENDSHADEBOX]
 
-You can add user-defined text to your Workspace project by using a text visualizations or panel/visualization descriptions (right-click header > **[!UICONTROL Edit description]**). You can also change the formatting of your text, add hyperlinks, and add images.
+You can
+To add user-defined rich text to your Workspace project, you can use a ![Text](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualization or use descriptions for a visualization and panel. 
+
+## Use
+
+You can use the Text visualization in the following ways:
+
+1. Add a ![Text](/help/assets/icons/Text.svg) **[!UICONTROL Text]** visualization. See [Add a visualization to a panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+
+1. In a panel or visualization, from the context-menu select **[!UICONTROL Edit description]**. 
+   
+   Select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) when finished editing the description, select ![CloseCircle](/help/assets/icons/CloseCircle.svg) to cancel.
+
+You can change the formatting of your text, add hyperlinks, and add images.
 
 ## Adjust formatting {#format}
 
 When editing your text box or description, you can adjust the font size (heading levels), color, styling (bold, italics, underline) and alignment of selected text. You can also add bullet and numbered lists.
 
-![](assets/format.png)
+![Text options for a Workspace project highlighting the text color palette.](assets/format.png)
 
 ## Add hyperlinks {#hyperlinks}
 
-To add a hyperlink, highlight the text and click the hyperlink icon in the menu. Hyperlinks can link to external websites, documentation pages, [Workspace projects/panels/visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html), and more to further assist your project recipients.
+To add a hyperlink, highlight the text and select ![Link](/help/assets/icons/Link.svg) in the menu. You can use hyperlinks to provide further assistance to your project recipients. Hyperlinks can link to external websites, documentation pages, [Workspace projects, panels, or visualizations](/help/analysis-workspace/curate-share/shareable-links.md), and more.
 
-![](assets/hyperlink.png)
+![Text options with the link icon highlighted.](assets/hyperlink.png)
 
 ## Add images {#images}
 
-To add an image to your project, click the image icon in the menu and insert a public image URL. The image URL must be publicly accessible, begin with `https`, and be of format `.png`, `.jpeg`, `.jpg`, or `.gif`. Static and animated images are supported.
+To add an image to your project, select ![Image](/help/assets/icons/Image.svg) in the menu and insert a public image URL. The image URL must be publicly accessible, begin with `https`, and be of format `.png`, `.jpeg`, `.jpg`, or `.gif`. Static and animated images are supported.
 
-![](assets/image.png)
+![Text options with the image icon selected.](assets/image.png)

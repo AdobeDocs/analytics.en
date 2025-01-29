@@ -27,7 +27,7 @@ The following information describes how to access and use templates from the [!U
 
    <!--update screenshot -->
 
-   ![Reports tab](assets/view-prebuilt-templates.png)
+   ![Reports tab](assets/view-prebuilt-templates-full.png)
 
 1. In the [!UICONTROL **Templates**] section, select either of the following tabs:
 
@@ -39,9 +39,9 @@ The following information describes how to access and use templates from the [!U
 
 1. Use either of the following options to change how you view the available templates:
 
-   * Choose whether to view templates in a column view or a card view by selecting either the column view ![column view icon](assets/column-view-icon.png) or the card view ![card view icon](assets/card-view-icon.png) icon.
+   * Choose whether to view templates in a column view or a card view by selecting either the column view ![ViewColumn](/help/assets/icons/ViewColumn.svg) or the card view ![Card](/help/assets/icons/Card.svg) icon.
 
-   * When using the card view ![card view icon](assets/card-view-icon.png), choose from the following sort orders: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.   
+   * When using the card view ![Card](/help/assets/icons/Card.svg), choose from the following sort orders: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.   
 
 1. In the search field, begin typing the name of the template you want to find, then select it from the list of templates. You can also search the template list by prop, eVar, and event number. <!-- still true? -->
 

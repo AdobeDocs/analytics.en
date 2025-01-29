@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 ---
-# Area and area stacked
+# Area (stacked)
 
 >[!BEGINSHADEBOX]
 
@@ -28,9 +28,9 @@ The area visualization has a standard and stacked option.
 <!-- markdownlint-enable MD034 -->
 
 
-This visualization is like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics.
+The ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** visualization is like a line graph, but with a colored area below the line. Add an  area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics.
 
-![](assets/area.png)
+![Area visualization showing multiple metrics](assets/area.png)
 
 ## Area stacked {#area-stacked}
 
@@ -44,14 +44,17 @@ This visualization is like a line graph, but with a colored area below the line.
 <!-- markdownlint-enable MD034 -->
 
 
-This visualization is like an Area Chart, but each series begins at the top of the previous series.
+The ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** visualization is like an Area, but each series begins at the top of the previous series.
 
-![](assets/area-stacked.png)
+![Area stacked showing each series at the top of the previous series.](assets/area-stacked.png)
 
-A new visualization setting on area stacked visualizations turns the chart into a "100% stacked" visualization.
+Use the **[!UICONTROL 100% stacked]** option in ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** to turn the chart into a 100% stacked visualization.
 
-![](assets/areastacked100.png)
+![Area Stacked showing a 100% stacked visualization.](assets/area-stacked100.png)
 
-Here is a video on "100% stacked visualizations":
-
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

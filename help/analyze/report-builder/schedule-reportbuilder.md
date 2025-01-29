@@ -9,10 +9,6 @@ exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 ---
 # Schedule Workbooks
 
->[!NOTE]
->
->Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
-
 After you saved your workbook and completed your analysis, you can easily share your workbook with others on your team using the scheduling feature. The Schedule feature allows you to create a schedule that automatically refreshes the data in the workbook and emails the Excel workbook .xlsx file as an attachment to your specified audience at a specific date and time. Setting up a schedule provides recipients with regular updates&ndash;automatically. You can also use the schedule feature to send out the workbook once without scheduling automatic updates.
 
 You can create multiple schedules for a single workbook. For example, you can send a workbook to your team on a daily basis and you can send the workbook to your manager once a week by creating two different schedules.
@@ -73,6 +69,19 @@ Use the Schedule button in the Report Builder hub to quickly create a schedule s
 
     ![Confirmation toast](./assets/confirmation-toast.png){width="55%"}
 
+## Schedule a converted workbook {#converted}
+
+1. Schedule a [converted](/help/analyze/report-builder/convert-workbooks.md) legacy workbook.
+
+   A pop up appears, asking if you want to use the scheduling metada from the legacy workbook to create a new scheduled task. 
+
+1. If you select **[!UICONTROL Use]**, Report Builder automatically fills in the legacy scheduling information. 
+
+1. Ensure that this information is correct and schedule. 
+
+1. If you want to send the workbook on a different schedule, schedule a completely fresh scheduled task. 
+
+
 ## Send the workbook one-time only
 
 You can also send out the workbook only once.
@@ -83,7 +92,7 @@ You can also send out the workbook only once.
 
 1. Click **Send Now**.
 
-## View and edit scheduled workbooks
+## View and edit scheduled workbooks {#view-edit}
 
 You can view and manage all scheduled workbooks in one place under the Workbooks tab.
 
@@ -105,7 +114,7 @@ You can view and manage all scheduled workbooks in one place under the Workbooks
 
     ![Screenshot showing the list of schedule tasks.](./assets/selected-workbook.png){width="40%"}
 
-## Review the status of scheduled tasks
+## Review the status of scheduled tasks {#status}
 
 The history view allows you to review the status of each scheduled task. There is a separate row documenting the status change for each scheduled task. In the example shown below, the *New Hourly Schedule* was initiated on January 5, at 3:04pm. By 3:05pm it successfully refreshed and was sent to recipients. The next workbook, *Bad workbook*, encountered an error during the refresh process. If a workbook failed to send, the history tab helps you troubleshoot by showing where in the process the error occurred. In this case, it is likely due to some data block error, perhaps a missing component, that kept the workbook from successfully refreshing.
 

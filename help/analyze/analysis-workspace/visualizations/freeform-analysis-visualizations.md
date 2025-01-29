@@ -48,7 +48,7 @@ The following visualization types are available in Analysis Workspace:
 
    * On the panel where you want to add the visualization, select ![AddCircle](/help/assets/icons/AddCircle.svg), then choose the icon that represents the visualization that you want to add. Hover over the icon for each visualization to see the name.
 
-   * Add a [blank panel](/help/analysis-workspace/c-panels/blank-panel.md), then select the visualization that you want to add.
+   * Add a [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md), then select the visualization that you want to add.
 
    * From the context menu of an existing visualization in your Analysis Workspace project, select **[!UICONTROL Duplicate visualization]** or **[!UICONTROL Copy visualization]**.
 
@@ -100,7 +100,7 @@ Which visualization settings are available depends on the visualization. The tab
 | **[!UICONTROL Show max]** | Show the maximal value in the visualization. |
 | **[!UICONTROL Show trendline]** | Show a trendline in the visualization. When selected, you can select the type of trendline from the dropdown menu. | 
 
-You can customize the settings for all visualizations that you create. For more information, see [User preferences](/help/analysis-workspace/user-preferences.md).
+You can customize the settings for all visualizations that you create. For more information, see [User preferences](/help/analyze/analysis-workspace/user-preferences.md).
 
 
 ## Context menu {#right-click}
@@ -117,7 +117,6 @@ Use the context menu (available through alternate select, for example, right-cli
 | **[!UICONTROL Download items as CSV (*dimension name*)]** | Download the dimension items (to a maximum of 50,000) of the visualization to your local device. A maximum of 50,000 dimension items for the selected dimension. |
 | **[!UICONTROL Copy visualization]** | Copy the visualization, so that you can insert the visualization to another place within the project, or into a completely different project. |
 | **[!UICONTROL Download data CSV]** | Download the displayed data of the visualization to your local device. |
-| **[!UICONTROL Export full table]** | Export the full table to a designated cloud locations. See [Exports Customer Journey Analytics reports to the cloud](../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Make an exact duplicate of the visualization. |
 | **[!UICONTROL Edit description]** | Add (or edit) a text description for the visualization. See [Text](text.md). |
 | **[!UICONTROL Get visualization link]** | Copy and share a link directly to the visualization. A Share link dialog displays the link. Select Copy to copy the link to your clipboard. |

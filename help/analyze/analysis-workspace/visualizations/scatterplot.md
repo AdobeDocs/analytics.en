@@ -23,7 +23,8 @@ _This article documents the Scatter visualization in_ ![AdobeAnalytics](/help/as
 
 >[!ENDSHADEBOX]
 
-The scatterplot visualization shows the relationship between dimension items and up to three metrics. It requires three components, and supports visualizing up to four components.
+
+The ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualization shows the relationship between dimension items and up to three metrics. The visualization requires three components, and supports visualizing up to four components.
 
 * The row component (typically a dimension) represents each point on the graph. Different rows show as different colored dots.
 * The leftmost column (typically a metric) plots the position of the dot on the Y axis (vertical).
@@ -31,8 +32,19 @@ The scatterplot visualization shows the relationship between dimension items and
 * The third column determines the radius of the dot.
 * All subsequent columns in a freeform table are ignored by the scatterplot visualization.
 
-![Scatterplot](assets/scatter.png)
+![Scatterplot example showing multiple dimension items ](assets/scatter.png)
 
-Here is a video on scatterplot visualizations:
 
->[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visualization](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

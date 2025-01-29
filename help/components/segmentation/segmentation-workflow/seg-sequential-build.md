@@ -21,7 +21,7 @@ Here is a video on sequential segmentation:
 When creating a segment where "Include Everyone" is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | If result... | Sequence |
 |--- |--- |
@@ -287,7 +287,7 @@ Page B and C are nested in a [!UICONTROL Logic Group] container within the outer
 
 ![](assets/logic_group_any_order3.png)
 
-The segment must match at lease one of the logic group's checkpoints (B or C). Also, logic group conditions may be met in the same hit or across multiple hits.​
+The segment must match at lease one of the logic group's checkpoints (B or C). Also, logic group conditions may be met in the same hit or across multiple hits.
 
 ### Logic Group first match
 
@@ -343,11 +343,11 @@ You can limit matching to a specified duration of time by using the [!UICONTROL 
 >
 >There are differences in evaluation between similarly named elements like **Day(s)** or **Day**. For time-based definitions of Within and After, utilize the options listed first in the popup window:
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![image](assets/copied-link-2.png)
 >
 >For dimension-based definitions of Within and After, utilize the options under the sub-menu *Other Dimensions*:
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![image](assets/copied-link-3.png)
 
 ### After and Within Operators {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 

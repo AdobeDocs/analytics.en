@@ -275,7 +275,7 @@ Important information about the migration process and how it impacts current use
   </tr> 
   <tr> 
    <td colname="col1"> <p>User Management APIs <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Adobe-supported identity types</a> </p> </td> 
-   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console should configure<a href="https://developer.adobe.com/UMAPI/"> user management APIs</a> offered on Adobe Developer for programmatic access to user accounts in the Adobe Admin Console. </p> <p>The Analytics Permission APIs will be turned off when you are enabled for the migration. </p> </td> 
+   <td colname="col2"> <p> Admins migrating to the Adobe Admin Console should configure<a href="https://developer.adobe.com/umapi"> user management APIs</a> offered on Adobe Developer for programmatic access to user accounts in the Adobe Admin Console. </p> <p>The Analytics Permission APIs will be turned off when you are enabled for the migration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web Service Credentials </p> </td> 

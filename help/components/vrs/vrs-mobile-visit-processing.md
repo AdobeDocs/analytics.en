@@ -13,7 +13,7 @@ You can define a visit any way you want without altering the underlying data, to
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

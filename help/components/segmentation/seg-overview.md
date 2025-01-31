@@ -247,13 +247,13 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment containe
 
 You can access the Segment Builder by:
 
--   Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
+- Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. In the segment rail that displays, then click **[!UICONTROL Add]**, or 
 
--   At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
+- At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![Add button](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
     or 
 
--   Clicking an existing segment title in the Segment Manager to edit the segment in the Segment Builder.
+- Clicking an existing segment title in the Segment Manager to edit the segment in the Segment Builder.
 
 +++
 
@@ -261,11 +261,11 @@ You can access the Segment Builder by:
 
 Access the Segment Manager by:
 
--   Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or 
+- Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or 
 
--   Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. Then click **[!UICONTROL Manage]**, or 
+- Displaying an existing report and clicking the Segments icon  ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation. Then click **[!UICONTROL Manage]**, or 
 
--   Pressing the slash key '/' anywhere in the interface and searching for segment manager.
+- Pressing the slash key '/' anywhere in the interface and searching for segment manager.
 
 +++
 

@@ -80,6 +80,10 @@ Analysis Workspace supports [attribution](/help/analyze/analysis-workspace/attri
 
 ## Dynamic columns
 
-Here is a video on how to use dynamic columns in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dynamic columns](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

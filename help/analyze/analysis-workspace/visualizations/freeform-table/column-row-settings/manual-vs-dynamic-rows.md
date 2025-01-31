@@ -51,6 +51,11 @@ Dynamic and static rows behave differently in the freeform total row. By default
 
 ## Reorder static rows
 
-Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reorder static rows](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+

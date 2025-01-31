@@ -15,7 +15,13 @@ Are you taking over an Adobe Analytics implementation from the previous Technica
 
 Check out these tips from your fellow Technical Owner, Sarah Owen. Sarah is an Adobe Analytics Champion and she shares ideas about how to use the Inherited Implementation Playbook to take charge of an existing implementation:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use the Inherited Implementation Playbook](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 See also:
 

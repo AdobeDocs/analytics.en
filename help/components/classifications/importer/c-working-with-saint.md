@@ -10,7 +10,13 @@ Use the importer to upload classifications into Adobe Analytics. You can also ex
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
->[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification importer](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 The data that you import using the import tool must be in a specific format. Adobe provides you with the option to download a data template with all the proper header details in a tab-delimited data file. You can add your new data to this template and then import the data file in the browser, using FTP.
 

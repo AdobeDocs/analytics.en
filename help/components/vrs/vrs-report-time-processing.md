@@ -35,14 +35,13 @@ The following configuration options are currently available to virtual report su
 * **[!UICONTROL Start New Visit with Event]:** A new session starts when an event is fired, regardless of whether a session has timed out. The newly created session includes the event that started it. Additionally, you can use multiple events to start a session and a new session fires if any of those events are observed in the data. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars.
 
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} for a demo video.
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
 
 ## Report Time Processing limitations
 

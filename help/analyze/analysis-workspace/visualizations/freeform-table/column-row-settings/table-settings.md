@@ -31,6 +31,9 @@ To change the number of rows that are displayed:
 
 ## Videos
 
-Here is a short video on "Percentage by Row":
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23134/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Percentage by row](https://video.tv.adobe.com/v/23134?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

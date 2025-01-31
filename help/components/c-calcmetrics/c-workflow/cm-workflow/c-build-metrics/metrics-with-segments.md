@@ -48,9 +48,13 @@ Build and save a metric called "German Visitors" and a metric called "Internatio
 
    ![](assets/workspace-pages.png)
 
-Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmented metrics](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Percent of total metrics {#percent-total}
 

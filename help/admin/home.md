@@ -14,7 +14,7 @@ This help is intended for administrators of Adobe Analytics. It includes help on
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics introduction](https://video.tv.adobe.com/27429?quality=12&learn=on){target="_blank"} for a introduction video on Adobe Analytics.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics introduction](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for a introduction video on Adobe Analytics.
 
 >[!ENDSHADEBOX]
 

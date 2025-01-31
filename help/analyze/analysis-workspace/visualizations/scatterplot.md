@@ -45,6 +45,6 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visu
 >[!MORELIKETHIS]
 >
 >[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualization settings](/help/analyze/nalysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

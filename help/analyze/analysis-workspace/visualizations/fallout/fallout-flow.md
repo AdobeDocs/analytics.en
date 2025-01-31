@@ -25,9 +25,13 @@ _This article documents the Fallout visualization in_ ![AdobeAnalytics](/help/as
 
 Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.
 
-Here is a video on the Fallout visualization:
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout visualization](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 Fallout visualizations let you
 

@@ -15,9 +15,13 @@ Consider the following when creating quick segments:
 * A maximum of 3 rules are allowed.
 * Nested containers or sequential rules are not supported.
 
-The following video demonstrates how to use quick segments:
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Quick segments](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Create a quick segment
 

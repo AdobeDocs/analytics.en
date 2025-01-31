@@ -38,9 +38,13 @@ Each container lets you report across a visitor's history, interactions broken d
 
 <!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
-Here is a video overview of segment containers:
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment containers](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Visitor container 
 

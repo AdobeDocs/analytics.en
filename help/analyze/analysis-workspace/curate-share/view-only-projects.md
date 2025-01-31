@@ -14,9 +14,13 @@ Note that you can edit the panel calendar date range even in view-only projects.
 
 ![](assets/view-only-project.png)
 
-Here is a video overview of view-only projects:
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View-only projects](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Disabled interactions
 

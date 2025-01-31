@@ -9,9 +9,13 @@ exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 
 Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as "Hour of Day" or "Day of Week".
 
-Here is a video on time-parting dimensions:
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 Time-parting dimensions are based on the time zone of the report suite or virtual report suite. These dimensions are available in Analysis Workspace and can help to answer the following questions:
 

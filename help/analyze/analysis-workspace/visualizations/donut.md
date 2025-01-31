@@ -23,10 +23,23 @@ _This article documents the Donut visualization in_ ![AdobeAnalytics](/help/asse
 
 >[!ENDSHADEBOX]
 
-Similar to a pie chart, this visualization shows data as parts or segments of a whole. Use a [!UICONTROL Donut] graph when comparing percentages of a total, typically with a small number of items.
 
-![](assets/donut.png)
+Similar to a pie chart, the ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** visualization shows data as parts or filters of a whole. Use a donut visualization when comparing percentages of a total, typically with a small number of items.
 
-Here is a video on using the [!UICONTROL Donut] visualization:
+![A Donut chart showing data as parts or filters of a whole.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add a donut visualization](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

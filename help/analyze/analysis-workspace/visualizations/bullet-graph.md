@@ -31,12 +31,31 @@ _This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/ass
 
 >[!ENDSHADEBOX]
 
-Lets you see how a value you are interested in compares to or measures against other performance ranges (goals).
+The ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** visualization shows how a metric compares to, or measures against, performance ranges (goals). 
 
- ![](assets/bullet-image.png)
+ ![Bullet graph visualization](assets/bullet.png)
 
-The bullet graph features a single, primary measure (for example, current year-to-date revenue) and allows you to enter qualitative ranges performance ranges (for example, compared to a target revenue). You can specify high, medium, and low. You can specify goal ranges in [!UICONTROL Visualization Settings].
+The bullet graph features a single, primary measure (for example, current year-to-date revenue) and allows you to enter qualitative ranges performance ranges (for example, compared to a target revenue). You can specify high, medium, and low goal ranges. You can specify goal ranges in ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]**.
 
-Here is a video on the bullet graph visualization:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bullet graph visualization](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+## Settings
+
+You can define specific settings for a [!UICONTROL Bullet] visualization. 
+
+| Setting | Description |
+|---|---|
+| **[!UICONTROL Bullet options]** | Specify values for **[!UICONTROL High goal]**, **[!UICONTROL Mid goal]** and **[!UICONTROL Low goal]** in the [!UICONTROL Bullet] visualization. <br/>**[!UICONTROL High goal]** is the is the main goal you are aiming for. **[!UICONTROL Low goal]** and **[!UICONTROL Mid goal]** create ranges below the High goal. Note: when the **[!UICONTROL Percentages]** option is checked, enter goals as whole numbers. For example: `20` if your goal is twenty percent. |
+
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

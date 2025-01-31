@@ -33,11 +33,12 @@ _This article documents the Analytics for Target panel in_ ![AdobeAnalytics](/he
 
 The Analytics for Target panel lets you analyze your Adobe Target activities and experiences in Analysis Workspace. The panel also enables you to see lift & confidence for up to 3 success metrics. To access the Analytics for Target panel, navigate to a report suite with Analytics for Target components enabled. Then, select the panel icon on the far left and drag the Analytics for Target panel into your Analysis Workspace Project.
 
-+++Here is a short video overview of the Analytics for Target panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target panel](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 ## Use
 

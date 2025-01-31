@@ -87,13 +87,23 @@ Learn more about all data [export options](https://experienceleague.adobe.com/do
 ## Videos
 
 Freeform table builder overview:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freeform table builder overview](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} for a demo video.
 
-Freeform table filters:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Freeform table totals:
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freeform table filters](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} for a demo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freeform table totals](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+

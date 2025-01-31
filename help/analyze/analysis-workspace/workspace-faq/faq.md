@@ -32,35 +32,51 @@ Analysis Workspace is not recommended for bulk data export. It is a visualizatio
 +++
 
 +++How can I optimize performance of Analysis Workspace?
+
 See [Optimizing Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+
 +++
 
 +++How does data get into your Analysis Workspace project?
-Watch this video:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ How can I track Workspace usage?
++++How can I track Workspace usage?
 
-Watch this video on usage log tracking for Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Log tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++When I drag a metric over, it says 'Invalid data'. How do I resolve this issue?
+
 Invalid data means that Adobe cannot return data using the combination of dimensions and metrics used in the report. For example, two metrics stacked on top of each other cannot be returned as data, as there is no way to display two metrics that way. Instead, place the metrics side by side.
+
 +++
 
 +++When I drag a metric over, I don't see any actual data - just zeros. How can I troubleshoot this issue?
+
 If you successfully created a workspace report but there's no data, there are a few things you can check:
 
 * Double check the report suite and make sure it is populated with data.
 * If you applied a segment in your report, the segment criteria might not match any data. Try removing the segment or adjusting the segment definition.
 * Check the date range in the upper right corner and make sure it's set to a value that you'd expect.
 * Navigate to your website and use the [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) to validate that data is being collected.
+
+
 +++
 
 +++As a read-only user, what actions can I perform in Analysis Workspace?

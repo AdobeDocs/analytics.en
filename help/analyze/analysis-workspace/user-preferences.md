@@ -9,9 +9,13 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 
 You can manage settings for Analysis Workspace and its related components for all new projects or panels that you create. Existing projects and panels are not affected.
 
-View this video for a brief overview of preferences:
 
->[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Manage preferences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Update preferences
 

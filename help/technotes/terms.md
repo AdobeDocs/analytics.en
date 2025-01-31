@@ -38,7 +38,9 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analyze user guide.
 * **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/vars/functions/tl-method.md) in the Implement user guide. See also Hit.
 * **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
+<!-- Cannot find a link to documentation on this role 
 * **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
+-->
 * **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
 * **Data connectors:** A retired development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Replaced with the Adobe Exchange Marketplace.
 * **Data feed:** A raw data export that lists every hit as a row and variables as separate columns. Most commonly used to export Adobe Analytics data to a third-party database. See [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.

@@ -12,7 +12,13 @@ Workspace projects allow you to combine data components, tables and visualizatio
 
 Here is a video on how to build a Workspace project:
 
->[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Project list {#project-list}
 
@@ -125,7 +131,12 @@ Components (dimensions, metrics, segments, date ranges) in the left rail relate 
 
 Here is a video on using the right-click menu in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 ## Project canvas {#canvas}
 

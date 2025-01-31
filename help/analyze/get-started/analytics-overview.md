@@ -27,7 +27,13 @@ Use the following resources to learn the basics of Adobe Analytics:
 
 To learn about Adobe Analytics basics, check out this *Intro to Adobe Analytics - Skill Builder Webinar* video. The video walks you through the basics of how data is captured, how data is sent to Adobe Analytics, and what visualization capabilities you can use within Adobe Analytics. The video provides a foundation for you to build, deploy, collect, and interpret data, allowing you to provide actionable insights and recommendations based on the collected data.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intro to Adobe Analytics - Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for the webinar  video.
+
+>[!ENDSHADEBOX]
+
 
 For questions about which tool to use, see [Which Adobe Analytics tool should I use?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 

@@ -10,9 +10,13 @@ This help page contains recommended use cases for each Adobe Analytics tool. Too
 
 For more on Adobe Analytics Product Comparisons, see [Analytics product comparison](/help/analyze/get-started/analytics-product-comparison.md).
 
-Here is a video that compares various Adobe Analytics tools:
 
->[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of tools](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Adobe Analytics Reporting User Interfaces {#user-interfaces}
 

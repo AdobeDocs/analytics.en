@@ -15,7 +15,13 @@ You can create multiple schedules for a single workbook. For example, you can se
 
 The Schedule feature also allows you to set up password protection for a workbook and edit previously scheduled workbooks.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schedule workbooks](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Schedule a workbook
 

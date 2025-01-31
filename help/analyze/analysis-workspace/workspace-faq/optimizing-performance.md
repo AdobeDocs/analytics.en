@@ -101,6 +101,10 @@ Additional factors that are not included on Help > Performance include:
 
 ## Tips to increase productivity in Analysis Workspace
 
-Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tips to increae productivity](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

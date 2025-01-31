@@ -37,9 +37,13 @@ It lets you:
 * Analyze where customers go before and after specified checkpoints, such as entry, a specific dimension, or exit 
 * Create segments by designating a specific point in a chosen path
 
-Here is a Flow visualization video tutorial:
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flow visualization](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Inter-Dimensional Flows {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -55,6 +59,13 @@ For information about how to confgure a flow visualization, see [Configure a flo
 
 Flow diagrams are part of a project's .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. This allows you to analyze Flow results within Microsoft Excel (visualized as a table) or elsewhere.
 
-## Expanding on Flow visualization
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## Additional functionality
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Additional functionality in the Flow visualization](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+

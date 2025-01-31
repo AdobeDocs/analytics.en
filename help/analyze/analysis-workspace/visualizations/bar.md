@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 ---
-# Bar and bar stacked
+# Bar (stacked)
 
 >[!BEGINSHADEBOX]
 
@@ -16,7 +16,7 @@ _This article documents the Bar and Bar stacked visualizations in_ ![AdobeAnalyt
 
 The bar visualization has a standard and stacked option.
 
-## Bar {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## Bar {#bar}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -27,13 +27,14 @@ The bar visualization has a standard and stacked option.
 
 <!-- markdownlint-enable MD034 -->
 
-This visualization shows vertical bars representing various values across one or more metrics.
 
-![](assets/bar.png)
+The ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** visualization shows vertical bars representing various values across one or more metrics.
 
-A granularity drop-down in the visualization settings lets you change a trended visualization (e.g. line, bar) from daily to weekly to monthly, etc.
+![Virtical bar visualization showing multiple metrics including Page Views, Visits, Entries, and Exits.](assets/bar.png)
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+A granularity drop-down in the visualization settings lets you change a trended visualization (for example, line, bar) from daily to weekly to monthly, etc.
+
+## Bar stacked {#bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,14 +45,18 @@ A granularity drop-down in the visualization settings lets you change a trended 
 
 <!-- markdownlint-enable MD034 -->
 
-This visualization is like a bar chart, but with the series bars stacked on top of each other.
 
-![](assets/bar-stacked.png)
+The ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Bar stacked]** visualization is like a bar chart, but with the series bars stacked on top of each other.
 
-A new visualization setting on bar stacked visualizations turns the chart into a "100% stacked" visualization:
+![Stacked bar chard showing multiple metrics.](assets/bar-stacked.png)
 
-![](assets/stacked_100_percent.png)
+Use the **[!UICONTROL 100% stacked]** option in ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** to turn the chart into a 100% stacked visualization.
 
-Here is a video on "100% stacked visualizations":
+![A 100% stacked bar chart.](assets/bar-stacked100.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

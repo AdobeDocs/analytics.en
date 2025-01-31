@@ -27,10 +27,17 @@ The following resources help you understand the basic workflow of obtaining data
 * [Manage data feeds](df-manage-feeds.md): Learn more about navigating the data feed interface
 * [Data feed contents](c-df-contents/datafeeds-contents.md): Understand what is inside the compressed file <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Data column definitions](c-df-contents/datafeeds-reference.md): A comprehensive list of all available columns.
-* Video navigating the data feed interface:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Video on how to find your data feed ID:
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigate the data feed interface](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} for a demo video.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Find your data feed id](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]

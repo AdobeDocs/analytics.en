@@ -9,9 +9,14 @@ exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 
 Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as: year-over-year, quarter-over-quarter, month-over-month, etc.
 
-Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Compare time periods {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

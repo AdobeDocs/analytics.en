@@ -14,9 +14,13 @@ This guide outlines ways to get data out of Adobe Analytics. It includes:
 * **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values. Data warehouse requests are typically sent to [cloud destinations](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 * **FTP and SFTP:** FTP and SFTP are supported, but are no longer recommended. Instead, export data to cloud destinations.
 
-Here is a video overview of Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics overview](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Key Analytics Export articles
 

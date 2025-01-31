@@ -21,9 +21,13 @@ Analytics components help you fine tune and empower your analysis of data. Compo
 * **Real-time reporting:** Get reports and trends the minute they are available.
 * **Marketing channels:** Understand how visitors arrive to your site and determine which channels are most successful.
 
-Here is a video overview of Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics overview](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Key Analytics Components articles
 

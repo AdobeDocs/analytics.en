@@ -15,7 +15,14 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 >
 >Duplicate each workbook and rename one version before you convert it. That way, you still have a copy of the original workbook, should you need it.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 

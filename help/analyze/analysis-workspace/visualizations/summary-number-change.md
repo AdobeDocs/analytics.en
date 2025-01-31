@@ -6,13 +6,17 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
-# [!UICONTROL Summary Number] and [!UICONTROL Summary Change]
+# [!UICONTROL Summary number] and [!UICONTROL Summary change]
 
 _This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
-Here is a video on these two visualizations:
 
->[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Summary number and Summary change visualization](https://video.tv.adobe.com/v/335564/?quality=12){target=&#34;_blank&#34;} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## [!UICONTROL Summary Number] visualization {#summary-number}
 
@@ -25,34 +29,12 @@ Here is a video on these two visualizations:
 
 <!-- markdownlint-enable MD034 -->
 
-Use the [!UICONTROL Summary Number] visualization to highlight a large number that is important in a project. This visualization behaves in the following ways:
 
-* Selects the total of the column if no cell is selected.
-* If a single cell is selected, it shows the summary for that cell.
-* If more than one cell is selected, it shows the first cell selected.
-* If the column is selected, it picks the first cell value in the column.
+Use the ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualization to show the delta (change) between two numbers. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
-Click the **Visualization settings** gear in to the top right to configure the Summary Number settings: 
-
-| Setting | Definition |
-|--- |--- |
-| [!UICONTROL Percentages] | Display percentages instead of raw numbers.|
-| [!UICONTROL Legend visible] | Display information about the metric displayed.|
-| [!UICONTROL Abbreviate value] | Choose to abbreviate values and show up to 3 decimal places.|
-| [!UICONTROL Summarize value by] | Choose to display the max, min, mean, median, or sum for a selection of data.|
-
-## [!UICONTROL Summary Change] visualization {#summary-change}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_summarychange_button"
->title="Summary change"
->abstract="Create a visualization that shows the delta (change) between two numbers"
-
-<!-- markdownlint-enable MD034 -->
-
-Use the [!UICONTROL Summary Change] visualization to show the delta (change) between two numbers. The green and red color of the [!UICONTROL Summary Change] can be controlled through [custom event polarity](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 This visualization behaves in the following ways:
 
@@ -64,14 +46,20 @@ This visualization behaves in the following ways:
 * If the column is selected, it compares the first value to itself, which shows a change of 0.
 
 
-![](assets/summary-change.png)
+![Summary change visualization showing the delta between two numbers.s](assets/summary-change.png)
 
 
-Click the **Visualization settings** gear in to the top right to configure the Summary Change settings: 
+As part of the visualization settings, specific **[!UICONTROL Summary change options]** are available.
 
-| Setting | Definition |
-| --- | --- |
-| [!UICONTROL Percentages] | Display percentages instead of raw numbers. |
-| [!UICONTROL Legend visible] | Display information about the metric displayed. |
-| [!UICONTROL Show Percent Change] | Shows the percent change between the 2 numbers. |
-| [!UICONTROL Show Raw Difference] | Shows the raw difference between the 2 numbers. You can also abbreviate values and show up to 3 decimal places with this option. |
+| Option | Definition |
+|--- |--- |
+| **[!UICONTROL Show percent change]**| Show the percent change between the 2 numbers.|
+| **[!UICONTROL Show raw difference]** | Show the raw difference between the 2 numbers. You can also abbreviate values and show up to 3 decimal places with this option.|
+| **[!UICONTROL Abbreviate value]** | Select **[!UICONTROL Abbreviate value]** to abbreviate intelligently the changed value. When selected, enter a number to define the amount of abbreviation. For example:<br/><table><tr><td>**Original value**</td><td>**Abbreviation value**</td><td>**Result**</td></tr><tr><td>$12,011,141.25</td><td>Not selected</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `0`</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> Selected, set to `1`</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `2`</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `3`</td><td align="right">$12.011M</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

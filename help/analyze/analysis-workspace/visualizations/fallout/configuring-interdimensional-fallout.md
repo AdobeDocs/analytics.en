@@ -9,9 +9,13 @@ exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 
 Fallout in Analysis Workspace lets you to mix and match dimensions and metrics as touchpoints in funnels and workflows. This gives you more flexibility in defining the user steps you want to investigate.
 
-Here is a video on the subject:
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mulit-dimensional fallout](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 **Example**: In addition to, say, a Page dimension, you can add action-based dimension items to a Fallout visualization. This lets you visualize how pages and certain actions interplay in customers' paths.
 

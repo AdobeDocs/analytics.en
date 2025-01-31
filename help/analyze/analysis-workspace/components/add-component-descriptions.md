@@ -13,9 +13,14 @@ Analytics administrators can add descriptions for components (Dimensions, Metric
 
 ## Add descriptions to components in a Report Suite
 
-The following video describes how to add dimension and metric descriptions in a Report Suite:
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
 

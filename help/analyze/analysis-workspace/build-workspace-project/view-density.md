@@ -21,6 +21,10 @@ To set the view density:
 
 1. Select among the 3 options outlined above and click **[!UICONTROL Save]**.
 
-Here is a video on using [!UICONTROL View Density]:
 
->[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

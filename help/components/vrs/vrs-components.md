@@ -8,9 +8,13 @@ exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 
 Virtual report suites can be curated to include and exclude components.in Analysis Workspace.
 
-Here is a video on component curation:
 
->[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

@@ -8,9 +8,13 @@ exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 
 Rather than maintaining and uploading classifications each time your tracking codes change, you can create automatic, rule-based classifications and apply them across multiple report suites. Rules are processed at frequent intervals, depending on your volume of classification related traffic.
 
-Here is a video overview of the Classification Rule Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification rule builder](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Important Notice before you get started
 

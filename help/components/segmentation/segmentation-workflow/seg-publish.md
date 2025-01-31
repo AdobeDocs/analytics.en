@@ -10,9 +10,13 @@ Publishing an Adobe Analytics segment to Experience Cloud lets you use the segme
 
 You can publish Analytics segments to Experience Cloud in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 
 
-See this video for more details:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

@@ -13,11 +13,11 @@ This guide focuses on integrating multiple Adobe Experience Cloud solutions, suc
 * **Analytics for Advertising Cloud DSP:** Integrates Adobe Analytics and Adobe Advertising Cloud to extend and enhance the capabilities of each product. 
 
    
-   >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
    
-   See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} for a demo video.
    
-   >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
    
 
 * **Analytics for Target:** A4T integrates Adobe Analytics and Adobe Target together.

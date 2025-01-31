@@ -16,7 +16,13 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 
 The following information instructs curators of Adobe Analytics data on how to configure and present mobile scorecards for executive users. To start with, you can view the Adobe Analytics dashboards scorecard builder video:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile scorecard builder](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 An Adobe Analytics scorecard displays key data visualizations for executive users in a tiled layout, as shown below:
 
@@ -115,9 +121,13 @@ The setting is *on* by default. Deselect the option if you don't want to view co
 
 ## Apply visualizations {#viz}
 
-View a video on visualizations for mobile scorecards:
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizations](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 Analytics dashboards offer four visualizations that give you great insight into dimension items and metrics. Change to a different visualization by changing the [!UICONTROL chart type] of a tile's [!UICONTROL Properties]. Just select the right tile and then change the chart type.
 
@@ -187,7 +197,13 @@ Each dimension added to the detail slide will show up in a drop-down list in the
 
 Custom detail slides allow you to be even more targeted about what information you share with your audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom detail views](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 You can modify the layout for each detail slide and add text to better explain what the end user may see in the data. You can also change the chart type using the drop-down menu.
 
@@ -223,9 +239,12 @@ A data story is a collection of supporting data points, business context, and re
 
 For example, if you focus on web traffic, your most important metric may be visits, but you may also be interested in new visitors, unique visitors, and you may want to see data broken down by web page or by what device type the traffic is coming from. Data stories in mobile scorecard projects let you put your most important metrics front and center while telling the whole story behind the metrics with multiple detail slides. 
 
-Watch the video to learn more about creating data stories in mobile scorecard projects in Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Create data stories](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 **To create a data story**
 

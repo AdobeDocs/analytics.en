@@ -6,7 +6,7 @@ feature: Data Sources
 ---
 # Analytics Import Guide
 
-![Banner](../../assets/doc_banner_import.png)
+
 
 This guide explains how to get data into Analytics. It includes:
 
@@ -15,9 +15,14 @@ This guide explains how to get data into Analytics. It includes:
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**: Send data directly to Adobe's data collection through an API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Find current integrations available to enrich your Adobe Analytics report suite.
 
-Here is a video overview of Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics overview](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## More Analytics user guides
 

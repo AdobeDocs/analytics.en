@@ -13,9 +13,12 @@ Field descriptions for a report suite's General Account Settings in Admin.
 
 These settings contain editing options for basic report suite functionality, such as name and time zone.
 
-Here is a video on configuring General Account Settings:
 
->[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring general account settings](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 | Option | Description |
 |--- |--- |

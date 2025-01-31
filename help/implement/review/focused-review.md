@@ -38,4 +38,11 @@ Assess the situation and make a plan to remediate the data. Then make the needed
 
 *Watch this 2-minute video from Adobe Analytics Champion Sarah Owen about natural times when you can fit reviews of your implementation into your busy schedule:*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reviewing your implementation](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+

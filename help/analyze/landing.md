@@ -7,9 +7,15 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 
-The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] (end-of-lifed) in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, a templates section, and a learning section to help you with getting started more effectively. Here is a video overview:
+The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] (end-of-lifed) in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, a templates section, and a learning section to help you with getting started more effectively. 
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics landing page](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 The Adobe Analytics landing page is comprised of the following subtabs: Projects, Templates, and Learning.
 

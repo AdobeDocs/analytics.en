@@ -39,14 +39,25 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 ## Videos
 
-Adding dimensions and metrics to your project in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+>[!BEGINSHADEBOX]
 
-Working with dimensions in a Freeform Table:
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} for a demo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+>[!ENDSHADEBOX]
 
-Here is a video on dimension breakdowns by position:
 
->[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

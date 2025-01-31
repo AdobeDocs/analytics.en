@@ -46,9 +46,12 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 [!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
 
-Video on Cohort tables in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -68,9 +71,14 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 ![](assets/retention-report.png)
 
-Here is a video on calculating rolling retention:
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL Churn] Table
 
@@ -78,9 +86,12 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 ![](assets/churn-report.png)
 
-Here is a video on churn analysis:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Rolling Calculation]
 

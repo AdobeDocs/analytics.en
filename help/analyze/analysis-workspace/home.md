@@ -11,7 +11,12 @@ Analysis Workspace allows you to quickly build analyses to gather insights and t
 
 The following video provides a brief overview with examples of what is possible.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 ## Areas of Analysis Workspace
 

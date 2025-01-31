@@ -12,9 +12,13 @@ Sequential segments are created by using the THEN operator, instead of AND or OR
 
 Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Here is a video on sequential segmentation:
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequential segmentation](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Include Everyone {#section_75ADDD5D41F04800A09E592BB2940B35}
 

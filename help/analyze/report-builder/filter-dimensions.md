@@ -13,7 +13,11 @@ By default, each dimension item in the table returns the top 10 items for that d
 
 To change the dimension items returned for each dimension
 
-1. Select a data block and click **[!UICONTROL Edit data block]** in the COMMANDS panel.
+1. Click **[!UICONTROL Manage]** and select a data block from the list.
+
+   ![Manage > Edit data block](./assets/manage-edit.png)
+
+1. Click **[!UICONTROL Edit data block]** in the COMMANDS panel.
 
 1. Click **[!UICONTROL Next]** to display the Dimensions tab.
 

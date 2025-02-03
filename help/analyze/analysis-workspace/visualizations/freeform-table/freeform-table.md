@@ -25,7 +25,7 @@ _This article documents the Freeform table visualization in_ ![AdobeAnalytics](/
 >[!ENDSHADEBOX]
 
 
-In Analysis Workspace, a ![Table](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** visualization is the foundation for interactive data analysis. You can drag and drop a combination of [components](/help/components/overview.md) into rows and columns to create a custom table for your analysis. As each component is dropped, the table updates immediately so you can quickly analyze and dig deeper.
+In Analysis Workspace, a ![Table](/help/assets/icons/Table.svg) **[!UICONTROL Freeform table]** visualization is the foundation for interactive data analysis. You can drag and drop a combination of [components](help/analyze/analysis-workspace/components/analysis-workspace-components.md) into rows and columns to create a custom table for your analysis. As each component is dropped, the table updates immediately so you can quickly analyze and dig deeper.
 
 ![Freeform Table showing components in rows and columns including Visits and Online Orders for multiple web pages.](assets/opening-section.png)
 
@@ -56,16 +56,16 @@ You can interact with and customize a freeform table in a variety of ways:
 ### Rows
 
 * You can quickly [create a new visualization](../freeform-analysis-visualizations.md#visualize) from one or more rows using ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg). 
-* You can fit more rows into a single screen by adjusting the project's [view density](/help/analysis-workspace/build-workspace-project/view-density.md).
+* You can fit more rows into a single screen by adjusting the project's [view density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
 * Each dimension row can show up to 400 rows, before pagination occurs. Select the number next to **[!UICONTROL Rows]** in the first column header, to show more rows on a page. Navigate to a different page using ![ChevronRight](/help/assets/icons/ChevronRight.svg) in the first column header.
-* You can break down rows by additional components. To break down many rows at once, select multiple rows and then drag the next component on top of the selected rows. Learn more about [breakdowns](/help/components/dimensions/t-breakdown-fa.md).
-* Rows can be [filtered](/help/components/filters/filters-overview.md) to show a reduced set of items. Additional settings are available under [Row settings](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
+* You can break down rows by additional components. To break down many rows at once, select multiple rows and then drag the next component on top of the selected rows. Learn more about [breakdowns](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+* Rows can be [filtered](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) to show a reduced set of items. Additional settings are available under [Row settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
 ### Columns
 
 * Components can be stacked within columns to create filtered metrics, cross-tab analysis and more.
-* Each column's view can be adjusted under the [column settings](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
-* Several actions are available through the [context menu](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). The menu provides different actions depending on if you select the table header, rows, or columns.
+* Each column's view can be adjusted under the [column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+* Several actions are available through the [context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). The menu provides different actions depending on if you select the table header, rows, or columns.
 
 
 ## Settings

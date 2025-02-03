@@ -37,7 +37,7 @@ _This article documents the Cohort table in_ ![AdobeAnalytics](/help/assets/icon
 
 A *cohort* is a group of people sharing common characteristics over a specified period. A ![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL Cohort table]** visualization is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-After creating a cohort report, you can curate its components (specific dimensions, metrics, and filters), then share the cohort report with anyone. See [Curate and Share](/help/analysis-workspace/curate-share/curate.md).
+After creating a cohort report, you can curate its components (specific dimensions, metrics, and filters), then share the cohort report with anyone. See [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Examples of what you can do with a [!UICONTROL Cohort table]:
 
@@ -66,7 +66,7 @@ Cohort tables in Customer Journey Analytics support double-based (or any numeric
 
 The following sections describe Cohort Analysis features that allow for fine-tuned control over the cohorts you are building.
 
-For more detailed information about creating a cohort and running a [!UICONTROL Cohort Analysis] report, see [Configure a Cohort table](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+For more detailed information about creating a cohort and running a [!UICONTROL Cohort Analysis] report, see [Configure a Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### [!UICONTROL Retention] table
 
@@ -100,7 +100,7 @@ You can create cohorts based on a selected dimension, and not time-based cohorts
 
 >[!MORELIKETHIS]
 >
->[Configure a Cohort table](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+>[Configure a Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 >
 
 

@@ -77,9 +77,6 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 <!-- markdownlint-enable MD034 -->
 
 
-
-You can override the default attribution model that is configured in [Data views](/help/data-views/component-settings/attribution.md).
-
 >[!NOTE]
 >
 >Consider the following when updating a component's attribution to a non-default attribution model:

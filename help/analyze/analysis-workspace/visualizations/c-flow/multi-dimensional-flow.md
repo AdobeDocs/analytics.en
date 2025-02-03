@@ -8,8 +8,7 @@ exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 ---
 # Inter-dimensional flows
 
-An inter-dimensional flow lets you examine user paths across various dimensions. Here is a video on text-wrapping and multi-dimensional flow in Analysis Workspace:
-
+An inter-dimensional flow lets you examine user paths across various dimensions. 
 
 >[!BEGINSHADEBOX]
 
@@ -17,51 +16,38 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensiona
 
 >[!ENDSHADEBOX]
 
+This article shows how to use this flow for two use cases: mobile app interactions and events, and how campaigns drive web visits.
 
-A dimension label at the top of each Flow column makes using multiple dimensions in a flow visualization more intuitive:
+## Mobile app interactions and events
 
-![](assets/flow.png)
+The [!UICONTROL Screen Name] dimension is used in this example flow to see how users use the various screens (scenes) in the app. The top screen returned is **[!UICONTROL luma: content: ios: en: home]**, which is the home page of the app:
 
-We will look at 2 use cases: an app use case and a web use case.
+![A flow showing the Item Added.](assets/flowapp.png)
 
-## Use case one: app {#app}
+To explore the interaction between screens and event types (like add to cart, purchases, and others) in this app, drag and drop the **[!UICONTROL Event Types]** dimension:
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+* On top of any available step in the flow, to replace that dimension:
 
-![](assets/multi-dimensional-flow.png)
+  ![A flow showing the Page dimension dragged dragged to the multiple areas.](assets/flowapp-replace.png)
 
-To explore the interaction between screens/pages and actions in this app, you can then drag the page dimension to multiple places, depending on what you want to explore:
+* Outside of the current flow visualization, to add the dimension:
 
-* Drag it to either end of the drop zone (inside the black-rimmed rectangular zone that appears) to **replace** the top results on the ends:
+  ![A flow showing the Page dimension dragged to the white space at the end.](assets/flowapp-add.png)
 
-  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+The flow visualization below shows the result of adding the **[!UICONTROL Event Types]** dimension. The visualization provides insights to how mobile app users move through various screens in the app before adding products to a cart, close the application, are presented an offer, and more.
 
-* Drag it to the white space on the end (notice the black bracket) to **add on to** the visualization:
+![A fLow showing the Page dimension results at the top of the list.](assets/flowapp-result.png)
 
-  ![](assets/multi-dimensional-flow4.png)
+## How campaigns drive web visits
 
-Here is the result if you decide to replace the ItemScaled item in the right column with the Page dimension. The top result now changes to the top result for the Page dimension:
+You want to analyze which campaigns drive visits to the web site. You create a flow visualization with the **[!UICONTROL Campaign Name]** as the dimension
 
-![](assets/multi-dimensional-flow5.png)
+![Flow web campaign name dimension](assets/flowweb.png)
 
-Now you can see how customers are moving through actions and pages. You can further explore the flow by clicking on different nodes:
+You replace the last **[!UICONTROL Campaign Name]** dimension with the **[!UICONTROL Formatted Page Name]** dimension and add another **[!UICONTROL Formatted Page Name]** dimension at the end of the flow visualization.
 
-![](assets/multi-dimensional-flow6.png)
+![Flow web campaign name and web page dimension](assets/flowweb-replace.png)
 
-This is what happens if you add another Action Name dimension onto the end of the visualization:
+You can hover over any of the flows to see more details. For example which campaigns have resulted in a Cart checkout.
 
-![](assets/multi-dimensional-flow7.png)
-
-This will allow for some deep insights and possible changes to the app you are analyzing.
-
-## Use case two: web {#web}
-
-This use case shows how you can analyze which campaigns drive the most entries to a web site.
-
-Drag the Campaign Name dimension into a new flow:
-
-![](assets/multi-dimensional-flow8.png)
-
-Now I want to see to which pages those campaigns are driving traffic, so I drag the Page dimension to the right of the flow results to add on to the visualization:
-
-![](assets/multi-dimensional-flow9.png)
+![Flow web campaign name and web page dimension hover](assets/flowweb-hover.png)

@@ -7,7 +7,12 @@ role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 ---
 
-mo video.
+# Row settings
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Row and column settings in a Freeform table](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -45,7 +45,7 @@ Consider the following when you create hyperlinks for one or more dimension item
 
 * Hyperlinks that are created for a single dimension item override hyperlinks that are created on the dimension.
 
-* Hyperlinks are not functional in [downloaded PDF files](/help/analyze/analysis-workspace/export/download-send.md). 
+* Hyperlinks are not functional in [downloaded PDF files](/help/analysis/analyze/analysis-workspace/export/download-send.md). 
 
 To create hyperlinks for one or more dimension items:
 

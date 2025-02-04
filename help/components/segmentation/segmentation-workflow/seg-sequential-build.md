@@ -4,13 +4,11 @@ title: Build sequential segments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 ---
-# Build sequential segments
+# Sequential segments
 
-Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter "Include Everyone". Sequential segments can be further filtered to a subset of matching hits using the "Only Before Sequence" and "Only After Sequence" options.
+You create sequential segments using the [!UICONTROL Then] logical operator between components, containers and components, or containers. The [!UICONTROL Then] logical operator implies that one segment condition occurs, followed by another. 
 
-![](assets/before-after-sequence.png)
-
-Additionally, you can constrain sequential segments to a&nbsp;specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the **[!UICONTROL After]** and **[!UICONTROL Within operators]**.
 
 
 >[!BEGINSHADEBOX]
@@ -19,415 +17,279 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequential segme
 
 >[!ENDSHADEBOX]
 
+A sequential segment has some [basic functionality](#basics) and additional options that you can configure to add more complexity to the sequential segment:
 
-## Include Everyone {#section_75ADDD5D41F04800A09E592BB2940B35}
+![Sequential segment](assets/sequential-segment.gif)
 
-When creating a segment where "Include Everyone" is set, the segment identifies paths that match the given pattern as a whole. This is an example of a basic sequence segment looking for one hit (Page A) followed by another (Page B) as visited by the same visitor. The segment is set to Include Everyone.
 
-![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
+## Basics
 
-| If result... | Sequence |
+The basics of building a sequential segment are no different than building a regular segment using the [Segment builder](seg-build.md). A regular segment becomes a sequential segment automatically as soon as you select the **[!UICONTROL Then]** operator in the main definition or in any of the containers you use within the [Segmentation builder](seg-build.md).
+
+### Examples
+
+The examples below illustrate how you use sequential segments in various use cases.
+
+#### Simple sequence
+
+Identify visitors who viewed a page and then viewed another page. The hit-level data is segmented using this sequence. Irrespective of previous, past, or interim visitor visits, or the time or number of page views occurring between the visits.
+
+![Sequential segment include everyone](assets/sequence-include-everyone.png)
+
+#### Sequence across visits
+
+Identify visitors who viewed a page in one visit, then viewed another page in another visit. To differentiate between visits, use containers to build the sequence and define ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** level for each container.
+
+![Sequence segment across visits](assets/sequence-filter-session.png)
+
+#### Mixed-level sequence
+
+Identify visitors who view two pages across an undetermined number of visits, and then view a third page in a separate visit. Again, use containers to build the sequence and define ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** level on the container that defines the separate visit.
+
+![Sequence segment with separate final visit](assets/sequence-filter-final-session.png)
+
+#### Aggregate sequence
+
+Identify visitors who at their first visit visited a specific page and then later visited some other pages. To differentiate between the sequence of hits, use containers to separate the logic on a ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Visit]** container level.
+
+![visit aggregate containers](assets/session-aggregate-containers.png)
+
+
+#### Nest a sequence
+
+Identify all visits where a visitor visits one page before another page and then have follow-up visits that involve two other pages. For example, identify all visits where a visitor first visits the home page, then a category 1 page and then has other visits where in each visit the category 2 and category 3 page are visited.
+
+![Nested sequence](assets/sequence-nested.png)
+
+## [!UICONTROL After] and [!UICONTROL Within]
+
+You can use ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** and ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** the **[!UICONTROL Then]** operator to define additional [time constraints](#time-constraints) or [constraints for Hits, Visits or Dimensions](#event-session-and-dimension-constraints).
+
+### Time constraints
+
+To apply time constraints to the **[!UICONTROL Then]** operator:
+
+  1. Select ![Clock](/help/assets/icons/Clock.svg).
+  1. Select **[!UICONTROL Within]** or **[!UICONTROL After]** from the context menu.
+  1. Specify a time period (**[!UICONTROL Minute]**, **[!UICONTROL Hour]**, up until **[!UICONTROL Years]**). 
+  1. Select the ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number*]** to open a popup that allows you to type in or specify a number using **[!UICONTROL -]** or **[!UICONTROL +]**.
+
+To remove a time constraint, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
+
+The table below explains in more detail the time constraint operators.
+
+|  Operators | Description |
 |--- |--- |
-| Matches | A then B<br>A then (in a different visit) B<br>A then D then B |
-| Does not Match | B then A |
+| **[!UICONTROL After]** |The [!UICONTROL After] operator is used to specify a minimum limit on the amount of time between two checkpoints. When setting the After values, the time limit begins when the segment is applied. For example, if the [!UICONTROL After] operator is set on a container to identify visitors who visit page A, but don't return to visit page B until after one day, then that day will start when the visitor leaves page A.  For the visitor to be included in the segment, a minimum of 1440 minutes (one day) must transpire after leaving page A to view page B. |
+| **[!UICONTROL Within]** | The [!UICONTROL Within] operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the [!UICONTROL Within] operator is set on a container to identify visitors who visit page A, and then return to visit page B within one day, then that day begins when the visitor leaves page A. To be included in the segment, the visitor has a maximum time of one day before opening page B. For the visitor to be included in the segment, opening page B must occur within a maximum of 1440 minutes (one day) after leaving page A to view page B.|
+| **[!UICONTROL After but Within]** | When using both the [!UICONTROL After] and [!UICONTROL Within] operators, both operators start and end in parallel, not sequentially. <br/>For example, you build a segment with the container set to: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>The conditions to identify visitors in this segment are met only between one and two weeks. Both conditions are enforced from the time of the first page view. |
 
-## Only Before Sequence and Only After Sequence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-The options **[!UICONTROL Only Before Sequence]** and **[!UICONTROL Only After Sequence]** filter the segment to a subset of data before or after the specified sequence.
+#### Examples
 
-* **Only Before Sequence**: Includes all hits before a sequence + the first hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, "Only Before Sequence" includes the first hit of the last occurrence of the sequence and all prior hits (see example 2).
-* **Only After Sequence**: Includes all hits after a sequence + the last hit of the sequence itself (see example 1, 3). If a sequence appears multiple times in a path, "Only After" includes last hit of the first occurrence of the sequence and all subsequent hits (see example 2).
+Some examples of using the time constraints.
 
-For example, consider a sequence of B -> D. The three filters would identify hits as follows:
+##### [!UICONTROL After] operator 
 
-**Example 1: B then D appears once** 
+Identify visitors that visited one page and then another page only after two weeks. For example, visitors that visited the Home page, but the Women | Shoes page only after two weeks.
 
-|  Example  | A  | B  | C  | D  | E  | F  |
-|---|---|---|---|---|---|---|
-|  Include Everyone  | A  | B  | C  | D  | E  | F  |
-|  Only Before Sequence  | A  | B  |  |  |  |  |
-|  Only After Sequence  |  |  |  | D  | E  | F  |
+![Sequence after](assets/sequence-after.png)
 
-**Example 2: B then D appears multiple times** 
+If a page view for the Home happens on June 1, 2024, at 00:01, then a page view to page Women | Shoes will match as long as that page view occurs after June 15, 2024 00:01.
 
-|  Example  | A  | B  | C  | D  | B  | C  | D  | E  |
-|---|---|---|---|---|---|---|---|---|
-|  Include Everyone  | A  | B  | C  | D  | B  | C  | D  | E  |
-|  Only Before Sequence  | A  | B  | C  | D  | B  |  |  |  |
-|  Only After Sequence  |  |  |  | D  | B  | C  | D  | E  |
+##### [!UICONTROL Within] operator
 
-Let's also frame this concept with the Hit Depth dimension.
+Identify visitors that visited one page and then another page within five minutes. For example, visitors that visited the Home page and then the Women | Shoes page within 5 minutes.
 
-**Example 3: Hit Depth 3 then 5**
+![Sequence within](assets/sequence-within.png)
 
-![](assets/hit-depth.png)
+If a page view for the Home happens on June 1, 2024, at 12:01, then a page view to page Women | Shoes will match as long as that page view occurs before June 15, 2024 12:16.
 
-## Dimension Constraints {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+##### [!UICONTROL After] but [!UICONTROL Within] operator
 
-In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
+Identify visitors that visited one page then visited another page after two weeks but within one month. For example, visitors that visited the Home page and then after two weeks and within one month the Women | Shoes page.
 
-Setting a 'Within Dimension' clause between rules allows a segment to restrict data to sequences where that clause is satisfied. See the example below, where the constraint is set to "Within 1 page":
+![Sequence after but within](assets/sequence-afterbutwithin.png)
 
-![](assets/sequence-filter4.png)
+Any visitors hitting the Home page on June 1, 2024 and who are returning to visit the Women | Shoes page after June 15, 2019 00:01, but before July 1, 2019 qualify for the segment.
 
-| If result... | Sequence |
-|--- |--- |
-| Matches | A then B |
-| Does not Match| A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
-## Simple Page View sequence
+### [!UICONTROL Hit], [!UICONTROL Visit] and [!UICONTROL Dimension] constraints
 
-Identify visitors who viewed a page and then viewed another page. The hit-level data will filter this sequence irrespective of previous, past, or interim visit sessions or the time or number of page views occurring between.
+The ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** and ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** constraints allow you not only to specify a time constraint but also a hit, visit or dimension constraint. Select **[!UICONTROL Hit(s)]**, **[!UICONTROL Visit(s)]** or **[!UICONTROL Other dimensions]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension name*]**. You can use the [!UICONTROL *Search*] field to search for a dimension.
 
-**Example**: Visitor viewed page A, then viewed page B in the same or another visit.
+#### Example
 
-**Use cases**
+Below is an example of a sequential segment looking for visitors that visited one product category page (Women | Shoes), followed by a checkout page (Checkout | Thank You) within one page.
 
-The following are examples of how the segment can be used.
+![Sequence segment within](assets/sequence-filter-within.png)
 
-1. Visitors to a sports' site view the football landing page and then view the basketball landing page in sequential order but not necessarily on the same visit. This prompts a campaign to push basketball content to football viewers during the football season.
-1. Car retailer identifies a relationship between those who land on the customer loyalty page and then go to the video page at any time during the visit or another visit.
+The following example sequences match or do not match:
 
-**Create this segment**
+| Sequence | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|--- | :---: |
+| Page `Women \| Shoes` followed by page `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Page `Women \| Shoes` followed by page `Women \| Tops` followed by page `Checkout \| Thank You` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
 
-You nest two page rules within a top-level [!UICONTROL Visitor] container and sequence the page hits using the [!UICONTROL THEN] operator.
+## [!UICONTROL Include]
 
-![](assets/segment_sequential_1.png)
+You can specify what data to include in your sequential segment or in a sequential container that is part of your sequential segment. 
 
-## Visitor sequence across visits
+### [!UICONTROL Everyone] {#include_everyone}
 
-Identify those visitors who fell out of a campaign but then returned to the sequence of page views in another session.
+To create a sequential segment that includes everyone, select the option ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-**Example**: Visitor viewed page A in one visit, then viewed page B in another visit.
+The sequential segment identifies data that match the given pattern as a whole.  Below is an example of a basic sequence segment looking for visitors that visited one product category page (Women | Shoes), followed by a checkout page (Checkout | Thank You). The segment is set to ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-**Use Cases**
+![Sequential segment include everyone](assets/sequence-include-everyone.png)
 
-The following are examples of how this type of segment can be used:
+The following example sequences match or do not match:
 
-* Visitors to the Sports page of a news site then revisits the Sports page in another session.
-* A clothes retailer sees a relationship between visitors who land on a landing page in one session, and then go directly to the checkout page in another session.
+| | Sequence | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | `Women \| Shoes` then `Checkout \| Thank You` in the same visit | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` then `Men \| Shoes` then `Checkout \| Thank You` (across different visits) |  ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You` then `Women \| Shoes` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
 
-**Create this Segment**
+### [!UICONTROL Only Before Sequence] and [!UICONTROL Only After Sequence]
 
-This example nests two **[!UICONTROL Visit]** containers within the top-level **[!UICONTROL Visitor]** container and sequences the segment using the [!UICONTROL THEN] operator.
+The options ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** and ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** segment the data to a subset before or after the specified sequence.
 
-![](assets/visitor_seq_across_visits.png)
+* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **Only Before Sequence**: Includes all data before a sequence and the first data of the sequence itself. If a sequence appears multiple times as part of the data, [!UICONTROL Only Before Sequence] includes the first hit of the last occurrence of the sequence and all prior hits.
+* ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **Only After Sequence**: Includes all hits after a sequence and the last data of the sequence itself. If a sequence appears multiple times as part of the data, [!UICONTROL Only After Sequence] includes the last hit of the first occurrence of the sequence and all subsequent hits.
 
-## Mixed-level sequence
+Consider a definition specifying a sequence of a component with criteria identified by B, followed (Then) by a component with criteria identified by D. The three options would identify data as follows:
 
-Identify visitors who view two pages across an undetermined number of visits, but then view a third page in a separate visit.
 
-**Example**: Visitors visit page A and then page B in one or more visits, followed by a visit to page C in a separate visit.
+|  B Then D | A  | B  | C  | D  | E  | F  |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+|  Include Everyone  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Only Before Sequence  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |  |  |  |  |
+|  Only After Sequence  |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
 
-**Use Cases**
 
-The following are examples of how this type of segment can be used:
 
-* Visitors first visit a news site and then view the sports page in the same visit. On another visit the visitor visits the weather page.
-* Retailer defines visitors who enter the Main page and then go to the My Account page. In another visit, they visit the View Cart page.
+|  B Then D (occurs multiple times)  | A  | B  | C  | D  | B  | C  | D  | E  |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  Include Everyone  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Only Before Sequence  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |  |  |  |
+|  Only After Sequence  |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
 
-**Create this segment**
+#### Example
 
-1. Drop two Page dimensions from the left panes within a top-level [!UICONTROL Visitor] container.
-1. Add the THEN operator between them.
-1. Click **[!UICONTROL Options]** > **[!UICONTROL Add container]** and add a [!UICONTROL Visit] container underneath the [!UICONTROL Visitor] level and sequenced using the [!UICONTROL THEN] operator.
+You have defined three version of a sequential segment for site sections. One with the option ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**, one with the option ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]**, and one with the option ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**. You named the three segments accordingly.
 
-![](assets/mixed_level_checkpoints.png)
+![Sequence segment](assets/site-section-filters.png)
 
-## Aggregate containers
+When reporting on site sections using these three segments, the example output in a freeform table looks like:
 
-Adding multiple [!UICONTROL Hit] containers within a [!UICONTROL Visitor] container lets you employ the appropriate operators between the same type of containers, and to use rules and dimensions such as Page and Visit Number to define the page view and provide a sequence dimension within the [!UICONTROL Hit] container. Applying logic at the Hit-level lets you constrain and combine matches at a same-level of hits within the [!UICONTROL Visitor] container to build a variety of segment types.
+![Sequential segment report](assets/sequential-filter-freeform-table.png)
 
-**Example**: Visitors visited page A after the first hit in the sequence of page views (page D in the example), then visited either page B or page C without regard to the number of visits.
+## [!UICONTROL Exclude]
 
-**Use Cases**
+Segment definitions include all data unless you specifically exclude ![User](/help/assets/icons/User.svg) [!UICONTROL Person], ![Visit](/help/assets/icons/Visit.svg) [!UICONTROL Visit], or ![WebPage](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] data using **[!UICONTROL Exclude]**. 
 
-The following are examples of how this type of segment can be used:
+[!UICONTROL Exclude] allows you to dismiss common data and create segments with more focus. Exclude also allows you to create segments excluding specific groups of visitors. For example, to define a segment that specifies visitors that placed orders and then excluding that group of visitors to identify *non-purchasers*. A best practice is to create rules that use a broad definition rather than trying to use [!UICONTROL Exclude] to target specific visitors that match specific include values.
 
-* Identify visitors who go to the Main landing page in one visit, then view the Men's clothing page in another visit, then view either the Woman's or Children's landing page in a different visit.
-* An e-zine captures those visitors who go to the Home page in one visit, the Sports page in another visit, and the Opinion page in another visit.
+Example of exclude definitions are:
 
-**Create this segment**
+* **Exclude pages**. Use a segment definition to strip out a specific page (such as *Home Page*) from a report, create a Hit rule where the page equals `Home Page`, and then exclude the rule. This definition automatically includes all pages except the *Home Page*.
+* **Exclude referring domains**. Use a definition that includes only referring domains from Google.com and excludes all others.
+* **Identify non-purchasers**. Identify when orders are greater than zero and then exclude the [!UICONTROL Person].
 
-1. Select the [!UICONTROL Visitor] container as the top-level container.
-1. Add two [!UICONTROL Hit]-level containers—a dimension with an appropriate numerical dimension joined at the same [!UICONTROL Hit] level by the [!UICONTROL AND] and [!UICONTROL OR] operator.
-1. Within the [!UICONTROL Visit] container, add another [!UICONTROL Hit] container and nest two additional [!UICONTROL Hit] containers joined with an [!UICONTROL OR] or [!UICONTROL AND] operator.
+[!UICONTROL Exclude] can be used to identify a sequence where visitors do not be part of specific visits or perform specific hits. [!UICONTROL Exclude] can also be included within a [!UICONTROL Logic Group] (see below).
 
-   Sequence these nested [!UICONTROL Hit] containers with the [!UICONTROL THEN] operator.
+You can exclude containers, not components. 
 
-![](assets/aggregate_checkpoints2.png)
+### Examples
 
-## "Nesting" in sequential segments
+See below for examples of using [!UICONTROL Exclude].
 
-By placing checkpoints at both the [!UICONTROL Visit] and [!UICONTROL Hit] level, you can constrain the segment to meet requirements within a specific visit as well as a specific hit.
+#### [!UICONTROL Exclude] within
 
-**Example**: Visitor visited page A then visited page B in the same visit. In a new visit, the visitor then went to page C.
+Identify visitors who visited one page, did not visited another page, then visited yet another page. You exclude the container using ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. An excluded container is identified by a thin red bar on the left.
 
-**Create this segment**
+![Exclude sequence](assets/sequence-exclude.png)
 
-1. Underneath a top-level [!UICONTROL Visit] container, drag in two page dimensions.
-1. Multi-select both rules, click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]** and change it to a [!UICONTROL Visit] container.
-1. Join them with a [!UICONTROL THEN] operator.
-1. Create a Hit container as a peer to the [!UICONTROL Visit] container and drag in a page dimension.
-1. Join the nested sequence in the [!UICONTROL Visit] container with the [!UICONTROL Hit] container using another [!UICONTROL THEN] operator.
 
-![](assets/nesting_sequential_seg.png)
+#### [!UICONTROL Exclude] at start
 
-## Exclude hits
+Identify visitors who visited one page without ever going to another page. For example, people that checked out a purchase without ever visited the home page.
 
-Segment rules include all data unless you specifically exclude [!UICONTROL Visitor], [!UICONTROL Visit], or [!UICONTROL Hit] data using the [!UICONTROL Exclude] rule. It allows you to dismiss common data and create segments with more focus. Or it allows you to create segments excluding found groups to identify the remaining data set, such as creating a rule that includes successful visitors who placed orders and then excluding them to identify "non-purchasers." However, in most cases it is better to create rules that exclude broad values rather than trying to use the [!UICONTROL Exclude] rule to target specific include values.
+![Sequence exclude start](assets/sequence-exclude-start.png)
 
-For example:
 
-* **Exclude pages**. Use a segment rule to strip out a specific page (such as *`Home Page`*) from a report, create a Hit rule where the page equals "Home Page," and then exclude it. This rule automatically includes all values except the Home Page.
-* **Exclude referring domains**. Use a rule that includes only referring domains from Google.com and excludes all others.
-* **Identify non-purchasers**. Identify when orders are greater than zero and then exclude the [!UICONTROL Visitor].
+#### [!UICONTROL Exclude] at end
 
-The [!UICONTROL Exclude] operator can be employed to identify a sequence where specific visits or hits are not performed by the visitor. [!UICONTROL Exclude Checkpoints] can also be included within a [Logic Group](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Identify visitors who visited one page but never visited other pages. For example, visitors that visited your home page but never any of your checkout pages.
 
-### Exclude between checkpoints
+![Sequence exclude end](assets/sequence-exclude-end.png)
 
-Enforce logic to segment visitors where a checkpoint did not explicitly occur between two other checkpoints.
 
-**Example**: Visitors that visited page A and then visited page C—but did not visit page B.
-
-**Use Cases**
-
-The following are examples of how this type of segment can be used:
-
-* Visitors to a Lifestyle page and then the Theater section without going to the Arts page.
-* An auto retailer sees a relationship between those who visit the main landing page and then go straight to the No Interest campaign without going to the Vehicle page.
-
-**Create this segment**
-
-Create a segment as you would for a simple, mixed-level, or nested sequential segment and then set the [!UICONTROL EXCLUDE] operator for the container element. The example below is an aggregate segment where the three [!UICONTROL Hit] containers are dragged to the canvas, the [!UICONTROL THEN] operator assigned to join the container logic, then exclude the middle page view container to include only visitors that went from page A to Page C in the sequence.
-
-![](assets/exclude_between_checkpoints.png)
-
-### Exclude at beginning of sequence
-
-If the exclude checkpoint is at the beginning of a sequential segment, then it ensures that an excluded page view did not occur before the first non-excluded hit.
-
-For example, A restaurant wants to see users who tend to avoid the main landing page and go directly to the Order Out page. You can view this data by excluding hits to the landing page and including hits to the Order Out page in a sequential segment.
-
-**Create this segment**
-
-Create two separate Hit containers within a top-level Visitor container. Then set the [!UICONTROL EXCLUDE] operator for the first container.
-
-![](assets/exclude_beginning_sequence.png)
-
-### Exclude at end of sequence
-
-If the exclude checkpoint is at the end of a sequence, then it ensures that the checkpoint did not happen between the last non-excluded checkpoint and the end of the visitor sequence.
-
-For example, a clothing store wants to see all visitors that viewed a product page but never visited their shopping cart afterward. This example can be simplified to a visitor going to page A then never going to page B in current or subsequent visits.
-
-**Create this segment**
-
-Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to the canvas and connecting them using the [!UICONTROL THEN] operator. Then assign the [!UICONTROL EXCLUDE] operator to the second [!UICONTROL Hit] container in the sequence.
-
-![](assets/exclude_end_sequence.png)
-
-## Logic Group containers
-
-Logic Group containers are required to group conditions into a single sequential segment checkpoint. The special Logic Group container is available only in sequential segmentation, to ensure its conditions are met after any prior sequential checkpoint and before any following sequential checkpoint. The conditions within the Logic Group checkpoint itself may be met in any order. By contrast, non-sequential containers (hit, visit, visitor) do not require their conditions to be met within the overall sequence, producing unintuitive results if used with a THEN operator.
-The [!UICONTROL Logic Group] container was designed to treat *several checkpoints as a group*, *without any ordering* among the grouped checkpoints. In other words, we don't care about the order of the checkpoints within that group. For example, you can't nest a [!UICONTROL Visitor] container within a [!UICONTROL Visitor] container. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+## [!UICONTROL Logic Group]
 
 >[!NOTE]
 >
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+>A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL Then] operator is used within the container.
 
-|Container Hierarchy|Illustration|Definition|
-|---|---|---|
-|  Standard Container Hierarchy| ![](assets/nesting_container.png) |Within the [!UICONTROL Visitor] container, the [!UICONTROL Visit] and [!UICONTROL Hit] containers are nested in sequence to extract segments based on hits, the number of visits, and the visitor.  |
-|  Logic Container Hierarchy  | ![](assets/logic_group_hierarchy.png) |The standard container hierarchy is also required outside of the [!UICONTROL Logic Group] container. But inside the [!UICONTROL Logic Group] container, the checkpoints do not require an established order or hierarchy—these checkpoints simply need to be met by the visitor in any order.  |
+Logic Group enables you to group conditions into a single sequential segment checkpoint. As part of the sequence, the logic defined in the container identified as Logic Group is evaluated after any prior sequential checkpoint and before any following sequential checkpoint. 
 
-Logic groups may seem daunting - here are some best practices on how to use them:
+The conditions within the Logic Group itself may be met in any order. By contrast, non-sequential containers (hit, visit, visitor) do not require their conditions to be met within the overall sequence, producing possible unintuitive results if used with a **[!UICONTROL Then]** operator.
 
-**Logic Group or Hit/Visit container?** 
-If you want to group sequential checkpoints, then your "container" is Logic Group. However, if those sequential checkpoints must occur within a single hit or visit scope, then a 'hit' or a 'visit' containers are required. (Of course, 'hit' does not make sense for a group of sequential checkpoints, when one hit may credit no more than one checkpoint).
+[!UICONTROL Logic Group] was designed to treat *several conditions as a group, without any ordering* among the grouped conditions. Otherwise stated, the order of the conditions within a Logic Group is irrelevant. 
 
-**Do Logic Groups simplify building sequential segments?** 
-Yes, they can. Let's assume you are trying to identify this segment of visitors: **Visitors that viewed page A, then viewed each of the pages of B, C, and D**
+Some best practices to use Logic Group are:
 
-You can build this segment without a Logic Group container, but it's complex and laborious. You must specify every sequence of pages that the visitor could view:
-* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
-* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
-* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
-* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
-* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
-* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+* To group sequential checkpoints. 
+* To simplify the construction of sequential segments.
 
-A Logic Group container greatly simplifies building this segment, as shown here:
+### Examples
 
-![](assets/logic-grp-example.png)
+Here are examples on how to use the Logic Group container.
 
+#### Any order
 
-### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+Identify visitors that visited one page, then viewed each page out of another set of pages in any order. For example, visitors that visited the Home page, then visited each of the Men page, the Women page, and the Kids page, irrespective of the order.
 
-Like other containers, [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. Here is a preferred way to nest [!UICONTROL Logic Group] containers:
+You can build this segment without a [!UICONTROL Logic Group], but the construction is going to be complex and laborious. Specify every sequence of pages that the visitor could view. For clarity, only the first container is opened ![ChevronDown](/help/assets/icons/ChevronDown.svg) and the other containers are closed ![ChevronRight](/help/assets/icons/ChevronRight.svg). You can derive the contents of the other containers by the titles.
 
-1. Drag dimensions, events, or segments from the left panes.
-1. Change the top container to a [!UICONTROL Visitor] container.
-1. Change the [!UICONTROL AND] or [!UICONTROL OR] operator inserted by default to the THEN operator.
-1. Select the [!UICONTROL Hit] containers (the Dimension, Event, or Item) and click **[!UICONTROL Options]** > **[!UICONTROL Add container from selection]**.
-1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
-1. You can now set the [!UICONTROL Hit] within the [!UICONTROL Logic Group] container without regard to hierarchy.
+![Example not using a logic group](assets/logicgroup-example-notusing.png)
 
-### Logic Group checkpoints in any order
+You can use [!UICONTROL Logic Group] to simplify building this segment, as shown below. Ensure you select ![Group](/help/assets/icons/Group.svg) **[!UICONTROL Logic Group]** for the container.
 
-Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.
+![Example not using a logic group](assets/logicgroup-example-using.png)
 
-**Example**: Visitors who visited page A, then visited page B and page C in any order.
+#### First match
 
-**Create this segment** 
+Identify visitors that visited one page or another page, then visited yet another page. For example, visitors that visited the Women page or the Men page, then visited the Checkout | Thank You page.
 
-Page B and C are nested in a [!UICONTROL Logic Group] container within the outer [!UICONTROL Visitor] container. The [!UICONTROL Hit] container for A is then followed by the [!UICONTROL Logic Group] container with B and C identified using the [!UICONTROL AND] operator. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
+![Example using first match with logic group](assets/logicgroup-example-firstmatch.png)
 
-![](assets/logic_group_any_order2.png)
+#### [!UICONTROL Exclude] [!UICONTROL And]
 
-**Another example**: Visitors who visited page B or page C, then visited page A:
+Identify visitors that visited one page then explicitly did not visit a set of other pages, but did visit yet another page. For example, visitors that visited the Home Page, did not visit the Men or the Women page, but did visit the Kids page.
 
-![](assets/logic_group_any_order3.png)
+![Logic group exclude and](assets/logicgroup-exclude-and.png)
 
-The segment must match at lease one of the logic group's checkpoints (B or C). Also, logic group conditions may be met in the same hit or across multiple hits.
+#### [!UICONTROL Exclude] [!UICONTROL Or]
 
-### Logic Group first match
+Identify visitors that visited one page then explicitly did not visit any page of a set of pages, but did visit yet another page. For example, visitors that visited the Home Page, did not visit the Men and the Women page, but did visit the Kids page.
 
-Using the [!UICONTROL Logic Group] lets you meet conditions within that group that reside outside of the sequence. In this unordered first match segment, the [!UICONTROL Logic Group] rules are identified first to be either a page view of page B or page C, then the required view of page A.
+![Logic group exclude and](assets/logicgroup-exclude-or.png)
 
-**Example**: Visitors that visited either page B or page C, then visited page A.
 
-**Create this segment** 
+<!--
+An example of a complex sequential segment if you want to find the visitors that 
 
-Page B and page C dimensions are grouped within a [!UICONTROL Logic Group] container with the [!UICONTROL OR] operator selected, then the [!UICONTROL Hit]container identifying a page view of page A as the value.
+| visit One | visit Two | visit Three |
+| --- | --- | --- |
+| The visitor went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The visitor again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The visitor entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
+-->
 
-![](assets/logic_group_1st_match.png)
 
-### Logic Group exclude AND
+## A final example
 
-Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
+As a final example, you want to identify visitors that learned about a specific product page, without these visitors ever touched by your Empower Your Move campaign. And in their first visit to your online store viewed the Home page but did not look further at any fitness (gear) products from the Men category. However, in their next visit directly after that, they went to a product page and placed an online order without going through the Home page first.
 
-**Example**: Visitor visited Page A, then explicitly did not visit page B or C, but hit page D.
 
-**Create this segment** 
-
-Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes. See [Building a Logic Group Segment](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-
-After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
-
-![](assets/logic_exclude_and.png)
-
-### Logic Group exclude OR
-
-Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed.
-
-**Example**: Visitors that visited page A, but did not visit either Page B or Page C before Page A.
-
-**Create this segment** 
-
-The initial B and C pages are identified in a [!UICONTROL Logic Group] container that is excluded, and then followed by a hit to page A by the visitor.
-
-Build this segment by dragging Dimensions, Events, and pre-built Segments from the left panes.
-
-After nesting the values within the [!UICONTROL Logic Group], click the **[!UICONTROL Exclude]** button within the [!UICONTROL Logic Group] container.
-
-![](assets/logic_exclude_or.png)
-
-## Build time-within and time-after segments
-
-Use the [!UICONTROL Within] and [!UICONTROL After] operators built in to the header of each container to define the time, events, and count.
-
-![](assets/then_within_operators.png)
-
-You can limit matching to a specified duration of time by using the [!UICONTROL Within] and [!UICONTROL After] containers and specifying a granularity and count. The [!UICONTROL Within] operator is used to specify a max limit on the amount of time between two checkpoints. The [!UICONTROL After] operator is used to specify a minimum limit on the amount of time between two checkpoints.
-
->[!NOTE]
->
->There are differences in evaluation between similarly named elements like **Day(s)** or **Day**. For time-based definitions of Within and After, utilize the options listed first in the popup window:
->
->![image](assets/copied-link-2.png)
->
->For dimension-based definitions of Within and After, utilize the options under the sub-menu *Other Dimensions*:
->
->![image](assets/copied-link-3.png)
-
-### After and Within Operators {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
-
-The duration is specified by a single uppercase letter representing the granularity followed by a number representing the repetition count of the granularity.
-
-**[!UICONTROL Within]** includes the endpoint (less than or equal to).
-
-**[!UICONTROL After]** does not include the endpoint (greater than).
-
-| Operators | Description |
-|--- |--- |
-|AFTER|The  After operator is used to specify a minimum limit on the amount of time between two checkpoints.. When setting the After values, the time limit will begin when the segment is applied. For example, if the  After operator is set on a container to identify visitors who visit page A but don't return to visit page B until after one day, then that day will begin when the visitor leaves page A.  For the visitor to be included in the segment, a minimum of 1440 minutes (one day) must transpire after leaving page A to viewing page B.|
-|WITHIN|The  Within operator is used to specify a maximum limit on the amount of time between two checkpoints. For example, if the  Within operator is set on a container to identify visitors who visit page A and then returned to visit page B within one day, then that day will begin when the visitor leaves page A. To be included in the segment, the visitor will have a maximum time of one day before opening page B.   For the visitor to be included in the segment, the visit to page B must occur within a maximum of 1440 minutes (one day) after leaving page A to viewing page B.|
-|AFTER/WITHIN|When using both the  After and  Within operators, it's important to understand that both operators will begin and end in parallel, not sequentially.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Both conditions are enforced from the time of the first page hit.|
-
-### Use the After operator
-
-* Time After lets you track by year, month, day, hour, and minute to match visits.
-* Time After can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
-
-**Example**: Visitors that visited page A then visited page B only after 2 weeks.****
-
-![](assets/time_between_after_operator.png)
-
-**Create the Segment**: This segment is created by adding a [!UICONTROL Visitor] container with two [!UICONTROL Hit] containers. You can then set the [!UICONTROL THEN] operator, and open the [!UICONTROL AFTER] operator drop down and set the number of weeks.
-
-![](assets/after_operator.png)
-
-**Matches**
-
-When given "After 2 weeks", if a hit to page A happens on June 1 2019, at 00:01, then a following hit to page B will match as long as it comes before June 15 2019 00:01 (14 days later).
-
-| Hit A | Hit B | Matching |
-|--- |--- |--- |
-|**A** hit: June 1, 2019 00:01|**B** hit: Jun 15, 2019 00:01|**Matches:** This time constraint matches because it is After June 1, 2019 (two weeks).|
-|**A** hit: June 1, 2019 00:01|**B** hit: June 8, 2019 00:01 B hit: June 15, 2019 00:01|**Does not match:** The first hit on page B does not match because it conflicts with the constraint requiring it after two weeks.|
-
-### Use the Within operator
-
-* [!UICONTROL Within] lets you track by year, month, day, hour, and minute to match visits.
-* [!UICONTROL Within] can only be applied to a [!UICONTROL Hit] container because it is the only level for which such fine granularity is defined.
-
->[!TIP]
->
->In a "within" clause, in between THEN statements, you can add, for example, "within 1 search keyword instance", "within 1 eVar 47 instance". This constrains the segment to within one instance of a dimension.
-
-**Example**: Visitors who visited page A then visited page B within 5 minutes.
-
-![](assets/time_between_within_operator.png)
-
-**Create the segment**: This segment is created by adding a [!UICONTROL Visitor] container, then dragging with two [!UICONTROL Hit] containers. You can then set the [!UICONTROL THEN] operator, and open the [!UICONTROL AFTER] operator drop down and set the interval: hits, page views, visits, minutes, hours, days, weeks, months, quarters, or years.
-
-![](assets/within_operator.png)
-
-**Matches**
-
-Matches must occur within the time limit. For the expression , if a visitor hits page A happens at 00:01, then a following hit to page B will match as long as it comes on or before 00:06 (five minutes later, including the same minute). Hits within the same minute will also match.
-
-### The Within and After operators
-
-Use [!UICONTROL Within] and [!UICONTROL After] to provide a maximum and minimum endpoint at both ends of a segment.
-
-**Example**: Visitors that visited page A then visited page B after 2 weeks but within 1 month.
-
-![](assets/time_between_using_both_operators.png)
-
-**Create the Segment**: Create the segment by sequencing two [!UICONTROL Hit] containers within a [!UICONTROL Visitor] container. Then set the [!UICONTROL After] and [!UICONTROL Within] operators.
-
-![](assets/within_after_together.png)
-
-**Matches**
-
-Any visitors hitting page A on June 1, 2019 are returning after June 15, 2019 00:01, but *before* July 1, 2019 are included in the segment. Compare with [Time Between Exclusions](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-
-The [!UICONTROL After] and [!UICONTROL Within] operators can be used together to define a sequential segment.
-
-![](assets/time_between_within_after.png)
-
-This example depicts a second visit to hit page B after two weeks but within a month.
+![Complex sequential segment example](assets/sequential-complex.png)

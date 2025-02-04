@@ -10,12 +10,14 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 
 Learn about the benefits and constraints of using Timestamps Optional setting.
 
+<!-- Hide video as it is not adding a lot according to feedback from customer in feedback report January 2025.
 
 >[!BEGINSHADEBOX]
 
 See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+-->
 
 
 Timestamps Optional is the default setting for all new report suites.

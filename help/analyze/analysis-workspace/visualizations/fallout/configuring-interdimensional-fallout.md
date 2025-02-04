@@ -5,10 +5,10 @@ feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 ---
-# Multi-dimensional fallout
+# Inter-dimensional fallout
 
-Fallout in Analysis Workspace lets you to mix and match dimensions and metrics as touchpoints in funnels and workflows. This gives you more flexibility in defining the user steps you want to investigate.
 
+Fallout in Analysis Workspace lets you mix and match dimensions and metrics as touchpoints in funnels and workflows. Fallouts gives you more flexibility in defining the user steps you want to investigate.
 
 >[!BEGINSHADEBOX]
 
@@ -16,17 +16,16 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mulit-dimensiona
 
 >[!ENDSHADEBOX]
 
+For example, in addition to a Page dimension, you can add other dimension items (like a specific device name from the Device name dimension) to a Fallout visualization. Combining dimensions lets you visualize how pages and certain actions interplay in customers' paths.
 
-**Example**: In addition to, say, a Page dimension, you can add action-based dimension items to a Fallout visualization. This lets you visualize how pages and certain actions interplay in customers' paths.
-
-![](assets/interdimensional-fallout1.png)
+![The All Visits view showing multiple dimensions as touchpoints.](assets/fallout-otherdimension.png)
 
 The fallout gets updated dynamically and lets you see fallout across multiple dimensions.
 
-You can also add metrics to this mix. In this example, we have added the metric "Shared Photo" to flesh out the path that customers took:
+You can also add metrics. For example, you can add the metric Call to show only paths for users for which calls exist and have contacted the call center:
 
-![](assets/interdimensional-fallout2.png)
+![The All Visits view showing the added metric: "Shared Photo".](assets/fallout-metrics.png)
 
-In addition, you can combine different dimensions and metrics into AND checkpoints. Just drag another dimension or metric on top of an existing one:
+You can combine dimensions and metrics. Drag another dimension or metric on top of an existing one. For example, to understand the fallout of people that have an iPhone and have contacted the call center.
 
-![](assets/interdimensional-fallout3.png)
+![The All Visits view showing the added Action Name: Shared AND Shared Photo metric.](assets/fallout-combined.png)

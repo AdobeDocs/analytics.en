@@ -14,7 +14,7 @@ These release notes cover the release period of February 11 through mid March, 2
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in February of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. Learn more [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) and [here](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)|  | February 20, 2025 |
+| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. Learn more [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) and [here](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)|  | February 20, 2025 |
 | **Data Feeds API reference** | The [reference](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) for the Data Feeds API is now available. |  |  January 30 |
 
 ## Fixes in Adobe Analytics

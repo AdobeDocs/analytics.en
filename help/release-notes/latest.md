@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (February 2025 release)
 
-**Last update**: February 10, 2024
+**Last update**: February 13, 2024
 
 These release notes cover the release period of February 11 through mid March, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,31 +14,19 @@ These release notes cover the release period of February 11 through mid March, 2
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in February of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. (Documentation links to follow)|  | February 11, 2025 |
+| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in February of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. Learn more [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) and [here](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)|  | February 20, 2025 |
 | **Data Feeds API reference** | The [reference](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) for the Data Feeds API is now available. |  |  January 30 |
 
 ## Fixes in Adobe Analytics
 
-**A4T**: 
-**Activity Map**: 
-**Admin Console**: 
-**Admin Tools**: 
-**Advertising Analytics**: 
-**Analysis Workspace**: AN-359974;
-**Analytics 1.4 API**: 
+**Analysis Workspace**: AN-359974; AN-368460
 **Classifications**: AN-367186; AN-367328;
 **Component Migration**: AN-364529; AN-366398; AN-367509; 
-**Contribution Analysis**: 
 **Data Feeds**: AN-365685; AN-366745; AN-367256; AN-367349
-**Data Repair API**: 
-**Data Sources**: 
 **Data Warehouse**: AN-368178; AN-368331;
-**Mobile App**: 
-**Overage Alerts**: 
-**Platform**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367933
+**Mobile App**: AN-367137
+**Platform**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
 **Report Builder**: AN-366456; AN-366655;
-**Reporting Activity Manager**:
-**Segmentation**: 
 **Virtual Report Suites**: AN-367411
 **VISTA rules**: AN-365331
 

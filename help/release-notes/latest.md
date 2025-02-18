@@ -22,10 +22,10 @@ These release notes cover the release period of February 11 through mid March, 2
 
 ## Fixes in Adobe Analytics
 
-**Analysis Workspace**: AN-359974; AN-368460
-**Classifications**: AN-367186; AN-367328;
+**Analysis Workspace**: AN-359974; AN-366212; AN-368460
+**Classifications**: AN-367186; AN-367328; AN-368548
 **Component Migration**: AN-364529; AN-366398; AN-367509; 
-**Data Feeds**: AN-365685; AN-366745; AN-367256; AN-367349
+**Data Feeds**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
 **Data Warehouse**: AN-368178; AN-368331;
 **Mobile App**: AN-367137
 **Platform**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933

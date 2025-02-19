@@ -161,9 +161,13 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 ![](assets/date-ranges.png)
 
-Here is a video on using rolling date ranges in segments:
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Stack segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

@@ -11,7 +11,7 @@ A [!UICONTROL panel] is a collection of tables and visualizations. You can acces
 
 ## Panel types
 
-The following panel types are available in Analysis Workspace for [!UICONTROL Customer Journey Analytics]:
+The following panel types are available in Analysis Workspace for [!UICONTROL Adobe Analytics]:
 
 | Panel name | Description |
 | --- | --- |
@@ -151,11 +151,13 @@ Non-segment components can also be dragged directly into the drop zone to create
 
 ### Drop-down segments
 
-+++ View a video explaining dropdown segments.
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!BEGINSHADEBOX]
 
-+++
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dropdown segments](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 #### Static drop-down segments
 

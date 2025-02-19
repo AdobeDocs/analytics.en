@@ -15,7 +15,13 @@ You can create multiple schedules for a single workbook. For example, you can se
 
 The Schedule feature also allows you to set up password protection for a workbook and edit previously scheduled workbooks.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413079/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schedule workbooks](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Schedule a workbook
 
@@ -69,6 +75,19 @@ Use the Schedule button in the Report Builder hub to quickly create a schedule s
 
     ![Confirmation toast](./assets/confirmation-toast.png){width="55%"}
 
+## Schedule a converted workbook {#converted}
+
+1. Schedule a [converted](/help/analyze/report-builder/convert-workbooks.md) legacy workbook.
+
+   A pop up appears, asking if you want to use the scheduling metada from the legacy workbook to create a new scheduled task. 
+
+1. If you select **[!UICONTROL Use]**, Report Builder automatically fills in the legacy scheduling information. 
+
+1. Ensure that this information is correct and schedule. 
+
+1. If you want to send the workbook on a different schedule, schedule a completely fresh scheduled task. 
+
+
 ## Send the workbook one-time only
 
 You can also send out the workbook only once.
@@ -79,7 +98,7 @@ You can also send out the workbook only once.
 
 1. Click **Send Now**.
 
-## View and edit scheduled workbooks
+## View and edit scheduled workbooks {#view-edit}
 
 You can view and manage all scheduled workbooks in one place under the Workbooks tab.
 
@@ -101,7 +120,7 @@ You can view and manage all scheduled workbooks in one place under the Workbooks
 
     ![Screenshot showing the list of schedule tasks.](./assets/selected-workbook.png){width="40%"}
 
-## Review the status of scheduled tasks
+## Review the status of scheduled tasks {#status}
 
 The history view allows you to review the status of each scheduled task. There is a separate row documenting the status change for each scheduled task. In the example shown below, the *New Hourly Schedule* was initiated on January 5, at 3:04pm. By 3:05pm it successfully refreshed and was sent to recipients. The next workbook, *Bad workbook*, encountered an error during the refresh process. If a workbook failed to send, the history tab helps you troubleshoot by showing where in the process the error occurred. In this case, it is likely due to some data block error, perhaps a missing component, that kept the workbook from successfully refreshing.
 

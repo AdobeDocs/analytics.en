@@ -19,17 +19,26 @@ You can create different types of segments in Workspace, depending on how comple
 
 ## Videos
 
-Using segments in Analysis Workspace:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} for a demo video.
 
-Finding and creating segments:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Rolling date ranges in segments:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Finding and creating segments](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segment](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -41,10 +50,10 @@ You can create different types of segments in Analysis Workspace:
 ### Create component-list segments {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 The segment rail under the Components menu shows 
-* Segments you or your company created
-* Segment templates, as signified by the Adobe icon:
 
-![](assets/segment_icons.png)
+* Segments you or your company created
+* Segment templates, as signified by the Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) icon:
+
 
 To create a segment of this type, you have 2 options. Both of them take you to the [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics, where you can find further instructions.
 
@@ -59,7 +68,12 @@ or
 
 ### Other methods for applying segments {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Other methods for applying segments](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 Several other methods exist for applying segments to a freeform project.
 

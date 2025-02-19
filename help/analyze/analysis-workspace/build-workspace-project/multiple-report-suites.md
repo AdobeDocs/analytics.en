@@ -15,9 +15,13 @@ This capability is useful if you want to, for example,
 
 * Build a dashboard of metrics and visualizations to report out to other organizations. You can pull data from various report suites into in the same project.
 
-Here is a video on the subject:
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Multiple report suites](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Apply report suite to all panels
 

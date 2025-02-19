@@ -24,26 +24,33 @@ _This article documents the Venn visualization in_ ![AdobeAnalytics](/help/asset
 
 >[!ENDSHADEBOX]
 
-The [!UICONTROL Venn] visualization lets you drag in up to 3 segments (from [!UICONTROL Components]) and one metric to build a [!UICONTROL Venn] diagram.
+The ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualization lets you drag in up to 3 filters and one metric (from the Components panel) to build a Venn diagram.
 
- ![](assets/venn.png)
+ ![Venn visualization that includes three filters.](assets/venn.png)
 
-You can then hover over the segments to gain more insight into percentages, etc.
+You can hover over the filters to gain more insight into percentages, and more.
 
-![](assets/venn_hover.png)
+To generate a [!UICONTROL Freeform table] from the [!UICONTROL Venn] visualization, select the colored ![StatusOrange](/help/assets/icons/StatusOrange.svg) next to the **[!UICONTROL Venn]** header and select **[!UICONTROL Show data source]**. You will see a **[!UICONTROL Venn Data]** Freeform table with the data used to create the [!UICONTROL Venn] visualization.
 
-## Turn [!UICONTROL Venn] diagram into [!UICONTROL Freeform] table
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-To turn the Venn diagram into a Freeform table, click the colored dot next to the **[!UICONTROL Venn]** header and select **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]**.
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## Normalize [!UICONTROL Venn] diagram
+-->
 
-To normalize the [!UICONTROL Venn] diagram (take the size out of it), go to its Visualization Settings icon and select **[!UICONTROL Normalization]**.
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## Video
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Venn visualization](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;} for a demo video.
 
-Here is a video on the [!UICONTROL Venn] diagram:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[Add a visualization to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualization settings](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Visualization context menu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

@@ -24,9 +24,13 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
 ## Data Source settings
 
-Here is a video on these settings:
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 | Element | Description |
 | --- | --- |

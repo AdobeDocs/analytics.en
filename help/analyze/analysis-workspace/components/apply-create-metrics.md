@@ -29,7 +29,14 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
 Metrics can be used in various ways within Analysis Workspace. For information about how to add metrics and other types of components to Analysis Workspace, see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Create calculated metrics
 
@@ -81,4 +88,10 @@ This shortcut lets you quickly and easily compare one attribution model to anoth
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cumulative average](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+

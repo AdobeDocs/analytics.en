@@ -25,9 +25,13 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 >
 >Before removing bot traffic, communicate with stakeholders to make sure they can make the necessary adjustments to key performance indicators as a result of this change. If possible, we recommend first removing bot traffic from a small report suite to estimate the potential impact.
 
-The following video demonstrates how to configure bot rules:
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configure bot rules](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 To update or upload bot rules:
 

@@ -143,3 +143,8 @@ For information about how to create analyses in Analysis Workspace, see [Analysi
 [Analytics APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) allow you to directly call Adobe's servers to perform almost any action that you can perform in the user interface. 
 
 You can create reports to explore, get insights, or answer important questions about your data. You can also manage components of Adobe Analytics, such as the creation of segments or calculated metrics.
+
+>[!MORELIKETHIS]
+>
+>[Create a solution design document](/help/implement/prepare/solution-design.md)
+>

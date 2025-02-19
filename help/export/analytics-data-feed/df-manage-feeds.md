@@ -8,11 +8,13 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 
 The data feed manager lets you create, edit, and delete data feeds for your organization. If you have permissions to access the data feed manager, you can manage data feeds for all report suites visible to you.
 
-+++View a video on data feed management.
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed management](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## View data feeds
 

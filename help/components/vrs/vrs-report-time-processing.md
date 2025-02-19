@@ -34,9 +34,14 @@ The following configuration options are currently available to virtual report su
 * **[!UICONTROL Start a New Visit upon each App Launch]:** In addition to the visit timeout, you can force a visit to begin whenever an App Launch event has been recorded from the Mobile SDKs regardless of the inactivity window. This setting affects the visit metric and the visit segment container, as well as visit expiration logic on eVars.
 * **[!UICONTROL Start New Visit with Event]:** A new session starts when an event is fired, regardless of whether a session has timed out. The newly created session includes the event that started it. Additionally, you can use multiple events to start a session and a new session fires if any of those events are observed in the data. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars.
 
-Here is a video on starting a new visit with event:
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Report Time Processing limitations
 

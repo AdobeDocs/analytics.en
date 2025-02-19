@@ -10,9 +10,13 @@ Context-aware sessions in virtual report suites change how Adobe Analytics calcu
 
 You can define a visit any way you want without altering the underlying data, to match the way your visitors interact with your digital experiences.
 
-Here is a video on context-aware sessions:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Customer Perspective URL Parameter
 

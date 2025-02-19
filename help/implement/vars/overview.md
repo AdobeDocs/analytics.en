@@ -18,9 +18,13 @@ Analytics provides a number of variables to collect Analytics data. Variables in
 
 Adobe offers multiple ways to implement Adobe Analytics. Each page offers a section on how to implement the variable using the Web SDK, using the Adobe Analytics extension, and using AppMeasurement for JavaScript.
 
-Here is a video on configuring variables in Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring variables](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Order of operations
 

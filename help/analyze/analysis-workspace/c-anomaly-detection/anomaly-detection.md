@@ -9,7 +9,12 @@ exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 
 You can view and analyze data anomalies contextually within Analysis Workspace. Contribution Analysis works in conjunction with Anomaly Detection to help identify what contributed to the anomaly. 
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomaly detection](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -41,7 +46,13 @@ Analysis Workspace's anomaly detection algorithm includes
 
 Contribution Analysis discovers hidden patterns within your data to explain statistical anomalies and identify correlations behind unexpected customer actions, out-of-bound values, and sudden spikes or dips for selected metrics across convergent audience segments.
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contribution analysis](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 Something happened. Why? Your Anomaly Detection report shows an unusual spike in orders and you want to know why. What happened out of the ordinary? Who is responding to what campaign or referral? Did something go viral? What are the specific factors that contributed to this anomaly? And perhaps most importantly: How can I capture important information about my customer and repeat this performance? (Or, if a dip in a metric or rise in a negative metric occurred, how can I avoid it in the future?)
 

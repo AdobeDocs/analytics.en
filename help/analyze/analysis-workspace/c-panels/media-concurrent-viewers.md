@@ -48,11 +48,13 @@ You can analyze concurrent viewers to understand where peak concurrency occurred
 In Analysis Workspace, the Concurrent viewers metric is the number of unique persons viewing your media streams at a specific point in time, regardless of the number of sessions.
 
 
-+++ View a video demonstration of this functionality.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media concurrent viewers panel](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} for a demo video.
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## Use
 

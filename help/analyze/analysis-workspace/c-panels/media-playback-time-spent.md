@@ -51,11 +51,11 @@ Playback time spent can help you understand:
 
 * Where drop-offs occurred.
 
-+++ View a video demonstration of this functionality.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media playback time spent panel](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"} for a demo video.
 
-+++
+>[!ENDSHADEBOX]
 
 ## Use
 

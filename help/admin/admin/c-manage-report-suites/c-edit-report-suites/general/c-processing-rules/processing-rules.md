@@ -17,7 +17,14 @@ Processing rules simplify data collection and manage content as it is sent to re
 * Clean up misspelled site sections
 * Pull internal search terms or a campaign ID from the query string into an eVar
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Processing rules overview](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Processing Rules Permissions {#section_8A4846688050453784DAE4D89355169A}
 

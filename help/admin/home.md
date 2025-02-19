@@ -11,9 +11,12 @@ role: Admin
 
 This help is intended for administrators of Adobe Analytics. It includes help on user and product management in the Admin Console, setting up report suites, variables, classifications, and data collection. 
 
-Here is a video overview of Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics introduction](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} for a introduction video on Adobe Analytics.
+
+>[!ENDSHADEBOX]
 
 Adobe Analytics currently has two areas for administrators:
 

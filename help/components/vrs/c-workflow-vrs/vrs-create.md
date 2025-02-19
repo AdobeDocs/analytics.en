@@ -37,9 +37,12 @@ On the [!UICONTROL Visit Definition] tab, define these settings and then click *
 
  ![](assets/visit-definition.png)
 
-Here is a video on how to adjust a visit definition in a virtual report suite:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adjust a visit definition](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 | Element | Description |
 | --- |--- |

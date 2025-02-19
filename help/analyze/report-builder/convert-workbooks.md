@@ -13,9 +13,16 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 
 >[!IMPORTANT]
 >
->Duplicate each workbook and rename one version before you convert it. That way, you still have a copy of the original workbook should you need it.
+>Duplicate each workbook and rename one version before you convert it. That way, you still have a copy of the original workbook, should you need it.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 
@@ -49,7 +56,7 @@ As part of the move to a new Report Builder technology, you can quickly convert 
 You can now [manage the data block](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Legacy Report Builder features not supported in the New Report Builder
+## Legacy Report Builder features not supported in the New Report Builder {#unsupported}
 
 When comparing the functionality of Legacy Report Builder to the new Report Builder Add-in, some legacy functionality is no longer available:
 
@@ -60,3 +67,7 @@ When comparing the functionality of Legacy Report Builder to the new Report Buil
 - FTP option for scheduled reports
 
 - Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
+
+## Schedule a converted workbook {#schedule}
+
+See [Schedule a converted workbook](/help/analyze/report-builder/schedule-reportbuilder.md) in the scheduling article.

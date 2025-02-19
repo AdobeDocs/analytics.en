@@ -36,11 +36,15 @@ Once you are prepared with how you intend to handle an event, you can [communica
 
 ## Video
 
-This video walks through each of the above steps.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyze and communicate variations in your data](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} for a demo video.
 
 * **0:27**: Exclude data using segmentation
 * **2:55**: Compare an event to previous ranges
 * **8:42**: Derive data using calculated metrics
 * **11:46**: Communicate impact to users
+
+>[!ENDSHADEBOX]
+
+

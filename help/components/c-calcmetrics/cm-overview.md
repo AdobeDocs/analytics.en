@@ -35,14 +35,25 @@ You can
 * Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
 * Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculated metrics](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 * Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
 * (Advanced calculated metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. 
 
 * (Advanced calculated metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmented calculated metrics in segments](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Limitations {#section_CB878B02451541D68A68B508D4DBD19A}
 

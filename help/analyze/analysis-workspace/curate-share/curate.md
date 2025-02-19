@@ -13,9 +13,13 @@ Curation lets you limit the components (dimensions, metrics, segments, date rang
 >[!NOTE]
 > Product profiles are the primary mechanism governing which components a user can see. They are managed through the Adobe Experience Cloud Admin Console. Curation is a secondary filter. 
 
-Here is a video on project curation and sharing:
 
->[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curate projects](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Apply project curation
 

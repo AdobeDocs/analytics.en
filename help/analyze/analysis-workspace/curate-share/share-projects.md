@@ -24,9 +24,13 @@ You can share an Analysis Workspace project with the following types of people:
 
 Any [curation](curate.md) you apply prior to sharing is reflected when recipients open the project. 
 
-Here is a video overview of project sharing:
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Share projects](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 
 ## Share with Analysis Workspace users and groups in your organization {#Add}
@@ -132,9 +136,13 @@ You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/v
 >
 >* A project might become inaccessible if many users attempt to access a given link at the same time. By default, more than 190 people can access a single link every 5 minutes. If your organization reaches this limit, wait 5 minutes and then try accessing the link again.
 
-The following video demonstration and accompanying documentation describe the options associated with sharing a link with anyone:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Share a link with anyone](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 To share an Analysis Workspace project with people who don't have access to Adobe Analytics: 
 
@@ -182,9 +190,14 @@ When someone shares a project with you by sharing a link (either from the [Share
 
 ## Share embedded components
 
-Here is a video on the topic:
+You can share the embedded components that are part of your project.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Share embedded components](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## FAQs {#FAQs}
 

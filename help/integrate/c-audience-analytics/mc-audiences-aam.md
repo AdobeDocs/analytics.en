@@ -11,7 +11,13 @@ Adobe Audience Manager (Adobe Audience Manager) is a powerful data management pl
 
 With the Audience Analytics integration in place, you can incorporate Adobe Audience Manager audience data such as demographic information (e.g. gender or income level), psychographic information (e.g. interests and hobbies), CRM data, and ad impression data into any Analytics workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
 
 ## Key Benefits {#benefits}
 

@@ -64,6 +64,11 @@ When comparing the functionality of Legacy Report Builder to the new Report Buil
 >
 >This overview video shows the Report Builder user interface in Customer Journey Analytics. Some of the user interface and terminology differ. Otherwise, the user experience is identical.
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder overview](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
 
 You can download Report Builder from the [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview).

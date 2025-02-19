@@ -15,6 +15,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2025 {#year2025}
+
+| Feature | Description |
+| --- | --- |
+| **February 2025** |  |
+| Updated information about pausing and reactivating a data feed | When [pausing and reactivating a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), clarified the behavior for live feeds. Data processing does not occur from the time the feed is paused to the time it is reactivated.  |
+
 ### 2024 {#year2024}
 
 | Feature | Description |

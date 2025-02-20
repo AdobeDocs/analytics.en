@@ -20,7 +20,7 @@ If you intend to implement Cross-Device Analytics using field-based stitching, t
 >Failure to meet all prerequisites can result in the inability to enable Cross-Device Analytics or poor results when stitching data.
 
 * All prerequisites listed on the [overview page](overview.md).
-* Your implementation must set a prop or eVar that uniquely identifies an individual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used. Avoid assigning a default value to the prop or eVar.
+* Your implementation must set a prop or eVar that uniquely identifies an individual whenever possible, such as when a user logs in or opens an email. This requirement applies to all platforms, including mobile apps if used.<br/>Avoid assigning a default value to this prop or eVar. When 2,000 or more different devices are assigned the same default value, the person will be added to a 'bad person' list and these events will be dropped from the CDA enabled virtual report suite, resulting in erroneous analysis.
 * Communicate the desired identifying variable to your Adobe Account Team when provisioned for Field-based stitching.
 
 ## Limitations specific to field-based stitching

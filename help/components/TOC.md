@@ -193,6 +193,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Data Warehouse Segment Compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment Rights by Role](segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
+  + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
 + Calculated metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated metrics](c-calcmetrics/cm-overview.md)

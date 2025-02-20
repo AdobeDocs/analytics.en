@@ -42,7 +42,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
 
-   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location affects all items associated with that account or location.
+   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
    
    Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in these earlier versions of the data feeds manager cannot be edited or copied.
 
@@ -56,7 +56,7 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    * In the search field, begin typing the name of a feed. Only those feeds that match are shown in the list of available feeds.
 
-   * On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. You can collapse or expand filtering categories. Select the checkbox next to any filter that you want to apply.
+   * On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. You can collapse or expand filtering categories. Select the checkbox next to any filter you want to apply.
 
   ![Filter](assets/filters.png)
 
@@ -78,21 +78,17 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
 1. Select the checkbox next to the data feed that you want to copy, then select [!UICONTROL **Copy**].
 
-   This takes you to [create a new feed](create-feed.md) with all settings of the current feed. This option is not visible if more than one data feed is selected.
+   Takes you to [create a new feed](create-feed.md) with all settings of the current feed. This option is not visible if more than one data feed is selected.
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are copying, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
-   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location affects all items associated with that account or location.
+   Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location will affect all items associated with that account or location.
    
    Earlier versions of the data feeds manager allowed you to create FTP, SFTP, S3, and Azure blob destinations. Destinations that were created in these earlier versions of the data feeds manager cannot be edited or copied.
 
 ## Pause a data feed
 
-When you pause a data feed, it stops processing the feed, setting its status to [!UICONTROL Inactive]. 
-
-When you reactivate the feed after pausing it, the data during the time the feed was paused is processed for backfill feeds but not for live feeds. For more information, see [Activate a data feed](#activate-a-data-feed). 
-
-To pause a data feed:
+You can stop processing for the feed, setting its status to [!UICONTROL Inactive].
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
@@ -102,11 +98,17 @@ To pause a data feed:
 
 You can activate feeds that are inactive. 
 
-When a feed is reactivated, data might not be automatically processed for the time that the feed was inactive. Whether the data is processed depends on whether it is a backfill feed or a live feed: 
+Backfill feeds (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. Live feeds also resume processing data from where they stopped. 
 
-* **Backfill feeds** (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary. 
-
-* **Live feeds** resume processing data from the time they are activated. This means that data is not processed during the time the feed was paused to the time it was activated. If you need the data during this period of time, you must set up a backfill.
+>[!AVAILABILITY]
+>
+>The following change to the way live feeds resume processing data is in the Limited Testing phase of release: 
+> 
+>**Live feeds resume processing data from the current time.** 
+>
+>This change might not be available yet in your environment.
+>
+>This note will be removed when this change is generally available. For information about the Analytics release process, see [Adobe Analytics feature releases](/help/release-notes/releases.md).
 
 To activate a data feed:
 
@@ -145,10 +147,10 @@ The following columns are available:
   * Active: The feed is operational.
   * Approval Pending: In some circumstances, a feed requires approval by Adobe before it can start generating jobs.
   * Deleted: The feed is deleted.
-  * Complete: The feed finished processing. A completed feed can be edited, put on hold, or canceled.
+  * Complete: The feed finished processing. A completed feed can be edited, put on hold, or cancelled.
   * Pending: The feed is created but not yet active. Feeds remain in this state for a short transitional time.
   * Inactive: Equivalent to a 'paused' or 'on hold' state. For information about what happens with backfill feeds and live feeds when an inactive feed is reactivated, see [Activate a data feed](#activate-a-data-feed).
-* **Last Modified**: The date the feed was last modified. Date and time are shown in the report suite's time zone with GMT offset.
-* **Start Date**: The date of the first job for this feed. Date and time are shown in the report suite's time zone with GMT offset.
+* **Last Modified**: The date the feed was last modified. Date and time is shown in the report suite's time zone with GMT offset.
+* **Start Date**: The date of the first job for this feed. Date and time is shown in the report suite's time zone with GMT offset.
 * **End Date**: The date of the last job for this feed. Ongoing data feeds do not have an end date.
 

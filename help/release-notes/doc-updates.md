@@ -27,8 +27,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **January 2025** |  |
 | Data Feeds API reference  |  The [reference for the Data Feeds API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) is now available.|
 | New documentation on Scheduling in the new Report Builder | [Scheduling](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) not only allows you to schedule your new Report Builder workbooks. In addition, it lets you retrieve the metadata on old scheduled tasks when you convert legacy workbooks. |
-| Improvements to Reports (also known as Templates) in Analysis Workspace | Various improvements are now available for Reports (also known as [Templates](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) |
-| 
+| Improvements to Reports (also known as Templates) in Analysis Workspace | Various improvements are now available for Reports (also known as [Templates](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) | 
+
 
 ### 2024 {#year2024}
 

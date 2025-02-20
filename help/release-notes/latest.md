@@ -4,49 +4,40 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (January 2025 release)
+# Current Adobe Analytics release notes (February 2025 release)
 
-**Last update**: January 22, 2024
+**Last update**: February 19, 2024
 
-These release notes cover the release period of January 15 through mid February, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of February 11 through mid March, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Scheduling in the new Report Builder** | Scheduling not only allows you to schedule your new Report Builder workbooks. In addition, it lets you retrieve the metadata on old scheduled tasks when you convert legacy workbooks. This way, when you convert your legacy workbooks to new workbooks and schedule them, you are sending them to the same emails and on the same cadence as the legacy workbooks. [Learn more](/help/analyze/report-builder/schedule-reportbuilder.md) |  |  January 22, 2025 |
-| **Improvements to Reports (also known as Templates) in Analysis Workspace** | Various improvements are now available for Reports (also known as Templates):<ul><li>Now called [!UICONTROL Templates] (no longer referred to as [!UICONTROL Reports]).</li><li>Improved user experience for viewing and finding templates, including the option to view templates in a column view or a card view.</li><li>New, more intuitive location for Company templates (located under **[!UICONTROL Workspace]** > **[!UICONTROL Templates]**).</li><li>Previously, company templates were accessed from the dialog box when creating a project.</li><li>Additional pre-built templates are available.</li></ul>[Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>Administrators can create templates and save them for others in their login company to use. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/create-templates) | January 15, 2025 | January 30, 2025  |
-| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months in February of 2025. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. (Documentation links to follow)|  | February 11, 2025 |
+| **Transaction ID retention period** | The Transaction ID retention period of 90 days will be extended to 25 months. The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. Learn more [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) and [here](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid).|  | February 20, 2025 |
+| **Data Feeds API reference** | The [reference](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) for the Data Feeds API is now available. |  |  January 30, 2025|
+| **Livestream API - Client implementation** | Use the Livestream client implementation to consume Livestream data. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | February 18, 2025 |
+| **Update to Classifications API** | You can now remove individual classification fields or keys from the server. This provides an alternative to deleting an entire classification dataset with the DELETE method. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)|  | February 18, 2025 |
+ 
 
 ## Fixes in Adobe Analytics
 
-**A4T**: AN-355602; AN-365988
-**Activity Map**: AN-365320
-**Admin Console**: AN-363884
-**Admin Tools**: AN-356747; AN-358776
-**Advertising Analytics**: AN-355488
-**Analysis Workspace**: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462; AN-366194
-**Analytics 1.4 API**: AN-358059
-**Classifications**: AN-360049; AN-360424; AN-360745; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881;  AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364643; AN-364715; AN-364912; AN-364997; AN-365081; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; AN-366546
-**Component Migration**: AN-362236; AN-365429
-**Contribution Analysis**: AN-360146
-**Data Feeds**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152; 
-**Data Repair API**: AN-362773; AN-362874
-**Data Sources**: AN-360745; AN-362202; AN-364566
-**Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
-**Mobile App**: AN-362856; AN-365270
-**Overage Alerts**: AN-355594; AN-364547
-**Platform**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
-**Report Builder**: AN-363478; AN-364433; AN-365610
-**Reporting Activity Manager**: AN-362440
-**Segmentation**: AN-359921
-**VISTA rules**: AN-362927
+**Analysis Workspace**: AN-359974; AN-366212; AN-368460
+**Classifications**: AN-367186; AN-367328; AN-368548
+**Component Migration**: AN-364529; AN-366398; AN-367509; 
+**Data Feeds**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
+**Data Warehouse**: AN-368178; AN-368331;
+**Mobile App**: AN-367137
+**Platform**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
+**Report Builder**: AN-366456; AN-366655;
+**Virtual Report Suites**: AN-367411
+**VISTA rules**: AN-365331
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license will lose access to the ability to configure and consume [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
+| **Non-Campaign customers will lose access to Triggers** | October 16, 2023 | On January 30, 2025, Adobe Analytics customers that do not have an Adobe Campaign license lost access to the ability to configure and consume [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Customers need to either purchase Campaign, or plan to stop using Triggers, or look into other Adobe tools that offer Triggers capabilities. |
 
 ## End-of-life (EOL) notices {#eol}
 

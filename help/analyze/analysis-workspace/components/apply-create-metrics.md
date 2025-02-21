@@ -78,7 +78,7 @@ To create a calculated metric for a single project:
 
    * [!UICONTROL **Column min**]: Creates a new column that shows the smallest value in the set of dimension elements for the column. This uses the [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) function.
 
-   * [!UICONTROL **Column sum**]:Creates a new column that adds all numeric values for a metric within a column (across the elements of a dimension). This uses the [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) function.
+   * [!UICONTROL **Column sum**]: Creates a new column that adds all numeric values for a metric within a column (across the elements of a dimension). This uses the [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) function.
 
    When two columns are selected, the following options are available:
 
@@ -90,17 +90,17 @@ To create a calculated metric for a single project:
 
    * [!UICONTROL **Multiply**]: Creates a new column that multiplies the values of the two selected columns.
 
-   * [!UICONTROL **Percent change**]: Creates a new column that shows the percent changeof the two selected columns.
+   * [!UICONTROL **Percent change**]: Creates a new column that shows the percent change between the two selected columns.
 
 [Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Compare metrics with different attribution models
 
-If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+To quickly compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
 
 ![Compare attribution](assets/compare-attribution.png)
 
-This shortcut lets you quickly and easily compare one attribution model to another without dragging in a metric and configuring it twice.
+This shortcut lets you compare one attribution model to another without dragging in a metric and configuring it twice.
 
 ## Use the [!UICONTROL cumulative average] function to apply metric smoothing
 

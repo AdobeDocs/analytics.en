@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (February 2025 release)
 
-**Last update**: February 21, 2024
+**Last update**: February 21, 2025
 
 These release notes cover the release period of February 11 through mid March, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -18,7 +18,7 @@ These release notes cover the release period of February 11 through mid March, 2
 | **Data Feeds API reference** | The [reference](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) for the Data Feeds API is now available. |  |  January 30, 2025|
 | **Livestream API - Client implementation** | Use the Livestream client implementation to consume Livestream data. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | February 18, 2025 |
 | **Update to Classifications API** | You can now remove individual classification fields or keys from the server. This provides an alternative to deleting an entire classification dataset with the DELETE method. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)|  | February 18, 2025 |
-| **Update to Analytics context data field `a.locale`** | A scheduled update will change how the Analytics context data field `a.locale` is set when collecting data via Experience Edge. When data is sent to Adobe Analytics using Experience Edge, Analytics fields are populated based on a mapping of XDM fields. The mapping for `c.a.locale` references a non-standard XDM field, `xdm.environment.language`. This field will be updated to reference the correct field, `xdm.environment._dc.language`.  The mapping will continue to reference `xdm.environment.language` for backwards compatibility. For continuity, if both fields are set, `xdm.environment.language` will take precedence. You can view the full list of mappings from XDM to standard Analytics fields [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping).  | | March 5, 2025 |
+| **Update to Analytics context data field `a.locale`** | A scheduled update will change how the Analytics context data field `a.locale` is set when collecting data via Experience Edge. When data is sent to Adobe Analytics using Experience Edge, Analytics fields are populated based on a mapping of XDM fields. The mapping for `c.a.locale` references a non-standard XDM field, `xdm.environment.language`. This field will be updated to reference the correct field, `xdm.environment._dc.language`.<p>The mapping will continue to reference `xdm.environment.language` for backwards compatibility. For continuity, if both fields are set, `xdm.environment.language` will take precedence. You can view the full list of mappings from XDM to standard Analytics fields [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping).  | | March 5, 2025 |
  
 
 ## Fixes in Adobe Analytics

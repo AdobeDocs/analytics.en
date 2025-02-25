@@ -18,14 +18,6 @@ This integration is aimed at the following audiences:
 * The **Paid Search Marketer** who seeks answers to these questions: How much traffic am I sending to our site and are customers converting? What are my cost effective ad campaigns?
 
 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising analytics](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
-
 ## Prerequisites {#prerequisites}
 
 * Advertising Analytics is available for Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html), and [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) SKUs only.

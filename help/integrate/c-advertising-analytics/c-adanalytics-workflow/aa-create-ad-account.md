@@ -36,19 +36,6 @@ Administrators can also [grant access to non-admins](/help/integrate/c-advertisi
     | --- | --- |
     | Type | <ul><li>**Auto**: Lets the Advertising Cloud Engine decide how the tracking parameters are appended to the 's tracking templates/destination URLs. [!UICONTROL Auto Type Tracking] is the simplest approach, but may not result in the best integrated dataset.<br>**Important:** To configure a search engine account with [!UICONTROL Auto Type Tracking], you are responsible for taking the following actions:<ul><li>The `s_kwcid` parameter and value is added to the account tracking templates or landing page URLs in the account being added. The parameter and value are inserted at the end of the URL. Additional action may be required if your web server requires a certain `key=value` pair at the end of the URL. Or an update to support any new `key=value` pair in the URL is required. **Note**: Learn more on whether you should add this parameter to your [Content Security Policy](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).</li><li>In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. If the keywords contain special characters or symbols, please confirm that your web server can support those characters. An example of a common special characters is `+`, which is used in "Broad Match Modified" keywords.</li></ul></li><li>**Manual**: Lets you manage how the tracking parameters are added to the search engine's tracking templates/destination URLs. [Refer to these manual tracking examples for each search engine](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul>|
 
-1. In the **[!UICONTROL Mapping]** section, you select one or more report suites to link to this search engine account. You need to provide at least one report suite before you can save the Advertising Account. You can map multiple accounts to multiple report suites (1 : 1, 1 : Many, Many : Many). Note that the data that Adobe Media Optimizer pulls from the search engine is simply copied to any mapped report suite, so there is no splitting of data.
-
-   >[!IMPORTANT]
-   >
-   >Only report suites that are mapped to an Experience Cloud organization are available for selection. If you do not see your report suite listed, refer to [Troubleshoot Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
-
-   For the **[!UICONTROL Mapping Settings]** following these guidelines: 
-
-   | Setting | Description |
-   | --- | --- |
-   | Report Suite Mapping | The report suite mapping determines the report suite that gets linked to this search engine account. In other words, it determines into which report suite/s the search engine data gets sent. |
-
-
 1. Select **[!UICONTROL Save]**.
 1. A disclaimer displays a list of caveats. Confirm that you have read and you understand this agreement. Select the checkbox, then select **[!UICONTROL OK]**.
 

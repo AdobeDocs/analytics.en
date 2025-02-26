@@ -1,6 +1,6 @@
 ---
 title: Analytics Tools Guide
-description: Product documentation and self-help for Analysis Workspace, Analytics dashboards (mobile app), Activity Map, Report Builder, Reporting API, and Reports & Analytics.
+description: Product documentation and self-help for Analysis Workspace, Analytics dashboards (mobile app), Activity Map, and Report Builder.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a

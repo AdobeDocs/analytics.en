@@ -21,6 +21,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 + Analytics admin tools {#admin-tools}
   + [Admin tools overview](admin/c-admin-tools.md)
   + [Code Manager](admin/code-manager-admin.md)
+  + [Analytics Inventory](admin/analytics-inventory.md)
   + [Data Sources](admin/data-sources.md)
   + [Exclude by IP address](admin/exclude-ip.md)
   + [Logs](admin/logs.md)

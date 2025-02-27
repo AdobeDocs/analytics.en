@@ -39,25 +39,13 @@ See [Optimizing Performance](/help/analyze/analysis-workspace/workspace-faq/opti
 
 +++How does data get into your Analysis Workspace project?
 
-
->[!BEGINSHADEBOX]
-
 See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
 
 +++
 
 +++How can I track Workspace usage?
 
-
->[!BEGINSHADEBOX]
-
 See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Log tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
 
 +++
 

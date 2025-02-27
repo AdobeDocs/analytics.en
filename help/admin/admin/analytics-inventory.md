@@ -5,6 +5,7 @@ feature: Admin Tools
 role: Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 ---
 # Analytics inventory {#analytics-inventory}
 
@@ -53,5 +54,3 @@ The Analytics Inventory provides a comprehensive overview of your Adobe Analytic
 >abstract="This section shows the number of users in your Adobe Analytics environment."
 
 <!-- markdownlint-enable MD034 -->
-
-

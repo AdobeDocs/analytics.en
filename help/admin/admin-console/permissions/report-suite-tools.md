@@ -21,7 +21,6 @@ Use this page to understand each permission item under Report Suite Tools in Ado
 | [!UICONTROL Conversion Variables] | Grants access to Conversion > Conversion Variables in the Report Suite Manager. |
 | [!UICONTROL Custom Calendar] | Grants access to General > Customize Calendar in the Report Suite Manager. |
 | [!UICONTROL Custom Data Warehouse Report]| Grants access to Tools > Data Warehouse in the Analytics top navigation. |
-| [!UICONTROL Daily Return Visits] | Grants access to Visitor Retention > Daily Return Visits in Reports & Analytics. |
 | [!UICONTROL Data Feeds Manager] | Grants access to Admin > Data Feeds in the Analytics top navigation. |
 | [!UICONTROL Data Sources Manager] | Grants access to Admin > All admin > Data Sources in the Analytics top navigation. Requires the permission item 'Report Suite Mgmt'. |
 | [!UICONTROL Data Repair API ]| Grants access to the Data Repair API |

@@ -191,7 +191,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Manage segments](legacy-report-builder/data-requests/segmentation.md)
     + Report types {#report-types}
       + [Report types overview](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-      + [Path and path fallout reports in Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
       + [Filter a Path Report Using the Request Wizard](legacy-report-builder/data-requests/c-report-types/path-filter.md)
       + [Filter a Fallout Report Using the Request Wizard](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
       + [Filter Path Reports by Adding Dependent Requests](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

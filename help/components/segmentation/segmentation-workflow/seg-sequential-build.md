@@ -296,4 +296,4 @@ As a final example, you want to identify visitors that learned about a specific 
 
 >[!MORELIKETHIS]
 >
->- [Mastering Sequential Logic in AA & CJA: Introduction to THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [Mastering Sequential Logic in AA & CJA: Introduction to THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

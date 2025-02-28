@@ -92,8 +92,7 @@ Set at least a monthly reminder to identify and filter new bots, perhaps before 
 
 >[!MORELIKETHIS]
 >
-> * [Better Bot Blocking (Part 1): The Basics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
-> * [Better Bot Blocking (Part 2): Identifying Bots and Leveraging CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
-> * [Better Bot Blocking (Part 3): The Hit Governor
-](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [Better Bot Blocking (Part 1): The Basics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Better Bot Blocking (Part 2): Identifying Bots and Leveraging CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Better Bot Blocking (Part 3): The Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

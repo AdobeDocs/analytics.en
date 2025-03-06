@@ -15,30 +15,26 @@ These release notes cover the release period of March 5 through mid April, 2025.
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Update to Analytics context data field `a.locale`** | This update changes how the Analytics context data field `a.locale` is set when collecting data via Experience Edge. When data is sent to Adobe Analytics using Experience Edge, Analytics fields are populated based on a mapping of XDM fields. The mapping for `c.a.locale` references a non-standard XDM field, `xdm.environment.language`. This field will be updated to reference the correct field, `xdm.environment._dc.language`.<p>The mapping will continue to reference `xdm.environment.language` for backwards compatibility. For continuity, if both fields are set, `xdm.environment.language` will take precedence. You can view the full list of mappings from XDM to standard Analytics fields [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping).  | | March 5, 2025 |
-| **Product Usage template**  | A new Workspace template allows you to view how the Customer Journey Analytics product is used within your organization. [Learn more](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates). |  |  March 5, 2025 |
-| **Customer Journey Analytics upgrade guide** | Lets you generate a step-by-step guide for upgrading from Adobe Analytics to Customer Journey Analytics. This guide is tailored for your organization and takes into consideration your current Adobe Analytics environment, your intended uses for Customer Journey Analytics, and any time-saving tradeoffs your organization wants to make. To start generating your custom guide, log in to [!DNL Customer Journey Analytics], then select **[!UICONTROL Upgrade to Customer Journey Analytics]** on the **[!UICONTROL Workspace]** tab. |  | March 13, 2025 |
-| **Updates to "No Value" line item on numeric dimensions** | This update lets you use the "No Value" dimension item in a filter or perform a breakdown in a report on the "No Value" line item. |  | March 26, 2025 |
-| **Adobe Content Analytics** |  Adobe Content Analytics allows you to quickly and easily investigate large volumes of content data to uncover trends, spot anomalies, identify content fatigue, and gain insights from content exposure.<p>Out of the box, you can save time with pre-built reporting templates and new features like Asset Inspector. This capability lets you not only visualize the asset in-line with your data, but also open each asset for summarized details including performance, placements, attributes and more. You can investigate this new set of content data within the context of the complete customer journey to answer important business questions, assess content performance, enhance segmentation, identify optimization opportunities, and define new audiences for activation. Content Analytics is an add-on to Customer Journey Analytics. (Documentation link to follow) |  |  March 27,2025 |
  
 
 ## Fixes in Adobe Analytics
 
-**Analysis Workspace**: 
-**Classifications**: 
-**Component Migration**: 
-**Data Feeds**: 
-**Data Warehouse**: 
-**Mobile App**: 
-**Platform**: 
-**Report Builder**: 
-**Virtual Report Suites**: 
-**VISTA rules**: 
+**Activity Map**: AN-361038
+**Admin Tools**: AN-362178; AN-369483
+**Analytics API 1.4**: AN-369615
+**Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-368582; AN-369821; AN-370227; 
+**Classifications**: AN-370226;
+**Data Feeds**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
+**Data Governance**: AN-365157
+**Data Sources**: AN-367550
+**Platform**: AN-363931
+**Report Builder**: AN-367460; 
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| Data Warehouse-only dimensions | March 12, 2025 | Starting in May 2025, Adobe will begin setting dimensions (custom variables such as eVars and props) which exhibit extremely high cardinality to 'Data Warehouse-only'.  High-cardinality variables have many distinct values; examples include timestamps or UUIDs. These dimensions will no longer be available for reporting in Analysis Workspace.<p>Candidates for this change are dimensions that exceed the low-traffic limits very early in the month. With these types of dimensions, reports in Analysis Workspace which are based on that dimension are not useful because the reportable data represents only a thin slice of the initial values that were collected.<p>Since Data Warehouse does not impose low-traffic limits, you can still build useful reports or segments based on these types of dimensions. |
+| **Data Warehouse-only dimensions** | March 12, 2025 | Starting in May 2025, Adobe will begin setting dimensions (custom variables such as eVars and props) which exhibit extremely high cardinality to 'Data Warehouse-only'.  High-cardinality variables have many distinct values; examples include timestamps or UUIDs. These dimensions will no longer be available for reporting in Analysis Workspace.<p>Candidates for this change are dimensions that exceed the low-traffic limits very early in the month. With these types of dimensions, reports in Analysis Workspace which are based on that dimension are not useful because the reportable data represents only a thin slice of the initial values that were collected.<p>Since Data Warehouse does not impose low-traffic limits, you can still build useful reports or segments based on these types of dimensions. |
 
 ## End-of-life (EOL) notices {#eol}
 

@@ -60,7 +60,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `xdm.environment.carrier` | The mobile lifecycle dimension [Carrier Name](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Helps set the [Connection type](../../components/dimensions/connection-type.md) dimension. |
 | `xdm.environment.ipV4` | Used as a fallback [unique visitor](../../components/metrics/unique-visitors.md) identification method. Typically populated using the `X-Forwarded-For` HTTP header. |
-| `xdm.environment._dc.language` | The mobile dimension Locale. |
+| `xdm.environment._dc.language` | The mobile dimension Locale. Used only if xdm.environment.language is not set. |
 | `xdm.environment.language` | The mobile dimension Locale. |
 | `xdm.environment.operatingSystem` | The mobile lifecycle dimension [Operating System](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Helps set the mobile lifecycle dimension [Operating System Version](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |

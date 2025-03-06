@@ -50,7 +50,7 @@ These release notes cover the release period of February 11 through mid March, 2
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.26.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+For the latest updates on AppMeasurement releases (Version 2.27.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
 
 
 ## Related resources

@@ -24,12 +24,12 @@ These release notes cover the release period of March 5 through May 2025. Adobe 
 **Admin Tools**: AN-362178; AN-369483
 **Analytics API 1.4**: AN-369615
 **Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-368582; AN-369821; AN-370227; 
-**Classifications**: AN-370226;
+**Classifications**: AN-370226
 **Data Feeds**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
 **Data Governance**: AN-365157
 **Data Sources**: AN-367550
 **Platform**: AN-363931
-**Report Builder**: AN-367460; 
+**Report Builder**: AN-367460
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

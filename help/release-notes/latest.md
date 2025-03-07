@@ -6,15 +6,16 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (March 2025 release)
 
-**Last update**: March 6, 2025
+**Last update**: March 7, 2025
 
-These release notes cover the release period of March 5 through mid April, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of March 5 through May 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Update to Analytics context data field `a.locale`** | This update changes how the Analytics context data field `a.locale` is set when collecting data via Experience Edge. When data is sent to Adobe Analytics using Experience Edge, Analytics fields are populated based on a mapping of XDM fields. The mapping for `c.a.locale` references a non-standard XDM field, `xdm.environment.language`. This field will be updated to reference the correct field, `xdm.environment._dc.language`.<p>The mapping will continue to reference `xdm.environment.language` for backwards compatibility. For continuity, if both fields are set, `xdm.environment.language` will take precedence. You can view the full list of mappings from XDM to standard Analytics fields [here](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping).  | | March 5, 2025 |
+| **Data Warehouse-only dimensions** | Starting in May 2025, Adobe will begin setting dimensions (custom variables such as eVars and props) which exhibit extremely high cardinality to 'Data Warehouse-only'. High-cardinality variables have many distinct values; examples include timestamps or UUIDs. These dimensions will no longer be available for reporting in Analysis Workspace.<p>Candidates for this change are dimensions that exceed the low-traffic limits very early in the month. With these types of dimensions, reports in Analysis Workspace which are based on that dimension are not useful because the reportable data represents only a thin slice of the initial values that were collected.<p>Since Data Warehouse does not impose low-traffic limits, you can still build useful reports or segments based on these types of dimensions. | | May 2025 |
  
 
 ## Fixes in Adobe Analytics
@@ -34,7 +35,7 @@ These release notes cover the release period of March 5 through mid April, 2025.
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| **Data Warehouse-only dimensions** | March 12, 2025 | Starting in May 2025, Adobe will begin setting dimensions (custom variables such as eVars and props) which exhibit extremely high cardinality to 'Data Warehouse-only'.  High-cardinality variables have many distinct values; examples include timestamps or UUIDs. These dimensions will no longer be available for reporting in Analysis Workspace.<p>Candidates for this change are dimensions that exceed the low-traffic limits very early in the month. With these types of dimensions, reports in Analysis Workspace which are based on that dimension are not useful because the reportable data represents only a thin slice of the initial values that were collected.<p>Since Data Warehouse does not impose low-traffic limits, you can still build useful reports or segments based on these types of dimensions. |
+| N/A |  |  |
 
 ## End-of-life (EOL) notices {#eol}
 

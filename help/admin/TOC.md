@@ -157,7 +157,6 @@ user-guide-description: Learn about Analytics administration tasks, such managin
        + [Labeling best practices](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
        + [Labeling example](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
        + [Namespaces](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
-    + [ID expansion](admin/c-data-governance/gdpr-id-expansion.md)
     + [CNIL Consent Exemption](admin/c-data-governance/cnil-consent-exemption.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)

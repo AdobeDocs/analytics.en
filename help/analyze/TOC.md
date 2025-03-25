@@ -37,9 +37,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View Density](analysis-workspace/build-workspace-project/view-density.md)
-  + Reports {#reports}  
-    + [Use pre-built reports](analysis-workspace/reports/use-reports.md)
-    + [Create and manage company reports](analysis-workspace/reports/create-company-reports.md)
   + Templates {#templates}
     + [Use templates](analysis-workspace/templates/use-templates.md)
     + [Create templates](analysis-workspace/templates/create-templates.md)

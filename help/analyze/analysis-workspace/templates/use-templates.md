@@ -35,7 +35,7 @@ The following information describes how to access and use templates from the [!U
 
    * **[!UICONTROL _login_company_name_ templates]**: Shows all company templates that have been created for your organization.
 
-     Only administrators can create company templates. For more information about how to create a company template, see [Create and manage templates](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+     Only administrators can create company templates. For more information about how to create a company template, see [Create and manage templates](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Use either of the following options to change how you view the available templates:
 

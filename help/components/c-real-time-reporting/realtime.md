@@ -17,7 +17,9 @@ Real-time reporting displays web page traffic and ranks page views in real time.
 
 1. In Analysis Workspace, select the [!UICONTROL **Workspace**] tab.
 
-1. Select [!UICONTROL **Reports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Real-Time]**.
+1. On the left side of the page, under **[!UICONTROL Templates]**, select [!UICONTROL **Adobe templates**].
+
+1. Select [!UICONTROL **Engagement**] > **[!UICONTROL Real-Time]**.
 
 ## Understand Real-Time reporting
 

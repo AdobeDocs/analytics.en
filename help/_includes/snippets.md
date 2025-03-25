@@ -11,7 +11,7 @@
 
 >[!IMPORTANT]
 >
->Effective **January 17, 2024**, Adobe discontinued Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules stopped working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. For information about using reports in Analysis Workspace, see [Use pre-built reports](/help/analyze/analysis-workspace/reports/use-reports.md).
+>Effective **January 17, 2024**, Adobe discontinued Reports & Analytics and its accompanying reports and features. At that time, Reports & Analytics and all of its reports and schedules stopped working. The reports, visualizations and underlying technology that power Reports & Analytics no longer meet Adobe's technology standards. Most Reports & Analytics features are available within Analysis Workspace. For information, see [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Since the release of Analysis Workspace in 2015, Reports & Analytics functionality and capabilities have been moved to Analysis Workspace and a threshold of workflow parity has been reached. This notice explains the end-of-life process.
 >

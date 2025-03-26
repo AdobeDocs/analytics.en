@@ -96,10 +96,10 @@ To access all available pre-built templates:
 1. Select a category to view the templates within it.
 
    The following sections correspond to the available categories and provide information about each template.
-   
-   * [[!UICONTROL **Most popular**]](#most-popular)
 
-   * [[!UICONTROL **Engagement**]](#engagement)
+   * **[[!UICONTROL Most popular]](#most-popular)**
+
+   * **[[!UICONTROL Engagement]](#engagement)**
 
 ### Most popular {#most-popular}
 

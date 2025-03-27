@@ -48,7 +48,7 @@ These release notes cover the release period of March 5 through May 2025. Adobe 
 
 ## AppMeasurement
 
-For the latest updates on AppMeasurement releases (Version 2.27.0), please refer to [AppMeasurement for JavaScript release notes](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html).
+For the latest updates on AppMeasurement releases, please refer to [AppMeasurement for JavaScript release notes](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Related resources

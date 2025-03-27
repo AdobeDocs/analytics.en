@@ -63,9 +63,9 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * 'Time Spent' metrics 
 * Participation metrics (as described in [Build a "Participation" metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
    
-### Dimensions supported in a different way
+### Dimensions supported in a different way (non-standard date formatting)
 
-The following time-based dimensions are supported. However, the output of dates is non-standard when using these dimensions. Specifically, the year is offset by 1900, and months are zero-based.
+The following time-based dimensions are supported:
 
 * Year
 * Quarter
@@ -74,6 +74,36 @@ The following time-based dimensions are supported. However, the output of dates 
 * Day
 * Hour
 * Minute
+
+However, the output of dates is non-standard when using these dimensions. 
+
+Consider the following when calculating the output of dates in Data Warehouse: 
+
+* Date dimensions are shown in the following format: `1YYMMDDHHMM`
+
+* The year (YY) is offset by 1900. This means that you add `1900` to the first 3 values of the date field. 
+
+  For example, if the value of the Date Range Week field in Data Warehouse is `1250901`, you would add 1900 to 125, which results in the year 2025.
+
+* All months are zero-based, with January being represented by 00, February by 01, and so forth, as follows:
+
+  * 00: January
+  * 01: February
+  * 02: March
+  * 03: April
+  * 04: May
+  * 05: June
+  * 06: July
+  * 07: August
+  * 08: September
+  * 09: October
+  * 10: November
+  * 11: December
+
+  For example, if the value of the Date Range Week field in Data Warehouse is `1250901`, the month is represented as 09, which indicates October.
+
+
+
 
 ## Segments as dimensions in Data Warehouse
 

@@ -7,11 +7,10 @@ role: Admin, Developer, Leader, User
 ---
 # AppMeasurement for JavaScript release notes
 
-Cumulative release notes for AppMeasurement for JavaScript.
+>[!IMPORTANT]
+>
+>As of March 2025, this article will no longer be updated. You can view release notes for and download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-You can download the latest version of AppMeasurement from [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Version 2.27.0
 

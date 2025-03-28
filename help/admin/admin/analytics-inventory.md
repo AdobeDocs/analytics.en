@@ -20,6 +20,24 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 
 The Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. This information is especially valuable as you begin preparations to upgrade to Customer Journey Analytics. 
 
+The goal of this application is to help you answer the following questions:
+
+* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to upgrade and which assets can you leave behind?
+
+* Once you have determined what asset need to be migrated:
+
+    * Should you do some asset cleanup before this upgrade?
+    
+    * Should you do some asset consolidation as part of the process?
+    
+    * What should the upgrade sequence be for your assets?
+
+    * What group of report suites should you upgrade first? last?
+
+## Access Analytics Inventory
+
+The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as well as the **[!UICONTROL All admin]** menu item.
+
 ## Components {#components}
 
 <!-- markdownlint-disable MD034 -->

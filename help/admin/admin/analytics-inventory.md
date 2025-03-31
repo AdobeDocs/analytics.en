@@ -36,9 +36,9 @@ The goal of this application is to help you answer the following questions:
 
 ## Access Analytics Inventory
 
-The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as well as the **[!UICONTROL All admin]** menu item.
+[!UICONTROL Analytics Inventory] is available from the **[!UICONTROL Admin]** menu as well as the **[!UICONTROL All admin]** menu item.
 
-    ![Analytics Inventory menu](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 
 ## Components {#components}

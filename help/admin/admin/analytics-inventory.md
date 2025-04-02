@@ -34,11 +34,17 @@ The goal of this application is to help you answer the following questions:
 
     * What group of report suites should you upgrade first? last?
 
+## Permissions
+
+Analytics Inventory is available to users with Adobe Analytics Product Admin privileges in [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics). 
+
 ## Access Analytics Inventory
 
 The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as well as the **[!UICONTROL All admin]** menu item.
 
     ![Analytics Inventory menu](assets/an-inventory-menu.png)
+
+
 
 
 ## Components {#components}

@@ -44,7 +44,7 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
     ![Analytics Inventory menu](assets/an-inventory-menu.png)
 
-2. The main screen shows a comprehensive inventory of your Adobe Analytics environment:
+1. The main screen shows a comprehensive inventory of your Adobe Analytics environment:
 
     ![Main inventory screen](assets/an_inventory.png)
 
@@ -83,7 +83,19 @@ In this initial release, you can see summary inventory numbers for Workspace pro
 
     ![List of report suites](assets/an_inv_rs.png)
 
-1. 
+    | Element | Description |
+    | --- | --- |
+    | Name | The name of the report suite |
+    | ID | The report suite ID (rsid). Specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after it is created. Adobe sets the required ID prefix and it cannot be changed, either. |
+    | Occurrences (last 90 days) |  |
+    | Metrics | How  |
+    | Dimensions |  |
+    | Analytics for Target (A4T) Enabled |  |
+    | Marketing Channels Enabled |  |
+    | Source Connector Enabled | To follow |
+    | Calendar Type | For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+
+1. Notice that...
 
 ### Export to CSV
 

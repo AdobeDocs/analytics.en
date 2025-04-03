@@ -48,9 +48,13 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
     ![Main inventory screen](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   In this initial release, you can see summary numbers for Workspace projects, Segments, Calculated metrics, Advanced (Media Analytics) data, and Users. Currently, the only actionable items are Report suites.
+    Specifically, this screen surfaces
+    
+    * The total number of Analysis Workspace and Mobile Scorecard projects that are active under this organization across all users.
+    * The total number of segments and calculated metrics that are active under this organization across all users.
+    * The total number of base report suites that have been defined (Virtual report suites are not included).
+    * If the Media Analytics feature is active and if so, in what mode.
+    * The total number of users defined under that organization.
 
 
 ## Components {#components}
@@ -77,9 +81,18 @@ In this initial release, you can see summary inventory numbers for Workspace pro
 
 <!-- markdownlint-enable MD034 -->
 
-### Analyze report suites
+### Report suites
 
-1. To analyze report suites and decide which ones to migrate, navigate to **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** and click **[!UICONTROL Analyze]**.
+The report suites view shows all the report suites defined under an organization. It lets you answer the following questions:
+
+* What report suites have received the most hit in the last 90 days?
+* What report suites have received no hit in the last 90 days?
+* What report suites have the largest number of dimension defined?
+* What report suites have the largest number of metrics defined?
+
+The answers to these questions will give you a good idea as to which report suites are the best candidates for migration.
+
+1. To analyze report suites, navigate to **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** and click **[!UICONTROL Analyze]**.
 
     ![List of report suites](assets/an_inv_rs.png)
 
@@ -87,12 +100,12 @@ In this initial release, you can see summary inventory numbers for Workspace pro
     | --- | --- |
     | Name | The name of the report suite |
     | ID | The report suite ID (rsid). Specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after it is created. Adobe sets the required ID prefix and it cannot be changed, either. |
-    | Occurrences (last 90 days) |  |
-    | Metrics | How  |
-    | Dimensions |  |
-    | Analytics for Target (A4T) Enabled |  |
-    | Marketing Channels Enabled |  |
-    | Source Connector Enabled | To follow |
+    | Occurrences (last 90 days) | How many hits did this report suite receive in the last 90 days? |
+    | Metrics | How many metrics are defined in this report suite? |
+    | Dimensions | How many dimensions are defined in this report suite? |
+    | Analytics for Target (A4T) Enabled | Is this report suite is enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+    | Marketing Channels Enabled | Is this report suite is enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+    | Source Connector Enabled | [In development] Is this report suite is enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
     | Calendar Type | For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Notice that...

@@ -40,11 +40,17 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
 ## Access Analytics Inventory
 
-The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as well as the **[!UICONTROL All admin]** menu item.
+1. Click **[!UICONTROL Analytics Inventory]** in the **[!UICONTROL Admin]** menu. Or go to **[!UICONTROL All admin]** > **[!UICONTROL Analytics Inventory]**.
 
     ![Analytics Inventory menu](assets/an-inventory-menu.png)
 
+2. The main screen shows a comprehensive inventory of your Adobe Analytics environment:
 
+    ![Main inventory screen](assets/an_inventory.png)
+
+>[!IMPORTANT]
+>
+>   In this initial release, you can see summary numbers for Workspace projects, Segments, Calculated metrics, Advanced (Media Analytics) data, and Users. Currently, the only actionable items are Report suites.
 
 
 ## Components {#components}
@@ -58,6 +64,7 @@ The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as wel
 
 <!-- markdownlint-enable MD034 -->
 
+In this initial release, you can see summary inventory numbers for Workspace projects, Segments, and Calculated metric. Subsequent releases will allow you to analyze these components.
 
 ## Data configuration and collection {#data-config}
 
@@ -70,6 +77,22 @@ The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as wel
 
 <!-- markdownlint-enable MD034 -->
 
+### Analyze report suites
+
+1. To analyze report suites and decide which ones to migrate, navigate to **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** and click **[!UICONTROL Analyze]**.
+
+    ![List of report suites](assets/an_inv_rs.png)
+
+1. 
+
+### Export to CSV
+
+1. To export the list of report suites to a .csv file, click **[!UICONTROL Export to CSV]**.
+
+1. The .csv file will appear in your Downloads folder.
+
+1. Open and save it with a spreadsheet application on your device.
+
 
 ## User management {#user-management}
 
@@ -81,3 +104,5 @@ The Analytics Inventory is available from the **[!UICONTROL Admin]** menu as wel
 >abstract="This section shows the number of users in your Adobe Analytics environment."
 
 <!-- markdownlint-enable MD034 -->
+
+User management will be available in a later release of Analytics inventory.

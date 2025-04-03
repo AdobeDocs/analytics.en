@@ -42,7 +42,7 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
 1. Click **[!UICONTROL Analytics Inventory]** in the **[!UICONTROL Admin]** menu. Or go to **[!UICONTROL All admin]** > **[!UICONTROL Analytics Inventory]**.
 
-    ![Analytics Inventory menu](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 1. The main screen shows a comprehensive inventory of your Adobe Analytics environment:
 

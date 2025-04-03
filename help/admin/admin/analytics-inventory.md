@@ -92,6 +92,11 @@ The report suites view shows all the report suites defined under an organization
 
 The answers to these questions will give you a good idea as to which report suites are the best candidates for migration.
 
+>[!NOTE]
+>
+>This table populates slowly, one cell value at a time. 
+
+
 1. To analyze report suites, navigate to **[!UICONTROL Data configuration and collection]** > **[!UICONTROL Report suites]** and click **[!UICONTROL Analyze]**.
 
     ![List of report suites](assets/an_inv_rs.png)
@@ -103,9 +108,9 @@ The answers to these questions will give you a good idea as to which report suit
     | Occurrences (last 90 days) | How many hits did this report suite receive in the last 90 days? |
     | Metrics | How many metrics are defined in this report suite? |
     | Dimensions | How many dimensions are defined in this report suite? |
-    | Analytics for Target (A4T) Enabled | Is this report suite is enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-    | Marketing Channels Enabled | Is this report suite is enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-    | Source Connector Enabled | [In development] Is this report suite is enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
+    | Analytics for Target (A4T) Enabled | Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+    | Marketing Channels Enabled | Is this report suite enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+    | Source Connector Enabled | [In development] Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
     | Calendar Type | For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Notice that...

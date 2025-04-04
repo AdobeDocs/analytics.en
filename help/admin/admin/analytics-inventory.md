@@ -20,9 +20,9 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 
 The Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. This information is especially valuable as you begin preparations to upgrade to Customer Journey Analytics. 
 
-The goal of this application is to help you answer the following questions:
+The goal of Analytics inventory is to help you answer the following questions:
 
-* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to upgrade and which assets can you leave behind?
+* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to migrate and which assets can you leave behind?
 
 * Once you have determined what asset need to be migrated:
 
@@ -32,7 +32,7 @@ The goal of this application is to help you answer the following questions:
     
     * What should the upgrade sequence be for your assets?
 
-    * What group of report suites should you upgrade first? last?
+    * Which report suites should you upgrade first or last?
 
 ## Permissions
 
@@ -48,13 +48,13 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
     ![Main inventory screen](assets/an_inventory.png)
 
-    Specifically, this screen surfaces
+    Specifically, this screen shows:
     
-    * The total number of Analysis Workspace and Mobile Scorecard projects that are active under this organization across all users.
-    * The total number of segments and calculated metrics that are active under this organization across all users.
-    * The total number of base report suites that have been defined (Virtual report suites are not included).
+    * The total number of Analysis Workspace and Mobile Scorecard projects that are active under this organization, across all users.
+    * The total number of segments and calculated metrics that are active under this organization, across all users.
+    * The total number of base report suites that have been defined. Virtual report suites are not included.
     * If the Media Analytics feature is active and if so, in what mode.
-    * The total number of users defined under that organization.
+    * The total number of users defined under this organization.
 
 
 ## Components {#components}
@@ -105,7 +105,7 @@ The answers to these questions will give you a good idea as to which report suit
     | --- | --- |
     | Name | The name of the report suite |
     | ID | The report suite ID (rsid). Specifies a unique ID that can contain only alphanumeric characters. This ID cannot be changed after it is created. Adobe sets the required ID prefix and it cannot be changed, either. |
-    | Occurrences (last 90 days) | How many hits did this report suite receive in the last 90 days? |
+    | Occurrences (last 90 days) | The 'Occurrences' metric shows the number of hits where a given dimension was set or persisted. How many hits did this report suite receive in the last 90 days? |
     | Metrics | How many metrics are defined in this report suite? |
     | Dimensions | How many dimensions are defined in this report suite? |
     | Analytics for Target (A4T) Enabled | Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |

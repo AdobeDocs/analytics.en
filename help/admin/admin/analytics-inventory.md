@@ -3,8 +3,6 @@ description: Use the Analytics Inventory
 title: Analytics Inventory
 feature: Admin Tools
 role: Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 ---
 # Analytics inventory {#analytics-inventory}

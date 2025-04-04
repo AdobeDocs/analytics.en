@@ -128,7 +128,7 @@ This screen provides a detailed view of all the dimensions defined for a specifi
     | ID | The dimension ID. |
     | Type | The type of dimension. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
     | Description | Not all dimensions have descriptions. |
-     | Source Connector Enabled | Is this dimension enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this dimension be migrated to Customer Journey Analytics using the Analytics Source Connector? |
+    | Source Connector Enabled | Is this dimension enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this dimension be migrated to Customer Journey Analytics using the Analytics Source Connector? |
 
 1. Determine which dimensions make sense to migrate to CJA.
 
@@ -149,7 +149,7 @@ This screen provides a detailed view of all the metrics defined for a specific r
     | ID | The metric ID. |
     | Type | The type of metric. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
     | Description | Not all dimensions have descriptions. |
-     | Source Connector Enabled | Is this metric enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this metric be migrated to Customer Journey Analytics using the Analytics Source Connector? |
+    | Source Connector Enabled | Is this metric enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this metric be migrated to Customer Journey Analytics using the Analytics Source Connector? |
 
 1. Determine which metrics make sense to migrate to CJA.
 

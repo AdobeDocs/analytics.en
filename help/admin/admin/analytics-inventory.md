@@ -22,7 +22,7 @@ The Analytics Inventory provides a comprehensive overview of your Adobe Analytic
 
 The goal of Analytics inventory is to help you answer the following questions:
 
-* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to migrate and which assets can you leave behind?
+* For your organization, which assets (such as report suites, segments, users, workspace projects, and so on) do you need to migrate and which assets can you leave behind?
 
 * Once you have determined what asset need to be migrated:
 
@@ -108,10 +108,10 @@ The answers to these questions will give you a good idea as to which report suit
     | Occurrences (last 90 days) | The 'Occurrences' metric shows the number of hits where a given dimension was set or persisted. How many hits did this report suite receive in the last 90 days? |
     | Metrics | How many metrics are defined in this report suite? |
     | Dimensions | How many dimensions are defined in this report suite? |
-    | Analytics for Target (A4T) Enabled | Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-    | Marketing Channels Enabled | Is this report suite enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-    | Source Connector Enabled | [In development] Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
-    | Calendar Type | For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+    | Analytics for Target (A4T) Enabled | [Hidden by default] Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+    | Marketing Channels Enabled | [Hidden by default] Is this report suite enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+    | Source Connector Enabled | Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
+    | Calendar Type | [Hidden by default] For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analyze dimensions
 
@@ -128,6 +128,7 @@ This screen provides a detailed view of all the dimensions defined for a specifi
     | ID | The dimension ID. |
     | Type | The type of dimension. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
     | Description | Not all dimensions have descriptions. |
+    | Source Connector Enabled | Is this dimension enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this dimension be migrated to Customer Journey Analytics using the Analytics Source Connector? |
 
 1. Determine which dimensions make sense to migrate to CJA.
 
@@ -148,6 +149,7 @@ This screen provides a detailed view of all the metrics defined for a specific r
     | ID | The metric ID. |
     | Type | The type of metric. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
     | Description | Not all dimensions have descriptions. |
+    | Source Connector Enabled | Is this metric enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this metric be migrated to Customer Journey Analytics using the Analytics Source Connector? |
 
 1. Determine which metrics make sense to migrate to CJA.
 
@@ -158,6 +160,11 @@ This screen provides a detailed view of all the metrics defined for a specific r
 1. The .csv file will appear in your Downloads folder.
 
 1. Open and save it with a spreadsheet application on your device.
+
+>[!NOTE]
+>
+>Items and columns that are filtered out are not exported to the .csv file.
+
 
 #### Filter, search, order, and navigate
 

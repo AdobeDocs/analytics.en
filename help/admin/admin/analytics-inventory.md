@@ -85,8 +85,8 @@ In this initial release, you can see summary inventory numbers for Workspace pro
 
 The report suites view shows all the report suites defined under an organization. It lets you answer the following questions:
 
-* What report suites have received the most hit in the last 90 days?
-* What report suites have received no hit in the last 90 days?
+* What report suites have received the most hits in the last 90 days?
+* What report suites have received no hits in the last 90 days?
 * What report suites have the largest number of dimension defined?
 * What report suites have the largest number of metrics defined?
 
@@ -120,9 +120,16 @@ This screen provides a detailed view of all the dimensions defined for a specifi
 * What dimensions are enabled for this report suite?
 * What are the top ten dimension items for the last 90 days for this dimension?
 
-1. Click the dimension link on the Report suite page.
+1. Click the **[!UICONTROL Dimensions]** link on the Report suite page.
 
+    | Element | Description |
+    | --- | --- |
+    | Name | The name of the dimension |
+    | ID | The dimension ID. |
+    | Type | The type of dimension. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
+    | Description | Not all dimensions have descriptions. |
 
+1. Determine which dimensions make sense to migrate to CJA.
 
 
 #### Analyze metrics
@@ -132,16 +139,32 @@ This screen provides a detailed view of all the metrics defined for a specific r
 * What metrics are enabled for this report suite?
 * What are the top ten metrics for the last 90 days?
 
+1. Click the **[!UICONTROL Metrics]** link on the Report suite page.
 
+
+    | Element | Description |
+    | --- | --- |
+    | Name | The name of the metric |
+    | ID | The metric ID. |
+    | Type | The type of metric. Possible values include Conversion, Traffic, Navigation, Traffic Sources, Customers, Date, or Adobe product-specific dimensions such as AEM, Audience, Adobe Campaign, Mobile App, etc. |
+    | Description | Not all dimensions have descriptions. |
+
+1. Determine which metrics make sense to migrate to CJA.
 
 #### Export to CSV
 
-1. To export the list of report suites to a .csv file, click **[!UICONTROL Export to CSV]**.
+1. To export the list of report suites or dimensions or metrics to a .csv file, click **[!UICONTROL Export to CSV]**.
 
 1. The .csv file will appear in your Downloads folder.
 
 1. Open and save it with a spreadsheet application on your device.
 
+#### Filter, search, order, and navigate
+
+* You can search the table.
+* In the left rail, click the Filter icon to filter by "Type". Or click **[!UICONTROL Hide Filter]**.
+* You can order all columns in ascending/descending order (single column ordering only).
+* You can click items in the breadcrumb to navigate to another screen.
 
 ## User management {#user-management}
 

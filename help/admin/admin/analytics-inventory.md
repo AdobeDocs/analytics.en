@@ -113,9 +113,28 @@ The answers to these questions will give you a good idea as to which report suit
     | Source Connector Enabled | [In development] Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
     | Calendar Type | For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. Notice that...
+#### Analyze dimensions
 
-### Export to CSV
+This screen provides a detailed view of all the dimensions defined for a specific report suite. From this view, you can answer the following questions:
+
+* What dimensions are enabled for this report suite?
+* What are the top ten dimension items for the last 90 days for this dimension?
+
+1. Click the dimension link on the Report suite page.
+
+
+
+
+#### Analyze metrics
+
+This screen provides a detailed view of all the metrics defined for a specific report suite. From this view, you can answer the following questions:
+
+* What metrics are enabled for this report suite?
+* What are the top ten metrics for the last 90 days?
+
+
+
+#### Export to CSV
 
 1. To export the list of report suites to a .csv file, click **[!UICONTROL Export to CSV]**.
 

@@ -186,7 +186,7 @@ User management will be available in a later release of Analytics inventory.
 
 ## Migrate components 
 
-Using [Component Migration](help/admin/admin/component-migration/component-migration.md), Adobe Analytics administrators can migrate Analytics projects and their associated components to Customer Journey Analytics.
+Using [Component Migration](/help/admin/admin/component-migration/component-migration.md), Adobe Analytics administrators can migrate Analytics projects and their associated components to Customer Journey Analytics.
 
 The migration process includes:
 

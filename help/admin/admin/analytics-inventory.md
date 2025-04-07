@@ -151,7 +151,7 @@ This screen provides a detailed view of all the metrics defined for a specific r
 
 1. Determine which metrics make sense to migrate to CJA.
 
-#### Export to CSV
+### Export to CSV
 
 1. To export the list of report suites or dimensions or metrics to a .csv file, click **[!UICONTROL Export to CSV]**.
 
@@ -164,7 +164,7 @@ This screen provides a detailed view of all the metrics defined for a specific r
 >Items and columns that are filtered out are not exported to the .csv file.
 
 
-#### Filter, search, order, and navigate
+### Filter, search, order, and navigate
 
 * You can search the table.
 * In the left rail, click the Filter icon to filter by "Type". Or click **[!UICONTROL Hide Filter]**.
@@ -183,3 +183,13 @@ This screen provides a detailed view of all the metrics defined for a specific r
 <!-- markdownlint-enable MD034 -->
 
 User management will be available in a later release of Analytics inventory.
+
+## Migrate components 
+
+Using [Component Migration](/help/admin/admin/component-migration/component-migration.md), Adobe Analytics administrators can migrate Analytics projects and their associated components to Customer Journey Analytics.
+
+The migration process includes:
+
+* Re-creating Adobe Analytics projects in Customer Journey Analytics.
+
+* Mapping dimensions and metrics from Adobe Analytics report suites to dimensions and metrics in Customer Journey Analytics data views.

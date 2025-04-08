@@ -29,6 +29,8 @@ The migration process includes:
 
 Before you migrate any projects to Customer Journey Analytics, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md). 
 
+In addition, do an [Adobe Analytics inventory](/help/admin/admin/analytics-inventory.md) using the tool available to Analytics administrators.
+
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 
 >[!IMPORTANT]

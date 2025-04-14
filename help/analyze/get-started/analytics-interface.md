@@ -73,7 +73,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
    | Search & Promote | This feature is no longer supported. |  |
    | Mobile Services | This feature is no longer supported. |  |
    | Analytics dashboards (mobile app) | The Adobe Analytics dashboards app delivers anytime, anywhere insights from Adobe Analytics. Through the app, users can view intuitive Scorecards that you create using the Adobe Analytics desktop UI.  | The Adobe Analytics dashboards app in the iOS App Store or Google Play store |
-   | Report Builder | Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |[What is Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder is an add-in for Microsoft Excel. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data. |[What is Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 

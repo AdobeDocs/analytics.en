@@ -83,3 +83,7 @@ The following additional context menu options are available when selecting a met
 | **[!UICONTROL Create annotation from selection]** | Open up the **[!UICONTROL Annotation details]** to add an annotation. | 
 | **[!UICONTROL Create filter from selection]** | Open up the **[!UICONTROL Filter builder]** to build a filter from the selection. |
 | **[!UICONTROL Create audience from selection]** | Open up the **[!UICONTROL Create audience]** dialog to build an audience from the selection. | 
+
+## Change row height
+
+You can set the view density of a project to **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, and **[!UICONTROL Expanded]**. [Learn more](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).

@@ -83,7 +83,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Prop:** See Traffic variable.
 * **Ranked report:** A report format that typically follows a dimension with a metric. This type of report allows you to see the top items, such as the most viewed pages on your site. See also Trended report.
 * **Real-time:** Displays configured variables as soon as it is collected with little to no latency. See [Real-time reports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) in the Admin user guide.
-* **Report Builder:** The Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) Add-in lets you build customized requests from Adobe Analytics data.
+* **Report Builder:** The Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) Add-in lets you build customized requests from Adobe Analytics data.
 * **Report suite:** An overarching container that you send data to. All reports in Adobe Analytics reference a report suite.
 * **Reports & Analytics:** This tool has been [end-of-lifed](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Rolling date range:** A type of relative date range that changes as time passes. For example, a report showing the last 7 days can be considered a rolling date range. See also static date range.

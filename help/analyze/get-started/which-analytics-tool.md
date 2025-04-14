@@ -24,7 +24,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 **[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** is an add-in for Microsoft Excel that runs on Mac, Windows, and web browsers. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** is an add-in for Microsoft Excel that runs on Mac, Windows, and web browsers. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
 **[Legacy Report Builder](/help/analyze/legacy-report-builder/home.md)** is an add-in for Microsoft Excel that runs on Windows only. It lets you build customized requests from Adobe Analytics data, which you can insert into your Excel worksheets. Requests can dynamically reference cells within your worksheet, and you can update and customize how Report Builder presents the data.
 
@@ -73,7 +73,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 ## Exporting Data from Adobe Analytics {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** should be used:
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** should be used:
 
 * If the customized layout options of Workspace are limiting (anything is possible in Report Builder, within the limits of Excel).
 * To loosely tie in user inputs or offline data sources (impressions, cost) to Adobe data. More permanent solution for tying in data is Data Sources (see Importing Data to Analytics).

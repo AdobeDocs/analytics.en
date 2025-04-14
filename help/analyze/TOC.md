@@ -155,7 +155,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
     + [Accessibility in Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-  + [Report Builder Overview](report-builder/report-buider-overview.md)
+  + [Report Builder Overview](report-builder/rb-overview.md)
   + [Report Builder Set Up](report-builder/report-builder-setup.md)
   + [Convert legacy requests](report-builder/convert-workbooks.md)
   + [Create a Data Block](report-builder/create-a-data-block.md)

@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (April 2025 release)
 
-**Last update**: April 10, 2025
+**Last update**: April 15, 2025
 
 These release notes cover the release period of March 26 through May 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -15,7 +15,7 @@ These release notes cover the release period of March 26 through May 2025. Adobe
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analytics inventory** | Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. By automating the inventory process, you can quickly understand the effort needed to switch from Adobe Analytics to Customer Journey Analytics. This will make the transition easier and faster. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)|  | March 26, 2025 |
-| **Data Warehouse-only dimensions** | Based on customer feedback, we have decided to re-evaluate. We will not release the automatic Data Warehouse-only feature as previously announced. | | TBD |
+| **Data Warehouse-only dimensions** | Based on customer feedback, we have decided to re-evaluate. We will not release the automatic Data Warehouse-only dimensions feature as previously announced. | | TBD |
  
 
 ## Fixes in Adobe Analytics
@@ -23,13 +23,14 @@ These release notes cover the release period of March 26 through May 2025. Adobe
 **A4T**: AN-370625; AN-371279; AN-371351
 **Admin Tools**: AN-365072; AN-371303
 **Analysis Workspace**: AN-363831; AN-369554
-**Classifications**: AN-370519; AN-370727; AN-370827; AN-370941; AN-370995; AN-371377; AN-371597; AN-371868; AN-371869; AN-372650; AN-373164; AN-373300
-**Data Feeds**: AN-368676; AN-370225; AN-370514; AN-370521; AN-370687; AN-370761; AN-370911; AN-371047; AN-371542; AN-371627; AN-371746; AN-372708; AN-373068; AN-373179
+**Classifications**: AN-370519; AN-370727; AN-370827; AN-370941; AN-370995; AN-371377; AN-371597; AN-371868; AN-371869; AN-372510; AN-372650; AN-373164; AN-373300; AN-373308; AN-373592
+**Data collection**: AN-371877
+**Data feeds**: AN-368676; AN-370225; AN-370514; AN-370521; AN-370687; AN-370761; AN-370911; AN-371047; AN-371542; AN-371627; AN-371746; AN-372708; AN-373068; AN-373179
 **Data Warehouse**: AN-366649; AN-369817; AN-370705; AN-371127; AN-371995; AN-372596; AN-372940
 **Marketing Channels**: AN-372308
 **Mobile app**: AN-370287; AN-371335; AN-371374
-**Platform**: AN-369510; AN-370435
-**Report Builder**: AN-369830; AN-371395
+**Platform**: AN-369510; AN-370435; AN-372150
+**Report Builder**: AN-369830; AN-371395; AN-372983
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

@@ -52,6 +52,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `blomotion.jp`
 * `bolt.com`
 * `brightkite.com`
+* `bsky.app`
 * `buzznet.com`
 * `cafemom.com`
 * `care2.com`
@@ -81,6 +82,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `fubar.com`
 * `gaiaonline.com`
 * `geni.com`
+* `go.bsky.app`
 * `goodreads.com`
 * `plus.google.com`
 * `plus.url.google.com`
@@ -177,6 +179,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `vimeo.com`
 * `vk.com`
 * `wayn.com`
+* `web-cdn.bsky.app`
 * `weibo.com`
 * `weourfamily.com`
 * `wer-kennt-wen.de`

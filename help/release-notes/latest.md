@@ -16,7 +16,6 @@ These release notes cover the release period of March 26 through May 2025. Adobe
 | ----------- | ---------- | ------- | ---- |
 | **Analytics inventory** | Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. By automating the inventory process, you can quickly understand the effort needed to switch from Adobe Analytics to Customer Journey Analytics. This will make the transition easier and faster. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)|  | March 26, 2025 |
 | **Data Warehouse-only dimensions** | Based on customer feedback, we have decided to re-evaluate. We will not release the automatic Data Warehouse-only dimensions feature as previously announced. | | TBD |
- 
 
 ## Fixes in Adobe Analytics
 

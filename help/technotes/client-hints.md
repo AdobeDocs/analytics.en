@@ -41,7 +41,7 @@ Low-entropy hints are automatically provided by the browser and ingested for der
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
-For data submitted via API, such as via [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) or [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), hints must be explicitly included in the payload. See the respective documentation for details.
+For data submitted via API, such as via [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) or [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), hints must be explicitly included in the payload. See the respective documentation for details.
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-description: Link to Adobe Analytics Admin API on github.
+description: Details for the Adobe Analytics 1.4 API end-of-life announcement.
 title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
@@ -7,102 +7,57 @@ exl-id: 88769032-a7cd-4ca8-958f-3300a4bfe71f
 ---
 # Adobe Analytics 1.4 API EOL FAQ
 
-## End-of-Life (EOL) notice
+Adobe plans to retire the Adobe Analytics 1.4 API on **August 12, 2026**. They will no longer be accessible after this date. This announcement directly impacts the following:
 
-**What is being retired?**
-
-* Adobe Analytics 1.4 APIs
-
+* Adobe Analytics 1.4 APIs, excluding the Data Insertion API
 * Adobe Analytics WSSE Authentication
-
-**When is it being shut down?**
-
-These services are being retired on August 12, 2026. They will no longer be accessible after this date.
 
 ## 1.4 APIs
 
-**What are these services?** 
+The [Adobe Analytics 1.4 APIs](https://developer.adobe.com/analytics-apis/docs/1.4/) provide a wide range of actions, such as reporting, classifications, data feeds, and report suite configurations. They are being sunset in favor of the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/). The 2.0 APIs allow you to perform almost any action that you can perform in the Analytics user interface, such such as reporting or managing components like segments and calculated metrics.
 
-The [Adobe Analytics 1.4 APIs](https://developer.adobe.com/analytics-apis/docs/1.4/) are a collection of APIs providing for a wide range of actions, such as reporting, classifications, data feeds, and report suite configurations.
-
-**What do I need to do to migrate?**
-
-The [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) offer a migration path forward for 1.4 API users. Customers currently using the 1.4 APIs can migrate their integrations to the 2.0 APIs (the same APIs that the Adobe Analytics application depends on) and take advantage of the latest features.
-
-The 2.0 APIs allow you to perform almost any action that you can perform in the Analytics user interface, such such as reporting or managing components like segments and calculated metrics. 
-
-**Do the 2.0 APIs offer the same features as the 1.4 APIs?**
-Any capabilities that are available in the 1.4 APIs can be accomplished using the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/). Some functionality  provide the same capabilities as are available in the 1.4 APIs, have the same allow you to perform almost any action that you can perform in the Analytics user interface, such as reporting or managing components like segments and calculated metrics.
+Adobe offers a [migration path](https://developer.adobe.com/analytics-apis/docs/2.0/guides/migration/) for 1.4 API users. You can migrate your integrations to the 2.0 APIs (the same APIs that the Adobe Analytics application depends on) and take advantage of the latest features. Any capabilities that are available in the 1.4 APIs can be accomplished using the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/).
 
 ## WSSE Authentication
 
-**What are these services?**
+WSSE authentication is a legacy authentication protocol supported by the Analytics 1.4 APIs. It has been replaced by the OAuth-based authentication options provided in the [Adobe Developer Console](https://developer.adobe.com/console/home). Projects that use WSSE authentication must update their credentials to those provisioned in the Adobe Developer Console. To do this, log in to the [Adobe Developer Console](https://developer.adobe.com/console/home) to create a project for your Analytics 2.0 API integration. Select either the OAuth User or OAuth Server-to-Server authentication method.
 
-WSSE authentication is a legacy authentication protocol supported by the Analytics 1.4 APIs. It has been replaced by the OAuth-based authentication options provided in the [Adobe Developer Console](https://developer.adobe.com/console/home). 
+## FAQ
 
-**What do I need to do to migrate?** 
++++**Does this impact my existing Adobe IO projects for the Analytics APIs?**
 
-WSSE customers must update their authentications to use credentials provisioned in the Adobe Developer Console. To do this, log in to the [Adobe Developer Console](https://developer.adobe.com/console/home) to create a project for your Analytics 2.0 API integration. Select between the OAuth User and OAuth Server-to-Server authentication methods.
+Any existing projects using the Analytics 1.4 APIs are impacted. Those integrations must be migrated to the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) before the EOL deadline.
 
-## Questions
++++
 
-Q: **Does this impact my existing Adobe IO projects for the Analytics APIs?**
++++**I've shared my Adobe credentials with another product or application that uses the Analytics APIs. Are they impacted?**
 
-A: Any existing projects using the Analytics 1.4 APIs will be impacted. Those integrations must be migrated to the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) before the EOL deadline.
+If that product or application uses your WSSE credential and/or calls the Analytics 1.4 APIs, it is impacted and must migrate before the EOL deadline. Reach out to the product or application provider for more details on their migration plans and timeline.
 
-Q: **I've shared my Adobe credentials with another product or application that uses the Analytics APIs. Are they impacted?**
++++
 
-A: If that product or application uses your WSSE credential and/or calls the Analytics 1.4 APIs, it is impacted and will need to migrate before the EOL deadline. Please reach out to the product or application provider for more details on their migration plans and timeline.
++++**How can I determine which API that my project uses?**
 
-Q: **I'm not sure what Adobe Analytics API we are using.**
+The base URL that the API calls determines which API version your project uses. The Adobe Analytics 1.4 APIs use the following URLs:
+* `https://api.omniture.com`
+* `https://api3.omniture.com`
+* `https://api4.omniture.com`
+* `https://api5.omniture.com`
 
-A: You can identify which API you are using by the address being called in your integration. 
+The [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) use the following URL:
 
-The Adobe Analytics 1.4 APIs are accessed by calling any of the URLs below:
-* https://api.omniture.com
-* https://api3.omniture.com
-* https://api4.omniture.com
-* https://api5.omniture.com
+* `https://analytics.adobe.io`
 
-The [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/) are accessed by calling the following URL:
-* https://analytics.adobe.io
+If any of your API projects use `api*.omniture.com`, it uses the Adobe Analytics 1.4 APIs and must migrate to the 2.0 APIs.
 
-If you are using api*.omniture.com, you need to migrate to the [Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/).
++++
 
-Q: **Are the Adobe Analytics 2.0 APIs identical to the 1.4 APIs? If not, what are the biggest differences?**
++++**Does this end-of-life impact data collection?**
 
-A: The Adobe Analytics 2.0 APIs are not identical to the 1.4 APIs, but they do offer comparable features, including the following benefits:
+The Adobe Analytics 1.4 EOL does not impact your tagging solutions, such as Tags (formerly Adobe Launch), Web SDK, or AppMeasurement. However, if you use the 1.4 Data Sources or Classifications APIs to enhance your data, you must migrate those workflows to the Adobe Analytics 2.0 APIs.
 
-* Faster response times with simpler and more efficient query methods, eliminating the need for polling
+The Data Insertion API is not impacted by this end-of-life announcement. While Adobe plans to continue support for the Data Insertion API, Adobe recommends using the [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) instead.
 
-* Programmatic capability for queries and dynamic report updates
++++
 
-* More graceful error handling
-
-* Flexible functioning to accomplish anything that you can accomplish from Analysis Workspace
-
-* Consistency and matching of API calls to UI actions
-
-* Access to all Attribution IQ models used in Analysis Workspace
-
-* Access to all Anomaly Detection algorithms used in Analysis Workspace
-
-* The ability to integrate with other Experience Cloud products
-
-* Increased capacity for multiple breakdown reports
-
-* Access to the latest Analytics features 
-
-The [Migrating to Adobe Analytics 2.0 APIs](https://developer.adobe.com/analytics-apis/docs/2.0/guides/migration/) guide discusses the key differences between the 1.4 and 2.0 APIs. Additional information is also available in the [Analytics 2.0 API FAQ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/).
-
-Q: **Does this impact data collection?**
-
-A: The Adobe Analytics 1.4 EOL does not impact your tagging solutions, such as Tags (formerly Adobe Launch), WebSDK, or AppMeasurement.js. However, if you use the 1.4 Data Sources or Classifications APIs to collect or enhance your data, you must migrate those workflows to the Adobe Analytics 2.0 APIs. Please refer to the [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) for more details.
-
-Q: **Is the Data Insertion API impacted?**
-
-A: No, the Data Insertion API is not impacted by the Adobe Analytics 1.4 EOL.
-
-Q: **What do I do if my question wasn't answered in this FAQ?**
-
-A: If you still have questions, please reach out to your Adobe account representative.
+If you have further questions about this end-of-life announcement that are not answered on this page, reach out to your Adobe Account Team.

@@ -7,13 +7,10 @@ role: Admin, Developer, Leader, User
 ---
 # Implement Analytics for Mobile Devices
 
-To implement Analytics for mobile devices, use the Adobe Experience Platform Mobile SDK. See [Mobile SDK overview](aep-edge/mobile-sdk/overview.md) for more information.
+To implement Analytics for mobile devices, use the Adobe Experience Platform Mobile SDK.
 
-## Adobe Experience Platform Mobile SDKs
-
-* [iOS SDK repository](https://github.com/adobe/aepsdk-analytics-ios)
-* [Android SDK repository](https://github.com/adobe/aepsdk-analytics-android)
-* [Documentation](https://sdkdocs.com/)
+* See [Implement Adobe Analytics using the Adobe Experience Platform Mobile SDK](aep-edge/mobile-sdk/overview.md) for more information specific to Adobe Analytics.
+* See [Mobile SDK documentation](https://developer.adobe.com/client-sdks/home/) to download and install the SDKs.
 
 ## Version 4 Mobile SDKs
 

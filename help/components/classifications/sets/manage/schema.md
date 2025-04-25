@@ -10,6 +10,8 @@ View currently configured classification dimensions for this classification set.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Schema]**
 
+![classification set schema UI](../../assets/classification-set-schema.png)
+
 The following buttons are available:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->

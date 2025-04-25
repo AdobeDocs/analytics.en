@@ -10,6 +10,8 @@ Configure a classification set's settings.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
 
+![classification set settings](../../assets/classification-set-settings.png)
+
 The following fields are available in this tab:
 
 * **[!UICONTROL Name]**: The classification set name.

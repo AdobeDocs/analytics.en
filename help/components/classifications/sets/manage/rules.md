@@ -10,6 +10,8 @@ Classification set rules allow you to automatically classify values based on the
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
+![classification set rules UI](../../assets/csets-rules.png)
+
 ## Rule settings
 
 Settings that apply to the entire set of rules.

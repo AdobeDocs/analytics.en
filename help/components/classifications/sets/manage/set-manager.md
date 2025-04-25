@@ -18,6 +18,8 @@ The left side of the Classification set manager provides filter settings to loca
 
 ![Classification set filters](../../assets/classification-set-filters.png)
 
+Note that 1,000 classification sets are preloaded at a time. The filters shown in the left rail reflect the options for the sets that are preloaded.
+
 ## Classification set manager columns
 
 The following columns are available in the Classification set manager:

@@ -124,7 +124,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [p_fo](vars/plugins/p-fo.md)
     + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
-    + [websiteBot](vars/plugins/websitebot.md)
   + [Integrate module](vars/integrate.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)

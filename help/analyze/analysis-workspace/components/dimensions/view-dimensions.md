@@ -23,4 +23,4 @@ Now, by default, we show dynamic values instead of static ones, with the option 
 
 When you hover over a dimension and click the grey right-arrow next to it, a list of its dimension items appears. Any list of dimension items usually shows the top items for the last 30 days.
 
-If you scroll down to the bottom of the list, you will see a **[!UICONTROL Show Top Items From Last 6 Months]**. Click this option to see top dimension items from the last 180 days.
+If you scroll down to the bottom of the list, you see **[!UICONTROL Show Top Items From Last 18 Months]**. Click this option to see top dimension items from the last 547 days.

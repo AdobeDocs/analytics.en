@@ -10,7 +10,7 @@ The 'Custom link' [dimension](overview.md) reports the names of custom links imp
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If the `pe` query string has a different value in the hit, this dimension does not collect data.
+This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If the `pe` query string has a different value in the hit, this dimension does not collect data. The maximum length of this dimension is 100 bytes.
 
 If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"o"`. Populate the link name argument with the desired value.
 

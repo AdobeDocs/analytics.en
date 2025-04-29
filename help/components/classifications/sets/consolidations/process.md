@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification set consolidation process
 
-Use this interface to create a classification set consolidation from start to finish.
+Classification consolidations allow you to take classifications from multiple datasets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations moving from a legacy classification architecture towards a classification set architecture. Most organizations that are already on the classification set architecture typically do not need to use this consolidation workflow.
 
 ## Creation
 

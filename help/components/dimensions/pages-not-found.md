@@ -6,7 +6,7 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 ---
 # Pages not found
 
-*This help page describes how 'Pages not found' works as a [dimension](overview.md). See the [Pages not found](../metrics/pages-not-found.md) metric for more information.*
+*This help page describes how 'Pages not found' works as a [dimension](overview.md). See the [Pages not found](../metrics/pages-not-found.md) metric page for information on how it works as a metric.*
 
 The 'Pages not found' dimension shows URLs that contained an error. This dimension is useful when you want to lower the number of errors that visitor get on your site.
 

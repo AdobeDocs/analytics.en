@@ -141,7 +141,7 @@ If there are any dimensions or metrics that you want to add to Adobe Analytics, 
 
 ### Implicit mapping
 
-Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as context data with the prefix `a.x.` You can then map this context data variable to the desired Analytics variable using [processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). For example, if you send the following event:
+Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as context data with the prefix `a.x.`. You can then map this context data variable to the desired Analytics variable using [processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). For example, if you send the following event:
 
 ```js
 alloy("event",{

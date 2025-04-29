@@ -161,7 +161,7 @@ The Web SDK sends that data to Adobe Analytics as the context data variable `a.x
 
 ## Explicit mapping
 
-You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped, using the `contextData` element, is sent to Adobe Analytics as Context Data without a prefix. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
+You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped, using the `contextData` element, is sent to Adobe Analytics as context data without a prefix. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). For example, if you send the following event:
 
 ```js
 alloy("event",{

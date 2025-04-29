@@ -32,7 +32,7 @@ alloy("sendEvent", {
 });
 ```
 
-The [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) interface would show `c.example_variable` and `c.second_example` in applicable drop-down menus.
+The [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) interface would show `example_variable` and `second_example` in applicable drop-down menus.
 
 ## Context data variables using the Adobe Analytics extension
 

@@ -13,7 +13,7 @@ Context data variables are helpful for development teams to collect data in name
 
 ## Context data variables using the Web SDK
 
-If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can also explicity set context data using the XDM object. You can then use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.  See [Mapping other XDM fields to Analytics variables](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) for more information.
+If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can also explicitly set context data using the XDM object. You can then use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) to assign the context data variable to the desired Analytics variable.  See [Mapping other XDM fields to Analytics variables](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) for more information.
 
 If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), all context data variables reside within `data.__adobe.analytics.contextData` as key-value pairs:
 
@@ -40,7 +40,7 @@ Adobe Experience Platform Data Collection does not have a dedicated location to 
 
 ## s.contextData in AppMeasurement and the Analytics extension custom code editor
 
-The `s.contextData` variable does not directly take a value. Instead, set properties of this variable to a string.
+The `s.contextData` variable does not directly take a value. Instead, set the properties of this variable to a string.
 
 ```js
 // Assign the example_variable property a value

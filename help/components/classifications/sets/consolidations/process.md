@@ -1,12 +1,12 @@
 ---
 title: Classification set consolidation process
-description: The full process of consolidating  classification sets.
+description: The full process of consolidating classification sets.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
 ---
 # Classification set consolidation process
 
-Use this interface to create a classification set consolidation from start to finish.
+Classification consolidations allow you to take classifications from multiple datasets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations moving from a legacy classification architecture towards a classification set architecture. Most organizations that are already on the classification set architecture typically do not need to use this consolidation workflow.
 
 ## Creation
 
@@ -39,6 +39,6 @@ Once a consolidation is validated, you can run it. Running a consolidation provi
 
 ## Approve
 
-Acts as a last call before removing the individual classification sets and creating a consolidated classification set. Make sure that everything is correct, then click **[!UICONTROL Approve]**.
+The last call before removing individual classification sets and replacing them with a consolidated classification set. Validate that everything is correct, then select **[!UICONTROL Approve]**.
 
 Once approved, the consolidated classification set is created. The status is set to [!UICONTROL Complete], and no further action is required for the consolidation.

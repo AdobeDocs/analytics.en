@@ -399,3 +399,8 @@ The following list of columns are unused, retired, or otherwise do not contain v
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[XDM object variable mapping](/help/implement/aep-edge/xdm-var-mapping.md)
+>[Data object variable mapping](/help/implement/aep-edge/data-var-mapping.md)

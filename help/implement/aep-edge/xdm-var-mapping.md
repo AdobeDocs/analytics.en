@@ -68,7 +68,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Sets the respective [Hierarchy](/help/components/dimensions/hierarchy.md) dimension. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` |  List prop delimiter override. Using this field is not recommended, as the delimiter is automatically retrieved from [Traffic variable admin](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) under report suite settings. Using this field can create a mismatch between the delimiter used and the delimiter that Analytics expects. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | A string array containing the respective [List Prop](../vars/page-vars/prop.md#list-props) values. |
-| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatenates all `value` strings in each respective `list[]` array to its respective [List variable](../vars/page-vars/list.md). Delimiter is automatically chosen based on the value set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
+| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatenates all `value` strings in each respective `list[]` array to its respective [List variable](../vars/page-vars/list.md). The delimiter is automatically chosen based on the value set in [Report suite settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Sets the respective [Prop](/help/components/dimensions/prop.md) dimension. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the respective [Custom events](/help/components/metrics/custom-events.md) metric. Each event ID resides in its 100-group parent. For example, to apply serialization to `event678`, use `xdm._experience.analytics.event601to700.event678.id`. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Increments the respective [Custom events](/help/components/metrics/custom-events.md) metric by the desired amount. Each event resides in its 100-group parent. For example, the field for `event567` is `xdm._experience.analytics.event501to600.event567.value`. |
@@ -137,11 +137,11 @@ Previous updates to this table can be found on this page's [commit history on Gi
 
 ## Mapping other XDM fields to Analytics variables
 
-If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context Data variables](../vars/page-vars/contextdata.md). 
+If there are any dimensions or metrics that you want to add to Adobe Analytics, you can do so through [Context data variables](../vars/page-vars/contextdata.md). 
 
 ### Implicit mapping
 
-Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as Context Data with the prefix `a.x.` You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/processing-rules/processing-rules). For example, if you send the following event:
+Any XDM field elements that are not automatically mapped are sent to Adobe Analytics as context data with the prefix `a.x.` You can then map this context data variable to the desired Analytics variable using [processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). For example, if you send the following event:
 
 ```js
 alloy("event",{
@@ -161,7 +161,7 @@ The Web SDK sends that data to Adobe Analytics as the context data variable `a.x
 
 ## Explicit mapping
 
-You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped, using the `contextData` element, is sent to Adobe Analytics as context data without a prefix. You can then map this context data variable to the desired Analytics variable using [Processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/processing-rules/processing-rules). For example, if you send the following event:
+You can also explicitly map XDM field elements as context data. Any XDM field element that is explicitly mapped, using the `contextData` element, is sent to Adobe Analytics as context data without a prefix. You can then map this context data variable to the desired Analytics variable using [processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). For example, if you send the following event:
 
 ```js
 alloy("event",{

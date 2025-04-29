@@ -8,7 +8,7 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 
 *This help page describes how 'Pages not found' works as a [dimension](overview.md). See the [Pages not found](../metrics/pages-not-found.md) metric page for information on how it works as a metric.*
 
-The 'Pages not found' dimension shows URLs that contained an error. This dimension is useful when you want to lower the number of errors that visitor get on your site.
+The 'Pages not found' dimension shows URLs that contained an error. This dimension is useful when you want to lower the number of errors that visitors get on your site.
 
 * You can use this dimension in a [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) to see which pages visitors click through to reach the error. You can then work with development teams in your organization to fix the link on each page.
 * You can use this dimension with the ['Referrer'](referrer.md) dimension to see where visitors arrive to your site from external links. You can then either implement redirects to the desired location, or work with the third party to get the link fixed.

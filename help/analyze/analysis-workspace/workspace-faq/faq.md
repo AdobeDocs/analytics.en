@@ -68,5 +68,5 @@ If you successfully created a workspace report but there's no data, there are a 
 +++
 
 +++As a read-only user, what actions can I perform in Analysis Workspace?
-When a project is shared as read only, all editing functions and features are completely disabled and recipients can only change the dropdown to apply a filter to the panel in a predefined manner.
+When a project is shared as read only, all editing functions and features are completely disabled and recipients can only change the drop-down menu to apply a filter to the panel in a predefined manner.
 +++

@@ -72,7 +72,7 @@ You can:
 
 ## Report suite
 
-Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the dropdown menu at the top right of the panel.
+Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.
 
 When you create a new panel, the default report suite is based on the report suite of the panel you last worked on in the Analysis Workspace project.
 
@@ -106,7 +106,7 @@ The panel calendar controls the reporting date range for tables and visualizatio
 ![The calendar window showing the selected date range.](assets/panel-calendar.png)
 
 1. Select a date range by selecting first the start date and then the end date. 
-   Alternatively, you can select a **[!UICONTROL Preset]** from the [!UICONTROL *Select a preset*] dropdown menu.
+   Alternatively, you can select a **[!UICONTROL Preset]** from the [!UICONTROL *Select a preset*] drop-down menu.
 
 1. Optionally, select **[!UICONTROL Show advanced settings]** to:
 

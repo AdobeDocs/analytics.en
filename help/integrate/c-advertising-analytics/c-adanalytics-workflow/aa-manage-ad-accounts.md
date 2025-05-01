@@ -56,7 +56,7 @@ To map one or more advertising account to report suites:
 1. (optional) Select more than one advertising account.
 1. Select ![More](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) for a specific advertising account.
 1. Select ![Refesh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report suites]** from the context menu. 
-1. In the Map Report suites dialog, select one or more report suites from the dropdown. You can delete report suites from the mapping using ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. In the Map Report suites dialog, select one or more report suites from the drop-down menu. You can delete report suites from the mapping using ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
 1. Select **[!UICONTROL Save]** to save the mapping.
 
 

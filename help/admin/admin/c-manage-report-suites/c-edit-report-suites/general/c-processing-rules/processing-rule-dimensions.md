@@ -69,7 +69,7 @@ All [Context data variables](/help/implement/vars/page-vars/contextdata.md) that
 
 ## Success events
 
-Processing rules can set events but cannot read them as conditions. Set the rule action dropdown to **[!UICONTROL Set event]** to see available metrics to increment.
+Processing rules can set events but cannot read them as conditions. Set the rule action drop-down to **[!UICONTROL Set event]** to see available metrics to increment.
 
 | Variable | Read/write status | Description |
 | --- | --- | --- |

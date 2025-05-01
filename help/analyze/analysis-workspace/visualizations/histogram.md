@@ -32,7 +32,7 @@ The ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** vi
 To create a histogram:
 
 1. Add a ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** visualization. See [Add a visualization to a panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Drag a metric from the **[!UICONTROL Metrics]** component list, or select a metric from the [!UICONTROL *Add a metric*] dropdown menu.
+1. Drag a metric from the **[!UICONTROL Metrics]** component list, or select a metric from the [!UICONTROL *Add a metric*] drop-down menu.
 1. (optional) Select **[!UICONTROL Show advanced settings]**. See [Advanced settings](#advanced-settings).
 1. Select **[!UICONTROL Build]**.
 

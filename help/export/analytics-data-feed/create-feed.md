@@ -349,7 +349,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    
    +++
 
-1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the dropdown, then complete the following fields:
+1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the drop-down menu, then complete the following fields:
    
    |Field | Function | 
    |---------|----------|

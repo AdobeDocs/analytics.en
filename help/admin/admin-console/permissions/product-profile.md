@@ -24,7 +24,7 @@ For information about how to assign product profile admins, see the "Manage prod
 
 ## Adobe Analytics permission items
 
-The minimum required permissions in a product profile to access Adobe Analytics are the following:
+The minimum required permissions in a single product profile to access Adobe Analytics are the following:
 
 * The product profile must have access to at least one report suite
 * The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access**.

@@ -57,6 +57,11 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 >title="Items expanded per column"
 >abstract="This field can only be set on the initial build. To update this field, select **[!UICONTROL Reset]** to build a new Flow visualization."
 
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="Reset to update"
+>abstract="This field can only be set on the initial build. To update this field, select **[!UICONTROL Reset]** to build a new Flow visualization."
+
 
 
 Flow visualizations help you understand the journey stemming from or leading up to a specific conversion event on your website or your app. It traces a path through your dimensions (and dimension items) or metrics. 

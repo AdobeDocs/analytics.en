@@ -6,7 +6,12 @@ feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 ---
-# Manage visualization data sources
+# Manage visualization data sources {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="Lock selection"
+>abstract="Enable this setting to lock the visualization to either the table positions or the exact items selected in the data source."
 
 Synchronizing visualizations lets you control which data table or data source corresponds to a visualization.
 
@@ -23,6 +28,8 @@ Managing a data source lets you show the data source or lock the selection. Thes
    Synchronizing a visualization to a table cell creates a new (hidden) table and color-codes the synchronized visualization with that table.
 
 ## Data Source settings
+
+
 
 
 >[!BEGINSHADEBOX]

@@ -14,7 +14,7 @@ These release notes cover the release period of April xx through June 18, 2025. 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Support for secure destinations in Report Builder** | The new Report Builder in Adobe Analytics now supports secure cloud destinations. [Documentation link to follow] |  | May 30, 2025 |
+| N/A |   |   |   |
 
 
 ## Fixes in Adobe Analytics

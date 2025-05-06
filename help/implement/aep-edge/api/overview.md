@@ -1,15 +1,15 @@
 ---
-title: Implement Adobe Analytics using the Adobe Experience Platform Edge Network Server API
-description: Use the Adobe Experience Platform Edge Network Server API to send data to Adobe Analytics.
+title: Implement Adobe Analytics using the Adobe Experience Platform Edge Network API
+description: Use the Adobe Experience Platform Edge Network API to send data to Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
 ---
-# Implement Adobe Analytics using the Adobe Experience Platform Edge Network Server API
+# Implement Adobe Analytics using the Adobe Experience Platform Edge Network API
 
-You typically use the Experience Platform Edge Network Server API to collect data server-side rather than client-side and when collecting data from devices like IoT devices, set-top boxes, desktop applications. Then you send that data to the Edge network and to services like Adobe Analytics.
+You typically use the Experience Platform Edge Network API to collect data server-side rather than client-side and when collecting data from devices like IoT devices, set-top boxes, desktop applications. Then you send that data to the Edge network and to services like Adobe Analytics.
 
-Also consider the Edge Network Server API when you require sensitive data to be collected securely and authenticated across the network. See [Authentication](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) for more information.
+Also consider the Edge Network API when you require sensitive data to be collected securely and authenticated across the network. See [Authentication](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) for more information.
 
 A high-level overview of the implementation tasks:
 
@@ -53,5 +53,5 @@ A high-level overview of the implementation tasks:
 
 </table>
 
-See [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html), and an example [integration with Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html) for more information.
+See [Edge Network API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) for more information.
 

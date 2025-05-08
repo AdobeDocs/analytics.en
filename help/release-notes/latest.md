@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (May 2025 release)
 
-**Last update**: May 6, 2025
+**Last update**: May 8, 2025
 
 These release notes cover the release period of April xx through June 18, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -19,17 +19,17 @@ These release notes cover the release period of April xx through June 18, 2025. 
 
 ## Fixes in Adobe Analytics
 
-**A4T**:
-**Admin Tools**: 
-**Analysis Workspace**: 
-**Classifications**: 
-**Data collection**: 
-**Data feeds**: 
-**Data Warehouse**: 
-**Marketing Channels**: 
-**Mobile app**:
-**Platform**: 
-**Report Builder**: 
+**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377467; 
+**Classifications**: AN-373166; AN-373479; AN-376074; AN-377337
+**Components**: AN-314468
+**Data feeds**: AN-370241; AN-375267; AN-376940
+**Data Sources**: AN-375259
+**Data Warehouse**: AN-370415; AN-372090; 
+**Platform**: AN-365681; AN-372306; AN-372616; 
+**Report Builder**: AN-371395
+**Segmentation**: AN-373576; AN-375858
+**Virtual report suites**: AN-377948; AN-377952
+**Vista rules**: AN-373292
 
 ## Important notices for Adobe Analytics administrators {#admin}
 

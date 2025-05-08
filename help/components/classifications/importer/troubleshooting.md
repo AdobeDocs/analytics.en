@@ -25,8 +25,8 @@ If your upload file is correctly formatted, the uploader attempts to import as m
 
 * **Rows that are already classified**: When attempting to upload rows that are already classified with the same value, the importer returns rows that had no effect. This outcome is expected, as classifications don't reclassify a key value with the same classification. It is a notification instead of an error. It is not anything to worry about if you do not alter all rows within an export file. Adobe recommends only uploading changed rows.
 * **Header does not match the variable being uploaded**: If you download a classification template for the Tracking code dimension and attempt to upload it to an eVar classification, it fails. Only use export files for the specific variables they were exported from.
-* **A key or classification value contains the value 0**: Classifications cannot differentiate the value 0 from a blank cell, so it cannot classify this value. See [Classifications FAQ](../faq.md).
-* **The classification file contains commas or special characters**: See [Classifications FAQ](../faq.md).
+* **A key or classification value contains the value 0**: Classifications cannot differentiate the value 0 from a blank cell, so it cannot classify this value. See the [Classification importer FAQ](importer-faq.md) for more information.
+* **The classification file contains commas or special characters**: See the [Classification importer FAQ](importer-faq.md) for information on how to escape values.
 * **Extra tabs in the uploaded file**: Sometimes when editing classification files, an extra tab can be accidentally slipped in. Each row requires an identical number of tabs to process correctly. To check for extra tabs within the file, highlight all text in a plaintext editor and make sure that no rows have extra space at the end.
 * **Duplicate key values exist in the file**: Each key value can only have one classification per column. If you attempt to classify the same value multiple times, the importer throws an error.
 * **Subclassifications exist and are incorrectly configured**: If subclassifications exist, check the following:

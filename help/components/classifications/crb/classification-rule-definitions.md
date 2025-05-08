@@ -4,11 +4,11 @@ title: Classification rules - definitions
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 ---
-# Classification rules - definitions
+# Classification rule definitions (legacy)
 
 Definitions of interface elements on the pages in the Classification Rule Builder.
 
-## Rules Page {#section_4A5BF384EEEE4994B6DC888339833529}
+## Rules Page
 
 This page displays the rules in a rule set.
 

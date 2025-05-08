@@ -49,5 +49,5 @@ Using `~deletekey~` under the Inventory Category classification deletes all clas
 * If using `~deletekey~`, you only need one per row in a classification file.
 * `~empty~` and `~deletekey~` must be *exact* matches. No spaces or capitalization are allowed.
 * You cannot delete values within the key column, These values are passed directly into the variable and is permanent.
-* If you are removing a classification value that has subclassifications, those subclassifications are also removed. Classifications cannot exist without a key value, and a subclassification's parent is its key value.
+* If you remove a classification value that has subclassifications, those subclassifications are also removed. Classifications cannot exist without a key value, and a subclassification's parent is its key value.
 * It is possible to remove subclassification data while leaving its parent classification intact.

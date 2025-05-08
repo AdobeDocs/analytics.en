@@ -1,20 +1,20 @@
 ---
 description: Adobe Analytics support both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
-title: Sub-classifications
+title: Subclassifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 ---
-# Sub-classifications
+# Subclassifications
 
 Adobe Analytics supports both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
 
 >[!NOTE]
 >
->Sub-classification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about Classification hierarchies, see [Classification Hierarchies](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
+>Subclassification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about classification hierarchies, see [Classification Hierarchies](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
 
 For example:
 
-![](assets/single-level-popup-C.png)
+![](../assets/single-level-popup-C.png)
 
 Each classification in this model is independent and corresponds to a new sub-report for the selected reporting variable. Furthermore, each classification constitutes one data column in the data file, with the classification name as the column heading. For example: 
 
@@ -27,7 +27,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 Multiple-level classifications are comprised of parent and child classifications. For example:
 
-![](assets/Multi-Level-Class-popup.png)
+![](../assets/Multi-Level-Class-popup.png)
 
 **Parent classifications:** A parent classification is any classification that has an associated child classification. A classification can be both a parent and child classification. The top-level parent classifications correspond to single-level classifications.
 

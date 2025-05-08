@@ -94,6 +94,24 @@ Within a project, the menu provides options for managing your project, adding co
 
 ### Project Info & Settings {#info-settings}
 
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/><br/>Note: this setting does not apply to Flow or Fallout visualizations."
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_repeatinstances"
+>title="Count repeat instances"
+>abstract="Specifies whether repeat instances are counted in reports.<br/>Note: this setting does not apply to Flow or Fallout visualizations."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="Allow commenting"
+>abstract="When enabled, a comments area is available in the right rail of the project in Analysis Workspace."
+
+
+
 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & settings]** provides project-level information on the currently active project.
 
 ![Project Info](assets/projectinfo.png)

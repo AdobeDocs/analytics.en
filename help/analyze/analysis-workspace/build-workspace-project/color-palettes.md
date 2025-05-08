@@ -7,6 +7,11 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 ---
 # Visualization Color Palettes
 
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Project color palette"
+>abstract="Change the color palette used in this project."
+
 You can change the visualization color palette used in Workspace by choosing a different color palette or by specifying your own palette that could match your company's branding colors. This feature affects most visualizations in Workspace, but it does **not** affect [!UICONTROL Summary Change], conditional formatting in [!UICONTROL Freeform] tables, and the [!UICONTROL Map] visualization.
 
 >[!NOTE]

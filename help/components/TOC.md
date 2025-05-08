@@ -252,9 +252,9 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Manage](c-alerts/alert-manager.md)
   + [Use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
-  + [Classifications overview](classifications/c-classifications.md)
+  + [Classifications overview](classifications/classifications-overview.md)
   + Classification sets {#sets}
-    + [Classification sets overview](classifications/sets/overview.md)
+    + [Overview](classifications/sets/overview.md)
     + Manage classification sets {#manage}
       + [Classification set manager](classifications/sets/manage/set-manager.md)
       + [Create a classification set](classifications/sets/manage/create.md)
@@ -263,30 +263,27 @@ user-guide-description: Manage data using components like Segments, Calculated M
       + [Classification set rules](classifications/sets/manage/rules.md)
     + [Classification set jobs manager](classifications/sets/job-manager.md)
     + Classification set consolidations {#consolidations}
-      + [Classification set consolidations manager](classifications/sets/consolidations/manage.md)
-      + [Classification set consolidations process](classifications/sets/consolidations/process.md)
-  + Classification Rule Builder {#classifications-rulebuilder}
-    + [Classification Rule Builder workflow](classifications/crb/classification-rule-builder.md)
+      + [Consolidations manager](classifications/sets/consolidations/manage.md)
+      + [Consolidations process](classifications/sets/consolidations/process.md)
+  + Classification rule builder (Legacy){#classifications-rulebuilder}
+    + [Overview](classifications/crb/classification-rule-builder.md)
     + [Classification rule sets](classifications/crb/classification-rule-set.md)
     + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-    + [Classification rules - definitions](classifications/crb/classification-rule-definitions.md)
-    + [Sub-classifications and the Rule Builder](classifications/crb/sub-classification-rule-builder.md)
-  + Classifications importer {#classifications-importer}
-    + [Classifications importer - overview](classifications/importer/c-working-with-saint.md)
+    + [Classification rule definitions](classifications/crb/classification-rule-definitions.md)
+    + [Subclassifications and the rule builder](classifications/crb/subclassification-rule-builder.md)
+  + Classification importer (legacy){#classifications-importer}
+    + [Classifications importer overview](classifications/importer/c-working-with-saint.md)
     + [Classification data files](classifications/importer/c-saint-data-files.md)
     + [Delete classification data](classifications/importer/t-delete-classification-data.md)
-    + [Escape classification data](classifications/importer/t-classifications-escape-data.md)
-    + [Non-classified keys](classifications/importer/nonclassified-keys.md)
     + [Classification template](classifications/importer/c-download-saint-data.md)
-    + [Browser and FTP import](classifications/importer/import-file.md)
     + [Browser import](classifications/importer/browser-import.md)
     + [Browser export](classifications/importer/browser-export.md)
     + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
     + [FTP export](classifications/importer/ftp-export.md)
     + [Processing time](classifications/importer/processing-time.md)
+    + [Subclassifications](classifications/importer/subclassifications.md)
     + [Troubleshooting](classifications/importer/troubleshooting.md)
-  + [Sub-classifications](classifications/c-sub-classifications.md)
-  + [Classifications FAQ](classifications/faq.md)
+    + [FAQ](classifications/importer/importer-faq.md)
 + Locations {#locations}
   + [Locations manager](/help/components/locations/locations-manager.md)
   + [Cloud import accounts](/help/components/locations/configure-import-accounts.md)

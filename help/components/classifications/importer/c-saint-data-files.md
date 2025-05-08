@@ -4,7 +4,7 @@ title: Classification data files
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 ---
-# Classification data files
+# Classification data files (legacy)
 
 The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
 
@@ -34,13 +34,13 @@ A data file must adhere to the following structure rules:
 
   The comma is not a special character.
 
-* Classifications cannot contain a caret (^) since this character is used to denote a sub-classification.
+* Classification names cannot contain a caret (^) since this character is used to denote a subclassification.
 * Use care when using a hyphen. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. This policy also extends to classification and sub-classification column values, which are subject to the same 255 bytes limit.
+* Character limits are enforced to classify report data. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Tracking Codes and all custom conversion variables (eVars) allow 255 bytes. This policy also extends to classification and subclassification column values, which are subject to the same 255 bytes limit.
 * Tab-delimited data file (create the template file using any spreadsheet application or text editor).
-* Either a [!DNL .tab] or [!DNL .txt] file extension.
+* Either a `.tab` or `.txt` file extension.
 * A pound sign (#) identifies the line as a user comment. Adobe ignores any line that begins with #.
-* A double-pound sign followed by SC (## SC) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines.
+* A double-pound sign followed by SC (`## SC`) identifies the line as a pre-processing header comment used by reporting. Do not delete these lines.
 * Classification exports can have duplicate keys due to newline characters in the key. In an FTP or browser export, this can be resolved by turning on quoting for the FTP account. This will place quotes surrounding each key with newline characters.
 * Cell C1 in the first line of the import file contains a version identifier that determines how classifications handle the use of quotes throughout the remainder of the file.
 
@@ -84,10 +84,6 @@ A data file must adhere to the following structure rules:
  </tbody> 
 </table>
 
->[!MORELIKETHIS]
->
->* [Common Upload Issues](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
-
 ## Column heading format
 
 >[!NOTE]
@@ -106,92 +102,11 @@ Each value must be unique across the entire system. The value in this field corr
 >
 >The values in the [!UICONTROL Classifications] column heading must exactly match the classification's naming convention, or the import fails. For example, if the administrator changes [!UICONTROL Campaigns] to [!UICONTROL Internal Campaign Names] in the [!UICONTROL Campaign Set-up Manager], the file column heading must change to match. "Key" is a reserved classification (header) value. New classifications named "Key" are not supported.
 
-Additionally, the data file supports the following additional heading conventions to identify sub-classifications and other specialized data columns:
+Additionally, the data file supports the following additional heading conventions to identify subclassifications and other specialized data columns:
 
-### Sub-classification heading
+### Subclassification heading
 
-For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
-
-### Classification metric headings
-
-For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
-
-### PER modifier heading
-
-*`Per Modifier`* headings are denoted by adding *`~per`* to the classification metric heading. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe supports the following *`PER Modifier`* keywords:
-
-These characters have special meaning in a data file. Where possible, avoid using these words in attribute names and data.
-
-**FIXED:** Fixed value. Do not perform any scaling.
-
-**DAY:** Multiply the value by the number of days in the report.
-
-**ORDER:** Multiply the value by the number of orders for the line item in the report.
-
-**CHECKOUT:** Multiply the value by the number of checkouts for the line item in the report.
-
-**UNIT:** Multiply the value by the number of units for the line item in the report.
-
-**REVENUE:** Multiply the value by the revenue amount for the line item in the report.
-
-**SCADD:** Multiply the value by the number of times the [!UICONTROL Shopping Cart Add] event was called per line item in the report.
-
-**SCREMOVE:** Multiply the value by the number of times the [!UICONTROL Shopping Cart Remove] event was called per line item in the report.
-
-**INSTANCE:** Multiply the value by the number of instances for the line item in the report.
-
-**CLICK:** Multiply the value by the number of clicks for the line item in the report.
-
-**EVENT:** Multiply the value by the number of times the specified custom event occurred per line item of the report.
-
-**Example:** If Campaign A cost $10,000, the [!UICONTROL Campaigns^~Cost] column contains a value of 10000 and the [!UICONTROL Campaigns^~Cost~per] column contains [!UICONTROL FIXED]. When displaying the Cost for Campaign A in the reports, you will see $10,000 as the fixed cost for Campaign A for the date range.
-
-**Example:** If Campaign B that costs approximately $2 per click, the [!UICONTROL Campaigns^~Cost] column contains 2 and the **[!UICONTROL Campaigns^~Cost~per]** column contains [!UICONTROL CLICK]. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 &#42; [number of clicks]) on the fly for the date range of the report. This gives you a total cost calculation based on the number of clicks performed with Campaign B.
-
-### Date
-
-Campaigns dates are typically ranges (start and end dates) associated with individual campaigns. Dates should appear in YYYY/MM/DD format. For example, 2013/06/15-2013/06/30.
-
-For more information, see [Conversion Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
-
->[!NOTE]
->
->In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. These classification types were removed from the Admin and Classification Importer interfaces. No new date-enabled and numeric classifications can be added. Existing classifications can still be managed (uploaded to, deleted) through the standard classification workflow, and will continue to be available in reporting.
-
-## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
-
-[!UICONTROL Classifications] can be used to assign date ranges to your campaigns or other conversion [!UICONTROL classifications], which allows more accurate campaign measurement. After specifying a value's date range, any matching value that occurs outside the date range will not be classified. This is useful for campaign measurement that wishes to utilize the exact dates a campaign was Live, and not all hits matching the campaign itself. In order to successfully classify a value with a date range, the following must be met:
-
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
-* The involved date range must contain a start date and (optionally) an end date.
-
-To classify campaigns based on date range:
-
->[!IMPORTANT]
->This option is not available for report suites enabled for the New Classification Architecture.
-
-1. Log in to [!DNL Analytics] and go to Admin > Classifications.
-1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
-1. Open this file in Microsoft Excel or another spreadsheet editor you are familiar with.
-1. One of the columns will end with
-
-   ^~period~
-   which is the column to enter the date range in.
-1. Under this column, enter each value's date range in the following format:
-
-   `YYYY/MM/DD - YYYY/MM/DD`. Please ensure the following:
-
-    * Leave spaces on both sides of the dash.
-    * Use a hyphen (-) to separate ranges, not an en-dash or an em-dash.
-    * If the month or day is a single digit, that there is a leading zero.
-    * There is a start date range; the end date range is optional.
-
-1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
-
->[!NOTE]
->
->A specific key value cannot have more than one date range.
+For example, `Campaigns^Owner` is a column heading for the column containing `Campaign Owner` values. Similarly, `Creative Elements^Size` is a column heading for the column containing the `Size` subclassification of the `Creative Elements` classification.
 
 ## Troubleshooting classifications
 

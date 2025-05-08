@@ -23,7 +23,7 @@ A data file must adhere to the following structure rules:
 * Classifications cannot have a value of 0 (zero).
 * Adobe recommends that you limit the number of import and export columns to 30.
 * Uploaded files should use UTF-8 without BOM character encoding.
-* Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Special characters include:
+* Special characters, such as a tabs, newlines, and quotes can be embedded within a cell provided the v2.1 file format is specified and the cell is properly [escaped](/help/components/classifications/importer/importer-faq.md). Special characters include:
 
   ```text
   \t     tab character 

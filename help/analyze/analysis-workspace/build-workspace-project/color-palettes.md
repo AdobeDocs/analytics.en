@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 ---
-# Visualization Color Palettes
+# Visualization Color Palettes {#visualization-color-palettes}
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"

@@ -45,7 +45,7 @@ You can customize general preferences for all new projects that you create in An
 | Show tips | Displays tips in a blue box in the lower-right area of Analysis Workspace. <p>This option is enabled by default.</p> |
 | Components displayed in left rail groups | Choose how many of each component to display in the Components menu in the left rail. <p>If you choose 0, the component is no longer accessible from the left rail of your workspaces.</p><p>By default, 5 components display for each of the following:</p> <ul><li>Dimensions</li><li>Metrics</li><li>Filters</li><li>Date ranges</li></ul> <p>For more information about Components in Analysis Workspace, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Company preferences
+## Company preferences {#company-preferences}
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_shareonlyworkspace"
@@ -56,8 +56,6 @@ You can customize general preferences for all new projects that you create in An
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Require Experience Cloud authentication"
 >abstract="When enabled, people who are given access to a project from the **[!UICONTROL Share with anyone]** option in Analysis Workspace must authenticate using their Experience Cloud credentials."
-
-<!-- markdownlint-enable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -76,7 +74,7 @@ You can update company preferences that apply to all users and projects within y
 
 {style="table-layout:auto"}
 
-## Projects & Analyses preferences
+## Projects & Analyses preferences {#project-analyses-preferences}
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
@@ -113,7 +111,7 @@ Click the linked preference titles for more information and context about each p
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
 |  | Show annotations | Choose whether annotations are visible in your projects. For more information about annotations, see [Annotations overview](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Freeform table preferences
+## Freeform table preferences {#freeform-table-preferences}
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"

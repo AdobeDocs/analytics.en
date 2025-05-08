@@ -6,7 +6,14 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
-# Share projects
+# Share projects {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Share projects"
+>abstract="You can share any of these project roles with other users in your organization."
+
+
 
 You can share an Analysis Workspace project with the following types of people:
 

@@ -6,7 +6,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
-# Share projects {#share projects}
+# Share projects {#share-projects}
 
 >[!CONTEXTUALHELP]
 >id="workspace_shareprojects"

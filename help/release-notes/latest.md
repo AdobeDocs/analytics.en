@@ -14,7 +14,7 @@ These release notes cover the release period of April xx through June 18, 2025. 
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| N/A |   |   |   |
+
 
 
 ## Fixes in Adobe Analytics
@@ -35,7 +35,8 @@ These release notes cover the release period of April xx through June 18, 2025. 
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| N/A |  |  |
+| **Analysis Workspace left panel no longer opens and closes on hover** | The left panel in Analysis Workspace is used to add things like components, panels, and visualizations to your project. The option to temporarily open the left panel by hovering over one of the icons on the far left is no longer available. Instead, simply click one of these icons to keep the panel open, then click the same icon to close it. |  | May 29, 2025 |
+
 
 ## End-of-life (EOL) notices {#eol}
 

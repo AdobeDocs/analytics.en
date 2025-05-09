@@ -51,7 +51,7 @@ alloy("sendEvent", {
 });
 ```
 
-See [Track events](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) in the Web SDK documentation for more information.
+See [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) in the Web SDK documentation for more information.
 
 ## Page view tracking call using the Adobe Analytics extension
 

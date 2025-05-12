@@ -17,7 +17,7 @@ This article is designed for system-level administrators or Adobe Analytics admi
 ## Create a report suite {#create-report-suite}
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Create New]** > **[!UICONTROL Report Suite]**.
+1. Click **[!UICONTROL Add Report Suite]**.
 1. Select either a predefined template or an existing report suite to use as a [template](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]

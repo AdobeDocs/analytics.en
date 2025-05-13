@@ -20,7 +20,7 @@ These release notes cover the release period of April xx through June 18, 2025. 
 ## Fixes in Adobe Analytics
 
 **Alerts**: AN-378351
-**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467;
+**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467; AN-377942
 **Asset transfer**: AN-373381 
 **Classifications**: AN-373166; AN-373479; AN-376074; AN-377337; AN-377505
 **Components**: AN-314468

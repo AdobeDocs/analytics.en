@@ -19,13 +19,16 @@ These release notes cover the release period of April xx through June 18, 2025. 
 
 ## Fixes in Adobe Analytics
 
-**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377467; 
-**Classifications**: AN-373166; AN-373479; AN-376074; AN-377337
+**Alerts**: AN-378351
+**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467;
+**Asset transfer**: AN-373381 
+**Classifications**: AN-373166; AN-373479; AN-376074; AN-377337; AN-377505
 **Components**: AN-314468
 **Data feeds**: AN-370241; AN-375267; AN-376940
 **Data Sources**: AN-375259
 **Data Warehouse**: AN-370415; AN-372090; 
 **Platform**: AN-365681; AN-372306; AN-372616; 
+**Real-time reporting**: AN-365681
 **Report Builder**: AN-371395
 **Segmentation**: AN-373576; AN-375858
 **Virtual report suites**: AN-377948; AN-377952

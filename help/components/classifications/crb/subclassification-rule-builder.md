@@ -1,16 +1,16 @@
 ---
-description: You cannot combine the Classification Rule Builder with sub-classifications.
-title: Sub-classifications and the Rule Builder
+description: Use subclassifications with the classification rule builder.
+title: Subclassifications and the Rule Builder
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 ---
-# Sub-classifications and the Rule Builder
+# Sub-classifications and the rule builder (legacy)
 
 You can combine the Classification Rule Builder with sub-classifications if you ensure that every sub classification has a parent value.
 
 Combining the Classification Rule Builder with sub-classifications can simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
 
-See [Sub-Classifications](/help/components/classifications/c-sub-classifications.md) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/classifications/importer/subclassifications.md) for conceptual information about sub-classifications.
 
 ## Example
 
@@ -26,28 +26,24 @@ After you have this structure in place, you can use the [Classifications Rule Bu
 
 The following task describes how to accomplish this.
 
-## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Set up subclassifications using the Rule Builder
 
-Example steps that describe how you can upload sub-classifications using the Rule Builder.
+Example steps that describe how you can upload subclassifications using the Rule Builder.
 
->[!NOTE]
->
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](/help/components/classifications/crb/sub-classification-rule-builder.md).
-
-1. Create classifications and sub-classifications in the [Classification Manager](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Create classifications and subclassifications in the Classification Manager.
 
    Example:
 
    ![Step Info](/help/admin/admin/assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
+1. In the [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    You perform this using a regular expression. In this example, the rule to populate *`Broad Campaign code`* would use this regular expression: 
 
    |  `#`  | Rule Type  | Match  | Set Classification  | To  |
    |---|---|---|---|---|
-   |   | Regular Expression  | `[^\:]:([^\:]):([^\:]`)  | Broad Campaign code  | `$1`  |
-   |   | Regular Expression  | `[^\:]:([^\:]):([^\:]`)  | Creative code  | `$2`  |
+   |   | Regular Expression  | `[^\:]:([^\:]):([^\:])`  | Broad Campaign code  | `$1`  |
+   |   | Regular Expression  | `[^\:]:([^\:]):([^\:])`  | Creative code  | `$2`  |
 
    >[!NOTE]
    >
@@ -55,7 +51,7 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
 1. Upload a classification file that includes only the sub-classifications specified.
 
-   See [Multiple-Level Classifications](/help/components/classifications/c-sub-classifications.md).
+   See [Multiple-Level Classifications](/help/components/classifications/importer/subclassifications.md).
 
    Example: 
 
@@ -68,4 +64,4 @@ Example steps that describe how you can upload sub-classifications using the Rul
 
    You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. This file would apply to previously classified values. Likewise, if you create a new sub-classification (such as *`Creative Theme`* as a sub-classification of *`Creative code`*), you upload only the sub-classification file, rather than the entire classification file.
 
-   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them.-->
+   For reporting these sub-classifications function exactly like top-level classifications. This reduces the management burden required to use them.

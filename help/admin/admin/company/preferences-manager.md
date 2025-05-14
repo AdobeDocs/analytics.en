@@ -11,5 +11,5 @@ The Preferences Manager page lets you configure how to render Excel and comma-se
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Preferences]**
 
-* Use deprecated date format for CSV (Aug 30, 2013) 
-* Use ISO 8601 date format for CSV (2013-08-30)
+* Use deprecated date format for CSV (Aug 30, 20XX) 
+* Use ISO 8601 date format for CSV (20XX-08-30)

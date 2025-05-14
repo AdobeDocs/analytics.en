@@ -10,21 +10,13 @@ exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 
 Traffic classifications allow you to classify traffic variables (props). Traffic classifications can use only text classifications.
 
-## Traffic classifications {#concept_028079B29A9C412AA68910A87E11176F}
+## Traffic classifications
 
 Traffic classifications allow you to classify traffic variables (props). Traffic classifications can use only text classifications.
 
 The Traffic Classifications page lets you create classifications for the selected report suites. Once classified, any report that you can generate using the key data can also be generated using the associated attributes.
 
-After enabling classifications, use [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
-
-## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
-
-<!-- 
-
-t_classification_add_traffic.xml
-
- -->
+## Add a Traffic Classification
 
 To add or edit classifications for the selected report suites:
 

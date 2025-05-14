@@ -4,7 +4,9 @@ title: Classification rule sets
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 ---
-# Classification rule sets
+# Classification rule sets (legacy)
+
+*This page explains classification rule sets as part of the [Classification rule builder](classification-rule-builder.md). See [Classification sets](../sets/overview.md) for the current method of classifying data in Adobe Analytics.*
 
 A rule set is a group of classification rules for a specific variable. You apply a variable to the rule set. If you want to create multiple rule sets for one variable, you must apply each rule set to multiple report suites.
 
@@ -50,8 +52,6 @@ The following fields and options are available on the [!UICONTROL Classification
 Name the classification rule set, apply the variable, and specify overwrite settings.
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-
-   (See [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in Admin Tools help on adding classifications.)
 
    Variables will display in the [!UICONTROL New Rule Set] panel only after they have at least one classification defined for that variable.
 

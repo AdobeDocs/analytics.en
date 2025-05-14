@@ -11,7 +11,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Create Audience"
->abstract="Audiences can be created from a filter and shared with the Adobe Experience Platform for activation."
+>abstract="Audiences can be created from a segment and shared with the Adobe Experience Platform for activation."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -20,7 +20,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Data preview"
->abstract="Compares the data of this filter with data of the data view. The preview percentage is based on the total number in the data view from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
+>abstract="Compares the data of this segment with data of the data view. The preview percentage is based on the total number in the data view from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
 
 <!-- markdownlint-enable MD034 -->
 

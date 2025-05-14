@@ -4,9 +4,9 @@ description: Frequently asked questions for using classifications.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 ---
-# Classifications FAQ
+# Classification importer FAQ
 
-Frequently asked questions for using classifications.
+Frequently asked questions for using the classification importer.
 
 ## How do I classify the dimension item "0"?
 
@@ -29,7 +29,7 @@ Yes, *however doing so counts each dimension item as a billable server call.*
 
 ## How do I classify values that contain special characters?
 
-Using leading and trailing blank spaces in either classification data and hit data is not supported because Adobe Analytics will truncate the blank characters from these data.
+Using leading and trailing blank spaces in either classification data and hit data is not supported because Adobe Analytics automatically truncates blank characters.
   
 Using special characters such as commas or double quotes in reporting is typically not recommended. However, in some cases their use is necessary. If your reporting values contain such characters that you choose to classify, use the following steps:
 
@@ -43,3 +43,17 @@ Using special characters such as commas or double quotes in reporting is typical
 ## What are Numeric 2 classifications?
 
 Numeric 2 classifications let you classify dimension items as time-based metrics. They were retired from the Adobe Analytics UI in July 2019.
+
+## How can I escape data in a classification file?
+
+Surround the field containing special characters in double quotes (`"`). A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). For example:
+
+```
+My String "of data"
+```
+
+Escaped would be:
+
+```
+"My String ""of data"""
+```

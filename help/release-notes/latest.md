@@ -4,38 +4,42 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (April 2025 release)
+# Current Adobe Analytics release notes (May 2025 release)
 
-**Last update**: April 16, 2025
+**Last update**: May 14, 2025
 
-These release notes cover the release period of March 26 through May 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of April xx through June 18, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics inventory** | Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. By automating the inventory process, you can quickly understand the effort needed to switch from Adobe Analytics to Customer Journey Analytics. This will make the transition easier and faster. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)|  | March 26, 2025 |
-| **Data Warehouse-only dimensions** | Based on customer feedback, we have decided to re-evaluate. We will not release the automatic Data Warehouse-only dimensions feature as previously announced. | | TBD |
+| **Analysis Workspace left panel no longer opens and closes on hover** | The left panel in Analysis Workspace is used to add things like components, panels, and visualizations to your project. The option to temporarily open the left panel by hovering over one of the icons on the far left is no longer available. Instead, simply click one of these icons to keep the panel open, then click the same icon to close it. |  | May 29, 2025  |
+
 
 ## Fixes in Adobe Analytics
 
-**A4T**: AN-370625; AN-371279; AN-371351
-**Admin Tools**: AN-365072; AN-371303
-**Analysis Workspace**: AN-363831; AN-369554
-**Classifications**: AN-370519; AN-370727; AN-370827; AN-370941; AN-370995; AN-371377; AN-371597; AN-371868; AN-371869; AN-372510; AN-372650; AN-373164; AN-373300; AN-373308; AN-373592
-**Data collection**: AN-371877
-**Data feeds**: AN-368676; AN-370225; AN-370514; AN-370521; AN-370687; AN-370761; AN-370911; AN-371047; AN-371542; AN-371627; AN-371746; AN-372708; AN-373068; AN-373179
-**Data Warehouse**: AN-366649; AN-369817; AN-370705; AN-371127; AN-371995; AN-372596; AN-372940
-**Marketing Channels**: AN-372308
-**Mobile app**: AN-370287; AN-371335; AN-371374
-**Platform**: AN-369510; AN-370435; AN-372150
-**Report Builder**: AN-369830; AN-371395; AN-372983
+**Alerts**: AN-378351
+**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467; AN-377942
+**Asset transfer**: AN-373381 
+**Classifications**: AN-373166; AN-373479; AN-376074; AN-377337; AN-377505
+**Components**: AN-314468
+**Data feeds**: AN-370241; AN-375267; AN-376940
+**Data Sources**: AN-375259
+**Data Warehouse**: AN-370415; AN-372090; 
+**Platform**: AN-365681; AN-372306; AN-372616; 
+**Real-time reporting**: AN-365681
+**Report Builder**: AN-371395
+**Segmentation**: AN-373576; AN-375858
+**Virtual report suites**: AN-377948; AN-377952
+**Vista rules**: AN-373292
 
 ## Important notices for Adobe Analytics administrators {#admin}
 
 | Notice | Date Added or Updated  | Description |
 | ----------- | ---------- | ---------- |
-| N/A |  |  |
+| **Analysis Workspace left panel no longer opens and closes on hover** | The left panel in Analysis Workspace is used to add things like components, panels, and visualizations to your project. The option to temporarily open the left panel by hovering over one of the icons on the far left is no longer available. Instead, simply click one of these icons to keep the panel open, then click the same icon to close it. |  | May 29, 2025 |
+
 
 ## End-of-life (EOL) notices {#eol}
 

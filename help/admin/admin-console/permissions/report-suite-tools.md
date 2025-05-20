@@ -7,7 +7,7 @@ role: Admin
 ---
 # Product profile permissions for Report Suite Tools
 
-This table lists all permissions items under Report Suite Tools when configuring a product profile in the Adobe Admin Console. These permission items only apply to the report suites included in that same product profile. If the product profile does not contain any report suites, or if report suites sit in a different product profile, then including these permissions do nothing.
+This table lists all permissions items under Report Suite Tools when configuring a product profile in the Adobe Admin Console. These permission items only apply to the report suites included in that same product profile. If the current product profile does not contain any report suites, then including these permissions do nothing.
 
 | Report Suite Tools Permission Item | Description |
 |------|------|
@@ -15,7 +15,7 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL Advertising Analytics Configuration] | Lets users configure report suites to be provisioned for Advertising Analytics. |
 | [!UICONTROL Anomaly Detection] | Grants access to Anomaly Detection in Analysis Workspace. |
 | [!UICONTROL Bot Pages] | Not used |
-| [!UICONTROL Bots] | Grants access to Audience > Bots in Adobe templates. |
+| [!UICONTROL Bots] | Not used |
 | [!UICONTROL Channels]| Grants access to Marketing Channels, including Marketing Channel Manager, Marketing Channel Processing Rules, and Marketing Channel Expiration in the Report Suite Manager. |
 | [!UICONTROL Channel Report] | Not used | 
 | [!UICONTROL Classifications] | Grants access to all classification settings in the Report Suite Manager. This permission item includes: <br>Traffic > Traffic Classifications<br>Conversion > Conversion Classifications<br>Conversion > Classification Hierarchies<br>Marketing Channels > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe Classifications |
@@ -41,7 +41,7 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL Reporting Activity Manager Admins] | Not used |
 | [!UICONTROL Reporting Activity Manager Access] | Not used |
 | [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager, but does not allow any changes. |
-| [!UICONTROL Return Visits] | Grants access to Audience > Visitor retention > Return visits in Adobe templates. |
+| [!UICONTROL Return Visits] | Not used |
 | [!UICONTROL R&A Dashboard Company Summary Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard External Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard Image Reportlet] | Not used |
@@ -49,7 +49,7 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL R&A Dashboard Report Suite Summary Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard Test Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard Usage Summary Reportlet] | Not used |
-| [!UICONTROL Success Events]| Grants access to Conversion > Success Events in the Report Suite Manager. |
+| [!UICONTROL Success Events] | Grants access to Conversion > Success Events in the Report Suite Manager. |
 | [!UICONTROL Traffic Management] | Not used |
 | [!UICONTROL Traffic Variables] | Grants access to Traffic > Traffic Variables in the Report Suite Manager. |
 | [!UICONTROL Unique Visitor ]| Grants access to Conversion > Unique Visitor Variable. Not typically used in modern implementations. |

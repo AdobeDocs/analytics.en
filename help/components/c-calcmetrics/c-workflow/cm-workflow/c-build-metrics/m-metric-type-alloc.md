@@ -13,124 +13,102 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 >title="Use non-default attribution model"
 >abstract="Enable a non-default attribution model for the selected metric."
 
-<!-- markdownlint-enable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attributionmodel"
+>title="Model"
+>abstract="Select an attribution model for the metric."
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Use non-default attribution model"
+>abstract="Enable a non-default attribution model for the selected metric."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Model"
 >abstract="Select an attribution model for the metric."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Last Touch"
 >abstract="100% of credit goes to the last dimension value seen by a visitor."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="First Touch"
 >abstract="100% of credit goes to the first dimension value seen by a visitor."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Linear"
 >abstract="Credit is spread evenly across all dimension values."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Participation"
 >abstract="100% credit to every dimension value seen by a visitor.<br/>Column totals are overstated."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Same Touch"
 >abstract="Credit is given only to dimension values occurring on the same event as conversion."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Same Touch"
+>abstract="Credit is given only to dimension values occurring on the same event as conversion."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U Shaped"
 >abstract="40% credit to the first dimension value, 40% to the last, 20% shared by the middle."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J Curve"
 >abstract="60% credit to the last dimension value, 20% to the first, 20% shared by the middle."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J Curve"
+>abstract="60% credit to the last dimension value, 20% to the first, 20% shared by the middle."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="Inverse J"
 >abstract="60% credit to the first dimension value, 20% to the last, 20% shared by the middle."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="Inverse J"
+>abstract="60% credit to the first dimension value, 20% to the last, 20% shared by the middle."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Time Decay"
 >abstract="Dimension values closest in time to a conversion get the most credit."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Custom"
 >abstract="Define your own position based attribution weighting."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Custom"
+>abstract="Define your own position based attribution weighting."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmic"
 >abstract="Credit is dynamically determined on a statistical algorithm."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Lookback window"
 >abstract="This setting determines the window of data attribution that will be applied for each conversion."
-
-<!-- markdownlint-enable MD034 -->
 
 When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 

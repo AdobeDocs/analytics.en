@@ -6,24 +6,6 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 ---
 # Metric type and attribution {#metric-type-attribution}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Use non-default attribution model"
->abstract="Enable a non-default attribution model for the selected metric."
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_attributionmodel"
->title="Model"
->abstract="Select an attribution model for the metric."
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Use non-default attribution model"
->abstract="Enable a non-default attribution model for the selected metric."
-
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Model"
@@ -103,6 +85,12 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmic"
 >abstract="Credit is dynamically determined on a statistical algorithm."
+
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Container"
+>abstract="Select a container to set the desired scope for the attribution."
 
 
 >[!CONTEXTUALHELP]

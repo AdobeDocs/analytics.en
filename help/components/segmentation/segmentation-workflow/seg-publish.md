@@ -4,7 +4,7 @@ title: Publish Segments to Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
-# Publish segments to Experience Cloud
+# Publish segments to Experience Cloud {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"

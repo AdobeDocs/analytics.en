@@ -7,7 +7,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 # Segment Builder {#segment-builder}
 
 >[!CONTEXTUALHELP]
->id="components_segment_productcompatibility"
+>id="components_segments_productcompatibility"
 >title="Product Compatibility"
 >abstract="A small number of available segment criteria are not compatible with all Adobe Analytics tools. Tools that are compatible with the segment are indicated in this list. To make a segment compatible with all Adobe Analytics tools, edit your criteria."
 

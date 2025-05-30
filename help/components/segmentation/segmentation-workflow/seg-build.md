@@ -6,6 +6,11 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
 # Segment Builder {#segment-builder}
 
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Product Compatibility"
+>abstract="A small number of available segment criteria are not compatible with all Adobe Analytics tools. Tools that are compatible with the segment are indicated in this list. To make a segment compatible with all Adobe Analytics tools, edit your criteria."
+
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
@@ -38,7 +43,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instance"
->abstract="Includes instances and persisted values for the dimension."
+>abstract="Includes instances for the dimension."
 
 <!-- markdownlint-enable MD034 -->
 

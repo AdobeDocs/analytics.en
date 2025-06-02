@@ -1,14 +1,14 @@
 ---
-description: Here are instructions on helping you to locate your account IDs for Google and Bing.
+description: Instructions to help locate your account IDs for Google Adwords and Microsoft Advertising.
 title: Locate your account IDs
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 ---
 # Locate your account IDs
 
-Here are instructions on helping you to locate your account IDs for Google and Bing.
+Learn how to locate your account IDs for Google Adwords and Microsoft Advertising.
 
-## Google Ads (AdWords) {#section_2A62AD448BD949889DB77C2AF3E04C33}
+## Google Ads (AdWords)
 
 >[!IMPORTANT]
 >
@@ -23,16 +23,25 @@ Click the Account icon on the top right to view the AdWords account number (Cust
 
 ![Google Ads Manager Account](assets/google-account.png)
 
-## Microsoft Advertising (Bing) {#section_F1B9C7E997444746936599732CD62665}
+## Microsoft Advertising (Bing)
 
 >[!NOTE]
 >
->If your Microsoft Advertising (formerly known as Bing) account is using the Google import feature, be sure to update the correct tracking string. The tracking string is not automatically updated from the Google version to the correct Bing tracking string and may result in unspecified data. More details on the feature can be found [here](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>If your Microsoft Advertising (formerly known as Bing) account uses the Google import feature, be sure to update the correct tracking string. The tracking string is not automatically updated from the Google version to the correct Microsoft Advertising tracking string and can result in unspecified data. See [What gets imported from Google Ads](https://help.ads.microsoft.com/apex/index/3/en/50851/) in Microsoft Advertising help for more information.
 
-The **[!UICONTROL Account ID]** and **[!UICONTROL Account Number]** are both required. They are listed on the **[!UICONTROL Accounts settings]** tab within **[!UICONTROL Settings]**.
+The **[!UICONTROL Account ID]** and **[!UICONTROL Manager account ID]** are both required.
 
->[!NOTE]
->
->The Account Number is not the same as the Account ID.
+* The **[!UICONTROL Account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** > **[!UICONTROL Account ID]**. Make sure that you use [!UICONTROL Account ID] and NOT [!UICONTROL Account number].
+* The **[!UICONTROL Manager account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Manager account settings]** > **[!UICONTROL Manager account ID]**. Make sure that you use [!UICONTROL Manager account ID] and NOT [!UICONTROL Manager account number].
 
-![Microsoft Advertising](assets/bing-id.png)
+![Microsoft Advertising navigation](assets/bing-id.png)
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_account_id
+>title="Account ID"
+>abstract="The 'Account ID' is a numeric value located in the Microsoft Advertising interface. You can locate it by navigating to Settings > Account settings > Account ID.
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_manager_account_id
+>title="Manager account ID"
+>abstract="The 'Manager account ID' is a numeric value located in the Microsoft Advertising interface. You can locate it by navigating to Settings > Manager account settings > Manager account ID.

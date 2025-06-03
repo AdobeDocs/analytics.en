@@ -4,11 +4,11 @@ title: Locate your account IDs
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 ---
-# Locate your account IDs
+# Locate your account IDs {#locate-your-account-ids}
 
 Learn how to locate your account IDs for Google Ads and Microsoft Advertising.
 
-## Google Ads (AdWords)
+## Google Ads (AdWords) {#google}
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Click the Account icon on the top right to view the Google Ads account number (C
 
 ![Google Ads Manager Account](assets/google-account.png)
 
-## Microsoft Advertising (Bing)
+## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ The **[!UICONTROL Account ID]** and **[!UICONTROL Manager account ID]** are both
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="Account ID"
->abstract="The 'Account ID' is a numeric value located in the Microsoft Advertising interface. You can locate it by navigating to Settings > Account settings > Account ID.
+>abstract="The 'Account ID' is a numeric value located in the Microsoft Advertising interface. You can locate it by navigating to Settings > Account settings > Account ID."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"

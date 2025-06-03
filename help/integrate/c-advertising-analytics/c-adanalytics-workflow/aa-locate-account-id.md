@@ -31,8 +31,8 @@ Click the Account icon on the top right to view the Google Ads account number (C
 
 The **[!UICONTROL Account ID]** and **[!UICONTROL Manager account ID]** are both required.
 
-* The **[!UICONTROL Account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** > **[!UICONTROL Account ID]**. Make sure that you use [!UICONTROL Account ID] and NOT [!UICONTROL Account number].
-* The **[!UICONTROL Manager account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Manager account settings]** > **[!UICONTROL Manager account ID]**. Make sure that you use [!UICONTROL Manager account ID] and NOT [!UICONTROL Manager account number].
+- The **[!UICONTROL Account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** > **[!UICONTROL Account ID]**. Make sure that you use [!UICONTROL Account ID] and NOT [!UICONTROL Account number].
+- The **[!UICONTROL Manager account ID]** is located under **[!UICONTROL Settings]** > **[!UICONTROL Manager account settings]** > **[!UICONTROL Manager account ID]**. Make sure that you use [!UICONTROL Manager account ID] and NOT [!UICONTROL Manager account number].
 
 ![Microsoft Advertising navigation](assets/bing-id.png)
 

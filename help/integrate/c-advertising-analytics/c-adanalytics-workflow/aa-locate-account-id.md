@@ -1,25 +1,25 @@
 ---
-description: Instructions to help locate your account IDs for Google Adwords and Microsoft Advertising.
+description: Instructions to help locate your account IDs for Google Ads and Microsoft Advertising.
 title: Locate your account IDs
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 ---
 # Locate your account IDs
 
-Learn how to locate your account IDs for Google Adwords and Microsoft Advertising.
+Learn how to locate your account IDs for Google Ads and Microsoft Advertising.
 
 ## Google Ads (AdWords)
 
 >[!IMPORTANT]
 >
->Google AdWords uses two types of accounts: 
+>Google Ads uses two types of accounts: 
 >
 >- MCC (My Client Center) Account, and 
 >- Standard Account. 
 >
->For this integration with Adobe Analytics, **you must use a Standard Account login**, not an MCC Account login. The reason is that an MCC account acts as an "umbrella" account that can access multiple AdWords accounts with a single login, whereas the Standard account login can access only one AdWords account per login. Whereas Google supports linking one email to manage 5 Accounts, Advertising Analytics doesn't support this feature yet. One email can be linked with one Adwords account only.
+>For this integration with Adobe Analytics, **you must use a Standard Account login**, not an MCC Account login. The reason is that an MCC account acts as an "umbrella" account that can access multiple Google Ads accounts with a single login, whereas the Standard account login can access only one account per login. While Google supports linking one email to manage 5 accounts, Advertising Analytics doesn't support this feature yet. One email can be linked with only one Google Ads account.
 
-Click the Account icon on the top right to view the AdWords account number (Customer ID).
+Click the Account icon on the top right to view the Google Ads account number (Customer ID).
 
 ![Google Ads Manager Account](assets/google-account.png)
 

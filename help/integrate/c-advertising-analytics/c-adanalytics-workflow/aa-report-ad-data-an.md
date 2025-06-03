@@ -24,19 +24,19 @@ This report lets anyone who implements search engine integration get access to s
 
 | Table/Visualization | Description |
 |--- |--- |
-|Advertising Trends|Daily trended overview for AMO Impressions, AMO Clicks, and AMO Cost.|
-|Ad Platforms| Donut chart for cost of top 2 platforms (Google, Bing).|
-|Ad Platform Totals| Freeform table of the top platforms broken down by AMO Impressions, AMO Clicks, AMO Costs, AMO Avg. Position, AMO Avg. Quality Score.|
-|Accounts|Stacked area of cost.|
-|Account Totals|Freeform table of the top accounts broken down by the associated metrics.|
-|Campaigns|Bar chart of campaign cost.|
-|Campaign Totals|Freeform table of the top campaigns broken down by the associated metrics.|
-|Groups|Tree map of cost.|
-|Group Totals|Freeform table of the top advertising groups broken down by the associated metrics.|
-|Ads|Horizontal bar chart of impressions, clicks, and cost.|
-|Ad Totals|Freeform table of the top ads broken down by the associated metrics.|
-|Keywords|Scatter chart of impressions, clicks, and cost for all keyword/match type combinations.|
-|Keyword Totals|Freeform table of the top keyword/match type combinations broken down by the associated metrics.|
+| Advertising Trends | Daily trended overview for AMO Impressions, AMO Clicks, and AMO Cost. |
+| Ad Platforms | Donut chart for cost of top 2 platforms (Google Ads, Microsoft Advertising). |
+| Ad Platform Totals | Freeform table of the top platforms broken down by AMO Impressions, AMO Clicks, AMO Costs, AMO Avg. Position, AMO Avg. Quality Score. |
+| Accounts | Stacked area of cost. |
+| Account Totals | Freeform table of the top accounts broken down by the associated metrics. |
+| Campaigns | Bar chart of campaign cost. |
+| Campaign Totals | Freeform table of the top campaigns broken down by the associated metrics. |
+| Groups | Tree map of cost. |
+| Group Totals | Freeform table of the top advertising groups broken down by the associated metrics. |
+| Ads | Horizontal bar chart of impressions, clicks, and cost. |
+| Ad Totals | Freeform table of the top ads broken down by the associated metrics. |
+| Keywords | Scatter chart of impressions, clicks, and cost for all keyword/match type combinations. |
+| Keyword Totals | Freeform table of the top keyword/match type combinations broken down by the associated metrics. |
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

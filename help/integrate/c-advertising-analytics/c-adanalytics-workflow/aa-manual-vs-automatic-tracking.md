@@ -86,9 +86,9 @@ To ensure that the string persists through the redirect to the final landing pag
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Add Manual tracking to Bing Account {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Add Manual tracking to Microsoft Advertising account {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-The string that needs to be added to your Bing account is shown below. You need to add the string to all the final URL suffixes used throughout your account.
+The string that needs to be added to your Microsoft Advertising account is shown below. You need to add the string to all the final URL suffixes used throughout your account.
 
 >[!IMPORTANT]
 >
@@ -100,7 +100,7 @@ The string that needs to be added to your Bing account is shown below. You need 
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![Add tracking code parameters](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Examples of tracking codes in various final URL suffix formats: 
 

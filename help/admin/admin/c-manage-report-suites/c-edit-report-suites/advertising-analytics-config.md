@@ -6,7 +6,7 @@ exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
 ---
 # Configure Advertising Analytics
 
-You can configure Adobe Analytics to show all your Google and Bing Paid Search data side by side. 
+You can configure Adobe Analytics to show all your Google Ads and Microsoft Advertising paid search data side by side. 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**
 

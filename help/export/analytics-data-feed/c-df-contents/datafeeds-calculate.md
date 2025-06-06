@@ -11,7 +11,11 @@ Describes how to calculate common metrics using data feeds.
 
 >[!NOTE]
 >
->Hits normally excluded from Adobe Analytics are included in data feeds. Use `exclude_hit = 0` to remove excluded hits from queries on raw data. Data sourced data are also included in data feeds. If you want to exclude data sources, exclude all rows with `hit_source = 5,7,8,9`.
+>Hits normally excluded from Analysis Workspace are included in data feeds. Consider adding the following conditions to your queries if they are relevant:
+>
+>* **`exclude_hit`**: Analysis Workspace only includes data where `exclude_hit = 0`.
+>* **`customer_perspective`**: Analysis Workspace only includes data where `customer_perspective = 0`, unless you use a virtual report suite that includes mobile background hits.
+>* **`hit_source`**: Data from data sources might contain differences between raw data and Analysis Workspace. If you want to exclude hits from data sources, exclude all rows where `hit_source = 5,7,8,9`.
 
 ## Page views
 

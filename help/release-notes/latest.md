@@ -21,20 +21,21 @@ These release notes cover the release period of June xx through July 18, 2025. A
 
 ## Fixes in Adobe Analytics
 
-**Alerts**: 
-**Analysis Workspace**: 
+**A4T**: AN-379045
+**Alerts**: AN-377229
+**Analysis Workspace**: AN-379589; AN-379604; AN-382264; AN-382414; 
+**API 2.0**: AN-373078; AN-379006; AN-381248
 **Asset transfer**: 
-**Classifications**: 
+**Classifications**: AN-379209; AN-379315; AN-379567; AN-379573; AN-379749; AN-379764; AN-379818; AN-380433; AN-381670; AN-381751; AN-381994; AN-382055
 **Components**: 
-**Data feeds**: 
+**Data feeds**: AN-365552; AN-367158; AN-378288; AN-379754; AN-380433; AN-380855; AN-380959; AN-381115; AN-381657; AN-381931
 **Data Sources**: 
-**Data Warehouse**: 
-**Platform**:  
+**Data Warehouse**: AN-379244
+**Platform**: AN-375847
+**Processing rules**: AN-375157
 **Real-time reporting**: 
-**Report Builder**: 
-**Segmentation**: 
-**Virtual report suites**: 
-**Vista rules**: 
+**Report Builder**: AN-371395; AN-372174; AN-373815
+**Usage & Access Logs**: AN-372130
 
 
 ## End-of-life (EOL) notices {#eol}

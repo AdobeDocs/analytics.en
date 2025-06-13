@@ -71,7 +71,7 @@ There are several ways to access the Segment Builder:
 
 You can add rule definitions and containers to define your segments.
 
-![](assets/segment_builder_ui_2.png)
+![](assets/segment-builder-ui.png)
 
 1. **[!UICONTROL Title]**: Name the segment.
 1. **[!UICONTROL Description]**: Provide a description for the segment. 
@@ -123,7 +123,7 @@ You can add rule definitions and containers to define your segments.
 
 1. Simply drag a Dimension, Segment, or Metric Event from the left pane to the [!UICONTROL Definitions] field.
 
-   ![](assets/drag_n_drop_dimension.png)
+   ![](assets/drag-and-drop-dimension.gif)
 
    The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu.
 

@@ -12,7 +12,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 >abstract="You can publish the audience derived from this segment to the Audience Library where it can be used for marketing activities in Target and other Experience Cloud solutions."
 
 >[!CONTEXTUALHELP]
->id="components_segments_audienclibrary"
+>id="components_segments_audiencelibrary"
 >title="Audience Library"
 >abstract="Segments created in Audience Library are available instantly and are not dependent on Analytics updates."
 
@@ -44,7 +44,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
 * **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, go [here](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Segment publishing timeline
 
@@ -65,10 +65,10 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 1. Provide a title and a description for the segment. These fields are required before saving.
 1. In the **[!UICONTROL Experience Cloud publishing]** section, select the option, **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
->[!IMPORTANT]
->Make sure that you use "Visitors with Experience Cloud ID" when looking at segment previews in Analytics instead of the total "unique visitors" segment preview when comparing Adobe Analytics numbers to Audience Manager numbers:
->
->![Segment visitors with ECID](assets/seg-vis-ecid.png)
+   >[!IMPORTANT]
+   >
+   >Make sure that you monitor **[!UICONTROL Visitors with Experience Cloud ID]** in the **[!UICONTROL Data Preview]** instead of the **[!UICONTROL Unique Visitors]**  when you compare Adobe Analytics numbers to Audience Manager numbers.
+   >
 
 |  Element | Description |
 |---|---|
@@ -112,30 +112,28 @@ The following screenshots show you how to retrieve the Adobe Audience Manager UU
 1. Download and install [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) in the Chrome Web Store.
 1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the Adobe Audience Manager UUID set on the current browser page
-(`50814298273775797762943354787774730612` in the example below)
+(`35721780439475290181087231320657663953` in the example below)
 
-![Debugger](assets/debugger.jpg)
+   ![Debugger](assets/aepdebugger.png)
 
 ### Method 2: Use Chrome Developer Tools (or other browser developer tools)
 
 1. Launch Chrome Developer Tools before loading a page
 1. Load the page and check Applications > Cookies. The Adobe Audience Manager UUID should be set in the 3rd-party
 Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) in the example below). The field demdex is the Adobe Audience Manager UUID set
-on the browser (`50814298273775797762943354787774730612` in the example below).
+on the browser (`35721780439475290181087231320657663953` in the example below).
 
-![Chrome Developer Tools](assets/ggogle-uuid.png)
+   ![Chrome Developer Tools](assets/devtools.png)
 
 ## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
 
 The Adobe Audience Manager UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) for more information.
 
-![Audience Manager profile viewer](assets/aam-vpv.png)
-
 ## View the segment traits in [!DNL Audience Manager]
 
 In Adobe Audience Manager, the list of visitors with ECIDs for a given segment are evaluated in a streaming fashion as Analytics shares segments with Experience Cloud.
 
-1. In [!DNL Audience Manager], go to [!UICONTROL Audience Data > Traits > Analytics Traits]. You will see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
+1. In [!DNL Audience Manager], go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You will see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
 1. Select the folder for the report suite in which you previously created the segment you wanted to share with [!DNL Audience Manager]. You will see the segment/audience you created. When you share a segment, 2 things happen in [!DNL Audience Manager]:
    * A trait gets created, first with no data in it. Approx. 8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with [!DNL Audience Manager] and other Experience Cloud solutions.
 
@@ -146,7 +144,11 @@ In Adobe Audience Manager, the list of visitors with ECIDs for a given segment a
 
 ## View the segment in [!DNL Adobe Target]
 
-The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
+The **[!UICONTROL Publish this segment to the Experience Cloud]** checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
 
-1. Click [!UICONTROL Audiences].
-1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
+In Adobe Target:
+
+1. Select **[!UICONTROL Audiences]**.
+1. On the **[!UICONTROL Audiences]** page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
+
+   ![Target audiences](assets/target-audiences.png)

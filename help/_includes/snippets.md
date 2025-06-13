@@ -147,3 +147,48 @@ Use the following information to choose the visualization that best meets your n
 | **Adobe Journey Optimizer journeys** | Yes</br>Open journeys from Journey Optimizer for deeper analysis and customization | No |  No |
 
 {style="table-layout:auto"}
+
+
+
+## Tag filter section {#tagfiltersection}
+
+| Tags   | Description |
+|---|---|
+| ![Tags](/help/assets/filter-tag.png){width="300"} | The **[!UICONTROL Tags]** section lets you filter on tags. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Tags* to search for tags you can use to filter.</li><li>You can select more than one tag. The tags available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(1)**: The number of selected tags (if one or more tags are selected).</li><li>**2︎⃣**: The number of tags available for the items resulting from the current filter.</li><li>7︎⃣: The number of items associated with the specific tag.</li></ul></li></ul> |
+
+
+## Report suite filter section {#reportsuitefiltersection}
+
+| Report  suite | Description |
+|---|---|
+| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | The **[!UICONTROL Data view]** section lets you filter on data views. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Data views* to search for data views you can use to filter.</li><li>You can select more than one data view. The data views available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected data views (if one or more data views are selected).</li><li>**3︎⃣**: The number of data views available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific data view.</li></ul></li></ul> |
+
+## Enabled status filter section {#enabledstatusfiltersection}
+
+| Enabled status | Description |
+|---|---|
+| ![Enabled status](/help/assets/filter-enabledstatus.png){width="300"} | The **[!UICONTROL Enabled status]** section lets you filter on enabled status. <ul><li>You can select more than one status.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected statuses (if one or more statuses are selected).</li><li>**2︎⃣**: The number of statuses available for the items resulting from the current filter.</li><li>1︎⃣: The number of items associated with the specific status.</li></ul></li></ul> |
+
+## Type filter section {#typefiltersection}
+
+| Type | Description |
+|---|---|
+| ![Type](/help/assets/filter-type.png){width="300"} | The **[!UICONTROL Type]** section lets you filter on type. <ul><li>You can select more than one type.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected types (if one or more types are selected).</li><li>**1︎⃣**: The number of types available for the items resulting from the current filter.</li><li>3︎⃣: The number of items associated with the specific type.</li></ul></li></ul> |
+
+## Owner filter section {#ownerfiltersection}
+
+| Owner | Description |
+|---|---|
+| ![Owners](/help/assets/filter-owners.png){width="300"} | The **[!UICONTROL Owner]** section lets you filter on owners. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Owners* to search for owners you can use to filter.</li><li>You can select more than one owner. The owners available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected owners (if one or more owners are selected).</li><li>**3︎⃣**: The number of owners available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific owner.</li></ul></li></ul> |
+
+## Other filters filter section {#otherfiltersfiltersection} 
+
+| Other filters | Description |
+|---|---|
+| ![Other filters](/help/assets/filter-other.png){width="300"} | The **[!UICONTROL Other filters]** section lets you filter on other predefined filter.<ul><li>You can select one or more of the following options:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> What you can select depends on your role and permissions.</li><li>You can select more than one other filter. The other filters available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(1)**: The number of selected other filters (if one or more other filters are selected).</li><li>**5︎⃣**: The number of other filters available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific other filter.</li></ul></li></ul> |
+
+## Date range filter section  {#daterangefiltersection} 
+
+| Applied date range | Description |
+|---|---|
+| ![Date range](/help/assets/filter-daterange.png){width="300"} | The Applied date range section let you filter on a date range applicable to the items.<ol><li>Select a date range.</li><li>In the calendar popup define a date range, or select one of the available presets.<br>Alternatively, you can also specify a date range directly in the Date range section of the Filter panel.</li></ol><ul><li>The numbers indicate:<ul><li>**(1)**: The number of modified date ranges modified from default presets.</li><li>**5︎⃣**: The number of date ranges available for the items resulting from the current filter.</li></ul> |

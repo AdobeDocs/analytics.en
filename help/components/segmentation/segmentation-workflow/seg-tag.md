@@ -6,28 +6,78 @@ exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 ---
 # Tag segments
 
-In the Segment Manager, tagging segments allows you to organize them.
+In the [Segment manager](seg-manage.md), you can use tags to organize segments. Administrators can tag all segments. Non administroators can tags only the segments they create or have been shared with them.
 
-All users can create tags for segments and apply one or more tags to a segment. However, you can see tags only for those segments that you own or that have been shared with you. What kinds of tags should you create? Here are some suggestions for useful tags:
+To tag one or more segments:
 
-* Tags based on **team names**, such as Social Marketing, Mobile Marketing.
-* **Project** tags (analysis tags), such as Entry-page analysis.
-* **Category** tags: Men's; geography.
-* **Workflow** tags: To be approved; Curated for (a specific business unit)
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to tag.
+1. From the action bar, select ![Labels](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In the **[!UICONTROL Tag Segment]** dialog:
+   
+   ![Tag Segments dialog](assets/segments-tag.png)
 
-1. In the Segment Manager, mark the checkbox next to the segment you want to tag. The segment management tool bar appears:
+   1. (optionally) use ![Search](/help/assets/icons/Search.svg) to search for and limit the list of tags.
 
-   ![](assets/segment_mgmt_toolbar.png)
+   2. Based on the list of tags:
+   
+      * select one or more existing tags from the list, or
+      * enter a new tag and press **[!UICONTROL ENTER]**. Repeat to add more than one new tag.
 
-1. Click **[!UICONTROL Tag]** and either
+1. Select **[!UICONTROL Save]** to save the tags for the segment. Select **[!UICONTROL Cancel]** to cancel.
 
-    * select from existing tags, or 
-    * add a new tag and press **[!UICONTROL Enter]**.
+Once saved, the tags are listed in the [!UICONTROL Tag] field for the selected segments in the [Segment builder](seg-builder.md). 
 
-      ![](assets/tagging_ui.png)
 
-1. Click **[!UICONTROL Tag]** again to tag the segment.
+## Suggestions
 
-The tag should now appear in the Tags column. (Click the gear icon on the top right to manage your columns.)
+Below are some suggestions to organize tags based on:
 
-You can also filter on tags by going to **[!UICONTROL Filters]** > **[!UICONTROL Tags]**.
+* **Team**: For example, Social Marketing, Mobile Marketing.
+    
+* **Project**: For example, Entry-page analysis.
+    
+* **Category**:. For example, Men, Women, Kids.
+
+* **Geography**: For example: United States, California.
+    
+* **Workflow**: For example: To be approved,  Curated
+
+
+<!--
+In the [Segment manager](seg-manage.md), you can use tags to organize segments. Administrators can tag all segments. Non administroators can tags only the segments they create or have been shared with them.
+
+To tag one or more segments:
+
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to tag.
+1. From the action bar, select ![Labels](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In the **[!UICONTROL Tag Segments]** dialog:
+   
+   ![Tag Segments dialog](assets/tag-filter-dialog.png)
+
+   1. (optionally) use ![Search](/help/assets/icons/Search.svg) to search for and limit the list of tags.
+
+   2. Based on the list of tags:
+   
+      * select one or more existing tags from the list, or
+      * enter a new tag and press **[!UICONTROL ENTER]**. Repeat to add more than one new tag.
+
+1. Select **[!UICONTROL Save]** to save the tags for the segment. Select **[!UICONTROL Cancel]** to cancel.
+
+Once saved, the tags are listed in the [!UICONTROL Tag] field for the selected segments in the [Segment builder](seg-builder.md). 
+
+
+## Suggestions
+
+Below are some suggestions to organize tags based on:
+
+* **Team**: For example, Social Marketing, Mobile Marketing.
+    
+* **Project**: For example, Entry-page analysis.
+    
+* **Category**:. For example, Men, Women, Kids.
+
+* **Geography**: For example: United States, California.
+    
+* **Workflow**: For example: To be approved,  Curated
+
+-->

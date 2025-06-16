@@ -67,8 +67,8 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Understand and configure bot rules](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
           + [Common bot signatures](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
           + [Bot exclusion methods](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
-        + [Privacy Settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-        + [Timestamps Configuration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+        + [Privacy settings](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+        + [Timestamp configuration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-configuration.md)
         + Server-Side Forwarding {#server-side-forwarding}
           + [Server-side forwarding overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
           + [GDPR/ePrivacy compliance and server-side forwarding](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)

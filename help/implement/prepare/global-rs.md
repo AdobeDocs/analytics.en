@@ -38,7 +38,7 @@ Use the following general guidelines to understand the process of implementing a
    >Make sure that any given custom variable is used similarly across domains. Do not use the same eVar or event for different purposes across your sites.
 1. Make sure that each domain has a data layer to simplify data collection. Data can still be collected without a data layer, but the reliability and longevity of your implementation decreases, especially as your site goes through redesigns.
 1. Use tags in Adobe Experience Platform to implement Analytics. Different sites will likely require different data elements. Use rules specific to each domain to make sure each data element is correctly populated, then assign those data elements to their respective eVars and events. Refer to the [tags overview](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
-1. Include the [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) and use the [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) function. This function merges visitor data when users click from one domain to another.
+1. Include the [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) and use the [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) function. This function merges visitor data when users click from one domain to another.
 
 ## Modifying an existing implementation with a global report suite
 
@@ -49,7 +49,7 @@ The process of moving an existing implementation across multiple sites to a sing
 3. Follow the steps above (create a report suite, gather reporting requirements in a solution design document, and establish a data layer on each site). When implementing tags in Adobe Experience Platform, validate your implementation using a development version of your website.
 4. Once you have confirmed your implementation is working on dev, push your tags implementation live on the cutover date.
 
-## Related pages
-
-[Moving from multi-suite tagging to a global report suite and virtual report suites](../../components/vrs/vrs-considerations.md)
-[Comparing rollups and global report suites](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Moving from multi-suite tagging to a global report suite and virtual report suites](../../components/vrs/vrs-considerations.md)
+>[Comparing rollups and global report suites](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)

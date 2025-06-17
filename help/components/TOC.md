@@ -176,6 +176,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + Segmentation workflow {#segmentation-workflow}
     + [Segmentation workflow overview](segmentation/segmentation-workflow/seg-workflow.md)
     + [Plan segments](segmentation/segmentation-workflow/seg-plan.md)
+    + [Create semgnets](segmentation/segmentation-workflow/seg-create.md)
     + [Build segments](segmentation/segmentation-workflow/seg-build.md)
     + [Build sequential segments](segmentation/segmentation-workflow/seg-sequential-build.md)
     + [Tag segments](segmentation/segmentation-workflow/seg-tag.md)

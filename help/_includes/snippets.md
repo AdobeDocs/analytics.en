@@ -76,6 +76,13 @@ An attribution model determines which dimension items get credit for a metric wh
 
 {style="table-layout:auto"}
 
+## Attribution container {#attribution-container}
+
+An attribution container defines the desired scope for the attribution. Possible options are: 
+
+* **Visit**: Looks at conversions from the scope of the visit container.
+* **Visitor**: Looks at conversions from the scope of the visitor container.
+
 ## Atribution lookback window {#attribution-lookback-window}
 
 A lookback window is the amount of time a conversion should look back to include touch points. If a dimension item is set outside of the lookback window, the value is not included in any attribution calculations.
@@ -84,45 +91,26 @@ A lookback window is the amount of time a conversion should look back to include
 * **30 Days**: Looks back up to 30 days from when the conversion happened.
 * **60 Days**: Looks back up to 60 days from when the conversion happened.
 * **90 Days**: Looks back up to 90 days from when the conversion happened.
-* **Visit**: Looks back up to the beginning of the visit where a conversion happened.
-* **Visitor (Reporting Window)**: Looks at all visits back up to the first of the month of the current date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30. If you use this lookback window, you can occasionally see that dimension items are attributed to dates outside of your reporting window.
 * **Custom Time:** Allows you to set a custom lookback window from when a conversion happened. You can specify the number of minutes, hours, days, weeks, months, or quarters. For example, if a conversion happened on February 20, a lookback window of five days would evaluate all dimension touchpoints from February 15 to February 20 in the attribution model.
 
 ## Attribution example {#attribution-example}
 
 Consider the following example:
 
-1. On September 15, a person arrives to your site through a paid search advertisement, then leaves.
-1. On September 18, the person arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
+1. On September 15, a visitor arrives to your site through a paid search advertisement, then leaves.
+1. On September 18, the visitor arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
 1. On September 24, your marketing team sends them an email with a coupon for some of the items in their cart. They apply the coupon, but visit several other sites to see if any other coupons are available. They find another through a display ad, then ultimately make a purchase for $50.
 
-Depending on your lookback window and attribution model, channels receive different credit. The following are some examples:
+Depending on your attribution model, container and channels receive different credit. See table below for examples:
 
-* Using **first touch** and a **session lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
-
-* Using **first touch** and a **person lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
-
-* Using **linear** and a **session lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
-Using **linear** and a **person lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
-
-* Using **J-shaped** and a **person lookback window**, credit is divided between paid search, social, email, and display.
-
-  * 60% credit is given to display, for $30.
-  * 20% credit is given to paid search, for $10.
-  * The remaining 20% is divided between social and email, giving $5 to each.
-
-* Using **Time Decay** and a **person lookback window**, credit is divided between paid search, social, email, and display. Using the default 7-day half-life:
-
-  * Gap of zero days between display touch point and conversion. `2^(-0/7) = 1`
-  * Gap of zero days between email touch point and conversion. `2^(-0/7) = 1`
-  * Gap of six days between social touch point and conversion. `2^(-6/7) = 0.552`
-  * Gap of nine days between paid search touch point and conversion. `2^(-9/7) = 0.41`
-  * Normalizing these values results in the following:
-  
-      * Display: 33.8%, getting $16.88
-      * Email: 33.8% getting $16.88
-      * Social: 18.6%, getting $9.32
-      * Paid Search: 13.8%, getting $6.92
+| Model | Container | Lookback window | Explanation |
+|---|---|---|---|
+| First touch | Visit | 30 Days | Attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase. | 
+| First touch | Visitor | 30 Days | Attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase. |
+| Linear | Visit | 30 Days | Credit is divided between email and display. Both of these channels each get $25 credit. |
+| Linear | Visitor | 30 Days | Credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase. |
+| J-shaped | Visitor | 30 Days | Credit is divided between paid search, social, email, and display.<ul><li>60% credit is given to display, for $30.</li><li>20% credit is given to paid search, for $10.</li><li>The remaining 20% is divided between social and email, giving $5 to each.</li></ul> |
+| Time Decay | Visitor | 30 Days | <ul><li>Gap of zero days between display touch point and conversion. `2^(-0/7) = 1`</li><li>Gap of zero days between email touch point and conversion. `2^(-0/7) = 1`</li><li>Gap of six days between social touch point and conversion. `2^(-6/7) = 0.552`</li><li>Gap of nine days between paid search touch point and conversion. `2^(-9/7) = 0.41`</li>Normalizing these values results in the following:<ul><li>Display: 33.8%, getting $16.88</li><li>Email: 33.8% getting $16.88</li><li>Social: 18.6%, getting $9.32</li><li>Paid Search: 13.8%, getting $6.92</li></ul></li></ul> |
 
 Conversion events that typically have whole numbers are divided if credit belongs to more than one channel. For example, if two channels contribute to an order using a Linear attribution model, both channels get 0.5 of that order. These partial metrics are summed across all people then rounded to the nearest integer for reporting.
 

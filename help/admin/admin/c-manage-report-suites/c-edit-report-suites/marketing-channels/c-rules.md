@@ -76,7 +76,7 @@ This reference table defines the fields, options, and hit attributes you can use
 |Referrer Matches Internal URL Filters|A visit whose page URL matches an internal URL filter, as defined for the report suite in Admin Tools.|
 |Referrer Does Not Match Internal URL Filters|The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with  Page URL  and  Exists  to set up a catch-all rule, so that no visits land in the  No Channel Identified  section of the report.|
 |Ignore hits matching internal URL filters|(For referrers) Tracks only hits coming from externally referred sites. Typically, leave this setting enabled unless you want to include internal traffic.|
-|Is First Page of Visit|The first page of a visit detected by Adobe reporting.|
+|Is First Hit of Visit|The first hit of a visit detected by Adobe reporting.|
 |Page| The [Page](/help/components/dimensions/page.md) dimension. |
 |Page Domain|The domain of the page on which the visitor lands, such as `products.example.com`.|
 |Page Domain and Path|The domain and path, such as `products.example.com/mens/pants/overview.html` .|

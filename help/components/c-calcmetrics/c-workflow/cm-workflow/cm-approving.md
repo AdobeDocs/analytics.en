@@ -6,28 +6,18 @@ exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
 ---
 # Approve calculated metrics
 
-In the Calculated metrics manager, administrators can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
+In the [Calculated metrics manager](cm-manager.md), you can approve and unapprove calculated metrics. Only administrators can approve calculated metrics.
 
->[!NOTE]
->
->Administrators can also approve calculated metrics (and other components) from the Data Dictionary, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). 
->
->Any calculated metrics that are approved in the Data Dictionary are reflected in the Calculated metrics manager. Similarly, metrics that are approved in the Calculated metrics manager are reflected in the Data Dictionary.
+To approve calculated metrics:
 
-To mark calculated metrics as approved:
+1. In the [Calculated metrics manager](cm-manager.md), select one or more of the calculated metrics you want to approve.
+1. From the action bar, select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. The approved calculated metrics are indicated with ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
+   
+To unapprove calculated metrics:
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
+1. In the [Calculated metrics manager](cm-approving.md), select one or more of the calculated metrics you want to unapprove.
+1. From the action bar, select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
+   
 
-1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to mark as approved.
+You can filter your list of calculated metrics by approved calculated metrics. Select **[!UICONTROL Other filters]** from the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** panel and select **[!UICONTROL Approved]**. See [Filter the list of calculated metrics](/help/components/calc-metrics/cm-workflow/cm-filter.md) for more information.
 
-1. Select **[!UICONTROL Approve]** in the management task at the top of the page.
-
-    To remove a metric from the list of approved metrics, select **[!UICONTROL Unapprove]**.
-
-1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
-
-1. Select **[!UICONTROL OK]**.
-
-    Notice the approval icon next to the calculated metric in the list:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
-
-1. (Optional) To filter the list of calculated metrics in the Calculated metrics manager to show only approved metrics, select the **Filter** icon, expand **[!UICONTROL Other filters]**, then select **[!UICONTROL Approved]**.

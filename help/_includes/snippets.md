@@ -149,7 +149,7 @@ Use the following information to choose the visualization that best meets your n
 
 | Report  suite | Description |
 |---|---|
-| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | The **[!UICONTROL Data view]** section lets you filter on data views. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Data views* to search for data views you can use to filter.</li><li>You can select more than one data view. The data views available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected data views (if one or more data views are selected).</li><li>**3︎⃣**: The number of data views available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific data view.</li></ul></li></ul> |
+| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | The **[!UICONTROL Report suite]** section lets you filter on report uites. <ul><li>You can ![Search](/help/assets/icons/Search.svg) *Search Report suites* to search for report suites you can use to filter.</li><li>You can select more than one report suite. The report suites available depend on selections made in other sections in the filter panel.</li><li>The numbers indicate:<ul><li>**(2)**: The number of selected report suites (if one or more report suites are selected).</li><li>**3︎⃣**: The number of report suites available for the items resulting from the current filter.</li><li>4︎⃣: The number of items associated with the specific report suite.</li></ul></li></ul> |
 
 ## Enabled status filter section {#enabledstatusfiltersection}
 

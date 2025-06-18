@@ -13,8 +13,6 @@ Classifications are used to categorize values into groups and report at the grou
 
 Conversion classifications let you classify conversion variables. Once classified, any report that you can generate using the key data can also be generated using the associated data properties.
 
-After enabling classifications, use the [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) to assign specific values to the appropriate classification.
-
 >[!WARNING]
 >
 >Renaming a classification can cause issues with existing rules created in the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md). If you rename a classification that has classification rules, make sure that you correct each rule so it points to the renamed classification.
@@ -40,9 +38,6 @@ To add conversion classifications in Admin:
    ![Step Info](/help/admin/admin/assets/sub_class_create.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
-1. In the **[!UICONTROL Select Type]** field, select the type of classification you want to add to the variable.
-
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/classifications/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
 1. Add or remove options in the drop-down list dialog box.

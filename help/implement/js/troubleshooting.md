@@ -104,4 +104,4 @@ Implementations that populate many variables with long values can sometimes run 
   s.prop2 = "D=v1";
   ```
 
-* **Use classifications**: If product or page names are unusually long, you can use an identifying value or code, then use [classifications](/help/components/classifications/c-classifications.md) to display a more friendly name.
+* **Use classifications**: If product or page names are unusually long, you can use an identifying value or code, then use [classifications](/help/components/classifications/classifications-overview.md) to display a more friendly name.

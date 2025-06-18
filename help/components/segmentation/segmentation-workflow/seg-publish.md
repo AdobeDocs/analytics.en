@@ -4,7 +4,18 @@ title: Publish Segments to Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
-# Publish segments to Experience Cloud
+# Publish segments to Experience Cloud {#publish-segments}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud publishing"
+>abstract="You can publish the audience derived from this segment to the Audience Library where it can be used for marketing activities in Target and other Experience Cloud solutions."
+
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="Audience Library"
+>abstract="Segments created in Audience Library are available instantly and are not dependent on Analytics updates."
+
 
 Publishing an Adobe Analytics segment to Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including Adobe's [!DNL Advertising Cloud], [!DNL Target], and [!DNL Campaign]. 
 

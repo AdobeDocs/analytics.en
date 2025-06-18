@@ -4,11 +4,11 @@ title: FTP import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 ---
-# FTP import
+# FTP import (legacy)
 
 >[!IMPORTANT]
 >
->We no longer recommend using FTP for import as described on this page. 
+>Adobe no longer recommends using FTP for import as described on this page. 
 >
 >FTP is not recommended because it is an unencrypted method of sharing files, which means that anyone can intercept the file contents as well as the username and password used for the account. 
 >

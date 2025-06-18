@@ -6,24 +6,11 @@ exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 ---
 # Build metrics {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_productcompatibility"
->title="Product Compatibility"
->abstract="Indicates where in Customer Journey Analytics this calculated metric can be used, such as in Analysis Workspace, Report Builder, and so forth. Some calculated metrics cannot be used with experimentation."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Use calculated metrics in experimentation" 
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="External Id"
 >abstract="Changing the External ID might impact how the calculated metric appears in external sources, such as business intelligence tools"
 
-<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics provides a canvas to drag and drop dimensions, metrics, segments, and functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex calculated metrics.
 

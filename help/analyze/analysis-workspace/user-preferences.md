@@ -45,7 +45,22 @@ You can customize general preferences for all new projects that you create in An
 | Show tips | Displays tips in a blue box in the lower-right area of Analysis Workspace. <p>This option is enabled by default.</p> |
 | Components displayed in left rail groups | Choose how many of each component to display in the Components menu in the left rail. <p>If you choose 0, the component is no longer accessible from the left rail of your workspaces.</p><p>By default, 5 components display for each of the following:</p> <ul><li>Dimensions</li><li>Metrics</li><li>Filters</li><li>Date ranges</li></ul> <p>For more information about Components in Analysis Workspace, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Company preferences
+## Company preferences {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Allow sharing only with Workspace users"
+>abstract="When enabled, the **[!UICONTROL Share with anyone]** option is no longer available to users when sharing an Analysis Workspace project. People who previously received access to a project through this share option can no longer access the project."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Require Experience Cloud authentication"
+>abstract="When enabled, people who are given access to a project from the **[!UICONTROL Share with anyone]** option in Analysis Workspace must authenticate using their Experience Cloud credentials."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Allow commenting on projects"
+>abstract="When enabled, a comments area is available in the right rail of each project in Analysis Workspace."
 
 You can update company preferences that apply to all users and projects within your organization. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
@@ -59,7 +74,22 @@ You can update company preferences that apply to all users and projects within y
 
 {style="table-layout:auto"}
 
-## Projects & Analyses preferences
+## Projects & Analyses preferences {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="Categorical palette"
+>abstract="Applied to many visualizations in Analysis Workspace and Guided analysis. Each color represents a distinct categorical value."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="Diverging palette"
+>abstract="Applied to the Cohort table in Analysis Workspace and User growth guided analysis. This palette holds a numeric meaning with two extremes and a baseline in the middle."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="Sequential palette"
+>abstract="Applied to the Frequency trends (stacked bar) guided analysis. This palette holds a numeric meaning from light to dark."
 
 You can customize project preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 
@@ -81,7 +111,24 @@ Click the linked preference titles for more information and context about each p
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
 |  | Show annotations | Choose whether annotations are visible in your projects. For more information about annotations, see [Annotations overview](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Freeform table preferences
+## Freeform table preferences {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="Show anomalies"
+>abstract="Selecting **[!UICONTROL Show anomalies]** will automatically run anomaly detection on the first metric column added to a time series Freeform table visualization."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="Show forecast"
+>abstract="Selecting **[!UICONTROL Show forecast]** will automatically forecast the first metric column added to a time series Freeform table visualization."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Default table metric"
+>abstract="Select the default metric to use for freeform tables. If the selected data view does not contain the selected default metric, the table automatically switches to another primary metric."
+
 
 You can customize freeform table preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 
 

@@ -6,7 +6,14 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
-# Share projects
+# Share projects {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Share projects"
+>abstract="You can share any of these project roles with other users in your organization."
+
+
 
 You can share an Analysis Workspace project with the following types of people:
 
@@ -115,6 +122,11 @@ To share the project link with users in your organization:
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal website, and so forth. 
 
 ## Share a project with anyone (no login required) {#share-public-link}
+
+>[!CONTEXTUALHELP]
+>id="workspace_share_with_anyone_require_aec_authentication"
+>title="Require Experience Cloud authentication"
+>abstract="Your organization requires that users log in to the Experience Cloud in order to use this link."
 
 You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people who don't have access to Adobe Analytics. This can include:
 

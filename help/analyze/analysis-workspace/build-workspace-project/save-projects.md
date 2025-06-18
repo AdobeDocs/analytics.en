@@ -5,7 +5,12 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 ---
-# Save projects
+# Save projects {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="Add notes"
+>abstract="Add notes about the project version being saved. These notes will be stored with the version and accessible under the **[!UICONTROL Project]** > **[!UICONTROL Open previous version]** menu."
 
 Projects in Analysis Workspace are automatically saved every 2 minutes. 
 

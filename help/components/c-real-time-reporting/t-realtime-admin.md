@@ -41,8 +41,6 @@ This consists of selecting the report suite and configuring up to 3 reports for 
    >
    >For a single Real-Time report, we do not currently support enabling duplicate dimensions, even if a different classification is selected for each dimension.
 
-   For more information about classifications, see [About Classifications](/help/components/classifications/c-classifications.md).
-
    >[!NOTE]
    >
    >Some dimensions, such as "Search Keyword" or "Product", do not persist in Real-Time like they do elsewhere in Adobe Analytics. When you select a non-persistent metric, this warning appears:

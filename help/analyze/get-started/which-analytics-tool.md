@@ -18,7 +18,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics Reporting User Interfaces {#user-interfaces}
+## Adobe Analytics reporting user interfaces {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** should be the go-to user interface for all of your reporting and analysis needs. Adobe continues to invest in and release monthly updates to this product. If there is a task you cannot do in Analysis Workspace, consider the other interfaces below.**
 
@@ -30,36 +30,30 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks, hovers, and scrolling behavior. 
 
-## Importing Data into Adobe Analytics {#import}
+## Importing data into Adobe Analytics {#import}
 
-**[Classifications](/help/components/classifications/c-classifications.md)** should be used:
+**[Classifications](/help/components/classifications/classifications-overview.md)** should be used:
 
-* When there is metadata you want to associate to a collect value (eVar, prop, marketing channel)
-* Options:
-
-  * Rule builder: use when you have predictable formatted-values being collected for a variable, e.g. delimited values. This approach allows you to set up rules once and largely "set-it and forget-it".
-  * Browser importer: use when you don't have predictable values, or when you have a finite list of values that requires a one-time update. This approach requires that you do ongoing monitoring of the classifications for new values.
+* When there is metadata you want to associate to a collect value (eVar, prop, marketing channel). Adobe recommends using [Classification sets](/help/components/classifications/sets/overview.md). The classification rule builder and classification importer are legacy methods to bring classification data in to Adobe Analytics.
 
 **[Data Sources](/help/import/data-sources/overview.md)** should be used:
 
 * When there is offline data you want permanently written into Adobe Analytics
 * Options:
-
   * Summary: simple data uploads, by day or limited dimensions
   * Transaction ID: data uploads that connect an online endpoint to offline data, and fully associate imported data to a visitor snapshot captured online (e.g. orders complete online, and get returned offline)
-  * Full Processing: time-stamped data sources, processed as if it was a hit collected by Adobe servers. I.e. data gets inserted directly into the visitor journey.
 
 **[Adobe Exchange integrations](https://www.adobeexchange.com/experiencecloud.html)** should be used:
 
 * When you engage with a 3rd-party provider that has built a supported connection with Adobe Analytics. Integration apps typically incorporate summary-level data into Adobe Analytics permanently and automatically, on a recurring basis.
 
-**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
-
-* When you need to upload data into Adobe Analytics, and cannot use the Adobe AppMeasurement or mobile SDK code. We recommend using Bulk Data Insertion API (see below.)
-
 **[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Data Insertion API and Bulk Data Insertion API are both methods to submit server-side collection data to Adobe Analytics. Data Insertion API calls are made one event at a time. Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. If you are working on a new implementation of server-side collection, we recommend using Bulk Data Insertion API.
+* The Bulk Data Insertion API accepts CSV formatted files containing event data, one event per row. Adobe recommends using the Bulk Insertion API for any implementation that requires server-side code or otherwise cannot use AppMeasurement or the Web SDK for data collection.
+
+**[Data Insertion API (Legacy)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** should be used:
+
+* When you need to bring data into Adobe Analytics and cannot use AppMeasurement, Web SDK, or the Bulk Data Insertion API.
 
 **[Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** should be used:
 

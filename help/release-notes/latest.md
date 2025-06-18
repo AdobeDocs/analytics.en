@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (June 2025 release)
 
-**Last update**: June 17, 2025
+**Last update**: June 18, 2025
 
 These release notes cover the release period of June 18 through July 15, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -19,7 +19,7 @@ These release notes cover the release period of June 18 through July 15, 2025. A
 | **Modified attribution model dialog** | You can now define the container and time period separately in the attribution model dialog. |  |  June 18,2025 |
 | **Updated navigation to Customer Attributes UI**  |  The Customer Attributes user interface is now accessible directly from the app selector in Adobe Experience Cloud. |  |  TBD |
 | **Streaming Media: Support schedule data** | You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership. The following are examples of live content that are supported with schedule data upload:<ul><li>FAST (Free Ad Supported TV) platforms</li><li>Local streams</li><li>Live sports</li></ul>Uploading schedule data allows you to track viewership data for individual programs that ran during the time you designate in the upload file. You can even gather viewership data for specific topics or program segments. These capabilities are available regardless of how you implemented Streaming Media Collection.<p>Previously, it was difficult to accurately tie a given session to specific programs when analyzing live content, and it wasn't possible to tie a given session to individual topics or program segments. Learn more |  |  June 25, 2025 |
-| **Support for Chrome pre-rendering** | Control how data collection libraries behave when Chrome pre-renders a page. |  |  June 30, 2025 |
+| **Support for Chrome pre-rendering** | Control how data collection libraries behave when Chrome pre-renders a page. (Documentation link to follow)|  |  June 30, 2025 |
 
 ## Fixes in Adobe Analytics
 

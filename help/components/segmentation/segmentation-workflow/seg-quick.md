@@ -1,7 +1,7 @@
 ---
 description: Use quick segments in Analysis Workspace for Adobe Analytics
 title: Quick segments
-feature: Workspace Basics, Segments
+feature: Segmentation
 role: User
 
 ---

@@ -17,6 +17,7 @@ After you [configure a cloud account](/help/components/locations/configure-impor
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exporting files when using [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importing schemas using [Classification sets](/help/components/classifications/sets/overview.md)
 
 You must configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).

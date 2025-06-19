@@ -15,9 +15,9 @@ You can export Adobe Analytics reports from Report Builder to cloud providers li
 
 When exporting reports from Report Builder, consider the following:
 
-* Before you export to the cloud, make sure that your tables, your environment, and your permissions meet the [export requirements](#export-requirements).
+* Before you export to the cloud, make sure that your data blocks, your environment, and your permissions meet the [export requirements](#export-requirements).
 
-* Some [features](#unsupported-features) and [components](#unsupported-components) are not supported when exporting full tables to the cloud.
+* Some [features](#unsupported-features) and [components](#unsupported-components) are not supported when exporting reports from Report Builder to the cloud.
 
 ## Understand the export process
 
@@ -31,7 +31,7 @@ Use the following process when exporting reports from Report Builder to the clou
 
 1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
 
-![The full table export process described in steps 1 through 4.](assets/report-builder-export-process.png)
+![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
 
 ## Export a report from Report Builder {#export-from-report-builder}
 
@@ -58,7 +58,7 @@ To export reports from Report Builder:
 
   <!-- add screenshot -->
 
-1. In the [!UICONTROL **New full table export**] dialog box, specify the following information:
+1. In the [!UICONTROL **Adobe Report Builder**] right panel, specify the following information:
 
    |Field name | Function | 
    |---------|----------|
@@ -107,15 +107,15 @@ Exporting Adobe Analytics data to the cloud allows you to:
 
 * Export files in Excel, PDF, or CSV format. 
 
-* Export tables that include multiple dimensions. **(Does this apply to Report Builder???)**
+* Export data blocks that include multiple dimensions. **(Does this apply to Report Builder???)**
 
 ## Export requirements {#export-requirements}
 
 ### Minimum requirements
 
-Make sure that your tables, your environment, and your permissions meet the following requirements:
+Make sure that your data blocks, your environment, and your permissions meet the following requirements:
 
-* **Tables:** All tables must include at least one dimension in the row and one metric in each column in order to be supported with a full-table export.  **(Does this apply to Report Builder???)**
+* **Data blocks:** All data blocks must include at least one component to column, row, or value.
 
 * **Environment:** Ensure that the [IP addresses](/help/technotes/ip-addresses.md) and [Domains](/help/technotes/domains.md) used by Adobe Analytics are allowed through their organization's firewall.
 

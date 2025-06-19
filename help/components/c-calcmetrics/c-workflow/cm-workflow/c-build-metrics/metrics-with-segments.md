@@ -10,7 +10,7 @@ In the [Calculated metric builder](cm-build-metrics.md#definition-builder), you 
 
 >[!NOTE]
 >
->Segment definitions are updated through the [Segment builder](/help/components/segments/seg-builder.md). If you make a change to a segment, the segment is automatically updated everywhere it is used, including if the segment is part of a calculated metric definition.
+>Segment definitions are updated through the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md). If you make a change to a segment, the segment is automatically updated everywhere it is used, including if the segment is part of a calculated metric definition.
 >
 
 You want to compare metrics for German people interacting with your brand versus people outside of Germany. So, you can answer questions like:
@@ -23,8 +23,8 @@ See the sections below to illustrate how segmented metrics can help you answer t
 
 ## Popular pages
 
-1. [Create a calculated metric](cm-workflow.md) from a Workspace project, named `Germany`.
-1. From within the [Calculated metric builder](cm-build-metrics.md), [create a segment](/help/components/segments/seg-builder.md), titled `Germany`, that is using the Countries field. 
+1. [Create a calculated metric](../cm-workflow.md) from a Workspace project, named `Germany`.
+1. From within the [Calculated metric builder](cm-build-metrics.md), [create a segment](/help/components/segmentation/segmentation-workflow/seg-build.md), titled `Germany`, that is using the Countries field. 
 
    >[!TIP]
    >

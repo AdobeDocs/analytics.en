@@ -18,7 +18,7 @@ You can stack and replace segments within the Calculated metric builder.
 
 ## Replace one segment with another {#replace-segment}
 
-1. Begin building a metric, as described in [Build metrics](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md).
+1. Begin building a metric, as described in [Build metrics](cm-build-metrics.md).
 
 1. In the Definition canvas, drop the new segment on top of the existing one:
 

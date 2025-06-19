@@ -7,7 +7,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 # Manage segments
 
 
-You can [share](seg-share.md), [segment](t-seg-filter.md), [tag](seg-tag.md), [approve](seg-approve.md), rename, [copy](seg-copy.md), delete, export segments and mark segments as [favorite](t-seg-favorite.md) from a central [!UICONTROL Segment] management interface. To manage segments:
+You can [share](t-seg-share.md), [segment](t-seg-filter.md), [tag](seg-tag.md), [approve](seg-approve.md), rename, [copy](seg-copy.md), delete, export segments and mark segments as [favorite](t-seg-favorite.md) from a central [!UICONTROL Segment] management interface. To manage segments:
 
 * Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Segments]**.
 
@@ -64,7 +64,7 @@ The filter bar ➌ shows the active segments applied from the filter panel to th
 
 You can filter the list of segments using the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** left panel ➍. The filter panel displays the type of filter and the number of segments that honor the specific filter. Select ![Filter](/help/assets/icons/Filter.svg) to toggle the display of the Filter panel. 
 
-See [Filter the list of segments](seg-filter.md) for more information.
+See [Filter the list of segments](t-seg-filter.md) for more information.
 
 
 <!--

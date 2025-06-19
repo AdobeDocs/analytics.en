@@ -42,7 +42,7 @@ When should you share segments with the entire company versus just a group of us
 
 Below are some best practices when you should share segments and with whom you should share segments.
 
-* As an administrator, only share a segment with All if you are convinced anyone in your organization is comfortable using the segments. You can also consider favoring these segments. See [Mark a segment as favorite](seg-favorite.md) for more information.
+* As an administrator, only share a segment with All if you are convinced anyone in your organization is comfortable using the segments. You can also consider favoring these segments. See [Mark a segment as favorite](t-seg-favorite.md) for more information.
 
 * As an administrator, share a segment with a specific group if that segment provides business value for the users part of that group.
 

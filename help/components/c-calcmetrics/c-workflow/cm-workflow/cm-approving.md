@@ -19,5 +19,5 @@ To unapprove calculated metrics:
 1. From the action bar, select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
    
 
-You can filter your list of calculated metrics by approved calculated metrics. Select **[!UICONTROL Other filters]** from the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** panel and select **[!UICONTROL Approved]**. See [Filter the list of calculated metrics](/help/components/calc-metrics/cm-workflow/cm-filter.md) for more information.
+You can filter your list of calculated metrics by approved calculated metrics. Select **[!UICONTROL Other filters]** from the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** panel and select **[!UICONTROL Approved]**. See [Filter the list of calculated metrics](cm-filter.md) for more information.
 

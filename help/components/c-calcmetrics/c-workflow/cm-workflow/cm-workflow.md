@@ -15,6 +15,6 @@ Learn about the steps to take for creating calculated metrics.
 | [Tag](cm-tagging.md) calculated metrics | Tag calculated metrics for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
 | [Approve](cm-approving.md) calculated metrics | Approve calculated metrics to make them canonical. |
 | Apply calculated metrics | You can apply metrics directly from a report, from the Metric Selector (to access it, click  Show Metrics). |
-| [Share](cm-sharing.md) calculated ,metrics | Share your metrics with the intended audience in other [!DNL Analytics] tools and to Adobe Target and the Adobe Experience Cloud. |
-| Filter calculated metrics | In the Metric Selector, click  Advanced Selection and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
+| [Share](cm-sharing.md) calculated metrics | Share your metrics with the intended audience in other [!DNL Analytics] tools and to Adobe Target and the Adobe Experience Cloud. |
+| Filter calculated metrics | In the Metric Selector, click Advanced Selection and filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
 | Mark calculated metrics as [Favorites](cm-finding.md) | Marking metrics as favorites is another way to organize them for ease of use.|

@@ -13,13 +13,13 @@ You can create a segment in the following ways:
 
 ![Ways to create a segment](assets/create-segment.png)
 
-* **A**. In the main interface, select **[!UICONTROL Components]** and select **[!UICONTROL Segments]**. Select ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] from the [[!UICONTROL Segment] manager](/help/components/segments/seg-manage.md). 
+* **A**. In the main interface, select **[!UICONTROL Components]** and select **[!UICONTROL Segments]**. Select ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] from the [[!UICONTROL Segment] manager](seg-manage.md). 
 * **B**. In a Workspace project, from the Components left panel, select ![Add](/help/assets/icons/Add.svg) at ![Segment](/help/assets/icons/Segmentation.svg) **Segments**.
 * **C**. In a Workspace project, from the context menu in a visualization, select **[!UICONTROL Create segment from selection]**.
 * **D**. In a Workspace project, select **[!UICONTROL Components]** from the menu, and select **[!UICONTROL Create segment]**. 
 * **E**. In a Workspace project, use the shortcut **[!UICONTROL shift+cmd+e]** (macOS) or **[!UICONTROL shift+ctrl+e]** (Windows).
 * **F**. Select ![Add](/help/assets/icons/Add.svg) in ***Drop a segment here (or any other component)*** drop zone. This action creates a Project-only segment.
 
-To define the new segment, you use the [Segment builder](/help/components/segments/seg-builder.md).
+To define the new segment, you use the [Segment builder](seg-build.md).
 
-When you are in a Workspace project, you can also create a segment quickly using [Quick segment](/help/components/segments/seg-quick.md).
+When you are in a Workspace project, you can also create a segment quickly using [Quick segment](seg-quick.md).

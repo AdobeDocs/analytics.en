@@ -7,7 +7,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 # Manage segments
 
 
-You can [share](seg-share.md), [segment](seg-filter.md), [tag](seg-tag.md), [approve](seg-approve.md), rename, [copy](seg-copy.md), delete, export segments and mark segments as [favorite](seg-favorite.md) from a central [!UICONTROL Segment] management interface. To manage segments:
+You can [share](seg-share.md), [segment](t-seg-filter.md), [tag](seg-tag.md), [approve](seg-approve.md), rename, [copy](seg-copy.md), delete, export segments and mark segments as [favorite](t-seg-favorite.md) from a central [!UICONTROL Segment] management interface. To manage segments:
 
 * Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Segments]**.
 
@@ -29,12 +29,12 @@ The segments list ➊ displays all the segments that you own, the segments that 
 
 | Column | Description |
 | --- | --- | 
-| ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a segment. See [Mark segment as favorite](/help/components/segments/seg-favorite.md) |
-| **[!UICONTROL Title and description]** | To edit the segment, select the title link, which opens the [Segment builder](seg-builder.md). A shared segment is indicated with ![Share](/help/assets/icons/ShareAlt.svg). |
+| ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a segment. See [Mark segment as favorite](t-seg-favorite.md) |
+| **[!UICONTROL Title and description]** | To edit the segment, select the title link, which opens the [Segment builder](seg-build.md). A shared segment is indicated with ![Share](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Report suitew]** | The report suite that this segment applies to.  | 
 | **[!UICONTROL Owner]** | The owner of the segment. As a user, you only see the segments that you own or the annotations that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this segment. |
-| **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](seg-share.md) for more information. |
+| **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](t-seg-share.md) for more information. |
 | **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to Experience Cloud. |
 | **[!UICONTROL Date modified]** | The date and time that the segment was last modified. |
 
@@ -46,10 +46,10 @@ You can action on segments using the action bar ➋. The action bar contains the
 
 | Action | Description |
 |---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Add another segment, using the [Segment builder](seg-builder.md). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Add another segment, using the [Segment builder](seg-build.md). |
 | ![Search](/help/assets/icons/Search.svg) [!UICONTROL *Search by title*] | When no segment is selected in the list, search for segments using this search field. |
-| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tag the selected segments. In the **[!UICONTROL Tag Segment]** dialog, select or de-select the tags for the selected segments. Select **[!UICONTROL Save]** to save the tags for the selected segments. See [Tag segments](/help/components/segments/seg-tag.md) for more information.|
-| ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Share the selected segments. In the **[!UICONTROL Share Segment]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected segments. See [Share segments](seg-share.md) for more information. |
+| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tag the selected segments. In the **[!UICONTROL Tag Segment]** dialog, select or de-select the tags for the selected segments. Select **[!UICONTROL Save]** to save the tags for the selected segments. See [Tag segments](seg-tag.md) for more information.|
+| ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Share the selected segments. In the **[!UICONTROL Share Segment]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected segments. See [Share segments](t-seg-share.md) for more information. |
 | ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Delete the selected segments. You are prompted for a confirmation. |
 | ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rename a single selected segment. When selected, you can rename the segment inline. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approve the selected segments. See [Approve segments](seg-approve.md) for more information. | 

@@ -17,11 +17,11 @@ You can share, filter, tag, approve, rename, copy, delete, export calculated met
 The Calculated metrics manager has the following interface elements:
 
 
-![Filters interface](assets/calculated-metrics-manager.png)
+![Calculated metrics interface](assets/calculated-metrics-manager.png)
 
-### Filters list
+### Calculated metrics list
 
-The filters list ➊ displays all the calculated metrics that you own or that have been shared with you. The list has the following columns:
+The calculated metrics list ➊ displays all the calculated metrics that you own or that have been shared with you. The list has the following columns:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
@@ -29,7 +29,7 @@ The filters list ➊ displays all the calculated metrics that you own or that ha
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a calculated metric. See [Mark calculated metric as favorite](cm-favorite.md) |
 | **[!UICONTROL Title and description]** | To edit the calculated metric, select the title link, which opens the [Calculated metrics builder](c-build-metrics/cm-build-metrics.md). A shared calculated metric is indicated with ![Share](/help/assets/icons/ShareAlt.svg). |
-| **[!UICONTROL Data view]** | The data views that this calculated metric applies to.  | 
+| **[!UICONTROL Report suite]** | The report suites that this calculated metric applies to.  | 
 | **[!UICONTROL Owner]** | Owner of the calculated metric. As a user, you only see the annotations that you own or the annotations that are shared with you. |
 | **[!UICONTROL Tags]** | Lists the tags for this calculated metric. |
 | **[!UICONTROL Shared with]** | Lists how many individuals or groups that you shared the calculated metric with. Select to open the **[!UICONTROL Share Calculated metric]** dialog. See [Share calculated metrics](cm-sharing.md) for more information. |

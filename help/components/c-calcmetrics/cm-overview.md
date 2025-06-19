@@ -35,7 +35,6 @@ You can
 * Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
 * Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments.
 
-
 >[!BEGINSHADEBOX]
 
 See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculated metrics](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} for a demo video.
@@ -48,14 +47,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculated metri
 * (Advanced calculated metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
 
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmented calculated metrics in segments](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
-
-## Limitations {#section_CB878B02451541D68A68B508D4DBD19A}
+## Limitations
 
 Some [!DNL Analytics] features let you use events but not calculated metrics:
 
@@ -65,13 +57,28 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 * [!UICONTROL Segments] 
 * [!DNL Analytics] for [!DNL Target]
 
-## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculated metrics](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmented calculated metrics in segments](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+<!--
 
 Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
 
 |Tool|Capabilities|
 |--- |--- |
-|Calculated Metric Builder|<ul><li>Create calculated and advanced calculated metrics using advanced allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
 |Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
 |Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->

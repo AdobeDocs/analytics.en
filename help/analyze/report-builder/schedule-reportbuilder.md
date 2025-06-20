@@ -7,7 +7,11 @@ type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 ---
-# Schedule Workbooks
+# Schedule workbooks for sharing through email
+
+>[!NOTE]
+>
+>In addition to scheduling workbooks for sharing through email, as described in this section, you can schedule workbooks to be exported to cloud destinations, as described in [Schedule workbooks for export to cloud destinations](/help/analyze/report-builder/report-builder-export.md).
 
 After you saved your workbook and completed your analysis, you can easily share your workbook with others on your team using the scheduling feature. The Schedule feature allows you to create a schedule that automatically refreshes the data in the workbook and emails the Excel workbook .xlsx file as an attachment to your specified audience at a specific date and time. Setting up a schedule provides recipients with regular updates&ndash;automatically. You can also use the schedule feature to send out the workbook once without scheduling automatic updates.
 
@@ -71,7 +75,7 @@ Use the Schedule button in the Report Builder hub to quickly create a schedule s
 
     ![Click Send on schedule.](./assets/send-on-schedule.png){width="55%"}
 
-    You'll see a confirmation toast at the bottom of the Report Builder hub and the scheduled workbook is listed under the Workbooks tab.
+    You see a confirmation toast at the bottom of the Report Builder hub and the scheduled workbook is listed under the Workbooks tab.
 
     ![Confirmation toast](./assets/confirmation-toast.png){width="55%"}
 
@@ -98,44 +102,6 @@ You can also send out the workbook only once.
 
 1. Click **Send Now**.
 
-## View and edit scheduled workbooks {#view-edit}
+## Manage scheduled workbooks
 
-You can view and manage all scheduled workbooks in one place under the Workbooks tab.
-
-1. In the Schedule section of the Report Builder hub, click the Workbooks tab. Use this view to see a list of all scheduled workbooks.
-
-1. Select a workbook. Several tools are displayed that allow you to edit the workbook, edit the schedule task, pause and restart the schedule task, download a scheduled task report, or delete the schedule task.
-
-    ![Screenshot showing the workbook schedule icons.](./assets/schedule-icons.png){width="20%"}
-
-* (Optional) Click the pencil icon to edit the workbook schedule task.
-
-* (Optional) Click the clock icon to view a history of each scheduled task.
-
-* (Optional) Click the pause icon to pause and restart the distribution schedule task. This is helpful if you need to modify the workbook before the workbook is sent. Click the pause icon again when you want to restart the distribution.
-
-* (Optional) Click the download icon to download a copy of the workbook schedule task.
-
-* (Optional) Click the trash can to delete the schedule task.
-
-    ![Screenshot showing the list of schedule tasks.](./assets/selected-workbook.png){width="40%"}
-
-## Review the status of scheduled tasks {#status}
-
-The history view allows you to review the status of each scheduled task. There is a separate row documenting the status change for each scheduled task. In the example shown below, the *New Hourly Schedule* was initiated on January 5, at 3:04pm. By 3:05pm it successfully refreshed and was sent to recipients. The next workbook, *Bad workbook*, encountered an error during the refresh process. If a workbook failed to send, the history tab helps you troubleshoot by showing where in the process the error occurred. In this case, it is likely due to some data block error, perhaps a missing component, that kept the workbook from successfully refreshing.
-
-A green checkmark indicates that the workbook was sent successfully. An exclamation point in a red triangle indicates that an error occurred.
-
-You can choose which columns to display in the history tab by clicking the columns setting icon to the right of the search bar.
-
-![Click the column icon to display or hide specific columns.](./assets/history.png){width="55%"}
-
-You can filter down the history to see only that of a single scheduled workbooks by going to the workbooks tab, selecting the workbook and clicking the history icon. 
-
-You can also view the history of a specific workbook from the Workbooks tab. On the Workbooks tab, select the workbook and then click the history icon.
-
-![The workbooks history icon](./assets/history2.png){width="55%"}
-
-The workbook filter will then appear at the top of the history. To view the history of all scheduled tasks again, click the x next to the filter. 
-
-![The workbook filter.](./assets/history3.png){width="55%"}
+For information about managing workbooks that are already scheduled, see [Manage scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

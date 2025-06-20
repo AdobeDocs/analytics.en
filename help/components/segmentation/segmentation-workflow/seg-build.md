@@ -22,7 +22,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 >abstract="Compares the data of this segment with data of the data view. The preview percentage is based on the total number in the data view from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
 
 
-The **[!UICONTROL Segment builder]** dialog is used to create new or edit existing segments. The dialog is titled **[!UICONTROL New segment]** or **[!UICONTROL Edit segment]** for segments that you create or manage from the [[!UICONTROL Segment] manager](/help/components/segments/seg-manage.md).
+The **[!UICONTROL Segment builder]** dialog is used to create new or edit existing segments. The dialog is titled **[!UICONTROL New segment]** or **[!UICONTROL Edit segment]** for segments that you create or manage from the [[!UICONTROL Segment] manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
 >[!BEGINTABS]
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Segment builder]** dialog is used to create new or edit existi
    {style="table-layout:auto"}
    
 1. To verify whether your segment definition is correct, use the constantly updated preview of the results of the segment at the top right.
-1. To create an audience from the segment and share the audience with Experience Platform, select **[!UICONTROL Create audience from segment]**. See [Create and publish audiences](/help/components/audiences/publish.md) for more information.
+1. To publish your segment to the Experience Cloud, select **[!UICONTROL Publish this segment to the  Experience Cloud (for *report suite*)]**. See [Publish segments to Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) for more information.
 1. Select:
    * **[!UICONTROL Save]** to save the segment.
    * **[!UICONTROL Save As]** to save a copy of the segment. 
@@ -79,7 +79,7 @@ To add a component:
 
 1. Drag and drop a component from the components panel onto **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]**. You can use the ![Search](/help/assets/icons/Search.svg) in the components bar to search for specific components.
 1. Specify details for the component. For example, select a value from **[!UICONTROL Select value]**. Or enter a value. What and how you can specify one or more values depends on the component and the operator.
-1. Optionally modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](seg-operators.md) for a detailed overview of the available operators.
+1. Optionally modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](../seg-reference/seg-operators.md) for a detailed overview of the available operators.
 
 To edit a component:
 

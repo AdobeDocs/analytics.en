@@ -4,7 +4,7 @@ title: Segmentation Troubleshooting
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 ---
-# Segmentation Troubleshooting
+# Segmentation troubleshooting
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 

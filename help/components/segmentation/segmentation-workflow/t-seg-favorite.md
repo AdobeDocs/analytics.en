@@ -6,10 +6,10 @@ exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 ---
 # Mark segments as favorites
 
-Marking segments as favorites is another way to organize them for ease of use.
+You can mark a segment as a favorite. To mark segments as favorite helps you to organize your segments. All users can favor segments.
 
-1. In the Segment Manager, check the star next to any segment that you want to mark as a favorite. It should now appear as a yellow star:
+To favor or unfavor a segment, in the [Segment manager](seg-manage.md):
 
-   ![](assets/favorites.png)
+* Select ![StarOutline](/help/assets/icons/StarOutline.svg) to favor, or select ![Star](/help/assets/icons/Star.svg) to unfavor a segment.
 
-1. You can also filter on favorites under **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Favorites]**.
+You can sort your list of segments by favorites. Select **[!UICONTROL Other segments]** from the ![Segment](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** panel and select **[!UICONTROL Favorites]**. See [Segment the list of segments](t-seg-filter.md) for more information.

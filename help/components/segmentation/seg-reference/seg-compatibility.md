@@ -4,9 +4,9 @@ title: Data Warehouse Segment Compatibility
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 ---
-# Data Warehouse Segment Compatibility
+# Data Warehouse segment compatibility
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
+Not all segments created in the Segment builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
 
 <table> 
  <thead> 

@@ -275,7 +275,7 @@ Access the Segment Manager by:
 
 By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
-Admins can edit any segment, and share segments with groups and with everyone in the organization. [More...](/help/components/segmentation/seg-reference/seg-rights.md)
+Admins can edit any segment, and share segments with groups and with everyone in the organization. [Segment rights by role](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

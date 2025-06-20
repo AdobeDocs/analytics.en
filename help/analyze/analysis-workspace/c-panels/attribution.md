@@ -86,9 +86,17 @@ The following visualization are part of the panel ouput.
 
 {{attribution-models-details}}
 
+## Container
+
+{{attribution-container}}
+
 ## Lookback window
 
 {{attribution-lookback-window}}
+
+## Example
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

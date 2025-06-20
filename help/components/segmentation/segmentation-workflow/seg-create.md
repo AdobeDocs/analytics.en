@@ -2,6 +2,7 @@
 description: Understand the segment creation user interface.
 title: Create segments
 feature: Segmentation
+exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
 ---
 # Create segments
 

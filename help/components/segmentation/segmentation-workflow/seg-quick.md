@@ -3,7 +3,7 @@ description: Use quick segments in Analysis Workspace for Adobe Analytics
 title: Quick segments
 feature: Segmentation
 role: User
-
+exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 ---
 # Quick segments
 
@@ -103,5 +103,3 @@ Segments do have the following advantages compared to quick segments.
 
 * Segments can be made available across all your Workspace projects
 * Segments support more complexity using nested and hierarchical [containers](../seg-containers.md), and sequences (using [sequential segments](seg-sequential-build.md).
-
-

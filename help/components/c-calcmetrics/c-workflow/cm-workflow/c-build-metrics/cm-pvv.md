@@ -13,11 +13,11 @@ The following information explains how to create a simple *Page Views per Visits
 1. Give the metric a user-friendly **[!UICONTROL Description]** to show what the metric is used for.
 1. Select the right **[!UICONTROL Format]**. For this example, choose **[!UICONTROL Decimal]**.
 1. Decide how many decimal places you want the report to show.
-1. In the **[!UICONTROL Show updward trend as]** drop-down menu, select **[!UICONTROL Good (Green)]**.
+1. In the **[!UICONTROL Show updward trend as]** drop-down menu, select ▲ **[!UICONTROL Good (Green)]**.
 1. Add a **[!UICONTROL Tag]** to organize your metrics.
 1. For this calculated metric, first drag **[!UICONTROL Page Views]** from the **[!UICONTROL Dimensions]** components into the **[!UICONTROL Definition]** section of the canvas.
 1. Then drag **[!UICONTROL Visits]** from the **[!UICONTROL Metrics]** components and drop the metric underneath **[!UICONTROL Page Views]** (wait until the blue line appears before you drop the metric).
-1. Select the [!UICONTROL Divide] ![Divide](/help/assets/icons/Divide.svg) operator. (Divide is the default operator.) 
+1. Select the divide ![Divide](/help/assets/icons/Divide.svg) operator. (Divide is the default operator.) 
 1. You can see a **[!UICONTROL Preview]** of the metric while you are building the metric.
 1. [Product compatibility](../../../cm-compatibility.md) shows you whether the metric is compatible with Current Data or only with Fully Processed Data.
 
@@ -27,3 +27,4 @@ The following information explains how to create a simple *Page Views per Visits
    Notice that the **[!UICONTROL Summary]** formula updates anytime you make a change to the metric definition.
 
 1. (Optional) To share, approve, (re-)tag, rename, or delete a metric, you can go to the [Calculated metrics manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).
+

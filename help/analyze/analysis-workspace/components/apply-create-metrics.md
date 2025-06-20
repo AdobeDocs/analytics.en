@@ -15,15 +15,12 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
 * **Standard metrics**: Most metrics that you use in projects are standard metrics. Examples include [Page views](/help/components/metrics/page-views.md), [Revenue](/help/components/metrics/revenue.md), or [Custom events](/help/components/metrics/custom-events.md). See [Metrics overview](/help/components/metrics/overview.md) in the Components user guide for more information.
 
-  ![Standard metric](assets/standard-metric.png)
+* **Calculated metrics** ![Calculator](/help/assets/icons/Calculator.svg): User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide for more information.
 
-* **Calculated metrics**: User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide for more information.
+* **Calculated metric templates** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): Adobe-defined metrics that behave similarly to calculated metrics. You can use them as-is in Workspace projects, or save a copy to customize its logic. Calculated metric templates show an Adobe icon in the list of available components.
 
-  ![Calculated metric](assets/calculated-metric.png)
+You can see whether a metric is approved ![Approved icon](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)  or not. If you want more details on a metric, hover over the metric, and select ![Info icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). See [Component info](use-components-in-workspace.md#component-info) for more information.
 
-* **Calculated metric templates**: Adobe-defined metrics that behave similarly to calculated metrics. You can use them as-is in Workspace projects, or save a copy to customize its logic. Calculated metric templates show an Adobe icon in the list of available components.
-
-  ![Calculated metric template](assets/calculated-metric-template.png)
 
 ## Use metrics in Analysis Workspace
 
@@ -40,13 +37,13 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](htt
 
 Calculated metrics allow you to easily see how metrics relate to each other, using simple operators or statistical functions. 
 
+
 There are several ways to create calculated metrics. The method you choose determines whether the calculated metric is available from the component list across all projects, or only in the project where it was created.
 
 ### Create calculated metrics for all projects
 
-You can use the calculated metric builder to create calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. 
+You can use the [calculated metric builder](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) to [create calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/). When created in this way, calculated metrics are available in the component list and can be used in projects throughout your organization. 
 
-For information about how to access the calculated metrics builder, see [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 ### Create calculated metrics for a single project
 
@@ -93,6 +90,7 @@ To create a calculated metric for a single project:
    * [!UICONTROL **Percent change**]: Creates a new column that shows the percent change between the two selected columns.
 
 [Calculated Metrics: Implementation-less metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+
 
 ## Compare metrics with different attribution models
 

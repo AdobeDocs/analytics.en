@@ -8,20 +8,9 @@ exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 
 Adobe Analytics provides a canvas to drag and drop dimensions, metrics, segments, and functions to create custom metrics based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex calculated metrics.
 
-
-## Begin building a calculated metric
-
 You can use the calculated metric builder to create or edit calculated metrics. When created in this way, calculated metrics are available in the component list and can then be used in projects throughout your organization. Alternatively, you can quickly create a calculated metric that is available only for the project where it was created, as described in [Create calculated metrics for a single project](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
-Access the calculated metric builder to begin creating a calculated metric that is available in the component list. 
-
-1. Access the calculated metric builder in any of the follows ways:
-
-   * In Analysis Workspace, open a project, then select **[!UICONTROL Components]** > **[!UICONTROL Create metric]**.
-   * In Analysis Workspace, open a project, then select the ![Add](/help/assets/icons/Add.svg) icon next to the [!UICONTROL **Metrics**] section in the Components rail.
-   * In [!DNL Adobe Analytics], go to **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**, then select **[!UICONTROL + Add]** at the top of the Calculated metrics page.
-
-1. Continue with [Areas of the calculated metric builder](#areas-of-the-calculated-metrics-builder).
+[Create a calculated metric](../cm-workflow.md) describes the different options available to create a new calculated metric.
 
 ## Areas of the calculated metrics builder
 

@@ -6,13 +6,13 @@ exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 ---
 # Build a more complex calculated metric
 
-This article explains a more complex example of a calculated metric. This calculated metrics shows which Marketing Channels assist in driving orders. This calculated metric can be adapted to any dimension or success event. 
+This article explains a more complex example of a calculated metric. This calculated metrics shows which Marketing Channels assist in driving orders. This type of calculated metric can be adapted to any dimension or success event. 
 
 1. Start to build a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. In the Calculated metrics builder, name the metric `Assisted Orders` or something similar.
 
-1. Select the**[!UICONTROL Online Orders]** metric from the **[!UICONTROL Metrics]** components and drag the metric into the **[!UICONTROL Definition]** area. 
+1. Select the **[!UICONTROL Online Orders]** metric from the **[!UICONTROL Metrics]** components and drag the metric into the **[!UICONTROL Definition]** area. 
 
    1. Select ![Setting](/help/assets/icons/Setting.svg) for the metric.
    1. Select **[!UICONTROL Use non-default attribution model]**.

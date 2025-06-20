@@ -9,12 +9,12 @@ exl-id: bef185d6-72c0-4068-80f8-57261369573f
 
 Participation metrics are used to quantify how individual values for a dimension (like Page Views) contribute to, or participate in visits that contain a specific metric (like Orders).
 
-The steps below show how any user with [Create calculated metric permission](/help/technotes//access-control.md#user-level-access) can create a participation metric.
+The steps below show how you can create a participation metric.
 
 1. [Create a calculated metric](../cm-workflow.md), and in the [Calculated metrics builder](cm-build-metrics.md), name the metric `Orders (Visit Participation)` or something similar.
 1. Drag a metric containing a success event, for example [!DNL Online Orders], into [!UICONTROL **[!UICONTROL Definition]**] area.
 1. Select ![Gear](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) for the metric. 
-1. In the popup that appears, select **[!UICONTROL Use a non-default attribution model]** to define the [attribution model](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** and select **[!UICONTROL Visits]** for the [!UICONTROL Container]. Select **[!UICONTROL Apply]** to confirm.
+1. In the popup that appears, select **[!UICONTROL Use a non-default attribution model]** to define the [attribution model](m-metric-type-alloc.md#attribution-models) of that event to **[!UICONTROL Participation]** and select **[!UICONTROL Visits]** for the [!UICONTROL Container]. Select **[!UICONTROL Apply]** to confirm.
 
 
     ![Column attribution model popup showing Participation selected as the model  and Visits selected for Container.](assets/participation-setup.png)

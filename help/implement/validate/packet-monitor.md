@@ -2,7 +2,7 @@
 title: Packet analyzers
 description: Packet analyzers let you view the data sent by your implementation to Adobe data collection servers.
 keywords: packet sniffer, http status, 200, 302, charles
-feature: Validation
+feature: Implementation basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
 ---

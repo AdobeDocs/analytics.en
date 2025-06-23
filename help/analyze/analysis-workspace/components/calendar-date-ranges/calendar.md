@@ -1,7 +1,7 @@
 ---
 description: In the calendar, you can specify dates and date ranges, or select a preset.
 title: Calendar and date ranges overview
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 ---

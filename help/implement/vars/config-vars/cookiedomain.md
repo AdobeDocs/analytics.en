@@ -1,7 +1,7 @@
 ---
 title: cookieDomain
 description: (Retired) Helps determine the domain to set cookies on.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
 ---

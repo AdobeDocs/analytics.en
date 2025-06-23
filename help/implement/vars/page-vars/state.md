@@ -1,7 +1,7 @@
 ---
 title: state
 description: (Retired) Populated the 'Visitor State Report', which is no longer available.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
 ---

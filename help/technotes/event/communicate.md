@@ -2,7 +2,7 @@
 title: Communicate impact to users
 description: Learn effective ways to communicate the impact of an event in your organization.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
-feature: Event
+feature: Curate and share
 ---
 # Communicate event impact to users
 

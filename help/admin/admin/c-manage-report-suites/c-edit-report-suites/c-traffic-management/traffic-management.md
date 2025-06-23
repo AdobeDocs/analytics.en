@@ -1,7 +1,7 @@
 ---
 description: Traffic Management lets you specify expected traffic volume changes. 
 title: Manage traffic
-feature: Traffic Management
+feature: Report suite settings
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 ---

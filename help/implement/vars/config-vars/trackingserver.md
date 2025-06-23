@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: Determine the location image requests are sent.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
 ---

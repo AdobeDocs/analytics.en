@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: Adds custom events to the products and events variable.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
 ---

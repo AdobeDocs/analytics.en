@@ -1,7 +1,7 @@
 ---
 title: trackDownloadLinks
 description: Enable or disable automatic link tracking for download links.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
 ---

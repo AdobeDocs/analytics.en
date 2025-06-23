@@ -1,7 +1,7 @@
 ---
 title: Integrate Module
 description: The Integrate Module allows Adobe partners to integrate their data collection efforts with your organization.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 role: Admin, Developer
 ---

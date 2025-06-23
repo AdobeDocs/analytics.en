@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: Create callback functions before sending a hit to Adobe.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
 ---

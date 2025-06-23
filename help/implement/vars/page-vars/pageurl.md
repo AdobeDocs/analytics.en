@@ -1,7 +1,7 @@
 ---
 title: pageURL
 description: Override the automatically collected page URL on your site.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
 ---

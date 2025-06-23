@@ -1,7 +1,7 @@
 ---
 description: Administrative steps for enabling AEM Assets reporting in Analytics.
 title: How to report on AEM Assets in Adobe Analytics
-feature: AEM Assets Reporting
+feature: Report suite settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 role: Admin
 ---

@@ -1,7 +1,7 @@
 ---
 title: fpcookieDomainPeriods
 description: Help AppMeasurement understand what domain to store cookies if your domain has a period in its suffix.
-feature: Variables
+feature: AppMeasurement implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
 ---

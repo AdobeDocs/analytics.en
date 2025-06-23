@@ -17,6 +17,7 @@ After you [configure a cloud account](/help/components/locations/configure-impor
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exporting files when using [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importing schemas using [Classification sets](/help/components/classifications/sets/overview.md)
 
 You must configure Adobe Analytics with the necessary information to access your cloud account. This process consists of adding and configuring the account (such as Amazon S3 Role ARN, Google Cloud Platform, and so forth) as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md), and then adding and configuring the location within that account (as described in this article).
@@ -48,7 +49,7 @@ For information about how to view and delete existing locations, see [Locations 
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the location.  | 
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], or [!UICONTROL **Classification sets**]. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li><li>If you are creating a location for an Email account, select [!UICONTROL **Data Warehouse**] in this field. Email locations are not supported iwth Data Feeds and Classification sets.</li></ul> | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Classification sets**], or **[!UICONTROL Report Builder]**. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li><li>If you are creating a location for an Email account, select [!UICONTROL **Data Warehouse**] in this field. Email locations are not supported iwth Data Feeds and Classification sets.</li></ul> | 
    | [!UICONTROL **Make location available to all users in your organization**] | Enable this option to allow other users in your organization to use the location.<p>Consider the following when sharing locations:</p><ul><li>Locations that you share cannot be unshared.</li><li>Shared locations can be edited only by the owner of the location.</li><li>Locations can be shared only if the account that the location is associated with is also shared.</li></ul> |
    | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). | 
 
@@ -165,7 +166,7 @@ To configure an email location, specify the following information:
 
 1. Select [!UICONTROL **Save**].
 
-   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)). 
+   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md), or [Classification sets](/help/components/classifications/sets/overview.md)). 
 
 ### Legacy account types
 

@@ -5,51 +5,44 @@ title: Calculated and Advanced Calculated Metrics
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
-# Calculated and Advanced calculated metrics
+# Calculated metrics overview
 
-Calculated and advanced calculated metrics are custom metrics that you can create from existing metrics.
+Calculated and custom metrics that you can create from existing metrics.
 
-Our Calculated Metrics tools offer a highly flexible way of building, managing and curating metrics. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
+Calculated metrics offer a highly flexible way of building, managing and curating metrics. Calculated metric allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. 
 
-* Adobe [!DNL Analytics] Foundation: Calculated 
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculated + Advanced Calculated 
-* [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): Calculated + Advanced Calculated 
-* [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): Calculated + Advanced Calculated
+Calculated metrics are available in each [!DNL Analytics] package, however the Adobe Analytics Foundation Pack for Experience Cloud is limited to basic calculated metrics including [format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [allocation changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), and [basic operators](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (add, subtract, multiply, and divide).
 
+
+See the [Adobe Analytics Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics.html) for more information. 
+
+<!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
 
-|  Builder Options  | Calculated metrics  | Advanced calculated metrics  |
-|---|---|---|
-| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | Yes  | Yes  |
-| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |
-| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | Yes  | Yes  |
-|  Basic operators (add, subtract, multiply, divide)  | Yes  | Yes  |
-| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | No  | Yes  |
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Basic operators (add, subtract, multiply, divide)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | ![StopCircle](/help/assets/icons/StopCircle.svg)  | Yes  |
 | [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
 | [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
+
+-->
 
 ## Capabilities {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 You can
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
-* Create segmented metrics that are derived at report run time, without having to change the implementation. These can be viewed historically because they are based on segments.
+* [Create metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) across [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* [Create segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) that are derived at report run time, without having to change the implementation. For example, you can create a metric for *New visitors*, with a count of people for whom this is the first session.
 
->[!BEGINSHADEBOX]
+* [Share metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculated metrics](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
-* Share metrics across report suites. This means that all newly created metrics apply to all reports suites in the same login company.
-* (Advanced calculated metrics only) Segment on metrics. For example, you can create a metric for "New visitors", with a count of people for whom this is the first session. 
-
-* (Advanced calculated metrics only) Incorporate statistical functions to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
-
+* [Incorporate statistical functions](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) to help you better describe your data. For example, you can count the number of items in a report or add in the number of standard deviations for each item.
 
 ## Limitations
 
-Some [!DNL Analytics] features let you use events but not calculated metrics:
+Some [!DNL Analytics] features do not allow the use of calculated metrics:
 
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace] 
 * [!UICONTROL Cohort Analysis] in Analysis Workspace 
@@ -82,3 +75,10 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
 
 -->
+
+>[!MORELIKETHIS]
+>
+>[Create metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>[Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>[Use functions](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>

@@ -1,10 +1,10 @@
 ---
 description: Calculated metrics rights differs between Admin-level users and non-Admins.
-title: Calculated metrics  role-based rights
+title: Role-based rights
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 ---
-# Calculated metrics: role-based rights
+# Role-based rights
 
 Calculated metrics rights differs between Admin-level users and non-Admins.
 

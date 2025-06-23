@@ -56,7 +56,7 @@ To manage a quick segment, hover over the specific **[!UICONTROL Quick segment]*
 
 ## Quick segment builder
 
-See below for an example of the Quick segment builder. In the example, the builder is opened for a quick segment titled **[!UICONTROL Interaction Channel]** **[!UICONTROL equals]** `Website` **[!UICONTROL AND]** **[!UICONTROL Online Orders]** **[!UICONTROL is greater than]** `1`. The quick segment at the top does apply to the **[!UICONTROL Average Order Value Dashboard]** panel and all visualizations within.
+See below for an example of the Quick segment builder. In the example, the builder is opened for a quick segment titled `Interaction Channel = Website  AND Online Orders is greater than 1`. The quick segment at the top does apply to the **[!UICONTROL Average Order Value Dashboard]** panel and all visualizations within.
 
 ![Quick segment builder](assets/quick-segment-builder.png)
 
@@ -69,7 +69,7 @@ The header area determines the name, type and scope of the quick segment. It als
 | Element | Description | 
 |---|---|
 | **[!UICONTROL Name]** | The name is automatically derived from the quick segment definition. |
-| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Preview visual of the data resulting from the quick segment. A bar and percentage provide insight in how much of the overall data is part of the result of the quick segment. A red ![Alert](/help/assets/icons/Alert.svg) signals that the quick segment does not return data. |
+| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Preview visual of the data resulting from the quick segment. A bar and percentage provide insight in how much of the overall data is part of the result of the quick segment. A ![Alert](/help/assets/icons/AlertRed.svg) signals that the quick segment does not return data. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Select from the drop-down ![ChevronDown](/help/assets/icons/ChevronDown.svg) whether you want to include or exclude the results of the quick segment from the data in the panel. |
 | **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Select from the drop-down menu ![ChevronDown](/help/assets/icons/ChevronDown.svg) the scope of the quick segment. |
 

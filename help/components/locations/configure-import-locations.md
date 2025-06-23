@@ -166,7 +166,7 @@ To configure an email location, specify the following information:
 
 1. Select [!UICONTROL **Save**].
 
-   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) or [Classification sets](/help/components/classifications/sets/overview.md)). 
+   You can now export data to the account and location that you configured when using [Data Feeds](/help/export/analytics-data-feed/create-feed.md). (Email locations are not supported with [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md), or [Classification sets](/help/components/classifications/sets/overview.md)). 
 
 ### Legacy account types
 

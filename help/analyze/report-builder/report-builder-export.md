@@ -27,9 +27,13 @@ Use the following process when exporting workbooks from Report Builder to the cl
 
 1. [Export a report from Report Builder](#export-a-report-from-report-builder)
 
+<!--
+
 1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
 
 ![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
+
+-->
 
 ## Export a report from Report Builder {#export-from-report-builder}
 
@@ -82,8 +86,6 @@ To export reports from Report Builder:
 
    You see a confirmation toast at the bottom of the Report Builder hub and the scheduled workbook is listed under the Workbooks tab.
 
-1. (Optional) After you create the export, whether you chose to send it now or on a defined schedule, you can view and manage it on the [Exports page](/help/components/exports/manage-exports.md) and view it in the [Export logs](/help/components/exports/manage-export-logs.md).</p>
-
 ## Advantages of exporting to the cloud {#advantages}
 
 Exporting Adobe Analytics data to the cloud allows you to: 
@@ -114,15 +116,13 @@ Make sure that your data blocks, your environment, and your permissions meet the
 
 * **Environment:** Ensure that the [IP addresses](/help/technotes/ip-addresses.md) and [Domains](/help/technotes/domains.md) used by Adobe Analytics are allowed through their organization's firewall.
 
-* **Permissions:** In the Adobe Admin Console, users must be assigned a product profile that has the [!UICONTROL **Full Table Export**] permission assigned to it in order to export full tables. For information about assigning a permission to a product profile in the Admin Console, see [Adobe Analytics permission in Admin Console](/help/technotes/access-control.md).
 
-  >[!NOTE]
-  >
-  >  Users who are assigned the [Product Admin role](/help/technotes/access-control.md#product-admin-role) always have access to export reports from Report Builder. **(Does this apply to Report Builder???)**
-
+<!--
 ## Manage exports
 
 After data is exported from Analysis Workspace, you can edit, re-export, duplicate, tag, or delete existing exports, as described in [Manage exports](/help/components/exports/manage-exports.md). 
+
+-->
 
 ## Manage scheduled workbooks
 

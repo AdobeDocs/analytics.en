@@ -10,9 +10,9 @@ solution: Analytics
 
 You can schedule a workbook for sharing through email or by exporting to a cloud destination, as described in the following articles:
 
-* [Schedule workbooks for sharing through email](/help/analyze/report-builder/schedule-reportbuilder.md)
+* [Schedule workbooks by sharing through email](/help/analyze/report-builder/schedule-reportbuilder.md)
 
-* [Schedule workbooks for export to cloud destinations](/help/analyze/report-builder/report-builder-export.md)
+* [Schedule workbooks by exporting to cloud destinations](/help/analyze/report-builder/report-builder-export.md)
 
 The following sections describe how to manage workbooks after they are scheduled:
 

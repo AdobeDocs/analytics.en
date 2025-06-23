@@ -5,8 +5,8 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
 ---
-
 # Schedule workbooks by exporting to cloud destinations
 
 You can export Adobe Analytics workbooks from Report Builder to cloud providers like Google, Azure, and Amazon. 
@@ -127,4 +127,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Manage scheduled workbooks
 
 For information about managing workbooks that are already scheduled, see [Manage scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-

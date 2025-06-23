@@ -5,6 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 ---
 # Manage scheduled workbooks
 
@@ -66,5 +67,3 @@ You can view the history and status of scheduled workbooks in the **[!UICONTROL 
    * A ![AlertRed](/help/assets/icons/AlertRed.svg) indicates that an error occurred.
 
 Alternatively, you can select ![History](/help/assets/icons/History.svg) for one or more selected workbooks in the **[!UICONTROL Workbooks]** tab. This action shows the **[!UICONTROL History]** tab with a list filtered by your selection. Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a filter.
-
-

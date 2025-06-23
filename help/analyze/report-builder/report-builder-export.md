@@ -4,7 +4,7 @@ description: Describes how to export data from Report Builder to secure destinat
 role: User, Admin
 feature: Report Builder
 type: Documentation
-solution: Adobe Analytics
+solution: Analytics
 ---
 
 # Schedule workbooks by exporting to cloud destinations

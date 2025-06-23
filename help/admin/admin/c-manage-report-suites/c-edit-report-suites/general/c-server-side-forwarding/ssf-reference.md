@@ -1,7 +1,7 @@
 ---
 description: A comprehensive list and descriptions of the configuration variables, HTTP headers, and data signals in server-side forwarding calls.
 title: Server-side forwarding data and code reference
-feature: Report suite settings
+feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
 ---

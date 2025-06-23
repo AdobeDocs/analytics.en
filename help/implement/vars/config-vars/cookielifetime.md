@@ -1,7 +1,7 @@
 ---
 title: cookieLifetime
 description: Override the expiration for cookies that AppMeasurement creates.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
 ---

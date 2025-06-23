@@ -1,7 +1,7 @@
 ---
 title: ActivityMap.link
 description: Customize how Activity Map collects the link clicked.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
 ---

@@ -1,7 +1,7 @@
 ---
 title: cookieDomainPeriods
 description: (Deprecated) Help AppMeasurement determine where to store cookies when a website's top-level domain contains a period.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
 ---

@@ -1,7 +1,7 @@
 ---
 title: account
 description: (Retired) Determine the report suite where data is sent to.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
 ---

@@ -2,7 +2,7 @@
 title: trackInlineStats
 description: (Retired) Enable or disable ClickMap in your implementation.
 keywords: disable clickmap
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
 ---

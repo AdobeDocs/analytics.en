@@ -1,7 +1,7 @@
 ---
 title: prop
 description: Custom variables you can use in your implementation.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
 ---

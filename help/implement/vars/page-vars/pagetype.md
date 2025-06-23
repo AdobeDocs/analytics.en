@@ -1,7 +1,7 @@
 ---
 title: pageType
 description: Determine if the current page is a 404 error.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
 ---

@@ -1,7 +1,7 @@
 ---
 title: p_fo (Page First Only)
 description: Ensure that certain routines fire only once per page.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
 ---

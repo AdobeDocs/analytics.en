@@ -1,7 +1,7 @@
 ---
 title: Plug-ins overview
 description: Paste code on your site to introduce new functionality.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
 ---

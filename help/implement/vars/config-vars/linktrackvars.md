@@ -1,7 +1,7 @@
 ---
 title: linkTrackVars
 description: Specify which variables to include in link tracking image requests.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 role: Admin, Developer
 ---

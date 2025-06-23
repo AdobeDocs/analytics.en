@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
 description: Establishes the frequency of hits when a device comes back online.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
 ---

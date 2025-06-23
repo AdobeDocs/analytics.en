@@ -1,7 +1,7 @@
 ---
 title: products
 description: Send data around what product(s) are displayed or in the cart.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 ---

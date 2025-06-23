@@ -1,7 +1,7 @@
 ---
 description: Explains enhancements to server-side forwarding that were prompted by the EU cookie compliance regulation.
 title: GDPR/ePrivacy compliance and server-side forwarding
-feature: Report suite settings
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
 ---

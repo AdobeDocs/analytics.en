@@ -1,7 +1,7 @@
 ---
 title: pt
 description: Executes a function on a list of variables.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
 ---

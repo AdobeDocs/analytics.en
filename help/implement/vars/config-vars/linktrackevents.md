@@ -1,7 +1,7 @@
 ---
 title: linkTrackEvents
 description: Determine what events to include in link tracking image requests.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
 ---

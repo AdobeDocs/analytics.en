@@ -1,7 +1,7 @@
 ---
 title: getValOnce
 description: Prevent an Analytics variable from being set to the same value twice in a row.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 role: Admin, Developer
 ---

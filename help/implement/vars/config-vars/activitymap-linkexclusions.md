@@ -2,7 +2,7 @@
 title: ActivityMap.linkExclusions
 description: Filter Activity Map data by link name.
 role: Admin, Developer
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
 ---
 # ActivityMap.linkExclusions

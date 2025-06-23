@@ -1,7 +1,7 @@
 ---
 title: Numbers Suite
 description: Produce and manipulate numbers for use in other JavaScript variables.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
 ---

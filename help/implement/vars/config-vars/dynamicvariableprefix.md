@@ -1,7 +1,7 @@
 ---
 title: dynamicVariablePrefix
 description: Lets you customize the string that identifies dynamic variables.
-feature: AppMeasurement implementation
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
 ---

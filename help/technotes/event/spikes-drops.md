@@ -2,7 +2,7 @@
 title: Troubleshoot spikes and drops in data
 description: Learn possible reasons why you can see dramatic increases or decreases in trended reports.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-feature: Curate and share, Data Configuration and Collection
+feature: Curate and Share, Data Configuration and Collection
 ---
 # Troubleshoot spikes and drops in data
 

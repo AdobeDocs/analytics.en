@@ -2,7 +2,7 @@
 title: Derive data impacted by events
 description: Use calculated metrics to correct trended data impacted by an event.
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-feature: Curate and share, Calculated Metrics
+feature: Curate and Share, Calculated Metrics
 ---
 # Derive data impacted by events
 

@@ -189,13 +189,13 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Copy segments](segmentation/segmentation-workflow/seg-copy.md)
     + [Manage segments](segmentation/segmentation-workflow/seg-manage.md)
     + [Publish segments to the Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-    + [Select and apply segments](segmentation/segmentation-workflow/t-seg-apply.md)
+    + [Use segments](segmentation/segmentation-workflow/t-seg-apply.md)
   + Segment Reference {#segment-reference}
     + [Operators](segmentation/seg-reference/seg-operators.md)
     + [Data Warehouse segment compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment rights by role](segmentation/seg-reference/seg-rights.md)
     + [Troubleshooting](segmentation/seg-reference/c-troubleshooting.md)
-  + [FAQs on managing legacy segments ](segmentation/seg-transition.md)
+  + [Legacy segments FAQ](segmentation/seg-transition.md)
   + [Best practices](segmentation/best-practices.md)
 + Calculated metrics {#calculated-metrics}
   + [Calculated and Advanced Calculated metrics](c-calcmetrics/cm-overview.md)

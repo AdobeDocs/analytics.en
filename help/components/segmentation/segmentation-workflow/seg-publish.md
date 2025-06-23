@@ -4,7 +4,7 @@ title: Publish Segments to Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
-# Publish segments to Experience Cloud {#publish-segments}
+# Publish segments {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -17,7 +17,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 >abstract="Segments created in Audience Library are available instantly and are not dependent on Analytics updates."
 
 
-Publishing an Adobe Analytics segment to Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including Adobe's [!DNL Advertising Cloud], [!DNL Target], and [!DNL Campaign]. 
+You can publish an Adobe Analytics segment to the Experience Cloud, so you can use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including Adobe's [!DNL Advertising Cloud], [!DNL Target], and [!DNL Campaign]. 
 
 You can publish Analytics segments to Experience Cloud in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 
 
@@ -57,13 +57,13 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 >[!NOTE]
 >Once a week, all data will be fully synced to account for any deltas or discrepancies not captured in the previous week.
 
-## Publish segments in [!UICONTROL Segment Builder]
+## Publish segments in [!UICONTROL Segment builder]
 
 1. In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Segments]**
 1. Select **[!UICONTROL Add]** to create a new segment.
    ![Publish Experience Cloud](assets/publish-ec.png)
-1. Provide a title and a description for the segment. These fields are required before saving.
-1. In the **[!UICONTROL Experience Cloud publishing]** section, select the option, **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
+1. Provide a title and a description for the segment. These fields are required before you can save the segment.
+1. In the **[!UICONTROL Experience Cloud publishing]** section, select the option **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
    >[!IMPORTANT]
    >
@@ -73,14 +73,17 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 |  Element | Description |
 |---|---|
 | **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]** | When this option is enabled, the segment title and definition (i.e. the shell audience as often used in ad platforms) are shared with Experience Cloud instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the [!DNL Audience Library] page in Experience Cloud. </br> |
-| **[!UICONTROL Audience Creation Window]**| The time frame you select is used to create the audience on a rolling-calendar basis. For example, "Last 30 days" (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
+| **[!UICONTROL Audience Creation Window]**| The time frame you select is used to create the audience on a rolling-calendar basis. For example, **[!UICONTROL Last 30 days]** (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created.) |
 | **[!UICONTROL Create in Audience Library]** | The segments that you create and publish can be made available without latency on the [!DNL Audience Library] page in Experience Cloud. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
 | **[!UICONTROL x of 75 Published]** | Shows the number of segments you have published to Experience Cloud. Click the link to see a list of published segments and their associated report suite and owner. |
 | **[!UICONTROL Save]** | Saves this segment. |
 
 ## Unpublish or delete segments
 
-To delete a segment that has been published to Experience Cloud, you have to unpublish it first. To unpublish a segment, just **unclick** the checkbox that you used to publish it.
+>[!CAUTION]
+>
+>To delete a segment that has been published to Experience Cloud, you have to unpublish the segment first. To unpublish a segment, just unselect **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
+
 
 >[!NOTE]
 >
@@ -94,9 +97,7 @@ To view published segments:
 
 1. In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 
-1. View the **[!UICONTROL Published]** column. **[!UICONTROL Yes]** in this column indicates that the segment has been published to Experience Cloud. **[!UICONTROL No]** indicates that it has not.
-
-   ![Publish status](assets/publish-status.png)
+1. View the **[!UICONTROL Published]** column. **[!UICONTROL Yes]** in this column indicates that the segment is published to Experience Cloud. **[!UICONTROL No]** indicates that the segment is not published.
 
 ## Retrieve the [!DNL Audience Manager] UUID
 

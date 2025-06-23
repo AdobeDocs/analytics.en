@@ -8,13 +8,13 @@ exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 
 # Segment containers
 
-A Segment sets conditions to filter a visitor based on the visitor's attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment Builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
+A Segment sets conditions to filter a visitor based on the visitor's attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
 
-The container architecture employed in the Segment Builder defines 
+The container architecture employed in the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md) defines:
 
-- ![Visitor](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitor]** as the outermost container, containing overarching data specific for the visitor across visits and page views. 
-- ![Visit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) a nested **[!UICONTROL Visit]** container lets you set rules to break down the visitor's data based on visits, and 
-- ![Event](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) a nested **[!UICONTROL Hit]** container lets you break down visitor information based on individual page views. 
+- ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitor]** as the outermost container, containing overarching data specific for the visitor across visits and page views. 
+- ![Visit](/help/assets/icons/Visit.svg) a nested **[!UICONTROL Visit]** container lets you set rules to break down the visitor's data based on visits, and 
+- ![WebPage](/help/assets/icons/WebPage.svg) a nested **[!UICONTROL Hit]** container lets you break down visitor information based on individual page views. 
  
 Each container lets you report across a visitor's history, interactions broken down by visits, or break down individual hits.
 
@@ -32,7 +32,7 @@ Each container lets you report across a visitor's history, interactions broken d
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -142,7 +142,7 @@ Sequential segmentation employs the same basic containers, including [!UICONTROL
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -167,7 +167,7 @@ Sequential segmentation employs the same basic containers, including [!UICONTROL
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -182,7 +182,7 @@ Sequential segmentation employs the same basic containers, including [!UICONTROL
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 </table>
 
@@ -204,7 +204,7 @@ The only exception to this hierarchy of containers is when using the [Logic Grou
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>
@@ -219,7 +219,7 @@ The only exception to this hierarchy of containers is when using the [Logic Grou
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Hits</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hits</td>
 </tr>
 
 <tr>

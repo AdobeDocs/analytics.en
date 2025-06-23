@@ -8,7 +8,7 @@ exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 # Quick segments
 
 
-Quick segments allow you to explore data within a Workspace project quickly, without the need to create a segment in the [Segment Builder](seg-create.md). 
+Quick segments allow you to explore data within a Workspace project quickly, without the need to create a segment in the [Segment builder](seg-create.md). 
 
 
 
@@ -38,9 +38,9 @@ To create a quick segment:
 When you create a quick segment using drag and drop, note that:
 
 * Not all component types are supported. Calculated metrics are not supported, and only dimensions and metrics from which you can build segments are supported.
-* For dimensions and metrics components, the [Quick segment builder](#quick-segment-builder) creates automatically an `exists` conditions. For example, if you drag and drop `City`, the condition `City exists` is created.
-* For dimension values, the [Quick segment builder](#quick-segment-builder) automatically creates an `equals` condition. For example, if you drag and drop `amsterdam` from the `City` dimension, the condition `City equals amsterdam` is created.
-* If you drag and drop `unspecified` or `none`, the [Quick segment builder](#quick-segment-builder) automatically creates a `does not exist` condition.
+* For dimensions and metrics components, the [Quick segment builder](#quick-segment-builder) creates automatically an **[!UICONTROL exists]** conditions. For example, if you drag and drop **[!UICONTROL City]**, the condition **[!UICONTROL City]** **[!UICONTROL exists]** is created.
+* For dimension values, the [Quick segment builder](#quick-segment-builder) automatically creates an **[!UICONTROL equals]** condition. For example, if you drag and drop **[!UICONTROL amsterdam]** from the **[!UICONTROL City]** dimension items, the condition **[!UICONTROL City]** **[!UICONTROL equals]** `Amsterdam` is created.
+* If you drag and drop **[!UICONTROL unspecified]** or **[!UICONTROL none]**, the [Quick segment builder](#quick-segment-builder) automatically creates a **[!UICONTROL does not exist]** condition.
 
 Quick segments you create appear at the top of the panel. Quick segments do have a light blue thin left bar. When a quick segment is in edit mode using the [Quick segment builder](#quick-segment-builder), the background of the Quick segment is light blue.
 
@@ -56,7 +56,7 @@ To manage a quick segment, hover over the specific **[!UICONTROL Quick segment]*
 
 ## Quick segment builder
 
-See below for an example of the Quick segment builder. In the example, the builder is opened for a quick segment titled `Interaction Channel equals Website AND Online Orders is greater than 1`. The quick segment at the top does apply to the [!UICONTROL Average Order Value Dashboard] panel and all visualizations within.
+See below for an example of the Quick segment builder. In the example, the builder is opened for a quick segment titled **[!UICONTROL Interaction Channel]** **[!UICONTROL equals]** `Website` **[!UICONTROL AND]** **[!UICONTROL Online Orders]** **[!UICONTROL is greater than]** `1`. The quick segment at the top does apply to the **[!UICONTROL Average Order Value Dashboard]** panel and all visualizations within.
 
 ![Quick segment builder](assets/quick-segment-builder.png)
 

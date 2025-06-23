@@ -1,12 +1,12 @@
 ---
-description: The Segment Builder allows you to compare and constrain values using selected operators.
+description: The Segment builder allows you to compare and constrain values using selected operators.
 title: Comparison Operators for Segments
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 ---
-# Comparison Operators for Segments
+# Comparison operators for segments
 
-The Segment Builder lets you compare and constrain values using selected operators. There are three categories of operators: Standard, Data Warehouse, and Distinct Count.
+The Segment builder lets you compare and constrain values using selected operators. There are three categories of operators: Standard, Data Warehouse, and Distinct Count.
 
 Depending on the operator you select:
 
@@ -61,7 +61,7 @@ For example, you have a page name called *My cool product*.
 
 ## Distinct Count operators
 
-You can segment on a distinct count of items within a dimension. Examples: "Visitors who viewed more than 5 distinct products," or "Visits where more than 5 distinct pages were seen."
+You can segment on a distinct count of items within a dimension. Examples: *Visitors who viewed more than 5 distinct products*, or *Visits where more than 5 distinct pages were seen*.
 
 | Operator | The selected dimension, segment, or metric event... |
 | --- | --- |

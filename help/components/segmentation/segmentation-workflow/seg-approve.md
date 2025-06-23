@@ -1,5 +1,5 @@
 ---
-description: Within the Segment Manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
+description: Within the Segment manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
 title: Approve segments
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62

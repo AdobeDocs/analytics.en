@@ -1,7 +1,7 @@
 ---
 title: Functions and methods
 description: Learn how you can use the functions and methods that Adobe offers in your implementation.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 role: Admin, Developer
 ---

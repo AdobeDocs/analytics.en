@@ -1,7 +1,7 @@
 ---
 title: cleanStr
 description: Remove or replace All unnecessary characters from a string.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
 ---

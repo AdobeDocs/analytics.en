@@ -1,7 +1,7 @@
 ---
 title: Purchase event
 description: Use the purchase event to collect data for the 'Orders', 'Units', and 'Revenue' metrics.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
 ---

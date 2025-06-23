@@ -1,7 +1,7 @@
 ---
 title: useLinkTrackSessionStorage
 description: Store link tracking data in session storage instead of a cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 role: Admin, Developer
 ---

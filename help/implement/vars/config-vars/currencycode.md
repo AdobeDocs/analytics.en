@@ -1,7 +1,7 @@
 ---
 title: What is the currencyCode variable, and how do I use it?
 description: For eCommerce sites, sets the currency the page deals in.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
 ---

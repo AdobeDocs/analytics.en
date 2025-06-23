@@ -1,7 +1,7 @@
 ---
 title: trackingServerSecure
 description: Determine the location image requests are sent on HTTPS pages.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
 ---

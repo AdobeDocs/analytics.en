@@ -91,7 +91,7 @@ You can use segments in Analysis Workspace in any of the following ways:
 
 * Add segments to a panel
   When you add segments to a panel, the segments apply to all content within the panel.
-  For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analysis-workspace/c-panels/panels.md).
+  For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Add segments to a visualization
   When you add segments to a column in a freeform table, the segments apply to all content within the table column. You can also add segments as part of a fallout visualization.
@@ -102,7 +102,7 @@ You can use segments in Analysis Workspace in any of the following ways:
 
 ### Add date ranges to a project
 
-[Date ranges](/help/analyze/analysis-workspace/components/date-ranges/overview.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project and also to some visualizations (like the Freeform table).
+[Date ranges](/help/analyze/analysis-workspace/components/celendar-date-ranges/overview.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project and also to some visualizations (like the Freeform table).
 
 Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left panel:
 
@@ -114,9 +114,9 @@ Each panel includes a date range by default. There are multiple ways to update a
 
       ![Drop a date range](assets/add-date-range.gif)
 
-   * A metric or dimension in a Freeform table visualization. See [Use date ranges](/help/analyze/analysis-workspace/components/date-ranges/overview.md#use-date-ranges) for more information.
+   * A metric or dimension in a Freeform table visualization. See [Use date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/overview.md#use-date-ranges) for more information.
 
-For more information about how to use and manage date ranges in Analysis Workspace, see [Date ranges overview](/help/analyze/analysis-workspace/components/date-ranges/overview.md).
+For more information about how to use and manage date ranges in Analysis Workspace, see [Date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/overview.md).
 
 ## Component info
 

@@ -25,7 +25,7 @@ The date ranges list ➊ displays all the date ranges. The list has the followin
 | Column | Description |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a date range. |
-| **[!UICONTROL Title and description]** | To edit the title and description, select the title link, which opens the [Date range builder](/help/components/date-ranges/create.md#date-range-builder). |
+| **[!UICONTROL Title and description]** | To edit the title and description, select the title link, which opens the [Date range builder](create.md#date-range-builder). |
 | **[!UICONTROL Owner]** | The owner of the date range. |
 | **[!UICONTROL Tags]** | The tags for this date range. |
 | **[!UICONTROL Shared with]** | The individuals or groups that you shared the date range with. Select to open the **[!UICONTROL Share Date range]** dialog. |
@@ -83,11 +83,11 @@ The [Date ranges list](#date-ranges-list) is automatically updated based on your
 
 You edit a date range in two ways:
 
-* In a Workspace project, use the [Component info](/help/components/use-components-in-workspace.md#component-info) icon.
+* In a Workspace project, use the [Component info](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) icon.
 
 * In the [[!UICONTROL Date ranges] list](#date-ranges-list), select the title of the date range.
 
-You use the [Date range builder](/help/components/date-ranges/create.md#date-range-builder) to edit the date range.
+You use the [Date range builder](create.md#date-range-builder) to edit the date range.
 
 
 

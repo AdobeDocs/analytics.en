@@ -97,7 +97,7 @@ You can search, filter, and sort the component list in the left panel of Analysi
    | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Show only components that are Metrics. |
    | ![Segmentation](/help/assets/icons/Segmentation.svg)| **[!UICONTROL Segments]** | Show only components that are segments. |
    | ![Calendar](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Show only components that are Date ranges. |
-   | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *Tag name*]** | Show only components with the specific selected tags. A dedicated tag is available for Adobe Template which are the [default calculated metrics](/help/components/calc-metrics/default-calcmetrics.md) from Adobe. |
+   | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *Tag name*]** | Show only components with the specific selected tags. A dedicated tag is available for Adobe Template which are the [default calculated metrics](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md) from Adobe. |
 
    Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) in a filter to remove the filter.
 

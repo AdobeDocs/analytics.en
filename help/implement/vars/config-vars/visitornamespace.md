@@ -1,7 +1,7 @@
 ---
 title: visitorNameSpace
 description: (Retired) Helped determine third-party cookie domain.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
 ---

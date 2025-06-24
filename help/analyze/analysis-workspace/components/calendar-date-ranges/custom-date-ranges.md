@@ -2,7 +2,7 @@
 description: Create custom date ranges in Analysis Workspace, and save them as Time components.
 keywords: Analysis Workspace
 title: Create custom date ranges
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 ---

@@ -1,7 +1,7 @@
 ---
 description: Date Comparison in Analysis Workspace lets you take any column containing a date range and create a common date comparison, such as  year-over-year, quarter-over-quarter, month-over-month, etc.
 title: Date comparison
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 ---

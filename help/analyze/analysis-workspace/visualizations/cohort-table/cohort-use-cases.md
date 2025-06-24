@@ -2,7 +2,7 @@
 description: Use case examples for cohort analysis.
 keywords: Analysis Workspace
 title: Cohort analysis use cases
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 ---

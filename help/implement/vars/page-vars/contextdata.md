@@ -1,7 +1,7 @@
 ---
 title: contextData
 description: Context data variables let you define custom variables on each page that processing rules can read.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
 ---

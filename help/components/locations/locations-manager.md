@@ -11,6 +11,7 @@ The Locations manager allows you to view, create, edit, or delete accounts and l
 
 * Exporting files using [Data Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exporting reports using [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exporting files when using [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importing schemas using [Classification sets](/help/components/classifications/sets/overview.md)
 
 ## View, filter, and search locations

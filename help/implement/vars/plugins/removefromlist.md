@@ -1,7 +1,7 @@
 ---
 title: rfl
 description: Remove a specific value from a character-delimited string.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
 ---

@@ -167,7 +167,9 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Work with Segments](report-builder/work-with-segments.md)
   + [Filter Dimensions](report-builder/filter-dimensions.md)
   + [Manage Data Blocks](report-builder/manage-reportbuilder.md)
-  + [Schedule Workbooks](report-builder/schedule-reportbuilder.md)
+  + [Schedule workbooks for email](report-builder/schedule-reportbuilder.md)
+  + [Schedule workbooks for cloud exports](/help/analyze/report-builder/report-builder-export.md)
+  + [Manage scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
   + [Restricted Labels](report-builder/restricted-labels.md)
   + [Report Builder Settings](report-builder/report-builder-settings.md)
 + Legacy Report Builder {#legacy-report-builder}

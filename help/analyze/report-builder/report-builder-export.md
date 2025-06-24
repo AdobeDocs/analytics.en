@@ -27,15 +27,7 @@ Use the following process when exporting workbooks from Report Builder to the cl
 
 1. [Export a report from Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Export a report from Report Builder {#export-from-report-builder}
+## Export a report from Report Builder
 
 >[!NOTE]
 >
@@ -86,7 +78,7 @@ To export reports from Report Builder:
 
    You see a confirmation toast at the bottom of the Report Builder hub and the scheduled workbook is listed under the Workbooks tab.
 
-## Advantages of exporting to the cloud {#advantages}
+## Advantages of exporting to the cloud
 
 Exporting Adobe Analytics data to the cloud allows you to: 
 

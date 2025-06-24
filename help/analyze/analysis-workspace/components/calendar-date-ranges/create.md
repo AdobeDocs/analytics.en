@@ -56,7 +56,7 @@ The **[!UICONTROL New date range]** or **[!UICONTROL Edit date range]** dialog i
 
      You can select the text in brackets (for example **[!UICONTROL fixed start - rolling quarterly]**) to extend the panel and specify details for **[!UICONTROL Start]** and **[!UICONTROL End]**.
 
-     ![Rollinf dates](assets/rolliing-dates.png)
+     ![Rolling dates](assets/rolliing-dates.png)
 
      1. Select **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
      1. When you have selected **[!UICONTROL Start of]** or **[!UICONTROL End of]**, you can build a full expression. For example: **[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**. Pick the appropriate value for each individual part of the expression.

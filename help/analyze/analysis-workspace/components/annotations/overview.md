@@ -24,7 +24,7 @@ Annotations can apply to:
 
 * The data view in which annotations are created (default), or all data views.
 
-See [Create annotations](/help/components/annotations/create-annotations.md) for the various options available to create annotations. You then build, modify, and save annotations in the [Annotation builder](create-annotations.md#annotation-builder).
+See [Create annotations](create-annotations.md) for the various options available to create annotations. You then build, modify, and save annotations in the [Annotation builder](create-annotations.md#annotation-builder).
 
 You use the [Annotations manager](manage-annotations.md) to manage annotations.
 

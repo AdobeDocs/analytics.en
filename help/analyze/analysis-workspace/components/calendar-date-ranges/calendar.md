@@ -1,7 +1,7 @@
 ---
 description: In the calendar, you can specify dates and date ranges, or select a preset.
 title: Calendar and date ranges overview
-feature: Date Ranges
+feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 ---
@@ -39,7 +39,7 @@ Or, you can use a date range in a Freeform table as a metric or dimension.
 >When you use date ranges in a Freeform table, the date ranges override the calendar specified for the panel to which the Freeform table belongs.
 >
 
-You use a date range as you would [use any component](/help/components/overview.md#analysis-workspace-components). You drag the date range from the ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]** component panel and drop the component on:
+You use a date range as you would [use any component](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). You drag the date range from the ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]** component panel and drop the component on:
 
 - **[!UICONTROL Calendar]**: You ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** the current calendar configuration with the date range.
 - **Metric column header**: You ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** the metric, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Add]** the date range as a metric, or ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** the metric using the date range component.
@@ -80,7 +80,7 @@ Analysis Workspace provides a number of default date ranges.
 
 ## Custom date ranges
 
-You can create your own custom date ranges. See [Create date range](/help/components/date-ranges/create.md) for the various options available to create date ranges. You then build, modify, and save date ranges in the [Date range builder](create.md#date-range-builder).
+You can create your own custom date ranges. See [Create date range](/help/analyze/analysis-workspace/components/date-ranges/create.md) for the various options available to create date ranges. You then build, modify, and save date ranges in the [Date range builder](create.md#date-range-builder).
 
 You use the [Date range manager](manage.md) to manage date ranges.
 

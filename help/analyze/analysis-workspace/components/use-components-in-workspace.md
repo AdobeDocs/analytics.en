@@ -85,7 +85,7 @@ For more information about metrics, see [Metrics](/help/analyze/analysis-workspa
 
 ### Add segments to a project
 
-[Segments](/help/components/segments/seg-overview.md) allow you to identify subsets of persons, sessions or events based on characteristics or specific interactions.
+[Segments](/help/components/segmentation/seg-overview.md) allow you to identify subsets of persons, sessions or events based on characteristics or specific interactions.
 
 You can use segments in Analysis Workspace in any of the following ways:
 

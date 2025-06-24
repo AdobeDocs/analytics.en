@@ -30,7 +30,7 @@ The annotations list ➊ displays all the annotations that you own, the annotati
 | Column | Description |
 | --- | --- | 
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) an annotation. |
-| **[!UICONTROL Title and description]** | Provided in the Annotations Builder. To edit the title and description, select the title link - opens the [Annotations builder](/help/components/annotations/create-annotations.md#annotation-builder). A shared annotation is indicated with ![Share](/help/assets/icons/ShareAlt.svg).   |
+| **[!UICONTROL Title and description]** | Provided in the Annotations Builder. To edit the title and description, select the title link - opens the [Annotations builder](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder). A shared annotation is indicated with ![Share](/help/assets/icons/ShareAlt.svg).   |
 | **[!UICONTROL Report suite]** | The report suites that this annotation applies to.  | 
 | **[!UICONTROL Owner]** | The owner of the annotation. As a user, you only see the annotations that you own or the annotations that are shared with you. |
 | **[!UICONTROL Applied date range]** | The date or date range that this annotation applies to. |
@@ -91,11 +91,11 @@ The [Annotations list](manage-annotations.md#annotations-list) is automatically 
 
 You can edit an annotation in two ways:
 
-* In a Workspace project, use the [Component info](/help/components/use-components-in-workspace.md#component-info) icon.
+* In a Workspace project, use the [Component info](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) icon.
 
 * In the [[!UICONTROL Annotations] list](#annotations-list), select the title of the annotation.
 
-You use the [Annotation builder](/help/components/annotations/create-annotations.md#annotation-builder) to edit the annotation.
+You use the [Annotation builder](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) to edit the annotation.
 
 ## Share annotations
 

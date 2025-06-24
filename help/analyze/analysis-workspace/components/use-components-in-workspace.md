@@ -9,7 +9,7 @@ exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
 
 Components make up the actual data of any project in Analysis Workspace. Components consist of dimensions, metrics, segments, and date ranges. You can add components to a project by dragging them into visualizations or panels.
 
-See the [Components overview](/help/components/overview.md) for more information on the types of components that you can add.
+See the [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) for more information on the types of components that you can add.
 
 >[!TIP]
 >
@@ -19,9 +19,9 @@ See the [Components overview](/help/components/overview.md) for more information
 
 1. [Create a project in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel) or [add a visualization](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. If you add a component to a blank project, a freeform table visualization is already created for you.
+1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. If you add a component to a blank project, a freeform table visualization is already created for you.
 
-1. Select ![Curate](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** from the button panel. You see all available components in the left panel. See [Interface](/help/analysis-workspace/home.md#interface) for more details.
+1. Select ![Curate](/help/assets/icons/Curate.svg) **[!UICONTROL Components]** from the button panel. You see all available components in the left panel. See [Interface](/help/analyze/analysis-workspace/home.md#interface) for more details.
 
 1. Scroll to or search for the component that you want to add, then drag it to a panel or visualization within your project. 
 
@@ -40,7 +40,7 @@ See the [Components overview](/help/components/overview.md) for more information
 
 ### Add dimensions to a project
 
-[Dimensions](/help/components/dimensions/overview.md) are variables in Customer Journey Analytics that typically contain string values. In contrast, [metrics](/help/components/calc-metrics/calc-metr-overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+[Dimensions](/help/components/dimensions/overview.md) are variables in Customer Journey Analytics that typically contain string values. In contrast, [metrics](/help/components/c-calcmetrics/cm-overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
 
 1. Start adding a dimension to your project in Analysis Workspace, as described in [Add components to a project](#add-components-to-a-project).
 
@@ -52,9 +52,9 @@ See the [Components overview](/help/components/overview.md) for more information
    
    * Drag one or more dimensions from the left panel onto the segment drop zone to create a quick segment, as described in [Add segments to a project](#add-filters-to-a-project).
 
-1. You can optionally break down dimensions and dimension items in Analysis Workspace with other components. For more information, see [Break down dimensions in Workspace](/help/components/dimensions/t-breakdown-fa.md).
+1. You can optionally break down dimensions and dimension items in Analysis Workspace with other components. For more information, see [Break down dimensions in Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/components/dimensions/view-dimensions.md), [Break down dimensions](/help/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/components/dimensions/time-parting-dimensions.md).
+For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ### Add metrics to a project
 
@@ -81,7 +81,7 @@ To add a metric to a project in Analysis Workspace:
    * Drag a metric above or below an existing metric header to create a metric overlap.
 
      
-For more information about metrics, see [Metrics](/help/components/apply-create-metrics.md).
+For more information about metrics, see [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 ### Add segments to a project
 
@@ -91,18 +91,18 @@ You can use segments in Analysis Workspace in any of the following ways:
 
 * Add segments to a panel
   When you add segments to a panel, the segments apply to all content within the panel.
-  For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analysis-workspace/c-panels/panels.md).
+  For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analysis-workspace/c-panels/panels.md).
 
 * Add segments to a visualization
   When you add segments to a column in a freeform table, the segments apply to all content within the table column. You can also add segments as part of a fallout visualization.
 
 * Use segments in components
-  Whe you define components like [calculated metrics](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md), [annotations](/help/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segments/seg-builder.md) you can use segments as part of the definition.
+  Whe you define components like [calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) you can use segments as part of the definition.
 
 
 ### Add date ranges to a project
 
-[Date ranges](/help/components/date-ranges/overview.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project and also to some visualizations (like the Freeform table).
+[Date ranges](/help/analyze/analysis-workspace/components/date-ranges/overview.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project and also to some visualizations (like the Freeform table).
 
 Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left panel:
 
@@ -114,9 +114,9 @@ Each panel includes a date range by default. There are multiple ways to update a
 
       ![Drop a date range](assets/add-date-range.gif)
 
-   * A metric or dimension in a Freeform table visualization. See [Use date ranges](/help/components/date-ranges/overview.md#use-date-ranges) for more information.
+   * A metric or dimension in a Freeform table visualization. See [Use date ranges](/help/analyze/analysis-workspace/components/date-ranges/overview.md#use-date-ranges) for more information.
 
-For more information about how to use and manage date ranges in Analysis Workspace, see [Date ranges overview](/help/components/date-ranges/overview.md).
+For more information about how to use and manage date ranges in Analysis Workspace, see [Date ranges overview](/help/analyze/analysis-workspace/components/date-ranges/overview.md).
 
 ## Component info
 

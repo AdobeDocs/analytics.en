@@ -59,9 +59,11 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
-      + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
-      + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+      + [Overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
+      + [Create date ranges](analysis-workspace/components/calendar-date-ranges/create.md)
+      + [Manage data ranges](analysis-workspace/components/calendar-date-ranges/manage.md)
       + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + [Examples](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
     + Data Dictionary {#data-dictionary}
       + [Data Dictionary overview](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
       + [View component information in the Data Dictionary](analysis-workspace/components/data-dictionary/view-data-dictionary.md)

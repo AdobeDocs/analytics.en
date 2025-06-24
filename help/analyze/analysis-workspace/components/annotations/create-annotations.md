@@ -9,13 +9,14 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 
 By default, only administrators can create annotations. Users have rights to view annotations, similar to how users view other components (such as segments, calculated metrics, etc.).
 
-However, administrators can give the **[!UICONTROL Annotation Creation]** permission for **[!UICONTROL Reporting Tools]** in **[!UICONTROL Edit permissions for CJA Workspace Access]** to users via the Admin Console. See [User-level access control](/help/technotes/access-control.md#user-level-access) for more information.
+
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 You can create an annotation in the following ways:
 
 ![Create an annotation](assets/create-annotation.png)
 
-* **A**. In the main interface, select **[!UICONTROL Components]** and select **[!UICONTROL Annotations]**. Select ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] from the [[!UICONTROL Annotations] manager](/help/components/annotations/manage-annotations.md). 
+* **A**. In the main interface, select **[!UICONTROL Components]** and select **[!UICONTROL Annotations]**. Select ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] from the [[!UICONTROL Annotations] manager](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md). 
 * **B**. In a Workspace project, from the context menu in a visualization, select **[!UICONTROL Create annotation from selection]**.
 * **C**. In a Workspace project, from the context menu in a line graph, select **[!UICONTROL Annotate Selection]**.
 * **D**. In a Workspace project, select **[!UICONTROL Components]** from the menu, and select **[!UICONTROL Create annotation]**. 
@@ -39,7 +40,7 @@ To define the annotation, you use the [[!UICONTROL Annotation builder]](#annotat
 
 
 
-The **[!UICONTROL Annotations builder]** dialog is used to create new or edit existing annotations. The dialog is titled **[!UICONTROL New annotation]** or **[!UICONTROL Edit annotation]** for annotations that you create or manage from the [[!UICONTROL Annotations] manager](/help/components/annotations/manage-annotations.md).
+The **[!UICONTROL Annotations builder]** dialog is used to create new or edit existing annotations. The dialog is titled **[!UICONTROL New annotation]** or **[!UICONTROL Edit annotation]** for annotations that you create or manage from the [[!UICONTROL Annotations] manager](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
 
 
 >[!BEGINTABS]

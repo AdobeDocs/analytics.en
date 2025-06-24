@@ -35,12 +35,12 @@ To access the Components panel, select ![Curate](/help/assets/icons/Curate.svg) 
 
 ![Workspace panel highlighting the Components icon in the left-rail](assets/components.png)
 
-See [Create a project](/help/analysis-workspace/home.md) for information on how to use components in a project.
+See [Create a project](/help/analyze/analysis-workspace/home.md) for information on how to use components in a project.
 
 
 ## Manage components {#actions}
 
-You can quickly create a new component using the **[!UICONTROL Components]** menu in Analysis Workspace. See the [Analysis Workspace menu](/help/analysis-workspace/home.md#menu) for more details.
+You can quickly create a new component using the **[!UICONTROL Components]** menu in Analysis Workspace. See the [Analysis Workspace menu](/help/analyze/analysis-workspace/home.md#menu) for more details.
 
 You can manage components (individually or by selecting more than one). 
 
@@ -65,7 +65,7 @@ You can manage components (individually or by selecting more than one).
    | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Share**] | Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics. |
    | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **Delete**] | Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics. |
 
-Custom components can also be managed through their respective Component managers. For example, see [Manage segments](/help/components/segments/seg-manage.md).
+Custom components can also be managed through their respective Component managers. For example, see [Manage segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
 ## Manage the component list
 
@@ -119,7 +119,7 @@ The following sort options are available:
 
 ## Access permissions
 
-In Analysis Workspace, administrators can [curate](/help/analysis-workspace/curate-share/curate.md) which components are exposed to users in reporting.
+In Analysis Workspace, administrators can [curate](/help/analyze/analysis-workspace/curate-share/curate.md) which components are exposed to users in reporting.
 
 
 <!--

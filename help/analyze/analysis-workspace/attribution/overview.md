@@ -14,19 +14,21 @@ Attribution gives analysts the ability to customize how dimension items get cred
 
 In some reports, you might want the order attributed to Paid search. In other reports, you might want the order attributed to Social. Attribution lets you control this aspect of reporting. It is available to all organizations on Adobe Analytics Ultimate, Prime, Select and Foundation. If you are not sure which type of contract you have with Adobe, contact your organization's Adobe Account Team.
 
-## Value of Attribution
+## Value of attribution
 
 A given customer journey isn't linear and often unpredictable. Each customer proceeds at their own pace; often they double back, stall, restart, or engage in other non-linear behavior. These organic actions make it difficult to know the impact of marketing efforts across the customer journey. It also hampers efforts to tie multiple channels of data together.
 
+<!--
 ![Attribution problem](assets/attribution_iq_problem.png)
+-->
 
 Adobe Analytics enhances attribution by letting you:
 
-* Define attribution beyond paid media: Any dimension, metric, channel or event can be applied to models (e.g. internal search), not just marketing campaigns.
-* Utilize unlimited attribution model comparison: dynamically compare as many models as you want.
+* Define attribution beyond paid media: Any dimension, metric, channel or event can be applied to models (for example, internal search), not just marketing campaigns.
+* Use unlimited attribution model comparison: dynamically compare as many models as you want.
 * Avoid implementation changes: With report time processing and context-aware sessions, customer journey context can be built in and applied at run time.
 * Construct the session that best matches your attribution scenario.
-* Break down attribution by segments: Easily compare the performance of your marketing channels across any important segment (e.g. New vs. Repeat customers, Product X vs. Product Y, Loyalty level or CLV).
+* Break down attribution by segments: Easily compare the performance of your marketing channels across any important segment (for example, New vs. Repeat customers, Product X vs. Product Y, Loyalty level or CLV).
 * Inspect channel cross-over and multi-touch analysis: Use Venn Diagrams and Histograms, and trend attribution results.
 * Analyze key marketing sequences visually: explore paths that led to conversion visually with multi-node flow and fallout visualizations.
 * Build calculated metrics: use any number of attribution allocation methods.
@@ -71,6 +73,6 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding side-by-s
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics tools that do not support Attribution
+## Adobe Analytics tools that do not support attribution
 
 Any tools that do not support the Analytics 2.0 API, such as Report Builder, do not support Attribution.

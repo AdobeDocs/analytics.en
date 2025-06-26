@@ -8,7 +8,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 
 >[!NOTE]
 >
->To maximize effectiveness of Marketing Channels for Attribution and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>To maximize effectiveness of Marketing Channels for Attribution and Adobe Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 

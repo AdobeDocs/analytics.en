@@ -1,7 +1,7 @@
 ---
 title: Create date ranges
 description: Create a date range for use in reporting.
-feature: Calendar
+feature: Date Ranges
 role: User
 ---
 # Create date ranges

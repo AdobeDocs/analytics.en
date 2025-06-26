@@ -1,7 +1,7 @@
 ---
 title: Manage date ranges
 description: Share, rename, or delete date ranges in Analysis Workspace.
-feature: Calendar
+feature: Date ranges
 role: User
 ---
 # Manage date ranges

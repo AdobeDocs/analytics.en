@@ -6,7 +6,7 @@ exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
 ---
 # Scheduled projects
 
-Scheduled Analysis Workspace projects can be managed in Customer Journey Analytics using **[!UICONTROL Components]** > **[!UICONTROL Scheduled projects]**.
+Scheduled Analysis Workspace projects can be managed in Adobe Analytics using **[!UICONTROL Components]** > **[!UICONTROL Scheduled projects]**.
 
 In **[!UICONTROL Scheduled Projects]**, you can edit and delete recurring project schedules.  The [Scheduled project list](#scheduled-project-list) shows the items that a specific user has created. If the user account is disabled in the application, all scheduled deliveries will stop.
 

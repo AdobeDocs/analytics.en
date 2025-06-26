@@ -7,7 +7,7 @@ exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
 ---
 # Preview dimensions in Analysis Workspace
 
-You can use the [component info](/help/components/use-components-in-workspace.md#component-info) for a component to show the top items for a dimension.
+You can use the [component info](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) for a component to show the top items for a dimension.
 
 ![Componen info](assets/component-info.png)
 

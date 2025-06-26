@@ -16,7 +16,7 @@ exl-id: 24193013-1361-43fc-b129-c44f207d9101
 
 1. Select **Blank Workspace project** to create your Workspace project using a browser.
 
-   See [Blank mobile scorecard](/help/mobile-app/curator.md) for more information on how to create a Mobile scorecard project that you can share with other stakeholders using a mobile app. And see [Guided analysis](/help/guided-analysis/overview.md) for  more information on the various options available to create your guided analysis project.
+   See [Blank mobile scorecard](/help/analyze/mobile-app/curator.md) for more information on how to create a Mobile scorecard project that you can share with other stakeholders using a mobile app.
 
 1. Select [!UICONTROL **Create**].
 
@@ -30,13 +30,13 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
 * Add [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to your panels. For example: 
   * **[!DNL Line]** [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualization ➋  
   * **[!DNL US States]** [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization ➌
-* Add [components](/help/components/overview.md) to your visualizations. For example:
-  * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
-  * **[!DNL Unique Visitors]** [metric](/help/components/apply-create-metrics.md) ➎ 
-  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/calc-metrics/calc-metr-overview.md) ➏ 
-  * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segments/seg-overview.md) ➐
-  * **[!DNL Last Month]** [date range](/help/components/date-ranges/overview.md) ➑ 
-  * **[!DNL Example]** [annotation](/help/components/annotations/overview.md) ➒
+* Add [components](/help/analyze/analysis-workspace/components/overview.md) to your visualizations. For example:
+  * **[!DNL US States]** [dimension](/help/analyze/analysis-workspace/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [metric](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎ 
+  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/analyze/analysis-workspace/components/calc-metrics/calc-metr-overview.md) ➏ 
+  * **[!DNL Visits from Mobile Devices]** [segment](/help/analyze/analysis-workspace/components/segments/seg-overview.md) ➐
+  * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/date-ranges/overview.md) ➑ 
+  * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## Project Info & Settings {#project-info-settings}

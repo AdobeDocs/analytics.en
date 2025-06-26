@@ -12,7 +12,7 @@ You can send Adobe Analytics reports as files to selected users by email. You ca
 
 Any tags applied to the project are automatically applied to the export.
 
-Other methods of exporting Adobe Analytics data are also available, as described in [Export overview](/help/analysis-workspace/export/export-project-overview.md).
+Other methods of exporting Adobe Analytics data are also available, as described in [Export overview](/help/analyze/analysis-workspace/export/export-project-overview.md).
 
 ![Send file](assets/send-file.png)
 

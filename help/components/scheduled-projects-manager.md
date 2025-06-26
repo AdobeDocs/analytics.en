@@ -37,7 +37,7 @@ You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to configure 
 
 Search for a scheduled project using ![Search](/help/assets/icons/Search.svg). You can also see if any filters are applied from the Filters panel. To remove a filter, select ![CrossSize75](/help/assets/icons/CrossSize75.svg) for a filter. To remove all filters, select **[!UICONTROL Clear all]**.
 
-To edit a scheduled project, select the title of the scheduled project. Use the **[!UICONTROL Edit scheduled project]** dialog to update the schedule details. See [Send files to other](../analysis-workspace/export/t-schedule-report.md) for more details.
+To edit a scheduled project, select the title of the scheduled project. Use the **[!UICONTROL Edit scheduled project]** dialog to update the schedule details. See [Send files to other](../analyze/analysis-workspace/curate-share/t-schedule-report.md) for more details.
 
 ![Edit scheduled project](assets/edit-scheduled-project.png)
 

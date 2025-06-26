@@ -30,11 +30,11 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
 * Add [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to your panels. For example: 
   * **[!DNL Line]** [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualization ➋  
   * **[!DNL US States]** [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualization ➌
-* Add [components](/help/analyze/analysis-workspace/components/overview.md) to your visualizations. For example:
-  * **[!DNL US States]** [dimension](/help/analyze/analysis-workspace/components/dimensions/overview.md) ➍
+* Add [components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to your visualizations. For example:
+  * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
   * **[!DNL Unique Visitors]** [metric](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎ 
-  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/analyze/analysis-workspace/components/calc-metrics/calc-metr-overview.md) ➏ 
-  * **[!DNL Visits from Mobile Devices]** [segment](/help/analyze/analysis-workspace/components/segments/seg-overview.md) ➐
+  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/c-calcmetrics/cm-overview.md) ➏ 
+  * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segmentation/seg-overview.md) ➐
   * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/date-ranges/overview.md) ➑ 
   * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 

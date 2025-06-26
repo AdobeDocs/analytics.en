@@ -1,7 +1,7 @@
 ---
 description: Learn how to enable Adobe Campaign Standard reporting in Adobe Analytics
 title: How do I integrate Adobe Campaign Standard Reporting into Adobe Analytics?
-feature: Administration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 ---

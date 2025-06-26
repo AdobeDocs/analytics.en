@@ -20,7 +20,7 @@ If the recipient of the link has not been assigned a [project role](/help/analys
 
 You can share a read-only link to Analysis Workspace projects with people who don't have access to Customer Journey Analytics.
 
-For more information, see "Share a project with anyone (no login required)" in the article [Share projects](/help/analysis-workspace/curate-share/share-projects.md).
+For more information, see [Share with anyone](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
 ## Get a panel or visualization link {#panel-link} 
 

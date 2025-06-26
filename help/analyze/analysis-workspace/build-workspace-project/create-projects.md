@@ -35,7 +35,7 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
   * **[!DNL Unique Visitors]** [metric](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎ 
   * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/c-calcmetrics/cm-overview.md) ➏ 
   * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segmentation/seg-overview.md) ➐
-  * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/date-ranges/overview.md) ➑ 
+  * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑ 
   * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 

@@ -94,3 +94,5 @@ To delete a folder
     A confirmation notification indicates that the folder was deleted.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
+
+-->

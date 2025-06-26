@@ -113,3 +113,5 @@ You can also add projects from inside a folder using the ellipses link.
 1.  Select **Add** to add the projects to the folder.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+
+-->

@@ -10,7 +10,7 @@ exl-id: 24193013-1361-43fc-b129-c44f207d9101
 
 [Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace allow you to create and view business-critical analyses.  These analyses can be shared with stakeholders inside or outside your organization. 
 
-1. In Customer Journey Analytics, select **[!UICONTROL Workspace]**.
+1. In Adobe Analytics, select **[!UICONTROL Workspace]**.
 
 1. Select **[!UICONTROL Projects]** in the left panel, then select **[!UICONTROL Create project]**.
 
@@ -75,7 +75,6 @@ Settings include:
 | Show annotations | Specify whether annotations are shown for this project or not. |
 |  [Project color palette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md)  | You can change the categorical color palette used in Workspace, by choosing from out-of-the-box palettes that have been optimized for color blindness, or by specifying your custom palette. This feature affects many things in Workspace, including most visualizations.  |
 | [View Density](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Lets you see more data on the screen by reducing the vertical padding of the left panel, freeform tables and cohort tables. |
-| Allow commenting | **Note:** This functionality is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Customer Journey Analytics release process, see [Customer Journey Analytics feature releases](/help/release-notes/releases.md). <p>When this option is enabled, a comments area is available in the right rail of the project in Analysis Workspace. For more information, see [Add and manage comments in projects](/help/analyze/analysis-workspace/build-workspace-project/comment-projects.md).</p>  |
 
 
 

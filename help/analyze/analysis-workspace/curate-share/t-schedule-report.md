@@ -8,11 +8,11 @@ exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
 # Send files to others
 
-You can send Customer Journey Analytics reports as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
+You can send Adobe Analytics reports as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
 
 Any tags applied to the project are automatically applied to the export.
 
-Other methods of exporting Customer Journey Analytics data are also available, as described in [Export overview](/help/analysis-workspace/export/export-project-overview.md).
+Other methods of exporting Adobe Analytics data are also available, as described in [Export overview](/help/analysis-workspace/export/export-project-overview.md).
 
 ![Send file](assets/send-file.png)
 

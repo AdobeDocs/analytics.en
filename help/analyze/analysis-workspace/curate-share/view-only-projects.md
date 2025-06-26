@@ -10,7 +10,7 @@ exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 
 You can share projects as read-only to recipients through the [share functionality](share-projects.md). Recipients placed in the **[!UICONTROL Read only]** role will receive a more limited project experience. 
 
-This may be desired if you are sharing a project to users that are less familiar with your organization's data structure, Analysis Workspace or Customer Journey Analytics generally, but you still want them to consume data and insights in a safe environment. 
+This may be desired if you are sharing a project to users that are less familiar with your organization's data structure, Analysis Workspace or Adobe Analytics generally, but you still want them to consume data and insights in a safe environment. 
 
 ![Share as read-only](assets/read-only-project-sender.png)
 

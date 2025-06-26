@@ -7,7 +7,7 @@ exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 ---
 # Folders overview
 
-Folders in Customer Journey Analytics are available on the Workspace landing page when you have selected to [Show Folders & Projects](../freeform-overview.md#show-selector).
+Folders in Adobe Analytics are available on the Workspace landing page when you have selected to [Show Folders & Projects](../freeform-overview.md#show-selector).
 
 Folders in Workspace help you to organize and categorize your projects. With the folders functionality, you can create folders and sub-folders to manage your projects. 
 

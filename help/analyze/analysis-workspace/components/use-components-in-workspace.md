@@ -40,7 +40,7 @@ See the [Components overview](/help/analyze/analysis-workspace/components/analys
 
 ### Add dimensions to a project
 
-[Dimensions](/help/components/dimensions/overview.md) are variables in Customer Journey Analytics that typically contain string values. In contrast, [metrics](/help/components/c-calcmetrics/cm-overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
+[Dimensions](/help/components/dimensions/overview.md) are variables in Adobe Analytics that typically contain string values. In contrast, [metrics](/help/components/c-calcmetrics/cm-overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
 
 1. Start adding a dimension to your project in Analysis Workspace, as described in [Add components to a project](#add-components-to-a-project).
 

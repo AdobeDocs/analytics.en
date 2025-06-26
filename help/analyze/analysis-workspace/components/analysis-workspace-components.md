@@ -7,7 +7,7 @@ exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 ---
 # Components overview
 
-Components are features in Customer Journey Analytics that can be used in visualizations (like Freeform table), or to complement reporting features.
+Components are features in Adobe Analytics that can be used in visualizations (like Freeform table), or to complement reporting features.
 
 To manage components from the main Adobe Analytics interface: 
   

@@ -10,7 +10,7 @@ exl-id: 75c551de-297e-4c45-95e6-77472be6628a
  
 Workspace projects allow you to combine panels, visualizations and components to craft your analysis and share with anyone in your organization. Before you start your first project, learn about how to access, navigate and manage your projects.  
 
-To access projects in Customer Journey Analytics, select **[!UICONTROL Workspace]**.  The **[!UICONTROL Projects]** manager lists all the projects that you own or projects that are shared with you. The Project manager with the Project list is also the default landing page for Customer Journey Analytics, unless you have configured otherwise in Preferences. 
+To access projects in Adobe Analytics, select **[!UICONTROL Workspace]**.  The **[!UICONTROL Projects]** manager lists all the projects that you own or projects that are shared with you. The Project manager with the Project list is also the default landing page for Adobe Analytics, unless you have configured otherwise in Preferences. 
 
 ![Project landing page showing the projects list.](assets/projects.png)
 

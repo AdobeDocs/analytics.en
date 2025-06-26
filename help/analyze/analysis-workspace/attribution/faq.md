@@ -1,6 +1,6 @@
 ---
 title: Attribution FAQ
-description: Get answers to commonly asked questions around attribution.
+description: Get answers to commonly asked questions about attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
@@ -10,7 +10,7 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 
 +++## What is the "None" line item when using attribution?
 
-The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. To reduce the number of conversions attributed to the 'None' line item, try using a a Custom Lookback Window with a longer lookback period.
+The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. To reduce the number of conversions attributed to the 'None' line item, try using a Custom Lookback Window with a longer lookback period.
 
 +++
 
@@ -100,11 +100,11 @@ Yes, classifications are fully supported.
 
 Yes, most data sources are supported. Attribution is not possible with summary-level data sources because these data sources do not tie to an Analytics visitor identifier.
 
-Transaction ID data sources are treated like any other hit. Transaction ID data sources don't use the special processing that normally is used in traditional reporting. In other words, when using report time processing, Transaction ID hits will have eVar values propagated from hits which occur near the timestamp of the Transaction ID hit. The values will not be propagated from hits that occurred near the time of the original transaction.
+Transaction ID data sources are treated like any other hit. Transaction ID data sources don't use the special processing that normally is used in traditional reporting. In other words, when using report time processing, Transaction ID hits have eVar values propagated from hits which occur near the timestamp of the Transaction ID hit. The values are not propagated from hits that occurred near the time of the original transaction.
 
-When possible, attribution relies on the MID column value sent within an event in the data source, rather than a persisted value. The attribution model is applied to the MID column values in the data source, on-the-fly. For example, when you use "Last Touch" attribution, the model starts from each instance of a metric and walks backward sequentially in the hits until the model reaches the last value observed in the MID column.
+When possible, attribution relies on the MID column value that is sent within an event in the data source, rather than a persisted value. The attribution model is applied to the MID column values in the data source, on-the-fly. For example, when you use [Last Touch attribution](models.md) the model starts from each instance of a metric. And walks backward sequentially in the hits until the model reaches the last value observed in the MID column.
 
-When not possible, attribution will use the MID value in the 'prior record' in the data source for evaluation. This prior record might not be ordered sequentially by timestamp, given that AA does not support out-of-order data.
+When not possible, attribution uses the MID value in the *prior record* in the data source for evaluation. This prior record might not be ordered sequentially by timestamp, given that AA does not support out-of-order data.
 
 Due to the records not being ordered sequentially, the expected values from applying persistence can impact the amount of time that exists between the provided transaction ID timestamp and the original transaction.
 

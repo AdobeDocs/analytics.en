@@ -22,7 +22,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component de
 
 
 
-## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+## Add descriptions to components in Data Dictionary {#add-descriptions}
 
 The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
 

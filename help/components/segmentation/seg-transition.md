@@ -1,22 +1,22 @@
 ---
 description: Frequently asked questions around managing legacy segments.
-title: Frequently Asked Questions on legacy segments
+title: Legacy segments FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 ---
-# Frequently Asked Questions on legacy segments
+# Legacy segments FAQ
 
-Answers frequent questions on best practices for managing legacy segments - segments created prior to 2014.
+This article answers frequently asked questions on best practices for managing legacy segments (segments created prior to 2014).
 
-## Managing Legacy Segments {#legacy}
+## Managing legacy segments {#legacy}
 
 +++ **What happened to my existing segments?**
 
-Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly. [More...](/help/components/segmentation/seg-transition.md)
+Your existing segments will continue to work as they did before. Any reports that have these segments applied will continue to work correctly.
 
-Most former pre-defined and suite segments will be migrated over as segment templates into the Segment Builder. Segment templates are used to quickly build custom segments with common audiences. Segment templates can't be applied to a report directly, but they can be easily saved to a custom segment.
+Most former pre-defined and suite segments will be migrated over as segment templates into the Segment builder. Segment templates are used to quickly build custom segments with common audiences. Segment templates can't be applied to a report directly, but they can be easily saved to a custom segment.
 
-Segment templates are marked with a special icon in Segment Builder: 
+Segment templates are marked with a special icon in Segment builder: 
 
 ![](assets/seg_templates.png)
 
@@ -40,7 +40,7 @@ You have a bookmark that references the segment for the mainprod report suite. T
 
 All existing Data Warehouse segments still work in Data Warehouse. Most Data Warehouse segments will also work in other components such as Analysis Workspace.
 
-You can create or edit a new Data Warehouse segments in the segment builder/manager. The Product Compatibility mechanism in the Segment Builder automatically determines whether a segment is compatible with Data Warehouse.
+You can create or edit a new Data Warehouse segments in the segment builder/manager. The Product Compatibility mechanism in the Segment builder automatically determines whether a segment is compatible with Data Warehouse.
 
 +++
 
@@ -52,7 +52,7 @@ You can create or edit a new Data Warehouse segments in the segment builder/mana
 * **Visits from Paid Search**
 * **Visits with Visitor ID Cookie**
 
-These segments will be migrated over as segment templates into the Segment Builder. Existing reports that have these segments applied will continue to work correctly.
+These segments will be migrated over as segment templates into the Segment builder. Existing reports that have these segments applied will continue to work correctly.
 
 +++
 
@@ -111,9 +111,9 @@ The following tips will help you migrate common dimensions:
 * Operating Systems - use the OS Types dimensions to get all operating systems in a type, e.g. Microsoft Windows.
 * Refer to "New and Renamed Dimensions" (see below)
 
-## New and Renamed Dimensions {#renamed}
+## New and renamed dimensions {#renamed}
 
-The following table contains a list of dimensions that were renamed in Segment Builder.
+The following table contains a list of dimensions that were renamed in Segment builder.
 
 |New Dimension Name|Previous Name|Notes|
 |--- |--- |--- |
@@ -141,7 +141,7 @@ The following table contains a list of dimensions that were renamed in Segment B
 
 {style="table-layout:auto"}
 
-## Changes to String-Based Dimensions that have Known Values {#string-based-dims}
+## Changes to string-based dimensions that have known values {#string-based-dims}
 
 String-based dimensions that have a known set of values were changed to enumerated types. When creating a segment using these dimensions, the list is pre-populated with all known values and the only operator supported is equals. This lets you quickly segment the exact values you were looking for without selecting unintended values when using less restrictive matching.
 
@@ -164,7 +164,7 @@ The following dimensions were changed to enumerated lists:
 |  mobile bookmark length  | java enabled  | paid search  |
 |  mobile url length  | language  |  |
 
-## Changes to Integer-Based Dimensions that have Known Values {#integer-based-dims}
+## Changes to integer-based dimensions that have known values {#integer-based-dims}
 
 Integer-based dimensions (such as browser width) with a known set of values were split into enumerated ranges so you can quickly define segments for a specific range. These enumerated lists are appended with " - Bucketed" after the dimension name. The following screen shows how these dimensions are segmented using the previous and new segment builder interfaces: 
 

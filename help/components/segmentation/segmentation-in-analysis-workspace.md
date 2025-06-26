@@ -6,8 +6,12 @@ exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
 ---
 # Segmentation features in Analysis Workspace
 
-Learn about segmentation features in Analysis Workspace.
+Beyond the [standard use of segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, the following features are available:
 
-[Segment Comparison (Segment IQ)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
+* [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-[Apply Segments in Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+* [Apply segments in Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+
+>[!MORELIKETHIS]
+>
+>[Use segments](segmentation-workflow/t-seg-apply.md)

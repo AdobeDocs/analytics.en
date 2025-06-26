@@ -21,22 +21,21 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + Analysis Workspace {#analysis-workspace}
   + [Analysis Workspace overview](analysis-workspace/home.md)
   + Projects {#build-workspace-project}
-    + [Projects overview](analysis-workspace/build-workspace-project/freeform-overview.md)
+    + [Overview](analysis-workspace/build-workspace-project/freeform-overview.md)
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
+    + [Open projects](analysis-workspace/build-workspace-project/open-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Project table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Folders in Workspace {#workspace-folders}
-      + [About Folders in Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-      + [Create Folders and Subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-      + [Delete Folders](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-      + [Add Projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Remove a Project](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-      + [Save a New Project](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+      + [Folders overview](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + [Create folders and subfolders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + [Manage folders](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+      + [Add or move projects to folders](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
     + [Templates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys (Shortcuts)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-    + [Color Palettes](analysis-workspace/build-workspace-project/color-palettes.md)
-    + [View Density](analysis-workspace/build-workspace-project/view-density.md)
+    + [Color palettes](analysis-workspace/build-workspace-project/color-palettes.md)
+    + [View density](analysis-workspace/build-workspace-project/view-density.md)
   + Templates {#templates}
     + [Use templates](analysis-workspace/templates/use-templates.md)
     + [Create templates](analysis-workspace/templates/create-templates.md)
@@ -59,9 +58,11 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
     + Calendar and date ranges {#calendar-date-ranges}
-      + [Calendar and date ranges overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
-      + [Create custom date ranges](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+      + [Overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
+      + [Create date ranges](analysis-workspace/components/calendar-date-ranges/create.md)
+      + [Manage data ranges](analysis-workspace/components/calendar-date-ranges/manage.md)
       + [Date comparison](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + [Examples](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
     + Data Dictionary {#data-dictionary}
       + [Data Dictionary overview](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
       + [View component information in the Data Dictionary](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -125,11 +126,11 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Segment comparison use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used in segment comparison](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
   + Curate, Share, and Schedule projects {#curate-share}
-    + [Share menu](analysis-workspace/curate-share/send-schedule-files.md)
+    + [Overview](analysis-workspace/curate-share/send-schedule-files.md)
     + [Curate projects](analysis-workspace/curate-share/curate.md)
     + [Share projects](analysis-workspace/curate-share/share-projects.md)
     + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
-    + [View-only projects](analysis-workspace/curate-share/view-only-projects.md)
+    + [Read-only projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
     + [Schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
   + Attribution {#attribution}

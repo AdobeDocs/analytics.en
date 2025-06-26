@@ -3,6 +3,7 @@ title: Create date ranges
 description: Create a date range for use in reporting.
 feature: Date Ranges
 role: User
+exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
 ---
 # Create date ranges
 

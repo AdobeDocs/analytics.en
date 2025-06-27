@@ -1,5 +1,5 @@
 ---
-description: Learn how to remove projects from Analysis Workspace
+description: Learn how to remove projects from Analysis Workspace.
 keywords: Analysis Workspace
 title: Remove Projects
 feature: Workspace Basics
@@ -54,3 +54,5 @@ When you delete a project from a folder, it gets purged from the system after 18
 1. Select **Delete**.
 
 1. A confirmation window asks you to confirm the deletion.
+
+-->

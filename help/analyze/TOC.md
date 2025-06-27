@@ -31,6 +31,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Create folders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
       + [Manage folders](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
       + [Add or move projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+    + [Tempates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color palettes](analysis-workspace/build-workspace-project/color-palettes.md)

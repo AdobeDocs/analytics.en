@@ -12,11 +12,12 @@ You can create segments from a touchpoint, add segments as touchpoint, and compa
 
 >[!IMPORTANT]
 >
->Segments used as checkpoints in Fallout must use a container that is at a lower level than the overall context of the Fallout visualization. With a visitor-context Fallout, segments used as checkpoints must be visit or hit-based segments. With a visit-context Fallout, segments used as checkpoint must be hit-based segments. If you use an invalid combination, the fallout will be 100%. We have added a warning to the Fallout visualization that will display when you add an incompatible segment as a touchpoint. Certain invalid segment container combinations will lead to invalid Fallout diagrams, such as:
-
-* Using a visitor-based segment as a touchpoint inside a visitor-context Fallout visualization
-* Using a visitor-based segment as a touchpoint inside a visit-context Fallout visualization
-* Using a visit-based segment as a touchpoint inside a visit-context Fallout visualization
+>Segments used as checkpoints in Fallout must use a container that is at a lower level than the overall context of the Fallout visualization. With a visitor-context Fallout, segments used as checkpoints must be visit or hit-based segments. With a visit-context Fallout, segments used as checkpoint must be hit-based segments. If you use an invalid combination, the fallout will be 100%. You see a warning in the Fallout visualization when you add an incompatible segment as a touchpoint. Certain invalid segment container combinations will lead to invalid Fallout diagrams, such as:
+>
+>* Using a visitor-based segment as a touchpoint inside a visitor-context Fallout visualization.
+>* Using a visitor-based segment as a touchpoint inside a visit-context Fallout visualization.
+>* Using a visit-based segment as a touchpoint inside a visit-context Fallout visualization.
+>
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 

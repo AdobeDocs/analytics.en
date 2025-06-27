@@ -1,6 +1,6 @@
 ---
 description: Use the Summary Number and Change visualizations to display important data points in a project.
-title: Summary Number and Summary Change
+title: Summary Number And Summary Change
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin

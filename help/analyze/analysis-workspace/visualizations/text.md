@@ -1,5 +1,5 @@
 ---
-description: Lets you add user-defined text to your Workspace.
+description: Learn how to add user-defined text to your Analysis Workspace project.
 title: Text
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations

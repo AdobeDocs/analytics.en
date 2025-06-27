@@ -1,5 +1,5 @@
 ---
-description: Use the line visualization to depict trended (time-based) data sets
+description: Use the line visualization to depict trended (time-based) datasets.
 title: Line
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations

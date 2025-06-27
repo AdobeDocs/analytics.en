@@ -1,29 +1,21 @@
 ---
-description: A panel that shows the next or previous dimension items for a specific dimension.
-title: Next or previous item panel
+description: Understand how to use the Next or previous item panel that shows the next or previous dimension items for a specific dimension.
+title: Next Or Previous Item Panel
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 ---
 # Next or previous item panel {#next-or-previous-item-panel}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="Next or previous item"
 >abstract="Create a panel to understand the previous dimensions people come from or next dimension people go to."
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Nest or previous item"
 >abstract="Analyze what are the most common places visitors previously came from or go to next.<br/><br/>**Dimension**: Select a dimension. For example **Page**.<br/>**Dimension item**: Select a specific dimension item. For example **Homepage**.<br/>**Direction**: Select **Next** to see the dimension items immediately next following your selected dimension item. Select **Previous** to see the dimension items leading up to your selected dimension item.<br/>**Container**: Select **Session** to see the next/previous dimension items within the same session, or select **Person** to see the next/previous dimension item for the same person."
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 

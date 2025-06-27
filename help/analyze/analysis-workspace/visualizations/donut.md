@@ -1,5 +1,5 @@
 ---
-description: Use the donut visualization in a Workspace project.
+description: Learn how to use the donut visualization to show data as parts or segments of a whole.
 title: Donut
 feature: Visualizations
 role: User, Admin

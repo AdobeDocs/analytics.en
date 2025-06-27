@@ -1,6 +1,6 @@
 ---
-title: Open projects
-description: Learn how to open projects
+title: Open Projects
+description: Learn how to open projects in Analysis Workspace.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0

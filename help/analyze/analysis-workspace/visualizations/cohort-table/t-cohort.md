@@ -1,12 +1,12 @@
 ---
-description: Create a cohort and run a cohort analysis report in Analysis Workspace.
+description: Learn how to create a cohort tabe and run a cohort analysis report in Analysis Workspace.
 keywords: Analysis Workspace
-title: Run a cohort analysis report
+title: Configure A Cohort Table
 feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
 ---
-# Configure a Cohort table
+# Configure a cohort table
 
 To create and configure a [!UICONTROL Cohort table]:
 

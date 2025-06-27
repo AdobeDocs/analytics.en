@@ -1,5 +1,5 @@
 ---
-description: Learn how to create folders and subfolders in Workspace
+description: Learn how to create folders and subfolders in Analysis Workspace.
 keywords: Analysis Workspace
 title: Create Folders
 feature: Workspace Basics
@@ -21,7 +21,7 @@ To create a new folder,
 
 1. In the **[!UICONTROL Create New Folder]** dialog, enter a Name for the new folder. For example: `Second Week Reports`.
 
-1. Select tags or enter new tags from the **[!UICONTROL Tags]** drop-down.
+1. Select tags or enter new tags from the **[!UICONTROL Tags]** drop-down menu.
 
    ![Create new folder](../assets/create-new-folder.png)
 

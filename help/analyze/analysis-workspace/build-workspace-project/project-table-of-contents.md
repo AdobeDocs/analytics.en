@@ -1,7 +1,7 @@
 ---
-description: Information about the project table of contents that is available on projects
+description: Learn how to use the table of contents in a project in Analysis Workspace to quickly access panels and visualizations.
 keywords: Analysis Workspace
-title: Project table of contents
+title: Table Of Contents
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a

@@ -1,12 +1,14 @@
 ---
-description: Keyboard interactions, shortcut keys and point-and-click behaviors available in Analysis Workspace.
+description: Learn how to use keyboard interactions, shortcut keys and point-and-click behaviors available in Analysis Workspace.
 keywords: Analysis Workspace
-title: Hotkeys (shortcuts)
+title: Hotkeys
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 ---
-# Hotkeys (shortcuts)
+# Hotkeys
+
+Hotkeys (keyboard shortcuts) are available in Analysis Workspace for seamless navigation, analysis and democratization.
 
 Note that on your keyboard the following symbols might be used:
 

@@ -1,6 +1,6 @@
 ---
-title: Multiple report suites
-description: Learn how and why to create projects in Workspace with multiple report suites
+title: Multiple Report Suites
+description: Learn how to work with multiple report suites in one Analysis Workspace project.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df

@@ -1,13 +1,13 @@
 ---
-description: Column settings let you configure column formatting, some of which can be conditional.
-title: Column settings
+description: Learn how to edit column settings to configure column formatting, some of which can be conditional.
+title: Column Settings
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 ---
 
-# [!UICONTROL Column Settings]
+# Column settings
 
 [!UICONTROL Column settings] let you configure column formatting, some of which can be conditional.
 

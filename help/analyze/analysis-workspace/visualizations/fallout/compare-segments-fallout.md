@@ -1,7 +1,7 @@
 ---
-description: You can create segments from a touchpoint, add segments as touchpoint, and compare key workflows across various segments in Analysis Workspace.
+description: Learn how you can create segments from a touchpoint, add segments as touchpoint, and compare key workflows across various segments in a fallout analysis in Analysis Workspace.
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
-title: Apply segments in fallout analysis
+title: Apply Segments In Fallout Analysis
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb

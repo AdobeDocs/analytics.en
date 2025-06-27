@@ -1,5 +1,5 @@
 ---
-description: Learn the basics of working in a Workspace project.
+description: Learn how to work with projects in Analysis Workspace. Use the projects manager to manage (create, delete, move, share, approve, pin, copy, and tag) projects.
 keywords: Analysis Workspace
 title: Projects overview
 feature: Workspace Basics

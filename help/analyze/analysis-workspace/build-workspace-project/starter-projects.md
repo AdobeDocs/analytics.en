@@ -1,5 +1,5 @@
 ---
-description: Create workspace projects based on reports.
+description: Learn how to quickly create a project based on common reporting scenarios using templates in Analysis Workspace.
 title: Templates
 feature: Workspace Basics
 role: User, Admin
@@ -14,3 +14,4 @@ For information about using templates in Adobe Analytics, see the following reso
 * [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md)
 
 * [Create and manage templates](/help/analyze/analysis-workspace/templates/create-templates.md)
+

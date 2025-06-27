@@ -1,6 +1,6 @@
 ---
-description: Learn the basics of creating a project in Analysis Workspace
-title: Create projects
+description: Learn how to create a project in Analysis Workspace.
+title: Create Projects
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101

@@ -1,12 +1,12 @@
 ---
-title: Segment comparison use cases
+title: Segment Comparison Use Cases
 description: Learn real-world use cases on how the segment comparison panel can be used to gain insight into marketing strategy.
 keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 ---
-# Segment IQ use cases
+# Segment comparison use cases
 
 The segment comparison panel is a widely-used feature in Analysis Workspace. Customers frequently discover new ways to drive insights with it. The following are several successful use cases.
 
@@ -54,7 +54,7 @@ A major B2B services company wanted to understand the type of traffic that paid 
 
 > *"We found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else, so we quickly ordered more Fitbits and avoided running out of stock!"*
 
-**Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the “Fitbit” line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an “out of stock” message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
+**Scenario:** A major online retailer was interested in how one of the hottest holiday products - Fitbit - was selling and what made Fitbit purchasers unique among other customers. The marketing team was able to simply right click on the "Fitbit" line item in their products report and quickly run a Segment IQ analysis. What they found was that users purchasing Fitbits were 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team was able to direct these visitors to their brick and mortar stores while they waited on their purchasing department to order more Fitbits to ship. As a result, the retailer avoided more "out of stock" messages, and was able to satisfy more of the holiday demand.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

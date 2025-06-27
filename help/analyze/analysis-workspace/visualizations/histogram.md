@@ -1,5 +1,5 @@
 ---
-description: A histogram is a new visualization type in Analysis Workspace.
+description: Learn how tuse a histogram, which is similar to a bar chart, but groups numbers into ranges (buckets).
 title: Histogram
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
@@ -8,14 +8,10 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
 # Histogram {#histogram}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="Histogram"
 >abstract="Create a histogram visualization to represent the distribution of numerical data in groups of ranges."
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]

@@ -1,5 +1,5 @@
 ---
-description: Learn how to adjust the view density.
+description: Learn how to adjust the view density of your project in Analysis Workspace.
 title: View Density
 feature: Workspace Basics
 role: User, Admin

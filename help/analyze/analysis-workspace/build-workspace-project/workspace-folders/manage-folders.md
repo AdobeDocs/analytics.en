@@ -1,13 +1,13 @@
 ---
-description: Learn how to manage folders in Workspace
+description: Learn how to manage folders in Analysis Workspace.
 keywords: Analysis Workspace
-title: Manage folders
+title: Manage Folders
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 ---
 # Manage folders
 
-You can manage folders in Workspace in two ways. From within the folder, or from one or more selected folders in the project list. Manage folders include renaming, moving or deleting folders.
+You can manage folders in Workspace in two ways. From within the folder, or from one or more selected folders in the project list. Manage folders include options to rename, move or delete folders.
 
 ## Rename folders
 

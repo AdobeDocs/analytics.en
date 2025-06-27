@@ -1,6 +1,6 @@
 ---
-description: Use the flow visualization in a Workspace project.
-title: Configure a flow visualization
+description: Learn how to configure the flow visualization in Analysis Workspace
+title: Configure A Flow Visualization
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
@@ -63,11 +63,9 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 >abstract="This field can only be set on the initial build. To update this field, select **[!UICONTROL Reset]** to build a new Flow visualization."
 
 
+Flow visualizations help you understand the journey originating from a specific conversion event on your website or your app. Or leading up to a specific conversion event. The visualization traces a path through your dimensions (and dimension items) or metrics. 
 
-Flow visualizations help you understand the journey stemming from or leading up to a specific conversion event on your website or your app. It traces a path through your dimensions (and dimension items) or metrics. 
-
-Flow visualizations let you configure the start or end of the path you are interested in, or analyze all paths that flow through a dimension or dimension item.
-
+You can configure the start or end of the path you are interested in. Or analyze all paths that flow through a dimension or dimension item.
 ![new Flow UI](assets/new-flow.png)
 
 ## Use

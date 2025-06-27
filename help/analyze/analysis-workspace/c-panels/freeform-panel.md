@@ -1,6 +1,6 @@
 ---
-description: Learn about freeform panels
-title: Freeform panel
+description: Learn how to use a freeform panels with a freeform table as a starting state for your Analysis Workspace project. 
+title: Freeform Panel
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061

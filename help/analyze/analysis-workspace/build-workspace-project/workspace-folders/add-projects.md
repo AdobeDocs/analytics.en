@@ -1,7 +1,7 @@
 ---
-description: Learn how to add folders in Workspace
+description: Learn how to add or move projects to folders in Analysis Workspace.
 keywords: Analysis Workspace
-title: Add Folders in Workspace
+title: Add Or Move Projects To Folders
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 ---

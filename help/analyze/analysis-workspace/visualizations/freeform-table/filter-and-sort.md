@@ -1,6 +1,6 @@
 ---
-description: Documentation describing how to filter and sort tables in Analysis Workspace.
-title: Filter and sort freeform tables
+description: Learn how to filter and sort freeform tables in Analysis Workspace.
+title: Filter And Sort Tables
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36

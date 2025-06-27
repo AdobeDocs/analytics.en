@@ -1,6 +1,6 @@
 ---
-description: An overview of how to use default reports in Analysis Workspace.
-title: Use reports
+description: Learn how to create and manage templates in Analysis Workspace.
+title: Create And Manage Templates
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111

@@ -1,6 +1,6 @@
 ---
-description: A panel is a collection of tables and visualizations
-title: Panels overview
+description: Understand panels and how to use panels in Analysis Workspace.
+title: Panels Overview
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46

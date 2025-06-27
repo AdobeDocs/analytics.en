@@ -1,11 +1,11 @@
 ---
-description: How Workspace totals are calculated.
-title: Workspace totals
+description: Learn how totals in freeform tables in Analysis Workspace are calculated.
+title: Totals
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 ---
-# Workspace totals {#workspace-totals}
+# Totals {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"

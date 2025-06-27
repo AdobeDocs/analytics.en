@@ -1,6 +1,6 @@
 ---
-description: Use the fallout visualization in a Workspace project.
-title: Fallout overview
+description: Learn how to use the fallout visualization in Analysis Workspace.
+title: Fallout Overview
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
@@ -23,7 +23,7 @@ _This article documents the Fallout visualization in_ ![AdobeAnalytics](/help/as
 
 >[!ENDSHADEBOX]
 
-Fallout visualizations provide more options to build your fallout reports. Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages.
+A ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualization shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. 
 
 
 >[!BEGINSHADEBOX]
@@ -31,6 +31,8 @@ Fallout visualizations provide more options to build your fallout reports. Fallo
 See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout visualization](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+
 
 
 Fallout visualizations let you

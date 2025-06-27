@@ -1,6 +1,6 @@
 ---
-title: Segment comparison panel overview
-description: Learn how to use the segment comparison panel, part of Segment IQ in Analysis Workspace.
+title: Segment Comparison Panel Overview
+description: Learn how to use the segment comparison panel in Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin

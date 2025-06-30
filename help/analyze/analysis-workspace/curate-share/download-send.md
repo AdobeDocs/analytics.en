@@ -24,7 +24,7 @@ Consider the following when you download a project as a PDF:
 * The download can take several minutes as the project is rerun on Adobe servers to render in PDF format. Do not leave the project until the project downloads in your browser.  You can continue to make changes to the project while the download is rendered. If a PDF takes longer than 5 minutes to render, you are prompted to [email the PDF](../curate-share/send-schedule-files.md) instead.
 * Downloads are rendered as a single page with no pagination applied.
 * The PDF contain what is visible in the browser page in Analysis Workspace. You need to auto-size custom-sized visualizations and panels to avoid truncated content. Select ![Resize](/help/assets/icons/Resize.svg) to auto-size a custom-sized visualization or panel.
-* [Hyperlinks](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) within freeform tables  as hyperlinks in the downloaded PDF. 
+* [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) within freeform tables  as hyperlinks in the downloaded PDF. 
 
 
 
@@ -114,7 +114,7 @@ If you request more than one download at a time, you receive a notification that
 | --- | --- |
 | Why does my downloaded PDF consist of of only one page? | The [Download PDF](#download-as-csv-or-pdf) functionality does not paginate downloaded PDFs. |
 | Can I export more than 50,000 items with the **[!UICONTROL Download items as CSV]** option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** context menu option is not an export option. This option allows you to [copy a visualization](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) or [copy a panel](/help/analysis-workspace/c-panels/panels.md#context-menu) from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** context menu option is not an export option. This option allows you to [copy a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) or [copy a panel](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. |
 
 
 

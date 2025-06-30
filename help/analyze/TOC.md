@@ -22,6 +22,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + [Analysis Workspace overview](analysis-workspace/home.md)
   + Projects {#build-workspace-project}
     + [Overview](analysis-workspace/build-workspace-project/freeform-overview.md)
+    + [Quickly start projects](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Create projects](analysis-workspace/build-workspace-project/create-projects.md)
     + [Open projects](analysis-workspace/build-workspace-project/open-projects.md)
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
@@ -31,7 +32,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Create folders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
       + [Manage folders](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
       + [Add or move projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-    + [Tempates](analysis-workspace/build-workspace-project/starter-projects.md)
     + [Multiple report suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
     + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color palettes](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -125,14 +125,14 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
       + [Use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-  + Curate, Share, and Schedule projects {#curate-share}
+  + Curate and share projects {#curate-share}
     + [Overview](analysis-workspace/curate-share/send-schedule-files.md)
     + [Curate projects](analysis-workspace/curate-share/curate.md)
     + [Share projects](analysis-workspace/curate-share/share-projects.md)
     + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
     + [Read-only projects](analysis-workspace/curate-share/view-only-projects.md)
-    + [Download PDF or CSV files](analysis-workspace/curate-share/download-send.md)
-    + [Schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
+    + [Download projects](analysis-workspace/curate-share/download-send.md)
+    + [Send and schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
   + Attribution {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)

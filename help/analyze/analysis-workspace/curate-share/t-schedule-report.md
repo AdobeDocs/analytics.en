@@ -1,14 +1,14 @@
 ---
-description: Send an Analysis Workspace project using email or schedule it for delivery.
+description: Learn how to send an Analysis Workspace project directly or on a schedule for email delivery.
 keywords: Analysis Workspace
-title: Schedule projects
+title: Send And Schedule Projects
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
-# Send files to others
+# Send and schedule
 
-You can send Adobe Analytics reports as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
+You can send Adobe Analytics projects as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
 
 Any tags applied to the project are automatically applied to the export.
 
@@ -18,7 +18,7 @@ Other methods of exporting Adobe Analytics data are also available, as described
 
 ## Send file
 
-To send a file to recipients by email:
+To send a file ad-hoc to recipients by email:
 
 1. Select **[!UICONTROL Share] > [!UICONTROL Send file]**.
 1. Specify the file type:
@@ -60,7 +60,7 @@ To send a file on a schedule to recipients by email
 1. Select **[!UICONTROL Send on schedule]**. Select **[!UICONTROL Cancel]** to cancel.
 
 
-## Scheduled Projects manager {#manager}
+## Scheduled projects manager {#manager}
 
 Scheduled Analysis Workspace projects can be managed from the main interface, using **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**. For more information, see [Scheduled projects](/help/components/scheduled-projects-manager.md).
 

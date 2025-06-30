@@ -1,7 +1,7 @@
 ---
-description: Curation lets you limit components before sharing a project.
+description: Learn how to curate projects in Analysis Workspace. Curation limits access to components before you share a project.
 keywords: Analysis Workspace curation
-title: Curate projects
+title: Curate Projects
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
@@ -29,7 +29,6 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curate projects]
 1. (Optional) To add more components, drag components you want to share from the left panel to the **[!UICONTROL Curate components]** drop zone for the data view. 
 1. Select **[!UICONTROL Done]**.
 
-Curation can also be applied from the [!UICONTROL Share] menu by Selecting **[!UICONTROL Curate and Share]**. This option automatically curates the project to the components in use in the project. You can add additional components following the steps above.
 
 ![](assets/curation-field.png)
 
@@ -66,6 +65,6 @@ Note: Non-admin view roles do not have access to the left rail in a project, so 
 
 |Curation Type|Admins|Non-Admin project owner or edit role|Non-Admin duplicate role|
 |---|---|---|---|
-|Curated Virtual report suite|All non-curated Virtual report suite components|Non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite components that this role owns or that have been shared with them|
-|Curated Project|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|
-|Curated Project in a Curated Virtual report suite| All non-curated components, shown under **[!UICONTROL Non-Curated Project Components]** and **[!UICONTROL Non-Curated Virtual report suite components]**| All non-curated project components AND non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite and project components that this role owns or that have been shared with them|
+|**Curated Virtual report suite**|All non-curated Virtual report suite components|Non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite components that this role owns or that have been shared with them|
+|**Curated Project**|All non-curated project components|All non-curated project components|Non-curated project components that this role owns or that have been shared with them|
+|**Curated Project in a Curated Virtual report suite**| All non-curated components, shown under **[!UICONTROL Non-Curated Project Components]** and **[!UICONTROL Non-Curated Virtual report suite components]**| All non-curated project components AND non-curated Virtual report suite components that this role owns or that have been shared with them|Non-curated Virtual report suite and project components that this role owns or that have been shared with them|

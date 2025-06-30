@@ -1,7 +1,7 @@
 ---
-description: Learn how to create shareable links to projects or visualizations
+description: Learn how to create shareable links to projects or visualizations.
 keywords: Analysis Workspace sharing
-title: Create shareable links
+title: Create Shareable Links
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
@@ -33,7 +33,7 @@ You can also share a link to a specific part of a project, such as a panel or in
 
 ![The drop-down menu after you right-click the header with the Get visualization link highlighted.](assets/get-visualization-link.png)
 
-## Use links in a Table of contents {#TOC} 
+## Use links in a table of contents {#TOC} 
 
 One tip for leveraging the various link options is to always include a table of contents at the top of your Workspace project. In the table of contents, you can link to other relevant projects, specific panels and specific visualizations. This helps the recipient of the project to navigate more easily.  
 

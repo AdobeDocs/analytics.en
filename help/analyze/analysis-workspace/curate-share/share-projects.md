@@ -1,7 +1,7 @@
 ---
-description: Project sharing and project roles in Workspace
+description: Learn how to share project and project roles in Workspace
 keywords: Analysis Workspace sharing
-title: Share projects
+title: Share Projects
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
@@ -40,7 +40,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Share projects](
 >[!ENDSHADEBOX]
 
 
-## Share with Analysis Workspace users and groups in your organization {#Add}
+## Share with users and groups in your organization {#Add}
 
 You can share a project with existing Analysis Workspace users or groups in your organization. When you share a project as described in this section, the users you share with must already have access to Adobe Analytics.
 

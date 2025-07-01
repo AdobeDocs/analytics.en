@@ -1,11 +1,11 @@
 ---
-description: Data inconsistencies can cause big problems. Learn how to identify statistical anomalies with anomaly detection techniques from Adobe. Get started today.
-title: Statistical techniques used in anomaly detection
+description: Learn how to identify statistical anomalies with anomaly detection techniques.
+title: Statistical Techniques Used In Anomaly Detection
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 ---
-# Statistical techniques used in anomaly detection
+# Statistical techniques
 
 Anomaly detection in Analysis Workspace uses a series of advanced statistical techniques to determine whether an observation should be considered anomalous or not.
 

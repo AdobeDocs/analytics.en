@@ -1,6 +1,6 @@
 ---
-description: Turn off Anomaly detection on any metric.
-title: Turn off anomaly detection
+description: Learn how to turn off anomaly detection on any metric.
+title: Turn Off Anomaly Detection
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 58689d03-6801-4be2-88ec-af2d2c82e098

@@ -31,7 +31,7 @@ _This article documents the Segment comparison panel in_ ![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-The Segment comparison panel is a tool part of [Segment IQ](../../segment-iq.md) that discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
+The Segment comparison panel discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
 
 
 >[!BEGINSHADEBOX]

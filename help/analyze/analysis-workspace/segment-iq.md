@@ -14,5 +14,5 @@ The [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare
 
 The segment comparison features are:
 
-* [Segment comparison panel:](c-panels/c-segment-comparison/segment-comparison.md) The core feature in Segment IQ. Drag two segments into the panel, and view a comprehensive report that shows statistically significant differences and overlap between the two audiences.
+* [Segment comparison panel:](c-panels/c-segment-comparison/segment-comparison.md) Allows you to drag two segments into the panel, and view a comprehensive report that shows statistically significant differences and overlap between the two audiences.
 * [Comparing segments in fallout:](visualizations/fallout/compare-segments-fallout.md) See how different audiences compare to each other in the context of a fallout visualization.

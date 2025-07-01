@@ -1,6 +1,6 @@
 ---
 description: Workspace FAQs
-title: Frequently asked questions and troubleshooting Workspace
+title: Frequently Asked Questions
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c

@@ -6,7 +6,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
-# Send and schedule
+# Send and schedule projects
 
 You can send Adobe Analytics projects as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
 

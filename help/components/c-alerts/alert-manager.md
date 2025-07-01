@@ -37,7 +37,11 @@ The alerts list ➊ displays all the alerts that you own, the alerts that have b
 | **[!UICONTROL Expiration Date]** | The date and time when the alert is set to expire. | 
 | **[!UICONTROL Date modified]** | The date and time that the alert was last modified. |
 
-<!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+<!-- 
+
+When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul>
+
+-->
 
 Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to specify which columns you want to display.
 
@@ -119,6 +123,7 @@ When troubleshooting an issue with an alert, provide the JID (Job Instance ID) n
 
 
 <!--
+
 # Manage alerts
 
 You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
@@ -217,7 +222,7 @@ To configure the visible columns in the Alerts manager:
    | Column title  | Description |
    |---|---|
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
-   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). |
+   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
    | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
    | Enabled | Shows whether the alert is currently enabled or disabled. | 
    | Report suite | Indicates in which report suite the alert was last saved.  |
@@ -228,8 +233,8 @@ To configure the visible columns in the Alerts manager:
 
    {style="table-layout:auto"}
    
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> 
    
+    When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> 
    
 -->
 

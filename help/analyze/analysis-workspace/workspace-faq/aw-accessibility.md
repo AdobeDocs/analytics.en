@@ -49,7 +49,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top down, and from left to r
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. 
 
 ## Support for screen readers and screen magnifiers
 
@@ -59,7 +59,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](/help/analysis-workspace/build-workspace-project/color-palettes.md). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md). 
 
 ## Required validation
 

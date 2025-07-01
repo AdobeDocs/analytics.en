@@ -125,14 +125,14 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Overview](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
       + [Use cases](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
       + [Statistical tests used](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-  + Curate and share projects {#curate-share}
+  + Curate and share {#curate-share}
     + [Overview](analysis-workspace/curate-share/send-schedule-files.md)
     + [Curate projects](analysis-workspace/curate-share/curate.md)
     + [Share projects](analysis-workspace/curate-share/share-projects.md)
-    + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
+    + [Shareable links](analysis-workspace/curate-share/shareable-links.md)
     + [Read-only projects](analysis-workspace/curate-share/view-only-projects.md)
-    + [Download projects](analysis-workspace/curate-share/download-send.md)
-    + [Send and schedule projects](analysis-workspace/curate-share/t-schedule-report.md)
+    + [Download](analysis-workspace/curate-share/download-send.md)
+    + [Send and schedule](analysis-workspace/curate-share/t-schedule-report.md)
   + Attribution {#attribution}
     + [Attribution overview](analysis-workspace/attribution/overview.md)
     + [Attribution models and lookback windows](analysis-workspace/attribution/models.md)

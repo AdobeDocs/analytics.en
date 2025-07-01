@@ -6,7 +6,7 @@ exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 ---
 # Alert use cases
 
-You can create alerts as described in [Create alerts](/help/components/c-intelligent-alerts/alert-builder.md). 
+You can create alerts as described in [Create alerts](alert-builder.md). 
 
 The following sections illustrate example use cases to consider as you create alerts.
 

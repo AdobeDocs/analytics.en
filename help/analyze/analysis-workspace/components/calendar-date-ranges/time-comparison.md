@@ -13,7 +13,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 Analysis requires context, and often that context is provided by a previous time period. For example, the question *How much better or worse are you doing now compared to this time last year?* is fundamental to understanding your business. Date comparison includes a *difference* column automatically, which shows the percentage change compared to a specified time period.
 
-1. Create a [Freeform table](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), with any dimensions and metrics you want to compare over a time period.
+1. Create a [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), with any dimensions and metrics you want to compare over a time period.
 1. Open the context menu for a table row and select **[!UICONTROL Compare time periods]**.
 
    ![Table row with Compare Time Periods selected](assets/compare-time.png)
@@ -76,7 +76,7 @@ For example, you do a day-over-day comparison for the last week (ending October 
 
 ![Not aligned dates](assets/not-align-dates.png)
 
-You can enable **[!UICONTROL Align dates from each column to all start on the same row]** in [Settings](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) for the Freeform table visualization to align column dates to start on the same row.
+You can enable **[!UICONTROL Align dates from each column to all start on the same row]** in [Settings](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) for the Freeform table visualization to align column dates to start on the same row.
 
 ![](assets/align-dates.png)
 

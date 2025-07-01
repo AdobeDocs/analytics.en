@@ -41,5 +41,5 @@ For general information about the Data Dictionary, see [Data Dictionary overview
 >[!MORELIKETHIS]
 >
 >[Report component settings](/help/components/vrs/vrs-components.md)
->[Data dictionary component entries](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>[Data dictionary component entries](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

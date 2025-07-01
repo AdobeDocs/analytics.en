@@ -13,7 +13,7 @@ Metrics allow you to quantify data points in Analysis Workspace. They are most c
 
 Metrics are flexible in their use within Analysis Workspace. Drag a metric to an empty Freeform table to see that metric trended over the project's date period. You can also drag a metric when a dimension is present to see that metric compared to each dimension item. Dragging a metric on top of an existing metric header replaces it, and dragging a metric next to a header lets you see both metrics side-by-side.
 
-For information about how to add metrics and other types of components to Analysis Workspace, see [Use components in Analysis Workspace](/help/components/use-components-in-workspace.md).
+For information about how to add metrics and other types of components to Analysis Workspace, see [Use components in Analysis Workspace](use-components-in-workspace.md).
 
 ## Types of metrics
 

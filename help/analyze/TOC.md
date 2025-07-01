@@ -40,24 +40,24 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Use templates](analysis-workspace/templates/use-templates.md)
     + [Create templates](analysis-workspace/templates/create-templates.md)
   + Components {#components}
-    + [Components overview](analysis-workspace/components/analysis-workspace-components.md)
-    + [Use components in Workspace](analysis-workspace/components/use-components-in-workspace.md)
+    + [Overview](analysis-workspace/components/analysis-workspace-components.md)
+    + [Use components](analysis-workspace/components/use-components-in-workspace.md)
     + [Add component descriptions](analysis-workspace/components/add-component-descriptions.md)
     + Annotations {#annotations}
-      + [Annotations overview](analysis-workspace/components/annotations/overview.md)
+      + [Overview](analysis-workspace/components/annotations/overview.md)
       + [Create annotations](analysis-workspace/components/annotations/create-annotations.md)
       + [Manage annotations](analysis-workspace/components/annotations/manage-annotations.md)
       + [View annotations](analysis-workspace/components/annotations/view-annotations.md)
-      + [Mobile annotations](analysis-workspace/components/annotations/mobile-annotations.md)
+      + [Mobile scorecard annotations](analysis-workspace/components/annotations/mobile-annotations.md)
     + Dimensions {#dimensions}
       + [Preview dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
       + [Break down dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
       + [Time-parting dimensions](analysis-workspace/components/dimensions/time-parting-dimensions.md)
     + [Metrics](analysis-workspace/components/apply-create-metrics.md)
     + Segments {#segments}
-      + [Create segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
+      + [Overview](analysis-workspace/components/segments/t-freeform-project-segment.md)
       + [Quick segments](analysis-workspace/components/segments/quick-segments.md)
-    + Calendar and date ranges {#calendar-date-ranges}
+    + Date ranges {#calendar-date-ranges}
       + [Overview](analysis-workspace/components/calendar-date-ranges/calendar.md)
       + [Create date ranges](analysis-workspace/components/calendar-date-ranges/create.md)
       + [Manage data ranges](analysis-workspace/components/calendar-date-ranges/manage.md)

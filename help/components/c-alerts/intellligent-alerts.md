@@ -1,6 +1,6 @@
 ---
-description: Alerts allow for granular control over notifications, and integration with anomaly detection.
-title: Alerts overview
+description: Understand how to use alerts tp allow for granular control over notifications, and integration with anomaly detection.
+title: Alerts Overview
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 ---

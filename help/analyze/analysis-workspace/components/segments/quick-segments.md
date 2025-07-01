@@ -1,6 +1,6 @@
 ---
-description: Use quick segments in Analysis Workspace.
-title: Quick segments
+description: Learn how to create and use quick segments in Analysis Workspace.
+title: Quick s=Segments
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
@@ -23,6 +23,12 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Quick segments](
 >[!ENDSHADEBOX]
 
 
+>[!MORELIKETHIS]
+>
+>[Create a quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md)
+
+
+<!--
 ## Create a quick segment
 
 Any user in Anlysis Workspace can create a quick segment.
@@ -141,3 +147,4 @@ The following example of a segment combines dimensions and metrics:
 1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
 1. Edit the Test2 quick segment and save it again as Test2. 
    Notice that the Test1 quick segment gets modified by Test2.
+-->

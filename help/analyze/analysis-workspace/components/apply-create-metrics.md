@@ -1,6 +1,6 @@
 ---
-description: There are two ways to use metrics in Analysis Workspace.
-title: Metrics in Analysis Workspace
+description: Understand what metrics are and how to use metrics in Adobe Analytics.
+title: Metrics
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
@@ -8,6 +8,12 @@ exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 # Metrics
 
 Metrics allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
+
+## Use metrics in Analysis Workspace
+
+Metrics are flexible in their use within Analysis Workspace. Drag a metric to an empty Freeform table to see that metric trended over the project's date period. You can also drag a metric when a dimension is present to see that metric compared to each dimension item. Dragging a metric on top of an existing metric header replaces it, and dragging a metric next to a header lets you see both metrics side-by-side.
+
+For information about how to add metrics and other types of components to Analysis Workspace, see [Use components in Analysis Workspace](/help/components/use-components-in-workspace.md).
 
 ## Types of metrics
 

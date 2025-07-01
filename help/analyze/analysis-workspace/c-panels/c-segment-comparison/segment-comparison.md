@@ -13,7 +13,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="Segment comparison"
->abstract="Quickly compare two segments across all data points to automatically find relevant differences."
+>abstract="Quickly compare two segments across all data points to find relevant differences automatically."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -22,7 +22,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Segment comparison panel"
->abstract="Quickly compare two segments across all data points to automatically find relevant differences.<br/><br/>**Parameters**<br/>**Add a segment**: The first segment you want to analyze.<br/>**Compare against**: The second segment you want to compare against. This will automatically populate with *Everyone Else* which is the inverse of your first segment. You can replace this with a different segment if desired.<br/>**Advanced settings**: The ability to exclude components from being analyzed in the segment comparison."
+>abstract="Quickly compare two segments across all data points to find relevant differences automatically.<br/><br/>**Parameters**<br/>**Add a segment**: The first segment that you want to analyze.<br/>**Compare against**: The second segment that you want to compare against, which is populated automatically with *Everyone Else* (the inverse of your first segment). You can replace *Everyone Else* with a different segment if desired.<br/>**Advanced settings**: The ability to exclude components from being analyzed in the segment comparison."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
@@ -31,7 +31,7 @@ _This article documents the Segment comparison panel in_ ![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-The Segment comparison panel discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much any segments overlap.
+The Segment comparison panel discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much segments overlap.
 
 
 >[!BEGINSHADEBOX]
@@ -62,8 +62,8 @@ You can configure the [!UICONTROL Segment comparison] panel using these input se
 
 | Input | Description |
 | --- | --- |
-| **[!UICONTROL Add a segment]** | Select the dimension you want to compare against. |
-| **[!UICONTROL Compare against]** | Select the dimension you want to use to compare the inital selected segment. If you do not select a specific segment, the default segment **[!UICONTROL Everyone else]** is used. |
+| **[!UICONTROL Add a segment]** | Select the dimension that you want to compare against. |
+| **[!UICONTROL Compare against]** | Select the dimension that you want to use to compare the initial selected segment. If you do not select a specific segment, the default segment **[!UICONTROL Everyone else]** is used. |
 | **[!UICONTROL Show / hide advanced settings]** | Select **[!UICONTROL Show advanced settings]** to configure **[!UICONTROL Excluded components]**, select **[!UICONTROL Hide advanced settings]** to hide **[!UICONTROL Excluded components]**. |
 | **[!UICONTROL Excluded components]** | Components you can specify, like **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]** or **[!UICONTROL Segments]** for exclusion.<br><ul><li>Drag and drop one or more dimensions, metrics or segments from the containers into the **[!UICONTROL Excluded components]** container.</li><li>To remove a component, select the type (**[!UICONTROL Dimension]** **[!UICONTROL Metrics]**, or **[!UICONTROL Segments]**) and select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a component. To remove all components, select **[!UICONTROL Clear all]**.</li><li>To set the current selection of dimensions, metrics and segments as the default, select **[!UICONTROL Set as default]**.</li></ul> |
 
@@ -71,16 +71,16 @@ Select **[!UICONTROL Build]** to build the panel.
 
 ### Panel output
 
-Once Adobe Analytics finishes analyzing the two desired segments, the output panesl shows results through several visualizations:
+Once Adobe Analytics finishes analyzing the two desired segments, the output panels show the results through several visualizations:
 
 ![Panel output segment comparison](assets/segment-comparison-output.png)
 
 | Visualization | Description |
 |---|---|
 | **[!UICONTROL Size and overlap]** | Illustrates with a [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) visualization the comparative sizes of each selected segment and how much they overlap with each other. |
-| **[!UICONTROL Unique visitors for 1st segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the first segement (in the example Single Page Visits) |
-| **[!UICONTROL Unique visitors for 2nd segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the second segement (in the example First Time Visits) |
-| **[!UICONTROL Top metrics agains Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) showing top metrics for the selected segments. |
+| **[!UICONTROL Unique visitors for 1st segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the first segment (in the example Single Page Visits) |
+| **[!UICONTROL Unique visitors for 2nd segment]** | A [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization showing the unique visitors for the second segment (in the example First Time Visits) |
+| **[!UICONTROL Top metrics against Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) showing top metrics for the selected segments. |
 | **[!UICONTROL Metric over time by Segment]** | A [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualization showing the metrics over time for the selected segments. |
 | **[!UICONTROL Top dimension items against Segments]** | A [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) showing the mixed dimension items for the selected segments. |
 | **[!UICONTROL Dimension items by Segments]** | A [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) visualization showing the dimension items by segment. |

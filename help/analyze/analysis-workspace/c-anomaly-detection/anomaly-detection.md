@@ -1,11 +1,11 @@
 ---
-description: You can view and analyze data anomalies contextually, within Analysis Workspace.
-title: Anomaly Detection overview
+description: Understand how you can view and analyze data anomalies contextually, within Analysis Workspace.
+title: Anomaly Detection Overview
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 ---
-# Anomaly Detection overview
+# Anomaly detection overview
 
 You can view and analyze data anomalies contextually within Analysis Workspace. Contribution Analysis works with Anomaly Detection to help identify what contributed to the anomaly. 
 
@@ -20,7 +20,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomaly detectio
 >
 >Adobe Analytics Select and Adobe Analytics Foundation customers have access only to *daily granularity* Anomaly Detection in Workspace. For more information, see [Anomaly Detection and Contribution Analysis Entitlements](#anomaly-detection-and-contribution-analysis-entitlements).
 
-## Anomaly Detection
+## Anomaly detection
 
 Anomaly Detection provides a statistical method to determine how a given metric has changed in relation to previous data.
 
@@ -84,7 +84,7 @@ All customers with a Contribution Analysis entitlement can run full Contribution
 
 The number of runs per company is limited by monthly tokens that are granted based on the Adobe Analytics product your company purchased. The number of runs per company includes the ability to restrict Contribution Analysis access to avoid token misuse.
 
-## Frequently asked questions {#section_11D0431AD2014B96AB9561CA66A367CE}
+## Frequently asked questions
 
 | Question | Answer |
 | --- | --- |
@@ -94,7 +94,7 @@ The number of runs per company is limited by monthly tokens that are granted bas
 | How do I restrict access to Contribution Analysis? | By default, only admins have access to run Contribution Analyses. However, admins can grant access to other users by creating a permission group in the [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Give permission to use Contribution Analysis only to users who have a legitimate reason to use it and are trusted not to abuse their access. The permission is called [!UICONTROL Contribution Analysis] under [!UICONTROL Report Suite Tools]. [Learn more](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | How do I know how many tokens my company is entitled to per month, and how many tokens my company have used in the current month? | Go to  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Look under<ul><li>Contribution Analysis: Number of Monthly Usage Tokens</li><li>Contribution Analysis: Number of Usage Tokens used this month</li></ul> |
 
-## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
+## Anomaly Detection and Contribution Analysis entitlements
 
 Below is a list of the detailed entitlements for Anomaly Detection and Contribution Analysis in Analysis Workspace.
 
@@ -128,7 +128,7 @@ Below is a list of the detailed entitlements for Anomaly Detection and Contribut
    <td colname="col3"> <p>20 tokens per month </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+Predictive Workbench </p> </td> 
+   <td colname="col1"> <p>Predictive Workbench add-on </p> </td> 
    <td colname="col2"> <p>Yes </p> </td> 
    <td colname="col3"> <p>Unlimited tokens </p> </td> 
   </tr> 

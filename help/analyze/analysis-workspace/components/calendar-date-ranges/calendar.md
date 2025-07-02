@@ -1,6 +1,6 @@
 ---
-description: In the calendar, you can specify dates and date ranges, or select a preset.
-title: Calendar and date ranges overview
+description: Use the calendar and data ranges to specify date ranges in Analysis Workspave.
+title: Date Ranges Overview
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9

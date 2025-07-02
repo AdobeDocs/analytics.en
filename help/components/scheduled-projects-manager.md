@@ -1,6 +1,6 @@
 ---
-description: See and manage scheduled reports across the organization.
-title: Scheduled projects manager
+description: Learn how to manage scheduled projects.
+title: Scheduled Projects
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
 ---

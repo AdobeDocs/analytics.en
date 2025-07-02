@@ -1,6 +1,6 @@
 ---
-title: Create annotations
-description: How to create annotations in Workspace.
+title: Create Annotations
+description: How to create annotations in Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d

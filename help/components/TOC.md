@@ -173,7 +173,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [About segments](segmentation/seg-overview.md)
   + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-  + Segmentation workflow {#segmentation-workflow}
+  + Workflow {#segmentation-workflow}
     + [Overview](segmentation/segmentation-workflow/seg-workflow.md)
     + [Plan segments](segmentation/segmentation-workflow/seg-plan.md)
     + [Create segnents](segmentation/segmentation-workflow/seg-create.md)
@@ -190,7 +190,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Manage segments](segmentation/segmentation-workflow/seg-manage.md)
     + [Publish segments to the Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
     + [Use segments](segmentation/segmentation-workflow/t-seg-apply.md)
-  + Segment Reference {#segment-reference}
+  + Reference {#segment-reference}
     + [Operators](segmentation/seg-reference/seg-operators.md)
     + [Data Warehouse segment compatibility](segmentation/seg-reference/seg-compatibility.md)
     + [Segment rights by role](segmentation/seg-reference/seg-rights.md)
@@ -200,7 +200,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
 + Calculated metrics {#calculated-metrics}
   + [Overview](c-calcmetrics/cm-overview.md)
   + [How-to videos](c-calcmetrics/cm-videos.md)
-  + Calculated metrics workflow {#calcmetric-workflow}
+  + Workflow {#calcmetric-workflow}
     + [Create calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
     + [Find metrics](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
     + [Build calculated metrics](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -219,7 +219,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + [Share calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
     + [Copy calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
     + [Manage calculated metrics](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-  + Metrics reference {#calcmetrics-reference}
+  + Reference {#calcmetrics-reference}
     + [Basic functions](c-calcmetrics/cm-reference/cm-functions.md)
     + [Advanced functions](c-calcmetrics/cm-reference/cm-adv-functions.md)
     + [Metric compatibility](c-calcmetrics/cm-compatibility.md)
@@ -234,7 +234,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [A4T considerations](vrs/vrs-a4t.md)
   + [Virtual report suites FAQs](vrs/vrs-faq.md)
   + [Virtual report suites and global/multi-suite tagging considerations](vrs/vrs-considerations.md)
-  + Virtual report suite workflow {#vrs-workflow}
+  + Workflow {#vrs-workflow}
     + [Virtual report suite workflow](vrs/c-workflow-vrs/vrs-workflow.md)
     + [Create virtual report suites](vrs/c-workflow-vrs/vrs-create.md)
     + [Manage virtual report suites](vrs/c-workflow-vrs/vrs-manage.md)
@@ -250,8 +250,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
   + [Overview](c-alerts/intellligent-alerts.md)
-  + [Create](c-alerts/alert-builder.md)
-  + [Manage](c-alerts/alert-manager.md)
+  + [Create alerts](c-alerts/alert-builder.md)
+  + [Manage alerts](c-alerts/alert-manager.md)
   + [Use cases](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
   + [Classifications overview](classifications/classifications-overview.md)

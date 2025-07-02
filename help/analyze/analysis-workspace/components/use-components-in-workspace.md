@@ -1,6 +1,6 @@
 ---
-description: Learn how to add components to a project in Analysis Workspace
-title: Use components in Analysis Workspace
+description: Learn how to use components in a project in Analysis Workspace
+title: Use Components In Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
@@ -26,7 +26,7 @@ See the [Components overview](/help/analyze/analysis-workspace/components/analys
 1. Scroll to or search for the component that you want to add, then drag it to a panel or visualization within your project. 
 
 1. You can optionally drag a component to the segment drop zone in a panel header. This drag and drop defines the component as a segment and applies the segment to all the content within the panel.
-   For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+   For information about how you can use the segment drop zone on a panel to segment your panel, see the [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. For more detailed information, see the following sections:
 
@@ -62,7 +62,7 @@ Metrics allow you to quantify data points in Analysis Workspace. They are most c
 
 To add a metric to a project in Analysis Workspace:
 
-1. Start adding a metric to your project in Analysis Workspace,as described in [Add components to a project](#add-components-to-a-project).
+1. Start adding a metric to your project in Analysis Workspace, as described in [Add components to a project](#add-components-to-a-project).
 
 
 
@@ -91,24 +91,24 @@ You can use segments in Analysis Workspace in any of the following ways:
 
 * Add segments to a panel
   When you add segments to a panel, the segments apply to all content within the panel.
-  For information about how you can use the segment drop zone on a panel to segment your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
+  For information about how you can use the segment drop zone on a panel to segment your panel, see the [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Add segments to a visualization
   When you add segments to a column in a freeform table, the segments apply to all content within the table column. You can also add segments as part of a fallout visualization.
 
 * Use segments in components
-  Whe you define components like [calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) you can use segments as part of the definition.
+  When you define components like [calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) you can use segments as part of the definition.
 
 
 ### Add date ranges to a project
 
-[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project and also to some visualizations (like the Freeform table).
+[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determine the reporting time frame in Analysis Workspace. And a data range can be applied to panels within a project and also to some visualizations (like the Freeform table).
 
 Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left panel:
 
 1. Optionally, add a date range to your project in Analysis Workspace, as described in [Add components to a project](#add-components-to-a-project).
 
-1. Drag and drop a date range from the left panel onto:
+1. Drag and drop a date range from the left panel on:
 
    * The current date range, to modify the date range for the panel.
 
@@ -120,7 +120,7 @@ For more information about how to use and manage date ranges in Analysis Workspa
 
 ## Component info
 
-You can hover over any component to display ![More info](/help/assets/icons/InfoOutline.svg). When selected, a popup is displayed with additional information on the component. 
+You can hover over any component to display ![More info](/help/assets/icons/InfoOutline.svg). When you select ![InfoOutline](/help/assets/icons/InfoOutline.svg), a popup is displayed with additional information on the component. 
 
 ![Component info](assets/component-info.png)
 

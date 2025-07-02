@@ -1,11 +1,11 @@
 ---
-description: View the top values of a dimension before using it in a project.
-title: Preview dimensions
+description: Learn how to view details and the top values of a dimension in Analysis Workspace.
+title: Preview Dimensions
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
 ---
-# Preview dimensions in Analysis Workspace
+# Preview dimensions
 
 You can use the [component info](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) for a component to show the top items for a dimension.
 

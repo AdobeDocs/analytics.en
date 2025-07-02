@@ -87,7 +87,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Improved bot rules documentation | Updated information in [Understand and configure bot rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) to improve clarity.<p>Improvements include:</p> <ul><li>Updated article title to be more descriptive</li><li>Improved organization of information</li><li>Added steps to indicate task-based information</li><li>Added more details about CSV file requirements when uploading bot rules</li></ul> |
 | New Reports section | Added a new Reports section that includes information about [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md) and [creating company templates](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Updates to Anomaly Detection and Contribution Analysis documentation | The documentation for Anomaly Detection and Contribution Analysis was previously located in a section about Virtual Analyst. The following changes were made: <ul><li>The term Virtual Analyst was removed from the documentation.</li><li>The section about [Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) was moved directly beneath the Analysis Workspace section.</li><li>The Contribution Analysis documentation was merged into the Anomaly Detection documentation.</li></ul> |
-| "Attribution IQ " changed to "Attribution" | Changed all instances of "Attribution IQ" to "[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)" throughout the documentation. |
+| "Attribution IQ" changed to "Attribution" | Changed all instances of "Attribution IQ" to "[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)" throughout the documentation. |
 | **November 2023** | |
 | Updates to Activity Map activation/enablement topic | Added [Web SDK](/help/analyze/activity-map/getting-started.md) (both manual and via Adobe Experience Platform tags extension) content. |
 | **October 2023** | |
@@ -318,7 +318,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | October 1, 2019 | New article on [Workspace totals](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace). |
 | September 28, 2019 | New articles on [configuration variables for Javascript implementation](/help/implement/vars/config-vars/configuration-variables.md) |
 | September 19, 2019 | Revised segmentation documentation to explain [Logic Group containers](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html#logic-group-containers). |
-| September 12, 2019 | New documentation for [Journey IQ: Cross-Device Analytics](/help/components/cda/overview.md) |
+| September 12, 2019 | New documentation for [Cross-Device Analytics](/help/components/cda/overview.md) |
 | September 12, 2019 | Update [Calculated metrics totals](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html) document. |
 | August 28, 2019 | New article on [Progressive Web Apps (PWAs) for Analytics](/help/technotes/pwa.md) |
 | August 8, 2019 | New article on [Calculated Metrics Totals](/help/components/c-calcmetrics/cm-totals.md) |

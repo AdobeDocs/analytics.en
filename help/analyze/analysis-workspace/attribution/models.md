@@ -1,5 +1,5 @@
 ---
-title: Attribution models and lookback windows
+title: Attribution Models, Containers And Lookback Windows
 description: How different types of attribution divide credit between dimension items.
 feature: Attribution
 role: User, Admin

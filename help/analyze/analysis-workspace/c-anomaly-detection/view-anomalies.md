@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 ---
-# View anomalies in Analysis Workspace
+# View anomalies
 
-You can view anomalies in a table or in a line chart.
+You can view anomalies in Analysis Workspace in a table or in a line chart.
 
 ## View anomalies in a table {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -24,6 +24,7 @@ You can view anomalies in a time-series Freeform Table.
    The **colored vertical line** in each row ➋ indicates the expected value. The **colored shaded area** in each row ➊ indicates the actual value. How the line (expected value) compares with the shaded area (actual value) determines whether there is an anomaly. (An observation is considered anomalous based on the advanced statistical techniques described in [Statistical techniques used in anomaly detection](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
 
 1. Select ◥ in the upper-right corner of a row to view details about the anomaly. This shows the extent (as a percentage) to which the actual value diverges either above or below the expected value.
+1. Select [Open Contribution Analysis](run-contribution-analysis.md) to start the contribution analysis.
 
 ## View anomalies in a line chart
 

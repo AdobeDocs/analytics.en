@@ -1,6 +1,6 @@
 ---
-title: Attribution best practices
-description: What are the best practices to decide on an attribution model?
+title: Attribution Best Practices
+description: Understand the best practices to decide on which attribution model to use.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 ---

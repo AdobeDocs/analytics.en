@@ -1,5 +1,5 @@
 ---
-description: Learm how to manage alerts.
+description: Learn how to manage alerts.
 title: Manage Alerts
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
@@ -8,7 +8,7 @@ exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 # Manage alerts
 
 
-You can filter, tag, delete, rename, copy, enable, disable renew, and export alerts from a central [!UICONTROL Alerts] management interface. To manage alerts:
+You can filter, tag, delete, rename, copy, enable, disable, renew, and export alerts from a central [!UICONTROL Alerts] management interface. To manage alerts:
 
 * Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Alerts]**.
 
@@ -29,10 +29,10 @@ The alerts list ➊ displays all the alerts that you own, the alerts that have b
 |---|---|
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) an alert. |
 | **[!UICONTROL Title and description]** | To edit the alert, select the title link, which opens the [Alerts builder](alert-builder.md#alert-builder).|
-| **[!UICONTROL Type]** | Shows whether the  alert is an Adobe Analytics data alert or a Server call usage alert. | 
-| **[!UICONTROL Enabled]** | Indicates whether the alert is enabled or disabled. | 
-| **[!UICONTROL Report suite]** | The reports suites that this alert apply to.  | 
-| **[!UICONTROL Owner]** | The owner of the alert. As a non-administrator, you only see alerts you own or those that are shared with you. |
+| **[!UICONTROL Type]** | The type of the alert: an Adobe Analytics data alert or a Server call usage alert. | 
+| **[!UICONTROL Enabled]** | The alert is enabled or disabled. | 
+| **[!UICONTROL Report suite]** | The reports suites that this alert applies to.  | 
+| **[!UICONTROL Owner]** | The owner of the alert. As a non-administrator, you only see alerts that you own or alerts that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this alert. |
 | **[!UICONTROL Expiration Date]** | The date and time when the alert is set to expire. | 
 | **[!UICONTROL Date modified]** | The date and time that the alert was last modified. |
@@ -58,7 +58,7 @@ You can action on alerts using the action bar ➋. The action bar contains the f
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a single selected alert. When selected, you can rename the alert inline. |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copy the selected alert. New alerts are created with the same name and suffix `(Copy)`. | 
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)| **[!UICONTROL Enable]** or **[!UICONTROL Disable]** | Enable or disable the selected alerts. |
-|![Refresh](/help/assets/icons/Refresh.svg)| **[!UICONTROL Renew]** | Renews the alert expiration date. The  expiration date extends 1 year from the day you select this option, regardless of the original expiration date. |
+|![Refresh](/help/assets/icons/Refresh.svg)| **[!UICONTROL Renew]** | Renews the alert expiration date. The  expiration date extends 1 year from the day that you select this option, regardless of the original expiration date. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg)| **[!UICONTROL Export to CSV]** | Export the alerts to an `Alerts List.csv` file. |
 
 
@@ -81,7 +81,7 @@ You can filter the list of alerts using the ![Filter](/help/assets/icons/Filter.
 {{tagfiltersection}}
 
 
-#### Repors suite filter section
+#### Reports suite filter section
 
 {{reportsuitefiltersection}}
 
@@ -117,7 +117,7 @@ You use the [Alert builder](alert-builder.md#alert-builder) to edit the alert.
 
 ## Troubleshoot an alert
 
-When troubleshooting an issue with an alert, provide the JID (Job Instance ID) number to Adobe Support. The JID number is located at the bottom of the alert email notification you receive.
+When troubleshooting an issue with an alert, provide the JID (Job Instance ID) number to Adobe Support. The JID number is located at the bottom of the alert email notification that you receive.
 
 ![Alert email](assets/alerts-email.PNG)
 

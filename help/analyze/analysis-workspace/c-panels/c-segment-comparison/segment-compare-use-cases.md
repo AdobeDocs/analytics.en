@@ -34,7 +34,7 @@ A retail site optimization team wants to understand better the users who are int
 
 > *"You discovered that visitors to your news section were twice as likely to watch video ads, so you added more video options to that section. You experienced a 7% increase in video ads viewed!"*
 
-A major media publishing company looks at ways to improve the content engagement for audiences in their news section. They create a segment of visitors who visit the News site section to understand better the news audience. They immediately find that these users are twice as likely to watch video ads than visitors to any other site section. The video team put together a recommended video section on their news side rail and achieves a 7% increase in video ads viewed.
+A major media publishing company looks at ways to improve the content engagement for audiences in their news section. They create a segment of visitors who visit the News site section to understand the news audience better. They immediately find that these users are twice as likely to watch video ads than visitors to any other site section. The video team put together a recommended video section on their news side rail and achieves a 7% increase in video ads viewed.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -52,7 +52,7 @@ A major B2B services company wants to understand the type of traffic that paid s
 
 ## Use case 5: compare Fitbit purchasers to everyone else
 
-> *"You found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else, so you quickly ordered more Fitbits and avoided running out of stock!"*
+> *"You found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else. So you quickly ordered more Fitbits and avoided running out of stock!"*
 
 **Scenario:** A major online retailer is interested in how one of the hottest holiday products - Fitbit - is selling and what makes Fitbit purchasers unique among other customers. The marketing team is able to select the Fitbit line item in their products report and quickly run a segment comparison analysis from the context menu. What they discover is that users purchasing Fitbits are 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team is able to direct these visitors to their brick and mortar stores while they wait on their purchasing department to order more Fitbits to ship. As a result, the retailer avoids more "out of stock" messages, and is able to satisfy more of the holiday demand.
 

@@ -19,6 +19,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **July 2025** | |
+| Debugger | New article on how to enable, use and disable the project debugger in Analysis Workspace. |
+| Review and updates | Review and update of Analysis Workspace documentation. Where appropriate, the documentation is now in sync with the Customer Journey Analytics documentation on Analysis Workspace. | 
+| **June 2025** | |
+| New shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [move Workspace panels](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) up and down in a project.  | 
 | **March 2025** |  |
 | Analytics inventory | [Analytics Inventory](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. | 
 | Customer Journey Analytics upgrade guide | Lets you generate a [step-by-step guide](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) for upgrading from Adobe Analytics to Customer Journey Analytics. |

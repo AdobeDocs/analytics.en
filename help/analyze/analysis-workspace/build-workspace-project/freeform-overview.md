@@ -1,7 +1,7 @@
 ---
 description: Learn how to work with projects in Analysis Workspace. Use the projects manager to manage (create, delete, move, share, approve, pin, copy, and tag) projects.
 keywords: Analysis Workspace
-title: Projects overview
+title: Projects Overview
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a

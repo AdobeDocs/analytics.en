@@ -1,5 +1,5 @@
 ---
-description: Learn how to create and use segments in Analysis Workspace.
+description: Learn how to create and use segments in Analysis Workspace and Adobe Analytics.
 title: Segments Overview
 feature: Segmentation
 role: User, Admin

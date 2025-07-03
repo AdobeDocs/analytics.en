@@ -28,7 +28,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Save projects](analysis-workspace/build-workspace-project/save-projects.md)
     + [Table of contents](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Folders in Workspace {#workspace-folders}
-      + [Folders overview](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + [Overview](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
       + [Create folders](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
       + [Manage folders](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
       + [Add or move projects](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -36,9 +36,10 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
     + [Color palettes](analysis-workspace/build-workspace-project/color-palettes.md)
     + [View density](analysis-workspace/build-workspace-project/view-density.md)
+    + [Debugger](analysis-workspace/build-workspace-project/debugger.md)
   + Templates {#templates}
     + [Use templates](analysis-workspace/templates/use-templates.md)
-    + [Create templates](analysis-workspace/templates/create-templates.md)
+    + [Create and manage templates](analysis-workspace/templates/create-templates.md)
   + Components {#components}
     + [Overview](analysis-workspace/components/analysis-workspace-components.md)
     + [Use components](analysis-workspace/components/use-components-in-workspace.md)
@@ -93,8 +94,8 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Overview](analysis-workspace/visualizations/c-flow/flow.md)
       + [Configure](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-    + [Area and area stacked](analysis-workspace/visualizations/area.md)
-    + [Bar and bar stacked](analysis-workspace/visualizations/bar.md)
+    + [Area (stacked)](analysis-workspace/visualizations/area.md)
+    + [Bar (stacked)](analysis-workspace/visualizations/bar.md)
     + [Bullet](analysis-workspace/visualizations/bullet-graph.md)
     + [Combo](analysis-workspace/visualizations/combo-charts.md)
     + [Donut](analysis-workspace/visualizations/donut.md)

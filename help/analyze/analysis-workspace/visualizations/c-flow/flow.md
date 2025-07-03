@@ -1,5 +1,5 @@
 ---
-description: Learn how to use the flow visualization in a Analysis Workspace.
+description: Learn how to use the flow visualization in Analysis Workspace.
 title: Flow Overview
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations

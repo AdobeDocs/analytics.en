@@ -1,5 +1,5 @@
 ---
-description: Use the map visualization to plot data on a geographic map visualization
+description: Use the map visualization to plot data on a geographic map visualization.
 title: Map
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
@@ -57,7 +57,7 @@ The ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualization in
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

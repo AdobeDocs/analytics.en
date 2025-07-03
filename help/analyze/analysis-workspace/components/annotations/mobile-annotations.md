@@ -1,6 +1,6 @@
 ---
-title: Mobile Annotations
-description: Learn how to surface annotations in Mobile scorecards.
+title: Mobile Scorecard Annotations
+description: Learn how to surface annotations in mobile scorecards.
 role: User, Admin
 solution: Analytics
 feature: Components
@@ -9,7 +9,7 @@ exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 
 # Mobile scorecard annotations
 
-You can display annotations that are created in Workspace in Mobile scorecards. Annotations in mobile scorecards allow you to share contextual data nuances and insights about your organization and campaigns.
+You can display annotations that are created in Analysis Workspace in Mobile scorecards. Annotations in mobile scorecards allow you to share contextual data nuances and insights about your organization and campaigns.
 
 
 ## Display annotations in Mobile scorecards

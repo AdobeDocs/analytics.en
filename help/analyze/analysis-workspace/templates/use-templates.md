@@ -1,5 +1,5 @@
 ---
-description: Learn how to use templates in Analysis Workspace.
+description: Learn about the default templates in Analysis Workspace and how to use these default templates.
 title: Use Templates
 feature: Analysis Workspace
 role: User, Admin

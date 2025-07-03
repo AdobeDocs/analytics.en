@@ -1,5 +1,5 @@
 ---
-title: Create Hyperlinks For Dimensions In A Freeform Table
+title: Create Hyperlinks
 description: Learn how to create hyperlinks for dimension items in a freeform table in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin

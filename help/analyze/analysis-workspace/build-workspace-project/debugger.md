@@ -6,7 +6,7 @@ title: Project debugger
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 ---
-## Project debugger
+# Project debugger
 
 The project debugger helps you and Adobe Support to troubleshoot issues with your projects in Analysis Workspace. Adobe Support might request you to enable the debugger to troubleshoot tickets you have raised with Adobe Support. Examples of issues are load-time of visualizations or broken components in your visualizations.
 

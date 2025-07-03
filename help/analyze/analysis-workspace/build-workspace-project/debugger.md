@@ -4,6 +4,7 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Project debugger
 role: User
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
 ---
 # Project debugger
 
@@ -89,6 +90,3 @@ To disable the debugger:
 1. Select **[!UICONTROL Help]** > **[!UICONTROL Disable debugger]** from the Analysis Workspace project menu.
 1. Select **[!UICONTROL OK]** in the **[!UICONTROL Disable debugger]** dialog.
 1. Confirm when the browser prompts you to reload the page or site.
-
-
-

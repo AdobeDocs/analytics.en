@@ -1,6 +1,6 @@
 ---
 description: Learn how to create and use quick segments in Analysis Workspace.
-title: Quick s=Segments
+title: Quick Segments
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
@@ -25,7 +25,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Quick segments](
 
 >[!MORELIKETHIS]
 >
->[Create a quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md)
+>[Create a quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--

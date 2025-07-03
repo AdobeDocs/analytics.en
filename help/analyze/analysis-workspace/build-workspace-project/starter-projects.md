@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 ---
-# Quickly start a project 
+# Quickly start projects 
 
 You can quickly start a project with relevant relevant panels and visualization. To do so, use templates (or company templates) in Analysis Workspace. Templates provide quick insights into the most common reporting scenarios. 
 

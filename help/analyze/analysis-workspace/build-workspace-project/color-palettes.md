@@ -1,11 +1,11 @@
 ---
 description: Learn how to use the visualization color palette in Analysis Workspace.
-title: Visualization Color Palette
+title: Visualization Color Palettes
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 ---
-# Visualization color palette {#visualization-color-palette}
+# Visualization color palettes {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
 

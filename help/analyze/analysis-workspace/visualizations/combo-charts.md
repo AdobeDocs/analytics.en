@@ -5,7 +5,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 ---
-# Combo chart {#combo}
+# Combo {#combo}
 
 <!-- markdownlint-disable MD034 -->
 

@@ -1,6 +1,6 @@
 ---
 title: Annotations Overview
-description: How to use annotations in Analysis Workspace.
+description: Learn how to use annotations in Analysis Workspace.
 role: User, Admin
 solution: Analytics
 feature: Annotations

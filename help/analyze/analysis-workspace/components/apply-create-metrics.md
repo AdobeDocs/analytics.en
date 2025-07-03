@@ -1,5 +1,5 @@
 ---
-description: Understand what metrics are and how to use metrics in Adobe Analytics.
+description: Understand what metrics are and how to use metrics in Analysis workspace.
 title: Metrics
 feature: Metrics
 role: User, Admin

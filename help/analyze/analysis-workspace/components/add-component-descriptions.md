@@ -1,6 +1,6 @@
 ---
-description: Administrators can add descriptions for components in a report suite or using the data dictionary.
-title: Add Component Descriptions
+description: Learn how administrators can add desciptions to components using a report suite or the data dictionary.
+title: Add component descriptions
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93

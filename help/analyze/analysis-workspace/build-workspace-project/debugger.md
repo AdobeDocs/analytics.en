@@ -49,7 +49,7 @@ To use the debugger for a specific visualization:
 
    * **[!UICONTROL Request timestamp]**   
    * **[!UICONTROL Response timestamp]** 
-   * **[!UICONTROL  Request time]**   
+   * **[!UICONTROL Request time]**   
    * **[!UICONTROL Queue time]**    
    * **[!UICONTROL Server processing time]**    
    * **[!UICONTROL Lookup time]**    
@@ -69,7 +69,7 @@ To use the debugger for a specific visualization:
    * JSON (response)
    * Curl request
 
-1. Use ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]**d underneath **[!UICONTROL cURL Request]** to copy the request to the clipboard.
+1. Use ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** underneath **[!UICONTROL cURL Request]** to copy the request to the clipboard.
 1. Hover over any of the **[!UICONTROL Request]** or **[!UICONTROL Response]** text areas to reveal and select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** to copy the contents of that text area (XML or JSON) to the clipboard.
 
 1. Exchange any of the information you have copied and which Adobe Support requested to troubleshoot the visualizations in your Analysis Workspace project.

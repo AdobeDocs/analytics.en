@@ -3,7 +3,6 @@ description: Learn how to use the debugger to troubleshoot issues with your proj
 keywords: Analysis Workspace
 feature: Workspace Basics
 title: Project debugger
-exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
 ---
 # Project debugger

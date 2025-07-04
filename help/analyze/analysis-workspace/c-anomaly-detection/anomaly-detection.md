@@ -1,5 +1,5 @@
 ---
-description: Understand how you can view and analyze data anomalies contextually, within Analysis Workspace.
+description: Learn about data anomaly detection in Analysis Workspace.
 title: Anomaly Detection Overview
 feature: Anomaly Detection
 role: User, Admin

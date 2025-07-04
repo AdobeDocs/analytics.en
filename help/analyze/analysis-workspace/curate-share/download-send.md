@@ -1,6 +1,6 @@
 ---
 description: Learn about the various possibilities to download data from your Analysis Workspace project.
-title: Download Analysis Workspace Projects And Data
+title: Download Projects And Data
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b

@@ -112,7 +112,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Venn](analysis-workspace/visualizations/venn.md)
   + Panels {#panels}
     + [Overview](analysis-workspace/c-panels/panels.md)
-    + [Blank](analysis-workspace/c-panels/blank-panel.md)
+    + [Blank panel](analysis-workspace/c-panels/blank-panel.md)
     + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
     + [Attribution](analysis-workspace/c-panels/attribution.md)
     + [Freeform](analysis-workspace/c-panels/freeform-panel.md)
@@ -130,7 +130,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Overview](analysis-workspace/curate-share/send-schedule-files.md)
     + [Curate projects](analysis-workspace/curate-share/curate.md)
     + [Share projects](analysis-workspace/curate-share/share-projects.md)
-    + [Shareable links](analysis-workspace/curate-share/shareable-links.md)
+    + [Create shareable links](analysis-workspace/curate-share/shareable-links.md)
     + [Read-only projects](analysis-workspace/curate-share/view-only-projects.md)
     + [Download](analysis-workspace/curate-share/download-send.md)
     + [Send and schedule](analysis-workspace/curate-share/t-schedule-report.md)
@@ -145,7 +145,6 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
   + Anomaly Detection {#anomaly-detection}
     + [Overview](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
     + [View anomalies](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-    + [Turn off anomaly detection](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
     + [Run contribution analysis](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
     + [Statistical techniques](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
   + [User preferences](analysis-workspace/user-preferences.md)

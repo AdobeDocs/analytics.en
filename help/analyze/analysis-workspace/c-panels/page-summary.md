@@ -1,5 +1,5 @@
 ---
-description: Learn how to use he page summary panel to show summary information for a selected page.
+description: Learn how to use the page summary panel to show summary information for a selected page.
 title: Page Summary Panel
 feature: Panels
 role: User, Admin

@@ -1,5 +1,5 @@
 ---
-description: Understand how to use the Next or previous item panel that shows the next or previous dimension items for a specific dimension.
+description: Understand how to use the Next or previous item panel that shows the next or previous items for a specific dimension.
 title: Next Or Previous Item Panel
 feature: Panels
 role: User, Admin
@@ -46,7 +46,7 @@ You can configure the [!UICONTROL Next or previous item] panel using these input
 | **[!UICONTROL Dimension]** | Select the dimension for which you want to explore next or previous items. |
 | **[!UICONTROL Dimension item]** | Select the specific dimension item at the center of your next / previous inquiry. |
 | **[!UICONTROL Direction]** | Specify whether you are looking for the [!UICONTROL Next] or the [!UICONTROL Previous] dimension item. |
-| **[!UICONTROL Container]** | Select the container, [!UICONTROL Session] or [!UICONTROL Person] (default), to determine the scope of your inquiry. |
+| **[!UICONTROL Container]** | Select the container, **[!UICONTROL Visit]** or **[!UICONTROL Visitor]** (default), to determine the scope of your inquiry. |
 
 {style="table-layout:auto"}
 

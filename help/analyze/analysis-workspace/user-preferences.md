@@ -1,11 +1,11 @@
 ---
-title: How to set user and company preferences in Analysis Workspace
-description: You can set general and project preferences for users, as well as a dark theme preference.
+title: User Preferences
+description: Learn how to set general and project preferences for users.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 ---
-# Preferences
+# User Preferences
 
 You can manage settings for Analysis Workspace and its related components for all new projects or panels that you create. Existing projects and panels are not affected.
 
@@ -16,24 +16,18 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Manage preferenc
 
 >[!ENDSHADEBOX]
 
-
 ## Update preferences
 
-1. In Adobe Analytics, go to the [!UICONTROL **Project**] landing page, then select [!UICONTROL **Preferences**].
+You can update your preferences in the following ways:
 
-   ![User preferences](assets/user-preferences.png) 
+- Select ![UserAdmin](/help/assets/icons/UserAdmin.svg) **[!UICONTROL Edit preferences]** from the Workspace main interface.
+- Select **[!UICONTROL Project]** > **[!UICONTROL User preferences]** from the menu when working in a Workspace project.
+- Select **[!UICONTROL Components]** > **[!UICONTROL Preferences]** from the top menu bar in Customer Journey Analytics (only available for product administrators).
 
-1. For information about the available preferences on each tab, continue with any of the following sections in this article:
+## Configure preferences
 
-   * [General preferences](#general-preferences)
+You can configure the following preferences: 
 
-   * [Company](#company-preferences)
-
-   * [Project preferences](#project-preferences)
-
-   * [Freeform table preferences](#freeform-table-preferences)
-
-   * [Visualizations preferences](#visualizations-preferences)
 
 ## General preferences
 
@@ -66,8 +60,8 @@ You can update company preferences that apply to all users and projects within y
 
 | Section | Preference | Options |
 | --- | --- | --- |
-| **Reports tab** | | |
-|  | Hide Reports Tab | Hides the Reports tab for all users in your organization. |
+| **Templates Tab tab** | | |
+|  | Hide Templates Tab | Hides the Templates Tab for all users in your organization. |
 | **Project sharing** | | |
 | | Allow sharing only with Workspace users | <p>When this option is enabled, users in your organization cannot see the "Share with anyone" option in the Share menu. This means that users cannot share projects with people who don't have an Analysis Workspace account in your organization as described in [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Consider the following when enabling or disabling this option:</p> <ul><li><p>When you enable this option, people who previously received access to a project through the "Share with anyone" share option can no longer access the project.</p></li><li><p>If this option is enabled (to allow sharing only with Workspace users) and then later disabled (to allow sharing with anyone), people who previously received access to a project through the "Share with anyone" share option do not automatically regain their access to the project. In this case, the user who shared the project must enable the [!UICONTROL **Link is active**] option that is available when sharing a project with anyone ([!UICONTROL **Share**] > [!UICONTROL **Share with anyone**]), as described in [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
 | | Require Experience Cloud authentication | <p>When enabled, people who are given access to a project from the "Share with anyone" option in Analysis Workspace must authenticate using their Experience Cloud credentials.</p> <p>After this option is enabled, any time a user shares a project using the "Share with anyone" share option, the "Require Experience Cloud authentication" option is enabled in the share dialog and it cannot be disabled by the user who is sharing the project. (For information about how users can share projects with anyone, see [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Consider the following when enabling this option:</p><ul><li><p>When you enable this option, all projects that were previously shared with the "Share with anyone" share option, and do not have the "Require Experience Cloud authentication" option enabled, are deactivated.</p></li> <li><p>If this option is enabled (to require Experience Cloud authentication) and then later disabled (to allow anyone with the link to access the project), people who previously received access to a project through the "Share with anyone" share option do not automatically regain their access to the project. In this case, the user who shared the project must enable the "Link is active" option that is available when sharing a project with anyone ([!UICONTROL **Share**] > [!UICONTROL **Share with anyone**] > [!UICONTROL **Link is active**]), as described in [Share a project with anyone (no login required)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>This option is available only if SSO is implemented in your organization. For information about how system administrators can enable SSO for your organization, see [Set up identity and Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html){target=_blank}.</p><p>If SSO is configured for your organization, check to see if any kind of auto-account creation is implemented in the console. Typically, a system administrator would set this up, as described in [Enable automatic account creation](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>If your organization is in an industry that requires HIPAA compliance, this option is automatically enabled and cannot be disabled.</p></li></ul>  |
@@ -247,25 +241,23 @@ Click the linked section titles for more information and context about the avail
 
 ## Restore default preferences
 
-You can restore all your user preferences to the system defaults. This does not affect administrator preferences under the Company tab.
+You can restore all your user preferences to the system defaults. This preference does not affect administrator preferences under the Company tab.
 
 This action cannot be undone.
 
-1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**].
-
-   ![User preferences](assets/user-preferences.png)
+1. In Adobe Analytics, select [!UICONTROL **Components**] **>** [!UICONTROL **Preferences**] from the top menu. Or select **[!UICONTROL Project]** > **[!UICONTROL User settings]** from the Workspace menu.
 
 1. In the upper-right, select **[!UICONTROL Restore defaults]**.
 
-1. When prompted, select **[!UICONTROL Restore defaults]**.
+1. Select **[!UICONTROL Restore defaults]** in **[!UICONTROL Restore system default settings]**.
 
 ## [!UICONTROL Dark theme]
 
-If you prefer to have a dark background for your Adobe Analytics user interface, you can toggle to [!UICONTROL Dark theme].
+If you prefer to have a dark background for your Customer Journey Analytics user interface, you can toggle to [!UICONTROL Dark theme].
 
-1. Click the Experience Cloud user icon at the top right.
+1. Select the Experience Cloud user icon at the top right.
 
    ![dark-theme](assets/dark-theme.png)
 
-1. Move the **[!UICONTROL Dark theme]** toggle to the right.
+1. Enable **[!UICONTROL Dark theme]**.
 

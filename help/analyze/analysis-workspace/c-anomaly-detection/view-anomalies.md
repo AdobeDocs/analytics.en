@@ -1,6 +1,6 @@
 ---
-description: You can view anomalies in a table or in a line chart.
-title: View anomalies in Analysis Workspace
+description: Understand how you can view and analyze data anomalies within Analysis Workspace.
+title: View Anomalies
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
@@ -13,7 +13,7 @@ You can view anomalies in Analysis Workspace in a table or in a line chart.
 
 You can view anomalies in a time-series Freeform Table.
 
-1. Select the ![Setting](/help/assets/icons/Setting.svg)in the column header, then ensure that the **[!UICONTROL Anomalies]** option is selected in the list of options. For more information, see [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Select the ![Setting](/help/assets/icons/Setting.svg) in the column header, then ensure that the **[!UICONTROL Anomalies]** option is selected in the list of options. For more information, see [Column settings](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Anomalies are shown in the table as follows:
 

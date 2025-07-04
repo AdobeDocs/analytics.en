@@ -8,17 +8,20 @@ exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 ---
 # Segment comparison use cases
 
-The segment comparison panel is a widely used feature in Analysis Workspace. Customers frequently discover new ways to drive insights with it. The following are several successful use cases.
+The segment comparison panel is a widely used feature in Analysis Workspace. Customers frequently discover new ways to drive insights with when using the panel. Find below some typical use cases
 
-## Use case 1: compare mobile vs. desktop implementations
+## Use case 1: compare mobile versus desktop implementations
 
 > *"You compared hits from one site to another site and quickly found a number of tagging inconsistencies. This way, you avoided data problems before product release."*
 
-You are charge of a mobile website and a desktop website, and tasked with making sure that tags are consistent across mobile and desktop. To make sure you do not miss anything important, you use the segment comparison panel to compare hits coming from their mobile site to hits coming from their desktop site. You notice that there are no checkout events on the mobile website and get the correct tags in place before the mobile site is released. As a result,  you prevent a data disaster due to the mobile site not recording any conversions.
+You are in charge of a mobile website and a desktop website, and tasked to make sure that tags are consistent across mobile and desktop. To make sure you do not miss anything important, you use the segment comparison panel to compare hits coming from their mobile site to hits coming from their desktop site. You notice that there are no checkout events on the mobile website and get the correct tags in place before the mobile site is released. As a result,  you prevent a data disaster due to the mobile site not recording any conversions.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Hit container where Mobile Device Type equals Mobile Phone or Tablet | Everyone else |
+
+{style="table-layout:fixed"}
+
 
 ## Use case 2: compare customers who use a certain feature to customers who don't
 
@@ -30,6 +33,9 @@ A retail site optimization team wants to understand better the users who are int
 |--- |--- |
 | Visitor container where custom event (price comparison tool) exists | Everyone else |
 
+{style="table-layout:fixed"}
+
+
 ## Use case 3: compare news site visitors to other site section visitors
 
 > *"You discovered that visitors to your news section were twice as likely to watch video ads, so you added more video options to that section. You experienced a 7% increase in video ads viewed!"*
@@ -39,6 +45,9 @@ A major media publishing company looks at ways to improve the content engagement
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Visitor container where Site Section equals 'News' | Everyone Else |
+
+{style="table-layout:fixed"}
+
 
 ## Use case 4: compare visitors from paid search to everyone else
 
@@ -50,12 +59,17 @@ A major B2B services company wants to understand the type of traffic that paid s
 |--- |--- |
 | Visitor container where Referrer Type equals Paid Search | Everyone Else |
 
+{style="table-layout:fixed"}
+
+
 ## Use case 5: compare Fitbit purchasers to everyone else
 
-> *"You found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else. So you quickly ordered more Fitbits and avoided running out of stock!"*
+> *"You found that people buying Fitbits were 6 times more likely to get an 'out of stock' message than everyone else. So, you quickly ordered more Fitbits and avoided running out of stock!"*
 
 **Scenario:** A major online retailer is interested in how one of the hottest holiday products - Fitbit - is selling and what makes Fitbit purchasers unique among other customers. The marketing team is able to select the Fitbit line item in their products report and quickly run a segment comparison analysis from the context menu. What they discover is that users purchasing Fitbits are 6 times more likely to get an "out of stock" message than any other customer. After further analysis, the marketing team is able to direct these visitors to their brick and mortar stores while they wait on their purchasing department to order more Fitbits to ship. As a result, the retailer avoids more "out of stock" messages, and is able to satisfy more of the holiday demand.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Visitor container where Orders exist and custom dimension Brand equals FitBit | Everyone else |
+
+{style="table-layout:fixed"}

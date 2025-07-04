@@ -60,7 +60,7 @@ You can configure the Attribution panel using these input settings:
 
    ![The Attribution panel window showing several selected dimensions and metrics.](assets/attribution-panel.png)
 
-1. Select one or more [attribution models](#attribution-models) from **[!UICONTROL Included models]** and a [lookback window](#lookback-window) from the **[!UICONTROL Lookback window]** that you want to use for comparison.
+1. Select one or more [attribution models](#attribution-models) from **[!UICONTROL Included models]**, the [container](#container) from **[!UICONTROL Container]**, and a [lookback window](#lookback-window) from **[!UICONTROL Lookback window]** that you want to use for comparison.
 
 1. Select **[!UICONTROL Build]** to build the visualizations in the panel.
 
@@ -82,7 +82,7 @@ The following visualization are part of the panel ouput.
 * **Trended Performance**: Shows the trend of attributed conversions for the top dimension item. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
 * **Flow**: Lets you see which channels are interacted with most commonly, and in what order across a person's journey.
 
-## Attribution models
+## Attribution model
 
 {{attribution-models-details}}
 

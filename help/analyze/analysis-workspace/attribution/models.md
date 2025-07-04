@@ -1,25 +1,25 @@
 ---
-title: Attribution Models, Containers And Lookback Windows
-description: How different types of attribution divide credit between dimension items.
+title: Attribution Components
+description: Learn about the components that define attribution.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 ---
-# Attribution models, containers and lookback windows
+# Attribution components
 
 The concept of attribution in Adobe Analytics involves three components:
 
-* **Attribution model:** The model describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
-* **Container**: The container defines the scope of the attribution, or how to group the hits for each model.
-* **Attribution lookback window:** The lookback window describes the number of days to lookback for the chosen model..
+* **Attribution model:** The [model](#attribution-model) describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
+* **Container**: The [container](#container) defines the scope of the attribution, or how to group the hits for each model.
+* **Attribution lookback window:** The [lookback window](#lookback-window) describes the number of days to lookback for the chosen model..
 
 
-## Attribution models
+## Attribution model
 
 {{attribution-models-details}}
 
 
-## Containers
+## Container
 
 {{attribution-container}}
 

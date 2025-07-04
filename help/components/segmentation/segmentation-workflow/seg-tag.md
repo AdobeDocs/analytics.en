@@ -1,6 +1,6 @@
 ---
-description: In the Segment manager, tagging segments allows you to organize them.
-title: Tag segments
+description: Understand how to tag segments to allow you to organize segments.
+title: Tag Segments
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 ---

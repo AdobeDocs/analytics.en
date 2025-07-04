@@ -1,6 +1,6 @@
 ---
-description: The Segment manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-title: Manage segments (Segment manager)
+description: Understand how to use the segment manager to manage segments, such as share, filter, tag, approve, copy, delete segments, and mark segments as favorites.
+title: Manage Segments
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 ---

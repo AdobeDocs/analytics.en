@@ -1,6 +1,6 @@
 ---
-description: Describes a suggested workflow for segments created with the Segment builder and managed through the Segment manager.
-title: Segmentation workflow overview
+description: Learn about a suggested workflow to create segments with the segment builder and managed through the segment manager.
+title: Segmentation Workflow Overview
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 ---

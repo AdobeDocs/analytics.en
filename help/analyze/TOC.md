@@ -139,7 +139,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Model, container and lookback window](analysis-workspace/attribution/models.md)
     + [Algorithmic attribution](analysis-workspace/attribution/algorithmic.md)
     + [Best practices](analysis-workspace/attribution/best-practices.md)
-    + [FAQ](analysis-workspace/attribution/faq.md)
+    + [Frequently asked questions](analysis-workspace/attribution/faq.md)
   + [Journey management](analysis-workspace/journey-iq.md)
   + [Segment comparison](analysis-workspace/segment-iq.md)
   + Anomaly Detection {#anomaly-detection}
@@ -153,7 +153,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + [Optimize performance](analysis-workspace/workspace-faq/optimizing-performance.md)
     + [Errors and troubleshooting](analysis-workspace/workspace-faq/error-messages.md)
     + [Limitations](analysis-workspace/workspace-faq/aw-limitations.md)
-    + [Administration requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+    + [Requirements](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
     + [Accessibility](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
   + [Report Builder Overview](report-builder/rb-overview.md)

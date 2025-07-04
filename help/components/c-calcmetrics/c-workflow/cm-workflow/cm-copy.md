@@ -1,6 +1,6 @@
 ---
-description: Describes how to copy a calculated metric in the Calculated metrics manager
-title: Copy calculated metrics
+description: Understand how to copy a calculated metric in the Calculated metrics manager.
+title: Copy Calculated Metrics
 feature: Calculated Metrics
 exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
 ---

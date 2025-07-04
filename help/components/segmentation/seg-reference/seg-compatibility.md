@@ -1,5 +1,5 @@
 ---
-description: Not all segments created in the Segment builder are compatible with Data Warehouse. This table lists the supported functions.
+description: Understand why not all segments created in the Segment builder are compatible with Data Warehouse. Learn which functions are supported.
 title: Data Warehouse Segment Compatibility
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5

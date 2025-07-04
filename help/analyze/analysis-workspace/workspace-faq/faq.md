@@ -1,5 +1,5 @@
 ---
-description: Workspace FAQs
+description: Get answers on common questions about Analysis Workspace.
 title: Frequently Asked Questions
 feature: Workspace Basics
 role: User, Admin

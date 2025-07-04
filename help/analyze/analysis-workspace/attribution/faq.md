@@ -1,12 +1,13 @@
 ---
-title: Attribution FAQ
+title: Frequently Asked Question On Attribution
 description: Get answers to commonly asked questions about attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 ---
-# Attribution FAQ
+# Frequently asked questions
 
+Here are answers to commonly asked questions about attribution.
 
 +++## What is the **[!UICONTROL None]** line item when using attribution?
 

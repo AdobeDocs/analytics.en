@@ -1,6 +1,6 @@
 ---
-description: Within the Calculated Metric Manager, you can set up a workflow that includes approving metrics for various levels of application and for specific departments or groups.
-title: Approve calculated metrics
+description: Learn how to approve calculated metrics.
+title: Approve Calculated Metrics
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
 ---

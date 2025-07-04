@@ -1,6 +1,6 @@
 ---
-description: These short videos provide an overview of how to optimize the use of the Calculated Metric tools.
-title: How-to videos
+description: Watch these short videos to get  an overview of how to optimize the use of the calculated metrics.
+title: How-To Videos
 feature: Calculated Metrics
 role: User
 level: Beginner

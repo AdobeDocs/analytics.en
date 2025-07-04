@@ -1,6 +1,6 @@
 ---
-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
-title: Publish Segments to Experience Cloud
+description: Learn how to publish segments for marketing activity in Audience Library, Target, and Audience Manager.
+title: Publish Segments
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---

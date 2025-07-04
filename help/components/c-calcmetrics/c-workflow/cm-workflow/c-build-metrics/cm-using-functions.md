@@ -1,6 +1,6 @@
 ---
-description: Functions let you filter/sort your data and do statistical analysis.
-title: Use functions
+description: Learn how you can use functions to  filter and sort your data and do statistical analysis.
+title: Use Functions
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
 ---

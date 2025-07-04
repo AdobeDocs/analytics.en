@@ -1,6 +1,6 @@
 ---
 title: Components Overview
-description: Learn what components Adobe Analytics offers, and how you can use them in reporting.
+description: Learn what components Adobe Analytics offers, and how you can use component in Analysis Workspace.
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017

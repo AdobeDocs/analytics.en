@@ -1,12 +1,12 @@
 ---
-description: Frequently asked questions around managing legacy segments.
-title: Legacy segments FAQ
+description: Understand how to manage legacy segments.
+title: Legacy Segments FAQ
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 ---
-# Legacy segments FAQ
+# Legacy segments
 
-This article answers frequently asked questions on best practices for managing legacy segments (segments created prior to 2014).
+This article answers frequently asked questions on best practices for managing legacy segments. Legacy segments are segments that were created before 2014.
 
 ## Managing legacy segments {#legacy}
 

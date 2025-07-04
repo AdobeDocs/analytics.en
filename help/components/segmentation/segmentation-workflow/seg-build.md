@@ -1,10 +1,10 @@
 ---
-description: The Segment builder provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
-title: Build segments
+description: Understand how the segment builder provides a canvas to drag and drop metric, dimensions, segments, and events to segment visitors based on container hierarchy logic, rules, and operators. Understand how you can build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
+title: Build Segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
-# Segment builder {#segment-builder}
+# Build segments {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"

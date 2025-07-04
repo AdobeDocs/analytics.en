@@ -1,6 +1,6 @@
 ---
 description: Learn about errors and troubleshooting for Analysis Workspace.
-title: Errors In Troubleshooting In Analysis Workspace
+title: Errors And Troubleshooting
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795

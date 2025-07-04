@@ -1,6 +1,6 @@
 ---
 description: Learn how to use components in a project in Analysis Workspace
-title: Use Components In Analysis Workspace
+title: Use Components In A Project
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0

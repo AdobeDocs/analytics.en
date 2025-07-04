@@ -1,5 +1,5 @@
 ---
-description: Factors that impact Workspace performance and optimizations you can make
+description: Gain insight in factors that impact Analysis Workspace performance and the optimizations you can make
 title: Optimize Analysis Workspace Performance
 feature: Workspace Basics
 role: User, Admin

@@ -1,10 +1,12 @@
 ---
-description: Troubleshoot and fix issues related to segments.
-title: Segmentation Troubleshooting
+description: Understand how to troubleshoot and fix issues related to segments.
+title: Troubleshooting
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 ---
-# Segmentation troubleshooting
+# Troubleshooting
+
+This article lists some common issues with segments and how to troubleshoot these issues.
 
 <!-- Looks like this is not part anymore of the current UI.
 

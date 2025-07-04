@@ -1,12 +1,12 @@
 ---
-description: Learn about segmentation features in Analysis Workspace.
-title: Segmentation features in Analysis Workspace
+description: Learn about advanced segmentation features in Analysis Workspace.
+title: Advanced Features
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
 ---
-# Segmentation features in Analysis Workspace
+# Advanced features
 
-Beyond the [standard use of segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, the following features are available:
+Beyond the [standard use of segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) in Analysis Workspace, the following specific features are available:
 
 * [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 

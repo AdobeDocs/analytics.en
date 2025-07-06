@@ -1,6 +1,6 @@
 ---
-description: Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
-title: Share calculated metrics
+description: Learn how to share metrics with your whole organization, groups, or individual users.
+title: Share Calculated Metrics
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
 ---

@@ -1,6 +1,6 @@
 ---
-description: Shows examples of filtered and weighted metrics.
-title: Filtered and weighted metrics
+description: Learn about examples of filtered and weighted metrics.
+title: Filtered And Weighted Metrics
 feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
 ---

@@ -1,6 +1,6 @@
 ---
-description: Filter by tags, report suite, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
-title: Filter the list of calculated metrics
+description: Learn how to filter calculated metrics by tags, report suite, owners, and other filters.
+title: Filter The List Of Calculated Metrics
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
 ---

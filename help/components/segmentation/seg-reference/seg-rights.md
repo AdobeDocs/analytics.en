@@ -1,6 +1,6 @@
 ---
-description: Comparison chart using segments between admins and non-admins.
-title: Segment rights by role
+description: Learn the differences between admins and non-admins to use and manage segments.
+title: Segment Rights By Role
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 ---

@@ -1,10 +1,10 @@
 ---
-description: The Segment builder provides a canvas to drag and drop Metric Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. This integrated development tool lets you build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
-title: Build segments
+description: Understand how to build segments using drag and drop of metric, dimensions, segments, and events. Understand how you can build and save simple or complex segments that identify visitor attributes and actions across visits and page hits.
+title: Build Segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
-# Segment builder {#segment-builder}
+# Build segments {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -19,7 +19,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Data preview"
->abstract="Compares the data of this segment with data of the data view. The preview percentage is based on the total number in the data view from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
+>abstract="Compares the data of this segment with data of the report suite. The preview percentage is based on the total number from the **last 90 days**.<br><br/>If the preview is not loading, your connection could still be backfilling."
 
 
 The **[!UICONTROL Segment builder]** dialog is used to create new or edit existing segments. The dialog is titled **[!UICONTROL New segment]** or **[!UICONTROL Edit segment]** for segments that you create or manage from the [[!UICONTROL Segment] manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -41,7 +41,7 @@ The **[!UICONTROL Segment builder]** dialog is used to create new or edit existi
    | Element | Description |
    | --- | --- |
    | **[!UICONTROL Report suite]** | You can select the report suite for the segment. | 
-   | **[!UICONTROL Project-only segment]** | An info box to explain that the segment is only visible in the project where it is created and that the segment will not be added to your component list. Enable **[!UICONTROL Make this segment available to all your projects and add it to your component list]** to change that setting. This info box is only visible when you create a [quick segment](seg-quick.md) and turn the quick segment info a regular segment using **[!UICONTROL Open builder]** from the [!UICONTROL Quick segment] interface. |
+   | **[!UICONTROL Project-only segment]** | An info box to explain that the segment is only visible in the project where it is created. And that the segment is not added to your component list. Enable **[!UICONTROL Make this segment available to all your projects and add it to your component list]** to change that setting. This info box is only visible when you create a [quick segment](seg-quick.md) and turn the quick segment info a regular segment using **[!UICONTROL Open builder]** from the [!UICONTROL Quick segment] interface. |
    | **[!UICONTROL Title]** ![Required](/help/assets/icons/Required.svg) | Name the segment, for example, `Last month mobile visitors`. |
    | **[!UICONTROL Description]** | Provide a description for the segment, for example, `Segment to define the mobile customers for the last month`. |
    | **[!UICONTROL Tags]**| Organize the segment by creating or applying one or more tags. Start typing to find existing tags you can select. Or press **[!UICONTROL ENTER]** to add a new tag. Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a tag. |
@@ -164,7 +164,7 @@ Or, you could define 55 segments: 50 segments for the US states, and 5 for the p
 
 
 
-When you use a dimension in the Segment builder, you have the options to specify the attribution model for that dimension. The attribution model you select determines whether data qualifies for the condition you have specified for the dimension component.
+When you use a dimension in the Segment builder, you have the options to specify the attribution model for that dimension. The attribution model that you select determines whether the data qualifies for the condition you have specified for the dimension component.
 
 Select ![Setting](/help/assets/icons/Setting.svg) within the dimension component and select one of the Attribution models from the popup: 
 
@@ -179,7 +179,7 @@ Select ![Setting](/help/assets/icons/Setting.svg) within the dimension component
 
 ### Example
 
-As part of a segment definition you have specified the following condition: Page Name equals Women. Similar to the example above. You repeat this segment definition using the two other attribution models. So you have three segments each with their own attribution model:
+As part of a segment definition you have specified the following condition: Page Name equals Women. Similar to the example above. You repeat this segment definition using the two other attribution models. So, you have three segments each with their own attribution model:
 
 * Women Page - Attribution - Repeating (default)
 * Women Page - Attribution - Instance
@@ -356,9 +356,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Segment templates are provided for common segmentation use cases, such as "First-time Visits" or "Vists from Mobile Devices". They are available in Workspace projects and in the segment builder as building blocks for new segments. 
+Segment templates are provided for common segmentation use cases, such as **[!UICONTROL First-time Visits]** or **[!UICONTROL Visits from Mobile Devices]**. They are available in Workspace projects and in the segment builder as building blocks for new segments. 
 
-Templates are denoted by the Adobe "A" logo. A sample of the templates are listed below:
+An Adobe logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifies templates. A sample of the available templates is listed below:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -370,75 +370,79 @@ Templates are denoted by the Adobe "A" logo. A sample of the templates are liste
  <tbody> 
   <tr> 
    <td colname="col1"> Abandon Cart </td> 
-   <td colname="col2">View data for visitors that added items to their carts but did not order anything. In the Segment Definition, the container is Visit. The rule for this sequential segment is <p> Cart Additions is not null </p> <p>Then </p> <p>Orders equals 0. </p> </td> 
+   <td colname="col2">View data for visitors that added items to their carts but did not order anything. In the segment definition, the container is Visit. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> First Time Visits </td> 
-   <td colname="col2">View data for visitors that have visited a maximum of one [1] times. In the Segment Definition, the container is Visit. The rule is <p>Visit Number equals 1. </p> </td> 
+   <td colname="col2">View data for visitors that have visited a maximum of one [1] times. In the segment definition, the container is Visit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non-Purchasers </td> 
-   <td colname="col2">View data for visitors that have not participated in an order event. In the Segment Definition, the container is Visitor. This segment uses the Exclude logic. The rule is <p>Orders is not null. </p> </td> 
+   <td colname="col2">View data for visitors that have not participated in an order event. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Non-Single Page Visit (Non-Bounces) </td> 
-   <td colname="col2">View data for visitors that visited more than once. In the Segment Definition, the container is Visitor. This segment uses the Exclude logic. The rule is <p>Single Access is not null. </p> </td> 
+   <td colname="col1"> Non-Single Page Visits (Non-Bounces) </td> 
+   <td colname="col2">View data for visitors that visited more than once.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paid Search </td> 
-   <td colname="col2">View data from visitors originating from a paid search. In the Segment Definition, the container is Visit. The rule is <p>Paid Search equals 1. </p> </td> 
+   <td colname="col2">View data from visitors originating from a paid search.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Purchasers </td> 
-   <td colname="col2">View data for visitors that have participated in an order event. In the Segment Definition, the container is Visitor. The rule is <p>Orders is not null. </p> </td> 
+   <td colname="col2">View data for visitors that have participated in an order event.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Return Visits </td> 
-   <td colname="col2">View data from visitors that have visited at least once. In the Segment Definition, the container is Visit. The rule is <p>Visit Number is greater than 1. </p> </td> 
+   <td colname="col2">View data from visitors that have visited at least once.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Single Page Visits </td> 
-   <td colname="col2"> View data from visits in which you see a single page value, even though you may submit multiple page views during that visit. Single-page visits with exit link events are included in the segment. In the Segment Definition, the container is Visit. The rule is <p>Single Page Visits equals 1. </p> </td> 
+   <td colname="col2"> View data from visits in which you see a single page value, even though you may submit multiple page views during that visit. Single-page visits with exit link events are included in the segment.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Viewed Product Didn't Add to Cart </td> 
-   <td colname="col2">View data for visitors that viewed products but had no cart additions. In the Segment Definition, the container is Visit. The rule for this sequential segment is <p>Product Views is not null </p> <p>Then </p> <p> Cart Additions equals 0. </p> </td> 
+   <td colname="col2">View data for visitors that viewed products but had no cart additions.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Campaign </td> 
-   <td colname="col2">View data from visitors referred by campaigns. In the Segment Definition, the container is Visit. The rule is <p>Tracking Code is not null. </p> </td> 
+   <td colname="col2">View data from visitors referred by campaigns. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Mobile Devices </td> 
-   <td colname="col2">View data from visitors using mobile devices. In the Segment Definition, the container is Visit. The rule is <p>Mobile Device is not null. </p> </td> 
+   <td colname="col2">View data from visitors using mobile devices. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Natural Search </td> 
-   <td colname="col2">View data from visitors not originating from a paid search. In the Segment Definition, the container is Visit. The rule is <p>Paid Search equals 0. </p> </td> 
+   <td colname="col2">View data from visitors not originating from a paid search.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Non-Mobile Device </td> 
-   <td colname="col2">View data from visitors not using mobile devices. In the Segment Definition, the container is Visit. This segment uses the Exclude logic. The rule is <p>Mobile Device Type equals Mobile Phone </p> <p>Or </p> <p>Mobile Device Type equals Tablet. </p> </td> 
+   <td colname="col2">View data from visitors not using mobile devices. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Phones </td> 
-   <td colname="col2">View data from visitors using phones. In the Segment Definition, the container is Visit. The rule is <p>Device Type equals Mobile Phone. </p> </td> 
+   <td colname="col2">View data from visitors using phones.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Search Engines </td> 
-   <td colname="col2">View data from visitors referred by search engines. In the Segment Definition, the container is Visit. The rule is <p>Referrer Type equals Search Engines. </p> </td> 
+   <td colname="col2">View data from visitors referred by search engines.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Social Sites </td> 
-   <td colname="col2">View data from visitors referred by social sites. In the Segment Definition, the container is Visit. The rule is <p>Referrer Type equals Social Networks. </p> </td> 
+   <td colname="col2">View data from visitors referred by social sites.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits from Tablets </td> 
-   <td colname="col2">View data from visitors using tablets. In the Segment Definition, the container is Visit. The rule is <p>Device Type equals Tablet. </p> </td> 
+   <td colname="col2">View data from visitors using tablets.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visits with Visitor ID Cookie </td> 
-   <td colname="col2">View data from visitors to your site, where a persistent cookie is required. In the Segment Definition, the container is Visit. The rule is <p>Persistent Cookie equals 1. </p> </td> 
+   <td colname="col2">View data from visitors to your site, where a persistent cookie is required.</td> 
   </tr> 
  </tbody> 
 </table>
+
+To view the definition of each segment, use ![InfoOutline](/help/assets/icons/InfoOutline.svg). For example, for the **[!UICONTROL iOS]** template:
+
+![Definition for Adobe template segment](assets/adobe-template-definition.png)

@@ -1,6 +1,6 @@
 ---
-description: Use quick segments in Analysis Workspace for Adobe Analytics
-title: Quick segments
+description: Learn how to use quick segments in Analysis Workspace.
+title: Quick Segments
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07

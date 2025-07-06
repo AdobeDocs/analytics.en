@@ -1,6 +1,6 @@
 ---
 title: Segment Comparison Panel Overview
-description: Learn how to use the segment comparison panel in Analysis Workspace.
+description: Learn how to use the segment comparison panel to compare segments in Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
@@ -31,7 +31,7 @@ _This article documents the Segment comparison panel in_ ![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-The Segment comparison panel discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. It automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much segments overlap.
+The Segment comparison panel discovers the most statistically significant differences among an unlimited number of segments. The feature iterates through an automated analysis of all dimensions and metrics that you have access to. The comparison automatically uncovers key characteristics of the audience segments that are driving your company's KPIs and lets you see how much segments overlap.
 
 
 >[!BEGINSHADEBOX]

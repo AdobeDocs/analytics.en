@@ -1,6 +1,6 @@
 ---
-title: Advanced functions
-description: Access these functions by checking Show Advanced in the Functions drop-down list.
+title: Advanced Functions
+description: Learn about advanced calculated metrics functions.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User

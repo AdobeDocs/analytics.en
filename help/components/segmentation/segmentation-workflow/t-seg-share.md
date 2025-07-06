@@ -1,6 +1,6 @@
 ---
-description: Depending on your permissions, you can share segments with your whole organization, groups, or individual users.
-title: Share segments
+description: Learn how you can share segments with your whole organization, groups, or individual users.
+title: Share Segments
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 ---

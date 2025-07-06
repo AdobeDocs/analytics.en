@@ -1,6 +1,6 @@
 ---
 title: Attribution Overview
-description: Leanr about the concept of attributing credit of a success event to multiple dimension items.
+description: Learn about the concept of attributing credit of a success event to multiple dimension items.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13

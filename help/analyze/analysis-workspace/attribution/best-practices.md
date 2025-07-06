@@ -27,7 +27,7 @@ You could then do upper- and lower-funnel analysis to expand your understanding.
 
 ### Upper-funnel analysis
 
-Upper-funnel analysis channels are used to create brand or product awareness. For example, the goal of most TV ads is brand awareness. You might use the ["Time decay" attribution model](/help/analyze/analysis-workspace/attribution/models.md), since people will forget about your TV ad over time.
+Upper-funnel analysis channels are used to create brand or product awareness. For example, the goal of most TV ads is brand awareness. You might use the [Time decay attribution model](/help/analyze/analysis-workspace/attribution/models.md), since people will forget about your TV ad over time.
 
 ### Lower-funnel analysis
 
@@ -41,7 +41,7 @@ The purpose of this step is to validate your hypotheses.
 
 Suppose that your hypothesis is: "*My first-touch channel has more impact on conversion than my last-touch channel.*" 
 
-In this case, you would then use the [Inverse J-shaped" attribution model](/help/analyze/analysis-workspace/attribution/models.md) to test this hypothesis. This model gives 60% of the credit to the first touch point.
+In this case, you would then use the [Inverse J-shaped attribution model](/help/analyze/analysis-workspace/attribution/models.md) to test this hypothesis. This model gives 60% of the credit to the first touch point.
 
 **Example 2** 
 
@@ -57,4 +57,4 @@ If you don't yet have an attribution model that provides satisfactory answers to
 
 * You might need to use the services of a data scientist instead of relying on Analysis Workspace alone.
 * You can rely on raw data, as in Adobe data feeds.
-* Consider using [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), for example, if you want to consider your Impressions data.
+* Consider using [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), for example, if you want to consider your impressions data.

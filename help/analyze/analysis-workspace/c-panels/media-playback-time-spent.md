@@ -1,6 +1,6 @@
 ---
 title: Media Playback Time Spent Panel
-description: Learn ow to use and interpret the Media Playback Time Spent panel in Analysis Workspace.
+description: Learn how to use and interpret the Media Playback Time Spent panel in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15

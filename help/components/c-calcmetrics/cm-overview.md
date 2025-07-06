@@ -1,15 +1,15 @@
 ---
-description: Calculated and Advanced Calculated Metrics are custom metrics that you can create from existing metrics.
-keywords: Calculated Metrics;Advanced Calculated Metrics
-title: Calculated and Advanced Calculated Metrics
+description: Learn about calculated metrics that you can create from existing metrics.
+keywords: Calculated Metrics
+title: Calculated Metrics Overview
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 ---
 # Calculated metrics overview
 
-Calculated and custom metrics that you can create from existing metrics.
+Calculated are custom metrics that you can create from existing metrics.
 
-Calculated metrics offer a highly flexible way of building, managing and curating metrics. Calculated metric allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. 
+Calculated metric are custom metrics that you can create from existing metrics. Calculated metrics offer a flexible way of to  build, manage, and curate custom metrics that enable you to analyze your data without having to change your implementation.
 
 Calculated metrics are available in each [!DNL Analytics] package, however the Adobe Analytics Foundation Pack for Experience Cloud is limited to basic calculated metrics including [format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [allocation changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), and [basic operators](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (add, subtract, multiply, and divide).
 

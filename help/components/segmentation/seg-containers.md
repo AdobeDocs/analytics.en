@@ -1,14 +1,14 @@
 ---
 description: Learn about the different segmentation containers and how to use them
 keywords: segmentation;segments
-title: Segment containers
+title: Segment Containers
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 ---
 
 # Segment containers
 
-A Segment sets conditions to filter a visitor based on the visitor's attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
+A segment sets conditions to filter a visitor based on the visitor's attributes or interactions with your site. To set conditions in a segment, you set rules to filter visitors based on visitor characteristics and/or navigation traits. To further break down visitor data, you can filter based on specific visits and/or page view hits for each visitor. The Segment builder provides a simple architecture to build these subsets and apply rules as nested, hierarchical Visitor, Visit, or Hit containers.
 
 The container architecture employed in the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md) defines:
 

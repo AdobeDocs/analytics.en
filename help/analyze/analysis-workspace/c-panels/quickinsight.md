@@ -1,5 +1,5 @@
 ---
-description: Understand how to use the Quick insights panel to guide you in building data tables and visualizations in Analysis Workspace.
+description: Understand how to use the Quick insights panel to guide you in building freeform tables and visualizations in Analysis Workspace.
 title: Quick Insights Panel
 feature: Panels
 role: User, Admin
@@ -34,7 +34,7 @@ When you first start using this [!UICONTROL Analysis Workspace], you might wonde
 * where to create a filter, 
 * and more. 
 
-To help with these questions,[!UICONTROL Quick insights] leverages an algorithm that presents you with the most popular dimensions, metrics, segments, and date ranges your company uses. This algorithm is based on your own company's usage of data components in [!UICONTROL Analysis Workspace]. In fact, you see dimensions, metrics, and segments tagged with [!UICONTROL POPULAR] in the drop-down list, as shown here:
+To help with these questions, [!UICONTROL Quick insights] leverages an algorithm that presents you with the most popular dimensions, metrics, segments, and date ranges your company uses. This algorithm is based on your own company's usage of data components in [!UICONTROL Analysis Workspace]. In fact, you see dimensions, metrics, and segments tagged with [!UICONTROL POPULAR] in the drop-down list, as shown here:
 
 ![The Quick Insights panel.](assets/popular-tag.png)
 
@@ -53,10 +53,10 @@ The following are some of the basic terms that you need to be familiar with. Eac
 |---|---|
 |**[!UICONTROL Dimension]** |Dimensions are descriptions or characteristics of metric data that can be viewed, broken down, and compared in a project. They are non-numeric values and dates that break down into dimension items. For example, *browser* or *page* is a dimension.|
 |**[!UICONTROL Dimension item]** |Dimension items are individual values for a dimension. For example, dimension items for the browser dimension would be *Chrome*, *Firefox*, *Edge*, or others.|
-|**[!UICONTROL Metric]** |Metrics are quantitative information about person activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.|
+|**[!UICONTROL Metric]** |Metrics are quantitative information about visitor activity, such as views, click-throughs, reloads, average time spent, units, orders, revenue, and so on.|
 |**[!UICONTROL Visualization]**|Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data. Such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others.|
 |**[!UICONTROL Dimension Breakdown]**|A dimension breakdown is a way to break down a dimension by other dimensions. For example, you could break down the US States by Mobile Devices to get the mobile device visits per state. Or you could break Mobile Devices down by Mobile Device types, by Regions, by Internal Campaigns, and more.|
-|**[!UICONTROL Segments]**| Segments let you identify subsets of persons based on characteristics or website interactions. For example, you can build [!UICONTROL Visitor] segments based on <li>attributes: browser type, device, number of visits, country, gender, or</li><li>interactions: campaigns, keyword search, search engine, or</li><li>exits and entries: visitors from Facebook, a defined landing page, referring domain, or</li><li> custom variables: form field, defined categories, customer ID.  |
+|**[!UICONTROL Segments]**| Segments let you identify subsets of visitors based on characteristics or website interactions. For example, you can build [!UICONTROL Visitor] segments based on <li>attributes: browser type, device, number of visits, country, gender, or</li><li>interactions: campaigns, keyword search, search engine, or</li><li>exits and entries: visitors from Facebook, a defined landing page, referring domain, or</li><li> custom variables: form field, defined categories, customer ID.  |
 
 ## Use
 
@@ -88,7 +88,7 @@ You can specify the building blocks in three ways:
 
 * Drag and drop components from the left panel.
 * Start typing in one of the building block fields. When input is found, the building block field auto populates with possible values.
-* Specify a building block drop-down (for example `Country` in **[!UICONTROL Analyze]**) and search the list of possible value (using ![ChevronRight](/help/assets/icons/ChevronRight.svg)) for the value you want to use (for example, **[!UICONTROL Country code]**).
+* Specify a building block drop-down (for example **[!UICONTROL Country]** in **[!UICONTROL Analyze]**) and search the list of possible value (using ![ChevronRight](/help/assets/icons/ChevronRight.svg)) for the value you want to use (for example, **[!UICONTROL Country code]**).
 
 Select **[!UICONTROL Clear]** to clear all input fields.
 

@@ -49,7 +49,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top down, and from left to r
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts (hotkeys)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. 
 
 ## Support for screen readers and screen magnifiers
 

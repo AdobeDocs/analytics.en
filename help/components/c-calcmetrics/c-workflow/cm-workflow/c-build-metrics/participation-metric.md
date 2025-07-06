@@ -1,6 +1,6 @@
 ---
-description: With the Calculated Metric builder, anyone can create a participation metric.
-title: Participation metric
+description: Learn how to create a participation metric.
+title: Participation Metric
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
 ---

@@ -1,6 +1,6 @@
 ---
-description: Explains how to create a metric that shows which Marketing Channels assist in driving orders. This can be adapted to any dimension or success event of interest.
-title: Order Assists metric
+description: Explains how to create a metric that shows which Marketing Channels assist in driving orders.
+title: Build A More Complex Calculated Metric
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 ---
@@ -10,7 +10,7 @@ This article explains a more complex example of a calculated metric. This calcul
 
 1. Start to build a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. In the Calculated metrics builder, name the metric `Assisted Orders` or something similar.
+1. In the Calculated metrics builder, name the metric `Assisted Online Orders` or something similar.
 
 1. Select the **[!UICONTROL Online Orders]** metric from the **[!UICONTROL Metrics]** components and drag the metric into the **[!UICONTROL Definition]** area. 
 
@@ -35,4 +35,4 @@ To use the calculated metric:
 
 1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
-This is an easy way to tell which Marketing Channels assisted in driving orders. Alternatively, from a freeform table, you can right-click any metric and adjust the attribution model directly from the table.
+This is an easy way to tell which Marketing Channels assisted in driving orders. Alternatively, from a freeform table, you can select any metric and from the context menu adjust the attribution model directly from the table.

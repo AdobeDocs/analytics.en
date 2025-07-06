@@ -1,5 +1,5 @@
 ---
-description: Learn how to identify statistical anomalies with anomaly detection techniques.
+description: Learn what statistical techniques are used to identify anomalies.
 title: Statistical Techniques Used In Anomaly Detection
 feature: Anomaly Detection
 role: User, Admin

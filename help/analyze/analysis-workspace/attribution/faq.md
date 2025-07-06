@@ -1,14 +1,15 @@
 ---
-title: Attribution FAQ
+title: Frequently Asked Question On Attribution
 description: Get answers to commonly asked questions about attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 ---
-# Attribution FAQ
+# Frequently asked questions
 
+Here are answers to commonly asked questions about attribution.
 
-+++## What is the "None" line item when using attribution?
++++## What is the **[!UICONTROL None]** line item when using attribution?
 
 The 'None' line item is a catch-all item that represents all conversions that happened without any touch points within the lookback window. To reduce the number of conversions attributed to the 'None' line item, try using a Custom Lookback Window with a longer lookback period.
 
@@ -38,12 +39,13 @@ In this example, Entries and Bounce rate would not show data from August 31. The
 +++
 
 
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
 +++## When should I use a visit, visitor, or custom attribution lookback?
 
 The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## How do props and eVars compare when using attribution?
 

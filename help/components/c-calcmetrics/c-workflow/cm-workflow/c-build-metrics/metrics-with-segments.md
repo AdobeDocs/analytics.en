@@ -1,6 +1,6 @@
 ---
-description: Segmenting on individual metrics allows you to make metric comparisons within the same report. 
-title: Segmented metrics
+description: Learn how to segment on individual metrics which allows you to make metric comparisons within the same visualization. 
+title: Segmented Metrics
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 ---

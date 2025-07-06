@@ -1,14 +1,14 @@
 ---
-description: Learn about the system requirements for Analysis Workspace.
+description: Learn about the requirements for Analysis Workspace.
 keywords: Analysis Workspace
-title: Administration Requirements
+title: Requirements
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
 ---
-# Administration requirements
+# Requirements
 
-System requirements for Analysis Workspace.
+The requirements to run Analysis Workspace are:
 
 | Requirement | Description |
 |--- |--- |

@@ -1,6 +1,6 @@
 ---
-description: The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-title: Calculated metrics manager
+description: Learn how to share, filter, tag, approve, copy, delete calculated metrics, and mark calculated metrics as favorites.
+title: Manage Calculated Metrics
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
 ---

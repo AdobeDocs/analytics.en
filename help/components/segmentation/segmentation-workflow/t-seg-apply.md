@@ -1,7 +1,6 @@
 ---
-description: How to use segments to a report.
-title: Use segments
-feature: Segmentation
+description: Learn how to use segments in Analysis Workspace.
+title: Use Segments
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 ---

@@ -1,5 +1,5 @@
 ---
-description: Run a Contribution Analysis report in a Workspace project.
+description: Learn how to run a contribution analysis report in Analysis Workspace.
 title: Run Contribution Analysis
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b

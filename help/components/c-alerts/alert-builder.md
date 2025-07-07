@@ -25,7 +25,7 @@ For more detailed information about alerts, see [Alerts overview](intellligent-a
 
 To create an alert:
 
-1. Use any of the following ways to create an alert.:
+1. Use any of the following ways to create an alert:
 
    * Open a project in Analysis Workspace, then select **[!UICONTROL Components]** > **[!UICONTROL Create alert]**.
    * Open a project in Analysis Workspace, then use the following shortcut: ***cmd + shift + a*** (macOS), or ***ctrl + shift + a*** (Windows). 

@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (June 2025 release)
 
-**Last update**: June 24, 2025
+**Last update**: July 7, 2025
 
 These release notes cover the release period of June 18 through July 15, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -14,6 +14,7 @@ These release notes cover the release period of June 18 through July 15, 2025. A
 
 | Feature | Description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Livestream TNT Fields with algorithms** | Livestream is undergoing a refresh to ensure the technology continues to be modern and stable. As part of that refresh, if your TNT field has an algorithm in it, we will begin incorporating the TNT field into Livestream output. However, this includes only the previously supported elements: `campaignId`, `recipeId`, `trafficType`, `actionId`, and `actionName`. The overall TNT schema for Livestream remains unchanged. |   |  July 7,2025 |
 | **Support for secure cloud destinations in new Report Builder** | The Javascript Report Builder add-in now supports exporting reports to the following cloud storage destinations:<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>Previously, only FTP and email destinations were available. FTP is no longer supported due to security concerns.</p><p>For more information, see [Schedule workbooks by exporting to cloud destinations](/help/analyze/report-builder/report-builder-export.md).</p><p>In addition to these changes, when creating a location in Adobe Analytics, the Use with field now provides the option to use the location with Report Builder, as described in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).</p> |  | June 19,2025 (Originally June 18) |
 | **New preview experience** | The preview panel, that is used when you create a segment or configure the settings of a data view, now uses a horizontal bar visualization instead of a donut visualisation. |  |  June 18, 2025 |
 | **Modified attribution model dialog** | You can now define the container and time period separately in the attribution model dialog. |  |  June 18,2025 |

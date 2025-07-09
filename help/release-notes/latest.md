@@ -23,16 +23,20 @@ These release notes cover the release period of July 7 through August 15, 2025. 
 **A4T**: 
 **Advertising Analytics**: 
 **Alerts**: 
-**Analysis Workspace**:  
+**Analysis Workspace**: AN-382908; AN-387652; 
 **API 1.4**: 
 **API 2.0**: 
-**Classifications**: 
+**Classifications**: AN-382412; AN-383157; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915; 
 **Contribution Analysis**: 
-**Data feeds**: 
+**Data feeds**: AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
 **Data Warehouse**: 
-**Platform**: 
+**Platform**: AN-382813; AN-386627; AN-386815
+**Privacy**: AN-384390
 **Processing rules**: 
 **Report Builder**: 
+**Reporting**: AN-380441
+**Scheduled reports**: AN-378280; AN-378331
+**Segment comparison**: AN-368766
 **Server Calls**: 
 **Usage & Access Logs**: 
 **Virtual Report Suites**: 

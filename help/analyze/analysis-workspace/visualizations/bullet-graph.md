@@ -1,11 +1,11 @@
 ---
-description: Lets you see how a value you are interested in compares to or measures against other performance ranges (goals).
-title: Bullet graph
+description: Learn how to use the bullet visualization in Analysis Workspace. The bullet visualization allows you to compare to or measures against other performance ranges (goals).
+title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 ---
-# Bullet graph {#bullet-graph}
+# Bullet {#bullet}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -39,7 +39,7 @@ The bullet graph features a single, primary measure (for example, current year-t
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bullet graph visualization](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bullet graph visualization](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

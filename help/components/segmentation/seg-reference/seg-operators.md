@@ -1,18 +1,18 @@
 ---
-description: The Segment Builder allows you to compare and constrain values using selected operators.
-title: Comparison Operators for Segments
+description: Learn how to use the operators in the segment builder to compare and constrain values.
+title: Operators
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 ---
-# Comparison Operators for Segments
+# Comparison operators for segments
 
-The Segment Builder lets you compare and constrain values using selected operators. There are three categories of operators: Standard, Data Warehouse, and Distinct Count.
+The Segment builder lets you compare and constrain values using selected operators. There are three categories of operators: [Standard](#standard-operators), [Data Warehouse](#data-warehouse-operators), and [Distinct Count](#distinct-count-operators).
 
 Depending on the operator you select:
 
-* You can enter a value
+* You can enter a value.
 * You can enter part of a value and select from a drop-down menu (if available).
-* Immediately select a value from the drop-down menu(if available). 
+* Immediately select a value from the drop-down menu (if available). 
 
 When you type a value for an operator that validates available values, like **[!UICONTROL equals]**, and the value  doesn't match the values available for the component, you see a ![AlertRed](/help/assets/icons/AlertRed.svg) icon. You can either select a value from the drop-down menu or press **[!UICONTROL _Enter_]** to enter the value.
 
@@ -40,7 +40,7 @@ For example, you have a page name called *My cool product*.
 | **[!UICONTROL contains all of]** | Returns items compared to the substrings, including multiple values joined together. For example, entering `Search Results` with this operator for the **[!UICONTROL Page Name]** dimension would match *Search Results* and *Results of Search*, but not *Search* or *Results* individually. The rule would match *Search* AND *Results* found together. The input field for this operator is space-delimited (100 words). |
 | **[!UICONTROL does not contain all of]** | Identifies items compared to substrings, including multiple values joined together, and then only return items without these values. For example, entering `Search Results` with this operator for the **[!UICONTROL Page Name]** dimension would identify *Search Results* and *Results of Search* (but not *Search* or *Results* individually) and then exclude these items. The input field for this operator is space-delimited (100 words). |
 | **[!UICONTROL contains any of]** | Returns items compared to the substrings, including multiple values joined or independently identified. For example, entering `Search Results` with this operator would match *Search Results*, *Results of Search*, *Search*, and *Results*. It would match either *Search* OR *Results* found together or independently. The input field for this operator is space-delimited (100 words). |
-| **[!UICONTROL does not contain any of]** | Identifies items based on substrings and then returns values that do not contain these substrings. It can have multiple joined values or values independently identified. For example, entering `Search Results` for the **[!UICONTROL Page Name]** dimension would match *Search Result*s, *Results of Searc*h*, *Search*, and *Results* where either *Search* or *Result* are found together or independently. It would then exclude items that contain these substrings. The input field for this operator is space-delimited (100 words). |
+| **[!UICONTROL does not contain any of]** | Identifies items based on substrings and then returns values that do not contain these substrings. It can have multiple joined values or values independently identified. For example, entering `Search Results` for the **[!UICONTROL Page Name]** dimension would match *Search Result*s, *Results of Search*, *Search*, and *Results* where either *Search* or *Result* are found together or independently. It would then exclude items that contain these substrings. The input field for this operator is space-delimited (100 words). |
 | **[!UICONTROL starts with]** | Returns items that start with the string value entered. |
 | **[!UICONTROL does not start with]** | Returns all items that do not start with the string value entered. This is the inverse of the **[!UICONTROL starts with]** operator. |
 | **[!UICONTROL ends with]** | Returns items that end with string value entered. |
@@ -61,7 +61,7 @@ For example, you have a page name called *My cool product*.
 
 ## Distinct Count operators
 
-You can segment on a distinct count of items within a dimension. Examples: "Visitors who viewed more than 5 distinct products," or "Visits where more than 5 distinct pages were seen."
+You can segment on a distinct count of items within a dimension. Examples: *Visitors who viewed more than 5 distinct products*, or *Visits where more than 5 distinct pages were seen*.
 
 | Operator | The selected dimension, segment, or metric event... |
 | --- | --- |

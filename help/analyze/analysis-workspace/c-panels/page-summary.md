@@ -1,6 +1,6 @@
 ---
-description: The page summary panel shows summary information for a page of your choosing.
-title: Page summary panel
+description: Learn how to use the page summary panel to show summary information for a selected page.
+title: Page Summary Panel
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8

@@ -53,6 +53,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`currency`** | The currency code that was used during the transaction. Set using [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8)|
 | **`cust_hit_time_gmt`** | Timestamp-enabled report suites only. The timestamp sent with the hit, based in UNIX&reg; time. | int|
 | **`cust_visid`** | The custom visitor ID, if set using [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
+| **`customer_perspective`** | Determines if the hit is a mobile background hit. See [Context-aware sessions](/help/components/vrs/vrs-mobile-visit-processing.md) for more information. | tinyint unsigned |
 | **`daily_visitor`** | A flag that determines if the hit is a new daily visitor. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | The [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `DMP` and `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | The [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |

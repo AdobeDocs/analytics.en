@@ -1,7 +1,7 @@
 ---
 title: transactionID
 description: Use this variable to link online and offline data together.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
 ---
@@ -21,7 +21,7 @@ Adobe remembers all transaction ID values (linked and unlinked) for up to 25 mon
 
 Transaction ID is mapped to the following variables:
 
-* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [XDM object](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` or `xdm.commerce.order.payments.transactionID`
 * [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` or `data.__adobe.analytics.xact`
 
 ## Transaction ID using the Adobe Analytics extension

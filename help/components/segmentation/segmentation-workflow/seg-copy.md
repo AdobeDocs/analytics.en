@@ -1,19 +1,14 @@
 ---
-description: Describes how to copy a segment in the Segment Manager
-title: Copy segments
+description: Understand how to copy a segment in the Segment manager
+title: Copy Segments
 feature: Segmentation
 exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
 ---
 # Copy segments
 
-When creating a new segment, it's sometimes easier to copy an existing segment that is close to the segment that you want to create, then modify the version you copied.
+In the [Segment manager](seg-manage.md), you can copy segments. Copying a segment is convenient when you want to create a slightly modified version of an existing segment or want to redefine a segment you do not own and you cannot edit.
 
-To copy a segment in the Segment Manager:
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to copy.
+1. From the action bar, select ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
 
-1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
-
-1. In the Segment Manager, select the segment that you want to copy. 
-
-   The segment management tool bar appears.
-
-1. Select **[!UICONTROL Copy]**.
+The segments are copied and appear in the segment list with the same name as their original but with (Copy) appended to it.

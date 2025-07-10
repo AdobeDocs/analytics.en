@@ -1,5 +1,5 @@
 ---
-description: The Venn visualization lets you drag in up to 3 segments (from Components) and one metric to build a Venn diagram.
+description: Use the Venn visualization to drag up to 3 segments and one metric to build a Venn diagram.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
@@ -42,7 +42,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Venn visualization](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Venn visualization](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

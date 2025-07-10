@@ -1,18 +1,81 @@
 ---
-description: The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
-title: Manage segments (Segment Manager)
+description: Understand how to use the segment manager to manage segments, such as share, filter, tag, approve, copy, delete segments, and mark segments as favorites.
+title: Manage Segments
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 ---
-# Segments manager
+# Manage segments
 
-The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
+You can [share](t-seg-share.md), [segment](t-seg-filter.md), [tag](seg-tag.md), [approve](seg-approve.md), rename, [copy](seg-copy.md), delete, export segments and mark segments as [favorite](t-seg-favorite.md) from a central [!UICONTROL Segment] management interface. To manage segments:
+
+* Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Segments]**.
+
+
+>[!NOTE]
+>
+>The quick segments that you create within a specific Workspace project do not appear in the [!UICONTROL Segment] manager, unless you have made the segment available to all your projects. 
+>
+
+## Segment manager
+
+The Segment manager has the following interface elements:
+
+![Segment interface](assets/segments-manager.png)
+
+### Segment list
+
+The segments list ➊ displays all the segments that you own, the segments that have been scoped to all your projects, and the segments that have been shared with you. The list has the following columns:
+
+| Column | Description |
+| --- | --- | 
+| ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a segment. See [Mark segment as favorite](t-seg-favorite.md) |
+| **[!UICONTROL Title and description]** | To edit the segment, select the title link, which opens the [Segment builder](seg-build.md). A shared segment is indicated with ![Share](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Report suitew]** | The report suite that this segment applies to.  | 
+| **[!UICONTROL Owner]** | The owner of the segment. As a user, you only see the segments that you own or the annotations that are shared with you. |
+| **[!UICONTROL Tags]** | The tags for this segment. |
+| **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](t-seg-share.md) for more information. |
+| **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to Experience Cloud. |
+| **[!UICONTROL Date modified]** | The date and time that the segment was last modified. |
+
+Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to specify which columns you want to display.
+
+### Action bar
+
+You can action on segments using the action bar ➋. The action bar contains the following actions:
+
+| Action | Description |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | Add another segment, using the [Segment builder](seg-build.md). |
+| ![Search](/help/assets/icons/Search.svg) [!UICONTROL *Search by title*] | When no segment is selected in the list, search for segments using this search field. |
+| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tag the selected segments. In the **[!UICONTROL Tag Segment]** dialog, select or de-select the tags for the selected segments. Select **[!UICONTROL Save]** to save the tags for the selected segments. See [Tag segments](seg-tag.md) for more information.|
+| ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Share the selected segments. In the **[!UICONTROL Share Segment]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected segments. See [Share segments](t-seg-share.md) for more information. |
+| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Delete the selected segments. You are prompted for a confirmation. |
+| ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rename a single selected segment. When selected, you can rename the segment inline. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approve the selected segments. See [Approve segments](seg-approve.md) for more information. | 
+| ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL Copy]** | Copy the selected segment. New segments are created with the same name and suffix `(Copy)`. | 
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Export the segments to a `Segments List.csv` file. |
+
+### Active filter bar
+
+The filter bar ➌ shows the active segments applied from the filter panel to the list of segments (if any). You can quickly remove a filter using ![CrossSize75](/help/assets/icons/CrossSize75.svg). If more than one filter is specified, you can remove all filter using **[!UICONTROL Remove all]**.
+
+### Filter panel
+
+You can filter the list of segments using the ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** left panel ➍. The filter panel displays the type of filter and the number of segments that honor the specific filter. Select ![Filter](/help/assets/icons/Filter.svg) to toggle the display of the Filter panel. 
+
+See [Filter the list of segments](t-seg-filter.md) for more information.
+
+
+<!--
+
+The Segment manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+
+The Analytics Segment manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment manager. 
 
 ![Segments manager](assets/segments-manager.png)
 
-## Access the Segment Manager
+## Access the Segment manager
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
 
@@ -20,9 +83,9 @@ The Analytics Segment Manager shows you all the segments you own and that have b
 
    In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
-## Available actions in the Segment Manager
+## Available actions in the Segment manager
 
-In the Segment Manager, you can:
+In the Segment manager, you can:
 
 * [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 
@@ -42,13 +105,13 @@ In the Segment Manager, you can:
 
 ## Configure columns
 
-You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+You can configure the information displayed for each segment in the Segment manager by configuring the columns that are displayed.
 
-To configure the visible columns in the Segment Manager:
+To configure the visible columns in the Segment manager:
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
 
-1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+1. In the Segment manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment manager.
 
    The following columns are available:
 
@@ -68,6 +131,6 @@ To configure the visible columns in the Segment Manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
-
+-->

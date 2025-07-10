@@ -4,7 +4,7 @@ description: Learn about calculated metrics totals in Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
 ---
-# Calculated metrics totals in Analysis Workspace
+# Calculated metrics totals
 
 When you view data in Analysis Workspace, calculated metric totals are displayed in most cases. In some cases, providing a total is not possible, such as when the rows of the report are of mixed format (e.g. decimal and currency).
 
@@ -13,4 +13,4 @@ When totals are displayed, they are often calculated server-side, which means th
 * When [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) are used in Freeform tables and the **[!UICONTROL Show as sum of current rows]** option (default) is selected.
 * In the [Donut visualization](/help/analyze/analysis-workspace/visualizations/donut.md), so that numbers add up to 100%.
 
-For more information on totals in Analysis Workspace, visit [Workspace totals](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).
+For more information on totals in Analysis Workspace, visit [Workspace totals](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md#static-row-total).

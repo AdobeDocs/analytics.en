@@ -1,6 +1,6 @@
 ---
-description: An inter-dimensional flow lets you examine user paths across various dimensions.
-title: Inter-dimensional flows
+description: Understand how an inter-dimensional flow lets you examine user paths across various dimensions.
+title: Inter-Dimensional Flows
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin

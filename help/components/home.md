@@ -6,8 +6,6 @@ feature: Components
 ---
 # Analytics Components Guide
 
-![Banner](../../assets/doc_banner_components.png)
-
 Analytics components help you fine tune and empower your analysis of data. Components include:
 
 * **Dimensions:** Reference for dimensions usable in Adobe Analytics.

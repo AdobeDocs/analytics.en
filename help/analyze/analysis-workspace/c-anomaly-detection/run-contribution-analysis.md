@@ -1,5 +1,5 @@
 ---
-description: Run a Contribution Analysis report in a Workspace project.
+description: Learn how to run a contribution analysis report in Analysis Workspace.
 title: Run Contribution Analysis
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
@@ -9,60 +9,71 @@ feature: Anomaly Detection
 
 [Contribution Analysis](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) is an intensive machine learning process designed to uncover contributors to an observed anomaly in Adobe Analytics. The intent is to assist the user in finding areas of focus or opportunities for additional analysis much more quickly than would otherwise be possible.
 
-## Run Contribution Analysis {#run}
+>[!NOTE]
+>
+>Contribution Analysis is only supported for data with daily granularity.
 
-There are two ways to invoke contribution analysis in a project:
+The steps to run Contribution Analysis are:
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. You can even run it on rows that do not display any anomaly.
+1. Invoke contribution analysis in a project.
 
-  >[!NOTE]
-  >
-  >We currently support contribution analysis only with daily granularity.
+   ![Run Contribution analysis](assets/run-contribution-analysis.png)
 
-  ![](assets/run_ca.png)
-
-* In a line chart, hover over an anomaly data point in a line chart. Click the **[!UICONTROL Analyze]** link that appears.
-
-  ![](assets/contribution-analysis.png)
-
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](#exclude).
-
-1. Wait while your contribution analysis loads. This could take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension.
-1. Analysis Workspace then loads a new Contribution Analysis panel directly within this project. 
-
-    * A visualization that shows the number of **Visits** on that day.
-    * A monthly **Visits Trend line** for context.
-    * **Top Items** that contributed to this anomaly, sorted by the [contribution score](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis), plus the metric in question, and a Unique Visitors metric to put the metric in context from a sizing perspective.
+   1. In a Line visualization, based on a freeform table with daily granularity, select an anomaly data point. From the popup, select **[!UICONTROL Analyze]**.
+   1. In a freeform table with daily granularity, from the context menu on any row, select **[!UICONTROL Run contribution analysis]**. You can even run the analysis on rows that do not display any anomaly.
+   1. In a freeform table with daily granularity, on a row that indicates an anomaly:
+      1. Select the indicator ◥. 
+      1. From the ![Alert](/help/assets/icons/Alert.svg) **[!UICONTROL Anomaly detected]** dialog, select **[!UICONTROL Open Contribution Analysis]**.
     
-    * The [Generated Segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (Top Item Clusters) table identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Clicking the "i" (info) button will give you a view of each auto segment's definition, including which top items it is made up of:
 
-      ![](assets/auto_segment.png)
 
-1. Since contribution analysis is now part of Analysis Workspace, you can take advantage of a number of its features from a table's right-click menu to make your analysis even more meaningful, such as:
+1. (Optional) You can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](#exclude-dimensions).
 
-    * [Breaking each dimension item down by another dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 
-    * [Trending one or more rows.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
-    * [Adding new visualizations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 
-    * [Creating alerts.](/help/components/c-alerts/intellligent-alerts.md) 
-    * [Creating or comparing segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+   ![Excluding dimensions from Contribution analysis](assets/excluding-dimensions.png)
+
+1. Select **[!UICONTROL Run contribution analysis]**.
+
+1. Wait while the contribution analysis is processed. The processing can take a considerable amount of time, depending on the size of your report suite and the number of dimensions. Contribution analysis performs analysis on the top 50,000 items per dimension. You are also notified about the number of [contribution analysis tokens](anomaly-detection.md#contribution-analysis-tokens) remaining.
+
+   ![Contribution analysis executing](assets/contribution-analysis-executing.png)
+
+1. Analysis Workspace loads a new **[!UICONTROL Contribution analysis]** panel directly within this project. 
+
+   ![Contribution Analysis panel](assets/contribution-analysis.png)
+
+    * A [summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) visualization.
+    * A monthly trended [line](/help/analyze/analysis-workspace/visualizations/line.md) visualization.
+    * A **[!UICONTROL Top Items]** [freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) that displays which top items contribute to this anomaly, sorted by [Contribution score](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). The additional columns show the metric in question, and a **[!UICONTROL Unique Visitors]** metric to provide context.
+    
+    * The **[!UICONTROL Generated Segments (Top Item Clusters)]** [freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) identifies associations of top items based on the Contribution Score, anomaly occurrences, and overall percentage contributing to the anomalous metric. This association is then captured as an audience segment (Contribution Segment 1, Contribution Segment 2, etc.). Select ![Info](/help/assets/icons/Info.svg) to display the segment's definition, including which top items the segments is made up of:
+
+
+1. Since contribution analysis is now part of Analysis Workspace, you can take advantage of a number of its features from a freeform table context menu to make your analysis even more meaningful, such as:
+
+    * [Break down each dimension item by another dimension](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 
+    * [Trending one or more rows](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
+    * [Add a new visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 
+    * [Create alerts](/help/components/c-alerts/intellligent-alerts.md) 
+    * [Create or compare segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
->We highlight the anomaly being analyzed with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This provides a clearer indication of the anomaly being analyzed.
+>The anomaly that is analyzed is highlighted with a blue dot within Contribution Analysis and the Intelligent Alert projects linked to it. This highlight provides a clearer indication of the anomaly being analyzed.
 
-## Exclude dimensions from Contribution Analysis {#exclude}
 
-There may be times when you want to exclude some dimensions from Contribution Analysis. For example, you may not care about any browser- or hardware-related dimensions at all, and you want to speed up analysis by removing them.
+## Exclude dimensions
 
-1. After you have clicked **[!UICONTROL Run Contribution Analysis]** (or **[!UICONTROL Analyze]** in a line chart), the **[!UICONTROL Excluded Dimensions]** panel displays.
+You might want to exclude some dimensions from Contribution Analysis. For example, you may not care about any browser- or hardware-related dimensions at all, and you want to speed up analysis by removing them.
 
-1. Just drag any unwanted dimensions into the **[!UICONTROL Excluded Dimensions]** panel, then save the list by clicking **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+To manage the excluded dimension:
 
-   ![](assets/exclude_dimensions.png)
+* Drag any unwanted dimensions into the **[!UICONTROL Excluded Dimensions]** panel, then save the list by clicking **[!UICONTROL Set as Default]**. 
+   
+* Select **[!UICONTROL Clear All]** to start over.
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
-1. If you ever need to revise the list of excluded dimensions, just double click Dimensions, and the list of excluded dimensions displays:
+* Select ![Dimensions](/help/assets/icons/Dimensions.svg) to display a context menu and use ![CrossSize400](/help/assets/icons/CrossSize400.svg) to remove any selected excluded dimension from the list.
 
-   ![](assets/excluded-dimensions.png)
+   ![](assets/excluded-dimensions-list.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+After you have modified dimensions to exclude, select **[!UICONTROL Run contribution analysis]** again.
+

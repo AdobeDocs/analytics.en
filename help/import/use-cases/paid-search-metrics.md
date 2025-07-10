@@ -1,14 +1,14 @@
 ---
 title: Import Paid Search metrics
-description: Steps to configure Adobe Analytics to track your paid search metrics (e.g., Google AdWords, MSN, Yahoo, etc.) using Data Sources.
+description: Steps to configure Adobe Analytics to track your paid search metrics (e.g., Google Ads, Microsoft Advertising, etc.) using Data Sources.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 ---
 # Import [!UICONTROL Paid Search] metrics using [!UICONTROL Data Sources]
 
-For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google AdWords. You can integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
+For many marketing organizations, paid search is one of the most valuable and reliable ways both​ to reach new customers and to retain existing ones. The [!UICONTROL Data Sources] capability in Adobe Analytics makes it easy to import advanced paid search data from digital advertising platforms like Google Ads. You can integrate it with the rest of your marketing data, alongside on-site behavioral and customer attribute data, to allow you better insights into your organization's paid search efforts.
 
-These steps show you how to configure an integration with AdWords to import keyword data as well as metrics such as impressions, clicks, cost per click, and more.
+These steps show you how to configure an integration with Ads to import keyword data as well as metrics such as impressions, clicks, cost per click, and more.
 
 The steps explain how to set up a one-time import of pay-per-click data. However, [!UICONTROL Data Sources] allows for the ongoing import of data using the file format described here. Depending on your paid search platform, you may be able to schedule periodic exports (daily, monthly, etc.), set up automated processes for transforming those exports into the file format that Adobe Analytics requires, and upload these files into Adobe Analytics for going paid search integration reporting.
 
@@ -79,7 +79,7 @@ Our first step is to prepare Adobe Analytics to receive the metrics. To do this,
 
 ## Export PPC data and upload it to Analytics
 
-Steps similar to these work for Google Adwords, MSN, Yahoo, and other PPC accounts.
+Steps similar to these work for Google Ads, Microsoft Advertising, and other PPC accounts.
 
 ### Export data
 

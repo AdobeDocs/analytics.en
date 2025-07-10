@@ -1,6 +1,6 @@
 ---
-description: Create a blank panel as a starting point for any visualization.
-title: Blank panel
+description: Learn how to create a blank panel as a starting point for any visualization.
+title: Blank Panel
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb

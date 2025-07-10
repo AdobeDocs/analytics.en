@@ -1,6 +1,6 @@
 ---
-description: Use the flow visualization in a Workspace project.
-title: Configure a flow visualization
+description: Learn how to configure the flow visualization in Analysis Workspace
+title: Configure A Flow Visualization
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
@@ -63,11 +63,9 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 >abstract="This field can only be set on the initial build. To update this field, select **[!UICONTROL Reset]** to build a new Flow visualization."
 
 
+Flow visualizations help you understand the journey originating from a specific conversion event on your website or your app. Or leading up to a specific conversion event. The visualization traces a path through your dimensions (and dimension items) or metrics. 
 
-Flow visualizations help you understand the journey stemming from or leading up to a specific conversion event on your website or your app. It traces a path through your dimensions (and dimension items) or metrics. 
-
-Flow visualizations let you configure the start or end of the path you are interested in, or analyze all paths that flow through a dimension or dimension item.
-
+You can configure the start or end of the path you are interested in. Or analyze all paths that flow through a dimension or dimension item.
 ![new Flow UI](assets/new-flow.png)
 
 ## Use
@@ -104,7 +102,7 @@ Flow visualizations let you configure the start or end of the path you are inter
    | **[!UICONTROL Limit to first/last occurrence]** | Limit paths to paths that start or end with the first or last occurrence of a dimension, item, or metric. See [Limit to first/last occurrence](#example-scenario-for-limit-to-firstlast-occurrence) for a more detailed explanation. |
    | **[!UICONTROL Number of columns]** | The number of columns you want in your Flow diagram. You can specify a maximum of 5 columns. |
    | **[!UICONTROL Items expanded per column]** | The number of items you want in each column. You can specify a maximum of 10 items expanded per column. |
-   | **[!UICONTROL Flow container]** | You can switch between **[!UICONTROL Sessions]** and **[!UICONTROL Person]** to analyze pathing. These settings help you understand a person's engagement at the person level (across sessions), or constrain the analysis to a single session.  |
+   | **[!UICONTROL Flow container]** | You can switch between **[!UICONTROL Visit]** and **[!UICONTROL Visitor]** to analyze pathing. These settings help you understand a visitor's engagement at the visitor level (across visits), or constrain the analysis to a single visit.  |
 
    >[!IMPORTANT]
    >
@@ -191,7 +189,7 @@ When using this option, keep in mind that:
 
   In the example below, only the **last** occurrences of *Product main category* and *Add to cart* in each step of the flow are included.
   ![Lint, start](assets/limitonlast.png)
-* The series used differs based on the container. If using the **[!UICONTROL Person]** container, the series of events are the session. If using the **[!UICONTROL Session]** container, the series of events are all the events for a given user in the provided date range. 
+* The series used differs based on the container. If using the **[!UICONTROL Visitor]** container, the series of events are the visits. If using the **[!UICONTROL Visitor]** container, the series of events are all the hits for a given user in the provided date range. 
 * The **[!UICONTROL Limit to first/last occurrence]** option can be configured in the advanced settings when using a Metric or Dimension Item in the **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** fields.
 
 

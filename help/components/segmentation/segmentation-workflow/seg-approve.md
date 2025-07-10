@@ -1,27 +1,22 @@
 ---
-description: Within the Segment Manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
-title: Approve segments
+description: Learn how you, as an administrator, can approve segmentss.
+title: Approve Segments
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 ---
 # Approve segments
 
-Within the Segment manager you can set up a workflow that includes approving segments for various levels of application, for specific departments or groups, and consistent with reporting policies.
+In the [Segment manager](seg-manage.md), you can approve and unapprove segments. Only administrators can approve segments.
 
->[!NOTE]
->
->Administrators can also approve segments (and other components) from the Data Dictionary, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). 
->
->Any segments that are approved in the Data Dictionary are reflected in the Segment manager. Similarly, metrics that are approved in the Segment manager are reflected in the Data Dictionary.
+To approve segments:
 
-Here is how to flag a segment as approved:
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to approve.
+1. From the action bar, select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. The approved segments are indicated with ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
+   
+To unapprove segments:
 
-1. In Segment Manager, check the checkbox to the left of the segment title.
-1. Click **[!UICONTROL Approve]** in the segment management task bar.
-1. Consider sharing the approved segment/s with your organization.
-1. Click **[!UICONTROL OK]**.
-1. Notice the approval icon next to the segment in the list.
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to unapprove.
+1. From the action bar, select ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**.
+   
 
-   ![](assets/seg_approved.png)
-
-1. You can also unapprove an approved segment by clicking **[!UICONTROL Unapprove]**.
+You can segment your list of segments by approved segments. Select **[!UICONTROL Other segments]** from the ![Segment](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** panel and select **[!UICONTROL Approved]**. See [Filter the list of segments](t-seg-filter.md) for more information.

@@ -2,7 +2,7 @@
 description: Overview of what data Adobe Analytics collects and other privacy considerations.
 keywords: privacy
 title: Privacy overview
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 ---
 # Privacy overview

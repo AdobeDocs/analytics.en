@@ -1,6 +1,6 @@
 ---
-description: A panel is a collection of tables and visualizations
-title: Panels overview
+description: Understand panels and how to use panels in Analysis Workspace.
+title: Panels Overview
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
@@ -24,6 +24,7 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Ad
 | [Media playback time spent](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
 | [Next or previous item](next-previous.md) | Show the next or previous pages people go to. |
 | [Quick insights](quickinsight.md) | Quickly build a freeform table and an accompanying visualization to analyze and uncover insights faster. |
+| [Page summary](page-summary.md) | Explore key statistics about specific pages. |
 | [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
 
 

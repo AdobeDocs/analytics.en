@@ -149,7 +149,7 @@ Image
  
 https://examplecom.112.2o7.net/b/ss/examplecom/1/JS-1.4/s61944015791667?[AQB] 
 ndh=1 
-t=4/8/2014 13:34:28 4 360 
+t=4/8/20XX 13:34:28 4 360 
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 

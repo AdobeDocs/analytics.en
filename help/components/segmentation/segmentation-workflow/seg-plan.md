@@ -1,6 +1,6 @@
 ---
 description: Outlines the steps and best practices to follow when planning your segments.
-title: Plan segments
+title: Plan Segments
 feature: Segmentation
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 ---

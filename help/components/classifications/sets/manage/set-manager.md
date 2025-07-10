@@ -24,7 +24,7 @@ Note that 1,000 classification sets are preloaded at a time. The filters shown i
 
 The following columns are available in the Classification set manager:
 
-* **[!UICONTROL Classification set]**: The classification set name. Clicking a classification set name [edits its settings](settings.md).
+* **[!UICONTROL Classification set]**: The classification set name. Clicking a classification set name edits its [settings](settings.md).
 * **[!UICONTROL Subscriptions]**: The number of subscriptions that this classification set applies to.
 * **[!UICONTROL Classifications]**: The number of classification dimensions that the classification set contains.
 * **[!UICONTROL Automated]**: Determines if the classification set is configured to automatically import data from a cloud location. Automation can be configured in the classification set's [schema](schema.md).
@@ -32,7 +32,7 @@ The following columns are available in the Classification set manager:
 
 ## Create or edit options
 
-The following buttons are available in the Classification set Manager:
+The following buttons are available in the Classification set manager:
 
 * **[!UICONTROL Add]**: [Create](create.md) a classification set.
 * **[!UICONTROL Search by title]**: Search for classification sets by name.

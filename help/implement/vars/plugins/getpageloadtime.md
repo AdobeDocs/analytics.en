@@ -1,7 +1,7 @@
 ---
 title: getPageLoadTime
 description: (Retired) Track the amount of time a page takes to load.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 role: Admin, Developer
 ---

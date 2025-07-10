@@ -1,7 +1,7 @@
 ---
 title: hier
 description: (Retired) Implement hierarchy variables in Adobe Analytics.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
 ---

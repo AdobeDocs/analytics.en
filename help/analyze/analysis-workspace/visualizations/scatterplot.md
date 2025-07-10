@@ -1,11 +1,11 @@
 ---
-title: Scatterplot
-description: A visualization that shows the relationship between up to three metrics.
+title: Scatter
+description: Use the scatter visualization to show the relationship between up to three metrics.
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 ---
-# Scatterplot {#scatter}
+# Scatter {#scatter}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -37,7 +37,7 @@ The ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]*
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visualization](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visualization](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

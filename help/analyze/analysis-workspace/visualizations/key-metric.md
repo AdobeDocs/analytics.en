@@ -1,20 +1,16 @@
 ---
 description: Use the key metric summary visualization to compare metric performance across two timelines.
-title: Key metric summary
+title: Key Metric Summary
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 ---
 # Key metric summary {#key-metric-summary}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="Key metric summary"
 >abstract="Create a visualization that is a combination of the line, summary change, and summary number charts. Use this visualization to compare how important metrics are trending between two periods of time."
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
@@ -55,7 +51,7 @@ This visualization addresses various common use cases, including:
    | **[!UICONTROL Metric]** | Select the metric you want to examine. All metrics are supported. |
    | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your data view.</p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p>  |
    | **[!UICONTROL Comparison date range]** | The date range that you want to compare with the primary date range. |
-   | **[!UICONTROL Filter (optional)]** | Any filter that you are interested in for this summary.  |
+   | **[!UICONTROL Segment (optional)]** | Any segment that you are interested in for this summary.  |
 
    {style="table-layout:auto"}
 
@@ -112,15 +108,14 @@ As part of the visualization settings, specific key metric summary settings are 
 
 ## Edit visualization
 
-After building the visualization, you can still edit the original configuration. 
+After you build the visualization, you can edit the original configuration. 
 
-1. Click the pencil icon in the top-right corner of the visualization (next to the settings gear icon).
+1. Select ![Edit](/help/assets/icons/Edit.svg) in the top-right corner of the visualization.
 
-   ![Visualization edit icon](assets/edit-icon.png)
 
-   You are now taken back to the original configuration view. 
+   You are now taken back to the original [configuration view](#configure). 
 
-1. Change the metric, primary date range, comparison date range, or filter as preferred.
+1. Change the metric, primary date range, comparison date range, or segment as preferred.
 
 >[!MORELIKETHIS]
 >

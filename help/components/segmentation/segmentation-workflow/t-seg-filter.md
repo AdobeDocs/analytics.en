@@ -1,29 +1,48 @@
 ---
-description: Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
-title: Filter segments
+description: Learn how to filter segments by tags, owners, and other filters.
+title: Filter Segments
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 ---
-# Filter segments
+# Filter the list of segments
 
-Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.)
+You can filter the list of segments. Using a filter on segments makes it easier to find the segments that are available to you, and manage segments from the [Segment manager](seg-manage.md). 
 
-Filtering makes it easier to search for segments in the segment rail.
+>[!NOTE]
+>
+>The list of segments refers to the [segment list](seg-manage.md#filters-list) as part of the [Segment manager](seg-manage.md). You can filter that list using the ![Filter](/help/assets/icons/Filter.svg) [Filter panel](seg-manage.md#filter-panel), part of that same [Segment manager](seg-manage.md).
+>
 
-1. In the Segment Manager, click the **[!UICONTROL Filters]** icon:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+To filter the list of segments:
 
-2. The following filters are available:
+1. Select ![Filter](/help/assets/icons/Filter.svg) to open the Filters panel. If you need more space for the Filters list, you can select ![Filter](/help/assets/icons/Filter.svg) once more to close the panel.
+1. Select filters from any of the available [filter sections](#filter-sections). 
+   
+   >[!INFO]
+   >
+   >*Items* refer to the filter items displayed in the [Filter list](seg-manage.md#segment-list).
+   > 
 
-   |  Filter Name  | Description  |
-   |---|---|
-   |  Tags  |Lets you filter on segments with specific [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). The Tags column is shown by default.  |
-   |  Owners  | Lets you filter segments by owner.  |
-   | Report suite | Lets you filter by report suite. |
-   |  Other Filters > Show All  | **(Admin only)** Shows all segments, their owner, and the last date they were modified.  |
-   |  Other Filters > Mine  | Shows all segments that you own.  |
-   |  Other Filters > Shared with Me  |Shows all segments that others [shared](/help/components/segmentation/segmentation-workflow/t-seg-share.md) with you.  |
-   |  Other Filters > Favorites  |Shows all segments you marked as [Favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md).  |
-   |  Other Filters > Approved  |Shows all officially [approved](/help/components/segmentation/segmentation-workflow/seg-approve.md) segments.  |
-   |  Search Segments  | Lets you search for segments by name.  |
+## Filter sections
+
+The following filter sections are available:
+
+### Tags
+
+{{tagfiltersection}} 
+
+### Report suite
+
+{{reportsuitefiltersection}}
+
+### Owner
+
+{{ownerfiltersection}}
+
+### Other filters
+
+{{otherfiltersfiltersection}}
+
+
+The [Filter list](seg-manage.md#segment-list) is automatically updated based on your filter configuration. You can see the configured filters in the [Active filter bar](seg-manage.md#active-filter-bar).

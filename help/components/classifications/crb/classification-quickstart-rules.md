@@ -4,7 +4,7 @@ title: Classification rules
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 ---
-# Classification rules
+# Classification rules (legacy)
 
 Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
 
@@ -21,7 +21,7 @@ Classification rules are convenient for:
 
 For example, assume that a tracking code for an email campaign ID is:
 
-`em:Summer:2013:Sale`.
+`em:Summer:20XX:Sale`.
 
 You can set up three rules in a rule set that identify the parts of the string, then classify the values: 
 
@@ -29,7 +29,7 @@ You can set up three rules in a rule set that identify the parts of the string, 
 |---|---|---|---|
 | Starts With  | em:  | Channel  | Email  |
 | Ends With  | Sale  | Type  | Sale  |
-| Contains  | 2013  | Year  | 2013  |
+| Contains  | 20XX  | Year  | 20XX  |
 
 ## How Rules Are Processed {#how-rules-are-processed}
 
@@ -89,18 +89,6 @@ When you activate rules, you can overwrite existing classifications. In the foll
 
 Use regular expressions to match consistently formatted string values with a classification. For example, you can create a classification from specific characters in a tracking code. You can match particular characters, words, or patterns of characters.
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [Regular Expression - Tracking Code Example](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669) 
-* [Regular Expression - Classifying a Specific Character](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF) 
-* [Regular Expressions - Matching Tracking Codes of Varying Length](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2) 
-* [Regular Expressions - "Does Not Contain" Example](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C) 
-* [Regular Expressions - Reference Table](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >As a best practice, regular expressions are best suited for tracking codes that use delimiters.
@@ -109,29 +97,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+>If the tracking code is URL encoded, it will **not** be classified by the Rule Builder.
 
 In this example, assume you want to classify the following campaign ID:
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+Sample Key: `em:JuneSale:20XX0601`
 
 The parts of the tracking code you want to classify are:
 
 * `em` = email 
 * `JuneSale` = campaign name 
-* `20130601` = date
+* `20XX0601` = date
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+Regular Expression: `^(.+)\:(.+)\:(.+)$`
 
 How the regular expression correlates to the campaign ID:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]: Shows how the regular expression corresponds to the campaign ID characters, so that you can classify a position in the campaign ID.
+Match Groups: Shows how the regular expression corresponds to the campaign ID characters, so that you can classify a position in the campaign ID.
 
 ![](assets/regex_tracking_code.png)
 
-This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
+This example tells the rule that the campaign date `20XX0601` is at the third group `(.+)`, identified by `$3`.
 
 **[!UICONTROL Rule Builder]**
 
@@ -145,16 +133,16 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | Regular Expression | String or Match Result | Corresponding Match Groups |
 |--- |--- |--- |
-|`^(.+)\:(.+)\:(.+)$`|`em:JuneSale:20130601`|`$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601|
+|`^(.+)\:(.+)\:(.+)$`|`em:JuneSale:20XX0601`|`$0`: `em:JuneSale:20XX0601`  `$1`: em  `$2`: JuneSale  `$3`: 20XX0601|
 |Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.|
 
-See [Regular Expressions - Reference Table](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) for information about what the characters in a regular expression mean.
+See [Regular Expressions - Reference Table](/help/components/classifications/crb/classification-quickstart-rules.md) for information about what the characters in a regular expression mean.
 
 ## Regular Expression - Classifying a Specific Character {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 One way to use a regular expression is to classify a specific character in a string of characters. For example, assume that the following tracking code contains two important characters:
 
-[!UICONTROL Sample Key]: `4s3234`
+Sample Key: `4s3234`
 
 * `4` = brand name 
 * `s` = identifies a search engine, such as Google
@@ -302,7 +290,7 @@ Add rules by matching a condition to a classification, and specifying the action
 
 >[!NOTE]
 >
->In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [sub-classifications](/help/components/classifications/c-sub-classifications.md).
+>In this procedure, you must apply the rules to one or more report suites. The recommended number of rules per rule set is between 500 and 1000, although there are no limits. If you have over 100 rules, consider simplifying your rule set by using [subclassifications](/help/components/classifications/importer/subclassifications.md).
 
 To add or edit a classification rule:
 

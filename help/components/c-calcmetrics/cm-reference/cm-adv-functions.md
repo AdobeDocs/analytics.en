@@ -1,6 +1,6 @@
 ---
-title: Advanced functions
-description: Access these functions by checking Show Advanced in the Functions drop-down list.
+title: Advanced Functions
+description: Learn about advanced calculated metrics functions.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
@@ -252,7 +252,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="Confidence (Lower)"
 >abstract="Calculate the any-time-valid confidence **lower** using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
@@ -276,7 +276,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="Confidence (Upper)"
 >abstract="Calculate the any-time-valid confidence **upper** using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 

@@ -1,11 +1,16 @@
 ---
-description: How Workspace totals are calculated.
-title: Workspace totals
+description: Learn how totals in freeform tables in Analysis Workspace are calculated.
+title: Totals
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 ---
-# Workspace totals
+# Totals {#workspace-totals}
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_grandtotal"
+>title="Grand Total"
+>abstract="Grand total is not supported for tables or breakdowns with static rows."
 
 In Freeform tables, a total row appears at each breakdown level and can show two totals:
 

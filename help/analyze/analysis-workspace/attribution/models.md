@@ -1,17 +1,40 @@
 ---
-title: Attribution models and lookback windows
-description: How different types of attribution divide credit between dimension items.
+title: Attribution Components
+description: Learn about the components that define attribution.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 ---
-# Attribution models and lookback windows
+# Attribution components
 
-The concept of attribution in Adobe Analytics requires two components:
+The concept of attribution in Adobe Analytics involves three components:
 
-* **Attribution model:** The model describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
-* **Attribution lookback window:** The lookback window describes which groupings of hits are considered for each model. For example, visit or visitor.
+* **Attribution model:** The [model](#attribution-model) describes the distribution of conversions to the hits in a group. For example, first touch or last touch.
+* **Container**: The [container](#container) defines the scope of the attribution, or how to group the hits for each model.
+* **Attribution lookback window:** The [lookback window](#lookback-window) describes the number of days to lookback for the chosen model..
 
+
+## Attribution model
+
+{{attribution-models-details}}
+
+
+## Container
+
+{{attribution-container}}
+
+
+## Lookback window
+
+{{attribution-lookback-window}}
+
+
+## Example
+
+{{attribution-example}}
+
+
+<!--
 ## Attribution models
 
 | UI icon | Attribution model | Definition | When to use |
@@ -78,3 +101,5 @@ Depending on your lookback window and attribution model, channels receive differ
 >[!TIP]
 >
 >Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+
+-->

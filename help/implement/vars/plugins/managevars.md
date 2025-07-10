@@ -1,7 +1,7 @@
 ---
 title: manageVars
 description: Alter the values of more than one Analytics variable at a time.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
 ---

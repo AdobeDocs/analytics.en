@@ -1,5 +1,5 @@
 ---
-description: Use the map visualization in a Workspace project.
+description: Use the map visualization to plot data on a geographic map visualization.
 title: Map
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
@@ -57,7 +57,7 @@ The ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualization in
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -113,8 +113,8 @@ To define settings for the visualization, select ![Setting](/help/assets/icons/S
 | Setting | Description |
 |--- |--- |
 | **[!UICONTROL Map type]** | |
-|[!UICONTROL Bubbles]|Plots events using bubbles. A bubble chart is a multi-variable graph that is a cross between a scatterplot and a proportional area chart. This view is the default.|
-|Heatmap|Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors.|
+|**[!UICONTROL Bubbles]|Plots events using bubbles. A bubble chart is a multi-variable graph that is a cross between a scatterplot and a proportional area chart. This view is the default.|
+|[!UICONTROL Heatmap]|Plots events using a heatmap. A heatmap is a graphical representation of data where the individual values contained in a matrix are represented as colors.|
 | **[!UICONTROL Styles]** | |
 |[!UICONTROL Color theme]|Shows the color scheme for the heat map and bubbles. You can choose among Coral, Reds, Greens or Blues. The default is Coral.|
 |[!UICONTROL Map style]|You can choose from Basic, Streets, Bright, Light, Dark, and Satellite.|

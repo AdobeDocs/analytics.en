@@ -1,6 +1,6 @@
 ---
-description: An overview of how to use templates in Analysis Workspace.
-title: Use templates
+description: Learn about the default templates in Analysis Workspace and how to use these default templates.
+title: Use Templates
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
@@ -1033,7 +1033,7 @@ The following templates are available:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
->title="View all your Google and Bing Paid Search data side by side."
+>title="View all your Google Ads and Microsoft Advertising paid search data side by side."
 >abstract="**This can help you** better understand the amount of traffic being sent to your site and whether customers are converting.<br/>**Based on what you learn, you might** do any number of things, like estimate the cost effectiveness of an ad campaign."
 
 <!-- markdownlint-enable MD034 -->
@@ -1207,7 +1207,7 @@ The following templates are available:
 | [!UICONTROL **Campaigns**] > [!UICONTROL **Tracking code**] | View the names of tracking codes on your site. You can place links with different query string parameter values in different places across the internet.<p>**This can help you** better understand which links were the most successful in driving traffic to your site. Appending tracking code query strings are common in emails, advertisements, social media posts, and other marketing efforts that your organization uses</p><p>**Based on what you learn, you might** do any number of things, like focus marketing efforts on the campaigns that drive the most revenue.</p><p>This template uses the Tracking Code dimension. </p> | 
 | **Web acquisition** | View how your website obtains visitors.<p>**This can help you** better understand more about the various factors that lead to acquisition, such as search keywords, referring domain, and so forth.</p><p>**Based on what you learn, you might** do any number of things, like focus marketing efforts into the most effective channels.</p><p>This template uses the Bounce Rate metric and the Bounces metric. It also uses the Search Engine dimension, Search Keyword dimension, Entry Page dimension, Referring Domain dimension, Tracking Code dimension, and Referrer dimension.  </p>|
 | **Mobile acquisition** | View how your site obtains visitors on mobile devices.<p>**This can help you** better understand more about the various factors that lead to acquisition, such as search keywords, referring domain, and so forth.</p><p>**Based on what you learn, you might** do any number of things, like focus marketing efforts into the most effective channels.</p><p>This template uses the Bounce Rate metric and the Bounces metric. It also uses the Search Engine dimension, Search Keyword dimension, Entry Page dimension, Referring Domain dimension, Tracking Code dimension, and Referrer dimension.  </p> | 
-| **Advertising Analytics: paid search** | View all your Google and Bing Paid Search data side by side. <p>**This can help you** better understand the amount of traffic being sent to your site and whether customers are converting.</p><p>**Based on what you learn, you might** do any number of things, like estimate the cost effectiveness of an ad campaign.</p> |
+| **Advertising Analytics: paid search** | View all your Google Ads and Microsoft Advertising paid search data side by side. <p>**This can help you** better understand the amount of traffic being sent to your site and whether customers are converting.</p><p>**Based on what you learn, you might** do any number of things, like estimate the cost effectiveness of an ad campaign.</p> |
 | **Search keywords - all** | View the search keywords that visitors use to reach your site, regardless whether it is paid or natural. <p>**This can help you** better understand the keywords people use in searches that result in site traffic. </p><p>**Based on what you learn, you might** do any number of things, like identify and fill SEO gaps between keywords that are used and those that drive site traffic.</p><p>This template uses the Search Keyword dimension. </p> |
 | **Search keywords - paid** | View the search keywords that visitors use to reach your site, which matched paid search detection.<p>**This can help you** better understand the keywords people use in searches that result in site traffic.</p><p>**Based on what you learn, you might** do any number of things, like identify and fill SEO gaps between keywords that are used and those that drive site traffic. </p><p>This template uses the Search Keyword - Paid dimension. </p> |
 | **Search keywords - natural** | View the search keywords that visitors use to reach your site, which did not match paid search detection.<p>**This can help you** better understand the keywords people use in searches that result in site traffic.</p><p>**Based on what you learn, you might** do any number of things, like identify and fill SEO gaps between keywords that are used and those that drive site traffic.</p><p>This template uses the Search Keyword - Natural dimension. </p> |

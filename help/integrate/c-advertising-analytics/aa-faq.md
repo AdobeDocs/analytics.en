@@ -56,7 +56,7 @@ Advertising Analytics is available only for Adobe Analytics administrators; howe
  
 +++ Which search engine accounts are included in Advertising Analytics?
 
-Search engine accounts include Google AdWords and Microsoft Bing. 
+Search engine accounts include Google Ads and Microsoft Advertising. 
 
 +++
 

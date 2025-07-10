@@ -4,7 +4,7 @@ title: Classification template
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 ---
-# Classification template
+# Classification template (legacy)
 
 (Optional) Before importing classifications into reports and projects, you can download a template that helps you create a classifications data file. The data file uses your desired classifications as column headings, then organizes the reporting data set under the appropriate classification headings.
 

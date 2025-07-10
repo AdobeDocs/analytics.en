@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: Allows the preservation of query strings in link tracking dimensions.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
 ---

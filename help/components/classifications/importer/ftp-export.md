@@ -4,7 +4,7 @@ description: FTP export provides more flexibility with data set downloads, inclu
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 ---
-# Classification data export via FTP
+# FTP export (legacy)
 
 The FTP option provides more flexibility in downloading data sets, including the ability to download data from multiple report suites and to download data set files larger than 50,000 data rows. Before downloading classification data via FTP, create an FTP account. 
 

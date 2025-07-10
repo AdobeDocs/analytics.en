@@ -1,11 +1,21 @@
 ---
-description: Learn how to remove projects from folders
+description: Learn how to remove projects from Analysis Workspace.
 keywords: Analysis Workspace
-title: Remove projects from folders
+title: Remove Projects
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 ---
-# Remove a Project from a Folder
+# Remove projects
+
+
+See [Actions in Manage projects](../freeform-overview.md#actions) on how to remove projects from Analysis Workspace.
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
 
 To remove a project from a folder, you can move the project to another location or delete the project.
 
@@ -17,15 +27,15 @@ To remove a project from a folder, you can move the project to another location 
 
 You can move projects from one folder to another folder that you created.
 
-1.  From within a project folder, select the **...** ellipsis next to the project name.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1.  Select **Move to** and then select a folder to move the project to.
+1. Select **Move to** and then select a folder to move the project to.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1.  Click **Move**.
+1. Click **Move**.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
@@ -37,10 +47,12 @@ You can move projects from one folder to another folder that you created.
 
 When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1.  From within a project folder, select the **...** ellipsis next to the project name.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
     ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1.  Select **Delete**.
+1. Select **Delete**.
 
-1.  A confirmation window asks you to confirm the deletion.
+1. A confirmation window asks you to confirm the deletion.
+
+-->

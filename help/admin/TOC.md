@@ -41,27 +41,13 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + Paid Search Detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-        + Processing Rules {#c-processing-rules}
-          + [Processing rules overview](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-          + Processing Rules {#c-processing-rules-configuration}
-            + [How processing rules work](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-            + [Create processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-            + [View active processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-            + [View processing rule history](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-            + [Restore processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-            + [Copy processing rules to another report suite](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-            + [Dimensions available to processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-          + Processing rules examples {#processing-rules-examples}
-            + [Examples of processing rules](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-            + [Populate a campaign ID from a query string parameter](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-            + [Set the product view event from the product overview page](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-            + [Add a subcategory by concatenating the category and page name](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-            + [Clean up values in a report](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-            + [Populate internal search terms using a query string parameter](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-            + [Copy a context data variable to an eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-            + [Set an event using a context data variable](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-            + [Remove an event from a hit](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-          + [Processing rules tips and tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+        + Processing Rules {#processing-rules}
+          + [Overview](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+          + [Interface](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+          + [View history](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+          + [Copy rules](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+          + [Available dimensions and metrics](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+          + [Use cases](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
         + Bot Rules {#bot-removal}
           + [Bot removal](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
           + [Understand and configure bot rules](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)

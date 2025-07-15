@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (July 2025 release)
 
-**Last update**: July 10, 2025
+**Last update**: July 15, 2025
 
 These release notes cover the release period of July 7 through August 15, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
@@ -20,26 +20,17 @@ These release notes cover the release period of July 7 through August 15, 2025. 
 
 ## Fixes in Adobe Analytics
 
-**A4T**: 
-**Advertising Analytics**: 
-**Alerts**: 
-**Analysis Workspace**: AN-382908; AN-387652; 
-**API 1.4**: 
-**API 2.0**: 
-**Classifications**: AN-382412; AN-383157; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915; 
-**Contribution Analysis**: 
+**Activity Map**: AN-360987
+**Analysis Workspace**: AN-378094; AN-380979; AN-382908; AN-387652; 
+**Classifications**: AN-382412; AN-383157; AN-384616; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915; 
+**Data collection**: AN-387661
 **Data feeds**: AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
-**Data Warehouse**: 
 **Platform**: AN-382813; AN-386627; AN-386815
 **Privacy**: AN-384390
-**Processing rules**: 
-**Report Builder**: 
+**Report Builder**: AN-388035
 **Reporting**: AN-380441
 **Scheduled reports**: AN-378280; AN-378331
 **Segment comparison**: AN-368766
-**Server Calls**: 
-**Usage & Access Logs**: 
-**Virtual Report Suites**: 
 
 
 ## End-of-life (EOL) notices {#eol}

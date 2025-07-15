@@ -1,6 +1,8 @@
 ---
 title: Copy processing rules
 description: Learn how to copy processing rules from one report suite to another.
+feature: Processing Rules
+role: Admin
 ---
 # Copy processing rules between report suites
 

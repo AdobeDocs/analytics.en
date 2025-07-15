@@ -20,10 +20,6 @@ The Report Builder hub contains the Create, Manage, and Schedule buttons, the CO
 
 Use the Create, Manage, and Schedule buttons to create new data blocks, manage existing data blocks, or schedule datablocks.
 
->[!NOTE]
->
->Workbook scheduling for this version of Report Builder on Adobe Analytics has not yet released but will be available in early 2025. You can get started now on workbooks that do not require scheduling.
-
 ## COMMANDS panel
 
 Use the COMMANDS panel to access commands that are compatible with the selected cells or a previous action.

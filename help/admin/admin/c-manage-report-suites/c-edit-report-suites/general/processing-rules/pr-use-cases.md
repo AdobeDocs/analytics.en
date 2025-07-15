@@ -110,7 +110,7 @@ You can use the concatenate option to populate values by combining other values.
 
 You can match values against misspellings collected and update them to display correctly in reports.
 
-To make sure that you do not inadvertently match other values. Adobe recommends using the most restrictive matching option available. You can run a report on the variable and search for the possible rule condition that you want to use. This precaution ensures that your rule doesn't match unintended values. String comparisons are not case-sensitive.
+Adobe recommends using the most restrictive matching option possible to avoid undesired overwrites. You can run a report on the variable and search for potential rule conditions that you want to use. String comparisons are not case-sensitive.
 
 | Rule set | Value |
 | --- | --- |

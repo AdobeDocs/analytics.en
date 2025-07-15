@@ -41,7 +41,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + Paid Search Detection {#paid-search-detection}
           + [Paid search detection overview](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
           + [Configure paid search detection](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-        + Processing Rules {processing-rules}
+        + Processing Rules {#processing-rules}
           + [Overview](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
           + [Interface](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
           + [View history](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)

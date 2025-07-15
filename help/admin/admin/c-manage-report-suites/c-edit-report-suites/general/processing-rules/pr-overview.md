@@ -48,10 +48,10 @@ Product admins have access to processing rules by default. You can grant access 
 
 When creating or editing processing rules, take the following into consideration:
 
-* **Possible empty values**: When you create a rule, consider cases when the overwriting value is empty. For example, if you have a rule that overwrites eVar1 with the value from eVar2 and eVar2 is empty, both variables are effectively blanked out. Adobe recommends adding a condition that checks for a variable value before using it to overwrite another value.
+* **Possible empty values**: When you create a rule, consider cases when the overwriting value is empty. For example, if you have a rule that overwrites eVar1 with eVar2 and eVar2 is empty, both variables are blanked out. Adobe recommends adding a condition that checks for a variable value before using it to overwrite another value.
 * **Apply immediately on save**: Processing rules apply to collected data the moment that you save them. They do not apply retroactively to data that is already collected.
-* **Processing order within rules**: If you have multiple processing rules, the order that they run matters. Make sure that if you use a given variable in multiple rules that they are executed in the correct order. If you overwrite eVar3 in rule 1, you cannot use that original eVar3 value in any subsequent rules unless it was copied to another variable first.
-* **Processing order within the data collection pipeline**: See [Processing order for data in Adobe Analytics](/help/technotes/processing-order.md) to better understand where processing rules apply in the overall data collection pipeline.
+* **Processing order within rules**: If you have multiple processing rules, the order that they run matters. Make sure that if you use a given variable in multiple rules that they are executed in the correct order. If you overwrite eVar3 in rule 1, that original eVar3 value is not available in any subsequent rules.
+* **Processing order within the data collection pipeline**: See [Processing order for data in Adobe Analytics](/help/technotes/processing-order.md) to understand where processing rules apply in the overall data collection pipeline.
 * **Encoding**: Stick to UTF-8 encoding in almost all cases.
 * **Case sensitivity**: String comparisons in processing rules are not case-sensitive. The string values that you use to overwrite values use the same rules as directly populating the variable.
 * **Single report suite**: When you edit processing rules, they apply to only one report suite. Selecting multiple report suites in the Report suite manager forces you to select a single report suite. Once you have created or edited the desired processing rules, you can [copy those rules to other report suites](pr-copy.md).

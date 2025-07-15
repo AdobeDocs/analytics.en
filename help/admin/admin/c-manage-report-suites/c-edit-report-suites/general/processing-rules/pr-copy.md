@@ -6,7 +6,7 @@ role: Admin
 ---
 # Copy processing rules between report suites
 
-Copying processing rules saves you from manually recreating the same logic in multiple report suites. You can use the copy feature to easily share processing rules functionality across many report suites, or to copy tested functionality from a development report suite to a production report suite.
+Copying processing rules saves you from manually recreating the same logic in multiple report suites. You can use the copy feature to share processing rules functionality across many report suites easily, or to copy tested functionality from a development report suite to a production report suite.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing rules]** > **[!UICONTROL Copy processing rules]**
 

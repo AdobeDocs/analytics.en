@@ -42,4 +42,3 @@ This section of the documentation focuses on the Activity Map overlay. However, 
 
 * **A/B testing**: Activity Map can be combined with A/B testing to measure the impact of design or content changes. By comparing engagement metrics between different versions of a webpage, you can determine which variations lead to higher user engagement, conversion rates, or revenue.
 
-* **Mobile app optimization**: Activity Map is not limited to websites; it also extends its functionality to mobile applications. You can gain insights into user interactions within apps, allowing them to improve usability, enhance navigation, and refine features for a seamless mobile experience.

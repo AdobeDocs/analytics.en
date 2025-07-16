@@ -3,6 +3,7 @@ title: Processing rules view history
 description: View what changes have been previously made to processing rules.
 feature: Processing Rules
 role: Admin
+exl-id: c1d4eb01-0888-483a-9a65-83a64e818f88
 ---
 # Processing rules view history
 

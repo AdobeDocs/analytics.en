@@ -3,6 +3,7 @@ title: Processing rules interface
 description: Navigate the interface to create, edit, or delete processing rules.
 feature: Processing Rules
 role: Admin
+exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 ---
 # Processing rules interface
 

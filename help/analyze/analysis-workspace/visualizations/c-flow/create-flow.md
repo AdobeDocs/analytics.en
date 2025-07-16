@@ -132,7 +132,9 @@ To drill down further into the data, you have several options:
 
 * The flow diagram is interactive. Mouse over the diagram to change the details that are shown.
 
-* When you select on a node in the diagram, the details for that node appear. Select the node again to collapse it.
+* When you select a node in the diagram, the details for that node appear. Select the node again to collapse it.
+
+  Leaving multiple nodes expanded in a flow visualization can affect reporting time. As a general guideline, no more than 10 nodes should remain expanded at a given time. 
 
    ![Example interactive flow diagram showing node-details.](assets/node-details.png)
 

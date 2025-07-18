@@ -24,7 +24,7 @@ It offers the following settings:
 
 * **Standard/Live view**: Toggles between standard view and live view.
   * Standard view: Shows the overlay based on historical data.
-  * Live view: Shows the overlay based on live data. The date selector changes to a dropdown that lets you change the granularity of live data.
+  * Live view: Shows the overlay based on live data. The date selector changes to a drop-down menu that lets you change the granularity of live data.
 * **Metric selector**: Allows you to change the metric that the overlay reports. Only [!UICONTROL Link Clicks] are available if you have Live view selected.
 * **Segment selector**: Allows you to select a [segment](/help/components/segmentation/seg-overview.md), viewing a subset of data within your overlay. Segments are not available in Live view.
 * **Overlay visualization type**: Allows you to change how the overlay visualizes the ranking of links.

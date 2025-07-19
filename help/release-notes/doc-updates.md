@@ -22,6 +22,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | **July 2025** | |
 | Processing rules| The documentation for processing rules has been fully redone, providing more details on the interface and current use cases. |
 | Debugger | New article on how to enable, use and disable the project debugger in Analysis Workspace. |
+| Flow visualization performance recommendation | Added information stating that leaving more than 10 nodes expanded in a single flow visualization can affect reporting time. |
 | Review and updates | Review and update of Analysis Workspace documentation. Where appropriate, the documentation is now in sync with the Customer Journey Analytics documentation on Analysis Workspace. | 
 | **June 2025** | |
 | New shortcut actions | New keyboard shortcuts in Analysis Workspace now allow you to [move Workspace panels](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) up and down in a project.  | 

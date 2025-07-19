@@ -3,6 +3,7 @@ title: Copy processing rules
 description: Learn how to copy processing rules from one report suite to another.
 feature: Processing Rules
 role: Admin
+exl-id: bb34ecac-0512-4cff-9ef0-72db2dcabc03
 ---
 # Copy processing rules between report suites
 

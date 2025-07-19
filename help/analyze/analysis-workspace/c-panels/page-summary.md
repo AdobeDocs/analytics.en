@@ -61,7 +61,7 @@ You can configure the [!UICONTROL Page summary] panel using these input settings
 
 | Input | Description |
 | --- | --- |
-| **[!UICONTROL Page]** | Select a page dimension for which page you want to explore key statistics. |
+| **[!UICONTROL Page]** | Select a page dimension for which page you want to explore key statistics. For example **[!UICONTROL home]** to explore statistics for the Home page. Use the drop-down menu to select a page or start typing (for example `home`) to quickly search for pages. |
 
 {style="table-layout:auto"}
 

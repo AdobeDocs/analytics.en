@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **July 2025** | |
+| Processing rules| The documentation for processing rules has been fully redone, providing more details on the interface and current use cases. |
 | Debugger | New article on how to enable, use and disable the project debugger in Analysis Workspace. |
 | Review and updates | Review and update of Analysis Workspace documentation. Where appropriate, the documentation is now in sync with the Customer Journey Analytics documentation on Analysis Workspace. | 
 | **June 2025** | |

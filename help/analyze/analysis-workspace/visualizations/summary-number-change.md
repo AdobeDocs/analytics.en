@@ -10,7 +10,7 @@ exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Summary number and Summary change visualizations in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/summary-number-change) for the_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** version of this article._
+_This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe  Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

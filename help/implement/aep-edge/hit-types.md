@@ -3,6 +3,7 @@ title: Edge Network event types in Adobe Analytics
 description: How Adobe Analytics interprets events received from the Edge Network.
 feature: Implementation Basics
 role: Admin, Developer
+exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
 ---
 # Edge Network event types in Adobe Analytics
 

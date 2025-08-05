@@ -53,7 +53,7 @@ The following are common actions in the Scheduled Projects manager. You can sele
 | Icon | Action | Description |
 |:---:|---|---|
 | ![Close](/help/assets/icons/Close.svg) | **[!UICONTROL *x* selected]** | Select to unselect your selected scheduled projects. |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete the selected scheduled projects for the project; the projects are not deleted.|
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete the selected scheduled projects for the project; the projects are not deleted. <p>For information about deleting a project, see [Projects overview](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p>|
 | ![Labels](/help/assets/icons/Labels.svg)| **[!UICONTROL Tag]** | Tag the selected scheduled projects. In the **[!UICONTROL Tag Scheduled projects]** select tags and select **[!UICONTROL Save]** to save. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Approve the selected scheduled projects. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Export the selected scheduled projects to a file named `Export Scheduled Projects List.csv`. |

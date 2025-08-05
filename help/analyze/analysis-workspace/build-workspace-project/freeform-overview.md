@@ -75,7 +75,7 @@ You can take actions on one or more projects using the context menu ![More](/hel
 | Icon |Action  | Description |
 |:---:| ---|---|
 | ![CrossSize75](/help/assets/icons/Close.svg)| **[!UICONTROL *x* selected]** | Unselect your selected projects and folders and remove the blue action bar. |
-| ![Delete](/help/assets/icons/Delete.svg) |**[!UICONTROL Delete]** | Delete one or more projects or folders. You are prompted for a confirmation. |
+| ![Delete](/help/assets/icons/Delete.svg) |**[!UICONTROL Delete]** | Delete one or more projects or folders. You are prompted for a confirmation. <p>Projects that you delete:</p><ul><li>Cannot be recovered</li><li>Are removed from the project list</li><li>Can no longer be accessed with their URL</li><li>Are no longer included in scheduled deliveries (in cases where they were previously configured for scheduled deliveries)<br/>For information about scheduled deliveries, see [Scheduled projects](/help/components/scheduled-projects-manager.md).  </p> |
 | ![Share](/help/assets/icons/ShareAlt.svg) |**[!UICONTROL Share]** | Share a project. See [Share a project](/help/analyze/analysis-workspace/curate-share/share-projects.md) for more information. |
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a project. Opens a **[!UICONTROL Rename: *project name dialog*]**. Enter a new name and select **[!UICONTROL Save]**. |
 | ![Copy](/help/assets/icons/Copy.svg)| **[!UICONTROL Copy]** | Copy one or more projects. Project do get the same name and suffix `(Copy)`. |

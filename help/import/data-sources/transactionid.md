@@ -23,10 +23,9 @@ Transaction ID data sources have the following properties:
 * The online data must be collected and processed first. If a transaction ID data source is uploaded before a report suite processes a hit matching that transaction ID, the data is not linked.
 * Transaction ID's collected through AppMeasurement expire after 25 months.
 * Data sources uploaded with an expired transaction ID are treated similarly to data uploaded without a transaction ID.
-* If the same variable is included in both the online hit and the transaction ID data source, the value from the transaction ID data source is used.
+* If the same variable is included in both the online hit and the transaction ID data source, the value from the transaction ID data source is used in the transaction data source hit.
 * If a variable is included in an online hit but not in a matching transaction ID data source hit, the online hit variable is preserved.
 * If you set the same transaction ID on multiple online hits, only the first occurrence is altered with data from a matching transaction ID data source.
-* If you set the same transaction ID on multiple data source rows for the same dimensions, the latest dimension item is used.
 
 For example:
 

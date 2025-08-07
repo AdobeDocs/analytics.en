@@ -6,9 +6,9 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
 # Current Adobe Analytics release notes (July 2025 release)
 
-**Last update**: July 30, 2025
+**Last update**: August 13, 2025
 
-These release notes cover the release period of August 16 through September 16, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of August 13 through September 16, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
@@ -32,6 +32,7 @@ These release notes cover the release period of August 16 through September 16, 
 **Reporting**: AN-390398
 **Scheduled reports**: 
 **Segment comparison**: 
+**API**: AN-388180
 
 
 ## End-of-life (EOL) notices {#eol}

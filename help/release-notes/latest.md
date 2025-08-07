@@ -21,18 +21,17 @@ These release notes cover the release period of August 13 through September 16, 
 
 ## Fixes in Adobe Analytics
 
-**Activity Map**: AN-389205
-**Analysis Workspace**: AN-390102; AN-389066; AN-388841; AN-388687; AN-388478
-**Classifications**: AN-390442; AN-390385; AN-389953; AN-389703; AN-389321; AN-389116; AN-388833; AN-388717
+**Activity Map**: AN-389205; AN-384186
+**Analysis Workspace**: AN-390102; AN-389066; AN-388841; AN-388687; AN-388478; AN-387089; AN-387044; AN-384560; AN-379213; AN-351639
+**Classifications**: AN-390442; AN-390385; AN-389953; AN-389703; AN-389321; AN-389116; AN-388833; AN-388717; AN-387987; AN-383329
 **Data collection**: AN-389320
-**Data Feeds and Data Warehouse**: AN-389702
-**Platform**: 
+**Data Feeds and Data Warehouse**: AN-389702; AN-388136; AN-387779; AN-384369; AN-383075; AN-380307
 **Privacy**: 
-**Report Builder**: AN-389336
+**Report Builder**: AN-389336; AN-382775
 **Reporting**: AN-390398
 **Scheduled reports**: 
 **Segment comparison**: 
-**API**: AN-388180
+**Other**: AN-388180; AN-383164; AN-366532
 
 
 ## End-of-life (EOL) notices {#eol}

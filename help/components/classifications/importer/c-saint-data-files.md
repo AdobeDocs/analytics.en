@@ -6,6 +6,8 @@ exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 ---
 # Classification data files (legacy)
 
+{{classification-importer-deprecation}}
+
 The importer lets you bulk-upload classifications data to analytics reporting in a file. The import requires a specific file format for successful data uploads.
 
 To help you create valid data files, you can download a template file that provides a file structure into which you can paste the classifications data. For more information, see [Download Classifications Template](/help/components/classifications/importer/c-download-saint-data.md).

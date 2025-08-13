@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **August 2025**| |
+| Deprecation warnings | Added deprecation warnings to articles in the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md) and [Classification importer](/help/components/classifications/importer/c-working-with-saint.md) sections. | 
 | **July 2025** | |
 | Processing rules| The documentation for processing rules has been fully redone, providing more details on the interface and current use cases. |
 | Debugger | New article on how to enable, use and disable the project debugger in Analysis Workspace. |

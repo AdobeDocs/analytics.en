@@ -6,6 +6,8 @@ exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 ---
 # Subclassifications
 
+{{classification-importer-deprecation}}
+
 Adobe Analytics supports both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
 
 >[!NOTE]

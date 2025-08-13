@@ -6,6 +6,8 @@ exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 ---
 # Delete classification data
 
+{{classification-importer-deprecation}}
+
 Sometimes it is necessary to remove classification data after it is uploaded. Use either `~empty~` or `~deletekey~`, depending on what you want to remove.
 
 ## Steps to remove classification data

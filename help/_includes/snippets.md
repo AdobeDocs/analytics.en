@@ -180,3 +180,21 @@ Use the following information to choose the visualization that best meets your n
 | Applied date range | Description |
 |---|---|
 | ![Date range](/help/assets/filter-daterange.png){width="300"} | The Applied date range section let you filter on a date range applicable to the items.<ol><li>Select a date range.</li><li>In the calendar popup define a date range, or select one of the available presets.<br>Alternatively, you can also specify a date range directly in the Date range section of the Filter panel.</li></ol><ul><li>The numbers indicate:<ul><li>**(1)**: The number of modified date ranges modified from default presets.</li><li>**5︎⃣**: The number of date ranges available for the items resulting from the current filter.</li></ul> |
+
+
+## Classification importer deprecation {#classification-importer-deprecation}
+
+>[!WARNING]
+>
+>Classification importer is deprecated and will no longer be accessible after **August 31, 2026**. Please switch to the [Classification sets](/help/components/classifications/sets/overview.md) experience to ensure continued functionality.
+>
+
+
+
+## Classification Rule Builder deprecation {#classification-rulebuilder-deprecation}
+
+>[!WARNING]
+>
+>Classification rule builder is deprecated and will no longer be accessible after **August 31, 2026**. Please switch to the [Classification sets](/help/components/classifications/sets/overview.md) experience to ensure continued functionality.
+>
+

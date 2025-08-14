@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="d" data-name="ICONS" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20">
+  <path d="M14.49219,13.50684l-1.5-.00781c.01172-2.46875,2.0293-4.47754,4.49805-4.47754v1.5c-1.64551,0-2.99023,1.33887-2.99805,2.98535Z" fill="var(--iconPrimary, #222)" opacity=".35" stroke-width="0"/>
+  <path d="M17.49023,18.02148c-2.48145,0-4.5-2.01855-4.5-4.5h1.5c0,1.6543,1.3457,3,3,3s3-1.3457,3-3-1.3457-3-3-3v-1.5c2.48145,0,4.5,2.01855,4.5,4.5s-2.01855,4.5-4.5,4.5Z" fill="var(--iconBluePrimary, #0265dc)" stroke-width="0"/>
+</svg>

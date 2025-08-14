@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="M19.26172,3.97314l-1.72852-1.75c-.13965-.1416-.33008-.22168-.52832-.22314-.2207-.02148-.39062.07617-.53223.21631l-1.77148,1.75c-.29395.29102-.29688.76611-.00586,1.06055.14648.14893.33984.22314.5332.22314.19043,0,.38086-.07227.52734-.21631l.49414-.48846v12.70477c0,.41406.33594.75.75.75s.75-.33594.75-.75V4.57629l.44531.45056c.29102.2959.76562.29736,1.06055.00684.29395-.29102.29688-.76611.00586-1.06055Z" fill="var(--iconPrimary, #222)"/>
+  <rect x="10" y="15" width="3" height="3" rx="1" ry="1" transform="translate(-5 28) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <rect x="6" y="15" width="3" height="3" rx="1" ry="1" transform="translate(-9 24) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <rect x="10" y="11.00172" width="3" height="3" rx="1" ry="1" transform="translate(-1.00172 24.00172) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <rect x="6" y="11.00172" width="3" height="3" rx="1" ry="1" transform="translate(-5.00172 20.00172) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <rect x="2" y="11" width="3" height="3" rx="1" ry="1" transform="translate(-9 16) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <rect x="2" y="15" width="3" height="3" rx="1" ry="1" transform="translate(-13 20) rotate(-90)" fill="var(--iconPrimary, #222)"/>
+  <path d="M10.75,9.5h-6.5c-1.24023,0-2.25-1.00928-2.25-2.25v-3c0-1.24072,1.00977-2.25,2.25-2.25h6.5c1.24023,0,2.25,1.00928,2.25,2.25v3c0,1.24072-1.00977,2.25-2.25,2.25ZM4.25,3.5c-.41309,0-.75.33643-.75.75v3c0,.41357.33691.75.75.75h6.5c.41309,0,.75-.33643.75-.75v-3c0-.41357-.33691-.75-.75-.75h-6.5Z" fill="var(--iconPrimary, #222)"/>
+</svg>

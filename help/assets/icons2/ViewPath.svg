@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="e" data-name="ICONS" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle cx="16.70438" cy="14.42634" r="1.25" fill="var(--iconPrimary, #222)"/>
+  <circle cx="12.70438" cy="14.42634" r="1.25" fill="var(--iconPrimary, #222)"/>
+  <circle cx="8.70438" cy="14.42634" r="1.25" fill="var(--iconPrimary, #222)"/>
+  <path d="M2.68555,17.72852c-.05273,0-.10547-.00488-.1582-.0166-.40527-.08691-.66309-.48535-.57617-.89062L4.95117,2.82129c.08691-.40527.49316-.66309.89062-.57617.40527.08691.66309.48535.57617.89062l-3,14c-.0752.35156-.38672.59277-.73242.59277Z" fill="var(--iconPrimary, #222)"/>
+</svg>

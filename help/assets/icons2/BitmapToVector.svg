@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="M11,18.24348s7-.85696,7-8.24348c0-7.27418-7-8.23853-7-8.23853v16.48201Z" fill="var(--iconPrimary, #222)" opacity=".35"/>
+  <rect x="1" y="11" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)"/>
+  <rect x="1" y="6" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)"/>
+  <rect x="6" y="16" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)"/>
+  <rect x="5.99828" y="11" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <rect x="5.99828" y="6" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <rect x="6" y="1" width="3" height="3" rx="1" ry="1" fill="var(--iconPrimary, #222)"/>
+  <path d="M11.74951,19.00391c-.33838,0-.64551-.23047-.72852-.57324-.09717-.40332.1499-.80859.55273-.90527,3.48926-.84375,5.92627-3.93848,5.92627-7.52539s-2.43701-6.68164-5.92627-7.52539c-.40283-.09668-.6499-.50195-.55273-.90527.09717-.40137.50049-.65137.90527-.55176,4.16504,1.00684,7.07373,4.7002,7.07373,8.98242s-2.90869,7.97559-7.07373,8.98242c-.05908.01465-.11865.02148-.17676.02148Z" fill="var(--iconPrimary, #222)"/>
+</svg>

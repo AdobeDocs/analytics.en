@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="b" x1="-.05169" y1="10" x2="16.95203" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--iconPrimary, #222)"/>
+      <stop offset=".02361" stop-color="color-mix(in srgb, var(--iconPrimary, #222), var(--iconPrimary, rgba(34, 34, 34, 0)) 3.19787%)" stop-opacity=".96802"/>
+      <stop offset=".62746" stop-color="color-mix(in srgb, var(--iconPrimary, #222), var(--iconPrimary, rgba(34, 34, 34, 0)) 73.90055%)" stop-opacity=".26099"/>
+      <stop offset="1" stop-color="var(--iconPrimary, #222)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="14" height="14" rx="6.99999" ry="6.99999" fill="url(#b)"/>
+  <path d="M10,17.25c-3.99805,0-7.25-3.25195-7.25-7.25s3.25195-7.25,7.25-7.25,7.25,3.25195,7.25,7.25-3.25195,7.25-7.25,7.25ZM10,4.25c-3.1709,0-5.75,2.5791-5.75,5.75s2.5791,5.75,5.75,5.75,5.75-2.5791,5.75-5.75-2.5791-5.75-5.75-5.75Z" fill="var(--iconPrimary, #222)"/>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="m15.75,18H4.25c-1.24023,0-2.25-1.00977-2.25-2.25V4.25c0-1.24023,1.00977-2.25,2.25-2.25h11.5c1.24023,0,2.25,1.00977,2.25,2.25v11.5c0,1.24023-1.00977,2.25-2.25,2.25ZM4.25,3.5c-.41309,0-.75.33691-.75.75v11.5c0,.41309.33691.75.75.75h11.5c.41309,0,.75-.33691.75-.75V4.25c0-.41309-.33691-.75-.75-.75H4.25Z" fill="var(--iconPrimary, #222)"/>
+  <path d="m12.375,12.975v-.7c0-.22091.19898-.4.44444-.4h2.11111c.24546,0,.44444.17909.44444.4v.7c0,.22091-.19898.4-.44444.4h-2.11111c-.24546,0-.44444-.17909-.44444-.4Z" fill="var(--iconPrimary, #222)"/>
+  <rect x="4.5" y="5" width="1" height="3" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+  <rect x="12" y="5.5" width="1" height="2.5" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+  <rect x="6.5" y="7" width="1.75" height="2.75" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+  <rect x="9.25" y="10.25" width="1.5" height="4.5" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+  <rect x="5.375" y="13.5" width="1.25" height="2" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+  <rect x="14" y="4" width="1.5" height="2.25" rx=".5" ry=".5" fill="var(--iconPrimary, #222)"/>
+</svg>

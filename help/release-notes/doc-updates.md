@@ -11,7 +11,7 @@ mini-toc-levels: 3
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
 * For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
-* For information on the Streaming Media Collection, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* For information on Adobe streaming media services, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
 
@@ -61,7 +61,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Updated documentation for managing data feeds | Updated information in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md) to improve clarity. <p>Updates include:</p><ul><li>Created separate sections for various tasks in order to make the information easier to scan and consume.</li><li>Added information about changes to the behavior of live feeds that are reactivated. These changes are currently in Limited Availability and are not yet available to all customers.</li><li>Added information stating that data feeds must have a status of Active before they can be deleted.</li>  | 
 | Updated common error messages | Made minor updates to the [common error messages](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **June 2024** | |
-| Updated product name that refers to streaming media features | Replaced instances of "Media Analytics" and "Streaming Media" with the name "Streaming Media Collection Add-on" and "Streaming Media Collection" when referring to the set of streaming media features that collect streaming media data and surface it in Analysis Workspace. <p>These updates are available throughout the Adobe Analytics documentation as well as the [Streaming Media Collection documentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
+| Updated product name that refers to streaming media services features | Replaced instances of "Media Analytics" and "Streaming Media" with the name "Streaming Media Collection Add-on" and "Streaming Media Collection" when referring to the set of streaming media features that collect streaming media data and surface it in Analysis Workspace. <p>These updates are available throughout the Adobe Analytics documentation as well as the [Streaming Media Collection documentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).</p> |
 | Improved alerts documentation | Updated and improved documentation about alerts. These updates include information about [creating alerts](/help/components/c-alerts/alert-builder.md), [managing alerts](/help/components/c-alerts/alert-manager.md), and [overview information](/help/components/c-alerts/intellligent-alerts.md). |
 | Deprecated `cookieDomainPeriods` | Now that AppMeasurement automatically detects the correct domain to set cookies on, the [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) variable is deprecated. | 
 | Retire Data Connectors documentation | Moved the Data Connectors end-of-life page to [Discontinued products](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |

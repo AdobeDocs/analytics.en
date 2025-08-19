@@ -1,12 +1,12 @@
 ---
-title: Streaming Media audio metadata dimensions
+title: Streaming media services audio metadata dimensions
 description: Available dimensions when you enable [!UICONTROL Audio Metadata] for a report suite.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
 ---
-# Streaming Media audio metadata dimensions
+# Streaming media services audio metadata dimensions
 
-Streaming Media ad dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
+Streaming media services ad dimensions provide supplemental reporting functionality to data collection through Streaming media services libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Audio Metadata]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
 

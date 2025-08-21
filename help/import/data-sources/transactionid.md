@@ -1,6 +1,6 @@
 ---
 title: Transaction ID data sources
-description: Store values from an online hit to enrich offline hits using a shared transaction ID.
+description: Use stored values from an online hit to enrich offline hits that share a transaction ID.
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
@@ -26,7 +26,7 @@ When you send an online hit that contains the `transactionID` implementation var
 * [Days before first purchase](/help/components/dimensions/days-before-first-purchase.md)
 * [Days since last purchase](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Feature-specific dimensions enabled in [Report suite settings](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)
+* Feature-specific dimensions enabled in [Report suite settings](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) that behave similarly to eVars. Feature-specific dimensions that behave similarly to props are not included.
 * [List variables](/help/implement/vars/page-vars/list.md)
 * [Marketing channel](/help/components/dimensions/marketing-channel.md)
 * [Marketing channel detail](/help/components/dimensions/marketing-detail.md)

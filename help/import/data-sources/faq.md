@@ -1,13 +1,13 @@
 ---
 title: Data sources FAQ
-description: Frequently asked questions around data sources.
+description: Frequently asked questions about data sources.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
 ---
 # Data sources FAQ
 
-Frequently asked questions around data sources.
+Frequently asked questions about data sources.
 
 +++What is the cost to use data sources?
 Data sources do not incur any charges, nor do they count towards server call usage. [Full processing data sources](full-processing-eol.md) counted towards server calls before their retirement.
@@ -50,5 +50,5 @@ You can include as many columns to a data source file as you'd like, if they are
 +++
 
 +++Can I use data sources without using the Adobe-provided FTP location?
-You can use the [Data sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), which allows you to send API calls directly to Adobe. These API calls include an `UploadData` method, which allows you to send data by a JSON object payload.
+You can use the [Data Sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), which allows you to send API calls directly to Adobe. These API calls include an `UploadData` method, which allows you to send data by a JSON object payload.
 +++

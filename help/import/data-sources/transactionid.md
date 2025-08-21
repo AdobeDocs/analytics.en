@@ -7,7 +7,7 @@ role: Admin
 ---
 # Transaction ID data sources
 
-Transaction ID data sources are a variation of summary data sources that let you apply values saved from an online hit to offline rows that share the same transactionID. This approach is useful when you capture a transaction online but receive details later from another system. Primary examples include product returns, booking cancellations, or outcomes from call center interactions.
+Transaction ID data sources are a variation of summary data sources that let you apply values saved from an online hit to offline rows that share the same transaction ID. This approach is useful when you capture a transaction online but receive details later from another system. Primary examples include product returns, booking cancellations, or outcomes from call center interactions.
 
 >[!NOTE]
 >

@@ -14,28 +14,31 @@ Data sources do not incur any charges, nor do they count towards server call usa
 +++
 
 +++How do data sources impact attribution and expiration for eVars?
-If a transactionID matches between a data source and an online hit, the associated eVar values assume the same attribution and expiration as if they were set on the online hit.
-
-All other data uploaded through data sources do not have any kind of attribution or expiration.
+Data sources do not have any kind of attribution or expiration.
 +++
 
-+++How do data sources impact default metrics, such as page views, visits, or unique visitors?
++++How do data sources impact metrics like page views, visits, or unique visitors?
 Data uploaded through data sources do not impact [Page views](/help/components/metrics/page-views.md), [Visits](/help/components/metrics/visits.md), or [Unique visitors](/help/components/metrics/unique-visitors.md) in any way. The only default metric that they impact includes [Occurrences](/help/components/metrics/occurrences.md).
 +++
 
-+++Can I delete data that was imported using data sources?
++++Does data uploaded through data sources run through additional processing, like processing rules?
+No. Data uploaded through data sources:
 
-Yes. You can delete this data using the [Data Repair API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). In addition, Adobe strongly recommends uploading data sources data into a test report suite before uploading it into a production report suite.
+* Does not go through [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+* Does not go through [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* Does not go through [VISTA rules](/help/technotes/vista.md)
++++
+
++++Can I delete data that was imported using data sources?
+Yes. You can delete this data using the [Data Repair API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe strongly recommends uploading data sources data into a test report suite before uploading it into a production report suite to mitigate the need to remove data.
 +++
 
 +++How much data can I import at a time?
-
 Processing pauses if the size exceeds 50 MB and does not resume until the total is below 50 MB. Make sure that the total size of all files on the FTP site is less than 50 MB.
 +++
 
 +++What happens if I pass negative values into reporting through data sources?
-
-The value is decreased accordingly. Some organizations use negative data source values to attempt to correct data. Negative data source values can impact reports in potentially undesired or unexpected ways. Adobe recommends using negative data sources only as a last resort.
+The value is decreased accordingly. Some organizations use negative data source values to attempt to correct data. Negative data source values can impact reports in potentially undesired or unexpected ways. Adobe recommends using negative values in data sources only as a last resort.
 +++
 
 +++Are file extensions case-sensitive?

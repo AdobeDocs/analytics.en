@@ -18,9 +18,9 @@ Transaction ID data sources are a variation of summary data sources that let you
 The concept of transaction IDs require two parts:
 
 * **Online hit**: Any full Analytics hit sent to a report suite (AppMeasurement, Web SDK, API, etc). On this hit, you set the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) implementation variable.
-* **Offline hit**: A row uploaded through data sources that contains the same transaction ID as an online hit.
+* **Offline hit**: A row uploaded through data sources. Within the file, include the `transactionID` column with a value that matches an online hit.
 
-When you send an online hit that contains a transaction ID, Adobe takes a "snapshot" of the following dimensions that were set or persisted at that point:
+When you send an online hit that contains the `transactionID` implementation variable, Adobe takes a "snapshot" of the following dimensions that were set or persisted at that point:
 
 * [Category](/help/components/dimensions/category.md)
 * [Days before first purchase](/help/components/dimensions/days-before-first-purchase.md)
@@ -58,4 +58,4 @@ Transaction ID data sources have the following properties:
 * Data sources uploaded with an expired transaction ID are treated similarly to data uploaded without a transaction ID.
 * If you set the same transaction ID on multiple online hits, only the first occurrence's "snapshot" is used. Subsequent duplicate transaction ID online hits are processed as if they did not have a transaction ID.
 * Once you populate a given `transactionID` value, the associated "snapshot" is considered immutable until that transaction ID expires. 
-* If you set the same transaction ID on multiple data source rows, any available dimensions from the online hit are appended to the offline hit. Offline hits for the same transaction ID do not know anything about each other; data is not passed between offline hits.
+* If you set the same transaction ID on multiple data source rows, any available dimensions from the online hit are appended to each offline hit. Offline hits for the same transaction ID do not know anything about each other; data is not passed between offline hits.

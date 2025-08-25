@@ -27,7 +27,7 @@ In Freeform tables, a total row appears at each breakdown level and can show two
 Under ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Column settings]**, there are options to **[!UICONTROL Show totals]** and **[!UICONTROL Show grand total]**. If these settings are unchecked, totals are removed from the table, which may be desired in cases where totals don't make sense.
 
 
-[Static row](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) totals behave differently, and are controlled using ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
+In a freeform table that contains [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md), totals behave differently. And are controlled using ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Row Settings]**.
 
 | Option | Description |
 |---|---|

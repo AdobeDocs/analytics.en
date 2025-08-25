@@ -60,7 +60,7 @@ AIGenReferenceImageSelectedBlue.svg
 AIGenRefresh.svg
 AIGenRevenue.svg
 AIGenRewrite.svg
-AIGenSearch 2.svg
+AIGenSearch-2.svg
 AIGenSearch.svg
 AIGenShield.svg
 AIGenStickers.svg
@@ -239,25 +239,25 @@ BadgeLayerGroup.svg
 BadgeLinked.svg
 BadgeListRefresh.svg
 BadgeLocked.svg
-BadgeMask 2.svg
+BadgeMask-2.svg
 BadgeMask.svg
 BadgeMaskNo.svg
 BadgeMissingGeneral.svg
 BadgeOnCanvasLocked.svg
 BadgeOnCanvasUnsupportedFormat.svg
-BadgePattern 2.svg
+BadgePattern-2.svg
 BadgePattern.svg
 BadgePendingFeature.svg
 BadgePixel.svg
 BadgeSmartObjEmbedded.svg
 BadgeSmartObjectExtFileMissing.svg
-BadgeSmartObjectExternal 2.svg
+BadgeSmartObjectExternal-2.svg
 BadgeSmartObjectExternal.svg
-BadgeSmartObjectInternal 2.svg
+BadgeSmartObjectInternal-2.svg
 BadgeSmartObjectInternal.svg
 BadgeSmartObjectMissing.svg
 BadgeSolidFill.svg
-BadgeType 2.svg
+BadgeType-2.svg
 BadgeType.svg
 BadgeUnsupported.svg
 BadgeVector.svg
@@ -268,12 +268,12 @@ BeakerArrowUp.svg
 BeatDetection.svg
 Bed.svg
 BeforeAndAfter.svg
-Bell 2.svg
+Bell-2.svg
 Bell.svg
 BellRotated.svg
 Benefits.svg
 Beta.svg
-BetaApp 2.svg
+BetaApp-2.svg
 BetaApp.svg
 BezierOutline.svg
 BidRule.svg
@@ -428,7 +428,7 @@ ChartVenn.svg
 Chat.svg
 CheckBox.svg
 CheckboxMixedState.svg
-Checkmark 2.svg
+Checkmark-2.svg
 Checkmark.svg
 CheckmarkCircle.svg
 CheckmarkCircleFilled.svg
@@ -485,22 +485,22 @@ CloudGapProgressCircleDeterminate17.svg
 CloudGapProgressCircleDeterminate18.svg
 CloudGapProgressCircleDeterminate19.svg
 CloudGapProgressCircleDeterminate20.svg
-CloudStateCheckmark 2.svg
+CloudStateCheckmark-2.svg
 CloudStateCheckmark.svg
 CloudStateDefault.svg
-CloudStateDisconnected 2.svg
+CloudStateDisconnected-2.svg
 CloudStateDisconnected.svg
-CloudStateError 2.svg
+CloudStateError-2.svg
 CloudStateError.svg
-CloudStateInProgress 2.svg
+CloudStateInProgress-2.svg
 CloudStateInProgress.svg
-CloudStateOnline 2.svg
+CloudStateOnline-2.svg
 CloudStateOnline.svg
-CloudStatePaused 2.svg
+CloudStatePaused-2.svg
 CloudStatePaused.svg
-CloudStatePending 2.svg
+CloudStatePending-2.svg
 CloudStatePending.svg
-CloudStateSlowConnection 2.svg
+CloudStateSlowConnection-2.svg
 CloudStateSlowConnection.svg
 CloudStateSlowConnectionOrange.svg
 CloudStatusDisconnected.svg
@@ -535,7 +535,7 @@ ColumnAdd.svg
 ColumnSettings.svg
 ColumnSubtract.svg
 ComicStrip.svg
-Comment 2.svg
+Comment-2.svg
 Comment.svg
 CommentAdd.svg
 CommentAuto.svg
@@ -645,7 +645,7 @@ DataStreams.svg
 DataTag.svg
 DataUpload.svg
 DecisionItems.svg
-DecisionItemsConfiguration 2.svg
+DecisionItemsConfiguration-2.svg
 DecisionItemsConfiguration.svg
 Dehaze.svg
 Delete.svg
@@ -668,14 +668,14 @@ DeviceDesktopMobile.svg
 DeviceLaptop.svg
 DeviceMobile.svg
 DeviceMultiscreen.svg
-DevicePhone 2.svg
+DevicePhone-2.svg
 DevicePhone.svg
 DeviceTablet.svg
 Diamond.svg
 DictionaryAdd.svg
 DirectSelect.svg
 Discord.svg
-Discover 2.svg
+Discover-2.svg
 Discover.svg
 DistributeBottomEdge.svg
 DistributeHorizontalCenter.svg
@@ -799,11 +799,11 @@ FireflyBoards.svg
 FireflyBoardsAdd.svg
 FireflyModelTraining.svg
 Flag.svg
-FlagCheckmark 2.svg
+FlagCheckmark-2.svg
 FlagCheckmark.svg
 FlagCheckmark6.svg
-FlagCross 2.svg
-FlagCross 3.svg
+FlagCross-2.svg
+FlagCross-3.svg
 FlagCross.svg
 FlagFilled.svg
 Flash.svg
@@ -816,14 +816,14 @@ FlipHorizontal.svg
 FlipVertical.svg
 FlyCamera.svg
 Flyer.svg
-Folder 2.svg
+Folder-2.svg
 Folder.svg
 FolderAdd.svg
 FolderArchive.svg
 FolderBreadcrumb.svg
 FolderClock.svg
 FolderMoveTo.svg
-FolderOpen 2.svg
+FolderOpen-2.svg
 FolderOpen.svg
 FolderSearch.svg
 FontPicker.svg
@@ -841,7 +841,7 @@ GenerativeCredits.svg
 GenerativeCreditsFilled.svg
 GenerativeCreditsUnlimited.svg
 Gif.svg
-Gift 2.svg
+Gift-2.svg
 Gift.svg
 Glideshow.svg
 GlobeGrid.svg
@@ -884,11 +884,11 @@ GuidesUnlocked.svg
 Hand.svg
 Heal.svg
 HealSpot.svg
-Heart 2.svg
+Heart-2.svg
 Heart.svg
 Heart6.svg
 HeartFilled.svg
-HelpCircle 2.svg
+HelpCircle-2.svg
 HelpCircle.svg
 Highlights.svg
 History.svg
@@ -901,7 +901,7 @@ Idea.svg
 Identity.svg
 IdentityService.svg
 Image.svg
-ImageAdd 2.svg
+ImageAdd-2.svg
 ImageAdd.svg
 ImageAlbum.svg
 ImageAltText.svg
@@ -918,7 +918,7 @@ ImageFilter.svg
 ImageGallery.svg
 ImageGalleryAdd.svg
 ImageNetwork.svg
-ImageOrganize 2.svg
+ImageOrganize-2.svg
 ImageOrganize.svg
 ImagePoorQuality.svg
 ImagePortrait.svg
@@ -930,22 +930,22 @@ ImageText.svg
 ImageToVideo.svg
 ImageWide16to9.svg
 Images.svg
-Import 2.svg
+Import-2.svg
 Import.svg
 Inbox.svg
 InflateDeflate.svg
-InfoCircle 2.svg
+InfoCircle-2.svg
 InfoCircle.svg
 InfoCircleBlue.svg
-InfoShow 2.svg
+InfoShow-2.svg
 InfoShow.svg
 Instagram.svg
-Interaction 2.svg
+Interaction-2.svg
 Interaction.svg
 IntersectOverlap.svg
 Invert.svg
 Invitation.svg
-Invite 2.svg
+Invite-2.svg
 Invite.svg
 Journal.svg
 Journey.svg
@@ -1025,10 +1025,10 @@ ListNumbered.svg
 ListSingleSelect.svg
 Location.svg
 LocationAuto.svg
-Lock 2.svg
+Lock-2.svg
 Lock.svg
 LockBlue.svg
-LockOpen 2.svg
+LockOpen-2.svg
 LockOpen.svg
 LockSwitch.svg
 Logo.svg
@@ -1080,7 +1080,7 @@ MicrosoftTeams.svg
 Midtones.svg
 Minimize.svg
 MixModeler.svg
-Model 2.svg
+Model-2.svg
 Model.svg
 ModelCustom.svg
 ModelStyle.svg
@@ -1088,7 +1088,7 @@ ModelSubject.svg
 ModelTest.svg
 ModelVersion.svg
 Monitoring.svg
-More 2.svg
+More-2.svg
 More.svg
 MoreVertical.svg
 Mouse.svg
@@ -1188,7 +1188,7 @@ PlaceInto.svg
 Placeholder.svg
 PlacesServices.svg
 Play.svg
-PlayCircle 2.svg
+PlayCircle-2.svg
 PlayCircle.svg
 Plugin.svg
 PluginGear.svg
@@ -1272,7 +1272,7 @@ QRStyleDot.svg
 QRStyleRound.svg
 QRStyleSquare.svg
 Question.svg
-QuickDrawSweepControll 2.svg
+QuickDrawSweepControll-2.svg
 QuickDrawSweepControll.svg
 QuickSelect.svg
 QuickSelectAdd.svg
@@ -1327,7 +1327,7 @@ Reframe.svg
 Refresh.svg
 RefreshAlert.svg
 ReleaseNotes.svg
-Remix 2.svg
+Remix-2.svg
 Remix.svg
 Remove.svg
 RemoveCircle.svg
@@ -1358,11 +1358,11 @@ RevenueMoney.svg
 Revert.svg
 ReviewApprove.svg
 ReviewLink.svg
-Ribbon 2.svg
+Ribbon-2.svg
 Ribbon.svg
-RibbonCheckmark 2.svg
+RibbonCheckmark-2.svg
 RibbonCheckmark.svg
-RibbonStar 2.svg
+RibbonStar-2.svg
 RibbonStar.svg
 RocketQuickActions.svg
 RotateAxisX.svg
@@ -1396,12 +1396,12 @@ Schema.svg
 ScopeIn.svg
 ScopeOut.svg
 Script.svg
-Search 2.svg
+Search-2.svg
 Search.svg
 SearchSocialCommerce.svg
 Security.svg
 SegementationBlocksCenterAligned.svg
-Segmentation 2.svg
+Segmentation-2.svg
 Segmentation.svg
 SegmentationBlocks.svg
 SegmentationBlocksLeftAligned.svg
@@ -1444,7 +1444,7 @@ Server.svg
 ServerLaunch.svg
 Services.svg
 SetCustomPoint.svg
-Settings 2.svg
+Settings-2.svg
 Settings.svg
 SettingsAdd.svg
 SettingsFromPrevious.svg
@@ -1456,8 +1456,8 @@ ShapeFlatten.svg
 ShapePolish.svg
 Shapes.svg
 ShapesAdd.svg
-Share 2.svg
-Share 3.svg
+Share-2.svg
+Share-3.svg
 Share.svg
 ShareAndroid.svg
 Sharpen.svg
@@ -1531,9 +1531,9 @@ StSolid.svg
 StampClone.svg
 StampCloneAdd.svg
 StampCloneSource.svg
-Star 2.svg
+Star-2.svg
 Star.svg
-StarFilled 2.svg
+StarFilled-2.svg
 StarFilled.svg
 StarSmall.svg
 StatisticGraphic.svg
@@ -1576,7 +1576,7 @@ SubtractFrom.svg
 SucessMetric.svg
 Support.svg
 Switch.svg
-SwitchVertical 2.svg
+SwitchVertical-2.svg
 SwitchVertical.svg
 Symmetry.svg
 SymmetryKaleidoscope.svg
@@ -1775,7 +1775,7 @@ UploadToCloud.svg
 User.svg
 UserAdd.svg
 UserApproval.svg
-UserAvatar 2.svg
+UserAvatar-2.svg
 UserAvatar.svg
 UserAvatarCursor.svg
 UserAvatarDNA.svg
@@ -1904,4 +1904,7 @@ ZoomInAndPan.svg
 ZoomOut.svg
 ZoomSymbol.svg
 ZoomToFit.svg
+_icons.html
+_icons.md
+_icons.pdf
 icons.txt

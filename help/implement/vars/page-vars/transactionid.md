@@ -7,15 +7,13 @@ role: Admin, Developer
 ---
 # transactionID
 
-The `transactionID` variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. This variable is valuable in cases where you want to use data from other channels and link it to data collected with AppMeasurement.
+The `transactionID` variable uniquely identifies a transaction so that the hit can provide dimension values to data uploaded through [Transaction ID data sources](/help/import/data-sources/transactionid.md). This variable is valuable in cases where you want to fill out offline channel data with values collected from online channel data.
 
 >[!NOTE]
 >
 >Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide for more information.
 
-When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. Data uploaded through Data Sources with a matching transaction ID is permanently tied to those variable values.
-
-Adobe remembers all transaction ID values (linked and unlinked) for up to 25 months. 
+When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. See [Transaction ID data sources](/help/import/data-sources/transactionid.md) for the list of dimensions included in the snapshot. Adobe remembers all transaction ID values (linked and unlinked) for up to 25 months. 
 
 ## Transaction ID using the Web SDK
 

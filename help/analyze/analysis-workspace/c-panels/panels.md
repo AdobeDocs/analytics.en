@@ -71,6 +71,18 @@ You can:
 * Select ![AddCircle](/help/assets/icons/AddCircle.svg) **outside** the last panel in your workspace to add another [Blank panel](blank-panel.md).
 
 
+## Manage a panel
+
+You can manage a panel in the following ways:
+
+![Manage panel](assets/manage-panel.png)
+
+* To collapse a panel, select ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* To reveal a collapsed panel, select ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* To delete a panel, select ![CrossSize400](/help/assets/icons/CrossSize200.svg). To undo, select **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z*]** | **[!UICONTROL *ctrl+z*]**).
+* To move a panel, drag and drop the panel whenever a ![Move](/help/assets/icons/Move.svg) is visible (ususally when you hover over the header).
+
+
 ## Report suite
 
 Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.

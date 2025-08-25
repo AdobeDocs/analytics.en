@@ -36,7 +36,7 @@ _This article documents the Media concurrent viewers panel in_ ![AdobeAnalytics]
 
 >[!NOTE]
 >
->The Media average minute audience panel is available only to customers who have purchased the Streaming Media Collection Add-on for Adobe Analytics. 
+>The Media average minute audience panel is available only to customers who have purchased the Adobe Analytics for Streaming Media Add-on. 
 >
 >Contact your Adobe Sales representative or Adobe account team for more information. 
 >
@@ -62,7 +62,7 @@ To use an **[!UICONTROL Media concurrent viewers]** panel:
 
 1. Create a **[!UICONTROL Media concurrent viewers]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).  
 
-1. Ensure you select a data view for the panel that has components configured from the Streaming Media Collection.
+1. Ensure you select a data view for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
 
 1. Specify the [input](#panel-input) for the panel.
 

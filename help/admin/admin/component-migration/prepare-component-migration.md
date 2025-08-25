@@ -93,10 +93,6 @@ The following visualizations and panels are not supported in Customer Journey An
 
 Remove these elements from the Adobe Analytics project before migrating the project to Customer Journey Analytics. If a migration fails, remove these elements before retrying the migration.
 
-### Unsupported Visualizations
-
-* [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
-
 ### Unsupported Panels
 
 * [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
@@ -113,13 +109,13 @@ Remove these elements from the Adobe Analytics project before migrating the proj
 
 ## Decide as an organization how you will map components
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >The migration process identifies components in your Adobe Analytics project that can't be automatically mapped to components in Customer Journey Analytics, and it allows you to manually map them. 
 >
->**Any mappings made on one project apply to all future projects across your entire IMS org, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.** 
+>**Any mappings made on one project apply to all future projects across your entire IMS org, regardless of which user is performing the migration. These mappings can be updated when migrating future projects.** 
 >
->Because of this, it's important that your organization decides how dimensions and metrics will be mapped before any projects are migrated. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
+>It's important that your organization decides how dimensions and metrics will be mapped before any projects are migrated. Doing so avoids individual administrators making decisions in a silo when considering only a single project.
 >
 >Following is a list of dimensions and metrics that you must manually map if they exist in your project. We recommend reviewing this list before your migration. If any of these components exist in your project, decide now which Customer Journey Analytics components you will map them to.
 

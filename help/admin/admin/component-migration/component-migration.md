@@ -47,13 +47,25 @@ In addition, do an [Adobe Analytics inventory](/help/admin/admin/analytics-inven
 
    By default, only projects that are shared with you are displayed. To view all projects in your organization, select the **Filter** icon, then expand [!UICONTROL **Other filters**] and select [!UICONTROL **Show all**]. (For more information about filtering, sorting, and searching the project list, see [Filter, sort, and search the list of projects](#filter-sort-and-search-the-list-of-projects).)
 
-1. Select each project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].
+1. (Conditional) To migrate multiple projects at one time, select the checkbox to the left of each project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].  
 
-   You can select up to 20 projects to migrate at one time.
-
-   Or
+   Consider the following when migrating multiple projects:
    
-   To migrate only a single project, mouse over the project that you want to migrate, then select the **Migrate** icon ![Migrate project](assets/migrate.svg).
+   * You can select up to 20 projects to migrate at one time.
+
+   * The migration status must be the same for all projects you are migrating. 
+
+     For example, if you select one project to migrate that has a migration status of **[!UICONTROL Not started]**, you cannot select another project that has a migration status of **[!UICONTROL Failed]**.
+
+   * You must designate the same project owner for all projects you are migrating. 
+   
+   * Dimensions and metrics must be mapped to the same data view for all projects you are migrating.
+
+   The [!UICONTROL **Migrate project_name to Customer Journey Analytics**] dialog box is displayed.
+
+   <!-- add screenshot -->
+
+1. (Conditional) To migrate a single project, mouse over the project that you want to migrate, then select the **Migrate** icon ![Migrate project](assets/migrate.svg).
 
    The [!UICONTROL **Migrate project_name to Customer Journey Analytics**] dialog box is displayed.
 

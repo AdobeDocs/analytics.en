@@ -1,49 +1,61 @@
 ---
 title: Transaction ID data sources
-description: Learn the general workflow of using transaction ID data sources.
+description: Use stored values from an online hit to enrich offline hits that share a transaction ID.
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
 ---
 # Transaction ID data sources
 
-Transaction ID data sources are a variation on summary data sources that allow you to tie online and offline data together. It requires the use of the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable in your Analytics implementation.
-
-* If a row in a data sources file includes a transaction ID that matches a transaction ID already collected by AppMeasurement, the dimensions and metrics are appended to the online hit.
-* If a row in a data sources file includes a transaction ID that does not contain a match, the row is treated similarly to summary data sources.
+Transaction ID data sources are a variation of summary data sources that let you apply values saved from an online hit to offline rows that share the same transaction ID. This approach is useful when you capture a transaction online but receive details later from another system. Primary examples include product returns, booking cancellations, or outcomes from call center interactions.
 
 >[!NOTE]
 >
 >Before using transaction ID data sources, you must first enable it in [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) for the desired report suite.
 
-When you send an online hit that contains a [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, Adobe takes a "snapshot" of all variables set or persisted then. If a matching transaction ID uploaded through data sources is found, the offline and online data is tied together.
+## How it works
+
+The concept of transaction IDs require two parts:
+
+* **Online hit**: Any full Analytics hit sent to a report suite (AppMeasurement, Web SDK, API, etc). On this hit, you set the [`transactionID`](/help/implement/vars/page-vars/transactionid.md) implementation variable.
+* **Offline hit**: A row uploaded through data sources. Within the file, include the `transactionID` column with a value that matches an online hit.
+
+When you send an online hit that contains the `transactionID` implementation variable, Adobe takes a "snapshot" of the following dimensions that were set or persisted at that point:
+
+* [Category](/help/components/dimensions/category.md)
+* [Days before first purchase](/help/components/dimensions/days-before-first-purchase.md)
+* [Days since last purchase](/help/components/dimensions/days-since-last-purchase.md)
+* [eVars 1-250](/help/components/dimensions/evar.md)
+* Feature-specific dimensions enabled in [Report suite settings](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) that behave similarly to eVars. Feature-specific dimensions that behave similarly to props are not included.
+* [List variables](/help/implement/vars/page-vars/list.md)
+* [Marketing channel](/help/components/dimensions/marketing-channel.md)
+* [Marketing channel detail](/help/components/dimensions/marketing-detail.md)
+* [Mobile dimensions](/help/components/dimensions/mobile-dimensions.md)
+* [Original referring domain](/help/components/dimensions/original-referring-domain.md)
+* [Product](/help/components/dimensions/product.md)
+* [Referring domain](/help/components/dimensions/referring-domain.md)
+* [Search engine](/help/components/dimensions/search-engine.md)
+* [Search keyword](/help/components/dimensions/search-keyword.md)
+* [Tracking code](/help/components/dimensions/tracking-code.md)
+* [Visit number](/help/components/dimensions/visit-number.md)
+
+>[!NOTE]
+>
+>Metrics (such as a [Orders](/help/components/metrics/orders.md) or [Custom events](/help/components/metrics/custom-events.md)) are not included in the "snapshot".
+
+When you upload an offline hit through data sources that contains a matching transaction ID, any available dimensions within the "snapshot" are automatically appended to the data source row. If a given dimension is present in both the online and offline hit, the offline hit value is used.
+
+>[!IMPORTANT]
+>
+>The concept of transaction ID data sources only help fill data source rows (offline hits). They do not impact or change the online hit.
+
+## Transaction ID data source considerations
 
 Transaction ID data sources have the following properties:
 
-* The online data must be collected and processed first. If a transaction ID data source is uploaded before a report suite processes a hit matching that transaction ID, the data is not linked.
-* Transaction ID's collected through AppMeasurement expire after 25 months.
+* The online data must be collected and processed first. If a transaction ID data source is uploaded before a report suite processes a hit matching that transaction ID, the data is treated like a summary data source.
+* Transaction IDs collected from online hits expire after 25 months.
 * Data sources uploaded with an expired transaction ID are treated similarly to data uploaded without a transaction ID.
-* If the same variable is included in both the online hit and the transaction ID data source, the value from the transaction ID data source is used.
-* If a variable is included in an online hit but not in a matching transaction ID data source hit, the online hit variable is preserved.
-* If you set the same transaction ID on multiple online hits, only the first occurrence is altered with data from a matching transaction ID data source.
-* If you set the same transaction ID on multiple data source rows for the same dimensions, the latest dimension item is used.
-
-For example:
-
-1. You send in a page view from AppMeasurement where:
-   * `eVar1` equals `blue`
-   * `eVar2` equals `water`
-   * `events` equals `event1`
-   * `transactionID` equals `1256`
-2. After the hit is collected and processed, you upload a transaction ID data source where:
-   * `eVar1` equals `yellow`
-   * `eVar3` equals `bird`
-   * `events` equals `event2`
-   * `transactionID` equals `1256`
-3. Once the data sources hit is processed, you view a report in workspace. The data would show the following:
-   * `eVar1` equals `yellow`
-   * `eVar2` equals `water`
-   * `eVar3` equals `bird`
-   * `events` equals `event2`
-
-The eVar1 value `blue` and the `event1` metric are not present in reporting, since the transaction ID hit overwrote those respective values.
+* If you set the same transaction ID on multiple online hits, only the first occurrence's "snapshot" is used. Subsequent duplicate transaction ID online hits are processed as if they did not have a transaction ID.
+* Once you populate a given `transactionID` value, the associated "snapshot" is considered immutable until that transaction ID expires. 
+* If you set the same transaction ID on multiple data source rows, any available dimensions from the online hit are appended to each offline hit. Offline hits for the same transaction ID do not know anything about each other; data is not passed between offline hits.

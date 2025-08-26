@@ -6,6 +6,8 @@ exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 ---
 # FTP import (legacy)
 
+{{classification-importer-deprecation}}
+
 >[!IMPORTANT]
 >
 >Adobe no longer recommends using FTP for import as described on this page. 

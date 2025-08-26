@@ -6,6 +6,8 @@ exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 ---
 # Classifications importer overview (legacy)
 
+{{classification-importer-deprecation}}
+
 Use the importer to upload classifications into Adobe Analytics. You can also export the data for updating prior to an import.
 
 **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Classification Importer]**

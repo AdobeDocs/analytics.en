@@ -75,7 +75,7 @@ In this initial release, you can see summary inventory numbers for Workspace pro
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Data configuration and collection"
->abstract="This section shows the number of report suites in your Adobe Analytics environment, as well as your access to Streaming Media. "
+>abstract="This section shows the number of report suites in your Adobe Analytics environment, as well as your access to streaming media services."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -6,6 +6,8 @@ exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 ---
 # Classification rule definitions (legacy)
 
+{{classification-rulebuilder-deprecation}}
+
 Definitions of interface elements on the pages in the Classification Rule Builder.
 
 ## Rules Page

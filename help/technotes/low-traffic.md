@@ -6,11 +6,11 @@ exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 ---
 # [!UICONTROL Low-Traffic] value in Adobe Analytics
 
-When a dimension contains millions of unique values, Adobe provides functionality to ensure that the most important values appear in your report in a timely manner. Unique variable values collected beyond a certain threshold are listed under a dimension item labeled **[!UICONTROL Low-Traffic]**.
+When a dimension contains millions of unique values, Adobe provides functionality to ensure that the most important values appear in your report in a timely manner. Unique values collected beyond a certain threshold are listed under a dimension item labeled **[!UICONTROL Low-Traffic]**.
 
 The [!UICONTROL Low-Traffic] dimension item allows Adobe to ensure that reports are returned in a timely manner by taking excessive unique values and bucketing them together.
 
-Note that [!UICONTROL Low-traffic] logic works best with variables that have dimension items that recur many times during the month. If a variable's dimension items are nearly or entirely unique on every hit, the variable's number of unique values reaches the threshold quickly and all subsequent dimension items for the month end up in the [!UICONTROL Low-Traffic] bucket.
+Note that [!UICONTROL Low-traffic] logic works best with dimensions that have items that recur many times during the month. If dimension items are nearly or entirely unique on every hit, the number of unique values reaches the threshold quickly and all subsequent values for the month end up in the [!UICONTROL Low-Traffic] bucket.
 
 ## How values enter [!UICONTROL Low-Traffic]
 
@@ -26,7 +26,7 @@ The 2,000,000 unique limit can be changed on a per-dimension basis. See [Changin
 
 ## How values can escape [!UICONTROL Low-Traffic] after exceeding the threshold
 
-If a given dimension collects over 2,000,000 unique values in a given month, individual dimension items can return to reporting their own dimension item. The primary use case of this feature is to allow the reporting of crucial dimension items that might receive a surge of popularity late in the month after the unique threshold is exceeded. For example, if your organization runs a site with millions of articles and a new article becomes popular towards the end of the month (after exceeding the unique threshold), you can still analyze the performance of that article without it being bucketed under [!UICONTROL Low-Traffic]. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month.
+If a given dimension collects over 2,000,000 unique values in a given month, individual dimension items can return to reporting their own dimension item. The primary use case of this feature is to allow the reporting of crucial dimension items that might receive a surge of popularity late in the month after the unique threshold is exceeded. For example, if your organization runs a site with millions of articles and a new article becomes popular towards the end of the month, you can still analyze the performance of that article. This logic is not intended to un-bucket everything that gets a certain number of page views per day or per month, but rather offer an avenue to analyze content that receives an influx of traffic.
 
 The requirements for an individual dimension item to escape [!UICONTROL Low-Traffic] depend on many factors, many of which prevent the ability to calculate an exact threshold:
 
@@ -58,7 +58,7 @@ Threshold limits can sometimes be changed on a per-dimension basis. Contact Adob
 
 Different capabilities treat [!UICONTROL Low-Traffic] values in different ways.
 
-* **Data Warehouse:** In most cases, there is no limit to the number of unique values in Data Warehouse reports. Its unique architecture allows the reporting of any number of unique values. However, [!UICONTROL Low-Traffic] values can still appear in some limited scenarios. Examples include list vars, list props, merchandising eVars, and marketing channel detail dimensions.
+* **Data Warehouse:** In most cases, there is no limit to the number of unique values in Data Warehouse reports. Its unique architecture allows the reporting of any number of unique values. However, [!UICONTROL Low-Traffic] values can still appear in some limited scenarios. Examples include list variables, list props, merchandising eVars, and marketing channel detail dimensions.
 * **Segmentation:** If the segment criteria includes a dimension with a high number of unique values, values captured under [!UICONTROL Low-Traffic] are not included.
 * **Classifications:** Classification reports are also subject to unique limits. If a classification's parent dimension item is included under [!UICONTROL Low-Traffic], the value is not classified.
   * [!UICONTROL Low-Traffic] values classified through the importer can be viewed in Data Warehouse. <!-- AN-115871 -->

@@ -1,5 +1,5 @@
 ---
-description: File formats supports by Classification Sets
+description: File formats supported by Classification Sets
 title: Classification set file formats
 feature: Classifications
 ---
@@ -26,7 +26,9 @@ All file formats must adhere to the following requirements:
 
 ## JSON format
 
-JSON files contain one JSON object per line, where each object represents a classification record.
+The JSON file format follows conventions for JSON Lines (i.e. JSONL). This means the file must contain one JSON object per line, where each object represents a single classification record. 
+
+NOTE: Despite following conventions for JSON Lines, use the `.json` file extension for all uploads. Using the `.jsonl` extension could result in errors.
 
 ### JSON structure
 
@@ -43,21 +45,25 @@ Each JSON object must contain:
 ### JSON examples
 
 **Basic update record:**
+
 ```json
 {"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
 ```
 
 **Update with encoding specified:**
+
 ```json
 {"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
 ```
 
 **Delete specific fields:**
+
 ```json
 {"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
 ```
 
 **Delete entire key:**
+
 ```json
 {"key": "product999", "action": "delete-key"}
 ```
@@ -84,6 +90,7 @@ CSV (Comma-Separated Values) files use commas to separate classification data fi
 ### CSV examples
 
 **Basic classification data:**
+
 ```csv
 Key,Product Name,Brand,Category,Price
 product123,"Basketball Shoes",Brand A,Sports,89.99
@@ -92,12 +99,14 @@ product789,"Winter Jacket",Brand C,Clothing,149.99
 ```
 
 **Delete entire key:**
+
 ```csv
 Key,Product Name,Brand,Category,Price
 product999,~deletekey~,,,
 ```
 
 **Delete specific fields (mixed with updates):**
+
 ```csv
 Key,Product Name,Brand,Category,Price
 product123,"Updated Product Name",Brand A,Sports,89.99
@@ -131,6 +140,7 @@ TSV (Tab-Separated Values) and TAB files use tab characters to separate classifi
 ### TSV/TAB examples
 
 **Basic classification data:**
+
 ```tsv
 Key	Product Name	Brand	Category	Price
 product123	Basketball Shoes	Brand A	Sports	89.99
@@ -139,12 +149,14 @@ product789	Winter Jacket	Brand C	Clothing	149.99
 ```
 
 **Delete entire key:**
+
 ```tsv
 Key	Product Name	Brand	Category	Price
 product999	~deletekey~			
 ```
 
 **Delete specific fields (mixed with updates):**
+
 ```tsv
 Key	Product Name	Brand	Category	Price
 product123	Updated Product Name	Brand A	Sports	89.99
@@ -186,7 +198,7 @@ Common upload issues and solutions:
 * **"Data is a required field when using action=delete-field"**: JSON delete-field actions must specify which fields to delete in the `"data"` field
 * **"Data must not be present when using action=delete-key"**: JSON delete-key actions cannot include a `"data"` field
 * **"Unsupported encoding"**: Use only supported encoding values in the `"enc"` field (utf8, UTF8, latin1, LATIN1)
-* **Invalid JSON syntax**: Check for proper JSON formatting, missing quotes, commas, brackets, etc. 
+* **Invalid JSON syntax**: Ensure that the JSON file is formatted correctly following JSON Lines (i.e. JSONL) conventions. Also check for general JSON formatting, missing quotes, commas, brackets, etc.
 
 ### Size limit errors
 * **"Key exceeds maximum size"**: Individual keys cannot exceed 255 bytes

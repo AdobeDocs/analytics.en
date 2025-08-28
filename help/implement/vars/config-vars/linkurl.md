@@ -7,9 +7,9 @@ role: Admin, Developer
 ---
 # linkURL
 
-Whenever a link tracking call is sent to Adobe, data collection servers automatically detect the URL. Use the `linkURL` variable to override the detected URL.
+Whenever a link tracking call is sent to Adobe, AppMeasurement detects the URL that was clicked. This URL helps determine the link type, such as download links and exit links. Use the `linkURL` variable to override the detected URL.
 
-There are no dimensions in Analysis Workspace that report on this variable. It populates the `page_event_var1` column in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md).
+There are no dimensions in Analysis Workspace that report on this variable. It populates the `page_event_var1` column in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md). If you want to track the URL of a clicked link, Adobe recommends using a custom variable, such as a [Prop](../page-vars/prop.md).
 
 ## Link URL using the Web SDK
 
@@ -24,7 +24,7 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.linkURL in AppMeasurement and the Analytics extension custom code editor
 
-The `s.linkURL` variable is a string, containing the URL of the browser when the link was clicked. This variable does not populate any dimensions available in reporting.
+The `s.linkURL` variable is a string, containing the full URL of the clicked link. This variable does not populate any dimensions available in reporting.
 
 ```js
 s.linkURL = "https://example.com";

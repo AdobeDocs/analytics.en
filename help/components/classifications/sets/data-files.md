@@ -181,10 +181,12 @@ product456		~empty~	~empty~	79.99
 Common upload issues and solutions:
 
 ### General file format errors
+
 * **Invalid file format**: Verify your file extension matches the content format (.json, .csv, .tsv, or .tab)
 * **"Unknown header"**: Column names must match your classification set schema (applies to all formats)
 
 ### CSV/TSV specific errors
+
 * **"First column is required to be the key"**: Ensure your CSV/TSV file has a proper header row with the key column first
 * **"A minimum of two header items are required"**: CSV/TSV files must have at least a "Key" column and one classification column
 * **"The first header column must be called 'Key'"**: The first column header must be exactly "Key" (capital K, case-sensitive)
@@ -193,6 +195,7 @@ Common upload issues and solutions:
 * **"Malformed document"**: Check CSV quoting, proper tab separation in TSV files, etc.
 
 ### JSON specific errors
+
 * **"Key is a required field"**: All JSON records must have a non-empty `"key"` field (lowercase, case-sensitive)
 * **"Data is a required field when using action=update"**: JSON update actions must include a `"data"` field
 * **"Data is a required field when using action=delete-field"**: JSON delete-field actions must specify which fields to delete in the `"data"` field
@@ -201,6 +204,7 @@ Common upload issues and solutions:
 * **Invalid JSON syntax**: Ensure that the JSON file is formatted correctly following JSON Lines (i.e. JSONL) conventions. Also check for general JSON formatting, missing quotes, commas, brackets, etc.
 
 ### Size limit errors
+
 * **"Key exceeds maximum size"**: Individual keys cannot exceed 255 bytes
 * **"Column value exceeds maximum size"**: Individual classification values cannot exceed 255 bytes
 

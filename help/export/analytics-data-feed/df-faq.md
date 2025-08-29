@@ -11,9 +11,19 @@ Frequently asked questions about data feeds.
 
 ## Must feed names be unique?{#unique}
 
-Data feed file names are made up of the report suite ID and the date. Any two feeds that are configured for the same RSID and date(s) have the same file name. If those feeds are delivered to the same location, one file will overwrite the other. To prevent a file overwrite, you cannot create a feed that has the potential to overwrite an existing feed in the same location.
+Adobe Analytics does not prevent data feed files from being overwritten.
 
-Trying to create a feed when another exists with the same file name results in an error message. Consider the following workarounds:
+To prevent data feed files from being overwritten, we recommend that all data feed files that are being sent to the same location have unique file names. 
+
+Data feed file names are made up of the the following data feed characteristics:
+
+* Report suite ID (RSID) 
+
+* Export date
+
+Any two feeds that are configured for the same RSID and dates have the same file name. If those feeds are delivered to the same location, one file overwrites the other. 
+
+To prevent a file overwrite, consider the following workarounds:
 
 * Change the delivery path
 * Change the dates if possible

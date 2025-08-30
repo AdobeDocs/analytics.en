@@ -1,27 +1,26 @@
 ---
-description: You can view Activity map data in Adobe Analytics
-title: View Activity Map data in Adobe Analytics
+description: Enable dimensions so that Activity Map can collect data.
+title: Activity Map Reporting
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
 ---
-# View Activity Map data in Adobe Analytics
+# Activity Map Reporting
 
-Administrative steps for enabling Activity Map reporting in Analytics.
+Allows you to enable dimensions for use with [Activity Map](/help/analyze/activity-map/overview.md).
 
- **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
 
-Enables Analytics to collect user activity served up from Activity Map (formerly ClickMap). This integration
+This section of the documentation focuses on enabling dimensions that Activity Map uses. See [Activity Map overview](/help/analyze/activity-map/overview.md) for more information about the overlay, implementation variables, and dimensions.
 
-* Enables reporting in Analytics.
-* Adds new reports under **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]** 
+When you select the **[!UICONTROL Enable Activity Map Reports]** button, the following dimensions are created:
 
-  |  Report  | Description  |
-  |---|---|
-  |  Activity Map Page  | Lists the pages where a link was clicked on.  |
-  |  Activity Map Region  | Lists all collected link regions across the whole web site. Note that if a region appears on multiple pages, the metric will be aggregated across all its pages.  |
-  |  Activity Map Links  | Lists all collected links across the whole web site.  |
-  |  Activity Map Links & Region  | Lists all collected links with their region across the whole web site.  |
+* [[!UICONTROL Activity Map Link]](/help/components/dimensions/activity-map-link.md): The link name that was clicked.
+* [[!UICONTROL Activity Map Region]](/help/components/dimensions/activity-map-region.md): The region name that was clicked.
+* [[!UICONTROL Activity Map Page]](/help/components/dimensions/activity-map-page.md): The page name at the time that the link was clicked.
+* [[!UICONTROL Activity Map Link By Region]](/help/components/dimensions/activity-map-link-by-region.md): A concatenated value of Activity Map Link and Activity Map Region.
 
-For data to be populated, refer to the [Activity Map documentation](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) for complete implementation instructions.
+Once enabled, your implementation can begin sending data to these dimensions for use in [Analysis Workspace](/help/analyze/analysis-workspace/home.md) and the [Browser extension overlay](/help/analyze/activity-map/overlay/overview.md).
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>When you enable Activity Map for a report suite, it is permanently enabled without any way to disable it in the future.

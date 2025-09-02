@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 breadcrumb-title: Export Guide
-user-guide-description: Learn about using Data Feeds to export of raw data, and Data Warehouse to retrieve a spreadsheet output of data. Learn how to use FTP and SFTP to transfer files.
+user-guide-description: Learn about using Data feeds and Data Warehouse to retrieve output of data.
 ---
 
 # Adobe Analytics Export Guide {#export}

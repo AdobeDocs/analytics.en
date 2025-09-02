@@ -11,6 +11,8 @@ The Adobe Experience Platform Edge Network allows you to send data destined to m
 
 ## How Adobe Analytics handles Edge Network data
 
+Since data sent to the Edge Network and AppMeasurement data operate differently, the Edge Network payload determines how Adobe Analytics handles the hit. See [Edge Network event types in Adobe Analytics](hit-types.md) for more information.
+
 Data sent to the Adobe Experience Platform Edge Network can follow three formats: **XDM object**, **Data object**, and **Context data**. When a datastream forwards data to Adobe Analytics, they are translated into a format that Adobe Analytics can handle.
 
 ## `xdm` object

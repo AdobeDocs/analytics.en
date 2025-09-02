@@ -11,11 +11,13 @@ The Adobe Experience Platform Edge Network allows you to send data destined to m
 
 ## How Adobe Analytics handles Edge Network data
 
+Since data sent to the Edge Network and AppMeasurement data operate differently, the Edge Network payload determines how Adobe Analytics handles the hit. See [Edge Network event types in Adobe Analytics](hit-types.md) for more information.
+
 Data sent to the Adobe Experience Platform Edge Network can follow three formats: **XDM object**, **Data object**, and **Context data**. When a datastream forwards data to Adobe Analytics, they are translated into a format that Adobe Analytics can handle.
 
 ## `xdm` object
 
-Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
+Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
 
 See [XDM object variable mapping to Adobe Analytics](xdm-var-mapping.md) for a full reference of XDM fields and how they map to Analytics variables.
 

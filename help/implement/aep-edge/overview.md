@@ -17,7 +17,7 @@ Data sent to the Adobe Experience Platform Edge Network can follow three formats
 
 ## `xdm` object
 
-Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
+Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
 
 See [XDM object variable mapping to Adobe Analytics](xdm-var-mapping.md) for a full reference of XDM fields and how they map to Analytics variables.
 

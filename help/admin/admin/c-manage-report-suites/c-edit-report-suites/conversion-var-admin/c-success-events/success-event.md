@@ -24,7 +24,7 @@ There are many kinds of success events, depending on your web site type. Several
 * **High Tech**: White-paper download, RFP, form completion, support requests
 * **Automotive**: Lead submission, request a quote, brochure download
 
-The [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) variable defines a success event.
+The [s.events](/help/implement/vars/page-vars/events/event-serialization.md) variable defines a success event.
 
 ## Configure success events
 

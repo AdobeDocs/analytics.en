@@ -159,7 +159,7 @@ This rule visitors where their referring URL matches the Internal URL Filters se
 
 ![](assets/int-channel1.png)
 
-See [Reasons for Internal (Session Refresh)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) for more information on why this channel occurs.
+See [Reasons for Internal (Session Refresh)](/help/components/c-marketing-channels/c-faq.md#internal) for more information on why this channel occurs.
 
 ### Direct {#direct}
 

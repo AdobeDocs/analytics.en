@@ -79,7 +79,7 @@ You, as the Data Controller, are responsible for obtaining explicit consent from
 
 Personal data generally should not be retained for longer than necessary to achieve the purpose for which it was collected. Adobe's General Terms apply a default 25-month data retention plan, unless a different data retention term is contractually agreed upon. Customers are required to set their data retention policy before Adobe can process a Data Privacy request.  
 
-Each report suite's current data retention policy is displayed in the new Data Governance Admin UI. Customers should contact their Adobe representative if they need to adjust their data retention policy. Please refer to [Adobe Analytics Data Retention FAQs](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html).
+Each report suite's current data retention policy is displayed in the new Data Governance Admin UI. Customers should contact their Adobe representative if they need to adjust their data retention policy. Please refer to [Adobe Analytics Data Retention FAQs](/help/technotes/data-retention.md).
 
 +++
 

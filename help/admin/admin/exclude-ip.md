@@ -17,7 +17,7 @@ To exclude data by IP address, you can configure exclusions as described below, 
 >
 >When configuring exclusions by IP address, consider the following:
 >
->* Hits excluded by IP address are billed as [server calls](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
+>* Hits excluded by IP address are billed as [server calls](/help/technotes/terms.md).
 >* Private IP addresses do not need to be excluded. Only external IP addresses reach Adobe data collection servers. Private addresses include `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`, and `169.254.*.*`.
 >* You can use wildcard indicators (&#42;) to exclude a range of addresses. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. You can exclude up to 50 different IP addresses.
 >* Data from an excluded IP address is excluded for any new hits coming into the system within 5 minutes of the exclusion being set. 

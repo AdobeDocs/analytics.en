@@ -14,8 +14,8 @@ You can create and use segments in Analysis Workspace and Customer Journey Analy
 | --- | --- | --- | --- |
 | Component-list segment | See how to [create a segment](/help/components/segmentation/segmentation-workflow/seg-create.md). | All your Workspace projects | For more complex segments, sequential segments |
 | Quick segment | [Quick segment builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Project only, but can save and add to your segment list. | Can be used for ad hoc single-rule segments (with drag-and-drop), or to add/edit multiple rules (by clicking the Segment icon) | 
-| Calculated metrics-based segment | [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | To individual calculated metric | Apply segment/s within your metric definition |
-| Virtual report suite-based segment | [Virtual report suite builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | To individual virtual report suite | Apply segment/s within your virtual report suite definition |
+| Calculated metrics-based segment | [Calculated metric builder](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | To individual calculated metric | Apply segment/s within your metric definition |
+| Virtual report suite-based segment | [Virtual report suite builder](/help/components/vrs/c-workflow-vrs/vrs-create.md) | To individual virtual report suite | Apply segment/s within your virtual report suite definition |
 
 ## Videos
 

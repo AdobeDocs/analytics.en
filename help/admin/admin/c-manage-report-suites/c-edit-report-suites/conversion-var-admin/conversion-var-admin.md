@@ -28,7 +28,7 @@ If traffic measurement or pathing is desired, using traffic variables is recomme
 
 >[!NOTE]
 >
->Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
+>Only a single value can be stored in an eVar in an image request. If multiple values are desired in an eVar value, we recommend that you implement [List variables (list vars)](/help/implement/vars/page-vars/page-variables.md).
 
 ### Conversion Variables - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 

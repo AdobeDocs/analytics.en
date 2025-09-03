@@ -49,7 +49,7 @@ Use this table to determine the types of IDs that you will use when submitting D
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs in Custom Variables </p> </td> 
-   <td colname="col2"> <p>Some customers place IDs in <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> custom traffic variables (props) or custom conversion variables (eVars) </a>. While the most common is a CRM ID, others include email addresses, user login names, customer loyalty numbers or hashes of these values . </p> 
+   <td colname="col2"> <p>Some customers place IDs in <a href="/help/implement/vars/page-vars/evar.md"> custom traffic variables (props) or custom conversion variables (eVars) </a>. While the most common is a CRM ID, others include email addresses, user login names, customer loyalty numbers or hashes of these values . </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">If you want to use one of these IDs for Data Privacy requests, you should give the field containing it an ID-PERSON label. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Much less common) If an ID in one of these custom variables only identifies a device that may be shared by multiple people, then you can instead use an ID-DEVICE label. </li> 

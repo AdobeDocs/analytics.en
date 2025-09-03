@@ -35,8 +35,8 @@ Consider the following hypothetical scenario in which the user does not encounte
 Redirects can cause the browser to blank out the true referring URL. Consider the following scenario:
 
 1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
-1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaiiforfree.com/]. This *vanity* domain is configured to redirect the user to `https://www.example.com/`.
-1. The user clicks on the link `https://www.flytohawaiiforfree.com/` and is redirected by the server to your main site, `https://www.example.com`. When the redirection occurs, the data that is important to [!DNL Analytics] data collection is lost because the browser clears the referring URL. Thus, the original search information used in the [!DNL Analytics] reports (for example, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is lost.
+1. The browser window's address bar displays the search terms that the user typed into the search field `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notice that the search terms are included in the URL query string parameters that follow `https://www.google.com/search?`. The browser also displays a page that contains the search results including a link to one of your domain names: [!DNL https://www.flytohawaii.example/]. This *vanity* domain is configured to redirect the user to `https://www.example.com/`.
+1. The user clicks on the link `https://www.flytohawaii.example/` and is redirected by the server to your main site, `https://www.example.com`. When the redirection occurs, the data that is important to [!DNL Analytics] data collection is lost because the browser clears the referring URL. Thus, the original search information used in the [!DNL Analytics] reports (for example, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) is lost.
 
 ## Implement redirects {#implement}
 
@@ -46,7 +46,7 @@ Completing the following steps will retain the information that the original ref
 
 ## Configure referrer override JavaScript code {#override}
 
-The code snippet below shows two JavaScript variables, *`s_referrer`* and *`s_pageURL`*. This code is placed on the ultimate landing page of the redirect.
+The code snippet below shows two JavaScript variables, `s.referrer` and `s.pageURL`. This code is placed on the ultimate landing page of the redirect.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -97,7 +97,7 @@ Normally, [!DNL Analytics] will obtain the referring URL from the browser's [!UI
 Therefore, the final version of the landing page would need to contain the following code to correct the issues introduced in the "discount airline tickets" scenario.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -106,7 +106,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Verify the referrer with the Adobe Debugger {#verify}
@@ -131,8 +131,8 @@ These variables will be represented as the following parameters in the [Experien
   </tr> 
   <tr> 
    <td> <p>Page URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>This value will appear in the DigitalPulse Debugger if the <span class="varname"> pageURL </span> variable is used. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>This value will appear in the DigitalPulse Debugger if the <span class="varname"> pageURL </span> variable is used. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ultimate Landing Page URL </p> </td> 
@@ -153,7 +153,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

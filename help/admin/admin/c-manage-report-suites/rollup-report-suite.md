@@ -9,7 +9,7 @@ role: Admin
 
 A global report suite collects data from all domains and apps that your organization owns. It requires implementation to send all image requests to a single report suite.
 
-Adobe recommends implementing a global report suite in most cases. See "[Global report suite considerations](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)" for the advantages of implementing a global report suite.
+Adobe recommends implementing a global report suite in most cases. See "[Global report suite considerations](/help/implement/prepare/global-rs.md)" for the advantages of implementing a global report suite.
   
 You can provide subsets of your company's global report suite data to different end users using the *multi-suite tagging* and *virtual report suite* approaches:
 

@@ -9,7 +9,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
 # Adobe Analytics Implementation Guide {#implementation}
 
 + [Implement Adobe Analytics](home.md)
-+ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics Release Notes](/help/release-notes/latest.md)
 + [AppMeasurement release notes](appmeasurement-updates.md)
 + Analytics variables, functions, and methods {#vars}
   + [Overview](vars/overview.md)

@@ -345,7 +345,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html).
+To learn more about panels, see [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ![](assets/build-panels.png)
 
@@ -353,7 +353,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+To learn more about visualizations, see [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ![](assets/build-visualizations.png)
 

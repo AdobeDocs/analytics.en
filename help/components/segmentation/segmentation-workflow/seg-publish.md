@@ -35,7 +35,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 
 ## Prerequisites
 
-* Ensure that the report suite that you are saving this segment to is [enabled for Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish). Otherwise, you cannot publish it to Experience Cloud.
+* Ensure that the report suite that you are saving this segment to is [enabled for Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). Otherwise, you cannot publish it to Experience Cloud.
 * Ensure that your organization is using Experience Cloud IDs.
 * Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud), and add you to the product profile.
 
@@ -44,7 +44,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
 * **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. A visitor might be able to browse your site in un-authenticated and authenticated states. Actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments).
+* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Segment publishing timeline
 

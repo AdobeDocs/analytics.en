@@ -34,7 +34,7 @@ The goal of Analytics inventory is to help you answer the following questions:
 
 ## Permissions
 
-Analytics Inventory is available to users with Adobe Analytics Product Admin privileges in [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics). 
+Analytics Inventory is available to users with Adobe Analytics Product Admin privileges in [Adobe Admin Console](/help/admin/admin-console/admin-roles-in-analytics.md). 
 
 ## Access Analytics Inventory
 
@@ -107,9 +107,9 @@ The answers to these questions will give you a good idea as to which report suit
     | Metrics | How many metrics are defined in this report suite? |
     | Dimensions | How many dimensions are defined in this report suite? |
     | Analytics for Target (A4T) Enabled | [Hidden by default] Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-    | Marketing Channels Enabled | [Hidden by default] Is this report suite enabled for [Marketing Channels](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+    | Marketing Channels Enabled | [Hidden by default] Is this report suite enabled for [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
     | Source Connector Enabled | Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
-    | Calendar Type | [Hidden by default] For more information, refer to [Custom Calendars](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+    | Calendar Type | [Hidden by default] For more information, refer to [Custom Calendars](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) |
 
 #### Analyze dimensions
 

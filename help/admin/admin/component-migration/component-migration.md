@@ -129,7 +129,7 @@ In addition, do an [Adobe Analytics inventory](/help/admin/admin/analytics-inven
 
 If a migration fails, you can retry the migration.
 
-Before retrying a failed migration, make sure you remove any [unsupported elements](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) from the project.
+Before retrying a failed migration, make sure you remove any [unsupported elements](/help/admin/admin/component-migration/prepare-component-migration.md#understand-unsupported-elements-that-cause-errors) from the project.
 
 >[!NOTE]
 >

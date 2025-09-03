@@ -22,7 +22,7 @@ We recommend using [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 * Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresponding to each Marketing Channel Instance.
 * For metric analysis, your organization should align on one or more attribution model/s. Save custom metrics with this model for easy reuse.
-* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace).
+* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best Practice #2: No Direct and Session Refresh channel definitions
 

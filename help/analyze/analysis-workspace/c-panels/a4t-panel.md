@@ -27,7 +27,7 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Analytics for Target panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Experimentation panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) for information on how to compare different user experiences, marketing, or messaging variations in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_This article documents the Analytics for Target panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Experimentation panel](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) for information on how to compare different user experiences, marketing, or messaging variations in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Each freeform table shows the following metric columns:
 |**[!UICONTROL Lift (Upper)]**| This value represents the best lift a variant experience could have over the control, at a 95% confidence interval.<br>See [Statistical calculations](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) and [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel file for more information. |
 |**[!UICONTROL Confidence]**| The students t-test calculates the confidence level, which indicates the likelihood that the results would be duplicated if the test were run again. A fixed conditional formatting range of 75%/85%/95% has been applied to the metric. This formatting can be customized if needed under Column settings. Note: Confidence is a "locked metric" to Target Experiences; it cannot be broken down or used with other dimensions.<br>See [Statistical calculations](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) and [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel file for more information. |
 
-Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations) that help you analyze your Adobe Target activities. You can also apply a segment either at the panel level or within the freeform table. Note that if you add it within the freeform table, you must overlay it across the entire table to preserve the lift and confidence calculations. Column level segments are not supported at this time.
+Like with any panel in Analysis Workspace, you can continue your analysis by adding additional tables and [visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) that help you analyze your Adobe Target activities. You can also apply a segment either at the panel level or within the freeform table. Note that if you add it within the freeform table, you must overlay it across the entire table to preserve the lift and confidence calculations. Column level segments are not supported at this time.
 
 Use ![Edit](/help/assets/icons/Edit.svg) to reconfigure and rebuild the panel.
 

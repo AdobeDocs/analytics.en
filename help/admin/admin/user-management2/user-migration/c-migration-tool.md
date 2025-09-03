@@ -70,7 +70,7 @@ Answers to questions you might have before the migration.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Update Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important: Update your installation of <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup"> Report Builder</a> to the latest version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important: Update your installation of <a href="/help/analyze/report-builder/report-builder-setup.md"> Report Builder</a> to the latest version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>When does the migration begin? </p> </td> 
@@ -92,7 +92,7 @@ Answers to questions you might have before the migration.
      <li id="li_418476105FE341229CE146E730AAB33D">Your existing permission groups in Analytics will be replicated automatically in the Adobe Admin Console as Product Profiles, including their description and granular permissions across report suites, metrics, dimensions, Analytics, and Report Suite Tools. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">If any of your current Analytics users were created in the Adobe Admin Console (meaning they have a linked Adobe/Enterprise ID), they will be added to the appropriate Product Profiles in the Adobe Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">The User Management section under the Admin tab in Analytics will be set to <span class="term"> read-only</span>. You will no longer be able to create new users or permission groups here and will need to perform both these functions in the Adobe Admin Console. See <a href="/help/admin/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Unsupported Analytics features in the Adobe Admin Console</a> for more information. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">User ID Migration tool</a>. Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">As an administrator, you will be granted access to the <a href="/help/admin/admin/user-management2/user-migration/c-migration-tool.md">User ID Migration tool</a>. Additionally, an in-product notification appears that includes the end date of the migration (typically 60 days in the future) in addition to links to help content and FAQs. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">You will be granted access to a Permissions tab in the Adobe Admin Console that allows you to create Product Profiles with all the granular options you are familiar with in Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -299,27 +299,3 @@ Important information about the migration process and how it impacts current use
   </tr> 
  </tbody> 
 </table>
-
-## How to notify your users about the migration {#section-f3b25f672a3a4d03b0559656fd99d20a}
-
-You may want to pro-actively communicate this migration plan to your current users. Here is a template you can customize to send all your current Analytics users:
-
-To email all users, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL User management]** > [Email Users](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
-
-**Subject:** Coming Soon - A new way to login to Adobe Analytics and Adobe Experience Cloud.
-
-**Body:** Hello Adobe Analytics users!
-
-Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/)). With this migration, your Adobe Analytics account will be upgraded to enable access to Analytics via the Adobe Experience Cloud. While the method to access Analytics will change, all your existing permissions to your report suites and tools will be preserved.
-
-**Next steps:** We will begin to migrate users beginning on **INSERT DATE**. Watch for a welcome message with your new login addressed to the email id listed under your analytics account. If you have not setup an [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) linked to your email address, you will be asked to setup an account .
-
-**Helpful resources:**
-
-[Sign in and manage your profile settings](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html).
-
-Please contact your Analytics administrators if you have any questions or concerns.
-
-Best,
-
-Analytics Admin

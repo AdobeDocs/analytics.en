@@ -19,13 +19,13 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
-Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)), we estimate that this will affect <3% of Chrome Visitors.
+Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](/help/components/dimensions/operating-systems.md)), we estimate that this will affect <3% of Chrome Visitors.
 
 >[!NOTE]
 >
-> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html) for more information.
+> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](/help/components/dimensions/operating-systems.md) for more information.
 
-Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
 ## Frequently asked questions
 
@@ -37,7 +37,7 @@ This [Google blog post](https://web.dev/user-agent-client-hints/) is a good refe
 
 +++**How do I enable the collection of client hints?**
 
-Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Low-entropy hints are automatically provided by the browser and ingested for deriving device and browser information. Newer versions of Web SDK (starting with 2.12.0) and AppMeasurement (starting with 2.23.0) can be configured to collect high-entropy hints via their respective Tags extensions or directly via a configuration option. See directions for [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) and [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 For both libraries, collection of high-entropy hints is **disabled by default**. 
 
@@ -85,11 +85,11 @@ The device fields available for reporting will not change. The data captured for
 
 These fields are directly derived from the User-Agent but User-Agent may be used to help derive values for other device related fields, depending on the device details.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html) 
-* [Browser Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [Operating System](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [Operating System Types](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [Mobile Device and Mobile Device Type](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [Browser](/help/components/dimensions/browser.md) 
+* [Browser Type](/help/components/dimensions/browser-type.md)
+* [Operating System](/help/components/dimensions/operating-systems.md)
+* [Operating System Types](/help/components/dimensions/operating-system-types.md)
+* [Mobile Device and Mobile Device Type](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
@@ -153,6 +153,6 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 
 +++**Will Adobe Audience Manager server-side forwarding support client hints?** 
 
-Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) then you may want to enable collection of high-entropy hints.
+Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
 +++

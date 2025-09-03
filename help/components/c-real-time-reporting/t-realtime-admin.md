@@ -49,6 +49,6 @@ This consists of selecting the report suite and configuring up to 3 reports for 
 
 1. Select **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available. For information on viewing Real-Time reports, see [Run a Real-Time Report](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   After this initial report setup, it can take up to 20 minutes for the data to begin streaming. From then on, data is immediately available.
 
 1. By default, all users have access to Real-Time reports.

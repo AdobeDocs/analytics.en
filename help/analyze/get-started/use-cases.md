@@ -18,7 +18,7 @@ Adobe Analytics provides the following complex segmentation and predictive tools
 
 * [Flow analysis](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Advanced segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [Advanced segmentation](/help/components/segmentation/seg-home.md)
 
 
 ## Marketing analytics
@@ -27,9 +27,7 @@ Adobe Analytics helps organizations understand where customers interact with the
 
 The following key features in Adobe Analytics provide these marketing capabilities:
 
-* [Multichannel data collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
-
-* [Offline data integration](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [Offline data integration](/help/import/data-sources/overview.md)
 
 * [Ad hoc analysis in Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

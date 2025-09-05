@@ -33,7 +33,7 @@ See [Data object variable mapping to Adobe Analytics](data-var-mapping.md) for a
 
 ## Context data variables
 
-Send data to the Edge Network in any format that you'd like. Any fields that don't automatically map to `xdm` or `data` object fields are included as [Context data variables](/help/implement/vars/page-vars/contextdata.md) when forwarded to Adobe Analytics. You must then use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) to map the desired fields to their respective Analytics variables.
+Send data to the Edge Network in any format that you'd like. Any fields that don't automatically map to `xdm` or `data` object fields are included as [Context data variables](/help/implement/vars/page-vars/contextdata.md) when forwarded to Adobe Analytics. You must then use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to map the desired fields to their respective Analytics variables.
 
 For example, if you had a custom XDM schema that looked like the following:
 

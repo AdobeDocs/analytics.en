@@ -30,7 +30,7 @@ Timestamps Optional is the default setting for all new report suites.
 >
 >Timestamps Optional is the default setting for all new report suites generated from a template. New report suites copied from an existing report suite will inherit settings from the original.
 
-See [Timestamps Optional](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) for additional setup information.
+See [Timestamps Optional](/help/technotes/timestamps-optional.md) for additional setup information.
 
 ## Timestamps Optional: Integrate timestamped and non-timestamped data {#integrate}
 

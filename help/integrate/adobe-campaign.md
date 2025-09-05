@@ -11,7 +11,7 @@ role: Admin
 For more information on how to configure this integration, go to the [Adobe Campaign documentation](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->This article applies to Adobe Campaign **Standard** reporting only. See [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) for adding Adobe Campaign **Classic** reporting.
+>This article applies to Adobe Campaign **Standard** reporting only. See [here](/help/integrate/analytics-to-campaign-classic.md) for adding Adobe Campaign **Classic** reporting.
 
 This integration between Adobe Analytics and Adobe Campaign Standard:
 

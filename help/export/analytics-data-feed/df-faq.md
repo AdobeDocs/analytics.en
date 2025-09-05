@@ -47,7 +47,7 @@ If you see different case variations of the same value between non-post and post
 
 ## Are bots filtered by Admin console bot rules included in data feeds? {#bots}
 
-Data feeds do not include bots filtered by [Admin console bot rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html).
+Data feeds do not include bots filtered by [Admin console bot rules](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
 ## Why do I see multiple `000` values in the `event_list` or `post_event_list` data feed column? {#values}
 

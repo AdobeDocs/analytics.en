@@ -12,7 +12,7 @@ This document explains how major browsers' tracking prevention measures affect t
 ## How have browsers limited the usage of cookies?
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) and [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) can stitch across cookies using a person ID, such as a hashed login id, if one is available.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) and [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) can stitch across cookies using a person ID, such as a hashed login id, if one is available.
 
 ### Third-party cookie limitations
 

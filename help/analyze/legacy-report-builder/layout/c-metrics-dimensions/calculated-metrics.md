@@ -15,13 +15,13 @@ Report Builder 5.2 and up supports Adobe Analytics calculated metrics. All calcu
 >
 >Existing workbooks might point to requests with legacy metric IDs. When you use Report Builder 5.2, these legacy metric IDs will be converted to the new global ID. If you share this workbook with a user of Report Builder v5.1 or earlier, that user will not be able to see the calculated metrics.
 
-To find out more about how to create and manage calculated metrics with the new Calculated Metric Builder and Manager, refer to the [Calculated Metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) Guide.
+To find out more about how to create and manage calculated metrics with the new Calculated Metric Builder and Manager, refer to the [Calculated Metrics](/help/components/calculated-metrics/cm-overview.md) Guide.
 
 In Step 2 of the Request Wizard, you can filter and apply calculated metrics.
 
 ## Filter calculated metrics {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** calculated metrics by clicking on the Filter icon:  ![Screenshot of the Filter options showing the Application, User, Project fields.](/help/admin/admin/assets/filter.png)
+**Filter** calculated metrics by clicking on the Filter icon:  ![Screenshot of the Filter options showing the Application, User, Project fields.](/help/admin/tools/assets/filter.png)
 
 The Advanced Filters dialog is populated with both standard and calculated metrics.
 

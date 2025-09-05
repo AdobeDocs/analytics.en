@@ -11,7 +11,7 @@ Real-time reporting displays web page traffic and ranks page views in real time.
 
 >[!NOTE]
 >
->The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>The Real-Time Report requires no additional implementation or tagging. It leverages your existing implementation of Adobe Analytics. To configure real-time reports, see [Real-Time Reports Configuration](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 ## Access Real-Time reporting
 
@@ -25,7 +25,7 @@ Real-time reporting displays web page traffic and ranks page views in real time.
 
 Real-Time answers the following questions: What is trending on my site, and why? It allows you as a marketer to quickly respond to and actively manage the performance of your marketing content and campaigns. The real-time data reported is less than two minutes latent and auto-updates on a minute-by-minute basis.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 The dashboard includes Adobe Analytics high-frequency metrics and site analytics to visually report traffic and page view trending of dynamic news and retail web sites. Real-Time understands trends in your data from minute to minute, within seconds of collection. It collects and streams data into an auto-updating UI, using real-time correlation and tracking of content and some conversion.
 

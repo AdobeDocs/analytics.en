@@ -10,7 +10,7 @@ exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
 
 Streaming media services core metrics provide basic reporting functionality to data collected through streaming media services collection libraries. Use of these metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following metrics are available:
+When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following metrics are available:
 
 | Metric name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

@@ -243,7 +243,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment containe
 
 +++ **What rights and privileges do I need to use, create, and manage segments?**
 
-By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
+By default, all users can create and edit personal segments. However, Admins can decide who should have [permissions to create segments](/help/admin/admin-console/home.md) and can assign them to specific groups. These segments can be shared directly with any other Analytics user.
 
 Admins can edit any segment, and share segments with groups and with everyone in the organization. [Segment rights by role](/help/components/segmentation/seg-reference/seg-rights.md)
 

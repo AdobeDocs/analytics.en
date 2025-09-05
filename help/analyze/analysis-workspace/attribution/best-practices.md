@@ -17,7 +17,7 @@ Picking the right attribution model for your organization depends on a number of
 >[!NOTE]
 >This analysis needs to happen before you pick an attribution model.
 
-This phase consists initially of understanding customer behavior and defining conversion metrics. Based on the conversion metrics, tools like [Data Feeds](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) (for raw data) or Analysis Workspace facilitate your understanding of
+This phase consists initially of understanding customer behavior and defining conversion metrics. Based on the conversion metrics, tools like [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) (for raw data) or Analysis Workspace facilitate your understanding of
 
 * The number of customers who are touching different marketing channels before converting
 * The proportion/distribution of these behaviors 
@@ -47,7 +47,7 @@ In this case, you would then use the [Inverse J-shaped attribution model](/help/
 
 Suppose that your hypothesis is: *"In a specific industry (such as the travel industry), the attribution window is 60 or 90 days, not 30 days, because customers do a lot of research before they buy a product.*"
 
-In this case, you would change your [lookback window](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) to 90 days. 
+In this case, you would change your [lookback window](/help/analyze/analysis-workspace/attribution/models.md) to 90 days. 
 
 ## Use algorithmic attribution
 

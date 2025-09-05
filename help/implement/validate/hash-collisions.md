@@ -36,6 +36,6 @@ Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem
 Most hash collisions happen with two uncommon values, which have no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
 
 * **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don't collide.
-* **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
+* **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

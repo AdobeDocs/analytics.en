@@ -10,7 +10,7 @@ exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 >
 >To maximize effectiveness of Marketing Channels for Attribution and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Here are the Report Suite Tools permissions needed in the [Admin Console](https://adminconsole.adobe.com/) to be able to work with various aspects of Marketing Channels.
 
@@ -22,5 +22,5 @@ Here are the Report Suite Tools permissions needed in the [Admin Console](https:
 |Analytics Tools|Analysis Workspace Access|Grants access to Analysis Workspace. Users must belong to either this group (preferred) or Reports &and  Analytics Access to use the Marketing Channels dimensions in Workspace.|
 |Analytics Tools|Reports and Analytics Access|Grants access to Reports and Analytics. Users must belong to either this group or Analysis Workspace Access (preferred) to use Adobe Analytics.|
 
-For more information on product profiles and Adobe Analytics permissions in Admin Console, see [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
+For more information on product profiles and Adobe Analytics permissions in Admin Console, see [Product profiles for Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
 

@@ -22,13 +22,13 @@ We recommend using [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 * Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresponding to each Marketing Channel Instance.
 * For metric analysis, your organization should align on one or more attribution model/s. Save custom metrics with this model for easy reuse.
-* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace).
+* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best Practice #2: No Direct and Session Refresh channel definitions
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models.
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield Attribution results similar to the case where those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield Attribution results similar to the case where those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
 

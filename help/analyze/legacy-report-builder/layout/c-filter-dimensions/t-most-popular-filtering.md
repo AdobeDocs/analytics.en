@@ -20,7 +20,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 
-   ![Screenshot showing the Define Filter dialogue with options to Filter by Application, User, and Project.](/help/admin/admin/assets/filter.png)
+   ![Screenshot showing the Define Filter dialogue with options to Filter by Application, User, and Project.](/help/admin/tools/assets/filter.png)
 
 1. On the [!UICONTROL Choose Page] form, enable **[!UICONTROL Most Popular]**, then configure the following options:
 

@@ -8,8 +8,8 @@ user-guide-description: Configure integrations with other Adobe Experience Cloud
 
 # Adobe Analytics Integration Guide {#integration}
 
-+ [Analytics Integration](home.md)
-+ [Analytics Release Notes](/help/release-notes/latest.md)
++ [Analytics integration guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Audience Analytics {#audience-analytics}
   + [Audience Analytics overview](c-audience-analytics/mc-audiences-aam.md)
   + Audience Analytics workflow {#audience-analytics-workflow}

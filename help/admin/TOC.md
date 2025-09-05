@@ -8,8 +8,8 @@ user-guide-description: Learn about Analytics administration tasks, such managin
 
 # Adobe Analytics Admin Guide {#admin}
 
-+ [Analytics Admin Guide](home.md)
-+ [Analytics Release Notes](/help/release-notes/latest.md)
++ [Analytics admin guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Adobe admin console {#admin-console}
   + [Overview](admin-console/home.md)
   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
@@ -132,17 +132,13 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Preferences manager](admin/company/preferences-manager.md)
     + [Pending actions](admin/company/pending-actions-admin.md)
     + [Feature access levels](admin/company/feature-access-levels.md)
-  + Data Governance Privacy Labeling {#data-governance}
-    + [Adobe Analytics Data Privacy workflow](admin/c-data-governance/an-gdpr-workflow.md)
-    + [Frequently asked questions](admin/c-data-governance/gdpr-faq.md)
-    + Data labeling {#data-labels}
-       + [Data Privacy labels for Analytics components](admin/c-data-governance/data-labeling/gdpr-labels.md)
-       + [Label report suite data](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-       + [View/manage report suite's privacy labels](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
-       + [Labeling best practices](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
-       + [Labeling example](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
-       + [Namespaces](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
-    + [CNIL Consent Exemption](admin/c-data-governance/cnil-consent-exemption.md)
+  + Privacy Labeling {#privacy-labeling}
+     + [Overview](admin/privacy-labeling/gdpr-setup-reportsuite.md)
+     + [Data Privacy labels for Analytics components](admin/privacy-labeling/gdpr-labels.md)
+     + [View/manage report suite's privacy labels](admin/privacy-labeling/gdpr-view-settings.md)
+     + [Labeling best practices](admin/privacy-labeling/gdpr-analytics-ids.md)
+     + [Labeling example](admin/privacy-labeling/gdpr-labeling-example.md)
+     + [Namespaces](admin/privacy-labeling/gdpr-namespaces.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](admin/c-server-call-usage/overage-overview.md)
     + [View current server call usage](admin/c-server-call-usage/server-call-usage-dashboard.md)

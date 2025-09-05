@@ -8,8 +8,8 @@ user-guide-description: Learn about using Data feeds and Data Warehouse to retri
 
 # Adobe Analytics Export Guide {#export}
 
-+ [Analytics Export Guide](home.md)
-+ [Analytics Release Notes](/help/release-notes/latest.md)
++ [Analytics export guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Analytics Data Feed {#analytics-data-feed}
   + [Data feed overview](analytics-data-feed/data-feed-overview.md)
   + [Create a data feed](analytics-data-feed/create-feed.md)
@@ -67,6 +67,4 @@ user-guide-description: Learn about using Data feeds and Data Warehouse to retri
     + [Send Adobe data to an external FTP account with SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
     + [Send Data Warehouse requests to SFTP servers](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
     + [Connect to Adobe via SFTP without a password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace downloads](/help/analyze/analysis-workspace/curate-share/download-send.md)
-+ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](/help/analyze/report-builder/rb-overview.md)
++ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)

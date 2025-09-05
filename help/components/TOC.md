@@ -8,8 +8,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
 
 # [!DNL Adobe Analytics] Components Guide {#components}
 
-+ [Analytics Components Guide](home.md)
-+ [Analytics Release Notes](/help/release-notes/latest.md)
++ [Analytics components guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Dimensions {#dimensions}
   + [Dimensions overview](dimensions/overview.md)
   + [Dimension compatibility](dimensions/compatibility.md)

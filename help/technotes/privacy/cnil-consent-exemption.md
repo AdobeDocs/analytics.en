@@ -20,7 +20,7 @@ The Guidelines provide a limited exemption to the consent requirement ("Consent 
 * Geolocation parameters. Geolocation can be no more precise than postal code level. [Zip Option](/help/implement/vars/page-vars/zip.md) and [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 * Set opt-in options.  The opt-in service lets you set visitor protocols to determine if you can set a cookie on the user's device or browser when visiting your site. [Opt-In Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
 * Prevent data sharing.  To preclude data sharing to Adobe Audience Manager, use the `opt.dmp` context variable for [Privacy Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) to block hits from being shared.
-* Access and delete ability. Utilize the Privacy Service for access and delete requests. [Analytics & Privacy Service](/help/admin/admin/c-data-governance/an-gdpr-overview.md)
+* Access and delete ability. Utilize the Privacy Service for access and delete requests. [Analytics & Privacy Service](gdpr.md)
 
 ## Additional Considerations for Data Collection
 
@@ -39,6 +39,4 @@ The following additional considerations apply:
 >
 >This document is not intended as legal or regulatory advice and does not constitute any warranty or contractual commitment on the part of Adobe. We encourage customers to seek independent legal advice on customer's legal and regulatory obligations on issues related to this subject matter. 
 
-
 For more information, see the [CNIL Cookie Exemption](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) website.
-

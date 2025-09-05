@@ -34,7 +34,7 @@ What if your organization already has Direct and Session Refresh configured? In 
 
 If you disable these channels and remove their marketing channel processing rules, the results differ slightly from the classification approach. The value `None` represents visits that did not match any marketing channel processing rules. Differences can appear when a visit matching no channel follows a visit that matches a channel.
 
-You can still utilize custom attribution models to apply various lookback windows and attribution models in either case.
+You can still use custom attribution models to apply lookback windows and attribution models in either case.
 
 ## Best Practice #3: Enable Override Last-Touch Channel for all channels
 

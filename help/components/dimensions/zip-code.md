@@ -15,7 +15,7 @@ This dimension is unique in that it contains multiple ways to populate it with d
 * Set the zip code directly using the `zip` variable; or
 * Configure it to pull from geolocation data.
 
-The [!UICONTROL Zip option] under [General account settings](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controls how you want to populate this dimension.
+The [!UICONTROL Zip option] under [General account settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controls how you want to populate this dimension.
 
 If you choose to use any option that involves geo zip:
 

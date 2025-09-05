@@ -65,7 +65,7 @@ Release Date: **October 11, 2021**
 
 Release Date: **September 7, 2021**
 
-* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. See the [Privacy reporting](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) in the Admin user guide for more information.
+* This update causes `opt.dmp` and `opt.sell` to always be included when tracking links. See the [Privacy reporting](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) in the Admin user guide for more information.
 
 ## Version 2.22.1
 

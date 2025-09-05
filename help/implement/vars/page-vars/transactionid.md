@@ -11,7 +11,7 @@ The `transactionID` variable uniquely identifies a transaction so that the hit c
 
 >[!NOTE]
 >
->Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide for more information.
+>Make sure that [!UICONTROL Transaction ID Storage] is enabled in a report suite before using this variable. See [General Account Settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in the Admin user guide for more information.
 
 When you set `transactionID` on a hit, Adobe takes a "snapshot" of all Analytics variables set or persisted at that point in time. See [Transaction ID data sources](/help/import/data-sources/transactionid.md) for the list of dimensions included in the snapshot. Adobe remembers all transaction ID values (linked and unlinked) for up to 25 months. 
 

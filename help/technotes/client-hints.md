@@ -25,7 +25,7 @@ Client hints will be incorporated into Analytics device lookup process starting 
 >
 > As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](/help/components/dimensions/operating-systems.md) for more information.
 
-Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
+Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
 ## Frequently asked questions
 
@@ -153,6 +153,6 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 
 +++**Will Adobe Audience Manager server-side forwarding support client hints?** 
 
-Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
+Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
 +++

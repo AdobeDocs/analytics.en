@@ -150,7 +150,7 @@ To create alerts from the Alerts manager:
 
    * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 
-     If you select this option, continue with [Server call usage alerts](/help/admin/tools/c-server-call-usage/scu-alerts.md).
+     If you select this option, continue with [Server call usage alerts](/help/admin/tools/server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >

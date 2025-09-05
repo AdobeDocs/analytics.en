@@ -22,7 +22,7 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 >[!TIP]
 >
->Adobe also offers privacy settings on a per-report suite basis. See [Privacy Settings](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) in the Admin user guide.
+>Adobe also offers privacy settings on a per-report suite basis. See [Privacy Settings](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) in the Admin user guide.
 
 ## Opt-out URL
 

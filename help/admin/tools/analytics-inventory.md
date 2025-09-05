@@ -109,7 +109,7 @@ The answers to these questions will give you a good idea as to which report suit
     | Analytics for Target (A4T) Enabled | [Hidden by default] Is this report suite enabled for [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
     | Marketing Channels Enabled | [Hidden by default] Is this report suite enabled for [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
     | Source Connector Enabled | Is this report suite enabled for the [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In other words, can this report suite be migrated to Customer Journey Analytics using the Analytics Source Connector? |
-    | Calendar Type | [Hidden by default] For more information, refer to [Custom Calendars](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) |
+    | Calendar Type | [Hidden by default] For more information, refer to [Custom Calendars](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
 
 #### Analyze dimensions
 

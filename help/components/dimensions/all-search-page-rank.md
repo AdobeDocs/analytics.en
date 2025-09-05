@@ -10,7 +10,7 @@ The 'All search page rank' [dimension](overview.md) provides insight on which pa
 
 ## Populate this dimension with data
 
-Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) set up correctly. AppMeasurement automatically populates this dimension without any implementation code changes.
+Getting this dimension to work only requires that your report suite have [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) set up correctly. AppMeasurement automatically populates this dimension without any implementation code changes.
 
 ## Dimension items
 

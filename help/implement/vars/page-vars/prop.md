@@ -51,7 +51,7 @@ List props are a setting applied to props that allow the variable to hold multip
 
 ### Configure list props
 
-Enable list props in [Traffic variables](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) under report suite settings. Make sure that the desired delimiter is configured correctly. Adobe does not provide a default delimiter.
+Enable list props in [Traffic variables](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) under report suite settings. Make sure that the desired delimiter is configured correctly. Adobe does not provide a default delimiter.
 
 >[!TIP]
 >

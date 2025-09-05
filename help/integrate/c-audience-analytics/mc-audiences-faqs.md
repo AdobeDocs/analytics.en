@@ -129,7 +129,7 @@ Yes. In the Adobe Audience Manager destination setup, you will see only report s
 
 Only suites that are mapped to your Experience Cloud Org can be enabled. 
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 

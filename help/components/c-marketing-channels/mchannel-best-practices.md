@@ -28,7 +28,7 @@ We recommend using [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models.
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution results as if those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution results as if those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
 

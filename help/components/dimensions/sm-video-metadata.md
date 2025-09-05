@@ -10,7 +10,7 @@ exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
 
 Streaming media services ad dimensions provide supplemental reporting functionality to data collection through streaming media services collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Video Metadata]** under [Media reporting](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
+When you enable **[!UICONTROL Video Metadata]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following dimensions are available:
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
 ---
 # Weekday/Weekend
 
-The 'Weekday/Weekend' [dimension](overview.md) provides insight on if the hit happened during a weekday (Monday - Friday) or weekend (Saturday - Sunday). The time of the hit is based on the [report suite's time zone](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+The 'Weekday/Weekend' [dimension](overview.md) provides insight on if the hit happened during a weekday (Monday - Friday) or weekend (Saturday - Sunday). The time of the hit is based on the [report suite's time zone](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Populate this dimension with data
 

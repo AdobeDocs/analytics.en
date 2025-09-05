@@ -6,7 +6,7 @@ exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
 ---
 # Bot page views
 
-The 'Bot page views' [metric](overview.md) shows the number of page hits that matched [Bot rules](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+The 'Bot page views' [metric](overview.md) shows the number of page hits that matched [Bot rules](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
 
 Since bot reporting is separated from the rest of your report suite data, this metric only works with the following dimensions:
 

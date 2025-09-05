@@ -20,7 +20,7 @@ A high-level overview of the implementation tasks:
 </tr>
 
 <tr>
-<td>1</td><td>Ensure you have <b>defined a report suite</b></td><td><a href="../../admin/tools/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Ensure you have <b>defined a report suite</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>

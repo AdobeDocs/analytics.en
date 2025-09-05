@@ -97,7 +97,7 @@ See the tables below for an overview of the available menus.
 | **[!UICONTROL Components]** | Shortcut Mac | Shortcut Windows | Description |
 |---|---|---|---|
 | **[!UICONTROL Create segment...]** | **[!UICONTROL *shift+cmd+e*]** | **[!UICONTROL *shift+ctrl+e*]** | Create a new [segment](/help/components/segmentation/segmentation-workflow/seg-create.md). |
-| **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c*]** | **[!UICONTROL *shift+ctrl+c*]** | Create a new [calculated metric](/help/components/c-calcmetrics/cm-overview.md). |
+| **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c*]** | **[!UICONTROL *shift+ctrl+c*]** | Create a new [calculated metric](/help/components/calculated-metrics/cm-overview.md). |
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d*]** | **[!UICONTROL *shift+ctrl+d*]** | Create a new [date range](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o*]** | **[!UICONTROL *shift+ctrl+o*]** | Create a new [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 | **[!UICONTROL Refresh components]** | **[!UICONTROL *opt+shift+r*]** | **[!UICONTROL *alt+shift+r*]** | Refresh the components in the project. |

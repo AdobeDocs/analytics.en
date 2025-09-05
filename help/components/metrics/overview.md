@@ -18,7 +18,7 @@ For example, if you combined the **[!UICONTROL Page]** dimension with the **[!UI
 
 {style="table-layout:fixed"}
 
-If you cannot find the help page for a given metric, it is likely either a [custom event](custom-events.md) or a [calculated metric](../c-calcmetrics/cm-overview.md).
+If you cannot find the help page for a given metric, it is likely either a [custom event](custom-events.md) or a [calculated metric](../calculated-metrics/cm-overview.md).
 
 * If the metric is a custom event, consult an Analytics admin within your organization, or the report suite's [solution design document](/help/implement/prepare/solution-design.md).
 * If the metric is a calculated metric, click the information icon to determine its formula.

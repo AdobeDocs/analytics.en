@@ -17,11 +17,11 @@ To manage components from the main Adobe Analytics interface:
 You can manage the following components:  
 
 * [Segments](/help/components/segmentation/seg-home.md): Build, manage, share, and apply powerful, focused audience segments to your reports. Segments let you identify subsets of persons based on characteristics or interactions.
-* [Calculated metrics](/help/components/c-calcmetrics/cm-overview.md): Use metrics and formulas as new components for use in reporting
+* [Calculated metrics](/help/components/calculated-metrics/cm-overview.md): Use metrics and formulas as new components for use in reporting
 * [Date ranges](calendar-date-ranges/custom-date-ranges.md): Customize and refine the date ranges Analysis Workspace offers.
 * [Scheduled projects](../curate-share/t-schedule-report.md): Manage your scheduled projects.
 * [Locations](../../../components/locations/locations-manager.md): Manage the locations to export your projects to.
-* [Alerts](/help/components/c-alerts/intellligent-alerts.md): Allow you to be notified based on changed percentages or specific data points. 
+* [Alerts](/help/components/alerts/alerts-overview.md): Allow you to be notified based on changed percentages or specific data points. 
 * [Annotations](annotations/overview.md): Communicate contextual data nuances and insights to your organization.
 * [Preferences](/help/analyze/analysis-workspace/user-preferences.md): Manage the preferences for Analysis Workspace.
 
@@ -97,7 +97,7 @@ You can search, filter, and sort the component list in the left panel of Analysi
    | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL Metrics]** | Show only components that are Metrics. |
    | ![Segmentation](/help/assets/icons/Segmentation.svg)| **[!UICONTROL Segments]** | Show only components that are segments. |
    | ![Calendar](/help/assets/icons/Calendar.svg) | **[!UICONTROL Date ranges]** | Show only components that are Date ranges. |
-   | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *Tag name*]** | Show only components with the specific selected tags. A dedicated tag is available for Adobe Template which are the [default calculated metrics](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md) from Adobe. |
+   | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *Tag name*]** | Show only components with the specific selected tags. A dedicated tag is available for Adobe Template which are the [default calculated metrics](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md) from Adobe. |
 
    Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) in a filter to remove the filter.
 

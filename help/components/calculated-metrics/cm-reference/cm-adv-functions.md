@@ -7,7 +7,7 @@ role: User
 ---
 # Advanced functions
 
-The [Calculated metrics builder](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents alphabetical list of the advanced  functions and their definitions.
+The [Calculated metrics builder](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents alphabetical list of the advanced  functions and their definitions.
 
 Access these functions by selecting **[!UICONTROL Show all]** below ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** list in the Components panel. Scroll down to see the list of **[!UICONTROL Advanced functions]**.
 

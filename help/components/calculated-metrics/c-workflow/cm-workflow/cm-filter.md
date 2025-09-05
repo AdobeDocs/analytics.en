@@ -48,14 +48,14 @@ Filtering makes it easier to search for calculated metrics in the segment rail.
 
    |  Filter Name  | Description  |
    |---|---|
-   |  Tags  |Lets you filter on calculated metrics with specific [tags](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md). The Tags column is shown by default.  |
+   |  Tags  |Lets you filter on calculated metrics with specific [tags](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-tagging.md). The Tags column is shown by default.  |
    |  Owners  | Lets you filter calculated metrics by owner.  |
    | Report suite | Lets you filter calculated metrics by report suite. |
    |  Other Filters > Show All  | **(Admin only)** Shows all calculated metrics, their owner, and the last date they were modified.  |
    |  Other Filters > Mine  | Shows all calculated metrics that you own.  |
-   |  Other Filters > Shared with me  |Shows all calculated metrics that others [shared](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) with you.  |
+   |  Other Filters > Shared with me  |Shows all calculated metrics that others [shared](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-sharing.md) with you.  |
    |  Other Filters > Favorites  |Shows all calculated metrics you marked as [Favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md).  |
-   |  Other Filters > Approved  |Shows all officially [approved](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md) calculated metrics.  |
+   |  Other Filters > Approved  |Shows all officially [approved](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-approving.md) calculated metrics.  |
    |  Search calculated metrics  | Lets you search for calculated metrics by name.  |
 
    -->

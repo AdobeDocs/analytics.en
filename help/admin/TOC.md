@@ -133,12 +133,12 @@ user-guide-description: Learn about Analytics administration tasks, such managin
     + [Pending actions](tools/company/pending-actions-admin.md)
     + [Feature access levels](tools/company/feature-access-levels.md)
   + Privacy Labeling {#privacy-labeling}
-     + [Overview](tools/privacy-labeling/gdpr-setup-reportsuite.md)
-     + [Data Privacy labels for Analytics components](tools/privacy-labeling/gdpr-labels.md)
-     + [View/manage report suite's privacy labels](tools/privacy-labeling/gdpr-view-settings.md)
-     + [Labeling best practices](tools/privacy-labeling/gdpr-analytics-ids.md)
-     + [Labeling example](tools/privacy-labeling/gdpr-labeling-example.md)
-     + [Namespaces](tools/privacy-labeling/gdpr-namespaces.md)
+     + [Overview](tools/privacy-labeling/labeling-overview.md)
+     + [Data Privacy labels for Analytics components](tools/privacy-labeling/labels.md)
+     + [View/manage report suite's privacy labels](tools/privacy-labeling/view-settings.md)
+     + [Labeling best practices](tools/privacy-labeling/best-practices.md)
+     + [Labeling example](tools/privacy-labeling/examples.md)
+     + [Namespaces](tools/privacy-labeling/namespaces.md)
   + Server Call Usage {#server-call-usage}
     + [Server call usage overview](tools/server-call-usage/overage-overview.md)
     + [View current server call usage](tools/server-call-usage/server-call-usage-dashboard.md)

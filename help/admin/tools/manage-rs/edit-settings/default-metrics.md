@@ -15,4 +15,4 @@ For more information, see:
 
 * [Metrics in Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md)
 
-* [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
+* [Calculated Metrics](/help/components/calculated-metrics/cm-overview.md)

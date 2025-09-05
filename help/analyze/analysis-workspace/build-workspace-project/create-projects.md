@@ -33,7 +33,7 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
 * Add [components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to your visualizations. For example:
   * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
   * **[!DNL Unique Visitors]** [metric](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎ 
-  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/c-calcmetrics/cm-overview.md) ➏ 
+  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/calculated-metrics/cm-overview.md) ➏ 
   * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segmentation/seg-overview.md) ➐
   * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑ 
   * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒

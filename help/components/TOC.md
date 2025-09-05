@@ -249,7 +249,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Limit a Virtual report suite to certain dates](cda/limit-vrs-date.md)
   + [Cross-Device Analytics FAQ](cda/faq.md)
 + Alerts {#alerts}
-  + [Overview](c-alerts/intellligent-alerts.md)
+  + [Overview](c-alerts/alerts-overview.md)
   + [Create alerts](c-alerts/alert-builder.md)
   + [Manage alerts](c-alerts/alert-manager.md)
   + [Use cases](c-alerts/alerts-use-cases.md)

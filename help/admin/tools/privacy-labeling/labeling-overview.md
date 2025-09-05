@@ -7,7 +7,7 @@ exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 ---
 # Privacy labeling overview
 
-Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure that you first familiarize yourself with the [labels and their definitions](/help/admin/tools/privacy-labeling/gdpr-labels.md).
+Labeling report suite data means that you assign identity, sensitivity, and data governance labels to each variable in a given report suite. Make sure that you first familiarize yourself with the [labels and their definitions](/help/admin/tools/privacy-labeling/labels.md).
 
 >[!NOTE]
 >

@@ -23,7 +23,7 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 | **Multiple report suites** | [Yes](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |  Yes | No | Yes | No | Yes |
 | **Number of breakdowns** | Unlimited | Up to 2 | Unlimited | Unlimited | Unlimited, run across multiple queries |
 | **Segmentation** <br> [Learn more](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Yes | Yes | Yes, with [limitations](/help/components/segmentation/seg-reference/seg-compatibility.md) | No | Yes |
-| **Calculated metrics** <br> [Learn more](/help/components/c-calcmetrics/cm-overview.md) | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Yes, with Attribution | Yes |No | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Calculated metrics** <br> [Learn more](/help/components/calculated-metrics/cm-overview.md) | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Yes, with Attribution | Yes |No | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketing Channels** <br> [Learn more](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Yes | Yes | Yes | Yes - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Yes |
 | **Cohort analysis** | [Yes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Yes | No | No | No |
 | **Attribution** | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limited | No | No | Yes, with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | No |

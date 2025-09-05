@@ -47,4 +47,4 @@ The following key features in Adobe Analytics provide these predictive capabilit
 
 * [Contribution analysis](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Alerts](/help/components/c-alerts/intellligent-alerts.md)
+* [Alerts](/help/components/alerts/alerts-overview.md)

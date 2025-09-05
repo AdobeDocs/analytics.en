@@ -61,7 +61,7 @@ To share a calculated metric:
 
    * **[!UICONTROL All]** (Administrators only): Shares with all users in the organization.
 
-     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-approving.md).
    
    * **[!UICONTROL Groups]** (Administrators only): Select any groups you want to share with.
 

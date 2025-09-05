@@ -12,7 +12,7 @@ You can filter, tag, delete, rename, copy, enable, disable, renew, and export al
 
 * Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Alerts]**.
 
-The Alerts manager is structured like the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) and the [Calculated metric manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).
+The Alerts manager is structured like the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) and the [Calculated metric manager](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-manager.md).
 
 
 ## Alerts manager
@@ -146,7 +146,7 @@ To create alerts from the Alerts manager:
 
    * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
 
-     If you select this option, continue with [Create alerts](/help/components/c-alerts/alert-builder.md) for more details about creating alerts.
+     If you select this option, continue with [Create alerts](/help/components/alerts/alert-builder.md) for more details about creating alerts.
 
    * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 

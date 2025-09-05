@@ -19,7 +19,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **ASI slot:** No longer exists. In previous versions of Adobe Analytics, ASI slots provided a temporary report suite container to view segmented data. In the current version of Adobe Analytics, segments can be applied instantly to any report.
 * **Breakdown:** Lets you view a dimension inside the context of another dimension. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analytics Tools Guide.
 * **Bounce:** A visit that consists of a single hit. See [Bounces](/help/components/metrics/bounces.md) in the Components user guide. See also Single access.
-* **Calculated metric:** Allows the combination of existing metrics, statistical functions, and formulas for use in reporting. See [Calculated metrics](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide.
+* **Calculated metric:** Allows the combination of existing metrics, statistical functions, and formulas for use in reporting. See [Calculated metrics](/help/components/calculated-metrics/cm-overview.md) in the Components user guide.
 * **Campaign:** Can refer to:
   * The Campaign variable, which populates the Tracking Code dimension. See [campaign](../implement/vars/page-vars/campaign.md) in the Implement user guide.
   * A default classification of the Tracking Code dimension; automatically created for all report suites.

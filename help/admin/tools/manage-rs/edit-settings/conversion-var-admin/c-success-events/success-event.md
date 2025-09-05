@@ -82,6 +82,6 @@ To configure success events:
 
    >[!NOTE]
    >
-   >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) builder.
+   >You can enable participation for up to 100 custom events. Beyond that, you can create participation metrics in the [Calculated Metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) builder.
 
 1. Select **[!UICONTROL Save]**.

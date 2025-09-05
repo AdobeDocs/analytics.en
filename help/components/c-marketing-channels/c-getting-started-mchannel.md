@@ -10,7 +10,7 @@ exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 >
 >To maximize effectiveness of Marketing Channels for Attribution and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Marketing Channels are commonly used to provide insight on how visitors arrive on your site. You can customize your Marketing Channel Processing Rules based on what channels you want to track, and how you want to track them.
 
@@ -35,9 +35,9 @@ A list of recommended channels can be found in [Frequently Asked Questions and E
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for important prerequisite and conceptual information.
 
-See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for the procedure.
+See [Add marketing channels](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) for the procedure.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ See [Add marketing channels](/help/admin/admin/c-manage-report-suites/c-edit-rep
 
 After you create channels on the [!UICONTROL Marketing Channel Manager] page, you configure the rules so that channels can retrieve and report data.
 
-See [Marketing Channel Processing Rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+See [Marketing Channel Processing Rules](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 If channels were created in the automatic setup, the rules in those channels are defined. You can modify them to suit your needs.
 
@@ -65,7 +65,7 @@ How to run the Marketing Channels automatic setup.
 
    >[!NOTE]
    >
-   >The [!UICONTROL Marketing Channels: Auto Setup] page displays automatically when you access channel configuration applications in Admin Tools. (See [Marketing Channel Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) This page does not display if your report suite contains one or more marketing channels. You cannot access this page again unless you select another report suite that does not contain marketing channels.
+   >The [!UICONTROL Marketing Channels: Auto Setup] page displays automatically when you access channel configuration applications in Admin Tools. (See [Marketing Channel Manager](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) This page does not display if your report suite contains one or more marketing channels. You cannot access this page again unless you select another report suite that does not contain marketing channels.
 
 1. Make sure the channels that you want to create are selected.
 

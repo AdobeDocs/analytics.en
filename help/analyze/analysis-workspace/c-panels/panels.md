@@ -85,7 +85,7 @@ You can manage a panel in the following ways:
 
 ## Report suite
 
-Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.
+Each panel is associated with a [report suite](/help/admin/tools/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.
 
 When you create a new panel, the default report suite is based on the report suite of the panel you last worked on in the Analysis Workspace project.
 

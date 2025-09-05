@@ -24,8 +24,8 @@ Data uploaded through data sources do not impact [Page views](/help/components/m
 +++Does data uploaded through data sources run through additional processing, like processing rules?
 No. Data uploaded through data sources:
 
-* Does not go through [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* Does not go through [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* Does not go through [Processing rules](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+* Does not go through [Marketing channel processing rules](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
 * Does not go through [VISTA rules](/help/technotes/vista.md)
 +++
 

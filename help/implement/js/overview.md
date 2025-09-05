@@ -20,11 +20,11 @@ A high-level overview of the implementation tasks:
 </tr>
 
 <tr>
-<td>1</td><td>Ensure you have <b>defined a report suite</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Ensure you have <b>defined a report suite</b></td><td><a href="../../admin/tools/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Download the required JavaScript code for AppMeasurement</b> from Code Manager. Unzip the file.</td><td><a href="../../admin/admin/code-manager-admin.md">Code Manager</a></td>
+<td>2</td><td><b>Download the required JavaScript code for AppMeasurement</b> from Code Manager. Unzip the file.</td><td><a href="../../admin/tools/code-manager-admin.md">Code Manager</a></td>
 </tr>
 
 <tr>

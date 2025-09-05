@@ -10,7 +10,7 @@ exl-id: e3794d8c-3c03-425d-850c-a735b579324b
 
 Streaming media services quality dimensions provide reporting related to the quality of the content that the visitor consumes. Use of these dimensions require the [!UICONTROL Adobe Analytics for Streaming Media Ad-on]. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Media Quality]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
+When you enable **[!UICONTROL Media Quality]** under [Media reporting](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
 
 | Dimensions name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

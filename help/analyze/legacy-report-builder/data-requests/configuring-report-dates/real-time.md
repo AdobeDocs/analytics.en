@@ -21,7 +21,7 @@ You can:
 * Use any custom event, shopping cart event, or instance.
 * View up to 20 hours of historical, real-time data.
 
-Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+Real-time respects permissions for users and groups. For example, if you do not have rights to see revenue, you cannot view a real-time report that includes revenue data. eVars (conversion metrics) are not supported. Real-Time permissions are enabled in the [Admin Tools](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 >[!NOTE]
 >

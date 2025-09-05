@@ -16,8 +16,8 @@ For information on which Adobe Analytics product to use, see [Which Adobe Analyt
 | **Data granularity** | Aggregated |  Aggregated | Aggregated | Hit | Aggregated |
 | **Experience Cloud ID (ECID) available** | No |  No | Yes | Yes | No |
 | **Timestamp available** | No | No | No | Yes | No |
-| **Level of processing** | Fully-processed |  Fully-processed, with separate [real-time report](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Fully-processed |  Fully-processed | Fully-processed |
-| **Admin bot filter data included** <br> [Learn more](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | No | Yes - separate bot report | No | No | No |
+| **Level of processing** | Fully-processed |  Fully-processed, with separate [real-time report](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Fully-processed |  Fully-processed | Fully-processed |
+| **Admin bot filter data included** <br> [Learn more](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | No | Yes - separate bot report | No | No | No |
 | **Low traffic (Uniques exceeded) appears** <br> [Learn more](/help/technotes/low-traffic.md) | Yes | Yes | No | No | Yes |
 | **Visible row limit (before pagination)** | 400 | 50000 | Unlimited | Unlimited | 50000 |
 | **Multiple report suites** | [Yes](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |  Yes | No | Yes | No | Yes |

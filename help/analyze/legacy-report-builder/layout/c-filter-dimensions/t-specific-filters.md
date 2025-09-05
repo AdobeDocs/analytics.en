@@ -18,7 +18,7 @@ You can search on specific dimension items by creating a filter that matches exa
 
 1. Create or edit a request, and advance to the [!UICONTROL Request Wizard: Step 2].
 
-   ![Screenshot showing the Filter by options: Application, User, and Project.](/help/admin/admin/assets/filter.png)
+   ![Screenshot showing the Filter by options: Application, User, and Project.](/help/admin/tools/assets/filter.png)
 
 1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 

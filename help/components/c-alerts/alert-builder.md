@@ -19,7 +19,7 @@ exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 >
 >Using alerts with anomaly detection (also known as _Intelligent Alerts_) is available only to organizations with an Adobe Analytics Prime or Ultimate package.
 
-Alerts in Adobe Analytics allow you to be notified based on changed percentages or specific data points. Depending on your Adobe Analytics package, you can also use alerts to be triggered based on anomaly thresholds. Server call usage alerts are a different kind of alert that is available only to Analytics administrators. These alerts notify you of the risk or occurrence of an overage in your server call consumption and commitment data. For more information, see [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+Alerts in Adobe Analytics allow you to be notified based on changed percentages or specific data points. Depending on your Adobe Analytics package, you can also use alerts to be triggered based on anomaly thresholds. Server call usage alerts are a different kind of alert that is available only to Analytics administrators. These alerts notify you of the risk or occurrence of an overage in your server call consumption and commitment data. For more information, see [Server call usage alerts](/help/admin/tools/c-server-call-usage/scu-alerts.md).
 
 For more detailed information about alerts, see [Alerts overview](intellligent-alerts.md).
 

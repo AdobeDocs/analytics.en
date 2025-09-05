@@ -20,7 +20,7 @@ A report suite must have Activity Map reporting enabled before you can start col
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report suites]** > Select report suite > **[!UICONTROL Edit settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map reporting]** > **[!UICONTROL Enable Activity Map Reports]**
 
-Enabling Activity Map reports creates several backend reserved variables. See [Activity Map Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) in the Adobe Analytics admin guide for more information.
+Enabling Activity Map reports creates several backend reserved variables. See [Activity Map Reporting](/help/admin/tools/c-manage-report-suites/c-edit-report-suites/activity-map.md) in the Adobe Analytics admin guide for more information.
 
 ## Code installation
 

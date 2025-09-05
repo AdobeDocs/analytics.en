@@ -19,7 +19,7 @@ The following information explains how to create a simple *Page Views per Visits
 1. Then drag **[!UICONTROL Visits]** from the **[!UICONTROL Metrics]** components and drop the metric underneath **[!UICONTROL Page Views]** (wait until the blue line appears before you drop the metric).
 1. Select the divide ![Divide](/help/assets/icons/Divide.svg) operator. (Divide is the default operator.) 
 1. You can see a **[!UICONTROL Preview]** of the metric while you are building the metric.
-1. [Product compatibility](../../../cm-compatibility.md) shows you whether the metric is compatible with Current Data or only with Fully Processed Data.
+1. [Product compatibility](/help/components/calculated-metrics/cm-compatibility.md) shows you whether the metric is compatible with Current Data or only with Fully Processed Data.
 
    ![Simple calculated metric](assets/simple-calculated-metric.png)
 1. Select **[!UICONTROL Save]**.

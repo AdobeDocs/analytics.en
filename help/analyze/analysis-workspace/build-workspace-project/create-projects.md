@@ -33,7 +33,7 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
 * Add [components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) to your visualizations. For example:
   * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
   * **[!DNL Unique Visitors]** [metric](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎ 
-  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/c-calcmetrics/cm-overview.md) ➏ 
+  * **[!DNL Average Revenue Per Order]** [calculated metric](/help/components/calculated-metrics/cm-overview.md) ➏ 
   * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segmentation/seg-overview.md) ➐
   * **[!DNL Last Month]** [date range](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑ 
   * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
@@ -124,7 +124,7 @@ The following sections describe how to create a project and start adding the key
 
 ## Add panels to the project {#panels}
 
-[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+[Panels](/help/analyze/analysis-workspace/c-panels/panels.md) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
 
 Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
 
@@ -142,7 +142,7 @@ To add a panel:
 
 ## Add visualizations to the project
 
-[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
+[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >

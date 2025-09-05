@@ -31,4 +31,4 @@ Report Builder supports workbooks up to the following limits:
 
 ## How do I know whether I have access to Report Builder? {#access}
 
-You need to be granted Report Builder access by your Adobe Analytics Admin. The Admin sets up product profiles in the [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Ask your Admin to grant you access.
+You need to be granted Report Builder access by your Adobe Analytics Admin. The Admin sets up product profiles in the [Adobe Admin Console](/help/admin/admin-console/home.md). Ask your Admin to grant you access.

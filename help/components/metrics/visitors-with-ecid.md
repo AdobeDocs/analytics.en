@@ -24,7 +24,7 @@ Drag the 'Visitors with Experience Cloud ID' side-by-side with Unique visitors t
 
 ![Unique visitor comparison](assets/metric-mcvid1.png)
 
-In this example, notice that each page has the same number of 'Unique Visitors' as 'Visitors with a Experience Cloud ID'. However, the total number of Unique Visitors is greater than the total number of Visitors with Experience Cloud ID. You can create a [calculated metric](../c-calcmetrics/cm-overview.md) to find out which pages are not setting the ID service. You can use the following defintion:
+In this example, notice that each page has the same number of 'Unique Visitors' as 'Visitors with a Experience Cloud ID'. However, the total number of Unique Visitors is greater than the total number of Visitors with Experience Cloud ID. You can create a [calculated metric](../calculated-metrics/cm-overview.md) to find out which pages are not setting the ID service. You can use the following defintion:
 
 ![Calculated metric definition](assets/metric-mcvid2.png)
 

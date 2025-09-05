@@ -13,7 +13,7 @@ Answers to questions you might have when implementing Audience Analytics.
 
 +++ How do I know if I have Personally Identifiable Information (PII) in my Analytics data? And if yes, what do I do about it?
 
-If you have emails/addresses/etc in a prop or eVar, consider hashing the data during collection. If your country considers IP address to be PII, [turn on IP obfuscation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html). Talk to your Analytics Admin to see what you are collecting. Talk to your Legal department to see what they consider PII. 
+If you have emails/addresses/etc in a prop or eVar, consider hashing the data during collection. If your country considers IP address to be PII, [turn on IP obfuscation](/help/admin/tools/exclude-ip.md). Talk to your Analytics Admin to see what you are collecting. Talk to your Legal department to see what they consider PII. 
 
 +++
 
@@ -129,7 +129,7 @@ Yes. In the Adobe Audience Manager destination setup, you will see only report s
 
 Only suites that are mapped to your Experience Cloud Org can be enabled. 
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 

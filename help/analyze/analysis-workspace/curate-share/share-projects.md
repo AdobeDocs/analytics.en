@@ -101,7 +101,7 @@ To share a specific project role with users or groups in your organization:
   
    Or
    
-   Select **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, select **[!UICONTROL Curate & Update]**.) Learn more about [project curation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+   Select **[!UICONTROL Curate and Share]** to apply project curation automatically. (If the project has already been shared, select **[!UICONTROL Curate & Update]**.) Learn more about [project curation](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Share a link to a project 
 
@@ -109,7 +109,7 @@ When sharing a link as described in this section, consider the following:
 
 * Recipients who use the link are required to log in to Adobe Analytics before gaining access to the project. 
 
-* If a recipient is not assigned a role and receives a [shareable link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project, they are given a role by default. Admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]**.
+* If a recipient is not assigned a role and receives a [shareable link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) to the project, they are given a role by default. Admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]**.
 
 To share the project link with users in your organization:
 
@@ -170,7 +170,7 @@ To share an Analysis Workspace project with people who don't have access to Adob
 
    Selecting this option creates a link to the project that can be shared with anyone. You can disable access to the project at any time by disabling this option. 
    
-   The owner of the project is also the owner of this link. Link ownership can be transferred to another user only when project ownership is transferred, as described in [Transfer user assets or set account expirations](/help/admin/admin/user-management2/users-assets.md) in the Analytics Admin guide.
+   The owner of the project is also the owner of this link. Link ownership can be transferred to another user only when project ownership is transferred, as described in [Transfer user assets or set account expirations](/help/admin/tools/user-management/users-assets.md) in the Analytics Admin guide.
 
 1. Choose whether to enable the following security option (this option can be controlled by your Analytics administrator): 
 

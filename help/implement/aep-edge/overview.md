@@ -11,11 +11,13 @@ The Adobe Experience Platform Edge Network allows you to send data destined to m
 
 ## How Adobe Analytics handles Edge Network data
 
+Since data sent to the Edge Network and AppMeasurement data operate differently, the Edge Network payload determines how Adobe Analytics handles the hit. See [Edge Network event types in Adobe Analytics](hit-types.md) for more information.
+
 Data sent to the Adobe Experience Platform Edge Network can follow three formats: **XDM object**, **Data object**, and **Context data**. When a datastream forwards data to Adobe Analytics, they are translated into a format that Adobe Analytics can handle.
 
 ## `xdm` object
 
-Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
+Conform to schemas that you create based on [XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) (Experience Data Model). XDM gives you flexibility in what fields are defined as part of events. If you want to use a pre-defined schema specific to Adobe Analytics, you can add the [Adobe Analytics ExperienceEvent schema field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) to your schema. Once added, you can populate this schema using the `xdm` object in the Web SDK to send data to a report suite. When data arrives at the Edge Network, it translates the XDM object into a format that Adobe Analytics understands.
 
 See [XDM object variable mapping to Adobe Analytics](xdm-var-mapping.md) for a full reference of XDM fields and how they map to Analytics variables.
 
@@ -31,7 +33,7 @@ See [Data object variable mapping to Adobe Analytics](data-var-mapping.md) for a
 
 ## Context data variables
 
-Send data to the Edge Network in any format that you'd like. Any fields that don't automatically map to `xdm` or `data` object fields are included as [Context data variables](/help/implement/vars/page-vars/contextdata.md) when forwarded to Adobe Analytics. You must then use [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) to map the desired fields to their respective Analytics variables.
+Send data to the Edge Network in any format that you'd like. Any fields that don't automatically map to `xdm` or `data` object fields are included as [Context data variables](/help/implement/vars/page-vars/contextdata.md) when forwarded to Adobe Analytics. You must then use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to map the desired fields to their respective Analytics variables.
 
 For example, if you had a custom XDM schema that looked like the following:
 

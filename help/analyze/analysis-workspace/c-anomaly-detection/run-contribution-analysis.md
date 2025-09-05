@@ -53,7 +53,7 @@ The steps to run Contribution Analysis are:
     * [Break down each dimension item by another dimension](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 
     * [Trending one or more rows](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) 
     * [Add a new visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 
-    * [Create alerts](/help/components/c-alerts/intellligent-alerts.md) 
+    * [Create alerts](/help/components/alerts/alerts-overview.md) 
     * [Create or compare segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

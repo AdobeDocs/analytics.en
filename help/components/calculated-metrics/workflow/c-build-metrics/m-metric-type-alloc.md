@@ -153,7 +153,7 @@ See [Example](#example) for an example of using an attribution model, container,
 
 
 <!--
-When [building a calculated metric](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
+When [building a calculated metric](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
 ## Metric type
 

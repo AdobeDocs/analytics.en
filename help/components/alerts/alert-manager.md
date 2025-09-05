@@ -12,7 +12,7 @@ You can filter, tag, delete, rename, copy, enable, disable, renew, and export al
 
 * Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Alerts]**.
 
-The Alerts manager is structured like the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) and the [Calculated metric manager](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-manager.md).
+The Alerts manager is structured like the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) and the [Calculated metric manager](/help/components/calculated-metrics/workflow/cm-manager.md).
 
 
 ## Alerts manager

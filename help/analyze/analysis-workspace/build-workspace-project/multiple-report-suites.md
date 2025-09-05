@@ -66,5 +66,5 @@ You can recognize the active panel by the light blue border around it. Simply se
 1. (Optional) You can also go to other Analytics component builders and ensure that they now show a report suite label indicating
 
     * Where a segment will be created: [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
-    * Where a calculated metric will be created: [Calculated metric builder](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+    * Where a calculated metric will be created: [Calculated metric builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
     * Where an alert will be built: [Alert builder](/help/components/alerts/alert-builder.md).

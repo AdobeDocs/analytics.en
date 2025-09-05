@@ -39,13 +39,13 @@ This type of information could be useful for any content owner.
 >
 >You can enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
-1. Begin creating a calculated metric, as described in [Build metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Begin creating a calculated metric, as described in [Build metrics](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
 
 1. In the Calculated metrics builder, name the metric "Participation".
 
 1. Drag the success event "Orders" into the Definition canvas.
 
-1. Change the [attribution model](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. The definition should look similar to this:
+1. Change the [attribution model](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. The definition should look similar to this:
 
    ![](assets/participation.png)
 
@@ -55,5 +55,5 @@ This type of information could be useful for any content owner.
 
     ![](assets/participation-pages.png)
 
-1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/calculated-metrics/workflow/cm-sharing.md).
 -->

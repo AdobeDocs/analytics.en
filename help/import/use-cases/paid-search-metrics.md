@@ -112,7 +112,7 @@ Go back to the Data Source wizard for instructions and upload the file via FTP:
 
 Adding calculated metrics will be helpful when making pay-per-click decisions.
 
-For example, you could add these [calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
+For example, you could add these [calculated metrics](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics):
 
 | Name | Formula | Metric Type | Description |
 | --- | --- | --- | --- |

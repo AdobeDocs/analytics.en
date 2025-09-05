@@ -8,7 +8,7 @@ role: User
 # Basic functions
 
 
-The [Calculated metrics builder](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents alphabetical list of the functions and their definitions.
+The [Calculated metrics builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents alphabetical list of the functions and their definitions.
 
 >[!NOTE]
 >

@@ -55,7 +55,7 @@ Segments, date ranges, and calculated metrics that don't already exist in Custom
 
 |  | Migrated |
 |---------|---------|
-| **[Owner](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensions and metrics: No<p>Segments and date ranges: ![check mark](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Owner](/help/components/calculated-metrics/workflow/cm-manager.md)** | Dimensions and metrics: No<p>Segments and date ranges: ![check mark](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[Sharing](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions and metrics: No<p>Segments and date ranges: No</p> |
 | **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensions and metrics: No<p>Segments and date ranges: ![check mark](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions and metrics: No<p>Segments and date ranges: No</p> |

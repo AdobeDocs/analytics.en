@@ -97,7 +97,7 @@ You can use segments in Analysis Workspace in any of the following ways:
   When you add segments to a column in a freeform table, the segments apply to all content within the table column. You can also add segments as part of a fallout visualization.
 
 * Use segments in components
-  When you define components like [calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) you can use segments as part of the definition.
+  When you define components like [calculated metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), or even [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) you can use segments as part of the definition.
 
 
 ### Add date ranges to a project
@@ -239,7 +239,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

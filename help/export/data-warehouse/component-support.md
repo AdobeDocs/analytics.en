@@ -61,7 +61,7 @@ Some dimensions and metrics are not supported in Data Warehouse.
   * Reloads
   * Single Access
   * 'Time Spent' metrics 
-* Participation metrics (as described in [Build a "Participation" metric](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Participation metrics (as described in [Build a "Participation" metric](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
    
 ### Dimensions supported in a different way (non-standard date formatting)
 

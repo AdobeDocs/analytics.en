@@ -48,7 +48,7 @@ There are several ways to create calculated metrics. The method you choose deter
 
 ### Create calculated metrics for all projects
 
-You can use the [calculated metric builder](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) to [create calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-workflow.md). When created in this way, calculated metrics are available in the component list and can be used in projects throughout your organization. 
+You can use the [calculated metric builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) to [create calculated metrics](/help/components/calculated-metrics/workflow/cm-workflow.md). When created in this way, calculated metrics are available in the component list and can be used in projects throughout your organization. 
 
 
 ### Create calculated metrics for a single project

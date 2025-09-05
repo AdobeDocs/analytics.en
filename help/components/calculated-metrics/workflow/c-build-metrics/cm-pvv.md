@@ -8,7 +8,7 @@ exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 
 The following information explains how to create a simple *Page Views per Visits* metric.
 
-1. Start to build a metric, as described in [Build metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Start to build a metric, as described in [Build metrics](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
 1. Name the metric `Page Views per Visit` or something similar.
 1. Give the metric a user-friendly **[!UICONTROL Description]** to show what the metric is used for.
 1. Select the right **[!UICONTROL Format]**. For this example, choose **[!UICONTROL Decimal]**.
@@ -26,5 +26,5 @@ The following information explains how to create a simple *Page Views per Visits
   
    Notice that the **[!UICONTROL Summary]** formula updates anytime you make a change to the metric definition.
 
-1. (Optional) To share, approve, (re-)tag, rename, or delete a metric, you can go to the [Calculated metrics manager](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-manager.md).
+1. (Optional) To share, approve, (re-)tag, rename, or delete a metric, you can go to the [Calculated metrics manager](/help/components/calculated-metrics/workflow/cm-manager.md).
 

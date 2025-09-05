@@ -81,19 +81,19 @@ The Calculated metrics page shows you all the segments you own and that have bee
 
 In the Calculated metrics manager, you can:
 
-* [Filter calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-filter.md)
+* [Filter calculated metrics](/help/components/calculated-metrics/workflow/cm-filter.md)
 
-* [Mark calculated metrics as favorites](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-favorite.md)
+* [Mark calculated metrics as favorites](/help/components/calculated-metrics/workflow/cm-favorite.md)
 
-* [Approve calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-approving.md)
+* [Approve calculated metrics](/help/components/calculated-metrics/workflow/cm-approving.md)
 
-* [Tag calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-tagging.md)
+* [Tag calculated metrics](/help/components/calculated-metrics/workflow/cm-tagging.md)
 
-* [Share calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-sharing.md)
+* [Share calculated metrics](/help/components/calculated-metrics/workflow/cm-sharing.md)
 
 * Export a calculated metric to a CSV file. 
 
-* [Copy calculated metrics](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-copy.md)
+* [Copy calculated metrics](/help/components/calculated-metrics/workflow/cm-copy.md)
 
 * Delete calculated metrics
 
@@ -111,7 +111,7 @@ To configure the visible columns in the Calculated metrics manager:
 
    | Column title  | Description |
    |---|---|
-   | Favorites  | Displays star icons next to each calculated metric, allowing you to mark calculated metrics as favorites. For more information, see [Mark calculated metrics as favorites](/help/components/calculated-metrics/c-workflow/cm-workflow/cm-favorite.md). |
+   | Favorites  | Displays star icons next to each calculated metric, allowing you to mark calculated metrics as favorites. For more information, see [Mark calculated metrics as favorites](/help/components/calculated-metrics/workflow/cm-favorite.md). |
    | Title and description | These values are provided in the Calculated metric builder. To edit the title and description, select the title link to open the Calculated metric builder.  |
    | Report suite | Indicates in which report suite the metric was last saved.  |
    | Owner | Indicates who owns the custom metric. As a non-admin, you can see only metrics you own or those that were shared with you.  |

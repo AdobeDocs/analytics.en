@@ -10,7 +10,7 @@ role: Admin, Developer
 
 *This help page describes how to implement merchandising eVars. For information on how merchandising eVars work as a dimension, see [eVars (Merchandising dimension)](/help/components/dimensions/evar-merchandising.md) in the Components user guide.*
 
-For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](https://experienceleague.adobe.com/docs/analytics/admin/tools/conversion-variables/merchandising-evars.html).
+For a detailed discussion of how merchandising eVars work, see [Merchandising eVars and product finding methods](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
 ## Set up eVars in report suite settings
 

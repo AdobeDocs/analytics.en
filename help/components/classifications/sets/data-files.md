@@ -196,7 +196,7 @@ Common upload issues and solutions:
 
 ### General file format errors
 
-* **Invalid file format**: Verify your file extension matches the content format (.json, .csv, .tsv, or .tab).
+* **Invalid file format**: Verify that your file extension matches the content format (.json, .csv, .tsv, or .tab).
 * **"Unknown header"**: Column names must match your classification set schema (applies to all formats).
 
 ### CSV/TSV specific errors
@@ -215,7 +215,7 @@ Common upload issues and solutions:
 * **"Data is a required field when using action=delete-field"**: JSON delete-field actions must specify which fields to delete in the `"data"` field.
 * **"Data must not be present when using action=delete-key"**: JSON delete-key actions cannot include a `"data"` field.
 * **"Unsupported encoding"**: Use only supported encoding values in the `"enc"` field (utf8, UTF8, latin1, LATIN1).
-* **Invalid JSON syntax**: Ensure that the JSON file is formatted correctly following JSON Lines (i.e. JSONL) conventions. Also check for general JSON formatting, missing quotes, commas, brackets, etc.
+* **Invalid JSON syntax**: Ensure that the JSON file is formatted correctly following JSONL conventions. Also check for general JSON formatting, missing quotes, commas, brackets, etc.
 
 ### Size limit errors
 

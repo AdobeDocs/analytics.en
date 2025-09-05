@@ -28,9 +28,13 @@ We recommend using [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models.
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution results as if those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, Adobe recommends that you [create a classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension yields Attribution results similar to the case where those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
+
+If you disable these channels and remove their marketing channel processing rules, the results differ slightly from the classification approach. The value `None` represents visits that did not match any marketing channel processing rules. Differences can appear when a visit matching no channel follows a visit that matches a channel.
+
+You can still use custom attribution models to apply lookback windows and attribution models in either case.
 
 ## Best Practice #3: Enable Override Last-Touch Channel for all channels
 

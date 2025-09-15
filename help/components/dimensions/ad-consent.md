@@ -52,4 +52,4 @@ Your organization determines the logic to implement this context data variable. 
 
 When you send advertising data from Adobe Analytics via Adobe Advertising as conversion events to Google, please consult the Adobe Advertising team to assist with the integration.
 
-For more information see, [Privacy reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+For more information see, [Privacy reporting](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md).

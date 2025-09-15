@@ -8,8 +8,8 @@ user-guide-description: Bring data into Adobe Analytics from outside sources, ei
 
 # Adobe Analytics Import Guide {#import}
 
-+ [Analytics Import Guide](home.md)
-+ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics import guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Data Sources {#data-sources}
   + [Overview](data-sources/overview.md)
   + [Getting started](data-sources/getting-started.md)

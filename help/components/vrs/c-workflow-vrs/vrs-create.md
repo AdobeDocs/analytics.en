@@ -59,7 +59,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adjust a visit d
 ![](assets/components.png)
 
 1. On the [!UICONTROL Components] tab, select the checkbox to apply curation to include, exclude and rename components for this virtual report suite in Analysis Workspace.
-   For more information on virtual report suite curation, see [Virtual report suite component curation](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+   For more information on virtual report suite curation, see [Virtual report suite component curation](/help/components/vrs/vrs-components.md).
 
 1. Drag components (dimensions, metrics, segments, or date ranges) that you want to include in the Virtual report suite into the [!UICONTROL Included Components] section.
 

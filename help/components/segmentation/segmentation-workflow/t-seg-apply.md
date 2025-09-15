@@ -14,7 +14,7 @@ To use segments across Analysis Workspace you simply drag one or more segments f
 * A column in a [freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace to add or replace a column, or to initiate a filter.
 * Configurations panels for visualization or panels that allow to drop segments. For example, in a [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) panel, or [Key metric](/help/analyze/analysis-workspace/visualizations/key-metric.md) summary visualization
 * The [definition builder for a segment](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), so you include a segment in your segment definition.
-* The [definition builder for a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder), so you include a segment in your calculated metric definition.
+* The [definition builder for a calculated metric](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder), so you include a segment in your calculated metric definition.
 
 <!--
 How to apply one or more segments to a report from the segment rail.

@@ -57,6 +57,8 @@ To configure a cloud import or export account:
 
    +++Amazon S3 Role ARN
 
+      **NOTE:** When using Amazon S3 with Data Feeds and Data Warehouse, only SSE-S3 encryption is supported.
+      
       To configure an Amazon S3 Role ARN account, specify the following information:
 
       |Field | Function | 

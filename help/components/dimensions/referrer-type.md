@@ -21,6 +21,7 @@ Dimension items include the type of referrer of the hit. Specific values include
 * **Conversational AI tools**: The referrer came from a recognized conversational AI tool.
 * **Social networks:**: Referrer data belonged to an Adobe-recognized social network.
 * **Other web sites**: Referrer data did not belong to a search engine or social network that Adobe recognizes.
+* **No JavaScript**: The referrer came from a browser that did not have JavaScript enabled. 
 * **Hard drive**: Referrer originated from a local copy of a web page on the visitor's hard drive.
 * **Email**: Referrer originated from a URL with a protocol of `imap://` or `mail://`. Does not include online email services, as these typically use `https://` protocol.
 

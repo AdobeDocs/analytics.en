@@ -54,7 +54,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
           + [Common bot signatures](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
           + [Bot exclusion methods](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
         + [Privacy settings](tools/manage-rs/edit-settings/general/privacy-settings.md)
-        + [Timestamps configuration](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+        + [Timestamps configuration](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
         + Server-Side Forwarding {#server-side-forwarding}
           + [Server-side forwarding overview](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
           + [GDPR/ePrivacy compliance and server-side forwarding](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

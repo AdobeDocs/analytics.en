@@ -13,7 +13,7 @@ When you call [`t()`](t-method.md) or [`tl()`](tl-method.md) on a subsequent pag
 
 >[!TIP]
 >
->The timestamp of buffered requests is shared with the page that data is sent. If you want more precision in the exact second a buffered request is recorded, you can set the [`timestamp`](../page-vars/timestamp.md) page variable before buffering the request. If you use this variable, make sure that [Timestamps optional](/help/technotes/timestamps-optional.md) is enabled - if it is not, all timestamped hits are permanently lost!
+>The timestamp of buffered requests is shared with the page that data is sent. If you want more precision in the exact second a buffered request is recorded, you can set the [`timestamp`](../page-vars/timestamp.md) page variable before buffering the request. If you use this variable, make sure that [Timestamps optional](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) is enabled - if it is not, all timestamped hits are permanently lost!
 
 ## Limitations
 

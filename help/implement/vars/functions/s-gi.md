@@ -75,8 +75,8 @@ var s = s_gi('examplersid1');
 var z = s_gi('examplersid2');
 
 // The s object and z object contain their own independent Analytics variables simultaneously
-s.pageName = "Example page name 1";
-z.pageName = "Example page name 2";
+s.pageName = "Example page name";
+z.pageName = "An alternate page name";
 
 // Send data to the examplersid1 report suite
 s.t();

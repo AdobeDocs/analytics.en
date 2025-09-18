@@ -41,9 +41,9 @@ alloy("configure", {
 [!UICONTROL SSL Tracking Server] is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
 1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-2. Select the desired tag property.
-3. Go to the [!UICONTROL Extensions] tab, then select the **[!UICONTROL Configure]** button under Adobe Analytics.
-4. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL SSL Tracking Server] field.
+1. Select the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then select the **[!UICONTROL Configure]** button under Adobe Analytics.
+1. Expand the [!UICONTROL General] accordion, which reveals the [!UICONTROL SSL Tracking Server] field.
 
 If this field is left blank, it defaults to the value in [!UICONTROL Tracking Server]. If both [!UICONTROL SSL Tracking Server] and [!UICONTROL Tracking Server] are blank, it defaults to `[rsid].data.adobedc.net`.
 

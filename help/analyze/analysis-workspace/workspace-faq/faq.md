@@ -1,6 +1,6 @@
 ---
-description: Workspace FAQs
-title: Frequently asked questions and troubleshooting Workspace
+description: Get answers on common questions about Analysis Workspace.
+title: Frequently Asked Questions
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
@@ -20,7 +20,7 @@ Since Analysis Workspace is a reporting tool, it has no impact on data collectio
 +++
 
 +++How many report suites can be displayed in an Analysis Workspace project?
-You can now create projects in Analysis Workspace with data from more [multiple report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html).
+You can now create projects in Analysis Workspace with data from more [multiple report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md).
 +++
 
 +++How do you implement Analysis Workspace?

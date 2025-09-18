@@ -1,6 +1,6 @@
 ---
-title: Media Concurrent Viewers panel
-description: How to use and interpret the Media Concurrent Viewers panel in Analysis Workspace.
+title: Media Concurrent Viewers Panel
+description: Learn how to use and interpret the Media Concurrent Viewers panel in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
@@ -29,14 +29,14 @@ exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Media concurrent viewers panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_See [Media concurrent viewers panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+_This article documents the Media concurrent viewers panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_See [Media concurrent viewers panel](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->The Media average minute audience panel is available only to customers who have purchased the Streaming Media Collection Add-on for Adobe Analytics. 
+>The Media average minute audience panel is available only to customers who have purchased the Adobe Analytics for Streaming Media Add-on. 
 >
 >Contact your Adobe Sales representative or Adobe account team for more information. 
 >
@@ -62,7 +62,7 @@ To use an **[!UICONTROL Media concurrent viewers]** panel:
 
 1. Create a **[!UICONTROL Media concurrent viewers]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).  
 
-1. Ensure you select a data view for the panel that has components configured from the Streaming Media Collection.
+1. Ensure you select a data view for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
 
 1. Specify the [input](#panel-input) for the panel.
 

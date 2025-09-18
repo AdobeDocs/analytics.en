@@ -10,7 +10,7 @@ The 'Referrer type' [dimension](overview.md) reports which generic channels visi
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
 ## Dimension items
 
@@ -29,7 +29,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 
 >[!NOTE]
 >
->This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`
@@ -164,6 +164,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.com`
 * `threads.net`
 * `tiktok.com`
 * `toutiao.com`

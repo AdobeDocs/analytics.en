@@ -1,7 +1,7 @@
 ---
 title: Event serialization
 description: Help deduplicate metrics on your site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
 ---
@@ -15,7 +15,7 @@ Event serialization is the process of implementing measures to prevent duplicate
 
 ## Set up event serialization
 
-You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in the Admin user guide.
+You must first set an event's [!UICONTROL Unique Event Recording] to [!UICONTROL Use Event ID] in report suite settings. See [Success Events](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in the Admin user guide.
 
 When using event IDs, de-duplication happens on the following levels:
 

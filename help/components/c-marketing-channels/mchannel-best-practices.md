@@ -12,7 +12,7 @@ In order to future-proof your Marketing Channels implementation and to ensure th
 
 When Marketing Channels were first introduced, they came with only first-touch and last-touch dimensions. Explicit first/last touch dimensions are no longer needed with the current version of attribution. Adobe provides generic 'Marketing Channel' and 'Marketing Channel Detail' dimensions so you can use them with your desired attribution model. These generic dimensions behave identically to Last-Touch Channel dimensions, but are labeled differently to prevent confusion when using Marketing Channels with a different attribution model.
 
-Since Marketing Channel dimensions depend on a traditional Visit definition (as defined by their processing rules), their Visit definition cannot be changed using virtual report suites. These revised practices enable clear and controlled lookback windows with Attribution and with Customer Journey Analytics.
+Since Marketing Channel dimensions depend on a traditional Visit definition (as defined by their processing rules), their Visit definition cannot be changed using virtual report suites. These revised practices enable clear and controlled lookback windows with Attribution and with Adobe Analytics.
 
 ## Best Practice #1: Leverage Attribution for controlled analysis
 
@@ -22,15 +22,19 @@ We recommend using [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 * Configuration of the dimensions Marketing Channel and Marketing Channel Detail establishes touchpoints to be evaluated, corresponding to each Marketing Channel Instance.
 * For metric analysis, your organization should align on one or more attribution model/s. Save custom metrics with this model for easy reuse.
-* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace).
+* By default, data is allocated using Last Touch and the setting of the Visitor Engagement Period. Attribution metric models offer greater control over the lookback windows and more variety, including [algorithmic attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best Practice #2: No Direct and Session Refresh channel definitions
 
 Direct and Internal/Session Refresh channels are not recommended for use with custom attribution models.
 
-What if your organization already has Direct and Session Refresh configured? In this case, we recommend that you [create a classification](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension will yield the same Attribution results as if those channels were never configured.
+What if your organization already has Direct and Session Refresh configured? In this case, Adobe recommends that you [create a classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. The classified dimension yields Attribution results similar to the case where those channels were never configured.
 
 ![](assets/direct-session-refresh.png)
+
+If you disable these channels and remove their marketing channel processing rules, the results differ slightly from the classification approach. The value `None` represents visits that did not match any marketing channel processing rules. Differences can appear when a visit matching no channel follows a visit that matches a channel.
+
+You can still use custom attribution models to apply lookback windows and attribution models in either case.
 
 ## Best Practice #3: Enable Override Last-Touch Channel for all channels
 

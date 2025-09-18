@@ -1,6 +1,6 @@
 ---
-title: Section header
-description: A visualization that insert a section header in your Workspace project.
+title: Section Header
+description: Use the section header to insert a section header in your Analysis Workspace project.
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051

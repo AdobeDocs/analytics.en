@@ -6,6 +6,8 @@ exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
 ---
 # Classification importer processing time
 
+{{classification-importer-deprecation}}
+
 Processing time for a classification file varies with the size of the file and total number of files Adobe processes. Classifications typically don't take longer than 24 hours. However, periods of heavy classification use across organizations that use Adobe Analytics can cause files to take longer than 24 hours. Adobe sees heavy classification use in months leading up to the holiday season.
 
 If you want to see if a classification file is finished, do the following:

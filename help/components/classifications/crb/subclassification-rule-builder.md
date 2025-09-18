@@ -6,6 +6,8 @@ exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 ---
 # Sub-classifications and the rule builder (legacy)
 
+{{classification-rulebuilder-deprecation}}
+
 You can combine the Classification Rule Builder with sub-classifications if you ensure that every sub classification has a parent value.
 
 Combining the Classification Rule Builder with sub-classifications can simplify classification management and reduce the number of rules required. You might want to do this if your tracking code consists of codes that you would like to classify separately.
@@ -34,7 +36,7 @@ Example steps that describe how you can upload subclassifications using the Rule
 
    Example:
 
-   ![Step Info](/help/admin/admin/assets/sub_class_create.png)
+   ![Step Info](/help/admin/tools/assets/sub_class_create.png)
 
 1. In the [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 

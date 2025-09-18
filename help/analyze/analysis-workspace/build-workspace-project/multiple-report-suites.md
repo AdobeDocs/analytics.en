@@ -1,6 +1,6 @@
 ---
-title: Multiple report suites
-description: Learn how and why to create projects in Workspace with multiple report suites
+title: Multiple Report Suites
+description: Learn how to work with multiple report suites in one Analysis Workspace project.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
@@ -9,7 +9,7 @@ exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 
 You can create projects in Analysis Workspace with data from more than one report suite. Report suites are chosen at the panel level, so you can choose a different report suite for each panel within the same Workspace project. 
 
-This capability is useful if you want to, for example,
+This capability is useful if you want to:
 
 * Compare data from two different regions, and the data resides in two different report suites. You can build tables and visualizations to compare the data side by side.
 
@@ -31,16 +31,12 @@ You can apply a report suite to all panels at once by right-clicking any panel h
 
 ## Active panel
 
-We are introducing the concept of "active panel" versus "inactive panel" with this feature. You can recognize the active panel by the light blue border around it. Simply clicking inside a panel turns that panel into the active panel.
+You can recognize the active panel by the light blue border around it. Simply select inside a panel to turn that panel into the active panel.
 
 >[!TIP]
+>
 >You can drag and drop to any panel that is in the same report suite as your active panel. By dragging into an inactive panel of the same report suite, the panel will become active.
-
-| Task | Active panel | Inactive panel |
-| --- | --- | --- |
-| Change report suite | Yes | No |
-| Drag and drop components | Yes | Yes, for any panel that is in the same report suite as your active panel. |
-| Drag and drop visualizations | Yes | Yes, for any panel that is in the same report suite as your active panel. |
+>
 
 ## Work with multiple report suites
 
@@ -52,7 +48,9 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
 
     >[!NOTE]
+    >
     >Sometimes, a banner displays when loading a project (or switching to a report suite) where not all of the components included in the project are included in the report suite. The missing components will be listed. Follow [these instructions](/help/admin/admin-console/permissions/product-profile.md) to set permissions to the required metrics/dimensions.
+    >
 
     ![](assets/incompat-rs.png)
 
@@ -67,6 +65,6 @@ We are introducing the concept of "active panel" versus "inactive panel" with th
 
 1. (Optional) You can also go to other Analytics component builders and ensure that they now show a report suite label indicating
 
-    * Where a segment will be created: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-    * Where a calculated metric will be created: [Calculated Metric Builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-    * Where an alert will be built: [Alert Builder](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+    * Where a segment will be created: [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
+    * Where a calculated metric will be created: [Calculated metric builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+    * Where an alert will be built: [Alert builder](/help/components/alerts/alert-builder.md).

@@ -1,6 +1,6 @@
 ---
-description: A panel is a collection of tables and visualizations
-title: Panels overview
+description: Understand panels and how to use panels in Analysis Workspace.
+title: Panels Overview
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
@@ -24,6 +24,7 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Ad
 | [Media playback time spent](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
 | [Next or previous item](next-previous.md) | Show the next or previous pages people go to. |
 | [Quick insights](quickinsight.md) | Quickly build a freeform table and an accompanying visualization to analyze and uncover insights faster. |
+| [Page summary](page-summary.md) | Explore key statistics about specific pages. |
 | [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
 
 
@@ -70,13 +71,25 @@ You can:
 * Select ![AddCircle](/help/assets/icons/AddCircle.svg) **outside** the last panel in your workspace to add another [Blank panel](blank-panel.md).
 
 
+## Manage a panel
+
+You can manage a panel in the following ways:
+
+![Manage panel](assets/manage-panel.png)
+
+* To collapse a panel, select ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* To reveal a collapsed panel, select ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* To delete a panel, select ![CrossSize400](/help/assets/icons/CrossSize200.svg). To undo, select **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z*]** | **[!UICONTROL *ctrl+z*]**).
+* To move a panel, drag and drop the panel whenever a ![Move](/help/assets/icons/Move.svg) is visible (ususally when you hover over the header).
+
+
 ## Report suite
 
-Each panel is associated with a [report suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.
+Each panel is associated with a [report suite](/help/admin/tools/manage-rs/report-suites-admin.md), identified by ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *name of report suite*]** in the drop-down menu at the top right of the panel.
 
 When you create a new panel, the default report suite is based on the report suite of the panel you last worked on in the Analysis Workspace project.
 
-Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases.
+Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -154,7 +167,7 @@ Non-segment components can also be dragged directly into the drop zone to create
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dropdown segments](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Drop-down segments](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -265,7 +278,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 

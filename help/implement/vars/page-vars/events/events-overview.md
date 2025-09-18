@@ -1,7 +1,7 @@
 ---
 title: events
 description: Set the events variable, which governs most metrics on your site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
 ---
@@ -9,7 +9,7 @@ role: Admin, Developer
 
 Dimensions and metrics are vital components to reports. The `events` variable is responsible for data collection of many metrics on your site. Events typically increment [metrics](/help/components/metrics/overview.md) in reports.
 
-Before implementing events, make sure that you create and configure them under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
+Before implementing events, make sure that you create and configure them under [Success events](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in Report suite settings. If you plan to use custom events in link tracking hits, make sure that [`linkTrackVars`](../../config-vars/linktrackvars.md) and [`linkTrackEvents`](../../config-vars/linktrackevents.md) are set correctly.
 
 ## Events using the Web SDK
 
@@ -97,7 +97,7 @@ s.events = "event1=2,event2";
 
 You can change a custom event to use currency instead of integers. Currency events automatically convert to the report suite's currency if the report suite currency and the `currencyCode` variable do not match. They are useful to help calculate shipping costs, discounts, or refunds. You can set currency events in the `products` variable if you want to attribute the event to only that product.
 
-Before implementing currency events, make sure that you set the desired event to 'Currency' under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
+Before implementing currency events, make sure that you set the desired event to 'Currency' under [Success events](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -118,7 +118,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 You can change a custom event accept decimal values instead of integers. Numeric events behave similarly to currency events, except they do not use currency conversion. You can set numeric events in the `products` variable if you want to attribute the event to only that product.
 
-Before implementing numeric events, make sure that you set the desired event to 'Numeric' under [Success events](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
+Before implementing numeric events, make sure that you set the desired event to 'Numeric' under [Success events](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) in Report suite settings.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

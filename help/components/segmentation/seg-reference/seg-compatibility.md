@@ -1,12 +1,12 @@
 ---
-description: Not all segments created in the Segment Builder are compatible with Data Warehouse. This table lists the supported functions.
+description: Understand why not all segments created in the Segment builder are compatible with Data Warehouse. Learn which functions are supported.
 title: Data Warehouse Segment Compatibility
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 ---
-# Data Warehouse Segment Compatibility
+# Data Warehouse segment compatibility
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
+Not all segments created in the Segment builder are compatible with [!DNL Data Warehouse]. This table lists the supported functions.
 
 <table> 
  <thead> 
@@ -39,14 +39,14 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics: 
+   <td>Drag and drop a dimension into the Segment builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Entry Server </li> 
      <li>Entry Category </li> 
      <li>Entry Date </li> 
      <li>All Search Page Rank </li> 
     </ul> </td> 
-   <td> Drag and drop a dimension into the Segment Builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Data Warehouse: 
+   <td> Drag and drop a dimension into the Segment builder's <span class="uicontrol"> Definitions</span> field to find out about its product compatibility. For example, these dimensions are supported only in Data Warehouse: 
     <ul> 
      <li>IP address </li> 
      <li>Page URL </li> 

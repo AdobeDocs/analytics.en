@@ -1,7 +1,7 @@
 ---
 title: timestamp
 description: Manually set the timestamp of the hit.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 ---
@@ -15,7 +15,7 @@ The `timestamp` variable manually sets the timestamp of the hit for timestamp-en
 
 ## Timestamp using the Web SDK
 
-Timestamp is [mapped for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) under the XDM field `xdm.timestamp`. This field only supports Unix time.
+Timestamp is [mapped for Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) under the XDM field `xdm.timestamp`. This field only supports Unix time.
 
 ## Timestamp using the Adobe Analytics extension
 

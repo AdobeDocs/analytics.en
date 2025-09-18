@@ -1,11 +1,11 @@
 ---
-title: Freeform table
-description: Freeform tables are the foundation for data analysis in Workspace
+title: Freeform Table Overview
+description: Learn how to use freeform tables, which are the foundation for data analysis in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 ---
-# Freeform table {#freeform-table-overview}
+# Freeform table overview {#freeform-table-overview}
 
 
 <!-- markdownlint-disable MD034 -->

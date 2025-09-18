@@ -1,24 +1,26 @@
 ---
 description: Use the Summary Number and Change visualizations to display important data points in a project.
-title: Summary Number and Summary Change
+title: Summary Number And Summary Change
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 ---
-# [!UICONTROL Summary number] and [!UICONTROL Summary change]
-
-_This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
-
+# Summary number and change
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Summary number and Summary change visualization](https://video.tv.adobe.com/v/335564/?quality=12){target=&#34;_blank&#34;} for a demo video.
+_This article documents the Summary number and Summary change visualizations in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe  Analytics**._<br/>_See [Summary number and Summary change](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Summary Number] visualization {#summary-number}
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Summary number and Summary change visualization](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"} for a demo video.
+
+>[!ENDSHADEBOX]
+
+## Summary number {#summary-number}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -29,11 +31,38 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Summary number a
 
 <!-- markdownlint-enable MD034 -->
 
+Use the ![Summarize](/help/assets/icons/123.svg) **[!UICONTROL Summary number]** visualization to highlight a large number that is important in a project. This visualization behaves in the following ways, using the associated data source:
 
-Use the ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualization to show the delta (change) between two numbers. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
+* Selects the total of the column if no cell is selected.
+* If a single cell is selected, it shows the summary for that cell.
+* If more than one cell is selected, it shows the first cell selected.
+* If the column is selected, it picks the first cell value in the column.
+
+![Summary number visualization](asses/../assets/summary-number.png)
+
+As part of the visualization settings, specific Summary number options are available.
+
+| Option | Definition |
+|--- |--- |
+| **[!UICONTROL Abbreviate value]** | Select **[!UICONTROL Abbreviate value]** to abbreviate intelligently the number value. When selected, enter a number to define the amount of abbreviation. For example:<br/><table><tr><td>**Original value**</td><td>**Abbreviation value**</td><td>**Result**</td></tr><tr><td>$12,011,141.25</td><td>Not selected</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `0`</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> Selected, set to `1`</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `2`</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>Selected, set to `3`</td><td align="right">$12.011M</td></tr></table> |
+| **[!UICONTROL Summarize value by]** | Choose to display the max, min, mean, median, or sum for a selection of data. |
+
+## Summary change {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Summary change"
+>abstract="Create a visualization that shows the delta (change) between two numbers"
+
+<!-- markdownlint-enable MD034 -->
+
+
+Use the ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Summary Change]** visualization to show the delta (change) between two numbers. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](/help/admin/tools/success-events/success-event.md) or a calculated metric's [Show Upward Trend As](/help/components/calculated-metrics/workflow/cm-build-metrics.md) option.-->
 
 <!--
-The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+The green and red color of the Summary Change can be controlled through [custom event polarity](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md.md) or a calculated metric's [Show Upward Trend As](/help/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.md) option.
 -->
 
 This visualization behaves in the following ways:

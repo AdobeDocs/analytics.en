@@ -1,6 +1,6 @@
 ---
-description: The page summary panel shows summary information for a page of your choosing.
-title: Page summary panel
+description: Learn how to use the page summary panel to show summary information for a selected page.
+title: Page Summary Panel
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
@@ -61,7 +61,7 @@ You can configure the [!UICONTROL Page summary] panel using these input settings
 
 | Input | Description |
 | --- | --- |
-| **[!UICONTROL Page]** | Select a page dimension for which page you want to explore key statistics. |
+| **[!UICONTROL Page]** | Select a page dimension for which page you want to explore key statistics. For example **[!UICONTROL home]** to explore statistics for the Home page. Use the drop-down menu to select a page or start typing (for example `home`) to quickly search for pages. |
 
 {style="table-layout:auto"}
 

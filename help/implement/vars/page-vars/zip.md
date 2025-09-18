@@ -1,7 +1,7 @@
 ---
 title: zip
 description: Manually populate the 'Zip Code' dimension if report suite settings allow.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
 ---
@@ -11,7 +11,7 @@ The `zip` variable allows you to manually populate the 'Zip Code' dimension if t
 
 >[!IMPORTANT]
 >
->Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL Geo zip] is always used. See [General Account Settings](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) in the Admin user guide for more information.
+>Make sure the [!UICONTROL Zip Option] in report suite settings is set to the desired value. You cannot use this variable if [!UICONTROL Geo zip] is always used. See [General Account Settings](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) in the Admin user guide for more information.
 
 ## Zip code using the Web SDK
 

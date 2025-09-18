@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics system requirements
 description: The system requirements to use Adobe Analytics.
-feature: System Requirements
+feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 ---
 # Adobe Analytics system requirements and prerequisites
@@ -18,7 +18,7 @@ Before you can use Adobe Analytics, you must have:
 
 * A supported browser
 
-  Each user accessing Adobe Analytics must use a supported browser. For more information, see the [Adobe Analytics system requirements](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
+  Each user accessing Adobe Analytics must use a supported browser. For more information, see the [Adobe Analytics system requirements](/help/analyze/get-started/sys-reqs.md).
 
 ## System requirements
 

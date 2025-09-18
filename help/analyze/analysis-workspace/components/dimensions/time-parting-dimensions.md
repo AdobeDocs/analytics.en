@@ -1,18 +1,18 @@
 ---
-description: Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as "Hour of Day" or "Day of Week".
-title: Time-parting dimensions
+description: Learn about how time-parting dimensions take the timestamp of collected events and breaks down these events into more meaningful dimensions, such as Hour of Day or Day of Week.
+title: Time-Parting Dimensions
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 ---
 # Time-parting dimensions
 
-Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as "Hour of Day" or "Day of Week".
+Time parting takes the timestamp of collected hits and breaks it into more meaningful dimensions, such as **Hour of Day** or **Day of Week**.
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time-parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ Time-parting dimensions are based on the time zone of the report suite or virtua
 
 >[!NOTE]
 >
->Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html).
+>Time-parting dimensions are only available in Analysis Workspace. To use time-parting dimensions in other Analytics solutions, you can implement the [getTimeParting plug-in](/help/implement/vars/plugins/gettimeparting.md).
 
 Time-parting dimensions in Analysis Workspace include: 
 

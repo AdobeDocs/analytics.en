@@ -1,6 +1,6 @@
 ---
-description: Sequential segments are created by using the THEN operator, instead of AND or OR. THEN implies that one segment criteria occurs, followed by another. By default, a sequential segment identifies all matching data, showing the filter "Include Everyone". Sequential segments can be further filtered to a subset of matching hits using the "Only Before Sequence" and "Only After Sequence" options.
-title: Build sequential segments
+description: Learn about sequential segments that use the THEN operator to define a sequence of segment conditions.
+title: SequentialSsegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 ---
@@ -91,7 +91,7 @@ Some examples of using the time constraints.
 
 ##### [!UICONTROL After] operator 
 
-Identify visitors that visited one page and then another page only after two weeks. For example, visitors that visited the Home page, but the Women | Shoes page only after two weeks.
+Identify visitors that visited one page and then another page only after two weeks. For example, visitors who have visited the Home page, but the Women | Shoes page only after two weeks.
 
 ![Sequence after](assets/sequence-after.png)
 
@@ -107,7 +107,7 @@ If a page view for the Home happens on June 1, 2024, at 12:01, then a page view 
 
 ##### [!UICONTROL After] but [!UICONTROL Within] operator
 
-Identify visitors that visited one page then visited another page after two weeks but within one month. For example, visitors that visited the Home page and then after two weeks and within one month the Women | Shoes page.
+Identify visitors who visited one page then visited another page after two weeks but within one month. For example, visitors who visited the Home page and then after two weeks and within one month the Women | Shoes page.
 
 ![Sequence after but within](assets/sequence-afterbutwithin.png)
 
@@ -139,7 +139,7 @@ You can specify what data to include in your sequential segment or in a sequenti
 
 To create a sequential segment that includes everyone, select the option ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
-The sequential segment identifies data that match the given pattern as a whole.  Below is an example of a basic sequence segment looking for visitors that visited one product category page (Women | Shoes), followed by a checkout page (Checkout | Thank You). The segment is set to ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
+The sequential segment identifies data which matches the given pattern as a whole.  Below is an example of a basic sequence segment looking for visitors who visited one product category page (Women | Shoes), followed by a checkout page (Checkout | Thank You). The segment is set to ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Include Everyone]**.
 
 ![Sequential segment include everyone](assets/sequence-include-everyone.png)
 
@@ -207,7 +207,7 @@ See below for examples of using [!UICONTROL Exclude].
 
 #### [!UICONTROL Exclude] within
 
-Identify visitors who visited one page, did not visited another page, then visited yet another page. You exclude the container using ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. An excluded container is identified by a thin red bar on the left.
+Identify visitors who visited one page, did not visit another page, then visited yet another page. You exclude the container using ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. A thin red bar on the left identifies an excluded container.
 
 ![Exclude sequence](assets/sequence-exclude.png)
 
@@ -267,13 +267,13 @@ Identify visitors that visited one page or another page, then visited yet anothe
 
 #### [!UICONTROL Exclude] [!UICONTROL And]
 
-Identify visitors that visited one page then explicitly did not visit a set of other pages, but did visit yet another page. For example, visitors that visited the Home Page, did not visit the Men or the Women page, but did visit the Kids page.
+Identify visitors that visited one page then explicitly did not visit a set of other pages, but did visit yet another page. For example, visitors that visited the Home Page and did not visit the Men or the Women page but did visit the Kids page.
 
 ![Logic group exclude and](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
-Identify visitors that visited one page then explicitly did not visit any page of a set of pages, but did visit yet another page. For example, visitors that visited the Home Page, did not visit the Men and the Women page, but did visit the Kids page.
+Identify visitors that visited one page then explicitly did not visit any page of a set of pages, but did visit yet another page. For example, visitors that visited the Home Page and did not visit the Men and the Women page but did visit the Kids page.
 
 ![Logic group exclude and](assets/logicgroup-exclude-or.png)
 
@@ -289,7 +289,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## A final example
 
-As a final example, you want to identify visitors that learned about a specific product page, without these visitors ever touched by your Empower Your Move campaign. And in their first visit to your online store viewed the Home page but did not look further at any fitness (gear) products from the Men category. However, in their next visit directly after that, they went to a product page and placed an online order without going through the Home page first.
+As a final example, you want to identify visitors that learned about a specific product page, without these visitors ever touched by your Empower Your Move campaign. And in their first visit to your online store viewed the Home page but did not look further at any fitness (gear) products from the Men category. However, on their next visit directly after that, they went to a product page and placed an online order without going through the Home page first.
 
 
 ![Complex sequential segment example](assets/sequential-complex.png)

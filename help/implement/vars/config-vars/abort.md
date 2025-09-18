@@ -1,7 +1,7 @@
 ---
 title: abort
 description: The abort variable is a boolean that prevents a hit from being sent to Adobe data collection servers.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
 ---

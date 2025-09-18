@@ -6,7 +6,7 @@ exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
 ---
 # Voice analytics dimensions
 
-When you enable [!UICONTROL Voice and Chatbots] on [[!UICONTROL Application reporting]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md), the following dimensions (and [metrics](../metrics/voice-metrics.md)) are created. You can use [Context data variables](/help/implement/vars/page-vars/contextdata.md) to set them to the desired string value. When enabled in report suite settings, [Processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) are automatically created that map voice analytics dimensions to their associated context data variable.
+When you enable [!UICONTROL Voice and Chatbots] on [[!UICONTROL Application reporting]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md), the following dimensions (and [metrics](../metrics/voice-metrics.md)) are created. You can use [Context data variables](/help/implement/vars/page-vars/contextdata.md) to set them to the desired string value. When enabled in report suite settings, [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) are automatically created that map voice analytics dimensions to their associated context data variable.
 
 | Dimension name | Description | Context data variable |
 | --- | --- | --- |

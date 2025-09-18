@@ -1,6 +1,6 @@
 ---
-title: Media Average Minute Audience panel
-description: How to use and interpret the Media Average Minute Audience panel in Analysis Workspace.
+title: Media Average Minute Audience Panel
+description: Learn how to use and interpret the Media Average Minute Audience panel in Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
@@ -27,13 +27,13 @@ exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Media average minute audience panel in **Customer Journey Analytics**.<br/>See [Media average minute audience panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) for the **Adobe Analytics** version of this article.*
+_This article documents the Media average minute audience panel in_  ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/>_See [Media average minute audience panel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->The **[!UICONTROL Media average minute audience]** panel is available only to customers who have purchased the Streaming Media Collection for Adobe Analytics. 
+>The **[!UICONTROL Media average minute audience]** panel is available only to customers who have purchased the Adobe Analytics for Streaming Media Add-on. 
 >
 >Contact your Adobe Sales representative or Adobe account team for more information. 
 >
@@ -61,7 +61,7 @@ To use a **[!UICONTROL Media average minute audience]** panel:
 
 1. Create a **[!UICONTROL Media average minute audience]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).  
 
-1. Ensure you select a data view for the panel that has components configured from the Streaming Media Collection.
+1. Ensure you select a data view for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
 
 1. Specify the [input](#panel-input) for the panel.
 

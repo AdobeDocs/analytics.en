@@ -10,7 +10,7 @@ exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 >
 >To maximize effectiveness of Marketing Channels for Attribution and Customer Journey Analytics, we have published some [revised best practices](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics administrators can manage marketing channels for their organizations as described in [Manage Marketing Channels](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Frequently asked questions for Marketing channels.
 
@@ -39,17 +39,17 @@ Rules process in order. If no specific criteria has matched, hits fall into one 
 
 1. No referrer (a direct visit).
 
-  2. Internal referrer, on the first page of a visit.
+2. Internal referrer, on the first page of a visit.
 
-  3. A processing glitch on the page.
+3. A processing glitch on the page.
 
   Make sure that you have a channel for these three possibilities. For example, create rules that say:
 
 1. **[!UICONTROL Referrer]** and **[!UICONTROL Does Not Exist]** and **[!UICONTROL Is First Page of Visit]**. (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
 
-  2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. (See [Internal](/help/components/c-marketing-channels/c-faq.md).)
+2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. (See [Internal](/help/components/c-marketing-channels/c-faq.md).)
 
-  3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
+3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
   Lastly, create an *Other* channel that captures the remaining hits, as described in [No Channel Identified](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 

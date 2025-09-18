@@ -28,7 +28,7 @@ See [Configure the Adobe Experience Platform Web SDK extension](https://experien
 
 ## Edge domain manually implementing the Web SDK
 
-Configure the SDK using [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html). The field is a string that determines the domain to send data to.
+Configure the SDK using [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). The field is a string that determines the domain to send data to.
 
 ```json
 alloy("configure", {

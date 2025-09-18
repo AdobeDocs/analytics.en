@@ -94,5 +94,5 @@ Adobe strongly recommends using the [Adobe Experience Cloud Identity service](ht
 
 **If your implementation does not use the identity service**, consider the following impacts to your implementation:
 
-* If not using the identity service, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain can cause multiple issues with visitor identification, as most modern browsers reject third-party cookies.
-* Due to issues with modern browsers and third-party cookies, internal link tracking and Activity Map do not work.
+* If not using the identity service, `trackingServerSecure` determines cookie location. Setting this variable to a third-party domain forces AppMeasurement to use a fallback cookie, as most modern browsers reject third-party cookies.
+* Internal link tracking and Activity Map might be less reliable.

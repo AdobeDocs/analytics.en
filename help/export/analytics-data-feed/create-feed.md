@@ -64,6 +64,8 @@ Before you create a data feed, it's important to have a basic understanding of d
 
    Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
 
+   When using Amazon S3 with Data Feeds, only SSE-S3 encryption is supported.
+
    To configure an Amazon S3 bucket as the destination for a data feed:
 
    1. Begin creating a data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).

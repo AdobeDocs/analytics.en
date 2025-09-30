@@ -21,6 +21,7 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 The following example takes the `search_term` context data variable and places its value into eVar3:
 
 | Rule set | Value |
+| --- | --- |
 | Condition | `search_term` (Context data) is set |
 | Action | [!UICONTROL Overwrite value of] eVar3 With `search_term` (Context data) |
 
@@ -31,6 +32,7 @@ The above example works great when there are only a few eVars to populate. If yo
 The following example populates multiple variables with varying context data variables. One action also contains a conditional statement:
 
 | Rule set | Value |
+| --- | --- |
 | Action | [!UICONTROL Overwrite value of] eVar55 with `spa.billing_customer_name` (Context data) |
 | Action | [!UICONTROL Overwrite value of] Prop7 with `testhierarchy` (Context data), if `testhierarchy` (Context data) is set |
 | Action | [!UICONTROL Overwrite value of] eVar8 with `spa.ims_org` (Context data) |

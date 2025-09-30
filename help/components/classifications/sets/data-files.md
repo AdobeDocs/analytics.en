@@ -2,6 +2,7 @@
 description: File formats supported by Classification Sets
 title: Classification set file formats
 feature: Classifications
+exl-id: f3d429be-99d5-449e-952e-56043b109411
 ---
 # Classification set file formats
 

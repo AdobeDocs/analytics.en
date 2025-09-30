@@ -57,7 +57,7 @@ Still, there are a few ways that you can test your Data Privacy processing prior
 
 * One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing.
 
-* Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites. For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the visitorId, AAID, ECID or customVisitorId namespaces. These namespaces are hardcoded and you cannot specify alternate names for them in your test report suites.**
+* Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites. For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the `visitorId`, AAID, ECID or `customVisitorId` namespaces. These namespaces are hardcoded and you cannot specify alternate names for them in your test report suites.**
 
 +++
 

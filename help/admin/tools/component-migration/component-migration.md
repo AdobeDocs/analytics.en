@@ -33,39 +33,53 @@ In addition, do an [Adobe Analytics inventory](/help/admin/tools/analytics-inven
 
 ## Migrate Adobe Analytics projects to Customer Journey Analytics
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Before you migrate any projects to Customer Journey Analytics as described in this section, learn more about migrating projects in the [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md). 
 >
->**Any dimensions or metrics that you map are permanent, both for this project and for all future projects that are migrated throughout your entire IMS org, regardless of which user is performing the migration. These mappings cannot be modified or undone except by contacting Customer Care.**
+>**Any dimensions or metrics that you map apply to this project and to all future projects across your entire IMS org, regardless of which user is performing the migration. These mappings can be updated when migrating future projects.**
 
 1. In Adobe Analytics, select the [!UICONTROL **Admin**] tab, then select [!UICONTROL **All admin**].
 
 1. Under [!UICONTROL **Data configuration & collection**], select [!UICONTROL **Component migration**].
 
-1. Locate the project that you want to migrate. You can filter, sort, or search the project list.
+1. Locate each project that you want to migrate. You can filter, sort, or search the project list.
 
    By default, only projects that are shared with you are displayed. To view all projects in your organization, select the **Filter** icon, then expand [!UICONTROL **Other filters**] and select [!UICONTROL **Show all**]. (For more information about filtering, sorting, and searching the project list, see [Filter, sort, and search the list of projects](#filter-sort-and-search-the-list-of-projects).)
 
-1. Mouse over the project that you want to migrate, then select the **Migrate** icon ![Migrate project](assets/migrate.svg).
+1. (Conditional) To migrate multiple projects at one time, select the checkbox to the left of each project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].  
 
-   Or
+   Consider the following when migrating multiple projects:
+   
+   * You can select up to 20 projects to migrate at one time.
 
-   Select the project that you want to migrate, then select [!UICONTROL **Migrate to Customer Journey Analytics**].
+   * The migration status must be the same for all projects you are migrating. 
 
-   You can select only one project at a time to migrate.
+     For example, if you select one project to migrate that has a migration status of **[!UICONTROL Not started]**, you cannot select another project that has a migration status of **[!UICONTROL Failed]**.
+
+   * You must designate the same project owner for all projects you are migrating. 
+   
+   * Dimensions and metrics must be mapped to the same data view for all projects you are migrating.
+
+   The [!UICONTROL **Migrate project_name to Customer Journey Analytics**] dialog box is displayed.
+
+   <!-- add screenshot -->
+
+1. (Conditional) To migrate a single project, mouse over the project that you want to migrate, then select the **Migrate** icon ![Migrate project](assets/migrate.svg).
 
    The [!UICONTROL **Migrate project_name to Customer Journey Analytics**] dialog box is displayed.
 
    <!-- add screenshot -->
    
-1. In the [!UICONTROL **Project owner**] field, begin typing the name of the user who you want to set as the owner of the project in Customer Journey Analytics, then select their name in the drop-down menu. 
+1. In the [!UICONTROL **Project owner**] field, begin typing the name of the user who you want to set as the owner of the projects being migrated in Customer Journey Analytics, then select their name in the drop-down menu. 
 
-   The owner that you specify has full management rights to the project. The owner must be an administrator in Customer Journey Analytics. You can change the ownership of the project in a later step.
+   The owner that you specify has full management rights to the migrated projects. The owner must be an administrator in Customer Journey Analytics. You can change the ownership of the projects in a later step.
 
 1. In the [!UICONTROL **Map schema for report suites**] section, select a report suite.
 
-1. In the [!UICONTROL **Data view**] drop-down menu, select the Customer Journey Analytics data view where you want the the project and components to be migrated.  
+1. In the [!UICONTROL **Data view**] drop-down menu, select the Customer Journey Analytics data view where you want the the projects and components to be migrated.  
+
+   When you are migrating multiple projects, all the projects you are migrating are combined into the single data view mapping. 
 
 1. Select [!UICONTROL **Map schema**].
 
@@ -111,19 +125,19 @@ In addition, do an [Adobe Analytics inventory](/help/admin/tools/analytics-inven
    
    After all dimensions and metrics in the Adobe Analytics report suite are mapped to a dimension or metric in the Customer Journey Analytics report suite, a green check mark ![check mark](assets/report-suite-check.png) appears next to the report suite name in the [!UICONTROL **Map schema for report suites**] section.
 
-1. (Conditional) If the project you are migrating contains more than one report suite, select another report suite in the [!UICONTROL **Map schema for report suites**] section, then repeat step 6 through Step 10. <!-- double-check that the step numbers are still correct -->
+1. (Conditional) If the projects you are migrating contain more than one report suite, select another report suite in the [!UICONTROL **Map schema for report suites**] section, then repeat step 6 through Step 10. <!-- double-check that the step numbers are still correct -->
 
 1. Select [!UICONTROL **Migrate**].
 
    >[!WARNING]
    >
-   >   An on-screen warning message displays after you select [!UICONTROL **Migrate**]. Before you choose to continue, understand that any dimensions or metrics you map are permanent, both for this project and for all future projects that are migrated throughout your entire organization. If you continue, the mappings you make cannot be modified.
+   >An on-screen warning message displays after you select [!UICONTROL **Migrate**]. Before you choose to continue, understand that any dimensions or metrics you map apply to this project and to all future projects across your entire IMS org, regardless of which user is performing the migration. These mappings can be updated when migrating future projects.
 
    After a migration completes, the [!UICONTROL **Migration status**] page provides a summary of what was migrated.
 
    If the migration fails, see the [Retry a failed migration](#retry-a-failed-migration) section below for more information.
 
-1. (Optional) After a project is migrated, you can transfer ownership of the project to any user in Customer Journey Analytics. For more information, see [Transfer assets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in the Customer Journey Analytics Guide.
+1. (Optional) After projects are migrated, you can transfer ownership of the projects to any user in Customer Journey Analytics. For more information, see [Transfer assets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) in the Customer Journey Analytics Guide.
 
 ## Retry a failed migration
 

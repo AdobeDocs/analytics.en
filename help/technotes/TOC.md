@@ -56,7 +56,6 @@ user-guide-description: Browse a knowledge base containing helpful articles that
 + [Redirects and aliases](redirects.md)
 + [Security resources](security.md)
 + [Terms used (glossary)](terms.md)
-+ [Timestamps Optional](timestamps-optional.md)
 + [Troubleshoot logging in](troubleshoot-login.md)
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)

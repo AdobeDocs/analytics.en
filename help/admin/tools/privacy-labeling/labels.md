@@ -123,7 +123,7 @@ As another example, you might have a CRM ID that is sometimes sent in via eVar1 
 
 >[!CAUTION]
 >
->The namespaces "visitorId" and "customVisitorId" are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
+>The namespaces `visitorId` and `customVisitorId` are reserved for identifying the Analytics legacy tracking cookie and the Analytics customer visitor ID. Do not use these namespaces for custom traffic or conversion variables.
 
 ## Variable types and the Data Privacy labels they support {#variable-types}
 

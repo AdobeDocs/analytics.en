@@ -44,8 +44,8 @@ You can do pathing on dimensions, metrics, and segments. For example, suppose th
 
    | Option | Description | 
    |---|---|
-   | **[!UICONTROL Eventual path]** (default) | Persons are counted that will *eventually* land on the next page in the path, but not necessarily on the next event. |
-   | **[!UICONTROL Next event]** | re counted that will land on the next page in the path on the very next event. |
+   | **[!UICONTROL Eventual path]** (default) | Visitors are counted that will *eventually* land on the next page in the path, but not necessarily on the next event. |
+   | **[!UICONTROL Next event]** | Visitors are counted that will land on the next page in the path on the very next event. |
 
 
 ## Settings
@@ -68,8 +68,8 @@ As part of the visualization, specific context menu options are available.
 |**[!UICONTROL Trend touchpoint]**|See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data.|
 |**[!UICONTROL Trend touchpoint (%)]**|Trends the total fallout percentage.|
 |**[!UICONTROL Trend all touchpoints (%)]**|Trends all the touchpoint percentages in the fallout (except **[!UICONTROL All People]**, if it's included), on the same chart.|
-|**[!UICONTROL Break down fallthrough at this touchpoint]**|View what persons did between two touchpoints (this touchpoint and the next touchpoint) if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table.|
-|**[!UICONTROL Break down fallout at this touchpoint]**|View what people who did not make it through the funnel did immediately after the selected step.|
+|**[!UICONTROL Break down fallthrough at this touchpoint]**|View what visitors did between two touchpoints (this touchpoint and the next touchpoint) if they continued to the next touchpoint. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table. For example, a table that is labeled **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** and contains **[!UICONTROL Page]** as the dimension and **[!UICONTROL Unique Visitors]** segmented by the [project-only quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** as the metric. Inspect the segment to understand how the fallthrough segment is determined. |
+|**[!UICONTROL Break down fallout at this touchpoint]**| View what visitors who did not make it through the funnel did immediately after the selected step. This creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table. For example, a table that is labeled **[!UICONTROL Fallout: All Visitors > Page equals any of home]** and contains **[!UICONTROL Page]** as the dimension and **[!UICONTROL Unique Visitors]** segmented by the [project-only quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** segment as the metric. Inspect the segment to understand how the fallout segment is determined. |
 |**[!UICONTROL Create segment from touchpoint]**|Create a new segment from the selected touchpoint.|
 
 >[!MORELIKETHIS]

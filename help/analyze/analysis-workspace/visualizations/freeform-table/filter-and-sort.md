@@ -9,7 +9,6 @@ exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 
 Freeform tables in Analysis Workspace are the foundation for interactive data analysis. As such, they can contain thousands of rows of information. Filtering and sorting the data can be a critical part of efficiently surfacing the most important information. 
 
-
 ## Filter tables
 
 Filters in Analysis Workspace help you surface the most important information.
@@ -20,9 +19,9 @@ Filters in Analysis Workspace help you surface the most important information.
 
 You can use several methods to filter rows from a freeform table.
 
-- Exclude specific rows from a table
-- Apply filters to a table 
-- Use audience filters
+* Exclude specific rows from a table
+* Apply filters to a table 
+* Use audience filters
 
 Be sure to read how each method impacts [Freeform table totals](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -84,6 +83,35 @@ Note: this option does not seem to work. AN-338422
     | [!UICONTROL **Always exclude items**] | Specify the name of any items that you want to exclude from the filtered data. |
 
  1. Select **[!UICONTROL Apply]** to filter the data. Select **[!UICONTROL Clear]** to clear all input. Select **[!UICONTROL Cancel]** to cancel and close the dialog. <br/>A colored ![Filter](/help/assets/icons/FilterColored.svg) **Filter** icon indicates and displays details when a filter is applied to the table. 
+
+### Include filter criteria in line visualizations and sparklines
+
+Any filter criteria that you apply to a freeform table can be included in line visualizations and sparklines.
+
+Line visualizations and sparklines are located in the following areas of Analysis Workspace:
+
+* [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualizations display the data of the freeform table they are connected to.
+
+  ![line visualization connected to freeform tables](assets/table-line-viz.png)
+
+* Sparklines are shown in the metric column header of freeform tables.
+
+  ![sparkline in freeform table](assets/table-sparkline.png)
+
+
+
+By default, filter criteria is not included in these graphs, and line visualizations and sparklines display data only for the first row of the freeform table. 
+
+You can configure line visualizations and sparklines to include filter criteria. When you do, any filter criteria is applied as a segment:
+
+1. Select the sparkline in the metric column header. 
+
+   When the sparkline and column total cell is selected, it displays as dark gray. This indicates that filter criteria is included in both the sparkline graph and the connected line chart graph.
+
+   ![sparkline selected](assets/table-sparkline-selected.png)
+
+Show what the segment looks like when it's applied.
+
 
 
 ## Sort tables

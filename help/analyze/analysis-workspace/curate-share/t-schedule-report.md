@@ -8,9 +8,13 @@ exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 ---
 # Send and schedule projects
 
-You can send Adobe Analytics projects as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. Files can be sent in CSV or PDF format.
+You can send Adobe Analytics projects as files to selected users by email. You can send files ad hoc, or you can configure files to be sent on a schedule. 
 
-Any tags applied to the project are automatically applied to the export.
+Consider the following when sending files:
+
+* Files can be sent in CSV or PDF format.
+
+* Any tags applied to the project are automatically applied to the export.
 
 Other methods of exporting Adobe Analytics data are also available, as described in [Export overview](/help/export/home.md).
 
@@ -32,7 +36,7 @@ To send a file ad-hoc to recipients by email:
 
 ## Schedule file export {#schedule}
 
-To send a file on a schedule to recipients by email
+To send a file on a schedule to recipients by email:
 
 1. Select **[!UICONTROL Share] > [!UICONTROL Schedule file export]**.
 1. Specify the file type:

@@ -84,33 +84,21 @@ Note: this option does not seem to work. AN-338422
 
  1. Select **[!UICONTROL Apply]** to filter the data. Select **[!UICONTROL Clear]** to clear all input. Select **[!UICONTROL Cancel]** to cancel and close the dialog. <br/>A colored ![Filter](/help/assets/icons/FilterColored.svg) **Filter** icon indicates and displays details when a filter is applied to the table. 
 
-### Include filter criteria in line visualizations and sparklines
+### Include filter criteria in trended data in sparklines and line visualizations
 
-Any filter criteria that you apply to a freeform table can be included in sparklines and connected line visualizations.
+Any filter criteria that you apply to a freeform table is always included in sparklines. 
 
-Line visualizations and sparklines are located in the following areas of Analysis Workspace:
+In addition to sparklines, you can configure filter criteria to be included in connected line visualizations. (By default, filter criteria is not included in line visualizations. Line visualizations display data only for the first row of the freeform table they are connected to.)
 
-* [Line](/help/analyze/analysis-workspace/visualizations/line.md) visualizations display the data of the freeform table they are connected to.
+For more information about sparklines and line visualizations, see [View trended data for a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
 
-  ![line visualization connected to freeform tables](assets/table-line-viz.png)
-
-* Sparklines are shown in the metric column header of freeform tables.
-
-  ![sparkline in freeform table](assets/table-sparkline.png)
-
-By default, filter criteria is not included in line visualizations and sparklines. They display data only for the first row of the freeform table. 
-
-You can configure line visualizations and sparklines to include filter criteria. When you do, any filter criteria is applied as a segment on the metric column:
+To configure line visualizations to include filter criteria:
 
 1. Select the sparkline in the metric column header. 
 
-   When the sparkline and column total cell is selected, it displays as dark gray. This indicates that filter criteria is included in both the sparkline graph and the connected line chart graph.
+   When the sparkline cell is selected, it displays as dark gray. This indicates that filter criteria is included in the connected line visualization. The filter criteria is applied as a segment on the column. <!--show how to see it? Show what the segment looks like when it's applied? -->
 
    ![sparkline selected](assets/table-sparkline-selected.png)
-
-Show what the segment looks like when it's applied.
-
-
 
 ## Sort tables
 

@@ -40,13 +40,15 @@ Sparklines always include:
 
 ### Choose the data that is included in the line visualization
 
-The data that is included in the connected line visualization differs, depending on whether the sparkline is selected.
+The data that is included in the connected line visualization differs, depending on which cell is selected in the freeform table. 
 
-When the sparkline is selected, the cell displays as dark gray.
+To view a trend of all data in the freeform table, select the sparkline cell in the freeform table.
+
+When the sparkline cell is selected, the cell displays as dark gray.
 
 ![sparkline selected](assets/table-sparkline-selected.png)
 
-When the sparkline of the connected table is selected, line visualizations include:
+When the sparkline cell of the connected table is selected, line visualizations include:
 
 * Trended data for all data in the column
 
@@ -56,7 +58,7 @@ When the sparkline of the connected table is selected, line visualizations inclu
 
 When the sparkline of the connected table is not selected, line visualizations include:
 
-* Data for the first dimension only of the connected table
+* Data for the row that is selected in the connected table. If no row is selected, data for the first dimension only of the connected table is shown.
 
 * Any filter criteria is ignored
 
@@ -65,17 +67,5 @@ When the sparkline of the connected table is not selected, line visualizations i
 
 ## Include filter criteria in connected line visualizations 
 
-Any filter criteria that you apply to a freeform table can be included in sparklines and connected line visualizations.
-
-By default, filter criteria is not included in line visualizations and sparklines. They display data only for the first row of the freeform table. 
-
-You can configure line visualizations and sparklines to include filter criteria. When you do, any filter criteria is applied as a segment on the metric column:
-
-1. Select the sparkline in the metric column header. 
-
-   When the sparkline and column total cell is selected, it displays as dark gray. This indicates that filter criteria is included in both the sparkline graph and the connected line chart graph.
-
-   ![sparkline selected](assets/table-sparkline-selected.png)
-
-Show what the segment looks like when it's applied.
+For information about when filter criteria is included in connected line visualizations, see [Include filter criteria in trended data in sparklines and line visualizations](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
 

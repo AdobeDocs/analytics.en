@@ -8,7 +8,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 
 **Last update**: October 10, 2025
 
-These release notes cover the release period of September through early October, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
+These release notes cover the release period of October through early November, 2025. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes get updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 

@@ -22,7 +22,7 @@ Sparklines always include:
 
 * Trended data for all data in the column
 
-* Any filter criteria that is applied on the table filter
+* Any search filter criteria applied to the table dimension
 
   For more information, see [Filter and sort](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
@@ -52,7 +52,7 @@ When the sparkline cell of the connected table is selected, line visualizations 
 
 * Trended data for all data in the column
 
-* Any filter criteria that is applied on the table filter
+* Any search filter criteria applied to the table dimension
 
   For more information, see [Filter and sort](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
@@ -60,7 +60,7 @@ When the sparkline of the connected table is not selected, line visualizations i
 
 * Data for the row that is selected in the connected table. If no row is selected, data for the first dimension only of the connected table is shown.
 
-* Any filter criteria is ignored
+* Any search filter criteria applied to the table dimension is ignored
 
   For more information, see [Filter and sort](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 

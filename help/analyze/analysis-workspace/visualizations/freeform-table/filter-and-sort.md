@@ -86,9 +86,9 @@ Note: this option does not seem to work. AN-338422
 
 ### Include filter criteria in trended data in sparklines and line visualizations {#include-filter-criteria}
 
-Any filter criteria that you apply to a freeform table is always included in sparklines. 
+Any search filter criteria applied to the table dimension to a freeform table is always included in sparklines. 
 
-In addition to sparklines, you can configure filter criteria to be included in connected line visualizations. (By default, filter criteria is not included in line visualizations. Line visualizations display data only for the first row of the freeform table they are connected to.)
+In addition to sparklines, you can configure filter criteria to be included in connected line visualizations. (By default, filter criteria is not included in line visualizations. Line visualizations display data for the row that is selected in the connected table. If no row is selected, data for the first dimension only of the connected table is shown.)
 
 For more information about sparklines and line visualizations, see [View trended data for a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
 

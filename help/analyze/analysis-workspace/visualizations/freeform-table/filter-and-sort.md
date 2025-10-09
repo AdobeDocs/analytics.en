@@ -98,9 +98,9 @@ Line visualizations and sparklines are located in the following areas of Analysi
 
   ![sparkline in freeform table](assets/table-sparkline.png)
 
-By default, filter criteria is not included in these graphs, and line visualizations and sparklines display data only for the first row of the freeform table. 
+By default, filter criteria is not included in line visualizations and sparklines. They display data only for the first row of the freeform table. 
 
-You can configure line visualizations and sparklines to include filter criteria. When you do, any filter criteria is applied as a segment:
+You can configure line visualizations and sparklines to include filter criteria. When you do, any filter criteria is applied as a segment on the metric column:
 
 1. Select the sparkline in the metric column header. 
 

@@ -86,7 +86,7 @@ Note: this option does not seem to work. AN-338422
 
 ### Include filter criteria in line visualizations and sparklines
 
-Any filter criteria that you apply to a freeform table can be included in line visualizations and sparklines.
+Any filter criteria that you apply to a freeform table can be included in sparklines and connected line visualizations.
 
 Line visualizations and sparklines are located in the following areas of Analysis Workspace:
 
@@ -97,8 +97,6 @@ Line visualizations and sparklines are located in the following areas of Analysi
 * Sparklines are shown in the metric column header of freeform tables.
 
   ![sparkline in freeform table](assets/table-sparkline.png)
-
-
 
 By default, filter criteria is not included in these graphs, and line visualizations and sparklines display data only for the first row of the freeform table. 
 

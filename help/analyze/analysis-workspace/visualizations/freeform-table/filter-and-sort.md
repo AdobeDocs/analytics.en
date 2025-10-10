@@ -104,11 +104,17 @@ For more information about sparklines and line visualizations, see [View trended
 
 Column totals might not be exact in the following scenarios:
 
-* When static components are used in the left column and row items contain overlapping data 
+* When static components are used in the left column and [column totals are calculated as a sum of the rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  If row items contain overlapping data in this scenario, column totals will be inaccurate. 
   
-  For example, if you add static segments to the left colum, and then you add Users as a dimension in the right column, some of those users might be part of more than one of the static segments. In this case, Workspace does not deduplicate the users for each static segment. This can result in a higher number of total users because some users might be counted more than once. 
+  For example, if you add static segments to the left column, and then you add Users as a metric in the right column, some of those users might be part of more than one of the static segments. In this case, Workspace does not deduplicate the users for each static segment. This can result in a higher number of total users because some users might be counted more than once.  
 
 * When using multi-valued dimensions
+
+>[!NOTE]
+>
+>The sparkline and line chart still reflect the accurate totals in these scenarios.
 
 
 ## Sort tables

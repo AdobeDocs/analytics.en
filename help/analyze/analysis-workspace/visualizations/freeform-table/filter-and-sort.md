@@ -92,13 +92,24 @@ In addition to sparklines, you can configure filter criteria to be included in c
 
 For more information about sparklines and line visualizations, see [View trended data for a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
 
-To configure line visualizations to include filter criteria:
+#### Configure line visualizations to include filter criteria
 
 1. Select the sparkline in the metric column header. 
 
    When the sparkline cell is selected, it displays as dark gray. This indicates that filter criteria is included in the connected line visualization. The filter criteria is applied as a segment on the column. <!--show how to see it? Show what the segment looks like when it's applied? -->
 
    ![sparkline selected](assets/table-sparkline-selected.png)
+
+#### Understand when column totals might be inaccurate
+
+Column totals might not be exact in the following scenarios:
+
+* When static components are used in the left column and row items contain overlapping data 
+  
+  For example, if you add static segments to the left colum, and then you add Users as a dimension in the right column, some of those users might be part of more than one of the static segments. In this case, Workspace does not deduplicate the users for each static segment. This can result in a higher number of total users because some users might be counted more than once. 
+
+* When using multi-valued dimensions
+
 
 ## Sort tables
 

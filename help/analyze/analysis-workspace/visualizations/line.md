@@ -37,13 +37,7 @@ As part of the [visualization settings](freeform-analysis-visualizations.md#sett
 |---|---|
 | **[!UICONTROL Granularity]** | Select from the granularity drop-down to change a trended visualization from daily to weekly to monthly, etc. The granularity is also updated in the data source table. |
 | **[!UICONTROL Show min]** <br/>**[!UICONTROL Show max]** | You can overlay a min and max value label to highlight the minimum and maximum values in a metric. The min/max values are derived from the visible data points in the visualization, not the full set of values within a dimension.<br/>![An overlay with the minimum and maximum value label.](assets/min-max-labels.png) |
-| **[!UICONTROL Show trendline]** | You can choose to add a regression or moving average trendline to your line series. Trendlines help to depict a clearer pattern in the data. When selected, select a model from the list. See [Models](#models) for an overview and description of available models.<br/>![Linear trendline](assets/show-linear-trendline.png). | 
-
->[!TIP]
->
->It is recommended that trendlines be applied to data that does not include today (partial data) or future dates. Today or future dates skew the trendline. If you need to include future dates, however, remove zeroes from the data to prevent skewing for those days. Go to the visualization's data source table, choose your metric column, then enable **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.
-
-
+| **[!UICONTROL Show trendline]** | You can choose to add a regression or moving average trendline to your line series. Trendlines help to depict a clearer pattern in the data. When selected, select a model from the list. See [Models](#models) for an overview and description of available models.<br/>![Linear trendline](assets/show-linear-trendline.png).<p>**TIP** It is recommended that trendlines be applied to data that does not include today (partial data) or future dates. Today or future dates skew the trendline. If you need to include future dates, however, remove zeroes from the data to prevent skewing for those days. Go to the visualization's data source table, choose your metric column, then enable **[!UICONTROL Column Settings]** > **[!UICONTROL Interpret zero as no value]**.</p> | 
 
 ### Models
 

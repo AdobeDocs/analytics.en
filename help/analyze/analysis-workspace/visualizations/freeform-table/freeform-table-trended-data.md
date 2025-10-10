@@ -32,6 +32,8 @@ Sparklines always include:
 
 ### Connect a line visualization to a freeform table
 
+Depending on how and when the line visualization was added to the project, it might already be connected to the desired freeform table. Use the following steps to check or to manually connect it:
+
 1. Add a line visualization to an Analysis Workspace project.
 
 1. Select the dot next to the visualization name, select the **[!UICONTROL Data source]** tab, then select the name of the freeform table that you want to connect to the line visualization. 

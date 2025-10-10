@@ -21,7 +21,7 @@ You can use several methods to filter rows from a freeform table.
 
 * Exclude specific rows from a table
 * Apply filters to a table 
-* Use audience filters
+* Use segment filters
 
 Be sure to read how each method impacts [Freeform table totals](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 

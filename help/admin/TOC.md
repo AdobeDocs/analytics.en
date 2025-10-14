@@ -154,6 +154,4 @@ user-guide-description: Learn about Analytics administration tasks, such managin
       + [Migrate Analytics user accounts for Enterprise and Federated IDs](tools/user-management/user-migration/migrate-enterprise.md)
       + [Disable legacy logins](tools/user-management/user-migration/t-disable-legacy-login.md)
       + [APIs Affected by the Migration](tools/user-management/user-migration/developer.md)  
-+ [Admin API](c-admin-api/c-admin-api.md)
-+ [Adobe Analytics 1.4 API EOL FAQ](c-admin-api/c-admin-14-api-eol.md)
-
++ [Admin API](https://developer.adobe.com/analytics-apis/docs/2.0/)

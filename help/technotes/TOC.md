@@ -25,6 +25,7 @@ user-guide-description: Browse a knowledge base containing helpful articles that
   + [Frequently asked questions](ga-to-aa/faq.md)
   + [Processing differences between platforms](ga-to-aa/processing-differences.md)
   + [Compare data to third-party products](ga-to-aa/compare-data.md)
++ [Analyze AI traffic](/help/technotes/ai-traffic.md)
 + Analyze data impacted by events {#event}
   + [Analyze data impacted by events overview](event/overview.md)
   + [Troubleshoot spikes/drops in data](event/spikes-drops.md)

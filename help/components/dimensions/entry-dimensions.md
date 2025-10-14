@@ -9,7 +9,7 @@ exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 
 *This help page describes how entries work as a [dimension](overview.md). For information on how entries work as a metric, see the [Entries](../metrics/entries.md) metric.*
 
-Entry dimensions are [visit-based](../metrics/visits.md). They record the first dimension item, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in Report suite settings.
+Entry dimensions are [visit-based](../metrics/visits.md). They record the first dimension item, and persist it for the entire duration of that visit. Entry dimensions are available for all variables with pathing enabled under [Traffic variables](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in Report suite settings.
 
 >[!TIP]
 >If you want to see data based on the first hit of a visit instead of the first value seen in a visit, you can use a [segment](/help/components/segmentation/seg-overview.md). Use a hit container where [Hit depth](hit-depth.md) equals 1, then use that segment with the desired variable.

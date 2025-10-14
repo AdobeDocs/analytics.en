@@ -87,6 +87,21 @@ The following visualization types are available in Analysis Workspace:
 
    * From the context menu in a Freeform table, select **[!UICONTROL Visualize]**. Then select the visualization from the submenu. Based on the current selection in the table, Workspace determines which visualization to offer and interprets the data to build the requested visualization.
 
+When you add a simple visualization, for example a [Line](line.md) of [Bar](bar.md) visualization, the visualization uses the closest freeform table as the data source. You can always modify the [data source](#data-source) of a your visualizations.
+
+## Manage visualizations
+
+You can manage a visualization when you hover over the visualization or select the visualization.
+
+![Manage visualization](assets/manage-visualization.png)
+
+* To collapse a visualization, select ![ChevronDown](/help/assets/icons/ChevronDown.svg).
+* To reveal a collapsed visualization, select ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
+* To delete a visualization, select ![CrossSize400](/help/assets/icons/CrossSize400.svg). To undo, select **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z*]** | **[!UICONTROL *ctrl+z*]**).
+* To return a visualization to the default height, select ![ImageResize](/help/assets/icons/Resize.svg).
+* To move a visualization within a panel, drag and drop the visualization whenever a ![Move](/help/assets/icons/Move.svg) is visible (ususally when you hover over the header).
+
+
 ## Legend
 
 A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can select a legend item to show/hide a series in the visualization, which is helpful if you want to simplify the data being visualized. 
@@ -104,6 +119,20 @@ To edit a legend label:
 1. Press **[!UICONTROL Enter]** to save.
 
 
+## Settings
+
+Each visualization has its own settings. To access visualization settings, select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** in the visualization header to show a popup.
+
+Depending on the visualization, you can configure
+
+* details for the source of data of the visualization through the [**[!UICONTROL Data source]**](#data-source) tab, and
+* settings for the visualization through the [**[!UICONTROL Settings]**](#settings-1) tab. 
+
+![Visualization Settings](assets/visualization-settings.png)
+
+### Data source
+
+You can control which data source and items or positions within that data source correspond to a visualization. See [Manage data sources](t-sync-visualization.md) for more information. 
 
 ### Settings
 
@@ -211,8 +240,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |

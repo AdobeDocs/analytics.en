@@ -62,8 +62,8 @@ To create a calculated metric:
 4. Once the calculated metric contains the desired formula, click Save to go back to your workspace.
 5. Drag the newly defined calculated metric onto the workspace.
 
-    Learn more about [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide.
+    Learn more about [Calculated Metrics](/help/components/calculated-metrics/cm-overview.md) in the Components user guide.
 
 ## Custom Alerts
 
-Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Alerts overview](/help/components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.
+Alerts are available on both platforms. In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* > *[!UICONTROL Alerts]*. See [Alerts overview](/help/components/alerts/alerts-overview.md) in the Components User Guide for more information.

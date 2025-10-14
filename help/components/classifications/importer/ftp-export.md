@@ -6,6 +6,8 @@ exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 ---
 # FTP export (legacy)
 
+{{classification-importer-deprecation}}
+
 The FTP option provides more flexibility in downloading data sets, including the ability to download data from multiple report suites and to download data set files larger than 50,000 data rows. Before downloading classification data via FTP, create an FTP account. 
 
 Consider the following issues when applying data filters:

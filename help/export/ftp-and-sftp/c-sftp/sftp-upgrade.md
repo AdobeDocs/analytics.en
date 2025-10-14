@@ -18,17 +18,17 @@ The connection options that will be removed are generally considered obsolete an
 
 The following features provide an option to upload data to Adobe Analytics using SFTP.
 
-* [Classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
+* [Classifications](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
 * [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
-* [Data Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
+* [Data Feeds](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [Data Sources](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html)
+* [Data Sources](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse delivered reports](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html)
+* [Data Warehouse delivered reports](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* Additionally, some custom implementations created through [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html) may use SFTP to exchange data with Adobe.
+* Additionally, some custom implementations created through [Engineering Services](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) may use SFTP to exchange data with Adobe.
 
 ## What specific changes will be included in this update? 
 

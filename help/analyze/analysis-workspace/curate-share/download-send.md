@@ -15,33 +15,42 @@ You can download Analysis Workspace projects and data to your local device. This
 
 Additional methods to export Adobe Analytics data are described in the [Export guide](/help/export/home.md).
 
-## Download as CSV or PDF {#download-project}
+## Download a project as a PDF or CSV file {#download-project}
 
 ![The Project drop-down menue with the Download CSV and Download PDF options highlighted.](assets/download-project.png)
 
+### Download a project as a PDF file
+
 Consider the following when you download a project as a PDF:
 
-* The download can take several minutes as the project is rerun on Adobe servers to render in PDF format. Do not leave the project until the project downloads in your browser.  You can continue to make changes to the project while the download is rendered. If a PDF takes longer than 5 minutes to render, you are prompted to [email the PDF](../curate-share/send-schedule-files.md) instead.
+* Do not leave the project until the project downloads to your workstation. The download can take several minutes as the project is rerun on Adobe servers in order for the PDF to render. You can continue to make changes to the project while the download is rendering. If a PDF takes longer than 5 minutes to render, you are prompted to [email the PDF](../curate-share/send-schedule-files.md) instead.
 * Downloads are rendered as a single page with no pagination applied.
-* The PDF contain what is visible in the browser page in Analysis Workspace. You need to auto-size custom-sized visualizations and panels to avoid truncated content. Select ![Resize](/help/assets/icons/Resize.svg) to auto-size a custom-sized visualization or panel.
-* [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) within freeform tables  as hyperlinks in the downloaded PDF. 
-
-
+* The PDF contains what is visible in the browser page in Analysis Workspace. To avoid truncated content, select ![Resize](/help/assets/icons/Resize.svg) to auto-size any custom-sized visualizations or panels.
+* [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) within freeform tables are clickable in the downloaded PDF. 
 
 To download a project as a PDF file:
 
 1. Select **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**. 
-   A green bar with the message ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]** is displayed.
    
-1. As soon your download is ready, a green bar with the message ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Name of the project* PDF is ready.]** appears.
-Select **[!UICONTROL Download]** to download the PDF. How exactly the PDF is presented or downloaded is dependent on your browser configuration to handle PDF documents.
+   A green bar is displayed with the following message: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]** 
+   
+1. As soon your download is ready, a green bar appears with the following message: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Name of the project* PDF is ready.]** 
 
+1. Select **[!UICONTROL Download]** on the green bar.
 
-To download a project as a CSV file:
+   Depending on your browser settings, the PDF automatically downloads to the folder that you previously configured, or you are prompted to choose a folder where the PDF will be downloaded. 
+   
+   The file name is composed of *project name* - *report suite name* - *date*. For example, `Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf`.
 
-* Select **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. The project directly downloads to the download folder configured as part of your browser configuration. The file name is composed of *project name* - *report suite name* - *date*, for example `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
+### Download a project as a CSV file
 
-## Copy to clipboard {#copy-data}
+1. Select **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 
+
+   Depending on your browser settings, the CSV file automatically downloads to a folder that you previously configured, or you are prompted to choose a folder where the CSV file will be downloaded. 
+   
+   The file name is composed of *project name* - *report suite name* - *date*. For example, `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
+
+## Copy data within a visualization to the clipboard {#copy-data}
 
 The **[!UICONTROL Copy to clipboard]** option from the context menu lets you quickly copy data from Analysis Workspace and paste the data in a third-party tool. 
 
@@ -55,7 +64,7 @@ The **[!UICONTROL Copy to clipboard]** option from the context menu lets you qui
 
 ![The Copy selection to clipboard option. ](assets/copy-clipboard.png){zoomable="yes"}
 
-## Download as CSV {#download-data}
+## Download data within a visualization as a CSV file {#download-data}
 
 The download as CSV options from the context menu allow you to download a table of data or the data source of any visualization as a CSV.
 
@@ -73,7 +82,7 @@ To do so:
 
 ![The Download data as CSV option.](assets/download-data-as-csv.png)
 
-## Download items as CSV {#download-items}
+## Download items as a CSV file {#download-items}
 
 If you want to analyze more than the visible 400 rows of data in a table, select  **Download items as CSV (_Dimension name_)** from the context menu of the table header or any row. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with sort options and filters applied. If you select this option from the top of the table, the first dimension in the table is exported. 
 

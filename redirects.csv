@@ -285,11 +285,11 @@ source,destination
 /docs/analytics/admin/manage-report-suites/report-suite-templates/default-rs-template.html,/docs/analytics/admin/admin-tools/manage-report-suites/report-suite-templates/default-rs-template.html
 /docs/analytics/admin/manage-report-suites/report-suite-templates/content-media.html,/docs/analytics/admin/admin-tools/manage-report-suites/report-suite-templates/content-media.html
 /docs/analytics/admin/manage-report-suites/report-suite-templates/report-suite-templates.html,/docs/analytics/admin/admin-tools/manage-report-suites/report-suite-templates/report-suite-templates.html
-/docs/analytics/admin/manage-report-suites/new-report-suite/settings-not-copied-from-rs.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.html
-/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/new-report-suite.html
-/docs/analytics/admin/manage-report-suites/t-create-rs-group.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-rs-group.html
-/docs/analytics/admin/manage-report-suites/t-rollups.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-rollups.html
-/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html
+/docs/analytics/admin/manage-report-suites/new-report-suite/settings-not-copied-from-rs.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/settings-not-copied-from-rs.html
+/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/new-report-suite.html
+/docs/analytics/admin/manage-report-suites/t-create-rs-group.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/t-create-rs-group.html
+/docs/analytics/admin/manage-report-suites/t-rollups.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/t-rollups.html
+/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/t-create-a-report-suite.html
 /docs/analytics/admin/manage-report-suites/t-download-rs-settings.html,/docs/analytics/admin/admin-tools/manage-report-suites/t-download-rs-settings.html
 /docs/analytics/admin/manage-report-suites/t-report-suite-saved-search.html,/docs/analytics/admin/admin-tools/manage-report-suites/t-report-suite-saved-search.html
 /docs/analytics/admin/manage-report-suites/rollup-report-suite.html,/docs/analytics/admin/admin-tools/manage-report-suites/rollup-report-suite.html
@@ -398,7 +398,7 @@ source,destination
 /docs/analytics/components/marketing-channels/c-rules.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html
 /docs/analytics/components/marketing-channels/classifictions-mchannel.html,/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/classifications-mchannel.html
 /docs/analytics/admin/admin-tools/currency.html,/docs/analytics/implementation/vars/config-vars/currencycode.html
-/docs/analytics/implementation/prepare/implementation-modal.html,/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html
+/docs/analytics/implementation/prepare/implementation-modal.html,/docs/analytics/admin/admin-tools/manage-report-suites/new-rs/t-create-a-report-suite.html
 /docs/analytics/implementation/use-cases/email-external.html,/docs/analytics/implementation/use-cases/campaign-tracking.html
 /docs/analytics/technotes/data-governance/gdpr-labels.html,/docs/analytics/admin/admin-tools/data-governance/cnil-consent-exemption.html
 /docs/analytics/technotes/data-governance/gdpr-id-expansion.html,/docs/analytics/admin/admin-tools/data-governance/gdpr-id-expansion.html

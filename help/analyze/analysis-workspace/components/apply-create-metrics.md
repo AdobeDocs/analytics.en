@@ -21,7 +21,7 @@ Adobe offers several types of metrics for use in Analysis Workspace:
 
 * **Standard metrics**: Most metrics that you use in projects are standard metrics. Examples include [Page views](/help/components/metrics/page-views.md), [Revenue](/help/components/metrics/revenue.md), or [Custom events](/help/components/metrics/custom-events.md). See [Metrics overview](/help/components/metrics/overview.md) in the Components user guide for more information.
 
-* **Calculated metrics** ![Calculator](/help/assets/icons/Calculator.svg): User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/c-calcmetrics/cm-overview.md) in the Components user guide for more information.
+* **Calculated metrics** ![Calculator](/help/assets/icons/Calculator.svg): User-defined metrics that are based on standard metrics, static numbers, or algorithmic functions. User-defined calculated metrics show a calculator icon in the list of available components. See [Calculated Metrics overview](/help/components/calculated-metrics/cm-overview.md) in the Components user guide for more information.
 
 * **Calculated metric templates** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): Adobe-defined metrics that behave similarly to calculated metrics. You can use them as-is in Workspace projects, or save a copy to customize its logic. Calculated metric templates show an Adobe icon in the list of available components.
 
@@ -48,7 +48,7 @@ There are several ways to create calculated metrics. The method you choose deter
 
 ### Create calculated metrics for all projects
 
-You can use the [calculated metric builder](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) to [create calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). When created in this way, calculated metrics are available in the component list and can be used in projects throughout your organization. 
+You can use the [calculated metric builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) to [create calculated metrics](/help/components/calculated-metrics/workflow/cm-workflow.md). When created in this way, calculated metrics are available in the component list and can be used in projects throughout your organization. 
 
 
 ### Create calculated metrics for a single project
@@ -73,15 +73,15 @@ To create a calculated metric for a single project:
 
    When a single column is selected, the following options are available:
 
-   * [!UICONTROL **Mean**]: Creates a new column that shows the mean value in the set of dimension elements for the column. The column values use the [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) function.
+   * [!UICONTROL **Mean**]: Creates a new column that shows the mean value in the set of dimension elements for the column. The column values use the [Mean](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) function.
    
-   * [!UICONTROL **Median**]: Creates a new column that shows the median value in the set of dimension elements for the column. The column values use the [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) function.
+   * [!UICONTROL **Median**]: Creates a new column that shows the median value in the set of dimension elements for the column. The column values use the [Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) function.
 
-   * [!UICONTROL **Column max**]: Creates a new column that shows the largest value in the set of dimension elements for the column. The column values use the [Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) function.
+   * [!UICONTROL **Column max**]: Creates a new column that shows the largest value in the set of dimension elements for the column. The column values use the [Column Maximum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) function.
 
-   * [!UICONTROL **Column min**]: Creates a new column that shows the smallest value in the set of dimension elements for the column. The column values use the [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) function.
+   * [!UICONTROL **Column min**]: Creates a new column that shows the smallest value in the set of dimension elements for the column. The column values use the [Column Minimum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum) function.
 
-   * [!UICONTROL **Column sum**]: Creates a new column that adds all numeric values for a metric within a column (across the elements of a dimension). The column values use the [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) function.
+   * [!UICONTROL **Column sum**]: Creates a new column that adds all numeric values for a metric within a column (across the elements of a dimension). The column values use the [Column Sum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) function.
 
    When two columns are selected, the following options are available:
 

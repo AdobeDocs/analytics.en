@@ -6,6 +6,8 @@ exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 ---
 # Browser import (legacy)
 
+{{classification-importer-deprecation}}
+
 You can import (upload) classifications data using the browser. This method limits your classification data upload to a single report suite
 
 ## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}

@@ -22,7 +22,7 @@ This metric counts the number of unique visitor ID's for a given dimension item.
 | --- | --- | --- |
 | 1 | `vid` | The [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
 | 2 | `aid` | Visitor has an existing [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations without or prior to implementing the Visitor ID service. |
-| 3 | `mid` | Visitor has an existing [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | `mid` | Visitor has an existing [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe recommends using the ID service for all implementations where possible. |
 | 4 | `fid` | Visitor has an existing [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, or if `aid` and `mid` could not be set for any reason. |
 | 5 | IP Address, User Agent, Gateway IP Address | Last resort to identify a unique visitor if the visitor's browser does not accept cookies. |
 

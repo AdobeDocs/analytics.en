@@ -8,7 +8,11 @@ exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 ---
 # Activity Map extension interface
 
-The Activity Map extension interface is comprised of two parts:
+The Activity Map extension allows you to view click data overlaid on your website. You can download the extension by navigating to the following page, which provides a link to the web store:
+
+**[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Download Activity Map]**
+
+Once installed and enabled, the interface is comprised of several parts:
 
 * A top panel that lets you configure the extension and reports
 * An overlay that displays the most popular links

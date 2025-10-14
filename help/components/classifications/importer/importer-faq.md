@@ -6,6 +6,8 @@ exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 ---
 # Classification importer FAQ
 
+{{classification-importer-deprecation}}
+
 Frequently asked questions for using the classification importer.
 
 ## How do I classify the dimension item "0"?

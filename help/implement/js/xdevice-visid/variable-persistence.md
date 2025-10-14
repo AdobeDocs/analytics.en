@@ -14,7 +14,7 @@ role: Developer
 
 When visitor profiles are merged after being associated with the same visitor ID variable, attribution is not changed in the historical data set.
 
-* When the variable `s.visitorID` is set and sent on a hit, Adobe checks for any other visitor profiles that have a matching visitor ID.
+* When the `visitorID` variable is set and sent on a hit, Adobe checks for any other visitor profiles that have a matching visitor ID.
 * If a profile exists, the visitor profile that is already in the system is used from that point forward and the previous visitor profile is no longer used.
 * If no matching visitor ID is found, a new profile is created.
 
@@ -27,12 +27,12 @@ The example below represents how data is sent to Adobe Analytics when a customer
 * `eVar16` has an expiration of 1 day and `evar17` expires on visit.
 * The `post_visitor_id` column represents the profile maintained by Adobe Analytics. Post columns are typically seen in data feeds. See [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
 * The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
-* `cust_visid` represents a value set in `s.visitorID`.
+* `cust_visid` represents a value set in `visitorID`.
 * Each row is one 'hit', a single request sent to Adobe Analytics data collection servers.
 
 ![Cross-device example 1](assets/xdevice_first.jpg)
 
-On the first data connection containing a previously unrecognized `s.visitorID` value (`u999` above), a new profile is created. Persistent values from the previous profile are transferred to the new profile.
+On the first data connection containing a previously unrecognized `visitorID` value (`u999` above), a new profile is created. Persistent values from the previous profile are transferred to the new profile.
 
 * eVars set to expire on the visit are not copied to the authenticated profile. Note the value `car` above is not persisted.
 * eVars set to expire by other measures will be copied to the authenticated profile. Note the value `apple` is persisted.

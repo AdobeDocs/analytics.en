@@ -6,6 +6,8 @@ exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 ---
 # Classification rules (legacy)
 
+{{classification-rulebuilder-deprecation}}
+
 Classification rules regularly look for unclassified terms. If a rule match is found, the rules add the terms to your classification data tables automatically. You can also use classification rules to overwrite existing keys.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
@@ -50,8 +52,6 @@ about_classification_rules.xml
 >The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
 
 ## Important Information about Rules 
-
-* Specify [group permissions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/classifications/crb/classification-quickstart-rules.md).
 

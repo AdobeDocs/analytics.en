@@ -9,15 +9,16 @@ exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 
 Adobe Analytics Activity Map is a feature within Adobe Analytics that provides a visual representation of user engagement on web pages and mobile apps. It enables marketers and analysts to track and analyze user interactions such as clicks and scrolling behavior. Activity Map generates heat maps and overlay reports that show the most popular elements on a webpage, helping you optimize your digital experiences.
 
-This section of the documentation focuses on the Activity Map overlay. However, there are other important parts to using Activity Map:
+Activity Map as a concept is made of several important components:
 
-* **Report suite setting**: A report suite must have Activity Map enabled. See [Activity Map Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) in Report suite settings.
+* **Report suite setting**: A report suite must have Activity Map enabled before you can start using it. See [Activity Map Reporting](/help/admin/tools/manage-rs/edit-settings/activity-map.md) in Report suite settings.
 * **Implementation**: Most Activity Map reporting is available out-of-the-box. However, some websites might require additional implementation to get the most out of link tracking. The following implementation variables are available:
   * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): Filter click data by link name.
   * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): Filter click data by region name.
   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Change the attribute that populates the Activity Map Region dimension.
   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Customize the logic that Activity Map uses to populate the Activity Map Link dimension.
   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Customize the logic that Activity Map uses to populate the Activity Map Region dimension.
+* **Overlay**: A browser extension that allows you to see click data overlaid on your website. See [Activity Map extension interface](overlay/overview.md) for more information.
 * **Dimensions**: In addition to the overlay extension, Activity Map provides several dimensions that you can use in Analysis Workspace.
   * [Activity Map Link](/help/components/dimensions/activity-map-link.md): The link name that was clicked.
   * [Activity Map Region](/help/components/dimensions/activity-map-region.md): The region name that was clicked.

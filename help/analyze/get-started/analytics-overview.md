@@ -35,7 +35,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intro to Adobe A
 >[!ENDSHADEBOX]
 
 
-For questions about which tool to use, see [Which Adobe Analytics tool should I use?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
+For questions about which tool to use, see [Which Adobe Analytics tool should I use?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Go further with Customer Journey Analytics
 

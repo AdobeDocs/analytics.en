@@ -6,11 +6,13 @@ exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 ---
 # Subclassifications
 
+{{classification-importer-deprecation}}
+
 Adobe Analytics supports both single-level and multiple-level classifications models. A classification hierarchy allows you to apply a classification to a classification.
 
 >[!NOTE]
 >
->Subclassification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about classification hierarchies, see [Classification Hierarchies](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
+>Subclassification refers to the ability to create classifications of classifications. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. For more information about classification hierarchies, see [Classification Hierarchies](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
 
 For example:
 
@@ -54,7 +56,7 @@ Although the file template for a multilevel classification is more complex, the 
 
 ## Examples
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ description: Understand how to report on traffic from AI chatbots
 title: Analyze traffic from AI chatbots
 feature: Metrics, Data Configuration and Collection
 ---
-# Analyze traffic from AI chatbots
+# Analyze traffic from conversational AI tools
 
 Adobe Analytics provides tools for analyzing AI traffic on your website.
 
@@ -44,7 +44,7 @@ You can use the Referrer type dimension in Analysis Workspace to analyze the fol
 
 * Agentic workflows
 
-The Referrer type dimension includes the [AI chatbots dimension item](/help/components/dimensions/referrer-type.md#ai-chatbots). This dimension item includes a predefined list of AI chatbots. 
+The Referrer type dimension includes the [Conversational AI tools dimension item](/help/components/dimensions/referrer-type.md#conversational-ai-tools). This dimension item includes a predefined list of AI chatbots. 
 
 For more information, see [Referrer type](/help/components/dimensions/referrer-type.md).
 

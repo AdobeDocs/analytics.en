@@ -9,7 +9,6 @@ exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 
 Freeform tables in Analysis Workspace are the foundation for interactive data analysis. As such, they can contain thousands of rows of information. Filtering and sorting the data can be a critical part of efficiently surfacing the most important information. 
 
-
 ## Filter tables
 
 Filters in Analysis Workspace help you surface the most important information.
@@ -20,9 +19,9 @@ Filters in Analysis Workspace help you surface the most important information.
 
 You can use several methods to filter rows from a freeform table.
 
-- Exclude specific rows from a table
-- Apply filters to a table 
-- Use audience filters
+* Exclude specific rows from a table
+* Apply filters to a table 
+* Use segment filters
 
 Be sure to read how each method impacts [Freeform table totals](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -84,6 +83,38 @@ Note: this option does not seem to work. AN-338422
     | [!UICONTROL **Always exclude items**] | Specify the name of any items that you want to exclude from the filtered data. |
 
  1. Select **[!UICONTROL Apply]** to filter the data. Select **[!UICONTROL Clear]** to clear all input. Select **[!UICONTROL Cancel]** to cancel and close the dialog. <br/>A colored ![Filter](/help/assets/icons/FilterColored.svg) **Filter** icon indicates and displays details when a filter is applied to the table. 
+
+### Include filter criteria in trended data in sparklines and line visualizations {#include-filter-criteria}
+
+Any search filter criteria applied to the table dimension to a freeform table is always included in sparklines. 
+
+In addition to sparklines, you can configure filter criteria to be included in connected line visualizations. (By default, filter criteria is not included in line visualizations. Line visualizations display data for the row that is selected in the connected table. If no row is selected, data for the first dimension only of the connected table is shown.)
+
+For more information about sparklines and line visualizations, see [View trended data for a freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
+
+#### Configure line visualizations to include filter criteria
+
+1. Select the sparkline in the metric column header. 
+
+   When the sparkline cell is selected, it displays as dark gray. This indicates that filter criteria is included in the connected line visualization. The filter criteria is applied as a segment on the column. <!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   ![sparkline selected](assets/table-sparkline-selected.png)
+
+#### Understand when column totals might be inaccurate
+
+Column totals might not be exact in the following scenarios:
+
+* When static components are used in the left column and [column totals are calculated as a sum of the rows](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  If row items contain overlapping data in this scenario, column totals will be inaccurate. 
+  
+  For example, if you add static segments to the left column, and then you add Users as a metric in the right column, some of those users might be part of more than one of the static segments. In this case, Workspace does not deduplicate the users for each static segment. This can result in a higher number of total users because some users might be counted more than once.  
+
+* When using multi-valued dimensions
+
+>[!NOTE]
+>
+>The sparkline and line chart still reflect the accurate totals in these scenarios.
 
 
 ## Sort tables

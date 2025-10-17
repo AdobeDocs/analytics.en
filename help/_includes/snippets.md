@@ -4,8 +4,8 @@
 
 >[!IMPORTANT]
 >
->A new and streamlined [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) was released on October 16, 2024. It is supported on Mac, Windows, and web browsers.
->This Legacy Report Builder add-in version still works. You can [convert your legacy workbooks](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) to the new Report Builder.
+>A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) was released on October 16, 2024. It is supported on Mac, Windows, and web browsers.
+>This Legacy Report Builder add-in version still works. You can [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder.
 
 ## Reports & Analytics end-of-life announcement {#ra-eol}
 

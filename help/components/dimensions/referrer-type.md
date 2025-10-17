@@ -10,7 +10,7 @@ The 'Referrer type' [dimension](overview.md) reports which generic channels visi
 
 ## Populate this dimension with data
 
-This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
+This dimension references multiple lookup tables internal to Adobe. Each value is based on the [referrer](referrer.md) of the hit, which depends on [Internal URL filters](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Make sure that the referrer dimension and internal URL filters are configured correctly.
 
 ## Dimension items
 
@@ -18,10 +18,34 @@ Dimension items include the type of referrer of the hit. Specific values include
 
 * **Typed/Bookmarked**: No referrer data exists for the hit.
 * **Search engines**: The referrer came from a recognized search engine that includes a keyword query string.
+* **Conversational AI tools**: The referrer came from a recognized conversational AI tool.
 * **Social networks:**: Referrer data belonged to an Adobe-recognized social network.
 * **Other web sites**: Referrer data did not belong to a search engine or social network that Adobe recognizes.
+* **No JavaScript**: The referrer came from a browser that did not have JavaScript enabled. 
 * **Hard drive**: Referrer originated from a local copy of a web page on the visitor's hard drive.
 * **Email**: Referrer originated from a URL with a protocol of `imap://` or `mail://`. Does not include online email services, as these typically use `https://` protocol.
+
+### Conversational AI tools
+
+The following list references the 'Conversational AI tools' lookup table that Adobe uses. Adobe provides this list as a courtesy to Adobe Analytics customers. If you would like to recommend that Adobe adds a domain to this list, have a support delegate in your organization contact Customer Care.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Social networks
 
@@ -29,7 +53,7 @@ The following list references the 'Social networks' lookup table that Adobe uses
 
 >[!NOTE]
 >
->This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>This list is different than the default list of social networks in [Marketing channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

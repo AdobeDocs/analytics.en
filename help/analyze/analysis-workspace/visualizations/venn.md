@@ -26,6 +26,12 @@ _This article documents the Venn visualization in_ ![AdobeAnalytics](/help/asset
 
 The ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** visualization lets you drag in up to 3 filters and one metric (from the Components panel) to build a Venn diagram.
 
+>[!NOTE]
+>
+>Analysis Workspace uses area-proportional Venn diagrams. Venn diagrams with three or more circles that are represented in two dimensions cannot always be drawn with perfect proportions.
+> 
+>Workspace attempts to create the closest approximate Venn, but the results might not always be visually accurate.
+
  ![Venn visualization that includes three filters.](assets/venn.png)
 
 You can hover over the filters to gain more insight into percentages, and more.

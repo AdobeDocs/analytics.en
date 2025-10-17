@@ -45,7 +45,7 @@ To remove project curation and restore the full set of components in the left ra
 
 ## Virtual report suite curation
 
-To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components). 
+To apply curation at a report-suite level, so that it applies to many projects at once, you can [curate components in a Virtual Report suite](/help/components/vrs/vrs-components.md). 
 
 >[!NOTE]
 >

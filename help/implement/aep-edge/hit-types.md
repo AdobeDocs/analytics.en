@@ -15,14 +15,23 @@ The Edge Network uses the following logic to determine Adobe Analytics page view
 |---|---|
 | `xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.URL` and no `xdm.web.webInteraction.type` | considers payload a **page view** |
 | `xdm.eventType = web.webPageDetails.pageViews` | considers payload a **page view** |
-| `xdm.web.webInteraction.type` and (`xdm.web.webInteraction.name` or `xdm.web.webInteraction.url`) | considers payload a **link event** |
 | `xdm.web.webInteraction.type` and (`xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.url`) | considers payload a **link event** <br/>Also sets `xdm.web.webPageDetails.name` and `xdm.web.webPageDetails.URL` to `null` |
-| no `xdm.web.webInteraction.type` and (no `xdm.webPageDetails.name` and no `xdm.web.webPageDetails.URL`) | drops the payload and ignores the data |
+| no `xdm.web.webInteraction.type` and no `xdm.webPageDetails.name` and no `xdm.web.webPageDetails.URL` | drops the payload and ignores the data |
+
+| Data object payload contains... | Adobe Analytics... |
+|---|---|
+| `data.__adobe.analytics.pageName` or `data.__adobe.analytics.pageURL` and no `data.__adobe.analytics.linkType` | considers payload a **page view** |
+| `data.__adobe.analytics.linkType` and (`data.__adobe.analytics.linkName` or `data.__adobe.analytics.linkURL`) | considers payload a **link event** <br/>Also sets `data.__adobe.analytics.pageName` and `data.__adobe.analytics.pageURL` to `null` |
+| no `data.__adobe.analytics.linkType` and no `data.__adobe.analytics.pageName` and no `data.__adobe.analytics.pageURL` | drops the payload and ignores the data |
+
+>[!NOTE]
+>
+>If you include both an `xdm` object and a `data` object in the same payload, Adobe Analytics checks both objects for respective fields.
 
 In addition to differentiating page views and link clicks, the following logic is in place that determines if certain events are categorized as A4T or are discarded.
 
 | XDM payload contains... | Adobe Analytics... |
-| --- | --- |
+|---|---|
 | `xdm.eventType = display` or <br/>`xdm.eventType = decisioning.propositionDisplay` or <br/>`xdm.eventType = personalization.request` or <br/>`xdm.eventType = decisioning.propositionFetch` and `xdm._experience.decisioning` | considers payload an **A4T** call. |
 | `xdm.eventType = display` or <br/>`xdm.eventType = decisioning.propositionDisplay` or <br/>`xdm.eventType = personalization.request` or <br/>`xdm.eventType = decisioning.propositionFetch` and no `xdm._experience.decisioning` | drops the payload and ignores the data |
 | `xdm.eventType = click` or `xdm.eventType = decisioning.propositionInteract` and `xdm._experience.decisioning` and no `web.webInteraction.type` | considers payload an **A4T** call. |

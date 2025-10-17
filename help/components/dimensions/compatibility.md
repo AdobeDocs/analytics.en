@@ -151,7 +151,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 
 ## Content-aware dimensions supported by Analysis Workspace
 
-### Video (the Streaming Media Collection)
+### Video (Streaming media services)
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |

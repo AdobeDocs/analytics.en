@@ -7,8 +7,8 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 ---
 # Adobe Analytics Tools Guide {#analyze}
 
-+ [Analytics Tools Guide](home.md)
-+ [Analytics Release Notes](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics tools guide](home.md)
++ [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Get started with Adobe Analytics {#admin-overview}
   + [Analytics overview](get-started/analytics-overview.md)
   + [Get started (by role)](get-started/get-started-by-role.md)
@@ -75,12 +75,13 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
     + Freeform table {#freeform-table}
       + [Overview](analysis-workspace/visualizations/freeform-table/freeform-table.md)
       + [Create hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+      + [View trended data](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+      + [Filter and sort](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+      + [Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Column and row settings {#column-row-settings}
         + [Column settings](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
         + [Row settings](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
         + [Dynamic and static items](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Filter and sort](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-      + [Totals](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
     + Cohort Table {#cohort-table}
       + [Overview](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
       + [Configure](analysis-workspace/visualizations/cohort-table/t-cohort.md)

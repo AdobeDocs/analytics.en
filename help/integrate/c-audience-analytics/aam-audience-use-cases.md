@@ -16,12 +16,12 @@ As a Travel Company, you can quickly overlay destination preferences with purcha
 
 ## Look-Alike Modeling {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-As a Multi-Media Publisher, you can compare your third-party audiences using [Segment comparison](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) to understand key differentiating characteristics. This comparison helps you build high-value first-party segments to use for targeting.
+As a Multi-Media Publisher, you can compare your third-party audiences using [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) to understand key differentiating characteristics. This comparison helps you build high-value first-party segments to use for targeting.
 
 ## Prospect Analysis {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-As a B2B Retailer, you can now deeply analyze the behavior of your prospect audience right before they purchase using [sequential segmentation](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), which helps you understand what actions drive conversion.
+As a B2B Retailer, you can now deeply analyze the behavior of your prospect audience right before they purchase using [sequential segmentation](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md), which helps you understand what actions drive conversion.
 
 ## Demographic Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
-As a Destination Resort, you can use [Histograms in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) to see purchases distributed by age. Histograms help you find the right audience to target for each of your resort properties.
+As a Destination Resort, you can use [Histograms in Analysis Workspace](/help/analyze/analysis-workspace/visualizations/histogram.md) to see purchases distributed by age. Histograms help you find the right audience to target for each of your resort properties.

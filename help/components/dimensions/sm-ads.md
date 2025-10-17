@@ -1,16 +1,16 @@
 ---
-title: Streaming Media ad dimensions
+title: Streaming media services ad dimensions
 description: Available dimensions when you enable [!UICONTROL Media Ads] for a report suite.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
 ---
-# Streaming Media ad dimensions
+# Streaming media services ad dimensions
 
 *This page describes the available dimensions when you enable [!UICONTROL Media Ads] for a report suite. See [Streaming Media ad metrics](../metrics/sm-ads.md) for available metrics.*
 
-Streaming Media ad dimensions provide supplemental reporting functionality to data collection through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
+Streaming media services ad dimensions provide supplemental reporting functionality to data collection through Streaming media services libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Media Ads]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
+When you enable **[!UICONTROL Media Ads]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following dimensions are available:
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

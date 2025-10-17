@@ -53,8 +53,6 @@ about_classification_rules.xml
 
 ## Important Information about Rules 
 
-* Specify [group permissions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) for classifications in [!UICONTROL Admin Tools].
-
 * **Regular expressions**: Help is available under [Regular Expressions in Classification Rules](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Report suites**: You cannot choose a classification until at least one report suite is selected. You cannot apply the report suite until you have created the rule set and assigned a variable.

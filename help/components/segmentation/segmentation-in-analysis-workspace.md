@@ -10,7 +10,7 @@ Beyond the [standard use of segments](/help/components/segmentation/segmentation
 
 * [Segment comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [Apply segments in Fallout Analysis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+* [Apply segments in Fallout Analysis](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
 
 >[!MORELIKETHIS]
 >

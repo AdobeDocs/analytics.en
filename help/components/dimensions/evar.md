@@ -8,9 +8,9 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 
 *This help page describes how eVars work as a [dimension](overview.md). For information on how to implement eVars, see [eVars](/help/implement/vars/page-vars/evar.md) in the Implement user guide.*
 
-eVars are custom variables that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars]. See [Dimensions overview](overview.md) for more information.  
+eVars are custom [dimensions](overview.md) that you can use however you like. If you have a [solution design document](/help/implement/prepare/solution-design.md), most dimensions specific to your organization end up as [!UICONTROL eVars].
 
-By default, eVars persist beyond the hit that they are set on. See the sections [How eVars work](#how-evars-work) and [How eVars tie to metrics](#how-evars-tie-to-metrics) below for details on how eVar persistence operates on Adobe's architecture. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. The following image shows an example of eVar definitions in the Conversion variables interface:
+By default, eVars persist beyond the hit that they are set on. See the sections [How eVars work](#how-evars-work) and [How eVars tie to metrics](#how-evars-tie-to-metrics) below for details on how eVar persistence operates on Adobe's architecture. You can enable, disable, or customize their expiration and allocation under [Conversion variables](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL Report suite settings]. The following image shows an example of eVar definitions in the Conversion variables interface:
 
 ![Evar examples](assets/evars-sample.png)
 
@@ -84,7 +84,7 @@ Since allocation and expiration determine what values persist, they are vital in
 * By default, an eVar uses last allocation. New values overwrite persisted values.
 * By default, an eVar uses an expiration of visit. Once a visit ends, values stop copying over from row to row in the `post_evar` column.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+You can change eVar allocation and expiration under [Conversion variables](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 ## Value of eVars over props
 

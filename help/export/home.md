@@ -10,10 +10,8 @@ feature: Data Feeds, FTP Export, Data Warehouse
 
 This guide outlines ways to get data out of Adobe Analytics. It includes:
 
-* **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to [cloud destinations](/help/export/analytics-data-feed/create-feed.md).
-* **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values. Data warehouse requests are typically sent to [cloud destinations](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* **FTP and SFTP:** FTP and SFTP are supported, but are no longer recommended. Instead, export data to cloud destinations.
-
+* **Data feeds:** Receive an hourly or daily export of raw data. Every row is an individual hit, and every column is a variable. Data feeds are typically sent to [cloud destinations](/help/export/analytics-data-feed/create-feed.md). Legacy FTP and SFTP accounts are available but are not recommended.
+* **Data Warehouse:** Use a request wizard to retrieve a spreadsheet output of data. Data Warehouse uses a different processing architecture to allow any number of rows and any number of unique values. Data warehouse requests are typically sent to [cloud destinations](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Legacy FTP and SFTP accounts are available but are not recommended.
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +24,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 
 
 * [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
-* [Exporting to FTP](ftp-and-sftp/ftp-overview.md)
+* [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
 ## More Analytics user guides
 

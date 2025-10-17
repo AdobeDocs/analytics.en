@@ -1,16 +1,16 @@
 ---
-title: Streaming Media core dimensions
+title: Streaming media services core dimensions
 description: Available dimensions when you enable [!UICONTROL Media Core] for a report suite.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
 ---
-# Streaming Media core dimensions
+# Streaming media services core dimensions
 
-*This page describes the available dimensions when you enable [!UICONTROL Media Core] for a report suite. See [Streaming Media core metrics](../metrics/sm-core.md) for available metrics.*
+*This page describes the available dimensions when you enable [!UICONTROL Media Core] for a report suite. See [Streaming media services core metrics](../metrics/sm-core.md) for available metrics.*
 
-Streaming Media core dimensions provide basic reporting functionality to data collected through streaming media collection libraries. Use of these dimensions require the **[!UICONTROL Adobe Streaming Media Collection]**. Contact your Adobe Account Team for details.
+Streaming media services core dimensions provide basic reporting functionality to data collected through streaming media services libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), the following dimensions are available:
+When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following dimensions are available:
 
 | Dimension name | Description | Sent with | Context data variable |
 | --- | --- | --- | --- |

@@ -29,8 +29,8 @@ The Scheduled projects list ➊ displays columns for:
 | **[!UICONTROL Frequency]** | How often you want to have this schedule project sent to one or more recipients. |
 | **[!UICONTROL Execution Time]** | At what time of day this scheduled project gets sent. |
 | **[!UICONTROL Number of Queries]** | The number of queries against this project. | 
-| **[!UICONTROL Longest Date Range]** | The longest date range defined for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) for more information. |
-| **[!UICONTROL Number of queries]** | The number of queries executed for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) for more information.| 
+| **[!UICONTROL Longest Date Range]** | The longest date range defined for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) for more information. |
+| **[!UICONTROL Number of queries]** | The number of queries executed for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) for more information.| 
 
 
 You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to configure which columns to display.
@@ -53,7 +53,7 @@ The following are common actions in the Scheduled Projects manager. You can sele
 | Icon | Action | Description |
 |:---:|---|---|
 | ![Close](/help/assets/icons/Close.svg) | **[!UICONTROL *x* selected]** | Select to unselect your selected scheduled projects. |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete the selected scheduled projects for the project; the projects are not deleted.|
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete the selected scheduled projects for the project; the projects are not deleted. <p>For information about deleting a project, see [Projects overview](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p>|
 | ![Labels](/help/assets/icons/Labels.svg)| **[!UICONTROL Tag]** | Tag the selected scheduled projects. In the **[!UICONTROL Tag Scheduled projects]** select tags and select **[!UICONTROL Save]** to save. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Approve the selected scheduled projects. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Export the selected scheduled projects to a file named `Export Scheduled Projects List.csv`. |

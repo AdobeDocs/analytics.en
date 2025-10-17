@@ -28,14 +28,15 @@ exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Media playback time spent panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Media playback time spent panel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+_This article documents the Media playback time spent panel in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Media playback time spent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->The Media average minute audience panel is available only to customers who have purchased the Streaming Media Collection Add-on for Adobe Analytics.
+>The Media average minute audience panel is available only to customers who have purchased the Adobe Analytics for Streaming Media Add-on.
+>
 >Contact your Adobe sales representative or Adobe account team for more information. 
 >
 
@@ -43,7 +44,7 @@ The **[!UICONTROL Media playback time spent]** panel enables analysis of playbac
 
 In Analysis Workspace, Playback time spent is the amount of time spent viewing your media streams at a specific point in time. It includes pause, buffer, and time to start.
 
-Customers who have purchased the Streaming Media Collection Add-on can analyze playback time spent to gain valuable insight into the quality of content and viewer engagement. And to help when troubleshooting or planning for volume or scale.
+Customers who have purchased the Adobe Analytics for Streaming Media Add-on can analyze playback time spent to gain valuable insight into the quality of content and viewer engagement. And to help when troubleshooting or planning for volume or scale.
 
 Playback time spent can help you understand:
 
@@ -63,7 +64,7 @@ To use an **[!UICONTROL Media playback time spent]** panel:
 
 1. Create a **[!UICONTROL Media playback time spent]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).  
 
-1. Ensure you select a data view for the panel that has components configured from the Streaming Media Collection.
+1. Ensure you select a data view for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
 
 1. Specify the [input](#panel-input) for the panel.
 

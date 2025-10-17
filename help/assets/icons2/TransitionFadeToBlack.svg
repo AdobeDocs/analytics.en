@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg   xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="M2.77344,13.5v2.25c0,.82837.67163,1.5,1.5,1.5h11.5c.82837,0,1.5-.67163,1.5-1.5v-2.25H2.77344Z" fill="var(--iconPrimary, #222)" stroke-width="0"/>
+  <rect x="3" y="12.75" width="14" height="1" fill="var(--iconPrimary, #222)" opacity=".3" stroke-width="0"/>
+  <rect x="3" y="12.25" width="14" height="1.5" fill="var(--iconPrimary, #222)" opacity=".2" stroke-width="0"/>
+  <rect x="3" y="11.75" width="14" height="2" fill="var(--iconPrimary, #222)" opacity=".18" stroke-width="0"/>
+  <rect x="3" y="11.25" width="14" height="2.5" fill="var(--iconPrimary, #222)" opacity=".16" stroke-width="0"/>
+  <rect x="3" y="10.75" width="14" height="3" fill="var(--iconPrimary, #222)" opacity=".14" stroke-width="0"/>
+  <rect x="3" y="10.25" width="14" height="3.5" fill="var(--iconPrimary, #222)" opacity=".12" stroke-width="0"/>
+  <rect x="3" y="9.75" width="14" height="4" fill="var(--iconPrimary, #222)" opacity=".13" stroke-width="0"/>
+  <rect x="3" y="9.25" width="14" height="4.5" fill="var(--iconPrimary, #222)" opacity=".11" stroke-width="0"/>
+  <rect x="3" y="8.75" width="14" height="5" fill="var(--iconPrimary, #222)" opacity=".08" stroke-width="0"/>
+  <rect x="3" y="8.25" width="14" height="5.5" fill="var(--iconPrimary, #222)" opacity=".06" stroke-width="0"/>
+  <rect x="3" y="7.75" width="14" height="6" fill="var(--iconPrimary, #222)" opacity=".05" stroke-width="0"/>
+  <path d="M15.77344,18H4.27344c-1.24023,0-2.25-1.00977-2.25-2.25V4.25c0-1.24023,1.00977-2.25,2.25-2.25h11.5c1.24023,0,2.25,1.00977,2.25,2.25v11.5c0,1.24023-1.00977,2.25-2.25,2.25ZM4.27344,3.5c-.41309,0-.75.33691-.75.75v11.5c0,.41309.33691.75.75.75h11.5c.41309,0,.75-.33691.75-.75V4.25c0-.41309-.33691-.75-.75-.75H4.27344Z" fill="var(--iconPrimary, #222)" stroke-width="0"/>
+</svg>

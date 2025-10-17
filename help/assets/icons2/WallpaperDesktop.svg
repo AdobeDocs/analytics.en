@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="e" data-name="ICONS" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="M14,18.5H6c-.41406,0-.75-.33594-.75-.75s.33594-.75.75-.75h8c.41406,0,.75.33594.75.75s-.33594.75-.75.75Z" fill="var(--iconPrimary, #222)"/>
+  <path d="M16.75,16H3.25c-1.24023,0-2.25-1.00977-2.25-2.25V5.25c0-1.24023,1.00977-2.25,2.25-2.25h13.5c1.24023,0,2.25,1.00977,2.25,2.25v8.5c0,1.24023-1.00977,2.25-2.25,2.25ZM3.25,4.5c-.41309,0-.75.33691-.75.75v8.5c0,.41309.33691.75.75.75h13.5c.41309,0,.75-.33691.75-.75V5.25c0-.41309-.33691-.75-.75-.75H3.25Z" fill="var(--iconPrimary, #222)"/>
+  <circle cx="5" cy="7" r="1.1" fill="var(--iconPrimary, #222)"/>
+  <circle cx="5.75" cy="11.75" r="1.125" fill="var(--iconPrimary, #222)"/>
+  <circle cx="11.75" cy="6.39091" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="11.75" cy="12.60909" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="9.55154" cy="7.30154" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="13.94846" cy="11.69846" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="8.64091" cy="9.5" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="14.85909" cy="9.5" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="9.55154" cy="11.69846" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="13.94846" cy="7.30154" r=".75" fill="var(--iconPrimary, #222)"/>
+  <circle cx="11.75" cy="9.5" r="1.25" fill="var(--iconPrimary, #222)"/>
+</svg>

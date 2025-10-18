@@ -125,6 +125,14 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [pt](vars/plugins/pt-plugin.md)
     + [removeFromList](vars/plugins/removefromlist.md)
   + [Integrate module](vars/integrate.md)
++ Visitor identification {#id}
+  + [Overview](id/overview.md)
+  + [Using AppMeasurement](id/appmeasurement.md)
+  + [Using Analytics extension](id/analytics-extension.md)
+  + [Using Web SDK (Alloy)](id/alloy.md)
+  + [Using Web SDK extension](id/web-sdk-extension.md)
+  + [Migrating to the Visitor ID Service](id/migration.md)
+  + [Track across implementation types](id/cross-type-implementation.md)
 + Prepare to implement Adobe Analytics {#prepare}
   + [Create a data layer](prepare/data-layer.md)
   + [Compare implementation methods](prepare/comparison.md)
@@ -182,7 +190,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
 + [Implement Analytics on mobile devices](mobile-device-sdk.md)
 + Implementation use cases {#use-cases}
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
-  + [Track across different implementation types](use-cases/cross-type-implementation.md)
   + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
   + [Legacy Adobe Experience Cloud debugger](validate/debugger.md)

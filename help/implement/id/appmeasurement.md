@@ -4,9 +4,51 @@ description: Correctly identify visitors when implementing Adobe Analytics using
 ---
 # Visitor identification using AppMeasurement
 
-<!-- Intro -->
+AppMeasurement is Adobe Analytics' legacy JavaScript library for data collection. While AppMeasurement by itself offers a native way to identify visitors, many modern browsers reject the cookies that it attempts to set. Adobe strongly recommends using the Adobe Experience Cloud Visitor ID Service in all implementations to conform to modern browser privacy standards. All versions of AppMeasurement come bundled with `VisitorAPI.js`, the JavaScript library used to implement the Visitor ID Service.
 
-## Identifying visitors using the Visitor ID service (recommended)
+## Identifying visitors using the Visitor ID Service (recommended)
+
+Use this section to create a basic integration between Adobe Analytics and the Visitor ID Service. Ensure that you are prepared with the following:
+
+* Download the [Latest version of AppMeasurement](https://github.com/adobe/appmeasurement). The downloaded library includes both `AppMeasurement.js` and `VisitorAPI.js`.
+* A development [Report suite ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
+* The desired domain for [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
+* Your IMS org ID:
+  1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
+  1. Anywhere in the Experience Cloud interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
+  1. A **[!UICONTROL User data debugger]** appears. Select the **[!UICONTROL Assigned orgs]** tab.
+  1. Expand the desired IMS organization.
+  1. Locate the **[!UICONTROL ID]** field.
+
+Once you have the above resources, see the following basic example page containing the minimum required calls to send data to Adobe Analytics:
+
+```html
+<html>
+  <head>
+    <title>Example AppMeasurement implementation page</title>
+    <script src="AppMeasurement.js"></script>
+    <script src="VisitorAPI.js"></script>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <script>
+      var s = s_gi("examplersid"); // Include development report suite ID here
+      s.trackingServerSecure = "example.data.adobedc.net"; // Include edge domain here
+      s.visitor = Visitor.getInstance("ADB3LETTERSANDNUMBERS@AdobeOrg"); // Include IMS org ID here
+      s.pageName = document.title;
+      s.t();
+    </script>
+  </body>
+</html>
+```
+
+>[!TIP]
+>
+>You can track if a hit uses the Visitor ID service by assigning the presence of `Visitor` to a custom variable:
+>
+>```js
+>s.prop1 = typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI Missing";
+>```
 
 ## Identifying visitors using the `s_vi` cookie (Not recommended)
 

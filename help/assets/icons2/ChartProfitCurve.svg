@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg   xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle cx="12.25" cy="15.08333" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <circle cx="12.25" cy="12.91667" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <circle cx="12.25" cy="10.75" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <circle cx="4.91667" cy="7.75" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <circle cx="7.08333" cy="7.75" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <circle cx="9.25" cy="7.75" r=".75" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+  <path d="M17.25,17.94434c-.41406,0-.75-.33594-.75-.75,0-7.55078-6.14307-13.69434-13.69385-13.69434-.41406,0-.75-.33594-.75-.75s.33594-.75.75-.75c8.37793,0,15.19385,6.81641,15.19385,15.19434,0,.41406-.33594.75-.75.75Z" fill="var(--iconPrimary, #292929)" stroke-width="0"/>
+</svg>

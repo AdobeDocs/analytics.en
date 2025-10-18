@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="e" data-name="ICONS" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <polygon points="15.48902 17.24429 18.5 12.02957 8.99564 12.02957 5.98466 17.24429 15.48902 17.24429" fill="var(--iconPrimary, #222)"/>
+  <polygon points="13.7473 2.75571 7.72638 2.75571 12.47908 10.98663 18.5 10.98663 13.7473 2.75571" fill="var(--iconPrimary, #222)"/>
+  <polygon points="1.5 11.34853 4.51098 16.56325 9.26264 8.33129 6.2527 3.11656 1.5 11.34853" fill="var(--iconPrimary, #222)"/>
+</svg>

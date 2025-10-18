@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path d="M10,17.25c-3.99805,0-7.25-3.25195-7.25-7.25s3.25195-7.25,7.25-7.25,7.25,3.25195,7.25,7.25-3.25195,7.25-7.25,7.25ZM10,4.25c-3.1709,0-5.75,2.5791-5.75,5.75s2.5791,5.75,5.75,5.75,5.75-2.5791,5.75-5.75-2.5791-5.75-5.75-5.75Z" fill="var(--iconPrimary, #222)" stroke-width="0"/>
+  <path d="M10,3.5c-3.58984,0-6.5,2.91016-6.5,6.5s2.91016,6.5,6.5,6.5V3.5Z" fill="var(--iconPrimary, #222)" opacity=".6"/>
+  <rect x="10" y="8.375" width="3" height="3.25" fill="var(--iconPrimary, #222)"/>
+  <rect x="10" y="3.5" width="3" height="1.625" fill="var(--iconPrimary, #222)"/>
+  <rect x="10" y="14.875" width="3" height="1.625" fill="var(--iconPrimary, #222)"/>
+  <path d="M13,5.125h1.40662c.87941,0,1.59338.71397,1.59338,1.59338v1.65662h-3v-3.25h0Z" fill="var(--iconPrimary, #222)"/>
+  <path d="M13,11.625h3v1.45189c0,.9924-.8057,1.79811-1.79811,1.79811h-1.20189v-3.25h0Z" fill="var(--iconPrimary, #222)"/>
+</svg>

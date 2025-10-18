@@ -134,7 +134,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 | Regular Expression | String or Match Result | Corresponding Match Groups |
 |--- |--- |--- |
 |`^(.+)\:(.+)\:(.+)$`|`em:JuneSale:20XX0601`|`$0`: `em:JuneSale:20XX0601`  `$1`: em  `$2`: JuneSale  `$3`: 20XX0601|
-|Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.|
+|Building the syntax|`^` = starts the line  () = groups characters and lets you extract matching characters in the parentheses.  `(.+)` = captures one ( . ) character and ( + ) any more  \ = start of a string.  `$` = indicates that the preceding character (or character group) is the last in the line.| |
 
 See [Regular Expressions - Reference Table](/help/components/classifications/crb/classification-quickstart-rules.md) for information about what the characters in a regular expression mean.
 

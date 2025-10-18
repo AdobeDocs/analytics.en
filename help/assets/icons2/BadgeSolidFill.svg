@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <rect x="7.5" y="6" width="3" height="3" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <polygon points="10.5 3 7.5 3 7.5 1.42824 10.5 2.28019 10.5 3" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <polygon points="11.50606 11.85818 10.5 12 10.5 9 13.5 9 11.50606 11.85818" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <polygon points="10.5 12.69722 7.5 13.48463 7.5 12 10.5 12 10.5 12.69722" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <polygon points="13.31323 6 10.5 6 10.5 2.6029 13.31323 6" fill="var(--iconPrimary, #222)" opacity=".5"/>
+  <path d="M7.5.89648C3.84668.89648.875,3.86816.875,7.52148s2.97168,6.625,6.625,6.625,6.625-2.97168,6.625-6.625S11.15332.89648,7.5.89648ZM7.5,12.89648V2.14648c2.96387,0,5.375,2.41113,5.375,5.375s-2.41113,5.375-5.375,5.375Z" fill="var(--iconPrimary, #222)"/>
+</svg>

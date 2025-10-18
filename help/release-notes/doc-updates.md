@@ -19,9 +19,11 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
-| **September 2025**| |
+| **October 2025** | |
+| Additional visitor identification improvements | Added the [Visitor identification](/help/implement/id/overview.md) section, outlining the recommended way to identify visitors across all implementation types. |
+| **September 2025** | |
 | Visitor identification improvements | Clarified best practices around visitor identification, focusing on the purpose of the [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) and [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) variables in AppMeasurement. |
-| **August 2025**| |
+| **August 2025** | |
 | Data Feed names must be unique | Clarified why [data feed names must be unique](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique).  |
 | Deprecation warnings | Added deprecation warnings to articles in the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md) and [Classification importer](/help/components/classifications/importer/c-working-with-saint.md) sections. | 
 | **July 2025** | |

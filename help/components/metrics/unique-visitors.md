@@ -16,30 +16,4 @@ Analysis Workspace treats unique visitors based on the granularity of the report
 
 ## How this metric is calculated
 
-This metric counts the number of unique visitor ID's for a given dimension item. It uses multiple advanced mechanisms to identify unique visitors, since there are several ways to identify them. The following table lists the ways a visitor is identified, along with its priority. Some hits can have multiple visitor identification methods; in these cases the higher priority method is used.
-
-| Order Used | Query Parameter (collection method) | Present When |
-| --- | --- | --- |
-| 1 | `vid` | The [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
-| 2 | `aid` | Visitor has an existing [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations without or prior to implementing the Visitor ID service. |
-| 3 | `mid` | Visitor has an existing [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe recommends using the ID service for all implementations where possible. |
-| 4 | `fid` | Visitor has an existing [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie, or if `aid` and `mid` could not be set for any reason. |
-| 5 | IP Address, User Agent, Gateway IP Address | Last resort to identify a unique visitor if the visitor's browser does not accept cookies. |
-
->[!NOTE]
->
->Each Analytics visitor ID is tied to a profile on Adobe's servers. These visitor profiles are deleted after at least 13 months of inactivity regardless of any visitor ID cookie expiration.
-
-## Behavior that affects unique visitor count
-
-Unique visitor identifiers are typically stored in a browser cookie. A new unique visitor is counted if they perform any of the following:
-
-* Clears their cache at any time
-* Opens a different browser on the same computer. One unique visitor is counted per browser.
-* The same person browsing your site on different devices. A separate unique visitor is counted per device. You can use [Cross-device analytics](../cda/overview.md) to combine visitors together using the [People](people.md) metric.
-* Opens a private browsing session (such as Chrome's Incognito tab).
-
-A new unique visitor is *not* counted, as long as the cookie identifier is preserved:
-
-* Closes their browser for an extended period
-* Upgrades their browser to the latest version
+This metric counts the number of unique visitor IDs for a given dimension item. See [Visitor identification overview](/help/implement/id/overview.md) for more information on how Adobe Analytics identifies unique visitors.

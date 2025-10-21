@@ -22,9 +22,9 @@ If you coordinate the deployment of the Visitor ID Service across all areas of y
 
 ## Cross-domain tracking
 
-Some legacy Analytics visitor ID implementations might use "friendly third-party cookies", where two domains share the same visitor cookie on a common domain like `data.example.com`. Since friendly third-party cookies are still third-party cookies, most modern browsers reject them, causing Analytics to rely on a fallback ID (`fid`) for visitor identification. Moving to the ID Service allows all domains to set the `AMCV` cookie in a first-party context, increasing their viability to retain a visitor ID.
+Some legacy Analytics visitor ID implementations might use "friendly third-party cookies", where two domains share the same visitor cookie on a common domain like `data.example.com`. Since friendly third-party cookies are still third-party cookies, many modern browsers reject them, causing Analytics to rely on a fallback ID (`fid`) for visitor identification. Moving to the ID Service allows all domains to set the `AMCV` cookie in a first-party context, increasing their viability to retain a visitor ID.
 
-While the Visitor ID Service attempts to set a third-party cookie for cross-domain tracking (the [`demdex` cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), it is often rejected by most modern browsers. Consider using the [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) method to pass the Experience Cloud IDs between domains that you own.
+While the Visitor ID Service attempts to set a third-party cookie for cross-domain tracking (the [`demdex` cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), it is often rejected by modern browsers. Consider using the [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) method to pass a visitor's Experience Cloud ID (`mid`) between domains that you own.
 
 ## Server-side tracking
 

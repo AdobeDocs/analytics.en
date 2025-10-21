@@ -1,5 +1,5 @@
 ---
-title: Manage classification sets
+title: Manage Classification Sets
 description: Manage classification sets in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
@@ -8,25 +8,26 @@ feature: Classifications
 
 You can create, rename, edit, consolidate, delete, and tag classification sets in the Classification sets management interface. You can also filter on and search for specific classification sets. To manage classification sets:
 
-* Select Components in the main interface, then select Classification sets.
+* Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
 
 ## Classification sets manager
 
-The Classification sets manager has the following interface elements:
+The **[!UICONTROL Classification Sets]** manager has the following interface elements:
 
 ![Classification sets manager](assets/classification-sets-manage.png)
 
 
 ### Classification sets list
 
-The Classification Sets list ➊ displays all the classification sets. The list has the following columns:
+The **[!UICONTROL Classification Sets]** list ➊ displays all the classification sets. The list has the following columns:
 
 | Column | Description |
 |---|---|
-| Classification Set | The title of the classification set. Select the title to open the Classification set builder. |
-| Subscriptions | The number of subscriptions that the classification set applies to. |
-| Classifications | The number of classification dimensions that the classification set contains. |
-| Automated | Is the classification set configured to automatically import data from a cloud location or not. This automation can be configured in the classification sets schema. |
+| **[!UICONTROL Classification Set]** | The title of the classification set. Select the title to open the Classification set builder. |
+| **[!UICONTROL Subscriptions]** | The number of subscriptions that the classification set applies to. |
+| **[!UICONTROL Classifications]** | The number of classification dimensions that the classification set contains. |
+| **[!UICONTROL Automated]** | Is the classification set configured to automatically import data from a cloud location or not. This automation can be configured in the classification sets schema. |
+| **[!UICONTROL Last modified]** | Timestamp of last modification of the classification set. |
 
 ### Search and buttons
 

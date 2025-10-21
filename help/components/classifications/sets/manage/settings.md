@@ -1,6 +1,6 @@
 ---
-title: Classification set settings
-description: Create or edit a classification set.
+title: Classification Set Settings
+description: Understand how to create or edit a classification set.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 ---
@@ -8,9 +8,11 @@ feature: Classifications
 
 You can edit the settings of a classification set. 
 
-In the Classifications set manager, select the classification set for which you want to edit the settings.
+In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the settings.
 
 In the **[!UICONTROL Settings]** tab of the **[!UICONTROL Classification Set: _classification set title_]** dialog, where appropriate:
+
+![Classification sets - settings](assets/classification-sets-settings.png)
 
 1. Edit the **[!UICONTROL Name]**.
 1. Edit a **[!UICONTROL Description (optional)]**.

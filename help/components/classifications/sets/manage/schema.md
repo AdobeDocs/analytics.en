@@ -1,10 +1,118 @@
 ---
-title: Classification set schema
-description: View and edit the schema for an individual classification set.
+title: Classification Set Schema
+description: Learn how to view and edit the schema for an individual classification set.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 ---
-# Schema
+# Classification set schema
+
+You can edit the schema of a classification set. The schema is the list of classifications you want to apply to the key dimensions you have defined for the classification set. For example, if you defined product as the key dimension, and this field contains a product SKU, then you use schema to add classifications like product name, product color, product size, and more.
+
+To define the schema, n the **[!UICONTROL Classifications Sets]** manager, select the classification set.
+
+The **[!UICONTROL Schema]** tab of the **[!UICONTROL Classification Set: _classification set_]** dialog appears and consist of the following interface elements:
+
+![Classification sets - schema](assets/classification-sets-schema.png)
+
+## Classification list
+
+The list of classifications has the following columns:
+
+| Column | Description |
+|---|---|
+| **[!UICONTROL Classification Name]** | The name you provided for the classification |
+| **[!UICONTROL Identity Name]** | The derived name by the system for the classification |
+| **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
+
+
+## Search
+
+You can quickly search ![Search](/help/assets/icons/Search.svg) for one or more classifications. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to clear the search.
+
+## Action buttons
+
+The actions are available as buttons on top of the classifications list:
+
+| Icon | Action | Description | 
+|---|---|---|
+| ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | Add a classification to the list.  |
+| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | Upload a JSON, CSV, TSV, or TAB file. |
+| ![Download](/help/assets/icons/Download.svg) | Download | Download classification data. |
+
+
+### Add
+
+To add a new classification, select ![Add](/help/assets/icons/Add.svg) **[!UICONTROL Add]**.
+
+![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png) 
+
+In the  **[!UICONTROL Add a new classification for _classification set_]** dialog enter the **[!UICONTROL Classification Name]** and select **[!UICONTROL Add]**. The classification is added to the list.
+
+
+
+### Upload 
+
+To import classification data into the schema for a classification, select ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**.
+
+
+![Classification sets - Schema upload a file](assets/classification-sets-schema-upload-file.png) 
+
+1. In the **[!UICONTROL Add new classifications]** dialog:
+
+   * Drag a file that contains classification data and drop the file onto **[!UICONTROL Drag and drop here]**. 
+   * Select **[!UICONTROL Browse]** and pick a file from your computer or network. 
+
+   You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column. 
+   
+   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) explains that a classification is not present in the existing classification schema set and will be created on import. 
+
+1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite current classification data with the new import. For example:
+   
+   | | Key | Current Product Color | Import file | New Product Color |
+   |---|---|---|---|---|
+   | ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL Overwrite data on conflict?]** | 1234 | green | blue | blue |
+   | ![Square](/help/assets/icons2/Square.svg) **[!UICONTROL Overwrite data on conflict?]** | 1234 | green | blue | green |
+
+1. Select **[!UICONTROL Apply]**. You will see an alert if columns are not present as classifications in the existing schema set. Those columns are added as new classifications when you confirm the upload.
+
+   ![Classification set - Upload classifications alert](assets/classification-sets-schema-upload-file-preview-alert.png)
+
+   Select **[!UICONTROL Confirm Upload]** to confirm the upload. Select **[!UICONTROL Cancel Upload]** to cancel the upload.
+
+
+### Download
+
+To download classification data, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+![Classification sets - Schema download classification data](assets/classification-sets-schema-download-file.png)
+
+In the **[!UICONTROL Download data for _classification set_]** dialog:
+
+1. Enter the number of **[!UICONTROL Rows]** you want to download. For example: `10000`.
+1. To select the period for which you want to download rows of classification data, enter a start and end data for **[!UICONTROL Download Rows Received Between]**. Or use ![Calendar](/help/assets/icons/Calendar.svg) to use a calendar popup to select the period.
+1. To select what data to return, select an option from **[!UICONTROL Data Returned]**.
+
+   * **[!UICONTROL All values]** returns all values for the current classification data.
+   * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data and columns with no value for those classification data for which no value exist.
+   * **[!UICONTROL All columns empty]** returns a key column with values for the existing classification data and columns with no value for each of the classification data.
+1. To select the format of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
+
+   * **[!UICONTROL JSON]**.
+   * **[!UICONTROL Comma separated values]** (CSV).
+   * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
+
+1. To select the file encodig to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+
+1. Select **[!UICONTROL Download]** to download the classification data. If you specified options that do not return any data, tou see a **[!UICONTROL Notice]** dialog informing you to change the options for date range and data returned.
+
+
+## Action bar
+
+
+
 
 View currently configured classification dimensions for this classification set.
 

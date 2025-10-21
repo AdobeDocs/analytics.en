@@ -1,6 +1,6 @@
 ---
-title: Classification set jobs manager
-description: View current and completed classification jobs generated from classification sets.
+title: Classification Set Jobs Manager
+description: Learn how to view current and completed classification jobs that are generated from classification sets.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 ---

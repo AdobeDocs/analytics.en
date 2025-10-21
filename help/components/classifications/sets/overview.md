@@ -1,12 +1,13 @@
 ---
-title: Classification sets overview
-description: Use classification sets to manage classification data.
+title: Classification Sets Overview
+description: Learn how to use classification sets to manage classification data. Understand how classification sets differ from legacy classifications.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
 ---
 # Classification sets overview
 
-Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in Report suite settings with the [Classification importer](/help/components/classifications/) The result is a single intuitive interface to create and manage classification data.
+Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in Report suite settings with the [Classification importer](/help/components/classifications/sets/manage/set-manager.md). The result is a single intuitive interface to create and manage classification data.
+
 
 ## Classification sets versus legacy classifications
 
@@ -51,6 +52,3 @@ The backend architecture released with Classification sets also contain several 
 
 * Classification sets do not yet support rules. Rules functionality will be added to the classification sets interface before the legacy rule builder functionality becomes unavailable.
 * There is no migration of legacy classificiation rules and configurations to classification sets. A migration utility will be added to the classification sets interface before the legacy classification functionality becomes unavailable.
-
-
-

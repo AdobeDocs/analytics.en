@@ -1,6 +1,6 @@
 ---
-description: File formats supported by Classification Sets
-title: Classification set file formats
+description: Understand the various file formats that are supported by classification sets
+title: Classification Set File Formats
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
 ---
@@ -27,7 +27,7 @@ All file formats must adhere to the following requirements:
 * **Character limits**: Individual classification values have a maximum limit of 255 bytes.
 * **Key requirements**: Key values cannot be empty or contain only whitespace. If duplicate keys are present, the last occurrence is used.
 
-+++**JSON format details**
++++ JSON format details
 
 The JSON file format follows conventions for JSON Lines (JSONL). The file must contain one JSON object per line, where each object represents a single classification record. 
 
@@ -87,7 +87,7 @@ All JSON field names (`key`, `data`, `action`, `enc`) are case-sensitive and mus
 
 +++
 
-+++**CSV format details**
++++ CSV format details
 
 CSV (Comma-Separated Values) files use commas to separate classification data fields.
 
@@ -133,13 +133,14 @@ product456,,~empty~,~empty~,79.99
 * Special characters (tabs, newlines) within quoted fields are preserved
 
 **Delete operations:**
+
 * Use `~deletekey~` in any field to delete the entire key and all its classification data
 * Use `~empty~` in specific fields to delete only those classification values (leaves other fields intact)
 * When using `~empty~`, you can mix deletions with updates in the same file
 
 +++
 
-+++**TSV/TAB format details**
++++ TSV/TAB format details
 
 TSV (Tab-Separated Values) and TAB files use tab characters to separate classification data fields.
 
@@ -185,6 +186,7 @@ product456        ~empty~    ~empty~    79.99
 * Newline characters within fields should be avoided
 
 **Delete operations:**
+
 * Use `~deletekey~` in any field to delete the entire key and all its classification data
 * Use `~empty~` in specific fields to delete only those classification values (leaves other fields intact)
 * When using `~empty~`, you can mix deletions with updates in the same file

@@ -1,10 +1,69 @@
 ---
-title: Classification set manager
+title: Manage classification sets
 description: Manage classification sets in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
 ---
-# Classification set manager
+# Manage classificaton sets
+
+You can create, rename, edit, consolidate, delete, and tag classification sets in the Classification sets management interface. You can also filter on and search for specific classification sets. To manage classification sets:
+
+* Select Components in the main interface, then select Classification sets.
+
+## Classification sets manager
+
+The Classification sets manager has the following interface elements:
+
+![Classification sets manager](assets/classification-sets-manage.png)
+
+
+### Classification sets list
+
+The Classification Sets list ➊ displays all the classification sets. The list has the following columns:
+
+| Column | Description |
+|---|---|
+| Classification Set | The title of the classification set. Select the title to open the Classification set builder. |
+| Subscriptions | The number of subscriptions that the classification set applies to. |
+| Classifications | The number of classification dimensions that the classification set contains. |
+| Automated | Is the classification set configured to automatically import data from a cloud location or not. This automation can be configured in the classification sets schema. |
+
+### Search and buttons
+
+In the area ➋ on top of the classification sets list, you can:
+
+* Search ![Search](/help/assets/icons/Search.svg) for classifications. Results are shown in the classification sets list. Select ![CrossSize200](/help/assets/icons/CrossSize200.svg) to clear the search.
+* Select ![MoreCircle](/help/assets/icons/MoreCircle.svg) to load an addition 1000 classification sets. Initially the classification set list displays up to 1000 classification sets. 
+* Create a new classification set. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** to open the classification set builder and define a new classification set.
+* Define the columns of the classification set list. Select ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) and in the **[!UICONTROL Customize table]** dialog select the columns to show underneath **[!UICONTROL Select columns to show]**. Select Apply to apply the column settings.
+
+
+### Action bar
+
+When you select one or more classification set in the classification set list, a blue action bar ➌ appears. The following actions are available in the action bar:
+
+| Icon | Action | Description |
+|---|---|---|
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | Select to [edit the classification set](create.md#edit-a-classification-set) in the classification set builder. |
+| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Select to rename a classification set. In the **[!UICONTROL Rename: _classification set_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
+| ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidate]** | Select to consolidate source classification sets into the selected classification set. See [Manage classification sets consolidation](/help/components/classifications/sets/consolidations/manage.md) |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Select to delete a classification set. The **[!UICONTROL Delete _classification set_?]** dialog appaars. A deletion of a classification set cannot be undone. Any scheduled projects or consolidations that uses this classification set will continue to use the definition of this classification set until you re-save the scheduled projects or re-validate the scheduled consolidations. Select **[!UICONTROL Delete]** to delete the classification set. |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Select to tag the classification set. In the **[!UICONTROL Tag: _classification set_]** dialog, select one or more tags from the **[!UICONTROL Tags]** drop-down menu. Or enter one or more new tags. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag. Select **[!UICONTROL Save]** to save the tags. |
+
+
+### Filter panel
+
+Select ![Filter](/help/assets/icons/Filter.svg) to show the filter panel ➍ that allows you to filter the classification set list. You can filter on:
+
+* **[!UICONTROL Tags]**. Select one or more tags to filter the classification sets list on tags.
+* **[!UICONTROL Report Suite]**. Select one or more report suites to filter the classification sets list on report suites.
+
+Select ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** to hide the filters panel.
+
+Note that he filters shown in the filters panel reflect the options for the classification sets that are preloaded.
+
+
+<!-- old content
 
 The Classification set manager allows you to create, edit, or delete classification sets.
 
@@ -45,3 +104,5 @@ Select one or more classification sets by clicking the checkbox next to the desi
 * **[!UICONTROL Delete]**: Deletes the classification set. Classification dimensions based on this classification set are no longer available. Scheduled projects using the deleted classification set continue using dependent dimensions until you resave the scheduled project.
 * **[!UICONTROL Consolidate]**: Start a new [consolidation](../consolidations/process.md).
 * **[!UICONTROL Rename]**: Rename the selected classification set.
+
+-->

@@ -1,10 +1,55 @@
 ---
-title: Create a classification set
-description: Available fields and descriptions when creating a classification set.
+title: Create Classification Sets
+description: Learn how to Available fields and descriptions when creating a classification set.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
 ---
-# Create a classification set
+# Create and edit classification sets
+
+You [create](#create-a-classification-set) and [edit](#edit-a-classification-set) classification sets from the Classification Sets manager.
+
+## Create a classification set
+
+To create a classification set, in the main Adobe Analytics interface:
+
+1. Select **[!UICONTROL Classification sets]** from the **[!UICONTROL Components]** menu. 
+1. In the **[!UICONTROL Classification Set]** manager:
+   1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
+   1. In the **[!UICONTROL Add New Classification Set]** dialog:
+      1. Enter a **[!UICONTROL Name]**. For example: `Classification Set Example`.
+      1. Enter a **[!UICONTROL Description (optional)]**. For example, `Example classification set`.
+      1. Enter one or more email addresses (comma separater) in **[!UICONTROL Notify of issues]**. These users are notified by email of any issues.
+      1. Select the **[!UICONTROL Type]** of classification set. Possible types are:
+         * **[!UICONTROL Primary]**. A primary classification set applies to dimensions collected in Adobe Analytics. Primary classifications are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to better understand themes in your search data.
+           * Enter one or more **[!UICONTROL Subscriptions]**.  You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
+            
+           * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
+         * **[!UICONTROL Lookup]**. Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. A lookup is metadata about a classification value, rather than the original dimension. For example, the *Product* variable might have a primary classification of *Color code*. A lookup table of *Color name* could then be attached to *Color code* to further explain what each code means.
+   1. Select **[!UICONTROL Save]** to save the classification set. Select **[!UICONTROL Cancel]** to cancel the defintion.
+   1. To further define the schema for the classification set, select your newly created classification set from the Classification Set manager to [edit the classification set](#edit-a-classification-set).
+
+
+## Edit a classification set
+
+To edit a classification set, in the main Adobe Analytics interface:
+
+1. Select **[!UICONTROL Classification sets]** from the **[!UICONTROL Components]** menu. 
+1. In the **[!UICONTROL Classification Set]** manager:
+   1. Select the title of your classification set.
+   1. In the **[!UICONTROL Classification Set: _classification set title_]** dialog, you can define the [settings](#settings) and the [schema] for the classification set. 
+   1. Once done, select **[!UICONTROL Save]** to save your changes. Select **[!UICONTROL Cancel]** to cancel.
+
+
+
+
+
+### Schema
+
+In the Schema tab 
+
+
+
+
 
 You can use the Classification set manager to create a classification set.
 

@@ -60,5 +60,4 @@ user-guide-description: Browse a knowledge base containing helpful articles that
 + [Troubleshoot logging in](troubleshoot-login.md)
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)
 + [Unspecified, other, and unknown](unspecified.md)
-+ [Visitor migration](visitor-migration.md)
 + [VISTA rules](vista.md)

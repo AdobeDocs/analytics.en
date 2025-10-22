@@ -42,7 +42,7 @@ Using the **[!UICONTROL Visitor ID]** variable allows your organization complete
 * Every hit must contain the same [!UICONTROL Visitor ID] value to be counted as a single visitor.
   * Any hits that omit the [!UICONTROL Visitor ID] data element automatically attempt to use another visitor identification method, treating them as a separate visitor.
   * Any hits that contain a different [!UICONTROL Visitor ID] value from a previous hit are treated as a separate visitor.
-  * Adobe does not offer any way to stitch hits using different visitor IDs together.
+  * Adobe does not offer a way to stitch hits using different visitor IDs together in Adobe Analytics.
 * Shared audiences, Analytics for Target, and Customer attributes are not supported with visitors identified using [!UICONTROL Visitor ID].
 
 See [`visitorID`](/help/implement/vars/config-vars/visitorid.md) for implementation instructions using this variable.

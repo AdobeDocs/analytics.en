@@ -12,6 +12,11 @@ To define the schema, n the **[!UICONTROL Classifications Sets]** manager, selec
 
 The **[!UICONTROL Schema]** tab of the **[!UICONTROL Classification Set: _classification set_]** dialog appears and consist of the following interface elements:
 
+* [Classification list](#classification-list)
+* [Search](#search)
+* [Actions](#actions)
+* [Action bar](#action-bar)
+
 ![Classification sets - schema](assets/classification-sets-schema.png)
 
 ## Classification list
@@ -29,18 +34,18 @@ The list of classifications has the following columns:
 
 You can quickly search ![Search](/help/assets/icons/Search.svg) for one or more classifications. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to clear the search.
 
-## Action buttons
+## Actions
 
 The actions are available as buttons on top of the classifications list:
 
 | Icon | Action | Description | 
 |---|---|---|
-| ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | [Add a classification](#add) to the list.  |
+| ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | [Add a classification](#add) to the list. |
 | ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | [Upload a JSON, CSV, TSV, or TAB file](#upload). |
-| ![Download](/help/assets/icons/Download.svg) | Download | [Download classification data](#download). |
-| ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | Template | [Download a template](#template) for classification data. |
-| ![History](/help/assets/icons/History.svg) | Job History | Show the [classification set job manager](/help/components/classifications/sets/job-manager.md), filtered for the selected classification set. |
-|
+| ![Download](/help/assets/icons/Download.svg) | **[!UICONTROL Download]** | [Download classification data](#download). |
+| ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL Template]** | [Download a template](#template) for classification data. |
+| ![History](/help/assets/icons/History.svg) | **[!UICONTROL Job History]** | Show the [classification set job manager](/help/components/classifications/sets/job-manager.md), filtered for the selected classification set. |
+| ![Gear](/help/assets/icons/Gear.svg) | **[!UICONTROL Automate]** | [Automate the ingestion of classification data](#automate) through the use of a cloud location. | 
 
 
 ### Add
@@ -167,10 +172,13 @@ The action bar shows actions available for the selected classification set. Avai
 
 | Icon | Action | Description |
 |---|---|---|
-| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Add a classification set as a lookup (subclassification). In the Attach lookup table: <ol><li>Select a lookup classification from the drop-down menu.</li><li>Select Add.</li></ol>The lookup classification is added to the classification and listed in the Classified by column. |
-| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Select to rename a classification. In the **[!UICONTROL Rename: _classification_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
+| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Add a classification set as a lookup (subclassification). In the **[!UICONTROL Attach lookup]** table: <ol><li>Select a lookup classification from the **[!UICONTROL Classification Name]** drop-down menu.</li><li>Select **[!UICONTROL Add]**.</li></ol>The lookup classification is added to the classification and listed in the **[!UICONTROL Classified by]** column using the internal id. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Remove a classification set as a lookup. To permanently delete the lookup from the classification, in the **[!UICONTROL Remove _classification set_ from _classification_]** confirmation dialog select **[!UICONTROL Delete]**. |
+| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename a classification. In the **[!UICONTROL Rename: _classification_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete a classification set. The **[!UICONTROL Delete _classification_]** dialog appears. Select **[!UICONTROL Delete]** to delete the classification set. |
 
 
+<!--
 
 View currently configured classification dimensions for this classification set.
 
@@ -180,7 +188,7 @@ View currently configured classification dimensions for this classification set.
 
 The following buttons are available:
 
-<!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
+
 * **[!UICONTROL Upload]**: Manually upload classification data for a classification dimensions. `JSON`, `CSV`, `TSV`, and `TAB` files are supported. Uploading a valid file shows a table preview of data to classify.
   * **[!UICONTROL File encoding]**: Select the correct file encoding using this drop-down. Valid options include [!UICONTROL UTF-8] and [!UICONTROL Latin1].
   * **[!UICONTROL List delimiter]**: Select the correct list delimiter. If using a downloaded file or template file, make sure that the [!UICONTROL List delimiter] here matches the [!UICONTROL List delimiter] when the file was downloaded.
@@ -229,3 +237,4 @@ The following actions are available only after selecting a classification.
 * **Rename**: Lets you rename the classification.
 
 * **Delete**: Lets you delete the classification.
+-->

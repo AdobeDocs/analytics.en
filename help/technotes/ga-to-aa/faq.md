@@ -12,17 +12,17 @@ Every Analytics platform has different ways of collecting, handling, and storing
 
 If your organization is adamant about having historical data ported over to Adobe, contact your Adobe Account Team. An implementation consultant can work with your organization to translate a Google Analytics data export into a data source that can be ingested by Adobe data collection servers.
 
-For moving over historical data we recommend using [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) which can bring in any omni-channel data source.
+For moving over historical data the recommendation is to use [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) which can bring in any omni-channel data source.
 
 **I'm used to a segmentation drop-down list in many of my reports. How can I recreate that in [!UICONTROL Analysis Workspace]?**
 
 Drop-down filters are a flexible and robust feature in [!UICONTROL Analysis Workspace] that allows a segmentation drop-down list. While in a workspace project:
 
-1. Use ctrl+click (Windows) or cmd+click (Mac) on the components that you would like to include in the drop-down filter. You are not limited to just segments; any component can be included in a drop-down filter.
-2. Drag the group of components into the workspace area labeled 'Drop a Segment Here'. Before letting go, hold Shift.
+1. Use ***ctrl***+***click*** (Windows) or ***cmd***+***click*** (Mac) on the components that you would like to include in the drop-down filter. You are not limited to just segments. Any component can be included in a drop-down filter.
+2. Drag the group of components into the workspace area labeled *Drop a Segment Here*. Before letting go, hold **[!UICONTROL shift]**.
 
 Users accessing this [!UICONTROL Workspace] project can now use this drop-down filter to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
 **I'm used to clicking on a dimension item to see a drilldown. How can I replicate that easy workflow in Analysis Workspace?**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Access it by using right-click instead of left-click. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. You can apply the same breakdown to multiple dimension items by using ctrl+click (Windows) or cmd+click (Mac) on each value.
+Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Access the breakdown by using the context menu on a dimension item. Then select **[!UICONTROL Breakdown]**, and the desired component. You can apply the same breakdown to multiple dimension items by using ***ctrl***+***select*** (Windows) or ***cmd***+***select*** (Mac) on each value.

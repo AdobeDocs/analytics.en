@@ -17,7 +17,6 @@ To view and act upon jobs:
 
 The **[!UICONTROL Classification Sets]** manager has the following interface elements:
 
-![Classification sets manager](assets/classification-sets-manage.png)
 
 
 

@@ -4,9 +4,23 @@ description: Learn how to view current and completed classification jobs that ar
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 ---
-# Classification set jobs manager
+# View and act upon classifications jobs
 
-The Classification set jobs manager lets you see current and completed classification jobs that were generated from classification sets. You can also use this interface to download classification data or templates for a particular job, or upload additional data to a job.
+The Classification set jobs manager shows current and completed classification jobs that are generated for classification sets. You can also use the jobs manager to download classification data or templates for a particular job, or upload additional data to a job. 
+
+To view and act upon jobs:
+
+1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+1. Select **[!UICONTROL Jobs]**.
+
+## Classification jobs manager
+
+The **[!UICONTROL Classification Sets]** manager has the following interface elements:
+
+![Classification sets manager](assets/classification-sets-manage.png)
+
+
+
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 

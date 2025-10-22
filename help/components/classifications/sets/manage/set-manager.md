@@ -6,9 +6,12 @@ feature: Classifications
 ---
 # Manage classificaton sets
 
-You can create, rename, edit, consolidate, delete, and tag classification sets in the Classification sets management interface. You can also filter on and search for specific classification sets. To manage classification sets:
+You can create, rename, edit, consolidate, delete, and tag classification sets in the Classification sets management interface. You can also filter on and search for specific classification sets. 
 
-* Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+To manage classification sets:
+
+1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+1. Select **[!UICONTROL Jobs]**.
 
 ## Classification sets manager
 
@@ -45,11 +48,11 @@ When you select one or more classification set in the classification set list, a
 
 | Icon | Action | Description |
 |---|---|---|
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | Select to [edit the classification set](create.md#edit-a-classification-set) in the classification set builder. |
-| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Select to rename a classification set. In the **[!UICONTROL Rename: _classification set_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
-| ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidate]** | Select to consolidate source classification sets into the selected classification set. See [Manage classification sets consolidation](/help/components/classifications/sets/consolidations/manage.md) |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Select to delete a classification set. The **[!UICONTROL Delete _classification set_?]** dialog appaars. A deletion of a classification set cannot be undone. Any scheduled projects or consolidations that uses this classification set will continue to use the definition of this classification set until you re-save the scheduled projects or re-validate the scheduled consolidations. Select **[!UICONTROL Delete]** to delete the classification set. |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Select to tag the classification set. In the **[!UICONTROL Tag: _classification set_]** dialog, select one or more tags from the **[!UICONTROL Tags]** drop-down menu. Or enter one or more new tags. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag. Select **[!UICONTROL Save]** to save the tags. |
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [Edit the classification set](create.md#edit-a-classification-set) in the classification set builder. |
+| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename a classification set. In the **[!UICONTROL Rename: _classification set_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
+| ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidate]** | Cconsolidate source classification sets into the selected classification set. See [Manage classification sets consolidation](/help/components/classifications/sets/consolidations/manage.md) |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete a classification set. The **[!UICONTROL Delete _classification set_?]** dialog appears. A deletion of a classification set cannot be undone. Any scheduled projects or consolidations that uses this classification set will continue to use the definition of this classification set until you re-save the scheduled projects or re-validate the scheduled consolidations. Select **[!UICONTROL Delete]** to delete the classification set. |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Tag the classification set. In the **[!UICONTROL Tag: _classification set_]** dialog, select one or more tags from the **[!UICONTROL Tags]** drop-down menu. Or enter one or more new tags. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag. Select **[!UICONTROL Save]** to save the tags. |
 
 
 ### Filter panel

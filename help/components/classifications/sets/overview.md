@@ -30,6 +30,57 @@ Classification sets consist of three functional areas:
 * [**[!UICONTROL Jobs]**](job-manager.md): View the status of classification set jobs.
 * [**[!UICONTROL Consolidations]**](consolidations/manage.md): Combine multiple classification sets into a single classification set.
 
+
+## Workflow
+
+The workflow for classification sets typically involves the following steps:
+
+1. Consider for which report suite and dimension combinations you want to create a classification set. An example is to define a product classification set that you create for any report suite for which you want to classify products with more details. For example, details like category and color.
+1. [Create a classification set](/help/components/classifications/sets/manage/create.md) with subscriptions for one or more report suite and dimension combinations that identify products. For example:
+   
+   | Report Suite | Key Dimension |
+   |---|---|
+   | Report Suite 1 | Product ID |
+   | Report Suite 2 | Product SKU |
+
+1. [Add the classifications](/help/components/classifications/sets/manage/schema.md#add) you have identified to to the classification set schema. For example: 
+
+   | Classification Name | Identity Name |
+   |---|---|
+   | Category | category |
+   | Color | color |
+
+1. Manually create a file containing classification data. [Use a template](/help/components/classifications/sets/manage/schema.md#template) to ensure you use the [supported file format](data-files.md#classification-set-file-formats) and columns for the file. Then add data to the template file. 
+     
+   Alternatively you can export data directly from your product catalog in in the [supported file formats](data-files.md#classification-set-file-formats) with columns that adhere to the template. For example, a CSV file like: 
+
+   ```
+   Key,Category,Color
+   Adobe Nike Tech Fleece Full-Zip Hoodie - Men's,Men,Black
+   Adobe Nike Tech Fleece Full-Zip Hoodie - Women's,Women,Black
+   Men's North Face Adobe Jacket,Men,Black
+   Nike Air Hybrid 2 Golf Bag,Equipment,Blue
+   STITCH&reg; Ultimate Garment Bag,Equipment,Brown
+   Adobe Analytics Training Tee - Navy,Men,Navy
+   AirPods Pro 2,Electronics,White
+   Adobe Analytics Training Tee - Green,Men,Green
+   Women's North Face Adobe Jacket,Women,Blue
+   Adobe Analytics Training Tee - Grey,Men,Gray
+   Adobe Analytics One Million Views - Grey,Equipment,Grey
+   Adobe and MGM Tee - White,Women,White
+   Adobe and MGM Tee - Charcoal,Women,Charcoal
+   ```
+
+1. [Upload](/help/components/classifications/sets/manage/schema.md#upload) the file that contains the classification data into the classification set schema.
+
+1. [Automate](/help/components/classifications/sets/manage/schema.md#automate) the process of updates to you product catalog that you want to see reflected in classification data through the use of a cloud location.
+
+1. [Download](/help/components/classifications/sets/manage/schema.md#download) your classification data to validate the content.
+
+1. [Inspect the job history](/help/components/classifications/sets/job-manager.md) to see your actions (import, export, and more) on classifications.
+
+
+
 ## Improvements
 
 The backend architecture released with Classification sets contains several improvements:

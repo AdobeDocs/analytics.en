@@ -35,9 +35,12 @@ The actions are available as buttons on top of the classifications list:
 
 | Icon | Action | Description | 
 |---|---|---|
-| ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | Add a classification to the list.  |
-| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | Upload a JSON, CSV, TSV, or TAB file. |
-| ![Download](/help/assets/icons/Download.svg) | Download | Download classification data. |
+| ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | [Add a classification](#add) to the list.  |
+| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | [Upload a JSON, CSV, TSV, or TAB file](#upload). |
+| ![Download](/help/assets/icons/Download.svg) | Download | [Download classification data](#download). |
+| ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | Template | [Download a template](#template) for classification data. |
+| ![History](/help/assets/icons/History.svg) | Job History | Show the [classification set job manager](/help/components/classifications/sets/job-manager.md), filtered for the selected classification set. |
+|
 
 
 ### Add
@@ -95,22 +98,77 @@ In the **[!UICONTROL Download data for _classification set_]** dialog:
    * **[!UICONTROL All values]** returns all values for the current classification data.
    * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data and columns with no value for those classification data for which no value exist.
    * **[!UICONTROL All columns empty]** returns a key column with values for the existing classification data and columns with no value for each of the classification data.
-1. To select the format of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
+1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
 
    * **[!UICONTROL JSON]**.
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
 
-1. To select the file encodig to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+   
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
 
-1. Select **[!UICONTROL Download]** to download the classification data. If you specified options that do not return any data, tou see a **[!UICONTROL Notice]** dialog informing you to change the options for date range and data returned.
+1. Select **[!UICONTROL Download]** to download the classification data. You can find the the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you specified options that do not return any data, tou see a **[!UICONTROL Notice]** dialog informing you to change the options for date range and data returned.
+
+
+### Template
+
+To download a template for classification data, select ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) **[!UICONTROL Template]**.
+
+![Classification sets schema - Download template](assets/classification-sets-schema-download-template.png)
+
+In the **[!UICONTROL Download template for _classification set_]** dialog:
+
+1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
+
+   * **[!UICONTROL Comma separated values]**.
+   * **[!UICONTROL Excel tab separated values]**.
+
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+   
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+1. Select **[!UICONTROL Download]** to download the classification data template. You can find the the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
+
+
+### Automate
+
+To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
+
+![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)
+
+In the Associate / Update Ingest Location for category set dialog:
+
+1. To select a cloud location, select an option from **[!UICONTROL Location Account]**. Only [location accounts of supported account types that allow the import of classification data](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) are shown. To create a new account, select **[!UICONTROL New account]**.
+1. To select a location, select an option from **[!UICONTROL Location]**. Only the locations of selected account types for the import of classification data are shown. To create a new location, select **[!UICONTROL New location]**.
+1. To select a delimiter, select an option from **[!UICONTROL List delimiter]**. The options are 
+   * **[!UICONTROL Comma ,]**
+   * **[!UICONTROL Semicolon ;]**
+   * **[!UICONTROL Colon :]**
+   * **[!UICONTROL Vertical bar |]**
+   * **[!UICONTROL Space]**
+   * **[!UICONTROL Tab]**
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the **[!UICONTROL File Encoding]** drop-down menu. Options are:
+   
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
+1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated.
+1. If the validation is successful, you will see a toast message that shows ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
 
 
 ## Action bar
 
+The action bar shows actions available for the selected classification set. Available options are:
+
+| Icon | Action | Description |
+|---|---|---|
+| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Add a classification set as a lookup (subclassification). In the Attach lookup table: <ol><li>Select a lookup classification from the drop-down menu.</li><li>Select Add.</li></ol>The lookup classification is added to the classification and listed in the Classified by column. |
+| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Select to rename a classification. In the **[!UICONTROL Rename: _classification_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
 
 
 

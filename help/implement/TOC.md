@@ -127,10 +127,10 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Integrate module](vars/integrate.md)
 + Visitor identification {#id}
   + [Overview](id/overview.md)
-  + [Using AppMeasurement](id/appmeasurement.md)
-  + [Using Analytics extension](id/analytics-extension.md)
-  + [Using Web SDK (Alloy)](id/alloy.md)
   + [Using Web SDK extension](id/web-sdk-extension.md)
+  + [Using Web SDK (Alloy)](id/alloy.md)
+  + [Using Analytics extension](id/analytics-extension.md)
+  + [Using AppMeasurement](id/appmeasurement.md)
   + [Migrating to the Visitor ID Service](id/migration.md)
   + [Track across implementation types](id/cross-type-implementation.md)
 + Prepare to implement Adobe Analytics {#prepare}

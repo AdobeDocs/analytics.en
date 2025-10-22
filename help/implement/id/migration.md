@@ -4,7 +4,11 @@ description: An overview of how Adobe Analytics interfaces with the Visitor ID S
 ---
 # Visitor ID Service migration considerations for Adobe Analytics
 
-If your organization plans to move to the Visitor ID Service with an existing Analytics implementation, there are some important topics to consider. These considerations are important to retain visitor identification integrity, and to understand how the ID Service operates in the presence of an existing Analytics implementation.
+If your organization plans to move to the Visitor ID Service with an existing Analytics implementation, there are some important topics to consider. These considerations allow you to retain visitor identification integrity and understand how the ID Service operates in the presence of an existing Analytics implementation.
+
+>[!TIP]
+>
+>This page only applies to existing AppMeasurement or Analytics extension implementations, and are adding the Visitor ID Service or upgrading to a Web SDK implementation. In other words, your implementation uses a legacy Analytics ID (`aid`) and are moving towards using an Experience Cloud ID (`mid`). All Web SDK implementations already use an Experience Cloud ID (`mid`) by default.
 
 ## How the Visitor ID Service interfaces with legacy Analytics visitor cookies
 
@@ -18,7 +22,7 @@ Because AppMeasurement has its own method to identify visitors, some visitors mi
 
 If you have multiple implementations sending data to the same report suite and you can implement the Visitor ID Service on only some implementations, Adobe recommends configuring a grace period. For example, if the support section of your site is managed by a separate tagging solution, you might have the Visitor ID Service deployed on the rest of your site before the support section. Without a grace period, new visitors who view the support section receive a legacy Analytics visitor ID, causing two separate visitors to be counted. With a grace period, the Visitor ID service issues both an Experience Cloud ID (`mid`) and a legacy Analytics visitor ID (`aid`) so that areas of your site without the ID Service remain consistent identifying visitors.
 
-If you coordinate the deployment of the Visitor ID Service across all areas of your site, you do not need a grace period. To configure a grace period, contact [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+If you coordinate the deployment of the Visitor ID Service across all areas of your site, you do not need a grace period. To configure a grace period, contact [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html). Grace periods can be configured for up to 180 days, and can be renewed. Adobe recommends discontinuing the grace period once your entire property is configured to use the ID Service.
 
 ## Cross-domain tracking
 

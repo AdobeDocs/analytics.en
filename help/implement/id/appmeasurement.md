@@ -76,7 +76,7 @@ Using the [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable 
 * Every hit must contain the same `visitorID` value to be counted as a single visitor.
   * Any hits that omit `visitorID` automatically attempt to use another visitor identification method, treating them as a separate visitor.
   * Any hits that contain a different `visitorID` value from a previous hit are treated as a separate visitor.
-  * Adobe does not offer any way to stitch hits using different visitor IDs together.
+  * Adobe does not offer a way to stitch hits using different visitor IDs together in Adobe Analytics.
 * Shared audiences, Analytics for Target, and Customer attributes are not supported with visitors identified using `visitorID`.
 
 See [`visitorID`](/help/implement/vars/config-vars/visitorid.md) for implementation instructions using this variable.

@@ -13,15 +13,17 @@ Visitor identification in Adobe Analytics consists of the following components:
 
 ## Adobe Analytics identification order of operations
 
-When Adobe receives a hit, the following checks are made in order. If a given property is present, Adobe uses that identifier for the hit. If multiple identifiers are present in a hit, only the first method is used.
+When Adobe receives a hit, the following checks are made in order. If a given property is present, Adobe uses that identifier for the hit. If multiple identifiers are present in a hit, only the first method is used. Note that the order of operations does not reflect the order that Adobe recommends identifying visitors. 
 
 | Order used | Query parameter | Present when |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | The [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable is set. |
 | **2<sup>nd</sup>** | `aid` | The visitor has an existing [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. Set on implementations without or prior to implementing the Visitor ID service. |
 | **3<sup>rd</sup>** | `mid` | The visitor has an existing [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. Set on implementations using the [Adobe Experience Cloud Identity service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Adobe recommends using the ID service for all implementations where possible. |
-| **4<sup>th</sup>** | `fid` | The visitor has an existing [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie, or if `aid` and `mid` could not be set for any reason. |
-| **5<sup>th</sup>** | IP Address, User Agent, Gateway IP Address | Used as a last resort to identify a unique visitor if the visitor's browser does not accept cookies. |
+| **4<sup>th</sup>** | `fid` | The visitor has an existing [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. AppMeasurement automatically generates a fallback ID if `aid` and `mid` cannot be set for any reason. |
+| **5<sup>th</sup>** | IP address + user agent | Used as a last resort to identify a unique visitor if the visitor's browser does not accept cookies. A hashed visitor ID is generated before [IP obfuscation](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). If IP address is not available, other IP details (such as gateway IP) is used instead. |
+
+The selected visitor ID is then hashed and becomes their server-side identifier. This server-side identifier is available as `visid_high` + `visid_low` in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Behavior that affects unique visitor count
 

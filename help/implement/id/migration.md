@@ -4,7 +4,7 @@ description: An overview of how Adobe Analytics interfaces with the Visitor ID S
 ---
 # Visitor ID Service migration considerations for Adobe Analytics
 
-If your organization plans to move to the Visitor ID Service with an existing Analytics implementation, there are some important topics to consider. These considerations allow you to retain visitor identification integrity, and to understand how the ID Service operates in the presence of an existing Analytics implementation.
+If your organization plans to move to the Visitor ID Service with an existing Analytics implementation, there are some important topics to consider. These considerations allow you to retain visitor identification integrity and understand how the ID Service operates in the presence of an existing Analytics implementation.
 
 >[!TIP]
 >

@@ -258,16 +258,16 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + Classification sets {#sets}
     + [Overview](classifications/sets/overview.md)
     + [Data files](classifications/sets/data-files.md)
-    + Manage {#manage}
-      + [Overview](classifications/sets/manage/set-manager.md)
-      + [Create classification sets](classifications/sets/manage/create.md)
-      + [Classification set settings](classifications/sets/manage/settings.md)
-      + [Classification set schema](classifications/sets/manage/schema.md)
-      + [Classification set rules](classifications/sets/manage/rules.md)
-    + [Classification set jobs manager](classifications/sets/job-manager.md)
+    + Classification sets {#manage}
+      + [Manage](classifications/sets/manage/set-manager.md)
+      + [Create and edit](classifications/sets/manage/create.md)
+      + [Settings](classifications/sets/manage/settings.md)
+      + [Schema](classifications/sets/manage/schema.md)
+      + [Rules](classifications/sets/manage/rules.md)
+    + [Classification set jobs ](classifications/sets/job-manager.md)
     + Classification set consolidations {#consolidations}
-      + [Consolidations manager](classifications/sets/consolidations/manage.md)
-      + [Consolidations process](classifications/sets/consolidations/process.md)
+      + [Manage](classifications/sets/consolidations/manage.md)
+      + [Create and edit](classifications/sets/consolidations/process.md)
   + Classification rule builder (Legacy){#classifications-rulebuilder}
     + [Overview](classifications/crb/classification-rule-builder.md)
     + [Classification rule sets](classifications/crb/classification-rule-set.md)

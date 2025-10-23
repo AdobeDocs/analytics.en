@@ -11,7 +11,7 @@ The Classification set jobs manager shows current and completed classification j
 To view and act upon jobs:
 
 1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
-1. Select **[!UICONTROL Jobs]**.
+1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Jobs]** tab.
 
 ## Classification jobs manager
 

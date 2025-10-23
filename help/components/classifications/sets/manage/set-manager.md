@@ -11,7 +11,7 @@ You can create, rename, edit, consolidate, delete, and tag classification sets i
 To manage classification sets:
 
 1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
-1. Select **[!UICONTROL Jobs]**.
+1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 
 ## Classification sets manager
 

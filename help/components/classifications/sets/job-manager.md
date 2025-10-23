@@ -17,9 +17,56 @@ To view and act upon jobs:
 
 The **[!UICONTROL Classification Sets]** manager has the following interface elements:
 
+![Classifications Sets - Job Manager](manage/assets/classifications-sets-jobs.png)
 
 
 
+### Classification sets list
+
+The **[!UICONTROL Classification Sets]** list ➊ displays classification jobs. The list has the following columns:
+
+| Column | Description |
+|---|---|
+| **[!UICONTROL Job Id]** | The identifier of the classification job. |
+| **[!UICONTROL Classification Set]** | The classification set that was subject of the job. |
+| **[!UICONTROL Size]** | The size of the file that was exported or imported as part of the classification job.  |
+| **[!UICONTROL Status]** | The status of the classification job. Possible values are: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]**, or **[!UICONTROL Progress]**. |
+| **[!UICONTROL File Name]** | Identifies the name or functionality used to import or export the file as part of the classification job. Possible values are: <ul><li>n*o value*</li><li>The name of the file that is processed as part of the classification job</li><li>**[!UICONTROL SAINT Export]**, in case of an export from the legacy Classifications interface</li><li>**[!UICONTROL export for _classification set_ at _timestamp_]**, in case of an export from the Classification Set - Schema dialog.</li></ul> |
+| **[!UICONTROL Job Type]** | The type of classification job. Possible values are: **[!UICONTROL Import]** or **[!UICONTROL Export]**. |
+| **[!UICONTROL Source]** | The source of the classification job. Possible values are: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]**, or **[!UICONTROL Unknown]**. |
+| **[!UICONTROL Modified Lines]** | The number of modified lines that have been modified by the classification job. |
+| **[!UICONTROL Total Lines]** | The number of total lines that have been processed by the classification job. |
+| **[!UICONTROL Completion Time]** | The completion time of the classification job. |
+
+
+### Search and buttons
+
+In the area ➋ on top of the classification jobd list, you can:
+
+* Search ![Search](/help/assets/icons/Search.svg) for classification jobs. Results are shown in the classification jobs list. Select ![CrossSize200](/help/assets/icons/CrossSize200.svg) to clear the search.
+* Remove any filter that is applied to the classification job list. Select ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a filter.
+* Select ![MoreCircle](/help/assets/icons/MoreCircle.svg) to load an addition 1000 classification jobs. Initially the classification set list displays up to 1000 classification sets. 
+* Define the columns of the classification jobs list. Select ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) and in the **[!UICONTROL Customize table]** dialog select the columns to show underneath **[!UICONTROL Select columns to show]**. Select **[!UICONTROL Apply]** to apply the column settings.
+
+
+
+### Filter panel
+
+Select ![Filter](/help/assets/icons/Filter.svg) to show the filter panel ➌ that allows you to filter the classification jobs list. You can filter on:
+
+* **[!UICONTROL Classification Set]**. Select one or more classification sets to filter the classification jobs list.
+* **[!UICONTROL Completion Time]**. Select one of the possible values to filter the classification jobs list on completion time.
+* **[!UICONTROL Status]**. Select one of the possible values to filter the classification jobs list on status. |
+* **[!UICONTROL Job Type]**. Select one of the possible values to filter the classification jobs list on job type. |
+* **[!UICONTROL Source]**. Select one of the possible values to filter the classification jobs list on source. |
+
+
+Select ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** to hide the filters panel.
+
+Note that he filters shown in the filters panel reflect the options for the classification jobs that are preloaded.
+
+
+<!--
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
@@ -59,3 +106,4 @@ The following columns are available in the Classification set job manager:
 * **[!UICONTROL Modified lines]**: The number of modified lines.
 * **[!UICONTROL Completed lines]**: The number of completed lines.
 * **[!UICONTROL Completion time]**: The date and time that the job completed (or failed).
+-->

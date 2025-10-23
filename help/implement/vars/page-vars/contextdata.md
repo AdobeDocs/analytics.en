@@ -11,6 +11,8 @@ Context data variables let you define custom variables on each page that process
 
 Context data variables are helpful for development teams to collect data in named elements instead of numbered variables. For example, instead of requesting development teams assign the page's author to `eVar10`, you can request they assign it to `s.contextData["author"]` instead. An Analytics administrator in your organization can then create processing rules to map context data variables into analytics variables for reporting. Development teams would ultimately only worry about context data variables instead of the many page variables that Adobe offers.
 
+The maximum size of all context data variables combined (including keys and values) is 32 KB.
+
 ## Context data variables using the Web SDK
 
 If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), all fields that don't map to an Adobe Analytics variable are automatically included as a context data variable. You can also explicitly set context data using the XDM object. You can then use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to assign the context data variable to the desired Analytics variable.  See [Mapping other XDM fields to Analytics variables](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) for more information.
@@ -48,7 +50,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Valid context data variables contain only alpha-numeric characters, underscores, and periods. Adobe does not guarantee data collection in processing rules if you include other characters, such as hyphens.
-* Do not start context data variables with `"a."`. This prefix is reserved and used by Adobe. For example, do not use `s.contextData["a.InstallEvent"]`.
+* Do not start context data variables with the prefix of `"a."`. This prefix is reserved and used by Adobe. For example, do not use `s.contextData["a.InstallEvent"]`.
 * Context data variables are not case-sensitive. The variables `s.contextData["example"]` and `s.contextData["EXAMPLE"]` are identical.
 * A single key cannot contain more than one value. If you want to use context data variables for multi-value variables, concatenate all values using a delimiter (typically a comma) and pass it into either a [list prop](prop.md#list-props) or a [list variable](list.md) using processing rules.
 

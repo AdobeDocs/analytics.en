@@ -72,3 +72,5 @@ a.x.objectarray.0.ad1 // 300x200
 a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
+
+The maximum size for a given context data variable payload (including keys and values) is 32 KB. You can reduce the size of this payload by adjusting relevant fields so that they are recognized by Adobe Analytics in the [`xdm`](xdm-var-mapping.md) or [`data`](data-var-mapping.md) objects.

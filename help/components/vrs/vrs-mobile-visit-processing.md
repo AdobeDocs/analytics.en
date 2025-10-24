@@ -95,7 +95,7 @@ If, however, *t1* and *t2* are greater than the virtual report suite configured 
 
 ![](assets/nogoodexample3-2.jpg)
 
-Likewise (as in our previous examples), if *t1* is less than the timeout and *t2* is less than the timeout the background hit would be included in the first visit:
+Likewise (as in our previous examples), if *t1* is less than the timeout and *t2* is greater than the timeout, the background hit would be included in the first visit:
 
 ![](assets/nogoodexample3-3.jpg)
 

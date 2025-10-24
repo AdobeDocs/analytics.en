@@ -106,9 +106,9 @@ Depending on your attribution model, container and channels receive different cr
 
 | Model | Container | Lookback window | Explanation |
 |---|---|---|---|
-| First touch | Visit | 30 Days | Attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase. | 
+| First touch | Visit | Reporting window | Attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase. | 
 | First touch | Visitor | 30 Days | Attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase. |
-| Linear | Visit | 30 Days | Credit is divided between email and display. Both of these channels each get $25 credit. |
+| Linear | Visit | Reporting window | Credit is divided between email and display. Both of these channels each get $25 credit. |
 | Linear | Visitor | 30 Days | Credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase. |
 | J-shaped | Visitor | 30 Days | Credit is divided between paid search, social, email, and display.<ul><li>60% credit is given to display, for $30.</li><li>20% credit is given to paid search, for $10.</li><li>The remaining 20% is divided between social and email, giving $5 to each.</li></ul> |
 | Time Decay | Visitor | 30 Days | <ul><li>Gap of zero days between display touch point and conversion. `2^(-0/7) = 1`</li><li>Gap of zero days between email touch point and conversion. `2^(-0/7) = 1`</li><li>Gap of six days between social touch point and conversion. `2^(-6/7) = 0.552`</li><li>Gap of nine days between paid search touch point and conversion. `2^(-9/7) = 0.41`</li>Normalizing these values results in the following:<ul><li>Display: 33.8%, getting $16.88</li><li>Email: 33.8% getting $16.88</li><li>Social: 18.6%, getting $9.32</li><li>Paid Search: 13.8%, getting $6.92</li></ul></li></ul> |

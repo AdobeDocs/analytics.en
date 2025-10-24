@@ -80,13 +80,14 @@ An attribution model determines which dimension items get credit for a metric wh
 
 An attribution container defines the desired scope for the attribution. Possible options are: 
 
-* **Visit**: Looks at conversions from the scope of the visit container.
+* **Visit**: Looks at conversions from the scope of the visit container. When **[!UICONTROL Visit]** is selected, the [Attribution lookback window](#atribution-lookback-window) is automatically set to **[!UICONTROL Reporting window]** and cannot be changed.
 * **Visitor**: Looks at conversions from the scope of the visitor container.
 
 ## Atribution lookback window {#attribution-lookback-window}
 
 A lookback window is the amount of time a conversion should look back to include touch points. If a dimension item is set outside of the lookback window, the value is not included in any attribution calculations.
 
+* **[!UICONTROL Reporting window]**: Looks back up to the start of the reporting window from when the conversion happened.
 * **14 Days**: Looks back up to 14 days from when the conversion happened.
 * **30 Days**: Looks back up to 30 days from when the conversion happened.
 * **60 Days**: Looks back up to 60 days from when the conversion happened.

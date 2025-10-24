@@ -196,6 +196,6 @@ Use the following information to choose the visualization that best meets your n
 
 >[!WARNING]
 >
->Classification rule builder is deprecated and will no longer be accessible after **August 31, 2026**. Please switch to the [Classification sets](/help/components/classifications/sets/overview.md) experience to ensure continued functionality.
+>Classification rule builder is deprecated and will no longer be accessible after **August 31, 2026**. Please switch to the [Classification sets](/help/components/classifications/sets/overview.md) experience, once available, to ensure continued functionality.
 >
 

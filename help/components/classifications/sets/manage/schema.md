@@ -6,18 +6,19 @@ feature: Classifications
 ---
 # Classification set schema
 
-You can edit the schema of a classification set. The schema is the list of classifications you want to apply to the key dimensions you have defined for the classification set. For example, if you defined product as the key dimension, and this field contains a product SKU, then you use schema to add classifications like product name, product color, product size, and more.
+The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension, and this field contains a product SKU, then you use the schema to add classifications like product name, product color, product size, and more.
 
-To define the schema, n the **[!UICONTROL Classifications Sets]** manager, select the classification set.
+To define the schema for a classification set:
 
-The **[!UICONTROL Schema]** tab of the **[!UICONTROL Classification Set: _classification set_]** dialog appears and consist of the following interface elements:
+1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
+1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the Schema tab. That tab consists of the following interface elements:
 
-* [Classification list](#classification-list)
-* [Search](#search)
-* [Actions](#actions)
-* [Action bar](#action-bar)
+   ![Classification sets - schema](assets/classification-sets-schema.png)
 
-![Classification sets - schema](assets/classification-sets-schema.png)
+   * [Classification list](#classification-list)
+   * [Search](#search)
+   * [Actions](#actions)
+   * [Action bar](#action-bar)
 
 ## Classification list
 
@@ -25,8 +26,8 @@ The list of classifications has the following columns:
 
 | Column | Description |
 |---|---|
-| **[!UICONTROL Classification Name]** | The name you provided for the classification |
-| **[!UICONTROL Identity Name]** | The derived name by the system for the classification |
+| **[!UICONTROL Classification Name]** | The name you provided for the classification. |
+| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. |
 | **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -36,7 +37,7 @@ You can quickly search ![Search](/help/assets/icons/Search.svg) for one or more 
 
 ## Actions
 
-The actions are available as buttons on top of the classifications list:
+The following actions are available as buttons on the top of the classifications list:
 
 | Icon | Action | Description | 
 |---|---|---|
@@ -54,7 +55,7 @@ To add a new classification, select ![Add](/help/assets/icons/Add.svg) **[!UICON
 
 ![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png) 
 
-In the  **[!UICONTROL Add a new classification for _classification set_]** dialog enter the **[!UICONTROL Classification Name]** and select **[!UICONTROL Add]**. The classification is added to the list.
+In the **[!UICONTROL Add a new classification for _classification set_]** dialog, enter the **[!UICONTROL Classification Name]** and select **[!UICONTROL Add]**. The classification is added to the list.
 
 
 
@@ -72,16 +73,16 @@ To import classification data into the schema for a classification, select ![Upl
 
    You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column. 
    
-   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) explains that a classification is not present in the existing classification schema set and will be created on import. 
+   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and will be created on import. 
 
-1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite current classification data with the new import. For example:
+1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported. For example:
    
    | | Key | Current Product Color | Import file | New Product Color |
    |---|---|---|---|---|
    | ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL Overwrite data on conflict?]** | 1234 | green | blue | blue |
    | ![Square](/help/assets/icons2/Square.svg) **[!UICONTROL Overwrite data on conflict?]** | 1234 | green | blue | green |
 
-1. Select **[!UICONTROL Apply]**. You will see an alert if columns are not present as classifications in the existing schema set. Those columns are added as new classifications when you confirm the upload.
+1. Select **[!UICONTROL Apply]**. An alert is displayed if columns are not present as classifications in the existing schema set. Those columns are added as new classifications when you confirm the upload.
 
    ![Classification set - Upload classifications alert](assets/classification-sets-schema-upload-file-preview-alert.png)
 
@@ -96,13 +97,13 @@ To download classification data, select ![Download](/help/assets/icons/Download.
 
 In the **[!UICONTROL Download data for _classification set_]** dialog:
 
-1. Enter the number of **[!UICONTROL Rows]** you want to download. For example: `10000`.
+1. Enter the number of **[!UICONTROL Rows]** that you want to download. For example: `10000`.
 1. To select the period for which you want to download rows of classification data, enter a start and end data for **[!UICONTROL Download Rows Received Between]**. Or use ![Calendar](/help/assets/icons/Calendar.svg) to use a calendar popup to select the period.
 1. To select what data to return, select an option from **[!UICONTROL Data Returned]**.
 
    * **[!UICONTROL All values]** returns all values for the current classification data.
-   * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data and columns with no value for those classification data for which no value exist.
-   * **[!UICONTROL All columns empty]** returns a key column with values for the existing classification data and columns with no value for each of the classification data.
+   * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data. And columns with no value for classification data for which no value exist.
+   * **[!UICONTROL All columns empty]** returns a key column with values for the existing classification data. And columns with no value for classification data.
 1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
 
    * **[!UICONTROL JSON]**.
@@ -115,7 +116,7 @@ In the **[!UICONTROL Download data for _classification set_]** dialog:
    * **[!UICONTROL Latin-1]**.
 
 
-1. Select **[!UICONTROL Download]** to download the classification data. You can find the the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you specified options that do not return any data, tou see a **[!UICONTROL Notice]** dialog informing you to change the options for date range and data returned.
+1. Select **[!UICONTROL Download]** to download the classification data. You can find the downloaded file in your browser's default download directory, and the file is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you have specified options that do not return any data, you see a **[!UICONTROL Notice]** dialog that inform you to change the options for date range and data returned.
 
 
 ### Template
@@ -136,7 +137,7 @@ In the **[!UICONTROL Download template for _classification set_]** dialog:
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Select **[!UICONTROL Download]** to download the classification data template. You can find the the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
+1. Select **[!UICONTROL Download]** to download the classification data template. You can find the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
 
 
 ### Automate
@@ -145,25 +146,25 @@ To automate the ingestion of classification, select ![Gear](/help/assets/icons/G
 
 ![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)
 
-In the Associate / Update Ingest Location for category set dialog:
+In the **[!UICONTROL Associate / Update Ingest Location for _classification set_]** dialog:
 
 1. To select a cloud location, select an option from **[!UICONTROL Location Account]**. Only [location accounts of supported account types that allow the import of classification data](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) are shown. To create a new account, select **[!UICONTROL New account]**.
 1. To select a location, select an option from **[!UICONTROL Location]**. Only the locations of selected account types for the import of classification data are shown. To create a new location, select **[!UICONTROL New location]**.
-1. To select a delimiter, select an option from **[!UICONTROL List delimiter]**. The options are 
+1. To select a delimiter, select an option from **[!UICONTROL List delimiter]**. The options are: 
    * **[!UICONTROL Comma ,]**
    * **[!UICONTROL Semicolon ;]**
    * **[!UICONTROL Colon :]**
    * **[!UICONTROL Vertical bar |]**
    * **[!UICONTROL Space]**
    * **[!UICONTROL Tab]**
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the **[!UICONTROL File Encoding]** drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File Encoding]** drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
 1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated.
-1. If the validation is successful, you will see a toast message that shows ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
+1. If the validation is successful, you see a toast message that shows ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
 
 
 ## Action bar
@@ -172,9 +173,9 @@ The action bar shows actions available for the selected classification set. Avai
 
 | Icon | Action | Description |
 |---|---|---|
-| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Add a classification set as a lookup (subclassification). In the **[!UICONTROL Attach lookup]** table: <ol><li>Select a lookup classification from the **[!UICONTROL Classification Name]** drop-down menu.</li><li>Select **[!UICONTROL Add]**.</li></ol>The lookup classification is added to the classification and listed in the **[!UICONTROL Classified by]** column using the internal id. |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Remove a classification set as a lookup. To permanently delete the lookup from the classification, in the **[!UICONTROL Remove _classification set_ from _classification_]** confirmation dialog select **[!UICONTROL Delete]**. |
-| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename a classification. In the **[!UICONTROL Rename: _classification_]** dialog enter a new name and select **[!UICONTROL Rename]**. |
+| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Add a classification set as a lookup (subclassification).<br/>In the **[!UICONTROL Attach lookup]** table: <ol><li>Select a lookup classification from the **[!UICONTROL Classification Name]** drop-down menu.</li><li>Select **[!UICONTROL Add]**.</li></ol>The lookup classification is added to the classification and listed in the **[!UICONTROL Classified by]** column using the internal id. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Remove a classification set as a lookup. To delete the lookup permanently from the classification, in the **[!UICONTROL Remove _classification set_ from _classification_]** confirmation dialog select **[!UICONTROL Delete]**. |
+| ![Rename](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rename a classification. In the **[!UICONTROL Rename: _classification_]** dialog, enter a new name and select **[!UICONTROL Rename]**. |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Delete a classification set. The **[!UICONTROL Delete _classification_]** dialog appears. Select **[!UICONTROL Delete]** to delete the classification set. |
 
 

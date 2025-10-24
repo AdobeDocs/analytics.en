@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification set settings
 
-You can edit the settings of a classification set. 
+You can edit the initial settings of a classification set. 
 
 In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the settings.
 

@@ -1,11 +1,18 @@
 ---
-title: Classification set rules
-description: View and edit rules for an individual classification set.
+title: Classification Set Rules
+description: Understand how to view and edit rules for a classification set.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
 ---
 # Classification set rules
 
+>[!IMPORTANT]
+>
+>Classification sets do not yet support rules. Rules functionality will be added to the classification sets interface before the legacy rule builder functionality becomes unavailable.
+>If you do require rules for classifications, continue to use the [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
+
+
+<!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
@@ -43,3 +50,5 @@ The rule table is separated vertically into two main parts: matching condition a
 * **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
 * **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
 * **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+
+-->

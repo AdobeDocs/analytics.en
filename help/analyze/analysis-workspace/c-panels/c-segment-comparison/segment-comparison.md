@@ -44,9 +44,9 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment comparis
 
 ## Use
 
-To use an **[!UICONTROL Attribution]** panel:
+To use a **[!UICONTROL Segment comparison]** panel:
 
-1. Create an **[!UICONTROL Attribution]** panel. For information about how to create a panel, see [Create a panel](../panels.md#create-a-panel).
+1. Create a **[!UICONTROL Segment comparison]** panel. For information about how to create a panel, see [Create a panel](../panels.md#create-a-panel).
 
 1. Specify the [input](#panel-input) for the panel.
 

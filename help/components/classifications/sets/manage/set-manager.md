@@ -39,7 +39,7 @@ To resize a column in the classification sets list, you can:
 
 To sort a column in the classification sets list
 
-* Select ![ChevronDown](/help/assets/icons/ChevronDown.svg) and select Sort Ascending or Sort Descending. An arrow (↑↓) indicates which column and how the column is sorted.
+* Select ![ChevronDown](/help/assets/icons/ChevronDown.svg) and select **[!UICONTROL Sort Ascending]** or **[!UICONTROL Sort Descending]**. An arrow (↑↓) indicates which column and how the column is sorted.
 
 ### Search and buttons
 

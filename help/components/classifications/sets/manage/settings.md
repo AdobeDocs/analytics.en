@@ -8,19 +8,26 @@ feature: Classifications
 
 You can edit the initial settings of a classification set. 
 
-In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the settings.
+To edit the settings for a classification set:
 
-In the **[!UICONTROL Settings]** tab of the **[!UICONTROL Classification Set: _classification set title_]** dialog, where appropriate:
+1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
+1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the **[!UICONTROL Settings]** tab. 
 
-![Classification sets - settings](assets/classification-sets-settings.png)
+1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, where appropriate:
 
-1. Edit the **[!UICONTROL Name]**.
-1. Edit a **[!UICONTROL Description (optional)]**.
-1. Edit the list of email addresses (comma separater) in **[!UICONTROL Notify of issues]**. These users are notified by email of any issues.
-1. Add one or more **[!UICONTROL Tags (optional)]** to the classification set. Select an existing tag from the **[!UICONTROL Tags]** drop-down menu, or enter a new tag. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag.
-1. Edit the **[!UICONTROL Subscriptions]**.  
-   * You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
-   * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
+   ![Classification sets - settings](assets/classification-sets-settings.png)
+
+   1. Edit the **[!UICONTROL Name]**.
+   1. Edit a **[!UICONTROL Description (optional)]**.
+   1. Edit the list of email addresses (comma separater) in **[!UICONTROL Notify of issues]**. These users are notified by email of any issues.
+   1. Add one or more **[!UICONTROL Tags (optional)]** to the classification set. Select an existing tag from the **[!UICONTROL Tags]** drop-down menu, or enter a new tag. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag.
+   1. Edit the **[!UICONTROL Subscriptions]**.  
+      * You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
+      * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
+
+      See [Creat a classification set](create.md) for more details.
+
+   1. Select **[!UICONTROL Save]** to save the settings. Select **[!UICONTROL Cancel]** to cancel.
 
 
 <!--

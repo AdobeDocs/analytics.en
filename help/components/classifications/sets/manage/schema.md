@@ -8,10 +8,10 @@ feature: Classifications
 
 The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension, and this field contains a product SKU, then you use the schema to add classifications like product name, product color, product size, and more.
 
-To define the schema for a classification set:
+To edit the schema for a classification set:
 
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
-1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the Schema tab. That tab consists of the following interface elements:
+1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the **[!UICONTROL Schema]** tab. That tab consists of the following interface elements:
 
    ![Classification sets - schema](assets/classification-sets-schema.png)
 

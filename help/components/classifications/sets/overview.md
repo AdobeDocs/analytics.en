@@ -17,7 +17,7 @@ In legacy classifications, each classification is directly linked to a report su
 
 ![Legacy classification](manage/assets/classifications-legacy.svg)
 
-In classification sets you define subscriptions of report suites and key dimension combinations. For example, a product catalog classification that is applicable for multiple report suite you only have to define once as a classification set. And within that classification set you configure multiple reports suites and key dimension combinations to subscribe to that classification set.
+In classification sets you define subscriptions of report suites and key dimension combinations. For example, a product catalog classification that is applicable for multiple report suites and based on a product (SKU) dimension you only have to define once as a classification set. And within that classification set you configure multiple reports suites and key dimension combinations to subscribe to that classification set.
 
 ![Classification sets](manage/assets/classifications-sets.svg)
 
@@ -36,7 +36,7 @@ Classification sets consist of three functional areas:
 The workflow for classification sets typically involves the following steps:
 
 1. Consider for which report suite and dimension combinations you want to create a classification set. An example is to define a product classification set that you create for any report suite for which you want to classify products with more details. For example, details like category and color.
-1. [Create a classification set](/help/components/classifications/sets/manage/create.md) with subscriptions for one or more report suite and dimension combinations that identify products. For example:
+1. [Create a classification set](/help/components/classifications/sets/manage/create.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
    
    | Report Suite | Key Dimension |
    |---|---|
@@ -71,13 +71,15 @@ The workflow for classification sets typically involves the following steps:
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+In the classification data file, you refer to the key dimension for each report suite (for example: **[!UICONTROL Product ID]** and **[!UICONTROL Product SKU]**) using `Key`. And you refer to each classification using the **[!UICONTROL Classification Name]** (for example `Category` or `Color`).
+
 1. [Upload](/help/components/classifications/sets/manage/schema.md#upload) the file that contains the classification data into the classification set schema.
 
 1. [Automate](/help/components/classifications/sets/manage/schema.md#automate) the process of updates to your product catalog that you want to see reflected in classification data through the use of a cloud location.
 
 1. [Download](/help/components/classifications/sets/manage/schema.md#download) your classification data to validate the content.
 
-1. [Inspect the job history](/help/components/classifications/sets/job-manager.md) to see your actions (import, export, and more) on classifications.
+1. [Inspect the job history](/help/components/classifications/sets/job-manager.md) to see the results of your actions (upload, download, template, and more) on classifications.
 1. If you have multiple similar classification sets as a result from a migration from the legacy classification functionality, [consolidate](consolidations/manage.md) these classification sets.
 
 

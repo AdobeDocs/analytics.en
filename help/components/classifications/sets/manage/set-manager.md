@@ -26,7 +26,7 @@ The **[!UICONTROL Classification Sets]** list ➊ displays all the classificatio
 
 | Column | Description |
 |---|---|
-| **[!UICONTROL Classification Set]** | The title of the classification set. Select the title to [edit the classification set](create.md#edit-a-classification-set). |
+| **[!UICONTROL Classification Set]** | The name of the classification set. Select the name to [edit the classification set](create.md#edit-a-classification-set). |
 | **[!UICONTROL Subscriptions]** | The number of subscriptions that the classification set applies to. |
 | **[!UICONTROL Classifications]** | The number of classification dimensions that the classification set contains. |
 | **[!UICONTROL Automated]** | Is the classification set configured to import data from a cloud location automatically or not? This automation can be configured as part of the [classification sets schema](schema.md). |

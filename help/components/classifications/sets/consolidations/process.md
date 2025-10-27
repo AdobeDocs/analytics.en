@@ -69,7 +69,7 @@ To edit a classification consolidation, in the main Adobe Analytics interface:
 1. Select **[!UICONTROL Classification sets]** from the **[!UICONTROL Components]** menu. 
 1. In the **[!UICONTROL Classification Sets]** manager, select the **[!UICONTROL Consolidations]** tab.
 1. In the **[!UICONTROL Classification Sets Consolidations]** manager:
-   1. Select the title of your classification consolidation. The Consolidation: classification consolidation dialog appears. The appearance and available actions are dependent on the current status of the consolidation, and whether you still have the option to modify the classification consolidation.
+   1. Select the name of your classification consolidation. The **[!UICONTROL Consolidation: _classification consolidation name_]** dialog appears. The appearance and available actions are dependent on the current status of the consolidation, and whether you still have the option to modify the classification consolidation.
 
       | Available actions | Description |
       |---|---|

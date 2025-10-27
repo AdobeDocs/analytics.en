@@ -10,9 +10,9 @@ You [create](#create-a-classification-set) and [edit](#edit-a-classification-set
 
 ## Create a classification set
 
-To create a classification set, in the main interface:
+To create a classification set:
 
-1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. In the **[!UICONTROL Add New Classification Set]** dialog:
@@ -36,9 +36,9 @@ To create a classification set, in the main interface:
 
 ## Edit a classification set
 
-To edit a classification set, in the main interface:
+To edit a classification set:
 
-1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. Select the title of your classification set.
 1. In the **[!UICONTROL Classification Set: _classification set title_]** dialog, you can define the [settings](settings.md) and the [schema](schema.md) for the classification set. 

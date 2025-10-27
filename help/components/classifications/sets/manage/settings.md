@@ -10,6 +10,9 @@ You can edit the initial settings of a classification set.
 
 To edit the settings for a classification set:
 
+
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
 1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the **[!UICONTROL Settings]** tab. 
 

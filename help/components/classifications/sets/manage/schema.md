@@ -10,6 +10,9 @@ The schema is the list of classifications that you want to apply to the key dime
 
 To edit the schema for a classification set:
 
+
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to edit the schema.
 1. In the **[!UICONTROL Classification Set: _classification set_]** dialog, select the **[!UICONTROL Schema]** tab. That tab consists of the following interface elements:
 
@@ -102,7 +105,7 @@ In the **[!UICONTROL Download data for _classification set_]** dialog:
 1. To select what data to return, select an option from **[!UICONTROL Data Returned]**.
 
    * **[!UICONTROL All values]** returns all values for the current classification data.
-   * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data. And columns with no value for classification data for which no value exist.
+   * **[!UICONTROL Any columns empty]** returns a column with key values for the existing classification data. And columns with no value for classification data for which no values exist.
    * **[!UICONTROL All columns empty]** returns a key column with values for the existing classification data. And columns with no value for classification data.
 1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. Options are: 
 
@@ -116,7 +119,7 @@ In the **[!UICONTROL Download data for _classification set_]** dialog:
    * **[!UICONTROL Latin-1]**.
 
 
-1. Select **[!UICONTROL Download]** to download the classification data. You can find the downloaded file in your browser's default download directory, and the file is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you have specified options that do not return any data, you see a **[!UICONTROL Notice]** dialog that inform you to change the options for date range and data returned.
+1. Select **[!UICONTROL Download]** to download the classification data. You can find the downloaded file in your browser's default download directory, and the file is titled <code><i>Classification Set</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you have specified options that do not return any data, you see a **[!UICONTROL Notice]** dialog to inform you to change the options for date range and data returned.
 
 
 ### Template
@@ -150,7 +153,13 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set_
 
 1. To select a cloud location, select an option from **[!UICONTROL Location Account]**. Only [location accounts of supported account types that allow the import of classification data](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) are shown. To create a new account, select **[!UICONTROL New account]**.
 1. To select a location, select an option from **[!UICONTROL Location]**. Only the locations of selected account types for the import of classification data are shown. To create a new location, select **[!UICONTROL New location]**.
-1. To select a delimiter, select an option from **[!UICONTROL List delimiter]**. The options are: 
+
+   >[!IMPORTANT]
+   >
+   >The location you create or select should contain a **[!UICONTROL Prefix]** (folder) within the **[!UICONTROL Bucket]** to host the classification data files. For example, a folder named `files`. Hosting files at the root of a bucket does not work with most cloud locations.
+   >
+
+1. To select a delimiter, select an option from the **[!UICONTROL List delimiter]** drop-down menu. The options are: 
    * **[!UICONTROL Comma ,]**
    * **[!UICONTROL Semicolon ;]**
    * **[!UICONTROL Colon :]**
@@ -165,6 +174,12 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set_
 1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated.
 1. If the validation is successful, you see a toast message that shows ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
+
+When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages. 
+
+For example:
+
+![Classification sets - Job validation email](assets/job-failed-validation.png){width="400"}
 
 
 ## Action bar

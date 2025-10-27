@@ -14,7 +14,7 @@ You must have product admin access for Adobe Analytics to see the Classification
 
 To manage classification consolidations:
 
-1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Consolidations]** tab.
    
 

@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **October 2025** | |
+| Classification sets | Updates to the Classification sets documentation. |
 | Attribution configuration | Additional updates to reflect the new attribution configuration options for model, container and lookback window. |
 | Additional visitor identification improvements | Added the [Visitor identification](/help/implement/id/overview.md) section, outlining the recommended way to identify visitors across all implementation types. |
 | **September 2025** | |

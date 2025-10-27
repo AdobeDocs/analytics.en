@@ -10,7 +10,8 @@ The Classification jobs manager shows current and completed classification jobs 
 
 To view and act upon classification jobs:
 
-1. Select **[!UICONTROL Components]** in the main interface, then select **[!UICONTROL Classification sets]**.
+
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Jobs]** tab.
 
 ## Classification jobs manager
@@ -30,7 +31,7 @@ The **[!UICONTROL Classification Jobs]** list ➊ displays classification jobs. 
 | **[!UICONTROL Job Id]** | The identifier of the classification job. |
 | **[!UICONTROL Classification Set]** | The classification set associated with the classification job. |
 | **[!UICONTROL Size]** | The size of the file that was exported or imported as part of the classification job.  |
-| **[!UICONTROL Status]** | The status of the classification job. Possible values are: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]**, or **[!UICONTROL Progress]**. |
+| **[!UICONTROL Status]** | The status of the classification job. Possible values are: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]**, or **[!UICONTROL Progress]**. If displayed, hover over the alert ![Alert](/help/assets/icons/Alert.svg) to display additional information. |
 | **[!UICONTROL File Name]** | Identifies the name or functionality used to import or export the file as part of the classification job. Possible values are: <ul><li>*no value*</li><li>The name of the file that is processed as part of the classification job.</li><li>**[!UICONTROL SAINT Export]**: The job is an export from the [legacy Classifications interface](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _classification set_ at _timestamp_]**: The job is a download from the [schema](manage/schema.md#download) interface.</li></ul> |
 | **[!UICONTROL Job Type]** | The type of classification job. Possible values are: **[!UICONTROL Import]** or **[!UICONTROL Export]**. |
 | **[!UICONTROL Source]** | The source of the classification job. Possible values are: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]**, or **[!UICONTROL Unknown]**. |

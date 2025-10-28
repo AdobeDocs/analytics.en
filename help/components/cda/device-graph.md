@@ -10,6 +10,11 @@ role: Admin
 
 {{available-existing-customers}}
 
+>[!WARNING]
+>
+>Device Graph within Cross-Device Analytics will no longer be available on **December 31, 2025**. Please switch any current device graph enabled virtual report suite to the [field-based method](/help/components/cda/field-based-stitching.md).
+>
+
 Cross-Device Analytics can use the Private Graph to stitch data together. The Private Graph is a repository of hashed device ID's that is specific to your organization. CDA regularly communicates with the device graph to link devices together.
 
 ## Prerequisites specific to the device graph

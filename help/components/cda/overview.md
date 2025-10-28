@@ -9,6 +9,12 @@ role: Admin
 
 {{available-existing-customers}}
 
+>[!WARNING]
+>
+>Device Graph within Cross-Device Analytics will no longer be available on **December 31, 2025**. Please switch any current Device Graph enabled VRS to the [field-based method](/help/components/cda/field-based-stitching.md).
+>
+
+
 Cross-Device Analytics (CDA) is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
 
 * [**Field-based stitching**](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.

@@ -25,7 +25,7 @@ Data uploaded through data sources do not impact [Page views](/help/components/m
 No. Data uploaded through data sources:
 
 * Does not go through [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* Does not go through [Marketing channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* Does not go through [Marketing channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * Does not go through [VISTA rules](/help/technotes/vista.md)
 +++
 

@@ -20,7 +20,13 @@ Many use cases to VISTA rules are already offered by [Processing rules](/help/ad
 
 >[!IMPORTANT]
 >
->VISTA rules require a paid agreement between your organization and Adobe Professional Services. Contact your Adobe Account Team if you want to create or update a VISTA rule.
+>VISTA rules implementation and configuration require a paid agreement between your organization and Adobe Professional Services. Contact your Adobe Account Team if you want to create or update a VISTA rule.
+>
+>Please note:
+>
+>* VISTA rule creation includes only the initial implementation. Ongoing maintenance or VISTA rule updates require a separate paid engagement.
+>
+>* VISTA rules rely on specific conditions in your data. For example, changes to your Adobe Analytics implementation, the types of data or lengths of strings being collected, changes to the tables used for DB VISTA, or other changes to input data patterns could cause a VISTA rule to stop functioning as expected. Adobe recommends reviewing your VISTA rules regularly to determine if updates or removal are needed.
 
 ## Create a VISTA rule {#create}
 

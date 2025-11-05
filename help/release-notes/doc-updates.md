@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **November 2025** | |
+| Important considerations about VISTA rules | Updated the important considerations regarding [Vista rules](/help/technotes/vista.md). |
 | **October 2025** | |
 | Classification sets | Updates to the [Classification sets](/help/components/classifications/sets/overview.md) documentation. |
 | Attribution configuration | Additional updates to reflect the new attribution configuration options for model, container and lookback window. |

@@ -21,6 +21,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **November 2025** | |
 | Important considerations about VISTA rules | Updated the important considerations regarding [Vista rules](/help/technotes/vista.md). |
+| Added data column ID for conversational AI tools | Added the [data column reference ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for conversational AI tools in the ref_type column. |
 | **October 2025** | |
 | Classification sets | Updates to the [Classification sets](/help/components/classifications/sets/overview.md) documentation. |
 | Attribution configuration | Additional updates to reflect the new attribution configuration options for model, container and lookback window. |

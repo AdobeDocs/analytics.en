@@ -24,7 +24,7 @@ You need to configure Adobe Analytics with the necessary information to access y
 
 For information about how to view and delete existing accounts, see [Locations manager](/help/components/locations/locations-manager.md).
 
-To configure a cloud import or export account:
+## Begin creating or editing an account from the accounts page
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
@@ -39,6 +39,12 @@ To configure a cloud import or export account:
    To edit an existing account, locate the account that you want to edit, then select the [!UICONTROL **Edit details**] button.
 
    The [!UICONTROL **Add account**] dialog displays.   
+
+1. Continue with [Configure a location account](#configure-a-location-account).
+
+## Configure a location account
+
+To configure a cloud import or export account after you begin creating or editing it as described in [Begin creating or editing an account from the accounts page](#begin-creating-or-editing-an-account-from-the-accounts-page):
   
 1. Specify the following information:
 

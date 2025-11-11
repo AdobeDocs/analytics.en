@@ -134,6 +134,8 @@ You can create column templates that can be used any time you create a new data 
 
 1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
+1. Configure the data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+
 1. In the **[!UICONTROL Data structure]** section, do either of the following: 
 
    * Select **[!UICONTROL Manage templates]** > **[!UICONTROL Create new template]**.

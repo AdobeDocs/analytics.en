@@ -15,6 +15,24 @@ Before you create a data feed, it's important to have a basic understanding of d
 
 ## Create and configure a data feed
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="Replace operating system strings"
+>abstract="This option cleans up the data output by detecting the following string sequences embedded in customer data and replacing them with a space: <br/>Windows: CRLF, CR, or TAB<br/>Mac and Linux: \n, \r, or \t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="File included with export"
+>abstract="Depending on the packaging type you selected, choose whether to include a manifest file or finish file with each data feed delivery. Manifest files contain information for each included file in the data feed, while finish files simply indicate that the data feed completed successfully."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
 1. In the top navigation bar, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].

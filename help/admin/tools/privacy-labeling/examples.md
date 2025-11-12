@@ -36,12 +36,13 @@ For our example, the summary file contains the values indicated in the table bel
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API Values</th>
-    <th rowspan="2">Summary<br/>file type<br/>returned</th>
+    <th>Summary<br/>file type<br/>returned</th>
     <th colspan="5" style="text-align:center">Data in Summary Access File</th>
   </tr>
   <tr>
     <th>Namespace/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>Visitor ID</th>
     <th>MyEvar1</th>

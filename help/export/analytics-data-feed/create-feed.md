@@ -29,7 +29,7 @@ Before you create a data feed, it's important to have a basic understanding of d
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="Manifest"
->abstract="Choose whether to include a manifest file with each data feed delivery. Manifest files contain information for each included file in the data feed. When sending data feed data in a single package, you can also choose to include a finish file, but manifest files are recommended. "
+>abstract="Choose whether to include a manifest file with each data feed delivery. Manifest files contain information for each file included in the data feed. When sending data feed data in a single package, you can also choose to include a finish file, but manifest files are recommended. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    |---------|----------|
    | [!UICONTROL **Name**] | The name of the data feed. Names must be unique within the selected report suite, and can be up to 255 characters in length. [Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) | 
    | [!UICONTROL **Tags**] | Apply any tags to the data feed for easier categorization. You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).  |
-   | [!UICONTROL **Description**] | Specify a description for the data feed. The desciption you add is visible when editing the data feed. |
+   | [!UICONTROL **Description**] | Specify a description for the data feed. The description you add is visible when editing the data feed. |
 
 1. In the [!UICONTROL **Data formatting**] section, specify the following information:
    
@@ -61,7 +61,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    |---------|----------|
    | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. | 
    | [!UICONTROL **Packaging type**] | Select [!UICONTROL **Multiple files**] for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If the [!UICONTROL **Multiple files**] option is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file.  |
-   | [!UICONTROL **Manifest**] | Choose whether to include a manifest file with each data feed delivery. <p>You can choose from the following options:</p><ul><li>**[!UICONTROL Manifest file]**: Contains information for each included file in the data feed.</li><li>**[!UICONTROL Finish file (Legacy)]**: Indicates that the data feed completed successfully. No other information is included. This option is suitable for existing feeds that originally used this option that need to be reprocessed. It is available only when sending data feed data in a single package. </li><li>**[!UICONTROL None]**: No file is included</li></ul> |
+   | [!UICONTROL **Manifest**] | Choose whether to include a manifest file with each data feed delivery. <p>You can choose from the following options:</p><ul><li>**[!UICONTROL Manifest file]**: Contains information for each file included in the data feed.</li><li>**[!UICONTROL Finish file (Legacy)]**: Indicates that the data feed completed successfully. No other information is included. This option is suitable for existing feeds that originally used this option that need to be reprocessed. It is available only when sending data feed data in a single package. </li><li>**[!UICONTROL None]**: No file is included</li></ul> |
    | [!UICONTROL **Send manifest even when no data**] | Determines whether Adobe should deliver a [manifest file](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest file**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p>  |
    | [!UICONTROL **Replace operating system strings**] | When collecting data, some characters (such as new lines) can cause issues. Select this option to have these characters removed from feed files.<p>This option detects the following string sequences embedded in customer data and replaces them with a space:</p> <ul><li>**Windows:** CRLF, CR, or TAB</li><li>**Mac and Linux:** \n, \r, or \t</li></ul>  | 
    | [!UICONTROL **Enable dynamic lookups**] | Dynamic lookups allow you to receive additional lookup files in your data feed that is otherwise not available. This setting enables the following lookup tables to be sent with each data feed file:<ul><li> **Carrier name**</li><li>**Mobile attributes**</li><li>**Operating system type**</li></ul><p>For more information, see [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> | 
@@ -78,18 +78,18 @@ Before you create a data feed, it's important to have a basic understanding of d
   
      All columns included in the template appear in the **[!UICONTROL Included]** section on the right.
 
-1. (Optional) To create a column template that is based on the data feed that you are currently creating, select **[!UICONTROL Save as template]**, specify a name for the template, then select **[!UICONTROL Save]**. This is useful if you plan to create additional data feeds that include the same columns.
+1. (Optional) To create a column template that is based on the data feed that you are currently creating, select **[!UICONTROL Save as template]**, specify a name for the template, then select **[!UICONTROL Save]**. This option is useful if you plan to create additional data feeds that include the same columns.
 
     ![Create column template while creating a data feed](assets/data-feed-template-create2.png)
 
-1. (Optional) To download a list of included columns in .csv format, select **[!UICONTROL Download columns]**. This can be useful for data feeds that have a large number of columns. 
+1. (Optional) To download a list of included columns in .csv format, select **[!UICONTROL Download columns]**. This option can be useful for data feeds that have a large number of columns. 
 
 1. In the [!UICONTROL **Schedule**] section, specify the following information:
    
    | Field | Function | 
    |---------|----------|
    | [!UICONTROL **Frequency**] | Select how often the data feed should be sent. The following options are available:<ul><li>**Daily**: Feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Use this option for backfill or historical data, or for continuing feeds.</li><li>**Hourly**: Feeds contain a single hour's worth of data. Use this option for continuing feeds.</li><li>**Every 15 minutes**: Feeds contain 15 minute's worth of data. Use this option for continuing feeds.</li></ul>  | 
-   | [!UICONTROL **Processing delay**] | Choose whether to wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 8 hours (480 minutes). |
+   | [!UICONTROL **Processing delay**] | Choose whether to wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. You can delay a feed by up to 8 hours (480 minutes). |
    | [!UICONTROL **Continuous feed**] | When selected, this option removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. When the current hour or day concludes, processing begins after the specified delay. |
    | [!UICONTROL **Start date**] | Specify the date when you want the data feed to begin. To immediately begin processing data feeds for historical data, set this date to any date in the past when data is being collected. The start date is based on the report suite's time zone. |
    | [!UICONTROL **End date**] | Specify the date when you want the data feed to end. The end date is based on the report suite's time zone. | 
@@ -100,7 +100,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    >
    >Consider the following when configuring a report destination:
    >
-   >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Adobe recommends using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
    >* Any cloud accounts that you previously configured are available to use for data feeds. You can configure cloud accounts in any of the following ways:
    >
    >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 
@@ -117,8 +117,8 @@ Before you create a data feed, it's important to have a basic understanding of d
    
    | Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Account**] | Do either of the following:<ul><li>**Use an existing account:** Select the drop-down menu next to the **[!UICONTROL Account]** field. Or, begin typing the account name, then select it from the drop-down menu. <p>Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.</p></li><li>**Create a new account:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Account]** field. For information about how to configure the account, see [Configure a location account](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).</li></ul> | 
-   | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For informatino about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).|
+   | [!UICONTROL **Account**] | Do either of the following:<ul><li>**Use an existing account:** Select the drop-down menu next to the **[!UICONTROL Account]** field. Or, begin typing the account name, then select it from the drop-down menu. <p>Accounts are available to you only if you configured them or if they are shared with an organization you are a part of.</p></li><li>**Create a new account:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Account]** field. For information about how to configure the account, see [Configure a location account](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).</li></ul> | 
+   | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For information about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).|
    | [!UICONTROL **Notify when complete**] | Specify one or more email addresses where a notification should be delivered after the data feed is sent. Multiple email addresses must be separated with a comma.  |
        
 1. Select **[!UICONTROL Save]**.    
@@ -157,7 +157,7 @@ To create a column template:
 
 1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**. 
 
-1. Select the template you want to edit, then select **[!UICONTROL Edit]**.
+1. Select the template that you want to edit, then select **[!UICONTROL Edit]**.
 
 1. Make any edits, then select **[!UICONTROL Save]**.
 
@@ -165,7 +165,7 @@ To create a column template:
 
 1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
 
-1. Select the template you want to copy, then select **[!UICONTROL Copy]**.
+1. Select the template that you want to copy, then select **[!UICONTROL Copy]**.
 
 1. In the **[!UICONTROL Template name]** field, specify a name for the template. 
 

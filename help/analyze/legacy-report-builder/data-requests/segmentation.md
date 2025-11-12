@@ -46,7 +46,7 @@ You may have specific combinations of report dimensions that you would like to t
 1. Go back to Report Builder and click the Refresh icon to refresh the list of segments.
 1. You are now ready to apply this segment.
 
-## Search for and apply segments {#search}
+## Search for and apply segments
 
 Any segments that were created in Reports & Analytics (now end-of-lifed), Report Builder, or Data Warehouse appear in this segment list. To refresh the list, click the Refresh icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 

@@ -30,7 +30,7 @@ You can edit settings for multiple columns at once. Select multiple columns and 
 | --- | --- |
 | **[!UICONTROL Show total]** | Show a client-side sum of the column. This total does **not** de-duplicate metrics like sessions or persons. |
 | **[!UICONTROL Show grand total]** | Show a server-side sum of the column. The grand total de-duplicates metrics like sessions or persons. |
-| **[!UICONTROL Show sparkline]** | Show a line chart at the column header. | 
+| **[!UICONTROL Show sparkline]** | Show a line chart at the column header. |
 | **[!UICONTROL Number]** | Determine if a cell shows/hides the numeric value for the metric. For example, if the metric is Page Views, the numeric value is the number of page views for the row item. |
 | **[!UICONTROL Percent]** | Determine if a cell shows/hides the percent value for the metric. For example, if the metric is Page Views, the percent value is the number of page views for the row item, divided by the total page views for the column.  Note: Percentages greater than 100% are possible to ensure to be accurate. The upper bound cap can move to 1,000% to prevent columns width become too large. |
 | **[!UICONTROL Show anomalies]** | Determine if anomaly detection is run on the values in this column. |
@@ -41,7 +41,7 @@ You can edit settings for multiple columns at once. Select multiple columns and 
 | **[!UICONTROL Bar Graph]** | Show a horizontal bar graph representing the cell's value relative to the total for the column. |
 | **[!UICONTROL Conditional Formatting]** | Use conditional formatting. See the [section](#conditional-formatting) below. |
 | **[!UICONTROL Table Cell Preview]** | A preview of how each cell appears with the currently selected formatting options applied. |
-| **[!UICONTROL Use non-default attribution model]** | Use a non-default attribution model. See the [section](#use-non-default-attribution-model) below. | 
+| **[!UICONTROL Use non-default attribution model]** | Use a non-default attribution model. See the [section](#use-non-default-attribution-model) below. |
 
 ## Conditional formatting {#conditional-formatting}
 

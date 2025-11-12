@@ -16,13 +16,13 @@ The table assumes that today's date is Monday, November 10, 2011, using the Greg
 
 |  Example  | Date Range  | Customize Expression  | Date Range of Report  |
 |---|---|---|---|
-|  | | **From** | **To** | |
-|  1  | Two weeks ago  | cw-2w  | cw-1w-1d  | 26 Oct to 1 Nov  |
-|  2  | First 3 days of the fifth month of last year  | cy-1y+4m  | cy-1y+4m+2d  | 1 May to 3 May 2010  |
-|  3  | One full week, starting 4 weeks ago  | cw-4w  | cw-3w-1d  | 12 Oct to 18 Oct  |
-|  4  | Last week in the previous year  | cw-53w  | cw-52w-1d  | Nov to 9 Nov 2010  |
-|  5  | One month starting 2 months ago  | cm-2m  | cm-1m-1d  | 1 Sept to 30 Sept  |
-|  6  | 12 months ago in the previous year  | cm-12m  | cm-11m-1d  | 1 Nov to 30 Nov 2010  |
+|  | | **From** | **To** |
+|  1  | Two weeks ago  | `cw-2w  \| cw-1w-1d`  | 26 Oct to 1 Nov  |
+|  2  | First 3 days of the fifth month of last year  | `cy-1y+4m  \| cy-1y+4m+2d`  | 1 May to 3 May 2010  |
+|  3  | One full week, starting 4 weeks ago  | `cw-4w  \| cw-3w-1d`  | 12 Oct to 18 Oct  |
+|  4  | Last week in the previous year  | `cw-53w  \| cw-52w-1d`  | Nov to 9 Nov 2010  |
+|  5  | One month starting 2 months ago  | `cm-2m  \| cm-1m-1d`  | 1 Sept to 30 Sept  |
+|  6  | 12 months ago in the previous year  | `cm-12m  \| cm-11m-1d`  | 1 Nov to 30 Nov 2010  |
 
 ## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 

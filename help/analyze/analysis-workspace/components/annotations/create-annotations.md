@@ -59,7 +59,7 @@ The **[!UICONTROL Annotations builder]** dialog is used to create new or edit ex
 
    | Element | Description |
    | --- | --- |
-   | **[!UICONTROL Report suite]** | You can select the report suite for the annotation. The annotation you define is available as an annotation in the Workspace projects based on the selected report suite. This selection is overruled when you have enabled [!UICONTROL Apply to all report suites]. | 
+   | **[!UICONTROL Report suite]** | You can select the report suite for the annotation. The annotation you define is available as an annotation in the Workspace projects based on the selected report suite. This selection is overruled when you have enabled [!UICONTROL Apply to all report suites]. |
    | **[!UICONTROL Project-only Annotation]** | An info box to explain that the annotation you create is only visible in the Workspace project you are working on. Enable **[!UICONTROL Make this Annotation available to all your projects]**, to make the annotation visible to all your projects. This info box is only visible when you create an annotation from within a Workspace project. |
    | **[!UICONTROL Title]** ![Required](/help/assets/icons/Required.svg) | Name the annotation, for example, `Needs further investigation`. |
    | **[!UICONTROL Description]** | Provide a description for the annotation, for example, `We never expected such a fluctuation in numbers.`. |

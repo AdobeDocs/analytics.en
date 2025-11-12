@@ -52,7 +52,7 @@ The following context menu options are available when selecting the dimension he
 | **[!UICONTROL Delete]** | Deletes the dimension from the table. |
 | **[!UICONTROL Visualize]** | Visualize the dimension using any of the available visualizations. |
 | **[!UICONTROL Display only selected rows]** | Display only the selected items in the visualization. |
-| **[!UICONTROL Create annotation from selection]** | Open up the **[!UICONTROL Annotation details]** to add an annotation. | 
+| **[!UICONTROL Create annotation from selection]** | Open up the **[!UICONTROL Annotation details]** to add an annotation. |
 
 
 The following additional context menu options are available when selecting one or more dimension items (first column) or one or more individual cells in the freeform table..
@@ -64,11 +64,11 @@ The following additional context menu options are available when selecting one o
 | **[!UICONTROL Remove hyperlink]** | Remove a hyperlink for the item. See [Hyperlinks for dimensions in a freeform table](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Breakdown]** | Break down the dimension item. Select from the list of **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Filters]** or **[!UICONTROL Date ranges]**. Alternative search for a component, using *Search*. |
 | **[!UICONTROL Delete selected]** | Delete the selected rows (items). |
-| **[!UICONTROL Trend selection]** | Create a trended line chart visualization for the selection. | 
+| **[!UICONTROL Trend selection]** | Create a trended line chart visualization for the selection. |
 | **[!UICONTROL Display only selected rows]** | Display only the selected rows in the visualization. |
 | **[!UICONTROL Display all rows]** | Display all rows in the visualization. |
 | **[!UICONTROL Create filter from selection]** | Open up the **[!UICONTROL Filter builder]** to build a filter from the selection. |
-| **[!UICONTROL Create audience from selection]** | Open up the **[!UICONTROL Create audience]** dialog to build an audience from the selection. | 
+| **[!UICONTROL Create audience from selection]** | Open up the **[!UICONTROL Create audience]** dialog to build an audience from the selection. |
 
 The following additional context menu options are available when selecting a metric column header.
 
@@ -80,9 +80,9 @@ The following additional context menu options are available when selecting a met
 | **[!UICONTROL Modify attribution models]** | Modify the attribution model for the column. |
 | **[!UICONTROL Compare attribution model]** | Specify a new attibution model and compare it to the attribution model for the selected column. A new column is added with the new attribution model metrics. Also, a Percent change column is added for comparison. |
 | **[!UICONTROL Reset column widths]** | Reset the column widths to the default width. |
-| **[!UICONTROL Create annotation from selection]** | Open up the **[!UICONTROL Annotation details]** to add an annotation. | 
+| **[!UICONTROL Create annotation from selection]** | Open up the **[!UICONTROL Annotation details]** to add an annotation. |
 | **[!UICONTROL Create filter from selection]** | Open up the **[!UICONTROL Filter builder]** to build a filter from the selection. |
-| **[!UICONTROL Create audience from selection]** | Open up the **[!UICONTROL Create audience]** dialog to build an audience from the selection. | 
+| **[!UICONTROL Create audience from selection]** | Open up the **[!UICONTROL Create audience]** dialog to build an audience from the selection. |
 
 ## Change row height
 

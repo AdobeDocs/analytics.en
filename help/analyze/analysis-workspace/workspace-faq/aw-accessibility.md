@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 | Shortcut | Action |
 | --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] | 
+| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] |
 | `[Alt + Left / Right]` | Navigate between panels |
 | `[Alt + M]` | Collapse/expand all panels |
 | `[Alt + Ctrl + M]` | Collapse/expand active panel |

@@ -32,16 +32,16 @@ The **[!UICONTROL Calculated metric builder]** dialog is used to create new or e
 
    | Element | Description |
    | --- | --- |
-   | **[!UICONTROL Report suite]** | You can select the report suite for the calculated metric.  The calculated metric you define is available in Workspace projects based on the selected report suite. | 
+   | **[!UICONTROL Report suite]** | You can select the report suite for the calculated metric.  The calculated metric you define is available in Workspace projects based on the selected report suite. |
    | **[!UICONTROL Project-only metric]** | An info box appears at the top of this dialog when you edit a calculated metric that was created for a single project, as described in [Create calculated metrics for a single project](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>If you want to make this calculated metric available for all projects, select the option, **[!UICONTROL Make this metric available to all your projects and add it to your component list]**.</p> |
    | **[!UICONTROL Title]** ![Required](/help/assets/icons/Required.svg) | Name the calculated metric, for example, `Conversion Rate`. |
    | **[!UICONTROL Description]** | Provide a description for the segment, for example, `Calculated metric to define the conversion rate.` There is no need to describe the formula for the calculated metric as the formula is already automatically available in [!UICONTROL Summary]. |
    | **[!UICONTROL Format]** | Select a format for the calculated metric: You can select between **[!UICONTROL Decimal]**, **[!UICONTROL Time]**, **[!UICONTROL Percent]**, and **[!UICONTROL Currency]**. |
    | **[!UICONTROL Decimal places]** | Specify the number of decimal places for the format selected. Only enabled when the format selected is Decimal, Currency, and Percent. |
-   | **[!UICONTROL Show upward trend as]** | Specify whether an upward trend of the calculated metric displays as ▲ **[!UICONTROL Good (Green)]** or as ▼ **[!UICONTROL Bad (Red)]**. | 
+   | **[!UICONTROL Show upward trend as]** | Specify whether an upward trend of the calculated metric displays as ▲ **[!UICONTROL Good (Green)]** or as ▼ **[!UICONTROL Bad (Red)]**. |
    | **[!UICONTROL Currency]**  | Specify the currency of the calculated metric. Only enabled when format selected is Currency. |
    | **[!UICONTROL Tags]**| Organize the calculated metric by creating or applying one or more tags. Start typing to find existing tags you can select. Or press **[!UICONTROL ENTER]** to add a new tag. Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a tag. |
-   | **[!UICONTROL Preview]** | The preview covers the last 90 days and is a way to gauge whether you have defined your metric correctly. | 
+   | **[!UICONTROL Preview]** | The preview covers the last 90 days and is a way to gauge whether you have defined your metric correctly. |
    | **[!UICONTROL Summary]** | Displays a summary of the definition of the calculated metric. <br/>For example:  ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Total Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
    | **[!UICONTROL Definition]** ![Required](/help/assets/icons/Required.svg)| Define your segment using the [Definition builder](#definition-builder). |
 

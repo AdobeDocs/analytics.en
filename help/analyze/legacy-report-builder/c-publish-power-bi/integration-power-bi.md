@@ -1,4 +1,5 @@
 ---
+title: Adobe Analytics content packs for Power BI
 description: Learn about Adobe Analytics Content Packs and the pre-built Power BI dashboards and reports.
 feature: Report Builder
 role: User, Admin

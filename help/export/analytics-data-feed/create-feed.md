@@ -28,10 +28,12 @@ Before you create a data feed, it's important to have a basic understanding of d
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
->title="File included with export"
->abstract="Choose whether to include a manifest file or finish file with each data feed delivery. Manifest files contain information for each included file in the data feed, while finish files simply indicate that the data feed completed successfully."
+>title="Manifest"
+>abstract="Choose whether to include a manifest file with each data feed delivery. Manifest files contain information for each included file in the data feed. When sending data feed data in a single package, you can also choose to include a finish file, but manifest files are recommended. "
 
 <!-- markdownlint-enable MD034 -->
+
+<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 
@@ -59,10 +61,10 @@ Before you create a data feed, it's important to have a basic understanding of d
    |---------|----------|
    | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. | 
    | [!UICONTROL **Packaging type**] | Select [!UICONTROL **Multiple files**] for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If the [!UICONTROL **Multiple files**] option is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file.  |
-   | [!UICONTROL **File included with export**] | Choose the type of file to include with each data feed delivery. You can choose from the following options:<ul><li>**[!UICONTROL Manifest file]**: Contains information for each included file in the data feed</li><li>**[!UICONTROL Finish file]**: Simply indicate that the data feed completed successfully.</li><li>**[!UICONTROL None]**: No file is included</li></ul> |
+   | [!UICONTROL **Manifest**] | Choose whether to include a manifest file with each data feed delivery. <p>You can choose from the following options:</p><ul><li>**[!UICONTROL Manifest file]**: Contains information for each included file in the data feed.</li><li>**[!UICONTROL Finish file (Legacy)]**: Indicates that the data feed completed successfully. No other information is included. This option is suitable for existing feeds that originally used this option that need to be reprocessed. It is available only when sending data feed data in a single package. </li><li>**[!UICONTROL None]**: No file is included</li></ul> |
    | [!UICONTROL **Send manifest file even when no data exists**] | Determines whether Adobe should deliver a [manifest file](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest file**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p>  |
    | [!UICONTROL **Replace operating system strings**] | When collecting data, some characters (such as newlines) can cause issues. Select this option to have these characters removed from feed files.<p>This option detects the following string sequences embedded in customer data and replaces them with a space:</p> <ul><li>**Windows:** CRLF, CR, or TAB</li><li>**Mac and Linux:** \n, \r, or \t</li></ul>  | 
-   | [!UICONTROL **Enable dynamic lookups**] | | 
+   | [!UICONTROL **Enable dynamic lookups**] | Dynamic lookups allow you to receive additional lookup files in your data feed otherwise not available. This setting enables the following lookup tables to be sent with each data feed file:<ul><li> **Carrier name**</li><li>**Mobile attributes**</li><li>**Operating system type**</li></ul><p>For more information, see [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> | 
 
 1. In the [!UICONTROL **Data structure**] section, in the **[!UICONTROL Report suite]** field, select the source report suite that contains the data that you want to export. <p>Consider the following when selecting a report suite:</p> <ul><li>If multiple data feeds are created for the same report suite, each data feed must have different column definitions.</li><li>Only source report suites support data feeds; virtual report suites are not supported.</li></ul>
 
@@ -72,11 +74,13 @@ Before you create a data feed, it's important to have a basic understanding of d
 
      Columns you add appear in the **[!UICONTROL Included]** section on the right.
 
-   * **Add a column template:** In the **[!UICONTROL Column templates]** field, select a column template to add. A column template is a predefined group of columns, and Adobe provides several by default.
-   
-     When creating multiple data feeds, Adobe recommends that you [create column templates](#create-column-templates). 
+   * **Add a column template:** In the **[!UICONTROL Column templates]** field, select a column template to add. A column template is a predefined group of columns, and Adobe provides several by default. 
   
      All columns included in the template appear in the **[!UICONTROL Included]** section on the right.
+
+1. (Optional) If you plan to create additional data feeds that include these same columns, you can create a column template that is based on this data feed. To create a column template, select **[!UICONTROL Save as template]**, specify a name for the template, then select **[!UICONTROL Save]**.
+
+    ![Create column template while creating a data feed](assets/data-feed-template-create2.png)
 
 1. In the [!UICONTROL **Schedule**] section, specify the following information:
    
@@ -115,30 +119,61 @@ Before you create a data feed, it's important to have a basic understanding of d
    | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For informatino about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).|
    | [!UICONTROL **Notify when complete**] | Specify an email address where a notification should be sent after the data feed is sent.  |
        
-1. Select **[!UICONTROL Save]**. 
+1. Select **[!UICONTROL Save]**.    
 
-   
+## Manage column templates
 
+Templates allow you to reuse the same columns for future data feeds that you create. 
 
+When managing templates, you can create new templates, use templates that are already created, copy templates, edit templates, and delete templates.
 
+[!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**
 
-   
+![Manage column templates](assets/data-feed-template-manage.png)
 
-## Create column templates
+### Create a column template
 
-<!-- who has access to the templates you create?-->
+When creating multiple data feeds, Adobe recommends that you [create column templates](#create-column-templates). 
 
-2 ways: Add columns, then select Save as template. Or, select Manage templates > Create new template.
+To create a column template:
 
-You can create column templates that can be used any time you create a new data feed.  
+1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
 
-1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+1. Select **[!UICONTROL Create new template]** to create a new column template. 
 
-1. Configure the data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+   ![Create column template](assets/data-feed-template-create.png)
 
-1. In the **[!UICONTROL Data structure]** section, do either of the following: 
+1. In the **[!UICONTROL Template name]** field, specify a name for the template. 
 
-   * Select **[!UICONTROL Manage templates]** > **[!UICONTROL Create new template]**.
+1. In the **[!UICONTROL Available]** section on the left, select any columns that you want to include, then select **[!UICONTROL Include]**. All available data columns in Adobe Analytics are available. You can select multiple columns by holding **[!UICONTROL Shift]**, or by holding **[!UICONTROL Command]** (on macOS) or **[!UICONTROL Ctrl]** (on Windows). Click **[!UICONTROL Add all]** to include all columns in a data feed.
+
+     Columns you add appear in the **[!UICONTROL Included]** section on the right.
+
+1. Select **[!UICONTROL Save]**.
+
+### Edit a column template
+
+1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
+
+1. Select the template you want to edit, then select **[!UICONTROL Edit]**.
+
+1. Make any edits, then select **[!UICONTROL Save]**.
+
+### Copy a column template
+
+1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
+
+1. Select the template you want to copy, then select **[!UICONTROL Copy]**.
+
+1. In the **[!UICONTROL Template name]** field, specify a name for the template. 
+
+1. Make any additional changes, then select **[!UICONTROL Save]**.
+
+### Delete column templates
+
+1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
+
+1. Select one or more templates that you want to delete, then select **[!UICONTROL Delete]**.
 
 ## Download columns
 

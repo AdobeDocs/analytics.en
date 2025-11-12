@@ -79,7 +79,7 @@ The condition area specifies the conditions (up to a maximum of three). For each
 
 | Element | Description | 
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date&nbsp;range]** | Select from the drop-down menu ![ChevronDown](/help/assets/icons/ChevronDown.svg) whether you want to specify a condition for a dimension, metric or date range. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Select from the drop-down menu ![ChevronDown](/help/assets/icons/ChevronDown.svg) whether you want to specify a condition for a dimension, metric or date range. |
 | **[!UICONTROL *component*]** | The component field for the condition. You can [!UICONTROL *Type to add*] a component, select a component from the list, or you can drag and drop a component from the component panel. You can only drop similar components on the component field of the condition. For example, you can only drop a dimension component from the component panel on a dimension condition. <br/>You can also drag and drop to replace an existing component.<br/>Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to delete the component from the component field. | 
 | **[!UICONTROL *operator*]** | The operator for the component. See [Operators](../seg-reference/seg-operators.md) for more information. Only available for dimensions and metrics. |
 | **[!UICONTROL *value*]** | The value for the condition. Depending on the operator selected, the value can be selected from a list or you enter a value. |

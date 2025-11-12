@@ -8,15 +8,13 @@ exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
 
 *This page describes the available metrics when you enable [!UICONTROL Media Ads] for a report suite. See [Streaming media services ad dimensions](../dimensions/sm-ads.md) for available dimensions.*
 
-Streaming media services ad metrics provide supplemental reporting functionality to data collection through streaming media services libraries. Use of these metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**. Contact your Adobe Account Team for details.
+Streaming media services ad metrics provide supplemental reporting functionality to data collection through streaming media services libraries. Use of these metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
 
 When you enable **[!UICONTROL Media Ads]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following metrics are available:
 
-| Metric name | Description | Sent with | Context data variable |
-| --- | --- | --- | --- |
-| Ad completes | Triggered when a video ad completes. | Ad Close | `a.media.ad.complete` |
-| Ad starts | Triggered when a video ad starts. | Ad Start | `a.media.ad.view` |
-| Ad time spent | The total amount of time spent watching the ad, in seconds. | Ad Close | `a.media.ad.timePlayed` |
-| Media time spent | Sums the event duration for all PLAY events (both main and ad content), in seconds. | Media Close | `a.media.totalTimePlayed` |
-
-{style="table-layout:auto"}
+| Metric name | Description | Sent with | Context data variable | XDM field |
+| --- | --- | --- | --- | --- |
+| **[!UICONTROL Ad completes]** | Triggered when a video ad completes. | Ad Close | `a.media.ad.complete` | `xdm.mediaReporting.`<br>`advertisingDetails.isCompleted` |
+| **[!UICONTROL Ad starts]** | Triggered when a video ad starts. | Ad Start | `a.media.ad.view` | `xdm.mediaReporting.`<br>`advertisingDetails.isStarted` |
+| **[!UICONTROL Ad time spent]** | The total amount of time spent watching the ad, in seconds. | Ad Close | `a.media.ad.timePlayed` | `xdm.mediaReporting.`<br>`advertisingDetails.timePlayed` |
+| **[!UICONTROL Media time spent]** | Sums the event duration for all '[!UICONTROL Play]' events (both main and ad content), in seconds. | Media Close | `a.media.totalTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.totalTimePlayed` |

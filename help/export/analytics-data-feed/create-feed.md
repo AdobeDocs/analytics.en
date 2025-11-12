@@ -13,7 +13,7 @@ When creating a data feed, you provide Adobe with:
 
 Before you create a data feed, it's important to have a basic understanding of data feeds and to ensure that you meet all prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
-## Create and configure a data feed {#create-feed}
+## Create and configure a data feed {#create-and-configure-data-feed}
 
 <!-- markdownlint-disable MD034 -->
 

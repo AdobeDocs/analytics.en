@@ -17,7 +17,7 @@ An Audience Manager segment is a group of visitors (user IDs) that qualify for a
 * Time-to-live (TTL) intervals. Segment membership can expire after a set interval or continue indefinitely.
 * Recency and frequency. Defining when and how often users have an interaction (trait realization) can help create segments based the real (or perceived) level of interest in a site, section, or particular creative.
 
-Audience Manager segment membership is fluid. Users can enter or drop out of a segment depending on whether they qualify for the segment criteria at the current point in time. This means the population of an&nbsp;Audience Manager&nbsp;segment can increase or decrease over time.
+Audience Manager segment membership is fluid. Users can enter or drop out of a segment depending on whether they qualify for the segment criteria at the current point in time. This means the population of an Audience Manager segment can increase or decrease over time.
 
 An Audience Manager segment is denoted as an audience in Analytics.
 

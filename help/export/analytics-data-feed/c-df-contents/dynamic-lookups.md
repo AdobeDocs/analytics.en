@@ -12,7 +12,16 @@ Dynamic lookups allow you to receive additional lookup files in your data feed o
 * **Mobile attributes**: Provides additional context for the `mobile_id` column, including all features tracked for each mobile device. The file name included is `mobile_attributes.tsv`.
 * **Operating system type**: Provides an alternate context for the `os` column. Both `operating_systems.tsv` and `operating_system_type.tsv` use the `os` column as the key, however only `operating_system_type.tsv` is a dynamic lookup.
 
-## Enable dynamic lookups
+## Enable dynamic lookups {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="Enable dynamic lookups"
+>abstract="Select this option to receive additional lookup files in your data feed otherwise not available. This setting enables the following lookup tables to be sent with each data feed file:<ul><li>Carrier name</li><li>Mobile attributes</li><li>Operating system type</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 If you want to receive the lookup files mentioned, you must meet all the following prerequisites:
 

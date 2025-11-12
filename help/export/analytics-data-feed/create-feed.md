@@ -28,8 +28,8 @@ Before you create a data feed, it's important to have a basic understanding of d
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
->title="File included with export"
->abstract="Depending on the packaging type you selected, choose whether to include a manifest file or finish file with each data feed delivery. Manifest files contain information for each included file in the data feed, while finish files simply indicate that the data feed completed successfully."
+>title="Manifest"
+>abstract="Choose whether to include a manifest file with each data feed delivery. Manifest files contain information for each included file in the data feed. When sending data feed data in a single package, you can also choose to include a finish file, but manifest files are recommended. "
 
 <!-- markdownlint-enable MD034 -->
 

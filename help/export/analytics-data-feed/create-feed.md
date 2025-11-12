@@ -66,7 +66,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    | [!UICONTROL **Replace operating system strings**] | When collecting data, some characters (such as newlines) can cause issues. Select this option to have these characters removed from feed files.<p>This option detects the following string sequences embedded in customer data and replaces them with a space:</p> <ul><li>**Windows:** CRLF, CR, or TAB</li><li>**Mac and Linux:** \n, \r, or \t</li></ul>  | 
    | [!UICONTROL **Enable dynamic lookups**] | Dynamic lookups allow you to receive additional lookup files in your data feed otherwise not available. This setting enables the following lookup tables to be sent with each data feed file:<ul><li> **Carrier name**</li><li>**Mobile attributes**</li><li>**Operating system type**</li></ul><p>For more information, see [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> | 
 
-1. In the [!UICONTROL **Data structure**] section, in the **[!UICONTROL Report suite]** field, select the source report suite that contains the data that you want to export. <p>Consider the following when selecting a report suite:</p> <ul><li>If multiple data feeds are created for the same report suite, each data feed must have different column definitions.</li><li>Only source report suites support data feeds; virtual report suites are not supported.</li></ul>
+1. In the [!UICONTROL **Data structure**] section, in the **[!UICONTROL Report suite]** field, select the source report suite that contains the data that you want to export. <p>Consider the following when selecting a report suite:</p> <ul><li>If multiple data feeds are created for the same report suite, each data feed must have different column definitions.</li><li>Only source report suites support data feeds; virtual report suites are not supported.</li><li>column lists are company-specific. If you choose a report suite that is owned by Company A and you're already in Company B, then the list will change. </li></ul>
 
 1. Use either or both of the following methods to determine which data columns to include in the feed:
 
@@ -82,11 +82,13 @@ Before you create a data feed, it's important to have a basic understanding of d
 
     ![Create column template while creating a data feed](assets/data-feed-template-create2.png)
 
+1. (Optional) To download a list of included columns in .csv format, select **[!UICONTROL Download columns]**. This can be especially helpful for data feeds with a large number of columns. 
+
 1. In the [!UICONTROL **Schedule**] section, specify the following information:
    
    | Field | Function | 
    |---------|----------|
-   | [!UICONTROL **Frequency**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. | 
+   | [!UICONTROL **Frequency**] | Select how often the data feed should be sent. The following options are available:<ul><li>**Daily**: Feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Use this option for backfill or historical data, or for continuing feeds.</li><li>**Hourly**: Feeds contain a single hour's worth of data. Use this option for continuing feeds.</li><li>**Every 15 minutes**: Feeds contain 15 minute's worth of data. Use this option for continuing feeds.</li></ul>  | 
    | [!UICONTROL **Processing delay**] | Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes. |
    | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
    | [!UICONTROL **Start date**] | The start date indicates the date when you want the data feed to begin. To immediately begin processing data feeds for historical data, set this date to any date in the past when data is being collected. The start date is based on the report suite's time zone. |
@@ -117,7 +119,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    |---------|----------|
    | [!UICONTROL **Account**] | Do either of the following:<ul><li>**Use an existing account:** Select the drop-down menu next to the **[!UICONTROL Account]** field. Or, begin typing the account name, then select it from the drop-down menu. <p>Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.</p></li><li>**Create a new account:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Account]** field. For information about how to configure the account, see [Configure a location account](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).</li></ul> | 
    | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For informatino about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).|
-   | [!UICONTROL **Notify when complete**] | Specify an email address where a notification should be sent after the data feed is sent.  |
+   | [!UICONTROL **Notify when complete**] | Specify one or more email addresses where a notification should be sent after the data feed is sent. Separate multiple email addresses using a comma.  |
        
 1. Select **[!UICONTROL Save]**.    
 
@@ -175,7 +177,6 @@ To create a column template:
 
 1. Select one or more templates that you want to delete, then select **[!UICONTROL Delete]**.
 
-## Download columns
 
 <!-- why would you want to do this? -->
 

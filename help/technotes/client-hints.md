@@ -57,16 +57,16 @@ Note that fullVersionList is currently not collected because browser major versi
 
 The table below describes the client hints as of October 2022.
 
-| Hint | Description | High or Low Entropy | Example | 
-| --- | --- | --- | --- | 
+| Hint | Description | High or Low Entropy | Example |
+| --- | --- | --- | --- |
 | Sec-CH-UA  |  Browser and significant version  | Low |  `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  `true` |  
-| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | `"Android"` | 
-| architecture |  Architecture of the site |  High |  `"arm"`  |  
-| bitness  | Architecture bitness  | High  | `"64"`  |  
-| fullVersionList |  List of brands with their version | High | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"`  |  
-| model |  Device model |  High |  `"Pixel 3"` |  
-| platformVersion |  Operating System/Platform version |  High |  `"10"` |  
+| Sec-CH-UA-Mobile |  Mobile device (true or false) |  Low |  `true` |
+| Sec-CH-UA-Platform |  Operating System/Platform |  Low  | `"Android"` |
+| architecture |  Architecture of the site |  High |  `"arm"`  |
+| bitness  | Architecture bitness  | High  | `"64"`  |
+| fullVersionList |  List of brands with their version | High | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"`  |
+| model |  Device model |  High |  `"Pixel 3"` |
+| platformVersion |  Operating System/Platform version |  High |  `"10"` |
 
 * Low-entropy hints are collected through the request header.
 * High-entropy hints are collected through JavaScript and passed through query string parameter values. The query string parameters use `h.` as a prefix in the image request. Note that fullVersionList is currently not collected because browser major version is captured as a low entropy hint.

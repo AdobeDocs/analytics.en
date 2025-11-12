@@ -17,7 +17,7 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL Bot Pages] | Not used |
 | [!UICONTROL Bots] | Not used |
 | [!UICONTROL Channels]| Grants access to Marketing Channels, including Marketing Channel Manager, Marketing Channel Processing Rules, and Marketing Channel Expiration in the Report Suite Manager. |
-| [!UICONTROL Channel Report] | Not used | 
+| [!UICONTROL Channel Report] | Not used |
 | [!UICONTROL Classifications] | Grants access to all classification settings in the Report Suite Manager. This permission item includes: <br>Traffic > Traffic Classifications<br>Conversion > Conversion Classifications<br>Conversion > Classification Hierarchies<br>Marketing Channels > Marketing Channel Classifications<br>App Management > App Classifications<br>Media Management > Media Classifications<br>AEM > AEM Assets Classifications<br>Adobe Campaign > Adobe Classifications |
 | [!UICONTROL Costs] | Grants access to Marketing Channels > Marketing Channel Costs in the Report Suite Manager. |
 | [!UICONTROL Contribution Analysis] | Grants access to the right-click menu 'Run Contribution Analysis' in Analysis Workspace. |

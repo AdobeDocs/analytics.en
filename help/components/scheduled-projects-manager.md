@@ -28,9 +28,9 @@ The Scheduled projects list ➊ displays columns for:
 | **[!UICONTROL Expiration date]** | You can set the expiration date to up to one year, regardless of schedule frequency. |
 | **[!UICONTROL Frequency]** | How often you want to have this schedule project sent to one or more recipients. |
 | **[!UICONTROL Execution Time]** | At what time of day this scheduled project gets sent. |
-| **[!UICONTROL Number of Queries]** | The number of queries against this project. | 
+| **[!UICONTROL Number of Queries]** | The number of queries against this project. |
 | **[!UICONTROL Longest Date Range]** | The longest date range defined for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) for more information. |
-| **[!UICONTROL Number of queries]** | The number of queries executed for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) for more information.| 
+| **[!UICONTROL Number of queries]** | The number of queries executed for the scheduled project. This value might be relevant to investigate performance issues. See [Reporting Activity Manager](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) for more information.|
 
 
 You can use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to configure which columns to display.
@@ -118,7 +118,7 @@ To modify a scheduled project
 | [!UICONTROL Expiration date] | For any scheduled project frequency, you can set the expiration date for up to one year in the future. |
 | [!UICONTROL Frequency] | How often you want to have this schedule project sent to the recipient(s). |
 | [!UICONTROL Execution time] | At what time of day this scheduled project gets sent. |
-| [!UICONTROL Number of queries] | The number of queries against this project. | 
+| [!UICONTROL Number of queries] | The number of queries against this project. |
 
 ## Common actions
 

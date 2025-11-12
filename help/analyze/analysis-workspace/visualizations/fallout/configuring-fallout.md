@@ -42,7 +42,7 @@ You can do pathing on dimensions, metrics, and segments. For example, suppose th
 
    ![The All Visits view showing the Eventual Path option highlighted. ](assets/fallout-nexthit.png)
 
-   | Option | Description | 
+   | Option | Description |
    |---|---|
    | **[!UICONTROL Eventual path]** (default) | Visitors are counted that will *eventually* land on the next page in the path, but not necessarily on the next event. |
    | **[!UICONTROL Next event]** | Visitors are counted that will land on the next page in the path on the very next event. |

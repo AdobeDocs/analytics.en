@@ -29,12 +29,12 @@ The alerts list ➊ displays all the alerts that you own, the alerts that have b
 |---|---|
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) an alert. |
 | **[!UICONTROL Title and description]** | To edit the alert, select the title link, which opens the [Alerts builder](alert-builder.md#alert-builder).|
-| **[!UICONTROL Type]** | The type of the alert: an Adobe Analytics data alert or a Server call usage alert. | 
-| **[!UICONTROL Enabled]** | The alert is enabled or disabled. | 
-| **[!UICONTROL Report suite]** | The reports suites that this alert applies to.  | 
+| **[!UICONTROL Type]** | The type of the alert: an Adobe Analytics data alert or a Server call usage alert. |
+| **[!UICONTROL Enabled]** | The alert is enabled or disabled. |
+| **[!UICONTROL Report suite]** | The reports suites that this alert applies to.  |
 | **[!UICONTROL Owner]** | The owner of the alert. As a non-administrator, you only see alerts that you own or alerts that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this alert. |
-| **[!UICONTROL Expiration Date]** | The date and time when the alert is set to expire. | 
+| **[!UICONTROL Expiration Date]** | The date and time when the alert is set to expire. |
 | **[!UICONTROL Date modified]** | The date and time that the alert was last modified. |
 
 <!-- 
@@ -56,7 +56,7 @@ You can action on alerts using the action bar ➋. The action bar contains the f
 | ![Label](/help/assets/icons/Label.svg)| **[!UICONTROL Tag]** | Tag the selected alerts. In the **[!UICONTROL Tag Alert]** dialog, select or de-select the tags for the selected alerts. Select **[!UICONTROL Save]** to save the tags for the selected alerts.|
 | ![Delete](/help/assets/icons/Delete.svg)| **[!UICONTROL Delete]** | Delete the selected alerts. You are prompted for a confirmation. |
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a single selected alert. When selected, you can rename the alert inline. |
-| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copy the selected alert. New alerts are created with the same name and suffix `(Copy)`. | 
+| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copy the selected alert. New alerts are created with the same name and suffix `(Copy)`. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)| **[!UICONTROL Enable]** or **[!UICONTROL Disable]** | Enable or disable the selected alerts. |
 |![Refresh](/help/assets/icons/Refresh.svg)| **[!UICONTROL Renew]** | Renews the alert expiration date. The  expiration date extends 1 year from the day that you select this option, regardless of the original expiration date. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg)| **[!UICONTROL Export to CSV]** | Export the alerts to an `Alerts List.csv` file. |
@@ -172,10 +172,10 @@ To manage existing alerts in the Alerts manager:
 
 1. In the action bar, select any of the following options:
 
-   | Action | Function | 
+   | Action | Function |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
-   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. |
+   | [!UICONTROL **Delete**] | Deletes the alert. |
    | [!UICONTROL **Rename**] | Renames the alert. |
    | [!UICONTROL **Approve**] | Mark the alert as Approved. |
    | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
@@ -224,7 +224,7 @@ To configure the visible columns in the Alerts manager:
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
    | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
    | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
-   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Enabled | Shows whether the alert is currently enabled or disabled. |
    | Report suite | Indicates in which report suite the alert was last saved.  |
    | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |

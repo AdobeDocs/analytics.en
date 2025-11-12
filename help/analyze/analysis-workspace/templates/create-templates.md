@@ -23,13 +23,13 @@ To create a new template that can be used by people in your login company:
 
 1. Specify the following information in the [!UICONTROL Save as template] dialog box:
    
-   | Field | Description | 
+   | Field | Description |
    |---------|----------|
-   | **[!UICONTROL Name]** | Provide a descriptive name for the template. | 
-   | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. | 
-   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. | 
-   | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
-   | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. | 
+   | **[!UICONTROL Name]** | Provide a descriptive name for the template. |
+   | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. |
+   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. |
+   | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> |
+   | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. |
 
 1. Select [!UICONTROL **Save as template**].
 
@@ -69,13 +69,13 @@ Administrators can edit or delete company templates.
 
 1. Specify the following information in the [!UICONTROL Save as template] dialog box:
    
-   | Field | Description | 
+   | Field | Description |
    |---------|----------|
-   | **[!UICONTROL Name]** | Provide a descriptive name for the template. | 
-   | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. | 
-   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. | 
-   | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> | 
-   | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. | 
+   | **[!UICONTROL Name]** | Provide a descriptive name for the template. |
+   | **[!UICONTROL Description]** | Provide a short description for the template that describes its intended uses. |
+   | **[!UICONTROL Why use this template]** | Provide a short explanation to inform people in the organization about how this template could be used. This explanation displays on the template's Preview page. |
+   | **[!UICONTROL Use cases]** | Choose any use cases that apply to this template. You can select multiple use cases: **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]**, and **[!UICONTROL Acquisition]**. <p>The selections you choose determine where the template is displayed and which filters apply for users accessing it from the Organization Templates page.</p> |
+   | **[!UICONTROL Tags]** | Specify any tags that you want to apply to the template. People can filter the list of templates by the tags you add. |
 
 1. Select [!UICONTROL **Save as template**].
 

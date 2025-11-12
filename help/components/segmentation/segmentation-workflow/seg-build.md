@@ -40,7 +40,7 @@ The **[!UICONTROL Segment builder]** dialog is used to create new or edit existi
 
    | Element | Description |
    | --- | --- |
-   | **[!UICONTROL Report suite]** | You can select the report suite for the segment. | 
+   | **[!UICONTROL Report suite]** | You can select the report suite for the segment. |
    | **[!UICONTROL Project-only segment]** | An info box to explain that the segment is only visible in the project where it is created. And that the segment is not added to your component list. Enable **[!UICONTROL Make this segment available to all your projects and add it to your component list]** to change that setting. This info box is only visible when you create a [quick segment](seg-quick.md) and turn the quick segment info a regular segment using **[!UICONTROL Open builder]** from the [!UICONTROL Quick segment] interface. |
    | **[!UICONTROL Title]** ![Required](/help/assets/icons/Required.svg) | Name the segment, for example, `Last month mobile visitors`. |
    | **[!UICONTROL Description]** | Provide a description for the segment, for example, `Segment to define the mobile customers for the last month`. |
@@ -112,7 +112,7 @@ You can use ![Setting](/help/assets/icons/Setting.svg) in a container for the fo
 | **[!UICONTROL Exclude]** | Exclude the result from the container in the segment definition. A thin red left bar identifies an exclude container.  |
 | **[!UICONTROL Include]** | Include the result from the container in the segment definition. Include is the default. A thin gray left bar identifies an include container. |
 | **[!UICONTROL Name container]** | Rename the container from its default description. Type a name in the text field. If you provide no input, the default description is used. |
-| **[!UICONTROL Delete container]** | Delete the container from the definition. | 
+| **[!UICONTROL Delete container]** | Delete the container from the definition. |
 
 
 ## Date ranges

@@ -43,11 +43,11 @@ To add or remove columns from the list of projects, click the column icon (![Lan
 
 The available columns are:
 
-| Column name | Description | 
+| Column name | Description |
 |---------|----------|
 | [!UICONTROL **Name**] | Identifies the name of the project. |
 | [!UICONTROL **Type**] | Indicates whether this type is a Workspace project, a Mobile scorecard, or a folder. |
-| [!UICONTROL **Tags**] | Tags projects to organize them into groups. | 
+| [!UICONTROL **Tags**] | Tags projects to organize them into groups. |
 | [!UICONTROL **Scheduled**] | Set to [!UICONTROL On] when a project is scheduled or [!UICONTROL Off] when it is not. Clicking the [!UICONTROL On] link lets you see information about the scheduled project. You can also [edit the project schedule](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) if you are the project owner. |
 | [!UICONTROL **Project role**] | Identifies the project roles: whether you are the project Owner and whether you have permissions to Edit or Duplicate the project. |
 | [!UICONTROL **Report suite**] | Identifies the Report Suites that are associated with the project.<br>Tables and visualizations within a panel derive data from the report suite selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or many report suites depending on your analysis use cases. The list of report suites is sorted on relevance. Adobe defines relevance based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization. |

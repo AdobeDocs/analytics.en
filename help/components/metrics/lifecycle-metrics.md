@@ -1,5 +1,5 @@
 ---
-name: Mobile lifecycle metrics
+title: Mobile lifecycle metrics
 description: Metrics based on data collected using the Mobile SDK.
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3

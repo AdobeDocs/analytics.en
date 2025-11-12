@@ -56,9 +56,9 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    * In the search field, begin typing the name of a feed. Only those feeds that match are shown in the list of available feeds.
 
-   * On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. You can collapse or expand filtering categories. Select the checkbox next to any filter that you want to apply.
+   * On the far left, select the filter icon to show or hide filtering options. Filters are organized by category, including **[!UICONTROL Report suites]**, **[!UICONTROL Owner]**, **[!UICONTROL Status]**, and **[!UICONTROL Tags]**. You can collapse or expand filtering categories. Select the checkbox next to any filter that you want to apply.
 
-  ![Filter](assets/filters.png)
+     ![Filter](assets/filters.png)
 
 ## View data feed jobs
 

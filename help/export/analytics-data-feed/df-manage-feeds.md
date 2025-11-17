@@ -24,11 +24,11 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed manage
 
    Data feeds for all report suites that you have access to are displayed. Or, if no feeds have been configured, the page shows a [!UICONTROL Create New Data Feed] button.
 
-   ![Data feeds](assets/feeds.png)
+   ![Data feed manager](assets/data-feed-manager.png)
 
 ## Create a data feed
 
-The [!UICONTROL Add] button allows you to create a new feed. See [Create a data feed](create-feed.md) for more information.
+The **[!UICONTROL Create data feed]** button allows you to create a new feed. See [Create a data feed](create-feed.md) for more information.
 
 ## Edit a data feed
 

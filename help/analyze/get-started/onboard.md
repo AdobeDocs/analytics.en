@@ -1,11 +1,11 @@
 ---
-title: Adobe Analytics overview
-description: General overview information about Adobe Analytics, including information about the Analytics interface as well as getting started information for administrators, analysts, users, and developers.
+title: Adobe Analytics onboarding
+description: Welcome to the Adobe Analytics digital experience onboarding series! Onboard to key Adobe platforms that support Adobe Analytics to help you and your organization succeed.
 feature: Analytics Basics
 ---
 # Adobe Analytics onboarding
 
-Welcome to Adobe Analytics!
+Welcome to the Adobe Analytics digital experience onboarding series!
 
 Adobe Analytics works best when you onboard to the key Adobe platforms that support it. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.
 
@@ -169,7 +169,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-## Onboarding to Adobe Experience League
+## Onboard to Adobe Experience League
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
@@ -177,15 +177,15 @@ Experience League supports your onboarding journey by providing [documentation](
 
 [Visit Experience League](https://experienceleague.adobe.com)
 
-## Onboarding to Adobe Support
+## Onboard to Adobe Support
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-[Adobe Support](https://experienceleague.adobe.com/home#support) is your go-to resource for help with Adobe products. Access troubleshooting articles, community forums, and direct support options to resolve any issues you encounter while using Adobe Analytics.
+[Adobe Support](https://experienceleague.adobe.com/home#support) is your go-to resource for help with Adobe products, providing troubleshooting articles, community forums, and direct support options to resolve any issues you encounter while using Adobe Analytics.
 
 [Visit Adobe Support](https://experienceleague.adobe.com/home#support) 
 
-## Onboarding to the Adobe Admin Console
+## Onboard to the Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
@@ -193,18 +193,18 @@ Experience League supports your onboarding journey by providing [documentation](
 
 [Visit Adobe Admin Console](https://adminconsole.adobe.com/)
 
-## Onboarding to user and access Setup
+## Onboard to user and access setup
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-This video covers the user setup steps within the onboarding workflow, including how you assign product access, set roles, and confirm permissions for Adobe Analytics.
+[User and access setup](https://adminconsole.adobe.com/redirect@AdobeOrg/users) in Adobe Admin Console is where you assign product access, set roles, and confirm permissions for Adobe Analytics, ensuring that team members have the appropriate level of access to the tools and data they need.
 
 [Visit Adobe Admin Console user management](https://adminconsole.adobe.com/redirect@AdobeOrg/users)
 
-## Onboarding to Adobe Analytics
+## Onboard to Adobe Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476772/?learn=on&enablevpops)
 
-This video outlines the essential steps that prepare you for work in Adobe Analytics, including core concepts, interface orientation, and the path toward actionable insights.
+[Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace) is where you analyze your data and gain actionable insights. Add users and admins to Adobe Analytics, access Adobe Analytics and setup a new Report Suite. For more details, review the Adobe Analytics [documentation on Experience League](/en/docs/analytics).
 
 [Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace)

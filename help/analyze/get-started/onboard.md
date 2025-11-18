@@ -205,7 +205,7 @@ Experience League supports your onboarding journey by providing [documentation](
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476772/?learn=on&enablevpops)
 
-[Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace) is where you analyze your data and gain actionable insights. Add users and admins to Adobe Analytics, access Adobe Analytics and setup a new Report Suite. For more details, review the Adobe Analytics [documentation on Experience League](/en/docs/analytics).
+[Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace) is where you analyze your data and gain actionable insights. Add users and admins to Adobe Analytics, access Adobe Analytics and setup a new Report Suite. For more details, review the Adobe Analytics [documentation on Experience League](https://experienceleague.adobe.com/en/docs/analytics).
 
 [Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace)
 

@@ -173,7 +173,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Experience League supports your onboarding journey by providing [documentation](/en/docs/analytics), [tutorials](/en/docs/analytics-learn/tutorials/overview), and much more, for all experience levels and roles, that enable your use of Adobe Analytics.
+Experience League supports your onboarding journey by providing [documentation](https://experienceleague.adobe.com/en/docs/analytics), [tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview), and much more, for all experience levels and roles, that enable your use of Adobe Analytics.
 
 [Visit Experience League](https://experienceleague.adobe.com)
 

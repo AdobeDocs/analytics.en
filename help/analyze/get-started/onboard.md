@@ -16,35 +16,35 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
 * ./onboard.md
   {title = Experience League}
   {description = Onboard to Experience League to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta = Visit Experience League}
+  {cta = Onboard}
   {url = #onbarding-to-adobe-experience-league}
   {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Support}
   {description = Onboard to Adobe Support to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta = Visit Adobe Support}
+  {cta =  Onboard}
   {url = #onbarding-to-adobe-support}
   {image = https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
     {description = Onboard to the Adobe Admin Console to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta = Visit Adobe Admin Console}
+  {cta =  Onboard}
   {url = #onbarding-to-adobe-admin-console}
   {image = https://video.tv.adobe.com/v/3476921/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = User and Access Setup}
     {description = Onboard to User and Access Setup to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta = Visit user management}
+  {cta =  Onboard}
   {url = #onbarding-to-user-and-access-setup}
   {image = https://video.tv.adobe.com/v/3476898/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Analytics}
     {description = Onboard to Adobe Analytics to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta = Visit Adobe Analytics}
+  {cta =  Onboard}
   {url = #onbarding-to-adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
@@ -68,7 +68,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
                     <p class="is-size-6">Onboard to Experience League to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
                 </div>
                 <a href="#onbarding-to-adobe-experience-league" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Visit Experience League</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>
@@ -91,7 +91,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
                     <p class="is-size-6">Onboard to Adobe Support to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
                 </div>
                 <a href="#onbarding-to-adobe-support" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Visit Adobe Support</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>
@@ -114,7 +114,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
                     <p class="is-size-6">Onboard to the Adobe Admin Console to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
                 </div>
                 <a href="#onbarding-to-adobe-admin-console" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Visit Adobe Admin Console</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>
@@ -137,7 +137,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
                     <p class="is-size-6">Onboard to User and Access Setup to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
                 </div>
                 <a href="#onbarding-to-user-and-access-setup" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Visit Adobe Admin Console user management</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>
@@ -160,7 +160,7 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
                     <p class="is-size-6">Onboard to Adobe Analytics to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
                 </div>
                 <a href="#onbarding-to-adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Visit Adobe Analytics</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>

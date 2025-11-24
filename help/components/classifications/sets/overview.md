@@ -71,7 +71,7 @@ The workflow for classification sets typically involves the following steps:
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-In the classification data file, you refer to the key dimension for each report suite (for example: **[!UICONTROL Product ID]** and **[!UICONTROL Product SKU]**) using `Key`. And you refer to each classification using the **[!UICONTROL Classification Name]** (for example `Category` or `Color`).
+   In the classification data file, you refer to the key dimension for each report suite (for example: **[!UICONTROL Product ID]** and **[!UICONTROL Product SKU]**) using `Key`. And you refer to each classification using the **[!UICONTROL Classification Name]** (for example `Category` or `Color`).
 
 1. [Upload](/help/components/classifications/sets/manage/schema.md#upload) the file that contains the classification data into the classification set schema.
 

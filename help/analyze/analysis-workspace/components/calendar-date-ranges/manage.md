@@ -24,7 +24,7 @@ The Date ranges manager has the following interface elements:
 The date ranges list ➊ displays all the date ranges. The list has the following columns:
 
 | Column | Description |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a date range. |
 | **[!UICONTROL Title and description]** | To edit the title and description, select the title link, which opens the [Date range builder](create.md#date-range-builder). |
 | **[!UICONTROL Owner]** | The owner of the date range. |
@@ -48,8 +48,8 @@ You can action on date ranges using the action bar ➋. The action bar contains 
 | ![Share](/help/assets/icons/ShareAlt.svg)| **[!UICONTROL Share]** | Share the selected date ranges. In the **[!UICONTROL Share Date range]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected date ranges. |
 | ![Delete](/help/assets/icons/Delete.svg) |**[!UICONTROL Delete]** | Delete the selected date ranges. You are prompted for a confirmation. |
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a single selected date range. When selected, you can rename the date range inline. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)| **[!UICONTROL Approve]** | Approve the selected date ranges. | 
-| ![Copy](/help/assets/icons/Copy.svg)|  **[!UICONTROL Copy]** | Copy the selected date ranges. New date ranges are created with the same name and suffix (Copy) | 
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)| **[!UICONTROL Approve]** | Approve the selected date ranges. |
+| ![Copy](/help/assets/icons/Copy.svg)|  **[!UICONTROL Copy]** | Copy the selected date ranges. New date ranges are created with the same name and suffix (Copy) |
 | ![FileCSV](/help/assets/icons/FileCSV.svg)| **[!UICONTROL Export to CSV]** | Export the selected date ranges to a `Date ranges List.csv` file. |
 
 ### Active filter bar

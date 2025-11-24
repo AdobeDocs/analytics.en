@@ -9,7 +9,7 @@ exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 This article describes a suggested workflow to create segments with the Segment builder and manage segments through the Segment manager.
 
 
-| Step | Action | Details | 
+| Step | Action | Details |
 |:--:|---|---|
 | 1 |  [Plan segments](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Have you asked all the right questions before building segments and setting up a segment management environment? Have you designed the segment with its intended purpose and distinct usage in mind?. <br/>See the [Segment planning checklist](seg-plan.md) for help in planning and organizing your segments. |
 | 2 | [Create segments](seg-create.md) | Use the various options available to create a new segment. |
@@ -17,7 +17,7 @@ This article describes a suggested workflow to create segments with the Segment 
 | 4 | [ Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Tag segments for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
 | 5 | [ Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approve segments to make them canonical. |
 | 6 | [Use segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | You can apply segments from the segments components directly to a report. |
-| 7 | [ Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Share your segments with the intended audience in other Analytics tools and to Adobe Target and the Adobe Experience Cloud. | 
+| 7 | [ Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Share your segments with the intended audience in other Analytics tools and to Adobe Target and the Adobe Experience Cloud. |
 | 8 | [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
 | 9 |[Mark segment as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Marking segments as favorites is another way to organize them for ease of use. |
 

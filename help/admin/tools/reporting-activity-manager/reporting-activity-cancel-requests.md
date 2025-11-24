@@ -51,12 +51,12 @@ You can cancel individual requests that are consuming a large amount of reportin
    
    1. Choose from the following options:
 
-      |Option | Function | 
+      |Option | Function |
       |---------|----------|
       | [!UICONTROL **User & project**] | Users associated with the selected requests will be temporarily restricted from running reporting requests for the associated projects. |
-      | [!UICONTROL **User**] | Users associated with the selected requests will be temporarily restricted from making any reporting requests. | 
+      | [!UICONTROL **User**] | Users associated with the selected requests will be temporarily restricted from making any reporting requests. |
       | [!UICONTROL **Project**] | Projects associated with the selected requests will be temporarily restricted from all reporting requests. |
-      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!-- double-check this --><p>You cannot remove a restriction early after it is set.</p>  | 
+      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!-- double-check this --><p>You cannot remove a restriction early after it is set.</p>  |
 
       {style="table-layout:auto"}
 
@@ -92,12 +92,12 @@ You can cancel all requests that are associated with one or more users.
    
    1. Choose from the following options:
 
-      |Option | Function | 
+      |Option | Function |
       |---------|----------|
       | [!UICONTROL **User & project**] | Selected users will be temporarily restricted from making any reporting requests for the associated projects. |
-      | [!UICONTROL **User**] | Selected users will be temporarily restricted from making any reporting requests. | 
+      | [!UICONTROL **User**] | Selected users will be temporarily restricted from making any reporting requests. |
       | [!UICONTROL **Project**] | Projects associated with the selected users will be restricted from any reporting requests made by any user. |
-      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  | 
+      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  |
 
       {style="table-layout:auto"}
 
@@ -133,12 +133,12 @@ You can cancel all requests that are associated with one or more projects.
    
    1. Choose from the following options:
 
-      |Option | Function | 
+      |Option | Function |
       |---------|----------|
       | [!UICONTROL **User & project**] | Selected projects will be temporarily restricted from any reporting requests made by the associated users. |
-      | [!UICONTROL **User**] | Users associated with the selected projects will be restricted from making any reporting requests. | 
+      | [!UICONTROL **User**] | Users associated with the selected projects will be restricted from making any reporting requests. |
       | [!UICONTROL **Project**] | Selected projects will be temporarily restricted from any reporting requests made by any user. |
-      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  | 
+      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  |
 
       {style="table-layout:auto"}
 
@@ -187,12 +187,12 @@ To cancel requests by application:
    
    1. Choose from the following options:
 
-      |Option | Function | 
+      |Option | Function |
       |---------|----------|
       | [!UICONTROL **User & project**] | Selected applications will be temporarily restricted from any reporting requests made by the associated users and projects.<p>This is the least restrictive option.</p> |
-      | [!UICONTROL **User**] | Users associated with the selected applications will be restricted from making any reporting requests. | 
+      | [!UICONTROL **User**] | Users associated with the selected applications will be restricted from making any reporting requests. |
       | [!UICONTROL **Project**] | Projects associated with the selected applications will be restricted from any reporting requests made by any user. |
-      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  | 
+      | [!UICONTROL **Restricted for**] | Choose for how long requests will be restricted. You can choose 1 minute (default), 5 minutes, 10 minutes, 15 minutes, or 30 minutes. <!--double-check this--> <p>You cannot remove a restriction early after it is set.</p>  |
 
       {style="table-layout:auto"}
 

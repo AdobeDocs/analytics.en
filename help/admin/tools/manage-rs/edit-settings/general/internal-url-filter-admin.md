@@ -14,7 +14,7 @@ Internal URL filters allow you to identify the referrers that you consider inter
 
 A referrer, or referring page, is typically the page from which a visitor entered your site. To avoid skewing data, you can filter out internal referrers. Dimensions that rely on internal URL filters include [Referrer](/help/components/dimensions/referrer.md), [Referring domain](/help/components/dimensions/referring-domain.md), [Marketing channels](/help/components/dimensions/marketing-channel.md), and other traffic source dimensions.
 
-[Marketing channel processing rules](../marketing-channels/c-rules.md) provide "[!UICONTROL Matches internal URL filters]" as possible rule criteria.
+[Marketing channel processing rules](../marketing-channels/mc-proc-rules.md) provide "[!UICONTROL Matches internal URL filters]" as possible rule criteria.
 
 >[!IMPORTANT]
 >

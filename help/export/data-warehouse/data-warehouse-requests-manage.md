@@ -77,9 +77,9 @@ You can view the history of any Data Warehouse requests you have made.
 
    The following columns are available:
 
-   |Column |Description | 
+   |Column |Description |
    |---------|----------|
-   | [!UICONTROL **Date created**] |The date and time that the report was created.<p>This is displayed in the time zone of the user who initiated the request.</p> | 
+   | [!UICONTROL **Date created**] |The date and time that the report was created.<p>This is displayed in the time zone of the user who initiated the request.</p> |
    | [!UICONTROL **Date started**] | The date and time that the report started.<p>This is displayed in the time zone of the user who initiated the request.</p> |
    | [!UICONTROL **Date completed**] | The date and time that the report completed.<p>This is displayed in the time zone of the user who initiated the request.</p> |
    | [!UICONTROL **Date updated**] | The date and time that the report was last updated.<p>This is displayed in the time zone of the user who initiated the request.</p> |
@@ -92,9 +92,9 @@ You can view the history of any Data Warehouse requests you have made.
 
 1. Select a report delivery, then select any of the following options:
    
-   |Option |Function | 
+   |Option |Function |
    |---------|----------|
-   | [!UICONTROL **Destination details**] | Shows the account and location details associated with the request. This is the account and location that was configured earlier, as described in [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). | 
+   | [!UICONTROL **Destination details**] | Shows the account and location details associated with the request. This is the account and location that was configured earlier, as described in [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Cancel report**] | Cancels the report. You cannot cancel reports that have a status of [!UICONTROL **Completed**] or [!UICONTROL **Canceled**]. |
    | [!UICONTROL **Rerun report**] | Runs the report again with the data as it was when it was originally sent. You can rerun a report that has any of the following statuses: [!UICONTROL **Canceled**], [!UICONTROL **Completed**], [!UICONTROL **Error - Processing**], or [!UICONTROL **Error - Failure To Send**]. |
    | [!UICONTROL **Resend report**] | Resends the report file that was previously generated. You can resend a report that has any of the following statuses: [!UICONTROL **Completed**] or [!UICONTROL **Error - Failure To Send**]. |
@@ -147,9 +147,9 @@ You can configure what information is displayed for each request by adding or re
 
    |Available column | Description |
    |---------|----------|
-   | Request name | The name of the person who created the request. | 
-   | Report suite | The report suite associated with the request. | 
-   | Requested by | The user who created the request. | 
+   | Request name | The name of the person who created the request. |
+   | Report suite | The report suite associated with the request. |
+   | Requested by | The user who created the request. |
    | Request date | The date the request was made. |
    | Status | The following statuses are available:<ul><li><p>**Completed**: The request ran successfully.</p></li><li><p>**Canceled**: The request was canceled by the user.</p></li><li><p>**Scheduled**: The request is configured to run on a schedule.</p></li><li><p>**Failed**: The request failed to complete. If the request continues to fail, contact Customer Support.</p></li></ul> |
 

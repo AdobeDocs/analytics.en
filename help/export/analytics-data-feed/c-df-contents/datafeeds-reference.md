@@ -57,7 +57,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`daily_visitor`** | A flag that determines if the hit is a new daily visitor. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | The [Consent management opt-in](/help/components/dimensions/cm-opt-in.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `DMP` and `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | The [Consent management opt-out](/help/components/dimensions/cm-opt-out.md) dimension. Multiple values can be present per hit, separated by a pipe (`\|`). Valid values include `SSF`, `DMP`, and `SELL`. | varchar(100) |
-| **`dataprivacydmaconsent`** | A value that identifies if consent is acquired for sending data from Adobe Analytics through Adobe Advertising to third-party advertising providers (like Google). See [Ad Consent](/help/components/dimensions/ad-consent.md) for more information. | varchar(100) | 
+| **`dataprivacydmaconsent`** | A value that identifies if consent is acquired for sending data from Adobe Analytics through Adobe Advertising to third-party advertising providers (like Google). See [Ad Consent](/help/components/dimensions/ad-consent.md) for more information. | varchar(100) |
 | **`date_time`** | The time of the hit in readable format, based on the report suite's time zone. | datetime |
 | **`domain`** | The [Domain](/help/components/dimensions/domain.md) dimension. Based on the visitor's Internet access point. | varchar(100) |
 | **`duplicate_events`** | Lists each event that was counted as a duplicate. | varchar(255) |
@@ -159,7 +159,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`purchaseid`**| Unique identifier for a purchase, as set using the [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) variable. Used by the `duplicate_purchase` column. | char(20) |
 | **`quarterly_visitor`** | A flag that determines if the hit is a new quarterly visitor. | tinyint unsigned |
 | **`ref_domain`** | The [Referring domain](/help/components/dimensions/referring-domain.md) dimension. Based on the `referrer` column. | varchar(100) |
-| **`ref_type`** | A numeric ID that represents the type of referral for the hit. Used in the [Referrer type](/help/components/dimensions/referrer-type.md) dimension. <br>1: Inside your site<br>2: Other web sites <br>3: Search engines <br>4: Hard drive <br>5: USENET <br>6: Typed/Bookmarked (no referrer) <br>7: Email <br>8: No JavaScript <br>9: Social Networks | tinyint unsigned |
+| **`ref_type`** | A numeric ID that represents the type of referral for the hit. Used in the [Referrer type](/help/components/dimensions/referrer-type.md) dimension. <p>1: Inside your site</p><p>2: Other web sites</p> <p>3: Search engines</p> <p>4: Hard drive</p> <p>5: USENET</p> <p>6: Typed/Bookmarked (no referrer)</p> <p>7: Email</p> <p>8: No JavaScript</p> <p>9: Social Networks</p><p>10: Conversational AI tools</p> | tinyint unsigned |
 | **`referrer`** | The [Referrer](/help/components/dimensions/referrer.md) dimension. Note that while `referrer` uses a data type of varchar(255), `post_referrer` uses a data type of varchar(244). | varchar(255) |
 | **`resolution`** | A numeric ID that represents the resolution of the monitor. Used in the [Monitor resolution](/help/components/dimensions/monitor-resolution.md) dimension. Uses `resolution.tsv` lookup table. | smallint unsigned |
 | **`s_kwcid`** | Keyword ID used in Adobe Advertising integrations. | varchar(255) |

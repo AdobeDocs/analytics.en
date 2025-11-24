@@ -18,12 +18,12 @@ role: Admin
 
 Add or enable marketing channels in the Marketing Channel Manager. For report suites that have no marketing channels, an automatic setup lets you create several channels for you, along with their rules. You can edit predefined channels to suit your needs, or create your own (up to a total of 25).
 
-Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) page. You associate rules with channels when creating the rule.
+Adding channels to the [!UICONTROL Marketing Channels] page is done independently of creating rules on the [Marketing Channel Processing Rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) page. You associate rules with channels when creating the rule.
 
 Here are guidelines for creating channels:
 
 * Plan ahead by making a list of all your channels, so that all of your visitor hits are categorized to the right channel.
-* Include channels for the categories of [Internal](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) hits.
+* Include channels for the categories of [Internal](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) hits.
 * Include a catch-all "Other Campaigns" channel, to be placed after paid channels and before organic channels.
 
 
@@ -59,7 +59,7 @@ Add marketing channels in the Marketing Channel Manager.
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+   See [Create Marketing Channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 ## Apply channel settings {#mktg-channel-mgr}
 
@@ -83,7 +83,7 @@ It is a best practice to uncheck the override last-touch option for Direct and I
 
 Before channels and channel data can be displayed in the report, create the channels and the underlying rules that process data. You can also specify how long you want the [visitor engagement period](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) to last. 
 
-Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) that you can edit to suit your needs. Additionally, you can modify this setup and define custom rules within [Marketing Channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+Adobe provides several predefined channels during an [automatic setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) that you can edit to suit your needs. Additionally, you can modify this setup and define custom rules within [Marketing Channel processing rules](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 >[!NOTE]
 >

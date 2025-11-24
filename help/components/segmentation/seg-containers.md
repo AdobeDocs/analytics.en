@@ -460,7 +460,7 @@ Because all page views within the same visit are assigned the same Referring Dom
 | Home | 1 |
 | Winter Apparel | 1 |
 | Winter Coat | 1 |
-| Purchase | 1 | 
+| Purchase | 1 |
 
 <!--![](assets/container_overview_persist_Visit.png)-->
 
@@ -481,7 +481,7 @@ If this same condition is filtered in the Visit container for a Pages report, th
 | Home | 1 |
 | Winter Apparel | 1 |
 | Winter Coat | 1 |
-| Purchase | 1 | 
+| Purchase | 1 |
 
 <!--![](assets/container_overview_persist_Visit.png)-->
 
@@ -504,13 +504,13 @@ In a Referring Domain report, `Referring Domain equals 'aol.com'` is true in fou
 | Home | 1 |
 | Winter Apparel | 1 |
 | Winter Coat | 1 |
-| Purchase | 1 | 
+| Purchase | 1 |
 
 | Visit 2<br/>Referring Domain = 'weather.com' | <br/>Page Views |
 |----|---:|
 | Winter Apparel | 2 |
 | Winter Coat | 1 |
-| Purchase | 1 | 
+| Purchase | 1 |
 
 | Visitor container<br/>Referring Domain equals 'aol.com' | Page Views |
 |----|---:|

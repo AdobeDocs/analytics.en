@@ -65,23 +65,23 @@ Segments, date ranges, and calculated metrics that don't already exist in Custom
 
 ### Project elements that are migrated
 
-|  | Migrated | 
+|  | Migrated |
 |---------|----------|
-| **[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
-| **[Metrics](/help/components/metrics/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually | 
-| **[Panels](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
+| **[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Segments](/help/components/segmentation/seg-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensions](/help/components/dimensions/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually |
+| **[Metrics](/help/components/metrics/overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Mapped automatically or manually |
+| **[Panels](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
 | **[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
-| **[Owner](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Defined by user doing the migration | 
-| **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | No | 
-| **[Sharing](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | No | 
-| **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No | 
-| **[Folder structure](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No | 
-| **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) | 
-| **[Tags](/help/analyze/landing.md)** | No | 
-| **[Favorites](/help/analyze/landing.md)** | No | 
+| **[Owner](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) Defined by user doing the migration |
+| **[Curation](/help/analyze/analysis-workspace/curate-share/curate.md)** | No |
+| **[Sharing](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | No |
+| **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | No |
+| **[Folder structure](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | No |
+| **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
+| **[Tags](/help/analyze/landing.md)** | No |
+| **[Favorites](/help/analyze/landing.md)** | No |
 | **[Schedules](/help/components/scheduled-projects-manager.md)** | No |
 | **[Anomaly Detection](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![check mark](assets/Smock_Checkmark_18_N.svg) |
 

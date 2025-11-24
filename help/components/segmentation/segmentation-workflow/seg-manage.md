@@ -28,10 +28,10 @@ The Segment manager has the following interface elements:
 The segments list ➊ displays all the segments that you own, the segments that have been scoped to all your projects, and the segments that have been shared with you. The list has the following columns:
 
 | Column | Description |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) a segment. See [Mark segment as favorite](t-seg-favorite.md) |
 | **[!UICONTROL Title and description]** | To edit the segment, select the title link, which opens the [Segment builder](seg-build.md). A shared segment is indicated with ![Share](/help/assets/icons/ShareAlt.svg). |
-| **[!UICONTROL Report suitew]** | The report suite that this segment applies to.  | 
+| **[!UICONTROL Report suitew]** | The report suite that this segment applies to.  |
 | **[!UICONTROL Owner]** | The owner of the segment. As a user, you only see the segments that you own or the annotations that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this segment. |
 | **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](t-seg-share.md) for more information. |
@@ -52,8 +52,8 @@ You can action on segments using the action bar ➋. The action bar contains the
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]** | Share the selected segments. In the **[!UICONTROL Share Segment]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected segments. See [Share segments](t-seg-share.md) for more information. |
 | ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** | Delete the selected segments. You are prompted for a confirmation. |
 | ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rename a single selected segment. When selected, you can rename the segment inline. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approve the selected segments. See [Approve segments](seg-approve.md) for more information. | 
-| ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL Copy]** | Copy the selected segment. New segments are created with the same name and suffix `(Copy)`. | 
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approve the selected segments. See [Approve segments](seg-approve.md) for more information. |
+| ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL Copy]** | Copy the selected segment. New segments are created with the same name and suffix `(Copy)`. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Export the segments to a `Segments List.csv` file. |
 
 ### Active filter bar

@@ -30,10 +30,10 @@ See how each method of implementing Adobe Analytics compares to each other. You 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)| [Edge Network API](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
-| Implementation requirements | Reference tag loader in the app, then use direct API calls or rules in Data Collection UI to compose XDM objects and send the desired data using Edge Network to Adobe Analytics | Use the Edge Network API to compose XDM objects and send the desired data using Edge Network to Adobe Analytics | 
+| Implementation requirements | Reference tag loader in the app, then use direct API calls or rules in Data Collection UI to compose XDM objects and send the desired data using Edge Network to Adobe Analytics | Use the Edge Network API to compose XDM objects and send the desired data using Edge Network to Adobe Analytics |
 | Data destination | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics | Sent to Adobe Experience Platform Edge, which forwards data to Adobe Analytics |
 | Difficulty making implementation adjustments | Change the app code where direct API calls are made or make changes in the Data Collection UI | Requires access to app code for every implementation change |
 | How A4T is handled | A4T calls are sent as separate hits | A4T calls are sent as separate hits |
-| Context Data | All unmapped fields are automatically sent as `a.x.*` context data variables. | All unmapped fields are automatically sent as `a.x.*` context data variables | 
+| Context Data | All unmapped fields are automatically sent as `a.x.*` context data variables. | All unmapped fields are automatically sent as `a.x.*` context data variables |
 
 {style="table-layout:auto"}

@@ -1,5 +1,5 @@
 ---
-name: Mobile lifecycle metrics
+title: Mobile lifecycle metrics
 description: Metrics based on data collected using the Mobile SDK.
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
@@ -12,7 +12,7 @@ exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
 | Upgrades | | `a.UpgradeEvent` |
 | Launches | | `a.LaunchEvent` |
 | Crashes | | `a.CrashEvent` |
-| Total Session Length | | TBD |
+| Total Session Length | | |
 | Action Time Total | | `a.action.time.total` |
 | Action Time In App | | `a.action.time.inapp` |
 | Lifetime Value (event) | | `a.ltv.amount` |

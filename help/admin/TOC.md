@@ -79,7 +79,7 @@ user-guide-description: Learn about Analytics administration tasks, such managin
         + [Merchandising eVars](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + Marketing Channels {#marketing-channels}
         + [Marketing Channel Manager](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-        + [Marketing Channel Processing Rules](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+        + [Marketing Channel Processing Rules](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
         + [Marketing Channel Classifications](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
         + [Marketing Channel Expiration](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
       + Traffic Management {#traffic-management}

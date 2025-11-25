@@ -44,7 +44,7 @@ For information about how to view and delete existing accounts, see [Locations m
 
 ## Configure a location account
 
-To configure a cloud import or export account after you begin creating or editing it as described in [Begin creating or editing an account from the accounts page](#begin-creating-or-editing-an-account-from-the-accounts-page):
+To configure a cloud import or export account after you begin creating or editing it:
   
 1. Specify the following information:
 
@@ -155,7 +155,12 @@ To configure a cloud import or export account after you begin creating or editin
    +++SFTP
 
       SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+
+      >[!TIP]
+      >
+      >When downloading the RSA or DSA public key for data feeds, rename the file as `authorized_keys`, then upload the file to your `.ssh` folder or SFTP server.
    
+
    +++
 
    +++S3

@@ -145,6 +145,21 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 
 ### Automate
 
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_locationaccount"
+>title="Location account"
+>abstract="List of location accounts of account types that support the import of classification data. Select **[!UICONTROL New account]** to create a new location account."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en"
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_location"
+>title="Location"
+>abstract="List of locations at selected location account that support the import of classification data. Select **[!UICONTROL New location]** to create a new location."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en"
+
+
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 
 ![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)

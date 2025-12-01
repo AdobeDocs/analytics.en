@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Create and edit classification consolidations
 
-Classification sets consolidations allow you to take classifications from multiple datasets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations that move from legacy classifications to a classification sets. Most organizations that use classification sets already most likely do not need to use this consolidation workflow.
+A classification sets consolidation allows you to take classifications from multiple classification sets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations that move from legacy classifications to classification sets. Organizations that use classification sets already do not need to use this consolidation workflow.
 
 ## Create a consolidation
 
@@ -14,7 +14,7 @@ Classification sets consolidations allow you to take classifications from multip
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Classification set priority"
->abstract="The ![Key](/help/assets/icons/Key.svg) classification is the base classification set and defines the overall schema and takes precedence in any merge conflicts. The other classification sets are applied in order from top to bottom."
+>abstract="The ![Key](/help/assets/icons/Key.svg)  *classification set* is the base classification set and defines the overall schema and takes precedence in any merge conflicts. The other classification sets are applied in order from top to bottom."
 
 
 To create a classification consolidation, in the main Adobe Analytics interface:
@@ -99,7 +99,7 @@ To re-validate the classification consolidation:
 
 1. Re-configure the consolidation using the same drag and drop interface as you used to create the consolidation.
 1. Select ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Re-Validate]**. The validation ensures that each individual classification set is valid for this consolidation. When successful, a toast message is displayed:  ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Successfully submitted consolidation for validation!]**
-1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. Or select ![Play](/help/assets/icons/Play.svg) Run to run the consolidation or ![Cancel](/help/assets/icons/Cancel.svg) Cancel to cancel the classification.
+1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. Or select ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Run]** to run the consolidation or ![Cancel](/help/assets/icons/Cancel.svg) **[!UICONTROL Cancel]** to cancel the classification.
 
 
 
@@ -132,7 +132,7 @@ To run a classification consolidation:
 >title="Absent"
 >abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
 
-Once a classification consolidation has successfully run, the consolidation status is **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
+Once a classification consolidation has successfully run, the consolidation status is ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
 
 ![Classification sets - Consolidation Waiting for Approval](assets/classifications-sets-consolidations-waitingforapproval.png)
 

@@ -6,9 +6,16 @@ feature: Classifications
 ---
 # Create and edit classification consolidations
 
-Classification sets consolidations allow you to take classifications from multiple datasets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations that move from legacy classifications to a classification sets. Most organizations that use classification sets already most likely do not need to use this consolidation workflow.
+A classification sets consolidation allows you to take classifications from multiple classification sets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations that move from legacy classifications to classification sets. Organizations that use classification sets already do not need to use this consolidation workflow.
 
-## Create a consolidation
+## Create a consolidation {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="Classification set priority"
+>abstract="The ![Key](/help/assets/icons/Key.svg)  *classification set* is the base classification set and defines the overall schema and takes precedence in any merge conflicts. The other classification sets are applied in order from top to bottom."
+
 
 To create a classification consolidation, in the main Adobe Analytics interface:
 
@@ -23,11 +30,13 @@ To create a classification consolidation, in the main Adobe Analytics interface:
    1. Enter one or more email addresses (comma separated) in **[!UICONTROL Notify of issues]**. Email notifications are sent to these users on issues.
    1. Select a classification set from the **[!UICONTROL Classification Set To Match]** drop-down menu. 
 
-      The **[!UICONTROL Source Classification Set]** left list is populated with classification sets that are similar to the selected classification list and are available for consolidation.
+      The **[!UICONTROL Source Classification Set]** left list is populated with classification sets that are similar to the selected classification list and are available for consolidation. The right list is populated automatically with the selected ![Key](/help/assets/icons/Key.svg) classification set. That base set defined the overall schema and always takes precedence in any merge conflicts. 
 
-   1. Select classification sets that you want to consolidate from the left list and drop the selected sets on the right list underneath the selected ![Key](/help/assets/icons/Key.svg) **[!UICONTROL _classification set_]**.
+   1. Select classification sets that you want to consolidate from the left list and drop the selected sets on the right list underneath the selected ![Key](/help/assets/icons/Key.svg) base **[!UICONTROL _classification set_]**.
 
-      You can move individual and selected classification sets in the list. You can also replace the ![Key](/help/assets/icons/Key.svg) **[!UICONTROL _classification set_]** with a selected classification set through drag and drop.
+      The additional classification sets are consolidated in ascending order when you run the consolidation. If a key exists in multiple additional sets, the value for the key from the top ranking classification set is taken. If a key exists in both the ![Key](/help/assets/icons/Key.svg) base set and any additional set, the value from the base set is used.
+      
+      To manage which values for keys are used, move individual and selected classification sets in the list through drag and drop. You can also replace the ![Key](/help/assets/icons/Key.svg) **[!UICONTROL _classification set_]** with a selected classification set through drag and drop.
 
    1. Select **[!UICONTROL Save]** to save the classification consolidation. Select **[!UICONTROL Cancel]** to cancel.
 
@@ -90,7 +99,7 @@ To re-validate the classification consolidation:
 
 1. Re-configure the consolidation using the same drag and drop interface as you used to create the consolidation.
 1. Select ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Re-Validate]**. The validation ensures that each individual classification set is valid for this consolidation. When successful, a toast message is displayed:  ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Successfully submitted consolidation for validation!]**
-1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. Or select ![Play](/help/assets/icons/Play.svg) Run to run the consolidation or ![Cancel](/help/assets/icons/Cancel.svg) Cancel to cancel the classification.
+1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. Or select ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Run]** to run the consolidation or ![Cancel](/help/assets/icons/Cancel.svg) **[!UICONTROL Cancel]** to cancel the classification.
 
 
 
@@ -109,9 +118,20 @@ To run a classification consolidation:
 1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. 
 
 
-### Approve
+### Approve {#approve}
 
-Once a classification consolidation has successfully run, the consolidation status is **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Mismatch"
+>abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Absent"
+>abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
+
+Once a classification consolidation has successfully run, the consolidation status is ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
 
 ![Classification sets - Consolidation Waiting for Approval](assets/classifications-sets-consolidations-waitingforapproval.png)
 

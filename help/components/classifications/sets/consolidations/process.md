@@ -14,7 +14,7 @@ A classification sets consolidation allows you to take classifications from mult
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Classification set priority"
->abstract="The ![Key](/help/assets/icons/Key.svg)  *classification set* is the base classification set and defines the overall schema and takes precedence in any merge conflicts. The other classification sets are applied in order from top to bottom."
+>abstract="The ![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg)  *classification set* is the base classification set and defines the overall schema and takes precedence in any merge conflicts. The other classification sets are applied in order from top to bottom."
 
 
 To create a classification consolidation, in the main Adobe Analytics interface:

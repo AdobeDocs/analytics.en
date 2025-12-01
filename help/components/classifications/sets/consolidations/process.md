@@ -8,7 +8,7 @@ feature: Classifications
 
 A classification sets consolidation allows you to take classifications from multiple classification sets and combine them into one. Use this interface to create a classification set consolidation from start to finish. This interface is most valuable to organizations that move from legacy classifications to classification sets. Organizations that use classification sets already do not need to use this consolidation workflow.
 
-## Create a consolidation
+## Create a consolidation {#create-a-consolidation}
 
 
 >[!CONTEXTUALHELP]
@@ -118,14 +118,13 @@ To run a classification consolidation:
 1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. 
 
 
-### Approve
+### Approve {#approve}
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Mismatch"
 >abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
-
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"

@@ -156,9 +156,7 @@ To configure a cloud import or export account after you begin creating or editin
 
       SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
-      >[!TIP]
-      >
-      >When downloading the RSA or DSA public key for data feeds, rename the file as `authorized_keys`, then upload the file to your `.ssh` folder or SFTP server.
+      When downloading the RSA or DSA public key for data feeds, rename the file as `authorized_keys`, then upload the file to your `.ssh` folder or SFTP server.
    
 
    +++

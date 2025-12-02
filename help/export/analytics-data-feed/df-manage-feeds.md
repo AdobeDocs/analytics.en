@@ -40,6 +40,8 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 1. Make any desired changes to the data feed.
 
+   For information about data feed options, see [Create and configure a data feed](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) in [Create a data feed](/help/export/analytics-data-feed/create-feed.md).
+
    When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
 
    Accounts and locations can be edited as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). Editing an account or location affects all items associated with that account or location.

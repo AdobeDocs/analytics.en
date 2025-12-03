@@ -154,9 +154,13 @@ To configure a cloud import or export account after you begin creating or editin
 
    +++SFTP
 
-      SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+      SFTP support for data feeds is available. This requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
-      When downloading the RSA or DSA public key for data feeds, rename the file as `authorized_keys`, then upload the file to your `.ssh` folder or SFTP server.
+      When downloading the RSA or DSA public key for data feeds, do either of the following:
+      
+      * Rename the file downloaded public key file to `authorized_keys`, then upload the file to your `.ssh` folder on your SFTP server.
+
+      * If you have an existing `authorized_keys` file that already contains other keys, add the key provided by Adobe to your existing `authorized_keys` file, making sure that you do not overwrite your existing keys.
    
 
    +++

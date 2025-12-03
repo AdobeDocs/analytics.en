@@ -45,13 +45,13 @@ For information about how to view and delete existing locations, see [Locations 
 
 1. Specify the following information:
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Name**] | The name of the location.  | 
+   | [!UICONTROL **Name**] | The name of the location.  |
    | [!UICONTROL **Description**] | Provide a short description of the account to help differentiate it from other accounts of the same account type. |
-   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Classification sets**], or **[!UICONTROL Report Builder]**. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li><li>If you are creating a location for an Email account, select [!UICONTROL **Data Warehouse**] in this field. Email locations are not supported iwth Data Feeds and Classification sets.</li></ul> | 
+   | [!UICONTROL **Use with**] | Select whether you want to use this location with [!UICONTROL **Data Feeds**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Classification sets**], or **[!UICONTROL Report Builder]**. <p>Consider the following when making a selection:</p><ul><li>A single location cannot be used for multiple purposes. For example, a location that is used for Data Feeds cannot also be used for Data Warehouse or Classification sets.</li><li>To avoid file conflicts within a location, don't change the value of the [!UICONTROL **Use with**] field after the location has been used.</li><li>If you are creating a location for an Email account, select [!UICONTROL **Data Warehouse**] in this field. Email locations are not supported iwth Data Feeds and Classification sets.</li></ul> |
    | [!UICONTROL **Make location available to all users in your organization**] | Enable this option to allow other users in your organization to use the location.<p>Consider the following when sharing locations:</p><ul><li>Locations that you share cannot be unshared.</li><li>Shared locations can be edited only by the owner of the location.</li><li>Locations can be shared only if the account that the location is associated with is also shared.</li></ul> |
-   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). | 
+   | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). |
 
 1. To complete the form for configuring the location, continue with [Configure a location](#configure-a-location). Use the information in the section that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
 
@@ -63,10 +63,10 @@ To configure an Amazon S3 Role ARN location, specify the following information:
 
 1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. </p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |  
-   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+   | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. </p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -87,10 +87,10 @@ To configure a Google Cloud Platform location, specify the following information
 
 1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |  
-   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ | 
+   | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. Ensure that you have granted permission to the Principal provided by Adobe to upload files to this bucket. |
+   | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -111,9 +111,9 @@ To configure an Azure SAS location, specify the following information:
 
 1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. | 
+   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. |
    | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
    {style="table-layout:auto"}
@@ -135,10 +135,10 @@ To configure an Azure RBAC location, specify the following information:
 
 1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Account**] | The Azure storage account. | 
-   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. | 
+   | [!UICONTROL **Account**] | The Azure storage account. |
+   | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. |
    | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
    {style="table-layout:auto"}
@@ -159,9 +159,9 @@ To configure an email location, specify the following information:
 
 1. [Begin creating or editing a location](#begin-creating-or-editing-a-location), as described above.
 
-   |Field | Function | 
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Subject**] | The subject of the email message. | 
+   | [!UICONTROL **Subject**] | The subject of the email message. |
    | [!UICONTROL **Notes**] | The content of the email message. |
 
    {style="table-layout:auto"}
@@ -178,9 +178,9 @@ These legacy account types are available only when exporting data with [Data Fee
 
 Data feed data can be delivered to an Adobe or customer-hosted FTP location. Specify the directory  Use the path field to place feed files in a folder. 
 
-|Field | Function | 
+|Field | Function |
 |---------|----------|
-| [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+| [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -190,9 +190,9 @@ Data feed data can be delivered to an Adobe or customer-hosted FTP location. Spe
 
 Data feed data can be delivered to an Adobe or customer-hosted SFTP location. The destination site must contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed. 
 
-|Field | Function | 
+|Field | Function |
 |---------|----------|
-| [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. | 
+| [!UICONTROL **Directory path**] | Enter the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. </br>For example, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

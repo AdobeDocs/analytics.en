@@ -48,7 +48,7 @@ The following factors can increase request complexity and result in slower proce
   | Setting | Faster Performance | Slower Performance |
   |--- |--- |--- |
   |Breakdowns and the breakdown order|Few|Many|
-  ||Example: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly.|
+  ||Example: If you break down A by Z, the number of items for A should always be less than the number of items for Z. If it is the other way around, the request time can increase significantly.||
   |Date range|Small range|Wide range|
   |Filtering|Specific filtering|Most Popular filtering|
   |Granularity|Aggregated|Hourly<ul><li>Daily</li><li>Weekly</li><li>Monthly</li><li>Quarterly</li><li>Yearly</li></ul>|

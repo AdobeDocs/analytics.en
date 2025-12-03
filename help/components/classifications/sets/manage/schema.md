@@ -42,14 +42,14 @@ You can quickly search ![Search](/help/assets/icons/Search.svg) for one or more 
 
 The following actions are available as buttons on the top of the classifications list:
 
-| Icon | Action | Description | 
+| Icon | Action | Description |
 |---|---|---|
 | ![Add](/help/assets/icons/Add.svg) | **[!UICONTROL Add]** | [Add a classification](#add) to the list. |
 | ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | [Upload a JSON, CSV, TSV, or TAB file](#upload). |
 | ![Download](/help/assets/icons/Download.svg) | **[!UICONTROL Download]** | [Download classification data](#download). |
 | ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL Template]** | [Download a template](#template) for classification data. |
 | ![History](/help/assets/icons/History.svg) | **[!UICONTROL Job History]** | Show the [classification set job manager](/help/components/classifications/sets/job-manager.md), filtered for the selected classification set. |
-| ![Gear](/help/assets/icons/Gear.svg) | **[!UICONTROL Automate]** | [Automate the ingestion of classification data](#automate) through the use of a cloud location. | 
+| ![Gear](/help/assets/icons/Gear.svg) | **[!UICONTROL Automate]** | [Automate the ingestion of classification data](#automate) through the use of a cloud location. |
 
 
 ### Add
@@ -143,7 +143,22 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 1. Select **[!UICONTROL Download]** to download the classification data template. You can find the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
 
 
-### Automate
+### Automate {#automate}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_locationaccount"
+>title="Location account"
+>abstract="List of location accounts of account types that support the import of classification data. Select **[!UICONTROL New account]** to create a new location account."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configure cloud import and export accounts"
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_location"
+>title="Location"
+>abstract="List of locations at selected location account that support the import of classification data. Select **[!UICONTROL New location]** to create a new location."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configure cloud import and export locations"
+
 
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 

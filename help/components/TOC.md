@@ -264,6 +264,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
       + [Settings](classifications/sets/manage/settings.md)
       + [Schema](classifications/sets/manage/schema.md)
       + [Rules](classifications/sets/manage/rules.md)
+      + [Rules new](classifications/sets/manage/rules-new.md)
     + [Classification jobs ](classifications/sets/job-manager.md)
     + Classification consolidations {#consolidations}
       + [Manage](classifications/sets/consolidations/manage.md)

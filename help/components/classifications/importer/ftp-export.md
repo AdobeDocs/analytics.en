@@ -36,7 +36,7 @@ These steps describe how to export (download) classifications from Adobe Analyti
 | --- | --- |
 | [!UICONTROL Select Report Suite] | Select the report suite from which you want to export the report data. |
 | [!UICONTROL Data Set to be classified] | From the drop-down menu, select the data set that you want to classify. |
-| [!UICONTROL Select Number of Rows] | Specify how many rows of data to export.<ul><li>Select **[!UICONTROL All]** to download all report data.</li><li>Select **[!UICONTROL Limit Data Rows To]** if you want to specify a specific number of rows to download.</li></ul> | 
+| [!UICONTROL Select Number of Rows] | Specify how many rows of data to export.<ul><li>Select **[!UICONTROL All]** to download all report data.</li><li>Select **[!UICONTROL Limit Data Rows To]** if you want to specify a specific number of rows to download.</li></ul> |
 | [!UICONTROL Filter by Date Received] | (Optional) Filter data by the date it was received. Specify the date range for which you want to download data. |
 | [!UICONTROL Apply Data Filter] | (Optional) Filter the data set by data criteria. You can filter the download to include data rows that include a specific value or data rows with unassigned column (classification) values. |
 | [!UICONTROL Date Filter] | (Optional) Filter data by campaign data.You can download data only from active campaigns, or select campaigns that begin (or end) in a specific date range. |

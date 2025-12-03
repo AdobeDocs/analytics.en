@@ -71,7 +71,7 @@ Returns the largest value in a set of dimension elements for a metric column. MA
 | Argument | Description |
 |---|---|
 | metric | Requires at least one metric but can take any number of metrics as parameters. |
-| include_zeros | Whether or not to include zero values in the calculations. | 
+| include_zeros | Whether or not to include zero values in the calculations. |
 
 
 ## Column Minimum {#column-minimum}

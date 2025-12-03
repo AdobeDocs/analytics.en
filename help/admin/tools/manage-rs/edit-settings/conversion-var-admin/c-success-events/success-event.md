@@ -65,15 +65,15 @@ To configure success events:
    |Setting | Visible in | Not visible in |
    |---------|----------|---------|
    | [!UICONTROL **Visible everywhere**] | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | N/A |
-   | [!UICONTROL **Builders**] | <ul><li>Segment Builder</li><li>Calculated Metric Builder</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Hidden everywhere**] | N/A | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> | 
+   | [!UICONTROL **Builders**] | <ul><li>Segment Builder</li><li>Calculated Metric Builder</li><li>Analysis Workspace</li></ul> ||
+   | [!UICONTROL **Hidden everywhere**] | N/A | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Calculated Metric Builder</li></ul> |
 
 1. In the [!UICONTROL **Description**] column, select the checkbox, then provide a description.
 1. In the [!UICONTROL **Unique Event Recording**] column, select the checkbox, then choose from the drop-down menu whether to always record the event.
 
    The following options are available:
   
-   | Option | Function | 
+   | Option | Function |
    |---------|----------|
    | [!UICONTROL **Record Once Per Visit**] | Ties the given event to the visitor's session. Subsequent counts to a given event in the same visit are ignored. This type of event serialization does not require any implementation changes. |
    | [!UICONTROL **Use Event ID**] | Ties the given event to a custom ID. Subsequent counts to a given event with the same event ID are ignored. This type of event serialization requires a custom ID in hits to deduplicate values. See [Event ID serialization](/help/implement/vars/page-vars/events/event-serialization.md) in the Implement user guide. |

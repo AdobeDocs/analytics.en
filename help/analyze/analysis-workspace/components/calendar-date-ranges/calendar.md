@@ -60,7 +60,7 @@ Analysis Workspace provides a number of default date ranges.
 | Last 14 days | Last 2 full weeks | Last 2 full months | Last 4 full quarters | |
 | Last 30 days | Last 3 full weeks | Last 3 full months | | |
 | Last 60 days | Last 4 full weeks | Last 6 full months | | |
-| Last 90 days | Last 12 full weeks | Last 12 full months| | | 
+| Last 90 days | Last 12 full weeks | Last 12 full months| | |
 | Last 7 full days | Last 52 full weeks | Last 13 full months | | |
 | Last 14 full days | | | | |
 | Last 30 full days | | | | |

@@ -16,16 +16,16 @@ The following visualization types are available in Analysis Workspace:
 
 
 | Icon | Name | Description |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg)| [Area](/help/analyze/analysis-workspace/visualizations/area.md)  | An area graph visualization. Like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)| [Bar](/help/analyze/analysis-workspace/visualizations/bar.md)  | A bar graph visualization with vertical bars representing various values across one or more metrics. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg)| [Bar stacked](/help/analyze/analysis-workspace/visualizations/bar.md)  | A stacked bar graph visualization with vertical bars representing various values across one or more metrics. |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p>| [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)  | A bullet graph visualization, which shows how a value you are interested in compares to or measures against other performance ranges (goals). |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg)| [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A cohort visualization is a group of people sharing common characteristics over a specified period. A cohort table is useful for retention, churn or latency analysis. |
-| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | A combo chart enables you to build quickly a comparison visualization without having to build a table first.  | 
+| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | A combo chart enables you to build quickly a comparison visualization without having to build a table first.  |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Donut](/help/analyze/analysis-workspace/visualizations/donut.md)  | Similar to a pie chart, a donut visualization shows data as parts or segments of a whole. |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) |  [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | A fallout visualization shows where persons left (fell out) and continued through (fell through) a predefined sequence of pages. |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | A flow visualization shows exact customer paths through your websites and apps. | 
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | A flow visualization shows exact customer paths through your websites and apps. |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | A freeform table visualization is an interactive visualization. The freeform table visualization is the foundation for data analysis in Workspace.|
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | A histogram visualization buckets persons, visits or events into buckets based on a metric volume. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)| A horizontal bar visualization shows horizontal bars representing various values across one or more metrics. |
@@ -146,19 +146,19 @@ Which visualization settings are available depends on the visualization. The tab
 | **[!UICONTROL 100% stacked]** | Turn the chart into a 100% stacked visualization.  Only applicable for an area, bar and horizontal bar stacked visualization. |
 | **[!UICONTROL Legend visible]** | Show the legend text. |
 | **[!UICONTROL Limit max items]** | Limit the number of items that a visualization displays. When selected, define the number of max items. |
-| **[!UICONTROL Show annotations]** | Show the annotations made for this visualization. | 
-| **[!UICONTROL Hide title]** | Hide the title of the visualization. | 
+| **[!UICONTROL Show annotations]** | Show the annotations made for this visualization. |
+| **[!UICONTROL Hide title]** | Hide the title of the visualization. |
 | **[!UICONTROL Anchor y-axis at zero]** | Force the bottom of the y-axis to zero. If all the values plotted on the chart are considerably above zero, the chart default makes the bottom of the y-axis non-zero. If you enable this option, the y-axis is forced to zero (and the chart is redrawn). |
 | **[!UICONTROL Display dual axis]** | Display left and right y-axes for two different metrics. This option only applies if you have two metrics. Dual axes are helpful when plotted metrics are of different magnitudes. |
 | **[!UICONTROL Show x-axis]** | Show the x-axis in the visualization. |
 | **[!UICONTROL Show y-axis]** | Show the y-axis in the visualization. |
-| **[!UICONTROL Show barbells on lines]** | Show barbells on the line visualization in a combo chart visualization. | 
+| **[!UICONTROL Show barbells on lines]** | Show barbells on the line visualization in a combo chart visualization. |
 | **[!UICONTROL Normalization]** | Force metrics to equal proportions. Equal proportions are helpful when plotted metrics are of different magnitudes. |
 | **[!UICONTROL Show anomalies]** | Enhance line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
 | **[!UICONTROL Show forecast]** | Enhance line graphs and freeform tables by displaying forecast values. |
 | **[!UICONTROL Show min]** | Show the minimal value in the visualization. |
 | **[!UICONTROL Show max]** | Show the maximal value in the visualization. |
-| **[!UICONTROL Show trendline]** | Show a trendline in the visualization. When selected, you can select the type of trendline from the drop-down menu. | 
+| **[!UICONTROL Show trendline]** | Show a trendline in the visualization. When selected, you can select the type of trendline from the drop-down menu. |
 
 You can customize the settings for all visualizations that you create. For more information, see [User preferences](/help/analyze/analysis-workspace/user-preferences.md).
 

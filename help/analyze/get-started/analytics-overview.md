@@ -14,10 +14,10 @@ Adobe Analytics enables organizations to gather data and gain actionable insight
 Use the following resources to learn the basics of Adobe Analytics:
 
 
-|Documentation resource | Function | 
+|Documentation resource | Function |
 |---------|----------|
 | [Get started (by role)](/help/analyze/get-started/get-started-by-role.md) | Provides detailed information explaining key features and tasks you need to be aware of, whether you are an administrator, analyst, end user, or developer.  |
-| [Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md) | Outlines key areas of the Analytics interface. | 
+| [Understand the Analytics interface](/help/analyze/get-started/analytics-interface.md) | Outlines key areas of the Analytics interface. |
 | [Use cases](/help/analyze/get-started/use-cases.md) | Explains some of the key ways that Adobe Analytics helps organizations gain critical insights in order to better serve their customers. |
 | [Which Adobe Analytics tool should I use?](/help/analyze/get-started/which-analytics-tool.md) | Contains recommended use cases for each Adobe Analytics tool. |
 | [Analytics product comparison and requirements](/help/analyze/get-started/analytics-product-comparison.md) | Compares the various Adobe Analytics products that are available. |

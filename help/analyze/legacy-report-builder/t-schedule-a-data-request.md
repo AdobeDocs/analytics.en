@@ -49,7 +49,7 @@ For example, you can schedule workbooks to be delivered immediately or on a recu
 |Send to: Email|The email recipient of the workbook.|
 |Power BI|See [Publish Workbook to Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) for more information.|
 |Subject|A user-defined description.|
-|Scheduling|Lets you specify when to send the workbook. (Immediately, hourly, daily, weekly, monthly, and yearly.)| 
+|Scheduling|Lets you specify when to send the workbook. (Immediately, hourly, daily, weekly, monthly, and yearly.)|
 
 ## Advanced Delivery Options
 

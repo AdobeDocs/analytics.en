@@ -20,7 +20,7 @@ The Users screen shows a list of current Adobe Analytics users, with the followi
 | [!UICONTROL Legacy login] | The status of legacy login, which can be Enabled or Disabled. |
 | [!UICONTROL Date created] | Timestamp when the user account was created in the Adobe Analytics. |
 | [!UICONTROL Last Analytics access] | Timestamp of latest access of the user account to Adobe Analytics, |
-| [!UICONTROL Expiration] | Date of expiration for the user account, or None if the user account is not expiring. | 
+| [!UICONTROL Expiration] | Date of expiration for the user account, or None if the user account is not expiring. |
 
 ![Users](assets/users.png)
 

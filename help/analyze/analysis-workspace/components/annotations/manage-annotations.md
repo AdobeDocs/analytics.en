@@ -28,10 +28,10 @@ The Annotations manager has the following interface elements:
 The annotations list ➊ displays all the annotations that you own, the annotations that have been scoped to all your projects, and the annotations that have been shared with you. The list has the following columns:
 
 | Column | Description |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg)  | Select to favor ![Star](/help/assets/icons/Star.svg) or un-favor ![StarOutline](/help/assets/icons/StarOutline.svg) an annotation. |
 | **[!UICONTROL Title and description]** | Provided in the Annotations Builder. To edit the title and description, select the title link - opens the [Annotations builder](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder). A shared annotation is indicated with ![Share](/help/assets/icons/ShareAlt.svg).   |
-| **[!UICONTROL Report suite]** | The report suites that this annotation applies to.  | 
+| **[!UICONTROL Report suite]** | The report suites that this annotation applies to.  |
 | **[!UICONTROL Owner]** | The owner of the annotation. As a user, you only see the annotations that you own or the annotations that are shared with you. |
 | **[!UICONTROL Applied date range]** | The date or date range that this annotation applies to. |
 | **[!UICONTROL Tags]** | The tags for this annotation. |
@@ -54,7 +54,7 @@ You can action on annotations using the action bar ➋. The action bar contains 
 | ![Share](/help/assets/icons/ShareAlt.svg)| **[!UICONTROL Share]** | Share the selected annotations. In the **[!UICONTROL Share Component]** dialog, you can ![Search](/help/assets/icons/Search.svg) *Search individuals or groups* or you can select **[!UICONTROL Organization]** or **[!UICONTROL Groups]**. Select **[!UICONTROL Save]** to save share details for the selected annotations. See [Share annotations](#share-annotations) for more details. |
 | ![Delete](/help/assets/icons/Delete.svg)| **[!UICONTROL Delete]** | Delete the selected annotations. You are prompted for a confirmation. |
 | ![Edit](/help/assets/icons/Edit.svg)| **[!UICONTROL Rename]** | Rename a single selected annotation. When selected, you can rename the annotation inline. |
-| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copy the selected annotations. New annotations are created with the same name and suffix (Copy) | 
+| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copy the selected annotations. New annotations are created with the same name and suffix (Copy) |
 | ![FileCSV](/help/assets/icons/FileCSV.svg)| **[!UICONTROL Export to CSV]** | Export the annotations to an `Annotations List.csv` file. |
 
 ### Active filter bar
@@ -123,9 +123,9 @@ The [!UICONTROL Annotations manager] shows you all of the annotations that you o
 ![](assets/annotation-mgr.png)
 
 | UI Element | Description |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL Title and Description] | Provided in the Annotations Builder. To edit the title and description, click the title link - this takes you back to the Annotations Builder.  |
-| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  | 
+| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  |
 | [!UICONTROL Owner] | Indicates who owns the annotation. As a non-Admin, you can see only annotations that you own or those that were shared with you. |
 | [!UICONTROL Applied Date Range] | The date or date range that this annotation applies to. |
 | [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |

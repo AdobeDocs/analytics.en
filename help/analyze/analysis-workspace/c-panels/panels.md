@@ -19,7 +19,7 @@ The following panel types are available in Analysis Workspace for [!UICONTROL Ad
 | [Attribution](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
 | [Analytics for Target](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
 | [Freeform](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
-| [Media average minute audience](average-minute-audience-panel.md) | Analyze the average minute audience for a specific piece of content, or over a customized time period. | 
+| [Media average minute audience](average-minute-audience-panel.md) | Analyze the average minute audience for a specific piece of content, or over a customized time period. |
 | [Media concurrent viewers](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
 | [Media playback time spent](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze playback time spent to understand where peak concurrencies occur or where drop-oﬀs happen. |
 | [Next or previous item](next-previous.md) | Show the next or previous pages people go to. |
@@ -66,7 +66,7 @@ You can:
   | ![Histogram](/help/assets/icons/Histogram.svg) | [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) |
   | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Scatter](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
   | ![Type](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) |
-  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | 
+  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 
 * Select ![AddCircle](/help/assets/icons/AddCircle.svg) **outside** the last panel in your workspace to add another [Blank panel](blank-panel.md).
 

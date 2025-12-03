@@ -106,7 +106,7 @@ Depending on your attribution model, container and channels receive different cr
 
 | Model | Container | Lookback window | Explanation |
 |---|---|---|---|
-| First touch | Visit | Reporting window | Attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase. | 
+| First touch | Visit | Reporting window | Attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase. |
 | First touch | Visitor | 30 Days | Attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase. |
 | Linear | Visit | Reporting window | Credit is divided between email and display. Both of these channels each get $25 credit. |
 | Linear | Visitor | 30 Days | Credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase. |

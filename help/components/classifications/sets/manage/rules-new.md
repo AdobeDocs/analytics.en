@@ -90,7 +90,17 @@ Enter a value for **[!UICONTROL Starts With]**. For example: `em`.
 
 You want to define a rule to automatically assign `Email` as a value to the **[!UICONTROL Channel]** classification when the value for key dimension Internal Campaign starts with `em` (for example: `em:FY2025:Summer Sale`).
 
+>[!BEGINTABS]
+
+>[!TAB Rule]
+
 ![Rule - Starts With](assets/rule-startswith.png)
+
+>[!TAB Test results]
+
+![Rule - Starts With Test Results](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -104,13 +114,23 @@ Sets a classification based on a specific value the key dimension ends with.
 
 #### Required input
 
-Enter a value for **[!UICONTROL Ends With]**. For example: `Sale`.
+Enter a value for **[!UICONTROL Ends With]**. For example: `2025`.
 
 #### Use case
 
-You want to define a rule to automatically assign `Sale` as a value to the **[!UICONTROL Type]** classification when the value for key dimension Internal Campaign contains `Sale` (for example: `em:FY2025:Summer Sale`)..
+You want to define a rule to automatically assign `2025` as a value to the **[!UICONTROL Year]** classification when the value for key dimension Internal Campaign contains `2025` (for example: `em:Summer Sale:FY2025`)..
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
 
 ![Rule - Ends With](assets/rule-endswith.png)
+
+>[!TAB Test results]
+
+![Rule - Ends With Test Results](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -123,13 +143,24 @@ Sets a classification based on a specific value the key dimension contains.
 
 #### Required input
 
-Enter a value for **[!UICONTROL Contains]**. For example: `2025`.
+Enter a value for **[!UICONTROL Contains]**. For example: `Winter`.
 
 #### Use case
 
-You want to define a rule to automatically assign `2025` as a value to the **[!UICONTROL Year]** classification when the value for key dimension Internal Campaign ends with `2025` (for example: `em:FY2025:Summer Sale`).
+You want to define a rule to automatically assign `Winter Sale` as a value to the **[!UICONTROL Type]** classification when the value for key dimension Internal Campaign contains with `Winter` (for example: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
 
 ![Rule - Contains](assets/rule-contains.png)
+
+>[!TAB Test results]
+
+![Rule - Contains Results](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -146,9 +177,20 @@ Enter a value for **[!UICONTROL Match]**. For example: `em:FY2025:Summer`.
 
 #### Use case
 
-You want to define a rule to automatically assign `2025 Summer Email` as a value to the **[!UICONTROL Type]** classification when the value for key dimension Internal Campaign matches `em:FY2025:Summer`.
+You want to define a rule to automatically assign `Email` as a value to the **[!UICONTROL Channel]** classification, `Summer Sale`as a value to the **[!UICONTROL Type]** classification, and `2025` to the **[!UICONTROL Year]** classification when the value for key dimension Internal Campaign matches `em:FY2025:Summer`.
+
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
 
 ![Rule - Matches](assets/rule-match.png)
+
+>[!TAB Test results]
+
+![Rule - Matches](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -161,13 +203,23 @@ Sets one or more classifications based on a regular expression applied to the ke
 
 #### Required input
 
-Enter a value for **[!UICONTROL Regular Expression]**. For example: `^(.+)\:(.+)\:(.+)$`.
+Enter a value for **[!UICONTROL Regular Expression]**. For example: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Use case
 
-You want to define a rule to automatically assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]** and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the values for key dimension Internal Campaign.
+You want to define a rule to automatically assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]** and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:FY(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the values for the key dimension Internal Campaign.
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
 
 ![Rule - Regular expression](assets/rule-regex.png)
+
+>[!TAB Test results]
+
+![Rule - Regular expression Test results](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### Reference Table {#section_0211DCB1760042099CCD3ED7A665D716}

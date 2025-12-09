@@ -42,7 +42,13 @@ To define a rule set for a classification set:
 
 
 
-## Rule set interface
+## Rule set interface {#rule-set-interface}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_rules_samplekeys"
+>title="Sample keys"
+>abstract="Type or paste test keys to test the ruleset. Each line is a separate key value. Select **[!UICONTROL Test Ruleset]** to show a dialog with the results."
+
 
 When you create or edit rules, you use the Rule set interface.
 
@@ -165,30 +171,30 @@ You want to define a rule to automatically assign `Winter Sale` as a value to th
 +++
 
 
-### Match
+### Matches
 
-Sets a classification based on a specific value the key dimension matches. 
+Sets a classification based on a specific value that matches with the key dimension value. 
 
 +++ Details 
 
 #### Required input
 
-Enter a value for **[!UICONTROL Match]**. For example: `em:FY2025:Summer`.
+Enter a value for **[!UICONTROL Matches]**. For example: `em:Summer:2025`.
 
 #### Use case
 
-You want to define a rule to automatically assign `Email` as a value to the **[!UICONTROL Channel]** classification, `Summer Sale`as a value to the **[!UICONTROL Type]** classification, and `2025` to the **[!UICONTROL Year]** classification when the value for key dimension Internal Campaign matches `em:FY2025:Summer`.
+You want to define a rule to automatically assign `Email` as a value to the **[!UICONTROL Channel]** classification, `Summer Sale`as a value to the **[!UICONTROL Type]** classification, and `2025` to the **[!UICONTROL Year]** classification when the value for key dimension Internal Campaign matches `em:Summer:2025`.
 
 
 >[!BEGINTABS]
 
 >[!TAB Rule]
 
-![Rule - Matches](assets/rule-match.png)
+![Rule - Matches](assets/rule-matches.png)
 
 >[!TAB Test results]
 
-![Rule - Matches](assets/rule-match.png)
+![Rule - Matches](assets/rule-matches-test.png)
 
 >[!ENDTABS]
 
@@ -207,7 +213,7 @@ Enter a value for **[!UICONTROL Regular Expression]**. For example: `^(.+)\:(.+)
 
 #### Use case
 
-You want to define a rule to automatically assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]** and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:FY(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the values for the key dimension Internal Campaign.
+You want to define a rule to automatically assign values to the **[!UICONTROL Channel]**, **[!UICONTROL Type]**, and **[!UICONTROL Year]** classifications by applying the regular expression `^(.+)\:(.+)\:FY(.+)$` and using match groups (`$1`, `$2`, and `$3`) to the values for the key dimension Internal Campaign.
 
 >[!BEGINTABS]
 
@@ -218,6 +224,31 @@ You want to define a rule to automatically assign values to the **[!UICONTROL Ch
 >[!TAB Test results]
 
 ![Rule - Regular expression Test results](assets/rule-regex-test.png)
+
+>[!ENDTABS]
+
+
+### Split
+
+Splits the key dimension value, based on a token, to one or more classifications.
+
+#### Required input
+
+Enter a value for **[!UICONTROL Split]**. For example: `:`.
+
+#### Use case
+
+You want to define a rule that splits the values for key dimension Internal Campaign to the **[!UICONTROL Channel]**, **[!UICONTROL Type]**, and **[!UICONTROL Year]** classifications based on the `:` **[!UICONTROL Token]**.
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
+
+![Rule - Split](assets/rule-split.png)
+
+>[!TAB Test results]
+
+![Rule - Split Test results](assets/rule-split-test.png)
 
 >[!ENDTABS]
 

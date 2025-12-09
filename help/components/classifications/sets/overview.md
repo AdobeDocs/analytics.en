@@ -15,13 +15,14 @@ The main difference between classification sets and legacy classifications is cl
 
 ### Legacy classifications
 
-![Legacy classification](./assets/classifications-legacy.svg)
+![Legacy classification](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 In legacy classifications, classifications ![Schema](/help/assets/icons2/Schema.svg) (like for traffic, conversions, marketing channels, and more) each have their own dimenson (key ![Key](/help/assets/icons2/Key.svg)). You define these classifications as part of your [Report suite settings](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md). 
 
 You define rules ![BidRule](/help/assets/icons/BidRule.svg) separately in rule sets as part of the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md) interface. In that interface you  associate a rule set with one or more report suites.
 
 You use the [Classification importer](/help/components/classifications/importer/c-working-with-saint.md) to download  a template ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), to import ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) classifications to, or export ![Download](/help/assets/icons/Download.svg) classifications from a report suite - key (dataset) combination.
+
 
 
 ### Classification sets

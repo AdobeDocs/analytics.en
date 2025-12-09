@@ -227,10 +227,14 @@ You want to define a rule to assign values to the **[!UICONTROL Channel]**, **[!
 
 >[!ENDTABS]
 
++++
+
 
 ### Split
 
 Splits the key dimension value, based on a token, to one or more classifications.
+
++++ Details
 
 #### Required input
 
@@ -251,6 +255,8 @@ You want to define a rule that splits the values for key dimension Internal Camp
 ![Rule - Split Test results](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### Reference Table {#section_0211DCB1760042099CCD3ED7A665D716}

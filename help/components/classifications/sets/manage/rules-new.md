@@ -290,7 +290,6 @@ You want to define a rule that splits the values for key dimension Internal Camp
 |  `a{3,}`  | 3 or more of a  |
 |  `a{3,6}`  | Between 3 and 6 of a  |
 
-+++
 
 
 ## Rule priority
@@ -307,11 +306,22 @@ If you create multiple rules that do not share the same **[!UICONTROL Set Classi
 
 ### Example
 
-You want to classify with the classification **[!UICONTROL Type]** how users search for an athlete using the search string as the key dimension. For example, using this rule set:
+You want to classify with the classification **[!UICONTROL Type]** how users search for a team, generic type, or player using the search string as the key dimension. For example, through the use of this rule set:
 
-![Rules priority](assets/rule-priority.png)
++++ Details
 
-* When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy`is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys vs. Broncos`, `Team`is classified as **[!UICONTROL Type]**. 
+
+>[!BEGINTABS]
+
+>[!TAB Rule]
+
+![Rule - Priority](assets/rule-priority.png)
+
+>[!TAB Test results]
+
+![Rule - Priority Test results](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 

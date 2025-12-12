@@ -11,7 +11,6 @@ feature: Classifications
 >Classification sets do not yet support rules. Rules functionality will be added to the classification sets interface before the legacy rule builder functionality becomes unavailable.
 >If you do require rules for classifications, continue to use the [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
 
-
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 

@@ -20,6 +20,10 @@ If you want to set this dimension to a specific value, the following steps are r
 * Set a Marketing channel processing rule that contains the desired criteria for the hit.
 * The visitor's hit to your site must match the criteria outlined in the Marketing channel processing rule.
 
+>[!TIP]
+>
+>Using this dimension with metrics that use [participation attribution](/help/analyze/analysis-workspace/attribution/models.md) can attribute credit to `None` when other attribution models do not. Participation metrics require a marketing channel [instance](../metrics/instances.md) within the reporting window to receive credit. If the marketing channel was initially set outside the reporting window and only the persisted value exists inside the reporting window, participation metrics attribute credit to `None`. Other attribution models attribute credit to the persisted value. If you want to avoid attribution to `None` in this scenario, consider using a non-participation attribution model.
+
 ## Dimension items
 
 Dimension items include any channel name in the Marketing channel manager. By default, values include `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`, and `"Referring domains"`. You can add or delete channels in the Marketing channel manager, which affect this dimension's values.

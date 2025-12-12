@@ -18,7 +18,7 @@ Activity Map as a concept is made of several important components:
   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Change the attribute that populates the Activity Map Region dimension.
   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Customize the logic that Activity Map uses to populate the Activity Map Link dimension.
   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Customize the logic that Activity Map uses to populate the Activity Map Region dimension.
-* **Overlay**: A browser extension that allows you to see click data overlaid on your website. See [Activity Map extension interface](overlay/overview.md) for more information.
+* **Overlay**: A browser extension that allows you to see click data overlaid on your website. See [Activity Map extension interface](overlay/overview.md) for more information. This feature is not available for Web SDK implementations.
 * **Dimensions**: In addition to the overlay extension, Activity Map provides several dimensions that you can use in Analysis Workspace.
   * [Activity Map Link](/help/components/dimensions/activity-map-link.md): The link name that was clicked.
   * [Activity Map Region](/help/components/dimensions/activity-map-region.md): The region name that was clicked.
@@ -31,7 +31,7 @@ Activity Map as a concept is made of several important components:
 
 * **Heat maps**: Activity Map generates heat maps that display the most clicked or interacted areas of a webpage. Heat maps use color-coding to represent the level of engagement, allowing you to identify hotspots and prioritize attention to high-impact areas. This information can be valuable for optimizing call-to-action buttons, links, forms, or any other interactive elements.
 
-* **Overlay reports**: Overlay reports in Activity Map provide detailed click metrics for specific elements on a webpage. By understanding the click-through rates and engagement levels of individual elements, you can fine-tune your design and content strategies to enhance user experiences.
+* **Overlay reports**: Overlay reports in Activity Map provide detailed click metrics for specific elements on a webpage. By understanding the click-through rates and engagement levels of individual elements, you can fine-tune your design and content strategies to enhance user experiences. This feature is not available for Web SDK implementations.
 
 * **Segment analysis**: You can analyze user behavior based on different segments, such as traffic sources, demographics, or personas. By segmenting the data, you can uncover valuable insights into specific user groups, enabling personalized experiences and targeted marketing strategies.
 

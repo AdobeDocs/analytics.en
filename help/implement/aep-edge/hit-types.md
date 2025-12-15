@@ -23,7 +23,7 @@ The Edge Network uses the following logic to determine Adobe Analytics [page vie
 
 >[!TIP]
 >
->XDM field names in the payload are case-sensitive (for example, `webPageDetails.URL`). The `xdm.eventType` field is a string value with its own set of accepted values, and the casing in those values might not match XDM field names. For accepted values, see the `eventType` field in the [XDM ExperienceEvent class](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+>XDM field names in the payload are case-sensitive (for example, `webPageDetails.URL`). The `xdm.eventType` field is a string value with its own set of accepted values, and the casing in those values might not match XDM field names. For accepted values, see the `eventType` field in the [XDM ExperienceEvent class](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType).
 
 +++Minimal page view using `xdm` fields
 

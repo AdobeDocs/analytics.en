@@ -20,7 +20,11 @@ To define a rule set for a classification set:
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to define the rules.
 1. In the **[!UICONTROL Classification Set: _classification set name_]** dialog, select the **[!UICONTROL Rules]** tab. 
 
-   * If you are accessing the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. The options are:
+   * If you access the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. 
+
+     ![Rules migration](assets/rules-migration.png)
+  
+     The options are:
 
      * **Migrate existing rules**. Import your current classification rules and continue to work with these rules in the new interface. Your existing rules are preserved and converted to the new format. 
        * Select **[!UICONTROL Migrate rules]** to continue.

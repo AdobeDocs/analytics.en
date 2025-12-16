@@ -30,7 +30,7 @@ The list of classifications has the following columns:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Classification Name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This a read-only value and you can use the Identity name |
+| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This name is a read-only value and you can use the Identity name |
 | **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -76,7 +76,7 @@ To import classification data into the schema for a classification, select ![Upl
 
    You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column. 
    
-   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and will be created on import. 
+   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and is created on import. 
 
 1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported. For example:
    

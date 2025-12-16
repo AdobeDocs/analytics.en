@@ -137,7 +137,7 @@ Once a classification consolidation has successfully run, the consolidation stat
 
 To approve a classification set consolidation:
 
-1. Use the **[!UICONTROL Similarity Reports]** to review the consolidation. This report shows a table with the following columns:
+1. Use the **[!UICONTROL Similarity Reports]** report to review the consolidation. This report shows a table with the following columns:
 
    * **[!UICONTROL Classification Set Name]**: The name of the classification set.
    * **[!UICONTROL Mismatch]**: The percent of rows where key values do not match the source classification set. If the mismatch percent is high, the mismatch can be an indication that the classification data is too different. Check and make sure that the selected classification sets have similar classification data.

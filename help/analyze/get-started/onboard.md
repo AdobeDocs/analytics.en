@@ -7,45 +7,47 @@ feature: Analytics Basics
 
 Welcome to the Adobe Analytics digital experience onboarding series!
 
-Adobe Analytics works best when you onboard to the key Adobe platforms that support it. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.
+Adobe Analytics enables organizations to gather data and gain actionable insights from any digital customer interaction. With in-depth analysis, versatile reporting, and predictive intelligence, organizations gain the insights they need to build better customer experiences.
 
-Watch the following videos to complete your onboarding journey from Adobe Analytics; from Adobe Experience League to Adobe Support, the Adobe Admin Console, User and Access Setup, and finally Adobe Analytics itself.
+Your Adobe Analytics Journey starts with onboarding the right configurations and user access. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.
+
+Watch the following videos to complete your onboarding journey from Adobe Admin Console for User and Access Setup to Adobe Experience League for documentation and support, and finally, Adobe Analytics itself.
 
 <!-- CARDS
 
 * ./onboard.md
   {title = Experience League}
-  {description = Onboard to Experience League to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
+  {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
-  {url = #onboard-to-adobe-experience-league}
+  {url = #adobe-experience-league}
   {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
-  {title = Adobe Support}
-  {description = Onboard to Adobe Support to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
+  {title = Admin Console}
+    {description = Onboard to the Adobe Admin Console to manage the product entitlement for your Organization. Add, remove, or modify user access.}
   {cta =  Onboard}
-  {url = #onboard-to-adobe-support}
-  {image = https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891}
-
-* ./onboard.md
-  {title = Adobe Admin Console}
-    {description = Onboard to the Adobe Admin Console to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
-  {cta =  Onboard}
-  {url = #onboard-to-adobe-admin-console}
+  {url = #adobe-admin-console}
   {image = https://video.tv.adobe.com/v/3476921/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
-  {title = User and Access Setup}
-    {description = Onboard to User and Access Setup to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
+  {title = Admin Console User Management}
+    {description = Onboard to the Adobe Admin Console User Management to manage users, groups, and profiles. Learn how to assign a Product role to a user or a group.}
   {cta =  Onboard}
-  {url = #onboard-to-user-and-access-setup}
+  {url = #admin-console-user-management}
   {image = https://video.tv.adobe.com/v/3476898/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
-  {title = Adobe Analytics}
-    {description = Onboard to Adobe Analytics to access documentation, tutorials, and more to help you succeed with Adobe Analytics.}
+  {title = Raise a Support Case}
+  {description = Onboard to Adobe Experience League to raise a support case, review active and past cases.}
   {cta =  Onboard}
-  {url = #onboard-to-adobe-analytics}
+  {url = #raise-a-support-case}
+  {image = https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891}
+
+* ./onboard.md
+  {title = Adobe Analytics}
+    {description = Your Adobe Analytics Journey starts with onboarding the right configurations and user access. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.}
+  {cta =  Onboard}
+  {url = #adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -169,46 +171,37 @@ Watch the following videos to complete your onboarding journey from Adobe Analyt
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-## Onboard to Adobe Experience League
+## Adobe Experience League
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Experience League supports your onboarding journey by providing [documentation](https://experienceleague.adobe.com/en/docs/analytics), [tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview), and much more, for all experience levels and roles, that enable your use of Adobe Analytics.
+Onboard to [Adobe Experience League](https://experienceleague.adobe.com/) to access [documentation](https://experienceleague.adobe.com/en/docs/analytics), [tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview), and more to help you succeed.
 
-[Visit Experience League](https://experienceleague.adobe.com)
 
-## Onboard to Adobe Support
-
->[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
-
-[Adobe Support](https://experienceleague.adobe.com/home#support) is your go-to resource for help with Adobe products, providing troubleshooting articles, community forums, and direct support options to resolve any issues you encounter while using Adobe Analytics.
-
-[Visit Adobe Support](https://experienceleague.adobe.com/home#support) 
-
-## Onboard to the Adobe Admin Console
+## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-[Adobe Admin Console](https://adminconsole.adobe.com/) is where administrators manage user access to Adobe products, including Adobe Analytics. This video walks you through the steps to set up your organization in the Admin Console, add users, and assign product access.
+Onboard to the [Adobe Admin Console](https://adminconsole.adobe.com/) to manage the product entitlement for your Organization. Add, remove, or modify user access.
 
-[Visit Adobe Admin Console](https://adminconsole.adobe.com/)
-
-## Onboard to user and access setup
+## Adobe Admin Console User Management
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-[User and access setup](https://adminconsole.adobe.com/redirect@AdobeOrg/users) in Adobe Admin Console is where you assign product access, set roles, and confirm permissions for Adobe Analytics, ensuring that team members have the appropriate level of access to the tools and data they need.
+Onboard to the [Adobe Admin Console User Management](https://adminconsole.adobe.com/redirect@AdobeOrg/users) to manage users, groups, and profiles. Learn how to assign a Product role to a user or a group.
 
-[Visit Adobe Admin Console user management](https://adminconsole.adobe.com/redirect@AdobeOrg/users)
+## Raise a Support Case
 
-## Onboard to Adobe Analytics
+>[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
+
+Onboard to Adobe Experience League to [raise a support case, review active and past cases](https://experienceleague.adobe.com/home#support).
+
+
+## Adobe Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476772/?learn=on&enablevpops)
 
-[Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace) is where you analyze your data and gain actionable insights. Add users and admins to Adobe Analytics, access Adobe Analytics and setup a new Report Suite. For more details, review the Adobe Analytics [documentation on Experience League](https://experienceleague.adobe.com/en/docs/analytics).
-
-[Adobe Analytics](https://experience.adobe.com/#/@redirect/so:techma2/analytics/spa/#/workspace)
-
+Your Adobe Analytics Journey starts with onboarding the right configurations and user access. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.
 
 ## Next steps
 

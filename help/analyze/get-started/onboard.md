@@ -1,6 +1,7 @@
 ---
 title: Adobe Analytics onboarding
 description: Welcome to the Adobe Analytics digital experience onboarding series! Onboard to key Adobe platforms that support Adobe Analytics to help you and your organization succeed.
+role: Admin
 feature: Analytics Basics
 ---
 # Adobe Analytics onboarding
@@ -16,21 +17,21 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
 <!-- CARDS
 
 * ./onboard.md
-  {title = Experience League}
+  {title = Adobe Experience League}
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
   {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
-  {title = Admin Console}
+  {title = Adobe Admin Console}
     {description = Onboard to the Adobe Admin Console to manage the product entitlement for your Organization. Add, remove, or modify user access.}
   {cta =  Onboard}
   {url = #adobe-admin-console}
   {image = https://video.tv.adobe.com/v/3476921/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
-  {title = Admin Console User Management}
+  {title = Adobe Admin Console User Management}
     {description = Onboard to the Adobe Admin Console User Management to manage users, groups, and profiles. Learn how to assign a Product role to a user or a group.}
   {cta =  Onboard}
   {url = #admin-console-user-management}
@@ -52,12 +53,12 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Experience League">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience League">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#onboard-to-adobe-experience-league" title="Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Experience League"
+                    <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -65,34 +66,11 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#onboard-to-adobe-experience-league" target="_blank" rel="referrer" title="Experience League">Experience League</a>
+                        <a href="#adobe-experience-league" target="_blank" rel="referrer" title="Adobe Experience League">Adobe Experience League</a>
                     </p>
-                    <p class="is-size-6">Onboard to Experience League to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
+                    <p class="is-size-6">Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.</p>
                 </div>
-                <a href="#onboard-to-adobe-experience-league" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Support">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="#onboard-to-adobe-support" title="Adobe Support" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="Adobe Support"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#onboard-to-adobe-support" target="_blank" rel="referrer" title="Adobe Support">Adobe Support</a>
-                    </p>
-                    <p class="is-size-6">Onboard to Adobe Support to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
-                </div>
-                <a href="#onboard-to-adobe-support" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="#adobe-experience-league" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
@@ -102,7 +80,7 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#onboard-to-adobe-admin-console" title="Adobe Admin Console" target="_blank" rel="referrer">
+                    <a href="#adobe-admin-console" title="Adobe Admin Console" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476921/?format=jpeg&nocache=1763486440891" alt="Adobe Admin Console"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -111,22 +89,22 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#onboard-to-adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console">Adobe Admin Console</a>
+                        <a href="#adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console">Adobe Admin Console</a>
                     </p>
-                    <p class="is-size-6">Onboard to the Adobe Admin Console to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
+                    <p class="is-size-6">Onboard to the Adobe Admin Console to manage the product entitlement for your Organization. Add, remove, or modify user access.</p>
                 </div>
-                <a href="#onboard-to-adobe-admin-console" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="#adobe-admin-console" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="User and Access Setup">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Admin Console User Management">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#onboard-to-user-and-access-setup" title="User and Access Setup" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476898/?format=jpeg&nocache=1763486440891" alt="User and Access Setup"
+                    <a href="#admin-console-user-management" title="Adobe Admin Console User Management" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476898/?format=jpeg&nocache=1763486440891" alt="Adobe Admin Console User Management"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -134,11 +112,34 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#onboard-to-user-and-access-setup" target="_blank" rel="referrer" title="User and Access Setup">User and Access Setup</a>
+                        <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Adobe Admin Console User Management">Adobe Admin Console User Management</a>
                     </p>
-                    <p class="is-size-6">Onboard to User and Access Setup to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
+                    <p class="is-size-6">Onboard to the Adobe Admin Console User Management to manage users, groups, and profiles. Learn how to assign a Product role to a user or a group.</p>
                 </div>
-                <a href="#onboard-to-user-and-access-setup" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="#admin-console-user-management" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Raise a Support Case">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="#raise-a-support-case" title="Raise a Support Case" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="Raise a Support Case"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="#raise-a-support-case" target="_blank" rel="referrer" title="Raise a Support Case">Raise a Support Case</a>
+                    </p>
+                    <p class="is-size-6">Onboard to Adobe Experience League to raise a support case, review active and past cases.</p>
+                </div>
+                <a href="#raise-a-support-case" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
@@ -148,7 +149,7 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#onboard-to-adobe-analytics" title="Adobe Analytics" target="_blank" rel="referrer">
+                    <a href="#adobe-analytics" title="Adobe Analytics" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891" alt="Adobe Analytics"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -157,11 +158,11 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#onboard-to-adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
+                        <a href="#adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
                     </p>
-                    <p class="is-size-6">Onboard to Adobe Analytics to access documentation, tutorials, and more to help you succeed with Adobe Analytics.</p>
+                    <p class="is-size-6">Your Adobe Analytics Journey starts with onboarding the right configurations and user access. The resources below streamline that onboarding and make it easier for you and your organization to succeed with Adobe Analytics.</p>
                 </div>
-                <a href="#onboard-to-adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="#adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Onboard</span>
                 </a>
             </div>
@@ -208,4 +209,6 @@ Your Adobe Analytics Journey starts with onboarding the right configurations and
 After completing your onboarding to Adobe Analytics and its supporting platforms, consider exploring the following resources to deepen your understanding and enhance your skills:
 
 1. [Introduction to Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Understanding Report Suites](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+2. [Understand and create Report Suites](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+3. [Adobe Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics)
+4. [Adobe Analytics tutorials and videos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)

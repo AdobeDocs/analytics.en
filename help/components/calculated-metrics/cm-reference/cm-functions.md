@@ -466,7 +466,7 @@ Returns the count of rows for a given column (the number of unique elements repo
 
 >[!TIP]
 >
-Use with other functions like **Column Sum** to calculate averages manually (for example, **Column Sum**(*Revenue*) / **Row Count**()).
+>Use with other functions like **Column Sum** to calculate averages manually (for example, **Column Sum**(*Revenue*) / **Row Count**()).
 >
 
 ## Row Max {#row-max}

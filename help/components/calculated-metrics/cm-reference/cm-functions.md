@@ -8,7 +8,7 @@ role: User
 # Basic functions
 
 
-The [Calculated metrics builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents alphabetical list of the functions and their definitions.
+The [Calculated metrics builder](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) lets you apply statistical and mathematical functions. This article documents an alphabetical list of the functions and their definitions.
 
 >[!NOTE]
 >
@@ -58,9 +58,8 @@ An alternative scenario is that you have two metrics of interest and one has a h
 
 >[!TIP]
 >
-Use this for measuring absolute differences between two time periods or segments, regardless of whether performance increased or decreased.
+>Use this for measuring absolute differences between two time periods or segments, regardless of whether performance increased or decreased.
 >
-
 
 ## Column Maximum {#column-maximum}
 
@@ -88,7 +87,7 @@ Returns the largest value in a set of dimension elements for a metric column. MA
 
 >[!TIP]
 >
-Use an [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) statement such as **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) to highlight the top-performing item in your breakdown.
+>Use an [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) statement such as **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) to highlight the top-performing item in your breakdown.
 >
 
 ## Column Minimum {#column-minimum}
@@ -118,7 +117,7 @@ Returns the smallest value in a set of dimension elements for a metric column. M
 
 >[!TIP]
 >
-Use an [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) statement such as **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) to highlight the lowest-performing item in your breakdown.
+>Use an [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) statement such as **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) to highlight the lowest-performing item in your breakdown.
 >
 
 
@@ -148,7 +147,7 @@ Adds all numeric values for a metric within a column (across the elements of a d
 
 >[!TIP]
 >
-Use when you need a reference to the overall total in order to calculate shares or percentages of total performance.
+>Use when you need a reference to the overall total in order to calculate shares or percentages of total performance.
 >
 
 
@@ -178,7 +177,7 @@ Use when you need a reference to the overall total in order to calculate shares 
 
 >[!TIP]
 >
-Use together with **Column Sum** to calculate averages manually (for example, **Column Sum**(*Revenue*) / **Count**(Revenue)).
+>Use together with **Column Sum** to calculate averages manually (for example, **Column Sum**(*Revenue*) / **Count**(Revenue)).
 >
 
 ## Exponent {#exponent}
@@ -206,7 +205,7 @@ Use together with **Column Sum** to calculate averages manually (for example, **
 
 >[!TIP]
 >
-Combine with **Logarithm** for advanced modeling or to smooth out highly variable data when comparing growth patterns.
+>Combine with **Logarithm** for advanced modeling or to smooth out highly variable data when comparing growth patterns.
 >
 
 
@@ -237,7 +236,7 @@ Combine with **Logarithm** for advanced modeling or to smooth out highly variabl
 
 >[!TIP]
 >
-Use to understand overall performance trends, or combine it with **Standard Deviation** to measure consistency around the average.
+>Use to understand overall performance trends, or combine it with **Standard Deviation** to measure consistency around the average.
 >
 
 ## Median {#median}
@@ -267,7 +266,7 @@ Use to understand overall performance trends, or combine it with **Standard Devi
 
 >[!TIP]
 >
-Use instead of **Mean** when your data contains extreme highs or lows that might skew the average.
+>Use instead of **Mean** when your data contains extreme highs or lows that might skew the average.
 >
 
 
@@ -298,7 +297,7 @@ Returns the remainder after dividing x by y using Euclidean division.
 
 >[!TIP]
 >
-Combine with conditional logic to highlight recurring intervals or to segment data based on repeating cycles.
+>Combine with conditional logic to highlight recurring intervals or to segment data based on repeating cycles.
 >
 
 ### More Examples
@@ -345,7 +344,7 @@ MODULO(MODULO(x,y)+y,y)
 
 >[!TIP]
 >
-Use to set performance benchmarks or to filter for top-performing days, campaigns, or products.
+>Use to set performance benchmarks or to filter for top-performing days, campaigns, or products.
 >
 
 ## Power Operator {#power-operator}
@@ -374,7 +373,7 @@ Returns x raised to the y power.
 
 >[!TIP]
 >
-Similar to the **Exponent** function but expressed as a mathematical operator, allowing for more compact formulas within calculated metrics.
+>Similar to the **Exponent** function but expressed as a mathematical operator, allowing for more compact formulas within calculated metrics.
 >
 
 ## Quartile {#quartile}
@@ -405,7 +404,7 @@ Similar to the **Exponent** function but expressed as a mathematical operator, a
 
 >[!TIP]
 >
-Use to group values into performance tiers such as low-, mid-, and high-performing campaigns or products.
+>Use to group values into performance tiers such as low-, mid-, and high-performing campaigns or products.
 >
 
 ## Round {#round}
@@ -434,7 +433,7 @@ Round without a *number* parameter is the same as round with a *number* paramete
 
 >[!TIP]
 >
-Use to standardize metric formatting across reports, especially when displaying percentages or currency values.
+>Use to standardize metric formatting across reports, especially when displaying percentages or currency values.
 >
 
 ### More Examples
@@ -496,7 +495,7 @@ Maximum of the columns of each row.
 
 >[!TIP]
 >
-Use to compare related metrics side by side and identify which contributes the most to performance within each row.
+>Use to compare related metrics side by side and identify which contributes the most to performance within each row.
 >
 
 ## Row Min {#row-min}
@@ -525,7 +524,7 @@ Minimum of the columns of each row.
 
 >[!TIP]
 >
-Combine with Row Maximum to calculate performance ranges or to highlight underperforming metrics in a side-by-side comparison.
+>Combine with Row Maximum to calculate performance ranges or to highlight underperforming metrics in a side-by-side comparison.
 >
 
 ## Row Sum {#row-sum}
@@ -553,7 +552,7 @@ Sum of the columns of each row.
 
 >[!TIP]
 >
-Use to create combined totals or to group related performance indicators into a single calculated metric.
+>Use to create combined totals or to group related performance indicators into a single calculated metric.
 >
 
 ## Square Root {#square-root}
@@ -582,7 +581,7 @@ Use to create combined totals or to group related performance indicators into a 
 
 >[!TIP]
 >
-Use when you need to scale metrics proportionally or to support other statistical functions that rely on root values.
+>Use when you need to scale metrics proportionally or to support other statistical functions that rely on root values.
 >
 
 ## Standard Deviation {#standard-deviation}
@@ -611,7 +610,7 @@ Use when you need to scale metrics proportionally or to support other statistica
 
 >[!TIP]
 >
-Use with *Mean* to detect anomalies or compare the consistency of performance across campaigns, products, or segments.
+>Use with *Mean* to detect anomalies or compare the consistency of performance across campaigns, products, or segments.
 >
 
 ## Variance {#variance}
@@ -640,7 +639,7 @@ Use with *Mean* to detect anomalies or compare the consistency of performance ac
 
 >[!TIP]
 >
-Use with **Standard Deviation** to better understand data variability and identify areas of unpredictable performance.
+>Use with **Standard Deviation** to better understand data variability and identify areas of unpredictable performance.
 >
 
 The equation for VARIANCE is:

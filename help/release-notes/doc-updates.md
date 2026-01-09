@@ -15,6 +15,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
+### 2025 {#year2026}
+
+| Feature | Description |
+| --- | --- |
+| **January 2026** | |
+| Device graph | Removed references to the [discontinued device graph functionality](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
+
 ### 2025 {#year2025}
 
 | Feature | Description |

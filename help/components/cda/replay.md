@@ -28,9 +28,9 @@ As soon as a hit is collected, CDA attempts to stitch it to known devices. Consi
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob on his desktop computer, unauthenticated | `1` (246) |
 | `2` | `246` | `Bob` | Bob logs in on his desktop |  `2` (246 and Bob) |
-| `3` | `3579` | - | Bob on his mobile device, unauthenticated | `2` (246 and 3579) | `3` (246, Bob, and 3579) |
+| `3` | `3579` | - | Bob on his mobile device, unauthenticated |  `3` (246, Bob, and 3579) |
 | `4` | `3579` | `Bob` | Bob logs in on mobile |  `3` (246, Bob, and 3579) |
-| `5` | `246` | - | Bob accesses your site on desktop again, unauthenticated | | `3` (246, Bob, and 3579) |
+| `5` | `246` | - | Bob accesses your site on desktop again, unauthenticated | `3` (246, Bob, and 3579) |
 | `6` | `246` | `Bob` | Bob logs in again via desktop |  `3` (246, Bob, and 3579) |
 | `7` | `3579` | - | Bob accesses your site again on mobile | `3` (246, Bob, and 3579) |
 | `8` | `3579` | `Bob` | Bob logs in again via mobile | `3` (246, Bob, and 3579) |

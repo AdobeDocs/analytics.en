@@ -60,7 +60,7 @@ To set a date range in reverse, click the end date first and then click the star
 
 ### Preset drop down menu
 
-The preset drop-down menu includes a standard set of preset date ranges and date range components for a data view that you saved or a data view that was shared with you.
+The preset drop-down menu includes a standard set of preset date ranges and date range components for a report suite that you saved or a report suite that was shared with you.
 
 ### Rolling dates
 

@@ -15,7 +15,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 ## Details on major documentation updates
 
-### 2025 {#year2026}
+### 2026 {#year2026}
 
 | Feature | Description |
 | --- | --- |

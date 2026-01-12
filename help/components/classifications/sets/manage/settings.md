@@ -22,13 +22,13 @@ To edit the settings for a classification set:
 
    1. Edit the **[!UICONTROL Name]**.
    1. Edit a **[!UICONTROL Description (optional)]**.
-   1. Edit the list of email addresses (comma separater) in **[!UICONTROL Notify of issues]**. These users are notified by email of any issues.
+   1. Edit the list of email addresses (comma separated) in **[!UICONTROL Notify of issues]**. These users receive an email when one or more issues occur.
    1. Add one or more **[!UICONTROL Tags (optional)]** to the classification set. Select an existing tag from the **[!UICONTROL Tags]** drop-down menu, or enter a new tag. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag.
    1. Edit the **[!UICONTROL Subscriptions]**.  
       * You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
       * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
 
-      See [Creat a classification set](create.md) for more details.
+      See [Create a classification set](create.md) for more details.
 
    1. Select **[!UICONTROL Save]** to save the settings. Select **[!UICONTROL Cancel]** to cancel.
 

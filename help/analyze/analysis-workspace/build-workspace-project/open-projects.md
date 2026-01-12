@@ -33,20 +33,3 @@ To open a previously saved version of a project:
 
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, you see the last saved version when you once more want to open a previous version.
-
-
-<!-- 
-## Incompatible data view
-
-When you open a project, you might see an **[!UICONTROL Incompatible data view]** warning dialog. This dialog explains that certain components within the project are not enabled in the selected data view for one of the panels in the project. 
-
-![Incompatible](assets/incompatible-data-view.png)
-
-To fix this warning, you can:
-
-* **[!UICONTROL Change the data view]**. Select a proper data view from **[!UICONTROL Change data view:]** ![Data](/help/assets/icons/Data.svg). If the selected data view is valid, your project opens in Analysis Workspace.
-* **[!UICONTROL Return to landing page]**. Your selected project is not opened and you can select another project.
-* **[!UICONTROL Continue anyway]**. Your project opens in Analysis Workspace, but shows errors in some of the visualization and the incompatible data views have an alert ![Alert](/help/assets/icons/Alert.svg) before the name of the data view.
-
-
--->

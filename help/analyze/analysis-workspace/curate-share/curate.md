@@ -26,7 +26,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curate projects]
 1. Select **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**. 
    The components that are used in the project are automatically added. 
    If a project has multiple report suites, you see a curate drop target for each report suite in the project. 
-1. (Optional) To add more components, drag components you want to share from the left panel to the **[!UICONTROL Curate components]** drop zone for the data view. 
+1. (Optional) To add more components, drag components you want to share from the left panel to the **[!UICONTROL Curate components]** drop zone for the report suite. 
 1. Select **[!UICONTROL Done]**.
 
 

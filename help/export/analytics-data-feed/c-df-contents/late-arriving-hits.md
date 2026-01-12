@@ -4,7 +4,16 @@ description: Learn how data feeds treat late arriving hits.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 ---
-# Late arriving hits
+# Late arriving hits {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Allow late-arriving hits"
+>abstract="Select this option to include data that arrived after the data feed job finished processing data within the set reporting frequency (daily, hourly, or every 15 minutes). With this option enabled, every time a data feed processes data, it looks at any late hits that arrived and batches them in with the next data feed file that is sent."
+
+<!-- markdownlint-enable MD034 -->
 
 Historical data can arrive after a data feed job finishes processing for a given hour or day, such as through timestamped hits or data sources. Late arriving hits is a backend customization setting provided by Adobe to help include this data in data feeds.
 

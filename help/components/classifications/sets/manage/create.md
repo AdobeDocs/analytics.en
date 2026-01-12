@@ -28,7 +28,7 @@ To create a classification set:
          
         * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
 
-        If you add a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination that already exists in another classification set, a red colored message is displayed underneath the combination. 
+        If you add a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination that already exists in another classification set, a red colored message is displayed. 
         You can: 
         * Select **[!UICONTROL Add to existing]** to open the other classification set and [add classifications to the schema](schema.md) for that other classification set. 
         * Change the **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** to a combination that is not subscribed to another classification set already.

@@ -122,7 +122,7 @@ Click the linked preference titles for more information and context about each p
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Default table metric"
->abstract="Select the default metric to use for freeform tables. If the selected data view does not contain the selected default metric, the table automatically switches to another primary metric."
+>abstract="Select the default metric to use for freeform tables. If the selected report suite does not contain the selected default metric, the table automatically switches to another primary metric."
 
 
 You can customize freeform table preferences for all new projects that you create in Analysis Workspace. For information about how to access these preferences, see [Update preferences](#update-preferences). 

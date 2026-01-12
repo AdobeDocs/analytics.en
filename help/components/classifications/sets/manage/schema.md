@@ -30,7 +30,7 @@ The list of classifications has the following columns:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Classification Name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This a read-only value and you can use the Identity name |
+| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This name is a read-only value and you can use the Identity name |
 | **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -76,7 +76,7 @@ To import classification data into the schema for a classification, select ![Upl
 
    You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column. 
    
-   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and will be created on import. 
+   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and is created on import. 
 
 1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported. For example:
    
@@ -143,7 +143,22 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 1. Select **[!UICONTROL Download]** to download the classification data template. You can find the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
 
 
-### Automate
+### Automate {#automate}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_locationaccount"
+>title="Location account"
+>abstract="List of location accounts of account types that support the import of classification data. Select **[!UICONTROL New account]** to create a new location account."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configure cloud import and export accounts"
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_schema_automate_location"
+>title="Location"
+>abstract="List of locations at selected location account that support the import of classification data. Select **[!UICONTROL New location]** to create a new location."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configure cloud import and export locations"
+
 
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 

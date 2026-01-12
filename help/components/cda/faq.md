@@ -35,7 +35,6 @@ CDA's cross-device stitching occurs in two concurrent processes.
 
 * The second process is called "replay." During replay, CDA goes backwards in time and restates historical data, where possible, within a specified lookback window. This lookback window is either 1 day or 7 days, depending on how you requested CDA to be configured. During replay, CDA attempts to restate hits where the person was previously unknown.
 
-* **If using a device graph**, Adobe keeps Device Graph mappings for approximately 6 months. An ECID that has no activity for more than six months is removed from the graph. Data already stitched in CDA is not affected; subsequent hits for that ECID are treated as a new person.
 
 +++
 
@@ -59,20 +58,12 @@ Customers already using Custom Visitor ID can upgrade to CDA without any impleme
 
 +++
 
-+++ How does the device graph handle shared devices?
 
-In some situations it is possible that multiple people log in from the same device. Examples include a shared device at home, shared PCs in a library, or a kiosk in a retail outlet.
-
-* **If using a device graph**, the ability to handle shared devices is limited. The device graph uses an algorithm to determine ownership of a "cluster", and can change each time that cluster is published. Users of the shared device are subject to which cluster they belong to.
-* **If using field-based stitching**, the prop or eVar that you choose to help identify logged in users overrides other identifiers. Shared devices are considered separate people, even if they originate from the same device.
-
-+++
 
 +++ How does CDA handle situations where a single person has MANY devices/ECIDs?
 
 In some situations, an individual user can associate with a large number of ECIDs. This can occur if the individual uses a lot of browsers or apps, and can be exacerbated if they frequently clear cookies or use the browser's private or incognito browsing mode.
 
-* **If using a device graph**, CDA caps the number of ECIDs that ties to a given user ID to 50. If a user ID associates with too many ECIDs, the device graph assumes that the user ID is invalid and removes the cluster associated with that user ID. The user ID is then added to a blocklist to prevent it from being added to any clusters in the future. The result in reporting is that user ID is not stitched across devices.
 * **If using field-based stitching**, the number of devices is irrelevant in favor of the prop/eVar you choose to help identify logged in users. A single user can belong to any number of devices without impacting CDA's ability to stitch across devices.
 
 +++

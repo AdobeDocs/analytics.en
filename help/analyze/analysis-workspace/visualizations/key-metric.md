@@ -49,7 +49,7 @@ This visualization addresses various common use cases, including:
    | Option| Description |
    | --- | --- |
    | **[!UICONTROL Metric]** | Select the metric you want to examine. All metrics are supported. |
-   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your data view.</p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p>  |
+   | **[!UICONTROL Primary date range]** | The current date range for the freeform table.<p>Choose from any available date ranges in your report suite.</p> <p>Choose [!UICONTROL **Panel date range**] if you want to use the same date range that is being used on the panel where the visualization is located.</p>  |
    | **[!UICONTROL Comparison date range]** | The date range that you want to compare with the primary date range. |
    | **[!UICONTROL Segment (optional)]** | Any segment that you are interested in for this summary.  |
 

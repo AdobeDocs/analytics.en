@@ -11,16 +11,13 @@ role: Admin
 
 >[!WARNING]
 >
->Device Graph within Cross-Device Analytics will no longer be available on **December 31, 2025**. Please switch any current device graph enabled virtual report suite to the [field-based method](/help/components/cda/field-based-stitching.md).
+>Device Graph within Cross-Device Analytics is [deprecated](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) and no longer be available on **December 31, 2025**. Please switch any current device graph enabled virtual report suite to the [field-based method](/help/components/cda/field-based-stitching.md).
 >
 
 
-Cross-Device Analytics (CDA) is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports two overarching workflows to link device data together:
-
-* [Field-based stitching](field-based-stitching.md): Recommended stitching option because it uses only deterministic matching to link devices together.
+Cross-Device Analytics (CDA) is a feature that transforms Analytics from a device-centric view to a person-centric view. As a result, analysts can understand user behavior that crosses browsers, devices, or apps. Adobe supports  [field-based stitching](field-based-stitching.md) that uses only deterministic matching to link devices together.
 Field-based stitching allows you to choose an Analytics variable as a base for cross-device stitching in a virtual report suite.
 
-* [Device graph](device-graph.md): Cross-Device Analytics communicates with a private graph to stitch devices together.
 
 Using CDA, you can answer questions such as:
 
@@ -32,20 +29,20 @@ Using CDA, you can answer questions such as:
 
 When devices are stitched, variable persistence is carried over across devices. For example, a user first visits your site through an advertisement on their desktop computer. That user finds your mobile app, installs it, and eventually makes a purchase on their mobile device. With Cross-Device Analytics, you can attribute revenue on the mobile device to the ad that they clicked on their desktop computer.
 
-Microsoft Azure is used for Cross-Device Analytics. Adobe uses Azure to store device graph data and to perform cross-device stitching. As such, Adobe Analytics data is passed back-and-forth between Adobe's data processing center and Adobe's provisioned instances of Microsoft Azure.
+
 
 See the [Cross-Device Analytics Spark page](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) to learn more about the capabilities and features of Cross-Device Analytics.
 
 ## Prerequisites
 
-The use of Cross-Device Analytics requires [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods, and both have their own specific prerequisites.
+The use of Cross-Device Analytics requires [Field-based stitching](field-based-stitching.md).
 
 * A contract must be signed with Adobe that includes Adobe Analytics Ultimate.
 * Your organization chooses which report suites to enable CDA. Adobe recommends report suites that contain cross-device data, meaning data from multiple device/browser/app types. Some organizations refer to this concept as a "global" report suite, although Cross-Device Analytics does not strictly have to be global from a geographic perspective. 
 
 ## Limitations
 
-Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used. [Field-based stitching](field-based-stitching.md) and [Device graph](device-graph.md) methods also have their own specific limitations.
+Cross-Device Analytics is a groundbreaking and robust feature, but has limitations in how it can be used. [Field-based stitching](field-based-stitching.md) also have its own specific limitations.
 
 * Cross-Device Analytics is only available through Analysis Workspace.
 * Cross-Device Analytics does not work across report suites, nor does it combine data from multiple report suites.

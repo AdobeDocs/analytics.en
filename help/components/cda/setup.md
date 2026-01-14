@@ -13,7 +13,7 @@ Once all prerequisites are met, use the following steps to enable Cross-Device A
 
 >[!IMPORTANT]
 >
->All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See the [overview page](overview.md) and the desired stitching method ([Field-based stitching](field-based-stitching.md) or [Device graph](device-graph.md), respectively) for prerequisites and limitations.
+>All prerequisites must be met before following these steps. If all prerequisites are not met, the feature is not available or will not work. See the [overview page](overview.md) and the desired stitching method ([Field-based stitching](field-based-stitching.md) ) for prerequisites and limitations.
 
 ## 1. Open a ticket with Customer Care to have CDA provisioned on your cross-device report suite
 
@@ -21,7 +21,7 @@ CDA is provisioned on your cross-device report suite by Adobe engineering. To st
 
 * Your Adobe Experience Cloud org ID (An alphanumeric string ending with @AdobeOrg)
 * The report suite ID for the cross-device report suite you want to enable with CDA
-* Which method of CDA you want to use (Field-based Stitching or Adobe Device Graph)
+* Which method of CDA you want to use (Field-based Stitching)
 * If you intend to use field-based stitching, the prop or eVar that contains the user ID
 * Your preference of replay frequency and lookback length. Options include a replay once a week with a 7-day lookback window, or a replay every day with a 1-day lookback window.
 The default is weekly replay with 7-day lookback window. In this case, data within the last week is subject to change (as it is progressively being stitched and updated).

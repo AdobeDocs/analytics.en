@@ -59,11 +59,11 @@ Analytics administrators can use the Data Dictionary for these purposes:
 
 * Identify components that are not yet approved.
 
-* Update component descriptions directly in Analysis Workspace. Any updates made to component descriptions in the Data Dictionary are reflected in the data view.
+* Update component descriptions directly in Analysis Workspace. Any updates made to component descriptions in the Data Dictionary are reflected in the report suite.
 
-  Similarly, any updates made to component descriptions in the data view are reflected in Analysis Workspace.
+  Similarly, any updates made to component descriptions in the report suite are reflected in Analysis Workspace.
 
-  For more information about adding component descriptions in either Analysis Workspace or in a data view, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  For more information about adding component descriptions in either Analysis Workspace or in a report suite, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Access the Data Dictionary
 

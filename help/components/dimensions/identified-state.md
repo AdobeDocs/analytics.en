@@ -1,6 +1,6 @@
 ---
 title: Identified state
-description: A flag determining recognition by the device graph.
+description: A flag determining recognition for stitching.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 ---

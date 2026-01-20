@@ -20,14 +20,13 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **January 2026** | |
+| User preferences: number format | You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user. |
 | Device graph | Removed references to the [discontinued device graph functionality](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
 | Feature | Description |
 | --- | --- |
-| **January 2026** | |
-| User preferences: number format | You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user. |
 | **November 2025** | |
 | Important considerations about VISTA rules | Updated the important considerations regarding [Vista rules](/help/technotes/vista.md). |
 | Added data column ID for conversational AI tools | Added the [data column reference ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) for conversational AI tools in the ref_type column. |

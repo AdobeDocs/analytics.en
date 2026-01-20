@@ -6,20 +6,20 @@ feature: Classifications
 ---
 # Classification sets overview
 
-Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in Report suite settings with the [Classification importer](/help/components/classifications/sets/manage/set-manager.md). The result is a single intuitive interface to create and manage classification data.
+Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/manage/set-manager.md). The result is a single intuitive interface to create and manage classification data.
 
 
 ## Classification sets versus legacy classifications
 
-The main difference between classification sets and legacy classifications is classification sets combines all functiinality in one interface where legacy classifications relies on three interfaces. 
+The main difference between classification sets and legacy classifications is that classification sets combine all functionality in one interface where legacy classifications rely on three interfaces. 
 
 ### Legacy classifications
 
 ![Legacy classification](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
-In legacy classifications, classifications ![Schema](/help/assets/icons2/Schema.svg) (like for traffic, conversions, marketing channels, and more) each have their own dimenson (key ![Key](/help/assets/icons2/Key.svg)). You define these classifications as part of your [Report suite settings](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md). 
+In legacy classifications, classifications ![Schema](/help/assets/icons2/Schema.svg) (like for traffic, conversions, marketing channels, and more) each have their own dimension (key ![Key](/help/assets/icons2/Key.svg)). You define these classifications as part of your [Report suite settings](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md). 
 
-You define rules ![BidRule](/help/assets/icons/BidRule.svg) separately in rule sets as part of the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md) interface. In that interface you  associate a rule set with one or more report suites.
+You define rules ![BidRule](/help/assets/icons/BidRule.svg) separately in rule sets as part of the [Classification rule builder](/help/components/classifications/crb/classification-rule-builder.md) interface. In that interface, you  associate a rule set with one or more report suites.
 
 You use the [Classification importer](/help/components/classifications/importer/c-working-with-saint.md) to download  a template ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), to import ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) classifications to, or export ![Download](/help/assets/icons/Download.svg) classifications from a report suite - key (dataset) combination.
 
@@ -29,10 +29,10 @@ You use the [Classification importer](/help/components/classifications/importer/
 
 ![Classification sets](./assets/classifications-sets.svg)
 
-Classification sets combines all the legacy classification interfaces into one. Each classification set defines:
+Classification sets combine all the legacy classification interfaces into one. Each classification set defines:
 
 * One or more subscriptions, which is the combination of a report suite ![Data](/help/assets/icons2/Data.svg) and the dimension ![Key](/help/assets/icons2/Key.svg) (key), that you want to classify. If you want to classify products based on a product SKU, you can define all the report suites with an applicable product SKU dimension. And you don't have to replicate classifications across report suites like in the legacy classifications interface.
-* A list of classifications ![Schema](/help/assets/icons2/Schema.svg) (schema) for the the key. For example, for products classifications you can specify category, color, size, gender, and more. Once you have defined your classifications, you can download a template ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), upload ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) classification data, download ![Download](/help/assets/icons/Download.svg) classification data, and more.
+* A list of classifications ![Schema](/help/assets/icons2/Schema.svg) (schema) for the key. For example, for products classifications you can specify category, color, size, gender, and more. Once you have defined your classifications, you can download a template ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), upload ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) classification data, download ![Download](/help/assets/icons/Download.svg) classification data, and more.
 * One or more rules ![BidRule](/help/assets/icons/BidRule.svg) to support the classifications.
 
 
@@ -52,10 +52,10 @@ The workflow for classification sets typically involves the following steps:
 1. Consider for which report suite and dimension combinations you want to create a classification set. An example is to define a product classification set that you create for any report suite for which you want to classify products with more details. For example, details like category and color.
 1. [Create a classification set](/help/components/classifications/sets/manage/create.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
    
-   | Report Suite | Key Dimension |
+   | Report suite | Key dimension |
    |---|---|
-   | Report Suite 1 | Product ID |
-   | Report Suite 2 | Product SKU |
+   | Report suite 1 | Product ID |
+   | Report suite 2 | Product SKU |
 
 1. [Add the classifications](/help/components/classifications/sets/manage/schema.md#add) that you have identified to the classification set schema. For example: 
 
@@ -89,7 +89,7 @@ The workflow for classification sets typically involves the following steps:
 
 1. [Upload](/help/components/classifications/sets/manage/schema.md#upload) the file that contains the classification data into the classification set schema.
 
-1. Set up [rules](manage/rules.md) to automatically classify incoming data and data from the past.
+1. Set up [rules](manage/rules.md) to classify incoming data and data from the past automatically.
 
 1. [Automate](/help/components/classifications/sets/manage/schema.md#automate) the process of updates to your product catalog that you want to see reflected in classification data through the use of a cloud location.
 

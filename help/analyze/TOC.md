@@ -11,6 +11,7 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
 + [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
 + Get started with Adobe Analytics {#admin-overview}
   + [Analytics overview](get-started/analytics-overview.md)
+  + [Onboarding](get-started/onboard.md)
   + [Get started (by role)](get-started/get-started-by-role.md)
   + [Understand the Analytics interface](get-started/analytics-interface.md)
   + [Use cases](get-started/use-cases.md)

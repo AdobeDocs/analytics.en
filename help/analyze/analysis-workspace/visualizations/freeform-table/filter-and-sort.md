@@ -185,18 +185,23 @@ The column with the primary priority decides the main order; the column with the
 
 For example, consider a table with the following columns:
 
-* Day of Month (dimension)
+* Day (dimension)
 
-* Events (metric)
+* Page Views (metric)
+
+* Visits (metric)
+
+* Content Velocity (metric)
 
 You can assign a sort priority to each column, as follows:
 
 | Column (component) name | Component type | Sort priority |
 |---------|----------|---------|
-| Day of Month | Dimension | 1 |
-| Hour of Day | Dimension | 2 |
-| Events | Metric | 3 |
+| Day | Dimension | 1 |
+| Page Views | Metric | 2 |
+| Visits | Metric | 3 |
+| Content Velocity | Metric | 4 |
 
-By assigning a sort priority to each column, you can control exactly how data is displayed in the table. In this example, information is sorted first by Day of Month, then by Hour of Day, and finally by Events. 
+By assigning a sort priority to each column, you can control exactly how data is displayed in the table. In this example, information is sorted first by Day, then by Page Views, then by Visits, and finally by Content Velocity. 
 
 ![multi-sort example](assets/dimensions-multiple-sort.png)

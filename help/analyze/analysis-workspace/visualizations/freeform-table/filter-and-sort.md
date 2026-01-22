@@ -119,6 +119,84 @@ Column totals might not be exact in the following scenarios:
 
 ## Sort tables
 
-You can sort the data of a Freeform table by any column in Analysis Workspace that is either a dimension or a metric. An arrow indicates how the data is sorted (**↓** for descending, or **↑** for ascending).
+You can sort the data of a freeform table by the following types of columns in Analysis Workspace:
 
-![Sorting](assets/sorting.gif)
+* Any metric columns
+
+* Any dimension columns (except for string-based dimensions) 
+
+By default, dimensions are sorted in ascending order and metrics are sorted in descending order.
+
+## Sort tables by a single column 
+
+When you sort data for a single column as described in this section, any [advanced sorting](#sort-tables-by-multiple-columns-advanced-sorting) that is applied to the table is removed.
+
+To sort data in tables by a single column:
+
+1. Mouse over the header of the column you want to sort, then select the **Sort** icon ![Sort](/help/assets/icons/SortOrderDown.svg) when it appears.
+
+   ![Sort drop-down menu](assets/sort-dropdown-menu.png)
+
+1. Select **[!UICONTROL Ascending]** or **[!UICONTROL Descending]**. 
+
+   The sort icon remains visible when sorting is applied to the column. An arrow indicates how the data is sorted (![Sort](/help/assets/icons/SortOrderUp.svg) for ascending or ![Sort](/help/assets/icons/SortOrderDown.svg) for descending).
+
+## Sort tables by multiple columns (Advanced sorting)
+
+{{release-limited-testing-section}}
+
+### Apply sorting to multiple columns
+
+To sort data in tables by multiple columns:
+
+1. Mouse over the header of any column that you want to sort, then select the **Sort** icon ![Sort](/help/assets/icons/SortOrderDown.svg) when it appears.
+
+   ![Sort drop-down menu](assets/sort-dropdown-menu.png)
+
+1. Select **[!UICONTROL Advanced sorting]**. 
+
+   ![Advanced sorting dialog](assets/sort-advanced-dialog.png)
+
+1. In the Advanced sorting dialog, do any of the following:
+
+   * Add columns that aren't yet being sorted by selecting the **[!UICONTROL Add sort column]** button.
+
+   * Remove columns that you no longer want to sort by selecting the **Remove** icon ![Remove](/help/assets/icons/Close.svg).  
+
+   * Drag columns higher or lower in the list to adjust the sort priority. 
+   
+     For more information, see [Sort priority](#sort-priority).
+   
+   * Change the sort value by selecting **[!UICONTROL Ascending]** or **[!UICONTROL Descending]** in the drop-down menu. 
+
+   * Select a different column by selecting the column name drop-down menu. 
+
+1. Select **[!UICONTROL Apply]**.
+
+The sort icon remains visible when sorting is applied to a column. An arrow indicates how the data is sorted (![Sort](/help/assets/icons/SortOrderUp.svg) for ascending or ![Sort](/help/assets/icons/SortOrderDown.svg) for descending). 
+
+![multi-sort example](assets/dimensions-multiple-sort.png)
+
+### Sort priority
+
+When you sort data for multiple columns, data is sorted according to the priority you assign to each column. Priority numbering is displayed next to the sort icon ![sort priority icon](assets/sort-priority-icon.png).
+
+The column with the primary priority decides the main order; the column with the secondary priority decides the order when rows have the same value in the primary column; the column with the tertiary priority decides the order when rows have the same value in the primary and secondary columns; and so forth.  
+
+For example, consider a table with the following columns:
+
+* Day of Month (dimension)
+
+* Events (metric)
+
+You can assign a sort priority to each column, as follows:
+
+| Column (component) name | Component type | Sort priority |
+|---------|----------|---------|
+| Day of Month | Dimension | 1 |
+| Hour of Day | Dimension | 2 |
+| Events | Metric | 3 |
+
+By assigning a sort priority to each column, you can control exactly how data is displayed in the table. In this example, information is sorted first by Day of Month, then by Hour of Day, and finally by Events. 
+
+![multi-sort example](assets/dimensions-multiple-sort.png)

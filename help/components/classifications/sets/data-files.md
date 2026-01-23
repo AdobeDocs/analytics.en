@@ -17,7 +17,7 @@ Classification sets support the following file formats:
 
 * **JSON**: JavaScript Object Notation files with structured data
 * **CSV**: Comma-separated values files
-* **TSV/TAB**: Tab-separated values files
+* **TSV or TAB**: Tab-separated values files
 
 ## General file requirements
 
@@ -33,7 +33,7 @@ The JSON file format follows conventions for JSON Lines (JSONL). The file must c
 
 >[!NOTE]
 >
->Despite following conventions for JSON Lines, use the `.json` file extension for all uploads. Using the `.jsonl` extension can result in errors.
+>Despite following the conventions for JSON Lines, use the `.json` file extension for all uploads. Using the `.jsonl` extension can result in errors.
 
 ### JSON structure
 
@@ -42,7 +42,7 @@ Each JSON object must contain:
 * `key` (required): The unique identifier for the classification record
 * `data` (required for updates): An object containing classification column names and their values
 * `action` (optional): The action to perform. Supported values include:
-  * `update` (default)
+  * `update` (the default action, when no action is specified)
   * `delete-field`
   * `delete-key`
 * `enc` (optional): Data encoding specification. Supported values include:
@@ -51,32 +51,6 @@ Each JSON object must contain:
 
 All JSON field names (`key`, `data`, `action`, `enc`) are case-sensitive and must be lowercase.
 
-### JSON examples
-
-**Basic update record:**
-
-```json
-{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
-```
-
-**Update with encoding specified:**
-
-```json
-{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
-```
-
-**Delete specific fields:**
-
-```json
-{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
-```
-
-**Delete an entire key:**
-
-```json
-{"key": "product999", "action": "delete-key"}
-```
-
 ### JSON validation rules
 
 * The `key` field is required and cannot be null or empty.
@@ -84,6 +58,35 @@ All JSON field names (`key`, `data`, `action`, `enc`) are case-sensitive and mus
 * For `delete-field` actions, the `data` field must contain the fields to delete.
 * For `delete-key` actions, the `data` field must not be present.
 * Supported encoding values are case-insensitive and include standard charset names.
+
+### JSON examples
+
+Some examples of JSON records in a JSON file.
+
+#### Basic update record
+
+```json
+{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
+```
+
+#### Update with encoding specified
+
+```json
+{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
+```
+
+#### Delete specific fields
+
+```json
+{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
+```
+
+#### Delete an entire key
+
+```json
+{"key": "product999", "action": "delete-key"}
+```
+
 
 +++
 
@@ -98,32 +101,6 @@ CSV (Comma-Separated Values) files use commas to separate classification data fi
 * **Delimiters**: Fields are separated by commas
 * **Quoting**: Fields containing commas, quotes, or newlines should be enclosed in double quotes
 
-### CSV examples
-
-**Basic classification data:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Basketball Shoes",Brand A,Sports,89.99
-product456,"Running Shoes",Brand B,Sports,79.99
-product789,"Winter Jacket",Brand C,Clothing,149.99
-```
-
-**Delete an entire key:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product999,~deletekey~,,,
-```
-
-**Delete specific fields (mixed with updates):**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Updated Product Name",Brand A,Sports,89.99
-product456,,~empty~,~empty~,79.99
-```
-
 ### CSV formatting rules
 
 * Fields that contain commas must be enclosed in double quotes.
@@ -132,11 +109,39 @@ product456,,~empty~,~empty~,79.99
 * Leading and trailing spaces around fields are automatically trimmed.
 * Special characters (tabs, newlines) within quoted fields are preserved.
 
-**Delete operations:**
+### CSV delete operations
 
 * Use `~deletekey~` in any field to delete the entire key and all its classification data
 * Use `~empty~` in specific fields to delete only those classification values (leaves other fields intact)
 * When using `~empty~`, you can mix deletions with updates in the same file
+
+### CSV examples
+
+Some examples of CSV records in a CSV file.
+
+#### Basic classification data
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Basketball Shoes",Brand A,Sports,89.99
+product456,"Running Shoes",Brand B,Sports,79.99
+product789,"Winter Jacket",Brand C,Clothing,149.99
+```
+
+#### Delete an entire key
+
+```csv
+Key,Product Name,Brand,Category,Price
+product999,~deletekey~,,,
+```
+
+#### Delete specific fields (mixed with updates)
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Updated Product Name",Brand A,Sports,89.99
+product456,,~empty~,~empty~,79.99
+```
 
 +++
 
@@ -151,9 +156,25 @@ TSV (Tab-Separated Values) and TAB files use tab characters to separate classifi
 * **Delimiters**: Fields are separated by tab characters (`\t`).
 * **Quoting**: Generally no quoting is needed, but some implementations support quoted fields.
 
+### TSV and TAB formatting rules
+
+* Fields are separated by single tab characters.
+* Empty fields (consecutive tabs) represent null values.
+* No special quoting is typically required.
+* Leading and trailing spaces are preserved.
+* Newline characters within fields should be avoided.
+
+### TSV and TAB delete operations
+
+* Use `~deletekey~` in any field to delete the entire key and all its classification data.
+* Use `~empty~` in specific fields to delete only those classification values (leaves other fields intact).
+* When using `~empty~`, you can mix deletions with updates in the same file.
+
 ### TSV and TAB examples
 
-**Basic classification data:**
+Some examples of TSV or TAB delimited records in a TSV or TAB file.
+
+#### Basic classification data
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -162,14 +183,14 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Delete an entire key:**
+#### Delete an entire key
 
 ```tsv
 Key    Product Name    Brand    Category    Price
 product999    ~deletekey~            
 ```
 
-**Delete specific fields (mixed with updates):**
+#### Delete specific fields (mixed with updates)
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -177,39 +198,16 @@ product123    Updated Product Name    Brand A    Sports    89.99
 product456        ~empty~    ~empty~    79.99
 ```
 
-### TSV/TAB formatting rules
-
-* Fields are separated by single tab characters.
-* Empty fields (consecutive tabs) represent null values.
-* No special quoting is typically required.
-* Leading and trailing spaces are preserved.
-* Newline characters within fields should be avoided.
-
-**Delete operations:**
-
-* Use `~deletekey~` in any field to delete the entire key and all its classification data.
-* Use `~empty~` in specific fields to delete only those classification values (leaves other fields intact).
-* When using `~empty~`, you can mix deletions with updates in the same file.
-
 +++
 
 ## Error handling
 
-Common upload issues and solutions:
+Common issues and solutions when uploading files:
 
 ### General file format errors
 
 * **Invalid file format**: Verify that your file extension matches the content format (`.json`, `.csv`, `.tsv`, or `.tab`).
 * **Unknown header**: Column names must match your classification set schema (applies to all formats).
-
-### CSV and TSV specific errors
-
-* **First column is required to be the key**: Ensure your CSV or TSV file has a proper header row with the key column first.
-* **A minimum of two header items are required**: CSV or TSV files must have at least a `Key` column and one classification column.
-* **The first header column must be called 'Key'**: The first column header must be exactly `Key` (capital `K`, case-sensitive).
-* **Blank headers are not allowed**: All CSV/TSV column headers must have names.
-* **The number of columns did not match the headers**: Each CSV or TSV data row must have the same number of fields as the header row.
-* **"Malformed document**: Check CSV quoting, proper tab separation in TSV files, and more.
 
 ### JSON specific errors
 
@@ -219,6 +217,17 @@ Common upload issues and solutions:
 * **Data must not be present when using action=delete-key**: JSON delete-key actions cannot include a `"data"` field.
 * **Unsupported encoding**: Use only supported encoding values in the `"enc"` field (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Invalid JSON syntax**: Ensure that the JSON file is formatted correctly following JSONL conventions. Also check for general JSON formatting, missing quotes, commas, brackets, etc.
+
+
+### CSV and TSV specific errors
+
+* **The first column is required to be the key**: Ensure your CSV or TSV file has a proper header row with the key column first.
+* **A minimum of two header items are required**: CSV or TSV files must have at least a `Key` column and one classification column.
+* **The first header column must be called 'Key'**: The first column header must be exactly `Key` (capital `K`, case-sensitive).
+* **Blank headers are not allowed**: All CSV/TSV column headers must have names.
+* **The number of columns did not match the headers**: Each CSV or TSV data row must have the same number of fields as the header row.
+* **"Malformed document**: Check CSV quoting, proper tab separation in TSV files, and more.
+
 
 ### Size limit errors
 
@@ -231,4 +240,4 @@ Common upload issues and solutions:
 * **Batch processing**: For large datasets, consider splitting into smaller files.
 * **Data validation**: Test with a small sample file before uploading large datasets.
 * **Backup**: Keep copies of your source data files.
-* **Incremental updates**: Use JSON format for precise control over individual record updates and deletions.
+* **Incremental updates**: Us the JSON format for precise control over individual record updates and deletions.

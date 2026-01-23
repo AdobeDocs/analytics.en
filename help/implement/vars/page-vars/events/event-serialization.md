@@ -31,7 +31,7 @@ When using event IDs, de-duplication happens on the following levels:
 
 If using the [**XDM object**](/help/implement/aep-edge/xdm-var-mapping.md), event serialization uses the desired event's XDM field `id`. The full XDM path depends on which event that you want to serialize.
 
-For example, if you wanted to serialize the Cart Additions metric, set `xdm.commerce.productListAdds.id` to the desired serialization value. If you wanted to serialize Custom event 20, set `xdm._experience.analytics.event1to100.event20` to the desired serialization value.
+For example, if you wanted to serialize the Cart Additions metric, set `xdm.commerce.productListAdds.id` to the desired serialization value. If you wanted to serialize Custom event 20, set `xdm._experience.analytics.event1to100.event20.id` to the desired serialization value.
 
 If using the [**data object**](/help/implement/aep-edge/data-var-mapping.md), event serialization uses `data.__adobe.analytics.events`, following AppMeasurement string syntax.
 

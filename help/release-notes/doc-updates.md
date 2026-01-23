@@ -10,10 +10,18 @@ mini-toc-levels: 3
 
 Content updates for the Adobe Analytics documentation set since January, 2019.
 
-* For information on [!UICONTROL Customer Journey Analytics], go [here](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
+* For information on [!UICONTROL Customer Journey Analytics], see [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html).
 * For information on Adobe streaming media services, see [Measuring audio and video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details on major documentation updates
+
+### 2026 {#year2026}
+
+| Feature | Description |
+| --- | --- |
+| **January 2026** | |
+| User preferences: number format | You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user. |
+| Device graph | Removed references to the [discontinued device graph functionality](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -45,7 +53,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Updated information about IP exclusions | Added information explaining that [IP exclusions](/help/admin/tools/exclude-ip.md) can take up to 5 minutes before they take effect, and that changes apply only to new hits (data captured prior to the exclusion being set is not affected). <p>Also updated the layout of content to improve readability.</p>  |
 | **February 2025** |  |
 | Updated information about pausing and reactivating a data feed | When [pausing and reactivating a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), clarified the behavior for live feeds. Data processing does not occur from the time the feed is paused to the time it is reactivated.  |
-| Changed Transaction ID retention period |  The Transaction ID retention period of 90 days was extended to 25 months. The transactionID variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. Learn more [here](/help/implement/vars/page-vars/transactionid.md) and [here](/help/import/data-sources/transactionid.md). |
+| Changed Transaction ID retention period |  The Transaction ID retention period of 90 days was extended to 25 months. The transactionID variable uniquely identifies a transaction so the hit can tie to data uploaded through Data Sources. See [page variables](/help/implement/vars/page-vars/transactionid.md) and [data sources](/help/import/data-sources/transactionid.md). |
 | Livestream API - Client implementation | Use the [Livestream client implementation](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) to consume Livestream data. |
 | Update to Classifications API  |  You can now [remove individual classification fields or keys from the server](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). This provides an alternative to deleting an entire classification dataset with the DELETE method. |
 | **January 2025** |  |
@@ -238,7 +246,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | July 15, 2021 | Added new documentation on the new [Adobe Analytics landing page](/help/analyze/landing.md) |
 | **June 2021** |  |
 | June 15, 2021 | Updated [Marketing Channels best practices](/help/components/c-marketing-channels/mchannel-best-practices.md) |
-| June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](/help/export/analytics-data-feed/create-feed.md) and [here](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
+| June 3, 2021 | Updated the documentation to better explain [Data Feed Implementation](/help/export/analytics-data-feed/create-feed.md) and [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
 | May 25, 2021 | Updated the documentation on [eVar case sensitivity in reporting](/help/components/dimensions/evar.md). |
 | May 13, 2021 | Updates to [Data Warehouse API requests](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). They now support "Hours". |
 | **March 2021** | |

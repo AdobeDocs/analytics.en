@@ -6,9 +6,11 @@ feature: Classifications
 
 # Classification sets rules
 
-You use rules to support automatic classifications in scenarios where your key dimension is constantly changing. The update of classifications through upload or automation becomes a cumbersome process or lags proper classification for new dimension values. For example, internal campaigns, tracking codes, or product SKUs. The dimension must contain values that allow you to apply one or more rules so you can derive classification data from the values.
+You use rules to support automatic classifications in scenarios where your key dimension is constantly changing. The update of classifications through [upload](/help/components/classifications/sets/manage/schema.md#upload) or [automation](/help/components/classifications/sets/manage/schema.md#automate) becomes a cumbersome process or lags proper classification for new dimension values. For example, internal campaigns, tracking codes, or product SKUs. 
 
-You define rules within the context of a classification set. This context implies that rules are applied (when activated) to all report suite and key dimension combinations that are subscribed to the classification set. This implementation is somewhat different from how the legacy Classification rule builder works. In the Classification rule builder, define one or more rules as part of a rule set separately and then associate the rule set with one or more report suites. In the new interface, the rules within the classification set are also referred to as rule set. However, the rule sets are defined within the same interface where you configure other classification set attributes.
+The dimension must contain values that allow you to apply one or more rules so you can derive classification data from the dimension values.
+
+You define rules within the context of a classification set. This context implies that rules are applied (when activated) to all report suite and key dimension combinations that are subscribed to the classification set. This implementation is different from how the legacy Classification rule builder works. In the Classification rule builder, you define one or more rules as part of a rule set separately, and then associate the rule set with one or more report suites. In the new interface, the rules within the classification set are also referred to as rule set. However, the rule sets are defined within the same interface where you configure other classification set attributes.
 
 
 To define a rule set for a classification set:

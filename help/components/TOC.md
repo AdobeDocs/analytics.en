@@ -304,3 +304,4 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)
+

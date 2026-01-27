@@ -258,9 +258,9 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + Classification sets {#sets}
     + [Overview](classifications/sets/overview.md)
     + [Data files](classifications/sets/data-files.md)
-    + Classification sets {#manage}
-      + [Manage](classifications/sets/manage/set-manager.md)
-      + [Create and edit](classifications/sets/manage/create.md)
+    + [Create and edit](classifications/sets/manage/create.md)
+    + [Manage](classifications/sets/manage/set-manager.md)
+    + Classification set {#set}
       + [Settings](classifications/sets/manage/settings.md)
       + [Schema](classifications/sets/manage/schema.md)
       + [Rules](classifications/sets/manage/rules.md)
@@ -268,25 +268,26 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + Classification consolidations {#consolidations}
       + [Manage](classifications/sets/consolidations/manage.md)
       + [Create and edit](classifications/sets/consolidations/process.md)
-  + Classification rule builder (Legacy){#classifications-rulebuilder}
-    + [Overview](classifications/crb/classification-rule-builder.md)
-    + [Classification rule sets](classifications/crb/classification-rule-set.md)
-    + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-    + [Classification rule definitions](classifications/crb/classification-rule-definitions.md)
-    + [Subclassifications and the rule builder](classifications/crb/subclassification-rule-builder.md)
-  + Classification importer (legacy){#classifications-importer}
-    + [Classifications importer overview](classifications/importer/c-working-with-saint.md)
-    + [Classification data files](classifications/importer/c-saint-data-files.md)
-    + [Delete classification data](classifications/importer/t-delete-classification-data.md)
-    + [Classification template](classifications/importer/c-download-saint-data.md)
-    + [Browser import](classifications/importer/browser-import.md)
-    + [Browser export](classifications/importer/browser-export.md)
-    + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-    + [FTP export](classifications/importer/ftp-export.md)
-    + [Processing time](classifications/importer/processing-time.md)
-    + [Subclassifications](classifications/importer/subclassifications.md)
-    + [Troubleshooting](classifications/importer/troubleshooting.md)
-    + [FAQ](classifications/importer/importer-faq.md)
+  + Legacy classifications {#legacy-classifications}
+    + Classification rule builder {#classifications-rulebuilder}
+      + [Overview](classifications/crb/classification-rule-builder.md)
+      + [Classification rule sets](classifications/crb/classification-rule-set.md)
+      + [Classification rules](classifications/crb/classification-quickstart-rules.md)
+      + [Classification rule definitions](classifications/crb/classification-rule-definitions.md)
+      + [Subclassifications and the rule builder](classifications/crb/subclassification-rule-builder.md)
+    + Classification importer {#classifications-importer}
+      + [Classifications importer overview](classifications/importer/c-working-with-saint.md)
+      + [Classification data files](classifications/importer/c-saint-data-files.md)
+      + [Delete classification data](classifications/importer/t-delete-classification-data.md)
+      + [Classification template](classifications/importer/c-download-saint-data.md)
+      + [Browser import](classifications/importer/browser-import.md)
+      + [Browser export](classifications/importer/browser-export.md)
+      + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [FTP export](classifications/importer/ftp-export.md)
+      + [Processing time](classifications/importer/processing-time.md)
+      + [Subclassifications](classifications/importer/subclassifications.md)
+      + [Troubleshooting](classifications/importer/troubleshooting.md)
+      + [FAQ](classifications/importer/importer-faq.md)
 + Locations {#locations}
   + [Locations manager](/help/components/locations/locations-manager.md)
   + [Cloud import accounts](/help/components/locations/configure-import-accounts.md)
@@ -303,3 +304,4 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)
+

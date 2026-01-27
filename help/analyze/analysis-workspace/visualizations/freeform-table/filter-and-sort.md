@@ -5,7 +5,7 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 ---
-# Filter and sort
+# Filter and sort freeform tables
 
 Freeform tables in Analysis Workspace are the foundation for interactive data analysis. As such, they can contain thousands of rows of information. Filtering and sorting the data can be a critical part of efficiently surfacing the most important information. 
 
@@ -124,6 +124,8 @@ You can sort the data of a freeform table by the following types of columns in A
 * Any metric columns
 
 * Any dimension columns (except for string-based dimensions) 
+
+You can even sort by multiple columns at the same time.
 
 By default, dimensions are sorted in ascending order and metrics are sorted in descending order.
 

@@ -30,7 +30,7 @@ To create a classification set:
 
         If you add a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination that already exists in another classification set, a red colored message is displayed. 
         You can: 
-        * Select **[!UICONTROL Add to existing]** to open the other classification set and [add classifications to the schema](schema.md) for that other classification set. 
+        * Select **[!UICONTROL Add to existing]** to open the other classification set and [add classifications to the schema](manage/schema.md) for that other classification set. 
         * Change the **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** to a combination that is not subscribed to another classification set already.
       * **[!UICONTROL Lookup]**. Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. A lookup is metadata about a classification value, rather than the original dimension. For example, a *Product* dimension might have a primary classification of *Color code*. A lookup table of *Color name* could then be attached to the *Color code* to explain each color code.
 1. Select **[!UICONTROL Save]** to save the classification set. Select **[!UICONTROL Cancel]** to cancel the definition.
@@ -44,7 +44,7 @@ To edit a classification set:
 1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. Select the name of your classification set.
-1. In the **[!UICONTROL Classification Set: _classification set name_]** dialog, you can define the [settings](settings.md) and the [schema](schema.md) for the classification set. 
+1. In the **[!UICONTROL Classification Set: _classification set name_]** dialog, you can define the [settings](manage/settings.md) and the [schema](manage/schema.md) for the classification set. 
 1. Once done, select **[!UICONTROL Save]** to save your changes. Select **[!UICONTROL Cancel]** to cancel.
 
 

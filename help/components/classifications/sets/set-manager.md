@@ -29,7 +29,7 @@ The **[!UICONTROL Classification Sets]** list ➊ displays all the classificatio
 | **[!UICONTROL Classification Set]** | The name of the classification set. Select the name to [edit the classification set](create.md#edit-a-classification-set). |
 | **[!UICONTROL Subscriptions]** | The number of subscriptions that the classification set applies to. |
 | **[!UICONTROL Classifications]** | The number of classification dimensions that the classification set contains. |
-| **[!UICONTROL Automated]** | Is the classification set configured to import data from a cloud location automatically or not? This automation can be configured as part of the [classification sets schema](schema.md). |
+| **[!UICONTROL Automated]** | Is the classification set configured to import data from a cloud location automatically or not? This automation can be configured as part of the [classification sets schema](manage/schema.md). |
 | **[!UICONTROL Last modified]** | The timestamp of the last modification of the classification set. |
 
 To resize a column in the classification sets list, you can:

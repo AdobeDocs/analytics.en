@@ -509,8 +509,6 @@ source,destination
 /docs/analytics/admin/data-collection/usecase-sending-data-to-sc.html,/docs/analytics/implementation/home.html
 /docs/analytics/admin/user-product-management/migrate-users/t-migrate-users.html,/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html
 /docs/analytics/components/calculated-metrics/cm-examples/cm-example-time-spent-on-page.html,/docs/analytics/components/metrics/time-spent.html
-/docs/analytics/components/classifications/sets/set-manager.html,/docs/analytics/components/classifications/sets/manage/set-manager.html
-/docs/analytics/components/classifications/sets/create.html,/docs/analytics/components/classifications/sets/manage/create.html
 /docs/analytics/components/classifications/sets/settings.html,/docs/analytics/components/classifications/sets/manage/settings.html
 /docs/analytics/components/variables/dimensions-reports/reports-referrers.html,/docs/analytics/components/dimensions/referrer.html
 /docs/analytics/implementation/prepare/data-collection-reference.html,/docs/analytics/implementation/home.html

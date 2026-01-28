@@ -266,8 +266,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
       + [Rules](classifications/sets/manage/rules.md)
     + [Classification jobs ](classifications/sets/job-manager.md)
     + Classification consolidations {#consolidations}
-      + [Manage](classifications/sets/consolidations/manage.md)
       + [Create and edit](classifications/sets/consolidations/process.md)
+      + [Manage](classifications/sets/consolidations/manage.md)
   + Legacy classifications {#legacy-classifications}
     + Classification rule builder {#classifications-rulebuilder}
       + [Overview](classifications/crb/classification-rule-builder.md)

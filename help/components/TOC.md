@@ -271,15 +271,15 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + Legacy classifications {#legacy-classifications}
     + Classification rule builder {#classifications-rulebuilder}
       + [Overview](classifications/crb/classification-rule-builder.md)
-      + [Classification rule sets](classifications/crb/classification-rule-set.md)
-      + [Classification rules](classifications/crb/classification-quickstart-rules.md)
-      + [Classification rule definitions](classifications/crb/classification-rule-definitions.md)
-      + [Subclassifications and the rule builder](classifications/crb/subclassification-rule-builder.md)
+      + [Rule sets](classifications/crb/classification-rule-set.md)
+      + [Rules](classifications/crb/classification-quickstart-rules.md)
+      + [Rule definitions](classifications/crb/classification-rule-definitions.md)
+      + [Subclassifications](classifications/crb/subclassification-rule-builder.md)
     + Classification importer {#classifications-importer}
-      + [Classifications importer overview](classifications/importer/c-working-with-saint.md)
-      + [Classification data files](classifications/importer/c-saint-data-files.md)
+      + [Overview](classifications/importer/c-working-with-saint.md)
+      + [Data files](classifications/importer/c-saint-data-files.md)
       + [Delete classification data](classifications/importer/t-delete-classification-data.md)
-      + [Classification template](classifications/importer/c-download-saint-data.md)
+      + [Template](classifications/importer/c-download-saint-data.md)
       + [Browser import](classifications/importer/browser-import.md)
       + [Browser export](classifications/importer/browser-export.md)
       + [FTP import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -304,3 +304,4 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Analyze Marketing Channels](c-marketing-channels/analyze-mc.md)
   + [Marketing Channels permissions](c-marketing-channels/c-channel-report-access.md)
   + [Marketing Channels FAQs and examples](c-marketing-channels/c-faq.md)
+

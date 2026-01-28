@@ -71,7 +71,17 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Edit a consolidation
+## Edit a consolidation {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Mismatch"
+>abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Absent"
+>abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
 
 To edit a classification consolidation, in the main Adobe Analytics interface:
 
@@ -118,18 +128,7 @@ To run a classification consolidation:
 1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. 
 
 
-### Approve {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Mismatch"
->abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Absent"
->abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
+### Approve
 
 Once a classification consolidation has successfully run, the consolidation status is ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
 

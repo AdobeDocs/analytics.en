@@ -31,23 +31,3 @@ To edit the settings for a classification set:
       See [Create a classification set](/help/components/classifications/sets/create.md) for more details.
 
    1. Select **[!UICONTROL Save]** to save the settings. Select **[!UICONTROL Cancel]** to cancel.
-
-
-<!--
-
-Configure a classification set's settings.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
-
-![classification set settings](../../assets/classification-set-settings.png)
-
-The following fields are available in this tab:
-
-* **[!UICONTROL Name]**: The classification set name.
-* **[!UICONTROL Description]**: The description for the classification set.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
-* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
-* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
-* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
-
--->

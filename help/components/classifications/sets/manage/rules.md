@@ -314,4 +314,3 @@ You want to classify with the classification **[!UICONTROL Type]** how users sea
 * When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
 * When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy` is classified as **[!UICONTROL Type]**.
 * When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**. 
-

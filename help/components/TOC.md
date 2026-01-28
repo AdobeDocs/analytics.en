@@ -278,7 +278,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
     + Classification importer {#classifications-importer}
       + [Overview](classifications/importer/c-working-with-saint.md)
       + [Data files](classifications/importer/c-saint-data-files.md)
-      + [Delete classification data](classifications/importer/t-delete-classification-data.md)
+      + [Delete data](classifications/importer/t-delete-classification-data.md)
       + [Template](classifications/importer/c-download-saint-data.md)
       + [Browser import](classifications/importer/browser-import.md)
       + [Browser export](classifications/importer/browser-export.md)

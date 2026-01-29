@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification sets overview
 
-Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/manage-sets.md.md). The result is a single intuitive interface to create and manage classification data.
+Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/manage-sets.md). The result is a single intuitive interface to create and manage classification data.
 
 
 ## Classification sets versus legacy classifications

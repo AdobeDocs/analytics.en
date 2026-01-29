@@ -258,8 +258,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + Classification sets {#sets}
     + [Overview](classifications/sets/overview.md)
     + [Data files](classifications/sets/data-files.md)
-    + [Create and edit](/help/components/classifications/sets/create.md)
-    + [Manage](/help/components/classifications/sets/set-manager.md)
+    + [Create and edit](/help/components/classifications/sets/create-set.md)
+    + [Manage](/help/components/classifications/sets/manage-sets.md)
     + Classification set {#set}
       + [Settings](classifications/sets/manage/settings.md)
       + [Schema](classifications/sets/manage/schema.md)

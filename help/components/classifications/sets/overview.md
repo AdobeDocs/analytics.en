@@ -50,7 +50,7 @@ Classification sets consist of three functional areas:
 The workflow for classification sets typically involves the following steps:
 
 1. Consider for which report suite and dimension combinations you want to create a classification set. An example is to define a product classification set that you create for any report suite for which you want to classify products with more details. For example, details like category and color.
-1. [Create a classification set](/help/components/classifications/sets/create.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
+1. [Create a classification set](/help/components/classifications/sets/create-set.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
    
    | Report suite | Key dimension |
    |---|---|

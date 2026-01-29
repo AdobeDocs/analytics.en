@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification sets overview
 
-Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/set-manager.md). The result is a single intuitive interface to create and manage classification data.
+Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/manage-sets.md). The result is a single intuitive interface to create and manage classification data.
 
 
 ## Classification sets versus legacy classifications
@@ -40,7 +40,7 @@ To access **[!UICONTROL Classification sets]** from the **[!UICONTROL Components
 
 Classification sets consist of three functional areas:
 
-* [**[!UICONTROL Classification Sets]**](set-manager.md): Create, edit, and delete classification sets.
+* [**[!UICONTROL Classification Sets]**](manage-sets.md): Create, edit, and delete classification sets.
 * [**[!UICONTROL Jobs]**](job-manager.md): View the status of classification sets jobs.
 * [**[!UICONTROL Consolidations]**](consolidations/manage.md): Combine multiple classification sets into a single classification set.
 
@@ -50,7 +50,7 @@ Classification sets consist of three functional areas:
 The workflow for classification sets typically involves the following steps:
 
 1. Consider for which report suite and dimension combinations you want to create a classification set. An example is to define a product classification set that you create for any report suite for which you want to classify products with more details. For example, details like category and color.
-1. [Create a classification set](/help/components/classifications/sets/create.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
+1. [Create a classification set](/help/components/classifications/sets/create-set.md) with subscriptions for one or more report suite and key dimension combinations that identify products. For example:
    
    | Report suite | Key dimension |
    |---|---|

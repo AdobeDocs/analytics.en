@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification sets overview
 
-Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/set-manager.md). The result is a single intuitive interface to create and manage classification data.
+Classification sets provide a single interface to manage classifications and rules. This workflow combines the creation of classifications in [Report suite settings](/help/admin/tools/manage-rs/report-suites-admin.md) with the [Classification importer](/help/components/classifications/sets/manage-sets.md.md). The result is a single intuitive interface to create and manage classification data.
 
 
 ## Classification sets versus legacy classifications
@@ -40,7 +40,7 @@ To access **[!UICONTROL Classification sets]** from the **[!UICONTROL Components
 
 Classification sets consist of three functional areas:
 
-* [**[!UICONTROL Classification Sets]**](set-manager.md): Create, edit, and delete classification sets.
+* [**[!UICONTROL Classification Sets]**](manage-sets.md): Create, edit, and delete classification sets.
 * [**[!UICONTROL Jobs]**](job-manager.md): View the status of classification sets jobs.
 * [**[!UICONTROL Consolidations]**](consolidations/manage.md): Combine multiple classification sets into a single classification set.
 

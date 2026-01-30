@@ -1,15 +1,15 @@
 ---
 title: Convert Your Legacy Report Builder Workbooks
-description: Understand how to convert your legacy requests to datablocks in Report Builder.
+description: Understand how to convert your legacy Report Builder based workbooks to use the new Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 ---
-# Convert legacy Report Builder workbooks to datablocks
+# Convert legacy Report Builder workbooks
 
-As part of the move to a new Report Builder functionality, you can quickly convert your current legacy Report Builder based workbooks to use the new Report Builder functionality. 
+As part of the move to a new Report Builder functionality, you can quickly convert your current legacy Report Builder based workbooks to use the new Report Builder [datablocks](create-a-data-block.md) functionality. 
 
 >[!IMPORTANT]
 >
@@ -23,8 +23,39 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbook
 >[!ENDSHADEBOX]
 
 
+>[!NOTE]
+>
+>To convert legacy Report Builder workbooks, you must have first [set up the new Report Builder](/help/analyze/report-builder/report-builder-setup.md).
 
-1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
+
+
+The new Report Builder automatically converts a legacy Report Builder workbook when you open such a workbook in Excel. 
+
+## Scheduled legacy Report Builder workbooks
+
+If you have legacy Report Builder workbooks that are scheduled, you have the option to migrate the schedule as well. That option is only available when you convert a legacy Report Builder scheduled workbook that you download and open from the new Report Builder.
+
+To download these scheduled legacy Report Builder based workbooks:
+
+
+
+1. To download your legacy Report Builder based scheduled workbooks.
+
+   1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
+
+   1. Select **[!UICONTROL Login]** and log in to Report Builder.
+   
+   1. Select **[!UICONTROL Schedule]** in the [Report Builder hub](report-builder-hub.md).
+   1. Select the **[!UICONTROL Legacy]** tab. The tab lists the legacy Report Builder based scheduled workbooks.
+   
+      ![Legacy Report Builder based scheduled workblooks](assets/upgrade-legacy-schedule.png)
+
+   1. Select the workbook you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg).
+   1. 
+
+
+To convert your legacy Report Builder based workbook:
+
 
 1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
 

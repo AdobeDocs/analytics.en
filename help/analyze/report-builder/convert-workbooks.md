@@ -64,13 +64,13 @@ You can now [manage the data block](/help/analyze/report-builder/manage-reportbu
 
 Some legacy Report Builder functionality is no longer available in the new Report Builder
 
-- Real-time requests
+* Real-time requests
 
-- Path/Fallout reporting
+* Path/Fallout reporting
 
-- FTP option for scheduled reports
+* FTP option for scheduled reports
 
-- Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
+* Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
 
 ## Schedule a converted workbook {#schedule}
 

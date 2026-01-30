@@ -1,6 +1,6 @@
 ---
-title: How to convert your legacy Report Builder workbooks to datablocks
-description: Describes how convert your legacy requests to datablocks
+title: Convert Your Legacy Report Builder Workbooks
+description: Understand how to convert your legacy requests to datablocks in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
@@ -9,11 +9,11 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 ---
 # Convert legacy Report Builder workbooks to datablocks
 
-As part of the move to a new Report Builder technology, you can quickly convert your current legacy workbooks to Javascript-based workbooks. 
+As part of the move to a new Report Builder functionality, you can quickly convert your current legacy Report Builder based workbooks to use the new Report Builder functionality. 
 
 >[!IMPORTANT]
 >
->Duplicate each workbook and rename one version before you convert it. That way, you still have a copy of the original workbook, should you need it.
+>Duplicate each workbook and rename one version before you convert the workbook. That ensures that you always have a copy of the original workbook, should you need it.
 
 
 >[!BEGINSHADEBOX]
@@ -26,39 +26,43 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbook
 
 1. Set up the new Report Builder by [following these instructions](/help/analyze/report-builder/report-builder-setup.md).
 
-1. Open Excel and click the Adobe Report Builder icon at the top right. 
+1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
 
 1. Click **[!UICONTROL Login]** and log in to Report Builder.
 
-1. The Report Builder add-in detects if this workbook contains [Legacy Report Builder](/help/analyze/legacy-report-builder/home.md) requests.
+1. The Report Builder add-in detects if this workbook contains [legacy Report Builder](/help/analyze/legacy-report-builder/home.md) requests.
 
-    ![upgrade workbook prompt](assets/upgrade_workbook.png)
+    ![upgrade workbook prompt](assets/upgrade-workbook.png){zoomable="yes"}
 
-1. If one or more legacy requests are found, click **[!UICONTROL Upgrade]** to upgrade a workbook. 
+1. If one or more legacy requests are found, click **[!UICONTROL Upgrade]** in the **[!UICONTROL Upgrade workbook]** dialog to upgrade the workbook. 
 
     >[!NOTE]
     >
     >You have to upgrade each request individually. Bulk upgrade is not supported.
 
 
-1. A warning appears that alerts you to changes to the workbook if you upgrade. It also urges you to create a backup of your legacy workbook before proceeding.
+1. A **[!UICONTROL Warning]** dialog appears that alerts you to changes to the workbook if you upgrade. It also urges you to create a backup of your legacy workbook before proceeding.
 
-    ![upgrade warning](assets/upgrade_warning.png)
+    ![upgrade warning](assets/upgrade-warning.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Proceed]** to continue with the upgrade.
 
-    If the upgrade is successful, the following completion notice appears:
+    If the upgrade is successful, a **[!UICONTROL The workbook upgrade is now completed]** notification appears.
 
-    ![upgrade complete](assets/upgrade_complete.png)
+    ![upgrade complete](assets/upgrade-complete.png)
 
-1. (Optional) Click **[!UICONTROL Download upgrade report]**. This report contains the status on each data block that was upgraded. 
+    * Select **[!UICONTROL Close]** to close the notification and continue to work in the workbook with updated requests for the new Report Builder. 
+
+    * Select **[!UICONTROL Download upgrade report]** to download and open a new Excel workbook that shows the result of the upgrade. For an example, see below.
+
+      ![Excel Report Builder upgrade report workbook](assets/upgrade-report.png)
 
 You can now [manage the data block](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Legacy Report Builder features not supported in the New Report Builder {#unsupported}
+## Legacy Report Builder features not supported {#unsupported}
 
-When comparing the functionality of Legacy Report Builder to the new Report Builder Add-in, some legacy functionality is no longer available:
+Some legacy Report Builder functionality is no longer available in the new Report Builder
 
 - Real-time requests
 

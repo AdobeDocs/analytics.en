@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1645" height="562" viewBox="0 0 1645 562">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_161772" data-name="Rectangle 161772" width="64" height="63" transform="translate(553 348)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_161774" data-name="Rectangle 161774" width="58" height="63" transform="translate(139 337)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_161776" data-name="Rectangle 161776" width="67" height="62" transform="translate(1384 338)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-Full_table_export_process">
+      <rect width="1645" height="562"/>
+    </clipPath>
+  </defs>
+  <g id="Full_table_export_process" data-name="Full table export process" clip-path="url(#clip-Full_table_export_process)">
+    <rect width="1645" height="562" fill="#fff"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(-72.929 -83.177)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(111.929 271.177)" fill="#fff" stroke="#b5dcf6" stroke-width="2">
+        <rect width="322" height="131" rx="33" stroke="none"/>
+        <rect x="1" y="1" width="320" height="129" rx="32" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(470 189)" fill="#fff" stroke="#f5c342" stroke-width="2">
+      <rect width="303" height="131" rx="33" stroke="none"/>
+      <rect x="1" y="1" width="301" height="129" rx="32" fill="none"/>
+    </g>
+    <text id="Configure_a_location_on_the_account" data-name="Configure a location 
+on the account" transform="translate(535 194)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-76.96" y="32">Configure a </tspan><tspan x="-54.64" y="72">location </tspan><tspan x="-99.792" y="112">on the account</tspan></text>
+    <text id="Configure_a_cloud_account" data-name="Configure a 
+cloud account" transform="translate(132 207)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-76.96" y="32">Configure a </tspan><tspan x="-93.936" y="72">cloud account</tspan></text>
+    <g id="Group_5" data-name="Group 5" transform="translate(794 -80)">
+      <g id="Rectangle_1-3" data-name="Rectangle 1" transform="translate(112 271)" fill="#fff" stroke="#2e6eba" stroke-width="2">
+        <rect width="326" height="131" rx="33" stroke="none"/>
+        <rect x="1" y="1" width="324" height="129" rx="32" fill="none"/>
+      </g>
+      <text id="Export_a_report_from_Report_Builder" data-name="Export a report from 
+Report Builder" transform="translate(177 271)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-103.12" y="32">Export a report </tspan><tspan x="-32.624" y="72">from </tspan><tspan x="-98.208" y="112">Report Builder</tspan></text>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(1139 101.797)">
+      <g id="Canvas_Container" data-name="Canvas Container" transform="translate(-233 99.204)" fill="#707070" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="76" height="84" stroke="none"/>
+        <rect x="0.5" y="0.5" width="75" height="83" fill="none"/>
+      </g>
+      <path id="a" d="M48.711,5.759l4.579,5.124-14,11.4L23.036,6.027A1.056,1.056,0,0,0,21.6,5.972L1,23.61V34.729l20.889-17.9L38.042,32.977a1.056,1.056,0,0,0,1.414.072l19.118-16.5,3.918,4.634a1.056,1.056,0,0,0,1.841-.7V4H49.492a1.056,1.056,0,0,0-.781,1.759Z" transform="translate(-229.778 116.062)" fill="#707070"/>
+      <path id="a-2" data-name="a" d="M13,14.351v26.9a2.111,2.111,0,0,0,2.111,2.111h8.444a2.111,2.111,0,0,0,2.111-2.111V15.427L19.756,8.819Z" transform="translate(-191.111 131.592)" fill="#707070"/>
+      <path id="a-3" data-name="a" d="M5,11.962v29.6a2.111,2.111,0,0,0,2.111,2.111h8.444a2.111,2.111,0,0,0,2.111-2.111V17.613l-8.89-8.89Z" transform="translate(-216.889 131.282)" fill="#707070"/>
+      <path id="a-4" data-name="a" d="M1,36.317a2.111,2.111,0,0,0,2.111,2.111h8.444a2.111,2.111,0,0,0,2.111-2.111V10.35L1,21.2Z" transform="translate(-229.778 136.523)" fill="#707070"/>
+      <path id="a-5" data-name="a" d="M9,14.661V34.383a2.111,2.111,0,0,0,2.111,2.111h8.444a2.111,2.111,0,0,0,2.111-2.111V10.95l-9.014,7.374Z" transform="translate(-204 138.457)" fill="#707070"/>
+      <path id="Canvas" d="M0,0H76V76H0Z" transform="translate(-233 103.173)" fill="#707070" opacity="0"/>
+    </g>
+    <g id="Group_160578" data-name="Group 160578" transform="translate(-65 -119)">
+      <g id="Polygon_3" data-name="Polygon 3" transform="matrix(0.017, 1, -1, 0.017, 534.5, 359.758)" fill="#707070">
+        <path d="M 24.22921943664551 27.5 L 0.7707798480987549 27.5 L 12.5 1.226546764373779 L 24.22921943664551 27.5 Z" stroke="none"/>
+        <path d="M 12.5 2.453083038330078 L 1.541555404663086 27 L 23.45844459533691 27 L 12.5 2.453083038330078 M 12.5 0 L 25 28 L 0 28 L 12.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="Path_3" data-name="Path 3" d="M645.5,159v80.5" transform="translate(267 1018) rotate(-90)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Group_160579" data-name="Group 160579" transform="translate(348.063 -118)">
+      <g id="Polygon_3-2" data-name="Polygon 3" transform="matrix(0.017, 1, -1, 0.017, 534.5, 359.758)" fill="#707070">
+        <path d="M 24.22921943664551 27.5 L 0.7707798480987549 27.5 L 12.5 1.226546764373779 L 24.22921943664551 27.5 Z" stroke="none"/>
+        <path d="M 12.5 2.453083038330078 L 1.541555404663086 27 L 23.45844459533691 27 L 12.5 2.453083038330078 M 12.5 0 L 25 28 L 0 28 L 12.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="Path_3-2" data-name="Path 3" d="M645.5,159v80.5" transform="translate(267 1018) rotate(-90)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Rectangle_161770" data-name="Rectangle 161770" transform="translate(470 189)" fill="#fff" stroke="#f5c342" stroke-width="2">
+      <rect width="303" height="131" rx="33" stroke="none"/>
+      <rect x="1" y="1" width="301" height="129" rx="32" fill="none"/>
+    </g>
+    <text id="Configure_a_location_on_the_account-2" data-name="Configure a location 
+on the account" transform="translate(535 194)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-76.96" y="32">Configure a </tspan><tspan x="-54.64" y="72">location </tspan><tspan x="-99.792" y="112">on the account</tspan></text>
+    <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-64 -130)" opacity="0.812" clip-path="url(#clip-path)">
+      <g id="Smock_Folder_18_N" transform="translate(553.5 348)">
+        <rect id="Canvas-2" data-name="Canvas" width="63" height="63" fill="#ff13dc" opacity="0"/>
+        <path id="Path_35" data-name="Path 35" d="M57.75,14l-25.081.014-5.775-5.95A3.5,3.5,0,0,0,24.376,7H7a3.5,3.5,0,0,0-3.5,3.5V50.75A1.75,1.75,0,0,0,5.25,52.5h52.5a1.75,1.75,0,0,0,1.75-1.75v-35A1.75,1.75,0,0,0,57.75,14ZM7,10.5H24.376l6.8,7H7Z" fill="#464646"/>
+      </g>
+    </g>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-65 -119)" opacity="0.792" clip-path="url(#clip-path-2)">
+      <g id="Smock_Cloud_18_N" transform="translate(139 339.501)">
+        <rect id="Canvas-3" data-name="Canvas" width="57.999" height="57.999" fill="#ff13dc" opacity="0"/>
+        <path id="Path_36" data-name="Path 36" d="M47.642,46.261a10.357,10.357,0,1,0,0-20.714h0a10.457,10.457,0,0,0-1.169.066A13.121,13.121,0,1,0,20.822,20.4,11.054,11.054,0,0,0,7.277,33.924,6.214,6.214,0,1,0,6.214,46.261Z" fill="#464646"/>
+      </g>
+    </g>
+    <g id="Group_160582" data-name="Group 160582" transform="translate(-78 -264)">
+      <g id="Rectangle_161771" data-name="Rectangle 161771" transform="translate(1361 308)" fill="#fff" stroke="#f5c342" stroke-width="2">
+        <rect width="303" height="131" rx="33" stroke="none"/>
+        <rect x="1" y="1" width="301" height="129" rx="32" fill="none"/>
+      </g>
+      <text id="Access_data_In_the_Cloud" data-name="Access data
+In the 
+Cloud" transform="translate(1426 314)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-78.112" y="32">Access data</tspan><tspan x="-38.688" y="72">In the </tspan><tspan x="-39.2" y="112">Cloud</tspan></text>
+      <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(1258 6)" opacity="0.792" clip-path="url(#clip-path-2)">
+        <g id="Smock_Cloud_18_N-2" data-name="Smock_Cloud_18_N" transform="translate(139 339.501)">
+          <rect id="Canvas-4" data-name="Canvas" width="57.999" height="57.999" fill="#ff13dc" opacity="0"/>
+          <path id="Path_37" data-name="Path 37" d="M47.642,46.261a10.357,10.357,0,1,0,0-20.714h0a10.457,10.457,0,0,0-1.169.066A13.121,13.121,0,1,0,20.822,20.4,11.054,11.054,0,0,0,7.277,33.924,6.214,6.214,0,1,0,6.214,46.261Z" fill="#464646"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_160581" data-name="Group 160581" transform="translate(-65 -119)">
+      <path id="Path_1" data-name="Path 1" d="M203.5,183.686v-81.5H372.221" transform="translate(952 126.314)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(1348.268 216) rotate(90)" fill="#707070">
+        <path d="M 24.17657852172852 23.54699897766113 L 0.8234223127365112 23.54699897766113 L 12.5 1.084065437316895 L 24.17657852172852 23.54699897766113 Z" stroke="none"/>
+        <path d="M 12.5 2.168132781982422 L 1.646844863891602 23.04699897766113 L 23.3531551361084 23.04699897766113 L 12.5 2.168132781982422 M 12.5 -1.9073486328125e-06 L 25 24.04699897766113 L 0 24.04699897766113 L 12.5 -1.9073486328125e-06 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <path id="Path_2" data-name="Path 2" d="M212.152,340.207V441.1H379.6" transform="translate(878.348 -12.101)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(1283.947 416.5) rotate(90)" fill="#707070">
+      <path d="M 24.22921943664551 27.5 L 0.7707798480987549 27.5 L 12.5 1.226546764373779 L 24.22921943664551 27.5 Z" stroke="none"/>
+      <path d="M 12.5 2.453083038330078 L 1.541555404663086 27 L 23.45844459533691 27 L 12.5 2.453083038330078 M 12.5 0 L 25 28 L 0 28 L 12.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Group_160583" data-name="Group 160583" transform="translate(-78 56)">
+      <g id="Rectangle_161771-2" data-name="Rectangle 161771" transform="translate(1361 308)" fill="#fff" stroke="#f5c342" stroke-width="2">
+        <rect width="303" height="131" rx="33" stroke="none"/>
+        <rect x="1" y="1" width="301" height="129" rx="32" fill="none"/>
+      </g>
+      <text id="Manage_Exports_In_Adobe" data-name="Manage 
+Exports
+In Adobe" transform="translate(1426 314)" fill="#707070" font-size="32" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="-53.744" y="32">Manage </tspan><tspan x="-51.968" y="72">Exports</tspan><tspan x="-60.624" y="112">In Adobe</tspan></text>
+      <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(3 5)" opacity="0.8" clip-path="url(#clip-path-4)">
+        <g id="Smock_FeedManagement_18_N" transform="translate(1386.5 338)">
+          <rect id="Canvas-5" data-name="Canvas" width="62" height="62" fill="#ff13dc" opacity="0"/>
+          <path id="Path_38" data-name="Path 38" d="M25.386,48.222H10.333V37.889H27.142a21.107,21.107,0,0,1,1.939-3.444H10.333V24.111H51.667v1.841a21.038,21.038,0,0,1,3.444,1.188V8.611a1.722,1.722,0,0,0-1.722-1.722H8.611A1.722,1.722,0,0,0,6.889,8.611V49.944a1.722,1.722,0,0,0,1.722,1.722H25.952A21.092,21.092,0,0,1,25.386,48.222ZM10.333,10.333H51.667V20.667H10.333Z" fill="#464646"/>
+          <path id="Path_39" data-name="Path 39" d="M60.61,44.409H56.95a10.578,10.578,0,0,0-1.55-3.753l2.606-2.606a1.045,1.045,0,0,0,0-1.478l-1.584-1.584a1.045,1.045,0,0,0-1.478,0l-2.6,2.607a10.585,10.585,0,0,0-3.751-1.55V32.39a1.045,1.045,0,0,0-1.045-1.045H45.455a1.045,1.045,0,0,0-1.045,1.045v3.66a10.583,10.583,0,0,0-3.751,1.55l-2.606-2.606a1.045,1.045,0,0,0-1.478,0L34.99,36.578a1.045,1.045,0,0,0,0,1.478L37.6,40.662a10.58,10.58,0,0,0-1.55,3.753H32.39a1.045,1.045,0,0,0-1.045,1.045v2.091A1.045,1.045,0,0,0,32.39,48.6h3.66a10.58,10.58,0,0,0,1.55,3.753l-2.606,2.606a1.045,1.045,0,0,0,0,1.478l1.584,1.584a1.045,1.045,0,0,0,1.478,0l2.606-2.606a10.583,10.583,0,0,0,3.751,1.55v3.66a1.045,1.045,0,0,0,1.045,1.045h2.091a1.045,1.045,0,0,0,1.045-1.045V56.95a10.584,10.584,0,0,0,3.751-1.55l2.606,2.606a1.045,1.045,0,0,0,1.478,0l1.584-1.584a1.045,1.045,0,0,0,0-1.478l-2.609-2.6a10.578,10.578,0,0,0,1.55-3.753h3.66a1.045,1.045,0,0,0,1.045-1.045V45.455a1.045,1.045,0,0,0-1.045-1.045ZM46.5,52.528A6.028,6.028,0,1,1,52.528,46.5,6.028,6.028,0,0,1,46.5,52.528Z" fill="#464646"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 ---
-title: What are restricted labels in Report Builder
-description: Describes restricted labels in Report Builder
+title: Restricted Labels In Report Builder
+description: Learn about restricted labels in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation

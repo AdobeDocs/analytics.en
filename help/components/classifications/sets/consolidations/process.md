@@ -50,28 +50,17 @@ After you have create a consolidation, the next steps are:
 
 
 
-<!--
-         
-  
+## Edit a consolidation {#edit-a-classification}
 
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]** > **[!UICONTROL Add]**
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Mismatch"
+>abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
 
-The following fields are available when creating a consolidation:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this consolidation.
-* **[!UICONTROL Dataset to match]**: A drop-down list of all classification sets.
-
-Once you select a classification set, a table with two columns appears:
-
-* The right column contains all classification sets that you want to consolidate. It starts with the classification set selected using the above drop-down list.
-* The left column contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
-
-Drag the desired classification sets from the available column on the left to the consolidation column on the right. Once the consolidation is given a name and two or more classification sets are in the right column, click **[!UICONTROL Save & Continue]**.
-
--->
-
-## Edit a consolidation
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Absent"
+>abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
 
 To edit a classification consolidation, in the main Adobe Analytics interface:
 
@@ -118,18 +107,7 @@ To run a classification consolidation:
 1. Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to close the dialog. 
 
 
-### Approve {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Mismatch"
->abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Absent"
->abstract="The percent of keys in the consolidated classification set, but not in the source classification set."
+### Approve
 
 Once a classification consolidation has successfully run, the consolidation status is ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. The approval of a classification consolidation replaces the individual classification sets with the consolidated classification set and the individual classification sets are removed.
 
@@ -137,7 +115,7 @@ Once a classification consolidation has successfully run, the consolidation stat
 
 To approve a classification set consolidation:
 
-1. Use the **[!UICONTROL Similarity Reports]** to review the consolidation. This report shows a table with the following columns:
+1. Use the **[!UICONTROL Similarity Reports]** report to review the consolidation. This report shows a table with the following columns:
 
    * **[!UICONTROL Classification Set Name]**: The name of the classification set.
    * **[!UICONTROL Mismatch]**: The percent of rows where key values do not match the source classification set. If the mismatch percent is high, the mismatch can be an indication that the classification data is too different. Check and make sure that the selected classification sets have similar classification data.

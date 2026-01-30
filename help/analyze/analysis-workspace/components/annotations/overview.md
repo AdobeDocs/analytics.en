@@ -22,7 +22,7 @@ Annotations can apply to:
 
 * The project in which annotations are created (default) or all projects.
 
-* The data view in which annotations are created (default), or all data views.
+* The report suite in which annotations are created (default), or all report suites.
 
 See [Create annotations](create-annotations.md) for the various options available to create annotations. You then build, modify, and save annotations in the [Annotation builder](create-annotations.md#annotation-builder).
 

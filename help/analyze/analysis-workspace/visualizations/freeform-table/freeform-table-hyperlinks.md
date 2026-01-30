@@ -34,7 +34,7 @@ Consider the following when you create hyperlinks for one or more dimension item
 
 * The hyperlinks you create are stored on the freeform table within the Analysis Workspace project. Hyperlinks do not persist when using the same dimension or dimension items in another table or in another project. 
 
-* If you change the data view of the freeform table, any hyperlinks that were created for dimensions or dimension items in the table are still available. This functionality assumes that the dimension still exists in the data view. 
+* If you change the report suite of the freeform table, any hyperlinks that were created for dimensions or dimension items in the table are still available. This functionality assumes that the dimension still exists in the report suite. 
 
 * URLs are not checked for validity when you create the hyperlink. If you
 

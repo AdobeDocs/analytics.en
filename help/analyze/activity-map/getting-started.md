@@ -12,7 +12,7 @@ Activity Map in Adobe Analytics comprises four main elements:
 * **Report suite setting**: You must enable Activity Map in Report suite settings. When enabled, the report suite creates several reserved variables for Activity Map dimensions and metrics.
 * **Implementation**: Collect Activity Map data on your website or property. Customizing how data is collected can improve the quality and experience of reports.
 * **Workspace dimensions and metrics**: When your implementation is correctly configured, you can use Activity Map dimensions and metrics in Analysis Workspace.
-* **Overlay**: Adobe offers a browser extension to view Activity Map data in the context of your website.
+* **Overlay**: Adobe offers a browser extension to view Activity Map data in the context of your website. This feature is not available for Web SDK implementations.
 
 ## Enable report suite setting
 
@@ -24,7 +24,7 @@ Enabling Activity Map reports creates several backend reserved variables. See [A
 
 ## Code installation
 
-Your implementation must be correctly configured to send Activity Map data to Adobe.
+Your implementation must be correctly configured to send Activity Map data to Adobe. The overlay browser extension is not available when Adobe Analytics is implemented with the Web SDK.
 
 +++Web SDK tag extension
 

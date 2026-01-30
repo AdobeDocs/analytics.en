@@ -51,3 +51,4 @@ Here are the high-level steps you take to implement classification rules:
 **Blog**: For additional information about this feature, see the Digital Marketing Blog: [Rule-based Classifications](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
 **Video**: View the [Classifications Overview](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) video.
+

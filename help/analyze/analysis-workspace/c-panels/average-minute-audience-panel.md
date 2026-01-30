@@ -61,7 +61,7 @@ To use a **[!UICONTROL Media average minute audience]** panel:
 
 1. Create a **[!UICONTROL Media average minute audience]** panel. For information about how to create a panel, see [Create a panel](panels.md#create-a-panel).  
 
-1. Ensure you select a data view for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
+1. Ensure you select a report suite for the panel that has components configured from the Adobe Analytics for Streaming Media Add-on.
 
 1. Specify the [input](#panel-input) for the panel.
 

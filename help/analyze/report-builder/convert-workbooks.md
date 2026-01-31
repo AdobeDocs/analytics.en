@@ -92,7 +92,20 @@ You can now [manage the data block](/help/analyze/report-builder/manage-reportbu
 
 ## Schedule a converted legacy workbook
 
-When you want to schedule a converted legacy workbook that you have downloaded and opened from the Schedule tab in Report Builder hub, the schedule is
+When you want to schedule a converted legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in Report Builder hub, you are offered to use the schedule details from the legacy workbook.
+
+1. Schedule a workbook. To schedule a converted legacy workbook with a legacy schedule:
+
+   * Select **[!UICONTROL Send workbook]** from the Report Builder hub, or 
+   * Select **[!UICONTROL Schedule workbook]** from the **[!UICONTROL Workbooks]** tab available in the **[!UICONTROL Schedules]** tab in Report Builder.
+
+1. You are offered to use the schedule details from the legacy workbook as the default schedule settings.
+
+   * Select **[!UICONTROL Use]** to use the legacy schedule details. The schedule details are prepopulated in the [Send workbook](schedule-reportbuilder.md#schedule-a-workbook) interface.
+   * Select **[!UICONTROL Don't use]** to not use the legacy schedule details.
+   * Select **[!UICONTROL Cancel]** to cancel.
+
+   You can select **[!UICONTROL Remove legacy metadata from future use]** to not use the legacy schedule details for this workbook in the future.
 
 
 ## Legacy Report Builder features not supported {#unsupported}

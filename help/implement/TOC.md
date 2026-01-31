@@ -142,8 +142,8 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Take charge of an existing Adobe Analytics implementation](prepare/existing-implementation.md)
 + Implement Analytics using Experience Platform Edge {#aep-edge}
   + [Experience Edge overview](aep-edge/overview.md)
-  + [Data object variable mapping](aep-edge/data-var-mapping.md)
-  + [XDM object variable mapping](aep-edge/xdm-var-mapping.md)
+  + [Data object field mapping](aep-edge/data-var-mapping.md)
+  + [XDM object field mapping](aep-edge/xdm-var-mapping.md)
   + [Edge Network event types](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK overview](aep-edge/web-sdk/overview.md)

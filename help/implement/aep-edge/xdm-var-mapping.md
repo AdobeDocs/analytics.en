@@ -13,7 +13,7 @@ If your organization plans to move to Customer Journey Analytics, Adobe recommen
 
 ## Value priorities
 
-Most XDM object fields in this table coincide with a [data object field](data-var-mapping.md). If you set both a given XDM object field and its respective data object field, the data object field takes priority. If you use both the XDM object field and the data object field, Adobe recommends setting custom events using the data object field. If the field `data.__adobe.analytics.events` is present, it overwrites all XDM object fields related commerce and custom events.
+Most XDM object fields in this table correspond to a [mapped data object field](data-var-mapping.md). During Adobe Analytics ingestion, values are first mapped from XDM to Analytics variables. Recognized data object fields are then mapped and overwrite any previously set values when they map to the same Analytics variable. For example, if `data.__adobe.analytics.events` is present, it replaces the entire set of events that would otherwise be derived from XDM; events are not combined across both sources.
 
 ## XDM object field mapping
 

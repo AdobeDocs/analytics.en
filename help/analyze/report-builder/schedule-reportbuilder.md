@@ -129,7 +129,7 @@ To cancel sending the workbook, select **[!UICONTROL Cancel]**.
 
 ## Manage scheduled workbooks
 
-For information about managing workbooks that are already scheduled, see [Manage scheduled workbooks](/help/report-builder/manage-schedules-reportbuilder.md).
+For information about managing workbooks that are already scheduled, see [Manage scheduled workbooks](manage-schedules-reportbuilder.md).
 
 
 

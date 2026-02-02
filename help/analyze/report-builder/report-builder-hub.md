@@ -34,7 +34,7 @@ Use the **[!UICONTROL Commands]** panel to access commands that are compatible w
 | ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data block]** | The selected cell or cells range is part of one data block only. | Use to edit a data block.                       |
 | ![Refresh](/help/assets/icons/Refresh.svg) **[!UICONTROL Refresh data block]**      | The selection contains at least one data block. The command refreshes only the data blocks in the selection. | Use to refresh one or more data blocks.    |
 | ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Refresh all data blocks]** | The workbook contains one or more data blocks. | Use to refresh all data blocks in the workbook |
-| ![Send](/help/assets/icons/Send.svg) **[!UICONTROL Send workbook]** | The workbook contains one or more data blocks. | Use to send the workbook as a file by email. |
+| ![Send](/help/assets/icons/Send.svg) **[!UICONTROL Send workbook]** | The workbook contains one or more data blocks. | Use to [send the workbook as a file by email](schedule-reportbuilder.md). |
 | ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]**   | The selected cell or cell range is part of one or more data blocks. | Use to copy a data block.   |
 | ![Cut](/help/assets/icons/Cut.svg) **[!UICONTROL Cut data block]** | The selected cell or cell range is part of one or more data blocks. | se to cut a data block. |
 | ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete data block]** | The selected cell or cells range is part of one data block only. | Use to delete a data block |

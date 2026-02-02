@@ -52,15 +52,11 @@ To open a legacy workbook, you can:
   1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new window in Excel. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
 
 
-## Convert a workbook
+## Convert a legacy workbook
 
 To convert your legacy workbook:
 
-1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
-
-1. Click **[!UICONTROL Login]** and log in to Report Builder.
-
-1. The Report Builder add-in detects if this workbook contains [legacy Report Builder](/help/analyze/legacy-report-builder/home.md) requests.
+1. Once you open a legacy workbook, the new Report Builder detects if this workbook contains [legacy Report Builder](/help/analyze/legacy-report-builder/home.md) requests.
 
     ![upgrade workbook prompt](assets/upgrade-workbook.png){zoomable="yes"}
 
@@ -92,7 +88,7 @@ You can now [manage the data block](/help/analyze/report-builder/manage-reportbu
 
 ## Schedule a converted legacy workbook
 
-When you want to schedule a converted legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in Report Builder hub, you are offered to use the schedule details from the legacy workbook.
+When you want to schedule a converted legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in Report Builder hub, you have the option to use the schedule details from the legacy workbook.
 
 1. Schedule a workbook. To schedule a converted legacy workbook with a legacy schedule:
 
@@ -101,25 +97,23 @@ When you want to schedule a converted legacy workbook that you have downloaded a
 
 1. You are offered to use the schedule details from the legacy workbook as the default schedule settings.
 
+   ![Migrate legacy workbook schedule](assets/upgrade-legacy-schedule-convert.png)
+
    * Select **[!UICONTROL Use]** to use the legacy schedule details. The schedule details are prepopulated in the [Send workbook](schedule-reportbuilder.md#schedule-a-workbook) interface.
    * Select **[!UICONTROL Don't use]** to not use the legacy schedule details.
    * Select **[!UICONTROL Cancel]** to cancel.
 
-   You can select **[!UICONTROL Remove legacy metadata from future use]** to not use the legacy schedule details for this workbook in the future.
+   Select **[!UICONTROL Remove legacy metadata from future use]** to not use the legacy schedule details for this workbook in the future.
 
 
 ## Legacy Report Builder features not supported {#unsupported}
 
 Some legacy Report Builder functionality is no longer available in the new Report Builder
 
-* Real-time requests
+* Real-time requests.
 
-* Path/Fallout reporting
+* Path/Fallout reporting.
 
-* FTP option for scheduled reports
+* FTP option for scheduled reports.
 
-* Visitors metrics. The following metrics will all be converted to "unique visitors", even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
-
-## Schedule a converted workbook {#schedule}
-
-See [Schedule a converted workbook](/help/analyze/report-builder/schedule-reportbuilder.md) in the scheduling article.
+* Visitors metrics. The following metrics will all be converted to *unique visitors*, even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.

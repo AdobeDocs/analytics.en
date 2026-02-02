@@ -78,13 +78,9 @@ To export reports from Report Builder:
    Data is sent to the cloud account that you specified at the frequency that you specified.
 
 
-## Manage exports
-
-After data is exported from Analysis Workspace, you can edit, re-export, duplicate, tag, or delete existing exports, as described in [Manage exports](/help/components/exports/manage-exports.md). 
-
 ## Advantages of exporting to the cloud
 
-Exporting Customer Journey Analytics data to the cloud allows you to: 
+Exporting Adobe Analytics data to the cloud allows you to: 
 
 * Export to a shared location, such as Google Cloud Platform, Microsoft Azure, and Amazon S3.
 
@@ -92,11 +88,11 @@ Exporting Customer Journey Analytics data to the cloud allows you to:
 
   This type of data can be used to detect long-term trends in order to gain business intelligence, and ultimately lead to better business decision-making.
 
-* Include calculated metrics in the exported Customer Journey Analytics data. 
+* Include calculated metrics in the exported Adobe Analytics data. 
 
-* Structure data output as concatenated values.
+* Structure data output as concatenated values. 
 
-* Export one-time or on a schedule. 
+* Export one-time or on a schedule.
 
 * Export files in Excel, PDF, or CSV format. 
 
@@ -104,9 +100,10 @@ Exporting Customer Journey Analytics data to the cloud allows you to:
 
 ## Export requirements {#export-requirements}
 
+### Minimum requirements
+
 Make sure that your data blocks, your environment, and your permissions meet the following requirements:
 
 * **Data blocks:** All data blocks must include at least one component to a column, row, or value.
 
-* **Environment:** Ensure that the [IP addresses](/help/technotes/ip-addresses.md) and [Domains](/help/technotes/domains.md) used by Customer Journey Analytics are allowed through their organization's firewall.
-
+* **Environment:** Ensure that the [IP addresses](/help/technotes/ip-addresses.md) and [Domains](/help/technotes/domains.md) used by Adobe Analytics are allowed through their organization's firewall.

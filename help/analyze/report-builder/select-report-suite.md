@@ -22,7 +22,7 @@ Selecting a report suite from a cell is helpful when you have:
 
 To select a report suite from a cell, first build a data block and assign multiple report suites to a cell outside of your data block. Then, use the **[!UICONTROL Report suite from cell]** panel to refresh your data blocks from different report suites.
 
-1. Create a data block. For information about creating a data block, see [Create a data block](create-a-data-block.md).
+1. Create a data block. For information about creating a data block, see [Create a data block](/help/analyze/report-builder/create-a-data-block.md).
 
 1. Select ![DataViewSelector](/help/assets/icons/DataViewSelector.svg) in **[!UICONTROL Report suites]**.
 

@@ -290,8 +290,8 @@ user-guide-description: Manage data using components like Segments, Calculated M
       + [FAQ](classifications/importer/importer-faq.md)
 + Locations {#locations}
   + [Locations manager](/help/components/locations/locations-manager.md)
-  + [Cloud import accounts](/help/components/locations/configure-import-accounts.md)
-  + [Cloud import locations](/help/components/locations/configure-import-locations.md)
+  + [Configure cloud accounts](/help/components/locations/configure-import-accounts.md)
+  + [Configure cloud locations](/help/components/locations/configure-import-locations.md)
 + [Scheduled projects](scheduled-projects-manager.md)
 + [Scheduled reports queue](scheduled-reports-admin.md)
 + Real-time reporting {#real-time-reporting}

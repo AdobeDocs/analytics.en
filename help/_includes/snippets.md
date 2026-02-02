@@ -4,7 +4,7 @@
 
 >[!IMPORTANT]
 >
->A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) was released on October 16, 2024. It is supported on Mac, Windows, and web browsers.
+>A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) is available since October 16, 2024. This Report Builder is supported on macOS, Windows, and web browsers and can be used with Adobe Analytics and Customer Journey Analytics.
 >This Legacy Report Builder add-in version still works. You can [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) to the new Report Builder.
 
 ## Reports & Analytics end-of-life announcement {#ra-eol}

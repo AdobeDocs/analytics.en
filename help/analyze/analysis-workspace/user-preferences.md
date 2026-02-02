@@ -92,10 +92,12 @@ Some of these same preferences can also be customized for individual projects, a
 
 Click the linked preference titles for more information and context about each preference. 
 
+<!--
 >[!IMPORTANT]
 >
 >You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 | Section | Preference | Options |
 | --- | --- | --- |
@@ -106,6 +108,7 @@ Click the linked preference titles for more information and context about each p
 |  | [Report suite](/help/analyze/analysis-workspace/c-panels/panels.md) | Choose from where tables and visualizations derive their data. <ul><li>Most recent (default)</li><li>Specific report suite selected from a list</li></ul> |
 |  | [Calendar](/help/analyze/analysis-workspace/c-panels/panels.md) | Select from a list of: <ul><li>Adobe-provided ranges (default is This Month)</li><li>Custom-defined ranges</li></ul> |
 |  | [Panel Type](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>Freeform (default)</li><li>Blank</li><li>Quick Insights</li></ul> |
+|  | Number format | <ul><li>1,000.00 (default)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Count repeat instances | Specifies whether repeat instances are counted in reports. For example, this setting (when activated) treats multiple consecutive page views to the same page as multiple page views. With it off, they count as a single page view. <p>**Note:** This setting affects only certain metrics (such as Single Page Visits) and it does not apply to Flow or Fallout visualizations.</p> |
 |  | CSV separator character | <ul><li>Comma (default)</li><li>Semicolon</li><li>Colon</li><li>Pipe</li><li>Period</li><li>Space</li><li>Tab</li></ul> |
 |  | Show annotations | Choose whether annotations are visible in your projects. For more information about annotations, see [Annotations overview](/help/analyze/analysis-workspace/components/annotations/overview.md). |

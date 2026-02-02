@@ -1,5 +1,5 @@
 ---
-title: Filter Dimensions Inn Report Builder
+title: Filter Dimensions In Report Builder
 description: Learn how to filter dimensions in Report Builder.
 role: User
 feature: Report Builder

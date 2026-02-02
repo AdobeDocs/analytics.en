@@ -49,7 +49,7 @@ To open a legacy workbook, you can:
 
      ![Legacy workblooks](assets/upgrade-legacy-schedule.png)
 
-  1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new window in Excel. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
+  1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook that you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new window in Excel. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
 
 
 ## Convert a legacy workbook
@@ -88,7 +88,7 @@ You can now [manage the data block](/help/analyze/report-builder/manage-reportbu
 
 ## Schedule a converted legacy workbook
 
-When you want to schedule a converted legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in Report Builder hub, you have the option to use the schedule details from the legacy workbook.
+ You have the option to use the schedule details from the legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in the Report Builder hub. This option is not available for legacy workbooks with schedule details that you open from your local computer or network.
 
 1. Schedule a workbook. To schedule a converted legacy workbook with a legacy schedule:
 
@@ -116,4 +116,4 @@ Some legacy Report Builder functionality is no longer available in the new Repor
 
 * FTP option for scheduled reports.
 
-* Visitors metrics. The following metrics will all be converted to *unique visitors*, even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.
+* Visitors metrics. The following metrics are converted to *unique visitors*, even though the reporting result may not be an exact match: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly`, and `visitorsyearly`. This conversion also applies to `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly`, and `mobilevisitorsyearly`.

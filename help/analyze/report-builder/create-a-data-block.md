@@ -110,7 +110,7 @@ To build the data block, select report components, and then customize the layout
 >[Select a report suite](select-report-suite.md)
 >[Select a date range](select-date-range.md)
 >[Filter dimensions](filter-dimensions.md)
->[Work with segments](work-with-filters.md)
+>[Work with segments](work-with-segments.md)
 >
 
 

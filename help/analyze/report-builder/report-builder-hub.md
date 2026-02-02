@@ -66,7 +66,7 @@ The **Segments** link displays a summary list of the segments used by the select
 >
 >[Select a report suite](select-report-suite.md)
 >[Select a date range](select-date-range.md)
->[Work with filters](work-with-filters.md)
+>[Work with filters](work-with-segments.md)
 >
 
 <!--

@@ -77,7 +77,6 @@ To export reports from Report Builder:
 
    Data is sent to the cloud account that you specified at the frequency that you specified.
 
-1. (Optional) After you create the export, whether you chose to send it now or on a defined schedule, you can view and manage it on the [Exports page](/help/components/exports/manage-exports.md) and view it in the [Export logs](/help/components/exports/manage-export-logs.md).</p>
 
 ## Manage exports
 

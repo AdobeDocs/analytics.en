@@ -33,6 +33,15 @@ Before you create a data feed, it's important to have a basic understanding of d
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_notify"
+>title="Notify when complete"
+>abstract="Specify one or more email addresses where a notification should be delivered after the data feed is sent. Multiple email addresses must be separated with a comma."
+
+<!-- markdownlint-enable MD034 -->
+
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
 1. In the top navigation bar, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].

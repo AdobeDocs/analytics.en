@@ -1,19 +1,19 @@
 ---
-title: Data object variable mapping to Adobe Analytics
+title: Data object field mapping to Adobe Analytics
 description: View which data object fields Experience Platform Edge automatically maps to Analytics variables.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 ---
-# Data object variable mapping to Adobe Analytics
+# Data object field mapping to Adobe Analytics
 
-The following table shows the data object variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these data object field paths, no additional configuration is necessary to send data to Adobe Analytics.
+The following table shows the data object field that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these data object field paths, no additional configuration is necessary to send data to Adobe Analytics.
 
 Use of these fields is recommended if you intend to use Customer Journey Analytics in the future. This implementation method allows your organization to send data to Adobe using the Web SDK without conforming to an XDM schema. When your organization is ready to send data to Adobe Experience Platform, you can use [Datastream mapping](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) to point data object fields to their respective XDM fields.
 
 ## Value priorities
 
-Most data object fields in this table coincide with a [mapped XDM field](xdm-var-mapping.md). If you set both a given data object field and its respective XDM field, the data object field takes priority. For example, if the field `data.__adobe.analytics.events` is present, it overwrites all event-related XDM object fields.
+Most data object fields in this table correspond to a [mapped XDM field](xdm-var-mapping.md). During Adobe Analytics ingestion, values are first mapped from XDM to Analytics variables. Recognized data object fields are then mapped and overwrite any previously set values when they map to the same Analytics variable. For example, if `data.__adobe.analytics.events` is present, it replaces the entire set of events that would otherwise be derived from XDM; events are not combined across both sources. An empty string (`""`) in a data object field blanks its mapped Analytics variable for the hit, even if the corresponding XDM field contains a value.
 
 Some data object fields also support their respective [Query parameter value](../validate/query-parameters.md) as shorthand values. You can use standard data object fields and shorthand data object fields interchangeably, as long as they are each for unique variables. Avoid setting both a standard data object field and its respective shorthand data object field at the same time. Adobe cannot guarantee which field takes priority.
 

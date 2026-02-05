@@ -1,11 +1,11 @@
 ---
-title: XDM object variable mapping to Adobe Analytics
+title: XDM object field mapping to Adobe Analytics
 description: View which XDM fields that Edge automatically maps to Analytics variables.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
 ---
-# XDM object variable mapping to Adobe Analytics
+# XDM object field mapping to Adobe Analytics
 
 The following table shows the XDM variables that the Adobe Experience Platform Edge Network automatically maps into Adobe Analytics. If you use these XDM field paths, no additional configuration is necessary to send data to Adobe Analytics. These fields are included in the **[!UICONTROL Adobe Analytics ExperienceEvent Template]** field group. Use of these fields are recommended if you intend to send data to both Adobe Analytics and Adobe Experience Platform.
 
@@ -13,7 +13,7 @@ If your organization plans to move to Customer Journey Analytics, Adobe recommen
 
 ## Value priorities
 
-Most XDM object fields in this table coincide with a [data object field](data-var-mapping.md). If you set both a given XDM object field and its respective data object field, the data object field takes priority. If you use both the XDM object field and the data object field, Adobe recommends setting custom events using the data object field. If the field `data.__adobe.analytics.events` is present, it overwrites all XDM object fields related commerce and custom events.
+Most XDM object fields in this table correspond to a [mapped data object field](data-var-mapping.md). During Adobe Analytics ingestion, values are first mapped from XDM to Analytics variables. Recognized data object fields are then mapped and overwrite any previously set values when they map to the same Analytics variable. For example, if `data.__adobe.analytics.events` is present, it replaces the entire set of events that would otherwise be derived from XDM; events are not combined across both sources.
 
 ## XDM object field mapping
 

@@ -117,8 +117,3 @@ The backend architecture released with classification sets also contains several
 >[!IMPORTANT]
 >
 >The performance of classification sets mainly depend on the number of unique key values that contain data. Be careful when you do have variables that contain large numbers of unique values. Especially when you combine such variables from multiple report suites and dimensions into a single classification set.
-
-## Limitations
-
-* Classification sets do not yet support rules. Rules functionality is added to the classification sets interface before the [legacy rule builder](/help/components/classifications/crb/classification-rule-builder.md) functionality becomes unavailable.
-* There is no migration of legacy classification rules and configurations to classification sets. A migration utility is added to the classification sets interface before the legacy classification functionality becomes unavailable.

@@ -222,16 +222,14 @@ CDF-Z(-3) ? 0.0013499
 | metric| The metric that you want to round |
 
 
-## Confidence {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
 >title="Confidence"
 >abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
-
-<!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
@@ -245,6 +243,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## Confidence (Lower) {#confidence-lower}
@@ -722,17 +722,16 @@ Less than or equal. The output is either a 0 (false) or 1 (true).
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
 ## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
 >title="Lift"
 >abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
 | Argument | Description |
 | --- | --- |
@@ -740,7 +739,7 @@ Less than or equal. The output is either a 0 (false) or 1 (true).
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## Linear Regression: Correlation coefficient {#linear-regression-correlation-coefficient}
 

@@ -53,7 +53,9 @@ For information about how to view and delete existing locations, see [Locations 
    | [!UICONTROL **Make location available to all users in your organization**] | Enable this option to allow other users in your organization to use the location.<p>Consider the following when sharing locations:</p><ul><li>Locations that you share cannot be unshared.</li><li>Shared locations can be edited only by the owner of the location.</li><li>Locations can be shared only if the account that the location is associated with is also shared.</li></ul> |
    | [!UICONTROL **Location account**] | Select the location account where you want to create this location. For information about how to create an account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). |
 
-1. To complete the form for configuring the location, continue with the section below that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
+1. To complete the form for configuring the location, continue with [Configure a location](#configure-a-location). Use the information in the section that corresponds to the account type that you selected in the [!UICONTROL **Location accounts**] field. (Additional legacy account types are also available, but are not recommended.)
+
+## Configure a location
 
 ### Amazon S3 Role ARN
 

@@ -24,11 +24,11 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed manage
 
    Data feeds for all report suites that you have access to are displayed. Or, if no feeds have been configured, the page shows a [!UICONTROL Create New Data Feed] button.
 
-   ![Data feeds](assets/feeds.png)
+   ![Data feed manager](assets/data-feed-manager.png)
 
 ## Create a data feed
 
-The [!UICONTROL Add] button allows you to create a new feed. See [Create a data feed](create-feed.md) for more information.
+The **[!UICONTROL Create data feed]** button allows you to create a new feed. See [Create a data feed](create-feed.md) for more information.
 
 ## Edit a data feed
 
@@ -39,6 +39,8 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 1. Select the data feed in the [!UICONTROL **Feed name**] column.
 
 1. Make any desired changes to the data feed.
+
+   For information about data feed options, see [Create and configure a data feed](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) in [Create a data feed](/help/export/analytics-data-feed/create-feed.md).
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
 
@@ -56,9 +58,9 @@ The [!UICONTROL Add] button allows you to create a new feed. See [Create a data 
 
    * In the search field, begin typing the name of a feed. Only those feeds that match are shown in the list of available feeds.
 
-   * On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. You can collapse or expand filtering categories. Select the checkbox next to any filter that you want to apply.
+   * On the far left, select the filter icon to show or hide filtering options. Filters are organized by category, including **[!UICONTROL Report suites]**, **[!UICONTROL Owner]**, **[!UICONTROL Status]**, and **[!UICONTROL Tags]**. You can collapse or expand filtering categories. Select the checkbox next to any filter that you want to apply.
 
-  ![Filter](assets/filters.png)
+     ![Filter](assets/filters.png)
 
 ## View data feed jobs
 

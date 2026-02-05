@@ -23,7 +23,7 @@ user-guide-description: Learn about using Data feeds and Data Warehouse to retri
     + [Dynamic lookups](analytics-data-feed/c-df-contents/dynamic-lookups.md)
     + [Merchandising eVar lookup](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
     + [Special characters](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-    + [Late arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+    + [Late-arriving hits](analytics-data-feed/c-df-contents/late-arriving-hits.md)
   + [Data feed FAQ](analytics-data-feed/df-faq.md) 
   + [Data feed best practices](analytics-data-feed/data-feeds-best-practices.md)
   + [Troubleshoot Data feeds](analytics-data-feed/troubleshooting.md)

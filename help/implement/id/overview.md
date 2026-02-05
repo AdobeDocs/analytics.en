@@ -1,6 +1,7 @@
 ---
 title: Visitor identification in Adobe Analytics
 description: Learn how to identify visitors in Adobe Analytics using the latest best practices.
+exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
 ---
 # Visitor identification in Adobe Analytics
 

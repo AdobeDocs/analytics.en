@@ -2,8 +2,8 @@
 title: Classification Sets Rules
 description: Learn how to use classification sets rules to define rules for classification data.
 feature: Classifications
+exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 ---
-
 # Classification sets rules
 
 You use rules to support automatic classifications in scenarios where your key dimension is constantly changing. The update of classifications through [upload](/help/components/classifications/sets/manage/schema.md#upload) or [automation](/help/components/classifications/sets/manage/schema.md#automate) becomes a cumbersome process or lags proper classification for new dimension values. For example, internal campaigns, tracking codes, or product SKUs. 
@@ -313,4 +313,4 @@ You want to classify with the classification **[!UICONTROL Type]** how users sea
 
 * When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
 * When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy` is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**. 
+* When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**.

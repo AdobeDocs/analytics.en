@@ -1,6 +1,7 @@
 ---
 title: Visitor identification using AppMeasurement
 description: Correctly identify visitors when implementing Adobe Analytics using AppMeasurement.
+exl-id: 38797ca5-dc53-431e-95df-3c9e68aead94
 ---
 # Visitor identification using AppMeasurement
 

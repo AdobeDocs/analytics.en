@@ -1,6 +1,7 @@
 ---
 title: Visitor identification using the Web SDK tag extension
 description: Correctly identify visitors when implementing the Web SDK tag extension.
+exl-id: 65de7fc3-a344-4f04-b523-1f5edf681d2f
 ---
 # Visitor identification using the Web SDK tag extension
 

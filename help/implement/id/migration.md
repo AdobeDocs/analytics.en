@@ -1,6 +1,7 @@
 ---
 title: Visitor ID Service migration considerations for Adobe Analytics
 description: An overview of how Adobe Analytics interfaces with the Visitor ID Service.
+exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
 ---
 # Visitor ID Service migration considerations for Adobe Analytics
 

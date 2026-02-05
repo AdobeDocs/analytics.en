@@ -1,6 +1,7 @@
 ---
 title: Visitor identification using the Adobe Analytics tag extension
 description: Correctly identify visitors when implementing the Adobe Analytics tag extension.
+exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
 ---
 # Visitor identification using the Adobe Analytics tag extension
 

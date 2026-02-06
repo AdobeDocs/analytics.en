@@ -107,6 +107,8 @@ To view job history for a data feed:
 
 ## Resend data feed jobs
 
+You can resend a data feed job if you want to send the data feed file again with the exact same data and processing as when it was originally sent. Alternatively, you can [reprocess a data feed job](#reprocess-data-feed-jobs).
+
 To resend one or more data feed jobs:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
@@ -118,6 +120,8 @@ To resend one or more data feed jobs:
    ![Reprocess data feed job](assets/data-feed-job-resend.png)
 
 ## Reprocess data feed jobs
+
+You can reprocess the source data of a data feed job and send it again with the reprocessed data. Alternatively, you can [resend a data feed job](#resend-data-feed-jobs).
 
 To reprocess one or more data feed jobs:
 

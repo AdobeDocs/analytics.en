@@ -8,64 +8,82 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 
 Jobs are individual tasks that outputs a compressed file. They are created and governed by feeds.
 
-Access Data feed job management by following these steps:
+To manage data feed jobs:
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-2. Click on the 9-grid menu in the top right, then click [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
-4. Click the Jobs tab near the top.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 
-![Data feed menu](assets/AdminMenu.png)
+1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
 
-## Navigating the interface
+1. In the top navigation bar, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-A data feed job is a single instance where Adobe processes and outputs a compressed file for a given reporting window. The job manager provides a refined view to see the status of individual jobs.
+   Data feeds for all report suites that you have access to are displayed. Or, if no feeds have been configured, the page shows a [!UICONTROL Create New Data Feed] button.
 
-![Jobs](assets/jobs.jpg)
+   ![Data feed manager](assets/data-feed-manager.png)
 
-### Filters and search
+1. (Optional) Select the checkbox next to the data feed that contains the jobs that you want to view, then select [!UICONTROL **Job history**]. 
 
-Use filters and search to locate the exact job you're looking for.
+   For more information, see [View job history for a data feed](#view-job-history-for-a-data-feed).
 
-On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. Click the chevron to collapse or expand filtering categories. Click the checkbox to apply that filter.
+## Filter and search
 
-![Filter](assets/jobs-filter.jpg)
+You can filter and search to locate the exact job you're looking for.
+
+On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. Click the chevron to collapse or expand filtering categories. Click the checkbox to apply a filter.
+
+![Filter](assets/jobs-filter.png)
 
 Use search to locate a job by name.
 
-![Search](assets/search.jpg)
+![Search](assets/search.png)
 
-### Feeds and jobs
+## Sort and customize columns
 
-Click the Feeds tab to see overarching feeds that create these jobs. See [Manage data feeds](df-manage-feeds.md).
+Each job shows several columns providing information about the job. You can sort information in each column and customize the columns that are displayed.
 
-### Columns
+### Sort columns
 
-Each job shows several columns providing information about it. Click a column header to sort it in ascending order. Click a column header again to sort it in descending order. If you cannot see a specific column, click the column icon in the top right.
+Select a column header to sort it in ascending order. Select a column header again to sort it in descending order. 
 
-![Column icon](assets/job-cols.jpg)
+### Customize columns
 
-* **Feed ID**: Displays the Feed ID, a unique identifier. Jobs created by the same feed have the same Feed ID.
-* **Job ID**: A unique identifier for the job. All jobs have a different Job ID.
-* **Feed Name**: Required column. Displays the feed name. Jobs created by the same feed have the same Feed Name.
-* **Report Suite**: The report suite the job references data from.
-* **Report Suite ID**: The report suite's unique identifier.
-* **Start Time**: The time the job started. Date and time is shown in the report suite's time zone with GMT offset. Daily feeds typically start near midnight in the report suite's time zone.
-* **Status**: The status of the feed.
-  * Waiting for data: The job is operational and data for the reporting window is being collected.
-  * Processing: The job is creating the data files and preparing to send them.
-  * Completed: The job completed without any issues.
-  * Failed: The job did not complete. See [Troubleshoot data feeds](troubleshooting.md) to help determine the cause of failure.
-  * Waiting for Export: The data for the reporting window has not yet been fully processed.
-  * No data: There is no data in the report suite for the requested reporting window.
-* **Completion Time**: The time the job finished. Date and time is shown in the report suite's time zone with GMT offset.
-* **Requested Date**: The reporting window of the file. Daily feeds typically show 00:00 - 23:59 with a GMT offset, indicating a full day based on the report suite's time zone. Hourly feeds show the individual hour the job is for.
+To adjust the visible columns in the table:
 
-## View the history of data feed jobs
+1. Select the column icon ![Column icon](assets/customize-columns-icon.png) in the top-right.
 
-To view the history and other information about a data feed job:
+1. In the Customize table dialog, select each column you want to view and deselect each column you want to hide. 
+
+   The following columns are available:
+
+  * **Feed name**: Required column. Displays the feed name. Jobs created by the same feed have the same feed name.
+  * **Feed ID**: Displays the Feed ID, a unique identifier. Jobs created by the same feed have the same Feed ID.
+  * **Report suite**: The report suite the job references data from.
+  * **Report suite ID**: The report suite's unique identifier.
+  * **Interval**: The interval of the feed.
+  * **Destination type**: The destination type of the feed.
+  * **Destination**: The destination of the feed.
+  * **Owner**: The owner of the feed.
+  * **Status**: The status of the feed.
+    * Waiting for data: The job is operational and data for the reporting window is being collected.
+    * Processing: The job is creating the data files and preparing to send them.
+    * Completed: The job completed without any issues.
+    * Failed: The job did not complete. See [Troubleshoot data feeds](troubleshooting.md) to help determine the cause of failure.
+    * Waiting for Export: The data for the reporting window has not yet been fully processed.
+    * No data: There is no data in the report suite for the requested reporting window.
+  * **Last modified**: The time the feed was last modified.
+  * **Start date**: The time the job started. Date and time is shown in the report suite's time zone with GMT offset. Daily feeds typically start near midnight in the report suite's time zone.
+  * **End date**: The time the job ended. Date and time is shown in the report suite's time zone with GMT offset.
+
+## View job history for a data feed
+
+You can view a list of past data feed jobs for a given data feed, along with information about each job.
+
+To view job history for a data feed:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+
+   ![Data feed manager](assets/data-feed-manager.png)
+
+1. Select the checkbox next to the data feed whose job history you want to view, then select [!UICONTROL **Job history**].
 
    Data feed job history is shown, with the following information available about each job (select the column icon to add columns that aren't visible by default):
 
@@ -89,24 +107,24 @@ To view the history and other information about a data feed job:
 
 ## Resend data feed jobs
 
-You can view information about the data feed job, resend it, or reprocess it.
-
-To view the history of a data feed job:
+To resend one or more data feed jobs:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-1. Select the checkbox next to one or more data feeds, then select [!UICONTROL **Job history**].
+1. Select the checkbox next to the data feed that contains the jobs that you want to resend, then select [!UICONTROL **Job history**].
 
-1. Select a data feed job, 
+1. Select the checkbox next to one or more data feed jobs, then select **[!UICONTROL Resend]**. <!-- What does the status need to be? Error, ... -->
+
+   ![Reprocess data feed job](assets/data-feed-job-resend.png)
 
 ## Reprocess data feed jobs
 
-You can reprocess a data feed by viewing the view information about the data feed job, resend it, or reprocess it.
-
-To view the history of a data feed job:
+To reprocess one or more data feed jobs:
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-1. Select the checkbox next to one or more data feeds, then select [!UICONTROL **Job history**].
+1. Select the checkbox next to the data feed that contains the jobs that you want to reprocess, then select [!UICONTROL **Job history**].
 
-1. Select a data feed job, 
+1. Select the checkbox next to one or more data feed jobs, then select **[!UICONTROL Reprocess]**. <!-- What does the status need to be? Error, ... -->
+
+   ![Reprocess data feed job](assets/data-feed-job-reprocess.png)

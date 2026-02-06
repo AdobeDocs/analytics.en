@@ -6,7 +6,7 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 ---
 # Manage data feed jobs
 
-Jobs are individual tasks that outputs a compressed file. They are created and governed by feeds.
+Jobs are individual tasks that output a compressed file. They are created and governed by feeds.
 
 To manage data feed jobs:
 
@@ -28,7 +28,7 @@ To manage data feed jobs:
 
 You can filter and search to locate the exact job you're looking for.
 
-On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. Click the chevron to collapse or expand filtering categories. Click the checkbox to apply a filter.
+On the far left, click the filter icon to show or hide filtering options. Filters are organized by category. Select the chevron to collapse or expand filtering categories. Select the checkbox to apply a filter.
 
 ![Filter](assets/jobs-filter.png)
 
@@ -56,22 +56,22 @@ To adjust the visible columns in the table:
 
   * **Feed name**: Required column. Displays the feed name. Jobs created by the same feed have the same feed name.
   * **Feed ID**: Displays the Feed ID, a unique identifier. Jobs created by the same feed have the same Feed ID.
-  * **Report suite**: The report suite the job references data from.
+  * **Report suite**: The report suite that the job references data from.
   * **Report suite ID**: The report suite's unique identifier.
   * **Interval**: The interval of the feed.
   * **Destination type**: The destination type of the feed.
   * **Destination**: The destination of the feed.
   * **Owner**: The owner of the feed.
   * **Status**: The status of the feed.
-    * Waiting for data: The job is operational and data for the reporting window is being collected.
-    * Processing: The job is creating the data files and preparing to send them.
-    * Completed: The job completed without any issues.
-    * Failed: The job did not complete. See [Troubleshoot data feeds](troubleshooting.md) to help determine the cause of failure.
-    * Waiting for Export: The data for the reporting window has not yet been fully processed.
-    * No data: There is no data in the report suite for the requested reporting window.
+    * **Waiting for data**: The job is operational and data for the reporting window is being collected.
+    * **Processing**: The job is creating the data files and preparing to send them.
+    * **Completed**: The job completed without any issues.
+    * **Failed**: The job did not complete. See [Troubleshoot data feeds](troubleshooting.md) to help determine the cause of failure.
+    * **Waiting for Export**: The data for the reporting window has not yet been fully processed.
+    * **No data**: There is no data in the report suite for the requested reporting window.
   * **Last modified**: The time the feed was last modified.
-  * **Start date**: The time the job started. Date and time is shown in the report suite's time zone with GMT offset. Daily feeds typically start near midnight in the report suite's time zone.
-  * **End date**: The time the job ended. Date and time is shown in the report suite's time zone with GMT offset.
+  * **Start date**: The time the job started. Date and time are shown in the report suite's time zone with GMT offset. Daily feeds typically start near midnight in the report suite's time zone.
+  * **End date**: The time the job ended. Date and time are shown in the report suite's time zone with GMT offset.
 
 ## View job history for a data feed
 
@@ -107,7 +107,7 @@ To view job history for a data feed:
 
 ## Resend data feed jobs
 
-You can resend a data feed job if you want to send the data feed file again with the exact same data and processing as when it was originally sent. Alternatively, you can [reprocess a data feed job](#reprocess-data-feed-jobs).
+When you resend a data feed job, it sends the data feed file again with the same data and processing as when the file was originally sent. Alternatively, you can [reprocess a data feed job](#reprocess-data-feed-jobs).
 
 To resend one or more data feed jobs:
 
@@ -121,7 +121,7 @@ To resend one or more data feed jobs:
 
 ## Reprocess data feed jobs
 
-You can reprocess the source data of a data feed job and send it again with the reprocessed data. Alternatively, you can [resend a data feed job](#resend-data-feed-jobs).
+When you reprocess a data feed job, it reprocesses the source data of a data feed job and sends it again with the reprocessed data. Alternatively, you can [resend a data feed job](#resend-data-feed-jobs).
 
 To reprocess one or more data feed jobs:
 

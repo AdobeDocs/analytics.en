@@ -22,7 +22,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed manage
 1. Select the 9-square icon in the upper-right, then select [!UICONTROL **Analytics**].
 1. In the top navigation bar, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-   Data feeds for all report suites that you have access to are displayed. Or, if no feeds have been configured, the page shows a [!UICONTROL Create New Data Feed] button.
+   Data feeds for all report suites that you have access to are displayed. Or, if no feeds have been configured, the page shows a **[!UICONTROL Create data feed]** button.
 
    ![Data feed manager](assets/data-feed-manager.png)
 
@@ -66,7 +66,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
-1. Select the [!UICONTROL **Jobs**] tab to view individual jobs that each of your feeds create. 
+1. Select the [!UICONTROL **Jobs**] tab to view individual jobs that each of your feeds creates. 
 
    Or
 
@@ -80,7 +80,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 1. Select the checkbox next to the data feed that you want to copy, then select [!UICONTROL **Copy**].
 
-   This takes you to [create a new feed](create-feed.md) with all settings of the current feed. This option is not visible if more than one data feed is selected.
+   This takes you to [create a new feed](create-feed.md) with all settings of the current feed. The option to copy is not visible if more than one data feed is selected.
 
    When updating the [!UICONTROL **Destination**] section for a data feed that you are copying, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields. 
    
@@ -90,7 +90,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 ## Pause a data feed
 
-When you pause a data feed, it stops processing the feed, setting its status to [!UICONTROL Inactive]. 
+When you pause a data feed, it stops processing the feed, setting its status to **[!UICONTROL Inactive]**. 
 
 When you reactivate the feed after pausing it, the data during the time the feed was paused is processed for backfill feeds but not for live feeds. For more information, see [Activate a data feed](#activate-a-data-feed). 
 

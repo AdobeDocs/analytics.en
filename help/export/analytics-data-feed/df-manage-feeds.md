@@ -70,7 +70,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
    Or
 
-   To view jobs for specific data feeds, select the checkbox next to one or more data feeds, then select [!UICONTROL **Job history**].
+   To view the job history for specific data feeds, select the checkbox next to a data feed, then select [!UICONTROL **Job history**].
 
    For more information, see [Manage data feed jobs](df-manage-jobs.md).
 

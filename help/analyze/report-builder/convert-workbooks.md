@@ -31,14 +31,8 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbook
 ## Open a legacy workbook
 
 To open a legacy workbook, you can:
-
-* Open a legacy workbook directly from your local computer or network. When the legacy workbook is open in Excel:
-
-  1. Select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
-  1. Select **[!UICONTROL Login]** and log in to Report Builder.
-  1. Then [convert the legacy workbook](#convert-a-workbook).
   
-* Open a scheduled legacy workbook from the **[!UICONTROL Schedule]** tab in the [Report Builder hub](report-builder-hub.md). To do so:
+* Open a scheduled legacy workbook from the **[!UICONTROL Schedule]** tab in the [Report Builder hub](report-builder-hub.md). This is the preferred method because you get the option to [use the schedule](#schedule-a-converted-legacy-workbook) that might be associated with the legacy workbook.
 
   1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
 
@@ -50,6 +44,13 @@ To open a legacy workbook, you can:
      ![Legacy workblooks](assets/upgrade-legacy-schedule.png)
 
   1. Select ![SelectBox](/help/assets/icons/SelectBox.svg) the scheduled workbook that you want to convert from the list, and select ![Download](/help/assets/icons/Download.svg). The workbook is downloaded and opens in a new window in Excel. You can now [convert the legacy Report Builder workbook](#convert-a--workbook).
+
+
+* Open a legacy workbook directly from your local computer or network. When you use this method, you are not offered to use the schedule that might be associated with the legacy workbook. <br/>When the legacy workbook is open in Excel:
+
+  1. Select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
+  1. Select **[!UICONTROL Login]** and log in to Report Builder.
+  1. Then [convert the legacy workbook](#convert-a-workbook).
 
 
 ## Convert a legacy workbook
@@ -83,7 +84,7 @@ To convert your legacy workbook:
 
       ![Excel Report Builder upgrade report workbook](assets/upgrade-report.png)
 
-You can now [manage the data block](/help/analyze/report-builder/manage-reportbuilder.md).
+You can now [manage the data blocks](/help/analyze/report-builder/manage-reportbuilder.md) in the workbook. These data blocks are the result of the upgrade and replace your legacy Report Builder requests.
 
 
 ## Schedule a converted legacy workbook

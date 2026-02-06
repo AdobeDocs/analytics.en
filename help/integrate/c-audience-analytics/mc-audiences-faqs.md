@@ -47,7 +47,7 @@ An Analytics destination disappears from a segment's Destination Mappings sectio
 
 +++
 
-Will this give me all of the information from Adobe Audience Manager, in Analytics?
++++ Will this give me all of the information from Adobe Audience Manager, in Analytics?
 
 No, only data related to people who come to your site during or after enablement of Audience Manager Audiences and during/after segment qualification. 
 

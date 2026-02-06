@@ -45,6 +45,8 @@ It can take several hours to populate your report suites with new data.
 
 An Analytics destination disappears from a segment's Destination Mappings section when you select the **[!UICONTROL Automatically map all current and future segments]** option in **[!UICONTROL Segment Mappings]**. To prevent this, select **[!UICONTROL Manually map segments]** instead of the automatic option. 
 
++++
+
 +++ Will this give me all of the information from Adobe Audience Manager, in Analytics?
 
 No, only data related to people who come to your site during or after enablement of Audience Manager Audiences and during/after segment qualification. 

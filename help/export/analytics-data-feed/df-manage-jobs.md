@@ -60,3 +60,53 @@ Each job shows several columns providing information about it. Click a column he
   * No data: There is no data in the report suite for the requested reporting window.
 * **Completion Time**: The time the job finished. Date and time is shown in the report suite's time zone with GMT offset.
 * **Requested Date**: The reporting window of the file. Daily feeds typically show 00:00 - 23:59 with a GMT offset, indicating a full day based on the report suite's time zone. Hourly feeds show the individual hour the job is for.
+
+## View the history of data feed jobs
+
+To view the history and other information about a data feed job:
+
+1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+
+   Data feed job history is shown, with the following information available about each job (select the column icon to add columns that aren't visible by default):
+
+   * **[!UICONTROL Request period begin]**
+
+   * **[!UICONTROL Request period end]**
+
+   * **[!UICONTROL Scheduled]**
+
+   * **[!UICONTROL Started]**
+
+   * **[!UICONTROL Finished]**
+
+   * **[!UICONTROL Run #]**
+
+   * **[!UICONTROL Status]**
+
+   * **[!UICONTROL Error code]**
+
+   * **[!UICONTROL Error message]**
+
+## Resend data feed jobs
+
+You can view information about the data feed job, resend it, or reprocess it.
+
+To view the history of a data feed job:
+
+1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+
+1. Select the checkbox next to one or more data feeds, then select [!UICONTROL **Job history**].
+
+1. Select a data feed job, 
+
+## Reprocess data feed jobs
+
+You can reprocess a data feed by viewing the view information about the data feed job, resend it, or reprocess it.
+
+To view the history of a data feed job:
+
+1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+
+1. Select the checkbox next to one or more data feeds, then select [!UICONTROL **Job history**].
+
+1. Select a data feed job, 

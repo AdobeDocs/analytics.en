@@ -32,7 +32,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbook
 
 To open a legacy workbook, you can:
   
-* Open a scheduled legacy workbook from the **[!UICONTROL Schedule]** tab in the [Report Builder hub](report-builder-hub.md). This is the preferred method because you get the option to [use the schedule](#schedule-a-converted-legacy-workbook) that might be associated with the legacy workbook.
+* Open a scheduled legacy workbook from the **[!UICONTROL Schedule]** tab in the [Report Builder hub](report-builder-hub.md). This is the preferred method for scheduled legacy workbooks. You get the option to use the schedule that is associated with the legacy workbook as soon as you [schedule the converted legacy workbook](#schedule-a-converted-legacy-workbook).
 
   1. Open Excel and select ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** from the Excel ribbon bar. 
 
@@ -91,7 +91,7 @@ You can now [manage the data blocks](/help/analyze/report-builder/manage-reportb
 
  You have the option to use the schedule details from the legacy workbook that you have downloaded and opened from the **[!UICONTROL Schedule]** tab in the Report Builder hub. This option is not available for legacy workbooks with schedule details that you open from your local computer or network.
 
-1. Schedule a workbook. To schedule a converted legacy workbook with a legacy schedule:
+1. To schedule a converted legacy workbook with a legacy schedule:
 
    * Select **[!UICONTROL Send workbook]** from the Report Builder hub, or 
    * Select **[!UICONTROL Schedule workbook]** from the **[!UICONTROL Workbooks]** tab available in the **[!UICONTROL Schedules]** tab in Report Builder.

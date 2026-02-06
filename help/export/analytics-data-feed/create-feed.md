@@ -9,7 +9,10 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 When creating a data feed, you provide Adobe with:
 
 * The information about the destination where you want raw data files to be sent
+
 * The data you want to include in each file
+
+* The frequency of how often the data feed should be sent (including the lookback window if you choose to include late-arriving hits)
 
 Before you create a data feed, it's important to have a basic understanding of data feeds and to ensure that you meet all prerequisites. For more information, see [Data feeds overview](data-feed-overview.md).
 
@@ -75,7 +78,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    | [!UICONTROL **Replace operating system strings**] | When collecting data, some characters (such as new lines) can cause issues. Select this option to have these characters removed from feed files.<p>This option detects the following string sequences embedded in customer data and replaces them with a space:</p> <ul><li>**Windows:** CRLF, CR, or TAB</li><li>**Mac and Linux:** \n, \r, or \t</li></ul>  |
    | [!UICONTROL **Enable dynamic lookups**] | Dynamic lookups allow you to receive additional lookup files in your data feed that is otherwise not available. This setting enables the following lookup tables to be sent with each data feed file:<ul><li> **Carrier name**</li><li>**Mobile attributes**</li><li>**Operating system type**</li></ul><p>For more information, see [Dynamic lookups](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Allow late-arriving hits** | Historical data can arrive after a data feed job finishes processing for a given hour or day, such as through timestamped hits or data sources.<p>Select this option to include data that arrived after the data feed job finished processing data within the set reporting frequency (usually daily or hourly). With this option enabled, every time a data feed processes data, it looks at any late hits that arrived and batches them in with the next data feed file that is sent.</p><p>For more information, see [Late-arriving hits](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p>  |
-   | **Lookback window** (for late-arriving hits) | This option displays when the option **[!UICONTROL Allow late-arring hits]** is enabled. Select the lookback window to limit the time frame of late hits that are included. Select **[!UICONTROL Unlimited]** if you want to allow all late arriving hits, regardless of how late. You can choose a preset interval, such as **[!UICONTROL 1 hour]**, **[!UICONTROL 2 hours]**, **[!UICONTROL 1 week]**, **[!UICONTROL 2 weeks]**, and so forth. Or, select **[!UICONTROL Custom lookback window]**, then in the **[!UICONTROL Custom Lookback]** field specify a lookback window up to 26,280 hours.  |
+   | **Lookback window** (for late-arriving hits) | This option displays when the option **[!UICONTROL Allow late-arriving hits]** is enabled. Select the lookback window to limit the time frame of late hits that are included. Select **[!UICONTROL Unlimited]** if you want to allow all late arriving hits, regardless of how late. You can choose a preset interval, such as **[!UICONTROL 1 hour]**, **[!UICONTROL 2 hours]**, **[!UICONTROL 1 week]**, **[!UICONTROL 2 weeks]**, and so forth. Or, select **[!UICONTROL Custom lookback window]**, then in the **[!UICONTROL Custom Lookback]** field specify a lookback window up to 26,280 hours.  |
 
 1. In the [!UICONTROL **Data structure**] section, in the **[!UICONTROL Report suite]** field, select the source report suite that contains the data that you want to export. <p>Consider the following when selecting a report suite:</p> <ul><li>If multiple data feeds are created for the same report suite, each data feed must have different column definitions.</li><li>Only source report suites support data feeds; virtual report suites are not supported.</li><li>The list of available columns depends on the login company that the selected report suite belongs to. If you change the report suite, the list of available columns can change. </li></ul>
 
@@ -128,8 +131,8 @@ Before you create a data feed, it's important to have a basic understanding of d
    
    | Field | Function |
    |---------|----------|
-   | [!UICONTROL **Account**] | Do either of the following:<ul><li>**Use an existing account:** Select the drop-down menu next to the **[!UICONTROL Account]** field. Or, begin typing the account name, then select it from the drop-down menu. <p>Accounts are available to you only if you configured them or if they are shared with an organization you are a part of.</p></li><li>**Create a new account:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Account]** field. For information about how to configure the account, see [Configure a location account](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For information about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).|
+   | [!UICONTROL **Account**] | Do either of the following:<ul><li>**Use an existing account:** Select the drop-down menu next to the **[!UICONTROL Account]** field. Or, begin typing the account name, then select it from the drop-down menu. <p>Accounts are available to you only if you configured them or if they are shared with an organization you are a part of.</p></li><li>**Create a new account:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Account]** field. For information about how to configure the account, see [Configure a location account](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).</li></ul> | 
+   | [!UICONTROL **Location**] | Do either of the following:<ul><li>**Use an existing location:** Select the drop-down menu next to the **[!UICONTROL Location]** field. Or, begin typing the location name, then select it from the drop-down menu.</li><li>**Create a new location:** Select **[!UICONTROL Add new]** beneath the **[!UICONTROL Location]** field. For information about how to configure the location, see [Configure a location](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Notify when complete**] | Specify one or more email addresses where a notification should be delivered after the data feed is successfully sent or fails to send. Multiple email addresses must be separated with a comma.  |
        
 1. Select **[!UICONTROL Save]**.    
@@ -140,13 +143,13 @@ Templates allow you to reuse the same columns for future data feeds that you cre
 
 When managing templates, you can create new templates, use templates that are already created, copy templates, edit templates, and delete templates.
 
-[!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**
+**[!UICONTROL Admin]** > **[!UICONTROL Data feeds]** > **[!UICONTROL Manage templates]**
 
 ![Manage column templates](assets/data-feed-template-manage.png)
 
 ### Create a column template
 
-When creating multiple data feeds that use the same columns, Adobe recommends that you create column templates. Any column templates that you create can be used by anyone in your organization. 
+When creating multiple data feeds that use the same columns, Adobe recommends that you create column templates. Any column templates that you create are available to use by anyone in your organization. 
 
 To create a column template:
 

@@ -89,6 +89,8 @@ You will get
 
 No, the raw search data will come in as an independent data set. However, there is an Instances version of the click data that can be broken down by other Analytics data.
 
++++
+
 +++ What is the definition of the various status indicators for my accounts (Pending, Active, Paused, etc.)? Each of these status indicators identifies the lifecycle stage of each search engine account. 
 
 * [!UICONTROL Pending]

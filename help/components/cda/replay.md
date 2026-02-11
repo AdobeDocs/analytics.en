@@ -25,7 +25,7 @@ As soon as a hit is collected, CDA attempts to stitch it to known devices. Consi
 *Data as it appears the day it is collected:*
 
 | Timestamp | ECID | eVar1 or CustomerID | Explanation of hit | People metric (cumulative) using field-based stitching |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob on his desktop computer, unauthenticated | `1` (246) |
 | `2` | `246` | `Bob` | Bob logs in on his desktop |  `2` (246 and Bob) |
 | `3` | `3579` | - | Bob on his mobile device, unauthenticated |  `3` (246, Bob, and 3579) |

@@ -2,6 +2,7 @@
 description: Understand how to report on traffic from AI chatbots
 title: Analyze traffic from AI chatbots
 feature: Metrics, Data Configuration and Collection
+exl-id: 0b013b7d-02a2-405d-bdd6-c991f0baac8e
 ---
 # Analyze traffic from conversational AI tools
 
@@ -51,4 +52,3 @@ For more information, see [Referrer type](/help/components/dimensions/referrer-t
 ### Analyze AI traffic using bot detection
 
 You can use bot detection in Analysis Workspace to analyze AI traffic that comes from pretraining.
-

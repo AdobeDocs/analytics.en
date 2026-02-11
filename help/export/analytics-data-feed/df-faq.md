@@ -61,21 +61,21 @@ In almost all cases, the concatenation of `hitid_high` and `hitid_low` uniquely 
 
 ## Why is information missing from the domain column for some carriers? {#domain}
 
-Some mobile carriers (such as T-Mobile and O1) are no longer providing domain info for reverse-DNS lookups. Therefore, that data is not available for domain reporting.
+Some mobile carriers (such as T-Mobile and O1) no longer provide domain info for reverse-DNS lookups. Therefore, that data is not available for domain reporting.
 
-## Why can't I extract "Hourly" files from data that is more than 7 days old? {#hourly}
+## Why can't I reliably extract hourly files for older dates? {#hourly}
 
-For data that is more than 7 days old, a day's "Hourly" files are combined into a single "Daily" file.
+To optimize storage and processing, Adobe regularly consolidates hourly exports into daily files. Because of how and when these consolidations run, hourly output for dates older than 10 days is not predictable. For a given date, it is possible to see a mix of hourly files for some hours and a consolidated daily file for others. Data consolidated into a daily file is typically assigned to hour `00`, which can leave other hours blank when those hours are requested directly.
 
-Example: A new Data Feed is created on March 9, 2021, and the data from January 1, 2021 to March 9 is delivered as "Hourly". However, the "Hourly" files before March 2, 2021 are combined into a single "Daily" file. You can extract "Hourly" files only from data that is less than 7 days old from the creation date. In this case, from March 2 to the March 9.
+For backfills older than 10 days, Adobe strongly recommends using daily granularity to ensure complete and predictable results. If you must request hourly granularity for older days, always include hour `00` in your request to avoid missing consolidated hourly data.
 
 ## What is the impact of Daylight Savings on hourly data feeds? {#dst} 
 
-For certain time zones, the time changes twice a year due to daylight saving time (DST) definitions. Data feeds honor the time zone for which the report suite is configured. If the time zone for the report suite is one that does not use DST, file delivery continues normally like any other day. If the time zone of the report suite is one that does use DST, file delivery is altered for the hour in which the time change occurs (usually 2:00 am).
+For certain time zones, the time changes twice a year due to daylight saving time (DST) definitions. Data feeds honor the time zone for which the report suite is configured. If the time zone for the report suite is one that does not use DST, file delivery continues normally like any other day. If the time zone of the report suite is one that does use DST, file delivery is altered for the hour in which the time change occurs (usually 2:00 AM).
 
-When making STD -> DST time transitions ("Spring Forward"), the customer receives only 23 files. The hour that is skipped in the DST transition is omitted. For example, if the transition occurs at 2 AM, they get a file for the 1:00 hour and a file for the 3:00 hour. There is no 2:00 file because, at 2:00 STD, it becomes 3:00 DST.
+When making STD -> DST time transitions (spring forward), you receive 23 files. The hour that is skipped in the DST transition is omitted. For example, if the transition occurs at 2 AM, you get a file for the 1:00 hour and a file for the 3:00 hour. There is no 2:00 file because, at 2:00 STD, it becomes 3:00 DST.
 
-When making DST -> STD transitions, ("Fall Back"), the customer gets 24 files. However, the hour of transition actually includes two hours' worth of data. For example, if the transition occurs at 2:00 am, the file for 1:00 is delayed by one hour, but it contains data for two hours. It contains data from 1:00 DST to 2:00 STD (which would have been 3:00 DST). The next file begins at 2:00 STD.
+When making DST -> STD transitions (fall back), you receive 24 files. However, the hour of transition actually includes two hours' worth of data. For example, if the transition occurs at 2:00 AM, the file for 1:00 is delayed by one hour, but it contains data for two hours. It contains data from 1:00 DST to 2:00 STD (which would have been 3:00 DST). The next file begins at 2:00 STD.
 
 ## How does Analytics handle FTP transfer failures? {#ftp-failure}
 

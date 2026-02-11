@@ -3,6 +3,7 @@ title: Adobe Analytics onboarding
 description: Welcome to the Adobe Analytics digital experience onboarding series! Onboard to key Adobe platforms that support Adobe Analytics to help you and your organization succeed.
 role: Admin
 feature: Analytics Basics
+exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
 ---
 # Adobe Analytics onboarding
 

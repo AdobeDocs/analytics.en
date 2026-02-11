@@ -31,7 +31,9 @@ The following list references the 'Conversational AI tools' lookup table that Ad
 
 * `https://chatgpt.com`
 * `https://chat.com`
+* `https://chat.deepseek.com`
 * `https://chat.openai.com`
+* `https://doubao.com`
 * `https://gemini.google.com`
 * `https://copilot.microsoft.com`
 * `https://m365.cloud.microsoft`

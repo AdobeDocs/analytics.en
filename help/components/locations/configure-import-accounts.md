@@ -24,7 +24,7 @@ You need to configure Adobe Analytics with the necessary information to access y
 
 For information about how to view and delete existing accounts, see [Locations manager](/help/components/locations/locations-manager.md).
 
-To configure a cloud import or export account:
+## Begin creating or editing an account from the accounts page
 
 1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Locations**].
 1. On the [!UICONTROL Locations] page, select the [!UICONTROL **Location accounts**] tab.
@@ -39,6 +39,12 @@ To configure a cloud import or export account:
    To edit an existing account, locate the account that you want to edit, then select the [!UICONTROL **Edit details**] button.
 
    The [!UICONTROL **Add account**] dialog displays.   
+
+1. Continue with [Configure a location account](#configure-a-location-account).
+
+## Configure a location account
+
+To configure a cloud import or export account after you begin creating or editing it:
   
 1. Specify the following information:
 
@@ -148,8 +154,15 @@ To configure a cloud import or export account:
 
    +++SFTP
 
-      SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+      SFTP support for data feeds is available. This requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+
+      When downloading the RSA or DSA public key for data feeds, do either of the following:
+      
+      * Rename the file downloaded public key file to `authorized_keys`, then upload the file to your `.ssh` folder on your SFTP server.
+
+      * If you have an existing `authorized_keys` file that already contains other keys, add the key provided by Adobe to your existing `authorized_keys` file, making sure that you do not overwrite your existing keys.
    
+
    +++
 
    +++S3

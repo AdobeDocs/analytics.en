@@ -3,6 +3,7 @@ description: Learn how to view trended data for a freeform table in Analysis Wor
 title: View trended data for a freeform table
 feature: Freeform Tables
 role: User, Admin
+exl-id: b1d109fd-0e3c-45df-94d0-1a6383d7f995
 ---
 # View trended data for a freeform table
 
@@ -70,4 +71,3 @@ When the sparkline of the connected table is not selected, line visualizations i
 ## Include filter criteria in connected line visualizations 
 
 For information about when filter criteria is included in connected line visualizations, see [Include filter criteria in trended data in sparklines and line visualizations](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
-

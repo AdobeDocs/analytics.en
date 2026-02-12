@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **February 2026** |  | 
+| Added information about using geo and technology reports | Added information about differences when using geo and technology reports [across various Analytics products](/help/analyze/get-started/analytics-product-comparison.md) article. |
 | **January 2026** | |
 | Classification sets rule builder | Documentation for the new [Rule builder functionality in classification sets](/help/components/classifications/sets/manage/rules.md) functionality.|
 | Device graph | Removed references to the [discontinued device graph functionality](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |

@@ -64,9 +64,11 @@ To download and install the Report Builder Add-in
 
 **If your organization blocks access to the Microsoft Store**
 
-Reach out to your IT or security team to request approval for the Report Builder Add-in. After approval is granted, in the Office Add-ins dialog, select the Admin Managed tab.
+- Reach out to your IT or security team to request approval for the Report Builder Add-in. After approval is granted, in the Office Add-ins dialog, select the **[!UICONTROL Admin Managed]** tab. 
 
-![The Admin Managed tab in Office Add-ins dialog.](./assets/image1.png)
+   ![The Admin Managed tab in Office Add-ins dialog.](./assets/image1.png)
+
+- Alternatively, you can manually retrieve the [manifest file](https://reportbuilder.an.adobe.com/manifest.xml) and host the file on your own IT infrastructure. <br/>Please follow the Microsoft Office online documentation for instructions on how to install an Excel Manifest file not served from the Microsoft Store.
 
 After installing the Report Builder Add-in, the Report Builder icon is displayed in the Excel ribbon under the Home tab.
 
@@ -74,7 +76,7 @@ After installing the Report Builder Add-in, the Report Builder icon is displayed
 
 ## Log in to Report Builder
 
-After you install the Report Builder for Excel Add-in for your operating platform or browser, follow these steps to log in to Report Builder.
+After you have installed the Report Builder for Excel Add-in for your operating platform or browser, follow these steps to log in to Report Builder.
 
 1. Open an Excel workbook.
 

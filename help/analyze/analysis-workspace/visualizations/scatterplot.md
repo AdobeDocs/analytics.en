@@ -43,7 +43,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visu
 
 >[!NOTE]
 >
->When you [configure the legend to be visible](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings in the scatter, the legend is only shown when the data source contains a limited number of (selected) dimension items.
+>When you [configure the legend to be visible](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) in the scatter, the legend is only shown when the data source contains a limited number of (selected) dimension items.
 
 
 >[!MORELIKETHIS]

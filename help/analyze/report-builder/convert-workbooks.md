@@ -1,6 +1,6 @@
 ---
-title: Convert Your Legacy Report Builder Workbooks
-description: Learn how to migrate and convert legacy Report Builder workbooks to the new Report Builder. Follow step-by-step instructions for seamless workbook conversion.
+title: Convert Legacy Report Builder Workbooks
+description: Learn how to migrate and convert legacy Report Builder workbooks to the new Report Builder. Follow step-by-step instructions in this migration guide on how to seamless convert your Adobe Analytics based workbooks.
 role: User
 feature: Report Builder
 type: Documentation
@@ -9,7 +9,7 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 ---
 # Convert legacy Report Builder workbooks
 
-As part of the move to a new Report Builder functionality, you can quickly convert your current legacy Report Builder based workbooks (legacy workbooks) to use the new Report Builder [data blocks](create-a-data-block.md) functionality. 
+The legacy Report Builder is end-of-life in June 2026. You should migrate your workbooks from the legacy Report Builder to the new Report Builder. The new Report Builder provides a convenient way to migrate workbooks quickly that are created with the legacy Report Builder.
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ To open a legacy workbook, you can:
   1. Select **[!UICONTROL Login]** and log in to Report Builder.
 
   1. Select **[!UICONTROL Schedule]** in the [Report Builder hub](report-builder-hub.md).
-  1. Select the **[!UICONTROL Legacy]** tab. The tab lists the legacy Report Builder based scheduled workbooks.
+  1. Select the **[!UICONTROL Legacy]** tab. The tab lists the legacy Report Builder based scheduled workbooks that you have created.
 
      ![Legacy workblooks](assets/upgrade-legacy-schedule.png)
 

@@ -7,7 +7,15 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 ---
 # Adobe Analytics landing page
 
-The landing page for Adobe Analytics brings together both [!DNL Analysis Workspace] and [!DNL Reports & Analytics] (end-of-lifed) in a single interface and access point under the [!DNL Workspace] umbrella. It features a project manager home page, a templates section, and a learning section to help you with getting started more effectively. 
+The Adobe Analytics landing page includes the following subtabs:
+
+**[!UICONTROL Projects]**: Customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
+
+**[!UICONTROL Templates]**: Includes templates provided by Adobe and any templates specific to your organization.
+
+**[!UICONTROL Learning]**: Contains hands-on video tours, tutorials, and links to documentation.
+
+![AA landing page left rail](assets/aa-landing-page-left-rail.png)
 
 >[!BEGINSHADEBOX]
 
@@ -15,25 +23,25 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 
 
 >[!ENDSHADEBOX]
 
+## Projects {#navigate-projects}
 
+The **[!UICONTROL Projects]** section in the left rail serves as the home page for the  [!UICONTROL **Workspace**] tab.
 
-The Adobe Analytics landing page is comprised of the following subtabs: Projects, Templates, and Learning.
+To access projects in Adobe Analytics:
+
+1. Select the [!UICONTROL **Workspace**] tab.
+
+1. Select [!UICONTROL **Projects**] in the left rail. 
+
+The Projects section displays the Company folder, any personal folders you created, your Workspace projects, and Mobile scorecards. Use this page to view, create, and modify folders, projects, and mobile scorecards. See [Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) for more information.
 
 **[!UICONTROL Projects]** are customized designs that combine data components, tables, and visualizations that you built or that someone else built and shared with you. [!UICONTROL Projects] also refers to blank projects and blank mobile scorecards.
 
-**[!UICONTROL Templates]** includes templates provided by Adobe and any templates specific to your organization.
-
-The **[!UICONTROL Learning]** tab contains hands-on video tours, tutorials, and links to documentation.
-
-## Navigate the [!UICONTROL Projects] tab {#navigate-projects}
-
-The [!UICONTROL Projects] tab serves as the [!UICONTROL Workspace] home page. It displays the Company folder, any personal folders you created, your projects, and Mobile scorecards. Use this page to view, create, and modify folders, projects, and mobile scorecards. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
-
-![Landing all](assets/landing-all2.png)
-
 >[!NOTE]
 >
->Several of the following settings persist during the session and across sessions. For example, the tab you selected, the selected filters, selected columns, and the column sort direction. Search results are not persistent.
+>Several of the following settings persist across sessions. For example, the tab you selected, the selected segments, selected columns, and the column sort direction. Search results do not persist.
+
+See [Projects](/help/analysis-workspace/build-workspace-project/freeform-overview.md) for more information.
 
 ### Customize table columns
 
@@ -83,9 +91,15 @@ The available columns are:
 | SHOW: Folders & Projects or All Projects | Changes the view setting on the table to show folders and projects according to your folder organization **or** show all of your projects in an unorganized list. |
 | < (Back button) | Returns you to your most recent landing page configuration in a Workspace project or a report. The page configuration you had when you left the landing page will persist when you return. |
 
-## Navigate the [!UICONTROL Templates] tab {#navigate-reports} 
+## Templates {#navigate-reports} 
 
-For information about using templates in Adobe Analytics, see the following resources:
+To access templates in Adobe Analytics:
+
+1. Select the [!UICONTROL **Workspace**] tab.
+
+1. In the [!UICONTROL **Templates**] section in the left rail, you can select either Adobe templates or company templates. 
+
+For information about using templates, see the following resources:
 
 * [Use templates](/help/analyze/analysis-workspace/templates/use-templates.md)
 
@@ -95,7 +109,7 @@ For information about using templates in Adobe Analytics, see the following reso
 
 The Learning page contains hands-on video tours, tutorials, and links to documentation.
 
-Use the Learning page in Adobe Analytics to learn beginner, intermediate, or advanced features and use-cases in Adobe Analytics.
+Use the Learning page in Adobe Analytics to learn beginner, intermediate, or advanced features and use cases in Adobe Analytics.
 
 ### Access the Learning page
 
@@ -114,8 +128,8 @@ Use the Learning page in Adobe Analytics to learn beginner, intermediate, or adv
 
 Users can set their preferred landing page.
 
-1. Go to Analytics > [!UICONTROL Components] > [!UICONTROL Preferences] > [!UICONTROL General].
-1. Check which landing page you would prefer:
+1. In Adobe Analytics select [!UICONTROL **Components**] > [!UICONTROL **Preferences**] > [!UICONTROL **General**].
+1. Select the landing page you prefer.
 
    ![Set landing page](assets/landing-pref.png)
 

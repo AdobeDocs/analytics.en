@@ -19,7 +19,7 @@ The following information instructs curators of Adobe Analytics data on how to c
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile scorecard builder](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile scorecard builder](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -124,7 +124,7 @@ The setting is *on* by default. Deselect the option if you don't want to view co
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizations](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizations](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +200,7 @@ Custom detail slides allow you to be even more targeted about what information y
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom detail views](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom detail views](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -242,7 +242,7 @@ For example, if you focus on web traffic, your most important metric may be visi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Create data stories](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Create data stories](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

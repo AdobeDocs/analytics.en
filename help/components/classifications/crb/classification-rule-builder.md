@@ -12,7 +12,7 @@ Rather than maintaining and uploading classifications each time your tracking co
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification rule builder](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification rule builder](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

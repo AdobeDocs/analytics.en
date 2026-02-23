@@ -12,12 +12,6 @@ Fallout in Analysis Workspace lets you mix and match dimensions and metrics as t
 
 For example, in addition to a Page dimension, you can add other dimension items (like a specific device name from the Device name dimension) to a Fallout visualization. Combining dimensions lets you visualize how pages and certain actions interplay in customers' paths.
 
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mulit-dimensional fallout](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
 For example, in addition to a Page dimension, you can add other dimension items (like a specific device name from the Device name dimension) to a Fallout visualization. Combining dimensions lets you visualize how pages and certain actions interplay in customers' paths.
 
 ![The All Visits view showing multiple dimensions as touchpoints.](assets/fallout-otherdimension.png)

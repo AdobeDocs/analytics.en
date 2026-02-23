@@ -24,7 +24,7 @@ You can publish Analytics segments to Experience Cloud in under 8 hours. Use the
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

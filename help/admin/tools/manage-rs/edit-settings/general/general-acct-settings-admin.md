@@ -16,7 +16,7 @@ These settings contain editing options for basic report suite functionality, suc
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring general account settings](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring general account settings](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

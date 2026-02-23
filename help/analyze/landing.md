@@ -11,7 +11,7 @@ The landing page for Adobe Analytics brings together both [!DNL Analysis Workspa
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics landing page](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics landing page](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -21,7 +21,7 @@ Adobe offers multiple ways to implement Adobe Analytics. Each page offers a sect
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring variables](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring variables](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-variables-in-the-admin-console){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

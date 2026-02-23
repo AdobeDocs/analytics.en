@@ -21,7 +21,7 @@ This functionality is particularly useful when creating hyperlinks for the follo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks for dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks for dimension](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

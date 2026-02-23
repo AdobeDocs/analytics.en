@@ -75,6 +75,6 @@ You can segment on a distinct count of items within a dimension. Examples: *Visi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]

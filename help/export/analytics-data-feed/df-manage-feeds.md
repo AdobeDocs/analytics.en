@@ -11,7 +11,7 @@ The data feed manager lets you create, edit, and delete data feeds for your orga
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed management](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed management](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

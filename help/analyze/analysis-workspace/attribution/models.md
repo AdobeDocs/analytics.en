@@ -63,7 +63,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

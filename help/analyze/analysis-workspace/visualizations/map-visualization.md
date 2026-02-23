@@ -57,7 +57,7 @@ The ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualization in
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Map visualization in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +126,7 @@ To define settings for the visualization, select ![Setting](/help/assets/icons/S
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

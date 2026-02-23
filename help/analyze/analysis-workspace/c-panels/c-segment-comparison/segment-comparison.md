@@ -36,7 +36,7 @@ The Segment comparison panel discovers the most statistically significant differ
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment comparison](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

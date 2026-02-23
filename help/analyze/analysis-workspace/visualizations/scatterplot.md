@@ -36,7 +36,7 @@ The ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]*
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visualization](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Scatterplot visualization](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

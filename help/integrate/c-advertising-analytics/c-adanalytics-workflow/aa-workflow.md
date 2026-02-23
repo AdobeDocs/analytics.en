@@ -9,7 +9,7 @@ exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 The workflow of configuring Advertising Analytics consists of the following steps:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [Enable Advertising Analytics reporting per report suite](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.

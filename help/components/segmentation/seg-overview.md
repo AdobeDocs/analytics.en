@@ -234,7 +234,7 @@ This video gives a short overview of what segment containers are and how to use 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment containers](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment containers](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -25,7 +25,7 @@ You can add descriptions to components in a report suite.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

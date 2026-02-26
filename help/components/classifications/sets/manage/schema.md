@@ -159,6 +159,19 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 >abstract="List of locations at selected location account that support the import of classification data. Select **[!UICONTROL New location]** to create a new location."
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configure cloud import and export locations"
 
+You can automate the ingestion of classification data through the configuration and use of cloud account and cloud locations.
+
+
+
+>[!IMPORTANT]
+>The automation of classification ingestion from cloud accounts requires that you (or your network administrator) specify IP address ranges to allow to ingest data into your network. Configure one or more of the IP address ranges depending on the location of the Analytics datacenters that you use.
+>
+>| Analytics datacenter location | Add this IP address range to an allowlist in your network |
+>|---|---:|
+>| Pacific North West | `52.254.104.0/22` |
+>| London | `51.138.16.0/22` |
+>| Singapore | `20.40.0.0/14 `| 
+>
 
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 

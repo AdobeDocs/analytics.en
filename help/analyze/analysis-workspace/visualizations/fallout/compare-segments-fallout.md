@@ -46,12 +46,6 @@ Or you can create an AND touchpoint by dragging the Mobile App Hits segment onto
 You can compare an unlimited number of segments in the Fallout visualization. (Note that the video below states that you can compare up to 3 segments, which is wrong.)
 
 
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compare segments in a fallout visualization](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
 
 1. Select the segments that you want to compare from the [!UICONTROL Segment] panel on the left. In the example In the example, two segments are selected: **[!UICONTROL iOS]** and **[!UICONTROL Android]**.
 1. You drag the three segments onto the Segment drop zone at the top of the visualization.

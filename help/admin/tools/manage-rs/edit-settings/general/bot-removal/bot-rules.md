@@ -28,7 +28,7 @@ Bot traffic data is stored in a separate repository for display in the Bots and 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configure bot rules](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configure bot rules](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

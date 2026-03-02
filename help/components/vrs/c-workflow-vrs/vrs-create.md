@@ -40,7 +40,7 @@ On the [!UICONTROL Visit Definition] tab, define these settings and then click *
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adjust a visit definition](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adjust a visit definition](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

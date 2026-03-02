@@ -43,4 +43,4 @@ You can change several requests at the same time, based on the request's report 
 
 Here is a video showing the process:
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

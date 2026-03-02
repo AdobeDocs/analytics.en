@@ -15,7 +15,7 @@ This guide focuses on integrating multiple Adobe Experience Cloud solutions, suc
    
 >[!BEGINSHADEBOX]
    
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} for a demo video.
    
 >[!ENDSHADEBOX]
    

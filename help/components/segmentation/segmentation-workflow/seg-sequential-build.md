@@ -13,7 +13,7 @@ Additionally, you can constrain sequential segments to a specific duration of ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequential segmentation](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequential segmentation](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

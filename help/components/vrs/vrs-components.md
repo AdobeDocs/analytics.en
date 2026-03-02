@@ -11,7 +11,7 @@ Virtual report suites can be curated to include and exclude components.in Analys
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

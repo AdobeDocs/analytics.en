@@ -145,8 +145,6 @@ To sort data in tables by a single column:
 
 ## Sort tables by multiple columns (Advanced sorting)
 
-{{release-limited-testing-section}}
-
 ### Apply sorting to multiple columns
 
 To sort data in tables by multiple columns:

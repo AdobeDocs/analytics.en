@@ -15,6 +15,15 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed manage
 
 >[!ENDSHADEBOX]
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Manage data feeds"
+>abstract="You can view, create, and manage data feeds from this page. Search for feeds by name or ID, or select the filter icon to view available filters. You can also create feeds and manage existing feeds."
+
+<!-- markdownlint-enable MD034 -->
+
 
 ## View data feeds
 
@@ -56,7 +65,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 1. Use search or filters to locate a specific feed.
 
-   * In the search field, begin typing the name of a feed. Only those feeds that match are shown in the list of available feeds.
+   * In the search field, begin typing the name or ID of a feed. Only those feeds that match are shown in the list of available feeds.
 
      ![Search](assets/search.png)
 

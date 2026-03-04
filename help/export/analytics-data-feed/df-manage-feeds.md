@@ -20,7 +20,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed manage
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="Manage data feeds"
->abstract="You can view, create, and manage data feeds from this page. Search for feeds by name or ID, or select the filter icon to view available filters. You can also create feeds and manage existing feeds."
+>abstract="You can view, create, and manage data feeds from this page. Search for feeds by name or ID, or select the filter icon to view available filters."
 
 <!-- markdownlint-enable MD034 -->
 

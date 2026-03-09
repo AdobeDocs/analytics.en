@@ -38,7 +38,7 @@ When Enabling the [Analytics for Advertising](https://experienceleague.adobe.com
 | **[!UICONTROL Ad Title]** | The ad type (DSP) or ad title (Search, Social, Commerce). | DSP, Search, Social, Commerce | [!UICONTROL AMO ID] |
 | **[!UICONTROL Ad Type]** | | DSP, Search, Social, Commerce | [!UICONTROL AMO ID] |
 | **[!UICONTROL AdCloud Attribute 1]** | Unknown | Unknown | [!UICONTROL AMO ID] |
-| **[!UICONTROL AdCloud Attribute 2]** | Unknown | Unknwn | [!UICONTROL AMO ID] |
+| **[!UICONTROL AdCloud Attribute 2]** | Unknown | Unknown | [!UICONTROL AMO ID] |
 | **[!UICONTROL AdCloud Attribute 3]** | Unknown | Unknown | [!UICONTROL AMO ID] |
 | **[!UICONTROL AdCloud Attribute 4]** | Unknown | Unknown | [!UICONTROL AMO ID] |
 | **[!UICONTROL AdCloud Attribute 5]** | Unknown | Unknown | [!UICONTROL AMO ID] |

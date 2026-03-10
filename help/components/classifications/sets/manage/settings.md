@@ -22,8 +22,10 @@ To edit the settings for a classification set:
 
    1. Edit the **[!UICONTROL Name]**.
    1. Edit a **[!UICONTROL Description (optional)]**.
-   1. Edit the list of email addresses (comma separated) in **[!UICONTROL Notify of issues]**. These users receive an email when one or more issues occur.
    1. Add one or more **[!UICONTROL Tags (optional)]** to the classification set. Select an existing tag from the **[!UICONTROL Tags]** drop-down menu, or enter a new tag. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) to remove a tag.
+   1. In the **[!UICONTROL Job notifications]** section, select who you want to notify on failure or success of the classification set jobs.
+      * To notify users on a failure, enable **[!UICONTROL Notify on failure]** and specify one or more comma separated email addresses in **[!UICONTROL Failure email recipients]**. 
+      * To notify users on success, enable **[!UICONTROL Notify on success]** and specify one or more comma separated email addresses in **[!UICONTROL Success email recipients]**. 
    1. Edit the **[!UICONTROL Subscriptions]**.  
       * You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
       * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.

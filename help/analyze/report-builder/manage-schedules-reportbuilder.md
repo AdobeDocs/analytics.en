@@ -23,7 +23,7 @@ You can view and manage all scheduled workbooks in the **[!UICONTROL Workbooks]*
 
 1. Select **[!UICONTROL Schedule]** in the Report Builder hub 
 
-1. Select the **[!UICONTROL Workbooks]** tab. You see a list of all scheduled workbooks.
+1. Select the **[!UICONTROL Workbooks]** tab. You see a list of all scheduled workbooks. (Alternatively, you can select the **[!UICONTROL Legacy]** tab to view a list of legacy workbooks that need to be migrated to the new Report builder.)
 
    ![Scheduled workbook](assets/scheduled-workbooks.png){zoomable="yes"}
 

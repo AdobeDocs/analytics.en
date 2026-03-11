@@ -15,7 +15,7 @@ These release notes cover the March 2026 release period. Adobe Analytics release
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
 | **Sort tables by multiple columns** <p>You can now sort the data of a freeform table by multiple columns in Analysis Workspace, whether they are dimensions or metrics.</p><p>When you sort data for multiple columns, data is sorted according to the priority you assign to each column. Priority numbering is displayed next to the sort icon.</p><p>For more information, see [Filter and sort freeform tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | January 28, 2026 | March 4, 2026 <p>(Originally planned for February 18, 2026)</p> |
-| **Report Builder filter enhancements**<br/> The Report Builder Excel Add-in includes a new filter option to show all scheduled legacy workbooks for a given org.<br/>This new filter option is useful when upgrading Analytics implementations for distributed teams. | | March 10, 2026 |
+| **Report Builder filter enhancements**<br/> The Report Builder Excel Add-in includes a new filter option to show all scheduled legacy workbooks for a given org.<br/>This new filter option is useful when upgrading Analytics implementations for distributed teams.<br/>For more information, see [Managed scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md). | | March 10, 2026 |
 | **Hands-on tutorial for Analysis Workspace**<br/>A new hands-on tutorial is now available to guide new users through the basics of using panels, visualizations, and components in Analysis Workspace. <p>(Documentation link to follow.)<!--For more information, see "Learning paths" in "Customer Journey Analytics landing page".--></p>  | | March 18, 2026 |
 | **Update to the Approximate Count Distinct function**<p>The HLL probabilistic algorithm used in the Approximate Count Distinct function will soon be updated. The resulting output for numbers utilizing this function might change slightly from historical numbers, as follows:</p><ul><li>When counting very small amounts of unique values, the results will be improved to use exact counts rather than using estimates.</li><li>When counting anything larger, count estimates will retain the same accuracy as prior to this update (estimates are accurate within 5 percent of the exact number, 95 percent of the time).</li></ul><p>For more information about the Approximate Count Distinct function, see [Approximate Count Distinct](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) in [Advanced functions](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> |  | March 2026 |
 | **Apply a breakdown to a panel**<br/>You can now apply a breakdown to a panel. When applying a breakdown at the panel level, the breakdown is applied to all columns in all freeform tables within the panel.  | March 2026 | May 2026 |
@@ -24,16 +24,16 @@ These release notes cover the March 2026 release period. Adobe Analytics release
 ## Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-424997, AN-424194, AN-425515, AN-423174, AN-425207, AN-428834, AN-306540, AN-426014, AN-427801
-**Classifications**: AN-422723, AN-424467, AN-423724, AN-424003, AN-425217, AN-396062, AN-422744, AN-425456, AN-425271, AN-425655, AN-424894, AN-429236
-**Data Feeds and Data Warehouse**: AN-427082, AN-405154, AN-406512, AN-423594, AN-425283, AN-425208, AN-422510, AN-421189, AN-428986, AN-426724, AN-401525, AN-426884, AN-425146
-**Migration**: AN-421192, AN-423443
-**Privacy**: 
-**Report Builder**: AN-391415, AN-425125
-**Reporting**: AN-422123, AN-425817, AN-421097, AN-422249, AN-403446, AN-424727, AN-426791, AN-427985
-**Scheduled reports**: AN-425484, AN-425137
-**Segmentation**: AN-428905, AN-428232
-**Other**: AN-425054, AN-420190, AN-422248
+**Analysis Workspace**: AN-440336, AN-440216, AN-440121, AN-438445, AN-438216, AN-437856, AN-437776, AN-437765, AN-437365, AN-432793, AN-432094, AN-431557, AN-431200, AN-429621, AN-429424, AN-427973, AN-426089, AN-425883, AN-424359
+**Classifications**: AN-440143, AN-439891, AN-439844, AN-438994, AN-438057, AN-438052, AN-437986, AN-437896, AN-435387, AN-435335, AN-435150, AN-433050, AN-432062, AN-431873, AN-429642
+**Data Feeds and Data Warehouse**: AN-439441, AN-437086, AN-433064, AN-432121, AN-431755, AN-428239, AN-427049, AN-425036, AN-424972, AN-423509, AN-335417, AN-283958, AN-256948
+**Migration**: 
+**Exports**: AN-432030 
+**Report Builder**: AN-437895, AN-437083, AN-434288, AN-434209, AN-433224, AN-430622
+**Reporting**: AN-434545, AN-431206, AN-428043
+**Scheduled reports**: 
+**Segmentation**: 
+**Other**: AN-440076, AN-434783, AN-434542, AN-434233, AN-433368, AN-432138, AN-431322, AN-431012, AN-429067, AN-423285
 
 
 ## End-of-life (EOL) notices {#eol}

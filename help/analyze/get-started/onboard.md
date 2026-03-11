@@ -15,7 +15,8 @@ Your Adobe Analytics Journey starts with onboarding the right configurations and
 
 Watch the following videos to complete your onboarding journey from Adobe Admin Console for User and Access Setup to Adobe Experience League for documentation and support, and finally, Adobe Analytics itself.
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./onboard.md
   {title = Adobe Experience League}
@@ -52,6 +53,7 @@ Watch the following videos to complete your onboarding journey from Adobe Admin 
   {url = #adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience League">

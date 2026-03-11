@@ -67,7 +67,8 @@ You can filter the list of calculated metric using the ![Filter](/help/assets/ic
 
 See [Filter the list of calculated metrics](cm-filter.md) for more information.
 
-<!-- OLD CONTENT
+<!--
+OLD CONTENT
 
 The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 

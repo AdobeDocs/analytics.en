@@ -20,7 +20,8 @@ Anyone can create a custom date range. You create a date range in the following 
 
 To define the annotation, you use the [[!UICONTROL Date range builder]](#annotation-builder):
 
-<!-- Should we really mention API here. If so, we can do it all over the place in the docs...
+<!--
+Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
 -->
 

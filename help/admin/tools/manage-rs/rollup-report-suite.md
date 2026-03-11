@@ -27,7 +27,8 @@ You can provide subsets of your company's global report suite data to different 
 
 Using virtual report suites instead of multi-suite tagging is often a best practice, but virtual report suites have some limitations. See "[Virtual report suites and multi-suite tagging considerations](/help/components/vrs/vrs-considerations.md)" to determine which report suite approach is the best choice for your business needs. For an in-depth comparison of virtual report suites and multi-suite tagging functionality, see [Virtual report suites vs. multi-suite tagging](/help/components/vrs/vrs-about.md).
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -67,4 +68,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->

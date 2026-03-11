@@ -222,7 +222,8 @@ CDF-Z(-3) ? 0.0013499
 | metric| The metric that you want to round |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -243,7 +244,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -391,7 +391,6 @@ Returns the average of the last n elements of column x. If n > 0, sum the last n
 >[!NOTE]
 >
 >This function does not work with rate metrics like revenue per person. The function averages the rates instead of summing revenue over the last N and summing persons over the last N and then dividing them. <br/>Instead, use [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
->
 
 
 ## Equal {#equal}
@@ -722,7 +721,8 @@ Less than or equal. The output is either a 0 (false) or 1 (true).
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 

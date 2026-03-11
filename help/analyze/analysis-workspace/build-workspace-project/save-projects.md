@@ -82,7 +82,8 @@ To save a project manually, with your project open in Analysis Workspace, select
   You can save the project to a different folder. The original project is not affected.
 
   
-<!-- Cannot find this option in CJA 
+<!--
+Cannot find this option in CJA 
 | **[!UICONTROL Save as template]** | Save your project as a [custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
@@ -100,17 +101,17 @@ All projects in Analysis Workspace are automatically saved every 2 minutes to yo
 
 Analysis Workspace prompts you to save new projects manually when switching to another project, closing the browser tab, and so forth. 
 
-  If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called **[!UICONTROL Recovered Projects (Last 7 Days)]**. Restore the recovered project and manually save it to a desired location.
+If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called **[!UICONTROL Recovered Projects (Last 7 Days)]**. Restore the recovered project and manually save it to a desired location.
 
-  To restore a recovered project:
+To restore a recovered project:
 
-  1. Go to the **[!UICONTROL Recovered Projects (Last 7 Days)]** folder on the Analysis Workspace landing page.
+1. Go to the **[!UICONTROL Recovered Projects (Last 7 Days)]** folder on the Analysis Workspace landing page.
   
-  <!-- 
-     ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
-  -->
+<!-- 
+   ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
+-->
 
-  1. Open your project and save it to a desired location.
+1. Open your project and save it to a desired location.
 
 
 ### Existing projects
@@ -152,7 +153,8 @@ If your browser crashes or if your session times out, then the next time you acc
 For **new** projects that have never been saved, unsaved changes are not recoverable.
 
 
-<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
+<!--
+Shouldn't this belong to another page?  Moved it to a new open projects page
 
 
 ## Open previously saved version
@@ -169,7 +171,6 @@ To open a previously saved version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project.
-
 -->
 
 
@@ -265,5 +266,4 @@ To open a previous version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project. 
-
 -->

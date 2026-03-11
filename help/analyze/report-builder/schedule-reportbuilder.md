@@ -68,7 +68,8 @@ In the **[!UICONTROL File]** section, you provide details of the file type, name
     * **[!UICONTROL ISO Date format]**, which results in `YYYY-MM-DD` being appended to the filename.
     * **[!UICONTROL ISO Date format + time stamp]**, which results in `YYYY-MM-DD_HH-MM-SS` being appended to the filename.
 
-<!-- Does no longer seem to be an option? 
+<!--
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.

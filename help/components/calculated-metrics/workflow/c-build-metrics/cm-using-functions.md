@@ -14,6 +14,7 @@ For a list of all functions, refer to [Basic functions](/help/components/calcula
 >
 >When including functions in a calculated metrics formula, always apply the function before you drag in metrics or segments.
 
-<!-- OUTDATED VIDEO 
+<!--
+OUTDATED VIDEO 
 Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
 -->

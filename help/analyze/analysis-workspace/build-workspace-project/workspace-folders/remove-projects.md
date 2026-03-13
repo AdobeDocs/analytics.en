@@ -12,7 +12,8 @@ See [Actions in Manage projects](../freeform-overview.md#actions) on how to remo
 
 
 
-<!-- Is this article still needed; not in the TOC anymore
+<!--
+Is this article still needed; not in the TOC anymore
 
 
 # Delete projects

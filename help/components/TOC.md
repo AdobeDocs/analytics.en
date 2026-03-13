@@ -18,6 +18,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Activity Map Page](dimensions/activity-map-page.md)
   + [Activity Map Region](dimensions/activity-map-region.md)
   + [Ad Platform Consent](dimensions/ad-consent.md)
+  + [Advertising dimensions](dimensions/amo-dimensions.md)
   + [All search page rank](dimensions/all-search-page-rank.md)
   + [AM/PM](dimensions/am-pm.md)
   + [Bot name](dimensions/bot-name.md)
@@ -114,6 +115,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [Zip code](dimensions/zip-code.md)
 + Metrics {#metrics}
   + [Metrics overview](metrics/overview.md)
+  + [Advertising metrics](metrics/amo-metrics.md)
   + [Average page depth](metrics/average-page-depth.md)
   + [Average page views per visit](metrics/average-page-views-per-visit.md)
   + [Average session length](metrics/average-session-length.md)

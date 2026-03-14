@@ -22,7 +22,7 @@ To exclude data by IP address, you can configure exclusions as described below, 
 >* You can use wildcard indicators (&#42;) to exclude a range of addresses. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. You can exclude up to 50 different IP addresses.
 >* Data from an excluded IP address is excluded for any new hits coming into the system within 5 minutes of the exclusion being set. 
 >* Data for hits captured prior to the time when changes were made to the IP address is not affected. IP exclusion only applies to data moving forward.
->* Excluded hits are still visible in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) (flagged using `exclude_hit = 4`).
+>* Excluded hits are still visible in [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) (flagged as `exclude_hit = 4`).
 
 To configure exclusions by IP address:
 
@@ -30,9 +30,9 @@ To configure exclusions by IP address:
 
 1. On the Admin page, select **[!UICONTROL Exclude by IP]**.
 
-## Impact of IP obfuscation {#section_51B7529FFF16449CA016FDC51D87E2CA}
+## Impact of using IP obfuscation with IP exclusion
 
-Impact of excluding by IP (this feature) depends on each report suite's IP obfuscation setting:
+The impact of using [IP obfuscation](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) along with IP exclusion depends on each report suite's IP obfuscation setting:
 
-* **IP obfuscation (last octet)**: IP is partially obfuscated BEFORE IP exclusion runs. Ensure IP exclusion rules always expect a `0` as the last octet (wildcards valid).
+* **IP obfuscation (last octet)**: IP is partially obfuscated BEFORE IP exclusion runs. Ensure IP exclusion rules always expect a `0` as the last octet (wildcards are valid since they include `0`).
 * **IP obfuscation (remove IP)**: IP is fully obfuscated AFTER IP exclusion runs. No IP exclusion rule accommodations are necessary.

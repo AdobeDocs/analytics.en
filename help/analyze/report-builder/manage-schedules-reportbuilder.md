@@ -23,14 +23,19 @@ You can view and manage all scheduled workbooks in the **[!UICONTROL Workbooks]*
 
 1. Select **[!UICONTROL Schedule]** in the Report Builder hub 
 
-1. Select the **[!UICONTROL Workbooks]** tab. You see a list of all scheduled workbooks.
+1. Select the **[!UICONTROL Workbooks]** tab. You see a list of all scheduled workbooks. (Alternatively, you can select the **[!UICONTROL Legacy]** tab to view a list of legacy workbooks that need to be migrated to the new Report builder.)
 
    ![Scheduled workbook](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   You can hover over the icon to see the status of a scheduled workbook.
+1. Do any of the following:
 
-   Use ![Search](/help/assets/icons/Search.svg) to search for specific scheduled workbooks.
-   Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to define which columns to show.
+   * Hover over the icon to see the status of a scheduled workbook.
+
+   * In the search field ![Search](/help/assets/icons/Search.svg), search for specific scheduled workbooks.
+
+   * Select the column icon ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to define which columns to show.
+
+   * Select the filter icon ![Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), then select [!UICONTROL **Show all**] to show all scheduled workbooks for a given org.
 
 1. Select one or more workbooks.
 

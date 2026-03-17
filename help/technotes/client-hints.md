@@ -155,7 +155,7 @@ Yes. Client hints will be included in the data forwarded to Adobe Audience Manag
 
 +++**Why do I see a browser version number of 999.99?**
 
-Customers sometimes perform testing with invalid browser version numbers, which can be any number over 100,000. To avoid large counts of invalid browser version numbers on a given day, any version numbers that are over 100,000 are bucketed together and pinned to the version number 999.99. 
+Customers sometimes perform testing with invalid browser or device operating system version numbers, which can be any number over 100,000. To avoid large counts of invalid browser or device operating system version numbers on a given day, any version numbers that are over 100,000 are bucketed together and pinned to the version number 999.99. 
 
 +++
 

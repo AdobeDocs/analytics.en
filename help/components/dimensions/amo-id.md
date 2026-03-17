@@ -141,11 +141,11 @@ When enabling the [Analytics for Advertising](https://experienceleague.adobe.com
 | **[!UICONTROL Ad Type]** | The ad type, such as `text`, `video`, `display`, or `native`. | &check; | &check; |
 | **[!UICONTROL AdCloud Attribute 1]** -<br>**[!UICONTROL AdCloud Attribute 5]** | Placeholder classifications reserved for future custom attributes. Not currently in use. | | |
 | **[!UICONTROL Campaign]** | The campaign name. | &check; | &check; |
-| **[!UICONTROL Creative Experience Name]** | Name of the creative experience associated with the ad interaction, representing a group of creative variations used in testing or personalization. | | |
-| **[!UICONTROL Creative Branch Name]** | Name of the branch within a creative experience that represents a specific variation or path in the creative experiment. | | |
-| **[!UICONTROL Creative Branch ID]** | Unique identifier assigned to a creative branch within a creative experience. | | |
-| **[!UICONTROL Creative Name]** | Name of the specific ad creative asset that was served to the user. | | |
-| **[!UICONTROL Creative Variant Name]** | Name of the specific variant of a creative used within a creative experience or branch. | | |
+| **[!UICONTROL Creative Experience Name]** | Name of the creative experience associated with the ad interaction, representing a group of creative variations used in testing or personalization. | &check; | |
+| **[!UICONTROL Creative Branch Name]** | Name of the branch within a creative experience that represents a specific variation or path in the creative experiment. | &check; | |
+| **[!UICONTROL Creative Branch ID]** | Unique identifier assigned to a creative branch within a creative experience. | &check; | |
+| **[!UICONTROL Creative Name]** | Name of the specific ad creative asset that was served to the user. | &check; | |
+| **[!UICONTROL Creative Variant Name]** | Name of the specific variant of a creative used within a creative experience or branch. | &check; | |
 | **[!UICONTROL Keyword]** | The keyword. | | &check; |
 | **[!UICONTROL Keyword Match Type]** | The keyword and match type. | | &check; |
 | **[!UICONTROL Landing Type]** | Whether the landing page entry was a view-through or a click-through. | &check; | &check; |

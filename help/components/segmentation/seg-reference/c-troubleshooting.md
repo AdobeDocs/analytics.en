@@ -8,7 +8,8 @@ exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 
 This article lists some common issues with segments and how to troubleshoot these issues.
 
-<!-- Looks like this is not part anymore of the current UI.
+<!--
+Looks like this is not part anymore of the current UI.
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 
@@ -16,7 +17,6 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
-
 -->
 
 ## Why does my segment return no data at all? {#no-data}

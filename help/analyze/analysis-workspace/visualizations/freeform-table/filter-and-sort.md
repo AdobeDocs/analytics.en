@@ -39,14 +39,16 @@ To exclude specific rows from a Freeform table:
 
    Hold the ***shift*** to select a range of rows, or hold the ***cmd*** key (on Mac) or the ***ctrl*** key (on Windows) to select multiple rows.
 
-<!--### Right-click > Delete selected rows
+<!--
+### Right-click > Delete selected rows
 
 Note: this option does not seem to work. AN-338422
 
 1. Select 1 or more rows. 
 1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
 
-   This action will remove the rows from the table and apply a table filter.-->
+   This action will remove the rows from the table and apply a table filter.
+-->
 
 
 ### Apply a simple or advanced filter to a table
@@ -144,8 +146,6 @@ To sort data in tables by a single column:
    The sort icon remains visible when sorting is applied to the column. An arrow indicates how the data is sorted (![Sort](/help/assets/icons/SortOrderUp.svg) for ascending or ![Sort](/help/assets/icons/SortOrderDown.svg) for descending).
 
 ## Sort tables by multiple columns (Advanced sorting)
-
-{{release-limited-testing-section}}
 
 ### Apply sorting to multiple columns
 

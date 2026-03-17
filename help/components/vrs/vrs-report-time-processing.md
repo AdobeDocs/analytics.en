@@ -37,7 +37,7 @@ The following configuration options are currently available to virtual report su
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

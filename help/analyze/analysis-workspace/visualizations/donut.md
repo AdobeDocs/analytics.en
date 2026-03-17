@@ -31,7 +31,7 @@ Similar to a pie chart, the ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add a donut visualization](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add a donut visualization](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

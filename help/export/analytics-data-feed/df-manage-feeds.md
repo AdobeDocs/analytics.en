@@ -4,16 +4,25 @@ description: Learn how to navigate the data feed interface. Find out how to crea
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 ---
-# Manage data feeds
+# Manage data feeds {#manage-data-feeds}
 
 The data feed manager lets you create, edit, and delete data feeds for your organization. If you have permissions to access the data feed manager, you can manage data feeds for all report suites visible to you.
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed management](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data feed management](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Manage data feeds"
+>abstract="You can view, create, and manage data feeds from this page. Search for feeds by name or ID, or select the filter icon to view available filters."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## View data feeds
@@ -56,7 +65,7 @@ The **[!UICONTROL Create data feed]** button allows you to create a new feed. Se
 
 1. Use search or filters to locate a specific feed.
 
-   * In the search field, begin typing the name of a feed. Only those feeds that match are shown in the list of available feeds.
+   * In the search field, begin typing the name or ID of a feed. Only those feeds that match are shown in the list of available feeds.
 
      ![Search](assets/search.png)
 

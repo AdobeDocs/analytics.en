@@ -72,7 +72,8 @@ To do so:
 
 * From the header of any table or visualization, select **[!UICONTROL Download data as CSV]** from the context menu. This downloads the displayed data in the table or the underlying data source for a visualization as a CSV. 
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!--
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.

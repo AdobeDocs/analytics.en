@@ -4,11 +4,20 @@ description: Learn how to manage individual jobs in data feeds. Navigate the int
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 ---
-# Manage data feed jobs
+# Manage data feed jobs {#manage-data-feed-jobs}
 
 Jobs are individual tasks that output a compressed file. They are created and governed by feeds.
 
 You can view the job history for each data feed, resend jobs, or reprocess jobs. 
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="Data feed job history"
+>abstract="You can view a list of data feed jobs for a given data feed from this page. Search for jobs by Request ID or Request period begin date. Information about each job is shown in the available columns. You can also resend a job with the same data, or reprocess the source data of a job before resending it."
+
+<!-- markdownlint-enable MD034 -->
 
 ## View job history for a data feed
 
@@ -62,6 +71,8 @@ To resend one or more data feed jobs:
 
 1. Select the checkbox next to the data feed that contains the jobs that you want to resend, then select [!UICONTROL **Job history**].
 
+1. (Optional) In the search field, search by Request ID or Request period begin date to search the list of data feed jobs.
+
 1. Select the checkbox next to one or more data feed jobs, then select **[!UICONTROL Resend]**. <!-- What does the status need to be? Error, ... -->
 
    ![Reprocess data feed job](assets/data-feed-job-resend.png)
@@ -75,6 +86,8 @@ To reprocess one or more data feed jobs:
 1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
 
 1. Select the checkbox next to the data feed that contains the jobs that you want to reprocess, then select [!UICONTROL **Job history**].
+
+1. (Optional) In the search field, search by Request ID or Request period begin date to search the list of data feed jobs.
 
 1. Select the checkbox next to one or more data feed jobs, then select **[!UICONTROL Reprocess]**. <!-- What does the status need to be? Error, ... -->
 

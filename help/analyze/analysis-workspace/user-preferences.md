@@ -12,7 +12,7 @@ You can manage settings for Analysis Workspace and its related components for al
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Manage preferences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Manage preferences](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

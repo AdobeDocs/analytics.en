@@ -41,7 +41,7 @@ With the visualization you can:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flow visualization](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flow visualization](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Each column could show a different dimension. Drag a dimension and drop in a dro
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Additional functionality in the Flow visualization](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Additional functionality in the Flow visualization](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -39,7 +39,8 @@ In this example, Entries and Bounce rate would not show data from August 31. The
 +++
 
 
-<!-- not relevant anymore due to introduction of separation of container and lookback window 
+<!--
+not relevant anymore due to introduction of separation of container and lookback window 
 +++## When should I use a visit, visitor, or custom attribution lookback?
 
 The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.

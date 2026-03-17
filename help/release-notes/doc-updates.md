@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **March 2026** | |
+| Identified the default option for IP obfuscation for new report suites | Added information stating that **Remove IP address** is the default [IP obfuscation option for new report suites](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).  |
 | **February 2026** |  | 
 | Added information about using geo and technology reports | Added information about differences when using geo and technology reports [across various Analytics products](/help/analyze/get-started/analytics-product-comparison.md) article. |
 | **January 2026** | |

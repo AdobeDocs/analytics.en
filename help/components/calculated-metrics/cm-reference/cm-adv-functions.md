@@ -222,7 +222,8 @@ CDF-Z(-3) ? 0.0013499
 | metric| The metric that you want to round |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -243,7 +244,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -391,7 +391,6 @@ Returns the average of the last n elements of column x. If n > 0, sum the last n
 >[!NOTE]
 >
 >This function does not work with rate metrics like revenue per person. The function averages the rates instead of summing revenue over the last N and summing persons over the last N and then dividing them. <br/>Instead, use [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
->
 
 
 ## Equal {#equal}
@@ -427,14 +426,14 @@ Equal. The output is either a 0 (false) or 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="Exponential Regression: Correlation coefficient"
->abstract="Exponential regression: Y = a exp(X) + b. Returns the correlation coefficient."
+>abstract="Exponential regression: Y = b * exp(aX). Returns the correlation coefficient."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Table]{type="Neutral"} Exponential regression: Y = a exp(X) + b. Returns the correlation coefficient.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Returns the correlation coefficient.
 
 
 | Argument | Description |
@@ -450,14 +449,14 @@ Equal. The output is either a 0 (false) or 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="Exponential Regression: Predicted Y"
->abstract="Exponential regression: Y = a exp(X) + b. Returns Y."
+>abstract="Exponential regression: Y = b * exp(aX). Returns Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Row]{type="Neutral"} Exponential regression: Y = a exp(X) + b. Returns Y.
+[!BADGE Row]{type="Neutral"} Exponential regression: Y = b * exp(aX). Returns Y.
 
 
 | Argument | Description |
@@ -474,14 +473,14 @@ Equal. The output is either a 0 (false) or 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Exponential Regression: Intercept"
->abstract="Exponential regression: Y = a exp(X) + b. Returns b."
+>abstract="Exponential regression: Y = b * exp(aX). Returns b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Table]{type="Neutral"} Exponential regression: Y = a exp(X) + b. Returns b.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Returns b.
 
 | Argument | Description |
 |---|---|
@@ -497,14 +496,14 @@ Equal. The output is either a 0 (false) or 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="Exponential Regression: Slope"
->abstract="Exponential regression: Y = a exp(X) + b. Returns a."
+>abstract="Exponential regression: Y = b * exp(aX). Returns a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Table]{type="Neutral"} Exponential regression: Y = a exp(X) + b. Returns a.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Returns a.
 
 
 | Argument | Description |
@@ -722,7 +721,8 @@ Less than or equal. The output is either a 0 (false) or 1 (true).
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 

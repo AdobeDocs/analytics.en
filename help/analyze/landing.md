@@ -41,7 +41,7 @@ The Projects section displays the Company folder, any personal folders you creat
 >
 >Several of the following settings persist across sessions. For example, the tab you selected, the selected segments, selected columns, and the column sort direction. Search results do not persist.
 
-See [Projects](/help/analysis-workspace/build-workspace-project/freeform-overview.md) for more information.
+See [Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) for more information.
 
 ### Customize table columns
 

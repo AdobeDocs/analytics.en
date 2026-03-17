@@ -29,8 +29,8 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | **`post_`** | **`aemassetid`** | A multi-value variable corresponding to Asset IDs (GUIDs) of a set of Adobe Experience Manager Assets. Increments Impression Events. | text |
 | **`post_`** | **`aemassetsource`** | Identifies the source of the asset event. Used in Adobe Experience Manager.| varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | Asset ID of an Adobe Experience Manager asset. Increments Click Events.| varchar(255) |
-| **`post_`** | **`amo_cid`** | The [AMO ID](/help/components/dimensions/amo-dimensions.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
-| **`post_`** | **`amo_ef_id`** | The [AMO EF ID](/help/components/dimensions/amo-dimensions.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`amo_cid`** | The [AMO ID](/help/components/dimensions/amo-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`amo_ef_id`** | The [AMO EF ID](/help/components/dimensions/amo-ef-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
 | | **`browser`** | A numeric ID that represents the browser. References the `browser.tsv` lookup table. | int unsigned |
 | **`post_`** | **`browser_height`** | The [Browser Height](/help/components/dimensions/browser-height.md) dimension. | smallint unsigned |
 | **`post_`** | **`browser_width`** | The [Browser Width](/help/components/dimensions/browser-width.md) | smallint unsigned |

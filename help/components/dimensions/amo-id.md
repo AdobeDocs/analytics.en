@@ -19,7 +19,7 @@ This dimension collects its values in multiple ways:
 
 Dimension items include AMO IDs, also called `s_kwcid` values. The exact format depends on whether traffic originated from DSP or from Search, Social, & Commerce. AMO IDs are less granular than EF IDs and are primarily used for classifications and ingestion of Adobe Advertising metrics in Analytics.
 
-#### DSP
+### DSP
 
 ```text
 AC!{ad key}!{placement key}
@@ -35,7 +35,7 @@ Example value:
 AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 ```
 
-#### Search, Social, & Commerce ads
+### Search, Social, & Commerce ads
 
 Search, Social, & Commerce AMO IDs begin with `AL`, followed by the advertiser user ID, the ad network account ID, then network-specific identifiers. Shared ad network account IDs include:
 

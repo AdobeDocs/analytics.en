@@ -2,6 +2,7 @@
 title: AMO Meta Ads Click ID
 description: The Adobe Media Optimizer Meta Ads Click ID, used in Adobe Advertising integrations.
 feature: Dimensions
+exl-id: c1def73a-51b9-46bf-9dc7-0fbd46fd6e17
 ---
 # AMO Meta Ads Click ID
 

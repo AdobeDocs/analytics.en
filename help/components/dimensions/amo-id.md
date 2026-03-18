@@ -2,6 +2,7 @@
 title: AMO ID
 description: The Adobe Media Optimizer ID, used in Adobe Advertising integrations.
 feature: Dimensions
+exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
 ---
 # AMO ID
 

@@ -2,6 +2,7 @@
 title: Adobe Advertising metrics
 description: Available metrics when enabling the Adobe Advertising integration.
 feature: Metrics
+exl-id: 28af6ca3-9050-446b-b58f-9cc387d48846
 ---
 # Adobe Advertising metrics
 

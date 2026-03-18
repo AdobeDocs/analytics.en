@@ -21,6 +21,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | --- | --- |
 | **March 2026** | |
 | Identified the default option for IP obfuscation for new report suites | Added information stating that **Remove IP address** is the default [IP obfuscation option for new report suites](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).  |
+| Processing order overhaul | Significant improvements to [Processing order in Adobe Analytics](/help/technotes/processing-order.md). |
+| Adobe Advertising integration | Additions of Adobe Advertising integration dimensions and metrics, including [AMO ID](/help/components/dimensions/amo-id.md). |
 | **February 2026** |  | 
 | Added information about using geo and technology reports | Added information about differences when using geo and technology reports [across various Analytics products](/help/analyze/get-started/analytics-product-comparison.md) article. |
 | **January 2026** | |
@@ -242,7 +244,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | August 18, 2021 | Revised top-level structure and consolidated to a single [Landing page](https://experienceleague.adobe.com/docs/analytics.html) |
 | August 18, 2021 | New topic on [A4T and virtual report suites](/help/components/vrs/vrs-a4t.md) |
 | August 18, 2021 | New topic on [Attribution best practices](/help/analyze/analysis-workspace/attribution/best-practices.md) |
-| August 5, 2021 | New topic on [Count repeat instances](/help/components/metrics/count-repeat-instances.md) |
+| August 5, 2021 | New topic on Count repeat instances. |
 | August 5, 2021 | Updated classifications documentation on [templates](/help/components/classifications/importer/c-download-saint-data.md), [browser import](/help/components/classifications/importer/browser-import.md), and [browser export](/help/components/classifications/importer/browser-export.md) to indicate options unavailable for report suites that are enabled for the New Classification Architecture. |
 | August 2, 2021 | Updated multiple pages to reflect the re-branding of [Adobe Experience Platform Launch](/help/implement/launch/overview.md) |
 | **July 2021** |  |

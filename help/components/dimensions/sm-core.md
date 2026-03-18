@@ -22,6 +22,7 @@ When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/
 | **[!UICONTROL Content segment]** | The interval that describes the part of the content that has been viewed, in minutes. The segment is computed as min and max of the playhead values during a playback session. | Media Close | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Content type]** | The type of content. Valid values include `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD`, or a custom value. | Media Start, Media Close | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Media path]** | The path that the visitor took to reach the content. | Media Start | `a.media.path` | |
+| **[!UICONTROL Media session ID]** | Identifies an instance of a content stream unique to an individual playback. | Media Start, Media Close | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Stream type]** | The stream type. Valid values include `audio` and `video`. | Media Start, Media Close | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 In addition to the above dimensions, Adobe automatically creates the following classification dimensions. You must upload classification data to view reports that use these dimensions.

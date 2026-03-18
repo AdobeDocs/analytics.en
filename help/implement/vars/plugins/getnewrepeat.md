@@ -9,7 +9,7 @@ role: Admin, Developer
 
 {{plug-in}}
 
-The `getNewRepeat` plug-in allows you to determine whether a visitor to the site is a new visitor or a repeat visitor within a desired number of days. Adobe recommends using this plug-in if you want to identify visitors as "new" using a custom number of days. This plug-in is unnecessary if the New/Repeat visitor dimensions in Analysis Workspace meet your organization's needs.
+The `getNewRepeat` plug-in allows you to determine whether a visitor to the site is a new visitor or a repeat visitor within a desired number of days. Adobe recommends using this plug-in if you want to identify visitors as "new" using a custom number of days. This plug-in is unnecessary if the '[!UICONTROL New Visitors]' and '[!UICONTROL Repeat Visitors]' segments in Analysis Workspace meet your organization's needs.
 
 ## Install the plug-in using the Web SDK extension
 

@@ -8,6 +8,8 @@ feature: Data Configuration and Collection
 
 Adobe offers many ways to alter or manipulate data before it appears in reporting. This page shows the order in which various Adobe Analytics features process data. You can use this list to troubleshoot data inconsistencies, or determine the best feature to use when data adjustments are necessary.
 
+![Processing order image](assets/processing-order.png)
+
 ## Data before it is sent to Adobe
 
 Before data is sent to Adobe, it is typically compiled client-side using one of the following methods:
@@ -19,9 +21,9 @@ Before data is sent to Adobe, it is typically compiled client-side using one of 
 
 If you send data to the Edge Network, you can configure it to forward data to Adobe Analytics (as well as many other Adobe Experience Cloud solutions). Regardless of implementation method, the collected hit data ultimately arrives to Adobe Analytics processing servers in a format that it can parse.
 
-## Pre-processing in Adobe Analytics collection (pre-processing)
+## Pre-processing in Adobe Analytics collection
 
-Once data arrives to Adobe Analytics, it enters a pre-processing phase:
+When data arrives to Adobe Analytics, it enters a pre-processing phase:
 
 1. [**Dynamic variables**](/help/implement/vars/page-vars/dynamic-variables.md): If a dynamic variable is seen in any part of an image request, the value is copied over and treated as an independent value moving forward.
 1. [**IP obfuscation (last octet)**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): If your report suite is configured to obfuscate only the last octet, that obfuscation applies here. Note that IP obfuscation (remove IP) happens later in the processing pipeline.
@@ -36,7 +38,7 @@ Once data arrives to Adobe Analytics, it enters a pre-processing phase:
 
 ## "Mid-value" stage of the data collection pipeline
 
-When hit-level processing is finished, several features use this partially processed form of data (known as "mid-values"). Before that data is sent anywhere, some mid-value-specific processing is applied:
+When pre-processing is finished, several features use this partially processed form of data, known as "mid-values". Before that data is sent anywhere, some mid-value-specific processing is applied:
 
 1. [**Hit-level marketing channel processing rules**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): These processing rules are specifically run for the Analytics Source Connector. Since there is no visit or visitor level context yet, these processing rules assume that a hit is not the first hit of a visit. The results of running the processing rules for a hit are available in `channel.typeAtSource` and `channel._id`.
 1. [**IP obfuscation (remove IP)**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): If your report suite is configured to completely obfuscate an IP address, that obfuscation applies here (only for mid-values).
@@ -53,10 +55,10 @@ Up to this point, a given hit has no knowledge or context of hits that were coll
 
 1. [**Visit + visitor definition**](/help/implement/id/overview.md): The hit is identified based on its contained visitor variables.
 1. [**Visit number**](/help/components/dimensions/visit-number.md): Based on other visits for the identified visitor, the visit number is calculated.
-1. [**Event deduplication**](/help/implement/vars/page-vars/purchaseid.md): If the hit contains a duplicate purchase ID or event serialization, those IDs are checked and respectively flagged.
+1. **Event deduplication**: If the hit contains a duplicate [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) or [event serialization](/help/implement/vars/page-vars/events/event-serialization.md), those IDs are checked and respectively flagged.
 1. [**Visit-level marketing channel processing rules**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): Every hit runs through marketing channel processing rules, and its channel + channel detail are determined if the hit matches any rule. These rules populate the [Marketing channel](/help/components/dimensions/marketing-channel.md) and [Marketing channel detail](/help/components/dimensions/marketing-detail.md) dimensions available in Analysis Workspace.
-1. **Variable persistence**: For dimensions that have persistence (such as [eVars](/help/components/dimensions/evar.md)), that value is determined at this step.
-1. **Transaction ID snapshot**: If the hit contains a [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, a "snapshot" of all supported values is stored. When a data source upload contains a matching transaction ID, all supported values are included in that data source row.
+1. **Variable persistence**: For dimensions that have persistence (such as [eVars](/help/components/dimensions/evar.md)), that value is determined at this step. Generally speaking, most `post` values are set here.
+1. **Transaction ID**: If the hit contains a new [`transactionID`](/help/implement/vars/page-vars/transactionid.md) value, a "snapshot" of all supported values is stored. When a data source upload contains a matching transaction ID, all supported values from this snapshot are included in that data source row.
 1. [**IP obfuscation (remove IP)**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): If your report suite is configured to completely obfuscate an IP address, that obfuscation applies here after all other processing finishes.
 
 At this point, the individual hit is recorded in report suite data tables. After the standard [latency](latency.md) interval, it is available in reporting.

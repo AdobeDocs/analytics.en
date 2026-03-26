@@ -184,7 +184,7 @@ Any segment component that you drop is used to segment the panel. Use segments t
 
 ### Quick segment
 
-Any non-segment component (dimension, dimension item, metric, date range) that is dropped defines a [quick segment](#quick-segment) to segment the panel. Use any non-segment component to create a quick segment without using the [Segment builder](/help/components/segments/seg-builder.md). A segment that is created in this way is automatically defined as an event-level segment and labeled **[!UICONTROL Quick segment]** by default.
+Any non-segment component (dimension, dimension item, metric, date range) that is dropped defines a [quick segment](#quick-segment) to segment the panel. Use any non-segment component to create a quick segment without using the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-quick.md). A segment that is created in this way is automatically defined as an event-level segment and labeled **[!UICONTROL Quick segment]** by default.
 
 Alternatively, you can use ![FilterAdd](/help/assets/icons/FilterAdd.svg) to create a quick segment.
 

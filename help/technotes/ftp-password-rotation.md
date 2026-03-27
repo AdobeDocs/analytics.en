@@ -36,7 +36,7 @@ Identify all FTP accounts that are receiving data for Data Feeds or Data Warehou
  
 For each account, gather the following information: 
  
-* **Host**: The FTP destination URL of the host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
+* **Host**: The FTP destination of the host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
  
 * **Port**: Not needed if this field is blank in your FTP account. This field is used to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist. 
  
@@ -70,7 +70,7 @@ When creating the new FTP accounts, you must use the same hostname, username, an
    | Field name | Function |
    |---------|----------|
    | **Hostname** |  Your Adobe FTP host name (for example, `ftp.omniture.com`). | 
-   | **Port** | Specify the directory path for your data stream. | 
+   | **Port** | Can be left blank. Use this field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist. SFTP clients connect on port 22, while normal FTP connections that are non-secure use port 21. | 
    | **Username** | Your current FTP username. |
    | **Location account secret** | Your current FTP account secrets (password).  |
  
@@ -86,7 +86,7 @@ For detailed instructions, see [Configure cloud import and export accounts](http
  
 1. Specify a name, description, and whether this location will be used with Data Feeds or Data Warehouse. 
  
-1. In the [!UICONTROL **Location account**] field, select the location with the account you just created. 
+1. In the [!UICONTROL **Location account**] field, select the account you just created. 
  
 1. In the [!UICONTROL **Directory path**] field, specify the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. For example, `/folder_name/folder_name`. 
  
@@ -128,9 +128,9 @@ To request a new account secret from Adobe:
  
 1. Contact Adobe Customer Care. 
  
-1. For each FTP account, provide the **Hostname**, **Port**, **Username**, and **Location account secret** for each account that needs a new account secret. 
+1. For each FTP account, provide the **Hostname** and **Username** for each account that needs a new account secret. 
  
-   Customer Care will generate a new account secret for each account. 
+   Customer Care will generate a new account secret for each FTP account. 
 
 1. Continue immediately with the following section, [After you receive the new account secret](#after-you-receive-the-new-account-secret).
  

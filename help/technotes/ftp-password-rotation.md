@@ -1,87 +1,109 @@
 ---
-title: Rotate FTP Passwords for Adobe Analytics
+title: Rotate FTP Passwords for Data Feeds and Data Warehouse
 description: Learn how to rotate FTP passwords for Adobe Analytics.
 feature: Data Configuration and Collection
 role: Admin
 ---
-# Rotate FTP passwords for Adobe Analytics
+# Rotate FTP passwords for Data Feeds and Data Warehouse
 
-Adobe recommends that you periodically rotate the passwords on your FTP accounts, which can be associated with Data Feeds, Data Warehouse, and Classifications. 
+Adobe recommends that you periodically rotate the passwords on your FTP accounts that are associated with Data Feeds and Data Warehouse.
 
 Regular password rotation is a security best practice that helps protect your data.
 
-You must complete the prerequisites before rotating FTP passwords.
+To ensure uninterrupted reception of data, follow the steps in [Prepare for password rotation](#prepare-for-password-rotation) prior to changing any passwords. 
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Consider the following when rotating FTP passwords:
->
->* FTP and SFTP are legacy destination types. Rather than rotating FTP passwords, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure), which are more secure. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
->
->* If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before continuing with the password rotation process. The third-party partner will need to update their own tools and scripts with the new password immediately after the reset.
+>If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before continuing with the password rotation process. The third-party partner will need to update their own tools and scripts with the new password immediately after the reset.
 
-## Prerequisites
+## When password rotation is not necessary
 
-Complete the following steps before attempting to rotate FTP passwords.
+### Transition from FTP to a cloud destination
+
+FTP and SFTP are legacy destination types. Rather than rotating FTP passwords, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure), which are more secure. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
+
+### Transition from the Classifications importer to Classification sets
+
+If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than rotating your FTP password. Classification importer will be deprecated on **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
+
+## Prepare for password rotation
+
+Complete the following steps before attempting to rotate FTP passwords:
 
 ### Step 1: Inventory your FTP accounts
 
-Identify all FTP accounts associated with your Adobe Analytics implementation. For each account, gather the following information:
+Identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the "Legacy account types" section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
 
-* **FTP host name**: The Adobe host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, or another Adobe-hosted FTP endpoint such as `ftp3`, `ftp4`, or `ftp5`).
+For each account, gather the following information:
+
+* **Host**: The FTP destination URL of the host your account connects to (for example, `ftp.adobe.com`, `ftp2.adobe.com`, and so forth).
+
+* **Port**: Not needed if this field is blank in your FTP account. This field is used to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist.
+
 * **Username**: The username used to log in to the FTP site.
-* **Account secret / password**: The current password for the account.
-* **How the account is used**: Determine whether each account is used for Data Feeds, Data Warehouse, Classifications, or a combination.
 
-### Step 2: Identify the destination path for each data stream
+* **Password**: The current password for the account.
 
-For each active Data Feed or Data Warehouse request that uses FTP, note the directory path where files are delivered. You'll need this when you configure a cloud location later in the process.
 
-### Step 3: Confirm that you can update credentials in your tools
+### Step 2: Confirm that you can update credentials in your tools
 
-Make sure you have the ability to update the FTP password in whatever tool or script you use to connect to the FTP site (for example, an FTP client, automated script, or third-party platform).
+Make sure you can update the FTP password in whatever tool or script you use to connect to the FTP site (for example, an FTP client, automated script, or third-party platform).
 
-### Step 4: Create a cloud location account with your current credentials
+### Step 3: Create FTP cloud location accounts with your current credentials
 
-Before the password changes, create a cloud location account using your existing FTP credentials so you can centrally manage your connection details going forward. This also makes it faster to update credentials after the reset.
+FTP accounts that were created prior to October 2025 cannot be modified. If your FTP accounts were created before October 2025, create new FTP cloud location accounts to replace your existing FTP accounts. These new accounts are where you will receive Data Feeds and Data Warehouse data. 
 
-To create the account:
+When creating the new FTP accounts, you must use the same hostname, username, and password that are used in your existing FTP accounts.
+
+#### Create each FTP account
 
 1. In Adobe Analytics, go to **Components** > **Locations**.
-2. Select the **Location accounts** tab.
-3. Select **Add account**.
-4. In the **Account type** drop-down, select **FTP** (under legacy account types).
-5. Fill in the following fields:
-   * **Host** — Your Adobe FTP host name (for example, `ftp.omniture.com`).
-   * **Username** — Your current FTP username.
-   * **Password** — Your current FTP password.
-6. Select **Save**.
 
-Then add a location within that account:
+1. Select the **Location accounts** tab.
+
+1. Select **Add account**.
+
+1. In the **Account type** drop-down field, select **FTP (legacy)**.
+
+1. Complete the following fields:
+   * **Hostname**: Your Adobe FTP host name (for example, `ftp.omniture.com`).
+   **Port**: Specify the directory path for your data stream.
+   * **Username**: Your current FTP username.
+   * **Location account secret**: Your current FTP password (secret).
+
+1. Select **Save**.
+
+Repeat this process for each FTP account.
+
+For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
+
+#### Add a location within the account
 
 1. On the **Locations** tab, select **Add location**.
-2. Associate the location with the account you just created.
-3. In the **Path** field, enter the directory path for your data stream.
-4. Select **Save**.
 
-Repeat this for each FTP account and destination path combination.
+1. Specify a name, description, and whether this location will be used with Data Feeds or Data Warehouse.
 
-For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) and [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
+1. In the [!UICONTROL **Location account**] field, select the location with the account you just created.
 
-### Step 5: Point your Data Feeds and Data Warehouse requests to the new cloud locations
+1. In the [!UICONTROL **Directory path**] field,  specify the path to the directory on the FTP server. Folders must already exist; feeds throw an error if the specified path does not exist. For example, `/folder_name/folder_name`.
+
+1. Select **Save**.
+
+Repeat this process for each location.
+
+For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
+
+### Step 4: Reference the new cloud locations from each Data Feeds and Data Warehouse request
 
 Update each existing Data Feed and Data Warehouse request to use the cloud location you created in Step 4 rather than a legacy inline FTP destination. This ensures that when the password is reset, you only need to update it in one place (the location account) instead of in every individual feed or request.
 
 * **Data Feeds** — Go to **Admin** > **Data Feeds**, edit each feed, and change the destination to the cloud location.
+
+  For detailed instructions, see [Edit a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md).
+
 * **Data Warehouse** — When you next schedule or edit a Data Warehouse request, select the cloud location as the report destination.
 
-### Step 5a: If FTP is used only for Classifications
-
-If your FTP account is used exclusively for Classifications import, you do not need to create a cloud location for it. Instead, Adobe recommends migrating to **Classification sets**, which provide a more modern and streamlined classification management experience.
-
->[!IMPORTANT]
->
->The Classification importer will be deprecated on **August 31, 2026**. After that date, you will no longer be able to import classifications using FTP. Migrate to Classification sets before this date to ensure continued functionality. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
+  For detailed instructions, see [Edit requests](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests) in [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md).
 
 ## Request the password reset
 

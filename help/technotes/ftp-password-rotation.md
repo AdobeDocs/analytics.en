@@ -10,11 +10,11 @@ Adobe recommends that you periodically rotate the account secrets (passwords) on
  
 Regular rotation of account secrets is a security best practice that helps protect your data. 
  
-To ensure uninterrupted reception of data, follow the steps in [Prepare for password rotation](#prepare-for-password-rotation) prior to changing any account secrets.  
+To ensure uninterrupted reception of data, follow the steps in [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets) prior to changing any account secrets.  
  
 >[!IMPORTANT] 
 > 
->If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before rotating account secrets. The third-party partner will need to update their own tools and scripts with the new account secrets immediately after the new account secrets are provided by Adobe.  after the new account secrets are provided by Adobe.
+>If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before rotating account secrets. The third-party partner will need to update their own tools and scripts with the new account secrets immediately after the new account secrets are provided by Adobe.
 
 ## When rotating account secrets is not necessary 
  
@@ -24,7 +24,7 @@ FTP and SFTP are legacy destination types. Rather than rotating FTP account secr
  
 ### Transition from the Classifications importer to Classification sets 
  
-If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than rotating your FTP account secrets. Classification importer will be deprecated on **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
+If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than rotating your FTP account secrets. The Classification importer will be deprecated on **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
 
 ## Prepare to rotate account secrets 
  
@@ -51,7 +51,7 @@ Make sure you can update the FTP account secret in whatever tool or script you u
  
 ### Step 3: Create FTP cloud location accounts with your current credentials 
  
-FTP accounts that were created prior to October 2025 cannot be modified. If your FTP accounts were created before October 2025, create new FTP cloud location accounts to replace your existing FTP accounts. These new accounts will be used as the destination for your Data Feeds and Data Warehouse deliveries.  
+Create new FTP cloud location accounts to replace your existing FTP accounts. These new accounts will be used as the destination for your Data Feeds and Data Warehouse deliveries.  
  
 When creating the new FTP accounts, you must use the same hostname, username, and account secret that are used in your existing FTP accounts. 
  
@@ -66,10 +66,13 @@ When creating the new FTP accounts, you must use the same hostname, username, an
 1. In the **Account type** drop-down field, select **FTP (legacy)**. 
  
 1. Complete the following fields: 
-* **Hostname**: Your Adobe FTP host name (for example, `ftp.omniture.com`). 
-**Port**: Specify the directory path for your data stream. 
-* **Username**: Your current FTP username. 
-* **Location account secret**: Your current FTP account secrets (password). 
+
+   | Field name | Function |
+   |---------|----------|
+   | **Hostname** |  Your Adobe FTP host name (for example, `ftp.omniture.com`). | 
+   | **Port** | Specify the directory path for your data stream. | 
+   | **Username** | Your current FTP username. |
+   | **Location account secret** | Your current FTP account secrets (password).  |
  
 1. Select **Save**. 
  
@@ -97,32 +100,39 @@ For detailed instructions, see [Configure cloud import and export locations](htt
  
 Update any existing scheduled Data Feeds and Data Warehouse requests to use the FTP cloud accounts you created.  
  
-* **Data Feeds**: Go to **Admin** > **Data Feeds**, edit each scheduled  Data Feed or Data Warehouse request that uses an FTP account, then change the destination to the newly created FTP cloud account. 
+* **Data Feeds**: Go to **Admin** > **Data Feeds**, edit each scheduled  Data Feed that uses an FTP account, then change the destination to the newly created FTP cloud account. 
  
-For detailed instructions, see [Edit a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md). 
+  For detailed instructions, see [Edit a data feed](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md). 
  
 * **Data Warehouse**: Go to **Tools** > **Data Warehouse**, edit each scheduled Data Warehouse request that uses an FTP account, then change the report destination to the newly created FTP cloud account. 
  
-For detailed instructions, see [Edit requests](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests) in [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md). 
+  For detailed instructions, see [Edit requests](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests) in [Manage Data Warehouse requests](/help/export/data-warehouse/data-warehouse-requests-manage.md). 
  
 ### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly. 
  
 After updating each existing Data Feed and Data Warehouse request to use the new FTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected. 
+
 ## Request a new account secret 
- 
-Request a new account secret from Adobe only after you complete all the preparation steps described in [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets). 
+
+>[!NOTE]
+>
+>The following steps apply only if you are using an Adobe-provided FTP account. For example, the FTP hostname is `ftp.omniture.com`, `ftp2.omniture.com` or similar.   If your FTP hostname is not provided by Adobe, please contact your FTP host provider for details on changing the account secret.
  
 >[!IMPORTANT] 
 > 
+>Request a new account secret from Adobe only after you complete all the preparation steps described in [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets). 
+>
 >After Adobe Customer Care provides a new account secret, the old account secret is immediately invalidated. There is no way to revert to the previous account secret. 
  
-To request a new account secret: 
+To request a new account secret from Adobe: 
  
-1. Have a supported user in your organization contact **Adobe Customer Care**. 
+1. Contact Adobe Customer Care. 
  
 1. For each FTP account, provide the **Hostname**, **Port**, **Username**, and **Location account secret** for each account that needs a new account secret. 
  
-1. Customer Care will generate a new account secret for each account. 
+   Customer Care will generate a new account secret for each account. 
+
+1. Continue immediately with the following section, [After you receive the new account secret](#after-you-receive-the-new-account-secret).
  
 ## After you receive the new account secret 
  
@@ -135,12 +145,18 @@ Update the FTP account secret in any tool, script, or automated process that con
 ### Step 2: Update your cloud location accounts 
  
 1. In Adobe Analytics, go to **Components** > **Locations**. 
-2. Select the **Location accounts** tab. 
-3. Find the FTP account you created in Step 4,and select **Edit details**. 
-4. Enter the new account secret and confirm it. 
-5. Select **Save**. 
+
+1. Select the **Location accounts** tab. 
+
+1. Find the FTP account that you created in Step 3 of section, [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets).
+
+1. Select **Edit details**. 
+
+1. Enter the new account secret and confirm it. 
+
+1. Select **Save**. 
  
-Repeat for each account that was reset. 
+Repeat this process for each account that was reset. 
  
 ### Step 3: Test your connections 
  
@@ -153,3 +169,5 @@ Verify that your Data Feeds or Data Warehouse requests that use the FTP account 
 ## Troubleshooting 
  
 If something goes wrong after the account secret is rotated and you cannot restore connectivity, you can create a new FTP account. After the new account is set up, point your Data Feed or Data Warehouse request to the new account and update your cloud location accordingly. 
+
+For information about how to create an FTP account, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).

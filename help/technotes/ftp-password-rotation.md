@@ -14,7 +14,7 @@ To ensure uninterrupted reception of data, follow the steps in [Prepare to rotat
  
 >[!IMPORTANT] 
 > 
->If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before rotating account secrets. The third-party partner will need to update their own tools and scripts with the new account secrets immediately after the new account secrets are provided by Adobe.
+>If your FTP data is delivered to a third-party partner (for example, a consulting firm or Analytics vendor), coordinate with them before rotating account secrets. The third-party partner will need to update their own tools and scripts with the new account secrets immediately after the new account secrets are provided by your FTP host provider (either Adobe or another provider).
 
 ## When rotating account secrets is not necessary 
  
@@ -32,13 +32,13 @@ Complete the following steps before attempting to rotate FTP account secrets:
  
 ### Step 1: Inventory your FTP accounts 
  
-Identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the "Legacy account types" section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). 
+Identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the [Legacy account types](/help/components/locations/configure-import-accounts.md#configure-a-location-account) section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). 
  
 For each account, gather the following information: 
  
 * **Host**: The FTP destination of the host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
  
-* **Port**: Not needed if this field is blank in your FTP account. This field is used to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist. 
+* **Port**: SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
  
 * **Username**: The username used to log in to the FTP site. 
  
@@ -70,7 +70,7 @@ When creating the new FTP accounts, you must use the same hostname, username, an
    | Field name | Function |
    |---------|----------|
    | **Hostname** |  Your Adobe FTP host name (for example, `ftp.omniture.com`). | 
-   | **Port** | Can be left blank. Use this field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist. SFTP clients connect on port 22, while normal FTP connections that are non-secure use port 21. | 
+   | **Port** | SFTP clients connect on port 22. FTP connections that are non-secure use port 21. | 
    | **Username** | Your current FTP username. |
    | **Location account secret** | Your current FTP account secrets (password).  |
  
@@ -113,16 +113,17 @@ Update any existing scheduled Data Feeds and Data Warehouse requests to use the 
 After updating each existing Data Feed and Data Warehouse request to use the new FTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected. 
 
 ## Request a new account secret 
-
->[!NOTE]
->
->The following steps apply only if you are using an Adobe-provided FTP account. For example, the FTP hostname is `ftp.omniture.com`, `ftp2.omniture.com` or similar.   If your FTP hostname is not provided by Adobe, please contact your FTP host provider for details on changing the account secret.
  
 >[!IMPORTANT] 
-> 
->Request a new account secret from Adobe only after you complete all the preparation steps described in [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets). 
 >
->After Adobe Customer Care provides a new account secret, the old account secret is immediately invalidated. There is no way to revert to the previous account secret. 
+>Before requesting a new account secret, consider the following:
+>
+>* The steps in this section apply only if you are using an Adobe-provided FTP account. For example, the FTP hostname is `ftp.omniture.com`, `ftp2.omniture.com` or similar.   If your FTP hostname is not provided by Adobe, please contact your FTP host provider for details on changing the account secret.
+> 
+>* Request a new account secret only after you complete all the preparation steps described in [Prepare to rotate account secrets](#prepare-to-rotate-account-secrets). 
+>
+>* After Adobe Customer Care or your third-party FTP host provider provides a new account secret, the old account secret is immediately invalidated. There is no way to revert to the previous account secret. 
+>
  
 To request a new account secret from Adobe: 
  
@@ -136,7 +137,7 @@ To request a new account secret from Adobe:
  
 ## After you receive the new account secret 
  
-Act immediately after receiving the new credentials. Any delay will result in failed deliveries for active Data Feeds and Data Warehouse requests. 
+Act immediately after receiving the new credentials. Any delay results in failed deliveries for active Data Feeds and Data Warehouse requests. 
  
 ### Step 1: Update your tools and scripts 
  
@@ -157,6 +158,8 @@ Update the FTP account secret in any tool, script, or automated process that con
 1. Select **Save**. 
  
 Repeat this process for each account that was reset. 
+
+For more detailed information about this process, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
  
 ### Step 3: Test your connections 
  
@@ -164,7 +167,7 @@ Verify that your Data Feeds or Data Warehouse requests that use the FTP account 
  
 >[!TIP] 
 > 
->If your current tools use SFTP with SSH keys, consider rotating those keys as well if they haven't been rotated recently. 
+>If your current tools use SFTP with SSH keys that haven't been recently rotated, consider rotating those keys as well.
  
 ## Troubleshooting 
  

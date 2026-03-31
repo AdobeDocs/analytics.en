@@ -1,6 +1,6 @@
 ---
-title: Create Classification Sets
-description: Learn how to Available fields and descriptions when creating a classification set.
+title: Create And Edit Classification Sets
+description: Learn how to create and edit classification sets in Adobe Analytics, including primary and lookup classification types, subscriptions, and job notifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
 ---
@@ -13,7 +13,7 @@ You [create](#create-a-classification-set) and [edit](#edit-a-classification-set
 To create a classification set:
 
 1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
-1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
+1. In **[!UICONTROL Classification sets]**, select the **[!UICONTROL Classification sets]** tab.
 1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. In the **[!UICONTROL Add New Classification Set]** dialog:
 
@@ -25,9 +25,13 @@ To create a classification set:
       * **[!UICONTROL Primary]**. A primary classification set applies to dimensions collected in Adobe Analytics. Primary classifications are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to understand themes in your search data. Or classify product SKUs by color or category.
       * **[!UICONTROL Lookup]**. Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. A lookup is metadata about a classification value, rather than the original dimension. For example, a *Product* dimension might have a primary classification of *Color code*. A lookup table of *Color name* could then be attached to the *Color code* to explain each color code.
 1. In the **[!UICONTROL Job notifications]** section, select who you want to notify on failure or success of the classification set jobs.
-   * To notify users on a failure, enable **[!UICONTROL Notify on failure]** and specify one or more comma separated email addresses in **[!UICONTROL Failure email recipients]**. 
-   * To notify users on success, enable **[!UICONTROL Notify on success]** and specify one or more comma separated email addresses in **[!UICONTROL Success email recipients]**. 
-1. In the **[!UICONTROL Subscriptions]** section, in case you have selected **[!UICONTROL Primary]**, enter one or more **[!UICONTROL Subscriptions]**.  You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set. 
+   * To notify users on a failure:
+     1. Enable **[!UICONTROL Notify on failure]**.
+     1. Specify one or more comma separated email addresses in **[!UICONTROL Failure email recipients]**.
+   * To notify users on success: 
+     1. Enable **[!UICONTROL Notify on success]**. 
+     1. Specify one or more comma separated email addresses in **[!UICONTROL Success email recipients]**.
+1. In the **[!UICONTROL Subscriptions]** section, in case you have selected **[!UICONTROL Primary]**, enter one or more **[!UICONTROL Subscriptions]**.  You can define multiple **[!UICONTROL Report Suite]** and **[!UICONTROL Dimension]** combinations to a classification set.
          
    * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
 

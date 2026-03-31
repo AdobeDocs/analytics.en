@@ -20,6 +20,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | Feature | Description |
 | --- | --- |
 | **March 2026** | |
+| Break down a panel | Restructured the documentation around the [drop zone for a panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) to support the new [break down](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) functionality. |
 | Identified the default option for IP obfuscation for new report suites | Added information stating that **Remove IP address** is the default [IP obfuscation option for new report suites](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).  |
 | Processing order overhaul | Significant improvements to [Processing order in Adobe Analytics](/help/technotes/processing-order.md). |
 | Adobe Advertising integration | Additions of Adobe Advertising integration dimensions and metrics, including [AMO ID](/help/components/dimensions/amo-id.md). |

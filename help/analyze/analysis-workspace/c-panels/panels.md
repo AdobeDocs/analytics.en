@@ -1,5 +1,5 @@
 ---
-description: Learn how to use panels in Analysis Workspace to organize your reports, including the use of drop zones to filter or break down data, and the use of calendars to define the range of data.
+description: Learn how to use panels in Analysis Workspace to organize your reports, to filter or break down data, and to define the range of data.
 title: Overview Of Panels In Analysis Workspace
 feature: Panels
 role: User, Admin
@@ -35,7 +35,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Create a panel
 
-To create a panel :
+To create a panel:
 
 * Drag and drop a panel from the **[!UICONTROL Panels]** left panel onto your canvas.
 * Select a panel from the [Blank panel](blank-panel.md).
@@ -79,7 +79,7 @@ You can manage a panel in the following ways:
 
 * To collapse a panel, select ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * To reveal a collapsed panel, select ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
-* To delete a panel, select ![CrossSize400](/help/assets/icons/CrossSize200.svg). To undo, select **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z*]** | **[!UICONTROL *ctrl+z*]**).
+* To delete a panel, select ![CrossSize200](/help/assets/icons/CrossSize200.svg). To undo, select **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd*+*z*]** | **[!UICONTROL *ctrl*+*z*]**).
 * To move a panel, drag and drop the panel whenever a ![Move](/help/assets/icons/Move.svg) is visible (usually when you hover over the header).
 
 
@@ -93,7 +93,7 @@ Within a project, you can use one or [many report suites](/help/analyze/analysis
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user. And how frequently the suite is used within the organization.
 
-![](assets/panel-report-suite.png)
+![Report suite drop-down menu in a panel](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
@@ -147,7 +147,7 @@ The panel calendar controls the reporting date range for tables and visualizatio
 
 ## Drop zone {#dropzone}
 
-The panel drop zone, labeled **[!UICONTROL _Drop a component to filter or break down the data_]**,  enables you to filter or break down the data for the panel. The segments or breakdowns you use to filter or break down the data applies to all freeform tables and visualizations within the panel.
+The panel drop zone, labeled **[!UICONTROL _Drop a component to filter or break down the data_]**, enables you to filter or break down the data for the panel. The segments or breakdowns you use to filter or break down the data applies to all freeform tables and visualizations within the panel.
 
 Segments and breakdowns allow you to interact with the data in a controlled way. For example, you can add a segment drop-down menu for Mobile Device Types so that you can filter the panel by selecting Tablet, Mobile Phone, or Desktop.
 
@@ -218,7 +218,7 @@ For example, you can add two dynamic drop-down menus using a countries dimension
 
 #### Filter a panel
 
-For any metric, segment, or date range component that you drop **while you hold** ⇧, a segment drop-down menu is created. That drop-down menu allows you to filter the panel based on items available for the dropped component. 
+For any metric, segment, or date range component that you drop **while you hold** ⇧, a segment drop-down menu is created. That drop-down menu allows you to filter the panel based on items available for the dropped component.
 
 For any *dimension* component that you drop **while you hold** ⇧, a segment drop-down menu is created. That drop-down menu allows you to filter the panel based on the items available for the dropped dimension items ([static](#static) segment drop-down menu) or dimension component ([dynamic](#dynamic) segment drop-down menu). To configure the drop-down menu explicitly to filter using segments:
 

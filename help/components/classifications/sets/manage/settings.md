@@ -32,5 +32,4 @@ To edit the settings for a classification set:
       * Select ![CrossSize400](/help/assets/icons/CrossSize400.svg) to delete a **[!UICONTROL Report Suite]** and **[!UICONTROL Key Dimension]** combination.
 
       See [Create a classification set](/help/components/classifications/sets/manage-sets.md) for more details.
-
    1. Select **[!UICONTROL Save]** to save the settings. Select **[!UICONTROL Cancel]** to cancel.

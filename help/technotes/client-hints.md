@@ -19,11 +19,7 @@ Google divides User-Agent client hints into two categories: low-entropy and high
 
 Starting in October 2022, new versions of Chromium browsers started 'freezing' the operating system version represented in the User-Agent string. Operating system version is a high-entropy hint, so to maintain accuracy of operating system version in your reporting it is necessary to configure your collection library to collect these high-entropy hints. Over time other device information of the User-Agent will be frozen, requiring client hints to maintain device reporting accuracy.
 
-Client hints will be incorporated into Analytics device lookup process starting February 27, 2023 and concluding on March 2, 2023. Both AppMeasurement and Web SDK currently support collection of hints data but it will not be used in device lookup until mid-February. As noted below operating system version was frozen starting in October but due to a gradual rollout and the fact that many User Agents already provide a frozen OS version (see more [here](/help/components/dimensions/operating-systems.md)), we estimate that this will affect <3% of Chrome Visitors.
-
->[!NOTE]
->
-> As of January 2023, Some versions of Mac and Windows operating systems are incorrectly represented in the User Agent, but correctly represented in high-entropy client hints. See [Operating System](/help/components/dimensions/operating-systems.md) for more information.
+Client hints were incorporated into the Analytics device lookup process on March 2, 2023. This change applies to both AppMeasurement and Web SDK implementations.
 
 Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
@@ -156,3 +152,10 @@ See the [schema documentation](https://github.com/adobe/xdm/blob/master/componen
 Yes. Client hints will be included in the data forwarded to Adobe Audience Manager. Note that Adobe Audience Manager requires high-entropy hints to be collected to preserve full functionality. If you are using [server-side forwarding to Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) then you may want to enable collection of high-entropy hints.
 
 +++
+
++++**Why do I see a browser version number of 999.99?**
+
+Customers sometimes perform testing with invalid browser or device operating system version numbers, which can be any number over 100,000. To avoid large counts of invalid browser or device operating system version numbers on a given day, any version numbers that are over 100,000 are bucketed together and pinned to the version number 999.99. 
+
++++
+

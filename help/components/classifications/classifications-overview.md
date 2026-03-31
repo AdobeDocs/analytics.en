@@ -10,7 +10,7 @@ A classification is a way of categorizing Analytics variable data, then displayi
 
 * **Classification sets** are the primary components to classify data. [Classification sets](/help/components/classifications/sets/overview.md) allow you to create and manage classifications in a single, simplified interface.
 
-* **Legacy classifications** documents the legacy classification methods to classify data. These methods will be deprecated in the near future and will no longer be accessible. 
+* **Legacy classifications** documents the legacy classification methods to classify data. These methods will be deprecated in the near future and will no longer be accessible.
 
   * [Classification rules](/help/components/classifications/crb/classification-rule-builder.md): Create rules that assign a given dimension item to a classification dimension item. This method to classify data is best when a dimension frequently encounters new unique values or where manual classifications would be frequent and burdensome. This functionality will be deprecated after February 28, 2027.
 

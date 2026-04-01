@@ -1,5 +1,5 @@
 ---
-description: Lean how to configure and specify the touchpoints to create a multi-dimensional fallout sequence.
+description: Learn how to configure and specify the touchpoints to create a multi-dimensional fallout sequence.
 title: Configure A Fallout Visualization
 feature: Visualizations
 role: User, Admin
@@ -13,7 +13,7 @@ You can even add segments within a touchpoint. For example, you might want to co
 
 Fallout visualizations have no limitation on the number of touchpoints you can add or the number of components you can use.
 
-You can do pathing on dimensions, metrics, and segments. For example, suppose that someone is looking at shoes, shirt on one page, and on the next page they're looking at shirt, socks. The next product flow report from shoes will be shirt and socks, NOT shirt.
+You can do pathing on dimensions, metrics, and segments. For example, suppose that someone is looking at `shoes, shirt` on one page, and on the next page they're looking at `shirt, socks`. The next product flow report from shoes will be shirt and socks, NOT shirt.
 
 ## Use
 
@@ -50,14 +50,14 @@ You can do pathing on dimensions, metrics, and segments. For example, suppose th
 
      | Option | Description |
      |---|---|
-     | **[!UICONTROL Eventual path]** (default) | Visitors are counted that will *eventually* land on the next page in the path, but not necessarily on the next event. |
+     | **[!UICONTROL Eventual path]** (default) | Visitors are counted that will *eventually* land on the next page in the path, but not necessarily on the next visit. |
      | **[!UICONTROL Next hit]** | Visitors are counted that will land on the next page in the path on the very next hit. |
 
    * Hover over a touchpoint to see the fallout and other information about that level. Information includes the touchpoint's name, the person count, and success rate. You can also compare the success rate to other touchpoints.
 
 ## Settings
 
-As part of the visualization, specific settings are available.
+The following visualization settings are available:
 
 | Fallout container | Description |
 |--- |--- |
@@ -88,7 +88,7 @@ The following context menu options are available:
 |--- |--- |
 |**[!UICONTROL Trend touchpoint]**|See trend data for a touchpoint in a line graph, with some pre-built anomaly detection data.|
 |**[!UICONTROL Trend touchpoint (%)]**|Trends the total fallout percentage.|
-|**[!UICONTROL Trend all touchpoints (%)]**|Trends all the touchpoint percentages in the fallout (except **[!UICONTROL All People]**, if it's included), on the same chart.|
+|**[!UICONTROL Trend all touchpoints (%)]**|Trends all the touchpoint percentages in the fallout (except **[!UICONTROL All Visitors]**, if it's included), on the same chart.|
 |**[!UICONTROL Breakdown fallthrough at this touchpoint]**|View what visitors did between two touchpoints (this touchpoint and the next touchpoint) if they continued to the next touchpoint. This option creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table. For example, a table that is labeled **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** and contains **[!UICONTROL Page]** as the dimension and **[!UICONTROL Unique Visitors]** segmented by the [project-only quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** as the metric. Inspect the segment to understand how the fallthrough segment is determined. |
 |**[!UICONTROL Breakdown fallout at this touchpoint]**| View what visitors who did not make it through the funnel did immediately after the selected step. This option creates a freeform table showing your dimensions. You can replace dimensions and other elements of the table. For example, a table that is labeled **[!UICONTROL Fallout: All Visitors > Page equals any of home]** and contains **[!UICONTROL Page]** as the dimension and **[!UICONTROL Unique Visitors]** segmented by the [project-only quick segment](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** segment as the metric. Inspect the segment to understand how the fallout segment is determined. |
 |**[!UICONTROL Create segment from touchpoint]**|Create a new segment from the selected touchpoint.|

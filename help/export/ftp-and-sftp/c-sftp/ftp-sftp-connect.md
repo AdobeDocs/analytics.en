@@ -11,15 +11,23 @@ To set up secure transfer with FTP:
 
 1. (Conditional) If you want to set up secure transfer with Adobe FTP servers:
 
-   1. Request an Adobe hosted FTP account (50 MB quota).
+   1. Request an Adobe-hosted FTP account (50 MB quota).
 
-   1. Create Public/Private RSA keys. 
+   1. Create Public/Private keys. 
    
       * In Linux environment, run: 
 
         ```
-        ssh-keygen -t rsa
+        ssh-keygen -t ed25519 -C "your-comment-or-email"
         ```
+
+        If your policy does not allow you to use ed25519, run:
+
+        ```
+        ssh-keygen -t rsa -b 4096 -C "your-comment-or-email"
+        ```
+
+        **Note:** This typically applies to customers who operate under FIPS 186-4, as ed25519 is first supported in the newer FIPS 186-5.
 
       * In a Windows environment, use puttyGen.
 

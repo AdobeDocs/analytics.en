@@ -1,10 +1,142 @@
 ---
-title: Rotate FTP Passwords for Data Feeds and Data Warehouse
+title: Rotate SFTP Passwords for Data Feeds and Data Warehouse
 description: Learn how to rotate FTP passwords for Adobe Analytics.
 feature: Data Configuration and Collection
 role: Admin
 ---
-# Rotate FTP account secrets (passwords) for Data Feeds and Data Warehouse 
+# Required security maintenance for FTP and SFTP accounts used with Data Feeds and Data Warehouse
+
+3 basic steps: Set up SFTP on customer side, then on Adobe side, then change passphrase. 
+
+1. FTP site: ftp.omniture.com - Using username/password to connect. Adobe uses the same username/password to connect to the site.
+
+2. user can then upload their public key to that server, then start connecting to that server with their private key using SFTP. (They also need to open Port 22 in the firewall and they would close the other ports they don't need.)
+
+3. In Locations, create a new location, use the same username. 
+
+4. After they create that location, we give them our public key, and they have to install it on their SFTP server.
+
+5. Then they switch all their data feeds to use the new Location. And then we'll use SFTP to send the data. 
+
+6. Then they call Customer Care to get new passphrase (rotate passphrase), and then they change the passphrase on their side. Passphrase is only used if SSH fails (they have the wrong keys--a bad actor could use bad keys and then use the password. But they don't have to coordinate the switching of the passphrase with installation of SFTP. )
+
+
+If they're using a third-party to do this, the third-party would need to set up SFTP - This is the same as we have documented right now. It doesn't have to be immediate, though, like we were assuming before. 
+
+
+If it's they're own FTP site, it would be the same. They would need to start using SFTP with their FTP server, then get our public key and install it on their server. Shouldn't matter if the FTP site is hosted by Adobe or not. 
+
+
+----
+
+For enhanced security, Adobe will soon require<!--or give a specific date?--> that all FTP servers that receive data from Data Feeds and Data Warehouse be upgraded to use SFTP. Use the following information to upgrade your FTP servers to SFTP.
+
+## Upgrade your FTP server to use SFTP
+
+### Generate a Public/Private key pair
+
+1. Create Public/Private keys. 
+   
+      * In Linux environment, run: 
+
+        ```
+        ssh-keygen -t ed25519 -C "your-comment-or-email"
+        ```
+
+        If your policy does not allow you to use ed25519, run:
+
+        ```
+        ssh-keygen -t rsa -b 4096 -C "your-comment-or-email"
+        ```
+
+        **Note:** This typically applies to customers who operate under FIPS 186-4, as ed25519 is first supported in the newer FIPS 186-5.
+
+      * In a Windows environment, use puttyGen.
+
+1. (Conditional) If you want to set up secure transfer with your own FTP location, you must have an SFTP host, username, and the destination site that contain a valid RSA or ed25519 public key. You can download the appropriate public key when creating the feed.
+
+1. Create a file named [!DNL `authorized_keys`] (no extension).
+
+1. Copy the contents of the Public key into [!DNL `authorized_keys`].
+
+1. Continue with [Upload your public key to your FTP server](#upload-the-public-key-to-your-ftp-server).
+
+### Upload the public key to your FTP server
+
+1. Create a public/private key pair, as described in [Generate a public/private key pair](#generate-a-publicprivate-key-pair).
+
+1. Upload [!DNL `authorized_keys`] to your FTP account:
+
+    * Connect to the Adobe FTP account. <!--Do they do this with a username and password? If they already have one, do they need to rotate THIS password?-->
+    * Create a [!DNL .ssh] directory (if it does not already exist).
+    * Upload the [!DNL `authorized_keys`] file to the [!DNL .ssh] directory.
+
+1. Test the connection by logging in to the FTP account using SFTP.
+
+### Create a new SFTP location account in Adobe Analytics
+
+1. In Adobe Analytics, go to [!UICONTROL **Components**] > [!UICONTROL **Locations**]. 
+ 
+1. Select the [!UICONTROL **Location accounts**] tab. 
+ 
+1. Select [!UICONTROL **Add account**]. 
+ 
+1. In the [!UICONTROL **Account type**] drop-down field, select [!UICONTROL **SFTP (legacy)**]. 
+ 
+1. Complete the following fields: 
+
+   | Field name | Function |
+   |---------|----------|
+   | [!UICONTROL **Hostname**] |  Your Adobe SFTP host name (for example, `sftp.omniture.com`). | 
+   | [!UICONTROL **Port**] | The firewall port through which data will be sent. |
+   | [!UICONTROL **Username**] | Your current SFTP username. |
+   | **Passphrase** | <!-- not sure about this. It's not a field in the UI? How do they configure the passphrase? --> |
+ 
+1. Select [!UICONTROL **Save**]. 
+
+1. In the Account created dialog, download the RSA or ed25519 key, then select **[!UICONTROL OK]**.
+ 
+Repeat this process for each SFTP account. 
+ 
+For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+ 
+#### Add a location within the account 
+ 
+1. On the **Locations** tab, select **Add location**. 
+ 
+1. Specify a name, description, and whether this location will be used with Data Feeds or Data Warehouse. 
+ 
+1. In the [!UICONTROL **Location account**] field, select the account you just created. 
+ 
+1. In the [!UICONTROL **Directory path**] field, specify the path to the directory on the SFTP server. Folders must already exist; feeds throw an error if the specified path does not exist. For example, `/folder_name/folder_name`. 
+ 
+1. Select **Save**. 
+ 
+Repeat this process for each location. 
+ 
+For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
+
+### Update your firewall settings
+
+SFTP uses port 22; FTP uses port 21, plus a range of additional ports for data transfer. 
+
+Update your firewall settings to allow inbound connections from Adobe's IP ranges on port 22. As a security best practice, old FTP-specific rules (such as allowing inbound connections on port 21) can eventually be removed.
+
+
+
+-------
+
+## Set up a new SFTP server or upgrade your existing FTP server
+
+## Upgrade your FTP server to use SFTP where files are delivered or FTP account to use SFTP
+
+Set up an SFTP server where Data Feed and Data Warehouse files can be delivered. This could beYou first need to upgrade your FTP server to use SFTP To upgrade an FTP account to use SFTP, follow the steps in [Connect to an FTP account with SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md).
+
+## Create an SFTP account
+
+## Rotate the passphrase on SFTP accounts
+
+
  
 Adobe recommends that you periodically rotate the account secrets (passwords) on your FTP accounts that are associated with Data Feeds and Data Warehouse. 
  

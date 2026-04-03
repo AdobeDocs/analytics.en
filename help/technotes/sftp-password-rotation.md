@@ -29,7 +29,6 @@ The information on this page covers security requirements that are needed for an
 >* **Coordinate with any third-party partners if FTP data is delivered to them.**
 >If your FTP data is delivered to a third-party partner (for example, a consulting firm or Adobe Analytics vendor), coordinate with them before following the steps on this page. 
 
-
 ## Upgrade FTP servers to use SFTP
 
 ### Step 1: Generate a public/private key pair and upload the public key to your existing FTP server
@@ -80,13 +79,27 @@ To set up secure transfer with the FTP server:
 
 ### Step 2: Create a new SFTP location account in Adobe Analytics
 
-Create a new SFTP location account to replace your existing FTP account. 
+Create a new SFTP location account to replace each existing FTP account. 
 
-When creating the new SFTP account, you must use the same hostname, username, and passphrase (if one exists)< **_is this correct?_** > that are used in your existing FTP accounts.
+When creating a new SFTP account, you must use the same hostname, username, and passphrase (if one exists)< **_is this correct?_** > that are used in the existing FTP account it is replacing.
 
 >[!NOTE]
 >
 >In a future step, you will configure this new location account to be used as the destination for your Data Feeds and Data Warehouse deliveries.  
+
+#### Inventory your FTP accounts 
+ 
+Identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the [Legacy account types](/help/components/locations/configure-import-accounts.md#configure-a-location-account) section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). 
+ 
+For each account, gather the following information: 
+ 
+* **Host**: The FTP destination of the host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
+ 
+* **Port**: SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
+ 
+* **Username**: The username used to log in to the FTP site. 
+ 
+* **location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
 
 #### Create the SFTP account
 
@@ -189,7 +202,11 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
    FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.
 
-### Step 5: Rotate the passphrase on the upgraded SFTP server
+### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly. 
+ 
+After updating each existing Data Feed and Data Warehouse request to use the new SFTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected. 
+
+### Step 6: Rotate the passphrase on the upgraded SFTP server
 
 After upgrading an FTP server to SFTP, you must also rotate the SFTP passphrase, as described in the following section, [Rotate your SFTP passphrase](#rotate-your-sftp-passphrase). 
 
@@ -199,11 +216,14 @@ An SFTP passphrase serves as a fallback authentication method if key-based authe
 
 Rotate the SFTP passphrase soon after upgrading from FTP to SFTP. It should continue to be rotated on a regular schedule< **_How often?_** >.   
 
-1. Contact Adobe Customer Care to get a new passphrase.
+1. Contact Adobe Customer Care and request a new passphrase.
+ 
+1. For each SFTP account, provide the **Hostname** and **Username**. 
+ 
+   Customer Care will generate a new passphrase for each FTP account. 
 
-1. < **_What next?_** >
 
-
+< **_Ignore everything after this_** >
 
 -------
 
@@ -381,6 +401,7 @@ Verify that your Data Feeds or Data Warehouse requests that use the FTP account 
 >[!TIP] 
 > 
 >If your current tools use SFTP with SSH keys that haven't been recently rotated, consider rotating those keys as well.
+
  
 ## Troubleshooting 
  

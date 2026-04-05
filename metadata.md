@@ -2,9 +2,11 @@
 cloud: Experience Cloud
 product: analytics 
 solution: Analytics
+landing-page-name: analytics
+landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
-index: yes
+index: true
 feature-set: Analytics
 role: User, Admin
 ---

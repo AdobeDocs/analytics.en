@@ -41,7 +41,7 @@ This section describes how to:
 
   >[!NOTE]
   >
-  >In a future section, you will download Adobe's **upload key** (the public portion). This is a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
+  >In a future step, you will download Adobe's **upload key** (the public portion). This is a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
 
 * Add the public key to your existing FTP server. 
 
@@ -106,6 +106,10 @@ For each account, gather the following information:
  
 * **Location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
 
+#### Confirm that you can update credentials in your tools 
+ 
+Make sure you can update the FTP account secret in whatever tool or script you use to connect to the FTP site (for example, an FTP client, automated script, or third-party platform). 
+
 #### Create the SFTP account
 
 1. In Adobe Analytics, go to [!UICONTROL **Components**] > [!UICONTROL **Locations**]. 
@@ -127,7 +131,7 @@ For each account, gather the following information:
  
 1. Select [!UICONTROL **Save**]. 
 
-1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. 
+1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. (You will use this key in the following section, [Add the Adobe upload key to the SFTP server](#add-the-adobe-upload-key-to-the-sftp-server).)
 
 1. Repeat this process for each SFTP account you want to create. 
 
@@ -135,7 +139,7 @@ For each account, gather the following information:
 
 #### Add the Adobe upload key to the SFTP server
 
-The public key you just downloaded is Adobe's **upload key**. This is a public/private key pair that is used by Adobe to _upload_ data to the SFTP server. 
+The public key you just downloaded in Step 7 of the previous section is Adobe's **upload key**. This is a public/private key pair that is used by Adobe to _upload_ data to the SFTP server. 
 
 You need to add this public key to the same `authorized_keys` file where you previously added your organization's download key (the one you generated in [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server)).
 
@@ -244,6 +248,7 @@ Rotate the SFTP passphrase soon after upgrading from FTP to SFTP. It should cont
    Customer Care will generate a new passphrase for each FTP account. 
 
 
+<!--
 < **_Ignore everything after this_** >
 
 -------
@@ -305,7 +310,7 @@ Make sure you can update the FTP account secret in whatever tool or script you u
  
 ### Step 3: Create FTP cloud location accounts with your current credentials 
  
-Create new FTP cloud location accounts to replace your existing FTP accounts. These new accounts will be used as the destination for your Data Feeds and Data Warehouse deliveries.  
+Create new FTP cloud location accounts to replace your existing FTP location accounts. These new accounts will be used as the destination for your Data Feeds and Data Warehouse deliveries.  
  
 When creating the new FTP accounts, you must use the same hostname, username, and account secret that are used in your existing FTP accounts. 
  
@@ -465,7 +470,7 @@ To set up secure transfer with your FTP server:
 1. Create a file named [!DNL `authorized_keys`] (no extension).
 
 
-<!-- 
+
 3 basic steps: Set up SFTP on customer side, then on Adobe side, then change passphrase. 
 
 1. FTP site: ftp.omniture.com - Using username/password to connect. Adobe uses the same username/password to connect to the site.

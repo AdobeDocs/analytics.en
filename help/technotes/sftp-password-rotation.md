@@ -149,7 +149,7 @@ To add Adobe's SSH public key to the SFTP server:
 
    This can be an Adobe-hosted SFTP server or your own SFTP server.
 
-1. Open the [!DNL `authorized_keys`] file in the [!DNL .ssh] directory. This file should already contain your organization's download key from [Step 1](#step-1-generate-a-publicprivate-key-pair-and-upload-the-public-key-to-your-existing-ftp-server). Add Adobe's upload key to this same file.
+1. Open the [!DNL `authorized_keys`] file in the [!DNL .ssh] directory. Add Adobe's upload key to this file. This file should already contain your organization's download key from [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server).
 
 1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
 

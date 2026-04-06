@@ -33,15 +33,15 @@ This page covers security requirements for existing FTP and SFTP servers that re
 >If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article. 
 
 
-### Step 1: Generate your organization's download key and add it to your FTP server
+### Step 1: Generate your organization's SSH keys for downloading data and add the public key to your FTP server
 
 This section describes how to:
 
-* Generate your organization's **download key**. This is a public/private key pair that is used by your organization to _download_ data from the FTP server. 
+* Generate your organization's SSH keys (a public/private key pair) that are used to **download data** from the SFTP server.
 
   >[!NOTE]
   >
-  >In a future step, you will download Adobe's **upload key** (the public portion). This is a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
+  >In a future step, you will download another public key provided by Adobe. This is part of a second public/private key pair, which is used by Adobe to **upload data** to the SFTP server.
 
 * Add the public key to your existing FTP server. 
 
@@ -49,7 +49,9 @@ To set up secure transfer for downloading data from your FTP server:
 
 1. Log in to the workstation where you download data from the FTP server.
 
-1. Generate a public/private key pair to use for secure transfer:
+1. Generate a public/private key pair to use for secure transfer. 
+
+   When using an Adobe-hosted FTP server, Adobe supports RSA and ed25519 keys. 
    
    * **In a Linux environment**: Run the following command to generate the ed25519 key pair: 
 
@@ -76,9 +78,7 @@ To set up secure transfer for downloading data from your FTP server:
     1. Create a [!DNL .ssh] directory (if it does not already exist).
     1. Upload the [!DNL `authorized_keys`] file to the [!DNL .ssh] directory.
 
-1. Update your firewall settings to allow inbound connections from Adobe's IP ranges on port 22. <_**should this go here? I also have it later**_>
-
-   Port 22 is the standard port for SFTP connections.
+1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
 
 1. Test the connection by logging in to the server using SFTP. <_**or, "by accessing the server using your SSH keys?**_>
 
@@ -100,7 +100,7 @@ For each account, gather the following information:
  
 * **Host**: The hostname of the FTP server your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
  
-* **Port**: SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
+* **Port**: When using an Adobe-hosted SFTP server, SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
  
 * **Username**: The username used to log in to the FTP server. 
  
@@ -131,19 +131,19 @@ Make sure you can update the FTP account secret in whatever tool or script you u
  
 1. Select [!UICONTROL **Save**]. 
 
-1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. (You will use this key in the following section, [Add the Adobe upload key to the SFTP server](#add-the-adobe-upload-key-to-the-sftp-server).)
+1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. (You will use this key in the following section, [Add Adobe's SSH public key to the SFTP server](#add-adobes-ssh-public-key-to-the-sftp-server).)
 
 1. Repeat this process for each SFTP account you want to create. 
 
 1. Continue with the following section, [Upload the public key to the SFTP server](#upload-the-public-key-to-the-sftp-server).
 
-#### Add the Adobe upload key to the SFTP server
+#### Add Adobe's SSH public key to the SFTP server
 
-The public key you just downloaded in Step 7 of the previous section is Adobe's **upload key**. This is a public/private key pair that is used by Adobe to _upload_ data to the SFTP server. 
+The public key you just downloaded in Step 7 of the previous section is part of a public/private key pair that is used by Adobe to **upload data** to the SFTP server. 
 
 You need to add this public key to the same `authorized_keys` file where you previously added your organization's download key (the one you generated in [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server)).
 
-To add Adobe's upload key to the SFTP server:
+To add Adobe's SSH public key to the SFTP server:
 
 1. Connect to the SFTP server and log in, either by using your username and password or by using SFTP.
 
@@ -219,13 +219,9 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
 ### Step 4: Update your firewall settings
 
-1. (Required) Update your firewall settings to allow inbound connections from Adobe's IP ranges on port 22. 
+If you haven't already, you need to update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
 
-   Port 22 is the standard port for SFTP connections.
-
-2. (Recommended) Remove old FTP-specific rules, such as allowing inbound connections on port 21. 
-
-   FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.
+You should also remove old FTP-specific rules, such as allowing inbound connections on port 21. (FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.)
 
 ### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly 
  

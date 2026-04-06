@@ -48,6 +48,8 @@ For each account, gather the following information:
  
 Make sure you can update the SFTP passwords in whatever tool or script you use to connect to the SFTP site (for example, an SFTP client, automated script, or third-party platform).
 
+All clients should be connecting via SFTP with password as a fallback.
+
 <!--
 
 Probably need to add a step that says to update the password in whatever client(s) they are using to connect to the ftp server.

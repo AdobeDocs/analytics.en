@@ -1,12 +1,12 @@
 ---
-title: Security Requirements For FTP And SFTP servers
+title: Security Requirements For FTP And SFTP Servers
 description: Learn about security requirements for FTP and SFTP servers.
 feature: Data Configuration and Collection
 role: Admin
 ---
 # Security requirements for FTP and SFTP servers
 
-The information on this page covers security requirements that are needed for any existing FTP and SFTP servers that are used to receive data delivered by Adobe Analytics Data Feeds or Data Warehouse.
+This page covers security requirements for existing FTP and SFTP servers that receive data delivered by Adobe Analytics Data Feeds or Data Warehouse.
 
 * **Existing FTP servers**: Must be upgraded to use SFTP, as described in the section below, [Upgrade FTP servers to use SFTP](#upgrade-ftp-servers-to-use-sftp).
 
@@ -33,15 +33,19 @@ The information on this page covers security requirements that are needed for an
 >If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article. 
 
 
-### Step 1: Generate a public/private key pair and upload the public key to your existing FTP server
+### Step 1: Generate your organization's download key and add it to your FTP server
 
-This section describes how to generate a public/private key pair that is used by your organization to _download_ data from the FTP server.
+This section describes how to:
 
->[!NOTE]
->
->In a future section, you will generate a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
+* Generate your organization's **download key**. This is a public/private key pair that is used by your organization to _download_ data from the FTP server. 
 
-To set up secure transfer with your FTP server: 
+  >[!NOTE]
+  >
+  >In a future section, you will download Adobe's **upload key** (the public portion). This is a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
+
+* Add the public key to your existing FTP server. 
+
+To set up secure transfer for downloading data from your FTP server: 
 
 1. Log in to the workstation where you download data from the FTP server.
 
@@ -94,13 +98,13 @@ Identify all FTP accounts that are receiving data for Data Feeds or Data Warehou
  
 For each account, gather the following information: 
  
-* **Host**: The FTP destination of the host your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
+* **Host**: The hostname of the FTP server your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
  
 * **Port**: SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
  
-* **Username**: The username used to log in to the FTP site. 
+* **Username**: The username used to log in to the FTP server. 
  
-* **location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
+* **Location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
 
 #### Create the SFTP account
 
@@ -129,17 +133,19 @@ For each account, gather the following information:
 
 1. Continue with the following section, [Upload the public key to the SFTP server](#upload-the-public-key-to-the-sftp-server).
 
-#### Upload the public key to the SFTP server
+#### Add the Adobe upload key to the SFTP server
 
-The public key you just downloaded is used by Adobe to _upload_ data to the SFTP server. Upload this public key to the same location on the SFTP server where you uploaded the public key that is used by your organization [to _download_ data from the FTP server](#step-1-generate-a-publicprivate-key-pair-and-upload-the-public-key-to-your-existing-ftp-server).
+The public key you just downloaded is Adobe's **upload key**. This is a public/private key pair that is used by Adobe to _upload_ data to the SFTP server. 
 
-To upload the public key to the SFTP server (the key that is used by Adobe to _upload_ data to the SFTP server):
+You need to add this public key to the same `authorized_keys` file where you previously added your organization's download key (the one you generated in [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server)).
+
+To add Adobe's upload key to the SFTP server:
 
 1. Connect to the SFTP server and log in, either by using your username and password or by using SFTP.
 
-   This can be an Adobe-hosted FTP server or your own FTP server. 
+   This can be an Adobe-hosted SFTP server or your own SFTP server.
 
-1. Upload the public key to the same [!DNL .ssh] where the [!DNL `authorized_keys`] file is stored.
+1. Open the [!DNL `authorized_keys`] file in the [!DNL .ssh] directory. This file should already contain your organization's download key from [Step 1](#step-1-generate-a-publicprivate-key-pair-and-upload-the-public-key-to-your-existing-ftp-server). Add Adobe's upload key to this same file.
 
 1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
 
@@ -217,7 +223,7 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
    FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.
 
-### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly. 
+### Step 5: Ensure that scheduled Data Feeds and Data Warehouse requests are being delivered correctly 
  
 After updating each existing Data Feed and Data Warehouse request to use the new SFTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected. 
 

@@ -20,28 +20,30 @@ The information on this page covers security requirements that are needed for an
 >
 >Consider the following situations before completing the steps in this article.
 >
->* **Adobe recommends transitioning to a modern cloud destination rather than upgrading SFTP, if possible.**
->FTP and SFTP are legacy destination types. Rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure), which provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+>* **Adobe recommends transitioning to a modern cloud destination rather than upgrading to SFTP, if possible.**
+>FTP and SFTP are legacy destination types. Rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure). These cloud destinations provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
 >
 >* **If FTP and SFTP accounts are used exclusively for Classifications, migrate to Classification sets.** 
->If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
->
->* **Coordinate with any third-party partners if FTP data is delivered to them.**
->If your FTP data is delivered to a third-party partner (for example, a consulting firm or Adobe Analytics vendor), coordinate with them before following the steps in this article. 
+>If your FTP or SFTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
 
 ## Upgrade FTP servers to use SFTP
 
+>[!IMPORTANT]
+>
+>If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article. 
+
+
 ### Step 1: Generate a public/private key pair and upload the public key to your existing FTP server
 
-This section describes how to generate a public/private key pair that is used by your organization to download data from the FTP server.
+This section describes how to generate a public/private key pair that is used by your organization to _download_ data from the FTP server.
 
 >[!NOTE]
 >
->In a future section, you will generate a second public/private key pair that is used by Adobe for uploading data to the FTP server.
+>In a future section, you will generate a second public/private key pair that is used by Adobe to _upload_ data to the FTP server.
 
 To set up secure transfer with your FTP server: 
 
-1. Log in to the Workstation where you download data from the FTP server.
+1. Log in to the workstation where you download data from the FTP server.
 
 1. Generate a public/private key pair to use for secure transfer:
    
@@ -61,9 +63,9 @@ To set up secure transfer with your FTP server:
 
 1. Create a file named [!DNL `authorized_keys`] (no extension).
 
-1. Copy the contents of the public key into [!DNL `authorized_keys`].
+1. Copy the contents of the public key into the [!DNL `authorized_keys`] file.
 
-1. Upload [!DNL `authorized_keys`] to your FTP server:
+1. Upload the [!DNL `authorized_keys`] file to your FTP server:
 
     1. Connect to the FTP server and log in with your username and password.    
        This can be an Adobe-hosted FTP server or your own FTP server. 
@@ -123,19 +125,25 @@ For each account, gather the following information:
 
 1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. 
 
-1. The public key you just downloaded is used by Adobe to upload data to the SFTP server. Upload this public key to the same location on the SFTP server where you uploaded the public key that is used for downloading data from the SFTP server. 
+1. Repeat this process for each SFTP account you want to create. 
 
-    1. Connect to the SFTP server and log in, either by using your username and password or by using SFTP.
+1. Continue with the following section, [Upload the public key to the SFTP server](#upload-the-public-key-to-the-sftp-server).
 
-       This can be an Adobe-hosted FTP server or your own FTP server. 
+#### Upload the public key to the SFTP server
 
-    1. Upload the public key to the same [!DNL .ssh] where the [!DNL `authorized_keys`] file is stored.
+The public key you just downloaded is used by Adobe to _upload_ data to the SFTP server. Upload this public key to the same location on the SFTP server where you uploaded the public key that is used by your organization [to _download_ data from the FTP server](#step-1-generate-a-publicprivate-key-pair-and-upload-the-public-key-to-your-existing-ftp-server).
 
-       (For more information about the public key used for downloading data from the SFTP server, see [Step 1: Generate a public/private key pair and upload the public key to your existing FTP server](#step-1-generate-a-publicprivate-key-pair-and-upload-the-public-key-to-your-existing-ftp-server).)
- 
-Repeat this process for each SFTP account. 
- 
-For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+To upload the public key to the SFTP server (the key that is used by Adobe to _upload_ data to the SFTP server):
+
+1. Connect to the SFTP server and log in, either by using your username and password or by using SFTP.
+
+   This can be an Adobe-hosted FTP server or your own FTP server. 
+
+1. Upload the public key to the same [!DNL .ssh] where the [!DNL `authorized_keys`] file is stored.
+
+1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
+
+1. Continue with the following section, [Add a location within the account](#add-a-location-within-the-account).
  
 #### Add a location within the account 
  
@@ -149,7 +157,7 @@ For detailed instructions, see [Configure cloud import and export accounts](http
  
 1. Select **Save**. 
  
-Repeat this process for each SFTP account. 
+1. Repeat this process for each SFTP account you created. 
  
 For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
 

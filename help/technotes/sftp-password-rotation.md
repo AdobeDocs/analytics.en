@@ -131,7 +131,7 @@ Make sure you can update the FTP account secret in whatever tool or script you u
  
 1. Select [!UICONTROL **Save**]. 
 
-1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the public key that is used by Adobe to upload data to the SFTP server. (You will use this key in the following section, [Add Adobe's SSH public key to the SFTP server](#add-adobes-ssh-public-key-to-the-sftp-server).)
+1. In the [!UICONTROL **Account created**] dialog, download the RSA or ed25519 public key, then select **[!UICONTROL OK]**. This is the SSH public key that is used by Adobe to upload data to the SFTP server. (You will use this key in the following section, [Add Adobe's SSH public key to the SFTP server](#add-adobes-ssh-public-key-to-the-sftp-server).)
 
 1. Repeat this process for each SFTP account you want to create. 
 

@@ -139,6 +139,11 @@ To configure a cloud import or export account after you begin creating or editin
 
    +++FTP
 
+   >[!IMPORTANT]
+   >
+   >FTP should not be used because the data flows over the Internet in plain text.
+      
+
       Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password.
 
       |Field | Function |

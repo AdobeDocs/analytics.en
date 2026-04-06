@@ -10,7 +10,7 @@ This page covers security requirements for existing FTP and SFTP servers that re
 
 * **Existing FTP servers**: Must be upgraded to use SFTP, as described in the section below, [Upgrade FTP servers to use SFTP](#upgrade-ftp-servers-to-use-sftp).
 
-  This upgrade must be completed by < **_Date???_** >.
+  Upgrading from FTP to SFTP is a requirement because FTP allows data to flow over the internet in plain text.
 
 * **Existing SFTP servers (and newly upgraded SFTP servers)**: Must have old passwords rotated, as described in the section below, [Rotate your SFTP password](#rotate-your-sftp-password).
 

@@ -12,26 +12,55 @@ This page covers security requirements for existing FTP and SFTP servers that re
 
   This upgrade must be completed by < **_Date???_** >.
 
-* **Existing SFTP servers (and newly upgraded SFTP servers)**: Must have old passphrases rotated, as described in the section below, [Rotate your SFTP passphrase](#rotate-your-sftp-passphrase).
+* **Existing SFTP servers (and newly upgraded SFTP servers)**: Must have old passwords rotated, as described in the section below, [Rotate your SFTP password](#rotate-your-sftp-password).
 
-  Regular rotation of the SFTP passphrase is a security best practice that helps protect your data.
+  Regular rotation of the SFTP password is a security best practice that helps protect your data.
 
 >[!IMPORTANT]
 >
 >Consider the following situations before completing the steps in this article.
 >
 >* **Adobe recommends transitioning to a modern cloud destination rather than upgrading to SFTP, if possible.**
->FTP and SFTP are legacy destination types. Rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure). These cloud destinations provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+>FTP and SFTP are legacy destination types. Rather than upgrading FTP accounts to SFTP and rotating SFTP passwords as described in this article, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure). These cloud destinations provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
 >
 >* **If FTP and SFTP accounts are used exclusively for Classifications, migrate to Classification sets.** 
->If your FTP or SFTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than upgrading FTP accounts to SFTP and rotating SFTP passphrases as described in this article. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
+>If your FTP or SFTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than upgrading FTP accounts to SFTP and rotating SFTP passwords as described in this article. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
+
+## Prerequisites
+
+### Inventory your FTP accounts 
+ 
+The processes described on this page when upgrading FTP servers to use SFTP must be completed for every FTP site that is being used for Data Feeds and Data Warehouse.
+
+As such, you must dentify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the [Legacy account types](/help/components/locations/configure-import-accounts.md#configure-a-location-account) section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). 
+ 
+For each account, gather the following information: 
+ 
+* **Host**: The hostname of the FTP server your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
+ 
+* **Port**: When using an Adobe-hosted SFTP server, SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
+ 
+* **Username**: The username used to log in to the FTP server. 
+ 
+* **Location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
+
+### Confirm that you can update credentials in your tools 
+ 
+Make sure you can update the SFTP passwords in whatever tool or script you use to connect to the SFTP site (for example, an SFTP client, automated script, or third-party platform).
+
+<!--
+
+Probably need to add a step that says to update the password in whatever client(s) they are using to connect to the ftp server.
+
+In fact, maybe that's one of the prerequisites. They should probably get an inventory of all the clients they are using to connect to the FTP servers. When they rotate the password, they're going to have to change all those clients.
+
+-->
 
 ## Upgrade FTP servers to use SFTP
 
 >[!IMPORTANT]
 >
 >If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article. 
-
 
 ### Step 1: Generate your organization's SSH keys for downloading data and add the public key to your FTP server
 
@@ -59,7 +88,7 @@ To set up secure transfer for downloading data from your FTP server:
      ssh-keygen -t ed25519 -C "your-comment-or-email"
      ```
 
-     If your policy does not allow you to use ed25519 keys, run the following command to generate the RSA key pair (**Note:** The RSA key typically applies to customers who operate under FIPS 186-4, as ed25519 is first supported in the newer FIPS 186-5):
+     If your policy does not allow you to use ed25519 keys, run the following command to generate the RSA key pair:
 
      ```
      ssh-keygen -t rsa -b 4096 -C "your-comment-or-email"
@@ -80,35 +109,17 @@ To set up secure transfer for downloading data from your FTP server:
 
 1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
 
-1. Test the connection by logging in to the server using SFTP. <_**or, "by accessing the server using your SSH keys?**_>
+1. Test the connection by logging in to the server using SSH. <_**or, "by accessing the server using your SSH keys?**_>
 
 ### Step 2: Create a new SFTP location account in Adobe Analytics
 
 Create a new SFTP location account to replace each existing FTP account. 
 
-When creating a new SFTP location account, you must use the same hostname, username, and passphrase (if one exists)< **_is this correct?_** > that are used in the existing FTP account it is replacing.
+When creating a new SFTP location account, you must use the same hostname and username that are used in the existing FTP account it is replacing.
 
 >[!NOTE]
 >
->In a future step, you will configure this new location account to be used as the destination for your Data Feeds and Data Warehouse deliveries.  
-
-#### Inventory your FTP accounts 
- 
-Identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the [Legacy account types](/help/components/locations/configure-import-accounts.md#configure-a-location-account) section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md). 
- 
-For each account, gather the following information: 
- 
-* **Host**: The hostname of the FTP server your account connects to (for example, `ftp.omniture.com`, `ftp2.omniture.com`, and so forth). 
- 
-* **Port**: When using an Adobe-hosted SFTP server, SFTP clients connect on port 22. FTP connections that are non-secure use port 21. 
- 
-* **Username**: The username used to log in to the FTP server. 
- 
-* **Location account secret**: The current account secret for the account. This is the account secret (password) that you use currently when downloading data delivered to your FTP location. This information is not available from the Adobe Analytics interface. 
-
-#### Confirm that you can update credentials in your tools 
- 
-Make sure you can update the FTP account secret in whatever tool or script you use to connect to the FTP site (for example, an FTP client, automated script, or third-party platform). 
+>In a future step, you will configure this new location account to be used as the destination for your Data Feeds and Data Warehouse deliveries.   
 
 #### Create the SFTP account
 
@@ -125,9 +136,8 @@ Make sure you can update the FTP account secret in whatever tool or script you u
    | Field name | Function |
    |---------|----------|
    | [!UICONTROL **Hostname**] |  Your SFTP hostname (for example, `sftp.omniture.com`). | 
-   | [!UICONTROL **Port**] | The firewall port through which data will be sent. This is port 22 for SFTP connections. |
+   | [!UICONTROL **Port**] | The firewall port through which data will be sent. This is port 22 for Adobe-hosted SFTP connections. |
    | [!UICONTROL **Username**] | Your SFTP username. Use the same username that you used for your FTP account. |
-   | **Passphrase** | < **_not sure about this. It's not a field in the UI? How do they configure the passphrase? The FTP account contains an account secret. Does that become the passphrase?_** > |
  
 1. Select [!UICONTROL **Save**]. 
 
@@ -227,21 +237,23 @@ You should also remove old FTP-specific rules, such as allowing inbound connecti
  
 After updating each existing Data Feed and Data Warehouse request to use the new SFTP account and location, wait for the next scheduled delivery. Verify that data arrives at the new destination as expected. 
 
-### Step 6: Rotate the passphrase on the upgraded SFTP server
+### Step 6: Rotate the password on the upgraded SFTP server
 
-After upgrading an FTP server to SFTP, you must also rotate the SFTP passphrase, as described in the following section, [Rotate your SFTP passphrase](#rotate-your-sftp-passphrase). 
+After upgrading an FTP server to SFTP, you must also rotate the SFTP password, as described in the following section, [Rotate your SFTP password](#rotate-your-sftp-password). 
 
-## Rotate your SFTP passphrase
+## Rotate your SFTP password
 
-An SFTP passphrase serves as a fallback authentication method if key-based authentication fails. 
+An SFTP password serves as a fallback authentication method if key-based authentication fails. 
 
-Rotate the SFTP passphrase soon after upgrading from FTP to SFTP. It should continue to be rotated on a regular schedule< **_How often?_** >.   
+Rotate the SFTP password soon after upgrading from FTP to SFTP. It should continue to be rotated on a regular schedule< **_How often?_** >.   
 
-1. Contact Adobe Customer Care and request a new passphrase.
+1. Contact Adobe Customer Care and request a new password.
  
 1. For each SFTP account, provide the **Hostname** and **Username**. 
  
-   Customer Care will generate a new passphrase for each FTP account. 
+   Customer Care will generate a new password for each FTP account. 
+
+1. Update the password in whatever client you use to connect to the SFTP server.
 
 
 <!--

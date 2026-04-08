@@ -149,7 +149,7 @@ To add Adobe's SSH public key to the `authorized_keys` file and upload it to you
 
 1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
 
-1. Test the connection by logging in to the server using SFTP.
+1. Test the connection by logging in to the server using your SFTP client.
 
 1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
 

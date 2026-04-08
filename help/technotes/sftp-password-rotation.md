@@ -50,31 +50,19 @@ Make sure you can update the SFTP passwords in whatever tool or script you use t
 
 All clients should be connecting via SFTP with password as a fallback.
 
-<!--
-
-Probably need to add a step that says to update the password in whatever client(s) they are using to connect to the ftp server.
-
-In fact, maybe that's one of the prerequisites. They should probably get an inventory of all the clients they are using to connect to the FTP servers. When they rotate the password, they're going to have to change all those clients.
-
--->
-
 ## Upgrade FTP servers to use SFTP
 
 >[!IMPORTANT]
 >
 >If your FTP data is delivered to a third-party partner (for example, a consulting firm or analytics vendor), coordinate with them before following the steps in this article. 
 
-### Step 1: Generate your organization's SSH keys for downloading data and add the public key to your FTP server
+### Step 1: Generate your organization's SSH keys for downloading data
 
-This section describes how to:
-
-* Generate your organization's SSH keys (a public/private key pair) that are used to **download data** from the SFTP server.
+This section describes how to generate your organization's SSH keys (a public/private key pair) that are used to **download data** from the SFTP server.
 
   >[!NOTE]
   >
   >In a future step, you will download another public key provided by Adobe. This is part of a second public/private key pair, which is used by Adobe to **upload data** to the SFTP server.
-
-* Add the public key to your existing FTP server. 
 
 To set up secure transfer for downloading data from your FTP server: 
 
@@ -102,16 +90,7 @@ To set up secure transfer for downloading data from your FTP server:
 
 1. Copy the contents of the public key into the [!DNL `authorized_keys`] file.
 
-1. Upload the [!DNL `authorized_keys`] file to your FTP server:
-
-    1. Connect to the FTP server and log in with your username and password.    
-       This can be an Adobe-hosted FTP server or your own FTP server. 
-    1. Create a [!DNL .ssh] directory (if it does not already exist).
-    1. Upload the [!DNL `authorized_keys`] file to the [!DNL .ssh] directory.
-
-1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
-
-1. Test the connection by logging in to the server using SSH. <_**or, "by accessing the server using your SSH keys?**_>
+1. In a future step, you will come back to this [!DNL `authorized_keys`] file to add Adobe's public key, which is used by Adobe to upload data to the SFTP server. Then you will add the [!DNL `authorized_keys`] file to the SFTP server.
 
 ### Step 2: Create a new SFTP location account in Adobe Analytics
 
@@ -137,7 +116,7 @@ When creating a new SFTP location account, you must use the same hostname and us
 
    | Field name | Function |
    |---------|----------|
-   | [!UICONTROL **Hostname**] |  Your SFTP hostname (for example, `sftp.omniture.com`). | 
+   | [!UICONTROL **Hostname**] |  Your SFTP hostname (for example, `ftp.omniture.com`). | 
    | [!UICONTROL **Port**] | The firewall port through which data will be sent. This is port 22 for Adobe-hosted SFTP connections. |
    | [!UICONTROL **Username**] | Your SFTP username. Use the same username that you used for your FTP account. |
  
@@ -149,19 +128,28 @@ When creating a new SFTP location account, you must use the same hostname and us
 
 1. Continue with the following section, [Upload the public key to the SFTP server](#upload-the-public-key-to-the-sftp-server).
 
-#### Add Adobe's SSH public key to the SFTP server
+#### Add Adobe's SSH public key to the `authorized_keys` file and upload it to your FTP server
 
 The public key you just downloaded in Step 7 of the previous section is part of a public/private key pair that is used by Adobe to **upload data** to the SFTP server. 
 
 You need to add this public key to the same `authorized_keys` file where you previously added your organization's download key (the one you generated in [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server)).
 
-To add Adobe's SSH public key to the SFTP server:
+To add Adobe's SSH public key to the `authorized_keys` file and upload it to your FTP server:
 
-1. Connect to the SFTP server and log in, either by using your username and password or by using SFTP.
+1. Log in to the workstation where you download data from the FTP server.
 
-   This can be an Adobe-hosted SFTP server or your own SFTP server.
+1. Open the [!DNL `authorized_keys`] file and add Adobe's upload key to it. This file should already contain your organization's download key from [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server).
 
-1. Open the [!DNL `authorized_keys`] file in the [!DNL .ssh] directory. Add Adobe's upload key to this file. This file should already contain your organization's download key from [Step 1: Generate your organization's download key and add it to your FTP server](#step-1-generate-your-organizations-download-key-and-add-it-to-your-ftp-server).
+1. Upload the [!DNL `authorized_keys`] file to your FTP server:
+
+    1. Connect to the FTP server and log in with your username and password.    
+       This can be an Adobe-hosted FTP server or your own FTP server. 
+    1. Create a [!DNL .ssh] directory (if it does not already exist).
+    1. Upload the [!DNL `authorized_keys`] file to the [!DNL .ssh] directory.
+
+1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
+
+1. Test the connection by logging in to the server using SSH. <_**or, "by accessing the server using your SSH keys?**_>
 
 1. Repeat this process for each SFTP account that you created in the previous section, [Create the SFTP account](#create-the-sftp-account).
 
@@ -231,7 +219,11 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
 ### Step 4: Update your firewall settings
 
-If you haven't already, you need to update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe's IP ranges on port 22.
+If you haven't already, you need to update your firewall settings, as follows:
+
+* **When using Adobe's FTP servers**: You need to update your firewall settings to allow **outbound** connections on port 22.
+
+* **When using your own FTP server**: You need to update your firewall settings to allow **inbound** connection on whatever port you are hosting the service, which is typically port 22. 
 
 You should also remove old FTP-specific rules, such as allowing inbound connections on port 21. (FTP uses port 21, plus a range of additional ports for data transfer. As a security best practice, you should eventually remove this unnecessary access through your firewall.)
 

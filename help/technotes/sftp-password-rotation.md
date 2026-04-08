@@ -239,7 +239,7 @@ After upgrading an FTP server to SFTP, you must also rotate the SFTP password, a
 
 An SFTP password serves as a fallback authentication method if key-based authentication fails. 
 
-Rotate the SFTP password soon after upgrading from FTP to SFTP. It should continue to be rotated on a regular schedule< **_How often?_** >.   
+Rotate the SFTP password soon after upgrading from FTP to SFTP. It should continue to be rotated on a regular schedule, according to your established policies.   
 
 1. Contact Adobe Customer Care and request a new password.
  

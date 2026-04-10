@@ -4,7 +4,6 @@ description: Learn how to create an implement opt-out links for visitors to your
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: yes
-hidefromtoc: yes
 role: Developer
 ---
 # Implement opt-out links

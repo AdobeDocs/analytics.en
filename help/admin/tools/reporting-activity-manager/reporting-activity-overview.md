@@ -7,8 +7,6 @@ role: Admin
 ---
 # Reporting Activity Manager overview
 
-The [!UICONTROL Reporting Activity Manager] is available for administrators. 
-
 If your organization experiences a degradation in reporting performance during peak reporting times, the Reporting Activity Manager enables you to self-diagnose and fix capacity issues without intervention from Adobe Customer Care. You can easily manage reporting queues within a single interface and immediately act​​ to improve your users' experience. 
 
 ## Benefits

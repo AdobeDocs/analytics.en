@@ -45,10 +45,5 @@ To set up secure transfer with FTP:
 
 1. Test the connection by logging in to the FTP account using SFTP.
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
+For more detailed information, see [Connect to Adobe via SFTP without a password](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
 
-<!-- Public private key pair can have a password embedded into it. If the key authentication fails, then it will authenticate with the password. 
-
-They will need to rotate that password. 
-
-FTP needs to upgrade to SFTP and then rotate their password. -->

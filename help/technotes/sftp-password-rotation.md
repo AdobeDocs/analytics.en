@@ -118,7 +118,7 @@ When creating a new SFTP location account, you must use the same hostname and us
 
    | Field name | Function |
    |---------|----------|
-   | [!UICONTROL **Hostname**] |  Your SFTP hostname (for example, `ftp.omniture.com`). | 
+   | [!UICONTROL **Hostname**] | Your SFTP hostname (for example, `ftp.omniture.com`). |
    | [!UICONTROL **Port**] | The firewall port through which data will be sent. This is port 22 for Adobe-hosted SFTP connections. |
    | [!UICONTROL **Username**] | Your SFTP username. Use the same username that you used for your FTP account. |
  

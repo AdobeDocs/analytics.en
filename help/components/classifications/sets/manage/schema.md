@@ -170,7 +170,7 @@ You can automate the ingestion of classification data through the configuration 
 >|---|---:|
 >| Pacific North West | `52.254.104.0/22` |
 >| London | `51.138.16.0/22` |
->| Singapore | `20.40.0.0/14 `| 
+>| Singapore | `20.40.0.0/14 `|
 >
 
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.

@@ -4,36 +4,36 @@ description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 ---
-# Current Adobe Analytics release notes (March 2026)
+# Current Adobe Analytics release notes (April 2026)
 
-**Last update**: March 11, 2026
+**Last update**: April 9, 2026
 
-These release notes cover the March 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
+These release notes cover the April 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Sort tables by multiple columns** <br/>You can now sort the data of a freeform table by multiple columns in Analysis Workspace, whether they are dimensions or metrics.<p>When you sort data for multiple columns, data is sorted according to the priority you assign to each column. Priority numbering is displayed next to the sort icon.</p><p>For more information, see [Filter and sort freeform tables](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | January 28, 2026 | March 4, 2026 <p>(Originally planned for February 18, 2026)</p> |
-| **Report Builder: Administrator visibility to all scheduled workbooks**<br/>The Report Builder Excel Add-in includes a new filter option that allows administrators to see all scheduled workbooks for a given org, regardless of who scheduled them. This filter option is available only for Analytics administrators. It is available on both the Workbook tab and the Legacy tab when viewing scheduled workbooks.<p>The ability to view all scheduled workbooks is especially useful when migrating workbooks across distributed teams, because it allows administrators to easily locate all legacy workbooks prior to migrating them.</p><p>Previously, administrators could see only the workbooks they scheduled, not those scheduled by other users.</p><p>For more information, see [Managed scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md).</p> | | March 10, 2026 |
-| **Update to the Approximate Count Distinct function**<br/>The HLL probabilistic algorithm used in the Approximate Count Distinct function will soon be updated. The resulting output for numbers utilizing this function might change slightly from historical numbers, as follows:</p><ul><li>When counting very small amounts of unique values, the results will be improved to use exact counts rather than using estimates.</li><li>When counting anything larger, count estimates will retain the same accuracy as prior to this update (estimates are accurate within 5 percent of the exact number, 95 percent of the time).</li></ul><p>For more information about the Approximate Count Distinct function, see [Approximate Count Distinct](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) in [Advanced functions](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | March 10, 2026 |
-| **Hands-on tutorial for Analysis Workspace**<br/>A new hands-on tutorial is now available to guide new users through the basics of using panels, visualizations, and components in Analysis Workspace. <p>For more information, see [Adobe Analytics landing page](/help/analyze/landing.md).</p> | | March 18, 2026 |
-| **Apply a breakdown to a panel**<br/>You can now apply a breakdown to a panel. When applying a breakdown at the panel level, the breakdown is applied to all columns in all freeform tables within the panel.  | March 2026 | May 2026 |
+| **MCP servers for Adobe Analytics** <br/>You can now tie Adobe Analytics into your existing agentic workflows using MCP (Model Context Protocol). You can request reports and insights using natural language.<p>(Documentation link to follow.)</p> | | End of April 2026 |
 | **Streaming media services: Support schedule data** <br/>You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership.<p>The following are examples of live content that are supported with schedule data upload:</p><ul><li>FAST (Free Ad Supported TV) platforms</li><li>Local streams</li><li>Live sports</li></ul><p>Uploading schedule data allows you to track viewership data for individual programs that ran during the time you designate in the upload file. You can even gather viewership data for specific topics or program segments.</p><p>These capabilities are available regardless of how you implemented Streaming Media Collection.</p><p>Previously, it was difficult to accurately tie a given session to specific programs when analyzing live content, and it wasn't possible to tie a given session to individual topics or program segments.</p><p>For more information, see [Upload schedule data to track live content](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/track-schedule-data)</p>| October 29, 2025 | First half of 2026<p>(Originally planned to release on October 29, 2025)</p>|
+| **Additional API date range formatting**<br/>Two new formats are now supported for specifying date ranges in Analytics 2.0 API report requests. This includes a date formula and a mixed format. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | March 2026 |
+| **Optional dimension in API report requests**<br/>A dimension object is not required in Report API requests. If no dimension is specified, the response shows data for a Totals report. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | March 2026 |
+| **Date-trended advanced API report**<br/>New Adobe Analytics 2.0 API Date-trended Advanced Report Guide. Create advanced date-trended API reports using date range comparisons and segments. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | March 2026 |
 
 ## Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-440336, AN-440216, AN-440121, AN-438445, AN-438216, AN-437856, AN-437776, AN-437765, AN-437365, AN-432793, AN-432094, AN-431557, AN-431200, AN-429621, AN-429424, AN-427973, AN-426089, AN-425883, AN-424359
-**Classifications**: AN-440143, AN-439891, AN-439844, AN-438994, AN-438057, AN-438052, AN-437986, AN-437896, AN-435387, AN-435335, AN-435150, AN-433050, AN-432062, AN-431873, AN-429642
-**Data Feeds and Data Warehouse**: AN-439441, AN-437086, AN-433064, AN-432121, AN-431755, AN-428239, AN-427049, AN-425036, AN-424972, AN-423509, AN-335417, AN-283958, AN-256948
-**Migration**: 
-**Exports**: AN-432030 
-**Report Builder**: AN-437895, AN-437083, AN-434288, AN-434209, AN-433224, AN-430622
-**Reporting**: AN-434545, AN-431206, AN-428043
+**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**Classifications**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440511, AN-440496, AN-432100
+**Data Feeds and Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Migration**: AN-442467, AN-440380, AN-440357
+**Exports**: 
+**Report Builder**: AN-441136, AN-438147, AN-425150
+**Reporting**: AN-441506, AN-440919, AN-440545, AN-440300
+**Report suites**: AN-439429, AN-439423, AN-430988
 **Scheduled reports**: 
 **Segmentation**: 
-**Other**: AN-440076, AN-434783, AN-434542, AN-434233, AN-433368, AN-432138, AN-431322, AN-431012, AN-429067, AN-423285
+**Other**: AN-423359, AN-406242, AN-397985
 
 
 ## End-of-life (EOL) notices {#eol}

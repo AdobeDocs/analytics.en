@@ -8,9 +8,11 @@ role: Admin
 
 This page covers security requirements for existing FTP and SFTP servers that receive data delivered by Adobe Analytics Data Feeds or Data Warehouse.
 
-* **Existing FTP servers**: Must be upgraded to use SFTP, as described in the section below, [Upgrade FTP servers to use SFTP](#upgrade-ftp-servers-to-use-sftp).
+* **Existing FTP servers**: Must be upgraded to use SFTP, as described in the section below, [Upgrade FTP servers to use SFTP](#upgrade-ftp-servers-to-use-sftp). 
 
-  Upgrading from FTP to SFTP is a requirement because FTP allows data to flow over the internet in plain text.
+  Upgrading from FTP to SFTP is a requirement because SFTP allows for increased security.
+
+  Alternatively, for a higher level of security, you can transition to a modern cloud destination. (For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).)
 
 * **Existing SFTP servers (and newly upgraded SFTP servers)**: Must have old passwords rotated, as described in the section below, [Rotate your SFTP password](#rotate-your-sftp-password).
 

@@ -114,7 +114,7 @@ Before you create a data feed, it's important to have a basic understanding of d
    >
    >Consider the following when configuring a report destination:
    >
-   >* Adobe recommends using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Adobe recommends using a cloud account for your report destination. [Legacy FTP and SFTP accounts](/help/components/locations/configure-import-accounts.md) are available, but are not recommended.
    >* Any cloud accounts that you previously configured are available to use for data feeds. You can configure cloud accounts in any of the following ways:
    >
    >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 

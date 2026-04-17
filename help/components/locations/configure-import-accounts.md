@@ -139,14 +139,19 @@ To configure a cloud import or export account after you begin creating or editin
 
    +++FTP
 
-      Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
+   >[!IMPORTANT]
+   >
+   >FTP should not be used because the data flows over the Internet in plain text.
+      
+
+      Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password.
 
       |Field | Function |
       |---------|----------|
-      | [!UICONTROL **Host**] | Enter the desired FTP destination URL. For example, `ftp.adobe.com`. |
-      | [!UICONTROL **Path**] | Can be left blank. |
+      | [!UICONTROL **Hostname**] | Enter the desired FTP destination URL. For example, `ftp.adobe.com`. |
+      | [!UICONTROL **Port**] | Can be left blank. Use this field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified port does not exist. |
       | [!UICONTROL **Username**] | Enter the username to log in to the FTP site. |
-      | [!UICONTROL **Password and confirm password**] | Enter the password to log in to the FTP site. |
+      | [!UICONTROL **Location account secret**] | Enter the password (secret) to log in to the FTP site. |
 
       {style="table-layout:auto"}
 
@@ -154,9 +159,9 @@ To configure a cloud import or export account after you begin creating or editin
 
    +++SFTP
 
-      SFTP support for data feeds is available. This requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
+      SFTP support for data feeds is available. This requires an SFTP host, username, and the destination site to contain a valid RSA or ed25519 public key. You can download the appropriate public key when creating the feed.
 
-      When downloading the RSA or DSA public key for data feeds, do either of the following:
+      When downloading the RSA or ed25519 public key for data feeds, do either of the following:
       
       * Rename the file downloaded public key file to `authorized_keys`, then upload the file to your `.ssh` folder on your SFTP server.
 

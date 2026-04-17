@@ -56,6 +56,7 @@ user-guide-description: Browse a knowledge base containing helpful articles that
 + [Progressive web apps](pwa.md)
 + [Redirects and aliases](redirects.md)
 + [Security resources](security.md)
++ [Security for FTP and SFTP](sftp-password-rotation.md)
 + [Terms used (glossary)](terms.md)
 + [Troubleshoot logging in](troubleshoot-login.md)
 + [Troubleshoot getting logged out](troubleshoot-sessions.md)

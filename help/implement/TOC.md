@@ -164,7 +164,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Map tag data elements to Analytics variables](launch/elements-to-variable.md)
 + Implement Analytics using JavaScript {#js}
   + [JavaScript overview](js/overview.md)
-  + [Implement opt-out links](js/opt-out.md)
+  + {hide-from-toc} [Implement opt-out links](js/opt-out.md)
   + [Variable overrides](js/overrides.md)
   + [Migrate from H Code](js/migrate-from-hcode.md)
   + H Code {#h-code}

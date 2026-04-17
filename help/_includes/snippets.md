@@ -54,6 +54,9 @@
 >The functionality described in this section is only available to existing customers that already have a license for the functionality. The functionality is no longer offered as an additional add-on to existing or new customers. 
 >
 
+## Video demonstration Customer Journey Analytics {#videocja}
+
+This video demonstrates the functionality using Customer Journey Analytics. However, the functionality is similarly available in Adobe Analytics. Be aware of the differences in terminology between Adobe Analytics and Customer Journey Analytics (for example *visits* versus *sessions*).
 
 
 ## Attribution models {#attribution-models-details}

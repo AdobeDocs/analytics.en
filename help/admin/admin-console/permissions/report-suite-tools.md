@@ -40,7 +40,7 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL RealTime Report] | Grants access to Engagement > Real-Time in Adobe templates. |
 | [!UICONTROL Reporting Activity Manager Admins] | Not used |
 | [!UICONTROL Reporting Activity Manager Access] | Not used |
-| [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager, but does not allow any changes. |
+| [!UICONTROL Report Suite Mgmt] | Grants access to the Report Suite Manager. Allows the creation of report suites, but does not grant access to any items under '[!UICONTROL Edit Settings]'. See also [[!UICONTROL Report Suites Admin UI Access]](analytics-tools.md). |
 | [!UICONTROL Return Visits] | Not used |
 | [!UICONTROL R&A Dashboard Company Summary Reportlet] | Not used |
 | [!UICONTROL R&A Dashboard External Reportlet] | Not used |
@@ -54,5 +54,3 @@ This table lists all permissions items under Report Suite Tools when configuring
 | [!UICONTROL Traffic Variables] | Grants access to Traffic > Traffic Variables in the Report Suite Manager. |
 | [!UICONTROL Unique Visitor ]| Grants access to Conversion > Unique Visitor Variable. Not typically used in modern implementations. |
 | [!UICONTROL URL Filters] | Grants access to General > Internal URL filters in the Report Suite Manager. |
-
-{style="table-layout:auto"}

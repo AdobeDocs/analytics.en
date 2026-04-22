@@ -17,7 +17,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 >abstract="Segments created in Audience Library are available instantly and are not dependent on Analytics updates."
 
 
-You can publish an Adobe Analytics segment to the Experience Cloud. So, you can use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels, including [!DNL Advertising Cloud], [!DNL Target], and [!DNL Campaign]. 
+You can publish an Adobe Analytics segment to the Experience Cloud. So, you can use the segment for marketing activity in Audience Manager and in other activation channels, including Advertising, Target, and Campaign. 
 
 You can publish Analytics segments to Experience Cloud in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 
 
@@ -87,7 +87,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 
 >[!NOTE]
 >
->You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
+>You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: Analytics (in Audience Analytics), Campaign, Advertising (for Core Service and Audience Manager customers) and all other external partners (for Audience Manager customers). You **can** unpublish a segment that is in use by Target.
 
 ## View the publishing status of segments
 

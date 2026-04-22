@@ -8,11 +8,9 @@ exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 
 ## Access/Entitlements {#access}
 
-+++ Do I need to be an Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer to access this functionality?
++++ Do I need to be an Adobe Advertising customer to access this functionality?
 
-No, this functionality is available for non-Advertising Cloud and non-AMO customers. 
-
-AMO customers can leverage the existing Analytics-AMO integration; they will not be able to use Ad Analytics. 
+No, this functionality is available for non-Advertising customers. Adobe Advertising customers can leverage the existing Analytics + Advertising integration.
 
 +++
 
@@ -40,9 +38,9 @@ No, Advertising Analytics uses a special data source type which does not incur s
 
 +++
 
-+++ If I already use Advertising Cloud/AMO, can I still use the Advertising Analytics functionality?
++++ If I already use Adobe Advertising, can I still use the Advertising Analytics functionality?
 
-Any compatible search engine account will pass into Advertising Analytics and will be displayed as read-only. All edits or updates should be handled in Advertising Cloud/AMO. 
+Any compatible search engine account will pass into Advertising Analytics and will be displayed as read-only. All edits or updates should be handled in Advertising. 
 
 +++
 
@@ -68,20 +66,20 @@ After logging in to Adobe Analytics, navigate to the [!UICONTROL Admin]. Then se
 
 +++ How is the data collected and passed into Analytics? 
 
-Advertising Analytics utilizes a series of custom APIs to pass data from search engines via the Adobe Advertising Cloud into Analytics.
+Advertising Analytics utilizes a series of custom APIs to pass data from search engines through Adobe Advertising into Adobe Analytics.
 
 +++
 
 +++ What search data do I get with this integration? 
 
-You will get 
+You get:
 
 * Impressions
 * Clicks
 * Costs
 * Quality Score
-* Average Position directly from the search engines, as well as 
-* AMO ID Instances (Click Instances). 
+* Average Position directly from the search engines 
+* AMO ID Instances (Click Instances)
 
 +++
 

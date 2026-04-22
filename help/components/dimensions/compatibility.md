@@ -262,7 +262,7 @@ Adobe Social is retired.
 |[Entry Beacon Proximity](lifecycle-dimensions.md)|`entrymobilebeaconproximity`|
 |[Exit Beacon Proximity](lifecycle-dimensions.md)|`exitmobilebeaconproximity`|
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
 |Dimension name (visible in Analytics UI)|Dimension ID (used in API requests)|
 |--- |--- |

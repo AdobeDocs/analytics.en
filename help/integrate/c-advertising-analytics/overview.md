@@ -6,7 +6,7 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 ---
 # Advertising Analytics
 
-Advertising Analytics lets you see all your Google Ads and Microsoft Advertising paid search data side by side within Adobe Analytics. Previously, any Google Ads or Microsoft Advertising data would have to be viewed in Adobe Advertising Cloud (AMO) or in each respective ad interface. You can now get impression, click, and cost data directly from search engines as well as AMO ID Instances (Click Instances). 
+Advertising Analytics lets you see all your Google Ads and Microsoft Advertising paid search data side by side within Adobe Analytics. Previously, any Google Ads or Microsoft Advertising data would have to be viewed in Adobe Advertising or in each respective ad interface. You can now get impression, click, and cost data directly from search engines as well as AMO ID Instances (Click Instances). 
 
 By bringing the data from these search engines together in Adobe Analytics, you can analyze that same data by using the power of Analysis Workspace. A new [Paid Search Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) template in Workspace facilitates this analysis.
 
@@ -21,7 +21,7 @@ This integration is aimed at the following audiences:
 ## Prerequisites {#prerequisites}
 
 * Advertising Analytics is available for Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html), and [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) SKUs only.
-* This functionality is available for non-Advertising Cloud and non-AMO customers.
+* This functionality is available for customers that do not use Adobe Advertising.
 * You must be an Adobe Analytics Administrator to have access to Advertising Analytics or be belong to a product profile that has been [granted access](/help/integrate/c-advertising-analytics/overview.md#permissions) to Advertising Analytics.
 * For any report suite where you want to view Google Ads or Microsoft Advertising search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 * You need login credentials for a user with edit permissions to the search account/s which you want to integrate with Adobe Analytics, such as a Google Account ID and password.
@@ -66,7 +66,7 @@ Advertising Analytics adds the following dimensions and metrics to Analysis Work
 | **[!UICONTROL Network (AMO ID)]** | The network the Ad is being served on. For Advertising Analytics, this value is always "Search". |
 | **[!UICONTROL Placement (AMO ID)]** | The managed placement website (for content networks). Only managed placements use this dimension. |
 | **[!UICONTROL Product Target (AMO ID)]** | The name of product target used on PLA ads (not the actual product purchased). |
-| **[!UICONTROL Optimization (AMO ID)]** | This is not used by Advertising Analytics. It is used only by Advertising Cloud customers. |
+| **[!UICONTROL Optimization (AMO ID)]** | Not used by Advertising Analytics. It is used only by Adobe Advertising customers. |
 | **[!UICONTROL Device (AMO ID)]** | Not used today. Placeholder for potential future product enhancement to indicated target device type (e.g. mobile, desktop) of ad (not the actual device of visitor). |
 
 ### Metrics

@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Integration Guide
 breadcrumb-title: Integration Guide
-user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager and Advertising Cloud.
+user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager and Advertising.
 ---
 
 # Adobe Analytics Integration Guide {#integration}
@@ -32,7 +32,7 @@ user-guide-description: Configure integrations with other Adobe Experience Cloud
     + [Manage advertising accounts](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
     + [Troubleshoot Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
   + [Frequently Asked Questions](c-advertising-analytics/aa-faq.md)
-+ [Adobe Analytics for Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [Adobe Analytics for Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 + [Adobe Campaign reporting in Adobe Analytics](adobe-campaign.md)
 + [Integrate Adobe Analytics data with Adobe Campaign Classic](analytics-to-campaign-classic.md)

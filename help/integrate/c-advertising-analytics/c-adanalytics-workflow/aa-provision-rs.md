@@ -15,10 +15,6 @@ To see any Advertising Analytics search data in Analytics, you need to configure
 
    ![Reporting](assets/aa-reporting.png)
 
-   >[!IMPORTANT]
-   >
-   >AMO ID refers to the Adobe Advertising Cloud (also known as Adobe Media Optimizer) variable into which the search data is going to be inserted.
-
 1. Select **[!UICONTROL Unfamiliar with Advertising Analytics? Click here to learn more]** for more information on Advertising Analytics.
    
 1. Set the variable allocation and expiration that you want the AMO ID variable to use. Conversion variables (eVars) allow Adobe Analytics to attribute success events to specific variable values. Sometimes, variables encounter more than one value before hitting a success event. For these cases, allocation determines which variable value gets credit for the event.

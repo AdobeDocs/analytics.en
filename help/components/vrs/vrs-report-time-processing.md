@@ -52,12 +52,12 @@ In addition, Report Time Processing only processes data that comes from within t
 The following dimensions and metrics are not supported with Report Time Processing:
 
 * **Analytics for Target**
-* **Analytics for Advertising Cloud dimensions/metrics**
+* [**Advertising dimensions/metrics**](/help/components/dimensions/amo-id.md)
 * **Counter eVars**
 * [**Days Before First Purchase**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Days Since Last Purchase**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Days Since Last Visit**](/help/components/dimensions/days-since-last-visit.md)
-* **Entry Page Original**
+* [**Entry Page Original**](/help/components/dimensions/entry-dimensions.md)
 * **Linear allocation eVars**
 * **List Vars**
 * [**Marketing Channels dimensions**](/help/components/dimensions/marketing-channel.md)

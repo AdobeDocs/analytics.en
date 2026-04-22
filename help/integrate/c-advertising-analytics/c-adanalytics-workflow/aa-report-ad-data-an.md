@@ -10,7 +10,7 @@ This article provide details on the Analysis Workspace report, and the reporting
 
 >[!NOTE]
 >
->You should expect to wait at least 24 hours before search engine data starts populating into your Analytics reports. Note also that Analytics reporting does not return data for hourly granularity, because the Advertising Cloud data does not support hourly granularity.
+>Expect to wait at least 24 hours before search engine data starts populating Analytics reports. Analytics reporting does not return data for hourly granularity, because Adobe Advertising data does not support hourly granularity.
 
 ## Paid search report {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 

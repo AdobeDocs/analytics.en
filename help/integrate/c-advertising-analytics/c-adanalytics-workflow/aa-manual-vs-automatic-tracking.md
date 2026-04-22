@@ -20,7 +20,7 @@ Two tracking modes are supported: [!UICONTROL Auto] and [!UICONTROL Manual].
 
 ## [!UICONTROL Auto] Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Auto] tracking lets the Advertising Cloud engine decide how the search engine data should be handled. Auto tracking is the simpler approach, but may not result in the best integrated dataset.
+[!UICONTROL Auto] tracking lets the Adobe Advertising engine decide how the search engine data should be handled. Auto tracking is the simpler approach, but may not result in the best integrated dataset.
 
 As a consequence, you need to check an acknowledgment checkbox when you select **[!UICONTROL Auto]** before you can save the account setting.
 

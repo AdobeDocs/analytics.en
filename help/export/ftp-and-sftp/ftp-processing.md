@@ -1,11 +1,11 @@
 ---
 description: Processing time for any FTP file, whether for classifications or Data Sources, is based on the number of files already in the processing queue and the size of your file.
 keywords: ftp;sftp
-title: FTP processing times
+title: FTP and SFTP processing times
 feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
 ---
-# FTP processing times
+# FTP and SFTP processing times
 
 Processing time for any FTP file, whether for classifications or Data Sources, is based on the number of files already in the processing queue and the size of your file.
 

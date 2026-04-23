@@ -6,7 +6,7 @@ feature: Classifications
 ---
 # Classification set schema
 
-The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension, and this field contains a product SKU, then you use the schema to add classifications like product name, product color, product size, and more.
+The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension and this field contains a product SKU, use the schema to add classifications such as product name, color, and size.
 
 To edit the schema for a classification set:
 
@@ -101,7 +101,7 @@ To download classification data, select ![Download](/help/assets/icons/Download.
 In the **[!UICONTROL Download data for _classification set name_]** dialog:
 
 1. Enter the number of **[!UICONTROL Rows]** that you want to download. For example: `10000`.
-1. To select the period for which you want to download rows of classification data, enter a start and end data for **[!UICONTROL Download Rows Received Between]**. Or use ![Calendar](/help/assets/icons/Calendar.svg) to use a calendar popup to select the period.
+1. To select the period for which you want to download rows of classification data, enter a start and end date for **[!UICONTROL Download Rows Received Between]**. Or use ![Calendar](/help/assets/icons/Calendar.svg) to use a calendar popup to select the period.
 1. To select what data to return, select an option from **[!UICONTROL Data Returned]**.
 
    * **[!UICONTROL All values]** returns all values for the current classification data.
@@ -113,7 +113,7 @@ In the **[!UICONTROL Download data for _classification set name_]** dialog:
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, 2. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -140,7 +140,7 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Select **[!UICONTROL Download]** to download the classification data template. You can find the downloaded file in your browser's default download directory, and is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
+1. Select **[!UICONTROL Download]** to download the classification data template. You can find the downloaded file in your browser's default download directory. The file is titled <code><i>Classification Set</i>.<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.
 
 
 ### Automate {#automate}
@@ -160,8 +160,6 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configure cloud import and export locations"
 
 You can automate the ingestion of classification data through the configuration and use of cloud account and cloud locations.
-
-
 
 >[!IMPORTANT]
 >The automation of classification ingestion from cloud accounts requires that you (or your network administrator) specify IP address ranges to allow to ingest data into your network. Configure one or more of the IP address ranges depending on the location of the Analytics datacenters that you use.
@@ -200,14 +198,18 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set 
    * **[!UICONTROL Latin-1]**.
 
 1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated.
-1. If the validation is successful, you see a toast message that shows ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
+1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validatedIf the validation is successful, a toast message appears displaying ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
 
 When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages. 
 
 For example:
 
 ![Classification sets - Job validation email](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>Remove files from the cloud location manually or using a file rotation once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed upon the next import job. 
+ 
 
 
 ## Action bar

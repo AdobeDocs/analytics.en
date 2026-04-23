@@ -1,9 +1,10 @@
 ---
 title: Classification Set Schema
-description: Learn how to view and edit the schema for an individual classification set.
+description: Learn how to view and edit the schema for a classification set in Adobe Analytics. Add, upload, download, or automate classification data using cloud locations..
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 ---
+
 # Classification set schema
 
 The schema is the list of classifications that you want to apply to the key dimensions you have defined for the classification set. For example, if you have defined product as the key dimension and this field contains a product SKU, use the schema to add classifications such as product name, color, and size.
@@ -30,7 +31,7 @@ The list of classifications has the following columns:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Classification Name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This name is a read-only value and you can use the Identity name |
+| **[!UICONTROL Identity Name]** | The sytem generated name  for the classification. This name is a read-only value and you can use the the Identity name. |
 | **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -56,13 +57,11 @@ The following actions are available as buttons on the top of the classifications
 
 To add a new classification, select ![Add](/help/assets/icons/Add.svg) **[!UICONTROL Add]**.
 
-![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png) 
+![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png)
 
 In the **[!UICONTROL Add a new classification for _classification set name_]** dialog, enter the **[!UICONTROL Classification Name]** and select **[!UICONTROL Add]**. The classification is added to the list.
 
-
-
-### Upload 
+### Upload
 
 To import classification data into the schema for a classification, select ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**.
 
@@ -71,12 +70,12 @@ To import classification data into the schema for a classification, select ![Upl
 
 1. In the **[!UICONTROL Add new classifications]** dialog:
 
-   * Drag a file that contains classification data and drop the file onto **[!UICONTROL Drag and drop here]**. 
-   * Select **[!UICONTROL Browse]** and pick a file from your computer or network. 
+   * Drag a file that contains classification data and drop the file onto **[!UICONTROL Drag and drop here]**.
+   * Select **[!UICONTROL Browse]** and pick a file from your computer or network.
 
-   You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column. 
+   You see a **[!UICONTROL Schema Preview]** of the contents of the file. The preview shows the columns of data from the file. To resize a column, select ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) and select **[!UICONTROL Resize column]**. A handle appears that allows you to resize the column.
    
-   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and is created on import. 
+   When no classification is defined in the classification set for a column, an alert ![Alert](/help/assets/icons/Alert.svg) is shown. The alert explains that a classification is not present in the existing classification schema set and is created on import.
 
 1. Select **[!UICONTROL Overwrite data on conflict?]** if you want to overwrite the current classification data with the new imported. For example:
    
@@ -113,7 +112,7 @@ In the **[!UICONTROL Download data for _classification set name_]** dialog:
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File-Encoding]** drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File encoding]** drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -135,7 +134,7 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
    * **[!UICONTROL Comma separated values]**.
    * **[!UICONTROL Excel tab separated values]**.
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File encoding]** drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -192,13 +191,13 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set 
    * **[!UICONTROL Vertical bar |]**
    * **[!UICONTROL Space]**
    * **[!UICONTROL Tab]**
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File Encoding]** drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File encoding]** drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
 1. To notify users about the completion of ingest jobs, enter email addresses, separated by comma, for **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validatedIf the validation is successful, a toast message appears displaying ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
+1. Select **[!UICONTROL Validate]**. The connection to the cloud location is validated. If the validation is successful, a toast message appears, displaying ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Select **[!UICONTROL Save]** if you have created the connection to the cloud connection. Otherwise, select **[!UICONTROL Update]**. Or select **[!UICONTROL Cancel]** to cancel the configuration of the cloud location.
 
 When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages. 
 

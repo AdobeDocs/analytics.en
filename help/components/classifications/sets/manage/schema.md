@@ -113,7 +113,7 @@ In the **[!UICONTROL Download data for _classification set name_]** dialog:
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, 2. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the File-Encoding drop-down menu. Options are:
+1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File-Encoding]** drop-down menu. Options are:
    
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.

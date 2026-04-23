@@ -5,9 +5,9 @@ title: Engineering Services engagements with FTP
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
 ---
-# Engineering Services engagements with FTP
+# Engineering Services engagements with FTP or SFTP
 
-Many Adobe Engineering Services engagements involve the exchange of data, which frequently requires FTP.
+Many Adobe Engineering Services engagements involve the exchange of data, which frequently requires FTP or SFTP.
 
 These engagements include [!UICONTROL DB VISTA] and custom projects.
 

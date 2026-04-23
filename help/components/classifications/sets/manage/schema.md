@@ -208,7 +208,7 @@ For example:
 
 >[!IMPORTANT]
 >
->Remove files from the cloud location manually or using a file rotation once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed upon the next import job. 
+>Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed upon the next import job. 
  
 
 

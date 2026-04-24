@@ -4,6 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
 user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder and Legacy Report Builder, and Activity Map.
+index: true
 ---
 # Adobe Analytics Tools Guide {#analyze}
 

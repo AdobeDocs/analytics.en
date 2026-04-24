@@ -205,7 +205,7 @@ Edit each scheduled Data Warehouse request that is configured with the old FTP d
 
 1. On the Data Warehouse page, select the request that you want to edit.
 
-   ![Manage a request](assets/dw-manage-request.png)
+   ![Manage a request](/help/technotes/assets/dw-manage-request.png)
 
 1. Select [!UICONTROL **Edit**].
 

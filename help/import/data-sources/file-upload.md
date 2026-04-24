@@ -4,6 +4,16 @@ description: The process to upload a data sources file to Adobe Analytics for in
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
 role: Admin
+TQID: https://experienceleague.adobe.com/75kyNzjsBehTPilhSr9Wir6bHuGPJvZVCtZUnrxtffw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Upload data sources file to Adobe
 

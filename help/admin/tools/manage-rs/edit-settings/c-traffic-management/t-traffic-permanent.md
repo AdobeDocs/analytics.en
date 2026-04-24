@@ -4,6 +4,16 @@ title: Specify permanent traffic increase
 feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
+TQID: https://experienceleague.adobe.com/1-xylEIu-GhVcYDK1KalITFFGKWC6blkosvw-s9BgR4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Specify permanent traffic increase
 

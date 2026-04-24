@@ -4,6 +4,15 @@ keywords: ftp;sftp
 title: Send Data Warehouse requests to SFTP servers
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
+TQID: https://experienceleague.adobe.com/nBerOKEbILwAK5OyayVgdBPN8vq24kk-DXY6XMT50wg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Send Data Warehouse requests to SFTP servers
 

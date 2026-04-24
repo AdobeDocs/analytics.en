@@ -3,6 +3,20 @@ title: Adobe Analytics security resources
 description: Links to Adobe resources around its security practices and recovery plans.
 exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
 feature: Implementation Basics
+TQID: https://experienceleague.adobe.com/l6H8tllet4juQEB9YQNGkn355vtNqyYWi3YvAYHTLfU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Adobe Analytics security resources
 

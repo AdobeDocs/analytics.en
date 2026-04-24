@@ -4,6 +4,18 @@ description: View what changes have been previously made to processing rules.
 feature: Processing Rules
 role: Admin
 exl-id: c1d4eb01-0888-483a-9a65-83a64e818f88
+TQID: https://experienceleague.adobe.com/uxWllbRHhOfY-wdjxCt6d3Wn1rqNjpsQw-ecjVnwdms
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Processing rules view history
 

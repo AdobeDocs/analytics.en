@@ -4,6 +4,7 @@ audience: all
 user-guide-title: Analytics release notes
 breadcrumb-title: Release Notes
 user-guide-description: Learn about new features and fixes in Adobe Analytics.
+nudge: true
 ---
 
 # Adobe Analytics Release Notes {#release-notes}

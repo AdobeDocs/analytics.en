@@ -4,7 +4,7 @@ title: Configure A Journey Canvas Visualization
 feature: Visualizations
 role: User, Admin
 ---
-# Configure a Journey canvas visualization
+# Configure a Journey canvas visualization {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +55,16 @@ See [Journey canvas overview](/help/analysis-workspace/visualizations/journey-ca
 
 1. Configure the journey as described in [Configure visualization settings](#configure-visualization-settings). 
 
-## Configure visualization settings
+## Configure visualization settings {#configure-visualization-settings}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_percentage_value"
+>title="Choose how percentages are calculated"
+>abstract="The percentages shown on each node are based on the primary and secondary metrics you configure. You can choose whether the percentages relate to the start node, the previous node, or all data in the report suite."
+
+<!-- markdownlint-enable MD034 -->
 
 Various configuration options are available in the Journey canvas header. 
 

@@ -49,7 +49,7 @@ See [Journey canvas overview](/help/analysis-workspace/visualizations/journey-ca
 
    | Field | Function |
    |---------|----------|
-   | [!UICONTROL **Journey canvas container**] | Select the container that you want to focus on throughout the journey. The container that you choose determines the scope of the data captured in the journey. This affects the statistics that are displayed in the visualization. (If your container names differ from the default names shown below, they were customized in your data view.)<ul><li>**Session:** Constrains the statistics of the visualization to fall within a single defined session for a given person. This means that the numbers and percentages that appear on each node (that are based on the primary and secondary metrics) must occur within a single session for each person. In other words, one person can be represented multiple times in a single journey.<p>This container uses the Sessions metric.</p></li><li>**Person:** (Default) Allows the statistics of the visualization to span multiple sessions for a given person. This means that the numbers and percentages that appear on each node (that are based on the primary and secondary metrics) can occur across any number of sessions, as long as the sessions belong to the same person. In other words, one person can be represented only one time in a single journey.<p>This container uses the People metric.</p></li></ul> |
+   | [!UICONTROL **Journey canvas container**] | Select the container that you want to focus on throughout the journey. The container that you choose determines the scope of the data captured in the journey. This affects the statistics that are displayed in the visualization. (If your container names differ from the default names shown below, they were customized in your report suite.)<ul><li>**Session:** Constrains the statistics of the visualization to fall within a single defined session for a given person. This means that the numbers and percentages that appear on each node (that are based on the primary and secondary metrics) must occur within a single session for each person. In other words, one person can be represented multiple times in a single journey.<p>This container uses the Sessions metric.</p></li><li>**Person:** (Default) Allows the statistics of the visualization to span multiple sessions for a given person. This means that the numbers and percentages that appear on each node (that are based on the primary and secondary metrics) can occur across any number of sessions, as long as the sessions belong to the same person. In other words, one person can be represented only one time in a single journey.<p>This container uses the People metric.</p></li></ul> |
 
 1. Select [!UICONTROL **Build**].
 
@@ -80,8 +80,8 @@ To configure settings for the Journey canvas visualization:
 
    | Setting | Function |
    |---------|----------|
-   | [!UICONTROL **Percentage value**] | The percentage value shown on each node in the journey.<p>![percentage value](assets/journey-canvas-percentage.png)</p> <p>Consider the following when configuring the percentage values shown on nodes in the journey:</p><ul><li>A percentage is shown on each node for the primary metric. A percentage is also shown for the secondary metric if one is configured. (For more information about the primary and secondary metric settings, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li><li>Percentages include all people or sessions that are included in the data view within the panel's date range. Whether _people_ or _sessions_ is used depends on the container setting. (For more information about the container setting, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choose from the following options:</p> <ul><li>[!UICONTROL **Percent of start node**]: Calculates the percentages shown on each node in relation to the start node. Percentages are based on the primary and secondary metric that you selected. <p>A _start node_ is a node that has no connected nodes preceding it.</p><p>A journey can contain multiple start nodes. However, [!UICONTROL **Percent of total**] is used if the journey contains 2 or more start nodes that lead to a common node. If you want to use [!UICONTROL **Percent of start node**], update the journey so that each node in the journey can be traced back to a single start node.</p></li><li>[!UICONTROL **Percent of previous node**]: Calculates the percentages shown on each node in relation to the previous node. Percentages are based on the primary and secondary metric that you selected.</li><li>[!UICONTROL **Percent of total**]: Calculates the percentages shown on each node in relation to all data in the data view. Percentages are based on the primary and secondary metric that you selected.</li></ul> |
-   | [!UICONTROL **Arrow settings**] | The arrows that appear between nodes in Journey canvas can be configured to show custom labels and values. <p>![arrow settings](assets/journey-canvas-arrow-settings.png)</p><p>_Labels_ are custom names that appear on arrows. Only a single label is shown on a given arrow. Labels can be any of the following, and are shown in this order of preference:</p><ol><li>A custom name added from Journey canvas (as described in [Add or update a label on an arrow](#add-or-update-a-label-on-an-arrow))</li><li>A Journey Optimizer label</li><li>A Journey Optimizer condition</li></ol><p>_Values_ are the numbers and percentages that appear on arrows, and they indicate the people or sessions who moved from one node to the next node in the journey. (In other words, those who did not fall out of the journey at a given step.) </p><p>The following options are available for journeys that did not originate from Journey Optimizer and for Journey Optimizer journeys that have not been significantly modified in Journey canvas: (Significant modifications include adding or removing nodes, adding or removing arrows, or changing the components of a node.)</p><ul><li>[!UICONTROL **No labels**]: No labels are shown on arrows in the journey. </br> This option is available only if the journey has been modified in </li><li>[!UICONTROL **Labels only**]: Labels are shown on arrows in the journey.</li></ul><p>The following options are available for Journey Optimizer journeys that have been significantly modified in Journey canvas: (Significant modifications include adding or removing nodes, adding or removing arrows, or changing the components of a node.)(**Note**: These options display only when Journey Optimizer data is detected in the same data view that is selected in the Analysis Workspace panel where you are adding the visualization. For information about changing the data view on a panel in Analysis Workspace, see [Analysis Workspace overview](/help/analysis-workspace/home.md).)</p><ul><li>[!UICONTROL **No labels or values**]: No labels or values are shown on arrows in the journey.</li><li>[!UICONTROL **Labels only**]: Only labels are shown on arrows in the journey. Values are not shown.</li><li>[!UICONTROL **Values only**]: Only values are shown on arrows in the journey. Labels are not shown.</li><li>[!UICONTROL **Values and labels**]: Both labels and values are shown on arrows in the journey.</li></ul>  |
+   | [!UICONTROL **Percentage value**] | The percentage value shown on each node in the journey.<p>![percentage value](assets/journey-canvas-percentage.png)</p> <p>Consider the following when configuring the percentage values shown on nodes in the journey:</p><ul><li>A percentage is shown on each node for the primary metric. A percentage is also shown for the secondary metric if one is configured. (For more information about the primary and secondary metric settings, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li><li>Percentages include all people or sessions that are included in the report suite within the panel's date range. Whether _people_ or _sessions_ is used depends on the container setting. (For more information about the container setting, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choose from the following options:</p> <ul><li>[!UICONTROL **Percent of start node**]: Calculates the percentages shown on each node in relation to the start node. Percentages are based on the primary and secondary metric that you selected. <p>A _start node_ is a node that has no connected nodes preceding it.</p><p>A journey can contain multiple start nodes. However, [!UICONTROL **Percent of total**] is used if the journey contains 2 or more start nodes that lead to a common node. If you want to use [!UICONTROL **Percent of start node**], update the journey so that each node in the journey can be traced back to a single start node.</p></li><li>[!UICONTROL **Percent of previous node**]: Calculates the percentages shown on each node in relation to the previous node. Percentages are based on the primary and secondary metric that you selected.</li><li>[!UICONTROL **Percent of total**]: Calculates the percentages shown on each node in relation to all data in the report suite. Percentages are based on the primary and secondary metric that you selected.</li></ul> |
+   | [!UICONTROL **Arrow settings**] | The arrows that appear between nodes in Journey canvas can be configured to show custom labels and values. <p>![arrow settings](assets/journey-canvas-arrow-settings.png)</p><p>_Labels_ are custom names you can add within Journey canvas, as described in [Add or update a label on an arrow](#add-or-update-a-label-on-an-arrow).</li></ol><p>_Values_ are the numbers and percentages that appear on arrows, and they indicate the people or sessions who moved from one node to the next node in the journey. (In other words, those who did not fall out of the journey at a given step.) </p><p>The following options are available:</p><ul><li>[!UICONTROL **No labels**]: No labels are shown on arrows in the journey. </br> This option is available only if the journey has been modified in </li><li>[!UICONTROL **Labels only**]: Labels are shown on arrows in the journey.</li></ul>  |
    | [!UICONTROL **Show fallout**] | Fallout data shows a percentage and number falling out of each node of the journey. Fallout data is based on the metric associated with the journey's container settings; it is not based on the primary or secondary metric. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>By default, the container is _Person_, so the metric used for fallout data is _People_. If the container is changed to _Session_, the metric used for fallout data is _Sessions_, and so on.</p><p>For example, with _Person_ as the container setting, fallout shows the percentage and number of people on each node of the journey who never arrived at any of the immediate next nodes. They might have performed other actions on the site, but they did not meet the criteria defined by any of the nodes that immediately follow.</p> <p>For more information about the Journey canvas container setting, see [Begin building a Journey canvas visualization](#begin-building-a-journey-canvas-visualization). |
    | **Zoom controls** | The following zoom controls are available in the upper-right corner of the canvas:<ul><li>**Zoom in** ![zoom in icon](assets/zoom-in-icon.png): Enlarges specific areas of the visualization.<p>You can also use mouse controls, such as pinching on a trackpad.</li><li>**Zoom out** ![zoom out icon](assets/zoom-out-icon.png): Shrinks the visualization to allow more room on the canvas.<p>You can also use mouse controls, such as pinching on a trackpad.</p></li><li>**Fit screen** ![fit screen icon](assets/fill-screen-icon.png): Adjusts current zoom and pan settings to fill the screen with the full visualization.</li></ul><p>To pan across the canvas after zooming in or out, click your mouse and drag to the desired location.</p> |
 
@@ -97,7 +97,7 @@ You create nodes in the following ways: by dragging Workspace components from th
 
 1. In Analysis Workspace, open an existing Journey canvas visualization, or [begin building a new one](#begin-building-a-journey-canvas-visualization).
 
-1. Drag metrics, dimensions, dimension items, segments, or date ranges from the left rail onto the canvas. Metrics that are based on a [derived field](/help/data-views/derived-fields/derived-fields.md) are supported. However, calculated metrics, as well as any metrics or dimensions that are based on a [summary dataset](/help/data-views/summary-data.md) are not supported.
+1. Drag metrics, dimensions, dimension items, segments, or date ranges from the left rail onto the canvas. However, calculated metrics are not supported.
      
    You can select multiple components in the left rail by holding Shift, or by holding Command (on Mac) or Ctrl (on Windows).
 
@@ -480,37 +480,7 @@ To remove a breakdown that has been applied:
 
 1. Select **[!UICONTROL Remove breakdown]**.
 
-### Create an audience
 
-The option to create an audience is available for the following objects on the canvas:
-
-* Individual nodes
-
-* Multiple nodes
-
-* The arrow between nodes
-
-* Multiple arrows between nodes 
-
-When you create an audience from multiple nodes or arrows, they are joined with the OR operator.
-
-To create an audience:
-
-1. In a Journey canvas visualization, select one or more nodes where you want to create an audience, then right-click one of the selected nodes.
-
-   Or
-
-   In a Journey canvas visualization, select one or more arrows between 2 nodes where you want to create an audience, then right-click one of the selected arrows.
-
-   To select multiple nodes or arrows, hold Command (on Mac) or Ctrl (on Windows).
-
-   >[!NOTE]
-   >
-   >Audiences cannot include calculated metrics or any metrics that are based on a [summary dataset](/help/data-views/summary-data.md). If you try to create an audience from any area of Journey canvas that contains a calculated metric or a metric that is based on a summary dataset, the calculated metric will not be included in the audience definition.
-
-1. Select [!UICONTROL **Create audience from node**] or [!UICONTROL **Create audience from arrow**].
-
-1. Continue creating and publishing the audience as described in [Create and publish audiences](/help/components/audiences/publish.md).
 
 ### View trend data
 
@@ -554,7 +524,7 @@ To create a segment:
 
    The Segment builder displays. In the [!UICONTROL **Definition**] section, the segment definition is created based on the node or arrow you selected and its context within the journey. 
 
-1. Specify a title for the segment and make any other changes. For more information about creating a segment, see [Segment builder](/help/components/segments/seg-builder.md).
+1. Specify a title for the segment and make any other changes. For more information about creating a segment, see [Segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 1. Select [!UICONTROL **Save**] to save the segment.
 

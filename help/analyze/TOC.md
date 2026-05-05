@@ -97,6 +97,10 @@ index: true
       + [Overview](analysis-workspace/visualizations/c-flow/flow.md)
       + [Configure](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+    + Journey canvas {#journey-canvas}
+      + {hide-from-toc} [Overview](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+      + {hide-from-toc} [Configure](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+      + {hide-from-toc} [Troubleshoot](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
     + [Area (stacked)](analysis-workspace/visualizations/area.md)
     + [Bar (stacked)](analysis-workspace/visualizations/bar.md)
     + [Bullet](analysis-workspace/visualizations/bullet-graph.md)

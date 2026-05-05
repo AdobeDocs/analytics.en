@@ -14,7 +14,7 @@ The 'Download link' [dimension](overview.md) reports the names of download links
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_d`. If the `pe` query string has a different value in the hit, this dimension does not collect data. The maximum length of this dimension is 100 bytes.
+This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_d`. If `pev2` is not provided, the link URL is used as the dimension value instead. Hits where `pe` equals `lnk_e` or `lnk_o` populate the [Exit link](exit-link.md) or [Custom link](custom-link.md) dimensions instead. When a link name is explicitly provided, the maximum length is 100 bytes; values derived from the link URL are not subject to this limit.
 
 If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"d"`. Populate the link name argument with the desired value:
 

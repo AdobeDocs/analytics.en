@@ -2,9 +2,16 @@
 description: Learn how to use the Journey canvas visualization in Analysis Workspace to analyze user journeys, fallout, and multi-path conversions.
 title: Journey Canvas Troubleshooting
 feature: Visualizations
+hide: true
 role: User, Admin
 ---
 # Journey canvas troubleshooting
+
+>[!BEGINSHADEBOX]
+
+_This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_See [Journey canvas overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+
+>[!ENDSHADEBOX]
 
 The Journey canvas visualization allows you to analyze and gain deep insights on the journeys that you provide to your users and customers. 
 

@@ -2,6 +2,7 @@
 description: Understand how to configure a journey canvas visualization.
 title: Configure A Journey Canvas Visualization
 feature: Visualizations
+hide: true
 role: User, Admin
 ---
 # Configure a Journey canvas visualization {#configure-journey-canvas}

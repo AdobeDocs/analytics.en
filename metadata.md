@@ -2,6 +2,9 @@
 cloud: Experience Cloud
 product: analytics 
 solution: Analytics
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    label: "Analytics"
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.en

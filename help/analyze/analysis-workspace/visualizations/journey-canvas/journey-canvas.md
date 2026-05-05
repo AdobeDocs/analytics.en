@@ -51,9 +51,9 @@ _This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/
 
 The Journey canvas visualization allows you to analyze and gain deep insights on the journeys that you provide to your users and customers. It allows you to define a journey, then see how people left (fell out) or continued through (fell through) the journey. 
 
-You can [build analyses of user journeys](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) by using any combination of events, dimension items, segments, and date ranges to create journey nodes. Connect the nodes to create the journey's flow, and include multiple paths and decision points. Drag nodes on the canvas to rearrange the events and conditions of the journey. Data updates in real time as you make changes. 
+You can [build analyses of user journeys](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) by using any combination of events, dimension items, segments, and date ranges to create journey nodes. Connect the nodes to create the journey's flow, and include multiple paths and decision points. Drag nodes on the canvas to rearrange the events and conditions of the journey. Data updates in real time as you make changes. 
 
-[Nodes are connected](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) as an "eventual path," which means that visitors are counted as long as they eventually move from one node to the other, regardless of any events occurring between the two nodes. The time allotted for users to move along the path is determined by the container setting. 
+[Nodes are connected](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) as an "eventual path," which means that visitors are counted as long as they eventually move from one node to the other, regardless of any events occurring between the two nodes. The time allotted for users to move along the path is determined by the container setting. 
 
 ![Journey canvas](assets/journey-canvas.png)
 
@@ -122,7 +122,7 @@ Following are a few examples of other insights Journey canvas can help provide. 
 
 ## Choose between Journey canvas, Fallout, or Flow visualizations
 
-The Journey canvas visualization has similarities with the [Fallout visualization](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) and the [Flow visualization](/help/analysis-workspace/visualizations/c-flow/flow.md), but with important differences. 
+The Journey canvas visualization has similarities with the [Fallout visualization](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) and the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), but with important differences. 
 
 ### Understand the differences
 
@@ -146,7 +146,7 @@ Use [the table above](#understand-the-differences) to understand the differences
 
 ## Build analyses in Journey canvas
 
-You can build analyses in Journey canvas that are based on any dimensions or metrics that are available in Analysis Workspace. For more information, see [Configure a Journey canvas visualization](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+You can build analyses in Journey canvas that are based on any dimensions or metrics that are available in Analysis Workspace. For more information, see [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 
 >[!MORELIKETHIS]

@@ -19,7 +19,7 @@ The Journey canvas visualization allows you to analyze and gain deep insights on
 
 ## Journey canvas overview
 
-See [Journey canvas overview](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) to learn more about Journey canvas, including:
+See [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) to learn more about Journey canvas, including:
 
 * Key features 
 
@@ -35,7 +35,7 @@ See [Journey canvas overview](/help/analysis-workspace/visualizations/journey-ca
 
    Or
 
-   Add a Journey canvas visualization in any of the ways described in the [Add visualizations to a panel](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) section in [Visualizations overview](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+   Add a Journey canvas visualization in any of the ways described in the [Add visualizations to a panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) section in [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
    ![Journey canvas configuration](assets/journey-canvas-configure.png)
 
@@ -294,7 +294,7 @@ Nodes are connected by an arrow. Both the arrow direction and width have signifi
 
 #### Logic when connecting nodes
 
-When you connect nodes in Journey canvas, they are connected using the THEN operator. This is also known as [sequential segmenting](/help/components/segments/seg-sequential-build.md). 
+When you connect nodes in Journey canvas, they are connected using the THEN operator. This is also known as [sequential segmenting](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). 
 
 Nodes are connected as an "eventual path," which means that visitors are counted as long as they eventually move from one node to the other, regardless of any events occurring between the 2 nodes. The time allotted for users to move along the path is determined by the container setting. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
@@ -513,7 +513,7 @@ To view trend data:
 
 You can create a new segment based on a node or arrow within a journey. After the segment is created, you can use it anywhere in Analysis Workspace. 
 
-Segments created from Journey canvas use [sequential segmenting](/help/components/segments/seg-sequential-build.md). This means that the segment uses the THEN operator to link together the sequence of events (the journey) that people flowed through, leading up to the selected node or arrow. All events that match the selected node or arrow are included in the segment.
+Segments created from Journey canvas use [sequential segmenting](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). This means that the segment uses the THEN operator to link together the sequence of events (the journey) that people flowed through, leading up to the selected node or arrow. All events that match the selected node or arrow are included in the segment.
 
 If you create a segment based on a node that has multiple paths flowing into it, all paths are included in the segment. Separate paths are joined with the OR operator.
 

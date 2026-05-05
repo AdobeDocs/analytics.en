@@ -10,7 +10,7 @@ The 'Custom link' [dimension](overview.md) reports the names of custom links imp
 
 ## Populate this dimension with data
 
-This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If `pev2` is not provided, the link URL is used as the dimension value instead. Hits where `pe` equals `lnk_e` or `lnk_d` populate the [Exit link](exit-link.md) or [Download link](download-link.md) dimensions instead. When a link name is explicitly provided, the maximum length is 100 bytes; values derived from the link URL are not subject to this limit.
+This dimension collects data from the [`pev2` query string](/help/implement/validate/query-parameters.md) in image requests for hits that also have the `pe` query string with the value of `lnk_o`. If `pev2` is not provided, the link URL (`pev1`) is used as the dimension value instead. Hits where `pe` equals `lnk_e` or `lnk_d` populate the [Exit link](exit-link.md) or [Download link](download-link.md) dimensions instead. When a link name is explicitly provided, the maximum length is 100 bytes; values derived from the link URL are not subject to this limit.
 
 If you want to send data to this dimension using AppMeasurement, send a [`tl()`](/help/implement/vars/functions/tl-method.md) image request with a link type argument of `"o"`. Populate the link name argument with the desired value.
 

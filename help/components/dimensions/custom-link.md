@@ -6,7 +6,7 @@ exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 ---
 # Custom link
 
-The 'Custom link' [dimension](overview.md) reports the names of custom links implemented on your site. Custom links are a flexible tracking mechanism for any interaction that is not a file download or outbound navigation. Common examples include button clicks, internal navigation, form interactions, and video events. This dimension is valuable when you want to understand which of these interactions visitors engage with most.
+The 'Custom link' [dimension](overview.md) reports the names of custom links implemented on your site. Custom links are a flexible tracking mechanism for any interaction that is not a file download or outbound navigation. Common examples include button clicks, internal navigation, or form interactions. This dimension is valuable when you want to understand which of these interactions visitors engage with most.
 
 ## Populate this dimension with data
 

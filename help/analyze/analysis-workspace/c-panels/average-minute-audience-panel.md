@@ -9,6 +9,7 @@ exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_mediaminuteaverageaudience_button"
 >title="Media average minute audience"
@@ -17,6 +18,7 @@ exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"

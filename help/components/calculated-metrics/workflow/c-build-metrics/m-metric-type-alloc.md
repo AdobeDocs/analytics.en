@@ -40,85 +40,102 @@ See [Example](#example) for an example of using an attribution model, container,
 
 ## Attribution models {#attribution-models}
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Use non-default attribution model"
 >abstract="Enable a non-default attribution model for the selected metric."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Model"
 >abstract="Select an attribution model for the metric."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Last Touch"
 >abstract="100% of credit goes to the last dimension value seen by a visitor."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="First Touch"
 >abstract="100% of credit goes to the first dimension value seen by a visitor."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Linear"
 >abstract="Credit is spread evenly across all dimension values."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Participation"
 >abstract="100% credit to every dimension value seen by a visitor.<br/>Column totals are overstated."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Same Touch"
 >abstract="Credit is given only to dimension values occurring on the same event as conversion."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_instance"
 >title="Same Touch"
 >abstract="Credit is given only to dimension values occurring on the same event as conversion."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U Shaped"
 >abstract="40% credit to the first dimension value, 40% to the last, 20% shared by the middle."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J Curve"
 >abstract="60% credit to the last dimension value, 20% to the first, 20% shared by the middle."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jshaped"
 >title="J Curve"
 >abstract="60% credit to the last dimension value, 20% to the first, 20% shared by the middle."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="Inverse J"
 >abstract="60% credit to the first dimension value, 20% to the last, 20% shared by the middle."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_reversejshaped"
 >title="Inverse J"
 >abstract="60% credit to the first dimension value, 20% to the last, 20% shared by the middle."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Time Decay"
 >abstract="Dimension values closest in time to a conversion get the most credit."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Custom"
 >abstract="Define your own position based attribution weighting."
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_positionbased"
 >title="Custom"
 >abstract="Define your own position based attribution weighting."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
@@ -130,6 +147,7 @@ See [Example](#example) for an example of using an attribution model, container,
 
 ## Container {#container}
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Container"
@@ -139,6 +157,7 @@ See [Example](#example) for an example of using an attribution model, container,
 
 
 ## Lookback window {#lookback-winwow}
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"

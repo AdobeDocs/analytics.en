@@ -8,6 +8,7 @@ exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 ---
 # Text {#text-visualization}
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_text_button"
 >title="Text"

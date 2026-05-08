@@ -36,10 +36,12 @@ The **[!UICONTROL Account ID]** and **[!UICONTROL Manager account ID]** are both
 
 ![Microsoft Advertising navigation](assets/bing-id.png)
 
+
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="Account ID"
 >abstract="The 'Account ID' is a numeric value located in the Microsoft Advertising interface. You can locate it by navigating to Settings > Account settings > Account ID."
+
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"

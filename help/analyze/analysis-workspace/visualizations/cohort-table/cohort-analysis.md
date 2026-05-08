@@ -10,6 +10,7 @@ exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_button"
 >title="Cohort table"
@@ -18,6 +19,7 @@ exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"

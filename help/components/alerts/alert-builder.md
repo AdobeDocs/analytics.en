@@ -8,6 +8,7 @@ exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="components_alerts_timegranularity"
 >title="Time granularity"

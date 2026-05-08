@@ -9,6 +9,7 @@ exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_quickinsights_button"
 >title="Quick insights"

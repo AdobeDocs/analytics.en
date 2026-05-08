@@ -30,6 +30,7 @@ An alternative scenario is that you have two metrics of interest and one has a h
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="And"
@@ -49,6 +50,7 @@ Conjunction. Not equal to zero is considered to be true and equals zero is consi
 ## Approximate Count Distinct {#approximate_count_distinct}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-count-distinct-metric"
@@ -77,6 +79,7 @@ A common use case for this function is when you want to get an approximate numbe
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-acos"
 >title="Arc Cosine"
@@ -99,6 +102,7 @@ A common use case for this function is when you want to get an approximate numbe
 ## Arc Sine {#arc-sine}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-asin"
@@ -123,6 +127,7 @@ A common use case for this function is when you want to get an approximate numbe
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-atan"
 >title="Arc Tangent"
@@ -145,6 +150,7 @@ A common use case for this function is when you want to get an approximate numbe
 ## Cdf-T {#cdf-t}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
@@ -177,6 +183,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-cdf-z"
 >title="Cdf-Z"
@@ -206,6 +213,7 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="Ceiling"
@@ -226,6 +234,7 @@ CDF-Z(-3) ? 0.0013499
 Only available in CJA 
 
 ## Confidence {#confidence}
+
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
@@ -251,6 +260,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lower-individual-confidence-sequence"
 >title="Confidence (Lower)"
@@ -274,6 +284,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ## Confidence (Upper) {#confidence-upper}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-upper-individual-confidence-sequence"
@@ -300,6 +311,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="Cosine"
@@ -319,6 +331,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ## Cube Root {#cube-root}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-cube-root"
@@ -342,6 +355,7 @@ Returns the positive cube root of a number. The cube root of a number is the val
 ## Cumulative {#cumulative}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
@@ -372,6 +386,7 @@ Returns the sum of the last n elements of column x. If n > 0, sum the last n ele
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="Cumulative (Average)"
@@ -396,6 +411,7 @@ Returns the average of the last n elements of column x. If n > 0, sum the last n
 ## Equal {#equal}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-eq"
@@ -423,6 +439,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="Exponential Regression: Correlation coefficient"
@@ -445,6 +462,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 ## Exponential Regression: Predicted Y {#exponential-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
@@ -470,6 +488,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Exponential Regression: Intercept"
@@ -492,6 +511,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 ## Exponential Regression: Slope {#exponential-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
@@ -517,6 +537,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="Floor"
@@ -536,6 +557,7 @@ Equal. The output is either a 0 (false) or 1 (true).
 ## Greater Than {#greather-than}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-gt"
@@ -561,6 +583,7 @@ The output is either a 0 (false) or 1 (true).
 ## Greater Than or Equal {#greater-than-or-equal}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ge"
@@ -588,6 +611,7 @@ Greater than or equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-cosh"
 >title="Hyperbolic Cosine"
@@ -611,6 +635,7 @@ Greater than or equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-sinh"
 >title="Hyperbolic Sine"
@@ -631,6 +656,7 @@ Greater than or equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-tanh"
 >title="Hyperbolic Tangent"
@@ -650,6 +676,7 @@ Greater than or equal. The output is either a 0 (false) or 1 (true).
 ## If {#if}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-if"
@@ -675,6 +702,7 @@ Greater than or equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-lt"
 >title="Less Than"
@@ -699,6 +727,7 @@ The output is either a 0 (false) or 1 (true).
 ## Less Than or Equal {#less-than-or-equal}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-le"
@@ -727,6 +756,7 @@ Only available in CJA
 ## Lift (#lift)
 
 
+
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
 >title="Lift"
@@ -744,6 +774,7 @@ Only available in CJA
 ## Linear Regression: Correlation coefficient {#linear-regression-correlation-coefficient}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
@@ -770,6 +801,7 @@ Only available in CJA
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-linear"
 >title="Linear Regression: Intercept"
@@ -794,6 +826,7 @@ Only available in CJA
 ## Linear Regression: Predicted Y {#linear-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
@@ -820,6 +853,7 @@ Only available in CJA
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="Linear Regression: Slope"
@@ -841,6 +875,7 @@ Only available in CJA
 ## Log Base 10 {#log-base-ten}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-log10"
@@ -864,6 +899,7 @@ Only available in CJA
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Log Regression: Correlation coefficient"
@@ -885,6 +921,7 @@ Only available in CJA
 ## Log Regression: Intercept {#log-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
@@ -909,6 +946,7 @@ Only available in CJA
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
 >title="Log Regression: Predicted Y"
@@ -931,6 +969,7 @@ Only available in CJA
 ## Log Regression: Slope {#log-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
@@ -955,6 +994,7 @@ Only available in CJA
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-log"
 >title="Natural Log"
@@ -976,6 +1016,7 @@ Returns the natural logarithm of a number. Natural logarithms are based on the c
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="Not"
@@ -996,6 +1037,7 @@ Negation as a boolean. The output is either 0 (false) or 1 (true).
 ## Not Equal {#not-equal}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ne"
@@ -1024,6 +1066,7 @@ Not Equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="Or"
@@ -1051,6 +1094,7 @@ Not Equal. The output is either a 0 (false) or 1 (true).
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-pi"
 >title="Pi"
@@ -1066,6 +1110,7 @@ Returns Pi: 3.14159...
 ## Power Regression: Correlation coefficient {#power-regression-correlation-coefficient}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-power"
@@ -1089,6 +1134,7 @@ Returns Pi: 3.14159...
 ## Power Regression: Intercept {#power-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-power"
@@ -1114,6 +1160,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-power"
 >title="Power Regression: Predicted Y"
@@ -1136,6 +1183,7 @@ Returns Pi: 3.14159...
 ## Power Regression: Slope {#power-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-power"
@@ -1160,6 +1208,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-quadratic"
 >title="Quadratic Regression: Correlation coefficient"
@@ -1180,6 +1229,7 @@ Returns Pi: 3.14159...
 ## Quadratic Regression: Intercept {#quadratic-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-quadratic"
@@ -1203,6 +1253,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-quadratic"
 >title="Quadratic Regression: Predicted Y"
@@ -1224,6 +1275,7 @@ Returns Pi: 3.14159...
 ## Quadratic Regression: Slope {#quadratic-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-quadratic"
@@ -1248,6 +1300,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-reciprocal"
 >title="Reciprocal Regression: Correlation coefficient"
@@ -1269,6 +1322,7 @@ Returns Pi: 3.14159...
 ## Reciprocal Regression: Intercept {#reciprocal-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-reciprocal"
@@ -1292,6 +1346,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-reciprocal"
 >title="Reciprocal Regression: Predicted Y"
@@ -1313,6 +1368,7 @@ Returns Pi: 3.14159...
 ## Reciprocal Regression: Slope {#reciprocal-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-reciprocal"
@@ -1338,6 +1394,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="Sine"
@@ -1362,6 +1419,7 @@ Returns Pi: 3.14159...
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-t-score"
 >title="T-Score"
@@ -1382,6 +1440,7 @@ The deviation from the [MEAN](cm-functions.md#mean), divided by the standard dev
 ## T-Test {#t-test}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-t-test"
@@ -1430,6 +1489,7 @@ The return value is the probability of seeing the test statistic x given the deg
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="Tangent"
@@ -1450,6 +1510,7 @@ Returns the tangent of the given angle. If the angle is in degrees, multiply the
 ## Z-Score {#z-score}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-z-score"
@@ -1484,6 +1545,7 @@ Where ***[!DNL x]*** is the raw score, ***[!DNL μ]*** is the mean of the popula
 ## Z-Test {#z-test}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="functions-z-test"

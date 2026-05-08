@@ -20,6 +20,7 @@ The bar visualization has a standard and stacked option.
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_bar_button"
 >title="Bar"
@@ -37,6 +38,7 @@ A granularity drop-down in the visualization settings lets you change a trended 
 ## Bar stacked {#bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_barstacked_button"

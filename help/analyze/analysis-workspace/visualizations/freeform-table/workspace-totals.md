@@ -7,6 +7,7 @@ exl-id: 883c3e44-4139-46a1-a261-e11841312465
 ---
 # Totals {#workspace-totals}
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
 >title="Grand Total"

@@ -12,6 +12,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Map"
@@ -21,6 +22,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Bubbles"
@@ -29,6 +31,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"

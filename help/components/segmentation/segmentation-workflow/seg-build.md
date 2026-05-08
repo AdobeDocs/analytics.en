@@ -6,15 +6,18 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 ---
 # Build segments {#build-segments}
 
+
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Product Compatibility"
 >abstract="A small number of available segment criteria are not compatible with all Adobe Analytics tools. Tools that are compatible with the segment are indicated in this list. To make a segment compatible with all Adobe Analytics tools, edit your criteria."
 
+
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Create Audience"
 >abstract="Audiences can be created from a segment and shared with the Adobe Experience Platform for activation."
+
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
@@ -144,16 +147,19 @@ Or, you could define 55 segments: 50 segments for the US states, and 5 for the p
 
 ## Attribution {#attribution}
 
+
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="Repeating"
 >abstract="Includes instances and persisted values for the dimension."
 
 
+
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instance"
 >abstract="Includes instances for the dimension."
+
 
 
 >[!CONTEXTUALHELP]

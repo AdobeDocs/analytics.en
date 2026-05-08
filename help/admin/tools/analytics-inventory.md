@@ -9,6 +9,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Analytics inventory"
@@ -59,6 +60,7 @@ Analytics Inventory is available to users with Adobe Analytics Product Admin pri
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-components"
 >title="Components"
@@ -71,6 +73,7 @@ In this initial release, you can see summary inventory numbers for Workspace pro
 ## Data configuration and collection {#data-config}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
@@ -174,6 +177,7 @@ This screen provides a detailed view of all the metrics defined for a specific r
 ## User management {#user-management}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-user-management"

@@ -20,6 +20,7 @@ The area visualization has a standard and stacked option.
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_area_button"
 >title="Area graph"
@@ -35,6 +36,7 @@ The ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** visuali
 ## Area stacked {#area-stacked}
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_areastacked_button"

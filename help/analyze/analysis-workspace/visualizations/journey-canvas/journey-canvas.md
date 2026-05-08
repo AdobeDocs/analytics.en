@@ -9,6 +9,7 @@ role: User, Admin
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_button"
 >title="Journey canvas"
@@ -17,6 +18,7 @@ role: User, Admin
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="cja_journeycanvas_panel"
@@ -27,6 +29,7 @@ role: User, Admin
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Journey canvas"
@@ -35,6 +38,7 @@ role: User, Admin
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
+
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"

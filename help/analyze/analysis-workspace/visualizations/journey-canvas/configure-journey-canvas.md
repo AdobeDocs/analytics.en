@@ -62,7 +62,6 @@ See [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/jo
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_percentage_value"
 >title="Choose how percentages are calculated"

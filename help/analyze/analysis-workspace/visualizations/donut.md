@@ -9,7 +9,6 @@ exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_donut_button"
 >title="Donut"

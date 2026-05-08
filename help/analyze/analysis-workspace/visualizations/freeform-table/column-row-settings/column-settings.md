@@ -60,7 +60,6 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel"
 >title="Use non-default attribution model"
@@ -69,7 +68,6 @@ Conditional formatting applies formatting to upper, midpoint, and lower limits t
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"

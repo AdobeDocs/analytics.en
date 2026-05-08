@@ -9,7 +9,6 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="Page summary"
@@ -18,7 +17,6 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"

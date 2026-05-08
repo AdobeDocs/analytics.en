@@ -12,7 +12,6 @@ You can view the job history for each data feed, resend jobs, or reprocess jobs.
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="Data feed job history"

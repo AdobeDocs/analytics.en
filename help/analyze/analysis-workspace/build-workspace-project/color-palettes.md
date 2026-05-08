@@ -9,7 +9,6 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"
 >title="Project color palette"
@@ -41,7 +40,6 @@ Keep in mind:
 
 <!--
 # Visualization Color Palettes {#visualization-color-palettes}
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_colorpalette"

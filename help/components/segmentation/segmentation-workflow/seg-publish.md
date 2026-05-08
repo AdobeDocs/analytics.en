@@ -6,12 +6,10 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 ---
 # Publish segments {#publish-segments}
 
-
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
 >title="Experience Cloud publishing"
 >abstract="You can publish the audience to the Audience Library where the audience can be used for marketing activities in Target and other Experience Cloud solutions."
-
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"

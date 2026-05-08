@@ -16,7 +16,6 @@ Dynamic lookups allow you to receive additional lookup files in your data feed o
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Enable dynamic lookups"

@@ -10,7 +10,6 @@ exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_line_button"
 >title="Line"

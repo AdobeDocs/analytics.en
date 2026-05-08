@@ -28,12 +28,10 @@ To define the annotation, you use the [[!UICONTROL Annotation builder]](#annotat
 
 ## Annotation builder {#annotation-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Annotation details"
 >abstract="Annotations enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics."
-
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"

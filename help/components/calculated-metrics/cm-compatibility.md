@@ -6,6 +6,7 @@ exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 ---
 # Metric compatibility {#metrics-compatibility}
 
+
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="Product Compatibility"

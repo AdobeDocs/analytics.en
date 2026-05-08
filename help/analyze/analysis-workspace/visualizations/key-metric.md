@@ -7,6 +7,7 @@ exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 ---
 # Key metric summary {#key-metric-summary}
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="Key metric summary"

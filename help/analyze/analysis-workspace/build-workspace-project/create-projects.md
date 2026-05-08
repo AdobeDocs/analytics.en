@@ -41,15 +41,18 @@ Now that you have created a Blank Workspace project, ensure you are familiar wit
 
 ## Project Info & Settings {#project-info-settings}
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Count repeat instances"
 >abstract="Specifies whether repeat instances are counted in reports.<br/><br/>Note: this setting does not apply to Flow or Fallout visualizations."
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Count repeat instances"
 >abstract="Specifies whether repeat instances are counted in reports.<br/>Note: this setting does not apply to Flow or Fallout visualizations."
+
 
 
 >[!CONTEXTUALHELP]

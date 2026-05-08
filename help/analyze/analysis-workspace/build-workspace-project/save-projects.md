@@ -10,6 +10,7 @@ exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"
 >title="Add notes"
@@ -177,6 +178,7 @@ To open a previously saved version of a project:
 
 <!--
 # Save projects {#save-projects}
+
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"

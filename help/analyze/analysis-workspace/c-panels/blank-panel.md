@@ -9,6 +9,7 @@ exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
 
 <!-- markdownlint-disable MD034 -->
 
+
 >[!CONTEXTUALHELP]
 >id="workspace_blankpanel_button"
 >title="Blank panel"

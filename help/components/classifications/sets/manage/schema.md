@@ -145,11 +145,13 @@ In the **[!UICONTROL Download template for _classification set name_]** dialog:
 ### Automate {#automate}
 
 
+
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_locationaccount"
 >title="Location account"
 >abstract="List of location accounts of account types that support the import of classification data. Select **[!UICONTROL New account]** to create a new location account."
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configure cloud import and export accounts"
+
 
 
 >[!CONTEXTUALHELP]

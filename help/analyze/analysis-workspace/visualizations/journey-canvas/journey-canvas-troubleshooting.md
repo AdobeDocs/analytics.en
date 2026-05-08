@@ -13,6 +13,8 @@ _This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/
 
 >[!ENDSHADEBOX]
 
+{{release-limited-testing}}
+
 The Journey canvas visualization allows you to analyze and gain deep insights on the journeys that you provide to your users and customers. 
 
 To learn more about Journey canvas, see [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) and [Configure a Journey canvas visualization](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).

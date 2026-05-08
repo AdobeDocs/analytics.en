@@ -49,6 +49,8 @@ _This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/
 
 >[!ENDSHADEBOX]
 
+{{release-limited-testing}}
+
 The Journey canvas visualization allows you to analyze and gain deep insights on the journeys that you provide to your users and customers. It allows you to define a journey, then see how people left (fell out) or continued through (fell through) the journey. 
 
 You can [build analyses of user journeys](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) by using any combination of events, dimension items, segments, and date ranges to create journey nodes. Connect the nodes to create the journey's flow, and include multiple paths and decision points. Drag nodes on the canvas to rearrange the events and conditions of the journey. Data updates in real time as you make changes. 

@@ -7,12 +7,10 @@ exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 ---
 # Next or previous item panel {#next-or-previous-item-panel}
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="Next or previous item"
 >abstract="Create a panel to understand the previous dimensions people come from or next dimension people go to."
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"

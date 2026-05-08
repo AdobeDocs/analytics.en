@@ -10,7 +10,6 @@ exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="Media concurrent viewers"
@@ -19,7 +18,6 @@ exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"

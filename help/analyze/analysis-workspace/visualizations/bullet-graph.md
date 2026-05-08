@@ -9,7 +9,6 @@ exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_goalvalue"
 >title="Goal value"
@@ -18,7 +17,6 @@ exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_button"

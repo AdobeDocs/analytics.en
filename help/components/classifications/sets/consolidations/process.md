@@ -11,7 +11,6 @@ A classification sets consolidation allows you to take classifications from mult
 ## Create a consolidation {#create-a-consolidation}
 
 
-
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Classification set priority"
@@ -53,12 +52,10 @@ After you have create a consolidation, the next steps are:
 
 ## Edit a consolidation {#edit-a-classification}
 
-
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Mismatch"
 >abstract="The percent of key mismatches when the value in the consolidated classification set does not match the source classification set."
-
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"

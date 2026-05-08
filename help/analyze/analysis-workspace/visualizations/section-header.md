@@ -9,7 +9,6 @@ exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_sectionheader_button"
 >title="Section header"

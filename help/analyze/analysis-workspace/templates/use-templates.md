@@ -107,7 +107,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--unitsOvertimeReport"
 >title="View the total number of units purchased within all orders. Data is shown over a period of time and compared with prior periods."
@@ -119,7 +118,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--training"
 >title="Training Tutorial template"
@@ -128,7 +126,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--pagesRankedReport"
@@ -139,7 +136,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--pageViewsOvertimeReport"
 >title="View the total number of page views. Data is shown over a period of time and compared with prior periods. "
@@ -148,7 +144,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--visitsOvertimeReport"
@@ -159,7 +154,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--visitorsOvertimeReport"
 >title="View the total number of unique visitors. Data is shown over a period of time and compared with prior periods. "
@@ -168,7 +162,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--keyMetricsReport"
@@ -179,7 +172,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--siteSectionRankedReport"
 >title="View the most popular or highest performing sections of your site."
@@ -188,7 +180,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--next-page-report"
@@ -199,7 +190,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--previous-page-report"
 >title="View the most common places people go immediately before visiting a certain page."
@@ -208,7 +198,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--campaignRankedReport"
@@ -219,7 +208,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--productsRankedReport"
 >title="View the number of orders by product. Data is shown over a period of time."
@@ -228,7 +216,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--lastTouchChannelRankedReport"
@@ -239,7 +226,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--lastTouchChannelDetailRankedReport"
 >title="View details about the most recent marketing channels visitors match with during their engagement period (30 days by default)."
@@ -249,7 +235,6 @@ To access all available pre-built templates:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--revenueOvertimeReport"
 >title="View the monetary amount of all products purchased within all orders. Data is shown over a period of time and compared with prior periods."
@@ -258,7 +243,6 @@ To access all available pre-built templates:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--ordersOvertimeReport"
@@ -294,7 +278,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--real-time"
 >title="View the dimensions and metrics that are currently being collected on your site."
@@ -303,7 +286,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timeSpentVisitOvertimeReport"
@@ -314,7 +296,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--timePriorRankedReport"
 >title="View the average time users spend prior to a success event."
@@ -323,7 +304,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--falloutReport"
@@ -334,7 +314,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--cross-device-analysis"
 >title="View which devices people used across all points of the journey."
@@ -343,7 +322,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--web-retention"
@@ -354,7 +332,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--audio-consumption-template"
 >title="View trends and top metrics of media audio consumption across all digital devices."
@@ -363,7 +340,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--media-recency-frequency-loyalty"
@@ -374,7 +350,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--reloadsRankedReport"
 >title="View the number of times a dimension item was present during a reload. A visitor refreshing their browser is the most common way to trigger a reload."
@@ -383,7 +358,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--timeSpentPageRankedReport"
@@ -394,7 +368,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--entryPageOriginalRankedReport"
 >title="View the top pages that people access upon first visiting your site over a visitor's lifetime."
@@ -403,7 +376,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--singlePageVisitsRankedReport"
@@ -414,7 +386,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--sitePerformanceOverview"
 >title="View performance data for your Adobe Experience Manager site."
@@ -424,7 +395,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--formsPerformanceOverview"
 >title="View performance data for your Adobe Experience Manager Forms."
@@ -433,7 +403,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--itp-impact"
@@ -446,7 +415,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template_time_spent"
 >title="View the average time visitors spend on your site during each visit, as well as the average time users spend prior to a success event. Data is shown over a period of time and compared with prior periods."
@@ -455,7 +423,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--web-content-consumption"
@@ -466,7 +433,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--media-content-consumption"
 >title="View which media content is consumed most and is engaging users."
@@ -475,7 +441,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--flowreport"
@@ -486,7 +451,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--page-summary-report"
 >title="View key information about any page across your properties. Shows page views, a trend line, a flow visualization, and more."
@@ -496,7 +460,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--entryPageRankedReport"
 >title="View the top pages that people access upon first visiting your site."
@@ -505,7 +468,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
@@ -552,7 +514,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--categoryRankedReport"
 >title="View the number of visits associated with each product category on your site. This is useful for implementations that use the products variable and want to see metrics about product category. The dimension that populates this template can intentionally be blank if you don't have any products on your site."
@@ -561,7 +522,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--commerce-and-marketing-management"
@@ -574,7 +534,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--productConversionReport"
 >title="View product conversion in a funnel visualization that shows carts, checkouts, and orders. You can also see conversion percentages, revenue averages, unit averages, and order averages."
@@ -583,7 +542,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--retail-products-template"
@@ -594,7 +552,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--cartConversionReport"
 >title="View the number of times people performed key checkout events, such as adding items to their cart, viewing their cart, removing items from their cart, and checking out."
@@ -603,7 +560,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--cartsOvertimeReport"
@@ -614,7 +570,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--cartViewsOvertimeReport"
 >title="View the number of times people viewed their shopping cart."
@@ -623,7 +578,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--cartAdditionsOvertimeReport"
@@ -634,7 +588,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--cartRemovalsOvertimeReport"
 >title="View the number of times people removed something from their cart."
@@ -643,7 +596,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--purchaseConversionReport"
@@ -677,7 +629,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--people"
 >title="View the number of people who are interacting with your brand."
@@ -686,7 +637,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--bots"
@@ -697,7 +647,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--firstvsrepeatvisitors"
 >title="View a comparison of first-time visitors to repeat visitors."
@@ -706,7 +655,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--personid"
@@ -717,7 +665,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--timeZoneRankedReport"
 >title="View the top time zones of visitors accessing your site."
@@ -726,7 +673,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--location"
@@ -737,7 +683,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--domainRankedReport"
 >title="View the top domains of visitors accessing your site."
@@ -746,7 +691,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--topLevelDomainRankedReport"
@@ -757,7 +701,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--browserWidthRankedReport"
 >title="View top browser widths that people use to access your site."
@@ -766,7 +709,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--browserHeightRankedReport"
@@ -777,7 +719,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--operatingSystemRankedReport"
 >title="View the name of the operating systems and version that people use to access your site."
@@ -786,7 +727,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--operatingSystemTypeRankedReport"
@@ -797,7 +737,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--returnFrequencyRankedReport"
 >title="View the telecommunications company that provides cellular network connectivity to the mobile devices.that people use to access your site."
@@ -806,7 +745,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--returnVisitorsOvertimeReport"
@@ -817,7 +755,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--visitNumberRankedReport"
 >title="View how many times a visitor has visited the site."
@@ -826,7 +763,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--customerLoyaltyRankedReport"
@@ -837,7 +773,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--daysBeforeFirstPurchaseRankedReport"
 >title="View the number of days that pass between the first time a visitor reaches your site and when they make a purchase. For example, if a visitor makes a purchase one day after first visiting, then any subsequent visit or event belongs to the 1 Day dimension item."
@@ -846,7 +781,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--daysSinceLastPurchaseRankedReport"
@@ -857,7 +791,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenSizeRankedReport"
 >title="View the top mobile screen sizes that people use to access your site."
@@ -867,7 +800,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenHeightRankedReport"
 >title="View top mobile screen heights that people use to access your site."
@@ -876,7 +808,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobileScreenWidthRankedReport"
@@ -889,7 +820,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--countryGeoReport"
 >title="View the country from which people visiting the site originated."
@@ -898,7 +828,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--stateGeoReport"
@@ -909,7 +838,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--regionGeoReport"
 >title="View the geographic region from which people visiting the site originated. A region is a geographic area that is smaller than a country but larger than a city. In some countries, a region is a state, province, or prefecture. In other areas, it is a constituent country, department, or metropolitan region. "
@@ -918,7 +846,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--cityGeoReport"
@@ -929,7 +856,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--dmaGeoReport"
 >title="View the designated marketing areas (DMAs) within the United States from which people visiting the site originated."
@@ -938,7 +864,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--languageRankedReport"
@@ -949,7 +874,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--web-technology-template"
 >title="View information related to the technology people use to access your site, such as the operating systems, browsers, and devices."
@@ -958,7 +882,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--browserRankedReport"
@@ -969,7 +892,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--browserTypeRankedReport"
 >title="View the names of the organizations who made the top browsers that people use to access your site. This differs from the Browser template in that it does not list different versions of the same browser as separate dimension items."
@@ -979,7 +901,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobileappscreens"
 >title="View the number of events, sessions, and people associated with each screen on the mobile app."
@@ -988,7 +909,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobileappactions"
@@ -1001,7 +921,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobile-lifecycle-metrics-app-usage-template"
 >title="View the number of users, launches, and first launches on your app, as well as the average session length."
@@ -1010,7 +929,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-journeys"
@@ -1021,7 +939,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-key-metrics"
 >title="View some of the most common mobile app metrics."
@@ -1030,7 +947,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-messaging"
@@ -1041,7 +957,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-performance-template"
 >title="View how your app is performing and where users are experiencing issues."
@@ -1050,7 +965,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-retention"
@@ -1108,7 +1022,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-acquisition-template"
 >title="View how your website obtains visitors on mobile devices."
@@ -1118,7 +1031,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
 >title="View all your Google Ads and Microsoft Advertising paid search data side by side."
@@ -1127,7 +1039,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="aa-template--searchEngineRankRankedReport"
@@ -1140,7 +1051,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--marketing-channel-overview-template"
 >title="When using custom attribution, this template shows how visitors arrive on your site."
@@ -1149,7 +1059,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--firstouchChannelRankedReport"
@@ -1160,7 +1069,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--firstouchChannelDetailRankedReport"
 >title="View details about the first marketing channel a visitor matches with during that visitor's engagement period (30 days by default)."
@@ -1169,7 +1077,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--campaignConversionReport"
@@ -1180,7 +1087,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--retail-campaign-performance-template"
 >title="View details about how your marketing campaigns are performing."
@@ -1189,7 +1095,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--web-acquisition-template"
@@ -1200,7 +1105,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--searchKeywordRankedReport"
 >title="View the search keywords that visitors use to reach your site, regardless whether it is paid or natural."
@@ -1209,7 +1113,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--searchPaidKeywordRankedReport"
@@ -1220,7 +1123,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--searchNaturalKeywordRankedReport"
 >title="View the search keywords that visitors use to reach your site, which did not match paid search detection."
@@ -1229,7 +1131,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--searchRankedReport"
@@ -1240,7 +1141,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--searchPaidRankedReport"
 >title="View the search engines that visitors use to reach your site, which matched paid search detection."
@@ -1249,7 +1149,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--searchNaturalRankedReport"
@@ -1260,7 +1159,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--referringDomainRankedReport"
 >title="View which domains people click through to reach your site."
@@ -1269,7 +1167,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--referringDomainOriginalRankedReport"
@@ -1280,7 +1177,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--referrerRankedReport"
 >title="View which URLs visitors were on when clicking through to reach your site. (A link must exist on the external URL and a visitor must click it for the dimension item to show up.)"
@@ -1289,7 +1185,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--referrerTypeRankedReport"
@@ -1329,7 +1224,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobileCarrierRankedReport"
 >title="View the telecommunications company that provides cellular network connectivity to the mobile devices.that people use to access your site."
@@ -1338,7 +1232,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobileDeviceNameRankedReport"
@@ -1349,7 +1242,6 @@ The following templates are available:
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="template--mobileDeviceTypeRankedReport"
 >title="View the mobile device types that people use to access your site, such as phones and tablets."
@@ -1358,7 +1250,6 @@ The following templates are available:
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="template--mobileManufacturerRankedReport"

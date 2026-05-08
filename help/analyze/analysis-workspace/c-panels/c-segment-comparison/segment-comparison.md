@@ -10,7 +10,6 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="Segment comparison"
@@ -19,7 +18,6 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"

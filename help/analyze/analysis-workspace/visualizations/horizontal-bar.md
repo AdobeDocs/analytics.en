@@ -20,7 +20,6 @@ The horizontal bar visualization has a standard and stacked option.
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbar_button"
 >title="Horizontal bar"
@@ -36,7 +35,6 @@ Thie ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONT
 ## Horizontal bar stacked {#horizontal-bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_horizontalbarstacked_button"

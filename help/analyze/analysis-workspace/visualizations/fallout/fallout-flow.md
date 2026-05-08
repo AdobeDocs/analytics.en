@@ -9,7 +9,6 @@ exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
 >title="Fallout"

@@ -8,7 +8,6 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 ---
 # Histogram {#histogram}
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="Histogram"

@@ -7,7 +7,6 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 ---
 # Create a mobile scorecard {#create-a-mobile-scorecard}
 
-
 >[!CONTEXTUALHELP]
 >id="mobilescorecard_annotations"
 >title="Annotations"

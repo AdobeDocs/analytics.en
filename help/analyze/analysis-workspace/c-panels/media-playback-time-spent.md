@@ -9,7 +9,6 @@ exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_button"
 >title="Media playback time spent"
@@ -18,7 +17,6 @@ exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 <!-- markdownlint-enable MD034 -->
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"

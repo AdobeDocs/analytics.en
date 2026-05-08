@@ -10,12 +10,10 @@ exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
 >title="Flow"
 >abstract="Create a visualization to view the flow of people from one checkpoint to the next."
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"

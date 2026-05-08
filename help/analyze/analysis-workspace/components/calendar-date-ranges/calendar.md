@@ -79,7 +79,6 @@ You use the [Date range manager](manage.md) to manage date ranges.
 <!--
 # Calendar and date ranges overview {#date-range}
 
-
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
 >title="End time"

@@ -10,7 +10,6 @@ exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_button"
 >title="Freeform table"

@@ -8,7 +8,6 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 ---
 # Share projects {#share-projects}
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_shareprojects"
 >title="Share projects"
@@ -123,7 +122,6 @@ To share the project link with users in your organization:
 1. Share the link with users in your organization. For example, you can paste it into an email, onto an internal website, and so forth. 
 
 ## Share a project with anyone (no login required) {#share-public-link}
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"

@@ -36,7 +36,6 @@ An alternative scenario is that you have two metrics of interest and one has a h
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-abs"
 >title="Absolute Value"
@@ -66,7 +65,6 @@ An alternative scenario is that you have two metrics of interest and one has a h
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
 >title="Column Maximum"
@@ -95,7 +93,6 @@ Returns the largest value in a set of dimension elements for a metric column. MA
 ## Column Minimum {#column-minimum}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
@@ -128,7 +125,6 @@ Returns the smallest value in a set of dimension elements for a metric column. M
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-col-sum"
 >title="Column Sum"
@@ -159,7 +155,6 @@ Adds all numeric values for a metric within a column (across the elements of a d
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-count"
 >title="Count"
@@ -189,7 +184,6 @@ Adds all numeric values for a metric within a column (across the elements of a d
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="Exponent"
@@ -218,7 +212,6 @@ Adds all numeric values for a metric within a column (across the elements of a d
 ## Mean {#mean}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-mean"
@@ -250,7 +243,6 @@ Adds all numeric values for a metric within a column (across the elements of a d
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-median"
 >title="Median"
@@ -281,7 +273,6 @@ Adds all numeric values for a metric within a column (across the elements of a d
 ## Modulo {#modulo}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-modulo"
@@ -329,7 +320,6 @@ MODULO(MODULO(x,y)+y,y)
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-percentile"
 >title="Percentile"
@@ -361,7 +351,6 @@ MODULO(MODULO(x,y)+y,y)
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-pow"
 >title="Power Operator"
@@ -390,7 +379,6 @@ Returns x raised to the y power.
 ## Quartile {#quartile}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
@@ -422,7 +410,6 @@ Returns x raised to the y power.
 ## Round {#round}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-round"
@@ -462,7 +449,6 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-count-rows"
 >title="Row Count"
@@ -486,7 +472,6 @@ Returns the count of rows for a given column (the number of unique elements repo
 ## Row Max {#row-max}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-row-max"
@@ -517,7 +502,6 @@ Maximum of the columns of each row.
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-row-min"
 >title="Row Min"
@@ -547,7 +531,6 @@ Minimum of the columns of each row.
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-row-sum"
 >title="Row Sum"
@@ -575,7 +558,6 @@ Sum of the columns of each row.
 ## Square Root {#square-root}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
@@ -606,7 +588,6 @@ Sum of the columns of each row.
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="functions-stdev"
 >title="Standard Deviation"
@@ -635,7 +616,6 @@ Sum of the columns of each row.
 ## Variance {#variance}
 
 <!-- markdownlint-disable MD034 -->
-
 
 >[!CONTEXTUALHELP]
 >id="functions-variance"

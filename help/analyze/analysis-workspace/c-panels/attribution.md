@@ -9,13 +9,11 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 
 <!-- markdownlint-disable MD034 -->
 
-
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribution"
 >abstract="Quickly compare and visualize any number of attribution models using any dimension and conversion metric"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ panel"
-
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"

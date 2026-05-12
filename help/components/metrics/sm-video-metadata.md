@@ -28,12 +28,12 @@ topic_v2:
 ---
 # Streaming media services video metadata metrics
 
-*This page describes the available metrics when you enable [!UICONTROL Video metadata] for a report suite. See [Streaming media services video metadata dimensions](../dimensions/sm-video-metadata.md) for available dimensions.*
+Streaming media services video metadata metrics provide supplemental reporting functionality for data collected through streaming media collection libraries. These metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
 
-Streaming media services video metadata metrics provide supplemental reporting functionality to data collection through streaming media services libraries. Use of these metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
+To use these metrics, enable **[!UICONTROL Video Metadata]** under [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) for the report suite.
 
-When you enable **[!UICONTROL Video Metadata]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following metric is available:
+The following metric is available:
 
-| Metric name | Description | Sent with | Context data variable | XDM field |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Authorized]** | A boolean that triggers when the user is authorized through Adobe authentication. | Media Start, Media Close | `a.media.pass.auth` | `xdm.mediaCollection.`<br>`sessionDetails.authorized`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.authorized` |
+* [[!UICONTROL Authorized]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+
+See [Streaming media services video metadata dimensions](../dimensions/sm-video-metadata.md) for corresponding dimensions.

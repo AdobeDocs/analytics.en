@@ -26,14 +26,14 @@ topic_v2:
 ---
 # Streaming media services chapter metrics
 
-*This page describes the available metrics when you enable [!UICONTROL Media Chapters] for a report suite. See [Streaming media services chapter dimensions](../dimensions/sm-chapters.md) for available dimensions.*
+Streaming media services chapter metrics provide supplemental reporting functionality for data collected through streaming media collection libraries. These metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
 
-Streaming media services chapter metrics provide supplemental reporting functionality to data collection through streaming media services collection libraries. Use of these metrics require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
+To use these metrics, enable **[!UICONTROL Media Chapters]** under [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) for the report suite.
 
-When you enable **[!UICONTROL Media Chapters]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following metrics are available:
+The following metrics are available:
 
-| Metric name | Description | Sent with | Context data variable | XDM field |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Chapter completes]** | A boolean that triggers when a chapter completes. | Chapter Close | `a.media.chapter.complete` | `xdm.mediaReporting.`<br>`chapterDetails.isCompleted` |
-| **[!UICONTROL Chapter starts]** | A boolean that triggers when a chapter starts. | Chapter Start | `a.media.chapter.view` | `xdm.mediaReporting.`<br>`chapterDetails.isStarted` |
-| **[!UICONTROL Chapter time spent]** | The amount of time spent on the chapter, in seconds. | Chapter Close | `a.media.chapter.timePlayed` | `xdm.mediaReporting.`<br>`chapterDetails.timePlayed` |
+* [[!UICONTROL Chapter completes]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL Chapter starts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL Chapter time spent]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+
+See [Streaming media services chapter dimensions](../dimensions/sm-chapters.md) for corresponding dimensions.

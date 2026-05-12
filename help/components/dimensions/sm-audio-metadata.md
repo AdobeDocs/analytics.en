@@ -28,15 +28,15 @@ topic_v2:
 ---
 # Streaming media services audio metadata dimensions
 
-Streaming media services ad dimensions provide supplemental reporting functionality to data collection through Streaming media services libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
+Streaming media services audio metadata dimensions provide supplemental reporting functionality for data collected through streaming media collection libraries. These dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
 
-When you enable **[!UICONTROL Audio Metadata]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following dimensions are available:
+To use these dimensions, enable **[!UICONTROL Audio Metadata]** under [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) for the report suite.
 
-| Dimension name | Description | Sent with | Context data variable | XDM field |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Album]** | The name of the album. | Media Start, Media Close | `a.media.album` | `xdm.mediaCollection.`<br>`sessionDetails.album`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.album` |
-| **[!UICONTROL Artist]** | The name of the artist. | Media Start, Media Close | `a.media.artist` | `xdm.mediaCollection.`<br>`sessionDetails.artist`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.artist` |
-| **[!UICONTROL Author]** | The name of the audio book author. | Media Start, Media Close | `a.media.author` | `xdm.mediaCollection.`<br>`sessionDetails.author`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.author` |
-| **[!UICONTROL Label]** | The name of the record label. | Media Start, Media Close | `a.media.label` | `xdm.mediaCollection.`<br>`sessionDetails.label`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.label` |
-| **[!UICONTROL Publisher]** | The name of the audio content publisher. | Media Start, Media Close | `a.media.publisher` | `xdm.mediaCollection.`<br>`sessionDetails.publisher`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.publisher` |
-| **[!UICONTROL Station]** | The name or ID of the radio station. | Media Start, Media Close | `a.media.station` | `xdm.mediaCollection.`<br>`sessionDetails.station`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.station` |
+The following dimensions are available:
+
+* [[!UICONTROL Album]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL Artist]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL Author]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Label]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL Publisher]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL Station]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)

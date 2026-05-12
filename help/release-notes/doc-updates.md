@@ -19,6 +19,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **May 2026** | |
+| Streaming Media dimensions and metrics | Significant updates to streaming media documentation. Links to examples include [Streaming media services core dimensions](/help/components/dimensions/sm-core.md) and [Streaming media services core metrics](/help/components/metrics/sm-core.md). |
 | **March 2026** | |
 | Break down a panel | Restructured the documentation around the [drop zone for a panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) to support the new [break down](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) functionality. |
 | Identified the default option for IP obfuscation for new report suites | Added information stating that **Remove IP address** is the default [IP obfuscation option for new report suites](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).  |

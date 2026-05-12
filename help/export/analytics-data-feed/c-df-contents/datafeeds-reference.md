@@ -83,7 +83,6 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | Post | Column name | Column description | Data type |
 | ---: | :--- | --- | --- |
 | | **`accept_language`** | Lists all accepted languages, as indicated in the Accept-Language HTTP header in an image request. | char(20) |
-| **`post_`** | **`adclassificationcreative`** | The [Creative ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) streaming media services dimension. | varchar(255) |
 | **`post_`** | **`adload`** | Media ad loads | varchar(255) |
 | **`post_`** | **`aemassetid`** | A multi-value variable corresponding to Asset IDs (GUIDs) of a set of Adobe Experience Manager Assets. Increments Impression Events. | text |
 | **`post_`** | **`aemassetsource`** | Identifies the source of the asset event. Used in Adobe Experience Manager.| varchar(255) |
@@ -313,6 +312,7 @@ The following list of columns are unused, retired, or otherwise do not contain v
 
 | Post | Column name |
 | ---: | :--- |
+| `post_` | `adclassificationcreative` |
 | | `click_action` |
 | | `click_action_type` |
 | | `click_context` |

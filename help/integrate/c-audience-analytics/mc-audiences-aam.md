@@ -1,6 +1,6 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager) is a powerful data management platform that helps you build unique audience profiles from first-party, second-party/partner, and third-party data integrations. For advertisers, these audience profiles help define the most valuable segments to use across any digital channel.
-solution: CX Enterprise
+solution: Analytics
 title: Audience Analytics overview
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc

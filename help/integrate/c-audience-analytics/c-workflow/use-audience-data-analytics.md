@@ -1,6 +1,6 @@
 ---
 description: You can use the Adobe Audience Manager Audience dimensions throughout Analytics. The integrated segments are new Analytics dimensions called Audiences ID and Audiences Name, and can be used just like any other dimension that Analytics collects. In Data Feeds, the Audience IDs are stored in the "mc_audiences" column. These dimensions are not currently available in Data Workbench or Livestream. Some examples of how the Audiences dimensions can be leveraged include
-solution: CX Enterprise
+solution: Analytics
 title: Use the audience data in Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9

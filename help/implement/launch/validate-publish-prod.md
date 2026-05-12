@@ -66,7 +66,7 @@ Once you have validated that you are seeing data, you can push your implementati
 
 Confirm that you're seeing data on the live version of your site, and begin official data collection for Adobe Analytics.
 
-1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the [!UICONTROL Adobe CX Enterprise debugger].
+1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the Adobe CX Enterprise debugger.
 2. If everything is working, you should see similar data to your tests in your dev environment. At this point, you are now collecting data on your site and can now start using Adobe Analytics for reporting.
 
 ## Troubleshooting

@@ -192,7 +192,7 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
   + [Use AppMeasurement with iFrames](use-cases/iframe.md)
   + [Campaign tracking workflow](use-cases/campaign-tracking.md)
 + Validate your implementation {#validate}
-  + [Legacy Adobe CX Enterprise debugger](validate/debugger.md)
+  + [Legacy debugger](validate/debugger.md)
   + [Data collection query parameters](validate/query-parameters.md)
   + [Packet monitors](validate/packet-monitor.md)
   + [Hash collisions](validate/hash-collisions.md)

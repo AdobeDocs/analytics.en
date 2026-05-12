@@ -22,6 +22,6 @@ Ways you can use FTP with Adobe solutions and products:
 
 * Upload large classification data sets to Analytics.
 * Upload customer attributes to CX Enterprise for use in solutions.
-* Use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the [!UICONTROL CX Enterprise]
+* Use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the CX Enterprise
 
 These articles do not necessarily take you through the steps of using FTP with each product. Instead, it recommends best practices for using FTP with Adobe.

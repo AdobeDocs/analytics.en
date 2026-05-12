@@ -44,7 +44,7 @@ topic_v2:
 
 Segments allow you to identify subsets of visitors based on characteristics or website interactions. Segments are designed as audience insights that you can build for your specific needs, and then verify, edit, and share with other team members or use in other Adobe products and Analytics capabilities.
 
-Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit], and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the [!DNL Adobe CX Enterprise]. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
+Segments are based on a [!UICONTROL Visitor], [!UICONTROL Visit], and [!UICONTROL Hit] level hierarchy using a nested container model. The nested containers allow you to define visitor attributes and actions based on rules between and within the containers. Analytics segments can be built, approved, shared, saved, and run across multiple products and capabilities in the Adobe CX Enterprise. Segments can be generated from a report, built into a dashboard report, or bookmarked for quick access.
 
 You can build and save segments in the Segment builder, or generate segments from a Fallout report (in [!UICONTROL Analysis Workspace]). You can also employ and extend pre-built segments based on specific rules between nested containers, allowing you to filter results and apply to reports. In addition, segments can be used together as [stacked segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -287,7 +287,7 @@ Admins can edit any segment, and share segments with groups and with everyone in
 
 +++ **Can I see all segments in my company?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] user interface.
+Yes, Admins can see all segments within the Analysis Workspace user interface.
 
 Report Builder displays segments that you own and segments that are shared with you.
 

@@ -68,15 +68,15 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
 * **Membership limits**: Audiences shared to CX Enterprise from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. A visitor might be able to browse your site in un-authenticated and authenticated states. Actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe CX Enterprise privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
+* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and Audience Manager**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Segment publishing timeline
 
 |  What's available  | When it's available | Where it's available |
 |---|---|---|
-| Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager], [!UICONTROL CX Enterprise Audience Library], [!DNL Target] |
-| Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
-| Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
+| Meta data (segment title and definition) | Immediately after publishing | Audience Manager, CX Enterprise Audience Library, Target |
+| Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in Audience Manager |
+| Trait and membership population | Within 24-48 hours | Audience Manager |
 
 >[!NOTE]
 >Once a week, all data is fully synced to account for any deltas or discrepancies not captured in the previous week.
@@ -96,7 +96,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 
 |  Element | Description |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]** | When this option is enabled, the segment title and definition are shared with CX Enterprise instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that CX Enterprise and [!DNL Target] audience. At that point, the audience name and corresponding data begin displaying on the [!DNL Audience Library] page in CX Enterprise. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]** | When this option is enabled, the segment title and definition are shared with CX Enterprise instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in Target, for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that CX Enterprise and Target audience. At that point, the audience name and corresponding data begin displaying on the [!DNL Audience Library] page in CX Enterprise. </br> |
 | **[!UICONTROL Audience Creation Window]**| The time frame that you select is used to create the audience on a rolling-calendar basis. For example, **[!UICONTROL Last 30 days]** (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created). |
 | **[!UICONTROL Create in Audience Library]** | The segments that you create and publish can be made available without latency on the [!DNL Audience Library] page in CX Enterprise. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
 | **[!UICONTROL x of 75 Published]** | The number of segments that you have published to CX Enterprise. Click the link to see a list of published segments and their associated report suite and owner. |
@@ -123,7 +123,7 @@ To view published segments:
 
 1. View the **[!UICONTROL Published]** column. **[!UICONTROL Yes]** in this column indicates that the segment is published to CX Enterprise. **[!UICONTROL No]** indicates that the segment is not published.
 
-## Retrieve the [!DNL Audience Manager] UUID
+## Retrieve the Audience Manager UUID
 
 There are two ways to capture the Adobe Audience Manager UUID currently associated with the browser:
 
@@ -154,13 +154,13 @@ on the browser (`35721780439475290181087231320657663953` in the example below).
 
 The Adobe Audience Manager UUID on the browser is by default when [!UICONTROL Visitor Profile Viewer] is loaded. If you verify trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) for more information.
 
-## View the segment traits in [!DNL Audience Manager]
+## View the segment traits in Audience Manager
 
 In Adobe Audience Manager, the list of visitors with ECIDs for a given segment is evaluated while Analytics shares segments with CX Enterprise.
 
-1. In [!DNL Audience Manager], go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You see a folder for each Analytics reports suite that is mapped to your CX Enterprise organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
-1. Select the folder for the report suite in which you previously created the segment you wanted to share with [!DNL Audience Manager]. You see the segment/audience you created. When you share a segment, 2 things happen in [!DNL Audience Manager]:
-   * A trait gets created, first with no data in it. Approx. 8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with [!DNL Audience Manager] and other CX Enterprise solutions.
+1. In Audience Manager, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You see a folder for each Analytics reports suite that is mapped to your CX Enterprise organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
+1. Select the folder for the report suite in which you previously created the segment you wanted to share with Audience Manager. You see the segment/audience you created. When you share a segment, 2 things happen in Audience Manager:
+   * A trait gets created, first with no data in it. Approx. 8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with Audience Manager and other CX Enterprise solutions.
 
         ![Audience manager traits](assets/aam-traits.png)
 
@@ -174,6 +174,6 @@ The **[!UICONTROL Publish this segment to the Experience Cloud]** allows the seg
 In Adobe Target:
 
 1. Select **[!UICONTROL Audiences]**.
-1. On the **[!UICONTROL Audiences]** page, locate the audience sourced from CX Enterprise. These audiences are available for use in [!DNL Target] activities.
+1. On the **[!UICONTROL Audiences]** page, locate the audience sourced from CX Enterprise. These audiences are available for use in Target activities.
 
    ![Target audiences](assets/target-audiences.png)

@@ -37,7 +37,7 @@ Properties are overarching containers you use to manage tags. Extensions let you
 1. Click your newly created tag property to enter its settings.
 1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
 1. Locate 'Experience Cloud ID Service', then click **[!UICONTROL Install]**.
-1. All settings, including CX Enterprise Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
+1. All settings, including the CX Enterprise Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
 1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
 
 See the full documentation for the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) for more detailed information.

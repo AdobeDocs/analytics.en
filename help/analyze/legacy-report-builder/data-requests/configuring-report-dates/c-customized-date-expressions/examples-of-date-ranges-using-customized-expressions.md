@@ -5,6 +5,20 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
+TQID: https://experienceleague.adobe.com/Iv-JLj5I9MBHo3TDAXOnddUY83sV8079XnXb8Svs8G8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Examples of date ranges using customized expressions
 

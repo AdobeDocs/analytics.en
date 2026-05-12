@@ -3,6 +3,18 @@ description: Steps that describe how to create a Data Warehouse request.
 title: Configure a report destination for a Data Warehouse request
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
+TQID: https://experienceleague.adobe.com/3M2cNjsk8KP356ES66AaXpSXJ6IvxWDtFcx7gYvlKeQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Configure scheduling options for a Data Warehouse request
 

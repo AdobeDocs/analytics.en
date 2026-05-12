@@ -4,6 +4,15 @@ keywords: ftp;sftp
 title: Connect to Adobe via SFTP without a password
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
+TQID: https://experienceleague.adobe.com/qQmzBUalqWjJ7FYow1DBCEfVixzultPI2PJSNhOsLlY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Connect to Adobe via SFTP without a password
 

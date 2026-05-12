@@ -1,8 +1,25 @@
 ---
-description: Paid Search Detection differentiates paid from natural searches in the Search Engines and Search Keywords reports. 
+description: Paid Search Detection differentiates paid from natural searches in the Search Engines and Search Keywords reports.
 title: Paid Search Detection
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
+TQID: https://experienceleague.adobe.com/g26-86nQZ-k3kaID-Dq6qbwYkdqLpHDdUEswP-p361Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Paid Search Detection
 

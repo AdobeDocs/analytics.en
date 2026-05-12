@@ -3,6 +3,24 @@ title: Bounce rate
 description: The ratio of visits with exactly one hit over entries.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
+TQID: https://experienceleague.adobe.com/TRE4By1InQuDG5bT91f5KQB1izFvM2m3HKS2Lw2v9ds
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Bounce rate
 

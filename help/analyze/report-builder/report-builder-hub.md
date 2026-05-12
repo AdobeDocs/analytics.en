@@ -6,6 +6,18 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
+TQID: https://experienceleague.adobe.com/cjmpTOapngB6Rwd4QvdCZVTXfRjZAXFz4yfWLw2wvCA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Report Builder hub
 

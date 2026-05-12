@@ -2,6 +2,32 @@
 title: Send data to Adobe Analytics using the Web SDK JavaScript library
 description: Start with a clean Web SDK implementation to send data to Adobe Analytics using the JavaScript library.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
+TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Send data to Adobe Analytics using the Web SDK JavaScript library
 

@@ -4,6 +4,23 @@ title: Traffic variable (prop) overview
 feature: Admin Tools
 role: Admin
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
+TQID: https://experienceleague.adobe.com/KUQ7ytAGwuulM3UtLabRd6QlEq1sHQ-Lwxi2txLhS2Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Traffic variables (props) overview
 

@@ -1,10 +1,29 @@
 ---
-description: Two important considerations when using the Customize Expression to set the date range 
+description: Two important considerations when using the Customize Expression to set the date range
 title: Customized Date Considerations
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
 role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
+TQID: https://experienceleague.adobe.com/7PLNffmZnNnQ2X0HgnqYa8R3zWQvFPMSM8sbWocmxH4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Customized Date Considerations
 

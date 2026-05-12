@@ -3,6 +3,18 @@ description: Steps that describe how to create a Data Warehouse request.
 title: Build a report for a Data Warehouse request
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
+TQID: https://experienceleague.adobe.com/9ZPqEsJ8Dg-raXva9DfJxPHde3Teb3vFf1IeEcHTC3o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Build a report for a Data Warehouse request
 

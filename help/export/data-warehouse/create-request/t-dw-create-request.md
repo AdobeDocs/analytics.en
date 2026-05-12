@@ -3,6 +3,15 @@ description: Steps that describe how to create a Data Warehouse request.
 title: Create a Data Warehouse request
 feature: Data Warehouse
 exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
+TQID: https://experienceleague.adobe.com/EKvNvs06JtUHX-AY3gXUGMqLengGDu74iWAZka9qqJ8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Create a Data Warehouse request
 

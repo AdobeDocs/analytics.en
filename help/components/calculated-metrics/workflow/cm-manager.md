@@ -3,6 +3,25 @@ description: Learn how to share, filter, tag, approve, copy, delete calculated m
 title: Manage Calculated Metrics
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
+TQID: https://experienceleague.adobe.com/BJTYlY8d2BEOLQgmxGFFvL8MV94j-ptEp2051nHY5tw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Manage calculated metrics
 

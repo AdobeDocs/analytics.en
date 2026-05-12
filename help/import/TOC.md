@@ -3,7 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 breadcrumb-title: Import Guide
-user-guide-description: Bring data into Adobe Analytics from outside sources, either in bulk or real-time. 
+user-guide-description: Bring data into Adobe Analytics from outside sources, either in bulk or real-time.
+index: true
 ---
 
 # Adobe Analytics Import Guide {#import}

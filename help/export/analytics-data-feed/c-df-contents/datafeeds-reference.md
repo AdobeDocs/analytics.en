@@ -244,49 +244,49 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | | **`va_finder_id`** | A numeric ID that identifies the [First touch channel](/help/components/dimensions/first-touch-channel.md) dimension. The lookup for this ID can be found in the Marketing Channel Manager. | tinyint unsigned |
 | | **`va_instance_event`** | A flag that identifies Marketing Channel [Instances](/help/components/metrics/instances.md). | tinyint unsigned |
 | | **`va_new_engagement`** | A flag that identifies Marketing Channel [New engagements](/help/components/metrics/new-engagements.md). | tinyint unsigned |
-| **`post_`** | **`video`** | The [Content](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoad`** | The [Ad](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoadinpod`** | The [Ad in pod position](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoadlength`** | The [Ad length (variable)](/help/components/dimensions/sm-ads.md) streaming media services dimension. | integer |
-| **`post_`** | **`videoadname`** | The [Ad name (variable)](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoadplayername`** | The [Ad player name](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoadpod`** | The [Ad pod](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | The [Advertiser](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudioalbum`** | The [Album](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudioartist`** | The [Artist](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudioauthor`** | The [Author](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudiolabel`** | The [Label](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudiopublisher`** | The [Publisher](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videoaudiostation`** | The [Station](/help/components/dimensions/sm-audio-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videocampaign`** | The [Campaign ID](/help/components/dimensions/sm-ads.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videochannel`** | The [Content channel](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videochapter`** | The [Chapter](/help/components/dimensions/sm-chapters.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videocontenttype`** | The [Content type](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videodaypart`** | The [Day part](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoepisode`** | The [Episode](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videofeedtype`** | The [Media feed type](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videogenre`** | The [Genre](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. This dimension allows multiple values in the same hit, delimited by a comma. | text |
-| **`post_`** | **`videolength`** | The [Content length (variable)](/help/components/dimensions/sm-core.md) streaming media services dimension. | integer |
-| **`post_`** | **`videomvpd`** | The [MVPD](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoname`** | The [Content name (variable)](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videonetwork`** | The [Network](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videopath`** | The [Media path](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(100) |
-| **`post_`** | **`videoplayername`** | The [Content player name](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | The [Average bitrate](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | The [Bitrate changes](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | The [Buffer events](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | The [Total buffer duration](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | The [Dropped frames](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | The [Errors](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| | **`videoqoeextneralerrors`** | The [External error IDs](/help/components/dimensions/sm-quality.md) streaming media services dimension. This dimension allows multiple values in the same hit. | text |
-| **`post_`** | **`videoqoeplayersdkerrors`** | The [Player SDK error IDs](/help/components/dimensions/sm-quality.md) streaming media services dimension. This dimension allows multiple values in the same hit. | text |
-| **`post_`** | **`videoqoetimetostartevar`** | The [Time to start](/help/components/dimensions/sm-quality.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoseason`** | The [Season](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videosegment`** | The [Content segment](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videosessionid`** | The [Media session ID](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoshow`** | The [Show](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoshowtype`** | The [Show type](/help/components/dimensions/sm-video-metadata.md) streaming media services dimension. | varchar(255) |
-| | **`videostreamtype`** | The [Stream type](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`video`** | The [Content](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoad`** | The [Ad](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoadinpod`** | The [Ad in pod position](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoadlength`** | The [Ad length (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) streaming media services dimension. | integer |
+| **`post_`** | **`videoadname`** | The [Ad name (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoadplayername`** | The [Ad player name](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoadpod`** | The [Ad pod](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | The [Advertiser](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser) streaming media services dimension. | varchar(255) |
+| | **`videoaudioalbum`** | The [Album](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album) streaming media services dimension. | varchar(255) |
+| | **`videoaudioartist`** | The [Artist](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist) streaming media services dimension. | varchar(255) |
+| | **`videoaudioauthor`** | The [Author](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author) streaming media services dimension. | varchar(255) |
+| | **`videoaudiolabel`** | The [Label](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label) streaming media services dimension. | varchar(255) |
+| | **`videoaudiopublisher`** | The [Publisher](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher) streaming media services dimension. | varchar(255) |
+| | **`videoaudiostation`** | The [Station](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videocampaign`** | The [Campaign ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videochannel`** | The [Content channel](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videochapter`** | The [Chapter](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videocontenttype`** | The [Content type](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videodaypart`** | The [Day part](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoepisode`** | The [Episode](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videofeedtype`** | The [Media feed type](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videogenre`** | The [Genre](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre) streaming media services dimension. This dimension allows multiple values in the same hit, delimited by a comma. | text |
+| **`post_`** | **`videolength`** | The [Content length (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) streaming media services dimension. | integer |
+| **`post_`** | **`videomvpd`** | The [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoname`** | The [Content name (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videonetwork`** | The [Network](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videopath`** | The [Media path](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path) streaming media services dimension. | varchar(100) |
+| **`post_`** | **`videoplayername`** | The [Content player name](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | The [Average bitrate](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | The [Bitrate changes](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | The [Buffer events](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | The [Total buffer duration](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | The [Dropped frames](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | The [Errors](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors) streaming media services dimension. | varchar(255) |
+| | **`videoqoeextneralerrors`** | The [External error IDs](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) streaming media services dimension. This dimension allows multiple values in the same hit. | text |
+| **`post_`** | **`videoqoeplayersdkerrors`** | The [Player SDK error IDs](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) streaming media services dimension. This dimension allows multiple values in the same hit. | text |
+| **`post_`** | **`videoqoetimetostartevar`** | The [Time to start](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoseason`** | The [Season](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videosegment`** | The [Content segment](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videosessionid`** | The [Media session ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoshow`** | The [Show](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) streaming media services dimension. | varchar(255) |
+| **`post_`** | **`videoshowtype`** | The [Show type](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type) streaming media services dimension. | varchar(255) |
+| | **`videostreamtype`** | The [Stream type](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type) streaming media services dimension. | varchar(255) |
 | **`post_`** | **`visid_high`** | Used with `visid_low` to uniquely identify a visitor. | bigint unsigned |
 | **`post_`** | **`visid_low`** | Used with `visid_high` to uniquely identify a visitor. | bigint unsigned |
 | | **`visid_new`** | A flag that determines if the hit contains a newly generated visitor ID. | char(1) |

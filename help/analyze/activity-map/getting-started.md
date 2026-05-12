@@ -72,7 +72,7 @@ Activity Map data collection requires the **[!UICONTROL Adobe Experience Platfor
 
 The **[!UICONTROL Click data collection]** configuration setting handles Activity Map data collection and is typically enabled by default. You can check to make sure that it is enabled in the extension's configuration settings:
 
-1. Log in to [Adobe CX Enterprise](https://experience.adobe.com)
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Select **[!UICONTROL Data Collection]** in the quick access menu or the product selector in the top right.
 1. Select **[!UICONTROL Tags]** in the left navigation menu.
 1. Select the desired tag to edit.
@@ -106,7 +106,7 @@ alloy("configure", {
 
 The **[!UICONTROL Use Activity Map]** configuration setting handles Activity Map data collection and is typically enabled by default. It is available for all tag extensions v1.9.0 or later. You can check to make sure that it is enabled in the extension's configuration settings:
 
-1. Log in to [Adobe CX Enterprise](https://experience.adobe.com)
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Select **[!UICONTROL Data Collection]** in the quick access menu or the product selector in the top right.
 1. Select **[!UICONTROL Tags]** in the left navigation menu.
 1. Select the desired tag to edit.

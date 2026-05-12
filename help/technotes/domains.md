@@ -38,12 +38,12 @@ Some firewall configurations block domains that Adobe Analytics rely on for its 
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud domains
+## Adobe CX Enterprise domains
 
-In addition to the above domains, the Adobe Experience Cloud relies on several domains for data collection and exporting reports. See [Domains used by the Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) for this list of domains.
+In addition to the above domains, the Adobe CX Enterprise relies on several domains for data collection and exporting reports. See [Domains used by the Adobe CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) for this list of domains.
 
 >[!MORELIKETHIS]
 >
 >[IP addresses used by Adobe Analytics](ip-addresses.md)
 >
->[Domains used by the Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Domains used by the Adobe CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

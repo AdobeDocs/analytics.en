@@ -34,15 +34,15 @@ On May 25, 2018, the European Union's General Data Protection Regulation (GDPR) 
 
 When Adobe is providing software and services to an enterprise, Adobe is acting as a data processor for any personal data it receives and stores on behalf of our customers, as part of providing the services. As a data processor, Adobe processes personal data in accordance with your company's permission and instructions (for example, as set out in your agreement with Adobe).
 
-As the data controller, you determine the personal data that Adobe processes and stores on your behalf. If you use Adobe Experience Cloud solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe Experience Cloud account. For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
+As the data controller, you determine the personal data that Adobe processes and stores on your behalf. If you use Adobe CX Enterprise solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe CX Enterprise account. For a list of examples, see [Adobe CX Enterprise privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
 ## How Adobe Handles GDPR Data
 
-The Adobe Experience Cloud provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe Experience Cloud enable a direct linkage of data governance policy to data usage.
+The Adobe CX Enterprise provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe CX Enterprise enable a direct linkage of data governance policy to data usage.
 
-Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for GDPR readiness and how to integrate with the Adobe Experience Cloud GDPR API.
+Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for GDPR readiness and how to integrate with the Adobe CX Enterprise GDPR API.
 
 ## GDPR Readiness and your Adobe Analytics Data
 

@@ -37,7 +37,7 @@ topic_v2:
 
 +++ **How does Adobe Analytics support access and delete requests for end users (Data Subjects) validated by customers (Data Controllers)?**
 
-When various Data Privacy rules (GDPR, CCPA) take effect, Adobe Analytics will support processing verified requests submitted by Data Controllers to the Experience Cloud Data Privacy API to enable a more automated process. Adobe's Data Privacy API is designed to help process individual rights requests (e.g., access and delete requests) for our customers' data stored across Adobe Experience Cloud solutions. It is flexible and scales according to the number of data access and delete requests your company receives from Data Subjects. 
+When various Data Privacy rules (GDPR, CCPA) take effect, Adobe Analytics will support processing verified requests submitted by Data Controllers to the CX Enterprise Data Privacy API to enable a more automated process. Adobe's Data Privacy API is designed to help process individual rights requests (e.g., access and delete requests) for our customers' data stored across Adobe CX Enterprise solutions. It is flexible and scales according to the number of data access and delete requests your company receives from Data Subjects. 
 
 Also, the Privacy Service API allows the customer to check the status on how the data access and delete requests that are being fulfilled. For more details see [Privacy Service API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) documentation.
 
@@ -53,7 +53,7 @@ As the Data Processor, Adobe must provide reasonable assistance to the Controlle
 
 +++ **How will Adobe Customers (Data Controllers) find out which Data Privacy requests map to which IDs in Adobe Analytics for Data Privacy processing?**
 
-The Data Controllers determine how to resolve identity for requests from the Data Subjects. Consider deploying  Adobe's Data Privacy ID Retrieval Tag. Your development teams save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs). They can then use our Data Privacy API to send those user IDs to the relevant solutions in the Adobe Experience Cloud for Data Privacy request processing. The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. 
+The Data Controllers determine how to resolve identity for requests from the Data Subjects. Consider deploying  Adobe's Data Privacy ID Retrieval Tag. Your development teams save time by using our Data Privacy ID retrieval tag to capture user IDs (cookie IDs). They can then use our Data Privacy API to send those user IDs to the relevant solutions in the Adobe CX Enterprise for Data Privacy request processing. The Data Privacy API can support a broad range of customer IDs across multiple Adobe solutions. 
 
 If a Data Subject submits a request along with an identifier (custom variable - prop or eVar), then Adobe Analytics scans then entire retained history of the data collected for the given identifier. For more details about how to configure custom IDs stored in Analytics props or eVars, please refer to the [Analytics documentation on namespaces](/help/admin/tools/privacy-labeling/namespaces.md).
 
@@ -79,11 +79,11 @@ For more information on Data Governance labels, see [Data Privacy Labels for Ana
 
 Typically, Analytics customers set up some test report suites to verify functionality before it is released to the general public. Pre-production websites or apps send data into these test/dev/QA report suites to evaluate how things will work when the code releases before real traffic is sent to the production report suites.
 
-However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. This is because a Data Privacy request is automatically applied to all report suites in the Experience Cloud organization, which is often all report suites for your company.
+However, with a normal configuration, GPDR request processing cannot be tested first on these test report suites, before applying requests to production report suites. This is because a Data Privacy request is automatically applied to all report suites in the CX Enterprise organization, which is often all report suites for your company.
 
 Still, there are a few ways that you can test your Data Privacy processing prior to applying it to all your report suites:
 
-* One option is to set up a separate Experience Cloud organization that contains only test report suites. Then use this Experience Cloud organization for your Data Privacy testing and your normal Experience Cloud organization for actual Data Privacy processing.
+* One option is to set up a separate CX Enterprise organization that contains only test report suites. Then use this CX Enterprise organization for your Data Privacy testing and your normal CX Enterprise organization for actual Data Privacy processing.
 
 * Another option is to assign different namespaces to the IDs in your test report suites, versus those in your production report suites. For example, you can prefix each namespace with "qa-" in your test report suites. When you submit Data Privacy requests with only namespaces with the qa prefix, these requests will only run against your test report suites. Later, when you submit requests without the qa prefix, they will apply to your production report suites. **This is the recommended approach, unless you use the `visitorId`, AAID, ECID or `customVisitorId` namespaces. These namespaces are hardcoded and you cannot specify alternate names for them in your test report suites.**
 
@@ -99,7 +99,7 @@ For a step-by-step walkthrough to get ready for Data Privacy rules, see [Adobe A
 
 GDPR and CCPA are good opportunities to re-consider your consent management strategy and practices. This includes determining when consent is needed and thinking about the value proposition for the user. Consider the value proposition for consumer privacy, which can help drive conversion and loyalty. The consent management space (e.g., tools, standards, best practices) is rapidly evolving, and is an area to watch. To minimize impact on user engagement, Controllers should work with vendors in this space as well as with their legal counsel, to ensure that they are following emerging laws and guidance on consent and cookies. Thinking about "experiential privacy" by using an on-brand, contextually relevant experience that sets out the value proposition of your data collection activities is a good strategy. 
 
-You, as the Data Controller, are responsible for obtaining explicit consent from your Data Subjects before you collect data about them (possibly including Adobe Analytics data) and for implementing an [opt-out mechanism](https://www.adobe.com/privacy/opt-out.html#customeruse) on your web site. This lets your Data Subjects opt out of future Adobe Experience Cloud data collection.
+You, as the Data Controller, are responsible for obtaining explicit consent from your Data Subjects before you collect data about them (possibly including Adobe Analytics data) and for implementing an [opt-out mechanism](https://www.adobe.com/privacy/opt-out.html#customeruse) on your web site. This lets your Data Subjects opt out of future Adobe CX Enterprise data collection.
 
 +++
 
@@ -148,5 +148,5 @@ Please contact your Adobe Account Team to coordinate with our Engineering Archit
 Additional Data Privacy Resources:
 
 * [GDPR Common Terms](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf) 
-* Experience Cloud Data Privacy [Care Package](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) 
+* CX Enterprise Data Privacy [Care Package](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) 
 * Experiential Privacy [Blog Post](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)

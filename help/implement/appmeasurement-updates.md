@@ -219,7 +219,7 @@ Release Date: **May 24, 2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL CX Enterprise] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Fixed an issue where link tracking cookie keeps getting written after link tracking is turned off. (AN-156332)
@@ -345,7 +345,7 @@ Updated: **August 4, 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, make sure that you use AppMeasurement 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL CX Enterprise] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, make sure that you use AppMeasurement 1.6.3 or higher.
 
 ## Version 1.6.2
 
@@ -464,7 +464,7 @@ Release Date: **September 18, 2014**
 
   >[!IMPORTANT]
   >
-  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the Experience Cloud.
+  >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest Visitor ID Service implementation for the CX Enterprise.
 
 ## Version 1.4
 
@@ -495,7 +495,7 @@ Release Date: **May 22, 2014**
 
 Release Date: **April 17, 2014**
 
-* Support for the [Experience Cloud Visitor ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Support for the [CX Enterprise Visitor ID service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.2.4
 

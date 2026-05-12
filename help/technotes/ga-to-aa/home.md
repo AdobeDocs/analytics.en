@@ -40,7 +40,7 @@ This guide presents common report types that help you to learn core concepts and
 
 Both Google Analytics and Adobe Analytics are powerful platforms to obtain valuable insights to your website performance. Each have their own processing architecture and user interface, giving each platform unique advantages. This guide is designed to help acclimate a user experienced with Google Analytics towards Adobe Analytics.
 
-In Adobe Analytics, the main way to pull basics reports after logging in to the Adobe Experience Cloud is to use **Analysis Workspace**. The left menu allows the user to drag and drop components to build their own report. It allows more freedom to meet exact reporting needs. Users who are experienced with creating Google Analytics dashboards and custom reports might find this layout familiar.
+In Adobe Analytics, the main way to pull basics reports after logging in to the Adobe CX Enterprise is to use **Analysis Workspace**. The left menu allows the user to drag and drop components to build their own report. It allows more freedom to meet exact reporting needs. Users who are experienced with creating Google Analytics dashboards and custom reports might find this layout familiar.
 
 ## Recommended learning path
 

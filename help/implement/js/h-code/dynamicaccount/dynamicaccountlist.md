@@ -73,4 +73,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * If no rules match, the default report suite in `s_account` is used.
 * If your page is saved to someone's hard drive or translated via a web-based translation engine (such as Google's translated pages), the dynamic account selection likely won't work.
 * The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
-* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
+* Use the [!DNL Adobe CX Enterprise Debugger] to test the destination report suite.

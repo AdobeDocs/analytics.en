@@ -1,5 +1,5 @@
 ---
-description: You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the Experience Cloud.
+description: You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the CX Enterprise.
 keywords: ftp;sftp
 title: Data Sources overview
 feature: FTP Export
@@ -19,7 +19,7 @@ topic_v2:
 ---
 # FTP-based Data Sources
 
-You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the Experience Cloud.
+You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the CX Enterprise.
 
 After creating a Data Sources instance, the tool provides an FTP location that you can use to upload Data Sources files. Once uploaded, Data Sources automatically locates and processes them. After the files are processed, the data is available for Analytics reporting.
 
@@ -36,6 +36,6 @@ Import File: [!DNL Classifications.tab]
 
 Finish File: [!DNL Classifications.fin]
 
-If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. You are notified of this only if you have entered your email address as the [!UICONTROL Notification Recipient] in the [!UICONTROL Create FTP Account] window of reporting. If no email address is entered in this field, no notification is sent.
+If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL CX Enterprise]. You are notified of this only if you have entered your email address as the [!UICONTROL Notification Recipient] in the [!UICONTROL Create FTP Account] window of reporting. If no email address is entered in this field, no notification is sent.
 
 If you do upload your file with a [!DNL .fin] file, but there is an error in the file, it is submitted for processing, but the error causes the processing to cease and the file to be sent to an error folder. If this occurs, a notification is sent to the email address listed in the [!UICONTROL Notification Recipient] field in the [!UICONTROL Create FTP Account] window. If no email address is entered, no notification is sent.

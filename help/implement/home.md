@@ -114,7 +114,7 @@ For your **mobile app**, the following implementation methods are available:
 * [Create a tag property in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement updates](appmeasurement-updates.md)
 * [Set up Adobe Analytics with Platform Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
-* [Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
+* [Implement Adobe CX Enterprise in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## Key Analytics resources

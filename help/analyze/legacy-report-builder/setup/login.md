@@ -1,5 +1,5 @@
 ---
-description: Learn how to sign in to Report Builder using your Experience Cloud login account.
+description: Learn how to sign in to Report Builder using your CX Enterprise login account.
 title: How to Sign In to Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
@@ -26,21 +26,21 @@ role_v2:
 
 >[!IMPORTANT]
 >
->Report Builder version 5.6.47 and later supports Experience Cloud login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. **By July 22, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.**
+>Report Builder version 5.6.47 and later supports CX Enterprise login only and does not support legacy logins such as Site Catalyst Single Sign-on or the Standard Login. **By July 22, 2021, all Report Builder users must update the Report Builder Add-in to version 5.6.47 or later which includes a critical update to the log-in process.**
 
-To log in to Report Builder, use your Experience Cloud login account.
+To log in to Report Builder, use your CX Enterprise login account.
 
-## Log in to Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Log in to Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-The Experience Cloud login lets you use your Enterprise ID (email and password) to log in to the Adobe Experience Cloud. 
+The CX Enterprise login lets you use your Enterprise ID (email and password) to log in to the Adobe CX Enterprise. 
 
 Click **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. For more information on Enterprise ID, see [Sign in to your company or school account](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Screenshot showing Adobe Experience Cloud sign in window showing options for signng in with or without your Adobe ID](assets/adobe_id_login.png)
+![Screenshot showing Adobe CX Enterprise sign in window showing options for signng in with or without your Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->The Experience Cloud login is session based and the token expires after 30 days.
+>The CX Enterprise login is session based and the token expires after 30 days.
 
 ## Log in to Report Builder
 

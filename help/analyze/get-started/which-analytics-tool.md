@@ -99,7 +99,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparison of to
 
 **[Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** should be used:
 
-* If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the Experience Cloud.
+* If you capture enterprise customer data in a customer relationship management (CRM) database and want to upload the data to the CX Enterprise.
 * If you want to use CRM data for deeper analysis in Analytics, or as targeting criteria in Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** should be used:

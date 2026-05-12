@@ -55,11 +55,11 @@ If you are unsure whether the use cases described apply to you and your organiza
 
 Take the following considerations into mind when determining if you should use multi-suite tagging or virtual report suites:
 
-### Publishing segments to the Adobe Experience Cloud
+### Publishing segments to the Adobe CX Enterprise
 
-Sharing segments to Adobe Experience Cloud is not supported for virtual report suites. Users who want to share a segment to the Experience Cloud must have access to the source report suite.
+Sharing segments to Adobe CX Enterprise is not supported for virtual report suites. Users who want to share a segment to the CX Enterprise must have access to the source report suite.
 
-Segments cannot yet be published to Adobe Experience Cloud from a virtual report suite for personalization and targeting. All users who publish segments need access to the source report suite for this purpose. For example, you want users to only have access to data for their geographical regions only, but you want them to be able to create and share segments from Adobe Analytics to Adobe Experience Cloud for targeting in Adobe Target. In this case, Adobe recommends using multi-suite tagging. If you don't mind users having access to the global report suite or you do not need to publish segments for use in other solutions, virtual report suites can be used.
+Segments cannot yet be published to Adobe CX Enterprise from a virtual report suite for personalization and targeting. All users who publish segments need access to the source report suite for this purpose. For example, you want users to only have access to data for their geographical regions only, but you want them to be able to create and share segments from Adobe Analytics to Adobe CX Enterprise for targeting in Adobe Target. In this case, Adobe recommends using multi-suite tagging. If you don't mind users having access to the global report suite or you do not need to publish segments for use in other solutions, virtual report suites can be used.
 
 ### Unique (low-traffic) limits
 

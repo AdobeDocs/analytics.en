@@ -45,7 +45,7 @@ user-guide-description: Learn about using Data feeds and Data Warehouse to retri
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
-  + [Use FTP and SFTP with the Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+  + [Use FTP and SFTP with the Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)
   + Set up Adobe-hosted FTP accounts {#set-up-ftp-accounts}
     + [Set up FTP accounts - overview](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
     + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)

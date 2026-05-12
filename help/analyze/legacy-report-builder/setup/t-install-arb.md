@@ -26,7 +26,7 @@ role_v2:
 
 To install Report Builder:
 
-1. Click **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
+1. Click **[Adobe CX Enterprise](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Click **[!UICONTROL Download Now]** to download the 32-bit or 64-bit version (depending on the MS Excel version installed) .
 1. Open the downloaded installer package.
 1. Follow the installation wizard.

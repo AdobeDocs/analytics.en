@@ -1,13 +1,13 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager) is a powerful data management platform that helps you build unique audience profiles from first-party, second-party/partner, and third-party data integrations. For advertisers, these audience profiles help define the most valuable segments to use across any digital channel.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Audience Analytics overview
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 TQID: https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -73,7 +73,7 @@ Ensure that the following prerequisites are in place:
 * You are a customer of both Audience Manager and Adobe Analytics.
 * You are an Audience Manager admin.
 * You are using the Identity Service v1.5 or later.
-* Adobe Audience Manager and Adobe Analytics report suites are mapped to the same Experience Cloud organization.
+* Adobe Audience Manager and Adobe Analytics report suites are mapped to the same CX Enterprise organization.
 * You use [server-side forwarding](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (no DIL code) - AppMeasurement 1.5 or later.
 
 These prerequisites are described in the [Audience Analytics Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

@@ -39,7 +39,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
    
    | Product feature | Function | More information |
    |---------|----------|----------|
-   | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](/help/components/segmentation/seg-home.md) |
+   | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe CX Enterprise, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](/help/components/segmentation/seg-home.md) |
    | Calculated metrics | Calculated and Advanced Calculated (or Derived) metrics are custom metrics that you can create from existing metrics.  They allow marketers, product managers, and analysts to ask questions of the data without having to change the Analytics implementation.  | [Calculated and Advanced Calculated metrics](/help/components/calculated-metrics/cm-overview.md) |
    | Date ranges | Analysis Workspace includes a list of default date ranges that users can use when building analyses. In addition, you can create custom date ranges and make them available to users in Analysis Workspace. | [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual report suites | Virtual report suites segment your Adobe Analytics data so you can control access to each segment. | [Virtual report suites overview](/help/components/vrs/vrs-about.md) |
@@ -112,7 +112,7 @@ The Admin tab includes features and configuration options to administer Adobe An
    | Security manager | The Security Manager lets you control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions. | [Security Manager](/help/admin/tools/company/security-manager.md) |
    | Web services | The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface. | [Web services](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder reports | Manage license assigned to Report Builder users. | [Report Builder reports](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Single sign-on service | Single sign-on in the Adobe Experience Cloud is implemented through the Admin Console. | [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Single sign-on service | Single sign-on in the Adobe CX Enterprise is implemented through the Admin Console. | [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Hide report suites | Lets you hide report suites in the Adobe Analytics user interface if you no longer want a report suite to be available to you and your users. | [Hide report suites](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

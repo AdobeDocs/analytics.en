@@ -154,7 +154,7 @@ Previous updates to this table can be found on this page's [commit history on Gi
 | | **`latlon1`** | Location (down to 10 km) | varchar(255) |
 | | **`latlon23`** | Location (down to 100 m) | varchar(255) |
 | | **`latlon45`** | Location (down to 1 m) | varchar(255) |
-| | **`mcvisid`** | Experience Cloud Visitor ID. 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits. | varchar(255) |
+| | **`mcvisid`** | CX Enterprise Visitor ID. 128-bit number consisting of two concatenated 64-bit numbers padded to 19 digits. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | List of Audience Manager segment IDs that the visitor belongs to. The `post_mc_audiences` column changes the delimiter to `--**--`. | text |
 | **`post_`** | **`mobileaction`** | Mobile action. Automatically collected when `trackAction` is called in mobile implementations. Allows for automatic action pathing in the app. | varchar(100) |
 | **`post_`** | **`mobileappid`** | Mobile app ID. Stores the application name and version in the following format: `[AppName] [BundleVersion]` | varchar(255) |

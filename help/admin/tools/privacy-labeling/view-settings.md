@@ -33,7 +33,7 @@ The **[!UICONTROL Privacy Labeling for Data Governance]** dialog provides an ove
 
 ## View privacy labels {#view-privacy}
 
-1. Log in to Adobe Experience Cloud.
+1. Log in to Adobe CX Enterprise.
 2. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
@@ -71,7 +71,7 @@ If you want to apply the same Data Privacy settings to more than one report suit
 
    >[!IMPORTANT]
    >
-   >Keep in mind that all report suites you select must be mapped to your Experience Cloud organization.
+   >Keep in mind that all report suites you select must be mapped to your CX Enterprise organization.
 
    When you copy the labels for a variable or set of variables into a different report suite, the copy goes to the variable in the corresponding position in the destination report suite. For Standard Components, List Variables, and Success Events, the labels will be copied to the variable with the **same name** in the destination report suite.
 

@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Product profiles for Adobe Analytics
 
-Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an Experience Cloud user to that product profile, they inherit the permission items contained in the product profile.
+Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an CX Enterprise user to that product profile, they inherit the permission items contained in the product profile.
 
 For general information about product profiles, including creating product profiles and assigning users, see [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Enterprise user guide.
 
@@ -81,6 +81,6 @@ Analytics tools permission items grant access to features that are independent o
 
 ## Product profile developers
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe Developer. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information. If a user is granted developer access for any profile, they may access the Dev Console (console.adobe.io) and edit Adobe Analytics integrations. The Analytics API calls and responses authorized for the user are dependent on the net permissions of all profiles that the user has developer access to. 
+Developers are similar to users, except they are granted the ability to use the CX Enterprise API on Adobe Developer. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information. If a user is granted developer access for any profile, they may access the Dev Console (console.adobe.io) and edit Adobe Analytics integrations. The Analytics API calls and responses authorized for the user are dependent on the net permissions of all profiles that the user has developer access to. 
 
 For example, with profile permissions that include all metrics, all dimensions, and one report suite, a developer can make API calls relevant to any component within that report suite. If the anomaly detection permission item is added, API responses can include anomaly data. As a rule of thumb, if a profile grants access to a scenario within the Adobe Analytics interface, then developer access to a similarly defined profile would enable corresponding API calls and responses.

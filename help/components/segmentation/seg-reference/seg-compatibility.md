@@ -72,7 +72,7 @@ Not all segments created in the Segment builder are compatible with [!DNL Data W
      <li>IP address </li> 
      <li>Page URL </li> 
      <li>Visitor ID </li> 
-     <li>Experience Cloud Visitor ID </li> 
+     <li>CX Enterprise Visitor ID </li> 
     </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
     <ul> 
      <li>All Search Page Rank </li> 

@@ -31,7 +31,7 @@ Almost all session-based issues originate from an organization's customized corp
 
 Many organizations deploy additional network features to enhance security, such as proxy servers or firewalls. These customizations can sometimes interfere with the ability to retain an active session in Adobe Analytics.
 
-To determine if the corporate network you're connected to is causing issues with using Adobe Analytics, use your Experience Cloud login credentials on a device outside of your corporate network. Examples of devices can be through your home network or a mobile device's data plan. If you are able to successfully move from page to page without being logged out, your organization's network is likely the reason why you get logged out of Adobe Analytics.
+To determine if the corporate network you're connected to is causing issues with using Adobe Analytics, use your CX Enterprise login credentials on a device outside of your corporate network. Examples of devices can be through your home network or a mobile device's data plan. If you are able to successfully move from page to page without being logged out, your organization's network is likely the reason why you get logged out of Adobe Analytics.
 
 ## Issues due to proxy {#proxy}
 

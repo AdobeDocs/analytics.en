@@ -80,7 +80,7 @@ ITP policies are frequently evolving. For the latest policies, see Apple's [Trac
 
 All first-party cookies set by Adobe, and the related JavaScript libraries, are affected by ITP policies:
 
-* ["AMCV" cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) set by the Adobe Experience Cloud Visitor ID (ECID) service library
+* ["AMCV" cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) set by the Adobe CX Enterprise Visitor ID (ECID) service library
 * The Analytics legacy ["s_vi" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) when it is configured with first-party data collection using a CNAME
 * The Analytics legacy ["s_fid" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), which is the fallback cookie used when "s_vi" cannot be set
 
@@ -151,13 +151,13 @@ The following table summarizes the SameSite attributes for Analytics cookies:
 
 Confirm that your JavaScript configuration uses HTTPS for all calls to Adobe services.
 
-If your site uses the Experience Cloud Visitor ID service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
+If your site uses the CX Enterprise Visitor ID service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
 
 #### Change the SameSite value when you use one CNAME for multiple domains {#samesite-one-cname}
 
 >[!NOTE]
 >
->The following information pertains only to sites that do not use the Experience Cloud Visitor ID service.
+>The following information pertains only to sites that do not use the CX Enterprise Visitor ID service.
 
 If you have a CNAME implementation that is set in the same domain as your website, then the cookie is created in a first-party context, and you do not need to make changes.
 

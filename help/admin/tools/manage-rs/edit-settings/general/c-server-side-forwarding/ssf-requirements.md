@@ -1,5 +1,5 @@
 ---
-description: You must meet these Experience Cloud solution, service, and code requirements to implement server-side forwarding. These requirements also include instructions on how to check for code versions and where to get the latest code libraries.
+description: You must meet these CX Enterprise solution, service, and code requirements to implement server-side forwarding. These requirements also include instructions on how to check for code versions and where to get the latest code libraries.
 solution: Analytics
 title: Requirements for server-side forwarding
 feature: Report Suite Settings
@@ -25,7 +25,7 @@ topic_v2:
 ---
 # Requirements for server-side forwarding
 
-You must meet these Experience Cloud solution, service, and code requirements to implement server-side forwarding. These requirements also include instructions on how to check for code versions and where to get the latest code libraries.
+You must meet these CX Enterprise solution, service, and code requirements to implement server-side forwarding. These requirements also include instructions on how to check for code versions and where to get the latest code libraries.
 
 ## Solution Requirements
 
@@ -33,7 +33,7 @@ Server-side forwarding works with [Analytics](https://www.adobe.com/data-analyti
 
 ## Service Requirements
 
-Server-side forwarding requires the [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). The Identity Service provides a universal ID that identifies site visitors across all the solutions in the Experience Cloud. You need to implement the ID service before server-side forwarding will work.
+Server-side forwarding requires the [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). The Identity Service provides a universal ID that identifies site visitors across all the solutions in the CX Enterprise. You need to implement the ID service before server-side forwarding will work.
 
 ## Code Versions
 

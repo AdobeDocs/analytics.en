@@ -41,7 +41,7 @@ topic_v2:
 >abstract="Segments created in Audience Library are available instantly and are not dependent on Analytics updates."
 
 
-You can publish an Adobe Analytics segment to the CX Enterprise. So, you can use the segment for marketing activity in Audience Manager and in other activation channels, including Advertising, Target, and Campaign. 
+You can publish an Adobe Analytics segment to CX Enterprise. So, you can use the segment for marketing activity in Audience Manager and in other activation channels, including Advertising, Target, and Campaign. 
 
 You can publish Analytics segments to CX Enterprise in under 8 hours. Use these segments to activate audiences in Audience Manager to all downstream destinations. 
 
@@ -66,7 +66,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 ## Considerations
 
 * **Report Suite limits**: You can publish up to 75 segments per report suite. This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
-* **Membership limits**: Audiences shared to the [!DNL CX Enterprise] from Adobe Analytics cannot exceed 20 million unique members.
+* **Membership limits**: Audiences shared to CX Enterprise from Adobe Analytics cannot exceed 20 million unique members.
 * **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. A visitor might be able to browse your site in un-authenticated and authenticated states. Actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Adobe CX Enterprise privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
 * For a discussion about the **differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
@@ -87,7 +87,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 1. Select **[!UICONTROL Add]** to create a new segment.
    ![Publish CX Enterprise](assets/publish-ec.png)
 1. Provide a title and a description for the segment. These fields are required before you can save the segment.
-1. In the **[!UICONTROL CX Enterprise publishing]** section, select the option **[!UICONTROL Publish this segment to the CX Enterprise (for *report suite*)]**.
+1. In the **[!UICONTROL CX Enterprise publishing]** section, select the option **[!UICONTROL Publish this segment to CX Enterprise (for *report suite*)]**.
 
    >[!IMPORTANT]
    >
@@ -96,7 +96,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 
 |  Element | Description |
 |---|---|
-| **[!UICONTROL Publish this segment to the CX Enterprise (for *report suite*)]** | When this option is enabled, the segment title and definition are shared with CX Enterprise instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that CX Enterprise and [!DNL Target] audience. At that point, the audience name and corresponding data begin displaying on the [!DNL Audience Library] page in CX Enterprise. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]** | When this option is enabled, the segment title and definition are shared with CX Enterprise instantaneously, while the segment membership is evaluated and shared every 4 hours. <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that CX Enterprise and [!DNL Target] audience. At that point, the audience name and corresponding data begin displaying on the [!DNL Audience Library] page in CX Enterprise. </br> |
 | **[!UICONTROL Audience Creation Window]**| The time frame that you select is used to create the audience on a rolling-calendar basis. For example, **[!UICONTROL Last 30 days]** (default) includes visitors that have qualified for the audience over the last 30 days from today's date (NOT from the original date when the segment was created). |
 | **[!UICONTROL Create in Audience Library]** | The segments that you create and publish can be made available without latency on the [!DNL Audience Library] page in CX Enterprise. They are not dependent on Analytics updates. These segments do not count against your limit of 75 published segments. |
 | **[!UICONTROL x of 75 Published]** | The number of segments that you have published to CX Enterprise. Click the link to see a list of published segments and their associated report suite and owner. |
@@ -106,7 +106,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 
 >[!CAUTION]
 >
->To delete a segment that has been published to CX Enterprise, you have to unpublish the segment first. To unpublish a segment, just unselect **[!UICONTROL Publish this segment to the CX Enterprise (for *report suite*)]**.
+>To delete a segment that has been published to CX Enterprise, you have to unpublish the segment first. To unpublish a segment, just unselect **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
 
 >[!NOTE]
@@ -169,11 +169,11 @@ In Adobe Audience Manager, the list of visitors with ECIDs for a given segment i
 
 ## View the segment in [!DNL Adobe Target]
 
-The **[!UICONTROL Publish this segment to the CX Enterprise]** allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
+The **[!UICONTROL Publish this segment to the Experience Cloud]** allows the segment to be available within the Adobe Target's custom audience library. A segment created in Analytics or Audience Manager can be used for activities in Target. For example, you can create campaign activities based on Analytics conversion metrics and audience segments created in Analytics.
 
 In Adobe Target:
 
 1. Select **[!UICONTROL Audiences]**.
-1. On the **[!UICONTROL Audiences]** page, locate the audience sourced from the [!DNL CX Enterprise]. These audiences are available for use in [!DNL Target] activities.
+1. On the **[!UICONTROL Audiences]** page, locate the audience sourced from CX Enterprise. These audiences are available for use in [!DNL Target] activities.
 
    ![Target audiences](assets/target-audiences.png)

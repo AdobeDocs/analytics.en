@@ -23,7 +23,7 @@ topic_v2:
 
 Adobe Analytics uses multiple authentication methods to log in:
 
-* Adobe ID through the CX Enterprise
+* Adobe ID through CX Enterprise
 * Legacy Analytics ID
 * Single sign-on
 
@@ -33,7 +33,7 @@ Occasionally, availability issues can impact the ability to log in. Check [statu
 
 ## Adobe ID
 
-Troubleshoot issues with logging in to Adobe Analytics using the CX Enterprise.
+Troubleshoot issues with logging in to Adobe Analytics using CX Enterprise.
 
 1. Navigate to [experience.adobe.com](https://experience.adobe.com). If you are unable to access this site, your organization might not allow this domain through your firewall. Work with your organization's IT team to allow it. See [IPs and domains used in the Adobe CX Enterprise](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html) for helpful information to give to your IT team.
 

@@ -33,7 +33,7 @@ Server-side forwarding works with [Analytics](https://www.adobe.com/data-analyti
 
 ## Service Requirements
 
-Server-side forwarding requires the [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). The Identity Service provides a universal ID that identifies site visitors across all the solutions in the CX Enterprise. You need to implement the ID service before server-side forwarding will work.
+Server-side forwarding requires the [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). The Identity Service provides a universal ID that identifies site visitors across all the solutions in CX Enterprise. You need to implement the ID service before server-side forwarding will work.
 
 ## Code Versions
 

@@ -1,5 +1,5 @@
 ---
-description: You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the CX Enterprise.
+description: You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into CX Enterprise.
 keywords: ftp;sftp
 title: Data Sources overview
 feature: FTP Export
@@ -19,7 +19,7 @@ topic_v2:
 ---
 # FTP-based Data Sources
 
-You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the CX Enterprise.
+You can use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into CX Enterprise.
 
 After creating a Data Sources instance, the tool provides an FTP location that you can use to upload Data Sources files. Once uploaded, Data Sources automatically locates and processes them. After the files are processed, the data is available for Analytics reporting.
 

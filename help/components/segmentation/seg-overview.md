@@ -305,6 +305,6 @@ Report Builder displays only segments built by you or segments that have been sh
 
 +++ **Why can I not delete a segment?**
 
-If the segment was [published to the CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md), you cannot delete the segment or edit the segment. However, you can copy the segment and edit the copied version.
+If the segment was [published to CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md), you cannot delete the segment or edit the segment. However, you can copy the segment and edit the copied version.
 
 +++

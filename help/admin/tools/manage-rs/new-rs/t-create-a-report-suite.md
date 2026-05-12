@@ -55,7 +55,7 @@ A report suite ID has a maximum length of 40 bytes. A report suite friendly name
 
 ## Troubleshooting
 
-**After logging in to the CX Enterprise, the Analytics icon is greyed out.**
+**After logging in to CX Enterprise, the Analytics icon is greyed out.**
 
 This means that your account has not been granted the correct permissions to Analytics. Work with a system-level admin in your organization to ensure you belong to a profile with adequate permissions to access Adobe Analytics.
 

@@ -76,7 +76,7 @@ The following terms are important in understanding server call usage:
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise organization </p> </td> 
-   <td colname="col2"> <p>An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the CX Enterprise. The organization functions like a login company that spans all the CX Enterprise products and solutions. </p> <p>Most often, an organization is your company name. However, a company can have many organizations. </p> </td> 
+   <td colname="col2"> <p>An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in CX Enterprise. The organization functions like a login company that spans all CX Enterprise products and solutions. </p> <p>Most often, an organization is your company name. However, a company can have many organizations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server call commitment </p> </td> 

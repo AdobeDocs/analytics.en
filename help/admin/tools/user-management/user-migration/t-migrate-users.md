@@ -27,7 +27,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
 
 >[!NOTE]
 >
->If an Admin that is not logged in via the CX Enterprise tries to access the User ID Migration tool, they will be redirected to the CX Enterprise login page.
+>If an Admin that is not logged in to CX Enterprise tries to access the User ID Migration tool, they are redirected to the CX Enterprise login page.
 
 1. Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 
@@ -51,7 +51,7 @@ Migrate users from the legacy Analytics user management system to the Admin Cons
    </tr> 
    <tr> 
       <td colname="col1"> <p>Legacy Login Disabled </p> </td> 
-      <td colname="col2"> <p>Legacy login using a company ID is disabled. Users will now access the CX Enterprise using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> </td> 
+      <td colname="col2"> <p>Legacy login using a company ID is disabled. Users now access CX Enterprise using their Adobe ID or Enterprise ID. When all your users have reached this phase, you have completed the migration. </p> <p>In the migration, the legacy login is disabled. Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>

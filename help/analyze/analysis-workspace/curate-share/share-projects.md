@@ -156,7 +156,7 @@ To share the project link with users in your organization:
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Require CX Enterprise authentication"
->abstract="Your organization requires that users log in to the CX Enterprise in order to use this link."
+>abstract="Your organization requires that users log in to CX Enterprise in order to use this link."
 
 You can grant [read-only access](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) to Analysis Workspace projects to people who don't have access to Adobe Analytics. This can include:
 

@@ -151,13 +151,13 @@ The following table summarizes the SameSite attributes for Analytics cookies:
 
 Confirm that your JavaScript configuration uses HTTPS for all calls to Adobe services.
 
-If your site uses the CX Enterprise Visitor ID service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
+If your site uses the Experience Cloud Visitor ID service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
 
 #### Change the SameSite value when you use one CNAME for multiple domains {#samesite-one-cname}
 
 >[!NOTE]
 >
->The following information pertains only to sites that do not use the CX Enterprise Visitor ID service.
+>The following information pertains only to sites that do not use the Experience Cloud Visitor ID service.
 
 If you have a CNAME implementation that is set in the same domain as your website, then the cookie is created in a first-party context, and you do not need to make changes.
 

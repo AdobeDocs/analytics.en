@@ -104,4 +104,4 @@ The following example shows several custom variables included in a query string.
 
 ## Facebook Instant Articles and privacy
 
-As long as the Analytics HTML page is hosted on your web server, Adobe supports your existing privacy policy across all Facebook Instant Articles. If a user opts out of tracking on your primary site, they also opt out of tracking on all your Facebook Instant Articles. The utility page also supports the Adobe Experience Cloud Identity Service so that you can integrate Facebook Instant Article data with the rest of the CX Enterprise.
+As long as the Analytics HTML page is hosted on your web server, Adobe supports your existing privacy policy across all Facebook Instant Articles. If a user opts out of tracking on your primary site, they also opt out of tracking on all your Facebook Instant Articles. The utility page also supports the Adobe Experience Cloud Identity Service so that you can integrate Facebook Instant Article data with the rest of CX Enterprise.

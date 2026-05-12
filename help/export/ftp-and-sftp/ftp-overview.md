@@ -21,7 +21,7 @@ Learn how to use FTP and SFTP to transfer files between computers and servers.
 Ways you can use FTP with Adobe solutions and products:
 
 * Upload large classification data sets to Analytics.
-* Upload customer attributes to the CX Enterprise for use in solutions.
+* Upload customer attributes to CX Enterprise for use in solutions.
 * Use Analytics to create and manage FTP-based Data Sources, which leverages FTP file transfer to import offline or historical data into the [!UICONTROL CX Enterprise]
 
 These articles do not necessarily take you through the steps of using FTP with each product. Instead, it recommends best practices for using FTP with Adobe.

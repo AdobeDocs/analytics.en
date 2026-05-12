@@ -21,7 +21,7 @@ If you have emails/addresses/etc in a prop or eVar, consider hashing the data du
 
 These don't apply to sending Adobe Analytics data to Adobe Audience Manager. Ask yourself: 
 
-* Will you share an Analytics-shared segment with an MCA dimension back to the CX Enterprise? 
+* Will you share an Analytics-shared segment with an MCA dimension back to CX Enterprise? 
 
 * Are you exporting (e.g. via data feeds) out to a Business Intelligence (BI) system that is used for these purposes? 
 

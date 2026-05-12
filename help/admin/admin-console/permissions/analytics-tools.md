@@ -80,7 +80,7 @@ Analytics Tools permission items grant access to features within Adobe Analytics
 | [!UICONTROL Reports & Analytics Access] | Not used |
 | [!UICONTROL Security] | Grants access to Admin > All admin > Company settings > Security Manager. |
 | [!UICONTROL Segment Creation] | Grants the ability to create and share segments across all Analytics capabilities. |
-| [!UICONTROL Segment Publishing] | Grants the ability to make a segment an CX Enterprise audience when creating or editing a segment. |
+| [!UICONTROL Segment Publishing] | Grants the ability to make a segment a CX Enterprise audience when creating or editing a segment. |
 | [!UICONTROL Server Call Usage] | Grants access to Admin > Server Call Usage. |
 | [!UICONTROL Share Project Links with Anyone] | Grants the ability to grant read-only access to Analysis Workspace projects to people who don't have access to Adobe Analytics. |
 | [!UICONTROL Support] | Grants access to Admin > All admin > Company settings > Support Information. |

@@ -525,7 +525,7 @@ Release Date: **November 15, 2013**
 
 Release Date: **November 14, 2013**
 
-* Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* Added support for [Heartbeat video measurement](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 * `VisitorAPI.js` was added to support [Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.1.1

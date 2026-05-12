@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Product profiles for Adobe Analytics
 
-Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign an CX Enterprise user to that product profile, they inherit the permission items contained in the product profile.
+Product profiles are permission presets that product admins can assign to users within an organization. If you create a product profile and assign a CX Enterprise user to that product profile, they inherit the permission items contained in the product profile.
 
 For general information about product profiles, including creating product profiles and assigning users, see [Manage product profiles for enterprise users](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) in the Enterprise user guide.
 

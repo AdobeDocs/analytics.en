@@ -1,5 +1,5 @@
 ---
-description: Configure an CX Enterprise mapped report suite for use in Advertising Analytics.
+description: Configure a CX Enterprise mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b

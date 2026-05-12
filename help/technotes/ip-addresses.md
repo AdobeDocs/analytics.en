@@ -27,7 +27,7 @@ topic_v2:
 
 Some firewall configurations block IP addresses originating from Adobe's data collection servers or servers responsible for accessing data. You can use this list of ranges to alter your organization's firewall settings to allow access and to send data from within your organization. 
 
-All IP addresses used by Adobe Analytics are part of [IP addresses used by the Adobe CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), with exception to the China Performance Optimization add-on package.
+All IP addresses used by Adobe Analytics are part of [IP addresses used by CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), with exception to the China Performance Optimization add-on package.
 
 ## China Performance Optimization IP addresses
 
@@ -49,6 +49,6 @@ Regional data collection servers in China use the following IP addresses:
 
 >[!MORELIKETHIS]
 >
->[IP addresses used by the Adobe CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[IP addresses used by CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Domains used by Adobe Analytics](domains.md)

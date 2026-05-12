@@ -1,5 +1,5 @@
 ---
-description: What you need to know about the Analytics user ID migration to the Admin Console in the Adobe CX Enterprise.
+description: What you need to know about the Analytics user ID migration to the Admin Console in Adobe CX Enterprise.
 title: Analytics User Migration to the Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
@@ -43,7 +43,7 @@ topic_v2:
 ---
 # Analytics User Migration to the Adobe Admin Console{#analytics-user-migration-to-the-admin-console}
 
-What you need to know about the Analytics user ID migration to the Adobe Admin Console in the Adobe CX Enterprise.
+What you need to know about the Analytics user ID migration to the Adobe Admin Console in Adobe CX Enterprise.
 
 For general help on Adobe Admin Console topics (not related to the Analytics migration), see [Admin Console User Guide](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
@@ -78,7 +78,7 @@ The benefits of using the Adobe Admin Console include:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invite new users </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Create product profiles </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Grant users permission to specific products and services </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> cross-solution core services</a> available in the Adobe CX Enterprise </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Gain access to <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html"> cross-solution core services</a> available in Adobe CX Enterprise </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -55,7 +55,7 @@ If you are unsure whether the use cases described apply to you and your organiza
 
 Take the following considerations into mind when determining if you should use multi-suite tagging or virtual report suites:
 
-### Publishing segments to the Adobe CX Enterprise
+### Publishing segments to Adobe CX Enterprise
 
 Sharing segments to Adobe CX Enterprise is not supported for virtual report suites. Users who want to share a segment to CX Enterprise must have access to the source report suite.
 

@@ -96,7 +96,7 @@ The value that you use for `trackingServerSecure` (or `edgeDomain`) depends on s
 
 **If not participating in the certificate program**, set the value to a subdomain of `data.adobedc.net`. Adobe recommends using your organization's company ID for consistency. For example, `example.data.adobedc.net`. Use the following steps to determine your company ID:
   
-1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Anywhere in the CX Enterprise interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
 1. A **[!UICONTROL User data debugger]** appears. Select the **[!UICONTROL Assigned orgs]** tab.
 1. Expand the desired IMS organization.

@@ -1,5 +1,5 @@
 ---
-description: Understand how Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe CX Enterprise, Adobe Target, and other integrated Adobe products.
+description: Understand how Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, Adobe CX Enterprise, Adobe Target, and other integrated Adobe products.
 keywords: segmentation;segments
 title: Segmentation Overview
 feature: Segmentation
@@ -31,7 +31,7 @@ topic_v2:
 ---
 # Segmentation overview
 
-Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe CX Enterprise, Adobe Target, and other integrated Adobe products.
+Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, Adobe CX Enterprise, Adobe Target, and other integrated Adobe products.
 
 Analytics segmentation includes the [Segment builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to construct segments and run a pre-test, and the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) to collect, tag, approve, set security, and share segments across your organization.
 

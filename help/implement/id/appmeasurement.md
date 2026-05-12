@@ -33,7 +33,7 @@ topic_v2:
 ---
 # Visitor identification using AppMeasurement
 
-AppMeasurement is Adobe Analytics' legacy JavaScript library for data collection. While AppMeasurement by itself offers a native way to identify visitors, many modern browsers reject the third-party cookies that it attempts to set. Adobe strongly recommends using the Adobe CX Enterprise Visitor ID Service in all implementations to conform to modern browser privacy standards. All versions of AppMeasurement come bundled with `VisitorAPI.js`, the JavaScript library used to implement the Visitor ID Service.
+AppMeasurement is Adobe Analytics' legacy JavaScript library for data collection. While AppMeasurement by itself offers a native way to identify visitors, many modern browsers reject the third-party cookies that it attempts to set. Adobe strongly recommends using the Adobe Experience Cloud Visitor ID Service in all implementations to conform to modern browser privacy standards. All versions of AppMeasurement come bundled with `VisitorAPI.js`, the JavaScript library used to implement the Visitor ID Service.
 
 ## Identifying visitors using the Visitor ID Service (recommended)
 
@@ -43,7 +43,7 @@ Ensure that you are prepared with the following:
 * A development [Report suite ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * The desired edge domain for [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Your IMS org ID:
-  1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
+  1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
   1. Anywhere in the CX Enterprise interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
   1. A **[!UICONTROL User data debugger]** appears. Select the **[!UICONTROL Assigned orgs]** tab.
   1. Expand the desired IMS organization.

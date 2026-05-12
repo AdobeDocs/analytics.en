@@ -1,5 +1,5 @@
 ---
-description: Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
+description: Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 solution: Analytics
 title: Server-side forwarding overview
 feature: Report Suite Settings
@@ -26,7 +26,7 @@ topic_v2:
 ---
 # Server-side forwarding overview
 
-Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
+Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 
 Server-side forwarding improves upon data collection because it:
 

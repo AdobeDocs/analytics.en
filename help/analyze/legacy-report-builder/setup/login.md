@@ -32,7 +32,7 @@ To log in to Report Builder, use your CX Enterprise login account.
 
 ## Log in to Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-The CX Enterprise login lets you use your Enterprise ID (email and password) to log in to the Adobe CX Enterprise. 
+The CX Enterprise login lets you use your Enterprise ID (email and password) to log in to Adobe CX Enterprise. 
 
 Click **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. For more information on Enterprise ID, see [Sign in to your company or school account](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
 

@@ -26,7 +26,7 @@ topic_v2:
 ---
 # APIs affected by the user migration{#apis-affected-by-the-migration}
 
-Adobe is migrating all Analytics login companies a way from [!DNL my.omniture.com] and onto authentication via the Adobe CX Enterprise. Once a company begins this migration, programmatic user creation and management through the Analytics-specific permissions and `GetLoginKey` methods available via v1.3 and v1.4 of the Analytics Admin API will no longer be supported. Such actions will now be enabled across CX Enterprise via `adobe.io`.
+Adobe is migrating all Analytics login companies a way from [!DNL my.omniture.com] and onto authentication via Adobe CX Enterprise. Once a company begins this migration, programmatic user creation and management through the Analytics-specific permissions and `GetLoginKey` methods available via v1.3 and v1.4 of the Analytics Admin API will no longer be supported. Such actions will now be enabled across CX Enterprise via `adobe.io`.
 
 ## API Methods Affected {#methods}
 

@@ -1,7 +1,7 @@
 ---
 description: Learn how to use FTP and SFTP to transfer files between computers and servers.
 keywords: ftp;sftp
-title: Use FTP and SFTP with the Adobe CX Enterprise
+title: Use FTP and SFTP with Adobe CX Enterprise
 feature: FTP Export
 exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
 TQID: https://experienceleague.adobe.com/W39ve3nF5Hd69iTVvI0lbgt6JRQ67IpzEG018UYso2s
@@ -14,7 +14,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Use FTP and SFTP with the Adobe CX Enterprise
+# Use FTP and SFTP with Adobe CX Enterprise
 
 Learn how to use FTP and SFTP to transfer files between computers and servers.
 

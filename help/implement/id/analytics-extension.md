@@ -29,7 +29,7 @@ The Adobe Analytics tag extension provides allows you to implement AppMeasuremen
 
 To use the Visitor ID Service using the Adobe Analytics tag extension, include the Experience Cloud ID Service tag extension in your tag property.
 
-1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Navigate to **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
 1. Locate the desired tag property.
 1. Navigate to **[!UICONTROL Extensions]**, then select the **[!UICONTROL Catalog]** tab.

@@ -80,7 +80,7 @@ ITP policies are frequently evolving. For the latest policies, see Apple's [Trac
 
 All first-party cookies set by Adobe, and the related JavaScript libraries, are affected by ITP policies:
 
-* ["AMCV" cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) set by the Adobe CX Enterprise Visitor ID (ECID) service library
+* ["AMCV" cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) set by the Adobe Experience Cloud Visitor ID (ECID) service library
 * The Analytics legacy ["s_vi" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) when it is configured with first-party data collection using a CNAME
 * The Analytics legacy ["s_fid" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), which is the fallback cookie used when "s_vi" cannot be set
 

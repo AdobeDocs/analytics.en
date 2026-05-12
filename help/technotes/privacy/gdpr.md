@@ -40,7 +40,7 @@ As the data controller, you determine the personal data that Adobe processes and
 
 ## How Adobe Handles GDPR Data
 
-The Adobe CX Enterprise provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe CX Enterprise enable a direct linkage of data governance policy to data usage.
+Adobe CX Enterprise provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of Adobe CX Enterprise enable a direct linkage of data governance policy to data usage.
 
 Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for GDPR readiness and how to integrate with the Adobe CX Enterprise GDPR API.
 

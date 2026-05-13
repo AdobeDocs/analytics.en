@@ -3,6 +3,20 @@ title: Manage Data Feed Jobs
 description: Learn how to manage individual jobs in data feeds. Navigate the interface, use filters and search, and find column definitions.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+TQID: https://experienceleague.adobe.com/gbbWfT4BTiEfr41Og6ICrB5qfQVJGUmaZaf85ZcB6ww
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Manage data feed jobs {#manage-data-feed-jobs}
 

@@ -3,31 +3,51 @@ title: Streaming media services core dimensions
 description: Available dimensions when you enable [!UICONTROL Media Core] for a report suite.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Streaming media services core dimensions
 
-*This page describes the available dimensions when you enable [!UICONTROL Media Core] for a report suite. See [Streaming media services core metrics](../metrics/sm-core.md) for available metrics.*
+Streaming media services core dimensions provide basic reporting functionality for data collected through streaming media collection libraries. These dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
 
-Streaming media services core dimensions provide basic reporting functionality to data collected through streaming media services libraries. Use of these dimensions require the **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Contact your Adobe Account Team for details.
+To use these dimensions, enable **[!UICONTROL Media Core]** under [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) for the report suite.
 
-When you enable **[!UICONTROL Media Core]** under [Media reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), the following dimensions are available:
+The following dimensions are available:
 
-| Dimension name | Description | Sent with | Context data variable | XDM field |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Content]** | Content ID of the content. | Media Start, Media Close | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL Content channel]** | The distribution station or channel where the content is played. Any string value is valid. | Media Start, Media Close | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL Content length (variable)]** | The maximum length (or duration) of the content consumed, in seconds. This dimension is required for several metrics, including '[!UICONTROL Average minute audience]'. If this dimension is not set, dependent metrics are not available.<br><br>A classification dimension named '[!UICONTROL Video length]' is also available, which provides a similar purpose. This dimension and the classification are treated as two distinct dimensions. | Media Start, Media Close | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL Content name (variable)]** | The friendly name of the content. A classification named '[!UICONTROL Video name]' is also available, which provides a similar purpose. This dimension and the classification are treated as two distinct dimensions. | Media Start, Media Close | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL Content player name]** | The name of the content player. | Media Start, Media Close | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL Content segment]** | The interval that describes the part of the content that has been viewed, in minutes. The segment is computed as min and max of the playhead values during a playback session. | Media Close | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL Content type]** | The type of content. Valid values include `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD`, or a custom value. | Media Start, Media Close | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL Media path]** | The path that the visitor took to reach the content. | Media Start | `a.media.path` | |
-| **[!UICONTROL Media session ID]** | Identifies an instance of a content stream unique to an individual playback. | Media Start, Media Close | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL Stream type]** | The stream type. Valid values include `audio` and `video`. | Media Start, Media Close | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL Content]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL Content channel]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL Content length (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL Content name (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL Content player name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL Content segment]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL Content type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL Media path]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL Media session ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL Stream type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 In addition to the above dimensions, Adobe automatically creates the following classification dimensions. You must upload classification data to view reports that use these dimensions.
 
-| Classification name | Parent dimension | Description |
-| --- | --- | --- |
-| **[!UICONTROL Video length]** | [!UICONTROL Content] | The maximum length (or duration) of the content consumed, in seconds. Metrics that depend on content length cannot use this classification; you must create a calculated metric to obtain metrics such as '[!UICONTROL Average minute audience]' using this classification. |
-| **[!UICONTROL Video name]** | [!UICONTROL Content] | The friendly name of the content. It is the classification equivalent of '[!UICONTROL Content name (variable)]'. |
+| Classification name | Parent dimension |
+| --- | --- |
+| [[!UICONTROL Video length]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Content] |
+| [[!UICONTROL Video name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Content] |
+
+See [Streaming media services core metrics](../metrics/sm-core.md) for corresponding metrics.

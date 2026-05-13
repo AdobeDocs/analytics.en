@@ -4,6 +4,16 @@ description: Recognize the common identifiers of bots.
 feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
+TQID: https://experienceleague.adobe.com/5pfpWlD50DyOhSADhRnchl-bclDhdpFFS5mjl0M9AoQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Common bot signatures
 

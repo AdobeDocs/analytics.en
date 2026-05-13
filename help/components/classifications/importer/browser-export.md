@@ -3,6 +3,21 @@ title: Browser export
 description: Browser export lets you export your classification data to a tab-delimited file.
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
+TQID: https://experienceleague.adobe.com/ANvaOLL9nnb1tnG-gsmzSzkZk2ame-SJfQzyT6rGq2w
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Browser export (legacy)
 

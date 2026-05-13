@@ -3,6 +3,15 @@ title: Attribution Best Practices
 description: Understand the best practices to decide on which attribution model to use.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
+TQID: https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 ---
 # Attribution best practices
 

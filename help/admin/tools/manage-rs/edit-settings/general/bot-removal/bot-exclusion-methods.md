@@ -4,6 +4,20 @@ description: Lets you compare different methods of excluding bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 role: Admin
 feature: Bot Removal
+TQID: https://experienceleague.adobe.com/zm3kClXgzo6sKMk20XKWGI66s2kjk4VZ2ohDj41JAes
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Comparison of different bot exclusion methods
 

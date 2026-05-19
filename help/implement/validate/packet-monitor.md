@@ -33,7 +33,7 @@ topic_v2:
 
 Packet analyzers let you view the data sent by your implementation to Adobe data collection servers.
 
-Similar to the Adobe Experience Cloud debugger, a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
+Similar to the Adobe CX Enterprise debugger, a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
 
 * View custom link tracking image requests 
 * View image requests using implementation methods other than JavaScript, such as hard-coded image requests or [!DNL Appmeasurement]

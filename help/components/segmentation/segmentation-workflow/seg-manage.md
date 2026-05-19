@@ -47,7 +47,7 @@ The segments list ➊ displays all the segments that you own, the segments that 
 | **[!UICONTROL Owner]** | The owner of the segment. As a user, you only see the segments that you own or the annotations that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this segment. |
 | **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](t-seg-share.md) for more information. |
-| **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to Experience Cloud. |
+| **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to CX Enterprise. |
 | **[!UICONTROL Date modified]** | The date and time that the segment was last modified. |
 
 Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to specify which columns you want to display.

@@ -1,5 +1,5 @@
 ---
-description: Configure an Experience Cloud mapped report suite for use in Advertising Analytics.
+description: Configure a CX Enterprise mapped report suite for use in Advertising Analytics.
 title: Enable report suite for Advertising Analytics
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
@@ -21,11 +21,11 @@ topic_v2:
 ---
 # Enable report suite for Advertising Analytics
 
-To see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
+To see any Advertising Analytics search data in Analytics, you need to configure each CX Enterprise-mapped report suite for Advertising Analytics reporting.
 
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Select the report suite that is mapped to your Experience Cloud organization.
+1. Select the report suite that is mapped to your CX Enterprise organization.
 1. Click **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![Reporting](assets/aa-reporting.png)

@@ -32,7 +32,7 @@ This article describes a suggested workflow to create segments with the Segment 
 | 4 | [ Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Tag segments for ease of organization and sharing. See how to plan and assign tags for simple and advanced searches and organization. |
 | 5 | [ Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approve segments to make them canonical. |
 | 6 | [Use segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | You can apply segments from the segments components directly to a report. |
-| 7 | [ Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Share your segments with the intended audience in other Analytics tools and to Adobe Target and the Adobe Experience Cloud. |
+| 7 | [ Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Share your segments with the intended audience in other Analytics tools and to Adobe Target and Adobe CX Enterprise. |
 | 8 | [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filter by tags, owners, and other filters (Show All, Mine, Shared With me, Favorites, and Approved.) |
 | 9 |[Mark segment as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Marking segments as favorites is another way to organize them for ease of use. |
 

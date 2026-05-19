@@ -55,4 +55,4 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuring gene
 | Multi-byte character support | Multibyte character support stores characters in the report suite using UTF-8. Upon receipt, the system converts data from your web page's character set to the UTF-8 character set, so you can use any language in your marketing reports. Contact your Adobe Account Team or Customer Care to change the multibyte character support for an existing report suite. |
 | Activated | Specifies whether this report suite is activated or not. |
 | Base currency | Lets you specify the base [currency](/help/implement/vars/config-vars/currencycode.md) for this report suite. |
-| Organization ID | The ID associated with your provisioned Experience Cloud company. This ID is a 24-character alphanumeric string, followed by (and must include) @AdobeOrg. |
+| Organization ID | The ID associated with your provisioned CX Enterprise company. This ID is a 24-character alphanumeric string, followed by (and must include) @AdobeOrg. |

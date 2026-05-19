@@ -1,5 +1,5 @@
 ---
-description: Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+description: Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 solution: Analytics
 title: Server-side forwarding overview
 feature: Report Suite Settings
@@ -26,12 +26,12 @@ topic_v2:
 ---
 # Server-side forwarding overview
 
-Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 
 Server-side forwarding improves upon data collection because it:
 
 * Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site.
-* Lets you take advantage of data sharing among Experience Cloud solutions.
+* Lets you take advantage of data sharing among CX Enterprise solutions.
 * Conforms with our best practices for Audience Manager code implementation and deployment.
 
 >[!TIP]
@@ -83,4 +83,4 @@ Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**)
 
 >[!NOTE]
 >
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) or [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
+>Data will not appear in other CX Enterprise solutions, such as [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) or [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.

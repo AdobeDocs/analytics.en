@@ -20,9 +20,9 @@ topic_v2:
 ---
 # Adobe Analytics first admin guide
 
-Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in Experience Cloud. The first admin can then provision users in the organization with other key roles.
+Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in CX Enterprise. The first admin can then provision users in the organization with other key roles.
 
-A first admin is the starting point in enabling the rest of the organization to use each Experience Cloud solution, including Adobe Analytics. 
+A first admin is the starting point in enabling the rest of the organization to use each CX Enterprise solution, including Adobe Analytics. 
 
 ## Provisioning process for a first admin
 

@@ -43,8 +43,8 @@ Ensure that you are prepared with the following:
 * A development [Report suite ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * The desired edge domain for [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Your IMS org ID:
-  1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
-  1. Anywhere in the Experience Cloud interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
+  1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
+  1. Anywhere in the CX Enterprise interface, press `[Cmd]` + `[I]` (iOS) or `[Ctrl]` + `[I]` (Windows).
   1. A **[!UICONTROL User data debugger]** appears. Select the **[!UICONTROL Assigned orgs]** tab.
   1. Expand the desired IMS organization.
   1. Locate the **[!UICONTROL ID]** field.

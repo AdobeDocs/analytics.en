@@ -19,7 +19,7 @@ feature_v2:
     internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-    internal-label: Experience Cloud integration
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
 role_v2:
@@ -58,7 +58,7 @@ The following table compares these two methods:
 | Visitor ID service | Not supported | Supported |
 | Video and link tracking | Partial support | Not yet supported |
 | Difficulty of implementation | Difficult | Relatively easy |
-| Adobe Experience Cloud integrations | Not supported | Partial support |
+| Adobe CX Enterprise integrations | Not supported | Partial support |
 
 Weigh the pros and cons so that you can choose the best implementation method for your organization.
 

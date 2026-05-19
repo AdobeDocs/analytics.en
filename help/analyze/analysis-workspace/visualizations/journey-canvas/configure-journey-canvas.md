@@ -2,7 +2,6 @@
 description: Understand how to configure a journey canvas visualization.
 title: Configure A Journey Canvas Visualization
 feature: Visualizations
-hide: true
 role: User, Admin
 ---
 # Configure a Journey canvas visualization {#configure-journey-canvas}
@@ -141,7 +140,7 @@ You create nodes in the following ways: by dragging Workspace components from th
 
 1. Repeat this process to continue adding nodes to build out your journey. 
 
-1. Continue customizing the journey as described in the sections below. You can connect nodes, rename nodes, apply breakdowns, create audiences, add time constraints, and more. 
+1. Continue customizing the journey as described in the sections below. You can connect nodes, rename nodes, apply breakdowns, add time constraints, and more. 
 
 ### Show the top nodes based on existing nodes
 
@@ -435,6 +434,8 @@ The option to apply a breakdown to your data is available for the following obje
 
 * Multiple arrows between nodes
 
+* Fallout data (when fallout is shown on a node)
+
 Consider the following when applying a breakdown:
 
 * Breakdowns are applied to the primary metric. The secondary metric is not affected.
@@ -445,15 +446,17 @@ Consider the following when applying a breakdown:
 
 * Breakdown data is updated if changes are made at an earlier point in the journey.
 
-#### Apply a breakdown to one or more nodes or arrows
+#### Apply a breakdown to nodes, arrows, or fallout data
 
-1. In a Journey canvas visualization, select one or more nodes where you want to apply a breakdown, then right-click one of the selected nodes.
+1. In a Journey canvas visualization, do any of the following:
 
-   Or
+   * Right-click the fallout that is coming off a node (when fallout is shown) for which you want to apply a breakdown.
+   
+   * Select one or more nodes for which you want to apply a breakdown, then right-click one of the selected nodes.
 
-   In a Journey canvas visualization, select one or more arrows between 2 nodes where you want to apply the breakdown, then right-click one of the selected arrows.
+   * Select one or more arrows between 2 nodes for which you want to apply a breakdown, then right-click one of the selected arrows.
 
-   To select multiple nodes or arrows, hold Command (on Mac) or Ctrl (on Windows).
+     To select multiple nodes or arrows, hold Command (on Mac) or Ctrl (on Windows).
 
 1. Select [!UICONTROL **Breakdown**].
 
@@ -499,21 +502,33 @@ The option to trend is available for the following objects on the canvas:
 
 * Multiple arrows between nodes
 
+* Fallout data (when fallout is shown on a node)
+
 To view trend data:
 
-1. In a Journey canvas visualization, select one or more nodes for which you want to view trend data, then right-click one of the selected nodes.
+1. In a Journey canvas visualization, do any of the following:
 
-   Or
+   * Right-click the fallout that is coming off a node (when fallout is shown) for which you want to view trend data.
+   
+   * Select one or more nodes for which you want to view trend data, then right-click one of the selected nodes.
 
-   In a Journey canvas visualization, select one or more arrows between 2 nodes for which you want to view trend data, then right-click one of the selected arrows.
+   * Select one or more arrows between 2 nodes for which you want to view trend data, then right-click one of the selected arrows.
 
-   To select multiple nodes or arrows, hold Command (on Mac) or Ctrl (on Windows).
+     To select multiple nodes or arrows, hold Command (on Mac) or Ctrl (on Windows).
 
 1. Select [!UICONTROL **Trend**].
 
-### Create a segment based on a node or arrow
+### Create a segment based on a node, arrow, or fallout
 
-You can create a new segment based on a node or arrow within a journey. After the segment is created, you can use it anywhere in Analysis Workspace. 
+The option to create a segment is available for the following objects on the canvas:
+
+* Individual nodes
+
+* The arrows between nodes
+
+* Fallout data (when fallout is shown on a node)
+
+After the segment is created, you can use it anywhere in Analysis Workspace. 
 
 Segments created from Journey canvas use [sequential segmenting](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). This means that the segment uses the THEN operator to link together the sequence of events (the journey) that people flowed through, leading up to the selected node or arrow. All events that match the selected node or arrow are included in the segment.
 
@@ -521,9 +536,9 @@ If you create a segment based on a node that has multiple paths flowing into it,
 
 To create a segment:
 
-1. In a Journey canvas visualization, right-click the node or arrow that you want to use to create the segment.
+1. In a Journey canvas visualization, right-click the node, arrow, or fallout data that you want to use to create the segment.
 
-1. Select [!UICONTROL **Create segment from node**] or [!UICONTROL **Create segment from arrow**].
+1. Select [!UICONTROL **Create segment from node**], [!UICONTROL **Create segment from arrow**], or [!UICONTROL **Create segment from fallout**].
 
    The Segment builder displays. In the [!UICONTROL **Definition**] section, the segment definition is created based on the node or arrow you selected and its context within the journey. 
 
@@ -540,6 +555,22 @@ To delete nodes in Journey canvas:
 1. In a Journey canvas visualization, select one or more nodes that you want to delete, then right-click one of the selected nodes.
 
 1. Select [!UICONTROL **Delete**].
+
+### Exclude nodes
+
+When you exclude a node from a journey, the journey data is updated to exclude journeys that went through that node. The segment definition for the journey is also updated to exclude journeys that went through that node.
+
+To exclude a node from a journey:
+
+1. In a Journey canvas visualization, right-click the node that you want to exclude.
+
+1. Select [!UICONTROL **Exclude from journey**].
+
+To re-include an excluded node in the journey:
+
+1. In a Journey canvas visualization, right-click the excluded node.
+
+1. Select [!UICONTROL **Remove journey exclusion**].
 
 ### Delete arrows between nodes
 

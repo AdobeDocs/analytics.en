@@ -2,7 +2,6 @@
 description: Learn ho to use the journey canvas in Analysis Workspace.
 title: Journey Canvas Overview
 feature: Visualizations
-hide: true
 role: User, Admin
 ---
 # Journey canvas overview {#journey-canvas-overview}

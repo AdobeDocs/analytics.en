@@ -2,7 +2,6 @@
 description: Learn how to use the Journey canvas visualization in Analysis Workspace to analyze user journeys, fallout, and multi-path conversions.
 title: Journey Canvas Troubleshooting
 feature: Visualizations
-hide: true
 role: User, Admin
 ---
 # Journey canvas troubleshooting

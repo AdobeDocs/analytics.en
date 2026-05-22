@@ -4,7 +4,7 @@ title: Adobe Analytics dashboards executive guide
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-TQID: https://experienceleague.adobe.com/3ixzbDDfd6T1YbGDD-U1mHUEmaGcAUIaVGGTF6jaCDg
+TQID: 'https://experienceleague.adobe.com/3ixzbDDfd6T1YbGDD-U1mHUEmaGcAUIaVGGTF6jaCDg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -17,6 +17,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+subfeature_v2:
+  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+    internal-label: Dashboards scorecard builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

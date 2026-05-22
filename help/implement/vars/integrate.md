@@ -4,13 +4,18 @@ description: The Integrate Module allows Adobe partners to integrate their data 
 feature: Appmeasurement Implementation
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/4RfEY-mGPVvRz5OQuGe5DwoCKThVHtNf3pMUFfFzqoE
+TQID: 'https://experienceleague.adobe.com/4RfEY-mGPVvRz5OQuGe5DwoCKThVHtNf3pMUFfFzqoE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

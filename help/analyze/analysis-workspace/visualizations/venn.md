@@ -5,7 +5,7 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-TQID: https://experienceleague.adobe.com/UG-cNvOpiJSiGfnUSvzDgWq-HemBgcHcgSebJCFtaD8
+TQID: 'https://experienceleague.adobe.com/UG-cNvOpiJSiGfnUSvzDgWq-HemBgcHcgSebJCFtaD8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -11,6 +11,13 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

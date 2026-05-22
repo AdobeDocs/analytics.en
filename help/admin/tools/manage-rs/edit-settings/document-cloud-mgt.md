@@ -3,7 +3,7 @@ description: You can view Document Cloud data in Adobe Analytics
 title: Configure Document Cloud Analytics
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-TQID: https://experienceleague.adobe.com/ahe8Q6QZbiBxKEVeWcoEjGgmCzeZi0-kQEAWKUWus6M
+TQID: 'https://experienceleague.adobe.com/ahe8Q6QZbiBxKEVeWcoEjGgmCzeZi0-kQEAWKUWus6M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

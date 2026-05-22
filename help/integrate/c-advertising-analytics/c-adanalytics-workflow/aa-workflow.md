@@ -16,6 +16,11 @@ feature_v2:
     internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

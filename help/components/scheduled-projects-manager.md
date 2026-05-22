@@ -3,7 +3,7 @@ description: Learn how to manage scheduled projects.
 title: Scheduled Projects
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-TQID: https://experienceleague.adobe.com/yLFSPLIjDENmo92-l64bKxb7C6U-UFs75W6BNcQaRwk
+TQID: 'https://experienceleague.adobe.com/yLFSPLIjDENmo92-l64bKxb7C6U-UFs75W6BNcQaRwk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,6 +16,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+    internal-label: Project info and settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

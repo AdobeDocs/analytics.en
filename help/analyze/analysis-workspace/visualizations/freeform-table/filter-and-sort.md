@@ -4,7 +4,7 @@ title: Filter And Sort
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-TQID: https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U
+TQID: 'https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,6 +15,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+subfeature_v2:
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

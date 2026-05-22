@@ -6,6 +6,12 @@ TQID: 'https://experienceleague.adobe.com/4PVDioBDa-1VXg9Fpy0wA8-RZZYSXzVijj-b2k
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+    internal-label: Experience Platform Edge integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -8,6 +8,9 @@ TQID: 'https://experienceleague.adobe.com/bTksilYRAeqiQ-QbO6-NZLWUndN76VzXnOobkA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

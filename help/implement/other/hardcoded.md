@@ -4,13 +4,18 @@ description: Implement Adobe Analytics using an HTML image tag (hardcoded image 
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 role: Developer
-TQID: https://experienceleague.adobe.com/XXUtfW2sg1vMECfIEVseUavNhWshzpP-ifcIxu7KzmQ
+TQID: 'https://experienceleague.adobe.com/XXUtfW2sg1vMECfIEVseUavNhWshzpP-ifcIxu7KzmQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -7,6 +7,12 @@ TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

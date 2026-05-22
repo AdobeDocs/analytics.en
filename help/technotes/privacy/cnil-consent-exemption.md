@@ -4,7 +4,7 @@ title: What are the CNIL guidelines for user's consent and cookies
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-TQID: https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw
+TQID: 'https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Reports
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

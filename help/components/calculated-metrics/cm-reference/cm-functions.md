@@ -4,7 +4,7 @@ description: Learn about basic calculated metrics functions.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-TQID: https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c
+TQID: 'https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,9 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -5,13 +5,18 @@ title: Processing rules overview
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-TQID: https://experienceleague.adobe.com/fiWUPrFezgDFX-mx-ogHH1wXYgtUF9vAgLjay9z6vsU
+TQID: 'https://experienceleague.adobe.com/fiWUPrFezgDFX-mx-ogHH1wXYgtUF9vAgLjay9z6vsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

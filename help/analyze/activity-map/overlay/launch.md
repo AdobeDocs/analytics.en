@@ -4,7 +4,7 @@ title: Launch Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-TQID: https://experienceleague.adobe.com/l4XhcljAsgbfiCHl-txCF2xRqzmtKSnbepzAv9QFiV8
+TQID: 'https://experienceleague.adobe.com/l4XhcljAsgbfiCHl-txCF2xRqzmtKSnbepzAv9QFiV8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

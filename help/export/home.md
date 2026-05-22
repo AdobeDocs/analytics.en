@@ -3,10 +3,21 @@ title: Analytics Export Guide
 description: This guide outlines ways to get data out of Adobe Analytics using data feeds and Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
+autotag-review: '2026-05-22T11:15:33.108Z'
 TQID: 'https://experienceleague.adobe.com/JlCT4gMftATb0LzdgRWyACV0WyY7nnT-LkrUNYuzu7Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+    internal-label: Data Warehouse
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+    internal-label: FTP Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

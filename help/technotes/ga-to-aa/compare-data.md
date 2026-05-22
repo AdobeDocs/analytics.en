@@ -3,13 +3,18 @@ title: Compare Adobe Analytics data to third-party products
 description: Understand your options when directly comparing data in Adobe Analytics to data collected by other Analytics solutions.
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-TQID: https://experienceleague.adobe.com/I-zMxnrvOOk3NUjeQFbcrIq0nAPO6AAaO0eznskChgQ
+TQID: 'https://experienceleague.adobe.com/I-zMxnrvOOk3NUjeQFbcrIq0nAPO6AAaO0eznskChgQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: a60fda7a-bb0b-4eb6-b9fe-77558cbee1fa
+    internal-label: Third party integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

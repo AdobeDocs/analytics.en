@@ -4,7 +4,7 @@ description: Welcome to the Adobe Analytics digital experience onboarding series
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+TQID: 'https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,6 +15,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

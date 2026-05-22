@@ -4,7 +4,8 @@ description: Learn about the features that help you to understand the customer e
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 feature: Visualizations
-TQID: https://experienceleague.adobe.com/fs5WDvy7PYenHQ2wfJcyLDlSpm-lMEzZsWco9uScnZc
+autotag-review: '2026-05-22T09:20:17.228Z'
+TQID: 'https://experienceleague.adobe.com/0CYLMPem1q6Qn7EC9cemFS92tLlw10dstoBl5MrvVlQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -24,6 +25,8 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 ---
 # Journey management features
 

@@ -4,7 +4,7 @@ title: Create And Manage Templates
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+TQID: 'https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
+subfeature_v2:
+  - id: afb76b85-c4c7-4167-959c-8c31401f54be
+    internal-label: Project canvas
 ---
 # Create and manage templates
 

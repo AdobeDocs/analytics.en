@@ -8,6 +8,9 @@ TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O3
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

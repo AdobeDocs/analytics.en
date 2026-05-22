@@ -5,7 +5,7 @@ title: Requirements
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-TQID: https://experienceleague.adobe.com/8C-3YDNeCgtr3c-9xeCZnCpHNWid-p7on7Y-WnpWcdQ
+TQID: 'https://experienceleague.adobe.com/8C-3YDNeCgtr3c-9xeCZnCpHNWid-p7on7Y-WnpWcdQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,11 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

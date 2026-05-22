@@ -4,10 +4,18 @@ title: GDPR/ePrivacy compliance and server-side forwarding
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

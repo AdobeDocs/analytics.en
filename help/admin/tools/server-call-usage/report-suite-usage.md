@@ -4,10 +4,18 @@ title: View report suite usage
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
-TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
+TQID: 'https://experienceleague.adobe.com/sA3dNQtSIT-j0SnIWh7nPtbRBwk-jQ1z01NoEuReTys'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

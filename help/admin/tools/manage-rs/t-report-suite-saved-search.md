@@ -3,10 +3,17 @@ description: Steps that describe how to define a set of criteria that determines
 title: Save a report suite search
 feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
-TQID: https://experienceleague.adobe.com/11h71jL21hov3W-2VPx-Ku4kDzAHIt9rEqmYH9GRQiU
+autotag-review: '2026-05-19T13:36:08.659Z'
+TQID: 'https://experienceleague.adobe.com/soGlyJFiPX7JVGlWOmIpaYWsI6PJAbAvxEY-95WNba0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,7 +4,7 @@ title: Data Insertion API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 role: Admin
-TQID: https://experienceleague.adobe.com/cEsfgydFgbFPowfsyiay6EYWP7S7pjMvqJNcDqfLu9I
+TQID: 'https://experienceleague.adobe.com/cEsfgydFgbFPowfsyiay6EYWP7S7pjMvqJNcDqfLu9I'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

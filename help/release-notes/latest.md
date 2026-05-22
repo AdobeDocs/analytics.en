@@ -3,7 +3,7 @@ title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-TQID: https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8
+TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

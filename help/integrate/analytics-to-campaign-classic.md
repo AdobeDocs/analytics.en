@@ -3,7 +3,8 @@ description: Information about the reference architecture, ​guidelines, config
 title: How to integrate Analytics with Adobe Campaign
 feature: Admin Tools
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-TQID: https://experienceleague.adobe.com/YuJEdoaabjvAByGIYhkf3FoJg1UA0EENn-1ehh98O6c
+autotag-review: '2026-05-22T12:18:13.093Z'
+TQID: 'https://experienceleague.adobe.com/i3vkC67PHATgrWiwjsdP7BNX7m3NE0TFtMbJdlLtsQo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +13,13 @@ feature_v2:
     internal-label: Integrations
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4
+    internal-label: Campaign integration
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

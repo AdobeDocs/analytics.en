@@ -4,10 +4,16 @@ keywords: ftp;sftp
 title: Data Sources overview
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-TQID: https://experienceleague.adobe.com/Mq4r5p1872tIxfjts7HOq50XWky12Oy4fTi9ajzbAsc
+TQID: 'https://experienceleague.adobe.com/3i-ms9Q49CUmEwXiQLek15S3-Kvvh0IIv19-hm01EN0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+    internal-label: FTP Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

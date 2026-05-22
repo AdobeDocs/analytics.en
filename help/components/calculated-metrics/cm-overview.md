@@ -4,7 +4,8 @@ keywords: Calculated Metrics
 title: Calculated Metrics Overview
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
+autotag-review: '2026-05-22T11:11:01.439Z'
+TQID: 'https://experienceleague.adobe.com/JjrOp20i9YXIvlNjvUIyPoyoqOaAlYzIi2r25IXogHQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,6 +16,11 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

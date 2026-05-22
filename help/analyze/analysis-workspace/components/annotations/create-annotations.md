@@ -4,7 +4,7 @@ description: Learn how to create annotations in Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-TQID: https://experienceleague.adobe.com/nuQ2gCQyCh1yBj1sjvAL4hpVydikcBvOTWgqJFiDRsM
+TQID: 'https://experienceleague.adobe.com/nuQ2gCQyCh1yBj1sjvAL4hpVydikcBvOTWgqJFiDRsM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -17,6 +17,11 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: e1cb59ec-5b9a-407a-a184-15400a765082
+    internal-label: Annotations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -3,10 +3,13 @@ title: Troubleshoot Data Feeds
 description: Learn about reasons why a data feed job might fail to process or deliver data. Resolve potential issues with data feeds.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

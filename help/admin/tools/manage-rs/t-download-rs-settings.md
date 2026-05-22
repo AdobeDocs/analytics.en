@@ -3,10 +3,17 @@ description: Steps that describe how to generate an Excel spreadsheet containing
 title: Download report suite settings
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-TQID: https://experienceleague.adobe.com/FmVwcrkS-SE0BIz-VhnbSkozG4uTdwOn85pmP9vvlvA
+autotag-review: '2026-05-19T13:35:43.340Z'
+TQID: 'https://experienceleague.adobe.com/BbRHNbT2FVGCo5YZ0JfkvVT-hKwra-UcA06QB2krsC8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

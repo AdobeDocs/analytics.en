@@ -4,10 +4,13 @@ description: Install the Legacy debugger. This debugger inspects tags for Analyt
 feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/igbKBwN0NmXCPRi9Rc1UtG7Ty1ffpd0rwyWEOTWPWdk
+TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,6 +3,21 @@ description: Analytics and Audience Manager both use segments. However, an Analy
 title: Understand segments in Analytics and Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
+TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Understand segments in Analytics and Audience Manager
 

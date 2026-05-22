@@ -3,10 +3,16 @@ title: Dynamic lookups
 description: Learn about what dynamic lookups are and how to enable them. Includes carriers, mobile attributes, and operating system types.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-TQID: https://experienceleague.adobe.com/hKuBXw8dX419msIgSjvd3Dl5uE4rJS6nouIbR18RmVo
+TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

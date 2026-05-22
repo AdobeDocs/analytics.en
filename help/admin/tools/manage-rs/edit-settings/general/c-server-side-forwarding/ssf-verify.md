@@ -5,13 +5,18 @@ title: How to verify your server-side forwarding implementation
 feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-TQID: https://experienceleague.adobe.com/FpB4dk9D87gc24t5KG6WRJ-r8GFOvOEUlRTTjc6XFYI
+TQID: 'https://experienceleague.adobe.com/FpB4dk9D87gc24t5KG6WRJ-r8GFOvOEUlRTTjc6XFYI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

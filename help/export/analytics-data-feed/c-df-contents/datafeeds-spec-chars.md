@@ -5,10 +5,16 @@ subtopic: data feeds
 title: Special characters in data feeds
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-TQID: https://experienceleague.adobe.com/2ekzWPqnIapW2Vrqg6DL9qDf9EcPG2-iLY4NdbdhKNI
+TQID: 'https://experienceleague.adobe.com/jNnPgkpVea1R-uUcOiV7UDRc8TdGjhov9yFCvgfitMA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

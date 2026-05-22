@@ -4,13 +4,16 @@ title: Migrate Analytics user accounts for Enterprise and Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-TQID: https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0
+TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

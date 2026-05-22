@@ -4,10 +4,16 @@ description: Customize how Activity Map collects the link clicked.
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-TQID: https://experienceleague.adobe.com/BfvVQ2QOXfd91kd3Aah02cz0GvibPo8v-8nThdqFckA
+TQID: 'https://experienceleague.adobe.com/5NCARDGth07l5vixudVzLrE7FVrh82PS4xNrJ61gnow'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

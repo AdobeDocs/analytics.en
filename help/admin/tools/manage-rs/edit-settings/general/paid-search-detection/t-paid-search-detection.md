@@ -4,13 +4,16 @@ title: Configure paid search detection
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 role: Admin
-TQID: https://experienceleague.adobe.com/lyUBkk1p4mB0-pJbMx2YACWdUIo-FEx-b2UJyOZ4eq8
+TQID: 'https://experienceleague.adobe.com/lyUBkk1p4mB0-pJbMx2YACWdUIo-FEx-b2UJyOZ4eq8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

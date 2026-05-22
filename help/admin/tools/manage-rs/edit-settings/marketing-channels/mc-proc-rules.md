@@ -4,7 +4,7 @@ description: Use rules to determine which marketing channel a hit belongs to.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-TQID: https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0
+TQID: 'https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,13 @@ feature_v2:
     internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

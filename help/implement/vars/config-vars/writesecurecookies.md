@@ -4,10 +4,16 @@ description: Allows AppMeasurement to set cookies with the Secure attribute.
 feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/-tuPYoFSzQb6-auIIAuihn--8Hb6vTKjIhhFd1XfXRQ
+TQID: 'https://experienceleague.adobe.com/Eifs1WrhCzcOdHJ2HJADqZrIkNFgC7h76do3W56otjA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -20,8 +26,6 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 ---
 # writeSecureCookies
 

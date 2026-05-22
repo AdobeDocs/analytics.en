@@ -4,7 +4,7 @@ solution: Analytics
 title: Audience Analytics Workflow overview
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
-TQID: https://experienceleague.adobe.com/8wGeihAHDE7T6zFx98ZnS7fwxJAHMulLG2kIeJ2ceDA
+TQID: 'https://experienceleague.adobe.com/8wGeihAHDE7T6zFx98ZnS7fwxJAHMulLG2kIeJ2ceDA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

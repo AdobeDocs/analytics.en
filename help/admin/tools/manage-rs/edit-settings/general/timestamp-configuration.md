@@ -5,7 +5,7 @@ feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 role: Admin
-TQID: https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM
+TQID: 'https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Reports
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

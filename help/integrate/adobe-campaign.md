@@ -4,7 +4,8 @@ title: How do I integrate Adobe Campaign Standard Reporting into Adobe Analytics
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-TQID: https://experienceleague.adobe.com/UDRvl0wXDXPY-iyj6UTCq5tefmZ18qnWdM1kTNOqA4s
+autotag-review: '2026-05-22T12:17:50.968Z'
+TQID: 'https://experienceleague.adobe.com/r-zrWBcHhMkxptxKlfZ0Xaw-UsYc9QIIqQgSbyTertA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -17,6 +18,13 @@ feature_v2:
     internal-label: Integrations
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: b13acd70-7a51-4028-8c44-5f3b1bbe3ad4
+    internal-label: Campaign integration
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

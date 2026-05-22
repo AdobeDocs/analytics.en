@@ -6,10 +6,16 @@ title: Connect users across devices
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-TQID: https://experienceleague.adobe.com/ng7SveQJp8v2SHECUo64-w438ZlbrDY-xjr8IDtyFiw
+TQID: 'https://experienceleague.adobe.com/t4NC8Wdgldm6iFgdJ5EtrU13kOnUBuEGKhWnKExf614'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

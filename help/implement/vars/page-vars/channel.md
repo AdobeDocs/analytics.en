@@ -4,10 +4,16 @@ description: Populate the 'Site Sections' dimension.
 feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/hctVvVL98TCC2y6dUvO-5jhO40CkYwRB8ygBUcWu684
+TQID: 'https://experienceleague.adobe.com/8O57DR-hVZaTuPvVFeOabX-OO6t-Ym7XCKogurcI810'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

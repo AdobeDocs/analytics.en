@@ -4,10 +4,16 @@ description: Get the last value passed into a variable.
 feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/8LOSmK68Rib9J6sYHXOqq73SR9jkryLSwNHUI0NebhY
+TQID: 'https://experienceleague.adobe.com/z8lUtZH0qHvtysD9haDhmWS3i-Tw--kOsfTU-5NxoPk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -16,8 +22,6 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66

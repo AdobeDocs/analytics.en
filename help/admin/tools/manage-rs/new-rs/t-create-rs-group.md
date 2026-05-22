@@ -3,10 +3,16 @@ description: Steps that describe how to create a report suite group.
 title: Create a report suite group
 feature: Report Suite Settings
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
-TQID: https://experienceleague.adobe.com/iJkEYxAz3jENvvkBhRd6w2Pesna-JQ1mrRbrETmhuCE
+TQID: 'https://experienceleague.adobe.com/0hujaGx-stNtZA-wu6iCZ-XAsoe9jgP3Ss7cyYFv-xA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

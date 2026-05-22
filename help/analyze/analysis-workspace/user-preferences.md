@@ -4,7 +4,8 @@ description: Learn how to set general and project preferences for users.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-TQID: https://experienceleague.adobe.com/ay8-2uOuI5cJpQc7Yn9aZAKZasw4WFo7qumDyyXhq8g
+autotag-review: '2026-05-22T09:22:51.975Z'
+TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -38,6 +39,8 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---

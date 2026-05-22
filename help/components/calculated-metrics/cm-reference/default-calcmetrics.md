@@ -3,7 +3,7 @@ description: Adobe provides various calculated metrics that you can use. This pa
 title: Default calculated metrics
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-TQID: https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M
+TQID: 'https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

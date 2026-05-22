@@ -4,7 +4,7 @@ title: Understand and configure bot rules
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-TQID: https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA
+TQID: 'https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -4,13 +4,18 @@ title: Custom Report Descriptions
 feature: Admin Tools
 role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-TQID: https://experienceleague.adobe.com/i2Pq70j4Tf0D2Vj9Yzf-LiHZiIT08ORKeZXkZ5USf44
+TQID: 'https://experienceleague.adobe.com/i2Pq70j4Tf0D2Vj9Yzf-LiHZiIT08ORKeZXkZ5USf44'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

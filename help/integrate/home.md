@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Analytics Integration
 
-This guide focuses on integrating multiple Adobe Experience Cloud solutions, such as Audience Manager, Advertising, or Target. It includes:
+This guide focuses on integrating multiple Adobe CX Enterprise solutions, such as Audience Manager, Advertising, or Target. It includes:
 
 * **Audience Analytics:** Integrate Adobe Audience Manager with Adobe Analytics.
 * **Advertising Analytics:** See paid search data side-by-side with Adobe Analytics data.

@@ -73,7 +73,7 @@ If your organization collects `utm` query strings, you can choose to either:
 
 Once you have properly set up your implementation to collect tracking code data, you can view reports in Analysis Workspace.
 
-1. Log in to the [Adobe Experience Cloud](https://experience.adobe.com) and select [!UICONTROL Adobe Analytics].
+1. Log in to the [Adobe CX Enterprise](https://experience.adobe.com) and select [!UICONTROL Adobe Analytics].
 1. Create a [Workspace project](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. In the list of components on the left, drag the [Tracking code](/help/components/dimensions/tracking-code.md) dimension to the workspace canvas.
 1. Drag the desired metric, such as [Visits](/help/components/metrics/visits.md) or [Orders](/help/components/metrics/orders.md) to the right side of the workspace canvas.

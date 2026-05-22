@@ -45,8 +45,8 @@ The following table lists all query string parameters Adobe uses in image reques
 
 | Parameter | Analytics implementation variable | Description |
 | --- | --- | --- |
-| `aamlh` | None | Audience Manager location hint. Used in Experience Cloud Shared Profile integration. |
-| `aamb` | None | Audience Manager blob. Used in Experience Cloud Shared Profile integration. |
+| `aamlh` | None | Audience Manager location hint. Used in CX Enterprise Shared Profile integration. |
+| `aamb` | None | Audience Manager blob. Used in CX Enterprise Shared Profile integration. |
 | `aid` | None | Analytics visitor ID. |
 | `AQB` | None | Indicates the beginning of an image request query string. |
 | `AQE` | None | Indicates the end of an image request, meaning that the request was not truncated. |
@@ -77,7 +77,7 @@ The following table lists all query string parameters Adobe uses in image reques
 | `k` | None | Used in the [Cookie support](/help/components/dimensions/cookie-support.md) dimension. |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | List variables. |
 | `lrt` | None | The "last request timing," which is the roundtrip time for the last request, in milliseconds. It is sent only when more than one request is going out from a page or when the page is a single-page application (SPA). |
-| `mid` | None | Experience Cloud visitor ID. |
+| `mid` | None | CX Enterprise visitor ID. |
 | `ndh` | None | Flag indicating if the image request originated from AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Helps determine where cookies are set. |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | Object identifier for the last page. Used in Activity Map. |

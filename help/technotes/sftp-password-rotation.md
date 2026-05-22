@@ -72,9 +72,9 @@ All clients should connect via SFTP with password as a fallback.
 
 This section describes how to generate your organization's SSH keys (a public/private key pair) that are used to **download data** from the SFTP server.
 
-  >[!NOTE]
-  >
-  >In a future step, you will download another public key provided by Adobe. This is part of a second public/private key pair, which is used by Adobe to **upload data** to the SFTP server.
+>[!NOTE]
+>
+>In a future step, you will download another public key provided by Adobe. This is part of a second public/private key pair, which is used by Adobe to **upload data** to the SFTP server.
 
 To set up secure transfer for downloading data from your FTP server:
 

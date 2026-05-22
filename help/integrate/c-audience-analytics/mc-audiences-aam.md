@@ -1,6 +1,6 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager) is a powerful data management platform that helps you build unique audience profiles from first-party, second-party/partner, and third-party data integrations. For advertisers, these audience profiles help define the most valuable segments to use across any digital channel.
-solution: Experience Cloud
+solution: Analytics
 title: Audience Analytics overview
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
@@ -76,7 +76,7 @@ Ensure that the following prerequisites are in place:
 * You are a customer of both Audience Manager and Adobe Analytics.
 * You are an Audience Manager admin.
 * You are using the Identity Service v1.5 or later.
-* Adobe Audience Manager and Adobe Analytics report suites are mapped to the same Experience Cloud organization.
+* Adobe Audience Manager and Adobe Analytics report suites are mapped to the same CX Enterprise organization.
 * You use [server-side forwarding](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (no DIL code) - AppMeasurement 1.5 or later.
 
 These prerequisites are described in the [Audience Analytics Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

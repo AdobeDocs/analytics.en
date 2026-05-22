@@ -52,7 +52,7 @@ To start, create a new declared ID in the [People Core Service](https://experien
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-Here is how this ID can be captured via Data Element. Be sure to populate your Experience Cloud OrgID into the Data Element correctly.
+Here is how this ID can be captured via Data Element. Be sure to populate your CX Enterprise OrgID into the Data Element correctly.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -70,7 +70,7 @@ Now that you have identified the bots using segments, the next step is to use Da
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-Remember to use Experience Cloud Visitor ID as your dimension and apply the 'Bots' segment.
+Remember to use CX Enterprise Visitor ID as your dimension and apply the 'Bots' segment.
 
 ### Step 4: Pass this list back to Adobe as a Customer attribute
 

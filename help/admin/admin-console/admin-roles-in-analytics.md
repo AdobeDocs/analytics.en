@@ -30,10 +30,10 @@ Adobe Analytics supports various types of administrators. Full Adobe Analytics a
 
 >[!NOTE]
 >
->Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in Experience Cloud. The first admin can then provision users in the organization with other key roles, as described in this article. For more information about the first admin, see [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md).
+>Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in CX Enterprise. The first admin can then provision users in the organization with other key roles, as described in this article. For more information about the first admin, see [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md).
 
 
-## Key roles in Experience Cloud and Adobe Analytics
+## Key roles in CX Enterprise and Adobe Analytics
 
 Consider the following key roles when using Adobe Analytics:
 
@@ -89,9 +89,9 @@ For information about assigning users as product profile admins, see the "Manage
 
 [Create an Analytics tag property](/help/implement/launch/create-analytics-property.md): Have your Data Collection admin log in to the tool and create a property to implement on your site
 
-Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in Experience Cloud. The first admin can then provision users in the organization with other key roles, as described in this article.
+Before any users can be assigned roles in Adobe Analytics, a user must be assigned as a first admin in CX Enterprise. The first admin can then provision users in the organization with other key roles, as described in this article.
 
-A first admin is the starting point in enabling the rest of the organization to use each Experience Cloud solution. 
+A first admin is the starting point in enabling the rest of the organization to use each CX Enterprise solution. 
 
 After a contract is signed
 

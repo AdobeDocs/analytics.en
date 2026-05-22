@@ -46,7 +46,7 @@ Before data is sent to Adobe, it is typically compiled client-side using one of 
 * **Tags in Adobe Experience Platform Data Collection**: A JavaScript file referenced on each page, containing rules created within the Data Collection UI. The Adobe Analytics extension offers an easier way to implement AppMeasurement. The Web SDK extension offers an easier way to implement the Web SDK.
 * **API**: Both AppMeasurement and the Edge Network offer programmatic methods to send data to Adobe. AppMeasurement offers the [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) and the [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); the Edge Network offers the [Data collection API](https://developer.adobe.com/data-collection-apis/docs/).
 
-If you send data to the Edge Network, you can configure it to forward data to Adobe Analytics (as well as many other Adobe Experience Cloud solutions). Regardless of implementation method, the collected hit data ultimately arrives to Adobe Analytics processing servers in a format that it can parse.
+If you send data to the Edge Network, you can configure it to forward data to Adobe Analytics (as well as many other Adobe CX Enterprise solutions). Regardless of implementation method, the collected hit data ultimately arrives to Adobe Analytics processing servers in a format that it can parse.
 
 ## Pre-processing in Adobe Analytics collection
 

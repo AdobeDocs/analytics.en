@@ -48,7 +48,7 @@ Latency is caused by one of following general categories:
 
 ## Features that depend on latency
 
-Some capabilities in the Adobe Experience Cloud come with an innate amount of latency on top of standard processing time.
+Some capabilities in Adobe CX Enterprise come with an innate amount of latency on top of standard processing time.
 
 * Analytics for Target (A4T) requires an additional 5-10 minutes of latency to allow collected data from both platforms to be stored in the same hit.
 * Timestamped data requires additional time due to different servers this data is processed on. Timestamped hits received at or near real-time can take up to 15 minutes. Hits received with a timestamp of yesterday can take up to 2 hours. Older hits can take longer, increasing each day up to a cap of approximately 24 hours.

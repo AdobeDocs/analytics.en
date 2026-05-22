@@ -40,36 +40,37 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Current Adobe Analytics release notes (April 2026)
+# Current Adobe Analytics release notes (May 2026)
 
-**Last update**: April 22, 2026
+**Last update**: May 13, 2026
 
-These release notes cover the April 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly.
+These release notes cover the May 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **MCP servers for Adobe Analytics** <br/>The Analytics MCP (Model Context Protocol) servers allow you to connect a supported MCP client to Adobe Analytics. Once connected, your MCP client can invoke product-specific tools to retrieve data, run queries, or perform supported operations as part of an LLM or agentic workflow. For more information, see [Analytics MCP servers](https://developer.adobe.com/analytics-mcp/docs/).<p>If you used these MCP servers during the beta period, please note that there are different URLs between beta and production endpoints. Ensure that any agentic workflows created during the beta period are updated to use the production endpoints before May 31.</p> | | April 29, 2026 |
+| **MCP servers for Adobe Analytics** <br/>The Analytics MCP (Model Context Protocol) servers allow you to connect a supported MCP client to Adobe Analytics. Once connected, your MCP client can invoke product-specific tools to retrieve data, run queries, or perform supported operations as part of an LLM or agentic workflow. For more information, see [Analytics MCP servers](https://developer.adobe.com/analytics-mcp/docs/).<p>If you used these MCP servers during the beta period, please note that there are different URLs between beta and production endpoints. Ensure that any agentic workflows created during the beta period are updated to use the production endpoints before May 31.</p> | | May 5, 2026 |
+| **Journey canvas in Adobe Analytics** <br/>Journey canvas is a visualization in Analysis Workspace that allows you to gain deep insights on a defined user journey by analyzing how people proceed through or fall out of the journey. It allows you to create a flexible graph of nodes and arrows representing any combination of events, dimension items, and segments included in the journey. Data updates as you drag nodes onto the canvas or rearrange the events and conditions of the journey.<p>Journey canvas was previously available only for Customer Journey Analytics.</p><p>To learn more about Journey canvas in Adobe Analytics, see [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>To learn how to build a Journey canvas visualization in Adobe Analytics, see [Configure Journey canvas](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | May 18, 2026 | June 5, 2026 |
+| **Attribution model API reporting guide** <br/>A new Adobe Analytics 2.0 API Attribution Model Report Guide is available. The guide covers how to include attribution model object data in Dimension API reports.<p>For more information, see [Dimension API attribution models](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | May 2026 |
 | **Streaming media services: Support schedule data** <br/>You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership.<p>The following are examples of live content that are supported with schedule data upload:</p><ul><li>FAST (Free Ad Supported TV) platforms</li><li>Local streams</li><li>Live sports</li></ul><p>Uploading schedule data allows you to track viewership data for individual programs that ran during the time you designate in the upload file. You can even gather viewership data for specific topics or program segments.</p><p>These capabilities are available regardless of how you implemented Streaming Media Collection.</p><p>Previously, it was difficult to accurately tie a given session to specific programs when analyzing live content, and it wasn't possible to tie a given session to individual topics or program segments.</p><p>For more information, see [Upload schedule data to track live content](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/track-schedule-data)</p>| October 29, 2025 | First half of 2026<p>(Originally planned to release on October 29, 2025)</p>|
-| **Additional API date range formatting**<br/>Two new formats are now supported for specifying date ranges in Analytics 2.0 API report requests. This includes a date formula and a mixed format. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | March 2026 |
-| **Optional dimension in API report requests**<br/>A dimension object is not required in Report API requests. If no dimension is specified, the response shows data for a Totals report. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | March 2026 |
-| **Date-trended advanced API report**<br/>New Adobe Analytics 2.0 API Date-trended Advanced Report Guide. Create advanced date-trended API reports using date range comparisons and segments. [Learn more](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | March 2026 |
+
+{style="table-layout:auto"}
 
 ## Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
-**Classifications**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440511, AN-440496, AN-432100
-**Data Feeds and Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**Classifications**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
+**Data Feeds and Data Warehouse**: AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
 **Migration**: AN-442467, AN-440380, AN-440357
 **Exports**: 
-**Report Builder**: AN-441136, AN-438147, AN-425150
-**Reporting**: AN-441506, AN-440919, AN-440545, AN-440300
-**Report suites**: AN-439429, AN-439423, AN-430988
+**Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
+**Reporting**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359, AN-406242
+**Report suites**: 
 **Scheduled reports**: 
 **Segmentation**: 
-**Other**: AN-423359, AN-406242, AN-397985
+**Other**: AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
 
 
 ## End-of-life (EOL) notices {#eol}
@@ -92,5 +93,5 @@ For the latest updates on AppMeasurement releases, please refer to [AppMeasureme
 
 * [Previous release notes for 2025](/help/release-notes/2025.md)
 * [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Streaming media services release notes](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
-* The latest release updates for [Adobe Experience Cloud products](https://business.adobe.com/products/adobe-experience-cloud-products.html)
+* [Streaming media services release notes](https://experienceleague.adobe.com/en/docs/media-analytics/using/release-notes/release-notes)
+* The latest release updates for [Adobe CX Enterprise products](https://business.adobe.com/products/adobe-experience-cloud-products.html)

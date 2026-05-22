@@ -41,7 +41,7 @@ You must have access to your hosting servers to successfully implement a page wi
    >
    >H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
 1. **Define page-specific variables on each page**: Each page should have individual variables defined, such as page name or eVars. Individual variables are typically defined with an inline `<script>` tag on each page.
-1. **Use the debugger to verify data collection**: Download and install the [Experience Cloud debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
+1. **Use the debugger to verify data collection**: Download and install the [CX Enterprise debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
 
 ## Caching
 

@@ -56,7 +56,7 @@ The following steps contain concrete goals to work towards. Click each step for 
 
 Create a datastream in Adobe Experience Platform Data Collection. When you send data to this datastream, it forwards data to Adobe Analytics. In the future, this same datastream forwards data to Customer Journey Analytics.
 
-1. Navigate to [experience.adobe.com](https://experience.adobe.com) and log in using your credentials.
+1. Navigate to [Adobe CX Enterprise](https://experience.adobe.com) and log in using your credentials.
 1. Use the home page or product selector in the top right to navigate to **[!UICONTROL Data Collection]**.
 1. In the left navigation, select **[!UICONTROL Datastreams]**.
 1. Select **[!UICONTROL New Datastream]**.

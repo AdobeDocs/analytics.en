@@ -4,6 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 breadcrumb-title: Tools Guide
 user-guide-description: Learn how to use Analytics tools, including Analysis Workspace, Analytics Dashboards, Report Builder and Legacy Report Builder, and Activity Map.
+index: true
 ---
 # Adobe Analytics Tools Guide {#analyze}
 
@@ -96,6 +97,10 @@ user-guide-description: Learn how to use Analytics tools, including Analysis Wor
       + [Overview](analysis-workspace/visualizations/c-flow/flow.md)
       + [Configure](analysis-workspace/visualizations/c-flow/create-flow.md)
       + [Inter-dimensional flows](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+    + Journey canvas {#journey-canvas}
+      + [Overview](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+      + [Configure](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+      + [Troubleshoot](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
     + [Area (stacked)](analysis-workspace/visualizations/area.md)
     + [Bar (stacked)](analysis-workspace/visualizations/bar.md)
     + [Bullet](analysis-workspace/visualizations/bullet-graph.md)

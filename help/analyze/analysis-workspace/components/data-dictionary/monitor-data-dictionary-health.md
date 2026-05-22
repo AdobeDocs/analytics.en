@@ -22,7 +22,27 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Monitor Data Dictionary health
+# Monitor Data Dictionary health {#monitor-data-dictionary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_share_primary"
+>title="Share primary component"
+>abstract="When this option is selected, the primary component is shared with everyone who has access to the duplicate components (both the owners and anyone the components are shared with). Those users can then select the primary component from the component list for future projects. However, they are not able to edit the component, even if they were the owner of a duplicate component that was consolidated. <br/>This option is available only when the primary component is a segment, calculated metric, or a date range. Metrics and dimensions are always available to all users.  
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_delete_duplicates"
+>title="Delete replaced duplicates"
+>abstract="When this option is selected, consolidated duplicates are no longer available for use. Deselect this option if you want duplicates to continue to be available."
+
+<!-- markdownlint-enable MD034 -->
 
 Analytics administrators are responsible for maintaining a healthy Data Dictionary. 
 

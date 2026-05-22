@@ -25,9 +25,9 @@ topic_v2:
 ---
 # Hash collisions
 
-Dimensions in Adobe Analytics collect string values. Sometimes these strings are hundreds of characters long, while other times they are short. To improve performance, these string values are not used directly in processing. Instead, a hash is computed for each value to make all values a uniform size. All reports run on these hashed values, which drastically increase their performance.
+Dimensions in Adobe Analytics collect string values. Sometimes these strings are hundreds of characters long, while other times they are short. To improve performance, these string values are not used directly in report-time processing. Instead, a hash is computed for each value, producing a uniform-size identifier. For most fields, the value is converted to lowercase before hashing, which reduces the total number of unique values. All reports run on these hashed values, which drastically increases their performance.
 
-For most fields, the string is first converted to all lowercase. Lowercase conversion reduces the number of unique values. Values are hashed on a monthly basis - the case for a given value uses the first value seen each month. From month to month, there is a small possibility that two unique variable values hash to the same value. This concept is known as a *hash collision*.
+Adobe Analytics maintains a separate hash table for each variable, and each table is rebuilt every month. Within any one of those tables, two different source values can occasionally produce the same hash, known as a *hash collision*.
 
 Hash collisions can manifest in reports as follows:
 
@@ -36,7 +36,7 @@ Hash collisions can manifest in reports as follows:
 
 ## Odds of a hash collision
 
-Adobe Analytics uses 32-bit hashes for most dimensions, which means that there are 2<sup>32</sup> possible hash combinations (approximately 4.3 billion). A new hash table for each dimension is created each month. The approximate odds of encountering a hash collision based on the number of unique values are as follows. These odds are based on a single dimension for a single month.
+Adobe Analytics uses 32-bit hashes for most dimensions, which means that there are 2<sup>32</sup> possible hash combinations (approximately 4.3 billion). The approximate odds of encountering a hash collision based on the number of unique values are as follows. These odds are based on a single dimension for a single month.
 
 | Unique values | Odds |
 | --- | --- |
@@ -45,15 +45,20 @@ Adobe Analytics uses 32-bit hashes for most dimensions, which means that there a
 | 50,000 | 26% |
 | 100,000 | 71% |
 
-{style="table-layout:auto"}
-
 Similar to the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem), the likelihood of hash collisions drastically increases as the number of unique values increases. At 1 million unique values, it is likely that there are at least 100 hash collisions for that dimension.
 
 ## Mitigating hash collisions
 
-Most hash collisions happen with two uncommon values, which have no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
+Hash collisions cannot be eliminated entirely, but their impact on reports can be mitigated. Most hash collisions happen with two uncommon values, which have no meaningful impact on reports. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
 
-* **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don't collide.
+* **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don't collide. It is usually the fastest way to clear a visible anomaly from a specific report.
 * **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
+* **Use [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) or [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md)**: These tools do not rely on hash tables.
+* **Move to [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)**: Customer Journey Analytics has no hashing layer and [no cardinality limits on dimensions](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Consider moving to this product if hash collisions or [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md) frequently affect your reports.
+
+>[!MORELIKETHIS]
+>
+>* [[!UICONTROL Low-Traffic] value in Adobe Analytics](/help/technotes/low-traffic.md)
+>* [Processing rules overview](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

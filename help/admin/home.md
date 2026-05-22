@@ -40,7 +40,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 
 
 Adobe Analytics currently has two areas for administrators:
 
-* Adobe Admin Console: Use this area for provisioning Experience Cloud tools, and managing user permissions. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Adobe Admin Console: Use this area for provisioning CX Enterprise tools, and managing user permissions. It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
 * Analytics Admin Tools: Use this area for report suite and variable management. It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 This guide covers:

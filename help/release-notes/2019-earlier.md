@@ -23,7 +23,7 @@ role_v2:
 ---
 # Adobe Analytics release notes for 2019 (and earlier) 
 
-Note that these Release Notes .pdf files contain release notes for all Adobe Experience Cloud solutions.
+Note that these Release Notes .pdf files contain release notes for all Adobe CX Enterprise solutions.
 
 * [2019 Release Notes PDF](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [2018 Release Notes PDF](2018-Adobe-Experience-Cloud-Release-Notes.pdf)

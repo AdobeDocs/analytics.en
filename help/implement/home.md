@@ -81,7 +81,7 @@ The following decision flow can help you select a client-side implementation met
 To implement Adobe Analytics server side, you have the following options:
 
 * **Edge Network API**: You implement code on the server that uses the Adobe Experience Platform Edge Network API to communicate with Adobe Analytics through a datastream.
-  ![Server-side implementation](assets/edge-network-server-api.svg)
+  ![Server-side implementation](assets/edge-network-server-api.png)
   See [Implement Adobe Analytics using the Adobe Experience Platform Edge Network API](/help/implement/aep-edge/api/overview.md) for more information.
 
 * **(Bulk) Data Insertion API**: You use the Adobe Analytics (Bulk) Data Insertion API's to collect data server-side directly into Adobe Analytics.
@@ -114,7 +114,7 @@ For your **mobile app**, the following implementation methods are available:
 * [Create a tag property in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement updates](appmeasurement-updates.md)
 * [Set up Adobe Analytics with Platform Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
-* [Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
+* [Implement Adobe CX Enterprise in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## Key Analytics resources

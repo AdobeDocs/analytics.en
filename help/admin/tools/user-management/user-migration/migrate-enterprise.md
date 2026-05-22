@@ -91,7 +91,7 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
 
       >[!IMPORTANT]
       >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. This step helps prevent overwriting existing Experience Cloud user permissions in the Adobe Admin Console and gives you a list of accounts to migrate.
+      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. This step helps prevent overwriting existing CX Enterprise user permissions in the Adobe Admin Console and gives you a list of accounts to migrate.
 
 1. Download the CSV template from the Adobe Admin Console:
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.

@@ -37,7 +37,7 @@ topic_v2:
 
 This section explains enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), which went into effect on Sept. 30, 2017.
 
-Server-side forwarding is used to share data from Adobe Analytics to other [!DNL Experience Cloud Solutions], such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+Server-side forwarding is used to share data from Adobe Analytics to other CX Enterprise solutions, such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 
 Previously, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to Adobe Audience Manager. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to Adobe Audience Manager until consent has been received.
 

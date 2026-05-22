@@ -41,7 +41,7 @@ topic_v2:
 
 Some visitors to your website prefer not to have their browsing information included in your data set. Adobe offers the ability to provide visitors to your website a means to opt out of their information being analyzed.
 
-Opt-out links are a way that you can allow visitors to your website to omit their data from Analytics reporting. These links are limited to AppMeasurement implementations; Adobe recommends using the [Adobe Experience Cloud Opt-in service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) instead. The Opt-in service is more robust and works across multiple Adobe Experience Cloud products, including Adobe Analytics and AppMeasurement.
+Opt-out links are a way that you can allow visitors to your website to omit their data from Analytics reporting. These links are limited to AppMeasurement implementations; Adobe recommends using the [Adobe CX Enterprise Opt-in service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) instead. The Opt-in service is more robust and works across multiple Adobe CX Enterprise products, including Adobe Analytics and AppMeasurement.
 
 When a visitor reaches an opt-out URL, they are prompted to install an opt-out cookie. If a user chooses not to be tracked and an opt-out cookie is set, AppMeasurement continues to send data to Adobe. However, that data is not processed or included in reports.
 
@@ -63,9 +63,9 @@ The opt-out page for your organization depends on the [`trackingServer`](../vars
   1. On your web server, open the AppMeasurement.js file used on your site in a code or text editor.
   1. Note the `trackingServer` variable value.
 
-* Using the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Using the [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
   1. Navigate to your site using the Chrome browser.
-  1. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
+  1. Open the CX Enterprise Debugger, then go to the [!UICONTROL Network tab].
   1. Note the [!UICONTROL Request URL - Hostname] value.
 
 Once you have found your implementation's `trackingServer` domain, append the path `/optout.html` to the end. For example:

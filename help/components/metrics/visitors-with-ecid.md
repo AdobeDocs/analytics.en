@@ -14,7 +14,7 @@ feature_v2:
     internal-label: Integrations
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-    internal-label: Experience Cloud integration
+    internal-label: CX Enterprise integration
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
 role_v2:
@@ -34,7 +34,7 @@ The 'Visitors with Experience Cloud ID' [metric](overview.md) shows the number o
 
 >[!NOTE]
 >
->This metric is especially important for debugging if you use multiple Experience Cloud services, such as Adobe Target or Adobe Audience Manager. Segments shared across Experience Cloud products do not include visitors without an Experience Cloud ID.
+>This metric is especially important for debugging if you use multiple CX Enterprise services, such as Adobe Target or Adobe Audience Manager. Segments shared across CX Enterprise products do not include visitors without an Experience Cloud ID.
 
 ## How this metric is calculated
 
@@ -42,7 +42,7 @@ This metric is based on the [Unique visitors](unique-visitors.md) metric, except
 
 ## Debug your Experience Cloud ID setup
 
-The 'Visitors with Experience Cloud ID' metric can be useful in troubleshooting Experience Cloud integrations, or identifying areas of your site that don't have the ID service deployed.
+The 'Visitors with Experience Cloud ID' metric can be useful in troubleshooting CX Enterprise integrations, or identifying areas of your site that don't have the ID service deployed.
 
 Drag the 'Visitors with Experience Cloud ID' side-by-side with Unique visitors to compare them:
 

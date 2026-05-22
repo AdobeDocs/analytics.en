@@ -41,7 +41,7 @@ topic_v2:
 ---
 # Privacy overview
 
-Adobe wants to enable your organization so that you can comply with applicable laws and regulations. See [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html){target=_blank} for more information. Between Adobe Analytics and your organization, Adobe acts as a "data processor" and you are the "data controller" (or equivalent under applicable privacy and data protection laws). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's solutions. While using Adobe Analytics, your organization is responsible for complying with your own privacy policy, your service agreement with Adobe, and all applicable laws.
+Adobe wants to enable your organization so that you can comply with applicable laws and regulations. See [Adobe CX Enterprise privacy](https://www.adobe.com/privacy/experience-cloud.html){target=_blank} for more information. Between Adobe Analytics and your organization, Adobe acts as a "data processor" and you are the "data controller" (or equivalent under applicable privacy and data protection laws). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's solutions. While using Adobe Analytics, your organization is responsible for complying with your own privacy policy, your service agreement with Adobe, and all applicable laws.
 
 Adobe strongly recommends adhering to the following overarching concepts:
 

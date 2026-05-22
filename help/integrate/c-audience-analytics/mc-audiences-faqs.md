@@ -1,6 +1,6 @@
 ---
 description: Answers to questions you might have when implementing Audience Analytics.
-solution: Experience Cloud
+solution: Analytics
 title: Frequently Asked Questions for Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
@@ -35,7 +35,7 @@ If you have emails/addresses/etc in a prop or eVar, consider hashing the data du
 
 These don't apply to sending Adobe Analytics data to Adobe Audience Manager. Ask yourself: 
 
-* Will you share an Analytics-shared segment with an MCA dimension back to the Experience Cloud? 
+* Will you share an Analytics-shared segment with an MCA dimension back to CX Enterprise? 
 
 * Are you exporting (e.g. via data feeds) out to a Business Intelligence (BI) system that is used for these purposes? 
 
@@ -141,7 +141,7 @@ Yes. In the Adobe Audience Manager destination setup, you will see only report s
 
 +++ Why can't I turn on certain report suites for SSF in Analytics Admin?
 
-Only suites that are mapped to your Experience Cloud Org can be enabled. 
+Only suites that are mapped to your CX Enterprise Org can be enabled. 
 
 For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -163,7 +163,7 @@ See [Understand Segments in Analytics and Audience Manager](/help/integrate/c-au
 
 +++ What is the difference between customer attributes and customer data integrated from Adobe Audience Manager?
 
-Customer attributes are not time based; they apply retroactively and go forward. Adobe Audience Manager integrated data is time based and go-forward only. Additionally, customer attributes is a lookup table for Experience Cloud visitor IDs, whereas the Adobe Audience Manager integration is data stitched into each hit for a visitor. 
+Customer attributes are not time based; they apply retroactively and go forward. Adobe Audience Manager integrated data is time based and go-forward only. Additionally, customer attributes is a lookup table for CX Enterprise visitor IDs, whereas the Adobe Audience Manager integration is data stitched into each hit for a visitor. 
 
 +++
 

@@ -43,13 +43,13 @@ Once your tag library is pushed to production, your organization can begin to us
 
 [Deploy your Analytics implementation to your dev environment](deploy-dev.md): An Analytics implementation must be published to your development environment in order to follow this page.
 
-## Validate your dev implementation using the Experience Cloud debugger
+## Validate your dev implementation using the CX Enterprise debugger
 
-The Experience Cloud debugger is an extension that shows all Experience Cloud tags present on a page.
+The CX Enterprise debugger is an extension that shows all CX Enterprise tags present on a page.
 
 1. Install the extension for either [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) or Firefox.
 2. Navigate to your development website that you have implemented tags on.
-3. Click on the Adobe Experience Cloud debugger icon in your browser.
+3. Click on the Adobe CX Enterprise debugger icon in your browser.
 4. If everything is properly implemented, you should see content inside Adobe Analytics, tags, and the Adobe Experience Cloud Visitor ID service.
 
 ## Deploy your dev implementation to staging/prod
@@ -71,7 +71,7 @@ Once you have validated that you are seeing data, you can push your implementati
 
 Confirm that you're seeing data on the live version of your site, and begin official data collection for Adobe Analytics.
 
-1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the [!UICONTROL Adobe Experience Cloud debugger].
+1. Once you have confirmed from your website owners that they have pushed the tag code to production, navigate to your website's homepage in Chrome and open the Adobe CX Enterprise debugger.
 2. If everything is working, you should see similar data to your tests in your dev environment. At this point, you are now collecting data on your site and can now start using Adobe Analytics for reporting.
 
 ## Troubleshooting

@@ -3,6 +3,22 @@ title: Adobe Advertising metrics
 description: Available metrics when enabling the Adobe Advertising integration.
 feature: Metrics
 exl-id: 28af6ca3-9050-446b-b58f-9cc387d48846
+TQID: 'https://experienceleague.adobe.com/mHk8YRAIUUamk5khaxBD3clSRoDFXpOkDYyFlxNuG1o'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Adobe Advertising metrics
 

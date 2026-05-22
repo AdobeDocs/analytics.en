@@ -3,6 +3,16 @@ title: AMO EF ID
 description: The Adobe Media Optimizer EF ID, used in Adobe Advertising integrations.
 feature: Dimensions
 exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
+TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # AMO EF ID
 

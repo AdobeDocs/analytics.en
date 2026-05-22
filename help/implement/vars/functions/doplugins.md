@@ -4,7 +4,7 @@ description: Configure logic just before a hit is compiled and sent to Adobe.
 feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/T-AyesoP2IMk3J-ftdnR-o48HqTmoRsAYtaIgn9cc1Q
+TQID: 'https://experienceleague.adobe.com/ZS7Kpl1vxzJIGLzk1AkZBNEpPdGd-8NQq1-HW-zqDck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

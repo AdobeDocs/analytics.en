@@ -4,7 +4,7 @@ description: Learn how to implement Adobe Analytics on a site using AJAX.
 feature: Implementation Basics
 exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
 role: Developer
-TQID: https://experienceleague.adobe.com/BOyGLibRKgHCpYdnafe1T4hp8NQyX-XiAIW8TmTGvMk
+TQID: 'https://experienceleague.adobe.com/M0MNFZRcHpPwxL-ZtTky67DHDr1A0fL-peaGKicXgIM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: Executes a function on a list of variables.
 feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/HDWCcJZX1RDz8zzGrXU44ECjrav-x-RpPxG1w2K4Dl4
+TQID: 'https://experienceleague.adobe.com/JDOu3ZPBp0KDTSaP45O9K8vy-EiVbinY-SHPQg11dZw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

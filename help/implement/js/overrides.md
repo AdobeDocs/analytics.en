@@ -4,7 +4,7 @@ description: Variable overrides let you change a variable value for a single tra
 feature: Implementation Basics
 exl-id: e297ef94-c5f7-42b1-a9d0-57e073f0d1a9
 role: Developer
-TQID: https://experienceleague.adobe.com/5PRIj1hVEvFSBdcjsAZ57R9Bc0QVew31ryzrJtGNwb4
+TQID: 'https://experienceleague.adobe.com/IVA-JMaZPrKpF1NhhL6o3uiCQOOCtZerk78aQTqJAyc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: Convert a number of seconds into its equivalent in minutes, hours, 
 feature: Appmeasurement Implementation
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/uhhWM9YWp30WcZeEQw30CuKmK3RPJZBLpZz7F4OCpro
+TQID: 'https://experienceleague.adobe.com/QFKmzlMzuV1qb6ljtcb8RmMF7LOjHdSkWz1TwjdPrtg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

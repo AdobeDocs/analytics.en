@@ -4,7 +4,7 @@ description: (Retired) Helped determine third-party cookie domain.
 feature: Appmeasurement Implementation
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/y9oXzSzgN-s8gVrdHs0nFRm0ASSbUPzlkW-V6u1GnMg
+TQID: 'https://experienceleague.adobe.com/RHVRufQsrgYigyj0n348-xAZqrDyvpiV83G7fhpo5Q0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

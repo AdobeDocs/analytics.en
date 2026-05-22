@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Send Adobe data to an external FTP account with SFTP
 feature: FTP Export
 exl-id: 2490c452-cd05-45ab-95c0-7be34b033415
-TQID: https://experienceleague.adobe.com/-ZwGW9NunR5WxWtPskzWHr7veeIQrNN5YOpdWdrQfTU
+TQID: 'https://experienceleague.adobe.com/-yEr39aiUjYr1cufxu6FUHvqsuTj2qTWpxDnS2bisnY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: Enable or disable offline tracking, which changes how AppMeasuremen
 feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/xAeUI6N625MJfnAWWO53NkBe4IKxI-i703vHHoxpuzg
+TQID: 'https://experienceleague.adobe.com/6VDAO0-QMXqia2Ddy1uPcxnTrlJi49B8zjaLcC0HawU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

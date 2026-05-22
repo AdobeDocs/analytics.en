@@ -4,7 +4,7 @@ description: Copy variables without increasing image request length.
 feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/zhUMapnVeA3UShaCE3zLx39leeKYFti2RFBD1vqOlK4
+TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

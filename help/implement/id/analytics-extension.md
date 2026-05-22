@@ -2,7 +2,7 @@
 title: Visitor identification using the Adobe Analytics tag extension
 description: Correctly identify visitors when implementing the Adobe Analytics tag extension.
 exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
-TQID: https://experienceleague.adobe.com/bdm2phkscnH9bSiQqK9K--ySTLguGaf-WLgEc3TL6H8
+TQID: 'https://experienceleague.adobe.com/i38Vo-39aUwJOp3HoS-bb2jqwSSV0oqeR0lkjOJqcgs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

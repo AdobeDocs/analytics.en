@@ -4,7 +4,7 @@ description: Measure the amount of time elapsed between two visits.
 feature: Appmeasurement Implementation
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/lqO0TMLt9-tpo9kt6P4FkRkkx0hElh7dLJEVH2TSQwE
+TQID: 'https://experienceleague.adobe.com/fuC5ynpIfCd4vyoeo9WwfxhCUH8KJiKB4bxB11H7NRY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

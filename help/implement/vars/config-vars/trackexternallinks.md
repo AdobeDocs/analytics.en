@@ -4,7 +4,7 @@ description: Enable or disable automatic link tracking for exit links.
 feature: Appmeasurement Implementation
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/jNToCI8XjnbDNdTj6gwveVIWt3Ehue6Hp1HWM789UeI
+TQID: 'https://experienceleague.adobe.com/sFN18vtu4C0voXXXDo3LT-4uY4yyz8-ygwnZxIuABXM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

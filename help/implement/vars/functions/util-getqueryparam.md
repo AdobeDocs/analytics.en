@@ -4,7 +4,7 @@ description: Returns the value of a query string parameter.
 feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/hPNA1jq7fyFOlvqNJ3dVZeSvBeCCfWzyH5BdhQDRZV8
+TQID: 'https://experienceleague.adobe.com/99nBiI23QwY6J6qEVKKz901Bertmkxf21YeJdKTmWbo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

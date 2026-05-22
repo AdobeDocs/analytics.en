@@ -4,7 +4,7 @@ description: Learn how to use tags to deploy Adobe Analytics to your development
 feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/l6uxAdaT4qKfiGWjecrwKzdKHoc-J4Ysc2ebKfmP-w4
+TQID: 'https://experienceleague.adobe.com/2wGsyulntC5-iSfcM9HEWXqBCAL-SUXWHM2r-4ylITg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

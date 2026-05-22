@@ -4,7 +4,7 @@ description: Frequently asked questions for cross-device visitor identification
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 role: Developer
-TQID: https://experienceleague.adobe.com/h3kyR8lnSdl5rQKj9kmVXBt6rspjsALfUUaEh2-cAhM
+TQID: 'https://experienceleague.adobe.com/RBciiyfaq671zJ51QdJJDXcekFr-lfq0WPY0UAuWoVA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

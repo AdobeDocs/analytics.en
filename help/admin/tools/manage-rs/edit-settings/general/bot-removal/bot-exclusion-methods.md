@@ -4,7 +4,7 @@ description: Lets you compare different methods of excluding bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 role: Admin
 feature: Bot Removal
-TQID: https://experienceleague.adobe.com/zm3kClXgzo6sKMk20XKWGI66s2kjk4VZ2ohDj41JAes
+TQID: 'https://experienceleague.adobe.com/lbb7D0NNvtqw-65JRgT-K7I1k0lBw2ekfcoOTAmbQi0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

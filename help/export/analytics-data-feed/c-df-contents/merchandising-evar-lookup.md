@@ -3,7 +3,7 @@ title: Merchandising eVar instances lookup in post_product_list
 description: Find the Merchandising eVar instance for each lookup value in the post_product_list column in a data feed.
 feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
-TQID: https://experienceleague.adobe.com/oFCnqcz4u7zjk1RHRXlAhXeYUT35nCtyp3GTsLr2M4I
+TQID: 'https://experienceleague.adobe.com/bkXTvZE0D01wa7p3oRvr32mnnznt8Irjw1vHDtFkXL8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

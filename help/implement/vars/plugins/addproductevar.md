@@ -4,7 +4,7 @@ description: Adds merchandising eVars to the products variable.
 feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZfOvSvoKgSRbESRnKQo-59s4GteAEgTwXINoXpyVsk4
+TQID: 'https://experienceleague.adobe.com/wwlG24bsvfu0fOQGcE191wwsVLl8DwV5qXGIAnQqh3k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

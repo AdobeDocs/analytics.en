@@ -4,7 +4,7 @@ description: Remove or replace All unnecessary characters from a string.
 feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/CFbhXIWdHEnuuK6mLdHsR-UupKLfzsAZVQYRh7PlJwo
+TQID: 'https://experienceleague.adobe.com/HDrIijvBxwPpQDAp-ehOBvm7chyG8UNbp-GRIJZxlvU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

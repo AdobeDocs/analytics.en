@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: FTP and SFTP processing times
 feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
-TQID: https://experienceleague.adobe.com/1WAyztrlwOU0ZZQWuuJPZE2wzvBAJcRas6FwDGQ7gF8
+TQID: 'https://experienceleague.adobe.com/5CSMyy-mQ7jRv1p6IgMUTw6fuDKDW15e-mYE5TbouQ0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

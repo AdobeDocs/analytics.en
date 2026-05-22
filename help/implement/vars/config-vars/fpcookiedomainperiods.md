@@ -4,7 +4,7 @@ description: Help AppMeasurement understand what domain to store cookies if your
 feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/c8ynLzlV-tctlh1Aw2TRBfgiLbwlP4cLB-UfrFFsgTU
+TQID: 'https://experienceleague.adobe.com/jQ3bnmV3XGbNtskYUaGMKPQ5wN-8eMUBToRC4N7WZ7M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

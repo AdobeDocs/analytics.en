@@ -4,7 +4,7 @@ description: Create an easy-to-read pageName from the current website path.
 feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ii68lgXCIpGS-XYpkWbfo2pVQTd0zfDRd8Jpz-j8Iqk
+TQID: 'https://experienceleague.adobe.com/NBn8IxQAsxWD7yO9L910M7RzB5Wlrd6dno2va0We12g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

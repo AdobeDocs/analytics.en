@@ -3,7 +3,7 @@ description: See what settings are not copied when duplicating report suites.
 title: Settings not copied from a source report suite
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-TQID: https://experienceleague.adobe.com/u-0qto-IKtrA796ZGDO8zU-0xpSM7ibsUYi2KRn7Fk4
+TQID: 'https://experienceleague.adobe.com/BpJpVRiPwPZeR3Z8XkcDGjdYOm0feUkeNWTXVmU7ucY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

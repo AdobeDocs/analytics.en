@@ -4,7 +4,7 @@ title: Server Call Usage FAQ
 feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 role: Admin
-TQID: https://experienceleague.adobe.com/ZznxAtNm8HdznNQ7ltsDnoWW2j30uG62ahKh1xeHLaU
+TQID: 'https://experienceleague.adobe.com/kDnDNyFa4VGOiT-2a7UeygM4qTKX8BZDByzRqFjOT5c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

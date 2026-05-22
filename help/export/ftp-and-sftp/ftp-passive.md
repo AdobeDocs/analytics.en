@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Use passive FTP mode
 feature: FTP Export
 exl-id: 92f39569-ee41-4c1d-b7de-7a0fff42896c
-TQID: https://experienceleague.adobe.com/R0fWu2Ik2OQB7VtF9ZVEEX1iLJfTl9A1YvlBm2p3nyU
+TQID: 'https://experienceleague.adobe.com/r59xjXQj3CYM1r-e1dpNMkLMoW72Io9-PtL-vaRCDNM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

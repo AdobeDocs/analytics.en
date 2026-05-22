@@ -4,7 +4,7 @@ title: Manage Data Warehouse Permissions
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-TQID: https://experienceleague.adobe.com/mfQzxOxePVNVTTIsSScLVW-EU8gT-rjWPaZ7mATyFmw
+TQID: 'https://experienceleague.adobe.com/KsjLyw0F5IoJOOVTGEEPg1OSjpTWL1wYeWmVqH78Tts'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: (Retired) Determine the report suite where data is sent to.
 feature: Appmeasurement Implementation
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/TmNxbAFJXxEnMJZNNZKP1ldkmeYICEzKdNoptNChzko
+TQID: 'https://experienceleague.adobe.com/ICQkj-Eo29jve35GewuZUKOPIr01g-WjhbyztrAO0jI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

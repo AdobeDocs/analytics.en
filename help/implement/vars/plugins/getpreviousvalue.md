@@ -4,7 +4,7 @@ description: Get the last value passed into a variable.
 feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/8LOSmK68Rib9J6sYHXOqq73SR9jkryLSwNHUI0NebhY
+TQID: 'https://experienceleague.adobe.com/z8lUtZH0qHvtysD9haDhmWS3i-Tw--kOsfTU-5NxoPk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

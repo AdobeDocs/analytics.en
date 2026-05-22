@@ -4,7 +4,7 @@ description: Allows the preservation of query strings in link tracking dimension
 feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ebg-JRfYQ4VBpZChrgHN4IF5PBGCVriVWWQ7qN3a5pM
+TQID: 'https://experienceleague.adobe.com/HI9yasKxMWctqoHOlZfkvMEWo1tDa3UWuWo22Bl3jFM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

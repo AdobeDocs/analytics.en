@@ -4,7 +4,7 @@ description: Navigate the manage data sources interface.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-TQID: https://experienceleague.adobe.com/Tc5-I54BKMPlv2tVZb9pMYfvdddcTPuskdh3W24wFUU
+TQID: 'https://experienceleague.adobe.com/FgAo4CzdiJlB9u-XJX2XfWL0Zt8Wzg3Uk08Cw17stsw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

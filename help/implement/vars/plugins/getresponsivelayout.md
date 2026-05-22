@@ -4,7 +4,7 @@ description: Determine which layout of a website is currently being viewed.
 feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/Sw07Ex4a5-7MaosYUtwwIEIeFv230mfp47XPKPx0iv8
+TQID: 'https://experienceleague.adobe.com/Xf0CzgKRc7MNa6YJ331mvMIFxjy3W43wZ5zrjzcf534'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Use FTP and SFTP with the Adobe Experience Cloud
 feature: FTP Export
 exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
-TQID: https://experienceleague.adobe.com/W39ve3nF5Hd69iTVvI0lbgt6JRQ67IpzEG018UYso2s
+TQID: 'https://experienceleague.adobe.com/fdV9DUlbdxmyFB9SVIZ6VXxNr5CPaPeGeL-xBG8ONK4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

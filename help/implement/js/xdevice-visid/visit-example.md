@@ -6,7 +6,7 @@ title: Cross-device visitor identification example
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 role: Developer
-TQID: https://experienceleague.adobe.com/ZYFxZyY5ZzmM064d2vx-8Ek-LftVwhxSsvLkzE9mgCI
+TQID: 'https://experienceleague.adobe.com/7LNBm0sMRamj4Qvhl2HcelDXcY8Y8DgTaCcc3vpoWK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

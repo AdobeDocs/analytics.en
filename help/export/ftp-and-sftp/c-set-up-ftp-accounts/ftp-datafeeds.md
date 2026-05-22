@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Data Feeds
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-TQID: https://experienceleague.adobe.com/SWXC-g3KTGuKiT0CBFfptUSBigs8pgkPVdRLzWhl6z4
+TQID: 'https://experienceleague.adobe.com/JYiAXR-SbFNV3xQQ5Y1Qv10kVWpFJRWmuOvERcQ-zP4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

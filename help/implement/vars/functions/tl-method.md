@@ -4,7 +4,7 @@ description: Send a link tracking call to Adobe.
 feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/l5MY6tkXyDYBXEsrW11OBlFjgVANZplcRdwMZW9UL-U
+TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: Ensure that certain routines fire only once per page.
 feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/7kJ-oRIsYzFeRnApFYvIigsBMb8QgeBtjCiHt8am7Nk
+TQID: 'https://experienceleague.adobe.com/YCY2XuAIxZ89vqX6ENve2d6aAL3TltlYhAHartYdMgM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -2,7 +2,7 @@
 title: Visitor identification using the Web SDK JavaScript library
 description: Correctly identify visitors when implementing the Web SDK JavaScript library.
 exl-id: e650d6b1-6e29-4a9c-98dd-8482f50968d1
-TQID: https://experienceleague.adobe.com/R6O--qqR7SzlArrIDFCWunUEAduzmAS2Skm6BKyREnw
+TQID: 'https://experienceleague.adobe.com/k9u260HKJg6hhs7REAQ3-uE4pHvrUPBv6x8yLjZ5tvc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

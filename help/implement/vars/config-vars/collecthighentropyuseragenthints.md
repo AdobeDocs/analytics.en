@@ -4,7 +4,7 @@ description: Use the collectHighEntropyUserAgentHints variable to determine whet
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 feature: Appmeasurement Implementation
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/jipxox--J6tVTjpES3YuOTOqL-SXvCMLSvvbpj620Q4
+TQID: 'https://experienceleague.adobe.com/SfKPGVjuEsMzJUVJYSEh9M8eawg0RqLNceSlqrTu3Ps'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,7 +4,7 @@ description: Create callback functions after sending a hit to Adobe.
 feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/gBtDAy-MkoRGQNdG2L2zNp7jX8OjpZGAMnyRstgX6z0
+TQID: 'https://experienceleague.adobe.com/v-FVX1yPqGLFBhyOzW2rHbr56kRoho0vSzAhS4whSOc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

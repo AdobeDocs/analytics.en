@@ -4,7 +4,7 @@ description: Send a page view tracking call to Adobe.
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/xDA52lSi35dDd4zgvT3gt1Ufgbc-LTvLL84UEN2dQp8
+TQID: 'https://experienceleague.adobe.com/WYNldeJM0szf8-LeEzUZL0NLq8j5NtH-Sz2Yo6Pmkks'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

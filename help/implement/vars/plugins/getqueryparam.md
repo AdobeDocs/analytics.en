@@ -4,7 +4,7 @@ description: Extract the value of a URL's query string parameter.
 feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/tOnM8riIh4sIxv7To1XbHreisuudElDqONBcZouvk0k
+TQID: 'https://experienceleague.adobe.com/R5uYQzbQiyGuvM9ng4Eux7pNdPoecJl4rLQ5L18seak'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

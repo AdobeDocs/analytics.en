@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Data Feed contents - overview
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-TQID: https://experienceleague.adobe.com/IdxgEr1M2GtCmLy8PNAbX6UqDaTi9kGld7EbNBFvQUY
+TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -3,7 +3,7 @@ title: Late-arriving hits
 description: Learn how data feeds treat late-arriving hits.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-TQID: https://experienceleague.adobe.com/eNLHiK8xI-O-E7UDfIkxEfFB0oAQoum6lTXH7OFQJ3c
+TQID: 'https://experienceleague.adobe.com/oB9bBU9KV8O1-IRM20QWBFhQXt1mykn28KITDRTsWqc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

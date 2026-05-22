@@ -58,12 +58,12 @@ To create additional alerts,
    * **Expiration Date**: By default, the expiration date is one year from the alert creation date.
    * **Send an Alert When**:
 
-     *   Any of These Metrics Trigger
-         Add the type of server call/s as a metric and specify the alert threshold by selecting the modifier and the threshold:
-          *   is above or equals
-          *   is below or equals
-     *   With
-         Specify the threshold and condition (is above or equals or is below or equals) for the Usage Period Spent.
+     * Any of These Metrics Trigger
+       Add the type of server call/s as a metric and specify the alert threshold by selecting the modifier and the threshold:
+       * is above or equals
+       * is below or equals
+     * With
+       Specify the threshold and condition (is above or equals or is below or equals) for the Usage Period Spent.
 
 1. Click **[!UICONTROL Save]**.
 

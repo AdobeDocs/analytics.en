@@ -4,10 +4,18 @@ title: GDPR/ePrivacy compliance and server-side forwarding
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -29,7 +37,7 @@ topic_v2:
 
 This section explains enhancements to server-side forwarding that were prompted by the [EU cookie compliance regulation](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), which went into effect on Sept. 30, 2017.
 
-Server-side forwarding is used to share data from Adobe Analytics to other [!DNL Experience Cloud Solutions], such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+Server-side forwarding is used to share data from Adobe Analytics to other CX Enterprise solutions, such as Audience Manager, in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 
 Previously, server-side forwarding did not have a way to delineate between consent and pre-consent events/hits. As of November 1, 2018, you as the data controller (Adobe Analytics customer) have the option to restrict pre-consent data to Adobe Analytics, and prevent it from being forwarded to Adobe Audience Manager. A new implementation context variable lets you flag hits where consent has not been received. The variable, when set, prevents these hits from being sent to Adobe Audience Manager until consent has been received.
 

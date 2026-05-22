@@ -4,7 +4,7 @@ title: Reporting Activity Manager overview
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-TQID: https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc
+TQID: 'https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,9 @@ feature_v2:
     internal-label: Reports
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+    internal-label: Logs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

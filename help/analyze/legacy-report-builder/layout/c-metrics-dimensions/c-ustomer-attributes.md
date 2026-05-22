@@ -27,7 +27,7 @@ role_v2:
 
 Customer attributes are stored in new type of element called VisAttr, which can be configured as a dimension or a metric.
 
- For more detailed information on how to upload customer attributes, see the [Experience Cloud help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html).
+ For more detailed information on how to upload customer attributes, see the [CX Enterprise help](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html).
 
 * If it's configured as a metric, VisAttr is exposed both as metric and "dimension".
 

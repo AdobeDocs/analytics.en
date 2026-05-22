@@ -35,7 +35,7 @@ In some cases, executive users may need some additional assistance to access and
 
 ## Ensure app users have Adobe Analytics access
 
-1. Set up new users in the [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md).
+1. Set up new users in the [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. To be able to share scorecards, you must grant app users permissions to access scorecard components such as Analysis Workspace, the report suites that scorecards are based on, as well as segments, metrics and dimensions.
 
@@ -72,7 +72,7 @@ Once downloaded and installed, executive users can sign into the app using their
 
    The **[!UICONTROL Choose a company]** screen appears. This screen lists the login companies to which the executive user belongs.
 
-1. Have them tap the name of the login company or Experience Cloud Org that applies to the scorecard you shared. 
+1. Have them tap the name of the login company or CX Enterprise Org that applies to the scorecard you shared. 
 
    The Scorecard list then shows all scorecards that have been shared with the executive under that login company.
 

@@ -3,13 +3,22 @@ description: Understand how to use the segment manager to manage segments, such 
 title: Manage Segments
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
+TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
+    internal-label: Segmentation workflow
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -47,7 +56,7 @@ The segments list ➊ displays all the segments that you own, the segments that 
 | **[!UICONTROL Owner]** | The owner of the segment. As a user, you only see the segments that you own or the annotations that are shared with you. |
 | **[!UICONTROL Tags]** | The tags for this segment. |
 | **[!UICONTROL Shared with]** | How many individuals or groups that you shared the segment with. Select to open the **[!UICONTROL Share Component]** dialog. See [Share segments](t-seg-share.md) for more information. |
-| **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to Experience Cloud. |
+| **[!UICONTROL Published]** | Whether the [segment is published](seg-publish.md) to CX Enterprise. |
 | **[!UICONTROL Date modified]** | The date and time that the segment was last modified. |
 
 Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) to specify which columns you want to display.

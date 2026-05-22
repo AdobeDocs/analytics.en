@@ -4,7 +4,7 @@ keywords: privacy
 title: Privacy overview
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-TQID: https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI
+TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -36,7 +41,7 @@ topic_v2:
 ---
 # Privacy overview
 
-Adobe wants to enable your organization so that you can comply with applicable laws and regulations. See [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html){target=_blank} for more information. Between Adobe Analytics and your organization, Adobe acts as a "data processor" and you are the "data controller" (or equivalent under applicable privacy and data protection laws). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's solutions. While using Adobe Analytics, your organization is responsible for complying with your own privacy policy, your service agreement with Adobe, and all applicable laws.
+Adobe wants to enable your organization so that you can comply with applicable laws and regulations. See [Adobe CX Enterprise privacy](https://www.adobe.com/privacy/experience-cloud.html){target=_blank} for more information. Between Adobe Analytics and your organization, Adobe acts as a "data processor" and you are the "data controller" (or equivalent under applicable privacy and data protection laws). It is up to your organization to disclose how you use Adobe's products and services because your organization exclusively controls how to implement Adobe's solutions. While using Adobe Analytics, your organization is responsible for complying with your own privacy policy, your service agreement with Adobe, and all applicable laws.
 
 Adobe strongly recommends adhering to the following overarching concepts:
 

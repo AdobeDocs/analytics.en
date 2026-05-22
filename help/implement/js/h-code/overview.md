@@ -4,7 +4,7 @@ description: Learn the workflow to implement H Code on your site.
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
-TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
+TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -41,7 +41,7 @@ You must have access to your hosting servers to successfully implement a page wi
    >
    >H Code requires that the `s_code.js` script is called within the `<body>` tag. This is different from other implementation methods, most of which require script references be in the `<head>` tag.
 1. **Define page-specific variables on each page**: Each page should have individual variables defined, such as page name or eVars. Individual variables are typically defined with an inline `<script>` tag on each page.
-1. **Use the debugger to verify data collection**: Download and install the [Experience Cloud debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
+1. **Use the debugger to verify data collection**: Download and install the [CX Enterprise debugger](../../validate/debugger.md) to make sure data is sent to Adobe, and that page variables are correctly defined.
 
 ## Caching
 

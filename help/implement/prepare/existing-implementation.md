@@ -4,7 +4,7 @@ description: Instructions for Admins who are new to an existing Adobe Analytics 
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/5F0Q5NrSnaTQp4xPizJ7fRmeRygZ-4YEteo-pKH-AjE
+TQID: 'https://experienceleague.adobe.com/ljT8qsJ--cy-PEZ6FtzBsyTzxrIctzf8lHkvMGeqePo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

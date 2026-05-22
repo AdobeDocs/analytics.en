@@ -4,10 +4,16 @@ description: Custom variables you can use in your implementation.
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/X5HNYsZBAIMpvsM7ktZhQCSHt1icRQdcpzIkUBJjxv4
+TQID: 'https://experienceleague.adobe.com/7GS-wW0K3hh-uZ4fTi8yajH9wgFGBW-BQjT9m1mhXuU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

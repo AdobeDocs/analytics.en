@@ -4,10 +4,16 @@ keywords: ftp;sftp
 title: Set up FTP accounts - overview
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-TQID: https://experienceleague.adobe.com/38oslnk-IS87YU9qpOJyEoqytnrMuK5lp3VtYnTyQOg
+TQID: 'https://experienceleague.adobe.com/dB-Sb1aM5VYz5FAkvxOunFGeAQvttU7vxCjjqj1pesQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+    internal-label: FTP Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,4 +37,4 @@ Adobe customers receive maintenance notifications through their standard process
 
 The Adobe FTP host name is `ftp://ftp.omniture.com` or `ftp://ftp2.omniture.com`.
 
-This information, along with a username and password, should be provided either within the [!UICONTROL Experience Cloud] (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. If you do not know what FTP or SFTP address to use, contact your Adobe Account Team, who can provide the correct address. In addition, for classifications and Data Sources accounts, Adobe does not have a specific time of day that FTP or SFTP files are processed. Instead, Adobe uses a script that constantly polls FTP or SFTP accounts for new files process. Files uploaded into these accounts are processed as quickly as possible.
+This information, along with a username and password, should be provided either within CX Enterprise (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. If you do not know what FTP or SFTP address to use, contact your Adobe Account Team, who can provide the correct address. In addition, for classifications and Data Sources accounts, Adobe does not have a specific time of day that FTP or SFTP files are processed. Instead, Adobe uses a script that constantly polls FTP or SFTP accounts for new files process. Files uploaded into these accounts are processed as quickly as possible.

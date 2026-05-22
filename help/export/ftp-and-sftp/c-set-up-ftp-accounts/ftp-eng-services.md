@@ -4,10 +4,16 @@ keywords: ftp;sftp
 title: Engineering Services engagements with FTP
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-TQID: https://experienceleague.adobe.com/UNGgC97cm2QyFhcjxAKk8MhHmn3O-KoI-PfSQepIXUY
+TQID: 'https://experienceleague.adobe.com/wAqSJlju0P1oZVuSAdrfw0mgce64Hbu1Gc4vTnmGRLA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+    internal-label: FTP Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

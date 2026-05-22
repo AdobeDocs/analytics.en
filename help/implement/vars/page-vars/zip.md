@@ -4,10 +4,16 @@ description: Manually populate the 'Zip Code' dimension if report suite settings
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/y46MdBiCa0og3VQb56p5qcAOyr-2mbJmRUsYXnKjYic
+TQID: 'https://experienceleague.adobe.com/dv564yEz9tChaxot0w65ZGIc1T0Jqdnp1Mua0QUbn5Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -81,7 +81,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Campaign:** Can refer to:
   * The Campaign variable, which populates the Tracking Code dimension. See [campaign](../implement/vars/page-vars/campaign.md) in the Implement user guide.
   * A default classification of the Tracking Code dimension; automatically created for all report suites.
-  * Adobe Campaign, part of the Adobe Experience Cloud. More information on [Adobe.com](https://www.adobe.com/marketing/campaign.html).
+  * Adobe Campaign, part of Adobe CX Enterprise. More information on [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **Channel:** Can refer to:
   * The Channel variable, which populates the Site Sections dimension. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
   * Marketing Channels, a component that helps understand how users arrive to your site. See [Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
@@ -95,7 +95,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Conversion variable:** Also known as eVars. Stores a custom value, and preserves the variable value until it expires. See the [eVar](/help/components/dimensions/evar.md) dimension in the Components user guide.
 * **Correlation:** No longer used as a term; replaced with dimension breakdowns. In previous versions of Adobe Analytics, correlations granted the ability to break down traffic variables. See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) in the Analytics Tools Guide.
 * **Custom link:** A type of hit that contains non-page view data. See the [s.tl() function](../implement/vars/functions/tl-method.md) in the Implement user guide. See also Hit.
-* **Customer attributes:** An Experience Cloud feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
+* **Customer attributes:** A CX Enterprise feature that allows the upload of attribute data. See [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in the Core Services user guide.
 * **Data collection server:** Adobe-owned servers that receive and process data. Image requests are sent to Adobe's data collection servers for use in reporting.
 * **Data connectors:** A retired development solution that allows a third party to automate the uploading of data into Adobe Analytics. Customers of that third party can use a data connector to enrich their data in Adobe Analytics. Replaced with the [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Data feed:** A raw data export that lists every hit as a row and variables as separate columns. Most commonly used to export Adobe Analytics data to a third-party database. See [Data feeds](/help/export/analytics-data-feed/data-feed-overview.md) in the Export user guide.
@@ -126,7 +126,7 @@ Use this glossary to understand the context of many terms Adobe Analytics uses.
 * **Marketing channel:** A feature in Adobe Analytics that categorizes hits by how they arrived to your site. The logic used to categorize hits can be customized using Marketing channel processing rules. See [Getting started with Marketing Channels](/help/components/c-marketing-channels/c-getting-started-mchannel.md) in the Components user guide.
 * **Metric:** A component type that contains quantitative data. Metric values typically contain numbers, such as Page Views, Visits, and Revenue. A dimension is typically its counterpart.
 * **Mobile App:** Also known as **Adobe Analytics [!UICONTROL dashboards]**, the mobile app allows users mobile access to intuitive scorecards. Scorecards are a collection of key metrics and other components presented in a tiled layout that you can tap for more detailed breakdowns and trended reports. The mobile app is supported on both iOS and Android operating systems.
-* **Mobile Services:** A retired Adobe product that brought together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud, letting you understand and improve user engagement with your applications.
+* **Mobile Services:** A retired Adobe product that brought together mobile marketing capabilities for mobile applications from across Adobe CX Enterprise, letting you understand and improve user engagement with your applications.
 * **Multi-suite tagging:** The practice of sending the same hit to multiple report suites. With the introduction to virtual report suites, this practice is largely no longer necessary. Most multi-suite tagging efforts help accommodate a global report suite.
 * **Normalization:** A way to organize a visualization that takes all metrics and forces them to equal proportions, allowing an easier comparison of trends.
 * **Occurrences:** A type of metric that shows how many hits a dimension item was set or persisted. See the [Occurrences](/help/components/metrics/occurrences.md) metric in the Components user guide.

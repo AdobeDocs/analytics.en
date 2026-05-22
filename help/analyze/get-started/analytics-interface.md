@@ -3,6 +3,45 @@ description: General overview information about Adobe Analytics, including infor
 title: Understand the Analytics interface
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
+TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Understand the Analytics interface
 
@@ -39,7 +78,7 @@ The [!UICONTROL Components] tab includes features that help you fine tune and em
    
    | Product feature | Function | More information |
    |---------|----------|----------|
-   | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, the Adobe Experience Cloud, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](/help/components/segmentation/seg-home.md) |
+   | Segments | Adobe Analytics lets you build, manage, share, and apply powerful, focused audience segments to your reports using Analytics capabilities, Adobe CX Enterprise, Adobe Target, and other integrated Adobe products. | [Analytics segmentation](/help/components/segmentation/seg-home.md) |
    | Calculated metrics | Calculated and Advanced Calculated (or Derived) metrics are custom metrics that you can create from existing metrics.  They allow marketers, product managers, and analysts to ask questions of the data without having to change the Analytics implementation.  | [Calculated and Advanced Calculated metrics](/help/components/calculated-metrics/cm-overview.md) |
    | Date ranges | Analysis Workspace includes a list of default date ranges that users can use when building analyses. In addition, you can create custom date ranges and make them available to users in Analysis Workspace. | [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual report suites | Virtual report suites segment your Adobe Analytics data so you can control access to each segment. | [Virtual report suites overview](/help/components/vrs/vrs-about.md) |
@@ -112,7 +151,7 @@ The Admin tab includes features and configuration options to administer Adobe An
    | Security manager | The Security Manager lets you control access to reporting data. Options include strong passwords, password expiration, IP login restrictions, and email domain restrictions. | [Security Manager](/help/admin/tools/company/security-manager.md) |
    | Web services | The Web Services APIs provide programmatic access to marketing reports and other Suite services that let you duplicate and augment functionality available through the Analytics interface. | [Web services](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder reports | Manage license assigned to Report Builder users. | [Report Builder reports](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Single sign-on service | Single sign-on in the Adobe Experience Cloud is implemented through the Admin Console. | [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Single sign-on service | Single sign-on in Adobe CX Enterprise is implemented through the Admin Console. | [Analytics in the Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Hide report suites | Lets you hide report suites in the Adobe Analytics user interface if you no longer want a report suite to be available to you and your users. | [Hide report suites](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

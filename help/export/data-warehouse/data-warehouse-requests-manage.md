@@ -4,13 +4,18 @@ title: Manage Data Warehouse requests
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-TQID: https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc
+TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+    internal-label: Data Warehouse
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

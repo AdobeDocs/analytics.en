@@ -4,10 +4,18 @@ title: View report suite usage
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
-TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
+TQID: 'https://experienceleague.adobe.com/sA3dNQtSIT-j0SnIWh7nPtbRBwk-jQ1z01NoEuReTys'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -23,11 +31,11 @@ The Report Suite Usage tab provides server usage data for each report suite in a
 
 >[!IMPORTANT]
 >
->If a report suite is not linked to an Experience Cloud Organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple Experience Cloud Orgs; there is not always a 1:1 relationship between an org and a billing ID.
+>If a report suite is not linked to a CX Enterprise organization, its usage data is not reflected in this dashboard. Also, a billing ID could be tied to multiple CX Enterprise Orgs; there is not always a 1:1 relationship between an org and a billing ID.
 
 The Report Suite Usage dashboard
 
-* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your Experience Cloud organization.
+* Shows the current usage period's server call usage (All Calls, Primary, Secondary, Mobile Primary, Mobile Secondary) for each report suite in your CX Enterprise organization.
 * Shows percentage of overall usage per server call category.
 * Is updated daily.
 * Is downloadable.

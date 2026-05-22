@@ -4,10 +4,16 @@ description: Establishes the frequency of hits when a device comes back online.
 feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/COxmVvMrt0ucZhReX3nYg1Ghacb-LBGcOsX50yzVQrY
+TQID: 'https://experienceleague.adobe.com/FiC4yXkRmNoY0PPO9ouC8-hX5xqWhkbcDVht5f05Yqk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -69,7 +69,7 @@ This integration is aimed at the following audiences:
 
 Analytics has two permissions that are automatically granted to Analytics admins. Admins can then choose to grant these permissions to non-admins.
 
-| Permission | Definition | Grant permission if you are logged in to Adobe Experience Cloud |
+| Permission | Definition | Grant permission if you are logged in to Adobe CX Enterprise |
 | --- | --- | --- |
 | Advertising Analytics Management | Lets users set up/edit/view advertising search accounts. | Log in to [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Management] |
 | Advertising Analytics Configuration | Lets users configure report suites to be provisioned for Advertising Analytics. | Log in to [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > [!UICONTROL Permissions] tab > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Configuration] |

@@ -4,13 +4,16 @@ title: Migrate Analytics user accounts for Enterprise and Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-TQID: https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0
+TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -88,7 +91,7 @@ If you need to migrate existing Adobe ID user accounts to an Enterprise ID or Fe
 
       >[!IMPORTANT]
       >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. This step helps prevent overwriting existing Experience Cloud user permissions in the Adobe Admin Console and gives you a list of accounts to migrate.
+      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. This step helps prevent overwriting existing CX Enterprise user permissions in the Adobe Admin Console and gives you a list of accounts to migrate.
 
 1. Download the CSV template from the Adobe Admin Console:
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.

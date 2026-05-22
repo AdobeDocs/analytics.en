@@ -3,13 +3,16 @@ description: You can view Advertising Analytics data in Adobe Analytics
 title: Configure Advertising Analytics
 feature: Admin Tools
 exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
-TQID: https://experienceleague.adobe.com/un3IOt6X0jYCwVJU6-9ha7yw3KTOdTQ-sAOJGCVF0xw
+TQID: 'https://experienceleague.adobe.com/un3IOt6X0jYCwVJU6-9ha7yw3KTOdTQ-sAOJGCVF0xw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,10 +4,16 @@ description: Create a space to customize how data is collected, using tags.
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
+TQID: 'https://experienceleague.adobe.com/2cZHjGRwvLZPL-jmGLOQpgSXr5Rib8nMeqFWj2cCKAA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -21,7 +27,7 @@ topic_v2:
 ---
 # Create an Adobe Analytics tag property
 
-Tags in Adobe Experience Platform lets you integrate Experience Cloud solutions on your website (including Analytics). This page outlines specifically how a tag admin can get a basic Adobe Analytics implementation configured correctly.
+Tags in Adobe Experience Platform lets you integrate CX Enterprise solutions on your website (including Analytics). This page outlines specifically how a tag admin can get a basic Adobe Analytics implementation configured correctly.
 
 ## Prerequisites
 
@@ -37,7 +43,7 @@ Properties are overarching containers you use to manage tags. Extensions let you
 1. Click your newly created tag property to enter its settings.
 1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
 1. Locate 'Experience Cloud ID Service', then click **[!UICONTROL Install]**.
-1. All settings, including Experience Cloud Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
+1. All settings, including the CX Enterprise Organization ID, should be already filled out. Click **[!UICONTROL Save]**.
 1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
 
 See the full documentation for the [Adobe Analytics extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) for more detailed information.

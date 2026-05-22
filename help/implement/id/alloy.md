@@ -2,10 +2,16 @@
 title: Visitor identification using the Web SDK JavaScript library
 description: Correctly identify visitors when implementing the Web SDK JavaScript library.
 exl-id: e650d6b1-6e29-4a9c-98dd-8482f50968d1
-TQID: https://experienceleague.adobe.com/R6O--qqR7SzlArrIDFCWunUEAduzmAS2Skm6BKyREnw
+TQID: 'https://experienceleague.adobe.com/k9u260HKJg6hhs7REAQ3-uE4pHvrUPBv6x8yLjZ5tvc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +25,7 @@ topic_v2:
 ---
 # Visitor identification using the Web SDK JavaScript library
 
-The Adobe Experience Platform Web SDK JavaScript library (`alloy.js`) offers a unified, modern approach to data collection for all Adobe Experience Cloud applications, including Adobe Analytics. While most customers typically implement the [Web SDK tag extension](web-sdk-extension.md), you can use the Web SDK JavaScript library on its own or within a third-party tag management system. See [Alloy](https://github.com/adobe/alloy) on GitHub to download the latest version of the library.
+The Adobe Experience Platform Web SDK JavaScript library (`alloy.js`) offers a unified, modern approach to data collection for all Adobe CX Enterprise applications, including Adobe Analytics. While most customers typically implement the [Web SDK tag extension](web-sdk-extension.md), you can use the Web SDK JavaScript library on its own or within a third-party tag management system. See [Alloy](https://github.com/adobe/alloy) on GitHub to download the latest version of the library.
 
 Identity data can be extended to support custom IDs and multiple namespaces using XDM's `identityMap`. Adobe recommends using the Adobe Experience Cloud ID Service as the primary identifier for Analytics, using other identity management options for advanced scenarios.
 

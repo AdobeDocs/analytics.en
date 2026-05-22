@@ -4,10 +4,16 @@ description: Change the attribute that Activity Map looks for to determine the r
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
-TQID: https://experienceleague.adobe.com/4J2esEPxvV-weoNQM9X-ScFa6fIUERWVLCUme9GZygM
+TQID: 'https://experienceleague.adobe.com/DJj1qmoYB0iMxDszdGKYTeczkjv0OvxXAYlg2irpKb0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

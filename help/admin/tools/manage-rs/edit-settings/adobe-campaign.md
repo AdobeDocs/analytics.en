@@ -3,13 +3,16 @@ description: You can view Adobe Campaign data in Adobe Analytics
 title: View Adobe Campaign data in Adobe Analytics
 feature: Admin Tools
 exl-id: a4bf0cc3-b63b-49a9-aefd-44a82d4d2495
-TQID: https://experienceleague.adobe.com/Qkeg0TdTnXERjAF1ngdCvrVGnMZXm7HO3HnfqX1zyg8
+TQID: 'https://experienceleague.adobe.com/Qkeg0TdTnXERjAF1ngdCvrVGnMZXm7HO3HnfqX1zyg8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

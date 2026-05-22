@@ -4,10 +4,16 @@ description: Determine which mobile AppMeasurement library to use.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/5pWSjXV23Qv-Na6TxaDJVFsr0--GseHCWLlVlxftfIw
+TQID: 'https://experienceleague.adobe.com/8LHT2bJkPMCeFz3ksVV8Gcgwrg04d5dOiucC3bwjJVI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

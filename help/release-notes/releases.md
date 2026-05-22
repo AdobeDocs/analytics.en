@@ -3,13 +3,18 @@ description: Explains the continuous feature release strategy for Adobe Analytic
 title: Adobe Analytics feature releases
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-TQID: https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI
+TQID: 'https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -26,9 +31,9 @@ Adobe Analytics releases operate on a continuous delivery model which allows for
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. It is then made available to a small group of customer accounts to ensure that the feature meets customer needs and expectations. 
 
-* **Start of Rollout**: Rollout of a phased release begins with the Limited Testing phase. The release is then scaled from 0% to 100% availability to customers over the course of a couple months. Phased rollout happens at the Experience Cloud Organization level, so all entitled users in an organization receive the same experience.
+* **Start of Rollout**: Rollout of a phased release begins with the Limited Testing phase. The release is then scaled from 0% to 100% availability to customers over the course of a couple months. Phased rollout happens at the CX Enterprise Organization level, so all entitled users in an organization receive the same experience.
 
-* **General Availability (GA)**: The feature is available to 100% of entitled Experience Cloud organizations, and feature release is complete.
+* **General Availability (GA)**: The feature is available to 100% of entitled CX Enterprise organizations, and feature release is complete.
 
 With each feature release, the timeline from Start of Rollout to GA may vary. The goal is to keep releases short, so that within 2 months of Start of Rollout, a feature will be GA.
 

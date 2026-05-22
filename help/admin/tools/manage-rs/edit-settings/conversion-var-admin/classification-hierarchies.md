@@ -5,13 +5,18 @@ title: Classification hierarchies
 feature: Classifications
 role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-TQID: https://experienceleague.adobe.com/GWTGMWRF8q0jaqolSi67YOvv727bC9ter5k8rXu6AV4
+TQID: 'https://experienceleague.adobe.com/EFK6z98koW7Ho6GRLyIhEd3UVIAF9XccIdcmzoNRFsc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

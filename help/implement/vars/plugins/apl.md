@@ -4,13 +4,18 @@ description: Append values to variables that support multiple values.
 feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0
+TQID: 'https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

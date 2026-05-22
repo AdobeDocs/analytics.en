@@ -71,7 +71,7 @@ The **[!UICONTROL Segment builder]** dialog is used to create new or edit existi
    {style="table-layout:auto"}
    
 1. To verify whether your segment definition is correct, use the constantly updated preview of the results of the segment at the top right.
-1. To publish your segment to the Experience Cloud, select **[!UICONTROL Publish this segment to the  Experience Cloud (for *report suite*)]**. See [Publish segments to Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) for more information.
+1. To publish your segment to CX Enterprise, select **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**. See [Publish segments to CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) for more information.
 1. Select:
    * **[!UICONTROL Save]** to save the segment.
    * **[!UICONTROL Save As]** to save a copy of the segment. 
@@ -272,7 +272,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
-1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
 1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.

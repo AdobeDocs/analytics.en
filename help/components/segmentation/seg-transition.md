@@ -86,7 +86,7 @@ These segments are migrated over as segment templates into the Segment builder. 
 
 +++
 
-+++ **What happened to Experience Cloud (Suite) segments:**
++++ **What happened to CX Enterprise (Suite) segments:**
 
 * Non-Purchasers
 * Purchasers

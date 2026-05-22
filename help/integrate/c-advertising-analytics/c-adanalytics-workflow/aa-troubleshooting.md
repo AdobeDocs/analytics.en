@@ -3,13 +3,18 @@ description: Troubleshoot and fix issues related to Advertising Analytics.
 title: Troubleshoot Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-TQID: https://experienceleague.adobe.com/IcQbKVVNL0xv3Y-Ux4OsORlSFSn3HhK0Fx6HeY2fCa4
+TQID: 'https://experienceleague.adobe.com/IcQbKVVNL0xv3Y-Ux4OsORlSFSn3HhK0Fx6HeY2fCa4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
     internal-label: Integrations
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -39,7 +44,7 @@ You are trying to [set up a new Advertising Account](/help/integrate/c-advertisi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. The report suite is not mapped to the Experience Cloud Org ID of the login user. </p> </td> 
+   <td colname="col1"> <p>1. The report suite is not mapped to the CX Enterprise Org ID of the login user. </p> </td> 
    <td colname="col2"> <p>Contact Customer Care to map the report suite to an organization ID.</p> </td> 
   </tr> 
   <tr> 

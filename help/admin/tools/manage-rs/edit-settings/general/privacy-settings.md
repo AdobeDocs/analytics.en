@@ -4,13 +4,16 @@ title: Privacy Settings
 feature: Admin Tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 exl-id: cbc0d0e3-9765-4942-9179-d8f023a75258
-TQID: https://experienceleague.adobe.com/PZZqmWntsS75CE4qTXuFzxbmkbXT6PSa4-XJwMYBinM
+TQID: 'https://experienceleague.adobe.com/PZZqmWntsS75CE4qTXuFzxbmkbXT6PSa4-XJwMYBinM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
     internal-label: Admin Tools
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

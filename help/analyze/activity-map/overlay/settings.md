@@ -5,7 +5,7 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

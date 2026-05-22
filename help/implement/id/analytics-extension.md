@@ -2,10 +2,16 @@
 title: Visitor identification using the Adobe Analytics tag extension
 description: Correctly identify visitors when implementing the Adobe Analytics tag extension.
 exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
-TQID: https://experienceleague.adobe.com/bdm2phkscnH9bSiQqK9K--ySTLguGaf-WLgEc3TL6H8
+TQID: 'https://experienceleague.adobe.com/i38Vo-39aUwJOp3HoS-bb2jqwSSV0oqeR0lkjOJqcgs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +35,7 @@ The Adobe Analytics tag extension provides allows you to implement AppMeasuremen
 
 To use the Visitor ID Service using the Adobe Analytics tag extension, include the Experience Cloud ID Service tag extension in your tag property.
 
-1. Log in to [experience.adobe.com](https://experience.adobe.com) using your Adobe ID credentials.
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Navigate to **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
 1. Locate the desired tag property.
 1. Navigate to **[!UICONTROL Extensions]**, then select the **[!UICONTROL Catalog]** tab.

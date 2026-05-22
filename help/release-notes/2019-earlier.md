@@ -4,10 +4,17 @@ description: 2019 Adobe Analytics release notes
 solution: Analytics
 feature: Release Notes
 exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a
-TQID: https://experienceleague.adobe.com/NHr9QfKsz0-21dvY-c9HLl534b7r6c-0ftAY6rIRcGU
+autotag-review: '2026-05-19T13:31:34.144Z'
+TQID: 'https://experienceleague.adobe.com/cjH58elv5B6CQ-0p777PvjouaghbfPg9TLUMEWvOZnQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,7 +23,7 @@ role_v2:
 ---
 # Adobe Analytics release notes for 2019 (and earlier) 
 
-Note that these Release Notes .pdf files contain release notes for all Adobe Experience Cloud solutions.
+Note that these Release Notes .pdf files contain release notes for all Adobe CX Enterprise solutions.
 
 * [2019 Release Notes PDF](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [2018 Release Notes PDF](2018-Adobe-Experience-Cloud-Release-Notes.pdf)

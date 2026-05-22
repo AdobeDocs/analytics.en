@@ -2,10 +2,16 @@
 title: Migrate from the Adobe Analytics tag extension to the Web SDK tag extension
 description: Update your Analytics implementation on Adobe Experience Platform Data Collection tags to use the Web SDK extension.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,6 +22,8 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 ---
@@ -48,7 +56,7 @@ The following steps contain concrete goals to work towards. Click each step for 
 
 Create a datastream in Adobe Experience Platform Data Collection. When you send data to this datastream, it forwards data to Adobe Analytics. In the future, this same datastream forwards data to Customer Journey Analytics.
 
-1. Navigate to [experience.adobe.com](https://experience.adobe.com) and log in using your credentials.
+1. Navigate to [Adobe CX Enterprise](https://experience.adobe.com) and log in using your credentials.
 1. Use the home page or product selector in the top right to navigate to **[!UICONTROL Data Collection]**.
 1. In the left navigation, select **[!UICONTROL Datastreams]**.
 1. Select **[!UICONTROL New Datastream]**.

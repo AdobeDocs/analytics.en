@@ -3,7 +3,7 @@ title: Streaming media services player state tracking metrics
 description: Available metrics when you enable [!UICONTROL Player State Tracking] for a report suite.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-TQID: https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU
+TQID: 'https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

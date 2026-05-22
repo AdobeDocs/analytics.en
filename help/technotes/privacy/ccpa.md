@@ -4,7 +4,7 @@ title: Adobe Analytics and CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-TQID: https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw
+TQID: 'https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -13,6 +13,11 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -36,13 +41,13 @@ On January 1, 2020, the California Consumer Privacy Act (CCPA) goes into effect.
 
 When Adobe is providing software and services to an enterprise, Adobe is acting as a data processor for any personal data it receives and stores on behalf of our customers, as part of providing the services. As a data processor, Adobe processes personal data in accordance with your company's permission and instructions (for example, as set out in your agreement with Adobe).
 
-As the data controller, you determine the personal data that Adobe processes and stores on your behalf. If you use Adobe Experience Cloud solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe Experience Cloud account. For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
+As the data controller, you determine the personal data that Adobe processes and stores on your behalf. If you use Adobe CX Enterprise solutions, Adobe might host personal data for you depending on the solutions you use and the information you choose to send to your Adobe CX Enterprise account. For a list of examples, see [Adobe CX Enterprise privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
 ## How Adobe Handles CCPA Data
 
-The Adobe Experience Cloud provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of the Adobe Experience Cloud enable a direct linkage of data governance policy to data usage.
+Adobe CX Enterprise provides an integrated solution that connects your brand's data governance infrastructure with the Adobe tools it uses to create and manage consumer experiences. The data governance features of Adobe CX Enterprise enable a direct linkage of data governance policy to data usage.
 
-Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for privacy readiness and how to integrate with the Adobe Experience Cloud Privacy Service API.
+Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) which discusses steps for privacy readiness and how to integrate with the Adobe CX Enterprise Privacy Service API.
 
 ## CCPA Readiness and your Adobe Analytics Data
 

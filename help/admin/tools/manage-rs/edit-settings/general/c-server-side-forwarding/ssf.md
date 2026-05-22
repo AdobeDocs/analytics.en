@@ -1,14 +1,22 @@
 ---
-description: Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+description: Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 solution: Analytics
 title: Server-side forwarding overview
 feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
-TQID: https://experienceleague.adobe.com/O03-5Ovxy3Lq-LZjPOseTpOlCXaS1kwD8n2ZM1yJuxY
+TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -26,12 +34,12 @@ topic_v2:
 ---
 # Server-side forwarding overview
 
-Server-side forwarding is designed for customers who want to share data from Analytics to other Experience Cloud Solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other Experience Cloud solutions and for those solutions to push data to Analytics during the data collection process.
+Server-side forwarding is designed for customers who want to share data from Analytics to other CX Enterprise solutions in real time. When enabled, server-side forwarding also allows Analytics to push data to other CX Enterprise solutions and for those solutions to push data to Analytics during the data collection process.
 
 Server-side forwarding improves upon data collection because it:
 
 * Reduces calls from the page. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. Fewer calls helps improve page load times, which makes for a better customer experience on your site.
-* Lets you take advantage of data sharing among Experience Cloud solutions.
+* Lets you take advantage of data sharing among CX Enterprise solutions.
 * Conforms with our best practices for Audience Manager code implementation and deployment.
 
 >[!TIP]
@@ -83,4 +91,4 @@ Go to **Analytics** > **Admin** > **Report Suites** > (select **report suites**)
 
 >[!NOTE]
 >
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) or [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.
+>Data will not appear in other CX Enterprise solutions, such as [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) or [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) until all 3 steps are complete. Once enabled, it will take several hours for these settings to take effect.

@@ -4,10 +4,16 @@ description: Use this variable to link online and offline data together.
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/3dK-vqoRvlIA682zDh4KqlujSC6zqMxpz5ZEpmkTJN8
+TQID: 'https://experienceleague.adobe.com/vpopS2WlO27GSPIGw5sn-Zm-X7UsGq5P-My-n9tGmG0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

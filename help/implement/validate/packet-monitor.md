@@ -5,13 +5,16 @@ keywords: packet sniffer, http status, 200, 302, charles
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y
+TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +36,7 @@ topic_v2:
 
 Packet analyzers let you view the data sent by your implementation to Adobe data collection servers.
 
-Similar to the Adobe Experience Cloud debugger, a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
+Similar to the Adobe CX Enterprise debugger, a packet monitor shows what data parameters are being passed in an image request; however, packet monitors provide added functionality:
 
 * View custom link tracking image requests 
 * View image requests using implementation methods other than JavaScript, such as hard-coded image requests or [!DNL Appmeasurement]

@@ -3,7 +3,7 @@ title: Acquisition reports in Adobe Analytics
 description: Learn how to create acquisition-based reports using Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-TQID: https://experienceleague.adobe.com/vomv0E3B57KG8zEf-Iycpq7TXh2f-WjtXTEf2JpO20Q
+TQID: 'https://experienceleague.adobe.com/vomv0E3B57KG8zEf-Iycpq7TXh2f-WjtXTEf2JpO20Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,6 +14,11 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: a60fda7a-bb0b-4eb6-b9fe-77558cbee1fa
+    internal-label: Third party integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

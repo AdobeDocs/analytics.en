@@ -4,10 +4,16 @@ description: Returns the value of a query string parameter.
 feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/hPNA1jq7fyFOlvqNJ3dVZeSvBeCCfWzyH5BdhQDRZV8
+TQID: 'https://experienceleague.adobe.com/99nBiI23QwY6J6qEVKKz901Bertmkxf21YeJdKTmWbo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

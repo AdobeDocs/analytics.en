@@ -3,7 +3,7 @@ title: Streaming media services core metrics
 description: Available metrics when you enable [!UICONTROL Media Core] for a report suite.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-TQID: https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg
+TQID: 'https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

@@ -4,13 +4,18 @@ description: Implement Adobe Analytics on Facebook Instant Article pages.
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 role: Developer
-TQID: https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg
+TQID: 'https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -104,4 +109,4 @@ The following example shows several custom variables included in a query string.
 
 ## Facebook Instant Articles and privacy
 
-As long as the Analytics HTML page is hosted on your web server, Adobe supports your existing privacy policy across all Facebook Instant Articles. If a user opts out of tracking on your primary site, they also opt out of tracking on all your Facebook Instant Articles. The utility page also supports the Adobe Experience Cloud Identity Service so that you can integrate Facebook Instant Article data with the rest of the Experience Cloud.
+As long as the Analytics HTML page is hosted on your web server, Adobe supports your existing privacy policy across all Facebook Instant Articles. If a user opts out of tracking on your primary site, they also opt out of tracking on all your Facebook Instant Articles. The utility page also supports the Adobe Experience Cloud Identity Service so that you can integrate Facebook Instant Article data with the rest of CX Enterprise.

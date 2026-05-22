@@ -4,10 +4,16 @@ description: Enable or disable automatic link tracking for download links.
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/GW-ZI4YjwscVnYMbciWD4YOYcj-9cPwwEo1HtEgOYKM
+TQID: 'https://experienceleague.adobe.com/mH9olBbVVqz9WCBCWiZuDe9JcljL0ADOesKSfEE6gkA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

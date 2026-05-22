@@ -4,7 +4,8 @@ description: Learn about Analysis Workspace, the premier analysis tool for Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+autotag-review: '2026-05-22T09:19:57.382Z'
+TQID: 'https://experienceleague.adobe.com/O1TMjrV56s5v-x3waE7oKGog18sasEjo06eYiquAWjI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -34,6 +35,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
@@ -162,7 +165,7 @@ You synchronize visualizations to control which data table or data source corres
 
 To start using Analysis Workspace: 
 
-1. Log in to [Adobe Experience Cloud](https://experience.adobe.com).
+1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Select **[!UICONTROL Customer Journey Analytics]** from the app switcher ![App](/help/assets/icons/Apps.svg) at the top right of the interface.
 1. The **[!UICONTROL Projects]** page of Analysis Workspace is shown by default. If a specific project has been selected for you or you have been working on recently, then that project is shown by default.
 
@@ -183,4 +186,4 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
+- See [Adobe CX Enterprise release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.

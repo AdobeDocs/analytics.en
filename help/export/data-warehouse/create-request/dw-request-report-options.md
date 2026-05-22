@@ -3,7 +3,7 @@ description: Steps that describe how to create a Data Warehouse request.
 title: Configure report options for a Data Warehouse request
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-TQID: https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs
+TQID: 'https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,11 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+    internal-label: Data Warehouse
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

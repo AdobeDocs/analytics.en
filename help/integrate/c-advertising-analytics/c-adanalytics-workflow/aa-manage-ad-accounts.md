@@ -3,6 +3,20 @@ description: Manage accounts in Advertising Analytics.
 title: Manage advertising accounts
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
+autotag-review: '2026-05-19T13:32:36.907Z'
+TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Manage advertising accounts
 

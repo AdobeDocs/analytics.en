@@ -3,7 +3,7 @@ title: Mobile lifecycle metrics
 description: Metrics based on data collected using the Mobile SDK.
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
-TQID: https://experienceleague.adobe.com/Y1IigGbQygTsS9UD3WEp9z8rLTqkeDuhZZ83AJQMa3o
+TQID: 'https://experienceleague.adobe.com/Y1IigGbQygTsS9UD3WEp9z8rLTqkeDuhZZ83AJQMa3o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics

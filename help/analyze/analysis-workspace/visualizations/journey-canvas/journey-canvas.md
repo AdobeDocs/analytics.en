@@ -9,31 +9,19 @@ role: User, Admin
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_button"
+>id="aa_journeycanvas_button"
 >title="Journey canvas"
 >abstract="Shows how people proceed through or fall out of a series of touchpoints. Use for journeys with multiple entry points and paths."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_panel"
+>id="aa_journeycanvas_panel"
 >title="Journey canvas"
 >abstract="Analyze how people proceed through or fall out of a defined journey. Build analyses of user journeys by creating a flexible graph of nodes and arrows representing any combination of events, dimension items, and segments. Drag nodes on the canvas to rearrange the events and conditions of the journey. As you do, data updates accordingly."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Journey canvas"
 >abstract="Shows how people proceed through or fall out of a series of touchpoints. Use for journeys with multiple entry points and paths."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -44,7 +32,7 @@ role: User, Admin
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_See [Journey canvas overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
+_This article documents the Journey canvas visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/><br/>_See [Journey canvas overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

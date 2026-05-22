@@ -4,7 +4,7 @@ title: Statistical Techniques Used In Anomaly Detection
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-TQID: https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E
+TQID: 'https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -15,6 +15,11 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

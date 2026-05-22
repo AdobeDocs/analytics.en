@@ -4,10 +4,16 @@ title: Server Call Usage FAQ
 feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 role: Admin
-TQID: https://experienceleague.adobe.com/ZznxAtNm8HdznNQ7ltsDnoWW2j30uG62ahKh1xeHLaU
+TQID: 'https://experienceleague.adobe.com/kDnDNyFa4VGOiT-2a7UeygM4qTKX8BZDByzRqFjOT5c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

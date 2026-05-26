@@ -68,3 +68,4 @@ The troubleshoot and help resolve support tickets, enable to log Report Builder 
 
   1. Select ![Setting](/help/assets/icons/Setting.svg).
   1. Select **[!UICONTROL Log report builder request data block(s) to web console]**. <br/>Requests are send to your web browser console. Refer to the documentation of your web browser how to open the console log as part of the web browser developer tools.
+

@@ -111,3 +111,4 @@ To log requests for troubleshooting purposes, in the legacy Report Builder add-i
 
 1. Select **[!UICONTROL Options]**
 1. Select **[!UICONTROL Log report builder request to local file (for troubleshooting)]**.<br/>Requests are stored in a local date stamped file in a **[!UICONTROL ReportBuilderLogs]** directory within your **[!UICONTROL Documents]** folder.
+

@@ -3,16 +3,18 @@ title: Classification Set Schema
 description: Learn how to view and edit the schema for a classification set in Adobe Analytics. Add, upload, download, or automate classification data using cloud locations..
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-TQID: https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI
+TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-    internal-label: Calculated Metrics
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -180,8 +182,8 @@ You can automate the ingestion of classification data through the configuration 
 >| Analytics datacenter location | Add this IP address range to an allowlist in your network |
 >|---|---:|
 >| Pacific North West | `52.254.104.0/22` |
->| London | `51.138.16.0/22` |
->| Singapore | `20.40.0.0/14 `|
+>| London | `51.138.0.0/19` |
+>| Singapore | `20.32.0.0/11 `|
 >
 
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.

@@ -186,6 +186,7 @@ You can automate the ingestion of classification data through the configuration 
 >| Singapore | `20.32.0.0/11 `|
 >
 
+
 To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 
 ![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)

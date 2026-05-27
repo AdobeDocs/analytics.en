@@ -1,6 +1,13 @@
 # Snippets
 
-## Legacy Report Builder {#legacy-arb}
+## Legacy Report Builder EOL {#legacy-arb}
+
+>[!WARNING]
+>
+>The legacy Report Builder is end-of-life in June 2026. As of July 1, 2026, workbooks scheduled using the legacy Report Builder will no longer be delivered. <ul><li>You have until August 12, 2026 to migrate your workboks from the legacy Report Builder to the new Report Builder. See [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md) for detailed information.</li><li>With the end of life of the Adobe Analytics 1.4 API's, the legacy Report Builder add-in will no longer be available for download.</li><li>After August 12, 2026, customers with workbooks requiring migration will need to contact customer support to obtain the orignial workbooks. These workbooks will need to be migrated as documented in [convert your legacy workbooks](/help/analyze/report-builder/convert-workbooks.md).</li></ul> A new and streamlined [Report Builder](/help/analyze/report-builder/rb-overview.md) is available since October 16, 2024. This Report Builder is supported on macOS, Windows, and web browsers and can be used with Adobe Analytics and Customer Journey Analytics. Scheduled exports to an FTP server and Power BI are no longer supported in Report Builder. Customers using these features in legacy Report Builder must use a [cloud destination for export](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) in Report Builder.
+
+
+## Legacy Report Builder {#legacy-arb-old}
 
 >[!IMPORTANT]
 >

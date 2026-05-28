@@ -98,7 +98,7 @@ To configure the destination where Data Warehouse reports are sent:
 
       +++Amazon S3 Role ARN
 
-         **NOTE:** When using Amazon S3 with Data Warehouse, only SSE-S3 encryption is supported.
+         **NOTE:** When using Amazon S3 with Data Feeds, Data Warehouse, and Classifications, only SSE-S3 encryption is supported.
          
          To configure an Amazon S3 Role ARN account, specify the following information:
 

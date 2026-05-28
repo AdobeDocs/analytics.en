@@ -87,7 +87,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments
 1. Select **[!UICONTROL Add]** to create a new segment.
    ![Publish CX Enterprise](assets/publish-ec.png)
 1. Provide a title and a description for the segment. These fields are required before you can save the segment.
-1. In the **[!UICONTROL CX Enterprise publishing]** section, select the option **[!UICONTROL Publish this segment to CX Enterprise (for *report suite*)]**.
+1. In the **[!UICONTROL Experience Cloud publishing]** section, select the option **[!UICONTROL Publish this segment to Experience Cloud (for *report suite*)]**.
 
    >[!IMPORTANT]
    >

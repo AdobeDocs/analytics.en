@@ -54,7 +54,7 @@ To start, create a new declared ID in the [People Core Service](https://experien
 
 Here is how this ID can be captured via Data Element. Be sure to populate your CX Enterprise OrgID into the Data Element correctly.
 
-```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
+`return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
 Once this Data Element is set up, follow [these instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) to pass declared IDs into the ECID Tool using tags in Adobe Experience Platform.
 

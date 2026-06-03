@@ -45,9 +45,9 @@ The list of classifications has the following columns:
 
 | Column | Description |
 |---|---|
-| **[!UICONTROL Classification Name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity Name]** | The sytem generated name  for the classification. This name is a read-only value and you can use the the Identity name. |
-| **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
+| **[!UICONTROL Classification name]** | The name you provided for the classification. |
+| **[!UICONTROL Identity name]** | The sytem generated name for the classification. This name is a read-only value and is derived from the initial classification name. The identity name is used internally to persist the classification, act as the ID of the reportable dimension, and cannot be changed. |
+| **[!UICONTROL Classified by]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
 ## Search

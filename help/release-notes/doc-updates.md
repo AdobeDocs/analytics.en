@@ -413,7 +413,7 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 | July 18, 2019 | In the left rail in Workspace, users now have the option to _Show items from last 18 months_. Previously, the lookback period was a maximum of 6 months. This makes it easier to compare to pages or campaigns from last year, up to 18 months ago. |
 | July 18, 2019 | Documentation on a new Workspace template called ["Magento: Marketing & Commerce"](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) to Analysis Workspace. It is designed specifically for Magento e-commerce customers, but any retailer can use it to get unique insights into their commerce activities. |
 | June 13, 2019 | Added new out-of-the-box filters to the left rail search in Workspace. Beyond what you see today (Dimensions, Metrics, Approved, etc.), new filters such as Calculated Metrics, Customer Attributes, eVars, Props, Video, etc. were added to make it easier to find the components you need. |
-| June 4, 2019 | New guide authored, titled [Transitioning from a third-party analytics platform to Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
+| June 4, 2019 | New guide authored, titled Transitioning from a third-party analytics platform to Adobe Analytics. |
 | May 30, 2019 | Overhaul to the [Data Feed Column Reference](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | May 09, 2019 | A new setting was added to the Flow visualization settings: Include Repeat Instances. See [Flow Settings](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)|
 | April 11, 2019 | Enhancements to Workspace optimization best practices: Optimizing Performance|

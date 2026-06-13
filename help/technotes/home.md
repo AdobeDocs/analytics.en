@@ -54,11 +54,6 @@ Some of the main features of Adobe Analytics include:
 
 In summary, Adobe Analytics is a powerful web analytics solution that provides businesses with the tools they need to measure, analyze, and optimize their digital marketing activities. With real-time data, advanced analytics, and attribution modeling, businesses can make data-driven decisions that drive digital transformation and improve ROI.
 
-
-## Key tech notes articles
-
-* [Transitioning from a third-party analytics platform to Adobe Analytics](ga-to-aa/home.md)
-
 ## More Analytics user guides
 
 [Analytics User Guides](https://experienceleague.adobe.com/docs/analytics.html)

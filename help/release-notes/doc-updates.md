@@ -66,6 +66,8 @@ Content updates for the Adobe Analytics documentation set since January, 2019.
 
 | Feature | Description |
 | --- | --- |
+| **June 2026** | |
+| Replaced GA to AA guide | The GA to AA guide referenced Universal Analytics, which was sunset in 2023. A new guide has replaced it, [Transitioning from Google Analytics 4 to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **May 2026** | |
 | Streaming Media dimensions and metrics | Significant updates to streaming media documentation. Links to examples include [Streaming media services core dimensions](/help/components/dimensions/sm-core.md) and [Streaming media services core metrics](/help/components/metrics/sm-core.md). |
 | **March 2026** | |

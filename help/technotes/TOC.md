@@ -10,21 +10,6 @@ user-guide-description: Browse a knowledge base containing helpful articles that
 
 + [Analytics tech notes](home.md)
 + [Analytics release notes](https://experienceleague.adobe.com/en/docs/analytics/release-notes/latest)
-+ Adobe Analytics for Google Analytics users {#ga-to-aa}
-  + [Adobe Analytics for Google Analytics users help](ga-to-aa/home.md)
-  + [Accounts and report suites](ga-to-aa/accounts.md)
-  + [Customize reporting views](ga-to-aa/customization.md)
-  + Google Analytics reports {#reports}
-    + [Create a basic report in Analysis Workspace for GA users](ga-to-aa/reports/create-report.md)
-    + [Common metrics used on other Analytics platforms](ga-to-aa/reports/common-metrics.md)
-    + [Real-time](ga-to-aa/reports/realtime-reports.md)
-    + [Audience](ga-to-aa/reports/audience-reports.md)
-    + [Acquisition](ga-to-aa/reports/acquisition-reports.md)
-    + [Behavior](ga-to-aa/reports/behavior-reports.md)
-    + [Conversions](ga-to-aa/reports/conversions-reports.md)
-  + [Frequently asked questions](ga-to-aa/faq.md)
-  + [Processing differences between platforms](ga-to-aa/processing-differences.md)
-  + [Compare data to third-party products](ga-to-aa/compare-data.md)
 + [Analyze AI traffic](/help/technotes/ai-traffic.md)
 + Analyze data impacted by events {#event}
   + [Analyze data impacted by events overview](event/overview.md)

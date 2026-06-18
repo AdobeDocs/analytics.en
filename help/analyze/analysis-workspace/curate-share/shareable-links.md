@@ -34,7 +34,7 @@ topic_v2:
 
 Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Some link types require the recipient to log in to Adobe Analytics before accessing the project, while others do not. 
 
-## Get a project link to share with other Workspace users {#project-link} 
+## Get a project link to share with other Workspace users
 
 To share a link to a project, go to the project you want to share, then select go to **[!UICONTROL Share]** > **[!UICONTROL Get project link]** (or **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** > **[!UICONTROL Share by link]**). Users you share the link with are required to log in. 
 
@@ -46,7 +46,7 @@ You can share a read-only link to Analysis Workspace projects with people who do
 
 For more information, see [Share with anyone](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
-## Get a panel or visualization link {#panel-link} 
+## Get a panel or visualization link
 
 You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users' attention to key insights within the project.  
 
@@ -71,7 +71,7 @@ One tip for leveraging the various link options is to always include a table of 
 
 Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Some link types require the recipient to log in to Adobe Analytics before accessing the project, while others do not. 
 
-## Get a project link to share with other Workspace users {#project-link} 
+## Get a project link to share with other Workspace users
 
 To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
 
@@ -83,7 +83,7 @@ You can share a read-only link to Analysis Workspace projects with people who do
 
 For more information, see "Share a project with anyone (no login required)" in the article [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-## Get panel or visualization link {#panel-link} 
+## Get panel or visualization link
 
 You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users' attention to key insights within the project.  
 

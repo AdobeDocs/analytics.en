@@ -178,7 +178,7 @@ The Media average minute audience panel uses only the average minute audience me
 |--------|-------------|
 | **[!UICONTROL Average minute audience]** | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-#### Custom time period {#custom-time-period-output}
+#### Custom time period
 
 The Media average minute audience panel returns the following:
 
@@ -335,7 +335,7 @@ The Media average minute audience panel uses only the Average Minute Audience me
 |--------|-------------|
 | Average Minute Audience | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-### Custom time period {#custom-time-period-output}
+### Custom time period
 
 The Media average minute audience panel returns the following:
 

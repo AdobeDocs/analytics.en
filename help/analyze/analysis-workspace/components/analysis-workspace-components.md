@@ -74,7 +74,7 @@ To access the Components panel, select ![Curate](/help/assets/icons/Curate.svg) 
 See [Create a project](/help/analyze/analysis-workspace/home.md) for information on how to use components in a project.
 
 
-## Manage components {#actions}
+## Manage components
 
 You can quickly create a new component using the **[!UICONTROL Components]** menu in Analysis Workspace. See the [Analysis Workspace menu](/help/analyze/analysis-workspace/home.md#menu) for more details.
 
@@ -206,7 +206,7 @@ Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICO
 ![](assets/date-ranges.png)
 
 
-## Manage components {#actions}
+## Manage components
 
 You can manage components directly in the left rail. 
 

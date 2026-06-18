@@ -39,7 +39,7 @@ You can download Analysis Workspace projects and data to your local device. This
 
 Additional methods to export Adobe Analytics data are described in the [Export guide](/help/export/home.md).
 
-## Download a project as a PDF or CSV file {#download-project}
+## Download a project as a PDF or CSV file
 
 ![The Project drop-down menue with the Download CSV and Download PDF options highlighted.](assets/download-project.png)
 
@@ -74,7 +74,7 @@ To download a project as a PDF file:
    
    The file name is composed of *project name* - *report suite name* - *date*. For example, `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
 
-## Copy data within a visualization to the clipboard {#copy-data}
+## Copy data within a visualization to the clipboard
 
 The **[!UICONTROL Copy to clipboard]** option from the context menu lets you quickly copy data from Analysis Workspace and paste the data in a third-party tool. 
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Copy to clipboard]** option from the context menu lets you qui
 
 ![The Copy selection to clipboard option. ](assets/copy-clipboard.png){zoomable="yes"}
 
-## Download data within a visualization as a CSV file {#download-data}
+## Download data within a visualization as a CSV file
 
 The download as CSV options from the context menu allow you to download a table of data or the data source of any visualization as a CSV.
 
@@ -107,7 +107,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ![The Download data as CSV option.](assets/download-data-as-csv.png)
 
-## Download items as a CSV file {#download-items}
+## Download items as a CSV file
 
 If you want to analyze more than the visible 400 rows of data in a table, select  **Download items as CSV (_Dimension name_)** from the context menu of the table header or any row. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with sort options and filters applied. If you select this option from the top of the table, the first dimension in the table is exported. 
 
@@ -142,7 +142,7 @@ As the file downloads, you see the following notifications:
 If you request more than one download at a time, you receive a notification that each additional download is queued until the prior download completes.
 
 
-## FAQ {#faq}
+## FAQ
 
 | Question | Answer |
 | --- | --- |
@@ -160,7 +160,7 @@ There are several ways to export data from Analysis Workspace. The method you ch
 
 Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically preferred if you want visualizations included in the file. CSV and copied data is preferred if you simply want plain-text data.
 
-## Download a project as CSV or PDF {#download-project}
+## Download a project as CSV or PDF
 
 Consider the following when downloading projects:
 
@@ -189,7 +189,7 @@ To download a project as a CSV or PDF file:
 1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
 1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
 
-## Copy data to clipboard (hotkey: cmd + c) {#copy-data}
+## Copy data to clipboard (hotkey: cmd + c)
 
 The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy data from Workspace and paste it in a third-party tool. 
 
@@ -202,7 +202,7 @@ The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy 
 
 ![](assets/copy-selection.png)
 
-## Download data as CSV {#download-data}
+## Download data as CSV
 
 The right-click option **[!UICONTROL Download data as CSV]** allows you to download a table of data or the data source of any visualization as a CSV.
 
@@ -216,7 +216,7 @@ The right-click option **[!UICONTROL Download data as CSV]** allows you to downl
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Download items as CSV
 
 If you want to analyze more than the visible 400 rows of data in a table, right-click the table header or any row and select **Download items as CSV (_Dimension name_)**. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with filters and segments applied. If you chose this option from the top of the table, the first dimension in the table will be exported. While no limits are enforced in the freeform table, it is recommended that the Download items option be used in tables with less than 20 columns to ensure optimal performance.
 
@@ -250,7 +250,7 @@ If you request more than one download at a time, you will receive a notification
 
 ![](assets/toast.png)
 
-## FAQ {#faq}
+## FAQ
 
 | Question | Answer |
 | --- | --- |

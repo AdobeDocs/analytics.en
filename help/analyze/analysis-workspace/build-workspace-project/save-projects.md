@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 ---
-# Save projects {#save-projects}
+# Save projects
 
 <!-- markdownlint-disable MD034 -->
 
@@ -189,7 +189,7 @@ To open a previously saved version of a project:
 
 
 <!--
-# Save projects {#save-projects}
+# Save projects
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"

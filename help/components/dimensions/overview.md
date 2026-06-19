@@ -42,3 +42,18 @@ Each dimension represents a different part or facet of your site. You can combin
 ## Add dimension descriptions
 
 Analytics administrators can add descriptions for dimensions and other components either within the Report Suite or directly within Analysis Workspace. For information about how to add descriptions to dimensions, see [Add component descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+## Retired dimensions
+
+The following dimensions are retired. Most were Reports & Analytics reports that are not available in Analysis Workspace. They are documented here for reference if you encounter them in legacy reporting or historical data.
+
+* **Hierarchy**: A custom dimension (`hier1`–`hier5`) used to capture a site's hierarchical structure for reporting. It is retired and not available in Analysis Workspace. Use [eVars](evar.md) and classifications instead.
+* **Home Page**: A flag indicating whether the current page was the visitor's browser home page. It is a legacy dimension with no modern equivalent due to modern browser privacy practices.
+* **JavaScript Support**: Indicated whether the visitor's browser supported JavaScript. A legacy dimension that is no longer meaningful for modern measurement.
+* **JavaScript Version**: Reported the JavaScript version the visitor's browser supported. A legacy dimension that is no longer collected.
+* **Next Page**: A pathing dimension showing the next page a visitor viewed. Use the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace for current pathing dimensions.
+* **Previous Page**: A pathing dimension showing the previous page a visitor viewed. Use the [Flow visualization](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace for current pathing dimensions.
+* **Time Zone**: The visitor's time zone, derived from the timestamp offset in AppMeasurement image requests. The Web SDK collects time zone using [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
+* **Top Level Domain**: The top-level domain of the visitor's access point. A legacy Reports & Analytics report; use the [Domain](domain.md) dimension instead.
+* **Visit Page Number**: The page number within a visit. A legacy Reports & Analytics report; use the [Hit Depth](hit-depth.md) dimension instead.
+* **Visitor State**: Reported the U.S. state from the `s.state` variable. It is retired in favor of the [US States](us-states.md) dimension, which uses geosegmentation.

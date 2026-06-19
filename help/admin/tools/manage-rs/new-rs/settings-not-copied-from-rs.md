@@ -30,6 +30,6 @@ The following settings are not copied from template or duplicated report suites:
 
 * [Classification](/help/components/classifications/classifications-overview.md) data (classification structures are copied)
 * [Transaction ID storage](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* [Hierarchy](/help/components/dimensions/hierarchy.md) labels
+* [Hierarchy](/help/components/dimensions/overview.md#retired-dimensions) labels
 * [Pathing](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) on traffic variables
 * [VISTA rules](/help/technotes/vista.md)

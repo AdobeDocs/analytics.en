@@ -55,12 +55,12 @@ The following variables were introduced to Bulk data insertion, previously unava
 * **`contextData.key`**: [Context data variables](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID service variables. Includes `id`, `authState`, and `isMCSeed`.
 * **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variables. Includes `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, and `wow64`.
-* **`ipaddress`**: The visitor's IP address.
+* **`ipaddress`**: The [IP address](/help/components/dimensions/ip-address.md) dimension.
 * **`language`**: The [Language](/help/components/dimensions/language.md) dimension.
 * **`list1`** - **`list3`**: [List variables](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: The visitor's Experience Cloud ID.
 * **`tnta`**: Target data payload used in [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integrations.
-* **`trackingServer`**: The [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
+* **`trackingServer`**: The [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md) variable.
 * **`transactionID`**: The [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable.
 * **`userAgent`**: The device's user agent string.
 

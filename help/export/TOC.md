@@ -43,6 +43,7 @@ user-guide-description: Learn about using Data feeds and Data Warehouse to retri
   + [Sort by Metric](data-warehouse/sorting-by-metric.md)
   + [Manage Data Warehouse requests](data-warehouse/data-warehouse-requests-manage.md)
   + [Components supported in Data Warehouse](data-warehouse/component-support.md)
+  + [Data Warehouse segment compatibility](data-warehouse/segment-compatibility.md)
   + [Data Warehouse best practices](data-warehouse/data-warehouse-bp.md)
 + FTP and SFTP {#ftp-and-sftp}
   + [Use FTP and SFTP with Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)

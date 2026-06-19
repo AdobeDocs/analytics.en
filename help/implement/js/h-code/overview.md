@@ -32,8 +32,8 @@ You must have access to your hosting servers to successfully implement a page wi
 >You must already have an existing copy of `s_code.js` to follow these instructions. Adobe no longer offers an option to download H Code in the Code Manager.
 
 1. **Update core JS file variables**: Edit the `s_code.js` file and make sure the following variables are updated:
-   * `s_account` contains the report suite ID that you want to send data to. See
-   * `s.trackingServer` contains the location cookies are stored. See [trackingServer](../../vars/config-vars/trackingserver.md).
+   * `s_account` contains the report suite ID that you want to send data to.
+   * `s.trackingServerSecure` contains the location cookies are stored.
 1. **Host the `s_code.js` file on your site**: This file typically resides with other scripts on your web server.
 1. **Reference `s_code.js` on all pages**: Make sure all individual pages call the core JavaScript file, and do so within the HTML `<body>` tag (not the `<head>` tag).
 

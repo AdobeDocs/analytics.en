@@ -71,7 +71,7 @@ Release Date: **August 12, 2024**
 
 Release Date: **March 4, 2024**
 
-* AppMeasurement automatically recognizes and utilizes the root domain for country code top-level domains, which previously required specific cookie domain configurations. Updating can have implications because of this automatic recognition. See [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) for more information.
+* AppMeasurement automatically recognizes and utilizes the root domain for country code top-level domains, which previously required specific cookie domain configurations. Updating can have implications because of this automatic recognition.
 * The distribution includes Identity Service Library 5.5.0 and Data Integration Library 9.6.
 
 ## Version 2.25.0

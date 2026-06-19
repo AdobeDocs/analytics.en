@@ -65,21 +65,21 @@ The available dimensions and metrics that you can read and write using processin
 | --- | --- | --- |
 | **eVar 1-250** | Read + write | [eVar](/help/components/dimensions/evar.md) dimensions. |
 | **Campaign** | Read + write | The [Tracking code](/help/components/dimensions/tracking-code.md) dimension. |
-| **Purchase ID** | Read + write | The [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) implementation variable. |
-| **State** | Read + write | (Retired) The [`state`](/help/implement/vars/page-vars/state.md) implementation variable. |
+| **Purchase ID** | Read + write | The [Purchase ID](/help/components/dimensions/purchase-id.md) dimension. |
+| **State** | Read + write | (Retired) The [Visitor State](/help/components/dimensions/overview.md#retired-dimensions) dimension. |
 | **Zip** | Read + write | The [Zip code](/help/components/dimensions/zip-code.md) dimension. |
 | **Currency code** | Read + write | The [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) implementation variable. IMPORTANT: If you set this variable to an invalid value, the hit is discarded. |
 | **Transaction ID** | Read + write | The [`transactionID`](/help/import/data-sources/transactionid.md) implementation variable. |
 
 >[!NOTE]
->Adobe does not support setting the [`products`](/help/implement/vars/page-vars/products.md) implementation variable using processing rules.
+>Adobe does not support setting the [Product](/help/components/dimensions/product.md) dimension using processing rules.
 
 ## Traffic variables
 
 | Variable | Read/write status | Description |
 | --- | --- | --- |
 | **Prop 1-75** | Read + write | [Prop](/help/components/dimensions/prop.md) dimensions. |
-| **Hierarchy 1-5** | Read + write | (Retired) [Hierarchy](/help/components/dimensions/hierarchy.md) dimensions. |
+| **Hierarchy 1-5** | Read + write | (Retired) [Hierarchy](/help/components/dimensions/overview.md#retired-dimensions) dimensions. |
 | **Server** | Read + write | The [Server](/help/components/dimensions/server.md) dimension. |
 | **Channel** | Read + write | The [Site section](/help/components/dimensions/site-section.md) dimension. |
 

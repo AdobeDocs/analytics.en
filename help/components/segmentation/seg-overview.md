@@ -154,6 +154,10 @@ Analysis Workspace contains these additional features:
 - Use segments as dimensions in freeform table visualizations.
 - Use segments in [fallout analysis](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
+## Data Warehouse compatibility
+
+Not all segment features are compatible with Data Warehouse. Certain segment structures and dimensions are unsupported, and segments using them do not show up when creating a Data Warehouse request. For a full list of supported and unsupported features, see [Data Warehouse segment compatibility](/help/export/data-warehouse/segment-compatibility.md).
+
 ## Adobe-provided segments
 
 The Component left rail shows segments that are created by you and your company and Adobe segments that are provided out of the box. When you click **[!UICONTROL Show all]**, these segments typically appear at the bottom of the list and are identified by ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg).

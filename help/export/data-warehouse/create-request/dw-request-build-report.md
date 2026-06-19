@@ -36,9 +36,11 @@ To build a report for a Data Warehouse request:
 
    Not all segments created in the Segment Builder are compatible with Data Warehouse. An error displays if you choose a virtual report suite that contains incompatible segments. 
 
-   For a list of supported functions within a segment, see [Data Warehouse segment compatibility](/help/components/segmentation/seg-reference/seg-compatibility.md). 
+   For the segment structures and dimensions supported within a Data Warehouse segment, see [Data Warehouse segment compatibility](/help/export/data-warehouse/segment-compatibility.md). 
 
 1. Drag any segments, metrics, and dimensions into the builder. The report you build determines what data is included in the Data Warehouse request. 
+
+   For the dimensions and metrics available in a request, see [Component support in Data Warehouse](/help/export/data-warehouse/component-support.md). 
 
 1. Continue configuring your Data Warehouse request on the [!UICONTROL **Report destination**] tab. For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

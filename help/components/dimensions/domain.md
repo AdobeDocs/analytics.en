@@ -36,6 +36,10 @@ topic_v2:
 
 The 'Domain' [dimension](overview.md) reports the access points that visitors use to access the internet.
 
+>[!NOTE]
+>
+>Data Warehouse includes a retired '[!UICONTROL Domains]' (plural) dimension that reports similar information. Adobe recommends using this dimension, '[!UICONTROL Domain]' (singular), for consistency.
+
 ## Populate this dimension with data
 
 Adobe partners with [Digital Element](https://www.digitalelement.com/) to determine the access point domain. Several methods, including reverse DNS lookup, are used to determine the access point domain. It does not require any configuration, and does not have a variable to populate.

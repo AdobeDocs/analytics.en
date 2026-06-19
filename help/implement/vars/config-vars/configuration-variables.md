@@ -39,7 +39,7 @@ Configuration variables control the way data is captured and processed in report
 
 In implementations using the Web SDK extension or Analytics extension, configuration variables are typically found in the extension's settings:
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your Adobe ID credentials.
 1. Click the desired tag property.
 1. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under the extension.
 
@@ -48,3 +48,17 @@ In JavaScript implementations using `AppMeasurement.js`, configuration variables
 >[!IMPORTANT]
 >
 >Make sure that all configuration variables are set before calling a tracking method ([`t()`](../functions/t-method.md) or [`tl()`](../functions/tl-method.md)). Avoid setting configuration variables in the [`doPlugins()`](../functions/doplugins.md) function.
+
+## Retired configuration variables
+
+The following configuration variables are retired. They are documented here for reference if you encounter them in a legacy implementation.
+
+* **`account`**: Determined the report suite that data was sent to. Report suite is now handled through tracking object instantiation (the [`s_gi()`](../functions/s-gi.md) method). Use the [`s.sa()`](../functions/sa-method.md) method if you need to change the report suite after the tracking object is instantiated.
+* **`cookieDomain`**: Determined the domain on which AppMeasurement set cookies. Current versions of AppMeasurement automatically detect the correct cookie domain, making this variable obsolete.
+* **`cookieDomainPeriods`**: Helped AppMeasurement determine where to store cookies when a domain contained multiple periods. Current versions of AppMeasurement automatically detect the correct domain, making this variable obsolete.
+* **`trackingServer`**: Specified the domain used to send data to Adobe over HTTP. It is deprecated in favor of secure data collection over HTTPS. Use [`trackingServerSecure`](trackingserversecure.md) instead.
+* **`trackInlineStats`**: Enabled or disabled previous versions of [Activity Map](/help/analyze/activity-map/overview.md).
+* **`visitorMigrationKey`**: Carried a key used to migrate visitors from third-party to first-party cookies. It is retired because modern libraries set a first-party fallback cookie (`fid`) and rely on the Experience Cloud ID Service for identity.
+* **`visitorMigrationServer`**: Specified the server used during the third-party to first-party cookie migration.
+* **`visitorMigrationServerSecure`**: The HTTPS equivalent of `visitorMigrationServer`.
+* **`visitorNameSpace`**: Helped determine the third-party cookie domain. It is retired in favor of using the [`trackingServerSecure`](trackingserversecure.md) variable for implementations that do not use the Experience Cloud ID Service.

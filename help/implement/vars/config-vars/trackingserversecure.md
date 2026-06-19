@@ -35,6 +35,10 @@ topic_v2:
 
 The `trackingServerSecure` variable determines the domain that AppMeasurement uses to send data to Adobe over HTTPS. If this variable is not defined correctly, your implementation can experience data loss.
 
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables) is a retired variant of this variable. It specified the domain for data sent over HTTP; with the prevalence of HTTPS, use `trackingServerSecure` instead. If `s.trackingServerSecure` is blank, AppMeasurement falls back to the `s.trackingServer` value.
+
 Before the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/home), this variable also determined where third-party cookies were set. Adobe strongly recommends using the ID service in all implementations where possible.
 
 ## Edge domain using the Web SDK extension

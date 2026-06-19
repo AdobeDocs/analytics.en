@@ -40,6 +40,10 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 
 Browser height is always smaller than or equal to screen height, since browser height doesn't include browser navigation or borders.
 
+>[!NOTE]
+>
+>Data Warehouse also provides a '[!UICONTROL Browser height - granular]' dimension, which reports the exact pixel height instead of grouping values into predefined buckets.
+
 ## Populate this dimension with data
 
 This dimension retrieves data from the [`bh` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerHeight` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bh` query string parameter on the first hit of each visit.

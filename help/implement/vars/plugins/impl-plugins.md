@@ -57,3 +57,9 @@ Each organization has different implementation needs, so you can decide how you 
 4. Validate your implementation and publish.
 
 Many organizations call plug-ins using the [`doPlugins`](../functions/doplugins.md) function. While this function is not required, Adobe considers it a best practice to use. AppMeasurement calls this function just before compiling and sending an image request, which is ideal since several plug-ins depend on other Analytics variables.
+
+## Retired plug-ins
+
+The following plug-ins are retired. They are documented here for reference if you encounter them in a legacy implementation.
+
+* **`getPageLoadTime`**: Measured the amount of time a page took to fully load using the JavaScript performance object. It is no longer supported because its code relies on the [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) interface, which is deprecated in most modern browsers. There is no direct replacement, and installation instructions and plug-in code are no longer available.

@@ -41,3 +41,10 @@ The following list are variables frequently used in implementations:
 * [`campaign`](campaign.md): Set this variable to a query string parameter for campaign tracking.
 * [`events`](events/events-overview.md): Populate metrics for use in reporting.
 * [`products`](products.md): If you have an eCommerce site, set this variable when a visitor views or purchases a product.
+
+## Retired page variables
+
+The following page variables are retired. They are documented here for reference if you encounter them in a legacy implementation.
+
+* **`hier`**: Implemented hierarchy variables (`hier1`–`hier5`) to capture a site's structure for reporting. It is retired and not an available dimension in Analysis Workspace. Use [eVars](evar.md) and classifications instead.
+* **`state`**: Captured the U.S. state a visitor entered, typically through a shipping or billing form. Use the [[!UICONTROL US States]](/help/components/dimensions/us-states.md) dimension instead, which Adobe populates automatically from the visitor's geographic location.

@@ -144,7 +144,7 @@ This page lists [dimensions](overview.md) supported in their respective Analytic
 |[Exit Server](exit-dimensions.md)|`exitserver`|
 |[Exit Site Section](exit-dimensions.md)|`exitsitesections`|
 |[Hit Depth](hit-depth.md)|`hitdepth`|
-|[Hit Type](hit-type.md)|`hittype`|
+|[Hit Type](hit-type.md)|`customerperspective`|
 |[Hour](hour.md)|`daterangehour`|
 |[Hour of Day](hour-of-day.md)|`timeparthourofday`|
 |[Marketing Channel Detail](marketing-detail.md)|`marketingchanneldetail`|

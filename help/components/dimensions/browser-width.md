@@ -40,6 +40,10 @@ console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.
 
 Browser width is always smaller than or equal to screen width, since browser width doesn't include scroll bars or borders.
 
+>[!NOTE]
+>
+>Data Warehouse also provides a '[!UICONTROL Browser width - granular]' dimension, which reports the exact pixel width instead of grouping values into predefined buckets.
+
 ## Populate this dimension with data
 
 This dimension retrieves data from the [`bw` query string](/help/implement/validate/query-parameters.md) in image requests. AppMeasurement collects this data using the JavaScript variable `window.innerWidth` in the browser. If you use an AppMeasurement library (such as through tags in Adobe Experience Platform), this dimension works out of the box. If you use a data collection method outside of AppMeasurement (such as through the API), make sure that you include the `bw` query string parameter on the first hit of each visit.

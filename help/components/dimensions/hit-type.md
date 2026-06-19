@@ -38,12 +38,12 @@ topic_v2:
 ---
 # Hit type
 
-The 'Hit type' [dimension](overview.md) determines if a mobile app was in the foreground or background when the hit was sent to Adobe data collection servers. This dimension is only relevant to report suites that contain data for mobile applications. Browser data collected through AppMeasurement always reports the hit as "Foreground".
+The 'Hit type' [dimension](overview.md) determines if a mobile app was in the foreground or background when the hit was sent to Adobe data collection servers. This dimension is only relevant to report suites that contain data for mobile applications. Browser data collected through AppMeasurement always reports the hit as `"Foreground"`.
 
 ## Populate this dimension with data
 
-This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. If you do not use the mobile SDK, all hits list under the "Foreground" dimension item. If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+This dimension works out of the box for all mobile SDK implementations on version 4.13.6 or higher. The mobile SDK sets the [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) variable (the `cp` query parameter) to indicate whether each hit occurred in the foreground or background. If you do not use the mobile SDK, all hits list under `"Foreground"`. If **[!UICONTROL Prevent background hits from starting a new visit]** is selected when configuring a [Virtual report suite](../vrs/vrs-mobile-visit-processing.md), background hits do not inflate [[!UICONTROL Visits]](../metrics/visits.md) and [[!UICONTROL Unique visitors]](../metrics/unique-visitors.md).
 
 ## Dimension items
 
-Dimension items include `"Foreground"` and `"Background"`. Any hit that was not sent in the background of a mobile application belongs to the `"Foreground"` dimension item. Any hit sent where the mobile application was in the background belongs to the `"Background"` dimension item.
+Dimension items include `"Foreground"` and `"Background"`. Background hits only occur on mobile devices where the tracked application is in the background.

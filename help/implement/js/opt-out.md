@@ -51,7 +51,7 @@ When a visitor reaches an opt-out URL, they are prompted to install an opt-out c
 
 ## Opt-out URL
 
-The opt-out page for your organization depends on the [`trackingServer`](../vars/config-vars/trackingserver.md) variable value in your implementation.
+The opt-out page for your organization depends on the [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) variable value in your implementation.
 
 * In the Analytics extension:
   1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.

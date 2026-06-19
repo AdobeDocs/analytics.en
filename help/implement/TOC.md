@@ -25,7 +25,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
     + [currencyCode](vars/config-vars/currencycode.md)
     + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
     + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
-    + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
     + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
     + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
     + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)

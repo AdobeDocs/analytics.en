@@ -42,45 +42,37 @@ topic_v2:
 ---
 # Current Adobe Analytics release notes (May 2026)
 
-**Last update**: May 13, 2026
+**Last update**: June 22, 2026
 
-These release notes cover the May 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
+These release notes cover the June 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **MCP servers for Adobe Analytics** <br/>The Analytics MCP (Model Context Protocol) servers allow you to connect a supported MCP client to Adobe Analytics. Once connected, your MCP client can invoke product-specific tools to retrieve data, run queries, or perform supported operations as part of an LLM or agentic workflow. For more information, see [Analytics MCP servers](https://developer.adobe.com/analytics-mcp/docs/).<p>If you used these MCP servers during the beta period, please note that there are different URLs between beta and production endpoints. Ensure that any agentic workflows created during the beta period are updated to use the production endpoints before May 31.</p> | | May 5, 2026 |
 | **Journey canvas in Adobe Analytics** <br/>Journey canvas is a visualization in Analysis Workspace that allows you to gain deep insights on a defined user journey by analyzing how people proceed through or fall out of the journey. It allows you to create a flexible graph of nodes and arrows representing any combination of events, dimension items, and segments included in the journey. Data updates as you drag nodes onto the canvas or rearrange the events and conditions of the journey.<p>Journey canvas was previously available only for Customer Journey Analytics.</p><p>To learn more about Journey canvas in Adobe Analytics, see [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>To learn how to build a Journey canvas visualization in Adobe Analytics, see [Configure Journey canvas](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | May 18, 2026 | June 5, 2026 |
-| **Attribution model API reporting guide** <br/>A new Adobe Analytics 2.0 API Attribution Model Report Guide is available. The guide covers how to include attribution model object data in Dimension API reports.<p>For more information, see [Dimension API attribution models](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | May 2026 |
-| **Streaming media services: Support schedule data** <br/>You can now upload scheduled data of past live Streaming Media content to more easily and accurately track viewership.<p>The following are examples of live content that are supported with schedule data upload:</p><ul><li>FAST (Free Ad Supported TV) platforms</li><li>Local streams</li><li>Live sports</li></ul><p>Uploading schedule data allows you to track viewership data for individual programs that ran during the time you designate in the upload file. You can even gather viewership data for specific topics or program segments.</p><p>These capabilities are available regardless of how you implemented Streaming Media Collection.</p><p>Previously, it was difficult to accurately tie a given session to specific programs when analyzing live content, and it wasn't possible to tie a given session to individual topics or program segments.</p><p>For more information, see [Upload schedule data to track live content](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/track-schedule-data)</p>| October 29, 2025 | First half of 2026<p>(Originally planned to release on October 29, 2025)</p>|
 
-{style="table-layout:auto"}
-
-## Fixes in Adobe Analytics
+### Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
-**Classifications**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
-**Data Feeds and Data Warehouse**: AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
-**Migration**: AN-442467, AN-440380, AN-440357
+**Analysis Workspace**: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698
+**Classifications**:
+**Data Feeds and Data Warehouse**: 
+**Migration**: 
 **Exports**: 
-**Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
-**Reporting**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359, AN-406242
-**Report suites**: 
+**Report Builder**: AN-440912
+**Reporting**: AN-423516
+**Report suites**: AN-455684
 **Scheduled reports**: 
 **Segmentation**: 
-**Other**: AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
+**Other**: 
 
 
-## End-of-life (EOL) notices {#eol}
+### End-of-life (EOL) notices {#eol}
 
 | EOL Product or Feature | Date added or updated | Description |
 | --- | --- | --- |
-| **Livestream processing improvements** | January 14, 2026 | Adobe plans to make improvements and changes to the formatting of LiveStream payloads. These updates provide better parity between LiveStream and other Adobe Analytics features, such as Analysis Workspace. A preview endpoint is available that allows you to test the planned changes. See [LiveStream release notes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/release-notes/) for the full list of changes and preview endpoint details. Adobe plans a hard cutover to the updated payload format on April 13, 2026. |
-| **TLS 1.2 cipher suites removal** | February 11, 2026 | Notice to admins: Adobe plans to remove support for the following TLS 1.2 cipher suites from Adobe data collection servers on May 27, 2026.<ul><li>`TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_128_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_256_CBC_SHA`</li><li>`TLS_RSA_WITH_AES_128_GCM_SHA256`</li><li>`TLS_RSA_WITH_AES_256_GCM_SHA384`</li></ul><p>No customer action is required for most implementations. This change primarily affects Analytics data sent from legacy native applications that use outdated TLS libraries, and a small number of web visitors on obsolete browsers or operating systems. Removing support for these cipher suites enhances security and aligns Adobe with modern encryption standards. Less than 0.1% of data collection traffic currently relies on these cipher suites.</p> |
 | **Legacy Report Builder** | June 18, 2025 | The legacy Report Builder add-in will be retired in June 2026. All users should begin upgrading their legacy workbooks to the [new Report Builder](/help/analyze/report-builder/rb-overview.md). The new Report Builder is available to both Adobe Analytics and Customer Journey Analytics customers. It has [near feature parity](/help/analyze/report-builder/convert-workbooks.md#unsupported) plus many new convenient features and UI enhancements. To facilitate the upgrade process, the new Report Builder includes an easy workbook conversion feature. The new Report Builder is only available as an add-in through the Microsoft Store. Many organizations require an internal approval process before the add-in can be made available to users. Please allow time for this process and begin working with your organization now to ensure enough time to upgrade your workbooks prior to the EOL date. |
-| **Access via legacy domains or via legacy SSO** | April 10, 2025 | Adobe plans to update how users access Adobe Analytics to enhance security and streamline your login experience. As part of this effort, access via legacy domains or via legacy SSO, including `my.omniture.com`, will be permanently discontinued on **January 2, 2026**. After this date, legacy login credentials and legacy SSO will no longer work. All users will be required to log in via `experience.adobe.com` using their Adobe Experience Cloud IDs. If you need assistance with your Experience Cloud ID, please contact your organization's Adobe Analytics administrator or [Adobe Customer Care](https://helpx.adobe.com/contact.html). |
 | **Adobe Analytics API (version 1.4)** | July 17, 2024  | On **August 12, 2026**, the following Analytics Legacy API services will reach their end of life and will be shut down, and current integrations built using these services will stop working:<ul><li>Adobe Analytics API (version 1.4)</li><li>Adobe Analytics WSSE Authentication</li></ul><p>Integrations that use the Adobe Analytics API (version 1.4) must migrate to the [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/), while WSSE integrations must migrate to an OAuth-based authentication protocol in the [Adobe Developer Console](https://developer.adobe.com/console).</p><p>See the [Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) for answers to common questions and further guidance.</p>  |
 
 
@@ -89,9 +81,9 @@ These release notes cover the May 2026 release period. Adobe Analytics releases 
 For the latest updates on AppMeasurement releases, please refer to [AppMeasurement release notes](https://github.com/adobe/appmeasurement/releases).
 
 
-## Related resources
-
-* [Previous release notes for 2025](/help/release-notes/2025.md)
-* [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
-* [Streaming media services release notes](https://experienceleague.adobe.com/en/docs/media-analytics/using/release-notes/release-notes)
-* The latest release updates for [Adobe CX Enterprise products](https://business.adobe.com/products/adobe-experience-cloud-products.html)
+>[!MORELIKETHIS]
+>
+>* [Previous release notes for 2026](/help/release-notes/2026.md)
+>* [Customer Journey Analytics release notes](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+>* [Streaming media services release notes](https://experienceleague.adobe.com/en/docs/media-analytics/using/release-notes/release-notes)
+>* The latest release updates for [Adobe CX Enterprise products](https://business.adobe.com/products/adobe-experience-cloud-products.html)

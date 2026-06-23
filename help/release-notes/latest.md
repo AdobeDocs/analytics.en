@@ -40,7 +40,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Current Adobe Analytics release notes (May 2026)
+# Current Adobe Analytics release notes (June 2026)
 
 **Last update**: June 22, 2026
 

@@ -179,6 +179,7 @@ user-guide-description: Manage data using components like Segments, Calculated M
   + [About segments](segmentation/seg-overview.md)
   + [About segment containers](segmentation/seg-containers.md)
   + [Segmentation features in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
+  + {hide-from-toc} [Sub-hit analysis](segmentation/sub-hit.md)
   + Workflow {#segmentation-workflow}
     + [Overview](segmentation/segmentation-workflow/seg-workflow.md)
     + [Plan segments](segmentation/segmentation-workflow/seg-plan.md)

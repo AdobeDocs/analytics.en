@@ -10,6 +10,7 @@ subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
     internal-label: Segment Builder
 ---
+
 # Sub-hit analysis
 
 Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order.

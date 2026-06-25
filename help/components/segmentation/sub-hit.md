@@ -24,7 +24,7 @@ In sub-hit analysis exclude logic behaves differently from standard hit-level ex
 
 You want to measure online revenue from the Men category only. Without sub-hit analysis, applying a segment for Men includes revenue from every product on any order (hit) that contains at least one product with the Men category. With sub-hit analysis, you scope the filter to the product level and return only revenue for products of the Men category.
 
-You also want to measure online revenu from all other categories except the Men category.
+You also want to measure online revenue from all other categories except the Men category.
 
 >[!BEGINTABS]
 

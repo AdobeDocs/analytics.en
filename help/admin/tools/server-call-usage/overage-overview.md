@@ -41,8 +41,7 @@ The main benefits of server call usage include:
 
 ## Prerequisites {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissions:** To access the server call usage dashboard and the alert builder or alert manager, you must be an Adobe Analytics Administrator.
-* **Permissions:** Administrators can grant access to non-admins: the permission is called **[!UICONTROL Server call usage]**. See [Server call usage permission](#server-call-usage-permission).
+* **Permissions:** You must have either Adobe Analytics Administrator access or the [Server Call Usage](/help/admin/admin-console/permissions/analytics-tools.md) permission item in the Adobe Admin Console. Administrators can assign this permission item to non-admins through a product profile.
 
 ## Important terminology {#terminology}
 
@@ -72,7 +71,7 @@ The following terms are important in understanding server call usage:
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/tools/server-call-usage/overage-overview.md"> permission</a>. </p> </td> 
+    </ul> <p>Note:  Server call usage data for <u>all</u> report suites within a billing company is visible to all users with the appropriate <a href="/help/admin/admin-console/permissions/analytics-tools.md"> permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise organization </p> </td> 
@@ -89,40 +88,6 @@ The following terms are important in understanding server call usage:
   <tr> 
    <td colname="col1"> <p>Contract Period </p> </td> 
    <td colname="col2"> <p>Contract periods can go over multiple years. Let's say your company has a server call commitment of 6 million calls for a 3-year contract time. For purposes of server call usage monitoring, this 3-year period can be broken down into smaller usage periods to facilitate year-over-year comparisons. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Server call usage permission {#permission}
-
-The Server call usage permission is automatically granted to Analytics Admins. It lets users view the dashboard and create server call alerts. Admins can choose to grant this permission to non-admins.
-
->[!NOTE]
->
->Your company can choose which login companies have access to Server call usage.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Permission name </th> 
-   <th colname="col3" class="entry"> Grant permission if you are logged in to Adobe Analytics (Legacy Login) </th> 
-   <th colname="col4" class="entry"> Grant permission if you are logged in to Adobe CX Enterprise </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Server call usage </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Log in to Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigate to <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> All admin </span>  &gt; <span class="uicontrol"> User management </span>  &gt; <span class="uicontrol"> Groups </span>  &gt; <span class="uicontrol"> Edit All Report Access </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> server call usage </span> </span> </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Log in to login.experiencecloud.adobe.com.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Click <span class="uicontrol"> Analytics </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigate to <span class="ignoretag"> <span class="uicontrol"> Products </span>  &gt; <span class="uicontrol"> Product Profile </span>  &gt; <span class="uicontrol"> Permissions </span>  &gt; <span class="uicontrol"> Analytics Tools </span>  &gt; <span class="uicontrol"> server call usage </span> </span> </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Hit depth
 
-The 'Hit depth' [dimension](overview.md) reports how far into a visit a given hit is. This dimension is valuable in understanding how far into a visit that visitors perform actions on your site. Hit depth counts all types of hits, including page views ([`t()`](/help/implement/vars/functions/t-method.md))and link tracking hits ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+The 'Hit depth' [dimension](overview.md) reports how far into a visit a given hit is. This dimension is valuable in understanding how far into a visit that visitors perform actions on your site. Hit depth counts all types of hits, including page views ([`t()`](/help/implement/vars/functions/t-method.md)) and link tracking hits ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Populate this dimension with data
 
@@ -39,6 +39,10 @@ This dimension works out of the box for all implementations. If a report suite c
 ## Dimension items
 
 Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
+
+>[!NOTE]
+>
+>Adobe Analytics records timestamps at only second-level precision. For hits that share the same timestamp second, Adobe cannot guarantee that the order reflected in reporting is the same as the order in which the hits happened. If millisecond-level precision is a priority for your organization, consider using Customer Journey Analytics.
 
 ## Comparison to visit depth
 

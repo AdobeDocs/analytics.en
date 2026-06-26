@@ -82,3 +82,4 @@ The Segment Builder includes a new filter option in the left rail to display onl
 The Histogram visualization includes a new sub-hit container drop-down menu. This lets you bucket metric values at the product level. For example, counting product occurrences per order rather than per hit.
 
 The Histogram is the only visualization that requires a sub-hit container selection. All other panels and visualizations work with sub-hit analysis data without additional configuration.
+

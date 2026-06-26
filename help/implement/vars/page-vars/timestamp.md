@@ -45,11 +45,11 @@ There is not a dedicated field in the Adobe Analytics extension to use this vari
 
 ## s.timestamp in AppMeasurement and the Analytics extension custom code editor
 
-The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) and [Unix time](https://en.wikipedia.org/wiki/Unix_time) in seconds.
+The `s.timestamp` variable is a string containing the date and time of the hit. Valid timestamp formats include [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) and [Unix time](https://en.wikipedia.org/wiki/Unix_time) in seconds.
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2024-01-01T00:00:00Z";
+s.timestamp = "2026-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -63,24 +63,24 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 values
 
-Dates and times expressed in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) can take several different forms. Adobe does not support all features in ISO 8601.
+Dates and times expressed in [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) can take several different forms. Adobe does not support all features in ISO 8601.
 
 * Both the date and time must be provided, separated by `T`.
 * Hours and minutes are required; seconds are optional but recommended.
 * Week dates and ordinal dates are not supported.
-* The date can be in standard or extended format. For example, `2024-01-01T00:00:00Z` and `20240101T000000Z` are both valid.
-* Fractional minutes and seconds are technically valid, but the fractions are ignored by Adobe.
+* The date can be in standard or extended format. For example, `2026-01-01T00:00:00Z` and `20260101T000000Z` are both valid.
+* Fractional minutes and seconds are technically valid, but the fractions are ignored. Adobe Analytics supports timestamps at only second-level precision. If millisecond-level precision is a priority for your organization, consider using Customer Journey Analytics.
 * Time zones are supported in standard and extended formats.
 
 The following are valid example ISO 8601 values in the `timestamp` variable:
 
 ```text
-2024-01-01T00:00:00+00:00
-2024-01-01T00:00:00Z
-2024-01-01T00:00:00
-2024-01-01T00:00
-20240101T000000+0000
-20240101T000000Z
-20240101T000000
-20240101T0000
+2026-01-01T00:00:00+00:00
+2026-01-01T00:00:00Z
+2026-01-01T00:00:00
+2026-01-01T00:00
+20260101T000000+0000
+20260101T000000Z
+20260101T000000
+20260101T0000
 ```

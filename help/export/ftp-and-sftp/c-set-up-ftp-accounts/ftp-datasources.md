@@ -43,6 +43,6 @@ Import File: `Classifications.tab`
 
 Finish File: `Classifications.fin`
 
-If you upload your Data Sources or SAINT file without an accompanying `.fin` file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the CX Enterprise. You are notified of this only if you have entered your email address as the [!UICONTROL Notification Recipient] in the [!UICONTROL Create FTP Account] window of reporting. If no email address is entered in this field, no notification is sent.
+If you upload your Data Sources or SAINT file without an accompanying `.fin` file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in CX Enterprise. You are notified of this only if you have entered your email address as the [!UICONTROL Notification Recipient] in the [!UICONTROL Create FTP Account] window of reporting. If no email address is entered in this field, no notification is sent.
 
 If you do upload your file with a `.fin` file, but there is an error in the file, it is submitted for processing, but the error causes the processing to cease and the file to be sent to an error folder. If this occurs, a notification is sent to the email address listed in the [!UICONTROL Notification Recipient] field in the [!UICONTROL Create FTP Account] window. If no email address is entered, no notification is sent.

@@ -11,12 +11,14 @@ subfeature_v2:
 ---
 # Sub-hit analysis
 
+{{release-limited-testing}}
+
 Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order.
 
 
 In Adobe Analytics, the [Products variable](/help/components/dimensions/product.md) can capture multiple products on a single hit. Without sub-hit analysis, segmenting on a product attribute returns all hits where any product within a hit matches the product attribute. The result is incorrect attribution and inflated revenue metrics. Sub-hit analysis scopes the filter to individual product rows within a hit and solves these issues.
 
-In sub-hit analysis exclude logic behaves differently from standard hit-level exclusion against the Products variable. When you exclude product attributes within the [!UICONTROL Product] container, the segment returns hits that **have products** but don't match your exclusion criteria. The segment does not return hits with no products at all. 
+In sub-hit analysis exclude logic behaves differently from standard hit-level exclusion against the Products variable. When you exclude product attributes within the [!UICONTROL Products] container, the segment returns hits that **have products** but don't match your exclusion criteria. The segment does not return hits with no products at all. 
 
 ## Example
 
@@ -63,11 +65,11 @@ In Adobe Analytics sub-hit analysis applies specifically to the **[!UICONTROL Pr
 
 ## Container auto-inference
 
-When you drag a product dimension or metric into the Segment Builder or Quick segment panel, the system automatically selects the **[!UICONTROL Product]** container and does not use the default **[!UICONTROL Hit]** container. This behavior keeps the segment scoped to individual products rather than to the entire hit.
+When you drag a product dimension or metric into the Segment Builder or Quick segment panel, the system automatically selects the **[!UICONTROL Products]** container and does not use the default **[!UICONTROL Hit]** container. This behavior keeps the segment scoped to individual products rather than to the entire hit.
 
 ## Mixed container behavior
 
-If you drag both product-level and hit-level components into a single segment rule, the system uses the **[!UICONTROL Hit]** container, which is the highest (least granular) shared container. If all components that are part of a segment rule are product-level, the **[!UICONTROL Product]** container is used.
+If you drag both product-level and hit-level components into a single segment rule, the system uses the **[!UICONTROL Hit]** container, which is the highest (least granular) shared container. If all components that are part of a segment rule are product-level, the **[!UICONTROL Products]** container is used.
 
 ## Product filters in the left rail
 

@@ -96,9 +96,9 @@ The header area determines the name, type and scope of the quick segment. It als
 | Element | Description |
 |---|---|
 | **[!UICONTROL Name]** | The name is automatically derived from the quick segment definition. |
-| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Preview visual of the data resulting from the quick segment. A bar and percentage provide insight in how much of the overall data is part of the result of the quick segment. A ![Alert](/help/assets/icons/AlertRed.svg) signals that the quick segment does not return data. |
+| **[!UICONTROL _Metric_]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Preview visual of the metrics data resulting from the quick segment. A bar and percentage provide insight in how much of the overall data is part of the result of the quick segment. A ![Alert](/help/assets/icons/AlertRed.svg) signals that the quick segment does not return data. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Select from the drop-down ![ChevronDown](/help/assets/icons/ChevronDown.svg) whether you want to include or exclude the results of the quick segment from the data in the panel. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Select from the drop-down menu ![ChevronDown](/help/assets/icons/ChevronDown.svg) the scope of the quick segment. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]**<br/>**[!UICONTROL Products]** | Select from the drop-down menu ![ChevronDown](/help/assets/icons/ChevronDown.svg) the scope of the quick segment. Use **[!UICONTROL Products]** for [sub-hit analysis](/help/components/segmentation/sub-hit.md) use cases. |
 
 ### Condition area 
 

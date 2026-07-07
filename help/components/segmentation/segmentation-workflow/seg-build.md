@@ -86,7 +86,7 @@ You use the Definition builder to construct your segment definition. In that con
 You can configure the type and scope of your definition: 
 
 1. To specify the type of your definition, specify whether you want the build an include or exclude definition. Select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** and from the drop-down menu **[!UICONTROL Include]** or **[!UICONTROL Exclude]**.
-1. To specify the scope of your definition, select from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu whether you want the scope of the definition to be **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, or **[!UICONTROL Visitors]**.
+1. To specify the scope of your definition, select from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu whether you want the scope of the definition to be **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, **[!UICONTROL Visitors]** or **[!UICONTROL Products]**. You use **[!UICONTROL Products]** for [sub-hit analysis](/help/components/segmentation/sub-hit.md) use cases.
 
 You can always change these settings later.
 
@@ -123,7 +123,7 @@ You can group multiple components in one or more containers and define logic wit
 * To add another component to the container, drag and drop a component from the component panel into the container. Use the blue insertion line as a guide.
 * To add another component outside of the container, drag and drop a component from the component panel outside of the container, but inside the main definition container. User the blue insertion line as a guide.
 * To modify the logic between components in a container, between containers or between a container and a component, select the appropriate **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. When you select **[!UICONTROL Then]**, you turn the segment into a sequential segment. See [Create sequential segment](seg-sequential-build.md) for more information.
-* To switch the container level, select ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** or ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**.
+* To switch the container level, select ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**, or ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Products]**.
 
 You can use ![Setting](/help/assets/icons/Setting.svg) in a container for the following actions:
 

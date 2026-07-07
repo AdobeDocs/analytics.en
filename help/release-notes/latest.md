@@ -2,6 +2,7 @@
 title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -40,17 +41,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Current Adobe Analytics release notes (June 2026)
+# Current Adobe Analytics release notes (July 2026)
 
-**Last update**: June 25, 2026
+**Last update**: July 8, 2026
 
-These release notes cover the June 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
+These release notes cover the July 2026 release period. Adobe Analytics releases operate on a [continuous delivery model](releases.md), which allows for a more scalable, phased approach to feature deployment. Accordingly, these release notes are updated several times a month. Please check them regularly. 
 
 ## New features or enhancements {#features}
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Journey canvas in Adobe Analytics** <br/>Journey canvas is a visualization in Analysis Workspace that allows you to gain deep insights on a defined user journey by analyzing how people proceed through or fall out of the journey. It allows you to create a flexible graph of nodes and arrows representing any combination of events, dimension items, and segments included in the journey. Data updates as you drag nodes onto the canvas or rearrange the events and conditions of the journey.<p>Journey canvas was previously available only for Customer Journey Analytics.</p><p>To learn more about Journey canvas in Adobe Analytics, see [Journey canvas overview](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>To learn how to build a Journey canvas visualization in Adobe Analytics, see [Configure Journey canvas](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | May 18, 2026 | June 5, 2026 |
+| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order. | July 8 | End of July, 2026 |
+| **AA 2.0 API search features guide** <br/>Use search features to [return a subset of dimension items in reports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | July 1, 2026 |
+| **Automating recurring reports with AA APIs** <br/>Set up automatic, recurring Analytics reports for your data pipeline with fresh metrics on a schedule with the [Report API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | July 1, 2026 |
+| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. <p>For more information, see the [API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) and [Dimensions endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | July 1, 2026 |
 
 ### Fixes in Adobe Analytics
 

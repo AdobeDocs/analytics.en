@@ -2,6 +2,7 @@
 title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -50,10 +51,10 @@ These release notes cover the July 2026 release period. Adobe Analytics releases
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order. | July 8 | End of July |
+| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order. | July 8 | End of July, 2026 |
 | **AA 2.0 API search features guide** <br/>Use search features to [return a subset of dimension items in reports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | July 1, 2026 |
 | **Automating recurring reports with AA APIs** <br/>Set up automatic, recurring Analytics reports for your data pipeline with fresh metrics on a schedule with the [Report API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | July 1, 2026 |
-| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. This information has been added to both the API Reference (https://developer.adobe.com/analytics-...) | | July 1, 2026 |
+| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. <p>(Documentation link to follow.)<!--This information has been added to both the API Reference (https://developer.adobe.com/analytics-...)--></p> | | July 1, 2026 |
 
 ### Fixes in Adobe Analytics
 

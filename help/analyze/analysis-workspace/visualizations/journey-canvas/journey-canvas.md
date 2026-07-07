@@ -139,4 +139,3 @@ You can build analyses in Journey canvas that are based on any dimensions or met
 >[!MORELIKETHIS]
 >
 > * [A Guide to Journey Canvas Visualization in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
-

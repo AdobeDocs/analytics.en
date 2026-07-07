@@ -2,7 +2,6 @@
 title: Sub-Hit Analysis
 description: Learn how sub-hit analysis lets you filter individual products within a hit in Adobe Analytics, eliminating attribution bleed in product reports.
 feature: Segmentation
-hide: true
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace

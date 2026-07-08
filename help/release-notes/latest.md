@@ -2,7 +2,6 @@
 title: Current Adobe Analytics release notes
 description: View the current Adobe Analytics release notes
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -51,25 +50,25 @@ These release notes cover the July 2026 release period. Adobe Analytics releases
 
 | Feature and description | [Rollout starts](releases.md) | [General Availability](releases.md) |
 | ----------- | ---------- | ---- |
-| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. For example, segmenting on a specific product category without including all other products purchased in the same order. | July 8 | End of July, 2026 |
-| **AA 2.0 API search features guide** <br/>Use search features to [return a subset of dimension items in reports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | July 1, 2026 |
-| **Automating recurring reports with AA APIs** <br/>Set up automatic, recurring Analytics reports for your data pipeline with fresh metrics on a schedule with the [Report API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | July 1, 2026 |
-| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. <p>For more information, see the [API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) and [Dimensions endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | July 1, 2026 |
+| **Sub-hit analysis** <br/>Sub-hit analysis lets you analyze product data at a level more granular than the hit level. Instead of filtering on entire hits, you can segment on individual products within hits. <p>For example, you can segment on a specific product category without including all other products purchased in the same order.</p><p>For more information, see [Sub-hit analysis](/help/components/segmentation/sub-hit.md).</p> | July 8 | End of July, 2026 |
+| **AA 2.0 API search features guide** <br/>Use search features to [return a subset of dimension items in reports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>For more information, see [Search features](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) in the Reports endpoint guide on Adobe Developer.  | | July 1, 2026 |
+| **Automating recurring reports with AA APIs** <br/>Set up automatic, recurring Adobe Analytics reports for your data pipeline with fresh metrics on a schedule with the Report API. <p>For more information, see the [Automating recurring Analytics reports endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) on Adobe Developer.</p> | | July 1, 2026 |
+| **New expansion parameters for AA** <br/>Use new Dimension API expansion parameters to retrieve eVar configuration fields for allocation types, expirations, data types, and merchandising. <p>For more information, see the [API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) and [Dimensions endpoint guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) on Adobe Developer.</p> | | July 1, 2026 |
 
 ### Fixes in Adobe Analytics
 
 **Activity Map**: 
-**Analysis Workspace**: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-449890, AN-443594, AN-434416
-**Classifications**: AN-457122, AN-455828, AN-455515, AN-455501, AN-454540, AN-454466, AN-454410, AN-454251, AN-454166, AN-453180, AN-452547, AN-451812, AN-451181, AN-448974, AN-448567, AN-444098, AN-443336
-**Data Feeds and Data Warehouse**: N-457045, AN-456993, AN-456945,AN-456455, AN-456015, AN-455709, AN-454359, AN-451546
-**Migration**: AN-453136, AN-451330
-**Exports**: AN-452006
-**Report Builder**: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819
-**Reporting**: AN-423516, AN-454517, AN-453982, AN-451822, AN-451259, AN-451215, AN-447692
-**Report suites**: AN-455684, AN-455684, AN-454975, AN-430988
-**Scheduled reports**: AN-451980, AN-451882, AN-450715
+**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
+**Classifications**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
+**Data Feeds and Data Warehouse**: AN-456945, AN-460700
+**Migration**: 
+**Exports**: 
+**Report Builder**: AN-457533, AN-453683
+**Reporting**: AN-447692, AN-451259, AN-455713
+**Report suites**: 
+**Scheduled reports**: AN-450715
 **Segmentation**: 
-**Other**: AN-454140, AN-453937, AN-453825, AN-452296, AN-451783, AN-451781, AN-451243, AN-450974, AN-449726, AN-448964, AN-388832
+**Other**: AN-453982, AN-455771
 
 ### End-of-life (EOL) notices {#eol}
 

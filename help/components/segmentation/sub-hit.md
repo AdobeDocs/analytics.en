@@ -57,30 +57,3 @@ To exclude at the product level, hits that contain at least one product are incl
 
 In Adobe Analytics sub-hit analysis applies specifically to the **[!UICONTROL Products]** variable. The **[!UICONTROL Products]** variable is the only multi-value object in Adobe Analytics that supports sub-hit analysis.
 
-
->[!WARNING]
->
->The following sections are going to be moved to their relevant articles (on Segment builder, Quick segment, Histogram, and more) when this feature releases. And these articles will then refer to this article for reference on what sub-hit analysis is. This action is currently not done so as not to confuse customers while the feature is unavailable.
-
-## Container auto-inference
-
-When you drag a product dimension or metric into the Segment Builder or Quick segment panel, the system automatically selects the **[!UICONTROL Products]** container and does not use the default **[!UICONTROL Hit]** container. This behavior keeps the segment scoped to individual products rather than to the entire hit.
-
-## Mixed container behavior
-
-If you drag both product-level and hit-level components into a single segment rule, the system uses the **[!UICONTROL Hit]** container, which is the highest (least granular) shared container. If all components that are part of a segment rule are product-level, the **[!UICONTROL Products]** container is used.
-
-## Product filters in the left rail
-
-The Segment Builder includes a new filter option in the left rail to display only product dimensions and metrics. This makes it easier to find product-level components when building sub-hit segments.
-
->[!NOTE]
->
->This filter option is available in the Segment Builder only. It is not available in other left rails such as Analysis Workspace panels or visualizations.
-
-## Histogram visualization
-
-The Histogram visualization includes a new sub-hit container drop-down menu. This lets you bucket metric values at the product level. For example, counting product occurrences per order rather than per hit.
-
-The Histogram is the only visualization that requires a sub-hit container selection. All other panels and visualizations work with sub-hit analysis data without additional configuration.
-

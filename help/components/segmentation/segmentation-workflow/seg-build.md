@@ -86,7 +86,7 @@ You use the Definition builder to construct your segment definition. In that con
 You can configure the type and scope of your definition: 
 
 1. To specify the type of your definition, specify whether you want the build an include or exclude definition. Select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** and from the drop-down menu **[!UICONTROL Include]** or **[!UICONTROL Exclude]**.
-1. To specify the scope of your definition, select from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu whether you want the scope of the definition to be **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, or **[!UICONTROL Visitors]**.
+1. To specify the scope of your definition, select from the **[!UICONTROL Include]** or **[!UICONTROL Exclude]** drop-down menu whether you want the scope of the definition to be **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, **[!UICONTROL Visitors]** or **[!UICONTROL Products]**. You use **[!UICONTROL Products]** for [sub-hit analysis](/help/components/segmentation/sub-hit.md) use cases.
 
 You can always change these settings later.
 
@@ -98,7 +98,9 @@ A vital part of the construction of your segment definition is using dimensions,
 
 To add a component:
 
-1. Drag and drop a component from the components panel onto **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]**. You can use the ![Search](/help/assets/icons/Search.svg) in the components bar to search for specific components.
+1. Drag and drop a component from the components panel onto **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]**. 
+   * You can use ![Search](/help/assets/icons/Search.svg) in the components bar to search for specific components.
+   * You can use ![Filter](/help/assets/icons/Filter.svg) in the components bar to filter on ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approved]**, ![Star](/help/assets/icons/Star.svg) **[!UICONTROL Favorites]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensions]**, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]**, ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**, ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]**, and ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL Products]** components. You can also filter on ![Label](/help/assets/icons/Label.svg)  tags.
 1. Specify details for the component. For example, select a value from **[!UICONTROL Select value]**. Or enter a value. What and how you can specify one or more values depends on the component and the operator.
 1. Optionally modify the default operator. For example, from **[!UICONTROL equals]** to **[!UICONTROL equals any of]**. See [Operators](../seg-reference/seg-operators.md) for a detailed overview of the available operators.
 
@@ -123,7 +125,7 @@ You can group multiple components in one or more containers and define logic wit
 * To add another component to the container, drag and drop a component from the component panel into the container. Use the blue insertion line as a guide.
 * To add another component outside of the container, drag and drop a component from the component panel outside of the container, but inside the main definition container. User the blue insertion line as a guide.
 * To modify the logic between components in a container, between containers or between a container and a component, select the appropriate **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]**. When you select **[!UICONTROL Then]**, you turn the segment into a sequential segment. See [Create sequential segment](seg-sequential-build.md) for more information.
-* To switch the container level, select ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** or ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**.
+* To switch the container level, select ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**, or ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Products]**.
 
 You can use ![Setting](/help/assets/icons/Setting.svg) in a container for the following actions:
 
@@ -135,6 +137,9 @@ You can use ![Setting](/help/assets/icons/Setting.svg) in a container for the fo
 | **[!UICONTROL Name container]** | Rename the container from its default description. Type a name in the text field. If you provide no input, the default description is used. |
 | **[!UICONTROL Delete container]** | Delete the container from the definition. |
 
+When you drag a product dimension or metric into the Segment builder, the system automatically selects the **[!UICONTROL Product]** container and does not use the default **[!UICONTROL Hit]** container. This behavior keeps the segment scoped to individual products rather than to the entire hit.
+
+When you drag both product-level and hit-level components into a single segment rule, the system uses the **[!UICONTROL Hit]** container, which is the highest (least granular) shared container. If all components that are part of a segment rule are product-level, the **[!UICONTROL Products]** container is used.
 
 ## Date ranges
 

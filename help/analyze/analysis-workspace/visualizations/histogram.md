@@ -64,7 +64,7 @@ As part of the visualization, specific histogram settings are available.
 |  **[!UICONTROL Starting bucket]**  | Determines which bucket the histogram starts with. "1" is the default. You can set starting numbers from 0 to infinity (no negative numbers).  |
 |  **[!UICONTROL Metric buckets]**  | Lets you increase/decrease the number of data ranges (buckets.) The maximum number of buckets is 50.  |
 |  **[!UICONTROL Metric bucket size]** | Lets you set the size of each bucket. For example, you can change the bucket size from 1 page view to 2 page views.  |
-|  **[!UICONTROL Counting method]**  | Select from **[!UICONTROL Person]**, **[!UICONTROL Session]**, or **[!UICONTROL Event]**. For example, page views per session, or page views per person, or page views per event.  |
+|  **[!UICONTROL Counting method]**  | Select from **[!UICONTROL Person]**, **[!UICONTROL Session]**, **[!UICONTROL Event]**, or **[!UICONTROL Products]** (for [sub-hit analysis](/help/components/segmentation/sub-hit.md)). For example, page views per session, or page views per person, page views per event, or page view per product.  |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 

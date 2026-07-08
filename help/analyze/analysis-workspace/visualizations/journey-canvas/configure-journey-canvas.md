@@ -577,5 +577,4 @@ You can delete one or more arrows at a time within a journey. When you delete an
 To delete arrows between nodes in Journey canvas:
 
 1. In a Journey canvas visualization, select one or more arrows between 2 nodes that you want to delete, then right-click one of the selected arrows.
-
 1. Select [!UICONTROL **Delete**].

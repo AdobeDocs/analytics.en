@@ -226,7 +226,7 @@ For example:
 >Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed based on the last modified date of the file and using a 30 day log. See the example below.
 >
 
-### Example
+#### Example
 
 An import file, named `import.csv`, is created and uploaded on 5/1/2026, and updated and uploaded on 6/16/2026. When the file is not removed, on:
 

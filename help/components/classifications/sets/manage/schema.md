@@ -46,7 +46,7 @@ The list of classifications has the following columns:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Classification name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity name]** | The sytem generated name for the classification. This name is a read-only value and is derived from the initial classification name. The identity name is used internally to persist the classification, act as the ID of the reportable dimension, and cannot be changed. |
+| **[!UICONTROL Identity name]** | The system generated name for the classification. This name is a read-only value and is derived from the initial classification name. The identity name is used internally to persist the classification, act as the ID of the reportable dimension, and cannot be changed. |
 | **[!UICONTROL Classified by]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -223,7 +223,23 @@ For example:
 
 >[!IMPORTANT]
 >
->Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed upon the next import job. 
+>Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed based on the last modified date of the file and using a 30 day log. See the example below.
+>
+
+### Example
+
+An import file, named `import.csv`, is created and uploaded on 5/1/2026, and updated and uploaded on 6/16/2026. When the file is not removed, on:
+
+| Date | Action |
+|---:|---|
+| 5/1/26 | A file, titled `import.csv`, is uploaded to cloud storage.|
+| 5/1/26 | The file is processed (the file is less than 30 days old and has not been processed before).|
+| 5/28/26 | The file is **not** processed (the file is less than 30 days old, but has been processed in the last 30 days).|
+| 6/15/26 | The file is **not** processed (the file is more than 30 days since its last modified date/uploaded date).|
+| 6/16/26 | An update is made to the same file, titled `import.csv`, and uploaded to cloud storage.|
+| 6/16/26 | The updated file is processed (the updated file is less than 30 days old and the updated file has not been processed before).|
+| 6/30/26 | The updated file is **not** processed (the updated file is less than 30 days old, but has been processed in the last 30 days). |
+| 7/31/26 | The updated file is **not** processed (the updated file is more than 30 days since its last modified date/uploaded date). |
  
 
 

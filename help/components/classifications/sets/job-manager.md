@@ -53,7 +53,7 @@ The **[!UICONTROL Classification Jobs]** list ➊ displays classification jobs. 
 | **[!UICONTROL Status]** | The status of the classification job. Possible values are: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]**, or **[!UICONTROL Progress]**. If displayed, hover over the alert ![Alert](/help/assets/icons/Alert.svg) to display additional information. |
 | **[!UICONTROL File Name]** | Identifies the name or functionality used to import or export the file as part of the classification job. Possible values are: <ul><li>*no value*</li><li>The name of the file that is processed as part of the classification job.</li><li>**[!UICONTROL SAINT Export]**: The job is an export from the [legacy Classifications interface](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _classification set_ at _timestamp_]**: The job is a download from the [schema](manage/schema.md#download) interface.</li></ul> |
 | **[!UICONTROL Job Type]** | The type of classification job. Possible values are: **[!UICONTROL Import]** or **[!UICONTROL Export]**. |
-| **[!UICONTROL Source]** | The source of the classification job. Possible values are: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]**, or **[!UICONTROL Unknown]**. |
+| **[!UICONTROL Source]** | The source of the classification job. See [Filter panel](#filter-panel) for details on possible sources. |
 | **[!UICONTROL Modified Lines]** | The number of modified lines that the classification job modified. |
 | **[!UICONTROL Total Lines]** | The number of total lines that the classification job processed. |
 | **[!UICONTROL Completion Time]** | The completion time of the classification job. |
@@ -88,7 +88,22 @@ Select ![Filter](/help/assets/icons/Filter.svg) to show the filter panel ➌ tha
 * **[!UICONTROL Completion Time]**. Select one of the possible values to filter the classification jobs list on completion time.
 * **[!UICONTROL Status]**. Select one of the possible values to filter the classification jobs list on status. 
 * **[!UICONTROL Job Type]**. Select one of the possible values to filter the classification jobs list on job type. 
-* **[!UICONTROL Source]**. Select one of the possible values to filter the classification jobs list on source. 
+* **[!UICONTROL Source]**. Select one of the possible values to filter the classification jobs list on source.
+  
+  Possible values for **[!UICONTROL Source]** are:
+
+  | Source | Explanation |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Jobs created by Adobe as part of an internal process. For example, consolidations. |
+  | **[!UICONTROL Backend]** | Jobs created by the deprecated FTP import process. |
+  | **[!UICONTROL Cloud Ingestion]** | Jobs that are the result of importing classification data from a cloud location. |
+  | **[!UICONTROL Direct API Export]** | Jobs that are the result of using the Adobe Analytics 2.0 API to export classification data. |
+  | **[!UICONTROL Direct API Upload]** | Jobs that are the result of using the Adobe Analytics 2.0 API to upload classification data. |
+  | **[!UICONTROL Republish]** | Jobs that are the result of a republish. |
+  | **[!UICONTROL Rule-based Classifications]** | Jobs that are the results of rule-based classifications. |
+  | **[!UICONTROL Saint]** | Jobs that are the results of legacy rule-based classifications. |
+  | **[!UICONTROL Web API]** | Jobs that are the results of using the Web API to export or upload classification data. |
+  | **[!UICONTROL Unknown]** | Jobs for which the source is unknown. |
 
 
 Select ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** to hide the filters panel.

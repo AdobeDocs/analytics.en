@@ -46,7 +46,7 @@ The list of classifications has the following columns:
 | Column | Description |
 |---|---|
 | **[!UICONTROL Classification name]** | The name you provided for the classification. |
-| **[!UICONTROL Identity name]** | The sytem generated name for the classification. This name is a read-only value and is derived from the initial classification name. The identity name is used internally to persist the classification, act as the ID of the reportable dimension, and cannot be changed. |
+| **[!UICONTROL Identity name]** | The system generated name for the classification. This name is a read-only value and is derived from the initial classification name. The identity name is used internally to persist the classification, act as the ID of the reportable dimension, and cannot be changed. |
 | **[!UICONTROL Classified by]** | If used, a link to the lookup classification set that is used to classify this classification. |
 
 
@@ -223,7 +223,14 @@ For example:
 
 >[!IMPORTANT]
 >
->Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed upon the next import job. 
+>Remove files from the cloud location manually or using a file rotation policy once the files are successfully imported and processed. Otherwise, the files are re-imported and reprocessed based on the last modified date of the file and using a 30 day log.
+>
+>**Example**: An import file is created on 4/1/2026, and updated on 5/1/2026. When the file is not removed, on:
+>
+>* 5/1/2026: The file is processed after the update.
+>* 5/28/2026: The file is processed. The last modified date is within the 30 days log.
+>* 6/15/2026: The file is not processes. The last modified date outside of the 30 days log.
+>
  
 
 

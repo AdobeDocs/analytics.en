@@ -235,11 +235,11 @@ An import file, named `import.csv`, is created and uploaded on 5/1/2026, and upd
 | 5/1/26 | A file, titled `import.csv`, is uploaded to cloud storage.|
 | 5/1/26 | The file is processed (the file is less than 30 days old and has not been processed before).|
 | 5/28/26 | The file is **not** processed (the file is less than 30 days old, but has been processed in the last 30 days).|
-| 6/15/26 | The file is **not** processed (the file is more than 30 days since its last modified date/uploaded date).|
+| 6/15/26 | The file is **not** processed (the file is more than 30 days old since its last modified date/uploaded date).|
 | 6/16/26 | An update is made to the same file, titled `import.csv`, and uploaded to cloud storage.|
 | 6/16/26 | The updated file is processed (the updated file is less than 30 days old and the updated file has not been processed before).|
 | 6/30/26 | The updated file is **not** processed (the updated file is less than 30 days old, but has been processed in the last 30 days). |
-| 7/31/26 | The updated file is **not** processed (the updated file is more than 30 days since its last modified date/uploaded date). |
+| 7/31/26 | The updated file is **not** processed (the updated file is more than 30 days old since its last modified date/uploaded date). |
  
 
 

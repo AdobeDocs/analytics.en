@@ -101,7 +101,8 @@ Select ![Filter](/help/assets/icons/Filter.svg) to show the filter panel ➌ tha
   | **[!UICONTROL Direct API Upload]** | Jobs that are the result of using the Adobe Analytics 2.0 API to upload classification data. |
   | **[!UICONTROL Republish]** | Jobs that are the result of a republish. | 
   | **[!UICONTROL Rule-based Classifications]** | Jobs that are the results of rule-based classifications. |
-  | **[!UICONTROL Saint]** | Job that are the results of legacy rule-based classifications. |
+  | **[!UICONTROL Saint]** | Jobs that are the results of legacy rule-based classifications. |
+  | **[!UICONTROL Web API]** | Jobs that are the results of using the Web API to export or upload classification data. | 
   | **[!UICONTROL Unknown]** | Jobs for which the source is unknown. |
 
 

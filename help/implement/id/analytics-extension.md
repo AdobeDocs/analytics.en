@@ -29,11 +29,11 @@ topic_v2:
 ---
 # Visitor identification using the Adobe Analytics tag extension
 
-The Adobe Analytics tag extension provides allows you to implement AppMeasurement using a tag management interface. Since this tag extension is essentially AppMeasurement under the hood, it offers similar methods to identify visitors and requires a separate tag extension for the Visitor ID Service.
+The Adobe Analytics tag extension provides allows you to implement AppMeasurement using a tag management interface. Since this tag extension is essentially AppMeasurement under the hood, it offers similar methods to identify visitors and requires a separate tag extension to collect ECID.
 
 ## Identifying visitors using the Visitor ID Service (recommended)
 
-To use the Visitor ID Service using the Adobe Analytics tag extension, include the Experience Cloud ID Service tag extension in your tag property.
+To use the Visitor ID Service using the Adobe Analytics tag extension, include the [!UICONTROL Experience Cloud ID Service] tag extension (which implements the Visitor ID Service) in your tag property.
 
 1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 1. Navigate to **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
@@ -43,20 +43,20 @@ To use the Visitor ID Service using the Adobe Analytics tag extension, include t
 
 The tag extension automatically obtains your IMS org ID, so no additional configuration is necessary.
 
-## Identifying visitors using the `s_vi` cookie (Not recommended)
+## Identifying visitors using the `s_vi` cookie (not recommended)
 
 >[!IMPORTANT]
 >
 >Adobe advises against using this method to identify visitors.
 
-If your organization does not use the Visitor ID Service tag extension, the Adobe Analytics tag extension uses its own form of visitor identification. When a visitor arrives to your site for the first time, the extension checks for a [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. This cookie is set at the domain matching **[!UICONTROL SSL Tracking Server]** (for HTTPS) or **[!UICONTROL Tracking Server]** (for HTTP) when [configuring the tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
+If your organization does not use the [!UICONTROL Experience Cloud ID Service] tag extension, the Adobe Analytics tag extension uses its own legacy form of visitor identification. When a visitor arrives to your site for the first time, the extension checks for a [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie. This cookie is set at the domain matching **[!UICONTROL SSL Tracking Server]** (for HTTPS) or **[!UICONTROL Tracking Server]** (for HTTP) when [configuring the tag extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 * If you participate in the [Managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), your tracking server would typically be a first-party domain, making `s_vi` cookies first-party.
 * If you do not participate in the Managed certificate program, tracking server is typically a subdomain of `adobedc.net`, `omtrdc.net`, or `2o7.net`, making the `s_vi` cookie a third-party cookie. Due to modern browser privacy standards, third-party cookies are rejected by most browsers. Once rejected, AppMeasurement attempts to set a first-party fallback cookie (`fid`) instead.
 
 If you correctly set [!UICONTROL SSL Tracking Server], then no further visitor identification measures are required.
 
-## Identifying visitors using `visitorID` (Not recommended)
+## Identifying visitors using `visitorID` (not recommended)
 
 >[!IMPORTANT]
 >

@@ -32,7 +32,7 @@ Once all prerequisites are met, use the following steps to enable Cross-Device A
 
 CDA is provisioned on your cross-device report suite by Adobe engineering. To start this process, contact Customer Care and be prepared to provide the following information:
 
-* Your Adobe CX Enterprise org ID (An alphanumeric string ending with @AdobeOrg)
+* Your IMS org ID (An alphanumeric string ending with @AdobeOrg)
 * The report suite ID for the cross-device report suite you want to enable with CDA
 * Which method of CDA you want to use (Field-based Stitching)
 * If you intend to use field-based stitching, the prop or eVar that contains the user ID

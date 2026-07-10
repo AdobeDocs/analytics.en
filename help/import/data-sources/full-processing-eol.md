@@ -53,7 +53,7 @@ The following variables were introduced to Bulk data insertion, previously unava
 
 * **`aamlh`**: Adobe Audience Manager location hint.
 * **`contextData.key`**: [Context data variables](/help/implement/vars/page-vars/contextdata.md).
-* **`customerID`**: Experience Cloud ID service variables. Includes `id`, `authState`, and `isMCSeed`.
+* **`customerID`**: Visitor ID Service variables. Includes `id`, `authState`, and `isMCSeed`.
 * **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variables. Includes `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, and `wow64`.
 * **`ipaddress`**: The [IP address](/help/components/dimensions/ip-address.md) dimension.
 * **`language`**: The [Language](/help/components/dimensions/language.md) dimension.

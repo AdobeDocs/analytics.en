@@ -166,11 +166,6 @@ user-guide-description: Learn ways to implement Adobe Analytics. Customize what 
       + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
       + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
     + [Troubleshoot H Code](js/h-code/troubleshooting.md)
-  + Legacy cross-device identification {#xdevice-visid}
-    + [Connecting users across devices overview](js/xdevice-visid/xdevice-connecting.md)
-    + [Variable persistence](js/xdevice-visid/variable-persistence.md)
-    + [Visit example](js/xdevice-visid/visit-example.md)
-    + [Legacy cross-device FAQ](js/xdevice-visid/xdevice-faq.md)
   + [Troubleshoot AppMeasurement](js/troubleshooting.md)
 + Implement Analytics on other platforms {#other}
   + [Implement Analytics using hardcoded image requests](other/hardcoded.md)

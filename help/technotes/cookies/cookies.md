@@ -56,7 +56,7 @@ Additionally, Chrome currently only allows cookies to function in a third-party 
 
 #### Which Adobe third-party cookies are affected?
 
-The Visitor ID service uses the "[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)" cookie to provide a persistent identifier for visitors across different customer domains. The legacy Analytics ID service, the "s_vi" cookie, is set as a third-party cookie for implementations not using a custom CNAME collection domain. 
+The Visitor ID Service uses the "[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)" cookie to provide a persistent identifier for visitors across different customer domains. The legacy Analytics ID service, the "s_vi" cookie, is set as a third-party cookie for implementations not using a custom CNAME collection domain. 
 
 On browsers where third-party cookies are blocked, cross-domain tracking is not available.
 
@@ -66,7 +66,7 @@ First-party cookies are permitted on all major browsers. However, Apple limits t
 
 Adobe's first-party cookies are limited to a 7-day expiry or, for click-throughs that Apple determines are coming from trackers, a 24-hour expiry. With a 7-day expiry, if a user visits your site and returns within seven days, then the cookie's expiration date is extended by another seven days. However, if a user visits your site and returns in eight days, then they are treated as a new user on the second visit.
 
-Currently, ITP policies apply to all first-party cookies set by Adobe, whether you're using the Visitor ID service or the legacy Analytics ID ("s_vi" cookie). At one point, these policies applied only to cookies set client-side and not to cookies set server-side via a CNAME implementation. In November of 2020, however, ITP was updated to apply to CNAME implementations as well.
+Currently, ITP policies apply to all first-party cookies set by Adobe, whether you're using the Visitor ID Service or the legacy Analytics ID ("s_vi" cookie). At one point, these policies applied only to cookies set client-side and not to cookies set server-side via a CNAME implementation. In November of 2020, however, ITP was updated to apply to CNAME implementations as well.
 
 #### Timeline of major changes to ITP policy {#ITP-timeline}
 
@@ -81,8 +81,8 @@ ITP policies are frequently evolving. For the latest policies, see Apple's [Trac
 All first-party cookies set by Adobe, and the related JavaScript libraries, are affected by ITP policies:
 
 * ["AMCV" cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) set by the Adobe Experience Cloud Visitor ID (ECID) service library
-* The Analytics legacy ["s_vi" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) when it is configured with first-party data collection using a CNAME
-* The Analytics legacy ["s_fid" cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), which is the fallback cookie used when "s_vi" cannot be set
+* The Analytics legacy ["s_vi" cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) when it is configured with first-party data collection using a CNAME
+* The Analytics legacy ["s_fid" cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), which is the fallback cookie used when "s_vi" cannot be set
 
 #### What is the impact of ITP to Safari for Analytics?
 
@@ -103,7 +103,7 @@ If these limitations do impact your data, you will see:
 
 Third-party cookies are not created by the websites that users visit.
 
-Although browsers currently treat all third-party cookies the same and store them so, third-party cookies can behave in different ways. With a customer's Analytics third-party cookie implementation, browsers store the Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie, but the client makes calls only to Adobe, and not too unknown or suspicious third-party domains. This cookie provides persistent identifiers across domains and allows for secure (HTTPS) content. For more information, see [Cookies and the Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Although browsers currently treat all third-party cookies the same and store them so, third-party cookies can behave in different ways. With a customer's Analytics third-party cookie implementation, browsers store the Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID as a third-party cookie, but the client makes calls only to Adobe, and not too unknown or suspicious third-party domains. This cookie provides persistent identifiers across domains and allows for secure (HTTPS) content. For more information, see [Cookies and the Visitor ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 Within Analytics implementations, third-party cookies are used for cross-domain tracking and for advertising use cases, including retargeting ads. Third-party cookies allow you to identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -151,13 +151,13 @@ The following table summarizes the SameSite attributes for Analytics cookies:
 
 Confirm that your JavaScript configuration uses HTTPS for all calls to Adobe services.
 
-If your site uses the Experience Cloud Visitor ID service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
+If your site uses the Visitor ID Service, the service redirects third-party HTTP calls to its HTTPS endpoint, which can increase latency but means that you are not required to change your configuration.
 
 #### Change the SameSite value when you use one CNAME for multiple domains {#samesite-one-cname}
 
 >[!NOTE]
 >
->The following information pertains only to sites that do not use the Experience Cloud Visitor ID service.
+>The following information pertains only to sites that do not use the Visitor ID Service.
 
 If you have a CNAME implementation that is set in the same domain as your website, then the cookie is created in a first-party context, and you do not need to make changes.
 

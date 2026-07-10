@@ -33,7 +33,7 @@ Adobe uses several different methods to [identify visitors](../../id/overview.md
 
 >[!IMPORTANT]
 >
->Adobe advises against using this variable. Use the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) instead.
+>Adobe advises against using this variable. Use the [Adobe Visitor ID Service](https://experienceleague.adobe.com/en/docs/id-service/using/home) instead.
 
 ## How Analytics uses `visitorID`
 

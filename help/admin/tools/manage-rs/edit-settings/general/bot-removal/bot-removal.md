@@ -44,7 +44,7 @@ For more detail, see [Understand and configure bot rules](/help/admin/tools/mana
 
 ## Use a combination of Adobe Tools
 
-In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Experience Cloud ID service, segmentation, Data Warehouse, customer attributes, and virtual report suites. Here is an overview of how you can use these tools.
+In addition, since bots are morphing quickly, Adobe offers several other powerful features that, when combined properly and on a regular basis, can help drive the removal of these enemies of data quality. Those features are: Visitor ID Service, segmentation, Data Warehouse, customer attributes, and virtual report suites. Here is an overview of how you can use these tools.
 
 ### Step 1: Pass your visitors' Experience Cloud ID into a new declared ID
 
@@ -52,11 +52,11 @@ To start, create a new declared ID in the [People Core Service](https://experien
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-Here is how this ID can be captured via Data Element. Be sure to populate your CX Enterprise OrgID into the Data Element correctly.
+Here is how this ID can be captured via data element. Be sure to populate your IMS org ID into the data element correctly.
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-Once this Data Element is set up, follow [these instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) to pass declared IDs into the ECID Tool using tags in Adobe Experience Platform.
+Once this data element is set up, follow [these instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) to pass declared IDs into the ECID Tool using tags in Adobe Experience Platform.
 
 ### Step 2: Use segmentation to identify bots
 
@@ -70,7 +70,7 @@ Now that you have identified the bots using segments, the next step is to use Da
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-Remember to use CX Enterprise Visitor ID as your dimension and apply the 'Bots' segment.
+Remember to use [!UICONTROL Experience Cloud Visitor ID] as your dimension and apply the 'Bots' segment.
 
 ### Step 4: Pass this list back to Adobe as a Customer attribute
 

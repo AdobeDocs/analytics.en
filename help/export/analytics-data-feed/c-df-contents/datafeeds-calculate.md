@@ -53,7 +53,7 @@ Describes how to calculate common metrics using data feeds.
 
 ## Visitors
 
-All methods Adobe uses to identify unique visitors (custom visitor ID, Experience Cloud ID service, etc.) are all ultimately calculated as a value in `post_visid_high` and `post_visid_low`. The concatenation of these two columns can be used as the standard of identifying unique visitors regardless of how they were identified as a unique visitor. If you would like to understand which method Adobe used to identify a unique visitor, use the column `post_visid_type`.
+All methods Adobe uses to identify unique visitors (custom visitor ID, ECID, etc.) are all ultimately calculated as a value in `post_visid_high` and `post_visid_low`. The concatenation of these two columns can be used as the standard of identifying unique visitors regardless of how they were identified as a unique visitor. If you would like to understand which method Adobe used to identify a unique visitor, use the column `post_visid_type`.
 
 1. Concatenate `post_visid_high` and `post_visid_low`.
 2. Count the unique number of values.
